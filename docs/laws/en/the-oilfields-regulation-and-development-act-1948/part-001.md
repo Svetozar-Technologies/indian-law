@@ -1,0 +1,490 @@
+---
+title: "The Oilfields (Regulation and Development) Act, 1948"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1397"
+---
+# The Oilfields (Regulation and Development) Act, 1948
+
+Language: English
+Part 1 of 1
+Sections: 1 to 14
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1397
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1397/3/A1948-53.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00003_194853_1517807321812/rulesindividualfile/&file=ORD+Rules+and+notification.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00003_194853_1517807321812/notificationindividualfile/&file=ORD+Rules+and+notification.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+
+## Section 1 - Short title, extent and commencement.
+
+(1) This Act may be called The^1[Oilfields] (Regulation
+and Development) Act, 1948.
+
+^2[(2) It extends to the whole of India^3***].
+
+(3) it shall come into force on such date^4
+as the Central Government may, by notification in the
+Official Gazette, appoint in this behalf.
+
+### Footnotes
+
+1. Subs. by s. 32 and the Third Schedule, ibid., for "Mines and Minerals" (w.e.f. 1-6-1958).
+
+2. Subs. by the A.O. 1950, for sub-section 2.
+
+3. The words "except the State of Jammu and Kashmir" omitted by Act 67 of 1957, s. 32 and the Third Schedule,(w.e.f. 1-6-
+1958).
+
+4. 25th October, 1949 see Notification No. M-II-155 (24)-I, dated 18th October 1949, Gazette of India, Extraordinary, 1949.
+
+## Section 2 - [Omitted.].
+
+[Declaration as to expediency of control by Central Government.] mitted by the Mines and Minerals (Regulation and Development) Act, 1957 (67 of 1957), s. 32 and the Third Schedule (w.e.f. 1-6-1958).]
+
+## Section 3 - Definitions.
+
+In this Act, unless there is anything repugnant in the subject or context,---
+
+(a) the expressions "lessor" and "lessee" respectively include a licensor and licensee;
+
+^1* * * * *
+
+^2[(c) "mineral oils" means any naturally occurring hydrocarbon, whether in the form of natural
+gas or in a liquid, viscous or solid form, or a mixture thereof, and includes crude oil, natural gas,
+petroleum, condensate, coal bed methane, oil shale, shale gas, shale oil, tight gas, tight oil, gas
+hydrate in their usual industrial connotation and other gases occurring in association with mineral
+oils, but does not include coal, lignite and helium occurring in association with petroleum or coal or
+shale;]
+
+(d) "mining lease" means a lease granted for the purpose of searching for, winning, working,
+getting, making merchantable, carrying away or disposing of ^3[mineral oils] or for purposes
+connected therewith, and includes an exploring or a prospecting license
+^4[granted before the
+commencement of the Oilfields (Regulation and Development) Amendment Act, 2025];
+
+(e) "oilfield" means any area where any operation for the purpose of obtaining ^5[mineral oils],
+refined oil, partially refined oil and any of the products of petroleum in a liquid or solid state, is to be
+or is being carried on.
+
+^6[(f) "petroleum lease" means a lease granted on or after the commencement of the Oilfields
+(Regulation and Development) Amendment Act, 2025, for the purpose of prospecting, exploration,
+development, production, making merchantable, carrying away or disposing of mineral oils or for
+purposes connected therewith, and includes a mining lease granted before the commencement of the
+said Act.]
+
+### Footnotes
+
+1. Cl. (b) omitted by Act 6 of 2025, s. 2 (w.e.f. 15-4-2025).
+
+2. Subs. by s. 2, ibid., for clause (c) (w.e.f. 15-4-2025).
+
+3. Subs. by Act 67 of 1957, s. 32 and the Third Schedule, for minerals (w.e.f. 1-6-1958).
+
+4. Ins. by Act 6 of 2025, s. 2, (w.e.f. 15-4-2025).
+
+5. Subs. by s. 2, ibid., for "natural gas and petroleum, crude oil" (15-4-2025).
+
+6. Ins. by s. 2, ibid., (w.e.f. 15-4-2025).
+
+## Section 4 - No petroleum lease to be valid unless it is in accordance with this Act.
+
+4. No ^1[petroleum lease] to be valid unless it is in accordance with this Act.--- (1) No ^1[petroleum lease] shall be granted after the commencement of this act otherwise than in accordance with the rules
+made under this Act.
+
+(2) Any ^1[petroleum lease] granted contrary to the provisions of sub-section (1) shall be void and of
+no effect.
+
+### Footnotes
+
+1. Subs. by Act 6 of 2025, s. 3, for "mining lease" (w.e.f. 15-4-2025)
+
+## Section 4A - prospecting, etc., of mineral oils.
+
+^1[4A. Prospecting, etc., of mineral oils.--- No person shall undertake any operation in any part of
+India or in its territorial waters, continental shelf and exclusive economic zone for the purposes of
+prospecting, exploration, development or production, making merchantable, carrying away or disposing
+of mineral oils, except under a valid lease granted under this Act and the rules made thereunder:
+
+Provided that nothing in this section shall affect any operation undertaken in any area in accordance
+with the terms and conditions of a license or lease granted before the commencement of the Oilfields
+(Regulation and Development) Amendment Act, 2025.]
+
+### Footnotes
+
+1. Ins. by Act 6 of 2025, s. 4 (w.e.f. 15-4-2025).
+
+## Section 5 - Power to make rules as respects petroleum leases.
+
+5. Power to make rules as respects ^1[petroleum leases].---(1) The Central Government may, by
+notification in the Official Gazette, make rules for regulating the ^2[grant or extension or renewal of
+petroleum leases or for prohibiting the grant or extension or renewal] of such leases in respect of
+any ^3[mineral oil] or in any area.
+
+(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
+provide for all or any of the following matters, namely: ---
+
+(a) the manner in which, the ^3[mineral oil] or areas in respect of which and the persons by
+whom, applications for ^4[petroleum leases] may be made and the fees to be paid on any such
+application;
+
+(b) the authority by which, the terms on which, and the conditions subject to which, ^5[petroleum
+leases may be granted or extended or renewed];
+
+^6[(c) the maximum or minimum area of the petroleum leases;
+
+(ca) the period for which any petroleum lease may be granted or extended or renewed;
+
+(cb) the terms on which petroleum leases may be merged or combined;]
+
+(d) the fixing of the maximum and minimum rent payable by a lessee, whether the ^7[oilfield] is
+worked or not.
+
+^8[(e) the mechanism to enable resolution of disputes arising out of, or in relation to the petroleum
+leases or any authorisation granted by the Central Government for working of an oilfield through
+alternative dispute resolution methods under any law for the time being in force, in a place within
+India or outside India;
+
+(f) any other matter which is required to be, or may be made by rules or in respect of which
+provision is to be made under this section.]
+
+^8[(3) The terms and conditions of a petroleum lease shall remain stable during the period of the lease
+for expeditious and efficient development of oilfields or production of mineral oils and shall not be
+altered to the disadvantage of the lessee during the period of the lease.]
+
+### Footnotes
+
+1. Subs. by Act 6 of 2025, s. 5, for "mining leases" (w.e.f. 15-4-2025).
+
+2. Subs. by s. 5, ibid., for certain words (w.e.f. 15-4-2025).
+
+3. Subs. by Act 67 of 1957, s. 32 and the Third Schedule, for "minerals" (w.e.f.1-6-1958).
+
+4. Subs. by Act 6 of 2025, s. 5, for "mining leases" (w.e.f. 15-4-2025).
+5. Subs. by s. 5,ibid., for "mining leases may be granted" (w.e.f. 15-4-2025).
+
+6. Subs. by s. 5,ibid., for clause (c) (w.e.f. 15-4-2025).
+
+7. Subs. by s. 5,ibid., for "mine" (w.e.f. 15-4-2025).
+
+8. Ins. by s. 5, ibid. (w.e.f. 15-4-2025).
+
+## Section 6 - Power to make rules as respects mineral oils development.
+
+6. Power to make rules as respects ^1[mineral oils] development.--- (1) The Central Government
+may, by notification in the Official Gazette, make rules for the ^2[exploration, development, production
+and conservation] of ^3[mineral oils].
+
+(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
+provide for all or any of the following matters, namely: ---
+
+^4* * * * *
+
+(c) the development of any ^5[mineral oil resources] in any area by prescribing or regulating the
+use of any engines, machinery or other equipment;
+
+(d) the regulation of drilling, re-drilling, deepening, shutting down, plugging and abandoning
+of ^6[mineral oil wells and decommissioning and site restoration activities] in an oilfield and for the
+limitation or prohibition of such operations and for the taking of remedial measures to prevent waste
+of or damage to ^7[mineral oils];
+
+(e) the regulation of the methods of producing ^7[mineral oils] in any oilfield, and the limitation or
+prohibition of such methods;
+
+(f) the compulsory notification of all new borings and shaft sinkings, and the preservation of
+boring records and specimens of cores of all new bore-holes;
+
+(g) the taking of samples from ^8[oilfields] and new bore-holes;
+
+^9[(ga) the collection, aggregation, dissemination, use or sharing of the data and samples related
+to mineral oils with the Central Government or any other party nominated by the Central
+Government, for the purposes of economic development, academic research and public welfare;]
+
+(h) the regulation of the arrangements for the storage of ^3[mineral oils] and the stocks thereof that
+may be kept by any person;
+
+^10[(i) the collection of royalties, and the levy and collection of fees or taxes, in respect of mineral
+oils ^11[produced];]
+
+(j) the submission by the ^12[lessees of oilfields of special or periodical returns and reports, and the
+formats] in which and the authorities to whom such returns and reports shall be submitted.
+
+^13[(k) the sharing of production and processing facilities and other infrastructure, both on land and
+offshore, by two or more lessees for more efficient development of oilfields or production of mineral
+oils;
+
+(l) the safety at oilfields including safety mechanisms, standards and protocols for conduct of
+mineral oil operations, protection of persons and infrastructure such as terminals, installations, other
+structures and devices, and mineral oils;
+
+(m) the sound management of mineral oils in accordance with good international petroleum
+industry practices including obligations of lessees towards protection of environment during
+operations and while abandoning, decommissioning and undertaking site restoration activities;
+
+(n) the unitisation of leases across States, Union territories and offshore leases, where there is
+reservoir continuity or connectivity, or for efficient exploration, development or production of
+mineral oils;
+
+(o) promote and facilitate adoption of measures for reducing carbon and greenhouse gas
+emissions and decarbonising operations including but not limited to use of oilfields for other
+purposes, such as, production of hydrogen, carbon capture utilisation and storage or coal gasification;
+
+(p) reporting of carbon and greenhouse gas emissions related to, arising out of, or resulting from,
+mineral oil operations;
+
+(q) promote and facilitate development of comprehensive energy projects at oilfields, including
+planning, development, installation, sharing and use of infrastructure for carrying out mineral oil
+operations and solar, wind or other form of renewable energy projects;
+
+(r) any other matter which is required to be, or may be made by rules, or in respect of which
+provision is to be made under this section.]
+
+### Footnotes
+
+1. Subs. by Act 6 of 2025, s. 6, for "mineral" (w.e.f.15-4-2025).
+
+2. Subs. by s. 6, ibid., for "conservation and development" (w.e.f.15-4-2025).
+
+3. Subs. by Act 67 of 1957, s. 32 and the Third Schedule, for "minerals" (w.e.f.1-6-1958).
+
+4. Clauses (a) and (b) omitted by s. 32 and the Third Schedule,ibid., (w.e.f.1-6-1958).
+
+5. Subs. by s. 32 and the Third Schedule, ibid., for "mineral resources" (w.e.f.1-6-1958).
+
+6. Subs. by Act 6 of 2025, s. 6, for "oil wells" (15-4-2025).
+
+7. Subs. by s. 6, ibid., for "oil" (15-4-2025).
+
+8. Subs. by s. 6, ibid., for "mines" (15-4-2025).
+
+9. Ins. by s. 6, ibid. (15-4-2025).
+
+10. Subs. by Act 39 of 1969, s. 2, for clause (i) (w.e.f. 1-1-1968).
+
+11. Subs. by Act 6 of 2025, s. 6, for "mined, quarried, excavated or collected" (w.e.f. 15-4-2025).
+
+12. Subs. by s. 6, ibid., for certain words (w.e.f. 15-4-2025).
+
+13. Ins. by s. 6, ibid. (w.e.f. 15-4-2025).
+
+## Section 6A - Royalties in respect of mineral oils.
+
+^1[6A. Royalties in respect of mineral oils.--- (1) The holders of a mining lease granted before the
+commencement of the Oilfields (Regulation and Development) Amendment Act, 1969 (39 of 1969) shall,
+notwithstanding anything contained in the instrument of lease or in any law in force at such
+commencement, pay royalty in respect of any mineral oil ^2[produced] or collected by him from the leased
+area after such commencement, at the rate for the time being specified in the Schedule in respect of that
+mineral oil.
+
+(2) The holder of a mining lease ^3[or petroleum lease] granted on or after the commencement of the
+Oilfields (Regulation and Development) Amendment Act, 1969 (39 of 1969) shall pay royalty in respect
+of any mineral oil ^2[produced] or collected by him from the leased area at the rate for the time being
+specified in the Schedule in respect of that mineral oil.
+
+(3) Notwithstanding anything contained in sub-section (1) or sub-section (2), no royalty shall be
+payable in respect of any ^4[mineral oils] which is unavoidably lost or is returned to the reservoir or is used
+for drilling or other operations relating to the production of ^5[mineral oils].
+
+^6[(4) The Central Government may, by notification in the Official Gazette, amend the Schedule so as
+to enhance or reduce the rate at which royalty shall be payable in respect of any mineral oil with effect
+from such date as may be specified in the notification and different rates may be notified in respect of
+same mineral oil ^2[produced] or collected from the areas covered by different classes
+of ^7[petroleum leases]:
+
+Provided that the Central Government shall not fix the rates of royalty in respect of any mineral oil so
+as to exceed twenty per cent. of the sale price of the mineral oil at the oilfields or the oil well-head, as the
+case may be.
+
+(5) If the Central Government, with a view to encourage exploration in off-shore areas, is satisfied
+that it is necessary in the public interest so to do, it may, by notification in the Official Gazette, exempt
+generally, either absolutely or subject to such conditions as may be specified in the notification,
+mineral oil produced from such areas from the whole or any part of the royalty leviable thereon.]
+
+### Footnotes
+
+1. Ins. by Act 39 of 1969, s. 3 (w.e.f. 1-1-1968).
+
+2. Subs. by Act 6 of 2025, s. 7, for "mined, quarried, excavated" (w.e.f. 15-4-2025).
+
+3. Ins. by s. 7,ibid. (w.e.f. 15-4-2025).
+
+4. Subs. by s. 7,ibid., for "crude oil, casing-head condensate or natural gas" (w.e.f. 15-4-2025).
+
+5. Subs. by s. 7, ibid., for "petroleum or natural gas, or both" (w.e.f. 15-4-2025).
+
+6. Subs. by Act 29 of 1998, s. 2, for sub-section (4) (w.e.f. 3-9-1998).
+
+7. Subs. by Act 6 of 2025, s. 7, for "mining leases" (w.e.f. 15-4-2025).
+
+## Section 7 - Power to make rules for modification of existing leases.
+
+(1) The Central Government may, by
+notification in the Official Gazette, make rules for the purpose of modifying or altering the terms and
+conditions of any mining lease granted prior to the commencement of this Act so as to bring such lease
+into conformity with the rules made under sections 5 and 6:
+
+Provided that any rules so made which provide for the matters mentioned in clause (c) of subsection(2)
+shall not come into force until they have been approved, either with or without modifications,
+by ^1[the House of the People].
+
+(2) The rules made under sub-section (1) shall provide--
+
+(a) for giving previous notice of the modification or alteration proposed to be made thereunder to
+the lessee, and where the lessor is not the Central Government, also to the lessor, and for affording
+them an opportunity of showing cause against the proposal;
+
+(b) for the payment of compensation by the party who would be benefited by the proposed
+modification or alteration to the party whose right under the existing lease would thereby be
+adversely affected; and
+
+(c) for the principles on which, the manner in which and the authority by which the said
+compensation shall be determined.
+
+### Footnotes
+
+1.Subs. by the A. O. 1950, for "the Central Legislature".
+
+## Section 8 - Delegation.
+
+The Central Government may, by notification in the Official Gazette, direct that any
+power exercisable under this Act shall be exercised,subject to such conditions, if any, as may be specified
+therein by such officer or authority as may be specified in the direction.
+
+## Section 9 - Penalties.
+
+^1[9. Penalties.--- (1) Whoever contravenes the provisions of section 4A or sub-section (1) or sub-section
+(2) of section 6A shall be liable to a penalty of twenty-five lakh rupees.
+
+(2) Any rule made under any of the provisions of this Act may provide that any contravention thereof shall
+be liable to a penalty of twenty-five lakh rupees.
+
+(3) Whoever, after having been punished with penalty as referred to in sub-section (1) or sub-section(2),
+continues to contravene any of the provisions of this Act or rules made thereunder, shall be liable to pay a
+further penalty which may extend to ten lakh rupees per day for the entire duration during which the
+contravention continues commencing from the date of imposition of the first penalty.]
+
+### Footnotes
+
+1. Subs. by Act 6 of 2025, s. 8, for section 9 (w.e.f. 15-4-2025).
+
+## Section 9A - Adjudication.
+
+^1[9A. Adjudication.--- (1) The Central Government shall, by notification in the Official Gazette, make rules
+for providing eligibility criteria for designating an adjudicating authority and for the manner of conducting
+inquiry and imposing penalty under the provisions of this Act:
+
+Provided that no officer below the rank of Joint Secretary to the Government of India shall be designated
+as an adjudicating authority.
+
+(2) The adjudicating authority may summon and enforce the attendance of any person acquainted with the
+facts and circumstances of the case to give evidence or to produce any document, which in his opinion may be
+useful for or relevant to the subject matter of the inquiry and if, on such inquiry, he is satisfied that the person
+concerned has contravened the provisions of this Act or the rules made thereunder, he may determine such
+penalty in accordance with the provisions of this Act.
+
+(3) No penalty shall be imposed on any person under this section or any rules made thereunder without
+affording an opportunity of being heard.]
+
+### Footnotes
+
+1. Subs. by Act 6 of 2025, s. 8, for section 9 (w.e.f. 15-4-2025).
+
+## Section 9B - Appeal.
+
+^1[9B. Appeal.--- (1) Every appeal against the order of the adjudicating authority under this section shall lie
+with the Appellate Tribunal referred to in section 30 of the Petroleum and Natural Gas Regulatory Board Act,
+2006, (19 of 2006) and the provisions contained in sections 33, 34, 35 and 36 of that Act, shall, mutatis
+mutandis apply, in relation to every such appeal.
+
+(2) The provisions contained in section 37 of the Petroleum and Natural Gas Regulatory Board Act, 2006,
+(19 of 2006) shall mutatis mutandis apply, in relation to every appeal against the order of the Appellate
+Tribunal referred to in sub-section (1).]
+
+### Footnotes
+
+1. Subs. by Act 6 of 2025, s. 8, for section 9 (w.e.f. 15-4-2025).
+
+## Section 10 - Laying of rules and notifications.
+
+^1[10. Laying of rules and notifications.--Every rule made under this Act and every notification
+issued ^2[under sub-section (4) or sub-section (5) or section 6A] ^3[or section 8] shall be laid, as soon as may be after it is
+made or issued, before each House of Parliament, while it is in session, for a total period of thirty days
+which may be comprised in one session or in two or more successive sessions, and if, before the expiry of
+the session immediately following the session or the successive sessions aforesaid, both Houses agree in
+making any modification in the rule or notification or both Houses agree that the rule or notification
+should not be made or issued, the rule or notification shall thereafter have effect only in such modified
+form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be
+without prejudice to the validity of anything previously done under that rule or notification.]
+
+### Footnotes
+
+1. Subs. by Act 20 of 1984, s. 3, for the original section10.
+
+2. Subs. by Act 29 of 1998, s. 3, for "under sub-section (4) of section 6A" (w.e.f. 3-9-1998).
+
+3. Ins. by Act 6 of 2025, s. 9 (w.e.f. 15-4-2025).
+
+## Section 11 - Power of inspection.
+
+(1) For the purpose of ascertaining the position of the working, actual or
+prospective, of any ^1[oilfield] or abandoned ^1[oilfield] or for any other purpose mentioned in this Act or
+the rules made thereunder, any officer authorised by the Central Government in this behalf shall have the
+right to---
+
+(a) enter and inspect any ^1[oilfield];
+
+(b) order the production of any document, book, register or record in the possession or power of
+any person having the control of, or connected with, any ^1[oilfield];
+
+(c) examine any person having the control of, or connected with, any^1[oilfield].
+
+(2) Any officer authorised by the Central Government under sub-section (1) shall be deemed to be a
+public servant within the meaning of section 21 of the Indian Penal Code (45 of 1860).
+
+### Footnotes
+
+1. Subs. by Act 6 of 2025, s. 10, for "mine" (w.e.f. 15-4-2025).
+
+## Section 12 - Relaxation of rules in special cases.
+
+The Central Government may, if satisfied that it is in the
+public interest so to do, authorise in any case the granting of any ^1[petroleum lease], or the working of
+any ^2[oilfield] on terms and conditions different from those laid down in the rules made under sections 5
+and 6.
+
+### Footnotes
+
+1. Subs. by Act 6 of 2025, s. 11, for "mining lease" (w.e.f. 15-4-2025).
+
+2. Subs. by s. 11, ibid., for "mine" (w.e.f. 15-4-2025).
+
+## Section 13 - Act to be binding on the Government.
+
+^1[13. Act to be binding on the Government.--The provisions of this Act shall be binding on the
+Government.]
+
+### Footnotes
+
+1. Subs. bythe A.O. 1950,fors.13 (w.e.f. 26-1-1950).
+
+## Section 13A - Validity of leases and licenses.
+
+^1[13A. Validity of leases and licenses.--- All mining leases and licenses granted before
+commencement of the Oilfields (Regulation and Development) Amendment Act, 2025, shall continue to
+be valid for their respective tenure subject to the terms and conditions governing the grant of such leases
+and licenses.]
+
+### Footnotes
+
+1. Ins. by Act 6 of 2025, s. 12 (w.e.f. 15-4-2025).
+
+## Section 14 - Protection of action taken in good faith.
+
+No suit, prosecution or other legal proceeding
+whatever shall lie against any person for anything which is in good faith done or intended to be done
+under this Act.
