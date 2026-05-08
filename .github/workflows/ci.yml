@@ -38,6 +38,24 @@ jobs:
       - name: Verify generated Pages output is committed
         run: git diff --exit-code -- docs
 
+      - name: Discover one Central Act smoke sample
+        run: >
+          node scripts/discover-laws.mjs
+          --limit 1
+          --output /tmp/indian-law-ci-discovered.lino
+          --delay-ms 0
+
+      - name: Build one live law smoke sample
+        run: >
+          node scripts/build-site.mjs
+          --fetch
+          --manifest data/laws.seed.lino
+          --regional-sources data/regional-sources.seed.lino
+          --max-laws 1
+          --max-sections 1
+          --output /tmp/indian-law-ci-live-site
+          --delay-ms 0
+
       - name: Download one official law corpus smoke sample
         run: >
           node scripts/smoke-download-source.mjs

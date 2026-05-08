@@ -1,0 +1,192 @@
+Refresh Official Sources	Set up job	﻿2026-05-08T14:49:38.3066139Z Current runner version: '2.334.0'
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3090501Z ##[group]Runner Image Provisioner
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3091320Z Hosted Compute Agent
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3091912Z Version: 20260213.493
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3092546Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3093196Z Build Date: 2026-02-13T00:28:41Z
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3094200Z Worker ID: {12bf008d-07be-478f-9f3f-31809365dd80}
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3094881Z Azure Region: westus
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3095366Z ##[endgroup]
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3097065Z ##[group]Operating System
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3097677Z Ubuntu
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3098138Z 24.04.4
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3098581Z LTS
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3099043Z ##[endgroup]
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3099493Z ##[group]Runner Image
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3100064Z Image: ubuntu-24.04
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3100610Z Version: 20260413.86.1
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3101547Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260413.86/images/ubuntu/Ubuntu2404-Readme.md
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3103165Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260413.86
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3104050Z ##[endgroup]
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3105150Z ##[group]GITHUB_TOKEN Permissions
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3107590Z Contents: read
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3108094Z Metadata: read
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3108728Z Pages: write
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3109170Z ##[endgroup]
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3111249Z Secret source: Actions
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3112039Z Prepare workflow directory
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3438768Z Prepare all required actions
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.3483946Z Getting action download info
+Refresh Official Sources	Set up job	2026-05-08T14:49:38.9428717Z Download action repository 'actions/checkout@v6' (SHA:de0fac2e4500dabe0009e67214ff5f5447ce83dd)
+Refresh Official Sources	Set up job	2026-05-08T14:49:39.0519949Z Download action repository 'actions/setup-node@v6' (SHA:48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e)
+Refresh Official Sources	Set up job	2026-05-08T14:49:39.5634551Z Download action repository 'actions/configure-pages@v6' (SHA:45bfe0192ca1faeb007ade9deae92b16b8254a0d)
+Refresh Official Sources	Set up job	2026-05-08T14:49:40.0483096Z Download action repository 'actions/upload-pages-artifact@v5' (SHA:fc324d3547104276b827a68afc52ff2a11cc49c9)
+Refresh Official Sources	Set up job	2026-05-08T14:49:40.2486535Z Download action repository 'actions/deploy-pages@v5' (SHA:cd2ce8fcbc39b97be8ca5fce6e763baed58fa128)
+Refresh Official Sources	Set up job	2026-05-08T14:49:40.9222352Z Getting action download info
+Refresh Official Sources	Set up job	2026-05-08T14:49:41.1437506Z Download action repository 'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f' (SHA:bbbca2ddaa5d8feaa63e36b76fdaad77386f024f)
+Refresh Official Sources	Set up job	2026-05-08T14:49:41.2484013Z Complete job name: Refresh Official Sources
+Refresh Official Sources	Checkout	﻿2026-05-08T14:49:41.3169080Z ##[group]Run actions/checkout@v6
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3169786Z with:
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3170201Z   repository: Svetozar-Technologies/indian-law
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3170734Z   token: ***
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3171005Z   ssh-strict: true
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3171364Z   ssh-user: git
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3171651Z   persist-credentials: true
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3171929Z   clean: true
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3172271Z   sparse-checkout-cone-mode: true
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3172596Z   fetch-depth: 1
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3172874Z   fetch-tags: false
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3173178Z   show-progress: true
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3173484Z   lfs: false
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3173720Z   submodules: false
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3174038Z   set-safe-directory: true
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.3174624Z ##[endgroup]
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4128850Z Syncing repository: Svetozar-Technologies/indian-law
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4130621Z ##[group]Getting Git version info
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4131111Z Working directory is '/home/runner/work/indian-law/indian-law'
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4132079Z [command]/usr/bin/git version
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4158486Z git version 2.53.0
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4181048Z ##[endgroup]
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4194571Z Temporarily overriding HOME='/home/runner/work/_temp/b21f6e49-03d0-40d9-899d-e18a8023daec' before making global git config changes
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4196429Z Adding repository directory to the temporary git global config as a safe directory
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4200334Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/indian-law/indian-law
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4234548Z Deleting the contents of '/home/runner/work/indian-law/indian-law'
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4239110Z ##[group]Initializing the repository
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4243261Z [command]/usr/bin/git init /home/runner/work/indian-law/indian-law
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4346586Z hint: Using 'master' as the name for the initial branch. This default branch name
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4347845Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4348915Z hint: to use in all of your new repositories, which will suppress this warning,
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4349711Z hint: call:
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4350474Z hint:
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4350920Z hint: 	git config --global init.defaultBranch <name>
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4351415Z hint:
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4351811Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4352487Z hint: 'development'. The just-created branch can be renamed via this command:
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4352962Z hint:
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4353320Z hint: 	git branch -m <name>
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4353645Z hint:
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4354020Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4354804Z Initialized empty Git repository in /home/runner/work/indian-law/indian-law/.git/
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4359098Z [command]/usr/bin/git remote add origin https://github.com/Svetozar-Technologies/indian-law
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4388556Z ##[endgroup]
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4389182Z ##[group]Disabling automatic garbage collection
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4392396Z [command]/usr/bin/git config --local gc.auto 0
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4421162Z ##[endgroup]
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4422224Z ##[group]Setting up auth
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4423113Z Removing SSH command configuration
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4429643Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4460379Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4746554Z Removing HTTP extra header
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4751791Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4782535Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4993704Z Removing includeIf entries pointing to credentials config files
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.4999315Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.5029742Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.5248957Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.5284643Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/indian-law/indian-law/.git.path /home/runner/work/_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.5313181Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.5342213Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.5370233Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.5403336Z ##[endgroup]
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.5404257Z ##[group]Fetching the repository
+Refresh Official Sources	Checkout	2026-05-08T14:49:41.5413162Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +2afc3bef39bef1f7c64dab10d673f79eb189a4cf:refs/remotes/origin/main
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0306580Z From https://github.com/Svetozar-Technologies/indian-law
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0307734Z  * [new ref]         2afc3bef39bef1f7c64dab10d673f79eb189a4cf -> origin/main
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0344523Z [command]/usr/bin/git branch --list --remote origin/main
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0369002Z   origin/main
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0378575Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0402586Z 2afc3bef39bef1f7c64dab10d673f79eb189a4cf
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0407984Z ##[endgroup]
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0408846Z ##[group]Determining the checkout info
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0409873Z ##[endgroup]
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0484334Z [command]/usr/bin/git sparse-checkout disable
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0487184Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0491344Z ##[group]Checking out the ref
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0491990Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0584649Z Switched to a new branch 'main'
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0587794Z branch 'main' set up to track 'origin/main'.
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0592765Z ##[endgroup]
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0630064Z [command]/usr/bin/git log -1 --format=%H
+Refresh Official Sources	Checkout	2026-05-08T14:49:42.0652966Z 2afc3bef39bef1f7c64dab10d673f79eb189a4cf
+Refresh Official Sources	Setup Node	﻿2026-05-08T14:49:42.0899656Z ##[group]Run actions/setup-node@v6
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.0899947Z with:
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.0900119Z   node-version: 20
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.0900296Z   cache: npm
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.0900475Z   check-latest: false
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.0900790Z   token: ***
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.0900984Z   package-manager-cache: true
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.0901220Z ##[endgroup]
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.2441862Z Found in cache @ /opt/hostedtoolcache/node/20.20.2/x64
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.2446046Z ##[group]Environment details
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.5410594Z node: v20.20.2
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.5410955Z npm: 10.8.2
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.5411148Z yarn: 1.22.22
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.5411671Z ##[endgroup]
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.5428849Z [command]/opt/hostedtoolcache/node/20.20.2/x64/bin/npm config get cache
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.6527321Z /home/runner/.npm
+Refresh Official Sources	Setup Node	2026-05-08T14:49:42.8929397Z npm cache is not found
+Refresh Official Sources	Install	﻿2026-05-08T14:49:42.9049560Z ##[group]Run npm ci
+Refresh Official Sources	Install	2026-05-08T14:49:42.9049875Z ^[[36;1mnpm ci^[[0m
+Refresh Official Sources	Install	2026-05-08T14:49:42.9084446Z shell: /usr/bin/bash -e {0}
+Refresh Official Sources	Install	2026-05-08T14:49:42.9084727Z ##[endgroup]
+Refresh Official Sources	Install	2026-05-08T14:49:44.0124607Z
+Refresh Official Sources	Install	2026-05-08T14:49:44.0131893Z added 8 packages, and audited 9 packages in 1s
+Refresh Official Sources	Install	2026-05-08T14:49:44.0133083Z
+Refresh Official Sources	Install	2026-05-08T14:49:44.0133406Z found 0 vulnerabilities
+Refresh Official Sources	Discover Central Acts	﻿2026-05-08T14:49:44.0261231Z ##[group]Run node scripts/discover-laws.mjs --limit "$FETCH_LIMIT" --output data/laws.discovered.lino --delay-ms 1100
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:44.0262146Z ^[[36;1mnode scripts/discover-laws.mjs --limit "$FETCH_LIMIT" --output data/laws.discovered.lino --delay-ms 1100^[[0m
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:44.0283569Z shell: /usr/bin/bash -e {0}
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:44.0283821Z env:
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:44.0283985Z   FETCH_LIMIT: 0
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:44.0284177Z ##[endgroup]
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:48.2843787Z Error: HTTP 404 Not Found for https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=&sort_by=dc.date.enactment_dt&order=desc&rpp=100&etal=0&start=0
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:48.2846207Z     at IncomingMessage.<anonymous> (file:///home/runner/work/indian-law/indian-law/scripts/lib/http.mjs:72:20)
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:48.2847438Z     at IncomingMessage.emit (node:events:536:35)
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:48.2848188Z     at endReadableNT (node:internal/streams/readable:1698:12)
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:48.2849186Z     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Refresh Official Sources	Discover Central Acts	2026-05-08T14:49:48.2902153Z ##[error]Process completed with exit code 1.
+Refresh Official Sources	Post Checkout	﻿2026-05-08T14:49:48.3010730Z Post job cleanup.
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.3827919Z [command]/usr/bin/git version
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.3864596Z git version 2.53.0
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.3903373Z Temporarily overriding HOME='/home/runner/work/_temp/240a643e-e569-4478-9bd6-9f435ed17ecc' before making global git config changes
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.3904376Z Adding repository directory to the temporary git global config as a safe directory
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.3909104Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/indian-law/indian-law
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.3939125Z Removing SSH command configuration
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.3945102Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.3977579Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4204840Z Removing HTTP extra header
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4211922Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4250562Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4486218Z Removing includeIf entries pointing to credentials config files
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4493964Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4520876Z includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4522494Z includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4523930Z includeif.gitdir:/github/workspace/.git.path
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4525095Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4531721Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4585042Z /home/runner/work/_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4601545Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path /home/runner/work/_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4638623Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4660926Z /home/runner/work/_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4672822Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4706239Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4729269Z /github/runner_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4738324Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4770392Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4792744Z /github/runner_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4803739Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.4839486Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Refresh Official Sources	Post Checkout	2026-05-08T14:49:48.5075254Z Removing credentials config '/home/runner/work/_temp/git-credentials-142d85da-e504-4106-9db7-5abf0c8f4cca.config'
+Refresh Official Sources	Complete job	﻿2026-05-08T14:49:48.5218581Z Evaluate and set environment url
+Refresh Official Sources	Complete job	2026-05-08T14:49:48.5222212Z Evaluated environment url:
+Refresh Official Sources	Complete job	2026-05-08T14:49:48.5223000Z Cleaning up orphan processes
