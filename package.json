@@ -1,0 +1,31 @@
+{
+  "name": "indian-law",
+  "version": "0.1.0",
+  "description": "Prototype GitHub Pages mirror for active Indian laws from official public sources.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "build:offline": "node scripts/build-site.mjs --offline",
+    "discover": "node scripts/discover-laws.mjs",
+    "discover:regional": "node scripts/discover-regional-sources.mjs",
+    "test": "node --test --test-timeout=30000 tests/*.test.mjs"
+  },
+  "keywords": [
+    "india",
+    "law",
+    "github-pages",
+    "indiacode"
+  ],
+  "license": "Unlicense",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.0",
+    "links-notation": "^0.13.0",
+    "lino-objects-codec": "^0.3.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}

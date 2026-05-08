@@ -1,0 +1,52 @@
+obj_root:
+  object
+  (str author) obj_root_author
+  (str body) (str ``Use https://raw.githubusercontent.com/Svetozar-Technologies/SatyaVera/refs/heads/main/docs/case-studies/issue-1/README.md to make first prototype of list of active full laws, republished as GitHub Pages website. We need to ensure we download it in all official languages, that are available, for example English, Hindi, Tamil, Telugu, Bengali, Kannada and Marathi (if available). GitHub Pages should detect language of the user and show them law to read in their language.
+
+We should use idea of https://github.com/konard/russian-law as example. But make it fully updatable using GitHub Actions CI/CD.
+
+So actions should download each law in original format and convert them to markdown files, that should be arranged to list of laws. Each law/codex should be split in parts that contain no more than 1500 lines each, for AI to have easy access to it. It is better to split sections in such a way, that no section is partially in two files. Documentation like README.md in the repository should also have links to published GitHub pages.
+
+CI/CD in pull request should have some basic tests, and CI/CD in default branch should do actual downloading of all the data, and converting to markdown, so it can be served as GitHub Pages website, index/home page should list all active laws.
+
+We need ability execute actions manually if needed, so we can get fresh version, or redownloaded in case of network errors and so on.
+
+We should make sure we don't load the web site of government too much, and respect rate limits and do reasonable intervals.
+
+Use all the best practices from CI/CD templates (check full file tree to compare for all GitHub workflow and CI/CD scripts file), if the same issue is found in template report issue also in templates:
+- https://github.com/link-foundation/js-ai-driven-development-pipeline-template
+
+We should compare all files, so we don't have more CI/CD errors in the future and reuse all the best practices from these templates.
+
+We need to collect data related about the issue to this repository, make sure we compile that data to `./docs/case-studies/issue-{id}` folder, and use it to do deep case study analysis (also make sure to search online for additional facts and data), list of each and all requirements from the issue, and propose possible solutions and solution plans for each requirement (we should also check known existing components/libraries, that solve similar problem or can help in solutions).
+
+Please plan and execute everything in a single pull request, you have unlimited time and context, as context auto-compacts and you can continue indefinitely, until it is each and every requirement fully addressed, and everything is totally done.``)
+  (str createdAt) (str `2026-05-08T12:24:29Z`)
+  (str labels) obj_root_labels
+  (str number) (int 1)
+  (str state) (str OPEN)
+  (str title) (str `Initial version`)
+  (str updatedAt) (str `2026-05-08T12:24:29Z`)
+  (str url) (str `https://github.com/Svetozar-Technologies/indian-law/issues/1`)
+obj_root_author:
+  object
+  (str id) (str MDQ6VXNlcjE0MzE5MDQ=)
+  (str is_bot) (bool false)
+  (str login) (str konard)
+  (str name) (str `Konstantin Diachenko`)
+obj_root_labels:
+  array
+  obj_root_labels_documentation
+  obj_root_labels_enhancement
+obj_root_labels_documentation:
+  object
+  (str id) (str LA_kwDOSV-fXs8AAAACiH1Y6w)
+  (str name) (str documentation)
+  (str description) (str `Improvements or additions to documentation`)
+  (str color) (str 0075ca)
+obj_root_labels_enhancement:
+  object
+  (str id) (str LA_kwDOSV-fXs8AAAACiH1ZHw)
+  (str name) (str enhancement)
+  (str description) (str `New feature or request`)
+  (str color) (str a2eeef)
