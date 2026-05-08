@@ -1,0 +1,313 @@
+Test and Offline Build	Set up job	﻿2026-05-08T17:53:41.3958245Z Current runner version: '2.334.0'
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3991594Z ##[group]Runner Image Provisioner
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3992480Z Hosted Compute Agent
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3993016Z Version: 20260213.493
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3993585Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3994303Z Build Date: 2026-02-13T00:28:41Z
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3994947Z Worker ID: {5aa18095-b198-4fc6-950c-e3ab1e35e008}
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3995620Z Azure Region: northcentralus
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3996783Z ##[endgroup]
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3998903Z ##[group]Operating System
+Test and Offline Build	Set up job	2026-05-08T17:53:41.3999772Z Ubuntu
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4000478Z 24.04.4
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4001160Z LTS
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4001930Z ##[endgroup]
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4002660Z ##[group]Runner Image
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4003433Z Image: ubuntu-24.04
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4004128Z Version: 20260413.86.1
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4005738Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260413.86/images/ubuntu/Ubuntu2404-Readme.md
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4008590Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260413.86
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4009643Z ##[endgroup]
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4010569Z ##[group]GITHUB_TOKEN Permissions
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4012556Z Contents: read
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4013195Z Metadata: read
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4013679Z ##[endgroup]
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4015623Z Secret source: Actions
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4017113Z Prepare workflow directory
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4441918Z Prepare all required actions
+Test and Offline Build	Set up job	2026-05-08T17:53:41.4496957Z Getting action download info
+Test and Offline Build	Set up job	2026-05-08T17:53:41.8063232Z Download action repository 'actions/checkout@v6' (SHA:de0fac2e4500dabe0009e67214ff5f5447ce83dd)
+Test and Offline Build	Set up job	2026-05-08T17:53:41.9167531Z Download action repository 'actions/setup-node@v6' (SHA:48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e)
+Test and Offline Build	Set up job	2026-05-08T17:53:42.3932522Z Complete job name: Test and Offline Build
+Test and Offline Build	Checkout	﻿2026-05-08T17:53:42.4761769Z ##[group]Run actions/checkout@v6
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4762716Z with:
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4763225Z   repository: Svetozar-Technologies/indian-law
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4764053Z   token: ***
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4764459Z   ssh-strict: true
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4764886Z   ssh-user: git
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4765320Z   persist-credentials: true
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4765813Z   clean: true
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4766577Z   sparse-checkout-cone-mode: true
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4767126Z   fetch-depth: 1
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4767550Z   fetch-tags: false
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4767987Z   show-progress: true
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4768438Z   lfs: false
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4768857Z   submodules: false
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4769316Z   set-safe-directory: true
+Test and Offline Build	Checkout	2026-05-08T17:53:42.4770095Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-08T17:53:42.5775719Z Syncing repository: Svetozar-Technologies/indian-law
+Test and Offline Build	Checkout	2026-05-08T17:53:42.5778418Z ##[group]Getting Git version info
+Test and Offline Build	Checkout	2026-05-08T17:53:42.5779307Z Working directory is '/home/runner/work/indian-law/indian-law'
+Test and Offline Build	Checkout	2026-05-08T17:53:42.5780629Z [command]/usr/bin/git version
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9395034Z git version 2.53.0
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9419457Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9434233Z Temporarily overriding HOME='/home/runner/work/_temp/4bbcbfa4-ea5c-4c54-b649-64d28440dfe1' before making global git config changes
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9437643Z Adding repository directory to the temporary git global config as a safe directory
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9440391Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/indian-law/indian-law
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9473801Z Deleting the contents of '/home/runner/work/indian-law/indian-law'
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9478256Z ##[group]Initializing the repository
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9482563Z [command]/usr/bin/git init /home/runner/work/indian-law/indian-law
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9563244Z hint: Using 'master' as the name for the initial branch. This default branch name
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9566389Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9568420Z hint: to use in all of your new repositories, which will suppress this warning,
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9570731Z hint: call:
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9571483Z hint:
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9572441Z hint: 	git config --global init.defaultBranch <name>
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9573927Z hint:
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9575807Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9578695Z hint: 'development'. The just-created branch can be renamed via this command:
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9580539Z hint:
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9581401Z hint: 	git branch -m <name>
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9582432Z hint:
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9583844Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9586635Z Initialized empty Git repository in /home/runner/work/indian-law/indian-law/.git/
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9591378Z [command]/usr/bin/git remote add origin https://github.com/Svetozar-Technologies/indian-law
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9608476Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9611275Z ##[group]Disabling automatic garbage collection
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9613475Z [command]/usr/bin/git config --local gc.auto 0
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9645799Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9648514Z ##[group]Setting up auth
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9650103Z Removing SSH command configuration
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9652216Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9684733Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9954315Z Removing HTTP extra header
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9960627Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test and Offline Build	Checkout	2026-05-08T17:53:42.9992167Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0200509Z Removing includeIf entries pointing to credentials config files
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0207062Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0240724Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0458360Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0493460Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/indian-law/indian-law/.git.path /home/runner/work/_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0523933Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0553640Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0594260Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0619921Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0621439Z ##[group]Fetching the repository
+Test and Offline Build	Checkout	2026-05-08T17:53:43.0628279Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4160e0d1bf7f217029269c183b319836c3c09a5a:refs/remotes/pull/6/merge
+Test and Offline Build	Checkout	2026-05-08T17:53:43.3913438Z From https://github.com/Svetozar-Technologies/indian-law
+Test and Offline Build	Checkout	2026-05-08T17:53:43.3915490Z  * [new ref]         4160e0d1bf7f217029269c183b319836c3c09a5a -> pull/6/merge
+Test and Offline Build	Checkout	2026-05-08T17:53:43.3944245Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-08T17:53:43.3947006Z ##[group]Determining the checkout info
+Test and Offline Build	Checkout	2026-05-08T17:53:43.3949896Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-08T17:53:43.3951542Z [command]/usr/bin/git sparse-checkout disable
+Test and Offline Build	Checkout	2026-05-08T17:53:43.3992163Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4022593Z ##[group]Checking out the ref
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4025196Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/6/merge
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4122026Z Note: switching to 'refs/remotes/pull/6/merge'.
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4126441Z 
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4127904Z You are in 'detached HEAD' state. You can look around, make experimental
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4131064Z changes and commit them, and you can discard any commits you make in this
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4134278Z state without impacting any branches by switching back to a branch.
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4136428Z 
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4137661Z If you want to create a new branch to retain commits you create, you may
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4140763Z do so (now or later) by using -c with the switch command. Example:
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4142556Z 
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4143233Z   git switch -c <new-branch-name>
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4144605Z 
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4145316Z Or undo this operation with:
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4146650Z 
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4147227Z   git switch -
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4147995Z 
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4149339Z Turn off this advice by setting config variable advice.detachedHead to false
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4151488Z 
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4153633Z HEAD is now at 4160e0d Merge d0b3f16b4607b9aa27965b52552dc203d8c2dba0 into a5b818c5fd979a25db0412793aefcdb384cbaf48
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4158288Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4180168Z [command]/usr/bin/git log -1 --format=%H
+Test and Offline Build	Checkout	2026-05-08T17:53:43.4204677Z 4160e0d1bf7f217029269c183b319836c3c09a5a
+Test and Offline Build	Setup Node	﻿2026-05-08T17:53:43.4571701Z ##[group]Run actions/setup-node@v6
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.4573488Z with:
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.4574661Z   node-version: 20
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.4575665Z   cache: npm
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.4576957Z   check-latest: false
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.4578538Z   token: ***
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.4579879Z   package-manager-cache: true
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.4581285Z ##[endgroup]
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.6239045Z Found in cache @ /opt/hostedtoolcache/node/20.20.2/x64
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.6244134Z ##[group]Environment details
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.9124300Z node: v20.20.2
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.9126615Z npm: 10.8.2
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.9128029Z yarn: 1.22.22
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.9130717Z ##[endgroup]
+Test and Offline Build	Setup Node	2026-05-08T17:53:43.9150659Z [command]/opt/hostedtoolcache/node/20.20.2/x64/bin/npm config get cache
+Test and Offline Build	Setup Node	2026-05-08T17:53:44.0477730Z /home/runner/.npm
+Test and Offline Build	Setup Node	2026-05-08T17:53:44.2054725Z Cache hit for: node-cache-Linux-x64-npm-1f0d5c634089f65f566e92b5dc9580b99d3440618cec899cc5b29b54817054cc
+Test and Offline Build	Setup Node	2026-05-08T17:53:44.6443231Z Received 6192475 of 6192475 (100.0%), 17.5 MBs/sec
+Test and Offline Build	Setup Node	2026-05-08T17:53:44.6444228Z Cache Size: ~6 MB (6192475 B)
+Test and Offline Build	Setup Node	2026-05-08T17:53:44.6474330Z [command]/usr/bin/tar -xf /home/runner/work/_temp/8283d9a3-cdd4-42e2-a033-7c72124e7aea/cache.tzst -P -C /home/runner/work/indian-law/indian-law --use-compress-program unzstd
+Test and Offline Build	Setup Node	2026-05-08T17:53:44.6610381Z Cache restored successfully
+Test and Offline Build	Setup Node	2026-05-08T17:53:44.6618017Z Cache restored from key: node-cache-Linux-x64-npm-1f0d5c634089f65f566e92b5dc9580b99d3440618cec899cc5b29b54817054cc
+Test and Offline Build	Install	﻿2026-05-08T17:53:44.6777439Z ##[group]Run npm ci
+Test and Offline Build	Install	2026-05-08T17:53:44.6777751Z ^[[36;1mnpm ci^[[0m
+Test and Offline Build	Install	2026-05-08T17:53:44.6809945Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Install	2026-05-08T17:53:44.6810239Z ##[endgroup]
+Test and Offline Build	Install	2026-05-08T17:53:45.5790415Z 
+Test and Offline Build	Install	2026-05-08T17:53:45.5797033Z added 8 packages, and audited 9 packages in 833ms
+Test and Offline Build	Install	2026-05-08T17:53:45.5799632Z 
+Test and Offline Build	Install	2026-05-08T17:53:45.5799910Z found 0 vulnerabilities
+Test and Offline Build	Test	﻿2026-05-08T17:53:45.5912819Z ##[group]Run npm test
+Test and Offline Build	Test	2026-05-08T17:53:45.5913130Z ^[[36;1mnpm test^[[0m
+Test and Offline Build	Test	2026-05-08T17:53:45.5934011Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Test	2026-05-08T17:53:45.5934276Z ##[endgroup]
+Test and Offline Build	Test	2026-05-08T17:53:45.7082249Z 
+Test and Offline Build	Test	2026-05-08T17:53:45.7082871Z > indian-law@0.1.0 test
+Test and Offline Build	Test	2026-05-08T17:53:45.7083419Z > node --test --test-timeout=30000 tests/*.test.mjs
+Test and Offline Build	Test	2026-05-08T17:53:45.7083756Z 
+Test and Offline Build	Test	2026-05-08T17:53:45.7539081Z TAP version 13
+Test and Offline Build	Test	2026-05-08T17:53:46.2830866Z # Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+Test and Offline Build	Test	2026-05-08T17:53:46.2840043Z ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+Test and Offline Build	Test	2026-05-08T17:53:46.2841068Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.2841846Z   duration_ms: 478.440089
+Test and Offline Build	Test	2026-05-08T17:53:46.2842300Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.2989143Z # Subtest: Central Act discovery falls back to seed laws when the live listing is unavailable
+Test and Offline Build	Test	2026-05-08T17:53:46.2990636Z ok 2 - Central Act discovery falls back to seed laws when the live listing is unavailable
+Test and Offline Build	Test	2026-05-08T17:53:46.2991656Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.2992061Z   duration_ms: 291.941128
+Test and Offline Build	Test	2026-05-08T17:53:46.2992546Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.2993359Z # Subtest: extracts India Code metadata, PDF sources, and section references
+Test and Offline Build	Test	2026-05-08T17:53:46.2994554Z ok 3 - extracts India Code metadata, PDF sources, and section references
+Test and Offline Build	Test	2026-05-08T17:53:46.2995378Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.2995786Z   duration_ms: 13.817893
+Test and Offline Build	Test	2026-05-08T17:53:46.2996470Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.2997128Z # Subtest: normalises section JSON HTML into plain text
+Test and Offline Build	Test	2026-05-08T17:53:46.2999507Z ok 4 - normalises section JSON HTML into plain text
+Test and Offline Build	Test	2026-05-08T17:53:46.3000062Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3000390Z   duration_ms: 0.547549
+Test and Offline Build	Test	2026-05-08T17:53:46.3000747Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3001231Z # Subtest: parses India Code search result rows
+Test and Offline Build	Test	2026-05-08T17:53:46.3001927Z ok 5 - parses India Code search result rows
+Test and Offline Build	Test	2026-05-08T17:53:46.3002394Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3002712Z   duration_ms: 1.146016
+Test and Offline Build	Test	2026-05-08T17:53:46.3003076Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3003537Z # Subtest: parses regional PDF source rows
+Test and Offline Build	Test	2026-05-08T17:53:46.3004129Z ok 6 - parses regional PDF source rows
+Test and Offline Build	Test	2026-05-08T17:53:46.3004573Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3004880Z   duration_ms: 0.867344
+Test and Offline Build	Test	2026-05-08T17:53:46.3005303Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3006446Z # Subtest: strips table and inline HTML without collapsing intended breaks
+Test and Offline Build	Test	2026-05-08T17:53:46.3007459Z ok 7 - strips table and inline HTML without collapsing intended breaks
+Test and Offline Build	Test	2026-05-08T17:53:46.3008130Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3008451Z   duration_ms: 0.175354
+Test and Offline Build	Test	2026-05-08T17:53:46.3008799Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3009477Z # Subtest: repository-owned seed metadata is stored as Links Notation
+Test and Offline Build	Test	2026-05-08T17:53:46.3010401Z ok 8 - repository-owned seed metadata is stored as Links Notation
+Test and Offline Build	Test	2026-05-08T17:53:46.3010975Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3011284Z   duration_ms: 214.595588
+Test and Offline Build	Test	2026-05-08T17:53:46.3011647Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3012504Z # Subtest: Lino codec stores strings unencoded and preserves numeric-looking identifiers
+Test and Offline Build	Test	2026-05-08T17:53:46.3013693Z ok 9 - Lino codec stores strings unencoded and preserves numeric-looking identifiers
+Test and Offline Build	Test	2026-05-08T17:53:46.3014385Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3014686Z   duration_ms: 8.926025
+Test and Offline Build	Test	2026-05-08T17:53:46.3015037Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3015679Z # Subtest: Lino codec keeps multilingual and multiline strings readable
+Test and Offline Build	Test	2026-05-08T17:53:46.3016924Z ok 10 - Lino codec keeps multilingual and multiline strings readable
+Test and Offline Build	Test	2026-05-08T17:53:46.3017517Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3017852Z   duration_ms: 0.897867
+Test and Offline Build	Test	2026-05-08T17:53:46.3018200Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3018787Z # Subtest: Lino writer uses indented definitions for nested data
+Test and Offline Build	Test	2026-05-08T17:53:46.3019634Z ok 11 - Lino writer uses indented definitions for nested data
+Test and Offline Build	Test	2026-05-08T17:53:46.3020171Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3020478Z   duration_ms: 3.61725
+Test and Offline Build	Test	2026-05-08T17:53:46.3020823Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3021372Z # Subtest: owned data directories do not store JSON metadata
+Test and Offline Build	Test	2026-05-08T17:53:46.3022144Z ok 12 - owned data directories do not store JSON metadata
+Test and Offline Build	Test	2026-05-08T17:53:46.3023125Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3023446Z   duration_ms: 8.427537
+Test and Offline Build	Test	2026-05-08T17:53:46.3023797Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3024311Z # Subtest: renders a section with content and footnotes
+Test and Offline Build	Test	2026-05-08T17:53:46.3025046Z ok 13 - renders a section with content and footnotes
+Test and Offline Build	Test	2026-05-08T17:53:46.3025553Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3026148Z   duration_ms: 2.109116
+Test and Offline Build	Test	2026-05-08T17:53:46.3026512Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3027570Z # Subtest: splits only between sections and keeps each part under the requested line budget when possible
+Test and Offline Build	Test	2026-05-08T17:53:46.3029221Z ok 14 - splits only between sections and keeps each part under the requested line budget when possible
+Test and Offline Build	Test	2026-05-08T17:53:46.3030021Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3030333Z   duration_ms: 1.230573
+Test and Offline Build	Test	2026-05-08T17:53:46.3030680Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3031234Z # Subtest: renders Markdown part metadata and source links
+Test and Offline Build	Test	2026-05-08T17:53:46.3031986Z ok 15 - renders Markdown part metadata and source links
+Test and Offline Build	Test	2026-05-08T17:53:46.3032491Z   ---
+Test and Offline Build	Test	2026-05-08T17:53:46.3032795Z   duration_ms: 0.490791
+Test and Offline Build	Test	2026-05-08T17:53:46.3033010Z   ...
+Test and Offline Build	Test	2026-05-08T17:53:46.3033184Z 1..15
+Test and Offline Build	Test	2026-05-08T17:53:46.3033356Z # tests 15
+Test and Offline Build	Test	2026-05-08T17:53:46.3033533Z # suites 0
+Test and Offline Build	Test	2026-05-08T17:53:46.3033704Z # pass 15
+Test and Offline Build	Test	2026-05-08T17:53:46.3034024Z # fail 0
+Test and Offline Build	Test	2026-05-08T17:53:46.3034801Z # cancelled 0
+Test and Offline Build	Test	2026-05-08T17:53:46.3035301Z # skipped 0
+Test and Offline Build	Test	2026-05-08T17:53:46.3036072Z # todo 0
+Test and Offline Build	Test	2026-05-08T17:53:46.3041161Z # duration_ms 561.856099
+Test and Offline Build	Build deterministic React Pages artifact	﻿2026-05-08T17:53:46.3166928Z ##[group]Run npm run build:offline
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-08T17:53:46.3167286Z ^[[36;1mnpm run build:offline^[[0m
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-08T17:53:46.3188439Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-08T17:53:46.3188703Z ##[endgroup]
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-08T17:53:46.4330512Z 
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-08T17:53:46.4330857Z > indian-law@0.1.0 build:offline
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-08T17:53:46.4331291Z > node scripts/build-site.mjs --offline
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-08T17:53:46.4331526Z 
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-08T17:53:46.6318951Z Generated 4 law entries in docs
+Test and Offline Build	Verify generated Pages output is committed	﻿2026-05-08T17:53:46.6462795Z ##[group]Run git diff --exit-code -- docs
+Test and Offline Build	Verify generated Pages output is committed	2026-05-08T17:53:46.6463168Z ^[[36;1mgit diff --exit-code -- docs^[[0m
+Test and Offline Build	Verify generated Pages output is committed	2026-05-08T17:53:46.6484287Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Verify generated Pages output is committed	2026-05-08T17:53:46.6484549Z ##[endgroup]
+Test and Offline Build	Discover one Central Act smoke sample	﻿2026-05-08T17:53:46.6620118Z ##[group]Run node scripts/discover-laws.mjs --limit 1 --output /tmp/indian-law-ci-discovered.lino --delay-ms 0
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-08T17:53:46.6620919Z ^[[36;1mnode scripts/discover-laws.mjs --limit 1 --output /tmp/indian-law-ci-discovered.lino --delay-ms 0^[[0m
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-08T17:53:46.6640254Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-08T17:53:46.6640521Z ##[endgroup]
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-08T17:53:47.8278112Z Discovered 1 laws -> ../../../../../tmp/indian-law-ci-discovered.lino
+Test and Offline Build	Build one live law smoke sample	﻿2026-05-08T17:53:47.8431232Z ##[group]Run node scripts/build-site.mjs --fetch --manifest data/laws.seed.lino --regional-sources data/regional-sources.seed.lino --max-laws 1 --max-sections 1 --output /tmp/indian-law-ci-live-site --delay-ms 0
+Test and Offline Build	Build one live law smoke sample	2026-05-08T17:53:47.8432727Z ^[[36;1mnode scripts/build-site.mjs --fetch --manifest data/laws.seed.lino --regional-sources data/regional-sources.seed.lino --max-laws 1 --max-sections 1 --output /tmp/indian-law-ci-live-site --delay-ms 0^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-08T17:53:47.8454142Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Build one live law smoke sample	2026-05-08T17:53:47.8454394Z ##[endgroup]
+Test and Offline Build	Build one live law smoke sample	2026-05-08T17:53:51.0852208Z Generated 1 law entries in ../../../../../tmp/indian-law-ci-live-site
+Test and Offline Build	Download one official law corpus smoke sample	﻿2026-05-08T17:53:51.0950751Z ##[group]Run node scripts/smoke-download-source.mjs --manifest data/laws.seed.lino --max-sources 1 --output /tmp/indian-law-ci-source --delay-ms 1100
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-08T17:53:51.0951864Z ^[[36;1mnode scripts/smoke-download-source.mjs --manifest data/laws.seed.lino --max-sources 1 --output /tmp/indian-law-ci-source --delay-ms 1100^[[0m
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-08T17:53:51.0973921Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-08T17:53:51.0974433Z ##[endgroup]
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-08T17:53:51.2343840Z Downloaded 518938 bytes from https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-08T17:53:51.2345037Z Downloaded 1 official law source(s) into /tmp/indian-law-ci-source
+Test and Offline Build	Post Setup Node	﻿2026-05-08T17:53:51.2456908Z Post job cleanup.
+Test and Offline Build	Post Setup Node	2026-05-08T17:53:51.3607824Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-1f0d5c634089f65f566e92b5dc9580b99d3440618cec899cc5b29b54817054cc, not saving cache.
+Test and Offline Build	Post Checkout	﻿2026-05-08T17:53:51.3743899Z Post job cleanup.
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4577515Z [command]/usr/bin/git version
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4614759Z git version 2.53.0
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4656656Z Temporarily overriding HOME='/home/runner/work/_temp/d9ef3b4b-509f-431c-ae03-9eab184a2db6' before making global git config changes
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4658617Z Adding repository directory to the temporary git global config as a safe directory
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4663004Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/indian-law/indian-law
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4692553Z Removing SSH command configuration
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4699644Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4735519Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4984253Z Removing HTTP extra header
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.4989623Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5022562Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5233568Z Removing includeIf entries pointing to credentials config files
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5240952Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5265013Z includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5266372Z includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5266989Z includeif.gitdir:/github/workspace/.git.path
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5267448Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5274100Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5295494Z /home/runner/work/_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5307002Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path /home/runner/work/_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5346420Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5368125Z /home/runner/work/_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5378364Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5413490Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5436672Z /github/runner_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5448716Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5485289Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5507025Z /github/runner_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5519372Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5557908Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test and Offline Build	Post Checkout	2026-05-08T17:53:51.5789006Z Removing credentials config '/home/runner/work/_temp/git-credentials-acfc75ef-4cf6-4a19-b002-a954b866cfe9.config'
+Test and Offline Build	Complete job	﻿2026-05-08T17:53:51.5956340Z Cleaning up orphan processes

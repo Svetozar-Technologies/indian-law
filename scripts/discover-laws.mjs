@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { parseActSearchRows } from "./lib/html.mjs";
 import { fetchText, sleep } from "./lib/http.mjs";
 import { readDataFile, writeDataFile } from "./lib/lino.mjs";
+import { createLogger } from "./lib/logging.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DEFAULT_SEARCH_URL = "https://www.indiacode.nic.in/handle/123456789/1362/simple-search";
@@ -21,9 +22,22 @@ async function main() {
     retryDelayMs: Number(args["retry-delay-ms"] ?? 1000),
     timeoutMs: Number(args["timeout-ms"] ?? 60000)
   };
-  const verbose = Boolean(args.verbose);
+  const quiet = Boolean(args.quiet);
+  const logger = createLogger("discover-laws", { quiet });
+  const httpLogger = createLogger("http", { quiet });
   const seedPath = path.resolve(ROOT, args.seed ?? "data/laws.seed.lino");
+  logger.info("Starting Central Act discovery");
+  logger.info(
+    `Options: searchUrl=${searchUrl}, output=${path.relative(ROOT, output)}, seed=${path.relative(
+      ROOT,
+      seedPath
+    )}, rpp=${rpp}, limit=${limit || "none"}, delayMs=${delayMs}, retries=${requestOptions.retries}, retryDelayMs=${
+      requestOptions.retryDelayMs
+    }, timeoutMs=${requestOptions.timeoutMs}`
+  );
+  logger.info(`Reading seed manifest from ${path.relative(ROOT, seedPath)}`);
   const seed = await readDataFile(seedPath);
+  logger.info(`Loaded ${seed.laws?.length ?? 0} seed law(s)`);
   const laws = [];
   const errors = [];
   let start = 0;
@@ -39,11 +53,11 @@ async function main() {
 
     let html;
     try {
-      if (verbose) {
-        console.error(`Fetching ${url.toString()}`);
-      }
-      html = await fetchText(url.toString(), requestOptions);
+      logger.info(`Fetching search page start=${start}, rpp=${rpp}: ${url.toString()}`);
+      html = await fetchText(url.toString(), { ...requestOptions, logger: httpLogger });
+      logger.info(`Fetched search page start=${start}: ${html.length} character(s)`);
     } catch (error) {
+      logger.warn(`Search page fetch failed at start=${start}: ${error.message}`);
       errors.push({
         url: url.toString(),
         message: error.message
@@ -52,20 +66,31 @@ async function main() {
     }
 
     const pageRows = parseActSearchRows(html);
+    logger.info(`Parsed ${pageRows.length} law row(s) from search page start=${start}`);
     for (const row of pageRows) {
       if (!laws.some((law) => law.handle === row.handle)) {
         laws.push(row);
+        logger.info(`Added law ${laws.length}: ${row.title} (handle ${row.handle})`);
+      } else {
+        logger.info(`Skipped duplicate law handle ${row.handle}: ${row.title}`);
       }
       if (limit > 0 && laws.length >= limit) {
+        logger.info(`Discovery limit ${limit} reached`);
         break;
       }
     }
 
     if (pageRows.length === 0 || (limit > 0 && laws.length >= limit)) {
+      logger.info(
+        pageRows.length === 0
+          ? `Stopping discovery because search page start=${start} returned no rows`
+          : `Stopping discovery because limit ${limit} was reached`
+      );
       break;
     }
 
     start += rpp;
+    logger.info(`Waiting ${delayMs}ms before next search page`);
     await sleep(delayMs);
   }
 
@@ -77,6 +102,9 @@ async function main() {
       ? "complete"
       : "seed-fallback";
   const manifestLaws = laws.length ? laws : seed.laws ?? [];
+  logger.info(
+    `Discovery status ${discoveryStatus}; live laws=${laws.length}, seed fallback laws=${seed.laws?.length ?? 0}, output laws=${manifestLaws.length}, errors=${errors.length}`
+  );
   const manifest = {
     generatedFrom: [searchUrl],
     lastVerified: new Date().toISOString().slice(0, 10),
@@ -89,9 +117,10 @@ async function main() {
     laws: manifestLaws
   };
 
+  logger.info(`Writing discovery manifest to ${path.relative(ROOT, output)}`);
   await writeDataFile(output, manifest);
   if (errors.length) {
-    console.warn(
+    logger.warn(
       `Discovery ${discoveryStatus}; recorded ${errors.length} error(s) and wrote ${manifestLaws.length} laws.`
     );
   }

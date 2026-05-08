@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { parseRegionalSourceRows } from "./lib/html.mjs";
 import { fetchText, sleep } from "./lib/http.mjs";
 import { readDataFile, writeDataFile } from "./lib/lino.mjs";
+import { createLogger } from "./lib/logging.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -14,24 +15,44 @@ async function main() {
   const languagePath = path.resolve(ROOT, args.languages ?? "data/languages.lino");
   const maxPages = Number(args["max-pages"] ?? 1);
   const delayMs = Number(args["delay-ms"] ?? 1100);
+  const quiet = Boolean(args.quiet);
+  const logger = createLogger("discover-regional-sources", { quiet });
+  const httpLogger = createLogger("http", { quiet });
+  logger.info("Starting regional source discovery");
+  logger.info(
+    `Options: languages=${path.relative(ROOT, languagePath)}, output=${path.relative(
+      ROOT,
+      output
+    )}, maxPages=${maxPages}, delayMs=${delayMs}`
+  );
+  logger.info(`Reading language config from ${path.relative(ROOT, languagePath)}`);
   const config = await readDataFile(languagePath);
+  logger.info(`Loaded ${config.languages.length} configured language(s)`);
   const sources = [];
   const errors = [];
+  const regionalLanguages = config.languages.filter((entry) => entry.regionalSlug);
+  logger.info(`Selected ${regionalLanguages.length} regional language(s) with a regionalSlug`);
 
-  for (const language of config.languages.filter((entry) => entry.regionalSlug)) {
+  for (const language of regionalLanguages) {
+    logger.info(`Discovering regional sources for ${language.code} from ${language.officialSource}`);
     for (let page = 0; page < maxPages; page += 1) {
       const url = new URL(language.officialSource);
       if (page > 0) {
         url.searchParams.set("page", String(page));
       }
       try {
-        const html = await fetchText(url.toString(), { retries: 1, timeoutMs: 20000 });
+        logger.info(`Fetching ${language.code} page ${page + 1}/${maxPages}: ${url.toString()}`);
+        const html = await fetchText(url.toString(), { logger: httpLogger, retries: 1, timeoutMs: 20000 });
+        logger.info(`Fetched ${language.code} page ${page + 1}: ${html.length} character(s)`);
         const rows = parseRegionalSourceRows(html, language.code, language.officialSource);
+        logger.info(`Parsed ${rows.length} regional source row(s) for ${language.code} page ${page + 1}`);
         sources.push(...rows);
         if (rows.length === 0) {
+          logger.info(`No regional rows found for ${language.code} page ${page + 1}; stopping this language`);
           break;
         }
       } catch (error) {
+        logger.warn(`Regional source fetch failed for ${language.code} page ${page + 1}: ${error.message}`);
         errors.push({
           language: language.code,
           url: url.toString(),
@@ -39,6 +60,7 @@ async function main() {
         });
         break;
       }
+      logger.info(`Waiting ${delayMs}ms before next regional source page`);
       await sleep(delayMs);
     }
   }
@@ -47,8 +69,12 @@ async function main() {
   for (const source of sources) {
     if (!uniqueSources.some((entry) => entry.language === source.language && entry.url === source.url)) {
       uniqueSources.push(source);
+      logger.info(`Added regional source ${source.language}: ${source.title} -> ${source.url}`);
+    } else {
+      logger.info(`Skipped duplicate regional source ${source.language}: ${source.url}`);
     }
   }
+  logger.info(`Deduplicated ${sources.length} parsed regional source row(s) to ${uniqueSources.length} unique source(s)`);
 
   const payload = {
     lastVerified: new Date().toISOString().slice(0, 10),
@@ -60,6 +86,7 @@ async function main() {
     ]
   };
 
+  logger.info(`Writing regional source manifest to ${path.relative(ROOT, output)}`);
   await writeDataFile(output, payload);
   console.log(`Discovered ${uniqueSources.length} regional sources -> ${path.relative(ROOT, output)}`);
 }

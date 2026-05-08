@@ -22,7 +22,7 @@ test("Central Act discovery falls back to seed laws when the live listing is una
     await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
     const { port } = server.address();
     const outputFile = path.join(output, "laws.discovered.lino");
-    await execFileAsync("node", [
+    const { stderr } = await execFileAsync("node", [
       "scripts/discover-laws.mjs",
       "--search-url",
       `http://127.0.0.1:${port}/simple-search`,
@@ -38,6 +38,9 @@ test("Central Act discovery falls back to seed laws when the live listing is una
 
     const manifest = await readDataFile(outputFile);
     const notation = await readFile(outputFile, "utf8");
+    assert.match(stderr, /\[discover-laws\].*Starting Central Act discovery/);
+    assert.match(stderr, /\[discover-laws\].*Fetching search page/);
+    assert.match(stderr, /\[discover-laws\].*Discovery status seed-fallback/);
     assert.equal(manifest.discoveryStatus, "seed-fallback");
     assert.equal(manifest.laws[0].handle, "1367");
     assert.equal(manifest.errors.length, 1);

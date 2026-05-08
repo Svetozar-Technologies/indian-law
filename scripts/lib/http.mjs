@@ -1,6 +1,8 @@
 import http from "node:http";
 import https from "node:https";
 
+import { createLogger } from "./logging.mjs";
+
 const DEFAULT_HEADERS = {
   // India Code currently rejects Node fetch and several descriptive agents,
   // while accepting curl's default agent. Keep contact details in a header.
@@ -21,25 +23,32 @@ export async function fetchText(url, options = {}) {
 export async function fetchBuffer(url, options = {}) {
   const retries = options.retries ?? 2;
   const timeoutMs = options.timeoutMs ?? 60000;
+  const logger = options.logger === false ? undefined : options.logger ?? createLogger("http", { quiet: options.quiet });
   let lastError;
 
+  logger?.info(`HTTP fetch scheduled for ${url} with ${retries + 1} attempt(s), timeout ${timeoutMs}ms`);
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
+      logger?.info(`HTTP attempt ${attempt + 1}/${retries + 1}: GET ${url}`);
       return await requestBuffer(url, {
         headers: {
           ...DEFAULT_HEADERS,
           ...(options.headers ?? {})
         },
+        logger,
         timeoutMs
       });
     } catch (error) {
       lastError = error;
+      logger?.warn(`HTTP attempt ${attempt + 1}/${retries + 1} failed for ${url}: ${error.message}`);
       if (attempt < retries) {
+        logger?.info(`Waiting ${options.retryDelayMs ?? 1000}ms before retrying ${url}`);
         await sleep(options.retryDelayMs ?? 1000);
       }
     }
   }
 
+  logger?.error(`HTTP fetch failed after ${retries + 1} attempt(s) for ${url}: ${lastError.message}`);
   throw lastError;
 }
 
@@ -54,13 +63,16 @@ function requestBuffer(rawUrl, options = {}, redirectCount = 0) {
       },
       (response) => {
         const statusCode = response.statusCode ?? 0;
+        options.logger?.info(`HTTP response ${statusCode} ${response.statusMessage ?? ""} for ${rawUrl}`.trim());
         if ([301, 302, 303, 307, 308].includes(statusCode) && response.headers.location) {
           response.resume();
           if (redirectCount >= 5) {
             reject(new Error(`Too many redirects for ${rawUrl}`));
             return;
           }
-          resolve(requestBuffer(new URL(response.headers.location, url).toString(), options, redirectCount + 1));
+          const redirectUrl = new URL(response.headers.location, url).toString();
+          options.logger?.info(`Following redirect ${redirectCount + 1}/5 from ${rawUrl} to ${redirectUrl}`);
+          resolve(requestBuffer(redirectUrl, options, redirectCount + 1));
           return;
         }
 
@@ -72,12 +84,14 @@ function requestBuffer(rawUrl, options = {}, redirectCount = 0) {
             reject(new Error(`HTTP ${statusCode} ${response.statusMessage} for ${rawUrl}`));
             return;
           }
+          options.logger?.info(`HTTP completed ${rawUrl}: ${body.byteLength} byte(s)`);
           resolve(body);
         });
       }
     );
 
     request.setTimeout(options.timeoutMs ?? 60000, () => {
+      options.logger?.warn(`HTTP timeout after ${options.timeoutMs ?? 60000}ms for ${rawUrl}`);
       request.destroy(new Error(`Request timed out for ${rawUrl}`));
     });
     request.on("error", reject);
