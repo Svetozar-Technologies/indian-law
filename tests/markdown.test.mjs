@@ -1,0 +1,57 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+
+import {
+  countLines,
+  renderMarkdownPart,
+  sectionMarkdown,
+  splitSectionsIntoParts
+} from "../scripts/lib/markdown.mjs";
+
+test("renders a section with content and footnotes", () => {
+  const markdown = sectionMarkdown({
+    sectionNo: "1",
+    title: "Short title",
+    content: "Body",
+    footnotes: "1. Footnote"
+  });
+  assert.match(markdown, /^## Section 1 - Short title/);
+  assert.match(markdown, /### Footnotes/);
+});
+
+test("splits only between sections and keeps each part under the requested line budget when possible", () => {
+  const sections = Array.from({ length: 5 }, (_, index) => ({
+    sectionNo: String(index + 1),
+    title: `Section ${index + 1}`,
+    content: ["line 1", "line 2", "line 3", "line 4"].join("\n"),
+    footnotes: ""
+  }));
+  const parts = splitSectionsIntoParts(sections, { maxLines: 14 });
+  assert.equal(parts.length, 3);
+  assert.deepEqual(
+    parts.flat().map((section) => section.sectionNo),
+    ["1", "2", "3", "4", "5"]
+  );
+  for (const part of parts) {
+    assert.ok(countLines(part.map((section) => sectionMarkdown(section)).join("\n\n")) <= 14);
+  }
+});
+
+test("renders Markdown part metadata and source links", () => {
+  const markdown = renderMarkdownPart({
+    law: {
+      title: "Example Act",
+      sourceUrl: "https://example.test/act",
+      sources: {
+        en: [{ kind: "html", url: "https://example.test/act" }]
+      }
+    },
+    language: { code: "en", name: "English" },
+    partIndex: 0,
+    partCount: 1,
+    sections: [{ sectionNo: "1", title: "Start", content: "Text", footnotes: "" }]
+  });
+  assert.match(markdown, /line_limit: 1500/);
+  assert.match(markdown, /https:\/\/example\.test\/act/);
+  assert.match(markdown, /## Section 1 - Start/);
+});

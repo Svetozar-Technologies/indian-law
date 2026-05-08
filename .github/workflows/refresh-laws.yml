@@ -1,0 +1,84 @@
+name: Refresh Laws and Deploy Pages
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "17 2 * * 1"
+  workflow_dispatch:
+    inputs:
+      fetch_limit:
+        description: "Maximum laws to fetch. Use 0 for the full discovered list."
+        required: false
+        default: "0"
+      max_sections:
+        description: "Maximum sections per law for diagnostics. Leave empty for all sections."
+        required: false
+        default: ""
+      regional_pages:
+        description: "Regional-language listing pages to inspect per language."
+        required: false
+        default: "10"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Refresh Official Sources
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Discover Central Acts
+        env:
+          FETCH_LIMIT: ${{ github.event.inputs.fetch_limit || '0' }}
+        run: node scripts/discover-laws.mjs --limit "$FETCH_LIMIT" --output data/laws.discovered.json --delay-ms 1100
+
+      - name: Discover Regional Language Sources
+        env:
+          REGIONAL_PAGES: ${{ github.event.inputs.regional_pages || '10' }}
+        run: node scripts/discover-regional-sources.mjs --max-pages "$REGIONAL_PAGES" --output data/regional-sources.discovered.json --delay-ms 1100
+
+      - name: Build Pages from official sources
+        env:
+          MAX_SECTIONS: ${{ github.event.inputs.max_sections }}
+        run: |
+          args=(--fetch --manifest data/laws.discovered.json --regional-sources data/regional-sources.discovered.json --delay-ms 1100)
+          if [ -n "$MAX_SECTIONS" ]; then
+            args+=(--max-sections "$MAX_SECTIONS")
+          fi
+          node scripts/build-site.mjs "${args[@]}"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5
