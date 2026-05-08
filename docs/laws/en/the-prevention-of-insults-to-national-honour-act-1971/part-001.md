@@ -1,0 +1,115 @@
+---
+title: "The Prevention of Insults to National Honour Act, 1971"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1578"
+---
+# The Prevention of Insults to National Honour Act, 1971
+
+Language: English
+Part 1 of 1
+Sections: 1 to 3A
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1578
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1578/1/aA1971-69.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1578/2/hH1971-69.pdf
+
+## Section 1 - Short title and extent.
+
+(1) This Act may be called the Prevention of Insults to National Honour
+Act, 1971.
+
+(2) It extends to the whole of India.
+
+## Section 2 - Insults to Indian National Flag and Constitution of India.
+
+Whoever in any public place or in
+any other place within public view burns, mutilates, defaces, difiles, disfigures, destroys, tramples upon or
+^1[otherwise shows disrespect to or brings] into contempt (whether by words, either spoken or written, or
+by acts) the Indian National Flag or the Constitution of India or any part thereof, shall be punished with
+imprisonment for a term which may extend to three years, or with fine, or with both.
+
+Explanation 1.-- Comments expressing disapprobation or criticism of the Constitution or of the
+Indian National Flag or of any measures of the Government with a view to obtain an amendment of the
+Constitution of India or an alteration of the Indian National Flag by lawful means do not constitute an
+offence under this section.
+
+Explanation 2.--The expression "Indian National Flag" includes any picture, painting, drawing or
+photograph, or other visible representation of the Indian National Flag, or of any part or parts thereof,
+made of any substance or represented on any substance.
+
+Explanation 3.-- The expression "public place" means any place intended for use by, or accessible to,
+the public and Includes any public conveyance.
+
+^2[Explanation 4.--The disrespect to the Indian National Flag means and includes--
+
+(a) a gross affront or indignity offered to the Indian National Flag; or
+
+(b) dipping the Indian National Flag in salute to any person or thing; or
+
+(c) flying the Indian National Flag at half-mast except on occasions on which the Indian National
+Flag is flown at half-mast on public buildings in accordance with the instructions issued by the
+Government; or
+
+(d) using the Indian National Flag as a drapery in any form whatsoever except in State funerals or
+armed forces or other para-military forces funerals; or
+
+^3[(e) using the Indian National Flag,--
+
+(i) as a portion of costume, uniform or accessory of any description which is worn below the
+waist of any person; or
+
+(ii) by embroidering or printing it on cushions, handkerchiefs, napkins, undergarments or any
+dress material; or]
+
+(f) putting any kind of inscription upon the Indian National Flag; or
+
+(g) using the Indian National Flag as a receptacle for receiving, delivering or carrying anything
+except flower petals before the Indian National Flag is unfurled as part of celebrations on special
+occasions including the Republic Day or the Independence day; or
+
+(h) using the Indian National Flag as covering for a statute or a monument or a speaker's desk or
+a speaker's platform; or
+
+(i) allowing the Indian National Flag to touch the ground or the floor or trail in water
+intentionally; or
+
+(j) draping the Indian National Flag over the hood, top and sides or back or on a vehicle, train,
+boat or an aircraft or any other similar object; or
+
+(k) using the Indian National Flag as a covering for a building; or
+
+(l) intentionally displaying the Indian National Flag with the "saffron" down.]
+
+### Footnotes
+
+1 Subs. by Act 31 of 2003, s. 2, for "otherwise brings" (w.e.f. 8-5-2003).
+
+2 The Explanation inserted by s. 2, ibid. (w.e.f. 8-5-2003).
+
+3 Subs. by Act 51 of 2005, for clause (e) (w.e.f. 20-12-2005).
+
+## Section 3 - Prevention of singing of Indian National Anthem, etc.
+
+Whoever Intentionally prevents the
+singing of the Indian National Anthem or causes disturbance to any assembly engaged in such singing
+shall be punished with imprisonment for a term which may extend to three years, or with fine, or with
+both.
+
+## Section 3A - Enhanced penalty on second and subsequent convictions.
+
+^1
+[3A. Enhanced penalty on second and subsequent convictions.—Whoever, having already been
+convicted of an offence under section 2 or section 3, is again convicted of any such offence shall be
+punishable for the second and for every subsequent offence, with imprisonment for a term which shall not
+be less than one year.]
+
+### Footnotes
+
+1 Ins. by Act 31 of 2003, s. 3 (w.e.f. 8-5-2003).

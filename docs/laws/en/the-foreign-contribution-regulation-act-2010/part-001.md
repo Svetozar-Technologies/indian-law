@@ -1,0 +1,1385 @@
+---
+title: "The Foreign Contribution (Regulation) Act, 2010"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/2098"
+---
+# The Foreign Contribution (Regulation) Act, 2010
+
+Language: English
+Part 1 of 1
+Sections: 1 to 54
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/2098
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2098/1/a2010-42.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=Foreign+Contribution+%28Regulation%29+Rules+2011.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=Foreign+Contribution+%28Regulation%29+Amendment+Rules+2012.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=Foreign+Contribution%28Acceptance+or+Retention+of+Gifts+or+Presentation%29+Rules+2012.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=Foreign+Contribution+%28Regulation%29+Amendment+Rules+2015.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=fc_12032019.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=foreign_contribution_%28regulation%29%28second_amendment%29_rules%2C_2019.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/circularindividualfile/&file=Guidelines+for+acceptance+of+foreign+hospitality+under+FCRA%2C+2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Date+of+effect+of+FCRA%2C+2010+and+FCRR%2C+2011.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Global+Development+Network+not+treated+as+foreign+source.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Exemption+of+Statutory+Bodies+from+operation+of+FCRA%2C+2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Compounding+of+offence+of+receipt+of+foreign+contribution+without+permission+or+registration+under+FCRA%2C+2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Sanctioning+Authority+and+Investigating+Authority+under+FCRA%2C2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=IUCN+not+treated+as+foreign+source.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Amount+of+Penalty+and+Competent+Authority+for+late+submission+of+Annual+Returns+under+FCRA%2C+2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=in_excersice_of_the_powers_conferred_by_section_50_of_the_foreign_contribution_%28regulation%29_act%2C_2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Comounding+of+Offence+under+FCRA%2C+2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Compounding+of+Offence+under+FCRA%2C+2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=5650%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=india_code.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=202636.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2098/2/H2010-42.pdf
+
+## Section 1 - Short title, extent, application and commencement.
+
+(1) This Act may be called the Foreign
+Contribution (Regulation) Act, 2010.
+
+(2) It extends to the whole of India, and it shall also apply to—
+
+(a) citizens of India outside India; and
+
+(b) associate branches or subsidiaries, outside India, of companies or bodies corporate, registered
+or incorporated in India.
+
+(3) It shall come into force on such date^1
+as the Central Government may, by notification in the
+Official Gazette, appoint:
+
+Provided that different dates may be appointed for different provisions of this Act and any reference
+in any such provision to the commencement of this Act shall be construed as a reference to the coming
+into force of that provision.
+
+### Footnotes
+
+1. 1st May, 2011, vide notification No. S.O. 909(E), dated 29th April, 2011, see Gazette of India, Extraordinary, Part II, sec. 3(ii).
+
+## Section 2 - Definitions.
+
+(1) In this Act, unless the context otherwise requires,--
+
+(a) "association" means an association of individuals, whether incorporated or not, having an
+office in India and includes a society, whether registered under the Societies Registration Act, 1860
+(21 of 1860), or not, and any other organisation, by whatever name called;
+
+(b) "authorised person in foreign exchange" means an authorised person referred to in clause (c)
+of section 2 of the Foreign Exchange Management Act, 1999 (42 of 1999);
+
+(c) "bank" means a banking company as referred to in clause (c) of section 5 of the Banking
+Regulation Act, 1949 (10 of 1949);
+
+(d) "candidate for election" means a person who has been duly nominated as a candidate for
+election to any Legislature;
+
+(e) "certificate" means certificate of registration granted under sub-section (3) of section 12;
+
+(f) "company" shall have the meaning assigned to it under clause (17) of section 2 of the
+Income-tax Act, 1961 (43 of 1961);
+
+(g) "foreign company" means any company or association or body of individuals incorporated
+outside India and includes--
+
+(i) a foreign company within the meaning of section 591 of the Companies Act, 1956
+(1 of 1956);
+
+(ii) a company which is a subsidiary of a foreign company;
+
+(iii) the registered office or principal place of business of a foreign company referred to in
+sub-clause (i) or company referred to in sub-clause (ii);
+
+(iv) a multi-national corporation.
+
+Explanation. "For the purposes of this sub-clause, a corporation incorporated in a foreign
+country or territory shall be deemed to be a multi-national corporation if such corporation,"
+
+(a) has a subsidiary or a branch or a place of business in two or more countries or territories;
+or
+
+(b) carries on business, or otherwise operates, in two or more countries or territories;
+
+(h) "foreign contribution" means the donation, delivery or transfer made by any foreign source,
+
+(i) of any article, not being an article given to a person as a gift for his personal use, if the
+market value, in India, of such article, on the date of such gift, is not more than such sum as may
+be specified from time to time, by the Central Government by the rules made by it in this behalf;
+
+(ii) of any currency, whether Indian or foreign;
+
+(iii) of any security as defined in clause (h) of section 2 of the Securities Contracts
+(Regulation) Act, 1956 (42 of 1956) and includes any foreign security as defined in clause (o) of
+section 2 of` the Foreign Exchange Management Act, 1999 (42 of 1999).
+
+Explanation 1.--A donation, delivery or transfer of any article, currency or foreign security
+referred to in this clause by any person who has received it from any foreign source, either directly or
+through one or more persons, shall also be deemed to be foreign contribution within the meaning of
+this clause.
+
+Explanation 2.--The interest accrued on the foreign contribution deposited in any bank referred
+to in sub-section (1) of section 17 or any other income derived from the foreign contribution or
+interest thereon shall also be deemed to be foreign contribution within the meaning of this clause.
+
+Explanation 3.--Any amount received, by any person from any foreign source in India, by way
+of fee (including fees charged by an educational institution in India from foreign student) or towards
+cost in lieu of goods or services rendered by such person in the ordinary course of his business, trade
+or commerce whether within India or outside India or any contribution received from an agent of a
+foreign source towards such fee or cost shall be excluded from the definition of foreign contribution
+within the meaning of this clause;
+
+(i) "foreign hospitality" means any offer, not being a purely casual one, made in cash or kind by a
+foreign source for providing a person with the costs of travel to any foreign country or territory or
+with free boarding, lodging, transport or medical treatment;
+
+(j) "foreign source" includes,--
+
+(i) the Government of any foreign country or territory and any agency of such Government;
+
+(ii) any international agency, not being the United Nations or any of its specialised agencies,
+the World Bank, International Monetary Fund or such other agency as the Central Government
+may, by notification, specify in this behalf;
+
+(iii) a foreign company;
+
+(iv) a corporation, not being a foreign company, incorporated in a foreign country or territory;
+
+(v) a multi-national corporation referred to in sub-clause (iv) of clause (g);
+
+(vi) a company within the meaning of the Companies Act, 1956 (1 of 1956), and more than
+one-half of the nominal value of its share capital is held, either singly or in the aggregate, by one
+or more of the following, namely:--
+
+(A) the Government of a foreign country or territory;
+
+(B) the citizens of a foreign country or territory;
+
+(C) corporations incorporated in a foreign country or territory;
+
+(D) trusts, societies or other associations of individuals (whether incorporated or not),
+formed or registered in a foreign country or territory;
+
+(E) foreign company;
+
+^1[Provided that where the nominal value of share capital is within the limits specified for
+foreign investment under the Foreign Exchange Management Act, 1999 (42 of 1999), or the
+rules or regulations made thereunder, then, notwithstanding the nominal value of share capital
+of a company being more than one-half of such value at the time of making the contribution,
+such company shall not be a foreign source;]
+
+(vii) a trade union in any foreign country or territory, whether or not registered in such
+foreign country or territory;
+
+(viii) a foreign trust or a foreign foundation, by whatever name called, or such trust or
+foundation mainly financed by a foreign country or territory;
+
+(ix) a society, club or other association of individuals formed or registered outside India;
+
+(x) a citizen of a foreign country;
+
+(k) "Legislature" means--
+
+(A) either House of Parliament;
+
+(B) the Legislative Assembly of a State, or in the case of a State having a Legislative Council,
+either House of the Legislature of that State;
+
+(C) Legislative Assembly of a Union territory constituted under the Government of Union
+Territories Act, 1963 (20 of 1963);
+
+(D) Legislative Assembly for the National Capital Territory of Delhi referred to in the
+Government of National Capital Territory of Delhi Act, 1991 (1 of 1992);
+
+(E) Municipality as defined in clause (e) of article 243P of the Constitution;
+
+(F) District Councils and Regional Councils in the States of Assam, Meghalaya, Tripura and
+Mizoram as provided in the Sixth Schedule to the Constitution;
+
+(G) Panchayat as defined in clause (d) of article 243 of the Constitution; or
+
+(H) any other elective body as may be notified by the Central Government;
+
+(l) "notification" means notification published in the Official Gazette and the expression "notify"
+shall be construed accordingly;
+
+(m) "person" includes--
+
+(i) an individual;
+
+(ii) a Hindu undivided family;
+
+(iii) an association;
+
+(iv) a company registered under section 25 of the Companies Act, 1956 (1 of 1956);
+
+(n) "political party" means--
+
+(i) an association or body of individual citizens of India--
+
+(A) to be registered with the Election Commission of India as a political party under
+section 29A of the Representation of the People Act, 1951 (43 of 1951); or
+
+(B) which has set up candidates for election to any Legislature, but is not so registered or
+deemed to be registered under the Election Symbols (Reservation and Allotment) Order,
+1968;
+
+(ii) a political party mentioned in column 2 of Table 1 and Table 2 to the notification of the
+Election Commission of India No. 56/J&K/02, dated the 8th August, 2002, as in force for the
+time being;
+
+(o) "prescribed" means prescribed by rules made under this Act;
+
+(p) "prescribed authority" means an authority specified as such by rules made by the Central
+Government under this Act;
+
+(q) "registered newspaper" means a newspaper registered under the Press and Registration of
+Books Act, 1867 (25 of 1867);
+
+(r) "relative" has the meaning assigned to it in clause (41) of section 2 of the Companies
+Act, 1956 (1 of 1956);
+
+(s) "scheduled bank" shall have the meaning assigned to it under clause (e) of section 2 of the
+Reserve Bank of India Act, 1934 (2 of 1934);
+
+(t) "subsidiary" and "associate" shall have the meanings, respectively assigned to them in the
+Companies Act, 1956 (1 of 1956);
+
+(u) "trade union" means a trade union registered under the Trade Unions Act, 1926 (16 of 1926);
+
+(2) Words and expressions used herein and not defined in this Act but defined in the Representation
+of the People Act, 1950 (43 of 1950) or the Representation of the People Act, 1951 (43 of 1951) or the
+Foreign Exchange Management Act, 1999 (42 of 1999) shall have the meanings respectively assigned to
+them in those Acts.
+
+### Footnotes
+
+1. Ins. by Act 28 of 2016, s. 236 (w.r.e.f. 5-8-1976 vide the Act 13 of 2018, s. 220)
+
+## Section 3 - Prohibition to accept foreign contribution.
+
+(1) No foreign contribution shall be accepted by
+any--
+
+(a) candidate for election;
+
+(b) correspondent, columnist, cartoonist, editor, owner, printer or publisher of a registered
+newspaper;
+
+^1[(c) public servant, Judge, Government servant or employee of any corporation or any other
+body controlled or owned by the Government;]
+
+(d) member of any Legislature;
+
+(e) political party or office-bearer thereof;
+
+(f) organisation of a political nature as may be specified under sub-section (1) of section 5 by the
+Central Government;
+
+(g) association or company engaged in the production or broadcast of audio news or audio visual
+news or current affairs programmes through any electronic mode, or any other electronic form as
+defined in clause (r) of sub-section (1) of section 2 of the Information Technology Act, 2000
+(21 of 2000) or any other mode of mass communication;
+
+(h) correspondent or columnist, cartoonist, editor, owner of the association or company referred
+to in clause (g).
+
+^2[Explanation.1--For the purpose of clause (c), public servant means a public servant as defined
+in section 21 of the Indian Penal Code (45 of 1860).
+
+Explanation 2.--In clause (c) and section 6, the expression "corporation" means a corporation owned
+or controlled by the Government and includes a Government company as defined in clause (45) of section
+2 of the Companies Act, 2013 (18 of 2013).]
+
+(2) (a) No person, resident in India, and no citizen of India resident outside India, shall accept any
+foreign contribution, or acquire or agree to acquire any currency from a foreign source, on behalf of any
+political party, or any person referred to in sub-section (1), or both.
+
+(b) No person, resident in India, shall deliver any currency, whether Indian or foreign, which has been
+accepted from any foreign source, to any person if he knows or has reasonable cause to believe that such
+other person intends, or is likely, to deliver such currency to any political party or any person referred to
+in sub-section (1), or both.
+
+(c) No citizen of India resident outside India shall deliver any currency, whether Indian or foreign,
+which has been accepted from any foreign source, to--
+
+(i) any political party or any person referred to in sub-section (1), or both; or
+
+(ii) any other person, if he knows or has reasonable cause to believe that such other person
+intends, or is likely, to deliver such currency to a political party or to any person referred to in
+sub-section (1), or both.
+
+(3) No person receiving any currency, whether Indian or foreign, from a foreign source on behalf of
+any person or class of persons, referred to in section 9, shall deliver such currency--
+
+(a) to any person other than a person for which it was received, or
+
+(b) to any other person, if he knows or has reasonable cause to believe that such other person
+intends, or is likely, to deliver such currency to a person other than the person for which such
+currency was received.
+
+### Footnotes
+
+1. Subs. by Act 33 of 2020, s. 2, for clause (c) (w.e.f. 29-9-2020).
+
+2. Explanation subs. by Act 33 of 2020, s. 2 (w.e.f. 29-9-2020)
+
+## Section 4 - Persons to whom section 3 shall not apply.
+
+Nothing contained in section 3 shall apply to the
+acceptance, by any person specified in that section, of any foreign contribution where such contribution is
+accepted by him, subject to the provisions of section 10,—
+
+(a) by way of salary, wages or other remuneration due to him or to any group of persons working
+under him, from any foreign source or by way of payment in the ordinary course of business
+transacted in India by such foreign source; or
+
+(b) by way of payment, in the course of international trade or commerce, or in the ordinary course
+of business transacted by him outside India; or
+
+(c) as an agent of a foreign source in relation to any transaction made by such foreign source with
+the Central Government or State Government; or
+
+(d) by way of a gift or presentation made to him as a member of any Indian delegation, provided
+that such gift or present was accepted in accordance with the rules made by the Central Government
+with regard to the acceptance or retention of such gift or presentation; or
+
+(e) from his relative; or
+
+(f) by way of remittance received, in the ordinary course of business through any official channel,
+post office, or any authorised person in foreign exchange under the Foreign Exchange Management
+Act, 1999 (42 of 1999); or
+
+(g) by way of any scholarship, stipend or any payment of like nature:
+
+Provided that in case any foreign contribution received by any person specified under section 3,
+for any of the purposes other than those specified under this section, such contribution shall be
+deemed to have been accepted in contravention of the provisions of section 3.
+
+## Section 5 - Procedure to notify an organisation of a political nature.
+
+(1) The Central Government may,
+having regard to the activities of the organisation or the ideology propagated by the organisation or the
+programme of the organisation or the association of the organisations with the activities of any political
+party, by an order published in the Official Gazette, specify such organisation as an organisation of a
+political nature not being a political party, referred to in clause (f) of sub-section (1) of section 3:
+
+Provided that the Central Government may, by rules made by it, frame the guidelines specifying the
+ground or grounds on which an organisation shall be specified as an organisation of a political nature.
+
+(2) Before making an order under sub-section (1), the Central Government shall give the organisation
+in respect of whom the order is proposed to be made, a notice in writing informing it of the ground or
+grounds, on which it is proposed to be specified as an organisation of political nature under that
+sub-section.
+
+(3) The organisation to whom a notice has been served under sub-section (2), may, within a period of
+thirty days from the date of the notice, make a representation to the Central Government giving reasons
+for not specifying such organisation as an organisation under sub-section (1):
+
+Provided that the Central Government may entertain the representation after the expiry of the said
+period of thirty days, if it is satisfied that the organisation was prevented by sufficient cause from making
+the representation within thirty days.
+
+(4) The Central Government may, if it considers it appropriate, forward the representation referred to
+in sub-section (3) to any authority to report on such representation.
+
+(5) The Central Government may, after considering the representation and the report of the authority
+referred to in sub-section (4), specify such organisation as an organisation of a political nature not being a
+political party and make an order under sub-section (1) accordingly.
+
+(6) Every order under sub-section (1) shall be made within a period of one hundred and twenty days
+from the date of issue of notice under sub-section (2):
+
+Provided that in case no order is made within the said period of one hundred and twenty days, the
+Central Government shall, after recording the reasons therefor, make an order under sub-section (1)
+within a period of sixty days from the expiry of the said period of one hundred and twenty days.
+
+## Section 6 - Restriction on acceptance of foreign hospitality.
+
+No member of a Legislature or office-bearer
+of a political party or Judge or Government servant or employee of any corporation or any other body
+owned or controlled by the Government shall, while visiting any country or territory outside India, accept,
+except with the prior permission of the Central Government, any foreign hospitality:
+
+Provided that it shall not be necessary to obtain any such permission for an emergent medical aid
+needed on account of sudden illness contracted during a visit outside India, but, where such foreign
+hospitality has been received, the person receiving such hospitality shall give, within one month from the
+date of receipt of such hospitality an intimation to the Central Government as to the receipt of such
+hospitality, and the source from which, and the manner in which, such hospitality was received by him.
+
+## Section 7 - Prohibition to transfer foreign contribution to other person.
+
+^1[7. Prohibition to transfer foreign contribution to other person.--No person who--
+
+(a) is registered and granted a certificate or has obtained prior permission under this Act; and
+
+(b) receives any foreign contribution, shall transfer such foreign contribution to any other
+person.]
+
+### Footnotes
+
+1. Subs. by Act 33 of 2020, s. 3, for section 7 (w.e.f. 29-9-2020).
+
+## Section 8 - Restriction to utilise foreign contribution for administrative purpose.
+
+(1) Every person, who
+is registered and granted a certificate or given prior permission under this Act and receives any foreign
+contribution,--
+
+(a) shall utilise such contribution for the purposes for which the contribution has been received:
+
+Provided that any foreign contribution or any income arising out of it shall not be used for
+speculative business:
+
+Provided further that the Central Government shall, by rules, specify the activities or business
+which shall be construed as speculative business for the purpose of this section;
+
+(b) shall not defray as far as possible such sum, not exceeding ^1[twenty per cent.] of such
+contribution, received in a financial year, to meet administrative expenses:
+
+Provided that administrative expenses exceeding ^1[twenty per cent.] of such contribution may be
+defrayed with prior approval of the Central Government.
+
+(2) The Central Government may prescribe the elements which shall be included in the administrative
+expenses and the manner in which the administrative expenses referred to in sub-section (1) shall be
+calculated.
+
+### Footnotes
+
+2. Subs. by s. 4, ibid., for "fifty per cent." (w.e.f. 29-9-2020).
+
+## Section 9 - Power of Central Government to prohibit receipt of foreign contribution, etc., in certain cases.
+
+The Central Government may—
+
+(a) prohibit any person or organisation not specified in section 3, from accepting any foreign
+contribution;
+
+(b) require any person or class of persons, not specified in section 6, to obtain prior permission of
+the Central Government before accepting any foreign hospitality;
+
+(c) require any person or class of persons not specified in section 11, to furnish intimation within
+such time and in such manner as may be prescribed as to the amount of any foreign contribution
+received by such person or class of persons as the case may be, and the source from which and the
+manner in which such contribution was received and the purpose for which and the manner in which
+such foreign contribution was utilised;
+
+(d) without prejudice to the provisions of sub-section (1) of section 11, require any person or
+class of persons specified in that sub-section to obtain prior permission of the Central Government
+before accepting any foreign contribution;
+
+(e) require any person or class of persons, not specified in section 6, to furnish intimation, within
+such time and in such manner as may be prescribed, as to the receipt of any foreign hospitality, the
+source from which and the manner in which such hospitality was received:
+
+Provided that no such prohibition or requirement shall be made unless the Central Government is
+satisfied that the acceptance of foreign contribution by such person or class of persons, as the case
+may be, or the acceptance of foreign hospitality by such person, is likely to affect prejudicially—
+
+(i) the sovereignty and integrity of India; or
+
+(ii) public interest; or
+
+(iii) freedom or fairness of election to any Legislature; or
+
+(iv) friendly relations with any foreign State; or
+
+(v) harmony between religious, racial, social, linguistic or regional groups, castes or
+communities.
+
+## Section 10 - Power to prohibit payment of currency received in contravention of the Act.
+
+Where the
+Central Government is satisfied, after making such inquiry as it may deem fit, that any person has in his
+custody or control any article or currency or security, whether Indian or foreign, which has been accepted
+by such person in contravention of any of the provisions of this Act, it may, by order in writing, prohibit
+such person from paying, delivering, transferring or otherwise dealing with, in any manner whatsoever,
+such article or currency or security save in accordance with the written orders of the Central Government
+and a copy of such order shall be served upon the person so prohibited in the prescribed manner, and
+thereupon the provisions of sub-sections (2), (3), (4) and (5) of section 7 of the Unlawful Activities
+(Prevention) Act, 1967 (37 of 1967) shall, so far as may be, apply to, or in relation to, such article or
+currency or security and references in the said sub-sections to moneys, securities or credits shall be
+construed as references to such article or currency or security.
+
+## Section 11 - Registration of certain persons with Central Government.
+
+(1) Save as otherwise provided in
+this Act, no person having a definite cultural, economic, educational, religious or social programme shall
+accept foreign contribution unless such person obtains a certificate of registration from the Central
+Government:
+
+Provided that any association registered with the Central Government under section 6 or granted prior
+permission under that section of the Foreign Contribution (Regulation) Act, 1976 (49 of 1976), as it stood
+immediately before the commencement of this Act, shall be deemed to have been registered or granted
+prior permission, as the case may be, under this Act and such registration shall be valid for a period of
+five years from the date on which this section comes into force.
+
+(2) Every person referred to in sub-section (1) may, if it is not registered with the Central Government
+under that sub-section, accept any foreign contribution only after obtaining the prior permission of the
+Central Government and such prior permission shall be valid for the specific purpose for which it is
+obtained and from the specific source:
+
+^1[Provided that the Central Government, on the basis of any information or report, and after holding a
+summary inquiry, has reason to believe that a person who has been granted prior permission has
+contravened any of the provisions of this Act, it may, pending any further inquiry, direct that such person
+shall not utilise the unutilised foreign contribution or receive the remaining portion of foreign contribution
+which has not been received or, as the case may be, any additional foreign contribution, without prior
+approval of the Central Government:
+
+Provided further that if the person referred to in sub-section (1) or in this sub-section has been found
+guilty] of violation of any of the provisions of this Act or the Foreign Contribution (Regulation) Act,
+1976 (49 of 1976), the unutilised or unreceived amount of foreign contribution shall not be utilised or
+received, as the case may be, without the prior approval of the Central Government.
+
+(3) Notwithstanding anything contained in this Act, the Central Government may, by notification in
+the Official Gazette, specify
+
+(i) the person or class of persons who shall obtain its prior permission before accepting the
+foreign contribution; or
+
+(ii) the area or areas in which the foreign contribution shall be accepted and utilised with the prior
+permission of the Central Government; or
+
+(iii) the purpose or purposes for which the foreign contribution shall be utilised with the prior
+permission of the Central Government; or/
+
+(iv) the source or sources from which the foreign contribution shall be accepted with the prior
+permission of the Central Government.
+
+### Footnotes
+
+1. Subs. by Act 33 of 2020, s. 5, for certain words (w.e.f. 29-9-2020).
+
+## Section 12 - Grant of certificate of registration.
+
+(1) An application by a person, referred to in section 11
+for grant of certificate or giving prior permission, shall be made to the Central Government in such form
+and manner and along with such fee, as may be prescribed.
+
+^2[(1A) Every person who makes an application under sub-section (1) shall be required to open "FCRA
+Account" in the manner specified in section 17 and mention details of such account in his application.]
+
+(2) On receipt of an application under sub-section (1), the Central Government shall, by an order, if
+the application is not in the prescribed form or does not contain any of the particulars specified in that
+form, reject the application.
+
+(3) If on receipt of an application for grant of certificate or giving prior permission and after making
+such inquiry as the Central Government deems fit, it is of the opinion that the conditions specified in
+sub-section (4) are satisfied, it may, ordinarily within ninety days from the date of receipt of application
+under sub-section (1), register such person and grant him a certificate or give him prior permission, as the
+case may be, subject to such terms and conditions as may be prescribed:
+
+Provided that in case the Central Government does not grant, within the said period of ninety days, a
+certificate or give prior permission, it shall communicate the reasons therefor to the applicant:
+
+Provided further that a person shall not be eligible for grant of certificate or giving prior permission,
+if his certificate has been suspended and such suspension of certificate continues on the date of making
+application.
+
+(4) The following shall be the conditions for the purposes of sub-section (3), namely:
+
+(a) the person making an application for registration or grant of prior permission under
+sub-section (1),
+
+(i) is not fictitious or benami;
+
+(ii) has not been prosecuted or convicted for indulging in activities aimed at conversion
+through inducement or force, either directly or indirectly, from one religious faith to another;
+
+(iii) has not been prosecuted or convicted for creating communal tension or disharmony in
+any specified district or any other part of the country;
+
+(iv) has not been found guilty of diversion or mis-utilisation of its funds;
+
+(v) is not engaged or likely to engage in propagation of sedition or advocate violent methods
+to achieve its ends;
+
+(vi) is not likely to use the foreign contribution for personal gains or divert it for undesirable
+purposes;
+
+(vii) has not contravened any of the provisions of this Act;
+
+(viii) has not been prohibited from accepting foreign contribution;
+
+(b) the person making an application for registration under sub-section (1) has undertaken
+reasonable activity in its chosen field for the benefit of the society for which the foreign contribution
+is proposed to be utilised;
+
+(c) the person making an application for giving prior permission under sub-section (1) has
+prepared a reasonable project for the benefit of the society for which the foreign contribution is
+proposed to be utilised;
+
+(d) in case the person being an individual, such individual has neither been convicted under any
+law for the time being in force nor any prosecution for any offence pending against him;
+
+(e) in case the person being other than an individual, any of its directors or office bearers has
+neither been convicted under any law for the time being in force nor any prosecution for any offence
+is pending against him;
+
+(f) the acceptance of foreign contribution by the person referred to in sub-section (1) is not likely
+to affect prejudicially
+
+(i) the sovereignty and integrity of India; or
+
+(ii) the security, strategic, scientific or economic interest of the State; or
+
+(iii) the public interest; or
+
+(iv) freedom or fairness of election to any Legislature; or
+
+(v) friendly relation with any foreign State; or
+
+(vi) harmony between religious, racial, social, linguistic, regional groups, castes or
+communities;
+
+(g) the acceptance of foreign contribution referred to in sub-section (1),--
+
+(i) shall not lead to incitement of an offence;
+
+(ii) shall not endanger the life or physical safety of any person.
+
+(5) Where the Central Government refuses the grant of certificate or does not give prior permission, it
+shall record in its order the reasons therefor and furnish a copy thereof to the applicant:
+
+Provided that the Central Government may not communicate the reasons for refusal for grant of
+certificate or for not giving prior permission to the applicant under this section in cases where there is no
+obligation to give any information or documents or records or papers under the Right to Information
+Act, 2005 (22 of 2005).
+
+(6) The certificate granted under sub-section (3) shall be valid for a period of five years and the prior
+permission shall be valid for the specific purpose or specific amount of foreign contribution proposed to
+be received, as the case may be.
+
+### Footnotes
+
+1. Ins. by s. 6, ibid. (w.e.f. 29-9-2020).
+
+## Section 12A - Power of Central Government to require Aadhaar number, etc., as identification document.
+
+^1[12A. Power of Central Government to require Aadhaar number, etc., as identification
+document.--Notwithstanding anything contained in this Act, the Central Government may require that
+any person who seeks prior permission or prior approval under section 11, or makes an application for
+grant of certificate under section 12, or, as the case may be, for renewal of certificate under section 16,
+shall provide as identification document, the Aadhaar number of all its office bearers or Directors or other
+key functionaries, by whatever name called, issued under the Aadhaar (Targeted Delivery of Financial
+and Other Subsidies, Benefits and Services) Act, 2016 (18 of 2016), or a copy of the Passport or Overseas
+Citizen of India Card, in case of a foreigner.]
+
+### Footnotes
+
+1. Ins. by Act 33 of 2020, s. 7 (w.e.f. 29-9-2020).
+
+## Section 13 - Suspension of certificate.
+
+(1) Where the Central Government, for reasons to be recorded in
+writing, is satisfied that pending consideration of the question of cancelling the certificate on any of the
+grounds mentioned in sub-section (1) of section 14, it is necessary so to do, it may, by order in writing,
+suspend the certificate ^1[for a period of one hundred and eighty days, or such further period, not
+exceeding one hundred and eighty days, as may be specified] in the order.
+
+(2) Every person whose certificate has been suspended shall--
+
+(a) not receive any foreign contribution during the period of suspension of certificate:
+
+Provided that the Central Government, on an application made by such person, if it considers
+appropriate, allow receipt of any foreign contribution by such person on such terms and conditions as
+it may specify;
+
+(b) utilise, in the prescribed manner, the foreign contribution in his custody with the prior
+approval of the Central Government.
+
+### Footnotes
+
+1. Subs. by s. 8, ibid., for "for such period not exceeding one hundred and eighty days as may be specified" (w.e.f. 29-9-2020).
+
+## Section 14 - Cancellation of certificate.
+
+(1) The Central Government may, if it is satisfied after making
+such inquiry as it may deem fit, by an order, cancel the certificate if
+
+(a) the holder of the certificate has made a statement in, or in relation to, the application for the
+grant of registration or renewal thereof, which is incorrect or false; or
+
+(b) the holder of the certificate has violated any of the terms and conditions of the certificate or
+renewal thereof; or
+
+(c) in the opinion of the Central Government, it is necessary in the public interest to cancel the
+certificate; or
+
+(d) the holder of certificate has violated any of the provisions of this Act or rules or order made
+thereunder; or
+
+(e) if the holder of the certificate has not been engaged in any reasonable activity in its chosen
+field for the benefit of the society for two consecutive years or has become defunct.
+
+(2) No order of cancellation of certificate under this section shall be made unless the person
+concerned has been given a reasonable opportunity of being heard.
+
+(3) Any person whose certificate has been cancelled under this section shall not be eligible for
+registration or grant of prior permission for a period of three years from the date of cancellation of such
+certificate.
+
+## Section 14A - Surrender of certificate.
+
+^1[14A. Surrender of certificate.--On a request being made in this behalf, the Central Government
+may permit any person to surrender the certificate granted under this Act, if, after making such inquiry as
+it deems fit, it is satisfied that such person has not contravened any of the provisions of this Act, and the
+management of foreign contribution and asset, if any, created out of such contribution has been vested in
+the authority as provided in sub-section (1) of section 15.]
+
+### Footnotes
+
+1. Ins. by Act 33 of 2020, s. 9 (w.e.f. 29-9-2020)
+
+## Section 15 - Management of foreign contribution of person whose certificate has been cancelled or surrendered.
+
+(1) The foreign contribution and assets created out of the foreign contribution in the
+custody of every person whose certificate has been cancelled under section 14 ^1[or surrendered under
+section 14A] shall vest in such authority as may be prescribed.
+
+(2) The authority referred to in sub-section (1) may, if it considers necessary and in public interest,
+manage the activities of the person referred to in that sub-section for such period and in such manner, as
+the Central Government may direct and such authority may utilise the foreign contribution or dispose of
+the assets created out of it in case adequate funds are not available for running such activity.
+
+(3) The authority referred to in sub-section (1) shall return the foreign contribution and the assets
+vested upon it under that sub-section to the person referred to in the said sub-section if such person is
+subsequently registered under this Act.
+
+### Footnotes
+
+1. Ins. by s. 10, ibid. (w.e.f. 29-9-2020).
+
+## Section 16 - Renewal of certificate.
+
+(1) Every person who has been granted a certificate under section 12
+shall have such certificate renewed within six months before the expiry of the period of the certificate.
+
+^1[Provided that the Central Government may, before renewing the certificate, make such inquiry, as it
+deems fit, to satisfy itself that such person has fulfilled all conditions specified in sub-section (4) of
+section 12.]
+
+(2) The application for renewal of the certificate shall be made to the Central Government in such
+form and manner and accompanied by such fee as may be prescribed.
+
+(3) The Central Government shall renew the certificate, ordinarily within ninety days from the date of
+receipt of application for renewal of certificate subject to such terms and conditions as it may deem fit and
+grant a certificate of renewal for a period of five years:
+
+Provided that in case the Central Government does not renew the certificate within the said period of
+ninety days, it shall communicate the reasons therefor to the applicant:
+
+Provided further that the Central Government may refuse to renew the certificate in case where a
+person has violated any of the provisions of this Act or rules made thereunder.
+
+### Footnotes
+
+1. The proviso ins. by s. 11, ibid. (w.e.f 29-9-2020).
+
+## Section 17 - Foreign contribution through scheduled bank.
+
+^1[17. Foreign contribution through scheduled bank.--(1) Every person who has been granted
+certificate or prior permission under section 12 shall receive foreign contribution only in an account
+designated as "FCRA Account" by the bank, which shall be opened by him for the purpose of remittances
+of foreign contribution in such branch of the State Bank of India at New Delhi, as the Central
+Government may, by notification, specify in this behalf:
+
+Provided that such person may also open another"FCRA Account" in any of the scheduled bank of
+his choice for the purpose of keeping or utilising the foreign contribution which has been received from
+his "FCRA Account" in the specified branch of State Bank of India at New Delhi:
+
+Provided further that such person may also open one or more accounts in one or more scheduled
+banks of his choice to which he may transfer for utilising any foreign contribution received by him in his
+"FCRA Account" in the specified branch of the State Bank of India at New Delhi or kept by him in
+another "FCRA Account" in a scheduled bank of his choice:
+
+Provided also that no funds other than foreign contribution shall be received or deposited in any such
+account.
+
+(2) The specified branch of the State Bank of India at New Delhi or the branch of the scheduled bank
+where the person referred to in sub-section (1) has opened his foreign contribution account or the
+authorised person in foreign exchange, shall report to such authority as may be specified--
+
+(a) the prescribed amount of foreign remittance;
+
+(b) the source and manner in which the foreign remittance was received; and
+
+(c) other particulars, in such form and manner as may be prescribed.]
+
+### Footnotes
+
+1. Subs. by Act 33 of 2020, s. 12, for section 17 (w.e.f. 29-9-2020).
+
+## Section 18 - Intimation.
+
+(1) Every person who has been granted a certificate or given prior approval under
+this Act shall give, within such time and in such manner as may be prescribed, an intimation to the
+Central Government, and such other authority as may be specified by the Central Government, as to the
+amount of each foreign contribution received by it, the source from which and the manner in which such
+foreign contribution was received, and the purposes for which, and the manner in which such foreign
+contribution was utilised by him.
+
+(2) Every person receiving foreign contribution shall submit a copy of a statement indicating therein
+the particulars of foreign contribution received duly certified by officer of the bank or authorised person
+in foreign exchange and furnish the same to the Central Government along with the intimation under
+sub-section (1).
+
+## Section 19 - Maintenance of accounts.
+
+Every person who has been granted a certificate or given prior
+approval under this Act shall maintain, in such form and manner as may be prescribed,
+
+(a) an account of any foreign contribution received by him; and
+
+(b) a record as to the manner in which such contribution has been utilised by him.
+
+## Section 20 - Audit of accounts.
+
+Where any person who has been granted a certificate or given prior
+permission, fails to furnish any intimation under this Act within the time specified therefor or the
+intimation so furnished is not in accordance with law or if, after inspection of such intimation, the CentralGovernment has any reasonable cause to believe that any provision of this Act has been, or is being,
+contravened, the Central Government may, by general or special order, authorise such gazetted officer,
+holding a Group A post under the Central Government or any other officer or authority or organisation, as
+it may think fit, to audit any books of account kept or maintained by such person and thereupon every
+such officer shall have the right to enter in or upon any premises at any reasonable hour, before sunset and
+after sunrise, for the purpose of auditing the said books of account:
+
+Provided that any information obtained from such audit shall be kept confidential and shall not be
+disclosed except for the purposes of this Act.
+
+## Section 21 - Intimation by candidate for election.
+
+Every candidate for election, who had received any
+foreign contribution, at any time within one hundred and eighty days immediately preceding the date on
+which he is duly nominated as such candidate, shall give, within such time and in such manner as may be
+prescribed, an intimation to the Central Government or prescribed authority or both as to the amount of
+foreign contribution received by him, the source from which, and the manner in which, such foreign
+contribution was received and the purposes for which and the manner in which such foreign contribution
+was utilised by him.
+
+## Section 22 - Disposal of assets created out of foreign contribution.
+
+Where any person who was permitted
+to accept foreign contribution under this Act, ceases to exist or has become defunct, all the assets of such
+person shall be disposed of in accordance with the provisions contained in any law for the time being in
+force under which the person was registered or incorporated, and in the absence of any such law, the
+Central Government may, having regard to the nature of assets created out of foreign contribution
+received under this Act, by notification, specify that all such assets shall be disposed off by such
+authority, as it may specify, in such manner and procedure as may be prescribed.
+
+## Section 23 - Inspection of accounts or records.
+
+If the Central Government has, for any reason, to be
+recorded in writing, any ground to suspect that any provision of this Act has been or is being, contravened
+by—
+
+(a) any political party; or
+
+(b) any person; or
+
+(c) any organisation; or
+
+(d) any association,
+
+it may, by general or special order, authorise such gazetted officer, holding a Group A post under the
+Central Government or such other officer or authority or organisation, as it may think fit (hereinafter
+referred to as the inspecting officer), to inspect any account or record maintained by such political party,
+person, organisation or association, as the case may be, and thereupon every such inspecting officer shall
+have the right to enter in or upon any premises at any reasonable hour, before sunset and after sunrise, for
+the purpose of inspecting the said account or record.
+
+## Section 24 - Seizure of accounts or records.
+
+If, after inspection of an account or record referred to in
+section 23, the inspecting officer has any reasonable cause to believe that any provision of this Act or of
+any other law relating to foreign exchange has been, or is being, contravened, he may seize such account
+or record and produce the same before the court, authority or tribunal in which any proceeding is brought
+for such contravention:
+
+Provided that the authorised officer shall return such account or record to the person from whom it
+was seized if no proceeding is brought within six months from the date of such seizure for the
+contravention disclosed by such account or record.
+
+## Section 25 - Seizure of article or currency or security received in contravention of the Act.
+
+If any
+gazetted officer, authorised in this behalf by the Central Government by general or special order, has any
+reason to believe that any person has in his possession or control any article exceeding the value specified
+in sub-clause (i) of clause (h) of sub-section (1) of section 2 or currency or security whether Indian or
+foreign, in relation to which any provision of this Act has been or is being, contravened, he may seize
+such article or currency or security.
+
+## Section 26 - Disposal of seized article or currency or security.
+
+(1) The Central Government, may, having
+regard to the value of article or currency or security, their vulnerability to theft or any relevant
+consideration, by notification, specify such article or currency or security which shall, as soon as may be
+after their seizure, be disposed of by such officer and in such manner, as the Central Government may,
+from time to time, determine after following the procedure hereinafter specified.
+
+(2) The article or currency or security seized shall be forwarded without unnecessary delay to such
+officer as may be specified.
+
+(3) Where any article or currency or security has been seized and forwarded to such officer, the
+officer referred to in sub-section (1), shall prepare an inventory of such article or currency or security
+containing such details relating to their description, value or such other identifying particulars as the
+officer referred to in that sub-section may consider relevant to the identity of the article or the currency or
+security and make an application to any Magistrate for the purposes of certifying the correctness of the
+inventory so prepared.
+
+(4) Where an application is made under sub-section (2), the Magistrate shall, as soon as may be, allow
+the application.
+
+(5) Notwithstanding anything contained in the Indian Evidence Act, 1872 (1 of 1872) or the Code of
+Criminal Procedure, 1973 (2 of 1974), every court trying an offence under this Act, shall treat the
+inventory, as certified by the Magistrate, as primary evidence in respect of such offence.
+
+(6) Every officer acting under sub-section (3) shall forthwith report the seizure to the Court of Session
+or Assistant Sessions Judge having jurisdiction for adjudging the confiscation under section 29.
+
+## Section 27 - Seizure to be made in accordance with Act 2 of 1974.
+
+The provisions of the Code of Criminal
+Procedure, 1973 shall apply in so far as they are not inconsistent with the provisions of this Act to all
+seizures made under this Act.
+
+## Section 28 - Confiscation of article or currency or security obtained in contravention of the Act.
+
+Any
+article or currency or security which is seized under section 25 shall be liable to confiscation if such
+article or currency or security has been adjudged under section 29 to have been received or obtained in
+contravention of this Act.
+
+## Section 29 - Adjudication of confiscation.
+
+(1) Any confiscation referred to in section 28 may be
+adjudged—
+
+(a) without limit, by the Court of Session within the local limits of whose jurisdiction the seizure
+was made; and
+
+(b) subject to such limits as may be prescribed, by such officer, not below the rank of an Assistant
+Sessions Judge, as the Central Government may, by notification in the Official Gazette, specify in this
+behalf.
+
+(2) When an adjudication under sub-section (1) is concluded by the Court of Session or Assistant
+Sessions Judge, as the case may be, the Sessions Judge or Assistant Sessions Judge may make such order
+as he thinks fit for the disposal by confiscation or delivery of seized article or currency or security, as the
+case may be, to any person claiming to be entitled to possession thereof or otherwise, or which has been
+used for the commission of any offence under this Act.
+
+## Section 30 - Procedure for confiscation.
+
+No order of adjudication of confiscation shall be made unless a
+reasonable opportunity of making a representation against such confiscation has been given to the person
+from whom any article or currency or security has been seized.
+
+## Section 31 - Appeal.
+
+(1) Any person aggrieved by any order made under section 29 may prefer an appeal,--
+
+(a) where the order has been made by the Court of Session, to the High Court to which such
+Court is subordinate; or
+
+(b) where the order has been made by any officer specified under clause (b) of sub-section (1) of
+section 29, to the Court of Session within the local limits of whose jurisdiction such order of
+adjudication of confiscation was made,
+
+within one month from the date of communication to such person of the order:
+
+Provided that the appellate court may, if it is satisfied that the appellant was prevented by sufficient
+cause from preferring the appeal within the said period of one month, allow such appeal to be preferred
+within a further period of one month, but not thereafter.
+
+(2) Any organisation referred to in clause (f) of sub-section (1) of section 3, or any person or
+association referred to in section 6 or section 9, aggrieved by an order made in pursuance of section 5 or
+by an order of the Central Government refusing to give permission under this Act, or by any order made
+by the Central Government under sub-section (2) or sub-section (4) of section 12, or sub-section (1) of
+section 14, as the case may be, may, within sixty days from the date of such order, prefer an appeal
+against such order to the High Court within the local limits of whose jurisdiction the appellant ordinarily
+resides or carries on business or personally works for gain, or, where the appellant is an organisation or
+association, the principal office of such organisation or association is located.
+
+(3) Every appeal preferred under this section shall be deemed to be an appeal from an original decree
+and the provisions of Order XLI of the First Schedule to the Code of Civil Procedure, 1908 (5 of 1908),
+shall, as far as may be, apply thereto as they apply to an appeal from an original decree.
+
+## Section 32 - Revision of orders by Central Government.
+
+(1) The Central Government may, either of its
+own motion or on an application for revision by the person registered under this Act, call for and examine
+the record of any proceeding under this Act in which any such order has been passed by it and may make
+such inquiry or cause such inquiry to be made and, subject to the provisions of this Act, may pass such
+order thereon as it thinks fit.
+
+(2) The Central Government shall not of its own motion revise any order under this section if the
+order has been made more than one year previously.
+
+(3) In the case of an application for revision under this section by the person referred to in
+sub-section (1), the application must be made within one year from the date on which the order in
+question was communicated to him or the date on which he otherwise came to know of it, whichever is
+earlier:
+
+Provided that the Central Government may, if it is satisfied that such person was prevented by
+sufficient cause from making the application within that period, admit an application made after the
+expiry of that period.
+
+(4) The Central Government shall not revise any order where an appeal against the order lies but has
+not been made and the time within which such appeal may be made has not expired or such person has
+not waived his right of appeal or an appeal has been filed under this Act.
+
+(5) Every application by such person for revision under this section shall be accompanied by such fee,
+as may be prescribed.
+
+Explanation.—An order by the Central Government declining to interfere shall, for the purposes of
+this section, be deemed not to be an order prejudicial to such person.
+
+## Section 33 - Making of false statement, declaration or delivering false accounts.
+
+Any person, subject to
+this Act, who knowingly,—
+
+(a) gives false intimation under clause (c) of section 9 or section 18; or
+
+(b) seeks prior permission or registration by means of fraud, false representation or concealment
+of material fact,
+
+shall, on conviction by a court, be liable to imprisonment for a term which may extend to six months or
+with fine or with both.
+
+## Section 34 - Penalty for article or currency or security obtained in contravention of section 10.
+
+If any
+person, on whom any prohibitory order has been served under section 10, pays, delivers, transfers or
+otherwise deals with, in any manner whatsoever, any article or currency or security, whether Indian or
+foreign, in contravention of such prohibitory order, he shall be punished with imprisonment for a term
+which may extend to three years, or with fine, or with both; and notwithstanding anything contained in
+the Code of Criminal Procedure, 1973 (2 of 1974), the court trying such contravention may also impose
+on the person convicted an additional fine equivalent to the market value of the article or the amount of
+the currency or security in respect of which the prohibitory order has been contravened by him or such
+part thereof as the court may deem fit.
+
+## Section 35 - Punishment for contravention of any provision of the Act.
+
+Whoever accepts, or assists any
+person, political party or organisation in accepting, any foreign contribution or any currency or security
+from a foreign source, in contravention of any provision of this Act or any rule or order made thereunder,
+shall be punished with imprisonment for a term which may extend to five years, or with fine, or with
+both.
+
+## Section 36 - Power to impose additional fine where article or currency or security is not available for confiscation.
+
+Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974),
+the court trying a person, who, in relation to any article or currency or security, whether Indian or foreign,
+does or omits to do any act which act or omission would render such article or currency or security liable
+to confiscation under this Act, may, in the event of the conviction of such person for the act or omission aforesaid, impose on such person a fine not exceeding five times the value of the article or currency or
+security or one thousand rupees, whichever is more, if such article or currency or security is not available
+for confiscation, and the fine so imposed shall be in addition to any other fine which may be imposed on
+such person under this Act.
+
+## Section 37 - Penalty for offences where no separate punishment has been provided.
+
+Whoever fails to
+comply with any provision of this Act for which no separate penalty has been provided in this Act shall
+be punished with imprisonment for a term which may extend to one year, or with fine or with both.
+
+## Section 38 - Prohibition of acceptance of foreign contribution.
+
+Notwithstanding anything contained in this
+Act, whoever, having been convicted of any offence under section 35 or section 37, in so far as such
+offence relates to the acceptance or utilisation of foreign contribution, is again convicted of such offence
+shall not accept any foreign contribution for a period of five years from the date of the subsequent
+conviction.
+
+## Section 39 - Offences by companies.
+
+(1) Where an offence under this Act or any rule or order made
+thereunder has been committed by a company, every person who, at the time the offence was committed,
+was in charge of, and was responsible to, the company for the conduct of the business of the company, as
+well as the company, shall be deemed to be guilty of the offence and shall be liable to be proceeded
+against and punished accordingly:
+
+Provided that nothing contained in this sub-section shall render such person liable to any punishment
+if he proves that the offence was committed without his knowledge or that he had exercised all due
+diligence to prevent the commission of such offence.
+
+(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act or any
+rule or order made thereunder has been committed by a company and it is proved that the offence has
+been committed with the consent or connivance of, or is attributable to any neglect on the part of, any
+director, manager, secretary or other officer of the company, such director, manager, secretary or other
+officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded against and
+punished accordingly.
+
+Explanation.--For the purposes of this section,--
+
+(a) "company" means any body corporate and includes a firm, society, trade union or other
+association of individuals; and
+
+(b) "director", in relation to a firm, society, trade union or other association of individuals, means
+a partner in the firm or a member of the governing body of such society, trade union or other
+association of individuals.
+
+## Section 40 - Bar on prosecution of offences under the Act.
+
+No court shall take cognizance of any offence
+under this Act, except with the previous sanction of the Central Government or any officer authorised by
+that Government in this behalf.
+
+## Section 41 - Composition of certain offences.
+
+(1) Notwithstanding anything contained in the Code of
+Criminal Procedure, 1973 (2 of 1974), any offence punishable under this Act (whether committed by an
+individual or association or any officer or employee thereof), not being an offence punishable with
+imprisonment only, may, before the institution of any prosecution, be compounded by such officers or
+authorities and for such sums as the Central Government may, by notification in the Official Gazette,
+specify in this behalf.
+
+(2) Nothing in sub-section (1) shall apply to an offence committed by an individual or association or
+its officer or other employee within a period of three years from the date on which a similar offence
+committed by it or him was compounded under this section.
+
+Explanation.—For the purposes of this section, any second or subsequent offence committed after the
+expiry of a period of three years from the date on which the offence was previously compounded, shall be
+deemed to be a first offence.
+
+(3) Every officer or authority referred to in sub-section (1) shall exercise the powers to compound an
+offence, subject to the direction, control and supervision of the Central Government.
+
+(4) Every application for the compounding of an offence shall be made to the officer or authority
+referred to in sub-section (1) in such form and manner along with such fee as may be prescribed.
+
+(5) Where any offence is compounded before the institution of any prosecution, no prosecution shall
+be instituted in relation to such offence, against the offender in relation to whom the offence is so
+compounded.
+
+(6) Every officer or authority referred to in sub-section (1), while dealing with a proposal for the
+compounding of an offence for a default in compliance with any provision of this Act which requires by
+an individual or association or its officer or other employee to obtain permission or file or register with, or
+deliver or send to, the Central Government or any prescribed authority any return, account or other
+document, may, direct, by order, if he or it thinks fit to do so, any individual or association or its officer
+or other employee to file or register with, such return, account or other document within such time as may
+be specified in the order.
+
+## Section 42 - Power to call for information or document.
+
+Any inspecting officer referred to in section 23
+who is authorised in this behalf by the Central Government may, during the course of any inspection of
+any account or record maintained by any political party, person, organisation or association in connection
+with the contravention of any provision of this Act,—
+
+(a) call for information from any person for the purpose of satisfying himself whether there has
+been any contravention of the provisions of this Act or rule or order made thereunder;
+
+(b) require any person to produce or deliver any document or thing useful or relevant to such
+inspection;
+
+(c) examine any person acquainted with the facts and circumstances of the case related to the
+inspection.
+
+## Section 43 - Investigation into cases under the Act.
+
+Notwithstanding anything contained in the Code of
+Criminal Procedure, 1973 (2 of 1974), any offence punishable under this Act may also be investigated
+into by such authority as the Central Government may specify in this behalf and the authority so specified
+shall have all the powers which an officer-in-charge of a police station has while making an investigation
+into a cognizable offence.
+
+## Section 44 - Returns by prescribed authority to Central Government.
+
+The prescribed authority shall
+furnish to the Central Government at such time and in such form and manner such returns and statements
+as may be prescribed.
+
+## Section 45 - Protection of action taken in good faith.
+
+No suit or other legal proceedings shall lie against
+the Central Government or the authority referred to in section 44 or any of its officers in respect of any loss or damage caused or likely to be caused by anything which is in good faith done or intended to be
+done in pursuance of the provisions of this Act or, any rule or order made thereunder.
+
+## Section 46 - Power of Central Government to give directions.
+
+The Central Government may give such
+directions as it may deem necessary to any other authority or any person or class of persons regarding the
+carrying into execution of the provisions of this Act.
+
+## Section 47 - Delegation of powers.
+
+The Central Government may, by notification, direct that any of its
+powers or functions under this Act, except power to make rules under section 48, shall, in relation to such
+matters and subject to such conditions, if any, may be specified in the notification, be exercised or
+discharged also by such authority as may be specified.
+
+## Section 48 - Power to make rules.
+
+(1) The Central Government may, by notification, make rules for
+carrying out the provisions of this Act.
+
+(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
+provide for all or any of the following matters, namely:--
+
+(a) the value of the article which may be specified under sub-clause (i) of clause (h) of
+sub-section (1) of section 2;
+
+(b) the authority which may be specified under clause (p) of sub-section (1) of section 2;
+
+(c) acceptance or retention of gift or presentation under clause (d) of section 4;
+
+(d) guidelines specifying the ground or grounds on which an organisation may be specified as an
+organisation of political nature under sub-section (1) of section 5;
+
+(e) the activities or business which shall be construed as speculative business under the proviso to
+clause (a) of sub-section (1) of section 8;
+
+(f) the elements and the manner in which the administrative expenses shall be calculated under
+sub-section (2) of section 8;
+
+(g) the time within which and the manner in which any person or class of persons or an
+association may be required to furnish intimation regarding the amount of foreign contribution
+received under clause (c) of section 9;
+
+(h) the time within which and the manner in which any person or class of persons may be
+required to furnish intimation regarding foreign hospitality under clause (e) of section 9;
+
+(i) the manner in which the copy of the order of the Central Government shall be served upon any
+person under section 10;
+
+(j) the form and manner in which the application for grant of certificate of registration or giving
+of prior permission under sub-section (1) of section 12;
+
+(k) the fee to be accompanied by the application under sub-section (1) of section 12;
+
+(l) the terms and conditions for granting a certificate or giving prior permission under clause (g)
+of sub-section (4) of section 12;
+
+(m) the manner of utilising the foreign contribution under clause (b) of sub-section (2) of
+section 13;
+
+(n) the authority with whom the foreign contribution to be vested under sub-section (1) of
+section 15;
+
+(o) the period within which and the manner in which the foreign contribution shall be managed
+under sub-section (2) of section 15;
+
+(p) the form and manner in which the application for a renewal of certificate of registration shall
+be made under sub-section (2) of section 16;
+
+(q) the fee to be accompanied by the application for renewal of certificate under sub-section (2) of
+section 16;
+
+(r) the prescribed amount of foreign remittance, the form and manner in which the foreign
+remittance received by every bank or authorised person in foreign exchange shall be reported under
+sub-section (2) of section 17;
+
+(s) the time within which and the manner in which the person who has been granted certificate of
+registration or given prior permission under this Act shall give intimation under section 18;
+
+(t) the form and manner in which account of any foreign contribution and the manner in which
+such contribution has been utilised shall be maintained under section 19;
+
+(u) the time within which and the manner in which a candidate for election shall give intimation
+under section 21;
+
+(v) the manner and procedure to be followed in disposing of the assets under section 22;
+
+(w) the limits subject to which any confiscation may be adjudged under clause (b) of
+sub-section (1) of section 29;
+
+(x) the fee to be accompanied along with every application for revision under sub-section (5) of
+section 32;
+
+(y) the form and manner for making of an application for compounding of an offence and the fee
+therefor under sub-section (4) of section 41;
+
+(z) the form and manner in which and the time within which returns and statements to be
+furnished by the prescribed authority under section 44;
+
+(za) any other matter which is required to be, or may be, prescribed.
+
+## Section 49 - Orders and rules to be laid before Parliament.
+
+Every order made under section 5 and every
+rule made by the Central Government under this Act shall be laid, as soon as may be after it is made,
+before each House of Parliament while it is in session for a total period of thirty days which may be
+comprised in one session or in two or more successive sessions, and if, before the expiry of the session
+immediately following the session or the successive sessions aforesaid, both Houses agree in making any
+modification in the order or rule or both Houses agree that the order or rule should not be made, the order
+or rule shall thereafter have effect only in such modified form or be of no effect, as the case may be; so,
+however, that any such modification or annulment shall be without prejudice to the validity of anything
+previously done under that order or rule.
+
+## Section 50 - Power to exempt in certain cases.
+
+If the Central Government is of opinion that it is necessary
+or expedient in the interests of the general public so to do, it may, by order and subject to such conditions
+as may be specified in the order, exempt any person or association or organisation (not being a political
+party), or any individual (not being a candidate for election) from the operation of all or any of the
+provisions of this Act and may, as often as may be necessary, revoke or modify such order.
+
+## Section 51 - Act not to apply to certain Government transactions.
+
+Nothing contained in this Act shall
+apply to any transaction between the Government of India and the Government of any foreign country or
+territory.
+
+## Section 52 - Application of other laws not barred.
+
+The provisions of this Act shall be in addition to, and
+not in derogation of, the provisions of any other law for the time being in force.
+
+## Section 53 - Power to remove difficulties.
+
+(1) If any difficulty arises in giving effect to the provisions of
+this Act, the Central Government may, by order, published in the Official Gazette, make such provisions
+not inconsistent with the provisions of this Act as may appear to be necessary for removing the difficulty:
+
+Provided that no order shall be made under this section after the expiry of two years from the
+commencement of this Act.
+
+(2) Every order made under this section shall be laid, as soon as may be after it is made, before each
+House of Parliament.
+
+## Section 54 - Repeal and saving.
+
+(1) The Foreign Contribution (Regulation) Act, 1976 (49 of 1976)
+(hereafter referred to as the repealed Act) is hereby repealed.
+
+(2) Notwithstanding such repeal,—
+
+(a) anything done or any action taken or purported to have been done or taken under the repealed
+Act shall, in so far as it is not inconsistent with the provisions of this Act, be deemed to have been
+done or taken under the corresponding provisions of this Act;
+
+(b) any organisation of a political nature, not being a political party, to whom the prior permission
+was granted under section 5 of the repealed Act, shall continue to be the organisation of a political
+nature, not being a political party, under clause (f) of sub-section (1) of section 3 of this Act, till such
+permission is withdrawn by the Central Government;
+
+(c) permission to accept foreign hospitality granted under section 9 of the repealed Act shall be
+deemed to be the permission granted under section 6 of this Act until such permission is withdrawn
+by the Central Government;
+
+(d) any association prohibited from accepting any foreign contribution under clause (a) of
+section 10 of the repealed Act, in so far as it is not inconsistent with the provisions of this Act, shall
+be deemed to be an association prohibited from accepting any foreign contribution under section 9 of
+this Act;
+
+(e) permission obtained under clause (b) of section 10 of the repealed Act shall, in so far as it is
+not inconsistent with the provisions of this Act, be deemed to be the permission until such permission
+is withdrawn by the Central Government;
+
+(f) any order issued under section 12 of the repealed Act shall be deemed to be an order issued
+under section 10 of this Act;
+
+(g) any order issued under section 31 of the repealed Act exempting any association or any
+individual shall be deemed to be an order under section 50 of this Act till such order is varied or
+revoked.
+
+(3) Save as provided in sub-section (2), mention of particular matters in that sub-section shall not be
+held to prejudice or affect the general application of section 6 of the General Clauses Act, 1897
+(10 of 1897), with regard to the effect of repeal.

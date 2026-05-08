@@ -1,0 +1,927 @@
+---
+title: "The Haj Committee Act, 2002"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1912"
+---
+# The Haj Committee Act, 2002
+
+Language: English
+Part 1 of 1
+Sections: 1 to 52
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1912
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1912/1/A2002-35.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00011_200235_1517807322907/rulesindividualfile/&file=HajCommittee_Rules%2C+2002.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00011_200235_1517807322907/rulesindividualfile/&file=Haj+Committee+Bye-Laws%2C+2005.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00011_200235_1517807322907/notificationindividualfile/&file=notification.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1912/3/H2002-35.pdf
+
+## Section 1 - Short title and commencement.
+
+(1) This Act may be called the Haj Committee Act, 2002.
+
+(2) It shall come into force on such date^1
+or dates as the Central Government may, by notification,
+appoint, and different dates may be appointed for different provisions of this Act and for different States.
+
+### Footnotes
+
+1. 5th December, 2002, vide notification No. S.O. 1267(E), dated by 5th December, 2002, see Gazette of India, Extraordinary,
+Part II, sec. 3(ii).
+
+## Section 2 - Definitions.
+
+In this Act, unless the context otherwise requires,--
+
+(a) "bye-laws" means the bye-laws made under section 45;
+
+(b) "Chief Executive Officer or the Executive Officer" means the Chief Executive Officer of the
+Committee or the Executive Officer of the State Committee appointed under sub-section (1) of
+section 16 or sub-section (1) of section 29, as the case may be;
+
+(c) "Committee" means the Haj Committee of India constituted under section 3;
+
+(d) "member" means a member of the Haj Committee of India nominated under section 4 or of a
+State Haj Committee nominated under section 18, as the case may be, and includes the Chairperson
+and a Vice-Chairperson;
+
+(e) "notification" means a notification published in the Gazette of India or the Official Gazette of
+a State, as the case may be;
+
+(f) "pilgrim" means a Muslim proceeding to, or returning from, Haj;
+
+(g) "prescribed" means prescribed by rules made under section 44 by the Central Government or,
+as the case may be, under section 47 by the State Government;
+
+(h) "State Committee" means a State Haj Committee constituted under section 18 and includes
+Joint State Committee;
+
+(i) "State Government", in relation to a Union territory, means the Administrator of that Union
+territory appointed by the President under article 239 of the Constitution.
+
+## Section 3 - Constitution and incorporation of Haj Committee of India.
+
+(1) With effect from such date as
+the Central Government may, by notification in the Official Gazette, appoint in this behalf, there shall be
+constituted a Committee by the name of the Haj Committee of India.
+
+(2) The Committee shall be a body corporate, by the name aforesaid, having perpetual succession and
+a common seal with power, subject to the provisions of this Act, to acquire, hold and dispose of property,
+both movable and immovable, to create a charitable trust or endowment, and to contract and shall by the
+said name sue and be sued.
+
+(3) The Committee shall have its headquarters at Mumbai and as and when the Committee considers
+it functionally necessary, additional regional offices may be opened in consultation with the Central
+Government.
+
+## Section 4 - Composition of Committee.
+
+The Committee shall consist of the following members, namely:--
+
+(i) three members of Parliament of whom two are to be nominated by the Speaker of the House
+of the People from among its Muslim members, and one by the Chairman of the Council of States
+from among its Muslim members:
+
+Provided that a member of Parliament shall, upon ceasing to be a member, cease to be a
+member of the Committee and the Speaker of the House of the People or the Chairman of the
+Council of States, as the case may be, shall make a fresh nomination upon request by the Central
+Government;
+
+(ii) nine Muslim members of the Committee shall be elected, three from those States sending
+largest number of pilgrims during last three years and one each from the zones as specified in the
+Schedule, in such manner as may be prescribed:
+
+Provided that not more than one member shall be elected from a State falling in the zone as
+specified in the Schedule;
+
+(iii) four persons not below the rank of Joint Secretary to the Government of India nominated
+by that Government to represent the Ministries of External Affairs, Home, Finance and Civil
+Aviation, as ex officio members;
+
+(iv) seven Muslim members shall be nominated by the Central Government from among the
+following categories of persons, namely:--
+
+(a) two members who have special knowledge of public administration, finance, education,
+culture or social work and out of whom one shall be a Shia Muslim;
+
+(b) two women members, out of them one shall be Shia Muslim;
+
+(c) three members who have special knowledge of Muslim theology and law, out of them one
+shall be a Shia Muslim.
+
+## Section 5 - Notification of members.
+
+As soon as may be after the nomination of the members of the
+Committee under section 4, the Central Government shall publish in the Official Gazette the names of all
+such members.
+
+## Section 6 - Term of office.
+
+(1) The term of office of the members of the Committee (other than the ex officio members and members filling casual vacancies) shall be three years, commencing on the day following the publication of the list of members under section 5:
+
+Provided that the term of the members of the Committee may be extended by the Central Government
+by a notification in the Official Gazette for a period not exceeding six months at a time but, in any case,
+not exceeding beyond a total period of one year.
+
+(2) The allowances payable to, and the other terms and conditions of, the Chairperson,
+Vice-Chairpersons and members shall be such as may be prescribed.
+
+## Section 7 - Chairperson and Vice-Chairpersons.
+
+(1) After the publication of the names of members of the
+Committee under section 5, the Central Government shall convene within forty-five days of such
+publication the first meeting of the Committee at which the Committee shall elect a Chairperson and two
+Vice-Chairpersons from amongst its members :
+
+Provided that a Minister shall not be the Chairperson of the Committee and ex officio members shall
+not take part in the election of the Chairperson or of the Vice-Chairpersons.
+
+(2) If the Committee fails to elect the Chairperson or the Vice-Chairpersons the Central Government
+may appoint a member of the Committee to be the Chairperson thereof or Vice-Chairpersons, as the case
+may be.
+
+(3) The Chairperson shall exercise such powers and discharge such duties as may be prescribed.
+
+(4) The Vice-Chairpersons shall exercise such powers and discharge such duties as may be
+determined by bye-laws made in this behalf by the Committee:
+
+Provided that till such bye-laws are made, the Vice-Chairpersons shall exercise such powers and
+discharge such duties as may be determined by an order made by the Chairperson in this regard.
+
+(5) The election of the Chairperson and the Vice-Chairpersons shall be notified by the Central
+Government in the Official Gazette.
+
+(6) The term of office of the Chairperson and the Vice-Chairpersons, as the case may be, shall be
+co-terminus with the term of the Committee and no person shall hold office of the Chairperson or the
+Vice-Chairpersons, as the case may be, for more than two consecutive terms.
+
+(7) Any casual vacancy in the office of the Chairperson or a Vice-Chairperson shall be filled for the
+remainder of the term in accordance with sub-section (1) or sub-section (2), as the case may be.
+
+## Section 8 - Reconstitution of Committee.
+
+(1) The Central Government shall take or cause to be taken all
+necessary steps for the reconstitution of a new Committee at least four months before the expiry of the
+term, or the extended term, as the case may be, of the committee.
+
+(2) An outgoing member shall be eligible for renomination on the Committee for not more than two
+terms:
+
+Provided that not more than fifty per cent. of the members may be renominated for a second term in
+such manner as may be prescribed.
+
+## Section 9 - Duties of Committee.
+
+(1) The duties of the Committee shall be--
+
+(i) to collect and disseminate information useful to pilgrims, and to arrange orientation and
+training programmes for pilgrims;
+
+(ii) to advise and assist pilgrims during their stay at the embarkation points in India, while
+proceeding to or returning from pilgrimage, in all matters including vaccination, inoculation,
+medical inspection, issue of pilgrim passes and foreign exchange, and to liaise with the local
+authorities concerned in such matters;
+
+(iii) to give relief to pilgrims in distress;
+
+(iv) to finalise the annual Haj plan with the approval of the Central Government, and execute
+the plan, including the arrangements for travel by air or any other means, and to advise in matters
+relating to accommodations;
+
+(v) to approve the budget estimates of the Committee and submit it to the Central Government
+at least three months before the beginning of the financial year for its concurrence;
+
+(vi) to co-ordinate with the Central Government, railways, airways and travel agencies for the
+purpose of securing travelling facilities for pilgrims;
+
+(vii) to generally look after the welfare of the pilgrims;
+
+(viii) to publish such proceedings of the Committee and such matters of interest to pilgrims as
+may be determined by bye-laws made in this behalf by the Committee;
+
+(ix) to discharge such other duties in connection with Haj as may be prescribed by the Central
+Government.
+
+(2) The Central Government shall afford all reasonable assistance to the Committee in the discharge
+of the duties specified in sub-section (1).
+
+## Section 10 - Meetings of Committee.
+
+(1) The Committee shall meet at least three times in a year before the
+commencement of the Haj season to plan and make arrangements for Haj and once after that to review all
+arrangements made by the Committee.
+
+(2) In addition to the meetings specified in sub-section (1), the Committee may hold meetings as and
+when requisitioned by at least one-third of its members or when considered necessary by the Chairperson.
+
+(3) The number of members required to make a quorum at any meeting of the Committee shall be
+one-third of its members.
+
+(4) All matters shall be decided by a majority of votes of the members present and, in the event of an
+equality of votes, the Chairperson or other person presiding shall have a casting vote.
+
+(5) The Committee shall observe such rules of procedure in regard to the transaction of business at its
+meetings as may be determined by bye-laws.
+
+## Section 11 - Appointment of Standing Committees and sub-committees.
+
+(1) The Committee shall appoint
+two Standing Committees, each headed by a Vice-Chairperson of the Committee, to deal with matters
+relating to finance and Haj arrangements, from amongst its member consisting of such number of
+members and with such powers and functions as may be determined by bye-laws made in this behalf by
+the Committee:
+
+Provided that the Chairperson shall preside over the meeting of the Standing Committee in case he
+attends the meeting.
+
+(2) The Committee may also appoint other sub-committees for such purposes as it may think fit and
+any such sub-committee shall consist of such number of members and other persons as may be
+determined by bye-laws made in this behalf by the Committee.
+
+## Section 12 - Disqualification for being nominated, or for continuing, as a member of Committee.
+
+A person shall be disqualified for being nominated, or for continuing as a member of the
+Committee, if he--
+
+(i) is not a citizen of India;
+
+(ii) is not a Muslim, except for ex officio members as provided in clause (iii) of section 4;
+
+(iii) is less than twenty-five years of age;
+
+(iv) is of unsound mind and stands so declared by a competent court;
+
+(v) is an undischarged insolvent;
+
+(vi) has been convicted of an offence which, in the opinion of the Central Government, involves a
+moral turpitude;
+
+(vii) has been on a previous occasion--
+
+(a) removed from his office as a member; or
+
+(b) removed by an order of a competent authority either for not acting in the interest of the
+pilgrims or for corruption.
+
+## Section 13 - Resignation of Chairperson, Vice-Chairperson and members.
+
+The Chairperson, the
+Vice-Chairperson or any other member may resign his office by writing under his hand addressed to the
+Central Government and it shall be effective from the date of such resignation.
+
+## Section 14 - Removal of Chairperson, Vice-Chairperson and members.
+
+(1) The Central Government
+may, by notification in the Official Gazette, remove the Chairperson, a Vice-Chairperson of the
+Committee or any member thereof, if he--
+
+(i) is or becomes subject to any of the disqualifications specified in section 12; or
+
+(ii) refuses to act or is incapable of acting or acts in a manner which the Central Government,
+after hearing any explanation that he may offer, considers to be prejudicial to the interests of the
+Committee or the interests of the pilgrims; or
+
+(iii) fails, in the opinion of the Committee, to attend three consecutive meetings of the
+Committee, without sufficient excuse.
+
+(2) Where the Chairperson or a Vice-Chairperson of the Committee is removed under sub-section (1),
+he shall also cease to be a member of the Committee.
+
+## Section 15 - Filling of a casual vacancy.
+
+(1) When the seat of a member becomes vacant by his removal,
+resignation, death or otherwise, a new member shall be nominated or elected, as the case may be, in his
+place and such member shall hold office so long as the member whose place he fills would have been
+entitled to hold office if such vacancy had not occurred.
+
+(2) Any casual vacancy under sub-section (1) shall be filled up by the same category to which the
+former member belonged.
+
+## Section 16 - Chief Executive Officer and other employees.
+
+(1) The Central Government shall appoint a
+person, from a panel of Muslim officers of the Central Government and of the State Governments not
+below the rank of Deputy Secretary to the Government of India, to be the Chief Executive Officer of the
+Committee on such terms and conditions as may be prescribed.
+
+(2) The Chief Executive Officer shall be the ex officio Secretary of the Committee.
+
+(3) The Chief Executive Officer shall be appointed for a period of three years, which may be
+extended by a maximum period of one year by the Central Government.
+
+(4) The Chief Executive Officer shall execute the decisions of the Committee and perform such other
+functions as may be prescribed:
+
+Provided that in case of any difference of opinion between the Chief Executive Officer and the
+Committee, he shall bring the matter to the notice of the Central Government, whose decision thereon
+shall be final.
+
+(5) The Committee may, with the previous sanction of the Central Government, employ such other
+officers and employees as it deems necessary to carry out the purposes of this Act, on such terms and
+conditions as may be prescribed.
+
+## Section 17 - Establishment and incorporation of State Haj Committee.
+
+(1) With effect from such date as
+the Central Government may, by notification in the Official Gazette, appoint in this behalf, the
+Government of a State shall constitute a Committee by the name of the......[name of the State] Haj
+Committee:
+
+Provided that in case it appears to the Central Government for any reasons that it is not necessary for
+a State or Union territory to establish a Haj Committee, it may authorise the State Haj Committee of a
+contiguous State to deal with those pilgrims and suggest suitable representation of those States and Union
+territories.
+
+(2) The State Committee shall be a body corporate, by the name aforesaid, having perpetual
+succession and a common seal with power, subject to the provisions of this Act, to acquire, hold and
+dispose of property, both movable and immovable, to create a charitable trust or endowment, and to
+contract and shall by the said name sue and be sued.
+
+(3) Notwithstanding anything contained in this Act, an agreement may be entered into--
+
+(a) by two or more Governments of contiguous States, or
+
+(b) by the Central Government (in respect of one or more Union territories) and one or more
+Governments of States contiguous to such Union territory or Union territories,
+
+to be in force for such period and to be subject to renewal for such further period, if any, as may be
+specified in the agreement to provide for the constitution of a Joint State Committee,--
+
+(i) in a case referred to in clause (a), for all the participating States, and
+
+(ii) in a case referred to in clause (b), for the participating Union territory or Union territories
+and the State or States.
+
+(4) An agreement under this section shall be published, in a case referred to in clause (a) of
+sub-section (2), in the Official Gazette of the participating States and in a case referred to in clause (b) of
+that sub-section, in the Official Gazette of the participating Union territory or Union territories and
+participating State or States.
+
+(5) Any reference in this Act to the State Committee shall, unless the context otherwise requires, be
+construed as including a Joint State Committee.
+
+## Section 18 - Composition of State Committee.
+
+(1) A State Committee shall consist of sixteen members, to
+be nominated by the State Government, namely:--
+
+(i) three members from the Muslim members of--
+
+(a) Parliament representing the State;
+
+(b) State Legislative Assembly; and
+
+(c) Legislative Council, where it exists;
+
+(ii) three members from Muslim members representing local bodies in the State;
+
+(iii) three members having expertise in Muslim theology and law including one who shall be a
+Shia Muslim;
+
+(iv) five members representing Muslim voluntary organisations working in the fields of public
+administration, finance, education, culture or social work;
+
+(v) the Chairperson of the State Wakf Board; and
+
+(vi) Executive Officer of the State Committee, who shall be the ex officio member of the State
+Committee:
+
+Provided that a Committee for any Union territory or a Joint State Committee shall consist of such
+number of members as may be prescribed.
+
+(2) In case where there is no Muslim member in any of the categories mentioned in clauses (i) and (ii)
+of sub-section (1), or where there is no Legislative Council in a State, nomination may be made in such
+manner as may be prescribed.
+
+## Section 19 - Notification of members.
+
+As soon as may be after the nomination of the members of a State
+Committee under sub-section (1) of section 18, the State Government shall publish, in the Official
+Gazette of that State, the names of all such members.
+
+## Section 20 - Term of office.
+
+(1) The term of office of the members of the State Committee (other than the ex
+officio members and members filling casual vacancies) shall be three years, commencing on the day
+following the publication of the list of members under section 19.
+
+(2) The allowances payable to, and the other terms and conditions of the Chairperson and members
+shall be such as may be prescribed.
+
+## Section 21 - Chairperson.
+
+(1) After the publication of the names of members of the State Committee under
+section 19, the State Government shall convene within forty-five days the first meeting of the State
+Committee at which the State Committee shall elect a Chairperson from amongst its members:
+
+Provided that an ex officio member shall not take part in the election of the Chairperson.
+
+(2) If the State Committee fails to elect a Chairperson, the State Government may appoint a member
+of the State Committee to be the Chairperson thereof.
+
+(3) The election of the Chairperson shall be notified by the State Government in the Official Gazette
+of the State.
+
+(4) The term of office of the Chairperson shall be three years and no person shall hold the office of
+the Chairperson for more than two consecutive terms.
+
+(5) Any casual vacancy in the office of the Chairperson shall be filled in accordance with
+sub-section (1) or sub-section (2), as the case may be.
+
+## Section 22 - Reconstitution of a State Committee.
+
+(1) The State Government shall take or cause to be
+taken all necessary steps for the reconstitution of a new State Committee at least four months before the
+expiry of the term of the State Committee.
+
+(2) An outgoing member shall be eligible for re-nomination of the State Committee for not more than
+two terms:
+
+Provided that fifty per cent. of the nominees may be re-nominated for a second term in such manner
+as may be prescribed.
+
+## Section 23 - Disqualification for being nominated, or for continuing, as a member of the Committee.
+
+A
+person shall be disqualified for being nominated, or for continuing, as a member of the State Committee,
+if he--
+
+(i) is not a citizen of India;
+
+(ii) is not a resident of that State;
+
+(iii) is not a Muslim, except for an Executive Officer as provided in clause (vi) of sub-section (1)
+of section 18;
+
+(iv) is less than twenty-five years of age;
+
+(v) is of unsound mind and stands so declared by a competent court;
+
+(vi) is an undischarged insolvent;
+
+(vii) has been convicted of an offence which, in the opinion of the State Government, involves a
+moral turpitude;
+
+(viii) has been on a previous occasion--
+
+(a) removed from his office as a member; or
+
+(b) removed by an order of a competent authority either for not acting in the interest of the
+pilgrims or for corruption.
+
+## Section 24 - Resignation of Chairperson and members.
+
+The Chairperson or any other member may resign
+his office by writing under his hand addressed to the State Government and it shall be effective from the
+date of such resignation.
+
+## Section 25 - Removal of Chairperson and members.
+
+(1) The State Government may, by notification in the
+Official Gazette, remove the Chairperson of the State Committee or any member thereof, if he--
+
+(i) is or becomes subject to any of the disqualifications specified in section 23; or
+
+(ii) refuses to act or is incapable of acting or acts in a manner which the State Government, after
+hearing any explanation that he may offer, considers to be prejudicial to the interests of the State
+Committee or the interests of the pilgrims; or
+
+(iii) fails, in the opinion of the State Committee, to attend three consecutive meetings of the State
+Committee, without sufficient excuse.
+
+(2) Where the Chairperson of the State Committee is removed under sub-section (1), he shall also
+cease to be a member of the State Committee.
+
+## Section 26 - Filling of a casual vacancy.
+
+(1) When the seat of a member becomes vacant by his removal,
+resignation, death or otherwise, a new member shall be nominated in his place and such member shall
+hold office so long as the member whose place he fills would have been entitled to hold office if such
+vacancy had not occurred.
+
+(2) Any casual vacancy under sub-section (1) shall be filled up by the same category to which the
+former member belonged.
+
+## Section 27 - Duties of State Committee.
+
+(1) It shall be the duty of a State Committee to implement the
+policy and directions of the Committee in the interests of Haj pilgrims.
+
+(2) The State Committee shall provide assistance to the Haj pilgrims including in the matter of their
+transport between their home States and the point of exit from India and their transit accommodation at
+points of exit.
+
+(3) The State Committee shall discharge such other duties in connection with Haj as may be
+prescribed by the State Government concerned, in consultation with the Central Government.
+
+## Section 28 - Meetings of State Committee.
+
+(1) A State Committee shall meet at least twice in a year before
+the Haj day and once after the Haj is over.
+
+(2) The number of members required to make a quorum at any meeting of the State Committee shall
+be one-third of its members.
+
+(3) In addition to the number of meetings specified in sub-section (1), the State Committee may hold
+meetings as and when requisitioned by at least one-third of its members or when considered necessary by
+the Chairperson.
+
+(4) All matters shall be decided by a majority of votes of the members present and, in the event of an
+equality of votes, the Chairperson or other person presiding shall have a casting vote.
+
+## Section 29 - Executive Officer and other employees of State Committee.
+
+(1) The State Government shall
+appoint a person, from amongst its officers not below the rank of Deputy Secretary, to be the Executive
+Officer of the State Committee:
+
+Provided that the person so appointed shall preferably be a Muslim.
+
+(2) The Executive Officer of the State Committee shall act as its Secretary.
+
+(3) The Executive Officer shall execute the decisions of the State Committee and perform such other
+functions as may be prescribed:
+
+Provided that in case of any difference of opinion between the Executive Officer and the State
+Committee, he shall bring the matter to the notice of the State Government whose decision thereon shall
+be final.
+
+(4) The State Committee shall, with the previous sanction of the State Government, employ such
+officers and other employees as it deems necessary to carry out the purposes of this Act.
+
+(5) The term of office and conditions of service of officers and other employees shall be such as may
+be prescribed.
+
+## Section 30 - Central Haj Fund.
+
+The Committee shall have its own Fund to be called the Central Haj Fund,
+and there shall be placed to the credit thereof the following sums, namely:--
+
+(a) sums realised from any fees and service charges which may be levied by the Committee:--
+
+(i) for registration of applications for Haj; and
+
+(ii) for issue of Haj pilgrim travel passes;
+
+(b) money collected from pilgrims for performance of Haj;
+
+(c) the income from all deposits and investment of the Committee's funds;
+
+(d) the sums realised from the sale of the effects of deceased pilgrims and sums of money left by
+them, which are unclaimed and have lapsed to the Central Government;
+
+(e) any sums loaned by the Central or a State Government, or any other source approved by the
+Government;
+
+(f) any amount that may be legally due to the Committee from any source; and
+
+(g) the amount standing at the commencement of this Act to the credit of the Haj Fund or the
+Indigent Pilgrims Fund established under the Haj Committee Act, 1959 (51 of 1959).
+
+## Section 31 - Application of Central Haj Fund.
+
+The Central Haj Fund shall, subject to the provisions of this
+Act and the rules made thereunder, be under the control and management of the Committee, and shall be
+applied to the following purposes, namely:--
+
+(a) pay and allowances of the Chief Executive Officer and other employees of the Committee;
+
+(b) payment of charges and expenses incidental to the objects specified in section 9; and
+
+(c) any other expenses which are required to be met by the Committee or a State Committee, as
+approved by the Central Government.
+
+## Section 32 - State Haj Fund.
+
+The State Committee shall have its own fund to be called the State Haj Fund
+and the following sums shall be placed to the credit thereof, namely:--
+
+(i) all sums of money paid to it or any grant made by the Committee for the purposes of this Act;
+
+(ii) any grant or loan that may be made to the State Committee by the State Government, or any
+other source for the purposes of this Act, as approved by the State Government;
+
+(iii) any amount that may be legally due to the State Committee from any source; and
+
+(iv) the moneys, if any, standing to the credit of a State Haj Committee, at the commencement of
+this Act.
+
+## Section 33 - Application of State Haj Fund.
+
+The State Haj Fund shall, subject to any rules that may be
+made under this Act, be under the control and management of the State Committee and shall be applied to
+the following purposes, namely:--
+
+(i) pay and allowances of the employees of the State Committee other than its Executive Officer
+whose pay and allowances shall be borne by the State Government;
+
+(ii) payment of charges and expenses incidental to the due performance of its duties by the State
+Committee for the objects specified in section 27; and
+
+(iii) any other expenses, as approved by the State Government which are required to be met by
+the State Committee.
+
+## Section 34 - Accounts and audit.
+
+(1) The Committee and every State Committee shall maintain proper
+accounts and other relevant records and prepare an annual statement of accounts, in such form as may be
+prescribed by the Central Government, or as the case may be, the State Government.
+
+(2) The accounts shall be examined and audited annually by such auditors as the Central Government
+or, as the case may be, the State Government may approve.
+
+(3) The accounts of the Committee or the State Committee as certified by the auditor together with
+the audit report thereon shall be forwarded annually by the said Committee to the Central Government, or
+as the case may be, the State Government.
+
+(4) The Central Government shall, as soon as may be after the receipt of the audit report under
+sub-section (3), cause the same to be laid before each House of Parliament.
+
+(5) The State Government shall, as soon as may be, after the receipt of the audit report under
+sub-section (3), cause the same to be laid before the State Legislature.
+
+## Section 35 - Powers of Committee to issue Pilgrim Passes and levy fees.
+
+(1) The Committee shall have the
+power to issue a travel document called "Pilgrim Pass" to a Haj pilgrim for his departure from India as a
+bona fide pilgrim to Saudi Arabia and the said Pilgrim shall be deemed to be exempted from the
+provisions of section 3 of the Passports Act, 1967 (15 of 1967).
+
+(2) Notwithstanding anything contained in the Passports Act, 1967 (15 of 1967), the Central
+Government may, in consultation with the Committee, levy such fees for registration of Haj pilgrims,
+issuance of Pilgrim Pass by the Committee and other related matters, as may be prescribed in connection
+with rendering of such services.
+
+## Section 36 - Supersession of Committee.
+
+(1) If, in the opinion of the Central Government, the Committee is
+unable to perform, or persistently makes default in the performance of the duties imposed on it by or
+under this Act or exceeds or abuses its powers, the Central Government may, by an order published,
+together with a statement of the reasons therefor, in the Official Gazette, supersede it for such period as
+may be specified in the order:
+
+Provided that before making an order of supersession as aforesaid, the Central Government shall give
+a reasonable opportunity to the Committee to show cause why it should not be superseded.
+
+(2) When the Committee is superseded by an order under sub-section (1),--
+
+(a) all members shall, on such date as may be specified in the order, vacate their offices as such
+members without prejudice to their eligibility for nomination under clause (d);
+
+(b) during the period of supersession of the Committee, all powers and duties conferred and
+imposed upon the Committee by or under this Act shall be exercised and performed by such officer or
+authority as the Central Government may appoint in that behalf;
+
+(c) all property vested in the Committee shall, until it is reconstituted, vest in the Central
+Government;
+
+(d) before the expiry of the period of supersession, nominations shall be made by the Central
+Government for the purpose of reconstituting the Committee.
+
+(3) An order of supersession made under this section together with a statement of the reasons therefor
+shall be laid before each House of Parliament as soon as may be after it has been made.
+
+(4) A State Government may exercise the same powers and duties in respect of a State Committee as
+mentioned in sub-sections (1), (2) and (3) of this section subject to the conditions mentioned therein and
+any directions issued by the Central Government in this regard.
+
+## Section 37 - Membership of Committee or State Committee not to constitute office of profit.
+
+Notwithstanding anything contained in any other law for the time being in force, the office of a
+member of the Committee or State Committee shall not be deemed to be an office of profit.
+
+## Section 38 - Vacancies, etc., not to invalidate proceedings of Committee.
+
+No act or proceeding of the
+Committee or of a State Committee or of a Joint State Committee, as the case may be, shall be invalid by
+reason only of the existence of any vacancy amongst its members, or any defect in the constitution
+thereof.
+
+## Section 39 - Officers and employees of Committee to be public servants.
+
+The officers and employees of
+the Committees and other persons duly appointed to discharge any duty under this Act or rules or
+bye-laws made thereunder, shall be deemed to be public servants within the meaning of section 21 of the
+Indian Penal Code (45 of 1860).
+
+## Section 40 - Indemnity.
+
+No suit, prosecution or other legal proceeding shall lie against the Chairperson,
+Vice-Chairpersons or any member of the Committee or a State Committee in respect of anything in good
+faith done or purporting to have been done under this Act, except with the prior permission of the Central
+or State Government, as the case may be.
+
+## Section 41 - Power to amend Schedule.
+
+(1) If the Central Government is satisfied that it is necessary or
+expedient so to do, it may, by notification published in the Official Gazette, amend the Schedule and
+thereupon the Schedule shall be deemed to have been amended accordingly.
+
+(2) A copy of every notification made under sub-section (1) shall be laid before each House of
+Parliament as soon as may be after it is made.
+
+## Section 42 - Redressal of grievances.
+
+Any Haj pilgrim, who is aggrieved by the discharge of any of the
+duties performed by the Haj Committee or the State Haj Committee, shall make a representation for the
+redressal of his grievance to the Haj Committee or the State Haj Committee, as the case may be, and the
+same shall be disposed of by the said Committee, if necessary, after hearing the aggrieved person.
+
+## Section 43 - Vesting of properties and other rights, etc., in Committees.
+
+(1) On and from the
+commencement of this Act, all assets, rights, leaseholds, powers, authorities and privileges and all
+properties, movable and immovable, including lands, buildings, stores, cash balances, cash on hand,
+reserve funds, investments and all other rights and interests in or arising out of such properties as were
+immediately before such commencement in the ownership, power or control of Haj Committee, Mumbai,
+constituted under the Haj Committee Act, 1959 (51 of 1959) and all books of account, registers and all
+other documents of whatever nature relating thereto shall vest absolutely in and belong to the Committee.
+
+(2) On and from the commencement of this Act, all assets, rights, leaseholds, powers, authorities and
+privileges and all properties, movable and immovable, including lands, buildings, stores, cash balances,
+cash on hand, reserve funds, investments and all other rights and interests in or arising out of such
+properties as were immediately before such commencement in the ownership, power or control of Haj
+Committee of a State and, all books of account, registers and all other documents of whatever nature
+relating thereto shall vest absolutely in and belong to the Haj Committee of a State.
+
+(3) All debts, obligations and liabilities incurred, all contracts entered into and all matters and things
+engaged to be done by, with or for the Committee or a State Committee immediately before such
+commencement for or in connection with the purposes of the Committee or a State Committee shall be
+deemed to have been incurred, entered into and engaged to be done by, with or for the Committee or a
+State Committee, as the case may be.
+
+(4) All sums of money due to the Committee or a State Committee immediately before such
+commencement shall be deemed to be due to the Committee or a State Committee, as the case may be.
+
+(5) All contracts made with and all instruments executed on behalf of the Haj Committee, Mumbai or
+the Haj Committee of a State shall be deemed to have been made or executed on behalf of the Committee,
+or as the case may be, the State Committee and shall be performed accordingly.
+
+(6) In all suits and legal proceedings pending on the commencement of this Act in or to which the Haj
+Committee, Mumbai or the Haj Committee of a State was a party, the Committee, or as the case may be,
+the State Committee shall be deemed to have been substituted therefor.
+
+## Section 44 - Power to make rules.
+
+(1) The Central Government may, by notification, make rules to carry
+out the purposes of this Act.
+
+(2) In particular, and without prejudice to the generality of the foregoing powers, such rules may
+provide for all or any of the following matters, namely:--
+
+(i) the manner of election of members of the Committee under clause (ii) of section 4;
+
+(ii) the terms and conditions of the Chairperson and members under sub-section (2) of section 6;
+
+(iii) the powers and duties of the Chairperson under sub-section (3) of section 7;
+
+(iv) the manner in which the members may be re-nominated under the proviso to sub-section (2)
+of section 8;
+
+(v) duties in connection with Haj under clause (ix) of sub-section (1) of section 9;
+
+(vi) the functions of the Chief Executive Officer and the terms and conditions of service of the
+Chief Executive Officer and other employees of the Committee under section 16;
+
+(vii) the number of members of a Joint State Committee or of a Committee for Union territory
+under the proviso to clause (vi) of sub-section (1) of section 18;
+
+(viii) the manner in which the accounts shall be maintained by the Committee and the State
+Committees and the audit of such accounts under section 34;
+
+(ix) issue of Haj Pilgrim Pass under sub-section (1) of section 35;
+
+(x) amendment of the Schedule relating to the zones comprising contiguous States or Union
+territories under section 41;
+
+(xi) any other matter which may be prescribed.
+
+(3) Every rule made under this section shall be laid, as soon as may be after it is made, before each
+House of Parliament, while it is in session for a total period of thirty days which may be comprised in one
+session or in two or more successive sessions , and if, before the expiry of the session in which it is so
+laid, or the session immediately following, both Houses agree in making any modification in the rule or
+both Houses agree that the rule should not be made, the rule shall thereafter have effect only in such
+modified form or be of no effect, as the case may be; so, however, that any such modification or
+annulment shall be without prejudice to the validity of anything previously done under that rule.
+
+## Section 45 - Power to make bye-laws.
+
+(1) The Committee may, by notification, make bye-laws consistent
+with the provisions of the Act and the rules made thereunder in respect of the following matters,
+namely:--
+
+(i) powers and duties of the Vice-Chairpersons under sub-section (4) of section 7;
+
+(ii) providing for the publication of the proceedings of the Committee and any matter of interests
+to pilgrims under clause (viii) of sub-section (1) of section 9;
+
+(iii) laying down the rules of procedure for transaction of business at meeting of the Committee
+under sub-section (5) of section 10;
+
+(iv) powers and functions of the Standing Committee and determination of number of members
+and other persons in sub-committees under section 11;
+
+(v) providing for any other matter which the Committee deems necessary for giving effect to the
+provisions of this Act.
+
+(2) Bye-laws made by the Committee under this section shall be submitted to the Central Government
+and shall not take effect until they have been confirmed by the Central Government.
+
+(3) Bye-laws which have been confirmed by the Central Government shall be published in the
+Official Gazette.
+
+## Section 46 - Power to delegate.
+
+Subject to the provisions of this Act and the rules made thereunder, the
+Committee may, by general or special order in writing, with the prior approval of the Central
+Government, delegate to any member or Chief Executive Officer on the Committee, and subject to such
+conditions and limitations, as may be specified in the order, such of its powers under this Act (except the
+powers to make bye-laws under section 45) as it may deem necessary.
+
+## Section 47 - Power to make rules by State Governments.
+
+(1) The State Governments may, in consultation
+with the Central Government, by notification make rules to carry out the purposes of this Act in respect of
+the State Committees.
+
+(2) In particular, and without prejudice to the generality of the foregoing powers, such rules may
+provide for all or any of the following matters, namely:--
+
+(i) terms and conditions of the Chairperson and members of the State Committee under sub-section (2) of section 20;
+
+(ii) the manner in which the members may be re-nominated under the proviso to sub-section (2) of section 22;
+
+(iii) duties of the State Committee under sub-section (3) of section 27;
+
+(iv) the functions of the Executive Officer and the terms and conditions of service of officers and
+other employees under section 29;
+
+(v) any other matter which is required to be or may be prescribed.
+
+(3) Every rule made under this section shall be laid, as soon as may be after it is made, before the
+State Legislature.
+
+## Section 48 - Provisions as to employees of the existing Committee before the commencement of this Act.
+
+Every officer and other employee of any of the existing Committee and the State Committee, as the
+case may be, shall, on and from the commencement of this Act, stand transferred to or become an officer
+or other employee of the Committee or the State Committee, as the case may be, with such designation as
+such Committee may determine and shall hold office or service therein by the same tenure, at the same
+remuneration, upon the same terms and conditions of service as he would have held under the Haj
+Committee constituted under the Haj Committee Act, 1959 (51 of 1959) and shall continue to do so as an
+officer or other employee of the Committee till such time the terms and conditions are duly altered by
+such Committee:
+
+Provided that the tenure, remuneration and terms and conditions of service of any such officer or
+other employee of the Committee or of a State Committee, as the case may be, shall not be altered to his disadvantage without the previous sanction of the Central Government or State Government, as the case
+may be:
+
+Provided further that any service rendered by any such officer or other employee before the
+commencement of this Act shall be deemed to be the service rendered under the Committee or, as the
+case may be, the State Committee.
+
+## Section 49 - Protection of action taken in good faith.
+
+No suit, prosecution or other legal proceedings shall
+lie against the Government or any officer or other employee of the Government or the Committee
+constituted under this Act in respect of anything which is in good faith done or intended to be done under
+this Act.
+
+## Section 50 - Power to remove difficulties.
+
+(1) If any difficulty arises in giving effect to the provisions of
+this Act, the Central Government may, by order not inconsistent with the provisions of this Act, remove
+the difficulty:
+
+Provided that no such order shall be made after the expiry of a period of two years from the
+commencement of this Act.
+
+(2) Any order made under this section shall be laid, as soon as may be after it is made, before each
+House of Parliament.
+
+## Section 51 - Power to give directions.
+
+The Central Government may, in exercise of its powers and
+performance of its functions under this Act, issue directions in writing to the Committee or the State
+Government or the State Committee and such Committee, State Government or State Committee, as the
+case may be, shall be bound to comply with such directions.
+
+## Section 52 - Repeal.
+
+(1) The Haj Committee Act, 1959 (51 of 1959) is hereby repealed.
+
+(2) Notwithstanding such repeal, the Haj Committee constituted under the said Act shall, until the
+establishment of the Committee under this Act, continue to function as if this Act had not been passed and
+on such notification under section 5 on the establishment of the Committee, the former Committee shall
+stand dissolved.
+
+(3) Notwithstanding such repeal, anything done or any action taken under the Haj Committee Act,
+1959 (51 of 1959) shall be deemed to have been done or taken under the corresponding provisions of this
+Act.
