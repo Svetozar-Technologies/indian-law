@@ -31,6 +31,19 @@ node scripts/discover-regional-sources.mjs --max-pages 1 --output data/regional-
 node scripts/build-site.mjs --fetch --manifest data/laws.discovered.lino --regional-sources data/regional-sources.discovered.lino --max-sections 5
 ```
 
+Long live refreshes can persist fetched law data between runs:
+
+```bash
+node scripts/build-site.mjs --fetch \
+  --manifest data/laws.discovered.lino \
+  --regional-sources data/regional-sources.discovered.lino \
+  --cache-dir data/cache/laws \
+  --cache-ttl-days 30 \
+  --max-runtime-ms 3300000
+```
+
+Fresh cache entries skip re-downloading law sections for 30 days by default. When `--max-runtime-ms` is reached, the script writes the current `docs/` output, exits with code `75`, and leaves cache files ready for the next run to continue.
+
 To smoke-test one official law source download without rebuilding the site:
 
 ```bash

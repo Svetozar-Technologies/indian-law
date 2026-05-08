@@ -18,6 +18,9 @@ import {
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DEFAULT_MAX_LINES = 1500;
+const DEFAULT_CACHE_TTL_DAYS = 30;
+const DEFAULT_PROGRESS_INTERVAL_MS = 30000;
+const PARTIAL_REFRESH_EXIT_CODE = 75;
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
@@ -30,6 +33,13 @@ async function main() {
   const fetchLive = Boolean(args.fetch) && !Boolean(args.offline);
   const maxLaws = args["max-laws"] === undefined ? undefined : Number(args["max-laws"]);
   const maxSections = args["max-sections"] === undefined ? undefined : Number(args["max-sections"]);
+  const cacheDir = args["cache-dir"] === undefined ? undefined : path.resolve(ROOT, args["cache-dir"]);
+  const cacheTtlDays = Number(args["cache-ttl-days"] ?? DEFAULT_CACHE_TTL_DAYS);
+  const maxRuntimeMs = args["max-runtime-ms"] === undefined ? undefined : Number(args["max-runtime-ms"]);
+  const progressIntervalMs = Number(args["progress-interval-ms"] ?? DEFAULT_PROGRESS_INTERVAL_MS);
+  const verbose = Boolean(args.verbose);
+  const logProgress = fetchLive && !Boolean(args.quiet);
+  const startedAt = Date.now();
 
   const manifest = await readDataFile(manifestPath);
   const languageConfig = await readDataFile(languagePath);
@@ -38,10 +48,38 @@ async function main() {
   const selectedLaws = manifest.laws.slice(0, maxLaws || manifest.laws.length);
 
   const laws = [];
-  for (const rawLaw of selectedLaws) {
+  let partialRefresh = false;
+  for (let index = 0; index < selectedLaws.length; index += 1) {
+    if (fetchLive && runtimeBudgetExhausted(startedAt, maxRuntimeMs)) {
+      partialRefresh = true;
+      console.error(
+        `Runtime checkpoint reached after ${formatDuration(Date.now() - startedAt)}; writing partial site output.`
+      );
+      break;
+    }
+
+    const rawLaw = selectedLaws[index];
     const law = normaliseLaw(rawLaw);
-    const preparedLaw = fetchLive ? await fetchLaw(law, { delayMs, maxSections }) : law;
+    const preparedLaw = fetchLive
+      ? await fetchLawWithCache(law, {
+          cacheDir,
+          cacheTtlDays,
+          delayMs,
+          index,
+          logProgress,
+          maxSections,
+          progressIntervalMs,
+          total: selectedLaws.length,
+          verbose
+        })
+      : law;
     laws.push(attachRegionalSources(preparedLaw, regionalSources.sources ?? []));
+  }
+
+  if (partialRefresh) {
+    for (let index = laws.length; index < selectedLaws.length; index += 1) {
+      laws.push(attachRegionalSources(normaliseLaw(selectedLaws[index]), regionalSources.sources ?? []));
+    }
   }
 
   await writeSite({
@@ -53,10 +91,45 @@ async function main() {
     sourceMetadata: {
       generatedFrom: manifest.generatedFrom ?? [],
       lastVerified: manifest.lastVerified ?? regionalSources.lastVerified ?? "",
-      regionalLastVerified: regionalSources.lastVerified ?? ""
+      regionalLastVerified: regionalSources.lastVerified ?? "",
+      partialRefresh,
+      refreshStartedAt: fetchLive ? new Date(startedAt).toISOString() : ""
     }
   });
-  console.log(`Generated ${laws.length} law entries in ${path.relative(ROOT, outputDir)}`);
+  const outputLabel = path.relative(ROOT, outputDir);
+  if (partialRefresh) {
+    console.error(`Generated partial ${laws.length} law entries in ${outputLabel}`);
+    process.exitCode = PARTIAL_REFRESH_EXIT_CODE;
+  } else {
+    console.log(`Generated ${laws.length} law entries in ${outputLabel}`);
+  }
+}
+
+async function fetchLawWithCache(seedLaw, options) {
+  const cachePath = options.cacheDir ? path.join(options.cacheDir, `${cacheKey(seedLaw)}.json`) : undefined;
+  const progressPrefix = `[${options.index + 1}/${options.total}]`;
+
+  if (cachePath) {
+    const cachedLaw = await readFreshCachedLaw(cachePath, options);
+    if (cachedLaw) {
+      logProgress(
+        `${progressPrefix} Using cached ${seedLaw.title} (${cachedLaw.sections?.length ?? 0} sections, fetched ${cachedLaw.fetchedAt})`,
+        options
+      );
+      return cachedLaw;
+    }
+  }
+
+  logProgress(`${progressPrefix} Fetching ${seedLaw.title} from ${seedLaw.sourceUrl}`, options);
+  const fetchedLaw = await fetchLaw(seedLaw, options);
+  logProgress(`${progressPrefix} Fetched ${fetchedLaw.sections?.length ?? 0} sections for ${fetchedLaw.title}`, options);
+
+  if (cachePath) {
+    await writeLawCache(cachePath, fetchedLaw, options);
+    logVerbose(`${progressPrefix} Wrote cache ${path.relative(ROOT, cachePath)}`, options);
+  }
+
+  return fetchedLaw;
 }
 
 async function fetchLaw(seedLaw, options) {
@@ -67,8 +140,12 @@ async function fetchLaw(seedLaw, options) {
   const sectionRefs = extractIndiaCodeSections(html);
   const limitedSections = options.maxSections ? sectionRefs.slice(0, options.maxSections) : sectionRefs;
   const sections = [];
+  let lastProgressAt = Date.now();
 
-  for (const section of limitedSections) {
+  logVerbose(`Found ${sectionRefs.length} section references for ${seedLaw.title}`, options);
+
+  for (let index = 0; index < limitedSections.length; index += 1) {
+    const section = limitedSections[index];
     const query = new URLSearchParams(section.query);
     const actId = query.get("actid");
     const sectionUrl = new URL("https://www.indiacode.nic.in/SectionPageContent");
@@ -80,6 +157,10 @@ async function fetchLaw(seedLaw, options) {
       ...section,
       ...parsed
     });
+    if (shouldLogSectionProgress(index, limitedSections.length, lastProgressAt, options.progressIntervalMs)) {
+      logProgress(`  ${seedLaw.title}: fetched ${index + 1}/${limitedSections.length} sections`, options);
+      lastProgressAt = Date.now();
+    }
     await sleep(options.delayMs);
   }
 
@@ -92,6 +173,113 @@ async function fetchLaw(seedLaw, options) {
     sources: mergeSources(seedLaw.sources, metadata.sources),
     sections
   });
+}
+
+async function readFreshCachedLaw(cachePath, options) {
+  let cache;
+  try {
+    cache = JSON.parse(await readFile(cachePath, "utf8"));
+  } catch (error) {
+    if (error.code !== "ENOENT") {
+      console.warn(`Ignoring unreadable law cache ${path.relative(ROOT, cachePath)}: ${error.message}`);
+    }
+    return undefined;
+  }
+
+  if (!cache?.law || !cache.fetchedAt) {
+    logVerbose(`Ignoring incomplete law cache ${path.relative(ROOT, cachePath)}`, options);
+    return undefined;
+  }
+  if (!cacheIsFresh(cache.fetchedAt, options.cacheTtlDays)) {
+    logVerbose(`Ignoring stale law cache ${path.relative(ROOT, cachePath)} fetched ${cache.fetchedAt}`, options);
+    return undefined;
+  }
+  if (!cacheSatisfiesRequest(cache, options)) {
+    logVerbose(`Ignoring limited law cache ${path.relative(ROOT, cachePath)} for full refresh request`, options);
+    return undefined;
+  }
+
+  const law = structuredClone(cache.law);
+  if (options.maxSections !== undefined) {
+    law.sections = (law.sections ?? []).slice(0, options.maxSections);
+  }
+  const normalised = normaliseLaw(law);
+  normalised.fetchedAt = cache.fetchedAt;
+  return normalised;
+}
+
+async function writeLawCache(cachePath, law, options) {
+  await mkdir(path.dirname(cachePath), { recursive: true });
+  await writeFile(
+    cachePath,
+    `${JSON.stringify(
+      {
+        cacheVersion: 1,
+        fetchedAt: new Date().toISOString(),
+        sourceUrl: law.sourceUrl ?? "",
+        completeFetch: options.maxSections === undefined,
+        maxSections: options.maxSections ?? null,
+        law
+      },
+      null,
+      2
+    )}\n`
+  );
+}
+
+function cacheKey(law) {
+  return normaliseLaw(law).slug.replace(/[^a-z0-9._-]+/gi, "-").replace(/^-+|-+$/g, "") || `handle-${law.handle}`;
+}
+
+function cacheIsFresh(fetchedAt, ttlDays) {
+  const fetchedTime = Date.parse(fetchedAt);
+  if (!Number.isFinite(fetchedTime)) {
+    return false;
+  }
+  return Date.now() - fetchedTime <= ttlDays * 24 * 60 * 60 * 1000;
+}
+
+function cacheSatisfiesRequest(cache, options) {
+  if (options.maxSections === undefined) {
+    return cache.completeFetch === true || (cache.completeFetch !== false && cache.maxSections == null);
+  }
+  return (
+    cache.completeFetch === true ||
+    cache.maxSections == null ||
+    Number(cache.maxSections ?? 0) >= options.maxSections ||
+    (cache.law.sections?.length ?? 0) >= options.maxSections
+  );
+}
+
+function runtimeBudgetExhausted(startedAt, maxRuntimeMs) {
+  return maxRuntimeMs !== undefined && Date.now() - startedAt >= maxRuntimeMs;
+}
+
+function shouldLogSectionProgress(index, total, lastProgressAt, progressIntervalMs) {
+  return (
+    index === 0 ||
+    index === total - 1 ||
+    Date.now() - lastProgressAt >= progressIntervalMs
+  );
+}
+
+function logProgress(message, options) {
+  if (options.logProgress) {
+    console.error(message);
+  }
+}
+
+function logVerbose(message, options) {
+  if (options.verbose) {
+    console.error(message);
+  }
+}
+
+function formatDuration(milliseconds) {
+  const totalSeconds = Math.max(0, Math.round(milliseconds / 1000));
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${minutes}m ${seconds}s`;
 }
 
 async function writeSite({ outputDir, languages, defaultLanguage, laws, maxLines, sourceMetadata }) {
