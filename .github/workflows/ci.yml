@@ -40,11 +40,8 @@ jobs:
 
       - name: Download one official law corpus smoke sample
         run: >
-          node scripts/build-site.mjs
-          --fetch
+          node scripts/smoke-download-source.mjs
           --manifest data/laws.seed.lino
-          --regional-sources data/regional-sources.seed.lino
-          --max-laws 1
-          --max-sections 1
-          --output /tmp/indian-law-ci-live
+          --max-sources 1
+          --output /tmp/indian-law-ci-source
           --delay-ms 1100

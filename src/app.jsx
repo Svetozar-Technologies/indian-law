@@ -1,9 +1,7 @@
-import { Buffer } from "buffer";
-import { decode } from "lino-objects-codec";
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 
-globalThis.Buffer ??= Buffer;
+import { readLino } from "../scripts/lib/lino-codec.mjs";
 
 function App() {
   const [catalog, setCatalog] = useState(null);
@@ -21,7 +19,7 @@ function App() {
       })
       .then((notation) => {
         if (!cancelled) {
-          setCatalog(decode({ notation }));
+          setCatalog(readLino(notation));
         }
       })
       .catch((error) => {

@@ -14,13 +14,18 @@ export function sleep(ms) {
 }
 
 export async function fetchText(url, options = {}) {
+  const body = await fetchBuffer(url, options);
+  return body.toString("utf8");
+}
+
+export async function fetchBuffer(url, options = {}) {
   const retries = options.retries ?? 2;
   const timeoutMs = options.timeoutMs ?? 60000;
   let lastError;
 
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
-      return await requestText(url, {
+      return await requestBuffer(url, {
         headers: {
           ...DEFAULT_HEADERS,
           ...(options.headers ?? {})
@@ -38,7 +43,7 @@ export async function fetchText(url, options = {}) {
   throw lastError;
 }
 
-function requestText(rawUrl, options = {}, redirectCount = 0) {
+function requestBuffer(rawUrl, options = {}, redirectCount = 0) {
   return new Promise((resolve, reject) => {
     const url = new URL(rawUrl);
     const client = url.protocol === "http:" ? http : https;
@@ -55,15 +60,14 @@ function requestText(rawUrl, options = {}, redirectCount = 0) {
             reject(new Error(`Too many redirects for ${rawUrl}`));
             return;
           }
-          resolve(requestText(new URL(response.headers.location, url).toString(), options, redirectCount + 1));
+          resolve(requestBuffer(new URL(response.headers.location, url).toString(), options, redirectCount + 1));
           return;
         }
 
         const chunks = [];
-        response.setEncoding("utf8");
         response.on("data", (chunk) => chunks.push(chunk));
         response.on("end", () => {
-          const body = chunks.join("");
+          const body = Buffer.concat(chunks);
           if (statusCode < 200 || statusCode >= 300) {
             reject(new Error(`HTTP ${statusCode} ${response.statusMessage} for ${rawUrl}`));
             return;

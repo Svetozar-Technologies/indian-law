@@ -9,7 +9,7 @@ The first implementation focuses on a repeatable pipeline:
 - converts available India Code section HTML into Markdown;
 - splits Markdown output into files with a 1500-line budget without splitting sections across files;
 - builds a single-entry React GitHub Pages viewer under `docs/` that reads a `.lino` catalog and loads Markdown text on demand;
-- runs deterministic PR checks from a small seed manifest plus a one-law live corpus smoke download, while scheduled/manual Actions on the default branch refresh from live official sources.
+- runs deterministic PR checks from a small seed manifest plus a live official source download smoke, while scheduled/manual Actions on the default branch refresh from live official sources.
 
 Published Pages URL, once enabled for the repository:
 
@@ -31,6 +31,14 @@ node scripts/discover-regional-sources.mjs --max-pages 1 --output data/regional-
 node scripts/build-site.mjs --fetch --manifest data/laws.discovered.lino --regional-sources data/regional-sources.discovered.lino --max-sections 5
 ```
 
+To smoke-test one official law source download without rebuilding the site:
+
+```bash
+node scripts/smoke-download-source.mjs --manifest data/laws.seed.lino --max-sources 1
+```
+
+Repository-owned `.lino` files use indented Links Notation with plain string references, so the metadata remains readable in reviews and manual edits.
+
 The live fetcher retries transient failures, waits between requests by default, and sends a project contact header. India Code currently rejects Node's default fetch profile, so the HTTP client uses a curl-compatible request profile for that host.
 
 ## Repository Layout
@@ -43,6 +51,7 @@ The live fetcher retries transient failures, waits between requests by default, 
 - `scripts/discover-laws.mjs` - discovers Central Acts from India Code search results.
 - `scripts/discover-regional-sources.mjs` - discovers official regional-language PDF sources.
 - `scripts/build-site.mjs` - fetches, converts, splits Markdown, writes `.lino` catalog data, and renders the Pages site.
+- `scripts/smoke-download-source.mjs` - downloads one official source file for PR CI network smoke coverage.
 - `tests/` - parser, splitter, and offline site generation tests.
 - `docs/` - generated GitHub Pages output plus case-study documentation.
 - `LEGAL.md` - legal posture and source attribution notes.

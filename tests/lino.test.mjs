@@ -21,6 +21,8 @@ test("repository-owned seed metadata is stored as Links Notation", async () => {
     const notation = await readFile(filePath, "utf8");
     assert.ok(parser.parse(notation).length > 0, `${filePath} should parse as Links Notation`);
     assert.match(notation, /^obj_root:\n  object\n/, `${filePath} should use indented object notation`);
+    assert.doesNotMatch(notation, /\(str ZGVmYXVsdExhbmd1YWdl\)/, `${filePath} should not base64-encode keys`);
+    assert.doesNotMatch(notation, /\(str dGl0bGU=\)/, `${filePath} should not base64-encode keys`);
   }
 
   const languages = await readDataFile("data/languages.lino");
@@ -30,14 +32,28 @@ test("repository-owned seed metadata is stored as Links Notation", async () => {
   assert.equal(manifest.laws[0].sections[0].sectionNo, "1");
 });
 
-test("Lino codec preserves string identifiers that look numeric", () => {
+test("Lino codec stores strings unencoded and preserves numeric-looking identifiers", () => {
   const notation = writeLino({ handle: "1367", actYear: "1957", sectionNo: "1" });
   const parsed = parser.parse(notation);
   const decoded = readLino(notation);
   assert.equal(parsed.length, 1);
   assert.match(notation, /^obj_root:\n  object\n/);
-  assert.match(notation, /\n  \(str [^)]+\) \(str MTM2Nw==\)/);
+  assert.match(notation, /\n  \(str handle\) \(str 1367\)/);
+  assert.doesNotMatch(notation, /MTM2Nw==/);
   assert.deepEqual(decoded, { handle: "1367", actYear: "1957", sectionNo: "1" });
+});
+
+test("Lino codec keeps multilingual and multiline strings readable", () => {
+  const value = {
+    title: "प्रतिलिप्‍यधिकार अधिनियम, 1957",
+    body: "Line one\nLine two with `code` and apostrophe's mark",
+    empty: ""
+  };
+  const notation = writeLino(value);
+  assert.match(notation, /प्रतिलिप्‍यधिकार अधिनियम/);
+  assert.match(notation, /Line one\nLine two/);
+  assert.match(notation, /\(str empty\) \(str \)/);
+  assert.deepEqual(readLino(notation), value);
 });
 
 test("Lino writer uses indented definitions for nested data", () => {
