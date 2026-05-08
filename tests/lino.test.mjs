@@ -13,12 +13,14 @@ test("repository-owned seed metadata is stored as Links Notation", async () => {
     "data/languages.lino",
     "data/laws.seed.lino",
     "data/regional-sources.seed.lino",
+    "docs/data/catalog.lino",
     "docs/case-studies/issue-1/data/issue-1.lino"
   ];
 
   for (const filePath of paths) {
     const notation = await readFile(filePath, "utf8");
     assert.ok(parser.parse(notation).length > 0, `${filePath} should parse as Links Notation`);
+    assert.match(notation, /^obj_root:\n  object\n/, `${filePath} should use indented object notation`);
   }
 
   const languages = await readDataFile("data/languages.lino");
@@ -33,7 +35,26 @@ test("Lino codec preserves string identifiers that look numeric", () => {
   const parsed = parser.parse(notation);
   const decoded = readLino(notation);
   assert.equal(parsed.length, 1);
+  assert.match(notation, /^obj_root:\n  object\n/);
+  assert.match(notation, /\n  \(str [^)]+\) \(str MTM2Nw==\)/);
   assert.deepEqual(decoded, { handle: "1367", actYear: "1957", sectionNo: "1" });
+});
+
+test("Lino writer uses indented definitions for nested data", () => {
+  const notation = writeLino({
+    defaultLanguage: "en",
+    languages: [{ code: "en", enabled: true }],
+    empty: null
+  });
+  assert.match(notation, /^obj_root:\n  object\n/);
+  assert.match(notation, /\nobj_root_languages:\n  array\n  obj_root_languages_en\n/);
+  assert.match(notation, /\nobj_root_languages_en:\n  object\n/);
+  assert.doesNotMatch(notation.split("\n")[0], /^\(object /);
+  assert.deepEqual(readLino(notation), {
+    defaultLanguage: "en",
+    languages: [{ code: "en", enabled: true }],
+    empty: null
+  });
 });
 
 test("owned data directories do not store JSON metadata", async () => {
