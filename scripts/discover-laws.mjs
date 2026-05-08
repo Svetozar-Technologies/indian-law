@@ -1,22 +1,22 @@
 #!/usr/bin/env node
-import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { parseActSearchRows } from "./lib/html.mjs";
 import { fetchText, sleep } from "./lib/http.mjs";
+import { readDataFile, writeDataFile } from "./lib/lino.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SEARCH_URL = "https://www.indiacode.nic.in/handle/123456789/1362/simple-search";
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const output = path.resolve(ROOT, args.output ?? "data/laws.discovered.json");
+  const output = path.resolve(ROOT, args.output ?? "data/laws.discovered.lino");
   const rpp = Number(args.rpp ?? 100);
   const limit = Number(args.limit ?? 0);
   const delayMs = Number(args["delay-ms"] ?? 1100);
-  const seedPath = path.resolve(ROOT, args.seed ?? "data/laws.seed.json");
-  const seed = JSON.parse(await readFile(seedPath, "utf8"));
+  const seedPath = path.resolve(ROOT, args.seed ?? "data/laws.seed.lino");
+  const seed = await readDataFile(seedPath);
   const laws = [];
   let start = 0;
 
@@ -58,7 +58,7 @@ async function main() {
     laws: laws.length ? laws : seed.laws
   };
 
-  await writeFile(output, `${JSON.stringify(manifest, null, 2)}\n`);
+  await writeDataFile(output, manifest);
   console.log(`Discovered ${manifest.laws.length} laws -> ${path.relative(ROOT, output)}`);
 }
 

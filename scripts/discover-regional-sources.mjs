@@ -1,20 +1,20 @@
 #!/usr/bin/env node
-import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { parseRegionalSourceRows } from "./lib/html.mjs";
 import { fetchText, sleep } from "./lib/http.mjs";
+import { readDataFile, writeDataFile } from "./lib/lino.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const output = path.resolve(ROOT, args.output ?? "data/regional-sources.discovered.json");
-  const languagePath = path.resolve(ROOT, args.languages ?? "data/languages.json");
+  const output = path.resolve(ROOT, args.output ?? "data/regional-sources.discovered.lino");
+  const languagePath = path.resolve(ROOT, args.languages ?? "data/languages.lino");
   const maxPages = Number(args["max-pages"] ?? 1);
   const delayMs = Number(args["delay-ms"] ?? 1100);
-  const config = JSON.parse(await readFile(languagePath, "utf8"));
+  const config = await readDataFile(languagePath);
   const sources = [];
   const errors = [];
 
@@ -60,7 +60,7 @@ async function main() {
     ]
   };
 
-  await writeFile(output, `${JSON.stringify(payload, null, 2)}\n`);
+  await writeDataFile(output, payload);
   console.log(`Discovered ${uniqueSources.length} regional sources -> ${path.relative(ROOT, output)}`);
 }
 

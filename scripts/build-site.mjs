@@ -1,22 +1,20 @@
 #!/usr/bin/env node
+import { build as buildBundle } from "esbuild";
+import { createHash } from "node:crypto";
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { extractIndiaCodeMetadata, extractIndiaCodeSections, parseSectionContentJson } from "./lib/html.mjs";
 import { fetchJson, fetchText, sleep } from "./lib/http.mjs";
+import { readDataFile, writeDataFile } from "./lib/lino.mjs";
 import {
+  countLines,
   lawPartFileName,
   normaliseLaw,
   renderMarkdownPart,
   splitSectionsIntoParts
 } from "./lib/markdown.mjs";
-import {
-  renderHome,
-  renderLanguageIndex,
-  renderLawIndex,
-  renderPartHtml
-} from "./lib/site.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DEFAULT_MAX_LINES = 1500;
@@ -24,18 +22,18 @@ const DEFAULT_MAX_LINES = 1500;
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const outputDir = path.resolve(ROOT, args.output ?? "docs");
-  const manifestPath = path.resolve(ROOT, args.manifest ?? "data/laws.seed.json");
-  const languagePath = path.resolve(ROOT, args.languages ?? "data/languages.json");
-  const regionalPath = path.resolve(ROOT, args["regional-sources"] ?? "data/regional-sources.seed.json");
+  const manifestPath = path.resolve(ROOT, args.manifest ?? "data/laws.seed.lino");
+  const languagePath = path.resolve(ROOT, args.languages ?? "data/languages.lino");
+  const regionalPath = path.resolve(ROOT, args["regional-sources"] ?? "data/regional-sources.seed.lino");
   const maxLines = Number(args["max-lines"] ?? DEFAULT_MAX_LINES);
   const delayMs = Number(args["delay-ms"] ?? 1100);
   const fetchLive = Boolean(args.fetch) && !Boolean(args.offline);
   const maxLaws = args["max-laws"] === undefined ? undefined : Number(args["max-laws"]);
   const maxSections = args["max-sections"] === undefined ? undefined : Number(args["max-sections"]);
 
-  const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
-  const languageConfig = JSON.parse(await readFile(languagePath, "utf8"));
-  const regionalSources = JSON.parse(await readFile(regionalPath, "utf8"));
+  const manifest = await readDataFile(manifestPath);
+  const languageConfig = await readDataFile(languagePath);
+  const regionalSources = await readDataFile(regionalPath);
   const languages = languageConfig.languages;
   const selectedLaws = manifest.laws.slice(0, maxLaws || manifest.laws.length);
 
@@ -46,7 +44,18 @@ async function main() {
     laws.push(attachRegionalSources(preparedLaw, regionalSources.sources ?? []));
   }
 
-  await writeSite({ outputDir, languages, defaultLanguage: languageConfig.defaultLanguage, laws, maxLines });
+  await writeSite({
+    outputDir,
+    languages,
+    defaultLanguage: languageConfig.defaultLanguage,
+    laws,
+    maxLines,
+    sourceMetadata: {
+      generatedFrom: manifest.generatedFrom ?? [],
+      lastVerified: manifest.lastVerified ?? regionalSources.lastVerified ?? "",
+      regionalLastVerified: regionalSources.lastVerified ?? ""
+    }
+  });
   console.log(`Generated ${laws.length} law entries in ${path.relative(ROOT, outputDir)}`);
 }
 
@@ -85,45 +94,113 @@ async function fetchLaw(seedLaw, options) {
   });
 }
 
-async function writeSite({ outputDir, languages, defaultLanguage, laws, maxLines }) {
+async function writeSite({ outputDir, languages, defaultLanguage, laws, maxLines, sourceMetadata }) {
   await mkdir(outputDir, { recursive: true });
   await rm(path.join(outputDir, "laws"), { recursive: true, force: true });
-  await writeFile(path.join(outputDir, "site.css"), SITE_CSS);
-  await writeFile(path.join(outputDir, "site.js"), SITE_JS);
+  await rm(path.join(outputDir, "assets"), { recursive: true, force: true });
+  await rm(path.join(outputDir, "data"), { recursive: true, force: true });
+  await rm(path.join(outputDir, "site.css"), { force: true });
+  await rm(path.join(outputDir, "site.js"), { force: true });
+
+  await mkdir(path.join(outputDir, "assets"), { recursive: true });
+  await mkdir(path.join(outputDir, "data"), { recursive: true });
+
+  const catalog = await writeMarkdownParts({ outputDir, languages, laws, defaultLanguage, maxLines, sourceMetadata });
+  await writeDataFile(path.join(outputDir, "data", "catalog.lino"), catalog);
   await writeFile(path.join(outputDir, "favicon.svg"), FAVICON_SVG);
-  await writeFile(path.join(outputDir, "index.html"), renderHome({ languages, laws, defaultLanguage }));
+  await writeFile(path.join(outputDir, "assets", "site.css"), await readFile(path.join(ROOT, "src", "styles.css"), "utf8"));
+  await buildBundle({
+    entryPoints: [path.join(ROOT, "src", "app.jsx")],
+    outfile: path.join(outputDir, "assets", "app.js"),
+    bundle: true,
+    format: "esm",
+    legalComments: "none",
+    minify: true,
+    platform: "browser",
+    target: ["es2020"],
+    logLevel: "silent"
+  });
+  const cssHash = await fileHash(path.join(outputDir, "assets", "site.css"));
+  const appHash = await fileHash(path.join(outputDir, "assets", "app.js"));
+  await writeFile(path.join(outputDir, "index.html"), renderAppShell({ cssHash, appHash }));
+}
 
-  for (const language of languages) {
-    const languageDir = path.join(outputDir, "laws", language.code);
-    await mkdir(languageDir, { recursive: true });
-    await writeFile(path.join(languageDir, "index.html"), renderLanguageIndex({ language, languages, laws }));
+async function writeMarkdownParts({ outputDir, languages, laws, defaultLanguage, maxLines, sourceMetadata }) {
+  const catalog = {
+    title: "Indian Law",
+    defaultLanguage,
+    maxLines,
+    sourceMetadata,
+    languages: languages.map((language) => ({
+      code: language.code,
+      name: language.name,
+      nativeName: language.nativeName,
+      direction: language.direction ?? "ltr",
+      officialSource: language.officialSource ?? "",
+      sourceKind: language.sourceKind ?? ""
+    })),
+    laws: []
+  };
 
-    for (const law of laws) {
-      const lawDir = path.join(languageDir, law.slug);
-      await mkdir(lawDir, { recursive: true });
+  for (const law of laws) {
+    const lawEntry = {
+      slug: law.slug,
+      title: law.title,
+      localizedTitles: localizedTitles(law),
+      actNumber: law.actNumber ?? "",
+      actYear: law.actYear ?? "",
+      enactmentDate: law.enactmentDate ?? "",
+      ministry: law.ministry ?? "",
+      department: law.department ?? "",
+      longTitle: law.longTitle ?? "",
+      sourceUrl: law.sourceUrl ?? "",
+      sources: law.sources ?? {},
+      languages: {}
+    };
+
+    for (const language of languages) {
       const lawSections = sectionsForLanguage(law, language.code);
       const splitLimit = Math.max(1, maxLines - 60);
       const parts = lawSections.length ? splitSectionsIntoParts(lawSections, { maxLines: splitLimit }) : [];
-      await writeFile(path.join(lawDir, "index.html"), renderLawIndex({ law, language, parts }));
+      const languageParts = [];
 
-      for (let index = 0; index < parts.length; index += 1) {
-        const markdown = renderMarkdownPart({
-          law,
-          language,
-          partIndex: index,
-          partCount: parts.length,
-          sections: parts[index],
-          maxLines
-        });
-        const fileName = lawPartFileName(index);
-        await writeFile(path.join(lawDir, `${fileName}.md`), markdown);
-        await writeFile(
-          path.join(lawDir, `${fileName}.html`),
-          renderPartHtml({ law, language, markdown, partIndex: index, partCount: parts.length })
-        );
+      if (parts.length > 0) {
+        const lawDir = path.join(outputDir, "laws", language.code, law.slug);
+        await mkdir(lawDir, { recursive: true });
+        for (let index = 0; index < parts.length; index += 1) {
+          const markdown = renderMarkdownPart({
+            law,
+            language,
+            partIndex: index,
+            partCount: parts.length,
+            sections: parts[index],
+            maxLines
+          });
+          const fileName = `${lawPartFileName(index)}.md`;
+          await writeFile(path.join(lawDir, fileName), markdown);
+          languageParts.push({
+            file: fileName,
+            title: `Part ${index + 1}`,
+            lineCount: countLines(markdown),
+            firstSection: parts[index][0]?.sectionNo ?? "",
+            lastSection: parts[index].at(-1)?.sectionNo ?? ""
+          });
+        }
       }
+
+      const sources = law.sources?.[language.code] ?? [];
+      lawEntry.languages[language.code] = {
+        enabled: languageParts.length > 0,
+        status: languageParts.length > 0 ? "markdown" : sources.length > 0 ? "source-only" : "unavailable",
+        parts: languageParts,
+        sources
+      };
     }
+
+    catalog.laws.push(lawEntry);
   }
+
+  return catalog;
 }
 
 function sectionsForLanguage(law, languageCode) {
@@ -181,6 +258,38 @@ function titlesLookRelated(sourceTitle = "", lawTitle = "") {
   return Boolean(source && law && (source.includes(law) || law.includes(source)));
 }
 
+function localizedTitles(law) {
+  const titles = {};
+  if (law.hindiTitle) {
+    titles.hi = law.hindiTitle;
+  }
+  return titles;
+}
+
+async function fileHash(filePath) {
+  return createHash("sha256").update(await readFile(filePath)).digest("hex").slice(0, 12);
+}
+
+function renderAppShell({ cssHash, appHash }) {
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indian Law</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css?v=${cssHash}">
+  <script type="module" src="assets/app.js?v=${appHash}"></script>
+</head>
+<body>
+  <div id="root">
+    <main class="loading-shell">Loading Indian Law</main>
+  </div>
+</body>
+</html>
+`;
+}
+
 function parseArgs(argv) {
   const args = {};
   for (let index = 0; index < argv.length; index += 1) {
@@ -201,369 +310,9 @@ function parseArgs(argv) {
   return args;
 }
 
-const SITE_JS = `const supported = [...document.querySelectorAll("[data-language]")].map((node) => node.dataset.language);
-const preferred = navigator.languages?.map((value) => value.split("-")[0]).find((code) => supported.includes(code)) || "en";
-document.documentElement.dataset.preferredLanguage = preferred;
-const preferredLink = document.querySelector("#preferred-language-link");
-if (preferredLink) preferredLink.href = \`laws/\${preferred}/index.html\`;
-`;
-
-const SITE_CSS = `:root {
-  color-scheme: light;
-  --ink: #1f2933;
-  --muted: #5d6b78;
-  --line: #d7dde3;
-  --paper: #ffffff;
-  --surface: #f5f7f8;
-  --accent: #1b7f5a;
-  --accent-2: #b45309;
-  --link: #155e75;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  color: var(--ink);
-  background: var(--surface);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.55;
-}
-
-a {
-  color: var(--link);
-}
-
-.topbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.85rem clamp(1rem, 4vw, 3rem);
-  background: var(--paper);
-  border-bottom: 1px solid var(--line);
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
-.brand {
-  color: var(--ink);
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.topnav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-}
-
-.topnav a {
-  color: var(--muted);
-  font-size: 0.95rem;
-  text-decoration: none;
-}
-
-main {
-  width: min(1120px, calc(100% - 2rem));
-  margin: 0 auto;
-  padding: 2rem 0 4rem;
-}
-
-.intro,
-.compact-heading,
-.law-heading,
-.table-section,
-.parts,
-.sources {
-  padding: clamp(0.75rem, 2vw, 1.5rem) 0;
-  margin-bottom: 1rem;
-}
-
-.law-document {
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: clamp(1rem, 3vw, 2rem);
-  margin-bottom: 1rem;
-}
-
-.intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(180px, 260px);
-  gap: 2rem;
-  align-items: end;
-}
-
-.kicker {
-  color: var(--accent-2);
-  font-size: 0.8rem;
-  font-weight: 800;
-  letter-spacing: 0;
-  margin: 0 0 0.5rem;
-  text-transform: uppercase;
-}
-
-h1,
-h2,
-h3 {
-  letter-spacing: 0;
-  line-height: 1.2;
-}
-
-h1 {
-  font-size: 2.6rem;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.25rem;
-  margin: 0 0 1rem;
-}
-
-.summary {
-  color: var(--muted);
-  max-width: 68ch;
-}
-
-.source-panel {
-  border-left: 4px solid var(--accent);
-  padding-left: 1rem;
-}
-
-.metric {
-  display: block;
-  font-size: 2.5rem;
-  font-weight: 800;
-}
-
-.metric-label {
-  display: block;
-  color: var(--muted);
-  margin-bottom: 0.5rem;
-}
-
-.language-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 0.75rem;
-  margin-bottom: 1rem;
-}
-
-.language-link,
-.part-link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 72px;
-  padding: 0.85rem;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  color: var(--ink);
-  text-decoration: none;
-}
-
-.language-link:hover,
-.part-link:hover {
-  border-color: var(--accent);
-}
-
-.language-link small,
-.part-link small {
-  color: var(--muted);
-}
-
-.section-heading,
-.document-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.button-link,
-.status {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2rem;
-  padding: 0.2rem 0.6rem;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: #eef7f3;
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.table-wrap {
-  overflow-x: auto;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  min-width: 680px;
-}
-
-th,
-td {
-  border-bottom: 1px solid var(--line);
-  padding: 0.75rem;
-  text-align: left;
-  vertical-align: top;
-}
-
-th {
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-
-.language-switcher {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.language-switcher a {
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 0.35rem 0.6rem;
-  text-decoration: none;
-}
-
-.law-heading dl {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.75rem;
-  margin: 1rem 0;
-}
-
-.law-heading dt {
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-
-.law-heading dd {
-  margin: 0;
-  font-weight: 700;
-}
-
-.part-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 0.75rem;
-}
-
-.sources ul {
-  padding-left: 1.2rem;
-}
-
-.sources li span {
-  display: inline-block;
-  width: 2.5rem;
-  color: var(--muted);
-}
-
-.document-nav {
-  border-bottom: 1px solid var(--line);
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.75rem;
-}
-
-.law-document {
-  max-width: 860px;
-}
-
-.law-document h1 {
-  font-size: 2rem;
-}
-
-.law-document blockquote {
-  border-left: 4px solid var(--accent);
-  color: var(--muted);
-  margin-left: 0;
-  padding-left: 1rem;
-}
-
-.empty-state {
-  color: var(--muted);
-  margin: 0;
-}
-
-@media (max-width: 720px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  .intro {
-    grid-template-columns: 1fr;
-  }
-
-  .topbar,
-  .section-heading,
-  .document-nav {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .table-wrap {
-    overflow: visible;
-  }
-
-  table,
-  thead,
-  tbody,
-  tr,
-  th,
-  td {
-    display: block;
-    min-width: 0;
-  }
-
-  thead {
-    display: none;
-  }
-
-  tr {
-    background: var(--paper);
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    margin-bottom: 0.75rem;
-    padding: 0.75rem;
-  }
-
-  td {
-    border-bottom: 0;
-    padding: 0.2rem 0;
-  }
-
-  td:nth-child(2)::before {
-    content: "Year: ";
-    color: var(--muted);
-    font-weight: 700;
-  }
-
-  td:nth-child(3)::before {
-    content: "Act: ";
-    color: var(--muted);
-    font-weight: 700;
-  }
-
-  td:nth-child(4)::before {
-    content: "Ministry: ";
-    color: var(--muted);
-    font-weight: 700;
-  }
-}
-`;
-
 const FAVICON_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="10" fill="#f5f7f8"/>
-  <path d="M18 14h28v36H18z" fill="#fff" stroke="#1f2933" stroke-width="3"/>
+  <rect width="64" height="64" rx="10" fill="#f6f7f2"/>
+  <path d="M18 14h28v36H18z" fill="#fff" stroke="#263238" stroke-width="3"/>
   <path d="M25 23h14M25 31h14M25 39h9" stroke="#1b7f5a" stroke-width="3" stroke-linecap="round"/>
 </svg>
 `;
