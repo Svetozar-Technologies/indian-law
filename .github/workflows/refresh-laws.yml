@@ -77,13 +77,19 @@ jobs:
           CHECKPOINT_MINUTES: ${{ github.event.inputs.checkpoint_minutes || '55' }}
           MAX_CHUNKS: ${{ github.event.inputs.max_chunks || '6' }}
         run: |
-          set -euo pipefail
+          set -euxo pipefail
+
+          echo "Starting resumable refresh with CHECKPOINT_MINUTES=$CHECKPOINT_MINUTES, MAX_CHUNKS=$MAX_CHUNKS, MAX_SECTIONS=${MAX_SECTIONS:-all}."
 
           commit_generated() {
             local message="$1"
+            echo "Staging generated docs and cache for commit: $message"
             git add docs
             if [ -d data/cache/laws ]; then
+              echo "Staging data/cache/laws"
               git add data/cache/laws
+            else
+              echo "No data/cache/laws directory exists yet."
             fi
             if git diff --cached --quiet; then
               echo "No generated docs or cache changes to commit."
@@ -94,6 +100,7 @@ jobs:
           }
 
           checkpoint_ms=$(( CHECKPOINT_MINUTES * 60 * 1000 ))
+          echo "Computed checkpoint runtime budget: $checkpoint_ms ms."
           args=(
             --fetch
             --manifest data/laws.discovered.lino
@@ -105,8 +112,12 @@ jobs:
             --progress-interval-ms 30000
           )
           if [ -n "$MAX_SECTIONS" ]; then
+            echo "Limiting section fetches to MAX_SECTIONS=$MAX_SECTIONS."
             args+=(--max-sections "$MAX_SECTIONS")
+          else
+            echo "Fetching all sections for each law."
           fi
+          printf 'Build arguments: %q\n' "${args[@]}"
 
           status=75
           for chunk in $(seq 1 "$MAX_CHUNKS"); do

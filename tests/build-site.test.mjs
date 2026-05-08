@@ -13,12 +13,15 @@ const execFileAsync = promisify(execFile);
 test("offline site build creates a React entry, Lino catalog, and markdown parts", async () => {
   const output = await mkdtemp(path.join(tmpdir(), "indian-law-site-"));
   try {
-    await execFileAsync("node", ["scripts/build-site.mjs", "--offline", "--output", output]);
+    const { stderr } = await execFileAsync("node", ["scripts/build-site.mjs", "--offline", "--output", output]);
     const home = await readFile(path.join(output, "index.html"), "utf8");
     const bundle = await readFile(path.join(output, "assets/app.js"), "utf8");
     const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
     const markdown = await readFile(path.join(output, "laws/en/copyright-act-1957/part-001.md"), "utf8");
 
+    assert.match(stderr, /\[build-site\].*Starting site build/);
+    assert.match(stderr, /\[build-site\].*Selected 4 law/);
+    assert.match(stderr, /\[build-site\].*Writing site output/);
     assert.match(home, /Indian Law/);
     assert.match(home, /assets\/app\.js/);
     assert.match(bundle, /createRoot/);
