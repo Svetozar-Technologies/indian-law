@@ -1,0 +1,428 @@
+---
+title: "The Territorial Waters, Continental Shelf, Exclusive Economic Zone and Other Maritime Zones Act, 1976"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1484"
+---
+# The Territorial Waters, Continental Shelf, Exclusive Economic Zone and Other Maritime Zones Act, 1976
+
+Language: English
+Part 1 of 1
+Sections: 1 to 16
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1484
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1484/2/A1976-80.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Coming+into+force+of+Sections+5+and+7+of+the+Act.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Description+of+the+area+of+sea+of+limits+of+historic+waters+of+India+Jan+15%2C+1977.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO+925+E+Designated+places+under+Section+13.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+Maritime+Boundary+Agreement+between+India+and+other+States.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+Declaration+of+Exclusive+Economic+Zone+of+India+18+July%2C+1986.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+prohibition+of+entry+of+ships+of+23+July+1986.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Corrigendum+dated+19+Sept.%2C+1986.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Corrigendum+dated+4+August%2C+1987.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO+643+%28E%29+of+19.09.1996.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+prohibition+of+entry+to+India+any+ship+within+the+designated+area.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Corrigendum+dated+16+June%2C+1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+extension+of+Oil+Fields+Regulation+and+Development+Act%2C+1948+%2816.06.1999%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=2002+Notification+on+The+Territorial+Waters%2C+Continental+Shelf%2C+Exclusive+Economic+Zone+and+Other+Maritime+Zones+Act%2C+1976.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO2168+Extension+of+application+of+provisions+%2822.12.2006%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO135E+Prohibition+of+any+ships+%2813.01.2009%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO1197+List+of+Geographical+Coordinates+%2811.05.2009%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO2962E+%2820.11.2009%29+Amendment+to+SO1197+of+11.05.2009.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1484/4/H_1976-80.pdf
+
+## Section 1 - Short title and commencement.
+
+(1) This Act may be called the Territorial Waters, Continental
+Shelf, Exclusive Economic Zone and Other Maritime Zones Act, 1976.
+
+(2) Sections 5 and 7 shall come into force on such date^1
+or on such different dates as the Central
+Government may, by notification in the Official Gazette, appoint; and the remaining provisions of this
+Act shall come into force at once.
+
+### Footnotes
+
+1. 15th January, 1977, vide notification No. G.S.R. 16(E), dated 15th January, 1977, see Gazette of India, Extraordinary,
+Part II, sec. 3(i).
+
+## Section 2 - Definition.
+
+In this Act, "limit", in relation to the territorial waters, the continental shelf, the
+exclusive economic zone or any other maritime zone of India, means the limit of such waters, shelf or
+zone with reference to the mainland of India as well as the individual or composite group or groups of
+islands constituting part of the territory of India.
+
+## Section 3 - Sovereignty over, and limits of, territorial waters.
+
+(1) The sovereignty of India extends and
+has always extended to the territorial waters of India (hereinafter referred to as the territorial waters) and
+to the seabed and subsoil underlying, and the air space over, such waters.
+
+(2) The limit of the territorial waters is the line every point of which is at a distance of twelve nautical
+miles from the nearest point of the appropriate baseline.
+
+(3) Notwithstanding anything contained in sub-section (2), the Central Government may, whenever it
+considers necessary so to do having regard to International Law and State practice, alter, by notification
+in the Official Gazette, the limit of the territorial waters.
+
+(4) No notification shall be issued under sub-section (3) unless resolutions approving the issue of
+such notification are passed by both Houses of Parliament.
+
+## Section 4 - Use of territorial waters by foreign ships.
+
+(1) Without prejudice to the provisions of any other
+law for the time being in force, all foreign ships (other than warships including sub-marines and other
+underwater vehicles) shall enjoy the right of innocent passage through the territorial waters.
+
+Explanation.--For the purposes of this section, passage is innocent so long as it is not prejudicial to
+the peace, good order or security of India.
+
+(2) Foreign warships including submarines and other underwater vehicles may enter or pass through
+the territorial waters after giving prior notice to the Central Government:
+
+Provided that submarines and other underwater vehicles shall navigate on the surface and show their
+flag while passing through such waters.
+
+(3) The Central Government may, if satisfied that it is necessary so to do in the interests of the peace,
+good order or security of India or any part thereof, suspend, by notification in the Official Gazette,
+whether absolutely or subject to such exceptions and qualifications as may be specified in the notification,
+the entry of all or any class of foreign ships into such area of the territorial waters as may be specified in
+the notification.
+
+## Section 5 - Contiguous zone of India.
+
+(1) The contiguous zone of India (hereinafter referred to as the
+contiguous zone) is an area beyond and adjacent to the territorial waters and the limit of the contiguous
+zone is the line every point of which is at a distance of twenty-four nautical miles from the nearest point
+of the baseline referred to in sub-section (2) of section 3.
+
+(2) Notwithstanding anything contained in sub-section (1), the Central Government may, whenever it
+considers necessary so to do having regard to International Law and State practice, alter, by notification
+in the Official Gazette, the limit of the contiguous zone.
+
+(3) No notification shall be issued under sub-section (2) unless resolutions approving the issue of
+such notification are passed by both Houses of Parliament.
+
+(4) The Central Government may exercise such powers and take such measures in or in relation to the
+contiguous zone as it may consider necessary with respect to,--
+
+(a) the security of India, and
+
+(b) immigration, sanitation, customs and other fiscal matters.
+
+(5) The Central Government may, by notification in the Official Gazette,--
+
+(a) extend with such restrictions and modifications as it thinks fit, any enactment, relating to any
+matter referred to in clause (a) or clause (b) of sub-section (4), for the time being in force in India or
+any part thereof, to the contiguous zone, and
+
+(b) make such provisions as it may consider necessary in such notification for facilitating the
+enforcement of such enactment,
+
+and any enactment so extended shall have effect as if the contiguous zone is a part of the territory of
+India.
+
+## Section 6 - Continental shelf.
+
+(1) The continental shelf of India (hereinafter referred to as the continental
+shelf) comprises the seabed and subsoil of the submarine areas that extend beyond the limit of its
+territorial waters throughout the natural prolongation of its land territory to the outer edge of the
+continental margin or to a distance of two hundred nautical miles from the baseline referred to in subsection
+(2) of section 3 where the outer edge of the continental margin does not extend up to that distance.
+
+(2) India has, and always had, full and exclusive sovereign rights in respect of its continental shelf.
+
+(3) Without prejudice to the generality of the provisions of sub-section (2), the Union has in the
+continental shelf,--
+
+(a) sovereign rights for the purposes of exploration, exploitation, conservation and management
+
+of all resources;
+
+(b) exclusive rights and jurisdiction for the construction, maintenance or operation of artificial
+islands, off-shore terminals, installations and other structures and devices necessary for the
+exploration and exploitation of the resources of the continental shelf or for the convenience of
+shipping or for any other purpose;
+
+(c) exclusive jurisdiction to authorise, regulate and control scientific research; and
+
+(d) exclusive jurisdiction to preserve and protect the marine environment and to prevent and
+control marine pollution.
+
+(4) No person (including a foreign Government) shall, except under, and in accordance with, the
+terms of a licence or a letter of authority granted by the Central Government, explore the continental shelf
+or exploit its resources or carry out any search or excavation or conduct any research within the
+continental shelf or drill therein or construct, maintain or operate any artificial island, off-shore terminal,
+installation or other structure or device therein for any purpose whatsoever.
+
+(5) The Central Government may, by notification in the Official Gazette,--
+
+(a) declare any area of the continental shelf and its superjacent waters to be a designated area; and
+
+(b) make such provisions as it may deem necessary with respect to,--
+
+(i) the exploration, exploitation and protection of the resources of the continental shelf within
+such designated area; or
+
+(ii) the safety and protection of artificial islands, off-shore terminals, installations and other
+structures and devices in such designated area; or
+
+(iii) the protection of marine environment of such designated area; or
+
+(iv) customs and other fiscal matters in relation to such designated area.
+
+Explanation.--A notification issued under this sub-section may provide for the regulation of entry
+into and passage through the designated area of foreign ships by the establishment of fairways, sealanes,
+traffic separation schemes or any other mode of ensuring freedom of navigation which is not prejudicial
+to the interests of India.
+
+(6) The Central Government may, by notification in the Official Gazette,--
+
+(a) extend with such restrictions and modifications as it thinks fit, any enactment for the time
+being in force in India or any part thereof to the continental shelf or any part [including any
+designated area under sub-section (5)] thereof; and
+
+(b) make such provisions as it may consider necessary for facilitating the enforcement of such
+enactment,
+
+and any enactment so extended shall have effect as if the continental shelf or the part [including, as the
+case may be, any designated area under sub-section (5)] thereof to which it has been extended is a part of
+the territory of India.
+
+(7) Without prejudice to the provisions of sub-section (2) and subject to any measures that may be
+necessary for protecting the interests of India, the Central Government may not impede the laying or
+maintenance of submarine cables or pipelines on the continental shelf by foreign States:
+
+Provided that the consent of the Central Government shall be necessary for the delineation of the
+course for the laying of such cables or pipelines.
+
+## Section 7 - Exclusive economic zone.
+
+(1) The exclusive economic zone of India (hereinafter referred to as
+the exclusive economic zone) is an area beyond and adjacent to the territorial waters, and the limit of such
+zone is two hundred nautical miles from the baseline referred to in sub-section (2) of section 3.
+
+(2) Notwithstanding anything contained in sub-section (1), the Central Government may, whenever it
+considers necessary so to do having regard to International Law and State practice, alter, by notification
+in the Official Gazette, the Limit of the exclusive economic zone.
+
+(3) No notification shall be issued under sub-section (2) unless resolutions approving the issue of
+such notification are passed by both Houses of Parliament.
+
+(4) In the exclusive economic zone, the Union has,--
+
+(a) sovereign rights for the purpose of exploration, exploitation, conservation and management of
+the natural resources, both living and non-living as well as for producing energy from tides, winds
+and currents;
+
+(b) exclusive rights and jurisdiction for the construction, maintenance or operation of artificial
+islands, off-shore terminals, installations and other structures and devices necessary for the
+exploration and exploitation of the resources of the zone or for the convenience of shipping or for any
+other purpose;
+
+(c) exclusive jurisdiction to authorise, regulate and control scientific research;
+
+(d) exclusive jurisdiction to preserve and protect the marine environment and to prevent and
+control marine pollution; and
+
+(e) such other rights as are recognised by International Law.
+
+(5) No person (including a foreign Government) shall, except under, and in accordance with, the
+terms of any agreement with the Central Government or of a licence or a letter of authority granted by the
+Central Government, explore or exploit any resources of the exclusive economic zone or carry out any
+search or excavation or conduct any research within the exclusive economic zone or drill therein or
+construct, maintain or operate any artificial island, off-shore terminal, installation or other structure or
+device therein for any purpose whatsoever:
+
+Provided that nothing in this sub-section shall apply in relation to fishing by a citizen of India.
+
+(6) The Central Government may, by notification in the Official Gazette,--
+
+(a) declare any area of the exclusive economic zone to be a designated area; and
+
+(b) make such provisions as it may deem necessary with respect to,--
+
+(i) the exploration, exploitation and protection of the resources of such designated area; or
+
+(ii) other activities for the economic exploitation and exploration of such designated area such
+as the production of energy from tides, winds and currents; or
+
+(iii) the safety and protection of artificial islands, off-shore terminals, installations and other
+structures and devices in such designated area; or
+
+(iv) the protection of marine environment of such designated area; or
+
+(v) customs and other fiscal matters in relation to such designated area.
+
+Explanation.--A notification issued under this sub-section may provide for the regulation of entry
+into and passage through the designated area of foreign ships by the establishment of fairways, sealanes,
+
+traffic separation schemes or any other mode of ensuring freedom of navigation which is not prejudicial
+to the interests of India.
+
+(7) The Central Government may, by notification in the official Gazette,--
+
+(a) extend, with such restrictions and modifications as it thinks fit, any enactment for the time
+being in force in India or any part thereof to the exclusive economic zone or any part thereof; and
+
+(b) make such provisions as it may consider necessary for facilitating the enforcement of such
+enactment,
+
+and any enactment so extended shall have effect as if the exclusive economic zone or the part thereof to
+which it has been extended is a part of the territory of India.
+
+(8) The provisions of sub-section (7) of section 6 shall apply in relation to the laying or maintenance
+of submarine cables or pipelines on the seabed of the exclusive economic zone as they apply in relation to
+the laying or maintenance of submarine cables or pipelines on the seabed of the continental shelf.
+
+(9) In the exclusive economic zone and the air space over the zone, ships and aircraft of all States
+shall, subject to the exercise by India of its rights within the zone, enjoy freedom of navigation and over
+flight.
+
+## Section 8 - Historic waters.
+
+(1) The Central Government may, by notification in the Official Gazette,
+specify the limits of such waters adjacent to its land territory as are the historic waters of India.
+
+(2) The sovereignty of India extends, and has always extended, to the historic waters of India and to
+the seabed and subsoil underlying, and the air space over, such waters.
+
+## Section 9 - Maritime boundaries between India and States having coasts opposite or adjacent to those of India.
+
+(1) The maritime boundaries between India and any State whose coast is opposite or adjacent to
+that of India in regard to their respective territorial waters, contiguous zones, continental shelves, exclusive economic zones and other maritime zones shall be as determined by agreement (whether
+entered into before or after the commencement of this section) between India and such State and pending
+such agreement between India and any such State, and unless any other provisional arrangements are
+agreed to between them, the maritime boundaries between India and such State shall not extend beyond
+the line every point of which is equidistant from the nearest point from which the breadth of the territorial
+waters of India and of such State are measured.
+
+(2) Every agreement referred to in sub-section (1) shall, as soon as may be after it is entered into, be
+published in the Official Gazette.
+
+(3) The provisions of sub-section (1) shall have effect notwithstanding anything contained in any
+other provision of this Act.
+
+## Section 10 - Publication of charts.
+
+The Central Government may cause the baseline referred to in subsection
+(2) of section 3, the limits of the territorial waters, the contiguous zone, the continental shelf, the
+exclusive economic zone and the historic waters of India and the maritime boundaries as settled by
+agreements referred to in section 9 to be published in charts.
+
+## Section 11 - Offences.
+
+Whoever contravenes any provision of this Act or of any notification thereunder shall
+(without prejudice to any other action which may be taken against such person under any other provision
+of this or of any other enactment) be punishable with imprisonment which may extend to three years, or
+with fine, or with both.
+
+## Section 12 - Offences by companies.
+
+(1) Where an offence under this Act or the rules made thereunder has
+been committed by a company, every person who at the time the offence was committed was in charge of,
+and was responsible to the company for the conduct of the business of the company, as well as the
+company shall be deemed to be guilty of the offence and shall be liable to be proceeded against and
+punished accordingly.
+
+Provided that nothing contained in this sub-section shall render any such person liable to any
+punishment provided in this Act if he proves that the offence was committed without his knowledge or
+that he exercised all due diligence to prevent the commission of such offence.
+
+(2) Notwithstanding anything contained in sub-section (1) where an offence under this Act or the
+rules made thereunder has been committed by a company and it is proved that the offence has been
+committed with the consent or the connivance of, or is attributable to any neglect on the part of, any
+director, manager, secretary or other officer of the company, such director, manager, secretary or other
+officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded against and
+punished accordingly.
+
+Explanation.--For the purposes of this section,--
+
+(a) "company" means any body corporate and includes a firm or other association of individuals;
+and
+
+(b) "director", in relation to a firm, means a partner in the firm.
+
+## Section 13 - Place of trial.
+
+Any person committing an offence under this Act or any rules made thereunder
+or under any of the enactments extended under this Act or under the rules made thereunder may be tried
+for the offence in any place in which he may be found or in such other place as the Central Government
+may, by general or special order, published in the Official Gazette, direct in this behalf.
+
+## Section 14 - Previous sanction of the Central Government for prosecution.
+
+No prosecution shall be
+instituted against any person in respect of any offence under this Act or the rules made thereunder without
+the previous sanction of the Central Government or such officer or authority as may be authorised by that
+Government by order in writing in this behalf.
+
+## Section 15 - Power to make rules.
+
+(1) The Central Government may, by notification in the Official Gazette,
+make rules for carrying out the purposes of this Act.
+
+(2) In particular and without prejudice to the generality of the foregoing power, such rules may
+provide for all or any of the following matters, namely:--
+
+(a) regulation of the conduct of any person in the territorial waters, the contiguous zone, the
+continental shelf, the exclusive economic zone or any other maritime zone of India;
+
+(b) regulation of the exploration and exploitation, conservation and management of the resources
+of the continental shelf;
+
+(c) regulation of the exploration, exploitation, conservation and management of the resources of
+the exclusive economic zone;
+
+(d) regulation of the construction, maintenance and operation of artificial islands, off-shore
+terminals, installations and other structures and devices referred to in sections 6 and 7;
+
+(e) preservation and protection of the marine environment and prevention and control of marine
+pollution for the purposes of this Act;
+
+(f) authorisation, regulation and control of the conduct of scientific research for the purposes of
+this Act;
+
+(g) fees in relation to licences and letters of authority referred to in sub-section (4) of section 6
+and sub-section (5) of section 7 or for any other purpose; or
+
+(h) any matter incidental to any of the matters specified in clauses (a) to (g).
+
+(3) In making any rule under this section, the Central Government may provide that a contravention
+thereof shall be punishable with imprisonment which may extend to three years, or with fine which may
+extend to any amount, or with both.
+
+(4) Every rule made under this Act and every notification issued under sub-section (5) of section 6 or
+sub-section (6) of section 7 shall be laid, as soon as may be after it is made or issued, before each House
+of Parliament while it is in session for a total period of thirty days which may be comprised in one session
+or in two or more successive sessions and if, before the expiry of the session immediately following the
+session or the successive sessions aforesaid both Houses agree in making any modification in the rule or
+the notification or both Houses agree that the rule or notification should not be issued, the rule or
+notification shall, thereafter, have effect only in such modified form or be of no effect, as the case may
+be; so, however, that any such modification or annulment shall be without prejudice to the validity of
+anything previously done under that rule or notification.
+
+## Section 16 - Removal of difficulties.
+
+(1) If any difficulty arises in giving effect to the provisions of this Act
+or of any of the enactments extended under this Act, the Central Government may, by order published in
+the Official Gazette, make such provisions not inconsistent with the provisions of this Act or, as the case
+may be, of such enactment, as may appear to it to be necessary or expedient for removing the difficulty:
+
+Provided that no order shall be made under this section--
+
+(a) in the case of any difficulty arising in giving effect to any provision of this Act, after the
+expiry of three years from the commencement of such provision;
+
+(b) in the case of any difficulty arising in giving effect to the provisions of any enactment
+extended under this Act, after the expiry of three years from the extension of such enactment.
+
+(2) Every order made under this section shall be laid, as soon as may be after it is made, before each
+House of Parliament.
