@@ -1,0 +1,66 @@
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5535708Z ^[[36;1mecho "Starting resumable refresh with CHECKPOINT_MINUTES=$CHECKPOINT_MINUTES, MAX_CHUNKS=$MAX_CHUNKS, MAX_SECTIONS=${MAX_SECTIONS:-all}."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5536157Z ^[[36;1m^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5536310Z ^[[36;1mcommit_generated() {^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5536500Z ^[[36;1m  local message="$1"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5536747Z ^[[36;1m  echo "Staging generated docs and cache for commit: $message"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5537016Z ^[[36;1m  git add docs^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5537283Z ^[[36;1m  git add data/laws.discovered.lino data/regional-sources.discovered.lino^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5537592Z ^[[36;1m  if [ -d data/cache ]; then^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5537805Z ^[[36;1m    echo "Staging data/cache"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5538416Z ^[[36;1m    git add data/cache^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5538597Z ^[[36;1m  else^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5538813Z ^[[36;1m    echo "No data/cache directory exists yet."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5539032Z ^[[36;1m  fi^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5539197Z ^[[36;1m  if git diff --cached --quiet; then^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5539461Z ^[[36;1m    echo "No generated docs or cache changes to commit."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5539694Z ^[[36;1m    return^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5539847Z ^[[36;1m  fi^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5540007Z ^[[36;1m  git commit -m "$message"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5540201Z ^[[36;1m  git push origin HEAD:main^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5540387Z ^[[36;1m}^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5540524Z ^[[36;1m^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5540714Z ^[[36;1mcheckpoint_ms=$(( CHECKPOINT_MINUTES * 60 * 1000 ))^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5541018Z ^[[36;1mecho "Computed checkpoint runtime budget: $checkpoint_ms ms."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5541288Z ^[[36;1margs=(^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5541448Z ^[[36;1m  --fetch^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5541626Z ^[[36;1m  --manifest data/laws.discovered.lino^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5541917Z ^[[36;1m  --regional-sources data/regional-sources.discovered.lino^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5542176Z ^[[36;1m  --delay-ms 1100^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5542362Z ^[[36;1m  --cache-dir data/cache/laws^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5542557Z ^[[36;1m  --cache-ttl-days 30^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5542786Z ^[[36;1m  --progress-file data/cache/refresh-status.lino^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5543038Z ^[[36;1m  --max-runtime-ms "$checkpoint_ms"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5543249Z ^[[36;1m  --progress-interval-ms 30000^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5543439Z ^[[36;1m)^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5543595Z ^[[36;1mif [ -n "$MAX_SECTIONS" ]; then^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5543857Z ^[[36;1m  echo "Limiting section fetches to MAX_SECTIONS=$MAX_SECTIONS."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5544147Z ^[[36;1m  args+=(--max-sections "$MAX_SECTIONS")^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5544355Z ^[[36;1melse^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5544531Z ^[[36;1m  echo "Fetching all sections for each law."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5544741Z ^[[36;1mfi^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5544922Z ^[[36;1mprintf 'Build arguments: %q\n' "${args[@]}"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5545133Z ^[[36;1m^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5545263Z ^[[36;1mstatus=75^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5545444Z ^[[36;1mfor chunk in $(seq 1 "$MAX_CHUNKS"); do^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5545697Z ^[[36;1m  echo "::group::Refresh chunk $chunk of $MAX_CHUNKS"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5545920Z ^[[36;1m  set +e^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5546099Z ^[[36;1m  node scripts/build-site.mjs "${args[@]}"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5546312Z ^[[36;1m  status=$?^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5546467Z ^[[36;1m  set -e^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5546615Z ^[[36;1m  echo "::endgroup::"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5546786Z ^[[36;1m^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5546997Z ^[[36;1m  commit_generated "Refresh generated law pages (chunk $chunk)"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5547252Z ^[[36;1m^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5547402Z ^[[36;1m  if [ "$status" -eq 0 ]; then^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5547600Z ^[[36;1m    echo "Refresh completed."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5547791Z ^[[36;1m    break^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5548092Z ^[[36;1m  fi^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5548425Z ^[[36;1m  if [ "$status" -ne 75 ]; then^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5548670Z ^[[36;1m    echo "::error::Refresh failed with exit code $status."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5548920Z ^[[36;1m    exit "$status"^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5549089Z ^[[36;1m  fi^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5549318Z ^[[36;1m  echo "Checkpoint reached; continuing from committed cached laws."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5549611Z ^[[36;1m  if [ "$chunk" -eq "$MAX_CHUNKS" ]; then^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5549994Z ^[[36;1m    echo "::notice::Refresh checkpoint saved after $MAX_CHUNKS chunk(s); run this workflow again to continue."^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5550349Z ^[[36;1m  fi^[[0m
+Refresh Official Sources	UNKNOWN STEP	2026-05-09T03:01:12.5550482Z ^[[36;1mdone^[[0m

@@ -90,7 +90,7 @@ jobs:
             local message="$1"
             echo "Staging generated docs and cache for commit: $message"
             git add docs
-            git add data/laws.discovered.lino data/regional-sources.discovered.lino
+            git add -f data/laws.discovered.lino data/regional-sources.discovered.lino
             if [ -d data/cache ]; then
               echo "Staging data/cache"
               git add data/cache
