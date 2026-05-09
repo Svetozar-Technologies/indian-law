@@ -1,0 +1,733 @@
+---
+title: "The Land Ports Authority of India Act, 2010"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/2105"
+---
+# The Land Ports Authority of India Act, 2010
+
+Language: English
+Part 1 of 1
+Sections: 1 to 37
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/2105
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2105/1/201031.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/rulesindividualfile/&file=Land+Ports+Authority+of+India+Rules+2011.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India%28Transaction+of+Business%29+Regulations%2C2013.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India+%28Contracts%29+Regulations%2C2015.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India+%28Lost+Property%29+Regulations%2C+2015.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India+%28Fees+and+Other+Charges%29+Regulations%2C2015.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India%28Conditions+of+Service+of+Officers+and+other+Employees%29+Regulations%2C2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India+%28Officers+and+Other+Employees%29+Recruitment+Regulations%2C+2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/circularindividualfile/&file=Revision+of+warehouse+tariff+and+weighment+charges+at+ICP+attari+dated+19.09.2013.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/notificationindividualfile/&file=No.+S.NO.+2097+%28E%29+dated+13.06.2016+regarding+Notification+of+10+Police+Stations.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2105/3/H2010-31.pdf
+
+## Section 1 - Short title and commencement.
+
+(1)This Act may be called the Land Ports Authority of India
+Act, 2010.
+
+(2) It shall come into force on such date
+^1
+as the Central Government may, by notification in the
+Official Gazette, appoint, and different dates may be appointed for different provisions of this Act, and
+any reference in any such provision to the commencement of this Act shall be construed as a reference to the coming into force of that provision.
+
+### Footnotes
+
+1.1st March, 2012, vide notification No. S.O. 328(E), dated 24th February, 2012, see Gazette of India, Extraordinary, Part II, sec. 3(ii).
+
+## Section 2 - Definitions.
+
+In this Act, unless the context otherwise requires,—
+
+(a) “Authority” means the Land Ports Authority of India constituted under section 3;
+
+(b) “Chairperson” means the Chairperson of the Authority appointed under clause (a) of sub-section (3) of section 3;
+
+(c) “immigration check post” means any port or place of departure on the land as notified under the Foreigners' Act, 1946 (31 of 1946);
+
+(d) “integrated check post” means any land port, as the Central Government may, by notification in the Official Gazette, specify;
+
+(e) “land customs station” means any place notified as such by the Central Government under clause (b) of sub-section (1) of section 7 of the Customs Act, 1962 (52 of 1962) for the clearance of goods imported or to be exported by land or inland water;
+
+(f) “land port” means an area on the international borders of India including portions of national highways, State highways and other roads, notified as land customs station or immigration check post under the Customs Act, 1962 (52 of 1962) or the Foreigners' Act, 1946 (31 of 1946), and includes railways, with facilities for clearance and transport of passengers and goods across the borders of India;
+
+(g) “notification” means a notification published in the Official Gazette;
+
+(h) “prescribed” means prescribed by rules made under this Act; and
+
+(i) “regulations” means regulations made by the Authority under this Act.
+
+## Section 3 - Constitution of Authority.
+
+(1) With effect from such date as the Central Government may, by notification in the Official Gazette, appoint, there shall be constituted an Authority to be known as the Land Ports Authority of India.
+
+(2) The Authority shall be a body corporate by the name aforesaid, having perpetual succession and a common seal, with power, subject to the provisions of this Act, to acquire, hold and dispose of property both movable and immovable, and to contract and shall by the said name sue and be sued.
+
+(3)The Authority shall consist of—
+
+(a) a Chairperson;
+
+(b) two Members, out of whom one shall be Member (Planning and Development) and other shall be Member (Finance);
+
+(c) not more than nine members, ex officio, to be appointed by the Central Government from amongst the officers, not below the rank of the Joint Secretary to the Government of India, representing the ministries or departments of the Government of India dealing with Home Affairs, External Affairs, Revenue, Commerce, Road Transport and Highways, Railways, Defence, Agriculture and Cooperation, Law and Justice;
+
+(d) the Chief Secretary or his nominee not below the rank of the Secretary to the Government of the respective State where the integrated check posts are located;
+
+(e) two representatives, one of whom shall be from recognised bodies of workers and the other shall be from traders, to be appointed by the Central Government; and and
+
+(f) such other representatives as the Central Government may co-opt for functional purposes.
+
+(4) The Chairperson and the members referred to in clause (b) shall be appointed by the Central Government and shall be whole-time members.
+
+(5) The Chairperson shall be chosen from among persons who have special knowledge and experience in the field of security, transport, industry, commerce, law, finance or public administration.
+
+## Section 4 - Disqualification for office of member.
+
+A person shall be disqualified for being appointed as a member if, he—
+
+(a) has been convicted and sentenced to imprisonment for an offence, which, in the opinion of the Central Government, involves moral turpitude; or
+
+(b) is an undischarged insolvent; or
+
+(c) is of unsound mind and stands so declared by a competent court; or
+
+(d) has been removed or dismissed from the service of the Government or a body corporate owned or controlled by the Government; or
+
+(e) has in the opinion of the Central Government such financial or other interest in the Authority as is likely to affect prejudicially the discharge by him of his functions as a member.
+
+## Section 5 - Term of office and conditions of service of members.
+
+(1) Subject to the provisions of section 6, every whole-time member shall hold office for a period of five years from the date on which he assumes office or till he attains the age of sixty years, whichever is earlier:
+
+Provided that the Central Government may—
+
+(a) terminate the appointment of any whole-time member, after giving him notice of a period of not less than three months or, in lieu thereof, on payment of an amount equal to his salary and allowances, if any, for a period of three months;
+
+(b) terminate at any time the appointment of any member who is a servant of the Government.
+
+(2) The other conditions of service of the members shall be such as may be prescribed.
+
+(3) Any member may resign his office by giving notice in writing for such period as may be prescribed, to the Central Government and, on such resignation being notified in the Official Gazette by that Government, such member shall be deemed to have vacated his office.
+
+## Section 6 - Vacation of office of members.
+
+The Central Governme
+nt shall remove a member if, he
+--
+
+(a) becomes subject to any of the disqualifications mentioned in section 4:
+
+Provided that no member shall be removed on the ground that he has become subject to the
+disqualification mentioned in clause (e) of that section, unless he has been given a reasonable
+opportunity of being heard in the matter; or
+
+(b) refuses to act or becomes incapable of acting; or
+
+(c) is, without obtaining leave of absence from the Authority, absent from three consecutive
+meetings of the Authority; or
+
+(d) in the opinion of the Central Government, has so abused his position as to render his
+continuance in office detrimental to the public interest:
+
+Provided that no member shall be removed under this clause unless he has been given a
+reasonable opportunity of being heard in the matter.
+
+## Section 7 - Eligibility of member for re-appointment.
+
+Any person ceasing to be a member shall, unless
+disqualified under section 4, be eligible for re
+-
+appointment.
+
+## Section 8 - Meetings.
+
+(1) The Authority shall meet at such times and places, and shall observe such rules of
+procedure in regard to the transaction of business at its meetings (including the quorum at such meetings)
+as may be provided by regulations.
+
+(2) The Chairperson, or, if for any reason, he is unable to attend any meeting of the Authority, any
+other member chosen by the members present at the meeting shall preside at the meeting.
+
+(3) All questions which come up before any meeting of the Authority shall be decided
+by a majority
+of the votes of the members present and voting, and in the event of an equality of votes, the Chairperson,
+or in his absence the person presiding, shall have and exercise a second or casting vote.
+
+## Section 9 - Vacancies, etc., not to invalidate proceedings of Authority.
+
+No act or proceeding of the
+Authority shall
+be invalid merely by reason of--
+
+(a) any vacancy in, or any defect in the constitution of, the Authority; or
+
+(b) any defect in the appointment of a person acting as a member of the Authority;
+or
+
+(c) any irregularity in the procedure of the Authority not affecting the merits of the case.
+
+## Section 10 - Officers and other employees of Authority.
+
+(
+1
+) For the purpose of enabling it to efficiently
+discharge its functions under this Act, the Authority shall
+appoint such number of officers and other
+employees as it may consider necessary:
+
+Provided that the appointment of such category of officers, as may be specified, shall be subject to the
+approval of the Central Government.
+
+(
+2
+) Every officer or other employ
+ee appointed by the Authority shall be subject to such conditions of
+service and shall be entitled to such remuneration as may be determined by regulations.
+
+## Section 11 - Functions of Authority.
+
+(1) Subject to the provisions of
+this Act, the Authority shall have
+powers to develop, sanitize and manage the facilities for cross border movement of passengers and goods
+at designated points along the international borders of India.
+
+(2) Without prejudice to the generality of the provisions contained in sub-section (1), the Authority
+may—
+
+(a) put in place systems, which address security imperatives at the integrated check posts on the
+border;
+
+(b) plan, construct and maintain roads, terminals and ancillary buildings other than national
+highways, State highways and railways, at an integrated check post;
+
+(c) plan, procure, install and maintain communication, security, goods handling and scanning
+equipment at an integrated check post;
+
+(d) provide appropriate space and facilities for immigration, customs, security, taxation
+authorities, animal and plant quarantine, warehouses, cargo and baggage examination yards, parking
+zones, banks, post offices, communication facilities, tourist information centres, waiting halls,
+canteen, refreshment stal
+ls, public conveniences, health services and such other services, as may be
+deemed necessary;
+
+(e) construct residential buildings for its employees as well as residential accommodation for staff
+deployed at integrated check posts;
+
+(f) establish and maintai
+n hotels, restaurants and restrooms;
+
+(g) establish and maintain warehouses, container depots and cargo complexes for the storage or
+processing of goods;
+
+(h) arrange for postal, money exchange, insurance and telephone facilities for the use of
+passengers an
+d other persons at integrated check posts;
+
+(i) make appropriate arrangements for the security of integrated check posts and provide for
+regulation and control of movement of vehicles, entry and exit of passengers and goods in accordance
+with the respective
+law concerning them;
+
+(j) ensure prevention and control of fire and other hazards and other facilities as deemed
+necessary;
+
+(k) regulate and control the movement of vehicles, and the entry and exit of passengers,
+transportation workers, handling agents, clearing and forwarding agents and goods at the integrated
+check post with due regard to the law, security and protocol of the Government of India;
+
+(l) co-ordinate and facilitate the working of agencies who have been engaged to undertake various
+activities at the integrated check posts, in accordance with the respective law, for the time being in
+force;
+
+(m) develop and provide consultancy, construction or management services, and undertake
+operations in India and abroad in relation to an integrated check post
+;
+
+(n) form one or more companies under the Companies Act, 1956
+(1 of 1956)
+or under any other
+law relating to companies for efficient discharge of the functions imposed on it by this Act;
+
+(o) take all such steps as may be necessary or expedient for, or may
+be incidental to, the exercise
+of any power or the discharge of any function conferred or imposed on it by this Act:
+
+Provided that sovereign functions of the Authority shall not be assigned to any private entity;
+
+(p) set up joint ventures for the discharge of any of the functions assigned to the Authority; and
+
+(q) undertake any other activity at the integrated check post in the best commercial interests of the
+Authority.
+
+(3) In the discharge of its functions under this section, the Authority may consult such ministry or department of the Government of India or of the State Government as it deems necessary, and shall have
+due regard to the development of land port services and to the efficiency, economy and safety of such
+service.
+
+(4) Nothing contained in
+this section shall be construed as—
+
+(a) authorising the disregard by the Authority of any law for the time being in force; or
+
+(b) authorising any person to institute any proceeding in respect of duty or liability to which the
+Authority or its officers or other employees would not otherwise be subject to.
+
+## Section 12 - Responsibilities and powers of other agencies.
+
+(1) The respective border guarding forces
+deployed at the borders of India shall be responsible for security around an integrated check post.
+
+(2) The
+Authority may, whenever considered necessary so to do for ensuring the peace and security at
+an integrated check post, seek the assistance of armed force, Central para military force or State police as
+per the provisions of the law for the time being in fo
+rce.
+
+(3) The Customs, immigration, quarantine and other officials shall co-ordinate with the Authority for
+the effective discharge of its functions.
+
+(4) Notwithstanding anything contained in any provisions of this Act, the Customs, immigration,
+quarantine
+officials, the border guarding forces and the police shall discharge their functions in
+accordance with the law for the time being in force.
+
+## Section 13 - Assets and liabilities to vest in Authority.
+
+(1) On the date of notification issued under
+clause (d) of section 2, all such assets, rights, powers, authorities and privileges and such property
+movable and immovable, real or personal, corporeal or incorporeal, present or contingent, of whatever
+nature, including lands,
+buildings, machinery, equipments, works, workshops, cash balances, capital,
+reserves, reserve funds, investments, tenancies, losses and book debts and all other rights and interests
+arising out of such property, as immediately before the issue of that notification, were in the ownership or
+possession of the Government of India in any of the land port, as the Central Government may, in such
+notification, specify, shall vest in the Authority and such vesting shall also be deemed to include all
+borrowings, liabilities and obligations of whatever kind then subsisting.
+
+(2) The notification under sub-section (1) shall be issued only after the concurrence of the concerned
+ministries or departments of the Government of India, in case where such properties are owned
+or
+controlled by such ministries or departments.
+
+## Section 14 - General effect of vesting of undertakings in Authority.
+
+All contracts, agreements and
+working arrangements subsisting immediately before the date of notification issued under clause (
+d
+) of
+section 2,
+and affecting the land ports shall be of full force and effect as regards the Authority.
+
+## Section 15 - Guarantee to be operative.
+
+Any guarantee given for or in favour of land customs stations or
+immigration check posts with respect to a loan, lease or finance shall
+continue to be operative in relation
+to such stations or check posts which have been vested in the Authority by virtue of this Act.
+
+## Section 16 - Compulsory acquisition of land for Authority.
+
+Any land required by the Authority for the
+discharge of its functions unde
+r this Act shall be deemed to be needed for a public purpose and such land
+may be acquired for the Authority under the provisions of the National Highways Act, 1956
+(48 of 1956)
+or any other law for the time being in force.
+
+## Section 17 - Contracts by Authority.
+
+Subject to the provisions of section 18, the Authority shall be
+competent to enter into and perform any contract necessary for the discharge of its functions under this
+Act.
+
+## Section 18 - Mode of executing contracts on behalf of Authority.
+
+(1) Every contract on behalf of the
+Authority, shall be made by the Chairperson or such officer of the Authority as may be generally or
+specially empowered in this behalf by the Authority and such contracts as may be specified, in the
+regulations, shall be sealed with the common seal o
+f the Authority:
+
+Provided that no contract exceeding such value or amount as the Central Government may, by order
+fix in this behalf, shall be made unless it has been previously approved by the Central Government:
+
+Provided further that no contract for the
+acquisition or sale of immovable property or for the lease of
+any such property for a term exceeding thirty years and no other contract exceeding such value or amount
+as the Central Government may, by order fix in this behalf, shall be made unless it has been previously
+approved by the Central Government.
+
+(2) Subject to the provisions of sub-section (1), the form and manner in which any contract shall be
+made under this Act shall be such as may be provided by regulations.
+
+(3) Any contract which is not in
+accordance with the provisions of this Act and the rules and
+regulations made thereunder shall not be binding on the Authority.
+
+## Section 19 - Power of Authority to charge fees, rent, etc.
+
+The Authority may, determine and charge
+such
+fees or rent, not being a statutory levy under any other Act, as may be provided by regulations, separately
+for each integrated check post,
+—
+
+(a) for the cargo handling, warehousing, parking of trucks or for any other service or facility
+offered in
+connection with transport operations;
+
+(b) for the parking of passenger vehicles and other amenities given to the passengers and visitors;
+and
+;
+
+(c) for the availing of facilities and other services provided by the Authority.
+
+## Section 20 - Additional capital and grant to Authority by Central Government.
+
+The Central
+Government may, after the appropriation made by Parliament by law in this behalf,
+—
+
+(a) provide any capital that may be required by the Authority for the discharge of its functions
+under this Act or for any purpose connected therewith on such terms and conditions as that
+Government may determine;
+
+(b) pay to the Authority, on such terms and conditions as the Central Government may determine,
+by way of loans or grants such sums of money as that Government may consider necessary for the
+efficient discharge of its functions under this Act.
+
+## Section 21 - Fund of Authority and its investment.
+
+(1) The Authority shall establish its own fund and all
+receipts of the Authority shall be credited thereto and all payments by the Authority shall be made there from.
+
+(2) The Authority shall have the power, subject to the provisions of this Act, to spend such sums as it
+thinks fit to cover all administrative expenses of the Authority or for purposes authorised by this Act and
+such sums sha
+ll be treated as expenditure out of the fund of the Authority.
+
+(3) All moneys standing at the credit of the Authority which cannot immediately be applied as
+provided in sub-section (2), shall be
+—
+
+(a) deposited in the State Bank of India or any such
+scheduled bank or banks or other public
+financial institutions subject to such conditions as may, from time to time, be specified by the Central
+Government;
+
+(b) invested in the securities of the Central Government or in such manner as may be prescribed.
+
+Explanation
+.—
+
+In this sub-section,
+
+"scheduled bank"
+
+has the same meaning as in clause (e) of
+section 2 of the Reserve Bank of India Act, 1934
+(2 of 1934).
+
+## Section 22 - Allocation of surplus funds.
+
+(1) The Authority may, from time to time, set apart such
+amounts
+as it thinks fit, as a reserve fund or funds for the purpose of expanding existing facilities or services or
+creating new facilities or services at any integrated check post or increase of expenditure from transient
+causes or for purposes of replacement or meeting expenditure arising from loss or damage due to any
+natural calamity or accident or meeting any liability arising out of any act of omission or commission in
+the discharge of its functions under this Act:
+
+Provided that the Authority shall also have the power to establish specific reserves for specific
+purposes:
+
+Provided further that the sums set apart annually in respect of each or any of the specific and general
+reserves and the aggregate at any time of such sums shall not exceed such limits as may, from time to
+time, be fixed in that behalf by the Central Government.
+
+(2) After making provision for such reserve fund or funds and for bad and doubtful debts,
+depreciation in assets and all other matters which are usually provided for by companies registered and
+incorporated under the Companies Act, 1956
+(1 of 1956), the Authority shall pay the balance of its annual
+net profits to the Central Government.
+
+## Section 23 - Submission of programme of activities and financial estimates.
+
+The Authority shall,
+before
+the commencement of each financial year prepare a statement of the programme of its activities during
+the forthcoming financial year as well as financial estimate in respect thereof and submit it for the
+approval of the Central Government.
+
+## Section 24 - Borrowing powers of Authority.
+
+(1) The Authority may, with the consent of the Central
+Government or in accordance with the terms of any general or special authority given to it by the Central
+Government, borrow money from any source by the issue of bonds, debentures or such other instruments as it may
+deem fit for discharging all or any of its functions under this Act.
+
+(2) The Central Government may guarantee in such manner as it thinks fit, the repayment of the
+principal and the payment of interest thereon with
+respect to the loans taken by the Authority under sub-section (1)
+
+(3) Subject to such limits as the Central Government may, from time to time, lay down, the Authority
+may borrow temporarily by way of overdraft or otherwise, such amount as it may require
+for discharging
+its functions under this Act.
+
+## Section 25 - Accounts and audit.
+
+(1) The Authority shall maintain proper accounts and other relevant
+records and prepare an annual statement of accounts including the profit and loss account and the balance
+sheet in such form as may be prescribed by the Central Government in consultation with the Comptroller
+and Auditor-General of India.
+
+(2) The accounts of the Authority shall be audited annually by the Comptroller and Auditor-General
+of India and any expenditure incurred by him in connection with such audit shall be reimbursed to him by the Authority.
+
+(3) The Comptroller and Auditor-General of India and any person appointed by him in connection
+with the audit of the accounts of the Authority shall have the same rights and privileges and authority in
+connection with such audit as the Comptroller and Auditor-General has in connection with the audit of
+Government accounts and, in particular shall have the right to demand the production of books, accounts,
+connected vouchers, documents and papers and inspect any of the offices of the Authority.
+
+(4) The accounts of the Authority as certified by the Comptroller and Auditor-
+General of India or any
+other person appointed by him in this behalf together with the audit report thereon shall be forwarded
+annually to the Central Government and that Government shall cause the same to be laid before both
+Houses of Parliament.
+
+## Section 26 - Submission of annual report.
+
+(
+1
+) The Authority shall, as soon as may be, after the end of each
+financial year, prepare and submit to the Central Government
+in such form as may be prescribed, a report
+giving an account of its activities during that financial year and the report shall also give an account of the
+activities which are likely to be undertaken by the Authority during the next financial year.
+
+(
+2
+) Th
+e Central Government shall cause such report to be laid before both Houses of Parliament, as
+soon as may be, after it is submitted.
+
+## Section 27 - Delegation.
+
+The Authority may, by general or special order in writing, delegate to the
+Chairperson or any other member
+or to any officer of the Authority, subject to such conditions and
+limitations, if any, as may be specified in the order, such of its powers and functions under this Act
+(except the powers under section 35), as it may deem necessary.
+
+## Section 28 - Authentication of orders and other instruments of Authority.
+
+All orders and decisions of the
+Authority shall be authenticated by the signature of the Chairperson or any other member authorised by
+
+the Authority in this behalf and all other instruments executed by the Authority shall be authenticated by
+the signature of an officer of the Authority authorised by it in this behalf.
+
+## Section 29 - Officers and employees of Authority to be public servants.
+
+All officers and employees of
+Authority shall, while acting or purporting to act in pursuance of the provisions of this Act or of any rule
+or regulation made thereunder, be deemed to be public servants within the meaning of section 21 of the
+Indian Penal Code
+(45 of 1860).
+
+## Section 30 - Protection of action taken in good faith.
+
+No suit, prosecution or other legal proceeding shall
+lie against the Authority or any member or any officer or other employee of the Authority for anything
+which is in good faith done or intended to be done in pursuance of this Act or of any rule or regulation
+made thereunder.
+
+## Section 31 - Custody and disposal of lost property.
+
+Subject to such regulations as the Authority may make
+in this behalf, the Authority shall provide for securing the safe custody and restoration of any property
+which, while not in proper custody, is found on any premises belonging to the Authority or under its
+overall control.
+
+## Section 32 - Power of Central Government to supersede Authority.
+
+(1) If, at any time, the Central
+Government is of opinion--
+
+(a) that on account of a grave emergency, the Authority is unable to
+discharge the functions and
+duties imposed on it by or under the provisions of this Act; or
+
+(b) that the Authority has persistently defaulted in complying with any direction issued by the
+Central Government under this Act or in the discharge of the functions and duties imposed on it by or
+under the provisions of this Act and as a result of default the financial position of the Authority or the
+administration of an integrated check post has deteriorated; or
+
+(c) that circumstances exist which render it necessary in the public interest so to do,
+
+the Central Government may, by notification in the Official Gazette, supersede the Authority for such
+period, not exceeding six months, as may be specified in the notification:
+
+Provided that before issuing a notification under this sub-section for the reasons mentioned in clause
+
+(b), the Central Government shall give a reasonable opportunity to the Authority to show cause why it
+should not be superseded and shall consider the explanations and objections, if any, of the
+Authority
+
+(2) Upon the publication of a notification under sub
+-
+section (1) superseding the Authority,—
+
+(a) all the members shall, as from the date of supersession, vacate their offices as such;
+
+(b) all the powers, functions and duties which may, by or under the provisions of this Act, be
+exercised or discharged by or on behalf of the Authority, shall until the Authority is reconstituted
+under sub-section (3),
+be exercised and discharged by such person or persons as the Central
+Government may direct; and
+;
+
+(c) all property owned or controlled by the Authority shall, until the Authority is reconstituted
+under sub-section (3), vest in the Central Government.
+
+(3) On the expiration of the period of supersession specified in the notification issued under sub-section (1), the Central Government may,—
+
+(a) extend the period of supersession for such further term not exceeding six months, as it may
+consider necessary, or
+
+(b) reconstitute the Authority by fresh appointment and in such case the members who vacated
+their offices under clause (a) of sub-section (2) shall not be deemed disqualified for appointment:
+
+Provided that the Central Government may, at any time before the expiration of the period of
+supersession, whether as originally specified under sub-section (1) or as extended under this sub-section,
+take action under clause (b) of this sub-section.
+
+(4) The Central Government shall cause a notification issued under sub-section (1) and a full report of
+any action taken under this section and the circumstances leading to such action to be laid before both
+Houses of Parliament in the immediate subsequent session of Parliament.
+
+## Section 33 - Power of Central Government to issue directions.
+
+(1) Without prejudice to the foregoing
+provisions of this Act, the Author
+ity shall, in the discharge of its functions and duties under this Act, be
+bound by such directions on questions of policy as the Central Government may give in writing to it from
+time to time:
+
+Provided that the Authority shall, as far as practicable, be
+given opportunity to express its views
+before any direction is given under this sub
+-
+section.
+
+(2) The decision of the Central Government whether
+a question is one of policy or not shall be final.
+
+(3) The Central Government may, from time to time, issue directions to the Authority regarding the
+discharge of any functions by it under the clauses of sub-section (2) of section 11 and the Authority shall
+be bound to comply with such directions.
+
+## Section 34 - Power to make rules.
+
+(1) The Central Government may, by
+notification in the Official Gazette,
+make rules for carrying out the provisions of this Act.
+
+(2) In particular and without prejudice to the generality of the foregoing power, such rul
+es may
+provide for
+—
+
+(a) the other conditions of service of members of th
+e Authority under sub
+-
+section (2) of section 5;
+
+(b) the period of notice as may be given by any member to resign his office under sub
+-
+section (3)
+of section 5;
+
+(c) the manner in which the Authority may invest the funds under clause (b) of sub
+-
+section (3) o
+f
+section 21;
+
+(d) the form in which the annual statement of accounts shall be prepared by the Authority under
+sub
+-
+section (1) of section 25;
+
+(e) the form in which a report giving an account of its activities shall be prepared and submitted
+by the Authority
+to the Central Government under sub
+-
+section (1) of section 26; and
+
+(f) any other matter which is to be, or may be, prescribed.
+
+## Section 35 - Power to make regulations.
+
+(1) The Authority may, with the previous approval of the Central
+Government, make regulations not
+inconsistent with this Act and the rules made thereunder for the
+purpose of giving effect to the provisions of this Act.
+
+(2) Without prejudice to the generality of the foregoing power, such regulations may provide for
+
+(a) the time and places of meetings
+of the Authority and the procedure to be followed for
+transaction of business including the quorum at such meetings under sub-section (1) of section 8;
+
+(b) the conditions of service and the remuneration of officers and other employees to be
+appointed by the Authority under sub-section (2) of section 10;
+
+(c) the contracts which are to be sealed with the common seal of the Authority under sub-section (1), and the form and manner in which a contract may be made by the Authority under sub-section (2) of section
+18;
+
+(d) the fees and rent to be charged by the Authority under sub-section (1) of section 19;
+
+(e) the custody and restoration of lost property and the terms and conditions under which lost
+property may be restored to the persons entitled thereto under section 31.
+
+## Section 36 - Rules, regulations and notifications to be laid before Parliament.
+
+Every rule and every
+regulation made or notification issued under this Act shall be laid, as soon as may be after it is made,
+before each House of Parliament, while it is in
+session, for a total period of thirty days which may be
+comprised in one session or in two or more successive sessions, and if, before the expiry of the session
+immediately following the session or the successive sessions aforesaid, both Houses agree in ma
+king any
+modification in the rule, regulation or notification, as the case may be, or both Houses agree that the rule,
+regulation or notification, as the case may be, should not be made or issued, the rule, regulation or
+notification shall thereafter have
+effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of
+anything previously done under that rule, regulation or notification.
+
+## Section 37 - Power to remove difficulties.
+
+(1) If any difficulty arises in giving effect to the provisions of
+this Act, the Central Government may, by general or special order published in the Official Gazette, make
+such provisions not inconsistent with the provisions of this A
+ct as appear to it to be necessary or
+expedient for the removal of the difficulty:
+
+Provided that no such order shall be made after the expiry of a period of two years from the date of
+the commencement of this Act.
+
+(2) Every order made under this section sh
+all as soon as may be after it is made, be laid before each
+House of Parliament
+.
