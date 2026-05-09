@@ -16,6 +16,7 @@ test("offline site build creates a React entry, Lino catalog, and markdown parts
   try {
     const { stderr } = await execFileAsync("node", ["scripts/build-site.mjs", "--offline", "--output", output]);
     const home = await readFile(path.join(output, "index.html"), "utf8");
+    const pathAliasHome = await readFile(path.join(output, "indian-law", "index.html"), "utf8");
     const bundle = await readFile(path.join(output, "assets/app.js"), "utf8");
     const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
     const markdown = await readFile(path.join(output, "laws/en/copyright-act-1957/part-001.md"), "utf8");
@@ -25,6 +26,8 @@ test("offline site build creates a React entry, Lino catalog, and markdown parts
     assert.match(stderr, /\[build-site\].*Writing site output/);
     assert.match(home, /Indian Law/);
     assert.match(home, /assets\/app\.js/);
+    assert.match(pathAliasHome, /window\.__INDIAN_LAW_ASSET_BASE__ = "\.\.\/"/);
+    assert.match(pathAliasHome, /\.\.\/assets\/app\.js/);
     assert.match(bundle, /createRoot/);
     assert.equal(catalog.defaultLanguage, "en");
     assert.equal(catalog.laws[0].languages.en.enabled, true);

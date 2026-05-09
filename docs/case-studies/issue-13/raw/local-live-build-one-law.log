@@ -1,0 +1,49 @@
+2026-05-09T17:05:28.796Z [build-site] info: Starting site build in live fetch mode
+2026-05-09T17:05:28.799Z [build-site] info: Inputs: manifest=data/laws.seed.lino, languages=data/languages.lino, regionalSources=data/regional-sources.seed.lino, output=../indian-law-ci-live-site
+2026-05-09T17:05:28.799Z [build-site] info: Options: maxLines=1500, delayMs=0, maxLaws=1, maxSections=1, cacheDir=none, cacheTtlDays=30, maxRuntimeMs=none, progressIntervalMs=30000, progressFile=none, pathAlias=indian-law, verboseDefault=true
+2026-05-09T17:05:28.799Z [build-site] info: Reading manifest from data/laws.seed.lino
+2026-05-09T17:05:28.808Z [build-site] info: Reading language config from data/languages.lino
+2026-05-09T17:05:28.814Z [build-site] info: Reading regional sources from data/regional-sources.seed.lino
+2026-05-09T17:05:28.821Z [build-site] info: Loaded 4 manifest law(s), 7 language(s), 1 regional source record(s)
+2026-05-09T17:05:28.821Z [build-site] info: Selected 1 law(s) for this run
+2026-05-09T17:05:28.821Z [build-site] info: Preparing law 1/1: The Copyright Act, 1957 (cache/live fetch)
+2026-05-09T17:05:28.822Z [build-site] info: [1/1] Cache decision for The Copyright Act, 1957: no cache dir
+2026-05-09T17:05:28.822Z [build-site] info: [1/1] Fetching The Copyright Act, 1957 from https://www.indiacode.nic.in/handle/123456789/1367
+2026-05-09T17:05:28.822Z [build-site] info: Fetching law landing page for The Copyright Act, 1957: https://www.indiacode.nic.in/handle/123456789/1367
+2026-05-09T17:05:28.822Z [http] info: HTTP fetch scheduled for https://www.indiacode.nic.in/handle/123456789/1367 with 3 attempt(s), timeout 60000ms
+2026-05-09T17:05:28.822Z [http] info: HTTP attempt 1/3: GET https://www.indiacode.nic.in/handle/123456789/1367
+2026-05-09T17:05:31.398Z [http] info: HTTP response 200 OK for https://www.indiacode.nic.in/handle/123456789/1367
+2026-05-09T17:05:31.706Z [http] info: HTTP completed https://www.indiacode.nic.in/handle/123456789/1367: 202377 byte(s)
+2026-05-09T17:05:31.708Z [build-site] info: Fetched law landing page for The Copyright Act, 1957: 202212 character(s)
+2026-05-09T17:05:31.715Z [build-site] info: Found 105 section reference(s) for The Copyright Act, 1957; fetching 1 section(s) after maxSections=1
+2026-05-09T17:05:31.715Z [build-site] info: Fetching section 1/1 for The Copyright Act, 1957: sectionId=14503, sectionNo=1, actid=AC_CEN_9_30_00006_195714_1517807321712
+2026-05-09T17:05:31.716Z [http] info: HTTP fetch scheduled for https://www.indiacode.nic.in/SectionPageContent?actid=AC_CEN_9_30_00006_195714_1517807321712&sectionID=14503 with 3 attempt(s), timeout 60000ms
+2026-05-09T17:05:31.716Z [http] info: HTTP attempt 1/3: GET https://www.indiacode.nic.in/SectionPageContent?actid=AC_CEN_9_30_00006_195714_1517807321712&sectionID=14503
+2026-05-09T17:05:31.951Z [http] info: HTTP response 200 OK for https://www.indiacode.nic.in/SectionPageContent?actid=AC_CEN_9_30_00006_195714_1517807321712&sectionID=14503
+2026-05-09T17:05:31.951Z [http] info: HTTP completed https://www.indiacode.nic.in/SectionPageContent?actid=AC_CEN_9_30_00006_195714_1517807321712&sectionID=14503: 758 byte(s)
+2026-05-09T17:05:31.952Z [build-site] info: Parsed section 1/1 for The Copyright Act, 1957: content=216 chars, footnotes=127 chars
+2026-05-09T17:05:31.952Z [build-site] info:   The Copyright Act, 1957: fetched 1/1 sections
+2026-05-09T17:05:31.954Z [build-site] info: [1/1] Fetched 1 sections for The Copyright Act, 1957
+2026-05-09T17:05:31.954Z [build-site] info: Writing site output to ../indian-law-ci-live-site
+2026-05-09T17:05:31.954Z [build-site] info: Removing generated laws/assets/data output from previous build
+2026-05-09T17:05:31.958Z [build-site] info: Creating output asset and data directories
+2026-05-09T17:05:31.959Z [build-site] info: Cataloging law copyright-act-1957: The Copyright Act, 1957
+2026-05-09T17:05:31.959Z [build-site] info: Language decision for copyright-act-1957/en: sections=1, parts=1, sources=7, status=markdown
+2026-05-09T17:05:31.959Z [build-site] info: Creating markdown directory ../indian-law-ci-live-site/laws/en/copyright-act-1957
+2026-05-09T17:05:31.960Z [build-site] info: Writing markdown part ../indian-law-ci-live-site/laws/en/copyright-act-1957/part-001.md with 1 section(s) and 39 line(s)
+2026-05-09T17:05:31.960Z [build-site] info: Language decision for copyright-act-1957/hi: sections=0, parts=0, sources=1, status=source-only
+2026-05-09T17:05:31.960Z [build-site] info: Language decision for copyright-act-1957/bn: sections=0, parts=0, sources=0, status=unavailable
+2026-05-09T17:05:31.960Z [build-site] info: Language decision for copyright-act-1957/kn: sections=0, parts=0, sources=0, status=unavailable
+2026-05-09T17:05:31.960Z [build-site] info: Language decision for copyright-act-1957/mr: sections=0, parts=0, sources=0, status=unavailable
+2026-05-09T17:05:31.960Z [build-site] info: Language decision for copyright-act-1957/ta: sections=0, parts=0, sources=0, status=unavailable
+2026-05-09T17:05:31.960Z [build-site] info: Language decision for copyright-act-1957/te: sections=0, parts=0, sources=0, status=unavailable
+2026-05-09T17:05:31.960Z [build-site] info: Writing catalog with 1 law entries
+2026-05-09T17:05:31.969Z [build-site] info: Writing favicon
+2026-05-09T17:05:31.970Z [build-site] info: Copying stylesheet
+2026-05-09T17:05:31.970Z [build-site] info: Bundling React application with esbuild
+2026-05-09T17:05:32.014Z [build-site] info: Computed asset hashes: site.css=614536bfeda4, app.js=4bddb38227c6
+2026-05-09T17:05:32.014Z [build-site] info: Writing application shell
+2026-05-09T17:05:32.015Z [build-site] info: Writing path alias shell ../indian-law-ci-live-site/indian-law/index.html
+2026-05-09T17:05:32.015Z [build-site] info: Site build completed in 0m 3s
+Generated 1 law entries in ../indian-law-ci-live-site
+status=0

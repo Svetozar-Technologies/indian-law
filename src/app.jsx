@@ -3,6 +3,12 @@ import { createRoot } from "react-dom/client";
 
 import { readLino } from "../scripts/lib/lino-codec.mjs";
 
+const ASSET_BASE = typeof window === "undefined" ? "" : window.__INDIAN_LAW_ASSET_BASE__ ?? "";
+
+function assetUrl(relativePath) {
+  return `${ASSET_BASE}${relativePath}`;
+}
+
 function App() {
   const [catalog, setCatalog] = useState(null);
   const [catalogError, setCatalogError] = useState("");
@@ -10,7 +16,7 @@ function App() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("data/catalog.lino")
+    fetch(assetUrl("data/catalog.lino"))
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Catalog request failed with ${response.status}`);
@@ -168,7 +174,7 @@ function DocumentView({ catalog, resolved }) {
     let cancelled = false;
     setMarkdown("");
     setError("");
-    fetch(`laws/${language.code}/${law.slug}/${part.file}`)
+    fetch(assetUrl(`laws/${language.code}/${law.slug}/${part.file}`))
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Markdown request failed with ${response.status}`);
@@ -248,7 +254,7 @@ function DocumentView({ catalog, resolved }) {
           <nav className="document-nav">
             <a href={`#/${language.code}`}>All laws</a>
             <span>{part.title}</span>
-            <a href={`laws/${language.code}/${law.slug}/${part.file}`}>Markdown source</a>
+            <a href={assetUrl(`laws/${language.code}/${law.slug}/${part.file}`)}>Markdown source</a>
           </nav>
           {resolved.fellBack && (
             <p className="notice">The requested language is not available as Markdown yet, so this view defaults to English.</p>

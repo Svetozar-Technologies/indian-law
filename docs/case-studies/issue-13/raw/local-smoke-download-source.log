@@ -1,0 +1,17 @@
+2026-05-09T17:05:28.751Z [smoke-download-source] info: Starting official source smoke download
+2026-05-09T17:05:28.752Z [smoke-download-source] info: Options: manifest=data/laws.seed.lino, output=/tmp/indian-law-ci-source, maxSources=1, minBytes=1024, delayMs=1100
+2026-05-09T17:05:28.752Z [smoke-download-source] info: Reading law manifest from data/laws.seed.lino
+2026-05-09T17:05:28.767Z [smoke-download-source] info: Loaded 4 law(s) from manifest
+2026-05-09T17:05:28.767Z [smoke-download-source] info: Queued 6 official source(s) after sorting by source type
+2026-05-09T17:05:28.768Z [smoke-download-source] info: Creating download output directory /tmp/indian-law-ci-source
+2026-05-09T17:05:28.769Z [smoke-download-source] info: Downloading source 1/1: en pdf for copyright-act-1957 from https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+2026-05-09T17:05:28.770Z [http] info: HTTP fetch scheduled for https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf with 3 attempt(s), timeout 60000ms
+2026-05-09T17:05:28.770Z [http] info: HTTP attempt 1/3: GET https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+2026-05-09T17:05:29.224Z [http] info: HTTP response 200 OK for https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+2026-05-09T17:05:29.242Z [http] info: HTTP completed https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf: 518938 byte(s)
+2026-05-09T17:05:29.243Z [smoke-download-source] info: Downloaded 518938 byte(s) from https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+2026-05-09T17:05:29.243Z [smoke-download-source] info: Writing source body to /tmp/indian-law-ci-source/01-copyright-act-1957-en.pdf
+Downloaded 518938 bytes from https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+2026-05-09T17:05:29.245Z [smoke-download-source] info: Reached max-sources limit 1
+2026-05-09T17:05:29.246Z [smoke-download-source] info: Completed official source smoke download with 1 file(s)
+Downloaded 1 official law source(s) into /tmp/indian-law-ci-source

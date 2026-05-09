@@ -1,0 +1,134 @@
+
+> indian-law@0.1.0 test
+> node --test --test-timeout=30000 tests/*.test.mjs
+
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+  ---
+  duration_ms: 300.327043
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading
+  ---
+  duration_ms: 163.319288
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 3 - fetch site build writes completed law cache and progress as Lino
+  ---
+  duration_ms: 191.413104
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 4 - fetch site build writes partial output when the runtime budget is exhausted
+  ---
+  duration_ms: 159.242579
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 5 - fetch site build records per-law upstream failures as partial output
+  ---
+  duration_ms: 2186.831231
+  ...
+# Subtest: Central Act discovery falls back to seed laws when the live listing is unavailable
+ok 6 - Central Act discovery falls back to seed laws when the live listing is unavailable
+  ---
+  duration_ms: 225.898793
+  ...
+# Subtest: extracts India Code metadata, PDF sources, and section references
+ok 7 - extracts India Code metadata, PDF sources, and section references
+  ---
+  duration_ms: 11.103851
+  ...
+# Subtest: normalises section JSON HTML into plain text
+ok 8 - normalises section JSON HTML into plain text
+  ---
+  duration_ms: 0.672133
+  ...
+# Subtest: parses India Code search result rows
+ok 9 - parses India Code search result rows
+  ---
+  duration_ms: 1.559699
+  ...
+# Subtest: parses regional PDF source rows
+ok 10 - parses regional PDF source rows
+  ---
+  duration_ms: 1.067093
+  ...
+# Subtest: strips table and inline HTML without collapsing intended breaks
+ok 11 - strips table and inline HTML without collapsing intended breaks
+  ---
+  duration_ms: 0.209041
+  ...
+# Subtest: repository-owned seed metadata is stored as Links Notation
+ok 12 - repository-owned seed metadata is stored as Links Notation
+  ---
+  duration_ms: 1919.960732
+  ...
+# Subtest: Lino codec stores strings unencoded and preserves numeric-looking identifiers
+ok 13 - Lino codec stores strings unencoded and preserves numeric-looking identifiers
+  ---
+  duration_ms: 1.953026
+  ...
+# Subtest: Lino codec keeps multilingual and multiline strings readable
+ok 14 - Lino codec keeps multilingual and multiline strings readable
+  ---
+  duration_ms: 0.7436
+  ...
+# Subtest: Lino writer uses indented definitions for nested data
+ok 15 - Lino writer uses indented definitions for nested data
+  ---
+  duration_ms: 0.862337
+  ...
+# Subtest: owned data directories do not store JSON metadata
+ok 16 - owned data directories do not store JSON metadata
+  ---
+  duration_ms: 5.703247
+  ...
+# Subtest: renders a section with content and footnotes
+ok 17 - renders a section with content and footnotes
+  ---
+  duration_ms: 0.995857
+  ...
+# Subtest: splits only between sections and keeps each part under the requested line budget when possible
+ok 18 - splits only between sections and keeps each part under the requested line budget when possible
+  ---
+  duration_ms: 0.785443
+  ...
+# Subtest: renders Markdown part metadata and source links
+ok 19 - renders Markdown part metadata and source links
+  ---
+  duration_ms: 0.264505
+  ...
+# Subtest: regional source discovery logs page decisions by default
+ok 20 - regional source discovery logs page decisions by default
+  ---
+  duration_ms: 171.951599
+  ...
+# Subtest: source smoke download logs source choices by default
+ok 21 - source smoke download logs source choices by default
+  ---
+  duration_ms: 67.102421
+  ...
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 22 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 18.585946
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 23 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 4.125491
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 24 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 2.895565
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3071.044379
