@@ -14,7 +14,10 @@ test("repository-owned seed metadata is stored as Links Notation", async () => {
     "data/laws.seed.lino",
     "data/regional-sources.seed.lino",
     "docs/data/catalog.lino",
-    "docs/case-studies/issue-1/data/issue-1.lino"
+    "docs/case-studies/issue-1/data/issue-1.lino",
+    "docs/case-studies/issue-7/data/issue-7.lino",
+    "docs/case-studies/issue-7/data/pr-8.lino",
+    "docs/case-studies/issue-7/data/ci-runs.lino"
   ];
 
   for (const filePath of paths) {
@@ -74,7 +77,7 @@ test("Lino writer uses indented definitions for nested data", () => {
 });
 
 test("owned data directories do not store JSON metadata", async () => {
-  const files = await listFiles(["data", "docs/data", "docs/case-studies/issue-1/data"]);
+  const files = await listFiles(["data", "docs/data", "docs/case-studies/issue-1/data", "docs/case-studies/issue-7/data"]);
   assert.deepEqual(files.filter((filePath) => filePath.endsWith(".json")), []);
 });
 

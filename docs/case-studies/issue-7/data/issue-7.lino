@@ -1,0 +1,44 @@
+obj_root:
+  object
+  (str issue) obj_root_issue
+  (str comments) obj_root_comments
+obj_root_issue:
+  object
+  (str author) obj_root_issue_author
+  (str body) (str ``https://github.com/Svetozar-Technologies/indian-law/actions/runs/25573719113/job/75075602878
+
+We need to ensure we use .lino files, to keep track of the download progress, so each partial download will actually succeed, and will be committed separately (each specific law, that was totally loaded, should be immediately committed to main branch using GitHub Actions token), and it should both update the download status in .lino file, and also actual markdown files.
+
+And if the loading takes more than 2 hours, we should stop in the middle of the process, to ensure we don't load GitHub Actions too much, and we are able to finish in time (before 6 hours limit).
+
+We need to download all logs and data related about the issue to this repository, make sure we compile that data to `./docs/case-studies/issue-{id}` folder, and use it to do deep case study analysis (also make sure to search online for additional facts and data), in which we will reconstruct timeline/sequence of events, list of each and all requirements from the issue, find root causes of the each problem, and propose possible solutions and solution plans for each requirement (we should also check known existing components/libraries, that solve similar problem or can help in solutions).
+
+If there is not enough data to find actual root cause, add debug output and verbose mode if not present, that will allow us to find root cause on next iteration.
+
+If issue related to any other repository/project, where we can report issues on GitHub, please do so. Each issue must contain reproducible examples, workarounds and suggestions for fix the issue in code.
+
+Please plan and execute everything in a single pull request, you have unlimited time and context, as context auto-compacts and you can continue indefinitely, until it is each and every requirement fully addressed, and everything is totally done.``)
+  (str createdAt) (str `2026-05-09T02:35:08Z`)
+  (str labels) obj_root_issue_labels
+  (str number) (int 7)
+  (str state) (str OPEN)
+  (str title) (str `CI/CD is broken`)
+  (str updatedAt) (str `2026-05-09T02:35:08Z`)
+  (str url) (str `https://github.com/Svetozar-Technologies/indian-law/issues/7`)
+obj_root_issue_author:
+  object
+  (str id) (str MDQ6VXNlcjE0MzE5MDQ=)
+  (str is_bot) (bool false)
+  (str login) (str konard)
+  (str name) (str `Konstantin Diachenko`)
+obj_root_issue_labels:
+  array
+  obj_root_issue_labels_bug
+obj_root_issue_labels_bug:
+  object
+  (str id) (str LA_kwDOSV-fXs8AAAACiH1Y3A)
+  (str name) (str bug)
+  (str description) (str `Something isn't working`)
+  (str color) (str d73a4a)
+obj_root_comments:
+  array

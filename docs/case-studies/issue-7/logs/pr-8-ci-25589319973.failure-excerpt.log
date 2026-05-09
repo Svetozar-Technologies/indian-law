@@ -1,0 +1,86 @@
+220:Test and Offline Build	Test	2026-05-09T02:36:25.1961667Z   ...
+221:Test and Offline Build	Test	2026-05-09T02:36:25.1962470Z # Subtest: Lino codec keeps multilingual and multiline strings readable
+222:Test and Offline Build	Test	2026-05-09T02:36:25.1963964Z ok 12 - Lino codec keeps multilingual and multiline strings readable
+223:Test and Offline Build	Test	2026-05-09T02:36:25.1964546Z   ---
+224:Test and Offline Build	Test	2026-05-09T02:36:25.1964855Z   duration_ms: 0.634438
+225:Test and Offline Build	Test	2026-05-09T02:36:25.1965203Z   ...
+226:Test and Offline Build	Test	2026-05-09T02:36:25.1965570Z # Subtest: Lino writer uses indented definitions for nested data
+227:Test and Offline Build	Test	2026-05-09T02:36:25.1966072Z ok 13 - Lino writer uses indented definitions for nested data
+228:Test and Offline Build	Test	2026-05-09T02:36:25.1966408Z   ---
+229:Test and Offline Build	Test	2026-05-09T02:36:25.1966612Z   duration_ms: 0.879657
+230:Test and Offline Build	Test	2026-05-09T02:36:25.1966998Z   ...
+231:Test and Offline Build	Test	2026-05-09T02:36:25.2059443Z # Subtest: owned data directories do not store JSON metadata
+232:Test and Offline Build	Test	2026-05-09T02:36:25.2081386Z not ok 14 - owned data directories do not store JSON metadata
+233:Test and Offline Build	Test	2026-05-09T02:36:25.2082149Z   ---
+234:Test and Offline Build	Test	2026-05-09T02:36:25.2082637Z   duration_ms: 13.819448
+235:Test and Offline Build	Test	2026-05-09T02:36:25.2083513Z   location: '/home/runner/work/indian-law/indian-law/tests/lino.test.mjs:76:1'
+236:Test and Offline Build	Test	2026-05-09T02:36:25.2084247Z   failureType: 'testCodeFailure'
+237:Test and Offline Build	Test	2026-05-09T02:36:25.2085455Z   error: |-
+238:Test and Offline Build	Test	2026-05-09T02:36:25.2085897Z     Expected values to be strictly deep-equal:
+239:Test and Offline Build	Test	2026-05-09T02:36:25.2086406Z     + actual - expected ... Lines skipped
+240:Test and Offline Build	Test	2026-05-09T02:36:25.2086796Z
+241:Test and Offline Build	Test	2026-05-09T02:36:25.2087126Z     + [
+242:Test and Offline Build	Test	2026-05-09T02:36:25.2087913Z     +   'data/cache/laws/the-ancient-monuments-and-archaeological-sites-and-remains-act-1958.json',
+243:Test and Offline Build	Test	2026-05-09T02:36:25.2089141Z     +   'data/cache/laws/the-anti-apartheid-united-nations-convention-act-1981.json',
+244:Test and Offline Build	Test	2026-05-09T02:36:25.2089965Z     +   'data/cache/laws/the-apprentices-act-1961.json',
+245:Test and Offline Build	Test	2026-05-09T02:36:25.2090886Z     +   'data/cache/laws/the-asiatic-society-act-1984.json',
+246:Test and Offline Build	Test	2026-05-09T02:36:25.2091653Z     +   'data/cache/laws/the-bengal-military-police-act-1892.json',
+247:Test and Offline Build	Test	2026-05-09T02:36:25.2092163Z     +   'data/cache/laws/the-bihar-reorganisation-act-2000.json',
+248:Test and Offline Build	Test	2026-05-09T02:36:25.2092721Z     +   'data/cache/laws/the-births-deaths-and-marriages-registration-act-1886.json',
+249:Test and Offline Build	Test	2026-05-09T02:36:25.2093407Z     +   'data/cache/laws/the-broach-and-kaira-incumbered-estates-act-1877.json',
+250:Test and Offline Build	Test	2026-05-09T02:36:25.2094063Z     +   'data/cache/laws/the-calcutta-high-court-jurisdictional-limits-act-1919.json',
+251:Test and Offline Build	Test	2026-05-09T02:36:25.2094651Z     +   'data/cache/laws/the-calcutta-land-revenue-act-1856.json',
+252:Test and Offline Build	Test	2026-05-09T02:36:25.2095089Z     +   'data/cache/laws/the-cardamom-act-1965.json',
+253:Test and Offline Build	Test	2026-05-09T02:36:25.2095528Z     +   'data/cache/laws/the-carriage-of-goods-by-sea-act-2025.json',
+254:Test and Offline Build	Test	2026-05-09T02:36:25.2095961Z     +   'data/cache/laws/the-census-act-1948.json',
+255:Test and Offline Build	Test	2026-05-09T02:36:25.2096427Z     +   'data/cache/laws/the-central-agricultural-university-act-1992.json',
+256:Test and Offline Build	Test	2026-05-09T02:36:25.2097151Z     +   'data/cache/laws/the-central-goods-and-services-tax-extension-to-jammu-and-kashmir-act-2017.json',
+257:Test and Offline Build	Test	2026-05-09T02:36:25.2097925Z     +   'data/cache/laws/the-central-laws-extension-to-jammu-and-kashmir-act-1968.json',
+258:Test and Offline Build	Test	2026-05-09T02:36:25.2098561Z     +   'data/cache/laws/the-central-provinces-court-of-wards-act-1899.json',
+259:Test and Offline Build	Test	2026-05-09T02:36:25.2099179Z     +   'data/cache/laws/the-central-provinces-financial-commissioner-s-act-1908.json',
+260:Test and Offline Build	Test	2026-05-09T02:36:25.2099775Z     +   'data/cache/laws/the-central-reserve-police-force-act-1949.json',
+261:Test and Offline Build	Test	2026-05-09T02:36:25.2100264Z     +   'data/cache/laws/the-central-silk-board-act-1948.json',
+262:Test and Offline Build	Test	2026-05-09T02:36:25.2101047Z     +   'data/cache/laws/the-chandigarh-delegation-of-powers-act-1987.json',
+263:Test and Offline Build	Test	2026-05-09T02:36:25.2101591Z     +   'data/cache/laws/the-chandigarh-disturbed-areas-act-1983.json',
+264:Test and Offline Build	Test	2026-05-09T02:36:25.2102119Z     +   'data/cache/laws/the-charitable-and-religious-trusts-act-1920.json',
+265:Test and Offline Build	Test	2026-05-09T02:36:25.2102652Z     +   'data/cache/laws/the-chartered-accountants-act-1949.json',
+266:Test and Offline Build	Test	2026-05-09T02:36:25.2103147Z     +   'data/cache/laws/the-chemical-weapons-convention-act-2000.json',
+267:Test and Offline Build	Test	2026-05-09T02:36:25.2103605Z     +   'data/cache/laws/the-chit-funds-act-1982.json',
+268:Test and Offline Build	Test	2026-05-09T02:36:25.2104788Z     +   'data/cache/laws/the-cigarettes-and-other-tobacco-products-prohibition-of-advertisement-and-regulation-of-trade-and-commerce-production-supply-and-distribution-act-2003.json',
+269:Test and Offline Build	Test	2026-05-09T02:36:25.2106464Z     +   'data/cache/laws/the-coal-india-regulation-of-transfers-and-validation-act-2000.json',
+270:Test and Offline Build	Test	2026-05-09T02:36:25.2107166Z     +   'data/cache/laws/the-coal-mines-labour-welfare-fund-repeal-act-1986.json',
+271:Test and Offline Build	Test	2026-05-09T02:36:25.2107700Z     +   'data/cache/laws/the-coast-guard-act-1978.json',
+272:Test and Offline Build	Test	2026-05-09T02:36:25.2108189Z     +   'data/cache/laws/the-coastal-aquaculture-authority-act-2005.json',
+273:Test and Offline Build	Test	2026-05-09T02:36:25.2108716Z     +   'data/cache/laws/the-coconut-development-board-act-1979.json',
+274:Test and Offline Build	Test	2026-05-09T02:36:25.2109345Z     +   'data/cache/laws/the-coinage-act-2011.json',
+275:Test and Offline Build	Test	2026-05-09T02:36:25.2109787Z     +   'data/cache/laws/the-collection-of-statistics-act-2008.json',
+276:Test and Offline Build	Test	2026-05-09T02:36:25.2110543Z     +   'data/cache/laws/the-commercial-courts-act-2015.json',
+277:Test and Offline Build	Test	2026-05-09T02:36:25.2111202Z     +   'data/cache/laws/the-commissions-for-protection-of-child-rights-act-2005.json',
+278:Test and Offline Build	Test	2026-05-09T02:36:25.2111745Z     +   'data/cache/laws/the-companies-act-2013.json',
+279:Test and Offline Build	Test	2026-05-09T02:36:25.2112622Z     +   'data/cache/laws/the-companies-profits-surtax-act-1964.json',
+280:Test and Offline Build	Test	2026-05-09T02:36:25.2113165Z     +   'data/cache/laws/the-compensatory-afforestation-fund-act-2016.json',
+281:Test and Offline Build	Test	2026-05-09T02:36:25.2113980Z     +   'data/cache/laws/the-comptroller-auditor-general-s-duties-powers-and-conditions-of-service-act-1971.json',
+282:Test and Offline Build	Test	2026-05-09T02:36:25.2114727Z     +   'data/cache/laws/the-consumer-protection-act-2019.json',
+283:Test and Offline Build	Test	2026-05-09T02:36:25.2115176Z     +   'data/cache/laws/the-contempt-of-courts-act-1971.json',
+284:Test and Offline Build	Test	2026-05-09T02:36:25.2115773Z     +   'data/cache/laws/the-control-of-national-highways-land-and-traffic-act-2002.json',
+285:Test and Offline Build	Test	2026-05-09T02:36:25.2116343Z     +   'data/cache/laws/the-copyright-act-1957.json',
+286:Test and Offline Build	Test	2026-05-09T02:36:25.2116761Z     +   'data/cache/laws/the-cost-accountants-act-1959.json',
+287:Test and Offline Build	Test	2026-05-09T02:36:25.2117278Z     +   'data/cache/laws/the-criminal-procedure-identification-act-2022.json',
+288:Test and Offline Build	Test	2026-05-09T02:36:25.2117832Z     +   'data/cache/laws/the-dadra-and-nagar-haveli-act-1961.json',
+289:Test and Offline Build	Test	2026-05-09T02:36:25.2118353Z     +   'data/cache/laws/the-damodar-valley-corporation-act-1948.json',
+290:Test and Offline Build	Test	2026-05-09T02:36:25.2118945Z     +   'data/cache/laws/the-delhi-and-ajmer-merwara-land-development-act-1948.json',
+291:Test and Offline Build	Test	2026-05-09T02:36:25.2119454Z     ...
+292:Test and Offline Build	Test	2026-05-09T02:36:25.2119661Z     - []
+293:Test and Offline Build	Test	2026-05-09T02:36:25.2119859Z     ...
+294:Test and Offline Build	Test	2026-05-09T02:36:25.2120070Z   code: 'ERR_ASSERTION'
+295:Test and Offline Build	Test	2026-05-09T02:36:25.2120499Z   name: 'AssertionError'
+296:Test and Offline Build	Test	2026-05-09T02:36:25.2120751Z   expected:
+297:Test and Offline Build	Test	2026-05-09T02:36:25.2120966Z   actual:
+298:Test and Offline Build	Test	2026-05-09T02:36:25.2121497Z     0: 'data/cache/laws/the-ancient-monuments-and-archaeological-sites-and-remains-act-1958.json'
+299:Test and Offline Build	Test	2026-05-09T02:36:25.2122284Z     1: 'data/cache/laws/the-anti-apartheid-united-nations-convention-act-1981.json'
+300:Test and Offline Build	Test	2026-05-09T02:36:25.2122838Z     2: 'data/cache/laws/the-apprentices-act-1961.json'
+301:Test and Offline Build	Test	2026-05-09T02:36:25.2123266Z     3: 'data/cache/laws/the-asiatic-society-act-1984.json'
+302:Test and Offline Build	Test	2026-05-09T02:36:25.2123739Z     4: 'data/cache/laws/the-bengal-military-police-act-1892.json'
+303:Test and Offline Build	Test	2026-05-09T02:36:25.2124239Z     5: 'data/cache/laws/the-bihar-reorganisation-act-2000.json'
+304:Test and Offline Build	Test	2026-05-09T02:36:25.2124816Z     6: 'data/cache/laws/the-births-deaths-and-marriages-registration-act-1886.json'
+305:Test and Offline Build	Test	2026-05-09T02:36:25.2125442Z     7: 'data/cache/laws/the-broach-and-kaira-incumbered-estates-act-1877.json'
