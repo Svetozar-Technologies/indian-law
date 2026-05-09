@@ -1,0 +1,1052 @@
+---
+title: "The Coffee Act, 1942"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/2412"
+---
+# The Coffee Act, 1942
+
+Language: English
+Part 1 of 1
+Sections: 1 to 50
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/2412
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2412/1/a1942-07.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=1+Rule+Coffee+Act+and+rules.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=3+Rules+C+and+R+basic+rule+20.3.2014.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=2+Rules+4.7.16-+Coffee+rules+Amendment.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=4+Rules+C+and+R+rules+amndtCoffee-+8.9.16.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=5+Rule+C+and+R+rules+amndt-+coffee+-+8.11.2017.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=6+Rule+C+and+R+amndt+1.12.2017.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2412/2/H1942-07.pdf
+
+## Section 1 - Short title, extent and duration.
+
+(1) This Act may he called the ^1[Coffee Act], 1942.
+
+(2) It extends to the whole of India ^2[except the State of Jammu and Kashmir*].
+
+^3* * * * *
+
+### Footnotes
+
+1. Subs. by s. 3, ibid., for "Coffee Market Expansion Act" (w.e.f. 1-8-1955).
+
+2. Subs. by Act 3 of 1951, s. 3 and the Sch., for "expect Part B States".
+
+3. Sub-section (3) omitted by Act 4 of 1947, s. 2.
+
+*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu
+and Kashmir and the Union territory of Ladakh.
+
+## Section 2 - Declaration as to expediency of Union control.
+
+^1[2. Declaration as to expediency of Union control.--It is hereby declared that it is
+expedient in the public interest that the Union should take under its control the coffee industry.]
+
+### Footnotes
+
+1. Subs. by Act 50 of 1954, s. 4, for s. 2 (w.e.f. 1-8-1955).
+
+## Section 3 - Definitions.
+
+In this Act, unless there is anything repugnant in the subject or
+context,--
+
+(a) "the Board" means the ^1[
+^2* * * Coffee Board] constituted under section 4;
+
+^3[(aa) "Chairman" means the Chairman of the Board;]
+
+(b) "coffee" means the commodity derived from the fruit of the rubiaceous plant known
+by that name, and includes raw coffee, cured coffee, uncured coffee, roasted coffee and
+prepared coffee;
+
+^4[(c) "Commissioner", means a Commissioner of Customs as specified in clause (b) of section 3
+of the Customs Act, 1962 (52 of 1962);
+
+(d) "curing" means the application to raw coffee of mechanical processes other than pulping for
+the purpose of preparing it for marketing;
+
+(e) "curing establishment" means any place to which raw coffee is sent by a registered owner for
+curing, and includes any estate which the Board may declare to be a curing establishment for the
+purposes of this Act;
+
+^5[(ee) "dealer" means a person carrying on the business of selling coffee, whether wholesale or by
+retail;]
+
+(f) "estate" means an area administered as one unit which contains land planted with
+coffee plants;
+
+^6[(ff) "India" means the territory of India excluding the State of Jammu and
+Kashmir*;]
+
+(g) "Indian Coffee Cess Committee" means the Indian Coffee Cess Committee constituted under the Indian Coffee Cess Act, 1935 (14 of 1935);
+
+^7[(h) "free sale quota" means that portion, stated in terms of bulk or weight, of the
+whole of the coffee produced by the estate in the year, which a registered estate is
+permitted under this Act to sell;]
+
+^8[(i) "owner", in relation to any land planted with coffee plants, includes,--
+
+(1) any agent of the owner, and
+
+(2) a mortgagee, lessee or other person in actual possession of the land;]
+
+(j) "prescribed" means prescribed by rules made under this Act;
+
+(k) "registered estate" means an estate in respect of which an owner is registered under
+sub-section (1) of section 14, and includes also any estate in respect of which an owner is
+required to be registered under the provisions of that sub-section;
+
+(l) "registered owner" means an owner of a registered estate who has been or is
+required to be registered under sub-section (1) of section 14;
+
+^9* * * * *
+
+(m) "surplus pool" means the stock of coffee accumulated by the Board out of the amounts
+delivered to the Board under section 25;
+
+^10[(n) "year" means the period of twelve months beginning with the first day of July and ending
+with the thirtieth day of June next following.]
+
+### Footnotes
+
+1. Subs. by Act 7 of 1943, s. 2, for "India Coffee Market Expansion Board".
+
+2. The word "Indian" omitted by Act 50 of 1954, s. 5 (w.e.f. 1-8-1955).
+
+3. Ins. by s. 5, ibid, (w.e.f. 1-8-1955).
+
+4. Subs. by Act 22 of 1995, s. 85, for cl. (c).
+
+5. Ins. by Act 2 of 1944, s. 2.
+
+6. Ins. by Act 3 of 1951, s. 3 and the Sch.
+
+7. Subs. by Act 23 of 1994, s. 2, for cl. (h) (w.e.f. 14-1-1994).
+
+8. Subs. by Act 48 of 1961, s. 2, for cl. (i) (w.e.f. 19-4-1962).
+
+9. Cl. (ll) Omitted by Act 3 of 1951, s. 3 and the Schedule which was ins. by the A.O. 1950.
+
+10. Subs. by Act 48 of 1961, s. 2, for cl. (n) (w.e.f. 19-4-1962).
+
+*.Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh.
+
+## Section 4 - Constitution of the Board.
+
+(1) The Board constituted by the name of the Indian
+Coffee Market Expansion Board under section 4 of the Indian Coffee Market Expansion
+Ordinance, 1940 (13 of 1940), shall be the ^1[Coffee Board] for the purposes of this Act.
+
+^2[^3[^4(2) The Board shall consist of--
+
+(a) a Chairman to be appointed by the Central Government by notification in the
+Official Gazette;
+
+(b) three Members of Parliament of whom two shall be elected by the House of
+the People and one by the Council of States; and
+
+(c) such number of other members not exceeding twenty-nine as the Central
+Government may think expedient, to be appointed by that Government by notification
+in the Official Gazette from among persons who are in its opinion capable of
+representing,--
+
+(i) Governments of the principal coffee-growing States;
+
+(ii) coffee-growing industry;
+
+(iii) coffee trade interests;
+
+(iv) curing establishments;
+
+(v) interests of labour;
+
+(vi) interests of consumers; and
+
+(vii) such other interests as, in the opinion of the Central Government, ought to be
+represented on the Board.
+
+(2A) The number of persons to be appointed as members from each of the categories specified in
+clause (c) of sub-section (2), the term of office of, the procedure to be followed in the discharge of
+their functions by, and the manner of filling vacancies among, the members of the Board shall be
+such as may be prescribed.]
+
+(2B) Any officer of the Central Government when deputed by that Government in this behalf
+shall have the right to attend meetings of the Board and take part in the proceedings thereof but
+shall not be entitled to vote.]
+
+^5* * * * *]
+
+^6[(4)] No act done by the Board shall be questioned on the ground merely of the existence of any
+vacancy in, or any defect in the constitution of, the Board.
+
+^7[(5) It is hereby declared that the office of member of the Board shall not disqualify its
+holder for being chosen as, or for being, a member of either House of Parliament.]
+
+### Footnotes
+
+1. Subs. by Act 50 of 1954, s. 6, for "Indian Coffee Board" (w.e.f. 1-8-1955).
+
+2. Sub-sections (2) and (3) ins. by Act 7 of 1943, s. 3.
+
+3. Subs. by Act 50 of 1954, s. 6, for sub-section (2) (w.e.f. 1-8-1955).
+
+4. Subs. by Act 48 of 1961, s. 3, for sub-section (2) and (2A) (w.e.f. 19-4-1962).
+
+5. Sub-section (3) which was ins. by Act 7 of 1943, s. 3, omitted by Act 48 of 1961, s. 3 (w.e.f. 19-4-1962).
+
+6. The original sub-section (2) renumbered as sub-section (4) by Act 7 of 1943, s. 3.
+
+7. Ins. by Act 50 of 1954, s. 6 (w.e.f. 1-8-1955).
+
+## Section 5 - Incorporation of the Board.
+
+The Board shall be a body corporate by the name of the
+^1[^2* * * Coffee Board], having perpetual succession and a common seal, with power to acquire and
+hold property, both movable and immovable, and to contract, and shall by the said name sue and be
+sued.
+
+### Footnotes
+
+1. Subs. by Act 7 of 1943, s. 4, for "Indian Coffee Market Expansion Board".
+
+2. The word "Indian" omitted by Act 50 of 1954, s. 7 (w.e.f. 1-8-1955).
+
+## Section 6 - Vesting of property in the Board.
+
+So long as this Act remains in force all property, movable or immovable, of or belonging to the Indian Coffee Cess Committee shall vest in the Board and
+all debts and liabilities of the said Committee shall be transferred to the Board, and the officers and
+servants of the said Committee shall be officers and servants on the staff of the Board and the said
+Committee shall be suspended.
+
+## Section 6A - Consultation with the Board.
+
+^1[6A. Consultation with the Board.--Before taking any action touching the affairs of the Board
+under this Act, the Central Government shall ordinarily consult the Board :
+
+Provided that no action taken by the Central Government shall be invalid or called in question merely
+on the ground that the action was taken without such consultation.]
+
+### Footnotes
+
+1. Ins. by s. 8, ibid. (w.e.f. 1-8-1955).
+
+## Section 7 - Committees, staff and agents.
+
+^1* * * * *
+
+(2) The Board may appoint such committees for such purposes and may employ such staff as it thinks
+necessary for the efficient discharge of its functions under this Act
+
+(3) The Board may authorise agents to discharge on its behalf its functions in relation to the
+marketing, storing and curing of coffee.
+
+### Footnotes
+
+1. Sub-section (1) omitted by s. 9, ibid. (w.e.f. 1-8-1955).
+
+## Section 8 - Salary and allowances of Chairman.
+
+^1[8. Salary and allowances of Chairman.--The Chairman shall be entitled to such salary and
+allowances and such conditions of service in respect of leave, pension, provident fund and other matters
+as may, from time to time, be fixed by the Central Government.]
+
+### Footnotes
+
+1. Subs. by Act 50 of 1954, s. 10, for ss. 8 and 9 (w.e.f. 1-8-1955).
+
+## Section 8A - Vice-Chairman.
+
+^1[8A. Vice-Chairman.--The Board shall elect from amongst its members a Vice-Chairman who shall
+exercise such of the powers and perform such of the duties of the Chairman as may be prescribed or as
+may be delegated to him by the Chairman.]
+
+### Footnotes
+
+1. Subs. by Act 50 of 1954, s. 10, for ss. 8 and 9 (w.e.f. 1-8-1955).
+
+## Section 9 - Chief Coffee Marketing Officer, Secretary and other Staff.
+
+^1[9. Chief Coffee Marketing Officer, Secretary and other staff.--(1) The Central Government
+shall appoint an officer to be called the Chief Coffee Marketing Officer and a Secretary to the Board
+and may appoint a Deputy Secretary to the Board and such number of Marketing Officers as may be
+necessary, to exercise such powers and to perform such duties under the direction of the Board as
+may be prescribed.
+
+(2) The officers appointed under this section shall be entitled to such salaries and allowances
+and such conditions of service in respect of leave, pension, provident fund and other matters as
+may, from time to time, be fixed by the Central Government.]
+
+### Footnotes
+
+1. Subs. by Act 50 of 1954, s. 10, for ss. 8 and 9 (w.e.f. 1-8-1955).
+
+## Section 10 - Dissolution of the Board.
+
+When the Board is dissolved by reason of this Act having
+ceased to be in force, the unexpended balance of all money received by the Board under the
+Coffee Market Expansion Ordinance, 1940 (13 of 1940), or under this Act except money in the
+pool fund, shall be disposed of in such manner as the Central Government may direct. The Central
+Government shall disburse the money in the pool fund in the same manner as the Board would
+have done had it continued to exist.
+
+## Section 11 - [Repealed.].
+
+[11. Duty of customs.] Rep. by the Cess Laws (Repealing and Amending) Act, 2006 (24 of 2006),
+s. 2 and the First Schedule (w.e.f. 1-6-2006).
+
+## Section 12 - [Repealed.].
+
+12. [Duty of excise.]Omitted by the Coffee (Amendment) Act, 1994 s. 3 (w.e.f. 14-1-1994).
+
+## Section 13 - [Repealed.].
+
+[13. Payment of proceeds of duty to the Board.] Rep. by the Cess Laws (Repealing and
+Amending) Act, 2006 (24 of 2006) s. 2 and First Schedule (w.e.f. 1-6-2006).
+
+## Section 14 - Registration of owners of coffee estates.
+
+^1[(1) Every owner of land planted with
+coffee plants, whether such land is comprised in one estate or in more than one estate and
+whether it is situated wholly or only partly in India, shall, before the expiration of one month
+from the date on which he first became owner of such estate or estates, apply to the registering
+officer appointed in this behalf by the State Government to be registered as an owner in respect
+of each estate owned by him, and any registration made before the commencement of the
+Coffee (Amendment) Act, 1961 (48 of 1961) shall be deemed to have been made under this
+sub-section.]
+
+^2* * * * *
+
+(3) A registration once made shall continue in force until it is cancelled by the
+registering officer.
+
+^3* * * * *
+
+### Footnotes
+
+1. Subs. by Act 48 of 1961, s. 6, for sub-section (1) (w.e.f. 19-4-1962).
+
+2. Sub-section (2) omitted by s. 6, ibid. (w.e.f. 19-4-1962).
+
+3. Sub-section (4) omitted by s. 6, ibid. (w.e.f. 19-4-1962).
+
+## Section 15 - Power of State Government to make rules.
+
+(1) The State Government may, by notification in
+the Official Gazette, make rules to carry into effect the provisions of section 14.
+
+(2) Without prejudice to the generality of the foregoing power, such rules may prescribe
+the form of the application for registration and for cancellation of registration, the fee payable
+on such applications, the particulars to be included in such applications, the procedure to be
+followed in granting and cancelling registration, the registers to be kept by registering officers,
+and the supply by registering officers of information to the Board.-
+
+## Section 16 - Fixation of prices for sale of coffee.
+
+4^1[16. Fixation of prices for sale of coffee.--(1) The Central Government may ^2
+* * * by
+notification in the Official Gazette fix the price or prices at which coffee may be sold wholesale
+or retail in the Indian market.
+
+(2) No registered owner or licensed curer or dealer shall sell coffee wholesale or retail in
+the Indian market at a price or prices higher than the price or prices fixed under this section.]
+
+### Footnotes
+
+1. Subs. by Act 7 of 1943, s. 5, for s. 16.
+
+2. The words "after consultation with the Board" omitted by Act 50 of 1954, s. 15 (w.e.f. 1-8-1955).
+
+## Section 17 - Sale of coffee in excess of free sale quota.
+
+^1[17. Sale of coffee in excess of free sale quotas.--No registered owner shall sell or
+contract to sell coffee from any registered estate if by such sale the free sale quota allotted to
+that estate is exceeded nor shall a registered owner sell or contract to sell any coffee produced
+on his estate in any year for which no free sale quota is allotted to the estate.]
+
+### Footnotes
+
+1. Subs. by Act 23 of 1994, s. 5, for s. 17 (w.e.f. 14-1-1994).
+
+## Section 18 - Sale of coffee, how made.
+
+No registered owner shall sell coffee unless either--
+
+(a) it has been cured at or is delivered to the buyer through a curing establishment licensed under
+section 28, or
+
+(b) it is sold under and in accordance with the provisions of a licence procured from the Board
+under section 24.
+
+## Section 19 - [Repealed.].
+
+[Storage or sale of coffee on or from unregistered estate.] Rep. by the Coffee (Amendment)
+Act, 1961 (48 of 1961), s. 8 (w.e.f. 19-4-1962).
+
+## Section 20 - Export of coffee.
+
+No coffee shall be exported from ^1[India] otherwise than by the
+Board or under an authorisation granted by the Board in the prescribed manner and in the prescribed cases, and the provisions of the ^2[Customs Act, 1962 (52 of 1962), shall have effect as if
+the provision made by this section had been made by notification issued under section 11] of
+that Act:
+
+^3[Provided that nothing herein contained shall apply to coffee--
+
+(i) shipped as stores on board any vessel or aircraft in such quantity as the
+^4[Commissioner] considers reasonable, having regard to the number of the crew and
+passengers and the length of the voyage or journey, as the case may be, on which the vessel
+or aircraft is about to proceed, or
+
+^5[(ii) carried as personal baggage of a passenger, not exceeding such quantities as the
+Central Government may, by notification in the Official Gazette, specify, or
+
+(iii) exported for such purposes and in such quantities as the Central Government may specify in
+the like manner :]]
+
+^6[Provided further that the Central Government may, by order in writing, specify the quantity of coffee which shall be permitted for export during any year and where any such order is
+made, no coffee shall be exported from India in excess of the said quantity :]
+
+Provided further that the Central Government may exempt from the operation of this
+section, either absolutely or subject to conditions, the export of coffee from ^1[India] ^7[to the
+State of Jammu and Kashmir*] or to any foreign settlement bounded by India.
+
+### Footnotes
+
+1. Subs. by Act 3 of 1951, s. 3 and Sch., for "the States".
+
+2. Subs. by Act 23 of 1994. s. 6, for certain words (w.e.f. 14-1-1994).
+
+3. Subs. by Act 50 of 1954, s. 16, for the first proviso (w.e.f. 1-8-1955).
+
+4. Subs. by Act 22 of 1995, s. 85, for "Collector".
+
+5. Subs. by Act 48 of 1961, s. 9, for cls. (ii), (iii) and (iv) (w.e.f. 19-4-1962).
+
+6. The Proviso ins. by Act 50 of 1954, s.16 (w.e.f. 1-8-1955).
+
+7. Subs. by s. 3 and Sch., ibid., for "to a Part B State".
+
+*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu
+and Kashmir and the Union territory of Ladakh.
+
+## Section 21 - Re-import of coffee exported from India.
+
+(1) No coffee which has been exported from
+India shall be re-imported into ^1[India] except under and in accordance with permit granted by the
+Board.
+
+(2) The Board may in any fit case grant such a permit and no charge shall be made
+therefor.
+
+### Footnotes
+
+1. Subs. by Act 3 of 1951, s. 3 and Sch., for "the States".
+
+## Section 22 - Free sale quota.
+
+^1[22. Free sale quota.--(1) Unless with the previous sanction of the Central Government
+the Board decides that no free sale quotas shall be allotted, the Board shall, as soon as may
+be, allot to each registered estate a free sale quota for the year.
+
+(2) The free sale quota shall be a fixed percentage, common to all registered estates, not
+exceeding fifty per cent. of the probable total production of the estate in the year as estimated by
+the Board :
+
+Provided that the Board may, with the previous sanction of the Central Government, allot
+such quota at a percentage higher than fifty per cent. of the said probable total production.
+
+(3) The Board may at any time vary the free sale quota by varying the fixed percentage
+common to all registered estates, or may express the whole or any part of the free sale quota of
+an estate in terms of bulk instead of in terms of weight.]
+
+### Footnotes
+
+1. Subs. by Act 23 of 1994, s. 7, for s. 22 (w.e.f. 14-1-1994).
+
+## Section 23 - Returns to be made by registered owners.
+
+(1) A registered owner shall furnish to the
+Board at the prescribed times and in the prescribed manner such returns as may be prescribed.
+
+(2) If any registered owner fails to furnish the returns required under sub-section (1) in respect of any estate, the Board may ^1[without prejudice to any penalty to which the said owner is
+liable under section 37A] refuse to allot ^2[a free sale quota] to that estate, or, where ^2[a free sale
+quota] has already been allotted, may cancel it.
+
+(3) The Board may authorise an officer to visit any estate at any time to verify the accuracy
+of any return made under this section or to ascertain the productive capacity of the estate.
+
+### Footnotes
+
+1. Ins. by Act 7 of 1943, s. 8.
+
+2. Subs. by Act 23 of 1994, s. 8, for "an internal sale quota" (w.e.f. 14-1-1994).
+
+## Section 24 - Licences for sale of uncured coffee.
+
+The registered owner of any estate may, subject to
+the prescribed conditions and so long as the ^1[free sale quota] allotted to that estate will not be
+exceeded by the proposed sale, obtain from the Board a licence for the sale from that estate of
+uncured coffee.
+
+### Footnotes
+
+1. Subs. by s. 9, ibid., for "internal sale quota" (w.e.f. 14-1-1994).
+
+## Section 25 - Surplus coffee and surplus pool.
+
+(1) All coffee produced by a registered estate in excess
+of the amount specified in the ^1[free sale quota] allotted to that estate ^2[or when no ^3[free sale
+quota] have been allotted to estates, all coffee produced by the estate], shall be delivered to the
+Board for inclusion in the surplus pool by the owner of the estate or by the curing establishment
+receiving the coffee from the estate:
+
+^4[Provided that where no ^3[free sale quotas] have been allotted to estates, the Chairman may
+allow the owner of any estate to retain with himself for purposes of consumption by his family
+and for purposes of seed, such quantity of coffee as the Chairman may think reasonable :
+
+Provided further that where the Central Government is satisfied that it is not practicable for
+any class of owners producing coffee in any specified area to comply with the provisions of this
+sub-section on account of the small quantity of coffee produced by them or on account of their
+estates being situated in a remote locality, the Central Government may, by notification in the
+Official Gazette, exempt such class of owners from the provisions of this sub-section.]
+
+(2) Delivery shall be made to the Board in such places, ^5[at such times] and in such manner
+as the Board may direct, and such directions may provide for partial delivery to the surplus
+pool at any time whether or not at that time the ^1[free sale quota] has been exceeded; and the
+coffee delivered shall be such as to represent fairly in kind and quality the produce of the
+estate. The Board may reject any consignment offered for delivery which does not satisfy this
+requirement, but shall not reject any consignment merely for a defect in curing.
+
+(3) Coffee delivered for inclusion in the surplus pool shall upon delivery to the Board
+remain under the control of the Board which shall be responsible for storage, curing where
+necessary, and marketing of the coffee.
+
+(4) The Board shall ^6* * * ^7[from time to time] prepare a differential scale for the valuation of coffee, and shall in accordance with that scale classify the coffee in each consignment
+delivered for inclusion in the surplus pool according to its kind and quality, and shall make an
+assessment of its value based on its quantity, kind and quality.
+
+(5) The Board may with the consent of a registered owner, ^8* * * treat as having been
+delivered for inclusion in the surplus pool any coffee from such estate which the registered
+owner may agree to have so treated.
+
+(6) When coffee has been delivered or is treated as having been delivered for inclusion in the
+surplus pool, the registered owner whose coffee has been so delivered or is treated as having
+been so delivered shall retain no rights in respect of such coffee except his right to receive the
+payments referred to in section 34.
+
+### Footnotes
+
+1. Subs by s. 10, ibid., "for internal sale quota" (14-1-1994).
+
+2. Ins. by Act 7 of 1943, s. 10.
+
+3. Subs. by s. 10, ibid., for "internal sale quota" (w.e.f. 14-1-1994).
+
+4. Added by Act 50 of 1954, s. 17 (w.e.f. 1-8-1955).
+
+5. Ins. by Act 7 of 1943, s. 10.
+
+6. The words "with the concurrence of the Chief Coffee Marketing Officer" omitted by Act 50 of 1954, s. 17 (w.e.f. 1-8-1955).
+
+7. Ins. by Act 7 of 1943, s. 10.
+
+8. The words "before an internal sale quota has been allotted to an estate" omitted by Act 7 of 1943, s. 10.
+
+## Section 26 - Sales of coffee by the Board.
+
+(1) The Board shall take all practical measures to market
+the coffee included in the surplus pool, and all sales thereof shall be conducted by or through the
+Board.
+
+(2) The Board may purchase for inclusion in the surplus pool coffee not delivered for inclusion in it.
+
+## Section 27 - Coffee to be cured in licensed curing establishments.
+
+No registered owner shall cause or
+allow coffee to be cured elsewhere than in a licensed curing establishment, whether the curing
+establishment is maintained by himself or by another person.
+
+## Section 28 - Licensing of curing establishments.
+
+Every establishment for curing coffee shall obtain from
+the Board a licence to operate as such.
+
+## Section 29 - Information to be supplied to the Board in connection with curing.
+
+(1) A registered
+owner when sending coffee to a curing establishment shall report to the Board, separately for
+each estate from which coffee is sent, the amount of coffee sent; and the curing establishment
+shall, in accordance with such instructions as may be issued by the Board and having regard to
+the ^1[free sale quota] of the estate ^2[where one has been allotted], apportion each such consignment into two parts, one part consisting of coffee intended ^3[for free sale] and one part of coffee
+intended to be delivered for inclusion in the surplus pool and shall report to the Board the
+amount of coffee in each such part ^2[Where no ^4[free sale quotas] have been allotted to estates,
+the curing establishment shall report merely the whole amount of coffee sent in each such
+consignment.]
+
+(2) A registered owner curing coffee in a curing establishment maintained by himself shall
+supply to the Board the information specified in sub-section (1).
+
+(3) A curing establishment which buys or receives uncured coffee from any person shall
+ascertain the estate on which the coffee was produced and shall report to the Board the quantity
+of coffee so obtained and the estate or estates from which it came.
+
+(4) Every curing establishment shall maintain accounts in such forms as may be required by the Board and such accounts shall be open to inspection at any time by the Board or by an officer authorised in this behalf by the Board.
+
+### Footnotes
+
+1. Subs. by Act 23 of 1994, s. 11, for "internal sale quota" (w.e.f. 14-1-1994).
+
+2. Ins. by Act 7 of 1943, s. 11.
+
+3. Subs. by Act 23 of 1994, s. 11 for "internal sale" (w.e.f. 14-1-1994).
+
+4. Subs. by s. 11, ibid., "internal sale quotas" (w.e.f. 14-1-1994).
+
+## Section 30 - Separate funds to be maintained by the Board.
+
+The Board shall maintain two separate funds,
+a general fund and a pool fund.
+
+## Section 31 - General fund.
+
+^1[31. General fund.--(1) To the general fund shall be credited--
+
+(a) all amounts paid to the Board by the Central Government under sub-section (1) of section 13;
+and
+
+(b) any sums transferred to the general fund under the proviso to sub-section (2) of ^2[section 32;
+and]
+
+^3[(c) all fees levied and collected by the Board under this Act.]
+
+(2) The general fund shall be applied--
+
+(a) to meet the expenses of the Board;
+
+(b) to meet the cost of such measures as the Board may consider advisable to undertake
+for promoting agricultural and technological research in the interest of the coffee industry in
+India;
+
+(c) for making such grants to coffee estates or for meeting the cost of such other
+assistance to coffee estates as the Board may think necessary for the development of
+such estates;
+
+(d) to meet the cost of such measures as the Board considers advisable to undertake for
+promoting the sale and increasing the consumption in India and elsewhere of coffee produced in India; and
+
+(e) to meet the expenses for securing better working conditions and the provision and
+improvement of amenities and incentives for workers.]
+
+### Footnotes
+
+1. Subs. by Act 50 of 1954, s. 18, for s. 31 (w.e.f. 1-8-1955).
+
+2. Subs. by Act 48 of 1961, s. 10, for "section 32" (w.e.f. 19-4-1962).
+
+3. Ins. by s. 10, ibid. (w.e.f. 19-4-1962).
+
+## Section 32 - Pool fund.
+
+(1) To the pool fund shall be credited all sums realised by sales by the Board of
+Coffee from the surplus pool.
+
+(2)
+^1[The pool fund] shall be applied only to--
+
+(a) the making to registered owners of estates of payments proportionate to the value of the
+coffee delivered by them for inclusion in the surplus pool;
+
+(b) the costs of storing, curing and marketing coffee deposited in and of administering the surplus
+pool ;
+
+(c) the purchase of coffee not delivered for inclusion in the surplus pool:
+
+^2[Provided that where, after the requirements of the, clauses of this sub-section have been
+met, there remains any excess in the pool fund, the Board may, with the previous sanction of the
+Central Government, transfer the whole or any part of such excess to the credit of the general
+fund.]
+
+### Footnotes
+
+1. Subs. by Act 23 of 1994, s. 12, for certain words. (w.e.f 14-1-1994).
+
+2. Added by Act 16 of 1944, s. 3.
+
+## Section 32A - Power of the Board to make donation to the Gandhi National Memorial Fund.
+
+^1[32A. Power of the Board to make donation to the Gandhi National Memorial
+Fund.--Notwithstanding anything contained in section 32, the Board may apply any part of
+the pool fund to the making of a donation to the Fund known as the Gandhi National
+Memorial Fund.]
+
+### Footnotes
+
+1. Ins. by Act 34 of 1949, s. 2.
+
+## Section 33 - Power to borrow.
+
+The Board may, subject to any prescribed conditions, borrow on the
+security of the general fund or the pool fund for any purposes for which it is authorised to
+expend money from such fund, or on the security of the coffee delivered or treated as delivered
+for inclusion in the surplus pool for any purposes for which it is authorised to expend money
+from the pool fund.
+
+## Section 34 - Payments to registered owners.
+
+(1) The Board shall at such times as it thinks fit make to
+registered owners who have delivered coffee for inclusion in the surplus pool such payments out of the
+pool fund as it may think proper.
+
+(2) The sum of all payments made under sub-section (1) to any one registered owner shall
+bear to the sum of the payments made to all registered owners the same proportion as the value
+of the coffee delivered by him out of the year's crop to the surplus pool bears to the value of all
+coffee delivered to the surplus pool out of that year's crop:
+
+^1[Provided that in calculating the sum of all payments made under sub-section (1) and the
+value of the coffee delivered to the surplus pool out of the years crop, respectively, any payment
+accepted by a registered owner as final payment in immediate settlement for coffee delivered by
+him for inclusion in the surplus pool and the value of any such coffee shall be excluded.]
+
+### Footnotes
+
+1 Added by Act 7 of 1943, s. 12.
+
+## Section 35 - Failure to register.
+
+Any owner of a coffee estate who fails to apply for registration in
+accordance with section 14 shall be punishable with fine which may extend to one thousand
+rupees and to a further fine which may extend to five hundred rupees for each month after the
+first during which such failure continues.
+
+## Section 36 - Contraventions of sections 16, 17 and 18.
+
+(1) Any registered owner who contravenes
+the provisions of sub-section (2) of section 16, or section 17 or section 18, any licensed curer
+^1[or dealer] who contravenes the provisions of sub-section (2) of section 16, ^2* * * shall be
+punishable with fine which may extend to one thousand rupees.
+
+(2) When a registered owner is convicted under this section, the Board may thereafter
+deduct from any payment to be made under section 34 to such registered owner a sum equal
+to the value as estimated by the Board of any coffee unlawfully sold by him.
+
+### Footnotes
+
+1 Ins. by Act 2 of 1944, s. 3.
+
+2. Certain words omitted by Act 48 of 1961, s. 11 (w.e.f. 19-4-1962).
+
+## Section 37 - Unlicensed curing establishment.
+
+If any curing establishment operates as such without a
+licence, the owner shall be punishable with fine which may extend to five hundred rupees.
+
+## Section 37A - Contravention of section 23(1).
+
+^1[37A. Contravention of section 23 (1). --Any registered owner who fails to furnish the return
+required by sub-section (1) of section 23 as required by that sub-section shall be punishable with fine
+which may extend to one thousand rupees.]
+
+### Footnotes
+
+1 Ins. by Act 7 of 1943, s. 13.
+
+## Section 38 - False returns.
+
+Any person who makes in any return to be furnished under section 23 or
+in any report to be made under section 29 any statement which is false and which he knows to be
+false or does not believe to be true shall be punishable with fine which may extend to one
+thousand rupees.
+
+## Section 38A - Contravention of section 25.
+
+^1[38A. Contravention of section 25.--Any registered owner or licensed curer who fails to
+deliver any coffee to the Board as required by or under sub-sections (1) and (2) of section 25
+shall be punishable with fine which may extend to one thousand rupees, and the Court by which
+such person is convicted may order the confiscation and delivery to the Board of any coffee in
+respect of which the offence was committed.]
+
+### Footnotes
+
+1 Ins. by Act 7 of 1943, s. 14.
+
+## Section 38B - Powers to seize coffee withheld from inclusion in surplus pool.
+
+^1[38B. Powers to seize coffee withheld from inclusion in surplus pool.-- If the Board is satisfied
+that any coffee which is required under the provisions of section 25 to be delivered for inclusion in
+the surplus pool is being or is likely to be disposed of otherwise than by such delivery, the Board
+may order the seizure of such coffee, and may authorise an officer of the Board to effect seizure
+thereof for delivery for inclusion in the surplus pool, and such authorisation shall be sufficient
+warrant for such officer to take all steps necessary to secure possession of the coffee.]
+
+### Footnotes
+
+1 Ins. by Act 7 of 1943, s. 14.
+
+## Section 39 - Obstruction.
+
+Whoever obstructs any member or officer of the Board or any person
+authorised by the Board or by the Central Government in the discharge of any duty imposed on
+or entrusted to him under this Act, or who having control over or custody of any records fails to
+produce such records when required to do so or refuses information lawfully asked for by a
+member or officer of the Board by a person authorised by the Board or by the Central Government to
+inspect such records or ask for such information shall be punishable with fine which may extend to one
+thousand rupees.
+
+## Section 39A - Offences by companies.
+
+^1[39A. Offences by companies.--(1) If the person committing any offence under this Act is a
+company, every person who, at the time the offence was committed, was in charge of, and was
+responsible to the company for the conduct of the business of the company as well as the company shall be deemed to be guilty of the offence and shall be liable to be proceeded against and
+punished accordingly:
+
+Provided that nothing contained in this sub-section shall render any such person liable to
+punishment provided in this Act if he proves that the offence was committed without his
+knowledge or that he exercised all due diligence to prevent the commission of such offence.
+
+(2) Notwithstanding anything contained in sub-section (1) where an offence under this Act
+has been committed by a company and it is proved that the offence has been committed with
+the consent or connivance of, or is attributable to any neglect on the part of, any director,
+manager, secretary or other officer of the company, such director, manager, secretary or other
+officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded
+against and punished accordingly.
+
+Explanation.--For the purposes of this section,--
+
+(a) "company" means any body corporate and includes a firm or other association of individuals;
+and
+
+(b) "director" in relation to a firm means a partner in the firm.]
+
+### Footnotes
+
+1. Ins. by Act 50 of 1954, s. 19 (w.e.f. 1-8-1955).
+
+## Section 40 - Cognizance of offences.
+
+(1) No court other than the Court of ^1[a Metropolitan Magistrate or a Judicial Magistrate of the first class] shall take cognizance of any offence punishable
+under this Act.
+
+(2) No Court shall take cognizance of an offence punishable under section 35 except on
+complaint made by an officer authorised in this behalf by the State Government ^2[or of the
+offence specified in sub-section (2) of section 16 except on complaint made by an officer
+authorised in this behalf either by the State Government or by the Board] or of an offence
+punishable under any other section except on complaint made with the previous sanction of
+the Central Government by an officer authorised in this behalf by the Board:
+
+^3[Provided that the Central Government may, by notification in the Official Gazette, direct that the
+previous sanction of the Central Government shall not be necessary for complaints in such cases or
+classes of cases as may be specified in the notification.]
+
+### Footnotes
+
+1. Subs. by Act 23 of 1994, s. 13, for "a Magistrate of the first class" (w.e.f. 14-1-1994).
+
+2. Ins. by Act 2 of 1944, s. 4.
+
+3. Added by Act 7 of 1943, s. 15.
+
+## Section 41 - [Repealed.].
+
+[Power of board to determine amount of coffee sold by an estate.] Rep. by the Coffee
+(Amendment Act, 1961 (48 of 1961), s. 12 (w.e.f. 19-4-1962).
+
+## Section 42 - Control by the Central Government.
+
+(1) All acts of the Board shall be subject to the control
+of the Central Government which may cancel, suspend or modify as it thinks fit any action taken by the
+Board.
+
+(2) The records of the Board shall be open to inspection at all reasonable times by any officer
+authorised in this behalf by the Central Government.
+
+## Section 43 - Appeals to the Central Government.
+
+(1) Any person aggrieved by an order of the
+Board refusing a licence to or cancelling the licence of a curing establishment may, within
+sixty days of the making of the order, appeal to the Central Government.
+
+(2) Any person making an appeal under this section shall pay a fee of five rupees which
+shall be credited to Central Revenues.
+
+## Section 44 - Inspection of records.
+
+^1[Any Person authorised in this behalf by the Central
+Government or by the Board or any Member of the Board so authorised by the Chairman in
+writing or any officer of the Board, may enter at all reasonable times] any estate or any
+curing establishment ^2[or any place where coffee is stored or exposed for sale,] and may
+require the production for his inspection of any records kept therein, or ask for any
+information relating to the production, storage or sale of coffee ^3***.
+
+### Footnotes
+
+1. Subs. by Act 50 of 1954, s. 20, for certain words (w.e.f. 1-8-1955).
+
+2. Ins. by Act 7 of 1943, s. 16.
+
+3. The words "by the estate" omitted by s. 16, ibid.
+
+## Section 45 - Accounts of the Board.
+
+(1) The Board shall keep accounts in such manner as may
+be prescribed of all money received and expended by it.
+
+(2) The accounts shall be kept separately for the general fund and the pool fund.
+
+(3) The Board shall cause the accounts to be audited annually by auditors appointed by
+the Central Government, and the auditors shall have power to disallow any item of
+expenditure which has, in their opinion, been incurred otherwise than in accordance with this
+Act.
+
+(4) The Central Government may on the application of the Board allow any item of
+expenditure disallowed by the auditors under sub-section (3).
+
+## Section 46 - Inspection of records of the Board and obtaining of copies.
+
+Any registered
+owner ^1*** may, subject to the prescribed conditions, inspect the records maintained by the
+Board and may on Payment of the prescribed fee obtain copies of any proceedings or orders
+of the Board.
+
+### Footnotes
+
+1. The words "to whom an internal sale quota is allotted" omitted by Act 7 of 1943, s. 17.
+
+## Section 47 - Contracts.
+
+All Contracts for the sale of coffee in so far as they are at variance
+with the provisions of this Act shall be void:
+
+Provided that nothing contained in this section shall apply to contracts to which under
+section 47 of the Coffee Market Expansion Ordinance, 1940 (13 of 1940), that Ordinance did
+not apply.
+
+## Section 47A - Bar of legal proceedings.
+
+^1[47A. Bar of legal proceedings.--No suit, prosecution or other legal proceeding shall lie
+against the Board or any officer of the Board for or in respect of anything in good faith done or
+intended to be done under this Act.]
+
+### Footnotes
+
+1. Ins. by Act 7 of 1943, s. 18.
+
+## Section 48 - Power of the Central Government to make rules.
+
+(1) The Central Government may, by
+notification in the Official Gazette, make rules to carry out the purposes of this Act.
+
+^1[(2) Without prejudice to the generality of the foregoing power, rules may be made providing for all
+or any of the following matters : --
+
+^2[(i) the constitution of the Board, the number of persons to be appointed as members
+from each of the categories specified in clause (c) of sub-section (2) of section 4, the term
+of office and other conditions of service of, the procedure to be followed by, and the manner
+of filling vacancies among, the members of the Board;
+
+(ii) the circumstances in which, and the authority by which, members may be
+removed;]
+
+(iii) the procedure to be followed at meetings of the Board and at committees
+thereof for the conduct of business and the number of members which shall form a
+quorum at a meeting ;
+
+(iv) the maintenance by the Board of records of business transacted by the Board and the
+submission of copies thereof to the Central Government ;
+
+(v) the holding of a minimum number of meetings of the Board every year ;
+
+(vi) the powers of the Board, its Chairman and committees thereof with respect to the incurring of
+expenditure ;
+
+(vii) the conditions subject to which the Board may incur expenditure outside India ;
+
+(viii) the preparation of budget estimates of receipts and expenditure of the Board and the
+authority by which the estimates are to be sanctioned ;
+
+(ix) the maintenance of the accounts of income and expenditure of the Board and the audit of such
+accounts;
+
+(x) the deposit of the funds of the Board in banks and the investment of such funds ;
+
+(xi) the re-appropriation of the estimated savings from any budget head to any other budget head;
+
+(xii) the conditions subject to which the Board may borrow funds ;
+
+(xiii) the conditions subject to which and the manner in which contracts may be
+entered into by or on behalf of the Board ;
+
+(xiv) the delegation to the committee or Chairman or Vice-Chairman or members or
+officers of the Board of any of the powers and duties of the Board under this Act ;
+
+(xv) the staff which may be employed by the Board and the pay and allowances and
+leave and other conditions of service of officers (other than those appointed by the Central
+Government) and other employees of the Board ;
+
+(xvi) the travelling and other allowances of members of the Board and of committees
+thereof ;
+
+(xvii) the maintenance of the registers and other records of the Board and its various
+committees ;
+
+(xviii) the manner in which the ^3[free sale quota] of coffee estates shall be
+determined ;
+
+(xix) the manner in which the Board shall exercise its powers of buying and selling
+coffee ;
+
+(xx) the appointment by the Board of agents ;
+
+(xxi) the conditions to be fulfilled by a curing establishment before a licence to operate as such
+can be issued ;
+
+(xxii) the form of, and the particulars to be contained in, any returns or reports to be made to the
+Board under this Act ;
+
+(xxiii) the form of, manner of application for, fees payable for, procedure in granting
+and conditions governing, the licences and permits to be issued by the Board ;
+
+(xxiv) the collection of any information or statistics in respect of coffee or any product of
+coffee ;
+
+(xxv) any other matter (other than any matter specified in section 15) which is to be or may be
+prescribed under this Act.
+
+^4[(3) Every rule made under this section shall be laid, as soon as may be after it is made,
+before each House of Parliament,, while it is in session, for a total period of thirty days which
+may be comprised in one session or in two or more successive sessions, and if, before the expiry
+of the session immediately following the session or the successive sessions aforesaid, both
+Houses agree in making any modification in the rule or both Houses agree that the rule should
+not be made, the rule shall thereafter have effect only in such modified form or be of no effect,
+as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that rule.]
+
+### Footnotes
+
+1. Subs. by Act 50 of 1954, s. 21, for sub-section (2) (w.e.f. 1-8-1955).
+
+2. Subs. by Act 48 of 1961, s. 13, for cls. (i) and (ii) (w.e.f. 19-4-1962).
+
+3. Subs. by Act 23 of 1994, s. 14, for "internal sale quota" (w.e.f. 14-1-1994).
+
+4. Subs. by Act 48 of 1985, s. 5, for sub-section (3) (w.e.f. 15-5-1986).
+
+## Section 49 - Repeal of Act 14 of 1935.
+
+^1[49. Repeal of Act 14 of 1935.--The Indian Coffee Cess Act, 1935 (14 of 1935), is hereby
+repealed.]
+
+### Footnotes
+
+1. Subs. by Act 4 of 1947, s. 4, for s. 49.
+
+## Section 50 - [Repealed.].
+
+[Repeals and savings.] Rep. by the Repealing and Amending Act, 1947 (2 of 1948), s. 2
+and Sch.

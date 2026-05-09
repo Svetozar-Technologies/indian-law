@@ -1,0 +1,67 @@
+---
+title: "The Legal Representatives Suits Act, 1855"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/2275"
+---
+# The Legal Representatives Suits Act, 1855
+
+Language: English
+Part 1 of 1
+Sections: 1 to 2
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/2275
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2275/1/a1855-12.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2275/2/H1855-12.pdf
+
+## Section 1 - Executors may sue and be sued in certain cases for wrongs committed in lifetime of deceased.
+
+An action may be maintained by the executors, administrators or representatives of any person deceased, for any wrong committed in the time of such person, which has occasioned
+pecuniary loss to his estate, for which wrong an action might have been maintained by such person, so as
+such wrong shall have been committed within one year before his death ^1***; and the damages, when
+recovered, shall be part of the personal estate of such person;
+
+and further, an action may be maintained against the executors or administrators or heirs or
+representatives of any person deceased for any wrong committed by him in his lifetime for which he
+would have been subject to an action, so as such wrong shall have been committed within one year before
+such person's death ^2*** and the damages to be recovered in such action shall, if recovered against an
+executor or administrator bound to administer according to the English law, be payable in like order of
+administration as the simple contract debts of such person.
+
+STATE AMENDMENT
+
+Karnataka
+
+Amendment of Central Act XII of 1855.--Section 1 of the Legal Representatives’ Suits Act,
+1855 (Central Act XII of 1855) shall be renumbered as section 1A and before the section 1A
+as so renumbered, the following section shall be inserted, namely:--
+
+“1. Short title and extent.--This Act may be called the Legal Representatives’ Suits Act,
+1855.
+
+(2) It extends to the whole of the State of Karnataka”.
+
+[Vide Karnataka 33 of 1978, s. 4].
+
+### Footnotes
+
+1. The words "and provided such action shall be brought within one year after the death of such person" rep. by Act 9 of 1871,
+s. 2 and the First Schedule, see now the Indian Limitation Act, 1963 (36 of 1963).
+
+2. The words "and so as such action shall be commenced within two years after the committing of the wrong" rep. by s. 2 and
+the First Schedule, ibid, see now Act 36 of 1963.
+
+## Section 2 - Death of either party not to abate suit. Proviso.
+
+No action commenced under the provisions of
+this Act shall abate by reason of the death of either party, but the same may be continued by or against the
+executors, administrators or representatives of the party deceased: Provided that, in any case in which any
+such action shall be continued against the executors, administrators or representatives of a deceased party,
+such executors, administrators or representatives may set up a want of assets as a defence to the action,
+either wholly or in part, in the same manner as if the action had been originally commenced against them.

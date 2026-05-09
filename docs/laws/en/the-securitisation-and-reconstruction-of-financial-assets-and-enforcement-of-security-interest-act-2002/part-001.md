@@ -1,0 +1,1422 @@
+---
+title: "The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002"
+language: en
+part: 1
+parts: 2
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/2006"
+---
+# The Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002
+
+Language: English
+Part 1 of 2
+Sections: 1 to 18B
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/2006
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2006/1/A2002-54.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=security_interest_%28enforcement%29_rules%2C_2002.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=SARFAESI.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=Security+Interest+%28Enforcement%29+Amendment+Rules%2C+2007.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=SARFAESI+%28Central+registry%29+Rules%2C2011.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=The+SARFAESI+%28Central+Registry%29+Amendment+Rules%2C+2013.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=NOTIFICATION_DATED_22.1.2016_RELATED_TO_RULES_UNDE_sw.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=notification_co-operative_banks_28_1_2003e_86_2011_sw.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=removal_of_difficulties_order+6.4.2004_SARFAESI_E_360__sw.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=cersaiE_15.5.13_sw.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=Enforcment_of_Sections_sw+1.9.2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=section_enforcement_2_sw_2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=Delegation_of_Powers_Notification_sw+27.12.2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=section_20_and_21_sw_2017.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2006/3/H2002-54.pdf
+
+## Section 1 - Short title, extent and commencement.
+
+(1) This Act may be called the Securitisation and
+Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002.
+
+(2) It extends to the whole of India.
+
+(3) It shall be deemed to have come into force on the 21st day of June, 2002.
+
+## Section 2 - Definitions.
+
+(1) In this Act, unless the context otherwise requires,--
+
+(a) Appellate Tribunal means a Debts Recovery Appellate Tribunal established under
+sub-section (1) of section 8 of the Recovery of Debts Due to Banks and Financial Institutions Act,
+1993 (51 of 1993);
+
+(b) asset reconstruction means acquisition by any ^1
+[asset reconstruction company]of any right
+or interest of any bank or financial institution in any financial assistance for the purpose of realisation
+of such financial assistance;
+
+^2
+[(ba) asset reconstruction company means a company registered with Reserve Bank under
+section 3 for the purposes of carrying on the business of asset reconstruction or securitisation, or
+both;]
+
+(c) bank means--
+
+(i) a banking company; or
+
+(ii) a corresponding new bank; or
+
+(iii) the State Bank of India; or
+
+(iv) a subsidiary bank; or
+
+^3
+[(iva) a multi-State co-operative bank; or]
+
+(v) such other bank which the Central Government may, by notification, specify for the
+purposes of this Act;
+
+(d) banking company shall have the meaning assigned to it in clause (c) of section 5 of the
+Banking Regulation Act, 1949 (10 of 1949);
+
+(e) Board means the Securities and Exchange Board of India established under section 3 of the
+Securities and Exchange Board of India Act, 1992 (15 of 1992);
+
+(f) borrower means ^4[any person who, or a pooled investment vehicle as defined in clause (da)
+of section 2 of the Securities Contracts (Regulation) Act, 1956 (42 of 1956) which,] has been granted financial assistance by any bank or
+financial institution or who has given any guarantee or created any mortgage or pledge as security for
+the financial assistance granted by any bank or financial institution ^5[and includes a person who, or a pooled investment vehicle which,]
+becomes borrower of a ^6
+[asset reconstruction company]consequent upon acquisition by it of any
+rights or interest of any bank or financial institution in relation to such financial assistance^7
+[or who
+has raised funds through issue of debt securities];
+
+(g) Central Registry means the registry set up or cause to be set up under sub-section (1) of
+section 20;
+
+^7
+[(ga) company means a company as defined in clause (20) of section 2 of the Companies
+Act, 2013 (18 of 2013);]
+
+(h) corresponding new bank shall have the meaning assigned to it in clause (da) of section 5 of
+the Banking Regulation Act, 1949 (10 of 1949);
+
+^8
+[(ha) debt shall have the meaning assigned to it in clause (g) of section 2 of the Recovery of
+Debts Due to Banks and Financial Institutions Act, 1993 (51 of 1993) and includes--
+
+(i) unpaid portion of the purchase price of any tangible asset given on hire or financial lease
+or conditional sale or under any other contract;
+
+(ii) any right, title or interest on any intangible asset or licence or assignment of such
+intangible asset, which secures the obligation to pay any unpaid portion of the purchase price of
+such intangible asset or an obligation incurred or credit otherwise extended to enable any
+borrower to acquire the intangible asset or obtain licence of such asset;]
+
+(i) Debts Recovery Tribunal means the Tribunal established under sub-section (1) of section 3
+of the Recovery of Debts due to Banks and Financial Institutions Act, 1993 (51 of 1993);
+
+^9
+[(ia) debt securities means debt securities listed in accordance with the regulations made by
+the Board under the Securities and Exchange Board of India Act,1992 (15 of 1992);]
+
+^10
+[(j) default means--
+
+(i) non-payment of any debt or any other amount payable by the borrower to any secured
+creditor consequent upon which the account of such borrower is classified as non-performing
+asset in the books of account of the secured creditor; or
+
+(ii) non-payment of any debt or any other amount payable by the borrower with respect to
+debt securities after notice of ninety days demanding payment of dues served upon such borrower
+by the debenture trustee or any other authority in whose favour security interest is created for the
+benefit of holders of such debt securities;]
+
+(k) financial assistance means any loan or advance granted or any debentures or bonds
+subscribed or any guarantees given or letters of credit established or any other credit facility extended
+by any bank or financial institution^11
+[including funds provided for the purpose of acquisition of any tangible asset on hire or financial lease or conditional sale or under any other contract or obtaining
+assignment or licence of any intangible asset or purchase of debt securities;]
+
+(l) financial asset means debt or receivables and includes--
+
+(i) a claim to any debt or receivables or part thereof, whether secured or unsecured; or
+
+(ii) any debt or receivables secured by, mortgage of, or charge on, immovable property; or
+
+(iii) a mortgage, charge, hypothecation or pledge of movable property; or
+
+(iv) any right or interest in the security, whether full or part underlying such debt or
+receivables; or
+
+(v) any beneficial interest in property, whether movable or immovable, or in such debt,
+receivables, whether such interest is existing, future, accruing, conditional or contingent; or
+
+^12
+[(va) any beneficial right, title or interest in any tangible asset given on hire or financial lease
+or conditional sale or under any other contract which secures the obligation to pay any unpaid
+portion of the purchase price of such asset or an obligation incurred or credit otherwise provided
+to enable the borrower to acquire such tangible asset; or
+
+(vb) any right, title or interest on any intangible asset or licence or assignment of such
+intangible asset, which secures the obligation to pay any unpaid portion of the purchase price of
+such intangible asset or an obligation incurred or credit otherwise extended to enable the
+borrower to acquire such intangible asset or obtain licence of the intangible asset; or]
+
+(vi) any financial assistance;
+
+(m)financial institution means--
+
+(i) a public financial institution within the meaning of section 4A of the Companies Act, 1956
+(1 of 1956);
+
+(ii) any institution specified by the Central Government under sub-clause (ii) of clause (h) of
+section 2 of the Recovery of Debts Due to Banks and Financial Institutions Act, 1993
+(51 of 1993);
+
+(iii) the International Finance Corporation established under the International Finance
+Corporation (Status, Immunities and Privileges ) Act, 1958 (42 of 1958);
+
+^13
+[(iiia) a debenture trustee registered with the Board and appointed for secured debt
+securities;
+
+(iiib) asset reconstruction company, whether acting as such or managing a trust created for
+the purpose of securitisation or asset reconstruction, as the case may be;]
+
+(iv) any other institution or non-banking financial company as defined in clause (f) of section
+45-I of the Reserve Bank of India Act, 1934 (2 of 1934), which the Central Government may, by
+notification, specify as financial institution for the purposes of this Act;
+
+^14
+[(ma) financial lease means a lease under any lease agreement of tangible asset, other than
+negotiable instrument or negotiable document, for transfer of lessor's right therein to the lessee for a
+certain time in consideration of payment of agreed amount periodically and where the lessee becomes
+the owner of the such assets at the expiry of the term of lease or on payment of the agreed residual
+amount, as the case may be;]
+
+(n) hypothecation means a charge in or upon any movable property, existing or future, created
+by a borrower in favour of a secured creditor without delivery of possession of the movable property
+to such creditor, as a security for financial assistance and includes floating charge and crystallization
+of such charge into fixed charge on movable property;
+
+^15
+[(na) negotiable document means a document, which embodies a right to delivery of tangible
+assets and satisfies the requirements for negotiability under any law for the time being in force
+including warehouse receipt and bill of lading;]
+
+(o) non-performing asset means an asset or account of a borrower, which has been classified by
+a bank or financial institution as sub-standard, ^16
+[doubtful or loss asset,
+
+(a) in case such bank or financial institution is administered or regulated by any authority or
+body established, constituted or appointed by any law for the time being in force, in accordance
+with the directions or guidelines relating to assets classifications issued by such authority or body;
+
+(b) in any other case, in accordance with the directions or guidelines relating to assets
+classifications issued by the Reserve Bank];
+
+(p) notification means a notification published in the Official Gazette;
+
+(q) obligor means a person liable to the originator, whether under a contract or otherwise, to
+pay a financial asset or to discharge any obligation in respect of a financial asset, whether existing,
+future, conditional or contingent and includes the borrower;
+
+(r) originator means the owner of a financial asset which is acquired by a ^17
+[asset reconstruction
+company]for the purpose of securitisation or asset reconstruction;
+
+(s) prescribed means prescribed by rules made under this Act;
+
+(t) property means--
+
+(i) immovable property;
+
+(ii) movable property;
+
+(iii) any debt or any right to receive payment of money, whether secured or unsecured;
+
+(iv) receivables, whether existing or future;
+
+(v) intangible assets, being know-how, patent, copyright, trade mark, licence, franchise or any
+other business or commercial right of similar nature^18
+[as may be prescribed by the Central
+Government in consultation with Reserve Bank];
+
+(u)
+^19
+[qualified buyer] means a financial institution, insurance company, bank, state
+financial corporation, state industrial development corporation, ^20
+[trustee or ^21
+[asset reconstruction
+company]which has been granted a certificate of registration under sub-section (4) of section 3 or
+any asset management company making investment on behalf of mutual fund] or a foreign
+institutional investor registered under the Securities and Exchange Board of India Act, 1992
+(15 of 1992) or regulations made thereunder,^22
+[any category of non-institutional investors as may
+be specified by the Reserve Bank under sub-section (1) of section 7] or any other body corporate
+as may be specified by the Board;
+
+^13
+* * * * *
+
+(w) Registrar of Companies means the Registrar defined in clause (40) of section 2 of the
+Companies Act, 1956 (1 of 1956);
+
+(x) Reserve Bank means the Reserve Bank of India constituted under section 3 of the Reserve
+Bank of India Act, 1934 (2 of 1934);
+
+(y) scheme means a scheme inviting subscription to security receipts proposed to be issued by a
+^14
+[asset reconstruction company]under that scheme;
+
+(z) securitisation means acquisition of financial assets by any ^14
+[asset reconstruction
+company]from any originator, whether by raising of funds by such ^14
+[asset reconstruction
+company]from ^15
+[qualified buyers]by issue of security receipts representing undivided interest in such
+financial assets or otherwise;
+
+^13
+* * * * *
+
+(zb) security agreement means an agreement, instrument or any other document or arrangement
+under which security interest is created in favour of the secured creditor including the creation of
+mortgage by deposit of title deeds with the secured creditor;
+
+(zc) secured asset means the property on which security interest is created;
+
+^16
+[(zd) secured creditor' means--
+
+(i) any bank or financial institution or any consortium or group of banks or financial
+institutions holding any right, title or interest upon any tangible asset or intangible asset as
+specified in clause (l);
+
+(ii) debenture trustee appointed by any bank or financial institution; or
+
+(iii) an asset reconstruction company whether acting as such or managing a trust set up by
+such asset reconstruction company for the securitisation or reconstruction, as the case may be; or
+
+(iv) debenture trustee registered with ^17[the Board and appointed] for secured debt
+securities; or
+
+(v) any other trustee holding securities on behalf of a bank or financial institution,
+in whose favour security interest is created by any borrower for due repayment of any financial
+assistance.]
+
+(ze) secured debt means a debt which is secured by any security interest;
+
+^18
+[(zf) security interest means right, title or interest of any kind, other than those specified in
+section 31, upon property created in favour of any secured creditor and includes--
+
+(i) any mortgage, charge, hypothecation, assignment or any right, title or interest of any kind,
+on tangible asset, retained by the secured creditor as an owner of the property, given on hire or
+financial lease or conditional sale or under any other contract which secures the obligation to pay
+any unpaid portion of the purchase price of the asset or an obligation incurred or credit provided
+to enable the borrower to acquire the tangible asset; or
+
+(ii) such right, title or interest in any intangible asset or assignment or licence of such
+intangible asset which secures the obligation to pay any unpaid portion of the purchase price of
+the intangible asset or the obligation incurred or any credit provided to enable the borrower to
+acquire the intangible asset or licence of intangible asset;]
+
+(zg) security receipt means a receipt or other security, issued by a ^19
+[asset reconstruction
+company]to any ^20
+[qualified buyer]pursuant to a scheme, evidencing the purchase oracquisition by the
+holder thereof, of an undivided right, title orinterest in the financial asset involved in securitisation;
+
+(zh) sponsor means any person holding not less than ten per cent. of the paid-up equity capital
+of a ^21
+[asset reconstruction company];
+
+(zi) State Bank of India means the State Bank of India constituted under section 3 of the State
+Bank of India Act, 1955 (23 of 1955);
+
+(zj) subsidiary bank shall have the meaning assigned to it in clause (k) of section 2 of the State
+Bank of India (Subsidiary Banks) Act, 1959 (38 of 1959).
+
+(2) Words and expressions used and not defined in this Act but defined in the Indian Contract Act,
+1872 (9 of 1872) or the transfer of Property Act, 1882 (4 of 1882) or the Companies Act, 1956
+(1 of 1956) or the Securities and Exchange Board of India Act 1992 (15 of 1992) shall have the same
+meanings respectively assigned to them in those Acts.
+
+### Footnotes
+
+1. Subs. by s. 3, ibid., for securitisation company or reconstruction company (w.e.f. 1-9-2016).
+
+2. Ins. by s. 4, ibid. (w.e.f. 1-9-2016).
+
+3. Ins. by Act 1 of 2013, s. 2 (w.e.f. 15-1-2013).
+
+4.Subs. by Act 13 of 2021, s. 162, for any person who (w.e.f. 1-4-2021).
+
+5. Subs. by s. 162, ibid., for and includes a person who (w.e.f. 1-4-2021).
+
+6. Subs. by Act 44 of 2016, s. 3, for securitisation company or reconstruction company (w.e.f. 1-9-2016).
+
+7. Ins. by s. 4, ibid. (w.e.f. 1-9-2016).
+
+8. Subs. by s. 4, ibid., for clause (ha) (w.e.f. 1-9-2016).
+
+9. Subs. by s. 4, ibid., for clause (j) (w.e.f. 1-9-2016).
+
+10. Ins. by Act 44 of 2016, s. 4 (w.e.f. 1-9-2016).
+
+11. Ins. by Act 44 of 2016, s. 4 (w.e.f. 1-9-2016).
+
+12. Subs. by Act 30 of 2004, s. 2, for certain words (w.e.f. 11-11-2004).
+
+13. Subs. by Act 44 of 2016, s. 3, for 'securitisation company or reconstruction company (w.e.f. 1-9-2016).
+
+14. Subs. by s. 3, ibid., for qualified institutional buyer (w.e.f. 1-9-2016).
+
+15. Omitted by Act 44 of 2016, s. 4 (w.e.f. 1-9-2016).
+
+16. Subs. by s. 3,ibid.,for securitisation company or reconstruction company (w.e.f. 1-9-2016).
+
+17.Subs. by Act 13 of 2021, s. 162, for the Board appointed by any company (w.e.f. 1-4-2021).
+
+18. Subs. by s. 3, ibid., for qualified institutional buyers (w.e.f. 1-9-2016).
+
+19. Subs. by s. 4, ibid., for clause (zd) (w.e.f. 1-9-2016).
+
+20. Subs. by s. 4, ibid., for clause (zf) (w.e.f. 1-9-2016).
+
+21. Subs. by Act 44 of 2016, s. 3, for securitisation company or reconstruction company (w.e.f. 1-9-2016).
+
+22. Subs. by s. 3,ibid.,for qualified institutional buyer (w.e.f. 1-9-2016).
+
+## Section 3 - Registration of asset reconstruction companies.
+
+3. Registration of ^1[asset reconstruction companies].--(1) No ^2[asset reconstruction company] shall
+commence or carry on the business of securitisation or asset reconstruction without--
+
+(a) obtaining a certificate of registration granted under this section; and
+
+^3[(b) having net owned fund of not less than two crore rupees or such other higher amount as the
+Reserve Bank, may, by notification, specify;]
+
+Provided that the Reserve Bank may, by notification, specify different amounts of owned fund for
+different class or classes of ^2[asset reconstruction companies]:
+
+Provided further that a ^1[asset reconstruction company], existing on the commencement of this Act,
+shall make an application for registration to the Reserve Bank before the expiry of six months from such
+commencement and notwithstanding anything contained in this sub-section may continue to carry on the
+business of securitisation or asset reconstruction until a certificate of registration is granted to it or, as the
+case may be, rejection of application for registration is communicated to it.
+
+(2) Every ^1[asset reconstruction company] shall make an application for registration to the Reserve
+Bank in such form and manner as it may specify.
+
+(3) The Reserve Bank may, for the purpose of considering the application for registration of a ^1[asset reconstruction company] to commence or carry on the business of securitisation or asset reconstruction, as
+the case may be, require to be satisfied, by an inspection of records or books of such ^1[asset reconstruction
+company], or otherwise, that the following conditions are fulfilled, namely:--
+
+(a) that the ^1[asset reconstruction company] has not incurred losses in any of the three preceding
+financial years;
+
+(b) that such ^1[asset reconstruction company] has made adequate arrangements for realisation of the financial assets acquired for the purpose of securitisation or asset reconstruction and shall be able
+to pay periodical returns and redeem on respective due dates on the investments made in the company
+by the ^4[qualified buyers]or other persons;
+
+(c) that the directors of ^1[asset reconstruction company] have adequate professional experience in
+matters related to finance, securitisation and reconstruction;
+
+^5* * * * *
+
+(e) that any of its directors has not been convicted of any offence involving moral turpitude;
+
+^6[(f) that a sponsor of an asset reconstruction company is a fit and proper person in accordance
+with the criteria as may be specified in the guidelines issued by the Reserve Bank for such persons;]
+
+(g) that ^1[asset reconstruction company] has complied with or is in a position to comply with
+prudential norms specified by the Reserve Bank;
+
+^7[(h) that ^1[asset reconstruction company] has complied with one or more conditions specified in
+the guidelines issued by the Reserve Bank for the said purpose.]
+
+(4) The Reserve Bank may, after being satisfied that the conditions specified in sub-section (3) are
+fulfilled, grant a certificate of registration to the ^1[asset reconstruction company] to commence or carry on
+on business of securitisation or asset reconstruction, subject to such conditions, which it may consider, fit to impose.
+
+(5) The Reserve Bank may reject the application made under sub-section (2) if it is satisfied that the
+conditions specified in sub-section (3) are not fulfilled:
+
+Provided that before rejecting the application, the applicant shall be given a reasonable opportunity of
+being heard.
+
+(6) Every ^1[asset reconstruction company] shall obtain prior approval of the Reserve Bank for any
+substantial change in its management ^8[including appointment of any director on the board of directors of
+the asset reconstruction company or managing director or chief executive officer thereof] or change of
+location of its registered office or change in its name:
+
+Provided that the decision of the Reserve Bank, whether the change in management of a ^1[asset
+reconstruction company] is a substantial change in its management or not, shall be final.
+
+Explanation.--For the purposes of this section, the expression "substantial change in management"
+means the change in the management by way of transfer of shares or ^8[change affecting the sponsorship in
+in the company by way of transfer of shares or] amalgamation or transfer of the business of the company.
+
+### Footnotes
+
+1. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+2. Subs. bys. 3,ibid., for "securitisation companies or reconstruction companies" (w.e.f. 1-9-2016).
+
+3. Subs. by s. 5, ibid., for clause (b) (w.e.f. 1-9-2016).
+
+4. Subs. bys. 3,ibid.,for "qualified institutional buyers" (w.e.f. 1-9-2016).
+
+5. Omitted by s. 5, ibid. (w.e.f. 1-9-2016).
+
+6. Subs. by s. 5, ibid., for clause (f) (w.e.f. 1-9-2016).
+
+7. Ins. by Act 30 of 2004, s. 3 (w.e.f. 11-11-2004).
+
+8. Ins. by s. 5, ibid. (w.e.f. 1-9-2016).
+
+## Section 4 - Cancellation of certificate of registration.
+
+(1) The Reserve Bank may cancel a certificate of
+registration granted to a ^1[asset reconstruction company], if such company--
+
+(a) ceases to carry on the business of securitisation or asset reconstruction; or
+
+(b) ceases to receive or hold any investment from a ^2[qualified buyer]; or
+
+(c) has failed to comply with any conditions subject to which the certificate of registration has
+been granted to it; or
+
+(d) at any time fails to fulfil any of the conditions referred to in clauses (a) to (g) of sub-section
+(3) of section 3; or
+
+(e) fails to--
+
+(i) comply with any direction issued by the Reserve Bank under the provisions of this Act; or
+
+(ii) maintain accounts in accordance with the requirements of any law or any direction or
+order issued by the Reserve Bank under the provisions of this Act; or
+
+(iii) submit or offer for inspection its books of account or other relevant documents when so demanded by the Reserve Bank; or
+
+(iv) obtain prior approval of the Reserve Bank required under sub-section (6) of section 3:
+
+Provided that before cancelling a certificate of registration on the ground that the ^3[asset reconstruction company] has failed to comply with the provisions of clause (c) or has failed to fulfil any
+of the conditions referred to in clause (d) or sub-clause (iv) of clause (e), the Reserve Bank, unless it is of
+the opinion that the delay in cancelling the certificate of registration granted under
+sub-section (4) of section 3 shall be prejudicial to the public interest or the interests of the investors or the
+^3[asset reconstruction company], shall give an opportunity to such company on such terms as the Reserve
+Bank may specify for taking necessary steps to comply with such provisions or fulfilment of such
+conditions.
+
+(2) A ^3[asset reconstruction company] aggrieved by the order of ^5*** cancellation of certificate of
+registration may prefer an appeal, within a period of thirty days from the date on which ^6[such order of
+cancellation] is communicated to it, to the Central Government:
+
+Provided that before rejecting an appeal such company shall be given a reasonable opportunity of
+being heard.
+
+(3) A ^3[asset reconstruction company], which is holding investments of ^7[qualified buyers] and whose
+whose application for grant of certificate of registration has been rejected or certificate of registration has
+been cancelled shall, notwithstanding such rejection or cancellation be deemed to be a ^3[asset
+reconstruction company]until it repays the entire investments held by it (together with interest, if any)
+within such period as the Reserve Bank may direct.
+
+### Footnotes
+
+1. Subs. by s. 3, ibid., for "securitisation company or a reconstruction company" (w.e.f. 1-9-2016).
+
+2. Subs. by Act 44 of 2016, s. 3, for "qualified institutional buyer" (w.e.f. 1-9-2016).
+
+3. Subs. by s. 3,ibid.,for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+4. Subs. by s. 3, ibid., for "securitisation company or the reconstruction company" (w.e.f. 1-9-2016).
+
+5. The words "rejection of application for registration or" omitted by Act 30 of 2004, s. 4 (w.e.f. 11-11-2004).
+
+6. Subs. bys. 4,ibid.,for "such order of rejection or cancellation" (w.e.f. 11-11-2004).
+
+7. Subs. by Act 44 of 2016, s. 3, for "qualified institutional buyers" (w.e.f. 1-9-2016).
+
+## Section 5 - Acquisition of rights or interest in financial assets.
+
+(1) Notwithstanding anything contained in
+any agreement or any other law for the time being in force, any ^1[asset reconstruction company] may
+acquire financial assets of any bank or financial institution--
+
+(a) by issuing a debenture or bond or any other security in the nature of debenture, for
+consideration agreed upon between such company and the bank or financial institution, incorporating
+therein such terms and conditions as may be agreed upon between them; or
+
+(b) by entering into an agreement with such bank or financial institution for the transfer of such
+financial assets to such company on such terms and conditions as may be agreed upon between them.
+
+^2[(1A) Any document executed by any bank or financial institution under sub-section (1) in favour of
+the asset reconstruction company acquiring financial assets for the purposes of asset reconstruction or
+securitisation shall be exempted from stamp duty in accordance with the provisions of section 8F of the
+Indian Stamp Act, 1899 (2 of 1899):
+
+Provided that the provisions of this sub-section shall not apply where the acquisition of the financial
+assets by the asset reconstruction company is for the purposes other than asset reconstruction or
+securitisation.]
+
+(2) If the bank or financial institution is a lender in relation to any financial assets acquired under
+sub-section (1) by the ^3[asset reconstruction company], such ^4[asset reconstruction company] shall, on
+such acquisition, be deemed to be the lender and all the rights of such bank or financial institution shall
+vest in such company in relation to such financial assets.
+
+^2[(2A) If the bank or financial institution is holding any right, title or interest upon any tangible asset
+or intangible asset to secure payment of any unpaid portion of the purchase price of such asset or an
+obligation incurred or credit otherwise provided to enable the borrower to acquire the tangible asset or
+assignment or licence of intangible asset, such right, title or interest shall vest in the asset reconstruction
+company on acquisition of such assets under sub-section (1).]
+
+(3) Unless otherwise expressly provided by this Act, all contracts, deeds, bonds, agreements, powers of-attorney,
+grants of legal representation, permissions, approvals, consents or no-objections under any law or otherwise and other instruments of whatever nature which relate to the said financial asset and
+which are subsisting or having effect immediately before the acquisition of financial asset under
+sub-section (1) and to which the concerned bank or financial institution is a party or which are in favour
+of such bank or financial institution shall, after the acquisition of the financial assets, be of as full force
+and effect against or in favour of the ^4[asset reconstruction company], as the case may be, and may be
+enforced or acted upon as fully and effectually as if, in the place of the said bank or financial institution, ^4[asset reconstruction company], as the case may be, had been a party thereto or as if they had been issued
+in favour of ^4[asset reconstruction company], as the case may be.
+
+(4) If, on the date of acquisition of financial asset under sub-section (1), any suit, appeal or other
+proceeding of whatever nature relating to the said financial asset is pending by or against the bank or
+financial institution, save as provided in the third proviso to sub-section (1) of section 15 of the Sick
+Industrial Companies (Special Provisions) Act, 1985 (1 of 1986) the same shall not abate, or be
+discontinued or be, in any way, prejudicially affected by reason of the acquisition of financial asset by
+the^4[asset reconstruction company], as the case may be, but the suit, appeal or other proceeding may be
+continued, prosecuted and enforced by or against the ^4[asset reconstruction company], as the case may be.
+
+^5[(5) On acquisition of financial assets under sub-section (1), the ^4[asset reconstruction company],
+may with the consent of the originator, file an application before the Debts Recovery Tribunal or the
+Appellate Tribunal or any court or other Authority for the purpose of substitution of its name in any
+pending suit, appeal or other proceedings and on receipt of such application, such Debts Recovery
+Tribunal or the Appellate Tribunal or court or Authority shall pass orders for the substitution of the ^4[asset reconstruction company] in such pending suit, appeal or other proceedings.]
+
+### Footnotes
+
+1. Subs. by s. 3,ibid.,for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+2. Ins. by Act 44 of 2016, s. 6 (w.e.f. 1-9-2016).
+
+3. Subs. by s. 3, ibid., for "securitisation company or the reconstruction company" (w.e.f. 1-9-2016).
+
+4. Subs. by s. 3, ibid,, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+5. Ins. by Act 1 of 2013, s. 3 (w.e.f. 15-1-2013).
+
+## Section 5A - Transfer of pending applications to any one of Debts Recovery Tribunals in certain cases.
+
+^1[5A.Transfer of pending applications to any one of Debts Recovery Tribunals in certain
+cases.-- (1) If any financial asset, of a borrower acquired by a ^2[asset reconstruction company], comprise
+of secured debts of more than one bank or financial institution for recovery of which such banks or
+financial institutions has filed applications before two or more Debts Recovery Tribunals the ^2[asset reconstruction company]may file an application to the Appellate Tribunal having jurisdiction over any of
+such Tribunals in which such applications are pending for transfer of all pending applications to any one
+of the Debts Recovery Tribunals as it deems fit.
+
+(2) On receipt of such application for transfer of all pending applications under sub-section (1), the
+Appellate Tribunal may, after giving the parties to the application an opportunity of being heard, pass an
+order for transfer of the pending applications to any one of the Debts Recovery Tribunals.
+
+(3) Notwithstanding anything contained in the Recovery of Debts Due to Banks and Financial
+Institutions Act, 1993 (51 of 1993), any order passed by the Appellate Tribunal under sub-section (2)
+shall be binding on all the Debts Recovery Tribunals referred to in sub-section (1) as if such order had
+been passed by the Appellate Tribunal having jurisdiction on each such Debts Recovery Tribunal.
+
+(4) Any recovery certificate, issued by the Debts Recovery Tribunal to which all the pending
+applications are transferred under sub-section(2), shall be executed in accordance with the provisions
+contained in sub-section (23) of section 19 and other provisions of the Recovery of Debts Due to Banks
+and Financial Institutions Act, 1993 (51 of 1993)shall, accordingly, apply to such execution.]
+
+### Footnotes
+
+1. Ins. by Act 30 of 2004, s. 5 (w.e.f. 11-11-2004).
+
+2. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+## Section 6 - Notice to obligor and discharge of obligation of such obligor.
+
+(1) The bank or financial
+institution may, if it considers appropriate, give a notice of acquisition of financial assets by any ^1[asset reconstruction company], to the concerned obligor and any other concerned person and to the concerned
+registering authority (including Registrar of Companies) in whose jurisdiction the mortgage, charge,
+hypothecation, assignment or other interest created on the financial assets had been registered.
+
+(2) Where a notice of acquisition of financial asset under sub-section (1) is given by a bank or
+financial institution, the obligor, on receipt of such notice, shall make payment to the concerned ^1[asset reconstruction company], as the case may be, and payment made to such company in discharge of any of
+the obligations in relation to the financial asset specified in the notice shall be a full discharge to the
+obligor making the payment from all liability in respect of such payment.
+
+(3) Where no notice of acquisition of financial asset under sub-section (1) is given by any bank or
+financial institution, any money or other properties subsequently received by the bank or financial
+institution, shall constitute monies or properties held in trust for the benefit of and on behalf of the ^1[asset
+reconstruction company], as the case may be, and such bank or financial institution shall hold such
+payment or property which shall forthwith be made over or delivered to ^1[asset reconstruction company], as the case may be, or its agent duly authorised in this behalf.
+
+### Footnotes
+
+1. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+## Section 7 - Issue of security by raising of receipts or funds by asset reconstruction company.
+
+7. Issue of security by raising of receipts or funds by ^1[asset reconstruction company].--(1)
+Without prejudice to the provisions contained in the Companies Act, 1956 (1 of 1956), the Securities
+Contracts (Regulation) Act, 1956 (42 of 1956) and the Securities and Exchange Board of India Act, 1992
+(15 of 1992), any ^1[asset reconstruction company], may, after acquisition of any financial asset under subsection
+(1) of section 5, offer security receipts to qualified institute buyers ^2[or such other category of
+investors including non-institutional investors as may be specified by the Reserve Bank in consultation
+with the Board, from time to time,] for subscription in accordance with the provisions of those Acts.
+
+(2) A ^3[asset reconstruction company] may raise funds from the ^4
+[qualified buyers] by formulating
+schemes for acquiring financial assets and shall keep and maintain separate and distinct accounts in
+respect of each such scheme for every financial asset acquired out of investments made by a ^4[qualified
+buyer] and ensure that realisations of such financial asset is held and applied towards redemption of
+investments and payment of returns assured on such investments under the relevant scheme.
+
+^5[(2A) (a) The scheme for the purpose of offering security receipts under sub-section (1) or raising
+funds under sub-section (2), may be in the nature of a trust to be managed by the ^3[asset reconstruction
+company], and the ^3[asset reconstruction company] shall hold the assets so acquired or the funds so raised for acquiring the assets, in trust for the benefit of the ^4[qualified buyers] holding the security receipts or
+from whom the funds are raised.
+
+(b) The provisions of the Indian Trusts Act, 1882 (2 of 1882) shall, except in so far as they are
+inconsistent with the provisions of this Act, apply with respect to the trust referred to in clause (a) above.]
+
+(3) In the event of non-realisation under sub-section (2) of financial assets, the ^4[qualified buyers] of a
+^3[asset reconstruction company], holding security receipts of not less than seventy-five per cent. of the
+total value of the ^6[security receipts issued under a scheme by such company], shall be entitled to call a
+meeting of all the ^4[qualified buyers]and every resolution passed in such meeting shall be binding on the
+company.
+
+(4) The ^4[qualified buyers] shall, at a meeting called under sub-section (3), follow the same
+procedure, as nearly as possible as is followed at meetings of the board of directors of the ^3[asset reconstruction company], as the case may be.
+
+### Footnotes
+
+1. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+2. Subs. by s. 7, ibid., for "(other than by offer to public)" (w.e.f. 1-9-2016).
+
+3. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+4. Subs. by s. 3, ibid., for "qualified institutional buyers" (w.e.f. 1-9-2016).
+
+5. Ins. by Act 30 of 2004, s. 6 (w.e.f. 11-11-2004).
+
+6. Subs. by s. 6, ibid., for "security receipts issued by such company" (w.e.f. 11-11-2004).
+
+## Section 8 - Exemption from registration of security receipt.
+
+Notwithstanding anything contained in
+sub-section (1) of section 17 of the Registration Act, 1908 (16 of 1908),--
+
+(a) any security receipt issued by the ^1[asset reconstruction company], as the case may be, under
+sub-section (1) of section 7, and not creating, declaring, assigning, limiting or extinguishing any right,
+title or interest, to or in immovable property except in so far as it entitles the holder of the security
+receipt to an undivided interest afforded by a registered instrument; or
+
+(b) any transfer of security receipts, shall not require compulsory registration.
+
+### Footnotes
+
+1. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+## Section 9 - Measures for assets reconstruction.
+
+^1[9. Measures for assets reconstruction.-- (1)Without prejudice to the provisions contained in any
+other law for the time being in force, an asset reconstruction company may, for the purposes of asset
+reconstruction, provide for any one or more of the following measures, namely:--
+
+(a) the proper management of the business of the borrower, by change in, or take over of, the
+management of the business of the borrower;
+
+(b) the sale or lease of a part or whole of the business of the borrower;
+
+(c) rescheduling of payment of debts payable by the borrower;
+
+(d) enforcement of security interest in accordance with the provisions of this Act;
+
+(e) settlement of dues payable by the borrower;
+
+(f) taking possession of secured assets in accordance with the provisions of this Act;
+
+(g) conversion of any portion of debt into shares of a borrower company:
+
+Provided that conversion of any part of debt into shares of a borrower company shall be deemed
+always to have been valid, as if the provisions of this clause were in force at all material times.
+
+(2) The Reserve Bank shall, for the purposes of sub-section (1), determine the policy and issue
+necessary directions including the direction for regulation of management of the business of the borrower
+and fees to be charged.
+
+(3) The asset reconstruction company shall take measures under sub-section (1) in accordance with
+policies and directions of the Reserve Bank determined under sub-section (2).]
+
+### Footnotes
+
+1. Subs. by Act 44 of 2016, s. 8, for section 9 (w.e.f. 1-9-2016).
+
+## Section 10 - Other functions of asset reconstruction company.
+
+10. Other functions of ^1[asset reconstruction company].--(1) Any ^1[asset reconstruction company]
+registered under section 3 may--
+
+(a) act as an agent for any bank or financial institution for the purpose of recovering their dues
+from the borrower on payment of such fees or charges as may be mutually agreed upon between the
+parties;
+
+(b) act as a manager referred to in clause (c) of sub-section (4) of section 13 on such fee as may
+be mutually agreed upon between the parties;
+
+(c) act as receiver if appointed by any court or tribunal:
+
+Provided that no ^1[asset reconstruction company] shall act as a manager if acting as such gives rise to
+any pecuniary liability.
+
+(2) Save as otherwise provided in sub-section (1), no ^1[asset reconstruction company] which has been
+granted a certificate of registration under sub-section (4) of section 3, shall commence or carry on,
+without prior approval of the Reserve Bank, any business other than that of securitisation or asset
+reconstruction:
+
+Provided that a ^1[asset reconstruction company] which is carrying on, on or before the
+commencement of this Act, any business other than the business of securitisation or asset reconstruction
+or business referred to in sub-section (1), shall cease to carry on any such business within one year from
+the date of commencement of this Act.
+
+Explanation.--For the purposes of this section,
+"^2[asset reconstruction company]" or
+"^3[asset reconstruction company]" does not include its subsidiary.
+
+### Footnotes
+
+1. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+2. Subs. bys. 3,ibid.,for "securitisation company" (w.e.f. 1-9-2016).
+
+3. Subs. by s. 3,ibid.,for "reconstruction company" (w.e.f. 1-9-2016).
+
+## Section 11 - Resolution of disputes.
+
+Where any dispute relating to securitisation or reconstruction or nonpayment
+of any amount due including interest arises amongst any of the parties, namely, the bank, or
+financial institution, or ^1[asset reconstruction companyor] ^2[qualified buyer], such dispute shall be settled
+settled by conciliation or arbitration as provided in the Arbitration and Conciliation Act, 1996 (26 of
+1996), as if the parties to the dispute have consented in writing for determination of such dispute by
+conciliation or arbitration and the provisions of that Act shall apply accordingly.
+
+### Footnotes
+
+1. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+2. Subs. by s. 3, ibid., for "qualified institutional buyer" (w.e.f. 1-9-2016).
+
+## Section 12 - Power of Reserve Bank to determine policy and issue directions.
+
+(1) If the Reserve Bank is
+satisfied that in the public interest or to regulate financial system of the country to its advantage or to
+prevent the affairs of any ^1[asset reconstruction company] from being conducted in a manner detrimental
+to the interest of investors or in any manner prejudicial to the interest of such ^1[asset reconstruction
+company], it is necessary or expedient so to do, it may determine the policy and give directions to all or
+any ^1[asset reconstruction company]in matters relating to income recognition, accounting standards,
+making provisions for bad and doubtful debts, capital adequacy based on risk weights for assets and also
+relating to deployment of funds by the ^1[asset reconstruction company], as the case may be, and such
+company shall be bound to follow the policy so determined and the directions so issued.
+
+(2) Without prejudice to the generality of the power vested under sub-section (1), the Reserve Bank
+may give directions to any ^1
+[asset reconstruction company] generally or to a class of ^2
+[asset reconstruction
+companies] or to any ^1
+[asset reconstruction company] in particular as to--
+
+(a) the type of financial asset of a bank or financial institution which can be acquired and
+procedure for acquisition of such assets and valuation thereof;
+
+(b) the aggregate value of financial assets which may be acquired by any ^1[asset reconstruction
+company].
+
+^3
+[(c) the fee and other charges which may be charged or incurred for management of financial
+assets acquired by any asset reconstruction company;
+
+(d) transfer of security receipts issued to qualified buyers.]
+
+### Footnotes
+
+1. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+2. Subs. by s. 3, ibid., for "securitisation companies or reconstruction companies" (w.e.f. 1-9-2016).
+
+3. Ins. by s. 9, ibid. (w.e.f. 1-9-2016).
+
+## Section 12A - Power of Reserve Bank to call for statements and information.
+
+^1[12A. Power of Reserve Bank to call for statements and information.-- The Reserve Bank may
+at any time direct a ^2[asset reconstruction company] to furnish it within such time as may be specified by
+the Reserve Bank, with such statements and information relating to the business or affairs of such ^2[asset
+reconstruction company] (including any business or affairs with which such company is concerned) as the
+Reserve Bank may consider necessary or expedient to obtain for the purposes of this Act.]
+
+### Footnotes
+
+1. Ins. by Act 30 of 2004, s. 7 (w.e.f. 11-11-2004).
+
+2. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016).
+
+## Section 12B - Power of Reserve Bank to carry out audit and inspection.
+
+^1[12B. Power of Reserve Bank to carry out audit and inspection.-- (1) The Reserve Bank may, for
+the purposes of this Act, carry out or caused to be carried out audit and inspection of an asset
+reconstruction company from time to time.
+
+(2) It shall be the duty of an asset reconstruction company and its officers to provide assistance and
+cooperation to the Reserve Bank to carry out audit or inspection under sub-section (1).
+
+(3) Where on audit or inspection or otherwise, the Reserve Bank is satisfied that business of an asset
+reconstruction company is being conducted in a manner detrimental to public interest or to the interests of
+investors in security receipts issued by such asset reconstruction company, the Reserve Bank may, for
+securing proper management of an asset reconstruction company, by an order--
+
+(a) remove the Chairman or any director or appoint additional directors on the board of directors
+of the asset reconstruction company; or
+
+(b) appoint any of its officers as an observer to observe the working of the board of directors of
+such asset reconstruction company:
+
+Provided that no order for removal of Chairman or director under clause (a) shall be made except
+after giving him an opportunity of being heard.
+
+(4) It shall be the duty of every director or other officer or employee of the asset reconstruction
+company to produce before the person, conducting an audit or inspection under sub-section (1), all such
+books, accounts and other documents in his custody or control and to provide him such statements and
+information relating to the affairs of the asset reconstruction company as may be required by such person
+within the stipulated time specified by him.]
+
+### Footnotes
+
+1. Ins. by Act 44 of 2016, s. 10 (w.e.f. 1-9-2016).
+
+## Section 13 - Enforcement of security interest.
+
+(1) Notwithstanding anything contained in section 69 or
+section 69A of the Transfer of Property Act, 1882 (4 of 1882), any security interest created in favour of
+any secured creditor may be enforced, without the intervention of the court or tribunal, by such creditor in
+accordance with the provisions of this Act.
+
+(2) Where any borrower, who is under a liability to a secured creditor under a security agreement,
+makes any default in repayment of secured debt or any instalment thereof, and his account in respect of
+such debt is classified by the secured creditor as non-performing asset, then, the secured creditor may
+require the borrower by notice in writing to discharge in full his liabilities to the secured creditor within
+sixty days from the date of notice failing which the secured creditor shall be entitled to exercise all or any
+of the rights under sub-section (4).
+
+^1[Provided that--
+
+(i) the requirement of classification of secured debt as non-performing asset under this
+sub-section shall not apply to a borrower who has raised funds through issue of debt securities; and
+
+(ii) in the event of default, the debenture trustee shall be entitled to enforce security interest in the
+same manner as provided under this section with such modifications as may be necessary and in
+accordance with the terms and conditions of security documents executed in favour of the debenture
+trustee.]
+
+(3) The notice referred to in sub-section (2) shall give details of the amount payable by the borrower
+and the secured assets intended to be enforced by the secured creditor in the event of non-payment of
+secured debts by the borrower.
+
+^2[(3A) If, on receipt of the notice under sub-section (2), the borrower makes any representation or
+raises any objection, the secured creditor shall consider such representation or objection and if the secured
+creditor comes to the conclusion that such representation or objection is not acceptable or tenable, he shall
+communicate ^3[within fifteen days] of receipt of such representation or objection the reasons for nonacceptance of the representation or objection to the borrower:
+
+Provided that the reasons so communicated or the likely action of the secured creditor at the stage of
+communication of reasons shall not confer any right upon the borrower to prefer an application to the
+Debts Recovery Tribunal under section 17 or the Court of District Judge under section 17A.]
+
+(4) In case the borrower fails to discharge his liability in full within the period specified in
+sub-section (2), the secured creditor may take recourse to one or more of the following measures to
+recover his secured debt, namely:--
+
+(a) take possession of the secured assets of the borrower including the right to transfer by way of
+lease, assignment or sale for realising the secured asset;
+
+^4[(b) take over the management of the business of the borrower including the right to transfer by
+way of lease, assignment or sale for realising the secured asset:
+
+Provided that the right to transfer by way of lease, assignment or sale shall be exercised only
+where the substantial part of the business of the borrower is held as security for the debt:
+
+Provided further that where the management of whole of the business or part of the business is
+severable, the secured creditor shall take over the management of such business of the borrower
+which is relatable to the security for the debt;]
+
+(c) appoint any person (hereafter referred to as the manager), to manage the secured assets the
+possession of which has been taken over by the secured creditor;
+
+(d) require at any time by notice in writing, any person who has acquired any of the secured
+assets from the borrower and from whom any money is due or may become due to the borrower, to
+pay the secured creditor, so much of the money as is sufficient to pay the secured debt.
+
+(5) Any payment made by any person referred to in clause (d) of sub-section (4) to the secured
+creditor shall give such person a valid discharge as if he has made payment to the borrower.
+
+^5[(5A) Where the sale of an immovable property, for which a reserve price has been specified, has
+been postponed for want of a bid of an amount not less than such reserve price, it shall be lawful for any
+officer of the secured creditor, if so authorised by the secured creditor in this behalf, to bid for the
+immovable property on behalf of the secured creditor at any subsequent sale.
+
+(5B) Where the secured creditor, referred to in sub-section (5A), is declared to be the purchaser of the
+immovable property at any subsequent sale, the amount of the purchase price shall be adjusted towards
+the amount of the claim of the secured creditor for which the auction of enforcement of security interest is
+taken by the secured creditor, under sub-section (4) of section 13.
+
+(5C)The provisions of section 9 of the Banking Regulation Act, 1949 (10 of 1949) shall, as far as may
+be, apply to the immovable property acquired by secured creditor under sub-section (5A).]
+
+(6) Any transfer of secured asset after taking possession thereof or take over of management under
+sub-section (4), by the secured creditor or by the manager on behalf of the secured creditor shall vest in
+the transferee all rights in, or in relation to, the secured asset transferred as if the transfer had been made
+by the owner of such secured asset.
+
+(7) Where any action has been taken against a borrower under the provisions of sub-section (4), all
+costs, charges and expenses which, in the opinion of the secured creditor, have been properly incurred by
+him or any expenses incidental thereto, shall be recoverable from the borrower and the money which is
+received by the secured creditor shall, in the absence of any contract to the contrary, be held by him in
+trust, to be applied, firstly, in payment of such costs, charges and expenses and secondly, in discharge of
+the dues of the secured creditor and the residue of the money so received shall be paid to the person
+entitled thereto in accordance with his rights and interests.
+
+^6[(8) Where the amount of dues of the secured creditor together with all costs, charges and expenses
+incurred by him is tendered to the secured creditor at any time before the date of publication of notice for
+public auction or inviting quotations or tender from public or private treaty for transfer by way of lease,
+assignment or sale of the secured assets,--
+
+(i) the secured assets shall not be transferred by way of lease assignment or sale by the secured
+creditor; and
+
+(ii) in case, any step has been taken by the secured creditor for transfer by way of lease or
+assignment or sale of the assets before tendering of such amount under this sub-section, no further
+step shall be taken by such secured creditor for transfer by way of lease or assignment or sale of such
+secured assets.]
+
+(9) ^7[Subject to the provisions of the Insolvency and Bankruptcy Code, 2016, in the case of] financing
+of a financial asset by more than one secured creditors or joint financing of a financial asset by secured
+creditors, no secured creditor shall be entitled to exercise any or all of the rights conferred on him under
+or pursuant to sub-section (4) unless exercise of such right is agreed upon by the secured creditors
+representing not less than ^8[sixty per cent.] in value of the amount outstanding as on a record date and
+such action shall be binding on all the secured creditors:
+
+Provided that in the case of a company in liquidation, the amount realised from the sale of secured
+assets shall be distributed in accordance with the provisions of section 529A of the Companies Act, 1956
+(1 of 1956):
+
+Provided further that in the case of a company being wound up on or after the commencement of this
+Act, the secured creditor of such company, who opts to realise his security instead of relinquishing his
+security and proving his debt under proviso to sub-section (1) of section 529 of the Companies Act, 1956
+(1 of 1956), may retain the sale proceeds of his secured assets after depositing the workmen's dues with
+the liquidator in accordance with the provisions of section 529A of that Act:
+
+Provided also that liquidator referred to in the second proviso shall intimate the secured creditor the
+workmen's dues in accordance with the provisions of section 529A of the Companies Act, 1956 (1 of 1956) and in case such workmen's dues cannot be ascertained, the liquidator shall intimate the estimated
+amount of workmen's dues under that section to the secured creditor and in such case the secured creditor may retain the sale proceeds of the secured assets after depositing the amount of such estimate dues with
+the liquidator:
+
+Provided also that in case the secured creditor deposits the estimated amount of workmen's dues, such
+creditor shall be liable to pay the balance of the workmen's dues or entitled to receive the excess amount,
+if any, deposited by the secured creditor with the liquidator:
+
+Provided also that the secured creditor shall furnish an undertaking to the liquidator to pay the
+balance of the workmen's dues, if any.
+
+Explanation.--For the purposes of this sub-section,--
+
+(a) "record date" means the date agreed upon by the secured creditors representing not less than
+^8[sixty per cent.] in value of the amount outstanding on such date;
+
+(b) "amount outstanding" shall include principal, interest and any other dues payable by the
+borrower to the secured creditor in respect of secured asset as per the books of account of the secured
+creditor.
+
+(10) Where dues of the secured creditor are not fully satisfied with the sale proceeds of the secured
+assets, the secured creditor may file an application in the form and manner as may be prescribed to the
+Debts Recovery Tribunal having jurisdiction or a competent court, as the case may be, for recovery of the
+balance amount from the borrower.
+
+(11) Without prejudice to the rights conferred on the secured creditor under or by this section, secured
+creditor shall be entitled to proceed against the guarantors or sell the pledged assets without first taking any of the measured specifies in clauses (a) to (d) of sub-section (4) in relation to the secured assets under
+this Act.
+
+(12) The rights of a secured creditor under this Act may be exercised by one or more of his officers
+authorised in this behalf in such manner as may be prescribed.
+
+(13) No borrower shall, after receipt of notice referred to in sub-section (2), transfer by way of sale,
+lease or otherwise (other than in the ordinary course of his business) any of his secured assets referred to
+in the notice, without prior written consent of the secured creditor.
+
+STATE AMENDMENT
+
+Jammu and Kashmir and Ladakh (UTs).--
+
+Amendment of section 13.--In sub-section (3A), in proviso thereto, omit "or the Court of District
+Judge under section 17A"
+
+[Vide Order No. 3807(E) dated 26th October, 2020, the Union Territory of Jammu and Kashmir
+Reorganisation (Adaptation of Central Laws) Third Order, 2020 (w.e.f. 26-10-2020) and Vide Union
+Territory of Ladakh Reorganisation (Adaptation of Central Laws) Order, 2020, notification No. S.O.
+3774(E), dated (23-10-2020).]
+
+### Footnotes
+
+1. Ins. by Act 44 of 2016, s. 11 (w.e.f. 1-9-2016).
+
+2. Ins. by Act 30 of 2004, s. 8(w.e.f. 11-11-2004).
+
+3. Subs. by Act 1 of 2013, s. 5, for "within one week" (w.e.f. 15-1-2013).
+
+4. Subs. by Act 30 of 2004, s. 8, for clause (b) (w.e.f. 11-11-2004).
+
+5. Ins. by Act 1 of 2013, s. 5 (w.e.f. 15-1-2013).
+
+6. Subs. by Act 44 of 2016, s. 11, for sub-section (8) (w.e.f. 1-9-2016).
+
+7. Subs. by Act 31 of 2016, s. 251 and The Seventh Schedule, for "In the case of" (w.e.f. 15-11-2016)
+
+8. Subs. by Act 1 of 2013, s. 5, for "three-fourth" (w.e.f. 15-1 -2013).
+
+## Section 14 - Chief Metropolitan Magistrate or District Magistrate to assist secured creditor in taking possession of secured asset.
+
+(1) Where the possession of any secured assets is required to be taken by
+the secured creditor or if any of the secured assets is required to be sold or transferred by the secured
+creditor under the provisions of this Act, the secured creditor may, for the purpose of taking possession or
+control of any such secured assets, request, in writing, the Chief Metropolitan Magistrate or the District
+Magistrate within whose jurisdiction any such secured asset or other documents relating thereto may be
+situated or found, to take possession thereof, and the Chief Metropolitan Magistrate or as the case may be,
+the District Magistrate shall, on such request being made to him--
+
+(a) take possession of such asset and documents relating thereto; and
+
+(b) forward such asset and documents to the secured creditor:
+
+^1[Provided that any application by the secured creditor shall be accompanied by an affidavit duly
+affirmed by the authorised officer of the secured creditor, declaring that---
+
+(i) the aggregate amount of financial assistance granted and the total claim of the Bank as on the
+date of filing the application;
+
+(ii) the borrower has created security interest over various properties and that the Bank or
+Financial Institution is holding a valid and subsisting security interest over such properties and the
+claim of the Bank or Financial Institution is within the limitation period;
+
+(iii) the borrower has created security interest over various properties giving the details of
+properties referred to in sub-clause (ii)above;
+
+(iv) the borrower has committed default in repayment of the financial assistance granted
+aggregating the specified amount;
+
+(v) consequent upon such default in repayment of the financial assistance the account of the
+borrower has been classified as a non-performing asset;
+
+(vi) affirming that the period of sixty days notice as required by the provisions of sub-section (2)
+of section 13, demanding payment of the defaulted financial assistance has been served on the
+borrower;
+
+(vii) the objection or representation in reply to the notice received from the borrower has been
+considered by the secured creditor and reasons for non-acceptance of such objection or representation
+had been communicated to the borrower;
+
+(viii) the borrower has not made any repayment of the financial assistance in spite of the above
+notice and the Authorised Officer is, therefore, entitled to take possession of the secured assets under
+the provisions of sub-section (4) of section 13 read with section 14 of the principal Act;
+
+(ix) that the provisions of this Act and the rules made thereunder had been complied with:
+
+Provided further that on receipt of the affidavit from the Authorised Officer, the District Magistrate or
+the Chief Metropolitan Magistrate, as the case may be, shall after satisfying the contents of the affidavit
+pass suitable orders for the purpose of taking possession of the secured assets ^2[within a period of thirty
+days from the date of application:]
+
+^2[Provided also that if no order is passed by the Chief Metropolitan Magistrate or District Magistrate
+within the said period of thirty days for reasons beyond his control, he may, after recording reasons in
+writing for the same, pass the order within such further period but not exceeding in aggregate sixty days.]
+
+Provided also that the requirement of filing affidavit stated in the first proviso shall not apply to
+proceeding pending before any District Magistrate or the Chief Metropolitan Magistrate, as the case may
+be, on the date of commencement of this Act.]
+
+^3[(1A) The District Magistrate or the Chief Metropolitan Magistrate may authorise any officer
+subordinate to him,--
+
+(i) to take possession of such assets and documents relating thereto; and
+
+(ii) to forward such assets and documents to the secured creditor.]
+
+(2) For the purpose of securing compliance with the provisions of sub-section (1), the Chief
+Metropolitan Magistrate or the District Magistrate may take or cause to be taken such steps and use, or
+cause to be used, such force, as may, in his opinion, be necessary.
+
+(3) No act of the Chief Metropolitan Magistrate or the District Magistrate ^1[any officer authorised by the Chief Metropolitan Magistrate or District Magistrate] done in pursuance of this section shall be called
+in question in any court or before any authority.
+
+### Footnotes
+
+1. Ins. by Act 1 of 2013, s. 6 (w.e.f. 15-1-2013).
+
+2. Ins. by Act 44 of 2016, s. 12 (w.e.f. 1-9-2016).
+
+3. Ins. by Act 1 of 2013, s. 6 (w.e.f. 15-1-2013).
+
+## Section 15 - Manner and effect of take over of management.
+
+(1) ^1[When the management of business of a
+borrower is taken over by a ^2[asset reconstruction companyunder clause (a) of section 9 or, as the case
+may be, by a secured creditor under clause (b) of sub-section (4) of section 13], the secured creditor may,
+by publishing a notice in a newspaper published in English language and in a newspaper published in an
+Indian language in circulation in the place where the principal office of the borrower is situated, appoint
+as many persons as it thinks fit--
+
+(a) in a case in which the borrower is a company as defined in the Companies Act, 1956 (1 of
+1956), to be the directors of that borrower in accordance with the provisions of that Act; or
+
+(b) in any other case, to be the administrator of the business of the borrower.
+
+(2) On publication of a notice under sub-section (1),--
+
+(a) in any case where the borrower is a company as defined in the Companies Act,
+1956 (1 of 1956), all persons holding office as directors of the company and in any other case, all
+persons holding any office having power of superintendence, direction and control of the business of
+the borrower immediately before the publication of the notice under sub-section (1), shall be deemed
+to have vacated their offices as such;
+
+(b) any contract of management between the borrower and any director or manager thereof
+holding office as such immediately before publication of the notice under sub-section (1),
+shall be
+deemed to be terminated;
+
+(c) the directors or the administrators appointed under this section shall take such steps as may be
+necessary to take into their custody or under their control all the property, effects and actionable
+claims to which the business of the borrower is, or appears to be, entitled and all the property and
+effects of the business of the borrower shall be deemed to be in the custody of the directors or
+administrators, as the case may be, as from the date of the publication of the notice;
+
+(d) the directors appointed under this section shall, for all purposes, be the directors of the
+company of the borrower and such directors or as the case may be, the administrators appointed under
+this section, shall alone be entitled to exercise all the powers of the directors or as the case may be, of
+the persons exercising powers of superintendence, direction and control, of the business of the
+borrower whether such powers are derived from the memorandum or articles of association of the
+company of the borrower or from any other source whatsoever.
+
+(3) Where the management of the business of a borrower, being a company as defined in the
+Companies Act, 1956 (1 of 1956), is taken over by the secured creditor, then, notwithstanding anything
+contained in the said Act or in the memorandum or articles of association of such borrower,--
+
+(a) it shall not be lawful for the shareholders of such company or any other person to nominate or
+appoint any person to be a director of the company;
+
+(b) no resolution passed at any meeting of the shareholders of such company shall be given effect
+to unless approved by the secured creditor;
+
+(c) no proceeding for the winding up of such company or for the appointment of a receiver in
+respect thereof shall lie in any court, except with the consent of the secured creditor.
+
+(4) Where the management of the business of a borrower had been taken over by the secured creditor,
+the secured creditor shall, on realisation of his debt in full, restore the management of the business of the
+borrower to him.
+
+^3[Provided that if any secured creditor jointly with other secured creditors or any asset reconstruction
+company or financial institution or any other assignee has converted part of its debt into shares of a
+borrower company and thereby acquired controlling interest in the borrower company, such secured
+creditors shall not be liable to restore the management of the business to such borrower.]
+
+### Footnotes
+
+1. Subs. by Act 30 of 2004, s. 9, for "When the management of business of a borrower is taken over by a secured creditor"
+(w.e.f. 11-11-2004).
+
+2. Subs. by Act 44 of 2016, s. 3, for "securitisation company or reconstruction company" (w.e.f. 1-9-2016)
+
+3. Ins. by Act 44 of 2016, s. 13 (w.e.f. 1-9-2016).
+
+## Section 16 - No compensation to directors for loss of office.
+
+(1) Notwithstanding anything to the contrary
+contained in any contract or in any other law for the time being in force, no managing director or any
+other director or a manager or any person in charge of management of the business of the borrower shall
+be entitled to any compensation for the loss of office or for the premature termination under this Act of
+any contract of management entered into by him with the borrower.
+
+(2) Nothing contained in sub-section (1) shall affect the right of any such managing director or any
+other director or manager or any such person in charge of management to recover from the business of the
+borrower, moneys recoverable otherwise than by way of such compensation.
+
+## Section 17 - Application against measures to recover secured debts.
+
+17. ^1[Application against measures to recover secured debts].-- (1) Any person (including
+borrower), aggrieved by any of the measures referred to in sub-section (4) of section 13 taken by the
+secured creditor or his authorised officer under this Chapter,
+^2[may make an application along with such
+fee, as may be prescribed,] to the Debts Recovery Tribunal having jurisdiction in the matter within fortyfive
+days from the date on which such measure had been taken:
+
+^3[Provided that different fees may be prescribed for making the application by the borrower and the
+person other than the borrower.]
+
+^4[Explanation.--For the removal of doubts, it is hereby declared that the communication of the
+reasons to the borrower by the secured creditor for not having accepted his representation or objection or
+the likely action of the secured creditor at the stage of communication of reasons to the borrower shall not
+entitle the person (including borrower) to make an application to the Debts Recovery Tribunal under this
+sub-section.]
+
+^5[(1A) An application under sub-section (1) shall be filed before the Debts Recovery Tribunal within
+the local limits of whose jurisdiction--
+
+(a) the cause of action, wholly or in part, arises;
+
+(b) where the secured asset is located; or
+
+(c) the branch or any other office of a bank or financial institution is maintaining an account in
+which debt claimed is outstanding for the time being.]
+
+^6[(2) The Debts Recovery Tribunal shall consider whether any of the measures referred to in
+sub-section (4) of section 13 taken by the secured creditor for enforcement of security are in accordance
+with the provisions of this Act and the rules made thereunder.
+
+^7[(3) If, the Debts Recovery Tribunal, after examining the facts and circumstances of the case and
+evidence produced by the parties, comes to the conclusion that any of the measures referred to in
+sub-section (4) of section 13, taken by the secured creditor are not in accordance with the provisions of
+this Act and the rules made thereunder, and require restoration of the management or restoration of
+possession, of the secured assets to the borrower or other aggrieved person, it may, by order,--
+
+(a) declare the recourse to any one or more measures referred to in sub-section (4) of section 13
+taken by the secured creditor as invalid; and
+
+(b) restore the possession of secured assets or management of secured assets to the borrower or
+such other aggrieved person, who has made an application under sub-section (1), as the case may be;
+and
+
+(c) pass such other direction as it may consider appropriate and necessary in relation to any of the
+recourse taken by the secured creditor under sub-section (4) of section 13.]
+
+(4) If, the Debts Recovery Tribunal declares the recourse taken by a secured creditor under
+sub-section (4) of section 13, is in accordance with the provisions of this Act and the rules made
+thereunder, then, notwithstanding anything contained in any other law for the time being in force, the
+secured creditor shall be entitled to take recourse to one or more of the measures specified under
+sub-section (4) of section 13 to recover his secured debt.
+
+^8[(4A) Where--
+
+(i) any person, in an application under sub-section (1), claims any tenancy or leasehold rights
+upon the secured asset, the Debt Recovery Tribunal, after examining the facts of the case and
+evidence produced by the parties in relation to such claims shall, for the purposes of enforcement of
+security interest, have the jurisdiction to examine whether lease or tenancy,--
+
+(a) has expired or stood determined; or
+
+(b) is contrary to section 65A of the Transfer of Property Act, 1882 (4 of 1882); or
+
+(c) is contrary to terms of mortgage; or
+
+(d) is created after the issuance of notice of default and demand by the Bank under subsection
+(2) of section 13 of the Act; and
+
+(ii) the Debt Recovery Tribunal is satisfied that tenancy right or leasehold rights claimed in
+secured asset falls under the sub-clause (a) or sub-clause (b) or sub-clause (c) or sub-clause (d) of
+clause (i), then notwithstanding anything to the contrary contained in any other law for the time being
+in force, the Debt Recovery Tribunal may pass such order as it deems fit in accordance with the
+provisions of this Act.]
+
+(5) Any application made under sub-section (1) shall be dealt with by the Debts Recovery Tribunal as
+expeditiously as possible and disposed of within sixty days from the date of such application:
+
+Provided that the Debts Recovery Tribunal may, from time to time, extend the said period for reasons
+to be recorded in writing, so, however, that the total period of pendency of the application with the Debts
+Recovery Tribunal, shall not exceed four months from the date of making of such application made under
+sub-section (1).
+
+(6) If the application is not disposed of by the Debts Recovery Tribunal within the period of four
+months as specified in sub-section (5), any part to the application may make an application, in such form
+as may be prescribed, to the Appellate Tribunal for directing the Debts Recovery Tribunal for expeditious
+disposal of the application pending before the Debts Recovery Tribunal and the Appellate Tribunal may,
+on such application, make an order for expeditious disposal of the pending application by the Debts
+Recovery Tribunal.
+
+(7) Save as otherwise provided in this Act, the Debts Recovery Tribunal shall, as far as may be,
+dispose of the application in accordance with the provisions of the Recovery of Debts Due to Banks and
+Financial Institutions Act, 1993 (51 of 1993) and the rules made thereunder.]
+
+### Footnotes
+
+1. Subs. by s. 14, ibid., for "Right to appeal" (w.e.f. 1-9-2016).
+
+2. Subs. by Act 30 of 2004, s. 10, for "may prefer an appeal" (w.e.f. 21-6-2002).
+
+3. Ins. by s. 10, ibid. (w.e.f. 21-6-2002).
+
+4. Ins. by s. 10, ibid. (w.e.f. 11-11-2004).
+
+5. Ins. by Act 44 of 2016, s. 14 (w.e.f. 1-9-2016).
+
+6. Subs. by Act 30 of 2004, s.10, for sub-sections (2) and (3) (w.e.f. 11-11-2004).
+
+7. Subs. by Act 44 of 2016, s. 14, for sub-section (3) (w.e.f. 1-9-2016).
+
+8. Ins. by Act 44 of 2016, s. 14 (w.e.f. 1-9-2016).
+
+## Section 17A - Making of application to Court of District Judge in certain cases.
+
+17A. [Making of application to Court of District Judge in certain cases.] Omitted by the Jammu and
+Kashmir Reorganization (Adaptation of Central Laws) Order, 2020, vide notification No. S.O. 1123(E)
+dated (18-3-2020) and Vide Union Territory of Ladakh Reorganisation (Adaptation of Central Laws)
+Order, 2020, notification No. S.O. 3774(E), dated (23-10-2020).
+
+## Section 18 - Appeal to Appellate Tribunal.
+
+(1) Any person aggrieved, by any order made by the Debts
+Recovery Tribunal ^1[under section 17, may prefer an appeal along with such fee, as may be prescribed]to
+the Appellate Tribunal within thirty days from the date of receipt of the order of Debts Recovery
+Tribunal.
+
+^2[Provided that different fees may be prescribed for filing an appeal by the borrower or by the person
+other than the borrower:]
+
+^3[Provided further that no appeal shall be entertained unless the borrower has deposited with the
+Appellate Tribunal fifty per cent. of the amount of debt due from him, as claimed by the secured creditors
+or determined by the Debts Recovery Tribunal, whichever is less:
+
+Provided also that the Appellate Tribunal may, for the reasons to be recorded in writing, reduce the
+amount to not less than twenty-five per cent. of debt referred to in the second proviso.]
+
+(2) Save as otherwise provided in this Act, the Appellate Tribunal shall, as far as may be, dispose of
+the appeal in accordance with the provisions of the Recovery of Debts Due to Banks and Financial
+Institutions Act, 1993 (51 of 1993) and rules made thereunder.
+
+### Footnotes
+
+1. Subs. by Act 30 of 2004, s. 12, for "under section 17, may prefer an appeal" (w.e.f. 21-6-2002).
+
+2. Ins. by s. 12, ibid. (w.e.f. 21-6-2002).
+
+3. Ins. by s. 12, ibid. (w.e.f. 11-11-2004).
+
+## Section 18A - Validation of fees levied.
+
+^1[18A. Validation of fees levied.--Any fee levied and collected for preferring, before the
+commencement of the Enforcement of Security Interest and Recovery of Debts Laws (Amendment) Act,
+2004, an appeal to the Debts Recovery Tribunal or the Appellate Tribunal under this Act, shall be deemed
+always to have been levied and collected in accordance with law as if the amendments made to sections
+17 and 18 of this Act by sections 10 and 12 of the said Act were in force at all material times.]
+
+### Footnotes
+
+1 . Ins. by s. 13, ibid. (w.e.f. 11-11-2004).
+
+## Section 18B - Appeal to High Court in certain cases.
+
+18B. [Appeal to High Court in certain cases.] Omitted by the Jammu and Kashmir Reorganization
+(Adaptation of Central Laws) Order, 2020, vide notification No. S.O. 1123(E) dated (18-3-2020) and Vide
+Union Territory of Ladakh Reorganisation (Adaptation of Central Laws) Order, 2020, notification
+No. S.O. 3774(E), dated (23-10-2020).

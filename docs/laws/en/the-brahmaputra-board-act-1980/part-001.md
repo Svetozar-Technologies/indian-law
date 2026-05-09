@@ -1,0 +1,535 @@
+---
+title: "The Brahmaputra Board Act, 1980"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1810"
+---
+# The Brahmaputra Board Act, 1980
+
+Language: English
+Part 1 of 1
+Sections: 1 to 30
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1810
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1810/1/198046.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/rulesindividualfile/&file=brahmputra_board_rules_1981.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/rulesindividualfile/&file=brahmputra_board_amendment_rules_1992.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/rulesindividualfile/&file=brahmputra_board_act_rules_1996.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/regulationindividualfile/&file=brahmputra_board_act_regulation_1986.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_24_10_1988.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_10_09_1992..pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_02_11_1993.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_18_12_2005.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1810/3/H1980-46.pdf
+
+## Section 1 - Short title and commencement.
+
+(1) This Act may be called the Brahmaputra Board Act, 1980.
+
+(2) It shall come into force on such date ^1
+as the Central Government may, by notification in the
+Official Gazette, appoint.
+
+### Footnotes
+
+1 31st December, 1981, vide notification No. G.S.R. 677(E), dated 28th December, 1981, see Gazette of India, Extraordinary, Part II, sec. 3(i).
+
+## Section 2 - Declaration as to expediency of control by the Union.
+
+It is hereby declared that it is expedient
+in the public interest that the Central Government should take under its control the regulation and
+development of the inter-State Brahmaputra river valley to the extent hereinafter provided.
+
+## Section 3 - Definitions.
+
+In this Act, unless the context otherwise requires,--
+
+(a) "Board" means the Brahmaputra Board established under section 4;
+
+(b) "Brahmaputra Valley" means the inter-State Brahmaputra river valley as demarcated under
+section 11;
+
+(c) "Fund" means the Brahmaputra Board Fund constituted under section 19;
+
+(d) "Master Plan" means the Master Plan for the control of floods, bank erosion and improvement
+of drainage in the Brahmaputra Valley prepared under section 12 and includes, where it is prepared in
+parts, each such part;
+
+(e) "member" means a member of the Board;
+
+(f) "prescribed" means prescribed by rules made under this Act;
+
+(g) "regulations" means regulations made by the Board under this Act;
+
+(h) "rules" means rules made by the Central Government under this Act;
+
+(i) "State Government", in relation to a Union territory, means the administrator thereof
+appointed under article 239 of the Constitution.
+
+## Section 4 - Establishment and incorporation of the Brahmaputra Board.
+
+(1) With effect from such date
+as the Central Government may, by notification in the Official Gazette, appoint in this behalf, there shall
+be established for the purposes of this Act a Board, to be called the Brahmaputra Board.
+
+(2) The Board shall be a body corporate by the name aforesaid, having perpetual succession and a
+common seal with power, subject to the provisions of this Act, to acquire, hold and dispose of property,
+both movable and immovable, and to contract and shall by the said name sue and be sued.
+
+(3) The Board shall consist of the following members, namely:--
+
+(a) a Chairman and a Vice-Chairman to be appointed by the Central Government;
+
+(b) the General Manager of the Board and the Financial Adviser to the Board, ex officio;
+
+(c) a member each to represent respectively the Governments of Assam, Meghalaya, Nagaland,
+Manipur and Tripura and the Administrations of Arunachal Pradesh and Mizoram, and the NorthEastern Council constituted under section 3 of the North-Eastern Council Act, 1971 (84 of 1971), to
+be appointed by the Central Government;
+
+(d) a member each to represent respectively the Ministries of the Central Government dealing
+with agriculture, irrigation, finance, power and transport to be appointed by the Central Government;
+
+(e) a member each to represent respectively the Central Water Commission, the Central
+Electricity Authority, the Geological Survey of India, the India Meteorological Department, to be
+appointed by the Central Government.
+
+(4) If any member, for infirmity or otherwise, is incapable of carrying out his duties or is absent on
+leave otherwise than in circumstances not involving the vacation of his appointment, the Central
+Government may appoint another person to act in his place.
+
+(5) Any officer of the Central Government, not being a member of the Board, if deputed by that
+Government in this behalf, shall have the right to attend the meetings of the Board and take part in the
+proceedings thereof, but shall not be entitled to vote.
+
+(6) The Board may associate with itself, in such manner and for such purposes as may be determined
+by regulations, any person whose assistance or advice it may desire in complying with any of the
+provisions of this Act and a person so associated shall have the right to take part in the discussions of the
+Board relevant to the purpose for which he has been associated, but shall not be entitled to vote.
+
+(7) No act or proceeding of the Board shall be invalidated merely by reason of--
+
+(a) any vacancy in, or any defect in the constitution of, the Board; or
+
+(b) any defect in the appointment of a person acting as a member of the Board; or
+
+(c) any irregularity in the procedure of the Board not affecting the merits of the case.
+
+(8) Subject to any rules made under this Act, the Board may constitute a Standing Committee
+consisting of the General Manager of the Board, Financial Adviser to the Board and three other members
+of the Board.
+
+(9) The Standing Committee constituted under sub-section (8) shall perform, exercise and discharge
+such of the functions, powers and duties of the Board as may be prescribed or as may be delegated to it by
+the Board.
+
+## Section 5 - Conditions of service of members.
+
+The term of office of the members (other than the ex officio
+members) and other conditions of service of the members shall be such as may be prescribed.
+
+## Section 6 - Powers of Chairman and Vice-Chairman.
+
+(1) The Chairman shall, in addition to presiding
+over the meetings of the Board, exercise and discharge such powers and duties of the Board as may be
+delegated to him by the Board and such other powers and duties as may be prescribed.
+
+(2) The Vice-Chairman of the Board shall exercise and discharge such of the powers and duties of the
+Chairman as may be prescribed or as may be delegated to him by the Chairman.
+
+## Section 7 - General Manager.
+
+(1) The Central Government shall appoint the General Manager of the Board.
+
+(2) The terms and conditions of service of the General Manager shall be such as may be prescribed.
+
+(3) Subject to the general superintendence and control of the Board and the Chairman of the Board,
+the General Manager shall be the Chief Executive Authority of the Board.
+
+(4) The General Manager shall exercise and discharge such of the powers and duties of the Chairman
+as may be prescribed or, as may be delegated to him by the Chairman, and such other powers and duties
+as may be prescribed by rules or determined by regulations.
+
+## Section 8 - Financial Adviser.
+
+(1) The Central Government shall appoint the Financial Adviser to the
+Board.
+
+(2) The terms and conditions of service of the Financial Adviser shall be such as may be prescribed.
+
+## Section 9 - Chief Engineers, Secretary and other officers.
+
+(1) The Central Government shall appoint--
+
+(a) two Chief Engineers to assist the General Manager of the Board; and
+
+(b) the Secretary to the Board.
+
+(2) The Board may appoint such other officers and employees as it considers necessary for the
+efficient discharge of its functions under this Act.
+
+(3) The terms and conditions of service of the Chief Engineers, the Secretary and other officers and
+employees of the Board shall be such as may be determined by regulations.
+
+## Section 10 - Advisory Committees.
+
+Subject to any rules made in this behalf, the Board may from time to
+time constitute such Advisory Committees as may be necessary for the efficient discharge of its functions.
+
+## Section 11 - Limits of the Brahmaputra Valley.
+
+(1) As soon as may be after the commencement of this
+Act, the Central Government shall, by notification in the Official Gazette, demarcate the limits of the
+Brahmaputra Valley for the purposes of this Act.
+
+(2) The Board shall perform such of its functions and exercise such of the powers within such areas in
+the Brahmaputra Valley as the Central Government may, by notification in the Official Gazette, specify
+from time to time:
+
+Provided that before issuing any notification in respect of any area under this sub-section, the Central
+Government shall consult the Government of the State within which such area is situated.
+
+## Section 12 - Master Plan for the control of floods, etc., in the Brahmaputra Valley.
+
+(1) Subject to the
+other provisions of this Act and the rules, the Board shall carry out surveys and investigations in the
+Brahmaputra Valley and prepare a Master Plan for the control of floods and bank erosion and
+improvement of drainage in the Brahmaputra Valley:
+
+Provided that the Board may prepare the Master Plan in parts with reference to different areas of the
+Brahmaputra Valley or with reference to different matters relating to such areas and may, as often as it
+considers necessary so to do, revise the Master Plan or any part thereof.
+
+(2) In preparing the Master Plan, the Board shall have regard to the development and utilization of the
+water resources of the Brahmaputra Valley for irrigation, hydro power, navigation and other beneficial
+purposes and shall, as far as possible, indicate in such plan the works and other measures which may be
+undertaken for such development.
+
+(3) The Master Plan shall be submitted to the Central Government as soon as may be after it has been
+prepared or, as the case may be, revised and the Central Government shall, after consultation with the
+State Governments concerned, approve the same subject to such modifications as it may deem fit.
+
+## Section 13 - Other functions of the Board.
+
+(1) The Board shall also--
+
+(a) prepare detailed reports and estimates in respect of the dams and other projects proposed in
+the Master Plan as approved by the Central Government and indicate in each case the cost attributable
+to different purposes or uses;
+
+(b) draw up standards and specifications for the construction, operation and maintenance of such
+dams and other projects;
+
+(c) construct, with the approval of the Central Government, multi-purpose dams and works
+connected therewith proposed in the Master Plan as approved by the Central Government and
+maintain and operate such dams and works;
+
+(d) prepare, in consultation with the State Governments concerned, a phased programme for the
+construction by the State Governments of all dams and other projects proposed in the Master Plan as
+approved by the Central Government other than those referred to in clause (c);
+
+(e) perform any other such function which may be prescribed for the proper implementation of
+this Act;
+
+(f) perform such other functions as are supplemental, incidental or consequential to the functions
+specified in section 12 or in clauses (a) to (d), or prescribed under clause (e), of this sub-section.
+
+(2) Notwithstanding anything contained in clause (d) of sub-section (1), the Board may, with the prior
+approval of the Central Government, construct any dam or project referred to in that clause if it is
+satisfied, having regard to the cost of construction, and the expertise required for the construction, of any
+such dam or project, that it is expedient so to do.
+
+(3) The Board may maintain and operate any dam or project referred to in sub-section (2) for so long
+as it deems it necessary so to do.
+
+Explanation.--For the purposes of this section, "multi-purpose dam" means a dam which is
+constructed for purposes of flood control and for other purposes.
+
+## Section 14 - Conditions subject to which the Board may perform its functions.
+
+The performance by the
+Board of the functions specified in, or prescribed under, sections 12 and 13 shall be subject to the
+following conditions, namely:--
+
+(a) no multi-purpose dam referred to in clause (c) of sub-section (1) of section 13 shall be
+constructed by the Board unless the State Governments concerned make available the land required
+for the purpose;
+
+(b) no dam or project referred to in clause (d) of sub-section (1) of section 13 shall be constructed
+by the Board unless the State Governments concerned make available free of cost the land required
+for its execution and also undertake to take over its maintenance on and from the expiry of such
+period after its completion as may be specified by the Board;
+
+(c) no dam or other works shall be undertaken by the Board unless the State Governments
+concerned agree to provide all such assistance as may be required for the construction , operation and
+maintenance thereof;
+
+(d) such other conditions (including conditions relating to the sharing by the State Governments
+concerned of the whole or any part of cost of dam or other works constructed by the Board) as may be
+specified by the Central Government by general or special order published in the Official Gazette:
+
+Provided that before undertaking the construction of any such dam or other works, the Board shall
+apprise the State Governments concerned of the cost of construction of, and the benefits likely to accrue
+from, such dam or other works and the proportion in which the State Governments shall share such cost
+and benefits:
+
+Provided further that if the Board and the State Governments are unable to agree in respect of the
+sharing of the cost and benefits of any such dam or other works, the Board shall refer the matter to the
+Central Government for decision and the Central Government shall decide such matter after consulting
+the State Governments and the decision of the Central Government shall be final.
+
+## Section 15 - General powers of the Board.
+
+(1) Subject to the provisions of this Act and the rules, the Board
+shall have the power to do anything which may be necessary or expedient for the purpose of performing
+its functions under this Act.
+
+(2) Without prejudice to the generality of the provisions of sub-section (1), the Board may--
+
+(a) publish statistics or other information relating to various aspects of flood control, bank erosion
+and drainage in the Brahmaputra Valley;
+
+(b) require the State Governments concerned to furnish to it information relating to the measures
+undertaken by them for the control of floods and bank erosion and improvement of drainage in the
+Brahmaputra Valley, topographical, meteorological and hydrological and other related data and such
+other information as the Board may require for the performance of its functions under this Act.
+
+## Section 16 - Forwarding of, and Consultation with respect to, plans, etc., prepared by the Board.
+
+(1) The Board shall forward copies of the Master Plan, reports, estimates, standards and
+specifications prepared by it to the Central Government and the State Governments concerned.
+
+(2) The Central Government and the State Governments concerned may consult the Board with
+regard to any matters connected with, or arising out of, such plan, reports, estimates or standards and
+specifications.
+
+(3) If, for any reason, a State Government considers it necessary to execute any project for the control
+of floods and bank erosion and drainage work in the Brahmaputra Valley and such project is not
+envisaged in the Master Plan or such project is intended to be executed by the State Government in a
+manner not in conformity with the Master Plan, the State Government may consult the Board with regard
+to the execution of the project and the Board may make such recommendations as it may deem fit:
+
+Provided that nothing contained in this sub-section shall be construed as imposing any requirement on
+any State Government to consult the Board with regard to the execution of any works which have become
+urgently necessary by reason of any emergency or other extraordinary circumstances.
+
+## Section 17 - Directions and instructions by Central Government.
+
+(1) The Central Government may, from
+time to time, issue to the Board such directions and instructions as it may deem necessary for the efficient
+administration of this Act and the Board shall carry out such directions and instructions.
+
+(2) In particular and without prejudice to the generality of the provisions of sub-section (1), the
+Central Government may, while granting (whether directly or through the Board and after due
+appropriation made by Parliament by law in that behalf) any financial assistance, by way of loans or
+grants for the execution by any State Government of any dam or other project referred to in clause (d) of
+sub-section (1) of section 13 after obtaining the approval of the State Government in this behalf, direct the
+Board to exercise all such powers as may be necessary for satisfying itself that the works are being
+executed in accordance with the standards and specifications laid down therefor by the Board.
+
+## Section 18 - Grants and loans by Central Government.
+
+The Central Government may, after due
+appropriation made by Parliament by law in this behalf, pay to the Board such sums of money as the
+Central Government may consider necessary.
+
+## Section 19 - Constitution of Brahmaputra Board Fund.
+
+(1) There shall be constituted a Fund to be called
+the Brahmaputra Board Fund and there shall be credited thereto the sums paid to the Board by the Central
+Government or by any State Government and all other sums received by the Board.
+
+(2) The Fund shall be applied--
+
+(a) for meeting the salary, allowances and other remuneration of the members, officers and other
+employees of the Board and other administrative expenses of the Board;
+
+(b) for meeting the expenditure on surveys and investigations undertaken by the Board;
+
+(c) for meeting the cost of construction, operation and maintenance of projects undertaken by the
+Board;
+
+(d) for meeting the other expenses of the Board in the discharge of its functions under this Act ;
+and
+
+(e) if any sums are received by the Board under sub-section (2) of section 17, for the payment of
+such sums to the State Governments concerned.
+
+## Section 20 - Budget.
+
+The Board shall prepare, in such form and at such time each year as may be prescribed,
+its budget for the next financial year, showing the estimated expenditure, the amount of expenditure
+which any State Government has undertaken to provide for, and forward the same to the Central
+Government.
+
+## Section 21 - Annual report.
+
+The Board shall prepare, in such form and at such time each year as may be
+prescribed, its annual report, giving a full account of its activities during the previous year, and forward
+copies thereof to the Central Government and that Government shall cause the same to be laid before each
+House of Parliament.
+
+## Section 22 - Accounts and audit.
+
+The accounts of the Board shall be maintained and audited in such manner
+as may, in consultation with the Comptroller and Auditor-General of India, be prescribed.
+
+## Section 23 - Disputes between the Board and the State Governments.
+
+(1) If any dispute arises between
+the Board and any State Government regarding any matter covered by this Act or touching or arising out
+of it, it shall be referred to the Central Government.
+
+(2) The Central Government shall endeavour to resolve the dispute by negotiations or conciliation in
+such manner as may be prescribed.
+
+(3) Notwithstanding anything contained in sub-section (2), if the Central Government considers,
+whether before initiating action for resolving a dispute by negotiations or conciliation or at any stage after
+initiating such action, that the dispute is of such a nature that it is necessary or expedient to refer it to
+arbitration, the Central Government shall , in such form and in such manner as may be prescribed, refer
+the matter in dispute to an arbitrator who shall be appointed by the Chief Justice of India.
+
+(4) The arbitrator may appoint two or more persons as assessors to assist him in the proceedings
+before him.
+
+(5) The decision of the arbitrator shall be final and binding on the parties to the dispute and shall be
+given effect to by them.
+
+(6) Nothing in the Arbitration Act, 1940 (10 of 1940) shall apply to any arbitration under this section.
+
+## Section 24 - Removal, etc., of members.
+
+(1) The Central Government may remove from the Board any
+member who, in its opinion,
+
+(a) refuses to act,
+
+(b) has become incapable to act,
+
+(c) has so abused his office as a member so as to render his continuance on the Board detrimental
+to the interests of the public, or
+
+(d) is otherwise unsuitable to continue as a member.
+
+(2) The Central Government may suspend any member pending an inquiry against him.
+
+(3) No order or removal under this section shall be made unless the member concerned has been
+given an opportunity to submit his explanation to the Central Government and when such order is passed,
+the seat of the member removed shall be declared vacant.
+
+(4) A member who has been removed under this section shall not be eligible for reappointment as a
+member or in any capacity under the Board.
+
+(5) If the Board fails to carry out its functions or directions issued by the Central Government under
+this Act, the Central Government shall have power to reconstitute the Board.
+
+## Section 25 - Power to enter.
+
+Subject to any rules made in this behalf, any officer of the Board generally or
+specially authorised by the Board in this behalf, may, at all reasonable times, enter upon any land or
+premises and there do such things as may be reasonably necessary for the purpose of lawfully carrying
+out any of its works or of making any survey, examination or investigation, preliminary or incidental to
+the exercise of powers or the performance of the functions by the Board under this Act:
+
+Provided that no such officer shall enter any building or any enclosed court or garden attached to a
+dwelling house, unless with the consent of the occupier thereof, without previously giving such occupier
+at least seven days' notice in writing of his intention to do so.
+
+## Section 26 - Members, officers and employees of the Board to be public servants.
+
+All members, officers
+and employees of the Board shall be deemed, when acting or purporting to act in pursuance of any of the
+provisions of this Act, to be public servants within the meaning of section 21 of the Indian Penal
+Code (45 of 1860).
+
+## Section 27 - Protection of action taken in good faith.
+
+(1) No suit prosecution or other legal proceedings
+shall lie against the Government or any officer of the Government or any member, officer or employee of
+the Board for anything which is in good faith done or intended to be done under this Act or the rules or
+regulations.
+
+(2) No suit or other legal proceedings shall lie against the Board for any damage caused, or likely to
+be caused by anything in good faith done or purported to be done under this Act or the rules or
+regulations, and in particular, it shall not be the responsibility of the Board to provide for relief measures
+necessitated by floods or by breaches and failures of works.
+
+## Section 28 - Power to make rules.
+
+(1) The Central Government may, by notification in the Official Gazette,
+make rules to carry out the purposes of this Act.
+
+(2) Without prejudice to the generality of the foregoing power, such rules may provide for all or any
+of the following matters, namely:--
+
+(a) the matters with respect to the standing committee of the Board referred to in sub-section (8)
+and (9) of section 4;
+
+(b) the term of office of members (other than the ex officio members), and other conditions of
+service of the members, of the Board under section 5;
+
+(c) the powers and duties of the Chairman and Vice-Chairman under section 6;
+
+(d) the terms and conditions of service and the powers and duties of the General Manager under
+section 7;
+
+(e) the terms and conditions of service of the Financial Adviser under section 8;
+
+(f) the conditions and restrictions with respect to carrying out surveys and investigations and
+preparation of a Master Plan under sub-section (1) of section 12 and other matters relating thereto;
+
+(g) the additional functions of the Board under clause (e) of sub-section (1) of section 13;
+
+(h) the conditions and restrictions with respect to the general power of the Board under
+sub-section (1) of section 15 and other matters relating thereto;
+
+(i) the form in which, and the time when, the Board shall prepare its budget under section 20 and
+its annual report under section 21, and the manner in which the accounts of the Board shall be
+maintained and audited under section 22;
+
+(j) the manner in which the Central Government shall endeavour to resolve, under sub-section (2)
+of section 23, the disputes referred to therein and the form and manner in which such disputes may be
+referred, under sub-section (3) of that section, to arbitration;
+
+(k) the conditions and restrictions with respect to the exercise of the power to enter under
+section 25 and other matters relating thereto;
+
+(l) any other matter which is to be, or may be, prescribed or in respect of which provision is to be,
+or may be, made by rules.
+
+## Section 29 - Power to make regulations.
+
+(1) The Board may, with the previous approval of the Central
+Government, by notification in the Official Gazette, make regulations consistent with this Act and the
+rules generally to carry out the purposes of this Act.
+
+(2) In particular and without prejudice to the generality of the foregoing power, such regulations may
+provide for all or any of the following matters, namely:--
+
+(a) the manner in which, and the purposes for which, the Board may associate with itself any
+person under sub-section (6) of section 4;
+
+(b) the powers and duties of the General Manager of the Board which may be determined under
+sub-section (4) of section 7;
+
+(c) the terms and conditions of service of the Chief Engineers, the Secretary and other officers
+and employees of the Board under sub-section (3) of section 9;
+
+(d) any other matter in respect of which provision is to be or may be made by regulations.
+
+## Section 30 - Rules and regulations to be laid before Parliament.
+
+Every rule and every regulation made
+under this Act shall be laid, as soon as may be after it is made, before each House of Parliament, while it
+is in session, for a total period of thirty days which may be comprised in one session or in two or more
+successive sessions, and if, before the expiry of the session immediately following the session or the
+successive sessions aforesaid, both Houses agree in making any modification in the rule or regulation or
+both Houses agree that the rule or regulation should not be made, the rule or regulation shall thereafter
+have effect only in such modified form or be of no effect, as the case may be; so, however, that any such
+modification or annulment shall be without prejudice to the validity of anything previously done under
+that rule or regulation.

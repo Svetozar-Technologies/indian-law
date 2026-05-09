@@ -1118,7 +1118,7 @@ defendant;
 
 ### Footnotes
 
-` Ins. by s. 38, ibid. (w.e.f. 1-9-2016)
+```
 
 ## Section 26 - Validity of certificate and amendment thereof.
 

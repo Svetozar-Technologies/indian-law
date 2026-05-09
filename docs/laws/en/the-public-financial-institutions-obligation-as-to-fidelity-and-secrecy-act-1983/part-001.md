@@ -1,0 +1,104 @@
+---
+title: "The Public Financial Institutions (Obligation as to Fidelity and Secrecy) Act, 1983"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1821"
+---
+# The Public Financial Institutions (Obligation as to Fidelity and Secrecy) Act, 1983
+
+Language: English
+Part 1 of 1
+Sections: 1 to 6
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1821
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1821/3/A1983-48.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1821/4/H1983-48.pdf
+
+## Section 1 - Short title.
+
+This Act may be called the Public Financial Institutions (Obligation as to Fidelity and
+Secrecy) Act, 1983.
+
+## Section 2 - Definitions.
+
+(1) In this Act, "public financial institution" means--
+
+(a) the Industrial Credit and Investment Corporation of India Limited, a company formed and
+registered under the Indian Companies Act, 1913(7 of 1913);
+
+(b) the Industrial Reconstruction Corporation of India Limited, a company formed and registered
+under the Companies Act, 1956(1 of 1956); or
+
+(c) any other institution, being a company as defined in section 617 of the Companies Act,
+1956(1 of 1956) or a company to which the provisions of section 619 of that Act apply, which the
+Central Government may, having regard to the nature of the business carried on by such institution,
+by notification in the Official Gazette, specify to be a public financial institution for the purposes of
+this Act.
+
+(2) Every notification issued under clause (c) of sub-section (1) shall, as soon as may be, after it is
+issued, be laid before each House of Parliament.
+
+## Section 3 - Obligation as to fidelity and secrecy.
+
+(1) A public financial institution shall not, except as
+otherwise provided in sub-section (2) or in any other law for the time being in force, divulge any
+information relating to, or to the affairs of, its constituents except in circumstances in which it is, in
+accordance with the law or practice and usage, customary among bankers, necessary or appropriate for
+the public financial institution to divulge such information.
+
+(2) A public financial institution may, for the purpose of efficient discharge of its functions, collect
+from, or furnish to,--
+
+(a) the Central Government; or
+
+(b) the State Bank of India constituted under section 3 of the State Bank of India Act, 1955(23 of
+1955), any subsidiary bank within the meaning of the State Bank of India (Subsidiary Banks) Act,
+1959(38 of 1959), any corresponding new bank constituted under section 3 of the Banking
+Companies (Acquisition and Transfer of Undertakings) Act, 1970(5 of 1970) or under section 3 of the
+Banking Companies (Acquisition and Transfer of Undertakings) Act, 1980 (40 of 1980), any other
+scheduled bank within the meaning of the Reserve Bank of India Act, 1934(2 of 1934); or
+
+(c) any other public financial institution,
+
+such credit information or other information as it may consider useful for the purpose, in such manner and
+at such time as it may think fit.
+
+Explanation.--For the purposes of this sub-section, the expression "credit information" shall have the
+same meaning as in clause (c) of section 45A of the Reserve Bank of India Act, 1934 (2 of 1934) subject
+to the modification that the banking company referred to therein shall mean a bank referred to in clause
+(b) of this sub-section or a public financial institution.
+
+^1[(3) Nothing contained in this section shall apply to the credit information disclosed under the Credit
+Information Companies (Regulation) Act, 2005 (30 of 2005).]
+
+### Footnotes
+
+1. Ins. by Act 30 of 2005, s. 34 and the Schedule (w.e.f. 14-12-2006).
+
+## Section 4 - Declaration of fidelity and secrecy.
+
+Every director, member of any committee, auditor or
+officer or any other employee of a public financial institution to which this Act applies, shall,--
+
+(a) before entering upon his duties; or
+
+(b) where he has entered upon his duties as such before the date on which this Act became
+applicable to such institution, within thirty days from the date on which this Act became applicable to
+such institution,
+
+make a declaration of fidelity and secrecy in the form set out in the Schedule to this Act.
+
+## Section 5 - Repealed.
+
+[Amendment of Act 15 of 1948.] Rep. by the Repealing and Amending Act, 1988 (19 of 1988), s. 2 and the
+First Schedule (w.e.f. 31-3-1988).
+
+## Section 6 - Repealed.
+
+[Amendment of Act 63 of 1951.] Rep. by s. 2 and the First Schedule, ibid. (w.e.f. 31-3-1988).

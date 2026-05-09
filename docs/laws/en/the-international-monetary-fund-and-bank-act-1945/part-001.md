@@ -1,0 +1,197 @@
+---
+title: "The International Monetary Fund and Bank Act, 1945"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/2406"
+---
+# The International Monetary Fund and Bank Act, 1945
+
+Language: English
+Part 1 of 1
+Sections: 1 to 7
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/2406
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2406/1/AAA1945___47.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/2406/3/H1945-47.pdf
+
+## Section 1 - Short title, extent and commencement.
+
+(1) This ^1[Act] may be called the International
+Monetary Fund and Bank ^1[Act], 1945.
+
+(2) It extends to ^2[the whole of India ^3* * *].
+
+(3) It shall come into force at once.
+
+### Footnotes
+
+1. Subs. by Act 25 of 1959, s. 2, for "Ordinance".
+
+2. Subs. by the A.O. 1950, for "all the Provinces of India".
+
+3. The words "except Part B States" omitted by Act 3 of 1951, s. 3 and the Sch.
+
+## Section 2 - Payments to International Fund and Bank.
+
+(1) ^1[There shall be paid, after due appropriation
+made by Parliament by law in this behalf, out of the Consolidated Fund of India] all such sums as may
+from time to time be required for the purpose of paying--
+
+(a) the subscriptions payable by the Central Government, to the International Fund under
+paragraph (a) of section 3 ^2* * * of Article III of the Fund Agreement, and ^3[to the International
+Bank under paragraphs (a) and (c)] of section 3 of Article II of the Bank Agreement;
+
+(b) any sums payable by the Central Government to the International Fund under
+^4[section 11 of Article V] of the Fund Agreement, and to the International Bank under
+section 9 of Article II of the Bank Agreement;
+
+(c) any charges payable by the Central Government to the International Fund under section 8 of
+Article V ^5[, or under section 2, section 3 or section 5 of ^6[Article XX]],] of the Fund Agreement;
+
+(d) any sums required for implementing the guarantee of the Central Government referred to in
+section 3 of Article XIII of the Fund Agreement;
+
+^7[(dd) any assessments required to be paid by the Central Government to the International Fund
+under section 4 or section 5 of ^8[Article XX] of the Fund Agreement;]
+
+(e) any compensation required to be paid by the Central Government to the International Fund or
+to any member thereof under ^9[Schedule I, Schedule J or Schedule K] to the Fund Agreement.
+
+(2) The Central Government may, if it thinks fit so to do, create and issue to the International
+Fund or International Bank, in such form as it thinks fit, any such non-interest bearing and nonnegotiable notes or other obligations as are provided for by ^10[section 4] of Article III of the Fund
+Agreement and section 12 of Article V of the Bank Agreement.
+
+### Footnotes
+
+1. Subs. by Act 41 of 1969, s. 2, for certain words (w.e.f. 26-12-1981).
+
+2. Omitted by Act 67 of 1982, s. 2 (w.e.f. 15-1-1983).
+
+3. Subs. by Act 25 of 1959, s. 4, for "to the International Bank under paragraph (a)".
+
+4. Subs. by Act 67 of 1982, s. 2, for "paragraph (b) of section of Article IV" (w.e.f. 15-1-1983).
+
+5. Ins. by Act 41 of 1969, s. 2 (w.e.f. 26-12-1981).
+
+6. Subs. by Act 67 of 1982, s. 2, for "Article XXVI" (w.e.f. 15-1-1983).
+
+7. Ins by Act 41 of 1969, s. 2 (w.e.f. 26-12-1981).
+
+8. Subs. by Act 67 of 1982, s. 2, for "Article XXVI" (w.e.f. 15-1-1983).
+
+9. Subs. by s. 2, ibid., for "Schedule D or Schedule E" (w.e.f. 15-1-1983).
+
+10. Subs. by s. 2, ibid., for "section 5" (w.e.f. 15-1-1983).
+
+## Section 3 - Reserve Bank to be depository for International Fund and Bank.
+
+The Reserve Bank of
+India (hereinafter referred to as the Reserve Bank) shall be the depository of the ^1* * * Indian currency
+holdings of the International Fund and International Bank.
+
+### Footnotes
+
+1. The word "British" omitted by Act 48 of 1952, s. 3 and Sch. II.
+
+## Section 3A - Reserve Bank to use, receive, acquire, etc., special drawing rights on behalf of Central Government.
+
+^1[3A. Reserve Bank to use, receive, acquire, etc., special drawing rights on behalf of
+Central Government.--The Reserve Bank may, on behalf of the Central Government, use, receive,
+acquire, hold, transfer or operate the special drawing rights of that Government in the International Fund
+and perform all acts supplemental or incidental thereto.]
+
+### Footnotes
+
+1. Ins. by Act 41 of 1969, s. 3 (w.e.f. 26-12-1981).
+
+## Section 4 - Power to call for information.
+
+(1) Where under ^1[paragraph (b) of section 3 of Article IV or]
+section 5 of Article VIII of the Fund Agreement, the International Fund requires the Central Government
+to furnish it with any information, the Central Government, or if generally or specially authorised by the
+Central Government in this behalf, the Reserve Bank, may by order in writing require any peson to
+furnish to such officer or other person as may be specified in the order such detailed information as the
+Central Government or the Reserve Bank, as the case may be, may determine to be essential for the
+purpose of complying with the request of the International Fund; and any person so required shall be
+bound to furnish such information.
+
+(2) Every officer or person to whom any information is required to be furnished under this section
+shall be deemed to be a public servant within the meaning of section 21 of the Indian Penal Code
+(45 of 1860).
+
+(3) No information obtained under this section shall be furnished to the International Fund in such
+detail as to disclose the affairs of any person ^2***.
+
+(4) A determination of the Central Government or the Reserve Bank under sub-section (1) as to the
+extent of detail in which information is to be furnished shall be final, and in any prosecution under section
+176 or section 177 of the Indian Penal Code (45 of 1860) in respect of any information required to be
+furnished under this section, it shall not be a defence to assert that the information was required to be
+furnished in greater detail than was essential for the purpose of complying with the request of the
+International Fund.
+
+(5) No prosecution for an offence in respect of any information required to be furnished under this
+section shall be instituted except with the previous sanction of the Central Government.
+
+### Footnotes
+
+1. Ins. by Act 67 of 1982, s. 3 (w.e.f. 15-1-1983).
+
+2. Certain words omitted by s. 3, ibid. (w.e.f. 15-1-1983).
+
+## Section 5 - Certain provisions of Agreements to have force of law.
+
+Notwithstanding anything to the
+contrary contained in any other law, the provisions of the Fund and Bank Agreements set out in the
+Schedule shall have the force of law in ^1[India]:
+
+Provided that nothing in section 9 of Article IX of the Fund Agreement or in section 9 of Article VII
+of the Bank Agreement shall be construed as--
+
+(a) entitling the International Fund or International Bank to import into ^1[India] goods
+free of any duty of customs without any restriction on their subsequent sale therein, or
+
+(b) conferring on the International Fund or International Bank any exemption from duties or
+taxes which form part of the price of goods sold or which are in fact no more than charges for
+services rendered.
+
+### Footnotes
+
+1. Subs. by Act 3 of 1951, s. 3 and the Sch., for "Part A States and Part C States".
+
+## Section 6 - Repealed.
+
+[Amendment of section 17, Act 2 of 1934.] Rep. by the Repealing and Amending Act, 1952
+(48 of 1952), s. 2 and Sch.
+
+## Section 7 - Power to make rules.
+
+^1[(1)] The Central Government may, by notification in the Official
+Gazette, make rules for giving effect to the provisions set out in the Schedule, and generally for carrying
+out the purposes of this ^2[Act].
+
+^3[(2) Every rule made under this section shall be laid, as soon as may be after it is made, before
+each House of Parliament while it is in session for a total period of thirty days which may be
+comprised in one session or ^4[in two or more successive sessions], and if before the expiry of ^5[the
+session immediately following the session or the successive sessions aforesaid], both Houses agree in
+making any modification in the rule, or both Houses agree that the rule should not be made, the rule
+shall thereafter have effect only in such modified form or be of no effect, as the case may be, so
+however, that any such modification or annulment shall be without prejudice to the validity of
+anything previously done under that rule.]
+
+### Footnotes
+
+1. Renumbered as sub-section (1) by Act 25 of 1959, s. 5.
+
+2. Subs. by s. 2, ibid., for "Ordinance".
+
+3. Ins. by s. 5, ibid.
+
+4. Subs. by Act 67 of 1982, s. 4, for "in two successive sessions" (w.e.f. 15-1-1983).
+
+5. Subs. by s. 4, ibid., for certain words (w.e.f. 15-1-1983).

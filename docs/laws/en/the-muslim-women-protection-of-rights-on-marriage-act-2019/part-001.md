@@ -1,0 +1,99 @@
+---
+title: "The Muslim Women (Protection of Rights on Marriage) Act, 2019"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/11564"
+---
+# The Muslim Women (Protection of Rights on Marriage) Act, 2019
+
+Language: English
+Part 1 of 1
+Sections: 1 to 8
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/11564
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/11564/1/a2019-20.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/11564/2/H2019-20.pdf
+
+## Section 1 - Short title, extent and commencement.
+
+(1) This Act may be called the Muslim Women
+(Protection of Rights on Marriage) Act, 2019.
+
+(2) It shall extend to the whole of India except the State of Jammu and Kashmir*.
+
+(3) It shall be deemed to have come into force on the 19th day of September, 2018.
+
+### Footnotes
+
+*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu
+and Kashmir and the Union territory of Ladakh.
+
+## Section 2 - Definitions.
+
+In this Act, unless the context otherwise requires,--
+
+(a) "electronic form" shall have the same meaning as assigned to it in clause (r) of sub-section (1)
+of section 2 of the Information Technology Act, 2000 (21 of 2000);
+
+(b) "Magistrate" means a Judicial Magistrate of the first class exercising jurisdiction under the
+Code of Criminal Procedure, 1973 (2 of 1974), in the area where the married Muslim woman resides;
+and
+
+(c) "talaq" means talaq-e-biddat or any other similar form of talaq having the effect of
+instantaneous and irrevocable divorce pronounced by a Muslim husband.
+
+## Section 3 - Talaq to be void and illegal.
+
+Any pronouncement of talaq by a Muslim husband upon his wife, by words,
+either spoken or written or in electronic form or in any other manner whatsoever, shall be void and illegal.
+
+## Section 4 - Punishment for pronouncing talaq.
+
+Any Muslim husband who pronounces talaq referred to in
+section 3 upon his wife shall be punished with imprisonment for a term which may extend to three years,
+and shall also be liable to fine.
+
+## Section 5 - Subsistence allowance.
+
+Without prejudice to the generality of the provisions contained in any
+other law for the time being in force, a married Muslim woman upon whom talaq is pronounced shall be
+entitled to receive from her husband such amount of subsistence allowance, for her and dependent
+children, as may be determined by the Magistrate.
+
+## Section 6 - Custody of minor children.
+
+Notwithstanding anything contained in any other law for the time
+being in force, a married Muslim woman shall be entitled to custody of her minor children in the event of
+pronouncement of talaq by her husband, in such manner as may be determined by the Magistrate.
+
+## Section 7 - Offence to be cognizable, compoundable, etc.
+
+Notwithstanding anything contained in the Code
+of Criminal Procedure, 1973 (2 of 1974),--
+
+(a) an offence punishable under this Act shall be cognizable, if information relating to the
+commission of the offence is given to an officer in charge of a police station by the married Muslim
+woman upon whom talaq is pronounced or any person related to her by blood or marriage;
+
+(b) an offence punishable under this Act shall be compoundable, at the instance of the married
+Muslim woman upon whom talaq is pronounced or any person related to her by blood or marriage; is pronounced with the permission of the Magistrate, on such terms and conditions as he may determine;
+
+(c) no person accused of an offence punishable under this Act shall be released on bail unless the
+Magistrate, on an application filed by the accused and after hearing the married Muslim woman upon
+whom talaq is pronounced or any person related to her by blood or marriage; is pronounced, is satisfied that there are reasonable grounds for granting bail to such
+person.
+
+## Section 8 - Repeal and savings.
+
+(1) The Muslim Women (Protection of Rights on Marriage) Second
+Ordinance, 2019 (Ord. 4 of 2019) is hereby repealed.
+
+(2) Notwithstanding such repeal, anything done or any action taken under the Muslim Women
+(Protection of Rights on Marriage) Second Ordinance, 2019 (Ord. 4 of 2019), shall be deemed to have
+been done or taken under the provisions of this Act.

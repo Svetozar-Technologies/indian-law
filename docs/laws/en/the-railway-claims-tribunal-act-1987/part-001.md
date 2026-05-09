@@ -1,0 +1,681 @@
+---
+title: "The Railway Claims Tribunal Act, 1987"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1771"
+---
+# The Railway Claims Tribunal Act, 1987
+
+Language: English
+Part 1 of 1
+Sections: 1 to 30A
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1771
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1771/1/AA1987___54railway.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_842_e_railway_claims_tribunal_%28procedure%29_rules%2C_1989.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_845_e_railway_claims_tribunal_%28financial_and_administrative_powers%29_rules%2C_1989.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_844_e_railways_claims_tribunal_%28salaries_and_allownaces_and_conditions_of_services_of_chairman%2C_vice-chairman_and_members_rules%2C_1989.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_726_e_railway_claims_tribunal_%28salaries%2C_allowances_and_conditions_of_services_of_chairman%2C_vice-chairman_and_member%29_amendment_rules%2C_1991.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_185_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_service_of_chairman%2C_vice-chairmen_and_members%29_amendment_rules_1996.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_270_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_1996.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_436_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_service_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C_1996.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_59_e_raitway_claims_tribunal_%28procedure%29_amendment_rules%2C_1997.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_134_e_railway_claims_tribunal_%28group_%E2%80%98a%E2%80%99_and_%E2%80%98b%E2%80%99posts%29_recruitment_rules%2C_1997.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_536_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_service_of_chairman%2C_vice%E2%80%94chairman_and_members%29_amendment_rules%2C_1998.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_573_e_looking_after_charge_to_shri_d.shankar_vice-chairman_rct_for_the_post_of_chairman_rct%2C1998.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_96_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_service_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_719_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_835_e_railway_claims_tribunal_%28salaries_and_allowanees_and_conditions_of_service_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C_1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_733_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_service_of_chairman%2C_vice%E2%80%94chairman_and%2C_members%29_amendment_rules%2C_2000.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_386_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_service_of_chairman%2C_vice-chairman_and_members%29_amendment%2C_rules%2C_2001.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_513_e_railway_claims_tribunal_%28procedure%29_amendment%2C_rules%2C_2001.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_206_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_service_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C_2001.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_787_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2002.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_692_e_railway_claims_tribunal_%28group_%E2%80%98a%E2%80%99_and_%E2%80%98b%E2%80%99_posts%29_recruitment_%28amendment%29_rules%2C_2003.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_383_railway_claims_tribunal_%28financial_and_administrative_powers%29_amendment_rules%2C_2003.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_173_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2005.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_66_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2006.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_498_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2006.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_283_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2007.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_463_e_railway_claim_tribunal_%28group_%E2%80%98a%E2%80%99_and%E2%80%98b%E2%80%99_posts%29_recruitment_%28amendment%29_rules%2C_2008.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_625_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_service_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C_2008.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_797_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_services_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C_2008.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_828_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_services_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C_2009.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_96_e_railway_claims_tribunal_%28procedure%29_amendment_rule%2C_2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_796_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_service_of_chairman%2C_vice%E2%80%94chairman_and%2C_members%29_amendment_rules%2C_2014.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_124_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_services_of_chairman%2C_vice-chainnan_and_members%29_amendment_rules%2C_2015.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_711_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2015.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_464_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_500_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_services_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C_2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_1088_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_services_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C_2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_332_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2017.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_1060_e_railway_claims_tribunal_%28procedure%29_second_amendment_rules%2C_2017.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_642_e__railway_claims_tribunal_%28procedure_of_investigation_of_misbehaviour%2C_or_incapacity_of_the_chairman%2C_vice-chairman_and_members%29_rules%2C_1991.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_816_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2018.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_1086_e_railway_claims_tribunal_%28salaries_and_allowances_and_conditions_of_services_of_chairman%2C_vice-chairman_and_members%29_amendment_rules%2C_2018.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_1136_e_railway_claims_tribunal_%28procedure%29_second_amendment_rules%2C_2018.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_546_e_railway_claims_tribunal_%28procedure%29_amendment_rule%2C_2019.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_575_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2019.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_646_e_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2019.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_941_%28e%29_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2019.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_21_e_the_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2020.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_553_dated_14092020.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1771/3/H1987-54.pdf
+
+## Section 1 - Short title, extent and commencement.
+
+(1) This Act may be called the Railway Claims
+Tribunal Act, 1987.
+
+(2) It extends to the whole of India.
+
+(3) It shall come into force on such date^1
+as the Central Government may, by notification, appoint.
+
+### Footnotes
+
+1. 8th November, 1989, vide notification No. S.O. 783(E), dated 5th October, 1989, see Gazette of India, Extraordinary, Part II,
+sec. 3(ii).
+
+## Section 2 - Definitions.
+
+In this Act, unless the context otherwise requires,--
+
+(a) "application" means an application made under section 16;
+
+(b) "appointed day" means the date^1 with effect from which the Claims Tribunal is established
+under section 3;
+
+(c) "Bench" means a Bench of the Claims Tribunal;
+
+(d) "Chairman" means the Chairman of the Claims Tribunal;
+
+(e) "Claims Tribunal" means the Railway Claims Tribunal established under section 3;
+
+(f) "Judicial Member" means a Member of the Claims Tribunal appointed as such under this Act,
+and includes the Chairman or Vice-Chairman who possesses any of the qualifications specified in
+sub-section (3) of section 5;
+
+(g) "Member" means a Member (whether Judicial or Technical) of the Claims Tribunal, and
+includes the Chairman and Vice-Chairman;
+
+(h) "notification" means a notification published in the Official Gazette;
+
+(i) "prescribed" means prescribed by rules;
+
+(j) "Railways Act" means the Indian Railways Act, 1890 (9 of 1890);
+
+(k) "rules" means rules made under this Act;
+
+(l) "Technical Member" means a Member of the Claims Tribunal who is not a Judicial Member,
+and includes the Chairman or a Vice-Chairman who possesses any of the qualifications specified in
+sub-section (4) of section 5;
+
+(m) "Vice-Chairman" means a Vice-Chairman of the Claims Tribunal.
+
+Explanation.--References to the Vice-Chairman in this Act shall be construed as references to
+each of the Vice-Chairman;
+
+^2[(n) "untoward incident" shall have the meaning assigned to it in clause (c) of section 123 of the
+Railways Act, 1989;]
+
+^3[(o)] words and expressions used and not defined in this Act but defined in the Railways Act or
+the rules made thereunder shall have the meanings respectively assigned to them in that Act or the
+said rules.
+
+### Footnotes
+
+1. 8th November, 1989, vide notification No. S.O. 784(E), dated 5th October, 1989, see Gazette of India, Extraordinary, Part II,
+sec. 3 (ii)
+
+2. Ins. by Act 28 of 1994, s. 8 (w.e.f. 1-8-1994).
+
+3. Clause (n) re-lettered as clause (o) thereof by s. 8, ibid. (w.e.f. 1-8-1994).
+
+## Section 3 - Establishment of Railway Claims Tribunal.
+
+The Central Government shall, by notification,
+establish a Claims Tribunal, to be known as the Railway Claims Tribunal, to exercise the jurisdiction,
+powers and authority conferred on it by or under this Act ^1
+[and under Chapter VII of the Railways
+Act,1989 (24 of 1989).]
+
+### Footnotes
+
+1. Ins. by Act 7 of 2017, s. 162 (w.e.f. 26-5-2017).
+
+## Section 4 - Composition of Claims Tribunal and Benches thereof.
+
+(1) The Claims Tribunal shall consist
+of a Chairman, four Vice-Chairmen and such number of Judicial Members and Technical Members as the
+Central Government may deem fit and, subject to the other provisions of this Act, the jurisdiction, powers
+and authority of the Claims Tribunal may be exercised by Benches thereof.
+
+(2) Subject to the other provisions of this Act, a Bench shall consist of one Judicial Member and one
+Technical Member.
+
+(3) Notwithstanding anything contained in sub-section (1), the Chairman--
+
+(a) may, in addition to discharging the functions of the Judicial Member or the Technical Member
+of the Bench to which he is appointed, discharge the functions of the Judicial Member or, as the case
+may be, the Technical Member, of any other Bench;
+
+(b) may transfer a Vice-Chairman or other Member from one Bench to another Bench;
+
+(c) may authorise the Vice-Chairman or the Judicial Member or the Technical Member appointed
+to one Bench to discharge also the functions of the Vice-Chairman or, as the case may be, the Judicial
+Member or the Technical Member of another Bench.
+
+(4) Notwithstanding anything contained in the foregoing provisions of this section, it shall be
+competent for the Chairman or any other Member authorised by the Chairman in this behalf to function as
+a Bench consisting of a single Member and exercise the jurisdiction, powers and authority of the Claims
+Tribunal in respect of such classes of cases or such matters pertaining to such classes of cases as the
+Chairman may, by general or special order, specify:
+
+Provided that if at any stage of the hearing of any such case or matter, it appears to the Chairman or
+such Member that the case or matter is of such a nature that it ought to be heard by a Bench consisting of
+two Members, the case or matter may be transferred by the Chairman or, as the case may be, referred to
+him for transfer, to such Bench as the Chairman may deem fit.
+
+(5) Subject to the other provisions of this Act, the Benches shall sit at such places as the Central
+Government may, by notification, specify.
+
+## Section 5 - Qualifications for appointment as Chairman, Vice-Chairman or other Member.
+
+(1) A
+person shall not be qualified for appointment as the Chairman unless he--
+
+(a) is, or has been, a Judge of a High Court; or
+
+(b) has, for at least two years, held the office of a Vice-Chairman.
+
+(2) A person shall not be qualified for appointment as the Vice-Chairman unless he--
+
+(a) is, or has been, or is qualified to be, a Judge of a High Court; or
+
+(b) has been a member of the Indian Legal Service and has held a post in Grade I of that Service
+or any higher post for at least five years; or
+
+(c) has, for at least five years, held a civil judicial post carrying a scale of pay which is not less
+than that of a Joint Secretary to the Government of India; or
+
+(d) has, for at least five years, held a post under a railway administration carrying a scale of pay
+which is not less than that of a Joint Secretary to the Government of India and has adequate
+knowledge of rules and procedure of, and experience in, claims and commercial matters relating to
+railways; or
+
+(e) has, for a period of not less than three years, held office as a Judicial Member or a Technical
+Member.
+
+(3) A person shall not be qualified for appointment as a Judicial Member unless he--
+
+(a) is, or has been, or is qualified to be, a Judge of a High Court; or
+
+(b) has been a Member of the Indian Legal Service and has held a post in Grade I of that Service
+for at least three years; or
+
+(c) has, for at least three years, held a civil judicial post carrying a scale of pay which is not less
+than that of a Joint Secretary to the Government of India.
+
+(4) A person shall not be qualified for appointment as a Technical Member unless he has, for at least
+three years, held a post under a railway administration carrying a scale of pay which is not less than that
+of a Joint Secretary to the Government of India and has adequate knowledge of rules and procedure of,
+and experience in, claims and commercial matters relating to railways.
+
+(5) Subject to the provisions of sub-section (6), the Chairman, Vice-Chairman and every other
+Member shall be appointed by the President.
+
+(6) No appointment of a person as the Chairman shall be made except after consultation with the
+Chief Justice of India.
+
+## Section 6 - Vice-Chairman to act as Chairman or to discharge his functions in certain circumstances.
+
+(1) In
+the event of the occurrence of any vacancy in the office of the Chairman by reason of his death,
+resignation or otherwise, such one of the Vice-Chairman as the Central Government may, by notification,
+authorise in this behalf, shall act as the Chairman until the date on which a new Chairman, appointed in
+accordance with the provisions of this Act to fill such vacancy, enters upon his office.
+
+(2) When the Chairman is unable to discharge his functions owing to absence, illness or any other
+cause, such one of the Vice-Chairmen as the Central Government may, by notification, authorise in this
+behalf,shall discharge the functions of the Chairman until the date on which the Chairman resumes his
+duties.
+
+## Section 7 - Term of office.
+
+The Chairman, Vice-Chairman or other Member shall hold office as such for a
+term of five years from the date on which he enters upon his office or until he attains,--
+
+(a) in the case of the Chairman, the age of sixty-five years; and
+
+(b) in the case of the Vice-Chairman or any other Member, the age of sixty-two years,
+
+whichever is earlier.
+
+## Section 8 - Resignation and removal.
+
+(1) The Chairman, Vice-Chairman or other Member may, by notice
+in writing under his hand addressed to the President, resign his office:
+
+Provided that the Chairman, Vice-Chairman or other Member shall, unless he is permitted by the
+President to relinquish his office sooner, continue to hold office until the expiry of three months from the
+date of receipt of such notice or until a person duly appointed as his successor enters upon his office or
+until the expiry of his term of office, whichever is the earliest.
+
+(2) The Chairman, Vice-Chairman or any other Member shall not be removed from his office except
+by an order made by the President on the ground of proved misbehaviour or incapacity after an inquiry
+made by a Judge of the Supreme Court in which such Chairman, Vice-Chairman or other Member had
+been informed of the charges against him and given a reasonable opportunity of being heard in respect of
+those charges.
+
+(3) The Central Government may, by rules, regulate the procedure for the investigation of
+misbehaviour or incapacity of the Chairman, Vice-Chairman or other Member referred to in
+sub-section (2).
+
+## Section 9 - Salaries and allowances and other terms and conditions of service of Chairman, Vice-Chairman and other Members.
+
+The salaries and allowances payable to, and the other terms and
+conditions of service (including pension, gratuity and other retirement benefits) of, the Chairman,
+Vice-Chairman and other Members shall be such as may be prescribed:
+
+Provided that neither the salary and allowances nor the other terms and conditions of service of the
+Chairman, Vice-Chairman or other Members shall be varied to his disadvantage after his appointment.
+
+## Section 9A - Qualifications, terms and conditions of service of Chairman, Vice-Chairman and Member
+
+^1[9A. Qualifications, terms and conditions of service of Chairman, Vice-Chairman and
+Member.--Notwithstanding anything contained in this Act, the qualifications, appointment, term of
+office, salaries and allowances, resignation, removal and other terms and conditions of service of the
+Chairman, Vice-Chairman and other Members of the Tribunal appointed after the commencement of ^2[the
+Tribunals Reforms Act, 2021, shall be governed by the provisions of Chapter II of the said Act]:
+
+Provided that the Chairman, Vice-Chairman and Members appointed before the commencement of
+Part XIV of Chapter VI of the Finance Act, 2017, shall continue to be governed by the provisions of this
+Act, and the rules made thereunder as if the provisions of section 184 of the Finance Act, 2017, had not
+come into force.]
+
+### Footnotes
+
+1. Ins. by Act 7 of 2017, s. 162 (w.e.f. 26-5-2017).
+
+2. Subs. by Act 33 of 2021, s. 16, for Part XIV of Chapter VI of the Finance Act, 2017, shall be governed by the provisions of section 184 of that Act (w.e.f. 4-4-2021).
+
+## Section 10 - Provision as to the holding of offices by Chairman, Vice-Chairman, etc., on ceasing to be such Chairman or Vice-Chairman, etc.
+
+On ceasing to hold office--
+
+(a) the Chairman of the Claims Tribunal shall be ineligible for further employment either under
+the Government of India or under the Government of a State;
+
+(b) a Vice-Chairman shall, subject to the other provisions of this Act, be eligible for appointment
+as the Chairman of the Claims Tribunal, or as the chairman, vice-chairman or member of any other
+Tribunal established under any law for the time being in force, but not for any other employment
+either under the Government of India or under the Government of a State;
+
+(c) a Member (other than the Chairman or Vice-Chairman) shall, subject to the other provisions
+of this Act, be eligible for appointment as the Chairman or Vice-Chairman or as the chairman,
+vice-chairman or member of any other Tribunal established under any law for the time being in force,
+but not for any other employment either under the Government of India or under the Government of a
+State;
+
+(d) the Chairman, Vice-Chairman or other Member shall not appear, act or plead before the
+Claims Tribunal.
+
+Explanation.--For the purposes of this section, employment under the Government of India or under
+the Government of a State includes employment under any local or other authority within the territory of
+India or under the control of the Government of India or under any corporation or society owned or
+controlled by the Government.
+
+## Section 11 - Financial and administrative powers of Chairman.
+
+The Chairman shall exercise such
+financial and administrative powers over the Benches as may be vested in him under the rules:
+
+Provided that the Chairman shall have authority to delegate such of his financial and administrative
+powers as he may think fit to the Vice-Chairman or any other officer of the Claims Tribunal, subject to
+the condition that the Vice-Chairman or such officer shall, while exercising such delegated powers,
+continue to act under the direction, control and supervision of the Chairman.
+
+## Section 12 - Staff of Claims Tribunal.
+
+(1) The Central Government shall determine the nature and
+categories of the officers and other employees required to assist the Claims Tribunal in the discharge of
+its functions and provide the Claims Tribunal with such officers and other employees as it may think fit.
+
+(2) The officers and other employees of the Claims Tribunal shall discharge their functions under the
+general superintendence of the Chairman.
+
+(3) The salaries and allowances and conditions of service of the officers and other employees of the
+Claims Tribunal shall be such as may be prescribed.
+
+## Section 13 - Jurisdiction, powers and authority of Claims Tribunal.
+
+(1) The Claims Tribunal shall
+exercise, on and from the appointed day, all such jurisdiction, powers and authority as were exercisable
+immediately before that day by any civil court or a Claims Commissioner appointed under the provisions
+of the Railways Act,--
+
+(a) relating to the responsibility of the railway administrations as carriers under Chapter VII of
+the Railways Act in respect of claims for--
+
+(i) compensation for loss, destruction, damage, deterioration or non-delivery of animals or
+goods entrusted to a railway administration for carriage by railway;
+
+(ii) compensation payable under section 82A of the Railways Act or the rules made
+thereunder; and
+
+(b) in respect of the claims for refund of fares or part thereof or for refund of any freight paid in
+respect of animals or goods entrusted to a railway administration to be carried by railway.
+
+^1
+[(1A) The Claims Tribunal shall also exercise, on and from the date of commencement of the
+provisions of section 124A of the Railways Act, 1989 (24 of 1989), all such jurisdiction, powers and
+authority as were exercisable immediately before that date by any civil court in respect of claims for
+compensation now payable by the railway administration under section 124A of the said Act or the rules
+made thereunder.]
+
+^2
+[(1B) The Claims Tribunal shall also exercise, on and from the commencement of Part XIV of
+Chapter VI of the Finance Act, 2017 (7 of 2017), the jurisdiction, powers and authority conferred on the
+Tribunal under Chapter VII of the Railways Act,1989 (24 of 1989).]
+
+(2) The provisions of the ^3
+[Railways Act, 1989 (24 of 1989)] and the rules made thereunder shall, so
+far as may be, be applicable to the inquiring into or determining, any claims by the Claims Tribunal under
+this Act.
+
+### Footnotes
+
+1. Ins. by Act 28 of 1994, s. 9 (w.e.f. 1-8-1994).
+
+2. Ins. by Act 7 of 2017, s. 162 (w.e.f. 26-5-2017).
+
+3. Subs. by Act 28 of 1994, s. 9, for "Railways Act" (w.e.f 1-8-1994).
+
+## Section 14 - Distribution of business amongst Benches.
+
+(1) Where any Benches are constituted, the
+Central Government may, from time to time, by notification, make provisions as to the distribution of the
+business of the Claims Tribunal amongst the Benches and specify the matters which may be dealt with by
+each Bench.
+
+(2) If any question arises as to whether any matter falls within the purview of the business allocated to
+a Bench, the decision of the Chairman shall be final.
+
+Explanation.--For the removal of doubts, it is hereby declared that the expression "matters" includes
+an application under section 20.
+
+## Section 15 - Bar of jurisdiction.
+
+On and from the appointed day, no court or other authority shall have, or
+be entitled to, exercise any jurisdiction, powers or authority in relation to the matters referred to in
+^1
+[sub-sections (1), (1A) and (1B)] of section 13.
+
+### Footnotes
+
+1. Subs by Act 7 of 2017, s. 162, for "sub-sections (1) and (1A)" (w.e.f. 26-5-2017).
+
+## Section 16 - Application to Claims Tribunal.
+
+(1) A person seeking any relief in respect of the matters
+referred to in sub-section (1)
+^1[or sub-section (1A)] of section 13 may make an application to the Claims
+Tribunal.
+
+(2) Every application under sub-section (1) shall be in such form and be accompanied by such
+documents or other evidence and by such fee in respect of the filing of such application and by such other
+fees for the service or execution of processes as may be prescribed:
+
+Provided that no such fee shall be payable in respect of an application under sub-clause (ii) of
+clause (a) of sub-section (1)
+^2[or, as the case may be, sub-section (1A)] of section 13.
+
+### Footnotes
+
+1. Ins. by s. 11, ibid. (w.e.f. 1-8-1994).
+
+2. Ins. by Act 28 of 1994, s.11 (w.e.f. 1-8-1994).
+
+## Section 17 - Limitation.
+
+(1) The Claims Tribunal shall not admit an application for any claim
+
+(a) under sub-clause (i) of clause (a) of sub-section (1) of section 13 unless the application is
+made within three years from the date on which the goods in question were entrusted to the railway
+administration for carriage by railway;
+
+(b) under sub-clause (ii) of clause (a) of sub-section (1)
+^1
+[or, as the case may be,
+sub-section (1A)] of section 13 unless the application is made within one year of occurrence of the
+accident;
+
+(c) under clause (b) of sub-section (1) of section 13 unless the application is made within three
+years from the date on which the fare or freight is paid to the railway administration:
+
+Provided that no application for any claim referred to in sub-clause (i) of clause (a) of sub-section (1)
+of section 13 shall be preferred to the Claims Tribunal until the expiration of three months next after the
+date on which the intimation of the claim has been preferred under section 78B of the Railways Act.
+
+(2) Notwithstanding anything contained in sub-section (1), an application may be entertained after the
+period specified in sub-section (1) if the applicant satisfies the Claims Tribunal that he had sufficient
+cause for not making the application within such period.
+
+### Footnotes
+
+1. Ins. by s. 12, ibid. (w.e.f. 1-8-1994).
+
+## Section 18 - Procedure and powers of Claims Tribunal.
+
+(1) The Claims Tribunal shall not be bound by the
+procedure laid down by the Code of Civil Procedure, 1908 (5 of 1908), but shall be guided by the
+principles of natural justice and, subject to the other provisions of this Act and of any rules, the Claims
+Tribunal shall have powers to regulate its own procedure including the fixing of places and times of its
+enquiry.
+
+(2) The Claims Tribunal shall decide every application as expeditiously as possible and ordinarily
+every application shall be decided on a perusal of documents, written representations and affidavits and
+after hearing such oral arguments as may be advanced.
+
+(3) The Claims Tribunal shall have, for the purposes of discharging its functions under this Act, the
+same powers as are vested in a civil court under the Code of Civil Procedure, 1908 (5 of 1908), while
+trying a suit, in respect of the following matters, namely:--
+
+(a) summoning and enforcing the attendance of any person and examining him on oath;
+
+(b) requiring the discovery and production of documents;
+
+(c) receiving evidence on affidavits;
+
+(d) subject to the provisions of sections 123 and 124 of the Indian Evidence
+Act, 1872 (1 of 1872), requisitioning any public record or document or copy of such record or
+document from any office;
+
+(e) issuing commissions for the examination of witnesses or documents;
+
+(f) reviewing its decisions;
+
+(g) dismissing an application for default or deciding it ex parte;
+
+(h) setting aside any order of dismissal of any application for default or any order passed by it
+ex parte;
+
+(i) any other matter which may be prescribed.
+
+## Section 19 - Right to legal representation and presenting officers.
+
+(1) A person making an application to
+the Claims Tribunal may either appear in person or take the assistance of a legal practitioner of his choice
+to present his case before the Claims Tribunal.
+
+(2) A railway administration may authorise one or more legal practitioners or any of its officers to act
+as presenting officers and every person so authorised by it may present its case with respect to any
+application before the Claims Tribunal.
+
+## Section 20 - Power of Chairman to transfer cases from one Bench to another.
+
+On the application of any
+of the parties and after notice to the parties, and after hearing such of them as he may desire to be heard,
+or on his own motion without such notice, the Chairman may transfer any case pending before one Bench,
+for disposal, to any other Bench.
+
+## Section 21 - Decision to be by majority.
+
+If the Members of a Bench differ in opinion on any point, they
+shall state the point or points on which they differ, and make a reference to the Chairman who shall either
+hear the point or points himself or refer the case for hearing on such point or points by one or more of the
+other Members and such point or points shall be decided according to the opinion of the majority of the
+Members who have heard the case, including those who first heard it.
+
+## Section 22 - Execution of orders of Claims Tribunal.
+
+(1) An order made by the Claims Tribunal under this
+Act shall be executable by the Claims Tribunal as a decree of civil court and, for this purpose, the Claims
+Tribunal shall have all the powers of a civil court.
+
+(2) Notwithstanding anything contained in sub-section (1), the Claims Tribunal may transmit any
+order made by it to a civil court having local jurisdiction and such civil court shall execute the order as if
+it were a decree made by that court.
+
+## Section 23 - Appeals.
+
+(1) Save as provided in sub-section (2) and notwithstanding anything contained in the
+Code of Civil Procedure, 1908 (5 of 1908) or in any other law, an appeal shall lie from every order, not
+being an interlocutory order, of the Claims Tribunal, to the High Court having jurisdiction over the place
+where the Bench is located.
+
+(2) No appeal shall lie from an order passed by the Claims Tribunal with the consent of the parties.
+
+(3) Every appeal under this section shall be preferred within a period of ninety days from the date of
+the order appealed against.
+
+## Section 24 - Transfer of pending cases.
+
+(1) Every suit, claim or other legal proceeding
+(other than an appeal) pending before any court, Claims Commissioner or other authority immediately
+before the appointed day, ^1
+[
+^2
+[or the date of commencement of the provisions of sub-section (1A), or, as
+the case may be, the date of commencement of the provisions of sub-section (1B)] of section 13], being a
+suit, claim or proceeding the cause of action whereon it is based is such that it would have been, if it had
+arisen after the appointed day, ^1
+[or the date of commencement of the provisions of sub-section (1A), or, as
+the case may be, the date of commencement of the provisions of sub-section (1B)] of section 13], within
+the jurisdiction of the Claims Tribunal, shall stand transferred on ^3
+[that day or, as the case may be, date,]
+to the Claims Tribunal.
+
+(2) Where any suit, claim or other legal proceeding stands transferred from any court, Claims
+Commissioner or other authority to the Claims Tribunal under sub-section (1),--
+
+(a) the court, Claims Commissioner or other authority shall, as soon as may be after such transfer,
+forward the records of such suit, claim or other legal proceeding to the Claims Tribunal;
+
+(b) the Claims Tribunal may, on receipt of such records, proceed to deal with such suit, claim or
+other legal proceeding, so far as may be, in the same manner as an application, from the stage which
+was reached before such transfer or from any earlier stage or de novo as the Claims Tribunal may
+deem fit.
+
+### Footnotes
+
+1. Ins. by Act 28 of 1994, s. 13 (w.e.f. 1-8-1994).
+
+2. Subs by Act 7 of 2017, s. 162 (w.e.f. 26-5-2017).
+
+3. Subs. by Act 28 of 1994, s. 13, for "that day" (w.e.f. 1-8-1994).
+
+## Section 25 - Proceedings before Claims Tribunal to be judicial proceedings.
+
+All proceedings before the
+Claims Tribunal shall be deemed to be judicial proceedings within the meaning of sections 193, 219 and
+228 of the Indian Penal Code (45 of 1860).
+
+## Section 26 - Members and staff of Claims Tribunal to be public servants.
+
+The Chairman, Vice-Chairman
+and other Members and the officers and other employees of the Claims Tribunal shall be deemed to be
+public servants within the meaning of section 21 of the Indian Penal Code (45 of 1860).
+
+## Section 27 - Protection of action taken in good faith.
+
+No suit, prosecution or other legal proceeding shall
+lie against the Central Government or against the Chairman, Vice-Chairman or other Member, or any
+other person authorised by the Chairman, Vice-Chairman or other Member for anything which is in good
+faith done or intended to be done in pursuance of this Act or any rule or order made thereunder.
+
+## Section 28 - Act to have overriding effect.
+
+The provisions of this Act shall have effect notwithstanding
+anything inconsistent therewith contained in any other law for the time being in force or in any instrument
+having effect by virtue of any law other than this Act.
+
+## Section 29 - Power to remove difficulties.
+
+(1) If any difficulty arises in giving effect to the provisions of
+this Act, the Central Government may, by order published in the Official Gazette, make such provisions,
+not inconsistent with the provisions of this Act, as appear to it to be necessary or expedient for removing
+the difficulty:
+
+Provided that no such order shall be made after the expiry of a period of three years from the
+appointed day.
+
+(2) Every order made under this section shall, as soon as may be after it is made, be laid before each
+House of Parliament.
+
+## Section 30 - Power to make rules.
+
+(1) The Central Government may, by notification, make rules to carry
+out the provisions of this Act.
+
+(2) Without prejudice to the generality of the foregoing powers, such rules may provide for all or any
+of the following matters, namely:--
+
+(a) the procedure under sub-section (3) of section 8 for the investigation of misbehaviour or
+incapacity of the Chairman, Vice-Chairman or other Member;
+
+(b) salaries and allowances payable to, and the other terms and conditions of service
+(including pension, gratuity and other retirement benefits) of, the Chairman, Vice-Chairman and other
+Members under section 9;
+
+(c) the financial and administrative powers which the Chairman may exercise over the Benches
+under section 11;
+
+(d) the salaries and allowances and conditions of service of officers and other employees of the
+Claims Tribunal under sub-section (3) of section 12;
+
+(e) the form of application, the documents and other evidence to be accompanied with such
+application and fee in respect of filing of such application and fee for the service or execution of
+processes under sub-section (2) of section 16;
+
+(f) the rules subject to which the Claims Tribunal shall have powers to regulate its own procedure
+under sub-section (1) of section 18 and the additional matters in which the Claims Tribunal may
+exercise powers of civil court under clause (i) of sub-section (3) of that section;
+
+(g) any other matter which is required to be, or may be, prescribed.
+
+(3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House
+of Parliament, while it is in session, for a total period of thirty days which may be comprised in one
+session or in two or more successive sessions, and if, before the expiry of the session immediately
+following the session or the successive sessions aforesaid, both Houses agree in making any modification
+in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only in such modified form or be of on effect, as the case may be; so, however, that any such modification or
+annulment shall be without prejudice to the validity of anything previously done under that rule.
+
+## Section 30A - Power to make rules retrospectively.
+
+^1[30A. Power to make rules retrospectively.-- The power to make rules under clause (b) of
+sub-section (2) of section 30 shall include the power to make such rules or any of them retrospectively
+from a date not earlier than the date on which this Act received the assent of the President, but no such
+retrospective effect shall be given to any such rule so as to prejudicially affect the interests of any person
+to whom such rule may be applicable.]
+
+### Footnotes
+
+1. Ins. by Act 4 of 1999, s. 2 (w.e.f. 2-1-1999).

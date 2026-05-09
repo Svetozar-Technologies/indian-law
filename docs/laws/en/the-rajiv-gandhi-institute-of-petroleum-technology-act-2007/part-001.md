@@ -146,7 +146,7 @@ shall be entitled to any salary.
 
 ### Footnotes
 
-`
+`````
 
 ## Section 7 - Vesting of properties.
 

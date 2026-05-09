@@ -1,0 +1,658 @@
+---
+title: "The Conservation of Foreign Exchange and Prevention of Smuggling Activities Act, 1974"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1618"
+---
+# The Conservation of Foreign Exchange and Prevention of Smuggling Activities Act, 1974
+
+Language: English
+Part 1 of 1
+Sections: 1 to 14
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1618
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1618/2/A1974-52.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+145+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+908+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+728+%28E%29+.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+715+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+814+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+97+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+544+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+415+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=4.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+679+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=8.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+738+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=341+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=7.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=10.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=11.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=728+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+839+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=s.p._jha.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=886+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=9.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=6.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R+811.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=53+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=kameswari.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=665+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=5.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=reconstitution_2005-06.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=reconstitution_05-06.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R+230.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=3.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1909+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R+173.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R++160.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1058+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R+420.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=reconstitution_of_advisory_board_25-05-2010_to_26-06-10.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+2479+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2721.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+2720+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R+178.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1143.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1145.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1144.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1418+3+a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1470.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2792.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=336+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R+171.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=reconstitution_2012-13_%281%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=629.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=738.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2377.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=368.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R+463.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+2187+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+200+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+992+%26+SO+993+%26+SO+994.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+1412+%28E%29+SO+1413+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1918.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1916.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1917.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+2302+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2840.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2839.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2nd.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=151.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+204+%28E0.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1414+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1763.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1765.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1762.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1758.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1766.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1767.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1760.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1764.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1761.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1759.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1845.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2100+3a.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2136.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2137.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=Sudesh+Kumar+No.+245.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=GSR+271+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1569.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1570.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+1569+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+1570+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=Sayed+Zainul+1662.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+1662+%28E%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1768.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1865.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=2562.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R+241.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=vinod_kumar_pathror.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1493.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1597.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=1809.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=pankaj_kumar_sharma.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=3137.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=649.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=G.S.R+649.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=3525.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=3524.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=SO+4045.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=4148.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=4824.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=cai_haibin.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=han_hanguang.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=mohammed_firoz_thalangara.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=anower_hossen.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=md._saleh_ahmed.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=sanowar_ali.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=fasihi_marjan.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=hosseini_maryam.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=mahdipourgaldiani_zahra.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=soori_hossein.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=abhishek_gupta.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=shameer_ali.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=sufiyan_thekke_kannipoyil.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=ram_niwas_mohar.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=muhammed_asif_karothukudy_abbas.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=muhammed_fasil_vellmveelil_aboobacker.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=sajad_sahir.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=areekkachalil_roshid.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=vaneesh_sachdeva.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=ranjay_kumar.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=fahim_ibrahim_waghoo.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=neha_sharma.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=tarun_jain.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=abdussameem.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=faisal_kudilattummal.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=mohammed_basheer.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=junaid_k_v.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=hashik_abdulla_kutty.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=rahul.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=abdul_hakim_p_p.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=sunil_kumar_mohana_kumaran_thampi.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=vishnu_somasundram.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=mukeshkumar_bhaishankarbhai_trivedi.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=beerendra_singh_yadav.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=bhargav_kanubhai_tanti.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=dharmagna_arvindkumar_trivedi.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=hinaben_rutugna_trivedi.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=reconstitution_of_advisory_board_for_2020-21.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=7%281%29%28b%29amit_pal_singh.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=7%281%29%28b%29_mohd._nashruddin.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=7%281%29%28b%29_gopal_gupta.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=7%281%29%28b%29_suresh_gulabchand_jaiswal.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=7%281%29%28b%29_abhishek_bhavanbhai_ranpariya.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=7%281%29%28b%29_bhadresh_devchand_ranparia.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=7%281%29%28b%29_harmeet_singh.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=reconstitution_of_central_advisory_board_for_year_1991-92.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=amanpuneet_singh_kohli_7%281%29%28b%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=gurmeet_singh_kohli_7%281%29%28b%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=manish_kumar_jain_7%281%29%28b%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=rakesh_kumar_7%281%29%28b%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=tejas_arvind_desai_7%281%29%28b%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=abdul_raoof.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=ding_shengfa.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=dongyoung_oh.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=jongeun_jeong.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=liang_zhabin%40_dawang_tsring.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=atul_gupta%40_pintu.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=abdussalam_t.t..pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=fasalu_rahman_t.t..pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=gaurav_masaldan_js.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=li_wen_tsung.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=yong_choi.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=reconstitution_of_advisory_board.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=vijay_goel.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1618/4/H1974-52.pdf
+
+## Section 1 - Short title, extent and commencement.
+
+(1) This Act may be called the Conservation of Foreign
+Exchange and Prevention of Smuggling Activities Act, 1974.
+
+(2) It extends to the whole of India.
+
+(3) It shall come into force on such date^1
+(being a date not later than the twentieth day of December,
+1974), as the Central Government may, by notification in the Official Gazette, appoint.
+
+### Footnotes
+
+1. 19th December, 1974, vide notification No. G.S.R. 690(E), dated 16th December, 1974, see Gazette of India, Extraordinary,
+Part II, sec. 3 (i).
+
+## Section 2 - Definitions.
+
+In this Act, unless the context otherwise requires,--
+
+(a) "appropriate Government" means, as respects a detention order made by the Central
+Government or by an officer of the Central Government or a person detained under such order, the
+Central Government, and as respects a detention order made by a State Government or by an officer
+of a State Government or a person detained under such order, the State Government;
+
+(b) "detention order" means an order made under section 3;
+
+(c) "foreigner" has the same meaning as in the Foreigners Act, 1946 (31 of 1946);
+
+(d) "Indian customs waters" has the same meaning as in clause (28) of section 2 of the Customs
+Act, 1962;
+
+(e) "smuggling" has the same meaning as in clause (39) of section 2 of the Customs Act, 1962
+(52 of 1962), and all its grammatical variations and cognate expressions shall be construed
+accordingly;
+
+(f) "State Government", in relation to a Union territory, means the administrator thereof;
+
+(g) any reference in this Act to a law which is not in force in the State of Jammu and Kashmir
+shall, in relation to that State, be construed as a reference to the corresponding law, if any, in force in
+that State.
+
+## Section 3 - Power to make orders detaining certain persons.
+
+(1) The Central Government or the State
+Government or any officer of the Central Government, not below the rank of a Joint Secretary to that Government, specially empowered for the purposes of this section by that Government, or any officer of a
+State Government, not below the rank of a Secretary to that Government, specially empowered for the
+purposes of this section by that Government, may, if satisfied, with respect to any person (including a
+foreigner), that, with a view to preventing him from acting in any manner prejudicial to the conservation
+or augmentation of foreign exchange or with a view to preventing him from--
+
+(i) smuggling goods, or
+
+(ii) abetting the smuggling of goods, or
+
+(iii) engaging in transporting or concealing or keeping smuggled goods, or
+
+(iv) dealing in smuggled goods otherwise than by engaging in transporting or concealing or
+keeping smuggled goods, or
+
+(v) harbouring persons engaged in smuggling goods or in abetting the smuggling of goods,
+
+it is necessary so to do, make an order directing that such person be detained.
+
+^1[Provided that no order of detention shall be made on any of the grounds specified in this sub-section
+on which an order of detention may be made under section 3 of the Prevention of Illicit Traffic in
+Narcotic Drugs and Psychotropic Substances Act, 1988 or under section 3 of the Jammu and Kashmir
+Prevention of Illicit Traffic in Narcotic Drugs and Psychotropic Substances Ordinance, 1988 (J & K
+Ordinance 1 of 1988).]
+
+(2) When any order of detention is made by a State Government or by an officer empowered by a
+State Government, the State Government shall, within ten days, forward to the Central Government a
+report in respect of the order.
+
+(3) For the purposes of clause (5) of article 22 of the Constitution, the communication to a person
+detained in pursuance of a detention order of the grounds on which the order has been made shall be made
+as soon as may be after the detention, but ordinarily not later than five days, and in exceptional
+circumstances and for reasons to be recorded in writing, not later than fifteen days, from the date of
+detention.
+
+### Footnotes
+
+1. The proviso ins. by Act 46 of 1988, s. 15 (w.e.f. 4-7-1988).
+
+## Section 4 - Execution of detention orders.
+
+A detention order may be executed at any place in India in the
+manner provided for the execution of warrants of arrest under the Code of Criminal Procedure, 1973
+(2 of 1974).
+
+## Section 5 - Power to regulate place and conditions of detention.
+
+Every person in respect of whom a
+detention order has been made shall be liable--
+
+(a) to be detained in such place and under such conditions including conditions as to
+maintenance, interviews or communication with others, discipline and punishment for breaches of
+discipline, as the appropriate Government may, by general or special order, specify; and
+
+(b) to be removed from one place of detention to another place of detention, whether within the
+same State or in another State by order of the appropriate Government:
+
+Provided that no order shall be made by a State Government under clause (b) for the removal of a
+person from one State to another State except with the consent of the Government of that other State.
+
+## Section 5A - Grounds of detention severable.
+
+^1[5A. Grounds of detention severable.--Where a person has been detained in pursuance of an order
+of detention under sub-section (1) of section 3 which has been made on two or more grounds, such order
+of detention shall be deemed to have been made separately on each of such grounds and accordingly--
+
+(a) such order shall not be deemed to be invalid or inoperative merely because one or some of the
+grounds is or are--
+
+(i) vague,
+
+(ii) non-existent,
+
+(iii) not relevant,
+
+(iv) not connected or not proximately connected with such person, or
+
+(v) invalid for any other reason whatsoever,
+
+and it is not, therefore, possible to hold that the Government or officer making such order would have
+been satisfied as provided in sub-section (1) of section 3 with reference to the remaining ground or
+grounds and made the order of detention;
+
+(b) the Government or officer making the order of detention shall be deemed to have made the
+order of detention under the said sub-section (1) after being satisfied as provided in that sub-section
+with reference to the remaining ground or grounds.]
+
+### Footnotes
+
+1. Ins. by Act 35 of 1975, s. 2 (w.e.f. 1-7-1975).
+
+## Section 6 - Detention orders not to be invalid or inoperative on certain grounds.
+
+No detention order shall
+be invalid or inoperative merely by reason--
+
+(a) that the person to be detained thereunder is outside the limits of the territorial jurisdiction of
+the Government or the officer making the order of detention, or
+
+(b) that the place of detention of such person is outside the said limits.
+
+## Section 7 - Powers in relation to absconding persons.
+
+(1) If the appropriate Government has reason to
+believe that a person in respect of whom a detention order has been made has absconded or is concealing
+himself so that the order cannot be executed, that Government may--
+
+(a) make a report in writing of the fact to a Metropolitan Magistrate or a Magistrate of the first
+class having jurisdiction in the place where the said person ordinarily resides; and thereupon the
+provisions of sections 82, 83, 84 and 85 of the Code of Criminal Procedure, 1973 (2 of 1974), shall
+apply in respect of the said person and his property as if the order directing that he be detained were a
+warrant issued by the Magistrate;
+
+(b) by order notified in the Official Gazette direct the said person to appear before such officer, at
+such place and within such period as may be specified in the order; and if the said person fails to
+comply with such direction, he shall, unless he proves that it was not possible for him to comply
+therewith and that he had, within the period specified in the order, informed the officer mentioned in
+the order of the reason which rendered compliance therewith impossible and of his whereabouts, be
+punishable with imprisonment for a term which may extend to one year or with fine or with both.
+
+(2) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), every
+offence under clause (b) of sub-section (1) shall be cognisable.
+
+## Section 8 - Advisory Boards.
+
+For the purposes of sub-clause (a) of clause (4), and sub-clause (c) of
+clause (7), of article 22 of the Constitution,--
+
+(a) the Central Government and each State Government shall, whenever necessary, constitute one
+or more Advisory Boards each of which shall consist of a Chairman and two other persons possessing
+the qualifications specified in sub-clause (a) of clause (4) of article 22 of the Constitution;
+
+(b) save as otherwise provided in section 9, the appropriate Government shall, within five weeks
+from the date of detention of a person under a detention order make a reference in respect thereof to
+the Advisory Board constituted under clause (a) to enable the Advisory Board to make the report
+under sub-clause (a) of clause (4) of article 22 of the Constitution;
+
+(c) the Advisory Board to which a reference is made under clause (b) shall after considering the
+reference and the materials placed before it and after calling for such further information as it may
+deem necessary from the appropriate Government or from any person called for the purpose through
+the appropriate Government or from the person concerned, and if, in any particular case, it considers
+it essential so to do or if the person concerned desires to be heard in person, after hearing him in
+person, prepare its report specifying in a separate paragraph thereof its opinion as to whether or not
+there is sufficient cause for the detention of the person concerned and submit the same within eleven
+weeks from the date of detention of the person concerned;
+
+(d) when there is a difference of opinion among the members forming the Advisory Board, the
+opinion of the majority of such members shall be deemed to be the opinion of the Board;
+
+(e) a person against whom an order of detention has been made under this Act shall not be
+entitled to appear by any legal practitioner in any matter connected with the reference to the Advisory
+Board, and the proceedings of the Advisory Board and its report, excepting that part of the report in
+which the opinion of the Advisory Board is specified, shall be confidential;
+
+(f) in every case where the Advisory Board has reported that there is in its opinion sufficient
+cause for the detention of a person, the appropriate Government may confirm the detention order and
+continue the detention of the person concerned for such period as it thinks fit and in every case where
+the Advisory Board has reported that there is in its opinion no sufficient cause for the detention of the
+person concerned, the appropriate Government shall revoke the detention order and cause the person
+to be released forthwith.
+
+## Section 9 - Cases in which and circumstances under which persons may be detained for periods longer than three months without obtaining the opinion of Advisory Board.
+
+^1[9. Cases in which and circumstances under which persons may be detained for periods longer
+than three months without obtaining the opinion of Advisory Board.--(1) Notwithstanding anything
+contained in this Act, any person (including a foreigner) in respect of whom an order of detention is made
+under this Act at any time before the ^2[31st day of July, 1999], may be detained without obtaining, in
+accordance with the provisions of sub-clause (a) of clause (4) of article 22 of the Constitution, the opinion
+of an Advisory Board for a period longer than three months but not exceeding six months from the date of
+his detention, where the order of detention has been made against such person with a view to preventing
+him from smuggling goods or abetting the smuggling of goods or engaging in transporting or concealing
+or keeping smuggled goods and the Central Government or any officer of the Central Government, not
+below the rank of an Additional Secretary to that Government, specially empowered for the purposes of
+this section by that Government, is satisfied that such person--
+
+(a) smuggles or is likely to smuggle goods into, out of or through any area highly vulnerable to
+smuggling; or
+
+(b) abets or is likely to abet the smuggling of goods into, out of or through any area highly
+vulnerable to smuggling; or
+
+(c) engages or is likely to engage in transporting or concealing or keeping smuggled goods in any
+area highly vulnerable to smuggling,
+
+and makes a declaration to that effect within five weeks of the detention of such person.
+
+Explanation1.--In this sub-section, "area highly vulnerable to smuggling" means--
+
+(i) The Indian customs waters contiguous to ^3[The States of Goa, Gujarat, Karnataka, Kerala,
+Maharashtra and Tamil Nadu and the Union territories of Daman and Diu and Pondicherry];
+
+(ii) The inland area fifty kilometres in width from the coast of India falling within the territories
+of ^3[the States of Goa, Gujarat, Karnataka, Kerala, Maharashtra and Tamil Nadu and the Union
+territories of Daman and Diu and Pondicherry];
+
+(iii) the inland area fifty kilometres in width from the India-Pakistan border in the States of
+Gujarat, Jammu and Kashmir, Punjab and Rajasthan;
+
+(iv) the customs airport of Delhi; and
+
+(v) such further or other Indian customs waters, or inland area not exceeding one hundred
+kilometres in width from any other coast or border of India, or such other customs station, as the
+Central Government may, having regard to the vulnerability of such waters, area or customs station,
+as the case may be, to smuggling, by notification in the Official Gazette, specify in this behalf.
+
+Explanation 2.--For the purposes of Explanation 1, "customs airport" and "customs station" shall
+have the same meaning as in clauses (10) and (13) of section 2 of the Customs Act, 1962 (52 of 1962),
+respectively.
+
+(2) In the case of any person detained under a detention order to which the provisions of
+sub-section (1) apply, section 8 shall have effect subject to the following modifications, namely:--
+
+(i) in clause (b), for the words "shall, within five weeks", the words "shall, within four months
+and two weeks" shall be substituted;
+
+(ii) in clause (c),--
+
+(1) for the words "the detention of the person concerned", the words "the continued detention
+of the person concerned" shall be substituted;
+
+(2) for the words "eleven weeks", the words "five months and three weeks" shall be
+substituted;
+(iii) in clause (f), for the words "for the detention", at both the places where they occur, the words
+"for the continued detention" shall be substituted.]
+
+### Footnotes
+
+1. Subs. by Act 58 of 1984, s. 2, for section 9 (w.e.f. 13-7-1984).
+
+2. Subs. by Act 15 of 1996, s. 2, for "31st day of July, 1996" (w.e.f. 31-7-1996).
+
+3. Subs. by Act 23 of 1987, s. 2, for certain words (w.e.f. 2-7-1987).
+
+## Section 10 - Maximum period of detention.
+
+The maximum period for which any person may be detained in
+pursuance of any detention order to which the provisions of section 9 do not apply and which has been
+confirmed under clause (f) of section 8 shall be ^1[a period of one year from the date of detention or the
+specified period, whichever period expires later] and the maximum period for which any person may be
+detained in pursuance of any detention order to which the provisions of section 9 apply and which has
+been confirmed under clause (f) of section 8 read with sub-section (2) of section 9 shall be ^2[a period of
+two years from the date of detention or the specified period, whichever period expires later]:
+
+Provided that nothing contained in this section shall affect the power of the appropriate Government
+in either case to revoke or modify the detention order at any earlier time.
+
+^3[Explanation.--In this section and in section 10A, "specified period" means the period during which
+the Proclamation of Emergency issued under clause (1) of article 352 of the Constitution on the 3rd day of
+December, 1971 and the Proclamation of Emergency issued under that clause on the 25th day of June,
+1975, are both in operation.]
+
+### Footnotes
+
+1. Subs. by Act 20 of 1976, s. 3, for "one year from the date of detention" (w.e.f. 12-12-1975).
+
+2. Subs. by s. 3, ibid., for "two years from the date of detention" (w.e.f. 12-12-1975).
+
+3. Ins. by Act 20 of 1976, s. 3 (w.e.f. 12-12-1975).
+
+## Section 10A - Extension of period of detention.
+
+^1[10A. Extension of period of detention.--(1) Notwithstanding anything contained in any other
+provision of this Act, the detention of every person detained under a detention order which has been
+confirmed under clause (f) of section 8 before the commencement of the Conservation of Foreign
+Exchange and Prevention of Smuggling Activities (Amendment) Act, 1976, and which is in force
+immediately before such commencement shall, unless his detention has been continued by the appropriate
+Government under the said clause for a period shorter than one year from the date of his detention,
+continue until the expiry of a period of one year from the date of his detention under such order or until
+the expiry of the specified period, whichever period expires later:
+
+Provided that nothing contained in this sub-section shall affect the power of the appropriate
+Government to revoke or modify such detention order at any earlier time.
+
+(2) Notwithstanding anything contained in any other provision of this Act, the detention of every
+person detained under a detention order which has been confirmed under clause (f) of section 8 read with
+sub-section (2) of section 9 before the commencement of the Conservation of Foreign Exchange and
+Prevention of Smuggling Activities (Amendment) Act, 1976, and which is in force immediately before
+such commencement, shall, unless his detention has been continued by the appropriate Government under
+the said clause (f) read with the said sub-section (2), for a period shorter than two years from the date of
+his detention, continue until the expiry of a period of two years from the date of his detention under such
+order or until the expiry of the specified period, whichever period expires later:
+
+Provided that nothing contained in this sub-section shall affect the power of the appropriate
+Government to revoke or modify such detention order at any earlier time.]
+
+### Footnotes
+
+1. Ins. by s. 3, ibid. (w.e.f. 12-12-1975).
+
+## Section 11 - Revocation of detention orders.
+
+(1) Without prejudice to the provisions of section 21 of the
+General Clauses Act, 1897 (10 of 1897), a detention order may, at any time, be revoked or modified--
+
+(a) notwithstanding that the order has been made by an officer of a State Government, by that
+State Government or by the Central Government;
+
+(b) notwithstanding that the order has been made by an officer of the Central Government or by a
+State Government, by the Central Government.
+
+(2) The revocation of a detention order shall not bar the making of another detention order under
+section 3 against the same person.
+
+## Section 12 - Temporary release of persons detained.
+
+^1[(1) The Central Government may, at any time,
+direct that any person detained in pursuance of a detention order made by that Government or an officer
+subordinate to that Government or by a State Government or by an officer subordinate to a State
+Government, may be released for any specified period either without conditions or upon such conditions
+specified in the direction as that person accepts, and may, at any time, cancel his release.
+
+(1A) A State Government may, at any time, direct that any person detained in pursuance of a
+detention order made by that Government or by an officer subordinate to that Government may be
+released for any specified period either without conditions or upon such conditions specified in the
+direction as that person accepts, and may, at any time, cancel his release.]
+
+(2) In directing the release of any person ^2[under sub-section (1) or sub-section (1A), the Government
+directing the release] may require him to enter into a bond with sureties for the due observance of the
+conditions specified in the direction.
+
+(3) Any person released under ^3[sub-section (1) or sub-section (1A)] shall surrender himself at the
+time and place, and to the authority, specified in the order directing his release or cancelling his release,
+as the case may be.
+
+(4) If any person fails without sufficient cause to surrender himself in the manner specified in
+sub-section (3), he shall be punishable with imprisonment for a term which may extend to two years, or
+with fine, or with both.
+
+(5) If any person released under ^3[sub-section (1) or sub-section (1A)] fails to fulfil any of the
+conditions imposed upon him under the said sub-section or in the bond entered into by him, the bond shall
+be declared to be forfeited and any person bound thereby shall be liable to pay the penalty thereof.
+
+^4[(6) Notwithstanding anything contained in any other law and save as otherwise provided in this
+section, no person against whom a detention order made under this Act is in force shall be released
+whether on bail or bail bond or otherwise.]
+
+### Footnotes
+
+1. Subs. by s. 4, ibid.,for sub-section (1) (w.e.f. 12-12-1975).
+
+2. Subs. by Act 20 of 1976, s. 4, for "under sub-section (1), the appropriate Government" (w.e.f. 12-12-1975).
+
+3. Subs. by s. 4, ibid., for "sub-section (1)" (w.e.f. 12-12-1975).
+
+4. Ins. by Act 35 of 1975, s. 3 (w.e.f. 1-7-1975).
+
+## Section 12A - Special provisions for dealing with emergency.
+
+^1[12A. Special provisions for dealing with emergency.--(1) notwithstanding anything contained in
+this Act or any rules of natural justice, the provisions of this section shall have effect during the period of
+operation of the Proclamation of Emergency issued under clause (1) of article 352 of the Constitution on
+the 3rd day of December, 1971, or the Proclamation of Emergency issued under that clause on the 25th
+day of June, 1975, or a period of ^2[twenty-four months] from the 25th day of June, 1975, whichever
+period is the shortest.
+
+(2) When making an order of detention under this Act against any person after the commencement of
+the Conservation of Foreign Exchange and Prevention of Smuggling Activities (Amendment) Act, 1975
+(35 of 1975), the Central Government or the State Government or, as the case may be, the officer making
+the order of detention shall consider whether the detention of such person under this Act is necessary for
+dealing effectively with the emergency in respect of which the Proclamations referred to in sub-section
+(1) have been issued (hereafter in this section referred to as the emergency) and if, on such consideration,
+the Central Government or the State Government or, as the case may be, the officer is satisfied that it is
+necessary to detain such person for effectively dealing with the emergency, that Government or officer
+may make a declaration to that effect and communicate a copy of the declaration to the person concerned;
+
+Provided that where such declaration is made by an officer, it shall be reviewed by the appropriate
+Government within fifteen days from the date of making of the declaration and such declaration shall
+cease to have effect unless it is confirmed by that Government, after such review, within the said period
+of fifteen days.
+
+(3) The question whether the detention of any person in respect of whom a declaration has been made
+under sub-section (2) continues to be necessary for effectively dealing with the emergency shall be
+reconsidered by the appropriate Government within four months from the date of such declaration and
+thereafter at intervals not exceeding four months, and if, on such reconsideration, it appears to the
+appropriate Government that the detention of the person is no longer necessary for effectively dealing
+with the emergency, the Government may revoke the declaration.
+
+(4) In making any consideration, review or reconsideration under sub-section (2) or (3), the
+appropriate Government or officer may, if such Government or officer considers it to be against the
+public interest to do otherwise, act on the basis of the information and materials in its or his possession
+without disclosing the facts or giving an opportunity of making a representation to the person concerned.
+
+(5) It shall not be necessary to disclose to any person detained under a detention order to which the
+provisions of sub-section (2) apply, the grounds on which the order has been made during the period the
+declaration made in respect of such person under that sub section is in force, and, accordingly, such
+period shall not be taken into account for the purposes of sub-section (3) of section 3.
+
+(6) In the case of every person detained under a detention order to which the provisions of
+sub-section (2) apply, being a person in respect of whom a declaration has been made thereunder, the
+period during which such declaration is in force shall not be taken into account for the purpose of
+computing--
+
+(i) The periods specified in clauses (b) and (c) of section 8;
+
+(ii) The periods of "one year" and "five weeks" specified in sub-section (1), the period of "one
+
+year" specified in sub-section (2)(i), and the period of "six months" specified in sub-section (3) of
+section 9.]
+
+### Footnotes
+
+1. Ins. by s. 4, ibid. (w.e.f. 1-7-1975).
+
+2. Subs. by Act 90 of 1976, s. 2, for "twelve months" (w.e.f. 16-6-1976).
+
+## Section 13 - Protection of action taken in good faith.
+
+No suit or other legal proceeding shall lie against the
+Central Government or a State Government, and no suit, prosecution or other legal proceedings shall lie
+against any person, for anything in good faith done or intended to be done in pursuance of this Act.
+
+## Section 14 - Repeal.
+
+The Maintenance of Internal Security (Amendment) Ordinance, 1974 (11 of 1974),
+shall, on the commencement of this Act, stand repealed and accordingly the amendments made in the
+Maintenance of Internal Security Act, 1971 (20 of 1971), by the said Ordinance shall, on such
+commencement, cease to have effect.

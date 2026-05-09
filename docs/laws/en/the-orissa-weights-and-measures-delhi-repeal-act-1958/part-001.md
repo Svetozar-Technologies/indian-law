@@ -1,0 +1,59 @@
+---
+title: "The Orissa Weights and Measures (Delhi Repeal) Act, 1958"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1505"
+---
+# The Orissa Weights and Measures (Delhi Repeal) Act, 1958
+
+Language: English
+Part 1 of 1
+Sections: 1 to 3
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1505
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1505/3/a1958-57.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+
+## Section 1 - Short title.
+
+This Act may be called the Orissa Weights and Measures (Delhi Repeal) Act, 1958.
+
+## Section 2 - Definition.
+
+In this Act,―
+
+(a) "Orissa Act" means the Orissa Weights and Measures Act, 1943 (Orissa Act 7 of 1943), as
+extended to Delhi by notification under section 7 of the Delhi Laws Act, 1912 (13 of 1912);
+
+(b) "Rajasthan Act" means the Rajasthan Weights and Measures (Enforcement)
+Act, 1958 (Rajasthan Act 32 of 1958), as extended to the Union territory of Delhi by notification
+under section 2 of the Union Territories (Laws) Act, 1950 (30 of 1950).
+
+## Section 3 - Repeal of Orissa Act.
+
+On the date on which the Rajasthan Act or any provision contained
+therein comes into force by virtue of a notification issued under sub-section (3) of section 1 of that Act in
+the Union territory of Delhi or any part thereof in respect of any class of undertakings or any class of
+goods, the Orissa Act or any provision contained therein, which is applicable to those undertakings or
+goods in the said territory or part thereof, as the case may be, shall stand repealed:
+
+Provided that the repeal shall not affect—
+
+(a) the previous operation of the Act so repealed or anything duly done or suffered thereunder; or
+
+(b) any right, privilege, obligation or liability acquired, accrued or incurred under the Act so
+repealed; or
+
+(c) any penalty, forfeiture or punishment incurred in respect of any offence committed against the
+Act so repealed; or
+
+(d) any investigation, legal proceeding or remedy in respect of any such right, privilege,
+obligation, liability, penalty, forfeiture or punishment as aforesaid;
+
+and any such investigation, legal proceeding or remedy may be instituted, continued or enforced and any
+such penalty, forfeiture or punishment may be imposed, as if that Act had not been repealed.
