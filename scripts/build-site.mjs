@@ -128,6 +128,9 @@ async function main() {
           verbose
         })
       : law;
+    if (preparedLaw.__refreshMetadata?.status === "failed") {
+      partialRefresh = true;
+    }
     recordLawProgress(refreshProgress, index, preparedLaw);
     await writeRefreshProgress(progressPath, refreshProgress, { logger, verbose });
     laws.push(attachRegionalSources(preparedLaw, regionalSources.sources ?? []));
@@ -160,7 +163,11 @@ async function main() {
   await writeRefreshProgress(progressPath, refreshProgress, { logger, verbose: true });
   const outputLabel = path.relative(ROOT, outputDir);
   if (partialRefresh) {
-    logger.warn(`Generated partial ${laws.length} law entries in ${outputLabel}`);
+    const failedLaws = refreshProgress?.failedLaws ?? 0;
+    const pendingLaws = refreshProgress?.pendingLaws ?? 0;
+    logger.warn(
+      `Generated partial ${laws.length} law entries in ${outputLabel}; failed=${failedLaws}, pending=${pendingLaws}`
+    );
     process.exitCode = PARTIAL_REFRESH_EXIT_CODE;
   } else {
     logger.info(`Site build completed in ${formatDuration(Date.now() - startedAt)}`);
@@ -171,6 +178,7 @@ async function main() {
 async function fetchLawWithCache(seedLaw, options) {
   const cachePath = options.cacheDir ? lawCachePath(options.cacheDir, seedLaw) : undefined;
   const progressPrefix = `[${options.index + 1}/${options.total}]`;
+  const sourceUrl = sourceUrlForLaw(seedLaw);
 
   logVerbose(
     `${progressPrefix} Cache decision for ${seedLaw.title}: ${cachePath ? path.relative(ROOT, cachePath) : "no cache dir"}`,
@@ -191,8 +199,24 @@ async function fetchLawWithCache(seedLaw, options) {
     }
   }
 
-  logProgress(`${progressPrefix} Fetching ${seedLaw.title} from ${seedLaw.sourceUrl}`, options);
-  const fetchedLaw = await fetchLaw(seedLaw, options);
+  logProgress(`${progressPrefix} Fetching ${seedLaw.title} from ${sourceUrl}`, options);
+  let fetchedLaw;
+  try {
+    fetchedLaw = await fetchLaw(seedLaw, options);
+  } catch (error) {
+    const failedLaw = normaliseLaw({
+      ...seedLaw,
+      sourceUrl,
+      sources: seedLaw.sources ?? { en: [{ kind: "html", url: sourceUrl }] }
+    });
+    options.logger?.error(`${progressPrefix} Failed to fetch ${seedLaw.title} from ${sourceUrl}: ${error.message}`);
+    return annotateRefreshMetadata(failedLaw, {
+      status: "failed",
+      cachePath,
+      error: error.message,
+      fetchedAt: ""
+    });
+  }
   logProgress(`${progressPrefix} Fetched ${fetchedLaw.sections?.length ?? 0} sections for ${fetchedLaw.title}`, options);
 
   if (cachePath) {
@@ -208,8 +232,7 @@ async function fetchLawWithCache(seedLaw, options) {
 }
 
 async function fetchLaw(seedLaw, options) {
-  const sourceUrl =
-    seedLaw.sourceUrl ?? `https://www.indiacode.nic.in/handle/123456789/${seedLaw.handle}`;
+  const sourceUrl = sourceUrlForLaw(seedLaw);
   logVerbose(`Fetching law landing page for ${seedLaw.title}: ${sourceUrl}`, options);
   const html = await fetchText(sourceUrl, { logger: options.httpLogger });
   logVerbose(`Fetched law landing page for ${seedLaw.title}: ${html.length} character(s)`, options);
@@ -267,6 +290,10 @@ async function fetchLaw(seedLaw, options) {
     sources: mergeSources(seedLaw.sources, metadata.sources),
     sections
   });
+}
+
+function sourceUrlForLaw(law) {
+  return law.sourceUrl ?? `https://www.indiacode.nic.in/handle/123456789/${law.handle}`;
 }
 
 async function readFreshCachedLaw(cachePath, options) {
@@ -390,7 +417,8 @@ function createRefreshProgress({
       cacheFile: cacheDir ? path.relative(ROOT, lawCachePath(cacheDir, law)) : "",
       sourceUrl: law.sourceUrl ?? "",
       fetchedAt: "",
-      sectionCount: 0
+      sectionCount: 0,
+      error: ""
     };
   });
   const completedLaws = fetchLive ? 0 : laws.length;
@@ -408,6 +436,7 @@ function createRefreshProgress({
     totalLaws: laws.length,
     completedLaws,
     pendingLaws: fetchLive ? laws.length : 0,
+    failedLaws: 0,
     partialRefresh: false,
     laws
   };
@@ -427,6 +456,7 @@ function recordLawProgress(progress, index, law) {
   entry.sourceUrl = law.sourceUrl ?? entry.sourceUrl;
   entry.fetchedAt = law.fetchedAt ?? refreshMetadata.fetchedAt ?? "";
   entry.sectionCount = law.sections?.length ?? 0;
+  entry.error = refreshMetadata.error ?? "";
   refreshProgressCounts(progress);
 }
 
@@ -451,6 +481,7 @@ function refreshProgressCounts(progress) {
   progress.updatedAt = new Date().toISOString();
   progress.completedLaws = progress.laws.filter((law) => ["cached", "fetched", "seed"].includes(law.status)).length;
   progress.pendingLaws = progress.laws.filter((law) => law.status === "pending").length;
+  progress.failedLaws = progress.laws.filter((law) => law.status === "failed").length;
 }
 
 async function writeRefreshProgress(progressPath, progress, options = {}) {
