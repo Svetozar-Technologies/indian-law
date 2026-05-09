@@ -1,0 +1,56 @@
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.854136
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.09302
+  ...
+# Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+not ok 3 - fetch site build resumes an incomplete cached law without redownloading cached sections
+  ---
+  duration_ms: 2908.78033
+  location: '/tmp/gh-issue-solver-1778355401294/tests/build-site.test.mjs:121:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+
+    0 !== 1
+
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///tmp/gh-issue-solver-1778355401294/tests/build-site.test.mjs:246:12)
+    async Test.run (node:internal/test_runner/test:797:9)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 4 - fetch site build writes completed law cache and progress as Lino # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.909659
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 5 - fetch site build writes partial output when the runtime budget is exhausted # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.087892
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 6 - fetch site build records per-law upstream failures as partial output # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.048652
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 5
+# todo 0
+# duration_ms 2970.020834

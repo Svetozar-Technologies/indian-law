@@ -118,6 +118,144 @@ test("fetch site build reuses fresh cached law data instead of redownloading", a
   }
 });
 
+test("fetch site build resumes an incomplete cached law without redownloading cached sections", async () => {
+  const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-resume-cache-"));
+  const output = path.join(workspace, "site");
+  const cacheDir = path.join(workspace, "cache");
+  const progressFile = path.join(workspace, "refresh-status.lino");
+  const manifest = path.join(workspace, "manifest.json");
+  const regionalSources = path.join(workspace, "regional-sources.json");
+  let landingRequests = 0;
+  let cachedSectionRequests = 0;
+  let missingSectionRequests = 0;
+  const server = http.createServer((request, response) => {
+    const url = new URL(request.url, "http://127.0.0.1");
+    if (url.pathname === "/resume-act") {
+      landingRequests += 1;
+      response.writeHead(200, { "content-type": "text/html" });
+      response.end(`
+        <html>
+          <body>
+            <table>
+              <tr><td class="metadataFieldLabel">Short Title:&nbsp;</td><td class="metadataFieldValue">Resume Act</td></tr>
+              <tr><td class="metadataFieldLabel">Act Number:&nbsp;</td><td class="metadataFieldValue">2</td></tr>
+              <tr><td class="metadataFieldLabel">Act Year:&nbsp;</td><td class="metadataFieldValue">2026</td></tr>
+            </table>
+            <a href=/show-data?actid=AC_RESUME&amp;sectionId=10&amp;sectionno=1&amp;orderno=1>
+              <span>Section 1. Cached section.</span>
+            </a>
+            <a href=/show-data?actid=AC_RESUME&amp;sectionId=20&amp;sectionno=2&amp;orderno=2>
+              <span>Section 2. Missing section.</span>
+            </a>
+          </body>
+        </html>
+      `);
+      return;
+    }
+
+    if (url.pathname === "/SectionPageContent") {
+      if (url.searchParams.get("sectionID") === "10") {
+        cachedSectionRequests += 1;
+        response.writeHead(500, { "content-type": "text/plain" });
+        response.end("cached section should not be requested again");
+        return;
+      }
+      if (url.searchParams.get("sectionID") === "20") {
+        missingSectionRequests += 1;
+        response.writeHead(200, { "content-type": "application/json" });
+        response.end(JSON.stringify({ content: "<p>Newly fetched missing body.</p>", footnote: "" }));
+        return;
+      }
+    }
+
+    response.writeHead(404, { "content-type": "text/plain" });
+    response.end("not found");
+  });
+
+  try {
+    await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+    const { port } = server.address();
+    const sourceUrl = `http://127.0.0.1:${port}/resume-act`;
+    await mkdir(cacheDir, { recursive: true });
+    await writeFile(
+      manifest,
+      `${JSON.stringify(
+        {
+          generatedFrom: [sourceUrl],
+          lastVerified: "2026-05-09",
+          laws: [
+            {
+              slug: "resume-act",
+              title: "Resume Act",
+              sourceUrl,
+              sources: { en: [{ kind: "html", url: sourceUrl }] },
+              sections: []
+            }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-09", sources: [] })}\n`);
+    await writeDataFile(path.join(cacheDir, "resume-act.lino"), {
+      fetchedAt: "2026-05-09T00:00:00.000Z",
+      sourceUrl,
+      completeFetch: false,
+      maxSections: 1,
+      law: {
+        slug: "resume-act",
+        title: "Resume Act",
+        sourceUrl,
+        sources: { en: [{ kind: "html", url: sourceUrl }] },
+        sections: [
+          {
+            sectionId: "10",
+            sectionNo: "1",
+            orderNo: 1,
+            title: "Cached section",
+            content: "Cached body from earlier checkpoint.",
+            footnotes: ""
+          }
+        ]
+      }
+    });
+
+    await execFileAsync("node", [
+      "scripts/build-site.mjs",
+      "--fetch",
+      "--manifest",
+      manifest,
+      "--regional-sources",
+      regionalSources,
+      "--cache-dir",
+      cacheDir,
+      "--progress-file",
+      progressFile,
+      "--output",
+      output,
+      "--delay-ms",
+      "0"
+    ]);
+
+    const markdown = await readFile(path.join(output, "laws/en/resume-act/part-001.md"), "utf8");
+    const cache = await readDataFile(path.join(cacheDir, "resume-act.lino"));
+    const progress = await readDataFile(progressFile);
+    assert.equal(landingRequests, 1);
+    assert.equal(cachedSectionRequests, 0);
+    assert.equal(missingSectionRequests, 1);
+    assert.match(markdown, /Cached body from earlier checkpoint/);
+    assert.match(markdown, /Newly fetched missing body/);
+    assert.equal(cache.completeFetch, true);
+    assert.equal(cache.law.sections.length, 2);
+    assert.equal(progress.status, "complete");
+    assert.equal(progress.laws[0].status, "fetched");
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+    await rm(workspace, { recursive: true, force: true });
+  }
+});
+
 test("fetch site build writes completed law cache and progress as Lino", async () => {
   const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-lino-cache-"));
   const output = path.join(workspace, "site");

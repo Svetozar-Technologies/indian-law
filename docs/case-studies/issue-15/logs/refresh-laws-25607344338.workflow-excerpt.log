@@ -1,0 +1,46 @@
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7342701Z ^[[36;1mstatus=75^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7342876Z ^[[36;1mfor chunk in $(seq 1 "$MAX_CHUNKS"); do^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7343128Z ^[[36;1m  echo "::group::Refresh chunk $chunk of $MAX_CHUNKS"^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7343355Z ^[[36;1m  set +e^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7343681Z ^[[36;1m  node scripts/build-site.mjs "${args[@]}"^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7343889Z ^[[36;1m  status=$?^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7344043Z ^[[36;1m  set -e^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7344194Z ^[[36;1m  echo "::endgroup::"^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7344357Z ^[[36;1m^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7344571Z ^[[36;1m  commit_generated "Refresh generated law pages (chunk $chunk)"^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7344825Z ^[[36;1m^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7344965Z ^[[36;1m  if [ "$status" -eq 0 ]; then^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7345160Z ^[[36;1m    echo "Refresh completed."^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7345346Z ^[[36;1m    break^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7345489Z ^[[36;1m  fi^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7345632Z ^[[36;1m  if [ "$status" -ne 75 ]; then^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7345870Z ^[[36;1m    echo "::error::Refresh failed with exit code $status."^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7346107Z ^[[36;1m    exit "$status"^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7346369Z ^[[36;1m  fi^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7346593Z ^[[36;1m  echo "Checkpoint reached; continuing from committed cached laws."^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7346897Z ^[[36;1m  if [ "$chunk" -eq "$MAX_CHUNKS" ]; then^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7347277Z ^[[36;1m    echo "::notice::Refresh checkpoint saved after $MAX_CHUNKS chunk(s); run this workflow again to continue."^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7347627Z ^[[36;1m  fi^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7347760Z ^[[36;1mdone^[[0m
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7363665Z shell: /usr/bin/bash -e {0}
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7363850Z env:
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7363986Z   MAX_SECTIONS:
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7364143Z   CHECKPOINT_MINUTES: 110
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7364308Z   MAX_CHUNKS: 1
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7364451Z ##[endgroup]
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7397243Z + echo 'Starting resumable refresh with CHECKPOINT_MINUTES=110, MAX_CHUNKS=1, MAX_SECTIONS=all.'
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7398157Z Starting resumable refresh with CHECKPOINT_MINUTES=110, MAX_CHUNKS=1, MAX_SECTIONS=all.
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7398750Z + checkpoint_ms=6600000
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7399188Z + echo 'Computed checkpoint runtime budget: 6600000 ms.'
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7400978Z + args=(--fetch --manifest data/laws.discovered.lino --regional-sources data/regional-sources.discovered.lino --delay-ms 1100 --cache-dir data/cache/laws --cache-ttl-days 30 --progress-file data/cache/refresh-status.lino --max-runtime-ms "$checkpoint_ms" --progress-interval-ms 30000)
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7402364Z + '[' -n '' ']'
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7402702Z + echo 'Fetching all sections for each law.'
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7403168Z Computed checkpoint runtime budget: 6600000 ms.
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7405032Z + printf 'Build arguments: %q\n' --fetch --manifest data/laws.discovered.lino --regional-sources data/regional-sources.discovered.lino --delay-ms 1100 --cache-dir data/cache/laws --cache-ttl-days 30 --progress-file data/cache/refresh-status.lino --max-runtime-ms 6600000 --progress-interval-ms 30000
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7406142Z + status=75
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7406297Z ++ seq 1 1
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7406483Z Fetching all sections for each law.
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7406707Z Build arguments: --fetch
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7406915Z Build arguments: --manifest
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7407155Z Build arguments: data/laws.discovered.lino
+Refresh Official Sources	Build Pages with resumable checkpoints	2026-05-09T17:33:19.7407407Z Build arguments: --regional-sources
