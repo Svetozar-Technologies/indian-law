@@ -1,0 +1,79 @@
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.5355279Z   include-hidden-files: false
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.5355343Z   archive: true
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.5355396Z env:
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.5355458Z   GITHUB_PAGES: true
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.5355520Z ##[endgroup]
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.6441523Z With the provided path, there will be 1 file uploaded
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.6445338Z Artifact name is valid!
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.6445789Z Root directory input is valid!
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.8697001Z Uploading artifact: github-pages.zip
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:52.8725422Z Beginning upload of artifact content to blob storage
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:54.2222899Z Uploaded bytes 8388608
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:54.3625599Z Uploaded bytes 11826233
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:54.4236989Z Finished uploading artifact content to blob storage!
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:54.4239613Z SHA256 digest of uploaded artifact is 5f8bf7087ee144ba447731b5362de0083ccb9f0a3e001918bda291292a3614f0
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:54.4241662Z Finalizing artifact upload
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:54.7033983Z Artifact github-pages successfully finalized. Artifact ID 6898052345
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:54.7035408Z Artifact github-pages has been successfully uploaded! Final size is 11826233 bytes. Artifact ID is 6898052345
+Refresh Official Sources	Upload GitHub Pages artifact	2026-05-09T19:23:54.7040141Z Artifact download URL: https://github.com/Svetozar-Technologies/indian-law/actions/runs/25607344338/artifacts/6898052345
+Refresh Official Sources	Deploy to GitHub Pages	﻿2026-05-09T19:23:54.7196034Z ##[group]Run actions/deploy-pages@v5
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7196261Z with:
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7196492Z   token: ***
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7196642Z   timeout: 600000
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7196799Z   error_count: 10
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7197043Z   reporting_interval: 5000
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7197233Z   artifact_name: github-pages
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7197419Z   preview: false
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7197567Z env:
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7197703Z   GITHUB_PAGES: true
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.7197864Z ##[endgroup]
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.8733181Z (node:3090) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:54.8733984Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:55.0730710Z Fetching artifact metadata for "github-pages" in this workflow run
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:55.2389880Z Found 1 artifact(s)
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:55.2399896Z Creating Pages deployment with payload:
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:55.2400413Z {
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:55.2400929Z 	"artifact_id": 6898052345,
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:55.2401717Z 	"pages_build_version": "d67534938237f579222992c44865fd512899e7f2",
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:55.2470532Z 	"oidc_token": "***"
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:55.2471064Z }
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:23:55.6359786Z Created deployment for d67534938237f579222992c44865fd512899e7f2, ID: d67534938237f579222992c44865fd512899e7f2
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:24:00.6372675Z Getting Pages deployment status...
+Refresh Official Sources	Deploy to GitHub Pages	2026-05-09T19:24:00.8936178Z Reported success!
+Refresh Official Sources	Post Setup Node	﻿2026-05-09T19:24:00.9138834Z Post job cleanup.
+Refresh Official Sources	Post Setup Node	2026-05-09T19:24:01.0051340Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-1f0d5c634089f65f566e92b5dc9580b99d3440618cec899cc5b29b54817054cc, not saving cache.
+Refresh Official Sources	Post Checkout	﻿2026-05-09T19:24:01.0158055Z Post job cleanup.
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.0813550Z [command]/usr/bin/git version
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.0843011Z git version 2.53.0
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.0873279Z Temporarily overriding HOME='/home/runner/work/_temp/ed9c06d6-3bba-4aaa-b707-c571890eeebd' before making global git config changes
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.0874654Z Adding repository directory to the temporary git global config as a safe directory
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.0877766Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/indian-law/indian-law
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.0902665Z Removing SSH command configuration
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.0907378Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.0935337Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1120773Z Removing HTTP extra header
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1124447Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1151406Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1333455Z Removing includeIf entries pointing to credentials config files
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1338087Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1387935Z includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1388628Z includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1389024Z includeif.gitdir:/github/workspace/.git.path
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1389555Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1395121Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1412591Z /home/runner/work/_temp/git-credentials-50ffb3b6-3d99-46de-b876-1d1543a2c3d7.config
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1421502Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path /home/runner/work/_temp/git-credentials-50ffb3b6-3d99-46de-b876-1d1543a2c3d7.config
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1449928Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1467664Z /home/runner/work/_temp/git-credentials-50ffb3b6-3d99-46de-b876-1d1543a2c3d7.config
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1475062Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-50ffb3b6-3d99-46de-b876-1d1543a2c3d7.config
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1499593Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1516479Z /github/runner_temp/git-credentials-50ffb3b6-3d99-46de-b876-1d1543a2c3d7.config
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1522863Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-50ffb3b6-3d99-46de-b876-1d1543a2c3d7.config
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1547535Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1563928Z /github/runner_temp/git-credentials-50ffb3b6-3d99-46de-b876-1d1543a2c3d7.config
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1570472Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-50ffb3b6-3d99-46de-b876-1d1543a2c3d7.config
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1595143Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Refresh Official Sources	Post Checkout	2026-05-09T19:24:01.1778251Z Removing credentials config '/home/runner/work/_temp/git-credentials-50ffb3b6-3d99-46de-b876-1d1543a2c3d7.config'
+Refresh Official Sources	Complete job	﻿2026-05-09T19:24:01.1894035Z Evaluate and set environment url
+Refresh Official Sources	Complete job	2026-05-09T19:24:01.1896521Z Evaluated environment url: http://law.satyavera.in/
+Refresh Official Sources	Complete job	2026-05-09T19:24:01.1897155Z Cleaning up orphan processes

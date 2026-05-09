@@ -1,0 +1,139 @@
+
+> indian-law@0.1.0 test
+> node --test --test-timeout=30000 tests/*.test.mjs
+
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+  ---
+  duration_ms: 290.428169
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading
+  ---
+  duration_ms: 164.6589
+  ...
+# Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+ok 3 - fetch site build resumes an incomplete cached law without redownloading cached sections
+  ---
+  duration_ms: 184.741986
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 4 - fetch site build writes completed law cache and progress as Lino
+  ---
+  duration_ms: 149.992386
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 5 - fetch site build writes partial output when the runtime budget is exhausted
+  ---
+  duration_ms: 155.952557
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 6 - fetch site build records per-law upstream failures as partial output
+  ---
+  duration_ms: 2206.732199
+  ...
+# Subtest: Central Act discovery falls back to seed laws when the live listing is unavailable
+ok 7 - Central Act discovery falls back to seed laws when the live listing is unavailable
+  ---
+  duration_ms: 199.946553
+  ...
+# Subtest: extracts India Code metadata, PDF sources, and section references
+ok 8 - extracts India Code metadata, PDF sources, and section references
+  ---
+  duration_ms: 8.219526
+  ...
+# Subtest: normalises section JSON HTML into plain text
+ok 9 - normalises section JSON HTML into plain text
+  ---
+  duration_ms: 0.405054
+  ...
+# Subtest: parses India Code search result rows
+ok 10 - parses India Code search result rows
+  ---
+  duration_ms: 0.84383
+  ...
+# Subtest: parses regional PDF source rows
+ok 11 - parses regional PDF source rows
+  ---
+  duration_ms: 0.567258
+  ...
+# Subtest: strips table and inline HTML without collapsing intended breaks
+ok 12 - strips table and inline HTML without collapsing intended breaks
+  ---
+  duration_ms: 0.123164
+  ...
+# Subtest: repository-owned seed metadata is stored as Links Notation
+ok 13 - repository-owned seed metadata is stored as Links Notation
+  ---
+  duration_ms: 1874.960342
+  ...
+# Subtest: Lino codec stores strings unencoded and preserves numeric-looking identifiers
+ok 14 - Lino codec stores strings unencoded and preserves numeric-looking identifiers
+  ---
+  duration_ms: 1.458137
+  ...
+# Subtest: Lino codec keeps multilingual and multiline strings readable
+ok 15 - Lino codec keeps multilingual and multiline strings readable
+  ---
+  duration_ms: 0.571984
+  ...
+# Subtest: Lino writer uses indented definitions for nested data
+ok 16 - Lino writer uses indented definitions for nested data
+  ---
+  duration_ms: 0.598504
+  ...
+# Subtest: owned data directories do not store JSON metadata
+ok 17 - owned data directories do not store JSON metadata
+  ---
+  duration_ms: 4.342526
+  ...
+# Subtest: renders a section with content and footnotes
+ok 18 - renders a section with content and footnotes
+  ---
+  duration_ms: 1.18527
+  ...
+# Subtest: splits only between sections and keeps each part under the requested line budget when possible
+ok 19 - splits only between sections and keeps each part under the requested line budget when possible
+  ---
+  duration_ms: 0.864501
+  ...
+# Subtest: renders Markdown part metadata and source links
+ok 20 - renders Markdown part metadata and source links
+  ---
+  duration_ms: 0.295051
+  ...
+# Subtest: regional source discovery logs page decisions by default
+ok 21 - regional source discovery logs page decisions by default
+  ---
+  duration_ms: 99.93238
+  ...
+# Subtest: source smoke download logs source choices by default
+ok 22 - source smoke download logs source choices by default
+  ---
+  duration_ms: 93.534807
+  ...
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 23 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 8.3957
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 24 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 1.530917
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 25 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 3.002184
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3223.385867

@@ -125,17 +125,24 @@ async function main() {
           logger,
           logProgress,
           maxSections,
+          maxRuntimeMs,
           progressIntervalMs,
+          startedAt,
           total: selectedLaws.length,
           verbose
         })
       : law;
-    if (preparedLaw.__refreshMetadata?.status === "failed") {
+    const refreshStatus = preparedLaw.__refreshMetadata?.status;
+    if (refreshStatus === "failed" || refreshStatus === "partial") {
       partialRefresh = true;
     }
     recordLawProgress(refreshProgress, index, preparedLaw);
     await writeRefreshProgress(progressPath, refreshProgress, { logger, verbose });
     laws.push(attachRegionalSources(preparedLaw, regionalSources.sources ?? []));
+    if (refreshStatus === "partial") {
+      logger.warn(`Checkpoint saved during ${law.title}; remaining laws will stay pending for the next run.`);
+      break;
+    }
   }
 
   if (partialRefresh) {
@@ -182,13 +189,15 @@ async function fetchLawWithCache(seedLaw, options) {
   const cachePath = options.cacheDir ? lawCachePath(options.cacheDir, seedLaw) : undefined;
   const progressPrefix = `[${options.index + 1}/${options.total}]`;
   const sourceUrl = sourceUrlForLaw(seedLaw);
+  let cache;
 
   logVerbose(
     `${progressPrefix} Cache decision for ${seedLaw.title}: ${cachePath ? path.relative(ROOT, cachePath) : "no cache dir"}`,
     options
   );
   if (cachePath) {
-    const cachedLaw = await readFreshCachedLaw(cachePath, options);
+    cache = await readLawCache(cachePath, options);
+    const cachedLaw = lawFromFreshCache(cache, cachePath, options);
     if (cachedLaw) {
       logProgress(
         `${progressPrefix} Using cached ${seedLaw.title} (${cachedLaw.sections?.length ?? 0} sections, fetched ${cachedLaw.fetchedAt})`,
@@ -202,10 +211,17 @@ async function fetchLawWithCache(seedLaw, options) {
     }
   }
 
+  const resumeCache = cacheCanSeedResume(cache) ? cache : undefined;
+  if (resumeCache) {
+    logProgress(
+      `${progressPrefix} Resuming ${seedLaw.title} from ${resumeCache.law.sections?.length ?? 0} cached section(s)`,
+      options
+    );
+  }
   logProgress(`${progressPrefix} Fetching ${seedLaw.title} from ${sourceUrl}`, options);
-  let fetchedLaw;
+  let fetchResult;
   try {
-    fetchedLaw = await fetchLaw(seedLaw, options);
+    fetchResult = await fetchLaw(seedLaw, { ...options, resumeCache });
   } catch (error) {
     const failedLaw = normaliseLaw({
       ...seedLaw,
@@ -220,17 +236,27 @@ async function fetchLawWithCache(seedLaw, options) {
       fetchedAt: ""
     });
   }
-  logProgress(`${progressPrefix} Fetched ${fetchedLaw.sections?.length ?? 0} sections for ${fetchedLaw.title}`, options);
+  const fetchedLaw = fetchResult.law;
+  logProgress(
+    `${progressPrefix} Fetched ${fetchResult.fetchedSections} new section(s), reused ${
+      fetchResult.reusedSections
+    } cached section(s), total ${fetchedLaw.sections?.length ?? 0}/${fetchResult.requestedSections} for ${fetchedLaw.title}`,
+    options
+  );
 
   if (cachePath) {
-    await writeLawCache(cachePath, fetchedLaw, options);
+    await writeLawCache(cachePath, fetchedLaw, {
+      ...options,
+      completeFetch: fetchResult.completeFetch,
+      totalSections: fetchResult.totalSections
+    });
     logVerbose(`${progressPrefix} Wrote cache ${path.relative(ROOT, cachePath)}`, options);
   }
 
   return annotateRefreshMetadata(fetchedLaw, {
-    status: "fetched",
+    status: fetchResult.partialFetch ? "partial" : "fetched",
     cachePath,
-    fetchedAt: new Date().toISOString()
+    fetchedAt: fetchedLaw.fetchedAt ?? new Date().toISOString()
   });
 }
 
@@ -242,7 +268,11 @@ async function fetchLaw(seedLaw, options) {
   const metadata = extractIndiaCodeMetadata(html, sourceUrl);
   const sectionRefs = extractIndiaCodeSections(html);
   const limitedSections = options.maxSections ? sectionRefs.slice(0, options.maxSections) : sectionRefs;
+  const cachedSections = reusableCachedSections(options.resumeCache);
   const sections = [];
+  let fetchedSections = 0;
+  let reusedSections = 0;
+  let partialFetch = false;
   let lastProgressAt = Date.now();
 
   logVerbose(
@@ -251,12 +281,28 @@ async function fetchLaw(seedLaw, options) {
     } section(s) after maxSections=${options.maxSections ?? "all"}`,
     options
   );
+  if (cachedSections.size > 0) {
+    logVerbose(`Resume cache for ${seedLaw.title} has ${cachedSections.size} reusable section(s)`, options);
+  }
 
   for (let index = 0; index < limitedSections.length; index += 1) {
     const section = limitedSections[index];
+    const cachedSection = cachedSections.get(section.sectionId);
+    if (cachedSection) {
+      sections.push(mergeCachedSection(section, cachedSection));
+      reusedSections += 1;
+      continue;
+    }
+    if (runtimeBudgetExhausted(options.startedAt, options.maxRuntimeMs)) {
+      partialFetch = true;
+      options.logger?.warn(
+        `Runtime checkpoint reached while fetching ${seedLaw.title} after ${sections.length}/${limitedSections.length} section(s)`
+      );
+      break;
+    }
     const query = new URLSearchParams(section.query);
     const actId = query.get("actid");
-    const sectionUrl = new URL("https://www.indiacode.nic.in/SectionPageContent");
+    const sectionUrl = sectionContentUrl(sourceUrl);
     sectionUrl.searchParams.set("actid", actId);
     sectionUrl.searchParams.set("sectionID", section.sectionId);
     logVerbose(
@@ -277,6 +323,7 @@ async function fetchLaw(seedLaw, options) {
       ...section,
       ...parsed
     });
+    fetchedSections += 1;
     if (shouldLogSectionProgress(index, limitedSections.length, lastProgressAt, options.progressIntervalMs)) {
       logProgress(`  ${seedLaw.title}: fetched ${index + 1}/${limitedSections.length} sections`, options);
       lastProgressAt = Date.now();
@@ -284,7 +331,7 @@ async function fetchLaw(seedLaw, options) {
     await sleep(options.delayMs);
   }
 
-  return normaliseLaw({
+  const law = normaliseLaw({
     ...seedLaw,
     ...metadata,
     slug: seedLaw.slug || metadata.slug,
@@ -293,14 +340,23 @@ async function fetchLaw(seedLaw, options) {
     sources: mergeSources(seedLaw.sources, metadata.sources),
     sections
   });
+  law.fetchedAt = new Date().toISOString();
+  return {
+    law,
+    completeFetch: !partialFetch && limitedSections.length >= sectionRefs.length,
+    fetchedSections,
+    partialFetch,
+    requestedSections: limitedSections.length,
+    reusedSections,
+    totalSections: sectionRefs.length
+  };
 }
 
 function sourceUrlForLaw(law) {
   return law.sourceUrl ?? `https://www.indiacode.nic.in/handle/123456789/${law.handle}`;
 }
 
-async function readFreshCachedLaw(cachePath, options) {
-  const cache = await readLawCache(cachePath, options);
+function lawFromFreshCache(cache, cachePath, options) {
   if (!cache) {
     return undefined;
   }
@@ -335,8 +391,10 @@ async function writeLawCache(cachePath, law, options) {
     cacheVersion: 1,
     fetchedAt: new Date().toISOString(),
     sourceUrl: law.sourceUrl ?? "",
-    completeFetch: options.maxSections === undefined,
+    completeFetch: options.completeFetch ?? options.maxSections === undefined,
     maxSections: options.maxSections ?? null,
+    sectionCount: law.sections?.length ?? 0,
+    totalSections: options.totalSections ?? law.sections?.length ?? 0,
     law
   });
 }
@@ -387,15 +445,46 @@ function cacheIsFresh(fetchedAt, ttlDays) {
 }
 
 function cacheSatisfiesRequest(cache, options) {
+  const cachedSectionCount = cache.law?.sections?.length ?? 0;
   if (options.maxSections === undefined) {
     return cache.completeFetch === true || (cache.completeFetch !== false && cache.maxSections == null);
+  }
+  if (cache.completeFetch === false) {
+    return cachedSectionCount >= options.maxSections;
   }
   return (
     cache.completeFetch === true ||
     cache.maxSections == null ||
     Number(cache.maxSections ?? 0) >= options.maxSections ||
-    (cache.law.sections?.length ?? 0) >= options.maxSections
+    cachedSectionCount >= options.maxSections
   );
+}
+
+function cacheCanSeedResume(cache) {
+  return Boolean(cache?.law && cache.completeFetch === false && Array.isArray(cache.law.sections));
+}
+
+function reusableCachedSections(cache) {
+  const sections = new Map();
+  for (const section of cache?.law?.sections ?? []) {
+    if (section.sectionId && !sections.has(section.sectionId)) {
+      sections.set(section.sectionId, section);
+    }
+  }
+  return sections;
+}
+
+function mergeCachedSection(sectionRef, cachedSection) {
+  return {
+    ...sectionRef,
+    title: cachedSection.title || sectionRef.title,
+    content: cachedSection.content ?? "",
+    footnotes: cachedSection.footnotes ?? ""
+  };
+}
+
+function sectionContentUrl(sourceUrl) {
+  return new URL("/SectionPageContent", sourceUrl || "https://www.indiacode.nic.in");
 }
 
 function createRefreshProgress({
@@ -440,6 +529,7 @@ function createRefreshProgress({
     completedLaws,
     pendingLaws: fetchLive ? laws.length : 0,
     failedLaws: 0,
+    partialLaws: 0,
     partialRefresh: false,
     laws
   };
@@ -485,6 +575,7 @@ function refreshProgressCounts(progress) {
   progress.completedLaws = progress.laws.filter((law) => ["cached", "fetched", "seed"].includes(law.status)).length;
   progress.pendingLaws = progress.laws.filter((law) => law.status === "pending").length;
   progress.failedLaws = progress.laws.filter((law) => law.status === "failed").length;
+  progress.partialLaws = progress.laws.filter((law) => law.status === "partial").length;
 }
 
 async function writeRefreshProgress(progressPath, progress, options = {}) {
