@@ -270,3 +270,121 @@ test("fetch site build writes partial output when the runtime budget is exhauste
     await rm(workspace, { recursive: true, force: true });
   }
 });
+
+test("fetch site build records per-law upstream failures as partial output", async () => {
+  const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-law-failure-"));
+  const output = path.join(workspace, "site");
+  const cacheDir = path.join(workspace, "cache");
+  const progressFile = path.join(workspace, "refresh-status.lino");
+  const manifest = path.join(workspace, "manifest.json");
+  const regionalSources = path.join(workspace, "regional-sources.json");
+  let failingLawRequests = 0;
+  const server = http.createServer((request, response) => {
+    if (request.url === "/stable-act") {
+      response.writeHead(200, { "content-type": "text/html" });
+      response.end(`
+        <html>
+          <body>
+            <table>
+              <tr><td class="metadataFieldLabel">Short Title:&nbsp;</td><td class="metadataFieldValue">Stable Act</td></tr>
+              <tr><td class="metadataFieldLabel">Act Number:&nbsp;</td><td class="metadataFieldValue">1</td></tr>
+              <tr><td class="metadataFieldLabel">Act Year:&nbsp;</td><td class="metadataFieldValue">2026</td></tr>
+            </table>
+          </body>
+        </html>
+      `);
+      return;
+    }
+
+    if (request.url === "/unstable-act") {
+      failingLawRequests += 1;
+      response.writeHead(500, { "content-type": "text/plain" });
+      response.end("temporary upstream failure");
+      return;
+    }
+
+    response.writeHead(404, { "content-type": "text/plain" });
+    response.end("not found");
+  });
+
+  try {
+    await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+    const { port } = server.address();
+    const stableSourceUrl = `http://127.0.0.1:${port}/stable-act`;
+    const unstableSourceUrl = `http://127.0.0.1:${port}/unstable-act`;
+    await mkdir(cacheDir, { recursive: true });
+    await writeFile(
+      manifest,
+      `${JSON.stringify(
+        {
+          generatedFrom: [stableSourceUrl, unstableSourceUrl],
+          lastVerified: "2026-05-09",
+          laws: [
+            {
+              slug: "stable-act",
+              title: "Stable Act",
+              sourceUrl: stableSourceUrl,
+              sources: { en: [{ kind: "html", url: stableSourceUrl }] },
+              sections: []
+            },
+            {
+              slug: "unstable-act",
+              title: "Unstable Act",
+              sourceUrl: unstableSourceUrl,
+              sources: { en: [{ kind: "html", url: unstableSourceUrl }] },
+              sections: []
+            }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-09", sources: [] })}\n`);
+
+    await assert.rejects(
+      execFileAsync("node", [
+        "scripts/build-site.mjs",
+        "--fetch",
+        "--manifest",
+        manifest,
+        "--regional-sources",
+        regionalSources,
+        "--cache-dir",
+        cacheDir,
+        "--progress-file",
+        progressFile,
+        "--output",
+        output,
+        "--delay-ms",
+        "0"
+      ]),
+      (error) => {
+        assert.equal(error.code, 75);
+        assert.match(error.stderr, /Failed to fetch Unstable Act/);
+        return true;
+      }
+    );
+
+    const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
+    const progress = await readDataFile(progressFile);
+    const stableCache = await readDataFile(path.join(cacheDir, "stable-act.lino"));
+    assert.equal(failingLawRequests, 3);
+    assert.equal(catalog.sourceMetadata.partialRefresh, true);
+    assert.equal(catalog.laws.length, 2);
+    assert.equal(catalog.laws[0].slug, "stable-act");
+    assert.equal(catalog.laws[1].slug, "unstable-act");
+    assert.equal(catalog.laws[1].languages.en.status, "source-only");
+    assert.equal(stableCache.law.slug, "stable-act");
+    assert.equal(progress.status, "partial");
+    assert.equal(progress.completedLaws, 1);
+    assert.equal(progress.failedLaws, 1);
+    assert.equal(progress.pendingLaws, 0);
+    assert.equal(progress.laws[0].status, "fetched");
+    assert.equal(progress.laws[1].status, "failed");
+    assert.match(progress.laws[1].error, /HTTP 500/);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+    await rm(workspace, { recursive: true, force: true });
+  }
+});

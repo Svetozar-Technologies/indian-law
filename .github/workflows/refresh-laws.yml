@@ -89,6 +89,8 @@ jobs:
           commit_generated() {
             local message="$1"
             echo "Staging generated docs and cache for commit: $message"
+            echo "Workspace status before staging generated files:"
+            git status --short
             git add docs
             git add -f data/laws.discovered.lino data/regional-sources.discovered.lino
             if [ -d data/cache ]; then
@@ -97,12 +99,18 @@ jobs:
             else
               echo "No data/cache directory exists yet."
             fi
+            echo "Workspace status after staging generated files:"
+            git status --short
+            echo "Staged generated change summary:"
+            git diff --cached --stat
             if git diff --cached --quiet; then
               echo "No generated docs or cache changes to commit."
               return
             fi
             git commit -m "$message"
+            echo "Created checkpoint commit $(git rev-parse --short HEAD)."
             git push origin HEAD:main
+            echo "Pushed checkpoint commit $(git rev-parse --short HEAD) to main."
           }
 
           checkpoint_ms=$(( CHECKPOINT_MINUTES * 60 * 1000 ))

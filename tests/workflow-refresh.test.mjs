@@ -33,3 +33,21 @@ test("refresh workflow force-adds ignored discovered manifests before checkpoint
     "ignored generated manifests must be force-added so checkpoint commits do not fail"
   );
 });
+
+test("refresh workflow prints checkpoint staging diagnostics", async () => {
+  const workflow = await readFile(".github/workflows/refresh-laws.yml", "utf8");
+
+  for (const expectedLog of [
+    "Workspace status before staging generated files:",
+    "Workspace status after staging generated files:",
+    "Staged generated change summary:",
+    "Created checkpoint commit",
+    "Pushed checkpoint commit"
+  ]) {
+    assert.match(workflow, new RegExp(escapeRegExp(expectedLog)));
+  }
+
+  assert.match(workflow, /^\s+git status --short$/m);
+  assert.match(workflow, /^\s+git diff --cached --stat$/m);
+  assert.match(workflow, /git rev-parse --short HEAD/);
+});
