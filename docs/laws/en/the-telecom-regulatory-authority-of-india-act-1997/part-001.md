@@ -1,0 +1,1248 @@
+---
+title: "The Telecom Regulatory Authority of India Act, 1997"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1929"
+---
+# The Telecom Regulatory Authority of India Act, 1997
+
+Language: English
+Part 1 of 1
+Sections: 1 to 40
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1929
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1929/1/A199724.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=period+for+filing+of+application+to+authority.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=TRAI+%28Annual+Report+and+Returns%29+Rules%2C+1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=Procedure+for+conducting+inquiry+against+member+Rules%2C+1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=TRAI+%28Miscellaneous%29+Rules%2C+1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=Form+of+Annual+Statement+of+Accounts+and+REcords.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=TRAI-Allowances+to+part-time+members.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=allowances_to_part-time_members_amendment_rules%2C_2001.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=TRAI%28salary%2C+allowance+and+other+conditions+of+officers+and+employees+.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=Category+of+Books+%26amp%3B+Accounts.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/rulesindividualfile/&file=cpf_principal_rules.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Trans_of_Business_Regulation_22Mar1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Interconnect+agreements+regulating+1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=The+Telecom+Regulatory+Authority+of+India+%28Officers+and+Staff+Appointment%29+Regulation%2C+2017%28Twelfth+Amendment%29..pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Telecom+Interconnection+%28Charges+and+Revenue+Sharing%29%2C+Regulation%2C+1999.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Telecommunication+Interconnection+%28Port+Charges%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Telecommunication+interconnection+%28RIO%29+regulation%2C+2002.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=VOIP+based+international+long+diatance+service+regulation%2C+2002.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Telecommunications+IUC+Regulation%2C+2003.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=main+regulation+IUC.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Accounting+separation+Regulation+2004+main.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=T%28B%26CS%29InterconnectionMainregu10dec.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Main+RIA+%28B%26CS%29+Regulation-Principal-Eng.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Transit+charges+for+BSNL+Cellone+terminating+traffic%2C+2005.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=qulaity+of+service+of+basic+and+cellular+mobile+ts%2C+2005.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=QoS_CodeofPractice_Regulation_21Mar06.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=SQS+%28B%26CS%29+%28CT-CAS+areas%29+regulations+2006.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Quality+of+Service+for+Broadband+Service+Regulation6oct06.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Intelligent+Network+Services+in+Multi+Operator+and+Multi+Network+Scenario+Regulations%2C+2006+%2827.11.2006%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=TCPRG+Regulation+2007.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Unsolicited+commerical+commn.+regu+2007.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=ITAEFCLSR+2007.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=TCEPFE+Regulation.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=DTH+Broadcasting+Services+%28SQSRG%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=domestic+leased+circuites+regulation+2007.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=SQS%28B%26CS%29+%28CT-Non-CAS%29+Regulation%2C+2009.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=201211091141353328813Regulation20mar09.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=main+regulation+standard+of+quality.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=MNP+Regulation23sep09%5B1%5D.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=MNP+Regulation20nov2009.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=201205301159277252627regulation1dec2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=TCCCPR+mainregulation1dec2010.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=TCCR_Regulations_05Jan2012.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Consumer_Protection_Regulations+2012.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Reporting+system+on+accounting+separation+regulation+2012.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Mobile_BankingRegulations17042012.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=201603160327017231500Main_regulation_Amendment_30April2012.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Telecom+%28Broad.+and+cable+services%29+Itnerconnection+%28Digital+Address.+Cable+Television+system%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=S+of+Q+%28Digital+Addressable+Cable+TV+Systems%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Standards+of+quality+of+service+%28DATC%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=201212040445340111869Mobile_Data_Reg_+04122012.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Standards+of+quality+of+service+for+wireless+data+services+regulation+2012.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=ITCLSAFC%26C0-Location+Charges.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Registration+of+consumer+organisaitons+regulation+2013.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=SMS+termination+charges+regulations.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Accounting_Separation_Regulations_2016Eng10Jun2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=The+Telecommunication+%28Broadcasting+and+Cable%29+Services+Interconnection+%28Addressable+Systems%29+Regulations%2C+2017.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=QOS_Regulation_03_03_2017.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=Interconnection+regulation.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=RegulationUcc19072018.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/orderindividualfile/&file=.Main+order_09_Mar_1999.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1929/2/h199724.pdf
+
+## Section 1 - Short title, extent and commencement.
+
+(1) This Act may be called the Telecom Regulatory
+Authority of India Act, 1997.
+
+(2) It extends to the whole of India.
+
+(3) It shall be deemed to have come into force on the 25th day of January, 1997.
+
+## Section 2 - Definitions.
+
+(1) In this Act, unless the context otherwise requires,--
+
+(a) "appointed day" means the date with effect from which the Authority is established under
+sub-section (1) of section 3;
+
+^1[(aa) "Appellate Tribunal" means the Telecom Disputes Settlement and Appellate Tribunal
+established under section 14;]
+
+(b) "Authority" means the Telecom Regulatory Authority of India established under
+sub-section (1) of section 3;
+
+(c) "Chairperson" means the Chairperson of the Authority appointed under sub-section (3) of
+section 3;
+
+(d) "Fund" means the Fund constituted under sub-section (1) of section 22;
+
+(e) licensee means any person licensed under sub-section (1) of section 4 of the Indian
+Telegraph Act, 1885 (13 of 1885) for providing specified public telecommunication services;
+
+^1[(ea) "licensor" means the Central Government or the telegraph authority who grants a licence
+under section 4 of the Indian Telegraph Act, 1885 (13 of 1885);]
+
+(f) "member" means a member of the Authority appointed under sub-section (3) of section 3 and
+includes the Chairperson and the Vice-Chairperson;
+
+(g) "notification" means a notification published in the Official Gazette;
+
+(h) "prescribed" means prescribed by rules made under this Act;
+
+(i) "regulations" means regulations made by the Authority under this Act;
+
+(j) "service provider" means the ^2[Government as a service provider] and includes a licensee;
+
+(k) "telecommunication service" means service of any description (including electronic mail,
+voice mail, data services, audio tex services, video tex services, radio paging and cellular mobile
+telephone services) which is made available to users by means of any transmission or reception of signs, signals, writing, images and sounds or intelligence of any nature, by wire, radio, visual or other
+electro-magnetic means but shall not include broadcasting services.
+
+^3[Provided that the Central Government may notify other service to be telecommunication service
+including broadcasting services.]
+
+(2) Words and expressions used and not defined in this Act but defined in the Indian Telegraph Act,
+1885 (13 of 1885) or the Indian Wireless Telegraphy Act, 1933 (17 of 1933), shall have the meanings
+respectively assigned to them in those Acts.
+
+(3) Any reference in this Act to a law which is not in force in the State of Jammu and Kashmir* shall in relation to that State be construed as a reference to the corresponding law, if any, in that State.
+
+### Footnotes
+
+1. Ins. by s. 3, ibid. (w.e.f. 24-1-2000).
+
+2. Subs. by s. 3, ibid., for "Government" (w.e.f. 24-1-2000).
+
+3. Ins. by Act 2 of 2000, s. 3 (w.e.f. 24-1-2000).
+
+*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh.
+
+## Section 3 - Establishment and incorporation of Authority.
+
+(1) With effect from such date as the Central
+Government may, by notification appoint, there shall be established, for the purposes of this Act, an
+Authority to be called the Telecom Regulatory Authority of India.
+
+(2) The Authority shall be a body corporate by the name aforesaid, having perpetual succession and a
+common seal, with power, subject to the provisions of this Act, to acquire, hold and dispose of property,
+both movable and immovable, and to contract, and shall, by the said name, sue or be sued.
+
+^1[(3) The Authority shall consist of a Chairperson, and not more than two whole-time members and
+not more than two part-time members, to be appointed by the Central Government.]
+
+(4) The head office of the Authority shall be at New Delhi.
+
+### Footnotes
+
+1 Subs. by s. 4, ibid., for sub-section (3) (w.e.f. 24-1-2000).
+
+## Section 4 - Qualifications for appointment of Chairperson and other members.
+
+^1[4. Qualifications for appointment of Chairperson and other members.-- The Chairperson and
+other members of the Authority shall be appointed by the Central Government from amongst persons who
+have special knowledge of, and professional experience in, telecommunication, industry, finance,
+accountancy, law, management or consumer affairs:
+
+Provided that a person who is, or has been, in the service of Government shall not be appointed as a
+member unless such person has held the post of Secretary or Additional Secretary, or the post of
+Additional Secretary and Secretary to the Government of India or any equivalent post in the Central
+Government or the State Government for a period of not less than three years.]
+
+### Footnotes
+
+1 . Subs. by s. 5, ibid., for section 4 (w.e.f. 24-1-2000).
+
+## Section 5 - Term of office, conditions of service, etc., of Chairperson and other members.
+
+(1) Before
+appointing any person as the Chairperson or member, the Central Government shall satisfy itself that the
+person does not have any such financial or other interest as is likely to affect prejudicially his functions as
+such member.
+
+^1[(2) The Chairperson and other members shall hold office for a term not exceeding three years, as the
+Central Government may notify in this behalf, from the date on which they enter upon their offices or
+until they attain the age of sixty-five years, whichever is earlier.
+
+(3) On the commencement of the Telecom Regulatory Authority of India (Amendment) Act, 2000
+(2 of 2000), a person appointed as Chairperson of the Authority and every other person appointed as
+member and holding office as such immediately before such commencement shall vacate their respective
+offices and such Chairperson and such other members shall be entitled to claim compensation not
+exceeding three months pay and allowances for the premature termination of the term of their offices or
+of any contract of service.]
+
+(4) The employee of the Government on his ^2[selection as the Chairperson or whole-time member]
+shall have to retire from service before ^3[joining as the Chairperson or a whole-time member, as the case
+may be.]
+
+(5) The salary and allowances payable to and the other terms and conditions of service of the
+Chairperson and ^4[whole-time members] shall be such as may be prescribed.
+
+(6) The salary, allowances and other conditions of service of the Chairperson or of a member shall not
+be varied to his disadvantage after appointment.
+
+^5[(6A) The part-time members shall receive such allowances as may be prescribed.]
+
+(7) Notwithstanding anything contained in sub-section (2) ^6***, a member may--
+
+(a) relinquish his office by giving in writing to the Central Government notice of not less than
+three months; or
+
+(b) be removed from his office in accordance with the provisions of section 7.
+
+^7[(8) The Chairperson and the whole-time members shall not, for a period of two years from the date
+on which they cease to hold office as such, except with the previous approval of the Central Government,
+accept--
+
+(a) any employment either under the Central Government or under any State Government; or
+
+(b) any appointment in any company in the business of telecommunication services.]
+
+(9) A vacancy caused to the office of the Chairperson or any other member shall be filled up within a
+period of three months from the date on which such vacancy occurs.
+
+^8* * * * *
+
+### Footnotes
+
+1 Subs. by s. 6, ibid., for sub-sections (2) and (3) (w.e.f. 24-1-2000).
+
+2 Subs. by s. 6, ibid., for "selection as member" (w.e.f. 24-1-2000).
+
+3 Subs. by s. 6, ibid., for "joining as member" (w.e.f. 24-1-2000).
+
+4 Subs. by Act 2 of 2000, s. 6, for "other members" (w.e.f. 24-1-2000).
+
+5 Ins. by s. 6, ibid. (w.e.f. 24-1-2000).
+
+6. The words, brackets and figure "or sub-section (3)" omitted by s. 6, ibid. (w.e.f. 24-1-2000).
+
+7 Subs. by Act 20 of 2014, s. 2, for sub-section (8) (w.e.f. 28-5-2014).
+
+8. The Explanation omitted by s. 2, ibid. (w.e.f. 28-5-2014).
+
+## Section 6 - Powers of Chairperson and Vice-Chairperson.
+
+(1) The Chairperson shall have powers of
+general superintendence and directions in the conduct of the affairs of the Authority and he shall, in
+addition to presiding over the meetings of the Authority, exercise and discharge such powers and
+functions of the Authority and shall discharge such other powers and functions as may be prescribed.
+
+(2) The Central Government may appoint one of the members to be a Vice-Chairperson of the
+Authority who shall exercise and discharge such powers and functions of the Chairperson as may be
+prescribed or as may be delegated to him by the Authority.
+
+## Section 7 - Removal and suspension of member from office in certain circumstances.
+
+(1) The Central
+Government may remove from office any member, who,--
+
+(a) has been adjudged an insolvent; or
+
+(b) has been convicted of an offence which, in the opinion of the Central Government, involves
+moral turpitude; or
+
+(c) has become physically or mentally incapable of acting as a member; or
+
+(d) has acquired such financial or other interest as is likely to affect prejudicially his functions as
+a member; or
+
+(e) has so abused his position as to render his continuance in office prejudicial to the public
+interest.
+
+^1[(2) No such member shall be removed from his office under clause (d) or clause (e) of
+sub-section (1) unless he has been given a reasonable opportunity of being heard in the matter.]
+
+### Footnotes
+
+1 Subs. by Act 2 of 2000, s. 7, for sub-sections (2) and (3) (w.e.f. 24-1-2000).
+
+## Section 8 - Meetings.
+
+(1) The Authority shall meet at such times and places, and shall observe such rules of
+procedure in regard to the transaction of business at its meetings (including quorum at such meetings) as
+may be provided by regulations.
+
+(2) The Chairperson or, if for any reason, he is unable to attend a meeting of the Authority,
+Vice-Chairperson and in his absence, any other member chosen by the members present from amongst
+themselves at the meeting shall presided at the meeting.
+
+(3) All questions which come up before any meeting of the Authority shall be decided by a majority
+vote of the members present and voting, and in the event of an equality of votes, the Chairperson or in his
+absence, the person presiding, shall have a second or casting vote.
+
+(4) The Authority may make regulations for the transaction of business at its meetings.
+
+## Section 9 - Vacancies, etc., not to invalidate proceedings of Authority.
+
+No act or proceeding of the
+Authority shall be invalid merely by reason of--
+
+(a) any vacancy in, or any defect in the constitution of, the Authority; or
+
+(b) any defect in the appointment of a person acting as a member of the Authority; or
+
+(c) any irregularity in the procedure of the Authority not affecting the merits of the case.
+
+## Section 10 - Officers and other employees of Authority.
+
+(1) The Authority may appoint officers and such
+other employees as it considers necessary for the efficient discharge of its functions under this Act.
+
+(2) The salary and allowances payable to and the other conditions of service of the officers and other
+employees of the Authority appointed under sub-section (1) shall be such as may be ^1[prescribed]:
+
+^2[Provided that any regulation, in respect of the salary and allowances payable to and other conditions
+of service of the officers and other employees of the Authority, made before the commencement of the
+Telecom Regulatory Authority of India (Amendment) Act, 2000 (2 of 2000), shall cease to have effect
+immediately on the notification of rules made under clause (ca) of sub-section (2) of section 35.]
+
+### Footnotes
+
+1 Subs. by Act 2 of 2000, s. 8, for "determined by regulations" (w.e.f. 24-1-2000).
+
+2 Ins. by s. 8, ibid. (w.e.f. 24-1-2000).
+
+## Section 11 - Functions of Authority.
+
+^1[(1) Notwithstanding anything contained in the Indian Telegraph Act,
+1885 (13 of 1885), the functions of the Authority shall be to--
+
+(a) make recommendations, either suo motu or on a request from the licensor, on the following
+matters, namely:--
+
+(i) need and timing for introduction of new service provider;
+
+(ii) terms and conditions of licence to a service provider;
+
+(iii) revocation of license for non-compliance of terms and conditions of licence;
+
+(iv) measures to facilitate competition and promote efficiency in the operation of
+telecommunication services so as to facilitate growth in such services;
+
+(v) technological improvements in the services provided by the service providers;
+
+(vi) type of equipment to be used by the service providers after inspection of equipment used
+in the network;
+
+(vii) measures for the development of telecommunication technology and any other matter
+relatable to telecommunication industry in general;
+
+(viii) efficient management of available spectrum;
+
+(b) discharge the following functions, namely:--
+
+(i) ensure compliance of terms and conditions of licence;
+
+(ii) notwithstanding anything contained in the terms and conditions of the licence granted
+before the commencement of the Telecom Regulatory Authority of India (Amendment)
+Act, 2000 (2 of 2000), fix the terms and conditions of inter-connectivity between the service
+providers;
+
+(iii) ensure technical compatibility and effective inter-connection between different service
+providers;
+
+(iv) regulate arrangement amongst service providers of sharing their revenue derived from
+providing telecommunication services;
+
+(v) lay-down the standards of quality of service to be provided by the service providers and
+ensure the quality of service and conduct the periodical survey of such service provided by the
+service providers so as to protect interest of the consumers of telecommunication service;
+
+(vi) lay-down and ensure the time period for providing local and long distance circuits of
+telecommunication between different service providers;
+
+(vii) maintain register of inter-connect agreements and of all such other matters as may be
+provided in the regulations;
+
+(viii) keep register maintained under clause (vii) open for inspection to any member of public
+on payment of such fee and compliance of such other requirement as may be provided in the
+regulations;
+
+(ix) ensure effective compliance of universal service obligations;
+
+(c) levy fees and other charges at such rates and in respect of such services as may be determined
+by regulations;
+
+(d) perform such other functions including such administrative and financial functions as may be
+entrusted to it by the Central Government or as may be necessary to carry out the provisions of this
+Act:
+
+Provided that the recommendations of the Authority specified in clause (a) of this sub-section
+shall not be binding upon the Central Government:
+
+Provided further that the Central Government shall seek the recommendations of the Authority in
+respect of matters specified in sub-clauses (i) and (ii) of clause (a) of this sub-section in respect of
+new licence to be issued to a service provider and the Authority shall forward its recommendations
+within a period of sixty days from the date on which that Government sought the recommendations:
+
+Provided also that the Authority may request the Central Government to furnish such information
+or documents as may be necessary for the purpose of making recommendations under sub-clauses (i)
+and (ii) of clause (a) of this sub-section and that Government shall supply such information within a
+period of seven days from receipt of such request:
+
+Provided also that the Central Government may issue a licence to a service provider if no
+recommendations are received from the Authority within the period specified in the second proviso or
+within such period as may be mutually agreed upon between the Central Government and the
+Authority:
+
+Provided also that if the Central Government, having considered that recommendation of the
+Authority, comes to a prima facie conclusion that such recommendation cannot be accepted or needs
+modifications, it shall refer the recommendation back to the Authority for its reconsideration, and the
+Authority may, within fifteen days from the date of receipt of such reference, forward to the Central
+Government its recommendation after considering the reference made by that Government. After
+receipt of further recommendation if any, the Central Government shall take a final decision.]
+
+(2) Notwithstanding anything contained in the Indian Telegraph Act, 1885 (13 of 1885), the
+Authority may, from time to time, by order, notify in the Official Gazette the rates at which the
+telecommunication services within India and outside India shall be provided under this Act including
+the rates at which messages shall be transmitted to any country outside India:
+
+Provided that the Authority may notify different rates for different persons or class of persons for
+similar telecommunication services and where different rates are fixed as aforesaid the Authority shall
+record the reasons therefor.
+
+(3) While discharging its functions ^2[under sub-section (1) or sub-section (2)], the Authority shall not
+act against the interest of the sovereignty and integrity of India, the security of the State, friendly relations
+with foreign States, public order, decency or morality.
+
+(4) The Authority shall ensure transparency while exercising its powers and discharging its functions.
+
+### Footnotes
+
+1 Subs. by s. 9, ibid., for sub-section (1) (w.e.f. 24-1-2000).
+
+2 Subs. by Act 2 of 2000, s. 9, for "under sub-section (1)" (w.e.f. 24-1-2000).
+
+## Section 12 - Powers of Authority to call for information, conduct investigations, etc.
+
+(1) Where the
+Authority considers it expedient so to do, it may, by order in writing,--
+
+(a) call upon any service provider at any time to furnish in writing such information or
+explanation relating to its affairs as the Authority may require; or
+
+(b) appoint one or more persons to make an inquiry in relation to the affairs of any service
+provider; and
+
+(c) direct any of its officers or employees to inspect the books of account or other documents of
+any service provider.
+
+(2) Where any inquiry in relation to the affairs of a service provider has been undertaken under
+sub-section (1),--
+
+(a) every officer of the Government Department, if such service provider is a department of the
+Government;
+
+(b) every director, manager, secretary or other officer, if such service provider is a company; or
+
+(c) every partner, manager, secretary or other officer, if such service provider is a firm; or
+
+(d) every other person or body of persons who has had dealings in the course of business with any
+of the persons mentioned in clauses (b) and (c),
+
+shall be bound to produce before the Authority making the inquiry, all such books of account or other
+documents in his custody or power relating to, or having a bearing on the subject-matter of such inquiry
+and also to furnish to the Authority with any such statement or information relating thereto, as the case
+may be, required of him, within such time as may be specified.
+
+(3) Every service provider shall maintain such books of account or other documents as may be
+prescribed.
+
+(4) The Authority shall have the power to issue such directions to service providers as it may consider
+necessary for proper functioning by service providers.
+
+## Section 13 - Power of Authority to issue directions.
+
+The Authority may, for the discharge of its functions
+under sub-section (1) of section 11, issue such directions from time to time to the service providers, as it
+may consider necessary:
+
+^1[Provided that no direction under sub-section (4) of section 12 or under this section shall be issued
+except on the matters specified in clause (b) of sub-section (1) of section 11.]
+
+### Footnotes
+
+1 Ins. by s. 10, ibid. (w.e.f. 24-1-2000).
+
+## Section 14 - Establishment of Appellate Tribunal.
+
+^1[The Central Government shall, by notification, establish
+an Appellate Tribunal to be known as the Telecom Disputes Settlement and Appellate Tribunal to--
+
+(a) adjudicate any dispute--
+
+(i) between a licensor and a licensee;
+
+(ii) between two or more service providers;
+
+(iii) between a service provider and a group of consumers:
+
+Provided that nothing in this clause shall apply in respect of matters relating to--
+
+(A) the monopolistic trade practice, restrictive trade practice and unfair trade practice which
+are subject to the jurisdiction of the Monopolies and Restrictive Trade Practices Commission
+established under sub-section (1) of section 5 of the Monopolies and Restrictive Trade Practices
+Act, 1969 (54 of 1969);
+
+(B) the complaint of an individual consumer maintainable before a Consumer Disputes
+Redressal Forum or a Consumer Disputes Redressal Commission or the National Consumer
+Redressal Commission established under section 9 of the Consumer Protection Act, 1986
+(68 of 1986);
+
+(C) the dispute between telegraph authority and any other person referred to in sub-section
+(1) of section 7B of the Indian Telegraph Act, 1885 (13 of 1885);
+
+(b) hear and dispose of appeal against any direction, decision or order of the Authority under this
+Act.
+
+^2[(c) exercise jurisdiction, powers and authority conferred on—
+
+(i) the Appellate Tribunal under the Information Technology Act, 2000 (21 of 2000); and
+
+(ii) the Appellate Tribunal under the Airports Economic Regulatory Authority of India Act,
+2008 (27 of 2008).]
+
+### Footnotes
+
+1 Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+2. Ins. by Act 7 of 2017, s. 168 (w.e.f. 26-5-2017).
+
+## Section 14A - Application for settlement of disputes and appeals to Appellate Tribunal.
+
+^1[14A. Application for settlement of disputes and appeals to Appellate Tribunal.-- (1) The Central
+Government or a State Government or a local authority or any person may make an application to the
+Appellate Tribunal for adjudication of any dispute referred to in clause (a) of section 14.
+
+(2) The Central Government or a State Government or a local authority or any person aggrieved by
+any direction, decision or order made by the Authority may prefer an appeal to the Appellate Tribunal.
+
+(3) Every appeal under sub-section (2) shall be preferred within a period of thirty days from the date
+on which a copy of the direction or order or decision made by the Authority is received by the Central
+Government or the State Government or the local authority or the aggrieved person and it shall be in such
+form, verified in such manner and be accompanied by such fee as may be prescribed:
+
+Provided that the Appellate Tribunal may entertain any appeal after the expiry of the said period of
+thirty days if it is satisfied that there was sufficient cause for not filing it within that period.
+
+(4) On receipt of an application under sub-section (1) or an appeal under sub-section (2), the
+Appellate Tribunal may, after giving the parties to the dispute or the appeal an opportunity of being heard,
+pass such orders thereon as it thinks fit.
+
+(5) The Appellate Tribunal shall send a copy of every order made by it to the parties to the dispute or
+the appeal and to the Authority, as the case may be.
+
+(6) The application made under sub-section (1) or the appeal preferred under sub-section (2) shall be
+dealt with by it as expeditiously as possible and endeavour shall be made by it to dispose of the
+application or appeal finally within ninety days from the date of receipt of application or appeal, as the
+case may be:
+
+Provided that where any such application or appeal could not be disposed of within the said period of
+ninety days, the Appellate Tribunal shall record its reasons in writing for not disposing of the application
+or appeal within that period.
+
+(7) The Appellate Tribunal may, for the purpose of examining the legality or propriety or correctness
+of any dispute made in any application under sub-section (1) or of any direction or order or decision of
+the Authority referred to in the appeal preferred under sub-section (2), on its own motion or otherwise,
+call for the records relevant to disposing of such application or appeal and make such orders as it thinks
+fit.]
+
+### Footnotes
+
+1 Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14B - Composition of Appellate Tribunal.
+
+^1[14B. Composition of Appellate Tribunal.-- (1) The Appellate Tribunal shall consist of a
+Chairperson and not more than two Members to be appointed, by notification, by the Central
+Government.
+
+(2) The selection of Chairperson and Members of the Appellate Tribunal shall be made by the Central
+Government in consultation with the Chief Justice of India.
+
+(3) Subject to the provisions of this Act,--
+
+(a) the jurisdiction of the Appellate Tribunal may be exercised by the Benches thereof;
+
+(b) a Bench may be constituted by the Chairperson of the Appellate Tribunal with one or two
+Members of such Tribunal as the Chairperson may deem fit;
+
+(c) the Benches of the Appellate Tribunal shall ordinarily sit at New Delhi and at such other
+places as the Central Government may, in consultation with the Chairperson of the Appellate
+Tribunal, notify;
+
+(d) the Central Government shall notify the areas in relation to which each Bench of the Appellate
+Tribunal may exercise its jurisdiction.
+
+(4) Notwithstanding anything contained in sub-section (2), the Chairperson of the Appellate Tribunal
+may transfer a Member of such Tribunal from one Bench to another Bench.
+
+(5) If at any stage of the hearing of any case or matter it appears to the Chairperson or a Member of
+the Appellate Tribunal that the case or matter is of such a nature that it ought to be heard by a Bench
+consisting of two Members, the case or matter may be transferred by the Chairperson to such Bench as
+the Chairperson may deem fit.]
+
+### Footnotes
+
+1 Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14C - Qualifications for appointment of Chairperson and Members.
+
+^1[14C. Qualifications for appointment of Chairperson and Members.-- A person shall not be
+qualified for appointment as the Chairperson or a Member of the Appellate Tribunal unless he--
+
+(a) in the case of Chairperson, is, or has been, a Judge of the Supreme Court or the Chief Justice
+of a High Court;
+
+(b) in the case of a Member, has held the post of Secretary to the Government of India or any
+equivalent post in the Central Government or the State Government for a period of not less than two
+years or a person who is well versed in the field of technology, telecommunication, industry,
+commerce or administration.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14D - Term of office.
+
+^1[14D. Term of office.-- The Chairperson and every other Member of the Appellate Tribunal shall hold
+office as such for a term not exceeding three years from the date on which he enters upon his office:
+
+Provided that no Chairperson or other Member shall hold office as such after he has attained,--
+
+(a) in the case of Chairperson, the age of seventy years;
+
+(b) in the case of any other Member, the age of sixty-five years.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14E - Terms and conditions of service.
+
+^1[14E. Terms and conditions of service.-- The salary and allowances payable to and the other terms
+and conditions of service of the Chairperson and other Members of the Appellate Tribunal shall be such
+as may be prescribed:
+
+Provided that neither the salary and allowances nor the other terms and conditions of service of the
+Chairperson or a Member of the Appellate Tribunal shall be varied to his disadvantage after appointment.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14F - Vacancies.
+
+^1[14F. Vacancies.-- If, for reason other than temporary absence, any vacancy occurs in the office of the
+Chairperson or a Member of the Appellate Tribunal, the Central Government shall appoint another person
+in accordance with the provisions of this Act to fill the vacancy and the proceedings may be continued
+before the Appellate Tribunal from the stage at which the vacancy is filled.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14G - Removal and resignation.
+
+^1[14G. Removal and resignation.--(1) The Central Government may remove from office, the
+Chairperson or any Member of the Appellate Tribunal, who--
+
+(a) has been adjudged an insolvent; or
+
+(b) has been convicted of an offence which, in the opinion of the Central Government, involves
+moral turpitude; or
+
+(c) has become physically or mentally incapable of acting as the Chairperson or a Member; or
+
+(d) has acquired such financial or other interest as is likely to affect prejudicially his functions as
+the Chairperson or a Member; or
+
+(e) has so abused his position as to render his continuance in office prejudicial to the public
+interest.
+
+(2) Notwithstanding anything contained in sub-section (1), the Chairperson or a Member of the
+Appellate Tribunal shall not be removed from his office on the ground specified in clause (d) or clause (e)
+of that sub-section unless the Supreme Court on a reference being made to it in this behalf by the Central
+Government, has, on an enquiry, held by it in accordance with such procedure as it may specify in this
+behalf, reported that the Chairperson or a Member ought on such ground or grounds to be removed.
+
+(3) The Central Government may suspend from office, the Chairperson or a Member of the Appellate
+Tribunal in respect of whom a reference has been made to the Supreme Court under sub-section (2), until
+the Central Government has passed an order on receipt of the report of the Supreme Court on such
+reference.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14GA. - Qualifications, terms and conditions of service of Chairperson and Member.
+
+^1[14GA. Qualifications, terms and conditions of service of Chairperson and Member.
+Notwithstanding anything contained in this Act, the qualifications, appointment, term of office, salaries
+and allowances, resignation, removal and the other terms and conditions of service of the Chairperson and
+other Members of the Appellate Tribunal appointed after the commencement of ^2[the Tribunals Reforms
+Act, 2021, shall be governed by the provisions of Chapter II of the said Act]:
+
+Provided that the Chairperson and Member appointed before the commencement of Part XIV of
+Chapter VI of the Finance Act, 2017, shall continue to be governed by the provisions of this Act and the
+rules made there under as if the provisions of section 184 of the Finance Act, 2017 had not come into
+force.]
+
+### Footnotes
+
+1. Ins. by Act 7 of 2017, s. 168 (w.e.f. 26-5-2017).
+
+2. Subs. by Act 33 of 2021, s. 20, for “Part XIV of Chapter VI of the Finance Act, 2017, shall be governed by the provisions of section 184 of that Act” (w.e.f. 4-4-2021).
+
+## Section 14H - Staff of Appellate Tribunal.
+
+(1) The Central Government shall provide the Appellate
+Tribunal with such officers and employees as it may deem fit.
+
+(2) The officers and employees of the Appellate Tribunal shall discharge their functions under the
+general superintendence of its Chairperson.
+
+(3) The salaries and allowances and other conditions of service of the officers and employees of the
+Appellate Tribunal shall be such as may be prescribed.
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14-I - Distribution of business amongst Benches.
+
+^1[14-I. Distribution of business amongst Benches.--Where Benches are constituted, the Chairperson
+of the Appellate Tribunal may, from time to time, by notification, make provisions as to the distribution
+of the business of the Appellate Tribunal amongst the Benches and also provide for the matters which
+may be dealt with by each Bench.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14J - Power of Chairperson to transfer cases.
+
+^1[14J. Power of Chairperson to transfer cases.-- On the application of any of the parties and after
+notice to the parties, and after hearing such of them as he may desire to be heard, or on his own motion
+without such notice, the Chairperson of the Appellate Tribunal may transfer any case pending before one
+Bench, for disposal, to any other Bench.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14K - Decision to be by majority
+
+^1[14K. Decision to be by majority.-- If the Members of a Bench consisting of two Members differ in
+opinion on any point, they shall state the point or points on which they differ, and make a reference to the
+Chairperson of the Appellate Tribunal who shall hear the point or points himself and such point or points
+shall be decided according to the opinion of the majority who have heard the case, including those who
+first heard it.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14L - Members, etc., to be public servants.
+
+^1[14L. Members, etc., to be public servants--The Chairperson, Members and other officers and
+employees of the Appellate Tribunal shall be deemed to be public servants within the meaning of
+section 21 of the Indian Penal Code (45 of 1860).]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14M - Transfer of pending cases
+
+^1[14M. Transfer of pending cases.-- All applications, pending for adjudication of disputes before the
+Authority immediately before the date of establishment of the Appellate Tribunal under this Act, shall
+stand transferred on that date to such Tribunal:
+
+Provided that all disputes being adjudicated under the provisions of Chapter IV as it stood
+immediately before the commencement of the Telecom Regulatory Authority of India (Amendment)
+Act, 2000 (2 of 2000), shall continue to be adjudicated by the Authority in accordance with the provisions
+contained in that Chapter, till the establishment of the Appellate Tribunal under this Act:
+
+Provided further that all cases referred to in the first proviso shall be transferred by the Authority to
+the Appellate Tribunal immediately on its establishment under section 14.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 14N - Transfer of appeals.
+
+^1[14N. Transfer of appeals.-- (1) All appeals pending before the High Court immediately before the
+commencement of the Telecom Regulatory Authority of India (Amendment) Act, 2000 (2 of 2000), shall
+stand transferred to the Appellate Tribunal on its establishment under section 14.
+
+(2) Where any appeal stands transferred from the High Court to the Appellate Tribunal under
+sub-section (1),--
+
+(a) the High Court shall, as soon as may be after such transfer, forward the records of such appeal
+to the Appellate Tribunal; and
+
+(b) the Appellate Tribunal may, on receipt of such records, proceed to deal with such appeal, so
+far as may be from the stage which was reached before such transfer or from any earlier stage or
+de novo as the Appellate Tribunal may deem fit.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 15 - Civil court not to have jurisdiction
+
+^1[15. Civil court not to have jurisdiction.-- No civil court shall have jurisdiction to entertain any suit
+or proceeding in respect of any matter which the Appellate Tribunal is empowered by or under this Act to
+determine and no injunction shall be granted by any court or other authority in respect of any action taken
+or to be taken in pursuance of any power conferred by or under this Act.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 16 - Procedure and powers of Appellate Tribunal
+
+^1[16. Procedure and powers of Appellate Tribunal.-- (1) The Appellate Tribunal shall not be bound
+by the procedure laid down by the Code of Civil Procedure, 1908 (5 of 1908), but shall be guided by the
+principles of natural justice and, subject to the other provisions of this Act, the Appellate Tribunal shall
+have powers to regulate its own procedure.
+
+(2) The Appellate Tribunal shall have, for the purposes of discharging its functions under this Act, the
+same powers as are vested in a civil court under the Code of Civil Procedure, 1908 (5 of 1908), while
+trying a suit, in respect of the following matters, namely:--
+
+(a) summoning and enforcing the attendance of any person and examining him on oath;
+
+(b) requiring the discovery and production of documents;
+
+(c) receiving evidence on affidavits;
+
+(d) subject to the provisions of sections 123 and 124 of the Indian Evidence Act, 1872 (1 of
+1872), requisitioning any public record or document or a copy of such record or document, from any
+office;
+
+(e) issuing commissions for the examination of witnesses or documents;
+
+(f) reviewing its decisions;
+
+(g) dismissing an application for default or deciding it, ex parte;
+
+(h) setting aside any order of dismissal of any application for default or any order passed by it,
+ex parte; and
+
+(i) any other matter which may be prescribed.
+
+(3) Every proceeding before the Appellate Tribunal shall be deemed to be a judicial proceeding
+within the meaning of sections 193 and 228, and for the purposes of section 196, of the Indian Penal Code
+(45 of 1860) and the Appellate Tribunal shall be deemed to be a civil court for the purposes of section 195
+and Chapter XXVI of the Code of Criminal Procedure, 1973 (2 of 1974).]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 17 - Right to legal representation.
+
+^1[17. Right to legal representation.-- The applicant or appellant may either appear in person or
+authorise one or more chartered accountants or company secretaries or cost accountants or legal
+practitioners or any of its officers to present his or its case before the Appellate Tribunal.
+
+Explanation.-- for the purposes of this section,--
+
+(a) "chartered accountant" means a chartered accountant as defined in clause (b) of
+sub-section (1) of section 2 of the Chartered Accountants Act, 1949 (38 of 1949) and who has
+obtained a certificate of practice under sub-section (1) of section 6 of that Act;
+
+(b) "company secretary" means a company secretary as defined in clause (c) of sub-section (1) of
+section 2 of the Company Secretaries Act, 1980 (56 of 1980) and who has obtained a certificate of
+practice under sub-section (1) of section 6 of that Act;
+
+(c) "cost accountant" means a cost accountant as defined in clause (b) of sub-section (1) of
+section 2 of the Cost and Works Accountants Act, 1959 (23 of 1959) and who has obtained a
+certificate of practice under sub-section (1) of section 6 of that Act;]
+
+(d) "legal practitioner" means an advocate, vakil or an attorney of any High Court, and includes a
+pleader in practice.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 18 - Appeal to Supreme Court.
+
+^1[18. Appeal to Supreme Court.-- (1) Notwithstanding anything contained in the Code of Civil
+Procedure, 1908 (5 of 1908), or in any other law, an appeal shall lie against any order, not being an
+interlocutory order, of the Appellate Tribunal to the Supreme Court on one or more of the grounds
+specified in section 100 of that Code.
+
+(2) No appeal shall lie against any decision or order made by the Appellate Tribunal with the consent
+of the parties.
+
+(3) Every appeal under this section shall be preferred within a period of ninety days from the date of
+the decision or order appealed against:
+
+Provided that the Supreme Court may entertain the appeal after the expiry of the said period of ninety
+days, if it is satisfied that the appellant was prevented by sufficient cause from preferring the appeal in
+time.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 19 - Orders passed by Appellate Tribunal to be executable as a decree
+
+^1[19. Orders passed by Appellate Tribunal to be executable as a decree.-- (1) An order passed by
+the Appellate Tribunal under this Act shall be executable by the Appellate Tribunal as a decree of civil
+court, and for this purpose, the Appellate Tribunal shall have all the powers of a civil court.
+
+(2) Notwithstanding anything contained in sub-section (1), the Appellate Tribunal may transmit any
+order made by it to a civil court having local jurisdiction and such civil court shall execute the order as if
+it were a decree made by that court.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 20 - Penalty for wilful failure to comply with orders of Appellate Tribunal.
+
+^1[20. Penalty for wilful failure to comply with orders of Appellate Tribunal.-- If any person
+wilfully fails to comply with the order of the Appellate Tribunal, he shall be punishable with fine which
+may extend to one lakh rupees and in case of a second or subsequent offence with fine which may extend
+to two lakh rupees and in the case of continuing contravention with additional fine which may extend to
+two lakh rupees for every day during which such default continues.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for Chapter IV (w.e.f. 24-1-2000).
+
+## Section 21 - Grants by Central Government.
+
+The Central Government may, after due appropriation made
+by Parliament by law in this behalf, make to the Authority grants of such sums of money as are required
+to pay salaries and allowances payable to the Chairperson and the members and the administrative
+expenses including the salaries, allowances and pension payable to or in respect of officers and other
+employees of the Authority.
+
+## Section 22 - Fund.
+
+(1) There shall be constituted a Fund to be called the Telecom Regulatory Authority of
+India General Fund and there shall be credited thereto--
+
+(a) all grants, fees and charges received by the Authority under this Act; and
+
+(b) all sums received by the Authority from such other sources as may be decided upon by the
+Central Government.
+
+(2) The Fund shall be applied for meeting--
+
+(a) the salaries and allowances payable to the Chairperson and members and the administrative
+expenses including the salaries, allowances and pension payable to or in respect of officers and other
+employees of the Authority; and
+
+(b) the expenses on objects and for purposes authorised by this Act.
+
+## Section 23 - Accounts and audit.
+
+(1) The Authority shall maintain proper accounts and other relevant
+records and prepare an annual statement of accounts in such form as may be prescribed by the Central
+Government in consultation with the Comptroller and Auditor-General of India.
+
+(2) The accounts of the Authority shall be audited by the Comptroller and Auditor-General of India at
+such intervals as may be specified by him and any expenditure incurred in connection with such auditor
+shall be payable by the Authority to the Comptroller and Auditor-General of India.
+
+^1[Explanation.-- For the removal of doubts, it is hereby declared that the decisions of the Authority
+taken in the discharge of its functions under clause (b) of sub-section (1) and sub-section (2) of section 11
+and section 13, being matters appealable to the Appellate Tribunal, shall not be subject to audit under this
+section.]
+
+(3) The Comptroller and Auditor-General of India and any other person appointed by him in
+connection with the audit of the accounts of the Authority shall have the same rights and privileges and
+authority in connection with such audit as the Comptroller and Auditor-General generally has, in
+connection with the audit of the Government accounts and, in particular, shall have the right to demand
+the production of books, accounts, connected vouchers and other documents and papers and to inspect
+any of the offices of the Authority.
+
+(4) The accounts of the Authority as certified by the Comptroller and Auditor-General of India or any
+other person appointed by him in this behalf together with the audit report thereon shall be forwarded
+annually to the Central Government and that Government shall cause the same to be laid before each
+House of Parliament.
+
+### Footnotes
+
+1 Ins. by Act 2 of 2000, s. 12 (w.e.f. 24-1-2000).
+
+## Section 24 - Furnishing of returns, etc., to Central Government.
+
+(1) The Authority shall furnish to the
+Central Government at such time and in such form and manner as may be prescribed or as the Central
+Government may direct, such returns and statements and such particulars in regard to any proposed or
+existing programme for the promotion and development of the telecommunication services, as the Central
+Government may from time to time, require.
+
+(2) The Authority shall prepare once every year in such form and at such time as may be prescribed,
+an annual report giving a summary of its activities during the previous year and copies of the report shall
+be forwarded to the Central Government.
+
+(3) A copy of the report received under sub-section (2) shall be laid, as soon as may be after it is
+received, before each House of Parliament.
+
+## Section 25 - Power of Central Government to issue directions.
+
+(1) The Central Government may, from to
+time to time, issue to the Authority such directions as it may think necessary in the interest of the
+sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public
+order, decency or morality.
+
+(2) Without prejudice to the foregoing provisions, the Authority shall, in exercise of its powers or the
+performance of its functions, be bound by such directions on questions of policy as the Central
+Government may give in writing to it from time to time:
+
+Provided that the Authority shall, as far as practicable, be given an opportunity to express its views
+before any direction is given under this sub-section.
+
+(3) The decision of the Central Government whether a question is one of policy or not shall be final.
+
+## Section 26 - Members, officers and employees of Authority to be public servants.
+
+All members, officers
+and other employees of the Authority shall be deemed, when acting or purporting to act in pursuance of
+any of the provisions of this Act to be public servants within the meaning of section 21 of the Indian
+Penal Code (45 of 1860).
+
+## Section 27 - Bar of jurisdiction.
+
+No civil court shall have jurisdiction in respect of any matter which the
+Authority is empowered by or under this Act to determine.
+
+## Section 28 - Protection of action taken in good faith.
+
+No suit, prosecution or other legal proceedings shall
+lie against the Central Government or the Authority or any officer of Central Government or any member,
+officer or other employees of the Authority for anything which is in good faith done or intended to be
+done under this Act or the rules or regulations made thereunder.
+
+## Section 29 - Penalty for contravention of directions of Authority
+
+If a person violates directions of the
+Authority, such person shall be punishable with fine which may extend to one lakh rupees and in case of
+second or subsequent offence with fine which may extend to two lakh rupees and in the case of
+continuing contravention with additional fine which may extend to two lakh rupees for every day during
+which the default continues.
+
+## Section 30 - Offences by companies.
+
+(1) Where an offence under this Act has been committed by a
+company, every person who at the time the offence was committed was in charge of, and was responsible to, the company for the conduct of the business of the company, as well as the company, shall be deemed
+to be guilty of the offence and shall be liable to be proceeded against and punished accordingly:
+
+Provided that nothing contained in this sub-section shall render any such person liable to any
+punishment provided in this Act if he proves that the offence was committed without his knowledge or
+that he has exercised all due diligence to prevent the commission of such offence.
+
+(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been
+committed by a company and it is proved that the offence has been committed with the consent or
+connivance of, or is attributable to, any neglect on the part of any director, manager, secretary or other
+officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty
+of the offence and shall be liable to be proceeded against and punished accordingly.
+
+Explanation.-- For the purposes of this section,--
+
+(a) "company" means any body corporate and includes a firm or other association of individuals;
+and
+
+(b) "director", in relation to a firm, means a partner in the firm.
+
+## Section 31 - Offences by Government Departments
+
+(1) Where an offence under this Act has been
+committed by any Department of Government, the Head of the Department shall be deemed to be guilty
+of the offence and shall be liable to be proceeded against and punished accordingly unless he proves that
+the offence was committed without his knowledge or that he exercised all due diligence to prevent the
+commission of such offence.
+
+(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been
+committed by a Department of Government and it is proved that the offence has been committed with the
+consent or connivance of, or is attributable to any neglect on the part of, any officer, other than the Head
+of the Department, such officer shall also be deemed to be guilty of that offence and shall be liable to be
+proceeded against and punished accordingly.
+
+## Section 32 - Exemption from tax on wealth and income.
+
+Notwithstanding anything contained in the
+Wealth-tax Act, 1957 (27 of 1957), the Income-tax Act, 1961 (43 of 1961), or any other enactment for the
+time being in force relating to tax on wealth, income, profits or gains, the Authority shall not be liable to
+pay wealth-tax, income-tax or any other tax in respect of their wealth, income, profits or gains derived.
+
+## Section 33 - Delegation
+
+Notwithstanding anything contained in the
+Wealth-tax Act, 1957 (27 of 1957), the Income-tax Act, 1961 (43 of 1961), or any other enactment for the
+time being in force relating to tax on wealth, income, profits or gains, the Authority shall not be liable to
+pay wealth-tax, income-tax or any other tax in respect of their wealth, income, profits or gains derived.
+
+## Section 34 - Cognizance of offences
+
+(1) No court shall take cognizance of any offence punishable under
+this Act or the rules or regulations made thereunder, save on a complaint made by the Authority.
+
+(2) No court inferior to that of a Chief Metropolitan Magistrate or a Chief Judicial Magistrate of first
+class shall try any offence punishable under this Act.
+
+## Section 35 - Power to make rules.
+
+(1) The Central Government may, by notification, make rules for
+carrying out the purposes of this Act.
+
+(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
+provide for all or any of the following matters, namely:
+
+(a) the salary and allowances payable to and the other conditions of service of the Chairperson
+and members under sub-section (5) of section 5;
+
+^1[(aa) the allowances payable to the part-time members under sub-section (6A) of section 5;]
+
+(b) the powers and functions of the Chairperson under sub-section (1) of section 6;
+
+(c) the procedure for conducting an inquiry made under sub-section (2) of section 7;
+
+^2[(ca) the salary and allowances and other conditions of service of officers and other employees
+of the Authority under sub-section (2) of section 10;]
+
+(d) the category of books of account or other documents which are required to be maintained
+under sub-section (3) of section 12;
+
+^2[(da) the form, the manner of its verification and the fee under sub-section (3) of section 14A;
+
+(db) the salary and allowances payable to and other terms and conditions of service of the
+Chairperson and other Members of the Appellate Tribunal under section 14E;
+
+(dc) the salary and allowances and other conditions of service of the officers and employees of
+the Appellate Tribunal under sub-section (3) of section 14H;
+
+(dd) any other power of a civil court required to be prescribed under clause (i) of sub-section (2)
+of section 16;]
+
+(e) the period within which an application is to be made under sub-section (1) of section 15;
+
+(f) the manner in which the accounts of the Authority shall be maintained under sub-section (1) of
+section 23;
+
+(g) the time within which and the form and manner in which returns and report are to be made to
+the Central Government under sub-sections (1) and (2) of section 24;
+
+(h) any other matter which is to be, or may be, prescribed, or in respect of which provision is to
+be made, by rules.
+
+### Footnotes
+
+1. Ins. by Act 2 of 2000, s. 13 (w.e.f. 24-1-2000).
+
+2. Ins. by Act 2 of 2000, s. 13 (w.e.f. 24-1-2000).
+
+## Section 36 - Power to make regulations
+
+(1) The Authority may, by notification, make regulations
+consistent with this Act and the rules made thereunder to carry out the purposes of this Act.
+
+(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may
+provide for all or any of the following matters, namely:--
+
+(a) the times and places of meetings of the Authority and the procedure to be followed at such
+meetings under sub-section (1) of section 8, including quorum necessary for the transaction of
+business;
+
+(b) the transaction of business at the meetings of the Authority under sub-section (4) of section 8;
+
+^1* * * * *
+
+(d) matters in respect of which register is to be maintained by the Authority ^2[under
+sub-clause (vii) of clause (b)] of sub-section (1) of section 11;
+
+(e) levy of fee and lay down such other requirements on fulfilment of which a copy of register
+may be obtained ^3[under sub-clause (viii) of clause (b)] of sub-section (1) of section 11;
+
+(f) levy of fees and other charges ^4[under clause (c)] of sub-section (1) of section 11;
+
+### Footnotes
+
+1.. Cl. (c) omitted by s. 14, ibid. (w.e.f. 24-1-2000).
+
+2. Subs. by s. 14, ibid., for under clause (l) (w.e.f. 24-1-2000).
+
+3. Subs. by s. 14, ibid., for under clause (m) (w.e.f. 24-1-2000).
+
+4. Subs. by s. 14, ibid., for under clause (p) (w.e.f. 24-1-2000).
+
+## Section 37 - Rules and regulations to be laid before Parliament.
+
+Every rule and every regulation made
+under this Act shall be laid, as soon as may be after it is made, before each House of Parliament, while it
+is in session, for a total period of thirty days which may be comprised in one session or in two or more
+successive sessions, and if, before the expiry of the session immediately following the session or the
+successive sessions aforesaid, both Houses agree in making any modification in the rule or regulation or
+both Houses agree that the rule or regulation should not be made, the rule or regulation shall thereafter
+have effect only in such modified form or be of no effect, as the case may be; so, however, that any such
+modification or annulment shall be without prejudice to the validity of anything previously done under
+that rule or regulation.
+
+## Section 38 - Application of certain laws.
+
+The provisions of this Act shall be in addition to the provisions of
+the Indian Telegraph Act, 1885 (13 of 1885) and the Indian Wireless Telegraphy Act, 1933 (17 of 1933)
+and, in particular, nothing in this Act shall affect any jurisdiction, powers and functions required to be
+exercised or performed by the Telegraph Authority in relation to any area falling within the jurisdiction of
+such Authority.
+
+## Section 39 - Power to remove difficulties
+
+(1) If any difficulty arises in giving effect to the provisions of
+this Act, the Central Government may, by order, published in the Official Gazette, make such provisions
+not inconsistent with the provisions of this Act as may appear to be necessary for removing the difficulty:
+
+Provided that no order shall be made under this section after the expiry of two years from the date of
+commencement of this Act.
+
+(2) Every order made under this section shall be laid, as soon as may be after it is made, before each
+House of Parliament.
+
+## Section 40 - Repeal and saving.
+
+(1) The Telecom Regulatory Authority of India Ordinance 1997
+(Ord. 11 of 1997) is hereby repealed.
+
+(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall be
+deemed to have been done or taken under the corresponding provisions of this Act.

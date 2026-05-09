@@ -1,0 +1,1458 @@
+---
+title: "The Arms Act, 1959"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/1398"
+---
+# The Arms Act, 1959
+
+Language: English
+Part 1 of 1
+Sections: 1 to 46
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1398
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1398/1/A1959_54.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=Arms+Rule+1962.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=Arms+Rules%2C+2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=215106.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=216103.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=222331.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=GSR+904+CAPFs+Arms+Act.PDF
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=notification_1988_04_08_2014.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=1988%28e%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=Arms+Rules+2016.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=notification_firearms_replica16_02_2018.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=Delegation+of+power.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=Exemption+in+licence+fees.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=amendment_in_fee_structure%2C_setting_up_of_multi_unit_facility%2C_lifetime_validity_of_licence_issued_in_form_vii_to_manufacturers_etc..pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=notification_28112017.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=delegation_of_powers_for_import_of_small_arms..pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=g.s.r._644_%28e%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=g.s.r._741%28e%29.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=amendment_of_form_x_pertaining_to_export_of_firearms..pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=delegation_of_powers_of_import_and_export_of_small_arms..pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=supersession_of_notification_s.o_1636_%28e%29_dated_19.05.17.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=216102.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=201579.pdf
+- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=213491.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/1398/2/H1959-54.pdf
+
+## Section 1 - Short title, extent and commencement.
+
+(1) This Act may be called the Arms Act, 1959.
+
+(2) It extends to the whole of India.
+
+(3) It shall come into force on such date^1
+as the Central Government may, by notification in the
+Official Gazette, appoint.
+
+### Footnotes
+
+1. 1st October, 1962, vide notification No. G.S.R. 992, dated 13th July, 1962, see Gazette of India, Extraordinary, Part II,
+sec. 3(i)
+
+## Section 2 - Definitions and interpretation.
+
+(1) In this Act, unless the context otherwise requires,--
+
+(a) acquisition, with its grammatical variations and cognate expressions, includes hiring,
+borrowing, or accepting as a gift;
+
+(b) ammunition means ammunition for any firearm, and includes---
+
+(i) rockets, bombs, grenades, shells ^1[and other missiles,].
+
+(ii) article designed for torpedo service and submarine mining,
+
+(iii) other articles containing, or designed or adapted to contain, explosive, fulminating or
+fissionable material or noxious liquid, gas or other such thing, whether capable of use with
+firearms or not,
+
+(iv) charges for firearms and accessories for such charges,
+
+(v) fuses and friction tubes,
+
+(vi) parts of, and machinery for manufacturing, ammunition, and
+
+(vii) such ingredients of ammunition as the Central Government may, by notification in
+the Official Gazette, specify in this behalf;
+
+(c) arms means articles of any description designed or adapted as weapons for offence or
+defence, and includes firearms, sharpedged and other deadly weapons, and parts of, and
+machinery for manufacturing, arms, but does not include articles designed solely for domestic or
+agricultural uses such as a lathi or an ordinary walking stick and weapons incapable of being used
+otherwise than as toys or of being converted into serviceable weapons;
+
+^2[(d) district magistrate, in relation to any area for which a Commissioner of Police has
+been appointed, means the Commissioner of Police thereof and includes any such Deputy
+Commissioner of Police, exercising jurisdiction over the whole or any part of such area, as may
+be specified by the State Government in this behalf in relation to such area or part;]
+
+(e) firearms means arms of any description designed or adapted to discharge a projectile or
+projectiles of any kind by the action of any explosive or other forms of energy, and includes--
+
+(i) artillery, hand-grenades, riot-pistols or weapons of any kind designed or adapted for
+the discharge of any noxious liquid, gas or other such thing,
+
+(ii) accessories for any such firearm designed or adapted to diminish the noise or flash
+caused by the firing thereof,
+
+(iii) parts of, and machinery for manufacturing, firearms, and
+
+(iv) carriages, platforms and appliances for mounting, transporting and serving artillery;
+
+^3[(ea) licence means a licence issued in accordance with the provisions of this Act and rules
+made there under and includes a licence issued in the electronic form;]
+
+(f) licensing authority means an officer or authority empowered to grant or renew licences
+under rules made under this Act, and includes the Government;
+
+^4[(ff) magistrate means an Executive Magistrate under the Code of Criminal
+Procedure, 1973 (2 of 1974);]
+
+(g) prescribed means prescribed by rules made under this Act;
+
+(h) prohibited ammunition means any ammunition containing, or designed or adapted to
+contain, any noxious liquid, gas or other such thing, and includes rockets, bombs, grenades,
+shells, ^5[missiles,] articles designed for torpedo service and submarine mining and such other
+articles as the Central Government may, by notification in the Official Gazette, specify to be
+prohibited ammunition;
+
+(i) prohibited arms means--
+
+(i) firearms so designed or adapted that, if pressure is applied to the trigger, missiles
+continue to be discharged until pressure is removed from the trigger or the magazine
+containing the missiles is empty, or
+
+(ii) weapons of any description designed or adapted for the discharge of any noxious
+liquid, gas or other such thing,
+
+and includes artillery, anti-aircraft and anti-tank firearms and such other arms as the Central
+Government may, by notification in the Official Gazette, specify to be prohibited arms;
+
+(j) public servant has the same meaning as in section 21 of the Indian Penal
+Code (45 of 1860);
+
+(k) transfer with its grammatical variations and cognate expressions, includes letting on
+hire, lending, giving and parting with possession.
+
+(2) For the purposes of this Act, the length of the barrel of a firearm shall be measured from the
+muzzle to the point at which the charge is exploded on firing.
+
+(3) Any reference in this Act to any law which is not in force in any area shall, in relation to that
+area, be construed as a reference to the corresponding law, if any, in force in that area.
+
+(4) Any reference in this Act to any officer or authority shall, in relation to any area in which
+there is not officer or authority with the same designation, be construed as a reference to such officer
+or authority as may be specified by the Central Government by notification in the Official Gazette.
+
+### Footnotes
+
+1. Subs. by Act 42 of 1988, s. 2, for and other like missiles (w.e.f. 27-5-1988).
+
+2. Subs. by Act 55 of 1971, s. 2, for clause (d) (w.e.f. 13-12-1971).
+
+3. Ins. by Act 48 of 2019, s. 2 (w.e.f. 14-12-2019).
+
+4. Ins. by Act 25 of 1983, s. 2 (w.e.f. 22-6-1983).
+
+5. Ins. by Act 42 of 1988, s. 2 (w.e.f. 27-5-1988).
+
+## Section 3 - Licence for acquisition and possession of firearms and ammunition.
+
+^1[(1)] No person
+shall acquire, have in his possession, or carry any firearm or ammunition unless he holds in this behalf
+a licence issued in accordance with the provisions of this Act and the rules made thereunder:
+
+Provided that a person may, without himself holding a licence, carry any firearm or ammunition
+in the presence, or under the written authority, of the holder of the licence for repair or for renewal of
+the licence or for use by such holder.
+
+^2[(2) Notwithstanding anything contained in sub-section (1), no person, other than a person
+referred to in sub-section (3), shall acquire, have in his possession or carry, at any time, more than
+^3[two firearm]:
+
+Provided that a person who has in his possession more firearms than three at the commencement
+of the Arms (Amendment) Act, 1983 (25 of 1983), may retain with him any three of such firearms
+and shall deposit, within ninety days from such commencement, the remaining firearms with the
+officer in charge of the nearest police station or, subject to the conditions prescribed for the purposes
+of sub-section (1) of section 21, with a licensed dealer or, where such person is a member of the
+armed forces of the Union, in a unit armoury referred to in that sub-section.
+
+^4[Provided that a person who has in his possession more firearms than two at the commencement
+of the Arms (Amendment) Act, 2019, may retain with him any two of such firearm and shall deposit,
+within one year from such commencement, the remaining firearm with the officer in charge of the
+nearest police station or, subject to the conditions prescribed for the purposes of sub-section (1) of
+section 21, with a licensed dealer or, where such person is a member of the armed forces of the Union,
+in a unit armoury referred to in that sub-section after which it shall be delicensed within ninety days
+from the date of expiry of aforesaid one year:
+
+Provided further that while granting arms licence on inheritance or heirloom basis, the limit of
+two firearms shall not be exceeded.]
+
+(3) Nothing contained in sub-section (2) shall apply to any dealer in firearms or to any member of
+a rifle club or rifle association licensed or recognised by the Central Government using a point 22
+bore rifle or an air rifle for target practice.
+
+(4) The provisions of sub-sections (2) to (6) (both inclusive) of section 21 shall apply in relation
+to any deposit of firearms under the proviso to sub-section (2) as they apply in relation to the deposit
+of any arm or ammunition under sub-section (1) of that section.]
+
+### Footnotes
+
+1. Section 3 re-numbered as sub-section (1) thereof by Act 25 of 1983, s. 3 (w.e.f. 22-6-1983).
+
+2. Ins. by s. 3, ibid. (w.e.f. 22-6-1983).
+
+3. Subs. by Act 48 of 2019, s. 3, for three firearms (w.e.f. 14-12-2019).
+
+4. Ins. by s. 3, ibid. (w.e.f. 14-12-2019).
+
+## Section 4 - Licence for acquisition and possession of arms of specified description in certain cases.
+
+If the Central Government is of opinion that having regard to the circumstances prevailing in
+any area it is necessary or expedient in the public interest that the acquisition, possession or carrying
+of arms other than firearms should also be regulated, it may, by notification in the Official Gazette,
+direct that this section shall apply to the area specified in the notification, and thereupon no person
+shall acquire, have in his possession or carry in that area arms of such class or description as may be
+specified in that notification unless he holds in this behalf a licence issued in accordance with the
+provisions of this Act and the rules made thereunder.
+
+## Section 5 - Licence for manufacture, sale, etc., of arms and ammunition.
+
+^1[(1)] No person shall--
+
+(a) ^2[use, ^3[manufacture, obtain, procure]] sell, transfer, convert, repair, test or prove, or
+
+(b) expose or offer for sale or transfer or have in his possession for sale, transfer, conversion,
+repair, test or proof,
+
+any firearm or any other arms of such class or description as may be prescribed or any ammunition,
+unless he holds in this behalf a licence issued in accordance with the provisions of this Act and the
+rules made thereunder:
+
+^4* * * * *
+
+^5[(2) Notwithstanding anything contained in sub-section (1), a person may, without holding a
+licence in this behalf, sell or transfer any arms or ammunition which he lawfully possesses for his own
+private use to another person who is entitled by virtue of this Act or any other law for the time being
+in force to have, or is not prohibited by this Act or such other law from having in his possession such
+arms or ammunition:
+
+Provided that no firearm or ammunition in respect of which a licence is required under section 3
+and no arms in respect of which a licence is required under section 4 shall be so sold or transferred by
+any person unless--
+
+(a) he has informed in writing the district magistrate having jurisdiction or the officer in
+charge of the nearest police station of his intention to sell or transfer such firearms, ammunition or
+other arms and the name and address of the person to whom he intends to sell or transfer such
+firearms, ammunition or the other arms, and
+
+(b) a period of not less than forty-five days has expired after the giving of such information.]
+
+### Footnotes
+
+1. Section 5 re-numbered as sub-section (1) thereof by Act 25 of 1983, s. 4 (w.e.f. 22-6-1983).
+2. Subs. by Act 42 of 1988, s. 3, for "manufacture" (w.e.f. 27-5-1988).
+
+3. Subs. by Act 48 of 2019, s. 4, for "manufacture" (w.e.f. 14-12-2019).
+
+4. The proviso omitted by Act 25 of 1983, s. 4 (w.e.f. 22-6-1983).
+
+5. Ins. by s. 4, ibid. (w.e.f. 22-6-1983).
+
+## Section 6 - Licence for the shortening of guns or conversion of imitation firearms into firearms.
+
+No
+person shall shorten the barrel of a firearm or convert an imitation firearm into a firearm ^1[or convert
+from any category of firearms mentioned in the Arms Rules, 2016 into any other category of firearms] unless he
+holds in this behalf a licence issued in accordance with the provisions of this Act and the rules made
+thereunder.
+
+Explanation.In this section, the expression "imitation firearm" means anything which has the
+appearance of being a firearm, whether it is capable of discharging any shot, bullet or other missile or
+not.
+
+### Footnotes
+
+1. Ins. by Act 48 of 2019, s. 5 (w.e.f. 14-12-2019).
+
+## Section 7 - Prohibition of acquisition or possession, or of manufacture or sale of prohibited arms or prohibited ammunition.
+
+No person shall--
+
+(a) acquire, have in his possession or carry; or
+
+(b) ^1[use, manufacture] sell, transfer, convert, repair, test or prove; or
+
+(c) expose or offer for sale or transfer or have in his possession for sale, transfer, conversion,
+repair, test or proof,
+
+any prohibited arms or prohibited ammunition unless he has been specially authorised by the Central
+Government in this behalf.
+
+### Footnotes
+
+1. Subs. by Act 42 of 1988, s. 4, for "manufacture" (w.e.f. 27-5-1988).
+
+## Section 8 - Prohibition of sale or transfer of firearms not bearing identification marks.
+
+(1) No
+person shall obliterate, remove, alter or forge any name, number or other identification mark stamped
+or otherwise shown on a ^1[firearm or ammunition].
+firearm.
+
+(2) No person shall sell or transfer any firearm which does not bear the name of the maker,
+manufacturers number or other identification mark stamped or otherwise shown thereon in a manner
+approved by the Central Government.
+
+(3) Whenever any person has in his possession any firearm without such name, number or other
+identification mark or on which such name, number or other identification mark has been obliterated,
+removed, altered or forged, it shall be presumed unless the contrary is proved, that he has obliterated,
+removed, altered or forged that name, number or other identification mark:
+
+Provided that in relation to a person who has in his possession at the commencement of this Act
+any firearm without such name, number or other identification mark stamped or otherwise shown
+thereon, the provisions of this sub-section shall not take effect until after the expiration of one year
+from such commencement
+
+### Footnotes
+
+1. Subs. by Act 48 of 2019, s. 6, for “firearm” (w.e.f. 14-12-2019).
+
+## Section 9 - Prohibition of acquisition or possession by, or of sale or transfer to, young persons and certain other persons of firearms, etc.
+
+(1) Notwithstanding anything in the foregoing provisions of this Act,
+
+(a) no person,--
+
+(i) who has not completed the age of ^1[twenty-one years], or
+
+(ii) who has been sentenced on conviction of any offence involving violence or moral turpitude to imprisonment for ^2[any term], at any time during a period of five years after the expiration of the sentence, or
+
+(iii) who has been ordered to execute under Chapter VIII of the ^3[Code of Criminal Procedure, 1973 (2 of 1974),] a bond for keeping the peace or for good behaviour, at any time during the term of the bond,
+
+shall acquire, have in his possession or carry any firearm or ammunition;
+
+(b) no person shall sell or transfer any firearm or ammunition to, or convert, repair, test or prove any firearm or ammunition for, any other person whom he knows, or has reason to believe--
+
+(i) to be prohibited under clause (a) from acquiring, having in his possession or carrying any firearm or ammunition, or
+
+(ii) to be of unsound mind at the time of such sale or transfer, or such conversion, repair, test or proof.
+
+(2) Notwithstanding anything in sub-clause (i) of clause (a) of sub-section (1), a person who has attained the prescribed age-limit may use under prescribed conditions such firearms as may be prescribed in the course of his training in the use of such firearms:
+
+Provided that different age-limits may be prescribed in relation to different types of firearms.
+
+### Footnotes
+
+1. Subs. by Act 25 of 1983, s. 5, for "sixteen years" (w.e.f. 22-6-1983).
+
+2. Subs. by s. 5, ibid., for "a term of not less than six months" (w.e.f. 22-6-1983).
+
+3. Subs. by s. 5,ibid.,, for "Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 22-6-1983).
+
+## Section 10 - Licence for import and export of arms, etc.
+
+(1) No person shall bring into, or take out of,
+India by sea, land or air any arms or ammunition unless he holds in this behalf a licence issued in
+accordance with the provisions of this Act and the rules made thereunder:
+
+Provided that--
+
+(a) a person who is entitled by virtue of this Act or any other law for the time being in force to
+have, or is not prohibited by this Act or such other law from having, in his possession any arms or
+ammunition, may without a licence in this behalf bring into, or take out of, India such arms or
+ammunition in reasonable quantities for his own private use;
+
+(b) a person being a bona fide tourist belonging to any such country as the Central
+Government may, by notification in the Official Gazette, specify, who is not prohibited by the
+laws of that country from having in his possession any arms or ammunition, may, without a
+licence under this section but in accordance with such conditions as may be prescribed, bring with
+him into India arms and ammunition in reasonable quantities for use by him for purposes only of
+sport and for no other purpose;
+
+Explanation.-- For purposes of clause (b) of this proviso, the word "tourist" means a person who
+not being a citizen of India visits India for a period not exceeding six months with no other object than
+recreation, sight-seeing, or participation in a representative capacity in meetings convened by the
+Central Government or in international conferences, associations or other bodies.
+
+(2) Notwithstanding anything contained in the proviso to sub-section (1), where the
+^1[Commissioner of Customs] or any other officer empowered by the Central Government in this
+behalf has any doubt as to the applicability of clause (a) or clause (b) of that proviso to any person
+who claims that such clause is applicable to him, or as to the reasonableness of the quantities of arms
+or ammunition in the possession of any person referred to in such clause, or as to the use to which
+such arms or ammunition may be put by such person, may detain the arms or ammunition in the
+possession of such person until he receives the orders of the Central Government in relation thereto.
+
+(3) Arms and ammunition taken from one part of India to another by sea or air or across any
+intervening territory not forming part of India, are taken out of, and brought into, India within the
+meaning of this section.
+
+### Footnotes
+
+1. Subs. by Act 22 of 1995, s. 89, for "Collector of Customs" (w.e.f. 26-5-1995).
+
+## Section 11 - Power to prohibit import or export of arms, etc.
+
+The Central Government may, by
+notification in the Official Gazette, prohibit the bringing into, or the taking out of, India, arms or
+ammunition of such classes and descriptions as may be specified in the notification.
+
+## Section 12 - Power to restrict or prohibit transport of arms.
+
+(1) The Central Government may, by
+notification in the Official Gazette,
+
+(a) direct that no person shall transport over India or any part thereof arms or ammunition of
+such classes and descriptions as may be specified in the notification unless he holds in this behalf
+a licence issued in accordance with the provisions of this Act and the rules made thereunder; or
+
+(b) prohibit such transport altogether.
+
+(2) Arms or ammunition trans-hipped at a seaport or an airport in India are transported within the
+meaning of this section.
+
+## Section 13 - Grant of licences.
+
+(1) An application for the grant of a licence under Chapter II shall be
+made to the licensing authority and shall be in such form, contain such particulars and be
+accompanied by such fee, if any, as may be prescribed.
+
+^1
+[(2) On receipt of an application, the licensing authority shall call for the report of the officer in
+charge of the nearest police station on that application, and such officer shall send his report within
+the prescribed time.
+
+(2A) The licensing authority, after such inquiry, if any, as it may consider necessary, and after
+considering the report received under sub-section (2), shall, subject to the other provisions of this
+Chapter, by order in writing either grant the licence or refuse to grant the same:
+
+Provided that where the officer in charge of the nearest police station does not send his report on
+the application within the prescribed time, the licensing authority may, if it deems fit, make such
+order, after the expiry of the prescribed time, without further waiting for that report.]
+
+(3) The licensing authority shall grant
+
+(a) a licence under section 3 where the licence is required
+
+(i) by a citizen of India in respect of a smooth bore gun having a barrel of not less than
+twenty inches in length to be used for protection or sport or in respect of a muzzle loading gun
+to be used for bona fide crop protection:
+
+Provided that where having regard to the circumstances of any case, the licensing
+authority is satisfied that a muzzle loading gun will not be sufficient for crop protection, the
+licensing authority may grant a licence in respect of any other smooth bore gun as aforesaid
+for such protection, or
+
+(ii) in respect of ^2[firearm] a point 22 bore rifle or an air rifle to be used for target practice by a
+member of a rifle club or rifle association licensed or recognised by the Central Government;
+
+(b) a licence under section 3 in any other case or a licence under section 4, section 5,
+section 6, section 10 or section 12, if the licensing authority is satisfied that the person by whom
+the licence is required has a good reason for obtaining the same.
+
+### Footnotes
+
+1. Subs. by Act 25 of 1983, s. 6, for sub-section (2) (w.e.f. 22-6-1983).
+
+2. Subs. by Act 48 of 2019, s. 7, for point 22 bore rifle or an air rifle (w.e.f. 14-12-2019).
+
+## Section 14 - Refusal of licences.
+
+(1) Notwithstanding anything in section 13, the licensing authority shall
+refuse to grant
+
+(a) a licence under section 3, section 4 or section 5 where such licence is required in respect
+of any prohibited arms or prohibited ammunition;
+
+(b) a licence in any other case under Chapter II,--
+
+(i) where such licence is required by a person whom the licensing authority has reason to
+believe
+
+(1) to be prohibited by this Act or by any other law for the time being in force from
+acquiring, having in his possession or carrying any arms or ammunition; or
+
+(2) to be of unsound mind; or
+
+(3) to be for any reason unfit for a licence under this Act; or
+
+(ii) where the licensing authority deems it necessary for the security of the public peace or
+for public safety to refuse to grant such licence.
+
+(2) The licensing authority shall not refuse to grant any licence to any person merely on the
+ground that such person does not own or possess sufficient property.
+
+(3) Where the licensing authority refuses to grant a licence to any person it shall record in writing
+the reasons for such refusal and furnish to that person on demand a brief statement of the same unless
+in any case the licensing authority is of the opinion that it will not be in the public interest to furnish
+such statement
+
+## Section 15 - Duration and renewal of licence.
+
+(1) A licence under section 3 shall, unless revoked
+earlier, continue in force for a
+^1[period of five years] period of three years from the date on which it is granted:
+
+Provided that such a licence may be granted for a shorter period if the person by whom the licence
+is required so desires or if the licensing authority for reasons to be recorded in writing considers in
+any case that the licence should be granted for a shorter period.
+
+^2[Provided further that the licence granted under section 3 shall be subject to the conditions
+specified in sub-clauses (ii) and (iii) of clause (a) of sub-section (1) of section 9 and the licensee shall
+produce the licence along with the firearm or ammunition and connected document before the
+licensing authority after every five years from the date on which it is granted or renewed.]
+
+(2) A licence under any other provision of Chapter II shall, unless revoked earlier, continue in
+force for such period from the date on which it is granted as the licensing authority may in each case
+determine.
+
+(3) Every licence shall, unless the licensing authority for reasons to be recorded in writing
+otherwise decides in any case, be renewable for the same period for which the licence was originally
+granted and shall be so renewable from time to time, and the provisions of sections 13 and 14 shall
+apply to the renewal of a licence as they apply to the grant thereof.
+
+### Footnotes
+
+1. Subs. by s. 8, ibid., for period of three years (w.e.f. 14-12-2019).
+2. The proviso ins. by s. 8, ibid. (w.e.f. 14-12-2019).
+
+## Section 16 - Fees, etc., for licence.
+
+The fees on payment of which, the conditions subject to which and
+the form in which a licence shall be granted or renewed shall be such as may be prescribed:
+
+Provided that different fees, different conditions and different forms may be prescribed for
+different types of licences:
+
+Provided further that a licence may contain in addition to prescribed conditions such other
+conditions as may be considered necessary by the licensing authority in any particular case.
+
+## Section 17 - Variation, suspension and revocation of licences.
+
+(1) The licensing authority may vary the
+conditions subject to which a licence has been granted except such of them as have been prescribed
+and may for that purpose require the licence-holder by notice in writing to deliver-up the licence to it
+within such time as may specified in the notice.
+
+(2) The licensing authority may, on the application of the holder of a licence, also vary the
+conditions of the licence except such of them as have been prescribed.
+
+(3) The licensing authority may by order in writing suspend a licence for such period as it thinks
+fit or revoke a licence,
+
+(a) if the licensing authority is satisfied that the holder of the licence is prohibited by this Act
+or by any other law for the time being in force, from acquiring, having in his possession or
+carrying any arms or ammunition, or is of unsound mind, or is for any reason unfit for a licence
+under this Act; or
+
+(b) if the licensing authority deems it necessary for the security of the public peace or for
+public safety to suspend or revoke the licence; or
+
+(c) if the licence was obtained by the suppression of material information or on the basis of
+wrong information provided by the holder of the licence or any other person on his behalf at the
+time of applying for it; or
+
+(d) if any of the conditions of the licence has been contravened; or
+
+(e) if the holder of the licence has failed to comply with a notice under sub-section (1)
+requiring him to deliver-up the licence.
+
+(4) The licensing authority may also revoke a licence on the application of the holder thereof.
+
+(5) Where the licensing authority makes an order varying a licence under sub-section (1) or an
+order suspending or revoking a licence under sub-section (3), it shall record in writing the reasons
+therefor and furnish to the holder of the licence on demand a brief statement of the same unless in any
+case the licensing authority is of the opinion that it will not be in the public interest to furnish such
+statement.
+
+(6) The authority to whom the licensing authority is subordinate may by order in writing suspend
+or revoke a licence on any ground on which it may be suspended or revoked by the licensing
+authority; and the foregoing provisions of this section shall, as far as may be, apply in relation to the
+suspension or revocation of a licence by such authority.
+
+(7) A court convicting the holder of a licence of any offence under this Act or the rules made
+thereunder may also suspend or revoke the licence:
+
+Provided that if the conviction is set aside on appeal or otherwise, the suspension or revocation
+shall become void.
+
+(8) An order of suspension or revocation under sub-section (7) may also be made by an appellate
+court or by the High Court when exercising its powers of revision.
+
+(9) The Central Government may, by order in the Official Gazette, suspend or revoke or direct
+any licensing authority to suspend or revoke all or any licences granted under this Act throughout
+India or any part thereof.
+
+(10) On the suspension or revocation of a licence under this section the holder thereof shall
+without delay surrender the licence to the authority by whom it has been suspended or revoked or to
+such other authority as may be specified in this behalf in the order of suspension or revocation.
+
+## Section 18 - Appeals.
+
+(1) Any person aggrieved by an order of the licensing authority refusing to grant a
+licence or varying the conditions of a licence or by an order of the licensing authority or the authority
+to whom the licensing authority is subordinate, suspending or revoking a licence may prefer an appeal
+against that order to such authority (hereinafter referred to as the appellate authority) and within such
+period as may be prescribed:
+
+Provided that no appeal shall lie against any order made by, or under the direction of, the
+Government.
+
+(2) No appeal shall be admitted if it is preferred after the expiry of the period prescribed therefor:
+
+Provided that an appeal may be admitted after the expiry of the period prescribed therefor if the
+appellant satisfies the appellate authority that he had sufficient cause for not preferring the appeal
+within that period.
+
+(3) The period prescribed for an appeal shall be computed in accordance with the provisions of
+the Indian Limitation Act, 1908 (9 of 1908), with respect to the computation of periods of limitation
+thereunder.
+
+(4) Every appeal under this section shall be made by a petition in writing and shall be
+accompanied by a brief statement of the reasons for the order appealed against where such statement
+has been furnished to the appellant and by such fee as may be prescribed.
+
+(5) In disposing of an appeal the appellate authority shall follow such procedure as may be
+prescribed:
+
+Provided that no appeal shall be disposed of unless the appellant has been given a reasonable
+opportunity of being heard.
+
+(6) The order appealed against shall, unless the appellate authority conditionally or
+unconditionally directs otherwise, be in force pending the disposal of the appeal against such order.
+
+(7) Every order of the appellate authority confirming, modifying or reversing the order appealed
+against shall be final.
+
+## Section 19 - Powers to demand production of licence, etc.
+
+(1) Any police officer or any other officer
+specially empowered in this behalf by the Central Government may demand the production of his
+licence from any person who is carrying any arms or ammunition.
+
+(2) If the person upon whom a demand is made refuses or fails to produce the licence or to show
+that he is entitled by virtue of this Act or any other law for the time being in force to carry such arms
+or ammunition without a licence, the officer concerned may require him to give his name and address
+and if such officer considers it necessary, seize from that person the arms or ammunition which he is
+carrying.
+
+(3) If that person refuses to give his name and address or if the officer concerned suspects that
+person of giving a false name or address or of intending to abscond, such officer may arrest him
+without warrant.
+
+## Section 20 - Arrest of persons conveying arms, etc., under suspicious circumstances.
+
+Where any
+person is found carrying or conveying any arms or ammunition whether covered by a licence or not,
+in such manner or under such circumstances as to afford just grounds of suspicion that the same are or
+is being carried by him with intent to use them, or that the same may be used, for any unlawful
+purpose, any magistrate, any police officer or any other public servant or any person employed or
+working upon a railway, aircraft, vessel, vehicle or any other means of conveyance, may arrest him
+without warrant and seize from him such arms or ammunition.
+
+## Section 21 - Deposit of arms, etc., on possession ceasing to be lawful.
+
+(1) Any person having in his
+possession any arms or ammunition the possession whereof has, in consequence of the expiration of
+the duration of a licence or of the suspension or revocation of a licence or by the issue of a
+notification under section 4 or by any reason whatever, ceased to be lawful, shall without unnecessary
+delay deposit the same either with the officer in charge of the nearest police station or subject to such
+conditions as may be prescribed, with a licensed dealer or where such person is a member of the
+armed forces of the Union, in a unit armoury.
+
+Explanation.In this sub-section "unit armoury" includes an armoury in a ship or establishment
+of the Indian Navy.
+
+(2) Where arms or ammunition have or has been deposited under sub-section (1), the depositor or
+in the case of his death, his legal representative, shall, at any time before the expiry of such period as
+may be prescribed, be entitled—
+
+(a) to receive back anything so deposited on his becoming entitled by virtue of this Act or any
+other law for the time being in force to have the same in his possession, or
+
+(b) to dispose, or authorise the disposal, of anything so deposited by sale or otherwise to any
+person entitled by virtue of this Act or any other law for the time being in force to have, or not
+prohibited by this Act or such other law from having, the same in his possession and to receive
+the proceeds of any such disposal:
+
+Provided that nothing in this sub-section shall be deemed to authorise the return or disposal of
+anything of which confiscation has been directed under section 32.
+
+(3) All things deposited and not received back or disposed of under sub-section (2) within the
+period therein referred to shall be forfeited to Government by order of the district magistrate:
+
+Provided that in the case of suspension of a licence no such forfeiture shall be ordered in respect
+of a thing covered by the licence during the period of suspension.
+
+(4) Before making an order under sub-section (3) the district magistrate shall, by notice in writing
+to be served upon the depositor or in the case of his death, upon his legal representative, in the
+prescribed manner, require him to show cause within thirty days from the service of the notice why
+the things specified in the notice should not be forfeited.
+
+(5) After considering the cause, if any, shown by the depositor or, as the case may be, his legal
+representative, the district magistrate shall pass such order as he thinks fit.
+
+(6) The Government may at any time return to the depositor or his legal representative things
+forfeited to it or the proceeds of disposal thereof wholly or in part.
+
+## Section 22 - Search and seizure by magistrate.
+
+(1) Whenever any magistrate has reason to believe--
+
+(a) that any person residing within the local limits of his jurisdiction has in his possession any
+arms or ammunition for any unlawful purpose, or
+
+(b) that such person cannot be left in the possession of any arms or ammunition without
+danger to the public peace or safety,
+
+the magistrate may, after having recorded the reasons for his belief, cause a search to be made of the
+house or premises occupied by such person or in which the magistrate has reason to believe that such
+arms or ammunition are or is to be found and may have such arms or ammunition, if any, seized and
+detain the same in safe custody for such period as he thinks necessary, although that person may be
+entitled by virtue of this Act or any other law for the time being in force to have the same in his
+possession.
+
+(2) Every search under this section shall be conducted by or in the presence of a magistrate or by
+or in the presence of some officer specially empowered in this behalf by the Central Government.
+
+## Section 23 - Search of vessels, vehicles for arms, etc.
+
+Any magistrate, any police officer or any other
+officer specially empowered in this behalf by the Central Government, may for the purpose of
+ascertaining whether any contravention of this Act or the rules made thereunder is being or is likely to
+be committed, stop and search any vessel, vehicle or other means of conveyance and seize any arms
+or ammunition that may be found therein along with such vessel, vehicle or other means of
+conveyance.
+
+## Section 24 - Seizure and detention under orders of the Central Government.
+
+The Central
+Government may at any time order the seizure of any arms or ammunition in the possession of any
+person, notwithstanding that such person is entitled by virtue of this Act or any other law for the time
+being in force to have the same in his possession, and may detain the same for such period as it thinks
+necessary for the public peace and safety.
+
+## Section 24A - Prohibition as to possession of notified arms in disturbed areas, etc.
+
+^1[24A. Prohibition as to possession of notified arms in disturbed areas, etc.(1) Where the
+Central Government is satisfied that there is extensive disturbance of public peace and tranquility or
+imminent danger of such disturbance in any area and that for the prevention of offences involving the
+use of arms in such area, it is necessary or expedient so to do, it may by notification in the
+Official Gazette
+
+(a) specify the limits of such area;
+
+(b) direct that before the commencement of the period specified in the notification (which
+period shall be a period commencing from a date not earlier than the fourth day after the date of
+publication of the notification in the Official Gazette), every person having in his possession in
+such area any arms of such description as may be specified in the notification (the arms so
+specified being hereafter in this section referred to as notified arms), shall deposit the same before
+such commencement in accordance with the provisions of section 21 and for this purpose the
+possession by such person of any notified arms shall, notwithstanding anything contained in any
+other provision of this Act (except section 41) or in any other law for the time being in force, as
+from the date of publication of such notification in the Official Gazette be deemed to have ceased
+to be lawful;
+
+(c) declare that as from the commencement of, and until the expiry of, the period specified in
+the notification, it shall not be lawful for any person to have in his possession in such area any
+notified arms;
+
+(d) authorise any such officer subordinate to the Central Government or a State Government
+as may be specified in the notification,
+
+(i) to search at any time during the period specified in the notification any person in, or
+passing through, or any premises in, or any animal or vessel or vehicle or other conveyance of
+whatever nature in or passing through, or any receptacle or other container of whatever nature
+in, such area if such officer has reason to believe that any notified arms are secreted by such
+person or in such premises or on such animal or in such vessel, vehicle or other conveyance or
+in such receptacle or other container;
+
+(ii) to seize at any time during the period specified in the notification any notified arms in
+the possession of any person in such area or discovered through a search under sub-clause (i),
+and detain the same during the period specified in the notification.
+
+(2) The period specified in a notification issued under sub-section (1) in respect of any area shall
+not, in the first instance, exceed ninety days, but the Central Government may amend such
+notification to extend such period from time to time by any period not exceeding ninety days at any
+one time if, in the opinion of that Government, there continues to be in such area such disturbance of
+public peace and tranquillity as is referred to in sub-section (1) or imminent danger thereof and that
+for the prevention of offences involving the use of arms in such area it is necessary or expedient so to
+do.
+
+(3) The provisions of the Code of Criminal Procedure, 1973 (2 of 1974), relating to searches and
+seizures shall, so far as may be, apply to any search or seizure made under sub-section (1).
+
+(4) For the purposes of this section,
+
+(a) arms includes ammunition;
+
+(b) where the period specified in a notification, as originally issued under sub-section (1), is
+extended under sub-section (2), then, in relation to such notification, references in sub-section (1)
+to the period specified in the notification shall be construed as references to the period as so
+extended.]
+
+### Footnotes
+
+1. Ins. by Act 25 of 1983, s. 7 (w.e.f. 22-6-1983)
+
+## Section 24B - Prohibition as to carrying of notified arms in or through public places in disturbed areas etc.
+
+^1[24B. Prohibition as to carrying of notified arms in or through public places in disturbed
+areas, etc.-- (1) Where the Central Government is satisfied that there is extensive disturbance of
+public peace and tranquillity or imminent danger of such disturbance in any area and that for the
+prevention of offences involving the use of arms in such area it is necessary or expedient so to do, it
+may, by notification in the Official Gazette,--
+
+(a) specify the limits of such area;
+
+(b) direct that during the period specified in the notification (which period shall be a period
+commencing from a date not earlier than the second day after the date of publication of the
+notification in the Official Gazette), no person shall carry or otherwise have in his possession any
+arms of such description as may be specified in the notification (the arms so specified being
+hereafter in this section referred to as notified arms) through or in any public place in such area;
+
+(c) authorise any such officer subordinate to the Central Government or a State Government
+as may be specified in the notification,--
+
+(i) to search at any time during the period specified in the notification any person in, or
+passing through, or any premises in or forming part of, or any animal or vessel or vehicle or
+other conveyance of whatever nature in or passing through, or any receptacle or other
+container of whatever nature in, any public place in such area if such officer has reason to
+believe that any notified arms are secreted by such person or in such premises or on such
+animal or in such vessel, vehicle or other conveyance or in such receptacle or other container;
+
+(ii) to seize at any time during the period specified in the notification any notified arms
+being carried by or otherwise in the possession of any person, through or in a public place in
+such area or discovered through a search under sub-clause (i), and detain the same during the
+period specified in the notification.
+
+(2) The period specified in a notification issued under sub-section (1) in respect of any area shall
+not, in the first instance, exceed ninety days, but the Central Government may amend such
+notification to extend such period from time to time by any period not exceeding ninety days at any
+one time if, in the opinion of that Government, there continues to be in such area such disturbance of
+public peace and tranquillity as is referred to in sub-section (1) or imminent danger thereof and that
+for the prevention of offences involving the use of arms in such area it is necessary or expedient so to
+do.
+
+(3) The provisions of the Code of Criminal Procedure, 1973 (2 of 1974), relating to searches and
+seizures shall, so far as may be, apply to any search or seizure made under sub-section (1).
+
+(4) For the purposes of this section,--
+
+(a) "arms" includes ammunition;
+
+(b) "public place" means any place intended for use by, or accessible to, the public or any
+section of the public; and
+
+(c) where the period specified in a notification, as originally issued under sub-section (1), is
+extended under sub-section (2), then, in relation to such notification, references in sub-section (1)
+to "the period specified in the notification" shall be construed as references to the period as so
+extended.]
+
+### Footnotes
+
+1. Ins. by Act 25 of 1983, s. 7 (w.e.f. 22-6-1983).
+
+## Section 25 - Punishment for certain offences.
+
+^1[(1) Whoever--
+
+(a) ^2[manufactures, obtains, procures], sells, transfers, converts, repairs, tests or proves, or
+exposes or offers for sale or transfer, or has in his possession for sale, transfer, conversion, repair,
+test or proof, any arms or ammunition in contravention of section 5; or
+
+(b) shortens the barrel of a firearm or converts an imitation firearm into a firearm ^3[or convert
+from any category of firearms mentioned in the Arms Rules, 2016 into any other category of
+firearms] in contravention of section 6; or
+
+^4* * * * *
+
+(d) brings into, or takes out of, India, any arms or ammunition of any class or description in
+contravention of section 11,
+
+shall be punishable with imprisonment for a term which shall not be less than ^5[seven years but which
+may extend to imprisonment for life] and shall also be liable to fine.
+
+^6[(1A) Whoever acquires, has in his possession or carries any prohibited arms or prohibited
+ammunition in contravention of section 7 shall be punishable with imprisonment for a term which
+shall not be less than ^7[seven years but which may extend to fourteen years] and shall also be liable to
+fine.
+
+^8[Provided that the Court may, for any adequate and special reasons to be recorded in the
+judgment, impose a sentence of imprisonment for a term of less than seven years.]
+
+^8[(1AB) Whoever, by using force, takes the firearm from the police or armed forces shall be
+punishable with imprisonment for a term which shall not be less than ten years but which may extend
+to imprisonment for life and shall also be liable to fine.]
+
+(1AA) whoever manufactures, sells, transfers, converts, repairs, tests or proves, or exposes or
+offers for sale or transfer or has in his possession for sale, transfer, conversion, repair, test or proof,
+any prohibited arms or prohibited ammunition in contravention of section 7 shall be punishable with
+imprisonment for a term which shall not be less than ^9[ten years] but which may extend to
+imprisonment for life and shall also be liable to fine.]
+
+^10[(1AAA)] Whoever has in contravention of a notification issued under section 24A in his
+possession or in contravention of a notification issued under section 24B carries or otherwise has in
+his possession, any arms or ammunition shall be punishable with imprisonment for a term which shall not be less than ^11[seven years but which may extend to imprisonment for life] and shall also be liable
+to fine.
+
+(1B) Whoever--
+
+(a) acquires, has in his possession or carries any firearm or ammunition in contravention of
+section 3; or
+
+(b) acquires, has in his possession or carries in any place specified by notification under
+section 4 any arms of such class or description as has been specified in that notification in
+contravention of that section; or
+
+(c) sells or transfers any firearm which does not bear the name of the maker, manufacturers
+number or other identification mark stamped or otherwise shown thereon as required by
+sub-section (2) of section 8 or does any act in contravention of sub-section (1) of that section; or
+
+(d) being a person to whom sub-clause (ii) or sub-clause (iii) of clause (a) of sub-section (1)
+of section 9 applies, acquires, has in his possession or carries any firearm or ammunition in
+contravention of that section; or
+
+(e) sells or transfers, or converts, repairs, tests or proves any firearm or ammunition in
+contravention of clause (b) of sub-section (1) of section 9; or
+
+(f) brings into, or takes out of, India, any arms or ammunition in contravention of
+section 10; or
+
+(g) transports any arms or ammunition in contravention of section 12; or
+
+(h) fails to deposit arms or ammunition as required by sub-section (2) of section 3, or
+
+sub-section (1) of section 21; or
+
+(i) being a manufacturer of, or dealer in, arms or ammunition, fails, on being required to do so
+by rules made under section 44, to maintain a record or account or to make therein all such entries
+as are required by such rules or intentionally makes a false entry therein or prevents or obstructs
+the inspection of such record or account or the making of copies of entries therefrom or prevents
+or obstructs the entry into any premises or other place where arms or ammunition are or is
+manufactured or kept or intentionally fails to exhibit or conceals such arms or ammunition or
+refuses to point out where the same are or is manufactured or kept,
+
+shall be punishable with imprisonment for a term which shall not be less than ^12[two years but which
+may extend to five years and shall also be liable to fine] and shall also be liable to fine:
+
+Provided that the Court may for any adequate and special reasons to be recorded in the judgment
+impose a sentence of imprisonment for a term of less than ^13[two years].]
+
+^14[(1C) Notwithstanding anything contained in sub-section (1B), whoever commits an offence
+punishable under that sub-section in any disturbed area shall be punishable with imprisonment for a
+term which shall not be less than three years but which may extend to seven years and shall also be
+liable to fine.
+
+Explanation.--For the purposes of this sub-section, disturbed area means any area declared to
+be a disturbed area under any enactment, for the time being in force, making provision for the
+suppression of disorder and restoration and maintenance of public order, and includes any areas
+specified by notification under section 24A or section 24B.]
+
+(2) Whoever being a person to whom sub-clause (i) of clause (a) of sub-section (1) of section 9
+applies, acquires, has in his possession or carries any firearm or ammunition in contravention of that
+section shall be punishable with imprisonment for a term which may extend to one year, or with fine,
+or with both.
+
+^15[(3) Whoever sells or transfers any firearm, ammunition or other arms--
+
+(i) without informing the district magistrate having jurisdiction or the officer in charge of the
+nearest police station, of the intended sale or transfer of that firearm, ammunition or other arms;
+or
+
+(ii) before the expiration of the period of forty-five days from the date of giving such
+information to such district magistrate or the officer in charge of the police station,
+
+in contravention of the provisions of clause (a) or clause (b) of the proviso to sub-section (2) of
+section 5, shall be punishable with imprisonment for a term which may extend to six months, or with
+fine of an amount which may extend to five hundred rupees, or with both.]
+
+(4) Whoever fails to deliver-up a licence when so required by the licensing authority under
+sub-section (1) of section 17 for the purpose of varying the conditions specified in the licence or fails
+to surrender a licence to the appropriate authority under sub-section (10) of that section on its
+suspension or revocation shall be punishable with imprisonment for a term which may extend to six
+months, or with fine of an amount which may extend to five hundred rupees, or with both.
+
+(5) Whoever, when required under section 19 to give his name and address, refuses to give such
+name and address or gives a name or address which subsequently transpires to be false shall be
+punishable with imprisonment for a term which may extend to six months, or with fine of an amount
+which may extend to two hundred rupees, or with both.
+
+^16[(6) If any member of an organised crime syndicate or any person on its behalf has at any time
+has in his possession or carries any arms or ammunition in contravention of any provision of Chapter
+II shall be punishable with imprisonment for a term which shall not be less than ten years but which
+may extend to imprisonment for life and shall also be liable to fine.
+
+(7) Whoever on behalf of a member of an organised crime syndicate or a person on its behalf, --
+
+(i) manufactures, obtains, procures, sells, transfers, converts, repairs, tests or proves, or
+exposes or offers for sale or transfer, conversion, repair, test or proof, any arms or ammunition in
+contravention of section 5; or
+
+(ii) shortens the barrel of a firearm or converts an imitation firearm into a fire arm or converts
+from any category of firearms mentioned in the Arms Rules, 2016 into any other category of
+firearms in contravention of section 6; or
+
+(iii) brings into, or takes out of India, any arms or ammunition of any class or description in
+contravention of section 11,
+
+shall be punishable with imprisonment for a term which shall not be less than ten years but which may
+extend to imprisonment for life and shall also be liable to fine.
+
+Explanation.--For the purposes of sub-sections (6) and (7),--
+
+(a) organised crime means any continuing unlawful activity by any person, singly or
+collectively, either as a member of an organised crime syndicate or on behalf of such syndicate,
+by use of violence or threat of violence or intimidation or coercion, or other unlawful means, with
+the objective of gaining pecuniary benefits, or gaining undue economic or other advantage for
+himself or any person;
+
+(b) organised crime syndicate means a group of two or more persons who, acting either
+singly or collectively, as a syndicate or gang indulge in activities of organised crime.
+
+(8) Whoever involves in or aids in the illicit trafficking of firearms and ammunition in
+contravention of sections 3, 5, 6, 7 and 11 shall be punishable with imprisonment for a term which
+shall not be less than ten years but which may extend to imprisonment for life and shall also be liable
+to fine.
+
+Explanation.--For the purposes of this sub-section, illicit trafficking means the import, export,
+acquisition, sale, delivery, movement or transfer of firearms and ammunition into, from or within the
+territory of India, if the firearms and ammunition are not marked in accordance with the provisions of
+this Act or are being trafficked in contravention of the provisions of this Act including smuggled
+firearms of foreign make or prohibited arms and prohibited ammunition.
+
+(9) Whoever uses firearm in a rash or negligent manner or in celebratory gunfire so as to endanger
+human life or personal safety of others shall be punishable with an imprisonment for a term which
+may extend to two years, or with fine which may extend to rupees one lakh, or with both.
+
+Explanation.--For the purposes of this sub-section, celebratory gunfire means the practice of
+using firearm in public gatherings, religious places, marriage parties or other functions to fire
+ammunition.]
+
+### Footnotes
+
+1. Subs. by Act 25 of 1983, s. 8, for sub-section (1) (w.e.f. 22-6-1983).
+
+2. Subs. by Act 48 of 2019, s. 9, for manufactures (w.e.f. 14-12-2019).
+
+3. Ins. by s. 9, ibid. (w.e.f. 14-12-2019).
+
+4. Clause (c) omitted by Act 42 of 1988, s. 5 (w.e.f. 27-5-1988).
+
+5. Subs. by Act 48 of 2019, s. 9, for three years but which may extend to seven years (w.e.f. 14-12-2019).
+
+6. Ins. by Act 42 of 1988, s. 5 (w.e.f. 27-5-1988).
+
+7. Subs. by Act 48 of 2019, s. 9, for five years but which may extend to ten years (w.e.f. 14-12-2019).
+
+8. Ins. by s. 9, ibid. (w.e.f. 14-12-2019).
+
+9. Subs. by s. 9, ibid., for seven years (w.e.f. 14-12-2019).
+
+10. Sub-section (1A) renumbered as sub-section (1AAA) thereof by Act 42 of 1988, s. 5 (w.e.f. 27-5-1988).
+
+11. Subs. by Act 39 of 1985, s. 2, for one year, but which may extend to five years (w.e.f. 28-5-1985).
+
+12. Subs. by Act 48 of 2019, s. 9, for one year but which may extend to three years (w.e.f. 14-12-2019).
+
+13. Subs. by s. 9,ibid., for one year (w.e.f. 14-12-2019).
+
+14. Ins. by Act 39 of 1985, s. 2 (w.e.f. 28-5-1985).
+
+15. Subs. by Act 25 of 1983, s. 8, for sub-section (3) (w.e.f. 22-6-1983).
+
+16. Ins. by Act 48 of 2019, s. 9 (w.e.f. 14-12-2019).
+
+## Section 26 - Secret contraventions.
+
+^1[26. Secret contraventions.―(1) Whoever does any act in contravention of any of the
+provisions of section 3, 4, 10 or 12 in such manner as to indicate an intention that such act may not be
+known to any public servant or to any person employed or working upon a railway, aircraft, vessel,
+vehicle or any other means of conveyance, shall be punishable with imprisonment for a term which
+shall not be less than six months but which may extend to seven years and also with fine.
+
+(2) Whoever does any act in contravention of any of the provisions of section 5, 6, 7 or 11 in such
+manner as to indicate an intention that such act may not be known to any public servant or to any
+person employed or working upon a railway, aircraft, vessel, vehicle or any other means of
+conveyance, shall be punishable with imprisonment for a term which shall not be less than five years
+but which may extend to ten years and also with fine.
+
+(3) Whoever on any search being made under section 22 conceals or attempts to conceal any arms
+or ammunition, shall be punishable with imprisonment for a term which may extend to ten years and
+also with fine.]
+
+### Footnotes
+
+1. Subs. by s. 9, ibid., for section 26 (w.e.f. 22-6-1983)
+
+## Section 27 - Punishment for using arms, etc.
+
+^1[27. Punishment for using arms, etc.--(1) Whoever uses any arms or ammunition in
+contravention of section 5 shall be punishable with imprisonment for a term which shall not be less
+than three years but which may extend to seven years and shall also be liable to fine.
+
+(2) Whoever uses any prohibited arms or prohibited ammunition in contravention of section 7
+shall be punishable with imprisonment for a term which shall not be less than seven years but which
+may extend to imprisonment for life and shall also be liable to fine.
+
+(3) Whoever uses any prohibited arms or prohibited ammunition or does any act in contravention
+of section 7 and such use or act results in the death of any other person, ^2[shall be punishable with
+imprisonment for life, or death and shall also be liable to fine.]
+
+### Footnotes
+
+1. Subs. by Act 42 of 1988, s. 6, for section 27 (w.e.f. 27-5-1988)./
+
+2. Subs. by Act 48 of 2019, s. 10, for "shall be punishable with imprisonment for life, or death and shall also be liable to
+fine" (w.e.f. 14-12-2019).
+
+## Section 28 - Punishment for use and possession of firearms or imitation firearms in certain cases.
+
+Whoever makes or attempts to make any use whatsoever of a firearm or an imitation firearm
+with intent to resist or prevent the lawful arrest or detention of himself or any other person shall be
+punishable with imprisonment for a term which may extend to seven years ^1
+[and with fine.]
+
+Explanation.―In this section the expression "imitation firearm" has the same meaning as in
+section 6
+
+### Footnotes
+
+1. Subs. by Act 25 of 1983, s. 10, for ", or with fine, or with both" (w.e.f. 22-6-1983).
+
+## Section 29 - Punishment for knowingly purchasing arms, etc., from unlicensed person or for delivering arms, etc., to person not entitled to possess the same.
+
+Whoever―
+
+(a) purchases any firearms or any other arms of such class or description as may be prescribed
+or any ammunition from any other person knowing that such other person is not licensed or
+authorised under section 5; or
+
+(b) delivers any arms or ammunition into the possession of another person without previously
+ascertaining that such other person is entitled by virtue of this Act or any other law for the time
+being in force to have, and is not prohibited by this Act or such other law from having, in his
+possession the same;
+
+shall be punishable with imprisonment for a term which may extend to ^1
+[three years, or with fine, or
+with both.]
+
+### Footnotes
+
+1. Subs. by s. 11, ibid., for certain words (w.e.f. 22-6-1983).
+
+## Section 30 - Punishment for contravention of licence or rule.
+
+Whoever contravenes any condition
+of a licence or any provision of this Act or any rule made thereunder, for which no punishment is
+provided elsewhere in this Act shall be punishable with imprisonment for a term which may extend
+to ^1
+[six months], or with fine which may extend to ^2
+[two thousand] rupees, or with both.
+
+### Footnotes
+
+1. Subs. by s. 12, ibid., for "three months" (w.e.f. 22-6-1983).
+
+2. Subs. by s. 12, ibid., for "five hundred" (w.e.f. 22-6-1983).
+
+## Section 31 - Punishment for subsequent offences.
+
+Whoever having been convicted of an offence under
+this Act is again convicted of an offence under this Act shall be punishable with double the penalty
+provided for the latter offence.
+
+## Section 32 - Power to confiscate.
+
+(1) When any person is convicted under this Act of any offence
+committed by him in respect of any arms or ammunition, it shall be in the discretion of the convicting
+court further to direct that the whole or any portion of such arms or ammunition, and any vessel,
+vehicle or other means of conveyance and any receptacle or thing containing, or used to conceal, the
+arms or ammunition shall be confiscated:
+
+Provided that if the conviction is set aside on appeal or otherwise, the order of confiscation shall
+become void.
+
+(2) An order of confiscation may also be made by the appellate court or by the High Court when
+exercising its powers of revision.
+
+## Section 33 - Offences by companies.
+
+(1) Whenever an offence under this Act has been committed by a
+company, every person who at the time the offence was committed was in charge of, or was
+responsible to the company for the conduct of, the business of the company, as well as the company,
+shall be deemed to be guilty of the offence and shall be liable to be proceeded against and punished
+accordingly:
+
+Provided that nothing contained in this sub-section shall render any such person liable to any
+punishment under this Act if he proves that the offence was committed without his knowledge and
+that he exercised all due diligence to prevent the commission of such offence.
+
+(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has
+been committed by a company and it is proved that the offence has been committed with the consent
+or connivance of, or is attributable to any neglect on the part of, any director, manager, secretary or
+other officer of the company, such director, manager, secretary or other officer shall also be deemed
+to be guilty of that offence and shall be liable to be proceeded against and punished accordingly.
+
+Explanation.―For the purposes of this section,
+
+(a) "company" means any body corporate, and includes a firm or other association of
+individuals; and
+
+(b) "director", in relation to a firm, means a partner in the firm.
+
+## Section 34 - Sanction of Central Government for warehousing of arms.
+
+Notwithstanding anything
+contained in the ^1
+[Customs Act, 1962 (52 of 1962),] no arms or ammunition shall be deposited in any
+warehouse licensed under ^2
+[section 58] of that Act without the sanction of the Central Government.
+
+### Footnotes
+
+1. Subs. by Act 25 of 1983, s. 13, for "Sea Customs Act, 1878 (8 of 1878)" (w.e.f. 22-6-1983).
+
+2. Subs. by s. 13, ibid., for "section 16" (w.e.f. 22-6-1983).
+
+## Section 35 - Criminal responsibility of persons in occupation of premises in certain cases.
+
+Where
+any arms or ammunition in respect of which any offence under this Act has been or is being
+committed are or is found in any premises, vehicle or other place in the joint occupation or under the
+joint control of several persons, each of such persons in respect of whom there is reason to believe
+that he was aware of the existence of the arms or ammunition in the premises, vehicle or other place
+shall, unless the contrary is proved, be liable for that offence in the same manner as if it has been or is
+being committed by him alone.
+
+## Section 36 - Information to be given regarding certain offences.
+
+(1) Every person aware of the
+commission of any offence under this Act shall, in the absence of reasonable excuse the burden of
+proving which shall lie upon such person, give information of the same to the officer in charge of the
+nearest police station or the magistrate having jurisdiction.
+
+(2) Every person employed or working upon any railway, aircraft, vessel, vehicle or other means
+of conveyance shall, in the absence of reasonable excuse the burden of proving which shall lie upon
+such person, give information to the officer in charge of the nearest police station regarding any box,
+package or bale in transit which he may have reason to suspect contains arms or ammunition in
+respect of which an offence under this Act has been or is being committed
+
+## Section 37 - Arrest and searches.
+
+Save as otherwise provided in this Act,―,
+
+(a) all arrests and searches made under this Act or under any rules made thereunder
+shall be carried out in accordance with the provisions of the ^1
+[Code of Criminal
+Procedure, 1973 (2 of 1974)], relating respectively to arrests and searches made under that Code;
+
+(b) any person arrested and any arms or ammunition seized under this Act by a person not
+being a magistrate or a police officer shall be delivered without delay to the officer in charge of
+the nearest police station and that officer shall―
+
+(i) either release that person on his executing a bond with or without sureties to appear
+before a magistrate and keep the things seized in his custody till the appearance of that person
+before the magistrate, or
+
+(ii) should that person fail to execute the bond and to furnish, if so required, sufficient
+sureties, produce that person and those things without delay before the magistrate.
+
+### Footnotes
+
+1. Subs. by Act 25 of 1983, s. 14, for "Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 22-6-1983).
+
+## Section 38 - Offences to be cognizable.
+
+Every offence under this Act shall be cognizable within the
+meaning of the ^1
+[Code of Criminal Procedure, 1973 (2 of 1974)].
+
+### Footnotes
+
+1. Subs. by Act 25 of 1983, s. 14, for "Code of Criminal Procedure, 1898 (5 of 1898)"(w.e.f. 22-6-1983).
+
+## Section 39 - Previous sanction of the district magistrate necessary in certain cases.
+
+No prosecution
+shall be instituted against any person in respect of any offence under section 3 without the previous
+sanction of the district magistrate.
+
+## Section 40 - Protection of action taken in good faith.
+
+No suit, prosecution or other legal proceeding
+shall lie against any person for anything which is in good faith done or intended to be done under this
+Act.
+
+## Section 41 - Power to exempt.
+
+Where the Central Government is of the opinion that it is necessary or
+expedient in the public interest so to do, it may, by notification in the Official Gazette and subject to
+such conditions, if any, as it may specify in the notification,--
+
+(a) ^1[exempt any person or class of persons (either generally or in relation to such description
+of arms and ammunition as may be specified in the notification)], or exclude any description of
+arms or ammunition, or withdraw any part of India, from the operation of all or any of the
+provisions of this Act; and
+
+(b) as often as may be, cancel any such notification and again subject, by a like notification,
+the person or class of persons or the description of arms and ammunition or the part of India to the
+operation of such provisions.
+
+### Footnotes
+
+1. Subs. by s. 15, ibid.,for “exempt any person or class of persons” (w.e.f. 22-6-1983).
+
+## Section 42 - Power to take census of firearms.
+
+(1) The Central Government may, by notification in the
+Official Gazette, direct a census to be taken of all firearms in any area and empower any officer of
+Government to take such census.
+
+(2) On the issue of any such notification all persons having in their possession any firearm in that
+area shall furnish to the officer concerned such information as he may require in relation thereto and
+shall produce before him such firearms if he so requires.
+
+## Section 43 - Power to delegate.
+
+(1) The Central Government may, by notification in the Official
+Gazette, direct that any power or function which may be exercised or performed by it under this Act
+other than the power under section 41 or the power under section 44 may, in relation to such matters
+and subject to such conditions, if any, as it may specify in the notification, be exercised or performed
+also by―
+
+(a) such officer or authority subordinate to the Central Government, or
+
+(b) such State Government or such officer or authority subordinate to the State Government,
+as may be specified in the notification.
+
+(2) Any rules made by the Central Government under this Act may confer powers or impose
+duties or authorise the conferring of powers or imposition of duties upon any State Government or
+any officer or authority subordinate thereto.
+
+## Section 44 - Power to make rules.
+
+(1) The Central Government may, by notification in the Official
+Gazette, make rules for carrying out the purposes of this Act.
+
+(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
+provide for all or any of the following matters, namely:--
+
+(a) the appointment, jurisdiction, control and functions of licensing authorities ^1[including the
+areas and the categories or arms and ammunition for which they may grant licences];
+
+(b) the form and particulars of application for the grant or renewal of a licence and where the
+application is for the renewal of a licence, the time within which it shall be made;
+
+(c) the form in which and the conditions subject to which any licence may be granted or
+refused, renewal, varied, suspended or revoked;
+
+(d) where no period has been specified in this Act, the period for which any licence shall
+continue to be in force;
+
+(e) the fees payable in respect of any application for the grant or renewal of a licence and in
+respect of any licence granted or renewed and the manner of paying the same;
+
+(f) the manner in which the makers name, the manufacturers number or other identification
+mark of a ^2[ firearm or ammunition shall be stamped or otherwise shown thereon for the purposes
+of tracing];
+
+^3[Explanation.--For the purposes of this clause, tracing means the systematic tracking of
+firearms and ammunition from manufacturer to purchaser for the purpose of detecting,
+investigating and analysing illicit manufacturing and illicit trafficking;]
+
+(g) the procedure for the test or proof of any firearms;
+
+(h) the firearms that may be used in the course of training, the age-limits of persons who may
+use them and the conditions for their use by such persons;
+
+(i) the authority to whom appeals may be preferred under section 18, the procedure to be
+followed by such authority and the period within which appeals shall be preferred, the fees to be
+paid in respect of such appeals and the refund of such fees;
+
+(j) the maintenance of records or accounts of anything done under a licence other than a
+licence under section 3 or section 4, the form of, and the entries to be made in, such records or
+accounts and the exhibition of such records or accounts to any police officer or to any officer of
+Government empowered in this behalf;
+
+(k) the entry and inspection by any police officer or by any officer of Government empowered
+in this behalf of any premises or other place in which arms or ammunition are or is manufactured
+or in which arms or ammunition are or is kept by a manufacturer of or dealer in such arms or
+ammunition and the exhibition of the same to such officer;
+
+(l) the conditions subject to which arms or ammunition may be deposited with a licensed
+dealer or in a unit armoury as required by sub-section (1) of section 21 and the period on the
+expiry of which the things so deposited may be forfeited;
+
+(m) any other matter which is to be, or may be, prescribed.
+
+(3) Every rule made under this section shall be laid, as soon as may be after it is made, before
+each House of Parliament, while it is in session for a total period of thirty days which may be
+comprised in one session or in ^4[two or more successive sessions, and if, before the expiry of the
+session immediately following the session or the successive sessions aforesaid], both Houses agree in
+making any modification in the rule or both Houses agree that the rule should not be made, the rule
+shall thereafter have effect only in such modified form or be of no effect, as the case may be; so,
+however, that any such modification or annulment shall be without prejudice to the validity of
+anything previously done under that rule.
+
+(d) the acquisition, possession or carrying by a person of minor parts of arms or ammunition
+which are not intended to be used along with complementary parts acquired or possessed by that
+or any other person.
+
+### Footnotes
+
+1. Ins. by Act 25 of 1983, s. 16 (w.e.f. 22-6-1983).
+
+2. Subs. by Act 48 of 2019, s. 11, for firearm shall be stamped or otherwise shown thereon (w.e.f. 14-12-2019).
+
+3. Ins. by s. 11, vide (w.e.f. 14-12-2019).
+
+4. Subs. by Act 25 of 1983, s. 16, for certain words (w.e.f. 22-6-1983).
+
+## Section 45 - Act not to apply in certain cases.
+
+Nothing in this Act shall apply to
+
+(a) arms or ammunition on board any sea-going vessel or any aircraft and forming part of the
+ordinary armament or equipment of such vessel or aircraft;
+
+(b) the acquisition, possession or carrying, the manufacture, repair, conversion, test or proof,
+the sale or transfer or the import, export or transport of arms or ammunition
+
+(i) by or under orders of the Central Government, or
+
+(ii) by a public servant in the course of his duty as such public servant, or
+
+(iii) by a member of the National Cadet Corps raised and maintained under the
+National Cadet Corps Act, 1948 (31 of 1948), or by any officer or enrolled person of the
+Territorial Army raised and maintained under the Territorial Army Act, 1948 (56 of 1948), or
+by any member of any other forces raised and maintained or that may hereafter be raised and
+maintained under any Central Act, or by any member of such other forces as the Central
+Government may, by notification in the Official Gazette, specify, in the course of his duty as
+such member, officer or enrolled person;
+
+(c) any weapon of an obsolete pattern or of antiquarian value or in disrepair which is not
+capable of being used as a firearm either with or without repair;
+
+(d) the acquisition, possession or carrying by a person of minor parts of arms or ammunition
+which are not intended to be used along with complementary parts acquired or possessed by that
+or any other person.
+
+## Section 46 - Repeal of Act 11 of 1878.
+
+(1) The Indian Arms Act, 1878 (11 of 1878), is hereby repealed.
+
+(2) Notwithstanding the repeal of the Indian Arms Act, 1878 (11 of 1878), and without prejudice
+to the provisions of sections 6 and 24 of the General Clauses Act, 1897 (10 of 1897), every licence
+granted or renewed under the first-mentioned Act and in force immediately before the commencement
+of this Act shall, unless sooner revoked, continue in force after such commencement for the unexpired
+portion of the period for which it has been granted or renewed.
