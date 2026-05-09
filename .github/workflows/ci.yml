@@ -43,15 +43,25 @@ jobs:
           --delay-ms 0
 
       - name: Build one live law smoke sample
-        run: >
-          node scripts/build-site.mjs
-          --fetch
-          --manifest data/laws.seed.lino
-          --regional-sources data/regional-sources.seed.lino
-          --max-laws 1
-          --max-sections 1
-          --output /tmp/indian-law-ci-live-site
-          --delay-ms 0
+        run: |
+          set +e
+          node scripts/build-site.mjs \
+            --fetch \
+            --manifest data/laws.seed.lino \
+            --regional-sources data/regional-sources.seed.lino \
+            --max-laws 1 \
+            --max-sections 1 \
+            --output /tmp/indian-law-ci-live-site \
+            --delay-ms 0
+          status=$?
+          set -e
+          if [ "$status" -eq 0 ]; then
+            exit 0
+          fi
+          if [ "$status" -ne 75 ]; then
+            exit "$status"
+          fi
+          echo "::notice::Live law smoke produced partial output after an upstream source failure; treating exit 75 as recoverable for PR CI."
 
       - name: Download one official law corpus smoke sample
         run: >

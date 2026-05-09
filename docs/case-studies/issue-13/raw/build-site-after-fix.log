@@ -1,0 +1,35 @@
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+  ---
+  duration_ms: 178.182464
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading
+  ---
+  duration_ms: 165.209228
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 3 - fetch site build writes completed law cache and progress as Lino
+  ---
+  duration_ms: 163.161079
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 4 - fetch site build writes partial output when the runtime budget is exhausted
+  ---
+  duration_ms: 154.354858
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 5 - fetch site build records per-law upstream failures as partial output
+  ---
+  duration_ms: 2178.445671
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2909.591676

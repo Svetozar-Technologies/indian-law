@@ -1,0 +1,45 @@
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+not ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+  ---
+  duration_ms: 166.084998
+  location: '/tmp/gh-issue-solver-1778345747770/tests/build-site.test.mjs:14:1'
+  failureType: 'testCodeFailure'
+  error: "ENOENT: no such file or directory, open '/tmp/indian-law-site-tlCR2m/indian-law/index.html'"
+  code: 'ENOENT'
+  stack: |-
+    async open (node:internal/fs/promises:637:25)
+    async readFile (node:internal/fs/promises:1249:14)
+    async TestContext.<anonymous> (file:///tmp/gh-issue-solver-1778345747770/tests/build-site.test.mjs:19:27)
+    async Test.run (node:internal/test_runner/test:797:9)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading
+  ---
+  duration_ms: 162.308438
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 3 - fetch site build writes completed law cache and progress as Lino
+  ---
+  duration_ms: 167.786629
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 4 - fetch site build writes partial output when the runtime budget is exhausted
+  ---
+  duration_ms: 167.716615
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 5 - fetch site build records per-law upstream failures as partial output
+  ---
+  duration_ms: 2183.929988
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 4
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2907.747456

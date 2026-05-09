@@ -51,3 +51,12 @@ test("refresh workflow prints checkpoint staging diagnostics", async () => {
   assert.match(workflow, /^\s+git diff --cached --stat$/m);
   assert.match(workflow, /git rev-parse --short HEAD/);
 });
+
+test("CI workflow treats live-source partial output as a recoverable smoke result", async () => {
+  const workflow = await readFile(".github/workflows/ci.yml", "utf8");
+
+  assert.match(workflow, /name: Build one live law smoke sample/);
+  assert.match(workflow, /status=\$\?/);
+  assert.match(workflow, /\[ "\$status" -ne 75 \]/);
+  assert.match(workflow, /::notice::Live law smoke produced partial output/);
+});

@@ -21,6 +21,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DEFAULT_MAX_LINES = 1500;
 const DEFAULT_CACHE_TTL_DAYS = 30;
 const DEFAULT_PROGRESS_INTERVAL_MS = 30000;
+const DEFAULT_PATH_ALIAS = "indian-law";
 const PARTIAL_REFRESH_EXIT_CODE = 75;
 
 async function main() {
@@ -38,6 +39,7 @@ async function main() {
   const cacheTtlDays = Number(args["cache-ttl-days"] ?? DEFAULT_CACHE_TTL_DAYS);
   const maxRuntimeMs = args["max-runtime-ms"] === undefined ? undefined : Number(args["max-runtime-ms"]);
   const progressIntervalMs = Number(args["progress-interval-ms"] ?? DEFAULT_PROGRESS_INTERVAL_MS);
+  const pathAlias = normalisePathAlias(args["path-alias"] ?? DEFAULT_PATH_ALIAS);
   const progressPath =
     args["progress-file"] === undefined
       ? cacheDir
@@ -65,7 +67,7 @@ async function main() {
       maxRuntimeMs ?? "none"
     }, progressIntervalMs=${progressIntervalMs}, progressFile=${
       progressPath ? path.relative(ROOT, progressPath) : "none"
-    }, verboseDefault=${verbose}`
+    }, pathAlias=${pathAlias || "none"}, verboseDefault=${verbose}`
   );
 
   logger.info(`Reading manifest from ${path.relative(ROOT, manifestPath)}`);
@@ -151,6 +153,7 @@ async function main() {
     defaultLanguage: languageConfig.defaultLanguage,
     laws,
     maxLines,
+    pathAlias,
     sourceMetadata: {
       generatedFrom: manifest.generatedFrom ?? [],
       lastVerified: manifest.lastVerified ?? regionalSources.lastVerified ?? "",
@@ -548,7 +551,7 @@ function formatDuration(milliseconds) {
   return `${minutes}m ${seconds}s`;
 }
 
-async function writeSite({ outputDir, logger, languages, defaultLanguage, laws, maxLines, sourceMetadata }) {
+async function writeSite({ outputDir, logger, languages, defaultLanguage, laws, maxLines, pathAlias, sourceMetadata }) {
   logger?.info(`Writing site output to ${path.relative(ROOT, outputDir)}`);
   await mkdir(outputDir, { recursive: true });
   logger?.info("Removing generated laws/assets/data output from previous build");
@@ -557,6 +560,9 @@ async function writeSite({ outputDir, logger, languages, defaultLanguage, laws, 
   await rm(path.join(outputDir, "data"), { recursive: true, force: true });
   await rm(path.join(outputDir, "site.css"), { force: true });
   await rm(path.join(outputDir, "site.js"), { force: true });
+  if (pathAlias) {
+    await rm(path.join(outputDir, pathAlias), { recursive: true, force: true });
+  }
 
   logger?.info("Creating output asset and data directories");
   await mkdir(path.join(outputDir, "assets"), { recursive: true });
@@ -586,6 +592,15 @@ async function writeSite({ outputDir, logger, languages, defaultLanguage, laws, 
   logger?.info(`Computed asset hashes: site.css=${cssHash}, app.js=${appHash}`);
   logger?.info("Writing application shell");
   await writeFile(path.join(outputDir, "index.html"), renderAppShell({ cssHash, appHash }));
+  if (pathAlias) {
+    const aliasDir = path.join(outputDir, pathAlias);
+    logger?.info(`Writing path alias shell ${path.relative(ROOT, path.join(aliasDir, "index.html"))}`);
+    await mkdir(aliasDir, { recursive: true });
+    await writeFile(
+      path.join(aliasDir, "index.html"),
+      renderAppShell({ cssHash, appHash, assetBase: relativeAssetBase(pathAlias) })
+    );
+  }
 }
 
 async function writeMarkdownParts({ outputDir, logger, languages, laws, defaultLanguage, maxLines, sourceMetadata }) {
@@ -746,16 +761,19 @@ async function fileHash(filePath) {
   return createHash("sha256").update(await readFile(filePath)).digest("hex").slice(0, 12);
 }
 
-function renderAppShell({ cssHash, appHash }) {
+function renderAppShell({ cssHash, appHash, assetBase = "" }) {
+  const assetBaseScript = assetBase
+    ? `  <script>window.__INDIAN_LAW_ASSET_BASE__ = ${JSON.stringify(assetBase)};</script>\n`
+    : "";
   return `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Indian Law</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/site.css?v=${cssHash}">
-  <script type="module" src="assets/app.js?v=${appHash}"></script>
+  <link rel="icon" href="${assetBase}favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="${assetBase}assets/site.css?v=${cssHash}">
+${assetBaseScript}  <script type="module" src="${assetBase}assets/app.js?v=${appHash}"></script>
 </head>
 <body>
   <div id="root">
@@ -764,6 +782,21 @@ function renderAppShell({ cssHash, appHash }) {
 </body>
 </html>
 `;
+}
+
+function normalisePathAlias(value) {
+  const segments = String(value)
+    .split("/")
+    .filter(Boolean);
+  if (segments.some((segment) => segment === "." || segment === "..")) {
+    throw new Error(`Invalid path alias: ${value}`);
+  }
+  return segments.join("/");
+}
+
+function relativeAssetBase(pathAlias) {
+  const depth = pathAlias.split("/").filter(Boolean).length;
+  return depth ? `${Array.from({ length: depth }, () => "..").join("/")}/` : "";
 }
 
 function parseArgs(argv) {
