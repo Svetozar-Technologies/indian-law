@@ -20,7 +20,7 @@ https://svetozar-technologies.github.io/indian-law/
 ```bash
 npm ci
 npm test
-npm run build:offline
+node scripts/build-site.mjs --offline --output /tmp/indian-law-offline-site
 ```
 
 To test a live network refresh on a small sample:
@@ -38,11 +38,12 @@ node scripts/build-site.mjs --fetch \
   --manifest data/laws.discovered.lino \
   --regional-sources data/regional-sources.discovered.lino \
   --cache-dir data/cache/laws \
+  --progress-file data/cache/refresh-status.lino \
   --cache-ttl-days 30 \
   --max-runtime-ms 3300000
 ```
 
-Fresh cache entries skip re-downloading law sections for 30 days by default. When `--max-runtime-ms` is reached, the script writes the current `docs/` output, exits with code `75`, and leaves cache files ready for the next run to continue.
+Fresh `.lino` cache entries skip re-downloading law sections for 30 days by default. When `--max-runtime-ms` is reached, the script writes the current `docs/` output, updates the refresh status `.lino`, exits with code `75`, and leaves completed law cache files ready for the next run to continue.
 
 Repository scripts emit detailed timestamped diagnostics by default, including inputs, option choices, HTTP attempts, cache decisions, page parsing counts, generated files, and checkpoint decisions. Pass `--quiet` only when intentionally suppressing routine trace output.
 

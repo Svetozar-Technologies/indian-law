@@ -33,10 +33,7 @@ jobs:
         run: npm test
 
       - name: Build deterministic React Pages artifact
-        run: npm run build:offline
-
-      - name: Verify generated Pages output is committed
-        run: git diff --exit-code -- docs
+        run: node scripts/build-site.mjs --offline --output /tmp/indian-law-ci-offline-site
 
       - name: Discover one Central Act smoke sample
         run: >

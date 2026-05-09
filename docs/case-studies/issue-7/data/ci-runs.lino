@@ -1,0 +1,297 @@
+obj_root:
+  object
+  (str branchRuns) obj_root_branch_runs
+  (str issueLinkedRun) obj_root_issue_linked_run
+  (str prRun) obj_root_pr_run
+  (str downloadedLogs) obj_root_downloaded_logs
+obj_root_branch_runs:
+  array
+  obj_root_branch_runs_1
+obj_root_branch_runs_1:
+  object
+  (str conclusion) (str failure)
+  (str createdAt) (str `2026-05-09T02:36:02Z`)
+  (str databaseId) (int 25589319973)
+  (str displayTitle) (str `[WIP] CI/CD is broken`)
+  (str headSha) (str c266e2046db539c5b943f3680518e6c73dcdc998)
+  (str status) (str completed)
+  (str workflowName) (str CI)
+obj_root_issue_linked_run:
+  object
+  (str conclusion) (str failure)
+  (str createdAt) (str `2026-05-08T18:55:18Z`)
+  (str databaseId) (int 25573719113)
+  (str event) (str push)
+  (str headBranch) (str main)
+  (str headSha) (str fe4be62c382db0b2848f6fef5bcc64fceb695934)
+  (str jobs) obj_root_issue_linked_run_jobs
+  (str status) (str completed)
+  (str updatedAt) (str `2026-05-09T00:52:20Z`)
+  (str url) (str `https://github.com/Svetozar-Technologies/indian-law/actions/runs/25573719113`)
+  (str workflowName) (str `Refresh Laws and Deploy Pages`)
+obj_root_issue_linked_run_jobs:
+  array
+  obj_root_issue_linked_run_jobs_refresh_official_sources
+obj_root_issue_linked_run_jobs_refresh_official_sources:
+  object
+  (str completedAt) (str `2026-05-09T00:52:19Z`)
+  (str conclusion) (str failure)
+  (str databaseId) (int 75075602878)
+  (str name) (str `Refresh Official Sources`)
+  (str startedAt) (str `2026-05-08T18:55:28Z`)
+  (str status) (str completed)
+  (str steps) obj_root_issue_linked_run_jobs_refresh_official_sources_steps
+  (str url) (str `https://github.com/Svetozar-Technologies/indian-law/actions/runs/25573719113/job/75075602878`)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps:
+  array
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_set_up_job
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_checkout
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_setup_node
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_install
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_discover_central_acts
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_discover_regional_language_sources
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_configure_commit_author
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_build_pages_with_resumable_checkpoints
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_post_setup_node
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_post_checkout
+  obj_root_issue_linked_run_jobs_refresh_official_sources_steps_complete_job
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_set_up_job:
+  object
+  (str completedAt) (str `2026-05-08T18:55:30Z`)
+  (str conclusion) (str success)
+  (str name) (str `Set up job`)
+  (str number) (int 1)
+  (str startedAt) (str `2026-05-08T18:55:29Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_checkout:
+  object
+  (str completedAt) (str `2026-05-08T18:55:31Z`)
+  (str conclusion) (str success)
+  (str name) (str Checkout)
+  (str number) (int 2)
+  (str startedAt) (str `2026-05-08T18:55:30Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_setup_node:
+  object
+  (str completedAt) (str `2026-05-08T18:55:32Z`)
+  (str conclusion) (str success)
+  (str name) (str `Setup Node`)
+  (str number) (int 3)
+  (str startedAt) (str `2026-05-08T18:55:31Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_install:
+  object
+  (str completedAt) (str `2026-05-08T18:55:32Z`)
+  (str conclusion) (str success)
+  (str name) (str Install)
+  (str number) (int 4)
+  (str startedAt) (str `2026-05-08T18:55:32Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_discover_central_acts:
+  object
+  (str completedAt) (str `2026-05-08T18:55:51Z`)
+  (str conclusion) (str success)
+  (str name) (str `Discover Central Acts`)
+  (str number) (int 5)
+  (str startedAt) (str `2026-05-08T18:55:32Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_discover_regional_language_sources:
+  object
+  (str completedAt) (str `2026-05-08T18:56:48Z`)
+  (str conclusion) (str success)
+  (str name) (str `Discover Regional Language Sources`)
+  (str number) (int 6)
+  (str startedAt) (str `2026-05-08T18:55:51Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_configure_commit_author:
+  object
+  (str completedAt) (str `2026-05-08T18:56:48Z`)
+  (str conclusion) (str success)
+  (str name) (str `Configure commit author`)
+  (str number) (int 7)
+  (str startedAt) (str `2026-05-08T18:56:48Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_build_pages_with_resumable_checkpoints:
+  object
+  (str completedAt) (str `2026-05-09T00:52:18Z`)
+  (str conclusion) (str failure)
+  (str name) (str `Build Pages with resumable checkpoints`)
+  (str number) (int 8)
+  (str startedAt) (str `2026-05-08T18:56:48Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_post_setup_node:
+  object
+  (str completedAt) (str `2026-05-09T00:52:18Z`)
+  (str conclusion) (str skipped)
+  (str name) (str `Post Setup Node`)
+  (str number) (int 15)
+  (str startedAt) (str `2026-05-09T00:52:18Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_post_checkout:
+  object
+  (str completedAt) (str `2026-05-09T00:52:18Z`)
+  (str conclusion) (str success)
+  (str name) (str `Post Checkout`)
+  (str number) (int 16)
+  (str startedAt) (str `2026-05-09T00:52:18Z`)
+  (str status) (str completed)
+obj_root_issue_linked_run_jobs_refresh_official_sources_steps_complete_job:
+  object
+  (str completedAt) (str `2026-05-09T00:52:18Z`)
+  (str conclusion) (str success)
+  (str name) (str `Complete job`)
+  (str number) (int 17)
+  (str startedAt) (str `2026-05-09T00:52:18Z`)
+  (str status) (str completed)
+obj_root_pr_run:
+  object
+  (str conclusion) (str failure)
+  (str createdAt) (str `2026-05-09T02:36:02Z`)
+  (str databaseId) (int 25589319973)
+  (str event) (str pull_request)
+  (str headBranch) (str issue-7-6572af923ca3)
+  (str headSha) (str c266e2046db539c5b943f3680518e6c73dcdc998)
+  (str jobs) obj_root_pr_run_jobs
+  (str status) (str completed)
+  (str updatedAt) (str `2026-05-09T02:36:26Z`)
+  (str url) (str `https://github.com/Svetozar-Technologies/indian-law/actions/runs/25589319973`)
+  (str workflowName) (str CI)
+obj_root_pr_run_jobs:
+  array
+  obj_root_pr_run_jobs_test_and_offline_build
+obj_root_pr_run_jobs_test_and_offline_build:
+  object
+  (str completedAt) (str `2026-05-09T02:36:26Z`)
+  (str conclusion) (str failure)
+  (str databaseId) (int 75123905473)
+  (str name) (str `Test and Offline Build`)
+  (str startedAt) (str `2026-05-09T02:36:11Z`)
+  (str status) (str completed)
+  (str steps) obj_root_pr_run_jobs_test_and_offline_build_steps
+  (str url) (str `https://github.com/Svetozar-Technologies/indian-law/actions/runs/25589319973/job/75123905473`)
+obj_root_pr_run_jobs_test_and_offline_build_steps:
+  array
+  obj_root_pr_run_jobs_test_and_offline_build_steps_set_up_job
+  obj_root_pr_run_jobs_test_and_offline_build_steps_checkout
+  obj_root_pr_run_jobs_test_and_offline_build_steps_setup_node
+  obj_root_pr_run_jobs_test_and_offline_build_steps_install
+  obj_root_pr_run_jobs_test_and_offline_build_steps_test
+  obj_root_pr_run_jobs_test_and_offline_build_steps_build_deterministic_react_pages_artifact
+  obj_root_pr_run_jobs_test_and_offline_build_steps_verify_generated_pages_output_is_committed
+  obj_root_pr_run_jobs_test_and_offline_build_steps_discover_one_central_act_smoke_sample
+  obj_root_pr_run_jobs_test_and_offline_build_steps_build_one_live_law_smoke_sample
+  obj_root_pr_run_jobs_test_and_offline_build_steps_download_one_official_law_corpus_smoke_sample
+  obj_root_pr_run_jobs_test_and_offline_build_steps_post_setup_node
+  obj_root_pr_run_jobs_test_and_offline_build_steps_post_checkout
+  obj_root_pr_run_jobs_test_and_offline_build_steps_complete_job
+obj_root_pr_run_jobs_test_and_offline_build_steps_set_up_job:
+  object
+  (str completedAt) (str `2026-05-09T02:36:13Z`)
+  (str conclusion) (str success)
+  (str name) (str `Set up job`)
+  (str number) (int 1)
+  (str startedAt) (str `2026-05-09T02:36:12Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_checkout:
+  object
+  (str completedAt) (str `2026-05-09T02:36:16Z`)
+  (str conclusion) (str success)
+  (str name) (str Checkout)
+  (str number) (int 2)
+  (str startedAt) (str `2026-05-09T02:36:13Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_setup_node:
+  object
+  (str completedAt) (str `2026-05-09T02:36:20Z`)
+  (str conclusion) (str success)
+  (str name) (str `Setup Node`)
+  (str number) (int 3)
+  (str startedAt) (str `2026-05-09T02:36:16Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_install:
+  object
+  (str completedAt) (str `2026-05-09T02:36:22Z`)
+  (str conclusion) (str success)
+  (str name) (str Install)
+  (str number) (int 4)
+  (str startedAt) (str `2026-05-09T02:36:20Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_test:
+  object
+  (str completedAt) (str `2026-05-09T02:36:25Z`)
+  (str conclusion) (str failure)
+  (str name) (str Test)
+  (str number) (int 5)
+  (str startedAt) (str `2026-05-09T02:36:22Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_build_deterministic_react_pages_artifact:
+  object
+  (str completedAt) (str `2026-05-09T02:36:25Z`)
+  (str conclusion) (str skipped)
+  (str name) (str `Build deterministic React Pages artifact`)
+  (str number) (int 6)
+  (str startedAt) (str `2026-05-09T02:36:25Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_verify_generated_pages_output_is_committed:
+  object
+  (str completedAt) (str `2026-05-09T02:36:25Z`)
+  (str conclusion) (str skipped)
+  (str name) (str `Verify generated Pages output is committed`)
+  (str number) (int 7)
+  (str startedAt) (str `2026-05-09T02:36:25Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_discover_one_central_act_smoke_sample:
+  object
+  (str completedAt) (str `2026-05-09T02:36:25Z`)
+  (str conclusion) (str skipped)
+  (str name) (str `Discover one Central Act smoke sample`)
+  (str number) (int 8)
+  (str startedAt) (str `2026-05-09T02:36:25Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_build_one_live_law_smoke_sample:
+  object
+  (str completedAt) (str `2026-05-09T02:36:25Z`)
+  (str conclusion) (str skipped)
+  (str name) (str `Build one live law smoke sample`)
+  (str number) (int 9)
+  (str startedAt) (str `2026-05-09T02:36:25Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_download_one_official_law_corpus_smoke_sample:
+  object
+  (str completedAt) (str `2026-05-09T02:36:25Z`)
+  (str conclusion) (str skipped)
+  (str name) (str `Download one official law corpus smoke sample`)
+  (str number) (int 10)
+  (str startedAt) (str `2026-05-09T02:36:25Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_post_setup_node:
+  object
+  (str completedAt) (str `2026-05-09T02:36:25Z`)
+  (str conclusion) (str skipped)
+  (str name) (str `Post Setup Node`)
+  (str number) (int 19)
+  (str startedAt) (str `2026-05-09T02:36:25Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_post_checkout:
+  object
+  (str completedAt) (str `2026-05-09T02:36:25Z`)
+  (str conclusion) (str success)
+  (str name) (str `Post Checkout`)
+  (str number) (int 20)
+  (str startedAt) (str `2026-05-09T02:36:25Z`)
+  (str status) (str completed)
+obj_root_pr_run_jobs_test_and_offline_build_steps_complete_job:
+  object
+  (str completedAt) (str `2026-05-09T02:36:25Z`)
+  (str conclusion) (str success)
+  (str name) (str `Complete job`)
+  (str number) (int 21)
+  (str startedAt) (str `2026-05-09T02:36:25Z`)
+  (str status) (str completed)
+obj_root_downloaded_logs:
+  array
+  str docs/case-studies/issue-7/logs/issue-link-25573719113.log.gz
+  str docs/case-studies/issue-7/logs/pr-8-ci-25589319973.log.gz
+  str docs/case-studies/issue-7/logs/issue-link-25573719113.failure-excerpt.log
+  str docs/case-studies/issue-7/logs/pr-8-ci-25589319973.failure-excerpt.log
+  str docs/case-studies/issue-7/logs/issue-link-25573719113.timeline.log

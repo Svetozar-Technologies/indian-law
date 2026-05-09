@@ -38,6 +38,12 @@ async function main() {
   const cacheTtlDays = Number(args["cache-ttl-days"] ?? DEFAULT_CACHE_TTL_DAYS);
   const maxRuntimeMs = args["max-runtime-ms"] === undefined ? undefined : Number(args["max-runtime-ms"]);
   const progressIntervalMs = Number(args["progress-interval-ms"] ?? DEFAULT_PROGRESS_INTERVAL_MS);
+  const progressPath =
+    args["progress-file"] === undefined
+      ? cacheDir
+        ? path.join(path.dirname(cacheDir), "refresh-status.lino")
+        : undefined
+      : path.resolve(ROOT, args["progress-file"]);
   const quiet = Boolean(args.quiet);
   const verbose = !quiet;
   const logProgress = fetchLive && !Boolean(args.quiet);
@@ -57,7 +63,9 @@ async function main() {
       maxSections ?? "all"
     }, cacheDir=${cacheDir ? path.relative(ROOT, cacheDir) : "none"}, cacheTtlDays=${cacheTtlDays}, maxRuntimeMs=${
       maxRuntimeMs ?? "none"
-    }, progressIntervalMs=${progressIntervalMs}, verboseDefault=${verbose}`
+    }, progressIntervalMs=${progressIntervalMs}, progressFile=${
+      progressPath ? path.relative(ROOT, progressPath) : "none"
+    }, verboseDefault=${verbose}`
   );
 
   logger.info(`Reading manifest from ${path.relative(ROOT, manifestPath)}`);
@@ -76,6 +84,18 @@ async function main() {
   logger.info(`Selected ${selectedLaws.length} law(s) for this run`);
 
   const laws = [];
+  const refreshProgress = createRefreshProgress({
+    cacheDir,
+    defaultLanguage: languageConfig.defaultLanguage,
+    fetchLive,
+    manifestPath,
+    maxRuntimeMs,
+    outputDir,
+    progressIntervalMs,
+    regionalPath,
+    selectedLaws,
+    startedAt
+  });
   let partialRefresh = false;
   for (let index = 0; index < selectedLaws.length; index += 1) {
     logRuntimeBudget(index, selectedLaws.length, startedAt, maxRuntimeMs, { logger, verbose });
@@ -108,12 +128,15 @@ async function main() {
           verbose
         })
       : law;
+    recordLawProgress(refreshProgress, index, preparedLaw);
+    await writeRefreshProgress(progressPath, refreshProgress, { logger, verbose });
     laws.push(attachRegionalSources(preparedLaw, regionalSources.sources ?? []));
   }
 
   if (partialRefresh) {
     logger.info(`Filling ${selectedLaws.length - laws.length} pending law(s) from seed data for partial output`);
     for (let index = laws.length; index < selectedLaws.length; index += 1) {
+      recordPendingLawProgress(refreshProgress, index);
       laws.push(attachRegionalSources(normaliseLaw(selectedLaws[index]), regionalSources.sources ?? []));
     }
   }
@@ -133,6 +156,8 @@ async function main() {
       refreshStartedAt: fetchLive ? new Date(startedAt).toISOString() : ""
     }
   });
+  finalizeRefreshProgress(refreshProgress, { partialRefresh });
+  await writeRefreshProgress(progressPath, refreshProgress, { logger, verbose: true });
   const outputLabel = path.relative(ROOT, outputDir);
   if (partialRefresh) {
     logger.warn(`Generated partial ${laws.length} law entries in ${outputLabel}`);
@@ -144,7 +169,7 @@ async function main() {
 }
 
 async function fetchLawWithCache(seedLaw, options) {
-  const cachePath = options.cacheDir ? path.join(options.cacheDir, `${cacheKey(seedLaw)}.json`) : undefined;
+  const cachePath = options.cacheDir ? lawCachePath(options.cacheDir, seedLaw) : undefined;
   const progressPrefix = `[${options.index + 1}/${options.total}]`;
 
   logVerbose(
@@ -158,7 +183,11 @@ async function fetchLawWithCache(seedLaw, options) {
         `${progressPrefix} Using cached ${seedLaw.title} (${cachedLaw.sections?.length ?? 0} sections, fetched ${cachedLaw.fetchedAt})`,
         options
       );
-      return cachedLaw;
+      return annotateRefreshMetadata(cachedLaw, {
+        status: "cached",
+        cachePath,
+        fetchedAt: cachedLaw.fetchedAt ?? ""
+      });
     }
   }
 
@@ -171,7 +200,11 @@ async function fetchLawWithCache(seedLaw, options) {
     logVerbose(`${progressPrefix} Wrote cache ${path.relative(ROOT, cachePath)}`, options);
   }
 
-  return fetchedLaw;
+  return annotateRefreshMetadata(fetchedLaw, {
+    status: "fetched",
+    cachePath,
+    fetchedAt: new Date().toISOString()
+  });
 }
 
 async function fetchLaw(seedLaw, options) {
@@ -237,16 +270,8 @@ async function fetchLaw(seedLaw, options) {
 }
 
 async function readFreshCachedLaw(cachePath, options) {
-  let cache;
-  try {
-    logVerbose(`Reading law cache ${path.relative(ROOT, cachePath)}`, options);
-    cache = JSON.parse(await readFile(cachePath, "utf8"));
-  } catch (error) {
-    if (error.code !== "ENOENT") {
-      options.logger?.warn(`Ignoring unreadable law cache ${path.relative(ROOT, cachePath)}: ${error.message}`);
-    } else {
-      logVerbose(`No law cache found at ${path.relative(ROOT, cachePath)}`, options);
-    }
+  const cache = await readLawCache(cachePath, options);
+  if (!cache) {
     return undefined;
   }
 
@@ -276,21 +301,47 @@ async function readFreshCachedLaw(cachePath, options) {
 async function writeLawCache(cachePath, law, options) {
   logVerbose(`Creating cache directory ${path.relative(ROOT, path.dirname(cachePath))}`, options);
   await mkdir(path.dirname(cachePath), { recursive: true });
-  await writeFile(
-    cachePath,
-    `${JSON.stringify(
-      {
-        cacheVersion: 1,
-        fetchedAt: new Date().toISOString(),
-        sourceUrl: law.sourceUrl ?? "",
-        completeFetch: options.maxSections === undefined,
-        maxSections: options.maxSections ?? null,
-        law
-      },
-      null,
-      2
-    )}\n`
-  );
+  await writeDataFile(cachePath, {
+    cacheVersion: 1,
+    fetchedAt: new Date().toISOString(),
+    sourceUrl: law.sourceUrl ?? "",
+    completeFetch: options.maxSections === undefined,
+    maxSections: options.maxSections ?? null,
+    law
+  });
+}
+
+async function readLawCache(cachePath, options) {
+  try {
+    logVerbose(`Reading law cache ${path.relative(ROOT, cachePath)}`, options);
+    return await readDataFile(cachePath);
+  } catch (error) {
+    if (error.code !== "ENOENT") {
+      options.logger?.warn(`Ignoring unreadable law cache ${path.relative(ROOT, cachePath)}: ${error.message}`);
+      return undefined;
+    }
+  }
+
+  const legacyJsonPath = legacyJsonCachePath(cachePath);
+  try {
+    logVerbose(`No Lino cache found at ${path.relative(ROOT, cachePath)}; checking legacy JSON cache`, options);
+    return JSON.parse(await readFile(legacyJsonPath, "utf8"));
+  } catch (error) {
+    if (error.code !== "ENOENT") {
+      options.logger?.warn(`Ignoring unreadable legacy law cache ${path.relative(ROOT, legacyJsonPath)}: ${error.message}`);
+    } else {
+      logVerbose(`No law cache found at ${path.relative(ROOT, cachePath)}`, options);
+    }
+    return undefined;
+  }
+}
+
+function lawCachePath(cacheDir, law) {
+  return path.join(cacheDir, `${cacheKey(law)}.lino`);
+}
+
+function legacyJsonCachePath(cachePath) {
+  return cachePath.endsWith(".lino") ? `${cachePath.slice(0, -".lino".length)}.json` : `${cachePath}.json`;
 }
 
 function cacheKey(law) {
@@ -315,6 +366,111 @@ function cacheSatisfiesRequest(cache, options) {
     Number(cache.maxSections ?? 0) >= options.maxSections ||
     (cache.law.sections?.length ?? 0) >= options.maxSections
   );
+}
+
+function createRefreshProgress({
+  cacheDir,
+  defaultLanguage,
+  fetchLive,
+  manifestPath,
+  maxRuntimeMs,
+  outputDir,
+  progressIntervalMs,
+  regionalPath,
+  selectedLaws,
+  startedAt
+}) {
+  const laws = selectedLaws.map((rawLaw, index) => {
+    const law = normaliseLaw(rawLaw);
+    return {
+      index: index + 1,
+      slug: law.slug,
+      title: law.title ?? "",
+      status: fetchLive ? "pending" : "seed",
+      cacheFile: cacheDir ? path.relative(ROOT, lawCachePath(cacheDir, law)) : "",
+      sourceUrl: law.sourceUrl ?? "",
+      fetchedAt: "",
+      sectionCount: 0
+    };
+  });
+  const completedLaws = fetchLive ? 0 : laws.length;
+  return {
+    status: fetchLive ? "running" : "offline",
+    refreshStartedAt: new Date(startedAt).toISOString(),
+    updatedAt: new Date().toISOString(),
+    manifest: path.relative(ROOT, manifestPath),
+    regionalSources: path.relative(ROOT, regionalPath),
+    output: path.relative(ROOT, outputDir),
+    defaultLanguage,
+    cacheDir: cacheDir ? path.relative(ROOT, cacheDir) : "",
+    maxRuntimeMs: maxRuntimeMs ?? null,
+    progressIntervalMs,
+    totalLaws: laws.length,
+    completedLaws,
+    pendingLaws: fetchLive ? laws.length : 0,
+    partialRefresh: false,
+    laws
+  };
+}
+
+function recordLawProgress(progress, index, law) {
+  if (!progress) {
+    return;
+  }
+  const entry = progress.laws[index];
+  if (!entry) {
+    return;
+  }
+  const refreshMetadata = law.__refreshMetadata ?? {};
+  entry.status = refreshMetadata.status ?? "seed";
+  entry.cacheFile = refreshMetadata.cachePath ? path.relative(ROOT, refreshMetadata.cachePath) : entry.cacheFile;
+  entry.sourceUrl = law.sourceUrl ?? entry.sourceUrl;
+  entry.fetchedAt = law.fetchedAt ?? refreshMetadata.fetchedAt ?? "";
+  entry.sectionCount = law.sections?.length ?? 0;
+  refreshProgressCounts(progress);
+}
+
+function recordPendingLawProgress(progress, index) {
+  if (!progress?.laws[index]) {
+    return;
+  }
+  progress.laws[index].status = "pending";
+  refreshProgressCounts(progress);
+}
+
+function finalizeRefreshProgress(progress, { partialRefresh }) {
+  if (!progress) {
+    return;
+  }
+  progress.partialRefresh = partialRefresh;
+  progress.status = partialRefresh ? "partial" : "complete";
+  refreshProgressCounts(progress);
+}
+
+function refreshProgressCounts(progress) {
+  progress.updatedAt = new Date().toISOString();
+  progress.completedLaws = progress.laws.filter((law) => ["cached", "fetched", "seed"].includes(law.status)).length;
+  progress.pendingLaws = progress.laws.filter((law) => law.status === "pending").length;
+}
+
+async function writeRefreshProgress(progressPath, progress, options = {}) {
+  if (!progressPath || !progress) {
+    return;
+  }
+  if (options.verbose) {
+    options.logger?.info(`Writing refresh progress to ${path.relative(ROOT, progressPath)}`);
+  }
+  await mkdir(path.dirname(progressPath), { recursive: true });
+  await writeDataFile(progressPath, progress);
+}
+
+function annotateRefreshMetadata(law, metadata) {
+  Object.defineProperty(law, "__refreshMetadata", {
+    configurable: true,
+    enumerable: false,
+    value: metadata
+  });
+  return law;
 }
 
 function runtimeBudgetExhausted(startedAt, maxRuntimeMs) {

@@ -5,8 +5,9 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import assert from "node:assert/strict";
 import test from "node:test";
+import http from "node:http";
 
-import { readDataFile } from "../scripts/lib/lino.mjs";
+import { readDataFile, writeDataFile } from "../scripts/lib/lino.mjs";
 
 const execFileAsync = promisify(execFile);
 
@@ -67,34 +68,27 @@ test("fetch site build reuses fresh cached law data instead of redownloading", a
       )}\n`
     );
     await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-08", sources: [] })}\n`);
-    await writeFile(
-      path.join(cacheDir, "cached-act.json"),
-      `${JSON.stringify(
-        {
-          fetchedAt: "2099-01-01T00:00:00.000Z",
-          sourceUrl: missingSourceUrl,
-          completeFetch: true,
-          law: {
-            slug: "cached-act",
-            title: "Cached Act",
-            sourceUrl: missingSourceUrl,
-            sources: { en: [{ kind: "html", url: missingSourceUrl }] },
-            sections: [
-              {
-                sectionId: "1",
-                sectionNo: "1",
-                orderNo: 1,
-                title: "Cached section",
-                content: "Cached body from a previous refresh.",
-                footnotes: ""
-              }
-            ]
+    await writeDataFile(path.join(cacheDir, "cached-act.lino"), {
+      fetchedAt: "2099-01-01T00:00:00.000Z",
+      sourceUrl: missingSourceUrl,
+      completeFetch: true,
+      law: {
+        slug: "cached-act",
+        title: "Cached Act",
+        sourceUrl: missingSourceUrl,
+        sources: { en: [{ kind: "html", url: missingSourceUrl }] },
+        sections: [
+          {
+            sectionId: "1",
+            sectionNo: "1",
+            orderNo: 1,
+            title: "Cached section",
+            content: "Cached body from a previous refresh.",
+            footnotes: ""
           }
-        },
-        null,
-        2
-      )}\n`
-    );
+        ]
+      }
+    });
 
     await execFileAsync("node", [
       "scripts/build-site.mjs",
@@ -115,7 +109,93 @@ test("fetch site build reuses fresh cached law data instead of redownloading", a
 
     const markdown = await readFile(path.join(output, "laws/en/cached-act/part-001.md"), "utf8");
     assert.match(markdown, /Cached body from a previous refresh/);
+    await assert.rejects(readFile(path.join(cacheDir, "cached-act.json"), "utf8"));
   } finally {
+    await rm(workspace, { recursive: true, force: true });
+  }
+});
+
+test("fetch site build writes completed law cache and progress as Lino", async () => {
+  const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-lino-cache-"));
+  const output = path.join(workspace, "site");
+  const cacheDir = path.join(workspace, "cache");
+  const progressFile = path.join(workspace, "refresh-status.lino");
+  const manifest = path.join(workspace, "manifest.json");
+  const regionalSources = path.join(workspace, "regional-sources.json");
+  const server = http.createServer((_request, response) => {
+    response.writeHead(200, { "content-type": "text/html" });
+    response.end(`
+      <html>
+        <body>
+          <table>
+            <tr><td class="metadataFieldLabel">Short Title:&nbsp;</td><td class="metadataFieldValue">Live Cache Act</td></tr>
+            <tr><td class="metadataFieldLabel">Act Number:&nbsp;</td><td class="metadataFieldValue">1</td></tr>
+            <tr><td class="metadataFieldLabel">Act Year:&nbsp;</td><td class="metadataFieldValue">2026</td></tr>
+          </table>
+        </body>
+      </html>
+    `);
+  });
+
+  try {
+    await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+    const { port } = server.address();
+    const sourceUrl = `http://127.0.0.1:${port}/live-cache-act`;
+    await mkdir(cacheDir, { recursive: true });
+    await writeFile(
+      manifest,
+      `${JSON.stringify(
+        {
+          generatedFrom: [sourceUrl],
+          lastVerified: "2026-05-09",
+          laws: [
+            {
+              slug: "live-cache-act",
+              title: "Live Cache Act",
+              sourceUrl,
+              sources: { en: [{ kind: "html", url: sourceUrl }] },
+              sections: []
+            }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-09", sources: [] })}\n`);
+
+    await execFileAsync("node", [
+      "scripts/build-site.mjs",
+      "--fetch",
+      "--manifest",
+      manifest,
+      "--regional-sources",
+      regionalSources,
+      "--cache-dir",
+      cacheDir,
+      "--progress-file",
+      progressFile,
+      "--output",
+      output,
+      "--delay-ms",
+      "0"
+    ]);
+
+    const cachePath = path.join(cacheDir, "live-cache-act.lino");
+    const cacheNotation = await readFile(cachePath, "utf8");
+    const cache = await readDataFile(cachePath);
+    const progress = await readDataFile(progressFile);
+    assert.match(cacheNotation, /^obj_root:\n  object\n/);
+    assert.equal(cache.completeFetch, true);
+    assert.equal(cache.law.slug, "live-cache-act");
+    assert.equal(progress.status, "complete");
+    assert.equal(progress.completedLaws, 1);
+    assert.equal(progress.pendingLaws, 0);
+    assert.equal(progress.laws[0].status, "fetched");
+    assert.equal(progress.laws[0].cacheFile.endsWith("live-cache-act.lino"), true);
+    await assert.rejects(readFile(path.join(cacheDir, "live-cache-act.json"), "utf8"));
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
     await rm(workspace, { recursive: true, force: true });
   }
 });
@@ -124,6 +204,7 @@ test("fetch site build writes partial output when the runtime budget is exhauste
   const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-checkpoint-"));
   const output = path.join(workspace, "site");
   const cacheDir = path.join(workspace, "cache");
+  const progressFile = path.join(workspace, "refresh-status.lino");
   const manifest = path.join(workspace, "manifest.json");
   const regionalSources = path.join(workspace, "regional-sources.json");
 
@@ -161,6 +242,8 @@ test("fetch site build writes partial output when the runtime budget is exhauste
         regionalSources,
         "--cache-dir",
         cacheDir,
+        "--progress-file",
+        progressFile,
         "--max-runtime-ms",
         "0",
         "--output",
@@ -176,8 +259,13 @@ test("fetch site build writes partial output when the runtime budget is exhauste
     );
 
     const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
+    const progress = await readDataFile(progressFile);
     assert.equal(catalog.laws.length, 1);
     assert.equal(catalog.laws[0].languages.en.enabled, false);
+    assert.equal(progress.status, "partial");
+    assert.equal(progress.completedLaws, 0);
+    assert.equal(progress.pendingLaws, 1);
+    assert.equal(progress.laws[0].status, "pending");
   } finally {
     await rm(workspace, { recursive: true, force: true });
   }
