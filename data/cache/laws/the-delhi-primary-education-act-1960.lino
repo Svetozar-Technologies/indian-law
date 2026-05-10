@@ -1,52 +1,44 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T19:55:45.908Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1543`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-08T19:55:45.908Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1543`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-delhi-primary-education-act-1960)
-  (str handle) (str 1543)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Delhi Primary Education Act, 1960`)
-  (str actNumber) (str 39)
-  (str enactmentDate) (str 1960-09-20)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1543`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str actYear) (str 1960)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Home`)
-  (str longTitle) (str `An Act to provide for free and compulsory Primary education for children in the Union territory of Delhi.`)
-  (str enforcementDate) (str 02-10-1960)
-  (str notification) (str `2nd October, 1960, vide notification No. S.O. 2391(E), dated 27th September, 1960, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`)
+  slug the-delhi-primary-education-act-1960
+  handle (1543)
+  collectionHandle 123456789/1362
+  title `The Delhi Primary Education Act, 1960`
+  actNumber (39)
+  enactmentDate 1960-09-20
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1543`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  actYear (1960)
+  ministry `Ministry of Home Affairs`
+  department `Department of Home`
+  longTitle `An Act to provide for free and compulsory Primary education for children in the Union territory of Delhi.`
+  enforcementDate 02-10-1960
+  notification `2nd October, 1960, vide notification No. S.O. 2391(E), dated 27th September, 1960, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_delhi_primary_education_act_1960
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1543`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1543`
 obj_root_law_sources_en_the_delhi_primary_education_act_1960:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1543/1/196039.pdf`)
-  (str title) (str `The Delhi Primary Education Act, 1960`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1543/1/196039.pdf`
+  title `The Delhi Primary Education Act, 1960`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -74,512 +66,642 @@ obj_root_law_sections:
   obj_root_law_sections_25
   obj_root_law_sections_26
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 24067)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Delhi Primary Education
-Act, 1960.
-
-(2) It extends to the Union territory of Delhi.
-
-(3) It shall come into force on such date ^1
-as the State Government may, by notification in the Official
-Gazette, appoint.`)
-  (str footnotes) (str `1. 2nd October, 1960, vide notification No. S.O. 2391(E), dated 27th September, 1960, see Gazette of India, Extraordinary,
-Part II, sec. 3(ii).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24067&sectionno=1&orderno=1&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24067)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24067&sectionno=1&orderno=1&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Delhi Primary Education`
+  line `Act, 1960.`
+  line
+  line `(2) It extends to the Union territory of Delhi.`
+  line
+  line `(3) It shall come into force on such date ^1`
+  line `as the State Government may, by notification in the Official`
+  line `Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 2nd October, 1960, vide notification No. S.O. 2391(E), dated 27th September, 1960, see Gazette of India, Extraordinary,`
+  line `Part II, sec. 3(ii).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 24068)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,—
-
-(a) "academic year" means the year beginning on such date as a local authority may specify with
-respect to any specified area or with respect to approved schools generally or any approved school or
-class of approved schools in particular within its jurisdiction;
-
-(b) "approved school" means any school in any specified area within the jurisdiction of a local
-authority imparting primary education which—
-
-(i) is under the management of the State Government or the local authority, or
-
-(ii) being under any other management, is recognised by the local authority as an approved
-school for the purposes of this Act;
-
-(c) "attendance authority" means any person appointed to be an attendance authority under
-section 7;
-
-(d) "to attend an approved school" means to be present for instruction at an approved school on
-so many days in a year and at such time or times on each one of those days as may be fixed by the
-local authority concerned;
-
-(e) "child" means a boy or girl within such age group, not being less than six or more than
-fourteen, as may be specified in a declaration made under section 4;
-
-(f) "local authority" means the Municipal Corporation of Delhi, the New Delhi Municipal
-Committee and the Delhi Cantonment Board;
-
-(g) "parent", in relation to any child, includes a guardian and every person who has the actual
-custody of the child;
-
-(h) "prescribed" means prescribed by rules made under this Act;
-
-(i) "primary education" means education up to such class or standard, not beyond the eighth class
-or standard, as may be prescribed;
-
-(j) "rural areas" shall have the meaning assigned to it in section 2 of the Delhi Municipal
-Corporation Act, 1957 (66 of 1957);
-
-(k) "special school" means any institution which imparts such primary education as is in the
-opinion of the State Government suitable for children suffering from any physical or mental defect;
-
-(l) "specified area" means any area within the jurisdiction of a local authority in which primary
-education is declared by that authority to be compulsory under section 4.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24068&sectionno=2&orderno=2&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24068)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24068&sectionno=2&orderno=2&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,—`
+  line
+  line `(a) "academic year" means the year beginning on such date as a local authority may specify with`
+  line `respect to any specified area or with respect to approved schools generally or any approved school or`
+  line `class of approved schools in particular within its jurisdiction;`
+  line
+  line `(b) "approved school" means any school in any specified area within the jurisdiction of a local`
+  line `authority imparting primary education which—`
+  line
+  line `(i) is under the management of the State Government or the local authority, or`
+  line
+  line `(ii) being under any other management, is recognised by the local authority as an approved`
+  line `school for the purposes of this Act;`
+  line
+  line `(c) "attendance authority" means any person appointed to be an attendance authority under`
+  line `section 7;`
+  line
+  line `(d) "to attend an approved school" means to be present for instruction at an approved school on`
+  line `so many days in a year and at such time or times on each one of those days as may be fixed by the`
+  line `local authority concerned;`
+  line
+  line `(e) "child" means a boy or girl within such age group, not being less than six or more than`
+  line `fourteen, as may be specified in a declaration made under section 4;`
+  line
+  line `(f) "local authority" means the Municipal Corporation of Delhi, the New Delhi Municipal`
+  line `Committee and the Delhi Cantonment Board;`
+  line
+  line `(g) "parent", in relation to any child, includes a guardian and every person who has the actual`
+  line `custody of the child;`
+  line
+  line `(h) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(i) "primary education" means education up to such class or standard, not beyond the eighth class`
+  line `or standard, as may be prescribed;`
+  line
+  line `(j) "rural areas" shall have the meaning assigned to it in section 2 of the Delhi Municipal`
+  line `Corporation Act, 1957 (66 of 1957);`
+  line
+  line `(k) "special school" means any institution which imparts such primary education as is in the`
+  line `opinion of the State Government suitable for children suffering from any physical or mental defect;`
+  line
+  line `(l) "specified area" means any area within the jurisdiction of a local authority in which primary`
+  line `education is declared by that authority to be compulsory under section 4.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 24069)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Schemes for primary education.`)
-  (str content) (str `(1) It shall be the duty of every local authority to provide for
-compulsory primary education for children ordinarily resident within its jurisdiction, and for this purpose
-it shall, from time to time, submit to the State Government such proposals in the form of a scheme as it
-may think fit providing for such compulsory primary education in the whole or any part of the area within
-its jurisdiction for children of such ages and up to such class or standard as it may decide.
-
-(2) Notwithstanding anything contained in sub-section (1), the State Government may, at any time,
-call upon a local authority to submit to it within such time as may be specified a scheme for compulsory
-primary education in such area within the jurisdiction of the local authority for children ordinarily
-resident therein, and of such ages and up to such class or standard, as the State Government may specify.
-
-(3) The scheme submitted under sub-section (1) or sub-section (2) shall be in such form as the State
-Government may specify and shall contain the following particulars,—
-
-(a) the area in which primary education shall be compulsory;
-
-(b) the approximate number of children to whom the scheme will apply, classified according to
-age and mother-tongue;
-
-(c) a list of existing approved schools and the schools, if any, proposed to be opened for the
-purpose, classified by languages in which instruction is given or is proposed to be given;
-
-(d) the number of teachers already employed and the additional staff proposed to be recruited;
-
-(e) the recurring and non-recurring cost of the scheme; and
-
-(f) such other particulars as may be prescribed.
-
-(4) The State Government may, after making such inquiry as it may consider necessary, sanction with
-or without modifications the scheme submitted by the local authority under sub-section (1) or sub-section
-(2).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24069&sectionno=3&orderno=3&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24069)
+  sectionNo (3)
+  orderNo 3
+  title `Schemes for primary education.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24069&sectionno=3&orderno=3&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_3_content:
+  string
+  line `(1) It shall be the duty of every local authority to provide for`
+  line `compulsory primary education for children ordinarily resident within its jurisdiction, and for this purpose`
+  line `it shall, from time to time, submit to the State Government such proposals in the form of a scheme as it`
+  line `may think fit providing for such compulsory primary education in the whole or any part of the area within`
+  line `its jurisdiction for children of such ages and up to such class or standard as it may decide.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), the State Government may, at any time,`
+  line `call upon a local authority to submit to it within such time as may be specified a scheme for compulsory`
+  line `primary education in such area within the jurisdiction of the local authority for children ordinarily`
+  line `resident therein, and of such ages and up to such class or standard, as the State Government may specify.`
+  line
+  line `(3) The scheme submitted under sub-section (1) or sub-section (2) shall be in such form as the State`
+  line `Government may specify and shall contain the following particulars,—`
+  line
+  line `(a) the area in which primary education shall be compulsory;`
+  line
+  line `(b) the approximate number of children to whom the scheme will apply, classified according to`
+  line `age and mother-tongue;`
+  line
+  line `(c) a list of existing approved schools and the schools, if any, proposed to be opened for the`
+  line `purpose, classified by languages in which instruction is given or is proposed to be given;`
+  line
+  line `(d) the number of teachers already employed and the additional staff proposed to be recruited;`
+  line
+  line `(e) the recurring and non-recurring cost of the scheme; and`
+  line
+  line `(f) such other particulars as may be prescribed.`
+  line
+  line `(4) The State Government may, after making such inquiry as it may consider necessary, sanction with`
+  line `or without modifications the scheme submitted by the local authority under sub-section (1) or sub-section`
+  line `(2).`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 24070)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Primary education to be compulsory in areas covered by schemes.`)
-  (str content) (str `(1) On receipt of sanction
-under sub-section (4) of section 3, the local authority shall give effect to the scheme so sanctioned by
-means of a declaration that with effect from the first day of the next academic year primary education
-shall be compulsory in any area specified in the declaration for children ordinarily resident in that area
-and within such age group and up to such class or standard as may be specified in the declaration.
-
-(2) Every declaration under sub-section (1) shall—
-
-(a) be published in the Official Gazette and in such other manner as the local authority may
-decide;
-
-(b) be so made as to ensure that there is an interval of not less than one hundred and twenty days
-between the date of the publication of the declaration and the first day of the next academic year.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24070&sectionno=4&orderno=4&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24070)
+  sectionNo (4)
+  orderNo 4
+  title `Primary education to be compulsory in areas covered by schemes.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24070&sectionno=4&orderno=4&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_4_content:
+  string
+  line `(1) On receipt of sanction`
+  line `under sub-section (4) of section 3, the local authority shall give effect to the scheme so sanctioned by`
+  line `means of a declaration that with effect from the first day of the next academic year primary education`
+  line `shall be compulsory in any area specified in the declaration for children ordinarily resident in that area`
+  line `and within such age group and up to such class or standard as may be specified in the declaration.`
+  line
+  line `(2) Every declaration under sub-section (1) shall—`
+  line
+  line `(a) be published in the Official Gazette and in such other manner as the local authority may`
+  line decide;
+  line
+  line `(b) be so made as to ensure that there is an interval of not less than one hundred and twenty days`
+  line `between the date of the publication of the declaration and the first day of the next academic year.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 24071)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str Grants-in-aid.)
-  (str content) (str `The State Government shall, in respect of every scheme sanctioned under
-sub-section (4) of section 3 or prepared under sub-section (1) of section 17, bear such part of the recurring
-and non-recurring cost of the scheme as it may from time to time determine.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24071&sectionno=5&orderno=5&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24071)
+  sectionNo (5)
+  orderNo 5
+  title Grants-in-aid.
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24071&sectionno=5&orderno=5&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_5_content:
+  string
+  line `The State Government shall, in respect of every scheme sanctioned under`
+  line `sub-section (4) of section 3 or prepared under sub-section (1) of section 17, bear such part of the recurring`
+  line `and non-recurring cost of the scheme as it may from time to time determine.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 24072)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Duty of local authority to prepare lists of children.`)
-  (str content) (str `It shall be the duty of the local authority to
-cause to be prepared as early as possible after the publication of a declaration under section 4, and in such
-manner as may be prescribed, a list of children in any specified area; and the local authority shall cause
-the list to be revised at such intervals as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24072&sectionno=6&orderno=6&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24072)
+  sectionNo (6)
+  orderNo 6
+  title `Duty of local authority to prepare lists of children.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24072&sectionno=6&orderno=6&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_6_content:
+  string
+  line `It shall be the duty of the local authority to`
+  line `cause to be prepared as early as possible after the publication of a declaration under section 4, and in such`
+  line `manner as may be prescribed, a list of children in any specified area; and the local authority shall cause`
+  line `the list to be revised at such intervals as may be prescribed.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 24073)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Attendance authorities.`)
-  (str content) (str `(1) The local authority may appoint as many persons as it thinks fit to
-be attendance authorities for the purposes of this Act, and may also appoint as many persons as it
-considers necessary to assist the attendance authorities in the discharge of their duties.
-
-(2) In the exercise of any of the powers conferred by or under this Act, the attendance authority or
-any person appointed to assist the attendance authority may put such questions to any parent or require
-any parent to furnish such information, about his child as it or he considers necessary, and every such
-parent shall be bound to answer such questions or to furnish such information, as the case may be, to the
-best of his knowledge or belief.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24073&sectionno=7&orderno=7&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24073)
+  sectionNo (7)
+  orderNo 7
+  title `Attendance authorities.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24073&sectionno=7&orderno=7&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_7_content:
+  string
+  line `(1) The local authority may appoint as many persons as it thinks fit to`
+  line `be attendance authorities for the purposes of this Act, and may also appoint as many persons as it`
+  line `considers necessary to assist the attendance authorities in the discharge of their duties.`
+  line
+  line `(2) In the exercise of any of the powers conferred by or under this Act, the attendance authority or`
+  line `any person appointed to assist the attendance authority may put such questions to any parent or require`
+  line `any parent to furnish such information, about his child as it or he considers necessary, and every such`
+  line `parent shall be bound to answer such questions or to furnish such information, as the case may be, to the`
+  line `best of his knowledge or belief.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 24074)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Attendance authority to notify parent of his obligation towards his child.`)
-  (str content) (str `It shall be the duty
-of the attendance authority to notify the parent of every child to whom the declaration under section 4
-applies that he is under an obligation to cause the child to attend an approved school with effect from the
-beginning of the next academic year.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24074&sectionno=8&orderno=8&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24074)
+  sectionNo (8)
+  orderNo 8
+  title `Attendance authority to notify parent of his obligation towards his child.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24074&sectionno=8&orderno=8&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_8_content:
+  string
+  line `It shall be the duty`
+  line `of the attendance authority to notify the parent of every child to whom the declaration under section 4`
+  line `applies that he is under an obligation to cause the child to attend an approved school with effect from the`
+  line `beginning of the next academic year.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 24075)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Responsibility of parent to cause his child to attend school.`)
-  (str content) (str `It shall be the duty of the parent
-of every child to cause the child to attend an approved school unless there be a reasonable excuse for his
-non-attendance within the meaning of section 10.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24075&sectionno=9&orderno=9&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24075)
+  sectionNo (9)
+  orderNo 9
+  title `Responsibility of parent to cause his child to attend school.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24075&sectionno=9&orderno=9&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_9_content:
+  string
+  line `It shall be the duty of the parent`
+  line `of every child to cause the child to attend an approved school unless there be a reasonable excuse for his`
+  line `non-attendance within the meaning of section 10.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 24076)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Reasonable excuse for non-attendance.`)
-  (str content) (str `For the purposes of this Act, any of the following
-circumstances shall be deemed to be a reasonable excuse for the non-attendance of a child at an approved
-school,—
-
-(a) that there is no approved school within the prescribed distance from his residence;
-
-(b) that the child is receiving instruction in some other manner which is declared to be
-satisfactory by the State Government or by an officer authorised by it in this behalf;
-
-(c) that the child has already completed primary education up to the class or standard specified in
-the declaration under section 4;
-
-(d) that the child suffers from a physical or mental defect which prevents him from attendance;
-
-(e) that there is any other compelling circumstance which prevents the child from attending
-school, provided the same is certified as such by the attendance authority;
-
-(f) such other circumstance as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24076&sectionno=10&orderno=10&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24076)
+  sectionNo (10)
+  orderNo 10
+  title `Reasonable excuse for non-attendance.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24076&sectionno=10&orderno=10&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_10_content:
+  string
+  line `For the purposes of this Act, any of the following`
+  line `circumstances shall be deemed to be a reasonable excuse for the non-attendance of a child at an approved`
+  line school,—
+  line
+  line `(a) that there is no approved school within the prescribed distance from his residence;`
+  line
+  line `(b) that the child is receiving instruction in some other manner which is declared to be`
+  line `satisfactory by the State Government or by an officer authorised by it in this behalf;`
+  line
+  line `(c) that the child has already completed primary education up to the class or standard specified in`
+  line `the declaration under section 4;`
+  line
+  line `(d) that the child suffers from a physical or mental defect which prevents him from attendance;`
+  line
+  line `(e) that there is any other compelling circumstance which prevents the child from attending`
+  line `school, provided the same is certified as such by the attendance authority;`
+  line
+  line `(f) such other circumstance as may be prescribed.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 24077)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Special schools for physically or mentally deficient children.`)
-  (str content) (str `If there is in existence a special
-school within the prescribed distance from the residence of a child who is suffering from a physical or
-mental defect, the attendance authority may, if it is satisfied that the child is not receiving any instruction
-in some other manner considered by it to be satisfactory, by order require the child to attend the special
-school; and it shall be the duty of the parent of such child to cause the child to attend the special school
-unless there be a reasonable excuse for the non-attendance of the child within the meaning of clause (e) of
-section 10.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24077&sectionno=11&orderno=11&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24077)
+  sectionNo (11)
+  orderNo 11
+  title `Special schools for physically or mentally deficient children.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24077&sectionno=11&orderno=11&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_11_content:
+  string
+  line `If there is in existence a special`
+  line `school within the prescribed distance from the residence of a child who is suffering from a physical or`
+  line `mental defect, the attendance authority may, if it is satisfied that the child is not receiving any instruction`
+  line `in some other manner considered by it to be satisfactory, by order require the child to attend the special`
+  line `school; and it shall be the duty of the parent of such child to cause the child to attend the special school`
+  line `unless there be a reasonable excuse for the non-attendance of the child within the meaning of clause (e) of`
+  line `section 10.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 24078)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Special provision for part-time education in certain cases.`)
-  (str content) (str `(1) If the attendance authority is
-satisfied that a child, due to economic or other circumstances connected with the family to which the
-child belongs, is unable to attend an approved school in the manner required by or under this Act, it may,
-by order and subject to such conditions, if any, as it may think fit to impose, permit the child to attend any
-approved school established as a part-time institution or in which primary education is imparted on a
-part-time basis.
-
-(2) Any parent who causes a child in respect of whom an order under sub-section (1) has been made
-to attend an approved school in the manner specified in the order shall be deemed to have complied with
-the provisions of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24078&sectionno=12&orderno=12&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24078)
+  sectionNo (12)
+  orderNo 12
+  title `Special provision for part-time education in certain cases.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24078&sectionno=12&orderno=12&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_12_content:
+  string
+  line `(1) If the attendance authority is`
+  line `satisfied that a child, due to economic or other circumstances connected with the family to which the`
+  line `child belongs, is unable to attend an approved school in the manner required by or under this Act, it may,`
+  line `by order and subject to such conditions, if any, as it may think fit to impose, permit the child to attend any`
+  line `approved school established as a part-time institution or in which primary education is imparted on a`
+  line `part-time basis.`
+  line
+  line `(2) Any parent who causes a child in respect of whom an order under sub-section (1) has been made`
+  line `to attend an approved school in the manner specified in the order shall be deemed to have complied with`
+  line `the provisions of this Act.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 24079)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Attendance orders.`)
-  (str content) (str `(1) Whenever the attendance authority has reason to believe that the parent
-of a child has failed to cause the child to attend an approved school and that there is no reasonable excuse
-for the non-attendance of the child within the meaning of section 10, it shall hold an inquiry in the
-prescribed manner.
-
-(2) If as a result of the inquiry the attendance authority is satisfied that the child is liable to attend an
-approved school under this Act and that there is no reasonable excuse for his non-attendance within the
-meaning of section 10, it shall pass an attendance order in the prescribed form directing the parent to
-cause the child to attend the-approved school with effect from the date specified in the order.
-
-(3) An attendance order passed against a parent in respect of his child under this section shall, subject
-to the provisions of sub-section (6), remain in force for so long as this Act continues to apply to the child.
-
-(4) If any parent against whom an attendance order has been passed in respect of his child under
-sub-section (2) transfers the custody of the child to another person during the period in which the
-attendance order is in force, such parent shall be bound to immediately inform the attendance authority in
-writing of such transfer.
-
-(5) Where an attendance order has been passed against a parent in respect of his child under this
-section, such order shall have effect in relation to every other person to whom the custody of the child
-may be transferred during the period in which the attendance order is in force as it has effect in relation to
-the person against whom it is passed.
-
-(6) A parent may at any time apply to the attendance authority for cancellation of an attendance order
-on the ground—
-
-(i) that he is no longer the parent in respect of the child; or
-
-(ii) that circumstances have arisen which provide a reasonable excuse for non-attendance;
-
-and thereupon the attendance authority may, after holding an inquiry in the prescribed manner, cancel or
-modify the attendance order.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24079&sectionno=13&orderno=13&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24079)
+  sectionNo (13)
+  orderNo 13
+  title `Attendance orders.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24079&sectionno=13&orderno=13&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_13_content:
+  string
+  line `(1) Whenever the attendance authority has reason to believe that the parent`
+  line `of a child has failed to cause the child to attend an approved school and that there is no reasonable excuse`
+  line `for the non-attendance of the child within the meaning of section 10, it shall hold an inquiry in the`
+  line `prescribed manner.`
+  line
+  line `(2) If as a result of the inquiry the attendance authority is satisfied that the child is liable to attend an`
+  line `approved school under this Act and that there is no reasonable excuse for his non-attendance within the`
+  line `meaning of section 10, it shall pass an attendance order in the prescribed form directing the parent to`
+  line `cause the child to attend the-approved school with effect from the date specified in the order.`
+  line
+  line `(3) An attendance order passed against a parent in respect of his child under this section shall, subject`
+  line `to the provisions of sub-section (6), remain in force for so long as this Act continues to apply to the child.`
+  line
+  line `(4) If any parent against whom an attendance order has been passed in respect of his child under`
+  line `sub-section (2) transfers the custody of the child to another person during the period in which the`
+  line `attendance order is in force, such parent shall be bound to immediately inform the attendance authority in`
+  line `writing of such transfer.`
+  line
+  line `(5) Where an attendance order has been passed against a parent in respect of his child under this`
+  line `section, such order shall have effect in relation to every other person to whom the custody of the child`
+  line `may be transferred during the period in which the attendance order is in force as it has effect in relation to`
+  line `the person against whom it is passed.`
+  line
+  line `(6) A parent may at any time apply to the attendance authority for cancellation of an attendance order`
+  line `on the ground—`
+  line
+  line `(i) that he is no longer the parent in respect of the child; or`
+  line
+  line `(ii) that circumstances have arisen which provide a reasonable excuse for non-attendance;`
+  line
+  line `and thereupon the attendance authority may, after holding an inquiry in the prescribed manner, cancel or`
+  line `modify the attendance order.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 24080)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Children not to be employed so as to prevent them from attending school.`)
-  (str content) (str `No person shall
-employ a child in a manner which shall prevent the child from attending an approved school.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24080&sectionno=14&orderno=14&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24080)
+  sectionNo (14)
+  orderNo 14
+  title `Children not to be employed so as to prevent them from attending school.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24080&sectionno=14&orderno=14&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_14_content:
+  string
+  line `No person shall`
+  line `employ a child in a manner which shall prevent the child from attending an approved school.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 24081)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Primary education to be free.`)
-  (str content) (str `(1) No fee shall be levied in respect of any child for attending an
-approved school which is under the management of the State Government or a local authority.
-
-(2) Where, in respect of any child an attendance order has been passed under section 13 and the only
-school which he can attend is an approved school under private management falling within sub-clause (ii)
-of clause (b) of section 2, the local authority shall take such steps as it may think fit for the purpose of
-ensuring that the primary education which the child is to receive is free.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24081&sectionno=15&orderno=15&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24081)
+  sectionNo (15)
+  orderNo 15
+  title `Primary education to be free.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24081&sectionno=15&orderno=15&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_15_content:
+  string
+  line `(1) No fee shall be levied in respect of any child for attending an`
+  line `approved school which is under the management of the State Government or a local authority.`
+  line
+  line `(2) Where, in respect of any child an attendance order has been passed under section 13 and the only`
+  line `school which he can attend is an approved school under private management falling within sub-clause (ii)`
+  line `of clause (b) of section 2, the local authority shall take such steps as it may think fit for the purpose of`
+  line `ensuring that the primary education which the child is to receive is free.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 24082)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Age of child how to be computed.`)
-  (str content) (str `The age of a child for the purposes of this Act shall be
-computed in terms of years completed by the child on or before the first day of the academic year:
-
-Provided that where the birthday of a child falls on a day not later than sixty days from the first day of
-the academic year, the birthday shall be deemed to fall on the first day of the academic year for the
-purpose of computing the age of the child.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24082&sectionno=16&orderno=16&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24082)
+  sectionNo (16)
+  orderNo 16
+  title `Age of child how to be computed.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24082&sectionno=16&orderno=16&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_16_content:
+  string
+  line `The age of a child for the purposes of this Act shall be`
+  line `computed in terms of years completed by the child on or before the first day of the academic year:`
+  line
+  line `Provided that where the birthday of a child falls on a day not later than sixty days from the first day of`
+  line `the academic year, the birthday shall be deemed to fall on the first day of the academic year for the`
+  line `purpose of computing the age of the child.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 24083)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Failure of local authority to prepare or implement scheme.`)
-  (str content) (str `(1) If any local authority when
-called upon to submit a scheme under sub-section (2) of section 3 fails so to do, or, after a scheme has
-been sanctioned under sub-section (4) of section 3 fails to give effect to a scheme as so sanctioned,
-whether wholly or in part, the State Government may, after making such inquiry as it may consider
-necessary and after giving an opportunity to the local authority to be heard in the matter, appoint any
-person to prepare the scheme or to give effect to it, as the case may be, and may direct that such part of
-the expenses as that Government may determine shall be defrayed out of the funds belonging to the local
-authority.
-
-(2) Where any such direction as is referred to in sub-section (1) is issued, any person who has for the
-time being the custody of any moneys on behalf of the local authority, either as a banker or in any other
-capacity, shall, notwithstanding anything contained in any law for the time being in force, be bound to
-comply with such direction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24083&sectionno=17&orderno=17&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24083)
+  sectionNo (17)
+  orderNo 17
+  title `Failure of local authority to prepare or implement scheme.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24083&sectionno=17&orderno=17&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_17_content:
+  string
+  line `(1) If any local authority when`
+  line `called upon to submit a scheme under sub-section (2) of section 3 fails so to do, or, after a scheme has`
+  line `been sanctioned under sub-section (4) of section 3 fails to give effect to a scheme as so sanctioned,`
+  line `whether wholly or in part, the State Government may, after making such inquiry as it may consider`
+  line `necessary and after giving an opportunity to the local authority to be heard in the matter, appoint any`
+  line `person to prepare the scheme or to give effect to it, as the case may be, and may direct that such part of`
+  line `the expenses as that Government may determine shall be defrayed out of the funds belonging to the local`
+  line authority.
+  line
+  line `(2) Where any such direction as is referred to in sub-section (1) is issued, any person who has for the`
+  line `time being the custody of any moneys on behalf of the local authority, either as a banker or in any other`
+  line `capacity, shall, notwithstanding anything contained in any law for the time being in force, be bound to`
+  line `comply with such direction.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 24084)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Penalty for contravention of section 13.`)
-  (str content) (str `(1) If any parent fails to comply with an attendance
-order passed under section 13. he shall be punishable with fine not exceeding two rupees, and, in the case
-of a continuing contravention, with an additional fine not exceeding fifty naye paise for every day during
-which such contravention continues after conviction for the first of such contraventions:
-
-Provided that the amount of fine payable by any one person in respect of any child in any one year
-shall not exceed fifty rupees.
-
-(2) If any person fails to furnish any information as required by sub-section (4) of section 13, he shall
-be punishable with fine which may extend to twenty-five rupees.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24084&sectionno=18&orderno=18&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24084)
+  sectionNo (18)
+  orderNo 18
+  title `Penalty for contravention of section 13.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24084&sectionno=18&orderno=18&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_18_content:
+  string
+  line `(1) If any parent fails to comply with an attendance`
+  line `order passed under section 13. he shall be punishable with fine not exceeding two rupees, and, in the case`
+  line `of a continuing contravention, with an additional fine not exceeding fifty naye paise for every day during`
+  line `which such contravention continues after conviction for the first of such contraventions:`
+  line
+  line `Provided that the amount of fine payable by any one person in respect of any child in any one year`
+  line `shall not exceed fifty rupees.`
+  line
+  line `(2) If any person fails to furnish any information as required by sub-section (4) of section 13, he shall`
+  line `be punishable with fine which may extend to twenty-five rupees.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 24085)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Penalty for contravention of section 14.`)
-  (str content) (str `If any person contravenes the provisions of
-section 14, he shall be punishable with fine which may extend to twenty-five rupees and, in the case of a
-continuing contravention, with an additional fine not exceeding one rupee for every day during which
-such contravention continues after conviction for the first of such contraventions.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24085&sectionno=19&orderno=19&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24085)
+  sectionNo (19)
+  orderNo 19
+  title `Penalty for contravention of section 14.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24085&sectionno=19&orderno=19&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_19_content:
+  string
+  line `If any person contravenes the provisions of`
+  line `section 14, he shall be punishable with fine which may extend to twenty-five rupees and, in the case of a`
+  line `continuing contravention, with an additional fine not exceeding one rupee for every day during which`
+  line `such contravention continues after conviction for the first of such contraventions.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 24086)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Courts competent to try offences.`)
-  (str content) (str `(1) The courts competent to try offences under this Act shall
-be the following,—
-
-(a) in rural areas to which the Delhi Panchayat Raj Act, 1954 (Delhi Act III of 1955) extends, the
-Panchayati Adalat, constituted under section 50 of that Act, within whose jurisdiction the person
-committing the offence resides;
-
-(b) in other areas, the court of a magistrate having jurisdiction.
-
-(2) Any offence triable by the Panchayati Adalat shall be tried in the manner provided for the trial of
-criminal cases by the Delhi Panchayat Raj Act, 1954 (Delhi Act III of 1955), and any offence triable by a
-magistrate shall be tried in a summary way.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24086&sectionno=20&orderno=20&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24086)
+  sectionNo (20)
+  orderNo 20
+  title `Courts competent to try offences.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24086&sectionno=20&orderno=20&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_20_content:
+  string
+  line `(1) The courts competent to try offences under this Act shall`
+  line `be the following,—`
+  line
+  line `(a) in rural areas to which the Delhi Panchayat Raj Act, 1954 (Delhi Act III of 1955) extends, the`
+  line `Panchayati Adalat, constituted under section 50 of that Act, within whose jurisdiction the person`
+  line `committing the offence resides;`
+  line
+  line `(b) in other areas, the court of a magistrate having jurisdiction.`
+  line
+  line `(2) Any offence triable by the Panchayati Adalat shall be tried in the manner provided for the trial of`
+  line `criminal cases by the Delhi Panchayat Raj Act, 1954 (Delhi Act III of 1955), and any offence triable by a`
+  line `magistrate shall be tried in a summary way.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 24087)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Cognizance of offences.`)
-  (str content) (str `No court shall take cognizance of an offence under this Act except on
-the complaint of an attendance authority or any other person authorised in this behalf by the local
-authority by general or special order.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24087&sectionno=21&orderno=21&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24087)
+  sectionNo (21)
+  orderNo 21
+  title `Cognizance of offences.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24087&sectionno=21&orderno=21&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_21_content:
+  string
+  line `No court shall take cognizance of an offence under this Act except on`
+  line `the complaint of an attendance authority or any other person authorised in this behalf by the local`
+  line `authority by general or special order.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 24088)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Certain persons to be public servants.`)
-  (str content) (str `The attendance authority, every person appointed to
-assist the attendance authority under sub-section (1) of section 7 and every person authorised to make
-complaints under section 21 shall be deemed to be public servants within the meaning of section 21 of the
-Indian Penal Code (45 of 1860).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24088&sectionno=22&orderno=22&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24088)
+  sectionNo (22)
+  orderNo 22
+  title `Certain persons to be public servants.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24088&sectionno=22&orderno=22&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_22_content:
+  string
+  line `The attendance authority, every person appointed to`
+  line `assist the attendance authority under sub-section (1) of section 7 and every person authorised to make`
+  line `complaints under section 21 shall be deemed to be public servants within the meaning of section 21 of the`
+  line `Indian Penal Code (45 of 1860).`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 24089)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `No suit, prosecution or other legal proceeding shall
-lie against the Government or any authority or person in respect of anything which is in good faith done
-or intended to be done under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24089&sectionno=23&orderno=23&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24089)
+  sectionNo (23)
+  orderNo 23
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24089&sectionno=23&orderno=23&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_23_content:
+  string
+  line `No suit, prosecution or other legal proceeding shall`
+  line `lie against the Government or any authority or person in respect of anything which is in good faith done`
+  line `or intended to be done under this Act.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 24090)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Delegation of powers.`)
-  (str content) (str `(1) The State Government may, by notification in the Official Gazette
-and subject to such conditions, if any, as may be specified in the notification, authorise any officer or
-authority subordinate to it to exercise all or any of the powers conferred on the State Government by or
-under this Act.
-
-(2) A local authority may, by general or special order and with the previous approval of the State
-Government, authorise any officer or authority subordinate to it to exercise all or any of the powers
-conferred on a local authority by or under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24090&sectionno=24&orderno=24&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24090)
+  sectionNo (24)
+  orderNo 24
+  title `Delegation of powers.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24090&sectionno=24&orderno=24&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_24_content:
+  string
+  line `(1) The State Government may, by notification in the Official Gazette`
+  line `and subject to such conditions, if any, as may be specified in the notification, authorise any officer or`
+  line `authority subordinate to it to exercise all or any of the powers conferred on the State Government by or`
+  line `under this Act.`
+  line
+  line `(2) A local authority may, by general or special order and with the previous approval of the State`
+  line `Government, authorise any officer or authority subordinate to it to exercise all or any of the powers`
+  line `conferred on a local authority by or under this Act.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 24091)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The State Government may, by notification in the Official Gazette
-and subject to the condition of previous publication, make rules to carry out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:—
-
-(a) the class or standard education up to which shall be considered as primary education;
-
-(b) the particulars to be contained in any scheme submitted under this Act, including particulars
-relating to the provision made or to be made in any area for the establishment of special schools or of
-schools imparting primary education on a part-time basis or for the supply of food or refreshments,
-books, writing materials, uniforms or other necessary amenities, to children while attending school;
-
-(c) the manner in which lists of children may be prepared in any specified area under section 6,
-the intervals at which the lists shall be kept revised and persons with whose assistance such lists shall
-be prepared;
-
-(d) the functions to be performed, and the manner in which such functions may be performed, by
-attendance authorities;
-
-(e) the distance beyond which a child may not be compelled to attend an approved school;
-
-(f) the circumstances which may be regarded as reasonable excuses for the non-attendance of a
-child within the meaning of section 10;
-
-(g) the manner in which any inquiry under this Act may be held;
-
-(h) the form in which an attendance order under this Act may be passed;
-
-(i) the registers, statements and other information to be maintained or furnished by approved
-schools for the purposes of this Act;
-
-(j) any other matter which has to be, or may be, prescribed under this Act.
-
-(3) Every rule made under this section shall be laid as soon as may be after it is made before each
-House of Parliament while it is in session for a total period of thirty days which may be comprised in one
-session or in two successive sessions, and if, before the expiry of the session in which it is so laid or the
-session immediately following, both Houses agree in making any modification in the rule or both Houses
-agree that the rule should not be made, the rule shall thereafter have effect only in such modified form or
-be of no effect, as the case may be; so, however, that any such modification or annulment shall be without
-prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24091&sectionno=25&orderno=25&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24091)
+  sectionNo (25)
+  orderNo 25
+  title `Power to make rules.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24091&sectionno=25&orderno=25&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_25_content:
+  string
+  line `(1) The State Government may, by notification in the Official Gazette`
+  line `and subject to the condition of previous publication, make rules to carry out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:—`
+  line
+  line `(a) the class or standard education up to which shall be considered as primary education;`
+  line
+  line `(b) the particulars to be contained in any scheme submitted under this Act, including particulars`
+  line `relating to the provision made or to be made in any area for the establishment of special schools or of`
+  line `schools imparting primary education on a part-time basis or for the supply of food or refreshments,`
+  line `books, writing materials, uniforms or other necessary amenities, to children while attending school;`
+  line
+  line `(c) the manner in which lists of children may be prepared in any specified area under section 6,`
+  line `the intervals at which the lists shall be kept revised and persons with whose assistance such lists shall`
+  line `be prepared;`
+  line
+  line `(d) the functions to be performed, and the manner in which such functions may be performed, by`
+  line `attendance authorities;`
+  line
+  line `(e) the distance beyond which a child may not be compelled to attend an approved school;`
+  line
+  line `(f) the circumstances which may be regarded as reasonable excuses for the non-attendance of a`
+  line `child within the meaning of section 10;`
+  line
+  line `(g) the manner in which any inquiry under this Act may be held;`
+  line
+  line `(h) the form in which an attendance order under this Act may be passed;`
+  line
+  line `(i) the registers, statements and other information to be maintained or furnished by approved`
+  line `schools for the purposes of this Act;`
+  line
+  line `(j) any other matter which has to be, or may be, prescribed under this Act.`
+  line
+  line `(3) Every rule made under this section shall be laid as soon as may be after it is made before each`
+  line `House of Parliament while it is in session for a total period of thirty days which may be comprised in one`
+  line `session or in two successive sessions, and if, before the expiry of the session in which it is so laid or the`
+  line `session immediately following, both Houses agree in making any modification in the rule or both Houses`
+  line `agree that the rule should not be made, the rule shall thereafter have effect only in such modified form or`
+  line `be of no effect, as the case may be; so, however, that any such modification or annulment shall be without`
+  line `prejudice to the validity of anything previously done under that rule.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 24092)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Repeal of Punjab Primary Education Act.`)
-  (str content) (str `On the date on which primary education becomes
-compulsory in any specified area, the Punjab Primary Education Act, 1940 (Punjab Act XVIII of 1940) as
-in force in the Union territory of Delhi shall stand repealed in such area.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24092&sectionno=26&orderno=26&orgactid=AC_CEN_9_9_00003_196039_1517807319675)
+  sectionId (24092)
+  sectionNo (26)
+  orderNo 26
+  title `Repeal of Punjab Primary Education Act.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00003_196039_1517807319675&sectionId=24092&sectionno=26&orderno=26&orgactid=AC_CEN_9_9_00003_196039_1517807319675
+obj_root_law_sections_26_content:
+  string
+  line `On the date on which primary education becomes`
+  line `compulsory in any specified area, the Punjab Primary Education Act, 1940 (Punjab Act XVIII of 1940) as`
+  line `in force in the Union territory of Delhi shall stand repealed in such area.`
+obj_root_law_sections_26_footnotes:
+  string
+  line

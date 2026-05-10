@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:25:09.582Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2373`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 12)
-  (str totalSections) (int 12)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:25:09.582Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2373`
+  completeFetch true
+  maxSections null
+  sectionCount 12
+  totalSections 12
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-maintenance-orders-enforcement-act-1921)
-  (str handle) (str 2373)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Maintenance Orders Enforcement Act, 1921`)
-  (str actNumber) (str 18)
-  (str enactmentDate) (str 1921-10-05)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2373`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `भरणपोषण आदेश प्रवर्तन अधिनियम, 1921`)
-  (str actYear) (str 1921)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Department of Legal Affairs`)
-  (str longTitle) (str `An Act to facilitate the enforcement in India of Maintenance Orders made in reciprocating territories and vice versa.`)
-  (str enforcementDate) (str 05-10-1921)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T16:00:35.231Z`)
-  (str translations) obj_root_law_translations
+  slug the-maintenance-orders-enforcement-act-1921
+  handle (2373)
+  collectionHandle 123456789/1362
+  title `The Maintenance Orders Enforcement Act, 1921`
+  actNumber (18)
+  enactmentDate 1921-10-05
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2373`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `भरणपोषण आदेश प्रवर्तन अधिनियम, 1921`
+  actYear (1921)
+  ministry `Ministry of Law and Justice`
+  department `Department of Legal Affairs`
+  longTitle `An Act to facilitate the enforcement in India of Maintenance Orders made in reciprocating territories and vice versa.`
+  enforcementDate 05-10-1921
+  notification undefined
+  fetchedAt `2026-05-09T16:00:35.231Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_maintenance_orders_enforcement_act_1921
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2373`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2373`
 obj_root_law_sources_en_the_maintenance_orders_enforcement_act_1921:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2373/1/a1921-18.pdf`)
-  (str title) (str `The Maintenance Orders Enforcement Act, 1921`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2373/1/a1921-18.pdf`
+  title `The Maintenance Orders Enforcement Act, 1921`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1921
 obj_root_law_sources_hi_1921:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2373/3/H1921-18.pdf`)
-  (str title) (str `भरणपोषण आदेश प्रवर्तन अधिनियम, 1921`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2373/3/H1921-18.pdf`
+  title `भरणपोषण आदेश प्रवर्तन अधिनियम, 1921`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -74,507 +64,566 @@ obj_root_law_sections:
   obj_root_law_sections_11
   obj_root_law_sections_12
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 42557)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the Maintenance Orders Enforcement Act, 1921.
-
-^1(2) It extends to the whole of India ^2[except the State of Jammu and Kashmir*].]`)
-  (str footnotes) (str `1. Subs., ibid.,for sub-section (2).
-
-2. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "except Part B States".
-
-*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and
-Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42557&sectionno=1&orderno=1&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42557)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42557&sectionno=1&orderno=1&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Maintenance Orders Enforcement Act, 1921.`
+  line
+  line `^1(2) It extends to the whole of India ^2[except the State of Jammu and Kashmir*].]`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Subs., ibid.,for sub-section (2).`
+  line
+  line `2. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "except Part B States".`
+  line
+  line `*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and`
+  line `Kashmir and the Union territory of Ladakh.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 42558)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless there is anything repugnant in the subject or context,--
-
-"Court of summary jurisdiction" means the Court of a Chief Presidency Magistrate or of a District
-Magistrate;
-
-"dependants" means such persons as a person against whom a maintenance order is made is liable to
-maintain according to the law in force in ^1
-[the reciprocating territory] in which the maintenance order is
-made;
-
-^2["India" means the territory of India excluding the State of Jammu and Kashmir*;]
-
-"maintenance order" means a decree or order, other than an order of affiliation, made by a Court in
-the exercise of civil or criminal jurisdiction for the periodical payment of sums of money towards the
-maintenance of the wife or other dependants of the person against whom the order is made;
-
-"prescribed" means prescribed by rules made under this Act;
-
-"proper authority" means the authority appointed by, or under the law of, a reciprocating territory to
-receive and transmit documents to which this Act applies; and
-
-^3["reciprocating territory" means any country or territory outside India in respect of which this Act for
-the time being applies by virtue of a declaration under section 3.]
-^4* * * * *`)
-  (str footnotes) (str `1. Subs. by Act 47 of 1952, s. 3, for "the Part of His Majesty's Dominions".
-
-2. Ins. by Act 3 of 1951, s. 3 and the Schedule.
-
-3. Subs. by Act 47 of 1952, s. 3, for definition of "reciprocating territory".
-
-4. Definition of "States" omitted by Act 3 of 1951, s. 3 and the Schedule. Earlier it was inserted by the A.O. 1950.
-
-*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and
-Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42558&sectionno=2&orderno=2&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42558)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42558&sectionno=2&orderno=2&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless there is anything repugnant in the subject or context,--`
+  line
+  line `"Court of summary jurisdiction" means the Court of a Chief Presidency Magistrate or of a District`
+  line Magistrate;
+  line
+  line `"dependants" means such persons as a person against whom a maintenance order is made is liable to`
+  line `maintain according to the law in force in ^1`
+  line `[the reciprocating territory] in which the maintenance order is`
+  line made;
+  line
+  line `^2["India" means the territory of India excluding the State of Jammu and Kashmir*;]`
+  line
+  line `"maintenance order" means a decree or order, other than an order of affiliation, made by a Court in`
+  line `the exercise of civil or criminal jurisdiction for the periodical payment of sums of money towards the`
+  line `maintenance of the wife or other dependants of the person against whom the order is made;`
+  line
+  line `"prescribed" means prescribed by rules made under this Act;`
+  line
+  line `"proper authority" means the authority appointed by, or under the law of, a reciprocating territory to`
+  line `receive and transmit documents to which this Act applies; and`
+  line
+  line `^3["reciprocating territory" means any country or territory outside India in respect of which this Act for`
+  line `the time being applies by virtue of a declaration under section 3.]`
+  line `^4* * * * *`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. Subs. by Act 47 of 1952, s. 3, for "the Part of His Majesty's Dominions".`
+  line
+  line `2. Ins. by Act 3 of 1951, s. 3 and the Schedule.`
+  line
+  line `3. Subs. by Act 47 of 1952, s. 3, for definition of "reciprocating territory".`
+  line
+  line `4. Definition of "States" omitted by Act 3 of 1951, s. 3 and the Schedule. Earlier it was inserted by the A.O. 1950.`
+  line
+  line `*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and`
+  line `Kashmir and the Union territory of Ladakh.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 42559)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Declaration of reciprocal arrangements.`)
-  (str content) (str `^1[3. Declaration of reciprocal arrangements.—If the Central Government is satisfied that
-legal provision exists in any country or territory outside India for the enforcement within that
-country or territory of maintenance orders made by Courts in India, the Central Government may,
-by notification in the Official Gazette, declare that this Act applies in respect of that country or
-territory and thereupon it shall apply accordingly.]`)
-  (str footnotes) (str `1. Subs. by Act 47 of 1952, s. 4, for section 3.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42559&sectionno=3&orderno=3&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42559)
+  sectionNo (3)
+  orderNo 3
+  title `Declaration of reciprocal arrangements.`
+  content obj_root_law_sections_3_content
+  footnotes `1. Subs. by Act 47 of 1952, s. 4, for section 3.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42559&sectionno=3&orderno=3&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_3_content:
+  string
+  line `^1[3. Declaration of reciprocal arrangements.—If the Central Government is satisfied that`
+  line `legal provision exists in any country or territory outside India for the enforcement within that`
+  line `country or territory of maintenance orders made by Courts in India, the Central Government may,`
+  line `by notification in the Official Gazette, declare that this Act applies in respect of that country or`
+  line `territory and thereupon it shall apply accordingly.]`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 42560)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Registration in India of maintenance orders maintenance orders made in the reciprocating territories.`)
-  (str content) (str `(1)
-Where a maintenance order has, whether before or after the passing of this Act, been made against
-any person by any Court in any reciprocating territory, and a certified copy of the order has been
-transmitted by the proper authority of that territory to the Central Government, the Central
-Government shall send a copy of the order to the prescribed officer of a Court in ^1
-[India] for
-registration, and, on receipt thereof, the order shall be registered in the prescribed manner.
-
-(2) The Court in which an order is to be so registered as aforesaid shall, if the Court by which
-the order was made was, in the opinion of the Central Government, a Court of superior jurisdiction,
-be a High Court, and, if the Court was not, in its opinion, a Court of superior jurisdiction, be a
-Court of summary jurisdiction.`)
-  (str footnotes) (str `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42560&sectionno=4&orderno=4&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42560)
+  sectionNo (4)
+  orderNo 4
+  title `Registration in India of maintenance orders maintenance orders made in the reciprocating territories.`
+  content obj_root_law_sections_4_content
+  footnotes `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42560&sectionno=4&orderno=4&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_4_content:
+  string
+  line `(1)`
+  line `Where a maintenance order has, whether before or after the passing of this Act, been made against`
+  line `any person by any Court in any reciprocating territory, and a certified copy of the order has been`
+  line `transmitted by the proper authority of that territory to the Central Government, the Central`
+  line `Government shall send a copy of the order to the prescribed officer of a Court in ^1`
+  line `[India] for`
+  line `registration, and, on receipt thereof, the order shall be registered in the prescribed manner.`
+  line
+  line `(2) The Court in which an order is to be so registered as aforesaid shall, if the Court by which`
+  line `the order was made was, in the opinion of the Central Government, a Court of superior jurisdiction,`
+  line `be a High Court, and, if the Court was not, in its opinion, a Court of superior jurisdiction, be a`
+  line `Court of summary jurisdiction.`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 42561)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Transmission of maintenance orders made in India.`)
-  (str content) (str `Where a Court in ^1
-[India] has,
-whether before or after the commencement of this Act, made a maintenance order against any
-person, and it is proved to that Court that the person against whom the order was made is resident
-in a reciprocating territory, the Court shall send to the Central Government, for transmission to the
-proper authority of that territory, a certified copy of the order.`)
-  (str footnotes) (str `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42561&sectionno=5&orderno=5&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42561)
+  sectionNo (5)
+  orderNo 5
+  title `Transmission of maintenance orders made in India.`
+  content obj_root_law_sections_5_content
+  footnotes `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42561&sectionno=5&orderno=5&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_5_content:
+  string
+  line `Where a Court in ^1`
+  line `[India] has,`
+  line `whether before or after the commencement of this Act, made a maintenance order against any`
+  line `person, and it is proved to that Court that the person against whom the order was made is resident`
+  line `in a reciprocating territory, the Court shall send to the Central Government, for transmission to the`
+  line `proper authority of that territory, a certified copy of the order.`
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 42562)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Power of summary Courts to make provisional maintenance order against persons resident in reciprocating territories.`)
-  (str content) (str `(1) Where application is made to a Court of summary
-jurisdiction in ^1
-[India] for a maintenance order against any person, and it is proved that that person
-is resident in a reciprocating territory, the Court may, in the absence of that person, if after hearing
-the evidence it is satisfied of the justice of the application, make any such order as it might have
-made if that person had wilfully neglected to attend the Court; but in such case the order shall be
-provisional only and shall have no effect unless and until confirmed by a competent Court in such
-territory.
-
-(2) The evidence of every witness who is examined on any such application shall be reduced to
-writing, and such deposition shall be read over to, and signed by, him.
-
-(3) Where such an order is made, the Court shall send to the Central Government, for
-transmission to the proper authority of the reciprocating territory in which the person against whom
-the order is made is alleged to reside, the depositions so taken and a certified copy of the order
-together with a statement of the grounds on which the making of the order might have been
-opposed if the person against whom the order is made had been duly served with a summons and
-had appeared at the hearing and such information as the Court possesses for facilitating the
-identification of that person and ascertaining his whereabouts.
-
-(4) Where any such provisional order has come before a Court in a reciprocating territory for
-confirmation, and the order has by that Court been remitted to the Court of summary jurisdiction
-which made the order for the purpose of taking further evidence, that Court shall, after giving the
-prescribed notice, proceed to take the evidence in like manner and subject to the like conditions as
-the evidence in support of the original application.
-
-(5) If it appears to the Court hearing such evidence that the order ought not to have been made,
-the Court may rescind the order, but in any other case the depositions shall be sent to the Central
-Government and dealt with in like manner as the original depositions.
-
-(6) The confirmation of an order made under this section shall not affect any power of a Court
-of summary jurisdiction to vary or rescind that order:
-
-Provided that, on the making of a varying or rescinding order, the Court shall send a certified
-copy thereof to the Central Government for transmission to the proper authority of the reciprocating
-territory in which the original order was confirmed, or to which it was sent for confirmation and
-that, in the case of an order varying the original order, the order shall not have any effect unless and
-until confirmed in like manner as the original order.`)
-  (str footnotes) (str `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42562&sectionno=6&orderno=6&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42562)
+  sectionNo (6)
+  orderNo 6
+  title `Power of summary Courts to make provisional maintenance order against persons resident in reciprocating territories.`
+  content obj_root_law_sections_6_content
+  footnotes `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42562&sectionno=6&orderno=6&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_6_content:
+  string
+  line `(1) Where application is made to a Court of summary`
+  line `jurisdiction in ^1`
+  line `[India] for a maintenance order against any person, and it is proved that that person`
+  line `is resident in a reciprocating territory, the Court may, in the absence of that person, if after hearing`
+  line `the evidence it is satisfied of the justice of the application, make any such order as it might have`
+  line `made if that person had wilfully neglected to attend the Court; but in such case the order shall be`
+  line `provisional only and shall have no effect unless and until confirmed by a competent Court in such`
+  line territory.
+  line
+  line `(2) The evidence of every witness who is examined on any such application shall be reduced to`
+  line `writing, and such deposition shall be read over to, and signed by, him.`
+  line
+  line `(3) Where such an order is made, the Court shall send to the Central Government, for`
+  line `transmission to the proper authority of the reciprocating territory in which the person against whom`
+  line `the order is made is alleged to reside, the depositions so taken and a certified copy of the order`
+  line `together with a statement of the grounds on which the making of the order might have been`
+  line `opposed if the person against whom the order is made had been duly served with a summons and`
+  line `had appeared at the hearing and such information as the Court possesses for facilitating the`
+  line `identification of that person and ascertaining his whereabouts.`
+  line
+  line `(4) Where any such provisional order has come before a Court in a reciprocating territory for`
+  line `confirmation, and the order has by that Court been remitted to the Court of summary jurisdiction`
+  line `which made the order for the purpose of taking further evidence, that Court shall, after giving the`
+  line `prescribed notice, proceed to take the evidence in like manner and subject to the like conditions as`
+  line `the evidence in support of the original application.`
+  line
+  line `(5) If it appears to the Court hearing such evidence that the order ought not to have been made,`
+  line `the Court may rescind the order, but in any other case the depositions shall be sent to the Central`
+  line `Government and dealt with in like manner as the original depositions.`
+  line
+  line `(6) The confirmation of an order made under this section shall not affect any power of a Court`
+  line `of summary jurisdiction to vary or rescind that order:`
+  line
+  line `Provided that, on the making of a varying or rescinding order, the Court shall send a certified`
+  line `copy thereof to the Central Government for transmission to the proper authority of the reciprocating`
+  line `territory in which the original order was confirmed, or to which it was sent for confirmation and`
+  line `that, in the case of an order varying the original order, the order shall not have any effect unless and`
+  line `until confirmed in like manner as the original order.`
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 42563)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Powers of Court of summary jurisdiction to confirm maintenance order made out of India.`)
-  (str content) (str `(1) Where a maintenance order has been made by a Court in a reciprocating territory and
-the order is provisional only, and has no effect unless and until confirmed by a Court of summary
-jurisdiction in ^1
-[India], and a certified copy of the order, together with the depositions of the
-witnesses and a statement of the grounds on which the order might have been opposed, has been
-transmitted to the Central Government, and it appears to the Central Government that the person
-against whom the order has been made is resident in ^1
-[India], the Central Government may send the
-said documents to the prescribed officer of a Court of summary jurisdiction, with a requisition that
-a summons be issued calling upon the person to show cause why that order should not be
-confirmed, and, upon receipt of such documents and requisition, the Court shall issue such a
-summons and cause it to be served upon such person.
-
-(2) A summons issued under sub-section (1) shall for all purposes be deemed to be a summons
-issued by the Court in the exercise of its original criminal jurisdiction.
-
-(3) At the hearing it shall be open to the person to whom the summons was issued to raise any
-defence which he might have raised in the original proceedings had he been a party thereto, but no
-other defence, and the certificate from the Court which made the provisional order stating the
-grounds on which the making of the order might have been opposed if the person against whom the
-order was made had been a party to the proceedings shall be conclusive evidence that those grounds
-are grounds on which objection may be taken.
-
-(4) If at the hearing the person served with the summons does not appear or, on appearing, fails
-to satisfy the Court that the order ought not to be confirmed, the Court may, notwithstanding any
-pecuniary limit imposed on its power by any law for the time being in force in ^1
-[India], confirm the
-order either without modification or with such modifications as to the Court after hearing the
-evidence may seem just:
-
-Provided that no sum shall be awarded as maintenance under this section, or shall be
-recoverable as such, at a rate exceeding that proposed in the provisional order.
-
-(5) If the person to whom the summons was issued appears at the hearing and satisfies the
-Court that for the purpose of any defence it is necessary to remit the case to the Court which made
-the provisional order for the taking of any further evidence, the Court may for that purpose send a
-certified copy of the record to the Central Government for transmission to that Court through the
-proper authority of the reciprocating territory, and may adjourn the proceedings.
-
-(6) Where a provisional order has been confirmed under this section, it may be varied for
-rescinded in like manner as if it had originally been made by the confirming Court, and where on an
-application for rescission or variation the Court is satisfied that it is necessary to remit the case to
-the Court which made the provisional order for the purpose of taking any further evidence, the
-Court may for that purpose send a certified copy of the record to the Central Government for
-transmission to that Court through the proper authority of the reciprocating territory, and may
-adjourn the proceedings.`)
-  (str footnotes) (str `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42563&sectionno=7&orderno=7&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42563)
+  sectionNo (7)
+  orderNo 7
+  title `Powers of Court of summary jurisdiction to confirm maintenance order made out of India.`
+  content obj_root_law_sections_7_content
+  footnotes `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42563&sectionno=7&orderno=7&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_7_content:
+  string
+  line `(1) Where a maintenance order has been made by a Court in a reciprocating territory and`
+  line `the order is provisional only, and has no effect unless and until confirmed by a Court of summary`
+  line `jurisdiction in ^1`
+  line `[India], and a certified copy of the order, together with the depositions of the`
+  line `witnesses and a statement of the grounds on which the order might have been opposed, has been`
+  line `transmitted to the Central Government, and it appears to the Central Government that the person`
+  line `against whom the order has been made is resident in ^1`
+  line `[India], the Central Government may send the`
+  line `said documents to the prescribed officer of a Court of summary jurisdiction, with a requisition that`
+  line `a summons be issued calling upon the person to show cause why that order should not be`
+  line `confirmed, and, upon receipt of such documents and requisition, the Court shall issue such a`
+  line `summons and cause it to be served upon such person.`
+  line
+  line `(2) A summons issued under sub-section (1) shall for all purposes be deemed to be a summons`
+  line `issued by the Court in the exercise of its original criminal jurisdiction.`
+  line
+  line `(3) At the hearing it shall be open to the person to whom the summons was issued to raise any`
+  line `defence which he might have raised in the original proceedings had he been a party thereto, but no`
+  line `other defence, and the certificate from the Court which made the provisional order stating the`
+  line `grounds on which the making of the order might have been opposed if the person against whom the`
+  line `order was made had been a party to the proceedings shall be conclusive evidence that those grounds`
+  line `are grounds on which objection may be taken.`
+  line
+  line `(4) If at the hearing the person served with the summons does not appear or, on appearing, fails`
+  line `to satisfy the Court that the order ought not to be confirmed, the Court may, notwithstanding any`
+  line `pecuniary limit imposed on its power by any law for the time being in force in ^1`
+  line `[India], confirm the`
+  line `order either without modification or with such modifications as to the Court after hearing the`
+  line `evidence may seem just:`
+  line
+  line `Provided that no sum shall be awarded as maintenance under this section, or shall be`
+  line `recoverable as such, at a rate exceeding that proposed in the provisional order.`
+  line
+  line `(5) If the person to whom the summons was issued appears at the hearing and satisfies the`
+  line `Court that for the purpose of any defence it is necessary to remit the case to the Court which made`
+  line `the provisional order for the taking of any further evidence, the Court may for that purpose send a`
+  line `certified copy of the record to the Central Government for transmission to that Court through the`
+  line `proper authority of the reciprocating territory, and may adjourn the proceedings.`
+  line
+  line `(6) Where a provisional order has been confirmed under this section, it may be varied for`
+  line `rescinded in like manner as if it had originally been made by the confirming Court, and where on an`
+  line `application for rescission or variation the Court is satisfied that it is necessary to remit the case to`
+  line `the Court which made the provisional order for the purpose of taking any further evidence, the`
+  line `Court may for that purpose send a certified copy of the record to the Central Government for`
+  line `transmission to that Court through the proper authority of the reciprocating territory, and may`
+  line `adjourn the proceedings.`
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 42564)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Enforcement of maintenance orders.`)
-  (str content) (str `(1) Subject to the provisions of this Act, where an
-order has been registered under this Act in a High Court, the order shall, from the date of such
-registration, be of the same force and effect, and all proceedings may be taken thereon as if it had
-been an order originally obtained in the High Court in the exercise of its civil jurisdiction, or in
-such Civil Court subordinate to that High Court as may be named by the High Court in this behalf,
-and that Court shall have power to enforce the order accordingly.
-
-(2) A Court of summary jurisdiction in which an order has been registered under this Act or by
-which an order has been confirmed under this Act, and the officers of such Court, shall have such
-powers and perform such duties, for the purpose of enforcing the order, as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42564&sectionno=8&orderno=8&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42564)
+  sectionNo (8)
+  orderNo 8
+  title `Enforcement of maintenance orders.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42564&sectionno=8&orderno=8&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_8_content:
+  string
+  line `(1) Subject to the provisions of this Act, where an`
+  line `order has been registered under this Act in a High Court, the order shall, from the date of such`
+  line `registration, be of the same force and effect, and all proceedings may be taken thereon as if it had`
+  line `been an order originally obtained in the High Court in the exercise of its civil jurisdiction, or in`
+  line `such Civil Court subordinate to that High Court as may be named by the High Court in this behalf,`
+  line `and that Court shall have power to enforce the order accordingly.`
+  line
+  line `(2) A Court of summary jurisdiction in which an order has been registered under this Act or by`
+  line `which an order has been confirmed under this Act, and the officers of such Court, shall have such`
+  line `powers and perform such duties, for the purpose of enforcing the order, as may be prescribed.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 42565)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Payment of charges for transmission of sums awarded as maintenance and other costs and charges.`)
-  (str content) (str `A Court in registering or confirming an order for maintenance in accordance with
-the provisions of this Act shall direct that the charges for the transmission to the Court, from which
-the order has been received or in which the provisional order has been made, as the case may be, of
-the sum awarded as maintenance shall be borne by the person against whom the order has been so
-made or confirmed, and shall be recovered from him in addition to the sum awarded as maintenance
-and in addition to, and in the same manner as, such other costs and charges as may be awarded or
-levied by the Court.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42565&sectionno=9&orderno=9&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42565)
+  sectionNo (9)
+  orderNo 9
+  title `Payment of charges for transmission of sums awarded as maintenance and other costs and charges.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42565&sectionno=9&orderno=9&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_9_content:
+  string
+  line `A Court in registering or confirming an order for maintenance in accordance with`
+  line `the provisions of this Act shall direct that the charges for the transmission to the Court, from which`
+  line `the order has been received or in which the provisional order has been made, as the case may be, of`
+  line `the sum awarded as maintenance shall be borne by the person against whom the order has been so`
+  line `made or confirmed, and shall be recovered from him in addition to the sum awarded as maintenance`
+  line `and in addition to, and in the same manner as, such other costs and charges as may be awarded or`
+  line `levied by the Court.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 42566)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Proof of documents signed by officers of Court.`)
-  (str content) (str `For the purposes of this Act, any
-document purporting to be signed by a judge or officer of a Court outside ^1
-[India] shall, until the
-contrary is proved, be deemed to have been so signed without proof of the signature of judicial or
-official character of the person appearing to have signed it, and the officerof a Court by whom a
-document is signed shall, until the contrary is provided, be deemed to have been the proper officer
-of the Court to sign the document.`)
-  (str footnotes) (str `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42566&sectionno=10&orderno=10&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42566)
+  sectionNo (10)
+  orderNo 10
+  title `Proof of documents signed by officers of Court.`
+  content obj_root_law_sections_10_content
+  footnotes `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "the States".`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42566&sectionno=10&orderno=10&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_10_content:
+  string
+  line `For the purposes of this Act, any`
+  line `document purporting to be signed by a judge or officer of a Court outside ^1`
+  line `[India] shall, until the`
+  line `contrary is proved, be deemed to have been so signed without proof of the signature of judicial or`
+  line `official character of the person appearing to have signed it, and the officerof a Court by whom a`
+  line `document is signed shall, until the contrary is provided, be deemed to have been the proper officer`
+  line `of the Court to sign the document.`
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 42567)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Depositions to be evidence.`)
-  (str content) (str `Depositions taken in a Court in any reciprocating territory
-may, for the purposes of this Act, be received in evidence in proceedings before Courts of summary
-jurisdiction under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42567&sectionno=11&orderno=11&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42567)
+  sectionNo (11)
+  orderNo 11
+  title `Depositions to be evidence.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42567&sectionno=11&orderno=11&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_11_content:
+  string
+  line `Depositions taken in a Court in any reciprocating territory`
+  line `may, for the purposes of this Act, be received in evidence in proceedings before Courts of summary`
+  line `jurisdiction under this Act.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 42568)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Rule-making power.`)
-  (str content) (str `^1
-[(1)] The Central Government ^2
-[may, by notification in the Official
-Gazette, make rules^3]
-for the purpose of carrying into effect the purposes of this Act, and in
-particular may make rules for the levy of the costs or charges for anything done under this Act and
-for all matters which are directed or permitted to be prescribed.
-
-^4
-[(2) Every rule made by the Central Government under this Act shall be laid, as soon as may
-be after it is made, before each House of Parliament, while it is in session, for a total period of thirty
-days which may be comprised in one session or in two or more successive sessions, and if, before
-the expiry of the session immediately following the session or the successive sessions aforesaid,
-both Houses agree in making any modification in the rule or both Houses agree that the rule should
-not be made, the rule shall thereafter have effect only in such modified form or be of no effect, as
-the case may be; so, however, that any such modification or annulment shall be without prejudice to
-the validity of anything previously done under that rule.]`)
-  (str footnotes) (str `1. Section12, renumbered as sub-section (1) thereof by Act 20 of 1983, s. 2 and the Schedule (w.e.f. 15-3-1984).
-
-2. Subs. by s. 2 and the Schedule, ibid., for "may make rules" (w.e.f. 15-3-1984).
-
-3. For such rules, see Gazette of India, 1923, Pt. I, p. 1263.
-
-4. Ins. by Act 20 of 1983, s. 2 and the Schedule (w.e.f. 15-3-1984).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42568&sectionno=12&orderno=12&orgactid=AC_CEN_3_46_000010_192118_1523344048158)
+  sectionId (42568)
+  sectionNo (12)
+  orderNo 12
+  title `Rule-making power.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_000010_192118_1523344048158&sectionId=42568&sectionno=12&orderno=12&orgactid=AC_CEN_3_46_000010_192118_1523344048158
+obj_root_law_sections_12_content:
+  string
+  line ^1
+  line `[(1)] The Central Government ^2`
+  line `[may, by notification in the Official`
+  line `Gazette, make rules^3]`
+  line `for the purpose of carrying into effect the purposes of this Act, and in`
+  line `particular may make rules for the levy of the costs or charges for anything done under this Act and`
+  line `for all matters which are directed or permitted to be prescribed.`
+  line
+  line ^4
+  line `[(2) Every rule made by the Central Government under this Act shall be laid, as soon as may`
+  line `be after it is made, before each House of Parliament, while it is in session, for a total period of thirty`
+  line `days which may be comprised in one session or in two or more successive sessions, and if, before`
+  line `the expiry of the session immediately following the session or the successive sessions aforesaid,`
+  line `both Houses agree in making any modification in the rule or both Houses agree that the rule should`
+  line `not be made, the rule shall thereafter have effect only in such modified form or be of no effect, as`
+  line `the case may be; so, however, that any such modification or annulment shall be without prejudice to`
+  line `the validity of anything previously done under that rule.]`
+obj_root_law_sections_12_footnotes:
+  string
+  line `1. Section12, renumbered as sub-section (1) thereof by Act 20 of 1983, s. 2 and the Schedule (w.e.f. 15-3-1984).`
+  line
+  line `2. Subs. by s. 2 and the Schedule, ibid., for "may make rules" (w.e.f. 15-3-1984).`
+  line
+  line `3. For such rules, see Gazette of India, 1923, Pt. I, p. 1263.`
+  line
+  line `4. Ins. by Act 20 of 1983, s. 2 and the Schedule (w.e.f. 15-3-1984).`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `भरणपोषण आदेश प्रवर्तन अधिनियम, 1921`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2373/3/H1921-18.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:25:08.480Z`)
-  (str pageCount) (int 4)
-  (str sections) obj_root_law_translations_hi_sections
+  title `भरणपोषण आदेश प्रवर्तन अधिनियम, 1921`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2373/3/H1921-18.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:25:08.480Z`
+  pageCount 4
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
   obj_root_law_translations_hi_sections_4
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `भरण पोषण आदेश प्र वर्तन अधिधनयम, 19 21
-(19 2 1 का अधिधनयम संखयां क 18) 1
-[ 5 अक् र्ू बर, 192 1 ]
-2 [ 3 *** 4 [ व् य धर्कारी राज्य क्षेत्रों ] 5 *** में ककए गए भरणपोषण आदेशों
-के 6 [ भारर् ] में और भारर् में ककए गए ऐसे आदेशों के व्
-य धर्कारी राज्य क्षेत्रों में प्र वर्तन को
-सुकर बना ने के धिए
-अधिधनयम
-यर्: यह समीचीन है कक 2 [ 3 *** 4 [ व् य धर्कारी राज्य क्षेत्रों में ], 5 *** में ककए गए भरणपोषण आदेशों के 6 [ भारर् ] में और भारर्
-में ककए गए ऐसे आदेशों के व् य धर्कारी राज्य क्षेत्रों में प्र वर्तन को सुकर बनाया जाए;
-अर्: एर्द द्व ारा धनम्न धिधिर् रू प में यह अधिधनयधमर् ककया जार्ा है: —
-1. संधक्षप् र् नाम और धवस् र्ा र — (1) इस अधिधनयम का संधक्षप् र् नाम भरणपोषण आदेश प्र वर्तन अधिधनयम, 1921 है।
-7 [(2) इसका धवस् र्ा र 8 [ जम्मू - कश्मी र राज्य के धसवाय * ] सम्पू णत भारर् पर है। ]
-2. पररभाषाएं — इस अधिधनयम में जब र् क कक कोई बार् धवषय या संदभत में धवरुद्ध न हो: —
-“ संधक्षप् र् अधिकाररर्ा का न् या यािय ” से मुखय प्रे धसडेंसी मधजस्रे ट या धजिा मधजस्रे ट का न् या यािय अधभप्रेर् है;
-“ आधिर् ” से ऐसे व् य धक् र् अधभप्रेर् हैं, धजनको वह व् य धक् र् धजसके धवरुद्ध भरणपोषण आदेश कदया गया है; उस
-9 [ व् य धर्कारी राज्य क्षेत्र ] में धजसमें भरणपोषण आदे श कदया गया है प्र वृत्त धवधि के अनुसार भरणपोषण करने के धिए दायी है;
-10 [“ भारर् ” से जम्मू - कश्मी र राज्य के धसवाय भारर् का राज्य क्षेत्र अधभप्रेर् है; ]
-“ भरणपोषण आदेश ” से ककसी न् या यािय द्व ारा धसधवि या दाधड क अधिकाररर्ा के प्र योग में उस व् य धक् र् की धजसके
-धवरुद्ध आदेश कदया गया है पत्नी या अन्य आधिर्ों के भरणपोषण के धिए िनराधशयों के काधिक संदाय के धिए, सम्ब द्ध ककए
-जाने के आदेश से धभन् न, कोई धडक्री या आदेश अधभप्रेर् है;
-“ धवधहर् ” से इस अधिधनयम के अिीन बनाए गए धनयमों द्व ारा धवधहर् अधभप्रेर् है;
-“ उधचर् प्र ाधिकारी ” से ककसी व् य धर्कारी राज्य क्षेत्रों की धजसको यह अधिधनयम िागू होर्ा है, धवधि के अिीन या
-उसके द्व ारा दस् र्ा वेजों को प्र ा प् र् करने और पारेधषर् करने के धिए धनयुक् र् प्र ाधिकारी अधभप्रेर् है; और
-11 [“ व् य धर्कारी राज्य क्षेत्र ” से भारर् से बाहर ऐसा देश या राज्य क्षेत्र अधभप्रेर् है धजसकी बाबर् यह अधिधनयम िारा
-3 के अिीन घोषणा के आिार पर र्त् स मय िागू होर्ा है। ]
-12 * * * * *
-13 [ 3. व् य धर्कारी व् य वस्था की घोषणा — यकद केन्री य सरकार का यह समािान हो जार्ा है कक भारर् के बाहर ककसी देश या
-राज्य क्षेत्र में, उस देश या राज्य क्षेत्र में भारर् के न् या याियों द्व ारा कदए गए भरणपोषण आदेशों के प्र वर्तन के धिए धवधिक उपबन्ि
-धवद्यमान है र् ो, केन्री य सरकार रा ज पत्र में अधिसूचना द्व ारा, यह घोषणा कर सकर्ी है कक यह अधिधनयम उस देश या राज्य क्षेत्र की
-बाबर् िागू होर्ा है और र् ब वह र् दनुसार िागू होगा। ]
-1 यह अधिधनयम 1963 के धवधनयम सं ० 6 की िारा 2 और अनुसूची I द्व ारा (1 - 7 - 1965 से ) दादरा और नागर हवेिी को धवस् र्ा ररर् और प्र वृत्त हु आ। यह अधिधनयम
-1968 के अधिधनयम सं ० 26 की िारा 3 और अनुसूची द्व ारा पांधडचेरी संघ राज्य क्षेत्र पर िागू होने के धिए धवस् र्ा ररर् ककया गया।
-2 धवधि अनुकूिन आदेश, 1950 द्व ारा “ के अन्य भागों में ” के स् था न पर प्र धर्स्था धपर्।
-3 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ भाग ि राज्यों में या ” शब्दों का िोप ककया गया।
-4 1952 के अधिधनयम सं ० 47 की िारा 2 द्व ारा “ धहज मेजेस्टी ज डोधमधनयन एड प्र ोटेक्टो रेट्स ” के स् था न पर प्र धर्स्था धपर्।
-5 धवधि अनुकूिन आदेश, 1950 द्व ारा “ सधम्म धिर् होने वािे राज्य अन्य भारर्ीय राज्यों ” शब्दों का िोप ककया गया।
-6 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ भाग क राज्यों और भाग ग राज्यों ” के स् था न पर प्र धर्स्था धपर्।
-7 धवधि अनुकूिन आदेश, 1950 द्व ारा पूवतवर्ी उपिारा (2) के स् था न पर प्र धर्स्था धपर्।
-8 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ भाग ि राज्यों के धसवाय ” के स् था न पर प्र धर्स्था धपर्।
-* इस अधिधनयम को जम्मू - कश्मीर संघ राज्यक्षेत्र और िद्दाि संघ राज्यक्षेत्र में अधिसूचना सं. सा. का. 3912 (अ), र् ारीि, 30 अक्टूबर, 2019 से िागू ककया गया।
-9 1952 के अधिधनयम सं ० 47 की िारा 3 द्व ारा “ धहज मेजेस्टी ज डोधमधनयन्स के भाग ” के स् था न पर प्र धर्स्था धपर्।
-10 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा अंर्:स्था धपर्।
-11 1952 के अधिधनयम सं ० 47 की िारा 3 द्व ारा पूवतवर्ी पररभाषा के स् था न पर प्र धर्स्था धपर्।
-12 धवधि अनुकूि न आदेश, 1950 द्व ारा अंर्:स्था धपर् “ राज्यों ” की पररभाषा का 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा िोप ककया गया।
-13 1952 के अधिधनयम सं ० 47 की िारा 4 द्व ारा पूवतवर्ी िारा 3 के स् था न पर प्र धर्स्था धपर्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `भरण पोषण आदेश प्र वर्तन अधिधनयम, 19 21`
+  line `(19 2 1 का अधिधनयम संखयां क 18) 1`
+  line `[ 5 अक् र्ू बर, 192 1 ]`
+  line `2 [ 3 *** 4 [ व् य धर्कारी राज्य क्षेत्रों ] 5 *** में ककए गए भरणपोषण आदेशों`
+  line `के 6 [ भारर् ] में और भारर् में ककए गए ऐसे आदेशों के व्`
+  line `य धर्कारी राज्य क्षेत्रों में प्र वर्तन को`
+  line `सुकर बना ने के धिए`
+  line अधिधनयम
+  line `यर्: यह समीचीन है कक 2 [ 3 *** 4 [ व् य धर्कारी राज्य क्षेत्रों में ], 5 *** में ककए गए भरणपोषण आदेशों के 6 [ भारर् ] में और भारर्`
+  line `में ककए गए ऐसे आदेशों के व् य धर्कारी राज्य क्षेत्रों में प्र वर्तन को सुकर बनाया जाए;`
+  line `अर्: एर्द द्व ारा धनम्न धिधिर् रू प में यह अधिधनयधमर् ककया जार्ा है: —`
+  line `1. संधक्षप् र् नाम और धवस् र्ा र — (1) इस अधिधनयम का संधक्षप् र् नाम भरणपोषण आदेश प्र वर्तन अधिधनयम, 1921 है।`
+  line `7 [(2) इसका धवस् र्ा र 8 [ जम्मू - कश्मी र राज्य के धसवाय * ] सम्पू णत भारर् पर है। ]`
+  line `2. पररभाषाएं — इस अधिधनयम में जब र् क कक कोई बार् धवषय या संदभत में धवरुद्ध न हो: —`
+  line `“ संधक्षप् र् अधिकाररर्ा का न् या यािय ” से मुखय प्रे धसडेंसी मधजस्रे ट या धजिा मधजस्रे ट का न् या यािय अधभप्रेर् है;`
+  line `“ आधिर् ” से ऐसे व् य धक् र् अधभप्रेर् हैं, धजनको वह व् य धक् र् धजसके धवरुद्ध भरणपोषण आदेश कदया गया है; उस`
+  line `9 [ व् य धर्कारी राज्य क्षेत्र ] में धजसमें भरणपोषण आदे श कदया गया है प्र वृत्त धवधि के अनुसार भरणपोषण करने के धिए दायी है;`
+  line `10 [“ भारर् ” से जम्मू - कश्मी र राज्य के धसवाय भारर् का राज्य क्षेत्र अधभप्रेर् है; ]`
+  line `“ भरणपोषण आदेश ” से ककसी न् या यािय द्व ारा धसधवि या दाधड क अधिकाररर्ा के प्र योग में उस व् य धक् र् की धजसके`
+  line `धवरुद्ध आदेश कदया गया है पत्नी या अन्य आधिर्ों के भरणपोषण के धिए िनराधशयों के काधिक संदाय के धिए, सम्ब द्ध ककए`
+  line `जाने के आदेश से धभन् न, कोई धडक्री या आदेश अधभप्रेर् है;`
+  line `“ धवधहर् ” से इस अधिधनयम के अिीन बनाए गए धनयमों द्व ारा धवधहर् अधभप्रेर् है;`
+  line `“ उधचर् प्र ाधिकारी ” से ककसी व् य धर्कारी राज्य क्षेत्रों की धजसको यह अधिधनयम िागू होर्ा है, धवधि के अिीन या`
+  line `उसके द्व ारा दस् र्ा वेजों को प्र ा प् र् करने और पारेधषर् करने के धिए धनयुक् र् प्र ाधिकारी अधभप्रेर् है; और`
+  line `11 [“ व् य धर्कारी राज्य क्षेत्र ” से भारर् से बाहर ऐसा देश या राज्य क्षेत्र अधभप्रेर् है धजसकी बाबर् यह अधिधनयम िारा`
+  line `3 के अिीन घोषणा के आिार पर र्त् स मय िागू होर्ा है। ]`
+  line `12 * * * * *`
+  line `13 [ 3. व् य धर्कारी व् य वस्था की घोषणा — यकद केन्री य सरकार का यह समािान हो जार्ा है कक भारर् के बाहर ककसी देश या`
+  line `राज्य क्षेत्र में, उस देश या राज्य क्षेत्र में भारर् के न् या याियों द्व ारा कदए गए भरणपोषण आदेशों के प्र वर्तन के धिए धवधिक उपबन्ि`
+  line `धवद्यमान है र् ो, केन्री य सरकार रा ज पत्र में अधिसूचना द्व ारा, यह घोषणा कर सकर्ी है कक यह अधिधनयम उस देश या राज्य क्षेत्र की`
+  line `बाबर् िागू होर्ा है और र् ब वह र् दनुसार िागू होगा। ]`
+  line `1 यह अधिधनयम 1963 के धवधनयम सं ० 6 की िारा 2 और अनुसूची I द्व ारा (1 - 7 - 1965 से ) दादरा और नागर हवेिी को धवस् र्ा ररर् और प्र वृत्त हु आ। यह अधिधनयम`
+  line `1968 के अधिधनयम सं ० 26 की िारा 3 और अनुसूची द्व ारा पांधडचेरी संघ राज्य क्षेत्र पर िागू होने के धिए धवस् र्ा ररर् ककया गया।`
+  line `2 धवधि अनुकूिन आदेश, 1950 द्व ारा “ के अन्य भागों में ” के स् था न पर प्र धर्स्था धपर्।`
+  line `3 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ भाग ि राज्यों में या ” शब्दों का िोप ककया गया।`
+  line `4 1952 के अधिधनयम सं ० 47 की िारा 2 द्व ारा “ धहज मेजेस्टी ज डोधमधनयन एड प्र ोटेक्टो रेट्स ” के स् था न पर प्र धर्स्था धपर्।`
+  line `5 धवधि अनुकूिन आदेश, 1950 द्व ारा “ सधम्म धिर् होने वािे राज्य अन्य भारर्ीय राज्यों ” शब्दों का िोप ककया गया।`
+  line `6 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ भाग क राज्यों और भाग ग राज्यों ” के स् था न पर प्र धर्स्था धपर्।`
+  line `7 धवधि अनुकूिन आदेश, 1950 द्व ारा पूवतवर्ी उपिारा (2) के स् था न पर प्र धर्स्था धपर्।`
+  line `8 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ भाग ि राज्यों के धसवाय ” के स् था न पर प्र धर्स्था धपर्।`
+  line `* इस अधिधनयम को जम्मू - कश्मीर संघ राज्यक्षेत्र और िद्दाि संघ राज्यक्षेत्र में अधिसूचना सं. सा. का. 3912 (अ), र् ारीि, 30 अक्टूबर, 2019 से िागू ककया गया।`
+  line `9 1952 के अधिधनयम सं ० 47 की िारा 3 द्व ारा “ धहज मेजेस्टी ज डोधमधनयन्स के भाग ” के स् था न पर प्र धर्स्था धपर्।`
+  line `10 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा अंर्:स्था धपर्।`
+  line `11 1952 के अधिधनयम सं ० 47 की िारा 3 द्व ारा पूवतवर्ी पररभाषा के स् था न पर प्र धर्स्था धपर्।`
+  line `12 धवधि अनुकूि न आदेश, 1950 द्व ारा अंर्:स्था धपर् “ राज्यों ” की पररभाषा का 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा िोप ककया गया।`
+  line `13 1952 के अधिधनयम सं ० 47 की िारा 4 द्व ारा पूवतवर्ी िारा 3 के स् था न पर प्र धर्स्था धपर्।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-4. व् य धर्कारी राज्य क्षेत्रों में कदए गए भरणपोषण आदेशों का भारर् में रधजस्री करण — (1) जहां कोई भरणपोषण आदेश, चाहे
-इस अधिधनयम को पाररर् होने के पहिे या पश्चा र्, ककसी व् य धर्कारी राज्य क्षेत्र में ककसी न् या यािय द्व ारा ककसी व् य धक् र् के धवरुद्ध कदया
-गया है, और उस राज्य क्षेत्र के उधचर् प्र ाधिकारी द्व ारा उस आदेश की प्र माधणर् प्र धर् केन्री य सरकार को पारेधषर् की गई है वहां, केन्री य
-सरकार उस आदेश के एक प्र धर् 1 [ भारर् ] में ककसी न् या यािय के धवधहर् अधिकारी को रधजस्री क रण के धिए भेजेगी, और, उसकी प्र ाधप् र्
-पर, आदेश धवधहर् रीधर् में रधजस्ट र ककया जाएगा।
-(2) यकद वह न् या यािय धजसके द्व ारा आदेश कदया गया था, केन्री य सरकार की राय में, वररष्ठ अधिकाररर्ा का न् या यािय है र्
-ो वह न् या यािय धजसमें ऐसा आदेश यथापूवोक् र् इस प्र कार रधजस्री कृर् ककया जाना है उच्च न् या यािय होगा, और यकद उसकी राय में
-वह न् या यािय वररष्ठ अधिकाररर्ा का न् या यािय नहीं था, र् ो संधक्षप् र् अधिकाररर्ा का न् या यािय होगा।
-5. भारर् में कदए गए भरणपोषण आदेशों का पारेषण — जहां 1 [ भारर् ] में न् या यािय ने चाहे इस अधिधनयम के प्र ारम्भ के पूवत
-या पश्चा र् ककसी व् य धक् र् के धवरुद्ध भरणपोषण आदेश कदया है, औ र उस न् या यािय में यह साधबर् ककया गया है कक वह व् य धक् र् धजसके
-धवरुद्ध आदेश कदया गया है ककसी व् य धर्कारी राज्य क्षेत्र का धनवासी है, र् ो न् या यािय उस राज्य क्षेत्र के उ धचर् प्र ाधिकारी को पारेषण के
-धिए केन्री य सरकार को आदेश की एक प्र माधणर् प्र धर् भेजेगा।
-6. संधक्षप् र् न् या याियों की व् य धर्कारी राज्य क्षेत्र में धनवासी व् य धक् र् यों के धवरुद्ध अनधन् र् म भरणपोषण आदेश देने की
-शधक् र् — (1) जहां 1 [ भारर् ] में संधक्षप् र् अधिकाररर्ा रिने वािे ककसी न् या यािय को ककसी व् य धक् र् के धिए भरणपोषण आदेश के धिए
-आवेदन ककया जार्ा है, और यह साधबर् ककया जार्ा है कक वह व् य धक् र् ककसी व् य धर्कारी राज्य क्षेत्र में धनवासी है, वहां उस व् य धक् र् की
-अनुपधस्थ धर् में यकद न् या यािय का साक्ष्य को सुनने के पश्चा र् आवेदन के न् या या नुमर् होने के बारे में समािान हो जार्ा है र् ो, वह ऐसा
-आदे श दे सकर्ा है जो वह र् ब दे सकर्ा जब ऐसा व् य धक् र् जानबूझकर न् या यािय में उपधस्थ र् होने की उपेक्षा करर्ा; ककन् र्ु ऐसी दशा में
-आदेश अनधन् र् म ही होगा और र् ब र् क प्र भावी नहीं होगा जब र् क ऐसे राज्य क्षेत्र में सक्षम न् या यािय द्व ारा उसकी पुधष्ट की जाए।
-(2) प्रत् ये क साक्षी का धजसका ऐसे आ वेदन पर परीक्षण ककया जार्ा है, साक्ष्य िेिबद्ध ककया जाएगा और ऐसा अधभसाक्ष्य
-उसको पढ़कर सुनाया जाएगा और उसके द्व ारा हस् र्ा क्ष ररर् होगा।
-(3) जहां ऐसा आदेश कदया जार्ा है वहां, न् या यािय केन्री य सरकार को उस व् य धर्कारी राज्य क्षेत्र के, धजसमें वह व् य धक् र्
-धजसके धवरुद्ध आदेश कदया गया है धनवास करर्ा है ऐसा अधभकधथर् है, उधचर् प्र ाधिकारी को पारेषण के धिए इस प्र कार धिए गए
-अधभसाक्ष्य और आदेश की प्र माधणर् प्र धर् उन आिारों के कथन के साथ धजन पर, यकद वह व् य धक् र् धजसके धवरुद्ध आदेश कदया गया है
-यकद उस पर समन सम्य क्त: र् ामीि ककया जार्ा और वह सुनवाई पर उपसंजार् होर्ा र् ो धजन आिारों पर आदेशों के कदए जाने का
-धवरोि होर्ा है और ऐसी जानकारी के साथ जो न् या यािय के पास उस व् य धक् र् की पहचान औ र उसका ठौर रठकाना अधभधनधश्च र् करने
-को सुकर बनाने के धिए हो, भेजेगा।
-(4) जहां ऐसा कोई अनधन् र् म आदेश ककसी व् य धर्कारी राज्य क्षेत्र में ककसी न् या यािय के समक्ष पुधष्ट के धिए आया है और वह
-आदेश उस न् या यािय द्व ारा संधस्थ र् अधिकाररर्ा वािे उस न् या यािय को धजसने आदेश कदया था अधर्ररक् र् साक्ष्य िेने के प्र योजन के
-धिए प्रे धषर् ककया गया है, वहां न् या यािय, धवधहर् सूचना देने के पश्चा र् मूि आवेदन के समथतन में जैसे साक्ष्य धिया जार्ा है उसी रीधर्
-में और वैसी ही शर्ों के अिीन सा क्ष् य िेने की कायतवाही करे गा।
-(5) यकद ऐसा साक्ष्य सुनने वािे न् या यािय को यह प्रर् ीर् होर्ा है कक आदेश नहीं ककया जाना था र् ो न् या यािय उस आदेश को
-धविधड र् कर सकर्ा है ककन् र्ु ककसी अन्य दशा में अधभसाक्ष्य केन्री य सरकार को भेजा जाएगा और मूि अधभसाक्ष्य के समान रीधर् में
-धनपटाया जाए गा।
-(6) इस िारा के अिीन कदए गए ककसी आदेश की पुधष्ट संधक्षप् र् अधिकाररर्ा के न् या याियों की उस आदेश में फेरफार करने
-या उसे धविधड र् करने की शधक् र् को प्र भाधवर् नहीं करेगी:
-परन् र्ु फेरफार या धवि ड न का आदेश करने के पश्चा र्, न् या यािय उस व् य धर्कारी राज्य क्षेत्र में धजसमें मूि आदेश की पुधष्ट
-की गई थी या धजसको वह पुधष्ट के धिए भेजा गया था, उधचर् प्र ाधिकारी को पारेषण के धिए उसकी एक प्र माधणर् प्र धर् केन्री य सरकार
-को भेजेगा, और मूि आदेश में फेरफार करने वािे आदेश की दशा में, आदेश प्र भावशीि नहीं होगा जब र् क कक मूि आदेश के समान
-रीधर् में उसकी पुधष्ट न हो जाए।
-7. संधक्षप् र् अधिकाररर्ा के न् या यािय की भारर् से बाहर ककए गए भरणपोषण आदेश की पुधष्ट करने की शधक् र् — (1) जहां
-ककसी व् य धर्कारी राज्य क्षेत्र में न् या यािय द्व ारा भरणपोषण का आदेश ककया गया है और आदेश अनधन् र् म ही है, और 1 [ भारर् ] में संधक्षप् र्
-अधिकाररर्ा के न् या यािय द्व ारा पुधष्ट ककए जाने र् क उसका कोई प्र भाव नहीं है, और साधक्षयों के अधभसाक्ष्य और धजन आिारों पर उस
-आदेश का धवरोि ककया जा सकर्ा था उनके कथन के साथ आदेश की एक प्र माधणर् प्र धर् केन्री य सरकार को पारेधषर् की गई है, और
-केन्री य सरकार को यह प्रर् ीर् होर्ा है कक वह व् य धक् र् धजसके धवरुद्ध आदेश कदया गया है 1 [ भारर् ] में धनवासी है र् ो, केन्री य सरकार इस
-अध्य पेक्षा के साथ कक उस व् य धक् र् से यह मांग करर्े हु ए एक समन जारी ककया जाए कक वह यह हेर्ुक दशातए कक क् यों उस आदे श की
-पुधष्ट न की जाए, संधक्षप् र् अधिकाररर्ा के न् या यािय के धवधहर् अधिकारी को उक् र् दस् र्ा वेज भेज सकर्ी है, और ऐसे दस् र्ा वेजों और
-अध्या देश की प्र ाधप् र् पर, न् या यािय समन जारी करेगा और उसे ऐसे व् य धक् र् पर र् ामीि करेगा।
-1 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ राज्यों ” के स् था न पर प्र धर्स्था धपर्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `4. व् य धर्कारी राज्य क्षेत्रों में कदए गए भरणपोषण आदेशों का भारर् में रधजस्री करण — (1) जहां कोई भरणपोषण आदेश, चाहे`
+  line `इस अधिधनयम को पाररर् होने के पहिे या पश्चा र्, ककसी व् य धर्कारी राज्य क्षेत्र में ककसी न् या यािय द्व ारा ककसी व् य धक् र् के धवरुद्ध कदया`
+  line `गया है, और उस राज्य क्षेत्र के उधचर् प्र ाधिकारी द्व ारा उस आदेश की प्र माधणर् प्र धर् केन्री य सरकार को पारेधषर् की गई है वहां, केन्री य`
+  line `सरकार उस आदेश के एक प्र धर् 1 [ भारर् ] में ककसी न् या यािय के धवधहर् अधिकारी को रधजस्री क रण के धिए भेजेगी, और, उसकी प्र ाधप् र्`
+  line `पर, आदेश धवधहर् रीधर् में रधजस्ट र ककया जाएगा।`
+  line `(2) यकद वह न् या यािय धजसके द्व ारा आदेश कदया गया था, केन्री य सरकार की राय में, वररष्ठ अधिकाररर्ा का न् या यािय है र्`
+  line `ो वह न् या यािय धजसमें ऐसा आदेश यथापूवोक् र् इस प्र कार रधजस्री कृर् ककया जाना है उच्च न् या यािय होगा, और यकद उसकी राय में`
+  line `वह न् या यािय वररष्ठ अधिकाररर्ा का न् या यािय नहीं था, र् ो संधक्षप् र् अधिकाररर्ा का न् या यािय होगा।`
+  line `5. भारर् में कदए गए भरणपोषण आदेशों का पारेषण — जहां 1 [ भारर् ] में न् या यािय ने चाहे इस अधिधनयम के प्र ारम्भ के पूवत`
+  line `या पश्चा र् ककसी व् य धक् र् के धवरुद्ध भरणपोषण आदेश कदया है, औ र उस न् या यािय में यह साधबर् ककया गया है कक वह व् य धक् र् धजसके`
+  line `धवरुद्ध आदेश कदया गया है ककसी व् य धर्कारी राज्य क्षेत्र का धनवासी है, र् ो न् या यािय उस राज्य क्षेत्र के उ धचर् प्र ाधिकारी को पारेषण के`
+  line `धिए केन्री य सरकार को आदेश की एक प्र माधणर् प्र धर् भेजेगा।`
+  line `6. संधक्षप् र् न् या याियों की व् य धर्कारी राज्य क्षेत्र में धनवासी व् य धक् र् यों के धवरुद्ध अनधन् र् म भरणपोषण आदेश देने की`
+  line `शधक् र् — (1) जहां 1 [ भारर् ] में संधक्षप् र् अधिकाररर्ा रिने वािे ककसी न् या यािय को ककसी व् य धक् र् के धिए भरणपोषण आदेश के धिए`
+  line `आवेदन ककया जार्ा है, और यह साधबर् ककया जार्ा है कक वह व् य धक् र् ककसी व् य धर्कारी राज्य क्षेत्र में धनवासी है, वहां उस व् य धक् र् की`
+  line `अनुपधस्थ धर् में यकद न् या यािय का साक्ष्य को सुनने के पश्चा र् आवेदन के न् या या नुमर् होने के बारे में समािान हो जार्ा है र् ो, वह ऐसा`
+  line `आदे श दे सकर्ा है जो वह र् ब दे सकर्ा जब ऐसा व् य धक् र् जानबूझकर न् या यािय में उपधस्थ र् होने की उपेक्षा करर्ा; ककन् र्ु ऐसी दशा में`
+  line `आदेश अनधन् र् म ही होगा और र् ब र् क प्र भावी नहीं होगा जब र् क ऐसे राज्य क्षेत्र में सक्षम न् या यािय द्व ारा उसकी पुधष्ट की जाए।`
+  line `(2) प्रत् ये क साक्षी का धजसका ऐसे आ वेदन पर परीक्षण ककया जार्ा है, साक्ष्य िेिबद्ध ककया जाएगा और ऐसा अधभसाक्ष्य`
+  line `उसको पढ़कर सुनाया जाएगा और उसके द्व ारा हस् र्ा क्ष ररर् होगा।`
+  line `(3) जहां ऐसा आदेश कदया जार्ा है वहां, न् या यािय केन्री य सरकार को उस व् य धर्कारी राज्य क्षेत्र के, धजसमें वह व् य धक् र्`
+  line `धजसके धवरुद्ध आदेश कदया गया है धनवास करर्ा है ऐसा अधभकधथर् है, उधचर् प्र ाधिकारी को पारेषण के धिए इस प्र कार धिए गए`
+  line `अधभसाक्ष्य और आदेश की प्र माधणर् प्र धर् उन आिारों के कथन के साथ धजन पर, यकद वह व् य धक् र् धजसके धवरुद्ध आदेश कदया गया है`
+  line `यकद उस पर समन सम्य क्त: र् ामीि ककया जार्ा और वह सुनवाई पर उपसंजार् होर्ा र् ो धजन आिारों पर आदेशों के कदए जाने का`
+  line `धवरोि होर्ा है और ऐसी जानकारी के साथ जो न् या यािय के पास उस व् य धक् र् की पहचान औ र उसका ठौर रठकाना अधभधनधश्च र् करने`
+  line `को सुकर बनाने के धिए हो, भेजेगा।`
+  line `(4) जहां ऐसा कोई अनधन् र् म आदेश ककसी व् य धर्कारी राज्य क्षेत्र में ककसी न् या यािय के समक्ष पुधष्ट के धिए आया है और वह`
+  line `आदेश उस न् या यािय द्व ारा संधस्थ र् अधिकाररर्ा वािे उस न् या यािय को धजसने आदेश कदया था अधर्ररक् र् साक्ष्य िेने के प्र योजन के`
+  line `धिए प्रे धषर् ककया गया है, वहां न् या यािय, धवधहर् सूचना देने के पश्चा र् मूि आवेदन के समथतन में जैसे साक्ष्य धिया जार्ा है उसी रीधर्`
+  line `में और वैसी ही शर्ों के अिीन सा क्ष् य िेने की कायतवाही करे गा।`
+  line `(5) यकद ऐसा साक्ष्य सुनने वािे न् या यािय को यह प्रर् ीर् होर्ा है कक आदेश नहीं ककया जाना था र् ो न् या यािय उस आदेश को`
+  line `धविधड र् कर सकर्ा है ककन् र्ु ककसी अन्य दशा में अधभसाक्ष्य केन्री य सरकार को भेजा जाएगा और मूि अधभसाक्ष्य के समान रीधर् में`
+  line `धनपटाया जाए गा।`
+  line `(6) इस िारा के अिीन कदए गए ककसी आदेश की पुधष्ट संधक्षप् र् अधिकाररर्ा के न् या याियों की उस आदेश में फेरफार करने`
+  line `या उसे धविधड र् करने की शधक् र् को प्र भाधवर् नहीं करेगी:`
+  line `परन् र्ु फेरफार या धवि ड न का आदेश करने के पश्चा र्, न् या यािय उस व् य धर्कारी राज्य क्षेत्र में धजसमें मूि आदेश की पुधष्ट`
+  line `की गई थी या धजसको वह पुधष्ट के धिए भेजा गया था, उधचर् प्र ाधिकारी को पारेषण के धिए उसकी एक प्र माधणर् प्र धर् केन्री य सरकार`
+  line `को भेजेगा, और मूि आदेश में फेरफार करने वािे आदेश की दशा में, आदेश प्र भावशीि नहीं होगा जब र् क कक मूि आदेश के समान`
+  line `रीधर् में उसकी पुधष्ट न हो जाए।`
+  line `7. संधक्षप् र् अधिकाररर्ा के न् या यािय की भारर् से बाहर ककए गए भरणपोषण आदेश की पुधष्ट करने की शधक् र् — (1) जहां`
+  line `ककसी व् य धर्कारी राज्य क्षेत्र में न् या यािय द्व ारा भरणपोषण का आदेश ककया गया है और आदेश अनधन् र् म ही है, और 1 [ भारर् ] में संधक्षप् र्`
+  line `अधिकाररर्ा के न् या यािय द्व ारा पुधष्ट ककए जाने र् क उसका कोई प्र भाव नहीं है, और साधक्षयों के अधभसाक्ष्य और धजन आिारों पर उस`
+  line `आदेश का धवरोि ककया जा सकर्ा था उनके कथन के साथ आदेश की एक प्र माधणर् प्र धर् केन्री य सरकार को पारेधषर् की गई है, और`
+  line `केन्री य सरकार को यह प्रर् ीर् होर्ा है कक वह व् य धक् र् धजसके धवरुद्ध आदेश कदया गया है 1 [ भारर् ] में धनवासी है र् ो, केन्री य सरकार इस`
+  line `अध्य पेक्षा के साथ कक उस व् य धक् र् से यह मांग करर्े हु ए एक समन जारी ककया जाए कक वह यह हेर्ुक दशातए कक क् यों उस आदे श की`
+  line `पुधष्ट न की जाए, संधक्षप् र् अधिकाररर्ा के न् या यािय के धवधहर् अधिकारी को उक् र् दस् र्ा वेज भेज सकर्ी है, और ऐसे दस् र्ा वेजों और`
+  line `अध्या देश की प्र ाधप् र् पर, न् या यािय समन जारी करेगा और उसे ऐसे व् य धक् र् पर र् ामीि करेगा।`
+  line `1 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ राज्यों ” के स् था न पर प्र धर्स्था धपर्।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-(2) उपिारा (1) के अिीन जारी ककया गया स मन सभी प्र योजनों के धिए न् या यािय द्व ारा अपनी आरधम्भ क दाधड क
-अधिकाररर्ा के प्र योग में जारी ककया गया समन समझा जाएगा।
-(3) वह व् य धक् र् धजसे समन जारी ककया गया था सुनवाई में अपनी प्र धर्रक्षा में ऐसी कोई बार् रि सकर्ा है जो वह आरधम्भ क
-कायतवाही में रि सकर्ा था यकद वह उसका पक्षकार होर्ा, ककन् र्ु इससे धभन् न कोई प्र धर्वाद नहीं होगा, और अनधन् र् म आदेश देने वािे न्
-या यािय का उन आिारों का कथन करर्े हु ए, धजन पर यकद वह व् य धक् र् धजसके धवरुद्ध आदेश कदया गया है कायतवाधहयों का पक्षकार
-होर्ा र् ो धजन पर आदेश का धवरोि कर सकर्ा था, कदया गया प्र माणपत्र इस बार् का धनश्चा यक साक्ष्य होगा कक वे आिार ही ऐसे
-आिार हैं धजन पर आक्षेप ककया जा सकर्ा है।
-(4) यकद वह व् य धक् र् धजस पर समन र् ामीि ककया गया है सुनवाई में उपसंजार् नहीं होर्ा है, या उपसंजार् होर्ा है ककन् र्ु न्
-या यािय का यह समािान करने में असफि रहर्ा है कक आदेश की पुधष्ट नहीं की जानी चाधहए र् ो, न् या यािय, भारर् में र्त् स मय प्र वृत्त
-ककसी धवधि द्व ारा उसकी शधक् र् पर आिाररर् धवत्तीय सीमा के होर्े हु ए भी, धबना उपान् र् रों के या ऐसे उपान् र् रों सधहर् जो न् या यािय
-साक्ष्य सुनने के बाद उधचर् समझे आदेश की पु धष्ट कर सकर्ा है:
-परन् र्ु इस िारा के अिीन कोई राधश भरणपोषण के रू प में अनधन् र् म आदेश की प्रस् था धपर् दर से अधिक दर पर अधिधनणीर्
-नहीं की जाएगी, या इस रू प में वसूि नहीं की जा सकेगी।
-(5) यकद वह व् य धक् र् धजसको समन जारी ककया गया था सुनवाई में उपधस्थ र् होर्ा है और न् या यािय का यह समािान कर
-देर्ा है कक प्र धर्वाद करने के प्र योजन के धिए यह आवश्य क है कक अधर्ररक् र् साक्ष्य िेने के धिए मामिे को उस न् या यािय को प्रे धषर्
-ककया जाए धजसने अनधन् र् म आदेश कदया था, र् ो न् या यािय उस प्र योजन के धिए व् य धर्कारी राज्य क्षेत्र के उधचर् अधिकारी के माध्य म से
-उस न् या यािय को पारेषण के धिए केन्री य सरकार को अधभिेि की प्र माधणर् प्र धर् भेज सकर्ा है और कायतवाधहयों को स् थ धगर् कर
-सकर्ा है।
-(6) जहां इस िारा के अिीन कोई अनधन् र् म आदेश की पुधष्ट की गई है वहां, उसमें रीधर् में फेरफार या धवि ड न ककया जा
-सकर्ा है मानो वह मूिर्: पुधष्ट करने वािे न् या यािय द्व ारा कदया गया है, और जहां धवि ड न या फेरफार करने के धिए आवेदन पर न्
-या यािय का यह समािान हो जार्ा है कक मामिे को अधर्ररक् र् साक्ष्य िेने के प्र योजन के धिए उस न् या यािय को प्रे धषर् करना
-आवश्य क है धजसने अनधन् र् म आदेश कदया था वहां, न् या यािय उस प्र योजन के धिए व् य धर्कारी राज्य क्षेत्र के उधचर् अधिकारी के माध्य म
-से उस न् या यािय को पारेषण के धिए केन्री य सरकार को अधभिेि की प्र माधणर् प्र धर् भेज सकर्ा है, और कायतवाधहयों को स् थ धगर् कर
-सकर्ा है।
-8. भरणपोषण आदेशों का प्र वर्तन — (1) इस अधिधनयम के उपबन्िों के अिीन, जहां इस अधिधनयम के अिीन कोई आदेश
-ककसी उच्च न् या यािय में रधजस्री कृर् ककया गया है वहां, आदेश का ऐसे रधजस्री करण की र् ारीि से वही बि और प्र भाव होगा और उस
-पर ऐसी सभी कायतवाधहयां की जा सकेंगी मानो वह उच्च न् या यािय से उसकी धसधवि अधिकाररर्ा के प्र योग में, या उसी न् या यािय के
-अिीनस्थ ऐसे धसधवि न् या यािय में जो इस धनधमत्त उच्च न् या यािय द्व ारा नामधनर्दतष्ट ककया जाए, मूिर्: अधभप्राप् र् आदेश है, और उस न्
-या यािय को र् दनुसार आदेश को प्र वृत्त कराने की शधक् र् होगी।
-(2) संधक्षप् र् अधिकाररर्ा का कोई न् या यािय धजसमें इस अधिधनयम के अिीन आदेश रधजस्री कृर् ककया गया है या धजसके द्व
-ारा कोई आदेश इस अधिधनयम के अिीन पुष्ट ककया गया है, और ऐसे न् या यािय के अधिकाररयों को, ऐसी शधक् र् होगी और वे ऐसे
-कर्तव्यों का पािन करेंगे जो आदेश के प्र वर्तन के प्र योजन के धिए, धवधहर् ककए जाएं।
-9. भरणपोषण के रू प में अधिधनणीर् राधशयों के पारेषण के धिए प्र भार और अन्य िचों और प्र भारों का संदाय — इस
-अधिधनयम के उपबन्िों के अनुसार भरणपोषण के आदेश को रधजस्ट र करने या उसकी पुधष्ट करने में न् या यािय, यह धनदेश देगा कक उस न्
-या यािय को, धजससे, यथाधस्थ धर्, आदेश प्र ाप् र् हु आ है या धजसमें अनधन् र् म आदेश कदया गया है, भरणपोषण के रू प में अधिधनणीर्
-राधश के पारेषण के प्र भारों का वहन वह व् य धक् र् करेगा धजसके धवरुद्ध आदेश कदया गया है या आदेश की पुधष्ट की गई है, और उससे
-भरणपोषण के रू प में अधिधनणीर् राधश के अधर्ररक् र् वसूि ककया जाएगा और इसके अधर्ररक् र्, और उसी रीधर् में ऐसे अन्य िचे और प्र
-भार वसूि ककए जाएंगे जो न् या यािय द्व ारा अधिधनणीर् या उद्गृहीर् ककए जाएं।
-10. न् या यािय के अधिकाररयों द्व ारा हस् र्ा क्ष ररर् दस् र्ा वेजों का सबूर् — इस अधिधनयम के प्र योजनों के धिए, ऐसे दस् र्ा वेजों के
-बारे में धजसका 1 [ भारर् ] से बाहर ककसी न् या यािय के न् या यािीश या अधिकारी द्व ारा हस् र्ा क्ष ररर् होना र् ात्प र् यतर् है, जब र् क प्र धर्कूि
-साधबर् न ककया जाए, धजस व् य धक् र् के हस् र्ा क्ष र के ककए गए प्रर् ीर् होर्े हैं उसके न् या धयक या शासकीय हैधसयर् के हस् र्ा क्ष र के सबूर् के
-धबना यह समझा जाएगा कक वह इस प्र कार हस् र्ा क्ष ररर् है, और ककसी न् या यािय के अधिकारी के बारे में धजसके द्व ारा दस् र्ा वेज
-हस् र्ा क्ष ररर् है जब र् क प्र धर्कूि साधबर् न ककया जाए, यह समझा जाएगा कक वह उस दस् र्ा वेज को हस् र्ा क्ष ररर् करने के धिए न् या यािय
-का उधचर् अधिकारी था।
-11. अधभसाक्ष्य का साक्ष्य होना — ककसी व् य धर्कारी राज्य क्षेत्र में ककसी न् या यािय में धिए गए अधभसाक्ष् य, इस अधिधनयम के प्र
-योजनों के धिए, इस अधिधनयम के अिीन संधक्षप् र् अधिकाररर्ा के न् या याियों के समक्ष कायतवाधहयों में साक्ष्य में ग्र हण ककए जाएंगे।
-1 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ राज्यों ” के स् था न पर प्र धर्स्था धपर्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `(2) उपिारा (1) के अिीन जारी ककया गया स मन सभी प्र योजनों के धिए न् या यािय द्व ारा अपनी आरधम्भ क दाधड क`
+  line `अधिकाररर्ा के प्र योग में जारी ककया गया समन समझा जाएगा।`
+  line `(3) वह व् य धक् र् धजसे समन जारी ककया गया था सुनवाई में अपनी प्र धर्रक्षा में ऐसी कोई बार् रि सकर्ा है जो वह आरधम्भ क`
+  line `कायतवाही में रि सकर्ा था यकद वह उसका पक्षकार होर्ा, ककन् र्ु इससे धभन् न कोई प्र धर्वाद नहीं होगा, और अनधन् र् म आदेश देने वािे न्`
+  line `या यािय का उन आिारों का कथन करर्े हु ए, धजन पर यकद वह व् य धक् र् धजसके धवरुद्ध आदेश कदया गया है कायतवाधहयों का पक्षकार`
+  line `होर्ा र् ो धजन पर आदेश का धवरोि कर सकर्ा था, कदया गया प्र माणपत्र इस बार् का धनश्चा यक साक्ष्य होगा कक वे आिार ही ऐसे`
+  line `आिार हैं धजन पर आक्षेप ककया जा सकर्ा है।`
+  line `(4) यकद वह व् य धक् र् धजस पर समन र् ामीि ककया गया है सुनवाई में उपसंजार् नहीं होर्ा है, या उपसंजार् होर्ा है ककन् र्ु न्`
+  line `या यािय का यह समािान करने में असफि रहर्ा है कक आदेश की पुधष्ट नहीं की जानी चाधहए र् ो, न् या यािय, भारर् में र्त् स मय प्र वृत्त`
+  line `ककसी धवधि द्व ारा उसकी शधक् र् पर आिाररर् धवत्तीय सीमा के होर्े हु ए भी, धबना उपान् र् रों के या ऐसे उपान् र् रों सधहर् जो न् या यािय`
+  line `साक्ष्य सुनने के बाद उधचर् समझे आदेश की पु धष्ट कर सकर्ा है:`
+  line `परन् र्ु इस िारा के अिीन कोई राधश भरणपोषण के रू प में अनधन् र् म आदेश की प्रस् था धपर् दर से अधिक दर पर अधिधनणीर्`
+  line `नहीं की जाएगी, या इस रू प में वसूि नहीं की जा सकेगी।`
+  line `(5) यकद वह व् य धक् र् धजसको समन जारी ककया गया था सुनवाई में उपधस्थ र् होर्ा है और न् या यािय का यह समािान कर`
+  line `देर्ा है कक प्र धर्वाद करने के प्र योजन के धिए यह आवश्य क है कक अधर्ररक् र् साक्ष्य िेने के धिए मामिे को उस न् या यािय को प्रे धषर्`
+  line `ककया जाए धजसने अनधन् र् म आदेश कदया था, र् ो न् या यािय उस प्र योजन के धिए व् य धर्कारी राज्य क्षेत्र के उधचर् अधिकारी के माध्य म से`
+  line `उस न् या यािय को पारेषण के धिए केन्री य सरकार को अधभिेि की प्र माधणर् प्र धर् भेज सकर्ा है और कायतवाधहयों को स् थ धगर् कर`
+  line `सकर्ा है।`
+  line `(6) जहां इस िारा के अिीन कोई अनधन् र् म आदेश की पुधष्ट की गई है वहां, उसमें रीधर् में फेरफार या धवि ड न ककया जा`
+  line `सकर्ा है मानो वह मूिर्: पुधष्ट करने वािे न् या यािय द्व ारा कदया गया है, और जहां धवि ड न या फेरफार करने के धिए आवेदन पर न्`
+  line `या यािय का यह समािान हो जार्ा है कक मामिे को अधर्ररक् र् साक्ष्य िेने के प्र योजन के धिए उस न् या यािय को प्रे धषर् करना`
+  line `आवश्य क है धजसने अनधन् र् म आदेश कदया था वहां, न् या यािय उस प्र योजन के धिए व् य धर्कारी राज्य क्षेत्र के उधचर् अधिकारी के माध्य म`
+  line `से उस न् या यािय को पारेषण के धिए केन्री य सरकार को अधभिेि की प्र माधणर् प्र धर् भेज सकर्ा है, और कायतवाधहयों को स् थ धगर् कर`
+  line `सकर्ा है।`
+  line `8. भरणपोषण आदेशों का प्र वर्तन — (1) इस अधिधनयम के उपबन्िों के अिीन, जहां इस अधिधनयम के अिीन कोई आदेश`
+  line `ककसी उच्च न् या यािय में रधजस्री कृर् ककया गया है वहां, आदेश का ऐसे रधजस्री करण की र् ारीि से वही बि और प्र भाव होगा और उस`
+  line `पर ऐसी सभी कायतवाधहयां की जा सकेंगी मानो वह उच्च न् या यािय से उसकी धसधवि अधिकाररर्ा के प्र योग में, या उसी न् या यािय के`
+  line `अिीनस्थ ऐसे धसधवि न् या यािय में जो इस धनधमत्त उच्च न् या यािय द्व ारा नामधनर्दतष्ट ककया जाए, मूिर्: अधभप्राप् र् आदेश है, और उस न्`
+  line `या यािय को र् दनुसार आदेश को प्र वृत्त कराने की शधक् र् होगी।`
+  line `(2) संधक्षप् र् अधिकाररर्ा का कोई न् या यािय धजसमें इस अधिधनयम के अिीन आदेश रधजस्री कृर् ककया गया है या धजसके द्व`
+  line `ारा कोई आदेश इस अधिधनयम के अिीन पुष्ट ककया गया है, और ऐसे न् या यािय के अधिकाररयों को, ऐसी शधक् र् होगी और वे ऐसे`
+  line `कर्तव्यों का पािन करेंगे जो आदेश के प्र वर्तन के प्र योजन के धिए, धवधहर् ककए जाएं।`
+  line `9. भरणपोषण के रू प में अधिधनणीर् राधशयों के पारेषण के धिए प्र भार और अन्य िचों और प्र भारों का संदाय — इस`
+  line `अधिधनयम के उपबन्िों के अनुसार भरणपोषण के आदेश को रधजस्ट र करने या उसकी पुधष्ट करने में न् या यािय, यह धनदेश देगा कक उस न्`
+  line `या यािय को, धजससे, यथाधस्थ धर्, आदेश प्र ाप् र् हु आ है या धजसमें अनधन् र् म आदेश कदया गया है, भरणपोषण के रू प में अधिधनणीर्`
+  line `राधश के पारेषण के प्र भारों का वहन वह व् य धक् र् करेगा धजसके धवरुद्ध आदेश कदया गया है या आदेश की पुधष्ट की गई है, और उससे`
+  line `भरणपोषण के रू प में अधिधनणीर् राधश के अधर्ररक् र् वसूि ककया जाएगा और इसके अधर्ररक् र्, और उसी रीधर् में ऐसे अन्य िचे और प्र`
+  line `भार वसूि ककए जाएंगे जो न् या यािय द्व ारा अधिधनणीर् या उद्गृहीर् ककए जाएं।`
+  line `10. न् या यािय के अधिकाररयों द्व ारा हस् र्ा क्ष ररर् दस् र्ा वेजों का सबूर् — इस अधिधनयम के प्र योजनों के धिए, ऐसे दस् र्ा वेजों के`
+  line `बारे में धजसका 1 [ भारर् ] से बाहर ककसी न् या यािय के न् या यािीश या अधिकारी द्व ारा हस् र्ा क्ष ररर् होना र् ात्प र् यतर् है, जब र् क प्र धर्कूि`
+  line `साधबर् न ककया जाए, धजस व् य धक् र् के हस् र्ा क्ष र के ककए गए प्रर् ीर् होर्े हैं उसके न् या धयक या शासकीय हैधसयर् के हस् र्ा क्ष र के सबूर् के`
+  line `धबना यह समझा जाएगा कक वह इस प्र कार हस् र्ा क्ष ररर् है, और ककसी न् या यािय के अधिकारी के बारे में धजसके द्व ारा दस् र्ा वेज`
+  line `हस् र्ा क्ष ररर् है जब र् क प्र धर्कूि साधबर् न ककया जाए, यह समझा जाएगा कक वह उस दस् र्ा वेज को हस् र्ा क्ष ररर् करने के धिए न् या यािय`
+  line `का उधचर् अधिकारी था।`
+  line `11. अधभसाक्ष्य का साक्ष्य होना — ककसी व् य धर्कारी राज्य क्षेत्र में ककसी न् या यािय में धिए गए अधभसाक्ष् य, इस अधिधनयम के प्र`
+  line `योजनों के धिए, इस अधिधनयम के अिीन संधक्षप् र् अधिकाररर्ा के न् या याियों के समक्ष कायतवाधहयों में साक्ष्य में ग्र हण ककए जाएंगे।`
+  line `1 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा “ राज्यों ” के स् था न पर प्र धर्स्था धपर्।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-12. धनयम बनाने की शधक् र् — 1 [(1)] केन्री य सरकार इस अधिधनयम के प्र योजनों को प्र भावशीि करने के प्र योजन के धिए
-2 [ राजपत्र में अधिसूचना द्व ारा धनयम 3 बना सकर्ी है ] और धवधशष्ट र् या इस अधिधनयम के अिीन की गई ककसी बार् के धिए िचे या प्र
-भार के उद ग्र हण के धिए और उन सभी धवषयों के धिए जो धवधहर् ककए जाने के धिए धनर्दतष्ट या अनुज्ञार् हैं, धनयम बना सकर्ी है।
-4 [(2) इस अधिधनयम के अिीन केन्री य सरकार द्व ारा बनाया गया प्रत् ये क धनयम बनाए जाने के पश्चा र् यथाशीघ्र, संसद के प्रत्
-ये क सदन के समक्ष, जब वह सत्र में हो, कुि र् ीस कदन की अवधि के धिए रिा जाएगा। यह अवधि एक सत्र में अथवा दो या अधिक
-आनुक्रधमक सत्रों में पूरी हो सकेगी। यकद उस सत्र के या पूवोक् र् आनुक्रधमक सत्रों के ठीक बाद के सत्र के अवसान के पूवत दोनों सद न उस
-धनयम में कोई पररवर्तन करने के धिए सहमर् हो जाएं र् ो र्त् प श् चा र् वह ऐसे पररवर्र्तर् रू प में ही प्र भावी होगा। यकद उक् र् अवसान के
-पूवत दोनों सदन सहमर् हो जाएं कक वह धनयम नहीं बनाया जाना चाधहए र् ो र्त् प श् चा र् वह धनष् प्र भाव हो जाएगा। ककन् र्ु धनयम के ऐसे
-परर वर्र्तर् या धनष् प्र भाव होने से उसके अिीन पहिे की गई ककसी बार् की धवधिमान्य र् ा पर प्र धर्कूि प्र भाव नहीं पडेगा। ]
-______
-1 1983 के अधिधनयम सं ० 20 की िारा 2 और अनुसूची द्व ारा (15 - 3 - 1984 से ) िारा 12 को उपिारा (1) के रू प में पुन:संखयां कक र् ककया गया।
-2 1983 के अधिधनयम सं ० 20 की िारा 2 और अनुसूची द्व ारा (15 - 3 - 1984 से ) “ धनयम बना सकेगी ” के स् था न पर प्र धर्स्था धपर्।
-3 ऐसे धनयमों के धिए देधिए भारर् का राजपत्र, भाग 1, पृ ० 1283.
-4 1983 के अधिधनयम सं ० 20 की िारा 2 और अनुसूची द्व ारा (15 - 3 - 1984 से ) अं र्:स्था धपर्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `12. धनयम बनाने की शधक् र् — 1 [(1)] केन्री य सरकार इस अधिधनयम के प्र योजनों को प्र भावशीि करने के प्र योजन के धिए`
+  line `2 [ राजपत्र में अधिसूचना द्व ारा धनयम 3 बना सकर्ी है ] और धवधशष्ट र् या इस अधिधनयम के अिीन की गई ककसी बार् के धिए िचे या प्र`
+  line `भार के उद ग्र हण के धिए और उन सभी धवषयों के धिए जो धवधहर् ककए जाने के धिए धनर्दतष्ट या अनुज्ञार् हैं, धनयम बना सकर्ी है।`
+  line `4 [(2) इस अधिधनयम के अिीन केन्री य सरकार द्व ारा बनाया गया प्रत् ये क धनयम बनाए जाने के पश्चा र् यथाशीघ्र, संसद के प्रत्`
+  line `ये क सदन के समक्ष, जब वह सत्र में हो, कुि र् ीस कदन की अवधि के धिए रिा जाएगा। यह अवधि एक सत्र में अथवा दो या अधिक`
+  line `आनुक्रधमक सत्रों में पूरी हो सकेगी। यकद उस सत्र के या पूवोक् र् आनुक्रधमक सत्रों के ठीक बाद के सत्र के अवसान के पूवत दोनों सद न उस`
+  line `धनयम में कोई पररवर्तन करने के धिए सहमर् हो जाएं र् ो र्त् प श् चा र् वह ऐसे पररवर्र्तर् रू प में ही प्र भावी होगा। यकद उक् र् अवसान के`
+  line `पूवत दोनों सदन सहमर् हो जाएं कक वह धनयम नहीं बनाया जाना चाधहए र् ो र्त् प श् चा र् वह धनष् प्र भाव हो जाएगा। ककन् र्ु धनयम के ऐसे`
+  line `परर वर्र्तर् या धनष् प्र भाव होने से उसके अिीन पहिे की गई ककसी बार् की धवधिमान्य र् ा पर प्र धर्कूि प्र भाव नहीं पडेगा। ]`
+  line ______
+  line `1 1983 के अधिधनयम सं ० 20 की िारा 2 और अनुसूची द्व ारा (15 - 3 - 1984 से ) िारा 12 को उपिारा (1) के रू प में पुन:संखयां कक र् ककया गया।`
+  line `2 1983 के अधिधनयम सं ० 20 की िारा 2 और अनुसूची द्व ारा (15 - 3 - 1984 से ) “ धनयम बना सकेगी ” के स् था न पर प्र धर्स्था धपर्।`
+  line `3 ऐसे धनयमों के धिए देधिए भारर् का राजपत्र, भाग 1, पृ ० 1283.`
+  line `4 1983 के अधिधनयम सं ० 20 की िारा 2 और अनुसूची द्व ारा (15 - 3 - 1984 से ) अं र्:स्था धपर्।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line

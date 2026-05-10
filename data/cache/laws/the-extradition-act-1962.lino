@@ -1,60 +1,51 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T12:26:35.143Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1440`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 40)
-  (str totalSections) (int 40)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T12:26:35.143Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1440`
+  completeFetch true
+  maxSections null
+  sectionCount 40
+  totalSections 40
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-extradition-act-1962)
-  (str handle) (str 1440)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Extradition Act, 1962`)
-  (str actNumber) (str 34)
-  (str enactmentDate) (str 1962-09-15)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1440`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `प्रत्‍यर्पण अधिनियम, 1962`)
-  (str actYear) (str 1962)
-  (str ministry) (str `Ministry of External Affairs`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act to consolidate and amend the law relating to the extradition of fugitive criminals and to provide for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 05-01-1963)
-  (str notification) (str `5th January, 1963, vide Notification No. G.S.R. 55, dated 5th January, 1963, see Gazette of India, Extraordinary, Part II, sec. 3(i).`)
-  (str fetchedAt) (str `2026-05-10T12:26:32.905Z`)
-  (str translations) obj_root_law_translations
+  slug the-extradition-act-1962
+  handle (1440)
+  collectionHandle 123456789/1362
+  title `The Extradition Act, 1962`
+  actNumber (34)
+  enactmentDate 1962-09-15
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1440`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `प्रत्‍यर्पण अधिनियम, 1962`
+  actYear (1962)
+  ministry `Ministry of External Affairs`
+  department undefined
+  longTitle `An Act to consolidate and amend the law relating to the extradition of fugitive criminals and to provide for matters connected therewith or incidental thereto.`
+  enforcementDate 05-01-1963
+  notification `5th January, 1963, vide Notification No. G.S.R. 55, dated 5th January, 1963, see Gazette of India, Extraordinary, Part II, sec. 3(i).`
+  fetchedAt `2026-05-10T12:26:32.905Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_extradition_act_1962
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1440`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1440`
 obj_root_law_sources_en_the_extradition_act_1962:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1440/1/196234.pdf`)
-  (str title) (str `The Extradition Act, 1962`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1440/1/196234.pdf`
+  title `The Extradition Act, 1962`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1962
 obj_root_law_sources_hi_1962:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1440/3/H1962-34.pdf`)
-  (str title) (str `प्रत्‍यर्पण अधिनियम, 1962`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1440/3/H1962-34.pdf`
+  title `प्रत्‍यर्पण अधिनियम, 1962`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -96,771 +87,908 @@ obj_root_law_sections:
   obj_root_law_sections_36
   obj_root_law_sections_37
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 4219)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Extradition Act,
-1962.
-
-(2) It extends to the whole of India.
-
-(3) It shall come into force on such date ^1
-as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. 5th January, 1963, vide Notification No. G.S.R. 55, dated 5th January, 1963, see Gazette of India, Extraordinary, Part II,
-sec. 3(i).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4219&sectionno=1&orderno=1&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4219)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4219&sectionno=1&orderno=1&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Extradition Act,`
+  line 1962.
+  line
+  line `(2) It extends to the whole of India.`
+  line
+  line `(3) It shall come into force on such date ^1`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 5th January, 1963, vide Notification No. G.S.R. 55, dated 5th January, 1963, see Gazette of India, Extraordinary, Part II,`
+  line `sec. 3(i).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 4220)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-^1[(a) "composite offence" means an act or conduct of a person occurred, wholly or in part, in
-a foreign State or in india but its effects or Intended effects, taken as a whole, would constitute an
-extradition offence in India or in a foreign State, as the case may be;]
-
-(b) "conviction" and "convicted" do not include or refer to a conviction which under foreign
-law is a conviction for contumacy, but the term "person accused" includes a person so convicted
-for contumacy;
-
-^2[(c) "extradition offence" means--
-
-(i) in relation to a foreign State, being a treaty State, an offence provided for in the
-extradition treaty with that State;
-
-(ii) in relation to a foreign State other than a treaty State an offence punishable with
-imprisonment for a term which shall not be less than one year under the laws of India or of a
-foreign State and includes a composite offence;]
-
-(d) "extradition treaty" means a treaty ^3[,agreement or arrangement) made by India with a
-foreign State relating to the extradition of fugitive criminals, and includes any treaty ^3[,agreement
-or arrangement] relating to the extradition of fugitive criminals made before the 15th day of
-August, 1947, which extends to, and is binding on, India;
-
-(e) "foreign State" means any State outside India ^4* * * and includes every constituent part,
-colony or dependency of such State;
-
-^5[(f) "fugitive criminal" means a person who is accused or convicted of an extradition offence
-within the jurisdiction of a foreign State and includes a person who, while in India, conspires,
-attempts to commit or incites or participates as an accomplice in the commission of an extradition
-offence in a foreign State;]
-
-(g) "magistrate" means a magistrate of the first class or a presidency magistrate;
-
-(h) "notified order" means an order notified in the Official Gazette;
-
-(i) "prescribed" means prescribed by rules made under this Act; and
-
-(j) "treaty State" means a foreign State with which an extradition treaty is in operation.`)
-  (str footnotes) (str `1. Subs. by Act 66 of 1993, s. 4, for clause (a) (w.e.f. 18-12-1993).
-
-2. Subs. by s. 4, ibid., for clause (c) (w.e.f.18-12-1993).
-
-3. Subs. by s. 4, ibid., for "or agreement" (w.e.f.18-12-1993).
-
-4. The words "other than a commonwealth country," omitted by s. 4, ibid. (w.e.f. 18-12-1993).
-
-5. Subs. by s. 4, ibid., for clause (f) (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4220&sectionno=2&orderno=2&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4220)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4220&sectionno=2&orderno=2&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `^1[(a) "composite offence" means an act or conduct of a person occurred, wholly or in part, in`
+  line `a foreign State or in india but its effects or Intended effects, taken as a whole, would constitute an`
+  line `extradition offence in India or in a foreign State, as the case may be;]`
+  line
+  line `(b) "conviction" and "convicted" do not include or refer to a conviction which under foreign`
+  line `law is a conviction for contumacy, but the term "person accused" includes a person so convicted`
+  line `for contumacy;`
+  line
+  line `^2[(c) "extradition offence" means--`
+  line
+  line `(i) in relation to a foreign State, being a treaty State, an offence provided for in the`
+  line `extradition treaty with that State;`
+  line
+  line `(ii) in relation to a foreign State other than a treaty State an offence punishable with`
+  line `imprisonment for a term which shall not be less than one year under the laws of India or of a`
+  line `foreign State and includes a composite offence;]`
+  line
+  line `(d) "extradition treaty" means a treaty ^3[,agreement or arrangement) made by India with a`
+  line `foreign State relating to the extradition of fugitive criminals, and includes any treaty ^3[,agreement`
+  line `or arrangement] relating to the extradition of fugitive criminals made before the 15th day of`
+  line `August, 1947, which extends to, and is binding on, India;`
+  line
+  line `(e) "foreign State" means any State outside India ^4* * * and includes every constituent part,`
+  line `colony or dependency of such State;`
+  line
+  line `^5[(f) "fugitive criminal" means a person who is accused or convicted of an extradition offence`
+  line `within the jurisdiction of a foreign State and includes a person who, while in India, conspires,`
+  line `attempts to commit or incites or participates as an accomplice in the commission of an extradition`
+  line `offence in a foreign State;]`
+  line
+  line `(g) "magistrate" means a magistrate of the first class or a presidency magistrate;`
+  line
+  line `(h) "notified order" means an order notified in the Official Gazette;`
+  line
+  line `(i) "prescribed" means prescribed by rules made under this Act; and`
+  line
+  line `(j) "treaty State" means a foreign State with which an extradition treaty is in operation.`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. Subs. by Act 66 of 1993, s. 4, for clause (a) (w.e.f. 18-12-1993).`
+  line
+  line `2. Subs. by s. 4, ibid., for clause (c) (w.e.f.18-12-1993).`
+  line
+  line `3. Subs. by s. 4, ibid., for "or agreement" (w.e.f.18-12-1993).`
+  line
+  line `4. The words "other than a commonwealth country," omitted by s. 4, ibid. (w.e.f. 18-12-1993).`
+  line
+  line `5. Subs. by s. 4, ibid., for clause (f) (w.e.f. 18-12-1993).`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 4221)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Application of Act.`)
-  (str content) (str `^1[(1) The Central Government may, by notified order, direct that the
-provisions of this Act, other than Chapter III, shall apply, to such foreign State or part thereof as may
-be specified in the order.]
-
-(2) The Central Government may, by the same notified order as is referred to in sub-section (1) or
-any subsequent notified order, restrict such application to fugitive criminals found, or suspected to be,
-in such part of India as may be specified in the order.
-
-(3) Where the notified order relates to a treaty State,--
-
-(a) it shall set out in full the extradition treaty with that State ;
-
-(b) it shall not remain in force for any period longer than that treaty; and
-
-(c) the Central Government may, by the same or any subsequent notified order, render the
-application of this Act subject to such modifications, exceptions, conditions and qualifications as
-may be deemed expedient for implementing the treaty with that State.
-
-^2[(4) Where there is no extradition treaty made by India with any foreign State, the
-Central Government may, by notified order, treat any Convention to which India and a foreign State
-are parties, as an extradition treaty made by India with that foreign State providing for extradition in
-respect of the offences specified in that Convention.]`)
-  (str footnotes) (str `1. Subs. by Act 66 of 1993, s. 5, for sub-section (1) (w.e.f. 18-12-1993).
-
-2. Ins. by s. 5, ibid. (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4221&sectionno=3&orderno=3&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4221)
+  sectionNo (3)
+  orderNo 3
+  title `Application of Act.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4221&sectionno=3&orderno=3&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_3_content:
+  string
+  line `^1[(1) The Central Government may, by notified order, direct that the`
+  line `provisions of this Act, other than Chapter III, shall apply, to such foreign State or part thereof as may`
+  line `be specified in the order.]`
+  line
+  line `(2) The Central Government may, by the same notified order as is referred to in sub-section (1) or`
+  line `any subsequent notified order, restrict such application to fugitive criminals found, or suspected to be,`
+  line `in such part of India as may be specified in the order.`
+  line
+  line `(3) Where the notified order relates to a treaty State,--`
+  line
+  line `(a) it shall set out in full the extradition treaty with that State ;`
+  line
+  line `(b) it shall not remain in force for any period longer than that treaty; and`
+  line
+  line `(c) the Central Government may, by the same or any subsequent notified order, render the`
+  line `application of this Act subject to such modifications, exceptions, conditions and qualifications as`
+  line `may be deemed expedient for implementing the treaty with that State.`
+  line
+  line `^2[(4) Where there is no extradition treaty made by India with any foreign State, the`
+  line `Central Government may, by notified order, treat any Convention to which India and a foreign State`
+  line `are parties, as an extradition treaty made by India with that foreign State providing for extradition in`
+  line `respect of the offences specified in that Convention.]`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. Subs. by Act 66 of 1993, s. 5, for sub-section (1) (w.e.f. 18-12-1993).`
+  line
+  line `2. Ins. by s. 5, ibid. (w.e.f. 18-12-1993).`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 4222)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Requisition for surrender.`)
-  (str content) (str `A requisition for the surrender of a fugitive criminal of a
-foreign State ^1
-* * * may be made to the Central Government--
-
-(a) by a diplomatic representative of the foreign State ^1
-* * * at Delhi; or
-
-(b) by the Government of that foreign State ^1
-* * * communicating with the Central
-Government through its diplomatic representative in that State ^2
-***;
-
-and if neither of these modes is convenient, the requisition shall be made in such other mode as is
-settled by arrangement made by the Government of the foreign State ^1
-* * * with the Government of
-India.`)
-  (str footnotes) (str `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f.18-12-1993).
-
-2. The words "or country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4222&sectionno=4&orderno=4&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4222)
+  sectionNo (4)
+  orderNo 4
+  title `Requisition for surrender.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4222&sectionno=4&orderno=4&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_4_content:
+  string
+  line `A requisition for the surrender of a fugitive criminal of a`
+  line `foreign State ^1`
+  line `* * * may be made to the Central Government--`
+  line
+  line `(a) by a diplomatic representative of the foreign State ^1`
+  line `* * * at Delhi; or`
+  line
+  line `(b) by the Government of that foreign State ^1`
+  line `* * * communicating with the Central`
+  line `Government through its diplomatic representative in that State ^2`
+  line ***;
+  line
+  line `and if neither of these modes is convenient, the requisition shall be made in such other mode as is`
+  line `settled by arrangement made by the Government of the foreign State ^1`
+  line `* * * with the Government of`
+  line India.
+obj_root_law_sections_4_footnotes:
+  string
+  line `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f.18-12-1993).`
+  line
+  line `2. The words "or country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 4223)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Order for magisterial inquiry.`)
-  (str content) (str `Where such requisition is made, the Central Government
-may, if it thinks fit, issue an order to any Magistrate who would have had jurisdiction to inquire into
-the offence if it had been an offence committed within the local limits of his jurisdiction directing him
-to inquire into the case.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4223&sectionno=5&orderno=5&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4223)
+  sectionNo (5)
+  orderNo 5
+  title `Order for magisterial inquiry.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4223&sectionno=5&orderno=5&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_5_content:
+  string
+  line `Where such requisition is made, the Central Government`
+  line `may, if it thinks fit, issue an order to any Magistrate who would have had jurisdiction to inquire into`
+  line `the offence if it had been an offence committed within the local limits of his jurisdiction directing him`
+  line `to inquire into the case.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 4224)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Issue of warrant for arrest.`)
-  (str content) (str `On receipt of an order of the Central Government under
-section 5, the magistrate shall issue a warrant for the arrest of the fugitive criminal.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4224&sectionno=6&orderno=6&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4224)
+  sectionNo (6)
+  orderNo 6
+  title `Issue of warrant for arrest.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4224&sectionno=6&orderno=6&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_6_content:
+  string
+  line `On receipt of an order of the Central Government under`
+  line `section 5, the magistrate shall issue a warrant for the arrest of the fugitive criminal.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 4225)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Procedure before magistrate.`)
-  (str content) (str `(1) When the fugitive criminal appears or is brought before
-the magistrate, the magistrate shall inquire into the case in the same manner and shall have the same
-jurisdiction and powers, as nearly as may be, as if the case were one triable by a court of session or
-High Court.
-
-(2) Without prejudice to the generality of the foregoing provisions, the magistrate shall, in
-particular, take such evidence as may be produced in support of the requisition of the foreign State
-^1
-* * * and on behalf of the fugitive criminal, including any evidence to show that the offence of which
-the fugitive criminal accused or has been convicted is an offence of political character or is not an
-extradition offence.
-
-(3) If the Magistrate is of opinion that a prima facie case is not made out in support of the
-requisition of the foreign State ^1
-* * *, he shall discharge the fugitive criminal.
-
-(4) If the Magistrate is of opinion that a prima facie case is made out in support of the requisition
-of the foreign State ^1
-* * * he may commit the fugitive criminal to prison to await the orders of the
-Central Government and shall report the result of his inquiry to the Central Government, and shall
-forward together with such report, and written statement which the fugitive criminal may desire to
-submit for the consideration of the Central Government.`)
-  (str footnotes) (str `1. The words "or commonwealth country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4225&sectionno=7&orderno=7&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4225)
+  sectionNo (7)
+  orderNo 7
+  title `Procedure before magistrate.`
+  content obj_root_law_sections_7_content
+  footnotes `1. The words "or commonwealth country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4225&sectionno=7&orderno=7&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_7_content:
+  string
+  line `(1) When the fugitive criminal appears or is brought before`
+  line `the magistrate, the magistrate shall inquire into the case in the same manner and shall have the same`
+  line `jurisdiction and powers, as nearly as may be, as if the case were one triable by a court of session or`
+  line `High Court.`
+  line
+  line `(2) Without prejudice to the generality of the foregoing provisions, the magistrate shall, in`
+  line `particular, take such evidence as may be produced in support of the requisition of the foreign State`
+  line ^1
+  line `* * * and on behalf of the fugitive criminal, including any evidence to show that the offence of which`
+  line `the fugitive criminal accused or has been convicted is an offence of political character or is not an`
+  line `extradition offence.`
+  line
+  line `(3) If the Magistrate is of opinion that a prima facie case is not made out in support of the`
+  line `requisition of the foreign State ^1`
+  line `* * *, he shall discharge the fugitive criminal.`
+  line
+  line `(4) If the Magistrate is of opinion that a prima facie case is made out in support of the requisition`
+  line `of the foreign State ^1`
+  line `* * * he may commit the fugitive criminal to prison to await the orders of the`
+  line `Central Government and shall report the result of his inquiry to the Central Government, and shall`
+  line `forward together with such report, and written statement which the fugitive criminal may desire to`
+  line `submit for the consideration of the Central Government.`
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 4226)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Surrender of fugitive criminal.`)
-  (str content) (str `If upon receipt of the report and statement under subsection (4) of section 7, the Central Government is of opinion that the fugitive criminal ought to be
-surrendered to the foreign State ^1
-* * *, it may issue a warrant for the custody and removal of the
-fugitive criminal and for his delivery at a place and to a person to be named in the warrant.`)
-  (str footnotes) (str `1. The words "or commonwealth country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4226&sectionno=8&orderno=8&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4226)
+  sectionNo (8)
+  orderNo 8
+  title `Surrender of fugitive criminal.`
+  content obj_root_law_sections_8_content
+  footnotes `1. The words "or commonwealth country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4226&sectionno=8&orderno=8&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_8_content:
+  string
+  line `If upon receipt of the report and statement under subsection (4) of section 7, the Central Government is of opinion that the fugitive criminal ought to be`
+  line `surrendered to the foreign State ^1`
+  line `* * *, it may issue a warrant for the custody and removal of the`
+  line `fugitive criminal and for his delivery at a place and to a person to be named in the warrant.`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 4227)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Power of magistrate to issue warrant of arrest in certain cases.`)
-  (str content) (str `(1) Where it appears to
-any magistrate that a person within the local limits of his jurisdiction, is a fugitive criminal of a
-foreign State ^1
-* * * , he may, if he thinks fit, issue a warrant for the arrest of that person on such
-information and on such evidence as would, in his opinion, justify the issue of a warrant if the offence
-of which the person is accused or has been convicted had been committed within the local limits of
-his jurisdiction.
-
-(2) The magistrate shall forthwith report the issue of a warrant under sub-section (1) to the
-Central Government and shall forward the information, and the evidence or certified copies thereof to
-that Government.
-
-(3) A person arrested on a warrant issued under sub-section (1) shall not be detained for more than
-three months unless within that period the magistrate receives from the Central Government an order
-made with reference to such person under section 5.`)
-  (str footnotes) (str `1. The words "or commonwealth country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4227&sectionno=9&orderno=9&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4227)
+  sectionNo (9)
+  orderNo 9
+  title `Power of magistrate to issue warrant of arrest in certain cases.`
+  content obj_root_law_sections_9_content
+  footnotes `1. The words "or commonwealth country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4227&sectionno=9&orderno=9&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_9_content:
+  string
+  line `(1) Where it appears to`
+  line `any magistrate that a person within the local limits of his jurisdiction, is a fugitive criminal of a`
+  line `foreign State ^1`
+  line `* * * , he may, if he thinks fit, issue a warrant for the arrest of that person on such`
+  line `information and on such evidence as would, in his opinion, justify the issue of a warrant if the offence`
+  line `of which the person is accused or has been convicted had been committed within the local limits of`
+  line `his jurisdiction.`
+  line
+  line `(2) The magistrate shall forthwith report the issue of a warrant under sub-section (1) to the`
+  line `Central Government and shall forward the information, and the evidence or certified copies thereof to`
+  line `that Government.`
+  line
+  line `(3) A person arrested on a warrant issued under sub-section (1) shall not be detained for more than`
+  line `three months unless within that period the magistrate receives from the Central Government an order`
+  line `made with reference to such person under section 5.`
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 4228)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Receipt in evidence of exhibits, depositions and other documents and authentication thereof.`)
-  (str content) (str `(1) In any proceedings against a fugitive criminal of a foreign State ^1* * * under this
-chapter, exhibits and depositions (whether received or taken in the presence of the person against
-whom they are used or not) and copies thereof and official certificates of facts and judicial documents
-stating facts may, if duly authenticated, be received as evidence.
-
-(2) Warrants, depositions or statements on oath, which purport to have been issued or taken by
-any court of Justice outside India or copies thereof, certificates of, or judicial documents stating the
-facts of conviction before any such court shall be deemed to be duly authenticated if--
-
-(a) the warrant purports to be signed by a judge, magistrate or officer of the State ^2* * * where
-the same was issued or acting in or of such State ^2* * *;
-
-(b) the depositions of statements or copies thereof purport to be certified, under the hand of a
-judge, magistrate or officer of the State ^2
-* * * where the same were taken, or acting in or for such
-State ^2* * *, to be original depositions or statements or to be true copies thereof, as the case may
-require ;
-
-(c) the certificate of, or judicial document stating the fact of, a conviction purports to be
-certified by a judge, magistrate or officer of the State ^2* * * where the conviction took place or
-acting in or for such State ;
-
-(d) the warrants, depositions, statements, copies, certificates and judicial documents, as the
-case may be, are authenticated by the oath of some witness or by the official seal of a Minister of
-the State ^2* * * where the same were ^3* * * issued, taken or given.`)
-  (str footnotes) (str `1. The words "or commonwealth country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).
-
-2. The words "or country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).
-
-3. The word "respectively" omitted by s. 7, ibid. (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4228&sectionno=10&orderno=10&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4228)
+  sectionNo (10)
+  orderNo 10
+  title `Receipt in evidence of exhibits, depositions and other documents and authentication thereof.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4228&sectionno=10&orderno=10&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_10_content:
+  string
+  line `(1) In any proceedings against a fugitive criminal of a foreign State ^1* * * under this`
+  line `chapter, exhibits and depositions (whether received or taken in the presence of the person against`
+  line `whom they are used or not) and copies thereof and official certificates of facts and judicial documents`
+  line `stating facts may, if duly authenticated, be received as evidence.`
+  line
+  line `(2) Warrants, depositions or statements on oath, which purport to have been issued or taken by`
+  line `any court of Justice outside India or copies thereof, certificates of, or judicial documents stating the`
+  line `facts of conviction before any such court shall be deemed to be duly authenticated if--`
+  line
+  line `(a) the warrant purports to be signed by a judge, magistrate or officer of the State ^2* * * where`
+  line `the same was issued or acting in or of such State ^2* * *;`
+  line
+  line `(b) the depositions of statements or copies thereof purport to be certified, under the hand of a`
+  line `judge, magistrate or officer of the State ^2`
+  line `* * * where the same were taken, or acting in or for such`
+  line `State ^2* * *, to be original depositions or statements or to be true copies thereof, as the case may`
+  line `require ;`
+  line
+  line `(c) the certificate of, or judicial document stating the fact of, a conviction purports to be`
+  line `certified by a judge, magistrate or officer of the State ^2* * * where the conviction took place or`
+  line `acting in or for such State ;`
+  line
+  line `(d) the warrants, depositions, statements, copies, certificates and judicial documents, as the`
+  line `case may be, are authenticated by the oath of some witness or by the official seal of a Minister of`
+  line `the State ^2* * * where the same were ^3* * * issued, taken or given.`
+obj_root_law_sections_10_footnotes:
+  string
+  line `1. The words "or commonwealth country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).`
+  line
+  line `2. The words "or country" omitted by Act 66 of 1993, s. 3 (w.e.f. 18-12-1993).`
+  line
+  line `3. The word "respectively" omitted by s. 7, ibid. (w.e.f. 18-12-1993).`
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 4229)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Chapter not to apply to commonwealth countries to which Chapter III applies.`)
-  (str content) (str `Nothing contained in this Chapter shall apply to fugitive criminals ^1* * * to which Chapter III applies.`)
-  (str footnotes) (str `1. The words "of a commonwealth country" omitted by s. 8, ibid. (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4229&sectionno=11&orderno=11&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4229)
+  sectionNo (11)
+  orderNo 11
+  title `Chapter not to apply to commonwealth countries to which Chapter III applies.`
+  content `Nothing contained in this Chapter shall apply to fugitive criminals ^1* * * to which Chapter III applies.`
+  footnotes `1. The words "of a commonwealth country" omitted by s. 8, ibid. (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4229&sectionno=11&orderno=11&orgactid=AC_CEN_10_10_00009_196234_1517807322487
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 4230)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Application of Chapter.`)
-  (str content) (str `(1) This Chapter shall apply only to any such ^1[foreign state] to
-which, by reason of an extradition arrangement entered into with that ^2[State], it may seem expedient
-to the Central Government to apply the same.
-
-(2) Every such application shall be by notified order, and the Central Government may, by the
-same or any subsequent notified order, direct that this Chapter and Chapters I, IV and V shall, in
-relation to any such ^1[foreign State], apply subject to such modifications, exceptions, conditions and
-qualifications as it may think fit to specify in the order for the purpose of implementing the
-arrangement.`)
-  (str footnotes) (str `1. Subs. by s. 3, ibid., for "commonwealth country" (w.e.f. 18-12-1993).
-
-2. Subs. by s. 10, ibid., for "country" (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4230&sectionno=12&orderno=12&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4230)
+  sectionNo (12)
+  orderNo 12
+  title `Application of Chapter.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4230&sectionno=12&orderno=12&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_12_content:
+  string
+  line `(1) This Chapter shall apply only to any such ^1[foreign state] to`
+  line `which, by reason of an extradition arrangement entered into with that ^2[State], it may seem expedient`
+  line `to the Central Government to apply the same.`
+  line
+  line `(2) Every such application shall be by notified order, and the Central Government may, by the`
+  line `same or any subsequent notified order, direct that this Chapter and Chapters I, IV and V shall, in`
+  line `relation to any such ^1[foreign State], apply subject to such modifications, exceptions, conditions and`
+  line `qualifications as it may think fit to specify in the order for the purpose of implementing the`
+  line arrangement.
+obj_root_law_sections_12_footnotes:
+  string
+  line `1. Subs. by s. 3, ibid., for "commonwealth country" (w.e.f. 18-12-1993).`
+  line
+  line `2. Subs. by s. 10, ibid., for "country" (w.e.f. 18-12-1993).`
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 4231)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Liability of fugitive criminals from foreign States to be apprehended and returned.`)
-  (str content) (str `Where a fugitive criminal of any ^10[foreign State] to which this Chapter applies is found in
-India, he shall be liable to be apprehended and returned in the manner provided by this Chapter to that
-^10[foreign State].`)
-  (str footnotes) (str `1. Subs. by s. 3, ibid., for "commonwealth country" (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4231&sectionno=13&orderno=13&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4231)
+  sectionNo (13)
+  orderNo 13
+  title `Liability of fugitive criminals from foreign States to be apprehended and returned.`
+  content obj_root_law_sections_13_content
+  footnotes `1. Subs. by s. 3, ibid., for "commonwealth country" (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4231&sectionno=13&orderno=13&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_13_content:
+  string
+  line `Where a fugitive criminal of any ^10[foreign State] to which this Chapter applies is found in`
+  line `India, he shall be liable to be apprehended and returned in the manner provided by this Chapter to that`
+  line `^10[foreign State].`
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 4232)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Endorsed and provisional warrants.`)
-  (str content) (str `A fugitive criminal may be apprehended in India
-under an endorsed warrant or a provisional warrant.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4232&sectionno=14&orderno=14&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4232)
+  sectionNo (14)
+  orderNo 14
+  title `Endorsed and provisional warrants.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4232&sectionno=14&orderno=14&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_14_content:
+  string
+  line `A fugitive criminal may be apprehended in India`
+  line `under an endorsed warrant or a provisional warrant.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 4233)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Endorsed warrant for apprehension of fugitive criminal.`)
-  (str content) (str `Where a warrant for the
-apprehension of a fugitive criminal has been issued in any ^1[foreign State] to which this Chapter
-applies and such fugitive criminal is, or is suspected to be, in India, the Central Government may, if
-satisfied that the warrant was issued by a person having lawful authority to issue the same, endorse
-such warrant in the manner prescribed, and the warrant so endorsed shall be sufficient authority to
-apprehend the person named in the warrant and to bring him before and magistrate in India.`)
-  (str footnotes) (str `1. Subs. by s. 3, ibid., for "commonwealth country" (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4233&sectionno=15&orderno=15&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4233)
+  sectionNo (15)
+  orderNo 15
+  title `Endorsed warrant for apprehension of fugitive criminal.`
+  content obj_root_law_sections_15_content
+  footnotes `1. Subs. by s. 3, ibid., for "commonwealth country" (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4233&sectionno=15&orderno=15&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_15_content:
+  string
+  line `Where a warrant for the`
+  line `apprehension of a fugitive criminal has been issued in any ^1[foreign State] to which this Chapter`
+  line `applies and such fugitive criminal is, or is suspected to be, in India, the Central Government may, if`
+  line `satisfied that the warrant was issued by a person having lawful authority to issue the same, endorse`
+  line `such warrant in the manner prescribed, and the warrant so endorsed shall be sufficient authority to`
+  line `apprehend the person named in the warrant and to bring him before and magistrate in India.`
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 4234)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Provisional warrant for apprehension of fugitive criminal.`)
-  (str content) (str `(1) Any magistrate may issue
-a provisional warrant for the apprehension of a fugitive criminal from any ^1[foreign State] to which
-this Chapter applies who is, or is suspected to be, in or on his way to India, on such information and
-under such circumstances as would, in his opinion, justify the issue of a warrant, if the offence of
-which the fugitive criminal is accused or has been convicted had been committed within his
-jurisdiction and such warrant may be executed accordingly.
-
-(2) A magistrate issuing a provisional warrant shall forthwith send a report of the issue of the
-warrant together with the information or a certified copy thereof to the Central Government, and the
-Central Government may, if it thinks fit, discharge the person apprehended under such warrant.
-
-(3) A fugitive criminal apprehended on a provisional warrant may, from time to time, be
-remanded for such reasonable time, not exceeding seven days at any one time, as under the
-circumstances seems requisite for the production of an endorsed warrant.`)
-  (str footnotes) (str `1. Subs. by Act 66 of 1993, s. 3, for "commonwealth country" (w.e.f. 18-12-1993)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4234&sectionno=16&orderno=16&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4234)
+  sectionNo (16)
+  orderNo 16
+  title `Provisional warrant for apprehension of fugitive criminal.`
+  content obj_root_law_sections_16_content
+  footnotes `1. Subs. by Act 66 of 1993, s. 3, for "commonwealth country" (w.e.f. 18-12-1993)`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4234&sectionno=16&orderno=16&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_16_content:
+  string
+  line `(1) Any magistrate may issue`
+  line `a provisional warrant for the apprehension of a fugitive criminal from any ^1[foreign State] to which`
+  line `this Chapter applies who is, or is suspected to be, in or on his way to India, on such information and`
+  line `under such circumstances as would, in his opinion, justify the issue of a warrant, if the offence of`
+  line `which the fugitive criminal is accused or has been convicted had been committed within his`
+  line `jurisdiction and such warrant may be executed accordingly.`
+  line
+  line `(2) A magistrate issuing a provisional warrant shall forthwith send a report of the issue of the`
+  line `warrant together with the information or a certified copy thereof to the Central Government, and the`
+  line `Central Government may, if it thinks fit, discharge the person apprehended under such warrant.`
+  line
+  line `(3) A fugitive criminal apprehended on a provisional warrant may, from time to time, be`
+  line `remanded for such reasonable time, not exceeding seven days at any one time, as under the`
+  line `circumstances seems requisite for the production of an endorsed warrant.`
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 4235)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Dealing with fugitive criminal when apprehended.`)
-  (str content) (str `(1) If the magistrate, before whom a
-person apprehended under this Chapter is brought, is satisfied on inquiry that the endorsed warrant for
-the apprehension of the fugitive criminal is duly authenticated and that the offence of which the
-person is accused or has been convicted is an extradition offence, the magistrate shall commit the
-fugitive criminal to prison to await his return and shall forthwith send to the Central Government a
-certificate of the committal.
-
-(2) If on such inquiry the magistrate is of opinion that the endorsed warrant is not duly
-authenticated or that the offence of which such person is accused or has been convicted is not an
-extradition offence, the magistrate may, pending the receipt of the orders of the Central Government,
-detain such person in custody or release him on bail.
-
-(3) The magistrate shall report the result of his inquiry to the Central Government and shall
-forward together with such report any written statement which the fugitive criminal may desire to
-submit for the consideration of that Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4235&sectionno=17&orderno=17&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4235)
+  sectionNo (17)
+  orderNo 17
+  title `Dealing with fugitive criminal when apprehended.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4235&sectionno=17&orderno=17&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_17_content:
+  string
+  line `(1) If the magistrate, before whom a`
+  line `person apprehended under this Chapter is brought, is satisfied on inquiry that the endorsed warrant for`
+  line `the apprehension of the fugitive criminal is duly authenticated and that the offence of which the`
+  line `person is accused or has been convicted is an extradition offence, the magistrate shall commit the`
+  line `fugitive criminal to prison to await his return and shall forthwith send to the Central Government a`
+  line `certificate of the committal.`
+  line
+  line `(2) If on such inquiry the magistrate is of opinion that the endorsed warrant is not duly`
+  line `authenticated or that the offence of which such person is accused or has been convicted is not an`
+  line `extradition offence, the magistrate may, pending the receipt of the orders of the Central Government,`
+  line `detain such person in custody or release him on bail.`
+  line
+  line `(3) The magistrate shall report the result of his inquiry to the Central Government and shall`
+  line `forward together with such report any written statement which the fugitive criminal may desire to`
+  line `submit for the consideration of that Government.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 4236)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Return of fugitive criminal by warrant.`)
-  (str content) (str `The Central Government may, at any time after a
-fugitive criminal has been committed to prison under this Chapter, issue a warrant for the custody and
-removal to the ^1[foreign State] concerned of the fugitive criminal and for his delivery at a place and to
-a person to be named in the warrant.`)
-  (str footnotes) (str `1. Subs. by Act 66 of 1993, s. 3, for "commonwealth country" (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4236&sectionno=18&orderno=18&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4236)
+  sectionNo (18)
+  orderNo 18
+  title `Return of fugitive criminal by warrant.`
+  content obj_root_law_sections_18_content
+  footnotes `1. Subs. by Act 66 of 1993, s. 3, for "commonwealth country" (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4236&sectionno=18&orderno=18&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_18_content:
+  string
+  line `The Central Government may, at any time after a`
+  line `fugitive criminal has been committed to prison under this Chapter, issue a warrant for the custody and`
+  line `removal to the ^1[foreign State] concerned of the fugitive criminal and for his delivery at a place and to`
+  line `a person to be named in the warrant.`
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 4237)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Mode of requisition or form of warrant for the surrender or return to India of accused or convicted person who is in a foreign State or Commonwealth country.`)
-  (str content) (str `19. Mode of requisition or form of warrant for the surrender or return to India of accused
-or convicted person who is in a foreign State ^1* * *.--(1) A requisition for the surrender of a person
-accused or convicted of an extradition offence committed in India and who is or is suspected to be, in
-any foreign State ^2* * * to which Chapter III does not apply, may be made by the
-Central Government--
-
-(a) to a diplomatic representative of that State ^3* * * at Delhi; or
-
-(b) to the Government of that State ^3* * * through the diplomatic representative of India in
-that State
-^3* * *;
-
-and if neither of these modes is convenient, the requisition shall be made in such other mode as is
-settled by arrangement made by the Government of India with that State ^3* * *.
-
-(2) A warrant issued by a magistrate in India for the apprehension of any person who is, or is
-suspected to be, in any ^4[foreign State] to which Chapter III applies shall be in such form as may be
-prescribed.`)
-  (str footnotes) (str `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).
-
-2. The words "or a commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).
-
-3. The words "or country" omitted by s. 3, ibid. (w.e.f.18-12-1993).
-
-4. Subs. by Act 66 of 1993, s. 3, for "commonwealth country" (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4237&sectionno=19&orderno=19&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4237)
+  sectionNo (19)
+  orderNo 19
+  title `Mode of requisition or form of warrant for the surrender or return to India of accused or convicted person who is in a foreign State or Commonwealth country.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4237&sectionno=19&orderno=19&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_19_content:
+  string
+  line `19. Mode of requisition or form of warrant for the surrender or return to India of accused`
+  line `or convicted person who is in a foreign State ^1* * *.--(1) A requisition for the surrender of a person`
+  line `accused or convicted of an extradition offence committed in India and who is or is suspected to be, in`
+  line `any foreign State ^2* * * to which Chapter III does not apply, may be made by the`
+  line `Central Government--`
+  line
+  line `(a) to a diplomatic representative of that State ^3* * * at Delhi; or`
+  line
+  line `(b) to the Government of that State ^3* * * through the diplomatic representative of India in`
+  line `that State`
+  line `^3* * *;`
+  line
+  line `and if neither of these modes is convenient, the requisition shall be made in such other mode as is`
+  line `settled by arrangement made by the Government of India with that State ^3* * *.`
+  line
+  line `(2) A warrant issued by a magistrate in India for the apprehension of any person who is, or is`
+  line `suspected to be, in any ^4[foreign State] to which Chapter III applies shall be in such form as may be`
+  line prescribed.
+obj_root_law_sections_19_footnotes:
+  string
+  line `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`
+  line
+  line `2. The words "or a commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`
+  line
+  line `3. The words "or country" omitted by s. 3, ibid. (w.e.f.18-12-1993).`
+  line
+  line `4. Subs. by Act 66 of 1993, s. 3, for "commonwealth country" (w.e.f. 18-12-1993).`
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 4238)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Conveyance of accused or convicted person surrendered or returned.`)
-  (str content) (str `Any person
-accused or convicted of an extradition offence who is surrendered or returned by a foreign State ^1*** may, under the warrant of arrest for his surrender or return issued in such State or country, be brought
-into India and delivered to the proper authority to be dealt with according to law.`)
-  (str footnotes) (str `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4238&sectionno=20&orderno=20&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4238)
+  sectionNo (20)
+  orderNo 20
+  title `Conveyance of accused or convicted person surrendered or returned.`
+  content obj_root_law_sections_20_content
+  footnotes `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4238&sectionno=20&orderno=20&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_20_content:
+  string
+  line `Any person`
+  line `accused or convicted of an extradition offence who is surrendered or returned by a foreign State ^1*** may, under the warrant of arrest for his surrender or return issued in such State or country, be brought`
+  line `into India and delivered to the proper authority to be dealt with according to law.`
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 4239)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Accused or convicted person surrendered or returned by foreign State not to be tried for certain offence.`)
-  (str content) (str `^1[21. Accused or convicted person surrendered or returned by foreign State not to be tried
-for certain offences.--Whenever any person accused or convicted of an offence, which, if committed
-in India would be an extradition offence, is surrendered or returned by a foreign State, such person
-shall not, until he has been restored or has had an opportunity of returning to that State, be tried in
-India for an offence other than--
-
-(a) the extradition offence in relation to which he was surrendered or returned; or
-
-(b) any lesser offence disclosed by the facts proved for the purposes of securing his surrender
-or return other than an offence in relation to which an order for his surrender or return could not
-be lawfully made; or
-
-(c) the offence in respect of which the foreign State has given its consent.]`)
-  (str footnotes) (str `1. Subs. by s. 12, ibid., for section 21 (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4239&sectionno=21&orderno=21&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4239)
+  sectionNo (21)
+  orderNo 21
+  title `Accused or convicted person surrendered or returned by foreign State not to be tried for certain offence.`
+  content obj_root_law_sections_21_content
+  footnotes `1. Subs. by s. 12, ibid., for section 21 (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4239&sectionno=21&orderno=21&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_21_content:
+  string
+  line `^1[21. Accused or convicted person surrendered or returned by foreign State not to be tried`
+  line `for certain offences.--Whenever any person accused or convicted of an offence, which, if committed`
+  line `in India would be an extradition offence, is surrendered or returned by a foreign State, such person`
+  line `shall not, until he has been restored or has had an opportunity of returning to that State, be tried in`
+  line `India for an offence other than--`
+  line
+  line `(a) the extradition offence in relation to which he was surrendered or returned; or`
+  line
+  line `(b) any lesser offence disclosed by the facts proved for the purposes of securing his surrender`
+  line `or return other than an offence in relation to which an order for his surrender or return could not`
+  line `be lawfully made; or`
+  line
+  line `(c) the offence in respect of which the foreign State has given its consent.]`
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 4240)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Liability of fugitive criminals to be arrested and surrendered or returned.`)
-  (str content) (str `Every
-fugitive criminal of a foreign State ^1* * * shall, subject to the provisions of this Act, be liable to be
-arrested and surrendered or returned, whether the offence in respect of which the surrender or return is
-sought was committed before or after the commencement of this Act, and whether or not a court in
-India has jurisdiction to try that offence.`)
-  (str footnotes) (str `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4240&sectionno=22&orderno=22&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4240)
+  sectionNo (22)
+  orderNo 22
+  title `Liability of fugitive criminals to be arrested and surrendered or returned.`
+  content obj_root_law_sections_22_content
+  footnotes `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4240&sectionno=22&orderno=22&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_22_content:
+  string
+  line Every
+  line `fugitive criminal of a foreign State ^1* * * shall, subject to the provisions of this Act, be liable to be`
+  line `arrested and surrendered or returned, whether the offence in respect of which the surrender or return is`
+  line `sought was committed before or after the commencement of this Act, and whether or not a court in`
+  line `India has jurisdiction to try that offence.`
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 4241)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Jurisdiction as to offences committed at sea or in air.`)
-  (str content) (str `Where the offence in respect of
-which the surrender or return of a fugitive criminal is sought was committed on board any vessel on
-the high seas or any aircraft while in the air outside India or the Indian territorial waters which comes
-into any port or aerodrome of India, the Central Government and any magistrate having jurisdiction in
-such port or aerodrome may exercise the powers conferred by this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4241&sectionno=23&orderno=23&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4241)
+  sectionNo (23)
+  orderNo 23
+  title `Jurisdiction as to offences committed at sea or in air.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4241&sectionno=23&orderno=23&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_23_content:
+  string
+  line `Where the offence in respect of`
+  line `which the surrender or return of a fugitive criminal is sought was committed on board any vessel on`
+  line `the high seas or any aircraft while in the air outside India or the Indian territorial waters which comes`
+  line `into any port or aerodrome of India, the Central Government and any magistrate having jurisdiction in`
+  line `such port or aerodrome may exercise the powers conferred by this Act.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 4242)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Discharge of person apprehended if not surrendered or returned within two months.`)
-  (str content) (str `If a fugitive criminal who, in pursuance of this Act, has been committed to prison to await his
-surrender or return to any foreign State ^1* * * is not conveyed out of India within two months after
-such committal, the High Court, upon application made to it by or on behalf of the fugitive criminal
-and upon proof that reasonable notice of the intention to make such application has been given to the
-Central Government, may order such prisoner to be discharged unless sufficient cause is shown to the
-contrary.`)
-  (str footnotes) (str `1. The words "or country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4242&sectionno=24&orderno=24&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4242)
+  sectionNo (24)
+  orderNo 24
+  title `Discharge of person apprehended if not surrendered or returned within two months.`
+  content obj_root_law_sections_24_content
+  footnotes `1. The words "or country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4242&sectionno=24&orderno=24&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_24_content:
+  string
+  line `If a fugitive criminal who, in pursuance of this Act, has been committed to prison to await his`
+  line `surrender or return to any foreign State ^1* * * is not conveyed out of India within two months after`
+  line `such committal, the High Court, upon application made to it by or on behalf of the fugitive criminal`
+  line `and upon proof that reasonable notice of the intention to make such application has been given to the`
+  line `Central Government, may order such prisoner to be discharged unless sufficient cause is shown to the`
+  line contrary.
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 4243)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Release of persons arrested on bail.`)
-  (str content) (str `In the case of a person who is a fugitive criminal
-arrested or detained under this Act, the provisions of ^1[the Code of Criminal Procedure, 1973
-(2 of 1974)] relating to bail shall apply in the same manner as they would apply if such person were
-accused of committing in India the offence of which he is accused or has been convicted, and in
-relation to such bail, the magistrate before whom the fugitive criminal is brought shall have, as far as
-may be, the same powers and jurisdiction as a court of session under that Code.`)
-  (str footnotes) (str `1. Subs. by s. 13, ibid., for "the Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4243&sectionno=25&orderno=25&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4243)
+  sectionNo (25)
+  orderNo 25
+  title `Release of persons arrested on bail.`
+  content obj_root_law_sections_25_content
+  footnotes `1. Subs. by s. 13, ibid., for "the Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4243&sectionno=25&orderno=25&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_25_content:
+  string
+  line `In the case of a person who is a fugitive criminal`
+  line `arrested or detained under this Act, the provisions of ^1[the Code of Criminal Procedure, 1973`
+  line `(2 of 1974)] relating to bail shall apply in the same manner as they would apply if such person were`
+  line `accused of committing in India the offence of which he is accused or has been convicted, and in`
+  line `relation to such bail, the magistrate before whom the fugitive criminal is brought shall have, as far as`
+  line `may be, the same powers and jurisdiction as a court of session under that Code.`
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 4244)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Abetment of extradition offences.`)
-  (str content) (str `A fugitive criminal who is accused or convicted of
-abetting ^1[, conspiring, attempting to commit, inciting or participating as an accomplice in the
-commission of] any extradition offence shall be deemed for the purposes of this Act to be accused or
-convicted of having committed such offence and shall be liable to be arrested and surrendered
-accordingly.`)
-  (str footnotes) (str `1. Ins. by Act 66 of 1993, s. 14 (w.e.f 18-12-1993)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4244&sectionno=26&orderno=26&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4244)
+  sectionNo (26)
+  orderNo 26
+  title `Abetment of extradition offences.`
+  content obj_root_law_sections_26_content
+  footnotes `1. Ins. by Act 66 of 1993, s. 14 (w.e.f 18-12-1993)`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4244&sectionno=26&orderno=26&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_26_content:
+  string
+  line `A fugitive criminal who is accused or convicted of`
+  line `abetting ^1[, conspiring, attempting to commit, inciting or participating as an accomplice in the`
+  line `commission of] any extradition offence shall be deemed for the purposes of this Act to be accused or`
+  line `convicted of having committed such offence and shall be liable to be arrested and surrendered`
+  line accordingly.
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 4245)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Lawfulness of, and retaking on escape from, custody under warrants.`)
-  (str content) (str `It shall be lawful
-for any person to whom a warrant is directed for the apprehension of a fugitive criminal to hold in
-custody and convey the person mentioned in the warrant to the place named in the warrant, and if
-such person escapes out of any custody to which he may be delivered in pursuance of such warrant, he
-may be re-taken as a person accused of an offence against the law of India may be re-taken upon an
-escape.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4245&sectionno=27&orderno=27&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4245)
+  sectionNo (27)
+  orderNo 27
+  title `Lawfulness of, and retaking on escape from, custody under warrants.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4245&sectionno=27&orderno=27&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_27_content:
+  string
+  line `It shall be lawful`
+  line `for any person to whom a warrant is directed for the apprehension of a fugitive criminal to hold in`
+  line `custody and convey the person mentioned in the warrant to the place named in the warrant, and if`
+  line `such person escapes out of any custody to which he may be delivered in pursuance of such warrant, he`
+  line `may be re-taken as a person accused of an offence against the law of India may be re-taken upon an`
+  line escape.
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 4246)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str `Property found on fugitive criminal.`)
-  (str content) (str `Everything found in the possession of a fugitive
-criminal at the time of his arrest which may be material as evidence in proving the extradition offence
-may be delivered up with the fugitive criminal on his surrender or return, subject to the rights, if any,
-of third parties with respect thereto.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4246&sectionno=28&orderno=28&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4246)
+  sectionNo (28)
+  orderNo 28
+  title `Property found on fugitive criminal.`
+  content obj_root_law_sections_28_content
+  footnotes obj_root_law_sections_28_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4246&sectionno=28&orderno=28&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_28_content:
+  string
+  line `Everything found in the possession of a fugitive`
+  line `criminal at the time of his arrest which may be material as evidence in proving the extradition offence`
+  line `may be delivered up with the fugitive criminal on his surrender or return, subject to the rights, if any,`
+  line `of third parties with respect thereto.`
+obj_root_law_sections_28_footnotes:
+  string
+  line
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 4247)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Power of Central Government to discharge any fugitive criminal.`)
-  (str content) (str `If it appears to the
-Central Government that by reason of the trivial nature of the case or by reason of the application for
-the surrender or return of a fugitive criminal not being made in good faith or in the interests of justice
-or for political reasons or otherwise, it is unjust or inexpedient to surrender or return the fugitive
-criminal, it may, by order, at any time stay any proceedings under this Act and direct any warrant
-issued or endorsed under this Act to be cancelled and the person for whose arrest the warrant has been
-issued or endorsed to be discharged.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4247&sectionno=29&orderno=29&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4247)
+  sectionNo (29)
+  orderNo 29
+  title `Power of Central Government to discharge any fugitive criminal.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4247&sectionno=29&orderno=29&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_29_content:
+  string
+  line `If it appears to the`
+  line `Central Government that by reason of the trivial nature of the case or by reason of the application for`
+  line `the surrender or return of a fugitive criminal not being made in good faith or in the interests of justice`
+  line `or for political reasons or otherwise, it is unjust or inexpedient to surrender or return the fugitive`
+  line `criminal, it may, by order, at any time stay any proceedings under this Act and direct any warrant`
+  line `issued or endorsed under this Act to be cancelled and the person for whose arrest the warrant has been`
+  line `issued or endorsed to be discharged.`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 4248)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str `Simultaneous requisitions.`)
-  (str content) (str `If requisitions for the surrender of a fugitive criminal are
-received from more than one foreign State ^1
-***, the Central Government may, having regard to the
-circumstances of the case, surrender the fugitive criminal to such State or country as that Government
-thinks fit`)
-  (str footnotes) (str `1. The words "or commonwealth country or from any foreign State and any commonwealth country" omitted by s. 15, ibid.
-(w.e.f 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4248&sectionno=30&orderno=30&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4248)
+  sectionNo (30)
+  orderNo 30
+  title `Simultaneous requisitions.`
+  content obj_root_law_sections_30_content
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4248&sectionno=30&orderno=30&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_30_content:
+  string
+  line `If requisitions for the surrender of a fugitive criminal are`
+  line `received from more than one foreign State ^1`
+  line `***, the Central Government may, having regard to the`
+  line `circumstances of the case, surrender the fugitive criminal to such State or country as that Government`
+  line `thinks fit`
+obj_root_law_sections_30_footnotes:
+  string
+  line `1. The words "or commonwealth country or from any foreign State and any commonwealth country" omitted by s. 15, ibid.`
+  line `(w.e.f 18-12-1993).`
 obj_root_law_sections_31:
-  object
-  (str sectionId) (str 4249)
-  (str sectionNo) (str 31)
-  (str orderNo) (int 31)
-  (str title) (str `Restrictions on surrender.`)
-  (str content) (str `^1[(1)] A fugitive criminal shall not be surrendered or returned to
-a foreign State ^2***.--
-
-(a) if the offence in respect of which his surrender is sought is of a political character or if he
-proves to the satisfaction of the magistrate or court before whom he may be produced or of the
-Central Government that the requisition or warrant for his surrender has, in fact, been made with a
-view to try or punish him for an offence of a political character;
-
-(b) if prosecution for the offence in respect of which his surrender is sought is according to
-the law of that State ^3*** barred by time;
-
-^4[(c) unless provision is made by that law of the foreign State or in the extradition treaty with
-the foreign State that the fugitive criminal shall not be determined or tried in that State for an
-offence other than--
-
-(i) the extradition offence in relation to which he is to be surrendered or returned;
-
-(ii) any lesser offence disclosed by the facts proved for the purposes of securing his
-surrender or return other than an offence in relation to which an order for his surrender or
-return could not be lawfully made; or
-
-(iii) the offence in respect of which the Central Government has given its consent;]
-
-(d) if he has been accused of some offence in India, not being the offence for which his
-surrender or return is sought, or is undergoing sentence under any conviction in India until after
-he has been discharged, whether by acquittal or on expiration of his sentence or otherwise;
-
-(e) until after the expiration of fifteen days from the date of his being committed to prison by
-the magistrate.
-
-^5[(2) For the purposes of sub-section (1), the offence specified in the Schedule shall not be
-regarded as offences of a political character.
-
-(3) The Central Government having regard to the extradition treaty made by India with any
-foreign State may, by notified order, add or omit any offence from the list given in the Schedule.]`)
-  (str footnotes) (str `1. Section 31 re-numbered as sub-section (1) of that section by s. 16, ibid. (w.e.f. 18-12-1993).
-
-2. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f.18-12-1993).
-
-3. The words "or country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).
-
-4. Subs. by s. 16, ibid., for clause (c) (w.e.f. 18-12-1993).
-
-5. Ins. by Act 66 of 1993, s. 16 (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4249&sectionno=31&orderno=31&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4249)
+  sectionNo (31)
+  orderNo 31
+  title `Restrictions on surrender.`
+  content obj_root_law_sections_31_content
+  footnotes obj_root_law_sections_31_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4249&sectionno=31&orderno=31&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_31_content:
+  string
+  line `^1[(1)] A fugitive criminal shall not be surrendered or returned to`
+  line `a foreign State ^2***.--`
+  line
+  line `(a) if the offence in respect of which his surrender is sought is of a political character or if he`
+  line `proves to the satisfaction of the magistrate or court before whom he may be produced or of the`
+  line `Central Government that the requisition or warrant for his surrender has, in fact, been made with a`
+  line `view to try or punish him for an offence of a political character;`
+  line
+  line `(b) if prosecution for the offence in respect of which his surrender is sought is according to`
+  line `the law of that State ^3*** barred by time;`
+  line
+  line `^4[(c) unless provision is made by that law of the foreign State or in the extradition treaty with`
+  line `the foreign State that the fugitive criminal shall not be determined or tried in that State for an`
+  line `offence other than--`
+  line
+  line `(i) the extradition offence in relation to which he is to be surrendered or returned;`
+  line
+  line `(ii) any lesser offence disclosed by the facts proved for the purposes of securing his`
+  line `surrender or return other than an offence in relation to which an order for his surrender or`
+  line `return could not be lawfully made; or`
+  line
+  line `(iii) the offence in respect of which the Central Government has given its consent;]`
+  line
+  line `(d) if he has been accused of some offence in India, not being the offence for which his`
+  line `surrender or return is sought, or is undergoing sentence under any conviction in India until after`
+  line `he has been discharged, whether by acquittal or on expiration of his sentence or otherwise;`
+  line
+  line `(e) until after the expiration of fifteen days from the date of his being committed to prison by`
+  line `the magistrate.`
+  line
+  line `^5[(2) For the purposes of sub-section (1), the offence specified in the Schedule shall not be`
+  line `regarded as offences of a political character.`
+  line
+  line `(3) The Central Government having regard to the extradition treaty made by India with any`
+  line `foreign State may, by notified order, add or omit any offence from the list given in the Schedule.]`
+obj_root_law_sections_31_footnotes:
+  string
+  line `1. Section 31 re-numbered as sub-section (1) of that section by s. 16, ibid. (w.e.f. 18-12-1993).`
+  line
+  line `2. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f.18-12-1993).`
+  line
+  line `3. The words "or country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`
+  line
+  line `4. Subs. by s. 16, ibid., for clause (c) (w.e.f. 18-12-1993).`
+  line
+  line `5. Ins. by Act 66 of 1993, s. 16 (w.e.f. 18-12-1993).`
 obj_root_law_sections_32:
-  object
-  (str sectionId) (str 4250)
-  (str sectionNo) (str 32)
-  (str orderNo) (int 32)
-  (str title) (str `Sections 29 and 31 to apply without any modification thereof.`)
-  (str content) (str `Notwithstanding anything
-to the contrary contained in section 3 or section 12, the provisions of sections 29 and 31 shall apply
-without any modification to every foreign State ^1***.`)
-  (str footnotes) (str `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4250&sectionno=32&orderno=32&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4250)
+  sectionNo (32)
+  orderNo 32
+  title `Sections 29 and 31 to apply without any modification thereof.`
+  content obj_root_law_sections_32_content
+  footnotes `1. The words "or commonwealth country" omitted by s. 3, ibid. (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4250&sectionno=32&orderno=32&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_32_content:
+  string
+  line `Notwithstanding anything`
+  line `to the contrary contained in section 3 or section 12, the provisions of sections 29 and 31 shall apply`
+  line `without any modification to every foreign State ^1***.`
 obj_root_law_sections_33:
-  object
-  (str sectionId) (str 4251)
-  (str sectionNo) (str 33)
-  (str orderNo) (int 33)
-  (str title) (str `Act not to affect the Foreigners Act, 1946.`)
-  (str content) (str `Nothing in this Act shall affect the provisions
-of the Foreigners Act, 1946 (31 of 1946), or any order made thereunder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4251&sectionno=33&orderno=33&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4251)
+  sectionNo (33)
+  orderNo 33
+  title `Act not to affect the Foreigners Act, 1946.`
+  content obj_root_law_sections_33_content
+  footnotes obj_root_law_sections_33_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4251&sectionno=33&orderno=33&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_33_content:
+  string
+  line `Nothing in this Act shall affect the provisions`
+  line `of the Foreigners Act, 1946 (31 of 1946), or any order made thereunder.`
+obj_root_law_sections_33_footnotes:
+  string
+  line
 obj_root_law_sections_34:
-  object
-  (str sectionId) (str 4252)
-  (str sectionNo) (str 34)
-  (str orderNo) (int 34)
-  (str title) (str `Extra territorial jurisdiction.`)
-  (str content) (str `^1[34. Extra territorial jurisdiction.--An extradition offence committed by any person in a
-foreign State shall be deemed to have been committed in India and such person shall be liable to be
-prosecuted in India for such offence].`)
-  (str footnotes) (str `1. Subs. by s. 17, ibid., for section 34 (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4252&sectionno=34&orderno=34&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4252)
+  sectionNo (34)
+  orderNo 34
+  title `Extra territorial jurisdiction.`
+  content obj_root_law_sections_34_content
+  footnotes `1. Subs. by s. 17, ibid., for section 34 (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4252&sectionno=34&orderno=34&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_34_content:
+  string
+  line `^1[34. Extra territorial jurisdiction.--An extradition offence committed by any person in a`
+  line `foreign State shall be deemed to have been committed in India and such person shall be liable to be`
+  line `prosecuted in India for such offence].`
 obj_root_law_sections_34_a:
-  object
-  (str sectionId) (str 4253)
-  (str sectionNo) (str 34A)
-  (str orderNo) (int 35)
-  (str title) (str `Prosecution on refusal to extradition.`)
-  (str content) (str `^1[34A. Prosecution on refusal to extradition.--Where the Central Government is of the opinion
-that a fugitive criminal cannot be surrendered or returned pursuant to a request for extradition from a
-foreign State, it may, as it thinks fit, take steps to prosecute such fugitive criminal in India.]`)
-  (str footnotes) (str `1. Subs. by s. 17, ibid., for section 34 (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4253&sectionno=34A&orderno=35&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4253)
+  sectionNo 34A
+  orderNo 35
+  title `Prosecution on refusal to extradition.`
+  content obj_root_law_sections_34_a_content
+  footnotes `1. Subs. by s. 17, ibid., for section 34 (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4253&sectionno=34A&orderno=35&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_34_a_content:
+  string
+  line `^1[34A. Prosecution on refusal to extradition.--Where the Central Government is of the opinion`
+  line `that a fugitive criminal cannot be surrendered or returned pursuant to a request for extradition from a`
+  line `foreign State, it may, as it thinks fit, take steps to prosecute such fugitive criminal in India.]`
 obj_root_law_sections_34_b:
-  object
-  (str sectionId) (str 4254)
-  (str sectionNo) (str 34B)
-  (str orderNo) (int 36)
-  (str title) (str `Provisional arrest.`)
-  (str content) (str `^1[34B. Provisional arrest.--(1) On receipt of an urgent request from a foreign State for the
-immediate arrest of a fugitive criminal, the Central Government may request the Magistrate having
-competent jurisdiction to issue a provisional warrant for the arrest of such fugitive criminal.
-
-(2) A fugitive criminal arrested under sub-section (1) shall be discharged upon the expiration of
-sixty days from the date of his arrest if no request for his surrender or return is received within the
-said period.]`)
-  (str footnotes) (str `1. Subs. by s. 17, ibid., for section 34 (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4254&sectionno=34B&orderno=36&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4254)
+  sectionNo 34B
+  orderNo 36
+  title `Provisional arrest.`
+  content obj_root_law_sections_34_b_content
+  footnotes `1. Subs. by s. 17, ibid., for section 34 (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4254&sectionno=34B&orderno=36&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_34_b_content:
+  string
+  line `^1[34B. Provisional arrest.--(1) On receipt of an urgent request from a foreign State for the`
+  line `immediate arrest of a fugitive criminal, the Central Government may request the Magistrate having`
+  line `competent jurisdiction to issue a provisional warrant for the arrest of such fugitive criminal.`
+  line
+  line `(2) A fugitive criminal arrested under sub-section (1) shall be discharged upon the expiration of`
+  line `sixty days from the date of his arrest if no request for his surrender or return is received within the`
+  line `said period.]`
 obj_root_law_sections_34_c:
-  object
-  (str sectionId) (str 4255)
-  (str sectionNo) (str 34C)
-  (str orderNo) (int 37)
-  (str title) (str `Provision of life imprisonment for death penalty.`)
-  (str content) (str `^1[34C. Provision of life imprisonment for death penalty.--Notwithstanding anything contained
-in any other law for the time being in force, where a fugitive criminal, who has committed an
-extradition offence punishable with death in India, is surrendered or returned by a foreign State on the
-request of the Central Government and the laws of that foreign State do not provide for a death
-penalty for such an offence, such fugitive criminal shall be liable for punishment of imprisonment for
-life only for that offence.]`)
-  (str footnotes) (str `1. Subs. by s. 17, ibid., for section 34 (w.e.f. 18-12-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4255&sectionno=34C&orderno=37&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4255)
+  sectionNo 34C
+  orderNo 37
+  title `Provision of life imprisonment for death penalty.`
+  content obj_root_law_sections_34_c_content
+  footnotes `1. Subs. by s. 17, ibid., for section 34 (w.e.f. 18-12-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4255&sectionno=34C&orderno=37&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_34_c_content:
+  string
+  line `^1[34C. Provision of life imprisonment for death penalty.--Notwithstanding anything contained`
+  line `in any other law for the time being in force, where a fugitive criminal, who has committed an`
+  line `extradition offence punishable with death in India, is surrendered or returned by a foreign State on the`
+  line `request of the Central Government and the laws of that foreign State do not provide for a death`
+  line `penalty for such an offence, such fugitive criminal shall be liable for punishment of imprisonment for`
+  line `life only for that offence.]`
 obj_root_law_sections_35:
-  object
-  (str sectionId) (str 4256)
-  (str sectionNo) (str 35)
-  (str orderNo) (int 38)
-  (str title) (str `Notified orders and notifications to be laid before Parliament.`)
-  (str content) (str `Every notified order made
-or notification issued under this Act shall, as soon as may be after it is made or issued, be laid before
-each House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4256&sectionno=35&orderno=38&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4256)
+  sectionNo (35)
+  orderNo 38
+  title `Notified orders and notifications to be laid before Parliament.`
+  content obj_root_law_sections_35_content
+  footnotes obj_root_law_sections_35_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4256&sectionno=35&orderno=38&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_35_content:
+  string
+  line `Every notified order made`
+  line `or notification issued under this Act shall, as soon as may be after it is made or issued, be laid before`
+  line `each House of Parliament.`
+obj_root_law_sections_35_footnotes:
+  string
+  line
 obj_root_law_sections_36:
-  object
-  (str sectionId) (str 4257)
-  (str sectionNo) (str 36)
-  (str orderNo) (int 39)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The central Government may, by notification in the
-Official Gazette, make rules to carry out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the form in which a requisition for the surrender of a fugitive criminal may be made;
-
-(b) the form in which a warrant for the apprehension of any person in a ^1[foreign State] to
-which Chapter III applies may be made;
-
-(c) the manner in which any warrant may be endorsed or authenticated under this Act;
-
-(d) the removal of fugitive criminals accused or in custody under this Act and their control
-and maintenance until such time as they are handed over to the persons named in the warrant as
-entitled to receive them;
-
-(e) the seizure and disposition of any property which is the subject of, or required for proof of,
-any alleged offence to which this Act applies;
-
-(f) the form and manner in which or the channel through which a magistrate may be required
-to make his report to the Central Government under this Act;
-
-(g) any other matter which has to be, or may be, prescribed.
-
-(3) Every rule made under this section shall be laid as soon as may be after it is made before each
-House of Parliament while it is in session for a total period of thirty days which may be comprised in
-one session or ^2[in two or more successive sessions, and if, before the expiry of the session
-immediately following the session or the successive session aforesaid], both Houses agree in making
-any modification in the rule or both Houses agree that the rule should not made, the rule shall
-thereafter have effect only in such modified form or be of no effect, as the case may be; so however
-that any such modification or annulment shall be without prejudice to the validity of anything
-previously done under that rule.`)
-  (str footnotes) (str `1. Subs. by s. 3, ibid., for "commonwealth country" (w.e.f. 18-12-1993).
-
-2. Subs. by Act 4 of 1986, s. 2 and the Schedule, for certain words (w.e.f 15-5-1986).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4257&sectionno=36&orderno=39&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4257)
+  sectionNo (36)
+  orderNo 39
+  title `Power to make rules.`
+  content obj_root_law_sections_36_content
+  footnotes obj_root_law_sections_36_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4257&sectionno=36&orderno=39&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_36_content:
+  string
+  line `(1) The central Government may, by notification in the`
+  line `Official Gazette, make rules to carry out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the form in which a requisition for the surrender of a fugitive criminal may be made;`
+  line
+  line `(b) the form in which a warrant for the apprehension of any person in a ^1[foreign State] to`
+  line `which Chapter III applies may be made;`
+  line
+  line `(c) the manner in which any warrant may be endorsed or authenticated under this Act;`
+  line
+  line `(d) the removal of fugitive criminals accused or in custody under this Act and their control`
+  line `and maintenance until such time as they are handed over to the persons named in the warrant as`
+  line `entitled to receive them;`
+  line
+  line `(e) the seizure and disposition of any property which is the subject of, or required for proof of,`
+  line `any alleged offence to which this Act applies;`
+  line
+  line `(f) the form and manner in which or the channel through which a magistrate may be required`
+  line `to make his report to the Central Government under this Act;`
+  line
+  line `(g) any other matter which has to be, or may be, prescribed.`
+  line
+  line `(3) Every rule made under this section shall be laid as soon as may be after it is made before each`
+  line `House of Parliament while it is in session for a total period of thirty days which may be comprised in`
+  line `one session or ^2[in two or more successive sessions, and if, before the expiry of the session`
+  line `immediately following the session or the successive session aforesaid], both Houses agree in making`
+  line `any modification in the rule or both Houses agree that the rule should not made, the rule shall`
+  line `thereafter have effect only in such modified form or be of no effect, as the case may be; so however`
+  line `that any such modification or annulment shall be without prejudice to the validity of anything`
+  line `previously done under that rule.`
+obj_root_law_sections_36_footnotes:
+  string
+  line `1. Subs. by s. 3, ibid., for "commonwealth country" (w.e.f. 18-12-1993).`
+  line
+  line `2. Subs. by Act 4 of 1986, s. 2 and the Schedule, for certain words (w.e.f 15-5-1986).`
 obj_root_law_sections_37:
-  object
-  (str sectionId) (str 4258)
-  (str sectionNo) (str 37)
-  (str orderNo) (int 40)
-  (str title) (str `Repeals and savings.`)
-  (str content) (str `(1) The Indian Extradition Act, 1903 (15 of 1903), and any law
-corresponding thereto in force at the commencement of this Act in the territories which, immediately
-before the 1st day of November, 1956, were comprised in Part B States and the North East Frontier
-Agency and Tuensang District (Extradition) Regulation, 1961 (3 of 1961), are hereby repealed.
-
-(2) The Extradition Acts, 1870 to 1932 (33 and 34 Vict. c. 52; 36 and 37 Vict. c. 60; 6 Edw. 7, c.
-15; 22 and 23 Geo. 5, c. 39, 44 and 45 Vict. c. 69) and the Fugitive Offenders Act, 1881, in so far as
-they apply to and operate as part of the law of India, are hereby repealed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4258&sectionno=37&orderno=40&orgactid=AC_CEN_10_10_00009_196234_1517807322487)
+  sectionId (4258)
+  sectionNo (37)
+  orderNo 40
+  title `Repeals and savings.`
+  content obj_root_law_sections_37_content
+  footnotes obj_root_law_sections_37_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00009_196234_1517807322487&sectionId=4258&sectionno=37&orderno=40&orgactid=AC_CEN_10_10_00009_196234_1517807322487
+obj_root_law_sections_37_content:
+  string
+  line `(1) The Indian Extradition Act, 1903 (15 of 1903), and any law`
+  line `corresponding thereto in force at the commencement of this Act in the territories which, immediately`
+  line `before the 1st day of November, 1956, were comprised in Part B States and the North East Frontier`
+  line `Agency and Tuensang District (Extradition) Regulation, 1961 (3 of 1961), are hereby repealed.`
+  line
+  line `(2) The Extradition Acts, 1870 to 1932 (33 and 34 Vict. c. 52; 36 and 37 Vict. c. 60; 6 Edw. 7, c.`
+  line `15; 22 and 23 Geo. 5, c. 39, 44 and 45 Vict. c. 69) and the Fugitive Offenders Act, 1881, in so far as`
+  line `they apply to and operate as part of the law of India, are hereby repealed.`
+obj_root_law_sections_37_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `प्रत्‍यर्पण अधिनियम, 1962`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1440/3/H1962-34.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T12:26:34.042Z`)
-  (str pageCount) (int 9)
-  (str sections) obj_root_law_translations_hi_sections
+  title `प्रत्‍यर्पण अधिनियम, 1962`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1440/3/H1962-34.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T12:26:34.042Z`
+  pageCount 9
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -871,465 +999,510 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_8
   obj_root_law_translations_hi_sections_9
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `प्रत्य र् प णअधिधियम, 1962
-( 1962 काअधिधियमसंखयां क 34 )
-[15 धसतम्ब र, 1962 ] प्रर्
-लायीअर्राधियोंकेप्रत्य र् प णसे 1 [ संबं धितधिधिकासमेकिऔरसंशोिि
-करिेतथाउससेसंबंधितयाउसकेआिुषंधिकधिषयों
-काउर्बंिकरिे ] केधलए
-अधिधियम
-भारतिणराज्य केतेरहिेंिषपमें संसद्द्वाराधिम्ि धलधितरूर्मेंयहअधिधियधमतहो: —
-अध्या य 1 प्र
-ारधम्भ क
-1. संधिप्त िाम, धिस्ता रऔरप्रारम्भ — ( 1 ) यह अधिधियम प्रत् य र् प णअधिधियम, 1962 कहाजासकेिा।
-( 2 )इसकाधिस्ता रसंर्ूणपभारतर्रहै।
-( 3 )यह उस तारीि 2 कोप्रिृत्तहोिा, धजसेकेन्‍दरी यसरकार शासकीय राजर्त्रमेंअधिसूचिाद्वाराधियतकरे।
-2. र् ररभाषाएं — इसअधिधियममें, जबतकककसंदभपसेअन्‍दय थाअर्ेधितिहो, —
-3 [ ( क) “ सधम्म श्र अर्राि ” से ककसीव्य धत काकोईऐसाकायपयाआचरणअधभप्रेतहै, जोर्ूणपत:याभाित:ककसी
-धिदेशीराज्य याभा र तमेंघ रितहुआहैककंतुकुलधमलाकरउसकाप्रभाियाआशधयतप्रभाि, यथाधस्थ धत, भारतमेंया
-ककसीधिदेशीराज्य मेंप्रत्य र् प णअर्राििरितकरेिा;]
-(ि) “ दोषधसधि ” और “ धसिदोष ” केअन्‍दत िपतऐसीदोषधसधियाउसकेप्रधतधिदेशिहींहैजोधिदेशीधिधिके
-अिीिन्‍दया यालयकीअिज्ञाकेधलएदोषधसधिहै, ककन्‍दतु न्‍द या यालयकीअिज्ञाकेधलएइसप्रकारधसिदोषव्य धत
-“ अधभयुत व् य धत ” र् दकेअन्‍दत िपतआताहै;
-4 [ (ि) “ प्रत् य र् प णअर्राि ” से —
-( i )ऐसेधिदेशीराज्य केसंबंिमें, जोसंधिबिराज्य है, उसराज्य केसाथ प्रत्र् णपणसंधिमेंउर्बंधित
-अर्रािअधभप्रेतहै;
-( ii )संधिबिराज्य सेधभन्‍दि ककसीधिदेशीराज्य के संबंिमेंऐसाअर्रािअधभप्रेतहैजोभारतयाककसी
-धिदेशीराज्य कीधिधिकेअिीिऐसेकारािाससेधजसकीअिधिएकिषपसेकमकीिहींहोिीदंडिीयहैऔर
-इसकेअंतिप तसधम्म श्र अर्रािहै;]
-(घ) “ प्रत् य र् प णसंधि ” से प्रर् लायीअर्राधियोंकेप्रत्य र् प णकेसम्ब न्‍द ि मेंककसीधिदेशीराज्य केसाथभारतद्वाराकी
-िईकोईसंधि 5 [ करारयािहराि ] अधभप्रेतहैऔरप्रर्लायीअर्राधियोंकेप्रत्य र् प ण के सम्ब न्‍द ि में 1947 केअिस्त के 15 िें
-कदिसेर्ूिपकीिईऐसीकोईसंधि 5 [ करारयािहराि ] धजसकाभारतर्रधिस्ता रहैऔरजोभारतर्रआबिकरहैइसके
-अन्‍दत िपतहै;
-1 1993 केअधिधियम सं ० 66 कीिारा 2 द्व ारा( 18 - 12 - 1993 ) कधतर्य शब्दों केस्था िर्रप्रधतस्था धर्त।
-2 5 जििरी, 1963; अधिसूचिासं ० सा ० का ० धि ० 55, तारीि 5 - 1 - 1963 भारतकाराजर्त्र, असािारण, भाि 2, अिुभाि 3 ( i ), र्ृ ० 7।
-अध्या य 3 केधसिाय, इसअधिधियमकेउर्बंि, धसधक मराज्य को ( 17 - 9 - 1975 से)धिस्ता ररतऔरप्रिृत्तककयािया, देधिएअधिसूचिासं ० सा ० का ० धि ०
-495 (अ), तारीि 17 - 9 - 1975।
-आस्रे धलयाकेकामििैल्थ को 30 - 8 - 1971 सेलािूककएिए; देधिएअधिसूचिासं ० सा ० का ० धि ० 1381, तारीि 30 - 8 - 1971, भारतकाराजर्त्र,
-असािारण, भाि 2, अिुभाि 3 ( i ), र्ृ ० 895।
-अध्या य 3 केधसिाय, इसअधिधियमकेउर्बंि, र् ार्ुआन्‍दयू धििीको 1 - 9 - 1978 सेलािूककएिए; देधिएअधिसूचिासं ० सा ० का ० धि ० 433 (अ), तारीि
-17 - 8 - 1978, भारतकाराजर्त्र, असािारण, भाि 2, अिुभाि 3 ( i ), र्ृ ० 748।
-अध्या य 3 केधसिाय, इसअधिधियमकेउर्बंि, किजीकोलािूककएिए; देधिएअधिसूचिासं ० सा ० का ० धि ० 38 (अ), तारीि 22 - 1 - 1979, भारतका
-राजर्त्र, असािारण, भाि 2, अिुभाि 3 ( i ), र्ृ ० 58।
-3 1993 केअधिधियमसं ० 66 कीिारा 4 द्व ारा( 18 - 12 - 1993 से)िंड(क)केस्था िर्रप्रधतस्था धर्त।
-4 1993 केअधिधियमसं ० 66 की िारा 4 द्व ारा( 18 - 12 - 1993 से)िंड(ि)केस्था िर्रप्रधतस्था धर्त।
-5 1993 केअधिधियमसं ० 66 कीिारा 4 द्व ारा( 18 - 12 - 1993 से) “ याकरार ” केस्था िर्रप्रधतस्था धर्त।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `प्रत्य र् प णअधिधियम, 1962`
+  line `( 1962 काअधिधियमसंखयां क 34 )`
+  line `[15 धसतम्ब र, 1962 ] प्रर्`
+  line `लायीअर्राधियोंकेप्रत्य र् प णसे 1 [ संबं धितधिधिकासमेकिऔरसंशोिि`
+  line करिेतथाउससेसंबंधितयाउसकेआिुषंधिकधिषयों
+  line `काउर्बंिकरिे ] केधलए`
+  line अधिधियम
+  line `भारतिणराज्य केतेरहिेंिषपमें संसद्द्वाराधिम्ि धलधितरूर्मेंयहअधिधियधमतहो: —`
+  line `अध्या य 1 प्र`
+  line `ारधम्भ क`
+  line `1. संधिप्त िाम, धिस्ता रऔरप्रारम्भ — ( 1 ) यह अधिधियम प्रत् य र् प णअधिधियम, 1962 कहाजासकेिा।`
+  line `( 2 )इसकाधिस्ता रसंर्ूणपभारतर्रहै।`
+  line `( 3 )यह उस तारीि 2 कोप्रिृत्तहोिा, धजसेकेन्‍दरी यसरकार शासकीय राजर्त्रमेंअधिसूचिाद्वाराधियतकरे।`
+  line `2. र् ररभाषाएं — इसअधिधियममें, जबतकककसंदभपसेअन्‍दय थाअर्ेधितिहो, —`
+  line `3 [ ( क) “ सधम्म श्र अर्राि ” से ककसीव्य धत काकोईऐसाकायपयाआचरणअधभप्रेतहै, जोर्ूणपत:याभाित:ककसी`
+  line `धिदेशीराज्य याभा र तमेंघ रितहुआहैककंतुकुलधमलाकरउसकाप्रभाियाआशधयतप्रभाि, यथाधस्थ धत, भारतमेंया`
+  line `ककसीधिदेशीराज्य मेंप्रत्य र् प णअर्राििरितकरेिा;]`
+  line `(ि) “ दोषधसधि ” और “ धसिदोष ” केअन्‍दत िपतऐसीदोषधसधियाउसकेप्रधतधिदेशिहींहैजोधिदेशीधिधिके`
+  line `अिीिन्‍दया यालयकीअिज्ञाकेधलएदोषधसधिहै, ककन्‍दतु न्‍द या यालयकीअिज्ञाकेधलएइसप्रकारधसिदोषव्य धत`
+  line `“ अधभयुत व् य धत ” र् दकेअन्‍दत िपतआताहै;`
+  line `4 [ (ि) “ प्रत् य र् प णअर्राि ” से —`
+  line `( i )ऐसेधिदेशीराज्य केसंबंिमें, जोसंधिबिराज्य है, उसराज्य केसाथ प्रत्र् णपणसंधिमेंउर्बंधित`
+  line अर्रािअधभप्रेतहै;
+  line `( ii )संधिबिराज्य सेधभन्‍दि ककसीधिदेशीराज्य के संबंिमेंऐसाअर्रािअधभप्रेतहैजोभारतयाककसी`
+  line `धिदेशीराज्य कीधिधिकेअिीिऐसेकारािाससेधजसकीअिधिएकिषपसेकमकीिहींहोिीदंडिीयहैऔर`
+  line `इसकेअंतिप तसधम्म श्र अर्रािहै;]`
+  line `(घ) “ प्रत् य र् प णसंधि ” से प्रर् लायीअर्राधियोंकेप्रत्य र् प णकेसम्ब न्‍द ि मेंककसीधिदेशीराज्य केसाथभारतद्वाराकी`
+  line `िईकोईसंधि 5 [ करारयािहराि ] अधभप्रेतहैऔरप्रर्लायीअर्राधियोंकेप्रत्य र् प ण के सम्ब न्‍द ि में 1947 केअिस्त के 15 िें`
+  line `कदिसेर्ूिपकीिईऐसीकोईसंधि 5 [ करारयािहराि ] धजसकाभारतर्रधिस्ता रहैऔरजोभारतर्रआबिकरहैइसके`
+  line `अन्‍दत िपतहै;`
+  line `1 1993 केअधिधियम सं ० 66 कीिारा 2 द्व ारा( 18 - 12 - 1993 ) कधतर्य शब्दों केस्था िर्रप्रधतस्था धर्त।`
+  line `2 5 जििरी, 1963; अधिसूचिासं ० सा ० का ० धि ० 55, तारीि 5 - 1 - 1963 भारतकाराजर्त्र, असािारण, भाि 2, अिुभाि 3 ( i ), र्ृ ० 7।`
+  line `अध्या य 3 केधसिाय, इसअधिधियमकेउर्बंि, धसधक मराज्य को ( 17 - 9 - 1975 से)धिस्ता ररतऔरप्रिृत्तककयािया, देधिएअधिसूचिासं ० सा ० का ० धि ०`
+  line `495 (अ), तारीि 17 - 9 - 1975।`
+  line `आस्रे धलयाकेकामििैल्थ को 30 - 8 - 1971 सेलािूककएिए; देधिएअधिसूचिासं ० सा ० का ० धि ० 1381, तारीि 30 - 8 - 1971, भारतकाराजर्त्र,`
+  line `असािारण, भाि 2, अिुभाि 3 ( i ), र्ृ ० 895।`
+  line `अध्या य 3 केधसिाय, इसअधिधियमकेउर्बंि, र् ार्ुआन्‍दयू धििीको 1 - 9 - 1978 सेलािूककएिए; देधिएअधिसूचिासं ० सा ० का ० धि ० 433 (अ), तारीि`
+  line `17 - 8 - 1978, भारतकाराजर्त्र, असािारण, भाि 2, अिुभाि 3 ( i ), र्ृ ० 748।`
+  line `अध्या य 3 केधसिाय, इसअधिधियमकेउर्बंि, किजीकोलािूककएिए; देधिएअधिसूचिासं ० सा ० का ० धि ० 38 (अ), तारीि 22 - 1 - 1979, भारतका`
+  line `राजर्त्र, असािारण, भाि 2, अिुभाि 3 ( i ), र्ृ ० 58।`
+  line `3 1993 केअधिधियमसं ० 66 कीिारा 4 द्व ारा( 18 - 12 - 1993 से)िंड(क)केस्था िर्रप्रधतस्था धर्त।`
+  line `4 1993 केअधिधियमसं ० 66 की िारा 4 द्व ारा( 18 - 12 - 1993 से)िंड(ि)केस्था िर्रप्रधतस्था धर्त।`
+  line `5 1993 केअधिधियमसं ० 66 कीिारा 4 द्व ारा( 18 - 12 - 1993 से) “ याकरार ” केस्था िर्रप्रधतस्था धर्त।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-( ङ ) “ धिदेशीराज्य ” से 1 *** भारतकेबाहरकाकोईराज्य अधभप्रेतहैऔरऐसेराज्य काप्रत्ये कसंघिकभाि,
-उर्धििेशयाआधश्रतदेशइ सकेअन्‍दत िपतआताहै;
-2 [ (च) “ प्रर् लायीअर्रािी ” से कोई ऐसा व् य धत अधभप्रेतहै जो ककसीधिदेशीराज्य कीअधिकाररताकेभीतर
-ककसीप्रत्य र् प णअर्रािकेधलएअधभयुत हैयाधसिदोषि हरायाियाहैऔरइसकेअंतिपतऐसा व् य धत हैजो, भारतमें
-रहतेहुए, ककसीधिदे शीराज्य मेंप्रत्य र् प णअर्रािकरिेकेधलए षड् यंत्र करताहै, उसेकरिेकाप्रयत्ि करताहैयाउसका
-उद्दीर्िकरताहैअथिाउसकेककएजािेमेंसह - अर्रािीकेरूर्मेंभािलेताहै;]
-(छ) “ मधजस्रे ि ” सेप्रथमििपकामधजस्रे ियाप्रेधसडेन्‍दसी मधजस्रे िअधभप्रे तहै;
-(ज) “ अधिसूधचतआदेश ” सेशासकीयराजर्त्रमेंअधिसूधचतआदेशअधभप्रेतहै;
-(झ) “ धिधहत ” सेइसअधिधियमकेअिीिबिाएिएधियमोंद्वाराधिधहतअधभप्रेतहै;
-( ञ ) “ सधन्‍दि बिराज्य ” सेऐसाधिदेशीराज्य अधभप्रेतहैधजसकेसाथप्रत्य र् प णसधन्‍दि प्र ितपिमें है।
-3. अधिधियमकालािूहोिा — 3 [ ( 1 ) केन्‍दरी यसरकार, अधिसूधचतआदेशद्वाराधिदेशदेसकेिीककइसअधिधियमके
-अध्या य 3 सेधभन्‍दि उर्बंिऐसेधिदेशीराज्य याउसकेभािकोलािूहोंिेजोआदेशमेंधिधिर्दपष्ि ककयाजाए। ]
-( 2 )केन्‍दरी यसरकार, उसी अधिसूधचतआदेशद्वाराजोउर्िारा( 1 )मेंधिर्दपष्ि हैयाककसीर्श्चा त् ितीअधिसूधचतआदेश द्व
-ाराऐसेलािूहोिेकोउिप्रर्लायीअर्राधियोंतकधिबपधन्‍दि तकरसकेिीजोभारतकेऐसेभािमेंजोउसआदेशमेंधिधिर्दपष्ि हो, र्
-ाएजाएंयाधजिकेिहांहोिेकासंदेहहो।
-( 3 )जहांअधिसूधचतआदेशकासम्ब न्‍द ि ककसीसधन्‍दि बिराज्य सेहै, िहां —
-(क)उसमेंउसराज्य केसाथहुईप्रत्य र् प णसधन्‍दि र्ू णपरूर्सेउर्िर्णपतहोिी;
-(ि)िहउससधन्‍दि सेदीघपतरकालािधितकप्रिर्तपतिहींरहेिा; और
-(ि)केन्‍दरी यसरकार, उसीअथिाककसीर् श् चा त् ितीअधिसूधचतआदेशद्वाराइसअधिधियमकेलािूहोिेकोऐसे
-संशोििों, अर्िादों, शतोंऔरधिशेषताओंकेअध्य िीिकरसकेिीजैसीउसराज्य केसाथसधन्‍दि कोकायापधन्‍दि तकरिेके
-धलएसमीचीिसमझीजाएं।
-4 [ ( 4 ) जहांककसीधिदेशीराज्य केसाथभारतद्वाराकोईप्र त् य र् प णसंधििहीं की िईहैिहांकेन्‍दरी यसरकार, अधिसूधचत
-आदेशद्वारा, ककसीऐसेअधभसमयको, धजसकेभारतऔरकोईधिदेशीराज्य र् िकारहैं, उसधिदेशीराज्य केसाथभारतद्वाराकीिई
-ऐ सीप्रत्य र् प णसंधिमािसकेिीधजसमेंउसअधभसमयमेंधिधिर्दपष्ि अर्रािोंको बाबतप्रत्य र् प णकेधलएउर्बंिककयाियाहै। ]
-अध्या य 2
-धिदेशीराज्यों को 5 *** धजिर्रअध्या य 3 लािूिहींहोताहै, प्रर्
-लायीअर्राधियोंकाप्रत्य र् प ण
-4. अभ्य र् प णकेधलएअध्य र्े िा — ककसी धिदेशीराज्य 6 *** केप्रर्लायीअर्रािीकेअभ्य र् प णकेधलएकेन्‍दरी यसरकार
-कोअध्य र्े िा —
-(क)उसधिदेशीराज्य 6 *** केकदल्ली धस्थ तराजिधयकप्रधतधिधिकेद्वाराकीजासकतीहै; या
-(ि)उसधिदेशीराज्य 6 *** कीसरकारद्वाराउसराज्य 7 *** मेंधस्थ तउसकेराजिधयकप्रधतधिधिकीमािपत
-केन्‍दरी यसरकारसेर्त्रव्य िहारकरकेकीजासकतीहै,
-औरयकदइिमेंसेकोईभीरीधतसुधििाजिकिहोतोअध्य र्े िाऐसीअन्‍दय रीधतसेकीजाएिीजैसीउसधिदेशीराज्य 6 *** की
-सरकार द्व ाराभारतसरकारकेसाथिहराि द्व ारातयकीजाए।
-5. मधजस्रे िद्वाराजांचकाआदेश — जहांऐसीअध्य र्े िाकी जातीहैिहांयकदकेन्‍दरी यसरकारिीकसमझतीहैतोिहककसी
-मधजस्रे िको, धजसेऐसेअर्रािकीजांचकरिेकीअधिकाररताहोतीयकदिहअर्रािउसकीअधिकाररताकीस्था िीयसीमाओंके
-अन्‍दद रककयाियाहोता, यहधिकदष्ि करतेहुएआदेशदेसकेिीककिहमामलेकीजांचकरे।
-1 1993 केअधिधियमसं ० 66 कीिारा 4 द्व ारा( 18 - 12 - 1993 से) “ कामििैल्थ देशसेधभन्‍दि ” शब्दों कालोर्ककयािया।
-2 1993 केअधिधियमसं ० 66 कीिारा 4 द्व ारा( 18 - 12 - 1993 से)िंड(च)केस्था िर्रप्रधतस्था धर्त।
-3 1993 केअधिधियमसं ० 66 कीिारा 5 द्व ारा( 18 - 12 - 1993 से)उर्िारा( 1 )केस्था िर्रप्रधतस्था धर्त।
-4 1993 केअधिधियमसं ० 66 कीिारा 5 द्व ारा( 18 - 12 - 1993 से) अंत:स्था धर्त।
-5 1993 केअधिधियमसं ० 66 कीिारा 6 द्व ारा( 18 - 12 - 1993 से) “ याकामििैल्थ देश ” शब्दों कालोर्ककयािया।
-6 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ याकामििैल्थ देशको ” शब्दों का लोर्ककयािया।
-7 1993 केअधिधि यमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ यादेश ” शब्दों कालोर्ककयािया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `( ङ ) “ धिदेशीराज्य ” से 1 *** भारतकेबाहरकाकोईराज्य अधभप्रेतहैऔरऐसेराज्य काप्रत्ये कसंघिकभाि,`
+  line `उर्धििेशयाआधश्रतदेशइ सकेअन्‍दत िपतआताहै;`
+  line `2 [ (च) “ प्रर् लायीअर्रािी ” से कोई ऐसा व् य धत अधभप्रेतहै जो ककसीधिदेशीराज्य कीअधिकाररताकेभीतर`
+  line `ककसीप्रत्य र् प णअर्रािकेधलएअधभयुत हैयाधसिदोषि हरायाियाहैऔरइसकेअंतिपतऐसा व् य धत हैजो, भारतमें`
+  line `रहतेहुए, ककसीधिदे शीराज्य मेंप्रत्य र् प णअर्रािकरिेकेधलए षड् यंत्र करताहै, उसेकरिेकाप्रयत्ि करताहैयाउसका`
+  line `उद्दीर्िकरताहैअथिाउसकेककएजािेमेंसह - अर्रािीकेरूर्मेंभािलेताहै;]`
+  line `(छ) “ मधजस्रे ि ” सेप्रथमििपकामधजस्रे ियाप्रेधसडेन्‍दसी मधजस्रे िअधभप्रे तहै;`
+  line `(ज) “ अधिसूधचतआदेश ” सेशासकीयराजर्त्रमेंअधिसूधचतआदेशअधभप्रेतहै;`
+  line `(झ) “ धिधहत ” सेइसअधिधियमकेअिीिबिाएिएधियमोंद्वाराधिधहतअधभप्रेतहै;`
+  line `( ञ ) “ सधन्‍दि बिराज्य ” सेऐसाधिदेशीराज्य अधभप्रेतहैधजसकेसाथप्रत्य र् प णसधन्‍दि प्र ितपिमें है।`
+  line `3. अधिधियमकालािूहोिा — 3 [ ( 1 ) केन्‍दरी यसरकार, अधिसूधचतआदेशद्वाराधिदेशदेसकेिीककइसअधिधियमके`
+  line `अध्या य 3 सेधभन्‍दि उर्बंिऐसेधिदेशीराज्य याउसकेभािकोलािूहोंिेजोआदेशमेंधिधिर्दपष्ि ककयाजाए। ]`
+  line `( 2 )केन्‍दरी यसरकार, उसी अधिसूधचतआदेशद्वाराजोउर्िारा( 1 )मेंधिर्दपष्ि हैयाककसीर्श्चा त् ितीअधिसूधचतआदेश द्व`
+  line `ाराऐसेलािूहोिेकोउिप्रर्लायीअर्राधियोंतकधिबपधन्‍दि तकरसकेिीजोभारतकेऐसेभािमेंजोउसआदेशमेंधिधिर्दपष्ि हो, र्`
+  line ाएजाएंयाधजिकेिहांहोिेकासंदेहहो।
+  line `( 3 )जहांअधिसूधचतआदेशकासम्ब न्‍द ि ककसीसधन्‍दि बिराज्य सेहै, िहां —`
+  line `(क)उसमेंउसराज्य केसाथहुईप्रत्य र् प णसधन्‍दि र्ू णपरूर्सेउर्िर्णपतहोिी;`
+  line `(ि)िहउससधन्‍दि सेदीघपतरकालािधितकप्रिर्तपतिहींरहेिा; और`
+  line `(ि)केन्‍दरी यसरकार, उसीअथिाककसीर् श् चा त् ितीअधिसूधचतआदेशद्वाराइसअधिधियमकेलािूहोिेकोऐसे`
+  line `संशोििों, अर्िादों, शतोंऔरधिशेषताओंकेअध्य िीिकरसकेिीजैसीउसराज्य केसाथसधन्‍दि कोकायापधन्‍दि तकरिेके`
+  line धलएसमीचीिसमझीजाएं।
+  line `4 [ ( 4 ) जहांककसीधिदेशीराज्य केसाथभारतद्वाराकोईप्र त् य र् प णसंधििहीं की िईहैिहांकेन्‍दरी यसरकार, अधिसूधचत`
+  line `आदेशद्वारा, ककसीऐसेअधभसमयको, धजसकेभारतऔरकोईधिदेशीराज्य र् िकारहैं, उसधिदेशीराज्य केसाथभारतद्वाराकीिई`
+  line `ऐ सीप्रत्य र् प णसंधिमािसकेिीधजसमेंउसअधभसमयमेंधिधिर्दपष्ि अर्रािोंको बाबतप्रत्य र् प णकेधलएउर्बंिककयाियाहै। ]`
+  line `अध्या य 2`
+  line `धिदेशीराज्यों को 5 *** धजिर्रअध्या य 3 लािूिहींहोताहै, प्रर्`
+  line `लायीअर्राधियोंकाप्रत्य र् प ण`
+  line `4. अभ्य र् प णकेधलएअध्य र्े िा — ककसी धिदेशीराज्य 6 *** केप्रर्लायीअर्रािीकेअभ्य र् प णकेधलएकेन्‍दरी यसरकार`
+  line `कोअध्य र्े िा —`
+  line `(क)उसधिदेशीराज्य 6 *** केकदल्ली धस्थ तराजिधयकप्रधतधिधिकेद्वाराकीजासकतीहै; या`
+  line `(ि)उसधिदेशीराज्य 6 *** कीसरकारद्वाराउसराज्य 7 *** मेंधस्थ तउसकेराजिधयकप्रधतधिधिकीमािपत`
+  line `केन्‍दरी यसरकारसेर्त्रव्य िहारकरकेकीजासकतीहै,`
+  line `औरयकदइिमेंसेकोईभीरीधतसुधििाजिकिहोतोअध्य र्े िाऐसीअन्‍दय रीधतसेकीजाएिीजैसीउसधिदेशीराज्य 6 *** की`
+  line `सरकार द्व ाराभारतसरकारकेसाथिहराि द्व ारातयकीजाए।`
+  line `5. मधजस्रे िद्वाराजांचकाआदेश — जहांऐसीअध्य र्े िाकी जातीहैिहांयकदकेन्‍दरी यसरकारिीकसमझतीहैतोिहककसी`
+  line `मधजस्रे िको, धजसेऐसेअर्रािकीजांचकरिेकीअधिकाररताहोतीयकदिहअर्रािउसकीअधिकाररताकीस्था िीयसीमाओंके`
+  line `अन्‍दद रककयाियाहोता, यहधिकदष्ि करतेहुएआदेशदेसकेिीककिहमामलेकीजांचकरे।`
+  line `1 1993 केअधिधियमसं ० 66 कीिारा 4 द्व ारा( 18 - 12 - 1993 से) “ कामििैल्थ देशसेधभन्‍दि ” शब्दों कालोर्ककयािया।`
+  line `2 1993 केअधिधियमसं ० 66 कीिारा 4 द्व ारा( 18 - 12 - 1993 से)िंड(च)केस्था िर्रप्रधतस्था धर्त।`
+  line `3 1993 केअधिधियमसं ० 66 कीिारा 5 द्व ारा( 18 - 12 - 1993 से)उर्िारा( 1 )केस्था िर्रप्रधतस्था धर्त।`
+  line `4 1993 केअधिधियमसं ० 66 कीिारा 5 द्व ारा( 18 - 12 - 1993 से) अंत:स्था धर्त।`
+  line `5 1993 केअधिधियमसं ० 66 कीिारा 6 द्व ारा( 18 - 12 - 1993 से) “ याकामििैल्थ देश ” शब्दों कालोर्ककयािया।`
+  line `6 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ याकामििैल्थ देशको ” शब्दों का लोर्ककयािया।`
+  line `7 1993 केअधिधि यमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ यादेश ” शब्दों कालोर्ककयािया।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-6. धिरफ्तारीकेधलएिांरिजािीकरिा — िारा 5 केअिीिकेन्‍दरी यसरकारकेआदेशकीप्राधप्त र् रमधजस्रे ि प्रर् लायी
-अर्रािीकोधिरफ्तारकरिेकेधलएिारंिजा री करेिा।
-7. मधजस्रे िकेसमि प्र कि या — ( 1 )जबप्रर्लायीअर्रािीमधजस्रे िकेसमिउर्धस्थ तहोताहै यालायाजाताहैतब
-मधजस्रे िमामलेकीजांच, यथाशय उसीरीधतसेकरेिाऔरउसेिैसीहीअधिकाररताऔरशधत यांहोंिीमािोिहमामलासेशि न्‍द
-या यालयअथिाउच्च न्‍द या यालयद्वाराधिचारणीयहो।
-( 2 )र्ूिपिामीउर्बन्‍दिों कीव्या र् कतार्रप्रधतकूलप्रभािडालेधबिा, मधजस्रे िधिशेषकरऐसासाक्ष्य लेिाजैसाधिदेशीराज्य
-1 *** कीअध्य र्े िाकेसमथपिमेंहोऔरजैसाप्रर्लायीअर्रािीकीओरसेप्रस्तु त ककयाजाए, धजसकेअन्‍दत िपतयहदर्शपतकरिेिाला
-कोईसाक्ष्य भीहोिाककिहअर्रािधजसकेधलएप्रर्लायीअर्रािीर्रअधभयोिलिा याियाहैअथिाउसेधसिदोषिहरायािया
-है, राजिीधतक स् ि रूर् काहैयाप्रत्य र् प णअर्राििहींहै।
-( 3 )यकदमधजस्रे िकीरायहैककधिदेशराज्य 1 *** कीअध्य र्े िाकेसमथपिमें प्र थमदृष्् यामामलािहींबिर्ायाहै, तोिह प्रर्
-लायीअर्रािीकोउन्‍दमु त कर देिा।
-( 4 )यकदमधजस्रे िकीरायहैककधिदेशीराज्य 1 *** कीअध्य र्े िाकेसमथपिमेंप्रथमदृष्् यामामलाबिियाहै, तोिह प्रर्
-लायीअर्रािीको, केन्‍दरी यसरकारकेआदेशों कीप्रतीिाकरिेतककेधलएकार बारकेसुर्ुदपकरसकेिाऔरजांचकेर्ररणामकी
-ररर्ोिप केन्‍दरी यसरकारकोकरेिाऔरऐसीररर्ोिपकेसाथऐसाकोईधलधितकथिभीभेजेिाधजसेप्रर्लायीअर्रा िीकेन्‍दरी यसरकार
-केधिचाराथपप्रस्तु तकरिाचाहे।
-8. प्रर् लायीअर्रािीकाअभ्य र् प ण — यकदिारा 7 कीउर्िारा( 4 )केअिीिररर्ोिपऔरकथिकीप्राधप्त र् रकेन्‍दरी यसरकार
-कीरायहैककप्रर्लायीअर्रािीधिदेशीराज्य 1 *** कोअभ्य र्र् प तककयाजािाचाधहएतोिहएकिारंि, प्रर् लायीअर्रािीकी
-अधभरिाऔरउसकेहिाएजािेकेधलएऔरउसेिारंिमेंिाधमतव्य धत कोऔरस्था िर्रउसकेसुर्ुदपककएजािेकेधलएजारी
-कर सकेिी।
-9. कधतर्यमामलोंमेंधिरफ्तारीकािारंिजारीकरिेकीमधजस्रे िकीशधत — ( 1 )जहांककसीमधजस्रे िकोयहप्रतीतहोता
-हैककउसकीअधिकाररताकीस्था िीयसीमाओंमेंकोईव्य धत ककसीधिदेशीराज्य 1 *** काप्रर्लायीअर्रािीहैतोिहमधजस्रे ि,
-यकदिी कसमझेतो, उसव्य धत कीधिरफ्तारीकािारंिऐसीइधत्तलाऔरऐसेसाक्ष्य र् रजारीकरसकताहैजैसाउसकीरायमेंिारंि
-जारीकरिेकोन्‍दया योधचतिहरातायकदिहअर्राि, धजसकेधलएउसव्य धत र् रअधभयोिलिायाियाहैअथिाउसेधसिदोष
-िहरायाियाहै, उसकीअधिकाररता कीस्था िीयसीमाओंकेअन्‍दद रककयाियाहोता।
-( 2 )मधजस्रे िउर्िारा( 1 )केअिीिजारीककएिएिारंिकीररर्ोिपतुरन्‍दत केन्‍दरी यसरकारकोदेिाऔरइधत्तलातथासाक्ष्य
-याउसकीप्रमाधणतप्रधतयांउससरकारकोभेजेिा।
-( 3 )उर्िारा( 1 )केअिीिजारीककएिएिारंि र् रधिरफ्तारककयाियाव्य धत तीिमाससेअधिकतकधिरुििहींरिा
-जाएिाजबतकककउसकालािधिकेबीचमधजस्रे िकोकेन्‍दरी यसरकारसेिारा 5 केअिीिऐसेव्य धत केसम्ब न्‍द ि मेंककयाियाकोई
-आदेशप्राप्त िहींहोजाता।
-10. साक्ष्य मेंप्रदशप, अधभसा क्ष् य औरअन्‍दय दस्ता िेजोंकीप्राधप्त औरउिकाअधिप्रमाणि — ( 1 ) ककसीधिदेशीराज्य 1 *** के
-ककसीप्रर्लायीअर्रािीकेधिरुिइसअध्या यकेअिीिकीजािेिालीककन्‍दहीं कायपिाधहयोंमेंप्रदशपऔरअधभसाक्ष्य (चाहेउसव्य धत
-कीउर्धस्थ धतमेंयाअन्‍दय थाप्राप्त होंयाधलएिएहोंधजसकेधिरुिउिकाप्रयोिककयाजाताहै)औरउिकीप्रधतयांऔरतथ्यों के
-शासकीयप्रमाणर्त्रऔरतथ्यों काकथिकरिेिालेन्‍दया धयकदस्ता िेज, यकदसम्य क्रूर्सेअधिप्रमाधणतहोंतो, साक्ष्य केरूर्मेंप्राप्त
-ककएजासकेंिे।
-( 2 )िारंि, अ धभसाक्ष्य याशर्थर्रकथिधजिकाभारतसेबाहरकेककसीन्‍दया यालयद्वाराधलयाजािायाजारीककयाजािा
-तात्र् र् यपतहैयाउिकीप्रधतयां, याऐसेककसीन्‍दया यालयकेसमिदोषधसधिकेप्रमाणर्त्रयातथ्यों काकथिकरिेिालेन्‍दया धयक
-दस्ता िेज, सम्य क्रूर्सेअधिप्रमा धणतसमझेजांएिे, यकद —
-(क)िहिारंिऐसेन्‍दया यािीश, मधजस्रे ियाअधिकारीद्वाराहस्ता िररतककयाजािातात्र् र् यपतहैजोउसराज्य
-2 *** काहैजहांिहजारीककयाियाथायाजोऐसेराज्य में 2 *** याउसकेधलएकायपकररहाथा;
-(ि)िेअधभसाक्ष्य याकथियाउिकी प्र धतयां, यथाधस्थ धत, मूलअधभसाक्ष्य याकथियाउिकीसहीप्रधतयां ऐसे न्‍द
-या यािीश, मधजस्रे ियाअधिकारीकेहस्ता िरसेप्रमाधणतहोिीतात्र् र् यपतहैजोउसराज्य 2 *** काहैजहांिेधलएिएथे
-याजोऐसेराज्य 2 *** मेंयाउसकेधलएकायपकररहाथा;
-1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ याकामििैल्थ देश ” शब्दों कालोर्ककयािया।
-2 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ यादेश ” शब्दों कालोर्ककयािया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `6. धिरफ्तारीकेधलएिांरिजािीकरिा — िारा 5 केअिीिकेन्‍दरी यसरकारकेआदेशकीप्राधप्त र् रमधजस्रे ि प्रर् लायी`
+  line `अर्रािीकोधिरफ्तारकरिेकेधलएिारंिजा री करेिा।`
+  line `7. मधजस्रे िकेसमि प्र कि या — ( 1 )जबप्रर्लायीअर्रािीमधजस्रे िकेसमिउर्धस्थ तहोताहै यालायाजाताहैतब`
+  line `मधजस्रे िमामलेकीजांच, यथाशय उसीरीधतसेकरेिाऔरउसेिैसीहीअधिकाररताऔरशधत यांहोंिीमािोिहमामलासेशि न्‍द`
+  line `या यालयअथिाउच्च न्‍द या यालयद्वाराधिचारणीयहो।`
+  line `( 2 )र्ूिपिामीउर्बन्‍दिों कीव्या र् कतार्रप्रधतकूलप्रभािडालेधबिा, मधजस्रे िधिशेषकरऐसासाक्ष्य लेिाजैसाधिदेशीराज्य`
+  line `1 *** कीअध्य र्े िाकेसमथपिमेंहोऔरजैसाप्रर्लायीअर्रािीकीओरसेप्रस्तु त ककयाजाए, धजसकेअन्‍दत िपतयहदर्शपतकरिेिाला`
+  line `कोईसाक्ष्य भीहोिाककिहअर्रािधजसकेधलएप्रर्लायीअर्रािीर्रअधभयोिलिा याियाहैअथिाउसेधसिदोषिहरायािया`
+  line `है, राजिीधतक स् ि रूर् काहैयाप्रत्य र् प णअर्राििहींहै।`
+  line `( 3 )यकदमधजस्रे िकीरायहैककधिदेशराज्य 1 *** कीअध्य र्े िाकेसमथपिमें प्र थमदृष्् यामामलािहींबिर्ायाहै, तोिह प्रर्`
+  line `लायीअर्रािीकोउन्‍दमु त कर देिा।`
+  line `( 4 )यकदमधजस्रे िकीरायहैककधिदेशीराज्य 1 *** कीअध्य र्े िाकेसमथपिमेंप्रथमदृष्् यामामलाबिियाहै, तोिह प्रर्`
+  line `लायीअर्रािीको, केन्‍दरी यसरकारकेआदेशों कीप्रतीिाकरिेतककेधलएकार बारकेसुर्ुदपकरसकेिाऔरजांचकेर्ररणामकी`
+  line `ररर्ोिप केन्‍दरी यसरकारकोकरेिाऔरऐसीररर्ोिपकेसाथऐसाकोईधलधितकथिभीभेजेिाधजसेप्रर्लायीअर्रा िीकेन्‍दरी यसरकार`
+  line `केधिचाराथपप्रस्तु तकरिाचाहे।`
+  line `8. प्रर् लायीअर्रािीकाअभ्य र् प ण — यकदिारा 7 कीउर्िारा( 4 )केअिीिररर्ोिपऔरकथिकीप्राधप्त र् रकेन्‍दरी यसरकार`
+  line `कीरायहैककप्रर्लायीअर्रािीधिदेशीराज्य 1 *** कोअभ्य र्र् प तककयाजािाचाधहएतोिहएकिारंि, प्रर् लायीअर्रािीकी`
+  line `अधभरिाऔरउसकेहिाएजािेकेधलएऔरउसेिारंिमेंिाधमतव्य धत कोऔरस्था िर्रउसकेसुर्ुदपककएजािेकेधलएजारी`
+  line `कर सकेिी।`
+  line `9. कधतर्यमामलोंमेंधिरफ्तारीकािारंिजारीकरिेकीमधजस्रे िकीशधत — ( 1 )जहांककसीमधजस्रे िकोयहप्रतीतहोता`
+  line `हैककउसकीअधिकाररताकीस्था िीयसीमाओंमेंकोईव्य धत ककसीधिदेशीराज्य 1 *** काप्रर्लायीअर्रािीहैतोिहमधजस्रे ि,`
+  line `यकदिी कसमझेतो, उसव्य धत कीधिरफ्तारीकािारंिऐसीइधत्तलाऔरऐसेसाक्ष्य र् रजारीकरसकताहैजैसाउसकीरायमेंिारंि`
+  line `जारीकरिेकोन्‍दया योधचतिहरातायकदिहअर्राि, धजसकेधलएउसव्य धत र् रअधभयोिलिायाियाहैअथिाउसेधसिदोष`
+  line `िहरायाियाहै, उसकीअधिकाररता कीस्था िीयसीमाओंकेअन्‍दद रककयाियाहोता।`
+  line `( 2 )मधजस्रे िउर्िारा( 1 )केअिीिजारीककएिएिारंिकीररर्ोिपतुरन्‍दत केन्‍दरी यसरकारकोदेिाऔरइधत्तलातथासाक्ष्य`
+  line याउसकीप्रमाधणतप्रधतयांउससरकारकोभेजेिा।
+  line `( 3 )उर्िारा( 1 )केअिीिजारीककएिएिारंि र् रधिरफ्तारककयाियाव्य धत तीिमाससेअधिकतकधिरुििहींरिा`
+  line `जाएिाजबतकककउसकालािधिकेबीचमधजस्रे िकोकेन्‍दरी यसरकारसेिारा 5 केअिीिऐसेव्य धत केसम्ब न्‍द ि मेंककयाियाकोई`
+  line `आदेशप्राप्त िहींहोजाता।`
+  line `10. साक्ष्य मेंप्रदशप, अधभसा क्ष् य औरअन्‍दय दस्ता िेजोंकीप्राधप्त औरउिकाअधिप्रमाणि — ( 1 ) ककसीधिदेशीराज्य 1 *** के`
+  line `ककसीप्रर्लायीअर्रािीकेधिरुिइसअध्या यकेअिीिकीजािेिालीककन्‍दहीं कायपिाधहयोंमेंप्रदशपऔरअधभसाक्ष्य (चाहेउसव्य धत`
+  line `कीउर्धस्थ धतमेंयाअन्‍दय थाप्राप्त होंयाधलएिएहोंधजसकेधिरुिउिकाप्रयोिककयाजाताहै)औरउिकीप्रधतयांऔरतथ्यों के`
+  line `शासकीयप्रमाणर्त्रऔरतथ्यों काकथिकरिेिालेन्‍दया धयकदस्ता िेज, यकदसम्य क्रूर्सेअधिप्रमाधणतहोंतो, साक्ष्य केरूर्मेंप्राप्त`
+  line ककएजासकेंिे।
+  line `( 2 )िारंि, अ धभसाक्ष्य याशर्थर्रकथिधजिकाभारतसेबाहरकेककसीन्‍दया यालयद्वाराधलयाजािायाजारीककयाजािा`
+  line `तात्र् र् यपतहैयाउिकीप्रधतयां, याऐसेककसीन्‍दया यालयकेसमिदोषधसधिकेप्रमाणर्त्रयातथ्यों काकथिकरिेिालेन्‍दया धयक`
+  line `दस्ता िेज, सम्य क्रूर्सेअधिप्रमा धणतसमझेजांएिे, यकद —`
+  line `(क)िहिारंिऐसेन्‍दया यािीश, मधजस्रे ियाअधिकारीद्वाराहस्ता िररतककयाजािातात्र् र् यपतहैजोउसराज्य`
+  line `2 *** काहैजहांिहजारीककयाियाथायाजोऐसेराज्य में 2 *** याउसकेधलएकायपकररहाथा;`
+  line `(ि)िेअधभसाक्ष्य याकथियाउिकी प्र धतयां, यथाधस्थ धत, मूलअधभसाक्ष्य याकथियाउिकीसहीप्रधतयां ऐसे न्‍द`
+  line `या यािीश, मधजस्रे ियाअधिकारीकेहस्ता िरसेप्रमाधणतहोिीतात्र् र् यपतहैजोउसराज्य 2 *** काहैजहांिेधलएिएथे`
+  line `याजोऐसेराज्य 2 *** मेंयाउसकेधलएकायपकररहाथा;`
+  line `1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ याकामििैल्थ देश ” शब्दों कालोर्ककयािया।`
+  line `2 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ यादेश ” शब्दों कालोर्ककयािया।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-(ि) दोषधसधिकाप्रमाणर्त्रयातथ्य काकथिकरिेिालीन्‍दया धयकदस्ता िेजऐसेन्‍दया यािीश, मधजस्रे िया
-अधिकारीद्वाराप्रमाधणतहोिीतात्र् र् यपतहैजोउसराज्य 1 *** काहैजहांदोषधसधिहुईयाजोऐसेराज्य मेंयाउसकेधलए
-कायपकररहाहै;
-(घ)यथाधस्थ धत, िा रंि, अधभसाक्ष्य, कथि, प्र धतयां, प्र माणर्त्रऔरन्‍दया धयकदस्ता िेजककसीसािीकीशर्थद्वारा
-याउसराज्य 1 *** के, जहांिे 2 *** जारीककएयाधलएयाकदएिएथे, ककसीमंत्रीकीशासकीयमुराद्वाराअधिप्रमाधणत
-ककएिएहैं।
-11. अध्या यकाउिकामििेल्थ देशों कोलािूिहोिाधजिकोअध्या य 3 लािूहोताहै — इसअध्या यमेंअन्‍दत र् िपष्ि कोईबात प्रर्
-लायी 3 [ अर्राधियोंकोधजिकोअध्या य 3 लािूहोताहै ] लािूिहींहोिी।
-अध्या य 3 प्रर्
-लायीअर्राधियोंकोप्रत्य र् प णिहराििाले 4 [ धिदेशीराज्यों ] कोलौिािा
-12. अध्या यकालािू होिा — ( 1 )यहअध्या यऐसेककसी 5 [ धिदेशीराज्य ] कोहीलािूहोिाधजसेउस 6 [ राज्य ] केसाथककए
-िएप्रत्य र् प ण िहराि केकारणउसेलािूकरिाकेन्‍दरी यसरकारकोसमीचीिप्रतीतहो।
-( 2 )प्रत्ये कऐसालािूकरणअधिसूधचतआदेशद्वाराहोिा, औरकेन्‍दरी यसरकारउसीयाकक सीर्श्चा त् ितीअधिसूधचतआदेश द्व
-ाराधिदेशदेसकेिीककयहअध्या यऔरअध्या य 1, 4 और 5 ऐसेककसी 5 [ धिदेशीराज्य ] केसम्ब न्‍द ि मेंऐसेउर्ान्‍दत रणों, अर्िादों, शतों
-औरधिशेषताओंकेअध्य िीिलािूहोंिेजैसेिहउस िहराि केकायापन्‍दि यिकेधलएआदेशमेंधिधिर्दप ष् ि करिाउधचतसमझे।
-13. कामििैल्थ देशोंकेप्रर्लायीअर्राधियोंकार्कडेजािेऔरलौिाएजािेकेदाधयत्िा िीिहोिा — जबककसी 5 [ धिदेशी
-राज्य ] का धजसेयहअध्या यलािूहोताहै, कोईप्रर्लायीअर्रािीभारतमेंर्ायाजाताहैतोिहर्कडेजािेऔरइसअध्या यमें
-उर्बधन्‍दि तरीधतसेउस 5 [ धिदेशीराज्य ] कोलौिाएजािेकेदाधयत्िा िीिहोिा।
-14. र्ृष् िां ककतऔरअिधन्‍दत मिारंि — कोईभीप्रर्लायीअर्रािीभारतमें ककसी र्ृष् िां कक तिारंियाअिधन्‍दत मिारंिके
-अिीिर्कडाजासकेिा।
-15. प्रर् लायीअर्रािीकोर्कडिेकेधलएर्ृष्िां ककतिा रंि — जबककसीप्रर्लायीअर्रािीकोर्कडिेकेधलएककसी
-3 [ धिदेशीराज्य ] में, धजसकोयहअध्या यलािूहोताहै, िारंिजारीककयाियाहैऔरऐसाप्रर्लायीअर्रािीभारतमेंहैयाउसकेयहां
-होिेकासंदेहहै, तोकेन्‍दरी यसरकार, उसदशामेंधजसमेंउसकासमािािहोजाताहैकक िहिारंिउसेजारीकरिेकाधिधिर्ूणप प्र
-ाधिकाररििेिालेव्य धत द्व ाराहीककयाियाहै, ऐसेिारंिकोधिधहतरीधतसेर्ृष्िां ककतकरसकेिीऔरइसप्रकारर्ृष्िां ककतिारंि
-उसमेंिाधमतव्य धत कोर्कडिेऔरभारतमेंककसीमधजस्रे िकेसमिप्रस्तु तकरिेके धलएर्यापप्त प्र ा धिकारहोिा।
-16. प्रर् लायीअर्रािीकोर्कडिेकेधलएअिधन्‍दत मिारंि — ( 1 )कोईभीमधजस्रे िककसी 1 [ धिदेशीराज्य ] के, धजसकोयह
-अध्या यलािूहोताहै, प्रर् लायीअर्रािीकोर्कडिेकेधलए, जोभारतमेंहैयाधजसकेयहांहोिे का सन्‍ददे हहैयाजोयहां आरहाहै
-ऐसीइधत्तलार्रऔरऐसीर्ररधस्थ धतयोंकेअिीिअिधन्‍दत मिारंिजारीकरसकेिाजैसीउसकेधिचारमेंिारंिजारीकरिेको न्‍द
-या योधचतिहरातीयकदिहअर्राि, धजसकाअधभयोिप्रर्लायीअर्रािीर्रलिायाियाहैयािहधसिदोषिहरायाियाहै, उसकी
-अधिकाररताकेअन्‍दद र ककयाियाहोता; औरऐसािारन्‍दि तद्िुसारधिष्र्ा कदतककयाजासकेिा।
-( 2 )अिधन्‍दत मिारंिजारीकरिेिालामधजस्रे ििारंिकेजारीकरिेकीररर्ोिपकोउसकीइधत्तलायाउसकीप्रमाधणतप्रधतके
-सधहततुरन्‍दत केन्‍दरी यसरकारकोभेजेिा, औरकेन्‍दरी य सरकार, यकदिहिी कसमझेतोऐसेिारंिकेअिीिर्कडेिएव्य धत को
-उन्‍दमु त करसकेिी।
-( 3 )प्रर्लायीव्य धत जोअिधन्‍दत मिारंिर्रर्कडाियाहैएकसमयर्रसातकदिसेअिधिककेइतिेयुधत युत समयके
-धलए, समय - समयर्र, प्र धतप्रेधषतककयाजासकेिाधजतिाउिर्ररधस्थ धतयोंमें र्ृष् िां ककतिारंि र्े शकरिेकेधलएअर्ेिणीय प्र
-तीतहो।
-17. प्रर् लायीअर्रािीजबर्कडाजाएतबउसकेसम्ब न्‍द ि मेंकायपिाही — ( 1 )यकदउसमधजस्रे िकाधजसकेसम ि इस
-अध्या यकेअिीिर्कडाियाकोईव्य धत लायाजाताहै, जांचर्रसमािािहोजा ताहैककप्रर्लायीअर्रािीकोर्कडिेकेधलए र्ृष्
-िां ककतिारंिसम्य क्रूर्सेअधिप्रमा धण तहैऔरिहअर्रािधजसकाउसव्य धत र् रअधभयोिलिायाियाहैयािहधसिदोष
-िहरायाियाहै, प्रत् य र् प णअर्रािहैतोिहमधजस्रे ि, प्रर् लायीअर्रािीकोउसकेलौिाएजािेकीप्रती िाकरिेतककेधलएकारिार
-केसुर्ुदपकरेिाऔरसुर्ुदपिीकाएकप्रमाणर्त्रतुरन्‍दत केन्‍दरी यसरकारकोभेजेिा।
-1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ यादेश ” शब्दों कालोर्ककयािया।
-2 1993 केअधिधियमसं ० 66 कीिारा 7 द्व ारा( 18 - 12 - 1993 से) “ िमश: ” शब्द कालोर्ककयािया।
-3 1993 केअधिधियमसं ० 66 कीिारा 8 द्व ारा( 18 - 12 - 19 93 से) कधतर्यशब्दों के स् था िर्रप्रधतस्था धर्त।
-4 1993 केअधिधियमसं ० 66 कीिारा 9 द्व ारा( 18 - 12 - 1993 से) कधतर्यशब्दों के स् था िर्रप्रधतस्था धर्त।
-5 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) कधतर्यशब्दों के स् था िर्रप्रधतस्था धर्त।
-6 19 93 केअधिधियमसं ० 66 कीिारा 10 द्व ारा( 18 - 12 - 1993 से) “ देश ” शब्द केस्था िर्रप्रधतस्था धर्त।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `(ि) दोषधसधिकाप्रमाणर्त्रयातथ्य काकथिकरिेिालीन्‍दया धयकदस्ता िेजऐसेन्‍दया यािीश, मधजस्रे िया`
+  line `अधिकारीद्वाराप्रमाधणतहोिीतात्र् र् यपतहैजोउसराज्य 1 *** काहैजहांदोषधसधिहुईयाजोऐसेराज्य मेंयाउसकेधलए`
+  line कायपकररहाहै;
+  line `(घ)यथाधस्थ धत, िा रंि, अधभसाक्ष्य, कथि, प्र धतयां, प्र माणर्त्रऔरन्‍दया धयकदस्ता िेजककसीसािीकीशर्थद्वारा`
+  line `याउसराज्य 1 *** के, जहांिे 2 *** जारीककएयाधलएयाकदएिएथे, ककसीमंत्रीकीशासकीयमुराद्वाराअधिप्रमाधणत`
+  line ककएिएहैं।
+  line `11. अध्या यकाउिकामििेल्थ देशों कोलािूिहोिाधजिकोअध्या य 3 लािूहोताहै — इसअध्या यमेंअन्‍दत र् िपष्ि कोईबात प्रर्`
+  line `लायी 3 [ अर्राधियोंकोधजिकोअध्या य 3 लािूहोताहै ] लािूिहींहोिी।`
+  line `अध्या य 3 प्रर्`
+  line `लायीअर्राधियोंकोप्रत्य र् प णिहराििाले 4 [ धिदेशीराज्यों ] कोलौिािा`
+  line `12. अध्या यकालािू होिा — ( 1 )यहअध्या यऐसेककसी 5 [ धिदेशीराज्य ] कोहीलािूहोिाधजसेउस 6 [ राज्य ] केसाथककए`
+  line `िएप्रत्य र् प ण िहराि केकारणउसेलािूकरिाकेन्‍दरी यसरकारकोसमीचीिप्रतीतहो।`
+  line `( 2 )प्रत्ये कऐसालािूकरणअधिसूधचतआदेशद्वाराहोिा, औरकेन्‍दरी यसरकारउसीयाकक सीर्श्चा त् ितीअधिसूधचतआदेश द्व`
+  line `ाराधिदेशदेसकेिीककयहअध्या यऔरअध्या य 1, 4 और 5 ऐसेककसी 5 [ धिदेशीराज्य ] केसम्ब न्‍द ि मेंऐसेउर्ान्‍दत रणों, अर्िादों, शतों`
+  line `औरधिशेषताओंकेअध्य िीिलािूहोंिेजैसेिहउस िहराि केकायापन्‍दि यिकेधलएआदेशमेंधिधिर्दप ष् ि करिाउधचतसमझे।`
+  line `13. कामििैल्थ देशोंकेप्रर्लायीअर्राधियोंकार्कडेजािेऔरलौिाएजािेकेदाधयत्िा िीिहोिा — जबककसी 5 [ धिदेशी`
+  line `राज्य ] का धजसेयहअध्या यलािूहोताहै, कोईप्रर्लायीअर्रािीभारतमेंर्ायाजाताहैतोिहर्कडेजािेऔरइसअध्या यमें`
+  line `उर्बधन्‍दि तरीधतसेउस 5 [ धिदेशीराज्य ] कोलौिाएजािेकेदाधयत्िा िीिहोिा।`
+  line `14. र्ृष् िां ककतऔरअिधन्‍दत मिारंि — कोईभीप्रर्लायीअर्रािीभारतमें ककसी र्ृष् िां कक तिारंियाअिधन्‍दत मिारंिके`
+  line अिीिर्कडाजासकेिा।
+  line `15. प्रर् लायीअर्रािीकोर्कडिेकेधलएर्ृष्िां ककतिा रंि — जबककसीप्रर्लायीअर्रािीकोर्कडिेकेधलएककसी`
+  line `3 [ धिदेशीराज्य ] में, धजसकोयहअध्या यलािूहोताहै, िारंिजारीककयाियाहैऔरऐसाप्रर्लायीअर्रािीभारतमेंहैयाउसकेयहां`
+  line `होिेकासंदेहहै, तोकेन्‍दरी यसरकार, उसदशामेंधजसमेंउसकासमािािहोजाताहैकक िहिारंिउसेजारीकरिेकाधिधिर्ूणप प्र`
+  line `ाधिकाररििेिालेव्य धत द्व ाराहीककयाियाहै, ऐसेिारंिकोधिधहतरीधतसेर्ृष्िां ककतकरसकेिीऔरइसप्रकारर्ृष्िां ककतिारंि`
+  line `उसमेंिाधमतव्य धत कोर्कडिेऔरभारतमेंककसीमधजस्रे िकेसमिप्रस्तु तकरिेके धलएर्यापप्त प्र ा धिकारहोिा।`
+  line `16. प्रर् लायीअर्रािीकोर्कडिेकेधलएअिधन्‍दत मिारंि — ( 1 )कोईभीमधजस्रे िककसी 1 [ धिदेशीराज्य ] के, धजसकोयह`
+  line `अध्या यलािूहोताहै, प्रर् लायीअर्रािीकोर्कडिेकेधलए, जोभारतमेंहैयाधजसकेयहांहोिे का सन्‍ददे हहैयाजोयहां आरहाहै`
+  line `ऐसीइधत्तलार्रऔरऐसीर्ररधस्थ धतयोंकेअिीिअिधन्‍दत मिारंिजारीकरसकेिाजैसीउसकेधिचारमेंिारंिजारीकरिेको न्‍द`
+  line `या योधचतिहरातीयकदिहअर्राि, धजसकाअधभयोिप्रर्लायीअर्रािीर्रलिायाियाहैयािहधसिदोषिहरायाियाहै, उसकी`
+  line `अधिकाररताकेअन्‍दद र ककयाियाहोता; औरऐसािारन्‍दि तद्िुसारधिष्र्ा कदतककयाजासकेिा।`
+  line `( 2 )अिधन्‍दत मिारंिजारीकरिेिालामधजस्रे ििारंिकेजारीकरिेकीररर्ोिपकोउसकीइधत्तलायाउसकीप्रमाधणतप्रधतके`
+  line `सधहततुरन्‍दत केन्‍दरी यसरकारकोभेजेिा, औरकेन्‍दरी य सरकार, यकदिहिी कसमझेतोऐसेिारंिकेअिीिर्कडेिएव्य धत को`
+  line `उन्‍दमु त करसकेिी।`
+  line `( 3 )प्रर्लायीव्य धत जोअिधन्‍दत मिारंिर्रर्कडाियाहैएकसमयर्रसातकदिसेअिधिककेइतिेयुधत युत समयके`
+  line `धलए, समय - समयर्र, प्र धतप्रेधषतककयाजासकेिाधजतिाउिर्ररधस्थ धतयोंमें र्ृष् िां ककतिारंि र्े शकरिेकेधलएअर्ेिणीय प्र`
+  line तीतहो।
+  line `17. प्रर् लायीअर्रािीजबर्कडाजाएतबउसकेसम्ब न्‍द ि मेंकायपिाही — ( 1 )यकदउसमधजस्रे िकाधजसकेसम ि इस`
+  line `अध्या यकेअिीिर्कडाियाकोईव्य धत लायाजाताहै, जांचर्रसमािािहोजा ताहैककप्रर्लायीअर्रािीकोर्कडिेकेधलए र्ृष्`
+  line `िां ककतिारंिसम्य क्रूर्सेअधिप्रमा धण तहैऔरिहअर्रािधजसकाउसव्य धत र् रअधभयोिलिायाियाहैयािहधसिदोष`
+  line `िहरायाियाहै, प्रत् य र् प णअर्रािहैतोिहमधजस्रे ि, प्रर् लायीअर्रािीकोउसकेलौिाएजािेकीप्रती िाकरिेतककेधलएकारिार`
+  line `केसुर्ुदपकरेिाऔरसुर्ुदपिीकाएकप्रमाणर्त्रतुरन्‍दत केन्‍दरी यसरकारकोभेजेिा।`
+  line `1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ यादेश ” शब्दों कालोर्ककयािया।`
+  line `2 1993 केअधिधियमसं ० 66 कीिारा 7 द्व ारा( 18 - 12 - 1993 से) “ िमश: ” शब्द कालोर्ककयािया।`
+  line `3 1993 केअधिधियमसं ० 66 कीिारा 8 द्व ारा( 18 - 12 - 19 93 से) कधतर्यशब्दों के स् था िर्रप्रधतस्था धर्त।`
+  line `4 1993 केअधिधियमसं ० 66 कीिारा 9 द्व ारा( 18 - 12 - 1993 से) कधतर्यशब्दों के स् था िर्रप्रधतस्था धर्त।`
+  line `5 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) कधतर्यशब्दों के स् था िर्रप्रधतस्था धर्त।`
+  line `6 19 93 केअधिधियमसं ० 66 कीिारा 10 द्व ारा( 18 - 12 - 1993 से) “ देश ” शब्द केस्था िर्रप्रधतस्था धर्त।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-( 2 )यकदऐसीजांचर्रमधजस्रे िकायहधिचारहैककर्ृष्िां ककतिारंिसम्य क्रूर्सेअधिप्रमाधणतिहींहैयाककिह
-अर्रािधजसकाऐसेव्य धत र् रअधभ योिलिायाियाहैयािहधसिदोषिहरायाियाहै, प्रत् य र् प णअर्राििहींहैतोिहमधजस्रे ि
-केन्‍दरी यसरकारकेआदेशोंकीप्राधप्त तककेधलएऐसेव्य धत कोअधभरिामेंधिरुिकरसकेिाअथिाउसेजमाितर्रधिमुपत
-करसकेिा।
-( 3 )मधजस्रे िअर्िीजांचकेर्ररणामकीररर्ोिपकेन्‍दरी यसरकारकोकरेिाऔरऐसीररर्ोिपकेसाथ, कोईधलधितकथिभी
-भेजेिाधजसेप्रर्लायीअर्रािीउससरकारकेधिचाराथपप्रस्तु तकरिेकीइच्छा करे।
-18. प्रर् लायीअर्रािीकोिारंिद्वारालौिािा — केन्‍दरी यसरकार, प्रर् लायीअ र् रािीकोइसअध्या यकेअिीिकारािारके
-सुर्ुदपककएजािेकेर्श्चा त्ककसीभीसमयएकिारंिउसप्रर्लायीअर्रािीकीअधभरिाकेधलएऔरउसेसम्ब धन्‍दि त 1 [ धिदेशीराज्य ]
-कोहिाकदएजािेकेधलएऔरउसिारंिमेंिाधमतव्य धत कोऔरस्था िर्रउसकेसुर्ुदपककएजािे केधलएजारीकरसकेिा।
-अध्या य 4
-अधभयुत याधसिदोषव्य धत योंकाधिदेशीराज्यों 2 *** सेअभ्य र् प णयालौिायाजािा
-19. अधभयुत याधसिदोषव्य धत के, जोककसीधिदेशीराज्य में 2 *** है, भारतकोअभ्य र् प णकरिेका, यालौिािेकेधलए
-अध्य र्े िाकरिे काढंियािारंिकाप्ररूर् — ( 1 )ककसीऐसेव्य धत केजोभारतमेंकक एिएप्रत्य र् प णअर्रािकाअधभयुत याउसका
-धसिदोषहैऔरजोककसीधिदेशीराज्य 3 *** में, धजसेअध्या य 3 लािूिहींहोताहै, हैअथिाउसकेिहांहोिेकासंदेहहै, अभ्य र् प णके
-धलएअध्य र्े िा केन्‍दरी यसरकारद्वारा, —
-(क)उसराज्य 3 *** केकदल्ली धस्थ तराजिधयकप्रधतधिधिकोकीजासकेिी; अथिा
-(ि)उसराज्य 3 *** मेंभारतकेराजिधयकप्रधतधिधिकेमािपतउसराज्य 3 *** कीसरकारकोकीजासकेिी,
-औरयकदइिमेंसेकोईभीरीधतसुधििाजिकिहोतोअध्य र्े िाऐसीअन्‍दय रीधतसेकीजाएिीजैसीभारतसरकारद्वाराउसराज्य
-3 *** केसाथिहरािद्वारातयकीजाए।
-( 2 )ककसीऐसेव्य धत कोर्कडिेकेधलए, जोककसीऐसे 1 [ धिदेशीराज्य ] मेंहैयाधजसकेिहांहोिेकासंदेहहैधजसको
-अध्या य 3 लािूहोताहै, भारतमेंककसी मधजस्रे िद्वाराजारीककयाियािारंिऐसेप्ररूर्मेंहोिाजैसाधिधहतककयाजाए।
-20. अभ्य र्र् प तयािार्सककएिएअधभयुत याधसिदोषव्य धत कालेजायाजािा — ककसीप्रत्य र् प णअर्रािसेधसिदोषया
-अधभयुत व् य धत, जोककसीधिदेशीराज्य 2 *** द्व ाराअभ्य र्र् प तककयाजाएयालौिायाजाएऐसेराज्य 3 *** मेंजारीककएिएउसके
-अभ्य र् प णयालौिाएजािेकेधलएधिरफ्तारीकेिारंिकेअिीिभारतमेंलायाजासकेिाऔरधिधिकेअिुसारकायपिाहीककएजािेके
-धलएसमुधचतप्राधिकारीकेसुर्ुदपककयाजासकेिा।
-4 [ 21. धिदेशीराज्य द्व ाराअभ्य र्र् प तयालौिाएिएअधभयुत याधसिदोषव्य धत काकधतर्यअर्रािोंकेधलएधिचारणि
-ककयाजािा — जब कभीककसीऐसेअर्रािकेधलएअधभयुत याधसिदोषव्य धत, जोयकदभारतमेंककयाजातातोप्रत्य र् प णअर्राि
-होता, ककसीधिदेशीराज्य द्व ाराअभ्य र्र् प तककयाजाताहैयालौिायाजाताहैतबधिम्ि धलधितअर्रािसेधभन्‍दि ककसीअर्रािकेधलए
-ऐसेव्य धत काभारतमेंधिचारणिहींककयाजाएिा, जबतकककउसेउसराज्य कोप्रत्या िर्तपतिहींकरकदयाजातायालौििेका
-अिसरिहींधमलजाता, अथापत्: —
-(क)िहप्रत्य र् प ण अर्राि, धजसकेसंबंिमेंिहअभ्य र्र् प तककयाियाथायालौिायाियाथा; या
-(ि)उसअर्रािसेधभन्‍दि, धजसकेसंबंिमेंउसकाअभ्य र् प णयालौिाएजािेकाआदेशधिधिर्ूिपकिहींककयाजा
-सकाहै, उसक k अभ्य र् प णयालौिायाजािासुधिधश्च तकरिेकेप्रयोजिोंकेधलएसाधबततथ्यों द्व ाराप्रकरितकोईलघु
-अर्राि; या
-(ि)िहअर्रािधजसकीबाबतधिदेशी राज्य िेअर्िीसहमधतदेदीहै। ]
-अध्या य 5 प्र
-कीणप
-22. प्रर् लायीअर्राधियोंकोधिरफ्तारऔरअभ्य र्र् प तककएजािेयालौिाएजािेकेदाधयत्िा िीिहोिा — ककसीभीधिदेशी
-राज्य 3 *** का प्रत् ये क प्रर् लायीअर्रािी, इसअधिधियमकेउर्बंिों केअध्य िीि, र् कडेजािेऔरअभ्य र्र् प तककएजािेयालौिाएजािे
-केदाधयत्िा िीिहोिाचाहेिहअर्रािधजसकेसम्ब न्‍द ि मेंअभ्य र् प णयालौिायाजािाचाहाियाहैइसअधिधियमकेप्रारम्भ सेर्ूिप
-1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों केस्था िर्रप्रधतस्था धर्त।
-2 1993 केअधिधियमसं ० 66 कीिारा 11 द्व ारा( 18 - 12 - 1993 से) कधतर्यशब्दों कालोर्ककयािया।
-3 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों कालोर्ककयािया।
-4 1993 केअधिधियमसं ० 66 कीिारा 12 द्व ारा( 18 - 12 - 1993 से)िारा 21 केस्था िर्रप्रधतस्था धर्त।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `( 2 )यकदऐसीजांचर्रमधजस्रे िकायहधिचारहैककर्ृष्िां ककतिारंिसम्य क्रूर्सेअधिप्रमाधणतिहींहैयाककिह`
+  line `अर्रािधजसकाऐसेव्य धत र् रअधभ योिलिायाियाहैयािहधसिदोषिहरायाियाहै, प्रत् य र् प णअर्राििहींहैतोिहमधजस्रे ि`
+  line `केन्‍दरी यसरकारकेआदेशोंकीप्राधप्त तककेधलएऐसेव्य धत कोअधभरिामेंधिरुिकरसकेिाअथिाउसेजमाितर्रधिमुपत`
+  line करसकेिा।
+  line `( 3 )मधजस्रे िअर्िीजांचकेर्ररणामकीररर्ोिपकेन्‍दरी यसरकारकोकरेिाऔरऐसीररर्ोिपकेसाथ, कोईधलधितकथिभी`
+  line `भेजेिाधजसेप्रर्लायीअर्रािीउससरकारकेधिचाराथपप्रस्तु तकरिेकीइच्छा करे।`
+  line `18. प्रर् लायीअर्रािीकोिारंिद्वारालौिािा — केन्‍दरी यसरकार, प्रर् लायीअ र् रािीकोइसअध्या यकेअिीिकारािारके`
+  line `सुर्ुदपककएजािेकेर्श्चा त्ककसीभीसमयएकिारंिउसप्रर्लायीअर्रािीकीअधभरिाकेधलएऔरउसेसम्ब धन्‍दि त 1 [ धिदेशीराज्य ]`
+  line `कोहिाकदएजािेकेधलएऔरउसिारंिमेंिाधमतव्य धत कोऔरस्था िर्रउसकेसुर्ुदपककएजािे केधलएजारीकरसकेिा।`
+  line `अध्या य 4`
+  line `अधभयुत याधसिदोषव्य धत योंकाधिदेशीराज्यों 2 *** सेअभ्य र् प णयालौिायाजािा`
+  line `19. अधभयुत याधसिदोषव्य धत के, जोककसीधिदेशीराज्य में 2 *** है, भारतकोअभ्य र् प णकरिेका, यालौिािेकेधलए`
+  line `अध्य र्े िाकरिे काढंियािारंिकाप्ररूर् — ( 1 )ककसीऐसेव्य धत केजोभारतमेंकक एिएप्रत्य र् प णअर्रािकाअधभयुत याउसका`
+  line `धसिदोषहैऔरजोककसीधिदेशीराज्य 3 *** में, धजसेअध्या य 3 लािूिहींहोताहै, हैअथिाउसकेिहांहोिेकासंदेहहै, अभ्य र् प णके`
+  line `धलएअध्य र्े िा केन्‍दरी यसरकारद्वारा, —`
+  line `(क)उसराज्य 3 *** केकदल्ली धस्थ तराजिधयकप्रधतधिधिकोकीजासकेिी; अथिा`
+  line `(ि)उसराज्य 3 *** मेंभारतकेराजिधयकप्रधतधिधिकेमािपतउसराज्य 3 *** कीसरकारकोकीजासकेिी,`
+  line `औरयकदइिमेंसेकोईभीरीधतसुधििाजिकिहोतोअध्य र्े िाऐसीअन्‍दय रीधतसेकीजाएिीजैसीभारतसरकारद्वाराउसराज्य`
+  line `3 *** केसाथिहरािद्वारातयकीजाए।`
+  line `( 2 )ककसीऐसेव्य धत कोर्कडिेकेधलए, जोककसीऐसे 1 [ धिदेशीराज्य ] मेंहैयाधजसकेिहांहोिेकासंदेहहैधजसको`
+  line `अध्या य 3 लािूहोताहै, भारतमेंककसी मधजस्रे िद्वाराजारीककयाियािारंिऐसेप्ररूर्मेंहोिाजैसाधिधहतककयाजाए।`
+  line `20. अभ्य र्र् प तयािार्सककएिएअधभयुत याधसिदोषव्य धत कालेजायाजािा — ककसीप्रत्य र् प णअर्रािसेधसिदोषया`
+  line `अधभयुत व् य धत, जोककसीधिदेशीराज्य 2 *** द्व ाराअभ्य र्र् प तककयाजाएयालौिायाजाएऐसेराज्य 3 *** मेंजारीककएिएउसके`
+  line `अभ्य र् प णयालौिाएजािेकेधलएधिरफ्तारीकेिारंिकेअिीिभारतमेंलायाजासकेिाऔरधिधिकेअिुसारकायपिाहीककएजािेके`
+  line धलएसमुधचतप्राधिकारीकेसुर्ुदपककयाजासकेिा।
+  line `4 [ 21. धिदेशीराज्य द्व ाराअभ्य र्र् प तयालौिाएिएअधभयुत याधसिदोषव्य धत काकधतर्यअर्रािोंकेधलएधिचारणि`
+  line `ककयाजािा — जब कभीककसीऐसेअर्रािकेधलएअधभयुत याधसिदोषव्य धत, जोयकदभारतमेंककयाजातातोप्रत्य र् प णअर्राि`
+  line `होता, ककसीधिदेशीराज्य द्व ाराअभ्य र्र् प तककयाजाताहैयालौिायाजाताहैतबधिम्ि धलधितअर्रािसेधभन्‍दि ककसीअर्रािकेधलए`
+  line `ऐसेव्य धत काभारतमेंधिचारणिहींककयाजाएिा, जबतकककउसेउसराज्य कोप्रत्या िर्तपतिहींकरकदयाजातायालौििेका`
+  line `अिसरिहींधमलजाता, अथापत्: —`
+  line `(क)िहप्रत्य र् प ण अर्राि, धजसकेसंबंिमेंिहअभ्य र्र् प तककयाियाथायालौिायाियाथा; या`
+  line `(ि)उसअर्रािसेधभन्‍दि, धजसकेसंबंिमेंउसकाअभ्य र् प णयालौिाएजािेकाआदेशधिधिर्ूिपकिहींककयाजा`
+  line `सकाहै, उसक k अभ्य र् प णयालौिायाजािासुधिधश्च तकरिेकेप्रयोजिोंकेधलएसाधबततथ्यों द्व ाराप्रकरितकोईलघु`
+  line `अर्राि; या`
+  line `(ि)िहअर्रािधजसकीबाबतधिदेशी राज्य िेअर्िीसहमधतदेदीहै। ]`
+  line `अध्या य 5 प्र`
+  line कीणप
+  line `22. प्रर् लायीअर्राधियोंकोधिरफ्तारऔरअभ्य र्र् प तककएजािेयालौिाएजािेकेदाधयत्िा िीिहोिा — ककसीभीधिदेशी`
+  line `राज्य 3 *** का प्रत् ये क प्रर् लायीअर्रािी, इसअधिधियमकेउर्बंिों केअध्य िीि, र् कडेजािेऔरअभ्य र्र् प तककएजािेयालौिाएजािे`
+  line `केदाधयत्िा िीिहोिाचाहेिहअर्रािधजसकेसम्ब न्‍द ि मेंअभ्य र् प णयालौिायाजािाचाहाियाहैइसअधिधियमकेप्रारम्भ सेर्ूिप`
+  line `1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों केस्था िर्रप्रधतस्था धर्त।`
+  line `2 1993 केअधिधियमसं ० 66 कीिारा 11 द्व ारा( 18 - 12 - 1993 से) कधतर्यशब्दों कालोर्ककयािया।`
+  line `3 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों कालोर्ककयािया।`
+  line `4 1993 केअधिधियमसं ० 66 कीिारा 12 द्व ारा( 18 - 12 - 1993 से)िारा 21 केस्था िर्रप्रधतस्था धर्त।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-ककयाियाहोअथिार्श्चा त्ककया ियाहोऔरचाहेउसअर्रािर्रधिचारणकरिेकीअधिकाररताभारतमेंककसीन्‍दया यालयको
-होअथिािहो।
-23. समुरअथिाआ काशमेंककएिएअर्रािोंकेधिषयमेंअधिकाररता — यकदिहअर्राि, धजसकेसम्ब न्‍द ि मेंप्रर्लायी
-अर्रािीकाअभ्य र् प णयालौिायाजािाचाहाियाहै, भारत के याभारतीयराज्य िेत्रीयसमुरकेबाहरिुलेसमुरमेंककसीऐसे
-जलयािकेिलकर्रयाआकाशमेंककसीऐसेिायुयािर्र, जोभारतमेंककसीर्त्तियाधिमाििेत्रर्रआताहै, ककयाियाथा, तो
-केन्‍दरी यसरकारऔरकोईमधजस्रे िधजसकीउसर्त्तियाधिमाििेत्रर्रअधि काररताहैइसअधिधियमद्वाराप्रदत्तशधत योंकाप्रयोि
-करसकेिा।
-24. र् कडेिएव्य धत काउसदशामेंउन्‍दमो चिधजस में उसेदोमासकेअन्‍दद रअभ्य र्र् प तिहींककयाजातायालौिायािहीं
-जाता — यकदकोईप्रर्लायीअर्रािी, जोइसअधिधियमकेअिुसरणमेंककसीधिदेशीरा ज् य 1 *** कोअर्िेअभ्य र् प णयालौिाएजािे
-कीप्रतीिाकरिेतककेधलएकारािारकेसुर्ुदपकरकदयाियाहो, ऐसीसुर्ुदपिीकेर्श्चा त्दोमासकेअन्‍दद रभारतसेबाहरिहींले
-जाया जाता हैतोउच्च न्‍द या यालय, प्रर् लायीअर्रािीद्वारायाउसकीओरसेआिेदिककएजािेर्र औरइसबातकेसाधबतहोिेर्र
-ककऐसाआिेदिदेिेकेआशयकीयुधत युत सूचिाकेन्‍दरी यसरकारकोदेदीिईहै, ऐसेबन्‍ददी केउन्‍दमो चिकेधलएआदेशदेसकेिा
-जबतकककउसकेप्रधतकूलर्यापप्त हेतुकदर्शपतिहींकरकदयाजाता।
-25. धिरफ्तारककएिएव्य धत योंकी जमाितर्रधिमुपधत — ऐसेव्य धत कीदशामेंजोप्रर्लायीअर्रािीहैऔरइस
-अधिधियमकेअिीिधिरफ्तारयाधिरुिककयाियाहै, 2 [ दण्ड प्र कियासंधहता, 1973 ( 1974 का 2 ) ] केजमाितसेसम्ब धन्‍दि तउर्बंि
-उसीप्रकारलािूहोंिेजैसेिेऐसेव्य धत कोलािूहोतेयकद उसर्रभारतमेंिहीअर्रािकरिेकाअधभयोिलिायाियाहोताधजसे
-करिेकाअधभयोिउसर्रलिायाियाहैयािहधसिदोषिहरायाियाहै, औरऐसीजमाितकेसंबंिमेंउसमधजस्रे िको, धजसके
-समििहप्रर्लायीअर्रािीलायाजाताहै, यथाशय, िैसीहीशधत यांऔरअधिकाररता होिीजैसीउससंधहताकेअिीिसेशि न्‍द
-या यालयकीहोतीहै।
-26. प्रत् य र् प णअर्रािकादुष्प्रे रण — कोईप्रर्लायीअर्रािीधजसर्र 3 [ ककसीप्रत्य र् प णअर्रािकेककएजािेकेदुष्प्रे रणका,
-उसेकरिेकेधलए षड् यंत्र का, उसेकरिेकेप्रयत्ि का, उसकेउद्दीर्िकायाउसके ककएजािेमेंसह - अर्रािीकेरूर्मेंभािलेिेका ]
-अधभयोिलिायाियाहोयािहधसिदोषिहरायाियाहो, इसअधिधियमकेप्रयोजिोंकेधलए, ऐसेअर्राि कोकरिेकेधलए
-अधभयुत याधसिदोषसमझाजाएिाऔरतद्िुसारधिरफ्तारककएजािेऔरअभ्य र्र् प तककएजािेकाभािीहोिा।
-27. िारंिोंकेअिीिअधभरिाऔरउससेधिकलभाििेर्रदुबारार्कडिेकीिैिता — ऐसेव्य धत केधलएधजसेककसी प्रर्
-लायीअर्रािीकोर्कडिेकेधलएिारंिधिर्दपष्ि ककयाियाहैिारंिमेंउधल्ल धितव्य धत कोअधभरिामेंरििाऔरउसेिारंिमें
-िाधमतस्था िर्रलेजा िाधिधिर्ूणपहोिा, औरयकदऐसाव्य धत ककसीऐसीअधभरिासेधजसकेिहऐसेिारंिकेअिुसरणमेंसुर्ुदप
-ककयाियाहै, भािधिकलताहैतो, उसीप्रकारर्ुि:र्कडाजासकेिाधजसप्रकारभारतकीधिधिकेधिरुिअर्रािसेअधभयुत व्
-य धत धिकलभाििेर्रर्ुि:र्कडाजा सकताहै।
-28. प्रर् लायीअर्रािीकेर्ासर्ाईिईसम्र् धत्त — प्रर्लायीअर्रािीकीधिरफ्तारीकेसमयउसकेर्ासर्ाईिईप्रत्ये किस्तु
-जोप्रत्य र् प णअर्रािकोसाधबतकरिेमेंसा क्ष् य केरूर्मेंसारिाि्होसकती है, उसकेसंबंिमेंर्रव्य धत योंकेअधिकारोंके, यकदको ई
-हों, अध्य िीिकरके, प्रर् लायीअर्रािीकेअभ्य र् प णयालौिाएजािेकेसमयउसकेसाथहीर्ररदत्तकीजासकतीहै।
-29. ककसीप्रर्लायीअर्रािीकोउन्‍दमु त करिेकीकेन्‍दरी यसरकारकीशधत — यकदकेन्‍दरी यसरकारकोयहप्रतीतहोताहै
-ककमामलेकीतुच्छ प्र कृधतके कारणअथिाप्रर्लायीअर्रािीकेअभ्य र् प णयालौिाएजािेकेधलएककएिएआिेदिकेसद् भािर्ूिपक
-िहोिेकेकारणयान्‍दया यकेधहतमेंयाराजिैधतककारणोंसेअथिाअन्‍दय थायहअन्‍दया यर्ूणपयाअसमीचीिहोिाककप्रर्लायी
-अर्रािीकोअभ्य र्र् प तककयाजाएयालौिायाजाएतोिहइ सअधिधियमकेअिीिककन्‍दहीं कायपिाधहयोंकोककसीसमयआदेशद्वारा
-रोकसकेिीऔरधिदेशदेसकेिीककइसअधिधियमकेअिीिजारीककयाियायार्ृष्िां ककतकोईिारंिरद्दकरकदयाजाएऔरउस व्
-य धत कोधजसकीधिरफ्तारीकेधलएिारंिजारीककयाियायार्ृष्िां ककतककयािया है, उन्‍दमु त करकदयाजाए।
-30. सम सामधयकअध्य र्े िाएं — यकदककसीप्रर्लायीअर्रािीकेअभ्य र् प णकेधलएअध्य र्े िाएंएकसेअधिकधिदेशीराज्य
-4 *** सेप्राप्त होतीहैंतोकेन्‍दरी यसरकारमामलेकीर्ररधस्थ धतयोंकोध्या िमेंरितेहुएप्रर्लायीअर्रािीकोऐसे राज्य यादेशको
-अभ्य र्र् प तकरसकेिी, धजसेिहसरकारिीकसमझतीहै।
-31. अभ्य र् प णर्रधिबपन्‍दि ि — 5 [ ( 1 ) ] कोईप्रर्लायीअर्रािीककसीधिदेशीराज्य 1 *** कोउसदशामेंअभ्य र्र् प तिहींककया
-जाएिायालौिायािहींजाएिा, धजसमें —
-1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ा रा( 18 - 12 - 1993 से)कधतर्यशब्दों कालोर्ककयािया।
-2 1993 केअधिधियमसं ० 66 कीिारा 13 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों केस्था िर्रप्रधतस्था धर्त।
-3 1993 केअधिधियमसं ० 66 कीिारा 14 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों केस्था िर्रप्रधतस्था धर्त।
-4 1993 केअधिधियमसं ० 66 कीिारा 15 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों का लोर्ककयािया।
-5 1993 केअधिधियमसं ० 66 कीिारा 16 द्व ारा( 18 - 12 - 1993 से)र्ुि:संखयां ककत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `ककयाियाहोअथिार्श्चा त्ककया ियाहोऔरचाहेउसअर्रािर्रधिचारणकरिेकीअधिकाररताभारतमेंककसीन्‍दया यालयको`
+  line होअथिािहो।
+  line `23. समुरअथिाआ काशमेंककएिएअर्रािोंकेधिषयमेंअधिकाररता — यकदिहअर्राि, धजसकेसम्ब न्‍द ि मेंप्रर्लायी`
+  line `अर्रािीकाअभ्य र् प णयालौिायाजािाचाहाियाहै, भारत के याभारतीयराज्य िेत्रीयसमुरकेबाहरिुलेसमुरमेंककसीऐसे`
+  line `जलयािकेिलकर्रयाआकाशमेंककसीऐसेिायुयािर्र, जोभारतमेंककसीर्त्तियाधिमाििेत्रर्रआताहै, ककयाियाथा, तो`
+  line `केन्‍दरी यसरकारऔरकोईमधजस्रे िधजसकीउसर्त्तियाधिमाििेत्रर्रअधि काररताहैइसअधिधियमद्वाराप्रदत्तशधत योंकाप्रयोि`
+  line करसकेिा।
+  line `24. र् कडेिएव्य धत काउसदशामेंउन्‍दमो चिधजस में उसेदोमासकेअन्‍दद रअभ्य र्र् प तिहींककयाजातायालौिायािहीं`
+  line `जाता — यकदकोईप्रर्लायीअर्रािी, जोइसअधिधियमकेअिुसरणमेंककसीधिदेशीरा ज् य 1 *** कोअर्िेअभ्य र् प णयालौिाएजािे`
+  line `कीप्रतीिाकरिेतककेधलएकारािारकेसुर्ुदपकरकदयाियाहो, ऐसीसुर्ुदपिीकेर्श्चा त्दोमासकेअन्‍दद रभारतसेबाहरिहींले`
+  line `जाया जाता हैतोउच्च न्‍द या यालय, प्रर् लायीअर्रािीद्वारायाउसकीओरसेआिेदिककएजािेर्र औरइसबातकेसाधबतहोिेर्र`
+  line `ककऐसाआिेदिदेिेकेआशयकीयुधत युत सूचिाकेन्‍दरी यसरकारकोदेदीिईहै, ऐसेबन्‍ददी केउन्‍दमो चिकेधलएआदेशदेसकेिा`
+  line `जबतकककउसकेप्रधतकूलर्यापप्त हेतुकदर्शपतिहींकरकदयाजाता।`
+  line `25. धिरफ्तारककएिएव्य धत योंकी जमाितर्रधिमुपधत — ऐसेव्य धत कीदशामेंजोप्रर्लायीअर्रािीहैऔरइस`
+  line `अधिधियमकेअिीिधिरफ्तारयाधिरुिककयाियाहै, 2 [ दण्ड प्र कियासंधहता, 1973 ( 1974 का 2 ) ] केजमाितसेसम्ब धन्‍दि तउर्बंि`
+  line `उसीप्रकारलािूहोंिेजैसेिेऐसेव्य धत कोलािूहोतेयकद उसर्रभारतमेंिहीअर्रािकरिेकाअधभयोिलिायाियाहोताधजसे`
+  line `करिेकाअधभयोिउसर्रलिायाियाहैयािहधसिदोषिहरायाियाहै, औरऐसीजमाितकेसंबंिमेंउसमधजस्रे िको, धजसके`
+  line `समििहप्रर्लायीअर्रािीलायाजाताहै, यथाशय, िैसीहीशधत यांऔरअधिकाररता होिीजैसीउससंधहताकेअिीिसेशि न्‍द`
+  line `या यालयकीहोतीहै।`
+  line `26. प्रत् य र् प णअर्रािकादुष्प्रे रण — कोईप्रर्लायीअर्रािीधजसर्र 3 [ ककसीप्रत्य र् प णअर्रािकेककएजािेकेदुष्प्रे रणका,`
+  line `उसेकरिेकेधलए षड् यंत्र का, उसेकरिेकेप्रयत्ि का, उसकेउद्दीर्िकायाउसके ककएजािेमेंसह - अर्रािीकेरूर्मेंभािलेिेका ]`
+  line `अधभयोिलिायाियाहोयािहधसिदोषिहरायाियाहो, इसअधिधियमकेप्रयोजिोंकेधलए, ऐसेअर्राि कोकरिेकेधलए`
+  line `अधभयुत याधसिदोषसमझाजाएिाऔरतद्िुसारधिरफ्तारककएजािेऔरअभ्य र्र् प तककएजािेकाभािीहोिा।`
+  line `27. िारंिोंकेअिीिअधभरिाऔरउससेधिकलभाििेर्रदुबारार्कडिेकीिैिता — ऐसेव्य धत केधलएधजसेककसी प्रर्`
+  line `लायीअर्रािीकोर्कडिेकेधलएिारंिधिर्दपष्ि ककयाियाहैिारंिमेंउधल्ल धितव्य धत कोअधभरिामेंरििाऔरउसेिारंिमें`
+  line `िाधमतस्था िर्रलेजा िाधिधिर्ूणपहोिा, औरयकदऐसाव्य धत ककसीऐसीअधभरिासेधजसकेिहऐसेिारंिकेअिुसरणमेंसुर्ुदप`
+  line `ककयाियाहै, भािधिकलताहैतो, उसीप्रकारर्ुि:र्कडाजासकेिाधजसप्रकारभारतकीधिधिकेधिरुिअर्रािसेअधभयुत व्`
+  line `य धत धिकलभाििेर्रर्ुि:र्कडाजा सकताहै।`
+  line `28. प्रर् लायीअर्रािीकेर्ासर्ाईिईसम्र् धत्त — प्रर्लायीअर्रािीकीधिरफ्तारीकेसमयउसकेर्ासर्ाईिईप्रत्ये किस्तु`
+  line `जोप्रत्य र् प णअर्रािकोसाधबतकरिेमेंसा क्ष् य केरूर्मेंसारिाि्होसकती है, उसकेसंबंिमेंर्रव्य धत योंकेअधिकारोंके, यकदको ई`
+  line `हों, अध्य िीिकरके, प्रर् लायीअर्रािीकेअभ्य र् प णयालौिाएजािेकेसमयउसकेसाथहीर्ररदत्तकीजासकतीहै।`
+  line `29. ककसीप्रर्लायीअर्रािीकोउन्‍दमु त करिेकीकेन्‍दरी यसरकारकीशधत — यकदकेन्‍दरी यसरकारकोयहप्रतीतहोताहै`
+  line `ककमामलेकीतुच्छ प्र कृधतके कारणअथिाप्रर्लायीअर्रािीकेअभ्य र् प णयालौिाएजािेकेधलएककएिएआिेदिकेसद् भािर्ूिपक`
+  line `िहोिेकेकारणयान्‍दया यकेधहतमेंयाराजिैधतककारणोंसेअथिाअन्‍दय थायहअन्‍दया यर्ूणपयाअसमीचीिहोिाककप्रर्लायी`
+  line `अर्रािीकोअभ्य र्र् प तककयाजाएयालौिायाजाएतोिहइ सअधिधियमकेअिीिककन्‍दहीं कायपिाधहयोंकोककसीसमयआदेशद्वारा`
+  line `रोकसकेिीऔरधिदेशदेसकेिीककइसअधिधियमकेअिीिजारीककयाियायार्ृष्िां ककतकोईिारंिरद्दकरकदयाजाएऔरउस व्`
+  line `य धत कोधजसकीधिरफ्तारीकेधलएिारंिजारीककयाियायार्ृष्िां ककतककयािया है, उन्‍दमु त करकदयाजाए।`
+  line `30. सम सामधयकअध्य र्े िाएं — यकदककसीप्रर्लायीअर्रािीकेअभ्य र् प णकेधलएअध्य र्े िाएंएकसेअधिकधिदेशीराज्य`
+  line `4 *** सेप्राप्त होतीहैंतोकेन्‍दरी यसरकारमामलेकीर्ररधस्थ धतयोंकोध्या िमेंरितेहुएप्रर्लायीअर्रािीकोऐसे राज्य यादेशको`
+  line `अभ्य र्र् प तकरसकेिी, धजसेिहसरकारिीकसमझतीहै।`
+  line `31. अभ्य र् प णर्रधिबपन्‍दि ि — 5 [ ( 1 ) ] कोईप्रर्लायीअर्रािीककसीधिदेशीराज्य 1 *** कोउसदशामेंअभ्य र्र् प तिहींककया`
+  line `जाएिायालौिायािहींजाएिा, धजसमें —`
+  line `1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ा रा( 18 - 12 - 1993 से)कधतर्यशब्दों कालोर्ककयािया।`
+  line `2 1993 केअधिधियमसं ० 66 कीिारा 13 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों केस्था िर्रप्रधतस्था धर्त।`
+  line `3 1993 केअधिधियमसं ० 66 कीिारा 14 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों केस्था िर्रप्रधतस्था धर्त।`
+  line `4 1993 केअधिधियमसं ० 66 कीिारा 15 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों का लोर्ककयािया।`
+  line `5 1993 केअधिधियमसं ० 66 कीिारा 16 द्व ारा( 18 - 12 - 1993 से)र्ुि:संखयां ककत।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `7
-(क)अर्रािधजसकेसम्ब न्‍द ि मेंउसकाअभ्य र् प णचाहाियाहैराजिैधतकस्ि रूर् काहैयािहउसमधजस्रे िया न्‍द
-या यालयको, धजसकेसमििहप्रस्तु तककयाजाए, याकेन्‍दरी यसरकारकोसमािािप्रदरूर्मेंसाधबतकरदेताहैककउसके
-अभ्य र् प णसेसंबंधितअध्य र्े िायािारंि, िास्त िमें, राजिैधतकस्ि रूर् के अर्राि केधलएउसकाधिचारणकरिेयाउसे
-दधण्ड तकरिेकीदृधष्ि सेककयाियाहै;
-(ि)उसअर्रािकाअधभयोजि, धजसकेसंबंिमेंउसकाअभ्य र् प णचाहाियाहै, उसराज्य 1 *** कीधिधि के
-अिुसारकालिर्जपतहै;
-2 [ (ि) जबतकककधिदेशीराज्य कीउसधिधिद्वारायाधिदेशीरा ज् य केसाथप्रत्य र् प णसंधिमेंयहउर्बंििहीं
-ककयाजाताहै कक धिम्ि धलधितअर्रािसेधभन्‍दि ककसीअर्रािकेधलएउत राज्य मेंप्रर्लायीअर्रािीकाधिरोिया
-धिचारणिहींककयाजाएिा, अथापत्: —
-( i )िहप्रत्य र् प णअर्राि, धजसकेसंबंिमेंउसेअभ्य र्र् प तयालौिाया जािाहै;
-( ii )उसअर्रािसेधभन्‍दि धजसकीबाबतउसकेअभ्य र् प णयालौिाएजािेकाआदेशधिधिर्ूिपकिहीं
-ककयाजासकाहै, उसकेअभ्य र् प णयािार्सीसुधिधश्च तकरिेकेप्रयोजिोंकेधलएसाधबततथ्यों द्व ाराप्रकरितकोई
-लघुअर्राि; या
-( iii )िहअर्रािधजसकीबाबतकेन्‍दरी यसरकारिेअर्िी सहमधतदेदीहै ];
-(घ)उसर्रभारतमेंककसीऐसेअर्रािकाअधभयोिलिायाहै, जोिैसाअर्राििहींहैधजसकेधलएउसका
-अभ्य र् प णयालौिायाजािाचाहाियाहैयािहभारतमेंककसीदोषधसधिकेअिीिदण्डा देशभुितरहाहैजबतकककिह
-चाहेदोषमुधत द्व ा रायाअर्िेदण्ड केअिसािर्रयाअन्‍दय थाउन्‍दमु त िहींकरकदयाजाता;
-( ङ )मधजस्रे िद्वाराउसेकारािारकेसुर्ुदपककएजािेकीतारीिसेर्न्‍दर हकदिसमाप्त िहींहोजाते।
-3 [ ( 2 ) उर्िारा( 1 )केप्रयोजिोंकेधलए, अिुसूचीमेंधिधिर्दपष्ि अर्रािराजिैधतकस्ि रूर् केअर्राििहींमािेजाएंिे।
-( 3 )केन्‍दरी यसरकार, ककसीधिदेशीराज्य केसाथभारतद्वारीकीिईप्रत्य र् प णसंधिकोध्या िमेंरितेहुए, अधिसूधचतआदेश द्व
-ारा, अिुसूचीमेंदीिईसूचीमें ककसीअर्रािकोजोडसकेिीयाउसका लोर्करसकेिी। ]
-32. िारा 29 और िारा 31 काककसीउर्ान्‍दत रकेधबिालािूहोिा — िारा 3 यािारा 12 मेंककसीप्रधतकूलबातकेहोतेहुए
-भी, िारा 29 औरिारा 31 केउर्बंिप्रत्ये कधिदेशीराज्य 1 *** कोककसीभीउर्ान्‍दत रकेधबिालािूहोंिे।
-33. अधिधियमकाधिदेधशयोंधिषयक अधिधियम, 1946 कोप्रभाधित िकरिा — इसअधिधिय मकीकोईभीबातधिदेधशयों
-धिषयक अधिधियम, 1946 ( 1946 का 31 )केउर्बंिोंयातद् िीिबिाएिएककसीआदेशकोप्रभाधितिहींकरेिी।
-4 [ 34. राज्य िेत्रातीतअधिकाररता — ककसीधिदेशीराज्य मेंककसीव्य धत द्व ाराककयाियाकोईप्रत्य र् प णअर्राि, भारत में
-ककयाियासमझाजाएिाऔरऐसाव्य धत ऐसेअर्रािकेधलएभारतमेंअधभयोधजतककएजािेकादायीहोिा।
-34 क. प्रत् य र् प णसेइंकारककएजािेर्रअधभयोजि — जहांकेन्‍दरी यसरकारकीयहरायहैककककसीधिदेशीराज्य सेप्रत्य र् प ण
-केधलएअिुरोिकेअिुसरणमेंककसीप्र र् लायीअर्रािीकोअभ्य र्र् प तिहींककयाजासकताहैयालौिायािहींजासकताहैिहांिह,
-ऐसेप्रर्लायीअर्रािीकेभारतमेंअधभयोजिकेधलएऐसीकारपिाईकरसकेिी, जोिहिीकसमझे।
-34 ि. अिं धतमधिरफ्तारी — ( 1 )ककसीधिदेशीराज्य सेककसीप्रर्लायीअर्रािीकीतत्का लधिरफ्ता रीकेधलएअजेंि
-अिुरोिप्राप्त होिेर्र, केन्‍दरी यसरकारसिमअधिकाररतािालेमधजस्रे िसेऐसेप्रर्लायीअर्रािीकीधिरफ्तारीकेधलएअिंधतम
-िारंिजारीकरिे का अिुरोिकरसकेिी।
-( 2 )उर्िारा( 1 )केअिीिधिरफ्तार ककयाियाप्रर्लायीअर्रािी, उसकीधिरफ्तारी कीतारीिसेसािकदिकीसमाधप्त र्
-रउन्‍दमो धचतकरकदयाजाएिा, यकदउत अिधिकेभीतरउसकेअभ्य र् प णयालौिाएजािेकेधलएकोईअिुरोिप्राप्त िहींहोताहै।
-34 ि. मृत्यु शाधस्त केस्था िर्रआजीििकारािासकाउर्बंि — तत्स मयप्रिृत्तककसीअ न्‍द य धिधिमेंककसीबा तकेहोतेहुए
-भी, जहांककसीऐसेप्रर्लायीअर्रािीको, धजसिेभारतमेंमृत्यु सेदण्ड िीयप्रत्य र् प णअर्रािककयाहै, केन्‍दरी यसरकारकेअिुरोिर्र
-ककसी धिदेशी राज्य द्व ाराअभ्य र्र् प तककयाजाताहैयालौिायाजाताहैऔरउसधिदेशीराज्य कीधिधियोंमेंऐसेअर्राि केधलएमृत्यु
-शाधस्त काउर्बंििहींहैिहां ऐसा प्रर् लायीअर्रािीउसअर्रािकेधलएकेिलआजीििकारािाससेदंडिीयहोिा। ]
-1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों कालोर्ककयािया।
-2 1993 केअधिधियमसं ० 66 कीिारा 16 द्व ारा( 18 - 12 - 1993 से)िंड(ि)केस्था िर्रप्रधतस्था धर्त।
-3 1993 केअधिधियमसं ० 66 कीिारा 16 द्व ारा( 18 - 12 - 1993 से) अंत:स्था धर्त।
-4 1993 केअधिधियमसं ० 66 कीिारा 17 द्व ारा( 18 - 12 - 1993 से)िारा 34 केस्था िर्रप्रधत स् था धर्त।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 7
+  line `(क)अर्रािधजसकेसम्ब न्‍द ि मेंउसकाअभ्य र् प णचाहाियाहैराजिैधतकस्ि रूर् काहैयािहउसमधजस्रे िया न्‍द`
+  line `या यालयको, धजसकेसमििहप्रस्तु तककयाजाए, याकेन्‍दरी यसरकारकोसमािािप्रदरूर्मेंसाधबतकरदेताहैककउसके`
+  line `अभ्य र् प णसेसंबंधितअध्य र्े िायािारंि, िास्त िमें, राजिैधतकस्ि रूर् के अर्राि केधलएउसकाधिचारणकरिेयाउसे`
+  line `दधण्ड तकरिेकीदृधष्ि सेककयाियाहै;`
+  line `(ि)उसअर्रािकाअधभयोजि, धजसकेसंबंिमेंउसकाअभ्य र् प णचाहाियाहै, उसराज्य 1 *** कीधिधि के`
+  line अिुसारकालिर्जपतहै;
+  line `2 [ (ि) जबतकककधिदेशीराज्य कीउसधिधिद्वारायाधिदेशीरा ज् य केसाथप्रत्य र् प णसंधिमेंयहउर्बंििहीं`
+  line `ककयाजाताहै कक धिम्ि धलधितअर्रािसेधभन्‍दि ककसीअर्रािकेधलएउत राज्य मेंप्रर्लायीअर्रािीकाधिरोिया`
+  line `धिचारणिहींककयाजाएिा, अथापत्: —`
+  line `( i )िहप्रत्य र् प णअर्राि, धजसकेसंबंिमेंउसेअभ्य र्र् प तयालौिाया जािाहै;`
+  line `( ii )उसअर्रािसेधभन्‍दि धजसकीबाबतउसकेअभ्य र् प णयालौिाएजािेकाआदेशधिधिर्ूिपकिहीं`
+  line `ककयाजासकाहै, उसकेअभ्य र् प णयािार्सीसुधिधश्च तकरिेकेप्रयोजिोंकेधलएसाधबततथ्यों द्व ाराप्रकरितकोई`
+  line `लघुअर्राि; या`
+  line `( iii )िहअर्रािधजसकीबाबतकेन्‍दरी यसरकारिेअर्िी सहमधतदेदीहै ];`
+  line `(घ)उसर्रभारतमेंककसीऐसेअर्रािकाअधभयोिलिायाहै, जोिैसाअर्राििहींहैधजसकेधलएउसका`
+  line `अभ्य र् प णयालौिायाजािाचाहाियाहैयािहभारतमेंककसीदोषधसधिकेअिीिदण्डा देशभुितरहाहैजबतकककिह`
+  line `चाहेदोषमुधत द्व ा रायाअर्िेदण्ड केअिसािर्रयाअन्‍दय थाउन्‍दमु त िहींकरकदयाजाता;`
+  line `( ङ )मधजस्रे िद्वाराउसेकारािारकेसुर्ुदपककएजािेकीतारीिसेर्न्‍दर हकदिसमाप्त िहींहोजाते।`
+  line `3 [ ( 2 ) उर्िारा( 1 )केप्रयोजिोंकेधलए, अिुसूचीमेंधिधिर्दपष्ि अर्रािराजिैधतकस्ि रूर् केअर्राििहींमािेजाएंिे।`
+  line `( 3 )केन्‍दरी यसरकार, ककसीधिदेशीराज्य केसाथभारतद्वारीकीिईप्रत्य र् प णसंधिकोध्या िमेंरितेहुए, अधिसूधचतआदेश द्व`
+  line `ारा, अिुसूचीमेंदीिईसूचीमें ककसीअर्रािकोजोडसकेिीयाउसका लोर्करसकेिी। ]`
+  line `32. िारा 29 और िारा 31 काककसीउर्ान्‍दत रकेधबिालािूहोिा — िारा 3 यािारा 12 मेंककसीप्रधतकूलबातकेहोतेहुए`
+  line `भी, िारा 29 औरिारा 31 केउर्बंिप्रत्ये कधिदेशीराज्य 1 *** कोककसीभीउर्ान्‍दत रकेधबिालािूहोंिे।`
+  line `33. अधिधियमकाधिदेधशयोंधिषयक अधिधियम, 1946 कोप्रभाधित िकरिा — इसअधिधिय मकीकोईभीबातधिदेधशयों`
+  line `धिषयक अधिधियम, 1946 ( 1946 का 31 )केउर्बंिोंयातद् िीिबिाएिएककसीआदेशकोप्रभाधितिहींकरेिी।`
+  line `4 [ 34. राज्य िेत्रातीतअधिकाररता — ककसीधिदेशीराज्य मेंककसीव्य धत द्व ाराककयाियाकोईप्रत्य र् प णअर्राि, भारत में`
+  line `ककयाियासमझाजाएिाऔरऐसाव्य धत ऐसेअर्रािकेधलएभारतमेंअधभयोधजतककएजािेकादायीहोिा।`
+  line `34 क. प्रत् य र् प णसेइंकारककएजािेर्रअधभयोजि — जहांकेन्‍दरी यसरकारकीयहरायहैककककसीधिदेशीराज्य सेप्रत्य र् प ण`
+  line `केधलएअिुरोिकेअिुसरणमेंककसीप्र र् लायीअर्रािीकोअभ्य र्र् प तिहींककयाजासकताहैयालौिायािहींजासकताहैिहांिह,`
+  line `ऐसेप्रर्लायीअर्रािीकेभारतमेंअधभयोजिकेधलएऐसीकारपिाईकरसकेिी, जोिहिीकसमझे।`
+  line `34 ि. अिं धतमधिरफ्तारी — ( 1 )ककसीधिदेशीराज्य सेककसीप्रर्लायीअर्रािीकीतत्का लधिरफ्ता रीकेधलएअजेंि`
+  line `अिुरोिप्राप्त होिेर्र, केन्‍दरी यसरकारसिमअधिकाररतािालेमधजस्रे िसेऐसेप्रर्लायीअर्रािीकीधिरफ्तारीकेधलएअिंधतम`
+  line `िारंिजारीकरिे का अिुरोिकरसकेिी।`
+  line `( 2 )उर्िारा( 1 )केअिीिधिरफ्तार ककयाियाप्रर्लायीअर्रािी, उसकीधिरफ्तारी कीतारीिसेसािकदिकीसमाधप्त र्`
+  line `रउन्‍दमो धचतकरकदयाजाएिा, यकदउत अिधिकेभीतरउसकेअभ्य र् प णयालौिाएजािेकेधलएकोईअिुरोिप्राप्त िहींहोताहै।`
+  line `34 ि. मृत्यु शाधस्त केस्था िर्रआजीििकारािासकाउर्बंि — तत्स मयप्रिृत्तककसीअ न्‍द य धिधिमेंककसीबा तकेहोतेहुए`
+  line `भी, जहांककसीऐसेप्रर्लायीअर्रािीको, धजसिेभारतमेंमृत्यु सेदण्ड िीयप्रत्य र् प णअर्रािककयाहै, केन्‍दरी यसरकारकेअिुरोिर्र`
+  line `ककसी धिदेशी राज्य द्व ाराअभ्य र्र् प तककयाजाताहैयालौिायाजाताहैऔरउसधिदेशीराज्य कीधिधियोंमेंऐसेअर्राि केधलएमृत्यु`
+  line `शाधस्त काउर्बंििहींहैिहां ऐसा प्रर् लायीअर्रािीउसअर्रािकेधलएकेिलआजीििकारािाससेदंडिीयहोिा। ]`
+  line `1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से)कधतर्यशब्दों कालोर्ककयािया।`
+  line `2 1993 केअधिधियमसं ० 66 कीिारा 16 द्व ारा( 18 - 12 - 1993 से)िंड(ि)केस्था िर्रप्रधतस्था धर्त।`
+  line `3 1993 केअधिधियमसं ० 66 कीिारा 16 द्व ारा( 18 - 12 - 1993 से) अंत:स्था धर्त।`
+  line `4 1993 केअधिधियमसं ० 66 कीिारा 17 द्व ारा( 18 - 12 - 1993 से)िारा 34 केस्था िर्रप्रधत स् था धर्त।`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `8
-35. अधिसूधचतआदेशोंऔरअधिसूचिाओंकासंसद्केसमिरिाजािा — इसअधिधियमकेअिीिबिायाियाप्रत्ये क
-अधिसूधचतआदेशयाजारीकीिईअधिसूचिा बिा एजािेयाजा रीककएजािेकेर्श्चा त्यथाशय शीघ्रसंसद्केप्रत्ये कसदिके
-समिरिीजाएिी।
-36. धियमबिािेकीशधत — ( 1 )केन्‍दरी यसरकारइसअधिधियमकेप्रयोजिोंकोकायापधन्‍दि तकरिेकेधलएधियमशासकीय
-राजर्त्रमेंअधिसूचिाद्वाराबिासकेिी।
-( 2 )धि धशष्ि तयायार्ूिपिामीशधत कीव्या र् कतार्रप्रधतकूलप्रभािडालेधबिाऐसेधियमधिम्ि धलधितसबधिषयोंया
-उिमेंसेककसीकेधलएउर्बन्‍दि करसकेंिे, अथापत्: —
-(क)प्ररूर्धजसमेंककसीप्रर्लायीअर्रािीकेअभ्य र् प णकेधलएअध्य र्े िाकीजासकेिी;
-(ि)प्ररूर्धज समेंउस 1 [ धिदेशीराज्य ] में, धजसकोअध्या य 3 लािूहोताहै, ककसीव्य धत कोर्कडिेकेधलएिारंि
-जारीककयाजासकेिा;
-(ि)रीधतधजसकेअिुसारइसअधिधियमकेअिीिकोईिारंिर्ृष्िां ककतयाअधिप्रमाधणतककयाजासकेिा;
-(घ)प्रर्लायीअर्राधियोंकाजोइसअधिधियमके अिीिअधभयुत याअधभरिामेंहोंहिायाजािाऔरतबतक
-केधलएउिकाधियंत्रणऔरभरण - र् ोषणजबतकककिेउन्‍दहें प्र ाप्त करिेकेधलएहकदारकेरूर्मेंिारंिमेंिाधमत व्
-य धत योंकेहिालेिहींकरकदएजाते;
-( ङ )ककसीऐसीसम्र् धत्तकाअधभग्रहणऔरव्य यिजोकक सीऐसेअधभकधथतअर्रािकीधजसेयहअधिधियमलािू
-हो ताहैधिषय - िस्तु होयाउससे साधबतकरिेकेधलएअर्ेधितहो;
-( च )प्ररूर्औररीधतधजसमेंयामाध्य मधजससेकोईमधजस्रे िकेन्‍दरी यसरकारकोइसअधिधियमकेअिीिररर्ोिप
-देिेकेधलएअर्ेधितहो;
-(छ)कोईअन्‍दय धिषयजोधिधहतककयाजािाहैयाधिधहतककयाजाए।
-2 [ ( 3 ) इसिाराकेअिीिबिायाियाप्रत्ये कधियम, बिाएजािेकेर्श्चा त्यथाशीघ्र, संसद्केप्रत्ये कसदिकेसमि, जब
-िहसत्रमेंहो, कुलतीसकदिकीअिधिकेधलएरिाजाएिा।यहअिधिएकसत्रमेंअथिादोयाअधिकआ िुिधमकसत्रोंमेंर्ूरीहो
-सकेिी।यकदउससत्रकेयार्ूिोत आिुिधमकसत्रोंकेिीकबादकेसत्रकेअिसािकेर्ूिपदोिोंसदिउसधियममेंकोईर्ररितपि
-करिेकेधलएसहमतहोजाएंतोतत्र् श् चा त्िहऐसेर्ररिर्तपतरूर्मेंहीप्रभािीहोिा।यकदउत अिसािके र्ू िपदोिोंसदिसहमत
-होजाएंककिहधियमिहींबिायाजािाचाधहएतोतत्र् श् चा त्िहधिष्प्र भािहोजाएिा।ककन्‍दतु धियमकेऐसेर्ररिर्तपतया
-धिष्प्र भािहोिेसेउसकेअिीिर्हलेकीिईककसीबातकीधिधिमान्‍दय तार्रप्रधतकूलप्रभाििहींर्डेिा। ]
-37. धिरसिऔरव्या िृधत्त — ( 1 )भारतीयप्रत्य र् प णअधिधियम, 1903 ( 1903 का 15 )औरउसकीतत्स्था िीकोईधिधि, जो
-ऐसेराज्य िेत्रोंमेंजो 1956 केििम्ब रकेप्रथमकदिसेर्ूिपककसीभाि ‘ ि ’ राज्य मेंसमाधिष्ि थे, इसअधिधियमकेप्रारम्भ केसमय प्र
-िृत्तथी, औरर्ूिोत्तरसीमा न्‍द त एजेन्‍दसी तथाट्यूसांिधजला(प्रत्य र् प ण)धि धियम, 1961 ( 1961 का 3 )एतद् द्व ाराधिरधसतककए
-जातेहैं।
-( 2 ) 1870 से 1932 तककेप्रत्य र् प णअधिधियमऔरप्रर्लायीअर्रािीअधिधियम, 1881 जहांतकिेभारतकोलािूहोतेहैं
-औरभारतकीधिधिकेभािके रूर् मेंप्रिर्तपतहोतेहैं, एतद् द्व ाराधिरधसतककएजातेहैं।
-3 [ अिुसूची
-[ िारा 31 ( 2 )देधिए ]
-िेअर्रािधजन्‍दहें राजिैधतकस्ि रूर् केअर्राििहींमािाजाएिा
-अर्रािोंकीधिम्ि धलधितसूचीकाअधभकधथतअर्रािकीतारीिकोभारतमेंप्रिृत्तधिधिकेअिुसारअथपलिाया
-जाएिा।जहांकहींसुसंितअधिधियमकेिामिहींकदएिएहैं, िहांधिर्दपष्ि िाराएंभारतीयदंडसंधहता( 1860 का 45 )की
-िाराएंहै: —
-1. याि - हरणधििारणअधिधियम, 1982 ( 1982 का 65 )केअिीिअर्राि।
-2. धसधिलधिमाििसुरिाधिधिधिरुिकायपदमि अधिधियम, 1982 ( 1982 का 66 )केअिीिअर्राि।
-3. अंतरराष्री यरूर्सेसंरधितव्य धत योंकेधिरुि, धजिकेअंतिपतराजिधयकअधभकतापहैं, अर्रािोंकेधलएदंड
-केसंबंिमेंन्‍दयू याकपमें 14 कदसम्ब र, 1973 कोहस्ता िरकेधलएरिेिएअधभसमयकेप्रधिषयकेभीतर कोईअर्राि।
-1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ कामििैल्थ देश ” शब्दों केस्था िर्रप्रधतस्था धर्त।
-2 1986 केअधिधियमसं ० 4 कीिारा 2 औरअिुसूचीद्वारा( 15 - 5 - 1986 से)उर्िारा 3 केस्था िर्रप्रधतस्था धर्त।
-3 1993 केअधिधियमसं ० 66 की िारा 18 द्व ारा( 18 - 12 - 1993 से)अिुसूची 1 और 2 केस्था िर्रप्रधतस्था धर्त।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 8
+  line `35. अधिसूधचतआदेशोंऔरअधिसूचिाओंकासंसद्केसमिरिाजािा — इसअधिधियमकेअिीिबिायाियाप्रत्ये क`
+  line `अधिसूधचतआदेशयाजारीकीिईअधिसूचिा बिा एजािेयाजा रीककएजािेकेर्श्चा त्यथाशय शीघ्रसंसद्केप्रत्ये कसदिके`
+  line समिरिीजाएिी।
+  line `36. धियमबिािेकीशधत — ( 1 )केन्‍दरी यसरकारइसअधिधियमकेप्रयोजिोंकोकायापधन्‍दि तकरिेकेधलएधियमशासकीय`
+  line राजर्त्रमेंअधिसूचिाद्वाराबिासकेिी।
+  line `( 2 )धि धशष्ि तयायार्ूिपिामीशधत कीव्या र् कतार्रप्रधतकूलप्रभािडालेधबिाऐसेधियमधिम्ि धलधितसबधिषयोंया`
+  line `उिमेंसेककसीकेधलएउर्बन्‍दि करसकेंिे, अथापत्: —`
+  line `(क)प्ररूर्धजसमेंककसीप्रर्लायीअर्रािीकेअभ्य र् प णकेधलएअध्य र्े िाकीजासकेिी;`
+  line `(ि)प्ररूर्धज समेंउस 1 [ धिदेशीराज्य ] में, धजसकोअध्या य 3 लािूहोताहै, ककसीव्य धत कोर्कडिेकेधलएिारंि`
+  line जारीककयाजासकेिा;
+  line `(ि)रीधतधजसकेअिुसारइसअधिधियमकेअिीिकोईिारंिर्ृष्िां ककतयाअधिप्रमाधणतककयाजासकेिा;`
+  line `(घ)प्रर्लायीअर्राधियोंकाजोइसअधिधियमके अिीिअधभयुत याअधभरिामेंहोंहिायाजािाऔरतबतक`
+  line `केधलएउिकाधियंत्रणऔरभरण - र् ोषणजबतकककिेउन्‍दहें प्र ाप्त करिेकेधलएहकदारकेरूर्मेंिारंिमेंिाधमत व्`
+  line `य धत योंकेहिालेिहींकरकदएजाते;`
+  line `( ङ )ककसीऐसीसम्र् धत्तकाअधभग्रहणऔरव्य यिजोकक सीऐसेअधभकधथतअर्रािकीधजसेयहअधिधियमलािू`
+  line `हो ताहैधिषय - िस्तु होयाउससे साधबतकरिेकेधलएअर्ेधितहो;`
+  line `( च )प्ररूर्औररीधतधजसमेंयामाध्य मधजससेकोईमधजस्रे िकेन्‍दरी यसरकारकोइसअधिधियमकेअिीिररर्ोिप`
+  line देिेकेधलएअर्ेधितहो;
+  line `(छ)कोईअन्‍दय धिषयजोधिधहतककयाजािाहैयाधिधहतककयाजाए।`
+  line `2 [ ( 3 ) इसिाराकेअिीिबिायाियाप्रत्ये कधियम, बिाएजािेकेर्श्चा त्यथाशीघ्र, संसद्केप्रत्ये कसदिकेसमि, जब`
+  line `िहसत्रमेंहो, कुलतीसकदिकीअिधिकेधलएरिाजाएिा।यहअिधिएकसत्रमेंअथिादोयाअधिकआ िुिधमकसत्रोंमेंर्ूरीहो`
+  line `सकेिी।यकदउससत्रकेयार्ूिोत आिुिधमकसत्रोंकेिीकबादकेसत्रकेअिसािकेर्ूिपदोिोंसदिउसधियममेंकोईर्ररितपि`
+  line `करिेकेधलएसहमतहोजाएंतोतत्र् श् चा त्िहऐसेर्ररिर्तपतरूर्मेंहीप्रभािीहोिा।यकदउत अिसािके र्ू िपदोिोंसदिसहमत`
+  line `होजाएंककिहधियमिहींबिायाजािाचाधहएतोतत्र् श् चा त्िहधिष्प्र भािहोजाएिा।ककन्‍दतु धियमकेऐसेर्ररिर्तपतया`
+  line `धिष्प्र भािहोिेसेउसकेअिीिर्हलेकीिईककसीबातकीधिधिमान्‍दय तार्रप्रधतकूलप्रभाििहींर्डेिा। ]`
+  line `37. धिरसिऔरव्या िृधत्त — ( 1 )भारतीयप्रत्य र् प णअधिधियम, 1903 ( 1903 का 15 )औरउसकीतत्स्था िीकोईधिधि, जो`
+  line `ऐसेराज्य िेत्रोंमेंजो 1956 केििम्ब रकेप्रथमकदिसेर्ूिपककसीभाि ‘ ि ’ राज्य मेंसमाधिष्ि थे, इसअधिधियमकेप्रारम्भ केसमय प्र`
+  line `िृत्तथी, औरर्ूिोत्तरसीमा न्‍द त एजेन्‍दसी तथाट्यूसांिधजला(प्रत्य र् प ण)धि धियम, 1961 ( 1961 का 3 )एतद् द्व ाराधिरधसतककए`
+  line जातेहैं।
+  line `( 2 ) 1870 से 1932 तककेप्रत्य र् प णअधिधियमऔरप्रर्लायीअर्रािीअधिधियम, 1881 जहांतकिेभारतकोलािूहोतेहैं`
+  line `औरभारतकीधिधिकेभािके रूर् मेंप्रिर्तपतहोतेहैं, एतद् द्व ाराधिरधसतककएजातेहैं।`
+  line `3 [ अिुसूची`
+  line `[ िारा 31 ( 2 )देधिए ]`
+  line `िेअर्रािधजन्‍दहें राजिैधतकस्ि रूर् केअर्राििहींमािाजाएिा`
+  line `अर्रािोंकीधिम्ि धलधितसूचीकाअधभकधथतअर्रािकीतारीिकोभारतमेंप्रिृत्तधिधिकेअिुसारअथपलिाया`
+  line `जाएिा।जहांकहींसुसंितअधिधियमकेिामिहींकदएिएहैं, िहांधिर्दपष्ि िाराएंभारतीयदंडसंधहता( 1860 का 45 )की`
+  line `िाराएंहै: —`
+  line `1. याि - हरणधििारणअधिधियम, 1982 ( 1982 का 65 )केअिीिअर्राि।`
+  line `2. धसधिलधिमाििसुरिाधिधिधिरुिकायपदमि अधिधियम, 1982 ( 1982 का 66 )केअिीिअर्राि।`
+  line `3. अंतरराष्री यरूर्सेसंरधितव्य धत योंकेधिरुि, धजिकेअंतिपतराजिधयकअधभकतापहैं, अर्रािोंकेधलएदंड`
+  line `केसंबंिमेंन्‍दयू याकपमें 14 कदसम्ब र, 1973 कोहस्ता िरकेधलएरिेिएअधभसमयकेप्रधिषयकेभीतर कोईअर्राि।`
+  line `1 1993 केअधिधियमसं ० 66 कीिारा 3 द्व ारा( 18 - 12 - 1993 से) “ कामििैल्थ देश ” शब्दों केस्था िर्रप्रधतस्था धर्त।`
+  line `2 1986 केअधिधियमसं ० 4 कीिारा 2 औरअिुसूचीद्वारा( 15 - 5 - 1986 से)उर्िारा 3 केस्था िर्रप्रधतस्था धर्त।`
+  line `3 1993 केअधिधियमसं ० 66 की िारा 18 द्व ारा( 18 - 12 - 1993 से)अिुसूची 1 और 2 केस्था िर्रप्रधतस्था धर्त।`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `9
-4. बंिकबिािेकेधिरुिन्‍दयू याकपमें 18 कदसम्ब र, 1979 कोहस्ता िरकेधलएरिेिएअंतरराष्री यअधभसमयके प्र
-धिषयकेभीतरकोईअर्राि।
-5. आर्राधिकमािििि, हत्या (िारा 299 सेिारा 304 )।
-6. ितरिाकआयुियासाििोंद्वारास्िे च् छ याउर्हधत याघोरउर्हधतकाररतकरिा(िारा 321 सेिारा 333 )।
-7. धिस्िो िकर्दाथपअधिधियम, 1908 ( 1908 का 6 )केअिीिअर्राि।
-8. जीिि को संकिार्न्‍दि करिेकेआशयसेकोईअग्‍न्‍दया युियािोलाबारूदकब्जे मेंरििा [ आयुिअधिधियम,
-1959 ( 1959 का 54 )कीिारा 27]।
-9. धिरफ्तारी याधिरोिकोप्रधत रु िकरिेयारोकिेकेआशयसेअग्‍न्‍दया युिकाउर्योिकरिा [ आयुिअधिधियम,
-1959 ( 1959 का 54 )कीिारा 28]।
-10. जीििकोसंकिार्न्‍दि करिेकेआशयसेलोकउर्योिकेधलएयाअन्‍दय थाप्रयुत संर्धत्तकोहाधियािुकसाि
-काररतकरिा(िारा 440 केसाथर्रित िारा 425 )।
-11. सदोषअिरोि औरसदोषर्रररोि(िारा 339 केिारा 348 )।
-12. व् य र् हरणऔरअर्हरणधजसकेअंतिपतबंिकबिािाहै(िारा 359 सेिारा 369 तक)।
-13. आतंकिादऔरआतंकिादीकायोंसेसंबंधितअर्राि [ आतंकिादीऔरधिध्िं सककियाकलार्(धििारण)
-अधिधियम, 1987 ( 1987 का 28 ) ]।
-14. ऊर्रसूचीमेंकदएिएककसीअर्रािकेककएजािेकादुष्प्रे रणकरिा, उसेकरिेकेधलएषड्यंत्रकरिायाउसे
-काररतकरिेकाप्रयत्ि करिा, उसकाउद्दीर्िकरिा, उसेककएजािेमेंसह - अर्रािीकेरूर्मेंभािलेिा। ]
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 9
+  line `4. बंिकबिािेकेधिरुिन्‍दयू याकपमें 18 कदसम्ब र, 1979 कोहस्ता िरकेधलएरिेिएअंतरराष्री यअधभसमयके प्र`
+  line धिषयकेभीतरकोईअर्राि।
+  line `5. आर्राधिकमािििि, हत्या (िारा 299 सेिारा 304 )।`
+  line `6. ितरिाकआयुियासाििोंद्वारास्िे च् छ याउर्हधत याघोरउर्हधतकाररतकरिा(िारा 321 सेिारा 333 )।`
+  line `7. धिस्िो िकर्दाथपअधिधियम, 1908 ( 1908 का 6 )केअिीिअर्राि।`
+  line `8. जीिि को संकिार्न्‍दि करिेकेआशयसेकोईअग्‍न्‍दया युियािोलाबारूदकब्जे मेंरििा [ आयुिअधिधियम,`
+  line `1959 ( 1959 का 54 )कीिारा 27]।`
+  line `9. धिरफ्तारी याधिरोिकोप्रधत रु िकरिेयारोकिेकेआशयसेअग्‍न्‍दया युिकाउर्योिकरिा [ आयुिअधिधियम,`
+  line `1959 ( 1959 का 54 )कीिारा 28]।`
+  line `10. जीििकोसंकिार्न्‍दि करिेकेआशयसेलोकउर्योिकेधलएयाअन्‍दय थाप्रयुत संर्धत्तकोहाधियािुकसाि`
+  line `काररतकरिा(िारा 440 केसाथर्रित िारा 425 )।`
+  line `11. सदोषअिरोि औरसदोषर्रररोि(िारा 339 केिारा 348 )।`
+  line `12. व् य र् हरणऔरअर्हरणधजसकेअंतिपतबंिकबिािाहै(िारा 359 सेिारा 369 तक)।`
+  line `13. आतंकिादऔरआतंकिादीकायोंसेसंबंधितअर्राि [ आतंकिादीऔरधिध्िं सककियाकलार्(धििारण)`
+  line `अधिधियम, 1987 ( 1987 का 28 ) ]।`
+  line `14. ऊर्रसूचीमेंकदएिएककसीअर्रािकेककएजािेकादुष्प्रे रणकरिा, उसेकरिेकेधलएषड्यंत्रकरिायाउसे`
+  line `काररतकरिेकाप्रयत्ि करिा, उसकाउद्दीर्िकरिा, उसेककएजािेमेंसह - अर्रािीकेरूर्मेंभािलेिा। ]`
+  line ______
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line

@@ -1,102 +1,106 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T09:52:43.801Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2460`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-09T09:52:43.801Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2460`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-jammu-and-kashmir-representation-of-the-people-supplementary-act-1968-3-of-1968)
-  (str handle) (str 2460)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Jammu and Kashmir Representation of the People (Supplementary) Act, 1968 (3 of 1968)`)
-  (str actNumber) (str 03)
-  (str enactmentDate) (str 1968-03-23)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2460`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1968)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Legislative Department`)
-  (str longTitle) (undefined)
-  (str enforcementDate) (undefined)
-  (str notification) (undefined)
+  slug the-jammu-and-kashmir-representation-of-the-people-supplementary-act-1968-3-of-1968
+  handle (2460)
+  collectionHandle 123456789/1362
+  title `The Jammu and Kashmir Representation of the People (Supplementary) Act, 1968 (3 of 1968)`
+  actNumber (03)
+  enactmentDate 1968-03-23
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2460`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1968)
+  ministry `Ministry of Law and Justice`
+  department `Legislative Department`
+  longTitle undefined
+  enforcementDate undefined
+  notification undefined
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_jammu_and_kashmir_representation_of_the_people_supplementary_act_1968_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2460`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2460`
 obj_root_law_sources_en_the_jammu_and_kashmir_representation_of_the_people_supplementary_act_1968_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2460/1/a1968-3.pdf`)
-  (str title) (str `The Jammu and Kashmir Representation of the People (Supplementary) Act, 1968 (3 of 1968)`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2460/1/a1968-3.pdf`
+  title `The Jammu and Kashmir Representation of the People (Supplementary) Act, 1968 (3 of 1968)`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 29950)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Jammu and Kashmir
-Representation of the People (Supplementary) Act, 1968.
-
-(2) It shall be deemed to have come into force on the 9th day of February, 1968.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00072_19683_1532945434555&sectionId=29950&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00072_19683_1532945434555)
+  sectionId (29950)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00072_19683_1532945434555&sectionId=29950&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00072_19683_1532945434555
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Jammu and Kashmir`
+  line `Representation of the People (Supplementary) Act, 1968.`
+  line
+  line `(2) It shall be deemed to have come into force on the 9th day of February, 1968.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 29951)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Application of sections 116A, 116B and 116C of the Representation of the People Act, 1951, to orders made by Jammu and Kashmir High Court.`)
-  (str content) (str `The provisions of sections
-116A, 116B and 116C of the Representation of the People Act, 1951 (43 of 1951) shall, so far as may
-be, apply to every order made by the High Court of Jammu and Kashmir subject to the following
-modifications, namely:
-
-(a) references therein to the High Court shall be construed as including references to the High
-Court of Jammu and Kashmir,
-
-(b) references therein to the State Legislature or to the Speaker or Chairman thereof, shall be
-construed as including references to the Legislature of the State of Jammu and Kashmir* and to the
-Speaker or Chairman thereof, and
-
-(c) references therein to the provisions of the Representation of the People
-Act, 1951 (43 of 1951), shall, in relation to the State of Jammu and Kashmir*, be construed as
-references to the corresponding provisions of the Jammu and Kashmir Representation of the
-People Act, 1957 (Jammu and Kashmir Act No. IV of 1957).`)
-  (str footnotes) (str `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00072_19683_1532945434555&sectionId=29951&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00072_19683_1532945434555)
+  sectionId (29951)
+  sectionNo (2)
+  orderNo 2
+  title `Application of sections 116A, 116B and 116C of the Representation of the People Act, 1951, to orders made by Jammu and Kashmir High Court.`
+  content obj_root_law_sections_2_content
+  footnotes `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00072_19683_1532945434555&sectionId=29951&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00072_19683_1532945434555
+obj_root_law_sections_2_content:
+  string
+  line `The provisions of sections`
+  line `116A, 116B and 116C of the Representation of the People Act, 1951 (43 of 1951) shall, so far as may`
+  line `be, apply to every order made by the High Court of Jammu and Kashmir subject to the following`
+  line `modifications, namely:`
+  line
+  line `(a) references therein to the High Court shall be construed as including references to the High`
+  line `Court of Jammu and Kashmir,`
+  line
+  line `(b) references therein to the State Legislature or to the Speaker or Chairman thereof, shall be`
+  line `construed as including references to the Legislature of the State of Jammu and Kashmir* and to the`
+  line `Speaker or Chairman thereof, and`
+  line
+  line `(c) references therein to the provisions of the Representation of the People`
+  line `Act, 1951 (43 of 1951), shall, in relation to the State of Jammu and Kashmir*, be construed as`
+  line `references to the corresponding provisions of the Jammu and Kashmir Representation of the`
+  line `People Act, 1957 (Jammu and Kashmir Act No. IV of 1957).`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 29952)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Repeal and saving.`)
-  (str content) (str `(1) The Jammu and Kashmir Representation of the People
-(Supplementary) Ordinance, 1968 (2 of 1968) is hereby repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall
-be deemed to have been done or taken under this Act 1957.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00072_19683_1532945434555&sectionId=29952&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00072_19683_1532945434555)
+  sectionId (29952)
+  sectionNo (3)
+  orderNo 3
+  title `Repeal and saving.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00072_19683_1532945434555&sectionId=29952&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00072_19683_1532945434555
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Jammu and Kashmir Representation of the People`
+  line `(Supplementary) Ordinance, 1968 (2 of 1968) is hereby repealed.`
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall`
+  line `be deemed to have been done or taken under this Act 1957.`
+obj_root_law_sections_3_footnotes:
+  string
+  line

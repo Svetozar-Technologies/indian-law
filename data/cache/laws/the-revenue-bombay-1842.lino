@@ -1,50 +1,172 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T15:44:33.614Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/18945`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T17:41:22.765Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/18945`
+  completeFetch true
+  maxSections null
+  sectionCount 3
+  totalSections 3
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-revenue-bombay-1842)
-  (str handle) (str 18945)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Revenue, Bombay, 1842`)
-  (str actNumber) (str 13)
-  (str enactmentDate) (str 1842-10-28)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/18945`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1842)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act to enable the holders of Revenue which has been alienated to them by the State, to collect that Revenue within the Presidency of Bombay.`)
-  (str enforcementDate) (str 28-10-1842)
-  (str notification) (undefined)
+  slug the-revenue-bombay-1842
+  handle (18945)
+  collectionHandle 123456789/1362
+  title `The Revenue, Bombay, 1842`
+  actNumber (13)
+  enactmentDate 1842-10-28
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/18945`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1842)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act to enable the holders of Revenue which has been alienated to them by the State, to collect that Revenue within the Presidency of Bombay.`
+  enforcementDate 28-10-1842
+  notification undefined
+  fetchedAt `2026-05-09T15:44:33.614Z`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_revenue_bombay_1842
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/18945`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/18945`
 obj_root_law_sources_en_the_revenue_bombay_1842:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/18945/1/a1842-13.pdf`)
-  (str title) (str `The Revenue, Bombay, 1842`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/18945/1/a1842-13.pdf`
+  title `The Revenue, Bombay, 1842`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
+  obj_root_law_sections_1
+  obj_root_law_sections_2
+  obj_root_law_sections_3
+obj_root_law_sections_1:
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  sourcePage 1
+obj_root_law_sections_1_content:
+  string
+  line 1
+  line `T HE REVENUE, BOMBAY, 1842`
+  line __________
+  line `A CT N O.13 OF 1842`
+  line _________
+  line `Passed by the Hon’ble the President of the Council of India in Council, on the 28 th of October, 1842, with`
+  line `the assent of the Right hon’ble the Governor General of India.`
+  line `A n Act to enable the holders of Revenue which has been alienated to them by the State, to collect that`
+  line `Revenue within the Presidency of Bombay.`
+  line `I. Whereas it is expedient to authorize the grant by the Governor in Council of Bombay, at his`
+  line `discretion, of Commissions to certain Jageerdars, and others, by virtue of which such persons shall posses`
+  line `increased powers for collecting the Revenue due to them; —`
+  line `It is hereby enacted, that it shall be lawful for the Governor in Council of Bomb ay, to grant any`
+  line `Jageerdar, Surinjamdar, Inamdar, or other person holding Lands or Villages the Revenue of which has been`
+  line `alienated to him by the State, a Commission conferring upon him authority for the collection of such`
+  line `Revenue by the powers hereinafter mentioned, or such of them as shall be specified in the Commission in`
+  line `addition to the powers now exercisable by law.`
+  line `II. And it is hereby enacted, that such Commission, which shall be drawn out according to the form of`
+  line `the annexed Schedule A, shall be g ranted or withheld, and, when granted, shall be liable to be withdrawn`
+  line `at the pleasure of Government, and that it may, if the Governor in Council of Bombay see fit, be issued to`
+  line `one or more Agents of such holder of alienated Revenue as well as to the hold er in person.`
+  line `III. And it is hereby enacted, that the holder of such Commission shall have authority to demand`
+  line `security for the payment of the Revenue, in respect of the Lands or Villages specified in the Commission,`
+  line `and if the same be not furnished, to ta ke such precaution as the Collector is authorized to make under`
+  line `Section XI, Regulation XVII, of 1827, Bombay Code.`
+  line `I V. And it is hereby enacted, that the holder of such Commission shall have authority to send Mohussuls`
+  line `on Defaulters under the Provisions of Clauses 2,3, and 5, Section XII, Regulation XVII of 1827, Bombay`
+  line `Code, provided that one foot Mohussul only be employed in each case, and that the Mohussulee shall cease`
+  line `on the enforcement of any other remedy for t he collection of the Revenue, except the taking of such security`
+  line `as aforesaid.`
+  line `V. And it is hereby enacted, that the holder of any such Commission shall be authorized to attach the`
+  line `property of persons making default in the payment of such Revenue as afore said, making an immediate`
+  line `report to the Collector or his Assistant of the his having done so, and should the demand on account of`
+  line `which the attachment may be made app ear to the Collector or his Assistant to b e just, he shall give orders`
+  line `for the sale of suc h property, and the sale shall be conducted agreeably to the Provisions of clause VII,`
+  line `Section XII, Regulation XVII, of 1827, Bombay Code, except in cases in which the holder of the`
+  line `Commission by whom the attachment has been made shall be a Jageerdar, Sur injamdar or Inamdar, vested`
+  line `by Regulation XIII, of 1830, with Civil jurisdiction and with power to execute his own decrees or his`
+obj_root_law_sections_1_footnotes:
+  string
+  line
+obj_root_law_sections_2:
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  sourcePage 2
+obj_root_law_sections_2_content:
+  string
+  line 2
+  line `Agents, when the sale shall be conducted by him and not by the Collector and his subordinate Revenue`
+  line Officers.
+  line `VI. And it is hereby enacted, that all compulsory process under this Act shall cease on the alleged`
+  line `defaulter furnishing security to the holder of the Commission or to the Collector or Assistant Collector of`
+  line `the District, to institute a suit within 15 days in a com petent Court for the purpose of trying the demand`
+  line `and to pay the amount which may be decreed against him with costs and interest in such Court, provided`
+  line `that such suits in which any one of the privileged clas ses established by Regulation XXIX, of 1827, Se ctions`
+  line `III, and IV, and by Regulation VII, of 1830, Bombay Code, may be the defendant, shall be tried before the`
+  line `Collector and his Assistants, any thing in Regulations I, and XVI, of 1831, notwithstanding. And any holder`
+  line `of any such Commission as aforesai d by h imself or his Agents proceeding with any compulsory process`
+  line `under this Act after the furnishing of such security as aforesaid, or after the due tender thereof, shall forfeit`
+  line `three times the amount of the Revenue sought to be recovered by such compuls ory process.`
+  line `VII. And it is hereby enacted, that if the Revenue or rent payable to a Jageerdar or other holder of`
+  line `Government alienated lands or villages shall have been fixed by a Government Officer before the grant of`
+  line `the Land in free tenure, or if the rent or Revenue tend ered by any Ryut or other person be at the usual rate`
+  line `payable according to the custom of the Village and P urgunna as declared by the K oolkurnee and other`
+  line `Local Officers of Revenue, the enforcement of a demand by any holder of a Commission under this Act of`
+  line `an excess of rent or Revenue beyond the amount due as above provided shall be deemed to the extortion,`
+  line `and the person against whom such demand sh all have been enforced shall obtain upon any judgement being`
+  line `passed after regular or summary trial three times the amount of any such excessive demand as damages for`
+  line `the same. Provided, however, that nothing herein prescribed or con ta ined shall prevent a holder of`
+  line `alienated Lands or Villages from instituting a suit in any court of competent jurisdiction for the purpose`
+  line `of establishing his claim to re - assess the Lands or re - settle the Revenue of any Ryut or other who may be`
+  line `paying less than the full Jum a to which he is justly liable, and upon such holder obtaining a decree`
+  line `adjudging to him such power the demand made by him under such decree, shall, if conformable thereto be`
+  line `deemed a legal demand for arrears, and shall be leviable by the same process a s is above arrears.`
+  line `VIII. And it is hereby enacted, that the power conferred by such Commission shall extend to the`
+  line `enforcement of the payment of the Revenue of the current season and of the season next immediately`
+  line `preceding, and not to that of former year s.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
+obj_root_law_sections_3:
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  sourcePage 3
+obj_root_law_sections_3_content:
+  string
+  line 3
+  line `SCHEDULE A.`
+  line `Form of Commission to be used to a holder of alienated Revenue or his Agent for`
+  line `enabling him to recover such Revenue`
+  line `The Governor in Council of Bombay by virtue of the powers vested in him by Act XIII, of 1842,`
+  line `is pleased to confer on you -------------- -------------- (Jageerdar, & c., or Agent, & c., as the case may be)`
+  line `power to realize all Revenue demands due to you (or to your principal) from the Villages and Lands`
+  line `specified in this Com mission in the manner prescr ibed in ( or in Sections ---- ------------- of) this Act.`
+  line `The Villages and Lands over which the power thus conferred upon you extends are as follows:`
+  line `(Here enter the description.)`
+  line `The within delegated power is vested in you during the pleasure and subject to the re - call of the`
+  line `said Governor in Council.`
+  line `_____ __________`
+  line SEAL
+obj_root_law_sections_3_footnotes:
+  string
+  line

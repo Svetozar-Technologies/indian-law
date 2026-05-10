@@ -1,228 +1,483 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:25:56.484Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1839`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 0)
-  (str totalSections) (int 0)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T17:41:51.572Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1839`
+  completeFetch true
+  maxSections null
+  sectionCount 6
+  totalSections 0
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-african-development-bank-act-1983)
-  (str handle) (str 1839)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The African Development Bank Act, 1983`)
-  (str actNumber) (str 13)
-  (str enactmentDate) (str 1983-05-26)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1839`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `अफ्रीकी विकास बैंक अधिनियम, 1983`)
-  (str actYear) (str 1983)
-  (str ministry) (str `Ministry of Finance`)
-  (str department) (str `Department of Economic Affairs`)
-  (str longTitle) (str `An Act to implement the international agreement for the establishment and operation of the African Development Bank and for matters concerned therewith.`)
-  (str enforcementDate) (str 15-12-1983)
-  (str notification) (str `15th December, 1983, vide notification No. G.S.R. 889(E), dated 14th December, 1983, see Gazette of India, Extraordinary, Part II, sec. 3(i).`)
-  (str fetchedAt) (str `2026-05-09T16:19:22.901Z`)
-  (str translations) obj_root_law_translations
+  slug the-african-development-bank-act-1983
+  handle (1839)
+  collectionHandle 123456789/1362
+  title `The African Development Bank Act, 1983`
+  actNumber (13)
+  enactmentDate 1983-05-26
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1839`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `अफ्रीकी विकास बैंक अधिनियम, 1983`
+  actYear (1983)
+  ministry `Ministry of Finance`
+  department `Department of Economic Affairs`
+  longTitle `An Act to implement the international agreement for the establishment and operation of the African Development Bank and for matters concerned therewith.`
+  enforcementDate 15-12-1983
+  notification `15th December, 1983, vide notification No. G.S.R. 889(E), dated 14th December, 1983, see Gazette of India, Extraordinary, Part II, sec. 3(i).`
+  fetchedAt `2026-05-10T11:25:56.484Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_african_development_bank_act_1983
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1839`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1839`
 obj_root_law_sources_en_the_african_development_bank_act_1983:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1839/3/A1983-13.pdf`)
-  (str title) (str `The African Development Bank Act, 1983`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1839/3/A1983-13.pdf`
+  title `The African Development Bank Act, 1983`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1983
 obj_root_law_sources_hi_1983:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1839/5/H1983-13.pdf`)
-  (str title) (str `अफ्रीकी विकास बैंक अधिनियम, 1983`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1839/5/H1983-13.pdf`
+  title `अफ्रीकी विकास बैंक अधिनियम, 1983`
 obj_root_law_sections:
-  array
+  obj_root_law_sections_1
+  obj_root_law_sections_2
+  obj_root_law_sections_3
+  obj_root_law_sections_4
+  obj_root_law_sections_5
+  obj_root_law_sections_6
+obj_root_law_sections_1:
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  sourcePage 1
+obj_root_law_sections_1_content:
+  string
+  line 1
+  line `THE AFRICAN DEVELOPMENT BANK ACT, 1983`
+  line _______
+  line `ARRANGEMENT OF SECTIONS`
+  line ______
+  line `S ECTIONS`
+  line `1. Short title, extent and commencement.`
+  line `2. Definitions.`
+  line `3. Payments to Bank.`
+  line `4. Reserve Bank to be depository for Bank.`
+  line `5. Conferment of status and certain immunities, exemptions and privileges on Bank and conferment`
+  line `of certain immunities, exemptions and privileges on its officers and employees.`
+  line `6. Power to make rules.`
+  line `7. Notifications issued under section 5 and rules made under section 6 to be laid before Parliament.`
+  line `THE SCHEDULE`
+obj_root_law_sections_1_footnotes:
+  string
+  line
+obj_root_law_sections_2:
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  sourcePage 2
+obj_root_law_sections_2_content:
+  string
+  line 2
+  line `THE AFRICAN DEVELOPMENT BANK ACT, 1983`
+  line `A CT N O.13 OF 1983`
+  line `[26 th May, 1983. ]`
+  line `An Act to implement the international agreement for the establishment and operation of the`
+  line `African Development Bank and for matters concerned therewith.`
+  line `B E it enacted by Parliament in the Thirty - fourth Year of the Republic of India as follows: —`
+  line `1. Short title, extent and commencement. — ( 1 ) This Act may be called the African Development`
+  line `Bank Act, 1983.`
+  line `( 2 ) It extends to the whole of India.`
+  line `( 3 ) It shall come into force on such date 1 as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+  line `2. Definitions. — In this Act, unless the context otherwise requires, —`
+  line `( a ) “ Agreement ” means the agreement for the establishment of the African Developm ent Bank;`
+  line `( b ) “ Bank ” means the African Development Bank established under the Agreement.`
+  line `3. Payments to Bank. — ( 1 ) There shall be paid out of the Consolidated Fund of India, after due`
+  line `appropriation made by Parliament by law in this behalf, all such sums as may, from time to time, be`
+  line `required for the purpose of paying, —`
+  line `( a ) the subscriptions payable by the Central Government to the Bank under Articles 6, 7, 10 and`
+  line `21 of the Agreement;`
+  line `( b ) any sums payable by the Central Government to the Bank under Article 28 of the Agreement;`
+  line `( 2 ) The Central Government may, if it thinks fit so to do, create and issue to the Bank, in such form as`
+  line `it thinks fit, any non - interest bearing and non - negotiable notes or other obligations.`
+  line `4. Reserve Bank to be depository for Bank. — The Reserve Bank of India shall be the depository of`
+  line `the Indian currency holdings of the Bank.`
+  line `5. Conferment of status and certain immunities, exemptions and privileges on Bank and`
+  line `conferment of certain immunities, exemptions and privileges on its officers and`
+  line `employees. — ( 1 ) Notwithstanding anything to the contrary contained in any o ther law, the provisions of`
+  line `the Agreement set out in the Schedule shall have the force of law in India;`
+  line `Provided that nothing in Article 57 of the Agreement shall be construed as —`
+  line `( a ) entitling the Bank to import into India goods free of any duty of customs without any`
+  line `restriction on their subsequent sale therein; or`
+  line `( b ) conferring on the Bank any exemption from duties or taxes which form part of the price of`
+  line `goods sold; or`
+  line `( c ) conferring on the Bank any exemption from duties or taxes which are in fact no more than`
+  line `charges for services rendered.`
+  line `( 2 ) The Central Government may, by notification in the O fficial Gazette, amend the Schedule in`
+  line `conformity with any amendments, duly made and adopt ed, of the provisions of the Agreement set out`
+  line therein.
+  line `6. Power to make rules. — The Central Government may, by notification in the Official Gazette,`
+  line `make rules for carrying out the purposes of this Act.`
+  line `7. Notifications issued under section 5 and rules made under section 6 to be laid before`
+  line `Parliament. — Every notification issued under sub - section ( 2 ) of section 5 and every rule made under`
+  line `section 6 shall be laid, as soon as may be after it is issued or made, before each of the House of`
+  line `Parliament, while i t is in session, for a total period of thirty days which m ay be comprised in one session`
+  line `1. 15th December, 1983, vid e notification No. G.S.R. 889(E), dated 14th December, 1983, see Gazette of India, Extraordinary,`
+  line `Part II, sec. 3( i ).`
+obj_root_law_sections_2_footnotes:
+  string
+  line
+obj_root_law_sections_3:
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  sourcePage 3
+obj_root_law_sections_3_content:
+  string
+  line 3
+  line `or in two or more successive sessions, and if, before the expiry of the session immediately following the`
+  line `session or the successive sessions aforesaid, both House s agr ee in making any modification in the`
+  line `notification or, as the case may be, in the rule or both Houses agree that the notification or rule should not`
+  line `be issued or made, the notification or rule shall thereafter have effect only in such modified form or be of`
+  line `no effect, as the case may be; so, however, that any such modification or annulment shall be without`
+  line `prejudice to the validity of anything previously done under that notification or rule.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
+obj_root_law_sections_4:
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  sourcePage 4
+obj_root_law_sections_4_content:
+  string
+  line 4
+  line `THE SCHEDULE`
+  line `( See section 5)`
+  line `PROVISIONS OF THE AGREEMENT WHICH SHALL HAVE FORCE OF LAW`
+  line `AGREEMENT ESTABLISHING THE AFRICAN DEVELOPMENT BANK`
+  line `CHAPTER VII`
+  line `S TATUS I MMUNITIES, E XEMPTIONS AND P RIVILEGES`
+  line `ARTICLE 50`
+  line `S TATUS`
+  line `To enable it to fulfil its purpose and the functions with which it is entrusted, the Bank shall possess`
+  line `full international personality. To those ends, it may enter into agreements with members, non - member`
+  line `States and other international organi s ations. To the same ends, the statu s, immunities, exemptions and`
+  line `privileges set forth in this Chapter shall be accorded to the Bank in the territory of each member.`
+  line `ARTICLE 51`
+  line `S TATUS IN M EMBER C OUNTRIES`
+  line `In the territory of each member the Bank shall possess full judicial personality and, in particular, full`
+  line `capacity:`
+  line `( a ) to cont r act`
+  line `( b ) to acquire and dispose of immovable and movable property; and`
+  line `( c ) to institute legal proceedings.`
+  line `ARTICLE 52`
+  line `J UDICIAL P ROCEEDINGS`
+  line `1. The Bank shall enjoy immunity from every form of legal process except in cases arising out of the`
+  line `exercise of its borrowing powers when it may be sued only in a court of competent jurisdiction in the`
+  line `territory of a member in which the Bank has its principa l office, or in the territory of a member or`
+  line `non - member State where it has appointed an agent for the purpose of accepting service or notice of`
+  line `process or has issued or guaranteed securities. No actions shall, however, be brought by members or`
+  line `persons acting for or deriving claims from members.`
+  line `2. The property and assets of the Bank shall, wherever located and by whomsoever held, be immune`
+  line `from all forms of seizure, attachment or execution before the delivery of final judgment against the Bank.`
+  line `ARTICLE 53`
+  line `I MMUNITY OF A SSETS AND A RCHIVES`
+  line `1. Property and assets of the Bank, wherever located and by whomsoever held, shall be immune from`
+  line `search, requisition, confiscation, expropriation or any other form of taking or foreclosure by executive or`
+  line `legislative action.`
+  line `2. The archives of the Bank and, in general, all documents belonging to it, or held by it, shall be`
+  line `inviolable, wherever located.`
+  line `ARTICLE 54`
+  line `F REED OM OF A SSETS FRO M R ESTRICTION`
+  line `To the extent necessary to carry out the purpose and functions of the Bank and subject to the`
+  line `provisions of this Agreement, all property and other assets of the Bank shall be exempt from restrictions,`
+  line `regulations, controls and moratoria of any nature.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
+obj_root_law_sections_5:
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  sourcePage 5
+obj_root_law_sections_5_content:
+  string
+  line 5
+  line `A RTICLE 55`
+  line `P RIVILEGE FOR C OMMUNICATIONS`
+  line `Official communications of the Bank shall be accorded by each member the same treatment that it`
+  line `accords to the official communications of other members.`
+  line `ARTICLE 56`
+  line `P ERS ONAL I MMUNITIES AND P RIVILEGES`
+  line `1. All governors, directors, alternates, officers and employees of the Bank and experts and consultants`
+  line `performing missions for the Bank;`
+  line `( i ) shall be immune from legal process with respect to acts performed by them in their official`
+  line capacity;
+  line `( ii ) where they are not local nationals, shall be accorded the same immunities from immigration`
+  line `restrictions, alien registration requirements and national service obligations, and the same facilities as`
+  line `regards exchange regulations as are accorded by members to the representatives, officials and`
+  line `employees of comparable rank of other members; and`
+  line `( iii ) shall be granted the same treatment in respect of travelling facilities as is accorded by`
+  line `members to representatives, officials and employees of comparable rank of other members.`
+  line `2. Experts and consultants performing missions for the Ba nk shall be accorded such immunities and`
+  line `privileges as are, in the opinion of the Bank, necessary for the independent exercise of their functions`
+  line `during the period of their mission, including the time spent on journeys in connection therewith.`
+  line `ARTICLE 57`
+  line `E XEMPTION FROM T AXATION`
+  line `1. The Bank, its property, other assets, income and its operations and transactions shall be exempt`
+  line `from all taxation and from all customs duties. The Bank shall also be exempt from any obligation relating`
+  line `to the payment, withholding or collection of any tax or duty.`
+  line `2. No tax shall be levied on or in respect of salaries and emoluments paid by the Bank, to directors,`
+  line `alternates, officers and other professional staff of the Bank.`
+  line `3. No tax of any kind shall be levied on any obligation or security issued by the Bank, including any`
+  line `dividend or interest thereon, by whomsoever held:`
+  line `( i ) which discriminates against such obligation or security solely because it is issued by the Bank;`
+  line or
+  line `( ii ) if the sole jurisdictional basis for such taxation is the place or currency in which it is issued,`
+  line `made payable or paid, or the location of any office or place of business maintained by the Bank.`
+  line `4. No tax of any kind shall be levied on any obligation or security guaranteed by the Bank, including`
+  line `any divid end or interest thereon, by whomsoever held:`
+  line `( i ) which discriminates against such obligation or security solely because it is guaranteed by the`
+  line `Bank; or`
+  line `( ii ) if the sole jurisdictional basis for such taxation is the location of any office or place of`
+  line `busin ess maintained by the Bank.`
+  line `ARTICLE 58`
+  line `N OTIFICATION OF I MPLEMENTATION`
+  line `Each member shall promptly inform the Bank of the specific action which it has taken to make`
+  line `effective in its territory the provisions of this Chapter.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
+obj_root_law_sections_6:
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  sourcePage 6
+obj_root_law_sections_6_content:
+  string
+  line 6
+  line `ARTICLE 59`
+  line `A PPLICATION OF I MMUNIT IES, E XEMPTIONS AND P RIVILEGES`
+  line `The immunities, exemptions and privileges provided in this Chapter are granted in the interests of the`
+  line `Bank. The Board of Directors may waive, to such extent and upon such conditions as it may determine,`
+  line `the immunities and exemptions provided in Articles 52, 54, 56 and 57 of this Agreement in cases where`
+  line `its action would in its opinion further the interests of the Bank. The President shall have the right and the`
+  line `duty to waive the immunity of any official in cases where, in h is opinion, the immunity would impede the`
+  line `course of justice and can be waived without prejudice to the interests of the Bank.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `अफ्रीकी विकास बैंक अधिनियम, 1983`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1839/5/H1983-13.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:25:55.382Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `अफ्रीकी विकास बैंक अधिनियम, 1983`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1839/5/H1983-13.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:25:55.382Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `अफ्रीकी विकास बैंक अविवियम, 1983
-( 1983 का अविवियम संखयांक 13 )
-[26 मई, 1983 ]
-अफ्रीकी विकास बैंक की स् थापिा और उसके कायय करिे के
-विए हु ए अन्तररा ष्‍ट री य करार को कायायवन्ित करिे
-तथा उससे सम्बवन्ित विषयों के विए
-अविवियम
-भारत गणराज्य के चौंतीसिें िषय में सं सद् द्व ारा वि म् ि विवित रू प में यह अविवियवमत हो: —
-1. संवि प् त िाम, विस्तार और प्र ारंभ –– ( 1 ) इस अविवियम का संवि प् त िाम अफ्रीकी विकास बैंक अविवियम, 1983 है।
-( 2 ) इसका विस्तार सम्पूणय भारत पर है।
-( 3 ) यह उस तारीि को प्र िृत्त होगा, विसे केन्रीय सरकार, रािपत्र में अविसूचिा द्व ारा, वियत करे।
-2. पररभाषाएं — इस अविवियम में, िब तक कक संदभय से अन्यथा अपेवित ि हो, —
-(क) “ करार ” से अफ्रीकी विकास बैंक की स् थापिा के विए करार अवभप्रेत है;
-(ि) “ बैंक ” से करार के अिीि स् थावपत अफ्रीकी विकास बैंक अवभप्रेत है।
-3. बैंक को संदाय — ( 1 ) संसद् द्व ारा इस विवमत्त विवि द्व ारा सम्यक् विवियोग ककए िािे के प श् चा त् भारत की संवचत विवि में
-से ऐसी सब ििरावियां, िो वि म् ि विवित के संदाय के विए समय - समय पर अपेवित हो, संदत्त की िाएं गी: —
-(क) करार के अिुच्छेद 6, 7, 10 और 21 के अिीि के न् रीय सरकार द्व ारा बैंक को संदेय अवभदाय;
-(ि) करार के अिुच्छेद 28 के अिीि केन्रीय सरकार द्व ारा बैंक को संदेय कोई ििरावियां।
-( 2 ) यकद केन्रीय सरकार ऐसा करिा ठीक समझे, तो िह ऐसे प्ररू प में विसे िह ठीक समझे, ऐसे कोई ब् याि रवहत और
-अपरक्राम्य िोट या अ न् य बाध्यताएं सृ ष्‍ट ट कर सकेगी और बैंक को पुरोिृत कर सकेगी।
-4. ररििय बैंक का बैंक के विए वििेपागार होिा — भारतीय ररििय बैंक, बैंक की भारतीय करेन्सी िृवतयों का, वििेपागार
-होगा।
-5. बैंक को प्र ावस्थवत और कवतपय उन्मु वत यों, छूटों और वििेषाविकारों का प्र दाि ककया िािा और उसके अविकाररयों और
-कमयचाररयों को कवतपय उन्मु वत यों, छूटों और वििेषाविकारों का प्र दाि ककया िािा — ( 1 ) ककसी अन्य विवि में ककसी प्र वतकूि बात के
-होते हु ए भी करार के उि उपबन्िों को, िो अिुसूची में कदए गए हैं, भारत में विवि का बि प्र ा प् त होगा:
-परन्तु करार के अिुच्छेद 57 की ककसी बात का यह अथय िहीं िगाया िाएगा कक िह —
-(क) सीमा िुल्क से मु त माि का भारत में आयात करिे का हक, िहां उसके पश्चा त् िती विक्रय पर ककसी विबयन्िि
-के वबिा, बैंक को देती है; या
-(ि) बैंक को उि िुल्कों या करों से कोई छूट प्र दाि करती है, िो बेचे गए माि की कीमत का भाग हैं; या
-(ग) बैंक को उि िुल्कों या करों से कोई छूट प्र दाि करती है िो की गई सेिाओं के विए प्र भारों के वसिाय िास्ति में
-कुछ िहीं हैं।
-( 2 ) केन्रीय सरकार रािपत्र में अविसूचिा द्व ारा अिुसूची का संिोिि ककन्हीं ऐ से संिोििों के अिुरूपतः कर सकेगी िो
-करार के उि उपबंिों में, िो अिुसूची में उपिर्णयत हैं, सम्यक् रू प से ककए और अंगीकृत ककए गए हैं।
-6. वियम बिािे की ि वत — केन्रीय सरकार इस अविवियम के प्र योििों को कायायवन्ित करिे के विए, रािपत्र में अविसूचिा द्व
-ारा, विय म बिा सकेगी।
-7. िारा 5 के अिीि िारी की गई अविसूचिाओं और िारा 6 के अिीि बिाए गए वियमों का संसद् के समि रिा
-िािा — िारा 5 की उपिारा ( 2 ) के अिीि िारी की गई प्रत् येक अविसूचिा और िारा 6 के अिीि बिाया गया प्रत् येक वियम, िारी
-ककए िािे या बिाए िािे के प श् चा त्, यथािीघ्र, संसद् के प्रत् येक सदि के समि, िब िह सत्र में हो कुि तीस कदि की अिवि के विए
-रिी िाएगी या रिा िाएगा। यह अिवि एक सत्र में अथिा दो या अविक आिुक्रवमक सत्रों में पूरी हो सकेगी। यकद उस सत्र के या
-पूिो त आिुक्रवमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिय दोिों सदि, यथावस्थवत, उस अविसूचिा या वियम में कोई पररितयि
-करिे के विए सहमत हो िाएं, तो तत्प श् चा त् िह अविसूचिा या वियम ऐसे पररिर्तयत रू प में ही प्र भािी होगी या होगा। यकद उ त`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `अफ्रीकी विकास बैंक अविवियम, 1983`
+  line `( 1983 का अविवियम संखयांक 13 )`
+  line `[26 मई, 1983 ]`
+  line `अफ्रीकी विकास बैंक की स् थापिा और उसके कायय करिे के`
+  line `विए हु ए अन्तररा ष्‍ट री य करार को कायायवन्ित करिे`
+  line `तथा उससे सम्बवन्ित विषयों के विए`
+  line अविवियम
+  line `भारत गणराज्य के चौंतीसिें िषय में सं सद् द्व ारा वि म् ि विवित रू प में यह अविवियवमत हो: —`
+  line `1. संवि प् त िाम, विस्तार और प्र ारंभ –– ( 1 ) इस अविवियम का संवि प् त िाम अफ्रीकी विकास बैंक अविवियम, 1983 है।`
+  line `( 2 ) इसका विस्तार सम्पूणय भारत पर है।`
+  line `( 3 ) यह उस तारीि को प्र िृत्त होगा, विसे केन्रीय सरकार, रािपत्र में अविसूचिा द्व ारा, वियत करे।`
+  line `2. पररभाषाएं — इस अविवियम में, िब तक कक संदभय से अन्यथा अपेवित ि हो, —`
+  line `(क) “ करार ” से अफ्रीकी विकास बैंक की स् थापिा के विए करार अवभप्रेत है;`
+  line `(ि) “ बैंक ” से करार के अिीि स् थावपत अफ्रीकी विकास बैंक अवभप्रेत है।`
+  line `3. बैंक को संदाय — ( 1 ) संसद् द्व ारा इस विवमत्त विवि द्व ारा सम्यक् विवियोग ककए िािे के प श् चा त् भारत की संवचत विवि में`
+  line `से ऐसी सब ििरावियां, िो वि म् ि विवित के संदाय के विए समय - समय पर अपेवित हो, संदत्त की िाएं गी: —`
+  line `(क) करार के अिुच्छेद 6, 7, 10 और 21 के अिीि के न् रीय सरकार द्व ारा बैंक को संदेय अवभदाय;`
+  line `(ि) करार के अिुच्छेद 28 के अिीि केन्रीय सरकार द्व ारा बैंक को संदेय कोई ििरावियां।`
+  line `( 2 ) यकद केन्रीय सरकार ऐसा करिा ठीक समझे, तो िह ऐसे प्ररू प में विसे िह ठीक समझे, ऐसे कोई ब् याि रवहत और`
+  line `अपरक्राम्य िोट या अ न् य बाध्यताएं सृ ष्‍ट ट कर सकेगी और बैंक को पुरोिृत कर सकेगी।`
+  line `4. ररििय बैंक का बैंक के विए वििेपागार होिा — भारतीय ररििय बैंक, बैंक की भारतीय करेन्सी िृवतयों का, वििेपागार`
+  line होगा।
+  line `5. बैंक को प्र ावस्थवत और कवतपय उन्मु वत यों, छूटों और वििेषाविकारों का प्र दाि ककया िािा और उसके अविकाररयों और`
+  line `कमयचाररयों को कवतपय उन्मु वत यों, छूटों और वििेषाविकारों का प्र दाि ककया िािा — ( 1 ) ककसी अन्य विवि में ककसी प्र वतकूि बात के`
+  line `होते हु ए भी करार के उि उपबन्िों को, िो अिुसूची में कदए गए हैं, भारत में विवि का बि प्र ा प् त होगा:`
+  line `परन्तु करार के अिुच्छेद 57 की ककसी बात का यह अथय िहीं िगाया िाएगा कक िह —`
+  line `(क) सीमा िुल्क से मु त माि का भारत में आयात करिे का हक, िहां उसके पश्चा त् िती विक्रय पर ककसी विबयन्िि`
+  line `के वबिा, बैंक को देती है; या`
+  line `(ि) बैंक को उि िुल्कों या करों से कोई छूट प्र दाि करती है, िो बेचे गए माि की कीमत का भाग हैं; या`
+  line `(ग) बैंक को उि िुल्कों या करों से कोई छूट प्र दाि करती है िो की गई सेिाओं के विए प्र भारों के वसिाय िास्ति में`
+  line `कुछ िहीं हैं।`
+  line `( 2 ) केन्रीय सरकार रािपत्र में अविसूचिा द्व ारा अिुसूची का संिोिि ककन्हीं ऐ से संिोििों के अिुरूपतः कर सकेगी िो`
+  line `करार के उि उपबंिों में, िो अिुसूची में उपिर्णयत हैं, सम्यक् रू प से ककए और अंगीकृत ककए गए हैं।`
+  line `6. वियम बिािे की ि वत — केन्रीय सरकार इस अविवियम के प्र योििों को कायायवन्ित करिे के विए, रािपत्र में अविसूचिा द्व`
+  line `ारा, विय म बिा सकेगी।`
+  line `7. िारा 5 के अिीि िारी की गई अविसूचिाओं और िारा 6 के अिीि बिाए गए वियमों का संसद् के समि रिा`
+  line `िािा — िारा 5 की उपिारा ( 2 ) के अिीि िारी की गई प्रत् येक अविसूचिा और िारा 6 के अिीि बिाया गया प्रत् येक वियम, िारी`
+  line `ककए िािे या बिाए िािे के प श् चा त्, यथािीघ्र, संसद् के प्रत् येक सदि के समि, िब िह सत्र में हो कुि तीस कदि की अिवि के विए`
+  line `रिी िाएगी या रिा िाएगा। यह अिवि एक सत्र में अथिा दो या अविक आिुक्रवमक सत्रों में पूरी हो सकेगी। यकद उस सत्र के या`
+  line `पूिो त आिुक्रवमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिय दोिों सदि, यथावस्थवत, उस अविसूचिा या वियम में कोई पररितयि`
+  line `करिे के विए सहमत हो िाएं, तो तत्प श् चा त् िह अविसूचिा या वियम ऐसे पररिर्तयत रू प में ही प्र भािी होगी या होगा। यकद उ त`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-अिसाि के पूिय दोिों सदि सहमत हो िाएं कक िह अविसूचिा िारी िहीं की िािी चावहए या िह वियम िहीं बिाया िािा चावहए तो
-तत्प श् चा त् िह विष्‍टप्रभािी हो िाएगी या हो िाएगा। ककन्तु अविसूचिा या वियम के ऐसे पररिर्तयत या विष्‍टप्रभाि होिे से उस
-अविसूचिा या वियम के अिीि पहिे की गई ककसी बात की विविमान्यता पर प्र वतकूि प्र भाि िहीं पडेगा।
-अिुसूची
-(िारा 5 देविए)
-करार के ऐसे उपबंि िो विवि का बि रिेंगे
-अफ्रीकी विकास बैंक की स् थापिा करिे िािे करार
-अध्याय 7 प्र
-ावस्थवत, उन्मु वत यां, छूटें और वििेषाविकार
-अिुच्छेद 50 — प्र ावस्थवत
-बैंक को अपिे प्र योििों की पूर्तय और उसे सौंपे गए कृत्यों को पूरा करिे में समथय बिािे के विए, पूणय अन्तररा ष्‍ट री य व्य वत त् ि प्र
-ा प् त होगा। इि उद्देश्यों के विए िह सदस्यों, गैर - सदस्यों, राज्यों और अन्तररा ष्‍ट री य संगठिों के साथ करार कर सकेगा। इन्हीं उद्देश्यों
-के विए इस अध्याय के विए इस अध्याय में उपिर्णयत प्र ावस्थ वत, उन्मु वत यां, छूट और वििेषाविकार हर सदस्य के राज्यिेत्र में बैंक को प्र
-दाि ककए िाएंगे।
-अिुच्छेद 51 — सदस्य देिों में प्र ावस्थवत प्रत्
-येक सदस्य के राज्यिेत्र में बैंक को पूणय विविक व्य वत त् ि और विवि ष्‍ट ट तया, —
-(क) संविदा करिे,
-(ि) स् थािर त था िंगम संपवत्त अर्ियत करिे और उसका व्य यि करिे; और
-(ग) विविक काययिावहयां संवस्थत करिे की पूणय साम र्थ यय प्र ा प् त होगी।
-अिुच्छेद 52 — न् यावयक काययिावहयां
-1. बैंक हर रू प की विविक आदेविका से उन्मु वत का उपभोग उि दिाओं में के वसिाय करेगा िो उसको उिार िे िे की
-ि वत यों का प्र योग करिे से उद्भूत हों। इि दिाओं में सिम अविकाररता िािे न् यायािय में बैंक के विरुद्ध िाद उस सदस्य के राज्यिेत्र
-में, विसमें बैंक का प्र िाि कायायिय है, अथिा ककसी ऐसे सदस्य या गैर - सदस्य राज्य के राज्यिेत्र में िाए िा सकेंगे, वि समें बैंक िे
-आदेविका की तामीि या सूचिा स् िीकार कर िे के प्र योिि के विए अवभकताय की वियु वत की है या प्र वतभूवतयां पुरो िृत या प्रत् याभूत की
-हैं। तथावप, सदस्यों की ओर से कायय करिे िािे या उिसे दािा प्र ा प् त करिे िािे सदस्यों या व्य वत यों के द्व ारा कोई भी काययिाही िहीं
-की िाएगी।
-2. बैंक की संपवत्त और आवस्तयां चाहे िे िहां भी वस्थत हों, और ककसी के भी द्व ारा िाररत की गई हों, बैंक के विरुद्ध अवन्तम
-विणयय कदए िािे के पूिय सभी प्र कार के अविग्रहण, कुकी या विष्‍टपादि से उन्मु त होंगी।
-अ िुच्छेद 53 — आवस्तयों और अवभिेिागारों की उन्मु वत
-1. बैंक की संपवत्त और आवस्तयां िे चाहे िहां भी वस्थत हों, और चाहे ककसी के भी द्व ारा िाररत हों, काययपाविका या वििायी
-अिुयोग के द्व ारा तिािी, अ वभ ग्र हण, अविहरण, स् ित्िहरण या ककसी भी अन्य रू प के ग्र हण या पुरोब न् ि से उन्मु त रहेंगी।
-2. बैंक के अवभिेिागा र और सािारणतया िे सभी दस्तािेि िो िे उसके हैं या उसके द्व ारा िाररत हैं, िे चाहे ि हां वस्थत हों,
-अिवतक्रमणीय होंगे।
-अिुच्छेद 54 — आवस्तयों की विबयन्ििों से मु वत
-इस करार के उपबन्िों के अिीि रहते हु ए बैंक की सभी संपवत्त और आवस्तयां ककसी भी प्र कार के विबयन्ििों, विवियमों,
-वियंत्रणों और अ वि स् थगिों से िहां तक मु त रहेंगी, िहां तक कक बैंक के प्र योिि और कृत्यों को कायायवन्ित करिे के विए आिश्यक हों।
-अिुच्छेद 5 5 — संसूचिाओं के विए वििेषाविकार
-बैंक की िासकीय संसूच िाओं के प्र वत हर एक सदस्य िैसा ही व्य िहार करेगा, िो िह सदस्य अन्य सदस्यों की िासकीय
-संसूचिाओं के प्र वत करता है।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `अिसाि के पूिय दोिों सदि सहमत हो िाएं कक िह अविसूचिा िारी िहीं की िािी चावहए या िह वियम िहीं बिाया िािा चावहए तो`
+  line `तत्प श् चा त् िह विष्‍टप्रभािी हो िाएगी या हो िाएगा। ककन्तु अविसूचिा या वियम के ऐसे पररिर्तयत या विष्‍टप्रभाि होिे से उस`
+  line `अविसूचिा या वियम के अिीि पहिे की गई ककसी बात की विविमान्यता पर प्र वतकूि प्र भाि िहीं पडेगा।`
+  line अिुसूची
+  line `(िारा 5 देविए)`
+  line `करार के ऐसे उपबंि िो विवि का बि रिेंगे`
+  line `अफ्रीकी विकास बैंक की स् थापिा करिे िािे करार`
+  line `अध्याय 7 प्र`
+  line `ावस्थवत, उन्मु वत यां, छूटें और वििेषाविकार`
+  line `अिुच्छेद 50 — प्र ावस्थवत`
+  line `बैंक को अपिे प्र योििों की पूर्तय और उसे सौंपे गए कृत्यों को पूरा करिे में समथय बिािे के विए, पूणय अन्तररा ष्‍ट री य व्य वत त् ि प्र`
+  line `ा प् त होगा। इि उद्देश्यों के विए िह सदस्यों, गैर - सदस्यों, राज्यों और अन्तररा ष्‍ट री य संगठिों के साथ करार कर सकेगा। इन्हीं उद्देश्यों`
+  line `के विए इस अध्याय के विए इस अध्याय में उपिर्णयत प्र ावस्थ वत, उन्मु वत यां, छूट और वििेषाविकार हर सदस्य के राज्यिेत्र में बैंक को प्र`
+  line `दाि ककए िाएंगे।`
+  line `अिुच्छेद 51 — सदस्य देिों में प्र ावस्थवत प्रत्`
+  line `येक सदस्य के राज्यिेत्र में बैंक को पूणय विविक व्य वत त् ि और विवि ष्‍ट ट तया, —`
+  line `(क) संविदा करिे,`
+  line `(ि) स् थािर त था िंगम संपवत्त अर्ियत करिे और उसका व्य यि करिे; और`
+  line `(ग) विविक काययिावहयां संवस्थत करिे की पूणय साम र्थ यय प्र ा प् त होगी।`
+  line `अिुच्छेद 52 — न् यावयक काययिावहयां`
+  line `1. बैंक हर रू प की विविक आदेविका से उन्मु वत का उपभोग उि दिाओं में के वसिाय करेगा िो उसको उिार िे िे की`
+  line `ि वत यों का प्र योग करिे से उद्भूत हों। इि दिाओं में सिम अविकाररता िािे न् यायािय में बैंक के विरुद्ध िाद उस सदस्य के राज्यिेत्र`
+  line `में, विसमें बैंक का प्र िाि कायायिय है, अथिा ककसी ऐसे सदस्य या गैर - सदस्य राज्य के राज्यिेत्र में िाए िा सकेंगे, वि समें बैंक िे`
+  line `आदेविका की तामीि या सूचिा स् िीकार कर िे के प्र योिि के विए अवभकताय की वियु वत की है या प्र वतभूवतयां पुरो िृत या प्रत् याभूत की`
+  line `हैं। तथावप, सदस्यों की ओर से कायय करिे िािे या उिसे दािा प्र ा प् त करिे िािे सदस्यों या व्य वत यों के द्व ारा कोई भी काययिाही िहीं`
+  line `की िाएगी।`
+  line `2. बैंक की संपवत्त और आवस्तयां चाहे िे िहां भी वस्थत हों, और ककसी के भी द्व ारा िाररत की गई हों, बैंक के विरुद्ध अवन्तम`
+  line `विणयय कदए िािे के पूिय सभी प्र कार के अविग्रहण, कुकी या विष्‍टपादि से उन्मु त होंगी।`
+  line `अ िुच्छेद 53 — आवस्तयों और अवभिेिागारों की उन्मु वत`
+  line `1. बैंक की संपवत्त और आवस्तयां िे चाहे िहां भी वस्थत हों, और चाहे ककसी के भी द्व ारा िाररत हों, काययपाविका या वििायी`
+  line `अिुयोग के द्व ारा तिािी, अ वभ ग्र हण, अविहरण, स् ित्िहरण या ककसी भी अन्य रू प के ग्र हण या पुरोब न् ि से उन्मु त रहेंगी।`
+  line `2. बैंक के अवभिेिागा र और सािारणतया िे सभी दस्तािेि िो िे उसके हैं या उसके द्व ारा िाररत हैं, िे चाहे ि हां वस्थत हों,`
+  line `अिवतक्रमणीय होंगे।`
+  line `अिुच्छेद 54 — आवस्तयों की विबयन्ििों से मु वत`
+  line `इस करार के उपबन्िों के अिीि रहते हु ए बैंक की सभी संपवत्त और आवस्तयां ककसी भी प्र कार के विबयन्ििों, विवियमों,`
+  line `वियंत्रणों और अ वि स् थगिों से िहां तक मु त रहेंगी, िहां तक कक बैंक के प्र योिि और कृत्यों को कायायवन्ित करिे के विए आिश्यक हों।`
+  line `अिुच्छेद 5 5 — संसूचिाओं के विए वििेषाविकार`
+  line `बैंक की िासकीय संसूच िाओं के प्र वत हर एक सदस्य िैसा ही व्य िहार करेगा, िो िह सदस्य अन्य सदस्यों की िासकीय`
+  line `संसूचिाओं के प्र वत करता है।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-अिुच्छेद 5 6 — व्य वत गत उन्मु वत यां और वििेषाविकार
-( 1 ) बैंक के सभी गिियर, विदेिक, अिुकल्प, अविकारी और कमयचारी और बैंक के विए कायय वििेष का पािि करिे िािे
-वििेषज्ञ और परामिी:
-( i ) अपिे द्व ारा पदीय हैवसयत से ककए गए कायों की बाबत विविक आदेविका से उन्मु वत प्र ा प् त होंगे;
-( ii ) िहां िे स् थािीय राविक िहीं हैं िहां उिको आप्रिास संबंिी विबयन्ििों, अन्य देवियों के रविस्रीकरण की
-अपे िाओं और रा ष्‍ट री य सेिा की बाध्यताओं से िही उन्मु वत यां और मुरा विवियमों की बाबत िही सुवििाएं दी िाएंगी िो
-सदस्यों द्व ारा अन्य सदस्यों के तुल्य पं वत के प्र वतविवियों, अविकाररयों और कमयचाररयों को दी िाती हैं; और
-( iii ) यात्रा सुवििाओं की बाबत िही व्य िहार ककया िाएगा िो अन्य सदस्यों के तुल्य पं वत के प्र वतविवियों,
-अविकाररयों और कमयचाररयों के साथ ककया िाता है।
-( 2 ) बैंक के विए कायय वििेष का पािि करिे िािे वििेषज्ञों और परामर्िययों को ऐसी उन्मु वत यां और वििेषाविकार कदए
-िाएंगे िो बैंक की राय में उिके कायय करिे की अिवि के दौराि, विसके अन्तगयत उसके संबंि में यात्रा में व्य तीत हु आ समय भी है, उिके
-कृत्यों के स् ितंत्र रू प से प्र योग ककए िािे के विए आिश्यक है।
-अिुच्छेद 57 — करािाि से छूट
-1. बैंक, उसकी संपवत्त, अन्य आवस्तयों, आय और उसकी संकक्रयाओं और सं व्य िहारों को सभी करािािों और सीमा िुल्कों से
-छूट दी िाएगी। बैंक को ककसी भी कर या िुल्क के संदाय, वििारण या उसके संग्रहण की बाध्यता से भी छूट दी िाएगी।
-2. बैंक के विदेिकों, अिुकल्पों, अविकाररयों और अन्य िृवत्तक कमयचाररिृन्द को बैंक द्व ारा कदए गए िेतिों और उपिवब्ियों
-पर या उिकी बाबत कोई भी कर उद्गृहीत िहीं ककया िाएगा।
-3. बैंक द्व ारा पुरोिृत ककसी बाध्यता या प्र वतभूवत पर विसके अन्तगयत उस पर कोई िाभांि या ब् याि भी है, चाहे िह बाध्यता
-या प्र वतभूवत ककसी के भी द्व ारा िारण की गई हो, ककसी प्र कार का कोई भी ऐसा कर उद् ग्र हीत िहीं ककया िाएगा —
-( i ) िो ऐसी बाध्यता या प्र वतभूवत के विरुद्ध केिि इस कारण विभेद करता है कक िह बैंक द्व ारा पुरो िृ त की
-गई है; या
-( ii ) यकद ऐसे करािाि के विए अविकाररता विषयक एकमात्र आिार िह स् थाि या ऐसी करेंसी हो विसमें िह
-पुरोिृत, संदेय या संदत्त की गई है या बैंक द्व ारा अिुरवित ककसी कायायिय या कारबार के स् थाि की अिवस्थवत है।
-4. बैंक द्व ारा प्रत् याभूत ककसी बाध्यता या प्र वतभूवत पर विसके अन्तगयत उस पर कोई िाभां ि या ब् याि भी है, चाहे िह
-बाध्यता या प्र वतभूवत ककसी के भी द्व ारा िारण की गई हो, ककसी प्र कार का कोई भी ऐसा कर उद्गृहीत िहीं ककया िाएगा —
-( i ) िो ककसी ऐसी बाध्यता या प्र वतभूवत के विरुद्ध केिि इस कारण विभेद करता है कक िह बैंक द्व ारा प्रत् याभूत की
-गई है; या
-( ii ) यकद ऐसे करािाि के विए अविकाररता विषयक एकमात्र आिार बैंक द्व ारा अिुरवित कक सी कायायिय या
-कारबार के स् थाि की अिवस्थवत है।
-अिुच्छेद 5 8 — कायायन्ियि के विए अविसूचिा प्रत्
-येक सदस्य बैंक को तुरन्त उस विविर्दय ष्‍ट ट कारयिाई के बारे में सूवचत करेगा िो उसिे इस अध्याय के उपबंिों को अपिे
-राज्यिेत्र में प्र भािी बिािे के विए की है।
-अिुच्छे द 59 — उन्मु वत यों, छूटों और वििेषाविकारों का िागू होिा
-इस अध्याय में उपबंवित उन्मु वत यां, छू टें और वििेषाविकार बैंक के वहत में कदए गए हैं। विदेिक बोर्य, ऐसी सीमा तक और
-ऐसी ितों पर िो िह अििाररत करे, इस करार के अिुच्छेद 52, 54, 56 और 57 में उपबवन्ि त उन्मु वत यों और छूटों का उि मामिों में
-िहां अवित्यिि कर सकेगा िहां उसकी कारयिाई उसकी राय में बैंक के वहत को अग्रसर करे। अध्यि ककसी अविकारी की उन्मु वत का
-ऐसे मामिों में अवित्यिि कर सकेगा िहां उसकी कारयिाई उसकी राय में बैंक के वहत को अग्रसर करे। अध्यि को ऐसे ककसी पदिारी
-को उन्मु वत का ऐसे मामिों में अवित्यिि करिे का अविकार और कतयव्य होगा िहां उसकी राय में ऐसी उन्मु वत से न् याय का मागय
-अिरुद्ध होगा और िहां उसका बैंक के वहतों पर प्र वतकूि प्र भाि र् ािे वबिा अवित्यिि ककया िा सकता है।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `अिुच्छेद 5 6 — व्य वत गत उन्मु वत यां और वििेषाविकार`
+  line `( 1 ) बैंक के सभी गिियर, विदेिक, अिुकल्प, अविकारी और कमयचारी और बैंक के विए कायय वििेष का पािि करिे िािे`
+  line `वििेषज्ञ और परामिी:`
+  line `( i ) अपिे द्व ारा पदीय हैवसयत से ककए गए कायों की बाबत विविक आदेविका से उन्मु वत प्र ा प् त होंगे;`
+  line `( ii ) िहां िे स् थािीय राविक िहीं हैं िहां उिको आप्रिास संबंिी विबयन्ििों, अन्य देवियों के रविस्रीकरण की`
+  line `अपे िाओं और रा ष्‍ट री य सेिा की बाध्यताओं से िही उन्मु वत यां और मुरा विवियमों की बाबत िही सुवििाएं दी िाएंगी िो`
+  line `सदस्यों द्व ारा अन्य सदस्यों के तुल्य पं वत के प्र वतविवियों, अविकाररयों और कमयचाररयों को दी िाती हैं; और`
+  line `( iii ) यात्रा सुवििाओं की बाबत िही व्य िहार ककया िाएगा िो अन्य सदस्यों के तुल्य पं वत के प्र वतविवियों,`
+  line `अविकाररयों और कमयचाररयों के साथ ककया िाता है।`
+  line `( 2 ) बैंक के विए कायय वििेष का पािि करिे िािे वििेषज्ञों और परामर्िययों को ऐसी उन्मु वत यां और वििेषाविकार कदए`
+  line `िाएंगे िो बैंक की राय में उिके कायय करिे की अिवि के दौराि, विसके अन्तगयत उसके संबंि में यात्रा में व्य तीत हु आ समय भी है, उिके`
+  line `कृत्यों के स् ितंत्र रू प से प्र योग ककए िािे के विए आिश्यक है।`
+  line `अिुच्छेद 57 — करािाि से छूट`
+  line `1. बैंक, उसकी संपवत्त, अन्य आवस्तयों, आय और उसकी संकक्रयाओं और सं व्य िहारों को सभी करािािों और सीमा िुल्कों से`
+  line `छूट दी िाएगी। बैंक को ककसी भी कर या िुल्क के संदाय, वििारण या उसके संग्रहण की बाध्यता से भी छूट दी िाएगी।`
+  line `2. बैंक के विदेिकों, अिुकल्पों, अविकाररयों और अन्य िृवत्तक कमयचाररिृन्द को बैंक द्व ारा कदए गए िेतिों और उपिवब्ियों`
+  line `पर या उिकी बाबत कोई भी कर उद्गृहीत िहीं ककया िाएगा।`
+  line `3. बैंक द्व ारा पुरोिृत ककसी बाध्यता या प्र वतभूवत पर विसके अन्तगयत उस पर कोई िाभांि या ब् याि भी है, चाहे िह बाध्यता`
+  line `या प्र वतभूवत ककसी के भी द्व ारा िारण की गई हो, ककसी प्र कार का कोई भी ऐसा कर उद् ग्र हीत िहीं ककया िाएगा —`
+  line `( i ) िो ऐसी बाध्यता या प्र वतभूवत के विरुद्ध केिि इस कारण विभेद करता है कक िह बैंक द्व ारा पुरो िृ त की`
+  line `गई है; या`
+  line `( ii ) यकद ऐसे करािाि के विए अविकाररता विषयक एकमात्र आिार िह स् थाि या ऐसी करेंसी हो विसमें िह`
+  line `पुरोिृत, संदेय या संदत्त की गई है या बैंक द्व ारा अिुरवित ककसी कायायिय या कारबार के स् थाि की अिवस्थवत है।`
+  line `4. बैंक द्व ारा प्रत् याभूत ककसी बाध्यता या प्र वतभूवत पर विसके अन्तगयत उस पर कोई िाभां ि या ब् याि भी है, चाहे िह`
+  line `बाध्यता या प्र वतभूवत ककसी के भी द्व ारा िारण की गई हो, ककसी प्र कार का कोई भी ऐसा कर उद्गृहीत िहीं ककया िाएगा —`
+  line `( i ) िो ककसी ऐसी बाध्यता या प्र वतभूवत के विरुद्ध केिि इस कारण विभेद करता है कक िह बैंक द्व ारा प्रत् याभूत की`
+  line `गई है; या`
+  line `( ii ) यकद ऐसे करािाि के विए अविकाररता विषयक एकमात्र आिार बैंक द्व ारा अिुरवित कक सी कायायिय या`
+  line `कारबार के स् थाि की अिवस्थवत है।`
+  line `अिुच्छेद 5 8 — कायायन्ियि के विए अविसूचिा प्रत्`
+  line `येक सदस्य बैंक को तुरन्त उस विविर्दय ष्‍ट ट कारयिाई के बारे में सूवचत करेगा िो उसिे इस अध्याय के उपबंिों को अपिे`
+  line `राज्यिेत्र में प्र भािी बिािे के विए की है।`
+  line `अिुच्छे द 59 — उन्मु वत यों, छूटों और वििेषाविकारों का िागू होिा`
+  line `इस अध्याय में उपबंवित उन्मु वत यां, छू टें और वििेषाविकार बैंक के वहत में कदए गए हैं। विदेिक बोर्य, ऐसी सीमा तक और`
+  line `ऐसी ितों पर िो िह अििाररत करे, इस करार के अिुच्छेद 52, 54, 56 और 57 में उपबवन्ि त उन्मु वत यों और छूटों का उि मामिों में`
+  line `िहां अवित्यिि कर सकेगा िहां उसकी कारयिाई उसकी राय में बैंक के वहत को अग्रसर करे। अध्यि ककसी अविकारी की उन्मु वत का`
+  line `ऐसे मामिों में अवित्यिि कर सकेगा िहां उसकी कारयिाई उसकी राय में बैंक के वहत को अग्रसर करे। अध्यि को ऐसे ककसी पदिारी`
+  line `को उन्मु वत का ऐसे मामिों में अवित्यिि करिे का अविकार और कतयव्य होगा िहां उसकी राय में ऐसी उन्मु वत से न् याय का मागय`
+  line `अिरुद्ध होगा और िहां उसका बैंक के वहतों पर प्र वतकूि प्र भाि र् ािे वबिा अवित्यिि ककया िा सकता है।`
+  line ______
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

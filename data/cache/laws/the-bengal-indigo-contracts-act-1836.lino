@@ -1,50 +1,95 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T15:54:27.507Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/18935`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T17:41:29.038Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/18935`
+  completeFetch true
+  maxSections null
+  sectionCount 1
+  totalSections 1
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-bengal-indigo-contracts-act-1836)
-  (str handle) (str 18935)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Bengal Indigo Contracts Act, 1836`)
-  (str actNumber) (str 10)
-  (str enactmentDate) (str 1836-04-11)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/18935`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1836)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (undefined)
-  (str enforcementDate) (str 11-04-1836)
-  (str notification) (undefined)
+  slug the-bengal-indigo-contracts-act-1836
+  handle (18935)
+  collectionHandle 123456789/1362
+  title `The Bengal Indigo Contracts Act, 1836`
+  actNumber (10)
+  enactmentDate 1836-04-11
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/18935`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1836)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle undefined
+  enforcementDate 11-04-1836
+  notification undefined
+  fetchedAt `2026-05-09T15:54:27.507Z`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_bengal_indigo_contracts_act_1836
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/18935`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/18935`
 obj_root_law_sources_en_the_bengal_indigo_contracts_act_1836:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/18935/1/a1836-10.pdf`)
-  (str title) (str `The Bengal Indigo Contracts Act, 1836`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/18935/1/a1836-10.pdf`
+  title `The Bengal Indigo Contracts Act, 1836`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
+  obj_root_law_sections_1
+obj_root_law_sections_1:
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  sourcePage 1
+obj_root_law_sections_1_content:
+  string
+  line `BENGAL INDIGO CONTRACTS ACT, 1836`
+  line `A CT N O. 10 OF 1836`
+  line `[ 11 th April,1836.]`
+  line `I. It is hereby enacted, that Clause Third, Section V., Regulation V I., 1823, of the Bengal Code, be`
+  line repealed.
+  line `II. And it is hereby enacted, that whenever the right to Indigo Plant may be contested, and an order`
+  line `shall be passed, under the provisions of Clause Ninth, Section III., Regulation VI., 1823, of the Ben gal`
+  line `Code, for the delivery of Indigo Plant to one of the parties claiming the same, such party shall not be allowed`
+  line `to cut or remove the Indigo Plant until be shall have given sufficient security to the satisfaction of Court`
+  line `trying the case, to make good any claim that shall be ultimately established to such Indigo Plant whether`
+  line `arising from a prior right to the produce of the land, or from an arrear of rent due on account of the specific`
+  line `parcel of land from which the Plant may have been produced.`
+  line `III. And it is hereby enacted, that when a lawful contract shall have been made between a ryut and`
+  line `another party, by which contract the ryut shall have bound himself to cultivate Indigo Plant for the other`
+  line `part, or to deliver Indigo Plant to the other p arty, and when the other party shall have advanced money to`
+  line `the ryut for the purpose of enabling the ryut to fulfil l such contract, then if any other person, knowing that`
+  line `such contract exist, and that such advance has been made, shall prevail upon the ryut to break such contract,`
+  line `the party who made the advance shall be entitled to proceed by civil action against the person who shall`
+  line `have so prevailed on the ryut, as well as against the ryut, and to recover from him or them, jointly or`
+  line `severally, damages t o the extent of the injury sustained, together with costs of suit.`
+  line `Provided, always, that nothing in this Section contained shall be construed to give a right of action`
+  line `against any person in consequence of any act, which that person may have done for the purpose of procuring`
+  line `payment of a debt, or performance of a lawful contract.`
+  line `IV. And it is hereby enacted, that the Court trying any suit instituted under the provisions of Regulation`
+  line `VI., 1823, of the Bengal Code, or under the provisions of t his Act, shall be authorized to examine both the`
+  line `plaintiff and the defendant whenever the Court shall deem such examination necessary to the ends of justice;`
+  line `and if the award be in favor of the defendant, to assign to the defendant a sum which may be a co mpensation`
+  line `to him for the expense and loss of time occasioned by the proceeding.`
+  line `V. And it is hereby enacted, that it shall be competent to a Zillah or City Judge, to refer to a Principal`
+  line `Sudder Ameen or Sudder Ameen, according to the amount of their respective jurisdictions, any suit,`
+  line `whether regular or summary, which may be instituted under the provisions of Regulation VI., 1823, or`
+  line `under the provisions of this Act, to be enquired into and decided by the said Principal Sudder Ameen, or`
+  line `Sudder Ameen, in the same manner, and under the same rules, as such suit may be enquired into and`
+  line `decided by a Zillah or City Judge, any thing in the existing Regulations to the contrary notwithstanding.`
+  line `_______________ _________________`
+obj_root_law_sections_1_footnotes:
+  string
+  line

@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+  ---
+  duration_ms: 365.034607
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.22759
+  ...
+# Subtest: fetch site build converts cached Hindi PDF source into Markdown
+ok 3 - fetch site build converts cached Hindi PDF source into Markdown # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.074062
+  ...
+# Subtest: fetch site build falls back to English PDF text when cached HTML sections are empty
+ok 4 - fetch site build falls back to English PDF text when cached HTML sections are empty
+  ---
+  duration_ms: 723.41054
+  ...
+# Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+ok 5 - fetch site build resumes an incomplete cached law without redownloading cached sections # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.256573
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 6 - fetch site build writes completed law cache and progress as Lino # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.102613
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 7 - fetch site build writes partial output when the runtime budget is exhausted # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.078818
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 8 - fetch site build records per-law upstream failures as partial output # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.078818
+  ...
+# Subtest: labels enabled language records as Markdown
+ok 9 - labels enabled language records as Markdown # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.932643
+  ...
+# Subtest: labels known official sources without Markdown as pending
+ok 10 - labels known official sources without Markdown as pending # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.112267
+  ...
+# Subtest: labels languages with no known source as unavailable
+ok 11 - labels languages with no known source as unavailable # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.124377
+  ...
+# Subtest: does not fall back to another language when requested text is not ready
+ok 12 - does not fall back to another language when requested text is not ready # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.077215
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 10
+# todo 0
+# duration_ms 1160.091293

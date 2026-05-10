@@ -53,7 +53,19 @@ To smoke-test one official law source download without rebuilding the site:
 node scripts/smoke-download-source.mjs --manifest data/laws.seed.lino --max-sources 1
 ```
 
-Repository-owned `.lino` files use indented Links Notation with plain string references, so the metadata remains readable in reviews and manual edits.
+Repository-owned `.lino` files use indented Links Notation with plain string references, so the metadata remains readable in reviews and manual edits:
+
+```lino
+obj_root:
+  title `Indian Law`
+  defaultLanguage en
+  maxLines 1500
+  sourceMetadata obj_root_source_metadata
+  languages obj_root_languages
+  laws obj_root_laws
+```
+
+Nested objects and arrays are written as named `obj_...` definitions. Numeric-looking identifiers are wrapped, for example `handle (1367)`, so they still decode as strings. Multiline text uses explicit `string` definitions with readable `line` rows, including blank lines as `line`.
 
 The live fetcher retries transient failures, waits between requests by default, and sends a project contact header. India Code currently rejects Node's default fetch profile, so the HTTP client uses a curl-compatible request profile for that host.
 

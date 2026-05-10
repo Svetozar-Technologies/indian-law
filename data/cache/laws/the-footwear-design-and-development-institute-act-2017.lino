@@ -1,35 +1,31 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T10:50:04.851Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2255`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-09T10:50:04.851Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2255`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-footwear-design-and-development-institute-act-2017)
-  (str handle) (str 2255)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Footwear Design and Development Institute Act, 2017`)
-  (str actNumber) (str 20)
-  (str enactmentDate) (str 2017-08-04)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2255`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `फुटवियर डिजाइन और विकास संस्थान अधिनियम, 2017`)
-  (str actYear) (str 2017)
-  (str ministry) (str `Ministry of Commerce and Industry`)
-  (str department) (str `Department of Commerce`)
-  (str longTitle) (str `An Act to establish and declare the Footwear Design and Development Institute as an institution of national importance for the promotion and development of quality and excellence in education, research and training in all disciplines relating to footwear and leather products design and development and for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 16-10-2017)
-  (str notification) (str `S.O. 3248(E) Part-II s. 3(ii) 5-10-2017`)
+  slug the-footwear-design-and-development-institute-act-2017
+  handle (2255)
+  collectionHandle 123456789/1362
+  title `The Footwear Design and Development Institute Act, 2017`
+  actNumber (20)
+  enactmentDate 2017-08-04
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2255`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `फुटवियर डिजाइन और विकास संस्थान अधिनियम, 2017`
+  actYear (2017)
+  ministry `Ministry of Commerce and Industry`
+  department `Department of Commerce`
+  longTitle `An Act to establish and declare the Footwear Design and Development Institute as an institution of national importance for the promotion and development of quality and excellence in education, research and training in all disciplines relating to footwear and leather products design and development and for matters connected therewith or incidental thereto.`
+  enforcementDate 16-10-2017
+  notification `S.O. 3248(E) Part-II s. 3(ii) 5-10-2017`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_footwear_design_and_development_institute_act_2017
   obj_root_law_sources_en_3
@@ -39,54 +35,58 @@ obj_root_law_sources_en:
   obj_root_law_sources_en_7
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2255`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2255`
 obj_root_law_sources_en_the_footwear_design_and_development_institute_act_2017:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2255/1/a2017-20.pdf`)
-  (str title) (str `The Footwear Design and Development Institute Act, 2017`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2255/1/a2017-20.pdf`
+  title `The Footwear Design and Development Institute Act, 2017`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/rulesindividualfile/&file=FDDI+-+RRs.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/rulesindividualfile/&file=FDDI+-+RRs.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/notificationindividualfile/&file=Act+Enforcement.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/notificationindividualfile/&file=Act+Enforcement.pdf`
+  title obj_root_law_sources_en_4_title
+obj_root_law_sources_en_4_title:
+  string
+  line
 obj_root_law_sources_en_5:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/ordinanceindividualfile/&file=ordinance_fddi_21.06.19.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/ordinanceindividualfile/&file=ordinance_fddi_21.06.19.pdf`
+  title obj_root_law_sources_en_5_title
+obj_root_law_sources_en_5_title:
+  string
+  line
 obj_root_law_sources_en_6:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/statuteindividualfile/&file=Ist+Statute+of+FDDI.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/statuteindividualfile/&file=Ist+Statute+of+FDDI.pdf`
+  title obj_root_law_sources_en_6_title
+obj_root_law_sources_en_6_title:
+  string
+  line
 obj_root_law_sources_en_7:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/statuteindividualfile/&file=FDDI-Statute-Corrigenda.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/statuteindividualfile/&file=FDDI-Statute-Corrigenda.pdf`
+  title obj_root_law_sources_en_7_title
+obj_root_law_sources_en_7_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_2017
 obj_root_law_sources_hi_2017:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2255/3/H2017-20.pdf`)
-  (str title) (str `फुटवियर डिजाइन और विकास संस्थान अधिनियम, 2017`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2255/3/H2017-20.pdf`
+  title `फुटवियर डिजाइन और विकास संस्थान अधिनियम, 2017`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -127,493 +127,688 @@ obj_root_law_sections:
   obj_root_law_sections_38
   obj_root_law_sections_39
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 2239)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2239&sectionno=1&orderno=1&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2239)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2239&sectionno=1&orderno=1&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_1_content:
+  string
+  line
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 2240)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Declaration of Footwear Design and Development Institute as an institution of national importance.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2240&sectionno=2&orderno=2&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2240)
+  sectionNo (2)
+  orderNo 2
+  title `Declaration of Footwear Design and Development Institute as an institution of national importance.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2240&sectionno=2&orderno=2&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_2_content:
+  string
+  line
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 2241)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str Definitions.)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2241&sectionno=3&orderno=3&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2241)
+  sectionNo (3)
+  orderNo 3
+  title Definitions.
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2241&sectionno=3&orderno=3&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_3_content:
+  string
+  line
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 2242)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Establishment of Institute.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2242&sectionno=4&orderno=4&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2242)
+  sectionNo (4)
+  orderNo 4
+  title `Establishment of Institute.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2242&sectionno=4&orderno=4&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_4_content:
+  string
+  line
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 2243)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Vesting of properties.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2243&sectionno=5&orderno=5&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2243)
+  sectionNo (5)
+  orderNo 5
+  title `Vesting of properties.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2243&sectionno=5&orderno=5&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_5_content:
+  string
+  line
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 2244)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Effect of incorporation of Institute.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2244&sectionno=6&orderno=6&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2244)
+  sectionNo (6)
+  orderNo 6
+  title `Effect of incorporation of Institute.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2244&sectionno=6&orderno=6&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_6_content:
+  string
+  line
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 2245)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Functions of Institute.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2245&sectionno=7&orderno=7&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2245)
+  sectionNo (7)
+  orderNo 7
+  title `Functions of Institute.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2245&sectionno=7&orderno=7&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_7_content:
+  string
+  line
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 2246)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Power of Governing Council.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2246&sectionno=8&orderno=8&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2246)
+  sectionNo (8)
+  orderNo 8
+  title `Power of Governing Council.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2246&sectionno=8&orderno=8&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_8_content:
+  string
+  line
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 2247)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Institute be open to all races, creeds and classes.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2247&sectionno=9&orderno=9&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2247)
+  sectionNo (9)
+  orderNo 9
+  title `Institute be open to all races, creeds and classes.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2247&sectionno=9&orderno=9&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_9_content:
+  string
+  line
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 2248)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Teaching at Institute.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2248&sectionno=10&orderno=10&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2248)
+  sectionNo (10)
+  orderNo 10
+  title `Teaching at Institute.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2248&sectionno=10&orderno=10&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_10_content:
+  string
+  line
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 2249)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str Visitor.)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2249&sectionno=11&orderno=11&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2249)
+  sectionNo (11)
+  orderNo 11
+  title Visitor.
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2249&sectionno=11&orderno=11&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_11_content:
+  string
+  line
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 2250)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Authorities of Institute.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2250&sectionno=12&orderno=12&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2250)
+  sectionNo (12)
+  orderNo 12
+  title `Authorities of Institute.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2250&sectionno=12&orderno=12&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_12_content:
+  string
+  line
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 2251)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `The Senate.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2251&sectionno=13&orderno=13&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2251)
+  sectionNo (13)
+  orderNo 13
+  title `The Senate.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2251&sectionno=13&orderno=13&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_13_content:
+  string
+  line
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 2252)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Functions of Senate.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2252&sectionno=14&orderno=14&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2252)
+  sectionNo (14)
+  orderNo 14
+  title `Functions of Senate.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2252&sectionno=14&orderno=14&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_14_content:
+  string
+  line
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 2253)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Functions, powers and duties of Chairperson.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2253&sectionno=15&orderno=15&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2253)
+  sectionNo (15)
+  orderNo 15
+  title `Functions, powers and duties of Chairperson.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2253&sectionno=15&orderno=15&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_15_content:
+  string
+  line
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 2254)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Managing Director.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2254&sectionno=16&orderno=16&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2254)
+  sectionNo (16)
+  orderNo 16
+  title `Managing Director.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2254&sectionno=16&orderno=16&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_16_content:
+  string
+  line
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 2255)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str Secretary.)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2255&sectionno=17&orderno=17&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2255)
+  sectionNo (17)
+  orderNo 17
+  title Secretary.
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2255&sectionno=17&orderno=17&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_17_content:
+  string
+  line
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 2256)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Executive Director.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2256&sectionno=18&orderno=18&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2256)
+  sectionNo (18)
+  orderNo 18
+  title `Executive Director.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2256&sectionno=18&orderno=18&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_18_content:
+  string
+  line
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 2257)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Power and duties of other authorities and officers.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2257&sectionno=19&orderno=19&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2257)
+  sectionNo (19)
+  orderNo 19
+  title `Power and duties of other authorities and officers.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2257&sectionno=19&orderno=19&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_19_content:
+  string
+  line
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 2258)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Grants by Central Government.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2258&sectionno=20&orderno=20&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2258)
+  sectionNo (20)
+  orderNo 20
+  title `Grants by Central Government.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2258&sectionno=20&orderno=20&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_20_content:
+  string
+  line
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 2259)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Funds of Institute.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2259&sectionno=21&orderno=21&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2259)
+  sectionNo (21)
+  orderNo 21
+  title `Funds of Institute.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2259&sectionno=21&orderno=21&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_21_content:
+  string
+  line
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 2260)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Setting up of endowment fund.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2260&sectionno=22&orderno=22&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2260)
+  sectionNo (22)
+  orderNo 22
+  title `Setting up of endowment fund.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2260&sectionno=22&orderno=22&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_22_content:
+  string
+  line
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 2261)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Accounts and audit.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2261&sectionno=23&orderno=23&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2261)
+  sectionNo (23)
+  orderNo 23
+  title `Accounts and audit.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2261&sectionno=23&orderno=23&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_23_content:
+  string
+  line
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 2262)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Pension and provident fund.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2262&sectionno=24&orderno=24&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2262)
+  sectionNo (24)
+  orderNo 24
+  title `Pension and provident fund.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2262&sectionno=24&orderno=24&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_24_content:
+  string
+  line
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 2263)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str Appointment.)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2263&sectionno=25&orderno=25&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2263)
+  sectionNo (25)
+  orderNo 25
+  title Appointment.
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2263&sectionno=25&orderno=25&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_25_content:
+  string
+  line
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 2264)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str Statutes.)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2264&sectionno=26&orderno=26&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2264)
+  sectionNo (26)
+  orderNo 26
+  title Statutes.
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2264&sectionno=26&orderno=26&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_26_content:
+  string
+  line
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 2265)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Statutes how made.`)
-  (str content) (str )
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2265&sectionno=27&orderno=27&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2265)
+  sectionNo (27)
+  orderNo 27
+  title `Statutes how made.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2265&sectionno=27&orderno=27&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_27_content:
+  string
+  line
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 2266)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str Ordinances.)
-  (str content) (str `Subject to the provisions of this Act and the Statutes, the Ordinances of the
-Institute may provide for all or any of the following matters, namely:—
-
-(a) the admission of the students to the Institute;
-
-(b) the reservation for the Scheduled Castes, the Scheduled Tribes and other backward categories
-of persons;
-
-(c) the courses of study to be laid down for all degrees, diplomas and certificates of the Institute;
-
-(d) the conditions under which students shall be admitted to the degree, diploma and certificate
-courses and to the examinations of the Institute and award of degrees, diplomas and certificates;
-
-(e) the conditions for award of fellowships, scholarships, exhibitions, medals and prizes;
-
-(f) the conditions and mode of appointment and duties of examining body, examiners and
-moderators;
-
-(g) the conduct of examinations;
-
-(h) the maintenance of discipline among the students of the Institute;
-
-(i) the fees to be charged for courses of study in the Institute and for admission to the examinations of
-degrees, diplomas and certificates of the Institute; and
-
-(j) any other matter which by this Act or the Statutes is to be or may be provided for by the
-Ordinances.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2266&sectionno=28&orderno=28&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2266)
+  sectionNo (28)
+  orderNo 28
+  title Ordinances.
+  content obj_root_law_sections_28_content
+  footnotes obj_root_law_sections_28_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2266&sectionno=28&orderno=28&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_28_content:
+  string
+  line `Subject to the provisions of this Act and the Statutes, the Ordinances of the`
+  line `Institute may provide for all or any of the following matters, namely:—`
+  line
+  line `(a) the admission of the students to the Institute;`
+  line
+  line `(b) the reservation for the Scheduled Castes, the Scheduled Tribes and other backward categories`
+  line `of persons;`
+  line
+  line `(c) the courses of study to be laid down for all degrees, diplomas and certificates of the Institute;`
+  line
+  line `(d) the conditions under which students shall be admitted to the degree, diploma and certificate`
+  line `courses and to the examinations of the Institute and award of degrees, diplomas and certificates;`
+  line
+  line `(e) the conditions for award of fellowships, scholarships, exhibitions, medals and prizes;`
+  line
+  line `(f) the conditions and mode of appointment and duties of examining body, examiners and`
+  line moderators;
+  line
+  line `(g) the conduct of examinations;`
+  line
+  line `(h) the maintenance of discipline among the students of the Institute;`
+  line
+  line `(i) the fees to be charged for courses of study in the Institute and for admission to the examinations of`
+  line `degrees, diplomas and certificates of the Institute; and`
+  line
+  line `(j) any other matter which by this Act or the Statutes is to be or may be provided for by the`
+  line Ordinances.
+obj_root_law_sections_28_footnotes:
+  string
+  line
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 2267)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Ordinance how made.`)
-  (str content) (str `(1) Save as otherwise provided in this section, Ordinances shall be made
-by the Senate.
-
-(2) All Ordinances made by the Senate shall have effect from such date as it may direct, but every
-Ordinance so made shall be submitted, as soon as may be, to the Governing Council and shall be considered
-by the Governing Council at its next succeeding meeting.
-
-(3) The Governing Council shall have power by resolution to modify or cancel any such Ordinance
-and such Ordinance shall from the date of such resolution stand modified accordingly or cancelled, as the
-case may be.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2267&sectionno=29&orderno=29&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2267)
+  sectionNo (29)
+  orderNo 29
+  title `Ordinance how made.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2267&sectionno=29&orderno=29&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_29_content:
+  string
+  line `(1) Save as otherwise provided in this section, Ordinances shall be made`
+  line `by the Senate.`
+  line
+  line `(2) All Ordinances made by the Senate shall have effect from such date as it may direct, but every`
+  line `Ordinance so made shall be submitted, as soon as may be, to the Governing Council and shall be considered`
+  line `by the Governing Council at its next succeeding meeting.`
+  line
+  line `(3) The Governing Council shall have power by resolution to modify or cancel any such Ordinance`
+  line `and such Ordinance shall from the date of such resolution stand modified accordingly or cancelled, as the`
+  line `case may be.`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 2268)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str `Tribunal of Arbitration.`)
-  (str content) (str `(1) Any dispute arising out of a contract between the Institute and any of
-its employees shall, at the request of the employee concerned or at the instance of the Institute, be referred to
-a Tribunal of Arbitration consisting of one member appointed by the Institute, one member nominated by the
-employee and an umpire appointed by the Visitor.
-
-(2) The decision of the Tribunal of Arbitration shall be final and shall not be questioned in any court.
-
-(3) No suit or proceeding shall lie in any court in respect of any matter which is required by
-sub-section (1) to be referred to the Tribunal of Arbitration.
-
-(4) The Tribunal of Arbitration shall have power to regulate its own procedure.
-
-(5) Nothing in any law for the time being in force relating to arbitration shall apply to arbitration under
-this section.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2268&sectionno=30&orderno=30&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2268)
+  sectionNo (30)
+  orderNo 30
+  title `Tribunal of Arbitration.`
+  content obj_root_law_sections_30_content
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2268&sectionno=30&orderno=30&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_30_content:
+  string
+  line `(1) Any dispute arising out of a contract between the Institute and any of`
+  line `its employees shall, at the request of the employee concerned or at the instance of the Institute, be referred to`
+  line `a Tribunal of Arbitration consisting of one member appointed by the Institute, one member nominated by the`
+  line `employee and an umpire appointed by the Visitor.`
+  line
+  line `(2) The decision of the Tribunal of Arbitration shall be final and shall not be questioned in any court.`
+  line
+  line `(3) No suit or proceeding shall lie in any court in respect of any matter which is required by`
+  line `sub-section (1) to be referred to the Tribunal of Arbitration.`
+  line
+  line `(4) The Tribunal of Arbitration shall have power to regulate its own procedure.`
+  line
+  line `(5) Nothing in any law for the time being in force relating to arbitration shall apply to arbitration under`
+  line `this section.`
+obj_root_law_sections_30_footnotes:
+  string
+  line
 obj_root_law_sections_31:
-  object
-  (str sectionId) (str 2269)
-  (str sectionNo) (str 31)
-  (str orderNo) (int 31)
-  (str title) (str `Act and proceedings not to be invalidated by vacancies.`)
-  (str content) (str `No act of the Institute or Governing
-Council or Senate or any other body set-up under this Act or the Statutes, shall be invalid merely by
-reason of—
-
-(a) any vacancy in, or defect in the constitution thereof; or
-
-(b) any defect in the election, nomination or appointment of a person acting as a member thereof;
-or
-
-(c) any irregularity in its procedure not affecting the merits of the case.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2269&sectionno=31&orderno=31&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2269)
+  sectionNo (31)
+  orderNo 31
+  title `Act and proceedings not to be invalidated by vacancies.`
+  content obj_root_law_sections_31_content
+  footnotes obj_root_law_sections_31_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2269&sectionno=31&orderno=31&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_31_content:
+  string
+  line `No act of the Institute or Governing`
+  line `Council or Senate or any other body set-up under this Act or the Statutes, shall be invalid merely by`
+  line `reason of—`
+  line
+  line `(a) any vacancy in, or defect in the constitution thereof; or`
+  line
+  line `(b) any defect in the election, nomination or appointment of a person acting as a member thereof;`
+  line or
+  line
+  line `(c) any irregularity in its procedure not affecting the merits of the case.`
+obj_root_law_sections_31_footnotes:
+  string
+  line
 obj_root_law_sections_32:
-  object
-  (str sectionId) (str 2270)
-  (str sectionNo) (str 32)
-  (str orderNo) (int 32)
-  (str title) (str `Sponsored schemes.`)
-  (str content) (str `Notwithstanding anything contained in this Act, whenever the Institute receives
-funds from any Government, the University Grants Commission or any other agency, including industry
-sponsoring a research scheme or a consultancy assignment or a teaching programme or a chaired professorship
-or a scholarship, etc., to be executed or endowed at the Institute—
-
-(a) the amount received shall be kept by the Institute separately from the Fund of the Institute and
-utilised only for the purpose of the scheme; and
-
-(b) the staff required to execute the same shall be recruited in accordance with the terms and
-conditions stipulated by the sponsoring organisations:
-
-Provided that any money remaining unutilised shall be transferred to the endowment fund created
-under section 22 of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2270&sectionno=32&orderno=32&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2270)
+  sectionNo (32)
+  orderNo 32
+  title `Sponsored schemes.`
+  content obj_root_law_sections_32_content
+  footnotes obj_root_law_sections_32_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2270&sectionno=32&orderno=32&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_32_content:
+  string
+  line `Notwithstanding anything contained in this Act, whenever the Institute receives`
+  line `funds from any Government, the University Grants Commission or any other agency, including industry`
+  line `sponsoring a research scheme or a consultancy assignment or a teaching programme or a chaired professorship`
+  line `or a scholarship, etc., to be executed or endowed at the Institute—`
+  line
+  line `(a) the amount received shall be kept by the Institute separately from the Fund of the Institute and`
+  line `utilised only for the purpose of the scheme; and`
+  line
+  line `(b) the staff required to execute the same shall be recruited in accordance with the terms and`
+  line `conditions stipulated by the sponsoring organisations:`
+  line
+  line `Provided that any money remaining unutilised shall be transferred to the endowment fund created`
+  line `under section 22 of this Act.`
+obj_root_law_sections_32_footnotes:
+  string
+  line
 obj_root_law_sections_33:
-  object
-  (str sectionId) (str 2271)
-  (str sectionNo) (str 33)
-  (str orderNo) (int 33)
-  (str title) (str `Power of Institute to grant degree, etc.`)
-  (str content) (str `The Institute shall have the power to grant degrees,
-diplomas, certificates and other academic distinctions under this Act, which shall be equivalent to such
-corresponding degrees, diplomas, certificates and other academic distinctions granted by any University or
-Institute established or incorporated under any other law for the time being in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2271&sectionno=33&orderno=33&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2271)
+  sectionNo (33)
+  orderNo 33
+  title `Power of Institute to grant degree, etc.`
+  content obj_root_law_sections_33_content
+  footnotes obj_root_law_sections_33_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2271&sectionno=33&orderno=33&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_33_content:
+  string
+  line `The Institute shall have the power to grant degrees,`
+  line `diplomas, certificates and other academic distinctions under this Act, which shall be equivalent to such`
+  line `corresponding degrees, diplomas, certificates and other academic distinctions granted by any University or`
+  line `Institute established or incorporated under any other law for the time being in force.`
+obj_root_law_sections_33_footnotes:
+  string
+  line
 obj_root_law_sections_34:
-  object
-  (str sectionId) (str 2272)
-  (str sectionNo) (str 34)
-  (str orderNo) (int 34)
-  (str title) (str `Institute to be public authority under the Right to Information Act, 2005.`)
-  (str content) (str `The provisions of
-the Right to Information Act, 2005 (22 of 2005) shall apply to the Institute, as if it were a public authority
-as defined in clause (h) of section 2 of the Right to Information Act, 2005.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2272&sectionno=34&orderno=34&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2272)
+  sectionNo (34)
+  orderNo 34
+  title `Institute to be public authority under the Right to Information Act, 2005.`
+  content obj_root_law_sections_34_content
+  footnotes obj_root_law_sections_34_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2272&sectionno=34&orderno=34&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_34_content:
+  string
+  line `The provisions of`
+  line `the Right to Information Act, 2005 (22 of 2005) shall apply to the Institute, as if it were a public authority`
+  line `as defined in clause (h) of section 2 of the Right to Information Act, 2005.`
+obj_root_law_sections_34_footnotes:
+  string
+  line
 obj_root_law_sections_35:
-  object
-  (str sectionId) (str 2273)
-  (str sectionNo) (str 35)
-  (str orderNo) (int 35)
-  (str title) (str `Power of Central Government to make rules.`)
-  (str content) (str `(1) The Central Government may, by
-notification, make rules to carry out the purposes of this Act.
-
-(2) In particular and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:—
-
-(a) the manner of appointment of the Managing Director, Secretary and Executive Director and
-terms and conditions of his services;
-
-(b) the terms and conditions of service of the Managing Director, Secretary and the Executive
-Director under sub-section (1) of section 16, sub-section (1) of section 17 and sub-section (1) of
-section 18;
-
-(c) the form and manner in which the books of account of the Institute shall be maintained under
-sub-section (1) of section 23; and
-
-(d) any other matter which is required to be, or may be, prescribed.
-
-(3) Every rule made under this section shall be laid, as soon as may be after it is made, before each House
-of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or
-in two or more successive sessions, and if, before the expiry of the session immediately following the session
-or the successive sessions aforesaid, both Houses agree in making any modification in the rule or both Houses
-agree that the rule should not be made, the rule shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without
-prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2273&sectionno=35&orderno=35&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2273)
+  sectionNo (35)
+  orderNo 35
+  title `Power of Central Government to make rules.`
+  content obj_root_law_sections_35_content
+  footnotes obj_root_law_sections_35_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2273&sectionno=35&orderno=35&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_35_content:
+  string
+  line `(1) The Central Government may, by`
+  line `notification, make rules to carry out the purposes of this Act.`
+  line
+  line `(2) In particular and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:—`
+  line
+  line `(a) the manner of appointment of the Managing Director, Secretary and Executive Director and`
+  line `terms and conditions of his services;`
+  line
+  line `(b) the terms and conditions of service of the Managing Director, Secretary and the Executive`
+  line `Director under sub-section (1) of section 16, sub-section (1) of section 17 and sub-section (1) of`
+  line `section 18;`
+  line
+  line `(c) the form and manner in which the books of account of the Institute shall be maintained under`
+  line `sub-section (1) of section 23; and`
+  line
+  line `(d) any other matter which is required to be, or may be, prescribed.`
+  line
+  line `(3) Every rule made under this section shall be laid, as soon as may be after it is made, before each House`
+  line `of Parliament, while it is in session, for a total period of thirty days which may be comprised in one session or`
+  line `in two or more successive sessions, and if, before the expiry of the session immediately following the session`
+  line `or the successive sessions aforesaid, both Houses agree in making any modification in the rule or both Houses`
+  line `agree that the rule should not be made, the rule shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without`
+  line `prejudice to the validity of anything previously done under that rule.`
+obj_root_law_sections_35_footnotes:
+  string
+  line
 obj_root_law_sections_36:
-  object
-  (str sectionId) (str 2274)
-  (str sectionNo) (str 36)
-  (str orderNo) (int 36)
-  (str title) (str `Returns and information to be provided to Central Government.`)
-  (str content) (str `The Institute shall furnish to the
-Central Government such returns or other information with respect to policies or activities as the Central
-Government may, for the purpose of reporting to Parliament or for the making of policy, from time to time,
-require.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2274&sectionno=36&orderno=36&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2274)
+  sectionNo (36)
+  orderNo 36
+  title `Returns and information to be provided to Central Government.`
+  content obj_root_law_sections_36_content
+  footnotes obj_root_law_sections_36_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2274&sectionno=36&orderno=36&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_36_content:
+  string
+  line `The Institute shall furnish to the`
+  line `Central Government such returns or other information with respect to policies or activities as the Central`
+  line `Government may, for the purpose of reporting to Parliament or for the making of policy, from time to time,`
+  line require.
+obj_root_law_sections_36_footnotes:
+  string
+  line
 obj_root_law_sections_37:
-  object
-  (str sectionId) (str 2275)
-  (str sectionNo) (str 37)
-  (str orderNo) (int 37)
-  (str title) (str `Transitional provisions.`)
-  (str content) (str `Notwithstanding anything contained in this Act—
-
-(a) the Governing Council of the Society functioning as such, immediately before the commencement
-of this Act shall continue to so function until a new Governing Council is constituted for the Institute under
-this Act, but on the constitution of a new Governing Council under this Act the members of the Governing
-Council holding office before such constitution shall cease to hold office;
-
-(b) until the first Statutes and the Ordinances are made under this Act, the rules and regulations,
-instructions and guidelines of the Society as in force, immediately before the commencement of this
-Act, shall continue to apply to the Institute insofar as they are not inconsistent with the provisions of
-this Act; and
-
-(c) any student who joined classes of the existing Institute on or after the academic year 2012-2013 or
-completed the course on or after the academic year 2013-2014 shall for the purposes of clause (iii) of section 7,
-be deemed to have pursued a course of study in the existing Institute if such student has not already been awarded
-degree or diploma for the same course of study.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2275&sectionno=37&orderno=37&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2275)
+  sectionNo (37)
+  orderNo 37
+  title `Transitional provisions.`
+  content obj_root_law_sections_37_content
+  footnotes obj_root_law_sections_37_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2275&sectionno=37&orderno=37&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_37_content:
+  string
+  line `Notwithstanding anything contained in this Act—`
+  line
+  line `(a) the Governing Council of the Society functioning as such, immediately before the commencement`
+  line `of this Act shall continue to so function until a new Governing Council is constituted for the Institute under`
+  line `this Act, but on the constitution of a new Governing Council under this Act the members of the Governing`
+  line `Council holding office before such constitution shall cease to hold office;`
+  line
+  line `(b) until the first Statutes and the Ordinances are made under this Act, the rules and regulations,`
+  line `instructions and guidelines of the Society as in force, immediately before the commencement of this`
+  line `Act, shall continue to apply to the Institute insofar as they are not inconsistent with the provisions of`
+  line `this Act; and`
+  line
+  line `(c) any student who joined classes of the existing Institute on or after the academic year 2012-2013 or`
+  line `completed the course on or after the academic year 2013-2014 shall for the purposes of clause (iii) of section 7,`
+  line `be deemed to have pursued a course of study in the existing Institute if such student has not already been awarded`
+  line `degree or diploma for the same course of study.`
+obj_root_law_sections_37_footnotes:
+  string
+  line
 obj_root_law_sections_38:
-  object
-  (str sectionId) (str 2276)
-  (str sectionNo) (str 38)
-  (str orderNo) (int 38)
-  (str title) (str `Statute and Ordinance to be published in the Official Gazette and to be laid before Parliament.`)
-  (str content) (str `(1) Every Statute or Ordinance made under this Act shall be published in the Official
-Gazette.
-
-(2) Every Statute or Ordinance made under this Act shall be laid, as soon as may be after it is made, before
-each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in
-one session or in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid, both Houses agree in making any modification in
-the Statute or Ordinance or both Houses agree that the Statute or Ordinance should not be made, the Statute or
-Ordinance shall thereafter have effect only in such modified form or be of no effect, as the case may be; so,
-however, that any such modification or annulment shall be without prejudice to the validity of anything
-previously done under that Statute or Ordinance.
-
-(3) The power to make Statutes or Ordinances shall include the power to give retrospective effect with
-the approval of the Central Government from a date not earlier than the date of commencement of this Act
-to Statutes or Ordinances or any of them but no retrospective effect shall be given to any Statute or
-Ordinance so as to prejudicially affect the interests of any person to whom such Statutes or Ordinances may
-be applicable.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2276&sectionno=38&orderno=38&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2276)
+  sectionNo (38)
+  orderNo 38
+  title `Statute and Ordinance to be published in the Official Gazette and to be laid before Parliament.`
+  content obj_root_law_sections_38_content
+  footnotes obj_root_law_sections_38_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2276&sectionno=38&orderno=38&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_38_content:
+  string
+  line `(1) Every Statute or Ordinance made under this Act shall be published in the Official`
+  line Gazette.
+  line
+  line `(2) Every Statute or Ordinance made under this Act shall be laid, as soon as may be after it is made, before`
+  line `each House of Parliament, while it is in session, for a total period of thirty days which may be comprised in`
+  line `one session or in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid, both Houses agree in making any modification in`
+  line `the Statute or Ordinance or both Houses agree that the Statute or Ordinance should not be made, the Statute or`
+  line `Ordinance shall thereafter have effect only in such modified form or be of no effect, as the case may be; so,`
+  line `however, that any such modification or annulment shall be without prejudice to the validity of anything`
+  line `previously done under that Statute or Ordinance.`
+  line
+  line `(3) The power to make Statutes or Ordinances shall include the power to give retrospective effect with`
+  line `the approval of the Central Government from a date not earlier than the date of commencement of this Act`
+  line `to Statutes or Ordinances or any of them but no retrospective effect shall be given to any Statute or`
+  line `Ordinance so as to prejudicially affect the interests of any person to whom such Statutes or Ordinances may`
+  line `be applicable.`
+obj_root_law_sections_38_footnotes:
+  string
+  line
 obj_root_law_sections_39:
-  object
-  (str sectionId) (str 2277)
-  (str sectionNo) (str 39)
-  (str orderNo) (int 39)
-  (str title) (str `Power to remove difficulties.`)
-  (str content) (str `(1) lf any difficulty arises in giving effect to the provisions of this
-Act, the Central Government may, by order published in the Official Gazette, make such provision or
-give such direction not inconsistent with the purposes of this Act, as appears to it to be necessary or
-expedient for removing the difficulty:
-
-Provided that no such order shall be made after the expiry of two years from the date of
-commencement of this Act.
-
-(2) Every order made under this section shall be laid, as soon as may be after it is made, before each
-House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2277&sectionno=39&orderno=39&orgactid=AC_CEN_11_12_00011_201720_1517807328050)
+  sectionId (2277)
+  sectionNo (39)
+  orderNo 39
+  title `Power to remove difficulties.`
+  content obj_root_law_sections_39_content
+  footnotes obj_root_law_sections_39_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_11_12_00011_201720_1517807328050&sectionId=2277&sectionno=39&orderno=39&orgactid=AC_CEN_11_12_00011_201720_1517807328050
+obj_root_law_sections_39_content:
+  string
+  line `(1) lf any difficulty arises in giving effect to the provisions of this`
+  line `Act, the Central Government may, by order published in the Official Gazette, make such provision or`
+  line `give such direction not inconsistent with the purposes of this Act, as appears to it to be necessary or`
+  line `expedient for removing the difficulty:`
+  line
+  line `Provided that no such order shall be made after the expiry of two years from the date of`
+  line `commencement of this Act.`
+  line
+  line `(2) Every order made under this section shall be laid, as soon as may be after it is made, before each`
+  line `House of Parliament.`
+obj_root_law_sections_39_footnotes:
+  string
+  line

@@ -1,65 +1,55 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:44:05.614Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2360`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 7)
-  (str totalSections) (int 7)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:44:05.614Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2360`
+  completeFetch true
+  maxSections null
+  sectionCount 7
+  totalSections 7
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-powers-of-attorney-act-1882)
-  (str handle) (str 2360)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Powers-of Attorney Act, 1882`)
-  (str actNumber) (str 07)
-  (str enactmentDate) (str 1882-02-17)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2360`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `मुख्‍तारनामा अधिनयम, 1882`)
-  (str actYear) (str 1882)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Legislative Department`)
-  (str longTitle) (str `An Act to define and amend the law relating to Easements and Licenses.`)
-  (str enforcementDate) (str 01-07-1882)
-  (str fetchedAt) (str `2026-05-08T20:18:30.458Z`)
-  (str translations) obj_root_law_translations
+  slug the-powers-of-attorney-act-1882
+  handle (2360)
+  collectionHandle 123456789/1362
+  title `The Powers-of Attorney Act, 1882`
+  actNumber (07)
+  enactmentDate 1882-02-17
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2360`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `मुख्‍तारनामा अधिनयम, 1882`
+  actYear (1882)
+  ministry `Ministry of Law and Justice`
+  department `Legislative Department`
+  longTitle `An Act to define and amend the law relating to Easements and Licenses.`
+  enforcementDate 01-07-1882
+  fetchedAt `2026-05-08T20:18:30.458Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_powers_of_attorney_act_1882
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2360`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2360`
 obj_root_law_sources_en_the_powers_of_attorney_act_1882:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2360/1/a1882-07.pdf`)
-  (str title) (str `The Powers-of Attorney Act, 1882`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2360/1/a1882-07.pdf`
+  title `The Powers-of Attorney Act, 1882`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1882
 obj_root_law_sources_hi_1882:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2360/2/H1882-07.pdf`)
-  (str title) (str `मुख्‍तारनामा अधिनयम, 1882`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2360/2/H1882-07.pdf`
+  title `मुख्‍तारनामा अधिनयम, 1882`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_1_a
   obj_root_law_sections_2
@@ -68,227 +58,260 @@ obj_root_law_sections:
   obj_root_law_sections_5
   obj_root_law_sections_6
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 43930)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title.`)
-  (str content) (str `This Act may be called the Powers-of-Attorney Act, 1882.
-
-Local extent.---It applies to the whole of India ^1***;
-
-Commencement.--- and it shall come into force on the first day of May, 1882.`)
-  (str footnotes) (str `1.The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth
-Schedule (w.e.f. 31-10-2019).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43930&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00044_188207_1523272415955)
+  sectionId (43930)
+  sectionNo (1)
+  orderNo 1
+  title `Short title.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43930&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00044_188207_1523272415955
+obj_root_law_sections_1_content:
+  string
+  line `This Act may be called the Powers-of-Attorney Act, 1882.`
+  line
+  line `Local extent.---It applies to the whole of India ^1***;`
+  line
+  line `Commencement.--- and it shall come into force on the first day of May, 1882.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1.The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth`
+  line `Schedule (w.e.f. 31-10-2019).`
 obj_root_law_sections_1_a:
-  object
-  (str sectionId) (str 43931)
-  (str sectionNo) (str 1A)
-  (str orderNo) (int 2)
-  (str title) (str Definition.)
-  (str content) (str `^1[1A. Definition.--In this Act, "power-of-attorney" includes any instrument empowering
-a specified person to act for and in the name of the person executing it.]`)
-  (str footnotes) (str `1. Ins. by Act 55 of 1982, s. 2 (w.e.f. 22-10-1980).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43931&sectionno=1A&orderno=2&orgactid=AC_CEN_3_20_00044_188207_1523272415955)
+  sectionId (43931)
+  sectionNo 1A
+  orderNo 2
+  title Definition.
+  content obj_root_law_sections_1_a_content
+  footnotes `1. Ins. by Act 55 of 1982, s. 2 (w.e.f. 22-10-1980).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43931&sectionno=1A&orderno=2&orgactid=AC_CEN_3_20_00044_188207_1523272415955
+obj_root_law_sections_1_a_content:
+  string
+  line `^1[1A. Definition.--In this Act, "power-of-attorney" includes any instrument empowering`
+  line `a specified person to act for and in the name of the person executing it.]`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 43932)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 3)
-  (str title) (str `Execution under power-of-attorney.`)
-  (str content) (str `The donee of a power-of-attorney may, if he
-thinks fit, execute or do any ^1*** instrument or thing in and with his own name and signature,
-and his own seal, where sealing is required, by the authority of the donor of the power; and
-every ^1*** instrument and thing so executed and done, shall be as effectual in law as if it had
-been executed or done by the donee of the power in the name, and with the signature and seal,
-of the donor thereof.
-
-This section applies to powers-of-attorney created by instruments executed either before or after this
-Act comes into force.`)
-  (str footnotes) (str `1 The word "assurance" omitted by s. 3, ibid. (w.e.f. 22-10-1980).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43932&sectionno=2&orderno=3&orgactid=AC_CEN_3_20_00044_188207_1523272415955)
+  sectionId (43932)
+  sectionNo (2)
+  orderNo 3
+  title `Execution under power-of-attorney.`
+  content obj_root_law_sections_2_content
+  footnotes `1 The word "assurance" omitted by s. 3, ibid. (w.e.f. 22-10-1980).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43932&sectionno=2&orderno=3&orgactid=AC_CEN_3_20_00044_188207_1523272415955
+obj_root_law_sections_2_content:
+  string
+  line `The donee of a power-of-attorney may, if he`
+  line `thinks fit, execute or do any ^1*** instrument or thing in and with his own name and signature,`
+  line `and his own seal, where sealing is required, by the authority of the donor of the power; and`
+  line `every ^1*** instrument and thing so executed and done, shall be as effectual in law as if it had`
+  line `been executed or done by the donee of the power in the name, and with the signature and seal,`
+  line `of the donor thereof.`
+  line
+  line `This section applies to powers-of-attorney created by instruments executed either before or after this`
+  line `Act comes into force.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 43933)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 4)
-  (str title) (str `Payment by attorney under power, without notice of death, etc., good.`)
-  (str content) (str `Any person
-making or doing any payment or act in good faith, in pursuance of a power-of-attorney, shall not
-be liable in respect of the payment or act by reason that, before the payment or act, the donor of
-the power had died or become ^1*** of unsound mind, ^2*** or insolvent, or had revoked the
-power, if the fact of death, ^3*** unsoundness of mind, ^4*** insolvency or revocation was not, at
-the time of the payment or act, known to the person making or doing the same.
-
-But this section shall not affect any right against the payee of any person interested in any
-money so paid; and that person shall have the like remedy against the payee as he would have
-had against the payer, if the payment had not been made by him.
-
-This section applies only to payments and acts made or done after this Act comes into force.`)
-  (str footnotes) (str `1. The word "lunatic," omitted by s. 4, ibid. (w.e.f. 22-10-1980).
-
-2. The word "or bankrupt" omitted by s. 4, ibid. (w.e.f. 22-10-1980).
-
-3. The word "lunacy," omitted by s. 4, ibid. (w.e.f. 22-10-1980).
-
-4. The word "bankruptcy," omitted by s. 4, ibid. (w.e.f. 22-10-1980).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43933&sectionno=3&orderno=4&orgactid=AC_CEN_3_20_00044_188207_1523272415955)
+  sectionId (43933)
+  sectionNo (3)
+  orderNo 4
+  title `Payment by attorney under power, without notice of death, etc., good.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43933&sectionno=3&orderno=4&orgactid=AC_CEN_3_20_00044_188207_1523272415955
+obj_root_law_sections_3_content:
+  string
+  line `Any person`
+  line `making or doing any payment or act in good faith, in pursuance of a power-of-attorney, shall not`
+  line `be liable in respect of the payment or act by reason that, before the payment or act, the donor of`
+  line `the power had died or become ^1*** of unsound mind, ^2*** or insolvent, or had revoked the`
+  line `power, if the fact of death, ^3*** unsoundness of mind, ^4*** insolvency or revocation was not, at`
+  line `the time of the payment or act, known to the person making or doing the same.`
+  line
+  line `But this section shall not affect any right against the payee of any person interested in any`
+  line `money so paid; and that person shall have the like remedy against the payee as he would have`
+  line `had against the payer, if the payment had not been made by him.`
+  line
+  line `This section applies only to payments and acts made or done after this Act comes into force.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. The word "lunatic," omitted by s. 4, ibid. (w.e.f. 22-10-1980).`
+  line
+  line `2. The word "or bankrupt" omitted by s. 4, ibid. (w.e.f. 22-10-1980).`
+  line
+  line `3. The word "lunacy," omitted by s. 4, ibid. (w.e.f. 22-10-1980).`
+  line
+  line `4. The word "bankruptcy," omitted by s. 4, ibid. (w.e.f. 22-10-1980).`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 43934)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 5)
-  (str title) (str `Deposit of original instruments creating powers-of-attorney.`)
-  (str content) (str `(a) An instrument
-creating a power-of-attorney, its execution being verified by affidavit, statutory declaration or
-other sufficient evidence, may, with the affidavit or declaration, if any, be deposited in the High
-Court ^1[or District Court] within the local limits of whose jurisdiction the instrument may be.
-
-(b) A separate file of instruments so deposited shall be kept; and any person may search that
-file, and inspect every instrument so deposited; and a certified copy thereof shall be delivered
-out to him on request.
-
-(c) A copy of an instrument so deposited may be presented at the office and may be stamped
-or marked as a certified copy, and, when so stamped or marked, shall become and be a certified
-copy.
-
-(d) A certified copy of an instrument so deposited shall, without further proof, be sufficient
-evidence of the contents of the instrument and of the deposit thereof in the High Court ^2[District Court].
-
-(e) The High Court may, from time to time, make rules for the purposes of this section, and
-prescribing, with the concurrence of the State Government, the fees to be taken under clauses (a), (b)
-and (c).
-
-^3** * * *
-
-(g) This section applies to instruments creating powers-of-attorney executed either before or after this
-Act comes into force.`)
-  (str footnotes) (str `1 Ins. by s. 5, ibid. (w.e.f. 22-10-1980).
-
-2 . Ins. by Act 55 of 1982, s. 5.
-
-3. Clause (f) rep. Act 6 of 1900, s. 48 and the Second Schedule`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43934&sectionno=4&orderno=5&orgactid=AC_CEN_3_20_00044_188207_1523272415955)
+  sectionId (43934)
+  sectionNo (4)
+  orderNo 5
+  title `Deposit of original instruments creating powers-of-attorney.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43934&sectionno=4&orderno=5&orgactid=AC_CEN_3_20_00044_188207_1523272415955
+obj_root_law_sections_4_content:
+  string
+  line `(a) An instrument`
+  line `creating a power-of-attorney, its execution being verified by affidavit, statutory declaration or`
+  line `other sufficient evidence, may, with the affidavit or declaration, if any, be deposited in the High`
+  line `Court ^1[or District Court] within the local limits of whose jurisdiction the instrument may be.`
+  line
+  line `(b) A separate file of instruments so deposited shall be kept; and any person may search that`
+  line `file, and inspect every instrument so deposited; and a certified copy thereof shall be delivered`
+  line `out to him on request.`
+  line
+  line `(c) A copy of an instrument so deposited may be presented at the office and may be stamped`
+  line `or marked as a certified copy, and, when so stamped or marked, shall become and be a certified`
+  line copy.
+  line
+  line `(d) A certified copy of an instrument so deposited shall, without further proof, be sufficient`
+  line `evidence of the contents of the instrument and of the deposit thereof in the High Court ^2[District Court].`
+  line
+  line `(e) The High Court may, from time to time, make rules for the purposes of this section, and`
+  line `prescribing, with the concurrence of the State Government, the fees to be taken under clauses (a), (b)`
+  line `and (c).`
+  line
+  line `^3** * * *`
+  line
+  line `(g) This section applies to instruments creating powers-of-attorney executed either before or after this`
+  line `Act comes into force.`
+obj_root_law_sections_4_footnotes:
+  string
+  line `1 Ins. by s. 5, ibid. (w.e.f. 22-10-1980).`
+  line
+  line `2 . Ins. by Act 55 of 1982, s. 5.`
+  line
+  line `3. Clause (f) rep. Act 6 of 1900, s. 48 and the Second Schedule`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 43935)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 6)
-  (str title) (str `Power-of-attorney of married women.`)
-  (str content) (str `^1[A married woman of full age shall, by virtue of this
-Act, have power, as if she were unmarried,] by a non-testamentary instrument, to appoint an attorney on
-her behalf, for the purpose of executing any non-testamentary instrument or doing any other act which she
-might herself execute or do; and the provisions of this Act, relating to instruments creating powers-ofattorney, shall apply thereto.
-
-This section applies only to instruments executed after this Act comes into force.`)
-  (str footnotes) (str `1 Subs. by Act 55 of 1982, s. 6, for certain words (w.e.f. 22-10-1982).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43935&sectionno=5&orderno=6&orgactid=AC_CEN_3_20_00044_188207_1523272415955)
+  sectionId (43935)
+  sectionNo (5)
+  orderNo 6
+  title `Power-of-attorney of married women.`
+  content obj_root_law_sections_5_content
+  footnotes `1 Subs. by Act 55 of 1982, s. 6, for certain words (w.e.f. 22-10-1982).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43935&sectionno=5&orderno=6&orgactid=AC_CEN_3_20_00044_188207_1523272415955
+obj_root_law_sections_5_content:
+  string
+  line `^1[A married woman of full age shall, by virtue of this`
+  line `Act, have power, as if she were unmarried,] by a non-testamentary instrument, to appoint an attorney on`
+  line `her behalf, for the purpose of executing any non-testamentary instrument or doing any other act which she`
+  line `might herself execute or do; and the provisions of this Act, relating to instruments creating powers-ofattorney, shall apply thereto.`
+  line
+  line `This section applies only to instruments executed after this Act comes into force.`
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 43936)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 7)
-  (str title) (str [Repealed.].)
-  (str content) (str `[Act 28 of 1866, section 39 repealed.] Rep. by the Amending Act, 1891 (12 of 1891),
-s. 2 and the First Schedule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43936&sectionno=6&orderno=7&orgactid=AC_CEN_3_20_00044_188207_1523272415955)
+  sectionId (43936)
+  sectionNo (6)
+  orderNo 7
+  title [Repealed.].
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00044_188207_1523272415955&sectionId=43936&sectionno=6&orderno=7&orgactid=AC_CEN_3_20_00044_188207_1523272415955
+obj_root_law_sections_6_content:
+  string
+  line `[Act 28 of 1866, section 39 repealed.] Rep. by the Amending Act, 1891 (12 of 1891),`
+  line `s. 2 and the First Schedule.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `मुख्‍तारनामा अधिनयम, 1882`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2360/2/H1882-07.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:44:04.512Z`)
-  (str pageCount) (int 2)
-  (str sections) obj_root_law_translations_hi_sections
+  title `मुख्‍तारनामा अधिनयम, 1882`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2360/2/H1882-07.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:44:04.512Z`
+  pageCount 2
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `मुख्ता रनामा अधिधन यम, 18 82
-(18 82 काअधिधनयमसंख्यां क 7 ) 1
-[ 24 फरवरी, 18 82 ]
-मुख्ता रनामों सेसम्ब धि तधवधिका
-संशोिनकरनेकेधिए
-अधिधनयम
-मुख्ता रनामों सेसम्ब धि तधवधिकासंशोिनकरनेकेप्रयोजनकेधिए एतद द्व ारा धनम्न धिधितरूपमेंयहअधिधनयधम त
-ककया जाताहै: —
-1. संधिप्त नाम — इसअधिधनयमकासंधिप्त नाममुख्ता रनामाअधिधनयम, 1882 है; स्
-था नीयधवस्ता र — इसकाधवस्ता र 2 [ * [***] ] सम्पू र् ण भारतपरहै; प्र
-ारंभ — औरयह 1882 कीमईकेप्रथमकदनकोप्रवृत्तहोगा।
-3 [ 1 क. पररभाषा — इसअधिधनयममें, “ मुख्ता रनामा ” केअत गणतऐसीधिितभीहैजोककसीधवधनर्दणष्ट व् य धत कोउस व्
-य धत कीओरसेऔरउसकेनामसे, जोउसकाधनष्पा दनकरताहै, कायणकरनेकेधिएसशत करतीहै। ]
-2. मुख्ता रनामेकेअिीनधनष्पा दन — ककसीमुख्ता रनामे काआदाता, यकदवहठीकसमझताहैतो, मुख्ता रनामे केदाताके प्र
-ाधिकारसेकोई 4 *** धिितयाबातअपनेनामऔरहस्ता िर सेऔरअपनीमुद्रासे, जहांमुद्रािगानाअपेधित है, करसकताहैया
-धनष्पा कदतकरसकताहै; औरइसप्रकारधनष्पा कदतऔरकृतप्रत्ये क 4 *** धिितऔरबातधवधिमेंइसप्रकारप्रभावशीिहो गीमानो
-वहमुख्ता रनामेकेआदाताद्वाराउसकेदाताकेनाममेंऔरहस्ता िरऔरमुद्रासेकृतयाधनष्पा कदत है।
-यहिाराउनसभीमुख्ता रनामोंकोिागूहोतीहैजोइसअधिधनयमकेप्रवृत्तहोनेकेपूवणयापश्चा तधनष्पा कदतधिितों द्व
-ारासृधजतककएगएहैं।
-3. मृ त् यु आकदकीसूचनाकेधबनामुख्ता रनामेकेअिीनअटनीद्वाराककएगएसंदायोंकामाय होना — मुख्ता रनामेके
-अनुसरर्में सद भावपू वणक संदाययाकायणकरनेवािाकोईव्य धत उससंदाययाकायणकीबाबतइसकारर् दायीनहींहोगाककउस
-संदाययाकायणकेपहिे, मुख्ता रनामेकादातामरगयाहैया 5 *** धवकृत धचत्त 5 *** याशोििमहोगयाहैयाउसनेमुख्ता रनामा प्र
-धतसंहृतकरधियाहै, यकदमृत्यु 5 *** धचत्तधवकृधत, 5 *** शोििमतायाप्रधतसंहरर्कातथ्य संदाययाकायणकेसमयउसेकरनेवािे व्
-य धत कोज्ञातनहींथा।
-ककतु यहिाराइसप्रकारसंदत्तककसीिनमेंधहतबद्धककसीव्य धत केऐसेिनपानेवािेकेधवरुद्धककसीअधिकारको प्र
-भाधवतनहींकरेगी, औरउसव्य धत कोऐसेपानेवािेकेधवरुद्धवैसाहीउपचारप्राप्त होगाजैसाककउसेसंदायकरनेवािेके
-धवरुद्धप्राप्त होता, यकद उसकेद्वारासंदायनहींककयाजाता।
-यहिाराकेविउहीं संदायोंऔरकायोंकोिागूहोतीहैजोइसअधिधनयमकेप्रवृत्तहोनेकेपश्चा तककएगएहैं।
-4. मुख्ता रनामासृधजतकरनेवािीमूिधिितोंकाजमाककयाजाना — (क) मुख्ता रनामा सृधजतकरनेवािीधिित, उसका
-धनष्पा दनशपथपत्रद्वारा, कानूनीघोषर्ाद्वारायाअय पयाणप्त साक्ष्य द्व ारासत्या धपतकरके, ऐसेशपथपत्रयाघोषर्ासधहत, यकद
-कोईहो, उसउच्च या यािय 6 [ याधजिाया यािय ] मेंजमाकीजासकतीहैधजसकीअधिकाररताकीस्था नीयसीमाओंकेअद रवह
-धिितहो।
-(ि) इसप्रकारजमाकीगईधिितोंकीएकपृथक फाइिरिीजाएगी; औरकोईभीव्य धत उसफाइिकीजांचकरसकता
-है, औरइसप्रकारजमाकीगईप्रत्ये कधिितकाधनरीिर्करसकताहै; औरअनुरोिककएजा नेपरउसेउसकीएकप्रमाधर्तप्रधतदी
-जाएगी।
-1 दादराऔरनागरहवेिी(धवधि)धवधनयम, 1963 (1963 का 6) कीिारा 2 औ रअनुसूची 1 द्व ारादादराऔरनागरहवेिीपरऔरपांधिचेरी(धवधिधवस्ता रर्)
-अधिधनयम, 1968 (1968 का 26) द्व ारापांधिचेरीपरधवस्ता रककयागया।
-2 भागिराज्य (धवधि)अधिधनयम, 1951 (1951 का 3) कीिारा 3 औरअनुसूचीद्वारा “ भागिराज्यों केधसवाय ” केस्था नपरप्र धतस्था धपत।
-* 2019 के अधिधियम सं. 34 की िारा 95 और पांचवीं अिुसूची द्व ारा ( 31 - 10 - 2019 से) “ जम्मू - कश्मी रराज्य केधसवाय ” शब्दोंकािोपककयागया।
-3 1982 केअधिधनयमसं ० 55 कीिारा 2 द्व ाराअंत:स्था धपत।
-4 1982 केअधिधनयमसं ० 55 कीिारा 3 द्व ारा “ हस्तां तरर्पत्र ” शब्द कािोपककयागया।
-5 1982 केअधिधनयमसं ० 55 कीिारा 4 द्व ाराकधतपयशब्दों कािोपककयागया।
-6 1982 केअधिधनयमसं ० 55 कीिारा 5 द्व ाराअंत:स्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `मुख्ता रनामा अधिधन यम, 18 82`
+  line `(18 82 काअधिधनयमसंख्यां क 7 ) 1`
+  line `[ 24 फरवरी, 18 82 ]`
+  line `मुख्ता रनामों सेसम्ब धि तधवधिका`
+  line संशोिनकरनेकेधिए
+  line अधिधनयम
+  line `मुख्ता रनामों सेसम्ब धि तधवधिकासंशोिनकरनेकेप्रयोजनकेधिए एतद द्व ारा धनम्न धिधितरूपमेंयहअधिधनयधम त`
+  line `ककया जाताहै: —`
+  line `1. संधिप्त नाम — इसअधिधनयमकासंधिप्त नाममुख्ता रनामाअधिधनयम, 1882 है; स्`
+  line `था नीयधवस्ता र — इसकाधवस्ता र 2 [ * [***] ] सम्पू र् ण भारतपरहै; प्र`
+  line `ारंभ — औरयह 1882 कीमईकेप्रथमकदनकोप्रवृत्तहोगा।`
+  line `3 [ 1 क. पररभाषा — इसअधिधनयममें, “ मुख्ता रनामा ” केअत गणतऐसीधिितभीहैजोककसीधवधनर्दणष्ट व् य धत कोउस व्`
+  line `य धत कीओरसेऔरउसकेनामसे, जोउसकाधनष्पा दनकरताहै, कायणकरनेकेधिएसशत करतीहै। ]`
+  line `2. मुख्ता रनामेकेअिीनधनष्पा दन — ककसीमुख्ता रनामे काआदाता, यकदवहठीकसमझताहैतो, मुख्ता रनामे केदाताके प्र`
+  line `ाधिकारसेकोई 4 *** धिितयाबातअपनेनामऔरहस्ता िर सेऔरअपनीमुद्रासे, जहांमुद्रािगानाअपेधित है, करसकताहैया`
+  line `धनष्पा कदतकरसकताहै; औरइसप्रकारधनष्पा कदतऔरकृतप्रत्ये क 4 *** धिितऔरबातधवधिमेंइसप्रकारप्रभावशीिहो गीमानो`
+  line `वहमुख्ता रनामेकेआदाताद्वाराउसकेदाताकेनाममेंऔरहस्ता िरऔरमुद्रासेकृतयाधनष्पा कदत है।`
+  line `यहिाराउनसभीमुख्ता रनामोंकोिागूहोतीहैजोइसअधिधनयमकेप्रवृत्तहोनेकेपूवणयापश्चा तधनष्पा कदतधिितों द्व`
+  line ारासृधजतककएगएहैं।
+  line `3. मृ त् यु आकदकीसूचनाकेधबनामुख्ता रनामेकेअिीनअटनीद्वाराककएगएसंदायोंकामाय होना — मुख्ता रनामेके`
+  line `अनुसरर्में सद भावपू वणक संदाययाकायणकरनेवािाकोईव्य धत उससंदाययाकायणकीबाबतइसकारर् दायीनहींहोगाककउस`
+  line `संदाययाकायणकेपहिे, मुख्ता रनामेकादातामरगयाहैया 5 *** धवकृत धचत्त 5 *** याशोििमहोगयाहैयाउसनेमुख्ता रनामा प्र`
+  line `धतसंहृतकरधियाहै, यकदमृत्यु 5 *** धचत्तधवकृधत, 5 *** शोििमतायाप्रधतसंहरर्कातथ्य संदाययाकायणकेसमयउसेकरनेवािे व्`
+  line `य धत कोज्ञातनहींथा।`
+  line `ककतु यहिाराइसप्रकारसंदत्तककसीिनमेंधहतबद्धककसीव्य धत केऐसेिनपानेवािेकेधवरुद्धककसीअधिकारको प्र`
+  line `भाधवतनहींकरेगी, औरउसव्य धत कोऐसेपानेवािेकेधवरुद्धवैसाहीउपचारप्राप्त होगाजैसाककउसेसंदायकरनेवािेके`
+  line `धवरुद्धप्राप्त होता, यकद उसकेद्वारासंदायनहींककयाजाता।`
+  line `यहिाराकेविउहीं संदायोंऔरकायोंकोिागूहोतीहैजोइसअधिधनयमकेप्रवृत्तहोनेकेपश्चा तककएगएहैं।`
+  line `4. मुख्ता रनामासृधजतकरनेवािीमूिधिितोंकाजमाककयाजाना — (क) मुख्ता रनामा सृधजतकरनेवािीधिित, उसका`
+  line `धनष्पा दनशपथपत्रद्वारा, कानूनीघोषर्ाद्वारायाअय पयाणप्त साक्ष्य द्व ारासत्या धपतकरके, ऐसेशपथपत्रयाघोषर्ासधहत, यकद`
+  line `कोईहो, उसउच्च या यािय 6 [ याधजिाया यािय ] मेंजमाकीजासकतीहैधजसकीअधिकाररताकीस्था नीयसीमाओंकेअद रवह`
+  line धिितहो।
+  line `(ि) इसप्रकारजमाकीगईधिितोंकीएकपृथक फाइिरिीजाएगी; औरकोईभीव्य धत उसफाइिकीजांचकरसकता`
+  line `है, औरइसप्रकारजमाकीगईप्रत्ये कधिितकाधनरीिर्करसकताहै; औरअनुरोिककएजा नेपरउसेउसकीएकप्रमाधर्तप्रधतदी`
+  line जाएगी।
+  line `1 दादराऔरनागरहवेिी(धवधि)धवधनयम, 1963 (1963 का 6) कीिारा 2 औ रअनुसूची 1 द्व ारादादराऔरनागरहवेिीपरऔरपांधिचेरी(धवधिधवस्ता रर्)`
+  line `अधिधनयम, 1968 (1968 का 26) द्व ारापांधिचेरीपरधवस्ता रककयागया।`
+  line `2 भागिराज्य (धवधि)अधिधनयम, 1951 (1951 का 3) कीिारा 3 औरअनुसूचीद्वारा “ भागिराज्यों केधसवाय ” केस्था नपरप्र धतस्था धपत।`
+  line `* 2019 के अधिधियम सं. 34 की िारा 95 और पांचवीं अिुसूची द्व ारा ( 31 - 10 - 2019 से) “ जम्मू - कश्मी रराज्य केधसवाय ” शब्दोंकािोपककयागया।`
+  line `3 1982 केअधिधनयमसं ० 55 कीिारा 2 द्व ाराअंत:स्था धपत।`
+  line `4 1982 केअधिधनयमसं ० 55 कीिारा 3 द्व ारा “ हस्तां तरर्पत्र ” शब्द कािोपककयागया।`
+  line `5 1982 केअधिधनयमसं ० 55 कीिारा 4 द्व ाराकधतपयशब्दों कािोपककयागया।`
+  line `6 1982 केअधिधनयमसं ० 55 कीिारा 5 द्व ाराअंत:स्था धपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-(ग) इसप्रकारजमाकीगईककसीधिितकीप्रधतकायाणियमेंप्रस्तु तकीजासकतीहैऔरउसेप्रमाधर्तप्रधतकेरूपमें स्
-टा धम्प त याधचधननत ककया जासकताहैऔरइसप्रकारस्टा धम्प तयाधचधननत करकदएजानेपरवहप्रमाधर्त प्र धतबनजाएगीऔर
-होगी।
-(घ) इसप्रकारजमाकी गईककसीधिितकीप्रमाधर्तप्रधत, धबनाअधतररत सबूतके, धिित कीअत वणस्तु काऔरउच्च
-या यािय 1 [ याधजिाया यािय ] मेंउसकेजमाककएजानेकापयाणप्त साक्ष्य होगी।
-( ङ ) उच्च या यािय, समय - समयपर, इसिाराकेप्रयोजनोंकेधिए, औररा ज् य सरकारकीस हमधतसे, िण्ि (क), (ि)और
-(ग)केअिीनिीजानेवािीफीसधवधहतकरनेकेधिएधनयमबनासकताहै।
-2 * * * * *
-(छ) यहिारामुख्ता रनामेसृधजतकरनेवािीधिितोंकोिागूहोती है, चाहेवेइसअधिधनयमके प्र वृत्तहोनेके पूवण
-धनष्पा कदतकीगईहोंयाचाहे उसके पश्चा त।
-5. धववाधहतस्त्री कामुख्ता रनामा — 3 [ ककसीधववाधहतस्त्री को, जोवयस्क है ] इसअधिधनयमकेआिारपर, ककसी
-धनवणसीयतीधिितद्वाराअपनीओरसेकोई धनवणसीयतीधिितधनष्पा कदतकरनेकेयाकोईअय करनेकेप्रयोजनकेधिएजोवह स्
-व त: धनष्पा कदतकरसकती होयाकरसकतीहो, अपनी ओ रसेउसीप्रकारएकअटनी धनयुत करनेकीशधत होगी 3 [ मानोवह
-अधववाधहतहै ] औरमुख्ता रनामेकोसृधजतकरनेवािीधिितोंकेसम्ब ि मेंइस अधिधनयमके उपबि उसेिागूहोंगे।
-यहिाराकेविउहीं धिितोंकोिागूहोतीहैजोइसअधिधन यमकेप्रवृत्त होनेकेपश्चा त धनष्पा कदतककएगएहैं।
-6. [1886 केअधिधनयमसंख्यां क 28 कीिारा 39 धनरधसत। ] संशोिनअधिधनयम, 1891 (1891 का 12) कीिारा 2 तथा
-अनुसूचीद्वाराधनरधसत।
-______
-1 1982 केअधिधनयमसं ० 55 कीिारा 5 द्व ाराअंत:स्था धपत।
-2 िोअरबमाण कोटण स एट, 190 0 केअधिधनयमसं ० 6 कीिारा 48 औरअनुसूची 2 द्व ारािण्ि (च)धनरधसत।
-3 1982 केअधिधनयमसं ० 55 कीिारा 6 द्व ारा (22 - 10 - 1982 से ) कधतपयशब्दों केस्था नपरप्रधतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `(ग) इसप्रकारजमाकीगईककसीधिितकीप्रधतकायाणियमेंप्रस्तु तकीजासकतीहैऔरउसेप्रमाधर्तप्रधतकेरूपमें स्`
+  line `टा धम्प त याधचधननत ककया जासकताहैऔरइसप्रकारस्टा धम्प तयाधचधननत करकदएजानेपरवहप्रमाधर्त प्र धतबनजाएगीऔर`
+  line होगी।
+  line `(घ) इसप्रकारजमाकी गईककसीधिितकीप्रमाधर्तप्रधत, धबनाअधतररत सबूतके, धिित कीअत वणस्तु काऔरउच्च`
+  line `या यािय 1 [ याधजिाया यािय ] मेंउसकेजमाककएजानेकापयाणप्त साक्ष्य होगी।`
+  line `( ङ ) उच्च या यािय, समय - समयपर, इसिाराकेप्रयोजनोंकेधिए, औररा ज् य सरकारकीस हमधतसे, िण्ि (क), (ि)और`
+  line `(ग)केअिीनिीजानेवािीफीसधवधहतकरनेकेधिएधनयमबनासकताहै।`
+  line `2 * * * * *`
+  line `(छ) यहिारामुख्ता रनामेसृधजतकरनेवािीधिितोंकोिागूहोती है, चाहेवेइसअधिधनयमके प्र वृत्तहोनेके पूवण`
+  line `धनष्पा कदतकीगईहोंयाचाहे उसके पश्चा त।`
+  line `5. धववाधहतस्त्री कामुख्ता रनामा — 3 [ ककसीधववाधहतस्त्री को, जोवयस्क है ] इसअधिधनयमकेआिारपर, ककसी`
+  line `धनवणसीयतीधिितद्वाराअपनीओरसेकोई धनवणसीयतीधिितधनष्पा कदतकरनेकेयाकोईअय करनेकेप्रयोजनकेधिएजोवह स्`
+  line `व त: धनष्पा कदतकरसकती होयाकरसकतीहो, अपनी ओ रसेउसीप्रकारएकअटनी धनयुत करनेकीशधत होगी 3 [ मानोवह`
+  line `अधववाधहतहै ] औरमुख्ता रनामेकोसृधजतकरनेवािीधिितोंकेसम्ब ि मेंइस अधिधनयमके उपबि उसेिागूहोंगे।`
+  line `यहिाराकेविउहीं धिितोंकोिागूहोतीहैजोइसअधिधन यमकेप्रवृत्त होनेकेपश्चा त धनष्पा कदतककएगएहैं।`
+  line `6. [1886 केअधिधनयमसंख्यां क 28 कीिारा 39 धनरधसत। ] संशोिनअधिधनयम, 1891 (1891 का 12) कीिारा 2 तथा`
+  line अनुसूचीद्वाराधनरधसत।
+  line ______
+  line `1 1982 केअधिधनयमसं ० 55 कीिारा 5 द्व ाराअंत:स्था धपत।`
+  line `2 िोअरबमाण कोटण स एट, 190 0 केअधिधनयमसं ० 6 कीिारा 48 औरअनुसूची 2 द्व ारािण्ि (च)धनरधसत।`
+  line `3 1982 केअधिधनयमसं ० 55 कीिारा 6 द्व ारा (22 - 10 - 1982 से ) कधतपयशब्दों केस्था नपरप्रधतस्था धपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line

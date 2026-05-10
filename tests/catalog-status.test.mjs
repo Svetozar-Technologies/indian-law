@@ -10,7 +10,7 @@ import {
 test("labels enabled language records as Markdown", () => {
   const record = { enabled: true, parts: [{ file: "part-001.md" }], sources: [] };
 
-  assert.equal(textStatusForLanguage(record, "en"), "EN Markdown");
+  assert.equal(textStatusForLanguage(record, "en"), "Markdown");
   assert.equal(statusClassForLanguage(record), "ready");
 });
 
@@ -38,7 +38,7 @@ test("labels languages with no known source as unavailable", () => {
   assert.equal(statusClassForLanguage(record), "disabled");
 });
 
-test("falls back to a known source language when requested text is not ready", () => {
+test("does not fall back to another language when requested text is not ready", () => {
   const law = {
     languages: {
       hi: { enabled: false, status: "unavailable", sources: [] },
@@ -51,7 +51,7 @@ test("falls back to a known source language when requested text is not ready", (
   };
 
   assert.deepEqual(sourceStatusForLaw(law, "hi", "en"), {
-    code: "en",
-    record: law.languages.en
+    code: "hi",
+    record: law.languages.hi
   });
 });

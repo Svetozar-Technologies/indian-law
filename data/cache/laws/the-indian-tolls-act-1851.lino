@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:30:24.933Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2274`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 9)
-  (str totalSections) (int 9)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:30:24.933Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2274`
+  completeFetch true
+  maxSections null
+  sectionCount 9
+  totalSections 9
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-indian-tolls-act-1851)
-  (str handle) (str 2274)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Indian Tolls Act, 1851`)
-  (str actNumber) (str 08)
-  (str enactmentDate) (str 1851-06-04)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2274`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `भारतीय पथकर अधिनियम,1851`)
-  (str actYear) (str 1851)
-  (str ministry) (str `Ministry of Road Transport and Highways`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act for enabling Government to levy Tolls on Public Roads and Bridges.`)
-  (str enforcementDate) (str 04-06-1851)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T20:25:00.694Z`)
-  (str translations) obj_root_law_translations
+  slug the-indian-tolls-act-1851
+  handle (2274)
+  collectionHandle 123456789/1362
+  title `The Indian Tolls Act, 1851`
+  actNumber (08)
+  enactmentDate 1851-06-04
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2274`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `भारतीय पथकर अधिनियम,1851`
+  actYear (1851)
+  ministry `Ministry of Road Transport and Highways`
+  department undefined
+  longTitle `An Act for enabling Government to levy Tolls on Public Roads and Bridges.`
+  enforcementDate 04-06-1851
+  notification undefined
+  fetchedAt `2026-05-09T20:25:00.694Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_indian_tolls_act_1851
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2274`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2274`
 obj_root_law_sources_en_the_indian_tolls_act_1851:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2274/1/a1851-8.pdf`)
-  (str title) (str `The Indian Tolls Act, 1851`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2274/1/a1851-8.pdf`
+  title `The Indian Tolls Act, 1851`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1851
 obj_root_law_sources_hi_1851:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2274/2/H1851-08.pdf`)
-  (str title) (str `भारतीय पथकर अधिनियम,1851`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2274/2/H1851-08.pdf`
+  title `भारतीय पथकर अधिनियम,1851`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_1_a
   obj_root_law_sections_2
@@ -71,317 +61,362 @@ obj_root_law_sections:
   obj_root_law_sections_7
   obj_root_law_sections_8
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 47135)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str [Repealed.].)
-  (str content) (str `[Repeal of Acts].--Rep. by the Repealing Act, 1870 (14 of 1870), s. 1 and the Schedule, Part II.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47135&sectionno=1&orderno=1&orgactid=AC_CEN_30_0_00008_185108_1523264886492)
+  sectionId (47135)
+  sectionNo (1)
+  orderNo 1
+  title [Repealed.].
+  content `[Repeal of Acts].--Rep. by the Repealing Act, 1870 (14 of 1870), s. 1 and the Schedule, Part II.`
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47135&sectionno=1&orderno=1&orgactid=AC_CEN_30_0_00008_185108_1523264886492
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_1_a:
-  object
-  (str sectionId) (str 47136)
-  (str sectionNo) (str 1A)
-  (str orderNo) (int 2)
-  (str title) (str Extent.)
-  (str content) (str `^1[1A. Extent.--This Act extends to the territories administered on the fourth of July, eighteen
-hundred and fifty-one, by the Governor of the Presidency of Fort William in Bengal, the LieutenantGovernor of North-Western Provinces of Bengal and the Governor of the Presidency of Fort St. George in
-Council.]`)
-  (str footnotes) (str `1. Ins. by the A.O. 1937.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47136&sectionno=1A&orderno=2&orgactid=AC_CEN_30_0_00008_185108_1523264886492)
+  sectionId (47136)
+  sectionNo 1A
+  orderNo 2
+  title Extent.
+  content obj_root_law_sections_1_a_content
+  footnotes `1. Ins. by the A.O. 1937.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47136&sectionno=1A&orderno=2&orgactid=AC_CEN_30_0_00008_185108_1523264886492
+obj_root_law_sections_1_a_content:
+  string
+  line `^1[1A. Extent.--This Act extends to the territories administered on the fourth of July, eighteen`
+  line `hundred and fifty-one, by the Governor of the Presidency of Fort William in Bengal, the LieutenantGovernor of North-Western Provinces of Bengal and the Governor of the Presidency of Fort St. George in`
+  line Council.]
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 47137)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 3)
-  (str title) (str `Power to cause levy of tolls on roads and bridges within certain rates, and to appoint collectors.`)
-  (str content) (str `^1[The State Government] may cause such rates of toll,
-^2*** as
-^3[it thinks fit], to be levied upon any road or bridge which has been, or shall hereafter be, made or
-repaired ^4[at the expense of the Central or any State Government]; and may place the collection of such
-tolls under the management of such persons as may appear to ^5[it] proper: and all persons employed in the management and collection of such tolls shall be liable to the same responsibilities as would belong to
-them if employed in the collection of the land revenue.
-
-STATE AMENDMENT
-
-Orissa
-
-Amendment of section 2.--In section 2 of the Indian Tolls Act, 1851(8 of 1851) in its application to
-the State of Orissa, for the words "at the expense of the Central or any State Government", the words "at
-the expense of the Central or any State Government or any Corporation, Statutory Body, Company, Firm
-or person authorized by the State Government for this purpose" shall be substituted.
-
-[Vide the Orissa Act 7 of 1999, s. 2]`)
-  (str footnotes) (str `1. Subs., ibid., for "The Governor of the Presidency of Fort William in Bengal, the Lieutenant-Governor of the North-Western
-Provinces of Bengal and the Governor of the Presidency of Fort St. George in Council". The words "and the Governor of the
-Presidency of Bombay in Council" had been rep. by Act 8 of 1888, s. 5.
-
-The authority of the Provincial Government in any Province of India not specified in s. 1A to which this Act and the Indian
-Tolls Act, 1864 (15 of 1864), may be or have been extended, is to be the same as if it had been originally specified in s. 2. See
-the Indian Tolls Act, 1888 (8 of 1888), s. 2(1).
-
-2. The words "not exceeding the rates mentioned in the Schedule annexed to this Act" omitted by Act 38 of 1920, s. 2 and
-the First Schedule.
-
-3. Subs. by the A.O. 1937, for "they respectively think fit".
-
-4. Subs., ibid., for "at the expense of the Govt.".
-
-5. Subs., ibid., for "them".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47137&sectionno=2&orderno=3&orgactid=AC_CEN_30_0_00008_185108_1523264886492)
+  sectionId (47137)
+  sectionNo (2)
+  orderNo 3
+  title `Power to cause levy of tolls on roads and bridges within certain rates, and to appoint collectors.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47137&sectionno=2&orderno=3&orgactid=AC_CEN_30_0_00008_185108_1523264886492
+obj_root_law_sections_2_content:
+  string
+  line `^1[The State Government] may cause such rates of toll,`
+  line `^2*** as`
+  line `^3[it thinks fit], to be levied upon any road or bridge which has been, or shall hereafter be, made or`
+  line `repaired ^4[at the expense of the Central or any State Government]; and may place the collection of such`
+  line `tolls under the management of such persons as may appear to ^5[it] proper: and all persons employed in the management and collection of such tolls shall be liable to the same responsibilities as would belong to`
+  line `them if employed in the collection of the land revenue.`
+  line
+  line `STATE AMENDMENT`
+  line
+  line Orissa
+  line
+  line `Amendment of section 2.--In section 2 of the Indian Tolls Act, 1851(8 of 1851) in its application to`
+  line `the State of Orissa, for the words "at the expense of the Central or any State Government", the words "at`
+  line `the expense of the Central or any State Government or any Corporation, Statutory Body, Company, Firm`
+  line `or person authorized by the State Government for this purpose" shall be substituted.`
+  line
+  line `[Vide the Orissa Act 7 of 1999, s. 2]`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. Subs., ibid., for "The Governor of the Presidency of Fort William in Bengal, the Lieutenant-Governor of the North-Western`
+  line `Provinces of Bengal and the Governor of the Presidency of Fort St. George in Council". The words "and the Governor of the`
+  line `Presidency of Bombay in Council" had been rep. by Act 8 of 1888, s. 5.`
+  line
+  line `The authority of the Provincial Government in any Province of India not specified in s. 1A to which this Act and the Indian`
+  line `Tolls Act, 1864 (15 of 1864), may be or have been extended, is to be the same as if it had been originally specified in s. 2. See`
+  line `the Indian Tolls Act, 1888 (8 of 1888), s. 2(1).`
+  line
+  line `2. The words "not exceeding the rates mentioned in the Schedule annexed to this Act" omitted by Act 38 of 1920, s. 2 and`
+  line `the First Schedule.`
+  line
+  line `3. Subs. by the A.O. 1937, for "they respectively think fit".`
+  line
+  line `4. Subs., ibid., for "at the expense of the Govt.".`
+  line
+  line `5. Subs., ibid., for "them".`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 47138)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 4)
-  (str title) (str `Their powers for recovery of toll.`)
-  (str content) (str `In case of non-payment of any such toll on demand, the
-officers appointed to collect the same may seize any of the carriages or animals on which it is chargeable,
-or any part of their burden of sufficient value to defray the toll; and, if any toll remains undischarged for
-twenty-four hours, with the cost arising from such seizure, the case shall be brought before the officer
-appointed to superintend the collection of the said toll, who may sell the property seized for discharge of
-the toll, and all expenses occasioned by such non-payment, seizure and sale, and cause any balance that
-may remain to be returned, on demand, to the owner of the property; and the said officer, on receipt of the
-property, shall forthwith issue a notice that, at noon of the next day, exclusive of Sunday, or any closed
-holiday, he will sell the property by auction:
-
-Release of seized property on tender of dues.--Provided that, if, at any time before the sale has
-actually begun, the person whose property, has been seized shall tender the amount of all the expenses
-incurred, and of double the toll payable by him, the said officer shall forthwith release the property
-seized.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47138&sectionno=3&orderno=4&orgactid=AC_CEN_30_0_00008_185108_1523264886492)
+  sectionId (47138)
+  sectionNo (3)
+  orderNo 4
+  title `Their powers for recovery of toll.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47138&sectionno=3&orderno=4&orgactid=AC_CEN_30_0_00008_185108_1523264886492
+obj_root_law_sections_3_content:
+  string
+  line `In case of non-payment of any such toll on demand, the`
+  line `officers appointed to collect the same may seize any of the carriages or animals on which it is chargeable,`
+  line `or any part of their burden of sufficient value to defray the toll; and, if any toll remains undischarged for`
+  line `twenty-four hours, with the cost arising from such seizure, the case shall be brought before the officer`
+  line `appointed to superintend the collection of the said toll, who may sell the property seized for discharge of`
+  line `the toll, and all expenses occasioned by such non-payment, seizure and sale, and cause any balance that`
+  line `may remain to be returned, on demand, to the owner of the property; and the said officer, on receipt of the`
+  line `property, shall forthwith issue a notice that, at noon of the next day, exclusive of Sunday, or any closed`
+  line `holiday, he will sell the property by auction:`
+  line
+  line `Release of seized property on tender of dues.--Provided that, if, at any time before the sale has`
+  line `actually begun, the person whose property, has been seized shall tender the amount of all the expenses`
+  line `incurred, and of double the toll payable by him, the said officer shall forthwith release the property`
+  line seized.
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 47139)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 5)
-  (str title) (str `Exemptions from payment of toll.`)
-  (str content) (str `No tolls shall be paid for the passage ^1*** of Police-officers
-on duty, or of any person or property in their custody, but no other exemption from payment of the toll
-levied under this Act shall be allowed.
-
-STATE AMENDMENT
-
-Orissa.--
-
-Amendment of section 4.--In section 4 of the Indian Tolls Act, 1851 (8 of 1851), in its application
-to the State of Orissa, after the words “shall be paid for the passage of” the words “the State Government
-Vehicles on Government duty and” shall be inserted.
-
-[Vide the Orissa Act 13 of 1987, s. 2]`)
-  (str footnotes) (str `1. The words "of troops and military stores and equipages on their march or" rep. by Act 2 of 1901, s. 8 and the Schedule.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47139&sectionno=4&orderno=5&orgactid=AC_CEN_30_0_00008_185108_1523264886492)
+  sectionId (47139)
+  sectionNo (4)
+  orderNo 5
+  title `Exemptions from payment of toll.`
+  content obj_root_law_sections_4_content
+  footnotes `1. The words "of troops and military stores and equipages on their march or" rep. by Act 2 of 1901, s. 8 and the Schedule.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47139&sectionno=4&orderno=5&orgactid=AC_CEN_30_0_00008_185108_1523264886492
+obj_root_law_sections_4_content:
+  string
+  line `No tolls shall be paid for the passage ^1*** of Police-officers`
+  line `on duty, or of any person or property in their custody, but no other exemption from payment of the toll`
+  line `levied under this Act shall be allowed.`
+  line
+  line `STATE AMENDMENT`
+  line
+  line Orissa.--
+  line
+  line `Amendment of section 4.--In section 4 of the Indian Tolls Act, 1851 (8 of 1851), in its application`
+  line `to the State of Orissa, after the words “shall be paid for the passage of” the words “the State Government`
+  line `Vehicles on Government duty and” shall be inserted.`
+  line
+  line `[Vide the Orissa Act 13 of 1987, s. 2]`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 47140)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 6)
-  (str title) (str `Assistance of collectors by Police-officers.`)
-  (str content) (str `All Police-officers shall be bound to assist the tollcollectors, when required, in the execution of this Act; and, for that purpose, shall have the same power
-which they have in the exercise of their common police-duties.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47140&sectionno=5&orderno=6&orgactid=AC_CEN_30_0_00008_185108_1523264886492)
+  sectionId (47140)
+  sectionNo (5)
+  orderNo 6
+  title `Assistance of collectors by Police-officers.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47140&sectionno=5&orderno=6&orgactid=AC_CEN_30_0_00008_185108_1523264886492
+obj_root_law_sections_5_content:
+  string
+  line `All Police-officers shall be bound to assist the tollcollectors, when required, in the execution of this Act; and, for that purpose, shall have the same power`
+  line `which they have in the exercise of their common police-duties.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 47141)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 7)
-  (str title) (str `Penalty for offences under Act. Compensation to person aggrieved. Saving of his right to sue.`)
-  (str content) (str `Every person, other than the persons appointed to collect the tolls under this Act, who shall levy or
-demand any toll on any public road or bridge, or for passing through any bazar situated thereon, and also
-every person who shall unlawfully and extortionately demand, or take any other or higher toll than the
-lawful toll, or under colour of this Act seize or sell any property knowing such seizure or sale to be
-unlawful, or in any manner unlawfully extort money or any valuable thing from any person under colour
-of this Act, shall be liable on conviction before a Magistrate to imprisonment for any term not exceeding
-six calendar months, or to fine not exceeding two hundred rupees, any part of which fine may be awarded
-by the Magistrate to the person aggrieved; but this remedy shall not be deemed to bar or affect his right to
-have redress by suit in the Civil Court ^1***.`)
-  (str footnotes) (str `1. The words "of the Zillah" rep. by Act 12 of 1876, s. 1 and the Schedule, Part. I.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47141&sectionno=6&orderno=7&orgactid=AC_CEN_30_0_00008_185108_1523264886492)
+  sectionId (47141)
+  sectionNo (6)
+  orderNo 7
+  title `Penalty for offences under Act. Compensation to person aggrieved. Saving of his right to sue.`
+  content obj_root_law_sections_6_content
+  footnotes `1. The words "of the Zillah" rep. by Act 12 of 1876, s. 1 and the Schedule, Part. I.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47141&sectionno=6&orderno=7&orgactid=AC_CEN_30_0_00008_185108_1523264886492
+obj_root_law_sections_6_content:
+  string
+  line `Every person, other than the persons appointed to collect the tolls under this Act, who shall levy or`
+  line `demand any toll on any public road or bridge, or for passing through any bazar situated thereon, and also`
+  line `every person who shall unlawfully and extortionately demand, or take any other or higher toll than the`
+  line `lawful toll, or under colour of this Act seize or sell any property knowing such seizure or sale to be`
+  line `unlawful, or in any manner unlawfully extort money or any valuable thing from any person under colour`
+  line `of this Act, shall be liable on conviction before a Magistrate to imprisonment for any term not exceeding`
+  line `six calendar months, or to fine not exceeding two hundred rupees, any part of which fine may be awarded`
+  line `by the Magistrate to the person aggrieved; but this remedy shall not be deemed to bar or affect his right to`
+  line `have redress by suit in the Civil Court ^1***.`
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 47142)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 8)
-  (str title) (str `Exhibition of table of tolls, and statement of penalties.`)
-  (str content) (str `A table of the tolls authorized to be
-taken at any toll-gate or station shall be put up in a conspicuous place near such gate or station legibly
-written or printed in English words and figures, and also in those of the vernacular language of the
-district, to which shall be annexed, written or printed in like manner, a statement of the penalties for
-refusing to pay the tolls and for taking any lawful toll.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47142&sectionno=7&orderno=8&orgactid=AC_CEN_30_0_00008_185108_1523264886492)
+  sectionId (47142)
+  sectionNo (7)
+  orderNo 8
+  title `Exhibition of table of tolls, and statement of penalties.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47142&sectionno=7&orderno=8&orgactid=AC_CEN_30_0_00008_185108_1523264886492
+obj_root_law_sections_7_content:
+  string
+  line `A table of the tolls authorized to be`
+  line `taken at any toll-gate or station shall be put up in a conspicuous place near such gate or station legibly`
+  line `written or printed in English words and figures, and also in those of the vernacular language of the`
+  line `district, to which shall be annexed, written or printed in like manner, a statement of the penalties for`
+  line `refusing to pay the tolls and for taking any lawful toll.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 47143)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 9)
-  (str title) (str `Application of proceeds of tolls.`)
-  (str content) (str `The tolls levied under this Act shall be deemed public revenue
-^1***.`)
-  (str footnotes) (str `1. The words "but the net proceeds thereof shall be applied wholly to the construction, repair and maintenance of roads and
-bridges within the presidency in which they are levied" omitted by the A.O. 1937.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47143&sectionno=8&orderno=9&orgactid=AC_CEN_30_0_00008_185108_1523264886492)
+  sectionId (47143)
+  sectionNo (8)
+  orderNo 9
+  title `Application of proceeds of tolls.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_30_0_00008_185108_1523264886492&sectionId=47143&sectionno=8&orderno=9&orgactid=AC_CEN_30_0_00008_185108_1523264886492
+obj_root_law_sections_8_content:
+  string
+  line `The tolls levied under this Act shall be deemed public revenue`
+  line ^1***.
+obj_root_law_sections_8_footnotes:
+  string
+  line `1. The words "but the net proceeds thereof shall be applied wholly to the construction, repair and maintenance of roads and`
+  line `bridges within the presidency in which they are levied" omitted by the A.O. 1937.`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `भारतीय पथकर अधिनियम,1851`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2274/2/H1851-08.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:30:23.831Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `भारतीय पथकर अधिनियम,1851`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2274/2/H1851-08.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:30:23.831Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `भारतीय पथकर अधिधियम, 1851
-_________
-िाराओं का क्र म
-_________
-िाराएं
-उद्देधिका।
-1. [ धिरसि ]।
-1 क. धिस्ता र।
-2. सड़कों तथा पुलों पर, कधतपय दरों पर, पथकर का उद ग्र हण करािे तथा कलक्ट र धियुक्त करिे की िधक्त। कलक्ट रों के
-उत्तरदाधयत्ि।
-3. पथकर की िसूली की उिकी िधक्त यां।
-अधभगृहीत सम्प धत्त का, िोध्य रकम दे देिे पर, छोड़ा जािा।
-4. पथकर के संदाय से छूट।
-5. पुधलस अधिकाररयों द्व ारा पथकर संग्राहकों की सहायता।
-6. अधिधियम के अिीि अपरािों के धलए िाधस्त। व् य धथत व् य धक् त को प्र धतकर। उसके िाद लािे के अधि कार की व् या िृधत्त।
-7. पथकर - सारणी तथा िाधस्त यों के धििरण का प्र दिशि।
-8. पथकर के आगमों का उपयोग।
-अिुसूची।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `भारतीय पथकर अधिधियम, 1851`
+  line _________
+  line `िाराओं का क्र म`
+  line _________
+  line िाराएं
+  line उद्देधिका।
+  line `1. [ धिरसि ]।`
+  line `1 क. धिस्ता र।`
+  line `2. सड़कों तथा पुलों पर, कधतपय दरों पर, पथकर का उद ग्र हण करािे तथा कलक्ट र धियुक्त करिे की िधक्त। कलक्ट रों के`
+  line उत्तरदाधयत्ि।
+  line `3. पथकर की िसूली की उिकी िधक्त यां।`
+  line `अधभगृहीत सम्प धत्त का, िोध्य रकम दे देिे पर, छोड़ा जािा।`
+  line `4. पथकर के संदाय से छूट।`
+  line `5. पुधलस अधिकाररयों द्व ारा पथकर संग्राहकों की सहायता।`
+  line `6. अधिधियम के अिीि अपरािों के धलए िाधस्त। व् य धथत व् य धक् त को प्र धतकर। उसके िाद लािे के अधि कार की व् या िृधत्त।`
+  line `7. पथकर - सारणी तथा िाधस्त यों के धििरण का प्र दिशि।`
+  line `8. पथकर के आगमों का उपयोग।`
+  line अिुसूची।
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `भारतीय पथकर अधिधियम, 1851 1
-(1851 का अधिधियम संखयां क 8 )
-[4 जुलाई, 1851]
-सािशजधिक सड़कों तथा पुलों पर पथकर के उ द ग्र हणाथश
-सरकार को समथश बिािे के धलए
-अधिधियम
-उद्देधिका — सड़कों तथा पुलों पर पथकर के उ द ग्र हणाथश सरकार को समथश बिािा समीचीि है; अत: धिम्ि धलधित रू प में यह
-अधिधियधमत ककया जाता है: —
-1. [ अधिधियमों का धिरसि। ] — धिरसि अधिधियम, 1870 (1870 का 14), िारा 1 और अिुसूची, भाग 2 द्व ारा धि रधसत।
-2 [1 क. धिस्ता र — इस अधिधियम का धिस्ता र उि राज्य क्षेत्रों पर है, जो 4 जुलाई, 1851 को बंगाल में फोटश धिधलयम प्रे धसडेन्सी
-के सपररषद गििशर, बंगाल के उत्तर - प धच मी प्र ान्तों के सपररषद लेधटटिेन्ट गििशर तथा फोटश सेन्ट जाजश प्रे धसडेन्सी के स पररषद गििशर द्व
-ारा प्र िाधसत थे। ]
-2. सड़कों तथा पुलों पर, कधतपय दरों पर, पथकर का उद ग्र हण करािे तथा कलक्ट र धियुक्त करिे की िधक्त। कलक्ट रों के
-उत्तरदाधयत्ि — 3 [ राज्य सरकार ] ककसी ऐसी सड़क या पुल पर, जो 4 [ केन्री य सरकार या ककसी राज्य सरकार के िचे पर ] बिाया गया है
-या मरम्म त ककया गया है, या इसके प चा त बिाया जाए या मरम्म त ककया जाए, 5 *** पथकर ऐसी दरों से उद गृहीत करिा सकेगी
-1 संधक्षप्त िाम, भारतीय संधक्षप्त िाम अधिधियम, 1897 (1897 का अधिधियम सं ० 14) द्व ारा कदया गया।
-यह अधिधियम भारतीय पथकर अधिधियम, 1864 (1864 का अधिधियम सं ० 15) और भारतीय पथकर अधिधियम, 1888 (1888 का अधिधियम सं ० 8) के
-साथ पढा जािा चाधहए।
-यह अधिधियम असम में 1931 के असम अधिधियम सं ० 3 तथा 1932 के अधिधियम सं ० 1 द्व ारा; मध्य प्र ान्त में 1932 के म ० प्र ा ० अधिधियम सं ० 8 द्व ारा;
-मरास में 1938 के मरास अधिधियम सं ० 6, 1942 के अधिधियम सं ० 14 तथा 1950 के अधिधियम सं ० 26 द्व ारा संिोधित ककया गया है।
-इस अधिधियम के बारे में यह समझा जाता है कक िह पंजाब के लेधटटिेंट गििशर द्व ारा 5 धसतम्ब र, 1888 को प्र िाधसत समस्त राज्य क्षेत्र में प्र िृत्त है और
-पंजाब के भाग के रू प में तत्स मय प्र िाधसत राज्य क्षेत्रों में 21 अगस्त, 1857 से प्र िृत्त है।
-1864 के अधिधियम सं ० 15 की िारा 3 के अिीि इसका अजमेर और मेरिाड़ा पर धिस् ता र ककया गया है; देधिए, गजट आफ इंधडया, 1889, भाग 2, पृष्ठ
-562।
-यह मध्य प्र ांत में तथा संभलपुर धजले में मध्य प्र ांत सी ० पी ० लाज ऐक्ट, 1875 (1875 का अधिधियम सं ० 20) की िारा 3 द्व ारा; संथाल परगिा में सं थाल
-परगिाज सेरटलमेंट रेगुलेिि, 1872 (1872 का रेगुलेिि सं ० 3) की िारा 3 द्व ारा प्र िृत्त घोधषत ककया गया है।
-यह िेड्यूल्ड धडधस्ि क् ् स ऐक् ट, 1874 (1874 का अधिधियम सं ० 14) की िारा 3( क ) के अिीि अधिसूचिा द्व ारा धिम्ि धलधित अिुसूधचत धजलों में प्र िृत्त
-घोधषत कक या गया है; अथाशत: —
-हजारीबाग, लोहारडगा ( अब रांची धजला; देधिए ) कलकत्ता गजट, 1899, भाग 1,
-पृष्ठ 44) और मािभूम धजले, तथा ससंहभूम धजले में परगिा डालभूम और कोल्हा ि देधिए गजट आफ इंधडया 1881, भाग 1, पृष्ठ 504;
-लाहौर धजला देधिए गजट आफ इंधडया 1886, भाग 1, पृष्ठ 301।
-इसका धिस् ता र अंधतम कधथत अधिधियम की िारा 5 के अिीि अधिसूचिा द्व ारा कोडुगू के अिुसूधचत धजले पर, देधि ए गजट आफ इंधडया, 1878, भाग 1,
-पृष्ठ 45, गंजम तथा धिजगापटम में अिुसूधचत धजलों पर, देधिए िही, 1889, भाग 1, पृष्ठ 720; पूिी गोदा िरी अधभकरण, यल्ला िरम तालुक, दुचरती तथा गुधडतेरु
-मुत्ता पर, देधिए अधिसूचिा सं ० 110, तारीि 22 अप्रैल, 1927, फोटश सेंट जाजश गजट, 1927, भाग 1, पृष्ठ 661 और दार्जशसलंग धजले पर, देधिए कलकत्ता गजट 1934,
-भाग 1, पृष्ठ 179, ककया गया है।
-इसे मुम्ब ई प्रे धस डेंसी में, धजसे यह मूलत: लागू होता था, बाम्बे टोल्स ऐक् ट, 1875 (1875 का मुम्ब ई अधिधियम सं ० 3) की िारा 1 द्व ारा धिरधसत ककया गया
-है और असम में, 1931 के असम अधिधियम सं ० 3 तथा 1932 के असम अधिधियम सं ० 1 द्व ारा, म ० प्र ां ० में 1932 के म ० प्र ां ० अधिधियम सं ० 8 द्व ारा; और मरास में,
-1938 के मरास अधिधियम सं ० 6 और 1942 के मरास अधिधियम सं ० 14 द्व ारा संिोधित भी ककया गया है।
-यह अधिधियम 1 8 58 के अधिधियम सं ० 29 द्व ारा मैसूर में धिरधसत।
-1958 के मध्य प्र देि अधिधियम सं ० 23 द्व ारा सम्पू णश मध्य प्र देि में और 19 68 के अधिधियम सं ० 26 द्व ारा संघ राज्य क्षेत्र पाधड चेरी में इस अधिधियम का
-धिस् ता र ककया गया।
-1957 के उत्तर प्र देि अधिधियम सं ० 5 द्व ारा उत्तर प्र देि को; 1975 के आंध्र प्र देि अधिधियम सं ० 17 द्व ारा आन् ध्र प्र देि को और 1978 के पधच मी बंगाल
-अधिधियम सं ० 18 द्व ारा पधच मी बंगाल को यह अधिधियम लागू ककए जािे के धलए संिोधित ककया गया।
-2 भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा अन्त:स्था धपत।
-3 भारत िासि ( भारतीय धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपांतररत भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ बंगाल में फोटश
-धिधलयम प्रे धसडेन्सी के सपररषद गििशर ” बंगाल के उत्तर पधच मी प्र ान्तों के “ सपररषद लेधटटिेन्ट गिशिर तथा फोटश सेन्ट जाजश प्रे धसडेन्सी के सपररषद गििशर ” के स् था ि
-पर प्र धतस्था धपत। “ और मुंबई प्रे धसडेन्सी के सपररषद गिशिर ” िब्द 1888 के अधिधियम सं ० 8 की िारा 5 द्व ारा धिरधसत ककए गए।
-भारत के ककसी प्र ान्त में, जो िारा 1 क में, धिधिर्दशष्ट िहीं है और धजस पर इस अधिधियम तथा भारतीय पथकर अधिधियम, 1864 (1864 का अधिधियम
-सं ० 15) का धिस् ता र ककया जाए या ककया गया है, प्र ान्ती य सरकार का प्र ाधिकार िही होगा मािो िह प्र ारम्भ से ही िारा 2 में धिधिर्दशष्ट कक या गया था। देधिए
-भारतीय पथकर अधिधियम, 1888 (1888 का अधिधियम सं ० 8), िारा 2(1)।
-4 भारत िासि ( भारतीय धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपान्त ररत भारत िा सि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ सरकार के िचे
-पर ” के स् था ि पर प्र धतस्था धपत।
-5 1920 के अधिधियम सं ० 38 की िारा 2 तथा अिुसूची 1 द्व ारा “ इस अधिधियम से उपाबद्ध अिुसूची में उधल्ल धित दरों से अिधिक ” िब्दों का लोप ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line `भारतीय पथकर अधिधियम, 1851 1`
+  line `(1851 का अधिधियम संखयां क 8 )`
+  line `[4 जुलाई, 1851]`
+  line `सािशजधिक सड़कों तथा पुलों पर पथकर के उ द ग्र हणाथश`
+  line `सरकार को समथश बिािे के धलए`
+  line अधिधियम
+  line `उद्देधिका — सड़कों तथा पुलों पर पथकर के उ द ग्र हणाथश सरकार को समथश बिािा समीचीि है; अत: धिम्ि धलधित रू प में यह`
+  line `अधिधियधमत ककया जाता है: —`
+  line `1. [ अधिधियमों का धिरसि। ] — धिरसि अधिधियम, 1870 (1870 का 14), िारा 1 और अिुसूची, भाग 2 द्व ारा धि रधसत।`
+  line `2 [1 क. धिस्ता र — इस अधिधियम का धिस्ता र उि राज्य क्षेत्रों पर है, जो 4 जुलाई, 1851 को बंगाल में फोटश धिधलयम प्रे धसडेन्सी`
+  line `के सपररषद गििशर, बंगाल के उत्तर - प धच मी प्र ान्तों के सपररषद लेधटटिेन्ट गििशर तथा फोटश सेन्ट जाजश प्रे धसडेन्सी के स पररषद गििशर द्व`
+  line `ारा प्र िाधसत थे। ]`
+  line `2. सड़कों तथा पुलों पर, कधतपय दरों पर, पथकर का उद ग्र हण करािे तथा कलक्ट र धियुक्त करिे की िधक्त। कलक्ट रों के`
+  line `उत्तरदाधयत्ि — 3 [ राज्य सरकार ] ककसी ऐसी सड़क या पुल पर, जो 4 [ केन्री य सरकार या ककसी राज्य सरकार के िचे पर ] बिाया गया है`
+  line `या मरम्म त ककया गया है, या इसके प चा त बिाया जाए या मरम्म त ककया जाए, 5 *** पथकर ऐसी दरों से उद गृहीत करिा सकेगी`
+  line `1 संधक्षप्त िाम, भारतीय संधक्षप्त िाम अधिधियम, 1897 (1897 का अधिधियम सं ० 14) द्व ारा कदया गया।`
+  line `यह अधिधियम भारतीय पथकर अधिधियम, 1864 (1864 का अधिधियम सं ० 15) और भारतीय पथकर अधिधियम, 1888 (1888 का अधिधियम सं ० 8) के`
+  line `साथ पढा जािा चाधहए।`
+  line `यह अधिधियम असम में 1931 के असम अधिधियम सं ० 3 तथा 1932 के अधिधियम सं ० 1 द्व ारा; मध्य प्र ान्त में 1932 के म ० प्र ा ० अधिधियम सं ० 8 द्व ारा;`
+  line `मरास में 1938 के मरास अधिधियम सं ० 6, 1942 के अधिधियम सं ० 14 तथा 1950 के अधिधियम सं ० 26 द्व ारा संिोधित ककया गया है।`
+  line `इस अधिधियम के बारे में यह समझा जाता है कक िह पंजाब के लेधटटिेंट गििशर द्व ारा 5 धसतम्ब र, 1888 को प्र िाधसत समस्त राज्य क्षेत्र में प्र िृत्त है और`
+  line `पंजाब के भाग के रू प में तत्स मय प्र िाधसत राज्य क्षेत्रों में 21 अगस्त, 1857 से प्र िृत्त है।`
+  line `1864 के अधिधियम सं ० 15 की िारा 3 के अिीि इसका अजमेर और मेरिाड़ा पर धिस् ता र ककया गया है; देधिए, गजट आफ इंधडया, 1889, भाग 2, पृष्ठ`
+  line 562।
+  line `यह मध्य प्र ांत में तथा संभलपुर धजले में मध्य प्र ांत सी ० पी ० लाज ऐक्ट, 1875 (1875 का अधिधियम सं ० 20) की िारा 3 द्व ारा; संथाल परगिा में सं थाल`
+  line `परगिाज सेरटलमेंट रेगुलेिि, 1872 (1872 का रेगुलेिि सं ० 3) की िारा 3 द्व ारा प्र िृत्त घोधषत ककया गया है।`
+  line `यह िेड्यूल्ड धडधस्ि क् ् स ऐक् ट, 1874 (1874 का अधिधियम सं ० 14) की िारा 3( क ) के अिीि अधिसूचिा द्व ारा धिम्ि धलधित अिुसूधचत धजलों में प्र िृत्त`
+  line `घोधषत कक या गया है; अथाशत: —`
+  line `हजारीबाग, लोहारडगा ( अब रांची धजला; देधिए ) कलकत्ता गजट, 1899, भाग 1,`
+  line `पृष्ठ 44) और मािभूम धजले, तथा ससंहभूम धजले में परगिा डालभूम और कोल्हा ि देधिए गजट आफ इंधडया 1881, भाग 1, पृष्ठ 504;`
+  line `लाहौर धजला देधिए गजट आफ इंधडया 1886, भाग 1, पृष्ठ 301।`
+  line `इसका धिस् ता र अंधतम कधथत अधिधियम की िारा 5 के अिीि अधिसूचिा द्व ारा कोडुगू के अिुसूधचत धजले पर, देधि ए गजट आफ इंधडया, 1878, भाग 1,`
+  line `पृष्ठ 45, गंजम तथा धिजगापटम में अिुसूधचत धजलों पर, देधिए िही, 1889, भाग 1, पृष्ठ 720; पूिी गोदा िरी अधभकरण, यल्ला िरम तालुक, दुचरती तथा गुधडतेरु`
+  line `मुत्ता पर, देधिए अधिसूचिा सं ० 110, तारीि 22 अप्रैल, 1927, फोटश सेंट जाजश गजट, 1927, भाग 1, पृष्ठ 661 और दार्जशसलंग धजले पर, देधिए कलकत्ता गजट 1934,`
+  line `भाग 1, पृष्ठ 179, ककया गया है।`
+  line `इसे मुम्ब ई प्रे धस डेंसी में, धजसे यह मूलत: लागू होता था, बाम्बे टोल्स ऐक् ट, 1875 (1875 का मुम्ब ई अधिधियम सं ० 3) की िारा 1 द्व ारा धिरधसत ककया गया`
+  line `है और असम में, 1931 के असम अधिधियम सं ० 3 तथा 1932 के असम अधिधियम सं ० 1 द्व ारा, म ० प्र ां ० में 1932 के म ० प्र ां ० अधिधियम सं ० 8 द्व ारा; और मरास में,`
+  line `1938 के मरास अधिधियम सं ० 6 और 1942 के मरास अधिधियम सं ० 14 द्व ारा संिोधित भी ककया गया है।`
+  line `यह अधिधियम 1 8 58 के अधिधियम सं ० 29 द्व ारा मैसूर में धिरधसत।`
+  line `1958 के मध्य प्र देि अधिधियम सं ० 23 द्व ारा सम्पू णश मध्य प्र देि में और 19 68 के अधिधियम सं ० 26 द्व ारा संघ राज्य क्षेत्र पाधड चेरी में इस अधिधियम का`
+  line `धिस् ता र ककया गया।`
+  line `1957 के उत्तर प्र देि अधिधियम सं ० 5 द्व ारा उत्तर प्र देि को; 1975 के आंध्र प्र देि अधिधियम सं ० 17 द्व ारा आन् ध्र प्र देि को और 1978 के पधच मी बंगाल`
+  line `अधिधियम सं ० 18 द्व ारा पधच मी बंगाल को यह अधिधियम लागू ककए जािे के धलए संिोधित ककया गया।`
+  line `2 भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा अन्त:स्था धपत।`
+  line `3 भारत िासि ( भारतीय धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपांतररत भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ बंगाल में फोटश`
+  line `धिधलयम प्रे धसडेन्सी के सपररषद गििशर ” बंगाल के उत्तर पधच मी प्र ान्तों के “ सपररषद लेधटटिेन्ट गिशिर तथा फोटश सेन्ट जाजश प्रे धसडेन्सी के सपररषद गििशर ” के स् था ि`
+  line `पर प्र धतस्था धपत। “ और मुंबई प्रे धसडेन्सी के सपररषद गिशिर ” िब्द 1888 के अधिधियम सं ० 8 की िारा 5 द्व ारा धिरधसत ककए गए।`
+  line `भारत के ककसी प्र ान्त में, जो िारा 1 क में, धिधिर्दशष्ट िहीं है और धजस पर इस अधिधियम तथा भारतीय पथकर अधिधियम, 1864 (1864 का अधिधियम`
+  line `सं ० 15) का धिस् ता र ककया जाए या ककया गया है, प्र ान्ती य सरकार का प्र ाधिकार िही होगा मािो िह प्र ारम्भ से ही िारा 2 में धिधिर्दशष्ट कक या गया था। देधिए`
+  line `भारतीय पथकर अधिधियम, 1888 (1888 का अधिधियम सं ० 8), िारा 2(1)।`
+  line `4 भारत िासि ( भारतीय धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपान्त ररत भारत िा सि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ सरकार के िचे`
+  line `पर ” के स् था ि पर प्र धतस्था धपत।`
+  line `5 1920 के अधिधियम सं ० 38 की िारा 2 तथा अिुसूची 1 द्व ारा “ इस अधिधियम से उपाबद्ध अिुसूची में उधल्ल धित दरों से अिधिक ” िब्दों का लोप ककया गया।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `धजन्हें 1 [ िह ठीक समझे ]; और ऐसे पक्षकारों के संग्रहण को उि व् य धक् त यों के प्र बन्ि के अिीि कर सकेगी जो 2 [ उसे ] उधचत प्र ती त हो;
-और ऐसे पक्षकारों के प्र बन्ि तथा संग्रहण में धियोधजत सभी व् य धक् त िैसे ही उत्तरदाधयत्िों के धलए धजम्मे दार होंगे धजिके धजम्मे दार िे
-उस दिा में होते जब िे भू - राजस्ि के संग्रहण में धियोधजत होते।
-3. पथकर की िसूली की उिकी िधक्त यां — पथकर का संग्रह ण करिे के धलए धियुक्त अधिकारी, ऐसी दिा में, जब मांग की
-जािे पर, उक्त पथकर ि कदया जाए, उि िाहिों या पिुओं में से ककसी को, धजि पर िह पथकर प्र भायश है, या उि पर लदी िस्तु ओं के
-ककसी ऐसे भाग को, धजसका मूल्य उस पथकर को चुकािे के धलए पयाशप्त हो, अधभगृहीत कर सकेंगे; और यकद कोई पथकर, ऐसे
-अधभग्रहण के कारण हु ए व् य य सधहत, चौबीस घंटे तक चुकाया िहीं जाता है तो िह मामला उक्त पथकर के संग्रहण का अिीक्षण करिे
-के धलए धियुक्त अधिकारी के समक्ष लाया जाएगा, और िह अधिकारी, अधभगृहीत सम्प धत्त को, पथकर चुकािे और ऐसा पथकर ि देिे
-तथा ऐसे अधभग्रहण और धिक्रय के सम्ब न् ि में हु ए सभी िचों को चुकािे के धलए बेच सकेगा, और यकद कोई अधतिेष बचा रहेगा तो उसे,
-मांग की जािे पर, सम्प धत्त के स् िा मी को िापस करा देगा; और उ क् त अधिकारी, सम्प धत्त की प्र ा धप्त पर, तत्का ल इस आिय की सूचिा
-जारी करेगा कक िह उस सम्प धत्त को अगले कदि मध्या ह् ि को, रधििार या ककसी बन्द अ िकाि कदि को छोड़कर, िी लाम द्व ारा बेचेगा;
-अधभगृहीत सम्प धत्त का, िोध्य रकम दे देिे पर, छोड़ा जािा — परन् तु, यकद िस्तु त: धिक्रय आरम्भ होिे से पूिश ककसी भी समय,
-िह व् य धक्त, धजसकी सम्प धत्त का अ धभ ग्र हण ककया गया है, उपगत सभी व् य यों, तथा अपिे द्व ारा सं देय पथकर की दुगुिी रकम, दे दे तो
-उक्त अधिकारी अधभगृहीत सम्प धत्त को तत्का ल छोड़ देगा।
-4. पथकर के संदाय से छूट — 3 *** कतशव्या रू ढ पुधलस अधिकाररयों के, या उिकी अधभरक्षा में के ककसी व् य धक् त या सम्प धत्त के
-गुजरिे पर कोई भी पथकर िहीं कदए जाएंगे, ककन्तु इस अधिधियम के अिीि उद्गृहीत पथकर के संदाय से कोई अन्य छूट अिुज्ञात िहीं
-की जाएगी।
-5. पुधलस अधिकाररयों द्व ारा पथकर संग्राहकों की सहायता — इस अधिधियम के धिष्पा दि में पथकर संग्राहकों की सहायता
-करिे के धलए सभी पुधलस अधिकारी, जब अ पेक्षा की जाए, तब आबद्ध होंगे; और उस प्र योजि के धलए उन्हें िही िधक्त प्र ाप्त होगी जो
-उन्हें अपिे सामान्य पुधलस कतशव्यों का धििशहि करिे के धलए प्र ाप्त है।
-6. अधिधियम के अिीि अपरािों के धलए िाधस्त। व् य धथत व् य धक्त को प्र धतकर। उसके िाद लािे के अधिकार की व्
-या िृधत्त — इस अधिधियम के अिीि पथकर संग्रह करिे के धलए धियुक्त व् य धक्त यों से धभन् ि प्र त् ये क ऐसा व् य धक् त, जो ककसी सािशजधिक
-सड़क या पुल पर, या उस पर धस्थ त ककसी बाजार से होकर गुजरिे के धलए, कोई पथकर उद्गृहीत करेगा या मांगेगा, और ऐसा प्रत् ये क व्
-य धक् त भी, जो धिधिपूणश प थकर के अलािा कोई अन्य, या उससे अधिक, पथकर धिधिधिरुद्धतया तथा उद्दापि के तौर पर मांगेगा या
-लेगा, या इस अधिधियम का आभास देकर ककसी सम्प धत्त का अधभग्रहण या धिक्रय यह जािते हु ए करेगा कक ऐसा अधभग्रहण या धिक्रय
-धिधिधिरुद्ध है, या ककसी भी रीधत से ककसी व् य धक् त से कोई िि या मूल्या िाि िस्तु इस अधिधियम का आभास देकर धिधिधिरुद्धतया
-उद्दाधपत करेगा िह, मधजस्िे ट के समक्ष दोषधसधद्ध पर कारािास से धजसकी अिधि छह कलेड र मास से अधिक की ि होगी, या जुमाशिे
-से, जो दो सौ रु पए से अधिक का ि होगा, दड िीय होगा, और जुमाशिे का कोई भाग व् य धथत व् य धक् त को मधजस्िे ट द्व ारा कदलाया जा
-सकेगा; ककन्तु इस उपचार के बारे में यह िहीं समझा जाएगा कक िह 4 *** ककसी धसधिल न् या यालय में िाद द्व ारा प्र धततो ष के उसके
-अधिकार का िजशि करता है या उस पर कोई प्र भाि डालता है।
-7. पथकर - सारणी तथा िाधस्त यों के धििरण का प्र दिशि — ककसी पथकर - द्व ार या स् टे िि पर धजि पथकरों का धलया जािा प्र
-ाधिकृत है उिकी सारणी अंग्रेजी के एिं धजले की देिी भाषा के िब्दों औ र अंकों में सुपा ठ्य रू प से धल ि कर या मु करत करा क र उस द्व
-ार या स् टे िि के धिकट ककसी सहजदृय स् था ि पर लगाई जाएगी, और उसके साथ पथकरों का संदाय करिे से इन्का र करिे तथा कोई
-धिधिधिरुद्ध पथकर लेिे के धलए दी जािे िाली िाधस्तयों का धििरण िैसी ही रीधत से धलिकर या मुकरत कराकर, लगाया जाएगा।
-8. पथकर के आगमों का उपयोग — इस अधिधियम के अिीि उ द गृ हीत पथकर लोक राजस्ि समझे जाएंगे 5 ***।
-अिुसूची
-कद धडिोल्यू िि ऐक्ट, 1920 (1920 का 38) की िारा 2 तथा अिुसूची 1 द्व ारा धिरधसत।
-_______
-1 भारत िासि ( भारती य धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपान्त ररत भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ क्र मि: िे ठीक
-समझे ” के स् था ि पर प्र धतस्था धपत।
-2 भारत िासि ( भारतीय धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपान्त ररत भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ उन्हें ” के स् था ि पर प्र
-धतस्था धपत।
-3 1901 के अधिधियम सं ० 2 की िारा 8 तथा अिुसूची द्व ारा “ कूच के दौराि सैधिकों तथा सैधिक सामग्री और साज - सज्जा के गुजरिे पर या ” िब्द धिरधसत।
-4 1876 के अधिधियम सं ० 12 की िारा 1 तथा अिुसूची, भाग 1 द्व ारा “ धजले के ” िब्द धिरधसत।
-5 भारत िासि ( भारतीय धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपान्त ररत भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ ककन्तु उसके िुद्ध
-आगम उस प्रे धसडेंसी में सड़कों तथा पुलों के धिमाशण मरम्मत तथा अिुरक्ष ण के धलए पूणश रू प से उपयोग में लाए जाएंगे धजसमें िे उद गृहीत ककए जाते हैं ” िब्दों का लोप
-ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line `धजन्हें 1 [ िह ठीक समझे ]; और ऐसे पक्षकारों के संग्रहण को उि व् य धक् त यों के प्र बन्ि के अिीि कर सकेगी जो 2 [ उसे ] उधचत प्र ती त हो;`
+  line `और ऐसे पक्षकारों के प्र बन्ि तथा संग्रहण में धियोधजत सभी व् य धक् त िैसे ही उत्तरदाधयत्िों के धलए धजम्मे दार होंगे धजिके धजम्मे दार िे`
+  line `उस दिा में होते जब िे भू - राजस्ि के संग्रहण में धियोधजत होते।`
+  line `3. पथकर की िसूली की उिकी िधक्त यां — पथकर का संग्रह ण करिे के धलए धियुक्त अधिकारी, ऐसी दिा में, जब मांग की`
+  line `जािे पर, उक्त पथकर ि कदया जाए, उि िाहिों या पिुओं में से ककसी को, धजि पर िह पथकर प्र भायश है, या उि पर लदी िस्तु ओं के`
+  line `ककसी ऐसे भाग को, धजसका मूल्य उस पथकर को चुकािे के धलए पयाशप्त हो, अधभगृहीत कर सकेंगे; और यकद कोई पथकर, ऐसे`
+  line `अधभग्रहण के कारण हु ए व् य य सधहत, चौबीस घंटे तक चुकाया िहीं जाता है तो िह मामला उक्त पथकर के संग्रहण का अिीक्षण करिे`
+  line `के धलए धियुक्त अधिकारी के समक्ष लाया जाएगा, और िह अधिकारी, अधभगृहीत सम्प धत्त को, पथकर चुकािे और ऐसा पथकर ि देिे`
+  line `तथा ऐसे अधभग्रहण और धिक्रय के सम्ब न् ि में हु ए सभी िचों को चुकािे के धलए बेच सकेगा, और यकद कोई अधतिेष बचा रहेगा तो उसे,`
+  line `मांग की जािे पर, सम्प धत्त के स् िा मी को िापस करा देगा; और उ क् त अधिकारी, सम्प धत्त की प्र ा धप्त पर, तत्का ल इस आिय की सूचिा`
+  line `जारी करेगा कक िह उस सम्प धत्त को अगले कदि मध्या ह् ि को, रधििार या ककसी बन्द अ िकाि कदि को छोड़कर, िी लाम द्व ारा बेचेगा;`
+  line `अधभगृहीत सम्प धत्त का, िोध्य रकम दे देिे पर, छोड़ा जािा — परन् तु, यकद िस्तु त: धिक्रय आरम्भ होिे से पूिश ककसी भी समय,`
+  line `िह व् य धक्त, धजसकी सम्प धत्त का अ धभ ग्र हण ककया गया है, उपगत सभी व् य यों, तथा अपिे द्व ारा सं देय पथकर की दुगुिी रकम, दे दे तो`
+  line `उक्त अधिकारी अधभगृहीत सम्प धत्त को तत्का ल छोड़ देगा।`
+  line `4. पथकर के संदाय से छूट — 3 *** कतशव्या रू ढ पुधलस अधिकाररयों के, या उिकी अधभरक्षा में के ककसी व् य धक् त या सम्प धत्त के`
+  line `गुजरिे पर कोई भी पथकर िहीं कदए जाएंगे, ककन्तु इस अधिधियम के अिीि उद्गृहीत पथकर के संदाय से कोई अन्य छूट अिुज्ञात िहीं`
+  line `की जाएगी।`
+  line `5. पुधलस अधिकाररयों द्व ारा पथकर संग्राहकों की सहायता — इस अधिधियम के धिष्पा दि में पथकर संग्राहकों की सहायता`
+  line `करिे के धलए सभी पुधलस अधिकारी, जब अ पेक्षा की जाए, तब आबद्ध होंगे; और उस प्र योजि के धलए उन्हें िही िधक्त प्र ाप्त होगी जो`
+  line `उन्हें अपिे सामान्य पुधलस कतशव्यों का धििशहि करिे के धलए प्र ाप्त है।`
+  line `6. अधिधियम के अिीि अपरािों के धलए िाधस्त। व् य धथत व् य धक्त को प्र धतकर। उसके िाद लािे के अधिकार की व्`
+  line `या िृधत्त — इस अधिधियम के अिीि पथकर संग्रह करिे के धलए धियुक्त व् य धक्त यों से धभन् ि प्र त् ये क ऐसा व् य धक् त, जो ककसी सािशजधिक`
+  line `सड़क या पुल पर, या उस पर धस्थ त ककसी बाजार से होकर गुजरिे के धलए, कोई पथकर उद्गृहीत करेगा या मांगेगा, और ऐसा प्रत् ये क व्`
+  line `य धक् त भी, जो धिधिपूणश प थकर के अलािा कोई अन्य, या उससे अधिक, पथकर धिधिधिरुद्धतया तथा उद्दापि के तौर पर मांगेगा या`
+  line `लेगा, या इस अधिधियम का आभास देकर ककसी सम्प धत्त का अधभग्रहण या धिक्रय यह जािते हु ए करेगा कक ऐसा अधभग्रहण या धिक्रय`
+  line `धिधिधिरुद्ध है, या ककसी भी रीधत से ककसी व् य धक् त से कोई िि या मूल्या िाि िस्तु इस अधिधियम का आभास देकर धिधिधिरुद्धतया`
+  line `उद्दाधपत करेगा िह, मधजस्िे ट के समक्ष दोषधसधद्ध पर कारािास से धजसकी अिधि छह कलेड र मास से अधिक की ि होगी, या जुमाशिे`
+  line `से, जो दो सौ रु पए से अधिक का ि होगा, दड िीय होगा, और जुमाशिे का कोई भाग व् य धथत व् य धक् त को मधजस्िे ट द्व ारा कदलाया जा`
+  line `सकेगा; ककन्तु इस उपचार के बारे में यह िहीं समझा जाएगा कक िह 4 *** ककसी धसधिल न् या यालय में िाद द्व ारा प्र धततो ष के उसके`
+  line `अधिकार का िजशि करता है या उस पर कोई प्र भाि डालता है।`
+  line `7. पथकर - सारणी तथा िाधस्त यों के धििरण का प्र दिशि — ककसी पथकर - द्व ार या स् टे िि पर धजि पथकरों का धलया जािा प्र`
+  line `ाधिकृत है उिकी सारणी अंग्रेजी के एिं धजले की देिी भाषा के िब्दों औ र अंकों में सुपा ठ्य रू प से धल ि कर या मु करत करा क र उस द्व`
+  line `ार या स् टे िि के धिकट ककसी सहजदृय स् था ि पर लगाई जाएगी, और उसके साथ पथकरों का संदाय करिे से इन्का र करिे तथा कोई`
+  line `धिधिधिरुद्ध पथकर लेिे के धलए दी जािे िाली िाधस्तयों का धििरण िैसी ही रीधत से धलिकर या मुकरत कराकर, लगाया जाएगा।`
+  line `8. पथकर के आगमों का उपयोग — इस अधिधियम के अिीि उ द गृ हीत पथकर लोक राजस्ि समझे जाएंगे 5 ***।`
+  line अिुसूची
+  line `कद धडिोल्यू िि ऐक्ट, 1920 (1920 का 38) की िारा 2 तथा अिुसूची 1 द्व ारा धिरधसत।`
+  line _______
+  line `1 भारत िासि ( भारती य धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपान्त ररत भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ क्र मि: िे ठीक`
+  line `समझे ” के स् था ि पर प्र धतस्था धपत।`
+  line `2 भारत िासि ( भारतीय धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपान्त ररत भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ उन्हें ” के स् था ि पर प्र`
+  line `धतस्था धपत।`
+  line `3 1901 के अधिधियम सं ० 2 की िारा 8 तथा अिुसूची द्व ारा “ कूच के दौराि सैधिकों तथा सैधिक सामग्री और साज - सज्जा के गुजरिे पर या ” िब्द धिरधसत।`
+  line `4 1876 के अधिधियम सं ० 12 की िारा 1 तथा अिुसूची, भाग 1 द्व ारा “ धजले के ” िब्द धिरधसत।`
+  line `5 भारत िासि ( भारतीय धिधि अिुकूलि ) अिुपूरक आदेि, 1937 द्व ारा यथा उपान्त ररत भारत िासि ( भारतीय धिधि अिुकूलि ) आदेि, 1937 द्व ारा “ ककन्तु उसके िुद्ध`
+  line `आगम उस प्रे धसडेंसी में सड़कों तथा पुलों के धिमाशण मरम्मत तथा अिुरक्ष ण के धलए पूणश रू प से उपयोग में लाए जाएंगे धजसमें िे उद गृहीत ककए जाते हैं ” िब्दों का लोप`
+  line `ककया गया।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

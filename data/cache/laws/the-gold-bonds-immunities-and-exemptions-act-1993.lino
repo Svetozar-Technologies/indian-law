@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:19:02.434Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1924`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 6)
-  (str totalSections) (int 6)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:19:02.434Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1924`
+  completeFetch true
+  maxSections null
+  sectionCount 6
+  totalSections 6
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-gold-bonds-immunities-and-exemptions-act-1993)
-  (str handle) (str 1924)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Gold Bonds (Immunities and Exemptions) Act, 1993`)
-  (str actNumber) (str 25)
-  (str enactmentDate) (str 1993-04-02)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1924`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `स्‍वर्ण बाण्‍ड (उन्‍मुक्‍ति और छूट) अधिनियम, 1993`)
-  (str actYear) (str 1993)
-  (str ministry) (str `Ministry of Finance`)
-  (str department) (str `Department of Economic Affairs`)
-  (str longTitle) (str `An Act to provide for certain immunities to the subscribers of the Gold Bonds and for certain exemptions from direct taxes in relation to such Bonds and for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 31-01-1993)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T09:27:07.743Z`)
-  (str translations) obj_root_law_translations
+  slug the-gold-bonds-immunities-and-exemptions-act-1993
+  handle (1924)
+  collectionHandle 123456789/1362
+  title `The Gold Bonds (Immunities and Exemptions) Act, 1993`
+  actNumber (25)
+  enactmentDate 1993-04-02
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1924`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `स्‍वर्ण बाण्‍ड (उन्‍मुक्‍ति और छूट) अधिनियम, 1993`
+  actYear (1993)
+  ministry `Ministry of Finance`
+  department `Department of Economic Affairs`
+  longTitle `An Act to provide for certain immunities to the subscribers of the Gold Bonds and for certain exemptions from direct taxes in relation to such Bonds and for matters connected therewith or incidental thereto.`
+  enforcementDate 31-01-1993
+  notification undefined
+  fetchedAt `2026-05-09T09:27:07.743Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_gold_bonds_immunities_and_exemptions_act_1993
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1924`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1924`
 obj_root_law_sources_en_the_gold_bonds_immunities_and_exemptions_act_1993:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1924/1/A1993-25.pdf`)
-  (str title) (str `The Gold Bonds (Immunities and Exemptions) Act, 1993`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1924/1/A1993-25.pdf`
+  title `The Gold Bonds (Immunities and Exemptions) Act, 1993`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1993
 obj_root_law_sources_hi_1993:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1924/3/H1993-25.pdf`)
-  (str title) (str `स्‍वर्ण बाण्‍ड (उन्‍मुक्‍ति और छूट) अधिनियम, 1993`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1924/3/H1993-25.pdf`
+  title `स्‍वर्ण बाण्‍ड (उन्‍मुक्‍ति और छूट) अधिनियम, 1993`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -68,214 +58,251 @@ obj_root_law_sections:
   obj_root_law_sections_5
   obj_root_law_sections_6
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 32010)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Gold Bonds (Immunities and
-Exemptions) Act, 1993.
-
-(2) It shall be deemed to have come into force on the 31st day of January, 1993.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32010&sectionno=1&orderno=1&orgactid=AC_CEN_2_11_00034_199325_1517807323419)
+  sectionId (32010)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32010&sectionno=1&orderno=1&orgactid=AC_CEN_2_11_00034_199325_1517807323419
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Gold Bonds (Immunities and`
+  line `Exemptions) Act, 1993.`
+  line
+  line `(2) It shall be deemed to have come into force on the 31st day of January, 1993.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 32011)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "Gold Bonds" means the Gold Bonds, 1998, issued by the Central Government in accordance
-with the scheme framed by that Government under section 3;
-
-(b) "subscriber" means an individual, a Hindu undivided family, trustees of a trust, a firm or a
-company, being a resident or residents in India, who has or have initially subscribed to the Gold
-Bonds.
-
-Explanation.-- For the purposes of this clause, the expression "individual" shall also include,--
-
-(i) his legal heirs; or
-
-(ii) where a partition has taken place among the members of the Hindu undivided family,
-every member of such family having a share in the Gold Bonds;
-
-(c) all other words and expressions used in this Act but not defined and defined in the Income-tax
-Act, 1961 (43 of 1961) shall have the meanings respectively assigned to them in that Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32011&sectionno=2&orderno=2&orgactid=AC_CEN_2_11_00034_199325_1517807323419)
+  sectionId (32011)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32011&sectionno=2&orderno=2&orgactid=AC_CEN_2_11_00034_199325_1517807323419
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "Gold Bonds" means the Gold Bonds, 1998, issued by the Central Government in accordance`
+  line `with the scheme framed by that Government under section 3;`
+  line
+  line `(b) "subscriber" means an individual, a Hindu undivided family, trustees of a trust, a firm or a`
+  line `company, being a resident or residents in India, who has or have initially subscribed to the Gold`
+  line Bonds.
+  line
+  line `Explanation.-- For the purposes of this clause, the expression "individual" shall also include,--`
+  line
+  line `(i) his legal heirs; or`
+  line
+  line `(ii) where a partition has taken place among the members of the Hindu undivided family,`
+  line `every member of such family having a share in the Gold Bonds;`
+  line
+  line `(c) all other words and expressions used in this Act but not defined and defined in the Income-tax`
+  line `Act, 1961 (43 of 1961) shall have the meanings respectively assigned to them in that Act.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 32012)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Gold Bonds Scheme.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-frame a scheme for subscription to the Gold Bonds, 1998, on or after the date of commencement of this
-Act, but before the specified date.
-
-Explanation.-- For the purposes of this sub-section, "specified date" means the 31st day of March,
-1993 or such other later date as the Central Government may, by notification in the Official Gazette,
-specify in this behalf.
-
-(2) The scheme framed under sub-section (1) shall be laid, as soon as may be after it is framed, before
-each House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32012&sectionno=3&orderno=3&orgactid=AC_CEN_2_11_00034_199325_1517807323419)
+  sectionId (32012)
+  sectionNo (3)
+  orderNo 3
+  title `Gold Bonds Scheme.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32012&sectionno=3&orderno=3&orgactid=AC_CEN_2_11_00034_199325_1517807323419
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `frame a scheme for subscription to the Gold Bonds, 1998, on or after the date of commencement of this`
+  line `Act, but before the specified date.`
+  line
+  line `Explanation.-- For the purposes of this sub-section, "specified date" means the 31st day of March,`
+  line `1993 or such other later date as the Central Government may, by notification in the Official Gazette,`
+  line `specify in this behalf.`
+  line
+  line `(2) The scheme framed under sub-section (1) shall be laid, as soon as may be after it is framed, before`
+  line `each House of Parliament.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 32013)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str Immunities.)
-  (str content) (str `(1) Notwithstanding anything contained in the Wealth-tax Act, 1957 (27 of 1957),
-the Gift-tax Act, 1958 (18 of 1958), the Income-tax Act, 1961 (43 of 1961), the Customs Act, 1962 (52 of
-1962), the Foreign Exchange Regulation Act, 1973 (46 of 1973) and the Foreign Contribution
-(Regulation) Act, 1976 (49 of 1976),--
-
-(a) no subscriber shall be required to disclose, for any purpose whatsoever, the nature and source
-of acquisition of the gold subscribed for the Gold Bonds, including the source of money with which
-the gold was acquired;
-
-(b) no inquiry or investigation shall be commenced against any subscriber under any of the said
-Acts on the ground that such subscriber owns the Gold Bonds; and
-
-(c) the fact that any subscriber owns the Gold Bonds shall not be taken into account for the
-purposes of, and shall be inadmissible as evidence in, any proceedings under any of the said Acts:
-
-Provided that nothing contained in this sub-section shall apply where any proceedings in respect of
-the gold subscribed by the subscriber have already been initiated before the commencement of this Act in
-accordance with the provisions of any of the aforesaid Acts.
-
-(2) Nothing in sub-section (1) shall apply in relation to prosecution for any offence punishable under
-Chapter IX or Chapter XVII of the Indian Penal Code (45 of 1860), the Narcotic Drugs and Psychotropic
-Substances Act, 1985 (61 of 1985), the Terrorist and Disruptive Activities (Prevention) Act, 1987 (28 of
-1987), the Prevention of Corruption Act, 1988 (49 of 1988) or for the purposes of enforcement of any
-civil liability.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32013&sectionno=4&orderno=4&orgactid=AC_CEN_2_11_00034_199325_1517807323419)
+  sectionId (32013)
+  sectionNo (4)
+  orderNo 4
+  title Immunities.
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32013&sectionno=4&orderno=4&orgactid=AC_CEN_2_11_00034_199325_1517807323419
+obj_root_law_sections_4_content:
+  string
+  line `(1) Notwithstanding anything contained in the Wealth-tax Act, 1957 (27 of 1957),`
+  line `the Gift-tax Act, 1958 (18 of 1958), the Income-tax Act, 1961 (43 of 1961), the Customs Act, 1962 (52 of`
+  line `1962), the Foreign Exchange Regulation Act, 1973 (46 of 1973) and the Foreign Contribution`
+  line `(Regulation) Act, 1976 (49 of 1976),--`
+  line
+  line `(a) no subscriber shall be required to disclose, for any purpose whatsoever, the nature and source`
+  line `of acquisition of the gold subscribed for the Gold Bonds, including the source of money with which`
+  line `the gold was acquired;`
+  line
+  line `(b) no inquiry or investigation shall be commenced against any subscriber under any of the said`
+  line `Acts on the ground that such subscriber owns the Gold Bonds; and`
+  line
+  line `(c) the fact that any subscriber owns the Gold Bonds shall not be taken into account for the`
+  line `purposes of, and shall be inadmissible as evidence in, any proceedings under any of the said Acts:`
+  line
+  line `Provided that nothing contained in this sub-section shall apply where any proceedings in respect of`
+  line `the gold subscribed by the subscriber have already been initiated before the commencement of this Act in`
+  line `accordance with the provisions of any of the aforesaid Acts.`
+  line
+  line `(2) Nothing in sub-section (1) shall apply in relation to prosecution for any offence punishable under`
+  line `Chapter IX or Chapter XVII of the Indian Penal Code (45 of 1860), the Narcotic Drugs and Psychotropic`
+  line `Substances Act, 1985 (61 of 1985), the Terrorist and Disruptive Activities (Prevention) Act, 1987 (28 of`
+  line `1987), the Prevention of Corruption Act, 1988 (49 of 1988) or for the purposes of enforcement of any`
+  line `civil liability.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 32014)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Gold Bonds not to be taken into account in certain cases.`)
-  (str content) (str `Without prejudice to the generality
-of the provisions of section 4,--
-
-(a) the provisions of the Income-tax Act, 1961 (43 of 1961) shall not apply to--
-
-(i) any interest accruing to the subscriber from the Gold Bonds;
-
-(ii) any long-term capital gains arising to the subscriber;
-
-(b) the provisions of the Gift-tax Act, 1958 (18 of 1958) shall not apply where the gift of the Gold
-Bonds is made by a subscriber, being an individual, to his spouse, child or parent.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32014&sectionno=5&orderno=5&orgactid=AC_CEN_2_11_00034_199325_1517807323419)
+  sectionId (32014)
+  sectionNo (5)
+  orderNo 5
+  title `Gold Bonds not to be taken into account in certain cases.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32014&sectionno=5&orderno=5&orgactid=AC_CEN_2_11_00034_199325_1517807323419
+obj_root_law_sections_5_content:
+  string
+  line `Without prejudice to the generality`
+  line `of the provisions of section 4,--`
+  line
+  line `(a) the provisions of the Income-tax Act, 1961 (43 of 1961) shall not apply to--`
+  line
+  line `(i) any interest accruing to the subscriber from the Gold Bonds;`
+  line
+  line `(ii) any long-term capital gains arising to the subscriber;`
+  line
+  line `(b) the provisions of the Gift-tax Act, 1958 (18 of 1958) shall not apply where the gift of the Gold`
+  line `Bonds is made by a subscriber, being an individual, to his spouse, child or parent.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 32015)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Repeal and savings.`)
-  (str content) (str `(1) The Gold Bonds (Immunities and Exemptions) Ordinance, 1993 (Ord.
-22 of 1993) is hereby repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance, shall be
-deemed to have been done or taken under the corresponding provisions of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32015&sectionno=6&orderno=6&orgactid=AC_CEN_2_11_00034_199325_1517807323419)
+  sectionId (32015)
+  sectionNo (6)
+  orderNo 6
+  title `Repeal and savings.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00034_199325_1517807323419&sectionId=32015&sectionno=6&orderno=6&orgactid=AC_CEN_2_11_00034_199325_1517807323419
+obj_root_law_sections_6_content:
+  string
+  line `(1) The Gold Bonds (Immunities and Exemptions) Ordinance, 1993 (Ord.`
+  line `22 of 1993) is hereby repealed.`
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance, shall be`
+  line `deemed to have been done or taken under the corresponding provisions of this Act.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `स्‍वर्ण बाण्‍ड (उन्‍मुक्‍ति और छूट) अधिनियम, 1993`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1924/3/H1993-25.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:19:01.332Z`)
-  (str pageCount) (int 2)
-  (str sections) obj_root_law_translations_hi_sections
+  title `स्‍वर्ण बाण्‍ड (उन्‍मुक्‍ति और छूट) अधिनियम, 1993`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1924/3/H1993-25.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:19:01.332Z`
+  pageCount 2
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `स्व र् ण बाण्ड (उन्मु क् ि औरछूट)अक्िक्ियम, 1993
-( 1993 काअक्िक्ियमसंखयां क 25 )
-[2 अप्रैल, 1993 ] स्
-व र् ण बाण्ड के अक्िदा िाओंकोकक्िपयउन्मु क् ि योंकाऔर
-ऐसेबाण्डों केसंबंिमेंप्रत्य क्ष करोंसेकक्िपय
-छूटोंकािथाउिसेसंबंक्िियाउिके
-आिुषंक्िकक्वष योंकाउपबंि
-करिेकेक्लए
-अक्िक्ियम
-िारिमेंक्िवाक्सयोंकीक्िक््ि यस्व र् ण संपदाकोिक्िशीलबिािेकीदृक््ट से,ऐसेक्िवाक्सयोंद्वारास्व र् ण बाण्ड मेंअक्िदाय
-करिेकोसंिवबिािेकेक्लएकक्िपयउन्मु क् ि योंऔरछूटोंकाउपबन्ि करिासमीचीिहै;
-िारििर्रा ज् य केचवालीसवेंवषणमेंसंसद्द्वाराक्िम्ि क् लक्ििरूपमेंयहअक्िक्ियक्मिहो: ––
-1. संक्क्षप्ि िामऔरप्रारंि –– ( 1 )इसअक्िक्ियमकासंक्क्षप्ि िामस्व र् ण बाण्ड (उन्मु क् ि औरछूट)अक्िक्ियम, 1993 है।
-( 2 )यह 31 जिवरी, 1993 कोप्रवृत्तहुआसमझाजाएिा।
-2. पररिाषाएं –– इसअक्िक्ियममें,जबिकककसंदिणसेअन्य थाअपेक्क्षििहो, ––
-(क) “ स् व र् ण बाण्ड ” सेिारा 3 केअिीिकेन्री यसरकारद्वाराबिाईिईस्की मकेअिुसारउससरकारद्वाराजारी
-ककएिएस्व र् ण बाण्ड, 1998 अक्िप्रेिहैं;
-(ि) “ अक्िदािा ” सेअक्िप्रेिहै कोईव्य क्् ट,क्हन्दू अक्विविकुटुम्ब,ककसीन्या सकेन्या सी,कोईफमणयाकम्प िी,
-जोिारिमेंक्िवासीहैयाक्िवासीहैंऔरक्जसिेयाक्जन्हों िेस्व र् ण बाण्ड मेंआरंिि:अक्िदायककयाहै। स्
-प ् टी करर् –– इसिंडकेप्रयोजिोंकेक्लए, “ व् य क्् ट ” पदकेअन्ि िण िक्िम्ि क् लक्िििीहैं, ––
-( i )उसकेक्वक्िकवाररस;या
-( ii )जहांक्हन्दू अक्विि कुटुम्ब केसदस्यों केबीचक्विाजिहोियाहैवहांऐसेकुटुम्ब काप्रत्ये क
-सदस्य क् जसकास्व र् ण बाण्डों मेंकोईअंशहै;
-(ि)अन्य सिीशब्दों औरपदोंके,जोइसअक्िक्ियममें प्र युि हैंककन्िु पररिाक्षििहींहैं,औरआय - कर
-अक्िक्ियम, 1961 ( 1961 का 43 )मेंपररिाक्षिहैं,वहीअथणहैंजोउसअक्िक्ियममेंहैं।
-3. स् व र् ण बाण्ड स् की म –– ( 1 )केन्री यसरकार,राजपत्रमेंअक्िसूचिाद्वारा,इसअक्िक्ियमकेप्रारंिकीिारीिकोयाउसके
-प श् चा ि्,ककन्िु क् वक्िर्दण्ट िारीिकेपूवण,स्व र् ण बाण्ड, 1998 मेंअक्िदायकेक्लएस्की मबिासकेिी। स्
-प ् टी करर् –– इसउपिाराकेप्रयोजिोंकेक्लए “ क् वक्िर्दण्ट िारीि ” से, 31 माचण, 1993 याऐसीअन्य पश्चा त् विीिारीि
-अक्िप्रेिहैजोकेन्री यसरकार,रा जपत्रमेंअक्िसूचिाद्वारा,इसक्िक्मत्तक्वक्िर्दण्ट करे।
-( 2 )उपिारा( 1 )केअिीिबिाईिईस्की म,बिाईजािेकेपश्चा ि्यथाशीघ्र,संसद्केप्रत्ये कसदिकेसमक्षरिीजाएिी।
-4. उन्मु क् ि यां –– ( 1 )िि - करअक्िक्ियम, 1957 ( 1957 का 27 ),दाि - करअक्िक्ियम, 1958 ( 19 58 का 18 ),आय - कर
-अक्िक्ियम, 1961 ( 1961 का 43 ), सीमा - शुल्क अक्िक्ियम, 1962 ( 1962 का 52 ),क्वदेशीमुराक्वक्ियमिअक्िक्ियम, 1973
-( 1973 का 46 )औरक्वदेशीअक्िदाय(क्वक्ियमि)अक्िक्ियम, 1976 ( 1976 का 49 )मेंककसीबािकेहोिेहुएिी, – –
-(क)ककसीअक्िदािासे,ककसीिीप्रयोजिकेक्लए,स्व र् ण बाण्ड केक्लएअक्िदत्तस्व र् ण कीप्रकृक्िऔरउसकेअजणि
-के स्र ो ि को,क्जसकेअन्ि िणिउसििका स्र ो ििीहैक्जससेस्व र् ण अर्जणिककयाियाथा,प्रकटकरिेकीअपेक्षािहीं
-कीजाएिी;
-(ि)ककसीअक्िदािा केक्वरुद्धउि अक्िक्ियमोंमेंसेककसीकेअिीि,इसआिारपरककउि अक्िदािास्व र् ण
-बाण्ड कास्वा मीहै,कोईजांचयाअन्वे षर्प्रारंििहींककयाजाएिा;और
-(ि)इसिथ्य परकककोईअक्िदािास्व र् ण बाण्ड कास्वा मीहै,उि अक्िक्ियमोंमेंसेककसीकेअिीिकक सी
-कायणवाहीकेप्रयोजिोंकेक्लएध्या ििहींकदयाजाएिाऔरवहसाक्ष्य केरूपमेंग्राह्यहोिा:
-परन्िु इसउपिाराकीकोईबािवहांलािूिहींहोिीजहांपूवोि अक्िक्ियमोंमेंसे,ककसीकेउपबंिोंकेअिुसारअक्िदािा द्व
-ाराअक्िदत्तस्व र् ण कीबाबिकोईकायण वाहीइसअक्िक्ियमकेप्रारंिसेपहलेहीशुरूकरदीिईहो।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `स्व र् ण बाण्ड (उन्मु क् ि औरछूट)अक्िक्ियम, 1993`
+  line `( 1993 काअक्िक्ियमसंखयां क 25 )`
+  line `[2 अप्रैल, 1993 ] स्`
+  line `व र् ण बाण्ड के अक्िदा िाओंकोकक्िपयउन्मु क् ि योंकाऔर`
+  line `ऐसेबाण्डों केसंबंिमेंप्रत्य क्ष करोंसेकक्िपय`
+  line छूटोंकािथाउिसेसंबंक्िियाउिके
+  line `आिुषंक्िकक्वष योंकाउपबंि`
+  line करिेकेक्लए
+  line अक्िक्ियम
+  line `िारिमेंक्िवाक्सयोंकीक्िक््ि यस्व र् ण संपदाकोिक्िशीलबिािेकीदृक््ट से,ऐसेक्िवाक्सयोंद्वारास्व र् ण बाण्ड मेंअक्िदाय`
+  line `करिेकोसंिवबिािेकेक्लएकक्िपयउन्मु क् ि योंऔरछूटोंकाउपबन्ि करिासमीचीिहै;`
+  line `िारििर्रा ज् य केचवालीसवेंवषणमेंसंसद्द्वाराक्िम्ि क् लक्ििरूपमेंयहअक्िक्ियक्मिहो: ––`
+  line `1. संक्क्षप्ि िामऔरप्रारंि –– ( 1 )इसअक्िक्ियमकासंक्क्षप्ि िामस्व र् ण बाण्ड (उन्मु क् ि औरछूट)अक्िक्ियम, 1993 है।`
+  line `( 2 )यह 31 जिवरी, 1993 कोप्रवृत्तहुआसमझाजाएिा।`
+  line `2. पररिाषाएं –– इसअक्िक्ियममें,जबिकककसंदिणसेअन्य थाअपेक्क्षििहो, ––`
+  line `(क) “ स् व र् ण बाण्ड ” सेिारा 3 केअिीिकेन्री यसरकारद्वाराबिाईिईस्की मकेअिुसारउससरकारद्वाराजारी`
+  line `ककएिएस्व र् ण बाण्ड, 1998 अक्िप्रेिहैं;`
+  line `(ि) “ अक्िदािा ” सेअक्िप्रेिहै कोईव्य क्् ट,क्हन्दू अक्विविकुटुम्ब,ककसीन्या सकेन्या सी,कोईफमणयाकम्प िी,`
+  line `जोिारिमेंक्िवासीहैयाक्िवासीहैंऔरक्जसिेयाक्जन्हों िेस्व र् ण बाण्ड मेंआरंिि:अक्िदायककयाहै। स्`
+  line `प ् टी करर् –– इसिंडकेप्रयोजिोंकेक्लए, “ व् य क्् ट ” पदकेअन्ि िण िक्िम्ि क् लक्िििीहैं, ––`
+  line `( i )उसकेक्वक्िकवाररस;या`
+  line `( ii )जहांक्हन्दू अक्विि कुटुम्ब केसदस्यों केबीचक्विाजिहोियाहैवहांऐसेकुटुम्ब काप्रत्ये क`
+  line `सदस्य क् जसकास्व र् ण बाण्डों मेंकोईअंशहै;`
+  line `(ि)अन्य सिीशब्दों औरपदोंके,जोइसअक्िक्ियममें प्र युि हैंककन्िु पररिाक्षििहींहैं,औरआय - कर`
+  line `अक्िक्ियम, 1961 ( 1961 का 43 )मेंपररिाक्षिहैं,वहीअथणहैंजोउसअक्िक्ियममेंहैं।`
+  line `3. स् व र् ण बाण्ड स् की म –– ( 1 )केन्री यसरकार,राजपत्रमेंअक्िसूचिाद्वारा,इसअक्िक्ियमकेप्रारंिकीिारीिकोयाउसके`
+  line `प श् चा ि्,ककन्िु क् वक्िर्दण्ट िारीिकेपूवण,स्व र् ण बाण्ड, 1998 मेंअक्िदायकेक्लएस्की मबिासकेिी। स्`
+  line `प ् टी करर् –– इसउपिाराकेप्रयोजिोंकेक्लए “ क् वक्िर्दण्ट िारीि ” से, 31 माचण, 1993 याऐसीअन्य पश्चा त् विीिारीि`
+  line `अक्िप्रेिहैजोकेन्री यसरकार,रा जपत्रमेंअक्िसूचिाद्वारा,इसक्िक्मत्तक्वक्िर्दण्ट करे।`
+  line `( 2 )उपिारा( 1 )केअिीिबिाईिईस्की म,बिाईजािेकेपश्चा ि्यथाशीघ्र,संसद्केप्रत्ये कसदिकेसमक्षरिीजाएिी।`
+  line `4. उन्मु क् ि यां –– ( 1 )िि - करअक्िक्ियम, 1957 ( 1957 का 27 ),दाि - करअक्िक्ियम, 1958 ( 19 58 का 18 ),आय - कर`
+  line `अक्िक्ियम, 1961 ( 1961 का 43 ), सीमा - शुल्क अक्िक्ियम, 1962 ( 1962 का 52 ),क्वदेशीमुराक्वक्ियमिअक्िक्ियम, 1973`
+  line `( 1973 का 46 )औरक्वदेशीअक्िदाय(क्वक्ियमि)अक्िक्ियम, 1976 ( 1976 का 49 )मेंककसीबािकेहोिेहुएिी, – –`
+  line `(क)ककसीअक्िदािासे,ककसीिीप्रयोजिकेक्लए,स्व र् ण बाण्ड केक्लएअक्िदत्तस्व र् ण कीप्रकृक्िऔरउसकेअजणि`
+  line `के स्र ो ि को,क्जसकेअन्ि िणिउसििका स्र ो ििीहैक्जससेस्व र् ण अर्जणिककयाियाथा,प्रकटकरिेकीअपेक्षािहीं`
+  line कीजाएिी;
+  line `(ि)ककसीअक्िदािा केक्वरुद्धउि अक्िक्ियमोंमेंसेककसीकेअिीि,इसआिारपरककउि अक्िदािास्व र् ण`
+  line `बाण्ड कास्वा मीहै,कोईजांचयाअन्वे षर्प्रारंििहींककयाजाएिा;और`
+  line `(ि)इसिथ्य परकककोईअक्िदािास्व र् ण बाण्ड कास्वा मीहै,उि अक्िक्ियमोंमेंसेककसीकेअिीिकक सी`
+  line `कायणवाहीकेप्रयोजिोंकेक्लएध्या ििहींकदयाजाएिाऔरवहसाक्ष्य केरूपमेंग्राह्यहोिा:`
+  line `परन्िु इसउपिाराकीकोईबािवहांलािूिहींहोिीजहांपूवोि अक्िक्ियमोंमेंसे,ककसीकेउपबंिोंकेअिुसारअक्िदािा द्व`
+  line `ाराअक्िदत्तस्व र् ण कीबाबिकोईकायण वाहीइसअक्िक्ियमकेप्रारंिसेपहलेहीशुरूकरदीिईहो।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-( 2 )उपिारा( 1 )कीकोईबाि,िारिीयदंडसंक्हिा( 1860 का 45 )केअध्या य 9 याअध्या य 17,स्वा पकऔषक्िऔर
-मि:प्रिावीपदाथणअक्िक्ियम, 1985 ( 1985 का 61 ),आिंकवादीऔरक्वध्वं सककियाकलाप(क्ि वारर्)अक्िक्ियम, 1987
-( 1987 का 28 )औरभ्र्टा चारक्िवारर्अक्िक्ियम, 1988 ( 1988 का 49 )केअिीिदंडिीयककसीअपरािके अ क् ियोजिकेसंबंिमें
-याककसीक्सक्वलदाक्यत्व केप्रविणिकेप्रयोजिकेक्लएलािूिहींहो िी।
-5. कक्िपयदशाओंमेंस्व र् ण बाण्डों काक्हसाबमेंिक्ल याजािा –– िारा 4 केउपबंिोंकीव्या पकिापरप्रक्िकूलप्रिावडाले क्
-बिा, ––
-(क)आय - करअक्िक्ियम, 1961 ( 1961 का 43 )केउपबंिक्िम्ि क् लक्ििकोलािूिहींहोंिे ––
-( i )अक्िदािाकोस्व र् ण बाण्डों सेप्रोद्िूिहोिेवालाकोईब्या ज;
-( ii )अक्िदािाकोउद्िूिहोिे वालाकोईदीर्णकाक्लकपूंजीअक्िलाि;
-(ि)दाि - करअक्िक्ियम, 1958 ( 1958 का 18 )केउपबंिवहांलािूि हींहोंिेजहांककसीअक्िदािाद्वारा,जो
-कोईव्य क्् ट है,स्व र् ण बाण्ड कादािअपिेपक्ियापत्िी,संिािअथवामािायाक्पिाकोककयाजािाहै।
-6. क् िरसिऔरव्या वृक्त्तयां –– ( 1 ) स् व र् ण बाण्ड (उन्मु क् ि औरछूट)अध्या देश, 1993 ( 1993 काअध्या देशसंखयां क 22 )इसके द्व
-ाराक्िरक्सिककयाजािाहै।
-( 2 )ऐसेक्िरसिकेहोिेहुएिी,उि अध्या देशकेअिीिकीिईकोईबाियाकारणवाई,इसअक्िक्ियमकेित्स्था िी
-उपबंिोंकेअिी िकीिईसमझीजाएिी।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `( 2 )उपिारा( 1 )कीकोईबाि,िारिीयदंडसंक्हिा( 1860 का 45 )केअध्या य 9 याअध्या य 17,स्वा पकऔषक्िऔर`
+  line `मि:प्रिावीपदाथणअक्िक्ियम, 1985 ( 1985 का 61 ),आिंकवादीऔरक्वध्वं सककियाकलाप(क्ि वारर्)अक्िक्ियम, 1987`
+  line `( 1987 का 28 )औरभ्र्टा चारक्िवारर्अक्िक्ियम, 1988 ( 1988 का 49 )केअिीिदंडिीयककसीअपरािके अ क् ियोजिकेसंबंिमें`
+  line `याककसीक्सक्वलदाक्यत्व केप्रविणिकेप्रयोजिकेक्लएलािूिहींहो िी।`
+  line `5. कक्िपयदशाओंमेंस्व र् ण बाण्डों काक्हसाबमेंिक्ल याजािा –– िारा 4 केउपबंिोंकीव्या पकिापरप्रक्िकूलप्रिावडाले क्`
+  line `बिा, ––`
+  line `(क)आय - करअक्िक्ियम, 1961 ( 1961 का 43 )केउपबंिक्िम्ि क् लक्ििकोलािूिहींहोंिे ––`
+  line `( i )अक्िदािाकोस्व र् ण बाण्डों सेप्रोद्िूिहोिेवालाकोईब्या ज;`
+  line `( ii )अक्िदािाकोउद्िूिहोिे वालाकोईदीर्णकाक्लकपूंजीअक्िलाि;`
+  line `(ि)दाि - करअक्िक्ियम, 1958 ( 1958 का 18 )केउपबंिवहांलािूि हींहोंिेजहांककसीअक्िदािाद्वारा,जो`
+  line `कोईव्य क्् ट है,स्व र् ण बाण्ड कादािअपिेपक्ियापत्िी,संिािअथवामािायाक्पिाकोककयाजािाहै।`
+  line `6. क् िरसिऔरव्या वृक्त्तयां –– ( 1 ) स् व र् ण बाण्ड (उन्मु क् ि औरछूट)अध्या देश, 1993 ( 1993 काअध्या देशसंखयां क 22 )इसके द्व`
+  line ाराक्िरक्सिककयाजािाहै।
+  line `( 2 )ऐसेक्िरसिकेहोिेहुएिी,उि अध्या देशकेअिीिकीिईकोईबाियाकारणवाई,इसअक्िक्ियमकेित्स्था िी`
+  line `उपबंिोंकेअिी िकीिईसमझीजाएिी।`
+  line ______
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line

@@ -1,71 +1,63 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:17:52.890Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1450`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 24)
-  (str totalSections) (int 24)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:17:52.890Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1450`
+  completeFetch true
+  maxSections null
+  sectionCount 24
+  totalSections 24
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-railway-protection-force-act-1957)
-  (str handle) (str 1450)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Railway Protection Force Act, 1957`)
-  (str actNumber) (str 23)
-  (str enactmentDate) (str 1957-08-29)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1450`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `रेल संरक्षण बल अधिनियम, 1957`)
-  (str actYear) (str 1957)
-  (str ministry) (str `Ministry of Railways`)
-  (str longTitle) (str `An Act to provide for the constitution and regulation of an armed Force of the Union for the better protection and security of railway property, passenger area and passengers and for matters connected therewith.`)
-  (str enforcementDate) (str 10-09-1959)
-  (str notification) (str `10th September 1959, vide notification No. 58-security/16/9, dated 10-9-1959, see Gazette of India, Extraordinary, Part II, s. 1. Extended to Goa, Daman and Diu with modifications, by Reg. 12 of 1962, s. 3 and Schedule. The Act comes into force in Pondicherry on 1-10-1963, s. 3 and Schedule I. Extended to and brought into force in Dadra and Nagar Haveli (w.e.f. 1-7-1965) by Reg. 6 of 1963, s. 2 and Schedule I.`)
-  (str fetchedAt) (str `2026-05-09T00:31:19.547Z`)
-  (str translations) obj_root_law_translations
+  slug the-railway-protection-force-act-1957
+  handle (1450)
+  collectionHandle 123456789/1362
+  title `The Railway Protection Force Act, 1957`
+  actNumber (23)
+  enactmentDate 1957-08-29
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1450`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `रेल संरक्षण बल अधिनियम, 1957`
+  actYear (1957)
+  ministry `Ministry of Railways`
+  longTitle `An Act to provide for the constitution and regulation of an armed Force of the Union for the better protection and security of railway property, passenger area and passengers and for matters connected therewith.`
+  enforcementDate 10-09-1959
+  notification `10th September 1959, vide notification No. 58-security/16/9, dated 10-9-1959, see Gazette of India, Extraordinary, Part II, s. 1. Extended to Goa, Daman and Diu with modifications, by Reg. 12 of 1962, s. 3 and Schedule. The Act comes into force in Pondicherry on 1-10-1963, s. 3 and Schedule I. Extended to and brought into force in Dadra and Nagar Haveli (w.e.f. 1-7-1965) by Reg. 6 of 1963, s. 2 and Schedule I.`
+  fetchedAt `2026-05-09T00:31:19.547Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_railway_protection_force_act_1957
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1450`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1450`
 obj_root_law_sources_en_the_railway_protection_force_act_1957:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1450/5/a1957-23.pdf`)
-  (str title) (str `The Railway Protection Force Act, 1957`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1450/5/a1957-23.pdf`
+  title `The Railway Protection Force Act, 1957`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00001_195723_1517807317103/rulesindividualfile/&file=rpf_rules%2C_1987.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00001_195723_1517807317103/rulesindividualfile/&file=rpf_rules%2C_1987.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1957
 obj_root_law_sources_hi_1957:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1450/3/H1957-23.pdf`)
-  (str title) (str `रेल संरक्षण बल अधिनियम, 1957`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1450/3/H1957-23.pdf`
+  title `रेल संरक्षण बल अधिनियम, 1957`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -91,646 +83,733 @@ obj_root_law_sections:
   obj_root_law_sections_21
   obj_root_law_sections_22
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 14608)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Railway Protection
-Force Act, 1957.
-
-(2) It extends to the whole of India.
-
-(3) It shall come into force on such date ^1
-as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. 10th September 1959, vide notification No. 58-security/16/9, dated 10-9-1959, see Gazette of India, Extraordinary, Part II, s. 1.
-Extended to Goa, Daman and Diu with modifications, by Reg. 12 of 1962, s. 3 and Schedule.
-The Act comes into force in Pondicherry on 1-10-1963, s. 3 and Schedule I.
-Extended to and brought into force in Dadra and Nagar Haveli (w.e.f. 1-7-1965) by Reg. 6 of 1963, s. 2 and Schedule I.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14608&sectionno=1&orderno=1&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14608)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14608&sectionno=1&orderno=1&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Railway Protection`
+  line `Force Act, 1957.`
+  line
+  line `(2) It extends to the whole of India.`
+  line
+  line `(3) It shall come into force on such date ^1`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 10th September 1959, vide notification No. 58-security/16/9, dated 10-9-1959, see Gazette of India, Extraordinary, Part II, s. 1.`
+  line `Extended to Goa, Daman and Diu with modifications, by Reg. 12 of 1962, s. 3 and Schedule.`
+  line `The Act comes into force in Pondicherry on 1-10-1963, s. 3 and Schedule I.`
+  line `Extended to and brought into force in Dadra and Nagar Haveli (w.e.f. 1-7-1965) by Reg. 6 of 1963, s. 2 and Schedule I.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 14609)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `^1[(1)] In this Act, unless the context otherwise requires,--
-
-(a) "Force" means the Railway Protection Force constituted under section 3;
-
-^2[(b) "Director-General" means the Director-General of the Force appointed under sub-section (1)
-of section 4;
-
-(ba) "enrolled member of the Force" means any subordinate officer, under officer or any other
-member of the Force of a rank lower than that of under officer;
-
-(bb) "Force custody" means the arrest or confinement of a member of the Force in accordance
-with rules made under this Act;]
-
-(c) "member of the Force" means a person appointed to the Force under this Act ^3* * *;
-
-^4[(ca) "passenger" shall have the meaning assigned to it in the Railways Act, 1989 (24 of 1989)
-
-(cb) "passenger area" shall include railway platform, train, yard and such other area as is
-frequently visited by passengers;]
-
-(d) "prescribed" mean prescribed by rules made under this Act;
-
-(e) "railway property" includes any goods, money or valuable security, or animal, belonging to,
-or in the charge or possession of, a railway administration;
-
-^5[(ea) "subordinate officer" means a person appointed to the Force as an Inspector, Sub-Inspector
-or an Assistant Sub-Inspector;]
-
-(f) "superior officer" means any of the officers appointed under section 4 and includes any other
-officer appointed by the Central Government as a superior officer of the Force;
-
-^6[(fa) "under officer" means a person appointed to the Force as a Head Constable or Naik;]
-
-(g) words and expressions used but not defined in this Act and defined in the Indian Railways
-Act, 1890 (9 of 1890), shall have the meanings respectively assigned to them under that Act.
-
-^6[(2) Any reference in this act to a law which is not in force in any area shall in relation to that area,
-be construed as a reference to the corresponding law, if any, in force in that area.]`)
-  (str footnotes) (str `1. Section 2 renumbered as sub-section (1) thereof by Act 60 of 1985, s. 3 (w.e.f. 20-9-1985).
-
-2. Subs. by s. 3, ibid., for clause (b) (w.e.f. 20-9-85).
-
-3. The words "other than a superior officer" omitted by s. 3, ibid. (w.e.f. 20-9-1985).
-
-4. Ins. by Act 52 of 2003, s. 3 (w.e.f. 1-7-2004).
-
-5. Ins. by Act 60 of 1985, s. 3(w.e.f. 20-9-1985).
-
-6. Ins. by Act 60 of 1985, s. 3 (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14609&sectionno=2&orderno=2&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14609)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14609&sectionno=2&orderno=2&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_2_content:
+  string
+  line `^1[(1)] In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "Force" means the Railway Protection Force constituted under section 3;`
+  line
+  line `^2[(b) "Director-General" means the Director-General of the Force appointed under sub-section (1)`
+  line `of section 4;`
+  line
+  line `(ba) "enrolled member of the Force" means any subordinate officer, under officer or any other`
+  line `member of the Force of a rank lower than that of under officer;`
+  line
+  line `(bb) "Force custody" means the arrest or confinement of a member of the Force in accordance`
+  line `with rules made under this Act;]`
+  line
+  line `(c) "member of the Force" means a person appointed to the Force under this Act ^3* * *;`
+  line
+  line `^4[(ca) "passenger" shall have the meaning assigned to it in the Railways Act, 1989 (24 of 1989)`
+  line
+  line `(cb) "passenger area" shall include railway platform, train, yard and such other area as is`
+  line `frequently visited by passengers;]`
+  line
+  line `(d) "prescribed" mean prescribed by rules made under this Act;`
+  line
+  line `(e) "railway property" includes any goods, money or valuable security, or animal, belonging to,`
+  line `or in the charge or possession of, a railway administration;`
+  line
+  line `^5[(ea) "subordinate officer" means a person appointed to the Force as an Inspector, Sub-Inspector`
+  line `or an Assistant Sub-Inspector;]`
+  line
+  line `(f) "superior officer" means any of the officers appointed under section 4 and includes any other`
+  line `officer appointed by the Central Government as a superior officer of the Force;`
+  line
+  line `^6[(fa) "under officer" means a person appointed to the Force as a Head Constable or Naik;]`
+  line
+  line `(g) words and expressions used but not defined in this Act and defined in the Indian Railways`
+  line `Act, 1890 (9 of 1890), shall have the meanings respectively assigned to them under that Act.`
+  line
+  line `^6[(2) Any reference in this act to a law which is not in force in any area shall in relation to that area,`
+  line `be construed as a reference to the corresponding law, if any, in force in that area.]`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. Section 2 renumbered as sub-section (1) thereof by Act 60 of 1985, s. 3 (w.e.f. 20-9-1985).`
+  line
+  line `2. Subs. by s. 3, ibid., for clause (b) (w.e.f. 20-9-85).`
+  line
+  line `3. The words "other than a superior officer" omitted by s. 3, ibid. (w.e.f. 20-9-1985).`
+  line
+  line `4. Ins. by Act 52 of 2003, s. 3 (w.e.f. 1-7-2004).`
+  line
+  line `5. Ins. by Act 60 of 1985, s. 3(w.e.f. 20-9-1985).`
+  line
+  line `6. Ins. by Act 60 of 1985, s. 3 (w.e.f. 20-9-1985).`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 14610)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Constitution of the Force.`)
-  (str content) (str `(1) There shall be constituted and maintained by the Central
-Government a ^1[an armed Force of the Union] to be called the Railway Protection Force for the better
-protection and security of railway property.
-
-(2) The force shall be constituted in such manner shall consist of such number of ^2[superior
-officers subordinate officers, under officers and other enrolled members] of the Force and shall receive
-such pay and other renumeration as maybe prescribed.`)
-  (str footnotes) (str `1. Subs. by s. 4, ibid., for "a Force" (w.e.f. 20-9-1985).
-
-2. Subs. by s. 4, ibid., for "superior officers and members" (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14610&sectionno=3&orderno=3&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14610)
+  sectionNo (3)
+  orderNo 3
+  title `Constitution of the Force.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14610&sectionno=3&orderno=3&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_3_content:
+  string
+  line `(1) There shall be constituted and maintained by the Central`
+  line `Government a ^1[an armed Force of the Union] to be called the Railway Protection Force for the better`
+  line `protection and security of railway property.`
+  line
+  line `(2) The force shall be constituted in such manner shall consist of such number of ^2[superior`
+  line `officers subordinate officers, under officers and other enrolled members] of the Force and shall receive`
+  line `such pay and other renumeration as maybe prescribed.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. Subs. by s. 4, ibid., for "a Force" (w.e.f. 20-9-1985).`
+  line
+  line `2. Subs. by s. 4, ibid., for "superior officers and members" (w.e.f. 20-9-1985).`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 14611)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Appointment and powers of superior officers.`)
-  (str content) (str `^1[(1) The Central Government may appoint a
-person to be the Director-General of the Force and may appoint other persons to be Inspector-General,
-Additional Inspector-General, Deputy Inspector-General, Assistant Inspector-General, Senior
-Commandants, Commandants or Assistant Commandants of the Force.]
-
-(2) The ^2[Director-General] and every other superior officer so appointed shall posses and exercise
-such powers and authority over the members of the Force under their respective commands as is provided
-by or under this Act.`)
-  (str footnotes) (str `1 Subs. by s. 5, ibid., for sub-section (1) (w.e.f. 20-9-1985).
-
-2 Subs. by s. 5, ibid., for "Inspector-General" (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14611&sectionno=4&orderno=4&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14611)
+  sectionNo (4)
+  orderNo 4
+  title `Appointment and powers of superior officers.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14611&sectionno=4&orderno=4&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_4_content:
+  string
+  line `^1[(1) The Central Government may appoint a`
+  line `person to be the Director-General of the Force and may appoint other persons to be Inspector-General,`
+  line `Additional Inspector-General, Deputy Inspector-General, Assistant Inspector-General, Senior`
+  line `Commandants, Commandants or Assistant Commandants of the Force.]`
+  line
+  line `(2) The ^2[Director-General] and every other superior officer so appointed shall posses and exercise`
+  line `such powers and authority over the members of the Force under their respective commands as is provided`
+  line `by or under this Act.`
+obj_root_law_sections_4_footnotes:
+  string
+  line `1 Subs. by s. 5, ibid., for sub-section (1) (w.e.f. 20-9-1985).`
+  line
+  line `2 Subs. by s. 5, ibid., for "Inspector-General" (w.e.f. 20-9-1985).`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 14612)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str [Omitted.].)
-  (str content) (str `5. [Classes and ranks among members of the Force.]--Omitted by the Railway Protection Force
-(Amendment) Act, 1985 (60 of 1985), s. 6 (w.e.f. 20-9-1985).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14612&sectionno=5&orderno=5&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14612)
+  sectionNo (5)
+  orderNo 5
+  title [Omitted.].
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14612&sectionno=5&orderno=5&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_5_content:
+  string
+  line `5. [Classes and ranks among members of the Force.]--Omitted by the Railway Protection Force`
+  line `(Amendment) Act, 1985 (60 of 1985), s. 6 (w.e.f. 20-9-1985).`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 14613)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Appointment of members of the Force.`)
-  (str content) (str `^1[6. Appointment of members of the Force.--The appointment of enrolled members of the Force
-shall rest with the Inspector-General, Additional Inspector-General or Deputy Inspector-General who
-shall exercise that power in accordance with rules made under this Act:
-
-Provided that the power of appointment under this section may also be exercised by other superior
-officer as the Inspector-General, Additional Inspector-General or Deputy Inspector-General concerned
-may, by order, specify in this behalf.]`)
-  (str footnotes) (str `1. Subs. bys. 7, ibid., for s. 6 (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14613&sectionno=6&orderno=6&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14613)
+  sectionNo (6)
+  orderNo 6
+  title `Appointment of members of the Force.`
+  content obj_root_law_sections_6_content
+  footnotes `1. Subs. bys. 7, ibid., for s. 6 (w.e.f. 20-9-1985).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14613&sectionno=6&orderno=6&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_6_content:
+  string
+  line `^1[6. Appointment of members of the Force.--The appointment of enrolled members of the Force`
+  line `shall rest with the Inspector-General, Additional Inspector-General or Deputy Inspector-General who`
+  line `shall exercise that power in accordance with rules made under this Act:`
+  line
+  line `Provided that the power of appointment under this section may also be exercised by other superior`
+  line `officer as the Inspector-General, Additional Inspector-General or Deputy Inspector-General concerned`
+  line `may, by order, specify in this behalf.]`
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 14614)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Certificates to members of the Forces.`)
-  (str content) (str `(1) Every member of the Force shall receive on his
-appointment a certificate in the form specified in the Schedule, under the seal of the ^1[Inspector-General,
-Additional Inspector-General or Deputy Inspector-General] or such other superior officer as the
-a
-^1[Inspector-General, Additional Inspector-General or Deputy Inspector-General] may specify in this
-behalf by virtue of which the person holding such certificate shall be vested with the powers of a member
-of the Force.
-
-(2) Such certificate shall cease to have effect whenever the person named in it ceases for any reason
-to be a member of the Force^2* * *.`)
-  (str footnotes) (str `1. Subs. by s. 8, ibid., for "Chief Security Officer" (w.e.f. 20-9-1985).
-
-2. Certain words omitted by s. 8, ibid. (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14614&sectionno=7&orderno=7&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14614)
+  sectionNo (7)
+  orderNo 7
+  title `Certificates to members of the Forces.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14614&sectionno=7&orderno=7&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_7_content:
+  string
+  line `(1) Every member of the Force shall receive on his`
+  line `appointment a certificate in the form specified in the Schedule, under the seal of the ^1[Inspector-General,`
+  line `Additional Inspector-General or Deputy Inspector-General] or such other superior officer as the`
+  line a
+  line `^1[Inspector-General, Additional Inspector-General or Deputy Inspector-General] may specify in this`
+  line `behalf by virtue of which the person holding such certificate shall be vested with the powers of a member`
+  line `of the Force.`
+  line
+  line `(2) Such certificate shall cease to have effect whenever the person named in it ceases for any reason`
+  line `to be a member of the Force^2* * *.`
+obj_root_law_sections_7_footnotes:
+  string
+  line `1. Subs. by s. 8, ibid., for "Chief Security Officer" (w.e.f. 20-9-1985).`
+  line
+  line `2. Certain words omitted by s. 8, ibid. (w.e.f. 20-9-1985).`
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 14615)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Superintendence and administration of the Force.`)
-  (str content) (str `^1[8. Superintendence and administration of the Force.--(1) The superintendence of the Force shall
-vest in the Central Government, and subject thereto and to the provisions of this Act and of any rules
-made thereunder, the command supervision and administration of the Force shall vest in the DirectorGeneral.
-
-(2) Subject to the provisions of sub-section (1), the administration of the Force, within such local
-limits in relation to a railway as may be prescribed shall be carried on by an Inspector-General, an
-Additional Inspector-General or a Deputy Inspector-General in accordance with the provisions of this Act
-and of any rules made thereunder and they shall, subject to any direction that may be given by the Central
-Government or the Director-General in this behalf discharge his function under the general supervision of
-the General Manager of the Railway.`)
-  (str footnotes) (str `1 . Subs. by Act 60 of 1985 s. 9, for section 8 (w.e.f. 20-9-1985)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14615&sectionno=8&orderno=8&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14615)
+  sectionNo (8)
+  orderNo 8
+  title `Superintendence and administration of the Force.`
+  content obj_root_law_sections_8_content
+  footnotes `1 . Subs. by Act 60 of 1985 s. 9, for section 8 (w.e.f. 20-9-1985)`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14615&sectionno=8&orderno=8&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_8_content:
+  string
+  line `^1[8. Superintendence and administration of the Force.--(1) The superintendence of the Force shall`
+  line `vest in the Central Government, and subject thereto and to the provisions of this Act and of any rules`
+  line `made thereunder, the command supervision and administration of the Force shall vest in the DirectorGeneral.`
+  line
+  line `(2) Subject to the provisions of sub-section (1), the administration of the Force, within such local`
+  line `limits in relation to a railway as may be prescribed shall be carried on by an Inspector-General, an`
+  line `Additional Inspector-General or a Deputy Inspector-General in accordance with the provisions of this Act`
+  line `and of any rules made thereunder and they shall, subject to any direction that may be given by the Central`
+  line `Government or the Director-General in this behalf discharge his function under the general supervision of`
+  line `the General Manager of the Railway.`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 14616)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Dismissal, removal, etc., of members of the force.`)
-  (str content) (str `(1) Subject to the provisions of article 311 of
-the Constitution and to such rules as the Central Government may make under this Act, any superior
-officer may--
-
-(i) dismiss, suspend or reduce in rank any ^1[enrolled member] of the Force whom he shall think
-remiss or negligent in the discharge of his duty, or unfit for the same; or
-
-(ii) award any one or more of the following punishments to any ^2[enrolled member] of the Force
-who discharges his duty in a careless or negligent manner, or who by any act of his own renders
-himself unfit for the discharge thereof, namely:--
-
-(a) fine to any amount not exceeding seven day's pay or reduction in pay scale;
-
-(b) confinement to quarters for a period not exceeding fourteen days with or without
-punishment, drill, extra guard, fatigue or other duty;
-
-(c) removal from any office of distinction or deprivation of any special emolument.
-
-^3[(2) Any enrolled member of the force aggrieved by an order made under sub-section (1) may, within
-within thirty days from the date on which the order is communicated to him prefer an appeal against the
-order to such authority as may be prescribed:
-
-Provided that the prescribed authority may entertain the appeal after the expiry of the said period of
-thirty days if it is satisfied that the appellant was prevented by sufficient cause from filing the appeal in
-time.
-
-(3)In disposing of the appeal, the prescribed authority shall follow such procedure as may be
-prescribed:
-
-Provided that no order imposing an enhanced penalty under sub-section (2) shall be made unless a
-reasonable opportunity of being heard has been given to the person affected by such order.]`)
-  (str footnotes) (str `1. Subs. by Act 60 of 1985 s. 9, for section 8 (w.e.f. 20-9-1985).
-
-2. Subs.bys. 10, ibid., for "member" (w.e.f. 20-9-1985).
-
-3. Subs. by s. 10, ibid., for sub-section (2) (w.e.f. 20-9-1985)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14616&sectionno=9&orderno=9&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14616)
+  sectionNo (9)
+  orderNo 9
+  title `Dismissal, removal, etc., of members of the force.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14616&sectionno=9&orderno=9&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_9_content:
+  string
+  line `(1) Subject to the provisions of article 311 of`
+  line `the Constitution and to such rules as the Central Government may make under this Act, any superior`
+  line `officer may--`
+  line
+  line `(i) dismiss, suspend or reduce in rank any ^1[enrolled member] of the Force whom he shall think`
+  line `remiss or negligent in the discharge of his duty, or unfit for the same; or`
+  line
+  line `(ii) award any one or more of the following punishments to any ^2[enrolled member] of the Force`
+  line `who discharges his duty in a careless or negligent manner, or who by any act of his own renders`
+  line `himself unfit for the discharge thereof, namely:--`
+  line
+  line `(a) fine to any amount not exceeding seven day's pay or reduction in pay scale;`
+  line
+  line `(b) confinement to quarters for a period not exceeding fourteen days with or without`
+  line `punishment, drill, extra guard, fatigue or other duty;`
+  line
+  line `(c) removal from any office of distinction or deprivation of any special emolument.`
+  line
+  line `^3[(2) Any enrolled member of the force aggrieved by an order made under sub-section (1) may, within`
+  line `within thirty days from the date on which the order is communicated to him prefer an appeal against the`
+  line `order to such authority as may be prescribed:`
+  line
+  line `Provided that the prescribed authority may entertain the appeal after the expiry of the said period of`
+  line `thirty days if it is satisfied that the appellant was prevented by sufficient cause from filing the appeal in`
+  line time.
+  line
+  line `(3)In disposing of the appeal, the prescribed authority shall follow such procedure as may be`
+  line `prescribed:`
+  line
+  line `Provided that no order imposing an enhanced penalty under sub-section (2) shall be made unless a`
+  line `reasonable opportunity of being heard has been given to the person affected by such order.]`
+obj_root_law_sections_9_footnotes:
+  string
+  line `1. Subs. by Act 60 of 1985 s. 9, for section 8 (w.e.f. 20-9-1985).`
+  line
+  line `2. Subs.bys. 10, ibid., for "member" (w.e.f. 20-9-1985).`
+  line
+  line `3. Subs. by s. 10, ibid., for sub-section (2) (w.e.f. 20-9-1985)`
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 14617)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Officers and members of the Force to be deemed to be railway servants.`)
-  (str content) (str `^1[Director-General
-and every member of the Force] shall for all purposes be regarded as railway servants with the meaning of
-the Indian Railways Act, 1890 (9 of 1890), other than Chapter VIA thereof, and shall be entitled to
-exercise the powers conferred on railway servants by or under that Act.`)
-  (str footnotes) (str `1. Subs. by s. 18 and the Schedule, ibid., for certain words (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14617&sectionno=10&orderno=10&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14617)
+  sectionNo (10)
+  orderNo 10
+  title `Officers and members of the Force to be deemed to be railway servants.`
+  content obj_root_law_sections_10_content
+  footnotes `1. Subs. by s. 18 and the Schedule, ibid., for certain words (w.e.f. 20-9-1985).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14617&sectionno=10&orderno=10&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_10_content:
+  string
+  line ^1[Director-General
+  line `and every member of the Force] shall for all purposes be regarded as railway servants with the meaning of`
+  line `the Indian Railways Act, 1890 (9 of 1890), other than Chapter VIA thereof, and shall be entitled to`
+  line `exercise the powers conferred on railway servants by or under that Act.`
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 14618)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Duties of members of the Force.`)
-  (str content) (str `^1[11. Duties of members of the Force.-- It shall be the duty of every superior officer and member of
-the Force--
-
-(a) promptly to execute all orders lawfully issued to him by his superior authority;
-
-(b) to protect and safeguard railway property, passenger area and passengers;
-
-(c) to remove any obstruction in the movement of railway property or passenger area; and
-
-(d) to do any other act conducive to the better protection and security of railway property,
-passenger area and passengers.]`)
-  (str footnotes) (str `1. Subs. by Act 52 of 2003, s. 4, for section 11 (w.e.f. 1-7-2004).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14618&sectionno=11&orderno=11&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14618)
+  sectionNo (11)
+  orderNo 11
+  title `Duties of members of the Force.`
+  content obj_root_law_sections_11_content
+  footnotes `1. Subs. by Act 52 of 2003, s. 4, for section 11 (w.e.f. 1-7-2004).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14618&sectionno=11&orderno=11&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_11_content:
+  string
+  line `^1[11. Duties of members of the Force.-- It shall be the duty of every superior officer and member of`
+  line `the Force--`
+  line
+  line `(a) promptly to execute all orders lawfully issued to him by his superior authority;`
+  line
+  line `(b) to protect and safeguard railway property, passenger area and passengers;`
+  line
+  line `(c) to remove any obstruction in the movement of railway property or passenger area; and`
+  line
+  line `(d) to do any other act conducive to the better protection and security of railway property,`
+  line `passenger area and passengers.]`
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 14619)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Power to arrest without warrant.`)
-  (str content) (str `^1[12. Power to arrest without warrant.--Any member of the Force may, without an order from a
-Magistrate and without a warrant, arrest--
-
-(i) any person who voluntarily causes hurt to, or attempts voluntarily to cause hurt to, or
-wrongfully restrains or attempts wrongfully to restrain, or assaults, threatens to assault, or uses, or
-threatens or attempts to use, criminal force to him or any other member of the Force in the execution
-of his duty as such member, or with intent to prevent or to deter him from discharging his duty as
-such member, or in consequence of anything done or attempted to be done by him in the lawful
-discharge of his duty as such member; or
-
-(ii) any person who has been concerned in, or against whom a reasonable suspicion exists of his
-having been concerned in, or who is found taking precautions to conceal his presence under
-circumstances which afford reason to believe that he is taking such precautions with a view to
-committing a cognizable offence which relates to ^2[railway property, passenger area and passengers];
-or
-
-(iii) any person found taking precautions to conceal his presence within the railway limits under
-circumstances which afford reason to believe that he is taking such precautions with a view to
-committing theft of, or damage to, ^2[railway property, passenger area and passengers]; or
-
-(iv) any person who commits or attempts to commit a cognizable offence which involves or
-which is likely to involve imminent danger to the life of any person engaged in carrying on any work
-relating to ^2[railway property, passenger area and passengers].]`)
-  (str footnotes) (str `1. Subs. by Act 60 of 1985, s. 11, for section 12 (w.e.f. 20-9-1985).
-
-2. Subs. by Act 52 of 2003, s. 5, for "railway property" (w.e.f. 1-7-2004).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14619&sectionno=12&orderno=12&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14619)
+  sectionNo (12)
+  orderNo 12
+  title `Power to arrest without warrant.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14619&sectionno=12&orderno=12&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_12_content:
+  string
+  line `^1[12. Power to arrest without warrant.--Any member of the Force may, without an order from a`
+  line `Magistrate and without a warrant, arrest--`
+  line
+  line `(i) any person who voluntarily causes hurt to, or attempts voluntarily to cause hurt to, or`
+  line `wrongfully restrains or attempts wrongfully to restrain, or assaults, threatens to assault, or uses, or`
+  line `threatens or attempts to use, criminal force to him or any other member of the Force in the execution`
+  line `of his duty as such member, or with intent to prevent or to deter him from discharging his duty as`
+  line `such member, or in consequence of anything done or attempted to be done by him in the lawful`
+  line `discharge of his duty as such member; or`
+  line
+  line `(ii) any person who has been concerned in, or against whom a reasonable suspicion exists of his`
+  line `having been concerned in, or who is found taking precautions to conceal his presence under`
+  line `circumstances which afford reason to believe that he is taking such precautions with a view to`
+  line `committing a cognizable offence which relates to ^2[railway property, passenger area and passengers];`
+  line or
+  line
+  line `(iii) any person found taking precautions to conceal his presence within the railway limits under`
+  line `circumstances which afford reason to believe that he is taking such precautions with a view to`
+  line `committing theft of, or damage to, ^2[railway property, passenger area and passengers]; or`
+  line
+  line `(iv) any person who commits or attempts to commit a cognizable offence which involves or`
+  line `which is likely to involve imminent danger to the life of any person engaged in carrying on any work`
+  line `relating to ^2[railway property, passenger area and passengers].]`
+obj_root_law_sections_12_footnotes:
+  string
+  line `1. Subs. by Act 60 of 1985, s. 11, for section 12 (w.e.f. 20-9-1985).`
+  line
+  line `2. Subs. by Act 52 of 2003, s. 5, for "railway property" (w.e.f. 1-7-2004).`
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 14620)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Power to search without warrant.`)
-  (str content) (str `(1)Whenever ^1*** any member of the Force, not below the
-rank of a Senior Rakshak, has reason to believe that any such offence as is referred to in section 12 has
-been or is being committed and that a search-warrant cannot be obtained without affording the offender
-an opportunity of escaping or of concealing evidence of the offence, he may detain him and search his
-person and belongings forthwith and, if he thinks proper, arrest any person whom he has reason to believe
-to have committed the offence.
-
-(2)The provisions of the ^2[Code of Criminal Procedure, 1973 (2 of 1974)], relating to searches under
-that Code shall, so far as may be, apply to searches under this section.`)
-  (str footnotes) (str `1. The words "any superior officer or" omitted by Act 60 of 1985, s. 18 and the Schedule (w.e.f. 20-9-1985).
-
-2. Subs. by s. 18 and Schedule, ibid., for "Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14620&sectionno=13&orderno=13&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14620)
+  sectionNo (13)
+  orderNo 13
+  title `Power to search without warrant.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14620&sectionno=13&orderno=13&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_13_content:
+  string
+  line `(1)Whenever ^1*** any member of the Force, not below the`
+  line `rank of a Senior Rakshak, has reason to believe that any such offence as is referred to in section 12 has`
+  line `been or is being committed and that a search-warrant cannot be obtained without affording the offender`
+  line `an opportunity of escaping or of concealing evidence of the offence, he may detain him and search his`
+  line `person and belongings forthwith and, if he thinks proper, arrest any person whom he has reason to believe`
+  line `to have committed the offence.`
+  line
+  line `(2)The provisions of the ^2[Code of Criminal Procedure, 1973 (2 of 1974)], relating to searches under`
+  line `that Code shall, so far as may be, apply to searches under this section.`
+obj_root_law_sections_13_footnotes:
+  string
+  line `1. The words "any superior officer or" omitted by Act 60 of 1985, s. 18 and the Schedule (w.e.f. 20-9-1985).`
+  line
+  line `2. Subs. by s. 18 and Schedule, ibid., for "Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 20-9-1985).`
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 14621)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Procedure to be followed after arrest.`)
-  (str content) (str `Any ^1*** member of the Force making an arrest under
-this Act, shall, without unnecessary delay, make over the person so arrested ^2
-[to a police officer together
-with a detailed report of the circumstances leading to the arrest of such persons], or in the absence of a
-police officer, take such person or cause him to be taken to the nearest police station.`)
-  (str footnotes) (str `1. The words "superior officer or" omitted by s. 18 and the Schedule, ibid. (w.e.f. 20-9-1985).
-
-2. Subs. by Act 52 of 2003, s. 6, for "to a police officer" (w.e.f. 1-7-2004).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14621&sectionno=14&orderno=14&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14621)
+  sectionNo (14)
+  orderNo 14
+  title `Procedure to be followed after arrest.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14621&sectionno=14&orderno=14&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_14_content:
+  string
+  line `Any ^1*** member of the Force making an arrest under`
+  line `this Act, shall, without unnecessary delay, make over the person so arrested ^2`
+  line `[to a police officer together`
+  line `with a detailed report of the circumstances leading to the arrest of such persons], or in the absence of a`
+  line `police officer, take such person or cause him to be taken to the nearest police station.`
+obj_root_law_sections_14_footnotes:
+  string
+  line `1. The words "superior officer or" omitted by s. 18 and the Schedule, ibid. (w.e.f. 20-9-1985).`
+  line
+  line `2. Subs. by Act 52 of 2003, s. 6, for "to a police officer" (w.e.f. 1-7-2004).`
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 14622)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Officers and members of the Force to be considered always on duty and liable to be employed in any part of the railways.`)
-  (str content) (str `^1[(1) Every member of the Force shall, for the purposes of this
-Act, be considered to be always on duty, and shall, at any time, be liable to be employed at any place
-within India.]
-
-(2) No ^2* * * member of the Force shall engage himself in any employment or office other than his
-duties under this Act.`)
-  (str footnotes) (str `1. Subs. by Act 60 of 1985, s. 12, for sub-section (1) (w.e.f. 20-9-1985).
-
-2. The words "superior officer or" omitted by Act 60 of 1985, s. 12 (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14622&sectionno=15&orderno=15&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14622)
+  sectionNo (15)
+  orderNo 15
+  title `Officers and members of the Force to be considered always on duty and liable to be employed in any part of the railways.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14622&sectionno=15&orderno=15&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_15_content:
+  string
+  line `^1[(1) Every member of the Force shall, for the purposes of this`
+  line `Act, be considered to be always on duty, and shall, at any time, be liable to be employed at any place`
+  line `within India.]`
+  line
+  line `(2) No ^2* * * member of the Force shall engage himself in any employment or office other than his`
+  line `duties under this Act.`
+obj_root_law_sections_15_footnotes:
+  string
+  line `1. Subs. by Act 60 of 1985, s. 12, for sub-section (1) (w.e.f. 20-9-1985).`
+  line
+  line `2. The words "superior officer or" omitted by Act 60 of 1985, s. 12 (w.e.f. 20-9-1985).`
 obj_root_law_sections_15_a:
-  object
-  (str sectionId) (str 14623)
-  (str sectionNo) (str 15A)
-  (str orderNo) (int 16)
-  (str title) (str `Restrictions respecting right to Form association, etc.`)
-  (str content) (str `^1[15A. Restrictions respecting right to Form association, etc.--(1) No member of the Force shall,
-without the previous sanction in writing of the Central Government or of the prescribed authority,--
-
-(a) be a member of, or be associated in any way with, any trade union, labour union, political
-association or with any class of trade unions, labour unions or political associations; or
-
-(b) be a member of, or be associated in any way with, any other society, institution, association or
-organisation that is not recognised as part of the Force or is not of a purely social, recreational or
-religious nature; or
-
-(c) communicate with the press or publish or cause to be published any book, letter or other
-document except where such communication or publication is in the bona fide discharge of his duties
-or is of a purely literary, artistic or scientific character or is of a prescribed nature.
-
-Explanation.--If any question arises as to whether any society, institution, association or organisation
-is of a purely social, recreational or religious nature under clause (b) of this sub-section, the decision of
-the Central Government thereon shall be final.
-
-(2) No member of the Force shall participate in, or address, any meeting or take part in any
-demonstration organised by any body of persons for any political purposes or for such other purposes as
-may be prescribed.]`)
-  (str footnotes) (str `1. Ins. by s. 13, ibid. (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14623&sectionno=15A&orderno=16&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14623)
+  sectionNo 15A
+  orderNo 16
+  title `Restrictions respecting right to Form association, etc.`
+  content obj_root_law_sections_15_a_content
+  footnotes `1. Ins. by s. 13, ibid. (w.e.f. 20-9-1985).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14623&sectionno=15A&orderno=16&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_15_a_content:
+  string
+  line `^1[15A. Restrictions respecting right to Form association, etc.--(1) No member of the Force shall,`
+  line `without the previous sanction in writing of the Central Government or of the prescribed authority,--`
+  line
+  line `(a) be a member of, or be associated in any way with, any trade union, labour union, political`
+  line `association or with any class of trade unions, labour unions or political associations; or`
+  line
+  line `(b) be a member of, or be associated in any way with, any other society, institution, association or`
+  line `organisation that is not recognised as part of the Force or is not of a purely social, recreational or`
+  line `religious nature; or`
+  line
+  line `(c) communicate with the press or publish or cause to be published any book, letter or other`
+  line `document except where such communication or publication is in the bona fide discharge of his duties`
+  line `or is of a purely literary, artistic or scientific character or is of a prescribed nature.`
+  line
+  line `Explanation.--If any question arises as to whether any society, institution, association or organisation`
+  line `is of a purely social, recreational or religious nature under clause (b) of this sub-section, the decision of`
+  line `the Central Government thereon shall be final.`
+  line
+  line `(2) No member of the Force shall participate in, or address, any meeting or take part in any`
+  line `demonstration organised by any body of persons for any political purposes or for such other purposes as`
+  line `may be prescribed.]`
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 14624)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 17)
-  (str title) (str `Responsibilities of members of the Force during suspension.`)
-  (str content) (str `A member of the Force shall
-not by reason of his suspension from office cease to be a member of the Force; and he shall, during that
-period, be subject to the same responsibilities, discipline and penalties to which he would have been
-subject if he were on duty.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14624&sectionno=16&orderno=17&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14624)
+  sectionNo (16)
+  orderNo 17
+  title `Responsibilities of members of the Force during suspension.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14624&sectionno=16&orderno=17&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_16_content:
+  string
+  line `A member of the Force shall`
+  line `not by reason of his suspension from office cease to be a member of the Force; and he shall, during that`
+  line `period, be subject to the same responsibilities, discipline and penalties to which he would have been`
+  line `subject if he were on duty.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_16_a:
-  object
-  (str sectionId) (str 14625)
-  (str sectionNo) (str 16A)
-  (str orderNo) (int 18)
-  (str title) (str `Surrender of certificate, arms, etc., by persons ceasing to be members of the Force.`)
-  (str content) (str `^1[16A. Surrender of certificate, arms, etc., by persons ceasing to be members of the Force.--(1)
-Every person who for any reason ceases to be a member of the Force, shall forthwith surrender to any
-superior officer empowered to receive the same, his certificate of appointment, the arms, accoutrements,
-clothing and other articles which have been furnished to him for the performance of his duties as a
-member of the Force.
-
-(2) Any person who wilfully neglects or refuses to surrender his certificate of appointment, the arms,
-accoutrements, clothing and other articles furnished to him, as required by sub-section (1) shall on
-conviction, be punished with imprisonment for a term which may extend to one month, or with fine which
-may extend to two hundred rupees, or with both.
-
-(3) Nothing in this section shall be deemed to apply to any article which, under the orders of the
-Director-General, has become the property of the person to whom the same was furnished.]`)
-  (str footnotes) (str `1. Ins. by s. 14, ibid. (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14625&sectionno=16A&orderno=18&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14625)
+  sectionNo 16A
+  orderNo 18
+  title `Surrender of certificate, arms, etc., by persons ceasing to be members of the Force.`
+  content obj_root_law_sections_16_a_content
+  footnotes `1. Ins. by s. 14, ibid. (w.e.f. 20-9-1985).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14625&sectionno=16A&orderno=18&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_16_a_content:
+  string
+  line `^1[16A. Surrender of certificate, arms, etc., by persons ceasing to be members of the Force.--(1)`
+  line `Every person who for any reason ceases to be a member of the Force, shall forthwith surrender to any`
+  line `superior officer empowered to receive the same, his certificate of appointment, the arms, accoutrements,`
+  line `clothing and other articles which have been furnished to him for the performance of his duties as a`
+  line `member of the Force.`
+  line
+  line `(2) Any person who wilfully neglects or refuses to surrender his certificate of appointment, the arms,`
+  line `accoutrements, clothing and other articles furnished to him, as required by sub-section (1) shall on`
+  line `conviction, be punished with imprisonment for a term which may extend to one month, or with fine which`
+  line `may extend to two hundred rupees, or with both.`
+  line
+  line `(3) Nothing in this section shall be deemed to apply to any article which, under the orders of the`
+  line `Director-General, has become the property of the person to whom the same was furnished.]`
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 14626)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 19)
-  (str title) (str `Penalties for neglect of duty, etc.`)
-  (str content) (str `^1[17. Penalties for neglect of duty, etc.-- (1) Without prejudice to the provisions contained in
-section 9, every enrolled member of the Force who shall be guilty of any violation of duty or wilful
-breach or neglect of any rule or lawful order made by a superior officer, or who shall withdraw from
-duties of his office without permission, or who, being absent on leave, fails, without reasonable cause, to
-report himself for duty on the expiration of the leave, or who engages himself without authority for any
-employment other than his duty as an enrolled member of the Force, or who shall be guilty of cowardice may be taken into Force custody and shall, on conviction, be punished with imprisonment which may
-extend to one year.
-
-(2) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1973), an
-offence punishable under this section shall be cognizable and non-bailable.
-
-(3) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1973), the
-Central Government may invest Assistant Inspector-General, Senior Commandant or Commandant with
-the powers of a Magistrate of any class for the purpose of inquiring into or trying any offence committed
-by an enrolled member of the Force and punishable under this Act, or any offence committed by an
-enrolled member of the Force against the person or property of another member of the Force:
-
-Provided that--
-
-(i) when the offender is on leave or absent from duty; or
-
-(ii) when the offence is not connected with the offender's duties as an enrolled member of the
-Force; or
-
-(iii) when it is a petty offence even if connected with the offenders duties as an enrolled member
-of the Force; or
-
-(iv) when, for reasons to be recorded in writing, it is not practicable for the Commandant invested
-with the powers of a Magistrate to inquire into or try the offence,
-
-the offence may, if the prescribed authority within the limits of whose jurisdiction the offence has been
-committed so requires, be inquired into or tried by an ordinary criminal court having jurisdiction in the
-matter.
-
-(4) Nothing contained in this section shall be construed to prevent any enrolled member of the Force
-from being prosecuted under any other law for any offence made punishable by that law, or for being
-liable under any such law to any other or higher penalty or punishment than is provided for such offence
-by this section:
-
-Provided that no person shall be punished twice for the same offence.]`)
-  (str footnotes) (str `1. Subs.by s. 15, ibid., for section 17 (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14626&sectionno=17&orderno=19&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14626)
+  sectionNo (17)
+  orderNo 19
+  title `Penalties for neglect of duty, etc.`
+  content obj_root_law_sections_17_content
+  footnotes `1. Subs.by s. 15, ibid., for section 17 (w.e.f. 20-9-1985).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14626&sectionno=17&orderno=19&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_17_content:
+  string
+  line `^1[17. Penalties for neglect of duty, etc.-- (1) Without prejudice to the provisions contained in`
+  line `section 9, every enrolled member of the Force who shall be guilty of any violation of duty or wilful`
+  line `breach or neglect of any rule or lawful order made by a superior officer, or who shall withdraw from`
+  line `duties of his office without permission, or who, being absent on leave, fails, without reasonable cause, to`
+  line `report himself for duty on the expiration of the leave, or who engages himself without authority for any`
+  line `employment other than his duty as an enrolled member of the Force, or who shall be guilty of cowardice may be taken into Force custody and shall, on conviction, be punished with imprisonment which may`
+  line `extend to one year.`
+  line
+  line `(2) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1973), an`
+  line `offence punishable under this section shall be cognizable and non-bailable.`
+  line
+  line `(3) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1973), the`
+  line `Central Government may invest Assistant Inspector-General, Senior Commandant or Commandant with`
+  line `the powers of a Magistrate of any class for the purpose of inquiring into or trying any offence committed`
+  line `by an enrolled member of the Force and punishable under this Act, or any offence committed by an`
+  line `enrolled member of the Force against the person or property of another member of the Force:`
+  line
+  line `Provided that--`
+  line
+  line `(i) when the offender is on leave or absent from duty; or`
+  line
+  line `(ii) when the offence is not connected with the offender's duties as an enrolled member of the`
+  line `Force; or`
+  line
+  line `(iii) when it is a petty offence even if connected with the offenders duties as an enrolled member`
+  line `of the Force; or`
+  line
+  line `(iv) when, for reasons to be recorded in writing, it is not practicable for the Commandant invested`
+  line `with the powers of a Magistrate to inquire into or try the offence,`
+  line
+  line `the offence may, if the prescribed authority within the limits of whose jurisdiction the offence has been`
+  line `committed so requires, be inquired into or tried by an ordinary criminal court having jurisdiction in the`
+  line matter.
+  line
+  line `(4) Nothing contained in this section shall be construed to prevent any enrolled member of the Force`
+  line `from being prosecuted under any other law for any offence made punishable by that law, or for being`
+  line `liable under any such law to any other or higher penalty or punishment than is provided for such offence`
+  line `by this section:`
+  line
+  line `Provided that no person shall be punished twice for the same offence.]`
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 14627)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 20)
-  (str title) (str `Application of Act 22 of 1922 to members of the Force.`)
-  (str content) (str `The Police (Incitement to
-Disaffection) Act, 1922 shall apply to members of the Force as it applies to members of a police force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14627&sectionno=18&orderno=20&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14627)
+  sectionNo (18)
+  orderNo 20
+  title `Application of Act 22 of 1922 to members of the Force.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14627&sectionno=18&orderno=20&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_18_content:
+  string
+  line `The Police (Incitement to`
+  line `Disaffection) Act, 1922 shall apply to members of the Force as it applies to members of a police force.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 14628)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 21)
-  (str title) (str `Certain Acts not to apply to members of the Force.`)
-  (str content) (str `^1[19. Certain Acts not to apply to members of the Force.--Nothing contained in the Payment of
-Wages Act, 1936 (4 of 1936), or the Industrial Disputes Act, 1947 (14 of 1947), or the Factories Act,
-1948 (63 of 1948), or any corresponding law relating to investigation and settlement of industrial dispute
-in force in a State shall apply to members of the Force.]`)
-  (str footnotes) (str `1. Subs. by Act 60 of 1985, s. 16, for section19 (w.e.f. 20-9-1985)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14628&sectionno=19&orderno=21&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14628)
+  sectionNo (19)
+  orderNo 21
+  title `Certain Acts not to apply to members of the Force.`
+  content obj_root_law_sections_19_content
+  footnotes `1. Subs. by Act 60 of 1985, s. 16, for section19 (w.e.f. 20-9-1985)`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14628&sectionno=19&orderno=21&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_19_content:
+  string
+  line `^1[19. Certain Acts not to apply to members of the Force.--Nothing contained in the Payment of`
+  line `Wages Act, 1936 (4 of 1936), or the Industrial Disputes Act, 1947 (14 of 1947), or the Factories Act,`
+  line `1948 (63 of 1948), or any corresponding law relating to investigation and settlement of industrial dispute`
+  line `in force in a State shall apply to members of the Force.]`
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 14629)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 22)
-  (str title) (str `Protection of acts of members of the Force.`)
-  (str content) (str `(1) In any suit or proceeding against any ^1* * * member of the Force for any act done by him in the discharge of his duties, it shall be lawful for him to
-plead that such act was done by him under the orders of a competent authority.
-
-(2) Any such plea may be proved by the production of the order directing the act, and if it is so
-proved, ^1* * * the member of the Force shall thereupon be discharged from any liability in respect of the
-act so done by him, notwithstanding any defect in the jurisdiction of the authority which issued such
-order.
-
-(3) Notwithstanding anything contained in any other law for bed time being in force, any legal
-proceeding, whether civil or criminal, which may lawfully be brought against any ^1* * * member of the
-Force for anything done or intended to be done under the powers conferred by, or in pursuance of, any provision of this Act or the rules thereunder shall be commenced within the months after three act
-complained of shall have been committed and not otherwise; and notice in writing of such proceeding and
-of the cause thereof shall be given to the person concerned and his superior officer at least one month
-before the commencement of such proceeding.`)
-  (str footnotes) (str `1. The words "superior officer or" omitted by s. 18 and the Schedule, ibid. (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14629&sectionno=20&orderno=22&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14629)
+  sectionNo (20)
+  orderNo 22
+  title `Protection of acts of members of the Force.`
+  content obj_root_law_sections_20_content
+  footnotes `1. The words "superior officer or" omitted by s. 18 and the Schedule, ibid. (w.e.f. 20-9-1985).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14629&sectionno=20&orderno=22&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_20_content:
+  string
+  line `(1) In any suit or proceeding against any ^1* * * member of the Force for any act done by him in the discharge of his duties, it shall be lawful for him to`
+  line `plead that such act was done by him under the orders of a competent authority.`
+  line
+  line `(2) Any such plea may be proved by the production of the order directing the act, and if it is so`
+  line `proved, ^1* * * the member of the Force shall thereupon be discharged from any liability in respect of the`
+  line `act so done by him, notwithstanding any defect in the jurisdiction of the authority which issued such`
+  line order.
+  line
+  line `(3) Notwithstanding anything contained in any other law for bed time being in force, any legal`
+  line `proceeding, whether civil or criminal, which may lawfully be brought against any ^1* * * member of the`
+  line `Force for anything done or intended to be done under the powers conferred by, or in pursuance of, any provision of this Act or the rules thereunder shall be commenced within the months after three act`
+  line `complained of shall have been committed and not otherwise; and notice in writing of such proceeding and`
+  line `of the cause thereof shall be given to the person concerned and his superior officer at least one month`
+  line `before the commencement of such proceeding.`
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 14630)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 23)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules for carrying out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing powers, such rules may
-provide for--
-
-(a) regulating the classes and grades and the pay and remuneration of ^1*** members of the Force
-and their conditions of service in the Force;
-
-(b) regulating the powers and duties of ^1*** members of the Force authorised to exercise any
-functions by or under this Act;
-
-(c) fixing the period of service for ^1*** members of the Force;
-
-^2[(d) prescribing the description and quality of arms, accoutrements, clothing and other necessary
-articles to be furnished to the members of the Force;
-
-(e) prescribing the places of residence of the member of the Force;
-
-(f) institution, management and regulation of any fund for any purpose connected with the
-administration of the Force;
-
-(g) regulating the punishments and prescribing authorities to whom appeal shall be preferred from
-orders of punishment, or remission of fines, or other punishments and the procedure to be followed
-for the disposal of such appeals;
-
-(h) regulating matters with respect to Force custody under this Act, including the procedure to be
-followed for taking persons into such custody;
-
-(i) regulating matters with respect to disposal of cases relating to offences under this Act and
-specifying the places in which person convicted under this Act maybe confined;
-
-(j) any other matter which has to be, or may be, imposed or in respect of which rules are
-required to be made under this Act.]
-
-^3[(3) Every rule made under this Act shall be laid, as soon as may be, after it is made, before each
-House of Parliament, while it is in session, for a total period of thirty days which may be comprised in
-one session or in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid, both Houses agree in making any modification
-in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only
-in such modified form or be of no effect, as the case may be; so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that rule.]`)
-  (str footnotes) (str `1. The words "superior officers and" omitted by Act 60 of 1985, s. 17 (w.e.f. 20-9-1985).
-
-2. Subs. by s. 17, ibid., for clauses (d) and (e) (w.e.f. 20-9-1985).
-
-3. Subs. by s. 17,ibid.,for sub-section (3) (w.e.f. 20-9-1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14630&sectionno=21&orderno=23&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (14630)
+  sectionNo (21)
+  orderNo 23
+  title `Power to make rules.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=14630&sectionno=21&orderno=23&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_21_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules for carrying out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing powers, such rules may`
+  line `provide for--`
+  line
+  line `(a) regulating the classes and grades and the pay and remuneration of ^1*** members of the Force`
+  line `and their conditions of service in the Force;`
+  line
+  line `(b) regulating the powers and duties of ^1*** members of the Force authorised to exercise any`
+  line `functions by or under this Act;`
+  line
+  line `(c) fixing the period of service for ^1*** members of the Force;`
+  line
+  line `^2[(d) prescribing the description and quality of arms, accoutrements, clothing and other necessary`
+  line `articles to be furnished to the members of the Force;`
+  line
+  line `(e) prescribing the places of residence of the member of the Force;`
+  line
+  line `(f) institution, management and regulation of any fund for any purpose connected with the`
+  line `administration of the Force;`
+  line
+  line `(g) regulating the punishments and prescribing authorities to whom appeal shall be preferred from`
+  line `orders of punishment, or remission of fines, or other punishments and the procedure to be followed`
+  line `for the disposal of such appeals;`
+  line
+  line `(h) regulating matters with respect to Force custody under this Act, including the procedure to be`
+  line `followed for taking persons into such custody;`
+  line
+  line `(i) regulating matters with respect to disposal of cases relating to offences under this Act and`
+  line `specifying the places in which person convicted under this Act maybe confined;`
+  line
+  line `(j) any other matter which has to be, or may be, imposed or in respect of which rules are`
+  line `required to be made under this Act.]`
+  line
+  line `^3[(3) Every rule made under this Act shall be laid, as soon as may be, after it is made, before each`
+  line `House of Parliament, while it is in session, for a total period of thirty days which may be comprised in`
+  line `one session or in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid, both Houses agree in making any modification`
+  line `in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only`
+  line `in such modified form or be of no effect, as the case may be; so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that rule.]`
+obj_root_law_sections_21_footnotes:
+  string
+  line `1. The words "superior officers and" omitted by Act 60 of 1985, s. 17 (w.e.f. 20-9-1985).`
+  line
+  line `2. Subs. by s. 17, ibid., for clauses (d) and (e) (w.e.f. 20-9-1985).`
+  line
+  line `3. Subs. by s. 17,ibid.,for sub-section (3) (w.e.f. 20-9-1985).`
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 86107)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 24)
-  (str title) (str `Provisions as to existing Force.`)
-  (str content) (str `^1[(1) The Force constituted under the principal Act, as
-functioning immediately before the commencement of this Act (hereafter in this section referred to as the
-existing Force) shall, on such commencement, be deemed to be the Force constituted under the principal
-Act as amended by this Act, and every member of the existing Force holding immediately before such
-commencement an office mentioned in column (1) of the Table below shall, on such commencement be deemed to have been appointed to the office mentioned in the corresponding entry in column (2) of the
-said Table.
-
-Table
-
-(1)(2)
-
-1. Director-General Director-General.
-
-2. Inspector-General-cum-Chief Security OfficerInspector-General.
-
-3. Additional Inspector-General-cum-Chief Security Officer. Additional Inspector General.
-
-4. Additional Inspector-General Additional Inspector General.
-
-5. Deputy Inspector-General-cum-Chief Security Officer.Deputy Inspector-General.
-
-6. Deputy Inspector-General Deputy Inspector-General.
-
-7. Principal, Training College Principal, Training College.
-
-8. Assistant Inspector-General. Assistant Inspector General.
-
-9. Deputy Chief Security Officer Senior Commandant Headquarters.
-
-10. Senior Security Officer. Senior Commandant.
-
-11. Security Officer Commandant.
-
-12. Staff Officer to Chief Security Officer Commandant-cum-Staff Officer to Chief
-security Officer.
-
-13. Security Officer (Small Arms). Commandant (Small Arms).
-
-14. Commandant (Commandant.
-
-15. Assistant Security Officer Assistant Commandant.
-
-16. Personal Assistant to Chief Security Officer Assistant Commandant -cum-Personal
-Assistant to Chief Security Officer.
-
-17. Adjutant Assistant Commandant Adjutant.
-
-18. Assistant Commandant Assistant Commandant.
-
-19. Principal, Training School Assistant Commandant-cum- Principal,
-Training School.
-
-20.Vice-Principal, R.P.F. Training College Assistant Commandant-cum-VicePrincipal, R.P.F. Training College
-
-21. Inspector Inspector.
-
-22. Sub-Inspector Sub-Inspector.
-
-23. Assistant Sub-Inspector Assistant Sub-Inspector.
-
-24. Head Rakshak Head Constable.
-
-25. Battalion Havildar MajorHead Constable.
-
-26. Coy. Havildar Major Head Constable.
-
-27. Senior Rakshak Naik.
-
-28. Rakshak Constable.
-
-(2) Notwithstanding anything contained in sub-section (1), any member of the existing Force may,
-within thirty days from the commencement of this Act, exercise his option by notice in writing to the
-Director-General.—
-
-(a) if such member has been on deputation to the existing Force from any other service, to revert
-to such other service, and
-
-(b) in any other case, to retire from service and an option so exercised shall be final, and a member exercising such option shall be permitted, within thirty days from the date on which he exercises such option to revert to the service from which he had been on deputation or, as the case may be, to retire from service.
-
-Explanation.— For the purposes of this section, the expression "member" includes an officer, and the
-expression "Director-General" shall have the same meaning as in the principal Act as amended by this
-Act.]`)
-  (str footnotes) (str `1. Ins. by s. 19, ibid. (w.e.f. 20-9-1985) on the directions of the Hon’ble High Court of Delhi in the matter of “P.K. Agrawal versus Union of India”, dated 28-01-2020. In the said section, the expression “this Act” occurring at both the places, refers to the Railway Protection Force (Amendment) Act, 1985 (60 of 1985).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=86107&sectionno=22&orderno=24&orgactid=AC_CEN_1_1_00001_195723_1517807317103)
+  sectionId (86107)
+  sectionNo (22)
+  orderNo 24
+  title `Provisions as to existing Force.`
+  content obj_root_law_sections_22_content
+  footnotes `1. Ins. by s. 19, ibid. (w.e.f. 20-9-1985) on the directions of the Hon’ble High Court of Delhi in the matter of “P.K. Agrawal versus Union of India”, dated 28-01-2020. In the said section, the expression “this Act” occurring at both the places, refers to the Railway Protection Force (Amendment) Act, 1985 (60 of 1985).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_1_1_00001_195723_1517807317103&sectionId=86107&sectionno=22&orderno=24&orgactid=AC_CEN_1_1_00001_195723_1517807317103
+obj_root_law_sections_22_content:
+  string
+  line `^1[(1) The Force constituted under the principal Act, as`
+  line `functioning immediately before the commencement of this Act (hereafter in this section referred to as the`
+  line `existing Force) shall, on such commencement, be deemed to be the Force constituted under the principal`
+  line `Act as amended by this Act, and every member of the existing Force holding immediately before such`
+  line `commencement an office mentioned in column (1) of the Table below shall, on such commencement be deemed to have been appointed to the office mentioned in the corresponding entry in column (2) of the`
+  line `said Table.`
+  line
+  line Table
+  line
+  line `(1)(2)`
+  line
+  line `1. Director-General Director-General.`
+  line
+  line `2. Inspector-General-cum-Chief Security OfficerInspector-General.`
+  line
+  line `3. Additional Inspector-General-cum-Chief Security Officer. Additional Inspector General.`
+  line
+  line `4. Additional Inspector-General Additional Inspector General.`
+  line
+  line `5. Deputy Inspector-General-cum-Chief Security Officer.Deputy Inspector-General.`
+  line
+  line `6. Deputy Inspector-General Deputy Inspector-General.`
+  line
+  line `7. Principal, Training College Principal, Training College.`
+  line
+  line `8. Assistant Inspector-General. Assistant Inspector General.`
+  line
+  line `9. Deputy Chief Security Officer Senior Commandant Headquarters.`
+  line
+  line `10. Senior Security Officer. Senior Commandant.`
+  line
+  line `11. Security Officer Commandant.`
+  line
+  line `12. Staff Officer to Chief Security Officer Commandant-cum-Staff Officer to Chief`
+  line `security Officer.`
+  line
+  line `13. Security Officer (Small Arms). Commandant (Small Arms).`
+  line
+  line `14. Commandant (Commandant.`
+  line
+  line `15. Assistant Security Officer Assistant Commandant.`
+  line
+  line `16. Personal Assistant to Chief Security Officer Assistant Commandant -cum-Personal`
+  line `Assistant to Chief Security Officer.`
+  line
+  line `17. Adjutant Assistant Commandant Adjutant.`
+  line
+  line `18. Assistant Commandant Assistant Commandant.`
+  line
+  line `19. Principal, Training School Assistant Commandant-cum- Principal,`
+  line `Training School.`
+  line
+  line `20.Vice-Principal, R.P.F. Training College Assistant Commandant-cum-VicePrincipal, R.P.F. Training College`
+  line
+  line `21. Inspector Inspector.`
+  line
+  line `22. Sub-Inspector Sub-Inspector.`
+  line
+  line `23. Assistant Sub-Inspector Assistant Sub-Inspector.`
+  line
+  line `24. Head Rakshak Head Constable.`
+  line
+  line `25. Battalion Havildar MajorHead Constable.`
+  line
+  line `26. Coy. Havildar Major Head Constable.`
+  line
+  line `27. Senior Rakshak Naik.`
+  line
+  line `28. Rakshak Constable.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), any member of the existing Force may,`
+  line `within thirty days from the commencement of this Act, exercise his option by notice in writing to the`
+  line Director-General.—
+  line
+  line `(a) if such member has been on deputation to the existing Force from any other service, to revert`
+  line `to such other service, and`
+  line
+  line `(b) in any other case, to retire from service and an option so exercised shall be final, and a member exercising such option shall be permitted, within thirty days from the date on which he exercises such option to revert to the service from which he had been on deputation or, as the case may be, to retire from service.`
+  line
+  line `Explanation.— For the purposes of this section, the expression "member" includes an officer, and the`
+  line `expression "Director-General" shall have the same meaning as in the principal Act as amended by this`
+  line Act.]
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `रेल संरक्षण बल अधिनियम, 1957`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1450/3/H1957-23.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:17:51.790Z`)
-  (str pageCount) (int 6)
-  (str sections) obj_root_law_translations_hi_sections
+  title `रेल संरक्षण बल अधिनियम, 1957`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1450/3/H1957-23.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:17:51.790Z`
+  pageCount 6
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -738,328 +817,358 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_5
   obj_root_law_translations_hi_sections_6
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `रेल संरक्षण बल अधिधियम, 1957
-( 19 57 का अधिधियम संखयां क 23 )
-[29 अगस्त, 1957 ]
-1 [ 2 [ रेल संपधि, यात्री क्षेत्र और याधत्रयों ] के बेहतर संरक्षण और सुरक्षा के
-धलए संघ के सशस् त्र बल का गठि और धिधियमि करिे
-का तथा उसे संबद्ध धिषयों का
-उपबंि करिे के धलए
-अधिधिय म ]
-भारत गणराज्य के आठ िें िषष में संसद् द्व ारा धिम्ि धलधित रू प में यह अधिधियधमत हो: —
-1. संधक्षप्त िाम, धिस्ता र और प्र ा रम्भ — (1) इस अधिधियम का संधक्षप्त िाम रेल संरक्षण बल अधिधियम, 1957 है।
-(2) इसका धिस्ता र सम्पू णष भारत पर है।
-(3) यह उस तारीि 3 को प्र िृि होगा धिसे केंद्री य सरकार, रािपत्र में अधिसूचिा द्व ारा, धियत करे।
-2. पररभाषाएं — 4 [(1)] इस अधिधियम में, िब तक कक संदभष से अन्य था अपेधक्षत ि हो, —
-)क( “ बल ” से िारा 3 के अिीि गरठत रेल संरक्षण बल अधभप्रेत है;
-5 [ )ि( “ महाधिदेशक ” से िारा 4 की उपिारा (1 ) के अिीि धियुक्त बल का महाधिदेशक अधभप्रेत है;
-)िक ( “ भती ककया गया बल - सदस्य ” से बल का कोई अिीिस्थ अधिकारी, अिर अधिकारी या ककसी अिर
-अधिकारी के रैंक से धिम्ि तर रैंक का कोई अन्य सदस्य अधभप्रेत है;
-)िि( “ बल अधभरक्षा ” से इस अधिधियम के अिीि बिाए गए धियमों के अिुसार ककसी बल - सदस्य की धगरफ्तारी
-या उसका परररोि अधभप्रेत है; ]
-)ग( “ बल - सदस्य ” से इस अधिधियम के अिीि बल में धियुक्त ककया 6 *** व् य धक् त अधभप्रेत है;
-7 [( गक( “ यात्री ” का िही अथष होगा िो रेल अधिधियम, 1989 (1989 का 24) में है;
-)गि( “ यात्री क्षेत्र ” में रेल प् ले टफामष, रेलगाडी, यार्ष और ऐसा अन्य क्षेत्र, िहां बहुिा यात्री आते हैं,
-सधम्म धलत होगा; ]
-)घ( “ धिधहत ” से इस अधिधियम के अिीि बिाए गए धियमों द्व ारा धिधहत अधभप्रेत है;
-) ङ ( “ रेल - संपधि ” के अन्त गषत ऐसा कोई माल, िि या मूल्य िाि प्र धतभूधत या िीििंतु है िो या तो रेल प्र शासि का
-है या उसके प्र भार या कब् िे में है;
-8 [ ) ङ क( “ अिीिस्थ अधिकारी ” से धिरीक्षक, उपधिरीक्षक या सहायक उपधिरीक्षक के रू प में बल में धियुक्त कोई व्
-य धक् त अधभप्रेत है; ]
-)च( “ िररष्ठ अधिकारी ” से िारा 4 के अिीि धियुक्त ककए गए अधिका ररयों में से कोई अधभप्रेत है और इसके
-अंतगषत कोई अन्य ऐसा अधिकारी भी है िो केंद्रीय सरकार द्व ारा बल के िररष्ठ अधिकारी के रू प में धियुक्त ककया िा ए;
-8 [ )चक( “ अिर अधिकारी ” से हैर् कांस्टे बल या िायक के रू प में बल में धियुक्त कोई व् य धक् त अधभप्रेत है; ]
-1 2003 के अधिधियम सं ० 52 की िारा 2 द्व ारा प्र धतस्था धपत।
-2 1985 के अधिधियम सं ० 60 की िारा 2 द्व ारा (20 - 9 - 1985 से ) बृहत िाम के स् था ि पर प्र धतस्था धपत।
-3 10 धसतंबर 1959 देधिए अधिसू चिा सं ० 58 - सुरक्षा/ 16/9, तारीि 10 - 9 - 1959, भारत का रािपत्र, असािारण, भाग 2, िंर् 1, पृ ० 291; 1962 के धिधियम सं ० 12
-की िारा 3 और अिुसूची द्व ारा, उपांतरणों सधहत, गोिा, दमण और दीि पर धिस् ता ररत;
-1963 के धिधियम सं ० 7 की िारा 3 और अिुसूची 1 द्व ारा 1 - 10 - 1963 को यह अधिधियम पांधर्चेरी पर प्र िृि हु आ।
-1963 के अधिधियम सं ० 6 की िारा 2 और अिुसूची 1 द्व ारा (1 - 7 - 1965 से ) दादरा और िागर हिेली पर धिस् ता ररत और प्र िृि।
-4 1985 के अधिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) उसकी उपिारा (1) के रू प में पुि:संखयां ककत।
-5 1985 के अधिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) िंर् )ि( के स् था ि पर प्र धतस्था धपत।
-6 1985 के अधिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) कधतपय शब्दों का लोप ककया गया।
-7 2003 के अधिधियम सं ० 52 की िारा 3 द्व ारा अंत:स्था धपत।
-8 1985 के अ धिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) अंत:स्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `रेल संरक्षण बल अधिधियम, 1957`
+  line `( 19 57 का अधिधियम संखयां क 23 )`
+  line `[29 अगस्त, 1957 ]`
+  line `1 [ 2 [ रेल संपधि, यात्री क्षेत्र और याधत्रयों ] के बेहतर संरक्षण और सुरक्षा के`
+  line `धलए संघ के सशस् त्र बल का गठि और धिधियमि करिे`
+  line `का तथा उसे संबद्ध धिषयों का`
+  line `उपबंि करिे के धलए`
+  line `अधिधिय म ]`
+  line `भारत गणराज्य के आठ िें िषष में संसद् द्व ारा धिम्ि धलधित रू प में यह अधिधियधमत हो: —`
+  line `1. संधक्षप्त िाम, धिस्ता र और प्र ा रम्भ — (1) इस अधिधियम का संधक्षप्त िाम रेल संरक्षण बल अधिधियम, 1957 है।`
+  line `(2) इसका धिस्ता र सम्पू णष भारत पर है।`
+  line `(3) यह उस तारीि 3 को प्र िृि होगा धिसे केंद्री य सरकार, रािपत्र में अधिसूचिा द्व ारा, धियत करे।`
+  line `2. पररभाषाएं — 4 [(1)] इस अधिधियम में, िब तक कक संदभष से अन्य था अपेधक्षत ि हो, —`
+  line `)क( “ बल ” से िारा 3 के अिीि गरठत रेल संरक्षण बल अधभप्रेत है;`
+  line `5 [ )ि( “ महाधिदेशक ” से िारा 4 की उपिारा (1 ) के अिीि धियुक्त बल का महाधिदेशक अधभप्रेत है;`
+  line `)िक ( “ भती ककया गया बल - सदस्य ” से बल का कोई अिीिस्थ अधिकारी, अिर अधिकारी या ककसी अिर`
+  line `अधिकारी के रैंक से धिम्ि तर रैंक का कोई अन्य सदस्य अधभप्रेत है;`
+  line `)िि( “ बल अधभरक्षा ” से इस अधिधियम के अिीि बिाए गए धियमों के अिुसार ककसी बल - सदस्य की धगरफ्तारी`
+  line `या उसका परररोि अधभप्रेत है; ]`
+  line `)ग( “ बल - सदस्य ” से इस अधिधियम के अिीि बल में धियुक्त ककया 6 *** व् य धक् त अधभप्रेत है;`
+  line `7 [( गक( “ यात्री ” का िही अथष होगा िो रेल अधिधियम, 1989 (1989 का 24) में है;`
+  line `)गि( “ यात्री क्षेत्र ” में रेल प् ले टफामष, रेलगाडी, यार्ष और ऐसा अन्य क्षेत्र, िहां बहुिा यात्री आते हैं,`
+  line `सधम्म धलत होगा; ]`
+  line `)घ( “ धिधहत ” से इस अधिधियम के अिीि बिाए गए धियमों द्व ारा धिधहत अधभप्रेत है;`
+  line `) ङ ( “ रेल - संपधि ” के अन्त गषत ऐसा कोई माल, िि या मूल्य िाि प्र धतभूधत या िीििंतु है िो या तो रेल प्र शासि का`
+  line `है या उसके प्र भार या कब् िे में है;`
+  line `8 [ ) ङ क( “ अिीिस्थ अधिकारी ” से धिरीक्षक, उपधिरीक्षक या सहायक उपधिरीक्षक के रू प में बल में धियुक्त कोई व्`
+  line `य धक् त अधभप्रेत है; ]`
+  line `)च( “ िररष्ठ अधिकारी ” से िारा 4 के अिीि धियुक्त ककए गए अधिका ररयों में से कोई अधभप्रेत है और इसके`
+  line `अंतगषत कोई अन्य ऐसा अधिकारी भी है िो केंद्रीय सरकार द्व ारा बल के िररष्ठ अधिकारी के रू प में धियुक्त ककया िा ए;`
+  line `8 [ )चक( “ अिर अधिकारी ” से हैर् कांस्टे बल या िायक के रू प में बल में धियुक्त कोई व् य धक् त अधभप्रेत है; ]`
+  line `1 2003 के अधिधियम सं ० 52 की िारा 2 द्व ारा प्र धतस्था धपत।`
+  line `2 1985 के अधिधियम सं ० 60 की िारा 2 द्व ारा (20 - 9 - 1985 से ) बृहत िाम के स् था ि पर प्र धतस्था धपत।`
+  line `3 10 धसतंबर 1959 देधिए अधिसू चिा सं ० 58 - सुरक्षा/ 16/9, तारीि 10 - 9 - 1959, भारत का रािपत्र, असािारण, भाग 2, िंर् 1, पृ ० 291; 1962 के धिधियम सं ० 12`
+  line `की िारा 3 और अिुसूची द्व ारा, उपांतरणों सधहत, गोिा, दमण और दीि पर धिस् ता ररत;`
+  line `1963 के धिधियम सं ० 7 की िारा 3 और अिुसूची 1 द्व ारा 1 - 10 - 1963 को यह अधिधियम पांधर्चेरी पर प्र िृि हु आ।`
+  line `1963 के अधिधियम सं ० 6 की िारा 2 और अिुसूची 1 द्व ारा (1 - 7 - 1965 से ) दादरा और िागर हिेली पर धिस् ता ररत और प्र िृि।`
+  line `4 1985 के अधिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) उसकी उपिारा (1) के रू प में पुि:संखयां ककत।`
+  line `5 1985 के अधिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) िंर् )ि( के स् था ि पर प्र धतस्था धपत।`
+  line `6 1985 के अधिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) कधतपय शब्दों का लोप ककया गया।`
+  line `7 2003 के अधिधियम सं ० 52 की िारा 3 द्व ारा अंत:स्था धपत।`
+  line `8 1985 के अ धिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) अंत:स्था धपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-)छ( िो शब्द और पद इस अधिधियम में प्र युक्त हैं ककंतु पररभाधषत िहीं हैं और भारतीय रेल अधिधियम, 1890
-(1890 का 9) में पररभाधषत हैं, उिके क्र मश: िही अथष होंगे िो उस अधिधियम के अिीि कदए गए हैं।
-1 [(2) इस अधिधियम में ऐसी ककसी धिधि के प्र धत, िो ककसी क्षेत्र में प्र िृि िहीं है, ककसी धिदेश का, उस क्षेत्र के संबंि में यह
-अथष लगाया िाएगा कक िह उस क्षेत्र में प्र िृि ककसी तत्‍ स्था िी धिधि के, यकद कोई हो, प्र धत धिदेश है। ]
-3. बल का गठि — (1) रेल संपधि के बेहतर संरक्षण और सुरक्षा के धलए केंद्रीय सरकार द्व ारा 2 [ सं घ का एक सशस् त्र बल ]
-गरठत ककया िाएगा और बिाए रिा िाएगा, िो रेल संरक्षण बल कहलाएगा।
-(2) िह बल उस रीधत से गरठत ककया िाएगा, उसमें उतिे 3 [ िररष्ठ अधिकारी, अिीिस्थ अधिकारी, अिर अधिकारी और
-अन्य भती ककए गए बल सदस्य ] होंगे तथा उन्हें ऐसा िेति और अन्य पारर श्र धमक धमलेगा, िो धिधहत ककया िाए।
-4. िररष्ठ अधिकाररयों की धियुधक्त और शधक्त यां — 4 [(1) केंद्रीय सरकार ककसी व् य धक् त को बल का महाधिदेशक धियुक्त कर
-सकेगी और अन्य व् य धक् त यों को बल का महाधिरीक्षक, अपर महाधिरीक्षक, उप - महाधिरीक्षक, सहायक महाधिरीक्षक, ज् ये ष् ठ कमांर्ेंट,
-कमांर्ेंट या सहायक कमार्ेंट धियुक्त कर सकेगी। ]
-(2) इस प्र कार धियुक्त ककए 5 [ महाधिदेशक ] और प्रत्‍ ये क अन्य िररष्ठ अधिकारी को अपिे - अपिे समादेशािीि बल - सदस्यों के
-ऊपर ऐसी शधक्त यां और ऐसे प्र ाधिकार प्र ाप्त होंगे और िे उिका प्र योग करेंगे िो इस अधिधियम द्व ारा या उसके अिीि उपबंधित हों।
-5. 6 [ बल - सदस्यों की श्रे धणयां और रैंक। ] — रेल संरक्षण बल )संशोिि( अधिधियम, 1985 (1985 का 60) की िारा 6 द्व ारा
-(20 - 9 - 1985 से ) लोप ककया गया।
-6 [ 6. बल सदस्यों की धियुधक्त — भती ककए गए बल - सदस्यों को धियुक्त करिे की शधक्त महाधिरीक्षक, अपर महाधिरीक्षक या
-उप - महाधिरीक्षक में धिधहत होगी, िो इस अधिधियम के अिीि बिाए गए धियमों के अ िुसार उस शधक्त का प्र योग करेगा:
-परंतु इस िारा के अिीि धियुधक्त करिे की शधक्त का प्र योग ऐसे अन्य िररष्ठ अधिकारी द्व ारा ककया िा सकेगा धिसे संबद्ध
-महाधिरीक्षक, अपर महाधिरीक्षक या उप - महाधिरीक्षक आदेश द्व ारा इस धिधमि धिधिर्दषष्ट करे। ]
-7. बल - सदस्यों को प्र माणपत्र — (1) प्रत्‍ ये क बल - सदस्य को उसकी धियुधक्त पर अिुसूची में धिधिर्दषष्ट प्र माणपत्र धमलेगा धिस
-पर 7 [ महाधिरीक्षक, अपर महाधिरीक्षक या उप - महाधिरीक्षक ] या अन्य ऐसे िररष्ठ अधिकारी की मुद्रा होगी धिसे 7 [ महाधिरीक्षक, अपर
-महाधिरीक्षक या उप - महाधिरीक्षक ] इस धिधमि धिधिर्दषष्ट करे और ऐसा प्र माणपत्र िारण करिे िाले व् य धक् त में उसके आिार पर बल -
-सदस्य की शधक्त यां धिधहत होंगी।
-(2) िब प्र माणपत्र में िाधमत व् य धक् त ककसी भी कारण से बल - सदस्य ि रह िाए तो िह प्र माणपत्र धिष् प्र भाि हो
-िाएगा 8 ***।
-9 [ 8. बल का अिीक्षण और प्र शासि — (1) बल का अिीक्षण केंद्रीय सरकार में धिधहत होगा और उसके तथा इस अधिधियम के
-और उसके अिीि बिाए गए ककन्हीं धियमों के उपबंिों के अिीि रहते हु ए बल का समादेशि, पयषिेक्षण और प्र शा सि महाधिदेशक में
-धिधहत होगा।
-(2) उपिारा (1) के उपबंिों के अिीि रहते हु ए, ककसी रेल के संबंि में ऐसी स् था िीय सीमाओं के भीतर, िो धिधहत की िाए,
-बल का प्र शासि इस अधिधियम के और उसके अिीि बिाए गए ककन्हीं धियमों के उपबंिों के अिुसार महाधिरीक्षक, अपर महाधिरीक्षक
-या उप - महाधिरीक्षक द्व ारा ककया िाएगा और िे ऐसे ककसी धिदेशक के अिीि रहते हु ए, िो केंद्रीय सरकार या महाधिदेशक द्व ारा, इस
-धिधमि, कदया िाए, रेल के महाप्रबंिक के सािारण पयषिेक्षण के अिीि अपिे कृत्‍यों का धििषहि करेंगे।
-9. बल - सदस्यों का पदच्यु त ककया िािा, हटाया िािा, आकद — (1) संधििाि के अिुच्छे द 311 के उपबंिों के तथा ऐसे धियमों
-के िो केंद्रीय सरकार इस धिधमि बिाए, अिीि रहते हु ए कोई िररष्ठ अधिकारी —
-(i) ककसी ऐसे 10 [ भती ककया गया बल - सदस्य ] को पद च् यु त, धिलंधबत या पंधक्त च् यु त कर सकेगा धिसके बारे में
-उसका धिचार हो कक िह अपिे कतषव्य के धििषहि में असाििािी या उपेक्षा करता है या उसके धलए अयोग्य है; अथिा
-1 1985 के अधिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) अंत:स्था धपत।
-2 1985 के अधिधियम सं ० 60 की िारा 4 द्व ारा (20 - 9 - 1985 से ) “ एक बल ” शब्दों के स् था ि पर प्र धतस्था धपत।
-3 1985 के अधिधियम सं ० 60 की िारा 4 द्व ारा (20 - 9 - 1985 से ) कधतपय शब्दों के स् था ि पर प्र धतस्था धपत।
-4 1985 के अधिधियम सं ० 60 की िारा 5 द्व ारा (20 - 9 - 1985 से ) उपिारा (1) के स् था ि पर प्र धतस्था धपत।
-5 1985 के अधिधियम सं ० 60 की िारा 5 द्व ारा (20 - 9 - 1985 से ) “ महाधिरीक्षक ” के स् था ि पर प्र धतस्था धपत।
-6 1985 के अधिधियम सं ० 60 की िारा 7 द्व ारा (20 - 9 - 1985 से ) िारा 6 के स् था ि पर प्र धतस्था धपत।
-7 1985 के अधिधियम सं ० 60 की िारा 8 द्व ारा (20 - 9 - 1985 से ) “ मुखय सुरक्षा अधिकारी ” के स् था ि पर प्र धतस्था धपत।
-8 1985 के अधिधियम सं ० 60 की िारा 8 द्व ारा (20 - 9 - 1985 से ) कधतपय शब्दों का लोप ककया गया।
-9 1985 के अधिधियम सं ० 60 की िारा 9 द्व ारा (20 - 9 - 1985 से ) िारा 8 के स् था ि पर प्र धतस्था धपत।
-10 1985 के अधिधियम सं ० 60 की िारा 10 द्व ारा (20 - 9 - 1985 से ) “ सदस्य ” के स् था ि पर प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `)छ( िो शब्द और पद इस अधिधियम में प्र युक्त हैं ककंतु पररभाधषत िहीं हैं और भारतीय रेल अधिधियम, 1890`
+  line `(1890 का 9) में पररभाधषत हैं, उिके क्र मश: िही अथष होंगे िो उस अधिधियम के अिीि कदए गए हैं।`
+  line `1 [(2) इस अधिधियम में ऐसी ककसी धिधि के प्र धत, िो ककसी क्षेत्र में प्र िृि िहीं है, ककसी धिदेश का, उस क्षेत्र के संबंि में यह`
+  line `अथष लगाया िाएगा कक िह उस क्षेत्र में प्र िृि ककसी तत्‍ स्था िी धिधि के, यकद कोई हो, प्र धत धिदेश है। ]`
+  line `3. बल का गठि — (1) रेल संपधि के बेहतर संरक्षण और सुरक्षा के धलए केंद्रीय सरकार द्व ारा 2 [ सं घ का एक सशस् त्र बल ]`
+  line `गरठत ककया िाएगा और बिाए रिा िाएगा, िो रेल संरक्षण बल कहलाएगा।`
+  line `(2) िह बल उस रीधत से गरठत ककया िाएगा, उसमें उतिे 3 [ िररष्ठ अधिकारी, अिीिस्थ अधिकारी, अिर अधिकारी और`
+  line `अन्य भती ककए गए बल सदस्य ] होंगे तथा उन्हें ऐसा िेति और अन्य पारर श्र धमक धमलेगा, िो धिधहत ककया िाए।`
+  line `4. िररष्ठ अधिकाररयों की धियुधक्त और शधक्त यां — 4 [(1) केंद्रीय सरकार ककसी व् य धक् त को बल का महाधिदेशक धियुक्त कर`
+  line `सकेगी और अन्य व् य धक् त यों को बल का महाधिरीक्षक, अपर महाधिरीक्षक, उप - महाधिरीक्षक, सहायक महाधिरीक्षक, ज् ये ष् ठ कमांर्ेंट,`
+  line `कमांर्ेंट या सहायक कमार्ेंट धियुक्त कर सकेगी। ]`
+  line `(2) इस प्र कार धियुक्त ककए 5 [ महाधिदेशक ] और प्रत्‍ ये क अन्य िररष्ठ अधिकारी को अपिे - अपिे समादेशािीि बल - सदस्यों के`
+  line `ऊपर ऐसी शधक्त यां और ऐसे प्र ाधिकार प्र ाप्त होंगे और िे उिका प्र योग करेंगे िो इस अधिधियम द्व ारा या उसके अिीि उपबंधित हों।`
+  line `5. 6 [ बल - सदस्यों की श्रे धणयां और रैंक। ] — रेल संरक्षण बल )संशोिि( अधिधियम, 1985 (1985 का 60) की िारा 6 द्व ारा`
+  line `(20 - 9 - 1985 से ) लोप ककया गया।`
+  line `6 [ 6. बल सदस्यों की धियुधक्त — भती ककए गए बल - सदस्यों को धियुक्त करिे की शधक्त महाधिरीक्षक, अपर महाधिरीक्षक या`
+  line `उप - महाधिरीक्षक में धिधहत होगी, िो इस अधिधियम के अिीि बिाए गए धियमों के अ िुसार उस शधक्त का प्र योग करेगा:`
+  line `परंतु इस िारा के अिीि धियुधक्त करिे की शधक्त का प्र योग ऐसे अन्य िररष्ठ अधिकारी द्व ारा ककया िा सकेगा धिसे संबद्ध`
+  line `महाधिरीक्षक, अपर महाधिरीक्षक या उप - महाधिरीक्षक आदेश द्व ारा इस धिधमि धिधिर्दषष्ट करे। ]`
+  line `7. बल - सदस्यों को प्र माणपत्र — (1) प्रत्‍ ये क बल - सदस्य को उसकी धियुधक्त पर अिुसूची में धिधिर्दषष्ट प्र माणपत्र धमलेगा धिस`
+  line `पर 7 [ महाधिरीक्षक, अपर महाधिरीक्षक या उप - महाधिरीक्षक ] या अन्य ऐसे िररष्ठ अधिकारी की मुद्रा होगी धिसे 7 [ महाधिरीक्षक, अपर`
+  line `महाधिरीक्षक या उप - महाधिरीक्षक ] इस धिधमि धिधिर्दषष्ट करे और ऐसा प्र माणपत्र िारण करिे िाले व् य धक् त में उसके आिार पर बल -`
+  line `सदस्य की शधक्त यां धिधहत होंगी।`
+  line `(2) िब प्र माणपत्र में िाधमत व् य धक् त ककसी भी कारण से बल - सदस्य ि रह िाए तो िह प्र माणपत्र धिष् प्र भाि हो`
+  line `िाएगा 8 ***।`
+  line `9 [ 8. बल का अिीक्षण और प्र शासि — (1) बल का अिीक्षण केंद्रीय सरकार में धिधहत होगा और उसके तथा इस अधिधियम के`
+  line `और उसके अिीि बिाए गए ककन्हीं धियमों के उपबंिों के अिीि रहते हु ए बल का समादेशि, पयषिेक्षण और प्र शा सि महाधिदेशक में`
+  line `धिधहत होगा।`
+  line `(2) उपिारा (1) के उपबंिों के अिीि रहते हु ए, ककसी रेल के संबंि में ऐसी स् था िीय सीमाओं के भीतर, िो धिधहत की िाए,`
+  line `बल का प्र शासि इस अधिधियम के और उसके अिीि बिाए गए ककन्हीं धियमों के उपबंिों के अिुसार महाधिरीक्षक, अपर महाधिरीक्षक`
+  line `या उप - महाधिरीक्षक द्व ारा ककया िाएगा और िे ऐसे ककसी धिदेशक के अिीि रहते हु ए, िो केंद्रीय सरकार या महाधिदेशक द्व ारा, इस`
+  line `धिधमि, कदया िाए, रेल के महाप्रबंिक के सािारण पयषिेक्षण के अिीि अपिे कृत्‍यों का धििषहि करेंगे।`
+  line `9. बल - सदस्यों का पदच्यु त ककया िािा, हटाया िािा, आकद — (1) संधििाि के अिुच्छे द 311 के उपबंिों के तथा ऐसे धियमों`
+  line `के िो केंद्रीय सरकार इस धिधमि बिाए, अिीि रहते हु ए कोई िररष्ठ अधिकारी —`
+  line `(i) ककसी ऐसे 10 [ भती ककया गया बल - सदस्य ] को पद च् यु त, धिलंधबत या पंधक्त च् यु त कर सकेगा धिसके बारे में`
+  line `उसका धिचार हो कक िह अपिे कतषव्य के धििषहि में असाििािी या उपेक्षा करता है या उसके धलए अयोग्य है; अथिा`
+  line `1 1985 के अधिधियम सं ० 60 की िारा 3 द्व ारा (20 - 9 - 1985 से ) अंत:स्था धपत।`
+  line `2 1985 के अधिधियम सं ० 60 की िारा 4 द्व ारा (20 - 9 - 1985 से ) “ एक बल ” शब्दों के स् था ि पर प्र धतस्था धपत।`
+  line `3 1985 के अधिधियम सं ० 60 की िारा 4 द्व ारा (20 - 9 - 1985 से ) कधतपय शब्दों के स् था ि पर प्र धतस्था धपत।`
+  line `4 1985 के अधिधियम सं ० 60 की िारा 5 द्व ारा (20 - 9 - 1985 से ) उपिारा (1) के स् था ि पर प्र धतस्था धपत।`
+  line `5 1985 के अधिधियम सं ० 60 की िारा 5 द्व ारा (20 - 9 - 1985 से ) “ महाधिरीक्षक ” के स् था ि पर प्र धतस्था धपत।`
+  line `6 1985 के अधिधियम सं ० 60 की िारा 7 द्व ारा (20 - 9 - 1985 से ) िारा 6 के स् था ि पर प्र धतस्था धपत।`
+  line `7 1985 के अधिधियम सं ० 60 की िारा 8 द्व ारा (20 - 9 - 1985 से ) “ मुखय सुरक्षा अधिकारी ” के स् था ि पर प्र धतस्था धपत।`
+  line `8 1985 के अधिधियम सं ० 60 की िारा 8 द्व ारा (20 - 9 - 1985 से ) कधतपय शब्दों का लोप ककया गया।`
+  line `9 1985 के अधिधियम सं ० 60 की िारा 9 द्व ारा (20 - 9 - 1985 से ) िारा 8 के स् था ि पर प्र धतस्था धपत।`
+  line `10 1985 के अधिधियम सं ० 60 की िारा 10 द्व ारा (20 - 9 - 1985 से ) “ सदस्य ” के स् था ि पर प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-(ii ) धिम्ि धलधित दंर्ों में से कोई एक या अधिक दंर् ककसी ऐसे 1 [ भती ककया गया बल - सदस्य ] को दे सकेगा िो
-अपिे कतषव्य का धििषहि असाििािी या उपेक्षा के साथ करता है या िो स् ि यं अपिे कायष द्व ारा अपिे को उसके धििषहि के
-धलए अयोग्य बिा लेता है, अथाषत्: —
-)क( सात कदि के िेति से अिधिक रकम का िुमाषिा अथिा िेतिमाि में अिगत करिा;
-)ि( चौदह कदि से अिधिक की कालािधि के धलए क् िा टषरों में परररोि, चाहे उसके साथ में दण् र् स् ि रू प
-किायद, अधतररक्त गारद, फटीग या अन्य ड्यू टी हो या िहीं;
-)ग( धिधशष्ट ता के ककसी पद से हटािा या ककसी धिशेष उपलधब्ि से िंधचत करिा।
-2 [(2) उपिारा (1) के अिीि ककए गए ककसी आदेश से व् य धथत कोई भती ककया गया बल - सदस्य उस तारीि से, धिसको उसे
-आदेश संसूधचत ककया िाता है, तीस कदि के भीतर उस आदेश के धिरुद्ध अपील ऐसे प्र ाधिकारी को कर सकेगा िो धिधहत ककया िाए:
-परंतु यकद धिधहत प्र ाधिकारी का समािाि हो िाता है कक अपीलाथी समय के भीतर अपील फाइल करिे में पयाषप्त कारण से
-धििाररत हो गया था तो िह तीस कदि की उक्त अिधि के अिसाि के पश्चा त् अपील ग्र हण कर सकेगा।
-(3) धिधहत प्र ाधिकारी अपील धिपटािे में ऐसी प्र कक्रया का अिुसरण करेगा िो धिधहत की िाए:
-परंतु उपिारा (2) के अिीि कोई िर्िषत शाधस्त अधिरो धपत करिे िाला आदेश तब तक िहीं ककया िाएगा िब तक उस
-आदेश से प्र भाधित व् य धक् त को सुििाई का युधक्त युक्त अिसर ि दे कदया गया हो। ]
-10. बल के अधिकाररयों और बल - सदस्यों का रेल सेिक समझा िािा — 3 [ महाधिदेशक और प्रत्‍ ये क बल - सदस्य ] भारतीय रेल
-अधिधियम, 18 90 (1890 का 9), उसके अध्या य 6 क को छोडकर, के अंतगषत रेल सेिक समझा िाएगा और उस अधिधियम द्व ारा या
-उसके अिीि रेल सेिकों को प्र दि शधक्त यों का प्र योग करिे का हकदार होगा।
-4 [ 11. बल के सदस्यों के कतषव्य — प्रत्‍ ये क िररष्ठ अधिकारी और बल के सदस्य का यह कतषव्य होगा कक िह, —
-) क( अपिे िररष्ठ प्र ाधिकारी द्व ारा धिधिपूणषत: उसे कदए गए सभी आदेशों का तत्‍प रता से धिष्पा दि करे;
-)ि( रेल संपधि, यात्री क्षेत्र और याधत्रयों का संरक्षण और सुरक्षा करे;
-)ग( रेल संपधि या यात्री क्षेत्र के संचलि में पडिे िाली ककसी बािा को दूर करे; और
-)घ ( कोई अन्य ऐसा कायष करे िो रेल संपधि, यात्री क्षेत्र और याधत्रयों के बेहतर संरक्षण और सुरक्षा का
-सािक हो। ]
-5 [ 12. िारंट के धबिा धगरफ्तार करिे की शधक्त — कोई बल - सदस्य ककसी मधिस्रे ट के ककसी आदेश के धबिा और िारंट
-के धबिा —
-(i) ऐसे ककसी व् य धक् त को धगरफ्तार कर सकेगा, िो उसको या ककसी अन्य बल - सदस्य को, ऐसे सदस्य के रू प में
-अपिा कतषव्य करिे में, या उसको ऐसे सदस्य के रू प में अपिा कतषव्य करिे से धििाररत करिे या भयोपरत करिे के आशय से
-या ऐसे सदस्य के रू प में उसके द्व ारा अपिे कतषव्य के धिधिपूणष धििषहि में की गई या ककए िािे के धलए प्र यधतत ककसी बात के
-पररणामस्ि रू प स् िे च् छ या उपहधत काररत करता है या स् िे च् छ या उपहधत काररत करिे का प्र यत्‍ि करता है अथिा सदोष
-अिरुद्ध करता है या सदोष अिरुद्ध करिे का प्र यत्‍ि करता अथिा हमला करता है या हम ला करिे की िमकी देता है अथिा
-आपराधिक बल का प्र योग करता है या प्र योग करिे की िमकी देता है या प्र योग का प्र यत्‍ि करता है; या
-(ii) ऐसे ककसी व् य धक् त को धगरफ्तार कर सकेगा, िो ककसी ऐसे संज्ञेय अपराि से संबद्ध रहा है या धिसके धिरुद्ध
-उसके ऐसे अपराि से संबद्ध रह िे का समुधचत संदेह है या िो अपिी उपधस्थ धत को धछपािे के धलए पूिाषििाधियां ऐसी
-पररधस्थ धतयों में बरतता पाया िाता है धििसे यह धिश्िा स करिे का कारण उत्‍प न् ि होता है कक िह ऐसी पूिाषििाधियां ऐसा
-संज्ञेय अपराि करिे के धलए बरत रहा है िो 6 [ रेल संपधि, यात्री क्षेत्र और याधत्रयों ] से संबंधित है; या
-(iii) ऐसे ककसी व् य धक् त को धगरफ्तार कर सकेगा िो रेल की सीमाओं में अपिी उपधस्थ धत को धछपािे के धलए
-पूिाषििाधियां ऐसी पररधस्थ धतयों में बरतता पाया िाता है धििसे यह धिश्िा स करिे का कारण उत्‍प न् ि होता है कक िह ऐसी
-पू िाषििाधियां 6 [ रेल संपधि, यात्री क्षेत्र और याधत्रयों ] की चोरी करिे या उसे िुकसाि पहुंचािे की दृधष्ट से बरत रहा है; या
-1 1985 के अधिधियम सं ० 60 की िारा 10 द्व ारा (20 - 9 - 1985 से ) “ सदस्य ” के स् था ि पर प्र धतस्था धपत।
-2 1985 के अधिधियम सं ० 60 की िारा 10 द्व ारा (20 - 9 - 1985 से ) उपिारा (2) के स् था ि पर प्र धतस्था धपत।
-3 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) कधत पय शब्दों के स् था ि पर प्र धतस्था धपत।
-4 2003 के अधिधियम सं ० 52 की िारा 4 द्व ारा प्र धतस्था धपत।
-5 1985 के अधिधियम सं ० 60 की िारा 11 द्व ारा (20 - 9 - 1985 से ) िारा 12 के स् था ि पर प्र धतस्था धपत।
-6 2003 के अधिधियम सं ० 52 की िारा 5 द्व ारा प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `(ii ) धिम्ि धलधित दंर्ों में से कोई एक या अधिक दंर् ककसी ऐसे 1 [ भती ककया गया बल - सदस्य ] को दे सकेगा िो`
+  line `अपिे कतषव्य का धििषहि असाििािी या उपेक्षा के साथ करता है या िो स् ि यं अपिे कायष द्व ारा अपिे को उसके धििषहि के`
+  line `धलए अयोग्य बिा लेता है, अथाषत्: —`
+  line `)क( सात कदि के िेति से अिधिक रकम का िुमाषिा अथिा िेतिमाि में अिगत करिा;`
+  line `)ि( चौदह कदि से अिधिक की कालािधि के धलए क् िा टषरों में परररोि, चाहे उसके साथ में दण् र् स् ि रू प`
+  line `किायद, अधतररक्त गारद, फटीग या अन्य ड्यू टी हो या िहीं;`
+  line `)ग( धिधशष्ट ता के ककसी पद से हटािा या ककसी धिशेष उपलधब्ि से िंधचत करिा।`
+  line `2 [(2) उपिारा (1) के अिीि ककए गए ककसी आदेश से व् य धथत कोई भती ककया गया बल - सदस्य उस तारीि से, धिसको उसे`
+  line `आदेश संसूधचत ककया िाता है, तीस कदि के भीतर उस आदेश के धिरुद्ध अपील ऐसे प्र ाधिकारी को कर सकेगा िो धिधहत ककया िाए:`
+  line `परंतु यकद धिधहत प्र ाधिकारी का समािाि हो िाता है कक अपीलाथी समय के भीतर अपील फाइल करिे में पयाषप्त कारण से`
+  line `धििाररत हो गया था तो िह तीस कदि की उक्त अिधि के अिसाि के पश्चा त् अपील ग्र हण कर सकेगा।`
+  line `(3) धिधहत प्र ाधिकारी अपील धिपटािे में ऐसी प्र कक्रया का अिुसरण करेगा िो धिधहत की िाए:`
+  line `परंतु उपिारा (2) के अिीि कोई िर्िषत शाधस्त अधिरो धपत करिे िाला आदेश तब तक िहीं ककया िाएगा िब तक उस`
+  line `आदेश से प्र भाधित व् य धक् त को सुििाई का युधक्त युक्त अिसर ि दे कदया गया हो। ]`
+  line `10. बल के अधिकाररयों और बल - सदस्यों का रेल सेिक समझा िािा — 3 [ महाधिदेशक और प्रत्‍ ये क बल - सदस्य ] भारतीय रेल`
+  line `अधिधियम, 18 90 (1890 का 9), उसके अध्या य 6 क को छोडकर, के अंतगषत रेल सेिक समझा िाएगा और उस अधिधियम द्व ारा या`
+  line `उसके अिीि रेल सेिकों को प्र दि शधक्त यों का प्र योग करिे का हकदार होगा।`
+  line `4 [ 11. बल के सदस्यों के कतषव्य — प्रत्‍ ये क िररष्ठ अधिकारी और बल के सदस्य का यह कतषव्य होगा कक िह, —`
+  line `) क( अपिे िररष्ठ प्र ाधिकारी द्व ारा धिधिपूणषत: उसे कदए गए सभी आदेशों का तत्‍प रता से धिष्पा दि करे;`
+  line `)ि( रेल संपधि, यात्री क्षेत्र और याधत्रयों का संरक्षण और सुरक्षा करे;`
+  line `)ग( रेल संपधि या यात्री क्षेत्र के संचलि में पडिे िाली ककसी बािा को दूर करे; और`
+  line `)घ ( कोई अन्य ऐसा कायष करे िो रेल संपधि, यात्री क्षेत्र और याधत्रयों के बेहतर संरक्षण और सुरक्षा का`
+  line `सािक हो। ]`
+  line `5 [ 12. िारंट के धबिा धगरफ्तार करिे की शधक्त — कोई बल - सदस्य ककसी मधिस्रे ट के ककसी आदेश के धबिा और िारंट`
+  line `के धबिा —`
+  line `(i) ऐसे ककसी व् य धक् त को धगरफ्तार कर सकेगा, िो उसको या ककसी अन्य बल - सदस्य को, ऐसे सदस्य के रू प में`
+  line `अपिा कतषव्य करिे में, या उसको ऐसे सदस्य के रू प में अपिा कतषव्य करिे से धििाररत करिे या भयोपरत करिे के आशय से`
+  line `या ऐसे सदस्य के रू प में उसके द्व ारा अपिे कतषव्य के धिधिपूणष धििषहि में की गई या ककए िािे के धलए प्र यधतत ककसी बात के`
+  line `पररणामस्ि रू प स् िे च् छ या उपहधत काररत करता है या स् िे च् छ या उपहधत काररत करिे का प्र यत्‍ि करता है अथिा सदोष`
+  line `अिरुद्ध करता है या सदोष अिरुद्ध करिे का प्र यत्‍ि करता अथिा हमला करता है या हम ला करिे की िमकी देता है अथिा`
+  line `आपराधिक बल का प्र योग करता है या प्र योग करिे की िमकी देता है या प्र योग का प्र यत्‍ि करता है; या`
+  line `(ii) ऐसे ककसी व् य धक् त को धगरफ्तार कर सकेगा, िो ककसी ऐसे संज्ञेय अपराि से संबद्ध रहा है या धिसके धिरुद्ध`
+  line `उसके ऐसे अपराि से संबद्ध रह िे का समुधचत संदेह है या िो अपिी उपधस्थ धत को धछपािे के धलए पूिाषििाधियां ऐसी`
+  line `पररधस्थ धतयों में बरतता पाया िाता है धििसे यह धिश्िा स करिे का कारण उत्‍प न् ि होता है कक िह ऐसी पूिाषििाधियां ऐसा`
+  line `संज्ञेय अपराि करिे के धलए बरत रहा है िो 6 [ रेल संपधि, यात्री क्षेत्र और याधत्रयों ] से संबंधित है; या`
+  line `(iii) ऐसे ककसी व् य धक् त को धगरफ्तार कर सकेगा िो रेल की सीमाओं में अपिी उपधस्थ धत को धछपािे के धलए`
+  line `पूिाषििाधियां ऐसी पररधस्थ धतयों में बरतता पाया िाता है धििसे यह धिश्िा स करिे का कारण उत्‍प न् ि होता है कक िह ऐसी`
+  line `पू िाषििाधियां 6 [ रेल संपधि, यात्री क्षेत्र और याधत्रयों ] की चोरी करिे या उसे िुकसाि पहुंचािे की दृधष्ट से बरत रहा है; या`
+  line `1 1985 के अधिधियम सं ० 60 की िारा 10 द्व ारा (20 - 9 - 1985 से ) “ सदस्य ” के स् था ि पर प्र धतस्था धपत।`
+  line `2 1985 के अधिधियम सं ० 60 की िारा 10 द्व ारा (20 - 9 - 1985 से ) उपिारा (2) के स् था ि पर प्र धतस्था धपत।`
+  line `3 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) कधत पय शब्दों के स् था ि पर प्र धतस्था धपत।`
+  line `4 2003 के अधिधियम सं ० 52 की िारा 4 द्व ारा प्र धतस्था धपत।`
+  line `5 1985 के अधिधियम सं ० 60 की िारा 11 द्व ारा (20 - 9 - 1985 से ) िारा 12 के स् था ि पर प्र धतस्था धपत।`
+  line `6 2003 के अधिधियम सं ० 52 की िारा 5 द्व ारा प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-(iv) ऐसे ककसी व् य धक्त को धगरफ्तार कर सकेगा, िो ऐसा संज्ञेय अपराि करता है या करिे का प्र यत्‍ि करता है,
-धिसमें 1 [ रेल संपधि, यात्री क्षेत्र और याधत्रयों ] से संबंधित ककसी कायष को करिे में लगे हु ए ककसी व् य धक् त के िीिि के धलए
-आसन्ि ितरा अंतिषधलत है या अंतिषधलत होिे की संभाििा है। ]
-13. िारंट के धबिा तलाशी लेिे की शधक्त — (1) िब भी ककसी 2 *** ज् ये ष् ठ रक्षक से अधिम्ि रैंक के बल - सदस्य के पास यह
-धिश्िा स करिे का कारण हो कक िारा 12 में धिर्दषष्ट प्र कार का कोई अपराि ककया गया है या ककया िा रहा है, और अपरािी को भाग
-िािे अथिा अपराि का साक्ष्य धछपा देिे का अिसर कदए धबिा तलाशी िारंट अधभप्राप्त िहीं ककया िा सकता, तब िह उसे रोक सकेगा
-और उसके शरीर तथा उसकी िस्तु ओं की तुरंत तलाशी ले सकेगा और यकद िह उधचत समझे तो ककसी ऐसे व् य धक् त को धगरफ्तार कर
-सकेगा धिसके बारे में उसके पास यह धिश्िा स करि का कारण हो कक उसिे िह अपराि ककया है।
-(2) 3 [ दंर् प्र कक्रया संधहता, 1973 (1974 का 2)] के अिीि तलाशी से संबं धित उस संधहता के उपबंि इस िारा के अिीि की
-गई तलाशी को यथाशक्य लागू होंगे।
-14. धगरफ्तारी के बाद अिुसरण की िािे िाली प्र कक्रया — इस अधिधियम के अिीि धगरफ्तारी करिे िाला 2 *** बल - सदस्य
-इस प्र कार धगरफ्तार ककए गए व् य धक् त को अिािश्य क धिलंब के धबिा 4 [ पुधलस अधि कारी को उ ि परर धस्थ धतयों की, धििके कारण ऐसे व्
-य धक् त को धगरफ्तार ककया गया है, ब् यौ रेिार ररपोटष सधहत ] सौंप देगा और यकद पुधलस अधिकारी ि हो तो उसे धिकटतम पुधलस थािे
-ले िाएगा या धभििाएगा।
-15. अधिकाररयों और बल - सदस्यों का सदा कतषव्या रूढ़ समझा िािा और रेलों के ककसी भी भाग में धियोििों का
-दायी होिा — 5 [(1) प्रत्‍ ये क बल - सदस्य को, इस अधिधियम के प्र योििों के धलए सदैि कतषव्या रू ढ़ समझा िाएगा और िह भारत के
-भीतर ककसी भी स् था ि पर, ककसी भी समय, धियोधित ककए िािे के दाधयत्‍ि के अिीि होगा। ]
-(2) 2 *** बल सदस्य इस अधिधियम के अिीि अपिे कतषव्यों से धभन् ि ककसी धियोिि या पद पर अपिे को िहीं लगाएगा।
-6 [ 15 क. संगम आकद बिािे के अधिकार की बाबत धिबंिि — (1) कोई बल - सदस्य केंद्रीय सरकार या धिधहत प्र ाधिकारी की
-धलधित पूिष मंिूरी के धबिा, —
-)क( ककसी व् य िसाय संघ, श्र म संघ, राििीधतक संगम का या व् य िसाय संघों, या राििीधतक संगमों के ककसी िगष
-का सदस्य िहीं होगा या उसके साथ ककसी भी रू प में सहयुक्त िहीं होगा; या
-)ि( ककसी ऐसी अन्य सोसाइटी, संस्था, संगम या संगठि का, धिसे बल के भागरूप में मान्य ता प्र ाप्त िहीं है अथिा
-िो धबल्कु ल सामाधिक, आमोद - प्र मोदात्‍म क या िार्मषक प्र कृधत का िहीं है, सदस्य िहीं होगा या उसके साथ ककसी भी रू प में
-सहयुक्त िहीं होगा; या
-)ग( प्रे स से सम्प कष िहीं करेगा या ककसी पुस्त क, पत्र या अन्य दस्ता िेि का प्र काशि िहीं करेगा या प्र काशि िहीं
-कराएगा। ककंतु िहां ऐसा सम्प कष या प्र काशि उसके कतषव्यों के सद् भा धिक धििषहि में है अथिा यह धबल्कु ल साधहधत्‍य क,
-कलात्‍म क या िैज्ञाधिक प्र कृधत का अथिा धिधहत प्र कार का है िहां ऐसा कर सकेगा। स्
-प ष् टी करण — यकद इस बारे में कोई प्रश् ि उत्‍पन्ि होता है कक कोई सोसाइटी, सं स् था, संगम या संगठि इस उपिारा के िंर्
-)ि( के अिीि धबल्कु ल सामाधिक, आमोद - प्र मोदात्‍म क या िार्मषक प्र कृधत का है या िहीं तो उस पर केन् द्री य सरकार का धिधिश्च य
-अंधतम होगा।
-(2) कोई बल - सदस्य ककन्हीं राििीधतक प्र योििों के धलए या ऐसे ककन्हीं अन्य प्र योि िों के धलए, िो धिधहत ककए िाएं व्
-य धक् त यों के ककसी धिकाय द्व ारा संगरठत ककसी प्र दशषि में भाग िहीं लेगा या उसकी ककसी बैठक को संबोधित िहीं करेगा या उसमें
-सधम्म धलत िहीं होगा। ]
-16. धिलंबि के दौराि बल - सदस्यों का उिरदाधयत्‍ि — ककसी बल - सदस्य का बल - सदस्य होिा उसके पद से धिलंधबत होिे के
-कारण ही समाप्त िहीं हो िाएगा और उस कालािधि के दौराि िह उन्हीं उिरदाधयत्‍िों, अिुशासि और शाधस्त यों के अिीि होगा
-धििके अिीि िह कतषव्या रूढ़ होिे पर होता।
-7 [16 क. बल - सदस्य ि रह गए व् य धक्त यों द्व ारा प्र माणपत्र, आयुि आकद का अभ्य पषण — (1) प्रत्‍ ये क व् य धक्त, िो ककसी कारण
-बल - सदस्य िहीं रह िाता है, अपिा धियुधक्त - प्र माणपत्र, आयुि, सािसज्िा, िस् त्र और अन्य िस्तु एं, िो उसे बल - सदस्य के रू प में अपिे
-1 20 03 के अधिधियम सं ० 52 की िारा 5 द्व ारा प्र धतस्था धपत।
-2 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) कधतपय शब्दों का लोप ककया गया।
-3 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) “ दंर् प्र कक्रया संधहता, 1898 (189 8 का 5)” के स् था ि पर प्र धतस्था धपत।
-4 2003 के अधिधियम सं ० 52 की िारा 6 द्व ारा प्र धतस्था धपत।
-5 1985 के अधिधियम सं ० 60 की िारा 12 द्व ारा (20 - 9 - 1985 से ) उपिारा (1) के स् था ि पर प्र धतस्था धपत।
-6 1985 के अधिधियम सं ० 60 की िारा 13 द्व ारा (20 - 9 - 1985 से ) अंत: स् था धपत।
-7 1985 के अधिधियम सं ० 60 की िारा 14 द्व ारा (20 - 9 - 1985 से ) अंत:स्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `(iv) ऐसे ककसी व् य धक्त को धगरफ्तार कर सकेगा, िो ऐसा संज्ञेय अपराि करता है या करिे का प्र यत्‍ि करता है,`
+  line `धिसमें 1 [ रेल संपधि, यात्री क्षेत्र और याधत्रयों ] से संबंधित ककसी कायष को करिे में लगे हु ए ककसी व् य धक् त के िीिि के धलए`
+  line `आसन्ि ितरा अंतिषधलत है या अंतिषधलत होिे की संभाििा है। ]`
+  line `13. िारंट के धबिा तलाशी लेिे की शधक्त — (1) िब भी ककसी 2 *** ज् ये ष् ठ रक्षक से अधिम्ि रैंक के बल - सदस्य के पास यह`
+  line `धिश्िा स करिे का कारण हो कक िारा 12 में धिर्दषष्ट प्र कार का कोई अपराि ककया गया है या ककया िा रहा है, और अपरािी को भाग`
+  line `िािे अथिा अपराि का साक्ष्य धछपा देिे का अिसर कदए धबिा तलाशी िारंट अधभप्राप्त िहीं ककया िा सकता, तब िह उसे रोक सकेगा`
+  line `और उसके शरीर तथा उसकी िस्तु ओं की तुरंत तलाशी ले सकेगा और यकद िह उधचत समझे तो ककसी ऐसे व् य धक् त को धगरफ्तार कर`
+  line `सकेगा धिसके बारे में उसके पास यह धिश्िा स करि का कारण हो कक उसिे िह अपराि ककया है।`
+  line `(2) 3 [ दंर् प्र कक्रया संधहता, 1973 (1974 का 2)] के अिीि तलाशी से संबं धित उस संधहता के उपबंि इस िारा के अिीि की`
+  line `गई तलाशी को यथाशक्य लागू होंगे।`
+  line `14. धगरफ्तारी के बाद अिुसरण की िािे िाली प्र कक्रया — इस अधिधियम के अिीि धगरफ्तारी करिे िाला 2 *** बल - सदस्य`
+  line `इस प्र कार धगरफ्तार ककए गए व् य धक् त को अिािश्य क धिलंब के धबिा 4 [ पुधलस अधि कारी को उ ि परर धस्थ धतयों की, धििके कारण ऐसे व्`
+  line `य धक् त को धगरफ्तार ककया गया है, ब् यौ रेिार ररपोटष सधहत ] सौंप देगा और यकद पुधलस अधिकारी ि हो तो उसे धिकटतम पुधलस थािे`
+  line `ले िाएगा या धभििाएगा।`
+  line `15. अधिकाररयों और बल - सदस्यों का सदा कतषव्या रूढ़ समझा िािा और रेलों के ककसी भी भाग में धियोििों का`
+  line `दायी होिा — 5 [(1) प्रत्‍ ये क बल - सदस्य को, इस अधिधियम के प्र योििों के धलए सदैि कतषव्या रू ढ़ समझा िाएगा और िह भारत के`
+  line `भीतर ककसी भी स् था ि पर, ककसी भी समय, धियोधित ककए िािे के दाधयत्‍ि के अिीि होगा। ]`
+  line `(2) 2 *** बल सदस्य इस अधिधियम के अिीि अपिे कतषव्यों से धभन् ि ककसी धियोिि या पद पर अपिे को िहीं लगाएगा।`
+  line `6 [ 15 क. संगम आकद बिािे के अधिकार की बाबत धिबंिि — (1) कोई बल - सदस्य केंद्रीय सरकार या धिधहत प्र ाधिकारी की`
+  line `धलधित पूिष मंिूरी के धबिा, —`
+  line `)क( ककसी व् य िसाय संघ, श्र म संघ, राििीधतक संगम का या व् य िसाय संघों, या राििीधतक संगमों के ककसी िगष`
+  line `का सदस्य िहीं होगा या उसके साथ ककसी भी रू प में सहयुक्त िहीं होगा; या`
+  line `)ि( ककसी ऐसी अन्य सोसाइटी, संस्था, संगम या संगठि का, धिसे बल के भागरूप में मान्य ता प्र ाप्त िहीं है अथिा`
+  line `िो धबल्कु ल सामाधिक, आमोद - प्र मोदात्‍म क या िार्मषक प्र कृधत का िहीं है, सदस्य िहीं होगा या उसके साथ ककसी भी रू प में`
+  line `सहयुक्त िहीं होगा; या`
+  line `)ग( प्रे स से सम्प कष िहीं करेगा या ककसी पुस्त क, पत्र या अन्य दस्ता िेि का प्र काशि िहीं करेगा या प्र काशि िहीं`
+  line `कराएगा। ककंतु िहां ऐसा सम्प कष या प्र काशि उसके कतषव्यों के सद् भा धिक धििषहि में है अथिा यह धबल्कु ल साधहधत्‍य क,`
+  line `कलात्‍म क या िैज्ञाधिक प्र कृधत का अथिा धिधहत प्र कार का है िहां ऐसा कर सकेगा। स्`
+  line `प ष् टी करण — यकद इस बारे में कोई प्रश् ि उत्‍पन्ि होता है कक कोई सोसाइटी, सं स् था, संगम या संगठि इस उपिारा के िंर्`
+  line `)ि( के अिीि धबल्कु ल सामाधिक, आमोद - प्र मोदात्‍म क या िार्मषक प्र कृधत का है या िहीं तो उस पर केन् द्री य सरकार का धिधिश्च य`
+  line `अंधतम होगा।`
+  line `(2) कोई बल - सदस्य ककन्हीं राििीधतक प्र योििों के धलए या ऐसे ककन्हीं अन्य प्र योि िों के धलए, िो धिधहत ककए िाएं व्`
+  line `य धक् त यों के ककसी धिकाय द्व ारा संगरठत ककसी प्र दशषि में भाग िहीं लेगा या उसकी ककसी बैठक को संबोधित िहीं करेगा या उसमें`
+  line `सधम्म धलत िहीं होगा। ]`
+  line `16. धिलंबि के दौराि बल - सदस्यों का उिरदाधयत्‍ि — ककसी बल - सदस्य का बल - सदस्य होिा उसके पद से धिलंधबत होिे के`
+  line `कारण ही समाप्त िहीं हो िाएगा और उस कालािधि के दौराि िह उन्हीं उिरदाधयत्‍िों, अिुशासि और शाधस्त यों के अिीि होगा`
+  line `धििके अिीि िह कतषव्या रूढ़ होिे पर होता।`
+  line `7 [16 क. बल - सदस्य ि रह गए व् य धक्त यों द्व ारा प्र माणपत्र, आयुि आकद का अभ्य पषण — (1) प्रत्‍ ये क व् य धक्त, िो ककसी कारण`
+  line `बल - सदस्य िहीं रह िाता है, अपिा धियुधक्त - प्र माणपत्र, आयुि, सािसज्िा, िस् त्र और अन्य िस्तु एं, िो उसे बल - सदस्य के रू प में अपिे`
+  line `1 20 03 के अधिधियम सं ० 52 की िारा 5 द्व ारा प्र धतस्था धपत।`
+  line `2 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) कधतपय शब्दों का लोप ककया गया।`
+  line `3 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) “ दंर् प्र कक्रया संधहता, 1898 (189 8 का 5)” के स् था ि पर प्र धतस्था धपत।`
+  line `4 2003 के अधिधियम सं ० 52 की िारा 6 द्व ारा प्र धतस्था धपत।`
+  line `5 1985 के अधिधियम सं ० 60 की िारा 12 द्व ारा (20 - 9 - 1985 से ) उपिारा (1) के स् था ि पर प्र धतस्था धपत।`
+  line `6 1985 के अधिधियम सं ० 60 की िारा 13 द्व ारा (20 - 9 - 1985 से ) अंत: स् था धपत।`
+  line `7 1985 के अधिधियम सं ० 60 की िारा 14 द्व ारा (20 - 9 - 1985 से ) अंत:स्था धपत।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-कतषव्यों का पालि करिे के धलए दी गई हों, ऐसे ककसी िररष्ठ अधिकारी को तत्‍का ल अभ्य र् पषत कर देगा िो उन्हें प्र ाप्त करिे के धलए
-सशक्त हो।
-(2) कोई व् य धक् त, िो उसको कदए गए धियुधक्त - प्र माणपत्र, आयुि, सािसज्िा, िस् त्र और अन्य िस्तु ओं को उपिारा (1) की
-अपेक्षािुसार अभ्य र् पषत करिे में िािबूझकर उपेक्षा करेगा या अभ्य र् पषत करिे से इंकार करेगा, दोषधसधद्ध पर, कारािास से, धिसकी
-अिधि एक मास तक की हो सकेगी, या िुमाषिे से, िो दो सौ रु पए तक का हो सकेगा, या दोिों से, दंधर्त ककया िाएगा।
-(3) इस िारा की कोई बात ऐसी ककसी िस्तु को लागू िहीं समझी िाएगी, िो महाधिदेशक के आदेशों के अिीि, उस व् य धक्त
-की सम्प धि हो गई धिसे िह दी गई थी।
-1 [ 17. कतषव्य की उपेक्षा आकद के धलए शाधस्त यां — (1) िारा 9 में अंतर्िषष्ट उपबंिों पर प्र धतकूल प्र भाि र् ाले धबिा, ऐसे प्रत्‍ ये क
-भती ककए गए बल - सदस्यों को, िो कतषव्य के ककसी अधतक्रमण का अथिा ककसी धियम को या ककसी िररष्ठ अधिकारी द्व ारा ककए गए
-ककसी धिधिपूणष आदेश को िािबूझकर भंग करिे या उसकी िािबूझकर उपेक्षा करिे का दोषी होगा, अथिा िो अपिे पद के कतषव्यों से
-अपिे को अिुज्ञा के धबिा हटा लेगा या िो छुट्टी पर अिुपधस्थ त रहिे पर, उस छुट्टी की समाधप्त पर उधचत कारण के धबिा अपिी ड्यू टी
-पर िहीं आएगा अथिा िो भती ककए गए बल सदस्य के रू प में अपिे कतषव्य से धभन् ि ककसी धियोिि के धलए अपिे को, प्र ाधिकार के
-धबिा लगाएगा, या िो कायरता का दोषी होगा, बल की अधभरक्षा में धलया िा सकेगा और दोषधसधद्ध पर कारािास से, धिसकी अिधि
-एक िषष तक की हो सकेगी, दंधर्त ककया िाएगा।
-(2) दंर् प्र कक्रया संधहता, 1973 (1974 का 2) में ककसी बात के होते हु ए भी, इस िारा के अिीि दंर्िीय कोई अपराि संज्ञेय
-और अिमाितीय होगा।
-(3) दंर् प्र कक्रया संधहता, 1973 (1974 का 2) में ककसी बात के होते हु ए भी, केंद्रीय सर कार, भती ककए गए ककसी बल - सदस्य द्व
-ारा ककए गए और इस अधिधियम के अिीि दंर्िीय ककसी अपराि की अथिा भती ककए गए ककसी बल - सदस्य द्व ारा ककसी अन्य बल -
-सदस्य के शरीर या संपधि के धिरुद्ध ककए गए ककसी अपराि की िांच करिे या उसका धिचारण करिे के प्र योिि के धलए ककसी भी िगष
-के मधिस्रे ट की शधक्त यां सहायक महाधिरीक्षक, ज् ये ष् ठ कमांर्ेंट या कमांर्ेंट में धिधिधहत कर सकेगी:
-(i) िब अपरािी छुट्टी पर हो या ड्यू टी से अिुपधस्थ त हो; या
-(ii) िब अपराि भती ककए गए बल - सदस्य के रू प में अपरािी के कतषव्यों से संबंधित ि हो; या
-(iii) िब िह अपराि छोटा हो, भले ही िह अपराि भती ककए गए बल - सदस्य के रू प में अपरािी के कतषव्यों से
-संबंधित हो; या
-(iv) िब ऐसे कारणों से, िो लेिबद्ध ककए िाएंगे, ऐसे कमांर्ेंट के धलए, धिसमें मधिस्रे ट की शधक्त यां धिधिधहत हैं,
-अपराि की िांच या उसका धिचारण करिा साध्य ि हो,
-तब उस अपराि की, यकद िह धिधहत प्र ाधिकारी धिसकी अधिकाररता की सीमाओं के भीतर अपराि ककया गया है ऐसी अपेक्षा करे,
-िांच या उसका धिचारण उस मामले में अधिकाररता रििे िाले मामूली दंर् न् या यालय द्व ारा ककया िा सकेगा।
-(4) इस िारा की ककसी बात का यह अथष िहीं लगाया िाएगा कक िह भती ककए गए ककसी बल - सदस्य को ककसी धिधि द्व ारा
-दंर्िीय बिाए गए ककसी अपराि के धलए उस धिधि के अिीि अधभयोधित ककए िािे से अथिा ऐसी ककसी धिधि के अिीि ऐसी ककसी
-शाधस्त या दंर् का, िो ऐसे अपराि के धलए इस िारा द्व ारा उपबंधित शाधस्त या दंर् से धभन् ि या कठोरतर है भागी होिे से धििाररत
-करती है:
-परंतु कोई व् य धक् त एक ही अपराि के धलए दो बार दंधर्त िहीं ककया िाएगा। ]
-18. 1922 के अधिधियम 22 का बल - सदस्यों को लागू होिा — पुधलस ( द्र ोह उद्दीपि( अधिधियम, 1922, बल - सदस्यों को उसी प्र
-कार लागू होगा धि स प्र कार िह पुधलस बल - सदस्यों को लागू होता है।
-2 [ 19. कुछ अधिधियमों का बल - सदस्यों को लागू ि होिा — मिदूरी संदाय अधिधियम, 1936 (1936 का 4) या औद्योधगक
-धििाद अधिधियम, 1947 (1947 का 14) या कारिािा अधिधियम, 1948 (1948 का 63) या औद्योधगक धििादों के अन्िे षण और
-पररधििाषरण के संबंि में ककसी राज्य में प्र िृि ककसी तत्‍ स्था िी धिधि की कोई बात बल - सदस्यों को लागू िहीं होगी। ]
-20. बल - सदस्यों के कायों का संरक्षण — (1) ककसी 3 *** बल - सदस्यों द्व ारा अपिे कतषव्यों के धििषहि में ककए गए ककसी कायष
-की बाबत उसके धिरुद्ध ककए गए िाद या कायषिाही में उसके धलए यह अधभिचि करिा धिधिपूणष होगा कक िह कायष उसके द्व ारा सक्षम प्र
-ाधिकारी के आदेशों के अिीि ककया गया था।
-1 1985 के अधिधियम सं ० 60 की िारा 15 द्व ारा (20 - 9 - 1985 से ) िारा 17 के स् था ि पर प्र धतस्था धपत।
-2 1985 के अधिधियम सं ० 60 की िारा 16 द्व ारा (20 - 9 - 1985 से ) िारा 19 के स् था ि प र प्र धतस्था धपत।
-3 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) “ िररष्ठ अधिकारी या ” शब्दों का लोप ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `कतषव्यों का पालि करिे के धलए दी गई हों, ऐसे ककसी िररष्ठ अधिकारी को तत्‍का ल अभ्य र् पषत कर देगा िो उन्हें प्र ाप्त करिे के धलए`
+  line `सशक्त हो।`
+  line `(2) कोई व् य धक् त, िो उसको कदए गए धियुधक्त - प्र माणपत्र, आयुि, सािसज्िा, िस् त्र और अन्य िस्तु ओं को उपिारा (1) की`
+  line `अपेक्षािुसार अभ्य र् पषत करिे में िािबूझकर उपेक्षा करेगा या अभ्य र् पषत करिे से इंकार करेगा, दोषधसधद्ध पर, कारािास से, धिसकी`
+  line `अिधि एक मास तक की हो सकेगी, या िुमाषिे से, िो दो सौ रु पए तक का हो सकेगा, या दोिों से, दंधर्त ककया िाएगा।`
+  line `(3) इस िारा की कोई बात ऐसी ककसी िस्तु को लागू िहीं समझी िाएगी, िो महाधिदेशक के आदेशों के अिीि, उस व् य धक्त`
+  line `की सम्प धि हो गई धिसे िह दी गई थी।`
+  line `1 [ 17. कतषव्य की उपेक्षा आकद के धलए शाधस्त यां — (1) िारा 9 में अंतर्िषष्ट उपबंिों पर प्र धतकूल प्र भाि र् ाले धबिा, ऐसे प्रत्‍ ये क`
+  line `भती ककए गए बल - सदस्यों को, िो कतषव्य के ककसी अधतक्रमण का अथिा ककसी धियम को या ककसी िररष्ठ अधिकारी द्व ारा ककए गए`
+  line `ककसी धिधिपूणष आदेश को िािबूझकर भंग करिे या उसकी िािबूझकर उपेक्षा करिे का दोषी होगा, अथिा िो अपिे पद के कतषव्यों से`
+  line `अपिे को अिुज्ञा के धबिा हटा लेगा या िो छुट्टी पर अिुपधस्थ त रहिे पर, उस छुट्टी की समाधप्त पर उधचत कारण के धबिा अपिी ड्यू टी`
+  line `पर िहीं आएगा अथिा िो भती ककए गए बल सदस्य के रू प में अपिे कतषव्य से धभन् ि ककसी धियोिि के धलए अपिे को, प्र ाधिकार के`
+  line `धबिा लगाएगा, या िो कायरता का दोषी होगा, बल की अधभरक्षा में धलया िा सकेगा और दोषधसधद्ध पर कारािास से, धिसकी अिधि`
+  line `एक िषष तक की हो सकेगी, दंधर्त ककया िाएगा।`
+  line `(2) दंर् प्र कक्रया संधहता, 1973 (1974 का 2) में ककसी बात के होते हु ए भी, इस िारा के अिीि दंर्िीय कोई अपराि संज्ञेय`
+  line `और अिमाितीय होगा।`
+  line `(3) दंर् प्र कक्रया संधहता, 1973 (1974 का 2) में ककसी बात के होते हु ए भी, केंद्रीय सर कार, भती ककए गए ककसी बल - सदस्य द्व`
+  line `ारा ककए गए और इस अधिधियम के अिीि दंर्िीय ककसी अपराि की अथिा भती ककए गए ककसी बल - सदस्य द्व ारा ककसी अन्य बल -`
+  line `सदस्य के शरीर या संपधि के धिरुद्ध ककए गए ककसी अपराि की िांच करिे या उसका धिचारण करिे के प्र योिि के धलए ककसी भी िगष`
+  line `के मधिस्रे ट की शधक्त यां सहायक महाधिरीक्षक, ज् ये ष् ठ कमांर्ेंट या कमांर्ेंट में धिधिधहत कर सकेगी:`
+  line `(i) िब अपरािी छुट्टी पर हो या ड्यू टी से अिुपधस्थ त हो; या`
+  line `(ii) िब अपराि भती ककए गए बल - सदस्य के रू प में अपरािी के कतषव्यों से संबंधित ि हो; या`
+  line `(iii) िब िह अपराि छोटा हो, भले ही िह अपराि भती ककए गए बल - सदस्य के रू प में अपरािी के कतषव्यों से`
+  line `संबंधित हो; या`
+  line `(iv) िब ऐसे कारणों से, िो लेिबद्ध ककए िाएंगे, ऐसे कमांर्ेंट के धलए, धिसमें मधिस्रे ट की शधक्त यां धिधिधहत हैं,`
+  line `अपराि की िांच या उसका धिचारण करिा साध्य ि हो,`
+  line `तब उस अपराि की, यकद िह धिधहत प्र ाधिकारी धिसकी अधिकाररता की सीमाओं के भीतर अपराि ककया गया है ऐसी अपेक्षा करे,`
+  line `िांच या उसका धिचारण उस मामले में अधिकाररता रििे िाले मामूली दंर् न् या यालय द्व ारा ककया िा सकेगा।`
+  line `(4) इस िारा की ककसी बात का यह अथष िहीं लगाया िाएगा कक िह भती ककए गए ककसी बल - सदस्य को ककसी धिधि द्व ारा`
+  line `दंर्िीय बिाए गए ककसी अपराि के धलए उस धिधि के अिीि अधभयोधित ककए िािे से अथिा ऐसी ककसी धिधि के अिीि ऐसी ककसी`
+  line `शाधस्त या दंर् का, िो ऐसे अपराि के धलए इस िारा द्व ारा उपबंधित शाधस्त या दंर् से धभन् ि या कठोरतर है भागी होिे से धििाररत`
+  line `करती है:`
+  line `परंतु कोई व् य धक् त एक ही अपराि के धलए दो बार दंधर्त िहीं ककया िाएगा। ]`
+  line `18. 1922 के अधिधियम 22 का बल - सदस्यों को लागू होिा — पुधलस ( द्र ोह उद्दीपि( अधिधियम, 1922, बल - सदस्यों को उसी प्र`
+  line `कार लागू होगा धि स प्र कार िह पुधलस बल - सदस्यों को लागू होता है।`
+  line `2 [ 19. कुछ अधिधियमों का बल - सदस्यों को लागू ि होिा — मिदूरी संदाय अधिधियम, 1936 (1936 का 4) या औद्योधगक`
+  line `धििाद अधिधियम, 1947 (1947 का 14) या कारिािा अधिधियम, 1948 (1948 का 63) या औद्योधगक धििादों के अन्िे षण और`
+  line `पररधििाषरण के संबंि में ककसी राज्य में प्र िृि ककसी तत्‍ स्था िी धिधि की कोई बात बल - सदस्यों को लागू िहीं होगी। ]`
+  line `20. बल - सदस्यों के कायों का संरक्षण — (1) ककसी 3 *** बल - सदस्यों द्व ारा अपिे कतषव्यों के धििषहि में ककए गए ककसी कायष`
+  line `की बाबत उसके धिरुद्ध ककए गए िाद या कायषिाही में उसके धलए यह अधभिचि करिा धिधिपूणष होगा कक िह कायष उसके द्व ारा सक्षम प्र`
+  line `ाधिकारी के आदेशों के अिीि ककया गया था।`
+  line `1 1985 के अधिधियम सं ० 60 की िारा 15 द्व ारा (20 - 9 - 1985 से ) िारा 17 के स् था ि पर प्र धतस्था धपत।`
+  line `2 1985 के अधिधियम सं ० 60 की िारा 16 द्व ारा (20 - 9 - 1985 से ) िारा 19 के स् था ि प र प्र धतस्था धपत।`
+  line `3 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) “ िररष्ठ अधिकारी या ” शब्दों का लोप ककया गया।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-(2) ऐसा कोई अधभिाक् उस कायष का धिदेश देिे िाले आदेश को पेश करके साधबत ककया िा सकेगा और उसके इस प्र कार
-साधबत ककए िािे पर िह 1 *** बल - सदस्य उसके द्व ारा इस प्र कार कक ए गए कायष की बाबत दाधयत्‍ि से उन्मो धचत कर कदया िाएगा,
-भले ही ऐसा आदेश िारी करिे िाले प्र ाधिकारी की अधिकाररता में कोई त्रु रट रही हो।
-(3) तत्‍स मय प्र िृि ककसी धिधि में ककसी बात के होते हु ए भी, कोई धसधिल या दांधर्क कायषिाही, िो इस अधिधियम या उसके
-अिीि बिाए गए धियमों के ककसी उपबंि द्व ारा या उसके अिुसरण में प्र दि शधक्त यों का प्र योग करके की गई या की िािे के धलए
-आशधयत ककसी बात के धलए ककसी 1 *** बल - सदस्य के धिरुद्ध हो, पररिाकदत कायष के ककए िािे के पश्चा त् ती ि मास के अन्द र प्र ारंभ
-की िाएगी अन्य था िहीं, और ऐसी कायषिाही तथा उसके कारण भी सूचिा संबंि व् य धक् त को और उसके िररष्ठ अधिकारी को ऐसी
-कायषिाही के प्र ारम्भ से कम से कम एक मास पूिष दी िाएगी।
-21. धियम बिािे की शधक्त — (1) केंद्रीय सरकार इस अधिधियम के प्र योििों को कायाषधन्ि त करिे के धलए धियम, रािपत्र में
-अधिसूचिा द्व ारा, बिा सकेगी।
-(2) धिधशष्ट त: और पूिषगामी शधक्त यों की व् या पकता पर प्र धतकूल प्र भाि र् ाले धबिा, ऐसे धियम धिम्ि धलधित के धलए उपबंि
-कर सकेंगे: —
-)क( 2 *** बल - सदस्यों के िगों और श्रे धणयों तथा िेति और पाररश्रधमक का और बल में सेिा की शतों का
-धिधियमि;
-)ि( इस अधिधियम द्व ारा या इस के अिीि ककन्हीं कृत्‍ यों को कर िे के धलए प्र ाधिकृत 2 *** बल - सदस्यों की शधक्त यों
-और कतषव्यों का धिधियमि;
-)ग( 2 *** बल - सदस्यों के धलए से िा की कालािधि धियत करिा;
-3 [ ) घ( बल सदस्यों को कदए िािे िाले आयुि, सािसज्िा, िस् त्र और अन्य आिश्य क िस्तु ओं का प्र कार और उिकी
-मात्रा धिधहत करिा;
-) ङ ( बल - सदस्यों के धििास - स् था ि धिधहत करिा;
-)च( बल के प्र शासि से संबंधित ककसी प्र योिि के धलए ककसी धिधि की संस्था पिा तथा उसका प्र बंि और
-धिधियमि;
-)छ( दंर्ों का धिधियमि और ऐसे प्र ाधिकारी धिधहत करिा, धिन्हें दंर् के अथिा िुमाषिे के पररहार के या अन्य दंर्
-के आदेशों से अपीलें की िाएंगी और ऐसी अपीलों को धिपटािे के धलए अिुसरण की िािे िाली प्र कक्रया;
-)ि( इस अधिधियम के अिीि बल - अधभरक्षा से संबंधित धिषयों का, धििके अंतगषत व् य धक् त यों को ऐसी अधभरक्षा में
-लेिे के धलए अिुसरण की िािे िाली प्र कक्रया है, धिधियमि करिा;
-)झ( इस अधिधियम के अिीि अपरािों से संबंधित मामलों के धिपटािे से संबंधित धिषयों का धिधियमि करिा
-और उि स् था िों को, धििमें इस अधिधियम के अिी ि दोषधसद्ध व् य धक्त यों को परररुद्ध ककया िा सकेगा, धिधिर्दषष्ट करिा;
-) ञ ( ऐसा कोई अन्य धिषय िो अधिरोधपत ककया िािा है या ककया िाए अथिा धिसके संबंि में धियम इस
-अधिधियम के अिीि बिाए िािे अपेधक्षत हैं। ]
-4 [(1) इस अधिधियम के अिीि बिाया गया प्रत्‍ ये क धियम, बिा ए िािे के पश्चा त् यथाशीघ्र, संसद् के प्रत्‍ ये क सदि के समक्ष,
-िब िह सत्र में हो, कुल तीस कदि की अिधि के धलए रिा िाएगा। यह अिधि एक सत्र में अथिा दो या अधिक आिुक्रधमक सत्रों में पूरी
-हो सकेगी। यकद उस सत्र के या पूिोक्त आिुक्रधमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिष दोिों सदि उस धियम में कोई पररितषि
-करिे के धलए सहमत हो िाएं तो तत्‍प श् चा त् िह ऐसे पररिर्तषत रू प में ही प्र भािी होगा। यकद उक्त अिसाि के पूिष दोिों सदि सहमत
-हो िाएं कक िह धियम िहीं बिाया िािा चाधहए तो तत्‍प श् चा त् िह धिष् प्र भाि हो िा एगा। ककंतु धियम के ऐसे पररिर्तषत या धिष् प्र भाि
-होिे से उसके अिीि पहले की गई ककसी बात की धिधिमान्य ता पर प्र धतकूल प्र भाि िहीं पडेगा। ]
-अिुसूची
-) िारा 7 देधिए (
-क ि रेल संरक्षण बल अधिधियम, 1957 के अिीि रेल संरक्षण बल का सदस्य धियुक्त ककया गया है और उसमें बल - सदस्य
-की शधक्त यां, कृत्‍य और धिशेषाधिकार धिधहत ककए गए हैं।
-______
-1 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) “ िररष्ठ अधिकारी या ” शब्दों का लोप ककया गया।
-2 1985 के अधिधियम सं ० 60 की िारा 17 द्व ारा (20 - 9 - 1985 से ) “ िररष्ठ अधिकाररयों और ” शब्दों का लोप ककया गया।
-3 1985 के अधिधियम सं ० 60 की िारा 17 द्व ारा (20 - 9 - 1985 से ) उपिारा )घ( और ) ङ ( के स् था ि पर प्र धतस्था धपत।
-4 1985 के अधिधियम सं ० 60 की िारा 17 द्व ारा (20 - 9 - 1985 से ) उपिारा (3) के स् था ि पर प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `(2) ऐसा कोई अधभिाक् उस कायष का धिदेश देिे िाले आदेश को पेश करके साधबत ककया िा सकेगा और उसके इस प्र कार`
+  line `साधबत ककए िािे पर िह 1 *** बल - सदस्य उसके द्व ारा इस प्र कार कक ए गए कायष की बाबत दाधयत्‍ि से उन्मो धचत कर कदया िाएगा,`
+  line `भले ही ऐसा आदेश िारी करिे िाले प्र ाधिकारी की अधिकाररता में कोई त्रु रट रही हो।`
+  line `(3) तत्‍स मय प्र िृि ककसी धिधि में ककसी बात के होते हु ए भी, कोई धसधिल या दांधर्क कायषिाही, िो इस अधिधियम या उसके`
+  line `अिीि बिाए गए धियमों के ककसी उपबंि द्व ारा या उसके अिुसरण में प्र दि शधक्त यों का प्र योग करके की गई या की िािे के धलए`
+  line `आशधयत ककसी बात के धलए ककसी 1 *** बल - सदस्य के धिरुद्ध हो, पररिाकदत कायष के ककए िािे के पश्चा त् ती ि मास के अन्द र प्र ारंभ`
+  line `की िाएगी अन्य था िहीं, और ऐसी कायषिाही तथा उसके कारण भी सूचिा संबंि व् य धक् त को और उसके िररष्ठ अधिकारी को ऐसी`
+  line `कायषिाही के प्र ारम्भ से कम से कम एक मास पूिष दी िाएगी।`
+  line `21. धियम बिािे की शधक्त — (1) केंद्रीय सरकार इस अधिधियम के प्र योििों को कायाषधन्ि त करिे के धलए धियम, रािपत्र में`
+  line `अधिसूचिा द्व ारा, बिा सकेगी।`
+  line `(2) धिधशष्ट त: और पूिषगामी शधक्त यों की व् या पकता पर प्र धतकूल प्र भाि र् ाले धबिा, ऐसे धियम धिम्ि धलधित के धलए उपबंि`
+  line `कर सकेंगे: —`
+  line `)क( 2 *** बल - सदस्यों के िगों और श्रे धणयों तथा िेति और पाररश्रधमक का और बल में सेिा की शतों का`
+  line धिधियमि;
+  line `)ि( इस अधिधियम द्व ारा या इस के अिीि ककन्हीं कृत्‍ यों को कर िे के धलए प्र ाधिकृत 2 *** बल - सदस्यों की शधक्त यों`
+  line `और कतषव्यों का धिधियमि;`
+  line `)ग( 2 *** बल - सदस्यों के धलए से िा की कालािधि धियत करिा;`
+  line `3 [ ) घ( बल सदस्यों को कदए िािे िाले आयुि, सािसज्िा, िस् त्र और अन्य आिश्य क िस्तु ओं का प्र कार और उिकी`
+  line `मात्रा धिधहत करिा;`
+  line `) ङ ( बल - सदस्यों के धििास - स् था ि धिधहत करिा;`
+  line `)च( बल के प्र शासि से संबंधित ककसी प्र योिि के धलए ककसी धिधि की संस्था पिा तथा उसका प्र बंि और`
+  line धिधियमि;
+  line `)छ( दंर्ों का धिधियमि और ऐसे प्र ाधिकारी धिधहत करिा, धिन्हें दंर् के अथिा िुमाषिे के पररहार के या अन्य दंर्`
+  line `के आदेशों से अपीलें की िाएंगी और ऐसी अपीलों को धिपटािे के धलए अिुसरण की िािे िाली प्र कक्रया;`
+  line `)ि( इस अधिधियम के अिीि बल - अधभरक्षा से संबंधित धिषयों का, धििके अंतगषत व् य धक् त यों को ऐसी अधभरक्षा में`
+  line `लेिे के धलए अिुसरण की िािे िाली प्र कक्रया है, धिधियमि करिा;`
+  line `)झ( इस अधिधियम के अिीि अपरािों से संबंधित मामलों के धिपटािे से संबंधित धिषयों का धिधियमि करिा`
+  line `और उि स् था िों को, धििमें इस अधिधियम के अिी ि दोषधसद्ध व् य धक्त यों को परररुद्ध ककया िा सकेगा, धिधिर्दषष्ट करिा;`
+  line `) ञ ( ऐसा कोई अन्य धिषय िो अधिरोधपत ककया िािा है या ककया िाए अथिा धिसके संबंि में धियम इस`
+  line `अधिधियम के अिीि बिाए िािे अपेधक्षत हैं। ]`
+  line `4 [(1) इस अधिधियम के अिीि बिाया गया प्रत्‍ ये क धियम, बिा ए िािे के पश्चा त् यथाशीघ्र, संसद् के प्रत्‍ ये क सदि के समक्ष,`
+  line `िब िह सत्र में हो, कुल तीस कदि की अिधि के धलए रिा िाएगा। यह अिधि एक सत्र में अथिा दो या अधिक आिुक्रधमक सत्रों में पूरी`
+  line `हो सकेगी। यकद उस सत्र के या पूिोक्त आिुक्रधमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिष दोिों सदि उस धियम में कोई पररितषि`
+  line `करिे के धलए सहमत हो िाएं तो तत्‍प श् चा त् िह ऐसे पररिर्तषत रू प में ही प्र भािी होगा। यकद उक्त अिसाि के पूिष दोिों सदि सहमत`
+  line `हो िाएं कक िह धियम िहीं बिाया िािा चाधहए तो तत्‍प श् चा त् िह धिष् प्र भाि हो िा एगा। ककंतु धियम के ऐसे पररिर्तषत या धिष् प्र भाि`
+  line `होिे से उसके अिीि पहले की गई ककसी बात की धिधिमान्य ता पर प्र धतकूल प्र भाि िहीं पडेगा। ]`
+  line अिुसूची
+  line `) िारा 7 देधिए (`
+  line `क ि रेल संरक्षण बल अधिधियम, 1957 के अिीि रेल संरक्षण बल का सदस्य धियुक्त ककया गया है और उसमें बल - सदस्य`
+  line `की शधक्त यां, कृत्‍य और धिशेषाधिकार धिधहत ककए गए हैं।`
+  line ______
+  line `1 1985 के अधिधियम सं ० 60 की िारा 18 और अिुसूची द्व ारा (20 - 9 - 1985 से ) “ िररष्ठ अधिकारी या ” शब्दों का लोप ककया गया।`
+  line `2 1985 के अधिधियम सं ० 60 की िारा 17 द्व ारा (20 - 9 - 1985 से ) “ िररष्ठ अधिकाररयों और ” शब्दों का लोप ककया गया।`
+  line `3 1985 के अधिधियम सं ० 60 की िारा 17 द्व ारा (20 - 9 - 1985 से ) उपिारा )घ( और ) ङ ( के स् था ि पर प्र धतस्था धपत।`
+  line `4 1985 के अधिधियम सं ० 60 की िारा 17 द्व ारा (20 - 9 - 1985 से ) उपिारा (3) के स् था ि पर प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line

@@ -1,0 +1,28 @@
+Local static server: http://127.0.0.1:4173/
+Built app route: http://127.0.0.1:4173/indian-law/
+
+English home verification:
+- Route: /indian-law/#/en
+- Metric: 845
+- Metric label: laws
+- Catalog link text: Catalog source: Links Notation
+- Catalog link href: http://127.0.0.1:4173/data/catalog.lino
+- Fallback copy present: false
+- Screenshot: ../images/issue-23-english-home.png
+
+Hindi home verification:
+- Route: /indian-law/#/hi
+- Metric: 703/845
+- Metric label: laws
+- Catalog link text: Catalog source: Links Notation
+- Catalog link href: http://127.0.0.1:4173/data/catalog.lino
+- Fallback copy present: false
+- Representative unavailable row: The Punjab Tenancy Act, 1887.188716UnavailablePending discovery
+- Screenshot: ../images/issue-23-hindi-home.png
+
+Hindi unavailable document-route verification:
+- Route checked: /indian-law/#/laws/hi/the-punjab-tenancy-act-1887/part-001.md
+- Rendered law document: false
+- Rendered Hindi catalog: true
+- Metric: 703/845
+- Fallback copy present: false

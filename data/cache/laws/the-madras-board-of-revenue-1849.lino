@@ -1,50 +1,95 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T19:22:23.025Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19544`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T17:42:42.028Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19544`
+  completeFetch true
+  maxSections null
+  sectionCount 1
+  totalSections 1
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-madras-board-of-revenue-1849)
-  (str handle) (str 19544)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Madras Board of Revenue,1849`)
-  (str actNumber) (str 10)
-  (str enactmentDate) (str 1849-05-26)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19544`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1849)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act for appointing a Commissioner of Revenue at Madreas`)
-  (str enforcementDate) (undefined)
-  (str notification) (undefined)
+  slug the-madras-board-of-revenue-1849
+  handle (19544)
+  collectionHandle 123456789/1362
+  title `The Madras Board of Revenue,1849`
+  actNumber (10)
+  enactmentDate 1849-05-26
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19544`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1849)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act for appointing a Commissioner of Revenue at Madreas`
+  enforcementDate undefined
+  notification undefined
+  fetchedAt `2026-05-09T19:22:23.025Z`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_madras_board_of_revenue_1849
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/19544`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/19544`
 obj_root_law_sources_en_the_madras_board_of_revenue_1849:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19544/1/a1849-10.pdf`)
-  (str title) (str `The Madras Board of Revenue,1849`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19544/1/a1849-10.pdf`
+  title `The Madras Board of Revenue,1849`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
+  obj_root_law_sections_1
+obj_root_law_sections_1:
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  sourcePage 1
+obj_root_law_sections_1_content:
+  string
+  line `MADRAS. — BOARD OF REVENUE.`
+  line `A CT N O. X OF 18 49.`
+  line `[ Passed on the 26 th May,1849. ]`
+  line `Recites expediency of empowering G. to depute one Member of Board of Revenue to perform duties`
+  line `of Board in any districts,&c.`
+  line `1. Enacts, G. in C. of Fort St. G. may depute Member of Revenue Board to Perform in any district,`
+  line `duties of Board collectively.`
+  line `2, 3. Empowers Commissioner so deputed to exercise all powers mentioned in Commission,`
+  line `( 3) Commission to be published in Gazette.`
+  line `4. Correspondence,&c. under Commission to be deposited with and deemed Records of Board of`
+  line Revenue.
+  line `An Act for appointing a Commissioner of Revenue at Madras.`
+  line `Whereas it is expedient that the Governor of Fort St. Georg e i n Cou ncil should be empowered to`
+  line `depute a Member of the Board of Revenue, to perform in any of the Districts of that Presidency all or`
+  line `any of the duties which, by the General Regulations and Laws of the Presidency, belong to the Board`
+  line `of Revenue collectively, It is enacted as follows:`
+  line `I. The Governor of Fort St. George in Council may, from time to time, whenever he shall see fit,`
+  line `depute a member of the Board of Revenue t o perform alone, in any of the D istricts of that Presidency,`
+  line `all or any of the duties which, by the General Regulations and Laws of the Presidency, belong to the`
+  line `Board of Revenue collectively.`
+  line `II. When a special Commission shall be given to a Member of the Board of Revenue under this`
+  line `Act, the Member of the Board named therein shall, by vir tue thereof, be empowered to exercise,`
+  line `within the limits of his Commission, all the powers and duties which by Law are vested in the Board`
+  line `of Revenue collectively, without exception, or subject to any exceptions or restrictions, which shall be`
+  line `prescribed i n such Commission; and all Regulations and Acts concerning the Board of Revenue shall`
+  line `be deemed to apply to the said Commissioner within the limits of his Commission, and with regard to`
+  line `all things concerning the Revenue of the Districts included in it, so far as is necessary to give full`
+  line `effect to his Commission and to this Act.`
+  line `III. Every such Commission shall be published in the Fort St. Ge o r ge Ga zette, and the`
+  line `Commissioner shall enter on his Office from the date of such publication; and in like manner t he`
+  line `revocation or other determination of any such Commission shall be published in the Fort St. George`
+  line Gazette.
+  line `IV. The correspondence and other documents belonging to any such Commission shall be`
+  line `deposited on the determination there of, in the Office of th e Board of Revenue, and shall be deemed`
+  line `records of the said Board.`
+obj_root_law_sections_1_footnotes:
+  string
+  line

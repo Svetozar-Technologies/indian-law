@@ -241,6 +241,106 @@ test("fetch site build converts cached Hindi PDF source into Markdown", async ()
   }
 });
 
+test("fetch site build falls back to English PDF text when cached HTML sections are empty", async () => {
+  const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-english-pdf-"));
+  const output = path.join(workspace, "site");
+  const cacheDir = path.join(workspace, "cache");
+  const manifest = path.join(workspace, "manifest.json");
+  const regionalSources = path.join(workspace, "regional-sources.json");
+  const pdfBody = await readFile("docs/case-studies/issue-17/h198868.pdf");
+  let pdfRequests = 0;
+  const server = http.createServer((request, response) => {
+    if (request.url === "/english.pdf") {
+      pdfRequests += 1;
+      response.writeHead(200, { "content-type": "application/pdf" });
+      response.end(pdfBody);
+      return;
+    }
+
+    response.writeHead(500, { "content-type": "text/plain" });
+    response.end("cached law page should not be requested");
+  });
+
+  try {
+    await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+    const { port } = server.address();
+    const sourceUrl = `http://127.0.0.1:${port}/law`;
+    const englishPdfUrl = `http://127.0.0.1:${port}/english.pdf`;
+    await mkdir(cacheDir, { recursive: true });
+    await writeFile(
+      manifest,
+      `${JSON.stringify(
+        {
+          generatedFrom: [sourceUrl],
+          lastVerified: "2026-05-10",
+          laws: [
+            {
+              slug: "pdf-backed-act",
+              title: "PDF Backed Act",
+              sourceUrl,
+              sources: {
+                en: [
+                  { kind: "html", url: sourceUrl },
+                  { kind: "pdf", url: englishPdfUrl, title: "PDF Backed Act" }
+                ]
+              },
+              sections: []
+            }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-10", sources: [] })}\n`);
+    await writeDataFile(path.join(cacheDir, "pdf-backed-act.lino"), {
+      fetchedAt: "2099-01-01T00:00:00.000Z",
+      sourceUrl,
+      completeFetch: true,
+      law: {
+        slug: "pdf-backed-act",
+        title: "PDF Backed Act",
+        sourceUrl,
+        sources: {
+          en: [
+            { kind: "html", url: sourceUrl },
+            { kind: "pdf", url: englishPdfUrl, title: "PDF Backed Act" }
+          ]
+        },
+        sections: []
+      }
+    });
+
+    await execFileAsync("node", [
+      "scripts/build-site.mjs",
+      "--fetch",
+      "--manifest",
+      manifest,
+      "--regional-sources",
+      regionalSources,
+      "--cache-dir",
+      cacheDir,
+      "--output",
+      output,
+      "--delay-ms",
+      "0"
+    ]);
+
+    const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
+    const markdown = await readFile(path.join(output, "laws/en/pdf-backed-act/part-001.md"), "utf8");
+    const cache = await readDataFile(path.join(cacheDir, "pdf-backed-act.lino"));
+    assert.equal(pdfRequests, 1);
+    assert.equal(catalog.laws[0].languages.en.enabled, true);
+    assert.equal(catalog.laws[0].languages.en.status, "markdown");
+    assert.match(markdown, /Language: English/);
+    assert.match(markdown, /## Page 1/);
+    assert.ok(cache.law.sections.length > 0);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+    await rm(workspace, { recursive: true, force: true });
+  }
+});
+
 test("fetch site build resumes an incomplete cached law without redownloading cached sections", async () => {
   const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-resume-cache-"));
   const output = path.join(workspace, "site");
@@ -449,7 +549,9 @@ test("fetch site build writes completed law cache and progress as Lino", async (
     const cacheNotation = await readFile(cachePath, "utf8");
     const cache = await readDataFile(cachePath);
     const progress = await readDataFile(progressFile);
-    assert.match(cacheNotation, /^obj_root:\n  object\n/);
+    assert.match(cacheNotation, /^obj_root:\n  cacheVersion 1\n/);
+    assert.match(cacheNotation, /^  completeFetch true$/m);
+    assert.doesNotMatch(cacheNotation, /^obj_root:\n  object\n/);
     assert.equal(cache.completeFetch, true);
     assert.equal(cache.law.slug, "live-cache-act");
     assert.equal(progress.status, "complete");

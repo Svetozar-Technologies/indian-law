@@ -206,14 +206,14 @@ async function fetchLawWithCache(seedLaw, options) {
         options
       );
       const hydrationLaw = options.maxSections === undefined ? cachedLaw : fullLawFromCache(cache);
-      const translationResult = await hydratePdfTranslations(hydrationLaw, { ...options, cachePath, progressPrefix });
+      const translationResult = await hydratePdfTextFromSources(hydrationLaw, { ...options, cachePath, progressPrefix });
       if (translationResult.changed) {
         await writeLawCache(cachePath, translationResult.law, {
           ...options,
           completeFetch: cache.completeFetch,
           totalSections: cache.totalSections ?? translationResult.law.sections?.length ?? 0
         });
-        logVerbose(`${progressPrefix} Updated cache with PDF translation text ${path.relative(ROOT, cachePath)}`, options);
+        logVerbose(`${progressPrefix} Updated cache with PDF text ${path.relative(ROOT, cachePath)}`, options);
       }
       const preparedLaw =
         options.maxSections === undefined ? translationResult.law : limitLawSections(translationResult.law, options.maxSections);
@@ -250,7 +250,7 @@ async function fetchLawWithCache(seedLaw, options) {
       fetchedAt: ""
     });
   }
-  const translationResult = await hydratePdfTranslations(fetchResult.law, { ...options, cachePath, progressPrefix });
+  const translationResult = await hydratePdfTextFromSources(fetchResult.law, { ...options, cachePath, progressPrefix });
   const fetchedLaw = translationResult.law;
   logProgress(
     `${progressPrefix} Fetched ${fetchResult.fetchedSections} new section(s), reused ${
@@ -367,16 +367,19 @@ async function fetchLaw(seedLaw, options) {
   };
 }
 
-async function hydratePdfTranslations(law, options) {
+async function hydratePdfTextFromSources(law, options) {
   let changed = false;
   let partial = false;
 
   for (const language of options.languages ?? []) {
     const languageCode = language.code;
-    if (!languageCode || languageCode === "en") {
+    if (!languageCode) {
       continue;
     }
-    if ((law.translations?.[languageCode]?.sections?.length ?? 0) > 0) {
+
+    const existingSections =
+      languageCode === "en" ? law.sections ?? [] : law.translations?.[languageCode]?.sections ?? [];
+    if (existingSections.length > 0) {
       continue;
     }
 
@@ -412,17 +415,22 @@ async function hydratePdfTranslations(law, options) {
         continue;
       }
 
-      law.translations ??= {};
-      law.translations[languageCode] = {
-        title: source.title || law.translations?.[languageCode]?.title || localizedTitleForLanguage(law, languageCode),
-        sourceUrl: source.url,
-        sourceKind: source.kind ?? "pdf",
-        fetchedAt: new Date().toISOString(),
-        pageCount,
-        sections
-      };
-      if (languageCode === "hi" && source.title && !law.hindiTitle) {
-        law.hindiTitle = source.title;
+      if (languageCode === "en") {
+        law.sections = sections;
+        law.fetchedAt ??= new Date().toISOString();
+      } else {
+        law.translations ??= {};
+        law.translations[languageCode] = {
+          title: source.title || law.translations?.[languageCode]?.title || localizedTitleForLanguage(law, languageCode),
+          sourceUrl: source.url,
+          sourceKind: source.kind ?? "pdf",
+          fetchedAt: new Date().toISOString(),
+          pageCount,
+          sections
+        };
+        if (languageCode === "hi" && source.title && !law.hindiTitle) {
+          law.hindiTitle = source.title;
+        }
       }
       changed = true;
       logProgress(

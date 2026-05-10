@@ -1,78 +1,72 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:16:17.343Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1945`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 15)
-  (str totalSections) (int 15)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:16:17.343Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1945`
+  completeFetch true
+  maxSections null
+  sectionCount 15
+  totalSections 15
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-national-commission-for-safai-karamcharis-act-1993)
-  (str handle) (str 1945)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The National Commission for Safai Karamcharis Act, 1993`)
-  (str actNumber) (str 64)
-  (str enactmentDate) (str 1993-09-04)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1945`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `राष्‍ट्रीय सफाई कर्मचारी आयोगअधिनियम, 1993`)
-  (str actYear) (str 1993)
-  (str ministry) (str `Ministry of Social Justice and Empowerment`)
-  (str department) (str `Department of Social Justice and Empowerment`)
-  (str longTitle) (str `An Act to constitute a National Commission for Safai Karamcharis and to provide for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 12-08-1994)
-  (str notification) (str `12th August, 1994, vide notification No. S.O. 591(E), dated 12th August, 1994, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`)
-  (str fetchedAt) (str `2026-05-08T23:21:58.070Z`)
-  (str translations) obj_root_law_translations
+  slug the-national-commission-for-safai-karamcharis-act-1993
+  handle (1945)
+  collectionHandle 123456789/1362
+  title `The National Commission for Safai Karamcharis Act, 1993`
+  actNumber (64)
+  enactmentDate 1993-09-04
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1945`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `राष्‍ट्रीय सफाई कर्मचारी आयोगअधिनियम, 1993`
+  actYear (1993)
+  ministry `Ministry of Social Justice and Empowerment`
+  department `Department of Social Justice and Empowerment`
+  longTitle `An Act to constitute a National Commission for Safai Karamcharis and to provide for matters connected therewith or incidental thereto.`
+  enforcementDate 12-08-1994
+  notification `12th August, 1994, vide notification No. S.O. 591(E), dated 12th August, 1994, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`
+  fetchedAt `2026-05-08T23:21:58.070Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_national_commission_for_safai_karamcharis_act_1993
   obj_root_law_sources_en_3
   obj_root_law_sources_en_4
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1945`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1945`
 obj_root_law_sources_en_the_national_commission_for_safai_karamcharis_act_1993:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1945/1/199364.pdf`)
-  (str title) (str `The National Commission for Safai Karamcharis Act, 1993`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1945/1/199364.pdf`
+  title `The National Commission for Safai Karamcharis Act, 1993`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00003_199364_1517807322969/rulesindividualfile/&file=notification_dated_08.09.1998-1.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00003_199364_1517807322969/rulesindividualfile/&file=notification_dated_08.09.1998-1.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00003_199364_1517807322969/hindirulesindividualfile/&file=notification_dated_08.09.1998-1.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00003_199364_1517807322969/hindirulesindividualfile/&file=notification_dated_08.09.1998-1.pdf`
+  title obj_root_law_sources_en_4_title
+obj_root_law_sources_en_4_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1993
 obj_root_law_sources_hi_1993:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1945/3/H1993-64.pdf`)
-  (str title) (str `राष्‍ट्रीय सफाई कर्मचारी आयोगअधिनियम, 1993`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1945/3/H1993-64.pdf`
+  title `राष्‍ट्रीय सफाई कर्मचारी आयोगअधिनियम, 1993`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -89,517 +83,609 @@ obj_root_law_sections:
   obj_root_law_sections_14
   obj_root_law_sections_15
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 29718)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent, application, commencement, duration and savings.`)
-  (str content) (str `(1) This Act may be
-called the National Commission for Safai Karamcharis Act, 1993.
-
-(2) It extends to the whole of India ^1***.
-
-(3) It shall come into force on such date^2 as the Central Government may, by notification in the
-Official Gazette, appoint.
-
-(4) It shall cease to have effect after the ^3[29th day of February, 2004], except as respects things done
-or omitted to be done before such cesser, and upon such cesser section 6 of the General Clauses Act,
-1897 (10 of 1897), shall apply as if this Act had then been repealed by a Central Act.`)
-  (str footnotes) (str `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule (w.e.f. 31-10-
-2019).
-
-2. 12th August, 1994, vide notification No. S.O. 591(E), dated 12th August, 1994, see Gazette of India, Extraordinary, Part II,
-sec. 3(ii).
-
-3. Subs. by Act 55 of 2001, s.2, for "31st day of March, 2002" (w.e.f. 13-12-2001)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29718&sectionno=1&orderno=1&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29718)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent, application, commencement, duration and savings.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29718&sectionno=1&orderno=1&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be`
+  line `called the National Commission for Safai Karamcharis Act, 1993.`
+  line
+  line `(2) It extends to the whole of India ^1***.`
+  line
+  line `(3) It shall come into force on such date^2 as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+  line
+  line `(4) It shall cease to have effect after the ^3[29th day of February, 2004], except as respects things done`
+  line `or omitted to be done before such cesser, and upon such cesser section 6 of the General Clauses Act,`
+  line `1897 (10 of 1897), shall apply as if this Act had then been repealed by a Central Act.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule (w.e.f. 31-10-`
+  line `2019).`
+  line
+  line `2. 12th August, 1994, vide notification No. S.O. 591(E), dated 12th August, 1994, see Gazette of India, Extraordinary, Part II,`
+  line `sec. 3(ii).`
+  line
+  line `3. Subs. by Act 55 of 2001, s.2, for "31st day of March, 2002" (w.e.f. 13-12-2001)`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 29719)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "Chairperson" means the Chairperson of the Commission;
-
-(b) "Commission" means the National Commission for Safai Karamcharis constituted under
-section 3;
-
-(c) "Member" means a Member of the Commission;
-
-(d) "prescribed" means prescribed by rules made under this Act;
-
-(e) "Safai Karamchari" means a person engaged in, or employed for, manually carrying human
-excreta or any sanitation work;
-
-(f) "Vice-Chairperson" means the Vice-Chairperson of the Commission.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29719&sectionno=2&orderno=2&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29719)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29719&sectionno=2&orderno=2&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "Chairperson" means the Chairperson of the Commission;`
+  line
+  line `(b) "Commission" means the National Commission for Safai Karamcharis constituted under`
+  line `section 3;`
+  line
+  line `(c) "Member" means a Member of the Commission;`
+  line
+  line `(d) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(e) "Safai Karamchari" means a person engaged in, or employed for, manually carrying human`
+  line `excreta or any sanitation work;`
+  line
+  line `(f) "Vice-Chairperson" means the Vice-Chairperson of the Commission.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 29720)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Constitution of the National Commission for Safai Karamcharis.`)
-  (str content) (str `(1) The Central
-Government shall, by notification in the Official Gazette, constitute a body to be known as the National
-Commission for Safai Karamcharis to exercise the powers conferred on, and to perform the functions
-assigned to, it under this Act.
-
-(2) The Commission shall consist of --
-
-(a) a Chairperson;
-
-(b) a Vice-Chairperson;
-
-(c) fiveMembers,
-
-to be nominated, from amongst the persons of eminence connected with the socio-economic development
-and welfare of Safai Karamcharis, by the Central Government:
-
-Provided that at least one of the Members shall be a woman.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29720&sectionno=3&orderno=3&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29720)
+  sectionNo (3)
+  orderNo 3
+  title `Constitution of the National Commission for Safai Karamcharis.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29720&sectionno=3&orderno=3&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Central`
+  line `Government shall, by notification in the Official Gazette, constitute a body to be known as the National`
+  line `Commission for Safai Karamcharis to exercise the powers conferred on, and to perform the functions`
+  line `assigned to, it under this Act.`
+  line
+  line `(2) The Commission shall consist of --`
+  line
+  line `(a) a Chairperson;`
+  line
+  line `(b) a Vice-Chairperson;`
+  line
+  line `(c) fiveMembers,`
+  line
+  line `to be nominated, from amongst the persons of eminence connected with the socio-economic development`
+  line `and welfare of Safai Karamcharis, by the Central Government:`
+  line
+  line `Provided that at least one of the Members shall be a woman.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 29721)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Term of office and conditions of service of Chairperson, Vice-Chairperson and Members.`)
-  (str content) (str `(1) The Chairperson, Vice-Chairperson and every Member shall hold office for such period
-not exceeding three years as may be specified by the Central Government in this behalf or up to the 31st
-day of March, 1997, whichever is earlier.
-
-^1[Provided that the Chairperson, Vice-Chairperson and every Member holding office as such
-immediately before the commencement of the National Commission for Safai Karamcharis (Amendment)
-Act, 1997 (18 of 1997)shall vacate their respective offices on the 31st day of March, 1997:
-
-Provided further that the Chairperson, Vice-Chairperson and every Member appointed after the
-commencement of the National Commission for Safai Karamcharis (Amendment) Act, 1997 (18 of 1997)
-shall hold office for such period not exceeding three years as may be specified by the Central Government
-in this behalf or up to the 31st day of March, 2002, whichever is earlier.]
-
-^2[(1A) Notwithstanding anything contained in sub-section (1), the Chairperson, Vice-Chairperson and
-every Member appointed on or after the 16th day of February, 2001, shall hold office for a period not
-exceeding three years from the date of assumption of his office or up to the 29th day of February, 2004,
-whichever is earlier.]
-
-(2) The Chairperson, Vice-Chairperson or a Member may, by notice in writing addressed to the
-Central Government, resign from the office of Chairperson, Vice-Chairperson, or as the case may be, of
-the Member at any time.
-
-(3) The Central Government shall remove a person from the office of Chairperson, Vice-Chairperson
-or a Member if that person--
-
-(a) becomes an undischarged insolvent;
-
-(b) is convicted and sentenced to imprisonment for an offence which, in the opinion of the
-Central Government, involves moral turpitude;
-
-(c) becomes of unsound mind and stands so declared by a competent court;
-
-(d) refuses to act or becomes incapable of acting;
-
-(e) is, without obtaining leave of absence from the Commission, absent from three consecutive
-meetings of the Commission; or
-
-(f) in the opinion of the Central Government has so abused the position of Chairperson,
-Vice-Chairperson or Member as to render that persons continuance in office detrimental to the public
-interest:
-
-Provided that no person shall be removed under this clause until that person has been given a
-reasonable opportunity of being heard in the matter.
-
-(4) A vacancy caused under sub-section (2) or sub-section (3) or otherwise shall be filled by fresh
-nomination and a person so nominated shall hold office for the unexpired period of the term for which his
-predecessor in office would have held office if such vacancy had not arisen.
-
-(5) The salaries and allowances payable to, and other terms and conditions of service of, the
-Chairperson, Vice-Chairperson and Members shall be such as may be prescribed.`)
-  (str footnotes) (str `1. Ins. by Act 18 of 1997, s.3 (w.e.f 25-3-1997).
-
-2. Ins. by Act 55 of 2001, s. 3 (w.e.f. 13-12-2001).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29721&sectionno=4&orderno=4&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29721)
+  sectionNo (4)
+  orderNo 4
+  title `Term of office and conditions of service of Chairperson, Vice-Chairperson and Members.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29721&sectionno=4&orderno=4&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_4_content:
+  string
+  line `(1) The Chairperson, Vice-Chairperson and every Member shall hold office for such period`
+  line `not exceeding three years as may be specified by the Central Government in this behalf or up to the 31st`
+  line `day of March, 1997, whichever is earlier.`
+  line
+  line `^1[Provided that the Chairperson, Vice-Chairperson and every Member holding office as such`
+  line `immediately before the commencement of the National Commission for Safai Karamcharis (Amendment)`
+  line `Act, 1997 (18 of 1997)shall vacate their respective offices on the 31st day of March, 1997:`
+  line
+  line `Provided further that the Chairperson, Vice-Chairperson and every Member appointed after the`
+  line `commencement of the National Commission for Safai Karamcharis (Amendment) Act, 1997 (18 of 1997)`
+  line `shall hold office for such period not exceeding three years as may be specified by the Central Government`
+  line `in this behalf or up to the 31st day of March, 2002, whichever is earlier.]`
+  line
+  line `^2[(1A) Notwithstanding anything contained in sub-section (1), the Chairperson, Vice-Chairperson and`
+  line `every Member appointed on or after the 16th day of February, 2001, shall hold office for a period not`
+  line `exceeding three years from the date of assumption of his office or up to the 29th day of February, 2004,`
+  line `whichever is earlier.]`
+  line
+  line `(2) The Chairperson, Vice-Chairperson or a Member may, by notice in writing addressed to the`
+  line `Central Government, resign from the office of Chairperson, Vice-Chairperson, or as the case may be, of`
+  line `the Member at any time.`
+  line
+  line `(3) The Central Government shall remove a person from the office of Chairperson, Vice-Chairperson`
+  line `or a Member if that person--`
+  line
+  line `(a) becomes an undischarged insolvent;`
+  line
+  line `(b) is convicted and sentenced to imprisonment for an offence which, in the opinion of the`
+  line `Central Government, involves moral turpitude;`
+  line
+  line `(c) becomes of unsound mind and stands so declared by a competent court;`
+  line
+  line `(d) refuses to act or becomes incapable of acting;`
+  line
+  line `(e) is, without obtaining leave of absence from the Commission, absent from three consecutive`
+  line `meetings of the Commission; or`
+  line
+  line `(f) in the opinion of the Central Government has so abused the position of Chairperson,`
+  line `Vice-Chairperson or Member as to render that persons continuance in office detrimental to the public`
+  line `interest:`
+  line
+  line `Provided that no person shall be removed under this clause until that person has been given a`
+  line `reasonable opportunity of being heard in the matter.`
+  line
+  line `(4) A vacancy caused under sub-section (2) or sub-section (3) or otherwise shall be filled by fresh`
+  line `nomination and a person so nominated shall hold office for the unexpired period of the term for which his`
+  line `predecessor in office would have held office if such vacancy had not arisen.`
+  line
+  line `(5) The salaries and allowances payable to, and other terms and conditions of service of, the`
+  line `Chairperson, Vice-Chairperson and Members shall be such as may be prescribed.`
+obj_root_law_sections_4_footnotes:
+  string
+  line `1. Ins. by Act 18 of 1997, s.3 (w.e.f 25-3-1997).`
+  line
+  line `2. Ins. by Act 55 of 2001, s. 3 (w.e.f. 13-12-2001).`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 29722)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Officers and other employees of the Commission.`)
-  (str content) (str `(1) The Central Government shall provide
-the Commission with such officers and employees as may be necessary for the efficient performance of
-the functions of the Commission under this Act.
-
-(2) The salaries and allowances payable to, and other terms and conditions of service of, the officers
-and other employees appointed for the purpose of the Commission shall be such as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29722&sectionno=5&orderno=5&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29722)
+  sectionNo (5)
+  orderNo 5
+  title `Officers and other employees of the Commission.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29722&sectionno=5&orderno=5&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_5_content:
+  string
+  line `(1) The Central Government shall provide`
+  line `the Commission with such officers and employees as may be necessary for the efficient performance of`
+  line `the functions of the Commission under this Act.`
+  line
+  line `(2) The salaries and allowances payable to, and other terms and conditions of service of, the officers`
+  line `and other employees appointed for the purpose of the Commission shall be such as may be prescribed.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 29723)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Vacancy, etc., not to invalidate the proceedings of the Commission.`)
-  (str content) (str `No act or proceeding of
-the Commission shall be questioned or shall be invalid on the ground merely of the existence of any
-vacancy or defect in the constitution of the Commission.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29723&sectionno=6&orderno=6&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29723)
+  sectionNo (6)
+  orderNo 6
+  title `Vacancy, etc., not to invalidate the proceedings of the Commission.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29723&sectionno=6&orderno=6&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_6_content:
+  string
+  line `No act or proceeding of`
+  line `the Commission shall be questioned or shall be invalid on the ground merely of the existence of any`
+  line `vacancy or defect in the constitution of the Commission.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 29724)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Procedure to be regulated by the Commission.`)
-  (str content) (str `(1) The Commission shall meet as and when
-necessary and shall meet at such time and place as the Chairperson may think fit.
-
-(2) The Commission shall regulate its own procedure.
-
-(3) All orders and decisions of the Commission shall be authenticated by the Chairperson or any other
-officer of the Commission duly authorised by the Chairperson in this behalf.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29724&sectionno=7&orderno=7&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29724)
+  sectionNo (7)
+  orderNo 7
+  title `Procedure to be regulated by the Commission.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29724&sectionno=7&orderno=7&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_7_content:
+  string
+  line `(1) The Commission shall meet as and when`
+  line `necessary and shall meet at such time and place as the Chairperson may think fit.`
+  line
+  line `(2) The Commission shall regulate its own procedure.`
+  line
+  line `(3) All orders and decisions of the Commission shall be authenticated by the Chairperson or any other`
+  line `officer of the Commission duly authorised by the Chairperson in this behalf.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 29725)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Functions and powers of the Commission.`)
-  (str content) (str `(1) The Commission shall perform all or any of the
-following functions namely:--
-
-(a) recommend to the Central Government specific programmes of action towards elimination of
-inequalities in status, facilities and opportunities for Safai Karamcharis under a time-bound action
-plan;
-
-(b) study and evaluate the implementation of the programmes and schemes relating to the social
-and economic rehabilitation of Safai Karamcharis and make recommendations to the Central
-Government and State Governments for better co-ordination and implementation of such programmes
-and schemes;
-
-(c) investigate specific grievances and take suo moto notice of matters relating to
-non-implementation of--
-
-(i) programmes or schemes in respect of any group of Safai Karamcharis;
-
-(ii) decisions, guidelines or instructions, aimed at mitigating the hardship of Safai
-Karamcharis;
-
-(iii) measures for the social and economic up liftment of Safai Karamcharis;
-
-(iv) the provisions of any law in its application to Safai Karamcharis,
-
-and take up such matters with the concerned authorities or with the Central or State Governments;
-
-(d) make periodical reports to the Central and State Governments on any matter concerning Safai
-Karamcharis, taking into account any difficulties or disabilities being encountered by Safai
-Karamcharis;
-
-(e) any other matter which may be referred to it by the Central Government.
-
-(2) In the discharge of its functions under sub-section (1), the Commission shall have power to call
-for information with respect to any matter specified in that sub-section from any Government or local or
-other authority`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29725&sectionno=8&orderno=8&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29725)
+  sectionNo (8)
+  orderNo 8
+  title `Functions and powers of the Commission.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29725&sectionno=8&orderno=8&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_8_content:
+  string
+  line `(1) The Commission shall perform all or any of the`
+  line `following functions namely:--`
+  line
+  line `(a) recommend to the Central Government specific programmes of action towards elimination of`
+  line `inequalities in status, facilities and opportunities for Safai Karamcharis under a time-bound action`
+  line plan;
+  line
+  line `(b) study and evaluate the implementation of the programmes and schemes relating to the social`
+  line `and economic rehabilitation of Safai Karamcharis and make recommendations to the Central`
+  line `Government and State Governments for better co-ordination and implementation of such programmes`
+  line `and schemes;`
+  line
+  line `(c) investigate specific grievances and take suo moto notice of matters relating to`
+  line `non-implementation of--`
+  line
+  line `(i) programmes or schemes in respect of any group of Safai Karamcharis;`
+  line
+  line `(ii) decisions, guidelines or instructions, aimed at mitigating the hardship of Safai`
+  line Karamcharis;
+  line
+  line `(iii) measures for the social and economic up liftment of Safai Karamcharis;`
+  line
+  line `(iv) the provisions of any law in its application to Safai Karamcharis,`
+  line
+  line `and take up such matters with the concerned authorities or with the Central or State Governments;`
+  line
+  line `(d) make periodical reports to the Central and State Governments on any matter concerning Safai`
+  line `Karamcharis, taking into account any difficulties or disabilities being encountered by Safai`
+  line Karamcharis;
+  line
+  line `(e) any other matter which may be referred to it by the Central Government.`
+  line
+  line `(2) In the discharge of its functions under sub-section (1), the Commission shall have power to call`
+  line `for information with respect to any matter specified in that sub-section from any Government or local or`
+  line `other authority`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 38026)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Chairperson, Vice-Chairperson and Members and staff of the Commission to be public servants.`)
-  (str content) (str `The Chairperson, Vice-Chairperson, Members, officers and other employees of the
-Commission shall be deemed to be public servants within the meaning of section 21 of the Indian Penal
-Code (45 of 1860).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=38026&sectionno=9&orderno=9&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (38026)
+  sectionNo (9)
+  orderNo 9
+  title `Chairperson, Vice-Chairperson and Members and staff of the Commission to be public servants.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=38026&sectionno=9&orderno=9&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_9_content:
+  string
+  line `The Chairperson, Vice-Chairperson, Members, officers and other employees of the`
+  line `Commission shall be deemed to be public servants within the meaning of section 21 of the Indian Penal`
+  line `Code (45 of 1860).`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 29726)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Central Government to consult Commission.`)
-  (str content) (str `The Central Government shall consult the
-Commission on all major policy matters affecting Safai Karamcharis.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29726&sectionno=10&orderno=10&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29726)
+  sectionNo (10)
+  orderNo 10
+  title `Central Government to consult Commission.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29726&sectionno=10&orderno=10&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_10_content:
+  string
+  line `The Central Government shall consult the`
+  line `Commission on all major policy matters affecting Safai Karamcharis.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 29727)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Annual report.`)
-  (str content) (str `The Commission shall prepare in such form and at such time for each financial
-year as may be prescribed its annual report giving a full account of its activities during the previous
-financial year and forward a copy thereof to the Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29727&sectionno=11&orderno=11&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29727)
+  sectionNo (11)
+  orderNo 11
+  title `Annual report.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29727&sectionno=11&orderno=11&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_11_content:
+  string
+  line `The Commission shall prepare in such form and at such time for each financial`
+  line `year as may be prescribed its annual report giving a full account of its activities during the previous`
+  line `financial year and forward a copy thereof to the Central Government.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 29728)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Annual report to be laid before Parliament or the Legislative Assembly.`)
-  (str content) (str `(1) The Central
-Government shall cause the annual report to be laid before each House of Parliament along with the
-memorandum explaining the action taken or proposed to be taken on the recommendations contained
-therein in so far as they relate to the Central Government and the reasons for non-acceptance, if any, of
-any such recommendation.
-
-(2) Where the said report or any part thereof relates to any matter with which a State Government is
-concerned, a copy of such report shall be forwarded to the Governor of the State who shall cause it to be
-laid before the Legislature of the State along with a memorandum explaining the action taken or proposed
-to be taken on the recommendations relating to the State and the reasons for the non-acceptance, if any, of
-any such recommendation or part.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29728&sectionno=12&orderno=12&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29728)
+  sectionNo (12)
+  orderNo 12
+  title `Annual report to be laid before Parliament or the Legislative Assembly.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29728&sectionno=12&orderno=12&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_12_content:
+  string
+  line `(1) The Central`
+  line `Government shall cause the annual report to be laid before each House of Parliament along with the`
+  line `memorandum explaining the action taken or proposed to be taken on the recommendations contained`
+  line `therein in so far as they relate to the Central Government and the reasons for non-acceptance, if any, of`
+  line `any such recommendation.`
+  line
+  line `(2) Where the said report or any part thereof relates to any matter with which a State Government is`
+  line `concerned, a copy of such report shall be forwarded to the Governor of the State who shall cause it to be`
+  line `laid before the Legislature of the State along with a memorandum explaining the action taken or proposed`
+  line `to be taken on the recommendations relating to the State and the reasons for the non-acceptance, if any, of`
+  line `any such recommendation or part.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 29729)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Delegation of powers.`)
-  (str content) (str `The Commission may, by general or special order, delegate to the
-Chairperson, Vice-Chairperson or any Member or to any officer of the Commission subject to such
-conditions and limitations, if any, as may be specified therein, such of its powers and duties under this
-Act as it may deem fit.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29729&sectionno=13&orderno=13&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29729)
+  sectionNo (13)
+  orderNo 13
+  title `Delegation of powers.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29729&sectionno=13&orderno=13&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_13_content:
+  string
+  line `The Commission may, by general or special order, delegate to the`
+  line `Chairperson, Vice-Chairperson or any Member or to any officer of the Commission subject to such`
+  line `conditions and limitations, if any, as may be specified therein, such of its powers and duties under this`
+  line `Act as it may deem fit.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 29730)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `No suit, prosecution or other legal proceeding shall
-lie against the Central Government, Commission, Chairperson, Vice-Chairperson, Members or any officer
-or other employee of the Commission for anything which is in good faith done or intended to be done
-under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29730&sectionno=14&orderno=14&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29730)
+  sectionNo (14)
+  orderNo 14
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29730&sectionno=14&orderno=14&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_14_content:
+  string
+  line `No suit, prosecution or other legal proceeding shall`
+  line `lie against the Central Government, Commission, Chairperson, Vice-Chairperson, Members or any officer`
+  line `or other employee of the Commission for anything which is in good faith done or intended to be done`
+  line `under this Act.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 29731)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules for carrying out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing powers, such rules may
-provide for all or any of the following matters, namely:-
-
-(a) salaries and allowances payable to, and the other terms and conditions of service of, the
-Chairperson, Vice-Chairperson and Members under sub-section (5) of section 4 and of officers and
-other employees of the Commission under sub-section (2) of section5;
-
-(b) the form in, and the time at, which the annual report shall be prepared under section 11;
-
-(c) any other matter which is required to be, or may be, prescribed.
-
-(3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House
-of Parliament, while it is in session for a total period of thirty days which may be comprised in one
-session or in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid, both Houses agree in making any modification
-in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only
-in such modified form or be of no effect, as the case may be; so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29731&sectionno=15&orderno=15&orgactid=AC_CEN_25_35_00003_199364_1517807322969)
+  sectionId (29731)
+  sectionNo (15)
+  orderNo 15
+  title `Power to make rules.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_25_35_00003_199364_1517807322969&sectionId=29731&sectionno=15&orderno=15&orgactid=AC_CEN_25_35_00003_199364_1517807322969
+obj_root_law_sections_15_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules for carrying out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing powers, such rules may`
+  line `provide for all or any of the following matters, namely:-`
+  line
+  line `(a) salaries and allowances payable to, and the other terms and conditions of service of, the`
+  line `Chairperson, Vice-Chairperson and Members under sub-section (5) of section 4 and of officers and`
+  line `other employees of the Commission under sub-section (2) of section5;`
+  line
+  line `(b) the form in, and the time at, which the annual report shall be prepared under section 11;`
+  line
+  line `(c) any other matter which is required to be, or may be, prescribed.`
+  line
+  line `(3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House`
+  line `of Parliament, while it is in session for a total period of thirty days which may be comprised in one`
+  line `session or in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid, both Houses agree in making any modification`
+  line `in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only`
+  line `in such modified form or be of no effect, as the case may be; so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that rule.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `राष्‍ट्रीय सफाई कर्मचारी आयोगअधिनियम, 1993`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1945/3/H1993-64.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:16:16.242Z`)
-  (str pageCount) (int 4)
-  (str sections) obj_root_law_translations_hi_sections
+  title `राष्‍ट्रीय सफाई कर्मचारी आयोगअधिनियम, 1993`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1945/3/H1993-64.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:16:16.242Z`
+  pageCount 4
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
   obj_root_law_translations_hi_sections_4
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग अधिधियर्,् 1993
-( 1993 ् का्अधिधियर््संखयांक 64 )
-[4 ् धसतम्बर, 1993 ]
-सफाई्कर्मचाररयों्के्धिए्एक्रा ष्‍ट् री य्आयोग
-का्गठि्करिे्और्उससे्संबंधित्या
-उसके्आिुषंधगक्धिषयों्का्
-उपबन्ि ् करिे्के्धिए
-अधिधियर्
-भारत ् गणराज्य्के्चिािीसिें्िषम्र्ें्संस द््द्वारा्धि म्् ि धिधित्रूप्र्ें्यह्अधिधियधर्त्हो्: — ्
-अध्याय् 1 प्र
-ारंधभक
-1. संधि प्् त ् िार्,् धिस्तार,् िागू् होिा,्प्र ारंभ,् अिधि् और्व्य ािृधि — ( 1 )् इस् अधिधियर्् का् संधि प्् त ् िार्् रा ष्‍ट् री य् सफाई
-कर्मचारी्आयोग्अधिधियर्,् 1993 ् है्।
-( 2 )्इसका्धिस्तार् 1 *** संपूणम्भारत्प र्है्।
-( 3 )्यह्उस्तारीि्को्प्रिृि्होगा्जो्केंद्रीय्सरकार,्राजपत्र्र्ें्अधिसूचिा्द्वारा,्धियत्करे्।
-( 4 )्यह् 2 [ 29 ् फरिरी, 2004] ् के्प श्् चा त््उि्बातों्के्धसिाय्प्रभािी्िहीं्रहेगा्धजन्हें्ऐसे्प्रभािहीि्होिे्से्पहिे्ककया्
-गया्है्या्करिे्का्िोप्ककया्गया्है्और्ऐसे् प्र भािहीि्होिे्पर्सािारण्िंड्अधिधियर्,् 1897 ( 1897 ् का 19 )्की्िारा् 6 इस् प्र
-कार्िागू्होगी्र्ािो्यह्अधिधियर््ककसी्केंद्रीय्अधिधियर््द्वारा्धिरधसत्कर्कदया्गया्हो्।
-2. पररभाषाएं — इस्अधिधियर््र्ें,्जब्तक्कक्संदभम्से्अन्यथा्अपेधित्ि्हो,् —
-(क)् “ अध्यि ” ् से्आयोग्का्अ ध् यि्अधभप्रेत्है;
-(ि)् “ आयोग ” ् से्िारा् 3 के्अिीि्गरठत्रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग्अधभप्रेत्है;
-(ग)् “ सदस्य ” ् से्आयोग्का्सदस्य्अधभप्रेत्है;
-(घ)् “ धिधहत ” ् से्इस्अधिधियर््के्अिीि्बिाए्गए्धियर्ों्द्वारा्धिधहत्अधभप्रेत्है;
-( ङ )् “ सफाई्कर्मचारी ” ् से्ऐसा्व्य ध् त ् अधभप्रेत्है्जो्र्ािि्र्ि - र्ूत्र् हाथ्से्उठािे्या्ककसी्अन्य्सफाई्कायम्र्ें्
-िगा्है्या्धियोधजत्है;
-(च)् “ उपाध्यि ” ् से्आयोग्का्उपाध्यि्अधभप्रेत्है्।
-अध्याय् 2
-रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग
-3. ् रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग्का्गठि — ( 1 )्केन्द्रीय्सरकार,्एक्धिका य्का्जो्रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग्के्
-िार््से्ज्ञात्होगा,्इस्अधिधियर््के्अिीि्उसे्प्रदि्श ध् त यों्का्प्रयोग्करिे्और्उसे्सर्िुकद ष्‍ट् ट ् कृत्यों्का्पािि्क रिे्के्धिए, ्
-राजपत्र्र्ें्अधिसूचिा्द्वारा,्गठि्करेगी्।
-( 2 )्आयोग्धि म्् ि धिधित्से्धर्िकर्बिेगा,्अथामत््: —
-(क )्एक्अध्यि्;
-(ि)्एक्उपाध्यि्; ्
-(ग)्पांच्सदस्य,्
-जो् कें द्र ीय् सरकार्द्व ारा् सफाई् कर्मचारर यों् के् सार्ाधजक - आ र् थमक् धिकास् और् कल्याण् से् संबंधित्प्र धतधित्व्य ध् त यों्र्ें् से्
-िार्धिदेधशत्ककए्जाएंगे्:
-1 2019 ् के्अधिधियर््सं ०् 34 ् की्िारा् 95 ्् और्पांचिी्अिुसूची्द्वारा् (31 - 10 - 2019 ् से ) “ जम्र्ू - कश्र्ीर राज्य्के्धसिाय ” शब्् दों ् का्िोप्ककया्गया्।
-2 ्् 2001 के्अधिधियर््सं ०् 55 ् की्िारा 2 ् द्व ारा ( 13 - 12 - 2001 ् से)् “ 31 ् र् ाचम,् 2002 ”् के्स्थाि्पर ् प्र धतस्् था धपत्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग अधिधियर्,् 1993`
+  line `( 1993 ् का्अधिधियर््संखयांक 64 )`
+  line `[4 ् धसतम्बर, 1993 ]`
+  line `सफाई्कर्मचाररयों्के्धिए्एक्रा ष्‍ट् री य्आयोग`
+  line का्गठि्करिे्और्उससे्संबंधित्या
+  line उसके्आिुषंधगक्धिषयों्का्
+  line `उपबन्ि ् करिे्के्धिए`
+  line अधिधियर्
+  line `भारत ् गणराज्य्के्चिािीसिें्िषम्र्ें्संस द््द्वारा्धि म्् ि धिधित्रूप्र्ें्यह्अधिधियधर्त्हो्: — ्`
+  line `अध्याय् 1 प्र`
+  line ारंधभक
+  line `1. संधि प्् त ् िार्,् धिस्तार,् िागू् होिा,्प्र ारंभ,् अिधि् और्व्य ािृधि — ( 1 )् इस् अधिधियर्् का् संधि प्् त ् िार्् रा ष्‍ट् री य् सफाई`
+  line `कर्मचारी्आयोग्अधिधियर्,् 1993 ् है्।`
+  line `( 2 )्इसका्धिस्तार् 1 *** संपूणम्भारत्प र्है्।`
+  line `( 3 )्यह्उस्तारीि्को्प्रिृि्होगा्जो्केंद्रीय्सरकार,्राजपत्र्र्ें्अधिसूचिा्द्वारा,्धियत्करे्।`
+  line `( 4 )्यह् 2 [ 29 ् फरिरी, 2004] ् के्प श्् चा त््उि्बातों्के्धसिाय्प्रभािी्िहीं्रहेगा्धजन्हें्ऐसे्प्रभािहीि्होिे्से्पहिे्ककया्`
+  line `गया्है्या्करिे्का्िोप्ककया्गया्है्और्ऐसे् प्र भािहीि्होिे्पर्सािारण्िंड्अधिधियर्,् 1897 ( 1897 ् का 19 )्की्िारा् 6 इस् प्र`
+  line कार्िागू्होगी्र्ािो्यह्अधिधियर््ककसी्केंद्रीय्अधिधियर््द्वारा्धिरधसत्कर्कदया्गया्हो्।
+  line `2. पररभाषाएं — इस्अधिधियर््र्ें,्जब्तक्कक्संदभम्से्अन्यथा्अपेधित्ि्हो,् —`
+  line `(क)् “ अध्यि ” ् से्आयोग्का्अ ध् यि्अधभप्रेत्है;`
+  line `(ि)् “ आयोग ” ् से्िारा् 3 के्अिीि्गरठत्रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग्अधभप्रेत्है;`
+  line `(ग)् “ सदस्य ” ् से्आयोग्का्सदस्य्अधभप्रेत्है;`
+  line `(घ)् “ धिधहत ” ् से्इस्अधिधियर््के्अिीि्बिाए्गए्धियर्ों्द्वारा्धिधहत्अधभप्रेत्है;`
+  line `( ङ )् “ सफाई्कर्मचारी ” ् से्ऐसा्व्य ध् त ् अधभप्रेत्है्जो्र्ािि्र्ि - र्ूत्र् हाथ्से्उठािे्या्ककसी्अन्य्सफाई्कायम्र्ें्`
+  line िगा्है्या्धियोधजत्है;
+  line `(च)् “ उपाध्यि ” ् से्आयोग्का्उपाध्यि्अधभप्रेत्है्।`
+  line `अध्याय् 2`
+  line `रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग`
+  line `3. ् रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग्का्गठि — ( 1 )्केन्द्रीय्सरकार,्एक्धिका य्का्जो्रा ष्‍ट् री य्सफाई्कर्मचारी्आयोग्के्`
+  line `िार््से्ज्ञात्होगा,्इस्अधिधियर््के्अिीि्उसे्प्रदि्श ध् त यों्का्प्रयोग्करिे्और्उसे्सर्िुकद ष्‍ट् ट ् कृत्यों्का्पािि्क रिे्के्धिए, ्`
+  line राजपत्र्र्ें्अधिसूचिा्द्वारा,्गठि्करेगी्।
+  line `( 2 )्आयोग्धि म्् ि धिधित्से्धर्िकर्बिेगा,्अथामत््: —`
+  line `(क )्एक्अध्यि्;`
+  line `(ि)्एक्उपाध्यि्; ्`
+  line `(ग)्पांच्सदस्य,्`
+  line `जो् कें द्र ीय् सरकार्द्व ारा् सफाई् कर्मचारर यों् के् सार्ाधजक - आ र् थमक् धिकास् और् कल्याण् से् संबंधित्प्र धतधित्व्य ध् त यों्र्ें् से्`
+  line `िार्धिदेधशत्ककए्जाएंगे्:`
+  line `1 2019 ् के्अधिधियर््सं ०् 34 ् की्िारा् 95 ्् और्पांचिी्अिुसूची्द्वारा् (31 - 10 - 2019 ् से ) “ जम्र्ू - कश्र्ीर राज्य्के्धसिाय ” शब्् दों ् का्िोप्ककया्गया्।`
+  line `2 ्् 2001 के्अधिधियर््सं ०् 55 ् की्िारा 2 ् द्व ारा ( 13 - 12 - 2001 ् से)् “ 31 ् र् ाचम,् 2002 ”् के्स्थाि्पर ् प्र धतस्् था धपत्।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-परंतु्कर््से्कर््एक्सदस्य्र्धहिा्होगी्।
-4. ् अध्यि,् उपाध्यि ् और् सदस्यों् की् पदािधि् और् सेिा् की् शतें — ( 1 )् अध्यि,् उपाध्यि् और्प्रत् येक् सदस्य् तीि् िषम् से्
-अिधिक्ऐसी ् अिधि्तक,्जो्केन्द्रीय्सरकार,्इस्धिधर्ि्धिधिर्दम ष्‍ट् ट ् करे,्या् 31 र् ाचम, 1997 ् तक,्इिर्ें्से्जो्भी्पूिमत र् हो,्पद्
-िारण्करेगा्:
-1 [ परन्् तु ् यह्कक्अध्् य ि,्उपाध्् य ि्और्प्रत्् ये क्सदस्् य,्जो्राष्‍ट् री य्सफाई्कर्मचारी्आयोग् ( संशोिि ) अधिधियर्,् 1997 ् के् प्र
-ारम्् भ ् के्ठीक्पूिम्ऐसी्हैधसयत्र्ें्पद्िारण्ककए्हुए्हैं, 31 ् र् ाचम 1997 ् को्अपिे - अपिे्पद्रर् त ् कर्देंगे्:
-परन्् तु ् यह् और् कक् राष्‍ट् री य् सफाई् कर्मचा री् आयोग् ( संशोिि ) अधिधिय र्,् 19 9 7 के्प्र ारम्् भ ् के् पश्् चा त्् धियु् त ् ककए् गए्
-अध्् य ि,्उपाध्् य ि्और्प्रत््ये क्सदस्् य ् ऐसी्अिधि्के्धिए,्जो ् तीि्िषम्से्अधिक्ि्हो,्जो्केन््द्र ी य्सरकार,्इस्धिधर्ि्धिधिर्दमष्‍ट् ट ्
-करे,्या् 31 ् र् ाचम, 2002 ् तक,्इिर्ें्से्जो्भी्पूिमतर्हो,्प द्िारण ् करेगा्। ]
-2 [ ( 1 क ) ् उपिारा्( 1 )्र्ें्ककसी्बात्के्होते्हुए्भी, 16 ् फरिरी, 2001 ् को्या्उसके्पश्् चा त््धियु् त ् अध्् य ि,्उपाध्् य ि्और् प्रत््
-ये क्सदस्् य ् पद्ग्रहण्करिे्की्तारीि्से्तीि्िषम्से्अिधिक्अिधिक्के्धिए 2 9 ् फरिरी, 2004 ् तक,्इिर्ें्से्जो्भी्पूिमतर्हो,्
-पद्िारण्करेंगे्। ]
-( 2 )् अध्यि,् उपाध्यि् या् कोई् सदस्य् ककसी् भी् सर्य् केन्द्रीय् सरकार् को् संबोधित् धिधित् सूचिा्द्व ारा,् यथाधस्थधत, ्
-अध्यि,्उपाध्यि्या्सदस्य्का्पद्त्याग्सकेगा्।
-( 3 )्केन्द्रीय्सरकार्ककसी्व्य ध् त ् को्अध्यि,्उपाध्यि्या्सदस्य्के्पद्से् हटा ् देगी्यकद्िह्व्य ध् त —
-(क)्अिुन्र्ो धचत्कदिाधिया्हो्जाता्है;
-(ि)् ककसी् ऐसे् अपराि् के् धिए् धसद्धदोष् ठहराया् जाता् है् और् कारािास् से् दंडा कद ष्‍ट् ट ् ककया् जाता् है् धजसर्ें्
-केन्द्रीय्सरकार्की्राय ् र्ें,्िैधतक्अिर्ता्अंतिर्िमत्है्;
-(ग)् धिकृतधचि ् का्हो्जाता्है्और्ककसी्सिर््न्यायािय्की्ऐसी्घोषणा्धिद्यर्ाि्है;
-(घ)् कायम्करिे्से्इंकार्करता्है्या्कायम्करिे्के्धिए्असर्थम्हो्जाता्है;
-( ङ )्आयोग्से्अिुपधस्थधत्की्इजाजत्धिए् धबिा् आयोग्के्िगातार्तीि्अधििे शिों ् से्अिुपधस्थत्रहता्है; ् या
-(च)्केन्द्रीय्सरकार्की्राय्र्ें,्ऐसा्अध्यि,्उपाध्यि्या्सदस्य्के्पद्का्दुरुपयोग्क रता्है्धजसके्कारण्उस् व्य
-ध् त ् का्पद्पर्बिे्रहिा्िोकधहत्के्धिए्हाधिकर्हो्गया्है्:
-परंतु्इस्िंड्के्अिीि्कोई्व्य ध् त ् तब्तक्िहीं्हटाया्जाएगा्जब्तक्उस्व्य ध् त ् को ् उस्र्ार्िे्र्ें् सुििाई्
-का्उधचत्अिसर्ि्दे्कदया्गया्हो्।
-( 4 )् उपिारा्( 2 )्या्उपिारा्( 3 )्के्अिीि्या्अन्य था्होिे्िािी्रर ध् त ् िए्िार्धिदेशि्द्वारा्भरी्जाएगी्और्इस् प्र कार्
-िार्धिदेधशत्व्य ध् त ् उस् पदािधि् की् अििधसत् अिधि् के्धिए् पद् िारण् करेगा् धजसके् धिए् उसका् पद् पूिमिती् उस् दशा्र्ें् पद्
-िारण्करता्यकद्ऐसी्रर ध् त ् िहीं्हुई्होती्।
-( 5 )् अध्यि,्उपाध्यि्और्सदस्यों्को् संदेय्िेति्और्भिे्तथा्उिकी्सेिा्के्अन्य्धिबंिि्और्शतें ् िे्होंगी्जो ् धिधहत्
-की्जाएं्।
-5. ् आयोग् के् अधिकारी् और् अन्य् कर्मचारी — ( 1 )् केन्द्रीय् सरकार् आयोग् के् धिए् ऐसे् अधिकाररयों् और् कर्मचाररयों् की् व्य
-िस्था्करेगी्जो्इस्अधिधियर््के्अिीि्आयोग्के्कृत्यों्के्दितापूणम् अिुपािि्के्धिए्आिश्यक्हों्।
-( 2 )्आयोग्के्प्रयोजि्के्धिए्धियु ् त ् अधिकाररयों्और्अन्य्कर्मचाररयों्को्संदे य्िेति्और्भिे्तथा्उिकी्सेिा् के ् अन्य्
-धिबंिि्और्शतें्िे्होंगी्जो्धिधहत्की्जाएं्।
-6. ् रर ध् त,्आकद्से्आयोग्की्कायमिाधहयों्का्अ धि धिर्ान्य्ि्होिा — आयोग्का्को ई्कायम्या्कायमिाही्केिि्इस्आिार्
-पर्प्र श्् ि गत्िहीं्की्जाएगी्या्अधिधिर्ान्य्िहीं्होगी्कक्आयोग्र्ें्कोई्रर ध् त ् है्या्उसके्गठि्र्ें्कोई्त्रुरट्है्।
-7. ् प्र किया्का्आयोग्द्वारा्धिधियधर्त्ककया्जािा — ( 1 )्आयोग्का्अधििेशि्जब्भी्आिश्यक्हो्ऐसे्सर्य्और्स्थाि्
-पर्होगा्जो्अ ध् यि्ठीक्सर्झे्।
-( 2 )्आयोग्अपिी्प्रकिया्स्ियं्धिधियधर्त्करेगा्।
-( 3 )्आयोग्के्सभी्आदेश्और्धिधि श्् च य्अध्यि्द्वारा्या्इस्धिधर्ि्अध्यि्द्वारा्सम्यक््रूप्से्प्राधिकृत्आयो ग्के्ककसी ्
-अन्य्अधिकारी्द्वारा्अधिप्रर्ाधणत्ककए्जाएंगे्।
-1 1997 के्अ धिधियर््सं ०् 18 ् की्िारा 3 ् द्व ारा्अंत:स्् था धपत्।
-2 200 1 के्अधिधियर््सं ०् 55 ् की्िारा 3 ् द्व ारा्अंत:स्् था धपत्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line परंतु्कर््से्कर््एक्सदस्य्र्धहिा्होगी्।
+  line `4. ् अध्यि,् उपाध्यि ् और् सदस्यों् की् पदािधि् और् सेिा् की् शतें — ( 1 )् अध्यि,् उपाध्यि् और्प्रत् येक् सदस्य् तीि् िषम् से्`
+  line `अिधिक्ऐसी ् अिधि्तक,्जो्केन्द्रीय्सरकार,्इस्धिधर्ि्धिधिर्दम ष्‍ट् ट ् करे,्या् 31 र् ाचम, 1997 ् तक,्इिर्ें्से्जो्भी्पूिमत र् हो,्पद्`
+  line `िारण्करेगा्:`
+  line `1 [ परन्् तु ् यह्कक्अध्् य ि,्उपाध्् य ि्और्प्रत्् ये क्सदस्् य,्जो्राष्‍ट् री य्सफाई्कर्मचारी्आयोग् ( संशोिि ) अधिधियर्,् 1997 ् के् प्र`
+  line `ारम्् भ ् के्ठीक्पूिम्ऐसी्हैधसयत्र्ें्पद्िारण्ककए्हुए्हैं, 31 ् र् ाचम 1997 ् को्अपिे - अपिे्पद्रर् त ् कर्देंगे्:`
+  line `परन्् तु ् यह् और् कक् राष्‍ट् री य् सफाई् कर्मचा री् आयोग् ( संशोिि ) अधिधिय र्,् 19 9 7 के्प्र ारम्् भ ् के् पश्् चा त्् धियु् त ् ककए् गए्`
+  line `अध्् य ि,्उपाध्् य ि्और्प्रत््ये क्सदस्् य ् ऐसी्अिधि्के्धिए,्जो ् तीि्िषम्से्अधिक्ि्हो,्जो्केन््द्र ी य्सरकार,्इस्धिधर्ि्धिधिर्दमष्‍ट् ट ्`
+  line `करे,्या् 31 ् र् ाचम, 2002 ् तक,्इिर्ें्से्जो्भी्पूिमतर्हो,्प द्िारण ् करेगा्। ]`
+  line `2 [ ( 1 क ) ् उपिारा्( 1 )्र्ें्ककसी्बात्के्होते्हुए्भी, 16 ् फरिरी, 2001 ् को्या्उसके्पश्् चा त््धियु् त ् अध्् य ि,्उपाध्् य ि्और् प्रत््`
+  line `ये क्सदस्् य ् पद्ग्रहण्करिे्की्तारीि्से्तीि्िषम्से्अिधिक्अिधिक्के्धिए 2 9 ् फरिरी, 2004 ् तक,्इिर्ें्से्जो्भी्पूिमतर्हो,्`
+  line `पद्िारण्करेंगे्। ]`
+  line `( 2 )् अध्यि,् उपाध्यि् या् कोई् सदस्य् ककसी् भी् सर्य् केन्द्रीय् सरकार् को् संबोधित् धिधित् सूचिा्द्व ारा,् यथाधस्थधत, ्`
+  line अध्यि,्उपाध्यि्या्सदस्य्का्पद्त्याग्सकेगा्।
+  line `( 3 )्केन्द्रीय्सरकार्ककसी्व्य ध् त ् को्अध्यि,्उपाध्यि्या्सदस्य्के्पद्से् हटा ् देगी्यकद्िह्व्य ध् त —`
+  line `(क)्अिुन्र्ो धचत्कदिाधिया्हो्जाता्है;`
+  line `(ि)् ककसी् ऐसे् अपराि् के् धिए् धसद्धदोष् ठहराया् जाता् है् और् कारािास् से् दंडा कद ष्‍ट् ट ् ककया् जाता् है् धजसर्ें्`
+  line `केन्द्रीय्सरकार्की्राय ् र्ें,्िैधतक्अिर्ता्अंतिर्िमत्है्;`
+  line `(ग)् धिकृतधचि ् का्हो्जाता्है्और्ककसी्सिर््न्यायािय्की्ऐसी्घोषणा्धिद्यर्ाि्है;`
+  line `(घ)् कायम्करिे्से्इंकार्करता्है्या्कायम्करिे्के्धिए्असर्थम्हो्जाता्है;`
+  line `( ङ )्आयोग्से्अिुपधस्थधत्की्इजाजत्धिए् धबिा् आयोग्के्िगातार्तीि्अधििे शिों ् से्अिुपधस्थत्रहता्है; ् या`
+  line `(च)्केन्द्रीय्सरकार्की्राय्र्ें,्ऐसा्अध्यि,्उपाध्यि्या्सदस्य्के्पद्का्दुरुपयोग्क रता्है्धजसके्कारण्उस् व्य`
+  line `ध् त ् का्पद्पर्बिे्रहिा्िोकधहत्के्धिए्हाधिकर्हो्गया्है्:`
+  line `परंतु्इस्िंड्के्अिीि्कोई्व्य ध् त ् तब्तक्िहीं्हटाया्जाएगा्जब्तक्उस्व्य ध् त ् को ् उस्र्ार्िे्र्ें् सुििाई्`
+  line का्उधचत्अिसर्ि्दे्कदया्गया्हो्।
+  line `( 4 )् उपिारा्( 2 )्या्उपिारा्( 3 )्के्अिीि्या्अन्य था्होिे्िािी्रर ध् त ् िए्िार्धिदेशि्द्वारा्भरी्जाएगी्और्इस् प्र कार्`
+  line `िार्धिदेधशत्व्य ध् त ् उस् पदािधि् की् अििधसत् अिधि् के्धिए् पद् िारण् करेगा् धजसके् धिए् उसका् पद् पूिमिती् उस् दशा्र्ें् पद्`
+  line `िारण्करता्यकद्ऐसी्रर ध् त ् िहीं्हुई्होती्।`
+  line `( 5 )् अध्यि,्उपाध्यि्और्सदस्यों्को् संदेय्िेति्और्भिे्तथा्उिकी्सेिा्के्अन्य्धिबंिि्और्शतें ् िे्होंगी्जो ् धिधहत्`
+  line की्जाएं्।
+  line `5. ् आयोग् के् अधिकारी् और् अन्य् कर्मचारी — ( 1 )् केन्द्रीय् सरकार् आयोग् के् धिए् ऐसे् अधिकाररयों् और् कर्मचाररयों् की् व्य`
+  line `िस्था्करेगी्जो्इस्अधिधियर््के्अिीि्आयोग्के्कृत्यों्के्दितापूणम् अिुपािि्के्धिए्आिश्यक्हों्।`
+  line `( 2 )्आयोग्के्प्रयोजि्के्धिए्धियु ् त ् अधिकाररयों्और्अन्य्कर्मचाररयों्को्संदे य्िेति्और्भिे्तथा्उिकी्सेिा् के ् अन्य्`
+  line धिबंिि्और्शतें्िे्होंगी्जो्धिधहत्की्जाएं्।
+  line `6. ् रर ध् त,्आकद्से्आयोग्की्कायमिाधहयों्का्अ धि धिर्ान्य्ि्होिा — आयोग्का्को ई्कायम्या्कायमिाही्केिि्इस्आिार्`
+  line `पर्प्र श्् ि गत्िहीं्की्जाएगी्या्अधिधिर्ान्य्िहीं्होगी्कक्आयोग्र्ें्कोई्रर ध् त ् है्या्उसके्गठि्र्ें्कोई्त्रुरट्है्।`
+  line `7. ् प्र किया्का्आयोग्द्वारा्धिधियधर्त्ककया्जािा — ( 1 )्आयोग्का्अधििेशि्जब्भी्आिश्यक्हो्ऐसे्सर्य्और्स्थाि्`
+  line `पर्होगा्जो्अ ध् यि्ठीक्सर्झे्।`
+  line `( 2 )्आयोग्अपिी्प्रकिया्स्ियं्धिधियधर्त्करेगा्।`
+  line `( 3 )्आयोग्के्सभी्आदेश्और्धिधि श्् च य्अध्यि्द्वारा्या्इस्धिधर्ि्अध्यि्द्वारा्सम्यक््रूप्से्प्राधिकृत्आयो ग्के्ककसी ्`
+  line अन्य्अधिकारी्द्वारा्अधिप्रर्ाधणत्ककए्जाएंगे्।
+  line `1 1997 के्अ धिधियर््सं ०् 18 ् की्िारा 3 ् द्व ारा्अंत:स्् था धपत्।`
+  line `2 200 1 के्अधिधियर््सं ०् 55 ् की्िारा 3 ् द्व ारा्अंत:स्् था धपत्।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-अध्या य ् 3
-आयोग्के्कृत्य्और्श ध् त यां
-8. ् आयोग्के्कृत्य्और्श ध् त यां — ( 1 )्आयोग्धि म्् ि धिधित्सभी्या्ककन्हीं्कृत्यों्का्पािि्करेगा,्अथामत््: —
-(क)्सफाई्कर्मचाररयों्के्धिए्प्रधतिा्सुधििाओं्और्अिसरों्की्असर्ािता्सर्ा प्् त ् करिे्के्धिए्सर्यबद्ध्कायम्
-योजिा्के्अिीि्कारमिाई्के्धिधिर्दम ष्‍ट् ट ् कायम िर्ों्की्केन्द्रीय्सरकार्को्धसफाररश्करिा्;
-(ि)् सफाई् कर्मचाररयों् के्सार्ाधजक्और् आर्थमक् पुििामस् से् संबंधित् कायमिर्ों् और्स् कीर्ों् के्कायामन्ियि् का्
-अध्ययि्और्र्ूल्यांकि्करिा्तथा्केन्द्रीय्सरकार्और्राज्य्सरकारों्को्ऐसे्कायमिर्ों्और्स्कीर्ों्के्बेहतर्सर्न्ि य् और्
-कायामन्ियि्के्धिए्धसफाररश्करिा्;
-(ग)्धिधिर्दम ष्‍ट् ट ् धशकायतों्का्अन्िेषण्करिा्और्धि म्् ि धिधित्को्कायामधन्ित्ि्ककए्जािे्से्संबंधित्धिषयों्की् स्
-िप्रेरणा्से्अिेिा्करिा, —
-( i )् सफाई्कर्मचाररयों्के्ककसी्सर्ूह्की्बाबत्कायमिर््या्स्कीर्ें्;
-( ii )्सफाई्कर्मचा ररयों्की्करठिाइयों्को्कर््करिे्के्धिए्धिधि श्् च य,्र्ागमदशमि्या्अिुदेश्;
-( iii ) ् सफाई्कर्मचाररयों्के्सार्ाधज क्और्आर्थमक्उत्थाि्के्धिए्उपाय;
-( iv )् सफाई्कर्मचाररयों्को्िागू्ककसी्धिधि्के्उपबंि,
-और्ऐसे्धिषयों्को्संबंधित्प्राधिकाररयों्अथिा्केन्द्रीय्या्राज्य्सर कारों्के्सर्ि्उठािा्;
-(घ)्सफाई्कर्मचाररयों्द्वारा्धजि्करठिाइयों्या्धियोग्यताओं्का्सार्िा्करिा् पड़ ् रहा्है्उिको्ध्याि्र्ें्रिते् हु
-ए,्सफाई्कर्मचाररयों्से्संबंधित्ककसी्धिषय्पर्केन्द्रीय्और्राज्य्सरकारों्को्काधिक्ररपोटम्देिा्;
-( ङ )्कोई्अन्य्धिषय्जो्केन्द्रीय ् सरकार्द्वारा्उसे्धिदेधशत्ककया्जाए्।
-( 2 )्आयोग्को,्उपिारा्( 1 )्के्अिीि्अपिे्कृत्यों्के्धििमहि्र्ें् ककसी्सरकार्अथिा्स्थािीय्या्अन्य्प्राधिकारी्से ् उस्
-उपिारा्र्ें्धिधिर्दम ष्‍ट् ट ् ककसी्धिषय्की्बाबत्जािकारी्र्ांगिे्की्श ध् त ् होगी्।
-अध्या य ् 4 प्र
-कीणम
-9. अध्यि,्उपा ध् यि्और्सदस्यों्तथा्आयोग्के्कर्मचाररिृन्द्का्िोक्सेिक्होिा — अध्यि,्उपाध्यि,्सदस्य,्आयोग्के्
-अधिकारी्और्अन्य्कर्मचारी,्भारतीय्दंड्संधहता् ( 1860 का 45 )् की्िारा् 21 के्अथम्र्ें्िोक्सेिक्सर्झे्जाएंगे्।
-10. ् केन्द्रीय्सरकार्द्वारा्आयोग्से्परार्शम्ककया्जािा — केन्द्री य्सरकार,्सफाई्कर्मचाररयों्को्प्रभाधित्करिे्िािे्सभी् प्रर्ु
-ि्िीधत्धिषयक्र्ार्िों्पर्आयोग्से्परार्शम्करेगी्।
-11. ् िार्षमक्ररपोटम — आयोग,्प्रत्येक्धििीय्िषम्के्धिए,्ऐसे् प्ररू प ् र्ें् और्ऐसे ् सर्य ् पर् जो्धिधहत्ककया्जाए,्अपिी्
-िार्षमक् ररपोटम् तैयार् करेगा,् धजसर्ें् पूिम िती् धििी य् िषम् के् दौराि् उसके्कियाकिापों् का् पूरा् धििरण् होगा् और् उसकी ् एक्प्र धत्
-केन्द्रीय्सरकार्को्भेजेगा्।
-12. ् िार्षमक्ररपोटम्का्संसद््या्धििाि्सभा्के्सर्ि्रिा्जािा — ( 1 )्केन्द्रीय्सरकार्िार्षमक्ररपोटम्और्साथ्ही्उसर्ें्
-अन्तर्िम ष्‍ट् ट ् धसफाररशों्पर्जहां्त क्उिका्संबंि्केन्द्रीय्सरकार्से्है्की्गई्या्ककए्जािे्के्धिए्प्रस्थाधपत्कारमिाई् औ र्ककसी्ऐ सी्
-धसफाररश्की्अस्िीकृधत्के्कारणों्को्यकद्कोई्हों,्स्प ष्‍ट् ट ् करिे्िािा्ज्ञापि्संसद््के्प्रत्येक्सदि्के्सर्ि्रििाएगी्।
-( 2 )् जहां्उ ् त ् ररपोटम्या्उसका्कोई्भाग्ककसी्ऐसे्धिष य्से्संबंधित्है्धजसका्ककसी्राज्य्सरकार्से्संबंि्है्िहां ् ऐसी्
-ररपोटम्की्एक्प्रधत्उस्राज्य्के्राज्यपाि्को्भेजी्जाएगी्जो्उसे्और्साथ्ही्राज्य्से्संबंधित्धसफाररशों्पर् की्गई्या्ककए ्
-जािे्के्धिए्प्रस्था धपत्कारमिाई् और्ककसी्ऐसी्धसफाररश्या्उसके्ककसी्भाग् की् अस्िीकृधत ् के्कारणों् को्यकद्कोई्हो,्स्प ष्‍ट् ट ्
-करिे्िािा्ज्ञापि्राज्य्के्धििाि - र्ं डि ् के्सर्ि्रििाएगा्।
-13. ् श ध् त यों्का्प्रत्यायोजि — आयोग,्सािारण्या्धिशेष्आदेश्द्वारा्अध्यि,्उपाध्यि्या्ककसी्सदस्य्अथिा्आयोग्के्
-ककसी्अधिकारी्को्ऐसी्शतों्और्पररसीर्ाओं्के,्यकद्कोई्हों,् अिीि्रहते्हुए्जो्उसर्ें्धिधिर्दम ष्‍ट् ट ् की्जाए,्इस्अधिधियर्् के ्
-अिीि्अपिी्ऐसी्श ध् त यों्और्कृत्यों्को,्जो्िह्ठीक्सर्झे,्प्रत्यायोधजत्कर्सकेगा्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `अध्या य ् 3`
+  line `आयोग्के्कृत्य्और्श ध् त यां`
+  line `8. ् आयोग्के्कृत्य्और्श ध् त यां — ( 1 )्आयोग्धि म्् ि धिधित्सभी्या्ककन्हीं्कृत्यों्का्पािि्करेगा,्अथामत््: —`
+  line `(क)्सफाई्कर्मचाररयों्के्धिए्प्रधतिा्सुधििाओं्और्अिसरों्की्असर्ािता्सर्ा प्् त ् करिे्के्धिए्सर्यबद्ध्कायम्`
+  line `योजिा्के्अिीि्कारमिाई्के्धिधिर्दम ष्‍ट् ट ् कायम िर्ों्की्केन्द्रीय्सरकार्को्धसफाररश्करिा्;`
+  line `(ि)् सफाई् कर्मचाररयों् के्सार्ाधजक्और् आर्थमक् पुििामस् से् संबंधित् कायमिर्ों् और्स् कीर्ों् के्कायामन्ियि् का्`
+  line `अध्ययि्और्र्ूल्यांकि्करिा्तथा्केन्द्रीय्सरकार्और्राज्य्सरकारों्को्ऐसे्कायमिर्ों्और्स्कीर्ों्के्बेहतर्सर्न्ि य् और्`
+  line कायामन्ियि्के्धिए्धसफाररश्करिा्;
+  line `(ग)्धिधिर्दम ष्‍ट् ट ् धशकायतों्का्अन्िेषण्करिा्और्धि म्् ि धिधित्को्कायामधन्ित्ि्ककए्जािे्से्संबंधित्धिषयों्की् स्`
+  line `िप्रेरणा्से्अिेिा्करिा, —`
+  line `( i )् सफाई्कर्मचाररयों्के्ककसी्सर्ूह्की्बाबत्कायमिर््या्स्कीर्ें्;`
+  line `( ii )्सफाई्कर्मचा ररयों्की्करठिाइयों्को्कर््करिे्के्धिए्धिधि श्् च य,्र्ागमदशमि्या्अिुदेश्;`
+  line `( iii ) ् सफाई्कर्मचाररयों्के्सार्ाधज क्और्आर्थमक्उत्थाि्के्धिए्उपाय;`
+  line `( iv )् सफाई्कर्मचाररयों्को्िागू्ककसी्धिधि्के्उपबंि,`
+  line `और्ऐसे्धिषयों्को्संबंधित्प्राधिकाररयों्अथिा्केन्द्रीय्या्राज्य्सर कारों्के्सर्ि्उठािा्;`
+  line `(घ)्सफाई्कर्मचाररयों्द्वारा्धजि्करठिाइयों्या्धियोग्यताओं्का्सार्िा्करिा् पड़ ् रहा्है्उिको्ध्याि्र्ें्रिते् हु`
+  line ए,्सफाई्कर्मचाररयों्से्संबंधित्ककसी्धिषय्पर्केन्द्रीय्और्राज्य्सरकारों्को्काधिक्ररपोटम्देिा्;
+  line `( ङ )्कोई्अन्य्धिषय्जो्केन्द्रीय ् सरकार्द्वारा्उसे्धिदेधशत्ककया्जाए्।`
+  line `( 2 )्आयोग्को,्उपिारा्( 1 )्के्अिीि्अपिे्कृत्यों्के्धििमहि्र्ें् ककसी्सरकार्अथिा्स्थािीय्या्अन्य्प्राधिकारी्से ् उस्`
+  line `उपिारा्र्ें्धिधिर्दम ष्‍ट् ट ् ककसी्धिषय्की्बाबत्जािकारी्र्ांगिे्की्श ध् त ् होगी्।`
+  line `अध्या य ् 4 प्र`
+  line कीणम
+  line `9. अध्यि,्उपा ध् यि्और्सदस्यों्तथा्आयोग्के्कर्मचाररिृन्द्का्िोक्सेिक्होिा — अध्यि,्उपाध्यि,्सदस्य,्आयोग्के्`
+  line `अधिकारी्और्अन्य्कर्मचारी,्भारतीय्दंड्संधहता् ( 1860 का 45 )् की्िारा् 21 के्अथम्र्ें्िोक्सेिक्सर्झे्जाएंगे्।`
+  line `10. ् केन्द्रीय्सरकार्द्वारा्आयोग्से्परार्शम्ककया्जािा — केन्द्री य्सरकार,्सफाई्कर्मचाररयों्को्प्रभाधित्करिे्िािे्सभी् प्रर्ु`
+  line ि्िीधत्धिषयक्र्ार्िों्पर्आयोग्से्परार्शम्करेगी्।
+  line `11. ् िार्षमक्ररपोटम — आयोग,्प्रत्येक्धििीय्िषम्के्धिए,्ऐसे् प्ररू प ् र्ें् और्ऐसे ् सर्य ् पर् जो्धिधहत्ककया्जाए,्अपिी्`
+  line `िार्षमक् ररपोटम् तैयार् करेगा,् धजसर्ें् पूिम िती् धििी य् िषम् के् दौराि् उसके्कियाकिापों् का् पूरा् धििरण् होगा् और् उसकी ् एक्प्र धत्`
+  line केन्द्रीय्सरकार्को्भेजेगा्।
+  line `12. ् िार्षमक्ररपोटम्का्संसद््या्धििाि्सभा्के्सर्ि्रिा्जािा — ( 1 )्केन्द्रीय्सरकार्िार्षमक्ररपोटम्और्साथ्ही्उसर्ें्`
+  line `अन्तर्िम ष्‍ट् ट ् धसफाररशों्पर्जहां्त क्उिका्संबंि्केन्द्रीय्सरकार्से्है्की्गई्या्ककए्जािे्के्धिए्प्रस्थाधपत्कारमिाई् औ र्ककसी्ऐ सी्`
+  line `धसफाररश्की्अस्िीकृधत्के्कारणों्को्यकद्कोई्हों,्स्प ष्‍ट् ट ् करिे्िािा्ज्ञापि्संसद््के्प्रत्येक्सदि्के्सर्ि्रििाएगी्।`
+  line `( 2 )् जहां्उ ् त ् ररपोटम्या्उसका्कोई्भाग्ककसी्ऐसे्धिष य्से्संबंधित्है्धजसका्ककसी्राज्य्सरकार्से्संबंि्है्िहां ् ऐसी्`
+  line `ररपोटम्की्एक्प्रधत्उस्राज्य्के्राज्यपाि्को्भेजी्जाएगी्जो्उसे्और्साथ्ही्राज्य्से्संबंधित्धसफाररशों्पर् की्गई्या्ककए ्`
+  line `जािे्के्धिए्प्रस्था धपत्कारमिाई् और्ककसी्ऐसी्धसफाररश्या्उसके्ककसी्भाग् की् अस्िीकृधत ् के्कारणों् को्यकद्कोई्हो,्स्प ष्‍ट् ट ्`
+  line `करिे्िािा्ज्ञापि्राज्य्के्धििाि - र्ं डि ् के्सर्ि्रििाएगा्।`
+  line `13. ् श ध् त यों्का्प्रत्यायोजि — आयोग,्सािारण्या्धिशेष्आदेश्द्वारा्अध्यि,्उपाध्यि्या्ककसी्सदस्य्अथिा्आयोग्के्`
+  line `ककसी्अधिकारी्को्ऐसी्शतों्और्पररसीर्ाओं्के,्यकद्कोई्हों,् अिीि्रहते्हुए्जो्उसर्ें्धिधिर्दम ष्‍ट् ट ् की्जाए,्इस्अधिधियर्् के ्`
+  line `अिीि्अपिी्ऐसी्श ध् त यों्और्कृत्यों्को,्जो्िह्ठीक्सर्झे,्प्रत्यायोधजत्कर्सकेगा्।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-14. सद्भािपूिमक् की् गई् कारमिाई् के् धिए् संरिण — इस् अधिधियर्् के् अिीि् सद्भािपूिमक् की् गई् या् की् जािे् के् धिए्
-आशधयत्ककसी्बात्के ् धिए्कोई्भी्िाद,्अधभयोजि्या्अन्य्धि धद्य क्कायमिाही्केन्द्रीय्सरकार,्आयोग,्अध्यि,्उपाध्यि,्सद स् य्
-अथिा्आयोग्के्ककसी्अधिकारी्या्अन्य्कर्मचारी्के्धिरुद्ध्िहीं्होगी्।
-15. धियर््बिािे्की्श ध् त — ( 1 )्केन्द्रीय्सरकार्इस्अधिधियर््के्उपबंिों्को्कायामधन्ित्करिे्के ् धिए्धियर्,्राजपत्र्र्ें्
-अधिसूचिा्द्वारा,्बिा्सकेगी्।
-( 2 )्धिधश धष्‍ट् ट तया्और्पूिमगार्ी्श ध् त ् की्व्यापकता्पर्प्रधतकूि्प्रभाि्डािे्धबिा्ऐसे्धियर्ों्र्ें,्धि म्् ि धिधित्सभी्या्
-ककन्हीं्धिषयों्के्धिए्उपबंि्ककया्जा्सकेगा,्अथामत््: —
-(क)्िारा् 4 ् की्उपिारा्( 5 )्के्अिीि्अध्य ि,्उपाध्यि्और्सदस्यों्को्और्िारा ् 5 ् की्उपिारा्( 2 )्के्अिीि्
-आयोग्के्अधिकाररयों्और्अन्य्कर्मचाररयों्को्संदेय्िेति्और्भिे्तथा्उिकी्सेिा्के्अन्य्धिबंिि्और्शतें्;
-(ि)् िह्प्ररूप्धजसर्ें,्और्िह्सर्य्जब,्िारा् 11 के्अिीि्िार्षमक्ररपोटम्तैयार्की्जाएगी्;
-(ग)् कोई ् अन्य्धिषय्धजसका् धिधहत् ककया्जािा्अपेधित्है्या्जो्धिधहत्ककया्जाए्।
-( 3 )् इस्अधिधियर््के्अिीि्बिाया्गया्प्रत्येक्धियर्,्बिाए्जािे्के्प श्् चा त््यथाशीघ्र,्संसद््के्प्रत्येक्सदि्के्सर्ि,्
-जब्िह्सत्र्र्ें्हो,्कुि्तीस्कदि्की्अिधि्के्धिए्रिा्जाएगा्।्यह्अिधि्एक्सत्र्र्ें ् अथिा्दो्या्अधिक्आिुिधर्क्सत्रों्र्ें ् पूरी ्
-हो्सकेगी्।्यकद्उस्सत्र्के्या्पूिो ् त ् आिुिधर्क्सत्रों्के्ठीक्बाद्के्सत्र्के्अिसाि्के्पूिम्दोिों्सदि्उस्धियर्् र्ें ् कोई्प ररितमि्
-करिे्के्धिए्सहर्त्हो्जाएं्तो्तत्प श्् चा त््िह्ऐसे्पररिर्तमत्रूप्र्ें्ही्प्रभािी्होगा्। ् यकद्उ ् त ् अिसाि्के्पूिम्दो िों्सदि्सहर् त्
-हो् जाएं् कक् िह् धियर्् िहीं् बिाया् जािा् चाधहए् तो् तत्प श्् चा त्् िह् धिष्‍टप्रभाि् हो् जाएगा्।् ककन्तु् धियर्् के् ऐसे् पररिर्तमत् या ्
-धिष्‍टप्रभाि्होिे्से्उसके्अिीि्पहिे्की्गई्ककसी्बात्की्धिधिर्ान्यता्पर्प्रधतकूि्प्रभाि्िहीं्पड़ेगा्।
-____ __ ्`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `14. सद्भािपूिमक् की् गई् कारमिाई् के् धिए् संरिण — इस् अधिधियर्् के् अिीि् सद्भािपूिमक् की् गई् या् की् जािे् के् धिए्`
+  line `आशधयत्ककसी्बात्के ् धिए्कोई्भी्िाद,्अधभयोजि्या्अन्य्धि धद्य क्कायमिाही्केन्द्रीय्सरकार,्आयोग,्अध्यि,्उपाध्यि,्सद स् य्`
+  line अथिा्आयोग्के्ककसी्अधिकारी्या्अन्य्कर्मचारी्के्धिरुद्ध्िहीं्होगी्।
+  line `15. धियर््बिािे्की्श ध् त — ( 1 )्केन्द्रीय्सरकार्इस्अधिधियर््के्उपबंिों्को्कायामधन्ित्करिे्के ् धिए्धियर्,्राजपत्र्र्ें्`
+  line अधिसूचिा्द्वारा,्बिा्सकेगी्।
+  line `( 2 )्धिधश धष्‍ट् ट तया्और्पूिमगार्ी्श ध् त ् की्व्यापकता्पर्प्रधतकूि्प्रभाि्डािे्धबिा्ऐसे्धियर्ों्र्ें,्धि म्् ि धिधित्सभी्या्`
+  line `ककन्हीं्धिषयों्के्धिए्उपबंि्ककया्जा्सकेगा,्अथामत््: —`
+  line `(क)्िारा् 4 ् की्उपिारा्( 5 )्के्अिीि्अध्य ि,्उपाध्यि्और्सदस्यों्को्और्िारा ् 5 ् की्उपिारा्( 2 )्के्अिीि्`
+  line आयोग्के्अधिकाररयों्और्अन्य्कर्मचाररयों्को्संदेय्िेति्और्भिे्तथा्उिकी्सेिा्के्अन्य्धिबंिि्और्शतें्;
+  line `(ि)् िह्प्ररूप्धजसर्ें,्और्िह्सर्य्जब,्िारा् 11 के्अिीि्िार्षमक्ररपोटम्तैयार्की्जाएगी्;`
+  line `(ग)् कोई ् अन्य्धिषय्धजसका् धिधहत् ककया्जािा्अपेधित्है्या्जो्धिधहत्ककया्जाए्।`
+  line `( 3 )् इस्अधिधियर््के्अिीि्बिाया्गया्प्रत्येक्धियर्,्बिाए्जािे्के्प श्् चा त््यथाशीघ्र,्संसद््के्प्रत्येक्सदि्के्सर्ि,्`
+  line `जब्िह्सत्र्र्ें्हो,्कुि्तीस्कदि्की्अिधि्के्धिए्रिा्जाएगा्।्यह्अिधि्एक्सत्र्र्ें ् अथिा्दो्या्अधिक्आिुिधर्क्सत्रों्र्ें ् पूरी ्`
+  line `हो्सकेगी्।्यकद्उस्सत्र्के्या्पूिो ् त ् आिुिधर्क्सत्रों्के्ठीक्बाद्के्सत्र्के्अिसाि्के्पूिम्दोिों्सदि्उस्धियर्् र्ें ् कोई्प ररितमि्`
+  line `करिे्के्धिए्सहर्त्हो्जाएं्तो्तत्प श्् चा त््िह्ऐसे्पररिर्तमत्रूप्र्ें्ही्प्रभािी्होगा्। ् यकद्उ ् त ् अिसाि्के्पूिम्दो िों्सदि्सहर् त्`
+  line `हो् जाएं् कक् िह् धियर्् िहीं् बिाया् जािा् चाधहए् तो् तत्प श्् चा त्् िह् धिष्‍टप्रभाि् हो् जाएगा्।् ककन्तु् धियर्् के् ऐसे् पररिर्तमत् या ्`
+  line धिष्‍टप्रभाि्होिे्से्उसके्अिीि्पहिे्की्गई्ककसी्बात्की्धिधिर्ान्यता्पर्प्रधतकूि्प्रभाि्िहीं्पड़ेगा्।
+  line `____ __ ्`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line

@@ -1,93 +1,95 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T17:41:53.386Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19279`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-09T17:41:53.386Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19279`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-king-of-oudh-s-estate-act-1888)
-  (str handle) (str 19279)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The King of Oudh's Estate Act, 1888`)
-  (str actNumber) (str 14)
-  (str enactmentDate) (str 1888-10-26)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19279`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1888)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act to make further provision for the Administration of the Estate of His late Majesty the King of Oudh.`)
-  (str enforcementDate) (undefined)
-  (str notification) (undefined)
+  slug the-king-of-oudh-s-estate-act-1888
+  handle (19279)
+  collectionHandle 123456789/1362
+  title `The King of Oudh's Estate Act, 1888`
+  actNumber (14)
+  enactmentDate 1888-10-26
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19279`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1888)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act to make further provision for the Administration of the Estate of His late Majesty the King of Oudh.`
+  enforcementDate undefined
+  notification undefined
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_king_of_oudh_s_estate_act_1888
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/19279`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/19279`
 obj_root_law_sources_en_the_king_of_oudh_s_estate_act_1888:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19279/1/a1888-14.pdf`)
-  (str title) (str `The King of Oudh's Estate Act, 1888`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19279/1/a1888-14.pdf`
+  title `The King of Oudh's Estate Act, 1888`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 72814)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Transfers of property by and to the Agent to the Governor General in Council, and institution of legal proceedings by him.`)
-  (str content) (str `Subject to the control of the Governor General in Council, the person for
-the time being holding the office of Agent to the Governor General in Council for the Affairs of the late
-King of Oudh and for the Purposes of Act XIX of 1887, may—
-
-(a) in his own name and by his name of office dispose of any moveable and immoveable property
-of His late Majesty the King of Oudh in as full and effectual a manner as His Majesty could have
-disposed of it in his lifetime;
-
-(b) by his name of office take a conveyance of any moveable or immoveable property in which His
-late Majesty had a beneficial interest; and
-
-(c) by his name of office institute any suit or other proceeding in any Civil, Criminal or Revenue
-Court in connection with the possession of any moveable or immoveable property belonging to the
-estate of His late Majesty or the dispossession of any person of any such property, or the recovery of
-rents, debts or other moneys due to the estate, or otherwise in connection with the administration of the
-estate.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_188814_1675765637561&sectionId=72814&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00120_188814_1675765637561)
+  sectionId (72814)
+  sectionNo (1)
+  orderNo 1
+  title `Transfers of property by and to the Agent to the Governor General in Council, and institution of legal proceedings by him.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_188814_1675765637561&sectionId=72814&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00120_188814_1675765637561
+obj_root_law_sections_1_content:
+  string
+  line `Subject to the control of the Governor General in Council, the person for`
+  line `the time being holding the office of Agent to the Governor General in Council for the Affairs of the late`
+  line `King of Oudh and for the Purposes of Act XIX of 1887, may—`
+  line
+  line `(a) in his own name and by his name of office dispose of any moveable and immoveable property`
+  line `of His late Majesty the King of Oudh in as full and effectual a manner as His Majesty could have`
+  line `disposed of it in his lifetime;`
+  line
+  line `(b) by his name of office take a conveyance of any moveable or immoveable property in which His`
+  line `late Majesty had a beneficial interest; and`
+  line
+  line `(c) by his name of office institute any suit or other proceeding in any Civil, Criminal or Revenue`
+  line `Court in connection with the possession of any moveable or immoveable property belonging to the`
+  line `estate of His late Majesty or the dispossession of any person of any such property, or the recovery of`
+  line `rents, debts or other moneys due to the estate, or otherwise in connection with the administration of the`
+  line estate.
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 72815)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Consequences ensuring on death, resignation or removal Agent.`)
-  (str content) (str `On the departure from British
-India, or the death, resignation or removal, of an Agent to the Governor General for the Affairs and Purposes
-aforesaid, the following consequences shall ensue, namely:—
-
-(a) any moveable or immoveable property vested in him as such Agent shall become vested in his
-successor in office, and
-
-(b) a suit or other proceeding instituted by his name of office may be continued by his successor in
-office in the same manner as if the departure or the death, resignation or removal had not occurred.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_188814_1675765637561&sectionId=72815&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00120_188814_1675765637561)
+  sectionId (72815)
+  sectionNo (2)
+  orderNo 2
+  title `Consequences ensuring on death, resignation or removal Agent.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_188814_1675765637561&sectionId=72815&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00120_188814_1675765637561
+obj_root_law_sections_2_content:
+  string
+  line `On the departure from British`
+  line `India, or the death, resignation or removal, of an Agent to the Governor General for the Affairs and Purposes`
+  line `aforesaid, the following consequences shall ensue, namely:—`
+  line
+  line `(a) any moveable or immoveable property vested in him as such Agent shall become vested in his`
+  line `successor in office, and`
+  line
+  line `(b) a suit or other proceeding instituted by his name of office may be continued by his successor in`
+  line `office in the same manner as if the departure or the death, resignation or removal had not occurred.`
+obj_root_law_sections_2_footnotes:
+  string
+  line

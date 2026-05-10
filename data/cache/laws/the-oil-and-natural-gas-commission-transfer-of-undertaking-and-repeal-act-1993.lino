@@ -1,56 +1,50 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T21:04:05.709Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1902`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-08T21:04:05.709Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1902`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-oil-and-natural-gas-commission-transfer-of-undertaking-and-repeal-act-1993)
-  (str handle) (str 1902)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Oil and Natural Gas Commission (Transfer of Undertaking and Repeal) Act, 1993`)
-  (str actNumber) (str 65)
-  (str enactmentDate) (str 1993-09-04)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1902`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str actYear) (str 1993)
-  (str ministry) (str `Ministry of Petroleum and Natural Gas`)
-  (str longTitle) (str `An Act to provide for the transfer and vesting of the undertaking of the Oil and Natural Gas Commission to and in the Oil and Natural Gas Corporation Limited, a company incorporated under the Companies Act, 1956, and for matters connected therewith or incidental thereto and also to repeal the Oil and Natural Gas Commission Act, 1959.`)
-  (str enforcementDate) (str 02-07-1993)
+  slug the-oil-and-natural-gas-commission-transfer-of-undertaking-and-repeal-act-1993
+  handle (1902)
+  collectionHandle 123456789/1362
+  title `The Oil and Natural Gas Commission (Transfer of Undertaking and Repeal) Act, 1993`
+  actNumber (65)
+  enactmentDate 1993-09-04
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1902`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  actYear (1993)
+  ministry `Ministry of Petroleum and Natural Gas`
+  longTitle `An Act to provide for the transfer and vesting of the undertaking of the Oil and Natural Gas Commission to and in the Oil and Natural Gas Corporation Limited, a company incorporated under the Companies Act, 1956, and for matters connected therewith or incidental thereto and also to repeal the Oil and Natural Gas Commission Act, 1959.`
+  enforcementDate 02-07-1993
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_oil_and_natural_gas_commission_transfer_of_undertaking_and_repeal_act_19
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1902`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1902`
 obj_root_law_sources_en_the_oil_and_natural_gas_commission_transfer_of_undertaking_and_repeal_act_19:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1902/1/A1993-65.pdf`)
-  (str title) (str `The Oil and Natural Gas Commission (Transfer of Undertaking and Repeal) Act, 1993`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1902/1/A1993-65.pdf`
+  title `The Oil and Natural Gas Commission (Transfer of Undertaking and Repeal) Act, 1993`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00001_199365_1517807320596/notificationindividualfile/&file=ONGC+Gazette+Notification+28.01.1994.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00001_199365_1517807320596/notificationindividualfile/&file=ONGC+Gazette+Notification+28.01.1994.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -64,252 +58,312 @@ obj_root_law_sections:
   obj_root_law_sections_11
   obj_root_law_sections_12
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 24690)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Oil and Natural Gas
-Commission (Transfer of Undertaking and Repeal) Act, 1993.
-
-(2) It shall be deemed to have come into force on the 2nd day of July, 1993.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24690&sectionno=1&orderno=1&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24690)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24690&sectionno=1&orderno=1&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Oil and Natural Gas`
+  line `Commission (Transfer of Undertaking and Repeal) Act, 1993.`
+  line
+  line `(2) It shall be deemed to have come into force on the 2nd day of July, 1993.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 24691)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "appointed day" means such date as the Central Government may, by notification in the
-Official Gazette, appoint under section 3;
-
-(b) "Corporation" means the Oil and Natural Gas Corporation Limited, a company registered
-under the Companies Act, 1956 (1 of 1956);
-
-(c) "Commission" means the Oil and Natural Gas Commission established under sub-section (1)
-of section 3 of the Oil and Natural Gas Commission Act, 1959 (43 of 1959);
-
-(d) "prescribed" means prescribed by rules made under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24691&sectionno=2&orderno=2&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24691)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24691&sectionno=2&orderno=2&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "appointed day" means such date as the Central Government may, by notification in the`
+  line `Official Gazette, appoint under section 3;`
+  line
+  line `(b) "Corporation" means the Oil and Natural Gas Corporation Limited, a company registered`
+  line `under the Companies Act, 1956 (1 of 1956);`
+  line
+  line `(c) "Commission" means the Oil and Natural Gas Commission established under sub-section (1)`
+  line `of section 3 of the Oil and Natural Gas Commission Act, 1959 (43 of 1959);`
+  line
+  line `(d) "prescribed" means prescribed by rules made under this Act.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 24692)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Undertaking of Commission to vest in Corporation.`)
-  (str content) (str `On such date^1
-as the Central Government
-may, by notification in the Official Gazette, appoint, the undertaking of the Commission shall stand
-transferred to, and vest in, the Corporation.`)
-  (str footnotes) (str `1. 1st February, 1994, vide notification No. G.S.R. 44(E), dated 28th January 1994, see Gazette of India, Extraordinary,
-Part I, sec. 3(i)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24692&sectionno=3&orderno=3&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24692)
+  sectionNo (3)
+  orderNo 3
+  title `Undertaking of Commission to vest in Corporation.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24692&sectionno=3&orderno=3&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_3_content:
+  string
+  line `On such date^1`
+  line `as the Central Government`
+  line `may, by notification in the Official Gazette, appoint, the undertaking of the Commission shall stand`
+  line `transferred to, and vest in, the Corporation.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. 1st February, 1994, vide notification No. G.S.R. 44(E), dated 28th January 1994, see Gazette of India, Extraordinary,`
+  line `Part I, sec. 3(i)`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 24693)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `General effect of vesting of undertaking in Corporation.`)
-  (str content) (str `(1) On and from the appointed day,
-the entire capital of the Commission shall, by virtue of this Act, stand vested in the Corporation.
-
-(2) The undertaking of the Commission which is transferred to, and which vests in, the Corporation
-under section 3 shall be deemed to include all assets, rights, powers, authorities and privileges and all
-properties, movable and immovable, real and personal, corporeal or incorporeal, in possession or
-reservation, present or contingent of whatever nature and wheresoever situate including lands, buildings,
-works, workshops, vehicles, oil rigs, oil platforms, cash balances, deposits, foreign currencies, reserves,
-reserve funds or any other investments, securities, tenancies, leases and book debts and all other rights
-and interests arising out of such properties as were immediately before the appointed day in the
-ownership, possession or power of the Commission in relation to its undertaking, whether within or
-outside India, all books of account and registers, records and documents relating thereto and shall also be
-deemed to include all liabilities and obligations of whatever kind, within or outside India, of the
-Commission in relation to its undertaking subsisting immediately before the appointed day.
-
-(3) All contracts, deeds, bonds, guarantees, powers of attorney, other instruments and working
-arrangements subsisting immediately before the appointed day and affecting the Commission shall cease
-to have effect or to be enforceable against the Commission and shall be of as full force and effect against
-or in favour of the Corporation and enforceable as fully and effectually as if, instead of the Commission
-the Corporation had been named therein or had been a party thereto.
-
-(4) Any proceeding or cause of action pending or existing immediately before the appointed day by or
-against the Commission, in relation to its undertaking may, as from the appointed day, be continued and enforced by or against the Corporation as it might have been enforced by or against the Commission, if
-this Act had not been in force, and shall cease to be enforceable by or against the Commission.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24693&sectionno=4&orderno=4&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24693)
+  sectionNo (4)
+  orderNo 4
+  title `General effect of vesting of undertaking in Corporation.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24693&sectionno=4&orderno=4&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_4_content:
+  string
+  line `(1) On and from the appointed day,`
+  line `the entire capital of the Commission shall, by virtue of this Act, stand vested in the Corporation.`
+  line
+  line `(2) The undertaking of the Commission which is transferred to, and which vests in, the Corporation`
+  line `under section 3 shall be deemed to include all assets, rights, powers, authorities and privileges and all`
+  line `properties, movable and immovable, real and personal, corporeal or incorporeal, in possession or`
+  line `reservation, present or contingent of whatever nature and wheresoever situate including lands, buildings,`
+  line `works, workshops, vehicles, oil rigs, oil platforms, cash balances, deposits, foreign currencies, reserves,`
+  line `reserve funds or any other investments, securities, tenancies, leases and book debts and all other rights`
+  line `and interests arising out of such properties as were immediately before the appointed day in the`
+  line `ownership, possession or power of the Commission in relation to its undertaking, whether within or`
+  line `outside India, all books of account and registers, records and documents relating thereto and shall also be`
+  line `deemed to include all liabilities and obligations of whatever kind, within or outside India, of the`
+  line `Commission in relation to its undertaking subsisting immediately before the appointed day.`
+  line
+  line `(3) All contracts, deeds, bonds, guarantees, powers of attorney, other instruments and working`
+  line `arrangements subsisting immediately before the appointed day and affecting the Commission shall cease`
+  line `to have effect or to be enforceable against the Commission and shall be of as full force and effect against`
+  line `or in favour of the Corporation and enforceable as fully and effectually as if, instead of the Commission`
+  line `the Corporation had been named therein or had been a party thereto.`
+  line
+  line `(4) Any proceeding or cause of action pending or existing immediately before the appointed day by or`
+  line `against the Commission, in relation to its undertaking may, as from the appointed day, be continued and enforced by or against the Corporation as it might have been enforced by or against the Commission, if`
+  line `this Act had not been in force, and shall cease to be enforceable by or against the Commission.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 24694)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Licences, etc., to be deemed to have been granted to Corporation.`)
-  (str content) (str `With effect from the
-appointed day, all licences, leases, concessions, permits, quotas, benefits, privileges and exemptions
-granted to the Commission in connection with the affairs of the Commission under any law for the time
-being in force, shall be deemed to have been granted to the Corporation.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24694&sectionno=5&orderno=5&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24694)
+  sectionNo (5)
+  orderNo 5
+  title `Licences, etc., to be deemed to have been granted to Corporation.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24694&sectionno=5&orderno=5&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_5_content:
+  string
+  line `With effect from the`
+  line `appointed day, all licences, leases, concessions, permits, quotas, benefits, privileges and exemptions`
+  line `granted to the Commission in connection with the affairs of the Commission under any law for the time`
+  line `being in force, shall be deemed to have been granted to the Corporation.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 24695)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Tax exemption or benefit to continue to have effect.`)
-  (str content) (str `(1) Where any exemption from, or any
-assessment with respect to, any tax has been granted or made or any benefit by way of set off or carry
-forward of any unabsorbed depreciation or investment allowance or other allowance or loss has been
-extended or is available to the Commission under the Income-tax Act, 1961 (43 of 1961), such
-exemption, assessment or benefit shall continue to have effect, in relation to the Corporation.
-
-(2) Where any payment made by the Commission is exempt from deduction of the tax at source under
-any provision of the Income-tax Act, 1961 (43 of 1961), the exemption from tax will continue to be
-available as if the provisions of the said Act made applicable to the Commission were operative in
-relation to the Corporation.
-
-(3) The transfer and vesting of the undertaking or any part thereof in terms of section 3 shall not be
-construed as a transfer within the meaning of the Income-tax Act, 1961 (43 of 1961), for the purpose of
-capital gains.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24695&sectionno=6&orderno=6&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24695)
+  sectionNo (6)
+  orderNo 6
+  title `Tax exemption or benefit to continue to have effect.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24695&sectionno=6&orderno=6&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_6_content:
+  string
+  line `(1) Where any exemption from, or any`
+  line `assessment with respect to, any tax has been granted or made or any benefit by way of set off or carry`
+  line `forward of any unabsorbed depreciation or investment allowance or other allowance or loss has been`
+  line `extended or is available to the Commission under the Income-tax Act, 1961 (43 of 1961), such`
+  line `exemption, assessment or benefit shall continue to have effect, in relation to the Corporation.`
+  line
+  line `(2) Where any payment made by the Commission is exempt from deduction of the tax at source under`
+  line `any provision of the Income-tax Act, 1961 (43 of 1961), the exemption from tax will continue to be`
+  line `available as if the provisions of the said Act made applicable to the Commission were operative in`
+  line `relation to the Corporation.`
+  line
+  line `(3) The transfer and vesting of the undertaking or any part thereof in terms of section 3 shall not be`
+  line `construed as a transfer within the meaning of the Income-tax Act, 1961 (43 of 1961), for the purpose of`
+  line `capital gains.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 24696)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Guarantee to be operative.`)
-  (str content) (str `Any guarantee given for or in favour of the Commission with
-respect to any loan or lease finance or other assistance shall continue to be operative in relation to the
-Corporation.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24696&sectionno=7&orderno=7&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24696)
+  sectionNo (7)
+  orderNo 7
+  title `Guarantee to be operative.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24696&sectionno=7&orderno=7&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_7_content:
+  string
+  line `Any guarantee given for or in favour of the Commission with`
+  line `respect to any loan or lease finance or other assistance shall continue to be operative in relation to the`
+  line Corporation.
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 24697)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Provisions in respect of officers and other employees of Commission.`)
-  (str content) (str `(1) Every officer or
-other employee of the Commission (except a member or the chairman) serving in its employment
-immediately before the appointed day shall, in so far as such officer or other employee is employed in
-connection with the undertaking which has vested in the Corporation by virtue of this Act, become, as
-from the appointed day, an officer or, as the case may be, other employee of the Corporation and shall
-hold his office or service therein by the same tenure, at the same remuneration, upon the same terms and
-conditions with the same obligations and with the same rights and privileges as to leave, passage,
-insurance, superannuation scheme, provident fund, other funds, retirement, pension, gratuity and other
-benefits as he would have held under the Commission if its undertaking had not vested in the Corporation
-and shall continue to do so as an officer or other employee of the Corporation or until the expiry of a
-period of one year from the appointed day if such officer or other employee opts not to be the officer or
-other employee of the Corporation within such period.
-
-(2) Where an officer or other employee of the Commission opts under sub-section (1) not to be in the
-employment or service of the Corporation such officer or other employee shall be deemed to have
-resigned.
-
-(3) Notwithstanding anything contained in the Industrial Disputes Act, 1947 (14 of 1947) or in any
-other law for the time being in force, the transfer of the service of any officer or other employee of the
-Commission to the Corporation shall not entitle such officer or other employee to any compensation
-under this Act or under any other law for the time being in force and no such claim shall be entertained by
-any court, tribunal or other authority.
-
-(4) The officers and other employees who have retired before the appointed day from the service of
-the Commission and are entitled to any benefits, rights or privileges shall be entitled to receive the same
-benefits, rights or privileges from the Corporation.
-
-(5) The trusts of the provident fund, gratuity fund or the superannuation scheme of the Commission
-and any other bodies created for the welfare of officers or other employees shall continue to discharge
-their functions in the Corporation as was being done hitherto in the Commission and any tax exemption
-granted to the provident fund, gratuity fund and the superannuation scheme or any other bodies created
-for the welfare of officers or other employees shall continue to be applied to the Corporation.
-
-(6) Notwithstanding anything contained in this Act or in the Companies Act, 1956 (1 of 1956) or in
-any other law for the time being in force or in the regulations of the Commission, no member or chairman
-of the Commission shall be entitled to any compensation against the Commission or the Corporation for
-the loss of office or for the premature termination of any contract of management entered into by him
-with the Commission.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24697&sectionno=8&orderno=8&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24697)
+  sectionNo (8)
+  orderNo 8
+  title `Provisions in respect of officers and other employees of Commission.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24697&sectionno=8&orderno=8&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_8_content:
+  string
+  line `(1) Every officer or`
+  line `other employee of the Commission (except a member or the chairman) serving in its employment`
+  line `immediately before the appointed day shall, in so far as such officer or other employee is employed in`
+  line `connection with the undertaking which has vested in the Corporation by virtue of this Act, become, as`
+  line `from the appointed day, an officer or, as the case may be, other employee of the Corporation and shall`
+  line `hold his office or service therein by the same tenure, at the same remuneration, upon the same terms and`
+  line `conditions with the same obligations and with the same rights and privileges as to leave, passage,`
+  line `insurance, superannuation scheme, provident fund, other funds, retirement, pension, gratuity and other`
+  line `benefits as he would have held under the Commission if its undertaking had not vested in the Corporation`
+  line `and shall continue to do so as an officer or other employee of the Corporation or until the expiry of a`
+  line `period of one year from the appointed day if such officer or other employee opts not to be the officer or`
+  line `other employee of the Corporation within such period.`
+  line
+  line `(2) Where an officer or other employee of the Commission opts under sub-section (1) not to be in the`
+  line `employment or service of the Corporation such officer or other employee shall be deemed to have`
+  line resigned.
+  line
+  line `(3) Notwithstanding anything contained in the Industrial Disputes Act, 1947 (14 of 1947) or in any`
+  line `other law for the time being in force, the transfer of the service of any officer or other employee of the`
+  line `Commission to the Corporation shall not entitle such officer or other employee to any compensation`
+  line `under this Act or under any other law for the time being in force and no such claim shall be entertained by`
+  line `any court, tribunal or other authority.`
+  line
+  line `(4) The officers and other employees who have retired before the appointed day from the service of`
+  line `the Commission and are entitled to any benefits, rights or privileges shall be entitled to receive the same`
+  line `benefits, rights or privileges from the Corporation.`
+  line
+  line `(5) The trusts of the provident fund, gratuity fund or the superannuation scheme of the Commission`
+  line `and any other bodies created for the welfare of officers or other employees shall continue to discharge`
+  line `their functions in the Corporation as was being done hitherto in the Commission and any tax exemption`
+  line `granted to the provident fund, gratuity fund and the superannuation scheme or any other bodies created`
+  line `for the welfare of officers or other employees shall continue to be applied to the Corporation.`
+  line
+  line `(6) Notwithstanding anything contained in this Act or in the Companies Act, 1956 (1 of 1956) or in`
+  line `any other law for the time being in force or in the regulations of the Commission, no member or chairman`
+  line `of the Commission shall be entitled to any compensation against the Commission or the Corporation for`
+  line `the loss of office or for the premature termination of any contract of management entered into by him`
+  line `with the Commission.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 24698)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Power of entry.`)
-  (str content) (str `(1) For the purposes of ascertaining the availability of any oil or natural gas, the
-Central Government may, on the request being made by the Corporation, authorise any officer or
-employee of the Corporation, by general or special order,--
-
-(a) to enter and inspect any land;
-
-(b) to survey and take measurements of such land;
-
-(c) to dig holes or perform any other functions for the purposes of measuring or prospecting for
-the availability of oil and natural gas; and
-
-(d) to examine any document, book, register or record in the possession or power of any person
-having the control of or connected with any such land and place marks of identification thereon and
-take extracts from and make copies of any such document, book, register or record.
-
-(2) Every person authorised by the Central Government under sub-section (1) shall be deemed to be a
-public servant within the meaning of section 21 of the Indian Penal Code (45 of 1860).
-
-(3) The Corporation shall be liable to pay compensation for any loss or damage caused to the land
-caused by its officers or employees in performing the functions under sub-section (1) in such manner as
-may be prescribed to the occupier of the land.
-
-(4) The amount of compensation payable under sub-section (3) shall be determined by the competent
-authority appointed by the Central Government in the manner prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24698&sectionno=9&orderno=9&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24698)
+  sectionNo (9)
+  orderNo 9
+  title `Power of entry.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24698&sectionno=9&orderno=9&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_9_content:
+  string
+  line `(1) For the purposes of ascertaining the availability of any oil or natural gas, the`
+  line `Central Government may, on the request being made by the Corporation, authorise any officer or`
+  line `employee of the Corporation, by general or special order,--`
+  line
+  line `(a) to enter and inspect any land;`
+  line
+  line `(b) to survey and take measurements of such land;`
+  line
+  line `(c) to dig holes or perform any other functions for the purposes of measuring or prospecting for`
+  line `the availability of oil and natural gas; and`
+  line
+  line `(d) to examine any document, book, register or record in the possession or power of any person`
+  line `having the control of or connected with any such land and place marks of identification thereon and`
+  line `take extracts from and make copies of any such document, book, register or record.`
+  line
+  line `(2) Every person authorised by the Central Government under sub-section (1) shall be deemed to be a`
+  line `public servant within the meaning of section 21 of the Indian Penal Code (45 of 1860).`
+  line
+  line `(3) The Corporation shall be liable to pay compensation for any loss or damage caused to the land`
+  line `caused by its officers or employees in performing the functions under sub-section (1) in such manner as`
+  line `may be prescribed to the occupier of the land.`
+  line
+  line `(4) The amount of compensation payable under sub-section (3) shall be determined by the competent`
+  line `authority appointed by the Central Government in the manner prescribed.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 24699)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules for carrying out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for the amount and the manner of paying compensation for any loss or damage caused to the land
-by the officers and employees of the Corporation under sub-sections (3) and (4) of section 9.
-
-(3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House
-of Parliament, while it is in session, for a total period of thirty days which may be comprised in one
-session or in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid, both Houses agree in making any modification
-in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only
-in such modified form or be of no effect, as the case may be; so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24699&sectionno=10&orderno=10&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24699)
+  sectionNo (10)
+  orderNo 10
+  title `Power to make rules.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24699&sectionno=10&orderno=10&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_10_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules for carrying out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for the amount and the manner of paying compensation for any loss or damage caused to the land`
+  line `by the officers and employees of the Corporation under sub-sections (3) and (4) of section 9.`
+  line
+  line `(3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House`
+  line `of Parliament, while it is in session, for a total period of thirty days which may be comprised in one`
+  line `session or in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid, both Houses agree in making any modification`
+  line `in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only`
+  line `in such modified form or be of no effect, as the case may be; so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that rule.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 24700)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Repeal of Act 48 of 1959.`)
-  (str content) (str `(1) On the appointed day, the Oil and Natural Gas Commission
-Act, 1959 shall stand repealed.
-
-(2) Notwithstanding such repeal, the Corporation shall, so far as may be, comply with the provisions
-of sections 22 and 23 of the said Act so repealed for any of the purposes related to the annual accounts of
-the Commission.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24700&sectionno=11&orderno=11&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24700)
+  sectionNo (11)
+  orderNo 11
+  title `Repeal of Act 48 of 1959.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24700&sectionno=11&orderno=11&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_11_content:
+  string
+  line `(1) On the appointed day, the Oil and Natural Gas Commission`
+  line `Act, 1959 shall stand repealed.`
+  line
+  line `(2) Notwithstanding such repeal, the Corporation shall, so far as may be, comply with the provisions`
+  line `of sections 22 and 23 of the said Act so repealed for any of the purposes related to the annual accounts of`
+  line `the Commission.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 24701)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Repeal and saving.`)
-  (str content) (str `(1) The Oil and Natural Gas Commission (Transfer of Undertaking and
-Repeal) Ordinance, 1993 (Ord. 28 of 1993) is hereby repealed.
-
-(2) Notwithstanding the repeal of the Oil and Natural Gas Commission (Transfer of Undertaking and
-Repeal) Ordinance, 1993 (Ord. 28 of 1993), anything done or any action taken under the said Ordinance,
-shall be deemed to have been done or taken under the corresponding provision of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24701&sectionno=12&orderno=12&orgactid=AC_CEN_32_50_00001_199365_1517807320596)
+  sectionId (24701)
+  sectionNo (12)
+  orderNo 12
+  title `Repeal and saving.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_32_50_00001_199365_1517807320596&sectionId=24701&sectionno=12&orderno=12&orgactid=AC_CEN_32_50_00001_199365_1517807320596
+obj_root_law_sections_12_content:
+  string
+  line `(1) The Oil and Natural Gas Commission (Transfer of Undertaking and`
+  line `Repeal) Ordinance, 1993 (Ord. 28 of 1993) is hereby repealed.`
+  line
+  line `(2) Notwithstanding the repeal of the Oil and Natural Gas Commission (Transfer of Undertaking and`
+  line `Repeal) Ordinance, 1993 (Ord. 28 of 1993), anything done or any action taken under the said Ordinance,`
+  line `shall be deemed to have been done or taken under the corresponding provision of this Act.`
+obj_root_law_sections_12_footnotes:
+  string
+  line

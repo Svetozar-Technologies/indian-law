@@ -1,78 +1,72 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:26:56.251Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2149`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 21)
-  (str totalSections) (int 21)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:26:56.251Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2149`
+  completeFetch true
+  maxSections null
+  sectionCount 21
+  totalSections 21
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-anti-hijacking-act-2016)
-  (str handle) (str 2149)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Anti-Hijacking Act, 2016.`)
-  (str actNumber) (str 30)
-  (str enactmentDate) (str 2016-05-13)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2149`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `यान-हरण निवारण अधिनियम, 2016`)
-  (str actYear) (str 2016)
-  (str ministry) (str `Ministry of Civil Aviation`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act to give effect to the Convention for the Suppression of Unlawful Seizure of Aircraft and for matters connected therewith.`)
-  (str enforcementDate) (undefined)
-  (str notification) (str `yet to be notified`)
-  (str fetchedAt) (str `2026-05-09T17:46:36.049Z`)
-  (str translations) obj_root_law_translations
+  slug the-anti-hijacking-act-2016
+  handle (2149)
+  collectionHandle 123456789/1362
+  title `The Anti-Hijacking Act, 2016.`
+  actNumber (30)
+  enactmentDate 2016-05-13
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2149`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `यान-हरण निवारण अधिनियम, 2016`
+  actYear (2016)
+  ministry `Ministry of Civil Aviation`
+  department undefined
+  longTitle `An Act to give effect to the Convention for the Suppression of Unlawful Seizure of Aircraft and for matters connected therewith.`
+  enforcementDate undefined
+  notification `yet to be notified`
+  fetchedAt `2026-05-09T17:46:36.049Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_anti_hijacking_act_2016
   obj_root_law_sources_en_3
   obj_root_law_sources_en_4
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2149`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2149`
 obj_root_law_sources_en_the_anti_hijacking_act_2016:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2149/1/a2016-30.pdf`)
-  (str title) (str `The Anti-Hijacking Act, 2016.`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2149/1/a2016-30.pdf`
+  title `The Anti-Hijacking Act, 2016.`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00011_201630_1517807328179/rulesindividualfile/&file=Anti+Hijacking+Rules%2C+2017.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00011_201630_1517807328179/rulesindividualfile/&file=Anti+Hijacking+Rules%2C+2017.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00011_201630_1517807328179/notificationindividualfile/&file=anti-hijacking_act_notification.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00011_201630_1517807328179/notificationindividualfile/&file=anti-hijacking_act_notification.pdf`
+  title obj_root_law_sources_en_4_title
+obj_root_law_sources_en_4_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_2016
 obj_root_law_sources_hi_2016:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2149/3/H2016-30.pdf`)
-  (str title) (str `यान-हरण निवारण अधिनियम, 2016`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2149/3/H2016-30.pdf`
+  title `यान-हरण निवारण अधिनियम, 2016`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -95,521 +89,620 @@ obj_root_law_sections:
   obj_root_law_sections_20
   obj_root_law_sections_21
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 28911)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent, application and commencement.`)
-  (str content) (str `(1) This Act may be called the AntiHijacking Act, 2016.
-
-(2) It extends to the whole of India and, save as otherwise provided in this Act, it applies also to
-any offence thereunder committed outside India by any person.
-
-(3) It shall come into force on such date^1
-as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. 5th July, 2017, vide notification No. G.S.R. 827(E), dated 5th July, 2017, see Gazette of India, Part II, s. 3.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28911&sectionno=1&orderno=1&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28911)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent, application and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes `1. 5th July, 2017, vide notification No. G.S.R. 827(E), dated 5th July, 2017, see Gazette of India, Part II, s. 3.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28911&sectionno=1&orderno=1&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the AntiHijacking Act, 2016.`
+  line
+  line `(2) It extends to the whole of India and, save as otherwise provided in this Act, it applies also to`
+  line `any offence thereunder committed outside India by any person.`
+  line
+  line `(3) It shall come into force on such date^1`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 28912)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,––
-
-(a) "Agency" means the National Investigation Agency constituted under section 3 of the
-National Investigation Agency Act, 2008 (34 of 2008);
-
-(b) "aircraft" means any aircraft, whether or not registered in India, other than a military
-aircraft or an aircraft used in customs or police service;
-
-(c) "aircraft registered in India" means an aircraft which is for the time being registered in
-India;
-
-(d) "Convention country" means a country in which the Hague Convention is for the time
-being in force;
-
-(e) "Hague Convention" means the Convention for the Suppression of Unlawful Seizure of
-Aircraft signed at The Hague on the 16th day of December, 1970 and includes the Protocol
-Supplementary to the Convention signed at Beijing on the 10th day of September, 2010;
-
-(f) "hostage" means a passenger or a crew member of an aircraft or any security personnel on
-board the aircraft or a ground support staff involved in the maintenance of the aircraft, who is
-unlawfully seized or detained without his consent, or with his consent obtained by fraud or duress,
-by an individual or by a group of persons, during the transit of an aircraft or when it is stationed at
-an airport, with an intention to secure any demand or fulfilment of any condition made by such
-individual or such group of persons;
-
-(g) "military aircraft" means an aircraft of the naval, military, air force or any other armed
-forces of any country and includes every aircraft commanded for the time being by a person in
-any such force detailed for the purpose;
-
-(h) "notification" means a notification published in the Official Gazette;
-
-(i) "security personnel" means security personnel deployed by the Central Government or
-appointed by any agency authorised by that Government to ensure security of civil aviation
-against acts of unlawful interference.
-
-Explanation.––for the purposes of this clause "acts of unlawful interference" means acts or
-attempted acts to jeopardize the safety of civil aviation and air transport, including––
-
-(i) unlawful seizure of aircraft in flight;
-
-(ii) unlawful seizure of aircraft on the ground;
-
-(iii) hostage-taking on board aircraft or on aerodromes;
-
-(iv) forcible intrusion on board aircraft, at an aerodrome or on the premises on an aeronautical
-facility;
-
-(v) introduction on board an aircraft or at an aerodrome, of a weapon, explosive or other
-hazardous device, article or substances intended for criminal purposes;
-
-(vi) communication of false information with a view to jeopardize the safety of an aircraft in
-flight or on the ground, of passengers, crew, ground personnel or the general public, at an
-aerodrome or on the premises of a civil aviation facility.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28912&sectionno=2&orderno=2&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28912)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28912&sectionno=2&orderno=2&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,––`
+  line
+  line `(a) "Agency" means the National Investigation Agency constituted under section 3 of the`
+  line `National Investigation Agency Act, 2008 (34 of 2008);`
+  line
+  line `(b) "aircraft" means any aircraft, whether or not registered in India, other than a military`
+  line `aircraft or an aircraft used in customs or police service;`
+  line
+  line `(c) "aircraft registered in India" means an aircraft which is for the time being registered in`
+  line India;
+  line
+  line `(d) "Convention country" means a country in which the Hague Convention is for the time`
+  line `being in force;`
+  line
+  line `(e) "Hague Convention" means the Convention for the Suppression of Unlawful Seizure of`
+  line `Aircraft signed at The Hague on the 16th day of December, 1970 and includes the Protocol`
+  line `Supplementary to the Convention signed at Beijing on the 10th day of September, 2010;`
+  line
+  line `(f) "hostage" means a passenger or a crew member of an aircraft or any security personnel on`
+  line `board the aircraft or a ground support staff involved in the maintenance of the aircraft, who is`
+  line `unlawfully seized or detained without his consent, or with his consent obtained by fraud or duress,`
+  line `by an individual or by a group of persons, during the transit of an aircraft or when it is stationed at`
+  line `an airport, with an intention to secure any demand or fulfilment of any condition made by such`
+  line `individual or such group of persons;`
+  line
+  line `(g) "military aircraft" means an aircraft of the naval, military, air force or any other armed`
+  line `forces of any country and includes every aircraft commanded for the time being by a person in`
+  line `any such force detailed for the purpose;`
+  line
+  line `(h) "notification" means a notification published in the Official Gazette;`
+  line
+  line `(i) "security personnel" means security personnel deployed by the Central Government or`
+  line `appointed by any agency authorised by that Government to ensure security of civil aviation`
+  line `against acts of unlawful interference.`
+  line
+  line `Explanation.––for the purposes of this clause "acts of unlawful interference" means acts or`
+  line `attempted acts to jeopardize the safety of civil aviation and air transport, including––`
+  line
+  line `(i) unlawful seizure of aircraft in flight;`
+  line
+  line `(ii) unlawful seizure of aircraft on the ground;`
+  line
+  line `(iii) hostage-taking on board aircraft or on aerodromes;`
+  line
+  line `(iv) forcible intrusion on board aircraft, at an aerodrome or on the premises on an aeronautical`
+  line facility;
+  line
+  line `(v) introduction on board an aircraft or at an aerodrome, of a weapon, explosive or other`
+  line `hazardous device, article or substances intended for criminal purposes;`
+  line
+  line `(vi) communication of false information with a view to jeopardize the safety of an aircraft in`
+  line `flight or on the ground, of passengers, crew, ground personnel or the general public, at an`
+  line `aerodrome or on the premises of a civil aviation facility.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 28913)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str Hijacking.)
-  (str content) (str `(1) Whoever unlawfully and intentionally seizes or exercises control of an
-aircraft in service by force or threat thereof, or by coercion, or by any other form of intimidation, or
-by any technological means, commits the offence of hijacking.
-
-(2) A person shall also be deemed to have committed the offence of hijacking specified in
-sub-section (1), if, such person--
-
-(a) makes a threat to commit such offence or unlawfully and intentionally causes any person
-to receive such threat under circumstances which indicate that the threat is credible; or
-
-(b) attempts to commit or abets the commission of such offence; or
-
-(c) organises or directs others to commit such offence or the offence specified in clause (a) or
-clause (b) above;
-
-(d) participates as an accomplice in such offence or the offence specified in clause (a) or
-clause (b) above;
-
-(e) unlawfully and intentionally assists another person to evade investigation, prosecution or
-punishment, knowing that such person has committed any such offence or the offence specified in
-clause (a) or clause (b) or clause (c) or clause (d) above, or that such person is wanted for criminal
-prosecution by law enforcement authorities for such an offence or has been sentenced for such an
-offence.
-
-(3) A person also commits the offence of hijacking, when committed intentionally, whether or not
-any of the offences specified in sub-section (1) or in clause (a) of sub-section (2) is actually
-committed or attempted, either or both of the following:--
-
-(a) agreeing with one or more other persons to commit an offence specified in sub-section (1)
-or in clause (a) of sub-section (2), involving an act undertaken by one of the participants in
-furtherance of the agreement; or
-
-(b) contributing in any manner to the commission of an offence specified in sub-section (1) or
-in clause (a) of sub-section (2) by a group of persons acting with a common purpose and such
-contribution shall either--
-
-(i) be made with the aim of furthering the general criminal activity or purpose of the
-group, where such activity or purpose involves the commission of such an offence; or
-
-(ii) be made in the knowledge of the intention of the group to commit such offence.
-
-(4) For the purposes of this Act, an aircraft shall be considered to be 'in service" from the
-beginning of the pre-flight preparation of the aircraft by ground personnel or by the crew for a specific
-flight until twenty-four hours after any landing and in the case of a forced landing, the flight shall be
-deemed to continue until the competent authorities take over the responsibility for the aircraft and for
-persons and property on board.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28913&sectionno=3&orderno=3&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28913)
+  sectionNo (3)
+  orderNo 3
+  title Hijacking.
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28913&sectionno=3&orderno=3&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_3_content:
+  string
+  line `(1) Whoever unlawfully and intentionally seizes or exercises control of an`
+  line `aircraft in service by force or threat thereof, or by coercion, or by any other form of intimidation, or`
+  line `by any technological means, commits the offence of hijacking.`
+  line
+  line `(2) A person shall also be deemed to have committed the offence of hijacking specified in`
+  line `sub-section (1), if, such person--`
+  line
+  line `(a) makes a threat to commit such offence or unlawfully and intentionally causes any person`
+  line `to receive such threat under circumstances which indicate that the threat is credible; or`
+  line
+  line `(b) attempts to commit or abets the commission of such offence; or`
+  line
+  line `(c) organises or directs others to commit such offence or the offence specified in clause (a) or`
+  line `clause (b) above;`
+  line
+  line `(d) participates as an accomplice in such offence or the offence specified in clause (a) or`
+  line `clause (b) above;`
+  line
+  line `(e) unlawfully and intentionally assists another person to evade investigation, prosecution or`
+  line `punishment, knowing that such person has committed any such offence or the offence specified in`
+  line `clause (a) or clause (b) or clause (c) or clause (d) above, or that such person is wanted for criminal`
+  line `prosecution by law enforcement authorities for such an offence or has been sentenced for such an`
+  line offence.
+  line
+  line `(3) A person also commits the offence of hijacking, when committed intentionally, whether or not`
+  line `any of the offences specified in sub-section (1) or in clause (a) of sub-section (2) is actually`
+  line `committed or attempted, either or both of the following:--`
+  line
+  line `(a) agreeing with one or more other persons to commit an offence specified in sub-section (1)`
+  line `or in clause (a) of sub-section (2), involving an act undertaken by one of the participants in`
+  line `furtherance of the agreement; or`
+  line
+  line `(b) contributing in any manner to the commission of an offence specified in sub-section (1) or`
+  line `in clause (a) of sub-section (2) by a group of persons acting with a common purpose and such`
+  line `contribution shall either--`
+  line
+  line `(i) be made with the aim of furthering the general criminal activity or purpose of the`
+  line `group, where such activity or purpose involves the commission of such an offence; or`
+  line
+  line `(ii) be made in the knowledge of the intention of the group to commit such offence.`
+  line
+  line `(4) For the purposes of this Act, an aircraft shall be considered to be 'in service" from the`
+  line `beginning of the pre-flight preparation of the aircraft by ground personnel or by the crew for a specific`
+  line `flight until twenty-four hours after any landing and in the case of a forced landing, the flight shall be`
+  line `deemed to continue until the competent authorities take over the responsibility for the aircraft and for`
+  line `persons and property on board.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 28914)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Punishment for hijacking.`)
-  (str content) (str `Whoever commits the offence of hijacking shall be punished--
-
-(a) with death where such offence results in the death of a hostage or of a security personnel
-or of any person not involved in the offence, as a direct consequence of the office of hijacking; or
-
-(b) with imprisonment for life which shall mean imprisonment for the remainder of that
-person's natural life and with fine,
-
-and the movable and immovable property of such person shall
-also be liable to be confiscated.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28914&sectionno=4&orderno=4&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28914)
+  sectionNo (4)
+  orderNo 4
+  title `Punishment for hijacking.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28914&sectionno=4&orderno=4&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_4_content:
+  string
+  line `Whoever commits the offence of hijacking shall be punished--`
+  line
+  line `(a) with death where such offence results in the death of a hostage or of a security personnel`
+  line `or of any person not involved in the offence, as a direct consequence of the office of hijacking; or`
+  line
+  line `(b) with imprisonment for life which shall mean imprisonment for the remainder of that`
+  line `person's natural life and with fine,`
+  line
+  line `and the movable and immovable property of such person shall`
+  line `also be liable to be confiscated.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 28915)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Punishment for acts of violence connected with hijacking.`)
-  (str content) (str `Whoever, being a person
-committing the offence of hijacking of an aircraft, commits, in connection with such offence, any act
-of violence against any passenger or member of the crew of such aircraft, shall be punished with the
-same punishment with which he would have been punishable under any law for the time being in
-force in India if such act had been committed in India.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28915&sectionno=5&orderno=5&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28915)
+  sectionNo (5)
+  orderNo 5
+  title `Punishment for acts of violence connected with hijacking.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28915&sectionno=5&orderno=5&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_5_content:
+  string
+  line `Whoever, being a person`
+  line `committing the offence of hijacking of an aircraft, commits, in connection with such offence, any act`
+  line `of violence against any passenger or member of the crew of such aircraft, shall be punished with the`
+  line `same punishment with which he would have been punishable under any law for the time being in`
+  line `force in India if such act had been committed in India.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 28916)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Conferment of powers of investigations, etc.`)
-  (str content) (str `(1) For the purposes of this Act, the Central
-Government may, notwithstanding anything contained in the Code of Criminal Procedure,
-1973 (2 of 1974), by notification, confer on any officer of the Central Government or any officer of
-the Agency, powers of arrest, investigation and prosecution exercisable by a police officer under the
-said Code.
-
-(2) All officers of police and all officers of Government are hereby required and empowered to
-assist the officer of the Central Government referred to in sub-section (1) in the execution of the
-provisions of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28916&sectionno=6&orderno=6&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28916)
+  sectionNo (6)
+  orderNo 6
+  title `Conferment of powers of investigations, etc.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28916&sectionno=6&orderno=6&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_6_content:
+  string
+  line `(1) For the purposes of this Act, the Central`
+  line `Government may, notwithstanding anything contained in the Code of Criminal Procedure,`
+  line `1973 (2 of 1974), by notification, confer on any officer of the Central Government or any officer of`
+  line `the Agency, powers of arrest, investigation and prosecution exercisable by a police officer under the`
+  line `said Code.`
+  line
+  line `(2) All officers of police and all officers of Government are hereby required and empowered to`
+  line `assist the officer of the Central Government referred to in sub-section (1) in the execution of the`
+  line `provisions of this Act.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 28917)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str Jurisdiction.)
-  (str content) (str `(1) Subject to the provisions of sub-section (2), where an offence under section
-3 or section 5 is committed outside India, the person committing such offence may be dealt with in
-respect thereof as if such offence had been committed at any place within India at which he may be
-found.
-
-(2) No Court shall take cognizance of an offence punishable under section 3 or section 5 which is
-committed outside India unless,––
-
-(a) such offence is committed within the territory of India;
-
-(b) such offence is committed against or on board an aircraft registered in India;
-
-(c) such offence is committed on board and the aircraft in which the offence is committed
-lands in India with the alleged offender still on board;
-
-(d) such offence is committed against or on board an aircraft which is for the time being
-leased without crew to a lessee who has his principal place of business or where he has no such
-place of business, his permanent residence is in India;
-
-(e) such offence is committed by or against a citizen of India;
-
-(f) such offence is committed by a stateless person whose habitual residence is in the territory
-of India;
-
-(g) such offence is committed by the alleged offender who is present in India but not
-extradited under section 11.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28917&sectionno=7&orderno=7&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28917)
+  sectionNo (7)
+  orderNo 7
+  title Jurisdiction.
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28917&sectionno=7&orderno=7&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_7_content:
+  string
+  line `(1) Subject to the provisions of sub-section (2), where an offence under section`
+  line `3 or section 5 is committed outside India, the person committing such offence may be dealt with in`
+  line `respect thereof as if such offence had been committed at any place within India at which he may be`
+  line found.
+  line
+  line `(2) No Court shall take cognizance of an offence punishable under section 3 or section 5 which is`
+  line `committed outside India unless,––`
+  line
+  line `(a) such offence is committed within the territory of India;`
+  line
+  line `(b) such offence is committed against or on board an aircraft registered in India;`
+  line
+  line `(c) such offence is committed on board and the aircraft in which the offence is committed`
+  line `lands in India with the alleged offender still on board;`
+  line
+  line `(d) such offence is committed against or on board an aircraft which is for the time being`
+  line `leased without crew to a lessee who has his principal place of business or where he has no such`
+  line `place of business, his permanent residence is in India;`
+  line
+  line `(e) such offence is committed by or against a citizen of India;`
+  line
+  line `(f) such offence is committed by a stateless person whose habitual residence is in the territory`
+  line `of India;`
+  line
+  line `(g) such offence is committed by the alleged offender who is present in India but not`
+  line `extradited under section 11.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 28918)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Designated Court.`)
-  (str content) (str `(1) For the purpose of providing for speedy trial, the State Government
-shall, with the concurrence of the Chief Justice of the High Court, by notification, specify a Court of
-Sessions to be a Designated Court for such area or areas as may be specified in the notification.
-
-(2) Notwithstanding the provisions of sub-section (1), the Special Court Constituted under
-section 11 or, as the case may be, under section 22 of the National Investigation Agency
-Act, 2008 (34 of 2008) shall be the Designated Court for the purposes of this Act in case where the
-power of arrest, investigation and prosecution is exercised by the Agency under sub-section (1) of
-section 6.
-
-(3) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), a
-Designated Court shall, as far as practicable, hold the trial on a day-to-day basis.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28918&sectionno=8&orderno=8&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28918)
+  sectionNo (8)
+  orderNo 8
+  title `Designated Court.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28918&sectionno=8&orderno=8&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_8_content:
+  string
+  line `(1) For the purpose of providing for speedy trial, the State Government`
+  line `shall, with the concurrence of the Chief Justice of the High Court, by notification, specify a Court of`
+  line `Sessions to be a Designated Court for such area or areas as may be specified in the notification.`
+  line
+  line `(2) Notwithstanding the provisions of sub-section (1), the Special Court Constituted under`
+  line `section 11 or, as the case may be, under section 22 of the National Investigation Agency`
+  line `Act, 2008 (34 of 2008) shall be the Designated Court for the purposes of this Act in case where the`
+  line `power of arrest, investigation and prosecution is exercised by the Agency under sub-section (1) of`
+  line `section 6.`
+  line
+  line `(3) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), a`
+  line `Designated Court shall, as far as practicable, hold the trial on a day-to-day basis.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 28919)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Offences triable by Designated Court.`)
-  (str content) (str `(1) Notwithstanding anything contained in the Code
-of Criminal Procedure, 1973 (2 of 1974),--
-
-(a) all offences under this Act shall be triable by the Designated Court referred to in section 8.
-
-(b) where a person who is accused or suspected of the commission of an offence under this
-Act is forwarded to the Magistrate under sub-section (2) or sub-section (2A) of section 167 of the
-Code of Criminal Procedure, 1973 (2 of 1974), such Magistrate may authorise detention of such
-person in such custody, as he thinks fit, for a period not exceeding thirty days in the whole, where
-such Magistrate is a Judicial Magistrate, and seven days in the whole, where such Magistrate is an
-Executive Magistrate:
-
-Provided that the Magistrate may, if he considers that the detention of such person is not
-required, ---
-
-(i) when such person is forwarded to him as aforesaid; or
-
-(ii) upon or at any time before the expiry of the period of detention authorised by him,
-
-he shall order such person to be forwarded to the Designated Court having jurisdiction;
-
-(c) the Designated Court may exercise, in relation to the person forwarded to it under clause (b),
-the same power which a Magistrate having jurisdiction to try a case may exercise under section 167 of
-the Code of Criminal Procedure, 1973 (2 of 1974), in relation to an accused person in such case who
-has been forwarded to him under that section;
-
-(d) the Designated Court may, upon perusal of the report filled by the Agency or a complaint
-made by an officer of the Central Government, or the State Government, as the case may be,
-authorised in this behalf, take cognizance of the offence without the accused being committed to it for
-trial.
-
-(2) When trying an offence under this Act, a Designated Court may also try an offence other than
-an offence under this Act, which the accused may, under the Code of Criminal Procedure,
-1973 (2 of 1974), be charged at the same trial.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28919&sectionno=9&orderno=9&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28919)
+  sectionNo (9)
+  orderNo 9
+  title `Offences triable by Designated Court.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28919&sectionno=9&orderno=9&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_9_content:
+  string
+  line `(1) Notwithstanding anything contained in the Code`
+  line `of Criminal Procedure, 1973 (2 of 1974),--`
+  line
+  line `(a) all offences under this Act shall be triable by the Designated Court referred to in section 8.`
+  line
+  line `(b) where a person who is accused or suspected of the commission of an offence under this`
+  line `Act is forwarded to the Magistrate under sub-section (2) or sub-section (2A) of section 167 of the`
+  line `Code of Criminal Procedure, 1973 (2 of 1974), such Magistrate may authorise detention of such`
+  line `person in such custody, as he thinks fit, for a period not exceeding thirty days in the whole, where`
+  line `such Magistrate is a Judicial Magistrate, and seven days in the whole, where such Magistrate is an`
+  line `Executive Magistrate:`
+  line
+  line `Provided that the Magistrate may, if he considers that the detention of such person is not`
+  line `required, ---`
+  line
+  line `(i) when such person is forwarded to him as aforesaid; or`
+  line
+  line `(ii) upon or at any time before the expiry of the period of detention authorised by him,`
+  line
+  line `he shall order such person to be forwarded to the Designated Court having jurisdiction;`
+  line
+  line `(c) the Designated Court may exercise, in relation to the person forwarded to it under clause (b),`
+  line `the same power which a Magistrate having jurisdiction to try a case may exercise under section 167 of`
+  line `the Code of Criminal Procedure, 1973 (2 of 1974), in relation to an accused person in such case who`
+  line `has been forwarded to him under that section;`
+  line
+  line `(d) the Designated Court may, upon perusal of the report filled by the Agency or a complaint`
+  line `made by an officer of the Central Government, or the State Government, as the case may be,`
+  line `authorised in this behalf, take cognizance of the offence without the accused being committed to it for`
+  line trial.
+  line
+  line `(2) When trying an offence under this Act, a Designated Court may also try an offence other than`
+  line `an offence under this Act, which the accused may, under the Code of Criminal Procedure,`
+  line `1973 (2 of 1974), be charged at the same trial.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 28920)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Application of Code to proceedings before Designated Court.`)
-  (str content) (str `Save as otherwise
-provided in this Act, the provisions of the Code of Criminal Procedure, 1973 (2 of 1974) shall apply
-to the proceedings before a Designated Court and the person conducting a prosecution before a
-Designated Court shall be deemed to be a Public Prosecutor.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28920&sectionno=10&orderno=10&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28920)
+  sectionNo (10)
+  orderNo 10
+  title `Application of Code to proceedings before Designated Court.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28920&sectionno=10&orderno=10&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_10_content:
+  string
+  line `Save as otherwise`
+  line `provided in this Act, the provisions of the Code of Criminal Procedure, 1973 (2 of 1974) shall apply`
+  line `to the proceedings before a Designated Court and the person conducting a prosecution before a`
+  line `Designated Court shall be deemed to be a Public Prosecutor.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 28921)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Provisions as to extradition.`)
-  (str content) (str `(1) The offences under section 3 and section 5 shall be
-deemed to have been included as extraditable offences and provided for in all the extradition treaties
-made by India with Convention countries and which extend to, and are binding on, India on the date
-of commencement of this Act.
-
-(2) For the purposes of the application of the Extradition Act, 1962 (34 of 1962) to offences under
-this Act, any aircraft registered in a Convention country shall, at any time while that aircraft is in
-service, be deemed to be within the jurisdiction of that country, whether or not it is for the time being
-also within the jurisdiction of any other country.
-
-(3) None of the offences mentioned in section 3 shall be regarded, for the purposes of extradition
-or mutual legal assistance, as a political offence or as an offence connected with a political offence or
-as an offence inspired by political motives and a request for extradition or for mutual legal assistance
-based on such an offence shall not be refused on the sole ground that it concerns a political offence or
-an offence connected with a political offence or an offence inspired by political motives.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28921&sectionno=11&orderno=11&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28921)
+  sectionNo (11)
+  orderNo 11
+  title `Provisions as to extradition.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28921&sectionno=11&orderno=11&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_11_content:
+  string
+  line `(1) The offences under section 3 and section 5 shall be`
+  line `deemed to have been included as extraditable offences and provided for in all the extradition treaties`
+  line `made by India with Convention countries and which extend to, and are binding on, India on the date`
+  line `of commencement of this Act.`
+  line
+  line `(2) For the purposes of the application of the Extradition Act, 1962 (34 of 1962) to offences under`
+  line `this Act, any aircraft registered in a Convention country shall, at any time while that aircraft is in`
+  line `service, be deemed to be within the jurisdiction of that country, whether or not it is for the time being`
+  line `also within the jurisdiction of any other country.`
+  line
+  line `(3) None of the offences mentioned in section 3 shall be regarded, for the purposes of extradition`
+  line `or mutual legal assistance, as a political offence or as an offence connected with a political offence or`
+  line `as an offence inspired by political motives and a request for extradition or for mutual legal assistance`
+  line `based on such an offence shall not be refused on the sole ground that it concerns a political offence or`
+  line `an offence connected with a political offence or an offence inspired by political motives.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 28922)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Provision as to bail.`)
-  (str content) (str `(1) Notwithstanding anything contained in the Code of Criminal
-Procedure, 1973 (2 of 1974), no person accused of an offence punishable under this Act shall, if in
-custody, be released on bail or on his own bond, unless,––
-
-(a) the Public Prosecutor has been given an opportunity to oppose the application for such
-release; and
-
-(b) where Public Prosecutor opposes the application, the Designated Court is satisfied that
-there are reasonable grounds for believing that he is not guilty of such offence and that he is not
-likely to commit any offence while on bail.
-
-(2) The limitations on granting of bail as specified in sub-section (1) are in addition to the
-limitation under the Code of Criminal Procedure, 1973 (2 of 1974), or any other law for the time
-being in force, on granting bail.
-
-(3) Nothing contained in this section shall be deemed to affect the special powers of the High
-Court regarding bail under section 439 of the Code of Criminal Procedure, 1973 (2 of 1974).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28922&sectionno=12&orderno=12&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28922)
+  sectionNo (12)
+  orderNo 12
+  title `Provision as to bail.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28922&sectionno=12&orderno=12&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_12_content:
+  string
+  line `(1) Notwithstanding anything contained in the Code of Criminal`
+  line `Procedure, 1973 (2 of 1974), no person accused of an offence punishable under this Act shall, if in`
+  line `custody, be released on bail or on his own bond, unless,––`
+  line
+  line `(a) the Public Prosecutor has been given an opportunity to oppose the application for such`
+  line `release; and`
+  line
+  line `(b) where Public Prosecutor opposes the application, the Designated Court is satisfied that`
+  line `there are reasonable grounds for believing that he is not guilty of such offence and that he is not`
+  line `likely to commit any offence while on bail.`
+  line
+  line `(2) The limitations on granting of bail as specified in sub-section (1) are in addition to the`
+  line `limitation under the Code of Criminal Procedure, 1973 (2 of 1974), or any other law for the time`
+  line `being in force, on granting bail.`
+  line
+  line `(3) Nothing contained in this section shall be deemed to affect the special powers of the High`
+  line `Court regarding bail under section 439 of the Code of Criminal Procedure, 1973 (2 of 1974).`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 28923)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Contracting parties to Convention.`)
-  (str content) (str `The Central Government may, by notification, certify
-as to who are the contracting parties to the Hague Convention and to what extent they have availed
-themselves of the provisions of the Convention, and any such notification shall be conclusive
-evidence of the matters certified therein.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28923&sectionno=13&orderno=13&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28923)
+  sectionNo (13)
+  orderNo 13
+  title `Contracting parties to Convention.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28923&sectionno=13&orderno=13&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_13_content:
+  string
+  line `The Central Government may, by notification, certify`
+  line `as to who are the contracting parties to the Hague Convention and to what extent they have availed`
+  line `themselves of the provisions of the Convention, and any such notification shall be conclusive`
+  line `evidence of the matters certified therein.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 28924)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Power to treat certain aircraft to be registered in Convention countries.`)
-  (str content) (str `(1) If the
-Central Government is satisfied that the requirements of sub-section (2) have been satisfied in relation
-to any aircraft, it may, by notification, direct that such aircraft shall, for the purposes of this Act, be
-treated as registered in such Convention country as may be specified in the notification.
-
-(2) Where the Convention countries establish joint air transport operating organisations or
-international operating agencies, which operate aircraft which are subject to joint or international
-registration, shall, by appropriate means, designate for each aircraft, the country among them which
-shall exercise the jurisdiction and have the attributes of the country of registry for the purposes of the
-Convention and shall give notice thereof to the Secretary General of the International Civil Aviation
-Organisation who shall communicate the notice to all Convention countries.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28924&sectionno=14&orderno=14&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28924)
+  sectionNo (14)
+  orderNo 14
+  title `Power to treat certain aircraft to be registered in Convention countries.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28924&sectionno=14&orderno=14&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_14_content:
+  string
+  line `(1) If the`
+  line `Central Government is satisfied that the requirements of sub-section (2) have been satisfied in relation`
+  line `to any aircraft, it may, by notification, direct that such aircraft shall, for the purposes of this Act, be`
+  line `treated as registered in such Convention country as may be specified in the notification.`
+  line
+  line `(2) Where the Convention countries establish joint air transport operating organisations or`
+  line `international operating agencies, which operate aircraft which are subject to joint or international`
+  line `registration, shall, by appropriate means, designate for each aircraft, the country among them which`
+  line `shall exercise the jurisdiction and have the attributes of the country of registry for the purposes of the`
+  line `Convention and shall give notice thereof to the Secretary General of the International Civil Aviation`
+  line `Organisation who shall communicate the notice to all Convention countries.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 28925)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Previous sanction necessary for prosecution.`)
-  (str content) (str `No prosecution for an offence under this Act
-shall be instituted except with the previous sanction of the Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28925&sectionno=15&orderno=15&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28925)
+  sectionNo (15)
+  orderNo 15
+  title `Previous sanction necessary for prosecution.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28925&sectionno=15&orderno=15&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_15_content:
+  string
+  line `No prosecution for an offence under this Act`
+  line `shall be instituted except with the previous sanction of the Central Government.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 28926)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Presumption as to offences under sections 3 and 5.`)
-  (str content) (str `In a prosecution for an offence under
-section 3 or section 5, if it is proved that---
-
-(a) the arms, ammunitions or explosives were recovered from the possession of the accused
-and there is reason to believe that such arms, ammunitions or explosives of similar nature were
-used in the commission of such offence; or
-
-(b) there is evidence of use of force, threat of force or any other form of intimidation caused
-to the crew or passengers in connection with the commission of such offence,
-
-the Designated Court shall presume, unless the contrary is proved, that the accused has committed such offence.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28926&sectionno=16&orderno=16&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28926)
+  sectionNo (16)
+  orderNo 16
+  title `Presumption as to offences under sections 3 and 5.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28926&sectionno=16&orderno=16&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_16_content:
+  string
+  line `In a prosecution for an offence under`
+  line `section 3 or section 5, if it is proved that---`
+  line
+  line `(a) the arms, ammunitions or explosives were recovered from the possession of the accused`
+  line `and there is reason to believe that such arms, ammunitions or explosives of similar nature were`
+  line `used in the commission of such offence; or`
+  line
+  line `(b) there is evidence of use of force, threat of force or any other form of intimidation caused`
+  line `to the crew or passengers in connection with the commission of such offence,`
+  line
+  line `the Designated Court shall presume, unless the contrary is proved, that the accused has committed such offence.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 28927)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `(1) No suit, prosecution or other legal proceeding
-shall lie against any person for anything which is in good faith done or intended to be done in
-pursuance of the provisions of this Act.
-
-(2) No suit or other legal proceeding shall lie against the Central Government for any damage
-caused or likely to be caused for anything which is in good faith done or intended to be done in
-pursuance of the provisions of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28927&sectionno=17&orderno=17&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28927)
+  sectionNo (17)
+  orderNo 17
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28927&sectionno=17&orderno=17&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_17_content:
+  string
+  line `(1) No suit, prosecution or other legal proceeding`
+  line `shall lie against any person for anything which is in good faith done or intended to be done in`
+  line `pursuance of the provisions of this Act.`
+  line
+  line `(2) No suit or other legal proceeding shall lie against the Central Government for any damage`
+  line `caused or likely to be caused for anything which is in good faith done or intended to be done in`
+  line `pursuance of the provisions of this Act.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 28928)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Powers of investigating officers to seize or attach property.`)
-  (str content) (str `(1) Where any officer,
-referred to in section 6, while conducting an inquiry or investigation has a reason to believe that any
-property, movable or immovable, or both, is relatable to the commission of the offence in relation to
-which such inquiry or investigation is being conducted, is likely to be concealed, transferred or dealt
-with in any manner which will result in disposal of such property, he may make an order for seizing
-such property and where it is not practicable to seize such property, he may make an order of
-attachment directing that such property shall not be transferred or otherwise dealt with, except with
-the prior permission of the officer making such order, and a copy of such order shall be served on the
-person concerned.
-
-(2) Any order made under sub-section (1) shall have no effect unless the said order is confirmed
-by an order of the Designated Court, within a period of forty-eight hours of its being made.
-
-(3) The Designated Court may either confirm or revoke the order of seizure or attachment referred
-to in sub-section (2).
-
-(4) Notwithstanding the confirmation of the order by the Designated Court under sub-section (3),
-any person aggrieved by the order of attachment made under sub-section (1), may make an
-application to the Designated Court for revocation of said order within a period of thirty days from the
-date of confirmation of the order under sub-section (3).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28928&sectionno=18&orderno=18&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28928)
+  sectionNo (18)
+  orderNo 18
+  title `Powers of investigating officers to seize or attach property.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28928&sectionno=18&orderno=18&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_18_content:
+  string
+  line `(1) Where any officer,`
+  line `referred to in section 6, while conducting an inquiry or investigation has a reason to believe that any`
+  line `property, movable or immovable, or both, is relatable to the commission of the offence in relation to`
+  line `which such inquiry or investigation is being conducted, is likely to be concealed, transferred or dealt`
+  line `with in any manner which will result in disposal of such property, he may make an order for seizing`
+  line `such property and where it is not practicable to seize such property, he may make an order of`
+  line `attachment directing that such property shall not be transferred or otherwise dealt with, except with`
+  line `the prior permission of the officer making such order, and a copy of such order shall be served on the`
+  line `person concerned.`
+  line
+  line `(2) Any order made under sub-section (1) shall have no effect unless the said order is confirmed`
+  line `by an order of the Designated Court, within a period of forty-eight hours of its being made.`
+  line
+  line `(3) The Designated Court may either confirm or revoke the order of seizure or attachment referred`
+  line `to in sub-section (2).`
+  line
+  line `(4) Notwithstanding the confirmation of the order by the Designated Court under sub-section (3),`
+  line `any person aggrieved by the order of attachment made under sub-section (1), may make an`
+  line `application to the Designated Court for revocation of said order within a period of thirty days from the`
+  line `date of confirmation of the order under sub-section (3).`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 28929)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Confiscation and forfeiture of property.`)
-  (str content) (str `Where any order is made by the Designated
-Court under section 4 for confiscation of movable or immovable property or both, of the accused,
-then, such property shall stand forfeited to the Government free from all encumbrances:
-
-Provided that the Designated Court may, during the period of such trial, order that all or any of
-the properties, movable or immovable, or both, belonging to the accused be attached, and in case such
-trial ends in conviction, then, the property so attached shall stand forfeited to Government free from
-all encumbrances.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28929&sectionno=19&orderno=19&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28929)
+  sectionNo (19)
+  orderNo 19
+  title `Confiscation and forfeiture of property.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28929&sectionno=19&orderno=19&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_19_content:
+  string
+  line `Where any order is made by the Designated`
+  line `Court under section 4 for confiscation of movable or immovable property or both, of the accused,`
+  line `then, such property shall stand forfeited to the Government free from all encumbrances:`
+  line
+  line `Provided that the Designated Court may, during the period of such trial, order that all or any of`
+  line `the properties, movable or immovable, or both, belonging to the accused be attached, and in case such`
+  line `trial ends in conviction, then, the property so attached shall stand forfeited to Government free from`
+  line `all encumbrances.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 28930)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `General power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification, make
-rules for carrying out the provisions of this Act.
-
-(2) Every rule made under this Act by the Central Government shall be laid, as soon as may be
-after it is made, before each House of Parliament, while it is in session, for a total period of thirty days
-which may be comprised in one session or in two or more successive sessions, and if, before the
-expiry of the session immediately following the session or the successive sessions aforesaid, both
-Houses agree in making any modification in the rule or both Houses agree that the rule should not be
-made, the rule shall thereafter have effect only in such modified form or be of no effect, as the case
-may be; so, however, that any such modification or annulment shall be without prejudice to the
-validity of anything previously done under that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28930&sectionno=20&orderno=20&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28930)
+  sectionNo (20)
+  orderNo 20
+  title `General power to make rules.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28930&sectionno=20&orderno=20&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_20_content:
+  string
+  line `(1) The Central Government may, by notification, make`
+  line `rules for carrying out the provisions of this Act.`
+  line
+  line `(2) Every rule made under this Act by the Central Government shall be laid, as soon as may be`
+  line `after it is made, before each House of Parliament, while it is in session, for a total period of thirty days`
+  line `which may be comprised in one session or in two or more successive sessions, and if, before the`
+  line `expiry of the session immediately following the session or the successive sessions aforesaid, both`
+  line `Houses agree in making any modification in the rule or both Houses agree that the rule should not be`
+  line `made, the rule shall thereafter have effect only in such modified form or be of no effect, as the case`
+  line `may be; so, however, that any such modification or annulment shall be without prejudice to the`
+  line `validity of anything previously done under that rule.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 28931)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Repeal and savings.`)
-  (str content) (str `(1) The Anti-Hijacking Act, 1982 (65 of 1982) is hereby repealed.
-
-(2) The repeal of the said Act shall not affect––
-
-(a) the previous operation of, or anything duly done or suffered under, or any action taken or
-purported to have been done or taken including any notification, order or notice made or issued,
-or any appointment, confirmation or declaration made or any authorisation granted or any
-document or instrument executed or any direction given, under the Act so repealed, shall, in so far
-as it is not inconsistent with the provisions of this Act, be deemed to have been done or taken
-under the corresponding provisions of this Act; or
-
-(b) any right, privilege or obligation or liability acquired, accrued or incurred under the said
-Act; or
-
-(c) any penalty, forfeiture or punishment incurred in respect of any offence under the said
-Act; or
-
-(d) any investigation, legal proceeding or remedy in respect of any such right, privilege,
-obligation, liability, penalty, forfeiture or punishment as aforesaid,
-
-and, any such investigation, legal proceeding or remedy may be instituted, continued or enforced and
-any such penalty, forfeiture or punishment may be imposed as if the said Act had not been repealed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28931&sectionno=21&orderno=21&orgactid=AC_CEN_36_56_00011_201630_1517807328179)
+  sectionId (28931)
+  sectionNo (21)
+  orderNo 21
+  title `Repeal and savings.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_36_56_00011_201630_1517807328179&sectionId=28931&sectionno=21&orderno=21&orgactid=AC_CEN_36_56_00011_201630_1517807328179
+obj_root_law_sections_21_content:
+  string
+  line `(1) The Anti-Hijacking Act, 1982 (65 of 1982) is hereby repealed.`
+  line
+  line `(2) The repeal of the said Act shall not affect––`
+  line
+  line `(a) the previous operation of, or anything duly done or suffered under, or any action taken or`
+  line `purported to have been done or taken including any notification, order or notice made or issued,`
+  line `or any appointment, confirmation or declaration made or any authorisation granted or any`
+  line `document or instrument executed or any direction given, under the Act so repealed, shall, in so far`
+  line `as it is not inconsistent with the provisions of this Act, be deemed to have been done or taken`
+  line `under the corresponding provisions of this Act; or`
+  line
+  line `(b) any right, privilege or obligation or liability acquired, accrued or incurred under the said`
+  line `Act; or`
+  line
+  line `(c) any penalty, forfeiture or punishment incurred in respect of any offence under the said`
+  line `Act; or`
+  line
+  line `(d) any investigation, legal proceeding or remedy in respect of any such right, privilege,`
+  line `obligation, liability, penalty, forfeiture or punishment as aforesaid,`
+  line
+  line `and, any such investigation, legal proceeding or remedy may be instituted, continued or enforced and`
+  line `any such penalty, forfeiture or punishment may be imposed as if the said Act had not been repealed.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `यान-हरण निवारण अधिनियम, 2016`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2149/3/H2016-30.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:26:55.150Z`)
-  (str pageCount) (int 7)
-  (str sections) obj_root_law_translations_hi_sections
+  title `यान-हरण निवारण अधिनियम, 2016`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2149/3/H2016-30.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:26:55.150Z`
+  pageCount 7
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -618,351 +711,386 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_6
   obj_root_law_translations_hi_sections_7
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `यान - हरण िनवारण अिधिनयम, 2016
-(2016 का अिधिनयम सं ᭎ यां क 30)
-धारा Ა का ᮓ म
-_________
-धाराएं
-अ ᭟ याय 1
-ᮧ ारंिभक
-1. संि ᭃ᭡ त नाम, िव ᭭ तार और ᮧ ारंभ।
-2. प ᳯ रभाषाएं।
-अ ᭟ याय 2
-यान - हरण और संब ᳍ अपराध
-3. यान हरण।
-4. यान - हरण के िलए दंड।
-5. यान - हरण से संब ᳍ ᳲ हसा के काय ᲄ के िलए दंड।
-6. अ ᭠ वे षण आ ᳰ द क ᳱ शि ᭍ तय ᲂ का ᮧ दान ᳰ कया जाना।
-7. अिधका ᳯ रता।
-8. अिभिहत ᭠ यायालय।
-9. अिभिहत ᭠ यायालय ᳇ ारा िवचारणीय अपराध।
-10. अिभिहत ᭠ यायालय के सम ᭃ काय ᭅ वािहय ᲂ म ᱶ संिहता का लागू होना।
-अ ᭟ याय 3
-ᮧ क ᳱ ण ᭅ
-11. ᮧ᭜ यप ᭅ ण के बारे म ᱶ उपबंध।
-12. जमानत के बारे म ᱶ उपबंध।
-13. क ᭠ व ᱶ शन के संिवदाकारी प ᭃ कार।
-14. कितपय वायुयान ᲂ को क ᭠ व ᱶ शन देश ᲂ म ᱶ रिज ᭭ ᮝ ीकृत समझने क ᳱ शि ᭍ त।
-15. अिभयोजन के िलए पूव ᭅ मंजूरी का आव ᭫ यक होना।
-16. धारा 3 और धारा 5 के अधीन अपराध ᲂ के बारे म ᱶ उपधारणा।
-17. स ᳊ ावपूव ᭅ क क ᳱ गई कार ᭅ वाई के िलए संर ᭃ ण।
-18. अ ᭠ वेषण अिधकारी क ᳱ संपि ᱫ अिभ ᮕ हण या कुक ᭅ करने क ᳱ शि ᭍ त।
-19. संपि ᱫ का अिधहरण और समपहरण।
-20. िनयम बनाने क ᳱ साधारण शि ᭍ त।
-21. िनरसन और ᭪ यावृि ᱫ।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `यान - हरण िनवारण अिधिनयम, 2016`
+  line `(2016 का अिधिनयम सं ᭎ यां क 30)`
+  line `धारा Ა का ᮓ म`
+  line _________
+  line धाराएं
+  line `अ ᭟ याय 1`
+  line `ᮧ ारंिभक`
+  line `1. संि ᭃ᭡ त नाम, िव ᭭ तार और ᮧ ारंभ।`
+  line `2. प ᳯ रभाषाएं।`
+  line `अ ᭟ याय 2`
+  line `यान - हरण और संब ᳍ अपराध`
+  line `3. यान हरण।`
+  line `4. यान - हरण के िलए दंड।`
+  line `5. यान - हरण से संब ᳍ ᳲ हसा के काय ᲄ के िलए दंड।`
+  line `6. अ ᭠ वे षण आ ᳰ द क ᳱ शि ᭍ तय ᲂ का ᮧ दान ᳰ कया जाना।`
+  line `7. अिधका ᳯ रता।`
+  line `8. अिभिहत ᭠ यायालय।`
+  line `9. अिभिहत ᭠ यायालय ᳇ ारा िवचारणीय अपराध।`
+  line `10. अिभिहत ᭠ यायालय के सम ᭃ काय ᭅ वािहय ᲂ म ᱶ संिहता का लागू होना।`
+  line `अ ᭟ याय 3`
+  line `ᮧ क ᳱ ण ᭅ`
+  line `11. ᮧ᭜ यप ᭅ ण के बारे म ᱶ उपबंध।`
+  line `12. जमानत के बारे म ᱶ उपबंध।`
+  line `13. क ᭠ व ᱶ शन के संिवदाकारी प ᭃ कार।`
+  line `14. कितपय वायुयान ᲂ को क ᭠ व ᱶ शन देश ᲂ म ᱶ रिज ᭭ ᮝ ीकृत समझने क ᳱ शि ᭍ त।`
+  line `15. अिभयोजन के िलए पूव ᭅ मंजूरी का आव ᭫ यक होना।`
+  line `16. धारा 3 और धारा 5 के अधीन अपराध ᲂ के बारे म ᱶ उपधारणा।`
+  line `17. स ᳊ ावपूव ᭅ क क ᳱ गई कार ᭅ वाई के िलए संर ᭃ ण।`
+  line `18. अ ᭠ वेषण अिधकारी क ᳱ संपि ᱫ अिभ ᮕ हण या कुक ᭅ करने क ᳱ शि ᭍ त।`
+  line `19. संपि ᱫ का अिधहरण और समपहरण।`
+  line `20. िनयम बनाने क ᳱ साधारण शि ᭍ त।`
+  line `21. िनरसन और ᭪ यावृि ᱫ।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `यान - हरण िनवारण अिधिनयम, 2016
-(2016 का अिधिनयम सं ᭎ यां क 30)
-[13 मई, 2016]
-वायुयान के िविधिव ᱧ᳍ अिभ ᮕ हण के दमन के िलए
-क ᭠ व ᱶ शन को ᮧ भावी करने और उससे
-संबंिधत िवषय ᲂ के िलए
-अिधिनयम
-वायुयान के िविधिव ᱧ᳍ अिभ ᮕ हण के दमन के िलए क ᭠ व ᱶ शन पर 16 ᳰ दसंबर, 1970 को हे ग म ᱶ ह ᭭ ता ᭃ र ᳰ कए गए थे;
-और भारत ने, उ ᭍ त क ᭠ व ᱶ शन को मान िलया था तथा क ᭠ व ᱶ शन के उपबंध ᲂ को ᮧ भावी करने के िलए - हरण िनवारण अिधिनयम,
-1982 (1982 का 65) अिधिनयिमत ᳰ कया गया;
-और भारत ने, 10 िसतंबर, 2010 को बी ᳲ जग म ᱶ क ᭠ व ᱶ शन के अनुपूरक ᮧ ोटोकाल पर ह ᭭ ता ᭃ र ᳰ कए ह ᱹ, जो िसिवल िवमानन के
-िव ᱧ᳍ नई ᮧ कार क ᳱ धम ᳰ कय ᲂ ᳇ ारा िविधिव ᱧ᳍ काय ᲄ से संबंिधत है, िजसके िलए उ ᭍ त अिधिनयम म ᱶ ᭪ यापक संशोधन अपेि ᭃ त ह ᱹ;
-और यह समीचीन समझा गया है ᳰ क वायुयान के अिभ ᮕ हण या उस पर िनयं ᮢ ण करने के िविधिव ᱧ᳍ काय ᭅ िजससे ᭪ यि ᭍ तय ᲂ
-और संपि ᱫ क ᳱ सुर ᭃ ा संकट म ᱶ पड़ जाती है, अ ᭜ यिधक ᳲ चता का िवषय है, िजसका ᮧ भावी ᱨ प से समाधान क ᭠ व ᱶ शन और ᮧ ोटोकाल को
-ᮧ भावी करने के िलए तथा उनसे संबंिधत िवषय ᲂ के िलए उपयु ᭍ त उपबंध करके ᳰ कया जाना है;
-भारत गणरा ᭔ य के सड़सठव ᱶ म ᱶ सं सद् ᳇ ारा िन ᭥ निलिखत ᱨ प म ᱶ यह अिधिनयिमत हो:—
-अ ᭟ याय 1
-ᮧ ारंिभक
-1. संि ᭃ᭡ त नाम, िव ᭭ तार, लागू होना और ᮧ ारंभ —(1) इस अिधिनयम का संि ᭃ त नाम यान - हरण िनवारण अिधिनयम,
-2016 है।
-(2) इसका िव ᭭ तार संपूण ᭅ भारत पर है और जैसा ᳰ क इस अिधिनयम म ᱶ अ ᭠ यथा उपबंिधत है, उसके िसवाय यह उसके अधीन
-ᳰ कसी भी ऐसे अपराध को लागू होता है जो ᳰ कसी ᭪ यि ᭍ त ᳇ ारा भारत के बाहर ᳰ कया गया है।
-(3) यह उस तारीख 1 को ᮧ वृ ᱫ होगा जो के ᭠ ᮤ ीय सरकार, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा िनयत करे।
-2. प ᳯ रभाषाएं — इस अिधिनयम म ᱶ, जब तक ᳰ क संदभ ᭅ से अ ᭠ यथा अपेि ᭃ त न हो,—
-( क ) “ अिभकरण ” से रा ᭬ ᮝ ीय अ ᭠ वेषण अिभकरण अिधिनयम, 2008 (2008 का 34) क ᳱ धारा 3 के अधीन ग ᳯ ठत
-रा ᭬ ᮝ ीय अ ᭠ वे षण अिभकरण अिभ ᮧ े त है;
-( ख ) “ वायुयान ” से ऐसा वायुयान अिभ ᮧ े त है, चाहे वह भारत म ᱶ रिज ᭭ ᮝ ीकृत है या नह ᱭ, जो सैिनक वायुयान अथवा
-सीमाशु ᭨ क या पुिलस सेवा म ᱶ ᮧ यु ᭍ त वायुयान से िभ ᭠ न है;
-( ग ) “ भारत म ᱶ रिज ᭭ ᮝ ीकृत वायुयान ” से ऐसा वायुयान अिभ ᮧ े त है जो त ᭜ समय भारत म ᱶ रिज ᭭ ᮝ ीकृत है;
-( घ ) “ क ᭠ व ᱶ शन देश ” से ऐसा देश अिभ ᮧ े त है िजसम ᱶ त ᭜ समय हेग क ᭠ व ᱶ शन ᮧ वृ ᱫ है;
-( ङ ) “ हेग क ᭠ व ᱶ शन ” से वायुयान ᲂ के िविधिव ᱧ᳍ अिभ ᮕ हण के दमन के िलए ऐसा क ᭠ व ᱶ शन अिभ ᮧ े त है िजस पर 16
-ᳰ दसंबर, 1970 को हेग म ᱶ ह ᭭ ता ᭃ र ᳰ कए गए थे और इसके अंतग ᭅ त क ᭠ व ᱶ शन का अनुपूरक ᮧ ोटोकाल भी है िजस पर 10 िसतंबर,
-2010 क ᳱ बी ᳲ जग म ᱶ ह ᭭ ता ᭃ र ᳰ कए गए थे;
-( च ) “ बंधक ᭪ यि ᭍ त ” से ᳰ कसी वायुयान का कोई ऐसा या ᮢ ी या कम ᱮ दल का सद ᭭ य या वायुयान का ऐसा कोई
-सुर ᭃ ा का ᳶ मक या वायुयान के रखरखाव म ᱶ लगा ᱟ आ भूतलीय सहायक कम ᭅ चा ᳯ रवृंद अिभ ᮧ े त है, िजसे ᳰ कसी वायुयान के
-अिभवहन के दौरान या जब वह ᳰ कसी िवमानप ᱫ न पर आि ᭭ थत हो, ᳰ कसी ᭪ यि ᭍ त या ᭪ यि ᭍ तय ᲂ के ᳰ कसी समूह ᳇ ारा
-क ᳱ गई कोई मांग सुिनि ᭫ चत करने या ᳰ कसी शत ᭅ को पूरा करने के आशय से ऐसे ᳰ कसी ᭪ यि ᭍ त या ᭪ यि ᭍ तय ᲂ के समूह ᳇ ारा
-िविधिव ᱧ᳍ ᱨ प से बं दी बनाया जाता है या उसक ᳱ सहमित के िबना या उसक ᳱ सहमित से, जो कपट या िवबा ᭟ यता
-᳇ ारा अिभ ᮧ ा ᭡ त क ᳱ गई है, िन ᱧ᳍ ᳰ कया जाता है;
-1 अिधसूचना सं ० का०आ० ( अ ) तारीख 5 जुलाई, 2017 ᳇ ारा 5 जुलाई, 2017 भारत का राजप ᮢ, असाधारण, भाग 2 ख ᭛ ड 3(ii) देख ᱶ।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line `यान - हरण िनवारण अिधिनयम, 2016`
+  line `(2016 का अिधिनयम सं ᭎ यां क 30)`
+  line `[13 मई, 2016]`
+  line `वायुयान के िविधिव ᱧ᳍ अिभ ᮕ हण के दमन के िलए`
+  line `क ᭠ व ᱶ शन को ᮧ भावी करने और उससे`
+  line `संबंिधत िवषय ᲂ के िलए`
+  line अिधिनयम
+  line `वायुयान के िविधिव ᱧ᳍ अिभ ᮕ हण के दमन के िलए क ᭠ व ᱶ शन पर 16 ᳰ दसंबर, 1970 को हे ग म ᱶ ह ᭭ ता ᭃ र ᳰ कए गए थे;`
+  line `और भारत ने, उ ᭍ त क ᭠ व ᱶ शन को मान िलया था तथा क ᭠ व ᱶ शन के उपबंध ᲂ को ᮧ भावी करने के िलए - हरण िनवारण अिधिनयम,`
+  line `1982 (1982 का 65) अिधिनयिमत ᳰ कया गया;`
+  line `और भारत ने, 10 िसतंबर, 2010 को बी ᳲ जग म ᱶ क ᭠ व ᱶ शन के अनुपूरक ᮧ ोटोकाल पर ह ᭭ ता ᭃ र ᳰ कए ह ᱹ, जो िसिवल िवमानन के`
+  line `िव ᱧ᳍ नई ᮧ कार क ᳱ धम ᳰ कय ᲂ ᳇ ारा िविधिव ᱧ᳍ काय ᲄ से संबंिधत है, िजसके िलए उ ᭍ त अिधिनयम म ᱶ ᭪ यापक संशोधन अपेि ᭃ त ह ᱹ;`
+  line `और यह समीचीन समझा गया है ᳰ क वायुयान के अिभ ᮕ हण या उस पर िनयं ᮢ ण करने के िविधिव ᱧ᳍ काय ᭅ िजससे ᭪ यि ᭍ तय ᲂ`
+  line `और संपि ᱫ क ᳱ सुर ᭃ ा संकट म ᱶ पड़ जाती है, अ ᭜ यिधक ᳲ चता का िवषय है, िजसका ᮧ भावी ᱨ प से समाधान क ᭠ व ᱶ शन और ᮧ ोटोकाल को`
+  line `ᮧ भावी करने के िलए तथा उनसे संबंिधत िवषय ᲂ के िलए उपयु ᭍ त उपबंध करके ᳰ कया जाना है;`
+  line `भारत गणरा ᭔ य के सड़सठव ᱶ म ᱶ सं सद् ᳇ ारा िन ᭥ निलिखत ᱨ प म ᱶ यह अिधिनयिमत हो:—`
+  line `अ ᭟ याय 1`
+  line `ᮧ ारंिभक`
+  line `1. संि ᭃ᭡ त नाम, िव ᭭ तार, लागू होना और ᮧ ारंभ —(1) इस अिधिनयम का संि ᭃ त नाम यान - हरण िनवारण अिधिनयम,`
+  line `2016 है।`
+  line `(2) इसका िव ᭭ तार संपूण ᭅ भारत पर है और जैसा ᳰ क इस अिधिनयम म ᱶ अ ᭠ यथा उपबंिधत है, उसके िसवाय यह उसके अधीन`
+  line `ᳰ कसी भी ऐसे अपराध को लागू होता है जो ᳰ कसी ᭪ यि ᭍ त ᳇ ारा भारत के बाहर ᳰ कया गया है।`
+  line `(3) यह उस तारीख 1 को ᮧ वृ ᱫ होगा जो के ᭠ ᮤ ीय सरकार, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा िनयत करे।`
+  line `2. प ᳯ रभाषाएं — इस अिधिनयम म ᱶ, जब तक ᳰ क संदभ ᭅ से अ ᭠ यथा अपेि ᭃ त न हो,—`
+  line `( क ) “ अिभकरण ” से रा ᭬ ᮝ ीय अ ᭠ वेषण अिभकरण अिधिनयम, 2008 (2008 का 34) क ᳱ धारा 3 के अधीन ग ᳯ ठत`
+  line `रा ᭬ ᮝ ीय अ ᭠ वे षण अिभकरण अिभ ᮧ े त है;`
+  line `( ख ) “ वायुयान ” से ऐसा वायुयान अिभ ᮧ े त है, चाहे वह भारत म ᱶ रिज ᭭ ᮝ ीकृत है या नह ᱭ, जो सैिनक वायुयान अथवा`
+  line `सीमाशु ᭨ क या पुिलस सेवा म ᱶ ᮧ यु ᭍ त वायुयान से िभ ᭠ न है;`
+  line `( ग ) “ भारत म ᱶ रिज ᭭ ᮝ ीकृत वायुयान ” से ऐसा वायुयान अिभ ᮧ े त है जो त ᭜ समय भारत म ᱶ रिज ᭭ ᮝ ीकृत है;`
+  line `( घ ) “ क ᭠ व ᱶ शन देश ” से ऐसा देश अिभ ᮧ े त है िजसम ᱶ त ᭜ समय हेग क ᭠ व ᱶ शन ᮧ वृ ᱫ है;`
+  line `( ङ ) “ हेग क ᭠ व ᱶ शन ” से वायुयान ᲂ के िविधिव ᱧ᳍ अिभ ᮕ हण के दमन के िलए ऐसा क ᭠ व ᱶ शन अिभ ᮧ े त है िजस पर 16`
+  line `ᳰ दसंबर, 1970 को हेग म ᱶ ह ᭭ ता ᭃ र ᳰ कए गए थे और इसके अंतग ᭅ त क ᭠ व ᱶ शन का अनुपूरक ᮧ ोटोकाल भी है िजस पर 10 िसतंबर,`
+  line `2010 क ᳱ बी ᳲ जग म ᱶ ह ᭭ ता ᭃ र ᳰ कए गए थे;`
+  line `( च ) “ बंधक ᭪ यि ᭍ त ” से ᳰ कसी वायुयान का कोई ऐसा या ᮢ ी या कम ᱮ दल का सद ᭭ य या वायुयान का ऐसा कोई`
+  line `सुर ᭃ ा का ᳶ मक या वायुयान के रखरखाव म ᱶ लगा ᱟ आ भूतलीय सहायक कम ᭅ चा ᳯ रवृंद अिभ ᮧ े त है, िजसे ᳰ कसी वायुयान के`
+  line `अिभवहन के दौरान या जब वह ᳰ कसी िवमानप ᱫ न पर आि ᭭ थत हो, ᳰ कसी ᭪ यि ᭍ त या ᭪ यि ᭍ तय ᲂ के ᳰ कसी समूह ᳇ ारा`
+  line `क ᳱ गई कोई मांग सुिनि ᭫ चत करने या ᳰ कसी शत ᭅ को पूरा करने के आशय से ऐसे ᳰ कसी ᭪ यि ᭍ त या ᭪ यि ᭍ तय ᲂ के समूह ᳇ ारा`
+  line `िविधिव ᱧ᳍ ᱨ प से बं दी बनाया जाता है या उसक ᳱ सहमित के िबना या उसक ᳱ सहमित से, जो कपट या िवबा ᭟ यता`
+  line `᳇ ारा अिभ ᮧ ा ᭡ त क ᳱ गई है, िन ᱧ᳍ ᳰ कया जाता है;`
+  line `1 अिधसूचना सं ० का०आ० ( अ ) तारीख 5 जुलाई, 2017 ᳇ ारा 5 जुलाई, 2017 भारत का राजप ᮢ, असाधारण, भाग 2 ख ᭛ ड 3(ii) देख ᱶ।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `2
-( छ ) “ सैिनक वायुयान ” से ᳰ कसी देश क ᳱ नौसेना, थलसेना, वायुसेना या ᳰ क ᭠ ह ᱭ अ ᭠ य सश ᭭ ᮢ बल ᲂ का वायुयान
-अिभ ᮧ े त है और इसके अंतग ᭅ त ᮧ᭜ येक ऐसा वायुयान भी है, जो त ᭜ समय ऐसे ᳰ कसी बल के ᳰ कसी ऐसे ᭪ यि ᭍ त ᳇ ारा समादेिशत
-है िजसे उस ᮧ योजन के िलए लगाया गया है;
-( ज ) “ अिधसूचना ” से राजप ᮢ म ᱶ ᮧ कािशत अिधसूचना अिभ ᮧ े त है;
-( झ ) “ सुर ᭃ ा का ᳶ मक ” से िविधिव ᱧ᳍ ह ᭭ त ᭃ े प के काय ᲄ के िव ᱧ᳍ िसिवल िवमानन क ᳱ सुर ᭃ ा सुिनि ᭫ चत करने के
-िलए क ᱶᮤ ीय सरकार ᳇ ारा अिभिनयोिजत या उस सरकार ᳇ ारा ᮧ ािधकृत ᳰ कसी अिभकरण ᳇ ारा िनयु ᭍ त सुर ᭃ ा का ᳶ मक
-अिभ ᮧ े त है। ᭭
-प ᭬ टीकरण — इस खंड के ᮧ योजन ᲂ के िलए “ िविधिव ᱧ᳍ ह ᭭ त ᭃ े प के काय ᲄ ” से िसिवल िवमानन और वायु प ᳯ रवहन क ᳱ
-सुर ᭃ ा को जोिखम म ᱶ डालने के िलए काय ᭅ या ᮧ यितत काय ᭅ अिभ ᮧ े त ह ᱹ, िजनके अंतग ᭅ त िन ᭥ निलिखत काय ᭅ भी ह ᱹ —
-(i) उड़ानरत वायुयान का िविधिव ᱧ᳍ अिभ ᮕ हण;
-(ii) भूिम पर वायुयान का िविधिव ᱧ᳍ अिभ ᮕ हण;
-(iii) वायुयान पर या हवाई अ ᲻ᲂ पर बंधक बनाना;
-(iv) ᳰ कसी वायुयान पर या ᳰ कसी हवाई अ ᲻ े पर या ᳰ कसी वैमािनक सुिवधा के प ᳯ रसर म ᱶ बलात् घुसपैठ;
-(v) ᳰ कसी वायुयान पर या ᳰ कसी हवाई अ ᲻ े पर दांिडक ᮧ योजन ᲂ के आशय से कोई आयुध, िव ᭭ फोटक या अ ᭠ य
-प ᳯ रसंकटमय युि ᭍ त, व ᭭ तु या पदाथ ᭅ ले जाना;
-(vi) ᳰ कसी हवाई अ ᲻ े पर या ᳰ कसी िसिवल िवमानन सुिवधा प ᳯ रसर म ᱶ उड़ानरत या भूिम पर ᳰ कसी वायुयान क ᳱ,
-याि ᮢ य ᲂ, कम ᱮ दल, भूतलीय का ᳶ मक या जनसाधारण क ᳱ सुर ᭃ ा को जोिखम म ᱶ डालने के उ ᳎ े ᭫ य से िम ᭝ या सूचना
-क ᳱ संसूचना।
-अ ᭟ याय 2
-यान - हरण और संब ᳍ अपराध
-3. यान हरण —(1) जो कोई ᳰ कसी सेवारत वायुयान का, िविधिव ᱧ᳍ तया और साशय, बल या उसक ᳱ धमक ᳱ ᳇ ारा या ᮧ पीड़न
-᳇ ारा या ᳰ कसी अ ᭠ य ᮧ कार के अिभ ᮢ ास ᳇ ारा या ᳰ कसी ᮧ ौ ᳒ ोिगक ᳱ य साधन ᲂ ᳇ ारा अिभ ᮕ हण करता है या उस पर िनयं ᮢ ण करता है,
-वह यान - हरण का अपराध करता है।
-(2) ᳰ कसी ᭪ यि ᭍ त के बारे म ᱶ भी यह समझा जाएगा ᳰ क उसने उपधारा (1) म ᱶ िविन ᳸ द ᭬ ट यान - हरण का अपराध ᳰ कया है, य ᳰ द
-ऐसा ᭪ यि ᭍ त,—
-( क ) ऐसे अपराध को करने क ᳱ धमक ᳱ देता है या ᳰ कसी ᭪ यि ᭍ त को िविधिव ᱧ᳍ तया और साशय, ऐसी प ᳯ रि ᭭ थितय ᲂ
-म ᱶ जो यह उपद ᳶ शत करती है ᳰ क धमक ᳱ िव ᭫ वसनीय है, ऐसी धमक ᳱ ᮧ ा ᭡ त करवाता है; या
-( ख ) ऐसा अपराध करने का ᮧ य ᭜ न करता है या उसको करने का दु ᭬ ᮧ े रण करता है; या
-( ग ) ऐसा अपराध या उपरो ᭍ त खंड ( क ) या खंड ( ख ) म ᱶ िविन ᳸ द ᭬ ट अपराध करने के िलए अ ᭠ य ᭪ यि ᭍ तय ᲂ को
-संग ᳯ ठत या िनदेिशत करता है; या
-( घ ) ऐसे अपराध या उपरो ᭍ त ख ᭛ ड ( क ) या ख ᭛ ड ( ख ) म ᱶ िविन ᳸ द ᭬ ट अपराध म ᱶ सह - अिभयु ᭍ त के ᱨ प म ᱶ भाग
-लेता है; या
-( ङ ) ᳰ कसी अ ᭠ य ᭪ यि ᭍ त क ᳱ, यह जानते ᱟ ए ᳰ क ऐसे ᭪ यि ᭍ त ने कोई ऐसा अपराध या उपरो ᭍ त खंड ( क ) या खंड ( ख )
-या खंड ( ग ) या खंड ( घ ) म ᱶ िविन ᳸ द ᭬ ट अपराध ᳰ कया है या ऐसा ᭪ यि ᭍ त ᳰ कसी ऐसे अपराध के िलए िविध ᮧ वत ᭅ न
-ᮧ ािधका ᳯ रय ᲂ ᳇ ारा दांिडक अिभयोजन के िलए वांिछत है या उसे ऐसे ᳰ कसी अपराध के िलए दंडा ᳰ द ᭬ ट ᳰ कया गया है,
-अ ᭠ वेषण, अिभयोजन या दंड से बचने के िलए िविधिव ᱧ᳍ तया और साशय सहायता करता है।
-(3) कोई या ᮢ ी यान - हरण का भी अपराध करता है, जब िन ᭥ निलिखत म ᱶ से ᳰ कसी एक या दोन ᲂ का, उपधारा (1) या उपधारा
-(2) के खंड ( क ) म ᱶ िविन ᳸ द ᭬ ट अपराध ᲂ म ᱶ से कोई अपराध व ᭭ तु त: ᳰ कया जाता है या नह ᱭ ᳰ कया जाता है या उसका ᮧ य ᭜ न ᳰ कया जाता है
-या नह ᱭ ᳰ कया जाता है, साशय ᳰ कया गया है:—
-( क ) उपधारा (1) या उपधारा (2) के खंड ( क ) म ᱶ िविन ᳸ द ᭬ ट ᳰ कसी ऐसे अपराध को करने के िलए, िजसम ᱶ करार को
-अ ᮕ सर करने म ᱶ ᳰ कसी एक सहभागी ᳇ ारा ᳰ कया गया कोई काय ᭅ अंतव ᭅ िलत है, एक या अिधक ᭪ यि ᭍ तय ᲂ क ᳱ सहमित होना; या
-( ख ) सामा ᭠ य ᮧ योजन के साथ काय ᭅ करने वाले ᭪ यि ᭍ तय ᲂ के समूह ᳇ ारा उपधारा (1) म ᱶ या उपधारा (2) के खंड ( क )
-म ᱶ िविन ᳸ द ᭬ ट ᳰ कसी अपराध को करने के िलए ᳰ कसी रीित से योगदान देना और ऐसा योगदान, —`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 2
+  line `( छ ) “ सैिनक वायुयान ” से ᳰ कसी देश क ᳱ नौसेना, थलसेना, वायुसेना या ᳰ क ᭠ ह ᱭ अ ᭠ य सश ᭭ ᮢ बल ᲂ का वायुयान`
+  line `अिभ ᮧ े त है और इसके अंतग ᭅ त ᮧ᭜ येक ऐसा वायुयान भी है, जो त ᭜ समय ऐसे ᳰ कसी बल के ᳰ कसी ऐसे ᭪ यि ᭍ त ᳇ ारा समादेिशत`
+  line `है िजसे उस ᮧ योजन के िलए लगाया गया है;`
+  line `( ज ) “ अिधसूचना ” से राजप ᮢ म ᱶ ᮧ कािशत अिधसूचना अिभ ᮧ े त है;`
+  line `( झ ) “ सुर ᭃ ा का ᳶ मक ” से िविधिव ᱧ᳍ ह ᭭ त ᭃ े प के काय ᲄ के िव ᱧ᳍ िसिवल िवमानन क ᳱ सुर ᭃ ा सुिनि ᭫ चत करने के`
+  line `िलए क ᱶᮤ ीय सरकार ᳇ ारा अिभिनयोिजत या उस सरकार ᳇ ारा ᮧ ािधकृत ᳰ कसी अिभकरण ᳇ ारा िनयु ᭍ त सुर ᭃ ा का ᳶ मक`
+  line `अिभ ᮧ े त है। ᭭`
+  line `प ᭬ टीकरण — इस खंड के ᮧ योजन ᲂ के िलए “ िविधिव ᱧ᳍ ह ᭭ त ᭃ े प के काय ᲄ ” से िसिवल िवमानन और वायु प ᳯ रवहन क ᳱ`
+  line `सुर ᭃ ा को जोिखम म ᱶ डालने के िलए काय ᭅ या ᮧ यितत काय ᭅ अिभ ᮧ े त ह ᱹ, िजनके अंतग ᭅ त िन ᭥ निलिखत काय ᭅ भी ह ᱹ —`
+  line `(i) उड़ानरत वायुयान का िविधिव ᱧ᳍ अिभ ᮕ हण;`
+  line `(ii) भूिम पर वायुयान का िविधिव ᱧ᳍ अिभ ᮕ हण;`
+  line `(iii) वायुयान पर या हवाई अ ᲻ᲂ पर बंधक बनाना;`
+  line `(iv) ᳰ कसी वायुयान पर या ᳰ कसी हवाई अ ᲻ े पर या ᳰ कसी वैमािनक सुिवधा के प ᳯ रसर म ᱶ बलात् घुसपैठ;`
+  line `(v) ᳰ कसी वायुयान पर या ᳰ कसी हवाई अ ᲻ े पर दांिडक ᮧ योजन ᲂ के आशय से कोई आयुध, िव ᭭ फोटक या अ ᭠ य`
+  line `प ᳯ रसंकटमय युि ᭍ त, व ᭭ तु या पदाथ ᭅ ले जाना;`
+  line `(vi) ᳰ कसी हवाई अ ᲻ े पर या ᳰ कसी िसिवल िवमानन सुिवधा प ᳯ रसर म ᱶ उड़ानरत या भूिम पर ᳰ कसी वायुयान क ᳱ,`
+  line `याि ᮢ य ᲂ, कम ᱮ दल, भूतलीय का ᳶ मक या जनसाधारण क ᳱ सुर ᭃ ा को जोिखम म ᱶ डालने के उ ᳎ े ᭫ य से िम ᭝ या सूचना`
+  line `क ᳱ संसूचना।`
+  line `अ ᭟ याय 2`
+  line `यान - हरण और संब ᳍ अपराध`
+  line `3. यान हरण —(1) जो कोई ᳰ कसी सेवारत वायुयान का, िविधिव ᱧ᳍ तया और साशय, बल या उसक ᳱ धमक ᳱ ᳇ ारा या ᮧ पीड़न`
+  line `᳇ ारा या ᳰ कसी अ ᭠ य ᮧ कार के अिभ ᮢ ास ᳇ ारा या ᳰ कसी ᮧ ौ ᳒ ोिगक ᳱ य साधन ᲂ ᳇ ारा अिभ ᮕ हण करता है या उस पर िनयं ᮢ ण करता है,`
+  line `वह यान - हरण का अपराध करता है।`
+  line `(2) ᳰ कसी ᭪ यि ᭍ त के बारे म ᱶ भी यह समझा जाएगा ᳰ क उसने उपधारा (1) म ᱶ िविन ᳸ द ᭬ ट यान - हरण का अपराध ᳰ कया है, य ᳰ द`
+  line `ऐसा ᭪ यि ᭍ त,—`
+  line `( क ) ऐसे अपराध को करने क ᳱ धमक ᳱ देता है या ᳰ कसी ᭪ यि ᭍ त को िविधिव ᱧ᳍ तया और साशय, ऐसी प ᳯ रि ᭭ थितय ᲂ`
+  line `म ᱶ जो यह उपद ᳶ शत करती है ᳰ क धमक ᳱ िव ᭫ वसनीय है, ऐसी धमक ᳱ ᮧ ा ᭡ त करवाता है; या`
+  line `( ख ) ऐसा अपराध करने का ᮧ य ᭜ न करता है या उसको करने का दु ᭬ ᮧ े रण करता है; या`
+  line `( ग ) ऐसा अपराध या उपरो ᭍ त खंड ( क ) या खंड ( ख ) म ᱶ िविन ᳸ द ᭬ ट अपराध करने के िलए अ ᭠ य ᭪ यि ᭍ तय ᲂ को`
+  line `संग ᳯ ठत या िनदेिशत करता है; या`
+  line `( घ ) ऐसे अपराध या उपरो ᭍ त ख ᭛ ड ( क ) या ख ᭛ ड ( ख ) म ᱶ िविन ᳸ द ᭬ ट अपराध म ᱶ सह - अिभयु ᭍ त के ᱨ प म ᱶ भाग`
+  line `लेता है; या`
+  line `( ङ ) ᳰ कसी अ ᭠ य ᭪ यि ᭍ त क ᳱ, यह जानते ᱟ ए ᳰ क ऐसे ᭪ यि ᭍ त ने कोई ऐसा अपराध या उपरो ᭍ त खंड ( क ) या खंड ( ख )`
+  line `या खंड ( ग ) या खंड ( घ ) म ᱶ िविन ᳸ द ᭬ ट अपराध ᳰ कया है या ऐसा ᭪ यि ᭍ त ᳰ कसी ऐसे अपराध के िलए िविध ᮧ वत ᭅ न`
+  line `ᮧ ािधका ᳯ रय ᲂ ᳇ ारा दांिडक अिभयोजन के िलए वांिछत है या उसे ऐसे ᳰ कसी अपराध के िलए दंडा ᳰ द ᭬ ट ᳰ कया गया है,`
+  line `अ ᭠ वेषण, अिभयोजन या दंड से बचने के िलए िविधिव ᱧ᳍ तया और साशय सहायता करता है।`
+  line `(3) कोई या ᮢ ी यान - हरण का भी अपराध करता है, जब िन ᭥ निलिखत म ᱶ से ᳰ कसी एक या दोन ᲂ का, उपधारा (1) या उपधारा`
+  line `(2) के खंड ( क ) म ᱶ िविन ᳸ द ᭬ ट अपराध ᲂ म ᱶ से कोई अपराध व ᭭ तु त: ᳰ कया जाता है या नह ᱭ ᳰ कया जाता है या उसका ᮧ य ᭜ न ᳰ कया जाता है`
+  line `या नह ᱭ ᳰ कया जाता है, साशय ᳰ कया गया है:—`
+  line `( क ) उपधारा (1) या उपधारा (2) के खंड ( क ) म ᱶ िविन ᳸ द ᭬ ट ᳰ कसी ऐसे अपराध को करने के िलए, िजसम ᱶ करार को`
+  line `अ ᮕ सर करने म ᱶ ᳰ कसी एक सहभागी ᳇ ारा ᳰ कया गया कोई काय ᭅ अंतव ᭅ िलत है, एक या अिधक ᭪ यि ᭍ तय ᲂ क ᳱ सहमित होना; या`
+  line `( ख ) सामा ᭠ य ᮧ योजन के साथ काय ᭅ करने वाले ᭪ यि ᭍ तय ᲂ के समूह ᳇ ारा उपधारा (1) म ᱶ या उपधारा (2) के खंड ( क )`
+  line `म ᱶ िविन ᳸ द ᭬ ट ᳰ कसी अपराध को करने के िलए ᳰ कसी रीित से योगदान देना और ऐसा योगदान, —`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `3
-(i) जहां ऐसे ᳰᮓ याकलाप या ᮧ योजन म ᱶ ऐसे अपराध का ᳰ कया जाना अंतव ᭅ िलत है, वहां साधारण
-आपरािधक ᳰᮓ याकलाप या समूह के ᮧ योजन को अ ᮕ सर करने के अ ᳎ े ᭫ य से ᳰ दया जाएगा; या
-(ii) ऐसे अपराध को ᳰ कए जाने के िलए समूह के आशय क ᳱ जानकारी म ᱶ ᳰ दया जाएगा।
-(4) इस अिधिनयम के ᮧ योजन ᲂ के िलए ᳰ कसी वायुयान को, ᳰ कसी िविन ᳸ द ᭬ ट उड़ान के िलए भूतलीय का ᳶ मक ᲂ ᳇ ारा या
-कम ᱮ दल ᳇ ारा वायुयान क ᳱ उड़ान पूव ᭅ तैयारी के आरंभ से लेकर वायुयान के उतरने के प ᭫ चात् चौबीस घंटे तक “ सेवारत ” समझा
-जाएगा और ᳰ कसी वायुयान के िववश होकर उतरने क ᳱ दशा म ᱶ, उड़ान को तब तक जारी समझा जाएगा जब तक ᳰ क स ᭃ म ᮧ ािधकारी
-उस वायुयान क ᳱ और उस पर के ᭪ यि ᭍ तय ᲂ तथा संपि ᱫ क ᳱ िज ᭥ मे दारी नह ᱭ संभाल लेते ह ᱹ।
-4. यान - हरण के िलए दंड — जो कोई यान - हरण का अपराध करेगा, वह —
-( क ) जहां ऐसे अपराध से ᳰ कसी बंधक ᭪ यि ᭍ त क ᳱ या ᳰ कसी सुर ᭃ ा का ᳶ मक क ᳱ या ᳰ कसी ऐसे ᭪ यि ᭍ त क ᳱ, जो
-अपराध म ᱶ सि ᭥ मिलत नह ᱭ है, यान - हरण के अपराध के ᮧ᭜ य ᭃ प ᳯ रणाम ᭭ व ᱨ प मृ ᭜ यु हो जाती है, वहां मृ ᭜ यु से दंिडत ᳰ कया
-जाएगा; या
-( ख ) ऐसे आजीवन कारावास से िजससे उस ᭪ यि ᭍ त के शेष ᮧ ाकृितक जीवन का कारावास अिभ ᮧ े त है, और जुमा ᭅ ने
-से दंिडत ᳰ कया जाएगा,
-और ऐसे ᭪ यि ᭍ त क ᳱ जंगम और ᭭ थावर संपि ᱫ अिधकृत ᳰ कए जाने के िलए भी दायी होगी।
-5. यान - हरण से संब ᳍ ᳲ हसा के काय ᲄ के िलए दंड — जो कोई ऐसा ᭪ यि ᭍ त होते ᱟ ए जो ᳰ कसी वायुयान के हरण का अपराध
-कर रहा है, ऐसे अपराध के संबंध म ᱶ ऐसे वायुयान के ᳰ कसी या ᮢ ी या कम ᱮ दल के सद ᭭ य के ᮧ ित ᳲ हसा का कोई काय ᭅ करता है, उसे वही
-दंड ᳰ दया जाएगा िजससे वह भारत म ᱶ त ᭜ समय ᮧ वृ ᱫ ᳰ कसी िविध के अधीन तब दंडनीय होता जब ऐसा काय ᭅ भारत म ᱶ ᳰ कया जाता।
-6. अ ᭠ वे षण आ ᳰ द क ᳱ शि ᭍ तय ᲂ का ᮧ दान ᳰ कया जाना —(1) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते
-ᱟ ए भी इस अिधिनयम के ᮧ योजन ᲂ के िलए, के ᭠ ᮤ ीय सरकार अिधसूचना ᳇ ारा, उ ᭍ त संिहता के अधीन ᳰ कसी पुिलस अिधकारी ᳇ ारा
-ᮧ यो ᭍ त ᭪ य िगर ᭢ तारी, अ ᭠ वेषण और अिभयोजन क ᳱ शि ᭍ तयां के ᭠ ᮤ ीय सरकार के ᳰ कसी अिधकारी या अिभकरण के ᳰ कसी अिधकारी को,
-ᮧ दान कर सकेगी।
-(2) पुिलस के सभी अिधका ᳯ रय ᲂ और सरकार के सभी अिधका ᳯ रय ᲂ से यह अपे ᭃ ा क ᳱ जाती है और उ ᭠ ह ᱶ इस बात के िलए
-सश ᭍ त ᳰ कया जाता है ᳰ क वे इस अिधिनयम के उपबंध ᲂ के िन ᭬ पादन म ᱶ उपधारा (1) म ᱶ िन ᳸ द ᭬ ट के ᭠ ᮤ ीय सरकार के अिधका ᳯ रय ᲂ क ᳱ
-सहायता कर ᱶ।
-7. अिधका ᳯ रता —(1) उपधारा (2) के उपबंध ᲂ के अधीन रहते ᱟ ए जहां धारा 3 या धारा 5 के अधीन कोई अपराध भारत के
-बाहर ᳰ कया गया है, वहां ऐसा अपराध करने वाले ᭪ यि ᭍ त के साथ उसक ᳱ बाबत वैसी ही कार ᭅ वाई क ᳱ जा सकेगी मानो ऐसा अपराध
-भारत म ᱶ ᳰ कसी ऐसे ᭭ थान पर, जहां वह पाया जाए, ᳰ कया गया है।
-(2) कोई भी ᭠ यायालय धारा 3 या धारा 5 के अधीन दंडनीय ᳰ कसी ऐसे अपराध का, जो भारत के बाहर ᳰ कया गया है, सं ᭄ ान
-नह ᱭ करेगा, जब तक ᳰ क —
-( क ) ऐसा अपराध भारत के रा ᭔ य ᭃ े ᮢ के भीतर नह ᱭ ᳰ कया जाता है;
-( ख ) ऐसा अपराध भारत म ᱶ रिज ᭭ ᮝ ीकृत ᳰ कसी वायुयान के िव ᱧ᳍ या उस पर नह ᱭ ᳰ कया जाता है;
-( ग ) ऐसा अपराध ᳰ कसी ऐसे वायुयान पर नह ᱭ ᳰ कया जाता है और ऐसा वायुयान िजसम ᱶ ऐसा अपराध ᳰ कया गया
-है, भारत म ᱶ अिभकिथत अपराधी के साथ जो उस वायुयान म ᱶ है, नह ᱭ उतरता है;
-( घ ) ऐसा अपराध ᳰ कसी ऐसे वायुयान के िव ᱧ᳍ या उस पर नह ᱭ ᳰ कया जाता है जो त ᭜ समय ऐसे प Ჵ े दार को, िबना
-कम ᱮ दल के प Ჵ े पर ᳰ दया गया है, िजसका अपने कारबार का मु ᭎ य ᭭ थान या जहां उसका ऐसा कोई कारबार का ᭭ थान नह ᱭ है
-वहां उसका ᭭ थायी िनवास - ᭭ थान भारत म ᱶ है;
-( ङ ) ऐसा अपराध भारत के ᳰ कसी नाग ᳯ रक ᳇ ारा या उसके िव ᱧ᳍ नह ᱭ ᳰ कया जाता है;
-( च ) ऐसा अपराध ऐसे ᳰ कसी रा ᭔ यिवहीन ᭪ यि ᭍ त ᳇ ारा नह ᱭ ᳰ कया जाता है िजसका ᮧ ाियक िनवास ᭭ थान भारत के
-रा ᭔ य ᭃ े ᮢ म ᱶ है;
-( छ ) ऐसा अपराध ᳰ कसी अिभकिथत अपराधी ᳇ ारा नह ᱭ ᳰ कया जाता है जो भारत म ᱶ उपि ᭭ थत है ᳴ कतु धारा 11 के
-अधीन ᮧ᭜ य ᳶ पत नह ᱭ ᳰ कया गया है।
-8. अिभिहत ᭠ यायालय —(1) रा ᭔ य सरकार, शी ᮖ िवचारण का उपाबंध करने के ᮧ योजन के िलए उ ᭒ च ᭠ यायालय के मु ᭎ य
-᭠ यायमू ᳶ त क ᳱ सहमित से, अिधसूचना ᳇ ारा ऐसे ᭃ े ᮢ या ᭃ े ᮢ ᲂ के िलए, जो अिधसूचना म ᱶ िविन ᳸ द ᭬ ट ᳰ कए जाएं ᳰ कसी सेशन ᭠ यायालय
-को अिभिहत ᭠ यायालय के ᱨ प म ᱶ िविन ᳸ द ᭬ ट करेगी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 3
+  line `(i) जहां ऐसे ᳰᮓ याकलाप या ᮧ योजन म ᱶ ऐसे अपराध का ᳰ कया जाना अंतव ᭅ िलत है, वहां साधारण`
+  line `आपरािधक ᳰᮓ याकलाप या समूह के ᮧ योजन को अ ᮕ सर करने के अ ᳎ े ᭫ य से ᳰ दया जाएगा; या`
+  line `(ii) ऐसे अपराध को ᳰ कए जाने के िलए समूह के आशय क ᳱ जानकारी म ᱶ ᳰ दया जाएगा।`
+  line `(4) इस अिधिनयम के ᮧ योजन ᲂ के िलए ᳰ कसी वायुयान को, ᳰ कसी िविन ᳸ द ᭬ ट उड़ान के िलए भूतलीय का ᳶ मक ᲂ ᳇ ारा या`
+  line `कम ᱮ दल ᳇ ारा वायुयान क ᳱ उड़ान पूव ᭅ तैयारी के आरंभ से लेकर वायुयान के उतरने के प ᭫ चात् चौबीस घंटे तक “ सेवारत ” समझा`
+  line `जाएगा और ᳰ कसी वायुयान के िववश होकर उतरने क ᳱ दशा म ᱶ, उड़ान को तब तक जारी समझा जाएगा जब तक ᳰ क स ᭃ म ᮧ ािधकारी`
+  line `उस वायुयान क ᳱ और उस पर के ᭪ यि ᭍ तय ᲂ तथा संपि ᱫ क ᳱ िज ᭥ मे दारी नह ᱭ संभाल लेते ह ᱹ।`
+  line `4. यान - हरण के िलए दंड — जो कोई यान - हरण का अपराध करेगा, वह —`
+  line `( क ) जहां ऐसे अपराध से ᳰ कसी बंधक ᭪ यि ᭍ त क ᳱ या ᳰ कसी सुर ᭃ ा का ᳶ मक क ᳱ या ᳰ कसी ऐसे ᭪ यि ᭍ त क ᳱ, जो`
+  line `अपराध म ᱶ सि ᭥ मिलत नह ᱭ है, यान - हरण के अपराध के ᮧ᭜ य ᭃ प ᳯ रणाम ᭭ व ᱨ प मृ ᭜ यु हो जाती है, वहां मृ ᭜ यु से दंिडत ᳰ कया`
+  line `जाएगा; या`
+  line `( ख ) ऐसे आजीवन कारावास से िजससे उस ᭪ यि ᭍ त के शेष ᮧ ाकृितक जीवन का कारावास अिभ ᮧ े त है, और जुमा ᭅ ने`
+  line `से दंिडत ᳰ कया जाएगा,`
+  line `और ऐसे ᭪ यि ᭍ त क ᳱ जंगम और ᭭ थावर संपि ᱫ अिधकृत ᳰ कए जाने के िलए भी दायी होगी।`
+  line `5. यान - हरण से संब ᳍ ᳲ हसा के काय ᲄ के िलए दंड — जो कोई ऐसा ᭪ यि ᭍ त होते ᱟ ए जो ᳰ कसी वायुयान के हरण का अपराध`
+  line `कर रहा है, ऐसे अपराध के संबंध म ᱶ ऐसे वायुयान के ᳰ कसी या ᮢ ी या कम ᱮ दल के सद ᭭ य के ᮧ ित ᳲ हसा का कोई काय ᭅ करता है, उसे वही`
+  line `दंड ᳰ दया जाएगा िजससे वह भारत म ᱶ त ᭜ समय ᮧ वृ ᱫ ᳰ कसी िविध के अधीन तब दंडनीय होता जब ऐसा काय ᭅ भारत म ᱶ ᳰ कया जाता।`
+  line `6. अ ᭠ वे षण आ ᳰ द क ᳱ शि ᭍ तय ᲂ का ᮧ दान ᳰ कया जाना —(1) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते`
+  line `ᱟ ए भी इस अिधिनयम के ᮧ योजन ᲂ के िलए, के ᭠ ᮤ ीय सरकार अिधसूचना ᳇ ारा, उ ᭍ त संिहता के अधीन ᳰ कसी पुिलस अिधकारी ᳇ ारा`
+  line `ᮧ यो ᭍ त ᭪ य िगर ᭢ तारी, अ ᭠ वेषण और अिभयोजन क ᳱ शि ᭍ तयां के ᭠ ᮤ ीय सरकार के ᳰ कसी अिधकारी या अिभकरण के ᳰ कसी अिधकारी को,`
+  line `ᮧ दान कर सकेगी।`
+  line `(2) पुिलस के सभी अिधका ᳯ रय ᲂ और सरकार के सभी अिधका ᳯ रय ᲂ से यह अपे ᭃ ा क ᳱ जाती है और उ ᭠ ह ᱶ इस बात के िलए`
+  line `सश ᭍ त ᳰ कया जाता है ᳰ क वे इस अिधिनयम के उपबंध ᲂ के िन ᭬ पादन म ᱶ उपधारा (1) म ᱶ िन ᳸ द ᭬ ट के ᭠ ᮤ ीय सरकार के अिधका ᳯ रय ᲂ क ᳱ`
+  line `सहायता कर ᱶ।`
+  line `7. अिधका ᳯ रता —(1) उपधारा (2) के उपबंध ᲂ के अधीन रहते ᱟ ए जहां धारा 3 या धारा 5 के अधीन कोई अपराध भारत के`
+  line `बाहर ᳰ कया गया है, वहां ऐसा अपराध करने वाले ᭪ यि ᭍ त के साथ उसक ᳱ बाबत वैसी ही कार ᭅ वाई क ᳱ जा सकेगी मानो ऐसा अपराध`
+  line `भारत म ᱶ ᳰ कसी ऐसे ᭭ थान पर, जहां वह पाया जाए, ᳰ कया गया है।`
+  line `(2) कोई भी ᭠ यायालय धारा 3 या धारा 5 के अधीन दंडनीय ᳰ कसी ऐसे अपराध का, जो भारत के बाहर ᳰ कया गया है, सं ᭄ ान`
+  line `नह ᱭ करेगा, जब तक ᳰ क —`
+  line `( क ) ऐसा अपराध भारत के रा ᭔ य ᭃ े ᮢ के भीतर नह ᱭ ᳰ कया जाता है;`
+  line `( ख ) ऐसा अपराध भारत म ᱶ रिज ᭭ ᮝ ीकृत ᳰ कसी वायुयान के िव ᱧ᳍ या उस पर नह ᱭ ᳰ कया जाता है;`
+  line `( ग ) ऐसा अपराध ᳰ कसी ऐसे वायुयान पर नह ᱭ ᳰ कया जाता है और ऐसा वायुयान िजसम ᱶ ऐसा अपराध ᳰ कया गया`
+  line `है, भारत म ᱶ अिभकिथत अपराधी के साथ जो उस वायुयान म ᱶ है, नह ᱭ उतरता है;`
+  line `( घ ) ऐसा अपराध ᳰ कसी ऐसे वायुयान के िव ᱧ᳍ या उस पर नह ᱭ ᳰ कया जाता है जो त ᭜ समय ऐसे प Ჵ े दार को, िबना`
+  line `कम ᱮ दल के प Ჵ े पर ᳰ दया गया है, िजसका अपने कारबार का मु ᭎ य ᭭ थान या जहां उसका ऐसा कोई कारबार का ᭭ थान नह ᱭ है`
+  line `वहां उसका ᭭ थायी िनवास - ᭭ थान भारत म ᱶ है;`
+  line `( ङ ) ऐसा अपराध भारत के ᳰ कसी नाग ᳯ रक ᳇ ारा या उसके िव ᱧ᳍ नह ᱭ ᳰ कया जाता है;`
+  line `( च ) ऐसा अपराध ऐसे ᳰ कसी रा ᭔ यिवहीन ᭪ यि ᭍ त ᳇ ारा नह ᱭ ᳰ कया जाता है िजसका ᮧ ाियक िनवास ᭭ थान भारत के`
+  line `रा ᭔ य ᭃ े ᮢ म ᱶ है;`
+  line `( छ ) ऐसा अपराध ᳰ कसी अिभकिथत अपराधी ᳇ ारा नह ᱭ ᳰ कया जाता है जो भारत म ᱶ उपि ᭭ थत है ᳴ कतु धारा 11 के`
+  line `अधीन ᮧ᭜ य ᳶ पत नह ᱭ ᳰ कया गया है।`
+  line `8. अिभिहत ᭠ यायालय —(1) रा ᭔ य सरकार, शी ᮖ िवचारण का उपाबंध करने के ᮧ योजन के िलए उ ᭒ च ᭠ यायालय के मु ᭎ य`
+  line `᭠ यायमू ᳶ त क ᳱ सहमित से, अिधसूचना ᳇ ारा ऐसे ᭃ े ᮢ या ᭃ े ᮢ ᲂ के िलए, जो अिधसूचना म ᱶ िविन ᳸ द ᭬ ट ᳰ कए जाएं ᳰ कसी सेशन ᭠ यायालय`
+  line `को अिभिहत ᭠ यायालय के ᱨ प म ᱶ िविन ᳸ द ᭬ ट करेगी।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `4
-(2) उपधारा (1) के उपबंध ᲂ के होते ᱟ ए भी, यथाि ᭭ थित, रा ᭬ ᮝ ीय अ ᭠ वे षण अिभकरण अिधिनयम, 2008 (2008 का 34) क ᳱ
-धारा 11 या धारा 22 के अधीन ग ᳯ ठत िवशेष ᭠ यायालय, ऐसे मामले म ᱶ जहां िगर ᭢ तारी, अ ᭠ वे षण और अिभयोजन क ᳱ शि ᭍ त धारा 6 क ᳱ
-उपधारा (1) के अधीन अिभकरण ᳇ ारा ᮧ योग क ᳱ जाती है, इस अिधिनयम के ᮧ योजन ᲂ के िलए अिभिहत ᭠ यायालय होगा।
-(3) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते ᱟ ए भी, अिभिहत ᭠ यायालय, यथासा ᭟ य, ᳰ दन ᮧ ित ᳰ दन के
-आधार पर िवचारण करेगा।
-9. अिभिहत ᭠ यायालय ᳇ ारा िवचारणीय अपराध —(1) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते
-ᱟ ए भी, —
-( क ) इस अिधिनयम के अधीन सभी अपराध धारा 8 म ᱶ िन ᳸ द ᭬ ट अिभिहत ᭠ यायालय ᳇ ारा िवचारणीय ह ᲂ गे;
-( ख ) जहां ऐसा कोई ᭪ यि ᭍ त, जो इस अिधिनयम के अधीन ᳰ कसी अपराध का अिभयु ᭍ त है या िजसके ᳇ ारा अपराध
-के ᳰ कए जाने का संदेह है, दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) क ᳱ धारा 167 क ᳱ उपधारा (2) या उपधारा (2 क ) के
-अधीन ᳰ कसी मिज ᭭ ᮝ े ट के पास भेजा जाता है, वहां वह मिज ᭭ ᮝ े ट ऐसे ᭪ यि ᭍ त का ऐसी अिभर ᭃ ा म ᱶ िनरोध, जैसा वह ठीक
-समझे, जहां ऐसा मिज ᭭ ᮝ े ट ᭠ याियक मिज ᭭ ᮝ े ट है वहां कुल िमलाकर तीस ᳰ दन से अनिधक अविध के िलए और जहां ऐसा
-मिज ᭭ ᮝ े ट काय ᭅ पालक मिज ᭭ ᮝ े ट है वहां कुल िमलाकर सात ᳰ दन से अनिधक अविध के िलए ᮧ ािधकृत कर सकेगा:
-परंतु, ऐसा मिज ᭭ ᮝ े ट, —
-(i) जब ऐसा ᭪ यि ᭍ त उसके पास पूव ᲃ᭍ त रीित से भेजा जाता है; या
-(ii) उसके ᳇ ारा ᮧ ािधकृत िनरोध क ᳱ अविध क ᳱ समाि ᭡ त पर या उससे पूव ᭅ ᳰ कसी समय, य ᳰ द उसका
-िवचार है ᳰ क ऐसे ᭪ यि ᭍ त का िन ᱧ᳍ रखना अपेि ᭃ त नह ᱭ है, तो वह ऐसे ᭪ यि ᭍ त को उस अिभिहत ᭠ यायालय को,
-िजसे अिधका ᳯ रता है, भेजने का आदेश करेगा;
-( ग ) अिभिहत ᭠ यायालय, खंड ( ख ) के अधीन अपने पास भेजे गए ᭪ यि ᭍ त के संबंध म ᱶ उसी शि ᭍ त का ᮧ योग कर
-सकेगा जो वह मिज ᭭ ᮝ े ट, िजसे मामले के िवचारण क ᳱ अिधका ᳯ रता है, ऐसे मामले म ᱶ दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2)
-क ᳱ धारा 167 के अधीन अिभयु ᭍ त ᭪ यि ᭍ त के संबंध म ᱶ, जो उस धारा के अधीन उसके पास भेजा गया है, ᮧ योग करता;
-( घ ) अिभिहत ᭠ यायालय, अिभकरण ᳇ ारा फाइल क ᳱ गई ᳯ रपोट ᭅ या इस िनिम ᱫ ᮧ ािधकृत, यथाि ᭭ थित, के ᭠ ᮤ ीय
-सरकार या रा ᭔ य सरकार के ᳰ कसी अिधकारी ᳇ ारा ᳰ कए गए ᳰ कसी प ᳯ रवाद के प ᳯ रशीलन पर उस अपराध का सं ᭄ ान
-अिभयु ᭍ त को िवचारण के िलए सुपुद ᭅ ᳰ कए जाने के िबना कर सकेगा।
-(2) इस अिधिनयम के अधीन ᳰ कसी अपराध का िवचारण करते समय अिभिहत ᭠ यायालय, इस अिधिनयम के अधीन ᳰ कसी
-अपराध से िभ ᭠ न ᳰ कसी ऐसे अपराध का भी िजससे अिभयु ᭍ त उसी िवचारण म ᱶ दंड ᮧᳰᮓ या सं िहता, 1973 (1974 का 2) के अधीन
-आरोिपत ᳰ कया जा सकता है, िवचारण कर सकेगा।
-10. अिभिहत ᭠ यायालय के सम ᭃ काय ᭅ वािहय ᲂ म ᱶ संिहता का लागू होना — इस अिधिनयम म ᱶ जैसा अ ᭠ यथा उपबंिधत है उसके
-िसवाय, दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) के उपबंध अिभिहत ᭠ यायालय के सम ᭃ काय ᭅ वािहय ᲂ को लागू ह ᲂ गे और अिभिहत
-᭠ यायालय के सम ᭃ अिभयोजन का संचालन करने वाले ᭪ यि ᭍ त को लोक अिभयोजक समझा जाएगा।
-अ ᭟ याय 3
-ᮧ क ᳱ ण ᭅ
-11. ᮧ᭜ यप ᭅ ण के बारे म ᱶ उपबंध —(1) धारा 3 और धारा 5 के अधीन अपराध ᮧ᭜ यप ᭅ णीय अपराध ᲂ के ᱨ प म ᱶ सि ᭥ मिलत ᳰ कए
-गए और उन सभी ᮧ᭜ यप ᭅ ण संिधय ᲂ म ᱶ उपबंिधत ᳰ कए गए समझे जाएंगे जो भारत ᳇ ारा क ᭠ व ᱶ शन देश ᲂ के साथ क ᳱ गई ह ᱹ और िजनका
-िव ᭭ तार इस अिधिनयम के ᮧ ारंभ क ᳱ तारीख को, भारत पर है और जो भारत पर आब ᳍ कर ह ᱹ।
-(2) इस अिधिनयम के अधीन अपराध ᲂ को ᮧ᭜ यप ᭅ ण अिधिनयम, 1962 (1962 का 34) के लागू ᳰ कए जाने के ᮧ योजन ᲂ के िलए,
-ऐसे वायुयान के बारे म ᱶ, जो ᳰ कसी क ᭠ व ᱶ शन देश म ᱶ रिज ᭭ ᮝ ीकृत है, ᳰ कसी भी समय जब वह वायुयान सेवारत है, यह समझा जाएगा ᳰ क
-वह उस देश क ᳱ अिधका ᳯ रता के भीतर है चाहे वह त ᭜ समय ᳰ कसी अ ᭠ य देश क ᳱ अिधका ᳯ रता के भीतर भी हो या न हो।
-(3) धारा 3 म ᱶ उि ᭨ लिखत ᳰ कसी भी अपराध को ᮧ᭜ यप ᭅ ण या पार ᭭ प ᳯ रक िविधक सहायता के ᮧ योजन ᲂ के िलए, राजनीितक
-अपराध के ᱨ प म ᱶ या ᳰ कसी राजनीितक अपराध से संब ᳍ अपराध के ᱨ प म ᱶ या राजनीितक हेतुक ᲂ ᳇ ारा ᮧ े ᳯ रत अपराध के ᱨ प म ᱶ नह ᱭ
-माना जाएगा और ᳰ कसी ऐसे अपराध पर आधा ᳯ रत ᮧ᭜ यप ᭅ ण या पार ᭭ प ᳯ रक िविधक सहायता के िलए ᳰ कसी अनुरोध को केवल इस
-आधार पर नामंजूर नह ᱭ ᳰ कया जाएगा ᳰ क उसका सरोकार, राजनीितक अपराध या ᳰ कसी राजनीितक अपराध से संब ᳍ अपराध या
-राजनीितक हेतुक ᲂ ᳇ ारा ᮧ े ᳯ रत ᳰ कसी अपराध से है।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 4
+  line `(2) उपधारा (1) के उपबंध ᲂ के होते ᱟ ए भी, यथाि ᭭ थित, रा ᭬ ᮝ ीय अ ᭠ वे षण अिभकरण अिधिनयम, 2008 (2008 का 34) क ᳱ`
+  line `धारा 11 या धारा 22 के अधीन ग ᳯ ठत िवशेष ᭠ यायालय, ऐसे मामले म ᱶ जहां िगर ᭢ तारी, अ ᭠ वे षण और अिभयोजन क ᳱ शि ᭍ त धारा 6 क ᳱ`
+  line `उपधारा (1) के अधीन अिभकरण ᳇ ारा ᮧ योग क ᳱ जाती है, इस अिधिनयम के ᮧ योजन ᲂ के िलए अिभिहत ᭠ यायालय होगा।`
+  line `(3) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते ᱟ ए भी, अिभिहत ᭠ यायालय, यथासा ᭟ य, ᳰ दन ᮧ ित ᳰ दन के`
+  line `आधार पर िवचारण करेगा।`
+  line `9. अिभिहत ᭠ यायालय ᳇ ारा िवचारणीय अपराध —(1) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते`
+  line `ᱟ ए भी, —`
+  line `( क ) इस अिधिनयम के अधीन सभी अपराध धारा 8 म ᱶ िन ᳸ द ᭬ ट अिभिहत ᭠ यायालय ᳇ ारा िवचारणीय ह ᲂ गे;`
+  line `( ख ) जहां ऐसा कोई ᭪ यि ᭍ त, जो इस अिधिनयम के अधीन ᳰ कसी अपराध का अिभयु ᭍ त है या िजसके ᳇ ारा अपराध`
+  line `के ᳰ कए जाने का संदेह है, दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) क ᳱ धारा 167 क ᳱ उपधारा (2) या उपधारा (2 क ) के`
+  line `अधीन ᳰ कसी मिज ᭭ ᮝ े ट के पास भेजा जाता है, वहां वह मिज ᭭ ᮝ े ट ऐसे ᭪ यि ᭍ त का ऐसी अिभर ᭃ ा म ᱶ िनरोध, जैसा वह ठीक`
+  line `समझे, जहां ऐसा मिज ᭭ ᮝ े ट ᭠ याियक मिज ᭭ ᮝ े ट है वहां कुल िमलाकर तीस ᳰ दन से अनिधक अविध के िलए और जहां ऐसा`
+  line `मिज ᭭ ᮝ े ट काय ᭅ पालक मिज ᭭ ᮝ े ट है वहां कुल िमलाकर सात ᳰ दन से अनिधक अविध के िलए ᮧ ािधकृत कर सकेगा:`
+  line `परंतु, ऐसा मिज ᭭ ᮝ े ट, —`
+  line `(i) जब ऐसा ᭪ यि ᭍ त उसके पास पूव ᲃ᭍ त रीित से भेजा जाता है; या`
+  line `(ii) उसके ᳇ ारा ᮧ ािधकृत िनरोध क ᳱ अविध क ᳱ समाि ᭡ त पर या उससे पूव ᭅ ᳰ कसी समय, य ᳰ द उसका`
+  line `िवचार है ᳰ क ऐसे ᭪ यि ᭍ त का िन ᱧ᳍ रखना अपेि ᭃ त नह ᱭ है, तो वह ऐसे ᭪ यि ᭍ त को उस अिभिहत ᭠ यायालय को,`
+  line `िजसे अिधका ᳯ रता है, भेजने का आदेश करेगा;`
+  line `( ग ) अिभिहत ᭠ यायालय, खंड ( ख ) के अधीन अपने पास भेजे गए ᭪ यि ᭍ त के संबंध म ᱶ उसी शि ᭍ त का ᮧ योग कर`
+  line `सकेगा जो वह मिज ᭭ ᮝ े ट, िजसे मामले के िवचारण क ᳱ अिधका ᳯ रता है, ऐसे मामले म ᱶ दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2)`
+  line `क ᳱ धारा 167 के अधीन अिभयु ᭍ त ᭪ यि ᭍ त के संबंध म ᱶ, जो उस धारा के अधीन उसके पास भेजा गया है, ᮧ योग करता;`
+  line `( घ ) अिभिहत ᭠ यायालय, अिभकरण ᳇ ारा फाइल क ᳱ गई ᳯ रपोट ᭅ या इस िनिम ᱫ ᮧ ािधकृत, यथाि ᭭ थित, के ᭠ ᮤ ीय`
+  line `सरकार या रा ᭔ य सरकार के ᳰ कसी अिधकारी ᳇ ारा ᳰ कए गए ᳰ कसी प ᳯ रवाद के प ᳯ रशीलन पर उस अपराध का सं ᭄ ान`
+  line `अिभयु ᭍ त को िवचारण के िलए सुपुद ᭅ ᳰ कए जाने के िबना कर सकेगा।`
+  line `(2) इस अिधिनयम के अधीन ᳰ कसी अपराध का िवचारण करते समय अिभिहत ᭠ यायालय, इस अिधिनयम के अधीन ᳰ कसी`
+  line `अपराध से िभ ᭠ न ᳰ कसी ऐसे अपराध का भी िजससे अिभयु ᭍ त उसी िवचारण म ᱶ दंड ᮧᳰᮓ या सं िहता, 1973 (1974 का 2) के अधीन`
+  line `आरोिपत ᳰ कया जा सकता है, िवचारण कर सकेगा।`
+  line `10. अिभिहत ᭠ यायालय के सम ᭃ काय ᭅ वािहय ᲂ म ᱶ संिहता का लागू होना — इस अिधिनयम म ᱶ जैसा अ ᭠ यथा उपबंिधत है उसके`
+  line `िसवाय, दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) के उपबंध अिभिहत ᭠ यायालय के सम ᭃ काय ᭅ वािहय ᲂ को लागू ह ᲂ गे और अिभिहत`
+  line `᭠ यायालय के सम ᭃ अिभयोजन का संचालन करने वाले ᭪ यि ᭍ त को लोक अिभयोजक समझा जाएगा।`
+  line `अ ᭟ याय 3`
+  line `ᮧ क ᳱ ण ᭅ`
+  line `11. ᮧ᭜ यप ᭅ ण के बारे म ᱶ उपबंध —(1) धारा 3 और धारा 5 के अधीन अपराध ᮧ᭜ यप ᭅ णीय अपराध ᲂ के ᱨ प म ᱶ सि ᭥ मिलत ᳰ कए`
+  line `गए और उन सभी ᮧ᭜ यप ᭅ ण संिधय ᲂ म ᱶ उपबंिधत ᳰ कए गए समझे जाएंगे जो भारत ᳇ ारा क ᭠ व ᱶ शन देश ᲂ के साथ क ᳱ गई ह ᱹ और िजनका`
+  line `िव ᭭ तार इस अिधिनयम के ᮧ ारंभ क ᳱ तारीख को, भारत पर है और जो भारत पर आब ᳍ कर ह ᱹ।`
+  line `(2) इस अिधिनयम के अधीन अपराध ᲂ को ᮧ᭜ यप ᭅ ण अिधिनयम, 1962 (1962 का 34) के लागू ᳰ कए जाने के ᮧ योजन ᲂ के िलए,`
+  line `ऐसे वायुयान के बारे म ᱶ, जो ᳰ कसी क ᭠ व ᱶ शन देश म ᱶ रिज ᭭ ᮝ ीकृत है, ᳰ कसी भी समय जब वह वायुयान सेवारत है, यह समझा जाएगा ᳰ क`
+  line `वह उस देश क ᳱ अिधका ᳯ रता के भीतर है चाहे वह त ᭜ समय ᳰ कसी अ ᭠ य देश क ᳱ अिधका ᳯ रता के भीतर भी हो या न हो।`
+  line `(3) धारा 3 म ᱶ उि ᭨ लिखत ᳰ कसी भी अपराध को ᮧ᭜ यप ᭅ ण या पार ᭭ प ᳯ रक िविधक सहायता के ᮧ योजन ᲂ के िलए, राजनीितक`
+  line `अपराध के ᱨ प म ᱶ या ᳰ कसी राजनीितक अपराध से संब ᳍ अपराध के ᱨ प म ᱶ या राजनीितक हेतुक ᲂ ᳇ ारा ᮧ े ᳯ रत अपराध के ᱨ प म ᱶ नह ᱭ`
+  line `माना जाएगा और ᳰ कसी ऐसे अपराध पर आधा ᳯ रत ᮧ᭜ यप ᭅ ण या पार ᭭ प ᳯ रक िविधक सहायता के िलए ᳰ कसी अनुरोध को केवल इस`
+  line `आधार पर नामंजूर नह ᱭ ᳰ कया जाएगा ᳰ क उसका सरोकार, राजनीितक अपराध या ᳰ कसी राजनीितक अपराध से संब ᳍ अपराध या`
+  line `राजनीितक हेतुक ᲂ ᳇ ारा ᮧ े ᳯ रत ᳰ कसी अपराध से है।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `5
-12. जमानत के बारे म ᱶ उपबंध —(1) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते ᱟ ए भी इस अिधिनयम के
-अधीन दंडनीय ᳰ कसी अपराध का अिभयु ᭍ त कोई ᭪ यि ᭍ त, य ᳰ द वह अिभर ᭃ ा म ᱶ है तो, जमानत पर या अपने ᭭ वयं के बंधप ᮢ पर तब तक
-नह ᱭ छोडा़ जाएगा जब तक ᳰ क —
-( क ) लोक अिभयोजक को ऐसे छोड़े जाने के आवेदन का िवरोध करने का अवसर न दे ᳰ दया गया हो; और
-( ख ) जहां लोक अिभयोजक ऐसे आवेदन का िवरोध करता है वहां, अिभिहत ᭠ यायालय का यह समाधान न हो जाए
-ᳰ क यह िव ᭫ वास करने के िलए युि ᭍ तयु ᭍ त आधार है ᳰ क वह ऐसे अपराध का दोषी नह ᱭ है और उससे, जब ᳰ क वह जमानत पर
-है, कोई अपराध ᳰ कए जाने क ᳱ संभावना नह ᱭ है।
-(2) उपधारा (1) म ᱶ िविन ᳸ द ᭬ ट जमानत मंजूर ᳰ कए जाने पर िनब ᭅ ᭠ धन दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) या त ᭜ समय
-ᮧ वृ ᱫ ᳰ कसी अ ᭠ य िविध के अधीन जमानत मंजूर ᳰ कए जाने पर िनब ᭅ ᭠ धन के अित ᳯ र ᭍ त है।
-(3) इस धारा क ᳱ कोई बात दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) क ᳱ धारा 439 के अधीन जमानत के बारे म ᱶ उ ᭒ च
-᭠ यायालय क ᳱ िवशेष शि ᭍ तय ᲂ पर ᮧ भाव डालने वाली नह ᱭ समझी जाएगी।
-13. क ᭠ व ᱶ शन के संिवदाकारी प ᭃ कार — के ᭠ ᮤ ीय सरकार, अिधसूचना ᳇ ारा, यह ᮧ मािणत कर सकेगी ᳰ क हेग क ᭠ व ᱶ शन के
-संिवदाकारी प ᭃ कार कौन - कौन ह ᱹ और उ ᭠ ह ᲂ ने क ᭠ व ᱶ शन के उपबंध ᲂ का ᳰ कस िव ᭭ तार तक उपयोग ᳰ कया है और ऐसी कोई भी
-अिधसूचना उसम ᱶ ᮧ मािणत िवषय ᲂ के बारे म ᱶ िन ᭫ चायक सा ᭯ य होगी।
-14. कितपय वायुयान ᲂ को क ᭠ व ᱶ शन देश ᲂ म ᱶ रिज ᭭ ᮝ ीकृत समझने क ᳱ शि ᭍ त —(1) य ᳰ द के ᭠ ᮤ ीय सरकार का यह समाधान हो
-जाता है ᳰ क ᳰ कसी वायुयान के संबंध म ᱶ उपधारा (2) क ᳱ अपे ᭃ ा Ა क ᳱ पू ᳶ त हो गई है तो वह, अिधसूचना ᳇ ारा, यह िनदेश दे सकेगी ᳰ क
-इस अिधिनयम के ᮧ योजन ᲂ के िलए ऐसा वायुयान उस क ᭠ व ᱶ शन देश म ᱶ रिज ᭭ ᮝ ीकृत समझा जाएगा, जो इस अिधसूचना म ᱶ िविन ᳸ द ᭬ ट
-ᳰ कया जाए।
-(2) जहां क ᭠ व ᱶ शन देश, ऐसे संयु ᭍ त वायु प ᳯ रवहन संचालन संगठन या अंतररा ᭬ ᮝ ीय सं चालन अिभकरण ᭭ थािपत करते ह ᱹ, जो
-वायुयान चलाते ह ᱹ, जो संयु ᭍ त या अंतररा ᭬ ᮝ ीय रिज ᭭ ᮝ ीकरण के अधीन ह ᱹ, ᮧ᭜ ये क वायुयान के िलए समुिचत उपाय ᲂ ᳇ ारा ᭭ वयं म ᱶ से
-ऐसा देश अिभिहत कर ᱶ गे जो अिधका ᳯ रता का ᮧ योग करेगा और जो क ᭠ व ᱶ शन के ᮧ योजन ᲂ के िलए रिज ᭭ ᮝ ी का देश पर होगा तथा वह
-अंतररा ᭬ ᮝ ीय िसिवल िवमानन संगठन के महासिचव को उसक ᳱ सूचना देगा जो आगे सभी क ᭠ व ᱶ शन देश ᲂ को वह सूचना संसूिचत करेगा।
-15. अिभयोजन के िलए पूव ᭅ मंजूरी का आव ᭫ यक होना — इस अिधिनयम के अधीन ᳰ कसी अपराध के िलए कोई अिभयोजन
-के ᭠ ᮤ ीय सरकार क ᳱ पूव ᭅ मंजूरी से ही संि ᭭ थत ᳰ कया जाएगा, अ ᭠ यथा नह ᱭ।
-16. धारा 3 और धारा 5 के अधीन अपराध ᲂ के बारे म ᱶ उपधारणा — धारा 3 या धारा 5 के अधीन ᳰ कसी अपराध के
-अिभयोजन म ᱶ, य ᳰ द यह सािबत कर ᳰ दया जाता है, ᳰ क, —
-( क ) अिभयु ᭍ त के क ᭣ जे म ᱶ से कोई आयुध, गोलाबा ᱨ द या िव ᭭ फोटक बरामद ᳰ कए गए थे और यह िव ᭫ वास करने
-का कारण है ᳰ क इसी ᮧ कार के आयुध, गोलाबा ᱨ द या िव ᭭ फोटक ऐसे अपराध के ᳰ कए जाने म ᱶ उपयोग म ᱶ लाए गए थे; या
-( ख ) ऐसे अपराध के ᳰ कए जाने के संबंध म ᱶ कम ᱮ दल या याि ᮢ य ᲂ पर बल के ᮧ योग, बल क ᳱ धमक ᳱ या ᳰ कसी अ ᭠ य
-ᮧ कार का अिभ ᮢ ास ᳰ दए जाने का सा ᭯ य है,
-तो अिभिहत ᭠ यायालय जब तक ᳰ क इसके ᮧ ितकूल सािबत नह ᱭ कर ᳰ दया जाता है, यह उपधारणा करेगा ᳰ क अिभयु ᭍ त ने ऐसा अपराध
-ᳰ कया है।
-17. स ᳊ ावपूव ᭅ क क ᳱ गई कार ᭅ वाई के िलए संर ᭃ ण —(1) इस अिधिनयम के उपबंध ᲂ के अनुसरण म ᱶ स ᳊ ावपूव ᭅ क क ᳱ गई या क ᳱ
-जाने के िलए आशियत ᳰ कसी बात के िलए कोई भी वाद, अिभयोजन या अ ᭠ य िविधक काय ᭅ वाही ᳰ कसी ᭪ यि ᭍ त के िव ᱧ᳍ नह ᱭ होगी।
-(2) इस अिधिनयम के उपबंध ᲂ के अनुसरण म ᱶ स ᳊ ावपूव ᭅ क क ᳱ गई या क ᳱ जाने के िलए आशियत ᳰ कसी बात से ᱟ ए या हो
-सकने वाले ᳰ कसी नुकसान के िलए कोई भी वाद या अ ᭠ य िविधक काय ᭅ वाही के ᭠ ᮤ ीय सरकार के िव ᱧ᳍ नह ᱭ होगी।
-18. अ ᭠ वे षण अिधकारी क ᳱ संपि ᱫ अिभ ᮕ हण या कुक ᭅ करने क ᳱ शि ᭍ त —(1) जहां धारा 6 म ᱶ िन ᳸ द ᭬ ट ᳰ कसी अिधकारी को,
-कोई जांच या अ ᭠ वे षण करते समय यह िव ᭫ वास करने का कारण है ᳰ क कोई संपि ᱫ, जंगम या ᭭ थावर या दोन ᲂ, ऐसे अपराध के ᳰ कए
-जाने से संबंिधत है िजसके स ᭥ ब ᭠ ध म ᱶ ऐसी जांच या अ ᭠ वे षण ᳰ कया जा रहा है, ᳰ कसी ऐसी रीित से िछपाई, अंत ᳯ रत या िनपटाई जाने
-क ᳱ संभावना है िजसका प ᳯ रणाम ऐसी संपि ᱫ के ᭪ ययन म ᱶ होगा वहां वह, ऐसी संपि ᱫ का अिभ ᮕ हण करने के िलए कोई आदेश कर
-सकेगा और जहां ऐसी संपि ᱫ का अिभ ᮕ हण करना ᭪ यवहाय ᭅ नह ᱭ है वहां वह, यह िनदेश देते ᱟ ए कुक ᳹ का आदेश कर सकेगा ᳰ क ऐसी
-संपि ᱫ को ऐसा आदेश करने वाले अिधकारी क ᳱ पूव ᭅ अनुमित के िसवाय अं त ᳯ रत या अ ᭠ यथा िनपटान नह ᱭ ᳰ कया जाएगा और ऐसे आदेश
-क ᳱ एक ᮧ ित संब ᳍ ᭪ यि ᭍ त पर तामील क ᳱ जाएगी।
-(2) उपधारा (1) के अधीन ᳰ कए गए ᳰ कसी आदेश का तब तक कोई ᮧ भाव नह ᱭ होगा जब तक उ ᭍ त आदेश क ᳱ, उसके ᳰ कए
-जाने के अड़तालीलस घंटे क ᳱ अविध के भीतर अिभिहत ᭠ यायालय के ᳰ कसी आदेश ᳇ ारा पुि ᭬ ट नह ᱭ कर दी जाती है।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 5
+  line `12. जमानत के बारे म ᱶ उपबंध —(1) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते ᱟ ए भी इस अिधिनयम के`
+  line `अधीन दंडनीय ᳰ कसी अपराध का अिभयु ᭍ त कोई ᭪ यि ᭍ त, य ᳰ द वह अिभर ᭃ ा म ᱶ है तो, जमानत पर या अपने ᭭ वयं के बंधप ᮢ पर तब तक`
+  line `नह ᱭ छोडा़ जाएगा जब तक ᳰ क —`
+  line `( क ) लोक अिभयोजक को ऐसे छोड़े जाने के आवेदन का िवरोध करने का अवसर न दे ᳰ दया गया हो; और`
+  line `( ख ) जहां लोक अिभयोजक ऐसे आवेदन का िवरोध करता है वहां, अिभिहत ᭠ यायालय का यह समाधान न हो जाए`
+  line `ᳰ क यह िव ᭫ वास करने के िलए युि ᭍ तयु ᭍ त आधार है ᳰ क वह ऐसे अपराध का दोषी नह ᱭ है और उससे, जब ᳰ क वह जमानत पर`
+  line `है, कोई अपराध ᳰ कए जाने क ᳱ संभावना नह ᱭ है।`
+  line `(2) उपधारा (1) म ᱶ िविन ᳸ द ᭬ ट जमानत मंजूर ᳰ कए जाने पर िनब ᭅ ᭠ धन दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) या त ᭜ समय`
+  line `ᮧ वृ ᱫ ᳰ कसी अ ᭠ य िविध के अधीन जमानत मंजूर ᳰ कए जाने पर िनब ᭅ ᭠ धन के अित ᳯ र ᭍ त है।`
+  line `(3) इस धारा क ᳱ कोई बात दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) क ᳱ धारा 439 के अधीन जमानत के बारे म ᱶ उ ᭒ च`
+  line `᭠ यायालय क ᳱ िवशेष शि ᭍ तय ᲂ पर ᮧ भाव डालने वाली नह ᱭ समझी जाएगी।`
+  line `13. क ᭠ व ᱶ शन के संिवदाकारी प ᭃ कार — के ᭠ ᮤ ीय सरकार, अिधसूचना ᳇ ारा, यह ᮧ मािणत कर सकेगी ᳰ क हेग क ᭠ व ᱶ शन के`
+  line `संिवदाकारी प ᭃ कार कौन - कौन ह ᱹ और उ ᭠ ह ᲂ ने क ᭠ व ᱶ शन के उपबंध ᲂ का ᳰ कस िव ᭭ तार तक उपयोग ᳰ कया है और ऐसी कोई भी`
+  line `अिधसूचना उसम ᱶ ᮧ मािणत िवषय ᲂ के बारे म ᱶ िन ᭫ चायक सा ᭯ य होगी।`
+  line `14. कितपय वायुयान ᲂ को क ᭠ व ᱶ शन देश ᲂ म ᱶ रिज ᭭ ᮝ ीकृत समझने क ᳱ शि ᭍ त —(1) य ᳰ द के ᭠ ᮤ ीय सरकार का यह समाधान हो`
+  line `जाता है ᳰ क ᳰ कसी वायुयान के संबंध म ᱶ उपधारा (2) क ᳱ अपे ᭃ ा Ა क ᳱ पू ᳶ त हो गई है तो वह, अिधसूचना ᳇ ारा, यह िनदेश दे सकेगी ᳰ क`
+  line `इस अिधिनयम के ᮧ योजन ᲂ के िलए ऐसा वायुयान उस क ᭠ व ᱶ शन देश म ᱶ रिज ᭭ ᮝ ीकृत समझा जाएगा, जो इस अिधसूचना म ᱶ िविन ᳸ द ᭬ ट`
+  line `ᳰ कया जाए।`
+  line `(2) जहां क ᭠ व ᱶ शन देश, ऐसे संयु ᭍ त वायु प ᳯ रवहन संचालन संगठन या अंतररा ᭬ ᮝ ीय सं चालन अिभकरण ᭭ थािपत करते ह ᱹ, जो`
+  line `वायुयान चलाते ह ᱹ, जो संयु ᭍ त या अंतररा ᭬ ᮝ ीय रिज ᭭ ᮝ ीकरण के अधीन ह ᱹ, ᮧ᭜ ये क वायुयान के िलए समुिचत उपाय ᲂ ᳇ ारा ᭭ वयं म ᱶ से`
+  line `ऐसा देश अिभिहत कर ᱶ गे जो अिधका ᳯ रता का ᮧ योग करेगा और जो क ᭠ व ᱶ शन के ᮧ योजन ᲂ के िलए रिज ᭭ ᮝ ी का देश पर होगा तथा वह`
+  line `अंतररा ᭬ ᮝ ीय िसिवल िवमानन संगठन के महासिचव को उसक ᳱ सूचना देगा जो आगे सभी क ᭠ व ᱶ शन देश ᲂ को वह सूचना संसूिचत करेगा।`
+  line `15. अिभयोजन के िलए पूव ᭅ मंजूरी का आव ᭫ यक होना — इस अिधिनयम के अधीन ᳰ कसी अपराध के िलए कोई अिभयोजन`
+  line `के ᭠ ᮤ ीय सरकार क ᳱ पूव ᭅ मंजूरी से ही संि ᭭ थत ᳰ कया जाएगा, अ ᭠ यथा नह ᱭ।`
+  line `16. धारा 3 और धारा 5 के अधीन अपराध ᲂ के बारे म ᱶ उपधारणा — धारा 3 या धारा 5 के अधीन ᳰ कसी अपराध के`
+  line `अिभयोजन म ᱶ, य ᳰ द यह सािबत कर ᳰ दया जाता है, ᳰ क, —`
+  line `( क ) अिभयु ᭍ त के क ᭣ जे म ᱶ से कोई आयुध, गोलाबा ᱨ द या िव ᭭ फोटक बरामद ᳰ कए गए थे और यह िव ᭫ वास करने`
+  line `का कारण है ᳰ क इसी ᮧ कार के आयुध, गोलाबा ᱨ द या िव ᭭ फोटक ऐसे अपराध के ᳰ कए जाने म ᱶ उपयोग म ᱶ लाए गए थे; या`
+  line `( ख ) ऐसे अपराध के ᳰ कए जाने के संबंध म ᱶ कम ᱮ दल या याि ᮢ य ᲂ पर बल के ᮧ योग, बल क ᳱ धमक ᳱ या ᳰ कसी अ ᭠ य`
+  line `ᮧ कार का अिभ ᮢ ास ᳰ दए जाने का सा ᭯ य है,`
+  line `तो अिभिहत ᭠ यायालय जब तक ᳰ क इसके ᮧ ितकूल सािबत नह ᱭ कर ᳰ दया जाता है, यह उपधारणा करेगा ᳰ क अिभयु ᭍ त ने ऐसा अपराध`
+  line `ᳰ कया है।`
+  line `17. स ᳊ ावपूव ᭅ क क ᳱ गई कार ᭅ वाई के िलए संर ᭃ ण —(1) इस अिधिनयम के उपबंध ᲂ के अनुसरण म ᱶ स ᳊ ावपूव ᭅ क क ᳱ गई या क ᳱ`
+  line `जाने के िलए आशियत ᳰ कसी बात के िलए कोई भी वाद, अिभयोजन या अ ᭠ य िविधक काय ᭅ वाही ᳰ कसी ᭪ यि ᭍ त के िव ᱧ᳍ नह ᱭ होगी।`
+  line `(2) इस अिधिनयम के उपबंध ᲂ के अनुसरण म ᱶ स ᳊ ावपूव ᭅ क क ᳱ गई या क ᳱ जाने के िलए आशियत ᳰ कसी बात से ᱟ ए या हो`
+  line `सकने वाले ᳰ कसी नुकसान के िलए कोई भी वाद या अ ᭠ य िविधक काय ᭅ वाही के ᭠ ᮤ ीय सरकार के िव ᱧ᳍ नह ᱭ होगी।`
+  line `18. अ ᭠ वे षण अिधकारी क ᳱ संपि ᱫ अिभ ᮕ हण या कुक ᭅ करने क ᳱ शि ᭍ त —(1) जहां धारा 6 म ᱶ िन ᳸ द ᭬ ट ᳰ कसी अिधकारी को,`
+  line `कोई जांच या अ ᭠ वे षण करते समय यह िव ᭫ वास करने का कारण है ᳰ क कोई संपि ᱫ, जंगम या ᭭ थावर या दोन ᲂ, ऐसे अपराध के ᳰ कए`
+  line `जाने से संबंिधत है िजसके स ᭥ ब ᭠ ध म ᱶ ऐसी जांच या अ ᭠ वे षण ᳰ कया जा रहा है, ᳰ कसी ऐसी रीित से िछपाई, अंत ᳯ रत या िनपटाई जाने`
+  line `क ᳱ संभावना है िजसका प ᳯ रणाम ऐसी संपि ᱫ के ᭪ ययन म ᱶ होगा वहां वह, ऐसी संपि ᱫ का अिभ ᮕ हण करने के िलए कोई आदेश कर`
+  line `सकेगा और जहां ऐसी संपि ᱫ का अिभ ᮕ हण करना ᭪ यवहाय ᭅ नह ᱭ है वहां वह, यह िनदेश देते ᱟ ए कुक ᳹ का आदेश कर सकेगा ᳰ क ऐसी`
+  line `संपि ᱫ को ऐसा आदेश करने वाले अिधकारी क ᳱ पूव ᭅ अनुमित के िसवाय अं त ᳯ रत या अ ᭠ यथा िनपटान नह ᱭ ᳰ कया जाएगा और ऐसे आदेश`
+  line `क ᳱ एक ᮧ ित संब ᳍ ᭪ यि ᭍ त पर तामील क ᳱ जाएगी।`
+  line `(2) उपधारा (1) के अधीन ᳰ कए गए ᳰ कसी आदेश का तब तक कोई ᮧ भाव नह ᱭ होगा जब तक उ ᭍ त आदेश क ᳱ, उसके ᳰ कए`
+  line `जाने के अड़तालीलस घंटे क ᳱ अविध के भीतर अिभिहत ᭠ यायालय के ᳰ कसी आदेश ᳇ ारा पुि ᭬ ट नह ᱭ कर दी जाती है।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `6
-(3) अिभिहत ᭠ यायालय, उपधारा (2) म ᱶ िन ᳸ द ᭬ ट अिभ ᮕ हण या कुक ᭅ करने के आदेश क ᳱ पुि ᭬ ट कर सकेगा और उसे ᮧ ितसं ᱡ त
-कर सकेगा।
-(4) उपधारा (3) के अधीन अिभिहत ᭠ यायालय ᳇ ारा आदेश के पुि ᭬ टकरण के होते ᱟ ए भी, उपधारा (1) के अधीन ᳰ कए गए
-कुक ᳹ के आदेश से ᭪ यिथत कोई ᭪ यि ᭍ त, उपधारा (3) के अधीन आदेश के पुि ᭬ टकरण क ᳱ तारीख से तीस ᳰ दन क ᳱ अविध के भीतर उ ᭍ त
-आदेश के ᮧ ितसंहरण के िलए अिभिहत ᭠ यायालय को आवेदन कर सकेगा।
-19. संपि ᱫ का अिधहरण और समपहरण — जहां अिभिहत ᭠ यायालय ᳇ ारा धारा 4 के अधीन अिभयु ᭍ त क ᳱ जंगम या ᭭ थावर
-संपि ᱫ या दोन ᲂ के अिधहरण के िलए कोई आदेश ᳰ कया जाता है, वहां ऐसी संपि ᱫ सभी िव ᭨ लंगम ᲂ से मु ᭍ त होकर सरकार को समप ᱡ त
-हो जाएगी:
-परंतु अिभिहत ᭠ यायालय, ऐसे िवचारण क ᳱ अविध के दौरान यह आदे श कर सकेगा ᳰ क अिभयु ᭍ त क ᳱ सभी संपि ᱫ यां या
-संपि ᱫ य ᲂ म ᱶ से कोई संपि ᱫ जंगम या ᭭ थावर या दोन ᲂ क ᳱ कुक ᳹ क ᳱ जाए और य ᳰ द ऐसे िवचारण के अंत म ᱶ दोषिसि ᳍ क ᳱ जाती है तो इस
-ᮧ कार कुक ᭅ क ᳱ गई संपि ᱫ सभी िव ᭨ लंगम ᲂ से मु ᭍ त होकर सरकार को समप ᱡ त हो जाएगी।
-20. िनयम बनाने क ᳱ साधारण शि ᭍ त —(1) के ᭠ ᮤ ीय सरकार इस अिधिनयम के उपबंध ᲂ को काया ᭅ ि ᭠ वत करने के िलए िनयम,
-अिधसू चना ᳇ ारा बना सकेगी।
-(2) इस अिधिनयम के अधीन के ᭠ ᮤ ीय सरकार ᳇ ारा बनाया गया ᮧ᭜ ये क िनयम, बनाए जाने के प ᭫ चात् यथाशी ᮖ संसद् के
-ᮧ᭜ ये क सदन के सम ᭃ, जब वह स ᮢ म ᱶ हो, कुल तीस ᳰ दन क ᳱ अविध के िलए रखा जाएगा। यह अविध एक स ᮢ म ᱶ अथवा दो या अिधक
-आनु ᮓ िमक स ᮢ ᲂ म ᱶ पूरी हो सकेगी। य ᳰ द उस स ᮢ के या पूव ᲃ᭍ त आनु ᮓ िमक स ᮢ ᲂ के ठीक बाद के स ᮢ के अवसान के पूव ᭅ दोन ᲂ सदन उस
-िनयम म ᱶ कोई प ᳯ रवत ᭅ न करने के िलए सहमत हो जाएं तो त ᭜ प ᭫ चात् वह ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही ᮧ भावी होगा। य ᳰ द उ ᭍ त अवसान के
-पूव ᭅ दोन ᲂ सदन सहमत हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो त ᭜ प ᭫ चात् वह िन ᭬ ᮧ भाव हो जाएगा। ᳰ क ᭠ तु िनयम के ऐसे
-प ᳯ रव ᳶ तत या िन ᭬ ᮧ भाव होने से उसके अधीन पहले क ᳱ गई ᳰ कसी बात क ᳱ िविधमा ᭠ यता पर ᮧ ितकूल ᮧ भाव नह ᱭ पड़े गा।
-21. िनरसन और ᭪ यावृि ᱫ —(1) यान - हरण िनवारण अिधिनयम, 1982 (1982 का 62) इसके ᳇ ारा िनरिसत ᳰ कया जाता है।
-(2) उ ᭍ त अिधिनयम का िनरसन,—
-( क ) इस ᮧ कार िनरिसत ᳰ कए गए अिधिनयम के पूव ᭅ ᮧ वत ᭅ न, या उसके अधीन स ᭥ यक् ᱨ प से क ᳱ गई या सहन क ᳱ
-गई ᳰ कसी बात या क ᳱ गई ᳰ कसी कार ᭅ वाई या ᳰ कए जाने के िलए ता ᭜ प ᳶ यत कोई कार ᭅ वाई, िजसके अंतग ᭅ त जारी क ᳱ गई
-कोई अिधसूचना या ᳰ कया गया आदेश या जारी क ᳱ गई सूचना या क ᳱ गई कोई िनयुि ᭍ त, पुि ᭬ टकरण या घोषणा या ᳰ दया गया
-कोई ᮧ ािधकार या िन ᭬ पा ᳰ दत ᳰ कया गया कोई द ᭭ तावेज या िलखत या ᳰ दया गया कोई िनदेश भी है और जहां तक वह इस
-अिधिनयम के उपबंध ᲂ से असंगत नह ᱭ है, इस अिधिनयम के त ᭜ ᭭ थानी उपबंध ᲂ के अधीन क ᳱ गई समझी जाएगी;
-( ख ) उ ᭍ त अिधिनयम के अधीन अ ᳶ जत, ᮧ ो ᭞ भूत या उपगत ᳰ कसी अिधकार, िवशेषािधकार या बा ᭟ यता; या
-( ग ) उ ᭍ त अिधिनयम के अधीन ᳰ कसी अपराध के संबंध म ᱶ उपगत ᳰ कसी शाि ᭭ त, समपहरण या दंड; या
-( घ ) यथापूव ᲃ᭍ त ᳰ कसी ऐसे अिधकार, िवशेषािधकार, बा ᭟ यता, दािय ᭜ व, शाि ᭭ त, समपहरण या दंड के संबंध म ᱶ
-ᳰ कसी अ ᭠ वेषण, िविधक काय ᭅ वाही या उपचार पर,
-ᮧ भाव नह ᱭ डालेगा और ऐसा कोई अ ᭠ वेषण, िविधक काय ᭅ वाही या उपचार, वैसे ही संि ᭭ थत ᳰ कया जा सकेगा, चालू रखा जा सकेगा या
-ᮧ व ᳶ तत ᳰ कया जा सकेगा तथा ऐसी शाि ᭭ त, समपहरण या दंड वैसे ही अिधरोिपत ᳰ कया जा सकेगा मानो उ ᭍ त अिधिनयम िनरिसत
-नह ᱭ ᳰ कया गया हो।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 6
+  line `(3) अिभिहत ᭠ यायालय, उपधारा (2) म ᱶ िन ᳸ द ᭬ ट अिभ ᮕ हण या कुक ᭅ करने के आदेश क ᳱ पुि ᭬ ट कर सकेगा और उसे ᮧ ितसं ᱡ त`
+  line `कर सकेगा।`
+  line `(4) उपधारा (3) के अधीन अिभिहत ᭠ यायालय ᳇ ारा आदेश के पुि ᭬ टकरण के होते ᱟ ए भी, उपधारा (1) के अधीन ᳰ कए गए`
+  line `कुक ᳹ के आदेश से ᭪ यिथत कोई ᭪ यि ᭍ त, उपधारा (3) के अधीन आदेश के पुि ᭬ टकरण क ᳱ तारीख से तीस ᳰ दन क ᳱ अविध के भीतर उ ᭍ त`
+  line `आदेश के ᮧ ितसंहरण के िलए अिभिहत ᭠ यायालय को आवेदन कर सकेगा।`
+  line `19. संपि ᱫ का अिधहरण और समपहरण — जहां अिभिहत ᭠ यायालय ᳇ ारा धारा 4 के अधीन अिभयु ᭍ त क ᳱ जंगम या ᭭ थावर`
+  line `संपि ᱫ या दोन ᲂ के अिधहरण के िलए कोई आदेश ᳰ कया जाता है, वहां ऐसी संपि ᱫ सभी िव ᭨ लंगम ᲂ से मु ᭍ त होकर सरकार को समप ᱡ त`
+  line `हो जाएगी:`
+  line `परंतु अिभिहत ᭠ यायालय, ऐसे िवचारण क ᳱ अविध के दौरान यह आदे श कर सकेगा ᳰ क अिभयु ᭍ त क ᳱ सभी संपि ᱫ यां या`
+  line `संपि ᱫ य ᲂ म ᱶ से कोई संपि ᱫ जंगम या ᭭ थावर या दोन ᲂ क ᳱ कुक ᳹ क ᳱ जाए और य ᳰ द ऐसे िवचारण के अंत म ᱶ दोषिसि ᳍ क ᳱ जाती है तो इस`
+  line `ᮧ कार कुक ᭅ क ᳱ गई संपि ᱫ सभी िव ᭨ लंगम ᲂ से मु ᭍ त होकर सरकार को समप ᱡ त हो जाएगी।`
+  line `20. िनयम बनाने क ᳱ साधारण शि ᭍ त —(1) के ᭠ ᮤ ीय सरकार इस अिधिनयम के उपबंध ᲂ को काया ᭅ ि ᭠ वत करने के िलए िनयम,`
+  line `अिधसू चना ᳇ ारा बना सकेगी।`
+  line `(2) इस अिधिनयम के अधीन के ᭠ ᮤ ीय सरकार ᳇ ारा बनाया गया ᮧ᭜ ये क िनयम, बनाए जाने के प ᭫ चात् यथाशी ᮖ संसद् के`
+  line `ᮧ᭜ ये क सदन के सम ᭃ, जब वह स ᮢ म ᱶ हो, कुल तीस ᳰ दन क ᳱ अविध के िलए रखा जाएगा। यह अविध एक स ᮢ म ᱶ अथवा दो या अिधक`
+  line `आनु ᮓ िमक स ᮢ ᲂ म ᱶ पूरी हो सकेगी। य ᳰ द उस स ᮢ के या पूव ᲃ᭍ त आनु ᮓ िमक स ᮢ ᲂ के ठीक बाद के स ᮢ के अवसान के पूव ᭅ दोन ᲂ सदन उस`
+  line `िनयम म ᱶ कोई प ᳯ रवत ᭅ न करने के िलए सहमत हो जाएं तो त ᭜ प ᭫ चात् वह ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही ᮧ भावी होगा। य ᳰ द उ ᭍ त अवसान के`
+  line `पूव ᭅ दोन ᲂ सदन सहमत हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो त ᭜ प ᭫ चात् वह िन ᭬ ᮧ भाव हो जाएगा। ᳰ क ᭠ तु िनयम के ऐसे`
+  line `प ᳯ रव ᳶ तत या िन ᭬ ᮧ भाव होने से उसके अधीन पहले क ᳱ गई ᳰ कसी बात क ᳱ िविधमा ᭠ यता पर ᮧ ितकूल ᮧ भाव नह ᱭ पड़े गा।`
+  line `21. िनरसन और ᭪ यावृि ᱫ —(1) यान - हरण िनवारण अिधिनयम, 1982 (1982 का 62) इसके ᳇ ारा िनरिसत ᳰ कया जाता है।`
+  line `(2) उ ᭍ त अिधिनयम का िनरसन,—`
+  line `( क ) इस ᮧ कार िनरिसत ᳰ कए गए अिधिनयम के पूव ᭅ ᮧ वत ᭅ न, या उसके अधीन स ᭥ यक् ᱨ प से क ᳱ गई या सहन क ᳱ`
+  line `गई ᳰ कसी बात या क ᳱ गई ᳰ कसी कार ᭅ वाई या ᳰ कए जाने के िलए ता ᭜ प ᳶ यत कोई कार ᭅ वाई, िजसके अंतग ᭅ त जारी क ᳱ गई`
+  line `कोई अिधसूचना या ᳰ कया गया आदेश या जारी क ᳱ गई सूचना या क ᳱ गई कोई िनयुि ᭍ त, पुि ᭬ टकरण या घोषणा या ᳰ दया गया`
+  line `कोई ᮧ ािधकार या िन ᭬ पा ᳰ दत ᳰ कया गया कोई द ᭭ तावेज या िलखत या ᳰ दया गया कोई िनदेश भी है और जहां तक वह इस`
+  line `अिधिनयम के उपबंध ᲂ से असंगत नह ᱭ है, इस अिधिनयम के त ᭜ ᭭ थानी उपबंध ᲂ के अधीन क ᳱ गई समझी जाएगी;`
+  line `( ख ) उ ᭍ त अिधिनयम के अधीन अ ᳶ जत, ᮧ ो ᭞ भूत या उपगत ᳰ कसी अिधकार, िवशेषािधकार या बा ᭟ यता; या`
+  line `( ग ) उ ᭍ त अिधिनयम के अधीन ᳰ कसी अपराध के संबंध म ᱶ उपगत ᳰ कसी शाि ᭭ त, समपहरण या दंड; या`
+  line `( घ ) यथापूव ᲃ᭍ त ᳰ कसी ऐसे अिधकार, िवशेषािधकार, बा ᭟ यता, दािय ᭜ व, शाि ᭭ त, समपहरण या दंड के संबंध म ᱶ`
+  line `ᳰ कसी अ ᭠ वेषण, िविधक काय ᭅ वाही या उपचार पर,`
+  line `ᮧ भाव नह ᱭ डालेगा और ऐसा कोई अ ᭠ वेषण, िविधक काय ᭅ वाही या उपचार, वैसे ही संि ᭭ थत ᳰ कया जा सकेगा, चालू रखा जा सकेगा या`
+  line `ᮧ व ᳶ तत ᳰ कया जा सकेगा तथा ऐसी शाि ᭭ त, समपहरण या दंड वैसे ही अिधरोिपत ᳰ कया जा सकेगा मानो उ ᭍ त अिधिनयम िनरिसत`
+  line `नह ᱭ ᳰ कया गया हो।`
+  line ______
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line

@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:43:44.845Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1515`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 20)
-  (str totalSections) (int 20)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:43:44.845Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1515`
+  completeFetch true
+  maxSections null
+  sectionCount 20
+  totalSections 20
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-prize-competitions-act-1955)
-  (str handle) (str 1515)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Prize Competitions Act, 1955`)
-  (str actNumber) (str 42)
-  (str enactmentDate) (str 1955-10-22)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1515`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `पुरस्‍कार प्रतियोगिता अधिनियम, 1955`)
-  (str actYear) (str 1955)
-  (str ministry) (str `Ministry of Finance`)
-  (str department) (str `Department of Financial Services`)
-  (str longTitle) (str `An Act to provide for the control and regulation of prize competitions.`)
-  (str enforcementDate) (str 01-04-1956)
-  (str notification) (str `1st April, 1956, vide Notification No. S.R.O. 766, dated 31st March, 1956, Gazette of India, Extraordinary, Part II, sec. 3`)
-  (str fetchedAt) (str `2026-05-08T20:15:34.092Z`)
-  (str translations) obj_root_law_translations
+  slug the-prize-competitions-act-1955
+  handle (1515)
+  collectionHandle 123456789/1362
+  title `The Prize Competitions Act, 1955`
+  actNumber (42)
+  enactmentDate 1955-10-22
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1515`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `पुरस्‍कार प्रतियोगिता अधिनियम, 1955`
+  actYear (1955)
+  ministry `Ministry of Finance`
+  department `Department of Financial Services`
+  longTitle `An Act to provide for the control and regulation of prize competitions.`
+  enforcementDate 01-04-1956
+  notification `1st April, 1956, vide Notification No. S.R.O. 766, dated 31st March, 1956, Gazette of India, Extraordinary, Part II, sec. 3`
+  fetchedAt `2026-05-08T20:15:34.092Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_prize_competitions_act_1955
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1515`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1515`
 obj_root_law_sources_en_the_prize_competitions_act_1955:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1515/1/AAA1955___42.pdf`)
-  (str title) (str `The Prize Competitions Act, 1955`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1515/1/AAA1955___42.pdf`
+  title `The Prize Competitions Act, 1955`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1955
 obj_root_law_sources_hi_1955:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1515/3/H1955-42.pdf`)
-  (str title) (str `पुरस्‍कार प्रतियोगिता अधिनियम, 1955`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1515/3/H1955-42.pdf`
+  title `पुरस्‍कार प्रतियोगिता अधिनियम, 1955`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -82,588 +72,705 @@ obj_root_law_sections:
   obj_root_law_sections_19
   obj_root_law_sections_20
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 32508)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Prize Competitions
-Act, 1955.
-
-(2) It extends to ^1[the territories which, immediately before the 1st November, 1956, were
-comprised in] the States of Andhra, Bombay, Madras, Orissa, Uttar Pradesh, Hyderabad, Madhya
-Bharat, Patiala and East Punjab States Union and Saurashtra and all Part C States.
-
-(3) It shall come into force on such date^2
-as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. Ins. by A. O. (No. 3), 1956.
-
-2. 1st April, 1956, vide Notification No. S.R.O. 766, dated 31st March, 1956, Gazette of India, Extraordinary, Part II,
-sec. 3.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32508&sectionno=1&orderno=1&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32508)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32508&sectionno=1&orderno=1&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Prize Competitions`
+  line `Act, 1955.`
+  line
+  line `(2) It extends to ^1[the territories which, immediately before the 1st November, 1956, were`
+  line `comprised in] the States of Andhra, Bombay, Madras, Orissa, Uttar Pradesh, Hyderabad, Madhya`
+  line `Bharat, Patiala and East Punjab States Union and Saurashtra and all Part C States.`
+  line
+  line `(3) It shall come into force on such date^2`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Ins. by A. O. (No. 3), 1956.`
+  line
+  line `2. 1st April, 1956, vide Notification No. S.R.O. 766, dated 31st March, 1956, Gazette of India, Extraordinary, Part II,`
+  line `sec. 3.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 32509)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "licensing authority" means any officer or authority appointed by the State Government,
-by notification in the Official Gazette, for the purpose of granting licences under this Act;
-
-(b) "money" includes a cheque, postal-order or money-order;
-
-(c) "prescribed" means prescribed by rules made under this Act;
-
-(d) "prize competition" means any competition (whether called a cross-word prize
-competition, a missing-word prize competition, a picture prize competition or by any other name)
-in which prizes are offered for the solution of any puzzle based upon the building up,
-arrangement, combination or permutation, of letters, words, or figures.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32509&sectionno=2&orderno=2&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32509)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32509&sectionno=2&orderno=2&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "licensing authority" means any officer or authority appointed by the State Government,`
+  line `by notification in the Official Gazette, for the purpose of granting licences under this Act;`
+  line
+  line `(b) "money" includes a cheque, postal-order or money-order;`
+  line
+  line `(c) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(d) "prize competition" means any competition (whether called a cross-word prize`
+  line `competition, a missing-word prize competition, a picture prize competition or by any other name)`
+  line `in which prizes are offered for the solution of any puzzle based upon the building up,`
+  line `arrangement, combination or permutation, of letters, words, or figures.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 32510)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str Interpretation.)
-  (str content) (str `For the purposes of this Act,--
-
-(a) references to printing shall be construed as including references to writing and other
-modes of representing or re-producing letters, words or figures in a visible form; and
-
-(b) documents or other matters shall be deemed to be distributed if they are distributed to
-persons or places within or outside the territories to which this Act extends and the word
-distribution' shall be construed accordingly.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32510&sectionno=3&orderno=3&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32510)
+  sectionNo (3)
+  orderNo 3
+  title Interpretation.
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32510&sectionno=3&orderno=3&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_3_content:
+  string
+  line `For the purposes of this Act,--`
+  line
+  line `(a) references to printing shall be construed as including references to writing and other`
+  line `modes of representing or re-producing letters, words or figures in a visible form; and`
+  line
+  line `(b) documents or other matters shall be deemed to be distributed if they are distributed to`
+  line `persons or places within or outside the territories to which this Act extends and the word`
+  line `distribution' shall be construed accordingly.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 32511)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Prohibition of prize competitions where the prize offered exceeds one thousand rupees a month.`)
-  (str content) (str `No person shall promote or conduct any prize competition or competitions in which the
-total value of the prize or prizes (whether in cash or otherwise) to be offered in any month exceeds
-one thousand rupees; and in every prize competition, the number of entries shall not exceed two
-thousand.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32511&sectionno=4&orderno=4&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32511)
+  sectionNo (4)
+  orderNo 4
+  title `Prohibition of prize competitions where the prize offered exceeds one thousand rupees a month.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32511&sectionno=4&orderno=4&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_4_content:
+  string
+  line `No person shall promote or conduct any prize competition or competitions in which the`
+  line `total value of the prize or prizes (whether in cash or otherwise) to be offered in any month exceeds`
+  line `one thousand rupees; and in every prize competition, the number of entries shall not exceed two`
+  line thousand.
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 32512)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Licensing of prize competitions where the prize offered does not exceed one thousand rupees a month.`)
-  (str content) (str `Subject to the provisions of section 4, no person shall promote or conduct any
-prize competition or competitions in which the total value of the prize or prizes (whether in cash or
-otherwise) to be offered in any month does not exceed one thousand rupees unless he has obtained in
-this behalf a licence granted in accordance with the provisions of this Act and the rules made
-thereunder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32512&sectionno=5&orderno=5&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32512)
+  sectionNo (5)
+  orderNo 5
+  title `Licensing of prize competitions where the prize offered does not exceed one thousand rupees a month.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32512&sectionno=5&orderno=5&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_5_content:
+  string
+  line `Subject to the provisions of section 4, no person shall promote or conduct any`
+  line `prize competition or competitions in which the total value of the prize or prizes (whether in cash or`
+  line `otherwise) to be offered in any month does not exceed one thousand rupees unless he has obtained in`
+  line `this behalf a licence granted in accordance with the provisions of this Act and the rules made`
+  line thereunder.
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 32513)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Licences for prize competitions.`)
-  (str content) (str `(1) Every person desiring to obtain a licence referred to in
-section 5 shall make an application in writing to the licensing authority in such form and manner as
-may be prescribed.
-
-(2) On the receipt of such application, the licensing authority, after making such inquiry as it
-considers necessary, shall, by order in writing, either grant the licence or refuse to grant the licence.
-
-(3) Where the licensing authority refuses to grant a licence it shall record a brief statement of the
-reasons for such refusal and furnish a copy thereof to the applicant.
-
-(4) The fees on payment of which, the period for which, the conditions subject to which, and the
-form in which, a licence may be granted shall be such as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32513&sectionno=6&orderno=6&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32513)
+  sectionNo (6)
+  orderNo 6
+  title `Licences for prize competitions.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32513&sectionno=6&orderno=6&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_6_content:
+  string
+  line `(1) Every person desiring to obtain a licence referred to in`
+  line `section 5 shall make an application in writing to the licensing authority in such form and manner as`
+  line `may be prescribed.`
+  line
+  line `(2) On the receipt of such application, the licensing authority, after making such inquiry as it`
+  line `considers necessary, shall, by order in writing, either grant the licence or refuse to grant the licence.`
+  line
+  line `(3) Where the licensing authority refuses to grant a licence it shall record a brief statement of the`
+  line `reasons for such refusal and furnish a copy thereof to the applicant.`
+  line
+  line `(4) The fees on payment of which, the period for which, the conditions subject to which, and the`
+  line `form in which, a licence may be granted shall be such as may be prescribed.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 32514)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Promoters of prize competitions to keep accounts and submit the same to the licensing authority.`)
-  (str content) (str `Every person who promotes or conducts a prize competition in accordance with the
-provisions of this Act and the rules made thereunder shall keep accounts relating to such competition
-and submit to the licensing authority a statement of accounts in such form and at such intervals as
-may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32514&sectionno=7&orderno=7&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32514)
+  sectionNo (7)
+  orderNo 7
+  title `Promoters of prize competitions to keep accounts and submit the same to the licensing authority.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32514&sectionno=7&orderno=7&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_7_content:
+  string
+  line `Every person who promotes or conducts a prize competition in accordance with the`
+  line `provisions of this Act and the rules made thereunder shall keep accounts relating to such competition`
+  line `and submit to the licensing authority a statement of accounts in such form and at such intervals as`
+  line `may be prescribed.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 32515)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Power to cancel or suspend licences.`)
-  (str content) (str `(1) The licensing authority may, after giving the
-holder of any licence under this Act a reasonable opportunity of being heard, cancel or suspend the
-licence on any one or more of the following grounds, namely:--
-
-(a) that there has been a breach of any of the conditions subject to which the licence was
-granted;
-
-(b) that the holder of the licence has contravened any of the provisions of section 7.
-
-(2) Whenever a licence is cancelled or suspended the licensing authority shall record a brief
-statement of the reasons for such cancellation or suspension and furnish a copy thereof to the person
-whose licence has been cancelled or suspended.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32515&sectionno=8&orderno=8&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32515)
+  sectionNo (8)
+  orderNo 8
+  title `Power to cancel or suspend licences.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32515&sectionno=8&orderno=8&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_8_content:
+  string
+  line `(1) The licensing authority may, after giving the`
+  line `holder of any licence under this Act a reasonable opportunity of being heard, cancel or suspend the`
+  line `licence on any one or more of the following grounds, namely:--`
+  line
+  line `(a) that there has been a breach of any of the conditions subject to which the licence was`
+  line granted;
+  line
+  line `(b) that the holder of the licence has contravened any of the provisions of section 7.`
+  line
+  line `(2) Whenever a licence is cancelled or suspended the licensing authority shall record a brief`
+  line `statement of the reasons for such cancellation or suspension and furnish a copy thereof to the person`
+  line `whose licence has been cancelled or suspended.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 32516)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Penalty for promoting or conducting any prize competition in contravention of the provisions of sections 4 and 5.`)
-  (str content) (str `If any person promotes or conducts any prize competition in
-contravention of the provisions of section 4 or section 5, he shall be punishable with imprisonment for
-a term which may extend to three months, or with fine which may extend to one thousand rupees, or
-with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32516&sectionno=9&orderno=9&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32516)
+  sectionNo (9)
+  orderNo 9
+  title `Penalty for promoting or conducting any prize competition in contravention of the provisions of sections 4 and 5.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32516&sectionno=9&orderno=9&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_9_content:
+  string
+  line `If any person promotes or conducts any prize competition in`
+  line `contravention of the provisions of section 4 or section 5, he shall be punishable with imprisonment for`
+  line `a term which may extend to three months, or with fine which may extend to one thousand rupees, or`
+  line `with both.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 32517)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Penalty for failure to keep and submit accounts.`)
-  (str content) (str `If any person liable under section 7 to
-keep accounts or to submit statements of accounts fails to keep accounts or to submit statements of
-accounts as required by that section or keeps accounts or submits statements of accounts which are
-false and which he either knows or believes to be false or does not believe to be true, he shall be
-punishable with imprisonment for a term which may extend to one month, or with fine which may
-extend to five hundred rupees, or with both, but nothing contained in this section shall affect the
-provisions contained in section 8.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32517&sectionno=10&orderno=10&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32517)
+  sectionNo (10)
+  orderNo 10
+  title `Penalty for failure to keep and submit accounts.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32517&sectionno=10&orderno=10&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_10_content:
+  string
+  line `If any person liable under section 7 to`
+  line `keep accounts or to submit statements of accounts fails to keep accounts or to submit statements of`
+  line `accounts as required by that section or keeps accounts or submits statements of accounts which are`
+  line `false and which he either knows or believes to be false or does not believe to be true, he shall be`
+  line `punishable with imprisonment for a term which may extend to one month, or with fine which may`
+  line `extend to five hundred rupees, or with both, but nothing contained in this section shall affect the`
+  line `provisions contained in section 8.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 32518)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Penalty for other offences in connection with prize competitions.`)
-  (str content) (str `If any person with a
-view to the promotion or conduct of any prize competition except in accordance with the provisions
-of a licence under this Act or in contravention of the provisions of this Act or in connection with any
-prize competition promoted or conducted except in accordance with such provisions--
-
-(a) prints or publishes any ticket, coupon or other document for use in the prize competition;
-or
-
-(b) sells or distributes or offers or advertises for sale or distribution, or has in his possession
-for the purpose of sale or distribution any ticket, coupon or other document for use in the prize
-competition; or
-
-(c) prints, publishes or distributes, or has in his possession for the purpose of publication or
-distribution,
-
-(i) any advertisement of the prize competition, or
-
-(ii) any list (whether complete or not) of prize winners in the prize competition, or
-
-(iii) any such matter descriptive of, or otherwise relating to, the prize competition as is
-calculated to act as an inducement to persons to participate in that prize competition or any
-other prize competition ; or
-
-(d) brings, or invites any person to send, into the territories to which this Act extends, for the
-purpose of sale or distribution, any ticket, coupon or other document for use in, or any
-advertisement of, the prize competition ; or
-
-(e) sends, or attempts to send, out of the territories to which this Act extends any money or
-valuable thing received in respect of the sale or distribution of any ticket, coupon or other
-document for use in the prize competition ; or
-
-(f) uses any premises, or causes or knowingly permits any premises to be used, for purposes
-connected with the promotion or conduct of the prize competition ; or
-
-(g) causes or procures or attempts to procure any person to do any of the above-mentioned
-acts,
-
-he shall be punishable with imprisonment for a term which may extend to three months, or with fine
-which may extend to five hundred rupees, or with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32518&sectionno=11&orderno=11&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32518)
+  sectionNo (11)
+  orderNo 11
+  title `Penalty for other offences in connection with prize competitions.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32518&sectionno=11&orderno=11&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_11_content:
+  string
+  line `If any person with a`
+  line `view to the promotion or conduct of any prize competition except in accordance with the provisions`
+  line `of a licence under this Act or in contravention of the provisions of this Act or in connection with any`
+  line `prize competition promoted or conducted except in accordance with such provisions--`
+  line
+  line `(a) prints or publishes any ticket, coupon or other document for use in the prize competition;`
+  line or
+  line
+  line `(b) sells or distributes or offers or advertises for sale or distribution, or has in his possession`
+  line `for the purpose of sale or distribution any ticket, coupon or other document for use in the prize`
+  line `competition; or`
+  line
+  line `(c) prints, publishes or distributes, or has in his possession for the purpose of publication or`
+  line distribution,
+  line
+  line `(i) any advertisement of the prize competition, or`
+  line
+  line `(ii) any list (whether complete or not) of prize winners in the prize competition, or`
+  line
+  line `(iii) any such matter descriptive of, or otherwise relating to, the prize competition as is`
+  line `calculated to act as an inducement to persons to participate in that prize competition or any`
+  line `other prize competition ; or`
+  line
+  line `(d) brings, or invites any person to send, into the territories to which this Act extends, for the`
+  line `purpose of sale or distribution, any ticket, coupon or other document for use in, or any`
+  line `advertisement of, the prize competition ; or`
+  line
+  line `(e) sends, or attempts to send, out of the territories to which this Act extends any money or`
+  line `valuable thing received in respect of the sale or distribution of any ticket, coupon or other`
+  line `document for use in the prize competition ; or`
+  line
+  line `(f) uses any premises, or causes or knowingly permits any premises to be used, for purposes`
+  line `connected with the promotion or conduct of the prize competition ; or`
+  line
+  line `(g) causes or procures or attempts to procure any person to do any of the above-mentioned`
+  line acts,
+  line
+  line `he shall be punishable with imprisonment for a term which may extend to three months, or with fine`
+  line `which may extend to five hundred rupees, or with both.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 32519)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Offences by Corporations.`)
-  (str content) (str `(1) If any person guilty of an offence under this, Act is a
-company, every person who at the time the offence was committed was in charge of, and was
-responsible to, the company, as well as the company, shall be deemed to be guilty of that offence and
-shall be liable to be proceeded against and punished accordingly:
-
-Provided that nothing contained in this sub-section shall render any such person liable to any
-punishment provided in this Act if he proves that the offence was committed without his knowledge
-or that he exercised all due diligence to prevent the commission of such offence.
-
-(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has
-been committed with the consent or connivance of, or is attributable to gross neglect on the part of,
-any director, manager, secretary or other officer of the company, such director, manager, secretary or
-other officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded
-against and punished accordingly.
-
-Explanation.--For the purposes of this section,--
-
-(a) "company" means a body corporate and includes a firm or other association of
-individuals ; and
-
-(b) "director" in relation to a firm means a partner in the firm.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32519&sectionno=12&orderno=12&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32519)
+  sectionNo (12)
+  orderNo 12
+  title `Offences by Corporations.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32519&sectionno=12&orderno=12&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_12_content:
+  string
+  line `(1) If any person guilty of an offence under this, Act is a`
+  line `company, every person who at the time the offence was committed was in charge of, and was`
+  line `responsible to, the company, as well as the company, shall be deemed to be guilty of that offence and`
+  line `shall be liable to be proceeded against and punished accordingly:`
+  line
+  line `Provided that nothing contained in this sub-section shall render any such person liable to any`
+  line `punishment provided in this Act if he proves that the offence was committed without his knowledge`
+  line `or that he exercised all due diligence to prevent the commission of such offence.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has`
+  line `been committed with the consent or connivance of, or is attributable to gross neglect on the part of,`
+  line `any director, manager, secretary or other officer of the company, such director, manager, secretary or`
+  line `other officer shall also be deemed to be guilty of that offence and shall be liable to be proceeded`
+  line `against and punished accordingly.`
+  line
+  line `Explanation.--For the purposes of this section,--`
+  line
+  line `(a) "company" means a body corporate and includes a firm or other association of`
+  line `individuals ; and`
+  line
+  line `(b) "director" in relation to a firm means a partner in the firm.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 32520)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Power of licensing authority to call for and inspect accounts and documents.`)
-  (str content) (str `The
-licensing authority may--
-
-(a) require any person promoting or conducting a prize competition to produce before it the
-accounts and other documents kept by such person or to furnish to it such other information
-relating to the prize competition as it may require;
-
-(b) inspect at all reasonable times the accounts and other documents kept by such person.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32520&sectionno=13&orderno=13&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32520)
+  sectionNo (13)
+  orderNo 13
+  title `Power of licensing authority to call for and inspect accounts and documents.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32520&sectionno=13&orderno=13&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_13_content:
+  string
+  line The
+  line `licensing authority may--`
+  line
+  line `(a) require any person promoting or conducting a prize competition to produce before it the`
+  line `accounts and other documents kept by such person or to furnish to it such other information`
+  line `relating to the prize competition as it may require;`
+  line
+  line `(b) inspect at all reasonable times the accounts and other documents kept by such person.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 32521)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Power of entry and search.`)
-  (str content) (str `(1) It shall be lawful for any police-officer not below the rank
-of Sub-inspector authorised by the State Government in this behalf by general or special order in
-writing,--
-
-(a) to enter if necessary by force, whether by day or night, with such assistants as he
-considers necessary, any premises which he has reason to suspect, are being used for purposes
-connected with the promotion or conduct of any prize competition in contravention of the
-provisions of this Act;
-
-(b) to search the premises and the persons whom he may find herein;
-
-(c) to take into custody and produce before a Magistrate all such persons as are concerned or
-against whom a reasonable complaint has been made or credible information has been received or
-a reasonable suspicion exists of their having been concerned with the user of such premises for
-purposes connected with, or with the promotion or conduct of, any prize competition in
-contravention of the provisions of this Act; and
-
-(d) to seize all things found therein which are intended to be used or reasonably suspected to
-have been used in connection with such prize competition.
-
-(2) All searches under this section shall be made in accordance with the provisions of the Code of
-Criminal Procedure, 1898 (5 of 1898).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32521&sectionno=14&orderno=14&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32521)
+  sectionNo (14)
+  orderNo 14
+  title `Power of entry and search.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32521&sectionno=14&orderno=14&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_14_content:
+  string
+  line `(1) It shall be lawful for any police-officer not below the rank`
+  line `of Sub-inspector authorised by the State Government in this behalf by general or special order in`
+  line writing,--
+  line
+  line `(a) to enter if necessary by force, whether by day or night, with such assistants as he`
+  line `considers necessary, any premises which he has reason to suspect, are being used for purposes`
+  line `connected with the promotion or conduct of any prize competition in contravention of the`
+  line `provisions of this Act;`
+  line
+  line `(b) to search the premises and the persons whom he may find herein;`
+  line
+  line `(c) to take into custody and produce before a Magistrate all such persons as are concerned or`
+  line `against whom a reasonable complaint has been made or credible information has been received or`
+  line `a reasonable suspicion exists of their having been concerned with the user of such premises for`
+  line `purposes connected with, or with the promotion or conduct of, any prize competition in`
+  line `contravention of the provisions of this Act; and`
+  line
+  line `(d) to seize all things found therein which are intended to be used or reasonably suspected to`
+  line `have been used in connection with such prize competition.`
+  line
+  line `(2) All searches under this section shall be made in accordance with the provisions of the Code of`
+  line `Criminal Procedure, 1898 (5 of 1898).`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 32522)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Forfeiture newspapers and publications containing prize competitions.`)
-  (str content) (str `Where any
-newspaper or other publication contains any prize competition promoted or conducted in
-contravention of the provisions of this Act or except in accordance with the provisions of licence
-under this Act or any advertisement in relation thereto, the State Government may, by notification in
-the Official Gazette, declare every copy of the newspaper and every copy of the publication
-containing the prize competition or the advertisement, to be forfeited to Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32522&sectionno=15&orderno=15&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32522)
+  sectionNo (15)
+  orderNo 15
+  title `Forfeiture newspapers and publications containing prize competitions.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32522&sectionno=15&orderno=15&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_15_content:
+  string
+  line `Where any`
+  line `newspaper or other publication contains any prize competition promoted or conducted in`
+  line `contravention of the provisions of this Act or except in accordance with the provisions of licence`
+  line `under this Act or any advertisement in relation thereto, the State Government may, by notification in`
+  line `the Official Gazette, declare every copy of the newspaper and every copy of the publication`
+  line `containing the prize competition or the advertisement, to be forfeited to Government.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 32523)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str Appeals.)
-  (str content) (str `Any person aggrieved by the decision of the licensing authority refusing to grant a
-licence or cancelling or suspending a licence may, within such time as may be prescribed, prefer an
-appeal to the State Government and the decision of the State Government on such appeal shall be
-final.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32523&sectionno=16&orderno=16&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32523)
+  sectionNo (16)
+  orderNo 16
+  title Appeals.
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32523&sectionno=16&orderno=16&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_16_content:
+  string
+  line `Any person aggrieved by the decision of the licensing authority refusing to grant a`
+  line `licence or cancelling or suspending a licence may, within such time as may be prescribed, prefer an`
+  line `appeal to the State Government and the decision of the State Government on such appeal shall be`
+  line final.
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 32524)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Licensing authority and other officers to be public servants.`)
-  (str content) (str `The licensing authority and
-any other officer acting under this Act shall be deemed to be public servants within the meaning of
-section 21 of the Indian Penal Code (45 of 1860).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32524&sectionno=17&orderno=17&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32524)
+  sectionNo (17)
+  orderNo 17
+  title `Licensing authority and other officers to be public servants.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32524&sectionno=17&orderno=17&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_17_content:
+  string
+  line `The licensing authority and`
+  line `any other officer acting under this Act shall be deemed to be public servants within the meaning of`
+  line `section 21 of the Indian Penal Code (45 of 1860).`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 32525)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Jurisdiction to try offences.`)
-  (str content) (str `No Court inferior to that of a Presidency Magistrate or a
-Magistrate of the first class shall try any offence under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32525&sectionno=18&orderno=18&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32525)
+  sectionNo (18)
+  orderNo 18
+  title `Jurisdiction to try offences.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32525&sectionno=18&orderno=18&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_18_content:
+  string
+  line `No Court inferior to that of a Presidency Magistrate or a`
+  line `Magistrate of the first class shall try any offence under this Act.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 32526)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Protection of action taken under this act.`)
-  (str content) (str `No suit, prosecution or other legal proceeding
-shall lie against the licensing authority or any other officer of the Government for anything which is in
-good faith done or intended to be done under this Act or the rules made thereunder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32526&sectionno=19&orderno=19&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32526)
+  sectionNo (19)
+  orderNo 19
+  title `Protection of action taken under this act.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32526&sectionno=19&orderno=19&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_19_content:
+  string
+  line `No suit, prosecution or other legal proceeding`
+  line `shall lie against the licensing authority or any other officer of the Government for anything which is in`
+  line `good faith done or intended to be done under this Act or the rules made thereunder.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 32527)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The State Government may, by notification in the Official
-Gazette, and subject to the condition of previous publication, make rules for carrying out the purposes
-of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the form and manner of application for a licence and the fees, if any, for such licence;
-
-(b) the period for which, the conditions subject to which and the form in which, a licence may
-be granted;
-
-(c) the form in which and the intervals at which statements of accounts shall be submitted to
-the licensing authority;
-
-(d) the time within which an appeal against a decision of the licensing authority may be
-preferred to the State Government;
-
-(e) any other matter which is to be or may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32527&sectionno=20&orderno=20&orgactid=AC_CEN_2_11_00011_195542_1517807319341)
+  sectionId (32527)
+  sectionNo (20)
+  orderNo 20
+  title `Power to make rules.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00011_195542_1517807319341&sectionId=32527&sectionno=20&orderno=20&orgactid=AC_CEN_2_11_00011_195542_1517807319341
+obj_root_law_sections_20_content:
+  string
+  line `(1) The State Government may, by notification in the Official`
+  line `Gazette, and subject to the condition of previous publication, make rules for carrying out the purposes`
+  line `of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the form and manner of application for a licence and the fees, if any, for such licence;`
+  line
+  line `(b) the period for which, the conditions subject to which and the form in which, a licence may`
+  line `be granted;`
+  line
+  line `(c) the form in which and the intervals at which statements of accounts shall be submitted to`
+  line `the licensing authority;`
+  line
+  line `(d) the time within which an appeal against a decision of the licensing authority may be`
+  line `preferred to the State Government;`
+  line
+  line `(e) any other matter which is to be or may be prescribed.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `पुरस्‍कार प्रतियोगिता अधिनियम, 1955`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1515/3/H1955-42.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:43:43.743Z`)
-  (str pageCount) (int 4)
-  (str sections) obj_root_law_translations_hi_sections
+  title `पुरस्‍कार प्रतियोगिता अधिनियम, 1955`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1515/3/H1955-42.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:43:43.743Z`
+  pageCount 4
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
   obj_root_law_translations_hi_sections_4
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `पुरस्का रप्रतियोतििाअतितियम, 1955
-(1955 काअतितियमसंखयां क 42 ) 1
-[22 अक्िू बर, 1955 ]
-पुरस्का रप्रतियोतििाओंकातियंत्रणऔर
-तितियमिकरिेकेतिए
-अतितियम
-यि:पुरस्का रप्रतियोतििाओंकेतियंत्रणऔरतितियम ि केतिएउपबन्ि करिासमीचीिहै;
-औरयि:उपरोक्ि तिषयऔरउसकेआिुषंतिकतिषयोंकेसम्ब न् ि में,जहांिकऐसेतिषयसंतििािकीसाििींअिुसूचीकी
-सूची 2 मेंप्रितणितिषयहैं,संतििािकेअिुच्छे द 252 केखण्ड (1) केतिबन्ि िोंकेअिुरूपआंध्र,बम्ब ई,मद्रास, उडीसा,उत्तरप्रदेश,
-हैदराबाद,मध्य भारि,पटि यािाऔरपूिीपंजाबराज्य संघऔरसौराष्‍टर राज्यों केतििाि - मण्ड िोंमेंसंकल्प पाटरिकरददएहैं;
-अ ि:भारििणराज्य केछठेिषषमेंसंसद्द्वारातिम्ि तितखिरूपमेंयहअतितियतमिहो: ––
-1. संतिप्ि िाम,तिस्िा रऔरप्रारंभ –– (1) यहअतितियमपुरस्का र प्र तियोतििाअतितियम, 1955 कहाजासकेिा।
-(2) इसकातिस्िा र 2 [ उिराज्य िेत्रोंपरहैजो 1956 केििम्ब रकेप्रथमददिकेठीकपूिष ] आंध्र,बम्ब ई,मद्रास, उडीसा,उत्तर प्र
-देश,हैदराबाद,मध्य भारि,पटियािाऔरपूिीपंजाबराज्य संघऔरसौराष्‍टर राज्यों औरसबभाििराज्यों में 2 [ समातिष्‍टि ] थे।
-(3) यहउसिारीख 3 कोप्रिृत्तहोिा,तजसेकेन्द्री यसरकारशासकीयराजपत्रमेंअतिसूचिाद्वारातियिकरे।
-2. पटरभाषाएं –– इसअतितियममें,जबिकदकसंदभषसेअन्य थाअपेतिििहो, ––
-( क ) “ अिुज्ञापिप्रातिकारी ” से,इसअतितियमकेअिीिअिुज्ञतप्ि अिुदत्तकरिेकेप्रयोजिसे,राज्य सरकार द्व
-ाराशासकीयराजपत्रमेंअतिसूचिाद्वारातियुक्ि कोईअतिकारीयाप्रातिकारीअतभप्रेिहै;
-( ख ) “ िि ” केअंििषिचैक,पोस्ि िआडषरअथिामिीआडषरभीआिाहै;
-( ि ) “ तितहि ” सेइसअतितियम केअिीिबिाएिएतियमोंद्वारातितहिअतभप्रेिहै;
-( घ ) “ पुरस्का रप्रतियोतििा ” सेकोईऐसीप्रतियोतििाअतभप्रेिहै, ( चाहेिहििषशब्द पहेिी,पुरस्का र प्र
-तियोतििा,िुप्ि शब्द पहेिीपुरस्का रप्रतियोतििा,तचत्रपहेिीपुरस्का रप्रतियोतििायादकसीअन्य िामसेज्ञािहो )
-तजसमेंअिरों,शब्दों अथिाआकृतियोंकेतिमाषण,तिन्या स,संयोजियाक्रमपटरििषिपरआिाटरिदकसीपहेिीकेहिके
-तिएपुरस्का रदेिेकीप्रस्था पिाकीजािीहै।
-3. तििषचि –– इसअतितियमकेप्रयोजिोंकेतिए ––
-( क ) मुद्रणकेप्रतितिदेशोंका य हअथषििा याजाएिादकउसकेअन्ि िषििेखियाअिरों,शब्दों याआकृतियोंको
-दृश्य रू पमेंप्रतिदर्शषियापुिरुत्पा ददिकरिेकेअन्य ढंिोंकेप्रतितिदेशभीहैं;और
-( ख ) दस्िा िेजयाअन्य चीजेंतििटरिकीिईसमझीजाएंिीयददउन्हें उसराज्य िेत्र केअन्द रयाबाहरव्य तक्ि यों
-यास्था िोंमेंतििटरिदकयाजािाहैतजिमेंइसअतितियमकातिस्िा रहैऔर “ तििरण ” शब्द काअथषिदिुकूिििाया
-जाएिा।
-4. जहांप्रस्था तपिपुरस्का रएकमासमेंएकहजाररुपएसेअतिकहैिहांपुरस्का रप्रतियोतििाओंकाप्रतिषेि –– कोई व्
-य तक्ि,दकसीऐसीपुरस्का रप्रतियोतििायाप्रतियोतििाओंकासम्प्र ििषियासंचािििहींकरेिातजिमेंप्रस्था तपिदकएजािेिािे
-पुरस्का रयापुरस्का रोंकाकुिमूल्य ( चाहेिकदयाअन्य रू पमें ) दकसीमासमेंएकहजाररुपएसेअतिकहै,औरप्रत्ये कपुरस्का र प्र
-तियोतििामेंप्रतितष्‍टि योंकीसंखया दोहजारसेअतिकिहींहोिी।
-5. पुरस्का रप्रतियोति िाओंकाअिुज्ञापि,जहांप्रस्था तपि पुरस्का रएकमासमेंएकहजाररुपएसेअतिकिहींहै –– िारा 4
-केउपबन्िों केअध्य िीिकोईव्य तक्ि दकसीऐसीपुरस्का रप्रतियो तििायाप्रतियोतििाओं कासम्प्र ििषियासंचािि,तजि मेंप्रस्था तपि
-दकएजािेिािेपुरस्का रयापुरस्का रोंकाकुिमूल्य ( चाहेिकदयाअन्य रू पमें ) दकसीमासमेंएकहजाररु पएसेअतिकिहींहै,िब
-िकिहींकरेिाजबिकदकउसिेइसअतितियमकेउपबन्िों और िद् िी ि बिाएिएतियमोंकेअिुसारअिुदत्तअिुज्ञतप्ि उसतितमत्त
-अतभप्राप्ि िकरिीहो।
-1 1963 केअतितियमसं ० 6 कीिारा 2 औरअिुसूचीद्वारा (1 - 7 - 1965 से ) दादराऔरिािरहेििीपर, 1963 केतितियमसं ० 11 कीिारा 3 औरअिुसूचीद्वारा
-िोिा,दमणऔरदीिपर, 1968 केअतितियमसं ० 26 कीिारा 3 औरअिुसूचीद्वारासं घराज्य िेत्रपांतडचेरीपरतिस्िा रदकयािया।
-2 तितिअिुकूिि ( सं ० 3 ) आदेश, 1956 द्व ाराअन्ि:स्था तपि।
-3 1 अप्रैि, 1956 देतखएअतिसूचिासं ० का ० ति ० आ ० 766,िारीख 31 माचष, 1956,भारिकाराजपत्र,असािारण,भाि 2,खंड 3,पृ ० 647।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `पुरस्का रप्रतियोतििाअतितियम, 1955`
+  line `(1955 काअतितियमसंखयां क 42 ) 1`
+  line `[22 अक्िू बर, 1955 ]`
+  line `पुरस्का रप्रतियोतििाओंकातियंत्रणऔर`
+  line तितियमिकरिेकेतिए
+  line अतितियम
+  line `यि:पुरस्का रप्रतियोतििाओंकेतियंत्रणऔरतितियम ि केतिएउपबन्ि करिासमीचीिहै;`
+  line `औरयि:उपरोक्ि तिषयऔरउसकेआिुषंतिकतिषयोंकेसम्ब न् ि में,जहांिकऐसेतिषयसंतििािकीसाििींअिुसूचीकी`
+  line `सूची 2 मेंप्रितणितिषयहैं,संतििािकेअिुच्छे द 252 केखण्ड (1) केतिबन्ि िोंकेअिुरूपआंध्र,बम्ब ई,मद्रास, उडीसा,उत्तरप्रदेश,`
+  line `हैदराबाद,मध्य भारि,पटि यािाऔरपूिीपंजाबराज्य संघऔरसौराष्‍टर राज्यों केतििाि - मण्ड िोंमेंसंकल्प पाटरिकरददएहैं;`
+  line `अ ि:भारििणराज्य केछठेिषषमेंसंसद्द्वारातिम्ि तितखिरूपमेंयहअतितियतमिहो: ––`
+  line `1. संतिप्ि िाम,तिस्िा रऔरप्रारंभ –– (1) यहअतितियमपुरस्का र प्र तियोतििाअतितियम, 1955 कहाजासकेिा।`
+  line `(2) इसकातिस्िा र 2 [ उिराज्य िेत्रोंपरहैजो 1956 केििम्ब रकेप्रथमददिकेठीकपूिष ] आंध्र,बम्ब ई,मद्रास, उडीसा,उत्तर प्र`
+  line `देश,हैदराबाद,मध्य भारि,पटियािाऔरपूिीपंजाबराज्य संघऔरसौराष्‍टर राज्यों औरसबभाििराज्यों में 2 [ समातिष्‍टि ] थे।`
+  line `(3) यहउसिारीख 3 कोप्रिृत्तहोिा,तजसेकेन्द्री यसरकारशासकीयराजपत्रमेंअतिसूचिाद्वारातियिकरे।`
+  line `2. पटरभाषाएं –– इसअतितियममें,जबिकदकसंदभषसेअन्य थाअपेतिििहो, ––`
+  line `( क ) “ अिुज्ञापिप्रातिकारी ” से,इसअतितियमकेअिीिअिुज्ञतप्ि अिुदत्तकरिेकेप्रयोजिसे,राज्य सरकार द्व`
+  line `ाराशासकीयराजपत्रमेंअतिसूचिाद्वारातियुक्ि कोईअतिकारीयाप्रातिकारीअतभप्रेिहै;`
+  line `( ख ) “ िि ” केअंििषिचैक,पोस्ि िआडषरअथिामिीआडषरभीआिाहै;`
+  line `( ि ) “ तितहि ” सेइसअतितियम केअिीिबिाएिएतियमोंद्वारातितहिअतभप्रेिहै;`
+  line `( घ ) “ पुरस्का रप्रतियोतििा ” सेकोईऐसीप्रतियोतििाअतभप्रेिहै, ( चाहेिहििषशब्द पहेिी,पुरस्का र प्र`
+  line `तियोतििा,िुप्ि शब्द पहेिीपुरस्का रप्रतियोतििा,तचत्रपहेिीपुरस्का रप्रतियोतििायादकसीअन्य िामसेज्ञािहो )`
+  line `तजसमेंअिरों,शब्दों अथिाआकृतियोंकेतिमाषण,तिन्या स,संयोजियाक्रमपटरििषिपरआिाटरिदकसीपहेिीकेहिके`
+  line `तिएपुरस्का रदेिेकीप्रस्था पिाकीजािीहै।`
+  line `3. तििषचि –– इसअतितियमकेप्रयोजिोंकेतिए ––`
+  line `( क ) मुद्रणकेप्रतितिदेशोंका य हअथषििा याजाएिादकउसकेअन्ि िषििेखियाअिरों,शब्दों याआकृतियोंको`
+  line `दृश्य रू पमेंप्रतिदर्शषियापुिरुत्पा ददिकरिेकेअन्य ढंिोंकेप्रतितिदेशभीहैं;और`
+  line `( ख ) दस्िा िेजयाअन्य चीजेंतििटरिकीिईसमझीजाएंिीयददउन्हें उसराज्य िेत्र केअन्द रयाबाहरव्य तक्ि यों`
+  line `यास्था िोंमेंतििटरिदकयाजािाहैतजिमेंइसअतितियमकातिस्िा रहैऔर “ तििरण ” शब्द काअथषिदिुकूिििाया`
+  line जाएिा।
+  line `4. जहांप्रस्था तपिपुरस्का रएकमासमेंएकहजाररुपएसेअतिकहैिहांपुरस्का रप्रतियोतििाओंकाप्रतिषेि –– कोई व्`
+  line `य तक्ि,दकसीऐसीपुरस्का रप्रतियोतििायाप्रतियोतििाओंकासम्प्र ििषियासंचािििहींकरेिातजिमेंप्रस्था तपिदकएजािेिािे`
+  line `पुरस्का रयापुरस्का रोंकाकुिमूल्य ( चाहेिकदयाअन्य रू पमें ) दकसीमासमेंएकहजाररुपएसेअतिकहै,औरप्रत्ये कपुरस्का र प्र`
+  line `तियोतििामेंप्रतितष्‍टि योंकीसंखया दोहजारसेअतिकिहींहोिी।`
+  line `5. पुरस्का रप्रतियोति िाओंकाअिुज्ञापि,जहांप्रस्था तपि पुरस्का रएकमासमेंएकहजाररुपएसेअतिकिहींहै –– िारा 4`
+  line `केउपबन्िों केअध्य िीिकोईव्य तक्ि दकसीऐसीपुरस्का रप्रतियो तििायाप्रतियोतििाओं कासम्प्र ििषियासंचािि,तजि मेंप्रस्था तपि`
+  line `दकएजािेिािेपुरस्का रयापुरस्का रोंकाकुिमूल्य ( चाहेिकदयाअन्य रू पमें ) दकसीमासमेंएकहजाररु पएसेअतिकिहींहै,िब`
+  line `िकिहींकरेिाजबिकदकउसिेइसअतितियमकेउपबन्िों और िद् िी ि बिाएिएतियमोंकेअिुसारअिुदत्तअिुज्ञतप्ि उसतितमत्त`
+  line `अतभप्राप्ि िकरिीहो।`
+  line `1 1963 केअतितियमसं ० 6 कीिारा 2 औरअिुसूचीद्वारा (1 - 7 - 1965 से ) दादराऔरिािरहेििीपर, 1963 केतितियमसं ० 11 कीिारा 3 औरअिुसूचीद्वारा`
+  line `िोिा,दमणऔरदीिपर, 1968 केअतितियमसं ० 26 कीिारा 3 औरअिुसूचीद्वारासं घराज्य िेत्रपांतडचेरीपरतिस्िा रदकयािया।`
+  line `2 तितिअिुकूिि ( सं ० 3 ) आदेश, 1956 द्व ाराअन्ि:स्था तपि।`
+  line `3 1 अप्रैि, 1956 देतखएअतिसूचिासं ० का ० ति ० आ ० 766,िारीख 31 माचष, 1956,भारिकाराजपत्र,असािारण,भाि 2,खंड 3,पृ ० 647।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-6. पुरस्का रप्रतियोतििाओंकेतिएअिुज्ञतप्ि यां –– (1) प्रत् ये कव्य तक्ि जोिारा 5 मेंतिर्दषष्‍टि अिुज्ञतप्ि अतभप्राप्ि करिा
-चाहिाहै,अिुज्ञापिप्रातिकारीकोऐसेप्ररू पमेंऔरऐसीरीतिसेजोतितहिहोतितखिआिेदिकरेिा।
-(2) ऐसेआिेदिकीप्रातप्ि परअिुज्ञापिप्रातिकारी,ऐसीजांचकरके,जैसीिहआिश्य कसमझिाहै,तितखिआदेशद्वारा
-यािोअिुज्ञतप्ि अिुदत्तकरेिायाअिुज्ञतप्ि अिुदत्तकरिेसेइन्का रकरेिा।
-(3) जहां अिुज्ञापिअतिकारीअिुज्ञतप्ि अिुदत्तकरिेसेइन्का रकरिाहैिहांिहऐसेइन्का रकेकारणोंकाएकसंतिप्ि
-तििरणअतभतितखिकरेिाऔरउसकीएकप्रतिआिेदककोदेिा।
-(4) फीसतजसकेसंदायपर,कािाितितजसकेतिए,शिेंतजिकेअध्य िीिऔरप्ररूपतजसमेंअिुज्ञतप्ि अिुदत्तकीजासकेिी
-ऐसाहोिाजोतितहिदकयाजाए।
-7. पुरस्का रप्रतियोतििाओंकेसंप्रििषकोंकािेखेरखिाऔरउन्हें अिुज्ञापिअतिकारीकोप्रस्िु िकरिा –– पुरस्का रप्रत्ये क व्
-य तक्ि जोइसअतितियमकेउपबन्िों और िद् िीि बिाएिएतियमोंकेअिुसारपुर स् का रप्रतियोतििाकासंप्रििषियासंचािि
-करिाहै,ऐसीप्रतियोतििासेसम्ब तन्ि ििेखेरखेिाऔरऐसेप्ररूपमेंिथाऐसेअन्ि रािोंपरजोतितहिदकएजाएंएकिेखातििरण
-अिुज्ञापिप्रातिकारीकोप्रस्िु िकरेिा।
-8. अिुज्ञतप्ि योंकोरद्दयातिितम्ब िकरिेकी शतक्ि –– (1) अिुज्ञापिप्रातिकारीइसअतितियमकेअिीिदकसीअिुज्ञतप्ि के
-िारककोसुििाईकायुतक्ि युक्ि अिसरदेिेकेपश्चा ि्तिम्ि तितखिआिारोंमेंसेएकयाअतिकपरअिुज्ञतप्ि कोरद्दयाति ितम्ब ि
-करसकेिा,अथाषि् ––
-( क ) दकउिशिोंमेंसेतजिकेअध्य िीिअिुज्ञतप्ि अिुदत्त कीिईथीदकसीकोभंिदकयाियाहै;
-( ख ) दकअिुज्ञतप्ि िारकिे िारा 7 केउपबन्िों मेंसेदकसीकाउल्िं घिदकयाहै।
-(2) जबकभीकोईअिु ज्ञ तप्ि रद्दयातििंतबिकीजािीहैिबअिुज्ञापिप्रातिकारीऐसेरद्दकरणयातििम्ब िकेतिए
-कारणों काएकसंतिप्ि तििरणअतभतितखिकरेिाऔरउसकीएकप्रतिउसव्य तक्ि कोदेिातजसकीअिुज्ञतप्ि रद्दयातिितम्ब िकी
-िईहै।
-9. िारा 4 और 5 केउल्िं घिमेंदकसीपुरस्का रप्रतियोतििाकासंप्रििषियासंचाििकेतिएशातस्ि –– यददकोईव्य तक्ि
-िारा 4 या 5 केउपबन्िों केउल्िं घिमेंदकसीपुरस्का रप्रतियोतििाकासंप्रििषियासंचाििकरेिािोिहकारािाससे,तजसकी
-अितििीिमासिककीहोसकेिी,याजुमाषिेसे,जोएकहजाररुपएिककाहोसकेिा,अथिादोिोंसे,दण्ड िीयहोिा।
-10. िेखेरखिेिथाप्रस्िु िकरिेमें असफििाकेतिएशातस्ि –– यददिारा 7 केअिीििेखेरखिेयािेखातििरणप्रस्िु ि
-करिेकेदातयत्िा िीिकोईव्य तक्ि उसिारामेंयथा अपेतिििेखारखिेयािेखातििरणप्रस्िु िकरिेमेंअसफिहोिाअथिाऐसे
-िेखेरखेिायाऐसेिेखातििरणप्रस्िु िकरेिाजोतमथ्या हैं औरतजि कातमथ्या होिािहजाििाहैयातिश्िा सकरिाहैयातजिके
-सत्य होिेकाउसेतिश्िा सिहींहैिोिहकारािाससे,तजसकीअितिएकमासिककीहोसकेिी,जुमाषिेसेजोपांच सौरु पएिकका
-होसकेिा,अथिादोिोंसेदण्ड िीयहोिादकन्िु इसिारामेंअन्ि र् िषष्‍टि कोईबाििारा 8 मेंअन्ि र् िषष्‍टि उपबन्िों कोप्रभातिििहीं
-करेिी।
-11. पुरस्का रप्रतियोतििाओंकेसम्ब न् ि मेंअन्य अपरािोंकेतिएशातस्ि –– यददकोईव्य तक्ि दकसीपुरस्का रप्रतियोतििाका
-संप्रििषिअथिासंचाििइसअतितियमकेअिीिअिुज्ञतप्ि केउपबन्िों केअिुसारकरिेकेतसिायकरिेयाइसअतितियमके
-उपबन्िों केउल्िं घि मेंकरिेकीदृतष्‍टि सेअथिादकसीऐसीपुरस्का रप्रतियोतििाकेसम्ब न्ध् ाामेंतजसकासंप्रििषियासंचाििऐसे
-उपबंिोंकेअिुसारदकएजािेसेअन्य थादकयाजािाहै ––
-( क ) उसपुरस्का रप्र तियोतििामेंप्रयोिकेतिएकोईटिकि,कूपियाअन्य दस्िा िेजमुदद्रियाप्रकातशि
-करेिा;या
-( ख ) उसपुरस्का रप्रतियोतििामेंप्रयोिकेतिएकोईटिकि,कूपियाअन्य दस्िा िेजबेचेिाया तििटरि करेिाया
-तिक्रयअथिातििरणकेतिएप्रस्था तपिया तिज्ञातपिकरेिाअथिातिक्रययातििरणकेप्रयोजिकेतिएअपिेपास
-रखेिा;या
-( ि ) तिम्ि तितखिकोमुदद्रि,प्रकातशियातििटरिकरेिाअथिाप्रकाशियातििरणकेप्रयोजिकेतिएअपिे
-पासरखेिा ––
-(i) पुरस्का रप्रतियोतििाकाकोईतिज्ञापि,या
-(ii) पुरस्का र प्र तियोतििामेंपुरस्का रतिजेिाओंकीकोईसूची ( चाहेपूरीहोयािहीं ),या
-(iii) पुरस्का रप्रतियोतििाकीिणषिात्म कयाउससेअन्य थासम्ब द्ध कोईअन्य चीजजोउसपुरस्का र प्र
-तियोतििायादकसीअन्य पुरस्का रप्रतियोतििामेंभाििेिेकेतिएव्य तक्ि योंकोउत्प्रे टरिकरिेकेतिए प्र
-कतल्प िहै,अथिा`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `6. पुरस्का रप्रतियोतििाओंकेतिएअिुज्ञतप्ि यां –– (1) प्रत् ये कव्य तक्ि जोिारा 5 मेंतिर्दषष्‍टि अिुज्ञतप्ि अतभप्राप्ि करिा`
+  line `चाहिाहै,अिुज्ञापिप्रातिकारीकोऐसेप्ररू पमेंऔरऐसीरीतिसेजोतितहिहोतितखिआिेदिकरेिा।`
+  line `(2) ऐसेआिेदिकीप्रातप्ि परअिुज्ञापिप्रातिकारी,ऐसीजांचकरके,जैसीिहआिश्य कसमझिाहै,तितखिआदेशद्वारा`
+  line `यािोअिुज्ञतप्ि अिुदत्तकरेिायाअिुज्ञतप्ि अिुदत्तकरिेसेइन्का रकरेिा।`
+  line `(3) जहां अिुज्ञापिअतिकारीअिुज्ञतप्ि अिुदत्तकरिेसेइन्का रकरिाहैिहांिहऐसेइन्का रकेकारणोंकाएकसंतिप्ि`
+  line तििरणअतभतितखिकरेिाऔरउसकीएकप्रतिआिेदककोदेिा।
+  line `(4) फीसतजसकेसंदायपर,कािाितितजसकेतिए,शिेंतजिकेअध्य िीिऔरप्ररूपतजसमेंअिुज्ञतप्ि अिुदत्तकीजासकेिी`
+  line ऐसाहोिाजोतितहिदकयाजाए।
+  line `7. पुरस्का रप्रतियोतििाओंकेसंप्रििषकोंकािेखेरखिाऔरउन्हें अिुज्ञापिअतिकारीकोप्रस्िु िकरिा –– पुरस्का रप्रत्ये क व्`
+  line `य तक्ि जोइसअतितियमकेउपबन्िों और िद् िीि बिाएिएतियमोंकेअिुसारपुर स् का रप्रतियोतििाकासंप्रििषियासंचािि`
+  line `करिाहै,ऐसीप्रतियोतििासेसम्ब तन्ि ििेखेरखेिाऔरऐसेप्ररूपमेंिथाऐसेअन्ि रािोंपरजोतितहिदकएजाएंएकिेखातििरण`
+  line `अिुज्ञापिप्रातिकारीकोप्रस्िु िकरेिा।`
+  line `8. अिुज्ञतप्ि योंकोरद्दयातिितम्ब िकरिेकी शतक्ि –– (1) अिुज्ञापिप्रातिकारीइसअतितियमकेअिीिदकसीअिुज्ञतप्ि के`
+  line `िारककोसुििाईकायुतक्ि युक्ि अिसरदेिेकेपश्चा ि्तिम्ि तितखिआिारोंमेंसेएकयाअतिकपरअिुज्ञतप्ि कोरद्दयाति ितम्ब ि`
+  line `करसकेिा,अथाषि् ––`
+  line `( क ) दकउिशिोंमेंसेतजिकेअध्य िीिअिुज्ञतप्ि अिुदत्त कीिईथीदकसीकोभंिदकयाियाहै;`
+  line `( ख ) दकअिुज्ञतप्ि िारकिे िारा 7 केउपबन्िों मेंसेदकसीकाउल्िं घिदकयाहै।`
+  line `(2) जबकभीकोईअिु ज्ञ तप्ि रद्दयातििंतबिकीजािीहैिबअिुज्ञापिप्रातिकारीऐसेरद्दकरणयातििम्ब िकेतिए`
+  line `कारणों काएकसंतिप्ि तििरणअतभतितखिकरेिाऔरउसकीएकप्रतिउसव्य तक्ि कोदेिातजसकीअिुज्ञतप्ि रद्दयातिितम्ब िकी`
+  line िईहै।
+  line `9. िारा 4 और 5 केउल्िं घिमेंदकसीपुरस्का रप्रतियोतििाकासंप्रििषियासंचाििकेतिएशातस्ि –– यददकोईव्य तक्ि`
+  line `िारा 4 या 5 केउपबन्िों केउल्िं घिमेंदकसीपुरस्का रप्रतियोतििाकासंप्रििषियासंचाििकरेिािोिहकारािाससे,तजसकी`
+  line `अितििीिमासिककीहोसकेिी,याजुमाषिेसे,जोएकहजाररुपएिककाहोसकेिा,अथिादोिोंसे,दण्ड िीयहोिा।`
+  line `10. िेखेरखिेिथाप्रस्िु िकरिेमें असफििाकेतिएशातस्ि –– यददिारा 7 केअिीििेखेरखिेयािेखातििरणप्रस्िु ि`
+  line `करिेकेदातयत्िा िीिकोईव्य तक्ि उसिारामेंयथा अपेतिििेखारखिेयािेखातििरणप्रस्िु िकरिेमेंअसफिहोिाअथिाऐसे`
+  line `िेखेरखेिायाऐसेिेखातििरणप्रस्िु िकरेिाजोतमथ्या हैं औरतजि कातमथ्या होिािहजाििाहैयातिश्िा सकरिाहैयातजिके`
+  line `सत्य होिेकाउसेतिश्िा सिहींहैिोिहकारािाससे,तजसकीअितिएकमासिककीहोसकेिी,जुमाषिेसेजोपांच सौरु पएिकका`
+  line `होसकेिा,अथिादोिोंसेदण्ड िीयहोिादकन्िु इसिारामेंअन्ि र् िषष्‍टि कोईबाििारा 8 मेंअन्ि र् िषष्‍टि उपबन्िों कोप्रभातिििहीं`
+  line करेिी।
+  line `11. पुरस्का रप्रतियोतििाओंकेसम्ब न् ि मेंअन्य अपरािोंकेतिएशातस्ि –– यददकोईव्य तक्ि दकसीपुरस्का रप्रतियोतििाका`
+  line `संप्रििषिअथिासंचाििइसअतितियमकेअिीिअिुज्ञतप्ि केउपबन्िों केअिुसारकरिेकेतसिायकरिेयाइसअतितियमके`
+  line `उपबन्िों केउल्िं घि मेंकरिेकीदृतष्‍टि सेअथिादकसीऐसीपुरस्का रप्रतियोतििाकेसम्ब न्ध् ाामेंतजसकासंप्रििषियासंचाििऐसे`
+  line `उपबंिोंकेअिुसारदकएजािेसेअन्य थादकयाजािाहै ––`
+  line `( क ) उसपुरस्का रप्र तियोतििामेंप्रयोिकेतिएकोईटिकि,कूपियाअन्य दस्िा िेजमुदद्रियाप्रकातशि`
+  line करेिा;या
+  line `( ख ) उसपुरस्का रप्रतियोतििामेंप्रयोिकेतिएकोईटिकि,कूपियाअन्य दस्िा िेजबेचेिाया तििटरि करेिाया`
+  line `तिक्रयअथिातििरणकेतिएप्रस्था तपिया तिज्ञातपिकरेिाअथिातिक्रययातििरणकेप्रयोजिकेतिएअपिेपास`
+  line रखेिा;या
+  line `( ि ) तिम्ि तितखिकोमुदद्रि,प्रकातशियातििटरिकरेिाअथिाप्रकाशियातििरणकेप्रयोजिकेतिएअपिे`
+  line `पासरखेिा ––`
+  line `(i) पुरस्का रप्रतियोतििाकाकोईतिज्ञापि,या`
+  line `(ii) पुरस्का र प्र तियोतििामेंपुरस्का रतिजेिाओंकीकोईसूची ( चाहेपूरीहोयािहीं ),या`
+  line `(iii) पुरस्का रप्रतियोतििाकीिणषिात्म कयाउससेअन्य थासम्ब द्ध कोईअन्य चीजजोउसपुरस्का र प्र`
+  line `तियोतििायादकसीअन्य पुरस्का रप्रतियोतििामेंभाििेिेकेतिएव्य तक्ि योंकोउत्प्रे टरिकरिेकेतिए प्र`
+  line `कतल्प िहै,अथिा`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-( घ ) दकसीटिकि,कूपियाअन्य दस्िा िेजकोजोउसपुरस्का रप्रतियोतििामेंप्रयोिकेतिएहैयाउसकेदकसी
-तिज्ञापिकोतिक्रययातििरणकेप्रयोजिकेतिएउिराज्य िेत्रोंमेंतजिपरइसअतितियमकातिस्िा रहैिाएिायाभेजिे
-केतिएदकसीव्य तक्ि कोआमंतत्रिकरेिा;या
-( ङ ) उसपुरस्का रप्रति योतििामेंप्रयोिकेतिएदकसीटिकि,कूपियाअन्य दस्िा िेजकेतिक्रययातििरणके
-सम्ब न् ि मेंप्राप्ि दकसीिियामूल्य िाििस्िु कोउिराज्य िेत्रोंसेतजिमेंइसअतितियमकातिस्िा रहै बाहरभेजेिाया
-भेजिेकाप्रयत्ि करेिा;अथिा
-( च ) उसपुरस्का र प्र तियोतििाकेसंप्रििषियासंचाििसेसम्ब तन्ि िदकन्हीं प्र योजिोंकेतिएदकसीपटरसरका प्र
-योिकरेिायादकसीपटरसरकाप्रयोिकराएिायाजािबूझकरहोिेदेिा;या
-( छ ) उपरोक्ि कायोंमेंसेकोई कायषदकसीव्य तक्ि सेक राएिायाकरािेकेतिएउसेउपाप्ि करेिा याउपाप्ि
-करिेकाप्रयत्ि करेिा,
-िोिहकारािाससे,तजसकीअितििीिमासिककीहोसकेिी,याजुमाषिेसे,जोपांचसौरुपएिककाहोसकेिा,अथिादोिोंसे
-दण्ड िीयहोिा।
-12. तििमोंद्वाराअपराि –– (1) यददइसअतितियमकेअिीिअपरािकादोषीकोईव्य तक्ि कम्प िीहोिोिहप्रत्ये क व्
-य तक्ि,जोउसअपरािकेदकएजािेकेसमयउसकम्प िीकाभारसािकऔरउसकेप्रतिउत्तरदायीथाऔरसाथहीिहकम्प िीभी
-उसअपरािकेदोषीसमझेजाएंिेिथािदिुसारअपिे तिरुद्ध कायषिाहीदकएजािेऔरदतण्ड िदकएजािेकेभािीहोंिे:
-परंन्िु इसउपिारा कीकोईबािदकसीऐसेव्य तक्ि कोइसअतितियममेंउपबतन्ि िदकसीदण्ड काभािीिहींबिाएिीयदद
-िहयहसातबिकरदेदकअपरािउसकीजािकारीकेतबिादकयाियाथायाउसिेऐसेअपरािकेदकएजािेकातििारणकरिेके
-तिएसबसम्य क्ित्प रिाबरिीथी।
-(2) उपिा रा (1) मेंदकसीबािकेहोिेहुएभी,जहांइसअतितियमकेअिीिकोईअपरािकम्प िीकेदकसीतिदेशक, प्र
-बन्ि क,सतचियाअन्य अतिकारीकी सम्म ति,यामौिािुकूििासेदकयाियाहैयाउसकीदकसीघोरउपेिाकेकारणहुआमािाजा
-सकिाहैिहांऐसातिदेशक,प्रबन्ि क,सतचिया अन्य अतिकारीभीउसअपरािकादोषीसमझाजाएिािथािदिुसारअपिेतिरुद्ध
-कायषिाहीदकएजािेऔरदतण्ड िदकएजािेकाभािीहोिा। स्
-प ष्‍ट िी करण –– इस िाराकेप्रयोजिोंकेतिए ––
-( क ) ‘ कम्प िी ’ सेकोईतिितमितिकायअतभप्रेिहैऔरइसकेअन्ि िषिफमषयाव्य तष्‍टि यों काअन्य संिमभीहै;िथा
-( ख ) फमषकेसम्ब न् ि में “ तिदेशक ” सेउसफमषकाभािीदारअतभप्रेिहै।
-13. िेखाओंऔरदस्िा िेजोंकोमांििेिथाउिकातिरीिणकरिेकीअिुज्ञापिप्रातिकारीकीशतक्ि –– अिुज्ञापि प्र
-ातिकारी ––
-( क ) पुरस्का रप्रतियोतििाकासंप्रि िषियासंचािि करिेिािेदकसीव्य तक्ि सेअपेिाकरसकेिादकिहउस व्
-य तक्ि द्व ारारखेिएिेखाओंऔरअन्य दस्िा िेजोंकोउसकेसमिपेशकरेयाउसपुरस्का रप्रतियोतििासेसम्ब द्ध ऐसी
-अन्य जािकारीउसेदेजैसीिहअपेतििकरे;
-( ख ) ऐसेव्य तक्ि द्व ारा रखेिएिेखाओंऔरअन्य दस्िा िेजोंकासभीयुतक्ि युक्ि समयोंपरतिरीिणकरसकेिा।
-14. प्र िेशऔरििाशीकीशतक्ि –– (1) राज्य सरकारद्वारासामान्य अथिातिशेषतितखि आदेशद्वाराइसतितमत्तप्रातिकृि
-दकसीपुतिसअतिकारीकेतिएजोउपतिरीिककीपंतक्ि से िीचेकािहोयहतितिपूणषहोिादकिह ––
-( क ) दकन्हीं ऐसेपटरसरोंमें,तजिकीबाबिउसकेपासयहसंदेहकरिेकाकारणहैदकउिकाप्रयोिइस
-अतितियमकेउपबन्िों केउल्िं घिमेंदकसीपुरस्का रप्रतियोतििाकेसम्प्र ििषियासंचाििसेसम्ब तन्ि िप्रयोजिोंकेतिए
-दकयाजारहाहै,यददआिश्य कहोिोबिपूिषकचाहेददिमेंयारािमेंइििेसहायकोंकेसाथतजििेिहआिश्य कसमझिा
-है;प्रिेशकरे;
-( ख ) उिपटरसरोंकीिथाउिव्य तक्ि योंकीतजन्हें िहिहांपाएििाशीिे;
-( ि ) ऐसेसबव्य तक्ि यों को अतभरिामेंिेऔरदकसीमतज स् रे िकेसमिपेशकरेजोइसअतितियमकेउपबन्िों के
-उल्िं घिमेंदकसीपुरस्का रप्रतियोतििाकेसम्प्र ििषियासंचाििसेअथिाउससेसम्ब द्धप्र योजिोंके तिएऐसेपटरसरोंके प्र
-योिसेसम्ब तन्ि िहैंयातजिकेऐसेसम्ब तन्ि िहोिेकीबाबिउिकेतखिाफयुतक्ि युक्ि पटरिाददकयाियाहैया
-तिश्ि सिीयइतत्तिाप्राप्ि हु ईहैयायुतक्ि युक्ि संदेहतिद्यमािहै;और
-( घ ) िहांपाईिईऐसीसबचीजोंकोअतभिृहीिकरिेजोउसपुरस्का रप्रतियोतििामेंप्रयोिदकएजािेकेतिए
-आशतयिहैयातजिकेऐसेप्रयोिहोचुकिेकायुतक्ि युक्ि संदेहहै।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `( घ ) दकसीटिकि,कूपियाअन्य दस्िा िेजकोजोउसपुरस्का रप्रतियोतििामेंप्रयोिकेतिएहैयाउसकेदकसी`
+  line `तिज्ञापिकोतिक्रययातििरणकेप्रयोजिकेतिएउिराज्य िेत्रोंमेंतजिपरइसअतितियमकातिस्िा रहैिाएिायाभेजिे`
+  line `केतिएदकसीव्य तक्ि कोआमंतत्रिकरेिा;या`
+  line `( ङ ) उसपुरस्का रप्रति योतििामेंप्रयोिकेतिएदकसीटिकि,कूपियाअन्य दस्िा िेजकेतिक्रययातििरणके`
+  line `सम्ब न् ि मेंप्राप्ि दकसीिियामूल्य िाििस्िु कोउिराज्य िेत्रोंसेतजिमेंइसअतितियमकातिस्िा रहै बाहरभेजेिाया`
+  line `भेजिेकाप्रयत्ि करेिा;अथिा`
+  line `( च ) उसपुरस्का र प्र तियोतििाकेसंप्रििषियासंचाििसेसम्ब तन्ि िदकन्हीं प्र योजिोंकेतिएदकसीपटरसरका प्र`
+  line योिकरेिायादकसीपटरसरकाप्रयोिकराएिायाजािबूझकरहोिेदेिा;या
+  line `( छ ) उपरोक्ि कायोंमेंसेकोई कायषदकसीव्य तक्ि सेक राएिायाकरािेकेतिएउसेउपाप्ि करेिा याउपाप्ि`
+  line `करिेकाप्रयत्ि करेिा,`
+  line िोिहकारािाससे,तजसकीअितििीिमासिककीहोसकेिी,याजुमाषिेसे,जोपांचसौरुपएिककाहोसकेिा,अथिादोिोंसे
+  line `दण्ड िीयहोिा।`
+  line `12. तििमोंद्वाराअपराि –– (1) यददइसअतितियमकेअिीिअपरािकादोषीकोईव्य तक्ि कम्प िीहोिोिहप्रत्ये क व्`
+  line `य तक्ि,जोउसअपरािकेदकएजािेकेसमयउसकम्प िीकाभारसािकऔरउसकेप्रतिउत्तरदायीथाऔरसाथहीिहकम्प िीभी`
+  line `उसअपरािकेदोषीसमझेजाएंिेिथािदिुसारअपिे तिरुद्ध कायषिाहीदकएजािेऔरदतण्ड िदकएजािेकेभािीहोंिे:`
+  line `परंन्िु इसउपिारा कीकोईबािदकसीऐसेव्य तक्ि कोइसअतितियममेंउपबतन्ि िदकसीदण्ड काभािीिहींबिाएिीयदद`
+  line िहयहसातबिकरदेदकअपरािउसकीजािकारीकेतबिादकयाियाथायाउसिेऐसेअपरािकेदकएजािेकातििारणकरिेके
+  line `तिएसबसम्य क्ित्प रिाबरिीथी।`
+  line `(2) उपिा रा (1) मेंदकसीबािकेहोिेहुएभी,जहांइसअतितियमकेअिीिकोईअपरािकम्प िीकेदकसीतिदेशक, प्र`
+  line `बन्ि क,सतचियाअन्य अतिकारीकी सम्म ति,यामौिािुकूििासेदकयाियाहैयाउसकीदकसीघोरउपेिाकेकारणहुआमािाजा`
+  line `सकिाहैिहांऐसातिदेशक,प्रबन्ि क,सतचिया अन्य अतिकारीभीउसअपरािकादोषीसमझाजाएिािथािदिुसारअपिेतिरुद्ध`
+  line `कायषिाहीदकएजािेऔरदतण्ड िदकएजािेकाभािीहोिा। स्`
+  line `प ष्‍ट िी करण –– इस िाराकेप्रयोजिोंकेतिए ––`
+  line `( क ) ‘ कम्प िी ’ सेकोईतिितमितिकायअतभप्रेिहैऔरइसकेअन्ि िषिफमषयाव्य तष्‍टि यों काअन्य संिमभीहै;िथा`
+  line `( ख ) फमषकेसम्ब न् ि में “ तिदेशक ” सेउसफमषकाभािीदारअतभप्रेिहै।`
+  line `13. िेखाओंऔरदस्िा िेजोंकोमांििेिथाउिकातिरीिणकरिेकीअिुज्ञापिप्रातिकारीकीशतक्ि –– अिुज्ञापि प्र`
+  line `ातिकारी ––`
+  line `( क ) पुरस्का रप्रतियोतििाकासंप्रि िषियासंचािि करिेिािेदकसीव्य तक्ि सेअपेिाकरसकेिादकिहउस व्`
+  line `य तक्ि द्व ारारखेिएिेखाओंऔरअन्य दस्िा िेजोंकोउसकेसमिपेशकरेयाउसपुरस्का रप्रतियोतििासेसम्ब द्ध ऐसी`
+  line `अन्य जािकारीउसेदेजैसीिहअपेतििकरे;`
+  line `( ख ) ऐसेव्य तक्ि द्व ारा रखेिएिेखाओंऔरअन्य दस्िा िेजोंकासभीयुतक्ि युक्ि समयोंपरतिरीिणकरसकेिा।`
+  line `14. प्र िेशऔरििाशीकीशतक्ि –– (1) राज्य सरकारद्वारासामान्य अथिातिशेषतितखि आदेशद्वाराइसतितमत्तप्रातिकृि`
+  line `दकसीपुतिसअतिकारीकेतिएजोउपतिरीिककीपंतक्ि से िीचेकािहोयहतितिपूणषहोिादकिह ––`
+  line `( क ) दकन्हीं ऐसेपटरसरोंमें,तजिकीबाबिउसकेपासयहसंदेहकरिेकाकारणहैदकउिकाप्रयोिइस`
+  line `अतितियमकेउपबन्िों केउल्िं घिमेंदकसीपुरस्का रप्रतियोतििाकेसम्प्र ििषियासंचाििसेसम्ब तन्ि िप्रयोजिोंकेतिए`
+  line `दकयाजारहाहै,यददआिश्य कहोिोबिपूिषकचाहेददिमेंयारािमेंइििेसहायकोंकेसाथतजििेिहआिश्य कसमझिा`
+  line है;प्रिेशकरे;
+  line `( ख ) उिपटरसरोंकीिथाउिव्य तक्ि योंकीतजन्हें िहिहांपाएििाशीिे;`
+  line `( ि ) ऐसेसबव्य तक्ि यों को अतभरिामेंिेऔरदकसीमतज स् रे िकेसमिपेशकरेजोइसअतितियमकेउपबन्िों के`
+  line `उल्िं घिमेंदकसीपुरस्का रप्रतियोतििाकेसम्प्र ििषियासंचाििसेअथिाउससेसम्ब द्धप्र योजिोंके तिएऐसेपटरसरोंके प्र`
+  line `योिसेसम्ब तन्ि िहैंयातजिकेऐसेसम्ब तन्ि िहोिेकीबाबिउिकेतखिाफयुतक्ि युक्ि पटरिाददकयाियाहैया`
+  line `तिश्ि सिीयइतत्तिाप्राप्ि हु ईहैयायुतक्ि युक्ि संदेहतिद्यमािहै;और`
+  line `( घ ) िहांपाईिईऐसीसबचीजोंकोअतभिृहीिकरिेजोउसपुरस्का रप्रतियोतििामेंप्रयोिदकएजािेकेतिए`
+  line `आशतयिहैयातजिकेऐसेप्रयोिहोचुकिेकायुतक्ि युक्ि संदेहहै।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-(2) इसिाराकेअिीि सभीििा तशयांदण्ड प्र दक्रयासंतहिा, 1898 (1898 का 5) केउपबन्िों केअिुसारकीजाएंिी।
-15. पुरस्का रप्रतियोतििाओंिािेसमाचारपत्रोंऔरप्रकाशिोंकासमपहरण –– जहांदकसीसमाचारपत्रयाअन्य प्र काशिमें
-कोईऐसीपुरस्का रप्रतियोतििा,तजसकासम्प्र ििषियासंचाििइसअतितियमकेउपबन्िों केउल्िं घिमेंहै,अथिाइसअतितियमके
-अिीिअिुज्ञतप्ि केउपबन्िों केअिुसारहोिेसेअन्य थाहैयाउसकेसम्ब न् ि मेंकोईतिज्ञापिअन्ि र् िषष्‍टि हैिहांराज्य सरकारऐसी
-पुरस्का रप्र तियोतििायातिज्ञापिकोअन्ि र् िष ष्‍ट ि करिेिािेसमाचारपत्रकीप्रत्ये कप्रतिकोऔरप्रकाशिकीप्रत्ये कप्रतिको,शासकीय
-राजपत्रमेंअतिसूचिाद्वारा,सरकारकोसमपहृिघोतषिकरसकेिी।
-16. अपीिें –– अिुज्ञापिप्रातिकारीकेअिुज्ञतप्ि केअिुदािसेइन्का रक रिेिािेयाअिुज्ञतप्ि कोरद्दयातििं तम्ब िकरिे
-िािेतितिश्च यसेव्य तथिकोईव्य तक्ि,उििेसमयकेअन्द रजोतितहिदकयाजाएराज्य सरकारकोअपीिकरसकेिाऔरऐसी
-अपीिपरराज्य सरकारकातितिश्च यअतन्ि महोिा।
-17. अिुज्ञापिप्रातिकारीऔरअन्य अतिका टरयोंकािोकसेिकहोिा –– अिुज्ञापिप्रातिकारीऔरइसअतितियमकेअिीि
-कायषशीिअन्य कोईअतिकारीभारिीयदण्ड संतहिा (1860 का 45) कीिारा 21 केअथषमेंिोकसेिकसमझाजाएिा।
-18. अपरािोंकेतिचारणकीअतिकाटरिा –– प्रे तसडेन्सी मतजस्रे ियाप्रथमििषकेमतज स् रे िसेअिरकोईन्या याियइस
-अतितियमकेअिीिदकसीअपरािकातिचारणिहींकरेिा।
-19. इसअतितियमकेअिीिकीिईकायषिाहीकेतिएपटरत्राण –– इसतियमया िद् िीि बिाएिएतियमोंकेअिीि
-स द् भा िपूिषककीिईयाकीजािेकेतिएआशतयिदकसीबािकेतिएकोईभीिाद, अतभयोजियाअन्य तितिककायषिाहीअिुज्ञापि प्र
-ातिकारीकेयासरकारकेदकसीअन्य अतिकारीकेतिरुद्धिहोिी।
-20. तियमबिािेकीशतक्ि –– (1) राज्य सरकारइसअतितियमकेप्रयोजिोंकोकायाषतन्ि िकरिेकेतिएतियमशासकीय
-राजपत्रमेंअतिसूचिाद्वाराऔरपूिषप्र काशिकीशिषकेअध्य िीिबिासकेिी।
-(2) तितशष्‍टि ियाऔरपूिषिामीशतक्ि कीव्या पकिापरप्रतिकूिपरप्रभािडािेतबिा,ऐसेतियमतिम्ि तितखिसबतिषयों
-याउिमेंसेदकसीकेतिएउपबन्ि करसकेंिे,अथाषि्: ––
-( क ) अिुज्ञतप्ि केतिएआिेदिकाप्ररूपऔररीति औरऐसीअिुज्ञतप्ि केतिएफीस,यददकोईहो;
-( ख ) कािाितितजसकेतिए,शिेंतजिकेअध्य िी िऔरप्ररूपतजसमेंअिुज्ञतप्ि अिुदत्तकीजासकेिी;
-( ि ) प्ररू पतजसमेंऔरअन्ि राितजिमेंअिुज्ञापिप्रातिकारीकोिेखातििरणप्रस्िु िदकएजाएंिे।
-( घ ) समयतजसकेअन्द रअिुज्ञापिप्रातिकारीकेतितिश्च यकेतिरुद्धराज्य सरकारकोअपीिकीजासके िी;
-( ङ ) कोईअन्य तिषयजोतितहिदकयाजािाहोयादकयाजाए।
-1 [(3) इसअतितियमकेअिीिराज्य सरकारद्वाराबिायाियाप्रत्ये कतियम,बिाएजािेकेपश्चा ि्,यथाशीघ्र,राज्य
-ति िाि - मंडिकेसमिरखाजाएिा। ]
-______
-1 2005 केअतितियमसं ० 4 कीिारा 2 द्व ाराऔरअिुसूचीद्वारा अंि: स् था तपि।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `(2) इसिाराकेअिीि सभीििा तशयांदण्ड प्र दक्रयासंतहिा, 1898 (1898 का 5) केउपबन्िों केअिुसारकीजाएंिी।`
+  line `15. पुरस्का रप्रतियोतििाओंिािेसमाचारपत्रोंऔरप्रकाशिोंकासमपहरण –– जहांदकसीसमाचारपत्रयाअन्य प्र काशिमें`
+  line `कोईऐसीपुरस्का रप्रतियोतििा,तजसकासम्प्र ििषियासंचाििइसअतितियमकेउपबन्िों केउल्िं घिमेंहै,अथिाइसअतितियमके`
+  line `अिीिअिुज्ञतप्ि केउपबन्िों केअिुसारहोिेसेअन्य थाहैयाउसकेसम्ब न् ि मेंकोईतिज्ञापिअन्ि र् िषष्‍टि हैिहांराज्य सरकारऐसी`
+  line `पुरस्का रप्र तियोतििायातिज्ञापिकोअन्ि र् िष ष्‍ट ि करिेिािेसमाचारपत्रकीप्रत्ये कप्रतिकोऔरप्रकाशिकीप्रत्ये कप्रतिको,शासकीय`
+  line राजपत्रमेंअतिसूचिाद्वारा,सरकारकोसमपहृिघोतषिकरसकेिी।
+  line `16. अपीिें –– अिुज्ञापिप्रातिकारीकेअिुज्ञतप्ि केअिुदािसेइन्का रक रिेिािेयाअिुज्ञतप्ि कोरद्दयातििं तम्ब िकरिे`
+  line `िािेतितिश्च यसेव्य तथिकोईव्य तक्ि,उििेसमयकेअन्द रजोतितहिदकयाजाएराज्य सरकारकोअपीिकरसकेिाऔरऐसी`
+  line `अपीिपरराज्य सरकारकातितिश्च यअतन्ि महोिा।`
+  line `17. अिुज्ञापिप्रातिकारीऔरअन्य अतिका टरयोंकािोकसेिकहोिा –– अिुज्ञापिप्रातिकारीऔरइसअतितियमकेअिीि`
+  line `कायषशीिअन्य कोईअतिकारीभारिीयदण्ड संतहिा (1860 का 45) कीिारा 21 केअथषमेंिोकसेिकसमझाजाएिा।`
+  line `18. अपरािोंकेतिचारणकीअतिकाटरिा –– प्रे तसडेन्सी मतजस्रे ियाप्रथमििषकेमतज स् रे िसेअिरकोईन्या याियइस`
+  line अतितियमकेअिीिदकसीअपरािकातिचारणिहींकरेिा।
+  line `19. इसअतितियमकेअिीिकीिईकायषिाहीकेतिएपटरत्राण –– इसतियमया िद् िीि बिाएिएतियमोंकेअिीि`
+  line `स द् भा िपूिषककीिईयाकीजािेकेतिएआशतयिदकसीबािकेतिएकोईभीिाद, अतभयोजियाअन्य तितिककायषिाहीअिुज्ञापि प्र`
+  line `ातिकारीकेयासरकारकेदकसीअन्य अतिकारीकेतिरुद्धिहोिी।`
+  line `20. तियमबिािेकीशतक्ि –– (1) राज्य सरकारइसअतितियमकेप्रयोजिोंकोकायाषतन्ि िकरिेकेतिएतियमशासकीय`
+  line `राजपत्रमेंअतिसूचिाद्वाराऔरपूिषप्र काशिकीशिषकेअध्य िीिबिासकेिी।`
+  line `(2) तितशष्‍टि ियाऔरपूिषिामीशतक्ि कीव्या पकिापरप्रतिकूिपरप्रभािडािेतबिा,ऐसेतियमतिम्ि तितखिसबतिषयों`
+  line `याउिमेंसेदकसीकेतिएउपबन्ि करसकेंिे,अथाषि्: ––`
+  line `( क ) अिुज्ञतप्ि केतिएआिेदिकाप्ररूपऔररीति औरऐसीअिुज्ञतप्ि केतिएफीस,यददकोईहो;`
+  line `( ख ) कािाितितजसकेतिए,शिेंतजिकेअध्य िी िऔरप्ररूपतजसमेंअिुज्ञतप्ि अिुदत्तकीजासकेिी;`
+  line `( ि ) प्ररू पतजसमेंऔरअन्ि राितजिमेंअिुज्ञापिप्रातिकारीकोिेखातििरणप्रस्िु िदकएजाएंिे।`
+  line `( घ ) समयतजसकेअन्द रअिुज्ञापिप्रातिकारीकेतितिश्च यकेतिरुद्धराज्य सरकारकोअपीिकीजासके िी;`
+  line `( ङ ) कोईअन्य तिषयजोतितहिदकयाजािाहोयादकयाजाए।`
+  line `1 [(3) इसअतितियमकेअिीिराज्य सरकारद्वाराबिायाियाप्रत्ये कतियम,बिाएजािेकेपश्चा ि्,यथाशीघ्र,राज्य`
+  line `ति िाि - मंडिकेसमिरखाजाएिा। ]`
+  line ______
+  line `1 2005 केअतितियमसं ० 4 कीिारा 2 द्व ाराऔरअिुसूचीद्वारा अंि: स् था तपि।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line

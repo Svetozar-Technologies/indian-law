@@ -1,50 +1,42 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T19:03:08.617Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19232`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-08T19:03:08.617Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19232`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-central-provinces-court-of-wards-act-1899)
-  (str handle) (str 19232)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Central Provinces Court of Wards Act, 1899`)
-  (str actNumber) (str 24)
-  (str enactmentDate) (str 1899-10-13)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19232`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str actYear) (str 1899)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act to consolidate and amend the law relating to the Court of Wards in the Central Provinces.`)
+  slug the-central-provinces-court-of-wards-act-1899
+  handle (19232)
+  collectionHandle 123456789/1362
+  title `The Central Provinces Court of Wards Act, 1899`
+  actNumber (24)
+  enactmentDate 1899-10-13
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19232`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  actYear (1899)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act to consolidate and amend the law relating to the Court of Wards in the Central Provinces.`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_central_provinces_court_of_wards_act_1899
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/19232`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/19232`
 obj_root_law_sources_en_the_central_provinces_court_of_wards_act_1899:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19232/1/a1899-24.pdf`)
-  (str title) (str `The Central Provinces Court of Wards Act, 1899`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19232/1/a1899-24.pdf`
+  title `The Central Provinces Court of Wards Act, 1899`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -87,713 +79,918 @@ obj_root_law_sections:
   obj_root_law_sections_40
   obj_root_law_sections_41
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 71423)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Central Provinces Court
-of Wards Act, 1899.
-
-(2) It extends to the territories for the time being administered by the Local Government of the Central
-Provinces; and
-
-(3) It shall come into force at once.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71423&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71423)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71423&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Central Provinces Court`
+  line `of Wards Act, 1899.`
+  line
+  line `(2) It extends to the territories for the time being administered by the Local Government of the Central`
+  line `Provinces; and`
+  line
+  line `(3) It shall come into force at once.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 71424)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless there is anything repugnant in the subject or context,--
-
-(a) the expression "Government ward" means any person of whose property, or of whose person
-and property, the Court of Wards may, for the time being, have the superintendence under this Act;
-
-(b) "land" includes the rights of a land-holder in respect of the land of which he is the malguzar or
-zamindar or the muafidar, jagirdar, ubaridar or other assignee of land-revenue, or in which he is
-interested; and
-
-(c) "land-holder" means a malguzar as defined in the Central Provinces Land-revenue Act, 1881,
-XVIII of 1881, and the zamindar of any zamindari in a Scheduled District, and includes a muafidar,
-jagirdar, ubaridar or other assignee of land-revenue, and any person not hereinbefore specified who is
-interested in land and belongs to a class of which the Local Government, with the previous sanction
-of the Governor General in Council, has declared the members to be land-holders for the purposes of
-this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71424&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71424)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71424&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless there is anything repugnant in the subject or context,--`
+  line
+  line `(a) the expression "Government ward" means any person of whose property, or of whose person`
+  line `and property, the Court of Wards may, for the time being, have the superintendence under this Act;`
+  line
+  line `(b) "land" includes the rights of a land-holder in respect of the land of which he is the malguzar or`
+  line `zamindar or the muafidar, jagirdar, ubaridar or other assignee of land-revenue, or in which he is`
+  line `interested; and`
+  line
+  line `(c) "land-holder" means a malguzar as defined in the Central Provinces Land-revenue Act, 1881,`
+  line `XVIII of 1881, and the zamindar of any zamindari in a Scheduled District, and includes a muafidar,`
+  line `jagirdar, ubaridar or other assignee of land-revenue, and any person not hereinbefore specified who is`
+  line `interested in land and belongs to a class of which the Local Government, with the previous sanction`
+  line `of the Governor General in Council, has declared the members to be land-holders for the purposes of`
+  line `this Act.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 71425)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Commissioner to be Court of Wards.`)
-  (str content) (str `Subject to the provisions of section 9, the Commissioner
-shall be the Court of Wards for the limits of his division.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71425&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71425)
+  sectionNo (3)
+  orderNo 3
+  title `Commissioner to be Court of Wards.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71425&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_3_content:
+  string
+  line `Subject to the provisions of section 9, the Commissioner`
+  line `shall be the Court of Wards for the limits of his division.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 71426)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Superintendence by Court of Wards of property of disqualified landholder.`)
-  (str content) (str `The Court of
-Wards may, with the previous sanction of the Local Government, assume the superintendence of the
-property of any land-holder owning land within the local limits of its jurisdiction who is disqualified to
-manage his property.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71426&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71426)
+  sectionNo (4)
+  orderNo 4
+  title `Superintendence by Court of Wards of property of disqualified landholder.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71426&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_4_content:
+  string
+  line `The Court of`
+  line `Wards may, with the previous sanction of the Local Government, assume the superintendence of the`
+  line `property of any land-holder owning land within the local limits of its jurisdiction who is disqualified to`
+  line `manage his property.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 71427)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Land-holders to be deemed disqualified in certain cases.`)
-  (str content) (str `(1) The following persons shall, for
-the purposes of section 4, be deemed to be disqualified to manage their own property, namely:--
-
-(a) minors;
-
-(b) persons adjudged by a competent Civil Court to be of unsound mind and incapable of managing
-their affairs; and
-
-(c) persons declared by the Local Government to be incapable of managing their property owing
-to--
-
-(i) any physical or mental defect or infirmity;
-
-(ii) their having been convicted of a non-bailable offence and being unfitted by vice or bad
-character; or
-
-(iii) their being females.
-
-(2) No suit shall be brought in any Civil Court in respect of any declaration made by the Local
-Government under sub-section (1), clause (c).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71427&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71427)
+  sectionNo (5)
+  orderNo 5
+  title `Land-holders to be deemed disqualified in certain cases.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71427&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_5_content:
+  string
+  line `(1) The following persons shall, for`
+  line `the purposes of section 4, be deemed to be disqualified to manage their own property, namely:--`
+  line
+  line `(a) minors;`
+  line
+  line `(b) persons adjudged by a competent Civil Court to be of unsound mind and incapable of managing`
+  line `their affairs; and`
+  line
+  line `(c) persons declared by the Local Government to be incapable of managing their property owing`
+  line to--
+  line
+  line `(i) any physical or mental defect or infirmity;`
+  line
+  line `(ii) their having been convicted of a non-bailable offence and being unfitted by vice or bad`
+  line `character; or`
+  line
+  line `(iii) their being females.`
+  line
+  line `(2) No suit shall be brought in any Civil Court in respect of any declaration made by the Local`
+  line `Government under sub-section (1), clause (c).`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 71428)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Superintendence by Court of Wards on application of proprietor.`)
-  (str content) (str `(1) Any land-holder may
-apply to the Local Government to have his property placed under the superintendence of the Court of Wards,
-and the Local Government may on such application, if it thinks it expedient in the public interests, order
-the Court of Wards to assume the superintendence of the property.
-
-(2) An order made by the Local Government under sub-section (1) shall be sufficient to authorize the
-Court of Wards to assume the superintendence of the property referred to therein, and no suit shall be
-brought in any Civil Court in respect of any such order.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71428&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71428)
+  sectionNo (6)
+  orderNo 6
+  title `Superintendence by Court of Wards on application of proprietor.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71428&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_6_content:
+  string
+  line `(1) Any land-holder may`
+  line `apply to the Local Government to have his property placed under the superintendence of the Court of Wards,`
+  line `and the Local Government may on such application, if it thinks it expedient in the public interests, order`
+  line `the Court of Wards to assume the superintendence of the property.`
+  line
+  line `(2) An order made by the Local Government under sub-section (1) shall be sufficient to authorize the`
+  line `Court of Wards to assume the superintendence of the property referred to therein, and no suit shall be`
+  line `brought in any Civil Court in respect of any such order.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 71429)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Temporary provisions for custody of heirs and protection of property in certain cases.`)
-  (str content) (str `(1) Whenever the Court of Wards receives information that any land-holder has died and has reason to
-believe that the heir of the land-holder is a person who is, or should be adjudged or declared to be,
-disqualified under section 5, the Court may--
-
-(a) take such steps and make such order for the temporary custody and protection of the property
-inherited as it thinks fit; and,
-
-(b) if the heir is a minor, direct that the person (if any) having the custody of the minor, shall
-produce him or cause him to be produced at such place and time and before such person as the Court
-may appoint, and make such order for the temporary custody and protection of the minor as it thinks
-fit:
-
-Provided that, where the minor is a female and belongs to a class the females of which do not usually
-appear in public, her production shall be required only in accordance with the manners and customs of the
-country.
-
-(2) Whenever the Court of Wards proceeds under this section, it shall forthwith report its action for the
-information of the Local Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71429&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71429)
+  sectionNo (7)
+  orderNo 7
+  title `Temporary provisions for custody of heirs and protection of property in certain cases.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71429&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_7_content:
+  string
+  line `(1) Whenever the Court of Wards receives information that any land-holder has died and has reason to`
+  line `believe that the heir of the land-holder is a person who is, or should be adjudged or declared to be,`
+  line `disqualified under section 5, the Court may--`
+  line
+  line `(a) take such steps and make such order for the temporary custody and protection of the property`
+  line `inherited as it thinks fit; and,`
+  line
+  line `(b) if the heir is a minor, direct that the person (if any) having the custody of the minor, shall`
+  line `produce him or cause him to be produced at such place and time and before such person as the Court`
+  line `may appoint, and make such order for the temporary custody and protection of the minor as it thinks`
+  line `fit:`
+  line
+  line `Provided that, where the minor is a female and belongs to a class the females of which do not usually`
+  line `appear in public, her production shall be required only in accordance with the manners and customs of the`
+  line country.
+  line
+  line `(2) Whenever the Court of Wards proceeds under this section, it shall forthwith report its action for the`
+  line `information of the Local Government.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 71430)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Superintendence by Court of Wards of person of disqualified landholder.`)
-  (str content) (str `Where the Court
-of Wards assumes the superintendence of the property of a minor or of a person who has been adjudged by
-a competent Civil Court to be of unsound mind and incapable of managing his affairs, it may, with the
-previous sanction of the Local Government, assume the superintendence of his person also:
-
-Provided that nothing in this section shall authorize the Court of Wards to assume the superintendence
-of the person of a female who is married to a man of full age and is in his custody.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71430&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71430)
+  sectionNo (8)
+  orderNo 8
+  title `Superintendence by Court of Wards of person of disqualified landholder.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71430&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_8_content:
+  string
+  line `Where the Court`
+  line `of Wards assumes the superintendence of the property of a minor or of a person who has been adjudged by`
+  line `a competent Civil Court to be of unsound mind and incapable of managing his affairs, it may, with the`
+  line `previous sanction of the Local Government, assume the superintendence of his person also:`
+  line
+  line `Provided that nothing in this section shall authorize the Court of Wards to assume the superintendence`
+  line `of the person of a female who is married to a man of full age and is in his custody.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 71465)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Superintendence by Court of Wards where disqualified landholder owns land in more than one division`)
-  (str content) (str `Where a land-holder owns land within two or more divisions, such one only of the Courts
-of Wards as the Local Government may determine in this behalf shall assume the superintendence of the
-property, or of the person and property, of the land-holder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71465&sectionno=9&orderno=9&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71465)
+  sectionNo (9)
+  orderNo 9
+  title `Superintendence by Court of Wards where disqualified landholder owns land in more than one division`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71465&sectionno=9&orderno=9&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_9_content:
+  string
+  line `Where a land-holder owns land within two or more divisions, such one only of the Courts`
+  line `of Wards as the Local Government may determine in this behalf shall assume the superintendence of the`
+  line `property, or of the person and property, of the land-holder.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 71466)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Assumption of superintendence to be notified and to extend to whole of Government ward’s property.`)
-  (str content) (str `(1) Whenever the Court of Wards assumes the superintendence of the property of any person
-under this Act, the fact of such assumption, and the date on which it was sanctioned by the Local
-Government, shall be notified in the local official Gazette.
-
-(2) On and with effect from the date of such sanction, the whole of the property, moveable or
-immoveable, of such person, whether the existence of any such property may be known to the said Court
-or not, shall be deemed to be under the superintendence of the Court of Wards.
-
-(3) Any property which the Government ward may inherit subsequently to the date of such sanction,
-shall also be deemed to be under the superintendence of the Court of Wards.
-
-(4) The Court of Wards may, in its discretion, assume, or refrain from assuming, the superintendence
-of any property which the ward may acquire, otherwise than by inheritance subsequently to the date of such
-notification.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71466&sectionno=10&orderno=10&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71466)
+  sectionNo (10)
+  orderNo 10
+  title `Assumption of superintendence to be notified and to extend to whole of Government ward’s property.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71466&sectionno=10&orderno=10&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_10_content:
+  string
+  line `(1) Whenever the Court of Wards assumes the superintendence of the property of any person`
+  line `under this Act, the fact of such assumption, and the date on which it was sanctioned by the Local`
+  line `Government, shall be notified in the local official Gazette.`
+  line
+  line `(2) On and with effect from the date of such sanction, the whole of the property, moveable or`
+  line `immoveable, of such person, whether the existence of any such property may be known to the said Court`
+  line `or not, shall be deemed to be under the superintendence of the Court of Wards.`
+  line
+  line `(3) Any property which the Government ward may inherit subsequently to the date of such sanction,`
+  line `shall also be deemed to be under the superintendence of the Court of Wards.`
+  line
+  line `(4) The Court of Wards may, in its discretion, assume, or refrain from assuming, the superintendence`
+  line `of any property which the ward may acquire, otherwise than by inheritance subsequently to the date of such`
+  line notification.
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 71433)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Barring of suits to contest authority to assume superintendence.`)
-  (str content) (str `No suit shall be brought in
-any Civil Court to contest the authority of the Court of Wards in respect of the property, or of the person
-and property, of any person under this Act on the ground that such person was not, or is not, a land-holder
-or a minor.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71433&sectionno=11&orderno=11&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71433)
+  sectionNo (11)
+  orderNo 11
+  title `Barring of suits to contest authority to assume superintendence.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71433&sectionno=11&orderno=11&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_11_content:
+  string
+  line `No suit shall be brought in`
+  line `any Civil Court to contest the authority of the Court of Wards in respect of the property, or of the person`
+  line `and property, of any person under this Act on the ground that such person was not, or is not, a land-holder`
+  line `or a minor.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 71434)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Notices to claimants against Government ward.`)
-  (str content) (str `(1) On the issue of a notification under
-section 10, the Court of Wards shall publish in the local official Gazette and in such other manner as the
-Local Government may, by general or special order, direct, a notice, in English and also in the vernacular,
-calling upon all persons having claims against the Government ward or his immoveable property to submit
-the same in writing to it within six months from the date of the publication of the notice aforesaid.
-
-(2) Every such claim (other than a claim on the part of the Government) not submitted to the Court of
-Wards in compliance with the provisions of sub-section (1), shall, save in the case provided for by
-section 16, sub-section (2), clause (c), be deemed for all purposes and on all occasions, whether during the
-continuance of the management or afterwards, to have been duly discharged:
-
-Provided that, if the Court of Wards is satisfied that the claimant was unable to comply with the
-provisions of sub-section (1), it may receive his claim at any time after the date of the expiry of the period
-aforesaid, but any claim so received shall, notwithstanding any law, contract, decree or award to the
-contrary, cease to carry interest from the date of the expiry of the period aforesaid.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71434&sectionno=12&orderno=12&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71434)
+  sectionNo (12)
+  orderNo 12
+  title `Notices to claimants against Government ward.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71434&sectionno=12&orderno=12&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_12_content:
+  string
+  line `(1) On the issue of a notification under`
+  line `section 10, the Court of Wards shall publish in the local official Gazette and in such other manner as the`
+  line `Local Government may, by general or special order, direct, a notice, in English and also in the vernacular,`
+  line `calling upon all persons having claims against the Government ward or his immoveable property to submit`
+  line `the same in writing to it within six months from the date of the publication of the notice aforesaid.`
+  line
+  line `(2) Every such claim (other than a claim on the part of the Government) not submitted to the Court of`
+  line `Wards in compliance with the provisions of sub-section (1), shall, save in the case provided for by`
+  line `section 16, sub-section (2), clause (c), be deemed for all purposes and on all occasions, whether during the`
+  line `continuance of the management or afterwards, to have been duly discharged:`
+  line
+  line `Provided that, if the Court of Wards is satisfied that the claimant was unable to comply with the`
+  line `provisions of sub-section (1), it may receive his claim at any time after the date of the expiry of the period`
+  line `aforesaid, but any claim so received shall, notwithstanding any law, contract, decree or award to the`
+  line `contrary, cease to carry interest from the date of the expiry of the period aforesaid.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 71435)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Claimants to furnish full particulars and documents.`)
-  (str content) (str `(1) Every claimant submitting his claim
-in compliance with the provisions of section 12, sub-section (1), shall furnish, along with his written
-statement of claim, full particulars thereof, and shall, at the same time, produce all documents (including
-entries in books of account) on which he relies to support his claim, together with a true copy of every such
-document.
-
-(2) The Court of Wards shall, after making, for the purpose of identification, every original document
-so produced and verifying the correctness of the copy, retain the copy and return the original to the claimant.
-
-(3) If any document, which is in the possession or under the control of the claimant, is not produced by
-him as required by sub-section (1), the document shall not be admissible in evidence against the
-Government ward, whether during the continuance of the management or afterwards, in any suit brought
-by the claimant or by any person claiming under him.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71435&sectionno=13&orderno=13&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71435)
+  sectionNo (13)
+  orderNo 13
+  title `Claimants to furnish full particulars and documents.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71435&sectionno=13&orderno=13&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_13_content:
+  string
+  line `(1) Every claimant submitting his claim`
+  line `in compliance with the provisions of section 12, sub-section (1), shall furnish, along with his written`
+  line `statement of claim, full particulars thereof, and shall, at the same time, produce all documents (including`
+  line `entries in books of account) on which he relies to support his claim, together with a true copy of every such`
+  line document.
+  line
+  line `(2) The Court of Wards shall, after making, for the purpose of identification, every original document`
+  line `so produced and verifying the correctness of the copy, retain the copy and return the original to the claimant.`
+  line
+  line `(3) If any document, which is in the possession or under the control of the claimant, is not produced by`
+  line `him as required by sub-section (1), the document shall not be admissible in evidence against the`
+  line `Government ward, whether during the continuance of the management or afterwards, in any suit brought`
+  line `by the claimant or by any person claiming under him.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 71436)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Stay of proceedings of Civil Courts.`)
-  (str content) (str `If a Civil Court has directed any process of execution to
-issue against any immoveable property of a Government ward or the rents thereof or any crops standing
-thereon, the Court of Wards may, at any time within one year after the issue of a notification under section
-10, apply to the Civil Court to stay proceedings in the matter of such process, and the Civil Court may, on
-such terms regarding interest or compensation for delay as may appear to it to be just and reasonable, stay
-such proceedings accordingly.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71436&sectionno=14&orderno=14&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71436)
+  sectionNo (14)
+  orderNo 14
+  title `Stay of proceedings of Civil Courts.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71436&sectionno=14&orderno=14&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_14_content:
+  string
+  line `If a Civil Court has directed any process of execution to`
+  line `issue against any immoveable property of a Government ward or the rents thereof or any crops standing`
+  line `thereon, the Court of Wards may, at any time within one year after the issue of a notification under section`
+  line `10, apply to the Civil Court to stay proceedings in the matter of such process, and the Civil Court may, on`
+  line `such terms regarding interest or compensation for delay as may appear to it to be just and reasonable, stay`
+  line `such proceedings accordingly.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 71437)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Adjudication of claims.`)
-  (str content) (str `(1) On receipt of all claims submitted in compliance with the provisions
-of sections 12 and 13, the Court of Wards shall proceed to investigate such claims and shall decide which
-of them are to be wholly or partly admitted or wholly or partly rejected, as the case may be, and shall
-communicate its decision in writing to each claimant concerned.
-
-(2) When the Court of Wards has admitted any claim under sub-section (1), it may make to the claimant
-a proposal in writing for the reduction of the claim, or of the rate of interest to be paid in future, or of both;
-and, if such proposal, or any modification of it, is accepted by the claimant and his acceptance is finally
-recorded and attested by the Court of Wards or by any Revenue-officer not being below the rank of an
-Assistant Commissioner whom the Local Government may, by general or special order, appoint in this
-behalf, it shall be conclusively binding upon the claimant:
-
-Provided that, if when the superintendence of the property by the Court of Wards is relinquished or
-otherwise terminates, any portion of the claim reduced as aforesaid is still unsatisfied, the claimant shall be
-entitled to recover a sum bearing the same proportion to the original claim admitted under sub-section (1)
-as the unsatisfied portion bears to the reduced claim.
-
-(3) Subject to the provisions of sub-section (2), nothing in this section shall be construed to bar the
-institution of a suit in a Civil Court for the recovery of a claim against a Government ward or his property
-which has been submitted to and received by the Court of Wards:
-
-Provided that, no decision of the Court of Wards under this section shall be proved in any such suit as
-against the defendant.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71437&sectionno=15&orderno=15&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71437)
+  sectionNo (15)
+  orderNo 15
+  title `Adjudication of claims.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71437&sectionno=15&orderno=15&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_15_content:
+  string
+  line `(1) On receipt of all claims submitted in compliance with the provisions`
+  line `of sections 12 and 13, the Court of Wards shall proceed to investigate such claims and shall decide which`
+  line `of them are to be wholly or partly admitted or wholly or partly rejected, as the case may be, and shall`
+  line `communicate its decision in writing to each claimant concerned.`
+  line
+  line `(2) When the Court of Wards has admitted any claim under sub-section (1), it may make to the claimant`
+  line `a proposal in writing for the reduction of the claim, or of the rate of interest to be paid in future, or of both;`
+  line `and, if such proposal, or any modification of it, is accepted by the claimant and his acceptance is finally`
+  line `recorded and attested by the Court of Wards or by any Revenue-officer not being below the rank of an`
+  line `Assistant Commissioner whom the Local Government may, by general or special order, appoint in this`
+  line `behalf, it shall be conclusively binding upon the claimant:`
+  line
+  line `Provided that, if when the superintendence of the property by the Court of Wards is relinquished or`
+  line `otherwise terminates, any portion of the claim reduced as aforesaid is still unsatisfied, the claimant shall be`
+  line `entitled to recover a sum bearing the same proportion to the original claim admitted under sub-section (1)`
+  line `as the unsatisfied portion bears to the reduced claim.`
+  line
+  line `(3) Subject to the provisions of sub-section (2), nothing in this section shall be construed to bar the`
+  line `institution of a suit in a Civil Court for the recovery of a claim against a Government ward or his property`
+  line `which has been submitted to and received by the Court of Wards:`
+  line
+  line `Provided that, no decision of the Court of Wards under this section shall be proved in any such suit as`
+  line `against the defendant.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 71438)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Report of Chief Commissioner.`)
-  (str content) (str `(1) When all claims have been investigated under section 15,
-the Court of Wards shall submit to the Local Government a schedule of the debts and liabilities of the
-Government ward, and the Local Government may, when the estate appears to be involved beyond all hope
-of extrication or for any other sufficient reason, by an order published in the Local official Gazette, direct
-that, on a date to be fixed by the order, the superintendence of the property and person of the ward shall be
-relinquished by the Court of Wards.
-
-(2) On the date so fixed--
-
-(a) the superintendence shall terminate;
-
-(b) the owner of the property under superintendence shall be restored to the possession thereof,
-subject to any contracts entered into by the Court of Wards for the preservation or benefit of such
-property;
-
-(c) the claims referred to in section 12, sub-section (2), shall revive.
-
-(3) In calculating the periods of limitation applicable to suits to recover and enforce debts and liabilities
-revived under this section, the time during which such superintendence has continued shall be excluded.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71438&sectionno=16&orderno=16&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71438)
+  sectionNo (16)
+  orderNo 16
+  title `Report of Chief Commissioner.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71438&sectionno=16&orderno=16&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_16_content:
+  string
+  line `(1) When all claims have been investigated under section 15,`
+  line `the Court of Wards shall submit to the Local Government a schedule of the debts and liabilities of the`
+  line `Government ward, and the Local Government may, when the estate appears to be involved beyond all hope`
+  line `of extrication or for any other sufficient reason, by an order published in the Local official Gazette, direct`
+  line `that, on a date to be fixed by the order, the superintendence of the property and person of the ward shall be`
+  line `relinquished by the Court of Wards.`
+  line
+  line `(2) On the date so fixed--`
+  line
+  line `(a) the superintendence shall terminate;`
+  line
+  line `(b) the owner of the property under superintendence shall be restored to the possession thereof,`
+  line `subject to any contracts entered into by the Court of Wards for the preservation or benefit of such`
+  line property;
+  line
+  line `(c) the claims referred to in section 12, sub-section (2), shall revive.`
+  line
+  line `(3) In calculating the periods of limitation applicable to suits to recover and enforce debts and liabilities`
+  line `revived under this section, the time during which such superintendence has continued shall be excluded.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 71439)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Appointment, etc., of managers by Court of Wards.`)
-  (str content) (str `The Court of Wards may appoint a
-manager of the property of any Government ward under its superintendence.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71439&sectionno=17&orderno=17&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71439)
+  sectionNo (17)
+  orderNo 17
+  title `Appointment, etc., of managers by Court of Wards.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71439&sectionno=17&orderno=17&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_17_content:
+  string
+  line `The Court of Wards may appoint a`
+  line `manager of the property of any Government ward under its superintendence.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 71440)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Delegation of powers by Court of Wards.`)
-  (str content) (str `(1) With the general or special sanction of the Local
-Government, the Court of Wards may, from time to time, delegate all or any of its powers to the Deputy
-Commissioner of any district in which any part of the property of a Government ward is situated, or to
-any other person whom it may appoint in this behalf; and may, at any time, with the like sanction, revoke
-such delegation.
-
-(2) Subject to any general or special orders of the Local Government, the Court of Wards may exercise
-all or any powers conferred on it by this Act through the Deputy Commissioner of any district in which
-any part of the property of a Government ward is situated, or through any other person whom it may appoint
-in this behalf, and, subject to the like orders, any such Deputy Commissioner may exercise all or any powers
-delegated to him under this Act through any Revenue-officer subordinate to him.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71440&sectionno=18&orderno=18&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71440)
+  sectionNo (18)
+  orderNo 18
+  title `Delegation of powers by Court of Wards.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71440&sectionno=18&orderno=18&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_18_content:
+  string
+  line `(1) With the general or special sanction of the Local`
+  line `Government, the Court of Wards may, from time to time, delegate all or any of its powers to the Deputy`
+  line `Commissioner of any district in which any part of the property of a Government ward is situated, or to`
+  line `any other person whom it may appoint in this behalf; and may, at any time, with the like sanction, revoke`
+  line `such delegation.`
+  line
+  line `(2) Subject to any general or special orders of the Local Government, the Court of Wards may exercise`
+  line `all or any powers conferred on it by this Act through the Deputy Commissioner of any district in which`
+  line `any part of the property of a Government ward is situated, or through any other person whom it may appoint`
+  line `in this behalf, and, subject to the like orders, any such Deputy Commissioner may exercise all or any powers`
+  line `delegated to him under this Act through any Revenue-officer subordinate to him.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 71441)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Liabilities, etc., of managers and other servants of Court of Wards.`)
-  (str content) (str `(1) Every manager
-appointed by the Court of Wards shall--
-
-(a) give such security as the Court thinks fit duly to account for what he receives in respect of the
-rents and profits of the property under his management;
-
-(b) be entitled to such allowance as the Court thinks fit for his care and pains in the execution of
-his duties; and
-
-(c) be responsible for any loss occasioned to the property under his management by his wilful
-default or gross negligence.
-
-(2) Every manager or other servant of the Court of Wards shall be deemed a "public servantsbqts within
-the meaning of sections 161, 162, 163, 164 and 165 of the Indian Penal Code (XLV of 1860); and in the
-definition of "legal remuneration" contained in the said section 161, the word sbqtsGovernmentsbqts shall, for the
-purposes of this sub-section, be deemed to include the Court of Wards.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71441&sectionno=19&orderno=19&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71441)
+  sectionNo (19)
+  orderNo 19
+  title `Liabilities, etc., of managers and other servants of Court of Wards.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71441&sectionno=19&orderno=19&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_19_content:
+  string
+  line `(1) Every manager`
+  line `appointed by the Court of Wards shall--`
+  line
+  line `(a) give such security as the Court thinks fit duly to account for what he receives in respect of the`
+  line `rents and profits of the property under his management;`
+  line
+  line `(b) be entitled to such allowance as the Court thinks fit for his care and pains in the execution of`
+  line `his duties; and`
+  line
+  line `(c) be responsible for any loss occasioned to the property under his management by his wilful`
+  line `default or gross negligence.`
+  line
+  line `(2) Every manager or other servant of the Court of Wards shall be deemed a "public servantsbqts within`
+  line `the meaning of sections 161, 162, 163, 164 and 165 of the Indian Penal Code (XLV of 1860); and in the`
+  line `definition of "legal remuneration" contained in the said section 161, the word sbqtsGovernmentsbqts shall, for the`
+  line `purposes of this sub-section, be deemed to include the Court of Wards.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 71442)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Power for Court of Wards to appoint guardians of certain Government wards.`)
-  (str content) (str `The Court of
-Wards may appoint guardians for the care of the persons of Government wards whose persons are, for the
-time being, under its superintendence.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71442&sectionno=20&orderno=20&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71442)
+  sectionNo (20)
+  orderNo 20
+  title `Power for Court of Wards to appoint guardians of certain Government wards.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71442&sectionno=20&orderno=20&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_20_content:
+  string
+  line `The Court of`
+  line `Wards may appoint guardians for the care of the persons of Government wards whose persons are, for the`
+  line `time being, under its superintendence.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 71443)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `General powers of Court of Wards.`)
-  (str content) (str `Subject to the provisions of this Act and of any rules
-thereunder, the Court of Wards--
-
-(a) may, of itself or through the manager (if any) appointed by it under this Act, do all such things
-requisite for the proper care and management of any property, of which it assumes the superintendence
-under this Act, as the owner of the property, if it were not under the superintendence of the Court of
-Wards, might do for its care and management; and
-
-(b) may, of itself or through the guardian (if any) appointed by it under this Act, do, in respect of
-the person of any Government ward whose person is, for the time being, under its superintendence, all
-such things as may lawfully be done by a guardian.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71443&sectionno=21&orderno=21&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71443)
+  sectionNo (21)
+  orderNo 21
+  title `General powers of Court of Wards.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71443&sectionno=21&orderno=21&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_21_content:
+  string
+  line `Subject to the provisions of this Act and of any rules`
+  line `thereunder, the Court of Wards--`
+  line
+  line `(a) may, of itself or through the manager (if any) appointed by it under this Act, do all such things`
+  line `requisite for the proper care and management of any property, of which it assumes the superintendence`
+  line `under this Act, as the owner of the property, if it were not under the superintendence of the Court of`
+  line `Wards, might do for its care and management; and`
+  line
+  line `(b) may, of itself or through the guardian (if any) appointed by it under this Act, do, in respect of`
+  line `the person of any Government ward whose person is, for the time being, under its superintendence, all`
+  line `such things as may lawfully be done by a guardian.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 71444)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Custody, education and residence of certain Government wards.`)
-  (str content) (str `The Court of Wards may
-pass such orders as it thinks fit in respect of the custody and residence of any Government ward whose
-person is, for the time being, under its superintendence, and, when he is a minor, in respect of his education.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71444&sectionno=22&orderno=22&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71444)
+  sectionNo (22)
+  orderNo 22
+  title `Custody, education and residence of certain Government wards.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71444&sectionno=22&orderno=22&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_22_content:
+  string
+  line `The Court of Wards may`
+  line `pass such orders as it thinks fit in respect of the custody and residence of any Government ward whose`
+  line `person is, for the time being, under its superintendence, and, when he is a minor, in respect of his education.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 71445)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Allowance for Government ward and his family.`)
-  (str content) (str `The Court of Wards may, from time to time,
-determine what sums shall be allowed in respect of the expenses of any Government ward and of his family
-and dependants.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71445&sectionno=23&orderno=23&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71445)
+  sectionNo (23)
+  orderNo 23
+  title `Allowance for Government ward and his family.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71445&sectionno=23&orderno=23&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_23_content:
+  string
+  line `The Court of Wards may, from time to time,`
+  line `determine what sums shall be allowed in respect of the expenses of any Government ward and of his family`
+  line `and dependants.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 71446)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Duties of Court of Wards or manager.`)
-  (str content) (str `The Court of Wards, or the manager (if any) appointed
-by it under this Act, shall manage the property of every Government ward under its superintendence or
-under his management diligently and faithfully for the benefit of the Government ward, and shall in every
-respect act to the best of its or his judgment for the Government ward's interest as if the property were its
-or his own.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71446&sectionno=24&orderno=24&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71446)
+  sectionNo (24)
+  orderNo 24
+  title `Duties of Court of Wards or manager.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71446&sectionno=24&orderno=24&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_24_content:
+  string
+  line `The Court of Wards, or the manager (if any) appointed`
+  line `by it under this Act, shall manage the property of every Government ward under its superintendence or`
+  line `under his management diligently and faithfully for the benefit of the Government ward, and shall in every`
+  line `respect act to the best of its or his judgment for the Government ward's interest as if the property were its`
+  line `or his own.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 71448)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Powers of Court of Wards as to property of Government wards.`)
-  (str content) (str `The Court of Wards may let
-the whole or any part of the property of any Government ward under its superintendence, and may, with
-the previous sanction of the Local Government, mortgage, sell or exchange the whole or any part of such
-property, and may do all such other acts as it may judge to be best for the benefit of the property and the
-advantage of the Government ward.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71448&sectionno=25&orderno=25&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71448)
+  sectionNo (25)
+  orderNo 25
+  title `Powers of Court of Wards as to property of Government wards.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71448&sectionno=25&orderno=25&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_25_content:
+  string
+  line `The Court of Wards may let`
+  line `the whole or any part of the property of any Government ward under its superintendence, and may, with`
+  line `the previous sanction of the Local Government, mortgage, sell or exchange the whole or any part of such`
+  line `property, and may do all such other acts as it may judge to be best for the benefit of the property and the`
+  line `advantage of the Government ward.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 71449)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Notice of suit.`)
-  (str content) (str `No suit relating to the person or property of any Government ward shall be brought
-in any Civil Court until the expiration of two months after notice in writing, stating the name and place of
-abode of the intending plaintiff, the cause of action and the relief claimed, has been delivered to, or left at
-the office of, the Court of Wards; and the plaint shall contain a statement that such notice has been so
-delivered or left:
-
-Provided that notice under this section shall not be required in the case of any suit the period of
-limitation for which will expire within three months from the date of a notification issued under section 10,
-sub-section (1).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71449&sectionno=26&orderno=26&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71449)
+  sectionNo (26)
+  orderNo 26
+  title `Notice of suit.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71449&sectionno=26&orderno=26&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_26_content:
+  string
+  line `No suit relating to the person or property of any Government ward shall be brought`
+  line `in any Civil Court until the expiration of two months after notice in writing, stating the name and place of`
+  line `abode of the intending plaintiff, the cause of action and the relief claimed, has been delivered to, or left at`
+  line `the office of, the Court of Wards; and the plaint shall contain a statement that such notice has been so`
+  line `delivered or left:`
+  line
+  line `Provided that notice under this section shall not be required in the case of any suit the period of`
+  line `limitation for which will expire within three months from the date of a notification issued under section 10,`
+  line `sub-section (1).`
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 71450)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Manager or Court of Wards to be next friend or guardian in suit by or against Government wards.`)
-  (str content) (str `In every suit brought by or against a Government ward, the manager of the ward's property or, if
-there is no manager, the Court of Wards having the superintendence of the ward's property shall be named
-as the next friend or guardian for the suit, as the case may be.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71450&sectionno=27&orderno=27&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71450)
+  sectionNo (27)
+  orderNo 27
+  title `Manager or Court of Wards to be next friend or guardian in suit by or against Government wards.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71450&sectionno=27&orderno=27&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_27_content:
+  string
+  line `In every suit brought by or against a Government ward, the manager of the ward's property or, if`
+  line `there is no manager, the Court of Wards having the superintendence of the ward's property shall be named`
+  line `as the next friend or guardian for the suit, as the case may be.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 71451)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str `Payment of costs.`)
-  (str content) (str `If, in any suit brought by or against a Government ward, any Civil Court
-decrees any costs against the Government ward's next friend or guardian for the suit, the Court of Wards
-shall cause the costs to be paid out of any property of the Government ward which may, for the time being,
-be in its hands.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71451&sectionno=28&orderno=28&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71451)
+  sectionNo (28)
+  orderNo 28
+  title `Payment of costs.`
+  content obj_root_law_sections_28_content
+  footnotes obj_root_law_sections_28_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71451&sectionno=28&orderno=28&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_28_content:
+  string
+  line `If, in any suit brought by or against a Government ward, any Civil Court`
+  line `decrees any costs against the Government ward's next friend or guardian for the suit, the Court of Wards`
+  line `shall cause the costs to be paid out of any property of the Government ward which may, for the time being,`
+  line `be in its hands.`
+obj_root_law_sections_28_footnotes:
+  string
+  line
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 71452)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Processes against Government ward to be served on next friend or guardian.`)
-  (str content) (str `Every process
-which may be issued out of any Civil or Revenue Court against any Government ward shall be served on
-the Government ward's next friend or guardian for the suit.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71452&sectionno=29&orderno=29&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71452)
+  sectionNo (29)
+  orderNo 29
+  title `Processes against Government ward to be served on next friend or guardian.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71452&sectionno=29&orderno=29&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_29_content:
+  string
+  line `Every process`
+  line `which may be issued out of any Civil or Revenue Court against any Government ward shall be served on`
+  line `the Government ward's next friend or guardian for the suit.`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 71453)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str `Authority of Court of Wards required in case of suits brought on behalf of Government wards.`)
-  (str content) (str `No suit shall be brought, and no appeal in any suit shall be preferred, on behalf of any Government
-ward unless it is authorized by an order in writing of the Court of Wards:
-
-Provided as follows:--
-
-(1) a manager may authorize a plaint to be filed in order to prevent a suit from being barred by the
-law of limitation, but the suit shall not afterwards be proceeded with except under the sanction of the
-Court of Wards;
-
-(2) a suit for arrears of rent may be brought on behalf of a Government ward, if authorized by an
-order of the manager of the property on which the rent is due.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71453&sectionno=30&orderno=30&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71453)
+  sectionNo (30)
+  orderNo 30
+  title `Authority of Court of Wards required in case of suits brought on behalf of Government wards.`
+  content obj_root_law_sections_30_content
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71453&sectionno=30&orderno=30&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_30_content:
+  string
+  line `No suit shall be brought, and no appeal in any suit shall be preferred, on behalf of any Government`
+  line `ward unless it is authorized by an order in writing of the Court of Wards:`
+  line
+  line `Provided as follows:--`
+  line
+  line `(1) a manager may authorize a plaint to be filed in order to prevent a suit from being barred by the`
+  line `law of limitation, but the suit shall not afterwards be proceeded with except under the sanction of the`
+  line `Court of Wards;`
+  line
+  line `(2) a suit for arrears of rent may be brought on behalf of a Government ward, if authorized by an`
+  line `order of the manager of the property on which the rent is due.`
+obj_root_law_sections_30_footnotes:
+  string
+  line
 obj_root_law_sections_31:
-  object
-  (str sectionId) (str 71454)
-  (str sectionNo) (str 31)
-  (str orderNo) (int 31)
-  (str title) (str `Disabilities of a Government ward.`)
-  (str content) (str `(1) A Government ward shall be incompetent to transfer or
-create any charge on, or interest in, his property or any part thereof (except such interest as may be created
-by a will made in accordance with section 32), or to enter into any contract which may involve him in
-pecuniary liability; and no suit shall be brought in any Civil Court whereby to charge any person upon any
-promise made after he has ceased to be a Government ward to pay any debt contracted during the period
-when he was a Government ward, or upon any ratification made after he has ceased to be a Government
-ward of any promise or contract made during the period aforesaid, whether there is or is not any new
-consideration for such promise or ratification.
-
-(2) Nothing in this section shall be deemed to affect the capacity of a Government ward to enter into a
-contract of marriage:
-
-Provided that a Government ward shall not incur, in connection with such a contract, any pecuniary
-liability, except such as, having regard to the personal law to which he is subject and to his rank and
-circumstances, the Court of Wards may, in writing, declare to be reasonable.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71454&sectionno=31&orderno=31&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71454)
+  sectionNo (31)
+  orderNo 31
+  title `Disabilities of a Government ward.`
+  content obj_root_law_sections_31_content
+  footnotes obj_root_law_sections_31_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71454&sectionno=31&orderno=31&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_31_content:
+  string
+  line `(1) A Government ward shall be incompetent to transfer or`
+  line `create any charge on, or interest in, his property or any part thereof (except such interest as may be created`
+  line `by a will made in accordance with section 32), or to enter into any contract which may involve him in`
+  line `pecuniary liability; and no suit shall be brought in any Civil Court whereby to charge any person upon any`
+  line `promise made after he has ceased to be a Government ward to pay any debt contracted during the period`
+  line `when he was a Government ward, or upon any ratification made after he has ceased to be a Government`
+  line `ward of any promise or contract made during the period aforesaid, whether there is or is not any new`
+  line `consideration for such promise or ratification.`
+  line
+  line `(2) Nothing in this section shall be deemed to affect the capacity of a Government ward to enter into a`
+  line `contract of marriage:`
+  line
+  line `Provided that a Government ward shall not incur, in connection with such a contract, any pecuniary`
+  line `liability, except such as, having regard to the personal law to which he is subject and to his rank and`
+  line `circumstances, the Court of Wards may, in writing, declare to be reasonable.`
+obj_root_law_sections_31_footnotes:
+  string
+  line
 obj_root_law_sections_32:
-  object
-  (str sectionId) (str 71455)
-  (str sectionNo) (str 32)
-  (str orderNo) (int 32)
-  (str title) (str `Consent of Local Government necessary to adoptions or wills made by Government wards.`)
-  (str content) (str `No adoption by a Government ward, and no written or verbal permission to adopt given by a Government
-ward, or will made by a Government ward, shall be valid without the consent of the Local Government
-obtained, either previously or subsequently to the adoption or to the giving of the permission, or the making
-of the will, on application made to it through the Court of Wards.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71455&sectionno=32&orderno=32&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71455)
+  sectionNo (32)
+  orderNo 32
+  title `Consent of Local Government necessary to adoptions or wills made by Government wards.`
+  content obj_root_law_sections_32_content
+  footnotes obj_root_law_sections_32_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71455&sectionno=32&orderno=32&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_32_content:
+  string
+  line `No adoption by a Government ward, and no written or verbal permission to adopt given by a Government`
+  line `ward, or will made by a Government ward, shall be valid without the consent of the Local Government`
+  line `obtained, either previously or subsequently to the adoption or to the giving of the permission, or the making`
+  line `of the will, on application made to it through the Court of Wards.`
+obj_root_law_sections_32_footnotes:
+  string
+  line
 obj_root_law_sections_33:
-  object
-  (str sectionId) (str 71456)
-  (str sectionNo) (str 33)
-  (str orderNo) (int 33)
-  (str title) (str `Procedure when succession to Government ward's property is disputed.`)
-  (str content) (str `Whenever, on the
-death of any Government ward, the succession to his property or any part thereof is disputed, the Court of
-Wards may, with the previous sanction of the Local Government, either direct that the property or the part
-thereof be made over to any person claiming the property, or retain the superintendence of the property
-until one of the claimants has established his claim to the same in a competent Civil Court, or institute a
-suit of interpleader against all the claimants.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71456&sectionno=33&orderno=33&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71456)
+  sectionNo (33)
+  orderNo 33
+  title `Procedure when succession to Government ward's property is disputed.`
+  content obj_root_law_sections_33_content
+  footnotes obj_root_law_sections_33_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71456&sectionno=33&orderno=33&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_33_content:
+  string
+  line `Whenever, on the`
+  line `death of any Government ward, the succession to his property or any part thereof is disputed, the Court of`
+  line `Wards may, with the previous sanction of the Local Government, either direct that the property or the part`
+  line `thereof be made over to any person claiming the property, or retain the superintendence of the property`
+  line `until one of the claimants has established his claim to the same in a competent Civil Court, or institute a`
+  line `suit of interpleader against all the claimants.`
+obj_root_law_sections_33_footnotes:
+  string
+  line
 obj_root_law_sections_34:
-  object
-  (str sectionId) (str 71457)
-  (str sectionNo) (str 34)
-  (str orderNo) (int 34)
-  (str title) (str `Withdrawal of superintendence of Court of Wards.`)
-  (str content) (str `(1) The Court of Wards may, with the
-sanction of the Local Government, at any time withdraw its superintendence from the person or property,
-or both, of a Government ward, and shall withdraw its superintendence as soon as,--
-
-(a) in the case of a person disqualified under clause (a) of section 5, sub-section (1), he attains his
-majority;
-
-(b) in the case of a person disqualified under clause (b) of the same, he ceases to be of unsound
-mind and incapable of managing his affairs;
-
-(c) in the case of a person disqualified under sub-clause (i) of clause (c) of the same, his physical
-or mental defect or infirmity is removed or ceases:
-
-Provided as follows:--
-
-(i) whenever a Government ward lies or ceases to be disqualified and his property is still
-encumbered with debts and liabilities, the Court of Wards may, with the previous sanction of the Local
-Government, either release such property or retain it under its superintendence until such debts and
-liabilities have been discharged; and,
-
-(ii) if one or more of the proprietors of a property remain disqualified, although another or others
-may have ceased to be disqualified, the Court of Wards may, with the previous sanction of the Local
-Government, retain the whole of the property under its superintendence, paying any proprietor who has
-ceased to be disqualified, the surplus income accruing from his share of the estate.
-
-(2) Where any question arises as to whether the superintendence of the Court of Wards should be
-withdrawn from any person or property, or both, under clause (a), or from any property under clause (c),
-of sub-section (1), the decision of the Local Government thereon shall be final, and no suit shall be brought
-in any Civil Court in respect of such decision.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71457&sectionno=34&orderno=34&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71457)
+  sectionNo (34)
+  orderNo 34
+  title `Withdrawal of superintendence of Court of Wards.`
+  content obj_root_law_sections_34_content
+  footnotes obj_root_law_sections_34_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71457&sectionno=34&orderno=34&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_34_content:
+  string
+  line `(1) The Court of Wards may, with the`
+  line `sanction of the Local Government, at any time withdraw its superintendence from the person or property,`
+  line `or both, of a Government ward, and shall withdraw its superintendence as soon as,--`
+  line
+  line `(a) in the case of a person disqualified under clause (a) of section 5, sub-section (1), he attains his`
+  line majority;
+  line
+  line `(b) in the case of a person disqualified under clause (b) of the same, he ceases to be of unsound`
+  line `mind and incapable of managing his affairs;`
+  line
+  line `(c) in the case of a person disqualified under sub-clause (i) of clause (c) of the same, his physical`
+  line `or mental defect or infirmity is removed or ceases:`
+  line
+  line `Provided as follows:--`
+  line
+  line `(i) whenever a Government ward lies or ceases to be disqualified and his property is still`
+  line `encumbered with debts and liabilities, the Court of Wards may, with the previous sanction of the Local`
+  line `Government, either release such property or retain it under its superintendence until such debts and`
+  line `liabilities have been discharged; and,`
+  line
+  line `(ii) if one or more of the proprietors of a property remain disqualified, although another or others`
+  line `may have ceased to be disqualified, the Court of Wards may, with the previous sanction of the Local`
+  line `Government, retain the whole of the property under its superintendence, paying any proprietor who has`
+  line `ceased to be disqualified, the surplus income accruing from his share of the estate.`
+  line
+  line `(2) Where any question arises as to whether the superintendence of the Court of Wards should be`
+  line `withdrawn from any person or property, or both, under clause (a), or from any property under clause (c),`
+  line `of sub-section (1), the decision of the Local Government thereon shall be final, and no suit shall be brought`
+  line `in any Civil Court in respect of such decision.`
+obj_root_law_sections_34_footnotes:
+  string
+  line
 obj_root_law_sections_35:
-  object
-  (str sectionId) (str 71458)
-  (str sectionNo) (str 35)
-  (str orderNo) (int 35)
-  (str title) (str `Appointment of guardian in certain cases.`)
-  (str content) (str `(1) Where, in exercise of the power conferred by
-section 34, the Court of Wards decides to withdraw its superintendence from the person and property of
-any minor, it shall, before such withdrawal, by an order in writing, appoint some person to be guardian of
-the person or property, or both, of the minor, and such appointment shall take effect from the date of such
-release.
-
-(2) In appointing a guardian under this section, the Court of Wards shall be guided by the provisions of
-the Guardians and Wards Act, 1890 (VIII of 1890); and every guardian so appointed shall have, and be
-subject to, the same rights, duties and liabilities as if he had been appointed under that Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71458&sectionno=35&orderno=35&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71458)
+  sectionNo (35)
+  orderNo 35
+  title `Appointment of guardian in certain cases.`
+  content obj_root_law_sections_35_content
+  footnotes obj_root_law_sections_35_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71458&sectionno=35&orderno=35&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_35_content:
+  string
+  line `(1) Where, in exercise of the power conferred by`
+  line `section 34, the Court of Wards decides to withdraw its superintendence from the person and property of`
+  line `any minor, it shall, before such withdrawal, by an order in writing, appoint some person to be guardian of`
+  line `the person or property, or both, of the minor, and such appointment shall take effect from the date of such`
+  line release.
+  line
+  line `(2) In appointing a guardian under this section, the Court of Wards shall be guided by the provisions of`
+  line `the Guardians and Wards Act, 1890 (VIII of 1890); and every guardian so appointed shall have, and be`
+  line `subject to, the same rights, duties and liabilities as if he had been appointed under that Act.`
+obj_root_law_sections_35_footnotes:
+  string
+  line
 obj_root_law_sections_36:
-  object
-  (str sectionId) (str 71459)
-  (str sectionNo) (str 36)
-  (str orderNo) (int 36)
-  (str title) (str `Withdrawal to be notified in Gazette.`)
-  (str content) (str `Where the Court of Wards withdraw its superintendence
-from any person or property under this Act, the fact of such withdrawal shall be notified in the Local official
-Gazette.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71459&sectionno=36&orderno=36&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71459)
+  sectionNo (36)
+  orderNo 36
+  title `Withdrawal to be notified in Gazette.`
+  content obj_root_law_sections_36_content
+  footnotes obj_root_law_sections_36_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71459&sectionno=36&orderno=36&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_36_content:
+  string
+  line `Where the Court of Wards withdraw its superintendence`
+  line `from any person or property under this Act, the fact of such withdrawal shall be notified in the Local official`
+  line Gazette.
+obj_root_law_sections_36_footnotes:
+  string
+  line
 obj_root_law_sections_37:
-  object
-  (str sectionId) (str 71460)
-  (str sectionNo) (str 37)
-  (str orderNo) (int 37)
-  (str title) (str Appeals.)
-  (str content) (str `An appeal shall lie from every order passed under this Act, whether original or on
-appeal,--
-
-(a) if the order is that of a Commissioner, to the Local Government;
-
-(b) if the order is that of a Deputy Commissioner, to the Commissioner;
-
-(c) in all other cases, to the Deputy Commissioner:
-
-Provided that in no case shall a third appeal lie.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71460&sectionno=37&orderno=37&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71460)
+  sectionNo (37)
+  orderNo 37
+  title Appeals.
+  content obj_root_law_sections_37_content
+  footnotes obj_root_law_sections_37_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71460&sectionno=37&orderno=37&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_37_content:
+  string
+  line `An appeal shall lie from every order passed under this Act, whether original or on`
+  line appeal,--
+  line
+  line `(a) if the order is that of a Commissioner, to the Local Government;`
+  line
+  line `(b) if the order is that of a Deputy Commissioner, to the Commissioner;`
+  line
+  line `(c) in all other cases, to the Deputy Commissioner:`
+  line
+  line `Provided that in no case shall a third appeal lie.`
+obj_root_law_sections_37_footnotes:
+  string
+  line
 obj_root_law_sections_38:
-  object
-  (str sectionId) (str 71461)
-  (str sectionNo) (str 38)
-  (str orderNo) (int 38)
-  (str title) (str `Control of Local Government.`)
-  (str content) (str `All orders or proceedings under this Act shall be subject to the
-supervision and control of the Local Government; and the Local Government may, if it thinks fit, revise,
-modify or reverse any such order or proceeding, whether an appeal is presented against any such order or
-proceeding or not.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71461&sectionno=38&orderno=38&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71461)
+  sectionNo (38)
+  orderNo 38
+  title `Control of Local Government.`
+  content obj_root_law_sections_38_content
+  footnotes obj_root_law_sections_38_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71461&sectionno=38&orderno=38&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_38_content:
+  string
+  line `All orders or proceedings under this Act shall be subject to the`
+  line `supervision and control of the Local Government; and the Local Government may, if it thinks fit, revise,`
+  line `modify or reverse any such order or proceeding, whether an appeal is presented against any such order or`
+  line `proceeding or not.`
+obj_root_law_sections_38_footnotes:
+  string
+  line
 obj_root_law_sections_39:
-  object
-  (str sectionId) (str 71462)
-  (str sectionNo) (str 39)
-  (str orderNo) (int 39)
-  (str title) (str `Exercise of discretion not to be questioned in Civil Court.`)
-  (str content) (str `No suit shall be brought in any
-Civil Court in respect of the exercise of any discretion conferred by this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71462&sectionno=39&orderno=39&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71462)
+  sectionNo (39)
+  orderNo 39
+  title `Exercise of discretion not to be questioned in Civil Court.`
+  content obj_root_law_sections_39_content
+  footnotes obj_root_law_sections_39_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71462&sectionno=39&orderno=39&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_39_content:
+  string
+  line `No suit shall be brought in any`
+  line `Civil Court in respect of the exercise of any discretion conferred by this Act.`
+obj_root_law_sections_39_footnotes:
+  string
+  line
 obj_root_law_sections_40:
-  object
-  (str sectionId) (str 71463)
-  (str sectionNo) (str 40)
-  (str orderNo) (int 40)
-  (str title) (str `Power for Local Government to make rules.`)
-  (str content) (str `(1) The Local Government may make rules to
-carry out the purposes and objects of this Act.
-(2) In particular and without prejudice to the generality of the foregoing power, such rules may--
-
-(a) prescribe the matters to which regard should be had in appointing or removing guardians and
-managers, and in fixing their remuneration;
-
-(b) regulate the amount of security to be given by managers;
-
-(c) prescribe the cases in which proposals or arrangements connected with the administration of the
-properties of Government wards shall be reported for the sanction of the Local Government;
-
-(d) prescribe the accounts and other returns which, and the periods and form at and in which, they
-shall be rendered to the Court of Wards and by the Court of Wards to the Local Government;
-
-(e) regulate the custody of securities and title-deeds belonging to the estate or property of a
-Government ward;
-
-(f) regulate the procedure in inquiries by, and in appeals from orders of, the Court of Wards under
-this Act, and fix the periods of limitation which shall apply to such appeals;
-
-(g) confer upon the Court of Wards for the purposes of this Act any of the powers exercised by a
-Civil Court in the trial of suits;
-
-(h) prescribe the mode in which powers delegated to managers are to be notified for the information
-of persons concerned; and
-
-(i) generally prescribe the manner in which the powers and duties of the Court of Wards under this
-Act shall be exercised and performed.
-
-(3) All rules made under this section shall be published in the Local official Gazette, and shall on such
-publication have effect as if enacted by this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71463&sectionno=40&orderno=40&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71463)
+  sectionNo (40)
+  orderNo 40
+  title `Power for Local Government to make rules.`
+  content obj_root_law_sections_40_content
+  footnotes obj_root_law_sections_40_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71463&sectionno=40&orderno=40&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_40_content:
+  string
+  line `(1) The Local Government may make rules to`
+  line `carry out the purposes and objects of this Act.`
+  line `(2) In particular and without prejudice to the generality of the foregoing power, such rules may--`
+  line
+  line `(a) prescribe the matters to which regard should be had in appointing or removing guardians and`
+  line `managers, and in fixing their remuneration;`
+  line
+  line `(b) regulate the amount of security to be given by managers;`
+  line
+  line `(c) prescribe the cases in which proposals or arrangements connected with the administration of the`
+  line `properties of Government wards shall be reported for the sanction of the Local Government;`
+  line
+  line `(d) prescribe the accounts and other returns which, and the periods and form at and in which, they`
+  line `shall be rendered to the Court of Wards and by the Court of Wards to the Local Government;`
+  line
+  line `(e) regulate the custody of securities and title-deeds belonging to the estate or property of a`
+  line `Government ward;`
+  line
+  line `(f) regulate the procedure in inquiries by, and in appeals from orders of, the Court of Wards under`
+  line `this Act, and fix the periods of limitation which shall apply to such appeals;`
+  line
+  line `(g) confer upon the Court of Wards for the purposes of this Act any of the powers exercised by a`
+  line `Civil Court in the trial of suits;`
+  line
+  line `(h) prescribe the mode in which powers delegated to managers are to be notified for the information`
+  line `of persons concerned; and`
+  line
+  line `(i) generally prescribe the manner in which the powers and duties of the Court of Wards under this`
+  line `Act shall be exercised and performed.`
+  line
+  line `(3) All rules made under this section shall be published in the Local official Gazette, and shall on such`
+  line `publication have effect as if enacted by this Act.`
+obj_root_law_sections_40_footnotes:
+  string
+  line
 obj_root_law_sections_41:
-  object
-  (str sectionId) (str 71464)
-  (str sectionNo) (str 41)
-  (str orderNo) (int 41)
-  (str title) (str Repeal.)
-  (str content) (str `The enactments mentioned in the schedule are repealed to the extent specified in the
-fourth column thereof.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71464&sectionno=41&orderno=41&orgactid=AC_CEN_5_5_00120_189924_1668661247420)
+  sectionId (71464)
+  sectionNo (41)
+  orderNo 41
+  title Repeal.
+  content obj_root_law_sections_41_content
+  footnotes obj_root_law_sections_41_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00120_189924_1668661247420&sectionId=71464&sectionno=41&orderno=41&orgactid=AC_CEN_5_5_00120_189924_1668661247420
+obj_root_law_sections_41_content:
+  string
+  line `The enactments mentioned in the schedule are repealed to the extent specified in the`
+  line `fourth column thereof.`
+obj_root_law_sections_41_footnotes:
+  string
+  line

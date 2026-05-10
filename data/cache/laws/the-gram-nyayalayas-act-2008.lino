@@ -1,72 +1,64 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:45:40.385Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2060`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 40)
-  (str totalSections) (int 40)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:45:40.385Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2060`
+  completeFetch true
+  maxSections null
+  sectionCount 40
+  totalSections 40
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-gram-nyayalayas-act-2008)
-  (str handle) (str 2060)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Gram Nyayalayas Act, 2008`)
-  (str actNumber) (str 04)
-  (str enactmentDate) (str 2009-01-07)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2060`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `ग्राम न्‍यायालय अधिनियम, 2008`)
-  (str actYear) (str 2009)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Department of Justice`)
-  (str longTitle) (str `An Act to provide for the establishment of Gram Nyayalayas at the grass roots level for the purposes of providing access to justice to the citizens at their doorsteps and to ensure that opportunities for securing justice are not denied to any citizen by reason of social, economic or other disabilities and for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 02-10-2009)
-  (str notification) (str `2nd October, 2009, vide notification No. S.O. 2313(E), dated 11th November, 2009, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`)
-  (str fetchedAt) (str `2026-05-08T21:12:53.700Z`)
-  (str translations) obj_root_law_translations
+  slug the-gram-nyayalayas-act-2008
+  handle (2060)
+  collectionHandle 123456789/1362
+  title `The Gram Nyayalayas Act, 2008`
+  actNumber (04)
+  enactmentDate 2009-01-07
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2060`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `ग्राम न्‍यायालय अधिनियम, 2008`
+  actYear (2009)
+  ministry `Ministry of Law and Justice`
+  department `Department of Justice`
+  longTitle `An Act to provide for the establishment of Gram Nyayalayas at the grass roots level for the purposes of providing access to justice to the citizens at their doorsteps and to ensure that opportunities for securing justice are not denied to any citizen by reason of social, economic or other disabilities and for matters connected therewith or incidental thereto.`
+  enforcementDate 02-10-2009
+  notification `2nd October, 2009, vide notification No. S.O. 2313(E), dated 11th November, 2009, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`
+  fetchedAt `2026-05-08T21:12:53.700Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_gram_nyayalayas_act_2008
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2060`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2060`
 obj_root_law_sources_en_the_gram_nyayalayas_act_2008:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2060/3/A2009-04.pdf`)
-  (str title) (str `The Gram Nyayalayas Act, 2008`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2060/3/A2009-04.pdf`
+  title `The Gram Nyayalayas Act, 2008`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00009_200904_1517807319778/rulesindividualfile/&file=The+UP+Gram+Nayayalaya+Procedure+and+Practice+Rules%2C+2009.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00009_200904_1517807319778/rulesindividualfile/&file=The+UP+Gram+Nayayalaya+Procedure+and+Practice+Rules%2C+2009.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_2008
 obj_root_law_sources_hi_2008:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2060/4/H2009-4.pdf`)
-  (str title) (str `ग्राम न्‍यायालय अधिनियम, 2008`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2060/4/H2009-4.pdf`
+  title `ग्राम न्‍यायालय अधिनियम, 2008`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -108,760 +100,957 @@ obj_root_law_sections:
   obj_root_law_sections_39
   obj_root_law_sections_40
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 9565)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Gram Nyayalayas Act,
-2008.
-
-(2) It extends to the whole of India except ^1***, the State of Nagaland, the State of Arunachal Pradesh, the
-State of Sikkim and to the tribal areas.
-
-Explanation.-- In this sub-section, the expression tribal areas means the areas specified in Parts I,
-II, IIA and III of the Table below paragraph 20 of the Sixth Schedule to the Constitution within the State
-of Assam, the State of Meghalaya, the State of Tripura and the State of Mizoram, respectively.
-
-(3) It shall come into force on such date^2
-as the Central Government may, by notification published in
-the Official Gazette, appoint; and different dates may be appointed for different States.`)
-  (str footnotes) (str `1. The words "the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule
-(w.e.f. 31-10- 2019).
-
-2. 2nd October, 2009, vide notification No. S.O. 2313(E), dated 11th November, 2009, see Gazette of India,
-Extraordinary, Part II, sec. 3(ii).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9565&sectionno=1&orderno=1&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9565)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9565&sectionno=1&orderno=1&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Gram Nyayalayas Act,`
+  line 2008.
+  line
+  line `(2) It extends to the whole of India except ^1***, the State of Nagaland, the State of Arunachal Pradesh, the`
+  line `State of Sikkim and to the tribal areas.`
+  line
+  line `Explanation.-- In this sub-section, the expression tribal areas means the areas specified in Parts I,`
+  line `II, IIA and III of the Table below paragraph 20 of the Sixth Schedule to the Constitution within the State`
+  line `of Assam, the State of Meghalaya, the State of Tripura and the State of Mizoram, respectively.`
+  line
+  line `(3) It shall come into force on such date^2`
+  line `as the Central Government may, by notification published in`
+  line `the Official Gazette, appoint; and different dates may be appointed for different States.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. The words "the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule`
+  line `(w.e.f. 31-10- 2019).`
+  line
+  line `2. 2nd October, 2009, vide notification No. S.O. 2313(E), dated 11th November, 2009, see Gazette of India,`
+  line `Extraordinary, Part II, sec. 3(ii).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 9566)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "Gram Nyayalaya" means a court established under sub-section (1) of section 3;
-
-(b) "Gram Panchayat" means an institution (by whatever name called) of self-government
-constituted, at the village level, under article 243B of the Constitution, for the rural areas;
-
-(c) "High Court" means,--
-
-(i) in relation to any State, the High Court for that State;
-
-(ii) in relation to a Union territory to which the jurisdiction of the High Court for a State has
-been extended by law, that High Court;
-
-(iii) in relation to any other Union territory, the highest Court of criminal appeal for that
-territory other than the Supreme Court of India;
-
-(d) "notification" means a notification published in the Official Gazette and the expression
-"notified" shall be construed accordingly;
-
-(e) "Nyayadhikari" means the presiding officer of a Gram Nyayalaya appointed under section 5;
-
-(f) "Panchayat at intermediate level" means an institution (by whatever name called) of selfgovernment constituted, at the intermediate level, under article 243B of the Constitution, for the rural
-areas in accordance with the provisions of Part IX of the Constitution;
-
-(g) "prescribed" means prescribed by rules made under this Act;
-
-(h) "Schedule" means the Schedule appended to this Act;
-
-(i) "State Government", in relation to a Union territory, means the administrator thereof appointed
-under article 239 of the Constitution;
-
-(j) words and expressions used herein and not defined but defined in the Code of Civil Procedure,
-1908 (5 of 1908) or the Code of Criminal Procedure, 1973 (2 of 1974) shall have the meanings
-respectively assigned to them in those Codes.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9566&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9566)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9566&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "Gram Nyayalaya" means a court established under sub-section (1) of section 3;`
+  line
+  line `(b) "Gram Panchayat" means an institution (by whatever name called) of self-government`
+  line `constituted, at the village level, under article 243B of the Constitution, for the rural areas;`
+  line
+  line `(c) "High Court" means,--`
+  line
+  line `(i) in relation to any State, the High Court for that State;`
+  line
+  line `(ii) in relation to a Union territory to which the jurisdiction of the High Court for a State has`
+  line `been extended by law, that High Court;`
+  line
+  line `(iii) in relation to any other Union territory, the highest Court of criminal appeal for that`
+  line `territory other than the Supreme Court of India;`
+  line
+  line `(d) "notification" means a notification published in the Official Gazette and the expression`
+  line `"notified" shall be construed accordingly;`
+  line
+  line `(e) "Nyayadhikari" means the presiding officer of a Gram Nyayalaya appointed under section 5;`
+  line
+  line `(f) "Panchayat at intermediate level" means an institution (by whatever name called) of selfgovernment constituted, at the intermediate level, under article 243B of the Constitution, for the rural`
+  line `areas in accordance with the provisions of Part IX of the Constitution;`
+  line
+  line `(g) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(h) "Schedule" means the Schedule appended to this Act;`
+  line
+  line `(i) "State Government", in relation to a Union territory, means the administrator thereof appointed`
+  line `under article 239 of the Constitution;`
+  line
+  line `(j) words and expressions used herein and not defined but defined in the Code of Civil Procedure,`
+  line `1908 (5 of 1908) or the Code of Criminal Procedure, 1973 (2 of 1974) shall have the meanings`
+  line `respectively assigned to them in those Codes.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 9567)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Establishment of Gram Nyayalayas.`)
-  (str content) (str `(1) For the purpose of exercising the jurisdiction and
-powers conferred on a Gram Nyayalaya by this Act, the State Government, after consultation with the
-High Court, may, by notification, establish one or more Gram Nyayalayas for every Panchayat at
-intermediate level or a group of contiguous Panchayats at intermediate level in a district or where there is
-no Panchayat at intermediate level in any State, for a group of contiguous Gram Panchayats.
-
-(2) The State Government shall, after consultation with the High Court, specify, by notification, the
-local limits of the area to which the jurisdiction of a Gram Nyayalaya shall extend and may, at any time,
-increase, reduce or alter such limits.
-
-(3) The Gram Nyayalayas established under sub-section (1) shall be in addition to the courts
-established under any other law for the time being in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9567&sectionno=3&orderno=3&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9567)
+  sectionNo (3)
+  orderNo 3
+  title `Establishment of Gram Nyayalayas.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9567&sectionno=3&orderno=3&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_3_content:
+  string
+  line `(1) For the purpose of exercising the jurisdiction and`
+  line `powers conferred on a Gram Nyayalaya by this Act, the State Government, after consultation with the`
+  line `High Court, may, by notification, establish one or more Gram Nyayalayas for every Panchayat at`
+  line `intermediate level or a group of contiguous Panchayats at intermediate level in a district or where there is`
+  line `no Panchayat at intermediate level in any State, for a group of contiguous Gram Panchayats.`
+  line
+  line `(2) The State Government shall, after consultation with the High Court, specify, by notification, the`
+  line `local limits of the area to which the jurisdiction of a Gram Nyayalaya shall extend and may, at any time,`
+  line `increase, reduce or alter such limits.`
+  line
+  line `(3) The Gram Nyayalayas established under sub-section (1) shall be in addition to the courts`
+  line `established under any other law for the time being in force.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 9568)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Headquarters of Gram Nyayalayas.`)
-  (str content) (str `The headquarters of every Gram Nyayalaya shall be
-located at the headquarters of the intermediate Panchayat in which the Gram Nyayalaya is established or
-such other place as may be notified by the State Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9568&sectionno=4&orderno=4&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9568)
+  sectionNo (4)
+  orderNo 4
+  title `Headquarters of Gram Nyayalayas.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9568&sectionno=4&orderno=4&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_4_content:
+  string
+  line `The headquarters of every Gram Nyayalaya shall be`
+  line `located at the headquarters of the intermediate Panchayat in which the Gram Nyayalaya is established or`
+  line `such other place as may be notified by the State Government.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 9569)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Appointment of Nyayadhikari.`)
-  (str content) (str `The State Government shall, in consultation with the High
-Court, appoint a Nyayadhikari for every Gram Nyayalaya.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9569&sectionno=5&orderno=5&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9569)
+  sectionNo (5)
+  orderNo 5
+  title `Appointment of Nyayadhikari.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9569&sectionno=5&orderno=5&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_5_content:
+  string
+  line `The State Government shall, in consultation with the High`
+  line `Court, appoint a Nyayadhikari for every Gram Nyayalaya.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 9570)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Qualifications for appointment of Nyayadhikari.`)
-  (str content) (str `(1) A person shall not be qualified to be
-appointed as a Nyayadhikari unless he is eligible to be appointed as a Judicial Magistrate of the first class.
-
-(2) While appointing a Nyayadhikari, representation shall be given to the members of the Scheduled
-Castes, the Scheduled Tribes, women and such other classes or communities as may be specified by
-notification, by the State Government from time to time.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9570&sectionno=6&orderno=6&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9570)
+  sectionNo (6)
+  orderNo 6
+  title `Qualifications for appointment of Nyayadhikari.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9570&sectionno=6&orderno=6&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_6_content:
+  string
+  line `(1) A person shall not be qualified to be`
+  line `appointed as a Nyayadhikari unless he is eligible to be appointed as a Judicial Magistrate of the first class.`
+  line
+  line `(2) While appointing a Nyayadhikari, representation shall be given to the members of the Scheduled`
+  line `Castes, the Scheduled Tribes, women and such other classes or communities as may be specified by`
+  line `notification, by the State Government from time to time.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 9571)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Salary, allowances and other terms and conditions of service of Nyayadhikari.`)
-  (str content) (str `The salary
-and other allowances payable to, and the other terms and conditions of service of, a Nyayadhikari shall be
-such as may be applicable to the Judicial Magistrate of the first class.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9571&sectionno=7&orderno=7&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9571)
+  sectionNo (7)
+  orderNo 7
+  title `Salary, allowances and other terms and conditions of service of Nyayadhikari.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9571&sectionno=7&orderno=7&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_7_content:
+  string
+  line `The salary`
+  line `and other allowances payable to, and the other terms and conditions of service of, a Nyayadhikari shall be`
+  line `such as may be applicable to the Judicial Magistrate of the first class.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 9572)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Nyayadhikari not to preside over proceedings in which he is interested.`)
-  (str content) (str `The Nyayadhikari
-shall not preside over the proceedings of a Gram Nyayalaya in which he has any interest or is otherwise
-involved in the subject matter of the dispute or is related to any party to such proceedings and in such a
-case, the Nyayadhikari shall refer the matter to the District Court or the Court of Session, as the case may
-be, for transferring it to any other Nyayadhikari.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9572&sectionno=8&orderno=8&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9572)
+  sectionNo (8)
+  orderNo 8
+  title `Nyayadhikari not to preside over proceedings in which he is interested.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9572&sectionno=8&orderno=8&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_8_content:
+  string
+  line `The Nyayadhikari`
+  line `shall not preside over the proceedings of a Gram Nyayalaya in which he has any interest or is otherwise`
+  line `involved in the subject matter of the dispute or is related to any party to such proceedings and in such a`
+  line `case, the Nyayadhikari shall refer the matter to the District Court or the Court of Session, as the case may`
+  line `be, for transferring it to any other Nyayadhikari.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 9573)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Nyayadhikari to hold mobile courts and conduct proceedings in villages.`)
-  (str content) (str `(1) The
-Nyayadhikari shall periodically visit the villages falling under his jurisdiction and conduct trial or
-proceedings at any place which he considers is in close proximity to the place where the parties ordinarily
-reside or where the whole or part of the cause of action had arisen:
-
-Provided that where the Gram Nyayalaya decides to hold mobile court outside its headquarters, it
-shall give wide publicity as to the date and place where it proposes to hold mobile court.
-
-(2) The State Government shall extend all facilities to the Gram Nyayalaya including the provision of
-vehicles for holding mobile court by the Nyayadhikari while conducting trial or proceedings outside its
-headquarters.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9573&sectionno=9&orderno=9&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9573)
+  sectionNo (9)
+  orderNo 9
+  title `Nyayadhikari to hold mobile courts and conduct proceedings in villages.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9573&sectionno=9&orderno=9&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_9_content:
+  string
+  line `(1) The`
+  line `Nyayadhikari shall periodically visit the villages falling under his jurisdiction and conduct trial or`
+  line `proceedings at any place which he considers is in close proximity to the place where the parties ordinarily`
+  line `reside or where the whole or part of the cause of action had arisen:`
+  line
+  line `Provided that where the Gram Nyayalaya decides to hold mobile court outside its headquarters, it`
+  line `shall give wide publicity as to the date and place where it proposes to hold mobile court.`
+  line
+  line `(2) The State Government shall extend all facilities to the Gram Nyayalaya including the provision of`
+  line `vehicles for holding mobile court by the Nyayadhikari while conducting trial or proceedings outside its`
+  line headquarters.
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 9574)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Seal of Gram Nyayalaya.`)
-  (str content) (str `Every Gram Nyayalaya established under this Act shall use a seal of
-the court in such form and dimensions as may be prescribed by the High Court with the approval of the
-State Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9574&sectionno=10&orderno=10&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9574)
+  sectionNo (10)
+  orderNo 10
+  title `Seal of Gram Nyayalaya.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9574&sectionno=10&orderno=10&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_10_content:
+  string
+  line `Every Gram Nyayalaya established under this Act shall use a seal of`
+  line `the court in such form and dimensions as may be prescribed by the High Court with the approval of the`
+  line `State Government.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 9575)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Jurisdiction of Gram Nyayalaya.`)
-  (str content) (str `Notwithstanding anything contained in the Code of
-Criminal Procedure, 1973 (2 of 1974) or the Code of Civil Procedure, 1908 (5 of 1908) or any other law
-for the time being in force, the Gram Nyayalaya shall exercise both civil and criminal jurisdiction in the
-manner and to the extent provided under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9575&sectionno=11&orderno=11&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9575)
+  sectionNo (11)
+  orderNo 11
+  title `Jurisdiction of Gram Nyayalaya.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9575&sectionno=11&orderno=11&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_11_content:
+  string
+  line `Notwithstanding anything contained in the Code of`
+  line `Criminal Procedure, 1973 (2 of 1974) or the Code of Civil Procedure, 1908 (5 of 1908) or any other law`
+  line `for the time being in force, the Gram Nyayalaya shall exercise both civil and criminal jurisdiction in the`
+  line `manner and to the extent provided under this Act.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 9576)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Criminal jurisdiction.`)
-  (str content) (str `(1) Notwithstanding anything contained in the Code of Criminal
-Procedure, 1973 (2 of 1974) or any other law for the time being in force, the Gram Nyayalaya may take cognizance of an offence on a complaint or on a police report and shall—
-
-(a) try all offences specified in Part I of the First Schedule; and
-
-(b) try all offences and grant relief, if any, specified under the enactments included in Part II of
-that Schedule.
-
-(2) Without prejudice to the provisions of sub-section (1), the Gram Nyayalaya shall also try all such
-offences or grant such relief under the State Acts which may be notified by the State Government under
-sub-section (3) of section 14.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9576&sectionno=12&orderno=12&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9576)
+  sectionNo (12)
+  orderNo 12
+  title `Criminal jurisdiction.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9576&sectionno=12&orderno=12&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_12_content:
+  string
+  line `(1) Notwithstanding anything contained in the Code of Criminal`
+  line `Procedure, 1973 (2 of 1974) or any other law for the time being in force, the Gram Nyayalaya may take cognizance of an offence on a complaint or on a police report and shall—`
+  line
+  line `(a) try all offences specified in Part I of the First Schedule; and`
+  line
+  line `(b) try all offences and grant relief, if any, specified under the enactments included in Part II of`
+  line `that Schedule.`
+  line
+  line `(2) Without prejudice to the provisions of sub-section (1), the Gram Nyayalaya shall also try all such`
+  line `offences or grant such relief under the State Acts which may be notified by the State Government under`
+  line `sub-section (3) of section 14.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 9577)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Civil jurisdiction.`)
-  (str content) (str `(1) Notwithstanding anything contained in the Code of Civil Procedure,
-1908 (5 of 1908) or any other law for the time being in force, and subject to sub-section (2), the Gram
-Nyayalaya shall have jurisdiction to—
-
-(a) try all suits or proceedings of a civil nature falling under the classes of disputes specified in
-Part I of the Second Schedule;
-
-(b) try all classes of claims and disputes which may be notified by the Central Government under
-sub-section (1) of section 14 and by the State Government under sub-section (3) of the said section.
-
-(2) The pecuniary limits of the Gram Nyayalaya shall be such as may be specified by the High Court,
-in consultation with the State Government, by notification, from time to time.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9577&sectionno=13&orderno=13&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9577)
+  sectionNo (13)
+  orderNo 13
+  title `Civil jurisdiction.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9577&sectionno=13&orderno=13&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_13_content:
+  string
+  line `(1) Notwithstanding anything contained in the Code of Civil Procedure,`
+  line `1908 (5 of 1908) or any other law for the time being in force, and subject to sub-section (2), the Gram`
+  line `Nyayalaya shall have jurisdiction to—`
+  line
+  line `(a) try all suits or proceedings of a civil nature falling under the classes of disputes specified in`
+  line `Part I of the Second Schedule;`
+  line
+  line `(b) try all classes of claims and disputes which may be notified by the Central Government under`
+  line `sub-section (1) of section 14 and by the State Government under sub-section (3) of the said section.`
+  line
+  line `(2) The pecuniary limits of the Gram Nyayalaya shall be such as may be specified by the High Court,`
+  line `in consultation with the State Government, by notification, from time to time.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 9578)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Power to amend Schedules.`)
-  (str content) (str `(1) Where the Central Government is satisfied that it is necessary
-or expedient so to do, it may, by notification, add to or omit any item in Part I or Part II of the First
-Schedule or Part II of the Second Schedule, as the case may be, and it shall be deemed to have been
-amended accordingly.
-
-(2) Every notification issued under sub-section (1) shall be laid before each House of Parliament.
-
-(3) If the State Government is satisfied that it is necessary or expedient so to do, it may, in
-consultation with the High Court, by notification, add to any item in Part III of the First Schedule or Part
-III of the Second Schedule or omit from it any item in respect of which the State Legislature is competent
-to make laws and thereupon the First Schedule or the Second Schedule, as the case may be, shall be
-deemed to have been amended accordingly.
-
-(4) Every notification issued under sub-section (3) shall be laid before the State Legislature.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9578&sectionno=14&orderno=14&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9578)
+  sectionNo (14)
+  orderNo 14
+  title `Power to amend Schedules.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9578&sectionno=14&orderno=14&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_14_content:
+  string
+  line `(1) Where the Central Government is satisfied that it is necessary`
+  line `or expedient so to do, it may, by notification, add to or omit any item in Part I or Part II of the First`
+  line `Schedule or Part II of the Second Schedule, as the case may be, and it shall be deemed to have been`
+  line `amended accordingly.`
+  line
+  line `(2) Every notification issued under sub-section (1) shall be laid before each House of Parliament.`
+  line
+  line `(3) If the State Government is satisfied that it is necessary or expedient so to do, it may, in`
+  line `consultation with the High Court, by notification, add to any item in Part III of the First Schedule or Part`
+  line `III of the Second Schedule or omit from it any item in respect of which the State Legislature is competent`
+  line `to make laws and thereupon the First Schedule or the Second Schedule, as the case may be, shall be`
+  line `deemed to have been amended accordingly.`
+  line
+  line `(4) Every notification issued under sub-section (3) shall be laid before the State Legislature.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 9579)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str Limitation.)
-  (str content) (str `(1) The provisions of the Limitation Act, 1963 (36 of 1963) shall be applicable to
-the suits triable by the Gram Nyayalaya.
-
-(2) The provisions of Chapter XXXVI of the Code of Criminal Procedure, 1973 (2 of 1974) shall be
-applicable in respect of the offences triable by the Gram Nyayalaya.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9579&sectionno=15&orderno=15&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9579)
+  sectionNo (15)
+  orderNo 15
+  title Limitation.
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9579&sectionno=15&orderno=15&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_15_content:
+  string
+  line `(1) The provisions of the Limitation Act, 1963 (36 of 1963) shall be applicable to`
+  line `the suits triable by the Gram Nyayalaya.`
+  line
+  line `(2) The provisions of Chapter XXXVI of the Code of Criminal Procedure, 1973 (2 of 1974) shall be`
+  line `applicable in respect of the offences triable by the Gram Nyayalaya.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 9580)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Transfer of pending proceedings.`)
-  (str content) (str `(1) The District Court or the Court of Session, as the case
-may be, with effect from such date as may be notified by the High Court, may transfer all the civil or
-criminal cases, pending before the courts subordinate to it, to the Gram Nyayalaya competent to try or
-dispose of such cases.
-
-(2) The Gram Nyayalaya may, in its discretion, either retry the cases or proceed from the stage at
-which it was transferred to it.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9580&sectionno=16&orderno=16&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9580)
+  sectionNo (16)
+  orderNo 16
+  title `Transfer of pending proceedings.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9580&sectionno=16&orderno=16&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_16_content:
+  string
+  line `(1) The District Court or the Court of Session, as the case`
+  line `may be, with effect from such date as may be notified by the High Court, may transfer all the civil or`
+  line `criminal cases, pending before the courts subordinate to it, to the Gram Nyayalaya competent to try or`
+  line `dispose of such cases.`
+  line
+  line `(2) The Gram Nyayalaya may, in its discretion, either retry the cases or proceed from the stage at`
+  line `which it was transferred to it.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 9581)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Duties of ministerial officers.`)
-  (str content) (str `(1) The State Government shall determine the nature and
-categories of the officers and other employees required to assist a Gram Nyayalaya in the discharge of its
-functions and provide the Gram Nyayalaya with such officers and other employees as it may think fit.
-
-(2) The salaries and allowances payable to, and other conditions of service of, the officers and other
-employees of the Gram Nyayalaya shall be such as may be prescribed by the State Government.
-
-(3) The officers and other employees of a Gram Nyayalaya shall perform such duties as may, from
-time to time, be assigned to them by the Nyayadhikari.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9581&sectionno=17&orderno=17&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9581)
+  sectionNo (17)
+  orderNo 17
+  title `Duties of ministerial officers.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9581&sectionno=17&orderno=17&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_17_content:
+  string
+  line `(1) The State Government shall determine the nature and`
+  line `categories of the officers and other employees required to assist a Gram Nyayalaya in the discharge of its`
+  line `functions and provide the Gram Nyayalaya with such officers and other employees as it may think fit.`
+  line
+  line `(2) The salaries and allowances payable to, and other conditions of service of, the officers and other`
+  line `employees of the Gram Nyayalaya shall be such as may be prescribed by the State Government.`
+  line
+  line `(3) The officers and other employees of a Gram Nyayalaya shall perform such duties as may, from`
+  line `time to time, be assigned to them by the Nyayadhikari.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 9582)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Overriding effect of Act in criminal trial.`)
-  (str content) (str `The provisions of this Act shall have effect
-notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974) or any other
-law, but save as expressly provided in this Act, the provisions of the Code shall, in so far as they are not
-inconsistent with the provisions of this Act, apply to the proceedings before a Gram Nyayalaya; and for
-the purpose of the said provisions of the Code, the Gram Nyayalaya shall be deemed to be a Court of
-Judicial Magistrate of the first class.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9582&sectionno=18&orderno=18&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9582)
+  sectionNo (18)
+  orderNo 18
+  title `Overriding effect of Act in criminal trial.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9582&sectionno=18&orderno=18&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_18_content:
+  string
+  line `The provisions of this Act shall have effect`
+  line `notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974) or any other`
+  line `law, but save as expressly provided in this Act, the provisions of the Code shall, in so far as they are not`
+  line `inconsistent with the provisions of this Act, apply to the proceedings before a Gram Nyayalaya; and for`
+  line `the purpose of the said provisions of the Code, the Gram Nyayalaya shall be deemed to be a Court of`
+  line `Judicial Magistrate of the first class.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 9583)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Gram Nyayalaya to follow summary trial procedure.`)
-  (str content) (str `(1) Notwithstanding anything
-contained in sub-section (1) of section 260 or sub-section (2) of section 262 of the Code of Criminal
-Procedure, 1973 (2 of 1974) the Gram Nyayalaya shall try the offences in a summary way in accordance
-with the procedure specified in Chapter XXI of the said Code and the provisions of sub-section (1) of
-section 262 and sections 263 to 265 of the said Code, shall, so far as may be, apply to such trial.
-
-(2) When, in the course of a summary trial, it appears to the Nyayadhikari that the nature of the case
-is such that it is undesirable to try it summarily, the Nyayadhikari shall recall any witness who may have
-been examined and proceed to re-hear the case in the manner provided under the Code of Criminal
-Procedure, 1973 (2 of 1974).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9583&sectionno=19&orderno=19&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9583)
+  sectionNo (19)
+  orderNo 19
+  title `Gram Nyayalaya to follow summary trial procedure.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9583&sectionno=19&orderno=19&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_19_content:
+  string
+  line `(1) Notwithstanding anything`
+  line `contained in sub-section (1) of section 260 or sub-section (2) of section 262 of the Code of Criminal`
+  line `Procedure, 1973 (2 of 1974) the Gram Nyayalaya shall try the offences in a summary way in accordance`
+  line `with the procedure specified in Chapter XXI of the said Code and the provisions of sub-section (1) of`
+  line `section 262 and sections 263 to 265 of the said Code, shall, so far as may be, apply to such trial.`
+  line
+  line `(2) When, in the course of a summary trial, it appears to the Nyayadhikari that the nature of the case`
+  line `is such that it is undesirable to try it summarily, the Nyayadhikari shall recall any witness who may have`
+  line `been examined and proceed to re-hear the case in the manner provided under the Code of Criminal`
+  line `Procedure, 1973 (2 of 1974).`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 9584)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Plea bargaining before Gram Nyayalaya.`)
-  (str content) (str `A person accused of an offence may file an
-application for plea bargaining in Gram Nyayalaya in which such offence is pending trial and the Gram
-Nyayalaya shall dispose of the case in accordance with the provisions of Chapter XXIA of the Code of
-Criminal Procedure, 1973 (2 of 1974).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9584&sectionno=20&orderno=20&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9584)
+  sectionNo (20)
+  orderNo 20
+  title `Plea bargaining before Gram Nyayalaya.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9584&sectionno=20&orderno=20&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_20_content:
+  string
+  line `A person accused of an offence may file an`
+  line `application for plea bargaining in Gram Nyayalaya in which such offence is pending trial and the Gram`
+  line `Nyayalaya shall dispose of the case in accordance with the provisions of Chapter XXIA of the Code of`
+  line `Criminal Procedure, 1973 (2 of 1974).`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 9585)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Conduct of cases in Gram Nyayalaya and legal aid to parties.`)
-  (str content) (str `(1) For the purpose of
-conducting criminal cases in the Gram Nyayalaya on behalf of the Government, the provisions of section
-25 of the Code of Criminal Procedure, 1973 (2 of 1974) shall apply.
-
-(2) Notwithstanding anything contained in sub-section (1), in a criminal proceeding before the Gram
-Nyayalaya, the complainant may engage an advocate of his choice at his expense to present the case of
-prosecution with the leave of the Gram Nyayalaya.
-
-(3) The State Legal Services Authority, constituted under section 6 of the Legal Services Authorities
-Act, 1987 (39 of 1987) shall prepare a panel of advocates and assign at least two of them to be attached to
-each Gram Nyayalaya so that their services may be provided by the Gram Nyayalaya to the accused
-unable to engage an advocate.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9585&sectionno=21&orderno=21&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9585)
+  sectionNo (21)
+  orderNo 21
+  title `Conduct of cases in Gram Nyayalaya and legal aid to parties.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9585&sectionno=21&orderno=21&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_21_content:
+  string
+  line `(1) For the purpose of`
+  line `conducting criminal cases in the Gram Nyayalaya on behalf of the Government, the provisions of section`
+  line `25 of the Code of Criminal Procedure, 1973 (2 of 1974) shall apply.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), in a criminal proceeding before the Gram`
+  line `Nyayalaya, the complainant may engage an advocate of his choice at his expense to present the case of`
+  line `prosecution with the leave of the Gram Nyayalaya.`
+  line
+  line `(3) The State Legal Services Authority, constituted under section 6 of the Legal Services Authorities`
+  line `Act, 1987 (39 of 1987) shall prepare a panel of advocates and assign at least two of them to be attached to`
+  line `each Gram Nyayalaya so that their services may be provided by the Gram Nyayalaya to the accused`
+  line `unable to engage an advocate.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 9586)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Pronouncement of judgment.`)
-  (str content) (str `(1) The judgment in every trial shall be pronounced by the
-Nyayadhikari in open court immediately after the termination of the trial or at any subsequent time, not
-exceeding fifteen days, of which notice shall be given to the parties.
-
-(2) The Gram Nyayalaya shall deliver a copy of its judgment immediately to both the parties free of
-cost.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9586&sectionno=22&orderno=22&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9586)
+  sectionNo (22)
+  orderNo 22
+  title `Pronouncement of judgment.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9586&sectionno=22&orderno=22&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_22_content:
+  string
+  line `(1) The judgment in every trial shall be pronounced by the`
+  line `Nyayadhikari in open court immediately after the termination of the trial or at any subsequent time, not`
+  line `exceeding fifteen days, of which notice shall be given to the parties.`
+  line
+  line `(2) The Gram Nyayalaya shall deliver a copy of its judgment immediately to both the parties free of`
+  line cost.
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 9587)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Overriding effect of Act in civil proceedings.`)
-  (str content) (str `The provisions of this Act shall have effect
-notwithstanding anything contained in the Code of Civil Procedure, 1908 (5 of 1908) or any other law, but save as expressly provided in this Act, the provisions of the Code shall, in so far as they are not
-inconsistent with the provisions of this Act, apply to the proceedings before a Gram Nyayalaya; and for
-the purpose of the said provisions of the Code, the Gram Nyayalaya shall be deemed to be a civil court.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9587&sectionno=23&orderno=23&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9587)
+  sectionNo (23)
+  orderNo 23
+  title `Overriding effect of Act in civil proceedings.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9587&sectionno=23&orderno=23&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_23_content:
+  string
+  line `The provisions of this Act shall have effect`
+  line `notwithstanding anything contained in the Code of Civil Procedure, 1908 (5 of 1908) or any other law, but save as expressly provided in this Act, the provisions of the Code shall, in so far as they are not`
+  line `inconsistent with the provisions of this Act, apply to the proceedings before a Gram Nyayalaya; and for`
+  line `the purpose of the said provisions of the Code, the Gram Nyayalaya shall be deemed to be a civil court.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 9588)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Special procedure in civil disputes.`)
-  (str content) (str `(1) Notwithstanding anything contained in any other law
-for the time being in force, every suit, claim or dispute under this Act shall be instituted by making an
-application to the Gram Nyayalaya in such form, in such manner, and accompanied by such fee, not
-exceeding rupees one hundred, as may be prescribed by the High Court, from time to time, in consultation
-with the State Government.
-
-(2) Where a suit, claim or dispute has been duly instituted, a summons shall be issued by the Gram
-Nyayalaya, accompanied by a copy of the application made under sub-section (1), to the opposite party to
-appear and answer the claim by such date as may be specified therein and the same shall be served in such
-manner as may be prescribed by the High Court.
-
-(3) After the opposite party files his written statement, the Gram Nyayalaya shall fix a date for
-hearing and inform all the parties to be present in person or through their advocates.
-
-(4) On the date fixed for hearing, the Gram Nyayalaya shall hear both the parties in regard to their
-respective contentions and where the dispute does not require recording of any evidence, pronounce the
-judgment; and in case where it requires recording of evidence, the Gram Nyayalaya shall proceed further.
-
-(5) The Gram Nyayalaya shall also have the power—
-
-(a) to dismiss any case for default or to proceed ex parte; and
-
-(b) to set aside any such order of dismissal for default or any order passed by it for hearing the
-case ex parte.
-
-(6) In regard to any incidental matter that may arise during the course of the proceedings, the Gram
-Nyayalaya shall adopt such procedure as it may deem just and reasonable in the interest of justice.
-
-(7) The proceedings shall, as far as practicable, be consistent with the interests of justice and the
-hearing shall be continued on a day-to-day basis until its conclusion, unless the Gram Nyayalaya finds the
-adjournment of the hearing beyond the following day to be necessary for reasons to be recorded in
-writing.
-
-(8) The Gram Nyayalaya shall dispose of the application made under sub-section (1) within a period
-of six months from the date of its institution.
-
-(9) The judgment in every suit, claim or dispute shall be pronounced in open court by the Gram
-Nyayalaya immediately after conclusion of hearing or at any subsequent time, not exceeding fifteen days,
-of which notice shall be given to the parties.
-
-(10) The judgment shall contain a concise statement of the case, the point for determination, the
-decision thereon and the reasons for such decision.
-
-(11) A copy of the judgment shall be delivered free of cost to both the parties within three days from
-the date of pronouncement of the judgment.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9588&sectionno=24&orderno=24&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9588)
+  sectionNo (24)
+  orderNo 24
+  title `Special procedure in civil disputes.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9588&sectionno=24&orderno=24&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_24_content:
+  string
+  line `(1) Notwithstanding anything contained in any other law`
+  line `for the time being in force, every suit, claim or dispute under this Act shall be instituted by making an`
+  line `application to the Gram Nyayalaya in such form, in such manner, and accompanied by such fee, not`
+  line `exceeding rupees one hundred, as may be prescribed by the High Court, from time to time, in consultation`
+  line `with the State Government.`
+  line
+  line `(2) Where a suit, claim or dispute has been duly instituted, a summons shall be issued by the Gram`
+  line `Nyayalaya, accompanied by a copy of the application made under sub-section (1), to the opposite party to`
+  line `appear and answer the claim by such date as may be specified therein and the same shall be served in such`
+  line `manner as may be prescribed by the High Court.`
+  line
+  line `(3) After the opposite party files his written statement, the Gram Nyayalaya shall fix a date for`
+  line `hearing and inform all the parties to be present in person or through their advocates.`
+  line
+  line `(4) On the date fixed for hearing, the Gram Nyayalaya shall hear both the parties in regard to their`
+  line `respective contentions and where the dispute does not require recording of any evidence, pronounce the`
+  line `judgment; and in case where it requires recording of evidence, the Gram Nyayalaya shall proceed further.`
+  line
+  line `(5) The Gram Nyayalaya shall also have the power—`
+  line
+  line `(a) to dismiss any case for default or to proceed ex parte; and`
+  line
+  line `(b) to set aside any such order of dismissal for default or any order passed by it for hearing the`
+  line `case ex parte.`
+  line
+  line `(6) In regard to any incidental matter that may arise during the course of the proceedings, the Gram`
+  line `Nyayalaya shall adopt such procedure as it may deem just and reasonable in the interest of justice.`
+  line
+  line `(7) The proceedings shall, as far as practicable, be consistent with the interests of justice and the`
+  line `hearing shall be continued on a day-to-day basis until its conclusion, unless the Gram Nyayalaya finds the`
+  line `adjournment of the hearing beyond the following day to be necessary for reasons to be recorded in`
+  line writing.
+  line
+  line `(8) The Gram Nyayalaya shall dispose of the application made under sub-section (1) within a period`
+  line `of six months from the date of its institution.`
+  line
+  line `(9) The judgment in every suit, claim or dispute shall be pronounced in open court by the Gram`
+  line `Nyayalaya immediately after conclusion of hearing or at any subsequent time, not exceeding fifteen days,`
+  line `of which notice shall be given to the parties.`
+  line
+  line `(10) The judgment shall contain a concise statement of the case, the point for determination, the`
+  line `decision thereon and the reasons for such decision.`
+  line
+  line `(11) A copy of the judgment shall be delivered free of cost to both the parties within three days from`
+  line `the date of pronouncement of the judgment.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 9589)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Execution of decrees and orders or Gram Nyayalaya.`)
-  (str content) (str `(1) Notwithstanding anything
-contained in the Code of Civil Procedure, 1908 (5 of 1908) the judgment passed by a Gram Nyayalaya
-shall be deemed to be a decree and it shall be executed by a Gram Nyayalaya as a decree of the civil court
-and for this purpose, the Gram Nyayalaya shall have all the powers of a civil court.
-
-(2) The Gram Nyayalaya shall not be bound by the procedure in respect of execution of a decree as
-provided in the Code of Civil Procedure, 1908 (5 of 1908) and it shall be guided by the principles of
-natural justice.
-
-(3) A decree may be executed either by the Gram Nyayalaya which passed it or by the other Gram
-Nyayalaya to which it is sent for execution.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9589&sectionno=25&orderno=25&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9589)
+  sectionNo (25)
+  orderNo 25
+  title `Execution of decrees and orders or Gram Nyayalaya.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9589&sectionno=25&orderno=25&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_25_content:
+  string
+  line `(1) Notwithstanding anything`
+  line `contained in the Code of Civil Procedure, 1908 (5 of 1908) the judgment passed by a Gram Nyayalaya`
+  line `shall be deemed to be a decree and it shall be executed by a Gram Nyayalaya as a decree of the civil court`
+  line `and for this purpose, the Gram Nyayalaya shall have all the powers of a civil court.`
+  line
+  line `(2) The Gram Nyayalaya shall not be bound by the procedure in respect of execution of a decree as`
+  line `provided in the Code of Civil Procedure, 1908 (5 of 1908) and it shall be guided by the principles of`
+  line `natural justice.`
+  line
+  line `(3) A decree may be executed either by the Gram Nyayalaya which passed it or by the other Gram`
+  line `Nyayalaya to which it is sent for execution.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 9590)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Duty of Gram Nyayalaya to make efforts for conciliation and settlement of civil disputes.`)
-  (str content) (str `(1) In every suit or proceeding, endeavour shall be made by the Gram Nyayalaya in the first instance,
-where it is possible to do so, consistent with the nature and circumstances of the case, to assist, persuade
-and conciliate the parties in arriving at a settlement in respect of the subject matter of the suit, claim or dispute and for this purpose, a Gram Nyayalaya shall follow such procedure as may be prescribed by the
-High Court.
-
-(2) Where in any suit or proceeding, it appears to the Gram Nyayalaya at any stage that there is a
-reasonable possibility of a settlement between the parties, the Gram Nyayalaya may adjourn the
-proceeding for such period as it thinks fit to enable them to make attempts to effect such a settlement.
-
-(3) Where any proceeding is adjourned under sub-section (2), the Gram Nyayalaya may, in its
-discretion, refer the matter to one or more Conciliators for effecting a settlement between the parties.
-
-(4) The power conferred by sub-section (2) shall be in addition to, and not in derogation of, any other
-power of the Gram Nyayalaya to adjourn the proceeding.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9590&sectionno=26&orderno=26&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9590)
+  sectionNo (26)
+  orderNo 26
+  title `Duty of Gram Nyayalaya to make efforts for conciliation and settlement of civil disputes.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9590&sectionno=26&orderno=26&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_26_content:
+  string
+  line `(1) In every suit or proceeding, endeavour shall be made by the Gram Nyayalaya in the first instance,`
+  line `where it is possible to do so, consistent with the nature and circumstances of the case, to assist, persuade`
+  line `and conciliate the parties in arriving at a settlement in respect of the subject matter of the suit, claim or dispute and for this purpose, a Gram Nyayalaya shall follow such procedure as may be prescribed by the`
+  line `High Court.`
+  line
+  line `(2) Where in any suit or proceeding, it appears to the Gram Nyayalaya at any stage that there is a`
+  line `reasonable possibility of a settlement between the parties, the Gram Nyayalaya may adjourn the`
+  line `proceeding for such period as it thinks fit to enable them to make attempts to effect such a settlement.`
+  line
+  line `(3) Where any proceeding is adjourned under sub-section (2), the Gram Nyayalaya may, in its`
+  line `discretion, refer the matter to one or more Conciliators for effecting a settlement between the parties.`
+  line
+  line `(4) The power conferred by sub-section (2) shall be in addition to, and not in derogation of, any other`
+  line `power of the Gram Nyayalaya to adjourn the proceeding.`
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 9591)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Appointment of Conciliators.`)
-  (str content) (str `(1) For the purposes of section 26, the District Court shall, in
-consultation with the District Magistrate, prepare a panel consisting of the names of social workers at the
-village level having integrity for appointment as Conciliators who possess such qualifications and
-experience as may be prescribed by the High Court.
-
-(2) The sitting fee and other allowances payable to, and the other terms and conditions for
-engagement of, Conciliators shall be such as may be prescribed by the State Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9591&sectionno=27&orderno=27&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9591)
+  sectionNo (27)
+  orderNo 27
+  title `Appointment of Conciliators.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9591&sectionno=27&orderno=27&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_27_content:
+  string
+  line `(1) For the purposes of section 26, the District Court shall, in`
+  line `consultation with the District Magistrate, prepare a panel consisting of the names of social workers at the`
+  line `village level having integrity for appointment as Conciliators who possess such qualifications and`
+  line `experience as may be prescribed by the High Court.`
+  line
+  line `(2) The sitting fee and other allowances payable to, and the other terms and conditions for`
+  line `engagement of, Conciliators shall be such as may be prescribed by the State Government.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 9592)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str `Transfer of civil disputes.`)
-  (str content) (str `The District Court having jurisdiction may, on an application made
-by any party or when there is considerable pendency of cases in one Gram Nyayalaya or whenever it
-considers necessary in the interests of justice, transfer any case pending before a Gram Nyayalaya to any
-other Gram Nyayalaya within its jurisdiction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9592&sectionno=28&orderno=28&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9592)
+  sectionNo (28)
+  orderNo 28
+  title `Transfer of civil disputes.`
+  content obj_root_law_sections_28_content
+  footnotes obj_root_law_sections_28_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9592&sectionno=28&orderno=28&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_28_content:
+  string
+  line `The District Court having jurisdiction may, on an application made`
+  line `by any party or when there is considerable pendency of cases in one Gram Nyayalaya or whenever it`
+  line `considers necessary in the interests of justice, transfer any case pending before a Gram Nyayalaya to any`
+  line `other Gram Nyayalaya within its jurisdiction.`
+obj_root_law_sections_28_footnotes:
+  string
+  line
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 9593)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Proceedings to be in the official language of the State.`)
-  (str content) (str `The proceedings before the Gram
-Nyayalaya and its judgment shall, as far as practicable, be in one of the official languages of the State
-other than the English language.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9593&sectionno=29&orderno=29&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9593)
+  sectionNo (29)
+  orderNo 29
+  title `Proceedings to be in the official language of the State.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9593&sectionno=29&orderno=29&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_29_content:
+  string
+  line `The proceedings before the Gram`
+  line `Nyayalaya and its judgment shall, as far as practicable, be in one of the official languages of the State`
+  line `other than the English language.`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 9594)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str `Application of Indian Evidence Act, 1872.`)
-  (str content) (str `A Gram Nyayalaya may receive as evidence any
-report, statement, document, information or matter that may, in its opinion, assist it to deal effectually
-with a dispute, whether or not the same would be otherwise relevant or admissible under the Indian
-Evidence Act, 1872 (1 of 1872).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9594&sectionno=30&orderno=30&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9594)
+  sectionNo (30)
+  orderNo 30
+  title `Application of Indian Evidence Act, 1872.`
+  content obj_root_law_sections_30_content
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9594&sectionno=30&orderno=30&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_30_content:
+  string
+  line `A Gram Nyayalaya may receive as evidence any`
+  line `report, statement, document, information or matter that may, in its opinion, assist it to deal effectually`
+  line `with a dispute, whether or not the same would be otherwise relevant or admissible under the Indian`
+  line `Evidence Act, 1872 (1 of 1872).`
+obj_root_law_sections_30_footnotes:
+  string
+  line
 obj_root_law_sections_31:
-  object
-  (str sectionId) (str 9595)
-  (str sectionNo) (str 31)
-  (str orderNo) (int 31)
-  (str title) (str `Record of oral evidence.`)
-  (str content) (str `In suits or proceedings before a Gram Nyayalaya, it shall not be
-necessary to record the evidence of witnesses at length, but the Nyayadhikari, as the examination of each
-witness proceeds, shall, record or cause to be recorded, a memorandum of substance of what the witness
-deposes, and such memorandum shall be signed by the witness and the Nyayadhikari and it shall form
-part of the record.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9595&sectionno=31&orderno=31&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9595)
+  sectionNo (31)
+  orderNo 31
+  title `Record of oral evidence.`
+  content obj_root_law_sections_31_content
+  footnotes obj_root_law_sections_31_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9595&sectionno=31&orderno=31&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_31_content:
+  string
+  line `In suits or proceedings before a Gram Nyayalaya, it shall not be`
+  line `necessary to record the evidence of witnesses at length, but the Nyayadhikari, as the examination of each`
+  line `witness proceeds, shall, record or cause to be recorded, a memorandum of substance of what the witness`
+  line `deposes, and such memorandum shall be signed by the witness and the Nyayadhikari and it shall form`
+  line `part of the record.`
+obj_root_law_sections_31_footnotes:
+  string
+  line
 obj_root_law_sections_32:
-  object
-  (str sectionId) (str 9596)
-  (str sectionNo) (str 32)
-  (str orderNo) (int 32)
-  (str title) (str `Evidence of formal character on affidavit.`)
-  (str content) (str `(1) The evidence of any person where such
-evidence is of a formal character, may be given by affidavit and may, subject to all just exceptions, be
-read in evidence in any suit or proceeding before a Gram Nyayalaya.
-
-(2) The Gram Nyayalaya may, if it thinks fit, and shall, on the application of any of the parties to the
-suit or proceeding, summon and examine any such person as to the facts contained in his affidavit.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9596&sectionno=32&orderno=32&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9596)
+  sectionNo (32)
+  orderNo 32
+  title `Evidence of formal character on affidavit.`
+  content obj_root_law_sections_32_content
+  footnotes obj_root_law_sections_32_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9596&sectionno=32&orderno=32&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_32_content:
+  string
+  line `(1) The evidence of any person where such`
+  line `evidence is of a formal character, may be given by affidavit and may, subject to all just exceptions, be`
+  line `read in evidence in any suit or proceeding before a Gram Nyayalaya.`
+  line
+  line `(2) The Gram Nyayalaya may, if it thinks fit, and shall, on the application of any of the parties to the`
+  line `suit or proceeding, summon and examine any such person as to the facts contained in his affidavit.`
+obj_root_law_sections_32_footnotes:
+  string
+  line
 obj_root_law_sections_33:
-  object
-  (str sectionId) (str 9597)
-  (str sectionNo) (str 33)
-  (str orderNo) (int 33)
-  (str title) (str `Appeal in criminal cases.`)
-  (str content) (str `(1) Notwithstanding anything contained in the Code of Criminal
-Procedure, 1973 (2 of 1974) or any other law, no appeal shall lie from any judgment, sentence or order of
-a Gram Nyayalaya except as provided hereunder.
-
-(2) No appeal shall lie where—
-
-(a) an accused person has pleaded guilty and has been convicted on such plea;
-
-(b) the Gram Nyayalaya has passed only a sentence of fine not exceeding one thousand rupees.
-
-(3) Subject to sub-section (2), an appeal shall lie from any other judgment, sentence or order of a
-Gram Nyayalaya to the Court of Session.
-
-(4) Every appeal under this section shall be preferred within a period of thirty days from the date of
-judgment, sentence or order of a Gram Nyayalaya:
-
-Provided that the Court of Session may entertain an appeal after the expiry of the said period of thirty
-days if it is satisfied that the appellant had sufficient cause for not preferring the appeal within the said
-period.
-
-(5) An appeal preferred under sub-section (3) shall be heard and disposed of by the Court of Session
-within six months from the date of filing of such appeal.
-
-(6) The Court of Session may, pending disposal of the appeal, direct the suspension of the sentence or
-order appealed against.
-
-(7) The decision of the Court of Session under sub-section (5) shall be final and no appeal or revision
-shall lie from the decision of the Court of Session:
-
-Provided that nothing in this sub-section shall preclude any person from availing of the judicial
-remedies available under articles 32 and 226 of the Constitution.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9597&sectionno=33&orderno=33&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9597)
+  sectionNo (33)
+  orderNo 33
+  title `Appeal in criminal cases.`
+  content obj_root_law_sections_33_content
+  footnotes obj_root_law_sections_33_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9597&sectionno=33&orderno=33&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_33_content:
+  string
+  line `(1) Notwithstanding anything contained in the Code of Criminal`
+  line `Procedure, 1973 (2 of 1974) or any other law, no appeal shall lie from any judgment, sentence or order of`
+  line `a Gram Nyayalaya except as provided hereunder.`
+  line
+  line `(2) No appeal shall lie where—`
+  line
+  line `(a) an accused person has pleaded guilty and has been convicted on such plea;`
+  line
+  line `(b) the Gram Nyayalaya has passed only a sentence of fine not exceeding one thousand rupees.`
+  line
+  line `(3) Subject to sub-section (2), an appeal shall lie from any other judgment, sentence or order of a`
+  line `Gram Nyayalaya to the Court of Session.`
+  line
+  line `(4) Every appeal under this section shall be preferred within a period of thirty days from the date of`
+  line `judgment, sentence or order of a Gram Nyayalaya:`
+  line
+  line `Provided that the Court of Session may entertain an appeal after the expiry of the said period of thirty`
+  line `days if it is satisfied that the appellant had sufficient cause for not preferring the appeal within the said`
+  line period.
+  line
+  line `(5) An appeal preferred under sub-section (3) shall be heard and disposed of by the Court of Session`
+  line `within six months from the date of filing of such appeal.`
+  line
+  line `(6) The Court of Session may, pending disposal of the appeal, direct the suspension of the sentence or`
+  line `order appealed against.`
+  line
+  line `(7) The decision of the Court of Session under sub-section (5) shall be final and no appeal or revision`
+  line `shall lie from the decision of the Court of Session:`
+  line
+  line `Provided that nothing in this sub-section shall preclude any person from availing of the judicial`
+  line `remedies available under articles 32 and 226 of the Constitution.`
+obj_root_law_sections_33_footnotes:
+  string
+  line
 obj_root_law_sections_34:
-  object
-  (str sectionId) (str 9598)
-  (str sectionNo) (str 34)
-  (str orderNo) (int 34)
-  (str title) (str `Appeal in civil cases.`)
-  (str content) (str `(1) Notwithstanding anything contained in the Code of Civil Procedure,
-1908 (5 of 1908) or any other law, and subject to sub-section (2), an appeal shall lie from every judgment
-or order, not being an interlocutory order, of a Gram Nyayalaya to the District Court.
-
-(2) No appeal shall lie from any judgment or order passed by the Gram Nyayalaya—
-
-(a) with the consent of the parties;
-
-(b) where the amount or value of the subject matter of a suit, claim or dispute does not exceed
-rupees one thousand;
-
-(c) except on a question of law, where the amount or value of the subject matter of such suit,
-claim or dispute does not exceed rupees five thousand.
-
-(3) Every appeal under this section shall be preferred within a period of thirty days from the date of
-the judgment or order of a Gram Nyayalaya:
-
-Provided that the District Court may entertain an appeal after the expiry of the said period of thirty
-days if it is satisfied that the appellant had sufficient cause for not preferring the appeal within the said
-period.
-
-(4) An appeal preferred under sub-section (1) shall be heard and disposed of by the District Court
-within six months from the date of filing of the appeal.
-
-(5) The District Court may, pending disposal of the appeal, stay execution of the judgment or order
-appealed against.
-
-(6) The decision of the District Court under sub-section (4) shall be final and no appeal or revision
-shall lie from the decision of the District Court:
-
-Provided that nothing in this sub-section shall preclude any person from availing of the judicial
-remedies available under articles 32 and 226 of the Constitution.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9598&sectionno=34&orderno=34&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9598)
+  sectionNo (34)
+  orderNo 34
+  title `Appeal in civil cases.`
+  content obj_root_law_sections_34_content
+  footnotes obj_root_law_sections_34_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9598&sectionno=34&orderno=34&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_34_content:
+  string
+  line `(1) Notwithstanding anything contained in the Code of Civil Procedure,`
+  line `1908 (5 of 1908) or any other law, and subject to sub-section (2), an appeal shall lie from every judgment`
+  line `or order, not being an interlocutory order, of a Gram Nyayalaya to the District Court.`
+  line
+  line `(2) No appeal shall lie from any judgment or order passed by the Gram Nyayalaya—`
+  line
+  line `(a) with the consent of the parties;`
+  line
+  line `(b) where the amount or value of the subject matter of a suit, claim or dispute does not exceed`
+  line `rupees one thousand;`
+  line
+  line `(c) except on a question of law, where the amount or value of the subject matter of such suit,`
+  line `claim or dispute does not exceed rupees five thousand.`
+  line
+  line `(3) Every appeal under this section shall be preferred within a period of thirty days from the date of`
+  line `the judgment or order of a Gram Nyayalaya:`
+  line
+  line `Provided that the District Court may entertain an appeal after the expiry of the said period of thirty`
+  line `days if it is satisfied that the appellant had sufficient cause for not preferring the appeal within the said`
+  line period.
+  line
+  line `(4) An appeal preferred under sub-section (1) shall be heard and disposed of by the District Court`
+  line `within six months from the date of filing of the appeal.`
+  line
+  line `(5) The District Court may, pending disposal of the appeal, stay execution of the judgment or order`
+  line `appealed against.`
+  line
+  line `(6) The decision of the District Court under sub-section (4) shall be final and no appeal or revision`
+  line `shall lie from the decision of the District Court:`
+  line
+  line `Provided that nothing in this sub-section shall preclude any person from availing of the judicial`
+  line `remedies available under articles 32 and 226 of the Constitution.`
+obj_root_law_sections_34_footnotes:
+  string
+  line
 obj_root_law_sections_35:
-  object
-  (str sectionId) (str 9599)
-  (str sectionNo) (str 35)
-  (str orderNo) (int 35)
-  (str title) (str `Assistance of police to Gram Nyayalayas.`)
-  (str content) (str `(1) Every police officer functioning within the
-local limits of jurisdiction of a Gram Nyayalaya shall be bound to assist the Gram Nyayalaya in the
-exercise of its lawful authority.
-
-(2) Whenever the Gram Nyayalaya, in the discharge of its functions, directs a revenue officer or
-police officer or Government servant to provide assistance to the Gram Nyayalaya, he shall be bound to
-provide such assistance.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9599&sectionno=35&orderno=35&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9599)
+  sectionNo (35)
+  orderNo 35
+  title `Assistance of police to Gram Nyayalayas.`
+  content obj_root_law_sections_35_content
+  footnotes obj_root_law_sections_35_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9599&sectionno=35&orderno=35&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_35_content:
+  string
+  line `(1) Every police officer functioning within the`
+  line `local limits of jurisdiction of a Gram Nyayalaya shall be bound to assist the Gram Nyayalaya in the`
+  line `exercise of its lawful authority.`
+  line
+  line `(2) Whenever the Gram Nyayalaya, in the discharge of its functions, directs a revenue officer or`
+  line `police officer or Government servant to provide assistance to the Gram Nyayalaya, he shall be bound to`
+  line `provide such assistance.`
+obj_root_law_sections_35_footnotes:
+  string
+  line
 obj_root_law_sections_36:
-  object
-  (str sectionId) (str 9600)
-  (str sectionNo) (str 36)
-  (str orderNo) (int 36)
-  (str title) (str `Nyayadhikaris and employees, etc., to be public servants.`)
-  (str content) (str `The Nyayadhikaris and the
-officers and other employees of the Gram Nyayalayas shall be deemed, when acting or purporting to act
-in pursuance of any of the provisions of this Act, to be public servants within the meaning of section 21 of
-the Indian Penal Code (45 of 1860).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9600&sectionno=36&orderno=36&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9600)
+  sectionNo (36)
+  orderNo 36
+  title `Nyayadhikaris and employees, etc., to be public servants.`
+  content obj_root_law_sections_36_content
+  footnotes obj_root_law_sections_36_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9600&sectionno=36&orderno=36&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_36_content:
+  string
+  line `The Nyayadhikaris and the`
+  line `officers and other employees of the Gram Nyayalayas shall be deemed, when acting or purporting to act`
+  line `in pursuance of any of the provisions of this Act, to be public servants within the meaning of section 21 of`
+  line `the Indian Penal Code (45 of 1860).`
+obj_root_law_sections_36_footnotes:
+  string
+  line
 obj_root_law_sections_37:
-  object
-  (str sectionId) (str 9601)
-  (str sectionNo) (str 37)
-  (str orderNo) (int 37)
-  (str title) (str `Inspection of Gram Nyayalayas.`)
-  (str content) (str `The High Court may authorise any judicial officer superior
-in rank to the Nyayadhikari to inspect the Gram Nyayalayas within his jurisdiction once in every six
-months or such other period as the High Court may prescribe and issue such instructions, as he considers
-necessary and submit a report to the High Court.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9601&sectionno=37&orderno=37&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9601)
+  sectionNo (37)
+  orderNo 37
+  title `Inspection of Gram Nyayalayas.`
+  content obj_root_law_sections_37_content
+  footnotes obj_root_law_sections_37_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9601&sectionno=37&orderno=37&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_37_content:
+  string
+  line `The High Court may authorise any judicial officer superior`
+  line `in rank to the Nyayadhikari to inspect the Gram Nyayalayas within his jurisdiction once in every six`
+  line `months or such other period as the High Court may prescribe and issue such instructions, as he considers`
+  line `necessary and submit a report to the High Court.`
+obj_root_law_sections_37_footnotes:
+  string
+  line
 obj_root_law_sections_38:
-  object
-  (str sectionId) (str 9602)
-  (str sectionNo) (str 38)
-  (str orderNo) (int 38)
-  (str title) (str `Power to remove difficulties.`)
-  (str content) (str `(1) If any difficulty arises in giving effect to the provisions of
-this Act, the Central Government may, by order published in the Official Gazette, make such provisions
-not inconsistent with the provisions of this Act, as may appear to it to be necessary or expedient for
-removing the difficulty:
-
-Provided that no order shall be made under this section after the expiry of a period of three years from
-the date of commencement of this Act.
-
-(2) Every order made under this section shall be laid, as soon as may be after it is made, before each
-House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9602&sectionno=38&orderno=38&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9602)
+  sectionNo (38)
+  orderNo 38
+  title `Power to remove difficulties.`
+  content obj_root_law_sections_38_content
+  footnotes obj_root_law_sections_38_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9602&sectionno=38&orderno=38&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_38_content:
+  string
+  line `(1) If any difficulty arises in giving effect to the provisions of`
+  line `this Act, the Central Government may, by order published in the Official Gazette, make such provisions`
+  line `not inconsistent with the provisions of this Act, as may appear to it to be necessary or expedient for`
+  line `removing the difficulty:`
+  line
+  line `Provided that no order shall be made under this section after the expiry of a period of three years from`
+  line `the date of commencement of this Act.`
+  line
+  line `(2) Every order made under this section shall be laid, as soon as may be after it is made, before each`
+  line `House of Parliament.`
+obj_root_law_sections_38_footnotes:
+  string
+  line
 obj_root_law_sections_39:
-  object
-  (str sectionId) (str 9603)
-  (str sectionNo) (str 39)
-  (str orderNo) (int 39)
-  (str title) (str `Power of High Court to make rules.`)
-  (str content) (str `(1) The High Court may, by notification, make rules for
-carrying out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:—
-
-(a) the form and dimensions of the seal of the Gram Nyayalaya under section 10;
-
-(b) the form, the manner and the fee for institution of suit, claim or proceeding under sub-section
-(1) of section 24;
-
-(c) manner of service on opposite party under sub-section (2) of section 24;
-
-(d) procedure for conciliation under sub-section (1) of section 26;
-
-(e) qualifications and experience of Conciliators under sub-section (1) of section 27;
-
-(f) the period for inspection of Gram Nyayalayas under section 37.
-
-(3) Every notification issued by the High Court shall be published in the Official Gazette.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9603&sectionno=39&orderno=39&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9603)
+  sectionNo (39)
+  orderNo 39
+  title `Power of High Court to make rules.`
+  content obj_root_law_sections_39_content
+  footnotes obj_root_law_sections_39_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9603&sectionno=39&orderno=39&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_39_content:
+  string
+  line `(1) The High Court may, by notification, make rules for`
+  line `carrying out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:—`
+  line
+  line `(a) the form and dimensions of the seal of the Gram Nyayalaya under section 10;`
+  line
+  line `(b) the form, the manner and the fee for institution of suit, claim or proceeding under sub-section`
+  line `(1) of section 24;`
+  line
+  line `(c) manner of service on opposite party under sub-section (2) of section 24;`
+  line
+  line `(d) procedure for conciliation under sub-section (1) of section 26;`
+  line
+  line `(e) qualifications and experience of Conciliators under sub-section (1) of section 27;`
+  line
+  line `(f) the period for inspection of Gram Nyayalayas under section 37.`
+  line
+  line `(3) Every notification issued by the High Court shall be published in the Official Gazette.`
+obj_root_law_sections_39_footnotes:
+  string
+  line
 obj_root_law_sections_40:
-  object
-  (str sectionId) (str 9604)
-  (str sectionNo) (str 40)
-  (str orderNo) (int 40)
-  (str title) (str `Power of State Government to make rules.`)
-  (str content) (str `(1) The State Government may, by notification,
-make rules for carrying out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:—
-
-(a) the salaries and allowances payable to, and the other terms and conditions of service of, the
-officers and other employees of the Gram Nyayalayas under sub-section (2) of section 17;
-
-(b) the sitting fee and other allowances payable to, and the other terms and conditions for
-engagement of, Conciliators under sub-section (2) of section 27.
-
-(3) Every rule made by the State Government under this Act shall be laid as soon as may be after it is
-made, before the State Legislature.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9604&sectionno=40&orderno=40&orgactid=AC_CEN_3_3_00009_200904_1517807319778)
+  sectionId (9604)
+  sectionNo (40)
+  orderNo 40
+  title `Power of State Government to make rules.`
+  content obj_root_law_sections_40_content
+  footnotes obj_root_law_sections_40_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00009_200904_1517807319778&sectionId=9604&sectionno=40&orderno=40&orgactid=AC_CEN_3_3_00009_200904_1517807319778
+obj_root_law_sections_40_content:
+  string
+  line `(1) The State Government may, by notification,`
+  line `make rules for carrying out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:—`
+  line
+  line `(a) the salaries and allowances payable to, and the other terms and conditions of service of, the`
+  line `officers and other employees of the Gram Nyayalayas under sub-section (2) of section 17;`
+  line
+  line `(b) the sitting fee and other allowances payable to, and the other terms and conditions for`
+  line `engagement of, Conciliators under sub-section (2) of section 27.`
+  line
+  line `(3) Every rule made by the State Government under this Act shall be laid as soon as may be after it is`
+  line `made, before the State Legislature.`
+obj_root_law_sections_40_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `ग्राम न्‍यायालय अधिनियम, 2008`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2060/4/H2009-4.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:45:39.283Z`)
-  (str pageCount) (int 12)
-  (str sections) obj_root_law_translations_hi_sections
+  title `ग्राम न्‍यायालय अधिनियम, 2008`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2060/4/H2009-4.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:45:39.283Z`
+  pageCount 12
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -875,554 +1064,614 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_11
   obj_root_law_translations_hi_sections_12
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `ग्राम न् या यालय अधिधियम, 2008
-_________
-िाराओं का क्र म
-_________
-िाराएं
-अध्या य 1 प्
-ांरधिक
-1. संधिप् त िाम, धिस्ता र और प् ारंि।
-2. पररिाषाएं।
-अध्या य 2 ग्र
-ाम न् या यालय
-3. ग्र ाम न् या यालयों की स् था पिा।
-4. ग्र ाम न् या यालय का मुख्या लय।
-5. न् या याधिकारी की धियुधत।
-6. न् या याधिकारी की धियुधत के धलए अर्हताएं।
-7. न् या याधिकारी का िेति, ित्ते और सेिा के अन्य धिबंिि और शतें।
-8. न् या याधिकारी का उि कायहिाधर्यों में पीठासीि ि र् ोिा, धििमें िर् धर्तबद्ध र्ै।
-9. न् या याधिकारी का ग्र ामों में चल न् या यालय लगािा और कायहिाधर्यां करिा।
-10. ग्र ाम न् या यालय की मुद्रा।
-अध्या य 3 ग्र
-ाम न् या यालय की अधिकाररता, शधत यां और प् ाधिकार
-11. ग्र ाम न् या यालय की अधिकाररता।
-12. दांधिक अधिकाररता।
-13. धसधिल अधिकाररता।
-14. अिुसूधचयों का संशोिि करिे की शधत।
-15. पररसीमा।
-16. लंधबत कायहिाधर्यों का अंतरण।
-17. अिुसधचिीय अधिकाररयों के कतहव्य।
-अध्या य 4
-दांधिक मामलों में प्क्रक्र या
-18. दांधिक धिचारण में अधिधियम का अध्या रोर्ी प् िाि।
-19. ग्र ाम न् या यालय द्व ारा संधिप् त धिचारण प्क्रक्र या का अपिाया िािा।
-20. ग्र ा म न् या यालय के समि सौदा अधििाक्।
-21. ग्र ाम न् या यालय में मामलों का संचालि और पिकारों को धिधिक सर्ायता।
-22. धिणहय का सुिाया िािा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `ग्राम न् या यालय अधिधियम, 2008`
+  line _________
+  line `िाराओं का क्र म`
+  line _________
+  line िाराएं
+  line `अध्या य 1 प्`
+  line ांरधिक
+  line `1. संधिप् त िाम, धिस्ता र और प् ारंि।`
+  line `2. पररिाषाएं।`
+  line `अध्या य 2 ग्र`
+  line `ाम न् या यालय`
+  line `3. ग्र ाम न् या यालयों की स् था पिा।`
+  line `4. ग्र ाम न् या यालय का मुख्या लय।`
+  line `5. न् या याधिकारी की धियुधत।`
+  line `6. न् या याधिकारी की धियुधत के धलए अर्हताएं।`
+  line `7. न् या याधिकारी का िेति, ित्ते और सेिा के अन्य धिबंिि और शतें।`
+  line `8. न् या याधिकारी का उि कायहिाधर्यों में पीठासीि ि र् ोिा, धििमें िर् धर्तबद्ध र्ै।`
+  line `9. न् या याधिकारी का ग्र ामों में चल न् या यालय लगािा और कायहिाधर्यां करिा।`
+  line `10. ग्र ाम न् या यालय की मुद्रा।`
+  line `अध्या य 3 ग्र`
+  line `ाम न् या यालय की अधिकाररता, शधत यां और प् ाधिकार`
+  line `11. ग्र ाम न् या यालय की अधिकाररता।`
+  line `12. दांधिक अधिकाररता।`
+  line `13. धसधिल अधिकाररता।`
+  line `14. अिुसूधचयों का संशोिि करिे की शधत।`
+  line `15. पररसीमा।`
+  line `16. लंधबत कायहिाधर्यों का अंतरण।`
+  line `17. अिुसधचिीय अधिकाररयों के कतहव्य।`
+  line `अध्या य 4`
+  line `दांधिक मामलों में प्क्रक्र या`
+  line `18. दांधिक धिचारण में अधिधियम का अध्या रोर्ी प् िाि।`
+  line `19. ग्र ाम न् या यालय द्व ारा संधिप् त धिचारण प्क्रक्र या का अपिाया िािा।`
+  line `20. ग्र ा म न् या यालय के समि सौदा अधििाक्।`
+  line `21. ग्र ाम न् या यालय में मामलों का संचालि और पिकारों को धिधिक सर्ायता।`
+  line `22. धिणहय का सुिाया िािा।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `ii
-िाराएं
-अध्या य 5
-धसधिल मामलों में प्क्रक्र या
-23. धसधिल कायहिाधर्यों अधिधियम का अध्या रोर्ी प् िाि।
-24. धसधिल धििादों में धिशेष प्क्रक्र या।
-25. ग्र ाम न् या यालय की धिक्रक्रयों और आदेशों का धिष्पा दि।
-26. धसधिल धििादों के सुलर् और समझौते के धलए प् यास करिे का ग्र ाम न् या यालय का कतहव्य।
-27. सुलर्कारों की धियुधत।
-28. धसधिल धििादों का अंतरण।
-अध्या य 6
-सािारणत: प्क्रक्र या
-29. कायहिाधर्यों का राज्य की राििाषा में र् ोिा।
-30. िारतीय साक्ष्य अधिधियम, 1872 का लागू र् ोिा।
-31. मौधिक साक्ष्य का लेिबद्ध क्र कया िािा।
-32. औपचाररक प् कृधत के साक्ष्य का शपथ - पत्र पर र् ोिा।
-अध्या य 7
-अपीलें
-33. दांधिक मामलों में अपील।
-34. धसधिल मामलों में अपील।
-अध्या य 8 प्
-कीणह
-35. ग्र ाम न् या यालयों को पुधलस की सर्ायता।
-36. न् या याधिकाररयों और कमहचाररयों आक्रद का लोक सेिक र् ोिा।
-37. ग्र ाम न् या यालयों का धिरीिण।
-38. करठिाइयों को दूर करिे की शधत।
-39. उच्च न् या यालय की धियम बिािे की शधत।
-40. रा ज् य सरकार की धियम बिािे की शधत।
-पर्ली अिुसूची।
-दूसरी अिुसूची।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line ii
+  line िाराएं
+  line `अध्या य 5`
+  line `धसधिल मामलों में प्क्रक्र या`
+  line `23. धसधिल कायहिाधर्यों अधिधियम का अध्या रोर्ी प् िाि।`
+  line `24. धसधिल धििादों में धिशेष प्क्रक्र या।`
+  line `25. ग्र ाम न् या यालय की धिक्रक्रयों और आदेशों का धिष्पा दि।`
+  line `26. धसधिल धििादों के सुलर् और समझौते के धलए प् यास करिे का ग्र ाम न् या यालय का कतहव्य।`
+  line `27. सुलर्कारों की धियुधत।`
+  line `28. धसधिल धििादों का अंतरण।`
+  line `अध्या य 6`
+  line `सािारणत: प्क्रक्र या`
+  line `29. कायहिाधर्यों का राज्य की राििाषा में र् ोिा।`
+  line `30. िारतीय साक्ष्य अधिधियम, 1872 का लागू र् ोिा।`
+  line `31. मौधिक साक्ष्य का लेिबद्ध क्र कया िािा।`
+  line `32. औपचाररक प् कृधत के साक्ष्य का शपथ - पत्र पर र् ोिा।`
+  line `अध्या य 7`
+  line अपीलें
+  line `33. दांधिक मामलों में अपील।`
+  line `34. धसधिल मामलों में अपील।`
+  line `अध्या य 8 प्`
+  line कीणह
+  line `35. ग्र ाम न् या यालयों को पुधलस की सर्ायता।`
+  line `36. न् या याधिकाररयों और कमहचाररयों आक्रद का लोक सेिक र् ोिा।`
+  line `37. ग्र ाम न् या यालयों का धिरीिण।`
+  line `38. करठिाइयों को दूर करिे की शधत।`
+  line `39. उच्च न् या यालय की धियम बिािे की शधत।`
+  line `40. रा ज् य सरकार की धियम बिािे की शधत।`
+  line `पर्ली अिुसूची।`
+  line `दूसरी अिुसूची।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `ग्राम न् या यालय अधिधियम, 2008
-( 2009 का अधिधियम संख्यां क 4 )
-[ 7 िििरी, 20 09 ]
-िागररकों की उिके धिकटतम स् था ि पर न् या य तक पहंच उपलब्ि करािे के प् योििों के धलए ग्र
-ामीण स् त र पर ग्र ा म न् या यालयों की स् था पिा करिे और यर् सुधिधच त करिे के
-धलए क्र क कोई िागररक सामाधिक, आर्थहक या अन्य धि:शत ता के कारण न्
-या य प् ाप्त करिे के अिसरों से िंधचत तो िर्ीं र् ो रर्ा र्ै, और
-उि से संबंधित या उिके आिुषंधगक धिषयों का उपबंि
-करिे के धलए
-अधिधियम
-िा रत गणराज्य के उिसठिें िषह में संसद् द्व ारा धिम्ि धलधित रू प में यर् अधिधियधमत र् ो: ––
-अध्या य 1 प्
-ांरधिक
-1. संधिप्त िाम, धिस्ता र और प् ारंि –– (1) इस अधिधियम का संधिप् त िाम ग्र ाम न् या यालय अधिधियम, 2008 र्ै।
-(2 ) इसका धिस्ता र 1 *** िागालैंि राज्य, अरुणाचल प् देश राज्य, धसधक म राज्य और िििातीय िेत्रों के धसिाय संपूणह
-िारत पर र्ै। स्
-प ष् टी करण –– इस उपिारा में, “ िििातीय िेत्रों ” पद से संधििाि की छठी अिुसूची के पैरा 20 के िीचे सारणी के िाग 1,
-िाग 2, िाग 2 क और िाग 3 में क्र मश: असम राज्य, मेघा लय राज्य, धत्रपुरा राज्य और धमिोरम राज्य के धिधिर्दहष्ट िेत्र अधिप्ेत र्ैं।
-( 3 ) यर् उस तारीि को प् िृत्त र् ोगा, िो केन् द्री य सरकार, रािपत्र में प् काधशत अधिसूचिा द्व ारा, धियत करे और धिन् ि - धिन् ि
-राज्यों के धलए धिन् ि - धिन् ि तारीिें धियत की िा सकें गी।
-2. पररिाषाएं –– इस अधिधियम में, िब तक क्र क संदिह से अन्य था अपेधित ि र् ो, ––
-( क ) “ ग्र ाम न् या यालय ” से िारा 3 की उपिारा (1) के अिीि स् था धपत न् या यालय अधिप्ेत र्ै;
-( ि ) “ ग्र ाम पंचायत ” से संधििाि के अिुच्छे द 243 ि के अिीि ग्र ामीण िेत्रों के धलए ग्र ा म स् त र पर गरठत स् िा यत्त
-शासि की कोई संस्था ( क्र कसी िी िाम से ज्ञ ात र् ो ) अधिप्ेत र्ै;
-( ग ) “ उच्च न् या यालय ” से अधिप्ेत र्ै, ––
-( i ) क्र कसी राज्य के संबंि में, उस राज्य का उच्च न् या यालय;
-( ii ) उस संघ राज्य िेत्र के संबंि में, धिसके धलए क्र कसी राज्य के उच्च न् या यालय की अधिकाररता धिधि द्व
-ारा धिस्ता ररत की गई र्ै, िर् उच् च् ाा न् या यालय;
-( iii ) क्र कसी अन्य संघ राज्य िेत्र के संबंि में, उस राज्य िेत्र के धलए िारत के उच्च तम न् या यालय से धिन् ि,
-दांधिक अपील का सिोच्च न् या यालय;
-( घ ) “ अधिसूचिा ” से राि पत्र में प् काधशत अधिसूचिा अधिप्ेत र्ै और “ अधिसूधचत ” पद का तद्िु सार अथह
-लगाया िाएगा;
-( ङ ) “ न् या याधिकारी ” से िारा 5 के अिीि धियुत ग्र ाम न् या यालय का पीठासीि अधिकारी अधिप्ेत र्ै;
-( च ) “ मध्य िती स् त र पर पंचायत ” से संधििाि के िाग 9 के उपबंिों के अिुसा र ग्र ामीण िेत्रों के धलए संधििाि के
-अिुच्छे द 243 ि के अिीि मध्य िती स् त र पर गरठत स् िा यत्त शासि की संस्था ( क्र कसी िी िाम से ज्ञ ात र् ो ) अधिप्ेत र्ै;
-( छ ) “ धिधर्त ” से इस अधिधियम के अिीि बिाए गए धियमों द्व ारा धिधर्त अधिप्ेत र्ै;
-( ि ) “ अिुसूची ” से इस अधिधियम से संलग्ि अिुसूची अधिप्ेत र्ै;
-( झ ) संघ राज्य िेत्र के संबंि में “ राज्य सरकार ” से संधििाि के अिुच्छे द 239 के अिीि धियुत उसका प् शास क
-अधिप्ेत र्ै;
-1 2019 के अधिधियम सं ० 34 की िारा 95 और पांचिी अिुसूची द्व ारा (31 - 10 - 2019 से ) “ िम्मू - कमीर राज्य ” शब्दों का लोप क्र कया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line `ग्राम न् या यालय अधिधियम, 2008`
+  line `( 2009 का अधिधियम संख्यां क 4 )`
+  line `[ 7 िििरी, 20 09 ]`
+  line `िागररकों की उिके धिकटतम स् था ि पर न् या य तक पहंच उपलब्ि करािे के प् योििों के धलए ग्र`
+  line `ामीण स् त र पर ग्र ा म न् या यालयों की स् था पिा करिे और यर् सुधिधच त करिे के`
+  line `धलए क्र क कोई िागररक सामाधिक, आर्थहक या अन्य धि:शत ता के कारण न्`
+  line `या य प् ाप्त करिे के अिसरों से िंधचत तो िर्ीं र् ो रर्ा र्ै, और`
+  line `उि से संबंधित या उिके आिुषंधगक धिषयों का उपबंि`
+  line `करिे के धलए`
+  line अधिधियम
+  line `िा रत गणराज्य के उिसठिें िषह में संसद् द्व ारा धिम्ि धलधित रू प में यर् अधिधियधमत र् ो: ––`
+  line `अध्या य 1 प्`
+  line ांरधिक
+  line `1. संधिप्त िाम, धिस्ता र और प् ारंि –– (1) इस अधिधियम का संधिप् त िाम ग्र ाम न् या यालय अधिधियम, 2008 र्ै।`
+  line `(2 ) इसका धिस्ता र 1 *** िागालैंि राज्य, अरुणाचल प् देश राज्य, धसधक म राज्य और िििातीय िेत्रों के धसिाय संपूणह`
+  line `िारत पर र्ै। स्`
+  line `प ष् टी करण –– इस उपिारा में, “ िििातीय िेत्रों ” पद से संधििाि की छठी अिुसूची के पैरा 20 के िीचे सारणी के िाग 1,`
+  line `िाग 2, िाग 2 क और िाग 3 में क्र मश: असम राज्य, मेघा लय राज्य, धत्रपुरा राज्य और धमिोरम राज्य के धिधिर्दहष्ट िेत्र अधिप्ेत र्ैं।`
+  line `( 3 ) यर् उस तारीि को प् िृत्त र् ोगा, िो केन् द्री य सरकार, रािपत्र में प् काधशत अधिसूचिा द्व ारा, धियत करे और धिन् ि - धिन् ि`
+  line `राज्यों के धलए धिन् ि - धिन् ि तारीिें धियत की िा सकें गी।`
+  line `2. पररिाषाएं –– इस अधिधियम में, िब तक क्र क संदिह से अन्य था अपेधित ि र् ो, ––`
+  line `( क ) “ ग्र ाम न् या यालय ” से िारा 3 की उपिारा (1) के अिीि स् था धपत न् या यालय अधिप्ेत र्ै;`
+  line `( ि ) “ ग्र ाम पंचायत ” से संधििाि के अिुच्छे द 243 ि के अिीि ग्र ामीण िेत्रों के धलए ग्र ा म स् त र पर गरठत स् िा यत्त`
+  line `शासि की कोई संस्था ( क्र कसी िी िाम से ज्ञ ात र् ो ) अधिप्ेत र्ै;`
+  line `( ग ) “ उच्च न् या यालय ” से अधिप्ेत र्ै, ––`
+  line `( i ) क्र कसी राज्य के संबंि में, उस राज्य का उच्च न् या यालय;`
+  line `( ii ) उस संघ राज्य िेत्र के संबंि में, धिसके धलए क्र कसी राज्य के उच्च न् या यालय की अधिकाररता धिधि द्व`
+  line `ारा धिस्ता ररत की गई र्ै, िर् उच् च् ाा न् या यालय;`
+  line `( iii ) क्र कसी अन्य संघ राज्य िेत्र के संबंि में, उस राज्य िेत्र के धलए िारत के उच्च तम न् या यालय से धिन् ि,`
+  line `दांधिक अपील का सिोच्च न् या यालय;`
+  line `( घ ) “ अधिसूचिा ” से राि पत्र में प् काधशत अधिसूचिा अधिप्ेत र्ै और “ अधिसूधचत ” पद का तद्िु सार अथह`
+  line `लगाया िाएगा;`
+  line `( ङ ) “ न् या याधिकारी ” से िारा 5 के अिीि धियुत ग्र ाम न् या यालय का पीठासीि अधिकारी अधिप्ेत र्ै;`
+  line `( च ) “ मध्य िती स् त र पर पंचायत ” से संधििाि के िाग 9 के उपबंिों के अिुसा र ग्र ामीण िेत्रों के धलए संधििाि के`
+  line `अिुच्छे द 243 ि के अिीि मध्य िती स् त र पर गरठत स् िा यत्त शासि की संस्था ( क्र कसी िी िाम से ज्ञ ात र् ो ) अधिप्ेत र्ै;`
+  line `( छ ) “ धिधर्त ” से इस अधिधियम के अिीि बिाए गए धियमों द्व ारा धिधर्त अधिप्ेत र्ै;`
+  line `( ि ) “ अिुसूची ” से इस अधिधियम से संलग्ि अिुसूची अधिप्ेत र्ै;`
+  line `( झ ) संघ राज्य िेत्र के संबंि में “ राज्य सरकार ” से संधििाि के अिुच्छे द 239 के अिीि धियुत उसका प् शास क`
+  line `अधिप्ेत र्ै;`
+  line `1 2019 के अधिधियम सं ० 34 की िारा 95 और पांचिी अिुसूची द्व ारा (31 - 10 - 2019 से ) “ िम्मू - कमीर राज्य ” शब्दों का लोप क्र कया गया।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `2
-( ञ ) उि शब्दों और पदों के िो, इसमें प् युत र्ैं और पररिाधषत िर्ीं र्ैं ककंतु धसधिल प्क्रक्र या संधर्ता, 1908
-( 1908 का 5 ) या दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) में पररिाधषत र्ैं, िर्ी अथह र्ों गे, िो उि संधर्ताओं में र्ैं।
-अध्या य 2 ग्र
-ाम न् या यालय
-3. ग्र ाम न् या यालयों की स् था पिा –– (1) राज्य सरकार, इस अधिधियम द्व ारा ग्र ाम न् या यालय को प् दत्त अधिकारर ता और
-शधत यों का प् योग करिे के प् योिि के धलए, उच्च न् या यालय से परामशह करिे के प चा त्, अधिसूचिा द्व ारा, धिले में मध्य िती स् त र पर प्त्
-ये क पंचायत या मध्य िती स् त र पर धिकटिती पंचायतों के समूर् के धलए या िर्ां क्र कसी राज्य में मध्य िती स् त र पर कोई पंचायत िर्ीं र्ै
-िर्ां धिकटिती ग्र ाम पंचायतों के समूर् के धलए एक या अधिक ग्र ाम न् या यालय स् था धपत कर सकेगी।
-(2 ) राज्य सरकार, उच्च न् या यालय से परामशह करिे के प चा त्, अधि सूचिा द्व ारा, ऐसे िेत्र की स् था िीय सीमाएं धिधिर्दहष्ट
-करेगी, धिस पर ग्र ा म न् या यालय की अधिकाररता धिस्ता ररत की िाएगी और क्र कसी िी समय, ऐसी सीमाओं को बढा सकेगी, कम कर
-सकेगी या पररिर्तहत कर सकेगी।
-(3 ) उपिारा (1) के अिीि स् था धपत ग्र ाम न् या यालय तत्स मय प् िृत्त क्र कसी अन्य धिधि के अिीि स् था धपत न् या यालयों के
-अधतररत र्ों गे।
-4. ग्र ाम न् या याल य का मुख्या लय –– प्त् ये क ग्र ाम न् या याल य का मुख्या ल य उस मध्य िती पंचायत के मुख्या लय पर धिसमें ग्र ाम न्
-या यालय स् था धपत र्ै या ऐसे अ न् य स् था ि पर अिधस्थ त र् ोगा, िो राज्य सरकार द्व ारा अधिसूधचत क्र कए िाए।
-5. न् या याधिकारी की धियुधत –– राज्य सरकार, उच्च न् या यालय के परामशह से, प्त् ये क ग्र ाम न् या यालय के धलए एक न्
-या याधिकारी की धियुधत करेगी।
-6. न् या याधिकारी की धियुधत के धलए अर्हताएं –– (1) कोई व् य धत, न् या याधिकारी के रू प में धियुत क्र कए िािे के धलए तिी
-अर्र्हत र् ोगा, िब िर् प् थम िगह न् या धयक मधिस्रे ट के रू प में धियुत क्र कए िािे के धलए पात्र र् ो।
-( 2 ) न् या याधिकारी की धियुधत करते समय, अिुसूधचत िाधतयों, अिुसूधचत िििाधतयों, धस् त्र यों तथा ऐसे अन्य िगों या
-समुदायों के सदस्यों को प् धतधिधित्ि क्र दया िाएगा, िो रा ज् य सरकार द्व ारा, समय - समय पर, अधिसू चिा द्व ारा, धिधिर्दहष्ट क्र कए िाएं।
-7. न् या याधिकारी का िेति, ित्ते और सेिा के अन्य धिबंिि और शतें –– न् या याधिकारी को संदेय िेति और अन्य ित्ते तथा
-उसकी सेिा के अन्य धिबंिि और शतें िे र्ों गी, िो प् थम िगह न् या धयक मधिस्रे ट को लागू र्ों।
-8. न् या याधिकारी का उि कायहिाधर्यों में पीठासीि ि र् ोिा, धििमें िर् धर्तबद्ध र्ै –– न् या याधिकारी ग्र ा म न् या यालय की उि
-कायहिाधर्यों में पीठसीि िर्ीं र् ोगा धििमें उसका कोई धर्त र्ै या िर् धििाद की धिषय - धिस्तु में अन्य था अंतिहधलत र्ै या उसका ऐसी
-कायहिाधर्यों के क्र कसी पिकार से संबंि र्ै और ऐसे मामले में न् या याधिकारी मामले को, क्र कसी अन्य न् या याधिकारी को अंतररत क्र क ए
-िािे के धलए, यथाधस्थ धत, धिला न् या यालय या सेशि न् या यालय को िेिेगा।
-9. न् या याधिकारी का ग्र ामों में चल न् या यालय लगािा और कायहिाधर्यां करिा –– (1) न् या याधिकारी अपिी अधिकाररता के
-अंतगहत आिे िाले ग्र ामों का आिधिक रू प से दौरा करेगा और ऐसे क्र कसी स् था ि पर धिचारण या कायहिाधर्यां करेगा, धिसे िर् उस स्
-था ि के धिकट समझ ता र्ै िर्ां पिका र सामान्य तया धििास करते र्ैं या िर्ां संपूणह िाद र्े तुक या उस का कोई िाग उद्िूत हआ था:
-परन् तु ि र् ां ग्र ाम न् या यालय अपिे मुख्या लय से बार्र चल न् या यालय लगािे का धिधिच य करता र्ै िर्ां िर् उस तारीि और स्
-था ि के बारे में, िर्ां िर् चल न् या यालय लगािे का प्स् ता ि करता र्ै, व् या पक प् चार करेगा।
-( 2 ) राज्य स रकार, ग्र ाम न् या यालय को सिी सुधििाएं प् दाि करेगी धििके अंतगहत उसके मुख्या लय से बार्र धिचारण या
-कायहिाधर्यां करते समय न् या याधिकारी द्व ा रा चल न् या यालय लगािे के धलए िा र् िों की व् य िस्था िी र्ै।
-10. ग्र ाम न् या यालय की मुद्रा –– इस अधिधियम के अिीि स् था धपत प्त् ये क ग्र ाम न् या यालय, न् या यालय की मुद्रा का उपयोग ऐसे
-आकार और धिमाओं में करेगा िो उच्च न् या यालय द्व ारा राज्य सरकार के अिुमोदि से धिधर् त की िाएं।
-अध्या य 3 ग्र
-ाम न् या यालय की अधिकाररता, शधत यां और प् ाधिकार
-11. ग्र ाम न् या यालय की अधिकाररता –– (1 ) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) या धसधिल प्क्रक्र या संधर्ता,
-1908 ( 1908 का 5 ) या तत्स मय प् िृत्त क्र कसी अन्य धिधि में क्र कसी बात के र् ोते हए िी, ग्र ाम न् या यालय धसधिल और दांधिक, दोिों
-अधिकाररता का प् योग इस अधिधियम के अिीि उपबंधित रीधत में औ र सीमा तक करेगा।
-12. दांधिक अधिकाररता –– (1) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) या तत्स मय प् िृत्त क्र कसी अन्य धिधि में क्र कसी बात के र्
-ोते हए िी, ग्र ाम न् या यालय क्र कसी पररिाद पर या पुधलस रर पोटह पर क्र कसी अपराि का सं ज्ञ ाि ले सकेगा और ––
-( क ) पर्ली अिुसूची के िाग 1 में धिधिर्दहष्ट सिी अपरािों का धिचारण करेगा; और`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 2
+  line `( ञ ) उि शब्दों और पदों के िो, इसमें प् युत र्ैं और पररिाधषत िर्ीं र्ैं ककंतु धसधिल प्क्रक्र या संधर्ता, 1908`
+  line `( 1908 का 5 ) या दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) में पररिाधषत र्ैं, िर्ी अथह र्ों गे, िो उि संधर्ताओं में र्ैं।`
+  line `अध्या य 2 ग्र`
+  line `ाम न् या यालय`
+  line `3. ग्र ाम न् या यालयों की स् था पिा –– (1) राज्य सरकार, इस अधिधियम द्व ारा ग्र ाम न् या यालय को प् दत्त अधिकारर ता और`
+  line `शधत यों का प् योग करिे के प् योिि के धलए, उच्च न् या यालय से परामशह करिे के प चा त्, अधिसूचिा द्व ारा, धिले में मध्य िती स् त र पर प्त्`
+  line `ये क पंचायत या मध्य िती स् त र पर धिकटिती पंचायतों के समूर् के धलए या िर्ां क्र कसी राज्य में मध्य िती स् त र पर कोई पंचायत िर्ीं र्ै`
+  line `िर्ां धिकटिती ग्र ाम पंचायतों के समूर् के धलए एक या अधिक ग्र ाम न् या यालय स् था धपत कर सकेगी।`
+  line `(2 ) राज्य सरकार, उच्च न् या यालय से परामशह करिे के प चा त्, अधि सूचिा द्व ारा, ऐसे िेत्र की स् था िीय सीमाएं धिधिर्दहष्ट`
+  line `करेगी, धिस पर ग्र ा म न् या यालय की अधिकाररता धिस्ता ररत की िाएगी और क्र कसी िी समय, ऐसी सीमाओं को बढा सकेगी, कम कर`
+  line `सकेगी या पररिर्तहत कर सकेगी।`
+  line `(3 ) उपिारा (1) के अिीि स् था धपत ग्र ाम न् या यालय तत्स मय प् िृत्त क्र कसी अन्य धिधि के अिीि स् था धपत न् या यालयों के`
+  line `अधतररत र्ों गे।`
+  line `4. ग्र ाम न् या याल य का मुख्या लय –– प्त् ये क ग्र ाम न् या याल य का मुख्या ल य उस मध्य िती पंचायत के मुख्या लय पर धिसमें ग्र ाम न्`
+  line `या यालय स् था धपत र्ै या ऐसे अ न् य स् था ि पर अिधस्थ त र् ोगा, िो राज्य सरकार द्व ारा अधिसूधचत क्र कए िाए।`
+  line `5. न् या याधिकारी की धियुधत –– राज्य सरकार, उच्च न् या यालय के परामशह से, प्त् ये क ग्र ाम न् या यालय के धलए एक न्`
+  line `या याधिकारी की धियुधत करेगी।`
+  line `6. न् या याधिकारी की धियुधत के धलए अर्हताएं –– (1) कोई व् य धत, न् या याधिकारी के रू प में धियुत क्र कए िािे के धलए तिी`
+  line `अर्र्हत र् ोगा, िब िर् प् थम िगह न् या धयक मधिस्रे ट के रू प में धियुत क्र कए िािे के धलए पात्र र् ो।`
+  line `( 2 ) न् या याधिकारी की धियुधत करते समय, अिुसूधचत िाधतयों, अिुसूधचत िििाधतयों, धस् त्र यों तथा ऐसे अन्य िगों या`
+  line `समुदायों के सदस्यों को प् धतधिधित्ि क्र दया िाएगा, िो रा ज् य सरकार द्व ारा, समय - समय पर, अधिसू चिा द्व ारा, धिधिर्दहष्ट क्र कए िाएं।`
+  line `7. न् या याधिकारी का िेति, ित्ते और सेिा के अन्य धिबंिि और शतें –– न् या याधिकारी को संदेय िेति और अन्य ित्ते तथा`
+  line `उसकी सेिा के अन्य धिबंिि और शतें िे र्ों गी, िो प् थम िगह न् या धयक मधिस्रे ट को लागू र्ों।`
+  line `8. न् या याधिकारी का उि कायहिाधर्यों में पीठासीि ि र् ोिा, धििमें िर् धर्तबद्ध र्ै –– न् या याधिकारी ग्र ा म न् या यालय की उि`
+  line `कायहिाधर्यों में पीठसीि िर्ीं र् ोगा धििमें उसका कोई धर्त र्ै या िर् धििाद की धिषय - धिस्तु में अन्य था अंतिहधलत र्ै या उसका ऐसी`
+  line `कायहिाधर्यों के क्र कसी पिकार से संबंि र्ै और ऐसे मामले में न् या याधिकारी मामले को, क्र कसी अन्य न् या याधिकारी को अंतररत क्र क ए`
+  line `िािे के धलए, यथाधस्थ धत, धिला न् या यालय या सेशि न् या यालय को िेिेगा।`
+  line `9. न् या याधिकारी का ग्र ामों में चल न् या यालय लगािा और कायहिाधर्यां करिा –– (1) न् या याधिकारी अपिी अधिकाररता के`
+  line `अंतगहत आिे िाले ग्र ामों का आिधिक रू प से दौरा करेगा और ऐसे क्र कसी स् था ि पर धिचारण या कायहिाधर्यां करेगा, धिसे िर् उस स्`
+  line `था ि के धिकट समझ ता र्ै िर्ां पिका र सामान्य तया धििास करते र्ैं या िर्ां संपूणह िाद र्े तुक या उस का कोई िाग उद्िूत हआ था:`
+  line `परन् तु ि र् ां ग्र ाम न् या यालय अपिे मुख्या लय से बार्र चल न् या यालय लगािे का धिधिच य करता र्ै िर्ां िर् उस तारीि और स्`
+  line `था ि के बारे में, िर्ां िर् चल न् या यालय लगािे का प्स् ता ि करता र्ै, व् या पक प् चार करेगा।`
+  line `( 2 ) राज्य स रकार, ग्र ाम न् या यालय को सिी सुधििाएं प् दाि करेगी धििके अंतगहत उसके मुख्या लय से बार्र धिचारण या`
+  line `कायहिाधर्यां करते समय न् या याधिकारी द्व ा रा चल न् या यालय लगािे के धलए िा र् िों की व् य िस्था िी र्ै।`
+  line `10. ग्र ाम न् या यालय की मुद्रा –– इस अधिधियम के अिीि स् था धपत प्त् ये क ग्र ाम न् या यालय, न् या यालय की मुद्रा का उपयोग ऐसे`
+  line `आकार और धिमाओं में करेगा िो उच्च न् या यालय द्व ारा राज्य सरकार के अिुमोदि से धिधर् त की िाएं।`
+  line `अध्या य 3 ग्र`
+  line `ाम न् या यालय की अधिकाररता, शधत यां और प् ाधिकार`
+  line `11. ग्र ाम न् या यालय की अधिकाररता –– (1 ) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) या धसधिल प्क्रक्र या संधर्ता,`
+  line `1908 ( 1908 का 5 ) या तत्स मय प् िृत्त क्र कसी अन्य धिधि में क्र कसी बात के र् ोते हए िी, ग्र ाम न् या यालय धसधिल और दांधिक, दोिों`
+  line `अधिकाररता का प् योग इस अधिधियम के अिीि उपबंधित रीधत में औ र सीमा तक करेगा।`
+  line `12. दांधिक अधिकाररता –– (1) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) या तत्स मय प् िृत्त क्र कसी अन्य धिधि में क्र कसी बात के र्`
+  line `ोते हए िी, ग्र ाम न् या यालय क्र कसी पररिाद पर या पुधलस रर पोटह पर क्र कसी अपराि का सं ज्ञ ाि ले सकेगा और ––`
+  line `( क ) पर्ली अिुसूची के िाग 1 में धिधिर्दहष्ट सिी अपरािों का धिचारण करेगा; और`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `3
-( ि ) उस अिुसूची के िाग 2 में सधम्म धलत अधिधियधमधतयों के अिीि धिधिर्दहष्ट सिी अपरा िों का धिचारण करेगा
-और अिुतोष, यक्रद कोई र् ो, प् दाि करेगा।
-( 2 ) उपिारा (1) के उपबंिों पर प् धतकूल प् िाि िाले धबिा, ग्र ाम न् या यालय उि राज्य अधिधियमों के अिीि ऐसे सिी
-अपरािों का िी धिचारण करेगा या ऐसा अिुतोष प् दाि करेगा, िो िारा 14 की उपिारा ( 3 ) के अिीि राज्य सरकार द्व ारा अधिसूधच त क्र
-कए िा एं।
-13. धसधिल अधिकाररता –– (1) धसधिल प्क्रक्र या संधर्ता, 1908 ( 1908 का 5 ) या तत्स मय प् िृत्त क्र कसी अन्य धिधि में क्र कसी
-बात के र् ोते हए िी और उपिारा (2 ) के अिीि रर्ते हए, ग्र ाम न् या यालय की धिम्ि धलधित अधिकाररता र् ोगी, ––
-( क ) दूसरी अिुसूची के िाग 1 में धिधिर्दहष्ट िगों के धििादों के अिीि आिे िाले धसधिल प् कृधत के सिी िादों या
-कायह िा धर्यों का धिचारण करिा;
-( ि ) उि सिी िगों के दािों और धििादों का धिचारण करिा, िो िारा 14 की उपिारा (1) के अिीि केन् द्री य
-सरकार द्व ारा और उ त िारा की उपिारा (3 ) के अिीि राज्य सरकार द्व ारा अधिसूधचत क्र कए िा एं।
-( 2 ) ग्र ाम न् या यालय की ििीय सीमाएं िे र्ों गी, िो उच्च न् या यालय द्व ारा, राज्य सरकार के परामशह से समय - समय पर
-अधिसूचिा द्व ारा, धिधिर्दहष्ट की िाएं।
-14. अिुसूधचयों का संशोिि करिे की शधत –– (1) िर्ां केन् द्री य सरकार का यर् समािाि र् ो िाता र्ै क्र क ऐसा करिा
-आिय क या समीचीि र्ै, िर्ां िर् अधिसूचिा द्व ारा, य थास् धाथधत, पर्ली अिुसूची के िाग 1 या िा ग 2 अथिा दूसरी अिुसूची के िाग
-2 में क्र कसी मद को िोड़ सकेगी या उससे लोप कर सकेगी और िर् तद्िु सार संशोधित की गई समझी िाएगी।
-(2 ) उपिारा (1) के अिीि िारी की गई प्त् ये क अधिसूचिा संसद् के प्त् ये क सदि के समि रिी िाए गी।
-(3 ) यक्रद राज्य सरकार का यर् समािाि र् ो िाता र्ै क्र क ऐसा करिा आिय क या समीचीि र्ै तो िर् उच्च न् या यालय के
-परामशह से अधिसूच िा द्व ारा, पर्ली अिुसूची के िाग 3 या दूसरी अिुसूची के िाग 3 में क्र कसी मद को िोड़ सकेगी या उससे क्र कसी ऐसी
-मद का लोप कर सकेगी, धिसकी बाबत राज्य धििाि - मंिल धिधियां बिािे के धलए सिम र्ै और तदुपरर, यथास् धाथधत, पर्ली अिुसूची
-या दूसरी अिुसूची तद्िु सार संशोधित की गई समझी िाएगी।
-( 4 ) उपिारा (3 ) के अिीि िारी की गई प्त् ये क अधिसूचिा राज्य धििाि - मंिल के समझ रिी िाएगी।
-15. पररसीमा –– (1) परर सीमा अधिधियम, 1963 ( 1963 का 36 ) के उपबंि ग्र ाम न् या यालय द्व ारा धिचारणीय िादों को
-लागू र्ों गे।
-(2 ) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) के अध्या य 36 के उपबं ि ग्र ाम न् या यालय द्व ारा धिचारणी य अपरािों के संबंि में
-लागू र्ों गे।
-16. लंधबत कायहिाधर् यों का अंतरण –– (1) यथाधस्थ धत, धिला न् या यालय या सेशि न् या यालय ऐसी तारीि से, िो उच्च न्
-या यालय द्व ारा अधिसूधचत की िाए, अपिे अिीिस्थ न् या यालयों के समि लंधबत सिी धसधिल या दांधिक मामलों को, ऐसे मा मलों का
-धिचारण या धिपटारा करिे के धलए सिम ग्र ाम न् या याल य को अंतररत कर सकेगा।
-(2 ) ग्र ाम न् या यालय अपिे धििेकािुसार उि मामलों का या तो पुि: धिचारण कर सकेगा या उि पर उस प्क्र म से आगे
-कायहिार्ी कर सकेगा, धिस पर िे उसे अंतररत क्र कए गए थे।
-17. अिुसधचिीय अधिकाररयों के कतहव्य –– (1) राज्य सरकार, ग्र ाम न् या यालय को उसके कृत् यों के धििहर्ि में सर्ायता करिे के
-धलए अपेधित अधिकाररयों और अन्य कमहचाररयों की प् कृधत और प् िगों का अििारण करेगी और ग्र ाम न् या यालय को उतिे अधिकारी
-और अन्य कमहचारी उपलब्ि कराएगी, धि तिे िर् ठीक समझे।
-(2 ) ग्र ाम न् या यालय के अधिकाररयों और अन्य कमहचाररयों को संदेय िेति और ित्ते तथा उिकी सेिा की अन्य शतें िे र्ों गी
-िो राज्य सरकार द्व ारा धिधर्त की िाएं।
-(3 ) ग्र ाम न् या यालय के अधिकारी और अन्य कमहचारी ऐसे कतहव्यों का धििहर्ि करेंगे िो, समय - समय पर, न् या याधिकारी द्व ारा
-उन् र्ें स मिुदेधशत क्र कए िाएं।
-अध्या य 4
-दांधिक मामलों में प्क्रक्र या
-18. दांधिक धिचारण में अधिधियम का अध्या रोर्ी प् िाि –– इस अधिधियम के उपबंि, दंि प्क्रक्र या संधर्ता, 1973
-( 1974 का 2 ) या क्र कसी अन्य धिधि में क्र कसी बात के र् ोते हए िी प् िािी र्ों गे, क्र कन्तु इस अधिधि यम में अधिव्य त रू प से िैसा
-उपबंधित र्ै उसके धसिाय, संधर्ता के उपबंि, िर्ां तक िे इस अधिधियम के उपबंिों से असंगत िर्ीं र्ैं, ग्र ाम न् या यालय के समि`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 3
+  line `( ि ) उस अिुसूची के िाग 2 में सधम्म धलत अधिधियधमधतयों के अिीि धिधिर्दहष्ट सिी अपरा िों का धिचारण करेगा`
+  line `और अिुतोष, यक्रद कोई र् ो, प् दाि करेगा।`
+  line `( 2 ) उपिारा (1) के उपबंिों पर प् धतकूल प् िाि िाले धबिा, ग्र ाम न् या यालय उि राज्य अधिधियमों के अिीि ऐसे सिी`
+  line `अपरािों का िी धिचारण करेगा या ऐसा अिुतोष प् दाि करेगा, िो िारा 14 की उपिारा ( 3 ) के अिीि राज्य सरकार द्व ारा अधिसूधच त क्र`
+  line `कए िा एं।`
+  line `13. धसधिल अधिकाररता –– (1) धसधिल प्क्रक्र या संधर्ता, 1908 ( 1908 का 5 ) या तत्स मय प् िृत्त क्र कसी अन्य धिधि में क्र कसी`
+  line `बात के र् ोते हए िी और उपिारा (2 ) के अिीि रर्ते हए, ग्र ाम न् या यालय की धिम्ि धलधित अधिकाररता र् ोगी, ––`
+  line `( क ) दूसरी अिुसूची के िाग 1 में धिधिर्दहष्ट िगों के धििादों के अिीि आिे िाले धसधिल प् कृधत के सिी िादों या`
+  line `कायह िा धर्यों का धिचारण करिा;`
+  line `( ि ) उि सिी िगों के दािों और धििादों का धिचारण करिा, िो िारा 14 की उपिारा (1) के अिीि केन् द्री य`
+  line `सरकार द्व ारा और उ त िारा की उपिारा (3 ) के अिीि राज्य सरकार द्व ारा अधिसूधचत क्र कए िा एं।`
+  line `( 2 ) ग्र ाम न् या यालय की ििीय सीमाएं िे र्ों गी, िो उच्च न् या यालय द्व ारा, राज्य सरकार के परामशह से समय - समय पर`
+  line `अधिसूचिा द्व ारा, धिधिर्दहष्ट की िाएं।`
+  line `14. अिुसूधचयों का संशोिि करिे की शधत –– (1) िर्ां केन् द्री य सरकार का यर् समािाि र् ो िाता र्ै क्र क ऐसा करिा`
+  line `आिय क या समीचीि र्ै, िर्ां िर् अधिसूचिा द्व ारा, य थास् धाथधत, पर्ली अिुसूची के िाग 1 या िा ग 2 अथिा दूसरी अिुसूची के िाग`
+  line `2 में क्र कसी मद को िोड़ सकेगी या उससे लोप कर सकेगी और िर् तद्िु सार संशोधित की गई समझी िाएगी।`
+  line `(2 ) उपिारा (1) के अिीि िारी की गई प्त् ये क अधिसूचिा संसद् के प्त् ये क सदि के समि रिी िाए गी।`
+  line `(3 ) यक्रद राज्य सरकार का यर् समािाि र् ो िाता र्ै क्र क ऐसा करिा आिय क या समीचीि र्ै तो िर् उच्च न् या यालय के`
+  line `परामशह से अधिसूच िा द्व ारा, पर्ली अिुसूची के िाग 3 या दूसरी अिुसूची के िाग 3 में क्र कसी मद को िोड़ सकेगी या उससे क्र कसी ऐसी`
+  line `मद का लोप कर सकेगी, धिसकी बाबत राज्य धििाि - मंिल धिधियां बिािे के धलए सिम र्ै और तदुपरर, यथास् धाथधत, पर्ली अिुसूची`
+  line `या दूसरी अिुसूची तद्िु सार संशोधित की गई समझी िाएगी।`
+  line `( 4 ) उपिारा (3 ) के अिीि िारी की गई प्त् ये क अधिसूचिा राज्य धििाि - मंिल के समझ रिी िाएगी।`
+  line `15. पररसीमा –– (1) परर सीमा अधिधियम, 1963 ( 1963 का 36 ) के उपबंि ग्र ाम न् या यालय द्व ारा धिचारणीय िादों को`
+  line `लागू र्ों गे।`
+  line `(2 ) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) के अध्या य 36 के उपबं ि ग्र ाम न् या यालय द्व ारा धिचारणी य अपरािों के संबंि में`
+  line `लागू र्ों गे।`
+  line `16. लंधबत कायहिाधर् यों का अंतरण –– (1) यथाधस्थ धत, धिला न् या यालय या सेशि न् या यालय ऐसी तारीि से, िो उच्च न्`
+  line `या यालय द्व ारा अधिसूधचत की िाए, अपिे अिीिस्थ न् या यालयों के समि लंधबत सिी धसधिल या दांधिक मामलों को, ऐसे मा मलों का`
+  line `धिचारण या धिपटारा करिे के धलए सिम ग्र ाम न् या याल य को अंतररत कर सकेगा।`
+  line `(2 ) ग्र ाम न् या यालय अपिे धििेकािुसार उि मामलों का या तो पुि: धिचारण कर सकेगा या उि पर उस प्क्र म से आगे`
+  line `कायहिार्ी कर सकेगा, धिस पर िे उसे अंतररत क्र कए गए थे।`
+  line `17. अिुसधचिीय अधिकाररयों के कतहव्य –– (1) राज्य सरकार, ग्र ाम न् या यालय को उसके कृत् यों के धििहर्ि में सर्ायता करिे के`
+  line `धलए अपेधित अधिकाररयों और अन्य कमहचाररयों की प् कृधत और प् िगों का अििारण करेगी और ग्र ाम न् या यालय को उतिे अधिकारी`
+  line `और अन्य कमहचारी उपलब्ि कराएगी, धि तिे िर् ठीक समझे।`
+  line `(2 ) ग्र ाम न् या यालय के अधिकाररयों और अन्य कमहचाररयों को संदेय िेति और ित्ते तथा उिकी सेिा की अन्य शतें िे र्ों गी`
+  line `िो राज्य सरकार द्व ारा धिधर्त की िाएं।`
+  line `(3 ) ग्र ाम न् या यालय के अधिकारी और अन्य कमहचारी ऐसे कतहव्यों का धििहर्ि करेंगे िो, समय - समय पर, न् या याधिकारी द्व ारा`
+  line `उन् र्ें स मिुदेधशत क्र कए िाएं।`
+  line `अध्या य 4`
+  line `दांधिक मामलों में प्क्रक्र या`
+  line `18. दांधिक धिचारण में अधिधियम का अध्या रोर्ी प् िाि –– इस अधिधियम के उपबंि, दंि प्क्रक्र या संधर्ता, 1973`
+  line `( 1974 का 2 ) या क्र कसी अन्य धिधि में क्र कसी बात के र् ोते हए िी प् िािी र्ों गे, क्र कन्तु इस अधिधि यम में अधिव्य त रू प से िैसा`
+  line `उपबंधित र्ै उसके धसिाय, संधर्ता के उपबंि, िर्ां तक िे इस अधिधियम के उपबंिों से असंगत िर्ीं र्ैं, ग्र ाम न् या यालय के समि`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `4
-कायहिाधर्यां को लागू र्ों गे और संधर्ता के उ त उपबंिों के प् योिि के धलए ग्र ाम न् या यालय प् थम िगह न् या धयक मधिस्रे ट का न् या यालय
-समझा िाएगा।
-19. ग्र ाम न् या यालय द्व ारा संधिप्त धिचारण प्क्रक्र या का अपिाया िािा –– (1) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) की
-िारा 260 की उपिारा (1 ) या िारा 262 की उपिारा (2 ) में क्र कसी बात के र् ोते हए िी, ग्र ाम न् या यालय अपरा िों का धिचारण उ त
-संधर्ता के अध्या य 21 में धिधिर्दहष्ट प्क्रक्र या के अिुसार संधिप् त रू प में करेगा और उ त संधर्ता की िारा 262 की उपिा रा (1) तथा
-िारा 26 3 से िारा 265 के उपबंि, िर्ां तक र् ो सके, ऐसे धिचारण को लागू र्ों गे।
-(2 ) िब संधिप् त धिचारण के दौ राि न् या याधिकारी को यर् प् तीत र् ो क्र क मामले की प् कृधत ऐसी र्ै क्र क उसका संधिप् त
-धिचारण करिा अिांछिीय र्ै तो न् या याधिकारी ऐसे क्र कसी सािी को पुि: बुलाएगा, धिसकी परीिा र् ो चुकी र् ो औ र दंि प्क्रक्र या
-संधर्ता, 1973 ( 1974 का 2 ) के अिीि उपबंधित रीधत में मामले की पु ि: सुििाई के धलए अग्रसर र् ोगा।
-20. ग्र ाम न् या यालय के समि सौदा अधििाक् –– अपराि में अधियु त व् य धत उस ग्र ाम न् या यालय में, धिसमें ऐसे अपराि का
-धिचारण लंधबत र्ै, सौदा अधििाक् के धलए आिेदि फाइल कर सकेगा और ग्र ाम न् या यालय दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2) के
-अध्या य 21 क के उपबंिों के अिुसार मामले का धिपटारा करेगा।
-21. ग्र ाम न् या यालय में मामलों का संचालि और पिका रों को धिधिक सर्ायता –– (1) सरकार की ओर से ग्र ाम न् या यालय में
-दांधिक मामलों का संचालि करिे के प् योिि के धलए दंि प्क्रक्र या संधर्ता, 197 3 (1974 का 2) की िारा 25 के उपबंि लागू र्ों गे।
-( 2 ) उपिारा (1) में क्र कसी बात के र् ोते हए िी, ग्र ाम न् या यालय के समि दांधिक कायहिार्ी में पररिादी अधियोिि के मामले
-को प्स् तु त करिे के धलए ग्र ाम न् या यालय की इिाित से अपिे िचे पर अपिी पसंद के क्र कसी अधििता को धियुत कर सकेगा।
-( 3 ) धिधिक सेिा प् ाधिकरण अधिधियम, 1987 ( 1987 का 39 ) की िारा 6 के अिीि गरठत राज्य धिधिक सेिा प् ाधिकरण,
-अधििता ओं का एक पैिल तैयार करेगा और उिमें से कम - से - क म दो को प्त् ये क ग्र ाम न् या यालय के साथ लगाए िािे के धलए
-समिुदे धशत करे गा, धिससे क्र क ग्र ाम न् या यालय द्व ारा उिकी सेिाएं अधििता की धियुधत करिे में असमथह रर्िे िाले अधियुत को
-उपलब्ि कराई िा सके।
-22. धिणहय का सुिाया िािा –– (1) प्त् ये क धिचारण में धिणहय, न् या याधिकारी द्व ारा धिचारण के समाप्त र् ोिे के ठीक प चा त्
-या पन् द्र र् क्र दि से अिधिक ऐसे क्र कसी प चा त् िती समय पर, धिसकी सूचिा पिकरों को दी िाएगी, िुले न् या यालय में सुिाया िाएगा।
-(2 ) ग्र ाम न् या यालय अपिे धिणहय की एक प् धत दोिों पिकरों को तत्का ल धि:शुल्क प् दाि करेगा।
-अध्या य 5
-धसधिल मामलों में प्क्रक्र या
-23. धसधिल कायहिाधर्यों अधिधियम का अध्या रोर्ी प् िाि –– इस अधिधियम के उपबंि, धसधिल प्क्रक्र या संधर्ता, 1908
-( 1908 का 5 ) या क्र कसी अन्य धिधि में क्र कसी बात के र् ोते हए िी प् िािी र्ों गे, क्र कन्तु इस अधिधियम में अधिव्य त रू प से िैसा
-उपबंधित र्ै उसके धसिाय, संधर्ता के उपबंि, िर्ां तक िे इस अधिधियम के उपबंिों से असंगत िर्ीं र्ैं, ग्र ाम न् या यालय के समि
-कायहिाधर्यों को लागू और संधर्ता के उत उपबंिों के प् योिि के धलए ग्र ाम न् या यालय धसधिल न् या यालय समझा िाएगा।
-24. धसधिल धििादों में धिशेष प्क्रक्र या –– (1) तत्स मय प् िृ त्त क्र कसी अ न् य धिधि में क्र कसी बात के र् ोते हए िी, इस अधिधियम के
-अिीि प्त् ये क िाद, दािा या धििाद ग्र ाम न् या यालय में ऐसे प्रू प में, ऐसी रीधत में और एक सौ रु पए से अिधिक की ऐसी फीस के साथ,
-िो उच्च न् या यालय द्व ारा, समय - स मय पर, राज्य सरकार के परामशह से धिधर्त की िाए, आिेदि करके संधस्थ त क्र कया िाएगा।
-( 2 ) िर्ां कोई िाद, दा िा या धििाद सम्य क् रू प से संधस्थ त क्र कया गया र्ै, िर्ां ग्र ाम न् या यालय द्व ारा उपिारा (1) के अिीि क्र
-कए गए आिेदि की प् धत के साथ धिरोिी पिकार को ऐसी तारीि तक िो समिों में धिधिर्दहष्ट की िाए, र् ाधिर र् ोिे और दािे का
-उत्तर देिे के धलए समि िारी क्र कए िाएंगे और उिकी तामील ऐसी रीधत में की िाएगी िो उच् च् ाा न् या यालय द्व ारा धि धर्त की िाए।
-( 3 ) धिरोिी पिकार द्व ारा अपिा धलधित कथि फाइल कर क्र दए िािे के पचा त्, ग्र ाम न् या यालय सुििाई के धलए तारीि
-धियत करेगा और सिी पिका रों को व् य धत गत रू प से या अप िे अधििता ओं के माध्य म से र् ाधिर र् ोिे की सूचिा देगा।
-(4 ) सुििाई के धलए धियत तारीि को, ग्र ाम न् या यालय दोिों पिका रों की उिके अपिे - अपिे प् धतधिरोिों के संबंि में सुििाई
-करेगा और िर्ां धििाद में कोई साक्ष्य अधिधलधित करिा अपेधि त िर्ीं र्ै िर्ां धिणहय सुिाएगा और ऐ से मामले में िर्ां साक्ष्य
-अधिधलधित करिा अपेधित र्ै िर्ां ग्र ाम न् या यालय आगे कायहिार्ी करेगा।
-(5 ) ग्र ाम न् या यालय को धिम्ि धलधित की शधत िी र् ोगी, ––
-( क ) व् य धत क्र म के धलए क्र कसी मामले को िाररि करिा या एक पिीय कायहिार्ी करिा; और
-( ि ) व् य धत क्र म के धल ए िाररिी के ऐसे क्र कसी आदेश या मामले की एकपिीय सुििाई के धलए उसके द्व ारा पाररत क्र
-कसी आदेश को अपास्त करिा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 4
+  line `कायहिाधर्यां को लागू र्ों गे और संधर्ता के उ त उपबंिों के प् योिि के धलए ग्र ाम न् या यालय प् थम िगह न् या धयक मधिस्रे ट का न् या यालय`
+  line `समझा िाएगा।`
+  line `19. ग्र ाम न् या यालय द्व ारा संधिप्त धिचारण प्क्रक्र या का अपिाया िािा –– (1) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) की`
+  line `िारा 260 की उपिारा (1 ) या िारा 262 की उपिारा (2 ) में क्र कसी बात के र् ोते हए िी, ग्र ाम न् या यालय अपरा िों का धिचारण उ त`
+  line `संधर्ता के अध्या य 21 में धिधिर्दहष्ट प्क्रक्र या के अिुसार संधिप् त रू प में करेगा और उ त संधर्ता की िारा 262 की उपिा रा (1) तथा`
+  line `िारा 26 3 से िारा 265 के उपबंि, िर्ां तक र् ो सके, ऐसे धिचारण को लागू र्ों गे।`
+  line `(2 ) िब संधिप् त धिचारण के दौ राि न् या याधिकारी को यर् प् तीत र् ो क्र क मामले की प् कृधत ऐसी र्ै क्र क उसका संधिप् त`
+  line `धिचारण करिा अिांछिीय र्ै तो न् या याधिकारी ऐसे क्र कसी सािी को पुि: बुलाएगा, धिसकी परीिा र् ो चुकी र् ो औ र दंि प्क्रक्र या`
+  line `संधर्ता, 1973 ( 1974 का 2 ) के अिीि उपबंधित रीधत में मामले की पु ि: सुििाई के धलए अग्रसर र् ोगा।`
+  line `20. ग्र ाम न् या यालय के समि सौदा अधििाक् –– अपराि में अधियु त व् य धत उस ग्र ाम न् या यालय में, धिसमें ऐसे अपराि का`
+  line `धिचारण लंधबत र्ै, सौदा अधििाक् के धलए आिेदि फाइल कर सकेगा और ग्र ाम न् या यालय दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2) के`
+  line `अध्या य 21 क के उपबंिों के अिुसार मामले का धिपटारा करेगा।`
+  line `21. ग्र ाम न् या यालय में मामलों का संचालि और पिका रों को धिधिक सर्ायता –– (1) सरकार की ओर से ग्र ाम न् या यालय में`
+  line `दांधिक मामलों का संचालि करिे के प् योिि के धलए दंि प्क्रक्र या संधर्ता, 197 3 (1974 का 2) की िारा 25 के उपबंि लागू र्ों गे।`
+  line `( 2 ) उपिारा (1) में क्र कसी बात के र् ोते हए िी, ग्र ाम न् या यालय के समि दांधिक कायहिार्ी में पररिादी अधियोिि के मामले`
+  line `को प्स् तु त करिे के धलए ग्र ाम न् या यालय की इिाित से अपिे िचे पर अपिी पसंद के क्र कसी अधििता को धियुत कर सकेगा।`
+  line `( 3 ) धिधिक सेिा प् ाधिकरण अधिधियम, 1987 ( 1987 का 39 ) की िारा 6 के अिीि गरठत राज्य धिधिक सेिा प् ाधिकरण,`
+  line `अधििता ओं का एक पैिल तैयार करेगा और उिमें से कम - से - क म दो को प्त् ये क ग्र ाम न् या यालय के साथ लगाए िािे के धलए`
+  line `समिुदे धशत करे गा, धिससे क्र क ग्र ाम न् या यालय द्व ारा उिकी सेिाएं अधििता की धियुधत करिे में असमथह रर्िे िाले अधियुत को`
+  line `उपलब्ि कराई िा सके।`
+  line `22. धिणहय का सुिाया िािा –– (1) प्त् ये क धिचारण में धिणहय, न् या याधिकारी द्व ारा धिचारण के समाप्त र् ोिे के ठीक प चा त्`
+  line `या पन् द्र र् क्र दि से अिधिक ऐसे क्र कसी प चा त् िती समय पर, धिसकी सूचिा पिकरों को दी िाएगी, िुले न् या यालय में सुिाया िाएगा।`
+  line `(2 ) ग्र ाम न् या यालय अपिे धिणहय की एक प् धत दोिों पिकरों को तत्का ल धि:शुल्क प् दाि करेगा।`
+  line `अध्या य 5`
+  line `धसधिल मामलों में प्क्रक्र या`
+  line `23. धसधिल कायहिाधर्यों अधिधियम का अध्या रोर्ी प् िाि –– इस अधिधियम के उपबंि, धसधिल प्क्रक्र या संधर्ता, 1908`
+  line `( 1908 का 5 ) या क्र कसी अन्य धिधि में क्र कसी बात के र् ोते हए िी प् िािी र्ों गे, क्र कन्तु इस अधिधियम में अधिव्य त रू प से िैसा`
+  line `उपबंधित र्ै उसके धसिाय, संधर्ता के उपबंि, िर्ां तक िे इस अधिधियम के उपबंिों से असंगत िर्ीं र्ैं, ग्र ाम न् या यालय के समि`
+  line `कायहिाधर्यों को लागू और संधर्ता के उत उपबंिों के प् योिि के धलए ग्र ाम न् या यालय धसधिल न् या यालय समझा िाएगा।`
+  line `24. धसधिल धििादों में धिशेष प्क्रक्र या –– (1) तत्स मय प् िृ त्त क्र कसी अ न् य धिधि में क्र कसी बात के र् ोते हए िी, इस अधिधियम के`
+  line `अिीि प्त् ये क िाद, दािा या धििाद ग्र ाम न् या यालय में ऐसे प्रू प में, ऐसी रीधत में और एक सौ रु पए से अिधिक की ऐसी फीस के साथ,`
+  line `िो उच्च न् या यालय द्व ारा, समय - स मय पर, राज्य सरकार के परामशह से धिधर्त की िाए, आिेदि करके संधस्थ त क्र कया िाएगा।`
+  line `( 2 ) िर्ां कोई िाद, दा िा या धििाद सम्य क् रू प से संधस्थ त क्र कया गया र्ै, िर्ां ग्र ाम न् या यालय द्व ारा उपिारा (1) के अिीि क्र`
+  line `कए गए आिेदि की प् धत के साथ धिरोिी पिकार को ऐसी तारीि तक िो समिों में धिधिर्दहष्ट की िाए, र् ाधिर र् ोिे और दािे का`
+  line `उत्तर देिे के धलए समि िारी क्र कए िाएंगे और उिकी तामील ऐसी रीधत में की िाएगी िो उच् च् ाा न् या यालय द्व ारा धि धर्त की िाए।`
+  line `( 3 ) धिरोिी पिकार द्व ारा अपिा धलधित कथि फाइल कर क्र दए िािे के पचा त्, ग्र ाम न् या यालय सुििाई के धलए तारीि`
+  line `धियत करेगा और सिी पिका रों को व् य धत गत रू प से या अप िे अधििता ओं के माध्य म से र् ाधिर र् ोिे की सूचिा देगा।`
+  line `(4 ) सुििाई के धलए धियत तारीि को, ग्र ाम न् या यालय दोिों पिका रों की उिके अपिे - अपिे प् धतधिरोिों के संबंि में सुििाई`
+  line `करेगा और िर्ां धििाद में कोई साक्ष्य अधिधलधित करिा अपेधि त िर्ीं र्ै िर्ां धिणहय सुिाएगा और ऐ से मामले में िर्ां साक्ष्य`
+  line `अधिधलधित करिा अपेधित र्ै िर्ां ग्र ाम न् या यालय आगे कायहिार्ी करेगा।`
+  line `(5 ) ग्र ाम न् या यालय को धिम्ि धलधित की शधत िी र् ोगी, ––`
+  line `( क ) व् य धत क्र म के धलए क्र कसी मामले को िाररि करिा या एक पिीय कायहिार्ी करिा; और`
+  line `( ि ) व् य धत क्र म के धल ए िाररिी के ऐसे क्र कसी आदेश या मामले की एकपिीय सुििाई के धलए उसके द्व ारा पाररत क्र`
+  line `कसी आदेश को अपास्त करिा।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `5
-( 6 ) क्र कसी ऐसे आिुषंधगक धिषय के संबंि में, िो कायहिाधर्यों के दौराि उत्प न् ि र् ो, ग्र ाम न् या यालय ऐसी प्क्रक्र या अपिाएगा,
-िो िर् न् या य के धर्त में न् या यसंगत और युधत युत समझे।
-( 7 ) कायहिाधर्यां, िर्ां तक व् य िर्ायह र् ो, न् या य के धर्तों से संगत र्ों गी और सुििाई क्र दि - प् धतक्रदि के आिार पर उसके धिष्क षह
-तक िारी रर्ेगी, िब तक क्र क ग्र ाम न् या यालय ऐसे कारणों से, धिन् र्े लेिबद्ध क्र कया िाएगा, सु ििाई को अग ले क्र दि से परे स् थ धगत करिा
-आिय क िर्ीं पाता।
-( 8 ) ग्र ाम न् या यालय उपिारा (1) के अिीि क्र कए गए आिेदि का धिपटारा उसके संधस्थ त क्र कए िािे की तारीि से छर् मास
-की अिधि के िीतर करेगा।
-( 9 ) प्त् ये क िाद, दािे या धििाद में धिणहय ग्र ाम न् या यालय द्व ारा सुििाई के समाप्त र् ोिे के ठीक पचा त् या पन् द्र र् क्र दि से
-अिधिक ऐसी क्र कसी प चा त् िती समय पर, धिसकी सूचिा पिकरों को दी िाएगी, िुले न् या यालय में सुिा या िाएगा।
-( 10 ) धिणहय में मामले का संधिप् त धििरण, अििारण के धलए प् ि, उस पर धिधिच य और ऐसे धिधिच य के कारण
-अंतर्िह ष् ट र्ों गे।
-( 1 1) धिणहय की एक प् धत दोिों पिका रों को धिणहय सुिाए िािे की तारीि से ती ि क्र दि के िीतर धि:शुल्क पररदाि
-की िाएगी।
-25. ग्र ाम न् या यालय की धिक्रक्रयों और आदेशों का धिष्पा दि –– (1) धसधिल प्क्रक्र या संधर्ता, 1908 ( 1908 का 5 ) में क्र कसी बात
-के र् ोते हए िी, ग्र ाम न् या यालय द्व ारा पाररत धिणह य एक धिक्री समझा िाएगा और उसका धिष्पा दि ग्र ाम न् या यालय द्व ारा धसधिल न्
-या यालय की धिक्री के रू प में क्र कया िाएगा और इस प् योिि के धलए, ग्र ाम न् या यालय को धसधिल न् या यालय की सिी शधत यां र्ों गी।
-(2 ) ग्र ा म न् या यालय, धसधिल प्क्रक्र या संधर्ता 1908 ( 1908 का 5 ) में यथा उपबंधित क्र कसी धिक्री के धिष्पा दि के संबंि में प्क्रक्र
-या से आबद्ध िर्ीं र् ोगा और िर् िैसर्गहक न् या य के धसद्धांतों से मागह दर्शहत र् ोगा।
-(3 ) धिक्री का धिष्पा दि या तो उस ग्र ाम न् या यालय द्व ारा, धिसिे उसे पाररत क्र कया र्ै या ऐसे क्र कसी अन्य ग्र ाम न् या यालय द्व
-ारा, धिसे धिष्पा दि के धलए िर् िेिी गई र्ै, क्र कया िा सकेगा।
-26. धसधिल धििादों के सुलर् और समझौते के धलए प् यास करिे का ग्र ाम न् या यालय का कतहव्य –– (1) प्त् ये क िाद या
-कायहिार्ी में ग्र ाम न् या या लय द्व ारा प् थम अिसर पर यर् प् यास क्र कया िाएगा क्र क िर्ां मामले की प् कृधत और पररधस्थ धतयों से संग त ऐसा
-करिा संिि र् ो, िर्ां िर् िाद, दािे या धििाद की धिषयिस् तु के संबंि में क्र कसी समझौते पर पहंचिे में पिका रों की सर्ायता करे, उन् र्ें
-मिाए और उिमें सुलर् कराए और इस प् योिि के धलए ग्र ाम न् या यालय ऐसी प्क्रक्र या अपिाएगा, िो उच्च न् या यालय द्व ारा धि धर्त
-की िाए।
-(2) िर्ां क्र कसी िाद या कायहिार्ी में क्र कसी प्क्र म पर ग्र ाम न् या यालय को यर् प् तीत र् ोता र्ै क्र क पिका रों के बीच समझौते की
-युधत युत संिाििा र्ै िर्ां ग्र ाम न् या यालय कायहिाधर्यों को ऐसी अिधि के धलए स् थ धगत कर सकेगा धिसे िर् ऐसा समझौता करिे का प्
-यास करिे में उन् र्ें समथह बिािे के धलए ठीक समझे।
-( 3 ) िर्ां उपिारा (2 ) के अिीि क्र कसी कायहिार्ी को स् थ धगत क्र कया िाता र्ै िर्ां ग्र ाम न् या यालय, अपिे धििेकािुसार,
-पिका रों के बीच समझौता करािे के धलए मामले को एक या अधिक सुलर्कारों को धिदेधशत कर सकेगा।
-(4 ) उपिारा (2 ) द्व ारा प् दत्त शधत कायहिाधर्यों को स् थ धगत करिे की ग्र ाम न् या यालय की क्र कसी अन्य शधत के अधतररत र्
-ोगी, ि क्र क उसके अल्पी करण में।
-27. सुलर्कारों की धि युधत –– (1) िारा 26 के प् योििों के धलए, धिला न् या यालय, धिला मधिस्रे ट के परामशह से, सुलर्कारों
-के रू प में धियुधत के धलए ग्र ाम स् त र पर सत्य धिष्ठा रििे िाले ऐसे सा माधिक का यहकताहओं के िामों का एक पैिल तैयार करेगा, धिसके
-पास ऐसी अर्हताएं और अिुिि र्ों, िो उच्च न् या यालय द्व ारा धिधर्त क्र कए िाएं।
-(2 ) सुलर्कारों को संदे य बैठक फीस और अन्य ित्ते तथा उिके धियोिि के अन्य धिबंिि और शतें िे र्ों गी, िो राज्य सरकार द्व
-ारा धिधर्त की िाएं।
-28. धसधिल धििादों का अंतरण –– अधिकाररता रििे िाला धिला न् या यालय, क्र क सी पिकार द्व ारा क्र कए गए आिेदि पर या
-िब क्र कसी एक ग्र ाम न् या यालय के पास काफी मामले लंधबत र्ों या िब किी िर् न् या य के धर्त में ऐसा आिय क समझे, क्र कसी ग्र ाम न्
-या यालय के समि लंधबत क्र कसी मामले को अपिी अधिकाररता के िीतर क्र कसी अन्य ग्र ाम न् या यालय को अंतररत कर स केगा।
-अध्या य 6
-सािारणत: प्क्रक्र या
-29. कायहिाधर्यों का राज्य की राििाषा में र् ोिा –– ग्र ाम न् या यालय के समि कायहिाधर्यां और उसका धिणहय, िर्ां तक व्
-य िर्ायह र् ो, अंग्रेिी िाषा से धि न् ि राज्य की राििाषाओं में से क्र कसी एक में र्ों गे।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 5
+  line `( 6 ) क्र कसी ऐसे आिुषंधगक धिषय के संबंि में, िो कायहिाधर्यों के दौराि उत्प न् ि र् ो, ग्र ाम न् या यालय ऐसी प्क्रक्र या अपिाएगा,`
+  line `िो िर् न् या य के धर्त में न् या यसंगत और युधत युत समझे।`
+  line `( 7 ) कायहिाधर्यां, िर्ां तक व् य िर्ायह र् ो, न् या य के धर्तों से संगत र्ों गी और सुििाई क्र दि - प् धतक्रदि के आिार पर उसके धिष्क षह`
+  line `तक िारी रर्ेगी, िब तक क्र क ग्र ाम न् या यालय ऐसे कारणों से, धिन् र्े लेिबद्ध क्र कया िाएगा, सु ििाई को अग ले क्र दि से परे स् थ धगत करिा`
+  line `आिय क िर्ीं पाता।`
+  line `( 8 ) ग्र ाम न् या यालय उपिारा (1) के अिीि क्र कए गए आिेदि का धिपटारा उसके संधस्थ त क्र कए िािे की तारीि से छर् मास`
+  line `की अिधि के िीतर करेगा।`
+  line `( 9 ) प्त् ये क िाद, दािे या धििाद में धिणहय ग्र ाम न् या यालय द्व ारा सुििाई के समाप्त र् ोिे के ठीक पचा त् या पन् द्र र् क्र दि से`
+  line `अिधिक ऐसी क्र कसी प चा त् िती समय पर, धिसकी सूचिा पिकरों को दी िाएगी, िुले न् या यालय में सुिा या िाएगा।`
+  line `( 10 ) धिणहय में मामले का संधिप् त धििरण, अििारण के धलए प् ि, उस पर धिधिच य और ऐसे धिधिच य के कारण`
+  line `अंतर्िह ष् ट र्ों गे।`
+  line `( 1 1) धिणहय की एक प् धत दोिों पिका रों को धिणहय सुिाए िािे की तारीि से ती ि क्र दि के िीतर धि:शुल्क पररदाि`
+  line `की िाएगी।`
+  line `25. ग्र ाम न् या यालय की धिक्रक्रयों और आदेशों का धिष्पा दि –– (1) धसधिल प्क्रक्र या संधर्ता, 1908 ( 1908 का 5 ) में क्र कसी बात`
+  line `के र् ोते हए िी, ग्र ाम न् या यालय द्व ारा पाररत धिणह य एक धिक्री समझा िाएगा और उसका धिष्पा दि ग्र ाम न् या यालय द्व ारा धसधिल न्`
+  line `या यालय की धिक्री के रू प में क्र कया िाएगा और इस प् योिि के धलए, ग्र ाम न् या यालय को धसधिल न् या यालय की सिी शधत यां र्ों गी।`
+  line `(2 ) ग्र ा म न् या यालय, धसधिल प्क्रक्र या संधर्ता 1908 ( 1908 का 5 ) में यथा उपबंधित क्र कसी धिक्री के धिष्पा दि के संबंि में प्क्रक्र`
+  line `या से आबद्ध िर्ीं र् ोगा और िर् िैसर्गहक न् या य के धसद्धांतों से मागह दर्शहत र् ोगा।`
+  line `(3 ) धिक्री का धिष्पा दि या तो उस ग्र ाम न् या यालय द्व ारा, धिसिे उसे पाररत क्र कया र्ै या ऐसे क्र कसी अन्य ग्र ाम न् या यालय द्व`
+  line `ारा, धिसे धिष्पा दि के धलए िर् िेिी गई र्ै, क्र कया िा सकेगा।`
+  line `26. धसधिल धििादों के सुलर् और समझौते के धलए प् यास करिे का ग्र ाम न् या यालय का कतहव्य –– (1) प्त् ये क िाद या`
+  line `कायहिार्ी में ग्र ाम न् या या लय द्व ारा प् थम अिसर पर यर् प् यास क्र कया िाएगा क्र क िर्ां मामले की प् कृधत और पररधस्थ धतयों से संग त ऐसा`
+  line `करिा संिि र् ो, िर्ां िर् िाद, दािे या धििाद की धिषयिस् तु के संबंि में क्र कसी समझौते पर पहंचिे में पिका रों की सर्ायता करे, उन् र्ें`
+  line `मिाए और उिमें सुलर् कराए और इस प् योिि के धलए ग्र ाम न् या यालय ऐसी प्क्रक्र या अपिाएगा, िो उच्च न् या यालय द्व ारा धि धर्त`
+  line `की िाए।`
+  line `(2) िर्ां क्र कसी िाद या कायहिार्ी में क्र कसी प्क्र म पर ग्र ाम न् या यालय को यर् प् तीत र् ोता र्ै क्र क पिका रों के बीच समझौते की`
+  line `युधत युत संिाििा र्ै िर्ां ग्र ाम न् या यालय कायहिाधर्यों को ऐसी अिधि के धलए स् थ धगत कर सकेगा धिसे िर् ऐसा समझौता करिे का प्`
+  line `यास करिे में उन् र्ें समथह बिािे के धलए ठीक समझे।`
+  line `( 3 ) िर्ां उपिारा (2 ) के अिीि क्र कसी कायहिार्ी को स् थ धगत क्र कया िाता र्ै िर्ां ग्र ाम न् या यालय, अपिे धििेकािुसार,`
+  line `पिका रों के बीच समझौता करािे के धलए मामले को एक या अधिक सुलर्कारों को धिदेधशत कर सकेगा।`
+  line `(4 ) उपिारा (2 ) द्व ारा प् दत्त शधत कायहिाधर्यों को स् थ धगत करिे की ग्र ाम न् या यालय की क्र कसी अन्य शधत के अधतररत र्`
+  line `ोगी, ि क्र क उसके अल्पी करण में।`
+  line `27. सुलर्कारों की धि युधत –– (1) िारा 26 के प् योििों के धलए, धिला न् या यालय, धिला मधिस्रे ट के परामशह से, सुलर्कारों`
+  line `के रू प में धियुधत के धलए ग्र ाम स् त र पर सत्य धिष्ठा रििे िाले ऐसे सा माधिक का यहकताहओं के िामों का एक पैिल तैयार करेगा, धिसके`
+  line `पास ऐसी अर्हताएं और अिुिि र्ों, िो उच्च न् या यालय द्व ारा धिधर्त क्र कए िाएं।`
+  line `(2 ) सुलर्कारों को संदे य बैठक फीस और अन्य ित्ते तथा उिके धियोिि के अन्य धिबंिि और शतें िे र्ों गी, िो राज्य सरकार द्व`
+  line `ारा धिधर्त की िाएं।`
+  line `28. धसधिल धििादों का अंतरण –– अधिकाररता रििे िाला धिला न् या यालय, क्र क सी पिकार द्व ारा क्र कए गए आिेदि पर या`
+  line `िब क्र कसी एक ग्र ाम न् या यालय के पास काफी मामले लंधबत र्ों या िब किी िर् न् या य के धर्त में ऐसा आिय क समझे, क्र कसी ग्र ाम न्`
+  line `या यालय के समि लंधबत क्र कसी मामले को अपिी अधिकाररता के िीतर क्र कसी अन्य ग्र ाम न् या यालय को अंतररत कर स केगा।`
+  line `अध्या य 6`
+  line `सािारणत: प्क्रक्र या`
+  line `29. कायहिाधर्यों का राज्य की राििाषा में र् ोिा –– ग्र ाम न् या यालय के समि कायहिाधर्यां और उसका धिणहय, िर्ां तक व्`
+  line `य िर्ायह र् ो, अंग्रेिी िाषा से धि न् ि राज्य की राििाषाओं में से क्र कसी एक में र्ों गे।`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `6
-30. िारतीय साक्ष्य अधिधियम, 1872 का लागू र् ोिा –– ग्र ाम न् या यालय साक्ष्य के रू प में ऐसी क्र कसी ररपोटह, कथि, दस्ता िेि,
-सूचिा या धिषय को ग्रर् ण कर सकेगा िो, उसकी राय में, क्र कसी धििाद को प् िािी रू प से धिपटािे में उसकी सर्ायता करता र् ो, चा र्े
-िर् िारतीय साक्ष्य अधिधियम, 1872 (1872 का 1) के अिीि अन्य था सुसंगत या ग्र ाह्य र् ो या िर्ीं।
-31. मौधिक साक्ष्य का लेिबद्ध क्र कया िािा –– ग्र ाम न् या यालय के समि िादों या कायहिाधर्यों में साधियों के साक्ष्य को
-धिस्ता र से लेिबद्ध करिा आिय क िर्ी र् ोगा, ककंतु न् या याधिकारी, िैसे र् ी प्त् ये क सािी की परीिा अग्रसर र् ोती र्ै, सािी द्व ारा क्र दए
-गए अधिसाक्ष्य के सार का ज्ञ ापि लेिबद्ध करेगा या लेिबद्ध कराएगा और ऐसे ज्ञ ापि पर सािी और न् या याधिकारी द्व ारा र्स् ता िर क्र
-कए िाएंगे तथा िर् अधिलेि का िाग बिेगा।
-32. औपचाररक प् कृधत के साक्ष्य का शपथ - पत्र प र र् ोिा –– (1) क्र कसी व् य धत का साक्ष्य, िर्ां ऐसा साक्ष्य औपचाररक प् कृधत
-का र्ै, शपथ - पत्र द्व ारा क्र द या िा सकेगा और सिी न् या यसंगत अपिादों के अिीि रर्ते हए, ग्र ाम न् या यालय के समि क्र कसी िाद या
-कायहिार्ी में साक्ष्य में पढा िा सकेगा।
-(2 ) ग्र ाम न् या या लय, यक्रद िर् ठीक समझे, िाद या कायहिार्ी में क्र कसी पिकार के आिेदि पर ऐसे क्र कसी व् य धत को समि कर
-सकेगा और उसके शपथ - प त्र में अंतर्िहष्ट तथ्यों के बारे में उसकी परीिा करेगा।
-अध्या य 7
-अपीलें
-33. दांधिक मामलों में अपील –– (1) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) या क्र कसी अन्य धिधि में क्र कसी बात के र् ोते हए
-िी, ग्र ाम न् या यालय के क्र कसी धिणहय, दंिादेश या आदेश के धिरुद्ध कोई अपील इसमें यथा उ पबंधित के धसिाय िर्ीं र् ोगी।
-( 2 ) कोई अपील उस दशा में िर्ीं र् ोगी िर्ां, ––
-( क ) अधियु त व् य धत िे दोषी र् ोिे का अधि िाक् क्र कया र्ै और उसे उस अधििाक् पर दोषधसद्ध क्र कया गया र्ै;
-( ि ) ग्र ाम न् या यालय िे केिल एक र् िार रु पए से अिधिक के िुमाहिे का दंिादेश पाररत क्र कया र्ै।
-( 3 ) उपिारा ( 2 ) के अिीि रर्ते हए, ग्र ाम न् या यालय के क्र कसी अन्य धिणहय, दंिादेश या आदेश के धिरुद्ध अपील से शि न्
-या यालय को र् ोगी।
-( 4 ) इस िारा के अिीि प्त् ये क अपील ग्र ाम न् या यालय के धिणहय, दंिादेश या आदेश की तारी ि से तीस क्र दि की अिधि के
-िीतर र् ोगी:
-परंतु यक्रद सेशि न् या यालय का समािाि र् ो िाता र्ै क्र क अपीलाथी के पास तीस क्र दि की उ त अिधि के िीतर अपील ि
-करिे का पयाहप्त कारण था तो िर् उ त अिधि की समाधप्त के प चा त् अपील ग्रर् ण कर सकेगा।
-( 5 ) उपिारा ( 3 ) के अिीि की गई अपील की सेशि न् या यालय द्व ारा सुििाई और ऐसी अपील का धिपटारा उसके फाइल क्र कए
-िािे की तारीि से छर् मास के िीतर क्र कया िाएगा।
-( 6 ) सेशि न् या यालय, अपील के धिपटारे के लंधबत रर्िे के दौराि, उस दंिादेश या आदेश के धिलंबि का धिदेश दे सकेगा,
-धिसके धिरुद्ध अपील की गई र्ै।
-( 7 ) उपिारा ( 5 ) के अिीि सेशि न् या यालय का धिधिच य अंधतम र् ोगा और सेशि न् या यालय के धिधिच य के धिरुद्ध कोई
-अपील या पुि री िण िर्ीं र् ोगा:
-परंतु इस उपिारा की कोई बात क्र कसी व् य धत को संधििाि के अिुच्छे द 32 और अिुच्छे द 226 के अिीि उपलब्ि न् या धयक
-उपचारों का उपिोग करिे से िर्ीं रोकेगी।
-34. धसधिल मामलों में अपील –– (1) धसधिल प्क्रक्र या संधर्ता, 1908 ( 1908 का 5 ) या क्र कसी अन्य धिधि में क्र कसी बात के र् ोते
-हए िी और उपिारा ( 2 ) के अिीि रर्ते हए, ग्र ाम न् या यालय के प्त् ये क धिणहय या ऐसे आदेश से, िो अंतिहती आदेश िर्ीं र्ै, अपील
-धिला न् या यालय को र् ोगी।
-( 2 ) ग्र ाम न् या यालय द्व ारा पाररत क्र कसी धिणहय या आदेश के धिरुद्ध कोई अपील, ––
-( क ) पिका रों की सर्मधत से िर्ीं र् ोगी;
-( ि ) िर्ां क्र कसी िाद, दािे या धििाद की धिषयिस् तु की रकम या मूल्य एक र् िार रु पए से अधिक िर्ीं र्ै, िर्ां
-िर्ीं र् ोगी;
-( ग ) िर्ां ऐसे िाद, दािे या धििाद की धिषयिस्तु की रकम या मूल्य पांच र् िार रु पए से अधिक िर्ीं र्ै िर्ां धिधि
-के क्र कसी प् ि के धसिाय िर्ीं र् ोगी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 6
+  line `30. िारतीय साक्ष्य अधिधियम, 1872 का लागू र् ोिा –– ग्र ाम न् या यालय साक्ष्य के रू प में ऐसी क्र कसी ररपोटह, कथि, दस्ता िेि,`
+  line `सूचिा या धिषय को ग्रर् ण कर सकेगा िो, उसकी राय में, क्र कसी धििाद को प् िािी रू प से धिपटािे में उसकी सर्ायता करता र् ो, चा र्े`
+  line `िर् िारतीय साक्ष्य अधिधियम, 1872 (1872 का 1) के अिीि अन्य था सुसंगत या ग्र ाह्य र् ो या िर्ीं।`
+  line `31. मौधिक साक्ष्य का लेिबद्ध क्र कया िािा –– ग्र ाम न् या यालय के समि िादों या कायहिाधर्यों में साधियों के साक्ष्य को`
+  line `धिस्ता र से लेिबद्ध करिा आिय क िर्ी र् ोगा, ककंतु न् या याधिकारी, िैसे र् ी प्त् ये क सािी की परीिा अग्रसर र् ोती र्ै, सािी द्व ारा क्र दए`
+  line `गए अधिसाक्ष्य के सार का ज्ञ ापि लेिबद्ध करेगा या लेिबद्ध कराएगा और ऐसे ज्ञ ापि पर सािी और न् या याधिकारी द्व ारा र्स् ता िर क्र`
+  line `कए िाएंगे तथा िर् अधिलेि का िाग बिेगा।`
+  line `32. औपचाररक प् कृधत के साक्ष्य का शपथ - पत्र प र र् ोिा –– (1) क्र कसी व् य धत का साक्ष्य, िर्ां ऐसा साक्ष्य औपचाररक प् कृधत`
+  line `का र्ै, शपथ - पत्र द्व ारा क्र द या िा सकेगा और सिी न् या यसंगत अपिादों के अिीि रर्ते हए, ग्र ाम न् या यालय के समि क्र कसी िाद या`
+  line `कायहिार्ी में साक्ष्य में पढा िा सकेगा।`
+  line `(2 ) ग्र ाम न् या या लय, यक्रद िर् ठीक समझे, िाद या कायहिार्ी में क्र कसी पिकार के आिेदि पर ऐसे क्र कसी व् य धत को समि कर`
+  line `सकेगा और उसके शपथ - प त्र में अंतर्िहष्ट तथ्यों के बारे में उसकी परीिा करेगा।`
+  line `अध्या य 7`
+  line अपीलें
+  line `33. दांधिक मामलों में अपील –– (1) दंि प्क्रक्र या संधर्ता, 1973 ( 1974 का 2 ) या क्र कसी अन्य धिधि में क्र कसी बात के र् ोते हए`
+  line `िी, ग्र ाम न् या यालय के क्र कसी धिणहय, दंिादेश या आदेश के धिरुद्ध कोई अपील इसमें यथा उ पबंधित के धसिाय िर्ीं र् ोगी।`
+  line `( 2 ) कोई अपील उस दशा में िर्ीं र् ोगी िर्ां, ––`
+  line `( क ) अधियु त व् य धत िे दोषी र् ोिे का अधि िाक् क्र कया र्ै और उसे उस अधििाक् पर दोषधसद्ध क्र कया गया र्ै;`
+  line `( ि ) ग्र ाम न् या यालय िे केिल एक र् िार रु पए से अिधिक के िुमाहिे का दंिादेश पाररत क्र कया र्ै।`
+  line `( 3 ) उपिारा ( 2 ) के अिीि रर्ते हए, ग्र ाम न् या यालय के क्र कसी अन्य धिणहय, दंिादेश या आदेश के धिरुद्ध अपील से शि न्`
+  line `या यालय को र् ोगी।`
+  line `( 4 ) इस िारा के अिीि प्त् ये क अपील ग्र ाम न् या यालय के धिणहय, दंिादेश या आदेश की तारी ि से तीस क्र दि की अिधि के`
+  line `िीतर र् ोगी:`
+  line `परंतु यक्रद सेशि न् या यालय का समािाि र् ो िाता र्ै क्र क अपीलाथी के पास तीस क्र दि की उ त अिधि के िीतर अपील ि`
+  line `करिे का पयाहप्त कारण था तो िर् उ त अिधि की समाधप्त के प चा त् अपील ग्रर् ण कर सकेगा।`
+  line `( 5 ) उपिारा ( 3 ) के अिीि की गई अपील की सेशि न् या यालय द्व ारा सुििाई और ऐसी अपील का धिपटारा उसके फाइल क्र कए`
+  line `िािे की तारीि से छर् मास के िीतर क्र कया िाएगा।`
+  line `( 6 ) सेशि न् या यालय, अपील के धिपटारे के लंधबत रर्िे के दौराि, उस दंिादेश या आदेश के धिलंबि का धिदेश दे सकेगा,`
+  line `धिसके धिरुद्ध अपील की गई र्ै।`
+  line `( 7 ) उपिारा ( 5 ) के अिीि सेशि न् या यालय का धिधिच य अंधतम र् ोगा और सेशि न् या यालय के धिधिच य के धिरुद्ध कोई`
+  line `अपील या पुि री िण िर्ीं र् ोगा:`
+  line `परंतु इस उपिारा की कोई बात क्र कसी व् य धत को संधििाि के अिुच्छे द 32 और अिुच्छे द 226 के अिीि उपलब्ि न् या धयक`
+  line `उपचारों का उपिोग करिे से िर्ीं रोकेगी।`
+  line `34. धसधिल मामलों में अपील –– (1) धसधिल प्क्रक्र या संधर्ता, 1908 ( 1908 का 5 ) या क्र कसी अन्य धिधि में क्र कसी बात के र् ोते`
+  line `हए िी और उपिारा ( 2 ) के अिीि रर्ते हए, ग्र ाम न् या यालय के प्त् ये क धिणहय या ऐसे आदेश से, िो अंतिहती आदेश िर्ीं र्ै, अपील`
+  line `धिला न् या यालय को र् ोगी।`
+  line `( 2 ) ग्र ाम न् या यालय द्व ारा पाररत क्र कसी धिणहय या आदेश के धिरुद्ध कोई अपील, ––`
+  line `( क ) पिका रों की सर्मधत से िर्ीं र् ोगी;`
+  line `( ि ) िर्ां क्र कसी िाद, दािे या धििाद की धिषयिस् तु की रकम या मूल्य एक र् िार रु पए से अधिक िर्ीं र्ै, िर्ां`
+  line `िर्ीं र् ोगी;`
+  line `( ग ) िर्ां ऐसे िाद, दािे या धििाद की धिषयिस्तु की रकम या मूल्य पांच र् िार रु पए से अधिक िर्ीं र्ै िर्ां धिधि`
+  line `के क्र कसी प् ि के धसिाय िर्ीं र् ोगी।`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `7
-( 3 ) इस िारा के अिीि प्त् ये क अपील ग्र ाम न् या यालय के धिणहय या आदेश की तारीि से तीस क्र दि की अिधि के िीतर की
-िाएगी:
-परंतु यक्रद धिला न् या यालय का समािाि र् ो िा ता र्ै क्र क अपीलाथी के पास तीि क्र दि की उ त अिधि के िीतर अपील ि
-करिे का पयाह प् त कारण था तो िर् उ त अिधि की समाधप्त के प चा त् अपील ग्रर् ण कर सकेगा।
-( 4 ) उपिारा ( 1 ) के अिीि की गई अपील की धिला न् या यालय द्व ारा सुििाई और ऐसी अपील का धिपटारा उसके फाइल क्र
-कए िािे की तारीि से छर् मास के िीतर क्र कया िाएगा।
-( 5 ) धिला न् या यालय, अपील के धिपटारे के लंधबत रर्िे के दौराि उस धिणहय या आदेश के धिष्पा दि पर रोक लगा सकेगा,
-धिसके धिरुद्ध अपील की गई र्ै।
-( 6 ) उपिारा ( 4 ) के अिीि धिला न् या यालय का धिधिच य अंधतम र् ोगा और धिला न् या यालय के धिधिच य के धि रुद्ध कोई
-अपील या पुि री िण िर्ीं र् ोगा:
-परंतु इस उपिारा की कोई बात क्र कसी व् य धत को संधििाि के अिुच्छे द 32 और अिुच्छे द 226 के अिीि उपलब्ि न् या धयक
-उपचारों का उपिोग करिे से िर्ीं रोके गी।
-अध्या य 8 प्
-कीणह
-35. ग्र ाम न् या यालयों को पुधलस की सर्ायता –– (1) ग्र ाम न् या यालय की अधिकाररता की स् था िीय सीमा ओं के िीतर कायहरत प्त्
-ये क पुधलस अधिकारी ग्र ाम न् या यालय की उसके धिधिपूणह प् ाधिकार के प् योग में सर्ायता करिे के धलए आबद्ध र् ोगा।
-(2 ) िब किी ग्र ाम न् या यालय, अपिे कृत्यों के धििहर्ि में, क्र कसी रािस्ि अधिकारी या पुधलस अधिकारी या सरकारी सेिक को ग्र
-ाम न् या यालय की सर्ायता करिे का धि देश देगा तब िर् ऐसी सर्ायता करिे के धलए आबद्ध र् ोगा।
-36. न् या याधिका ररयों और कमहचाररयों आक्रद का लोक सेिक र् ोिा –– न् या याधिकाररयों और ग्र ाम न् या यालयों के अधिकाररयों
-तथा अन्य कमहचाररयों के बारे में, िब िे इस अधिधियम के क्र क सी उपबं ि के अिुसरण में कायह कर रर्े र्ैं या उिका कायह करिा तात्प र् यहत र्ै
-, यर् समझा िाएगा क्र क िे िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 21 के अथह के िीतर लोक सेिक र्ैं।
-37. ग्र ाम न् या यालयों का धिरीिण –– उच् च् ाा न् या यालय, न् या याधिकारी की पंधत से िररष्ठ क्र क सी न् या धयक अधिकारी को प्त्
-ये क छर् मास में एक बार या ऐसी अन्य अिधि में, िो उच्च न् या यालय धिधर्त करे, अपिी अधिकाररता के िीतर ग्र ाम न् या यालयों का
-धिरीिण करिे और ऐसे अिुदेश िारी करिे के धलए, िो िर् आिय क समझे तथा उच्च न् या यालय को ररपोटह प्स् तु त कर िे के धलए प्
-ाधिकृत कर सकेगा।
-38. करठिाइयों को दूर करिे की शधत –– (1) यक्रद इस अधिधियम के उपबंिों को प् िािी करिे में कोई करठिाई उत्प न् ि र् ोती र्ै
-तो केन् द्री य सरकार, रािपत्र में प् काधशत आदेश द्व ारा, ऐसे उपबंि कर सकेगी िो इस अधिधियम के उपबंिों से असंगत ि र्ों और िो
-उसे करठिाई को दूर करिे के धलए आिय क या समीचीि प् तीत र्ों:
-परंतु इस िारा के अिीि कोई िी आदेश इस अधिधियम के प् ारंि की तारीि से तीि िषह की अिधि की समाधप्त के प चा त्
-िर्ीं क्र कया िाएगा।
-( 2 ) इस िारा के अिीि क्र कया गया प्त् ये क आदेश, उसके क्र क ए िािे के पचा त् यथाशीघ्र, संसद् के प्त् ये क सदि के समि
-रिा िाएगा।
-39. उच्च न् या यालय की धियम बिािे की शधत –– (1) उच्च न् या यालय, इस अधिधियम के उपबंिों को कायाहधन्ि त करिे के
-धलए धियम अधिसूचिा द्व ारा, बिा सकेगा।
-( 2 ) धिधशष्ट तया और पूिहगामी शधत की व् या पकता पर प् धतकूल प् िाि िाले धबिा, ऐसे धियमों में धिम्ि धलधित सिी या क्र
-कन् र्ीं धिषयों के धलए उपबंि क्र कया िा सकेगा, अथाहत्: ––
-( क ) िारा 10 के अिीि ग्र ाम न् या यालय की मुद्रा का आकार और धिमाएं;
-( ि ) िारा 24 की उपिारा (1) के अिीि िाद, दािा या कायहिार्ी संधस्थ त क्र कए िािे के धलए प्रू प, रीधत
-और फीस;
-( ग ) िारा 24 की उपिारा (2 ) के अिीि धिरोिी पिकार पर तामील की रीधत;
-( घ ) िारा 26 की उपिारा (1) के अिीि सुलर् के धलए प्क्रक्र या;
-( ङ ) िारा 27 की उपिारा (1) के अिीि सुल र् कारों की अर्हताएं और अिु िि;
-( च ) िारा 37 के अिीि ग्र ाम न् या यालय के धिरीिण के धलए अिधि।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 7
+  line `( 3 ) इस िारा के अिीि प्त् ये क अपील ग्र ाम न् या यालय के धिणहय या आदेश की तारीि से तीस क्र दि की अिधि के िीतर की`
+  line `िाएगी:`
+  line `परंतु यक्रद धिला न् या यालय का समािाि र् ो िा ता र्ै क्र क अपीलाथी के पास तीि क्र दि की उ त अिधि के िीतर अपील ि`
+  line `करिे का पयाह प् त कारण था तो िर् उ त अिधि की समाधप्त के प चा त् अपील ग्रर् ण कर सकेगा।`
+  line `( 4 ) उपिारा ( 1 ) के अिीि की गई अपील की धिला न् या यालय द्व ारा सुििाई और ऐसी अपील का धिपटारा उसके फाइल क्र`
+  line `कए िािे की तारीि से छर् मास के िीतर क्र कया िाएगा।`
+  line `( 5 ) धिला न् या यालय, अपील के धिपटारे के लंधबत रर्िे के दौराि उस धिणहय या आदेश के धिष्पा दि पर रोक लगा सकेगा,`
+  line `धिसके धिरुद्ध अपील की गई र्ै।`
+  line `( 6 ) उपिारा ( 4 ) के अिीि धिला न् या यालय का धिधिच य अंधतम र् ोगा और धिला न् या यालय के धिधिच य के धि रुद्ध कोई`
+  line `अपील या पुि री िण िर्ीं र् ोगा:`
+  line `परंतु इस उपिारा की कोई बात क्र कसी व् य धत को संधििाि के अिुच्छे द 32 और अिुच्छे द 226 के अिीि उपलब्ि न् या धयक`
+  line `उपचारों का उपिोग करिे से िर्ीं रोके गी।`
+  line `अध्या य 8 प्`
+  line कीणह
+  line `35. ग्र ाम न् या यालयों को पुधलस की सर्ायता –– (1) ग्र ाम न् या यालय की अधिकाररता की स् था िीय सीमा ओं के िीतर कायहरत प्त्`
+  line `ये क पुधलस अधिकारी ग्र ाम न् या यालय की उसके धिधिपूणह प् ाधिकार के प् योग में सर्ायता करिे के धलए आबद्ध र् ोगा।`
+  line `(2 ) िब किी ग्र ाम न् या यालय, अपिे कृत्यों के धििहर्ि में, क्र कसी रािस्ि अधिकारी या पुधलस अधिकारी या सरकारी सेिक को ग्र`
+  line `ाम न् या यालय की सर्ायता करिे का धि देश देगा तब िर् ऐसी सर्ायता करिे के धलए आबद्ध र् ोगा।`
+  line `36. न् या याधिका ररयों और कमहचाररयों आक्रद का लोक सेिक र् ोिा –– न् या याधिकाररयों और ग्र ाम न् या यालयों के अधिकाररयों`
+  line `तथा अन्य कमहचाररयों के बारे में, िब िे इस अधिधियम के क्र क सी उपबं ि के अिुसरण में कायह कर रर्े र्ैं या उिका कायह करिा तात्प र् यहत र्ै`
+  line `, यर् समझा िाएगा क्र क िे िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 21 के अथह के िीतर लोक सेिक र्ैं।`
+  line `37. ग्र ाम न् या यालयों का धिरीिण –– उच् च् ाा न् या यालय, न् या याधिकारी की पंधत से िररष्ठ क्र क सी न् या धयक अधिकारी को प्त्`
+  line `ये क छर् मास में एक बार या ऐसी अन्य अिधि में, िो उच्च न् या यालय धिधर्त करे, अपिी अधिकाररता के िीतर ग्र ाम न् या यालयों का`
+  line `धिरीिण करिे और ऐसे अिुदेश िारी करिे के धलए, िो िर् आिय क समझे तथा उच्च न् या यालय को ररपोटह प्स् तु त कर िे के धलए प्`
+  line `ाधिकृत कर सकेगा।`
+  line `38. करठिाइयों को दूर करिे की शधत –– (1) यक्रद इस अधिधियम के उपबंिों को प् िािी करिे में कोई करठिाई उत्प न् ि र् ोती र्ै`
+  line `तो केन् द्री य सरकार, रािपत्र में प् काधशत आदेश द्व ारा, ऐसे उपबंि कर सकेगी िो इस अधिधियम के उपबंिों से असंगत ि र्ों और िो`
+  line `उसे करठिाई को दूर करिे के धलए आिय क या समीचीि प् तीत र्ों:`
+  line `परंतु इस िारा के अिीि कोई िी आदेश इस अधिधियम के प् ारंि की तारीि से तीि िषह की अिधि की समाधप्त के प चा त्`
+  line `िर्ीं क्र कया िाएगा।`
+  line `( 2 ) इस िारा के अिीि क्र कया गया प्त् ये क आदेश, उसके क्र क ए िािे के पचा त् यथाशीघ्र, संसद् के प्त् ये क सदि के समि`
+  line `रिा िाएगा।`
+  line `39. उच्च न् या यालय की धियम बिािे की शधत –– (1) उच्च न् या यालय, इस अधिधियम के उपबंिों को कायाहधन्ि त करिे के`
+  line `धलए धियम अधिसूचिा द्व ारा, बिा सकेगा।`
+  line `( 2 ) धिधशष्ट तया और पूिहगामी शधत की व् या पकता पर प् धतकूल प् िाि िाले धबिा, ऐसे धियमों में धिम्ि धलधित सिी या क्र`
+  line `कन् र्ीं धिषयों के धलए उपबंि क्र कया िा सकेगा, अथाहत्: ––`
+  line `( क ) िारा 10 के अिीि ग्र ाम न् या यालय की मुद्रा का आकार और धिमाएं;`
+  line `( ि ) िारा 24 की उपिारा (1) के अिीि िाद, दािा या कायहिार्ी संधस्थ त क्र कए िािे के धलए प्रू प, रीधत`
+  line `और फीस;`
+  line `( ग ) िारा 24 की उपिारा (2 ) के अिीि धिरोिी पिकार पर तामील की रीधत;`
+  line `( घ ) िारा 26 की उपिारा (1) के अिीि सुलर् के धलए प्क्रक्र या;`
+  line `( ङ ) िारा 27 की उपिारा (1) के अिीि सुल र् कारों की अर्हताएं और अिु िि;`
+  line `( च ) िारा 37 के अिीि ग्र ाम न् या यालय के धिरीिण के धलए अिधि।`
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_10:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-10)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Page 10`)
-  (str content) (str `8
-( 3 ) उच्च न् या यालय द्व ारा िारी की गई प्त् ये क अधिसूचिा रािपत्र में प् काधशत की िाएगी।
-40. रा ज् य सरकार की धियम बिािे की शधत –– (1) राज्य सरकार इस अधिधियम के उपबंिों को कायाहधन्ि त करिे के धलए
-धियम अधिसूचिा द्व ारा बिा सकेगी।
-( 2 ) धिधशष्ट तया और पूिहगामी शधत की व् या पकता पर प् धतकूल प् िाि िाले धबिा, ऐसे धियमों में धिम्ि धलधित सिी या क्र
-कन् र्ीं धिषयों के धलए उपबंि क्र कया िा सकेगा, अथाहत्: ––
-( क ) िारा 17 की उपिारा ( 2 ) के अिीि ग्र ाम न् या यालयों के अधिकाररयों और अन्य कमहचाररयों को संदेय िेति
-और ित्ते तथा उिकी सेिा के अन्य धिबंिि और शतें;
-( ि ) िारा 27 की उपिारा ( 2 ) के अिीि सुलर्कारों को संदे य बैठक फीस और अन्य ित्ते तथा उि के धियोिि के
-अन्य धिबंिि और शतें।
-( 3 ) इस अधिधियम के अिीि राज्य सरकार द्व ारा बिाया गया प्त् ये क धियम, बिाए िािे के पचा त्, यथाशीघ्र, राज्य
-धििाि - मंिल के समि रिा िाएगा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 10)
+  kind page
+  sectionId pdf-page-10
+  sectionNo (10)
+  orderNo 10
+  title `Page 10`
+  content obj_root_law_translations_hi_sections_10_content
+  footnotes obj_root_law_translations_hi_sections_10_footnotes
+  sourcePage 10
+obj_root_law_translations_hi_sections_10_content:
+  string
+  line 8
+  line `( 3 ) उच्च न् या यालय द्व ारा िारी की गई प्त् ये क अधिसूचिा रािपत्र में प् काधशत की िाएगी।`
+  line `40. रा ज् य सरकार की धियम बिािे की शधत –– (1) राज्य सरकार इस अधिधियम के उपबंिों को कायाहधन्ि त करिे के धलए`
+  line `धियम अधिसूचिा द्व ारा बिा सकेगी।`
+  line `( 2 ) धिधशष्ट तया और पूिहगामी शधत की व् या पकता पर प् धतकूल प् िाि िाले धबिा, ऐसे धियमों में धिम्ि धलधित सिी या क्र`
+  line `कन् र्ीं धिषयों के धलए उपबंि क्र कया िा सकेगा, अथाहत्: ––`
+  line `( क ) िारा 17 की उपिारा ( 2 ) के अिीि ग्र ाम न् या यालयों के अधिकाररयों और अन्य कमहचाररयों को संदेय िेति`
+  line `और ित्ते तथा उिकी सेिा के अन्य धिबंिि और शतें;`
+  line `( ि ) िारा 27 की उपिारा ( 2 ) के अिीि सुलर्कारों को संदे य बैठक फीस और अन्य ित्ते तथा उि के धियोिि के`
+  line `अन्य धिबंिि और शतें।`
+  line `( 3 ) इस अधिधियम के अिीि राज्य सरकार द्व ारा बिाया गया प्त् ये क धियम, बिाए िािे के पचा त्, यथाशीघ्र, राज्य`
+  line `धििाि - मंिल के समि रिा िाएगा।`
+obj_root_law_translations_hi_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_11:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-11)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Page 11`)
-  (str content) (str `9
-पर्ली अिुसूची
-( िारा 12 और िारा 14 देधिए )
-िाग 1
-िारतीय दंि संधर्ता ( 1860 का 45 ) के अिीि अपराि, आक्रद
-( i ) ऐसे अपराि िो मृत्यु दंि, आिीिि कारा िास या दो िषह से अधिक की अिधि के कारािास से दंििीय िर्ीं र्ैं;
-( ii ) िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 379, िारा 380 या िारा 381 के अिीि चोरी, िर्ां चुराई गई संपधत्त का
-मूल्य बीस र् िार रु पए से अधिक िर्ीं र्ै;
-( iii ) िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 411 के अिीि, चुराई गई संपधत्त को प् ाप्त करिा या प् धतिाररत करिा,
-िर्ां ऐसी संपधत्त का मूल्य बीस र् िार रु पए से अधिक िर्ीं र्ै;
-( iv ) िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 414 के अिीि, चुराई गई संपधत्त को छुपािे या उसके व् य यि में सर्ायता
-करिा, िर्ां ऐसी संपधत्त का मूल्य बीस र् िार रु पए से अधिक िर्ीं र्ै;
-( v ) िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 454 और िारा 456 के अिीि अपराि;
-( vi ) िारतीय दंि संधर्ता ( 1860 का 4 5 ) की िारा 504 के अिीि शांधत िंग करािे को प् कोधपत करिे के आशय से अपमाि
-और िारा 506 के अिीि ऐसी अिधि के, िो दो िषह तक की र् ो सकेगी, कारािास से या िुमाहिे से या दोिों से दंििीय आपराधिक
-अधित्रास;
-( vii ) पूिोत अपरा िों में से क्र कसी का दुष् प्े रण;
-( viii ) पूिोत अपरािों में से कोई अपराि करिे का प् यत्ि, िब ऐसा प् यत्ि अपराि र् ो।
-िाग 2
-अन् य केन् द्री य अधिधियमों के अिीि अपराि और अिुतोष
-( i ) ऐसे क्र कसी कायह द्व ारा गरठत कोई अपराि, धिसकी बाबत पशु अधतचार अधिधियम, 1871 ( 1871 का 1 ) की िारा 20 के
-अिीि पररिाद क्र कया िा सकेगा;
-( ii ) मिदूरी संदाय अधिधियम, 1936 (1936 का 4);
-(iii) न् यू ितम मिदूरी अधिधियम, 1948 (1 948 का 11);
-(iv) धसधिल अधिकार संरिण अधिधियम, 1955 (1955 का 22);
-(v) दंि प्क्रक्र या संधर्ता, 1973 (1974 का 2) के अध्या य 9 के अिीि पधत्ि यों, बालकों और माता - धपता के िरण - पोषण के
-धलए आदेश;
-(vi) बंधित श्र म पद्धधत ( उत्सा दि ) अधिधियम, 1976 (1976 का 19);
-(vii) समाि पाररश्रधमक अधिधियम, 1976 (1976 का 25);
-(viii) घरे लू हर्ंसा से मधर्ला संरिण अधिधियम, 2005 (2005 का 43);
-िाग 3
-राज्य अधिधियमों के अिीि अपराि और अिुतोष
-( राज्य सरकार द्व ार अधिसूधचत क्र कए िािे िाले )`)
-  (str footnotes) (str )
-  (str sourcePage) (int 11)
+  kind page
+  sectionId pdf-page-11
+  sectionNo (11)
+  orderNo 11
+  title `Page 11`
+  content obj_root_law_translations_hi_sections_11_content
+  footnotes obj_root_law_translations_hi_sections_11_footnotes
+  sourcePage 11
+obj_root_law_translations_hi_sections_11_content:
+  string
+  line 9
+  line `पर्ली अिुसूची`
+  line `( िारा 12 और िारा 14 देधिए )`
+  line `िाग 1`
+  line `िारतीय दंि संधर्ता ( 1860 का 45 ) के अिीि अपराि, आक्रद`
+  line `( i ) ऐसे अपराि िो मृत्यु दंि, आिीिि कारा िास या दो िषह से अधिक की अिधि के कारािास से दंििीय िर्ीं र्ैं;`
+  line `( ii ) िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 379, िारा 380 या िारा 381 के अिीि चोरी, िर्ां चुराई गई संपधत्त का`
+  line `मूल्य बीस र् िार रु पए से अधिक िर्ीं र्ै;`
+  line `( iii ) िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 411 के अिीि, चुराई गई संपधत्त को प् ाप्त करिा या प् धतिाररत करिा,`
+  line `िर्ां ऐसी संपधत्त का मूल्य बीस र् िार रु पए से अधिक िर्ीं र्ै;`
+  line `( iv ) िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 414 के अिीि, चुराई गई संपधत्त को छुपािे या उसके व् य यि में सर्ायता`
+  line `करिा, िर्ां ऐसी संपधत्त का मूल्य बीस र् िार रु पए से अधिक िर्ीं र्ै;`
+  line `( v ) िारतीय दंि संधर्ता ( 1860 का 45 ) की िारा 454 और िारा 456 के अिीि अपराि;`
+  line `( vi ) िारतीय दंि संधर्ता ( 1860 का 4 5 ) की िारा 504 के अिीि शांधत िंग करािे को प् कोधपत करिे के आशय से अपमाि`
+  line `और िारा 506 के अिीि ऐसी अिधि के, िो दो िषह तक की र् ो सकेगी, कारािास से या िुमाहिे से या दोिों से दंििीय आपराधिक`
+  line अधित्रास;
+  line `( vii ) पूिोत अपरा िों में से क्र कसी का दुष् प्े रण;`
+  line `( viii ) पूिोत अपरािों में से कोई अपराि करिे का प् यत्ि, िब ऐसा प् यत्ि अपराि र् ो।`
+  line `िाग 2`
+  line `अन् य केन् द्री य अधिधियमों के अिीि अपराि और अिुतोष`
+  line `( i ) ऐसे क्र कसी कायह द्व ारा गरठत कोई अपराि, धिसकी बाबत पशु अधतचार अधिधियम, 1871 ( 1871 का 1 ) की िारा 20 के`
+  line `अिीि पररिाद क्र कया िा सकेगा;`
+  line `( ii ) मिदूरी संदाय अधिधियम, 1936 (1936 का 4);`
+  line `(iii) न् यू ितम मिदूरी अधिधियम, 1948 (1 948 का 11);`
+  line `(iv) धसधिल अधिकार संरिण अधिधियम, 1955 (1955 का 22);`
+  line `(v) दंि प्क्रक्र या संधर्ता, 1973 (1974 का 2) के अध्या य 9 के अिीि पधत्ि यों, बालकों और माता - धपता के िरण - पोषण के`
+  line `धलए आदेश;`
+  line `(vi) बंधित श्र म पद्धधत ( उत्सा दि ) अधिधियम, 1976 (1976 का 19);`
+  line `(vii) समाि पाररश्रधमक अधिधियम, 1976 (1976 का 25);`
+  line `(viii) घरे लू हर्ंसा से मधर्ला संरिण अधिधियम, 2005 (2005 का 43);`
+  line `िाग 3`
+  line `राज्य अधिधियमों के अिीि अपराि और अिुतोष`
+  line `( राज्य सरकार द्व ार अधिसूधचत क्र कए िािे िाले )`
+obj_root_law_translations_hi_sections_11_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_12:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-12)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Page 12`)
-  (str content) (str `10
-दूसरी अिुसूची
-( िारा 13 और िारा 14 देधिए )
-िाग 1 ग्र
-ाम न् या यालयों की अधिकाररता के िीत र धसधिल प् कृधत के िाद
-( i ) धसधिल धििाद:
-( क ) संपधत्त क्र य करिे का अधिकार;
-( ि ) सामान्य चरागार्ों का उपयोग;
-( ग ) हसंचाई सरधणयों से िल लेिे का धिधियमि और समय;
-( ii ) संपधत्त धििाद:
-( क ) ग्र ाम और फामह र् ाउस ( कब्िा );
-( ि ) िलसरधणयां;
-( ग ) कुएं या िलकूप से िल लेिे का अधिकार;
-( iii ) अन्य धििाद:
-( क ) मिदूरी संदाय अधिधियम, 1936 (1936 का 4) के अिीि दािे;
-( ि ) न् यू ितम मिदूरी अधिधियम, 1948 (1948 का 11) के अिीि दािे;
-( ग ) व् या पार संव्य िर्ार या साहूकारी से उद्िूत िि संबंिी िाद;
-( घ ) िूधम पर िेती में िागीदारी से उद्िूत धििाद;
-( ङ ) ग्र ाम पंचायतों के धििाधसयों द्व ारा िि उपि के उपयोग के संबंि में धििाद।
-िाग 2
-केन् द्री य सरकार द्व ारा िारा 14 की उपिारा ( 1 ) के अिीि अधिसूधचत केन् द्री य अधिधियमों के
-अिीि दािे और धििाद
-( केन् द्री य सरकार द्व ारा अधिसूधचत क्र कए िािे िाले )
-िाग 3
-राज्य सरकार द्व ारा िारा 14 की उपिारा ( 3 ) के अिीि अधिसूधचत राज्य
-अधिधियमों के अिीि दािे और धििाद
-( राज्य सरका र द्व ारा अधिसूधचत क्र कए िािे िाले )
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 12)
+  kind page
+  sectionId pdf-page-12
+  sectionNo (12)
+  orderNo 12
+  title `Page 12`
+  content obj_root_law_translations_hi_sections_12_content
+  footnotes obj_root_law_translations_hi_sections_12_footnotes
+  sourcePage 12
+obj_root_law_translations_hi_sections_12_content:
+  string
+  line 10
+  line `दूसरी अिुसूची`
+  line `( िारा 13 और िारा 14 देधिए )`
+  line `िाग 1 ग्र`
+  line `ाम न् या यालयों की अधिकाररता के िीत र धसधिल प् कृधत के िाद`
+  line `( i ) धसधिल धििाद:`
+  line `( क ) संपधत्त क्र य करिे का अधिकार;`
+  line `( ि ) सामान्य चरागार्ों का उपयोग;`
+  line `( ग ) हसंचाई सरधणयों से िल लेिे का धिधियमि और समय;`
+  line `( ii ) संपधत्त धििाद:`
+  line `( क ) ग्र ाम और फामह र् ाउस ( कब्िा );`
+  line `( ि ) िलसरधणयां;`
+  line `( ग ) कुएं या िलकूप से िल लेिे का अधिकार;`
+  line `( iii ) अन्य धििाद:`
+  line `( क ) मिदूरी संदाय अधिधियम, 1936 (1936 का 4) के अिीि दािे;`
+  line `( ि ) न् यू ितम मिदूरी अधिधियम, 1948 (1948 का 11) के अिीि दािे;`
+  line `( ग ) व् या पार संव्य िर्ार या साहूकारी से उद्िूत िि संबंिी िाद;`
+  line `( घ ) िूधम पर िेती में िागीदारी से उद्िूत धििाद;`
+  line `( ङ ) ग्र ाम पंचायतों के धििाधसयों द्व ारा िि उपि के उपयोग के संबंि में धििाद।`
+  line `िाग 2`
+  line `केन् द्री य सरकार द्व ारा िारा 14 की उपिारा ( 1 ) के अिीि अधिसूधचत केन् द्री य अधिधियमों के`
+  line `अिीि दािे और धििाद`
+  line `( केन् द्री य सरकार द्व ारा अधिसूधचत क्र कए िािे िाले )`
+  line `िाग 3`
+  line `राज्य सरकार द्व ारा िारा 14 की उपिारा ( 3 ) के अिीि अधिसूधचत राज्य`
+  line `अधिधियमों के अिीि दािे और धििाद`
+  line `( राज्य सरका र द्व ारा अधिसूधचत क्र कए िािे िाले )`
+  line ______
+obj_root_law_translations_hi_sections_12_footnotes:
+  string
+  line

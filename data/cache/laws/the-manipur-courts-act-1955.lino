@@ -1,52 +1,44 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T20:38:54.109Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1512`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-08T20:38:54.109Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1512`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-manipur-courts-act-1955)
-  (str handle) (str 1512)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Manipur (Courts) Act, 1955`)
-  (str actNumber) (str 56)
-  (str enactmentDate) (str 1955-12-30)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1512`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str actYear) (str 1955)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Department of Justice`)
-  (str longTitle) (str `An Act to provide for the establishment of a Judicial Commissioner s Court and other Courts in Manipur.`)
-  (str enforcementDate) (str 01-03-1956)
-  (str notification) (str `vide Chief Commissioner, Manipur s notification No. J/12/1956, dated 3rd February, 1956.`)
+  slug the-manipur-courts-act-1955
+  handle (1512)
+  collectionHandle 123456789/1362
+  title `The Manipur (Courts) Act, 1955`
+  actNumber (56)
+  enactmentDate 1955-12-30
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1512`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  actYear (1955)
+  ministry `Ministry of Law and Justice`
+  department `Department of Justice`
+  longTitle `An Act to provide for the establishment of a Judicial Commissioner s Court and other Courts in Manipur.`
+  enforcementDate 01-03-1956
+  notification `vide Chief Commissioner, Manipur s notification No. J/12/1956, dated 3rd February, 1956.`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_manipur_courts_act_1955
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1512`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1512`
 obj_root_law_sources_en_the_manipur_courts_act_1955:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1512/1/195556.pdf`)
-  (str title) (str `The Manipur (Courts) Act, 1955`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1512/1/195556.pdf`
+  title `The Manipur (Courts) Act, 1955`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -94,793 +86,1002 @@ obj_root_law_sections:
   obj_root_law_sections_45
   obj_root_law_sections_46
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 42434)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Manipur (Courts) Act,
-1955.
-
-(2) It extends to the whole of the ^1
-[Union territory of Manipur].
-
-(3) It shall come into force on such date^2
-as the Chief Commissioner may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).
-
-2. 1st March, 1956, vide Chief Commissioner, Manipur's notification No. J/12/1956, dated 3rd February, 1956.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42434&sectionno=1&orderno=1&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42434)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42434&sectionno=1&orderno=1&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Manipur (Courts) Act,`
+  line 1955.
+  line
+  line `(2) It extends to the whole of the ^1`
+  line `[Union territory of Manipur].`
+  line
+  line `(3) It shall come into force on such date^2`
+  line `as the Chief Commissioner may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`
+  line
+  line `2. 1st March, 1956, vide Chief Commissioner, Manipur's notification No. J/12/1956, dated 3rd February, 1956.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 42435)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,
-
-(i) "Chief Commissioner" means the Chief Commissioner of Manipur;
-
-(ii) "civil suit" includes every suit of a civil nature not expressly or impliedly classed otherwise by
-any law for the time being in force;
-
-(iii) "district court" means the court of the district judge and includes the court of the additional
-district judge;
-
-(iv) "hill areas" mean such areas in the hill tracts of the ^1
-[Union territory of Manipur] as the Chief
-Commissioner may, by notification in the Official Gazette, declare to be hill areas;
-
-(v) "small cause suit" means a suit of the nature cognizable by a court of small causes under the
-Provincial Small Cause Courts Act, 1887(9 of 1887);
-
-(vi) "value" in relation to a suit means the amount or value of the subject-matter of the suit.`)
-  (str footnotes) (str `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42435&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42435)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42435&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,`
+  line
+  line `(i) "Chief Commissioner" means the Chief Commissioner of Manipur;`
+  line
+  line `(ii) "civil suit" includes every suit of a civil nature not expressly or impliedly classed otherwise by`
+  line `any law for the time being in force;`
+  line
+  line `(iii) "district court" means the court of the district judge and includes the court of the additional`
+  line `district judge;`
+  line
+  line `(iv) "hill areas" mean such areas in the hill tracts of the ^1`
+  line `[Union territory of Manipur] as the Chief`
+  line `Commissioner may, by notification in the Official Gazette, declare to be hill areas;`
+  line
+  line `(v) "small cause suit" means a suit of the nature cognizable by a court of small causes under the`
+  line `Provincial Small Cause Courts Act, 1887(9 of 1887);`
+  line
+  line `(vi) "value" in relation to a suit means the amount or value of the subject-matter of the suit.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 42436)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Establishment of the Court of the Judicial Commissioner.`)
-  (str content) (str `There shall be established for the
-^1
-[Union territory of Manipur] a court to be known as the Court of the Judicial Commissioner for Manipur
-which shall consist of the Judicial Commissioner and the Additional Judicial Commissioner, if any.`)
-  (str footnotes) (str `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42436&sectionno=3&orderno=3&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42436)
+  sectionNo (3)
+  orderNo 3
+  title `Establishment of the Court of the Judicial Commissioner.`
+  content obj_root_law_sections_3_content
+  footnotes `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42436&sectionno=3&orderno=3&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_3_content:
+  string
+  line `There shall be established for the`
+  line ^1
+  line `[Union territory of Manipur] a court to be known as the Court of the Judicial Commissioner for Manipur`
+  line `which shall consist of the Judicial Commissioner and the Additional Judicial Commissioner, if any.`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 42437)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Appointment of Judicial Commissioner and Additional Judicial Commissioner.`)
-  (str content) (str `(1) The
-Judicial Commissioner and the Additional Judicial Commissioner, if any, shall be appointed by, and shall
-hold office during the pleasure of, the President.
-
-(2) A person shall not be appointed as Judicial Commissioner or Additional Judicial Commissioner
-unless he is qualified to be appointed as a Judge of a High Court under clause (2) of article 217 of the
-Constitution or unless he was, immediately before the commencement of this Act, the Judicial
-Commissioner of Manipur.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42437&sectionno=4&orderno=4&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42437)
+  sectionNo (4)
+  orderNo 4
+  title `Appointment of Judicial Commissioner and Additional Judicial Commissioner.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42437&sectionno=4&orderno=4&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_4_content:
+  string
+  line `(1) The`
+  line `Judicial Commissioner and the Additional Judicial Commissioner, if any, shall be appointed by, and shall`
+  line `hold office during the pleasure of, the President.`
+  line
+  line `(2) A person shall not be appointed as Judicial Commissioner or Additional Judicial Commissioner`
+  line `unless he is qualified to be appointed as a Judge of a High Court under clause (2) of article 217 of the`
+  line `Constitution or unless he was, immediately before the commencement of this Act, the Judicial`
+  line `Commissioner of Manipur.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 42438)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Casual vacancy in the office of the Judicial Commissioner.`)
-  (str content) (str `On the occurrence of a vacancy in
-the office of the Judicial Commissioner, the Additional Judicial Commissioner, if any, or if there is no
-Additional Judicial Commissioner, the senior-most district judge shall, pending the appointment of the
-Judicial Commissioner, act as the Judicial Commissioner.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42438&sectionno=5&orderno=5&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42438)
+  sectionNo (5)
+  orderNo 5
+  title `Casual vacancy in the office of the Judicial Commissioner.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42438&sectionno=5&orderno=5&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_5_content:
+  string
+  line `On the occurrence of a vacancy in`
+  line `the office of the Judicial Commissioner, the Additional Judicial Commissioner, if any, or if there is no`
+  line `Additional Judicial Commissioner, the senior-most district judge shall, pending the appointment of the`
+  line `Judicial Commissioner, act as the Judicial Commissioner.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 42439)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Rank, precedence and responsibility of Judicial Commissioner.`)
-  (str content) (str `The Judicial Commissioner
-shall have rank and precedence before the Additional Judicial Commissioner and shall be responsible for
-the administration of, and generally for the distribution of business in, the Court of the Judicial
-Commissioner.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42439&sectionno=6&orderno=6&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42439)
+  sectionNo (6)
+  orderNo 6
+  title `Rank, precedence and responsibility of Judicial Commissioner.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42439&sectionno=6&orderno=6&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_6_content:
+  string
+  line `The Judicial Commissioner`
+  line `shall have rank and precedence before the Additional Judicial Commissioner and shall be responsible for`
+  line `the administration of, and generally for the distribution of business in, the Court of the Judicial`
+  line Commissioner.
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 42440)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Exercising of jurisdiction by Judicial Commissioner and Additional Judicial Commissioner.`)
-  (str content) (str `Subject to such orders as the Judicial Commissioner may make as regards the distribution of business
-between himself and the Additional Judicial Commissioner, the jurisdiction of the Court of the Judicial
-Commissioner may be exercised by the Judicial Commissioner or by the Additional Judicial
-Commissioner.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42440&sectionno=7&orderno=7&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42440)
+  sectionNo (7)
+  orderNo 7
+  title `Exercising of jurisdiction by Judicial Commissioner and Additional Judicial Commissioner.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42440&sectionno=7&orderno=7&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_7_content:
+  string
+  line `Subject to such orders as the Judicial Commissioner may make as regards the distribution of business`
+  line `between himself and the Additional Judicial Commissioner, the jurisdiction of the Court of the Judicial`
+  line `Commissioner may be exercised by the Judicial Commissioner or by the Additional Judicial`
+  line Commissioner.
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 42441)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Civil and criminal jurisdiction of the Court of the Judicial Commissioner.`)
-  (str content) (str `Save as otherwise
-provided by this Act or any other law for the time being in force, the Court of the Judicial Commissioner
-shall, with reference to any civil or criminal proceeding under any law for the time being in force in the
-^1
-[Union territory of Manipur], be the highest court of appeal, revision or reference.`)
-  (str footnotes) (str `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42441&sectionno=8&orderno=8&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42441)
+  sectionNo (8)
+  orderNo 8
+  title `Civil and criminal jurisdiction of the Court of the Judicial Commissioner.`
+  content obj_root_law_sections_8_content
+  footnotes `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42441&sectionno=8&orderno=8&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_8_content:
+  string
+  line `Save as otherwise`
+  line `provided by this Act or any other law for the time being in force, the Court of the Judicial Commissioner`
+  line `shall, with reference to any civil or criminal proceeding under any law for the time being in force in the`
+  line ^1
+  line `[Union territory of Manipur], be the highest court of appeal, revision or reference.`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 42442)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Registrar and ministerial officers of the Court of the Judicial Commissioner.`)
-  (str content) (str `(1) The Judicial
-Commissioner may appoint a Registrar and such other ministerial officers as may be necessary for the
-administration of justice by the Court of the Judicial Commissioner and for the exercise of the powers and
-the performance of the duties conferred or imposed on the Court by or under this Act or any other law for
-the time being in force.
-
-(2) The Judicial Commissioner may make rules for delegating to the Registrar such powers and duties
-of a judicial, quasi-judicial or non-judicial nature as he thinks fit; and the ministerial officers shall exercise
-such powers and perform such duties of a quasi-judicial or non-judicial nature as the Judicial
-Commissioner may direct.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42442&sectionno=9&orderno=9&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42442)
+  sectionNo (9)
+  orderNo 9
+  title `Registrar and ministerial officers of the Court of the Judicial Commissioner.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42442&sectionno=9&orderno=9&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_9_content:
+  string
+  line `(1) The Judicial`
+  line `Commissioner may appoint a Registrar and such other ministerial officers as may be necessary for the`
+  line `administration of justice by the Court of the Judicial Commissioner and for the exercise of the powers and`
+  line `the performance of the duties conferred or imposed on the Court by or under this Act or any other law for`
+  line `the time being in force.`
+  line
+  line `(2) The Judicial Commissioner may make rules for delegating to the Registrar such powers and duties`
+  line `of a judicial, quasi-judicial or non-judicial nature as he thinks fit; and the ministerial officers shall exercise`
+  line `such powers and perform such duties of a quasi-judicial or non-judicial nature as the Judicial`
+  line `Commissioner may direct.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 42443)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Superintendence and control of subordinate court.`)
-  (str content) (str `(1) The general superintendence and
-control of all courts in the ^1
-[Union territory of Manipur] shall vest in, and all such courts shall be
-subordinate to, the Court of the Judicial Commissioner.
-
-(2) In exercise of the powers of general superintendence and control vested in it but without prejudice
-to the generality of such powers, the Court of the Judicial Commissioner may,—
-
-(a) call for returns from such courts;
-
-(b) direct the transfer of any suit, proceeding, case or appeal from any subordinate court to any
-other court of equal or superior jurisdiction;
-
-(c) make rules and issue general directions and prescribe forms for regulating practice and
-procedure of subordinate courts;
-
-(d) prescribe forms in which books, entries and accounts shall be kept by the officers of any such
-courts.`)
-  (str footnotes) (str `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42443&sectionno=10&orderno=10&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42443)
+  sectionNo (10)
+  orderNo 10
+  title `Superintendence and control of subordinate court.`
+  content obj_root_law_sections_10_content
+  footnotes `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42443&sectionno=10&orderno=10&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_10_content:
+  string
+  line `(1) The general superintendence and`
+  line `control of all courts in the ^1`
+  line `[Union territory of Manipur] shall vest in, and all such courts shall be`
+  line `subordinate to, the Court of the Judicial Commissioner.`
+  line
+  line `(2) In exercise of the powers of general superintendence and control vested in it but without prejudice`
+  line `to the generality of such powers, the Court of the Judicial Commissioner may,—`
+  line
+  line `(a) call for returns from such courts;`
+  line
+  line `(b) direct the transfer of any suit, proceeding, case or appeal from any subordinate court to any`
+  line `other court of equal or superior jurisdiction;`
+  line
+  line `(c) make rules and issue general directions and prescribe forms for regulating practice and`
+  line `procedure of subordinate courts;`
+  line
+  line `(d) prescribe forms in which books, entries and accounts shall be kept by the officers of any such`
+  line courts.
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 42444)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Registers, books, accounts and statements to be kept by the Judicial Commissioner.`)
-  (str content) (str `(1) The
-Court of the Judicial Commissioner shall keep such registers, books and accounts as may be necessary for
-the transaction of the business of the Court and shall forward to the Chief Commissioner such of these
-registers, books and accounts and such statements of the work done in the Court as may, from time to time,
-be required by the Chief Commissioner.
-
-(2) The Court of the Judicial Commissioner shall also comply with such requisitions as may be made
-by the Central Government or the Chief Commissioner for certified copies of, or extracts from, the records
-of the Court of the Judicial Commissioner or any court subordinate thereto.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42444&sectionno=11&orderno=11&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42444)
+  sectionNo (11)
+  orderNo 11
+  title `Registers, books, accounts and statements to be kept by the Judicial Commissioner.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42444&sectionno=11&orderno=11&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_11_content:
+  string
+  line `(1) The`
+  line `Court of the Judicial Commissioner shall keep such registers, books and accounts as may be necessary for`
+  line `the transaction of the business of the Court and shall forward to the Chief Commissioner such of these`
+  line `registers, books and accounts and such statements of the work done in the Court as may, from time to time,`
+  line `be required by the Chief Commissioner.`
+  line
+  line `(2) The Court of the Judicial Commissioner shall also comply with such requisitions as may be made`
+  line `by the Central Government or the Chief Commissioner for certified copies of, or extracts from, the records`
+  line `of the Court of the Judicial Commissioner or any court subordinate thereto.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 42445)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Procedure of the Court of the Judicial Commissioner.`)
-  (str content) (str `Notwithstanding anything contained in
-the Code of Civil Procedure, 1908 (5 of 1908), or the Code of Criminal Procedure, 1898 (5 of 1898), the
-Court of the Judicial Commissioner shall record evidence and judgments in such manner and prescribe such forms to be used in proceedings before it, as it may direct by rules made by it with the sanction of the
-Chief Commissioner.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42445&sectionno=12&orderno=12&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42445)
+  sectionNo (12)
+  orderNo 12
+  title `Procedure of the Court of the Judicial Commissioner.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42445&sectionno=12&orderno=12&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_12_content:
+  string
+  line `Notwithstanding anything contained in`
+  line `the Code of Civil Procedure, 1908 (5 of 1908), or the Code of Criminal Procedure, 1898 (5 of 1898), the`
+  line `Court of the Judicial Commissioner shall record evidence and judgments in such manner and prescribe such forms to be used in proceedings before it, as it may direct by rules made by it with the sanction of the`
+  line `Chief Commissioner.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 42446)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Admission and removal of advocates, vakils and pleaders.`)
-  (str content) (str `(1) The Court of the Judicial
-Commissioner may, subject to such rules as it may with the sanction of the Chief Commissioner make,
-admit proper persons to be advocates, vakils and pleaders in any court in the ^1
-[Union territory of Manipur]
-and may remove or suspend from practice on reasonable cause any person so admitted and may authorize
-such advocates, vakils and pleaders to plead or to act or to plead and act for parties and accused persons.
-
-(2) No person other than an advocate, vakil or pleader shall be allowed to plead or to act for parties
-and accused persons except that any party may appear, plead or act on his own behalf or on behalf of
-another party if so authorized.`)
-  (str footnotes) (str `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42446&sectionno=13&orderno=13&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42446)
+  sectionNo (13)
+  orderNo 13
+  title `Admission and removal of advocates, vakils and pleaders.`
+  content obj_root_law_sections_13_content
+  footnotes `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42446&sectionno=13&orderno=13&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_13_content:
+  string
+  line `(1) The Court of the Judicial`
+  line `Commissioner may, subject to such rules as it may with the sanction of the Chief Commissioner make,`
+  line `admit proper persons to be advocates, vakils and pleaders in any court in the ^1`
+  line `[Union territory of Manipur]`
+  line `and may remove or suspend from practice on reasonable cause any person so admitted and may authorize`
+  line `such advocates, vakils and pleaders to plead or to act or to plead and act for parties and accused persons.`
+  line
+  line `(2) No person other than an advocate, vakil or pleader shall be allowed to plead or to act for parties`
+  line `and accused persons except that any party may appear, plead or act on his own behalf or on behalf of`
+  line `another party if so authorized.`
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 42447)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Court of the Judicial Commissioner to be a court of record.`)
-  (str content) (str `The Court of the Judicial
-Commissioner shall be a court of record and shall have all powers of such court including the power to
-punish for contempt of itself.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42447&sectionno=14&orderno=14&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42447)
+  sectionNo (14)
+  orderNo 14
+  title `Court of the Judicial Commissioner to be a court of record.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42447&sectionno=14&orderno=14&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_14_content:
+  string
+  line `The Court of the Judicial`
+  line `Commissioner shall be a court of record and shall have all powers of such court including the power to`
+  line `punish for contempt of itself.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 42448)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Place of sitting of the Court of the Judicial Commissioner.`)
-  (str content) (str `The Court of the Judicial
-Commissioner shall sit at Imphal or at such other place or places, if any, as the Judicial Commissioner
-may, with the approval of the Chief Commissioner, from time to time, appoint.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42448&sectionno=15&orderno=15&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42448)
+  sectionNo (15)
+  orderNo 15
+  title `Place of sitting of the Court of the Judicial Commissioner.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42448&sectionno=15&orderno=15&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_15_content:
+  string
+  line `The Court of the Judicial`
+  line `Commissioner shall sit at Imphal or at such other place or places, if any, as the Judicial Commissioner`
+  line `may, with the approval of the Chief Commissioner, from time to time, appoint.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 42449)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Classes of subordinate civil courts.`)
-  (str content) (str `In addition to the Court of the Judicial Commissioner and
-the courts of small causes established under the Provincial Small Cause Courts Act, 1887 (IX of 1887),
-and the courts established under any other law for the time being in force, there shall be the following
-classes of civil courts in the ^1
-[Union territory of Manipur], namely:—
-
-(i) the district court;
-
-(ii) the court of a subordinate judge;
-
-(iii) the court of a munsiff:
-
-Provided that the court of a subordinate judge shall be established only with effect from such date as
-the Chief Commissioner may, by notification in the Official Gazette, specify.`)
-  (str footnotes) (str `. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42449&sectionno=16&orderno=16&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42449)
+  sectionNo (16)
+  orderNo 16
+  title `Classes of subordinate civil courts.`
+  content obj_root_law_sections_16_content
+  footnotes `. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42449&sectionno=16&orderno=16&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_16_content:
+  string
+  line `In addition to the Court of the Judicial Commissioner and`
+  line `the courts of small causes established under the Provincial Small Cause Courts Act, 1887 (IX of 1887),`
+  line `and the courts established under any other law for the time being in force, there shall be the following`
+  line `classes of civil courts in the ^1`
+  line `[Union territory of Manipur], namely:—`
+  line
+  line `(i) the district court;`
+  line
+  line `(ii) the court of a subordinate judge;`
+  line
+  line `(iii) the court of a munsiff:`
+  line
+  line `Provided that the court of a subordinate judge shall be established only with effect from such date as`
+  line `the Chief Commissioner may, by notification in the Official Gazette, specify.`
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 42450)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Civil districts and district judges.`)
-  (str content) (str `(1) For the purposes of this Chapter, the Chief Commissioner
-may, by notification in the Official Gazette, divide the ^1
-[Union territory of Manipur] into civil districts and
-sub-divisions, alter the limits or the number of these districts and sub-divisions and determine the
-headquarters of each district and sub-division.
-
-(2) The Chief Commissioner shall, after consultation with the Judicial Commissioner, appoint as many
-persons as he thinks necessary to be district judges and shall post one of these persons to each district as
-district judge of that district:
-
-Provided that the same person may, if the Chief Commissioner thinks fit, be appointed to be district
-judge of two or more districts.`)
-  (str footnotes) (str `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42450&sectionno=17&orderno=17&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42450)
+  sectionNo (17)
+  orderNo 17
+  title `Civil districts and district judges.`
+  content obj_root_law_sections_17_content
+  footnotes `1. Subs. by A.O. (No. 3), 1956 for "State of Manipur" (w.e.f. 1-3-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42450&sectionno=17&orderno=17&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_17_content:
+  string
+  line `(1) For the purposes of this Chapter, the Chief Commissioner`
+  line `may, by notification in the Official Gazette, divide the ^1`
+  line `[Union territory of Manipur] into civil districts and`
+  line `sub-divisions, alter the limits or the number of these districts and sub-divisions and determine the`
+  line `headquarters of each district and sub-division.`
+  line
+  line `(2) The Chief Commissioner shall, after consultation with the Judicial Commissioner, appoint as many`
+  line `persons as he thinks necessary to be district judges and shall post one of these persons to each district as`
+  line `district judge of that district:`
+  line
+  line `Provided that the same person may, if the Chief Commissioner thinks fit, be appointed to be district`
+  line `judge of two or more districts.`
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 42451)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Additional district judges.`)
-  (str content) (str `(1) When the business pending before the court of a district judge
-requires the aid of an additional district judge for its speedy disposal, the Chief Commissioner may, after
-consultation with the Judicial Commissioner, appoint such number of additional district judges as may be
-necessary.
-
-(2) The additional district judges so appointed shall discharge any of the functions of a district judge
-which the district Judge may assign to them and in the discharge of those functions they shall exercise the
-same powers as the district judge.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42451&sectionno=18&orderno=18&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42451)
+  sectionNo (18)
+  orderNo 18
+  title `Additional district judges.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42451&sectionno=18&orderno=18&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_18_content:
+  string
+  line `(1) When the business pending before the court of a district judge`
+  line `requires the aid of an additional district judge for its speedy disposal, the Chief Commissioner may, after`
+  line `consultation with the Judicial Commissioner, appoint such number of additional district judges as may be`
+  line necessary.
+  line
+  line `(2) The additional district judges so appointed shall discharge any of the functions of a district judge`
+  line `which the district Judge may assign to them and in the discharge of those functions they shall exercise the`
+  line `same powers as the district judge.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 42452)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Subordinate judges and munsiffs.`)
-  (str content) (str `(1) The Chief Commissioner may, after consultation with the
-Judicial Commissioner, fix the number of subordinate judges and munsiffs to be appointed and if there is a
-vacancy in that number, may, subject to the rules, if any, made under sub-section (2), appoint such person
-as is nominated by the Judicial Commissioner to the vacancy.
-
-(2) The Chief Commissioner may, after consultation with the Judicial Commissioner, make rules as to
-the qualifications of persons to be appointed as subordinate judges and munsiffs.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42452&sectionno=19&orderno=19&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42452)
+  sectionNo (19)
+  orderNo 19
+  title `Subordinate judges and munsiffs.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42452&sectionno=19&orderno=19&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_19_content:
+  string
+  line `(1) The Chief Commissioner may, after consultation with the`
+  line `Judicial Commissioner, fix the number of subordinate judges and munsiffs to be appointed and if there is a`
+  line `vacancy in that number, may, subject to the rules, if any, made under sub-section (2), appoint such person`
+  line `as is nominated by the Judicial Commissioner to the vacancy.`
+  line
+  line `(2) The Chief Commissioner may, after consultation with the Judicial Commissioner, make rules as to`
+  line `the qualifications of persons to be appointed as subordinate judges and munsiffs.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 42453)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `District court to be principal civil court of original jurisdiction.`)
-  (str content) (str `The district court shall be
-the principal civil court of original jurisdiction in the district.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42453&sectionno=20&orderno=20&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42453)
+  sectionNo (20)
+  orderNo 20
+  title `District court to be principal civil court of original jurisdiction.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42453&sectionno=20&orderno=20&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_20_content:
+  string
+  line `The district court shall be`
+  line `the principal civil court of original jurisdiction in the district.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 42454)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Original jurisdiction of district courts.`)
-  (str content) (str `Save as otherwise provided by any other law for the
-time being in force, the district court, shall, subject to the provisions of section 15 of the Code of Civil
-Procedure, 1908 (5 of 1908), have original jurisdiction in all civil suits without limit as regards the value.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42454&sectionno=21&orderno=21&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42454)
+  sectionNo (21)
+  orderNo 21
+  title `Original jurisdiction of district courts.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42454&sectionno=21&orderno=21&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_21_content:
+  string
+  line `Save as otherwise provided by any other law for the`
+  line `time being in force, the district court, shall, subject to the provisions of section 15 of the Code of Civil`
+  line `Procedure, 1908 (5 of 1908), have original jurisdiction in all civil suits without limit as regards the value.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 42455)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Original jurisdiction of courts of subordinate judges and munsiffs.`)
-  (str content) (str `The jurisdiction in
-original civil suits as regards the value to be exercised by a subordinate judge or a munsiff shall be
-determined by the Chief Commissioner in such manner as he thinks fit, after consultation with the Judicial
-Commissioner:
-
-Provided that in no case shall the jurisdiction of a munsiffbe without limit.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42455&sectionno=22&orderno=22&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42455)
+  sectionNo (22)
+  orderNo 22
+  title `Original jurisdiction of courts of subordinate judges and munsiffs.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42455&sectionno=22&orderno=22&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_22_content:
+  string
+  line `The jurisdiction in`
+  line `original civil suits as regards the value to be exercised by a subordinate judge or a munsiff shall be`
+  line `determined by the Chief Commissioner in such manner as he thinks fit, after consultation with the Judicial`
+  line `Commissioner:`
+  line
+  line `Provided that in no case shall the jurisdiction of a munsiffbe without limit.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 42456)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Local limits of the jurisdiction of courts of subordinate judges and munsiffs.`)
-  (str content) (str `(1) The local
-limits of the jurisdiction of the court of a subordinate judge or a munsiff shall be such as the Chief
-Commissioner may, by notification in the Official Gazette, define.
-
-(2) When the Chief Commissioner posts a subordinate judge to a district, the local limits of the district
-shall, in the absence of any direction to the contrary, be the local limits of his jurisdiction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42456&sectionno=23&orderno=23&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42456)
+  sectionNo (23)
+  orderNo 23
+  title `Local limits of the jurisdiction of courts of subordinate judges and munsiffs.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42456&sectionno=23&orderno=23&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_23_content:
+  string
+  line `(1) The local`
+  line `limits of the jurisdiction of the court of a subordinate judge or a munsiff shall be such as the Chief`
+  line `Commissioner may, by notification in the Official Gazette, define.`
+  line
+  line `(2) When the Chief Commissioner posts a subordinate judge to a district, the local limits of the district`
+  line `shall, in the absence of any direction to the contrary, be the local limits of his jurisdiction.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 42457)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Small causes jurisdiction of subordinate judges and munsiffs.`)
-  (str content) (str `The Judicial Commissioner
-may, by notification in the Official Gazette, confer within such local limits as he thinks fit, upon any
-district judge, subordinate judge or munsiff, the jurisdiction of a judge of the court of small causes under
-the Provincial Small Cause Courts Act, 1887 (9 of 1887), for the trial of suits of the nature cognizable by
-such courts upto such value not exceeding five hundred rupees, as he thinks fit and may withdraw any
-jurisdiction so conferred.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42457&sectionno=24&orderno=24&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42457)
+  sectionNo (24)
+  orderNo 24
+  title `Small causes jurisdiction of subordinate judges and munsiffs.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42457&sectionno=24&orderno=24&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_24_content:
+  string
+  line `The Judicial Commissioner`
+  line `may, by notification in the Official Gazette, confer within such local limits as he thinks fit, upon any`
+  line `district judge, subordinate judge or munsiff, the jurisdiction of a judge of the court of small causes under`
+  line `the Provincial Small Cause Courts Act, 1887 (9 of 1887), for the trial of suits of the nature cognizable by`
+  line `such courts upto such value not exceeding five hundred rupees, as he thinks fit and may withdraw any`
+  line `jurisdiction so conferred.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 42480)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Exercise by subordinate judges and munsiffs of jurisdiction of district courts in certain proceedings.`)
-  (str content) (str `(1) The Judicial Commissioner may, by general or special order, authorize any subordinate
-judge or munsiff to take cognizance of, or any district judge to transfer to a subordinate judge or a munsiff
-under his administrative control, any proceeding or class of proceedings specified in such order, under—
-
-(a) the Indian Succession Act, 1925 (39 1925); or
-
-(b) the Guardians and Wards Act, 1890 (8 of 1890); or
-
-(c) the Provincial Insolvency Act, 1920 (5 of 1920).
-
-(2) The district judge may withdraw any such proceeding taken cognizance of by, or transferred to, a
-subordinate judge or a munsiff and may either himself dispose of them or transfer it for disposal to any
-other competent court under his administrative control.
-
-(3) Proceedings taken cognizance of by, or transferred to, a subordinate judge or a munsiff under this
-section shall be disposed of by him subject to the rules applicable to like proceedings when disposed of by
-the district judge:
-
-Provided that an appeal from an order of the munsiff in any such proceedings shall lie to the district
-judge.
-
-(4) An appeal from the order of the district judge on appeal from the order of a munsiff under this
-section shall lie to the Court of the Judicial Commissioner if a further appeal from the order of the district
-judge is allowed by the law for the time being in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42480&sectionno=25&orderno=25&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42480)
+  sectionNo (25)
+  orderNo 25
+  title `Exercise by subordinate judges and munsiffs of jurisdiction of district courts in certain proceedings.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42480&sectionno=25&orderno=25&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_25_content:
+  string
+  line `(1) The Judicial Commissioner may, by general or special order, authorize any subordinate`
+  line `judge or munsiff to take cognizance of, or any district judge to transfer to a subordinate judge or a munsiff`
+  line `under his administrative control, any proceeding or class of proceedings specified in such order, under—`
+  line
+  line `(a) the Indian Succession Act, 1925 (39 1925); or`
+  line
+  line `(b) the Guardians and Wards Act, 1890 (8 of 1890); or`
+  line
+  line `(c) the Provincial Insolvency Act, 1920 (5 of 1920).`
+  line
+  line `(2) The district judge may withdraw any such proceeding taken cognizance of by, or transferred to, a`
+  line `subordinate judge or a munsiff and may either himself dispose of them or transfer it for disposal to any`
+  line `other competent court under his administrative control.`
+  line
+  line `(3) Proceedings taken cognizance of by, or transferred to, a subordinate judge or a munsiff under this`
+  line `section shall be disposed of by him subject to the rules applicable to like proceedings when disposed of by`
+  line `the district judge:`
+  line
+  line `Provided that an appeal from an order of the munsiff in any such proceedings shall lie to the district`
+  line judge.
+  line
+  line `(4) An appeal from the order of the district judge on appeal from the order of a munsiff under this`
+  line `section shall lie to the Court of the Judicial Commissioner if a further appeal from the order of the district`
+  line `judge is allowed by the law for the time being in force.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 42459)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Place of sittings of courts.`)
-  (str content) (str `(1) The Chief Commissioner may, by order, fix a place or places at
-which any court constituted under this Chapter is to be held.
-
-(2) The place or places so fixed may be beyond the local limits of the jurisdiction of the court.
-
-(3) Save as otherwise provided by an order under this section, a court constituted under this Act may
-be held at any place within the local limits of its jurisdiction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42459&sectionno=26&orderno=26&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42459)
+  sectionNo (26)
+  orderNo 26
+  title `Place of sittings of courts.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42459&sectionno=26&orderno=26&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_26_content:
+  string
+  line `(1) The Chief Commissioner may, by order, fix a place or places at`
+  line `which any court constituted under this Chapter is to be held.`
+  line
+  line `(2) The place or places so fixed may be beyond the local limits of the jurisdiction of the court.`
+  line
+  line `(3) Save as otherwise provided by an order under this section, a court constituted under this Act may`
+  line `be held at any place within the local limits of its jurisdiction.`
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 42460)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Administrative control of courts.`)
-  (str content) (str `Subject to the general superintendence and control of the
-Court of the Judicial Commissioner, the district judge shall have administrative control over all the civil
-courts under this Chapter within the local limits of his jurisdiction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42460&sectionno=27&orderno=27&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42460)
+  sectionNo (27)
+  orderNo 27
+  title `Administrative control of courts.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42460&sectionno=27&orderno=27&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_27_content:
+  string
+  line `Subject to the general superintendence and control of the`
+  line `Court of the Judicial Commissioner, the district judge shall have administrative control over all the civil`
+  line `courts under this Chapter within the local limits of his jurisdiction.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 42461)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str `District Judge's power to distribute business.`)
-  (str content) (str `Notwithstanding anything contained in the Code
-of Civil Procedure, 1908 (5 of 1908), the district judge may, by written order, direct that any business
-cognizable by his court and the courts under his control shall be distributed among such courts, and in such
-manner, as he thinks fit:
-
-Provided that no direction issued under this section shall empower any court to exercise any power and
-deal with any business beyond the limits of its jurisdiction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42461&sectionno=28&orderno=28&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42461)
+  sectionNo (28)
+  orderNo 28
+  title `District Judge's power to distribute business.`
+  content obj_root_law_sections_28_content
+  footnotes obj_root_law_sections_28_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42461&sectionno=28&orderno=28&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_28_content:
+  string
+  line `Notwithstanding anything contained in the Code`
+  line `of Civil Procedure, 1908 (5 of 1908), the district judge may, by written order, direct that any business`
+  line `cognizable by his court and the courts under his control shall be distributed among such courts, and in such`
+  line `manner, as he thinks fit:`
+  line
+  line `Provided that no direction issued under this section shall empower any court to exercise any power and`
+  line `deal with any business beyond the limits of its jurisdiction.`
+obj_root_law_sections_28_footnotes:
+  string
+  line
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 42462)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Seals of courts.`)
-  (str content) (str `Every court under this Chapter shall use a seal of such form and dimension as
-are prescribed by the Chief Commissioner.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42462&sectionno=29&orderno=29&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42462)
+  sectionNo (29)
+  orderNo 29
+  title `Seals of courts.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42462&sectionno=29&orderno=29&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_29_content:
+  string
+  line `Every court under this Chapter shall use a seal of such form and dimension as`
+  line `are prescribed by the Chief Commissioner.`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 42463)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str `Ministerial officers of the courts.`)
-  (str content) (str `(1) Ministerial officers of the district court shall be appointed
-by the district judge.
-
-(2) Ministerial officers of civil courts under the administrative control of the district judge shall be
-appointed by the district judge.
-
-(3) Every appointment under this section shall be subject to such rules as the Judicial Commissioner
-may make in this behalf.
-
-(4) Any order passed by the district judge under this section shall be liable to be reversed or modified
-by the Judicial Commissioner.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42463&sectionno=30&orderno=30&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42463)
+  sectionNo (30)
+  orderNo 30
+  title `Ministerial officers of the courts.`
+  content obj_root_law_sections_30_content
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42463&sectionno=30&orderno=30&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_30_content:
+  string
+  line `(1) Ministerial officers of the district court shall be appointed`
+  line `by the district judge.`
+  line
+  line `(2) Ministerial officers of civil courts under the administrative control of the district judge shall be`
+  line `appointed by the district judge.`
+  line
+  line `(3) Every appointment under this section shall be subject to such rules as the Judicial Commissioner`
+  line `may make in this behalf.`
+  line
+  line `(4) Any order passed by the district judge under this section shall be liable to be reversed or modified`
+  line `by the Judicial Commissioner.`
+obj_root_law_sections_30_footnotes:
+  string
+  line
 obj_root_law_sections_31:
-  object
-  (str sectionId) (str 42464)
-  (str sectionNo) (str 31)
-  (str orderNo) (int 31)
-  (str title) (str `Delegation of powers of district judges and district courts in certain cases.`)
-  (str content) (str `The district judge
-may, with the previous sanction of the Judicial Commissioner, delegate to the judge of any court under his
-administrative control all or any of the powers conferred on a district judge by section 27 and section 28 of
-this Act and on a district court by section 24 of the Code of Civil Procedure, 1908 (5 of 1908), to be
-exercised by the judge in any specified portion of the district subject to the control of the district judge.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42464&sectionno=31&orderno=31&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42464)
+  sectionNo (31)
+  orderNo 31
+  title `Delegation of powers of district judges and district courts in certain cases.`
+  content obj_root_law_sections_31_content
+  footnotes obj_root_law_sections_31_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42464&sectionno=31&orderno=31&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_31_content:
+  string
+  line `The district judge`
+  line `may, with the previous sanction of the Judicial Commissioner, delegate to the judge of any court under his`
+  line `administrative control all or any of the powers conferred on a district judge by section 27 and section 28 of`
+  line `this Act and on a district court by section 24 of the Code of Civil Procedure, 1908 (5 of 1908), to be`
+  line `exercised by the judge in any specified portion of the district subject to the control of the district judge.`
+obj_root_law_sections_31_footnotes:
+  string
+  line
 obj_root_law_sections_32:
-  object
-  (str sectionId) (str 42465)
-  (str sectionNo) (str 32)
-  (str orderNo) (int 32)
-  (str title) (str `Appeals from original decrees.`)
-  (str content) (str `Save as otherwise provided by any law for the time being in
-force, appeals from decrees or orders of courts exercising original jurisdiction shall lie as follows:—
-
-(a) from a decree or order of a munsiff in any suit and of a subordinate judge in a suit the value of
-which does not exceed five thousand rupees, to the court of the district judge; and
-
-(b) in all other cases, to the court of the Judicial Commissioner.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42465&sectionno=32&orderno=32&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42465)
+  sectionNo (32)
+  orderNo 32
+  title `Appeals from original decrees.`
+  content obj_root_law_sections_32_content
+  footnotes obj_root_law_sections_32_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42465&sectionno=32&orderno=32&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_32_content:
+  string
+  line `Save as otherwise provided by any law for the time being in`
+  line `force, appeals from decrees or orders of courts exercising original jurisdiction shall lie as follows:—`
+  line
+  line `(a) from a decree or order of a munsiff in any suit and of a subordinate judge in a suit the value of`
+  line `which does not exceed five thousand rupees, to the court of the district judge; and`
+  line
+  line `(b) in all other cases, to the court of the Judicial Commissioner.`
+obj_root_law_sections_32_footnotes:
+  string
+  line
 obj_root_law_sections_33:
-  object
-  (str sectionId) (str 42466)
-  (str sectionNo) (str 33)
-  (str orderNo) (int 33)
-  (str title) (str `Appeals from appellate decrees.`)
-  (str content) (str `A second appeal shall lie to the court of the Judicial
-Commissioner from an appellate decree or order of a district court on any ground on which a second
-appeal lies under section 100 of the Code of Civil Procedure, 1908 (5 of 1908).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42466&sectionno=33&orderno=33&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42466)
+  sectionNo (33)
+  orderNo 33
+  title `Appeals from appellate decrees.`
+  content obj_root_law_sections_33_content
+  footnotes obj_root_law_sections_33_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42466&sectionno=33&orderno=33&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_33_content:
+  string
+  line `A second appeal shall lie to the court of the Judicial`
+  line `Commissioner from an appellate decree or order of a district court on any ground on which a second`
+  line `appeal lies under section 100 of the Code of Civil Procedure, 1908 (5 of 1908).`
+obj_root_law_sections_33_footnotes:
+  string
+  line
 obj_root_law_sections_34:
-  object
-  (str sectionId) (str 42467)
-  (str sectionNo) (str 34)
-  (str orderNo) (int 34)
-  (str title) (str `Revisional powers of the Court of the Judicial Commissioner.`)
-  (str content) (str `In addition to the powers
-conferred by section 115 of the Code of Civil Procedure, 1908 (5 of 1908), the Court of the Judicial
-Commissioner may, on application made to it, call for the record of any case which has been decided by a
-civil court subordinate to it and in which no appeal lies to it and if the Court of the Judicial Commissioner
-is of opinion that there is an important question of law or custom and the question requires further
-consideration, the Court of the Judicial Commissioner may make such order in the case as it thinks fit:
-
-Provided that—
-
-(i) no application shall be admitted after the expiration of ninety days from the date of the decision
-in respect of which the application is made unless the applicant satisfies the Court of the Judicial
-Commissioner that he had sufficient cause for not making application within that period;
-
-(ii) on any such application the Court of the Judicial Commissioner shall not revise the decision of
-the court below except in so far as such decision involves a question of law or custom in respect of
-which the application has been admitted; and
-
-(iii) when any such application has been admitted the Court of the Judicial Commissioner shall,
-subject to clause (ii) of this proviso, treat the matter of the application as if it were an appeal.
-
-Explanation 1.—The question of procedure is not a question of law or custom within the meaning
-of this section.
-
-Explanation 2.—In computing the period of limitation mentioned in clause (i) of this proviso and
-in all other respects not herein specified, the period of limitation of the application shall be governed
-by the provisions of the Indian Limitation Act, 1908 (5 of 1908).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42467&sectionno=34&orderno=34&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42467)
+  sectionNo (34)
+  orderNo 34
+  title `Revisional powers of the Court of the Judicial Commissioner.`
+  content obj_root_law_sections_34_content
+  footnotes obj_root_law_sections_34_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42467&sectionno=34&orderno=34&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_34_content:
+  string
+  line `In addition to the powers`
+  line `conferred by section 115 of the Code of Civil Procedure, 1908 (5 of 1908), the Court of the Judicial`
+  line `Commissioner may, on application made to it, call for the record of any case which has been decided by a`
+  line `civil court subordinate to it and in which no appeal lies to it and if the Court of the Judicial Commissioner`
+  line `is of opinion that there is an important question of law or custom and the question requires further`
+  line `consideration, the Court of the Judicial Commissioner may make such order in the case as it thinks fit:`
+  line
+  line `Provided that—`
+  line
+  line `(i) no application shall be admitted after the expiration of ninety days from the date of the decision`
+  line `in respect of which the application is made unless the applicant satisfies the Court of the Judicial`
+  line `Commissioner that he had sufficient cause for not making application within that period;`
+  line
+  line `(ii) on any such application the Court of the Judicial Commissioner shall not revise the decision of`
+  line `the court below except in so far as such decision involves a question of law or custom in respect of`
+  line `which the application has been admitted; and`
+  line
+  line `(iii) when any such application has been admitted the Court of the Judicial Commissioner shall,`
+  line `subject to clause (ii) of this proviso, treat the matter of the application as if it were an appeal.`
+  line
+  line `Explanation 1.—The question of procedure is not a question of law or custom within the meaning`
+  line `of this section.`
+  line
+  line `Explanation 2.—In computing the period of limitation mentioned in clause (i) of this proviso and`
+  line `in all other respects not herein specified, the period of limitation of the application shall be governed`
+  line `by the provisions of the Indian Limitation Act, 1908 (5 of 1908).`
+obj_root_law_sections_34_footnotes:
+  string
+  line
 obj_root_law_sections_35:
-  object
-  (str sectionId) (str 42468)
-  (str sectionNo) (str 35)
-  (str orderNo) (int 35)
-  (str title) (str `Court fees payable on applications for revision.`)
-  (str content) (str `(1) The court fees payable on applications to
-the Court of the Judicial Commissioner for the exercise of its jurisdiction under section 34 shall be such as
-are prescribed by the Chief Commissioner in consultation with the Judicial Commissioner.
-
-(2) If the Court of the Judicial Commissioner, on an application in respect of which the court fee
-payable under sub-section (1) has been paid, sets aside or modifies a decree or order of the court below or
-remands the case for further decision, the Court of the Judicial Commissioner may grant to the applicant a
-certificate authorising him to receive back from the Collector of the district in which the court below is
-situated or from such other officer as the Chief Commissioner may authorise by notification in the Official
-Gazette, the full amount of such court fee or such part thereof as the Court of the Judicial Commissioner
-having regard to the circumstances of the case may think fit.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42468&sectionno=35&orderno=35&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42468)
+  sectionNo (35)
+  orderNo 35
+  title `Court fees payable on applications for revision.`
+  content obj_root_law_sections_35_content
+  footnotes obj_root_law_sections_35_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42468&sectionno=35&orderno=35&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_35_content:
+  string
+  line `(1) The court fees payable on applications to`
+  line `the Court of the Judicial Commissioner for the exercise of its jurisdiction under section 34 shall be such as`
+  line `are prescribed by the Chief Commissioner in consultation with the Judicial Commissioner.`
+  line
+  line `(2) If the Court of the Judicial Commissioner, on an application in respect of which the court fee`
+  line `payable under sub-section (1) has been paid, sets aside or modifies a decree or order of the court below or`
+  line `remands the case for further decision, the Court of the Judicial Commissioner may grant to the applicant a`
+  line `certificate authorising him to receive back from the Collector of the district in which the court below is`
+  line `situated or from such other officer as the Chief Commissioner may authorise by notification in the Official`
+  line `Gazette, the full amount of such court fee or such part thereof as the Court of the Judicial Commissioner`
+  line `having regard to the circumstances of the case may think fit.`
+obj_root_law_sections_35_footnotes:
+  string
+  line
 obj_root_law_sections_36:
-  object
-  (str sectionId) (str 42469)
-  (str sectionNo) (str 36)
-  (str orderNo) (int 36)
-  (str title) (str `Temporary vacancy in the office of district judge.`)
-  (str content) (str `In the event of death of a district judge or of
-his being prevented from performing his duties by illness or other cause or of his absence from the civil
-district on leave, the additional district judge, if any, in the district or where there is no additional district
-judge, the senior-most subordinate judge, or as the case may be, the senior-most munsiff in the district
-shall assume charge of the district court without interruption of his ordinary jurisdiction and being so in
-charge shall perform the duties of the district judge with respect to the filing of suits and appeals, receiving
-pleadings, execution of processes, return of writs and the like, and shall be designated as the additional
-district judge or the subordinate judge or the munsiff, as the case may be, in charge of the district and shall
-continue in such charge until the office of the district judge has been resumed by him or assumed by an
-officer duly appointed thereto.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42469&sectionno=36&orderno=36&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42469)
+  sectionNo (36)
+  orderNo 36
+  title `Temporary vacancy in the office of district judge.`
+  content obj_root_law_sections_36_content
+  footnotes obj_root_law_sections_36_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42469&sectionno=36&orderno=36&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_36_content:
+  string
+  line `In the event of death of a district judge or of`
+  line `his being prevented from performing his duties by illness or other cause or of his absence from the civil`
+  line `district on leave, the additional district judge, if any, in the district or where there is no additional district`
+  line `judge, the senior-most subordinate judge, or as the case may be, the senior-most munsiff in the district`
+  line `shall assume charge of the district court without interruption of his ordinary jurisdiction and being so in`
+  line `charge shall perform the duties of the district judge with respect to the filing of suits and appeals, receiving`
+  line `pleadings, execution of processes, return of writs and the like, and shall be designated as the additional`
+  line `district judge or the subordinate judge or the munsiff, as the case may be, in charge of the district and shall`
+  line `continue in such charge until the office of the district judge has been resumed by him or assumed by an`
+  line `officer duly appointed thereto.`
+obj_root_law_sections_36_footnotes:
+  string
+  line
 obj_root_law_sections_37:
-  object
-  (str sectionId) (str 42470)
-  (str sectionNo) (str 37)
-  (str orderNo) (int 37)
-  (str title) (str `Delegation of powers of district judges.`)
-  (str content) (str `Any district judge leaving headquarters and proceeding
-on duty to any place in the district may delegate to the additional district judge, if any, or where there is no
-such additional district judge, to a subordinate judge or, as the case may be, to a munsiff at the
-headquarters, the power of performing such duties enumerated in section 36 as may be emergent and such
-officer shall be designated as the additional district judge or the subordinate judge or the munsiff, as the
-case may be, in charge of the headquarter.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42470&sectionno=37&orderno=37&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42470)
+  sectionNo (37)
+  orderNo 37
+  title `Delegation of powers of district judges.`
+  content obj_root_law_sections_37_content
+  footnotes obj_root_law_sections_37_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42470&sectionno=37&orderno=37&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_37_content:
+  string
+  line `Any district judge leaving headquarters and proceeding`
+  line `on duty to any place in the district may delegate to the additional district judge, if any, or where there is no`
+  line `such additional district judge, to a subordinate judge or, as the case may be, to a munsiff at the`
+  line `headquarters, the power of performing such duties enumerated in section 36 as may be emergent and such`
+  line `officer shall be designated as the additional district judge or the subordinate judge or the munsiff, as the`
+  line `case may be, in charge of the headquarter.`
+obj_root_law_sections_37_footnotes:
+  string
+  line
 obj_root_law_sections_38:
-  object
-  (str sectionId) (str 42471)
-  (str sectionNo) (str 38)
-  (str orderNo) (int 38)
-  (str title) (str `Temporary vacancy in the office of a subordinate judge or munsiff.`)
-  (str content) (str `In the event of death,
-suspension or temporary absence of a subordinate-judge or a munsiff, the district judge may empower any
-other subordinate judge or munsiff of the same civil district to continue the duties of the vacated court of
-the subordinate judge or munsiff either at the place of such court or of his own court but in every such case
-the register and record of the court shall be kept distinct.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42471&sectionno=38&orderno=38&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42471)
+  sectionNo (38)
+  orderNo 38
+  title `Temporary vacancy in the office of a subordinate judge or munsiff.`
+  content obj_root_law_sections_38_content
+  footnotes obj_root_law_sections_38_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42471&sectionno=38&orderno=38&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_38_content:
+  string
+  line `In the event of death,`
+  line `suspension or temporary absence of a subordinate-judge or a munsiff, the district judge may empower any`
+  line `other subordinate judge or munsiff of the same civil district to continue the duties of the vacated court of`
+  line `the subordinate judge or munsiff either at the place of such court or of his own court but in every such case`
+  line `the register and record of the court shall be kept distinct.`
+obj_root_law_sections_38_footnotes:
+  string
+  line
 obj_root_law_sections_39:
-  object
-  (str sectionId) (str 42481)
-  (str sectionNo) (str 39)
-  (str orderNo) (int 39)
-  (str title) (str `Power to confer powers of civil courts on officers in Hill Areas and procedure before the courts of such officers.`)
-  (str content) (str `(1) The Chief Commissioner after consultation with the Judicial Commissioner may, by notification in the Official Gazette, invest, by name or in virtue of office, any officer in the hill
-areas with the powers of any civil court under this Act and upon such investiture the provisions of this Act
-shall, so far as they can be made applicable, apply to him as if he were a judge of the court with the powers
-of which he is invested.
-
-(2) Where the place at which the court of an officer invested with powers under sub-section (1) is to be
-held, has not been fixed under section 26, the court may be held at any place within the local limits of its
-jurisdiction.
-
-(3) The Code of Civil Procedure, 1908 (5 of 1908), shall apply to all suits and proceedings before the
-court of an officer invested with powers under sub-section (1) subject to the following exceptions,
-namely:—
-
-(a) a defendant in a suit may, instead of filing a written statement, make an oral statement of his
-defence which shall be recorded by the court;
-
-(b) all applications by parties in any suit or proceeding may be made orally before the court;
-
-(c) no appearance, application or act in or to the court, required or authorised by law to be made or
-done by a party in such court shall be made or done by a pleader (as defined in the Code of Civil
-Procedure, 1908 (5 of 1908)) save with the permission of the court;
-
-(d) it shall be sufficient for the court to make a memorandum of the substance of the evidence of
-any witness examined by it and it shall not be necessary for the court to take down evidence of any
-witness in writing at length unless the court is, on the application of any party or otherwise, satisfied
-that there is any special reason for so doing.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42481&sectionno=39&orderno=39&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42481)
+  sectionNo (39)
+  orderNo 39
+  title `Power to confer powers of civil courts on officers in Hill Areas and procedure before the courts of such officers.`
+  content obj_root_law_sections_39_content
+  footnotes obj_root_law_sections_39_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42481&sectionno=39&orderno=39&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_39_content:
+  string
+  line `(1) The Chief Commissioner after consultation with the Judicial Commissioner may, by notification in the Official Gazette, invest, by name or in virtue of office, any officer in the hill`
+  line `areas with the powers of any civil court under this Act and upon such investiture the provisions of this Act`
+  line `shall, so far as they can be made applicable, apply to him as if he were a judge of the court with the powers`
+  line `of which he is invested.`
+  line
+  line `(2) Where the place at which the court of an officer invested with powers under sub-section (1) is to be`
+  line `held, has not been fixed under section 26, the court may be held at any place within the local limits of its`
+  line jurisdiction.
+  line
+  line `(3) The Code of Civil Procedure, 1908 (5 of 1908), shall apply to all suits and proceedings before the`
+  line `court of an officer invested with powers under sub-section (1) subject to the following exceptions,`
+  line `namely:—`
+  line
+  line `(a) a defendant in a suit may, instead of filing a written statement, make an oral statement of his`
+  line `defence which shall be recorded by the court;`
+  line
+  line `(b) all applications by parties in any suit or proceeding may be made orally before the court;`
+  line
+  line `(c) no appearance, application or act in or to the court, required or authorised by law to be made or`
+  line `done by a party in such court shall be made or done by a pleader (as defined in the Code of Civil`
+  line `Procedure, 1908 (5 of 1908)) save with the permission of the court;`
+  line
+  line `(d) it shall be sufficient for the court to make a memorandum of the substance of the evidence of`
+  line `any witness examined by it and it shall not be necessary for the court to take down evidence of any`
+  line `witness in writing at length unless the court is, on the application of any party or otherwise, satisfied`
+  line `that there is any special reason for so doing.`
+obj_root_law_sections_39_footnotes:
+  string
+  line
 obj_root_law_sections_40:
-  object
-  (str sectionId) (str 42473)
-  (str sectionNo) (str 40)
-  (str orderNo) (int 40)
-  (str title) (str `Power of the Judicial Commissioner to make rules.`)
-  (str content) (str `The Court of the Judicial Commissioner
-may make rules consistent with this Act and any other law for the time being in force, providing for all or
-any of the following matters, namely:—
-
-(a) the supervision of all courts subordinate to the Court of the Judicial Commissioner and their
-inspection;
-
-(b) the translation of any papers filed in the Court of the Judicial Commissioner and the
-preparation of paper-books for the hearing of appeals and the copying, typing or printing of any such
-papers or translations and the recovery from the persons at whose instance or on whose behalf papers
-are filed, all the expenses thereby incurred;
-
-(c) the fees to be charged for processes issued by a civil court or by any officer of any such court
-and the fee payable in any suit or proceeding, in any such court by any party to such suit or proceeding
-in respect of the fees of the pleader of any other party to such suit or proceeding;
-
-(d) the manner in which the proceedings of civil courts shall be kept and recorded, and the manner
-in which paper-books for the hearing shall be prepared and the granting of copies;
-
-(e) the various matters relating to the officers of the court;
-
-(f) the persons to be, permitted to act as petition-writers in the court subordinate thereto or act as
-pleaders' clerks;
-
-(g) the issue of licences to persons referred to in clause (f), the conduct of business by them and
-the scale of fees to be charged by them;
-
-(h) the authority by which breaches of such rules shall be investigated and the penalty which may
-be imposed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42473&sectionno=40&orderno=40&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42473)
+  sectionNo (40)
+  orderNo 40
+  title `Power of the Judicial Commissioner to make rules.`
+  content obj_root_law_sections_40_content
+  footnotes obj_root_law_sections_40_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42473&sectionno=40&orderno=40&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_40_content:
+  string
+  line `The Court of the Judicial Commissioner`
+  line `may make rules consistent with this Act and any other law for the time being in force, providing for all or`
+  line `any of the following matters, namely:—`
+  line
+  line `(a) the supervision of all courts subordinate to the Court of the Judicial Commissioner and their`
+  line inspection;
+  line
+  line `(b) the translation of any papers filed in the Court of the Judicial Commissioner and the`
+  line `preparation of paper-books for the hearing of appeals and the copying, typing or printing of any such`
+  line `papers or translations and the recovery from the persons at whose instance or on whose behalf papers`
+  line `are filed, all the expenses thereby incurred;`
+  line
+  line `(c) the fees to be charged for processes issued by a civil court or by any officer of any such court`
+  line `and the fee payable in any suit or proceeding, in any such court by any party to such suit or proceeding`
+  line `in respect of the fees of the pleader of any other party to such suit or proceeding;`
+  line
+  line `(d) the manner in which the proceedings of civil courts shall be kept and recorded, and the manner`
+  line `in which paper-books for the hearing shall be prepared and the granting of copies;`
+  line
+  line `(e) the various matters relating to the officers of the court;`
+  line
+  line `(f) the persons to be, permitted to act as petition-writers in the court subordinate thereto or act as`
+  line `pleaders' clerks;`
+  line
+  line `(g) the issue of licences to persons referred to in clause (f), the conduct of business by them and`
+  line `the scale of fees to be charged by them;`
+  line
+  line `(h) the authority by which breaches of such rules shall be investigated and the penalty which may`
+  line `be imposed.`
+obj_root_law_sections_40_footnotes:
+  string
+  line
 obj_root_law_sections_41:
-  object
-  (str sectionId) (str 42474)
-  (str sectionNo) (str 41)
-  (str orderNo) (int 41)
-  (str title) (str `Presiding officers of courts not to try suits and cases in which they are interested.`)
-  (str content) (str `(1) The
-presiding officer of a court shall not try any suit, proceeding or other case, or hear any appeal, to which he
-is a party or in which he is personally interested.
-
-(2) No presiding officer shall hear an appeal from any judgment, decree, sentence or order passed or
-made by himself.
-
-(3) Where any such suit, proceeding, case or appeal as is referred to in sub-section (1) or sub-section
-(2) comes before any such officer, he shall transmit forthwith the record of such suit, proceeding, case or
-appeal as the case may be, to the court to which he is immediately subordinate with the report of the
-circumstances attending the reference.
-
-(4) The superior court may transfer the suit, proceeding, case or appeal either to itself or to any court
-under its administrative control competent to decide it.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42474&sectionno=41&orderno=41&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42474)
+  sectionNo (41)
+  orderNo 41
+  title `Presiding officers of courts not to try suits and cases in which they are interested.`
+  content obj_root_law_sections_41_content
+  footnotes obj_root_law_sections_41_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42474&sectionno=41&orderno=41&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_41_content:
+  string
+  line `(1) The`
+  line `presiding officer of a court shall not try any suit, proceeding or other case, or hear any appeal, to which he`
+  line `is a party or in which he is personally interested.`
+  line
+  line `(2) No presiding officer shall hear an appeal from any judgment, decree, sentence or order passed or`
+  line `made by himself.`
+  line
+  line `(3) Where any such suit, proceeding, case or appeal as is referred to in sub-section (1) or sub-section`
+  line `(2) comes before any such officer, he shall transmit forthwith the record of such suit, proceeding, case or`
+  line `appeal as the case may be, to the court to which he is immediately subordinate with the report of the`
+  line `circumstances attending the reference.`
+  line
+  line `(4) The superior court may transfer the suit, proceeding, case or appeal either to itself or to any court`
+  line `under its administrative control competent to decide it.`
+obj_root_law_sections_41_footnotes:
+  string
+  line
 obj_root_law_sections_42:
-  object
-  (str sectionId) (str 42475)
-  (str sectionNo) (str 42)
-  (str orderNo) (int 42)
-  (str title) (str `Certain decisions to be according to custom or personal law.`)
-  (str content) (str `(1) Where in any suit or
-proceeding, it is necessary for any court under this Act to decide any question regarding succession,
-inheritance, marriage or caste or any religious usage or institution, any custom (if such there be) having the
-force of law, orany personal law, governing the parties, or the property of the parties to such suit or
-proceeding shall form the rule of decision except in so far as such custom or personal law has, by
-legislative enactment, been altered or abolished.
-
-(2) In cases not provided for by sub-section (1) or by any other law for the time being in force, the
-court shall decide the suit or proceeding according to justice, equity and good conscience.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42475&sectionno=42&orderno=42&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42475)
+  sectionNo (42)
+  orderNo 42
+  title `Certain decisions to be according to custom or personal law.`
+  content obj_root_law_sections_42_content
+  footnotes obj_root_law_sections_42_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42475&sectionno=42&orderno=42&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_42_content:
+  string
+  line `(1) Where in any suit or`
+  line `proceeding, it is necessary for any court under this Act to decide any question regarding succession,`
+  line `inheritance, marriage or caste or any religious usage or institution, any custom (if such there be) having the`
+  line `force of law, orany personal law, governing the parties, or the property of the parties to such suit or`
+  line `proceeding shall form the rule of decision except in so far as such custom or personal law has, by`
+  line `legislative enactment, been altered or abolished.`
+  line
+  line `(2) In cases not provided for by sub-section (1) or by any other law for the time being in force, the`
+  line `court shall decide the suit or proceeding according to justice, equity and good conscience.`
+obj_root_law_sections_42_footnotes:
+  string
+  line
 obj_root_law_sections_43:
-  object
-  (str sectionId) (str 42476)
-  (str sectionNo) (str 43)
-  (str orderNo) (int 43)
-  (str title) (str Holidays.)
-  (str content) (str `(1) Subject to the approval of the Chief Commissioner, the Judicial Commissioner
-shall prepare a list of days to be observed in each year as closed holidays in the Court of the Judicial
-Commissioner and the civil courts subordinate to that Court.
-
-(2) The list of holidays shall be published in the Official Gazette.
-
-(3) A judicial act done by a court on a day specified in the list shall not be invalid by reason only of its
-having been done on that day.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42476&sectionno=43&orderno=43&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42476)
+  sectionNo (43)
+  orderNo 43
+  title Holidays.
+  content obj_root_law_sections_43_content
+  footnotes obj_root_law_sections_43_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42476&sectionno=43&orderno=43&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_43_content:
+  string
+  line `(1) Subject to the approval of the Chief Commissioner, the Judicial Commissioner`
+  line `shall prepare a list of days to be observed in each year as closed holidays in the Court of the Judicial`
+  line `Commissioner and the civil courts subordinate to that Court.`
+  line
+  line `(2) The list of holidays shall be published in the Official Gazette.`
+  line
+  line `(3) A judicial act done by a court on a day specified in the list shall not be invalid by reason only of its`
+  line `having been done on that day.`
+obj_root_law_sections_43_footnotes:
+  string
+  line
 obj_root_law_sections_44:
-  object
-  (str sectionId) (str 42477)
-  (str sectionNo) (str 44)
-  (str orderNo) (int 44)
-  (str title) (str `Pending proceedings.`)
-  (str content) (str `(1) Any suit, proceeding, case or appeal pending in a court immediately
-before the commencement of this Act shall, upon the commencement of this Act, be deemed to be
-transferred to the court exercising under this Act jurisdiction which corresponds, as far as may be, to the
-jurisdiction of the court in which the suit, proceeding, case or appeal was pending and the court to which
-the suit, proceeding, case or appeal is deemed to be transferred shall proceed to try, hear and determine the
-matter as if it had been pending in that court.
-
-(2) Any appeal from a judgment, decree, sentence or order passed or made by a court and not appealed
-against before the commencement of this Act shall, after such commencement, lie to the court exercising
-under this Act jurisdiction which corresponds, as far as may be, to the jurisdiction of the court to which
-such appeal would have lain if this Act had not been passed and had not come into force.
-
-(3) Any judgment, decree, sentence or order passed or made before the commencement of this Act by
-any court shall be deemed for the purpose of execution to have been passed by a court constituted under
-this Act which corresponds, as far as may be, to the court which passed or made the judgment, decree,
-sentence or order as the case may be:
-
-Provided that nothing contained in sub-section (1) or sub-section (2) shall be construed as extending
-period of limitation to which any suit, proceeding, case or appeal may be subject.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42477&sectionno=44&orderno=44&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42477)
+  sectionNo (44)
+  orderNo 44
+  title `Pending proceedings.`
+  content obj_root_law_sections_44_content
+  footnotes obj_root_law_sections_44_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42477&sectionno=44&orderno=44&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_44_content:
+  string
+  line `(1) Any suit, proceeding, case or appeal pending in a court immediately`
+  line `before the commencement of this Act shall, upon the commencement of this Act, be deemed to be`
+  line `transferred to the court exercising under this Act jurisdiction which corresponds, as far as may be, to the`
+  line `jurisdiction of the court in which the suit, proceeding, case or appeal was pending and the court to which`
+  line `the suit, proceeding, case or appeal is deemed to be transferred shall proceed to try, hear and determine the`
+  line `matter as if it had been pending in that court.`
+  line
+  line `(2) Any appeal from a judgment, decree, sentence or order passed or made by a court and not appealed`
+  line `against before the commencement of this Act shall, after such commencement, lie to the court exercising`
+  line `under this Act jurisdiction which corresponds, as far as may be, to the jurisdiction of the court to which`
+  line `such appeal would have lain if this Act had not been passed and had not come into force.`
+  line
+  line `(3) Any judgment, decree, sentence or order passed or made before the commencement of this Act by`
+  line `any court shall be deemed for the purpose of execution to have been passed by a court constituted under`
+  line `this Act which corresponds, as far as may be, to the court which passed or made the judgment, decree,`
+  line `sentence or order as the case may be:`
+  line
+  line `Provided that nothing contained in sub-section (1) or sub-section (2) shall be construed as extending`
+  line `period of limitation to which any suit, proceeding, case or appeal may be subject.`
+obj_root_law_sections_44_footnotes:
+  string
+  line
 obj_root_law_sections_45:
-  object
-  (str sectionId) (str 42478)
-  (str sectionNo) (str 45)
-  (str orderNo) (int 45)
-  (str title) (str `Repeals and savings.`)
-  (str content) (str `(1) The Manipur State Courts Act 1947, as amended by the Manipur State
-Courts (Amendment) Order, 1950, is hereby repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken (including any appointment or
-delegation made, order, Instrument or direction issued, rule or regulation made under that Act) shall be
-deemed to have been done or taken under the corresponding provisions of this Act and shall continue in
-force accordingly unless and until superseded by anything done or any action taken under the relevant
-provisions of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42478&sectionno=45&orderno=45&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42478)
+  sectionNo (45)
+  orderNo 45
+  title `Repeals and savings.`
+  content obj_root_law_sections_45_content
+  footnotes obj_root_law_sections_45_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42478&sectionno=45&orderno=45&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_45_content:
+  string
+  line `(1) The Manipur State Courts Act 1947, as amended by the Manipur State`
+  line `Courts (Amendment) Order, 1950, is hereby repealed.`
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken (including any appointment or`
+  line `delegation made, order, Instrument or direction issued, rule or regulation made under that Act) shall be`
+  line `deemed to have been done or taken under the corresponding provisions of this Act and shall continue in`
+  line `force accordingly unless and until superseded by anything done or any action taken under the relevant`
+  line `provisions of this Act.`
+obj_root_law_sections_45_footnotes:
+  string
+  line
 obj_root_law_sections_46:
-  object
-  (str sectionId) (str 42479)
-  (str sectionNo) (str 46)
-  (str orderNo) (int 46)
-  (str title) (str `Declaration of the Judicial Commissioner's Court as a High Court for certain purposes.`)
-  (str content) (str `The Court of the Judicial Commissioner established under section 3 is hereby declared to be a High Court
-for the purposes of articles 132, 133 and 134 of the Constitution; and the provisions of the Judicial
-Commissioners' Courts (Declaration as High Courts) Act, 1950 (15 of 1950), shall apply to that Court as
-they apply to a Judicial Commissioner's Court in existence at the commencement of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42479&sectionno=46&orderno=46&orgactid=AC_CEN_3_3_00007_195556_1517807319389)
+  sectionId (42479)
+  sectionNo (46)
+  orderNo 46
+  title `Declaration of the Judicial Commissioner's Court as a High Court for certain purposes.`
+  content obj_root_law_sections_46_content
+  footnotes obj_root_law_sections_46_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00007_195556_1517807319389&sectionId=42479&sectionno=46&orderno=46&orgactid=AC_CEN_3_3_00007_195556_1517807319389
+obj_root_law_sections_46_content:
+  string
+  line `The Court of the Judicial Commissioner established under section 3 is hereby declared to be a High Court`
+  line `for the purposes of articles 132, 133 and 134 of the Constitution; and the provisions of the Judicial`
+  line `Commissioners' Courts (Declaration as High Courts) Act, 1950 (15 of 1950), shall apply to that Court as`
+  line `they apply to a Judicial Commissioner's Court in existence at the commencement of this Act.`
+obj_root_law_sections_46_footnotes:
+  string
+  line

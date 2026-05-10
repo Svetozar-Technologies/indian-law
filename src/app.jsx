@@ -2,7 +2,6 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 
 import {
-  sourceStatusForLaw,
   statusClassForLanguage,
   textStatusForLanguage
 } from "./catalog-status.mjs";
@@ -87,10 +86,10 @@ function LawViewer({ catalog, route }) {
 
 function HomeView({ catalog, selectedLanguage }) {
   const language = languageByCode(catalog, selectedLanguage) ?? languageByCode(catalog, catalog.defaultLanguage);
-  const directCount = catalog.laws.filter((law) => law.languages[selectedLanguage]?.enabled).length;
-  const fallbackCount = catalog.laws.filter(
-    (law) => !law.languages[selectedLanguage]?.enabled && law.languages[catalog.defaultLanguage]?.enabled
-  ).length;
+  const languageCode = language?.code ?? catalog.defaultLanguage;
+  const readyCount = catalog.laws.filter((law) => law.languages[languageCode]?.enabled).length;
+  const totalCount = catalog.laws.length;
+  const lawMetric = readyCount === totalCount ? String(totalCount) : `${readyCount}/${totalCount}`;
 
   return (
     <>
@@ -103,10 +102,8 @@ function HomeView({ catalog, selectedLanguage }) {
           </p>
         </div>
         <aside className="source-panel" aria-label="Source summary">
-          <span className="metric">{catalog.laws.length}</span>
-          <span className="metric-label">seeded laws</span>
-          <span className="metric-detail">{directCount} Markdown texts in {language?.name ?? catalog.defaultLanguage}</span>
-          {fallbackCount > 0 && <span className="metric-detail">{fallbackCount} English fallback</span>}
+          <span className="metric">{lawMetric}</span>
+          <span className="metric-label">laws</span>
         </aside>
       </section>
 
@@ -127,7 +124,9 @@ function HomeView({ catalog, selectedLanguage }) {
       <section className="table-section">
         <div className="section-heading">
           <h2>Law List</h2>
-          <span className="data-note">Catalog: Links Notation, law text: Markdown</span>
+          <a className="data-note" href={assetUrl("data/catalog.lino")} download="catalog.lino">
+            Catalog source: Links Notation
+          </a>
         </div>
         <div className="table-wrap">
           <table>
@@ -136,30 +135,27 @@ function HomeView({ catalog, selectedLanguage }) {
             </thead>
             <tbody>
               {catalog.laws.map((law) => {
-                const targetLanguage = languageForLaw(law, selectedLanguage, catalog.defaultLanguage);
-                const languageRecord = targetLanguage ? law.languages[targetLanguage] : null;
-                const sourceStatus = targetLanguage
-                  ? { code: targetLanguage, record: languageRecord }
-                  : sourceStatusForLaw(law, selectedLanguage, catalog.defaultLanguage);
+                const languageRecord = law.languages[languageCode] ?? null;
+                const canOpen = Boolean(languageRecord?.enabled);
                 return (
                   <tr key={law.slug}>
                     <td>
-                      {targetLanguage ? (
-                        <a href={documentHash(targetLanguage, law.slug, languageRecord.parts[0]?.file)}>
-                          {titleForLanguage(law, selectedLanguage)}
+                      {canOpen ? (
+                        <a href={documentHash(languageCode, law.slug, languageRecord.parts[0]?.file)}>
+                          {titleForLanguage(law, languageCode)}
                         </a>
                       ) : (
-                        titleForLanguage(law, selectedLanguage)
+                        titleForLanguage(law, languageCode)
                       )}
                     </td>
                     <td>{law.actYear}</td>
                     <td>{law.actNumber}</td>
                     <td>
-                      <span className={`status ${statusClassForLanguage(sourceStatus.record)}`}>
-                        {textStatusForLanguage(sourceStatus.record, sourceStatus.code)}
+                      <span className={`status ${statusClassForLanguage(languageRecord)}`}>
+                        {textStatusForLanguage(languageRecord, languageCode)}
                       </span>
                     </td>
-                    <td><SourceLinks sources={sourcesForLanguage(law, selectedLanguage, catalog.defaultLanguage)} /></td>
+                    <td><SourceLinks sources={sourcesForLanguage(law, languageCode)} /></td>
                   </tr>
                 );
               })}
@@ -253,7 +249,7 @@ function DocumentView({ catalog, resolved }) {
             ))}
           </div>
           <h2>Official Sources</h2>
-          <SourceLinks sources={sourcesForLanguage(law, language.code, catalog.defaultLanguage)} />
+          <SourceLinks sources={sourcesForLanguage(law, language.code)} />
         </aside>
 
         <article className="law-document">
@@ -262,9 +258,6 @@ function DocumentView({ catalog, resolved }) {
             <span>{part.title}</span>
             <a href={assetUrl(`laws/${language.code}/${law.slug}/${part.file}`)}>Markdown source</a>
           </nav>
-          {resolved.fellBack && (
-            <p className="notice">The requested language is not available as Markdown yet, so this view defaults to English.</p>
-          )}
           {error ? <p className="notice error">{error}</p> : markdown ? renderMarkdown(markdown) : <p className="notice">Loading Markdown</p>}
         </article>
       </section>
@@ -369,7 +362,8 @@ function linkifyText(text) {
 
 function resolveRoute(catalog, route, preferredLanguage) {
   if (route.page !== "document") {
-    return { page: "home", language: route.language || preferredLanguage };
+    const routeLanguage = languageByCode(catalog, route.language) ? route.language : "";
+    return { page: "home", language: routeLanguage || preferredLanguage };
   }
 
   const law = catalog.laws.find((entry) => entry.slug === route.slug) ?? firstReadableLaw(catalog);
@@ -380,7 +374,8 @@ function resolveRoute(catalog, route, preferredLanguage) {
   const requestedLanguage = route.language || preferredLanguage;
   const availableLanguageCode = languageForLaw(law, requestedLanguage, catalog.defaultLanguage);
   if (!availableLanguageCode) {
-    return { page: "home", language: preferredLanguage };
+    const routeLanguage = languageByCode(catalog, requestedLanguage) ? requestedLanguage : "";
+    return { page: "home", language: routeLanguage || preferredLanguage };
   }
 
   const language = languageByCode(catalog, availableLanguageCode);
@@ -390,8 +385,7 @@ function resolveRoute(catalog, route, preferredLanguage) {
     page: "document",
     law,
     language,
-    part,
-    fellBack: requestedLanguage !== availableLanguageCode
+    part
   };
 }
 
@@ -403,18 +397,11 @@ function languageForLaw(law, requestedLanguage, defaultLanguage) {
   if (law.languages[requestedLanguage]?.enabled) {
     return requestedLanguage;
   }
-  if (law.languages[defaultLanguage]?.enabled) {
-    return defaultLanguage;
-  }
-  return Object.entries(law.languages).find(([, record]) => record.enabled)?.[0] ?? "";
+  return "";
 }
 
-function sourcesForLanguage(law, requestedLanguage, defaultLanguage) {
-  const requested = law.languages[requestedLanguage]?.sources ?? [];
-  if (requested.length) {
-    return requested;
-  }
-  return law.languages[defaultLanguage]?.sources ?? Object.values(law.sources ?? {}).flat();
+function sourcesForLanguage(law, requestedLanguage) {
+  return law.languages[requestedLanguage]?.sources ?? [];
 }
 
 function titleForLanguage(law, languageCode) {

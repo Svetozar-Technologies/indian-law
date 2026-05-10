@@ -1,60 +1,51 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T12:43:33.358Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1712`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 30)
-  (str totalSections) (int 30)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T12:43:33.358Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1712`
+  completeFetch true
+  maxSections null
+  sectionCount 30
+  totalSections 30
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-seeds-act-1966)
-  (str handle) (str 1712)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Seeds Act, 1966`)
-  (str actNumber) (str 54)
-  (str enactmentDate) (str 1966-12-29)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1712`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `बीज अधिनियम, 1966`)
-  (str actYear) (str 1966)
-  (str ministry) (str `Ministry of Agriculture and Farmers Welfare`)
-  (str department) (str `Department of Agriculture, Cooperation and Farmers Welfare`)
-  (str longTitle) (str `An Act to provide for regulating the quality of certain seeds for sale, and for matters connected therewith.`)
-  (str enforcementDate) (str 02-09-1968)
-  (str notification) (str `2nd September, 1968, vide notification No. S.O. 3122, dated 29th August, 1968, in respect of ss. 1 to 6, ss. 8 to 11, s. 18, ss. 22 to 25 see Gazette of India, Extraordinary, Part II, sec. 3(ii). 1st October, 1969, vide notification No. S.O. 4049, dated the 24th September, 1969, in respect of ss. 7, 12 to 17 (both inclusive) and 19 to 21 (both inclusive), see Gazette of India, Extraordinary, Part II, sec. 3(ii).`)
-  (str fetchedAt) (str `2026-05-10T12:43:30.491Z`)
-  (str translations) obj_root_law_translations
+  slug the-seeds-act-1966
+  handle (1712)
+  collectionHandle 123456789/1362
+  title `The Seeds Act, 1966`
+  actNumber (54)
+  enactmentDate 1966-12-29
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1712`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `बीज अधिनियम, 1966`
+  actYear (1966)
+  ministry `Ministry of Agriculture and Farmers Welfare`
+  department `Department of Agriculture, Cooperation and Farmers Welfare`
+  longTitle `An Act to provide for regulating the quality of certain seeds for sale, and for matters connected therewith.`
+  enforcementDate 02-09-1968
+  notification `2nd September, 1968, vide notification No. S.O. 3122, dated 29th August, 1968, in respect of ss. 1 to 6, ss. 8 to 11, s. 18, ss. 22 to 25 see Gazette of India, Extraordinary, Part II, sec. 3(ii). 1st October, 1969, vide notification No. S.O. 4049, dated the 24th September, 1969, in respect of ss. 7, 12 to 17 (both inclusive) and 19 to 21 (both inclusive), see Gazette of India, Extraordinary, Part II, sec. 3(ii).`
+  fetchedAt `2026-05-10T12:43:30.491Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_seeds_act_1966
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1712`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1712`
 obj_root_law_sources_en_the_seeds_act_1966:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1712/1/196654.pdf`)
-  (str title) (str `The Seeds Act, 1966`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1712/1/196654.pdf`
+  title `The Seeds Act, 1966`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1966
 obj_root_law_sources_hi_1966:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1712/3/H1966-54.pdf`)
-  (str title) (str `बीज अधिनियम, 1966`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1712/3/H1966-54.pdf`
+  title `बीज अधिनियम, 1966`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -86,736 +77,865 @@ obj_root_law_sections:
   obj_root_law_sections_24
   obj_root_law_sections_25
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 1417)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Seeds Act, 1966.
-
-(2) It extends to the whole of India.
-
-(3) It shall came into force on such date
-^1as the Central Government may, by notification in the
-Official Gazette, appoint, and different dates may be appointed for different provisions of this Act, and
-for different States or for different areas thereof.`)
-  (str footnotes) (str `1. 2nd September, 1968,
-vide
-notification No. S.O.
-3122
-, dated
-29
-th August, 19
-68
-, in respect of ss.
-1 to 6, ss. 8 to 11, s. 18, ss. 22
-to 25
-see
-Gazette of India, Extraordinary, Part II, sec. 3(ii).
-1st October, 19
-69,
-vide
-notification No. S.O.
-4049,
-dated the
-24th
-September
-, 19
-69,
-in respect of
-ss. 7, 12 to 17 (both inclusive)
-and 19 to 21
-(both inclusive),
-see
-Gazette of India, Extraordinary,
-Part II, sec. 3(ii).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1417&sectionno=1&orderno=1&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1417)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1417&sectionno=1&orderno=1&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Seeds Act, 1966.`
+  line
+  line `(2) It extends to the whole of India.`
+  line
+  line `(3) It shall came into force on such date`
+  line `^1as the Central Government may, by notification in the`
+  line `Official Gazette, appoint, and different dates may be appointed for different provisions of this Act, and`
+  line `for different States or for different areas thereof.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 2nd September, 1968,`
+  line vide
+  line `notification No. S.O.`
+  line 3122
+  line `, dated`
+  line 29
+  line `th August, 19`
+  line 68
+  line `, in respect of ss.`
+  line `1 to 6, ss. 8 to 11, s. 18, ss. 22`
+  line `to 25`
+  line see
+  line `Gazette of India, Extraordinary, Part II, sec. 3(ii).`
+  line `1st October, 19`
+  line 69,
+  line vide
+  line `notification No. S.O.`
+  line 4049,
+  line `dated the`
+  line 24th
+  line September
+  line `, 19`
+  line 69,
+  line `in respect of`
+  line `ss. 7, 12 to 17 (both inclusive)`
+  line `and 19 to 21`
+  line `(both inclusive),`
+  line see
+  line `Gazette of India, Extraordinary,`
+  line `Part II, sec. 3(ii).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 1418)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(1) "agriculture" includes horticulture;
-
-(2) "Central Seed Laboratory" means the Central Seed Laboratory established or declared as such
-under sub-section (1) of section 4;
-
-(3) "certification agency" means the certification agency established under section 8 or
-recognised under section 18;
-
-(4) "Committee" means the Central Seed Committee constituted under sub-section (1) of
-section 3;
-
-(5) "container" means a box, bottle, gasket, tin, barrel, case, receptacle, sack, bag, wrapper or
-other thing in which any article or thing is placed or packed;
-
-(6) "export" means taking out of India to a place outside India;
-
-(7) "import" means bringing into India from a place outside India;
-
-(8) "kind" means one or more related species or sub-species of crop plants each individually or
-collectively known by one common name such as cabbage, maize, paddy and wheat;
-
-(9) "notified kind or variety", in relation to any seed, means any kind or variety thereof notified
-under section 5;
-
-(10) "prescribed" means prescribed by rules made under this Act;
-
-(11) "seed" means any of the following classes of seeds used for sowing or planting--
-
-(i) seed of food crops including edible oil seeds and seeds of fruits and vegetables;
-
-(ii) cotton seeds;
-
-(iii) seeds of cattle fodder;
-
-^2[(iv) jute seeds,]
-and includes seedlings, and tubers, bulbs, rhizomes, roots, cuttings, all types of grafts and other
-vegetatively propagated material, of food crops or cattle fodder;
-
-(12) "Seed Analyst" means a Seed Analyst appointed under section 12;
-
-(13) "Seed Inspector" means a Seed Inspector appointed under section 13;
-
-(14) "State Government" in relation to a Union Territory, means the administrator thereof;
-
-(15) "State Seed Laboratory", in relation to any State, means the State Seed Laboratory
-established or declared as such under sub-section (2) of section 4 for that State; and
-
-(16) "variety"means a sub-division of a kind identifiable by growth, yield, plant, fruit, seed, or
-other characteristic.`)
-  (str footnotes) (str `1. Ins. by Act 55 of 1972, s. 2 (w.e.f. 16-1-1973).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1418&sectionno=2&orderno=2&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1418)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes `1. Ins. by Act 55 of 1972, s. 2 (w.e.f. 16-1-1973).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1418&sectionno=2&orderno=2&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(1) "agriculture" includes horticulture;`
+  line
+  line `(2) "Central Seed Laboratory" means the Central Seed Laboratory established or declared as such`
+  line `under sub-section (1) of section 4;`
+  line
+  line `(3) "certification agency" means the certification agency established under section 8 or`
+  line `recognised under section 18;`
+  line
+  line `(4) "Committee" means the Central Seed Committee constituted under sub-section (1) of`
+  line `section 3;`
+  line
+  line `(5) "container" means a box, bottle, gasket, tin, barrel, case, receptacle, sack, bag, wrapper or`
+  line `other thing in which any article or thing is placed or packed;`
+  line
+  line `(6) "export" means taking out of India to a place outside India;`
+  line
+  line `(7) "import" means bringing into India from a place outside India;`
+  line
+  line `(8) "kind" means one or more related species or sub-species of crop plants each individually or`
+  line `collectively known by one common name such as cabbage, maize, paddy and wheat;`
+  line
+  line `(9) "notified kind or variety", in relation to any seed, means any kind or variety thereof notified`
+  line `under section 5;`
+  line
+  line `(10) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(11) "seed" means any of the following classes of seeds used for sowing or planting--`
+  line
+  line `(i) seed of food crops including edible oil seeds and seeds of fruits and vegetables;`
+  line
+  line `(ii) cotton seeds;`
+  line
+  line `(iii) seeds of cattle fodder;`
+  line
+  line `^2[(iv) jute seeds,]`
+  line `and includes seedlings, and tubers, bulbs, rhizomes, roots, cuttings, all types of grafts and other`
+  line `vegetatively propagated material, of food crops or cattle fodder;`
+  line
+  line `(12) "Seed Analyst" means a Seed Analyst appointed under section 12;`
+  line
+  line `(13) "Seed Inspector" means a Seed Inspector appointed under section 13;`
+  line
+  line `(14) "State Government" in relation to a Union Territory, means the administrator thereof;`
+  line
+  line `(15) "State Seed Laboratory", in relation to any State, means the State Seed Laboratory`
+  line `established or declared as such under sub-section (2) of section 4 for that State; and`
+  line
+  line `(16) "variety"means a sub-division of a kind identifiable by growth, yield, plant, fruit, seed, or`
+  line `other characteristic.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 1419)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Central Seed Committee.`)
-  (str content) (str `(1) The Central Government shall, as soon as may be after the
-commencement of this Act, constitute a Committee called the Central Seed Committee to advice the
-Central Government and the State Governments on matters arising out of the administration of this Act
-and to carry out the other functions assigned to it by or under this Act.
-
-(2) The Committee shall consist of the following members, namely:--
-
-(i) a Chairman to be nominated by the Central Government;
-
-(ii) eight persons to be nominated by the Central Government to represent such interests as that
-Government thinks fit, of whom not less than two persons shall be representatives of growers of seed;
-
-(iii) one person to be nominated by the Government of each of the States.
-
-(3) The members of the Committee shall, unless their seals become vacant earlier by resignation,
-death or otherwise, be entitled to hold office for two years and shall be eligible for re-nomination.
-
-(4) The Committee may, subject to the previous approval of the Central Government, make bye-laws
-fixing the quorum and regulating its own procedure and the conduct of all business to be transacted by it.
-
-(5) The Committee may appoint one or more sub-committees, consisting wholly of members of the
-Committee or wholly of other persons or partly of members of the Committee and partly of other persons,
-as it thinks fit, for the purpose of discharging such of its functions as may be delegated to such
-sub-committee or sub-committees by the Committee.
-
-(6) The functions of the Committee or any sub-committee thereof may be exercised notwithstanding
-any vacancy therein.
-
-(7) The Central Government shall appoint a person to be the secretary of the Committee and shall
-provide the Committee with such clerical and other staff as the Central Government considers necessary.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1419&sectionno=3&orderno=3&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1419)
+  sectionNo (3)
+  orderNo 3
+  title `Central Seed Committee.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1419&sectionno=3&orderno=3&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Central Government shall, as soon as may be after the`
+  line `commencement of this Act, constitute a Committee called the Central Seed Committee to advice the`
+  line `Central Government and the State Governments on matters arising out of the administration of this Act`
+  line `and to carry out the other functions assigned to it by or under this Act.`
+  line
+  line `(2) The Committee shall consist of the following members, namely:--`
+  line
+  line `(i) a Chairman to be nominated by the Central Government;`
+  line
+  line `(ii) eight persons to be nominated by the Central Government to represent such interests as that`
+  line `Government thinks fit, of whom not less than two persons shall be representatives of growers of seed;`
+  line
+  line `(iii) one person to be nominated by the Government of each of the States.`
+  line
+  line `(3) The members of the Committee shall, unless their seals become vacant earlier by resignation,`
+  line `death or otherwise, be entitled to hold office for two years and shall be eligible for re-nomination.`
+  line
+  line `(4) The Committee may, subject to the previous approval of the Central Government, make bye-laws`
+  line `fixing the quorum and regulating its own procedure and the conduct of all business to be transacted by it.`
+  line
+  line `(5) The Committee may appoint one or more sub-committees, consisting wholly of members of the`
+  line `Committee or wholly of other persons or partly of members of the Committee and partly of other persons,`
+  line `as it thinks fit, for the purpose of discharging such of its functions as may be delegated to such`
+  line `sub-committee or sub-committees by the Committee.`
+  line
+  line `(6) The functions of the Committee or any sub-committee thereof may be exercised notwithstanding`
+  line `any vacancy therein.`
+  line
+  line `(7) The Central Government shall appoint a person to be the secretary of the Committee and shall`
+  line `provide the Committee with such clerical and other staff as the Central Government considers necessary.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 1420)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Central Seed Laboratory and State Seed Laboratory.`)
-  (str content) (str `(1) The Central Government may, by
-notification in the Official Gazette, establish a Central Seed Laboratory or declare any seed laboratory as
-the Central Seed Laboratory to carry out the functions entrusted to the Central Seed Laboratory by or
-under this Act.
-
-(2) The State Government may, by notification in the Official Gazette, establish one or more State
-Seed Laboratories or declare any seed laboratory as the State Seed Laboratory where analysis of seeds of
-any notified kind or variety shall be carried out by Seed Analysts under this Act in the prescribed manner.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1420&sectionno=4&orderno=4&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1420)
+  sectionNo (4)
+  orderNo 4
+  title `Central Seed Laboratory and State Seed Laboratory.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1420&sectionno=4&orderno=4&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_4_content:
+  string
+  line `(1) The Central Government may, by`
+  line `notification in the Official Gazette, establish a Central Seed Laboratory or declare any seed laboratory as`
+  line `the Central Seed Laboratory to carry out the functions entrusted to the Central Seed Laboratory by or`
+  line `under this Act.`
+  line
+  line `(2) The State Government may, by notification in the Official Gazette, establish one or more State`
+  line `Seed Laboratories or declare any seed laboratory as the State Seed Laboratory where analysis of seeds of`
+  line `any notified kind or variety shall be carried out by Seed Analysts under this Act in the prescribed manner.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 1421)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Power to notify kinds or varieties of seeds.`)
-  (str content) (str `If the Central Government, after consultation with
-the Committee, is of opinion that it is necessary or expedient to regulate the quality of seed of any kind or
-variety to be sold for purposes of agriculture, it may, by notification in the Official Gazette, declare such
-kind or variety to be a notified kind or variety for the purposes of this Act and different kinds or varieties
-may be notified for different States or for different areas thereof.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1421&sectionno=5&orderno=5&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1421)
+  sectionNo (5)
+  orderNo 5
+  title `Power to notify kinds or varieties of seeds.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1421&sectionno=5&orderno=5&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_5_content:
+  string
+  line `If the Central Government, after consultation with`
+  line `the Committee, is of opinion that it is necessary or expedient to regulate the quality of seed of any kind or`
+  line `variety to be sold for purposes of agriculture, it may, by notification in the Official Gazette, declare such`
+  line `kind or variety to be a notified kind or variety for the purposes of this Act and different kinds or varieties`
+  line `may be notified for different States or for different areas thereof.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 1422)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Power to specify minimum limits of germination and purity, etc.`)
-  (str content) (str `The Central Government
-may, after consultation with the Committee and by notification in the Official Gazette, specify--
-
-(a) the minimum limits of germination and purity with respect to any seed of any notified kind or
-variety;
-
-(b) the mark or label to indicate that such seed conforms to the minimum limits of germination
-and purity specified under clause (a) and the particulars which such mark or label may contain.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1422&sectionno=6&orderno=6&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1422)
+  sectionNo (6)
+  orderNo 6
+  title `Power to specify minimum limits of germination and purity, etc.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1422&sectionno=6&orderno=6&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_6_content:
+  string
+  line `The Central Government`
+  line `may, after consultation with the Committee and by notification in the Official Gazette, specify--`
+  line
+  line `(a) the minimum limits of germination and purity with respect to any seed of any notified kind or`
+  line variety;
+  line
+  line `(b) the mark or label to indicate that such seed conforms to the minimum limits of germination`
+  line `and purity specified under clause (a) and the particulars which such mark or label may contain.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 1423)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Regulation or sale of seeds of notified kinds or varieties.`)
-  (str content) (str `No person shall, himself or by any
-other person on his behalf, carry on the business of selling, keeping for sale, offering to sell, bartering or
-otherwise supplying any seed of any notified kind or variety, unless--
-
-(a) such seed is identifiable as to its kind or variety;
-
-(b) such seed conforms to the minimum limits of germination and purity specified under
-clause (a) of section 6;
-
-(c) the container of such seed bears in the prescribed manner, the mark or label containing the
-correct particulars thereof, specified under clause (b) of section 6; and
-
-(d) he complies with such other requirements as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1423&sectionno=7&orderno=7&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1423)
+  sectionNo (7)
+  orderNo 7
+  title `Regulation or sale of seeds of notified kinds or varieties.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1423&sectionno=7&orderno=7&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_7_content:
+  string
+  line `No person shall, himself or by any`
+  line `other person on his behalf, carry on the business of selling, keeping for sale, offering to sell, bartering or`
+  line `otherwise supplying any seed of any notified kind or variety, unless--`
+  line
+  line `(a) such seed is identifiable as to its kind or variety;`
+  line
+  line `(b) such seed conforms to the minimum limits of germination and purity specified under`
+  line `clause (a) of section 6;`
+  line
+  line `(c) the container of such seed bears in the prescribed manner, the mark or label containing the`
+  line `correct particulars thereof, specified under clause (b) of section 6; and`
+  line
+  line `(d) he complies with such other requirements as may be prescribed.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 1424)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Certification agency.`)
-  (str content) (str `The State Government or the Central Government in consultation with the
-State Government may, by notification in the Official Gazette, establish a ce
-rtificate agency for the State
-to carry out the functions entrusted to the certification agency by or under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1424&sectionno=8&orderno=8&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1424)
+  sectionNo (8)
+  orderNo 8
+  title `Certification agency.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1424&sectionno=8&orderno=8&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_8_content:
+  string
+  line `The State Government or the Central Government in consultation with the`
+  line `State Government may, by notification in the Official Gazette, establish a ce`
+  line `rtificate agency for the State`
+  line `to carry out the functions entrusted to the certification agency by or under this Act.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_8_a:
-  object
-  (str sectionId) (str 1425)
-  (str sectionNo) (str 8A)
-  (str orderNo) (int 9)
-  (str title) (str `The Central Seed Certification Board.`)
-  (str content) (str `^1
-[8A. The Central Seed Certification Board.--(1) The Central Government shall, by notification in
-the Official Gazette, establish a Central Seed Certification Board (hereinafter referred to as the Board) to
-advise the Central Government and the State Governments on all matters relating to certification, and to
-co-ordinate the functioning of the agencies established under section 8.
-
-(2) The Board shall consist of the following members, namely:--
-
-(i) a Chairman, to be nominated by the Central Government;
-
-(ii) four members, to be nominated by the Central Government from out of the persons employed
-by the State Governments as Directors of Agriculture;
-
-(iii) three members, to be nominated by the Central Government from out of the persons
-employed by the Agricultural Universities as Directors of Research;
-
-(iv) thirteen persons, to be nominated by the Central Government to represent such interests as
-that Government thinks fit, of whom not less than four persons shall be representatives of seed
-producers or tradesmen.
-
-(3) A member of the Board shall, unless his seat becomes vacant earlier by resignation or otherwise,
-be entitled to hold office for two years from the date of his nomination:
-
-Provided that a person nominated under clause (ii) or clause (iii) of sub-section (2) shall hold office
-only for so long as he holds the appointment by virtue of which his nomination was made.]`)
-  (str footnotes) (str `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16 - 1 - 1973).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1425&sectionno=8A&orderno=9&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1425)
+  sectionNo 8A
+  orderNo 9
+  title `The Central Seed Certification Board.`
+  content obj_root_law_sections_8_a_content
+  footnotes `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16 - 1 - 1973).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1425&sectionno=8A&orderno=9&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_8_a_content:
+  string
+  line ^1
+  line `[8A. The Central Seed Certification Board.--(1) The Central Government shall, by notification in`
+  line `the Official Gazette, establish a Central Seed Certification Board (hereinafter referred to as the Board) to`
+  line `advise the Central Government and the State Governments on all matters relating to certification, and to`
+  line `co-ordinate the functioning of the agencies established under section 8.`
+  line
+  line `(2) The Board shall consist of the following members, namely:--`
+  line
+  line `(i) a Chairman, to be nominated by the Central Government;`
+  line
+  line `(ii) four members, to be nominated by the Central Government from out of the persons employed`
+  line `by the State Governments as Directors of Agriculture;`
+  line
+  line `(iii) three members, to be nominated by the Central Government from out of the persons`
+  line `employed by the Agricultural Universities as Directors of Research;`
+  line
+  line `(iv) thirteen persons, to be nominated by the Central Government to represent such interests as`
+  line `that Government thinks fit, of whom not less than four persons shall be representatives of seed`
+  line `producers or tradesmen.`
+  line
+  line `(3) A member of the Board shall, unless his seat becomes vacant earlier by resignation or otherwise,`
+  line `be entitled to hold office for two years from the date of his nomination:`
+  line
+  line `Provided that a person nominated under clause (ii) or clause (iii) of sub-section (2) shall hold office`
+  line `only for so long as he holds the appointment by virtue of which his nomination was made.]`
 obj_root_law_sections_8_b:
-  object
-  (str sectionId) (str 1426)
-  (str sectionNo) (str 8B)
-  (str orderNo) (int 10)
-  (str title) (str `Other Committees.`)
-  (str content) (str `^1[8B. Other Committees.--The Board may appoint as many Committees as it deems fit consisting
-wholly of the members of the Board or wholly of other persons or partly of members of the Board and
-partly of other persons as it thinks fit to exercise such powers and perform such duties as may be
-delegated to them, subject to such conditions as it may think fit, by the Board.]`)
-  (str footnotes) (str `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16-1-1973).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1426&sectionno=8B&orderno=10&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1426)
+  sectionNo 8B
+  orderNo 10
+  title `Other Committees.`
+  content obj_root_law_sections_8_b_content
+  footnotes `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16-1-1973).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1426&sectionno=8B&orderno=10&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_8_b_content:
+  string
+  line `^1[8B. Other Committees.--The Board may appoint as many Committees as it deems fit consisting`
+  line `wholly of the members of the Board or wholly of other persons or partly of members of the Board and`
+  line `partly of other persons as it thinks fit to exercise such powers and perform such duties as may be`
+  line `delegated to them, subject to such conditions as it may think fit, by the Board.]`
 obj_root_law_sections_8_c:
-  object
-  (str sectionId) (str 1427)
-  (str sectionNo) (str 8C)
-  (str orderNo) (int 11)
-  (str title) (str `Proceedings of Board or Committee not to be invalid by reason of any vacancy therein.`)
-  (str content) (str `^1[8C. Proceedings of Board or Committee not to be invalid by reason of any vacancy
-therein.--No proceeding of the Board or any Committee thereof shall become invalid merely by reason
-of the existence of any vacancy therein or any defect in the constitution thereof.`)
-  (str footnotes) (str `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16-1-1973).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1427&sectionno=8C&orderno=11&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1427)
+  sectionNo 8C
+  orderNo 11
+  title `Proceedings of Board or Committee not to be invalid by reason of any vacancy therein.`
+  content obj_root_law_sections_8_c_content
+  footnotes `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16-1-1973).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1427&sectionno=8C&orderno=11&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_8_c_content:
+  string
+  line `^1[8C. Proceedings of Board or Committee not to be invalid by reason of any vacancy`
+  line `therein.--No proceeding of the Board or any Committee thereof shall become invalid merely by reason`
+  line `of the existence of any vacancy therein or any defect in the constitution thereof.`
 obj_root_law_sections_8_d:
-  object
-  (str sectionId) (str 1428)
-  (str sectionNo) (str 8D)
-  (str orderNo) (int 12)
-  (str title) (str `Procedure for Board.`)
-  (str content) (str `^1[8D. Procedure for Board.--The Board may, subject to the previous approval of the
-Central Government, make bye-laws for the purpose of regulating its own procedure and the procedure
-of any Committee thereof and the conduct of all business to be transacted by it or such Committee.`)
-  (str footnotes) (str `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16-1-1973).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1428&sectionno=8D&orderno=12&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1428)
+  sectionNo 8D
+  orderNo 12
+  title `Procedure for Board.`
+  content obj_root_law_sections_8_d_content
+  footnotes `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16-1-1973).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1428&sectionno=8D&orderno=12&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_8_d_content:
+  string
+  line `^1[8D. Procedure for Board.--The Board may, subject to the previous approval of the`
+  line `Central Government, make bye-laws for the purpose of regulating its own procedure and the procedure`
+  line `of any Committee thereof and the conduct of all business to be transacted by it or such Committee.`
 obj_root_law_sections_8_e:
-  object
-  (str sectionId) (str 1429)
-  (str sectionNo) (str 8E)
-  (str orderNo) (int 13)
-  (str title) (str `Secretary and other officers.`)
-  (str content) (str `^1[8E. Secretary and other officers.--The Central Government shall--
-
-(i) appoint a person to be the Secretary of the Board, and
-
-(ii) provide the Board with such technical and other staff as the Central Government considers
-necessary.]`)
-  (str footnotes) (str `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16-1-1973).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1429&sectionno=8E&orderno=13&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1429)
+  sectionNo 8E
+  orderNo 13
+  title `Secretary and other officers.`
+  content obj_root_law_sections_8_e_content
+  footnotes `1. Ins. by Act 55 of 1972, s. 3 (w.e.f. 16-1-1973).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1429&sectionno=8E&orderno=13&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_8_e_content:
+  string
+  line `^1[8E. Secretary and other officers.--The Central Government shall--`
+  line
+  line `(i) appoint a person to be the Secretary of the Board, and`
+  line
+  line `(ii) provide the Board with such technical and other staff as the Central Government considers`
+  line necessary.]
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 1430)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 14)
-  (str title) (str `Grant of certificate by certification agency.`)
-  (str content) (str `(1) Any person selling, keeping for sale, offering
-to sell, bartering or otherwise supplying any seed of any notified kind or variety may, if he desires to have
-such seed certified by the certification agency, apply to the certification agency for the grant of a
-certificate for the purpose.
-
-(2) Every application under sub-section (1) shall be made in such form, shall contain such particulars
-and shall be accompanied by such fees as may be prescribed.
-
-(3) On receipt of any such application for the grant of a certificate, the certification agency may, after
-such enquiry as it thinks fit and after satisfying itself that the seed to which the application relates
-conforms to the ^1
-[prescribed standards], grant a certificate in such form and on such conditions as may be
-prescribed:
-
-^2
-[Provided that such standards shall not be lower than the minimum limits of germination and purity
-specified for that seed under clause (a) of section 6.]`)
-  (str footnotes) (str `1. Subs. by Act 55 of 1972, s. 4, for certain words (w.e.f. 16-1-1973).
-
-2. The proviso added by s. 4, ibid. (w.e.f. 16-1-1973)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1430&sectionno=9&orderno=14&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1430)
+  sectionNo (9)
+  orderNo 14
+  title `Grant of certificate by certification agency.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1430&sectionno=9&orderno=14&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_9_content:
+  string
+  line `(1) Any person selling, keeping for sale, offering`
+  line `to sell, bartering or otherwise supplying any seed of any notified kind or variety may, if he desires to have`
+  line `such seed certified by the certification agency, apply to the certification agency for the grant of a`
+  line `certificate for the purpose.`
+  line
+  line `(2) Every application under sub-section (1) shall be made in such form, shall contain such particulars`
+  line `and shall be accompanied by such fees as may be prescribed.`
+  line
+  line `(3) On receipt of any such application for the grant of a certificate, the certification agency may, after`
+  line `such enquiry as it thinks fit and after satisfying itself that the seed to which the application relates`
+  line `conforms to the ^1`
+  line `[prescribed standards], grant a certificate in such form and on such conditions as may be`
+  line `prescribed:`
+  line
+  line ^2
+  line `[Provided that such standards shall not be lower than the minimum limits of germination and purity`
+  line `specified for that seed under clause (a) of section 6.]`
+obj_root_law_sections_9_footnotes:
+  string
+  line `1. Subs. by Act 55 of 1972, s. 4, for certain words (w.e.f. 16-1-1973).`
+  line
+  line `2. The proviso added by s. 4, ibid. (w.e.f. 16-1-1973)`
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 1431)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 15)
-  (str title) (str `Revocation of certificate.`)
-  (str content) (str `If the certification agency is satisfied, either on a reference made to it
-in this behalf or otherwise, that--
-
-(a) the certificate granted by it under section 9 has been obtained by misrepresentation as to an
-essential fact; or
-
-(b) the holder of the certificate has, without reasonable cause, failed to comply with the
-conditions subject to which the certificate has been granted or has contravened any of the provisions
-of this Act or the rules made thereunder,
-
-then, without prejudice to any other penalty to which the holder of the certificate may be liable under this
-Act, the certification agency may, after giving the holder of the certificate an opportunity of showing
-cause, revoke the certificate.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1431&sectionno=10&orderno=15&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1431)
+  sectionNo (10)
+  orderNo 15
+  title `Revocation of certificate.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1431&sectionno=10&orderno=15&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_10_content:
+  string
+  line `If the certification agency is satisfied, either on a reference made to it`
+  line `in this behalf or otherwise, that--`
+  line
+  line `(a) the certificate granted by it under section 9 has been obtained by misrepresentation as to an`
+  line `essential fact; or`
+  line
+  line `(b) the holder of the certificate has, without reasonable cause, failed to comply with the`
+  line `conditions subject to which the certificate has been granted or has contravened any of the provisions`
+  line `of this Act or the rules made thereunder,`
+  line
+  line `then, without prejudice to any other penalty to which the holder of the certificate may be liable under this`
+  line `Act, the certification agency may, after giving the holder of the certificate an opportunity of showing`
+  line `cause, revoke the certificate.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 1432)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 16)
-  (str title) (str Appeal.)
-  (str content) (str `(1) Any person aggrieved by a decision of a certification agency under section 9 or
-section 10, may within thirty days from the date on which the decision is communicated to him and on
-payment of such fees as may be prescribed, prefer an appeal to such authority as may be specified by the
-State Government in this behalf:
-
-Provided that the appellate authority may entertain an appeal after the expiry of the said period of
-thirty days if it is satisfied that the appellant was prevented by sufficient cause from filing the appeal in
-time.
-
-(2) On receipt of an appeal under sub-section (1), the appellate authority shall, after giving the
-appellate an opportunity of being heard, dispose of the appeal as expeditiously as possible.
-
-(3) Every order of the appellate authority under this section shall be final.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1432&sectionno=11&orderno=16&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1432)
+  sectionNo (11)
+  orderNo 16
+  title Appeal.
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1432&sectionno=11&orderno=16&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_11_content:
+  string
+  line `(1) Any person aggrieved by a decision of a certification agency under section 9 or`
+  line `section 10, may within thirty days from the date on which the decision is communicated to him and on`
+  line `payment of such fees as may be prescribed, prefer an appeal to such authority as may be specified by the`
+  line `State Government in this behalf:`
+  line
+  line `Provided that the appellate authority may entertain an appeal after the expiry of the said period of`
+  line `thirty days if it is satisfied that the appellant was prevented by sufficient cause from filing the appeal in`
+  line time.
+  line
+  line `(2) On receipt of an appeal under sub-section (1), the appellate authority shall, after giving the`
+  line `appellate an opportunity of being heard, dispose of the appeal as expeditiously as possible.`
+  line
+  line `(3) Every order of the appellate authority under this section shall be final.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 1433)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 17)
-  (str title) (str `Seed Analysts.`)
-  (str content) (str `The State Government may, by notification in the Official Gazette, appoi
-nt such
-persons as it thinks fit, having the prescribed qualifications, to be Seed Analysts and define the areas
-within which they shall exercise jurisdiction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1433&sectionno=12&orderno=17&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1433)
+  sectionNo (12)
+  orderNo 17
+  title `Seed Analysts.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1433&sectionno=12&orderno=17&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_12_content:
+  string
+  line `The State Government may, by notification in the Official Gazette, appoi`
+  line `nt such`
+  line `persons as it thinks fit, having the prescribed qualifications, to be Seed Analysts and define the areas`
+  line `within which they shall exercise jurisdiction.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 1434)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 18)
-  (str title) (str `Seed Inspectors.`)
-  (str content) (str `(1) The State Government may, by notification in the Official Gazette, appoint
-such persons as it thinks fit, having the prescribed qualifications, to be Seed Inspectors and define the
-areas within which they shall exercise jurisdiction.
-
-(2) Every Seed Inspector shall be deemed to be a public servant within the meaning of section 21 of
-the Indian Penal Code (45 of 1860) and shall be officially subordinate to such authority as the State
-Government may specify in this behalf`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1434&sectionno=13&orderno=18&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1434)
+  sectionNo (13)
+  orderNo 18
+  title `Seed Inspectors.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1434&sectionno=13&orderno=18&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_13_content:
+  string
+  line `(1) The State Government may, by notification in the Official Gazette, appoint`
+  line `such persons as it thinks fit, having the prescribed qualifications, to be Seed Inspectors and define the`
+  line `areas within which they shall exercise jurisdiction.`
+  line
+  line `(2) Every Seed Inspector shall be deemed to be a public servant within the meaning of section 21 of`
+  line `the Indian Penal Code (45 of 1860) and shall be officially subordinate to such authority as the State`
+  line `Government may specify in this behalf`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 1435)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 19)
-  (str title) (str `Powers of Seed Inspector.`)
-  (str content) (str `(1) The Seed Inspector may--
-
-(a) take samples of any seed in any notified kind or variety from--
-
-(i) any person selling such seed; or
-
-(ii) any person who is in the course of conveying, delivering or preparing to deliver such seed
-to a purchaser or a consignee; or
-
-(iii) a purchaser or a consignee after delivery of such seed to him;
-
-(b) send such sample for analysis to the Seed Analyst for the area within which such sample has
-been taken;
-
-(c) enter and search at all reasonable times, with such assistance, if any, as he considers
-necessary, any place in which he has reason to believe that an offence under this Act has been or is
-being committed and order in writing the person in possession of any seed in respect of which the
-offence has been or is being committed, not to dispose of any stock of such seed for a specific period
-not exceeding thirty days or, unless the alleged offence is such that the defect may be removed by the
-possessor of the seed, seize the stock of such seed;
-
-(d) examine any record, register, document or any other material object found in any place
-mentioned in clause (c) and seize the same if he has reason to believe that if may furnish evidence of
-the commission of an offence punishable under this Act; and
-
-(e) exercise such other powers as may be necessary for carrying out the purposes of this Act or
-any rule made thereunder.
-
-(2) Where any sample of any seed of any notified kind or variety is taken under clause (a) of
-sub-section (1), its cost, calculated at the rate at which such seed is usually sold to the public, shall be
-paid on demand to the person from whom it is taken.
-
-(3) The power conferred by this section includes power to break-open any container in which any
-seed of any notified kind or variety may be contained or to break-open the door of any premises where
-any such seed may be kept for sale:
-
-Provided that the power to break-open the door shall be exercised only after the owner or any other
-person in occupation of the premises, if he is present therein, refuses to open the door on being called
-upon to do so.
-
-(4) Where the Seed Inspector takes any action under clause (a) of sub-section (1), he shall, as far as
-possible, call not less than two persons to be present at the time when such action is taken and take their
-signatures on a memorandum to be prepared in the prescribed form and manner.
-
-(5) The provisions of the Code of Criminal Procedure, 1898 (5 of 1898), shall, so far as may be, apply
-to any search or seizure under this section as they apply to any search or seizure made under the authority
-of a warrant issued under section 98 of the said Code.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1435&sectionno=14&orderno=19&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1435)
+  sectionNo (14)
+  orderNo 19
+  title `Powers of Seed Inspector.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1435&sectionno=14&orderno=19&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_14_content:
+  string
+  line `(1) The Seed Inspector may--`
+  line
+  line `(a) take samples of any seed in any notified kind or variety from--`
+  line
+  line `(i) any person selling such seed; or`
+  line
+  line `(ii) any person who is in the course of conveying, delivering or preparing to deliver such seed`
+  line `to a purchaser or a consignee; or`
+  line
+  line `(iii) a purchaser or a consignee after delivery of such seed to him;`
+  line
+  line `(b) send such sample for analysis to the Seed Analyst for the area within which such sample has`
+  line `been taken;`
+  line
+  line `(c) enter and search at all reasonable times, with such assistance, if any, as he considers`
+  line `necessary, any place in which he has reason to believe that an offence under this Act has been or is`
+  line `being committed and order in writing the person in possession of any seed in respect of which the`
+  line `offence has been or is being committed, not to dispose of any stock of such seed for a specific period`
+  line `not exceeding thirty days or, unless the alleged offence is such that the defect may be removed by the`
+  line `possessor of the seed, seize the stock of such seed;`
+  line
+  line `(d) examine any record, register, document or any other material object found in any place`
+  line `mentioned in clause (c) and seize the same if he has reason to believe that if may furnish evidence of`
+  line `the commission of an offence punishable under this Act; and`
+  line
+  line `(e) exercise such other powers as may be necessary for carrying out the purposes of this Act or`
+  line `any rule made thereunder.`
+  line
+  line `(2) Where any sample of any seed of any notified kind or variety is taken under clause (a) of`
+  line `sub-section (1), its cost, calculated at the rate at which such seed is usually sold to the public, shall be`
+  line `paid on demand to the person from whom it is taken.`
+  line
+  line `(3) The power conferred by this section includes power to break-open any container in which any`
+  line `seed of any notified kind or variety may be contained or to break-open the door of any premises where`
+  line `any such seed may be kept for sale:`
+  line
+  line `Provided that the power to break-open the door shall be exercised only after the owner or any other`
+  line `person in occupation of the premises, if he is present therein, refuses to open the door on being called`
+  line `upon to do so.`
+  line
+  line `(4) Where the Seed Inspector takes any action under clause (a) of sub-section (1), he shall, as far as`
+  line `possible, call not less than two persons to be present at the time when such action is taken and take their`
+  line `signatures on a memorandum to be prepared in the prescribed form and manner.`
+  line
+  line `(5) The provisions of the Code of Criminal Procedure, 1898 (5 of 1898), shall, so far as may be, apply`
+  line `to any search or seizure under this section as they apply to any search or seizure made under the authority`
+  line `of a warrant issued under section 98 of the said Code.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 1436)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 20)
-  (str title) (str `Procedure to be followed by Seed Inspectors.`)
-  (str content) (str `(1) Whenever a Seed Inspector intends to take
-sample of any seed of any notified kind or variety or analysis, he shall--
-
-(a) give notice in writing, then and there, of such intention to the person from whom he intends to
-take sample;
-
-(b) except in special cases provided by rules made under this Act, take three representative
-samples in the prescribed manner and mark and seal or fasten up each sample in such manner as its
-nature permits.
-
-(2) When samples of any seed of any notified kind or variety are taken under sub-section (1), the Seed
-Inspector shall--
-
-(a) deliver one sample to the person from whom it has been taken;
-
-(b) send in the prescribed manner another sample for analysis to the Seed Analyst for the area
-within which such sample has been taken; and
-
-(c) retain the remaining sample in the prescribed manner for production in case any legal
-proceedings are taken or for analysis by the Central Seed Laboratory under sub-section (2) of
-section 16, as the case may be.
-
-(3) If the person from whom the samples have been taken refuses to accept one of the samples, the
-Seed Inspector shall send intimation to the Seed Analyst of such refusal and thereupon the Seed Analyst
-receiving the sample for analysis shall divide it into two parts and shall seal or fasten up one of those parts
-and shall cause it, either upon receipt of the sample or when he delivers his report, to be delivered to the
-Seed Inspector who shall retain it for production in case legal proceedings are taken.
-
-(4) Where a Seed Inspector takes any action under clause (c) of sub-section (1) of section 14,--
-
-(a) he shall use all despatch in ascertaining whether or not the seed contravenes any of the
-provisions of section 7 and if it is ascertained that the seed does not so contravene, forthwith revoke
-the order passed under the said clause or, as the case may be, take such action as may be necessary for
-the return of the stock of the seed seized;
-
-(b) if he seizes the stock of the seed, he shall, as soon as may be, inform a magistrate and take his
-orders as to the custody thereof;
-
-(c) without prejudice to the institution of any prosecution, if the alleged offence is such that the
-defect may be removed by the possessor of the seed, he shall, on being satisfied that the defect has
-been so removed, forthwith revoke the order passed under the said clause.
-
-(5) Where a Seed Inspector seizes any record, register, document or any other material object under
-clause (d) of sub-section (1) of section 14, he shall, as soon as may be, inform a magistrate and take his
-orders as to the custody thereof.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1436&sectionno=15&orderno=20&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1436)
+  sectionNo (15)
+  orderNo 20
+  title `Procedure to be followed by Seed Inspectors.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1436&sectionno=15&orderno=20&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_15_content:
+  string
+  line `(1) Whenever a Seed Inspector intends to take`
+  line `sample of any seed of any notified kind or variety or analysis, he shall--`
+  line
+  line `(a) give notice in writing, then and there, of such intention to the person from whom he intends to`
+  line `take sample;`
+  line
+  line `(b) except in special cases provided by rules made under this Act, take three representative`
+  line `samples in the prescribed manner and mark and seal or fasten up each sample in such manner as its`
+  line `nature permits.`
+  line
+  line `(2) When samples of any seed of any notified kind or variety are taken under sub-section (1), the Seed`
+  line `Inspector shall--`
+  line
+  line `(a) deliver one sample to the person from whom it has been taken;`
+  line
+  line `(b) send in the prescribed manner another sample for analysis to the Seed Analyst for the area`
+  line `within which such sample has been taken; and`
+  line
+  line `(c) retain the remaining sample in the prescribed manner for production in case any legal`
+  line `proceedings are taken or for analysis by the Central Seed Laboratory under sub-section (2) of`
+  line `section 16, as the case may be.`
+  line
+  line `(3) If the person from whom the samples have been taken refuses to accept one of the samples, the`
+  line `Seed Inspector shall send intimation to the Seed Analyst of such refusal and thereupon the Seed Analyst`
+  line `receiving the sample for analysis shall divide it into two parts and shall seal or fasten up one of those parts`
+  line `and shall cause it, either upon receipt of the sample or when he delivers his report, to be delivered to the`
+  line `Seed Inspector who shall retain it for production in case legal proceedings are taken.`
+  line
+  line `(4) Where a Seed Inspector takes any action under clause (c) of sub-section (1) of section 14,--`
+  line
+  line `(a) he shall use all despatch in ascertaining whether or not the seed contravenes any of the`
+  line `provisions of section 7 and if it is ascertained that the seed does not so contravene, forthwith revoke`
+  line `the order passed under the said clause or, as the case may be, take such action as may be necessary for`
+  line `the return of the stock of the seed seized;`
+  line
+  line `(b) if he seizes the stock of the seed, he shall, as soon as may be, inform a magistrate and take his`
+  line `orders as to the custody thereof;`
+  line
+  line `(c) without prejudice to the institution of any prosecution, if the alleged offence is such that the`
+  line `defect may be removed by the possessor of the seed, he shall, on being satisfied that the defect has`
+  line `been so removed, forthwith revoke the order passed under the said clause.`
+  line
+  line `(5) Where a Seed Inspector seizes any record, register, document or any other material object under`
+  line `clause (d) of sub-section (1) of section 14, he shall, as soon as may be, inform a magistrate and take his`
+  line `orders as to the custody thereof.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 1437)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 21)
-  (str title) (str `Report of Seed Analyst.`)
-  (str content) (str `(1) The Seed Analyst shall, as soon as may be after the receipt of the
-sample under sub-section (2) of section 15, analyse the sample at the State Seed Laboratory and deliver,
-in such form as may be prescribed, one copy of the report of the result of the analysis to the Seed
-Inspector and another copy thereof to the person from whom the sample has been taken.
-
-(2) After the institution of a prosecution under this Act, the accused vendor or the complainant may,
-on payment of the prescribed fee, make an application to the court for sending any of the samples
-mentioned in clause (a) or clause (c) of sub-section (2) of section 15 to the Central Seed Laboratory for its
-report and on receipt of the application, the court shall first ascertain that the mark and the seal or
-fastening as provided in clause (b) of sub-section (1) of section 15 are intact and may then despatch the
-sample under its own seal to the Central Seed Laboratory which shall thereupon send its report to the
-court in the prescribed form within one month from the date of receipt of the sample, specifying the result
-of the analysis.
-
-(3) The report send by the Central Seed Laboratory under sub-section (2) shall supersede the report
-given by the Seed Analyst under sub-section (1).
-
-(4) Where the report sent by the Central Seed Laboratory under sub-section (2) is produced in any
-proceedings under section 19, it shall not be necessary in such proceedings to produce any sample or part
-thereof taken for analysis.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1437&sectionno=16&orderno=21&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1437)
+  sectionNo (16)
+  orderNo 21
+  title `Report of Seed Analyst.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1437&sectionno=16&orderno=21&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_16_content:
+  string
+  line `(1) The Seed Analyst shall, as soon as may be after the receipt of the`
+  line `sample under sub-section (2) of section 15, analyse the sample at the State Seed Laboratory and deliver,`
+  line `in such form as may be prescribed, one copy of the report of the result of the analysis to the Seed`
+  line `Inspector and another copy thereof to the person from whom the sample has been taken.`
+  line
+  line `(2) After the institution of a prosecution under this Act, the accused vendor or the complainant may,`
+  line `on payment of the prescribed fee, make an application to the court for sending any of the samples`
+  line `mentioned in clause (a) or clause (c) of sub-section (2) of section 15 to the Central Seed Laboratory for its`
+  line `report and on receipt of the application, the court shall first ascertain that the mark and the seal or`
+  line `fastening as provided in clause (b) of sub-section (1) of section 15 are intact and may then despatch the`
+  line `sample under its own seal to the Central Seed Laboratory which shall thereupon send its report to the`
+  line `court in the prescribed form within one month from the date of receipt of the sample, specifying the result`
+  line `of the analysis.`
+  line
+  line `(3) The report send by the Central Seed Laboratory under sub-section (2) shall supersede the report`
+  line `given by the Seed Analyst under sub-section (1).`
+  line
+  line `(4) Where the report sent by the Central Seed Laboratory under sub-section (2) is produced in any`
+  line `proceedings under section 19, it shall not be necessary in such proceedings to produce any sample or part`
+  line `thereof taken for analysis.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 1438)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 22)
-  (str title) (str `Restriction on export and import of seeds of notified kinds or varieties.`)
-  (str content) (str `No person shall, for
-the purpose of showing or planting by any person (including himself), export or import or cause to be
-exported or imported any seed of any notified kind or variety, unless--
-
-(a) it conforms to the minimum limits of germination and purity specified for that seed under
-clause (a) of section 6; and
-
-(b) its container bears, in the prescribed manner, the mark or label with the correct particulars
-thereof specified for that seed under clause (b) of section 6.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1438&sectionno=17&orderno=22&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1438)
+  sectionNo (17)
+  orderNo 22
+  title `Restriction on export and import of seeds of notified kinds or varieties.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1438&sectionno=17&orderno=22&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_17_content:
+  string
+  line `No person shall, for`
+  line `the purpose of showing or planting by any person (including himself), export or import or cause to be`
+  line `exported or imported any seed of any notified kind or variety, unless--`
+  line
+  line `(a) it conforms to the minimum limits of germination and purity specified for that seed under`
+  line `clause (a) of section 6; and`
+  line
+  line `(b) its container bears, in the prescribed manner, the mark or label with the correct particulars`
+  line `thereof specified for that seed under clause (b) of section 6.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 1439)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 23)
-  (str title) (str `Recognition of seed certification agencies of foreign countries.`)
-  (str content) (str `The Central Government
-may, on the recommendation of the Committee and by notification in the Official Gazette, recognise any
-seed certification agency established in any foreign country, for the purposes of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1439&sectionno=18&orderno=23&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1439)
+  sectionNo (18)
+  orderNo 23
+  title `Recognition of seed certification agencies of foreign countries.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1439&sectionno=18&orderno=23&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_18_content:
+  string
+  line `The Central Government`
+  line `may, on the recommendation of the Committee and by notification in the Official Gazette, recognise any`
+  line `seed certification agency established in any foreign country, for the purposes of this Act.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 1440)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 24)
-  (str title) (str Penalty.)
-  (str content) (str `If any person--
-
-(a) contravenes any provision of this Act or any rule made thereunder; or
-
-(b) prevents a Seed Inspector from taking sample under this Act; or
-
-(c) prevents a Seed Inspector from exercising any other power conferred on him by or under this
-Act,
-
-he shall, on conviction, be punishable--
-
-(i) for the first offence with fine which may extend to five hundred rupees, and
-
-(ii) in the event of such person having been previously convicted of an offence under this section,
-with imprisonment for a term which may extend to six months, or with fine which may extend to one
-thousand rupees, or with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1440&sectionno=19&orderno=24&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1440)
+  sectionNo (19)
+  orderNo 24
+  title Penalty.
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1440&sectionno=19&orderno=24&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_19_content:
+  string
+  line `If any person--`
+  line
+  line `(a) contravenes any provision of this Act or any rule made thereunder; or`
+  line
+  line `(b) prevents a Seed Inspector from taking sample under this Act; or`
+  line
+  line `(c) prevents a Seed Inspector from exercising any other power conferred on him by or under this`
+  line Act,
+  line
+  line `he shall, on conviction, be punishable--`
+  line
+  line `(i) for the first offence with fine which may extend to five hundred rupees, and`
+  line
+  line `(ii) in the event of such person having been previously convicted of an offence under this section,`
+  line `with imprisonment for a term which may extend to six months, or with fine which may extend to one`
+  line `thousand rupees, or with both.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 1441)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 25)
-  (str title) (str `Forfeiture of property.`)
-  (str content) (str `When any person has been convicted under this Act for the
-contravention of any of the provisions of this Act or the rules made thereunder, the seed in respect of
-which the contravention has been committed may be forfeited to the Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1441&sectionno=20&orderno=25&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1441)
+  sectionNo (20)
+  orderNo 25
+  title `Forfeiture of property.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1441&sectionno=20&orderno=25&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_20_content:
+  string
+  line `When any person has been convicted under this Act for the`
+  line `contravention of any of the provisions of this Act or the rules made thereunder, the seed in respect of`
+  line `which the contravention has been committed may be forfeited to the Government.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 1442)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 26)
-  (str title) (str `Offences by companies.`)
-  (str content) (str `(1) Where an offence under this Act has been committed by a
-company, every person who at the time the offence was committed was in charge of, and was responsible
-to, the company for the conduct of the business of the company, as well as the company, shall be deemed
-to be guilty of the offence and shall be liable to be proceeded against and punished accordingly:
-
-Provided that nothing contained in this sub-section shall render any such person liable to any
-punishment under this Act if he proves that the offence was committed without his knowledge and that he
-exercised all due diligence to prevent the commission of such offence.
-
-(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been
-committed by a company and it is proved that the offence has been committed with the consent or
-connivance of, or is attributable to any neglect on the part of, any director, manager, secretary or other
-officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty
-of that offence and shall be liable to be proceeded against and punished accordingly.
-
-Explanation.--For the purposes of this section,--
-
-(a) "company" means any body corporate and includes a firm or other association of
-individuals; and
-
-(b) "director", in relation to a firm, means a partner in the firm.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1442&sectionno=21&orderno=26&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1442)
+  sectionNo (21)
+  orderNo 26
+  title `Offences by companies.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1442&sectionno=21&orderno=26&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_21_content:
+  string
+  line `(1) Where an offence under this Act has been committed by a`
+  line `company, every person who at the time the offence was committed was in charge of, and was responsible`
+  line `to, the company for the conduct of the business of the company, as well as the company, shall be deemed`
+  line `to be guilty of the offence and shall be liable to be proceeded against and punished accordingly:`
+  line
+  line `Provided that nothing contained in this sub-section shall render any such person liable to any`
+  line `punishment under this Act if he proves that the offence was committed without his knowledge and that he`
+  line `exercised all due diligence to prevent the commission of such offence.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been`
+  line `committed by a company and it is proved that the offence has been committed with the consent or`
+  line `connivance of, or is attributable to any neglect on the part of, any director, manager, secretary or other`
+  line `officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty`
+  line `of that offence and shall be liable to be proceeded against and punished accordingly.`
+  line
+  line `Explanation.--For the purposes of this section,--`
+  line
+  line `(a) "company" means any body corporate and includes a firm or other association of`
+  line `individuals; and`
+  line
+  line `(b) "director", in relation to a firm, means a partner in the firm.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 1443)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 27)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `Not suit, prosecution or other legal proceeding shall
-lie against the Government or any officer of the Government for anything which is in good faith done or
-intended to be done under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1443&sectionno=22&orderno=27&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1443)
+  sectionNo (22)
+  orderNo 27
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1443&sectionno=22&orderno=27&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_22_content:
+  string
+  line `Not suit, prosecution or other legal proceeding shall`
+  line `lie against the Government or any officer of the Government for anything which is in good faith done or`
+  line `intended to be done under this Act.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 1444)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 28)
-  (str title) (str `Power to give directions.`)
-  (str content) (str `The Central Government may give such directions to any State
-Government as may appear to the Central Government to be necessary for carrying into execution in the
-State any of the provisions of this Act or of any rule made thereunder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1444&sectionno=23&orderno=28&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1444)
+  sectionNo (23)
+  orderNo 28
+  title `Power to give directions.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1444&sectionno=23&orderno=28&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_23_content:
+  string
+  line `The Central Government may give such directions to any State`
+  line `Government as may appear to the Central Government to be necessary for carrying into execution in the`
+  line `State any of the provisions of this Act or of any rule made thereunder.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 1445)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 29)
-  (str title) (str Exemption.)
-  (str content) (str `Nothing in this Act shall apply to any seed of any notified kind or variety grown by
-a person and sold or delivered by him on his own premises direct to another person for being used by that
-person for the purpose of sowing or planting.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1445&sectionno=24&orderno=29&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1445)
+  sectionNo (24)
+  orderNo 29
+  title Exemption.
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1445&sectionno=24&orderno=29&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_24_content:
+  string
+  line `Nothing in this Act shall apply to any seed of any notified kind or variety grown by`
+  line `a person and sold or delivered by him on his own premises direct to another person for being used by that`
+  line `person for the purpose of sowing or planting.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 1446)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 30)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules to carry out the purposes of this Act.
-
-(2) In particular and without prejudice to the generality of the foregoing power, such rules may
-provide for--
-
-(a) the functions of the Committee and the travelling and daily allowances payable to members of
-the Committee and members of any sub-Committee appointed under sub-section (5) of section 3;
-
-(b) the functions of the Central Seed Laboratory;
-
-(c) the functions of a certification agency
-
-(d) the manner of marking or labelling the container of seed of any notified kind or variety under
-clause (c) of section 7 and under clause (b) of section 17;
-
-(e) the requirements which may be complied with by a person carrying on the business referred to
-in section 7;
-
-(f) the form of application for the grant of a certificate under section 9, the particulars it may
-contain, the fees which should accompany it, the form of the certificate and the conditions subject to
-which the certificate may be granted;
-
-^1[(ff) the standards to which seeds should conform;]
-
-(g) the form and manner in which and the fee on payment of which an appeal may be preferred
-under section 11 and the procedure to be followed by the appellate authority in disposing of the
-appeal;
-
-(h) the qualifications and duties of Seed Analysts and Seed Inspectors;
-
-(i) the manner in which samples may be taken by the Seed Inspector, the procedure for sending
-such samples to the Seed Analyst or the Central Seed Laboratory and the manner of analysing such
-samples;
-
-(j) the form of report of the result of the analysis under sub-section (1) or sub-section (2) of
-section 16 and the fees payable in respect of such report under the said sub-section (2);
-
-(k) the records to be maintained by a person carrying on the business referred to in section 7 and
-the particulars which such records shall contain; and
-
-(l) any other matter which is to be or may be prescribed.
-
-(3) Every rule made under this Act shall be laid as soon as may be after it is made, before each House
-of Parliament while it is in session for a total period of thirty days which may be comprised in one session
-or ^2[in two or more successive sessions, and if, before the expiry of the session immediately following the
-session or the successive sessions aforesaid] both Houses agree in making any modification in the rule or
-both Houses agree that the rule should not be made, that rule shall, thereafter have effect only in such
-modified form or be of no effect, as the case may be; so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str `1. Ins. by Act 55 of 1972, s. 5 (w.e.f. 16-1-1973).
-
-2. Subs. by s. 5, ibid., for certain words (w.e.f. 16-1-1973).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1446&sectionno=25&orderno=30&orgactid=AC_CEN_23_47_00004_196654_1517807324995)
+  sectionId (1446)
+  sectionNo (25)
+  orderNo 30
+  title `Power to make rules.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_47_00004_196654_1517807324995&sectionId=1446&sectionno=25&orderno=30&orgactid=AC_CEN_23_47_00004_196654_1517807324995
+obj_root_law_sections_25_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules to carry out the purposes of this Act.`
+  line
+  line `(2) In particular and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for--`
+  line
+  line `(a) the functions of the Committee and the travelling and daily allowances payable to members of`
+  line `the Committee and members of any sub-Committee appointed under sub-section (5) of section 3;`
+  line
+  line `(b) the functions of the Central Seed Laboratory;`
+  line
+  line `(c) the functions of a certification agency`
+  line
+  line `(d) the manner of marking or labelling the container of seed of any notified kind or variety under`
+  line `clause (c) of section 7 and under clause (b) of section 17;`
+  line
+  line `(e) the requirements which may be complied with by a person carrying on the business referred to`
+  line `in section 7;`
+  line
+  line `(f) the form of application for the grant of a certificate under section 9, the particulars it may`
+  line `contain, the fees which should accompany it, the form of the certificate and the conditions subject to`
+  line `which the certificate may be granted;`
+  line
+  line `^1[(ff) the standards to which seeds should conform;]`
+  line
+  line `(g) the form and manner in which and the fee on payment of which an appeal may be preferred`
+  line `under section 11 and the procedure to be followed by the appellate authority in disposing of the`
+  line appeal;
+  line
+  line `(h) the qualifications and duties of Seed Analysts and Seed Inspectors;`
+  line
+  line `(i) the manner in which samples may be taken by the Seed Inspector, the procedure for sending`
+  line `such samples to the Seed Analyst or the Central Seed Laboratory and the manner of analysing such`
+  line samples;
+  line
+  line `(j) the form of report of the result of the analysis under sub-section (1) or sub-section (2) of`
+  line `section 16 and the fees payable in respect of such report under the said sub-section (2);`
+  line
+  line `(k) the records to be maintained by a person carrying on the business referred to in section 7 and`
+  line `the particulars which such records shall contain; and`
+  line
+  line `(l) any other matter which is to be or may be prescribed.`
+  line
+  line `(3) Every rule made under this Act shall be laid as soon as may be after it is made, before each House`
+  line `of Parliament while it is in session for a total period of thirty days which may be comprised in one session`
+  line `or ^2[in two or more successive sessions, and if, before the expiry of the session immediately following the`
+  line `session or the successive sessions aforesaid] both Houses agree in making any modification in the rule or`
+  line `both Houses agree that the rule should not be made, that rule shall, thereafter have effect only in such`
+  line `modified form or be of no effect, as the case may be; so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that rule.`
+obj_root_law_sections_25_footnotes:
+  string
+  line `1. Ins. by Act 55 of 1972, s. 5 (w.e.f. 16-1-1973).`
+  line
+  line `2. Subs. by s. 5, ibid., for certain words (w.e.f. 16-1-1973).`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `बीज अधिनियम, 1966`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1712/3/H1966-54.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T12:43:32.258Z`)
-  (str pageCount) (int 8)
-  (str sections) obj_root_law_translations_hi_sections
+  title `बीज अधिनियम, 1966`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1712/3/H1966-54.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T12:43:32.258Z`
+  pageCount 8
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -825,388 +945,428 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_7
   obj_root_law_translations_hi_sections_8
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `बीज अधिधियम, 1966
-( 1966 का अधिधियम संखयां क 54 )
-[29 दिसम्ब र, 1966 ]
-कुछ धिक्रयार्थ बीजों की क् िा धिटी के धिधियमि
-और तत्सं सक्त बातों के धिए
-उपबन् ि करिे के धिए
-अधिधियम
-भारत गणराज्य के सत्रहिें िर्थ में संसि् द्व ारा धिम्ि धिधित रू प में यह अधिधियधमत हो: —
-1. संधिप्त िाम, धिस्ता र और धिस्ता र — (1) यह अधिधियम बीज अधिधियम, 1966 कहा जा सकेगा।
-(2) इसका धिस्ता र सम्पू णथ भारत पर है।
-(3) यह उस तारीि 1 को प्र िृत्त होगा धजसे केन्री य सरकार शासकीय राजपत्र में अधिसूचिा द्व ारा धियत करे, और इस
-अधिधियम के धिधभन् ि उपबन्िों के धिए तर्ा धिधभन् ि राज्यों के धिए या उिके धिधभन् ि िेत्रों के धिए धिधभन् ि तारीिें धियत की
-जा सकेंगी।
-2. पररभार्ाएं — इस अधिधियम में, जब तक दक संिभथ से अन्य र् ा अपेधित ि हो, —
-(1) “ कृधर् ” के अन्त गथत उद्याि कृधर् आती है;
-(2) “ केन्री य बीज प्र योगशािा ” से िारा 4 की उपिारा (1) के अिीि स् र् ा धपत या इस रू प में घोधर्त केन्री य बीज प्र
-योगशािा अधभप्रेत है;
-(3) “ प्र माणि अधभकरण ” से िारा 8 के अिीि स् र् ा धपत या िारा 18 के अिीि मान्य ताप्राप्त प्र माणि अधभकरण
-अधभप्रेत है;
-(4 ) “ सधमधत ” से िारा 3 की उपिारा (1) के अिीि गरित केन्री य बीज सधमधत अधभप्रेत है;
-(5) “ आिाि ” से कोई बक्स, बोति, संिूकची, रटि, पीपा, धिब्बा, पात्र, बोरी, र्ै िा, आिेष्ट ि या अन्य िस्तु, धजसमें
-कोई चीज या िस्तु रिी जाती है या पैक की जाती है, अधभप्रेत है;
-(6) “ धियाथत ” से भार त में से भारत के बाहर के स् र् ा ि को िे जािा अधभप्रेत है;
-(7) “ आयात ” से भारत के बाहर के स् र् ा ि से भारत में िािा अधभप्रेत है;
-(8) “ दकस्म ” से फसि के पौिों की एक या अधिक सम्ब द्ध जाधतयां या उपजाधतयां अधभप्रेत हैं, धजिमें हर एक
-अिग - अ िग या संयुक्त रू प से एक सामान्य िाम से जािी जाती हैं जैसे बन् ि गोभी, मक्का, िाि और गेहं;
-(9) दकसी बीज के सम्ब न् ि में, “ अधिसूधचत दकस्म या उपदकस्म ” से उसकी िारा 5 के अिीि अधिसूधचत दकस्म या
-उपदकस्म अधभप्रेत है;
-(10) “ धिधहत ” से इस अधिधियम के अिी ि बिाए गए धियमों द्व ारा धिधहत अधभप्रेत है;
-(11) “ बीज ” से बोिे या रोपण करिे के धिए उपयोग में िाए जािे िािे बीजों के धिम्ि धिधित िगों में से कोई
-अधभप्रेत है: —
-(i) िाद्य फसिों के बीज, धजिके अन्त गथत भक्ष्य धतिहि और फिों तर्ा शाकों के बीज आते हैं;
-( ii) धबिौिा;
-(iii) पशुओं के चारे के बीज,
-2 [(iv) जूट के बीज;]
-1 िा रा 1 से िारा 6, िारा 8 से िारा 11, िारा 18 और िारा 22 से िारा 25 तक के उपबंि संपूणथ भारत में 2 - 9 - 1968 से प्र िृत्त होंगे — िेधिए अधिसूचिा
-सं ० का ० आ ० 3122, तारीि 29 - 8 - 1968, भारत का राजपत्र, असािारण, भाग 2, िंि 3(ii), तारीि 2 - 9 - 1968, पृ ० 965.
-िारा 7, िारा 12 से िारा 17 (िोिों िाराएं सधम्म धित) िारा 19 से िारा 21 (िोिों िाराएं सधम्म धित) के उपबंि संपूणथ भारत में 1 - 10 - 1969 से प्र िृत्त होंगे — िेधिए
-अधिसूचिा सं ० का ० आ ० 4049, तारीि 24 - 9 - 1969, भारत का राजपत्र, असािारण, भाग 2, िारा 3(ii), पृ ० 1317.
-2 1972 के अधिधियम सं ० 55 की िारा 2 द्व ारा (16 - 1 - 1973 से ) अन्त:स् र्ा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `बीज अधिधियम, 1966`
+  line `( 1966 का अधिधियम संखयां क 54 )`
+  line `[29 दिसम्ब र, 1966 ]`
+  line `कुछ धिक्रयार्थ बीजों की क् िा धिटी के धिधियमि`
+  line `और तत्सं सक्त बातों के धिए`
+  line `उपबन् ि करिे के धिए`
+  line अधिधियम
+  line `भारत गणराज्य के सत्रहिें िर्थ में संसि् द्व ारा धिम्ि धिधित रू प में यह अधिधियधमत हो: —`
+  line `1. संधिप्त िाम, धिस्ता र और धिस्ता र — (1) यह अधिधियम बीज अधिधियम, 1966 कहा जा सकेगा।`
+  line `(2) इसका धिस्ता र सम्पू णथ भारत पर है।`
+  line `(3) यह उस तारीि 1 को प्र िृत्त होगा धजसे केन्री य सरकार शासकीय राजपत्र में अधिसूचिा द्व ारा धियत करे, और इस`
+  line `अधिधियम के धिधभन् ि उपबन्िों के धिए तर्ा धिधभन् ि राज्यों के धिए या उिके धिधभन् ि िेत्रों के धिए धिधभन् ि तारीिें धियत की`
+  line `जा सकेंगी।`
+  line `2. पररभार्ाएं — इस अधिधियम में, जब तक दक संिभथ से अन्य र् ा अपेधित ि हो, —`
+  line `(1) “ कृधर् ” के अन्त गथत उद्याि कृधर् आती है;`
+  line `(2) “ केन्री य बीज प्र योगशािा ” से िारा 4 की उपिारा (1) के अिीि स् र् ा धपत या इस रू प में घोधर्त केन्री य बीज प्र`
+  line `योगशािा अधभप्रेत है;`
+  line `(3) “ प्र माणि अधभकरण ” से िारा 8 के अिीि स् र् ा धपत या िारा 18 के अिीि मान्य ताप्राप्त प्र माणि अधभकरण`
+  line `अधभप्रेत है;`
+  line `(4 ) “ सधमधत ” से िारा 3 की उपिारा (1) के अिीि गरित केन्री य बीज सधमधत अधभप्रेत है;`
+  line `(5) “ आिाि ” से कोई बक्स, बोति, संिूकची, रटि, पीपा, धिब्बा, पात्र, बोरी, र्ै िा, आिेष्ट ि या अन्य िस्तु, धजसमें`
+  line `कोई चीज या िस्तु रिी जाती है या पैक की जाती है, अधभप्रेत है;`
+  line `(6) “ धियाथत ” से भार त में से भारत के बाहर के स् र् ा ि को िे जािा अधभप्रेत है;`
+  line `(7) “ आयात ” से भारत के बाहर के स् र् ा ि से भारत में िािा अधभप्रेत है;`
+  line `(8) “ दकस्म ” से फसि के पौिों की एक या अधिक सम्ब द्ध जाधतयां या उपजाधतयां अधभप्रेत हैं, धजिमें हर एक`
+  line `अिग - अ िग या संयुक्त रू प से एक सामान्य िाम से जािी जाती हैं जैसे बन् ि गोभी, मक्का, िाि और गेहं;`
+  line `(9) दकसी बीज के सम्ब न् ि में, “ अधिसूधचत दकस्म या उपदकस्म ” से उसकी िारा 5 के अिीि अधिसूधचत दकस्म या`
+  line `उपदकस्म अधभप्रेत है;`
+  line `(10) “ धिधहत ” से इस अधिधियम के अिी ि बिाए गए धियमों द्व ारा धिधहत अधभप्रेत है;`
+  line `(11) “ बीज ” से बोिे या रोपण करिे के धिए उपयोग में िाए जािे िािे बीजों के धिम्ि धिधित िगों में से कोई`
+  line `अधभप्रेत है: —`
+  line `(i) िाद्य फसिों के बीज, धजिके अन्त गथत भक्ष्य धतिहि और फिों तर्ा शाकों के बीज आते हैं;`
+  line `( ii) धबिौिा;`
+  line `(iii) पशुओं के चारे के बीज,`
+  line `2 [(iv) जूट के बीज;]`
+  line `1 िा रा 1 से िारा 6, िारा 8 से िारा 11, िारा 18 और िारा 22 से िारा 25 तक के उपबंि संपूणथ भारत में 2 - 9 - 1968 से प्र िृत्त होंगे — िेधिए अधिसूचिा`
+  line `सं ० का ० आ ० 3122, तारीि 29 - 8 - 1968, भारत का राजपत्र, असािारण, भाग 2, िंि 3(ii), तारीि 2 - 9 - 1968, पृ ० 965.`
+  line `िारा 7, िारा 12 से िारा 17 (िोिों िाराएं सधम्म धित) िारा 19 से िारा 21 (िोिों िाराएं सधम्म धित) के उपबंि संपूणथ भारत में 1 - 10 - 1969 से प्र िृत्त होंगे — िेधिए`
+  line `अधिसूचिा सं ० का ० आ ० 4049, तारीि 24 - 9 - 1969, भारत का राजपत्र, असािारण, भाग 2, िारा 3(ii), पृ ० 1317.`
+  line `2 1972 के अधिधियम सं ० 55 की िारा 2 द्व ारा (16 - 1 - 1973 से ) अन्त:स् र्ा धपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-और इसके अन्त गथत िाद्य फसिों या पशुओं के चारे की पौि और कंि, शल्क कंि, प्र कंि, जडें, किमें, सब प्र कार के उपरोपण
-और काधयक रू प से प्र िर्िथत अन्य पिार्थ आते हैं;
-(12) “ बीज धिश्िे र् क ” से िारा 12 के अिीि धियुक्त बीज धिश्िे र् क अधभप्रेत है;
-(13) “ बीज धिरीिक ” से िारा 13 के अिीि धियुक्त बीज धिरीिक अधभप्रेत है;
-(14) संघ राज्य िेत्र के सम्ब न् ि में, “ राज्य सरकार ” से उस राज्य िेत्र का प्र शासक अधभप्रेत है;
-(15) दकसी राज्य के सम्ब न् ि में, “ राज्य बीज प्र योगशािा ” से उस राज्य के धिए िारा 4 की उपिारा (2) के अिीि स् र्
-ा धपत या इस रू प में घोधर्त राज्य बीज प्र योगशािा अधभप्रेत है; तर्ा
-(16) “ उपदकस्म ” से दकस्म का ऐसा उपधिभाजि अधभप्रेत है जो िृधद्ध, उपज, पौिे, फि, बीज या अन्य ििण से
-पह चािा जा सकता है।
-3. केन्री य बीज सधमधत — (1) इस अधिधियम के प्र ारम्भ के पश्चा त् यर्ाशक्य शीघ्र, केन्री य सरकार, स् ि यं उसे और राज्य
-सरकारों को इस अधिधियम के प्र शासि से उद्भूत होिे िािी बातों पर सिाह िेिे के धिए और इस अधिधियम द्व ारा या उसके अिीि
-उसे सौं पे गए अन्य कृत्यों का पािि करिे के धिए केन्री य बीज सधमधत कही जािे िािी एक सधमधत गरित करेगी।
-(2) सधमधत धिम्ि धिधित सिस्यों से धमिकर बिेगी, अर्ाथत्: —
-(i) एक सभापधत, जो केन्री य सरकार द्व ारा िामधिर्िथष्ट दकया जाएगा;
-(ii) आि व् य धक् त, जो ऐसे धह तों का, धजन्हें केन्री य सरकार िीक समझे, प्र धतधिधित्ि करिे के धिए उस सरकार द्व ारा
-िामधिर्िथष्ट दकए जाएंगे, और धजिमें से िो से अन्यू ि व् य धक् त बीज उगािे िािों के प्र धतधिधि होंगे;
-(iii) राज्यों में से हर एक के द्व ारा िामधिर्िथष्ट दकया जािे िािा ए क - एक व् य धक् त।
-(3) सधमधत के सिस्य, जब तक उिके स् र् ा ि पि - त् या ग या मृत्यु के कारण या अन्य र् ा पहिे ही ररक्त ि हो जाएं, िो िर्थ के
-धिए पि िारण करिे के हकिार होंगे और पुि: िामधिर्िथष्ट होिे के पात्र होंगे।
-(4) सधमधत, केन्री य सरकार के पूिाथिुमोिि के अध्य िीि रहते हु ए, उपधिधियां बिा सकेगी, धजिसे गणपूर्तथ धियत हो तर्ा स्
-ि यं उसकी प्र दक्रया और उसके द्व ारा संव्य िहृत दकए जािे िािे सब कारबार का संचािि धिधियधमत हो।
-(5) सधमधत, चाहे तो पूणथतया सधमधत के सिस्यों से, चाहे पूणथतया अन्य व् य धक् त यों से, चा हे भागत: सधमधत के सिस्यों से और
-भागत: अन्य व् य धक् त यों से, जैसा िह िीक समझे, धमि कर बििे िािी एक या अन्य उपसधमधतयां, सधमधत के कृत् यों में से ऐसे कृत् यों के
-धििथहि के प्र योजिार्थ, जो उस उपसधमधत या उि उपसधमधतयों को सधमधत द्व ारा प्रत् या योधजत दकए जाएं, धियुक्त कर सकेगी।
-(6) सधमधत के या उसकी दकसी उपसधमधत के कृत्य, उसमें कोई ररधक् त होते हु ए भी, दकए जा सकेंगे।
-(7) केन्री य सरकार एक व् य धक् त को सधमधत का सधचि धियुक्त करेगी और सधमधत के धिए ऐसे धिधपकीय तर्ा अन्य
-कमथचाररिृन्ि का उपबंि करेगी जो केन्री य सरकार आिश्य क समझे।
-4. केन्री य बीज प्र योगशािा और राज्य बीज प्र योगशािा — (1) केन्री य सरकार शासकीय राजपत्र में अधिसूचिा द्व ारा केन्री य
-बीज प्र योगशािा को इस अधिधियम द्व ारा या उसके अिीि न् य स् त दकए गए कृत् यों के पािि के धिए एक केन्री य बी ज प्र योगशािा स् र्
-ा धपत कर सकेगी या दकसी बीज प्र योगशािा को केन्री य बीज प्र योगशािा घोधर्त कर सकेगी।
-(2) राज्य सरकार शासकीय राजपत्र में अधिसूचिा द्व ारा एक से अधिक राज्य बीज प्र योगशािाएं स् र् ा धपत कर सकेगी या
-दकसी बीज प्र योगशािा को राज्य बीज प्र योगशािा घो धर्त कर सकेगी, जहां दकसी अधिसूधचत दकस्म या उपदकस्म के बीजों का धिधहत
-रीधत से धिश्िे र् ण इस अधिधियम के अिीि बीज धिश्िे र् कों द्व ारा दकया जाएगा।
-5. बीजों की दकस्मों या उपदकस्मों को अधिसूधचत करिे की शधक्त — यदि सधमधत से परामशथ के पश्चा त् केन्री य सरकार की
-यह राय हो दक कृधर् के प्र योजिार्थ बेचे जािे िािे बीज की दकसी दकस्म या उपदकस्म की क् िा धिटी का धिधियमि करिा आिश्य क या
-समीचीि है, तो िह ऐसी दकस्म या उपदकस्म को इस अधिधियम के प्र योजिार्थ अधिसूधचत दकस्म या उपदकस्म, शासकीय राजपत्र में
-अधिसूचिा द्व ारा, घोधर्त कर सकेगी और धिधभन् ि राज्यों के धिए या उसके धिधभन् ि भागों के धिए धिधभन् ि दकस्में या उपदकस्में घोधर्त
-की जा सकेंगी।
-6. अंकुरण और शुद्धता आदि की न् यू ितम सीमाएं धिधिर्िथष्ट करिे की शधक्त — केन्री य सरकार, सधमधत से परामशथ के पश्चा त्
-और शासकी य राजपत्र में अधिसूचिा द्व ारा, धिम्ि धिधित धिधिर्िथष्ट कर सकेगी: —
-(क) दकसी अधिसूधचत दकस्म या उपदकस्म के बीज के बारे में अंकुरण और शुद्धता की न् यू ितम सीमाएं;
-(ि) िह धच ह् ि या िेबि धजससे यह प्र तीत हो दक िह बीज अंकुरण और शुद्धता की िंि (क) के अिीि धिधि र् िथष्ट न्
-यू ितम सीमाओं के अिुरूप है और िे धिधशधष्ट यां जो ऐसे धचह्ि या िेबि में अन्त र् िथष्ट हों।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `और इसके अन्त गथत िाद्य फसिों या पशुओं के चारे की पौि और कंि, शल्क कंि, प्र कंि, जडें, किमें, सब प्र कार के उपरोपण`
+  line `और काधयक रू प से प्र िर्िथत अन्य पिार्थ आते हैं;`
+  line `(12) “ बीज धिश्िे र् क ” से िारा 12 के अिीि धियुक्त बीज धिश्िे र् क अधभप्रेत है;`
+  line `(13) “ बीज धिरीिक ” से िारा 13 के अिीि धियुक्त बीज धिरीिक अधभप्रेत है;`
+  line `(14) संघ राज्य िेत्र के सम्ब न् ि में, “ राज्य सरकार ” से उस राज्य िेत्र का प्र शासक अधभप्रेत है;`
+  line `(15) दकसी राज्य के सम्ब न् ि में, “ राज्य बीज प्र योगशािा ” से उस राज्य के धिए िारा 4 की उपिारा (2) के अिीि स् र्`
+  line `ा धपत या इस रू प में घोधर्त राज्य बीज प्र योगशािा अधभप्रेत है; तर्ा`
+  line `(16) “ उपदकस्म ” से दकस्म का ऐसा उपधिभाजि अधभप्रेत है जो िृधद्ध, उपज, पौिे, फि, बीज या अन्य ििण से`
+  line `पह चािा जा सकता है।`
+  line `3. केन्री य बीज सधमधत — (1) इस अधिधियम के प्र ारम्भ के पश्चा त् यर्ाशक्य शीघ्र, केन्री य सरकार, स् ि यं उसे और राज्य`
+  line `सरकारों को इस अधिधियम के प्र शासि से उद्भूत होिे िािी बातों पर सिाह िेिे के धिए और इस अधिधियम द्व ारा या उसके अिीि`
+  line `उसे सौं पे गए अन्य कृत्यों का पािि करिे के धिए केन्री य बीज सधमधत कही जािे िािी एक सधमधत गरित करेगी।`
+  line `(2) सधमधत धिम्ि धिधित सिस्यों से धमिकर बिेगी, अर्ाथत्: —`
+  line `(i) एक सभापधत, जो केन्री य सरकार द्व ारा िामधिर्िथष्ट दकया जाएगा;`
+  line `(ii) आि व् य धक् त, जो ऐसे धह तों का, धजन्हें केन्री य सरकार िीक समझे, प्र धतधिधित्ि करिे के धिए उस सरकार द्व ारा`
+  line `िामधिर्िथष्ट दकए जाएंगे, और धजिमें से िो से अन्यू ि व् य धक् त बीज उगािे िािों के प्र धतधिधि होंगे;`
+  line `(iii) राज्यों में से हर एक के द्व ारा िामधिर्िथष्ट दकया जािे िािा ए क - एक व् य धक् त।`
+  line `(3) सधमधत के सिस्य, जब तक उिके स् र् ा ि पि - त् या ग या मृत्यु के कारण या अन्य र् ा पहिे ही ररक्त ि हो जाएं, िो िर्थ के`
+  line `धिए पि िारण करिे के हकिार होंगे और पुि: िामधिर्िथष्ट होिे के पात्र होंगे।`
+  line `(4) सधमधत, केन्री य सरकार के पूिाथिुमोिि के अध्य िीि रहते हु ए, उपधिधियां बिा सकेगी, धजिसे गणपूर्तथ धियत हो तर्ा स्`
+  line `ि यं उसकी प्र दक्रया और उसके द्व ारा संव्य िहृत दकए जािे िािे सब कारबार का संचािि धिधियधमत हो।`
+  line `(5) सधमधत, चाहे तो पूणथतया सधमधत के सिस्यों से, चाहे पूणथतया अन्य व् य धक् त यों से, चा हे भागत: सधमधत के सिस्यों से और`
+  line `भागत: अन्य व् य धक् त यों से, जैसा िह िीक समझे, धमि कर बििे िािी एक या अन्य उपसधमधतयां, सधमधत के कृत् यों में से ऐसे कृत् यों के`
+  line `धििथहि के प्र योजिार्थ, जो उस उपसधमधत या उि उपसधमधतयों को सधमधत द्व ारा प्रत् या योधजत दकए जाएं, धियुक्त कर सकेगी।`
+  line `(6) सधमधत के या उसकी दकसी उपसधमधत के कृत्य, उसमें कोई ररधक् त होते हु ए भी, दकए जा सकेंगे।`
+  line `(7) केन्री य सरकार एक व् य धक् त को सधमधत का सधचि धियुक्त करेगी और सधमधत के धिए ऐसे धिधपकीय तर्ा अन्य`
+  line `कमथचाररिृन्ि का उपबंि करेगी जो केन्री य सरकार आिश्य क समझे।`
+  line `4. केन्री य बीज प्र योगशािा और राज्य बीज प्र योगशािा — (1) केन्री य सरकार शासकीय राजपत्र में अधिसूचिा द्व ारा केन्री य`
+  line `बीज प्र योगशािा को इस अधिधियम द्व ारा या उसके अिीि न् य स् त दकए गए कृत् यों के पािि के धिए एक केन्री य बी ज प्र योगशािा स् र्`
+  line `ा धपत कर सकेगी या दकसी बीज प्र योगशािा को केन्री य बीज प्र योगशािा घोधर्त कर सकेगी।`
+  line `(2) राज्य सरकार शासकीय राजपत्र में अधिसूचिा द्व ारा एक से अधिक राज्य बीज प्र योगशािाएं स् र् ा धपत कर सकेगी या`
+  line `दकसी बीज प्र योगशािा को राज्य बीज प्र योगशािा घो धर्त कर सकेगी, जहां दकसी अधिसूधचत दकस्म या उपदकस्म के बीजों का धिधहत`
+  line `रीधत से धिश्िे र् ण इस अधिधियम के अिीि बीज धिश्िे र् कों द्व ारा दकया जाएगा।`
+  line `5. बीजों की दकस्मों या उपदकस्मों को अधिसूधचत करिे की शधक्त — यदि सधमधत से परामशथ के पश्चा त् केन्री य सरकार की`
+  line `यह राय हो दक कृधर् के प्र योजिार्थ बेचे जािे िािे बीज की दकसी दकस्म या उपदकस्म की क् िा धिटी का धिधियमि करिा आिश्य क या`
+  line `समीचीि है, तो िह ऐसी दकस्म या उपदकस्म को इस अधिधियम के प्र योजिार्थ अधिसूधचत दकस्म या उपदकस्म, शासकीय राजपत्र में`
+  line `अधिसूचिा द्व ारा, घोधर्त कर सकेगी और धिधभन् ि राज्यों के धिए या उसके धिधभन् ि भागों के धिए धिधभन् ि दकस्में या उपदकस्में घोधर्त`
+  line `की जा सकेंगी।`
+  line `6. अंकुरण और शुद्धता आदि की न् यू ितम सीमाएं धिधिर्िथष्ट करिे की शधक्त — केन्री य सरकार, सधमधत से परामशथ के पश्चा त्`
+  line `और शासकी य राजपत्र में अधिसूचिा द्व ारा, धिम्ि धिधित धिधिर्िथष्ट कर सकेगी: —`
+  line `(क) दकसी अधिसूधचत दकस्म या उपदकस्म के बीज के बारे में अंकुरण और शुद्धता की न् यू ितम सीमाएं;`
+  line `(ि) िह धच ह् ि या िेबि धजससे यह प्र तीत हो दक िह बीज अंकुरण और शुद्धता की िंि (क) के अिीि धिधि र् िथष्ट न्`
+  line `यू ितम सीमाओं के अिुरूप है और िे धिधशधष्ट यां जो ऐसे धचह्ि या िेबि में अन्त र् िथष्ट हों।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-7. अधिसूधचत दकस्मों या उपदकस्मों के बीजों के धिक्रय का धिधियमि — कोई व् य धक् त स् ि यं या अपिी ओर से दकसी अन्य के
-माध्य म से दकसी अधिसूधचत दकस्म या उपदकस्म के बीज को बेचिे, धिक्रय के धिए रििे, बेचिे की प्रस् र् ा पिा करिे, उसका िस्तु -
-धिधिमय करिे या अन्य र् ा संिाय करिे का कारबार तब के धसिाय िहीं चिाएगा जब दक —
-(क) उस बीज की दकस्म या उपदकस्म के बारे में पहचाि हो सके;
-(ि) िह बीज िारा 6 के िंि (क) के अिीि धिधि र् िथष्ट अंकुरण और शुद्धता की न् यू ितम सीमाओं के अिुरूप हो;
-(ग ) िारा 6 के िंि (ि) के अिीि धिधिर्िथष्ट उसकी िीक धिधशधष्ट यों से युक्त धचह्ि या िेबि धिधहत रू प से उस
-बीज के आिाि पर िगा हो; तर्ा
-(घ) िह अन्य ऐसी अपेिाओं का अिुपािि करे जो धिधहत की जाएं।
-8. प्र माणि अधभकरण — राज्य सरकार या उसके परामशथ से केन्री य सरकार, इस अधिधियम द्व ारा या उसके अिीि प्र माणि
-अधभकरण को न् य स् त कृत् यों के पािि के धिए एक प्र माणि अधभकरण, शासकीय राजपत्र में अधिसूचिा द्व ारा, स् र् ा धपत कर सकेगी।
-1 [8 क. केन्री य बीज प्र माणि बोिथ — (1) केन्री य सरकार प्र माणि से सम्ब धन्ि त सब मामिों पर केन्री य सरकार और राज्य
-सरकारों को सिाह िेिे के धिए तर्ा िारा 8 के अिीि स् र् ा धपत अधभकरणों के कायथकरण का समन्ि य करिे के धिए एक केन्री य बीज प्र
-माणि बोिथ की (धजसे इसमें इसके पश्चा त् बोिथ कहा गया है), राजपत्र में अ धि सूचिा द्व ारा, स् र् ा पिा करेगी।
-(2) बोिथ में धिम्ि धिधित सिस्य होंगे, अर्ाथत्: —
-(i) अध्य ि जो केन्री य सरकार द्व ारा िामधिर्िथष्ट दकया जाएगा;
-(ii) चार सिस्य जो कृधर् धििेशकों के रू प में राज्य सरकारों द्व ारा धियोधजत व् य धक् त यों में से केन्री य सरकार द्व ारा
-िामधिर्िथष्ट दकए जाएंगे;
-(iii) तीि सिस्य जो कृधर् धिश्ि धिद्याियों द्व ारा अिुसंिाि धििेशकों के रू प में धियोधजत व् य धक् त यों में से केन्री य
-सरकार द्व ारा िामधिर्िथष्ट दकए जाएंगे;
-(iv) तेरह व् य धक् त जो ऐसे धह तों का प्र धतधिधित्ि करिे के धिए, धजन्हें केन्री य सरकार उधचत समझे, केन्री य
-सरकार द्व ारा िामधिर्िथष्ट दकए जाएंगे, धजिमें कम से कम चार व् य धक्त बीज उत्पा िकों या व् या पाररयों के प्र धतधिधि होंगे।
-(3) बोिथ का सिस्य, जब तक उसका स् र् ा ि त् या ग - पत्र िेिे से या अन्य र् ा पहिे ही ररक्त ि हो जाए, अपिे िामधििेशि की
-तारीि से िो िर्थ के धिए पि िारण करिे का हकिार होगा:
-परन् तु उपिारा (2) के िण्ि (ii) या िण्ि (iii) के अिीि िामधिर्िथष्ट व् य धक् त केिि तब तक पि िारण करेगा जब तक िह
-उस धियोजि को िारण करता है धजसके आिार पर उसका िामधििेशि दकया गया र् ा।
-8 ि. अन्य सधमधतयां — बोिथ ऐसी शधक्त यों का प्र योग तर्ा ऐसे कतथव्यों का पािि करिे के धिए जो बोिथ द्व ारा ऐसी शतों के
-अिीि, जो िह उधचत समझे, प्रत् या योधजत दकए जाएं उतिी सधमधतयों की धियुधक् त कर सकता है धजतिी िह उधचत समझे और धजिमें
-केिि बोिथ के सिस्य होंगे या केिि अन्य व् य धक् त होंगे या भागत: बोिथ के सिस्य और भागत: अन्य व् य धक् त होंगे, जैसा िह उधचत समझे।
-8 ग. बोिथ या सधमधत की कायथिाधहयों का, उसमें दकसी ररधक्त के कारण अधिधिमान्य ि होिा — बोिथ या उसकी दकसी सधमधत
-की कोई कायथिाही उसमें दकसी ररधक् त के कारण या उसके गिि में दकसी त्रु रट के कारण ही अधिधिमान्य ि होगी।
-8 घ. बोिथ के धिए प्र दक्रया — बोिथ, अपिी प्र दक्रया और अपिी दकसी सधमधत की प्र दक्रया को तर्ा अपिे द्व ारा या ऐसी सधमधत द्व
-ारा दकए जािे िािे समस्त कामकाज के संचािि को धिधियधमत करिे के प्र योजि के धिए, केन्री य सरकार के पूिाथिुमोिि से
-उपधिधियां बिा सकता है।
-8 ङ. सधचि तर्ा अन्य अधिकारी — केन्री य सरकार —
-(i) एक व् य धक् त को बोिथ का सधचि धियुक्त करेगी, और
-(ii) बोिथ के धिए ऐसे तकिीकी और अन्य कमथचाररिृन्ि की व् य िस् र्ा करेगी जो केन्री य सरकार आिश्य क समझे। ]
-9. प्र माणि अधभकरण द्व ारा प्र माण पत्र का अिुिाि — (1) यदि कोई व् य धक् त, जो दकसी अधिसूधचत दकस्म या उपदकस्म का
-बीज बेचे, बेचिे की प्रस् र् ा पिा करे, उसका िस्तु - धिधिमय करे या अन्य र् ा संिाय करे, उस बीज को प्र माणि अधभकरण द्व ारा प्र माधणत
-करािे की िांछा करे, तो िह उस प्र योजिार्थ प्र माण पत्र के धिए प्र माणि अधभकरण से आिेिि कर सकेगा।
-(2) उपिारा (1) के अिीि हर आिेिि ऐसे प्ररू प में दकया जाएगा, उसमें ऐसी धिधशधष्ट यां अन्त र् िथष्ट होंगी और उसके सार्
-में ऐसी फीस होगी जो धिधहत की जाए।
-1 1972 के अधिधियम सं ० 55 की िारा 3 द्व ारा (16 - 1 - 1973) से अंत:स् र्ा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `7. अधिसूधचत दकस्मों या उपदकस्मों के बीजों के धिक्रय का धिधियमि — कोई व् य धक् त स् ि यं या अपिी ओर से दकसी अन्य के`
+  line `माध्य म से दकसी अधिसूधचत दकस्म या उपदकस्म के बीज को बेचिे, धिक्रय के धिए रििे, बेचिे की प्रस् र् ा पिा करिे, उसका िस्तु -`
+  line `धिधिमय करिे या अन्य र् ा संिाय करिे का कारबार तब के धसिाय िहीं चिाएगा जब दक —`
+  line `(क) उस बीज की दकस्म या उपदकस्म के बारे में पहचाि हो सके;`
+  line `(ि) िह बीज िारा 6 के िंि (क) के अिीि धिधि र् िथष्ट अंकुरण और शुद्धता की न् यू ितम सीमाओं के अिुरूप हो;`
+  line `(ग ) िारा 6 के िंि (ि) के अिीि धिधिर्िथष्ट उसकी िीक धिधशधष्ट यों से युक्त धचह्ि या िेबि धिधहत रू प से उस`
+  line `बीज के आिाि पर िगा हो; तर्ा`
+  line `(घ) िह अन्य ऐसी अपेिाओं का अिुपािि करे जो धिधहत की जाएं।`
+  line `8. प्र माणि अधभकरण — राज्य सरकार या उसके परामशथ से केन्री य सरकार, इस अधिधियम द्व ारा या उसके अिीि प्र माणि`
+  line `अधभकरण को न् य स् त कृत् यों के पािि के धिए एक प्र माणि अधभकरण, शासकीय राजपत्र में अधिसूचिा द्व ारा, स् र् ा धपत कर सकेगी।`
+  line `1 [8 क. केन्री य बीज प्र माणि बोिथ — (1) केन्री य सरकार प्र माणि से सम्ब धन्ि त सब मामिों पर केन्री य सरकार और राज्य`
+  line `सरकारों को सिाह िेिे के धिए तर्ा िारा 8 के अिीि स् र् ा धपत अधभकरणों के कायथकरण का समन्ि य करिे के धिए एक केन्री य बीज प्र`
+  line `माणि बोिथ की (धजसे इसमें इसके पश्चा त् बोिथ कहा गया है), राजपत्र में अ धि सूचिा द्व ारा, स् र् ा पिा करेगी।`
+  line `(2) बोिथ में धिम्ि धिधित सिस्य होंगे, अर्ाथत्: —`
+  line `(i) अध्य ि जो केन्री य सरकार द्व ारा िामधिर्िथष्ट दकया जाएगा;`
+  line `(ii) चार सिस्य जो कृधर् धििेशकों के रू प में राज्य सरकारों द्व ारा धियोधजत व् य धक् त यों में से केन्री य सरकार द्व ारा`
+  line `िामधिर्िथष्ट दकए जाएंगे;`
+  line `(iii) तीि सिस्य जो कृधर् धिश्ि धिद्याियों द्व ारा अिुसंिाि धििेशकों के रू प में धियोधजत व् य धक् त यों में से केन्री य`
+  line `सरकार द्व ारा िामधिर्िथष्ट दकए जाएंगे;`
+  line `(iv) तेरह व् य धक् त जो ऐसे धह तों का प्र धतधिधित्ि करिे के धिए, धजन्हें केन्री य सरकार उधचत समझे, केन्री य`
+  line `सरकार द्व ारा िामधिर्िथष्ट दकए जाएंगे, धजिमें कम से कम चार व् य धक्त बीज उत्पा िकों या व् या पाररयों के प्र धतधिधि होंगे।`
+  line `(3) बोिथ का सिस्य, जब तक उसका स् र् ा ि त् या ग - पत्र िेिे से या अन्य र् ा पहिे ही ररक्त ि हो जाए, अपिे िामधििेशि की`
+  line `तारीि से िो िर्थ के धिए पि िारण करिे का हकिार होगा:`
+  line `परन् तु उपिारा (2) के िण्ि (ii) या िण्ि (iii) के अिीि िामधिर्िथष्ट व् य धक् त केिि तब तक पि िारण करेगा जब तक िह`
+  line `उस धियोजि को िारण करता है धजसके आिार पर उसका िामधििेशि दकया गया र् ा।`
+  line `8 ि. अन्य सधमधतयां — बोिथ ऐसी शधक्त यों का प्र योग तर्ा ऐसे कतथव्यों का पािि करिे के धिए जो बोिथ द्व ारा ऐसी शतों के`
+  line `अिीि, जो िह उधचत समझे, प्रत् या योधजत दकए जाएं उतिी सधमधतयों की धियुधक् त कर सकता है धजतिी िह उधचत समझे और धजिमें`
+  line `केिि बोिथ के सिस्य होंगे या केिि अन्य व् य धक् त होंगे या भागत: बोिथ के सिस्य और भागत: अन्य व् य धक् त होंगे, जैसा िह उधचत समझे।`
+  line `8 ग. बोिथ या सधमधत की कायथिाधहयों का, उसमें दकसी ररधक्त के कारण अधिधिमान्य ि होिा — बोिथ या उसकी दकसी सधमधत`
+  line `की कोई कायथिाही उसमें दकसी ररधक् त के कारण या उसके गिि में दकसी त्रु रट के कारण ही अधिधिमान्य ि होगी।`
+  line `8 घ. बोिथ के धिए प्र दक्रया — बोिथ, अपिी प्र दक्रया और अपिी दकसी सधमधत की प्र दक्रया को तर्ा अपिे द्व ारा या ऐसी सधमधत द्व`
+  line `ारा दकए जािे िािे समस्त कामकाज के संचािि को धिधियधमत करिे के प्र योजि के धिए, केन्री य सरकार के पूिाथिुमोिि से`
+  line `उपधिधियां बिा सकता है।`
+  line `8 ङ. सधचि तर्ा अन्य अधिकारी — केन्री य सरकार —`
+  line `(i) एक व् य धक् त को बोिथ का सधचि धियुक्त करेगी, और`
+  line `(ii) बोिथ के धिए ऐसे तकिीकी और अन्य कमथचाररिृन्ि की व् य िस् र्ा करेगी जो केन्री य सरकार आिश्य क समझे। ]`
+  line `9. प्र माणि अधभकरण द्व ारा प्र माण पत्र का अिुिाि — (1) यदि कोई व् य धक् त, जो दकसी अधिसूधचत दकस्म या उपदकस्म का`
+  line `बीज बेचे, बेचिे की प्रस् र् ा पिा करे, उसका िस्तु - धिधिमय करे या अन्य र् ा संिाय करे, उस बीज को प्र माणि अधभकरण द्व ारा प्र माधणत`
+  line `करािे की िांछा करे, तो िह उस प्र योजिार्थ प्र माण पत्र के धिए प्र माणि अधभकरण से आिेिि कर सकेगा।`
+  line `(2) उपिारा (1) के अिीि हर आिेिि ऐसे प्ररू प में दकया जाएगा, उसमें ऐसी धिधशधष्ट यां अन्त र् िथष्ट होंगी और उसके सार्`
+  line `में ऐसी फीस होगी जो धिधहत की जाए।`
+  line `1 1972 के अधिधियम सं ० 55 की िारा 3 द्व ारा (16 - 1 - 1973) से अंत:स् र्ा धपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-(3) प्र माणपत्र के अिुिाि के धिए ऐसे दकसी आिेिि के प्र ाप्त होिे पर प्र माणि अधभकरण, ऐसी जांच के पश्चा त् जो िह िीक
-समझे, और अपिा इस बात का समािाि करिे के पश्चा त् दक िह बीज धजसके सम्ब न् ि में आिेिि है उस बीज के धिए 1 [ धिधहत स्
-त रमाि ] के अिुरूप है, एक प्र माणपत्र ऐसे प्ररू प में और ऐसी शतों पर अिुित्त कर सकेगा जो धिधहत की जाएं:
-2 [ परन् तु ऐसे स् त रमाि, िारा 6 के िण्ि (क) में उस बीज के धिए धिधिर्िथष्ट अंकुरण और शुद्धता की न् यू ितम सीमाओं से
-धिम्ि तर िहीं होंगे। ]
-10. प्र माण पत्र का प्र धतसंहरण — यदि प्र माणि अधभकरण का, उससे इस धिधमत्त धििेश दकए जािे पर या अन्य र् ा, इस बात का
-समािाि हो जाए दक —
-(क) िारा 9 के अिीि उसके द्व ारा दिया गया प्र माणपत्र दकसी आिश्य क तथ्य के बारे में िुव्यथ पिेशि द्व ारा अधभप्राप्त
-दकया गया है; अर्िा
-(ि) प्र माणपत्र का िारक उि शतों के अिुपािि में, धजिके अध्य िीि दक प्र माणपत्र अिुित्त दकया गया है,
-युधक्त युक्त हेतु के धबिा असफि रहा है या उसिे इस अधिधियम या ति् िीि बिाए गए धियमों के उपबन्िों में से दकसी का
-उल्िं घि दकया है,
-तो दकसी ऐसी अन्य शाधस्त पर प्र धतकूि प्र भाि िािे धबिा धजसका दक प्र माणपत्र का िारक इस अधिधियम के अिीि िायी हो प्र माणि
-अधभकरण प्र माणपत्र के िारक को हेतुक िर्शथत करिे का अिसर िेिे के पश्चा त् प्र माणपत्र को प्र धतसंहृत कर सकेगा।
-11. अपीि — (1) कोई व् य धक्त, जो प्र माणि अधभकरण के िारा 9 या िारा 10 के अिीि के धिधिश्च य से व् य धर्त हो, उस
-तारीि से तीस दिि के भीतर, जब उसे िह धिधिश्च य संसूधचत दकया जाए, और ऐसी फीस के संिाय पर जो धिधहत की जाए, ऐसे प्र
-ाधिकारी को अपीि कर सकेगा जो राज्य सरकार द्व ारा इस धिधमत्त धिधिर्िथष्ट दकया जाए:
-परन् तु यदि अपीि प्र ाधिकारी का समािाि हो जाए दक समय के भीतर अपीि फाइि करिे में अपीिार्ी पयाथप्त हेतुक से
-धििाररत हु आ तो िह तीस दिि की उक्त कािािधि के अिसाि के पश्चा त् भी अपीि ग्र हण कर सकेगा।
-(2) उपिारा (1) के अिीि अपीि प्र ाप्त होिे पर अपीि प्र ाधिकारी अपीिार्ी को सुििाई का अिसर िेिे के पश्चा त् अपीि
-यर्ासम्भ ि शीघ्रता के सार् धिपटाएगा।
-(3) अपीि प्र ाधिकारी का इस िारा के अिीि हर आिेश अधन्त म होगा।
-12. बीज धिश्िे र् क — शासकीय राजपत्र में अधिसूचिा द्व ारा, राज्य सरकार धिधहत अहथताएं रििे िािे ऐसे व् य धक् त यों को,
-धजन्हें िह िीक समझे, बीज धिश्िे र् क धियुक्त कर सकेगी और िे िेत्र पररभाधर्त कर सकेगी धजिमें िे अधिकाररता का प्र योग करेंगे।
-13. बीज धिरीिक — (1) शासकीय राजपत्र में अधिसूचिा द्व ारा, राज्य सरकार धिधहत अहथताएं रििे िािे ऐसे व् य धक् त यों को,
-धजन्हें िह िीक सम झे, बीज धिरीिक के रू प में धियुक्त कर सकेगी और िे िेत्र पररभाधर्त कर सकेगी धजिमें िे अधिकाररता का प्र
-योग करेंगे।
-(2) हर बीज धिरीिक भारतीय िंि संधहता (1860 का 45) की िारा 21 के अर्थ के अन्ि र िोक सेिक समझा जाएगा और
-शासकीय रू प में ऐसे प्र ाधिका री के अिीिस् र् होगा धजसे राज्य सरकार इस धिधमत्त धिधिर्िथष्ट करे।
-14. बीज धिरीिक की शधक्त यां — (1) बीज धिरीिक —
-(क) धिम्ि धिधित से दकसी अधिसूधचत दकस्म या उपदकस्म के बीज के िमूिे िे सकेगा: —
-(i) ऐसे बीज को बेचिे िािा कोई व् य धक् त;
-(ii) कोई व् य धक् त जो दकसी क्रे ता या परेधर्ती को ऐसा बीज प्र िधहत करिे, पररित्त करिे या पररित्त करिे
-की तैयारी करिे के अिुक्रम में है;
-(iii) कोई क्रे ता या परेधर्ती धजसे ऐसे बीज का पररिाि हो चुका है;
-(ि) ऐसा िमूिा उस िेत्र के बीज धिश्िे र् क को, धजसमें िह िमूिा धिया गया हो, धिश्िे र् णार्थ भेज सकेगा;
-(ग) दकसी ऐसे स् र् ा ि में, धजसके बारे में उसके पास यह धिश्िा स करिे का कारण हो दक उसमें इस अधिधियम के
-अिीि कोई अपराि दकया गया है या दकया जा रहा है, ऐसी सहायता के सार्, यदि कोई हो, जेसी िह आिश्य क समझे, सब
-युधक्त युक्त समयों पर प्र िेश कर सकेगा और उसकी तिाशी िे सकेगा; तर्ा दकसी ऐसे बीज को, धजसके बारे में अपराि
-दकया गया है या दकया जा रहा है, कब्जे में रििे िािे व् य धक् त को धिधित आिेश िे सकेगा दक िह तीस दिि से अिधि क की
-1 1972 के अधिधियम सं ० 55 की िारा 4 द्व ारा (16 - 1 - 1973) से कुछ शब्िों के स् र् ा ि पर प्र धतस् र्ा धपत।
-2 1972 के अधि धियम सं ० 55 की िारा 4 द्व ारा (16 - 1 - 1973) से अंत:स् र्ा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `(3) प्र माणपत्र के अिुिाि के धिए ऐसे दकसी आिेिि के प्र ाप्त होिे पर प्र माणि अधभकरण, ऐसी जांच के पश्चा त् जो िह िीक`
+  line `समझे, और अपिा इस बात का समािाि करिे के पश्चा त् दक िह बीज धजसके सम्ब न् ि में आिेिि है उस बीज के धिए 1 [ धिधहत स्`
+  line `त रमाि ] के अिुरूप है, एक प्र माणपत्र ऐसे प्ररू प में और ऐसी शतों पर अिुित्त कर सकेगा जो धिधहत की जाएं:`
+  line `2 [ परन् तु ऐसे स् त रमाि, िारा 6 के िण्ि (क) में उस बीज के धिए धिधिर्िथष्ट अंकुरण और शुद्धता की न् यू ितम सीमाओं से`
+  line `धिम्ि तर िहीं होंगे। ]`
+  line `10. प्र माण पत्र का प्र धतसंहरण — यदि प्र माणि अधभकरण का, उससे इस धिधमत्त धििेश दकए जािे पर या अन्य र् ा, इस बात का`
+  line `समािाि हो जाए दक —`
+  line `(क) िारा 9 के अिीि उसके द्व ारा दिया गया प्र माणपत्र दकसी आिश्य क तथ्य के बारे में िुव्यथ पिेशि द्व ारा अधभप्राप्त`
+  line `दकया गया है; अर्िा`
+  line `(ि) प्र माणपत्र का िारक उि शतों के अिुपािि में, धजिके अध्य िीि दक प्र माणपत्र अिुित्त दकया गया है,`
+  line `युधक्त युक्त हेतु के धबिा असफि रहा है या उसिे इस अधिधियम या ति् िीि बिाए गए धियमों के उपबन्िों में से दकसी का`
+  line `उल्िं घि दकया है,`
+  line `तो दकसी ऐसी अन्य शाधस्त पर प्र धतकूि प्र भाि िािे धबिा धजसका दक प्र माणपत्र का िारक इस अधिधियम के अिीि िायी हो प्र माणि`
+  line `अधभकरण प्र माणपत्र के िारक को हेतुक िर्शथत करिे का अिसर िेिे के पश्चा त् प्र माणपत्र को प्र धतसंहृत कर सकेगा।`
+  line `11. अपीि — (1) कोई व् य धक्त, जो प्र माणि अधभकरण के िारा 9 या िारा 10 के अिीि के धिधिश्च य से व् य धर्त हो, उस`
+  line `तारीि से तीस दिि के भीतर, जब उसे िह धिधिश्च य संसूधचत दकया जाए, और ऐसी फीस के संिाय पर जो धिधहत की जाए, ऐसे प्र`
+  line `ाधिकारी को अपीि कर सकेगा जो राज्य सरकार द्व ारा इस धिधमत्त धिधिर्िथष्ट दकया जाए:`
+  line `परन् तु यदि अपीि प्र ाधिकारी का समािाि हो जाए दक समय के भीतर अपीि फाइि करिे में अपीिार्ी पयाथप्त हेतुक से`
+  line `धििाररत हु आ तो िह तीस दिि की उक्त कािािधि के अिसाि के पश्चा त् भी अपीि ग्र हण कर सकेगा।`
+  line `(2) उपिारा (1) के अिीि अपीि प्र ाप्त होिे पर अपीि प्र ाधिकारी अपीिार्ी को सुििाई का अिसर िेिे के पश्चा त् अपीि`
+  line `यर्ासम्भ ि शीघ्रता के सार् धिपटाएगा।`
+  line `(3) अपीि प्र ाधिकारी का इस िारा के अिीि हर आिेश अधन्त म होगा।`
+  line `12. बीज धिश्िे र् क — शासकीय राजपत्र में अधिसूचिा द्व ारा, राज्य सरकार धिधहत अहथताएं रििे िािे ऐसे व् य धक् त यों को,`
+  line `धजन्हें िह िीक समझे, बीज धिश्िे र् क धियुक्त कर सकेगी और िे िेत्र पररभाधर्त कर सकेगी धजिमें िे अधिकाररता का प्र योग करेंगे।`
+  line `13. बीज धिरीिक — (1) शासकीय राजपत्र में अधिसूचिा द्व ारा, राज्य सरकार धिधहत अहथताएं रििे िािे ऐसे व् य धक् त यों को,`
+  line `धजन्हें िह िीक सम झे, बीज धिरीिक के रू प में धियुक्त कर सकेगी और िे िेत्र पररभाधर्त कर सकेगी धजिमें िे अधिकाररता का प्र`
+  line `योग करेंगे।`
+  line `(2) हर बीज धिरीिक भारतीय िंि संधहता (1860 का 45) की िारा 21 के अर्थ के अन्ि र िोक सेिक समझा जाएगा और`
+  line `शासकीय रू प में ऐसे प्र ाधिका री के अिीिस् र् होगा धजसे राज्य सरकार इस धिधमत्त धिधिर्िथष्ट करे।`
+  line `14. बीज धिरीिक की शधक्त यां — (1) बीज धिरीिक —`
+  line `(क) धिम्ि धिधित से दकसी अधिसूधचत दकस्म या उपदकस्म के बीज के िमूिे िे सकेगा: —`
+  line `(i) ऐसे बीज को बेचिे िािा कोई व् य धक् त;`
+  line `(ii) कोई व् य धक् त जो दकसी क्रे ता या परेधर्ती को ऐसा बीज प्र िधहत करिे, पररित्त करिे या पररित्त करिे`
+  line `की तैयारी करिे के अिुक्रम में है;`
+  line `(iii) कोई क्रे ता या परेधर्ती धजसे ऐसे बीज का पररिाि हो चुका है;`
+  line `(ि) ऐसा िमूिा उस िेत्र के बीज धिश्िे र् क को, धजसमें िह िमूिा धिया गया हो, धिश्िे र् णार्थ भेज सकेगा;`
+  line `(ग) दकसी ऐसे स् र् ा ि में, धजसके बारे में उसके पास यह धिश्िा स करिे का कारण हो दक उसमें इस अधिधियम के`
+  line `अिीि कोई अपराि दकया गया है या दकया जा रहा है, ऐसी सहायता के सार्, यदि कोई हो, जेसी िह आिश्य क समझे, सब`
+  line `युधक्त युक्त समयों पर प्र िेश कर सकेगा और उसकी तिाशी िे सकेगा; तर्ा दकसी ऐसे बीज को, धजसके बारे में अपराि`
+  line `दकया गया है या दकया जा रहा है, कब्जे में रििे िािे व् य धक् त को धिधित आिेश िे सकेगा दक िह तीस दिि से अिधि क की`
+  line `1 1972 के अधिधियम सं ० 55 की िारा 4 द्व ारा (16 - 1 - 1973) से कुछ शब्िों के स् र् ा ि पर प्र धतस् र्ा धपत।`
+  line `2 1972 के अधि धियम सं ० 55 की िारा 4 द्व ारा (16 - 1 - 1973) से अंत:स् र्ा धपत।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-धिधिर्िथष्ट कािािधि पयथन्त ऐसे अ धिसूधचत बीज के दकसी स् टा क का व् य यि ि करे, अर्िा, तब के धसिाय जबदक अधभकधर्त
-अपराि ऐसा हो दक त्रु रट बीज के कब्जा िारी द्व ारा िूर की जा सकती है, ऐसे बीज के स् टा क का अधभग्रहण कर सकेगा;
-(घ) िण्ि (ग) में िर्णथत दकसी स् र् ा ि में पाए गए दकसी अधभिेि, रधजस्ट र, िस्ता िेज या अन्य भौधत क पिार्थ की
-परीिा कर सकेगा और यदि उसके पास यह धिश्िा स करिे का कारण हो दक िह इस अधिधियम के अिीि िंििीय दकसी
-अपराि के दकए जािे का साक्ष्य हो सकेगा तो उसका अधभग्रहण कर सकेगा;
-( ङ ) अन्य ऐसी शधक्त यों का, जो इस अधिधियम या ति् िीि बिाए गए दकसी धियम के प्र योजिों के कायाथन्ि यि के
-धिए आिश्य क हों, प्र योग कर सकेगा।
-(2) जहां दक दकसी अधिसूधचत दकस्म या उपदकस्म के बीज का िमूिा उपिारा (1) के िंि (क) के अिीि धिया जाए िहां
-उसकी उस िर से संगधणत कीमत, धजस पर ऐसा बीज प्र ाय: जिता को बेचा जाता है, मांगे जािे पर उस व् य धक् त को िी जाएगी धजससे
-िह िमूिा धिया गया हो।
-(3) इस िारा द्व ारा प्र ित्त शधक्त के अन्त गथत ऐसा कोई आिाि, धजसमें दकसी अधिसूधचत दकस्म या उपदकस्म का बीज हो,
-तोड कर िोििे की शधक्त या ऐसे दकसी पररसर के द्व ार को, धजसमें ऐसा बीज धिक्र यार्थ रिा हो, तोड कर िोििे की शधक्त आती है:
-परन् तु द्व ार तोडकर िोििे की शधक्त का प्र योग तभी दकया जाएगा जब स् िा मी या उस पररसर का अधिभोगी अन्य व् य धक् त,
-यदि िह उसमें उपधस् र् त हो तो ऐसा करिे की अपेिा दकए जािे पर भी द्व ार िोििे से इंकार करे।
-(4) जहां दक बीज धिरीिक उपिारा (1) के िण्ि (क) के अिीि कोई कारथिाई करे िहां िह याित्स म् भ ि िो से अन्यू ि व्
-य धक् त यों को उस समय पर उपधस् र् त होिे के धिए बुिाएगा जब ऐसी कारथिाई की जाए और िह उसके हस्ता िर एक ज्ञ ापि पर
-कराएगा जो दक धिधहत प्ररू प में और धिधह त रीधत से तैयार दकया जाएगा।
-(5) िंि प्र दक्रया संधहता, 1898 (1898 का 5) के उपबंि इस िारा के अिीि की दकसी तिाशी या अधभग्रहण को उसी प्र कार
-िागू होंगे जैसे िे उक्त संधहता की िारा 98 के अिीि धिकािे गए िारंट के प्र ाधिकार से िी गई तिाशी या दकए गए अधभग्रहण को िा गू
-होते हैं।
-15. बीज धिरीिकों द्व ारा अिुसरण की जािे िािी प्र दक्रया — (1) जब कभी दकसी बीज धिरीिक का आशय दकसी अधिसूधचत
-दकस्म या उपदकस्म के बीज का धिश्िे र् णार्थ िमूिा िेिे का हो तब िह —
-(क) उस व् य धक् त को धजससे िमूिा िेिे का उसका आशय हो अपिे उस आशय की धिधित सूचिा तुरन्त िहीं िेगा।
-(ि) उि धिशेर् मामिों के धसिाय धजिका इस अधिधियम के अिीि बिाए गए धियमों द्व ारा उपबंि दकया जाए,
-तीि प्र धतधिधि िमूिे धिधहत रीधत से िेगा और हर एक िमूिे को ऐसी रीधत से, जो उसकी प्र कृधत के अिुसार अपिाई जा सके,
-धच धह्ित करेगा और मु राबंि करेगा या बांिेगा।
-(2) जब दक दकसी अधिसूधचत दकस्म या उपदकस्म के बीज के िमूिे उपिारा (1) के अिीि धिए जाएं, तो बीज धिरीिक —
-(क) एक िमूिा उस व् य धक् त को पररित्त करेगा धजससे िह धिया गया हो;
-(ि) िूसरा िमूिा उस िेत्र के बीज धिश्िे र् क को धजसमें िह िमूिा धिया गया हो धिश्िे र् णार्थ धिधहत रीधत से
-भेजेगा; तर्ा
-(ग) शेर् िमूिे को धिधहत रीधत से प्र धतिाररत करेगा धजससे, यर्ाधस् र् धत, धिधिक कायथिाही की जािे की िशा में
-िह पेश दकया जाए या केन्री य बीज प्र योगशािा द्व ारा िारा 16 की उपिारा (2) के अिीि उसका धिश्िे र् ण दकया जाए।
-(3) यदि िह व् य धक् त धजससे िमूिे धिए गए हों उि िमूिों में से एक का प्र धतग्रहण करिे से इंकार करे तो बीज धिरीिक ऐसे
-इंकार की प्रज्ञ ापिा बीज धिश्िे र् क को भेज िेगा और तब िह बीज धिश्िे र् क धजसे धिश्िे र् णार्थ िमूिा प्र ाप्त हु आ हो, उसे िो भागों में
-धिभाधजत करेगा और उिमें से एक भाग को मुराबंि करेगा या बांिेगा और, या तो िमूिे की प्र ाधप्त पर या जब िह अपिी ररपोटथ का
-पररिाि करे तब उसे बीज धिरीिक को पररित्त कराएगा जो धिधिक कायथिाही दकए जािे की िशा में पेश करिे के धिए उसे प्र धतिाररत
-करेगा।
-(4) ज हां दक बीज धिरीिक िारा 14 की उपिारा (1) के िंि (ग) के अिीि कोई कारथिाई करे, िहां —
-(क) िह इस बात का अधभधिश्च य करिे के धिए पूरी शीघ्रता करेगा दक िह बीज िारा 7 के उपबंिों में से दकसी का
-उल्िं घि करता है या िहीं और यदि यह अधभधिश्च य हो जाए दक िह बीज ऐसा उल्िं घि िहीं करता है तो िह, यर्ाधस् र् धत,
-उक्त िंि के अिीि पाररत आिेश तुरन्त प्र धतसंहृत कर िेगा या ऐसी कारथिाई करेगा जो अधभगृहीत बीज के स् टा क को िापस
-करिे के धिए आिश्य क हो;
-(ि) यदि िह बीज के स् टा क का अधभग्रहण करे तो िह मधजस्रे ट को यर्ाशक्य शीघ्र इधत्त िा िेगा और उस स् टा क की
-अधभरिा के बारे में उसके आिेश िेगा;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `धिधिर्िथष्ट कािािधि पयथन्त ऐसे अ धिसूधचत बीज के दकसी स् टा क का व् य यि ि करे, अर्िा, तब के धसिाय जबदक अधभकधर्त`
+  line `अपराि ऐसा हो दक त्रु रट बीज के कब्जा िारी द्व ारा िूर की जा सकती है, ऐसे बीज के स् टा क का अधभग्रहण कर सकेगा;`
+  line `(घ) िण्ि (ग) में िर्णथत दकसी स् र् ा ि में पाए गए दकसी अधभिेि, रधजस्ट र, िस्ता िेज या अन्य भौधत क पिार्थ की`
+  line `परीिा कर सकेगा और यदि उसके पास यह धिश्िा स करिे का कारण हो दक िह इस अधिधियम के अिीि िंििीय दकसी`
+  line `अपराि के दकए जािे का साक्ष्य हो सकेगा तो उसका अधभग्रहण कर सकेगा;`
+  line `( ङ ) अन्य ऐसी शधक्त यों का, जो इस अधिधियम या ति् िीि बिाए गए दकसी धियम के प्र योजिों के कायाथन्ि यि के`
+  line `धिए आिश्य क हों, प्र योग कर सकेगा।`
+  line `(2) जहां दक दकसी अधिसूधचत दकस्म या उपदकस्म के बीज का िमूिा उपिारा (1) के िंि (क) के अिीि धिया जाए िहां`
+  line `उसकी उस िर से संगधणत कीमत, धजस पर ऐसा बीज प्र ाय: जिता को बेचा जाता है, मांगे जािे पर उस व् य धक् त को िी जाएगी धजससे`
+  line `िह िमूिा धिया गया हो।`
+  line `(3) इस िारा द्व ारा प्र ित्त शधक्त के अन्त गथत ऐसा कोई आिाि, धजसमें दकसी अधिसूधचत दकस्म या उपदकस्म का बीज हो,`
+  line `तोड कर िोििे की शधक्त या ऐसे दकसी पररसर के द्व ार को, धजसमें ऐसा बीज धिक्र यार्थ रिा हो, तोड कर िोििे की शधक्त आती है:`
+  line `परन् तु द्व ार तोडकर िोििे की शधक्त का प्र योग तभी दकया जाएगा जब स् िा मी या उस पररसर का अधिभोगी अन्य व् य धक् त,`
+  line `यदि िह उसमें उपधस् र् त हो तो ऐसा करिे की अपेिा दकए जािे पर भी द्व ार िोििे से इंकार करे।`
+  line `(4) जहां दक बीज धिरीिक उपिारा (1) के िण्ि (क) के अिीि कोई कारथिाई करे िहां िह याित्स म् भ ि िो से अन्यू ि व्`
+  line `य धक् त यों को उस समय पर उपधस् र् त होिे के धिए बुिाएगा जब ऐसी कारथिाई की जाए और िह उसके हस्ता िर एक ज्ञ ापि पर`
+  line `कराएगा जो दक धिधहत प्ररू प में और धिधह त रीधत से तैयार दकया जाएगा।`
+  line `(5) िंि प्र दक्रया संधहता, 1898 (1898 का 5) के उपबंि इस िारा के अिीि की दकसी तिाशी या अधभग्रहण को उसी प्र कार`
+  line `िागू होंगे जैसे िे उक्त संधहता की िारा 98 के अिीि धिकािे गए िारंट के प्र ाधिकार से िी गई तिाशी या दकए गए अधभग्रहण को िा गू`
+  line `होते हैं।`
+  line `15. बीज धिरीिकों द्व ारा अिुसरण की जािे िािी प्र दक्रया — (1) जब कभी दकसी बीज धिरीिक का आशय दकसी अधिसूधचत`
+  line `दकस्म या उपदकस्म के बीज का धिश्िे र् णार्थ िमूिा िेिे का हो तब िह —`
+  line `(क) उस व् य धक् त को धजससे िमूिा िेिे का उसका आशय हो अपिे उस आशय की धिधित सूचिा तुरन्त िहीं िेगा।`
+  line `(ि) उि धिशेर् मामिों के धसिाय धजिका इस अधिधियम के अिीि बिाए गए धियमों द्व ारा उपबंि दकया जाए,`
+  line `तीि प्र धतधिधि िमूिे धिधहत रीधत से िेगा और हर एक िमूिे को ऐसी रीधत से, जो उसकी प्र कृधत के अिुसार अपिाई जा सके,`
+  line `धच धह्ित करेगा और मु राबंि करेगा या बांिेगा।`
+  line `(2) जब दक दकसी अधिसूधचत दकस्म या उपदकस्म के बीज के िमूिे उपिारा (1) के अिीि धिए जाएं, तो बीज धिरीिक —`
+  line `(क) एक िमूिा उस व् य धक् त को पररित्त करेगा धजससे िह धिया गया हो;`
+  line `(ि) िूसरा िमूिा उस िेत्र के बीज धिश्िे र् क को धजसमें िह िमूिा धिया गया हो धिश्िे र् णार्थ धिधहत रीधत से`
+  line `भेजेगा; तर्ा`
+  line `(ग) शेर् िमूिे को धिधहत रीधत से प्र धतिाररत करेगा धजससे, यर्ाधस् र् धत, धिधिक कायथिाही की जािे की िशा में`
+  line `िह पेश दकया जाए या केन्री य बीज प्र योगशािा द्व ारा िारा 16 की उपिारा (2) के अिीि उसका धिश्िे र् ण दकया जाए।`
+  line `(3) यदि िह व् य धक् त धजससे िमूिे धिए गए हों उि िमूिों में से एक का प्र धतग्रहण करिे से इंकार करे तो बीज धिरीिक ऐसे`
+  line `इंकार की प्रज्ञ ापिा बीज धिश्िे र् क को भेज िेगा और तब िह बीज धिश्िे र् क धजसे धिश्िे र् णार्थ िमूिा प्र ाप्त हु आ हो, उसे िो भागों में`
+  line `धिभाधजत करेगा और उिमें से एक भाग को मुराबंि करेगा या बांिेगा और, या तो िमूिे की प्र ाधप्त पर या जब िह अपिी ररपोटथ का`
+  line `पररिाि करे तब उसे बीज धिरीिक को पररित्त कराएगा जो धिधिक कायथिाही दकए जािे की िशा में पेश करिे के धिए उसे प्र धतिाररत`
+  line करेगा।
+  line `(4) ज हां दक बीज धिरीिक िारा 14 की उपिारा (1) के िंि (ग) के अिीि कोई कारथिाई करे, िहां —`
+  line `(क) िह इस बात का अधभधिश्च य करिे के धिए पूरी शीघ्रता करेगा दक िह बीज िारा 7 के उपबंिों में से दकसी का`
+  line `उल्िं घि करता है या िहीं और यदि यह अधभधिश्च य हो जाए दक िह बीज ऐसा उल्िं घि िहीं करता है तो िह, यर्ाधस् र् धत,`
+  line `उक्त िंि के अिीि पाररत आिेश तुरन्त प्र धतसंहृत कर िेगा या ऐसी कारथिाई करेगा जो अधभगृहीत बीज के स् टा क को िापस`
+  line `करिे के धिए आिश्य क हो;`
+  line `(ि) यदि िह बीज के स् टा क का अधभग्रहण करे तो िह मधजस्रे ट को यर्ाशक्य शीघ्र इधत्त िा िेगा और उस स् टा क की`
+  line `अधभरिा के बारे में उसके आिेश िेगा;`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-(ग) दकसी अधभयोजि के संधस् र् त दकए जािे पर प्र धतकूि प्र भाि िािे धबिा, यदि अधभकधर्त अपराि ऐसा हो दक त्रु
-रट बीज का कब्जा रििे िािे द्व ारा िूर की जा सके तो िह, अपिा इस बात का समािाि हो जािे पर दक त्रु रट इस प्र कार िूर
-कर िी गई है, उक्त िंि के अिीि पाररत आिेश तुरन्त प्र धतसंहृत कर िेगा।
-(5) जहां दक बीज धिरीिक िारा 14 की उपिारा (1) के िंि (घ) के अिीि कोई अधभिेि, रधजस्ट र, िस्ता िेज या अन्य
-भौधतक पिार्थ अधभगृहीत करे िहां िह मधजस्रे ट को यर्ाशक्य शीघ्र इधत्तिा िेगा और उसकी अधभरिा के बारे में उसके आिेश िेगा।
-16. बीज धिश्िे र् क की ररपोटथ — (1) िारा 15 की उपिारा (2) के अिीि िमूिे की प्र ाधप्त के पश्चा त् यर्ाशक्य शीघ्र बीज
-धिश्िे र् क िमूिे का धिश्िे र् ण राज्य बीज प्र योगशािा में करेगा और िह धिश्िे र् ण के पररणाम की ररपोटथ की एक प्र धत बीज धिरीिक
-को और उसकी िूसरी प्र धत उस व् य धक्त को, धजससे िमूिा धिया गया हो, ऐसे प्ररू प में, जो धिधहत दकया जाए, पररित्त करेगा।
-(2) इस अधिधियम के अिीि अधभयोजि संधस् र् त दकए जािे के पश्चा त् अधभयुक्त धिक्रेता या पररिािी धिधहत फीस िेकर, न्
-या यािय से इस बात के धिए आिेिि कर सकेगा दक िारा 15 की उपिारा (2) के िंि (क) या िंि (ग) में िर्णथत िमूिों में से दकसी
-िमूिे को केन्री य बीज प्र योगशािा को उसकी ररपोटथ के धिए भेजा जाए और आिेिि की प्र ाधप्त पर न् या यािय पहिे इस बात का
-अधभधि श् च य करेगा दक िारा 15 की उपिारा (1) के िंि (ि) में यर्ा उपबंधित धचह्ि और मुरा या बन्ि ि अधिकि हैं और तब िह
-िमूिे को अपिी मुरा से अंदकत करके केन्री य बीज प्र योगशािा को भेज सकेगा, जो िमूिे की प्र ाधप्त की तारीि से एक मास के धिश्िे र् ण
-का पररणाम धिधिर्िथ ष् ट करते हु ए धिधहत प्ररू प में अपिी ररपोटथ न् या यािय को भेजेगी।
-(3) केन्री य बीज प्र योगशािा द्व ारा उपिारा (2) के अिीि भेजी गई ररपोटथ बीज धिश्िे र् क द्व ारा उपिारा (1) के अिीि िी
-गई ररपोटथ को अधतधष्ि त कर िेगी।
-(4) जहां दक बीज प्र योगशािा द्व ारा उपिा रा (2) के अिीि भेजी गई ररपोटथ िारा 19 के अिीि की दकसी कायथिाही में पेश
-की जाए िहां उस कायथिाही में यह आिश्य क ि होगा दक धिश्िे र् णार्थ धिया गया कोई िमूिा या उसका भाग पेश दकया जाए।
-17. अधिसूधचत दकस्मों या उपदकस्मों के बीजों के धियाथत और आयात पर धिबथन्ि ि — कोई व् य धक् त दकसी व् य धक् त द्व ारा (धजसमें
-िह स् ि यं आता है) बोए जािे या रोपण के प्र योजिार्थ, दकसी अधिसूधचत दकस्म या उपदकस्म के बीज का आयात या धियाथत तब के
-धसिाय ि तो करेगा और ि करिाएगा, जबदक —
-(क) िह उस बीज के धिए िारा 6 िंि (क) के अिीि धिधिर्िथष्ट अंकुरण और शुद्धता की न् यू ितम सीमाओं के
-अिुरूप हों; तर्ा
-(ि) उस बीज के धिए िारा 6 के िंि (ि) के अिीि धिधिर्िथष्ट उसकी िीक धिधशधष्ट यों से युक्त धचह्ि या िेबि
-धिधहत रीधत से उसके आिाि पर िगा हो।
-18. धििेशों के बीज प्र माणि अधभकरणों को मान्य ता — सधमधत की धसफाररश पर केन्री य सरकार दकसी धििेश में स् र् ा धपत
-दकसी बीज प्र माणि अधभकरण को शासकीय राजपत्र में अधिसूचिा द्व ारा इस अधिधियम के प्र योजिार्थ मान्य ता िे सकेगी।
-19. शाधस्त — यदि कोई व् य धक् त —
-(क) इस अधिधियम या ति् िीि बिाए गए दकसी धियम के दकसी उपबन्ि का उल्िं घि करेगा; अर्िा
-(ि) बीज धिरीिक को इस अधिधियम के अिीि िमूिा िेिेसे धििाररत करेगा; अर्िा
-(ग) बीज धिरीिक को इस अधिधियम द्व ारा या उसके अिीि प्र ित्त दकसी अन्य शधक्त का प्र योग करिे से
-धििाररत करेगा,
-तो िह िोर्धसद्ध दकए जािे पर धिम्ि धिधित प्र कार से िण्ि िीय होगा —
-(i) प्रर् म अपराि के धिए, जुमाथिे से, जो पांच सौ रु पए तक का हो सकेगा; तर्ा
-(ii) उस िशा में जबदक ऐसा व् य धक्त इस िारा के अिीि अपराि का पहिे ही िोर्धसद्ध दकया जा चुका
-हो कारािास से जो छह मास तक का हो सकेगा, या जुमाथि से जो एक हजार रु पए तक का हो सकेगा या िोिों से।
-20. सम्प धत्त का समपहरण — जब दक कोई व् य धक्त इस अधिधियम या ति् िीि बिाए गए धियमों के उपबन्िों में से दकसी के
-उल्िं घि के धिए इस अधिधियम के अिीि िोर्धसद्ध दकया गया हो, तो िह बीज धजसके बारे में उल्िं घि दकया गया हो, सरकार को
-सम पहृत दकया जा सकेगा।
-21. कम्प धियों द्व ारा अपराि — (1) जहां दक इस अधिधियम के अिीि अपराि कम्प िी द्व ारा दकया गया है िहां हर व् य धक्त जो
-अपराि दकए जािे के समय कम्प िी के कारबार के संचािि के धिए उस कम्प िी का भारसािक और उस कम्प िी के प्र धत उत्तरिायी र् ा
-और िह कम्प िी भी, उस अपराि के िोर्ी समझे जाएंगे और तद्िुसार अपिे धिरुद्ध कायथिाही की जािे और िंधित दकए जािे के िाधयत्ि
-के अिीि होंगे:`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `(ग) दकसी अधभयोजि के संधस् र् त दकए जािे पर प्र धतकूि प्र भाि िािे धबिा, यदि अधभकधर्त अपराि ऐसा हो दक त्रु`
+  line `रट बीज का कब्जा रििे िािे द्व ारा िूर की जा सके तो िह, अपिा इस बात का समािाि हो जािे पर दक त्रु रट इस प्र कार िूर`
+  line `कर िी गई है, उक्त िंि के अिीि पाररत आिेश तुरन्त प्र धतसंहृत कर िेगा।`
+  line `(5) जहां दक बीज धिरीिक िारा 14 की उपिारा (1) के िंि (घ) के अिीि कोई अधभिेि, रधजस्ट र, िस्ता िेज या अन्य`
+  line `भौधतक पिार्थ अधभगृहीत करे िहां िह मधजस्रे ट को यर्ाशक्य शीघ्र इधत्तिा िेगा और उसकी अधभरिा के बारे में उसके आिेश िेगा।`
+  line `16. बीज धिश्िे र् क की ररपोटथ — (1) िारा 15 की उपिारा (2) के अिीि िमूिे की प्र ाधप्त के पश्चा त् यर्ाशक्य शीघ्र बीज`
+  line `धिश्िे र् क िमूिे का धिश्िे र् ण राज्य बीज प्र योगशािा में करेगा और िह धिश्िे र् ण के पररणाम की ररपोटथ की एक प्र धत बीज धिरीिक`
+  line `को और उसकी िूसरी प्र धत उस व् य धक्त को, धजससे िमूिा धिया गया हो, ऐसे प्ररू प में, जो धिधहत दकया जाए, पररित्त करेगा।`
+  line `(2) इस अधिधियम के अिीि अधभयोजि संधस् र् त दकए जािे के पश्चा त् अधभयुक्त धिक्रेता या पररिािी धिधहत फीस िेकर, न्`
+  line `या यािय से इस बात के धिए आिेिि कर सकेगा दक िारा 15 की उपिारा (2) के िंि (क) या िंि (ग) में िर्णथत िमूिों में से दकसी`
+  line `िमूिे को केन्री य बीज प्र योगशािा को उसकी ररपोटथ के धिए भेजा जाए और आिेिि की प्र ाधप्त पर न् या यािय पहिे इस बात का`
+  line `अधभधि श् च य करेगा दक िारा 15 की उपिारा (1) के िंि (ि) में यर्ा उपबंधित धचह्ि और मुरा या बन्ि ि अधिकि हैं और तब िह`
+  line `िमूिे को अपिी मुरा से अंदकत करके केन्री य बीज प्र योगशािा को भेज सकेगा, जो िमूिे की प्र ाधप्त की तारीि से एक मास के धिश्िे र् ण`
+  line `का पररणाम धिधिर्िथ ष् ट करते हु ए धिधहत प्ररू प में अपिी ररपोटथ न् या यािय को भेजेगी।`
+  line `(3) केन्री य बीज प्र योगशािा द्व ारा उपिारा (2) के अिीि भेजी गई ररपोटथ बीज धिश्िे र् क द्व ारा उपिारा (1) के अिीि िी`
+  line `गई ररपोटथ को अधतधष्ि त कर िेगी।`
+  line `(4) जहां दक बीज प्र योगशािा द्व ारा उपिा रा (2) के अिीि भेजी गई ररपोटथ िारा 19 के अिीि की दकसी कायथिाही में पेश`
+  line `की जाए िहां उस कायथिाही में यह आिश्य क ि होगा दक धिश्िे र् णार्थ धिया गया कोई िमूिा या उसका भाग पेश दकया जाए।`
+  line `17. अधिसूधचत दकस्मों या उपदकस्मों के बीजों के धियाथत और आयात पर धिबथन्ि ि — कोई व् य धक् त दकसी व् य धक् त द्व ारा (धजसमें`
+  line `िह स् ि यं आता है) बोए जािे या रोपण के प्र योजिार्थ, दकसी अधिसूधचत दकस्म या उपदकस्म के बीज का आयात या धियाथत तब के`
+  line `धसिाय ि तो करेगा और ि करिाएगा, जबदक —`
+  line `(क) िह उस बीज के धिए िारा 6 िंि (क) के अिीि धिधिर्िथष्ट अंकुरण और शुद्धता की न् यू ितम सीमाओं के`
+  line `अिुरूप हों; तर्ा`
+  line `(ि) उस बीज के धिए िारा 6 के िंि (ि) के अिीि धिधिर्िथष्ट उसकी िीक धिधशधष्ट यों से युक्त धचह्ि या िेबि`
+  line `धिधहत रीधत से उसके आिाि पर िगा हो।`
+  line `18. धििेशों के बीज प्र माणि अधभकरणों को मान्य ता — सधमधत की धसफाररश पर केन्री य सरकार दकसी धििेश में स् र् ा धपत`
+  line `दकसी बीज प्र माणि अधभकरण को शासकीय राजपत्र में अधिसूचिा द्व ारा इस अधिधियम के प्र योजिार्थ मान्य ता िे सकेगी।`
+  line `19. शाधस्त — यदि कोई व् य धक् त —`
+  line `(क) इस अधिधियम या ति् िीि बिाए गए दकसी धियम के दकसी उपबन्ि का उल्िं घि करेगा; अर्िा`
+  line `(ि) बीज धिरीिक को इस अधिधियम के अिीि िमूिा िेिेसे धििाररत करेगा; अर्िा`
+  line `(ग) बीज धिरीिक को इस अधिधियम द्व ारा या उसके अिीि प्र ित्त दकसी अन्य शधक्त का प्र योग करिे से`
+  line `धििाररत करेगा,`
+  line `तो िह िोर्धसद्ध दकए जािे पर धिम्ि धिधित प्र कार से िण्ि िीय होगा —`
+  line `(i) प्रर् म अपराि के धिए, जुमाथिे से, जो पांच सौ रु पए तक का हो सकेगा; तर्ा`
+  line `(ii) उस िशा में जबदक ऐसा व् य धक्त इस िारा के अिीि अपराि का पहिे ही िोर्धसद्ध दकया जा चुका`
+  line `हो कारािास से जो छह मास तक का हो सकेगा, या जुमाथि से जो एक हजार रु पए तक का हो सकेगा या िोिों से।`
+  line `20. सम्प धत्त का समपहरण — जब दक कोई व् य धक्त इस अधिधियम या ति् िीि बिाए गए धियमों के उपबन्िों में से दकसी के`
+  line `उल्िं घि के धिए इस अधिधियम के अिीि िोर्धसद्ध दकया गया हो, तो िह बीज धजसके बारे में उल्िं घि दकया गया हो, सरकार को`
+  line `सम पहृत दकया जा सकेगा।`
+  line `21. कम्प धियों द्व ारा अपराि — (1) जहां दक इस अधिधियम के अिीि अपराि कम्प िी द्व ारा दकया गया है िहां हर व् य धक्त जो`
+  line `अपराि दकए जािे के समय कम्प िी के कारबार के संचािि के धिए उस कम्प िी का भारसािक और उस कम्प िी के प्र धत उत्तरिायी र् ा`
+  line `और िह कम्प िी भी, उस अपराि के िोर्ी समझे जाएंगे और तद्िुसार अपिे धिरुद्ध कायथिाही की जािे और िंधित दकए जािे के िाधयत्ि`
+  line `के अिीि होंगे:`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `7
-परन् तु इस उपिारा में अन्त र् िथष्ट कोई भी बात ऐसे दकसी व् य धक् त को इस अधिधियम के अिीि दकसी िण्ि के िाधयत्ि के
-अिीि ि करेगी यदि िह यह साधबत कर िेता है दक अपराि उसकी जािकारी के धबिा दकया गया र् ा और ऐसे अपराि का दकया जािा
-धििाररत करिे के धिए उसिे सभी सम्य क् तत्प रता बरती र् ी
-(2) उपिारा (1) में अन्त र् िथष्ट दकसी बात के होते हु ए भी, जहां दक इस अधिधियम के अिीि कोई अपराि कम्प िी द्व ा रा दकया
-गया है और यह साधबत कर दिया जाता है दक िह अपराि कम्प िी के दकसी धििेशक, प्र बन्ि क, सधचि या अन्य आदफसर की सम्म धत या
-मौिािुकूिता से दकया गया है या उसकी ओर से हु ई दकसी उपेिा के कारण हु आ मािा जा सकता है िहां ऐसा धििेशक, प्र बन्ि क, सधचि
-या अन्य आदफ सर उस अपराि का िोर्ी समझा जाएगा और तद्िुसार अपिे धिरुद्ध कायथिाही की जािे और िंधित दकए जािे के िाधयत्ि
-के अिीि होगा। स्
-प ष् टी करण — इस िारा के प्र योजिों के धिए —
-(क) “ कम्प िी ” से कोई धिगधमत धिकाय अधभप्रेत है और उसके अन्त गथत फमथ या व् य धष्ट यों का अन्य संगम आता
-है; तर्ा
-( ि) फमथ के सम्ब न् ि में ‘ धििेशक ’ से उस फमथ का भागीिार अधभप्रेत है।
-22. सि् भा िपूिथक की गई कारथिाई के धिए पररत्राण — कोई भी िाि, अधभयोजि या अन्य धिधिक कायथिाही इस अधिधियम
-के अिीि सि् भा िपूिथक की गई या की जािे के धिए आशधय त दकसी बात के धिए सरकार या सरकार के दकसी आदफसर के धिरुद्ध ि
-होगी।
-23. धििेश िेिे की शधक्त — केन्री य सरकार दकसी राज्य सरकार को ऐसे धििेश िे सकेगी जो केन्री य सरकार को इस
-अधिधियम या ति् िीि बिाए गए दकसी धियम के उपबन्िों को उस राज्य में धिष्पा दित क रिे के धिए आिश्य क प्र तीत हों।
-24. छूट — इस अधिधियम में कोई बात दकसी ऐसे अधिसूधचत दकस्म या उपदकस्म के बीज को िागू ि होगी जो दकसी व् य धक् त द्व
-ारा उगाया गया हो, और उसके द्व ारा स् ि यं अपिे पररसर में सीिे दकसी अन्य व् य धक् त को, उस व् य धक्त द्व ारा बोए जािे या रोपण के प्र
-योजिार्थ उपयोग में िाए जािे के धिए बेचा या पररित्त दकया गया हो।
-25. धियम बिािे की शधक्त — (1) केन्री य सरकार इस अधिधियम के प्र योजिों को कायाथधन्ि त करिे के धिए धियम शासकीय
-राजपत्र में अधिसूचिा द्व ारा बिा सकेगी।
-(2) धिधशष्ट त: और पूिथगा मी शधक्त की व् या पकता पर प्र धतकूि प्र भाि िािे धबिा, ऐसे धियम धिम्ि धिधित के धिए उपबन्ि
-कर सकेंगे: —
-(क) सधमधत के कृत् य और सधमधत के सिस्यों, तर्ा िारा 3 की उपिारा (5) के अिीि धियुक्त दकसी उपसधमधत के
-सिस्यों को संिेय यात्रा एिं िैधिक भत्ते;
-(ि) केन्री य बीज प्र योगशािा के कृत्य;
-(ग) प्र माणि अधभकरण के कृत्य;
-(घ) दकसी अधिसूधचत दकस्म या उपदकस्म के आिाि को िारा 7 के िंि (ग) और िारा 17 के िंि (ि) के अिीि
-धच धह्ित करिे या उस पर िेबि िगािे की रीधत;
-( ङ ) िे अपेिाएं जो िारा 7 में धिर्िथष्ट कारबार चिा िे िािे व् य धक् त द्व ारा अिुपाधित की जाएं;
-(च) िारा 9 के अिीि प्र माणपत्र के अिुिाि के धिए आिेिि का प्ररू प, िे धिधशधष्ट यां जो उसमें अन्त र् िथष्ट हों, िह
-फीस जो उसके सार् होिी चाधहए, प्र माणपत्र का प्ररू प, िे शतें धजिके अध्य िीि प्र माणपत्र अिुित्त दकया जा सकेगा;
-1 [ (चच) िे स् त रमाि धजिके अिुरूप बीज होिे चाधहएं;]
-(छ) िह प्ररू प धजसमें, िह रीधत धजससे और िह फीस धजसके दिए जािे पर िारा 11 के अिीि अपीि की जा
-सकेगी तर्ा अपीि धिपटािे में अपीि प्र ाधिकारी द्व ारा अिुसरण की जािे िािी प्र दक्रया;
-(ज) बीज धिश्िे र् क और बीज धिरीिकों की अहथताएं और कतथव्य;
-(झ) िह रीधत धजससे िमूिे बीज धिरीिक द्व ारा धिए जा सकेंगे, ऐसे िमूिे बीज धिश्िे र् क या केन्री य बीज प्र
-योगशािा को भेजिे की प्र दक्रया और ऐसे िमूिों के धिश्िे र् ण की रीधत;
-( ञ ) िारा 16 की उपिारा (1) या उपिारा (2) के अ िीि धिश्िे र् ण के पररणाम की ररपोटथ का प्ररू प और उक्त
-उपिारा (2) के अिीि ऐसी ररपोटथ के बारे में संिेय फीस;
-1 1972 के अधिधियम सं ० 55 की िारा 5 द्व ारा (16 - 1 - 1973 से ) अन्त:स् र्ा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 7
+  line `परन् तु इस उपिारा में अन्त र् िथष्ट कोई भी बात ऐसे दकसी व् य धक् त को इस अधिधियम के अिीि दकसी िण्ि के िाधयत्ि के`
+  line `अिीि ि करेगी यदि िह यह साधबत कर िेता है दक अपराि उसकी जािकारी के धबिा दकया गया र् ा और ऐसे अपराि का दकया जािा`
+  line `धििाररत करिे के धिए उसिे सभी सम्य क् तत्प रता बरती र् ी`
+  line `(2) उपिारा (1) में अन्त र् िथष्ट दकसी बात के होते हु ए भी, जहां दक इस अधिधियम के अिीि कोई अपराि कम्प िी द्व ा रा दकया`
+  line `गया है और यह साधबत कर दिया जाता है दक िह अपराि कम्प िी के दकसी धििेशक, प्र बन्ि क, सधचि या अन्य आदफसर की सम्म धत या`
+  line `मौिािुकूिता से दकया गया है या उसकी ओर से हु ई दकसी उपेिा के कारण हु आ मािा जा सकता है िहां ऐसा धििेशक, प्र बन्ि क, सधचि`
+  line `या अन्य आदफ सर उस अपराि का िोर्ी समझा जाएगा और तद्िुसार अपिे धिरुद्ध कायथिाही की जािे और िंधित दकए जािे के िाधयत्ि`
+  line `के अिीि होगा। स्`
+  line `प ष् टी करण — इस िारा के प्र योजिों के धिए —`
+  line `(क) “ कम्प िी ” से कोई धिगधमत धिकाय अधभप्रेत है और उसके अन्त गथत फमथ या व् य धष्ट यों का अन्य संगम आता`
+  line `है; तर्ा`
+  line `( ि) फमथ के सम्ब न् ि में ‘ धििेशक ’ से उस फमथ का भागीिार अधभप्रेत है।`
+  line `22. सि् भा िपूिथक की गई कारथिाई के धिए पररत्राण — कोई भी िाि, अधभयोजि या अन्य धिधिक कायथिाही इस अधिधियम`
+  line `के अिीि सि् भा िपूिथक की गई या की जािे के धिए आशधय त दकसी बात के धिए सरकार या सरकार के दकसी आदफसर के धिरुद्ध ि`
+  line होगी।
+  line `23. धििेश िेिे की शधक्त — केन्री य सरकार दकसी राज्य सरकार को ऐसे धििेश िे सकेगी जो केन्री य सरकार को इस`
+  line `अधिधियम या ति् िीि बिाए गए दकसी धियम के उपबन्िों को उस राज्य में धिष्पा दित क रिे के धिए आिश्य क प्र तीत हों।`
+  line `24. छूट — इस अधिधियम में कोई बात दकसी ऐसे अधिसूधचत दकस्म या उपदकस्म के बीज को िागू ि होगी जो दकसी व् य धक् त द्व`
+  line `ारा उगाया गया हो, और उसके द्व ारा स् ि यं अपिे पररसर में सीिे दकसी अन्य व् य धक् त को, उस व् य धक्त द्व ारा बोए जािे या रोपण के प्र`
+  line `योजिार्थ उपयोग में िाए जािे के धिए बेचा या पररित्त दकया गया हो।`
+  line `25. धियम बिािे की शधक्त — (1) केन्री य सरकार इस अधिधियम के प्र योजिों को कायाथधन्ि त करिे के धिए धियम शासकीय`
+  line `राजपत्र में अधिसूचिा द्व ारा बिा सकेगी।`
+  line `(2) धिधशष्ट त: और पूिथगा मी शधक्त की व् या पकता पर प्र धतकूि प्र भाि िािे धबिा, ऐसे धियम धिम्ि धिधित के धिए उपबन्ि`
+  line `कर सकेंगे: —`
+  line `(क) सधमधत के कृत् य और सधमधत के सिस्यों, तर्ा िारा 3 की उपिारा (5) के अिीि धियुक्त दकसी उपसधमधत के`
+  line `सिस्यों को संिेय यात्रा एिं िैधिक भत्ते;`
+  line `(ि) केन्री य बीज प्र योगशािा के कृत्य;`
+  line `(ग) प्र माणि अधभकरण के कृत्य;`
+  line `(घ) दकसी अधिसूधचत दकस्म या उपदकस्म के आिाि को िारा 7 के िंि (ग) और िारा 17 के िंि (ि) के अिीि`
+  line `धच धह्ित करिे या उस पर िेबि िगािे की रीधत;`
+  line `( ङ ) िे अपेिाएं जो िारा 7 में धिर्िथष्ट कारबार चिा िे िािे व् य धक् त द्व ारा अिुपाधित की जाएं;`
+  line `(च) िारा 9 के अिीि प्र माणपत्र के अिुिाि के धिए आिेिि का प्ररू प, िे धिधशधष्ट यां जो उसमें अन्त र् िथष्ट हों, िह`
+  line `फीस जो उसके सार् होिी चाधहए, प्र माणपत्र का प्ररू प, िे शतें धजिके अध्य िीि प्र माणपत्र अिुित्त दकया जा सकेगा;`
+  line `1 [ (चच) िे स् त रमाि धजिके अिुरूप बीज होिे चाधहएं;]`
+  line `(छ) िह प्ररू प धजसमें, िह रीधत धजससे और िह फीस धजसके दिए जािे पर िारा 11 के अिीि अपीि की जा`
+  line `सकेगी तर्ा अपीि धिपटािे में अपीि प्र ाधिकारी द्व ारा अिुसरण की जािे िािी प्र दक्रया;`
+  line `(ज) बीज धिश्िे र् क और बीज धिरीिकों की अहथताएं और कतथव्य;`
+  line `(झ) िह रीधत धजससे िमूिे बीज धिरीिक द्व ारा धिए जा सकेंगे, ऐसे िमूिे बीज धिश्िे र् क या केन्री य बीज प्र`
+  line `योगशािा को भेजिे की प्र दक्रया और ऐसे िमूिों के धिश्िे र् ण की रीधत;`
+  line `( ञ ) िारा 16 की उपिारा (1) या उपिारा (2) के अ िीि धिश्िे र् ण के पररणाम की ररपोटथ का प्ररू प और उक्त`
+  line `उपिारा (2) के अिीि ऐसी ररपोटथ के बारे में संिेय फीस;`
+  line `1 1972 के अधिधियम सं ० 55 की िारा 5 द्व ारा (16 - 1 - 1973 से ) अन्त:स् र्ा धपत।`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `8
-(ट) िारा 7 में धिर्िथष्ट कारबार चिािे िािे व् य धक् त द्व ारा रिे जािे िािे अधभिेि और िे धिधशधष्ट यां जो ऐसे
-अधभिेिों में अन्त र् िथष्ट होंगी; तर्ा
-(ि) कोई अन्य बात जो धिधहत की जािी है या की जाए।
-1 [(3) इस अधिधियम के अिीि बिाया गया प्रत् ये क धियम बिाए जािे के पश्चा त् यर्ाशीघ्र, संसि् के प्रत् ये क सिि के समि,
-जब िह सत्र में हो, तीस दिि की अिधि के धिए रिा जाएगा। यह अिधि एक सत्र में अर्िा िो या अधिक आिुक्रधमक सत्रों में पूरी हो
-सकेगी। यदि उस सत्र के या पूिोक्त आिुक्रधमक सत्रों के िीक बाि के सत्र के अिसाि के पूिथ िोिों सिि उस धियम में कोई पररितथि
-करिे के धिए सहमत हो जाएं तो तत्प श् चा त् िह ऐसे पररिर्तथत रू प में ही प्र भािी होगा। यदि उक्त अिसाि के पूिथ िोिों सिि सहमत
-हो जाएं दक िह धियम िहीं बिाया जािा चाधहए तो तत्प श् चा त् िह धिष् प्र भाि हो जाएगा। दकन्तु धियम के ऐसे पररिर्तथत या
-धिष् प्र भाि होिे से उसके अिीि की गई दकसी बात की धिधिमान्य ता पर प्र धतकू ि प्र भाि िहीं पडे गा। ]
-______
-1 1972 के अधिधियम सं ० 55 की िारा 5 द्व ारा (16 - 1 - 1973 से ) प्र धतस् र्ा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 8
+  line `(ट) िारा 7 में धिर्िथष्ट कारबार चिािे िािे व् य धक् त द्व ारा रिे जािे िािे अधभिेि और िे धिधशधष्ट यां जो ऐसे`
+  line `अधभिेिों में अन्त र् िथष्ट होंगी; तर्ा`
+  line `(ि) कोई अन्य बात जो धिधहत की जािी है या की जाए।`
+  line `1 [(3) इस अधिधियम के अिीि बिाया गया प्रत् ये क धियम बिाए जािे के पश्चा त् यर्ाशीघ्र, संसि् के प्रत् ये क सिि के समि,`
+  line `जब िह सत्र में हो, तीस दिि की अिधि के धिए रिा जाएगा। यह अिधि एक सत्र में अर्िा िो या अधिक आिुक्रधमक सत्रों में पूरी हो`
+  line `सकेगी। यदि उस सत्र के या पूिोक्त आिुक्रधमक सत्रों के िीक बाि के सत्र के अिसाि के पूिथ िोिों सिि उस धियम में कोई पररितथि`
+  line `करिे के धिए सहमत हो जाएं तो तत्प श् चा त् िह ऐसे पररिर्तथत रू प में ही प्र भािी होगा। यदि उक्त अिसाि के पूिथ िोिों सिि सहमत`
+  line `हो जाएं दक िह धियम िहीं बिाया जािा चाधहए तो तत्प श् चा त् िह धिष् प्र भाि हो जाएगा। दकन्तु धियम के ऐसे पररिर्तथत या`
+  line `धिष् प्र भाि होिे से उसके अिीि की गई दकसी बात की धिधिमान्य ता पर प्र धतकू ि प्र भाि िहीं पडे गा। ]`
+  line ______
+  line `1 1972 के अधिधियम सं ० 55 की िारा 5 द्व ारा (16 - 1 - 1973 से ) प्र धतस् र्ा धपत।`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line

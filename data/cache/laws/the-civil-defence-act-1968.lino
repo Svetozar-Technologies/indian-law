@@ -1,78 +1,72 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:23:46.490Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1524`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 22)
-  (str totalSections) (int 22)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:23:46.490Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1524`
+  completeFetch true
+  maxSections null
+  sectionCount 22
+  totalSections 22
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-civil-defence-act-1968)
-  (str handle) (str 1524)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Civil Defence Act, 1968`)
-  (str actNumber) (str 27)
-  (str enactmentDate) (str 1968-05-24)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1524`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `नागरिक सुरक्षा अधिनियम,1968`)
-  (str actYear) (str 1968)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Internal Security`)
-  (str longTitle) (str `An Act to make provision for civil defence and for matters connected therewith.`)
-  (str enforcementDate) (str 10-07-1968)
-  (str notification) (str `10th July, 1968, vide notification No. S.O. 2435(E), dated 5th July, 1968, see Gazette of India, Extraordinary, Part II, sec. 3 (ii).`)
-  (str fetchedAt) (str `2026-05-09T15:25:36.111Z`)
-  (str translations) obj_root_law_translations
+  slug the-civil-defence-act-1968
+  handle (1524)
+  collectionHandle 123456789/1362
+  title `The Civil Defence Act, 1968`
+  actNumber (27)
+  enactmentDate 1968-05-24
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1524`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `नागरिक सुरक्षा अधिनियम,1968`
+  actYear (1968)
+  ministry `Ministry of Home Affairs`
+  department `Department of Internal Security`
+  longTitle `An Act to make provision for civil defence and for matters connected therewith.`
+  enforcementDate 10-07-1968
+  notification `10th July, 1968, vide notification No. S.O. 2435(E), dated 5th July, 1968, see Gazette of India, Extraordinary, Part II, sec. 3 (ii).`
+  fetchedAt `2026-05-09T15:25:36.111Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_civil_defence_act_1968
   obj_root_law_sources_en_3
   obj_root_law_sources_en_4
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1524`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1524`
 obj_root_law_sources_en_the_civil_defence_act_1968:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1524/2/A1968-27.pdf`)
-  (str title) (str `The Civil Defence Act, 1968`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1524/2/A1968-27.pdf`
+  title `The Civil Defence Act, 1968`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00004_196827_1517807319412/rulesindividualfile/&file=Civil+Defence+Rules+1968.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00004_196827_1517807319412/rulesindividualfile/&file=Civil+Defence+Rules+1968.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00004_196827_1517807319412/regulationindividualfile/&file=Civil+Defence+Regulations+1968.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00004_196827_1517807319412/regulationindividualfile/&file=Civil+Defence+Regulations+1968.pdf`
+  title obj_root_law_sources_en_4_title
+obj_root_law_sources_en_4_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1968
 obj_root_law_sources_hi_1968:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1524/4/H1968-27.pdf`)
-  (str title) (str `नागरिक सुरक्षा अधिनियम,1968`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1524/4/H1968-27.pdf`
+  title `नागरिक सुरक्षा अधिनियम,1968`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -96,522 +90,614 @@ obj_root_law_sections:
   obj_root_law_sections_19
   obj_root_law_sections_20
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 7202)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Civil Defence Act, 1968.
-
-(2) It extends^1
-to the whole of India.
-
-(3) It shall come into force in a State or part thereof on such date^2
-, not being a date earlier than the
-date of the expiry of the Defence of India Act, 1962 (51 of 1962), as the Central Government may, by
-notification, appoint and different dates may be appointed for different States or different parts thereof.`)
-  (str footnotes) (str `1. 1st October, 1975, vide notification No. S.O.478(E),dated 8th September, 1975, extended and brought into force in the State of
-Sikkim.
-
-2. 10th July, 1968, vide notification No. S.O.2435(E), dated 5th July, 1968, see Gazette of India, Extraordinary, Part II,
-sec. 3 (ii).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7202&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7202)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7202&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Civil Defence Act, 1968.`
+  line
+  line `(2) It extends^1`
+  line `to the whole of India.`
+  line
+  line `(3) It shall come into force in a State or part thereof on such date^2`
+  line `, not being a date earlier than the`
+  line `date of the expiry of the Defence of India Act, 1962 (51 of 1962), as the Central Government may, by`
+  line `notification, appoint and different dates may be appointed for different States or different parts thereof.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 1st October, 1975, vide notification No. S.O.478(E),dated 8th September, 1975, extended and brought into force in the State of`
+  line Sikkim.
+  line
+  line `2. 10th July, 1968, vide notification No. S.O.2435(E), dated 5th July, 1968, see Gazette of India, Extraordinary, Part II,`
+  line `sec. 3 (ii).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 7203)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,—
-
-(a) "civil defence" includes any measures, not amounting to actual combat, for affording
-protection to any person, property, place or thing in India or any part of the territory thereof against
-any hostile attack, whether from air, land, sea or other places, or, for depriving any such attack
-of the whole or part of its effect, whether such measures are taken before, during, at or after the time
-of such attack^2
-[or any measure taken for the purpose of disaster management, before, during, at, or
-after any disaster];
-
-(b) "Civil Defence" Corps means the Corps formed wholly or mainly to meet the needs of civil
-defence and includes an organisation deemed to be a Corps under the proviso to sub-section (1) of
-section 4;
-
-(c) "hostile attack" means any attack by any person or body of persons, whether during any war,
-external aggression, internal disturbance or otherwise which endangers the security of any life,
-property, place or thing in India or any part of the territory thereof;
-
-(d)"notification" means a notification published in the Official Gazette;
-
-(e) "personal service injury" has the meaning assigned to it in the Personal Injuries (Emergency
-Provisions) Act, 1962 (59 of 1962);
-
-(f) "State Government", in relation to a Union territory, means the Administrator of the Union
-territory;
-
-^1
-[(g) "disaster" means a disaster as defined in clause (d) of section 2 of the Disaster Management
-Act, 2005(53 of 2005);
-
-(h) "disaster management" means the disaster management as defined in clause (e) of section 2 of
-the Disaster Management Act, 2005(53 of 2005).]`)
-  (str footnotes) (str `1. 1st October, 1975, vide notification No. S.O.478(E),dated 8th September, 1975, extended and brought into force in the State of
-Sikkim
-
-2. Ins. by Act 3 of 2010, s. 2 (w.e.f. 21-1-2010).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7203&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7203)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7203&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,—`
+  line
+  line `(a) "civil defence" includes any measures, not amounting to actual combat, for affording`
+  line `protection to any person, property, place or thing in India or any part of the territory thereof against`
+  line `any hostile attack, whether from air, land, sea or other places, or, for depriving any such attack`
+  line `of the whole or part of its effect, whether such measures are taken before, during, at or after the time`
+  line `of such attack^2`
+  line `[or any measure taken for the purpose of disaster management, before, during, at, or`
+  line `after any disaster];`
+  line
+  line `(b) "Civil Defence" Corps means the Corps formed wholly or mainly to meet the needs of civil`
+  line `defence and includes an organisation deemed to be a Corps under the proviso to sub-section (1) of`
+  line `section 4;`
+  line
+  line `(c) "hostile attack" means any attack by any person or body of persons, whether during any war,`
+  line `external aggression, internal disturbance or otherwise which endangers the security of any life,`
+  line `property, place or thing in India or any part of the territory thereof;`
+  line
+  line `(d)"notification" means a notification published in the Official Gazette;`
+  line
+  line `(e) "personal service injury" has the meaning assigned to it in the Personal Injuries (Emergency`
+  line `Provisions) Act, 1962 (59 of 1962);`
+  line
+  line `(f) "State Government", in relation to a Union territory, means the Administrator of the Union`
+  line territory;
+  line
+  line ^1
+  line `[(g) "disaster" means a disaster as defined in clause (d) of section 2 of the Disaster Management`
+  line `Act, 2005(53 of 2005);`
+  line
+  line `(h) "disaster management" means the disaster management as defined in clause (e) of section 2 of`
+  line `the Disaster Management Act, 2005(53 of 2005).]`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. 1st October, 1975, vide notification No. S.O.478(E),dated 8th September, 1975, extended and brought into force in the State of`
+  line Sikkim
+  line
+  line `2. Ins. by Act 3 of 2010, s. 2 (w.e.f. 21-1-2010).`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 7204)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Power to make rules for civil defence.`)
-  (str content) (str `(1) The Central Government may, for securing civil
-defence, by notification, make rules providing for all or any of the following matters, namely:—
-
-(a) preventing the prosecution of any work likely to prejudice civil defence;
-
-(b) instruction of members of the public regarding civil defence and their equipment for the
-purposes of such defence;
-
-(c) provision, storage and maintenance of commodities and things required for civil defence;
-
-(d) prohibiting or regulating traffic, and the use of vessels, buoys, lights and signals in ports and
-territorial, tidal and inland waters;
-
-(e) control of lights and sounds;
-
-(f) protection of life and property by taking fire prevention and other measures;
-
-(g) securing of any buildings, premises or other structures from being readily recognisable in the
-event of a hostile attack;
-
-(h) for the prevention of danger to life or property, the demolition, destruction or rendering
-useless, of any building, premises or other structures or any other property;
-
-(i) prohibiting or regulating the possession, use or disposal of—
-
-(i) explosives, inflammable substances, corrosive and other dangerous substances or articles,
-arms and ammunition;
-
-(ii) vessels;
-
-(iii) wireless telegraphic apparatus;
-
-(iv) aircraft; and
-
-(v) photographic and signalling apparatus and any means of recording information;
-
-(j) evacuation of areas and the removal of property or animals therefrom;
-
-(k) accommodation in any area of persons evacuated from another area and the regulation of the
-conduct of evacuated persons accommodated in such area;
-
-(l) billeting of evacuated person or persons authorised to perform functions under this Act;
-
-(m) salvage of damaged buildings, structures and property and disposal of the dead;
-
-(n) seizure and custody or destruction of injured, unclaimed or dangerous animals;
-
-(o) ensuring the safety of—
-
-(i) ports, dockyards, lighthouses, lightships, aerodromes and facilities associated with aerial
-navigation;
-
-(ii) railways, tramways, roads, bridges, canals and all other means of transport by land or
-water;
-
-(iii) telegraphs, post offices, signalling apparatus and all other means of communication;
-
-(iv) sources and systems of water supply, works for the supply of water, gas or electricity and
-all other works for public purposes;
-
-(v) vessels, aircraft, transport vehicles as defined in the Motor Vehicles Act, 1939
-(4 of 1939), and rolling stocks of railways and tramways;
-
-(vi) warehouses and all other places used or intended to be used for storage purposes;
-
-(vii) mines, oilfields, factories or industrial or commercial undertakings generally, or any
-mine, oilfield, factory or industrial or commercial undertaking in particular;
-
-(viii) laboratories and institutions where scientific or technological research or training is
-conducted or imparted;
-
-(ix) all works and structures being part of, or connected with, anything earlier mentioned in
-this clause; and
-
-(x) any other place or thing used or intended to be used for the purposes of Government or a
-local authority or a semi-Government or autonomous organisation, the protection of which is
-considered necessary or expedient for securing civil defence;
-
-(p) control of any road or pathway, waterway, ferry or bridge, river, canal or other source of
-water supply;
-
-(q) precautionary measures, which the Government or any department thereof or any local
-authority, members of police force, fire brigade and members of any other service or authority
-employed primarily for purposes other than civil defence purposes should be required to take within
-their respective jurisdictions or with respect to any personnel employed by them;
-
-(r) preventing or controlling any use of uniforms, whether official or otherwise, or flags or
-official decorations like medals, badges or other insignia or anything similar thereto, the wearing of
-which is calculated to deceive or to prejudice civil defence;
-
-(s) precautions to be taken or action to be taken by persons or authorities with a view to
-protecting or acquainting the general public or any members thereof against the dangers involved in
-any apprehended hostile attack;
-
-(t) requiring the owner or occupier of any building, structure or premises to make or carry out
-such arrangements as may be necessary for the purposes of detection and prevention of fire;
-
-(u) taking of specified measures for dealing with outbreaks of fire;
-
-(v) directing that, subject to any specified exemption, no person present in any specified area
-shall, between such hours as may be specified, be out of doors except under the authority of a written
-permit granted by a specified authority or person;
-
-(w) (i) prohibiting the printing and publication of any newspaper, news-sheet, book or other
-document containing matters prejudicial to civil defence;
-
-(ii) demanding security from any press used for the purpose of printing or publishing, and
-forfeiting the copies of, any newspaper, news-sheet, book or other document containing any of the
-matters referred to in sub-clause (i);
-
-(x) regulating the conduct of persons in respect of areas the control of which is considered
-necessary or expedient, and removal of persons from such areas;
-
-(y) requiring any person or class of persons to comply with any scheme of civil defence;
-
-(z) any other provision which may be necessary for the purposes of civil defence.
-
-(2) Any rule made under sub-section (1) may provide that orders with regard to the matters specified
-therein may be made by the State Government.
-
-^4
-(3) Any rule made under sub-section (1) may provide that a contravention thereof or any order made
-thereunder shall be punishable with fine which may extend to five hundred rupees, and where the
-contravention is a continuing one, with a further fine which may extend to fifty rupees for every day, after
-the first, during which such contravention continues.`)
-  (str footnotes) (str `4. Subs. by Act 42 of 1971, s. 6 (during emergency and six months thereafter) (w.e.f.3-12-1971).
-"(3) Any rule made under sub-section (1) may provide that a contravention thereof or any order made or direction
-given thereunder shall be punishable with imprisonment for a term which may extend to three years, or with fine, or
-with both.".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7204&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7204)
+  sectionNo (3)
+  orderNo 3
+  title `Power to make rules for civil defence.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7204&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Central Government may, for securing civil`
+  line `defence, by notification, make rules providing for all or any of the following matters, namely:—`
+  line
+  line `(a) preventing the prosecution of any work likely to prejudice civil defence;`
+  line
+  line `(b) instruction of members of the public regarding civil defence and their equipment for the`
+  line `purposes of such defence;`
+  line
+  line `(c) provision, storage and maintenance of commodities and things required for civil defence;`
+  line
+  line `(d) prohibiting or regulating traffic, and the use of vessels, buoys, lights and signals in ports and`
+  line `territorial, tidal and inland waters;`
+  line
+  line `(e) control of lights and sounds;`
+  line
+  line `(f) protection of life and property by taking fire prevention and other measures;`
+  line
+  line `(g) securing of any buildings, premises or other structures from being readily recognisable in the`
+  line `event of a hostile attack;`
+  line
+  line `(h) for the prevention of danger to life or property, the demolition, destruction or rendering`
+  line `useless, of any building, premises or other structures or any other property;`
+  line
+  line `(i) prohibiting or regulating the possession, use or disposal of—`
+  line
+  line `(i) explosives, inflammable substances, corrosive and other dangerous substances or articles,`
+  line `arms and ammunition;`
+  line
+  line `(ii) vessels;`
+  line
+  line `(iii) wireless telegraphic apparatus;`
+  line
+  line `(iv) aircraft; and`
+  line
+  line `(v) photographic and signalling apparatus and any means of recording information;`
+  line
+  line `(j) evacuation of areas and the removal of property or animals therefrom;`
+  line
+  line `(k) accommodation in any area of persons evacuated from another area and the regulation of the`
+  line `conduct of evacuated persons accommodated in such area;`
+  line
+  line `(l) billeting of evacuated person or persons authorised to perform functions under this Act;`
+  line
+  line `(m) salvage of damaged buildings, structures and property and disposal of the dead;`
+  line
+  line `(n) seizure and custody or destruction of injured, unclaimed or dangerous animals;`
+  line
+  line `(o) ensuring the safety of—`
+  line
+  line `(i) ports, dockyards, lighthouses, lightships, aerodromes and facilities associated with aerial`
+  line navigation;
+  line
+  line `(ii) railways, tramways, roads, bridges, canals and all other means of transport by land or`
+  line water;
+  line
+  line `(iii) telegraphs, post offices, signalling apparatus and all other means of communication;`
+  line
+  line `(iv) sources and systems of water supply, works for the supply of water, gas or electricity and`
+  line `all other works for public purposes;`
+  line
+  line `(v) vessels, aircraft, transport vehicles as defined in the Motor Vehicles Act, 1939`
+  line `(4 of 1939), and rolling stocks of railways and tramways;`
+  line
+  line `(vi) warehouses and all other places used or intended to be used for storage purposes;`
+  line
+  line `(vii) mines, oilfields, factories or industrial or commercial undertakings generally, or any`
+  line `mine, oilfield, factory or industrial or commercial undertaking in particular;`
+  line
+  line `(viii) laboratories and institutions where scientific or technological research or training is`
+  line `conducted or imparted;`
+  line
+  line `(ix) all works and structures being part of, or connected with, anything earlier mentioned in`
+  line `this clause; and`
+  line
+  line `(x) any other place or thing used or intended to be used for the purposes of Government or a`
+  line `local authority or a semi-Government or autonomous organisation, the protection of which is`
+  line `considered necessary or expedient for securing civil defence;`
+  line
+  line `(p) control of any road or pathway, waterway, ferry or bridge, river, canal or other source of`
+  line `water supply;`
+  line
+  line `(q) precautionary measures, which the Government or any department thereof or any local`
+  line `authority, members of police force, fire brigade and members of any other service or authority`
+  line `employed primarily for purposes other than civil defence purposes should be required to take within`
+  line `their respective jurisdictions or with respect to any personnel employed by them;`
+  line
+  line `(r) preventing or controlling any use of uniforms, whether official or otherwise, or flags or`
+  line `official decorations like medals, badges or other insignia or anything similar thereto, the wearing of`
+  line `which is calculated to deceive or to prejudice civil defence;`
+  line
+  line `(s) precautions to be taken or action to be taken by persons or authorities with a view to`
+  line `protecting or acquainting the general public or any members thereof against the dangers involved in`
+  line `any apprehended hostile attack;`
+  line
+  line `(t) requiring the owner or occupier of any building, structure or premises to make or carry out`
+  line `such arrangements as may be necessary for the purposes of detection and prevention of fire;`
+  line
+  line `(u) taking of specified measures for dealing with outbreaks of fire;`
+  line
+  line `(v) directing that, subject to any specified exemption, no person present in any specified area`
+  line `shall, between such hours as may be specified, be out of doors except under the authority of a written`
+  line `permit granted by a specified authority or person;`
+  line
+  line `(w) (i) prohibiting the printing and publication of any newspaper, news-sheet, book or other`
+  line `document containing matters prejudicial to civil defence;`
+  line
+  line `(ii) demanding security from any press used for the purpose of printing or publishing, and`
+  line `forfeiting the copies of, any newspaper, news-sheet, book or other document containing any of the`
+  line `matters referred to in sub-clause (i);`
+  line
+  line `(x) regulating the conduct of persons in respect of areas the control of which is considered`
+  line `necessary or expedient, and removal of persons from such areas;`
+  line
+  line `(y) requiring any person or class of persons to comply with any scheme of civil defence;`
+  line
+  line `(z) any other provision which may be necessary for the purposes of civil defence.`
+  line
+  line `(2) Any rule made under sub-section (1) may provide that orders with regard to the matters specified`
+  line `therein may be made by the State Government.`
+  line
+  line ^4
+  line `(3) Any rule made under sub-section (1) may provide that a contravention thereof or any order made`
+  line `thereunder shall be punishable with fine which may extend to five hundred rupees, and where the`
+  line `contravention is a continuing one, with a further fine which may extend to fifty rupees for every day, after`
+  line `the first, during which such contravention continues.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `4. Subs. by Act 42 of 1971, s. 6 (during emergency and six months thereafter) (w.e.f.3-12-1971).`
+  line `"(3) Any rule made under sub-section (1) may provide that a contravention thereof or any order made or direction`
+  line `given thereunder shall be punishable with imprisonment for a term which may extend to three years, or with fine, or`
+  line `with both.".`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 7205)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Constitution of Civil Defence Corps.`)
-  (str content) (str `(1) The State Government may constitute, for any area
-within the State, a body of persons to be called the Civil Defence Corps (hereinafter referred to as the
-"Corps") and may appoint a person, not being, in its opinion, below the rank of a District Magistrate (to
-be known as the "Controller") to command such Corps:
-
-Provided that if there is in existence in any area in a State, immediately before the commencement of
-this Act in that area, an organisation which, in the opinion of the State Government, may be entrusted
-with the functions of the Corps, the State Government may, instead of constituting a separate Corps for
-such area, call upon that organisation to take over or discharge the functions of the Corps in that area, and
-thereupon such organisation shall be deemed, for the purposes of this Act, to be the Corps for that area.
-
-(2) The State Government may, for the purpose of co-ordinating the activities of the Controllers
-within the State, appoint a Director of Civil Defence and every Controller shall comply with the
-directions given by such Director.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7205&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7205)
+  sectionNo (4)
+  orderNo 4
+  title `Constitution of Civil Defence Corps.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7205&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_4_content:
+  string
+  line `(1) The State Government may constitute, for any area`
+  line `within the State, a body of persons to be called the Civil Defence Corps (hereinafter referred to as the`
+  line `"Corps") and may appoint a person, not being, in its opinion, below the rank of a District Magistrate (to`
+  line `be known as the "Controller") to command such Corps:`
+  line
+  line `Provided that if there is in existence in any area in a State, immediately before the commencement of`
+  line `this Act in that area, an organisation which, in the opinion of the State Government, may be entrusted`
+  line `with the functions of the Corps, the State Government may, instead of constituting a separate Corps for`
+  line `such area, call upon that organisation to take over or discharge the functions of the Corps in that area, and`
+  line `thereupon such organisation shall be deemed, for the purposes of this Act, to be the Corps for that area.`
+  line
+  line `(2) The State Government may, for the purpose of co-ordinating the activities of the Controllers`
+  line `within the State, appoint a Director of Civil Defence and every Controller shall comply with the`
+  line `directions given by such Director.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 7206)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Appointment of members and officers.`)
-  (str content) (str `(1) The State Government may appoint as members of
-the Corps persons who are fit and willing to serve as such and the Controller may appoint any member so
-appointed to such office or command in the Corps, as such member is, in the opinion of the Controller, fit
-to hold.
-
-(2) Every person appointed to be a member of the Corps shall be given a certificate of membership in
-such form as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7206&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7206)
+  sectionNo (5)
+  orderNo 5
+  title `Appointment of members and officers.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7206&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_5_content:
+  string
+  line `(1) The State Government may appoint as members of`
+  line `the Corps persons who are fit and willing to serve as such and the Controller may appoint any member so`
+  line `appointed to such office or command in the Corps, as such member is, in the opinion of the Controller, fit`
+  line `to hold.`
+  line
+  line `(2) Every person appointed to be a member of the Corps shall be given a certificate of membership in`
+  line `such form as may be prescribed.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 7207)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Dismissal of members of Civil Defence Corps.`)
-  (str content) (str `(1) Where any member of the Corps fails or has
-failed, in the opinion of the Controller, to discharge his duties as such member satisfactorily or is or has
-been found guilty of any misconduct in the discharge of his duties as such member, the Controller may,
-after an inquiry in which such member of the Corps has been given a reasonable opportunity of being
-heard in respect of the charges against him, by an order, dismiss such member from the Corps.
-
-(2) Where the Controller is of opinion that the continued presence of any member of the Corps is
-undesirable, he may, without assigning any reason, summarily dismiss such member from the Corps.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7207&sectionno=6&orderno=6&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7207)
+  sectionNo (6)
+  orderNo 6
+  title `Dismissal of members of Civil Defence Corps.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7207&sectionno=6&orderno=6&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_6_content:
+  string
+  line `(1) Where any member of the Corps fails or has`
+  line `failed, in the opinion of the Controller, to discharge his duties as such member satisfactorily or is or has`
+  line `been found guilty of any misconduct in the discharge of his duties as such member, the Controller may,`
+  line `after an inquiry in which such member of the Corps has been given a reasonable opportunity of being`
+  line `heard in respect of the charges against him, by an order, dismiss such member from the Corps.`
+  line
+  line `(2) Where the Controller is of opinion that the continued presence of any member of the Corps is`
+  line `undesirable, he may, without assigning any reason, summarily dismiss such member from the Corps.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 7208)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str Appeal.)
-  (str content) (str `A member of the Corps who is dismissed from the Corps under section 6 may prefer an
-appeal to the State Government within thirty days from the date of such dismissal and that Government
-may, on such appeal, confirm, modify or reverse the order made by the Controller or other authority.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7208&sectionno=7&orderno=7&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7208)
+  sectionNo (7)
+  orderNo 7
+  title Appeal.
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7208&sectionno=7&orderno=7&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_7_content:
+  string
+  line `A member of the Corps who is dismissed from the Corps under section 6 may prefer an`
+  line `appeal to the State Government within thirty days from the date of such dismissal and that Government`
+  line `may, on such appeal, confirm, modify or reverse the order made by the Controller or other authority.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 7209)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Functions of members of Civil Defence Corps.`)
-  (str content) (str `(1) The members of the Corps shall perform
-such functions in relation to the carrying out of measures for civil defence as may be assigned to them by
-rules made under this Act or by any other law for the time being in force.
-
-(2) The State Government or the Controller may, by order, call out a member of the Corps for training
-or for discharging such functions in relation to the carrying out of measures for civil defence as may be
-specified in such order.
-
-(3) Subject to such orders as the Central Government may make in this behalf, any member of the
-Corps of any State may at any time be required, by order, to discharge functions in relation to civil
-defence in any other State and shall while discharging such functions, be deemed to be a member of the
-Corps of that other State and be vested with the powers, functions and privileges and be subject to the
-liabilities of a member of the Corps in that other State.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7209&sectionno=8&orderno=8&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7209)
+  sectionNo (8)
+  orderNo 8
+  title `Functions of members of Civil Defence Corps.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7209&sectionno=8&orderno=8&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_8_content:
+  string
+  line `(1) The members of the Corps shall perform`
+  line `such functions in relation to the carrying out of measures for civil defence as may be assigned to them by`
+  line `rules made under this Act or by any other law for the time being in force.`
+  line
+  line `(2) The State Government or the Controller may, by order, call out a member of the Corps for training`
+  line `or for discharging such functions in relation to the carrying out of measures for civil defence as may be`
+  line `specified in such order.`
+  line
+  line `(3) Subject to such orders as the Central Government may make in this behalf, any member of the`
+  line `Corps of any State may at any time be required, by order, to discharge functions in relation to civil`
+  line `defence in any other State and shall while discharging such functions, be deemed to be a member of the`
+  line `Corps of that other State and be vested with the powers, functions and privileges and be subject to the`
+  line `liabilities of a member of the Corps in that other State.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 7210)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Power to make regulations.`)
-  (str content) (str `(1) The Central Government may, by notification, make regulations
-for carrying out the purposes of this Chapter.
-
-(2) In particular, and without prejudice to the generality of the foregoing power such regulations
-may—
-
-(a) prescribe the functions of the members of the Corps and regulate the manner in which they
-may be called out for service;
-
-(b) regulate the organisation, appointment, conditions of service, discipline, accoutrement and
-clothing of members of any or all of the Corps;
-
-(c) prescribe the form of certificates of membership of any or all of the Corps`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7210&sectionno=9&orderno=9&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7210)
+  sectionNo (9)
+  orderNo 9
+  title `Power to make regulations.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7210&sectionno=9&orderno=9&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_9_content:
+  string
+  line `(1) The Central Government may, by notification, make regulations`
+  line `for carrying out the purposes of this Chapter.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power such regulations`
+  line may—
+  line
+  line `(a) prescribe the functions of the members of the Corps and regulate the manner in which they`
+  line `may be called out for service;`
+  line
+  line `(b) regulate the organisation, appointment, conditions of service, discipline, accoutrement and`
+  line `clothing of members of any or all of the Corps;`
+  line
+  line `(c) prescribe the form of certificates of membership of any or all of the Corps`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 7211)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Provisions of the Personal Injuries (Emergency Provisions) Act to apply to injuries sustained by the members of the Corps.`)
-  (str content) (str `The provisions of the Personal Injuries (Emergency
-Provisions) Act, 1962 (59 of 1962), and of every scheme made thereunder shall apply, so far as may be,
-to every personal service injury sustained by any person appointed to be a member of the Corps as they
-apply to personal service injury sustained by a civil defence volunteer, subject to the modifications that—
-
-(a) any reference to a civil defence volunteer under that Act or any scheme made thereunder shall
-be construed as reference to a member of the Corps; and
-
-(b) any reference therein to the period of emergency shall, in relation to a member of the Corps,
-be construed as the period during which this Act is in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7211&sectionno=10&orderno=10&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7211)
+  sectionNo (10)
+  orderNo 10
+  title `Provisions of the Personal Injuries (Emergency Provisions) Act to apply to injuries sustained by the members of the Corps.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7211&sectionno=10&orderno=10&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_10_content:
+  string
+  line `The provisions of the Personal Injuries (Emergency`
+  line `Provisions) Act, 1962 (59 of 1962), and of every scheme made thereunder shall apply, so far as may be,`
+  line `to every personal service injury sustained by any person appointed to be a member of the Corps as they`
+  line `apply to personal service injury sustained by a civil defence volunteer, subject to the modifications that—`
+  line
+  line `(a) any reference to a civil defence volunteer under that Act or any scheme made thereunder shall`
+  line `be construed as reference to a member of the Corps; and`
+  line
+  line `(b) any reference therein to the period of emergency shall, in relation to a member of the Corps,`
+  line `be construed as the period during which this Act is in force.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 7212)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str Penalties.)
-  (str content) (str `(1) If any member of the Corps on being called out by an order under sub-section (2)
-of section 8 neglects or refuses without sufficient excuse to obey such order or to discharge his functions
-as such member or to obey any lawful order or direction given to him for the performance of his
-functions, he shall be punishable with fine which may extend to five hundred rupees, and where such
-neglect or refusal is a continuing one, with a further fine which may extend to fifty rupees for every day,
-after the first, during which such contravention continues.
-
-^1
-(2) If any person neglects or fails without any reasonable excuse to obey any order made or direction
-given to him under this act or rules made thereunder, he shall be punishable with fine which may extend
-to five hundred rupees, and where such negligence or failure is a continuing one, with a further fine which
-may extend to fifty rupees for every day, after the first, during which such negligence or failure continues.`)
-  (str footnotes) (str `1. Sub-section (2) omitted by Act 42 of 1971, s. 6 (during emergency and six months thereafter) and restored thereafter (w.e.f. 3-12-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7212&sectionno=11&orderno=11&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7212)
+  sectionNo (11)
+  orderNo 11
+  title Penalties.
+  content obj_root_law_sections_11_content
+  footnotes `1. Sub-section (2) omitted by Act 42 of 1971, s. 6 (during emergency and six months thereafter) and restored thereafter (w.e.f. 3-12-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7212&sectionno=11&orderno=11&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_11_content:
+  string
+  line `(1) If any member of the Corps on being called out by an order under sub-section (2)`
+  line `of section 8 neglects or refuses without sufficient excuse to obey such order or to discharge his functions`
+  line `as such member or to obey any lawful order or direction given to him for the performance of his`
+  line `functions, he shall be punishable with fine which may extend to five hundred rupees, and where such`
+  line `neglect or refusal is a continuing one, with a further fine which may extend to fifty rupees for every day,`
+  line `after the first, during which such contravention continues.`
+  line
+  line ^1
+  line `(2) If any person neglects or fails without any reasonable excuse to obey any order made or direction`
+  line `given to him under this act or rules made thereunder, he shall be punishable with fine which may extend`
+  line `to five hundred rupees, and where such negligence or failure is a continuing one, with a further fine which`
+  line `may extend to fifty rupees for every day, after the first, during which such negligence or failure continues.`
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 7213)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Effect of Act and rules, etc., inconsistent with other enactments.`)
-  (str content) (str `(1) The provisions of this
-Act or any rules thereunder or any order made under this Act or any such rule shall have effect
-notwithstanding anything inconsistent therewith contained in any enactment other than this Act or in any
-instrument having effect by virtue of any enactment other than this Act.
-
-(2) Every appointment, order or rule made in relation to civil defence before the commencement of
-this Act by or under any law relating to civil defence shall, in so far as it is not inconsistent with the
-provisions of this Act, continue to be in force until it is rescinded or altered under this Act, and be deemed
-to have been made under the corresponding provisions of this Act.
-
-Explanation.—"Commencement of this Act", in relation to any provision or area, means the
-commencement of that provision or, as the case may be, the commencement of this Act in that area.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7213&sectionno=12&orderno=12&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7213)
+  sectionNo (12)
+  orderNo 12
+  title `Effect of Act and rules, etc., inconsistent with other enactments.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7213&sectionno=12&orderno=12&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_12_content:
+  string
+  line `(1) The provisions of this`
+  line `Act or any rules thereunder or any order made under this Act or any such rule shall have effect`
+  line `notwithstanding anything inconsistent therewith contained in any enactment other than this Act or in any`
+  line `instrument having effect by virtue of any enactment other than this Act.`
+  line
+  line `(2) Every appointment, order or rule made in relation to civil defence before the commencement of`
+  line `this Act by or under any law relating to civil defence shall, in so far as it is not inconsistent with the`
+  line `provisions of this Act, continue to be in force until it is rescinded or altered under this Act, and be deemed`
+  line `to have been made under the corresponding provisions of this Act.`
+  line
+  line `Explanation.—"Commencement of this Act", in relation to any provision or area, means the`
+  line `commencement of that provision or, as the case may be, the commencement of this Act in that area.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 7214)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Ordinary avocations of life to be interfered with as little as possible.`)
-  (str content) (str `Any authority or
-person acting in pursuance of this Act shall interfere with the ordinary avocations of life and the
-enjoyment of property as little as may be consonant with the purpose of ensuring the public safety and
-civil defence.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7214&sectionno=13&orderno=13&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7214)
+  sectionNo (13)
+  orderNo 13
+  title `Ordinary avocations of life to be interfered with as little as possible.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7214&sectionno=13&orderno=13&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_13_content:
+  string
+  line `Any authority or`
+  line `person acting in pursuance of this Act shall interfere with the ordinary avocations of life and the`
+  line `enjoyment of property as little as may be consonant with the purpose of ensuring the public safety and`
+  line `civil defence.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 7215)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Savings as to orders.`)
-  (str content) (str `(1) No order made in exercise of any power conferred by or under this
-Act shall be called in question in any court.
-
-(2) Where an order purports to have been made and signed by any authority in exercise of any power
-conferred by or under this Act, a court shall, within the meaning of the Indian Evidence Act, 1872
-(1 of 1872), presume that such order was so made by that authority.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7215&sectionno=14&orderno=14&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7215)
+  sectionNo (14)
+  orderNo 14
+  title `Savings as to orders.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7215&sectionno=14&orderno=14&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_14_content:
+  string
+  line `(1) No order made in exercise of any power conferred by or under this`
+  line `Act shall be called in question in any court.`
+  line
+  line `(2) Where an order purports to have been made and signed by any authority in exercise of any power`
+  line `conferred by or under this Act, a court shall, within the meaning of the Indian Evidence Act, 1872`
+  line `(1 of 1872), presume that such order was so made by that authority.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 7216)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Act not to apply to measures taken for the protection of the Armed Forces.`)
-  (str content) (str `Nothing
-contained in this Act or any rule, regulation or order made thereunder shall apply to the Armed Forces of the Union or to any measures taken by any of the authorities in control of the Armed Forces of the Union
-for the purpose of securing civil defence or safety of such forces or for the protection of any naval,
-military or air force installations or stores.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7216&sectionno=15&orderno=15&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7216)
+  sectionNo (15)
+  orderNo 15
+  title `Act not to apply to measures taken for the protection of the Armed Forces.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7216&sectionno=15&orderno=15&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_15_content:
+  string
+  line Nothing
+  line `contained in this Act or any rule, regulation or order made thereunder shall apply to the Armed Forces of the Union or to any measures taken by any of the authorities in control of the Armed Forces of the Union`
+  line `for the purpose of securing civil defence or safety of such forces or for the protection of any naval,`
+  line `military or air force installations or stores.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 7217)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Limitation of prosecutions.`)
-  (str content) (str `No prosecution for any offence punishable under this Act shall be
-instituted against any person except by, or with the consent of, the Controller or any person authorised by
-the Controller in this behalf.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7217&sectionno=16&orderno=16&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7217)
+  sectionNo (16)
+  orderNo 16
+  title `Limitation of prosecutions.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7217&sectionno=16&orderno=16&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_16_content:
+  string
+  line `No prosecution for any offence punishable under this Act shall be`
+  line `instituted against any person except by, or with the consent of, the Controller or any person authorised by`
+  line `the Controller in this behalf.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_16_a:
-  object
-  (str sectionId) (str 7218)
-  (str sectionNo) (str 16A)
-  (str orderNo) (int 17)
-  (str title) (str `Power of the Central Government to delegate.`)
-  (str content) (str `^1[16A. Power of the Central Government to delegate.--The Central Government may, by order,
-direct that any power or duty, which by this Act or any rule made thereunder is conferred or imposed
-upon the Central Government shall, in such circumstances and under such conditions, if any, as may be
-specified in the direction, be exercised or discharged also by any officer or authority subordinate to the
-Central Government.`)
-  (str footnotes) (str `1. Ins. by Act 42 of 1971, s. 6 (during emergency and six months thereafter) (w.e.f. 3-12-1971)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7218&sectionno=16A&orderno=17&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7218)
+  sectionNo 16A
+  orderNo 17
+  title `Power of the Central Government to delegate.`
+  content obj_root_law_sections_16_a_content
+  footnotes `1. Ins. by Act 42 of 1971, s. 6 (during emergency and six months thereafter) (w.e.f. 3-12-1971)`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7218&sectionno=16A&orderno=17&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_16_a_content:
+  string
+  line `^1[16A. Power of the Central Government to delegate.--The Central Government may, by order,`
+  line `direct that any power or duty, which by this Act or any rule made thereunder is conferred or imposed`
+  line `upon the Central Government shall, in such circumstances and under such conditions, if any, as may be`
+  line `specified in the direction, be exercised or discharged also by any officer or authority subordinate to the`
+  line `Central Government.`
 obj_root_law_sections_16_b:
-  object
-  (str sectionId) (str 7219)
-  (str sectionNo) (str 16B)
-  (str orderNo) (int 18)
-  (str title) (str `Effect of order made by the Central Government, etc.`)
-  (str content) (str `^1[16B. Effect of order made by the Central Government, etc.--Any order made by the Central
-Government or the officer or authority authorised by it under section 16A in relation to a matter to which
-this Act or any rule made thereunder relates shall have effect, notwithstanding anything contained in any
-order made by the State Government or any other authority with regard to such matter.]`)
-  (str footnotes) (str `1. Ins. by Act 42 of 1971, s. 6 (during emergency and six months thereafter) (w.e.f. 3-12-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7219&sectionno=16B&orderno=18&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7219)
+  sectionNo 16B
+  orderNo 18
+  title `Effect of order made by the Central Government, etc.`
+  content obj_root_law_sections_16_b_content
+  footnotes `1. Ins. by Act 42 of 1971, s. 6 (during emergency and six months thereafter) (w.e.f. 3-12-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7219&sectionno=16B&orderno=18&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_16_b_content:
+  string
+  line `^1[16B. Effect of order made by the Central Government, etc.--Any order made by the Central`
+  line `Government or the officer or authority authorised by it under section 16A in relation to a matter to which`
+  line `this Act or any rule made thereunder relates shall have effect, notwithstanding anything contained in any`
+  line `order made by the State Government or any other authority with regard to such matter.]`
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 7220)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 19)
-  (str title) (str `Power to delegate.`)
-  (str content) (str `The State Government may, by notification, direct that—
-
-(a) all or any of the powers which may be exercised by it under this Act shall, in such
-circumstances and under such conditions, if any, as may be specified in that notification, be exercised
-also by such officer, not being, in the opinion of the State Government, inferior in rank to that of a
-District Magistrate, as may be specified in the said notification;
-
-(b) all or any of the powers which may be exercised by the Controller under this Act shall, in such
-circumstances and under such conditions, if any, as may be specified in that notification, be exercised
-also by such officer, not being, in the opinion of the State Government, inferior in rank to that of a
-Sub- Divisional Magistrate, as may be specified in the said notification.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7220&sectionno=17&orderno=19&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7220)
+  sectionNo (17)
+  orderNo 19
+  title `Power to delegate.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7220&sectionno=17&orderno=19&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_17_content:
+  string
+  line `The State Government may, by notification, direct that—`
+  line
+  line `(a) all or any of the powers which may be exercised by it under this Act shall, in such`
+  line `circumstances and under such conditions, if any, as may be specified in that notification, be exercised`
+  line `also by such officer, not being, in the opinion of the State Government, inferior in rank to that of a`
+  line `District Magistrate, as may be specified in the said notification;`
+  line
+  line `(b) all or any of the powers which may be exercised by the Controller under this Act shall, in such`
+  line `circumstances and under such conditions, if any, as may be specified in that notification, be exercised`
+  line `also by such officer, not being, in the opinion of the State Government, inferior in rank to that of a`
+  line `Sub- Divisional Magistrate, as may be specified in the said notification.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 7221)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 20)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `(1) No suit, prosecution or other legal proceeding
-shall lie against the Government, the Director or the Controller or any person, authorised by the
-Government or the Controller, for anything which is in good faith done or intended to be done under this
-Act or any rules or orders made thereunder or any orders issued under any such rule.
-
-(2) No suit or other legal proceeding shall lie against the Government, the Director or the Controller
-or any person, authorised by the Government or the Controller, for any damage caused or likely to be
-caused by anything which is in good faith done or intended to be done under this Act or any rule made
-thereunder or any order issued under any such rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7221&sectionno=18&orderno=20&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7221)
+  sectionNo (18)
+  orderNo 20
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7221&sectionno=18&orderno=20&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_18_content:
+  string
+  line `(1) No suit, prosecution or other legal proceeding`
+  line `shall lie against the Government, the Director or the Controller or any person, authorised by the`
+  line `Government or the Controller, for anything which is in good faith done or intended to be done under this`
+  line `Act or any rules or orders made thereunder or any orders issued under any such rule.`
+  line
+  line `(2) No suit or other legal proceeding shall lie against the Government, the Director or the Controller`
+  line `or any person, authorised by the Government or the Controller, for any damage caused or likely to be`
+  line `caused by anything which is in good faith done or intended to be done under this Act or any rule made`
+  line `thereunder or any order issued under any such rule.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 7222)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 21)
-  (str title) (str `Authorised persons and members of the Corps to be public servants.`)
-  (str content) (str `Any person authorised
-by^1[the Central Government] the Controller or the State Government under this Act and every member of
-the Corps, while functioning as such, shall be deemed to be public servants within the meaning of section
-21 of the Indian Penal Code (45 of 1860).`)
-  (str footnotes) (str `1. Ins. by Act 42 of 1971, s. 6 (during emergency and six months thereafter) (w.e.f. 3-12-1971)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7222&sectionno=19&orderno=21&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7222)
+  sectionNo (19)
+  orderNo 21
+  title `Authorised persons and members of the Corps to be public servants.`
+  content obj_root_law_sections_19_content
+  footnotes `1. Ins. by Act 42 of 1971, s. 6 (during emergency and six months thereafter) (w.e.f. 3-12-1971)`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7222&sectionno=19&orderno=21&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_19_content:
+  string
+  line `Any person authorised`
+  line `by^1[the Central Government] the Controller or the State Government under this Act and every member of`
+  line `the Corps, while functioning as such, shall be deemed to be public servants within the meaning of section`
+  line `21 of the Indian Penal Code (45 of 1860).`
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 7223)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 22)
-  (str title) (str `Rules and regulations to be laid before Parliament.`)
-  (str content) (str `Every rule and every regulation made by
-the Central Government under this Act shall be laid as soon as may be after it is made, before each House
-of Parliament while it is in session for a total period of thirty days which may be comprised in one session
-or ^1
-[in two or more successive sessions, and if, before the expiry of the session immediately following the
-session or the successive sessions aforesaid], both Houses agree in making any modification in the rule or
-regulation or both Houses agree that the rule or regulation, as the case may be, should not be made, the
-rule or regulation shall thereafter have effect only in such modified form or be of no effect, as the case
-may be; so, however, that any such modification or annulment shall be without prejudice to the validity of
-anything previously done under that rule or regulation.`)
-  (str footnotes) (str `1. Subs. by Act 20 of 1983, s. 2 and the Schedule, for certain words (w.e.f. 15-3-1984).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7223&sectionno=20&orderno=22&orgactid=AC_CEN_5_23_00004_196827_1517807319412)
+  sectionId (7223)
+  sectionNo (20)
+  orderNo 22
+  title `Rules and regulations to be laid before Parliament.`
+  content obj_root_law_sections_20_content
+  footnotes `1. Subs. by Act 20 of 1983, s. 2 and the Schedule, for certain words (w.e.f. 15-3-1984).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00004_196827_1517807319412&sectionId=7223&sectionno=20&orderno=22&orgactid=AC_CEN_5_23_00004_196827_1517807319412
+obj_root_law_sections_20_content:
+  string
+  line `Every rule and every regulation made by`
+  line `the Central Government under this Act shall be laid as soon as may be after it is made, before each House`
+  line `of Parliament while it is in session for a total period of thirty days which may be comprised in one session`
+  line `or ^1`
+  line `[in two or more successive sessions, and if, before the expiry of the session immediately following the`
+  line `session or the successive sessions aforesaid], both Houses agree in making any modification in the rule or`
+  line `regulation or both Houses agree that the rule or regulation, as the case may be, should not be made, the`
+  line `rule or regulation shall thereafter have effect only in such modified form or be of no effect, as the case`
+  line `may be; so, however, that any such modification or annulment shall be without prejudice to the validity of`
+  line `anything previously done under that rule or regulation.`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `नागरिक सुरक्षा अधिनियम,1968`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1524/4/H1968-27.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:23:45.388Z`)
-  (str pageCount) (int 6)
-  (str sections) obj_root_law_translations_hi_sections
+  title `नागरिक सुरक्षा अधिनियम,1968`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1524/4/H1968-27.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:23:45.388Z`
+  pageCount 6
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -619,308 +705,338 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_5
   obj_root_law_translations_hi_sections_6
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `नागरिक सुिक्षा अधिधनयम, 1968
-( 1968 का अधिधनयम संखयां क 27 ) 1
-[24 मई, 1968 ]
-नागरिक सुिक्षा तथा उससे संबंधित धिषयों के धिए
-उपबंि किने के धिए
-अधिधनयम
-भाित गणिाज्य के उन्नी सिें िषष में संसद् द्व ािा धनम्न धिधित रू प में यह अधिधनयधम त हो: ––
-अध्या य 1 प्र
-ािधम्भ क
-1. संधक्षप्त नाम, धिस्ता ि औि प्र ािम्भ –– ( 1 ) यह अधिधनयम नागरिक सुिक्षा अधिधनयम, 1968 कहा जा सकेगा।
-( 2 ) इसका धिस्ता ि 2 संपूणष भाित पि है।
-( 3 ) यह ककसी िाज्य या उसके भाग में उस तािीि 3 को प्र िृत्त होगा धजसे केन्री य सिकाि अधिसूचना द्व ािा धनयत किे औि जो
-भाित िक्षा अधिधनयम, 1962 ( 1962 का 51 ) के अिसान की तािीि से पूिष की न हो, औि धिधभन् न िाज्यों या उनके धिधभन् न भागों के
-धिए धिधभन् न तािीिें धनयत की जा सकेंगी।
-2. परिभाषाएं –– इस अधिधनयम में, जब तक कक संदभष से अन्य था अपेधक्षत न हो, ––
-(क) “ नागरिक सुिक्षा ” के अन्त गषत िास्त धिक मुडभेड़ की कोरि में न आने िािे िे सभी उपा य हैं जो भाित में या
-उसके िाज्य क्षेत्र के ककसी भाग में ककसी व् य धत, संपधत्त, स् था न, या िस्तु को ककसी बैिपूणष आक्रमण से, चाहे िह िायु, भूधम या
-समुर से हो या अन्य स् था नों से, संि क्ष ण प्र दान किने के धिए, अथिा ऐसे ककसी आक्रमण को पूणषत: या भागत: प्र भािहीन किने
-के धिए हों, चा हे ऐसे उपाय ऐसे आक्रमण के समय पि ककए जाएं या उसके पूिष या दौिान या पश्चा त् ककए जाएं 4 [ या ऐसा
-कोई उपाय है जो ककसी आपदा के पूिष, दौिान, समय या उसके पश्चा त् आपदा प्र बन्ि न के प्र योजन के धिए ककया गया है;]
-(ि) “ नागरिक सुिक्षा कोि ” से पूणषत: या मुखय त: नागरिक सुिक्षा की आिश्य कताओं को पूिा किने के धिए बनाई
-गई कोि अधभप्रेत है औि इसके अन्त गषत िािा 4 की उपिािा ( 1 ) के पिन्तु क के अिीन कोि समझा जाने िािा संगठन भी है;
-(ग) “ बैि पूणष आक्रमण ” से ककसी व् य धत या व् य धत - धनकाय द्व ािा ककया जाने िािा ऐसा आक्रमण अधभप्रेत है, जो
-चाहे िह ककसी युद्ध, बाह्य अभ्या सक्रमण या आन्त रिक उपरि के दौिान हो या अन्य था, भाित में या उसके िाज्यक्षेत्र के ककसी
-भाग में जीिन, संपधत्त, स् था न या िस्तु की सुिक्षा को संकिापन्न किता है;
-(घ) “ अधिसूचना ” से शासकीय िाजपत्र में प्र काधशत अधिसूचना अधभप्रेत है;
-( ङ ) “ िैयधत क सेिा क्ष धत ” का िही अथष है जो उसका िैयधत क क्ष धत (आपात् उपबंि) अधिधनयम, 1962
-( 1962 का 59 ) में है;
-(च) ककसी संघ िा ज् य क्षेत्र के संबंि में “ िाज्य सिकाि ” से उस संघ िाज्य क्षेत्र का प्र शासक अधभप्रेत है;
-4 [ (छ) “ आपदा ” से आपदा प्र बन्ि न अधिधनयम, 2005 ( 2005 का 53 ) की िािा 2 के िण्ड (घ) में यथा परिभाधषत
-कोई आपदा अधभप्रेत है;
-(ज) “ आपदा प्र बन्ि न ” से आपदा प्र बन्ि न अधिधन यम, 2005 ( 2005 का 53 ) की िािा 2 के िण्ड ( ङ ) में यथा
-परिभाधषत आपदा प्र बन्ि न अधभप्रेत है। ]
-1 1971 के अधिधनयम सं ० 42 द्व ािा आपातकाि की उद् घोषणा की अिधि के दौिान औि उसके पश्चा त् छह महीने की अिधि के धिए यह अधिधनयम संशोधित ककया
-गया। देधिए 1971 के अधिधनयम सं ० 42 की िािा 6 ( 5 )।
-2 अधिसूचना सं ० का ० आ ० 478 (अ), तािीि 8 - 9 - 1975 द्व ािा ( 1 - 10 - 1975 से) धसधक म िाज्य पि धिस् ता रित औि प्र िृत्त ककया गया।
-3 10 जुिाई, 1968 (सम्पू णष भाित में): देधिए अधिसूचना सं ० 2435, तािीि 5 जुिाई 1968, देधिए भाित का िाजपत्र (अंग्रेजी), 1968, असािािण, भाग 2,
-अनुभाग 3 ( ii ), पृष्ठ 761।
-4 2010 के अधिधनयम सं ० 3 की िािा 2 द्व ािा अंत:स्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `नागरिक सुिक्षा अधिधनयम, 1968`
+  line `( 1968 का अधिधनयम संखयां क 27 ) 1`
+  line `[24 मई, 1968 ]`
+  line `नागरिक सुिक्षा तथा उससे संबंधित धिषयों के धिए`
+  line `उपबंि किने के धिए`
+  line अधिधनयम
+  line `भाित गणिाज्य के उन्नी सिें िषष में संसद् द्व ािा धनम्न धिधित रू प में यह अधिधनयधम त हो: ––`
+  line `अध्या य 1 प्र`
+  line `ािधम्भ क`
+  line `1. संधक्षप्त नाम, धिस्ता ि औि प्र ािम्भ –– ( 1 ) यह अधिधनयम नागरिक सुिक्षा अधिधनयम, 1968 कहा जा सकेगा।`
+  line `( 2 ) इसका धिस्ता ि 2 संपूणष भाित पि है।`
+  line `( 3 ) यह ककसी िाज्य या उसके भाग में उस तािीि 3 को प्र िृत्त होगा धजसे केन्री य सिकाि अधिसूचना द्व ािा धनयत किे औि जो`
+  line `भाित िक्षा अधिधनयम, 1962 ( 1962 का 51 ) के अिसान की तािीि से पूिष की न हो, औि धिधभन् न िाज्यों या उनके धिधभन् न भागों के`
+  line `धिए धिधभन् न तािीिें धनयत की जा सकेंगी।`
+  line `2. परिभाषाएं –– इस अधिधनयम में, जब तक कक संदभष से अन्य था अपेधक्षत न हो, ––`
+  line `(क) “ नागरिक सुिक्षा ” के अन्त गषत िास्त धिक मुडभेड़ की कोरि में न आने िािे िे सभी उपा य हैं जो भाित में या`
+  line `उसके िाज्य क्षेत्र के ककसी भाग में ककसी व् य धत, संपधत्त, स् था न, या िस्तु को ककसी बैिपूणष आक्रमण से, चाहे िह िायु, भूधम या`
+  line `समुर से हो या अन्य स् था नों से, संि क्ष ण प्र दान किने के धिए, अथिा ऐसे ककसी आक्रमण को पूणषत: या भागत: प्र भािहीन किने`
+  line `के धिए हों, चा हे ऐसे उपाय ऐसे आक्रमण के समय पि ककए जाएं या उसके पूिष या दौिान या पश्चा त् ककए जाएं 4 [ या ऐसा`
+  line `कोई उपाय है जो ककसी आपदा के पूिष, दौिान, समय या उसके पश्चा त् आपदा प्र बन्ि न के प्र योजन के धिए ककया गया है;]`
+  line `(ि) “ नागरिक सुिक्षा कोि ” से पूणषत: या मुखय त: नागरिक सुिक्षा की आिश्य कताओं को पूिा किने के धिए बनाई`
+  line `गई कोि अधभप्रेत है औि इसके अन्त गषत िािा 4 की उपिािा ( 1 ) के पिन्तु क के अिीन कोि समझा जाने िािा संगठन भी है;`
+  line `(ग) “ बैि पूणष आक्रमण ” से ककसी व् य धत या व् य धत - धनकाय द्व ािा ककया जाने िािा ऐसा आक्रमण अधभप्रेत है, जो`
+  line `चाहे िह ककसी युद्ध, बाह्य अभ्या सक्रमण या आन्त रिक उपरि के दौिान हो या अन्य था, भाित में या उसके िाज्यक्षेत्र के ककसी`
+  line `भाग में जीिन, संपधत्त, स् था न या िस्तु की सुिक्षा को संकिापन्न किता है;`
+  line `(घ) “ अधिसूचना ” से शासकीय िाजपत्र में प्र काधशत अधिसूचना अधभप्रेत है;`
+  line `( ङ ) “ िैयधत क सेिा क्ष धत ” का िही अथष है जो उसका िैयधत क क्ष धत (आपात् उपबंि) अधिधनयम, 1962`
+  line `( 1962 का 59 ) में है;`
+  line `(च) ककसी संघ िा ज् य क्षेत्र के संबंि में “ िाज्य सिकाि ” से उस संघ िाज्य क्षेत्र का प्र शासक अधभप्रेत है;`
+  line `4 [ (छ) “ आपदा ” से आपदा प्र बन्ि न अधिधनयम, 2005 ( 2005 का 53 ) की िािा 2 के िण्ड (घ) में यथा परिभाधषत`
+  line `कोई आपदा अधभप्रेत है;`
+  line `(ज) “ आपदा प्र बन्ि न ” से आपदा प्र बन्ि न अधिधन यम, 2005 ( 2005 का 53 ) की िािा 2 के िण्ड ( ङ ) में यथा`
+  line `परिभाधषत आपदा प्र बन्ि न अधभप्रेत है। ]`
+  line `1 1971 के अधिधनयम सं ० 42 द्व ािा आपातकाि की उद् घोषणा की अिधि के दौिान औि उसके पश्चा त् छह महीने की अिधि के धिए यह अधिधनयम संशोधित ककया`
+  line `गया। देधिए 1971 के अधिधनयम सं ० 42 की िािा 6 ( 5 )।`
+  line `2 अधिसूचना सं ० का ० आ ० 478 (अ), तािीि 8 - 9 - 1975 द्व ािा ( 1 - 10 - 1975 से) धसधक म िाज्य पि धिस् ता रित औि प्र िृत्त ककया गया।`
+  line `3 10 जुिाई, 1968 (सम्पू णष भाित में): देधिए अधिसूचना सं ० 2435, तािीि 5 जुिाई 1968, देधिए भाित का िाजपत्र (अंग्रेजी), 1968, असािािण, भाग 2,`
+  line `अनुभाग 3 ( ii ), पृष्ठ 761।`
+  line `4 2010 के अधिधनयम सं ० 3 की िािा 2 द्व ािा अंत:स्था धपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-अध्या य 2
-नागरिक सुिक्षा के धिए धनयम बनाने की केन्री य सिकाि की शधत
-3. नागरिक सुिक्षा के धिए धनयम बनाने की शधत –– ( 1 ) केन्री य सिकाि, नागरिक सुिक्षा को सुधनधश्च त किने के धिए
-धनम्न धिधित सभी धिषयों के धिए या उनमें से ककसी के धिए उपबन्ि किने िािे धनयम अधिसूचना द्व ािा बना सकेगी, अथाषत्: ––
-(क) ककसी ऐसे काम के ककए जाने को धनिा रित किना, धजससे नागरिक सुिक्षा पि प्र धतकूि प्र भाि पड़ना
-संभाव्य हो;
-(ि) जन - सािािण को नागरिक सुिक्षा के संबंि में धशक्षण देना औ ि ऐसी सुिक्षा के प्र योजनों के धिए उन्हें
-तैयाि किना;
-(ग) नागरिक सुिक्षा के धिए अपेधक्षत िस्तु ओं औि चीजों की व् य िस्था, भंडािकिण औि अनुिक्षण;
-(घ) पत्तनों तथा िाज्य क्षेत्र ीय, ज् िा िीय औि अन्त देशीय जि में यातायात औि जियानों, बोयाओं, िोशधनयों औि
-संकेतों के प्र योग का प्र धतषेि या धिधनयमन किना;
-( ङ ) िोशधनयों औि ध् ि धनयों का धनयंत्रण;
-(च) अधन धनिािक औि अन्य उपायों द्व ािा जीिन औि संपधत्त का संिक्षण;
-(छ) ककन्हीं भिनों, परिसिों या अन्य सं िचनाओं को ककसी बैिपूणष आक्रमण के अिसि पि आसानी से पहचाने जाने
-से बचाना सुधनधश्च त किना;
-(ज) जीिन औि संपधत्त के ितिे के धनिािण के धिए ककसी भिन, परिसि या अन्य संिचना या ककसी अन्य संपधत्त
-को तोड़ डािना, नष्ि किना या अनुपयोगी बना देना;
-(झ) धनम्न धिधित के कब्जे, उपयोग या व् य यन का प्र धतषेघ या धिधनयमन किना ––
-( i ) धिस्फो िक, ज् ि िनशीि पदाथष, संक्षािक औि अन्य ितिनाक पदाथष या चीजें, आयुद्ध औि
-गोिाबारूद;
-( ii ) जियान;
-( iii ) बेताि के ताि का साधित्र;
-( iv ) िायुयान; तथा
-( v ) फोिोग्राफी औि संकेतन साधित्र तथा सूचनाओं को अधभधिधित किने का कोई सािन;
-( ञ ) क्षेत्रों को िािी किाना औि िहां से संपधत्त या जीि - जन्तु ओं को हिाना;
-(ि) एक क्षेत्र से धनष् क्रा धमत व् य धत यों को ककसी अन्य क्षेत्र में बसाना औि ऐसे क्षेत्र में बसाए गए धनष् क्रा धमत व्
-य धत यों के आचिण का धिधनयमन;
-(ठ) धनष् क्रा धमत व् य धत यों या इस अधिधनयम के अिीन कृत् य किने के धिए प्र ाधिकृत व् य धत यों को आिासादेश
-देना;
-(ड) नुकसानग्रस्त भिनों, संिचनाओं औि संपधत्त का उ द्ध ा िण तथा शिों का व् य यन;
-(ढ) क्ष त, अदािाकृत या ितिनाक जीि - जन्तु ओं का अ धभग्रहण, उनकी अधभिक्षा या उन्हें नष्ि किना;
-(ण) धनम्न धिधित की सुिक्षा को सुधनधश्च त किना ––
-( i ) पत्तन, डाकयाडष, दीप - स् त म् भ, दीप - पोत, हिाहष अड्डे औि धिमान संचािन से संबद्ध सुधििाएं;
-( ii ) िेिें, ट्र ामिे, सड़कें, पुि, नहिें औि भूधम या जि द्व ािा परििह न के सभी अन्य सािन;
-( iii ) ताि, डाकघि, संकेतन साधित्र औि सभी अन्य संचाि सािन;
-( iv ) जि - प्र दाय के स्र ोत औि पद्धधतयां, जि, गैस या धिद्युत के प्र दाय के संकमष औि िोक - प्र योजनों के
-धिए सभी अन्य संकमष;
-( v ) जियान, िायुयान, मोिियान अधिधनयम, 1939 ( 1939 का 4 ) में यथा परिभाधषत परििहन यान
-औि िेिों तथा ट्र ामिे के चि स् िा क;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `अध्या य 2`
+  line `नागरिक सुिक्षा के धिए धनयम बनाने की केन्री य सिकाि की शधत`
+  line `3. नागरिक सुिक्षा के धिए धनयम बनाने की शधत –– ( 1 ) केन्री य सिकाि, नागरिक सुिक्षा को सुधनधश्च त किने के धिए`
+  line `धनम्न धिधित सभी धिषयों के धिए या उनमें से ककसी के धिए उपबन्ि किने िािे धनयम अधिसूचना द्व ािा बना सकेगी, अथाषत्: ––`
+  line `(क) ककसी ऐसे काम के ककए जाने को धनिा रित किना, धजससे नागरिक सुिक्षा पि प्र धतकूि प्र भाि पड़ना`
+  line `संभाव्य हो;`
+  line `(ि) जन - सािािण को नागरिक सुिक्षा के संबंि में धशक्षण देना औ ि ऐसी सुिक्षा के प्र योजनों के धिए उन्हें`
+  line `तैयाि किना;`
+  line `(ग) नागरिक सुिक्षा के धिए अपेधक्षत िस्तु ओं औि चीजों की व् य िस्था, भंडािकिण औि अनुिक्षण;`
+  line `(घ) पत्तनों तथा िाज्य क्षेत्र ीय, ज् िा िीय औि अन्त देशीय जि में यातायात औि जियानों, बोयाओं, िोशधनयों औि`
+  line `संकेतों के प्र योग का प्र धतषेि या धिधनयमन किना;`
+  line `( ङ ) िोशधनयों औि ध् ि धनयों का धनयंत्रण;`
+  line `(च) अधन धनिािक औि अन्य उपायों द्व ािा जीिन औि संपधत्त का संिक्षण;`
+  line `(छ) ककन्हीं भिनों, परिसिों या अन्य सं िचनाओं को ककसी बैिपूणष आक्रमण के अिसि पि आसानी से पहचाने जाने`
+  line `से बचाना सुधनधश्च त किना;`
+  line `(ज) जीिन औि संपधत्त के ितिे के धनिािण के धिए ककसी भिन, परिसि या अन्य संिचना या ककसी अन्य संपधत्त`
+  line `को तोड़ डािना, नष्ि किना या अनुपयोगी बना देना;`
+  line `(झ) धनम्न धिधित के कब्जे, उपयोग या व् य यन का प्र धतषेघ या धिधनयमन किना ––`
+  line `( i ) धिस्फो िक, ज् ि िनशीि पदाथष, संक्षािक औि अन्य ितिनाक पदाथष या चीजें, आयुद्ध औि`
+  line गोिाबारूद;
+  line `( ii ) जियान;`
+  line `( iii ) बेताि के ताि का साधित्र;`
+  line `( iv ) िायुयान; तथा`
+  line `( v ) फोिोग्राफी औि संकेतन साधित्र तथा सूचनाओं को अधभधिधित किने का कोई सािन;`
+  line `( ञ ) क्षेत्रों को िािी किाना औि िहां से संपधत्त या जीि - जन्तु ओं को हिाना;`
+  line `(ि) एक क्षेत्र से धनष् क्रा धमत व् य धत यों को ककसी अन्य क्षेत्र में बसाना औि ऐसे क्षेत्र में बसाए गए धनष् क्रा धमत व्`
+  line `य धत यों के आचिण का धिधनयमन;`
+  line `(ठ) धनष् क्रा धमत व् य धत यों या इस अधिधनयम के अिीन कृत् य किने के धिए प्र ाधिकृत व् य धत यों को आिासादेश`
+  line देना;
+  line `(ड) नुकसानग्रस्त भिनों, संिचनाओं औि संपधत्त का उ द्ध ा िण तथा शिों का व् य यन;`
+  line `(ढ) क्ष त, अदािाकृत या ितिनाक जीि - जन्तु ओं का अ धभग्रहण, उनकी अधभिक्षा या उन्हें नष्ि किना;`
+  line `(ण) धनम्न धिधित की सुिक्षा को सुधनधश्च त किना ––`
+  line `( i ) पत्तन, डाकयाडष, दीप - स् त म् भ, दीप - पोत, हिाहष अड्डे औि धिमान संचािन से संबद्ध सुधििाएं;`
+  line `( ii ) िेिें, ट्र ामिे, सड़कें, पुि, नहिें औि भूधम या जि द्व ािा परििह न के सभी अन्य सािन;`
+  line `( iii ) ताि, डाकघि, संकेतन साधित्र औि सभी अन्य संचाि सािन;`
+  line `( iv ) जि - प्र दाय के स्र ोत औि पद्धधतयां, जि, गैस या धिद्युत के प्र दाय के संकमष औि िोक - प्र योजनों के`
+  line `धिए सभी अन्य संकमष;`
+  line `( v ) जियान, िायुयान, मोिियान अधिधनयम, 1939 ( 1939 का 4 ) में यथा परिभाधषत परििहन यान`
+  line `औि िेिों तथा ट्र ामिे के चि स् िा क;`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-( vi ) भांडागाि तथा भं डािकिण के प्र योजनों के धिए उपयो ग में िाए जाने िािे या ऐसे उपयोग के धिए
-आशधयत सब अन्य स् था न;
-( vii ) सािािणत: िानें, तेि - क्षेत्र, काििाने या औद्योधगक अथिा िाधणधज्य क उपक्र म या धिधशष्ि त: कोई
-िान, तेि - क्षेत्र, काििाना या औद्योधगक अथिा िाधणधज्य क उपक्रम;
-( viii ) ऐसी प्र योगशािाएं औि संस्था एं जहां िैज्ञाधनक या प्र ौद्योधगक अनुसंिान या प्र धशक्षण चिाया या
-कदया जाता है;
-( ix ) ऐसे सभी संकमष औि संिचनाएं जो इस िंड में पूिष िर्णष त ककसी चीज के भाग हैं या उससे
-संबंधित हैं;
-( x ) सिकाि या ककसी स् था नीय प्र ाधिकािी या ककसी अिषसिकािी अथिा स् िा यत्त संगठन के प्र योजनों के
-धिए उपयोग में िाया जाने िािा या िाए जाने के धिए आशधयत कोई ऐसा अन्य स् था न या चीज धजसका संिक्षण
-नागरिक सुिक्षा को सुधनधश्च त किने के धिए आिश्य क या समीचीन समझा जाए;
-(त) ककसी सड़क या पथ्या, जिमागष, पािघाि या पुि, नदी, नहि या जि - प्र दाय के अन्य स्र ोत का धनयंत्रण;
-(थ) ऐसे पूिाषििाधनक उपाय धजन्हें अपनी - अपनी अधिकारिता के अन्द ि अथिा अपने द्व ािा धनयोधजत ककसी
-कार्मष क के संबंि में किने की अ पेक्षा, सिकाि या उसके ककसी धिभाग या ककसी स् था नीय प्र ाधिकािी, पुधिस बि के सदस्यों,
-अधन शामक दि औि नागरिक सुिक्षा से धभन् न प्र योजनों के धिए प्र थमत: धनयोधजत ककसी अन्य सेिा या प्र ाधिकािी के सदस्यों
-से की जानी चाधहए;
-(द) ककन्हीं िर्दषयों के, चाहे िे शासकीय हों या अन्य, या ध् ि जों के या पदकों, बैजों अथिा अन्य िक्ष्य जैसे शासकीय
-अिंकिणों या तत्स मान ककसी िस्तु के, धजसे िािण किना प्र िंचन के धिए या नागरिक सुिक्षा पि प्र धतकूि प्र भाि डािने के
-धिए प्र कधप त हो, ककसी उपयोग का धनिाि ण या धनयंत्रण किना;
-(ि) ककसी आशंककत बैिपू णष आक्रमण के ितिों से जन सािािण या उसके ककन्हीं सदस्यों की संिक्षा किने या उन्हें
-उन ितिों से अिगत किाने की दृधष्ि से व् य धत यों या प्र ाधिकारियों द्व ािा बिती जाने िािी पू िाषि िाधनयां या की जाने िािी
-कािषिा ई;
-(न) ककसी भिन, संिचना या परिसि के स् िा मी या अधिभोगी से ऐसे इन्त जाम किने या पूिे किने की अपेक्षा किना
-जो अधन का पता िगाने या उसके धनिािण के प्र योजनों के धिए आिश्य क हों;
-(ज) आग िग जाने पि उसके संबंि में उपाय किना;
-(फ) यह धनदेश देना कक ककसी धिधन र् दषष्ि छूि के अिीन िहते हु ए, ककसी धिधनर्दषष्ि क्षेत्र में उपधस्थ त कोई भी व्
-य धत धिधनर्दषष्ि प्र ाधिकािी या व् य धत द्व ािा कदए गए अनुज्ञा - पत्र से प्र ाप्त अधिकाि के धबना, ऐसे घंिों के बीच, जो
-धिधनर्दषष्ि ककए जाएं, अपने घि के बाहि नहीं िहेगा;
-(ब) ( i ) ककसी ऐसे समाचाि - पत्र, समाचाि - पत्रक, पुस्त क या अन्य दस्ता िेज के, धजसमें नागरिक सुिक्षा पि प्र धतकूि प्र
-भाि डािने िािी बातें हों, मुरण औि प्र काशन का प्र धतषेि किना;
-( ii ) ककसी ऐसे समाचाि - पत्र, समाचाि - पत्रक, पुस्त क या अन्य दस्ता िेज के, धजसमें उपिंड ( i ) में धनर्दषष्ि बातों में
-से कोई बात हो मुरण औि प्र काशन के प्र योजन के धिए काम में िाए जाने िािे ककसी प्रे स से प्र धतभूधत मांगना औि ऐसे
-समाचाि - पत्र, समाचाि - पत्रक, पुस्त क या अन्य दस्ता िेज की प्र धतयां समपहृत कि िेना;
-(भ) ऐसे क्षेत्रों की बाबत, धजनका धनयंत्रण आिश्य क या समीचीन समझा जाए, व् य धत यों के आचिण को
-धिधनयधमत किना औि ऐसे क्षेत्रों से व् य धत यों का हिाया जाना;
-(म) ककसी व् य धत या व् य धत िगष से नागरिक सुिक्षा की ककसी स् की म का अनुपािन किने की अपेक्षा किना;
-(य) कोई अन्य उपबंि जो ना गरिक सुिक्षा के प्र योजनों के धिए आिश्य क हो।
-( 2 ) उपिािा ( 1 ) के अिीन बनाया गया कोई धनयम यह उपबंि कि सकेगा कक उसमें धिधनर्दषष्ि धिषयों के बािे में आदेश
-िाज्य सिकाि द्व ािा ककए जा सकेंगे।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `( vi ) भांडागाि तथा भं डािकिण के प्र योजनों के धिए उपयो ग में िाए जाने िािे या ऐसे उपयोग के धिए`
+  line `आशधयत सब अन्य स् था न;`
+  line `( vii ) सािािणत: िानें, तेि - क्षेत्र, काििाने या औद्योधगक अथिा िाधणधज्य क उपक्र म या धिधशष्ि त: कोई`
+  line `िान, तेि - क्षेत्र, काििाना या औद्योधगक अथिा िाधणधज्य क उपक्रम;`
+  line `( viii ) ऐसी प्र योगशािाएं औि संस्था एं जहां िैज्ञाधनक या प्र ौद्योधगक अनुसंिान या प्र धशक्षण चिाया या`
+  line `कदया जाता है;`
+  line `( ix ) ऐसे सभी संकमष औि संिचनाएं जो इस िंड में पूिष िर्णष त ककसी चीज के भाग हैं या उससे`
+  line `संबंधित हैं;`
+  line `( x ) सिकाि या ककसी स् था नीय प्र ाधिकािी या ककसी अिषसिकािी अथिा स् िा यत्त संगठन के प्र योजनों के`
+  line `धिए उपयोग में िाया जाने िािा या िाए जाने के धिए आशधयत कोई ऐसा अन्य स् था न या चीज धजसका संिक्षण`
+  line `नागरिक सुिक्षा को सुधनधश्च त किने के धिए आिश्य क या समीचीन समझा जाए;`
+  line `(त) ककसी सड़क या पथ्या, जिमागष, पािघाि या पुि, नदी, नहि या जि - प्र दाय के अन्य स्र ोत का धनयंत्रण;`
+  line `(थ) ऐसे पूिाषििाधनक उपाय धजन्हें अपनी - अपनी अधिकारिता के अन्द ि अथिा अपने द्व ािा धनयोधजत ककसी`
+  line `कार्मष क के संबंि में किने की अ पेक्षा, सिकाि या उसके ककसी धिभाग या ककसी स् था नीय प्र ाधिकािी, पुधिस बि के सदस्यों,`
+  line `अधन शामक दि औि नागरिक सुिक्षा से धभन् न प्र योजनों के धिए प्र थमत: धनयोधजत ककसी अन्य सेिा या प्र ाधिकािी के सदस्यों`
+  line `से की जानी चाधहए;`
+  line `(द) ककन्हीं िर्दषयों के, चाहे िे शासकीय हों या अन्य, या ध् ि जों के या पदकों, बैजों अथिा अन्य िक्ष्य जैसे शासकीय`
+  line `अिंकिणों या तत्स मान ककसी िस्तु के, धजसे िािण किना प्र िंचन के धिए या नागरिक सुिक्षा पि प्र धतकूि प्र भाि डािने के`
+  line `धिए प्र कधप त हो, ककसी उपयोग का धनिाि ण या धनयंत्रण किना;`
+  line `(ि) ककसी आशंककत बैिपू णष आक्रमण के ितिों से जन सािािण या उसके ककन्हीं सदस्यों की संिक्षा किने या उन्हें`
+  line `उन ितिों से अिगत किाने की दृधष्ि से व् य धत यों या प्र ाधिकारियों द्व ािा बिती जाने िािी पू िाषि िाधनयां या की जाने िािी`
+  line `कािषिा ई;`
+  line `(न) ककसी भिन, संिचना या परिसि के स् िा मी या अधिभोगी से ऐसे इन्त जाम किने या पूिे किने की अपेक्षा किना`
+  line `जो अधन का पता िगाने या उसके धनिािण के प्र योजनों के धिए आिश्य क हों;`
+  line `(ज) आग िग जाने पि उसके संबंि में उपाय किना;`
+  line `(फ) यह धनदेश देना कक ककसी धिधन र् दषष्ि छूि के अिीन िहते हु ए, ककसी धिधनर्दषष्ि क्षेत्र में उपधस्थ त कोई भी व्`
+  line `य धत धिधनर्दषष्ि प्र ाधिकािी या व् य धत द्व ािा कदए गए अनुज्ञा - पत्र से प्र ाप्त अधिकाि के धबना, ऐसे घंिों के बीच, जो`
+  line `धिधनर्दषष्ि ककए जाएं, अपने घि के बाहि नहीं िहेगा;`
+  line `(ब) ( i ) ककसी ऐसे समाचाि - पत्र, समाचाि - पत्रक, पुस्त क या अन्य दस्ता िेज के, धजसमें नागरिक सुिक्षा पि प्र धतकूि प्र`
+  line `भाि डािने िािी बातें हों, मुरण औि प्र काशन का प्र धतषेि किना;`
+  line `( ii ) ककसी ऐसे समाचाि - पत्र, समाचाि - पत्रक, पुस्त क या अन्य दस्ता िेज के, धजसमें उपिंड ( i ) में धनर्दषष्ि बातों में`
+  line `से कोई बात हो मुरण औि प्र काशन के प्र योजन के धिए काम में िाए जाने िािे ककसी प्रे स से प्र धतभूधत मांगना औि ऐसे`
+  line `समाचाि - पत्र, समाचाि - पत्रक, पुस्त क या अन्य दस्ता िेज की प्र धतयां समपहृत कि िेना;`
+  line `(भ) ऐसे क्षेत्रों की बाबत, धजनका धनयंत्रण आिश्य क या समीचीन समझा जाए, व् य धत यों के आचिण को`
+  line `धिधनयधमत किना औि ऐसे क्षेत्रों से व् य धत यों का हिाया जाना;`
+  line `(म) ककसी व् य धत या व् य धत िगष से नागरिक सुिक्षा की ककसी स् की म का अनुपािन किने की अपेक्षा किना;`
+  line `(य) कोई अन्य उपबंि जो ना गरिक सुिक्षा के प्र योजनों के धिए आिश्य क हो।`
+  line `( 2 ) उपिािा ( 1 ) के अिीन बनाया गया कोई धनयम यह उपबंि कि सकेगा कक उसमें धिधनर्दषष्ि धिषयों के बािे में आदेश`
+  line `िाज्य सिकाि द्व ािा ककए जा सकेंगे।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-1 ( 3 ) उपिािा ( 1 ) के अिीन बनाया गया कोई धनयम यह उपबंि कि सकेगा कक उसका या उसके अिीन ककए गए ककसी
-आदेश का उ िं घन जुमाषने से, जो पांच सौ रु पए तक का हो सकेगा, औि जहां उ िं घन जािी िहता है िहां अधतरित जुमाषने से जो प्र
-थम के पश्चा त् ऐसे प्रत् ये क कदन के धिए, धजसके दौिान ऐसा उ िं घन जािी िहता है, पचास रु पए तक हो सकेगा, दण्ड नीय होगा।
-अध्या य 3
-नागरिक सुिक्षा कोि
-4. नागरिक सुिक्षा कोि का गठन –– ( 1 ) िाज्य सिकाि, िाज्य के अंदि के ककसी क्षेत्र के धिए एक व् य धत - धनकाय गरठत कि
-सकेगी जो नागरिक सुिक्षा कोि कहिाएगा (औि धजसे इस में इसके पश्चा त “ कोि ” कहा गया है), औि िह ऐ सी को ि का समादेशन किने
-के धिए ककसी ऐसे व् य धत को जो उसकी िाय में धजिा मधजस् ट्रे ि से नीचे की पंधत का न हो (औि जो “ धनयंत्रक ” कहिाएगा) धनयुत
-कि सकेगी:
-पिन् तु यकद िाज्य के ककसी क्षेत्र में, इस अधिधनयम के उस क्षेत्र में प्र िृत्त होने के ठीक पहिे कोई ऐसा संगठन धिद्यमान हो धज से
-िाज्य सिकाि की िाय में कोि के कृत् य सौंपे जा सकते हों, तो िाज्य सिकाि, उस क्षेत्र के धिए अिग कोि गरठत किने के बजाय, उस
-संगठन से उस क्षेत्र में कोि के कृत्यों को ग्र हण क ि िेने या उनका धनिषहन किने की अ पेक्षा कि सकेगी औि तब इस अधिधनयम के प्र
-योजनों के धिए िह संगठन उस क्षेत्र के धिए कोि समझा जाएगा।
-( 2 ) िाज्य सिकाि, िाज्य के अंदि धनयंत्रकों के कक्रयाकिाप में समन्ि य स् था धपत किने के प्र योजन से, एक नागरिक सुिक्षा
-धनदेशक धनयुत कि सकेगी औि प्रत् ये क धनयंत्रक ऐसे धनदेशक द्व ािा कद ए गए धनदेशों को अनुपािन किेगा।
-5. सदस्यों औि अधिकारियों की धनयुधत –– ( 1 ) िाज्य सिकाि ऐसे व् य धत यों को, जो कोि के सदस्य के रू प में कायष किने के
-धिए योय औि िजामंद हों, ऐसे सदस्य धनयुत कि सकेगी औि धनयंत्रक ऐसे धनयु त ककसी सदस्य को कोि में के ऐसे पद या समादेशन
-पि, धजसे िािण किने के धिए ऐसा सदस्य धनयंत्रक की िाय में योय हो, धनयुत कि सकेगा।
-( 2 ) कोि का सदस्य धनयुत ककए गए प्रत् ये क व् य धत को ऐसे प्ररू प में, जैसा धिधहत ककया जाए, एक सदस्य ता - प्र माणपत्र
-कदया जाएगा।
-6. नागरिक सुिक्षा कोि के सदस्यों की पदच्यु धत –– ( 1 ) जहां धनयंत्रक की िाय में, कोि का कोई सदस्य ऐसे सदस्य के नाते अपने
-कतषव्यों के समािानप्रद रू प से धनिषहन में असफि िहे या िहा हो या ऐसे सदस्य के नाते अपने कतषव्यों के धनिषहन में ककसी अिचाि का
-दोषी पाया जाए या पाया गया हो, िहां धनयंत्रक ऐसी जांच के पश्चा त् धजसमें कोि के ऐसे सदस्य को उसके धिरुद्ध आिोपों की बाबत
-सुने जाने का युधत युत अिसि कदया गया हो आदेश द्व ािा ऐसे सदस्य को कोि से पदच्यु त कि सकेगा।
-( 2 ) जहां धनयंत्रक की यह िाय हो कक कोि के ककसी सदस्य का उसमें बना िहना अिांछनीय है, िहां िह कोई कािण कदए
-धबना ऐसे सदस्य को कोि से संक्षेपत: पदच्यु त कि सकेगा।
-7. अपीि –– कोि का िह सदस्य, जो कोि से िािा 6 के अिीन पदच्यु त कि कदया जाए, ऐसी पदच्यु धत की तािीि से तीन कदन
-के अन्द ि िाज्य सिकाि से अपीि कि सकेगा औि िह सिकाि ऐसी अपीि पि धनयंत्रक या अन्य प्र ाधिकािी द्व ािा ककए गए आदेश को
-पुष्ि या उपांतरित कि सकेगी या उसे उिि सकेगी।
-8. नागरिक सुिक्षा कोि के सदस्यों के कृत् य –– ( 1 ) कोि के सदस्य नागरिक सुिक्षा के उपाय किने के संबंि में ऐसे कृत् यों का
-पािन किेंगे जो उन्हें इस अधिधनयम के अिीन बनाए गए धनयमों द्व ािा या ककसी अन्य तत्स मय प्र िृत्त धिधि द्व ािा सौंपे जाएं।
-( 2 ) िाज्य सिकाि या धनयंत्रक, आदेश द्व ािा, कोि के ककसी सदस्य को प्र धशक्षण के धिए या नागरिक सुिक्षा के उपाय ककए
-जाने के संबंि में ऐ से कृत् यों के धनिषहन के धिए, जो उस आदेश में धिधनर्दषष्ि ककए जाएं, आहूत कि सकेगा।
-( 3 ) ऐसे आदेशों के अिीन िहते हु ए, जो केन्री य सिकाि इस धनधमत्त किे, ककसी िाज्य की कोि के ककसी सदस्य से ककसी अन्य
-िाज्य में नागरिक सुिक्षा के संबंि में कृत् यों के धन िषहन की अपेक्षा, आदेश द्व ािा ककसी समय भी की जा सकेगी औि जब ऐसा सदस्य ऐसे
-कृत्यों का धनिषहन कि िहा हो, तब िह उस अन्य िाज्य की कोि का सदस्य समझा जाएगा औि उस अन्य िाज्य की कोि के सदस्य की
-शधत यां, कृत्य औि धिशे षाधिकाि उसमें धनधहत होंगे औि उस अन्य िाज्य की कोि के सदस्य के दाधयत्ि उस पि होंगे।
-9. धिधनयम बनाने की शधत –– ( 1 ) केन्री य सिकाि इस अध्या य के प्र योजनों को कायाषधन्ि त किने के धिए धिधनयम
-अधिसूचना द्व ािा बना सकेगी।
-( 2 ) धिधशष्ि तया औि पूिषगामी शधत की व् या पकता पि प्र धतकूि प्र भाि डािे धबना, ऐसे धिधनयम ––
-(क) कोि के सदस्यों के कृत् य धिधहत कि सकेंगे औि िह िीधत धिधनयधमत कि सकेंगे धजससे िे सेिा के धिए आहूत
-ककए जा सकेंगे;
-1 1971 के अधिधनयम सं ० 42 की िािा 6 द्व ािा (आपातकाि औि उसके पश्चा त् छह मास के दौिान) उपिािा ( 3 ) धनम्न धिधित रू प से प्र धतस्था धपत की गई:
-“ ( 3 ) उपिािा ( 1 ) के अिीन बनाया गया कोई धनयम यह उपबंि कि सकेगा कक उसका या उसके अिीन ककए गए ककसी आदेश अथिा कदए गए ककसी धनदेश का
-उिं घन कािािास से, धजसकी अिधि तीन िषष तक की हो सकेगी, अथिा जुमाषने से, अथिा दोनों से, दण्ड नीय होगा। ”`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `1 ( 3 ) उपिािा ( 1 ) के अिीन बनाया गया कोई धनयम यह उपबंि कि सकेगा कक उसका या उसके अिीन ककए गए ककसी`
+  line `आदेश का उ िं घन जुमाषने से, जो पांच सौ रु पए तक का हो सकेगा, औि जहां उ िं घन जािी िहता है िहां अधतरित जुमाषने से जो प्र`
+  line `थम के पश्चा त् ऐसे प्रत् ये क कदन के धिए, धजसके दौिान ऐसा उ िं घन जािी िहता है, पचास रु पए तक हो सकेगा, दण्ड नीय होगा।`
+  line `अध्या य 3`
+  line `नागरिक सुिक्षा कोि`
+  line `4. नागरिक सुिक्षा कोि का गठन –– ( 1 ) िाज्य सिकाि, िाज्य के अंदि के ककसी क्षेत्र के धिए एक व् य धत - धनकाय गरठत कि`
+  line `सकेगी जो नागरिक सुिक्षा कोि कहिाएगा (औि धजसे इस में इसके पश्चा त “ कोि ” कहा गया है), औि िह ऐ सी को ि का समादेशन किने`
+  line `के धिए ककसी ऐसे व् य धत को जो उसकी िाय में धजिा मधजस् ट्रे ि से नीचे की पंधत का न हो (औि जो “ धनयंत्रक ” कहिाएगा) धनयुत`
+  line `कि सकेगी:`
+  line `पिन् तु यकद िाज्य के ककसी क्षेत्र में, इस अधिधनयम के उस क्षेत्र में प्र िृत्त होने के ठीक पहिे कोई ऐसा संगठन धिद्यमान हो धज से`
+  line `िाज्य सिकाि की िाय में कोि के कृत् य सौंपे जा सकते हों, तो िाज्य सिकाि, उस क्षेत्र के धिए अिग कोि गरठत किने के बजाय, उस`
+  line `संगठन से उस क्षेत्र में कोि के कृत्यों को ग्र हण क ि िेने या उनका धनिषहन किने की अ पेक्षा कि सकेगी औि तब इस अधिधनयम के प्र`
+  line `योजनों के धिए िह संगठन उस क्षेत्र के धिए कोि समझा जाएगा।`
+  line `( 2 ) िाज्य सिकाि, िाज्य के अंदि धनयंत्रकों के कक्रयाकिाप में समन्ि य स् था धपत किने के प्र योजन से, एक नागरिक सुिक्षा`
+  line `धनदेशक धनयुत कि सकेगी औि प्रत् ये क धनयंत्रक ऐसे धनदेशक द्व ािा कद ए गए धनदेशों को अनुपािन किेगा।`
+  line `5. सदस्यों औि अधिकारियों की धनयुधत –– ( 1 ) िाज्य सिकाि ऐसे व् य धत यों को, जो कोि के सदस्य के रू प में कायष किने के`
+  line `धिए योय औि िजामंद हों, ऐसे सदस्य धनयुत कि सकेगी औि धनयंत्रक ऐसे धनयु त ककसी सदस्य को कोि में के ऐसे पद या समादेशन`
+  line `पि, धजसे िािण किने के धिए ऐसा सदस्य धनयंत्रक की िाय में योय हो, धनयुत कि सकेगा।`
+  line `( 2 ) कोि का सदस्य धनयुत ककए गए प्रत् ये क व् य धत को ऐसे प्ररू प में, जैसा धिधहत ककया जाए, एक सदस्य ता - प्र माणपत्र`
+  line `कदया जाएगा।`
+  line `6. नागरिक सुिक्षा कोि के सदस्यों की पदच्यु धत –– ( 1 ) जहां धनयंत्रक की िाय में, कोि का कोई सदस्य ऐसे सदस्य के नाते अपने`
+  line `कतषव्यों के समािानप्रद रू प से धनिषहन में असफि िहे या िहा हो या ऐसे सदस्य के नाते अपने कतषव्यों के धनिषहन में ककसी अिचाि का`
+  line `दोषी पाया जाए या पाया गया हो, िहां धनयंत्रक ऐसी जांच के पश्चा त् धजसमें कोि के ऐसे सदस्य को उसके धिरुद्ध आिोपों की बाबत`
+  line `सुने जाने का युधत युत अिसि कदया गया हो आदेश द्व ािा ऐसे सदस्य को कोि से पदच्यु त कि सकेगा।`
+  line `( 2 ) जहां धनयंत्रक की यह िाय हो कक कोि के ककसी सदस्य का उसमें बना िहना अिांछनीय है, िहां िह कोई कािण कदए`
+  line `धबना ऐसे सदस्य को कोि से संक्षेपत: पदच्यु त कि सकेगा।`
+  line `7. अपीि –– कोि का िह सदस्य, जो कोि से िािा 6 के अिीन पदच्यु त कि कदया जाए, ऐसी पदच्यु धत की तािीि से तीन कदन`
+  line `के अन्द ि िाज्य सिकाि से अपीि कि सकेगा औि िह सिकाि ऐसी अपीि पि धनयंत्रक या अन्य प्र ाधिकािी द्व ािा ककए गए आदेश को`
+  line `पुष्ि या उपांतरित कि सकेगी या उसे उिि सकेगी।`
+  line `8. नागरिक सुिक्षा कोि के सदस्यों के कृत् य –– ( 1 ) कोि के सदस्य नागरिक सुिक्षा के उपाय किने के संबंि में ऐसे कृत् यों का`
+  line `पािन किेंगे जो उन्हें इस अधिधनयम के अिीन बनाए गए धनयमों द्व ािा या ककसी अन्य तत्स मय प्र िृत्त धिधि द्व ािा सौंपे जाएं।`
+  line `( 2 ) िाज्य सिकाि या धनयंत्रक, आदेश द्व ािा, कोि के ककसी सदस्य को प्र धशक्षण के धिए या नागरिक सुिक्षा के उपाय ककए`
+  line `जाने के संबंि में ऐ से कृत् यों के धनिषहन के धिए, जो उस आदेश में धिधनर्दषष्ि ककए जाएं, आहूत कि सकेगा।`
+  line `( 3 ) ऐसे आदेशों के अिीन िहते हु ए, जो केन्री य सिकाि इस धनधमत्त किे, ककसी िाज्य की कोि के ककसी सदस्य से ककसी अन्य`
+  line `िाज्य में नागरिक सुिक्षा के संबंि में कृत् यों के धन िषहन की अपेक्षा, आदेश द्व ािा ककसी समय भी की जा सकेगी औि जब ऐसा सदस्य ऐसे`
+  line `कृत्यों का धनिषहन कि िहा हो, तब िह उस अन्य िाज्य की कोि का सदस्य समझा जाएगा औि उस अन्य िाज्य की कोि के सदस्य की`
+  line `शधत यां, कृत्य औि धिशे षाधिकाि उसमें धनधहत होंगे औि उस अन्य िाज्य की कोि के सदस्य के दाधयत्ि उस पि होंगे।`
+  line `9. धिधनयम बनाने की शधत –– ( 1 ) केन्री य सिकाि इस अध्या य के प्र योजनों को कायाषधन्ि त किने के धिए धिधनयम`
+  line `अधिसूचना द्व ािा बना सकेगी।`
+  line `( 2 ) धिधशष्ि तया औि पूिषगामी शधत की व् या पकता पि प्र धतकूि प्र भाि डािे धबना, ऐसे धिधनयम ––`
+  line `(क) कोि के सदस्यों के कृत् य धिधहत कि सकेंगे औि िह िीधत धिधनयधमत कि सकेंगे धजससे िे सेिा के धिए आहूत`
+  line `ककए जा सकेंगे;`
+  line `1 1971 के अधिधनयम सं ० 42 की िािा 6 द्व ािा (आपातकाि औि उसके पश्चा त् छह मास के दौिान) उपिािा ( 3 ) धनम्न धिधित रू प से प्र धतस्था धपत की गई:`
+  line `“ ( 3 ) उपिािा ( 1 ) के अिीन बनाया गया कोई धनयम यह उपबंि कि सकेगा कक उसका या उसके अिीन ककए गए ककसी आदेश अथिा कदए गए ककसी धनदेश का`
+  line `उिं घन कािािास से, धजसकी अिधि तीन िषष तक की हो सकेगी, अथिा जुमाषने से, अथिा दोनों से, दण्ड नीय होगा। ”`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-(ि) ककसी कोि के या सभी कोिों के सदस्यों का संगठन, धनयुधत, सेिा की शतें, अनुशासन, साज - सज्जा औि िस् त्र
-धिधन यधमत कि सकेंगे;
-(ग) ककसी कोि की या सभी कोिों की सदस्य ता के प्र माणपत्रों का प्ररू प धिधहत कि सकेंगे।
-अध्या य 4 प्र
-कीणष
-10. िैयधत क क्ष धत (आपात उपबंि) अधिधनयम के उपबन्िों का कोि के सदस्यों को हु ई क्ष धतयों का िागू होना –– िैयधत क क्ष
-धत (आपात उपबंि) अ धिधनयम, 1962 ( 1962 का 59 ) के औि उसके अिीन बनाई गई प्रत् ये क स् की म के उपबंि, कोि का सदस्य
-धनयुत ककए गए ककसी भी व् य धत को हु ई प्रत् ये क िैयधत क सेिा क्ष धत को, धनम्न धिधित उपांतिों के साथ, याित् शय उसी प्र काि िागू
-होंगे जैसे िे नागरिक सुिक्षा स् ि यं सेिक की हु ई िैयधत क सेिा क्ष धत को िागू होते हैं: ––
-(क) उस अधिधनयम या उसके अिीन बनाई गई ककसी स् की म के अिीन नागरिक सुिक्षा स् ि यं सेिक के प्र धत ककसी
-धनदेश का यह अथष िगाया जाएगा कक िह कोि के सदस्य के प्र धत धनदेश हैं; तथा
-(ि) उसमें आपात की कािािधि के प्र धत ककसी धनदेश का, कोि के सदसय के संबंि में यह अथष िगाया जाएगा कक
-िह उस कािािधि के प्र धत धनदेश है धजसके दौिान यह अधिधनयम प्र िृत्त िहता है।
-11. शाधस्त यां –– ( 1 ) यकद िािा 8 की उपिािा ( 2 ) के अिीन के ककसी आदेश द्व ािा आहूत होने पि कोि का कोई सदस्य उस
-आदेश के अनुपािन या ऐसे सदस्य के नाते अपने कृत्यों के धनिषहन या उसके कृत्यों के पािन के धिए उसे कदए गए ककसी धिधिपूणष आदेश
-या धनदेश के अनुपािन में उपेक्षा किेगा या उससे पयाषप्त कािण के धबना इंकाि किेगा तो िह जुमाषने से, जो पांच सौ रु पए तक का हो
-स केगा औि जहां ऐसी उपेक्षा या इंकाि जािी िहता है िहां अधतरित जुमाषने से जो प्र थम के पश्चा त् ऐसे प्रत् ये क कदन के धिए धजसके
-दौिान ऐसा उ िं घन जािी िहता है, पचास रु पए तक का हो सकेगा, दंडनीय होगा।
-1 ( 2 ) यकद कोई व् य धत इस अधिधनयम के या उसके अिीन बनाए गए धनयमों के अिीन ककए गए ककसी आदेश या उसे कदए
-गए ककसी धनदेश के अनुपािन में उपेक्षा किेगा या ककसी उधचत कािण के धबना असफि िहेगा तो िह जुमाषने से, जो पांच सौ रु पए तक
-का हो सकेगा, औि जहां ऐसी उपेक्षा या असफिता जािी िहती है, िहां अधतरित जुमाषने से जो प्र थम के पश्चा त् ऐसे प्रत् ये क कदन के
-धिए, धजसके दौिान ऐसी उपेक्षा या असफिता जािी िहती है पचास रु पए तक का हो सकेगा, दंडनीय होगा।
-12. अन्य अधिधनयधमधतयों से असंगत अधिधनयम औि धनयमों आकद का प्र भाि –– ( 1 ) इस अधिधनयम के या उसके अिीन
-बनाए गए ककन्हीं धनयमों के उपबंि अथिा इस अधिधनयम या ऐसे ककसी धनयम के अिीन से ककया गया कोई आदेश, इस अधिधनयम से
-धभन् न ककसी अधिधनयधमधत में या इस अधिधनयम से धभन् न ककसी अधिधनयधमधत के आिाि पि प्र भािशीि ककसी धिित में उससे असंगत
-ककसी बात के होते हु ए भी, प्र भािशीि होंगे।
-( 2 ) नागरिक सुिक्षा के संबंि में, इस अधिधनयम के प्र ािंभ के पूिष नागरिक सुिक्षा से संबंधित ककसी धिधि द्व ािा या उसके
-अिीन की गई प्रत् ये क धनयुधत, ककया गया प्रत् ये क आदेश या बनाया गया प्रत् ये क धनयम, जहां तक िह इस अधिधनयम के उपबंिों से
-असंगत न हो, तब तक प्र िृत्त िहेगा जब तक िह इस अधिधनयम के अिीन धििंधडत न कि कदया जाए या उसमें कोई परिितषन न कि
-कदया जाए औि िह इस अधिधनयम के तत् स्था नी उपबंिों के अिीन की गई, कदया गया या बनाया गया समझा जाएगा। स्
-प ष् िी किण –– ककसी उपबन्ि या क्षेत्र के संबंि में “ इस अधिधनयम का प्र ािंभ ” से, यथाधस्थ धत, उस उपबन्ि का प्र ािंभ या उस क्षेत्र
-में इस अधिधनयम का प्र ािंभ अधभप्रेत है।
-13. जीिन के सामान्य कायष में यथासंभि कम हस्त क्षे प ककया जाना –– इस अधिधनयम के अनुसिण में कायष किने िािा कोई प्र
-ाधिकािी या व् य धत जीिन के सामान्य कायष औि संपधत्त के उपभो ग में उतना कम से कम हस्त क्षे प किेगा धजतना िोक सुिक्षा औि
-नागरिक सुिक्षा सुधनधश्च त किने के प्र योजन के अनुरूप हो।
-14. आदेशों के संबंि में व् या िृधत्तयां –– ( 1 ) इस अधिधनयम द्व ािा या उसके अिीन प्र दत्त ककसी शधत के प्र योग में ककया गया
-कोई आदेश ककसी न् या याि य में प्रश् न गत न ककया जाएगा।
-( 2 ) जहां कोई आदेश ककसी प्र ाधिकािी द्व ािा इस अधिधनयम द्व ािा या उसके अिीन प्र दत्त ककसी शधत के प्र योग में ककया गया
-औि हस्ता क्ष रित तात्प र् यषत हो, िहां न् या यािय, भाितीय साक्ष्य अधिधनयम, 1872 ( 1872 का 1 ) के अथष में यह उपिा िणा किेगा कक
-ऐसा आदेश उस प्र ाधिकािी द्व ािा ही इस प्र काि ककया गया था।
-15. सशस् त्र बि के संिक्षण के धिए ककए गए उपायों को अधिधनयम का िागू न होना –– इस अधिधनयम या उसके अिीन
-बनाए गए ककसी धनयम, धिधनयम या आदेश की कोई बात संघ के सशस् त्र बि को या उन उपायों को िागू न होगी जो संघ के सशस् त्र
-बि पि धनयंत्रण ििने िािे प्र ाधिकारियों में से ककसी के द्व ािा नागरिक सुिक्षा या ऐसे बि की सुिक्षा सुधनधश्च त किने के प्र योजन के
-धिए या ककसी नौसैधनक, सैधनक या िायु - सेना संस्था पनों या भंडािों के संिक्षण के धिए काम में िाए जाए।
-1 1971 के अधिधनयम सं ० 42 की िािा 6 द्व ािा (आपातकाि औि उसके पश्चा त् 6 मास तक) उपिािा ( 2 ) का िोप ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `(ि) ककसी कोि के या सभी कोिों के सदस्यों का संगठन, धनयुधत, सेिा की शतें, अनुशासन, साज - सज्जा औि िस् त्र`
+  line `धिधन यधमत कि सकेंगे;`
+  line `(ग) ककसी कोि की या सभी कोिों की सदस्य ता के प्र माणपत्रों का प्ररू प धिधहत कि सकेंगे।`
+  line `अध्या य 4 प्र`
+  line कीणष
+  line `10. िैयधत क क्ष धत (आपात उपबंि) अधिधनयम के उपबन्िों का कोि के सदस्यों को हु ई क्ष धतयों का िागू होना –– िैयधत क क्ष`
+  line `धत (आपात उपबंि) अ धिधनयम, 1962 ( 1962 का 59 ) के औि उसके अिीन बनाई गई प्रत् ये क स् की म के उपबंि, कोि का सदस्य`
+  line `धनयुत ककए गए ककसी भी व् य धत को हु ई प्रत् ये क िैयधत क सेिा क्ष धत को, धनम्न धिधित उपांतिों के साथ, याित् शय उसी प्र काि िागू`
+  line `होंगे जैसे िे नागरिक सुिक्षा स् ि यं सेिक की हु ई िैयधत क सेिा क्ष धत को िागू होते हैं: ––`
+  line `(क) उस अधिधनयम या उसके अिीन बनाई गई ककसी स् की म के अिीन नागरिक सुिक्षा स् ि यं सेिक के प्र धत ककसी`
+  line `धनदेश का यह अथष िगाया जाएगा कक िह कोि के सदस्य के प्र धत धनदेश हैं; तथा`
+  line `(ि) उसमें आपात की कािािधि के प्र धत ककसी धनदेश का, कोि के सदसय के संबंि में यह अथष िगाया जाएगा कक`
+  line `िह उस कािािधि के प्र धत धनदेश है धजसके दौिान यह अधिधनयम प्र िृत्त िहता है।`
+  line `11. शाधस्त यां –– ( 1 ) यकद िािा 8 की उपिािा ( 2 ) के अिीन के ककसी आदेश द्व ािा आहूत होने पि कोि का कोई सदस्य उस`
+  line `आदेश के अनुपािन या ऐसे सदस्य के नाते अपने कृत्यों के धनिषहन या उसके कृत्यों के पािन के धिए उसे कदए गए ककसी धिधिपूणष आदेश`
+  line `या धनदेश के अनुपािन में उपेक्षा किेगा या उससे पयाषप्त कािण के धबना इंकाि किेगा तो िह जुमाषने से, जो पांच सौ रु पए तक का हो`
+  line `स केगा औि जहां ऐसी उपेक्षा या इंकाि जािी िहता है िहां अधतरित जुमाषने से जो प्र थम के पश्चा त् ऐसे प्रत् ये क कदन के धिए धजसके`
+  line `दौिान ऐसा उ िं घन जािी िहता है, पचास रु पए तक का हो सकेगा, दंडनीय होगा।`
+  line `1 ( 2 ) यकद कोई व् य धत इस अधिधनयम के या उसके अिीन बनाए गए धनयमों के अिीन ककए गए ककसी आदेश या उसे कदए`
+  line `गए ककसी धनदेश के अनुपािन में उपेक्षा किेगा या ककसी उधचत कािण के धबना असफि िहेगा तो िह जुमाषने से, जो पांच सौ रु पए तक`
+  line `का हो सकेगा, औि जहां ऐसी उपेक्षा या असफिता जािी िहती है, िहां अधतरित जुमाषने से जो प्र थम के पश्चा त् ऐसे प्रत् ये क कदन के`
+  line `धिए, धजसके दौिान ऐसी उपेक्षा या असफिता जािी िहती है पचास रु पए तक का हो सकेगा, दंडनीय होगा।`
+  line `12. अन्य अधिधनयधमधतयों से असंगत अधिधनयम औि धनयमों आकद का प्र भाि –– ( 1 ) इस अधिधनयम के या उसके अिीन`
+  line `बनाए गए ककन्हीं धनयमों के उपबंि अथिा इस अधिधनयम या ऐसे ककसी धनयम के अिीन से ककया गया कोई आदेश, इस अधिधनयम से`
+  line `धभन् न ककसी अधिधनयधमधत में या इस अधिधनयम से धभन् न ककसी अधिधनयधमधत के आिाि पि प्र भािशीि ककसी धिित में उससे असंगत`
+  line `ककसी बात के होते हु ए भी, प्र भािशीि होंगे।`
+  line `( 2 ) नागरिक सुिक्षा के संबंि में, इस अधिधनयम के प्र ािंभ के पूिष नागरिक सुिक्षा से संबंधित ककसी धिधि द्व ािा या उसके`
+  line `अिीन की गई प्रत् ये क धनयुधत, ककया गया प्रत् ये क आदेश या बनाया गया प्रत् ये क धनयम, जहां तक िह इस अधिधनयम के उपबंिों से`
+  line `असंगत न हो, तब तक प्र िृत्त िहेगा जब तक िह इस अधिधनयम के अिीन धििंधडत न कि कदया जाए या उसमें कोई परिितषन न कि`
+  line `कदया जाए औि िह इस अधिधनयम के तत् स्था नी उपबंिों के अिीन की गई, कदया गया या बनाया गया समझा जाएगा। स्`
+  line `प ष् िी किण –– ककसी उपबन्ि या क्षेत्र के संबंि में “ इस अधिधनयम का प्र ािंभ ” से, यथाधस्थ धत, उस उपबन्ि का प्र ािंभ या उस क्षेत्र`
+  line `में इस अधिधनयम का प्र ािंभ अधभप्रेत है।`
+  line `13. जीिन के सामान्य कायष में यथासंभि कम हस्त क्षे प ककया जाना –– इस अधिधनयम के अनुसिण में कायष किने िािा कोई प्र`
+  line `ाधिकािी या व् य धत जीिन के सामान्य कायष औि संपधत्त के उपभो ग में उतना कम से कम हस्त क्षे प किेगा धजतना िोक सुिक्षा औि`
+  line `नागरिक सुिक्षा सुधनधश्च त किने के प्र योजन के अनुरूप हो।`
+  line `14. आदेशों के संबंि में व् या िृधत्तयां –– ( 1 ) इस अधिधनयम द्व ािा या उसके अिीन प्र दत्त ककसी शधत के प्र योग में ककया गया`
+  line `कोई आदेश ककसी न् या याि य में प्रश् न गत न ककया जाएगा।`
+  line `( 2 ) जहां कोई आदेश ककसी प्र ाधिकािी द्व ािा इस अधिधनयम द्व ािा या उसके अिीन प्र दत्त ककसी शधत के प्र योग में ककया गया`
+  line `औि हस्ता क्ष रित तात्प र् यषत हो, िहां न् या यािय, भाितीय साक्ष्य अधिधनयम, 1872 ( 1872 का 1 ) के अथष में यह उपिा िणा किेगा कक`
+  line `ऐसा आदेश उस प्र ाधिकािी द्व ािा ही इस प्र काि ककया गया था।`
+  line `15. सशस् त्र बि के संिक्षण के धिए ककए गए उपायों को अधिधनयम का िागू न होना –– इस अधिधनयम या उसके अिीन`
+  line `बनाए गए ककसी धनयम, धिधनयम या आदेश की कोई बात संघ के सशस् त्र बि को या उन उपायों को िागू न होगी जो संघ के सशस् त्र`
+  line `बि पि धनयंत्रण ििने िािे प्र ाधिकारियों में से ककसी के द्व ािा नागरिक सुिक्षा या ऐसे बि की सुिक्षा सुधनधश्च त किने के प्र योजन के`
+  line `धिए या ककसी नौसैधनक, सैधनक या िायु - सेना संस्था पनों या भंडािों के संिक्षण के धिए काम में िाए जाए।`
+  line `1 1971 के अधिधनयम सं ० 42 की िािा 6 द्व ािा (आपातकाि औि उसके पश्चा त् 6 मास तक) उपिािा ( 2 ) का िोप ककया गया।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-1 6. अधभयोजनों की परिसीमा –– इस अधिधनयम के अिीन दंडनीय ककसी अपिाि के धिए ककसी व् य धत के धिरुद्ध कोई
-अधभयोजन धनयंत्रक द्व ािा, या उसके द्व ािा इस धनधमत्त प्र ाधिकृत ककसी व् य धत द्व ािा, अथिा धनयंत्रक या ऐसे व् य धत की सम्म धत से ही
-ककया जाएगा, अन्य था नहीं।
-1 [ 16 क. केन्री य सिकाि को प्रत् या योजन की शधत –– केन्री य सिकाि, आदेश द्व ािा धनदेश दे सकेगी कक ककसी ऐसी शधत का प्र
-योग अथिा ऐसे कतषव्य का धनिषहन जो इस अधिधनयम द्व ािा अथिा उसके अिीन बनाए गए ककसी धनयम द्व ािा केन्री य सिकाि को प्र
-दत्त अथिा उस पि अधििोधपत हो, ऐसी परिधस्थ धतयों में तथा ऐसी शतों पि यकद कोई हों, जो धनदेश में धिधनर्दषष्ि की जाएं, केन्री य
-सिकाि के अिीनस्थ ककसी अधिकािी अथिा प्र ाधिकािी द्व ािा भी ककया जा सकेगा।
-16 ि. केन्री य सिकाि, आकद द्व ािा ककए गए, आदेश का प्र भाि –– ककसी ऐसे धि षय के संबंि में धजससे यह अधिधनयम अथिा
-उसके अिीन बनाया गया कोई धनयम संबंधित हो केन्री य सिकाि द्व ािा अथिा िािा 16 क के अिीन उसके द्व ािा प्र ाधिकृत अधिकािी या प्र
-ाधिकािी द्व ािा ककया गया कोई आदेश, उस धिषय की बाबत िाज्य सिकाि अथिा ककसी अन्य प्र ाधिकािी द्व ािा ककए गए ककसी आदेश
-में ककसी बात के होते हु ए भी प्र भािी होगा। ]
-17. प्रत् या योजन किने की शधत –– िाज्य सिकाि, अधिसूचना द्व ािा, धनदेश दे सकेगी कक ––
-(क) िे सभी शधत यां, धजनका प्र योग उसके द्व ािा इस अधिधनयम के अिीन ककया जा सकता है, या उनमें से कोई
-ऐसी परिधस्थ धतयों में औि ऐसी शतों के अिीन, यकद कोई हों, जो उस अधिसूचना में धिधनर्दषष्ि की जाएं, ऐसे अधिकािी द्व ािा
-भी, जो िाज्य सिकाि की िाय में धजिा मधजस् ट्रे ि की पंधत से नीचे का न हो औि धजसे उ त अधिसूचना में धिधनर्दषष्ि ककया
-जाए, प्र युत की जा सकेंगी;
-(ि) िे सभी शधत यां, धजनका प्र योग धनयंत्रक द्व ािा इस अधिधनयम के अिीन ककया जा सकता है, या उनमें से कोई
-ऐसी परिधस्थ धतयों में औि ऐसी शतों के अिीन, यकद कोई हों, जो उस अधिसूचना में धिधनर्दषष्ि की जाएं, ऐसे अधिकािी द्व ािा
-भी, जो िाज्य सिकाि की िाय में उप िंड मधजस् ट्रे ि की पंधत से नीचे का न हो औि धजसे उ त अधिसूचना में धिधनर्दषष्ि ककया
-जाए, प्र युत की जा सकेंगी।
-18. सद् भािपूिषक की गई कािषिाई के धिए परित्राण –– ( 1 ) कोई भी िाद, अधभयोजन या अन्य धिधिक कायषिाही इस
-अधिधनयम या उसके अिीन बनाए गए ककन्हीं धनयमों या ककए गए ककन्हीं आदेशों या ऐसे ककन्हीं धनयमों के अिीन जािी ककए गए
-ककन्हीं आदेशों के अिीन सद् भािपूिषक की गई या की जाने के धिए आशधयत ककसी बात के धिए सिकाि, धनदेशक या धनयंत्रक अथिा
-सिकाि या धनयंत्रक द्व ािा प्र ाधिकृत अन्य व् य धत के धिरुद्ध न होगी।
-( 2 ) कोई िाद या अन्य धिधिक कायषिाही ककसी ऐसे नुकसान के धिए जो इस अधिधनयम या उसके अिीन बनाए गए ककसी
-धनयम या ऐसे ककसी धनयम के अिीन जािी ककए गए ककसी आदेश के अिीन सद् भािपूिषक की गई या की जाने के धिए आशधयत ककसी
-बात से हु आ या संभाव्य हो, सिकाि, धनदे शक या धनयंत्रक अथिा सिकाि या धनयंत्रक द्व ािा प्र ाधिकृत ककसी व् य धत के धिरुद्ध न होगी।
-19. प्र ाधिकृत व् य धत यों औि कोि के सदस्यों का िोक सेिक होना –– कोई व् य धत, जो धनयंत्रक 1 [ केन्री य सिकाि ] या िाज्य
-सिकाि द्व ािा इस अधिधनयम के अिीन प्र ाधिकृत हो, औि कोि का प्रत् ये क सदस्य, जब तक िह ऐसे कायष कि िहा हो, भाितीय दंड
-संधहता ( 1860 का 45 ) की िािा 21 के अथष में िोक सेिक समझा जाएगा।
-2 [ 20. धनयमों औि धिधनयमों का संसद् के समक्ष िक्षा जाना –– इस अधिधनयम के अिीन केन्री य सिकाि द्व ािा बनाया गया प्रत्
-ये क धनयम औि धिधनयम बनाने जाने के पश्चा त् यथाशीघ्र, संसद् के प्रत् ये क सदन के समक्ष, जब िह सत्र में हो, कुि तीस कदन की
-अिधि के धिए ििा जाएगा। यह अिधि एक सत्र में अथिा दो या अधिक आनुक्रधमक सत्रों में पूिी हो सकेगी। यकद उस सत्र के या
-पूिोत आनुक्रधमक सत्रों के ठीक बाद के सत्र के अिसान के पूिष दोनों सदन उस धनयम या धिधनयम में कोई परिितषन किने के धिए
-सहमत हो जाएं तो तत्प श् चा त् िह ऐसे परििर्तषत रू प में ही प्र भािी होगा। यकद उत अिसान के पूिष दोनों सदन सहमत हो जाएं कक
-िह धनयम या धिधनयम नहीं बनाया जाना चाधह ए तो तत्प श् चा त् िह धनष् प्र भाि हो जाएगा। ककन्तु धनयम या धिधनयम के ऐसे परििर्तषत
-या धनष् प्र भाि होने से उसके अिीन पहिे की गई ककसी बात की धिधिमान्य ता पि प्र धतकूि प्र भाि नहीं पड़ेगा। ]
-______
-1 1971 के अधिधनयम सं ० 42 की िािा 6 द्व ािा (आपातकाि औि उसके पश्चा त् 6 मास तक) अंत:स्था धपत।
-2 1983 के अधिधनयम सं ० 20 की िािा 2 औि अनुसूची द्व ािा ( 15 - 3 - 1984 से) प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `1 6. अधभयोजनों की परिसीमा –– इस अधिधनयम के अिीन दंडनीय ककसी अपिाि के धिए ककसी व् य धत के धिरुद्ध कोई`
+  line `अधभयोजन धनयंत्रक द्व ािा, या उसके द्व ािा इस धनधमत्त प्र ाधिकृत ककसी व् य धत द्व ािा, अथिा धनयंत्रक या ऐसे व् य धत की सम्म धत से ही`
+  line `ककया जाएगा, अन्य था नहीं।`
+  line `1 [ 16 क. केन्री य सिकाि को प्रत् या योजन की शधत –– केन्री य सिकाि, आदेश द्व ािा धनदेश दे सकेगी कक ककसी ऐसी शधत का प्र`
+  line `योग अथिा ऐसे कतषव्य का धनिषहन जो इस अधिधनयम द्व ािा अथिा उसके अिीन बनाए गए ककसी धनयम द्व ािा केन्री य सिकाि को प्र`
+  line `दत्त अथिा उस पि अधििोधपत हो, ऐसी परिधस्थ धतयों में तथा ऐसी शतों पि यकद कोई हों, जो धनदेश में धिधनर्दषष्ि की जाएं, केन्री य`
+  line `सिकाि के अिीनस्थ ककसी अधिकािी अथिा प्र ाधिकािी द्व ािा भी ककया जा सकेगा।`
+  line `16 ि. केन्री य सिकाि, आकद द्व ािा ककए गए, आदेश का प्र भाि –– ककसी ऐसे धि षय के संबंि में धजससे यह अधिधनयम अथिा`
+  line `उसके अिीन बनाया गया कोई धनयम संबंधित हो केन्री य सिकाि द्व ािा अथिा िािा 16 क के अिीन उसके द्व ािा प्र ाधिकृत अधिकािी या प्र`
+  line `ाधिकािी द्व ािा ककया गया कोई आदेश, उस धिषय की बाबत िाज्य सिकाि अथिा ककसी अन्य प्र ाधिकािी द्व ािा ककए गए ककसी आदेश`
+  line `में ककसी बात के होते हु ए भी प्र भािी होगा। ]`
+  line `17. प्रत् या योजन किने की शधत –– िाज्य सिकाि, अधिसूचना द्व ािा, धनदेश दे सकेगी कक ––`
+  line `(क) िे सभी शधत यां, धजनका प्र योग उसके द्व ािा इस अधिधनयम के अिीन ककया जा सकता है, या उनमें से कोई`
+  line `ऐसी परिधस्थ धतयों में औि ऐसी शतों के अिीन, यकद कोई हों, जो उस अधिसूचना में धिधनर्दषष्ि की जाएं, ऐसे अधिकािी द्व ािा`
+  line `भी, जो िाज्य सिकाि की िाय में धजिा मधजस् ट्रे ि की पंधत से नीचे का न हो औि धजसे उ त अधिसूचना में धिधनर्दषष्ि ककया`
+  line `जाए, प्र युत की जा सकेंगी;`
+  line `(ि) िे सभी शधत यां, धजनका प्र योग धनयंत्रक द्व ािा इस अधिधनयम के अिीन ककया जा सकता है, या उनमें से कोई`
+  line `ऐसी परिधस्थ धतयों में औि ऐसी शतों के अिीन, यकद कोई हों, जो उस अधिसूचना में धिधनर्दषष्ि की जाएं, ऐसे अधिकािी द्व ािा`
+  line `भी, जो िाज्य सिकाि की िाय में उप िंड मधजस् ट्रे ि की पंधत से नीचे का न हो औि धजसे उ त अधिसूचना में धिधनर्दषष्ि ककया`
+  line `जाए, प्र युत की जा सकेंगी।`
+  line `18. सद् भािपूिषक की गई कािषिाई के धिए परित्राण –– ( 1 ) कोई भी िाद, अधभयोजन या अन्य धिधिक कायषिाही इस`
+  line `अधिधनयम या उसके अिीन बनाए गए ककन्हीं धनयमों या ककए गए ककन्हीं आदेशों या ऐसे ककन्हीं धनयमों के अिीन जािी ककए गए`
+  line `ककन्हीं आदेशों के अिीन सद् भािपूिषक की गई या की जाने के धिए आशधयत ककसी बात के धिए सिकाि, धनदेशक या धनयंत्रक अथिा`
+  line `सिकाि या धनयंत्रक द्व ािा प्र ाधिकृत अन्य व् य धत के धिरुद्ध न होगी।`
+  line `( 2 ) कोई िाद या अन्य धिधिक कायषिाही ककसी ऐसे नुकसान के धिए जो इस अधिधनयम या उसके अिीन बनाए गए ककसी`
+  line `धनयम या ऐसे ककसी धनयम के अिीन जािी ककए गए ककसी आदेश के अिीन सद् भािपूिषक की गई या की जाने के धिए आशधयत ककसी`
+  line `बात से हु आ या संभाव्य हो, सिकाि, धनदे शक या धनयंत्रक अथिा सिकाि या धनयंत्रक द्व ािा प्र ाधिकृत ककसी व् य धत के धिरुद्ध न होगी।`
+  line `19. प्र ाधिकृत व् य धत यों औि कोि के सदस्यों का िोक सेिक होना –– कोई व् य धत, जो धनयंत्रक 1 [ केन्री य सिकाि ] या िाज्य`
+  line `सिकाि द्व ािा इस अधिधनयम के अिीन प्र ाधिकृत हो, औि कोि का प्रत् ये क सदस्य, जब तक िह ऐसे कायष कि िहा हो, भाितीय दंड`
+  line `संधहता ( 1860 का 45 ) की िािा 21 के अथष में िोक सेिक समझा जाएगा।`
+  line `2 [ 20. धनयमों औि धिधनयमों का संसद् के समक्ष िक्षा जाना –– इस अधिधनयम के अिीन केन्री य सिकाि द्व ािा बनाया गया प्रत्`
+  line `ये क धनयम औि धिधनयम बनाने जाने के पश्चा त् यथाशीघ्र, संसद् के प्रत् ये क सदन के समक्ष, जब िह सत्र में हो, कुि तीस कदन की`
+  line `अिधि के धिए ििा जाएगा। यह अिधि एक सत्र में अथिा दो या अधिक आनुक्रधमक सत्रों में पूिी हो सकेगी। यकद उस सत्र के या`
+  line `पूिोत आनुक्रधमक सत्रों के ठीक बाद के सत्र के अिसान के पूिष दोनों सदन उस धनयम या धिधनयम में कोई परिितषन किने के धिए`
+  line `सहमत हो जाएं तो तत्प श् चा त् िह ऐसे परििर्तषत रू प में ही प्र भािी होगा। यकद उत अिसान के पूिष दोनों सदन सहमत हो जाएं कक`
+  line `िह धनयम या धिधनयम नहीं बनाया जाना चाधह ए तो तत्प श् चा त् िह धनष् प्र भाि हो जाएगा। ककन्तु धनयम या धिधनयम के ऐसे परििर्तषत`
+  line `या धनष् प्र भाि होने से उसके अिीन पहिे की गई ककसी बात की धिधिमान्य ता पि प्र धतकूि प्र भाि नहीं पड़ेगा। ]`
+  line ______
+  line `1 1971 के अधिधनयम सं ० 42 की िािा 6 द्व ािा (आपातकाि औि उसके पश्चा त् 6 मास तक) अंत:स्था धपत।`
+  line `2 1983 के अधिधनयम सं ० 20 की िािा 2 औि अनुसूची द्व ािा ( 15 - 3 - 1984 से) प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line

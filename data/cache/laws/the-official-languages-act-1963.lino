@@ -1,72 +1,64 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:42:58.969Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1526`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 9)
-  (str totalSections) (int 9)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:42:58.969Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1526`
+  completeFetch true
+  maxSections null
+  sectionCount 9
+  totalSections 9
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-official-languages-act-1963)
-  (str handle) (str 1526)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Official Languages Act, 1963`)
-  (str actNumber) (str 19)
-  (str enactmentDate) (str 1963-05-10)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1526`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `राजभाषा अधिनियम, 1963`)
-  (str actYear) (str 1963)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Official Language`)
-  (str longTitle) (str `An Act to provide for the languages which may be used for the official purposes of the Union, for transaction of business in Parliament, for Central and State Acts and for certain purposes in High Courts.`)
-  (str enforcementDate) (str 10-01-1965)
-  (str notification) (str `10th January, 1965, vide notification No. S.O. 94, dated 4th January, 1965, in respect of section 5(1), see Gazette of India, Extraordinary, Part II, sec. 3(ii). 19th May, 1969, vide notification No. S.O. 1945, dated the 14th May, 1969, in respect of section 6, see Gazette of India, Extraordinary, Part II, sec. 3(ii). 7th March, 1970, vide notification No. S.O. 841, dated the 26th February, 1970, in respect of section 7, see Gazette of India, Extraordinary, Part II, sec. 3(ii). 1st October, 1976, vide notification No. S.O. 655(E), dated the 5th October, 1976, in respect of section 5(2), see Gazette of India, Extraordinary, Part II, sec. 3(ii).`)
-  (str fetchedAt) (str `2026-05-08T19:56:56.668Z`)
-  (str translations) obj_root_law_translations
+  slug the-official-languages-act-1963
+  handle (1526)
+  collectionHandle 123456789/1362
+  title `The Official Languages Act, 1963`
+  actNumber (19)
+  enactmentDate 1963-05-10
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1526`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `राजभाषा अधिनियम, 1963`
+  actYear (1963)
+  ministry `Ministry of Home Affairs`
+  department `Department of Official Language`
+  longTitle `An Act to provide for the languages which may be used for the official purposes of the Union, for transaction of business in Parliament, for Central and State Acts and for certain purposes in High Courts.`
+  enforcementDate 10-01-1965
+  notification `10th January, 1965, vide notification No. S.O. 94, dated 4th January, 1965, in respect of section 5(1), see Gazette of India, Extraordinary, Part II, sec. 3(ii). 19th May, 1969, vide notification No. S.O. 1945, dated the 14th May, 1969, in respect of section 6, see Gazette of India, Extraordinary, Part II, sec. 3(ii). 7th March, 1970, vide notification No. S.O. 841, dated the 26th February, 1970, in respect of section 7, see Gazette of India, Extraordinary, Part II, sec. 3(ii). 1st October, 1976, vide notification No. S.O. 655(E), dated the 5th October, 1976, in respect of section 5(2), see Gazette of India, Extraordinary, Part II, sec. 3(ii).`
+  fetchedAt `2026-05-08T19:56:56.668Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_official_languages_act_1963
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1526`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1526`
 obj_root_law_sources_en_the_official_languages_act_1963:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1526/1/A1963__19.pdf`)
-  (str title) (str `The Official Languages Act, 1963`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1526/1/A1963__19.pdf`
+  title `The Official Languages Act, 1963`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_39_00001_196319_1517807319151/rulesindividualfile/&file=OL+Rule+1976.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_39_00001_196319_1517807319151/rulesindividualfile/&file=OL+Rule+1976.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1963
 obj_root_law_sources_hi_1963:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1526/5/HH1963-19.pdf`)
-  (str title) (str `राजभाषा अधिनियम, 1963`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1526/5/HH1963-19.pdf`
+  title `राजभाषा अधिनियम, 1963`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -77,386 +69,431 @@ obj_root_law_sections:
   obj_root_law_sections_8
   obj_root_law_sections_9
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 24677)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Official Languages Act, 1963.
-
-(2) Section 3 shall come into force on the 26th day of January, 1965 and the remaining provisions of
-this Act shall come into force on such date^1
-as the Central Government may, by notification in the Official
-Gazette, appoint and different dates may be appointed for different provisions of this Ac`)
-  (str footnotes) (str `1. 10th January, 1965, vide notification No. S.O. 94, dated 4th January, 1965, in respect of section 5(1), see Gazette of India,
-Extraordinary, Part II, sec. 3(ii).
-
-19th May, 1969, vide notification No. S.O. 1945, dated the 14th May, 1969, in respect of section 6, see Gazette of India,
-Extraordinary, Part II, sec. 3(ii).
-
-7th March, 1970, vide notification No. S.O. 841, dated the 26th February, 1970, in respect of section 7, see Gazette of India,
-Extraordinary, Part II, sec. 3(ii).
-
-1st October, 1976, vide notification No. S.O. 655(E), dated the 5th October, 1976, in respect of section 5(2), see Gazette of India,
-Extraordinary, Part II, sec. 3(ii).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24677&sectionno=1&orderno=1&orgactid=AC_CEN_5_39_00001_196319_1517807319151)
+  sectionId (24677)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24677&sectionno=1&orderno=1&orgactid=AC_CEN_5_39_00001_196319_1517807319151
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Official Languages Act, 1963.`
+  line
+  line `(2) Section 3 shall come into force on the 26th day of January, 1965 and the remaining provisions of`
+  line `this Act shall come into force on such date^1`
+  line `as the Central Government may, by notification in the Official`
+  line `Gazette, appoint and different dates may be appointed for different provisions of this Ac`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 10th January, 1965, vide notification No. S.O. 94, dated 4th January, 1965, in respect of section 5(1), see Gazette of India,`
+  line `Extraordinary, Part II, sec. 3(ii).`
+  line
+  line `19th May, 1969, vide notification No. S.O. 1945, dated the 14th May, 1969, in respect of section 6, see Gazette of India,`
+  line `Extraordinary, Part II, sec. 3(ii).`
+  line
+  line `7th March, 1970, vide notification No. S.O. 841, dated the 26th February, 1970, in respect of section 7, see Gazette of India,`
+  line `Extraordinary, Part II, sec. 3(ii).`
+  line
+  line `1st October, 1976, vide notification No. S.O. 655(E), dated the 5th October, 1976, in respect of section 5(2), see Gazette of India,`
+  line `Extraordinary, Part II, sec. 3(ii).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 24678)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,—
-
-(a) "appointed day", in relation to section 3, means the 26th day of January, 1965 and in relation
-to any other provision of this Act, means the day on which that provision comes into force;
-
-(b) "Hindi" means Hindi in Devanagari Script.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24678&sectionno=2&orderno=2&orgactid=AC_CEN_5_39_00001_196319_1517807319151)
+  sectionId (24678)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24678&sectionno=2&orderno=2&orgactid=AC_CEN_5_39_00001_196319_1517807319151
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,—`
+  line
+  line `(a) "appointed day", in relation to section 3, means the 26th day of January, 1965 and in relation`
+  line `to any other provision of this Act, means the day on which that provision comes into force;`
+  line
+  line `(b) "Hindi" means Hindi in Devanagari Script.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 24679)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Continuance of English language for official purposes of the Union and for use in Parliament.`)
-  (str content) (str `^1[3. Continuance of English language for official purposes of the Union and for use in
-Parliament.— (1) Notwithstanding the expiration of the period of fifteen years from the commencement
-of the Constitution, the English language may, as from the appointed day, continue to be used, in addition
-to Hindi,—
-
-(a) for all the official purposes of the Union for which it was being used immediately before that
-day; and
-
-(b) for the transaction of business in Parliament:
-
-Provided that the English language shall be used for purposes of communication between the Union
-and a State which has not adopted Hindi as its official language:
-
-Provided further that where Hindi is used for purposes of communication between one State which
-has adopted Hindi as its official language and another State which has not adopted Hindi as its official
-language, such communication in Hindi shall be accompanied by a translation of the same in the English
-language:
-
-Provided also that nothing in this sub-section shall be construed as preventing a State which has not
-adopted Hindi as its official language from using Hindi for purposes of communication with the Union or
-with a State which has adopted Hindi as its official language, or by agreement with any other State, and in
-such a case, it shall not be obligatory to use the English language for purposes of communication with
-that State.
-
-(2) Notwithstanding anything contained in sub-section (1), where Hindi or the English language is
-used for purposes of communication—
-
-(i) between one Ministry or Department or office of the Central Government and another;
-
-(ii) between one Ministry or Department or office of the Central Government and any corporation
-or company owned or controlled by the Central Government or any office thereof;
-
-(iii) between any corporation or company owned or controlled by the Central Government or any
-office thereof and another,
-
-a translation of such communication in the English language or, as the case may be, in Hindi shall also be
-provided till such date as the staff of the concerned Ministry, Department, office or corporation or
-company aforesaid have acquired a working knowledge of Hindi.
-
-(3) Notwithstanding anything contained in sub-section (1), both Hindi and the English language shall
-be used for—
-
-(i) resolutions, general orders, rules, notifications, administrative or other reports or press
-communiques issued or made by the Central Government or by a Ministry, Department or office
-thereof or by a corporation or company owned or controlled by the Central Government or by any
-office of such corporation or company;
-
-(ii) administrative and other reports and official papers laid before a House or the Houses of
-Parliament;
-
-(iii) contracts and agreements executed, and licences, permits, notices and forms of tender issued,
-by or on behalf of the Central Government or any Ministry, Department or office thereof or by a
-corporation or company owned or controlled by the Central Government or by any office of such
-corporation or company.
-
-(4) Without prejudice to the provisions of sub-section (1) or sub-section (2) or sub-section (3), the
-Central Government may, by rules made under section 8, provide for the language or languages to be
-used for the official purpose of the Union, including the working of any Ministry, Department, section or
-office, and in making such rules, due consideration shall be given to the quick and efficient disposal of the
-official business and the interests of the general public and in particular, the rules so made shall ensure
-that persons serving in connection with the affairs of the Union and having proficiency either in Hindi or
-in the English language may function effectively and that they are not placed at a disadvantage on the
-ground that they do not have proficiency in both the languages.
-
-(5) The provisions of clause (a) of sub-section (1), and the provisions of sub-section (2),
-sub-section (3) and sub-section (4) shall remain in force until resolutions for the discontinuance of the use
-of the English language for the purposes mentioned therein have been passed by the Legislatures of all the
-States which have not adopted Hindi as their official language and until after considering the resolutions
-aforesaid, a resolution for such discontinuance has been passed by each House of Parliament.]`)
-  (str footnotes) (str `1. Subs. by Act 1 of 1968, s. 2, for section 3 (w.e.f. 8-1-1968).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24679&sectionno=3&orderno=3&orgactid=AC_CEN_5_39_00001_196319_1517807319151)
+  sectionId (24679)
+  sectionNo (3)
+  orderNo 3
+  title `Continuance of English language for official purposes of the Union and for use in Parliament.`
+  content obj_root_law_sections_3_content
+  footnotes `1. Subs. by Act 1 of 1968, s. 2, for section 3 (w.e.f. 8-1-1968).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24679&sectionno=3&orderno=3&orgactid=AC_CEN_5_39_00001_196319_1517807319151
+obj_root_law_sections_3_content:
+  string
+  line `^1[3. Continuance of English language for official purposes of the Union and for use in`
+  line `Parliament.— (1) Notwithstanding the expiration of the period of fifteen years from the commencement`
+  line `of the Constitution, the English language may, as from the appointed day, continue to be used, in addition`
+  line `to Hindi,—`
+  line
+  line `(a) for all the official purposes of the Union for which it was being used immediately before that`
+  line `day; and`
+  line
+  line `(b) for the transaction of business in Parliament:`
+  line
+  line `Provided that the English language shall be used for purposes of communication between the Union`
+  line `and a State which has not adopted Hindi as its official language:`
+  line
+  line `Provided further that where Hindi is used for purposes of communication between one State which`
+  line `has adopted Hindi as its official language and another State which has not adopted Hindi as its official`
+  line `language, such communication in Hindi shall be accompanied by a translation of the same in the English`
+  line `language:`
+  line
+  line `Provided also that nothing in this sub-section shall be construed as preventing a State which has not`
+  line `adopted Hindi as its official language from using Hindi for purposes of communication with the Union or`
+  line `with a State which has adopted Hindi as its official language, or by agreement with any other State, and in`
+  line `such a case, it shall not be obligatory to use the English language for purposes of communication with`
+  line `that State.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), where Hindi or the English language is`
+  line `used for purposes of communication—`
+  line
+  line `(i) between one Ministry or Department or office of the Central Government and another;`
+  line
+  line `(ii) between one Ministry or Department or office of the Central Government and any corporation`
+  line `or company owned or controlled by the Central Government or any office thereof;`
+  line
+  line `(iii) between any corporation or company owned or controlled by the Central Government or any`
+  line `office thereof and another,`
+  line
+  line `a translation of such communication in the English language or, as the case may be, in Hindi shall also be`
+  line `provided till such date as the staff of the concerned Ministry, Department, office or corporation or`
+  line `company aforesaid have acquired a working knowledge of Hindi.`
+  line
+  line `(3) Notwithstanding anything contained in sub-section (1), both Hindi and the English language shall`
+  line `be used for—`
+  line
+  line `(i) resolutions, general orders, rules, notifications, administrative or other reports or press`
+  line `communiques issued or made by the Central Government or by a Ministry, Department or office`
+  line `thereof or by a corporation or company owned or controlled by the Central Government or by any`
+  line `office of such corporation or company;`
+  line
+  line `(ii) administrative and other reports and official papers laid before a House or the Houses of`
+  line Parliament;
+  line
+  line `(iii) contracts and agreements executed, and licences, permits, notices and forms of tender issued,`
+  line `by or on behalf of the Central Government or any Ministry, Department or office thereof or by a`
+  line `corporation or company owned or controlled by the Central Government or by any office of such`
+  line `corporation or company.`
+  line
+  line `(4) Without prejudice to the provisions of sub-section (1) or sub-section (2) or sub-section (3), the`
+  line `Central Government may, by rules made under section 8, provide for the language or languages to be`
+  line `used for the official purpose of the Union, including the working of any Ministry, Department, section or`
+  line `office, and in making such rules, due consideration shall be given to the quick and efficient disposal of the`
+  line `official business and the interests of the general public and in particular, the rules so made shall ensure`
+  line `that persons serving in connection with the affairs of the Union and having proficiency either in Hindi or`
+  line `in the English language may function effectively and that they are not placed at a disadvantage on the`
+  line `ground that they do not have proficiency in both the languages.`
+  line
+  line `(5) The provisions of clause (a) of sub-section (1), and the provisions of sub-section (2),`
+  line `sub-section (3) and sub-section (4) shall remain in force until resolutions for the discontinuance of the use`
+  line `of the English language for the purposes mentioned therein have been passed by the Legislatures of all the`
+  line `States which have not adopted Hindi as their official language and until after considering the resolutions`
+  line `aforesaid, a resolution for such discontinuance has been passed by each House of Parliament.]`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 24680)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Committee on Official Language.`)
-  (str content) (str `(1) After the expiration of ten years from the date on which
-section 3 comes into force, there shall be constituted a Committee on Official Language, on a resolution
-to that effect being moved in either House of Parliament with the previous sanction of the President and
-passed by both Houses.
-
-(2) The Committee shall consist of thirty members of whom twenty shall be members of the House of
-the People and ten shall be members of the Council of States, to be elected respectively by the members
-of the House of the People and the members of the Council of States in accordance with the system of
-proportional representation by means of the single transferable vote.
-
-(3) It shall be the duty of the Committee to review the progress made in the use of Hindi for the
-official purposes of the Union and submit a report to the President making recommendations thereon and
-the President shall cause the report to be laid before each House of Parliament, and sent to all the State
-Governments.
-
-(4) The President may, after consideration of the report referred to in sub-section (3), and the views, if
-any, expressed by the State Governments thereon, issue directions in accordance with the whole or any
-part of that report:
-
-^1[
-Provided that the directions so issued shall not be inconsistent with the provisions of section 3.]`)
-  (str footnotes) (str `1. The proviso added by Act 1 of 1968, s. 3 (w.e.f. 8-1-1968).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24680&sectionno=4&orderno=4&orgactid=AC_CEN_5_39_00001_196319_1517807319151)
+  sectionId (24680)
+  sectionNo (4)
+  orderNo 4
+  title `Committee on Official Language.`
+  content obj_root_law_sections_4_content
+  footnotes `1. The proviso added by Act 1 of 1968, s. 3 (w.e.f. 8-1-1968).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24680&sectionno=4&orderno=4&orgactid=AC_CEN_5_39_00001_196319_1517807319151
+obj_root_law_sections_4_content:
+  string
+  line `(1) After the expiration of ten years from the date on which`
+  line `section 3 comes into force, there shall be constituted a Committee on Official Language, on a resolution`
+  line `to that effect being moved in either House of Parliament with the previous sanction of the President and`
+  line `passed by both Houses.`
+  line
+  line `(2) The Committee shall consist of thirty members of whom twenty shall be members of the House of`
+  line `the People and ten shall be members of the Council of States, to be elected respectively by the members`
+  line `of the House of the People and the members of the Council of States in accordance with the system of`
+  line `proportional representation by means of the single transferable vote.`
+  line
+  line `(3) It shall be the duty of the Committee to review the progress made in the use of Hindi for the`
+  line `official purposes of the Union and submit a report to the President making recommendations thereon and`
+  line `the President shall cause the report to be laid before each House of Parliament, and sent to all the State`
+  line Governments.
+  line
+  line `(4) The President may, after consideration of the report referred to in sub-section (3), and the views, if`
+  line `any, expressed by the State Governments thereon, issue directions in accordance with the whole or any`
+  line `part of that report:`
+  line
+  line ^1[
+  line `Provided that the directions so issued shall not be inconsistent with the provisions of section 3.]`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 24681)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Authorised Hindi translations of Central Acts, etc.`)
-  (str content) (str `(1) A translation in Hindi published under
-the authority of the President in the Official Gazette on and after the appointed day,—
-
-(a) of any Central Act or of any Ordinance promulgated by the President, or
-
-(b) of any order, rule, regulation or bye-law issued under the Constitution or under any Central
-Act,
-
-shall be deemed to be the authoritative text thereof in Hindi.
-
-(2) As from the appointed day, the authoritative text in the English language of all Bills to be
-introduced or amendments thereto to be moved in either House of Parliament shall be accompanied by a
-translation of the same in Hindi authorised in such manner as may be prescribed by rules made under this
-Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24681&sectionno=5&orderno=5&orgactid=AC_CEN_5_39_00001_196319_1517807319151)
+  sectionId (24681)
+  sectionNo (5)
+  orderNo 5
+  title `Authorised Hindi translations of Central Acts, etc.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24681&sectionno=5&orderno=5&orgactid=AC_CEN_5_39_00001_196319_1517807319151
+obj_root_law_sections_5_content:
+  string
+  line `(1) A translation in Hindi published under`
+  line `the authority of the President in the Official Gazette on and after the appointed day,—`
+  line
+  line `(a) of any Central Act or of any Ordinance promulgated by the President, or`
+  line
+  line `(b) of any order, rule, regulation or bye-law issued under the Constitution or under any Central`
+  line Act,
+  line
+  line `shall be deemed to be the authoritative text thereof in Hindi.`
+  line
+  line `(2) As from the appointed day, the authoritative text in the English language of all Bills to be`
+  line `introduced or amendments thereto to be moved in either House of Parliament shall be accompanied by a`
+  line `translation of the same in Hindi authorised in such manner as may be prescribed by rules made under this`
+  line Act.
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 24682)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Authorised Hindi translation of State Acts in certain cases.`)
-  (str content) (str `Where the Legislature of a State
-has prescribed any language other than Hindi for use in Acts passed by the Legislature of the State or in
-Ordinances promulgated by the Governor of the State, a translation of the same in Hindi, in addition to a
-translation thereof in the English language as required by clause (3) of article 348 of the Constitution,
-may be published on or after the appointed day under the authority of the Governor of the State in the
-Official Gazette of that State and in such a case, the translation in Hindi of any such Act or Ordinance
-shall be deemed to be the authoritative text thereof in the Hindi language.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24682&sectionno=6&orderno=6&orgactid=AC_CEN_5_39_00001_196319_1517807319151)
+  sectionId (24682)
+  sectionNo (6)
+  orderNo 6
+  title `Authorised Hindi translation of State Acts in certain cases.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24682&sectionno=6&orderno=6&orgactid=AC_CEN_5_39_00001_196319_1517807319151
+obj_root_law_sections_6_content:
+  string
+  line `Where the Legislature of a State`
+  line `has prescribed any language other than Hindi for use in Acts passed by the Legislature of the State or in`
+  line `Ordinances promulgated by the Governor of the State, a translation of the same in Hindi, in addition to a`
+  line `translation thereof in the English language as required by clause (3) of article 348 of the Constitution,`
+  line `may be published on or after the appointed day under the authority of the Governor of the State in the`
+  line `Official Gazette of that State and in such a case, the translation in Hindi of any such Act or Ordinance`
+  line `shall be deemed to be the authoritative text thereof in the Hindi language.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 24683)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Optional use of Hindi or other official language in judgments, etc., of High Courts.`)
-  (str content) (str `As from
-the appointed day or any day thereafter the Governor of a State may, with the previous consent of the
-President, authorise the use of Hindi or the official language of the State, in addition to the English
-language, for the purposes of any judgment, decree or order passed or made by the High Court for that
-State and where any judgment, decree or order is passed or made in any such language (other than the
-English language), it shall be accompanied by a translation of the same in the English language issued
-under the authority of the High Court.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24683&sectionno=7&orderno=7&orgactid=AC_CEN_5_39_00001_196319_1517807319151)
+  sectionId (24683)
+  sectionNo (7)
+  orderNo 7
+  title `Optional use of Hindi or other official language in judgments, etc., of High Courts.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24683&sectionno=7&orderno=7&orgactid=AC_CEN_5_39_00001_196319_1517807319151
+obj_root_law_sections_7_content:
+  string
+  line `As from`
+  line `the appointed day or any day thereafter the Governor of a State may, with the previous consent of the`
+  line `President, authorise the use of Hindi or the official language of the State, in addition to the English`
+  line `language, for the purposes of any judgment, decree or order passed or made by the High Court for that`
+  line `State and where any judgment, decree or order is passed or made in any such language (other than the`
+  line `English language), it shall be accompanied by a translation of the same in the English language issued`
+  line `under the authority of the High Court.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 24684)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules for carrying out the purposes of this Act.
-
-(2) Every rule made under this section shall be laid, as soon as may be after it is made, before each
-House of Parliament while it is in session for a total period of thirty days which may be comprised in one
-session or ^1[
-in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid], both Houses agree in making any modification
-in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only
-in such modified form or be of no effect, as the case may be, so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str `1. Subs. by Act 4 of 1986, s. 2 and the Schedule, for certain words (w.e.f. 15-5-1986).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24684&sectionno=8&orderno=8&orgactid=AC_CEN_5_39_00001_196319_1517807319151)
+  sectionId (24684)
+  sectionNo (8)
+  orderNo 8
+  title `Power to make rules.`
+  content obj_root_law_sections_8_content
+  footnotes `1. Subs. by Act 4 of 1986, s. 2 and the Schedule, for certain words (w.e.f. 15-5-1986).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24684&sectionno=8&orderno=8&orgactid=AC_CEN_5_39_00001_196319_1517807319151
+obj_root_law_sections_8_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules for carrying out the purposes of this Act.`
+  line
+  line `(2) Every rule made under this section shall be laid, as soon as may be after it is made, before each`
+  line `House of Parliament while it is in session for a total period of thirty days which may be comprised in one`
+  line `session or ^1[`
+  line `in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid], both Houses agree in making any modification`
+  line `in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only`
+  line `in such modified form or be of no effect, as the case may be, so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that rule.`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 24685)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Certain provisions not to apply to Jammu and Kashmir.`)
-  (str content) (str `[Certain provisions not to apply to Jammu and Kashmir.]-- Omitted by the Jammu and Kashmir Reorganization (Adaptation of Central Laws) Order, 2020, vide notification No. S.O. 1123(E) dated (18-3-2020) and vide Union Territory of Ladakh Reorganisation (Adaptation of Central Laws) Order, 2020, notification No. S.O. 3774(E), dated (23-10-2020).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24685&sectionno=9&orderno=9&orgactid=AC_CEN_5_39_00001_196319_1517807319151)
+  sectionId (24685)
+  sectionNo (9)
+  orderNo 9
+  title `Certain provisions not to apply to Jammu and Kashmir.`
+  content `[Certain provisions not to apply to Jammu and Kashmir.]-- Omitted by the Jammu and Kashmir Reorganization (Adaptation of Central Laws) Order, 2020, vide notification No. S.O. 1123(E) dated (18-3-2020) and vide Union Territory of Ladakh Reorganisation (Adaptation of Central Laws) Order, 2020, notification No. S.O. 3774(E), dated (23-10-2020).`
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_39_00001_196319_1517807319151&sectionId=24685&sectionno=9&orderno=9&orgactid=AC_CEN_5_39_00001_196319_1517807319151
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `राजभाषा अधिनियम, 1963`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1526/5/HH1963-19.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:42:57.868Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `राजभाषा अधिनियम, 1963`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1526/5/HH1963-19.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:42:57.868Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `राजभाषा अिधिनयम, 1963
-( 1963 का अिधिनयम सं ᭎ यां क 19 )
-[10 मई, 1963]
-उन भाषा Ა का, जो संघ के राजक ᳱ य ᮧ योजन ᲂ, संसद् म ᱶ काय ᭅ के सं ᭪ य वहार,
-के ᭠ ᮤ ीय और रा ᭔ य अिधिनयम ᲂ और उ ᭒ च ᭠ यायालय ᲂ म ᱶ
-कितपय ᮧ योजन ᲂ के िलए ᮧ योग म ᱶ लाई जा
-सक ᱶ गी, उपब ᭠ ध करने के िलए
-अिधिनयम
-भारत गणरा ᭔ य के चौद हव ᱶ वष ᭅ म ᱶ संसद् ᳇ ारा िन ᭥ निलिखत ᱨ प म ᱶ यह अिधिनयिमत हो: —
-1. संि ᭃ᭡ त नाम और ᮧ ारंभ —(1) यह अिधिनयम राजभाषा अिधिनयम, 1963 कहा जा सकेगा।
-(2) धारा 3 जनवरी, 1965 के 26 व ᱶ ᳰ दन को ᮧ वृ ᱫ होगी और इस अिधिनयम के शेष उपबंध उस तारीख 1 को ᮧ वृ ᱫ ह ᲂ गे िजसे
-के ᭠ ᮤ ीय सरकार शासक ᳱ य राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनयत करे और इस अिधिनयम के िविभ ᭠ न उपबंध ᲂ के िलए िविभ ᭠ न तारीख
-िनयत क ᳱ जा सक ᱶ गी।
-3. प ᳯ रभाषाएं — इस अिधिनयम म ᱶ जब तक ᳰ क संदभ ᭅ से अ ᭠ यथा अपेि ᭃ त न हो,—
-(क) “ िनयत ᳰ दन ” से, धारा 3 के संबंध म ᱶ, जनवरी, 1965 का 26 वां ᳰ दन अिभ ᮧ े त है और इस अिधिनयम के ᳰ कसी
-अ ᭠ य उपबंध के संबंध म ᱶ वह ᳰ दन अिभ ᮧ े त है िजस ᳰ दन को वह उपबंध ᮧ वृ ᱫ होता है;
-(ख) “ िह ᭠ दी ” से वह िह ᭠ दी अिभ ᮧ े त है िजसक ᳱ िलपी देवनागरी है।
-2 [ 3. सं घ के राजक ᳱ य ᮧ योजन ᲂ के िलए और संसद् म ᱶ ᮧ योग के िलए अं ᮕ े जी भाषा का बना रहना —(1) संिवधान के ᮧ ारंभ से
-पं ᮤ ह वष ᭅ क ᳱ कालाविध क ᳱ समाि ᭡ त हो जाने पर भी, िह ᭠ दी के अित ᳯ र ᭍ त अं ᮕ े जी भाषा, िनयत ᳰ दन से ही, —
-(क) संघ के उन सब राजक ᳱ य ᮧ योजन ᲂ के िलए िजन के िलए यह उस ᳰ दन से ठीक पहले ᮧ योग म ᱶ लाई जाती
-थी; तथा
-(ख) संसद् म ᱶ काय ᭅ के सं ᭪ य वहार के िलए,
-ᮧ योग म ᱶ लाई जाती रह सकेगी:
-पर ᭠ तु संघ और ᳰ कसी ऐसे रा ᭔ य के बीच, िजसने िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ नह ᱭ अपनाया है, प ᮢ ा ᳰ द के ᮧ योजन ᲂ के
-िलए अं ᮕ े जी भाषा ᮧ योग म ᱶ लाई जाएगी:
-पर ᭠ तु यह और ᳰ क जहां ᳰ कसी ऐसे रा ᭔ य के, िजसने िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ अपनाया है और ᳰ कसी अ ᭠ य रा ᭔ य
-के, िजसने िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ नह ᱭ अपनाया है, बीच प ᮢ ा ᳰ द के ᮧ योजन ᲂ के िलए िह ᭠ दी को ᮧ योग म ᱶ लाया जाता है,
-वहां िह ᭠ दी म ᱶ ऐसे प ᮢ ा ᳰ द के साथ - साथ उसका अनुवाद अं ᮕ े जी भाषा म ᱶ भेजा जाएगा:
-पर ᭠ तु यह और भी ᳰ क इस उपधारा क ᳱ ᳰ कसी भी बात का यह अथ ᭅ नह ᱭ लगाया जाएगा ᳰ क वह ᳰ कसी ऐसे रा ᭔ य को, िजसने
-िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ नह ᱭ अपनाया है, संघ के साथ या ᳰ कसी ऐसे रा ᭔ य के साथ, िजसने िह ᭠ दी को अपनी राजभाषा के
-ᱨ प म ᱶ अपनाया है, या ᳰ कसी अ ᭠ य रा ᭔ य के साथ, उसक ᳱ सहमित से, प ᮢ ा ᳰ द के ᮧ योजन ᲂ के िलए िह ᭠ दी को ᮧ योग म ᱶ लाने से िनवा ᳯ रत
-करती है, और ऐसे ᳰ कसी मामले म ᱶ उस रा ᭔ य के साथ प ᮢ ा ᳰ द के ᮧ योजन ᲂ के िलए अं ᮕ े जी भाषा का ᮧ योग बा ᭟ य कर न होगा।
-(2) उपधारा (1) म ᱶ अ ᭠ त ᳶ व ᭬ ट ᳰ कसी बात के होते ᱟ ए भी, जहां प ᮢ ा ᳰ द के ᮧ योजन ᲂ के िलए िह ᭠ दी या अं ᮕ े जी भाषा —
-(i) के ᭠ ᮤ ीय सरकार के एक मं ᮢ ालय या िवभाग या काया ᭅ लय के और दूसरे मं ᮢ ालय या िवभाग या काया ᭅ लय के बीच;
-(ii) के ᭠ ᮤ ीय सरकार के एक मं ᮢ ालय या िवभाग या काया ᭅ लय के और के ᭠ ᮤ ीय सरकार के ᭭ वािम ᭜ व म ᱶ के या िनयं ᮢ ण
-म ᱶ के ᳰ कसी िनगम या कंपनी या उसके ᳰ कसी काया ᭅ लय के बीच;
-1 तारीख 10 जनवरी, 1965 को धारा 5(1) ᮧ वृ ᱫ ᱟ ई, देिखए भारत का राजप ᮢ (अं ᮕ े जी) भाग 2, अनुभाग 3(ii), पृ ० 128 पर ᮧ कािशत अिधसूचना सं ० का०आ० 94,
-तारीख 4 जनवरी 1965; तारीख 19 मई, 1969 को धारा 6 ᮧ वृ ᱫ ᱟ ई, देिखए भारत का राजप ᮢ (अं ᮕ े जी) भाग 2, अनुभाग (3)(ii), पृ ० 2024 पर ᮧ कािशत अिधसूचना
-सं ० का०आ० 1945, तारीख 14 मई, 1969; तारीख 7 माच ᭅ, 1970 को धारा 7 ᮧ वृ ᱫ ᱟ ई, देिखए भारत का राजप ᮢ (अं ᮕ े जी) भाग 2, अनुभाग 3(ii), म ᱶ ᮧ कािशत
-अिधसूचना सं ० का०आ० 841, तारीख 26 फरवरी, 1970, तारीख 1 अ ᭍ तू बर, 1976 को धारा 5(2) ᮧ वृ ᱫ ᱟ ई, देिखए भारत का राजप ᮢ (अं ᮕ े जी) भाग 2, अनुभाग
-3(ii), पृ ० 1901 पर ᮧ कािशत अिधसूचना सं ० का०आ० 655( अ), तारीख 5 अ ᭍ तू बर, 1976।
-2 1968 के अिधिनयम सं ० 1 क ᳱ धारा 2 ᳇ ारा धारा 3 के ᭭ थान पर ᮧ ित ᭭ था िपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `राजभाषा अिधिनयम, 1963`
+  line `( 1963 का अिधिनयम सं ᭎ यां क 19 )`
+  line `[10 मई, 1963]`
+  line `उन भाषा Ა का, जो संघ के राजक ᳱ य ᮧ योजन ᲂ, संसद् म ᱶ काय ᭅ के सं ᭪ य वहार,`
+  line `के ᭠ ᮤ ीय और रा ᭔ य अिधिनयम ᲂ और उ ᭒ च ᭠ यायालय ᲂ म ᱶ`
+  line `कितपय ᮧ योजन ᲂ के िलए ᮧ योग म ᱶ लाई जा`
+  line `सक ᱶ गी, उपब ᭠ ध करने के िलए`
+  line अिधिनयम
+  line `भारत गणरा ᭔ य के चौद हव ᱶ वष ᭅ म ᱶ संसद् ᳇ ारा िन ᭥ निलिखत ᱨ प म ᱶ यह अिधिनयिमत हो: —`
+  line `1. संि ᭃ᭡ त नाम और ᮧ ारंभ —(1) यह अिधिनयम राजभाषा अिधिनयम, 1963 कहा जा सकेगा।`
+  line `(2) धारा 3 जनवरी, 1965 के 26 व ᱶ ᳰ दन को ᮧ वृ ᱫ होगी और इस अिधिनयम के शेष उपबंध उस तारीख 1 को ᮧ वृ ᱫ ह ᲂ गे िजसे`
+  line `के ᭠ ᮤ ीय सरकार शासक ᳱ य राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनयत करे और इस अिधिनयम के िविभ ᭠ न उपबंध ᲂ के िलए िविभ ᭠ न तारीख`
+  line `िनयत क ᳱ जा सक ᱶ गी।`
+  line `3. प ᳯ रभाषाएं — इस अिधिनयम म ᱶ जब तक ᳰ क संदभ ᭅ से अ ᭠ यथा अपेि ᭃ त न हो,—`
+  line `(क) “ िनयत ᳰ दन ” से, धारा 3 के संबंध म ᱶ, जनवरी, 1965 का 26 वां ᳰ दन अिभ ᮧ े त है और इस अिधिनयम के ᳰ कसी`
+  line `अ ᭠ य उपबंध के संबंध म ᱶ वह ᳰ दन अिभ ᮧ े त है िजस ᳰ दन को वह उपबंध ᮧ वृ ᱫ होता है;`
+  line `(ख) “ िह ᭠ दी ” से वह िह ᭠ दी अिभ ᮧ े त है िजसक ᳱ िलपी देवनागरी है।`
+  line `2 [ 3. सं घ के राजक ᳱ य ᮧ योजन ᲂ के िलए और संसद् म ᱶ ᮧ योग के िलए अं ᮕ े जी भाषा का बना रहना —(1) संिवधान के ᮧ ारंभ से`
+  line `पं ᮤ ह वष ᭅ क ᳱ कालाविध क ᳱ समाि ᭡ त हो जाने पर भी, िह ᭠ दी के अित ᳯ र ᭍ त अं ᮕ े जी भाषा, िनयत ᳰ दन से ही, —`
+  line `(क) संघ के उन सब राजक ᳱ य ᮧ योजन ᲂ के िलए िजन के िलए यह उस ᳰ दन से ठीक पहले ᮧ योग म ᱶ लाई जाती`
+  line `थी; तथा`
+  line `(ख) संसद् म ᱶ काय ᭅ के सं ᭪ य वहार के िलए,`
+  line `ᮧ योग म ᱶ लाई जाती रह सकेगी:`
+  line `पर ᭠ तु संघ और ᳰ कसी ऐसे रा ᭔ य के बीच, िजसने िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ नह ᱭ अपनाया है, प ᮢ ा ᳰ द के ᮧ योजन ᲂ के`
+  line `िलए अं ᮕ े जी भाषा ᮧ योग म ᱶ लाई जाएगी:`
+  line `पर ᭠ तु यह और ᳰ क जहां ᳰ कसी ऐसे रा ᭔ य के, िजसने िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ अपनाया है और ᳰ कसी अ ᭠ य रा ᭔ य`
+  line `के, िजसने िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ नह ᱭ अपनाया है, बीच प ᮢ ा ᳰ द के ᮧ योजन ᲂ के िलए िह ᭠ दी को ᮧ योग म ᱶ लाया जाता है,`
+  line `वहां िह ᭠ दी म ᱶ ऐसे प ᮢ ा ᳰ द के साथ - साथ उसका अनुवाद अं ᮕ े जी भाषा म ᱶ भेजा जाएगा:`
+  line `पर ᭠ तु यह और भी ᳰ क इस उपधारा क ᳱ ᳰ कसी भी बात का यह अथ ᭅ नह ᱭ लगाया जाएगा ᳰ क वह ᳰ कसी ऐसे रा ᭔ य को, िजसने`
+  line `िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ नह ᱭ अपनाया है, संघ के साथ या ᳰ कसी ऐसे रा ᭔ य के साथ, िजसने िह ᭠ दी को अपनी राजभाषा के`
+  line `ᱨ प म ᱶ अपनाया है, या ᳰ कसी अ ᭠ य रा ᭔ य के साथ, उसक ᳱ सहमित से, प ᮢ ा ᳰ द के ᮧ योजन ᲂ के िलए िह ᭠ दी को ᮧ योग म ᱶ लाने से िनवा ᳯ रत`
+  line `करती है, और ऐसे ᳰ कसी मामले म ᱶ उस रा ᭔ य के साथ प ᮢ ा ᳰ द के ᮧ योजन ᲂ के िलए अं ᮕ े जी भाषा का ᮧ योग बा ᭟ य कर न होगा।`
+  line `(2) उपधारा (1) म ᱶ अ ᭠ त ᳶ व ᭬ ट ᳰ कसी बात के होते ᱟ ए भी, जहां प ᮢ ा ᳰ द के ᮧ योजन ᲂ के िलए िह ᭠ दी या अं ᮕ े जी भाषा —`
+  line `(i) के ᭠ ᮤ ीय सरकार के एक मं ᮢ ालय या िवभाग या काया ᭅ लय के और दूसरे मं ᮢ ालय या िवभाग या काया ᭅ लय के बीच;`
+  line `(ii) के ᭠ ᮤ ीय सरकार के एक मं ᮢ ालय या िवभाग या काया ᭅ लय के और के ᭠ ᮤ ीय सरकार के ᭭ वािम ᭜ व म ᱶ के या िनयं ᮢ ण`
+  line `म ᱶ के ᳰ कसी िनगम या कंपनी या उसके ᳰ कसी काया ᭅ लय के बीच;`
+  line `1 तारीख 10 जनवरी, 1965 को धारा 5(1) ᮧ वृ ᱫ ᱟ ई, देिखए भारत का राजप ᮢ (अं ᮕ े जी) भाग 2, अनुभाग 3(ii), पृ ० 128 पर ᮧ कािशत अिधसूचना सं ० का०आ० 94,`
+  line `तारीख 4 जनवरी 1965; तारीख 19 मई, 1969 को धारा 6 ᮧ वृ ᱫ ᱟ ई, देिखए भारत का राजप ᮢ (अं ᮕ े जी) भाग 2, अनुभाग (3)(ii), पृ ० 2024 पर ᮧ कािशत अिधसूचना`
+  line `सं ० का०आ० 1945, तारीख 14 मई, 1969; तारीख 7 माच ᭅ, 1970 को धारा 7 ᮧ वृ ᱫ ᱟ ई, देिखए भारत का राजप ᮢ (अं ᮕ े जी) भाग 2, अनुभाग 3(ii), म ᱶ ᮧ कािशत`
+  line `अिधसूचना सं ० का०आ० 841, तारीख 26 फरवरी, 1970, तारीख 1 अ ᭍ तू बर, 1976 को धारा 5(2) ᮧ वृ ᱫ ᱟ ई, देिखए भारत का राजप ᮢ (अं ᮕ े जी) भाग 2, अनुभाग`
+  line `3(ii), पृ ० 1901 पर ᮧ कािशत अिधसूचना सं ० का०आ० 655( अ), तारीख 5 अ ᭍ तू बर, 1976।`
+  line `2 1968 के अिधिनयम सं ० 1 क ᳱ धारा 2 ᳇ ारा धारा 3 के ᭭ थान पर ᮧ ित ᭭ था िपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-(iii) के ᭠ ᮤ ीय सरकार के ᭭ वा िम ᭜ व म ᱶ के या िनयं ᮢ ण म ᱶ के ᳰ कसी िनगम या कंपनी या उसके ᳰ कसी काया ᭅ लय के और
-ᳰ कसी अ ᭠ य ऐसे िनगम या क ᭥ पनी या काया ᭅ लय के बीच,
-ᮧ योग म ᱶ लाई जाती है वहां उस तारीख तक, जब तक पूव ᲃ᭍ त संबंिधत मं ᮢ ालय, िवभाग, काया ᭅ लय या िनगम या कंपनी का
-कम ᭅ चा ᳯ रवृ ᭠ द िह ᭠ दी का काय ᭅ साधक ᭄ ान ᮧ ा ᭡ त नह ᱭ कर लेता, ऐसे प ᮢ ा ᳰ द का अनुवाद, यथाि ᭭ थ ित, अं ᮕ े जी भाषा या िह ᭠ दी म ᱶ भी
-ᳰ दया जाएगा।
-(3) उपधारा (1) म ᱶ अ ᭠ त ᳶ व ᭬ ट ᳰ कसी बात के होते ᱟ ए भी, िह ᭠ दी और अं ᮕ े जी भाषा दोन ᲂ ही —
-(i) संक ᭨ प ᲂ, साधारण आदेश ᲂ, िनयम ᲂ, अिधसूचना Ა, ᮧ शासिनक या अ ᭠ य ᮧ ितवेदन ᲂ या ᮧ े स िव ᭄ ि ᭡ तय ᲂ के िलए,
-जो के ᭠ ᮤ ीय सरकार ᳇ ारा या उसके ᳰ कसी मं ᮢ ालय, िवभाग या काया ᭅ लय ᳇ ारा या के ᭠ ᮤ ी य सरकार के ᭭ वािम ᭜ व म ᱶ के या
-िनयं ᮢ ण म ᱶ के ᳰ कसी िनगम या कंपनी ᳇ ारा या ऐसे िनगम या कंपनी के ᳰ कसी काया ᭅ लय ᳇ ारा िनकाले जाते ह ᱹ या ᳰ कए
-जाते ह ᱹ;
-(ii) संसद् के ᳰ कसी सदन या सदन ᲂ के सम ᭃ रखे गए ᮧ शासिनक तथा अ ᭠ य ᮧ ितवेदन ᲂ और राजक ᳱ य काग ज प ᮢ ᲂ
-के िलए;
-(iii) के ᭠ ᮤ ीय सरकार या उसके ᳰ कसी मं ᮢ ालय, िवभाग या काया ᭅ लय ᳇ ारा या उसक ᳱ ओर से या के ᭠ ᮤ ी य सरकार के ᭭
-वािम ᭜ व म ᱶ के या िनयं ᮢ ण म ᱶ के ᳰ कसी िनगम या कंपनी ᳇ ारा या ऐसे िनगम या कंपनी के ᳰ कसी काया ᭅ लय ᳇ ारा िन ᭬ पा ᳰ दत
-संिवदा Ა और करार ᲂ के िलए तथा िनकाली गई अनु ᭄ ि ᭡ तय ᲂ, अनु ᭄ ाप ᮢ ᲂ, सूचना Ა और िनिवदा ᮧᱨ प ᲂ के िलए,
-ᮧ योग म ᱶ लाई जाएं गी।
-(4) उपधारा (1) या उपधारा (2) या उपधारा (3) के उपबंध ᲂ पर ᮧ ितकूल ᮧ भाव डाले िबना यह है ᳰ क के ᭠ ᮤ ी य सरकार
-धारा 8 के अधीन बनाए गए िनयम ᲂ ᳇ ारा उस भाषा या उन भाषा Ა का उपबंध कर सकेगी िजसे या िज ᭠ ह ᱶ संघ के राजक ᳱ य ᮧ योजन के
-िलए, िजसके अंतग ᭅ त ᳰ कसी मं ᮢ ालय, िवभाग, अनुभाग या काया ᭅ लय का काय ᭅ करण है, ᮧ योग म ᱶ लाया जाना है और ऐसे िनयम बनाने म ᱶ
-राजक ᳱ य काय ᭅ के शी ᮖ ता और द ᭃ ता के साथ िनपटारे का तथा जनसाधारण के िहत ᲂ का स ᭥ य क् ᭟ यान रखा जाएगा और इस ᮧ कार
-बनाए गए िनयम िविश ᭬ ट तया यह सुिन ि ᭫ चत कर ᱶ गे ᳰ क जो ᭪ यि ᭍ त संघ के काय ᭅ कलाप के संबंध म ᱶ सेवा कर रहे ह ᱹ और जो या तो िह ᭠ दी
-म ᱶ या अं ᮕ े जी भाषा म ᱶ ᮧ वीण ह ᱹ वे ᮧ भावी ᱨ प से अपना काम कर सक ᱶ और यह भी ᳰ क केवल इस आधार पर ᳰ क वे दोन ᲂ ही भाषा Ა म ᱶ
-ᮧ वीण नह ᱭ ह ᱹ उनका कोई अिहत नह ᱭ होता है।
-(5) उपधारा (1) के खंड (क) के उपबंध और उपधारा (2), उपधारा (3) और उपधारा (4) के उपबंध तब तक ᮧ वृ ᱫ बने रह ᱶ गे
-जब तक उनम ᱶ व ᳶ णत ᮧ योजन ᲂ के िलए अं ᮕ े जी भाषा का ᮧ योग समा ᭡ त कर दे ने के िलए ऐसी सभी रा ᭔ य ᲂ के िवधान- मंडल ᲂ ᳇ ारा,
-िज ᭠ ह ᲂ ने िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ नह ᱭ अपनाया है, संक ᭨ प पा ᳯ रत नह ᱭ कर ᳰ दए जाते और जब तक पूव ᲃ᭍ त संक ᭨ प ᲂ पर
-िवचार कर लेने के प ᭫ चात् ऐसी समाि ᭡ त के िलए संसद् के हर एक सदन ᳇ ारा संक ᭨ प पा ᳯ रत नह ᱭ कर ᳰ दया जाता। ]
-4. राजभाषा के संबंध म ᱶ सिमित —(1) िजस तारीख को धारा 3 ᮧ वृ ᱫ होती है उससे दस वष ᭅ क ᳱ समाि ᭡ त के प ᭫ चा त्,
-राजभाषा के संबंध म ᱶ एक सिमित, इस िवषय का संक ᭨ प संसद् के ᳰ कसी भी सदन म ᱶ रा ᭬ ᮝ पित क ᳱ पूव ᭅ मंजूरी से ᮧ᭭ तािवत और दोन ᲂ
-सदन ᲂ ᳇ ारा पा ᳯ रत ᳰ कए जाने पर ग ᳯ ठत क ᳱ जाएगी।
-(2) इस सिमित म ᱶ तीस सद ᭭ य ह ᲂ गे िजनम ᱶ से बीस लोक सभा के सद ᭭ य ह ᲂ गे तथा दस रा ᭔ य सभा के सद ᭭ य ह ᲂ गे, जो ᮓ मश:
-लोक सभा के सदस् य ᲂ तथा रा ᭔ य सभा के सद ᭭ य ᲂ ᳇ ारा आनुपाितक ᮧ ितिनिध ᭜ व प ᳍ ित के अनुसार एकल सं ᮓ मणीय मत ᳇ ारा
-िनवा ᭅ िचत ह ᲂ गे।
-(3) इस सिमित का कत ᭅ ᭪ य होगा ᳰ क वह संघ के राजक ᳱ य ᮧ योजन ᲂ के िलए िह ᭠ दी के ᮧ योग म ᱶ क ᳱ गई ᮧ गित का पुन ᳶ वलोकन
-करे और उस पर िसफा ᳯ रश ᱶ करते ᱟ ए रा ᭬ ᮝ पित को ᮧ ितवेदन करे और रा ᭬ ᮝ पित उस ᮧ ितवेदन को संसद् के हर एक सदन के सम ᭃ
-रखवाएगा और सभी रा ᭔ य सरकार ᲂ को िभजवाएगा।
-(4) रा ᭬ ᮝ पित उपधारा (3) म ᱶ िन ᳸ द ᭬ ट ᮧ ितवेदन पर और उस पर रा ᭔ य सरकार ᲂ ने य ᳰ द कोई मत अिभ ᭪ य ᭍ त ᳰ कए ह ᲂ तो उन
-पर िवचार करने के प ᭫ चात् उस सम ᭭ त ᮧ ितवदेन के या उसके ᳰ कसी भाग के अनुसार िनदेश िनकाल सकेगा:
-1 [ पर ᭠ तु इस ᮧ कार िनकाले गए िनदेश धारा 3 के उपबंध ᲂ से असंगत नह ᱭ ह ᲂ गे। ]
-5. के ᭠ ᮤ ीय अिधिनयम ᲂ आ ᳰ द का ᮧ ािधकृत िह ᭠ दी अनुवाद —(1) िनयत ᳰ दन को और उसके प ᭫ चात् शासक ᳱ य राजप ᮢ म ᱶ
-रा ᭬ ᮝ पित के ᮧ ािधकार से ᮧ कािशत —
-(क) ᳰ कसी के ᭠ ᮤ ीय अिधिनयम का या रा ᭬ ᮝ पित ᳇ ारा ᮧ᭎ यािपत ᳰ कसी अ ᭟ या देश का, अथवा
-(ख) संिवधान के अधीन या ᳰ कसी के ᭠ ᮤ ीय अिधिनयम के अधीन िनकाले गए ᳰ कसी आदेश, िनयम, िविनयम या
-उपिविध का,
-1 1968 के अिधिनयम सं ० 1 क ᳱ धारा 3 ᳇ ारा अंत: ᭭ था िपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `(iii) के ᭠ ᮤ ीय सरकार के ᭭ वा िम ᭜ व म ᱶ के या िनयं ᮢ ण म ᱶ के ᳰ कसी िनगम या कंपनी या उसके ᳰ कसी काया ᭅ लय के और`
+  line `ᳰ कसी अ ᭠ य ऐसे िनगम या क ᭥ पनी या काया ᭅ लय के बीच,`
+  line `ᮧ योग म ᱶ लाई जाती है वहां उस तारीख तक, जब तक पूव ᲃ᭍ त संबंिधत मं ᮢ ालय, िवभाग, काया ᭅ लय या िनगम या कंपनी का`
+  line `कम ᭅ चा ᳯ रवृ ᭠ द िह ᭠ दी का काय ᭅ साधक ᭄ ान ᮧ ा ᭡ त नह ᱭ कर लेता, ऐसे प ᮢ ा ᳰ द का अनुवाद, यथाि ᭭ थ ित, अं ᮕ े जी भाषा या िह ᭠ दी म ᱶ भी`
+  line `ᳰ दया जाएगा।`
+  line `(3) उपधारा (1) म ᱶ अ ᭠ त ᳶ व ᭬ ट ᳰ कसी बात के होते ᱟ ए भी, िह ᭠ दी और अं ᮕ े जी भाषा दोन ᲂ ही —`
+  line `(i) संक ᭨ प ᲂ, साधारण आदेश ᲂ, िनयम ᲂ, अिधसूचना Ა, ᮧ शासिनक या अ ᭠ य ᮧ ितवेदन ᲂ या ᮧ े स िव ᭄ ि ᭡ तय ᲂ के िलए,`
+  line `जो के ᭠ ᮤ ीय सरकार ᳇ ारा या उसके ᳰ कसी मं ᮢ ालय, िवभाग या काया ᭅ लय ᳇ ारा या के ᭠ ᮤ ी य सरकार के ᭭ वािम ᭜ व म ᱶ के या`
+  line `िनयं ᮢ ण म ᱶ के ᳰ कसी िनगम या कंपनी ᳇ ारा या ऐसे िनगम या कंपनी के ᳰ कसी काया ᭅ लय ᳇ ारा िनकाले जाते ह ᱹ या ᳰ कए`
+  line `जाते ह ᱹ;`
+  line `(ii) संसद् के ᳰ कसी सदन या सदन ᲂ के सम ᭃ रखे गए ᮧ शासिनक तथा अ ᭠ य ᮧ ितवेदन ᲂ और राजक ᳱ य काग ज प ᮢ ᲂ`
+  line `के िलए;`
+  line `(iii) के ᭠ ᮤ ीय सरकार या उसके ᳰ कसी मं ᮢ ालय, िवभाग या काया ᭅ लय ᳇ ारा या उसक ᳱ ओर से या के ᭠ ᮤ ी य सरकार के ᭭`
+  line `वािम ᭜ व म ᱶ के या िनयं ᮢ ण म ᱶ के ᳰ कसी िनगम या कंपनी ᳇ ारा या ऐसे िनगम या कंपनी के ᳰ कसी काया ᭅ लय ᳇ ारा िन ᭬ पा ᳰ दत`
+  line `संिवदा Ა और करार ᲂ के िलए तथा िनकाली गई अनु ᭄ ि ᭡ तय ᲂ, अनु ᭄ ाप ᮢ ᲂ, सूचना Ა और िनिवदा ᮧᱨ प ᲂ के िलए,`
+  line `ᮧ योग म ᱶ लाई जाएं गी।`
+  line `(4) उपधारा (1) या उपधारा (2) या उपधारा (3) के उपबंध ᲂ पर ᮧ ितकूल ᮧ भाव डाले िबना यह है ᳰ क के ᭠ ᮤ ी य सरकार`
+  line `धारा 8 के अधीन बनाए गए िनयम ᲂ ᳇ ारा उस भाषा या उन भाषा Ა का उपबंध कर सकेगी िजसे या िज ᭠ ह ᱶ संघ के राजक ᳱ य ᮧ योजन के`
+  line `िलए, िजसके अंतग ᭅ त ᳰ कसी मं ᮢ ालय, िवभाग, अनुभाग या काया ᭅ लय का काय ᭅ करण है, ᮧ योग म ᱶ लाया जाना है और ऐसे िनयम बनाने म ᱶ`
+  line `राजक ᳱ य काय ᭅ के शी ᮖ ता और द ᭃ ता के साथ िनपटारे का तथा जनसाधारण के िहत ᲂ का स ᭥ य क् ᭟ यान रखा जाएगा और इस ᮧ कार`
+  line `बनाए गए िनयम िविश ᭬ ट तया यह सुिन ि ᭫ चत कर ᱶ गे ᳰ क जो ᭪ यि ᭍ त संघ के काय ᭅ कलाप के संबंध म ᱶ सेवा कर रहे ह ᱹ और जो या तो िह ᭠ दी`
+  line `म ᱶ या अं ᮕ े जी भाषा म ᱶ ᮧ वीण ह ᱹ वे ᮧ भावी ᱨ प से अपना काम कर सक ᱶ और यह भी ᳰ क केवल इस आधार पर ᳰ क वे दोन ᲂ ही भाषा Ა म ᱶ`
+  line `ᮧ वीण नह ᱭ ह ᱹ उनका कोई अिहत नह ᱭ होता है।`
+  line `(5) उपधारा (1) के खंड (क) के उपबंध और उपधारा (2), उपधारा (3) और उपधारा (4) के उपबंध तब तक ᮧ वृ ᱫ बने रह ᱶ गे`
+  line `जब तक उनम ᱶ व ᳶ णत ᮧ योजन ᲂ के िलए अं ᮕ े जी भाषा का ᮧ योग समा ᭡ त कर दे ने के िलए ऐसी सभी रा ᭔ य ᲂ के िवधान- मंडल ᲂ ᳇ ारा,`
+  line `िज ᭠ ह ᲂ ने िह ᭠ दी को अपनी राजभाषा के ᱨ प म ᱶ नह ᱭ अपनाया है, संक ᭨ प पा ᳯ रत नह ᱭ कर ᳰ दए जाते और जब तक पूव ᲃ᭍ त संक ᭨ प ᲂ पर`
+  line `िवचार कर लेने के प ᭫ चात् ऐसी समाि ᭡ त के िलए संसद् के हर एक सदन ᳇ ारा संक ᭨ प पा ᳯ रत नह ᱭ कर ᳰ दया जाता। ]`
+  line `4. राजभाषा के संबंध म ᱶ सिमित —(1) िजस तारीख को धारा 3 ᮧ वृ ᱫ होती है उससे दस वष ᭅ क ᳱ समाि ᭡ त के प ᭫ चा त्,`
+  line `राजभाषा के संबंध म ᱶ एक सिमित, इस िवषय का संक ᭨ प संसद् के ᳰ कसी भी सदन म ᱶ रा ᭬ ᮝ पित क ᳱ पूव ᭅ मंजूरी से ᮧ᭭ तािवत और दोन ᲂ`
+  line `सदन ᲂ ᳇ ारा पा ᳯ रत ᳰ कए जाने पर ग ᳯ ठत क ᳱ जाएगी।`
+  line `(2) इस सिमित म ᱶ तीस सद ᭭ य ह ᲂ गे िजनम ᱶ से बीस लोक सभा के सद ᭭ य ह ᲂ गे तथा दस रा ᭔ य सभा के सद ᭭ य ह ᲂ गे, जो ᮓ मश:`
+  line `लोक सभा के सदस् य ᲂ तथा रा ᭔ य सभा के सद ᭭ य ᲂ ᳇ ारा आनुपाितक ᮧ ितिनिध ᭜ व प ᳍ ित के अनुसार एकल सं ᮓ मणीय मत ᳇ ारा`
+  line `िनवा ᭅ िचत ह ᲂ गे।`
+  line `(3) इस सिमित का कत ᭅ ᭪ य होगा ᳰ क वह संघ के राजक ᳱ य ᮧ योजन ᲂ के िलए िह ᭠ दी के ᮧ योग म ᱶ क ᳱ गई ᮧ गित का पुन ᳶ वलोकन`
+  line `करे और उस पर िसफा ᳯ रश ᱶ करते ᱟ ए रा ᭬ ᮝ पित को ᮧ ितवेदन करे और रा ᭬ ᮝ पित उस ᮧ ितवेदन को संसद् के हर एक सदन के सम ᭃ`
+  line `रखवाएगा और सभी रा ᭔ य सरकार ᲂ को िभजवाएगा।`
+  line `(4) रा ᭬ ᮝ पित उपधारा (3) म ᱶ िन ᳸ द ᭬ ट ᮧ ितवेदन पर और उस पर रा ᭔ य सरकार ᲂ ने य ᳰ द कोई मत अिभ ᭪ य ᭍ त ᳰ कए ह ᲂ तो उन`
+  line `पर िवचार करने के प ᭫ चात् उस सम ᭭ त ᮧ ितवदेन के या उसके ᳰ कसी भाग के अनुसार िनदेश िनकाल सकेगा:`
+  line `1 [ पर ᭠ तु इस ᮧ कार िनकाले गए िनदेश धारा 3 के उपबंध ᲂ से असंगत नह ᱭ ह ᲂ गे। ]`
+  line `5. के ᭠ ᮤ ीय अिधिनयम ᲂ आ ᳰ द का ᮧ ािधकृत िह ᭠ दी अनुवाद —(1) िनयत ᳰ दन को और उसके प ᭫ चात् शासक ᳱ य राजप ᮢ म ᱶ`
+  line `रा ᭬ ᮝ पित के ᮧ ािधकार से ᮧ कािशत —`
+  line `(क) ᳰ कसी के ᭠ ᮤ ीय अिधिनयम का या रा ᭬ ᮝ पित ᳇ ारा ᮧ᭎ यािपत ᳰ कसी अ ᭟ या देश का, अथवा`
+  line `(ख) संिवधान के अधीन या ᳰ कसी के ᭠ ᮤ ीय अिधिनयम के अधीन िनकाले गए ᳰ कसी आदेश, िनयम, िविनयम या`
+  line `उपिविध का,`
+  line `1 1968 के अिधिनयम सं ० 1 क ᳱ धारा 3 ᳇ ारा अंत: ᭭ था िपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-िह ᭠ दी म ᱶ अनुवाद उसका िह ᭠ दी म ᱶ ᮧ ािधकृत पाठ समझा जाएगा।
-(2) िनयत ᳰ दन से ही उन सब िवधेयक ᲂ के, जो संसद् के ᳰ कसी भी सदन म ᱶ पुर: ᭭ थािपत ᳰ कए जाने ह ᲂ और उन सब संशोधन ᲂ
-के, जो उनके संबंध म ᱶ संसद् के ᳰ कसी भी सदन म ᱶ ᮧ᭭ तािवत ᳰ कए जाने ह ᲂ, अं ᮕ े जी भाषा के ᮧ ािधकृत पाठ के साथ - साथ उनका िह ᭠ दी म ᱶ
-अनुवाद भी होगा जो ऐसी रीित से ᮧ ािधकृत ᳰ कया जाएगा, जो इस अिधिनयम के अधीन बनाए गए िनयम ᲂ ᳇ ारा िविहत क ᳱ जाए।
-6. कितपय दशा Ა म ᱶ रा ᭔ य अिधिनयम ᲂ का ᮧ ािधकृत िह ᭠ दी अनुवाद — जहां ᳰ कसी रा ᭔ य के िवधान- मंडल ने उस रा ᭔ य के
-िवधान- मंडल ᳇ ारा पा ᳯ रत अिधिनयम ᲂ म ᱶ अथवा उस रा ᭔ य के रा ᭔ यपाल ᳇ ारा ᮧ᭎ यािपत अ ᭟ यादेश ᲂ म ᱶ ᮧ योग के िलए िह ᭠ दी से िभ ᭠ न
-कोई भाषा िविहत क ᳱ है वहां, संिवधान के अनु ᭒ छे द 348 के खंड (3) ᳇ ारा अपेि ᭃ त अं ᮕ े जी भाषा म ᱶ उसके अनुवाद के अित ᳯ र ᭍ त, उसका
-िह ᭠ दी म ᱶ अनुवाद उस रा ᭔ य के शासक ᳱ य राजप ᮢ म ᱶ, उस रा ᭔ य के रा ᭔ यपाल के ᮧ ािधकार से, िनयत ᳰ दन को या उसके प ᭫ चात् ᮧ कािशत
-ᳰ कया जा सकेगा और ऐसी दशा म ᱶ ऐसे ᳰ कसी अिधिनयम या अ ᭟ यादेश का िह ᭠ दी म ᱶ अनुवाद िह ᭠ दी भाषा म ᱶ उसका ᮧ ािधकृत पाठ
-समझा जाएगा।
-7. उ ᭒ च ᭠ यायालय के िनण ᭅ य ᲂ आ ᳰ द म ᱶ िह ᭠ दी या अ ᭠ य राजभाषा का वैकि ᭨ पक ᮧ योग — िनयत ᳰ दन से ही या त ᭜ प ᭫ चात् ᳰ कसी
-भी ᳰ दन से ᳰ कसी रा ᭔ य का रा ᭔ य पाल, रा ᭬ ᮝ पित क ᳱ पूव ᭅ स ᭥ म ित से, अं ᮕ े जी भाषा के अित ᳯ र ᭍ त िह ᭠ दी या उस रा ᭔ य क ᳱ राजभाषा का
-ᮧ योग, उस रा ᭔ य के उ ᭒ च ᭠ यायालय ᳇ ारा पा ᳯ रत या ᳰ दए गए ᳰ कसी िनण ᭅ य, िड ᮓᳱ या आदेश के ᮧ योजन ᲂ के िलए ᮧ ािधकृत कर सकेगा
-और जहां कोई िनण ᭅ य, िड ᮓᳱ या आदेश (अं ᮕ े जी भाषा से िभ ᭠ न) ऐसी ᳰ कसी भाषा म ᱶ पा ᳯ रत ᳰ कया या ᳰ दया जाता है वहां उसके साथ-
-साथ उ ᭒ च ᭠ यायालय के ᮧ ािधकार से िनकाला गया अं ᮕ े जी भाषा म ᱶ उसका अनुवाद भी होगा।
-8. िनयम बनाने क ᳱ शि ᭍ त —(1) के ᭠ ᮤ ीय सरकार इस अिधिनयम के ᮧ योजन ᲂ को काया ᭅ ि ᭠ व त करने के िलए िनयम, शासक ᳱ य
-राजप ᮢ म ᱶ अिधसूचना ᳇ ा रा, बना सकेगी।
-1 [(2) इस धारा के अधीन बनाया गया ᮧ᭜ ये क िनयम, बनाए जाने के प ᭫ चात् यथाशी ᮖ संसद् के ᮧ᭜ ये क सदन के सम ᭃ, जब वह
-स ᮢ म ᱶ हो, कुल तीस ᳰ दन क ᳱ अविध के िलए रखा जाएगा। यह अविध एक स ᮢ म ᱶ, अथवा दो या अिधक आनु ᮓ िमक स ᮢ ᲂ म ᱶ पूरी हो
-सके गी। य ᳰ द उस स ᮢ के या पूव ᲃ᭍ त आनु ᮓ िमक स ᮢ ᲂ के ठीक बाद के स ᮢ के अवसान के पूव ᭅ दोन ᲂ सदन उस िनयम म ᱶ कोई प ᳯ रवत ᭅ न
-करने के िलए सहमत हो जाएं तो त ᭜ प ᭫ चात् वह ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही ᮧ भावी होगा। य ᳰ द उ ᭍ त अवसान के पूव ᭅ दोन ᲂ सदन सहमत
-हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो त ᭜ प ᭫ चात् यह िन ᭬ ᮧ भाव हो जाएगा। ᳴ कतु िनयम के ऐसे प ᳯ रव ᳶ तत या िन ᭬ ᮧ भाव
-होने से उसके अधीन पहले क ᳱ गई ᳰ कसी बात क ᳱ िविधमा ᭠ यता पर ᮧ ितकूल ᮧ भाव नह ᱭ पडे़गा। ]
-9. कितपय उपबंध ᲂ का ज ᭥ मू - क ᭫ मीर रा ᭔ य को लागू न होना — ज ᭥ मू - क ᭫ मी र पुन ᭅ गठन ( के ᭠ ᮤ ीय िविधय ᲂ का अनुकूलन ) आदेश,
-2020 [ अिधसूचना सं ०का०आ० 1123( अ ), तारीख 18-3-2020] तथा ल ᳎ ा ख पुन ᭅ गठन ( के ᭠ ᮤ ीय िविधय ᲂ का अनुकूलन )
-आदेश, 2020 [ अिधसूचना सं ०का०आ० 3774( अ ) तारीख 23-10-2020] ᳇ ारा लोप ᳰ क या गया।
-______
-1 1986 के अिधिनयम सं ० 4 क ᳱ धारा 2 और अनुसूची ᳇ ारा (15-5-1986 से ) उपधारा (2) के ᭭ थान पर ᮧ ित ᭭ था िपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `िह ᭠ दी म ᱶ अनुवाद उसका िह ᭠ दी म ᱶ ᮧ ािधकृत पाठ समझा जाएगा।`
+  line `(2) िनयत ᳰ दन से ही उन सब िवधेयक ᲂ के, जो संसद् के ᳰ कसी भी सदन म ᱶ पुर: ᭭ थािपत ᳰ कए जाने ह ᲂ और उन सब संशोधन ᲂ`
+  line `के, जो उनके संबंध म ᱶ संसद् के ᳰ कसी भी सदन म ᱶ ᮧ᭭ तािवत ᳰ कए जाने ह ᲂ, अं ᮕ े जी भाषा के ᮧ ािधकृत पाठ के साथ - साथ उनका िह ᭠ दी म ᱶ`
+  line `अनुवाद भी होगा जो ऐसी रीित से ᮧ ािधकृत ᳰ कया जाएगा, जो इस अिधिनयम के अधीन बनाए गए िनयम ᲂ ᳇ ारा िविहत क ᳱ जाए।`
+  line `6. कितपय दशा Ა म ᱶ रा ᭔ य अिधिनयम ᲂ का ᮧ ािधकृत िह ᭠ दी अनुवाद — जहां ᳰ कसी रा ᭔ य के िवधान- मंडल ने उस रा ᭔ य के`
+  line `िवधान- मंडल ᳇ ारा पा ᳯ रत अिधिनयम ᲂ म ᱶ अथवा उस रा ᭔ य के रा ᭔ यपाल ᳇ ारा ᮧ᭎ यािपत अ ᭟ यादेश ᲂ म ᱶ ᮧ योग के िलए िह ᭠ दी से िभ ᭠ न`
+  line `कोई भाषा िविहत क ᳱ है वहां, संिवधान के अनु ᭒ छे द 348 के खंड (3) ᳇ ारा अपेि ᭃ त अं ᮕ े जी भाषा म ᱶ उसके अनुवाद के अित ᳯ र ᭍ त, उसका`
+  line `िह ᭠ दी म ᱶ अनुवाद उस रा ᭔ य के शासक ᳱ य राजप ᮢ म ᱶ, उस रा ᭔ य के रा ᭔ यपाल के ᮧ ािधकार से, िनयत ᳰ दन को या उसके प ᭫ चात् ᮧ कािशत`
+  line `ᳰ कया जा सकेगा और ऐसी दशा म ᱶ ऐसे ᳰ कसी अिधिनयम या अ ᭟ यादेश का िह ᭠ दी म ᱶ अनुवाद िह ᭠ दी भाषा म ᱶ उसका ᮧ ािधकृत पाठ`
+  line `समझा जाएगा।`
+  line `7. उ ᭒ च ᭠ यायालय के िनण ᭅ य ᲂ आ ᳰ द म ᱶ िह ᭠ दी या अ ᭠ य राजभाषा का वैकि ᭨ पक ᮧ योग — िनयत ᳰ दन से ही या त ᭜ प ᭫ चात् ᳰ कसी`
+  line `भी ᳰ दन से ᳰ कसी रा ᭔ य का रा ᭔ य पाल, रा ᭬ ᮝ पित क ᳱ पूव ᭅ स ᭥ म ित से, अं ᮕ े जी भाषा के अित ᳯ र ᭍ त िह ᭠ दी या उस रा ᭔ य क ᳱ राजभाषा का`
+  line `ᮧ योग, उस रा ᭔ य के उ ᭒ च ᭠ यायालय ᳇ ारा पा ᳯ रत या ᳰ दए गए ᳰ कसी िनण ᭅ य, िड ᮓᳱ या आदेश के ᮧ योजन ᲂ के िलए ᮧ ािधकृत कर सकेगा`
+  line `और जहां कोई िनण ᭅ य, िड ᮓᳱ या आदेश (अं ᮕ े जी भाषा से िभ ᭠ न) ऐसी ᳰ कसी भाषा म ᱶ पा ᳯ रत ᳰ कया या ᳰ दया जाता है वहां उसके साथ-`
+  line `साथ उ ᭒ च ᭠ यायालय के ᮧ ािधकार से िनकाला गया अं ᮕ े जी भाषा म ᱶ उसका अनुवाद भी होगा।`
+  line `8. िनयम बनाने क ᳱ शि ᭍ त —(1) के ᭠ ᮤ ीय सरकार इस अिधिनयम के ᮧ योजन ᲂ को काया ᭅ ि ᭠ व त करने के िलए िनयम, शासक ᳱ य`
+  line `राजप ᮢ म ᱶ अिधसूचना ᳇ ा रा, बना सकेगी।`
+  line `1 [(2) इस धारा के अधीन बनाया गया ᮧ᭜ ये क िनयम, बनाए जाने के प ᭫ चात् यथाशी ᮖ संसद् के ᮧ᭜ ये क सदन के सम ᭃ, जब वह`
+  line `स ᮢ म ᱶ हो, कुल तीस ᳰ दन क ᳱ अविध के िलए रखा जाएगा। यह अविध एक स ᮢ म ᱶ, अथवा दो या अिधक आनु ᮓ िमक स ᮢ ᲂ म ᱶ पूरी हो`
+  line `सके गी। य ᳰ द उस स ᮢ के या पूव ᲃ᭍ त आनु ᮓ िमक स ᮢ ᲂ के ठीक बाद के स ᮢ के अवसान के पूव ᭅ दोन ᲂ सदन उस िनयम म ᱶ कोई प ᳯ रवत ᭅ न`
+  line `करने के िलए सहमत हो जाएं तो त ᭜ प ᭫ चात् वह ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही ᮧ भावी होगा। य ᳰ द उ ᭍ त अवसान के पूव ᭅ दोन ᲂ सदन सहमत`
+  line `हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो त ᭜ प ᭫ चात् यह िन ᭬ ᮧ भाव हो जाएगा। ᳴ कतु िनयम के ऐसे प ᳯ रव ᳶ तत या िन ᭬ ᮧ भाव`
+  line `होने से उसके अधीन पहले क ᳱ गई ᳰ कसी बात क ᳱ िविधमा ᭠ यता पर ᮧ ितकूल ᮧ भाव नह ᱭ पडे़गा। ]`
+  line `9. कितपय उपबंध ᲂ का ज ᭥ मू - क ᭫ मीर रा ᭔ य को लागू न होना — ज ᭥ मू - क ᭫ मी र पुन ᭅ गठन ( के ᭠ ᮤ ीय िविधय ᲂ का अनुकूलन ) आदेश,`
+  line `2020 [ अिधसूचना सं ०का०आ० 1123( अ ), तारीख 18-3-2020] तथा ल ᳎ ा ख पुन ᭅ गठन ( के ᭠ ᮤ ीय िविधय ᲂ का अनुकूलन )`
+  line `आदेश, 2020 [ अिधसूचना सं ०का०आ० 3774( अ ) तारीख 23-10-2020] ᳇ ारा लोप ᳰ क या गया।`
+  line ______
+  line `1 1986 के अिधिनयम सं ० 4 क ᳱ धारा 2 और अनुसूची ᳇ ारा (15-5-1986 से ) उपधारा (2) के ᭭ थान पर ᮧ ित ᭭ था िपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

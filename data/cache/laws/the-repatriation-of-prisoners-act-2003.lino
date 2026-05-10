@@ -1,72 +1,64 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:47:53.167Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2011`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 16)
-  (str totalSections) (int 16)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:47:53.167Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2011`
+  completeFetch true
+  maxSections null
+  sectionCount 16
+  totalSections 16
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-repatriation-of-prisoners-act-2003)
-  (str handle) (str 2011)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Repatriation of Prisoners Act, 2003`)
-  (str actNumber) (str 49)
-  (str enactmentDate) (str 2003-09-28)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2011`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `बंदी संप्रत्‍यावर्तन अधिनियम, 2003`)
-  (str actYear) (str 2003)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Home`)
-  (str longTitle) (str `An Act to provide for the transfer of certain prisoners from India to country or place outside India and reception in India of certain prisoners from country or place outside India.`)
-  (str enforcementDate) (str 01-01-2004)
-  (str notification) (str `1st January, 2004, vide notification No. S.O. 1464(E), dated 24th December, 2003, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`)
-  (str fetchedAt) (str `2026-05-08T21:50:38.599Z`)
-  (str translations) obj_root_law_translations
+  slug the-repatriation-of-prisoners-act-2003
+  handle (2011)
+  collectionHandle 123456789/1362
+  title `The Repatriation of Prisoners Act, 2003`
+  actNumber (49)
+  enactmentDate 2003-09-28
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2011`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `बंदी संप्रत्‍यावर्तन अधिनियम, 2003`
+  actYear (2003)
+  ministry `Ministry of Home Affairs`
+  department `Department of Home`
+  longTitle `An Act to provide for the transfer of certain prisoners from India to country or place outside India and reception in India of certain prisoners from country or place outside India.`
+  enforcementDate 01-01-2004
+  notification `1st January, 2004, vide notification No. S.O. 1464(E), dated 24th December, 2003, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`
+  fetchedAt `2026-05-08T21:50:38.599Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_repatriation_of_prisoners_act_2003
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2011`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2011`
 obj_root_law_sources_en_the_repatriation_of_prisoners_act_2003:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2011/1/A2003-49.pdf`)
-  (str title) (str `The Repatriation of Prisoners Act, 2003`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2011/1/A2003-49.pdf`
+  title `The Repatriation of Prisoners Act, 2003`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00018_200349_1517807324830/rulesindividualfile/&file=Repatriation+of+Prisoners+Rule%2C+2004.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00018_200349_1517807324830/rulesindividualfile/&file=Repatriation+of+Prisoners+Rule%2C+2004.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_2003
 obj_root_law_sources_hi_2003:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2011/3/H2003-49.pdf`)
-  (str title) (str `बंदी संप्रत्‍यावर्तन अधिनियम, 2003`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2011/3/H2003-49.pdf`
+  title `बंदी संप्रत्‍यावर्तन अधिनियम, 2003`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -84,614 +76,713 @@ obj_root_law_sections:
   obj_root_law_sections_15
   obj_root_law_sections_16
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 6802)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Repatriation of Prisoners Act,
-2003.
-
-(2) It shall come into force on such date^1 as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1 1st January, 2004, vide notification No. S.O. 1464(E), dated 24th December, 2003, see Gazette of India, Extraordinary, Part II,
-sec. 3(ii).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6802&sectionno=1&orderno=1&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6802)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6802&sectionno=1&orderno=1&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Repatriation of Prisoners Act,`
+  line 2003.
+  line
+  line `(2) It shall come into force on such date^1 as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1 1st January, 2004, vide notification No. S.O. 1464(E), dated 24th December, 2003, see Gazette of India, Extraordinary, Part II,`
+  line `sec. 3(ii).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 6803)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "contracting State" means a Government of any country or place outside India in respect of
-which arrangement has been made by the Central Government with the Government of such country
-or place through a treaty or otherwise for transfer of prisoners from India to such country or place and
-vice versa and includes any other Government of such country or place specified by the Central
-Government, by notification in the Official Gazette, under sub-section (1) of section 3;
-
-(b) "prescribed" means prescribed by rules made under this Act;
-
-(c) "prisoner" means a person undergoing a sentence of imprisonment under an order passed by a
-criminal court including the courts established under the law for the time being in force in contracting
-States;
-
-(d) "warrant" means a warrant issued under sub-section (1) of section 7 or sub-section (2) of
-section 12, as the case may be;
-
-(e) words and expressions used herein and not defined but defined in the Code of Criminal
-Procedure, 1973 (2 of 1974) have the meanings respectively assigned to them in that Code.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6803&sectionno=2&orderno=2&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6803)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6803&sectionno=2&orderno=2&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "contracting State" means a Government of any country or place outside India in respect of`
+  line `which arrangement has been made by the Central Government with the Government of such country`
+  line `or place through a treaty or otherwise for transfer of prisoners from India to such country or place and`
+  line `vice versa and includes any other Government of such country or place specified by the Central`
+  line `Government, by notification in the Official Gazette, under sub-section (1) of section 3;`
+  line
+  line `(b) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(c) "prisoner" means a person undergoing a sentence of imprisonment under an order passed by a`
+  line `criminal court including the courts established under the law for the time being in force in contracting`
+  line States;
+  line
+  line `(d) "warrant" means a warrant issued under sub-section (1) of section 7 or sub-section (2) of`
+  line `section 12, as the case may be;`
+  line
+  line `(e) words and expressions used herein and not defined but defined in the Code of Criminal`
+  line `Procedure, 1973 (2 of 1974) have the meanings respectively assigned to them in that Code.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 6804)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Application of Act.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-direct that the provisions of this Act shall apply to a country or place outside India as may be specified in
-the notification.
-
-(2) If the notification under sub-section (1) relates to a country or place outside India with which a
-treaty has been entered into by India for the transfer of prisoners between that country and India, then,
-such notification shall also set out the full text of the said treaty and shall in no case remain in force
-longer than the period of the said treaty.
-
-(3) If the Central Government is of the opinion that, with respect to a country or place outside India,
-provisions of this Act require to be modified to give effect to a treaty in relation to such country, it may,
-by notification in the Official Gazette, direct that the application of this Act to such country shall be
-subject to such conditions, exceptions and modifications specified in the notification.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6804&sectionno=3&orderno=3&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6804)
+  sectionNo (3)
+  orderNo 3
+  title `Application of Act.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6804&sectionno=3&orderno=3&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `direct that the provisions of this Act shall apply to a country or place outside India as may be specified in`
+  line `the notification.`
+  line
+  line `(2) If the notification under sub-section (1) relates to a country or place outside India with which a`
+  line `treaty has been entered into by India for the transfer of prisoners between that country and India, then,`
+  line `such notification shall also set out the full text of the said treaty and shall in no case remain in force`
+  line `longer than the period of the said treaty.`
+  line
+  line `(3) If the Central Government is of the opinion that, with respect to a country or place outside India,`
+  line `provisions of this Act require to be modified to give effect to a treaty in relation to such country, it may,`
+  line `by notification in the Official Gazette, direct that the application of this Act to such country shall be`
+  line `subject to such conditions, exceptions and modifications specified in the notification.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 6805)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Application for transfer by a prisoner.`)
-  (str content) (str `Any prisoner who is a citizen of a contracting State may
-make an application to the Central Government for transfer of his custody from India to that contracting
-State:
-
-Provided that if a prisoner is not able to make an application himself because of his ill health, mental
-condition, old age or being a minor, then, the application may be made by any other person entitled to act
-on his behalf.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6805&sectionno=4&orderno=4&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6805)
+  sectionNo (4)
+  orderNo 4
+  title `Application for transfer by a prisoner.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6805&sectionno=4&orderno=4&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_4_content:
+  string
+  line `Any prisoner who is a citizen of a contracting State may`
+  line `make an application to the Central Government for transfer of his custody from India to that contracting`
+  line `State:`
+  line
+  line `Provided that if a prisoner is not able to make an application himself because of his ill health, mental`
+  line `condition, old age or being a minor, then, the application may be made by any other person entitled to act`
+  line `on his behalf.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 6806)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Consideration of request by Central Government.`)
-  (str content) (str `(1) On receipt of the application under
-section 4, the Central Government shall direct the officer in charge of the prison, where the prisoner is
-confined, to furnish such information which in the opinion of that Government is relevant for the purpose
-of transfer.
-
-(2) On receipt of the information under sub-section (1), if the Central Government is satisfied that—
-
-(a) no inquiry, trial or any other proceeding is pending against the prisoner;
-
-(b) death penalty has not been awarded to the prisoner;
-
-(c) the prisoner has not been convicted for an offence under the ^1
-[military law]; and
-
-(d) transfer of custody of the prisoner to the contracting State shall not be prejudicial to the
-sovereignty, security or any other interest of India,
-it shall pass an order for forwarding the application of the prisoner to the contracting State.`)
-  (str footnotes) (str `1 Subs. by Act 6 of 2011, s. 2, for "martial law" (w.e.f. 1-4-2011).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6806&sectionno=5&orderno=5&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6806)
+  sectionNo (5)
+  orderNo 5
+  title `Consideration of request by Central Government.`
+  content obj_root_law_sections_5_content
+  footnotes `1 Subs. by Act 6 of 2011, s. 2, for "martial law" (w.e.f. 1-4-2011).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6806&sectionno=5&orderno=5&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_5_content:
+  string
+  line `(1) On receipt of the application under`
+  line `section 4, the Central Government shall direct the officer in charge of the prison, where the prisoner is`
+  line `confined, to furnish such information which in the opinion of that Government is relevant for the purpose`
+  line `of transfer.`
+  line
+  line `(2) On receipt of the information under sub-section (1), if the Central Government is satisfied that—`
+  line
+  line `(a) no inquiry, trial or any other proceeding is pending against the prisoner;`
+  line
+  line `(b) death penalty has not been awarded to the prisoner;`
+  line
+  line `(c) the prisoner has not been convicted for an offence under the ^1`
+  line `[military law]; and`
+  line
+  line `(d) transfer of custody of the prisoner to the contracting State shall not be prejudicial to the`
+  line `sovereignty, security or any other interest of India,`
+  line `it shall pass an order for forwarding the application of the prisoner to the contracting State.`
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 6807)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Comments of contracting State.`)
-  (str content) (str `(1) The application of the prisoner shall be forwarded by the
-Central Government through prescribed means to the Government of the contracting State to deal with
-such application along with the following information, namely:--
-
-(a) a copy of the judgment and a copy of the relevant provisions of the law under which the
-sentence has been passed against the prisoner;
-
-(b) the nature, duration and date of commencement of the sentence of the prisoner;
-
-(c) medical report or any other report regarding the antecedents and character of the prisoner,
-where it is relevant for the disposal of his application or for deciding the nature of his confinement;
-and
-
-(d) any other information which the Central Government may consider necessary.
-
-(2) Where any application of a prisoner forwarded by the Central Government has been accepted by
-the contracting State, the Central Government may seek from such contracting State, all or any of the
-following information or documents before taking decision to transfer the prisoner to the contracting
-State, namely:--
-
-(a) a statement or document indicating that the prisoner is a citizen of the contracting State;
-
-(b) a copy of the relevant law of the contracting State constituting the act or omission as the
-offence, on account of which the sentence has been passed in India, as if such act or omission was an
-offence under the law of that State;
-
-(c) a statement of the fact or any law or regulation relating to the duration and enforcement of the
-sentence of the prisoner in the contracting State upon his transfer;
-
-(d) the willingness of the contracting State to accept the transfer of the prisoner and an
-undertaking to administer the remaining part of the sentence of the prisoner;
-
-(e) an undertaking to comply with the conditions, if any, specified by the Central Government;
-and
-
-(f) any other information or document which the Central Government may consider necessary.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6807&sectionno=6&orderno=6&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6807)
+  sectionNo (6)
+  orderNo 6
+  title `Comments of contracting State.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6807&sectionno=6&orderno=6&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_6_content:
+  string
+  line `(1) The application of the prisoner shall be forwarded by the`
+  line `Central Government through prescribed means to the Government of the contracting State to deal with`
+  line `such application along with the following information, namely:--`
+  line
+  line `(a) a copy of the judgment and a copy of the relevant provisions of the law under which the`
+  line `sentence has been passed against the prisoner;`
+  line
+  line `(b) the nature, duration and date of commencement of the sentence of the prisoner;`
+  line
+  line `(c) medical report or any other report regarding the antecedents and character of the prisoner,`
+  line `where it is relevant for the disposal of his application or for deciding the nature of his confinement;`
+  line and
+  line
+  line `(d) any other information which the Central Government may consider necessary.`
+  line
+  line `(2) Where any application of a prisoner forwarded by the Central Government has been accepted by`
+  line `the contracting State, the Central Government may seek from such contracting State, all or any of the`
+  line `following information or documents before taking decision to transfer the prisoner to the contracting`
+  line `State, namely:--`
+  line
+  line `(a) a statement or document indicating that the prisoner is a citizen of the contracting State;`
+  line
+  line `(b) a copy of the relevant law of the contracting State constituting the act or omission as the`
+  line `offence, on account of which the sentence has been passed in India, as if such act or omission was an`
+  line `offence under the law of that State;`
+  line
+  line `(c) a statement of the fact or any law or regulation relating to the duration and enforcement of the`
+  line `sentence of the prisoner in the contracting State upon his transfer;`
+  line
+  line `(d) the willingness of the contracting State to accept the transfer of the prisoner and an`
+  line `undertaking to administer the remaining part of the sentence of the prisoner;`
+  line
+  line `(e) an undertaking to comply with the conditions, if any, specified by the Central Government;`
+  line and
+  line
+  line `(f) any other information or document which the Central Government may consider necessary.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 6808)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Consideration of request by Central Government.`)
-  (str content) (str `(1) If the Central Government, on receipt of
-a communication from the concerned contracting State,—
-
-(a) expressing its willingness to accept the transfer of the prisoner; and
-
-(b) undertaking to comply with the conditions specified in the warrant,
-
-is satisfied that the prisoner should be transferred to the said State, the Central Government may,
-notwithstanding anything contained in any other law for the time being in force, issue a warrant in
-accordance with the provisions of section 8 in such form as may be prescribed.
-
-(2) Where a warrant is issued under sub-section (1), the Central Government shall inform the
-contracting State accordingly and request that State to specify the person to whom and the place within
-India where custody of the prisoner shall be delivered.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6808&sectionno=7&orderno=7&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6808)
+  sectionNo (7)
+  orderNo 7
+  title `Consideration of request by Central Government.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6808&sectionno=7&orderno=7&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_7_content:
+  string
+  line `(1) If the Central Government, on receipt of`
+  line `a communication from the concerned contracting State,—`
+  line
+  line `(a) expressing its willingness to accept the transfer of the prisoner; and`
+  line
+  line `(b) undertaking to comply with the conditions specified in the warrant,`
+  line
+  line `is satisfied that the prisoner should be transferred to the said State, the Central Government may,`
+  line `notwithstanding anything contained in any other law for the time being in force, issue a warrant in`
+  line `accordance with the provisions of section 8 in such form as may be prescribed.`
+  line
+  line `(2) Where a warrant is issued under sub-section (1), the Central Government shall inform the`
+  line `contracting State accordingly and request that State to specify the person to whom and the place within`
+  line `India where custody of the prisoner shall be delivered.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 6809)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Provision to issue warrant for transfer.`)
-  (str content) (str `(1) The Central Government shall authorise an officer
-not below the rank of a Joint Secretary to a State Government, within the limits of whose jurisdiction the place of imprisonment of the prisoner is situated, to issue a warrant on behalf of the Central Government
-under sub-section (1) of section 7 directing the officer in charge of the prison therein to deliver the custody
-of the prisoner to the person authorised by the contracting State to which the prisoner is to be transferred,
-presenting such person a copy of the warrant together with all the records relating to the prisoner and the
-personal effects taken from the prisoner at the time of his admission in the prison.
-
-(2) Upon the presentation of a warrant referred to in sub-section (1), the officer in charge of the prison
-shall forthwith comply with the warrant and obtain thereon the signature of the person to whom delivery
-of the prisoner, records and the personal effects relating to the prisoner to be removed from the prison is
-given.
-
-(3) After delivery of the prisoner to the person authorised by the contracting State under sub-section
-(2), the officer in charge of the prison transferring the prisoner shall forward a copy of the warrant to the
-court which committed the prisoner to the prison, along with a statement that the prisoner has been
-delivered to the person authorised by the contracting State under sub-section (1).
-
-(4) The delivery of the prisoner in compliance of the warrant issued under sub-section (1) shall
-discharge the officer in charge of the prison from the responsibility of keeping the prisoner in his custody.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6809&sectionno=8&orderno=8&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6809)
+  sectionNo (8)
+  orderNo 8
+  title `Provision to issue warrant for transfer.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6809&sectionno=8&orderno=8&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_8_content:
+  string
+  line `(1) The Central Government shall authorise an officer`
+  line `not below the rank of a Joint Secretary to a State Government, within the limits of whose jurisdiction the place of imprisonment of the prisoner is situated, to issue a warrant on behalf of the Central Government`
+  line `under sub-section (1) of section 7 directing the officer in charge of the prison therein to deliver the custody`
+  line `of the prisoner to the person authorised by the contracting State to which the prisoner is to be transferred,`
+  line `presenting such person a copy of the warrant together with all the records relating to the prisoner and the`
+  line `personal effects taken from the prisoner at the time of his admission in the prison.`
+  line
+  line `(2) Upon the presentation of a warrant referred to in sub-section (1), the officer in charge of the prison`
+  line `shall forthwith comply with the warrant and obtain thereon the signature of the person to whom delivery`
+  line `of the prisoner, records and the personal effects relating to the prisoner to be removed from the prison is`
+  line given.
+  line
+  line `(3) After delivery of the prisoner to the person authorised by the contracting State under sub-section`
+  line `(2), the officer in charge of the prison transferring the prisoner shall forward a copy of the warrant to the`
+  line `court which committed the prisoner to the prison, along with a statement that the prisoner has been`
+  line `delivered to the person authorised by the contracting State under sub-section (1).`
+  line
+  line `(4) The delivery of the prisoner in compliance of the warrant issued under sub-section (1) shall`
+  line `discharge the officer in charge of the prison from the responsibility of keeping the prisoner in his custody.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 6810)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Operation of warrant and retaking prisoner.`)
-  (str content) (str `It shall be lawful for the person authorised by the
-contracting State to whom the custody of a prisoner is delivered under the provisions of sub-section (2) of
-section 8 to receive and hold in custody such prisoner and to convey him out of India and if the prisoner
-escapes from such custody within India, the prisoner may be arrested without warrant by any person who
-shall without undue delay deliver such prisoner to the officer in charge of the nearest police station and the
-prisoner so arrested shall be liable for committing an offence under section 224 of the Indian Penal Code
-(45 of 1860) and shall also be liable for such sentence of imprisonment in India which he would have to
-undergo if the delivery of custody of such prisoner had not been made under section 8.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6810&sectionno=9&orderno=9&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6810)
+  sectionNo (9)
+  orderNo 9
+  title `Operation of warrant and retaking prisoner.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6810&sectionno=9&orderno=9&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_9_content:
+  string
+  line `It shall be lawful for the person authorised by the`
+  line `contracting State to whom the custody of a prisoner is delivered under the provisions of sub-section (2) of`
+  line `section 8 to receive and hold in custody such prisoner and to convey him out of India and if the prisoner`
+  line `escapes from such custody within India, the prisoner may be arrested without warrant by any person who`
+  line `shall without undue delay deliver such prisoner to the officer in charge of the nearest police station and the`
+  line `prisoner so arrested shall be liable for committing an offence under section 224 of the Indian Penal Code`
+  line `(45 of 1860) and shall also be liable for such sentence of imprisonment in India which he would have to`
+  line `undergo if the delivery of custody of such prisoner had not been made under section 8.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 6811)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Transfer of record.`)
-  (str content) (str `Where a prisoner is or is to be transferred to a contracting State under the
-provisions of this Act, the Central Government may requisition the records of any proceeding, including
-judicial proceedings relating to that prisoner from any court or office, and may direct that such records
-shall be sent to the Government of the contracting State.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6811&sectionno=10&orderno=10&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6811)
+  sectionNo (10)
+  orderNo 10
+  title `Transfer of record.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6811&sectionno=10&orderno=10&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_10_content:
+  string
+  line `Where a prisoner is or is to be transferred to a contracting State under the`
+  line `provisions of this Act, the Central Government may requisition the records of any proceeding, including`
+  line `judicial proceedings relating to that prisoner from any court or office, and may direct that such records`
+  line `shall be sent to the Government of the contracting State.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 6812)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Power of court and Central Government shall not be affected.`)
-  (str content) (str `The transfer of a prisoner
-from India to a contracting State shall not affect the power of the court which passed the judgment to
-review its judgment and power of the Central Government or State Government to suspend, remit or
-commute the sentence in accordance with any law for the time being in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6812&sectionno=11&orderno=11&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6812)
+  sectionNo (11)
+  orderNo 11
+  title `Power of court and Central Government shall not be affected.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6812&sectionno=11&orderno=11&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_11_content:
+  string
+  line `The transfer of a prisoner`
+  line `from India to a contracting State shall not affect the power of the court which passed the judgment to`
+  line `review its judgment and power of the Central Government or State Government to suspend, remit or`
+  line `commute the sentence in accordance with any law for the time being in force.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 6813)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Transfer into India.`)
-  (str content) (str `(1) The Central Government may accept the transfer of a prisoner, who is
-a citizen of India, from a contracting State wherein he is undergoing any sentence of imprisonment
-subject to such terms and conditions as may be agreed to between India and that State.
-
-(2) If the Central Government accepts the request for a transfer under sub-section (1), then,
-notwithstanding anything contained in any other law for the time being in force, it may issue a warrant to
-detain the prisoner in prison in accordance with the provisions of section 13 in such form as may be
-prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6813&sectionno=12&orderno=12&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6813)
+  sectionNo (12)
+  orderNo 12
+  title `Transfer into India.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6813&sectionno=12&orderno=12&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_12_content:
+  string
+  line `(1) The Central Government may accept the transfer of a prisoner, who is`
+  line `a citizen of India, from a contracting State wherein he is undergoing any sentence of imprisonment`
+  line `subject to such terms and conditions as may be agreed to between India and that State.`
+  line
+  line `(2) If the Central Government accepts the request for a transfer under sub-section (1), then,`
+  line `notwithstanding anything contained in any other law for the time being in force, it may issue a warrant to`
+  line `detain the prisoner in prison in accordance with the provisions of section 13 in such form as may be`
+  line prescribed.
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 6814)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Determination of prison and issue of warrant for receiving transfer in India.`)
-  (str content) (str `(1) The
-Central Government shall, in consultation with a State Government, determine the prison situated within
-the jurisdiction of such State Government where the prisoner with respect to whom a warrant has been
-issued under sub-section (2) of section 12, shall be lodged and the officer who shall receive and hold him
-in custody.
-
-(2) The Central Government shall authorise any officer not below the rank of a Joint Secretary to that
-Government to issue a warrant under sub-section (2) of section 12 and to direct the officer referred to in
-sub-section (1) to receive and hold the prisoner, with respect to whom the warrant is issued, in custody.
-
-(3) It shall be lawful for the officer referred to in sub-section (1) to receive and hold in custody any
-prisoner delivered to him under the direction made in the warrant issued under sub-section (2) of
-section12 and to convey such prisoner to any prison determined under sub-section (1) for being dealt with
-in accordance with the said warrant and if the prisoner escapes from such custody, the prisoner may be
-arrested without warrant by any person who shall without undue delay deliver such prisoner to the officer in charge of the nearest police station and the prisoner so arrested shall be liable for committing an
-offence under section 224 of the Indian Penal Code (45 of 1860) and shall also be liable to be dealt with in
-accordance with the said warrant.
-
-(4) A warrant under sub-section (2) of section 12 shall provide for--
-
-(a) the bringing of the prisoner into India from a contracting State or a place outside India;
-
-(b) the taking of such prisoner in any part of India being a place at which effect may be given to
-the provisions contained in the warrant;
-
-(c) the nature and duration of imprisonment of the prisoner in accordance with the terms
-and conditions referred to in sub-section (1) of section 12 and the imprisonment of such prisoner in
-Indiain such manner as may be contained in the warrant; and
-
-(d) any other matter which may be prescribed.
-
-(5) Notwithstanding anything contained in any other law for the time being in force, the imprisonment
-of a prisoner in compliance with a warrant issued under sub-section (2) of section 12 shall be deemed to
-be imprisonment under a sentence of a court competent to pass such a sentence of imprisonment in India.
-
-(6) If the sentence of imprisonment passed against the prisoner in the contracting State is
-incompatible with the Indian law as to its nature, duration or both, the Central Government may, by order,
-adapt the sentence of such punishment as to the nature, duration or both, as the case may be, as is
-compatible to the sentence of imprisonment provided for a similar offence had that offence been
-committed in India:
-
-Provided that the sentence so adapted shall, as far as possible, correspond with the sentence imposed
-by the judgment of the contracting State to the prisoner and such adapted sentence shall not aggravate the
-punishment, by its nature, duration or both in relating to the sentence imposed in the contracting State.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6814&sectionno=13&orderno=13&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6814)
+  sectionNo (13)
+  orderNo 13
+  title `Determination of prison and issue of warrant for receiving transfer in India.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6814&sectionno=13&orderno=13&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_13_content:
+  string
+  line `(1) The`
+  line `Central Government shall, in consultation with a State Government, determine the prison situated within`
+  line `the jurisdiction of such State Government where the prisoner with respect to whom a warrant has been`
+  line `issued under sub-section (2) of section 12, shall be lodged and the officer who shall receive and hold him`
+  line `in custody.`
+  line
+  line `(2) The Central Government shall authorise any officer not below the rank of a Joint Secretary to that`
+  line `Government to issue a warrant under sub-section (2) of section 12 and to direct the officer referred to in`
+  line `sub-section (1) to receive and hold the prisoner, with respect to whom the warrant is issued, in custody.`
+  line
+  line `(3) It shall be lawful for the officer referred to in sub-section (1) to receive and hold in custody any`
+  line `prisoner delivered to him under the direction made in the warrant issued under sub-section (2) of`
+  line `section12 and to convey such prisoner to any prison determined under sub-section (1) for being dealt with`
+  line `in accordance with the said warrant and if the prisoner escapes from such custody, the prisoner may be`
+  line `arrested without warrant by any person who shall without undue delay deliver such prisoner to the officer in charge of the nearest police station and the prisoner so arrested shall be liable for committing an`
+  line `offence under section 224 of the Indian Penal Code (45 of 1860) and shall also be liable to be dealt with in`
+  line `accordance with the said warrant.`
+  line
+  line `(4) A warrant under sub-section (2) of section 12 shall provide for--`
+  line
+  line `(a) the bringing of the prisoner into India from a contracting State or a place outside India;`
+  line
+  line `(b) the taking of such prisoner in any part of India being a place at which effect may be given to`
+  line `the provisions contained in the warrant;`
+  line
+  line `(c) the nature and duration of imprisonment of the prisoner in accordance with the terms`
+  line `and conditions referred to in sub-section (1) of section 12 and the imprisonment of such prisoner in`
+  line `Indiain such manner as may be contained in the warrant; and`
+  line
+  line `(d) any other matter which may be prescribed.`
+  line
+  line `(5) Notwithstanding anything contained in any other law for the time being in force, the imprisonment`
+  line `of a prisoner in compliance with a warrant issued under sub-section (2) of section 12 shall be deemed to`
+  line `be imprisonment under a sentence of a court competent to pass such a sentence of imprisonment in India.`
+  line
+  line `(6) If the sentence of imprisonment passed against the prisoner in the contracting State is`
+  line `incompatible with the Indian law as to its nature, duration or both, the Central Government may, by order,`
+  line `adapt the sentence of such punishment as to the nature, duration or both, as the case may be, as is`
+  line `compatible to the sentence of imprisonment provided for a similar offence had that offence been`
+  line `committed in India:`
+  line
+  line `Provided that the sentence so adapted shall, as far as possible, correspond with the sentence imposed`
+  line `by the judgment of the contracting State to the prisoner and such adapted sentence shall not aggravate the`
+  line `punishment, by its nature, duration or both in relating to the sentence imposed in the contracting State.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 6815)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules for carrying out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:—
-
-(a) the means through which an application may be forwarded under sub-section (1) of section 6;
-
-(b) the form in which a warrant may be issued under sub-section (1) of section 7;
-
-(c) the form in which a warrant may be issued under sub-section (2) of section 12; and
-
-(d) any other matter which may be prescribed under clause (d) of sub-section (4) of section 13.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6815&sectionno=14&orderno=14&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6815)
+  sectionNo (14)
+  orderNo 14
+  title `Power to make rules.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6815&sectionno=14&orderno=14&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_14_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules for carrying out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:—`
+  line
+  line `(a) the means through which an application may be forwarded under sub-section (1) of section 6;`
+  line
+  line `(b) the form in which a warrant may be issued under sub-section (1) of section 7;`
+  line
+  line `(c) the form in which a warrant may be issued under sub-section (2) of section 12; and`
+  line
+  line `(d) any other matter which may be prescribed under clause (d) of sub-section (4) of section 13.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 6816)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Laying of rules, etc.`)
-  (str content) (str `Every notification issued under sub-sections (1) and (3) of section 3 and
-every rule made under section 14 shall be laid, as soon as may be after it is made, before each House of
-Parliament, while it is in session, for a total period of thirty days which may be comprised in one session
-or in two or more successive sessions, and if, before the expiry of the session immediately following the
-session or the successive sessions aforesaid, both Houses agree in making any modification in the
-notification or rule or both Houses agree that the notification or rule should not be made, the notification
-or rule shall thereafter have effect only in such modified form or be of no effect, as the case may be; so,
-however, that any such modification or annulment shall be without prejudice to the validity of anything
-previously done under that notification or rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6816&sectionno=15&orderno=15&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6816)
+  sectionNo (15)
+  orderNo 15
+  title `Laying of rules, etc.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6816&sectionno=15&orderno=15&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_15_content:
+  string
+  line `Every notification issued under sub-sections (1) and (3) of section 3 and`
+  line `every rule made under section 14 shall be laid, as soon as may be after it is made, before each House of`
+  line `Parliament, while it is in session, for a total period of thirty days which may be comprised in one session`
+  line `or in two or more successive sessions, and if, before the expiry of the session immediately following the`
+  line `session or the successive sessions aforesaid, both Houses agree in making any modification in the`
+  line `notification or rule or both Houses agree that the notification or rule should not be made, the notification`
+  line `or rule shall thereafter have effect only in such modified form or be of no effect, as the case may be; so,`
+  line `however, that any such modification or annulment shall be without prejudice to the validity of anything`
+  line `previously done under that notification or rule.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 6817)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Power to remove difficulties.`)
-  (str content) (str `(1) If any difficulty arises in giving effect to the provisions of
-this Act, the Central Government may, by order published in the Official Gazette, make such provisions
-not inconsistent with the provisions of this Act, as appear to it to be necessary for removing the difficulty:
-
-Provided that no such order shall be made after the expiry of a period of two years from the date of
-commencement of this Act.
-
-(2) Every order made under sub-section (1) shall be laid, as soon as may be after it is made, before
-each House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6817&sectionno=16&orderno=16&orgactid=AC_CEN_5_24_00018_200349_1517807324830)
+  sectionId (6817)
+  sectionNo (16)
+  orderNo 16
+  title `Power to remove difficulties.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00018_200349_1517807324830&sectionId=6817&sectionno=16&orderno=16&orgactid=AC_CEN_5_24_00018_200349_1517807324830
+obj_root_law_sections_16_content:
+  string
+  line `(1) If any difficulty arises in giving effect to the provisions of`
+  line `this Act, the Central Government may, by order published in the Official Gazette, make such provisions`
+  line `not inconsistent with the provisions of this Act, as appear to it to be necessary for removing the difficulty:`
+  line
+  line `Provided that no such order shall be made after the expiry of a period of two years from the date of`
+  line `commencement of this Act.`
+  line
+  line `(2) Every order made under sub-section (1) shall be laid, as soon as may be after it is made, before`
+  line `each House of Parliament.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `बंदी संप्रत्‍यावर्तन अधिनियम, 2003`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2011/3/H2003-49.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:47:52.067Z`)
-  (str pageCount) (int 5)
-  (str sections) obj_root_law_translations_hi_sections
+  title `बंदी संप्रत्‍यावर्तन अधिनियम, 2003`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2011/3/H2003-49.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:47:52.067Z`
+  pageCount 5
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
   obj_root_law_translations_hi_sections_4
   obj_root_law_translations_hi_sections_5
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `बंदी संप्रत्या वर्तन अधिधनयम, 2003
-_________
-िाराओं का क्र म
-_________
-ि ााराएं
-1. संधिप् र् नाम और प्र ारंभ।
-2. पररभाषाएं।
-3. अधिधनयम का लागू होना।
-4. बंदी द्व ारा स् था नांर्रण के धलए आवेदन।
-5. केन्‍दरी य सरकार द्व ारा अनुरोि पर धवचार ककया जाना।
-6. संधवदाका री राज्य की टीका - रटप् प णी।
-7. केन्‍दरी य सरकार द्व ारा अनुरोि पर धवचार ककया जाना।
-8. स् था नांर्रण के धलए वारंट जारी करने का उपबंि।
-9. वारंट का प्र वर्तन और बंदी को पुन: पकड़ना।
-10. अधभलेख का अंर्रण।
-11. न्‍द या यालय और केन्‍दरी य सरकार की शध र् का प्र भाधव र् न होना।
-12. भारर् में स् था नांर्रण।
-13. कारागार का अविारण और भारर् में स् था नांर्रण स् वी कार करने के धलए वारंट का जारी ककया जाना।
-14. धनयम बनाने की शध र्।
-15. धनयम बनाने की शध र्।
-16. करिनाइयों को दूर करने की शध र्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `बंदी संप्रत्या वर्तन अधिधनयम, 2003`
+  line _________
+  line `िाराओं का क्र म`
+  line _________
+  line `ि ााराएं`
+  line `1. संधिप् र् नाम और प्र ारंभ।`
+  line `2. पररभाषाएं।`
+  line `3. अधिधनयम का लागू होना।`
+  line `4. बंदी द्व ारा स् था नांर्रण के धलए आवेदन।`
+  line `5. केन्‍दरी य सरकार द्व ारा अनुरोि पर धवचार ककया जाना।`
+  line `6. संधवदाका री राज्य की टीका - रटप् प णी।`
+  line `7. केन्‍दरी य सरकार द्व ारा अनुरोि पर धवचार ककया जाना।`
+  line `8. स् था नांर्रण के धलए वारंट जारी करने का उपबंि।`
+  line `9. वारंट का प्र वर्तन और बंदी को पुन: पकड़ना।`
+  line `10. अधभलेख का अंर्रण।`
+  line `11. न्‍द या यालय और केन्‍दरी य सरकार की शध र् का प्र भाधव र् न होना।`
+  line `12. भारर् में स् था नांर्रण।`
+  line `13. कारागार का अविारण और भारर् में स् था नांर्रण स् वी कार करने के धलए वारंट का जारी ककया जाना।`
+  line `14. धनयम बनाने की शध र्।`
+  line `15. धनयम बनाने की शध र्।`
+  line `16. करिनाइयों को दूर करने की शध र्।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `बंदी संप्रत्या वर्तन अधिधनयम, 20 03
-(2003 का अधिधनयम संखयां क 49 )
-[28 धसर्ंबर, 2003 ]
-कधर्पय बंकदयों का भारर् से, भारर् के बाहर ककसी देश या स् था न को स्
-था नांर्रण और भारर् के बाहर ककसी देश या स् था न से कधर्पय
-बंकदयों को भारर् में रखने का उपबंि
-करने के धलए
-अधिधनयम
-भारर् गणराज्य के चौवनवें वषत में संसद् द्व ारा धनम्न धलधखर् रू प में यह अधिधनयधमर् हो: ––
-1. संधिप् र् नाम और प्र ारंभ –– (1) इस अधिधनयम का संधिप् र् नाम बंदी संप्रत्या वर्तन अधिधनयम, 2003 है।
-(2) यह उस र् ारीख को प्र वृत्त होगा जो केन्‍दरी य सरकार, राजपत्र में अधिसूचना द्व ारा, धनय र् करे।
-2. पररभाषाएं –– इस अधिधनयम में, जब र् क कक संदभत से अन्‍दय था अपेधिर् न हो, ––
-( क ) “ संधवदाकारी राज्य ” से भारर् से बाहर ऐसे ककसी देश या स् था न की सरकार अधभप्रेर् है, धजसके संबंि में
-केंरीय सरकार द्व ारा ऐसे देश या स् था न की सरकार के साथ ककसी संधि द्व ारा या अन्‍दय था भारर् से ऐसे देश या स् था न को और
-ऐसे देश या स् था न से भारर् को बंकदयों के स् था नांर्रण के धलए व् य वस्था की गई है र् था इसके अंर्गतर् ऐसे ककसी दे श या स् था न
-की, धजसे केंरीय सरकार द्व ारा राजपत्र में अधिसूचना द्व ारा, िारा 3 की उपिारा (1) के अिीन धवधनर्दतष्ट ककया गया हो, कोई
-अन्‍दय सरकार भी है;
-( ख ) “ धवधहर् ” से इस अधिधनयम के अिीन बनाए गए धनयमों द्व ारा धवधहर् अधभप्रेर् है;
-( ग ) “ बंदी ” से ऐसा व् य ध र् अधभप्रेर् है जो ककसी दां धिक न्‍द या यालय द्व ारा धजसके अंर्गतर् संधवदाकारी राज्य में र्त्
-स मय प्र वृत्त ककसी धवधि के अिी न स् था धपर् न्‍द या यालय भी है, पाररर् ककसी आदेश के अिीन कारावास का दंि भुगर्
-रहा है;
-( घ ) “ वारंट ” से, यथाधस्थ धर्, िारा 7 की उपिारा (1) या िारा 12 की उपिारा (2) के अिीन जारी ककया गया
-कोई वारंट अधभप्रेर् है;
-( ङ ) उन शब्दों और पदों के, जो इसमें प्र यु र् हैं और पररभाधषर् नहीं हैं ककन्‍द र्ु दंि प्र कक्रया संधहर्ा, 1973
-(1974 का 2) में पररभाधषर् हैं वही अथत होंगे जो उस संधहर्ा में हैं।
-3. अधिधनयम का लागू होना –– (1) केन्‍दरी य सरकार, राजपत्र में अधिसूचना द्व ारा, धनदेश दे सकेगी कक इस अधिधनयम के
-उपबंि भारर् से बाहर ककसी ऐसे देश या स् था न को लागू होंगे धजसे अधिसूचना में धवधनर्दतष्ट ककया जाए।
-(2) यकद उपिारा (1) के अिीन अधिसूचना, भारर् के बाहर ककसी ऐसे देश या स् था न के संबंि में है धजसके साथ भारर् द्व ारा
-उस देश और भारर् के बीच बंकदयों के स् था नांर्रण के धलए कोई संधि की गई है र् ो ऐसी अधिसूचना में उ र् संधि का संपूणत पाि भी
-कदया जाएगा और वह ककसी भी दशा में उ र् संधि की अवधि से दीघतर्र अवधि के धलए प्र वृत्त नहीं रहेगी।
-(3) यकद केन्‍दरी य सरकार की यह राय है कक भारर् के बाहर के ककसी देश या स् था न की बाबर् इस अधिधनयम के उ पबंिों को,
-ऐसे देश के संबंि में संधि को प्र भावी करने के धलए उपांर्ररर् ककया जाना अपेधिर् है र् ो वह, राजपत्र में अधिसूचना द्व ारा, धनदेश दे
-सकेगी कक इस अधिधनयम का उस देश को लागू होना, उ र् अधिसूचना में धवधनर्दतष्ट ऐसी शर्ों, अपवादों और उपांर्रणों के अिीन
-रहर्े हु ए होगा।
-4. बंदी द्व ारा स् था नांर्रण के धलए आवेदन –– कोई बंदी, जो ककसी संधवदाकारी राज्य का नागररक है, भारर् से उ र्
-संधवदाकारी राज्य को उसकी अधभरिा के अंर्रण के धलए केन्‍दरी य सरकार को आवेदन कर सकेगा:
-परन्‍द र्ु यकद कोई बंदी अपने खराब स् वा स् ् य, मानधस क दशा, वृद्धावस्था अथवा अवयस् क होने के कारण स् व यं आवेदन करने में
-समथत नहीं है र् ो यह आवेदन उसकी ओर से कायत करने के धलए हकदार ककसी अन्‍दय व् य ध र् द्व ारा ककया जा सकेगा।
-5. केन्‍दरी य सरकार द्व ारा अनुरोि पर धवचार ककया जाना –– (1) केंरीय सरकार, िारा 4 के अिीन आवेदन की प्र ाधप् र् पर, उस
-बंदीगृह के भारसािक अधिकारी को, जहां बंदी परररुद्ध है, ऐसी जानकारी देने के धलए धनदेश देगी जो उ र् सरकार की राय में स्
-था नांर्रण के प्र योजनाथत सुसंगर् है।
-(2) उपिारा (1) के अिीन जानकारी की प्र ाधप् र् पर, यकद केन्‍दरी य सरका र का समािान हो जार्ा है कक ––`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line `बंदी संप्रत्या वर्तन अधिधनयम, 20 03`
+  line `(2003 का अधिधनयम संखयां क 49 )`
+  line `[28 धसर्ंबर, 2003 ]`
+  line `कधर्पय बंकदयों का भारर् से, भारर् के बाहर ककसी देश या स् था न को स्`
+  line `था नांर्रण और भारर् के बाहर ककसी देश या स् था न से कधर्पय`
+  line `बंकदयों को भारर् में रखने का उपबंि`
+  line `करने के धलए`
+  line अधिधनयम
+  line `भारर् गणराज्य के चौवनवें वषत में संसद् द्व ारा धनम्न धलधखर् रू प में यह अधिधनयधमर् हो: ––`
+  line `1. संधिप् र् नाम और प्र ारंभ –– (1) इस अधिधनयम का संधिप् र् नाम बंदी संप्रत्या वर्तन अधिधनयम, 2003 है।`
+  line `(2) यह उस र् ारीख को प्र वृत्त होगा जो केन्‍दरी य सरकार, राजपत्र में अधिसूचना द्व ारा, धनय र् करे।`
+  line `2. पररभाषाएं –– इस अधिधनयम में, जब र् क कक संदभत से अन्‍दय था अपेधिर् न हो, ––`
+  line `( क ) “ संधवदाकारी राज्य ” से भारर् से बाहर ऐसे ककसी देश या स् था न की सरकार अधभप्रेर् है, धजसके संबंि में`
+  line `केंरीय सरकार द्व ारा ऐसे देश या स् था न की सरकार के साथ ककसी संधि द्व ारा या अन्‍दय था भारर् से ऐसे देश या स् था न को और`
+  line `ऐसे देश या स् था न से भारर् को बंकदयों के स् था नांर्रण के धलए व् य वस्था की गई है र् था इसके अंर्गतर् ऐसे ककसी दे श या स् था न`
+  line `की, धजसे केंरीय सरकार द्व ारा राजपत्र में अधिसूचना द्व ारा, िारा 3 की उपिारा (1) के अिीन धवधनर्दतष्ट ककया गया हो, कोई`
+  line `अन्‍दय सरकार भी है;`
+  line `( ख ) “ धवधहर् ” से इस अधिधनयम के अिीन बनाए गए धनयमों द्व ारा धवधहर् अधभप्रेर् है;`
+  line `( ग ) “ बंदी ” से ऐसा व् य ध र् अधभप्रेर् है जो ककसी दां धिक न्‍द या यालय द्व ारा धजसके अंर्गतर् संधवदाकारी राज्य में र्त्`
+  line `स मय प्र वृत्त ककसी धवधि के अिी न स् था धपर् न्‍द या यालय भी है, पाररर् ककसी आदेश के अिीन कारावास का दंि भुगर्`
+  line `रहा है;`
+  line `( घ ) “ वारंट ” से, यथाधस्थ धर्, िारा 7 की उपिारा (1) या िारा 12 की उपिारा (2) के अिीन जारी ककया गया`
+  line `कोई वारंट अधभप्रेर् है;`
+  line `( ङ ) उन शब्दों और पदों के, जो इसमें प्र यु र् हैं और पररभाधषर् नहीं हैं ककन्‍द र्ु दंि प्र कक्रया संधहर्ा, 1973`
+  line `(1974 का 2) में पररभाधषर् हैं वही अथत होंगे जो उस संधहर्ा में हैं।`
+  line `3. अधिधनयम का लागू होना –– (1) केन्‍दरी य सरकार, राजपत्र में अधिसूचना द्व ारा, धनदेश दे सकेगी कक इस अधिधनयम के`
+  line `उपबंि भारर् से बाहर ककसी ऐसे देश या स् था न को लागू होंगे धजसे अधिसूचना में धवधनर्दतष्ट ककया जाए।`
+  line `(2) यकद उपिारा (1) के अिीन अधिसूचना, भारर् के बाहर ककसी ऐसे देश या स् था न के संबंि में है धजसके साथ भारर् द्व ारा`
+  line `उस देश और भारर् के बीच बंकदयों के स् था नांर्रण के धलए कोई संधि की गई है र् ो ऐसी अधिसूचना में उ र् संधि का संपूणत पाि भी`
+  line `कदया जाएगा और वह ककसी भी दशा में उ र् संधि की अवधि से दीघतर्र अवधि के धलए प्र वृत्त नहीं रहेगी।`
+  line `(3) यकद केन्‍दरी य सरकार की यह राय है कक भारर् के बाहर के ककसी देश या स् था न की बाबर् इस अधिधनयम के उ पबंिों को,`
+  line `ऐसे देश के संबंि में संधि को प्र भावी करने के धलए उपांर्ररर् ककया जाना अपेधिर् है र् ो वह, राजपत्र में अधिसूचना द्व ारा, धनदेश दे`
+  line `सकेगी कक इस अधिधनयम का उस देश को लागू होना, उ र् अधिसूचना में धवधनर्दतष्ट ऐसी शर्ों, अपवादों और उपांर्रणों के अिीन`
+  line `रहर्े हु ए होगा।`
+  line `4. बंदी द्व ारा स् था नांर्रण के धलए आवेदन –– कोई बंदी, जो ककसी संधवदाकारी राज्य का नागररक है, भारर् से उ र्`
+  line `संधवदाकारी राज्य को उसकी अधभरिा के अंर्रण के धलए केन्‍दरी य सरकार को आवेदन कर सकेगा:`
+  line `परन्‍द र्ु यकद कोई बंदी अपने खराब स् वा स् ् य, मानधस क दशा, वृद्धावस्था अथवा अवयस् क होने के कारण स् व यं आवेदन करने में`
+  line `समथत नहीं है र् ो यह आवेदन उसकी ओर से कायत करने के धलए हकदार ककसी अन्‍दय व् य ध र् द्व ारा ककया जा सकेगा।`
+  line `5. केन्‍दरी य सरकार द्व ारा अनुरोि पर धवचार ककया जाना –– (1) केंरीय सरकार, िारा 4 के अिीन आवेदन की प्र ाधप् र् पर, उस`
+  line `बंदीगृह के भारसािक अधिकारी को, जहां बंदी परररुद्ध है, ऐसी जानकारी देने के धलए धनदेश देगी जो उ र् सरकार की राय में स्`
+  line `था नांर्रण के प्र योजनाथत सुसंगर् है।`
+  line `(2) उपिारा (1) के अिीन जानकारी की प्र ाधप् र् पर, यकद केन्‍दरी य सरका र का समािान हो जार्ा है कक ––`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `2
-( क ) बंदी के धवरुद्ध जांच, धवचारण या अन्‍दय कोई कायतवाही लंधबर् नहीं है;
-( ख ) बंदी को मृत्यु दंि नहीं कदया गया है;
-( ग ) बंदी को 1 [ सैधनक धवधि ] के अिीन ककसी अपराि के धलए धसद्धदोष नहीं िहराया गया है; और
-( घ ) संधवदाकारी राज्य को बंदी की अधभरिा का स् था नांर्रण, भारर् की प्र भुर्ा, सुरिा या ककसी अन्‍दय धहर् के प्र
-धर्कूल नहीं है, र्
-ब वह बंदी का आवेदन संधवदाकारी राज्य को अग्रेधषर् करने का आदेश पाररर् करे गी।
-6. संधवदाकारी राज्य की टीका - रटप्प णी –– (1) बंदी का आवेदन, केन्‍दरी य सरकार द्व ा रा धवधहर् सािनों के माध्य म से,
-संधवदाकारी राज्य की सरकार को ऐसे आवेदन के धनपटान के धलए अग्रेधषर् ककया जाएगा और उसके साथ धनम्न धलधखर् जानकारी
-होगी, अथातर््: ––
-( क ) धनणतय की प्र धर् और धवधि के सुसंगर् उपबंिों की प्र धर् धजनके अिीन बंदी के धवरुद्ध दंिादेश पाररर् कक या
-गया है;
-( ख ) बंदी के दंि की प्र कृधर्, अवधि और उसके प्र ारंभ की र् ारीख;
-( ग ) बंदी की धचककत्सा ररपोटत या उसके पूवतवृत्त और चररत्र से संबंधिर् कोई अन्‍दय ररपोटत, जहां यह उसके आवेदन के
-धनपटारे के धलए या उसके परररोि की प्र कृधर् को धवधनधच र् करने के धलए सुसं गर् है; और
-( घ ) कोई अन्‍दय जानकारी जो केन्‍दरी य सरकार आवय क समझे।
-(2) जहां केन्‍दरी य सरकार द्व ारा अग्रेधषर् ककसी बंदी का कोई आवेदन संधवदाकारी राज्य द्व ारा स् वी कार कर धलया गया है, वहां
-केन्‍दरी य सरकार, बंदी को संधवदाका री राज्य को स् था नांर्ररर् करने का धव धनच य करने से पूवत संधवदाकारी राज्य से, धनम्न धलधखर् सभी
-या कोई सूचना या दस् र्ा वेज मांग सकेगी, अथातर््: ––
-( क ) ऐसा धववरण या दस् र्ा वेज जो यह उपदर्शतर् करर्ा हो कक बंदी संधवदाकारी राज्य का नागररक है;
-( ख ) संधवदाकारी राज्य की सुसंगर् धवधि की एक प्र धर्, धजससे वह कायत या लोप अपराि के रू प में गरिर् हो,
-धजसके कारण भारर् में दंिादेश पाररर् ककया गया हो मानो ऐसा कायत या लोप उस राज्य की धवधि के अिीन कोई
-अपराि हो;
-( ग ) संधवदाकारी राज्य में बंदी के स् था नांर्रण पर उसके दंिादेश की अवधि और प्र वतर्न से संबं धिर् र्् य या ककसी
-धवधि या धवधनयम का धववरण;
-( घ ) बंदी के स् था नांर्रण को स् वी कार करने की संधवदाकारी राज्य की रजामंदी और बंदी के दंिादेश के शेष भाग को प्र
-शाधसर् करने का एक वचनबंि;
-( ङ ) केन्‍दरी य सरकार द्व ारा धवधनर्दतष्ट शर्ों, यकद कोई हों, का अनुपालन करने का वचनबंि; और
-( च ) कोई अन्‍दय सूचना या दस् र्ा वेज जो केन्‍दरी य सरकार आवय क समझे।
-7. केन्‍दरी य सरकार द्व ारा अनुरोि पर धवचार ककया जाना –– (1) यकद केन्‍दरी य सरकार का संबंधिर् संधवदाकारी राज्य से, ––
-( क ) बन्‍ददी के स् था नांर्रण को स् वी कार करने की उसकी र जामंदी व् य र् करने वाली; और
-( ख ) वारंट में धवधनर्दतष्ट शर्ों का पालन करने के धलए उसके वचनबंि की,
-सूचना प्र ाप् र् होने पर यह समािान हो जार्ा है कक बन्‍ददी को उस राज्य को स् था नांर्ररर् ककया जाना चाधहए र् ो केन्‍दरी य सरकार र्त् स मय प्र
-वृत्त ककसी अन्‍दय धवधि में ककसी बार् के होर्े हु ए भी, िारा 8 के उपबंिों के अनुसार ऐसे प्ररू प में जो धवधहर् कक या जाए वारंट जा री
-कर सकेगी।
-(2) जहां उपिारा (1) के अिीन, कोई वारंट जारी ककया जार्ा है वहां केन्‍दरी य सरकार संधवदाकारी राज्य को र्द् नुसार सूधचर्
-करेगी और उस राज्य से वह व् य ध र् धजसको और भारर् के भीर्र वह स् था न जहां बन्‍ददी को अधभरिा पररदत्त की जाएगी, धवधनर्दतष्ट
-करने का अनुरोि करेगी।
-8. स् था नांर्रण के धलए वारंट जारी करने का उपबंि –– (1) केन्‍दरी य सरकार उस राज्य सरकार के, धजसकी अधिकाररर्ा की
-पररसीमा के भीर्र बन्‍ददी के का रावास का स् था न अवधस्थ र् है, ककसी अधिकारी को जो संयु र् सधचव से नीचे की पंध र् का न हो िारा 7
-की उपिारा (1) के अिीन केन्‍दरी य सरकार की ओर से वारंट जारी करने की धलए प्र ाधिकृर् करेगी, धजसमें कारागार के भारसािक
-अधिकारी को यह धनदेश होगा कक वह बंदी की अधभरिा उस संधवदाकारी राज्य द्व ारा प्र ाधिकृर् व् य ध र् को, धजसको बंदी स् था नान्‍द र् ररर्
-1 2011 के अधिधनयम सं ० 6 की िारा 2 द्व ारा प्र धर्स्था धपर्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 2
+  line `( क ) बंदी के धवरुद्ध जांच, धवचारण या अन्‍दय कोई कायतवाही लंधबर् नहीं है;`
+  line `( ख ) बंदी को मृत्यु दंि नहीं कदया गया है;`
+  line `( ग ) बंदी को 1 [ सैधनक धवधि ] के अिीन ककसी अपराि के धलए धसद्धदोष नहीं िहराया गया है; और`
+  line `( घ ) संधवदाकारी राज्य को बंदी की अधभरिा का स् था नांर्रण, भारर् की प्र भुर्ा, सुरिा या ककसी अन्‍दय धहर् के प्र`
+  line `धर्कूल नहीं है, र्`
+  line `ब वह बंदी का आवेदन संधवदाकारी राज्य को अग्रेधषर् करने का आदेश पाररर् करे गी।`
+  line `6. संधवदाकारी राज्य की टीका - रटप्प णी –– (1) बंदी का आवेदन, केन्‍दरी य सरकार द्व ा रा धवधहर् सािनों के माध्य म से,`
+  line `संधवदाकारी राज्य की सरकार को ऐसे आवेदन के धनपटान के धलए अग्रेधषर् ककया जाएगा और उसके साथ धनम्न धलधखर् जानकारी`
+  line `होगी, अथातर््: ––`
+  line `( क ) धनणतय की प्र धर् और धवधि के सुसंगर् उपबंिों की प्र धर् धजनके अिीन बंदी के धवरुद्ध दंिादेश पाररर् कक या`
+  line `गया है;`
+  line `( ख ) बंदी के दंि की प्र कृधर्, अवधि और उसके प्र ारंभ की र् ारीख;`
+  line `( ग ) बंदी की धचककत्सा ररपोटत या उसके पूवतवृत्त और चररत्र से संबंधिर् कोई अन्‍दय ररपोटत, जहां यह उसके आवेदन के`
+  line `धनपटारे के धलए या उसके परररोि की प्र कृधर् को धवधनधच र् करने के धलए सुसं गर् है; और`
+  line `( घ ) कोई अन्‍दय जानकारी जो केन्‍दरी य सरकार आवय क समझे।`
+  line `(2) जहां केन्‍दरी य सरकार द्व ारा अग्रेधषर् ककसी बंदी का कोई आवेदन संधवदाकारी राज्य द्व ारा स् वी कार कर धलया गया है, वहां`
+  line `केन्‍दरी य सरकार, बंदी को संधवदाका री राज्य को स् था नांर्ररर् करने का धव धनच य करने से पूवत संधवदाकारी राज्य से, धनम्न धलधखर् सभी`
+  line `या कोई सूचना या दस् र्ा वेज मांग सकेगी, अथातर््: ––`
+  line `( क ) ऐसा धववरण या दस् र्ा वेज जो यह उपदर्शतर् करर्ा हो कक बंदी संधवदाकारी राज्य का नागररक है;`
+  line `( ख ) संधवदाकारी राज्य की सुसंगर् धवधि की एक प्र धर्, धजससे वह कायत या लोप अपराि के रू प में गरिर् हो,`
+  line `धजसके कारण भारर् में दंिादेश पाररर् ककया गया हो मानो ऐसा कायत या लोप उस राज्य की धवधि के अिीन कोई`
+  line `अपराि हो;`
+  line `( ग ) संधवदाकारी राज्य में बंदी के स् था नांर्रण पर उसके दंिादेश की अवधि और प्र वतर्न से संबं धिर् र्् य या ककसी`
+  line `धवधि या धवधनयम का धववरण;`
+  line `( घ ) बंदी के स् था नांर्रण को स् वी कार करने की संधवदाकारी राज्य की रजामंदी और बंदी के दंिादेश के शेष भाग को प्र`
+  line `शाधसर् करने का एक वचनबंि;`
+  line `( ङ ) केन्‍दरी य सरकार द्व ारा धवधनर्दतष्ट शर्ों, यकद कोई हों, का अनुपालन करने का वचनबंि; और`
+  line `( च ) कोई अन्‍दय सूचना या दस् र्ा वेज जो केन्‍दरी य सरकार आवय क समझे।`
+  line `7. केन्‍दरी य सरकार द्व ारा अनुरोि पर धवचार ककया जाना –– (1) यकद केन्‍दरी य सरकार का संबंधिर् संधवदाकारी राज्य से, ––`
+  line `( क ) बन्‍ददी के स् था नांर्रण को स् वी कार करने की उसकी र जामंदी व् य र् करने वाली; और`
+  line `( ख ) वारंट में धवधनर्दतष्ट शर्ों का पालन करने के धलए उसके वचनबंि की,`
+  line `सूचना प्र ाप् र् होने पर यह समािान हो जार्ा है कक बन्‍ददी को उस राज्य को स् था नांर्ररर् ककया जाना चाधहए र् ो केन्‍दरी य सरकार र्त् स मय प्र`
+  line `वृत्त ककसी अन्‍दय धवधि में ककसी बार् के होर्े हु ए भी, िारा 8 के उपबंिों के अनुसार ऐसे प्ररू प में जो धवधहर् कक या जाए वारंट जा री`
+  line `कर सकेगी।`
+  line `(2) जहां उपिारा (1) के अिीन, कोई वारंट जारी ककया जार्ा है वहां केन्‍दरी य सरकार संधवदाकारी राज्य को र्द् नुसार सूधचर्`
+  line `करेगी और उस राज्य से वह व् य ध र् धजसको और भारर् के भीर्र वह स् था न जहां बन्‍ददी को अधभरिा पररदत्त की जाएगी, धवधनर्दतष्ट`
+  line `करने का अनुरोि करेगी।`
+  line `8. स् था नांर्रण के धलए वारंट जारी करने का उपबंि –– (1) केन्‍दरी य सरकार उस राज्य सरकार के, धजसकी अधिकाररर्ा की`
+  line `पररसीमा के भीर्र बन्‍ददी के का रावास का स् था न अवधस्थ र् है, ककसी अधिकारी को जो संयु र् सधचव से नीचे की पंध र् का न हो िारा 7`
+  line `की उपिारा (1) के अिीन केन्‍दरी य सरकार की ओर से वारंट जारी करने की धलए प्र ाधिकृर् करेगी, धजसमें कारागार के भारसािक`
+  line `अधिकारी को यह धनदेश होगा कक वह बंदी की अधभरिा उस संधवदाकारी राज्य द्व ारा प्र ाधिकृर् व् य ध र् को, धजसको बंदी स् था नान्‍द र् ररर्`
+  line `1 2011 के अधिधनयम सं ० 6 की िारा 2 द्व ारा प्र धर्स्था धपर्।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `3
-ककया जाना है, ऐसे व् य ध र् को बंदी, से संबंधिर् सभी अधभलेख के साथ वारंट की एक प्र धर् और बन्‍ददी से, कारागार में उसके प्र वेश के
-समय ली गई व् य ध र् गर् चीजबस् र् प्रस् र्ु र् करर्े हु ए प ररदत्त कर दे।
-(2) उपिारा (1) में धनर्दतष्ट वारंट प्रस् र्ु र् ककए जाने पर, कारागार का भारसािक अधिकारी वारंट का र्ु रंर् अनुपालन करेगा
-और उस पर उस व् य ध र् के हस् र्ा िर प्र ाप् र् करेगा धजसको बंदी, अधभलेख और कारागार से हटाए जाने वाले बंदी से संबंधिर् व् य ध र् गर्
-चीजबस् र् का पररदान ककया जार्ा है।
-(3) उपिारा (2) के अिीन संधवदाकारी राज्य द्व ारा प्र ाधिकृर् व् य ध र् को बंदी के पररदान के प चा र््, बंदी का स् था नांर्रण
-करने वाला कारागार का भारसािक अधिकारी, उस न्‍द या यालय को धजसने कारागा र के बंदी को सुपुदत ककया है, इस कथन के साथ वारंट
-की एक प्र ाधप् र् अग्रेधषर् करेगा कक बंदी उपिारा (1) के अिीन संधवदाकारी राज्य द्व ारा प्र ाधिकृर् व् य ध र् को पररदत्त कर कदया गया है।
-(4) उपिारा (1) के अिीन जारी कक ए गए वारंट के अनुपालन में बंदी के पररदान से कारागार का भारसािक अधिकारी,
-अपनी अधभरिा में बंदी को रखने की धजम्मे दारी से उन्‍दमु र् हो जाएगा।
-9. वारंट का प्र वर्त न और बंदी को पुन: पकड़ना –– संधवदाकारी राज्य द्व ारा प्र ाधि कृर् ककसी व् य ध र् के धलए, धजसको िारा 8 की
-उपिारा (2) के उपबंिों के अिीन बंदी की अधभरिा पररदत्त की जार्ी है, ऐसे बंदी को प्र ाप् र् करना और उसे अपनी अधभरिा में रखना र्
-था उसे भारर् के बाहर ले जाना धवधिपूणत होगा और यकद बंदी भारर् के भीर्र ऐसी अधभरिा से भाग धनकलर्ा है र् ो बंदी को ककसी
-भी व् य ध र् द्व ारा वारं ट के धबना धगरफ्र्ार ककया जा सके गा जो असम्य क् धवलंब के धबना ऐसे बंदी को धनकटर्म पुधलस थाने के
-भारसािक अधिकारी को सौंप देगा और इस प्र कार धगरफ्र्ार ककया गया बंदी भारर्ीय दंि संधहर्ा (1860 का 45) की िारा 224 के
-अिीन अपराि करने का दायी होगा और भारर् में कारावास के ऐसे दंिादेश का भी दायी होगा जो उसको र् ब भोगना पड़र्ा जब ऐसे
-बंदी की अधभरिा का पररदान िारा 8 के अिीन नहीं ककया गया होर्ा।
-10. अधभलेख का अंर्रण –– जहां ककसी बंदी को इस अधिधनयम के उपबंिों के अिीन संधवदाकारी राज्य को स् था नांर्ररर् ककया
-जार्ा है या ककया जाना है, वहां केन्‍दरी य सरकार ककसी कायत वाही, धजसके अंर्गतर् उस बंदी ही से सं बंधि र् न्‍द या धयक कायतवाही भी है,
-का अधभलेख ककसी न्‍द या यालय या कायातलय से मंगा सके गा और यह धनदेश कर सकेगा कक ऐसे अधभलेख सं धवदाकारी राज्य की सरकार
-को भेजे जाएंगे।
-11. न्‍द या यालय और केन्‍दरी य सरकार की शध र् का प्र भाधव र् न होना –– भारर् से ककसी बंदी का ककसी संधवदाकारी राज्य को
-अंर्रण, ऐसे न्‍द या यालय की, धजसने धनणतय पाररर् ककया है, अपने धनणतय का पुनर्वतलोकन करने की शध र् को और केन्‍दरी य सरकार या
-राज्य सरकार की, र्त् स मय प्र वृत्त ककसी धवधि के अनुसार दंि के धनलंबन, पररहार या लघुकरण की शध र् को, प्र भाधवर् नहीं करेगा।
-12. भारर् में स् था नांर्रण –– (1) केन्‍दरी य सरकार ककसी संधवदाकारी राज्य से, धजसमें कोई बंदी जो भारर् का नागररक है,
-कारावास का कोई दंि भुगर् रहा है, ऐसे धनबंिनों और शर्ों के अिीन रहर्े हु ए जो भारर् और उस राज्य के बी च र् य पाई जा एं, ऐसे
-बंदी का स् था नांर्रण स् वी कार कर सकेगी।
-(2) यकद केन्‍दरी य सरकार उपिारा (1) के अिीन ककसी स् था नांर्रण के अनुरो ि को स् वी कार करर्ी है र् ो र्त् स म य प्र वृत्त ककसी
-अन्‍दय धवधि में ककसी बार् के होर्े हु ए भी, वह िारा 13 के उपबंिों के अनुसा र कारागार में बंदी को धनरुद्ध रखने के धलए वारंट ऐसे प्ररू
-प में जो धवधहर् ककया जाए जारी कर सकेगी।
-13. कारागार का अविारण और भारर् में स् था नांर्रण स् वी कार करने के धलए वारंट का जारी ककया जाना –– (1) केन्‍दरी य
-सरकार, राज्य सरकार से परामशत करके, ऐसी राज्य सरकार की अधिकाररर्ा के भीर्र अवधस्थ र् कारागार का जहां ऐसा बंदी धजसकी
-बाबर् िारा 12 की उपिारा (2) के अिीन वारंट जारी ककया गया है, रखा जाएगा औ र ऐसे अधिकारी का, जो उसे स् वी कार करेगा और
-अधभरिा में रखेगा, अविारण करेगी।
-(2) केन्‍दरी य सरकार, िारा 12 की उपिारा (2) के अ िीन वारंट जारी करने के धलए और उपिारा (1) में धनर्दतष्ट ककसी
-अधिकारी को ऐसा बंदी, धजसकी बाबर् अधभरिा में रखने के धलए कोई वारंट जारी ककया जार्ा है, स् वी कार करने और रखने का धनदेश
-करने के धलए उस सरकार के ककसी अधिकारी को जो संयु र् सधचव से नीचे की पंध र् का न हो, प्र ाधिकृर् करेगी।
-(3) उपिारा (1) में धनर्दतष्ट ककसी अधिकारी के धलए िारा 12 की उपिारा (2) के अिीन जारी ककए गए वारंट में ककए गए
-धनदेश के अिीन उसे पररदत्त ककसी बंदी को स् वी कार करना और अधभरिा में रखना र् था उ र् वारंट के अनुसार कायतवाही ककए जाने के
-धलए उपिारा (1) के अिीन अविाररर् ककसी कारागार में ऐसे बंदी को भेजना धवधिपूणत होगा और यकद बंदी ऐसी अधभरिा से भाग
-धन कलर्ा है र् ो ऐसे बंदी को ककसी व् य ध र् द्व ारा वारंट के धबना धगरफ्र्ार ककया जा सकेगा और वह व् य ध र् असम्य क् धवलंब के धबना ऐसे
-बंदी को धनकट र् म पुधलस थाने के भारसािक अधिकारी को सौंप देगा और इस प्र कार धगरफ्र्ार ककया गया बंदी, भारर्ीय दंि संधहर्ा
-(1860 का 45) की िारा 224 के अिीन अपराि करने का दायी होगा और उ र् वारंट के अनुसार कारतवाई ककए जाने के धलए भी
-दायी होगा।
-(4) िारा 12 की उपिारा (2) के अ िीन वारंट में धनम्न धलधखर् के धलए उपबंि ककया जाएगा ––
-( क ) संधवदाकारी राज्य या भारर् से बाहर ककसी स् था न से बंदी को भारर् में लाना;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 3
+  line `ककया जाना है, ऐसे व् य ध र् को बंदी, से संबंधिर् सभी अधभलेख के साथ वारंट की एक प्र धर् और बन्‍ददी से, कारागार में उसके प्र वेश के`
+  line `समय ली गई व् य ध र् गर् चीजबस् र् प्रस् र्ु र् करर्े हु ए प ररदत्त कर दे।`
+  line `(2) उपिारा (1) में धनर्दतष्ट वारंट प्रस् र्ु र् ककए जाने पर, कारागार का भारसािक अधिकारी वारंट का र्ु रंर् अनुपालन करेगा`
+  line `और उस पर उस व् य ध र् के हस् र्ा िर प्र ाप् र् करेगा धजसको बंदी, अधभलेख और कारागार से हटाए जाने वाले बंदी से संबंधिर् व् य ध र् गर्`
+  line `चीजबस् र् का पररदान ककया जार्ा है।`
+  line `(3) उपिारा (2) के अिीन संधवदाकारी राज्य द्व ारा प्र ाधिकृर् व् य ध र् को बंदी के पररदान के प चा र््, बंदी का स् था नांर्रण`
+  line `करने वाला कारागार का भारसािक अधिकारी, उस न्‍द या यालय को धजसने कारागा र के बंदी को सुपुदत ककया है, इस कथन के साथ वारंट`
+  line `की एक प्र ाधप् र् अग्रेधषर् करेगा कक बंदी उपिारा (1) के अिीन संधवदाकारी राज्य द्व ारा प्र ाधिकृर् व् य ध र् को पररदत्त कर कदया गया है।`
+  line `(4) उपिारा (1) के अिीन जारी कक ए गए वारंट के अनुपालन में बंदी के पररदान से कारागार का भारसािक अधिकारी,`
+  line `अपनी अधभरिा में बंदी को रखने की धजम्मे दारी से उन्‍दमु र् हो जाएगा।`
+  line `9. वारंट का प्र वर्त न और बंदी को पुन: पकड़ना –– संधवदाकारी राज्य द्व ारा प्र ाधि कृर् ककसी व् य ध र् के धलए, धजसको िारा 8 की`
+  line `उपिारा (2) के उपबंिों के अिीन बंदी की अधभरिा पररदत्त की जार्ी है, ऐसे बंदी को प्र ाप् र् करना और उसे अपनी अधभरिा में रखना र्`
+  line `था उसे भारर् के बाहर ले जाना धवधिपूणत होगा और यकद बंदी भारर् के भीर्र ऐसी अधभरिा से भाग धनकलर्ा है र् ो बंदी को ककसी`
+  line `भी व् य ध र् द्व ारा वारं ट के धबना धगरफ्र्ार ककया जा सके गा जो असम्य क् धवलंब के धबना ऐसे बंदी को धनकटर्म पुधलस थाने के`
+  line `भारसािक अधिकारी को सौंप देगा और इस प्र कार धगरफ्र्ार ककया गया बंदी भारर्ीय दंि संधहर्ा (1860 का 45) की िारा 224 के`
+  line `अिीन अपराि करने का दायी होगा और भारर् में कारावास के ऐसे दंिादेश का भी दायी होगा जो उसको र् ब भोगना पड़र्ा जब ऐसे`
+  line `बंदी की अधभरिा का पररदान िारा 8 के अिीन नहीं ककया गया होर्ा।`
+  line `10. अधभलेख का अंर्रण –– जहां ककसी बंदी को इस अधिधनयम के उपबंिों के अिीन संधवदाकारी राज्य को स् था नांर्ररर् ककया`
+  line `जार्ा है या ककया जाना है, वहां केन्‍दरी य सरकार ककसी कायत वाही, धजसके अंर्गतर् उस बंदी ही से सं बंधि र् न्‍द या धयक कायतवाही भी है,`
+  line `का अधभलेख ककसी न्‍द या यालय या कायातलय से मंगा सके गा और यह धनदेश कर सकेगा कक ऐसे अधभलेख सं धवदाकारी राज्य की सरकार`
+  line `को भेजे जाएंगे।`
+  line `11. न्‍द या यालय और केन्‍दरी य सरकार की शध र् का प्र भाधव र् न होना –– भारर् से ककसी बंदी का ककसी संधवदाकारी राज्य को`
+  line `अंर्रण, ऐसे न्‍द या यालय की, धजसने धनणतय पाररर् ककया है, अपने धनणतय का पुनर्वतलोकन करने की शध र् को और केन्‍दरी य सरकार या`
+  line `राज्य सरकार की, र्त् स मय प्र वृत्त ककसी धवधि के अनुसार दंि के धनलंबन, पररहार या लघुकरण की शध र् को, प्र भाधवर् नहीं करेगा।`
+  line `12. भारर् में स् था नांर्रण –– (1) केन्‍दरी य सरकार ककसी संधवदाकारी राज्य से, धजसमें कोई बंदी जो भारर् का नागररक है,`
+  line `कारावास का कोई दंि भुगर् रहा है, ऐसे धनबंिनों और शर्ों के अिीन रहर्े हु ए जो भारर् और उस राज्य के बी च र् य पाई जा एं, ऐसे`
+  line `बंदी का स् था नांर्रण स् वी कार कर सकेगी।`
+  line `(2) यकद केन्‍दरी य सरकार उपिारा (1) के अिीन ककसी स् था नांर्रण के अनुरो ि को स् वी कार करर्ी है र् ो र्त् स म य प्र वृत्त ककसी`
+  line `अन्‍दय धवधि में ककसी बार् के होर्े हु ए भी, वह िारा 13 के उपबंिों के अनुसा र कारागार में बंदी को धनरुद्ध रखने के धलए वारंट ऐसे प्ररू`
+  line `प में जो धवधहर् ककया जाए जारी कर सकेगी।`
+  line `13. कारागार का अविारण और भारर् में स् था नांर्रण स् वी कार करने के धलए वारंट का जारी ककया जाना –– (1) केन्‍दरी य`
+  line `सरकार, राज्य सरकार से परामशत करके, ऐसी राज्य सरकार की अधिकाररर्ा के भीर्र अवधस्थ र् कारागार का जहां ऐसा बंदी धजसकी`
+  line `बाबर् िारा 12 की उपिारा (2) के अिीन वारंट जारी ककया गया है, रखा जाएगा औ र ऐसे अधिकारी का, जो उसे स् वी कार करेगा और`
+  line `अधभरिा में रखेगा, अविारण करेगी।`
+  line `(2) केन्‍दरी य सरकार, िारा 12 की उपिारा (2) के अ िीन वारंट जारी करने के धलए और उपिारा (1) में धनर्दतष्ट ककसी`
+  line `अधिकारी को ऐसा बंदी, धजसकी बाबर् अधभरिा में रखने के धलए कोई वारंट जारी ककया जार्ा है, स् वी कार करने और रखने का धनदेश`
+  line `करने के धलए उस सरकार के ककसी अधिकारी को जो संयु र् सधचव से नीचे की पंध र् का न हो, प्र ाधिकृर् करेगी।`
+  line `(3) उपिारा (1) में धनर्दतष्ट ककसी अधिकारी के धलए िारा 12 की उपिारा (2) के अिीन जारी ककए गए वारंट में ककए गए`
+  line `धनदेश के अिीन उसे पररदत्त ककसी बंदी को स् वी कार करना और अधभरिा में रखना र् था उ र् वारंट के अनुसार कायतवाही ककए जाने के`
+  line `धलए उपिारा (1) के अिीन अविाररर् ककसी कारागार में ऐसे बंदी को भेजना धवधिपूणत होगा और यकद बंदी ऐसी अधभरिा से भाग`
+  line `धन कलर्ा है र् ो ऐसे बंदी को ककसी व् य ध र् द्व ारा वारंट के धबना धगरफ्र्ार ककया जा सकेगा और वह व् य ध र् असम्य क् धवलंब के धबना ऐसे`
+  line `बंदी को धनकट र् म पुधलस थाने के भारसािक अधिकारी को सौंप देगा और इस प्र कार धगरफ्र्ार ककया गया बंदी, भारर्ीय दंि संधहर्ा`
+  line `(1860 का 45) की िारा 224 के अिीन अपराि करने का दायी होगा और उ र् वारंट के अनुसार कारतवाई ककए जाने के धलए भी`
+  line `दायी होगा।`
+  line `(4) िारा 12 की उपिारा (2) के अ िीन वारंट में धनम्न धलधखर् के धलए उपबंि ककया जाएगा ––`
+  line `( क ) संधवदाकारी राज्य या भारर् से बाहर ककसी स् था न से बंदी को भारर् में लाना;`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `4
-( ख ) भारर् के ककसी भाग में जो ऐसा स् था न होगा जहां पर वारंट में अन्‍द र् र् वतष्ट उपबंिों को लागू ककया जा सकेगा,
-ऐसे बंदी को ले जाना;
-( ग ) िारा 12 की उपिारा (1) में धनर्दतष्ट धनबंिनों और शर्ों के अनुसार बंदी के कारावास की प्र कृधर् और
-कालावधि र् था भारर् में ऐसे बंदी का ऐसी रीधर् में कारावास जैसा वारंट में अन्‍द र् र् वतष्ट हो; और
-( घ ) कोई अन्‍दय धवषय जो धवधहर् ककया जाए।
-(5) र्त् स मय प्र वृत्त ककसी अन्‍दय धवधि में ककसी बार् के होर्े हु ए भी, िारा 12 की उपिारा (2) के अिीन जारी ककए गए ककसी
-वारंट के अनुपालन में ककसी बंदी का कारावास, भारर् में कारावास का ऐसा दंिादेश पाररर् करने के धलए सिम ककसी न्‍द या यालय के
-दंिादेश के अिीन कारावास समझा जाएगा।
-(6) यकद संधवदाकारी राज्य में बंदी के धवरुद्ध पाररर् कारावास के दंिादेश की प्र कृधर्, कालावधि या दोनों भारर्ीय धवधि से
-बेमेल है र् ो केन्‍दरी य सरकार, उसे आदेश द्व ारा, यथाधस्थ धर्, ऐसी प्र कृधर्, कालावधि या दोनों को ऐसे दंिादेश के अनुकूल बना सके गी जो
-उसी प्र कार के अपरा ि के धलए यकद वह अपराि भारर् में ककया गया होर्ा, उपबंधिर् कारावास के दंिादेश के अनुरूप है:
-परन्‍द र्ु इस प्र कार अनुकूधलर् दंिादेश यथासंभव, संधवदाकारी राज्य के धनणतय द्व ारा बंदी पर अधिरोधपर् दंिादेश के समरूप
-होगा और इस प्र कार अनुकूधलर् दंिादेश, संधवदाकारी राज्य में अधिरोधपर् दंि को उसकी प्र कृधर्, कालावधि या दोनों के द्व ा रा, दंिा देश
-के संबंि में गुरु र् र नहीं बनाएगा।
-14. धनयम बनाने की शध र् –– (1) केन्‍दरी य सरकार, राजपत्र में अधिसूचना द्व ारा, इस अधिधनयम के उबपंिों को कायातधन्‍दव र्
-करने के धलए धनयम बना सकेगी।
-(2) धव धशष्ट र् या और पूवातगामी शध र् की व् या पकर्ा पर प्र धर्कूल प्र भाव िाले धबना, ऐसे धनयम धनम्न धलधखर् सभी या ककन्‍दहीं
-धवषयों के संबंि में उपबंि कर सकेंगे, अथातर््: ––
-( क ) वह सािन धजसके माध्य म से िारा 6 की उपिारा (1) के अिीन आवेदन अग्रेधषर् ककया जा सकेगा;
-( ख ) वह प्ररू प धजसमें िारा 7 की उपिारा (1 ) के अिीन कोई वारंट जारी ककया जा सकेगा;
-( ग ) वह प्ररू प धजसमें िारा 12 की उपिारा (2) के अिीन कोई वारंट जारी ककया जा सकेगा; और
-( घ ) कोई अन्‍दय धवषय जो िारा 13 की उपिारा (4 ) के खंि ( घ ) के अिीन धवधहर् ककया जा सकेगा।
-15. धन यम बनाने की शध र् –– िारा 3 की उपिारा (1 ) और उपिारा (3) के अिीन जारी की गई प्रत् ये क अधिसूचना और
-िारा 14 के अिीन बनाया गया प्रत् ये क धनयम बनाए जाने के प चा र्् यथाशीघ्र संसद् के प्रत् ये क सदन के समि, जब वह ऐसी कुल र् ीस
-कदन की अवधि के धलए सत्र में हो, जो एक सत्र में अथवा दो या अधिक आनुक्रधमक सत्रों में पूरी हो सकर्ी है, रखा जाएगा और यकद उस
-सत्र के या पूवो र् आनुक्रधमक सत्र के िीक बाद के सत्र के अवसान के पूवत दोनों सदन उस अधिसूचना या धनयम में कोई पररवर्तन करने
-के धलए सहमर् हो जाएं या दोनों सदन इस बा र् से सहमर् हो जाएं कक वह अधिसूचना या धनयम नहीं बनाया जाना चाधहए र् ो ऐसी
-अधिसूचना या ऐसा धनयम, यथाधस्थ धर्, र्त् प चा र्् केवल ऐसे पररवर्र्तर् रू प में ही प्र भावी हो गा या उसका कोई प्र भाव नहीं होगा र्
-थाधप, उस धनयम या अधिसूचना के ऐसे पररवर्र्तर् या धनष् प्र भाव होने से पहले उसके अिीन की गई ककसी बा र् की धवधिमान्‍दय र् ा पर प्र
-धर्कूल प्र भाव नहीं पड़ेगा।
-16. करिनाइयों को दूर करने की शध र् –– (1) यकद इस अधिधनयम के उपबंिों को प्र भावी करने में कोई करिनाई उत्प न्‍द न होर्ी
-है र् ो केन्‍दरी य सरकार, राजपत्र में प्र काधशर् ऐसे आदेश द्व ा रा जो इस अ धिधनयम के उपबंिों से असंगर् न हो, उस करिनाई को दूर क रने
-के धलए ऐसे उपबंि कर सकेगी जो उसे आवय क प्रर् ीर् हों:
-परन्‍द र्ु ऐसा कोई आदेश इस अधिधनयम के प्र ारंभ से दो वषत की अवधि की समाधप् र् के प चा र्् नहीं ककया जाएगा।
-(2) उपिारा (1) के अिीन ककया गया प्रत् ये क आदेश, ककए जाने के प चा र्् यथाशीघ्र संसद् के प्रत् ये क सदन के समि रखा
-जाएगा।
-________`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 4
+  line `( ख ) भारर् के ककसी भाग में जो ऐसा स् था न होगा जहां पर वारंट में अन्‍द र् र् वतष्ट उपबंिों को लागू ककया जा सकेगा,`
+  line `ऐसे बंदी को ले जाना;`
+  line `( ग ) िारा 12 की उपिारा (1) में धनर्दतष्ट धनबंिनों और शर्ों के अनुसार बंदी के कारावास की प्र कृधर् और`
+  line `कालावधि र् था भारर् में ऐसे बंदी का ऐसी रीधर् में कारावास जैसा वारंट में अन्‍द र् र् वतष्ट हो; और`
+  line `( घ ) कोई अन्‍दय धवषय जो धवधहर् ककया जाए।`
+  line `(5) र्त् स मय प्र वृत्त ककसी अन्‍दय धवधि में ककसी बार् के होर्े हु ए भी, िारा 12 की उपिारा (2) के अिीन जारी ककए गए ककसी`
+  line `वारंट के अनुपालन में ककसी बंदी का कारावास, भारर् में कारावास का ऐसा दंिादेश पाररर् करने के धलए सिम ककसी न्‍द या यालय के`
+  line `दंिादेश के अिीन कारावास समझा जाएगा।`
+  line `(6) यकद संधवदाकारी राज्य में बंदी के धवरुद्ध पाररर् कारावास के दंिादेश की प्र कृधर्, कालावधि या दोनों भारर्ीय धवधि से`
+  line `बेमेल है र् ो केन्‍दरी य सरकार, उसे आदेश द्व ारा, यथाधस्थ धर्, ऐसी प्र कृधर्, कालावधि या दोनों को ऐसे दंिादेश के अनुकूल बना सके गी जो`
+  line `उसी प्र कार के अपरा ि के धलए यकद वह अपराि भारर् में ककया गया होर्ा, उपबंधिर् कारावास के दंिादेश के अनुरूप है:`
+  line `परन्‍द र्ु इस प्र कार अनुकूधलर् दंिादेश यथासंभव, संधवदाकारी राज्य के धनणतय द्व ारा बंदी पर अधिरोधपर् दंिादेश के समरूप`
+  line `होगा और इस प्र कार अनुकूधलर् दंिादेश, संधवदाकारी राज्य में अधिरोधपर् दंि को उसकी प्र कृधर्, कालावधि या दोनों के द्व ा रा, दंिा देश`
+  line `के संबंि में गुरु र् र नहीं बनाएगा।`
+  line `14. धनयम बनाने की शध र् –– (1) केन्‍दरी य सरकार, राजपत्र में अधिसूचना द्व ारा, इस अधिधनयम के उबपंिों को कायातधन्‍दव र्`
+  line `करने के धलए धनयम बना सकेगी।`
+  line `(2) धव धशष्ट र् या और पूवातगामी शध र् की व् या पकर्ा पर प्र धर्कूल प्र भाव िाले धबना, ऐसे धनयम धनम्न धलधखर् सभी या ककन्‍दहीं`
+  line `धवषयों के संबंि में उपबंि कर सकेंगे, अथातर््: ––`
+  line `( क ) वह सािन धजसके माध्य म से िारा 6 की उपिारा (1) के अिीन आवेदन अग्रेधषर् ककया जा सकेगा;`
+  line `( ख ) वह प्ररू प धजसमें िारा 7 की उपिारा (1 ) के अिीन कोई वारंट जारी ककया जा सकेगा;`
+  line `( ग ) वह प्ररू प धजसमें िारा 12 की उपिारा (2) के अिीन कोई वारंट जारी ककया जा सकेगा; और`
+  line `( घ ) कोई अन्‍दय धवषय जो िारा 13 की उपिारा (4 ) के खंि ( घ ) के अिीन धवधहर् ककया जा सकेगा।`
+  line `15. धन यम बनाने की शध र् –– िारा 3 की उपिारा (1 ) और उपिारा (3) के अिीन जारी की गई प्रत् ये क अधिसूचना और`
+  line `िारा 14 के अिीन बनाया गया प्रत् ये क धनयम बनाए जाने के प चा र्् यथाशीघ्र संसद् के प्रत् ये क सदन के समि, जब वह ऐसी कुल र् ीस`
+  line `कदन की अवधि के धलए सत्र में हो, जो एक सत्र में अथवा दो या अधिक आनुक्रधमक सत्रों में पूरी हो सकर्ी है, रखा जाएगा और यकद उस`
+  line `सत्र के या पूवो र् आनुक्रधमक सत्र के िीक बाद के सत्र के अवसान के पूवत दोनों सदन उस अधिसूचना या धनयम में कोई पररवर्तन करने`
+  line `के धलए सहमर् हो जाएं या दोनों सदन इस बा र् से सहमर् हो जाएं कक वह अधिसूचना या धनयम नहीं बनाया जाना चाधहए र् ो ऐसी`
+  line `अधिसूचना या ऐसा धनयम, यथाधस्थ धर्, र्त् प चा र्् केवल ऐसे पररवर्र्तर् रू प में ही प्र भावी हो गा या उसका कोई प्र भाव नहीं होगा र्`
+  line `थाधप, उस धनयम या अधिसूचना के ऐसे पररवर्र्तर् या धनष् प्र भाव होने से पहले उसके अिीन की गई ककसी बा र् की धवधिमान्‍दय र् ा पर प्र`
+  line `धर्कूल प्र भाव नहीं पड़ेगा।`
+  line `16. करिनाइयों को दूर करने की शध र् –– (1) यकद इस अधिधनयम के उपबंिों को प्र भावी करने में कोई करिनाई उत्प न्‍द न होर्ी`
+  line `है र् ो केन्‍दरी य सरकार, राजपत्र में प्र काधशर् ऐसे आदेश द्व ा रा जो इस अ धिधनयम के उपबंिों से असंगर् न हो, उस करिनाई को दूर क रने`
+  line `के धलए ऐसे उपबंि कर सकेगी जो उसे आवय क प्रर् ीर् हों:`
+  line `परन्‍द र्ु ऐसा कोई आदेश इस अधिधनयम के प्र ारंभ से दो वषत की अवधि की समाधप् र् के प चा र्् नहीं ककया जाएगा।`
+  line `(2) उपिारा (1) के अिीन ककया गया प्रत् ये क आदेश, ककए जाने के प चा र्् यथाशीघ्र संसद् के प्रत् ये क सदन के समि रखा`
+  line जाएगा।
+  line ________
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line

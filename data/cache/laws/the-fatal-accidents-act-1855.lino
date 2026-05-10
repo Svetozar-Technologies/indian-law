@@ -1,242 +1,261 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:30:41.933Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2276`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 5)
-  (str totalSections) (int 5)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:30:41.933Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2276`
+  completeFetch true
+  maxSections null
+  sectionCount 5
+  totalSections 5
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-fatal-accidents-act-1855)
-  (str handle) (str 2276)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Fatal Accidents Act, 1855`)
-  (str actNumber) (str 13)
-  (str enactmentDate) (str 1855-03-27)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2276`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `घातक दुर्घटना अधिनियम,1855`)
-  (str actYear) (str 1855)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Legislative Department`)
-  (str longTitle) (str `An Act to provide compensation to families for loss occasioned by the death of a person caused by actionable wrong`)
-  (str enforcementDate) (str 27-03-1855)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T20:31:34.249Z`)
-  (str translations) obj_root_law_translations
+  slug the-fatal-accidents-act-1855
+  handle (2276)
+  collectionHandle 123456789/1362
+  title `The Fatal Accidents Act, 1855`
+  actNumber (13)
+  enactmentDate 1855-03-27
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2276`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `घातक दुर्घटना अधिनियम,1855`
+  actYear (1855)
+  ministry `Ministry of Law and Justice`
+  department `Legislative Department`
+  longTitle `An Act to provide compensation to families for loss occasioned by the death of a person caused by actionable wrong`
+  enforcementDate 27-03-1855
+  notification undefined
+  fetchedAt `2026-05-09T20:31:34.249Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_fatal_accidents_act_1855
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2276`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2276`
 obj_root_law_sources_en_the_fatal_accidents_act_1855:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2276/1/A1855-13.pdf`)
-  (str title) (str `The Fatal Accidents Act, 1855`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2276/1/A1855-13.pdf`
+  title `The Fatal Accidents Act, 1855`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1855
 obj_root_law_sources_hi_1855:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2276/2/H1855-13.pdf`)
-  (str title) (str `घातक दुर्घटना अधिनियम,1855`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2276/2/H1855-13.pdf`
+  title `घातक दुर्घटना अधिनियम,1855`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_1_a
   obj_root_law_sections_2
   obj_root_law_sections_3
   obj_root_law_sections_4
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 47152)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `^1[1. Short title and extent.--(1) This Act may be called the Fatal Accidents Act, 1855.
-
-(2) It extends to the whole of India ^2***.]`)
-  (str footnotes) (str `1. Ins. by Act 3 of 1951 s. 3 and the Schedule.
-
-2. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule
-(w.e.f. 31-10- 2019).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47152&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00031_185513_1523265540979)
+  sectionId (47152)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47152&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00031_185513_1523265540979
+obj_root_law_sections_1_content:
+  string
+  line `^1[1. Short title and extent.--(1) This Act may be called the Fatal Accidents Act, 1855.`
+  line
+  line `(2) It extends to the whole of India ^2***.]`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Ins. by Act 3 of 1951 s. 3 and the Schedule.`
+  line
+  line `2. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule`
+  line `(w.e.f. 31-10- 2019).`
 obj_root_law_sections_1_a:
-  object
-  (str sectionId) (str 47153)
-  (str sectionNo) (str 1A)
-  (str orderNo) (int 2)
-  (str title) (str `Suit for compensation to the family of a person for loss occasioned to it by his death by actionable wrong.`)
-  (str content) (str `^1[1A.] Suit for compensation to the family of a person for loss occasioned to it by his death by
-actionable wrong.--Whenever the death of a person shall be caused by wrongful act, neglect or
-default, and the act, neglect or default is such as would (if death had not ensured) have entitled the
-party injured to maintain an action and recover damages in respect thereof, the party who would have
-been liable if death had not ensued shall be liable to an action or suit for damages, notwithstanding the
-death of the person injured, and although the death shall have been caused under such circumstances as
-amount in law to felony or other crime.
-
-^2** * Every such action or suit shall be for the benefit of the wife, husband, parent and child, if any,
-of the person whose death shall have been so caused, and shall be brought by and in the name of the
-executor, administrator or representative of the person deceased;
-
-and in every such action the Court may give such damages as it may think proportioned to
-the loss resulting from such death to the parties respectively, for whom and for whose benefit
-such action shall be brought; and the amount so recovered, after deducting all costs and
-expenses, including the costs not recovered from the defendant, shall be divided amongst the
-before-mentioned parties, or any of them, a such shares as the Court by its judgment or decree
-shall direct.`)
-  (str footnotes) (str `1. Original s. 1 re-numbered as s. lA by s. 3 and Sch., ibid.
-2. The words "And it is enacted further that" omitted by Act 10 of 1914, Sch. II/`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47153&sectionno=1A&orderno=2&orgactid=AC_CEN_3_20_00031_185513_1523265540979)
+  sectionId (47153)
+  sectionNo 1A
+  orderNo 2
+  title `Suit for compensation to the family of a person for loss occasioned to it by his death by actionable wrong.`
+  content obj_root_law_sections_1_a_content
+  footnotes obj_root_law_sections_1_a_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47153&sectionno=1A&orderno=2&orgactid=AC_CEN_3_20_00031_185513_1523265540979
+obj_root_law_sections_1_a_content:
+  string
+  line `^1[1A.] Suit for compensation to the family of a person for loss occasioned to it by his death by`
+  line `actionable wrong.--Whenever the death of a person shall be caused by wrongful act, neglect or`
+  line `default, and the act, neglect or default is such as would (if death had not ensured) have entitled the`
+  line `party injured to maintain an action and recover damages in respect thereof, the party who would have`
+  line `been liable if death had not ensued shall be liable to an action or suit for damages, notwithstanding the`
+  line `death of the person injured, and although the death shall have been caused under such circumstances as`
+  line `amount in law to felony or other crime.`
+  line
+  line `^2** * Every such action or suit shall be for the benefit of the wife, husband, parent and child, if any,`
+  line `of the person whose death shall have been so caused, and shall be brought by and in the name of the`
+  line `executor, administrator or representative of the person deceased;`
+  line
+  line `and in every such action the Court may give such damages as it may think proportioned to`
+  line `the loss resulting from such death to the parties respectively, for whom and for whose benefit`
+  line `such action shall be brought; and the amount so recovered, after deducting all costs and`
+  line `expenses, including the costs not recovered from the defendant, shall be divided amongst the`
+  line `before-mentioned parties, or any of them, a such shares as the Court by its judgment or decree`
+  line `shall direct.`
+obj_root_law_sections_1_a_footnotes:
+  string
+  line `1. Original s. 1 re-numbered as s. lA by s. 3 and Sch., ibid.`
+  line `2. The words "And it is enacted further that" omitted by Act 10 of 1914, Sch. II/`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 47154)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 3)
-  (str title) (str `Not more than one suit to be brought.`)
-  (str content) (str `Provided always that not more than one action or suit
-shall be brought for, and in respect of the same subject-matter of complaint ^1
-***:
-
-Claim for loss to estate may be added.--Provided that, in any such action or suit, the executor, administrator or representative of the deceased may insert a claim for and recover any pecuniary loss to the estate of the deceased occasioned by such wrongful act, neglect or default, which sum, when recovered, shall be deemed part of the assets of the estate of the deceased.`)
-  (str footnotes) (str `1. The words "and that every such action shall be brought within twelve calendar months after the death of such deceased person" rep. by Act 9 of 1871, s. 2 and the First Schedule, see now the Indian Limitation Act, 1963 (36 of 1963).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47154&sectionno=2&orderno=3&orgactid=AC_CEN_3_20_00031_185513_1523265540979)
+  sectionId (47154)
+  sectionNo (2)
+  orderNo 3
+  title `Not more than one suit to be brought.`
+  content obj_root_law_sections_2_content
+  footnotes `1. The words "and that every such action shall be brought within twelve calendar months after the death of such deceased person" rep. by Act 9 of 1871, s. 2 and the First Schedule, see now the Indian Limitation Act, 1963 (36 of 1963).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47154&sectionno=2&orderno=3&orgactid=AC_CEN_3_20_00031_185513_1523265540979
+obj_root_law_sections_2_content:
+  string
+  line `Provided always that not more than one action or suit`
+  line `shall be brought for, and in respect of the same subject-matter of complaint ^1`
+  line `***:`
+  line
+  line `Claim for loss to estate may be added.--Provided that, in any such action or suit, the executor, administrator or representative of the deceased may insert a claim for and recover any pecuniary loss to the estate of the deceased occasioned by such wrongful act, neglect or default, which sum, when recovered, shall be deemed part of the assets of the estate of the deceased.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 47155)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 4)
-  (str title) (str `Plaintiff shall deliver particulars, etc.`)
-  (str content) (str `The plaint in any such action or suit shall give a
-full particular of the person or persons for whom, or on whose behalf, such action or suit shall be
-brought, and of the nature of the claim in respect of which damages shall be sought to be
-recovered.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47155&sectionno=3&orderno=4&orgactid=AC_CEN_3_20_00031_185513_1523265540979)
+  sectionId (47155)
+  sectionNo (3)
+  orderNo 4
+  title `Plaintiff shall deliver particulars, etc.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47155&sectionno=3&orderno=4&orgactid=AC_CEN_3_20_00031_185513_1523265540979
+obj_root_law_sections_3_content:
+  string
+  line `The plaint in any such action or suit shall give a`
+  line `full particular of the person or persons for whom, or on whose behalf, such action or suit shall be`
+  line `brought, and of the nature of the claim in respect of which damages shall be sought to be`
+  line recovered.
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 47156)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 5)
-  (str title) (str Interpretation-clause.)
-  (str content) (str `The following words and expressions are intended to have the meanings
-hereby assigned to them respectively, so far as such meanings are not excluded by the context or by the nature of the subject-matter; that is to say ^1*** the word "person", shall apply to bodies politic and
-corporate; and the word "parent" shall include father and mother^2
-and grand-father and grand-mother;
-and the word "child" shall include son and daughter and grand-son and grand-daughter and step-son and
-step-daughter.`)
-  (str footnotes) (str `1. Certain words omitted by Act 10 of 1914, Sch.
-
-2. Stepfather and step-mother are designedly omitted.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47156&sectionno=4&orderno=5&orgactid=AC_CEN_3_20_00031_185513_1523265540979)
+  sectionId (47156)
+  sectionNo (4)
+  orderNo 5
+  title Interpretation-clause.
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00031_185513_1523265540979&sectionId=47156&sectionno=4&orderno=5&orgactid=AC_CEN_3_20_00031_185513_1523265540979
+obj_root_law_sections_4_content:
+  string
+  line `The following words and expressions are intended to have the meanings`
+  line `hereby assigned to them respectively, so far as such meanings are not excluded by the context or by the nature of the subject-matter; that is to say ^1*** the word "person", shall apply to bodies politic and`
+  line `corporate; and the word "parent" shall include father and mother^2`
+  line `and grand-father and grand-mother;`
+  line `and the word "child" shall include son and daughter and grand-son and grand-daughter and step-son and`
+  line step-daughter.
+obj_root_law_sections_4_footnotes:
+  string
+  line `1. Certain words omitted by Act 10 of 1914, Sch.`
+  line
+  line `2. Stepfather and step-mother are designedly omitted.`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `घातक दुर्घटना अधिनियम,1855`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2276/2/H1855-13.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:30:40.831Z`)
-  (str pageCount) (int 2)
-  (str sections) obj_root_law_translations_hi_sections
+  title `घातक दुर्घटना अधिनियम,1855`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2276/2/H1855-13.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:30:40.831Z`
+  pageCount 2
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `घातक दुघघटना अधिधनयम, 1855
-_________
-िाराओं का क्र म
-_________
-उद्देधिका।
-1. संधिप् त नाम और धिस्ता र।
-1 क. िादयोग्य दोष से ककसी व् य धत की मृत्यु के कारण उसके कुटुम्ब को हु ई हाधन के धिए उस व् य धत के कुटुम्ब के िास्ते प्र
-धतकर के धिए िाद।
-2. एक से अधिक िादों का न िाया जाना।
-सम्प दा की हाधन के धिए दािे का जोडा जा सकना।
-3. िादी द्व ारा धिधिधट यों आकद का कदया जाना।
-4. धनिघचन खण्ड।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `घातक दुघघटना अधिधनयम, 1855`
+  line _________
+  line `िाराओं का क्र म`
+  line _________
+  line उद्देधिका।
+  line `1. संधिप् त नाम और धिस्ता र।`
+  line `1 क. िादयोग्य दोष से ककसी व् य धत की मृत्यु के कारण उसके कुटुम्ब को हु ई हाधन के धिए उस व् य धत के कुटुम्ब के िास्ते प्र`
+  line `धतकर के धिए िाद।`
+  line `2. एक से अधिक िादों का न िाया जाना।`
+  line `सम्प दा की हाधन के धिए दािे का जोडा जा सकना।`
+  line `3. िादी द्व ारा धिधिधट यों आकद का कदया जाना।`
+  line `4. धनिघचन खण्ड।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `घातक दुघघटना अधिधनयम, 1855
-(1855 का अधिधनयम संखयां क 13) 1
-[27 माचघ, 1855]
-िादयोग्य दोष द्व ारा काररत कक सी व् य धत की मृत्यु के कारण हु ई हाधन
-के धिए कुटुम्बों के िास्ते प्र धतकर का
-उपबन् ि करने के धिए
-अधिधनयम
-उद्देधिका — ककसी ऐसे व् य धत के धखिाफ, धजसने अपने दोषपूणघ कायघ, उपेिा या व् य धत क्र म से अन्य व् य धत की मृत्यु काररत की
-हो, ककसी न् या यािय में इस समय कोई कायघिाही या िाद नहीं चिाया जा सकता, और बहुिा यह ठीक और समीचीन होता है कक
-दोषकताघ ऐसे मामिे में अपने द्व ारा काररत िधत के धिए नुकसानी का उत्तरदायी हो; अत: धनम्न धिधखत रू प में यह अधिधनयधमत ककया
-जाता है: —
-2 [ 1. संधिप्त नाम और धिस्ता र — (1) यह अधिधनयम घातक दुघघटना अधिधनयम, 1855 कहा जा सकेगा।
-(2) इसका धिस्ता र 3 *** सम्पू णघ भारत पर है। ]
-4 [ 1 क. ] िादयोग्य दोष से ककसी व् य धत की मृत्यु के कारण उसके कुटुम्ब को हु ई हाधन के धिए उस व् य धत के कुटुम्ब के िास्ते प्र
-धतकर के धिए िा द — जब ककसी भी व् य धत की मृत्यु दोषपूणघ कायघ, उपेिा या व् य धतक्रम से काररत हो और िह कायघ, उपेिा या व्
-य धतक्रम ऐसा हो धजससे ( यकद मृत्यु न हु ई होती ) ित व् य धत उसकी बाबत कायघिाही चिाने और नुकसानी िसूि करने का हकदार
-होता तो िह पिकार जो मृत्यु न होने की दिा में दायी हो ता इस बात के होते हु ए भी कक ित व् य धत की मृत्यु हो गई है और यद्यधप
-मृत्यु ऐसी पररधस्ि धतयों में काररत हु ई है धजनसे धिधि के अनुसार घोर अपराि या अन्य अपराि बनता हो, नुकसानी के धिए कायघिाही
-या िाद के दाधयत्िा िीन होगा।
-5 *** ऐसी प्रत् ये क कायघिाही या िाद उस व् य धत की, धजसकी मृत्यु इस प्र कार काररत हु ई हो, पत्नी, पधत, जनक और सन्ता न,
-यकद कोई हो, के फायदे के धिए होगा, औ र मृत व् य धत के धनपा दक, प्र िासक या प्र धतधनधि के द्व ारा और नाम में िाया जाएगा;
-और ऐसी प्रत् ये क कायघिाही में न् या यािय ऐसी नुकसानी कदिा सकेगा जैसी िह क्र मि: उन पिकारों को, धजनके धिए और
-धजनके फायदे के धिए ऐसी कायघिाही िाई गई हो, ऐसी मृत्यु से हु ई हाधन को आनुपा धत क समझे, और ऐसे िसूि की गई रकम, सब
-खचों और व् य यों को, धजनके अन्त गघत प्र धतिादी से ि सूि न हु ए खचे भी हैं, काटने के पश्चा त् पूिघिर्णघत पिकारों या उन में से ककन्हीं में
-ऐसे अंिों में धिभाधजत की जाएगी धजसे न् या यािय अपने धनणघय या धडक्री द्व ारा धन कद ट करे।
-2. एक से अधिक िादों का न िाया जाना — परन् तु सिघदा यह है कक पररिाद की उसी धिषय - िस्तु के धिए 6 *** और उसकी
-बाबत एक से अधिक कायघिाही या िाद नहीं िाया जाएगा:
-सम्प दा की हाधन के धिए दािे का जोडा जा सकना — परन् तु ऐसी ककसी कायघिाही या िाद में, मृतक का धनपा दक, प्र िासक
-या प्र धतधनधि, मृतक की स म् प दा को ऐसे दोषपूणघ कायघ, उपेिा या व् य धतक्रम के कारण हु ई ककसी िन - सम्ब न् िी हाधन के धिए दािा
-धनधिट कर सकेगा और उसे िसूि कर सकेगा औ र िह राधि िसूि होने पर मृतक की सम्प दा की आधस्त यों का भाग समझी जाएगी।
-3. िादी द्व ारा धिधिधट यों आकद का कदया जा ना — ऐसी ककसी कायघिाही या िाद के िादपत्र में उस व् य धत या उन व् य धत यों
-की धजनके धिए या धजनकी ओर से ऐसी कायघिाही या िाद िाया जाए और उस दािे की प्र कृधत की धजसकी बाबत नुकसानी िसूि की
-जानी चाही गई हो, पू री धिधिधट यां होंगी।
-4. धनिघचन खण्ड — धनम्न धि धखत िब्दों और पदों के िे ही अिघ होने आिधयत हैं जो उन्हें एतद् द्व ारा क्र मि: कदए गए हैं जहां
-तक कक ऐसे अिघ संदभघ द्व ारा या धिषय - िस्तु की प्र कृधत द्व ारा अपिर्जघत नहीं हैं, अिाघत् “ व् य धत ” िब्द राधय क और धनगधमत धनकायों
-को िागू होगा; और 7 *** “ जनक ” िब्द के अन्त गघत धपता औ र माता तिा धपताम ह औ र माताम ही भी होंगे; औ र “ संतान ” िब्द के
-अन्त गघत पुत्र और पुत्री तिा पौत्र औ र पौत्री तिा सौतेिा पुत्र औ र सौतेिी पुत्री भी होंगे।
-______
-1 यह अधिधनयम 1965 के धिधनयम सं ० 8 की िारा 3 और अनुसूची द्व ारा िका दीि, धमनीकोय और अमीनदीिी द्व ीपसमूह को और 1968 के अधिधनयम सं ० 26 की िारा
-3 और अनुसूची द्व ारा पांधडचेरी संघ राय िेत्र को धिस् ता ररत ककया गया।
-2 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा अन्त:स्िा धपत।
-3 2019 के अधिधनयम सं ० 34 की िारा 95 और पांचिी अनुसूची द्व ारा (31 - 10 - 2019 से ) “ जम्मू और कश्मी र राय के धसिाय ” िब्दों का िोप ककया गया।
-4 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा मूि िारा 1 को िारा 1 क के रू प में पुन:संखयां ककत ककया गया।
-5 1914 के अधिधनयम सं ० 10 की िारा 3 और अनुसूची 2 द्व ारा “ और यह आगे अधिधनयधमत ककया गया कक ” िब्दों का िोप ककया गया।
-6 1871 के अधिधनयम सं ० 9 की िारा 2 और पहिी अनुसूची द्व ारा (24 - 3 - 1871 से ) “ और यह कक ऐसी प्रत् ये क कायघिाही ऐसे मृतक व् य धत की मृत्यु के पश्चा त् 12
-कैिेण्ड र मास के भीतर की जाए ” िब्दों का िोप ककया गया। पररसीमा के धिए अब देधखए पररसीमा अधिधनयम, 1963 (1963 का 36)।
-7 1914 के अधिधनयम सं ० 10 की िारा 3 और अनुसूची 2 द्व ारा कधतपय (17 - 3 - 1914 से ) िब्दों का िोप ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line `घातक दुघघटना अधिधनयम, 1855`
+  line `(1855 का अधिधनयम संखयां क 13) 1`
+  line `[27 माचघ, 1855]`
+  line `िादयोग्य दोष द्व ारा काररत कक सी व् य धत की मृत्यु के कारण हु ई हाधन`
+  line `के धिए कुटुम्बों के िास्ते प्र धतकर का`
+  line `उपबन् ि करने के धिए`
+  line अधिधनयम
+  line `उद्देधिका — ककसी ऐसे व् य धत के धखिाफ, धजसने अपने दोषपूणघ कायघ, उपेिा या व् य धत क्र म से अन्य व् य धत की मृत्यु काररत की`
+  line `हो, ककसी न् या यािय में इस समय कोई कायघिाही या िाद नहीं चिाया जा सकता, और बहुिा यह ठीक और समीचीन होता है कक`
+  line `दोषकताघ ऐसे मामिे में अपने द्व ारा काररत िधत के धिए नुकसानी का उत्तरदायी हो; अत: धनम्न धिधखत रू प में यह अधिधनयधमत ककया`
+  line `जाता है: —`
+  line `2 [ 1. संधिप्त नाम और धिस्ता र — (1) यह अधिधनयम घातक दुघघटना अधिधनयम, 1855 कहा जा सकेगा।`
+  line `(2) इसका धिस्ता र 3 *** सम्पू णघ भारत पर है। ]`
+  line `4 [ 1 क. ] िादयोग्य दोष से ककसी व् य धत की मृत्यु के कारण उसके कुटुम्ब को हु ई हाधन के धिए उस व् य धत के कुटुम्ब के िास्ते प्र`
+  line `धतकर के धिए िा द — जब ककसी भी व् य धत की मृत्यु दोषपूणघ कायघ, उपेिा या व् य धतक्रम से काररत हो और िह कायघ, उपेिा या व्`
+  line `य धतक्रम ऐसा हो धजससे ( यकद मृत्यु न हु ई होती ) ित व् य धत उसकी बाबत कायघिाही चिाने और नुकसानी िसूि करने का हकदार`
+  line `होता तो िह पिकार जो मृत्यु न होने की दिा में दायी हो ता इस बात के होते हु ए भी कक ित व् य धत की मृत्यु हो गई है और यद्यधप`
+  line `मृत्यु ऐसी पररधस्ि धतयों में काररत हु ई है धजनसे धिधि के अनुसार घोर अपराि या अन्य अपराि बनता हो, नुकसानी के धिए कायघिाही`
+  line `या िाद के दाधयत्िा िीन होगा।`
+  line `5 *** ऐसी प्रत् ये क कायघिाही या िाद उस व् य धत की, धजसकी मृत्यु इस प्र कार काररत हु ई हो, पत्नी, पधत, जनक और सन्ता न,`
+  line `यकद कोई हो, के फायदे के धिए होगा, औ र मृत व् य धत के धनपा दक, प्र िासक या प्र धतधनधि के द्व ारा और नाम में िाया जाएगा;`
+  line `और ऐसी प्रत् ये क कायघिाही में न् या यािय ऐसी नुकसानी कदिा सकेगा जैसी िह क्र मि: उन पिकारों को, धजनके धिए और`
+  line `धजनके फायदे के धिए ऐसी कायघिाही िाई गई हो, ऐसी मृत्यु से हु ई हाधन को आनुपा धत क समझे, और ऐसे िसूि की गई रकम, सब`
+  line `खचों और व् य यों को, धजनके अन्त गघत प्र धतिादी से ि सूि न हु ए खचे भी हैं, काटने के पश्चा त् पूिघिर्णघत पिकारों या उन में से ककन्हीं में`
+  line `ऐसे अंिों में धिभाधजत की जाएगी धजसे न् या यािय अपने धनणघय या धडक्री द्व ारा धन कद ट करे।`
+  line `2. एक से अधिक िादों का न िाया जाना — परन् तु सिघदा यह है कक पररिाद की उसी धिषय - िस्तु के धिए 6 *** और उसकी`
+  line `बाबत एक से अधिक कायघिाही या िाद नहीं िाया जाएगा:`
+  line `सम्प दा की हाधन के धिए दािे का जोडा जा सकना — परन् तु ऐसी ककसी कायघिाही या िाद में, मृतक का धनपा दक, प्र िासक`
+  line `या प्र धतधनधि, मृतक की स म् प दा को ऐसे दोषपूणघ कायघ, उपेिा या व् य धतक्रम के कारण हु ई ककसी िन - सम्ब न् िी हाधन के धिए दािा`
+  line `धनधिट कर सकेगा और उसे िसूि कर सकेगा औ र िह राधि िसूि होने पर मृतक की सम्प दा की आधस्त यों का भाग समझी जाएगी।`
+  line `3. िादी द्व ारा धिधिधट यों आकद का कदया जा ना — ऐसी ककसी कायघिाही या िाद के िादपत्र में उस व् य धत या उन व् य धत यों`
+  line `की धजनके धिए या धजनकी ओर से ऐसी कायघिाही या िाद िाया जाए और उस दािे की प्र कृधत की धजसकी बाबत नुकसानी िसूि की`
+  line `जानी चाही गई हो, पू री धिधिधट यां होंगी।`
+  line `4. धनिघचन खण्ड — धनम्न धि धखत िब्दों और पदों के िे ही अिघ होने आिधयत हैं जो उन्हें एतद् द्व ारा क्र मि: कदए गए हैं जहां`
+  line `तक कक ऐसे अिघ संदभघ द्व ारा या धिषय - िस्तु की प्र कृधत द्व ारा अपिर्जघत नहीं हैं, अिाघत् “ व् य धत ” िब्द राधय क और धनगधमत धनकायों`
+  line `को िागू होगा; और 7 *** “ जनक ” िब्द के अन्त गघत धपता औ र माता तिा धपताम ह औ र माताम ही भी होंगे; औ र “ संतान ” िब्द के`
+  line `अन्त गघत पुत्र और पुत्री तिा पौत्र औ र पौत्री तिा सौतेिा पुत्र औ र सौतेिी पुत्री भी होंगे।`
+  line ______
+  line `1 यह अधिधनयम 1965 के धिधनयम सं ० 8 की िारा 3 और अनुसूची द्व ारा िका दीि, धमनीकोय और अमीनदीिी द्व ीपसमूह को और 1968 के अधिधनयम सं ० 26 की िारा`
+  line `3 और अनुसूची द्व ारा पांधडचेरी संघ राय िेत्र को धिस् ता ररत ककया गया।`
+  line `2 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा अन्त:स्िा धपत।`
+  line `3 2019 के अधिधनयम सं ० 34 की िारा 95 और पांचिी अनुसूची द्व ारा (31 - 10 - 2019 से ) “ जम्मू और कश्मी र राय के धसिाय ” िब्दों का िोप ककया गया।`
+  line `4 1951 के अधिधनयम सं ० 3 की िारा 3 और अनुसूची द्व ारा मूि िारा 1 को िारा 1 क के रू प में पुन:संखयां ककत ककया गया।`
+  line `5 1914 के अधिधनयम सं ० 10 की िारा 3 और अनुसूची 2 द्व ारा “ और यह आगे अधिधनयधमत ककया गया कक ” िब्दों का िोप ककया गया।`
+  line `6 1871 के अधिधनयम सं ० 9 की िारा 2 और पहिी अनुसूची द्व ारा (24 - 3 - 1871 से ) “ और यह कक ऐसी प्रत् ये क कायघिाही ऐसे मृतक व् य धत की मृत्यु के पश्चा त् 12`
+  line `कैिेण्ड र मास के भीतर की जाए ” िब्दों का िोप ककया गया। पररसीमा के धिए अब देधखए पररसीमा अधिधनयम, 1963 (1963 का 36)।`
+  line `7 1914 के अधिधनयम सं ० 10 की िारा 3 और अनुसूची 2 द्व ारा कधतपय (17 - 3 - 1914 से ) िब्दों का िोप ककया गया।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line

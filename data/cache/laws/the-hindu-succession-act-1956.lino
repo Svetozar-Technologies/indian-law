@@ -1,65 +1,55 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:50:53.283Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1713`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 31)
-  (str totalSections) (int 31)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:50:53.283Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1713`
+  completeFetch true
+  maxSections null
+  sectionCount 31
+  totalSections 31
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-hindu-succession-act-1956)
-  (str handle) (str 1713)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Hindu Succession Act, 1956`)
-  (str actNumber) (str 30)
-  (str enactmentDate) (str 1956-06-17)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1713`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `हिन्‍दू उत्तराधिकार अधिनियम,1956`)
-  (str actYear) (str 1956)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Legislative Department`)
-  (str longTitle) (str `An Act to amend and codify the law relating to intestate succession among Hindus.`)
-  (str enforcementDate) (str 17-06-1956)
-  (str fetchedAt) (str `2026-05-08T23:19:39.612Z`)
-  (str translations) obj_root_law_translations
+  slug the-hindu-succession-act-1956
+  handle (1713)
+  collectionHandle 123456789/1362
+  title `The Hindu Succession Act, 1956`
+  actNumber (30)
+  enactmentDate 1956-06-17
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1713`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `हिन्‍दू उत्तराधिकार अधिनियम,1956`
+  actYear (1956)
+  ministry `Ministry of Law and Justice`
+  department `Legislative Department`
+  longTitle `An Act to amend and codify the law relating to intestate succession among Hindus.`
+  enforcementDate 17-06-1956
+  fetchedAt `2026-05-08T23:19:39.612Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_hindu_succession_act_1956
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1713`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1713`
 obj_root_law_sources_en_the_hindu_succession_act_1956:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf`)
-  (str title) (str `The Hindu Succession Act, 1956`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf`
+  title `The Hindu Succession Act, 1956`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1956
 obj_root_law_sources_hi_1956:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1713/3/H1956-30.pdf`)
-  (str title) (str `हिन्‍दू उत्तराधिकार अधिनियम,1956`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1713/3/H1956-30.pdf`
+  title `हिन्‍दू उत्तराधिकार अधिनियम,1956`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -92,877 +82,1014 @@ obj_root_law_sections:
   obj_root_law_sections_30
   obj_root_law_sections_31
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 29913)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the Hindu Succession Act, 1956.
-
-(2) It extends to the whole of India ^1***.`)
-  (str footnotes) (str `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule (w.e.f. 31-10- 2019).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29913&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29913)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule (w.e.f. 31-10- 2019).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29913&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Hindu Succession Act, 1956.`
+  line
+  line `(2) It extends to the whole of India ^1***.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 29914)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Application of Act.`)
-  (str content) (str `(1) This Act applies--
-
-(a) to any person, who is a Hindu by religion in any of its forms or developments, including a
-Virashaiva, a Lingayat or a follower of the Brahmo, Prarthana or Arya Samaj,
-
-(b) to any person who is a Buddhist, Jaina or Sikh by religion, and
-
-(c) to any other person who is not a Muslim, Christian, Parsi or Jew by religion, unless it is
-proved that any such person would not have been governed by the Hindu law or by any custom or
-usage as part of that law in respect of any of the matters dealt with herein if this Act had not been
-passed.
-
-Explanation.-- The following persons are Hindus, Buddhists, Jainas or Sikhs by religion, as the case
-may be:--
-
-(a) any child, legitimate or illegitimate, both of whose parents are Hindus, Buddhists, Jainas or
-Sikhs by religion;
-
-(b) any child, legitimate or illegitimate, one of whose parents is a Hindu, Buddhist, Jaina or Sikh
-by religion and who is brought up as a member of the tribe, community, group or family to which
-such parent belongs or belonged;
-
-(c) any person who is a convert or reconvert to the Hindu, Buddhist, Jaina or Sikh religion.
-
-(2) Notwithstanding anything contained in sub-section (1), nothing contained in this Act shall apply
-to the members of any Scheduled Tribe within the meaning of clause (25) of article 366 of the
-Constitution unless the Central Government, by notification in the Official Gazette, otherwise directs.
-
-(3) The expression "Hindu" in any portion of this Act shall be construed as if it included a person
-who, though not a Hindu by religion, is, nevertheless, a person to whom this Act applies by virtue of the
-provisions contained in this section.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29914&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29914)
+  sectionNo (2)
+  orderNo 2
+  title `Application of Act.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29914&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_2_content:
+  string
+  line `(1) This Act applies--`
+  line
+  line `(a) to any person, who is a Hindu by religion in any of its forms or developments, including a`
+  line `Virashaiva, a Lingayat or a follower of the Brahmo, Prarthana or Arya Samaj,`
+  line
+  line `(b) to any person who is a Buddhist, Jaina or Sikh by religion, and`
+  line
+  line `(c) to any other person who is not a Muslim, Christian, Parsi or Jew by religion, unless it is`
+  line `proved that any such person would not have been governed by the Hindu law or by any custom or`
+  line `usage as part of that law in respect of any of the matters dealt with herein if this Act had not been`
+  line passed.
+  line
+  line `Explanation.-- The following persons are Hindus, Buddhists, Jainas or Sikhs by religion, as the case`
+  line `may be:--`
+  line
+  line `(a) any child, legitimate or illegitimate, both of whose parents are Hindus, Buddhists, Jainas or`
+  line `Sikhs by religion;`
+  line
+  line `(b) any child, legitimate or illegitimate, one of whose parents is a Hindu, Buddhist, Jaina or Sikh`
+  line `by religion and who is brought up as a member of the tribe, community, group or family to which`
+  line `such parent belongs or belonged;`
+  line
+  line `(c) any person who is a convert or reconvert to the Hindu, Buddhist, Jaina or Sikh religion.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), nothing contained in this Act shall apply`
+  line `to the members of any Scheduled Tribe within the meaning of clause (25) of article 366 of the`
+  line `Constitution unless the Central Government, by notification in the Official Gazette, otherwise directs.`
+  line
+  line `(3) The expression "Hindu" in any portion of this Act shall be construed as if it included a person`
+  line `who, though not a Hindu by religion, is, nevertheless, a person to whom this Act applies by virtue of the`
+  line `provisions contained in this section.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 29915)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Definitions and interpretation.`)
-  (str content) (str `(1) In this Act, unless the context otherwise requires,--
-
-(a) "agnate" person is said to be an agnate of another if the two are related by blood or
-adoption wholly through males;
-
-(b) "aliyasantana law" means the system of law applicable to persons who, if this Act had not
-been passed, would have been governed by the Madras Aliyasantana Act, 1949, (Madras Act 9 of
-1949) or by the customary aliyasantana law with respect to the matters for which provision is made in
-this Act;
-
-(c) "cognate" person is said to be a cognate of another if the two are related by blood or
-adoption but not wholly through males;
-
-(d) the expressions "custom" and "usage" signify any rule which, having been continuously and
-uniformly observed for a long time, has obtained the force of law among Hindus in any local area,
-tribe, community, group or family:
-
-Provided that the rule is certain and not unreasonable or opposed to public policy: and
-
-Provided further that in the case of a rule applicable only to a family it has not been discontinued
-by the family;
-
-(e) full blood "half blood" and "uterine blood"--
-
-(i) two persons are said to be related to each other by full blood when they are descended
-from a common ancestor by the same wife, and by half blood when they are descended from a
-common ancestor but by different wives;
-
-(ii) two persons are said to be related to each other by uterine blood when they are descended
-from a common ancestress but by different husbands;
-
-Explanation.In this clause ancestor includes the father and ancestress the mother;
-
-(f) "heir" means any person, male or female, who is entitled to succeed to the property of an
-intestate under this Act;
-
-(g) "intestate"a person is deemed to die intestate in respect of property of which he or she has
-not made a testamentary disposition capable of taking effect;
-
-(h) "marumakkattayam law" means the system of law applicable to persons
-
-(a) who, if this Act had not been passed, would have been governed by the Madras
-Marumakkattayam Act, 1932 (Madras Act 22 of 1933); the Travancore Nayar Act (2 of 1100K);
-
-the Travancore Ezhava Act (3 of 1100K); the Travancore Nanjinad Vellala Act (6 of 1101K); the
-Travancore Kshatriya Act (7 of 1108K); the Travancore Krishnanvaka Marumakkathayee (Act 7
-of 1115K); the Cochin Marumakkathayam Act (33 of 1113K); or the Cochin Nayar Act (29 of
-1113K); with respect to the matters for which provision is made in this Act; or
-
-(b) who belong to any community, the members of which are largely domiciled in the State of
-Travancore Cochin or Madras ^2[as it existed immediately before the 1st November, 1956], and
-who, if this Act had not been passed, would have been governed with respect to the matters for
-which provision is made in this Act by any system of inheritance in which descent is traced
-through the female line;
-
-but does not include the aliyasantana law;
-
-(i) "nambudri law" means the system of law applicable to persons who, if this Act had not been
-passed, would have been governed by the Madras Nambudri Act, 1932 Madras Act (21 of 1933); the
-Cochin Nambudri Act (17 of 111K); or the Travancore Malayala Brahmin Act (3 of 1106K); with
-respect to the matters for which provision is made in this Act;
-
-(j) "related" means related by legitimate kinship:
-
-Provided that illegitimate children shall be deemed to be related to their mother and to one
-another, and their legitimate descendants shall be deemed to be related to them and to one another;
-
-and any word expressing relationship or denoting a relative shall be construed accordingly.
-
-(2) In this Act, unless the context otherwise requires, words importing the masculine gender shall not
-be taken to include females.`)
-  (str footnotes) (str `1. Ins. by the Adaptation of Laws (No. 3) Order, 1956.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29915&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29915)
+  sectionNo (3)
+  orderNo 3
+  title `Definitions and interpretation.`
+  content obj_root_law_sections_3_content
+  footnotes `1. Ins. by the Adaptation of Laws (No. 3) Order, 1956.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29915&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_3_content:
+  string
+  line `(1) In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "agnate" person is said to be an agnate of another if the two are related by blood or`
+  line `adoption wholly through males;`
+  line
+  line `(b) "aliyasantana law" means the system of law applicable to persons who, if this Act had not`
+  line `been passed, would have been governed by the Madras Aliyasantana Act, 1949, (Madras Act 9 of`
+  line `1949) or by the customary aliyasantana law with respect to the matters for which provision is made in`
+  line `this Act;`
+  line
+  line `(c) "cognate" person is said to be a cognate of another if the two are related by blood or`
+  line `adoption but not wholly through males;`
+  line
+  line `(d) the expressions "custom" and "usage" signify any rule which, having been continuously and`
+  line `uniformly observed for a long time, has obtained the force of law among Hindus in any local area,`
+  line `tribe, community, group or family:`
+  line
+  line `Provided that the rule is certain and not unreasonable or opposed to public policy: and`
+  line
+  line `Provided further that in the case of a rule applicable only to a family it has not been discontinued`
+  line `by the family;`
+  line
+  line `(e) full blood "half blood" and "uterine blood"--`
+  line
+  line `(i) two persons are said to be related to each other by full blood when they are descended`
+  line `from a common ancestor by the same wife, and by half blood when they are descended from a`
+  line `common ancestor but by different wives;`
+  line
+  line `(ii) two persons are said to be related to each other by uterine blood when they are descended`
+  line `from a common ancestress but by different husbands;`
+  line
+  line `Explanation.In this clause ancestor includes the father and ancestress the mother;`
+  line
+  line `(f) "heir" means any person, male or female, who is entitled to succeed to the property of an`
+  line `intestate under this Act;`
+  line
+  line `(g) "intestate"a person is deemed to die intestate in respect of property of which he or she has`
+  line `not made a testamentary disposition capable of taking effect;`
+  line
+  line `(h) "marumakkattayam law" means the system of law applicable to persons`
+  line
+  line `(a) who, if this Act had not been passed, would have been governed by the Madras`
+  line `Marumakkattayam Act, 1932 (Madras Act 22 of 1933); the Travancore Nayar Act (2 of 1100K);`
+  line
+  line `the Travancore Ezhava Act (3 of 1100K); the Travancore Nanjinad Vellala Act (6 of 1101K); the`
+  line `Travancore Kshatriya Act (7 of 1108K); the Travancore Krishnanvaka Marumakkathayee (Act 7`
+  line `of 1115K); the Cochin Marumakkathayam Act (33 of 1113K); or the Cochin Nayar Act (29 of`
+  line `1113K); with respect to the matters for which provision is made in this Act; or`
+  line
+  line `(b) who belong to any community, the members of which are largely domiciled in the State of`
+  line `Travancore Cochin or Madras ^2[as it existed immediately before the 1st November, 1956], and`
+  line `who, if this Act had not been passed, would have been governed with respect to the matters for`
+  line `which provision is made in this Act by any system of inheritance in which descent is traced`
+  line `through the female line;`
+  line
+  line `but does not include the aliyasantana law;`
+  line
+  line `(i) "nambudri law" means the system of law applicable to persons who, if this Act had not been`
+  line `passed, would have been governed by the Madras Nambudri Act, 1932 Madras Act (21 of 1933); the`
+  line `Cochin Nambudri Act (17 of 111K); or the Travancore Malayala Brahmin Act (3 of 1106K); with`
+  line `respect to the matters for which provision is made in this Act;`
+  line
+  line `(j) "related" means related by legitimate kinship:`
+  line
+  line `Provided that illegitimate children shall be deemed to be related to their mother and to one`
+  line `another, and their legitimate descendants shall be deemed to be related to them and to one another;`
+  line
+  line `and any word expressing relationship or denoting a relative shall be construed accordingly.`
+  line
+  line `(2) In this Act, unless the context otherwise requires, words importing the masculine gender shall not`
+  line `be taken to include females.`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 29916)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Overriding effect of Act.`)
-  (str content) (str `(1) Save as otherwise expressly provided in this Act,
-
-(a) any text, rule or interpretation of Hindu law or any custom or usage as part of that law in force
-immediately before the commencement of this Act shall cease to have effect with respect to any
-matter for which provision is made in this Act;
-
-(b) any other law in force immediately before the commencement of this Act shall cease to apply
-to Hindus in so far as it is inconsistent with any of the provisions contained in this Act.
-
-^1*****`)
-  (str footnotes) (str `1. Omitted by Act 39 of 2005, s. 2 (w.e.f. 9-9-2005).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29916&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29916)
+  sectionNo (4)
+  orderNo 4
+  title `Overriding effect of Act.`
+  content obj_root_law_sections_4_content
+  footnotes `1. Omitted by Act 39 of 2005, s. 2 (w.e.f. 9-9-2005).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29916&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_4_content:
+  string
+  line `(1) Save as otherwise expressly provided in this Act,`
+  line
+  line `(a) any text, rule or interpretation of Hindu law or any custom or usage as part of that law in force`
+  line `immediately before the commencement of this Act shall cease to have effect with respect to any`
+  line `matter for which provision is made in this Act;`
+  line
+  line `(b) any other law in force immediately before the commencement of this Act shall cease to apply`
+  line `to Hindus in so far as it is inconsistent with any of the provisions contained in this Act.`
+  line
+  line ^1*****
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 29917)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Act not to apply to certain properties.`)
-  (str content) (str `This Act shall not apply to―
-
-(i) any property succession to which is regulated by the Indian Succession Act, 1925 ( 39 of
-1925), by reason of the provisions contained in section 21 of the Special Marriage Act, 1954 (43 of
-1954);
-
-(ii) any estate which descends to a single heir by the terms of any covenant or agreement entered
-into by the Ruler of any Indian State with the Government of India or by the terms of any enactment
-passed before the commencement of this Act;
-
-(iii) the Valiamma Thampuran Kovilagam Estate and the Palace Fund administered by the Palace
-Administration Board by reason of the powers conferred by Proclamation (IX of 1124) dated 29th
-June, 1949, promulgated by the Maharaja of Cochin.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29917&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29917)
+  sectionNo (5)
+  orderNo 5
+  title `Act not to apply to certain properties.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29917&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_5_content:
+  string
+  line `This Act shall not apply to―`
+  line
+  line `(i) any property succession to which is regulated by the Indian Succession Act, 1925 ( 39 of`
+  line `1925), by reason of the provisions contained in section 21 of the Special Marriage Act, 1954 (43 of`
+  line `1954);`
+  line
+  line `(ii) any estate which descends to a single heir by the terms of any covenant or agreement entered`
+  line `into by the Ruler of any Indian State with the Government of India or by the terms of any enactment`
+  line `passed before the commencement of this Act;`
+  line
+  line `(iii) the Valiamma Thampuran Kovilagam Estate and the Palace Fund administered by the Palace`
+  line `Administration Board by reason of the powers conferred by Proclamation (IX of 1124) dated 29th`
+  line `June, 1949, promulgated by the Maharaja of Cochin.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 29918)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Devolution of interest in coparcenary property.`)
-  (str content) (str `^1[(1) On and from the commencement of the
-Hindu Succession (Amendment) Act, 2005 (39 of 2005), in a Joint Hindu family governed by the
-Mitakshara law, the daughter of a coparcener shall,
-
-(a) by birth become a coparcener in her own right the same manner as the son;
-
-(b) have the same rights in the coparcenery property as she would have had if she had been a son;
-
-(c) be subject to the same liabilities in respect of the said coparcenery property as that of a son,
-and any reference to a Hindu Mitakshara coparcener shall be deemed to include a reference to a daughter
-of a coparcener:
-
-Provided that nothing contained in this sub-section shall affect or invalidate any disposition or
-alienation including any partition or testamentary disposition of property which had taken place before the
-20th day of December, 2004.
-
-(2) Any property to which a female Hindu becomes entitled by virtue of sub-section (1) shall be held
-by her with the incidents of coparcenary ownership and shall be regarded, notwithstanding anything
-contained in this Act or any other law for the time being in force, as property capable of being disposed of
-by her by testamentary disposition.
-
-(3) Where a Hindu dies after the commencement of the Hindu Succession (Amendment) Act, 2005
-(39 of 2005), his interest in the property of a Joint Hindu family governed by the Mitakshara law, shall
-devolve by testamentary or intestate succession, as the case may be, under this Act and not by
-survivorship, and the coparcenery property shall be deemed to have been divided as if a partition had
-taken place and,
-
-(a) the daughter is allotted the same share as is allotted to a son;
-
-(b) the share of the pre-deceased son or a pre-deceased daughter, as they would have got had they
-been alive at the time of partition, shall be allotted to the surviving child of such pre-deceased son or
-of such pre-deceased daughter; and
-
-(c) the share of the pre-deceased child of a pre-deceased son or of a pre-deceased daughter, as
-such child would have got had he or she been alive at the time of the partition, shall be allotted to the
-child of such pre-deceased child of the pre-deceased son or a pre-deceased daughter, as the case may
-be.
-
-Explanation.--For the purposes of this sub-section, the interest of a Hindu Mitakshara coparcener
-shall be deemed to be the share in the property that would have been allotted to him if a partition of the
-property had taken place immediately before his death, irrespective of whether he was entitled to claim
-partition or not.
-
-(4) After the commencement of the Hindu Succession (Amendment) Act, 2005 (39 of 2005), no court
-shall recognise any right to proceed against a son, grandson or great-grandson for the recovery of any debt
-due from his father, grandfather or great-grandfather solely on the ground of the pious obligation under
-the Hindu law, of such son, grandson or great-grandson to discharge any such debt:
-
-Provided that in the case of any debt contracted before the commencement of the Hindu Succession
-(Amendment) Act, 2005 (39 of 2005), nothing contained in this sub-section shall affect
-
-(a) the right of any creditor to proceed against the son, grandson or great-grandson, as the case
-may be; or
-
-(b) any alienation made in respect of or in satisfaction of, any such debt, and any such right or
-alienation shall be enforceable under the rule of pious obligation in the same manner and to the same
-extent as it would have been enforceable as if the Hindu Succession (Amendment) Act, 2005
-(39 of 2005) had not been enacted.
-
-Explanation--For the purposes of clause (a), the expression son, grandson or great-grandson
-shall be deemed to refer to the son, grandson or great-grandson, as the case may be, who was born or
-adopted prior to the commencement of the Hindu Succession (Amendment) Act, 2005 (39 of 2005).
-
-(5) Nothing contained in this section shall apply to a partition, which has been effected before the
-20th day of December, 2004
-
-Explanation.--For the purposes of this section partition means any partition made by execution of
-a deed of partition duly registered under the Registration Act, 1908 (16 of 1908) or partition effected by a
-decree of a court.]
-
-STATE AMENDMENTS
-
-Karnataka.--
-
-Insertion of new sections in Central Act 30 of 1956.--In the Hindu Succession Act, 1956 (Central
-Act 30 of 1956) after section 6, the following sections shall be inserted, namely:--
-
-[6A. Equal rights to daughter in co-parcenary property.Notwithstanding anything contained in
-section 6 of this Act,--
-
-(a) in a joint Hindu family governed by Mitakshara law, the daughter of a co-parcener shall by
-birth become a co-parcener in her own right in the same manner as the son and have the same rights
-in the co-parcenary property as she would have had if she had been a son inclusive of the right to
-claim by survivorship and shall be subject to the same liabilities and disabilities in respect thereto as
-the son;
-
-(b) at a partition in such Joint Hindu Family the co-parcenary property shall be so divided as to
-allot to a daughter the same share as is allotable to a son:
-
-Provided that the share which a predeceased son or a predeceased daughter would have got at the
-partition if he or she had been alive at the time of the partition, shall be allotted to the surviving child
-of such predeceased son or of such predeceased daughter:
-
-Provided further that the share allotable to the predeceased child of the predeceased son or of a
-predeceased daughter, if such child had been alive at the time of the partition, shall be allotted to the
-child of such predeceased child of the predeceased son or of such predeceased daughter, as the case
-may be;
-
-(c) any property to which a female Hindu becomes entitled by virtue of the provisions of clause
-(a) shall be held by her with the incidents of co-parcenary ownership and shall be regarded,
-notwithstanding anything contained in this Act or any other law for the time being in force, as
-property capable of being disposed of by her by will or other testamentary disposition;
-
-(d) nothing in clause (b) shall apply to a daughter married prior to or to a partition which had
-been effected before the commencement of Hindu Succession (Karnataka Amendment) Act, 1990.
-
-6B. Interest to devolve by survivorship on death.--When a female Hindu dies after the
-commencement of the Hindu Succession (Karnataka Amendment) Act, 1990, having at the time of her
-death an interest in a Mitakshara co-parcenary property, her interest in the property shall devolve by
-survivorship upon the surviving members of the co-parcenary and not in accordance with this Act:
-
-Provided that if the deceased had left any child or child of a pre-deceased child, the interest of the
-deceased in the Mitakshara co-parcenary property shall devolve by testamentary or intestate succession,
-as the case may be, under this Act and not by survivorship.
-
-Explanation.--(1) For the purposes of this section the interest of female Hindu Mitakshara coparcener shall be deemed to be the share in the property that would have been allotted to her if a partition
-of the property had taken place immediately before her death, irrespective of whether she was entitled to
-claim partition or not.
-
-(2) Nothing contained in the proviso to this section shall be construed as enabling a person who,
-before the death of the deceased had separated himself or herself from the co-parcenary, or any of his or
-her heirs to claim on intestacy a share in the interest referred to therein.
-
-6C. Preferential right to acquire property in certain cases.--(1) Where, after the commencement
-of Hindu Succession (Karnataka Amendment) Act, 1990 an interest in any immovable property of an
-intestate or in any business carried on by him or her, whether solely or in conjunction with others
-devolves under sections 6A or 6B upon two or more heirs and any one of such heirs proposes to transfer
-his or her interest in the property or business, the other heirs shall have a preferential right to acquire the
-interest proposed to be transferred.
-
-(2) The consideration for which any interest in the property of the deceased may be transferred under
-sub-section (1) shall, in the absence of any agreement between the parties, be determined by the court, on
-application, being made to it in this behalf, and if any person proposing to acquire the interest is not
-willing to acquire it for the consideration so determined, such person shall be liable to pay all costs of or
-incidental to the application.
-
-(3) If there are two or more heirs proposing to acquire any interest under, this section, that heir who
-offers the highest consideration for the transfer shall be preferred.
-
-Explanation.--In this section 'Court' means the court within the limits of whose jurisdiction the
-immoveable property is situate or the business is carried on, and includes any other court which the State
-Government may by notification in the official Gazette specify in this behalf.]
-
-[vide Karnataka Act 23 of 1994, sec. 2].`)
-  (str footnotes) (str `1. Subs. by s. 3, ibid., for section 6 (w.e.f. 9-9-2005)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29918&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29918)
+  sectionNo (6)
+  orderNo 6
+  title `Devolution of interest in coparcenary property.`
+  content obj_root_law_sections_6_content
+  footnotes `1. Subs. by s. 3, ibid., for section 6 (w.e.f. 9-9-2005)`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29918&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_6_content:
+  string
+  line `^1[(1) On and from the commencement of the`
+  line `Hindu Succession (Amendment) Act, 2005 (39 of 2005), in a Joint Hindu family governed by the`
+  line `Mitakshara law, the daughter of a coparcener shall,`
+  line
+  line `(a) by birth become a coparcener in her own right the same manner as the son;`
+  line
+  line `(b) have the same rights in the coparcenery property as she would have had if she had been a son;`
+  line
+  line `(c) be subject to the same liabilities in respect of the said coparcenery property as that of a son,`
+  line `and any reference to a Hindu Mitakshara coparcener shall be deemed to include a reference to a daughter`
+  line `of a coparcener:`
+  line
+  line `Provided that nothing contained in this sub-section shall affect or invalidate any disposition or`
+  line `alienation including any partition or testamentary disposition of property which had taken place before the`
+  line `20th day of December, 2004.`
+  line
+  line `(2) Any property to which a female Hindu becomes entitled by virtue of sub-section (1) shall be held`
+  line `by her with the incidents of coparcenary ownership and shall be regarded, notwithstanding anything`
+  line `contained in this Act or any other law for the time being in force, as property capable of being disposed of`
+  line `by her by testamentary disposition.`
+  line
+  line `(3) Where a Hindu dies after the commencement of the Hindu Succession (Amendment) Act, 2005`
+  line `(39 of 2005), his interest in the property of a Joint Hindu family governed by the Mitakshara law, shall`
+  line `devolve by testamentary or intestate succession, as the case may be, under this Act and not by`
+  line `survivorship, and the coparcenery property shall be deemed to have been divided as if a partition had`
+  line `taken place and,`
+  line
+  line `(a) the daughter is allotted the same share as is allotted to a son;`
+  line
+  line `(b) the share of the pre-deceased son or a pre-deceased daughter, as they would have got had they`
+  line `been alive at the time of partition, shall be allotted to the surviving child of such pre-deceased son or`
+  line `of such pre-deceased daughter; and`
+  line
+  line `(c) the share of the pre-deceased child of a pre-deceased son or of a pre-deceased daughter, as`
+  line `such child would have got had he or she been alive at the time of the partition, shall be allotted to the`
+  line `child of such pre-deceased child of the pre-deceased son or a pre-deceased daughter, as the case may`
+  line be.
+  line
+  line `Explanation.--For the purposes of this sub-section, the interest of a Hindu Mitakshara coparcener`
+  line `shall be deemed to be the share in the property that would have been allotted to him if a partition of the`
+  line `property had taken place immediately before his death, irrespective of whether he was entitled to claim`
+  line `partition or not.`
+  line
+  line `(4) After the commencement of the Hindu Succession (Amendment) Act, 2005 (39 of 2005), no court`
+  line `shall recognise any right to proceed against a son, grandson or great-grandson for the recovery of any debt`
+  line `due from his father, grandfather or great-grandfather solely on the ground of the pious obligation under`
+  line `the Hindu law, of such son, grandson or great-grandson to discharge any such debt:`
+  line
+  line `Provided that in the case of any debt contracted before the commencement of the Hindu Succession`
+  line `(Amendment) Act, 2005 (39 of 2005), nothing contained in this sub-section shall affect`
+  line
+  line `(a) the right of any creditor to proceed against the son, grandson or great-grandson, as the case`
+  line `may be; or`
+  line
+  line `(b) any alienation made in respect of or in satisfaction of, any such debt, and any such right or`
+  line `alienation shall be enforceable under the rule of pious obligation in the same manner and to the same`
+  line `extent as it would have been enforceable as if the Hindu Succession (Amendment) Act, 2005`
+  line `(39 of 2005) had not been enacted.`
+  line
+  line `Explanation--For the purposes of clause (a), the expression son, grandson or great-grandson`
+  line `shall be deemed to refer to the son, grandson or great-grandson, as the case may be, who was born or`
+  line `adopted prior to the commencement of the Hindu Succession (Amendment) Act, 2005 (39 of 2005).`
+  line
+  line `(5) Nothing contained in this section shall apply to a partition, which has been effected before the`
+  line `20th day of December, 2004`
+  line
+  line `Explanation.--For the purposes of this section partition means any partition made by execution of`
+  line `a deed of partition duly registered under the Registration Act, 1908 (16 of 1908) or partition effected by a`
+  line `decree of a court.]`
+  line
+  line `STATE AMENDMENTS`
+  line
+  line Karnataka.--
+  line
+  line `Insertion of new sections in Central Act 30 of 1956.--In the Hindu Succession Act, 1956 (Central`
+  line `Act 30 of 1956) after section 6, the following sections shall be inserted, namely:--`
+  line
+  line `[6A. Equal rights to daughter in co-parcenary property.Notwithstanding anything contained in`
+  line `section 6 of this Act,--`
+  line
+  line `(a) in a joint Hindu family governed by Mitakshara law, the daughter of a co-parcener shall by`
+  line `birth become a co-parcener in her own right in the same manner as the son and have the same rights`
+  line `in the co-parcenary property as she would have had if she had been a son inclusive of the right to`
+  line `claim by survivorship and shall be subject to the same liabilities and disabilities in respect thereto as`
+  line `the son;`
+  line
+  line `(b) at a partition in such Joint Hindu Family the co-parcenary property shall be so divided as to`
+  line `allot to a daughter the same share as is allotable to a son:`
+  line
+  line `Provided that the share which a predeceased son or a predeceased daughter would have got at the`
+  line `partition if he or she had been alive at the time of the partition, shall be allotted to the surviving child`
+  line `of such predeceased son or of such predeceased daughter:`
+  line
+  line `Provided further that the share allotable to the predeceased child of the predeceased son or of a`
+  line `predeceased daughter, if such child had been alive at the time of the partition, shall be allotted to the`
+  line `child of such predeceased child of the predeceased son or of such predeceased daughter, as the case`
+  line `may be;`
+  line
+  line `(c) any property to which a female Hindu becomes entitled by virtue of the provisions of clause`
+  line `(a) shall be held by her with the incidents of co-parcenary ownership and shall be regarded,`
+  line `notwithstanding anything contained in this Act or any other law for the time being in force, as`
+  line `property capable of being disposed of by her by will or other testamentary disposition;`
+  line
+  line `(d) nothing in clause (b) shall apply to a daughter married prior to or to a partition which had`
+  line `been effected before the commencement of Hindu Succession (Karnataka Amendment) Act, 1990.`
+  line
+  line `6B. Interest to devolve by survivorship on death.--When a female Hindu dies after the`
+  line `commencement of the Hindu Succession (Karnataka Amendment) Act, 1990, having at the time of her`
+  line `death an interest in a Mitakshara co-parcenary property, her interest in the property shall devolve by`
+  line `survivorship upon the surviving members of the co-parcenary and not in accordance with this Act:`
+  line
+  line `Provided that if the deceased had left any child or child of a pre-deceased child, the interest of the`
+  line `deceased in the Mitakshara co-parcenary property shall devolve by testamentary or intestate succession,`
+  line `as the case may be, under this Act and not by survivorship.`
+  line
+  line `Explanation.--(1) For the purposes of this section the interest of female Hindu Mitakshara coparcener shall be deemed to be the share in the property that would have been allotted to her if a partition`
+  line `of the property had taken place immediately before her death, irrespective of whether she was entitled to`
+  line `claim partition or not.`
+  line
+  line `(2) Nothing contained in the proviso to this section shall be construed as enabling a person who,`
+  line `before the death of the deceased had separated himself or herself from the co-parcenary, or any of his or`
+  line `her heirs to claim on intestacy a share in the interest referred to therein.`
+  line
+  line `6C. Preferential right to acquire property in certain cases.--(1) Where, after the commencement`
+  line `of Hindu Succession (Karnataka Amendment) Act, 1990 an interest in any immovable property of an`
+  line `intestate or in any business carried on by him or her, whether solely or in conjunction with others`
+  line `devolves under sections 6A or 6B upon two or more heirs and any one of such heirs proposes to transfer`
+  line `his or her interest in the property or business, the other heirs shall have a preferential right to acquire the`
+  line `interest proposed to be transferred.`
+  line
+  line `(2) The consideration for which any interest in the property of the deceased may be transferred under`
+  line `sub-section (1) shall, in the absence of any agreement between the parties, be determined by the court, on`
+  line `application, being made to it in this behalf, and if any person proposing to acquire the interest is not`
+  line `willing to acquire it for the consideration so determined, such person shall be liable to pay all costs of or`
+  line `incidental to the application.`
+  line
+  line `(3) If there are two or more heirs proposing to acquire any interest under, this section, that heir who`
+  line `offers the highest consideration for the transfer shall be preferred.`
+  line
+  line `Explanation.--In this section 'Court' means the court within the limits of whose jurisdiction the`
+  line `immoveable property is situate or the business is carried on, and includes any other court which the State`
+  line `Government may by notification in the official Gazette specify in this behalf.]`
+  line
+  line `[vide Karnataka Act 23 of 1994, sec. 2].`
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 29919)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Devolution of interest in the property of a tarwad, tavazhi, kutumba, kavaru or illom.`)
-  (str content) (str `(1) When a Hindu to whom the marumakkattayam or nambudri law would have applied if this
-Act had not been passed dies after the commencement of this Act, having at the time of his or her death
-an interest in the property of a tarwad, tavazhi or illom, as the case may be, his or her interest in the
-property shall devolve by testamentary or intestate succession, as the case may be, under this Act and not
-according to the marumakkattayam or nambudri law.
-
-Explanation.For the purposes of this sub-section, the interest of a Hindu in the property of a
-tarwad, tavazhi or illom shall be deemed to be the share in the property of the tarwad, tavazhi or illom, as
-the case may be, that would have fallen to him or her if a partition of that property per capita had been
-made immediately before his or her death among all the members of the tarwad, tavazhi or illom, as the
-case may be, then living, whether he or she was entitled to claim such partition or not under the
-marumakkattayam or nambudri law applicable to him or her, and such share shall be deemed to have been
-allotted to him or her absolutely.
-
-(2) When a Hindu to whom the aliyasantana law would have applied if this Act had not been passed
-dies after the commencement of this Act, having at the time of his or her death an undivided interest in
-the property of a kutumba or kavaru, as the case may be, his or her interest in the property shall devolve
-by testamentary or intestate succession, as the case may be, under this Act and not according to the
-aliyasantana law.
-
-Explanation.For the purposes of this sub-section, the interest of a Hindu in the property of a kutumba or kavaru shall be deemed to be the share in the property of the kutumba or kavaru, as the case
-may be, that would have fallen to him or her if a partition of that property per capita had been made
-immediately before his or her death among all the members of the kutumba or kavaru, as the case may be,
-then living, whether he or she was entitled to claim such partition or not under the aliyasantana law, and
-such share shall be deemed to have been allotted to him or her absolutely.
-
-(3) Notwithstanding anything contained in sub-section (1), when a sthanamdar dies after the
-commencement of this Act, the sthanam property held by him shall devolve upon the members of the
-family to which the sthanamdar belonged and the heirs of the sthanamdar as if the sthanam property had
-been divided per capita immediately before the death of the sthanamdar among himself and all the
-members of his family then living,, and the shares falling to the members of his family and the heirs of the
-sthanamdar shall be held by them as their separate property.
-
-ExplanationFor the purposes of this sub-section, the family of a sthanamdar shall include every
-branch of that family, whether divided or undivided, the male members of which would have been
-entitled by any custom or usage to succeed to the position of sthanamdar if this Act had not been passed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29919&sectionno=7&orderno=7&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29919)
+  sectionNo (7)
+  orderNo 7
+  title `Devolution of interest in the property of a tarwad, tavazhi, kutumba, kavaru or illom.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29919&sectionno=7&orderno=7&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_7_content:
+  string
+  line `(1) When a Hindu to whom the marumakkattayam or nambudri law would have applied if this`
+  line `Act had not been passed dies after the commencement of this Act, having at the time of his or her death`
+  line `an interest in the property of a tarwad, tavazhi or illom, as the case may be, his or her interest in the`
+  line `property shall devolve by testamentary or intestate succession, as the case may be, under this Act and not`
+  line `according to the marumakkattayam or nambudri law.`
+  line
+  line `Explanation.For the purposes of this sub-section, the interest of a Hindu in the property of a`
+  line `tarwad, tavazhi or illom shall be deemed to be the share in the property of the tarwad, tavazhi or illom, as`
+  line `the case may be, that would have fallen to him or her if a partition of that property per capita had been`
+  line `made immediately before his or her death among all the members of the tarwad, tavazhi or illom, as the`
+  line `case may be, then living, whether he or she was entitled to claim such partition or not under the`
+  line `marumakkattayam or nambudri law applicable to him or her, and such share shall be deemed to have been`
+  line `allotted to him or her absolutely.`
+  line
+  line `(2) When a Hindu to whom the aliyasantana law would have applied if this Act had not been passed`
+  line `dies after the commencement of this Act, having at the time of his or her death an undivided interest in`
+  line `the property of a kutumba or kavaru, as the case may be, his or her interest in the property shall devolve`
+  line `by testamentary or intestate succession, as the case may be, under this Act and not according to the`
+  line `aliyasantana law.`
+  line
+  line `Explanation.For the purposes of this sub-section, the interest of a Hindu in the property of a kutumba or kavaru shall be deemed to be the share in the property of the kutumba or kavaru, as the case`
+  line `may be, that would have fallen to him or her if a partition of that property per capita had been made`
+  line `immediately before his or her death among all the members of the kutumba or kavaru, as the case may be,`
+  line `then living, whether he or she was entitled to claim such partition or not under the aliyasantana law, and`
+  line `such share shall be deemed to have been allotted to him or her absolutely.`
+  line
+  line `(3) Notwithstanding anything contained in sub-section (1), when a sthanamdar dies after the`
+  line `commencement of this Act, the sthanam property held by him shall devolve upon the members of the`
+  line `family to which the sthanamdar belonged and the heirs of the sthanamdar as if the sthanam property had`
+  line `been divided per capita immediately before the death of the sthanamdar among himself and all the`
+  line `members of his family then living,, and the shares falling to the members of his family and the heirs of the`
+  line `sthanamdar shall be held by them as their separate property.`
+  line
+  line `ExplanationFor the purposes of this sub-section, the family of a sthanamdar shall include every`
+  line `branch of that family, whether divided or undivided, the male members of which would have been`
+  line `entitled by any custom or usage to succeed to the position of sthanamdar if this Act had not been passed.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 29920)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `General rules of succession in the case of males.`)
-  (str content) (str `The property of a male Hindu dying intestate
-shall devolve according to the provisions of this Chapter:--
-
-(a) firstly, upon the heirs, being the relatives specified in class I of the Schedule;
-
-(b) secondly, if there is no heir of class I, then upon the heirs, being the relatives specified in class
-II of the Schedule;
-
-(c) thirdly, if there is no heir of any of the two classes, then upon the agnates of the deceased; and
-
-(d) lastly, if there is no agnate, then upon the cognates of the deceased.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29920&sectionno=8&orderno=8&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29920)
+  sectionNo (8)
+  orderNo 8
+  title `General rules of succession in the case of males.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29920&sectionno=8&orderno=8&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_8_content:
+  string
+  line `The property of a male Hindu dying intestate`
+  line `shall devolve according to the provisions of this Chapter:--`
+  line
+  line `(a) firstly, upon the heirs, being the relatives specified in class I of the Schedule;`
+  line
+  line `(b) secondly, if there is no heir of class I, then upon the heirs, being the relatives specified in class`
+  line `II of the Schedule;`
+  line
+  line `(c) thirdly, if there is no heir of any of the two classes, then upon the agnates of the deceased; and`
+  line
+  line `(d) lastly, if there is no agnate, then upon the cognates of the deceased.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 29921)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Order of succession among heirs in the Schedule.`)
-  (str content) (str `Among the heirs specified in the Schedule,
-those in class I shall take simultaneously and to the exclusion of all other heirs; those in the first entry in
-class II shall be preferred to those in the second entry; those in the second entry shall be preferred to those
-in the third entry; and so on in succession.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29921&sectionno=9&orderno=9&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29921)
+  sectionNo (9)
+  orderNo 9
+  title `Order of succession among heirs in the Schedule.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29921&sectionno=9&orderno=9&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_9_content:
+  string
+  line `Among the heirs specified in the Schedule,`
+  line `those in class I shall take simultaneously and to the exclusion of all other heirs; those in the first entry in`
+  line `class II shall be preferred to those in the second entry; those in the second entry shall be preferred to those`
+  line `in the third entry; and so on in succession.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 29922)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Distribution of property among heirs in class I of the Schedule.`)
-  (str content) (str `The property of an intestate
-shall be divided among the heirs in class I of the Schedule in accordance with the following rules:―
-
-Rule 1.―The intestates widow, or if there are more widows than one, all the widows together,
-shall take one share.
-
-Rule 2.―The surviving sons and daughters and the mother of the intestate shall each take one
-share.
-
-Rule 3.―The heirs in the branch of each pre-deceased son or each pre-deceased daughter of the
-intestate shall take between them one share.
-
-Rule 4.―The distribution of the share referred to in Rule 3
-
-(i) among the heirs in the branch of the pre-deceased son shall be so made that his widow (or
-widows together) and the surviving sons and daughters get equal portions; and the branch of his
-pre-deceased sons gets the same portion;
-
-(ii) among the heirs in the branch of the pre-deceased daughter shall be so made that the
-surviving sons and daughters get equal portions.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29922&sectionno=10&orderno=10&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29922)
+  sectionNo (10)
+  orderNo 10
+  title `Distribution of property among heirs in class I of the Schedule.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29922&sectionno=10&orderno=10&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_10_content:
+  string
+  line `The property of an intestate`
+  line `shall be divided among the heirs in class I of the Schedule in accordance with the following rules:―`
+  line
+  line `Rule 1.―The intestates widow, or if there are more widows than one, all the widows together,`
+  line `shall take one share.`
+  line
+  line `Rule 2.―The surviving sons and daughters and the mother of the intestate shall each take one`
+  line share.
+  line
+  line `Rule 3.―The heirs in the branch of each pre-deceased son or each pre-deceased daughter of the`
+  line `intestate shall take between them one share.`
+  line
+  line `Rule 4.―The distribution of the share referred to in Rule 3`
+  line
+  line `(i) among the heirs in the branch of the pre-deceased son shall be so made that his widow (or`
+  line `widows together) and the surviving sons and daughters get equal portions; and the branch of his`
+  line `pre-deceased sons gets the same portion;`
+  line
+  line `(ii) among the heirs in the branch of the pre-deceased daughter shall be so made that the`
+  line `surviving sons and daughters get equal portions.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 29923)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Distribution of property among heirs in class II of the Schedule.`)
-  (str content) (str `The property of an intestate
-shall be divided between the heirs specified in any one entry in class II of the Schedule so that they, share
-equally.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29923&sectionno=11&orderno=11&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29923)
+  sectionNo (11)
+  orderNo 11
+  title `Distribution of property among heirs in class II of the Schedule.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29923&sectionno=11&orderno=11&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_11_content:
+  string
+  line `The property of an intestate`
+  line `shall be divided between the heirs specified in any one entry in class II of the Schedule so that they, share`
+  line equally.
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 29924)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Order of succession among agnates and congnates.`)
-  (str content) (str `The order of succession among agnates or
-cognates, as the case may be, shall be determined in accordance with the rules of preference laid down
-hereunder:
-
-Rule 1.—Of two heirs, the one who has fewer or no degrees of ascent is preferred.
-
-Rule 2.—Where the number of degrees of ascent is the same or none, that heir is preferred who
-has fewer or no degrees of descent.
-
-Rule 3.—Where neither heir is entitled to be preferred to the other under Rule 1 or Rule 2 they
-take simultaneously.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29924&sectionno=12&orderno=12&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29924)
+  sectionNo (12)
+  orderNo 12
+  title `Order of succession among agnates and congnates.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29924&sectionno=12&orderno=12&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_12_content:
+  string
+  line `The order of succession among agnates or`
+  line `cognates, as the case may be, shall be determined in accordance with the rules of preference laid down`
+  line `hereunder:`
+  line
+  line `Rule 1.—Of two heirs, the one who has fewer or no degrees of ascent is preferred.`
+  line
+  line `Rule 2.—Where the number of degrees of ascent is the same or none, that heir is preferred who`
+  line `has fewer or no degrees of descent.`
+  line
+  line `Rule 3.—Where neither heir is entitled to be preferred to the other under Rule 1 or Rule 2 they`
+  line `take simultaneously.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 29925)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Computation of degrees.`)
-  (str content) (str `(1) For the purposes of determining the order of succession among
-agnates or cognates, relationship shall be reckoned from the intestate to the heir in terms of degrees of
-ascent or degrees of descent or both, as the case may be.
-
-(2) Degrees of ascent and degrees of descent shall be computed inclusive of the intestate.
-
-(3) Every generation constitutes a degree either ascending or descending.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29925&sectionno=13&orderno=13&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29925)
+  sectionNo (13)
+  orderNo 13
+  title `Computation of degrees.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29925&sectionno=13&orderno=13&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_13_content:
+  string
+  line `(1) For the purposes of determining the order of succession among`
+  line `agnates or cognates, relationship shall be reckoned from the intestate to the heir in terms of degrees of`
+  line `ascent or degrees of descent or both, as the case may be.`
+  line
+  line `(2) Degrees of ascent and degrees of descent shall be computed inclusive of the intestate.`
+  line
+  line `(3) Every generation constitutes a degree either ascending or descending.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 29926)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Property of a female Hindu to be her absolute property.`)
-  (str content) (str `(1) Any property possessed by a
-female Hindu, whether acquired before or after the commencement of this Act, shall be held by her as full
-owner thereof and not as a limited owner.
-
-Explanation.-- In this sub-section, "property" includes both movable and immovable property
-acquired by a female Hindu by inheritance or devise, or at a partition, or in lieu of maintenance or arrears
-of maintenance, or by gift from any person, whether a relative or not, before, at or after her marriage, or
-by her own skill or exertion, or by purchase or by prescription, or in any other manner whatsoever, and
-also any such property held by her as stridhana immediately before the commencement of this Act.
-
-(2) Nothing contained in sub-section (1) shall apply to any property acquired by way of gift or under
-a will or any other instrument or under a decree or order of a civil court or under an award where the
-terms of the gift, will or other instrument or the decree, order or award prescribe a restricted estate in such
-property.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29926&sectionno=14&orderno=14&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29926)
+  sectionNo (14)
+  orderNo 14
+  title `Property of a female Hindu to be her absolute property.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29926&sectionno=14&orderno=14&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_14_content:
+  string
+  line `(1) Any property possessed by a`
+  line `female Hindu, whether acquired before or after the commencement of this Act, shall be held by her as full`
+  line `owner thereof and not as a limited owner.`
+  line
+  line `Explanation.-- In this sub-section, "property" includes both movable and immovable property`
+  line `acquired by a female Hindu by inheritance or devise, or at a partition, or in lieu of maintenance or arrears`
+  line `of maintenance, or by gift from any person, whether a relative or not, before, at or after her marriage, or`
+  line `by her own skill or exertion, or by purchase or by prescription, or in any other manner whatsoever, and`
+  line `also any such property held by her as stridhana immediately before the commencement of this Act.`
+  line
+  line `(2) Nothing contained in sub-section (1) shall apply to any property acquired by way of gift or under`
+  line `a will or any other instrument or under a decree or order of a civil court or under an award where the`
+  line `terms of the gift, will or other instrument or the decree, order or award prescribe a restricted estate in such`
+  line property.
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 29927)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `General rules of succession in the case of female Hindus.`)
-  (str content) (str `(1) The property of a female Hindu
-dying intestate shall devolve according to the rules set out in section 16,
-
-(a) firstly, upon the sons and daughters (including the children of any pre-deceased son or
-daughter) and the husband;
-
-(b) secondly, upon the heirs of the husband;
-
-(c) thirdly, upon the mother and father;
-
-(d) fourthly, upon the heirs of the father; and
-
-(e) lastly, upon the heirs of the mother.
-
-(2) Notwithstanding anything contained in sub-section (1),
-
-(a) any property inherited by a female Hindu from her father or mother shall devolve, in the
-absence of any son or daughter of the deceased (including the children of any pre-deceased son or
-daughter) not upon the other heirs referred in sub-section (1) in the order specified therein, but upon
-the heirs of the father; and
-
-(b) any property inherited by a female Hindu from her husband or from her father-in-law shall
-devolve, in the absence of any son or daughter of the deceased (including the children of any
-pre-deceased son or daughter) not upon the other heirs referred to in sub-section (1) in the order
-specified therein, but upon the heirs of the husband.
-
-STATE AMENDMENT
-
-Kerala.--
-
-Amendment of section 15.--In the Hindu Succession Act, 1956 (Central Act 30 of 1956), in section
-15, after clause (b) of sub-section (2), the following clause shall be inserted, namely:--
-
-"(c)" any property inherited by a female Hindu from her pre-deceased son shall devolve, not upon the
-other heirs referred to in sub-section (1) in the order specified therein, but upon the heirs of the predeceased son from whom she inherited the property."
-
-[vide Kerala Act 17 of 2016, sec. 2].`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29927&sectionno=15&orderno=15&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29927)
+  sectionNo (15)
+  orderNo 15
+  title `General rules of succession in the case of female Hindus.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29927&sectionno=15&orderno=15&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_15_content:
+  string
+  line `(1) The property of a female Hindu`
+  line `dying intestate shall devolve according to the rules set out in section 16,`
+  line
+  line `(a) firstly, upon the sons and daughters (including the children of any pre-deceased son or`
+  line `daughter) and the husband;`
+  line
+  line `(b) secondly, upon the heirs of the husband;`
+  line
+  line `(c) thirdly, upon the mother and father;`
+  line
+  line `(d) fourthly, upon the heirs of the father; and`
+  line
+  line `(e) lastly, upon the heirs of the mother.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1),`
+  line
+  line `(a) any property inherited by a female Hindu from her father or mother shall devolve, in the`
+  line `absence of any son or daughter of the deceased (including the children of any pre-deceased son or`
+  line `daughter) not upon the other heirs referred in sub-section (1) in the order specified therein, but upon`
+  line `the heirs of the father; and`
+  line
+  line `(b) any property inherited by a female Hindu from her husband or from her father-in-law shall`
+  line `devolve, in the absence of any son or daughter of the deceased (including the children of any`
+  line `pre-deceased son or daughter) not upon the other heirs referred to in sub-section (1) in the order`
+  line `specified therein, but upon the heirs of the husband.`
+  line
+  line `STATE AMENDMENT`
+  line
+  line Kerala.--
+  line
+  line `Amendment of section 15.--In the Hindu Succession Act, 1956 (Central Act 30 of 1956), in section`
+  line `15, after clause (b) of sub-section (2), the following clause shall be inserted, namely:--`
+  line
+  line `"(c)" any property inherited by a female Hindu from her pre-deceased son shall devolve, not upon the`
+  line `other heirs referred to in sub-section (1) in the order specified therein, but upon the heirs of the predeceased son from whom she inherited the property."`
+  line
+  line `[vide Kerala Act 17 of 2016, sec. 2].`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 29928)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Order of succession and manner of distribution among heirs of a female Hindu.`)
-  (str content) (str `The order
-of succession among the heirs referred to in section 15 shall be, and the distribution of the intestate's
-property among those heirs shall take place according to the following rules, namely:―
-
-Rule 1.―Among the heirs specified in sub-section (1) of section 15, those in one entry shall be
-preferred to those in any succeeding entry, and those included in the same entry shall take simultaneously.
-
-Rule 2.―If any son or daughter of the intestate had pre-deceased the intestate leaving his or her own
-children alive at the time of the intestates death, the children of such son or daughter shall take between
-them the share which such son or daughter would have taken if living at the intestates death.
-
-Rule 3.―The devolution of the property of the intestate on the heirs referred to in clauses (b), (d) and
-(e) of sub-section (1) and in sub-section (2) of section 15 shall be in the same order and according to the
-same rules as would have applied if the property had been the father's or the mother's or the husband's as the case may be, and such person had died intestate in respect thereof immediately after the intestate's
-death.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29928&sectionno=16&orderno=16&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29928)
+  sectionNo (16)
+  orderNo 16
+  title `Order of succession and manner of distribution among heirs of a female Hindu.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29928&sectionno=16&orderno=16&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_16_content:
+  string
+  line `The order`
+  line `of succession among the heirs referred to in section 15 shall be, and the distribution of the intestate's`
+  line `property among those heirs shall take place according to the following rules, namely:―`
+  line
+  line `Rule 1.―Among the heirs specified in sub-section (1) of section 15, those in one entry shall be`
+  line `preferred to those in any succeeding entry, and those included in the same entry shall take simultaneously.`
+  line
+  line `Rule 2.―If any son or daughter of the intestate had pre-deceased the intestate leaving his or her own`
+  line `children alive at the time of the intestates death, the children of such son or daughter shall take between`
+  line `them the share which such son or daughter would have taken if living at the intestates death.`
+  line
+  line `Rule 3.―The devolution of the property of the intestate on the heirs referred to in clauses (b), (d) and`
+  line `(e) of sub-section (1) and in sub-section (2) of section 15 shall be in the same order and according to the`
+  line `same rules as would have applied if the property had been the father's or the mother's or the husband's as the case may be, and such person had died intestate in respect thereof immediately after the intestate's`
+  line death.
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 29929)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Special provisions respecting persons governed by marumakkattayam and aliyasantana laws.`)
-  (str content) (str `The provisions of sections 8, 10, 15 and 23 shall have effect in relation to persons who would
-have been governed by the marumakkattayam law or aliyasantana law if this Act had not been passed as if
-
-(i) for sub-clauses (c) and (d) of section 8, the following had been substituted, namely:
-
-"(c) thirdly, if there is no heir of any of the two classes, then upon his relatives, whether agnates or cognates.";
-
-(ii) for clauses (a) to (e) of sub-section (1) of section 15, the following had been substituted,
-namely:
-
-"(a) firstly, upon the sons and daughters (including the children of any pre-deceased son or
-daughter) and the mother;
-
-(b) secondly, upon the father and the husband;
-
-(c) thirdly, upon the heirs of the mother;
-
-(d) fourthly, upon the heirs of the father; and
-
-(e) lastly, upon the heirs of the husband.";
-
-(iii) clause (a) of sub-section (2) of section 15 had been omitted;
-
-(iv) section 23 had been omitted.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29929&sectionno=17&orderno=17&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29929)
+  sectionNo (17)
+  orderNo 17
+  title `Special provisions respecting persons governed by marumakkattayam and aliyasantana laws.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29929&sectionno=17&orderno=17&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_17_content:
+  string
+  line `The provisions of sections 8, 10, 15 and 23 shall have effect in relation to persons who would`
+  line `have been governed by the marumakkattayam law or aliyasantana law if this Act had not been passed as if`
+  line
+  line `(i) for sub-clauses (c) and (d) of section 8, the following had been substituted, namely:`
+  line
+  line `"(c) thirdly, if there is no heir of any of the two classes, then upon his relatives, whether agnates or cognates.";`
+  line
+  line `(ii) for clauses (a) to (e) of sub-section (1) of section 15, the following had been substituted,`
+  line `namely:`
+  line
+  line `"(a) firstly, upon the sons and daughters (including the children of any pre-deceased son or`
+  line `daughter) and the mother;`
+  line
+  line `(b) secondly, upon the father and the husband;`
+  line
+  line `(c) thirdly, upon the heirs of the mother;`
+  line
+  line `(d) fourthly, upon the heirs of the father; and`
+  line
+  line `(e) lastly, upon the heirs of the husband.";`
+  line
+  line `(iii) clause (a) of sub-section (2) of section 15 had been omitted;`
+  line
+  line `(iv) section 23 had been omitted.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 29930)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Full blood preferred to half blood.`)
-  (str content) (str `Heirs related to an intestate by full blood shall be preferred
-to heirs related by half blood, if the nature of the relationship is the same in every other respect.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29930&sectionno=18&orderno=18&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29930)
+  sectionNo (18)
+  orderNo 18
+  title `Full blood preferred to half blood.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29930&sectionno=18&orderno=18&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_18_content:
+  string
+  line `Heirs related to an intestate by full blood shall be preferred`
+  line `to heirs related by half blood, if the nature of the relationship is the same in every other respect.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 29931)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Mode of succession of two or more heirs.`)
-  (str content) (str `If two or more heirs succeed together to the property
-of an intestate, they shall take the property,―
-
-(a) save as otherwise expressly provided in this Act, per capita and not per stirpes; and
-
-(b) as tenants-in-common and not as joint tenants.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29931&sectionno=19&orderno=19&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29931)
+  sectionNo (19)
+  orderNo 19
+  title `Mode of succession of two or more heirs.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29931&sectionno=19&orderno=19&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_19_content:
+  string
+  line `If two or more heirs succeed together to the property`
+  line `of an intestate, they shall take the property,―`
+  line
+  line `(a) save as otherwise expressly provided in this Act, per capita and not per stirpes; and`
+  line
+  line `(b) as tenants-in-common and not as joint tenants.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 29932)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Right of child in womb.`)
-  (str content) (str `A child who was in the womb at the time of the death of an intestate
-and who is subsequently born alive shall have the same right to inherit to the intestate as if he or she had
-been born before the death of the intestate, and the inheritance shall be deemed to vest in such a case with
-effect from the date of the death of the intestate.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29932&sectionno=20&orderno=20&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29932)
+  sectionNo (20)
+  orderNo 20
+  title `Right of child in womb.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29932&sectionno=20&orderno=20&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_20_content:
+  string
+  line `A child who was in the womb at the time of the death of an intestate`
+  line `and who is subsequently born alive shall have the same right to inherit to the intestate as if he or she had`
+  line `been born before the death of the intestate, and the inheritance shall be deemed to vest in such a case with`
+  line `effect from the date of the death of the intestate.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 29933)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Presumption in cases of simultaneous deaths.`)
-  (str content) (str `Where two persons have died in circumstances
-rendering it uncertain whether either of them, and if so which, survived the other, then, for all purposes
-affecting succession to property, it shall be presumed, until the contrary is proved, that the younger
-survived the elder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29933&sectionno=21&orderno=21&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29933)
+  sectionNo (21)
+  orderNo 21
+  title `Presumption in cases of simultaneous deaths.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29933&sectionno=21&orderno=21&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_21_content:
+  string
+  line `Where two persons have died in circumstances`
+  line `rendering it uncertain whether either of them, and if so which, survived the other, then, for all purposes`
+  line `affecting succession to property, it shall be presumed, until the contrary is proved, that the younger`
+  line `survived the elder.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 29934)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Preferential right to acquire property in certain cases.`)
-  (str content) (str `(1) Where, after the commencement
-of this Act, an interest in any immovable property of an intestate, or in any business carried on by him or
-her, whether solely or in conjunction with others, devolves upon two or more heirs specified in class I of
-the Schedule, and any one of such heirs proposes to transfer his or her interest in the property or business,
-the other heirs shall have a preferential right to acquire the interest proposed to be transferred.
-
-(2) The consideration for which any interest in the property of the deceased may be transferred under
-this section shall, in the absence of any agreement between the parties, be determined by the court on
-application being made to it in this behalf, and if any person proposing to acquire the interest is not
-willing to acquire it for the consideration so determined, such person shall be liable to pay all costs of or
-incident to the application.
-
-(3) If there are two or more heirs specified in class I of the Schedule proposing to acquire any interest
-under this section, that heir who offers the highest consideration for the transfer shall be preferred.
-
-Explanation.―In this section, "court" means the court within the limits of whose jurisdiction the
-immovable property is situate or the business is carried on, and includes any other court which the State
-Government may, by notification in the Official Gazette, specify in this behalf.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29934&sectionno=22&orderno=22&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29934)
+  sectionNo (22)
+  orderNo 22
+  title `Preferential right to acquire property in certain cases.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29934&sectionno=22&orderno=22&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_22_content:
+  string
+  line `(1) Where, after the commencement`
+  line `of this Act, an interest in any immovable property of an intestate, or in any business carried on by him or`
+  line `her, whether solely or in conjunction with others, devolves upon two or more heirs specified in class I of`
+  line `the Schedule, and any one of such heirs proposes to transfer his or her interest in the property or business,`
+  line `the other heirs shall have a preferential right to acquire the interest proposed to be transferred.`
+  line
+  line `(2) The consideration for which any interest in the property of the deceased may be transferred under`
+  line `this section shall, in the absence of any agreement between the parties, be determined by the court on`
+  line `application being made to it in this behalf, and if any person proposing to acquire the interest is not`
+  line `willing to acquire it for the consideration so determined, such person shall be liable to pay all costs of or`
+  line `incident to the application.`
+  line
+  line `(3) If there are two or more heirs specified in class I of the Schedule proposing to acquire any interest`
+  line `under this section, that heir who offers the highest consideration for the transfer shall be preferred.`
+  line
+  line `Explanation.―In this section, "court" means the court within the limits of whose jurisdiction the`
+  line `immovable property is situate or the business is carried on, and includes any other court which the State`
+  line `Government may, by notification in the Official Gazette, specify in this behalf.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 29935)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str Omitted.)
-  (str content) (str `[Special provision respecting dwelling-houses.]Omitted by the Hindu Succession (Amendment) Act, 2005 (39 of 2005), s. 4 (w.e.f. 9-9-2005).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29935&sectionno=23&orderno=23&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29935)
+  sectionNo (23)
+  orderNo 23
+  title Omitted.
+  content `[Special provision respecting dwelling-houses.]Omitted by the Hindu Succession (Amendment) Act, 2005 (39 of 2005), s. 4 (w.e.f. 9-9-2005).`
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29935&sectionno=23&orderno=23&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 29942)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str Omitted.)
-  (str content) (str `[Certain windows re-marrying may not inherit as windows.] ---Omitted by s. 5, ibid. (w.e.f. 9-9-
-2005).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29942&sectionno=24&orderno=24&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29942)
+  sectionNo (24)
+  orderNo 24
+  title Omitted.
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29942&sectionno=24&orderno=24&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_24_content:
+  string
+  line `[Certain windows re-marrying may not inherit as windows.] ---Omitted by s. 5, ibid. (w.e.f. 9-9-`
+  line `2005).`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 29943)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Murderer disqualified.`)
-  (str content) (str `A person who commits murder or abets the commission of murder
-shall be disqualified from inheriting the property of the person murdered, or any other property in
-furtherance of the succession to which he or she committed or abetted the commission of the murder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29943&sectionno=25&orderno=25&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29943)
+  sectionNo (25)
+  orderNo 25
+  title `Murderer disqualified.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29943&sectionno=25&orderno=25&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_25_content:
+  string
+  line `A person who commits murder or abets the commission of murder`
+  line `shall be disqualified from inheriting the property of the person murdered, or any other property in`
+  line `furtherance of the succession to which he or she committed or abetted the commission of the murder.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 29944)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Convert’s descendants disqualified.`)
-  (str content) (str `Where, before or after the commencement of this Act, a
-Hindu has ceased or ceases to be a Hindu by conversion to another religion, children born to him or her
-after such conversion and their descendants shall be disqualified from inheriting the property of any of
-their Hindu relatives, unless such children or descendants are Hindus at the time when the succession
-opens.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29944&sectionno=26&orderno=26&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29944)
+  sectionNo (26)
+  orderNo 26
+  title `Convert’s descendants disqualified.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29944&sectionno=26&orderno=26&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_26_content:
+  string
+  line `Where, before or after the commencement of this Act, a`
+  line `Hindu has ceased or ceases to be a Hindu by conversion to another religion, children born to him or her`
+  line `after such conversion and their descendants shall be disqualified from inheriting the property of any of`
+  line `their Hindu relatives, unless such children or descendants are Hindus at the time when the succession`
+  line opens.
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 29945)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Succession when heir disqualified`)
-  (str content) (str `If any person is disqualified from inheriting any property
-under this Act, it shall devolve as if such person had died before the intestate.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29945&sectionno=27&orderno=27&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29945)
+  sectionNo (27)
+  orderNo 27
+  title `Succession when heir disqualified`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29945&sectionno=27&orderno=27&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_27_content:
+  string
+  line `If any person is disqualified from inheriting any property`
+  line `under this Act, it shall devolve as if such person had died before the intestate.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 29946)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str `Disease, defect, etc., not to disqualify`)
-  (str content) (str `No person shall be disqualified from succeeding to any
-property on the ground of any disease, defect or deformity, or save as provided in this Act, on any other
-ground whatsoever.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29946&sectionno=28&orderno=28&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29946)
+  sectionNo (28)
+  orderNo 28
+  title `Disease, defect, etc., not to disqualify`
+  content obj_root_law_sections_28_content
+  footnotes obj_root_law_sections_28_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29946&sectionno=28&orderno=28&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_28_content:
+  string
+  line `No person shall be disqualified from succeeding to any`
+  line `property on the ground of any disease, defect or deformity, or save as provided in this Act, on any other`
+  line `ground whatsoever.`
+obj_root_law_sections_28_footnotes:
+  string
+  line
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 29947)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Failure of heirs.`)
-  (str content) (str `If an intestate has left no heir qualified to succeed to his or her property in
-accordance with the provisions of this Act, such property shall devolve on the Government; and the
-Government shall take the property subject to all the obligations and liabilities to which an heir would
-have been subject.
-
-STATE AMENDMENTS
-
-Tamil Nadu
-
-In the Hindu Succession Act, 1956 (hereinafter referred to as the principal act), after chapter II, the
-following chapter shall be inserted, namely:--
-
-"CHAPTER II-A,
-
-Succession by survivorship.
-
-29-A. Equal rights to daughter in coparcenary property.--Notwithstanding anything
-contained in section 6 of this Act,--
-
-(i) in a Joint Hindu Family governed by Mitakshara Law, the daughter of a coparcener shall
-by birth become a coparcener in her own right in the same manner as a son and have the same
-rights in the coparcenary property as she would have had if she had been a son, inclusive of the
-right to claim by survivorship; and shall be subject to the same liabilities and disabilities in
-respect thereto as the son;
-
-(ii) at a partition in such a Joint Hindu Family the coparcenary property shall be so divided as
-to allot to a daughter the same share as is allotable to a son:
-
-Provided that the share which a pre-deceased son or a pre-deceased daughter would have got
-at the partition if he or she had been alive at the time of the partition shall be allotted to the
-surviving child of such pre-deceased son or of such pre-deceased daughter:
-
-Provided further that the share allotable to the pre-deceased child of a predeceased son or of a
-pre-deceased daughter, if such child had been alive at the time of the partition, shall be allotted to
-the child of such pre-deceased child of the predeceased son or of the pre-deceased daughter, as
-the case may be;
-
-(iii) any property to which a female Hindu becomes entitled by virtue of the provisions of
-clause (i) shall be held by her with the incidents of coparcenary ownership and shall be regarded,
-notwithstanding anything contained in this Act or any other law for the time being in force, as
-property capable of being disposed of by her by will or other testamentary disposition;
-
-(iv) nothing in this Chapter shall apply to a daughter married before the date of the
-commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989;
-
-(v) nothing in clause (ii) shall apply to a partition which had been effected before the date of
-the commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989.
-
-29-B. Interest to devolve by survivorship on death.--When a female Hindu dies after the date
-of the commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989, having, at the
-time of her death, an interest in a Mitakshara coparcenary property by virtue of the provisions of
-section 29-A, her interest in the property shall devolve by survivorship upon the surviving members
-of the coparcenary and not in accordance with this Act:
-
-Provided that if the deceased had left any child or child of a pre-deceased child, the interest of the
-deceased in the Mitakshara coparcenary property shall devolve by testamentary or intestate
-succession, as the case may be, under this Act and not by survivorship.
-
-Explanation I.--For the purposes of this section, the interest of a female Hindu Mitakshara
-coparcener shall be deemed to be the share in the property that would have been allotted to her if a
-partition of the property had taken place immediately before her death, irrespective of whether she
-was entitled to claim partition or not.
-
-Explanation II.--Nothing contained in the proviso to this section shall be construed as enabling a
-person who, before the death of the deceased, had separated himself or herself from the coparcenary
-or any of his or her heirs to claim on intestacy a share in the interest referred to therein.
-
-29-C. Preferential right to acquire property in certain cases.--(1) Where, after the date of the
-commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989, an interest in any
-immovable property of an intestate or in any business carried on by him or her, whether solely or in
-conjunction with others, devolves under section 29-A or section 29-B upon two or more heirs, and
-any one of such heirs proposes to transfer his or her interest in the property or business, the other
-heirs shall have a preferential right to acquire the interest proposed to be transferred.
-
-(2) The consideration for which any interest in the property of the deceased may be transferred
-under this section shall, in the absence of any agreement between the parties, be determined by the
-court on application being made to it in this behalf, and if any person proposing to acquire the interest
-is not willing to acquire it for the consideration so determined, such person shall be liable to pay all
-costs of, or incidental to, the application.
-
-(3) If there are two or more heirs proposing to acquire any interest under this section, that heir
-who offers the highest consideration for the transfer shall be preferred.
-
-Explanation.--In this section "court" means the court within the limits of whose jurisdiction the
-immovable property is situate or the business is carried on and includes any other court which the
-State Government may, by notification in the Tamil Nadu Government Gazette, specify in this
-behalf.".]
-
-[Vide Tamil Nadu Act 1 of 1990, s. 2]`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29947&sectionno=29&orderno=29&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29947)
+  sectionNo (29)
+  orderNo 29
+  title `Failure of heirs.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29947&sectionno=29&orderno=29&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_29_content:
+  string
+  line `If an intestate has left no heir qualified to succeed to his or her property in`
+  line `accordance with the provisions of this Act, such property shall devolve on the Government; and the`
+  line `Government shall take the property subject to all the obligations and liabilities to which an heir would`
+  line `have been subject.`
+  line
+  line `STATE AMENDMENTS`
+  line
+  line `Tamil Nadu`
+  line
+  line `In the Hindu Succession Act, 1956 (hereinafter referred to as the principal act), after chapter II, the`
+  line `following chapter shall be inserted, namely:--`
+  line
+  line `"CHAPTER II-A,`
+  line
+  line `Succession by survivorship.`
+  line
+  line `29-A. Equal rights to daughter in coparcenary property.--Notwithstanding anything`
+  line `contained in section 6 of this Act,--`
+  line
+  line `(i) in a Joint Hindu Family governed by Mitakshara Law, the daughter of a coparcener shall`
+  line `by birth become a coparcener in her own right in the same manner as a son and have the same`
+  line `rights in the coparcenary property as she would have had if she had been a son, inclusive of the`
+  line `right to claim by survivorship; and shall be subject to the same liabilities and disabilities in`
+  line `respect thereto as the son;`
+  line
+  line `(ii) at a partition in such a Joint Hindu Family the coparcenary property shall be so divided as`
+  line `to allot to a daughter the same share as is allotable to a son:`
+  line
+  line `Provided that the share which a pre-deceased son or a pre-deceased daughter would have got`
+  line `at the partition if he or she had been alive at the time of the partition shall be allotted to the`
+  line `surviving child of such pre-deceased son or of such pre-deceased daughter:`
+  line
+  line `Provided further that the share allotable to the pre-deceased child of a predeceased son or of a`
+  line `pre-deceased daughter, if such child had been alive at the time of the partition, shall be allotted to`
+  line `the child of such pre-deceased child of the predeceased son or of the pre-deceased daughter, as`
+  line `the case may be;`
+  line
+  line `(iii) any property to which a female Hindu becomes entitled by virtue of the provisions of`
+  line `clause (i) shall be held by her with the incidents of coparcenary ownership and shall be regarded,`
+  line `notwithstanding anything contained in this Act or any other law for the time being in force, as`
+  line `property capable of being disposed of by her by will or other testamentary disposition;`
+  line
+  line `(iv) nothing in this Chapter shall apply to a daughter married before the date of the`
+  line `commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989;`
+  line
+  line `(v) nothing in clause (ii) shall apply to a partition which had been effected before the date of`
+  line `the commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989.`
+  line
+  line `29-B. Interest to devolve by survivorship on death.--When a female Hindu dies after the date`
+  line `of the commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989, having, at the`
+  line `time of her death, an interest in a Mitakshara coparcenary property by virtue of the provisions of`
+  line `section 29-A, her interest in the property shall devolve by survivorship upon the surviving members`
+  line `of the coparcenary and not in accordance with this Act:`
+  line
+  line `Provided that if the deceased had left any child or child of a pre-deceased child, the interest of the`
+  line `deceased in the Mitakshara coparcenary property shall devolve by testamentary or intestate`
+  line `succession, as the case may be, under this Act and not by survivorship.`
+  line
+  line `Explanation I.--For the purposes of this section, the interest of a female Hindu Mitakshara`
+  line `coparcener shall be deemed to be the share in the property that would have been allotted to her if a`
+  line `partition of the property had taken place immediately before her death, irrespective of whether she`
+  line `was entitled to claim partition or not.`
+  line
+  line `Explanation II.--Nothing contained in the proviso to this section shall be construed as enabling a`
+  line `person who, before the death of the deceased, had separated himself or herself from the coparcenary`
+  line `or any of his or her heirs to claim on intestacy a share in the interest referred to therein.`
+  line
+  line `29-C. Preferential right to acquire property in certain cases.--(1) Where, after the date of the`
+  line `commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989, an interest in any`
+  line `immovable property of an intestate or in any business carried on by him or her, whether solely or in`
+  line `conjunction with others, devolves under section 29-A or section 29-B upon two or more heirs, and`
+  line `any one of such heirs proposes to transfer his or her interest in the property or business, the other`
+  line `heirs shall have a preferential right to acquire the interest proposed to be transferred.`
+  line
+  line `(2) The consideration for which any interest in the property of the deceased may be transferred`
+  line `under this section shall, in the absence of any agreement between the parties, be determined by the`
+  line `court on application being made to it in this behalf, and if any person proposing to acquire the interest`
+  line `is not willing to acquire it for the consideration so determined, such person shall be liable to pay all`
+  line `costs of, or incidental to, the application.`
+  line
+  line `(3) If there are two or more heirs proposing to acquire any interest under this section, that heir`
+  line `who offers the highest consideration for the transfer shall be preferred.`
+  line
+  line `Explanation.--In this section "court" means the court within the limits of whose jurisdiction the`
+  line `immovable property is situate or the business is carried on and includes any other court which the`
+  line `State Government may, by notification in the Tamil Nadu Government Gazette, specify in this`
+  line `behalf.".]`
+  line
+  line `[Vide Tamil Nadu Act 1 of 1990, s. 2]`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 29948)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str `Testamentary succession`)
-  (str content) (str `^1
-*** Any Hindu may dispose of by will or other testamentary
-disposition any property, which is capable of being so ^2[disposed of by him or by her], in accordance with
-the provisions of the Indian Succession Act, 1925 (39 of 1925), or any other law for the time being in
-force and applicable to Hindus.
-
-Explanation.―The interest of a male Hindu in a Mitakshara coparcenaryproperty or the interest of a
-member of a tarwad, tavazhi, illom, kutumba or kavaru in the property of the tarwad, tavazhi, illom,
-kutumba or kavaru shall, notwithstanding anything contained in this Act or in any other law for the time
-being in force, be deemed to be property capable of being disposed of by him or by her within the
-meaning of this ^3[section.]
-
-^4* * ** *`)
-  (str footnotes) (str `1. The brackets and figure (1) omitted by Act 58 of 1960, s. 3 and the Second Schedule (w.e.f. 26-12-1960).
-2. Subs. by Act 39 of 2005, s. 6, for disposed of by him (w.e.f. 9-9-2005).
-3. Subs. by Act 56 of 1974, s. 3 and the Second Schedule for sub-section (w.e.f. 20-12-1974).
-4. Omitted by Act 78 of 1956, s. 29 (w.e.f. 21-12-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29948&sectionno=30&orderno=30&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29948)
+  sectionNo (30)
+  orderNo 30
+  title `Testamentary succession`
+  content obj_root_law_sections_30_content
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29948&sectionno=30&orderno=30&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_30_content:
+  string
+  line ^1
+  line `*** Any Hindu may dispose of by will or other testamentary`
+  line `disposition any property, which is capable of being so ^2[disposed of by him or by her], in accordance with`
+  line `the provisions of the Indian Succession Act, 1925 (39 of 1925), or any other law for the time being in`
+  line `force and applicable to Hindus.`
+  line
+  line `Explanation.―The interest of a male Hindu in a Mitakshara coparcenaryproperty or the interest of a`
+  line `member of a tarwad, tavazhi, illom, kutumba or kavaru in the property of the tarwad, tavazhi, illom,`
+  line `kutumba or kavaru shall, notwithstanding anything contained in this Act or in any other law for the time`
+  line `being in force, be deemed to be property capable of being disposed of by him or by her within the`
+  line `meaning of this ^3[section.]`
+  line
+  line `^4* * ** *`
+obj_root_law_sections_30_footnotes:
+  string
+  line `1. The brackets and figure (1) omitted by Act 58 of 1960, s. 3 and the Second Schedule (w.e.f. 26-12-1960).`
+  line `2. Subs. by Act 39 of 2005, s. 6, for disposed of by him (w.e.f. 9-9-2005).`
+  line `3. Subs. by Act 56 of 1974, s. 3 and the Second Schedule for sub-section (w.e.f. 20-12-1974).`
+  line `4. Omitted by Act 78 of 1956, s. 29 (w.e.f. 21-12-1956).`
 obj_root_law_sections_31:
-  object
-  (str sectionId) (str 29949)
-  (str sectionNo) (str 31)
-  (str orderNo) (int 31)
-  (str title) (str Repealed.)
-  (str content) (str `[Repeals.]--[Rep. by the Repealing and Amending Act, 1960 (58 of 1960), s. 2 and the First
-Schedule (w.e.f. 26-12-1960).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29949&sectionno=31&orderno=31&orgactid=AC_CEN_3_20_00027_195630_1517807324239)
+  sectionId (29949)
+  sectionNo (31)
+  orderNo 31
+  title Repealed.
+  content obj_root_law_sections_31_content
+  footnotes obj_root_law_sections_31_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00027_195630_1517807324239&sectionId=29949&sectionno=31&orderno=31&orgactid=AC_CEN_3_20_00027_195630_1517807324239
+obj_root_law_sections_31_content:
+  string
+  line `[Repeals.]--[Rep. by the Repealing and Amending Act, 1960 (58 of 1960), s. 2 and the First`
+  line `Schedule (w.e.f. 26-12-1960).`
+obj_root_law_sections_31_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `हिन्‍दू उत्तराधिकार अधिनियम,1956`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1713/3/H1956-30.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:50:52.181Z`)
-  (str pageCount) (int 10)
-  (str sections) obj_root_law_translations_hi_sections
+  title `हिन्‍दू उत्तराधिकार अधिनियम,1956`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1713/3/H1956-30.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:50:52.181Z`
+  pageCount 10
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -974,445 +1101,495 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_9
   obj_root_law_translations_hi_sections_10
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `हिन्दू उत्तराहिकारअहिहियम, 1956 1
-(1956 काअहिहियमसंखयां क 30 )
-[17 जूि, 1956 ]
-हिन्दु ओं मेंहिर्वसीयतीउत्तराहिकारसंबंिी हर्हि
-कोसंशोहितऔरसंहिताबद्ध
-करिेकेहिए
-अहिहियम
-भारतगणराज्य केसातर्ेंर्र्वमेंसंसद्द्वाराहिम्ि हिहितरूपमेंयिअहिहियहमतिो: —
-अध्या य 1 प्र
-ारहम्भ क
-1. संहिप्त िामऔरहर्स्ता र — (1) यिअहिहियमहिन्दू उत्तराहिकारअहिहियम, 1956 किाजासकेगा।
-(2) इसकाहर्स्ता र 2 *** सम्पू णवभारतपरिै।
-2. अहिहियमकािागूिोिा — (1) यिअहिहियमिागूिै —
-( क ) ऐसेककसीभीव्य हत कोजोहिन्दू िमवकेककसीभीरूपयाहर्कासकेअिुसार, हजसकेअन्त गवतर्ीरशैर्,
-लिंगायतअथर्ाब्रह्म समाज, प्र ाथविासमाजयाआयवसमाजकेअिुया यी भीआतेिैं, िमवत:हिन्दू िो;
-( ि ) ऐसेककसीभीव्य हत कोजोिमवत:बौद्ध, जैियाहसि िो; तथा
-( ग ) ऐसेकक सीभीअन्य व् य हत कोजोि मवत:मुहस्ि म, किहि यि, पारसीया यहू दीििो, जबतकककयिसाहबत
-िकरकदयाजाएककयकदयिअहिहियमपाररतिककयागयािोतातोऐसाकोईभीव्य हत एतहस्म ि्उपब हन्ि तककसीभी
-बातकेबारे मेंहिन्दू हर्हियाउसहर्हिकेभागरूपककसीरूक़िया प्र थाद्वाराशाहसतििोता। स्
-प ष् टी करण — हिम्ि हिहितव्य हत िमवत:, यथाहस्थ हत, हिन्दू, बौद्ध, जैियाहसि िैं: —
-( क ) कोईभीअपत्य, िमवजयाअिमवज, हजसकेमाता - हपतादोिोंिीिमवत:हिन्दू, बौद्ध, जैिया
-हसि िों;
-( ि ) कोईभीअपत्य, िमवजयाअिमवज, हजसकेमाता - हपतामेंसेकोईएकिमवत:हिन्दू, बौद्ध, जैिया
-हसि िोऔरजोउसजिजाहत, समुदाय, समूियाकुटुम्ब केसदस्य केरूपमेंपिािोहजसकार्िमातायाहपता
-सदस्य िैयाथा;
-( ग ) कोईभीऐसाव्य हत जोहिन्दू, बौद्ध, जैि या हसि िमवमेंसंपररर्र्तवतयाप्रहतसंपररर्र्तवतिो
-गयािो।
-(2) उपिारा (1) मेंअन्त र्र् वष् ट ककसीबातकेिोतेहुएभी, इसअहिहियममेंअन्त र्र् वष् ट कोईभीबातककसीऐसीजिजाहतके
-सदस्यों को, जोसंहर्िािकेअिुच्छे द 366 केि ण् ड (25) केअथवकेअ न् त गवतअिुसूहितजिजाहतिो, िागूििोगीजबतककककेन्री य
-सरकारशासकीयराजपत्रमेंअहिसूििाद्वाराअन्य थाहिकदष्ट िकरदे।
-(3) इसअहिहियमकेककसीभीप्रभागमेंआएहुए “ हिन्दू ” पदकाऐसाअथविगायाजाएगामािोउसकेअन्त गवतऐसा व्
-य हत आतािोजो यद्यहपिमवत:हिन्दू ििींिैतथाहप ऐसाव्य हत िैहजसेर्िअहिहियमइसिारा मेंअन्त र्र् वष् ट उपबन्िों के आिार
-परिागूिोतािै।
-3. पररभार्ाएंऔरहिर्विि — (1) इसअहिहियममेंजबतकककसंदभवसेअन्य थाअपेहितििो —
-( क ) “ गोत्रज ” — एकव्य हत दूसरेका “ गो त्र ज ” किा जातािैयकदर्ेदोिोंकेर्िपुरु र्ों केमाध्य मसेरत यादत्तक द्व
-ारा एकदूसरे सेसम्ब हन्ि तिों;
-1 इसअहिहियमकाहर्स्ता रदादराऔरिागरिर्ेिीपर 1963 केहर्हियमसं ० 6 कीिारा 2 औरप्रथमअिुसूिीद्वारातथा पांहडिेरीपर 1963 केहर्हियमसं ० 7 की
-िारा 3 औरप्रथमअिुसूिीद्वाराककयागयािै।
-2 2019 केअहिहियमसं ० 34 कीिारा 95 औरपांिर्ीअिुसूिीद्वारा (31 - 10 - 2019 से ) “ जम्मू - कमीर राज्यकेहसर्ाय ” शब्दों का िोपककयागया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `हिन्दू उत्तराहिकारअहिहियम, 1956 1`
+  line `(1956 काअहिहियमसंखयां क 30 )`
+  line `[17 जूि, 1956 ]`
+  line `हिन्दु ओं मेंहिर्वसीयतीउत्तराहिकारसंबंिी हर्हि`
+  line कोसंशोहितऔरसंहिताबद्ध
+  line करिेकेहिए
+  line अहिहियम
+  line `भारतगणराज्य केसातर्ेंर्र्वमेंसंसद्द्वाराहिम्ि हिहितरूपमेंयिअहिहियहमतिो: —`
+  line `अध्या य 1 प्र`
+  line `ारहम्भ क`
+  line `1. संहिप्त िामऔरहर्स्ता र — (1) यिअहिहियमहिन्दू उत्तराहिकारअहिहियम, 1956 किाजासकेगा।`
+  line `(2) इसकाहर्स्ता र 2 *** सम्पू णवभारतपरिै।`
+  line `2. अहिहियमकािागूिोिा — (1) यिअहिहियमिागूिै —`
+  line `( क ) ऐसेककसीभीव्य हत कोजोहिन्दू िमवकेककसीभीरूपयाहर्कासकेअिुसार, हजसकेअन्त गवतर्ीरशैर्,`
+  line `लिंगायतअथर्ाब्रह्म समाज, प्र ाथविासमाजयाआयवसमाजकेअिुया यी भीआतेिैं, िमवत:हिन्दू िो;`
+  line `( ि ) ऐसेककसीभीव्य हत कोजोिमवत:बौद्ध, जैियाहसि िो; तथा`
+  line `( ग ) ऐसेकक सीभीअन्य व् य हत कोजोि मवत:मुहस्ि म, किहि यि, पारसीया यहू दीििो, जबतकककयिसाहबत`
+  line `िकरकदयाजाएककयकदयिअहिहियमपाररतिककयागयािोतातोऐसाकोईभीव्य हत एतहस्म ि्उपब हन्ि तककसीभी`
+  line `बातकेबारे मेंहिन्दू हर्हियाउसहर्हिकेभागरूपककसीरूक़िया प्र थाद्वाराशाहसतििोता। स्`
+  line `प ष् टी करण — हिम्ि हिहितव्य हत िमवत:, यथाहस्थ हत, हिन्दू, बौद्ध, जैियाहसि िैं: —`
+  line `( क ) कोईभीअपत्य, िमवजयाअिमवज, हजसकेमाता - हपतादोिोंिीिमवत:हिन्दू, बौद्ध, जैिया`
+  line `हसि िों;`
+  line `( ि ) कोईभीअपत्य, िमवजयाअिमवज, हजसकेमाता - हपतामेंसेकोईएकिमवत:हिन्दू, बौद्ध, जैिया`
+  line `हसि िोऔरजोउसजिजाहत, समुदाय, समूियाकुटुम्ब केसदस्य केरूपमेंपिािोहजसकार्िमातायाहपता`
+  line `सदस्य िैयाथा;`
+  line `( ग ) कोईभीऐसाव्य हत जोहिन्दू, बौद्ध, जैि या हसि िमवमेंसंपररर्र्तवतयाप्रहतसंपररर्र्तवतिो`
+  line गयािो।
+  line `(2) उपिारा (1) मेंअन्त र्र् वष् ट ककसीबातकेिोतेहुएभी, इसअहिहियममेंअन्त र्र् वष् ट कोईभीबातककसीऐसीजिजाहतके`
+  line `सदस्यों को, जोसंहर्िािकेअिुच्छे द 366 केि ण् ड (25) केअथवकेअ न् त गवतअिुसूहितजिजाहतिो, िागूििोगीजबतककककेन्री य`
+  line `सरकारशासकीयराजपत्रमेंअहिसूििाद्वाराअन्य थाहिकदष्ट िकरदे।`
+  line `(3) इसअहिहियमकेककसीभीप्रभागमेंआएहुए “ हिन्दू ” पदकाऐसाअथविगायाजाएगामािोउसकेअन्त गवतऐसा व्`
+  line `य हत आतािोजो यद्यहपिमवत:हिन्दू ििींिैतथाहप ऐसाव्य हत िैहजसेर्िअहिहियमइसिारा मेंअन्त र्र् वष् ट उपबन्िों के आिार`
+  line परिागूिोतािै।
+  line `3. पररभार्ाएंऔरहिर्विि — (1) इसअहिहियममेंजबतकककसंदभवसेअन्य थाअपेहितििो —`
+  line `( क ) “ गोत्रज ” — एकव्य हत दूसरेका “ गो त्र ज ” किा जातािैयकदर्ेदोिोंकेर्िपुरु र्ों केमाध्य मसेरत यादत्तक द्व`
+  line `ारा एकदूसरे सेसम्ब हन्ि तिों;`
+  line `1 इसअहिहियमकाहर्स्ता रदादराऔरिागरिर्ेिीपर 1963 केहर्हियमसं ० 6 कीिारा 2 औरप्रथमअिुसूिीद्वारातथा पांहडिेरीपर 1963 केहर्हियमसं ० 7 की`
+  line `िारा 3 औरप्रथमअिुसूिीद्वाराककयागयािै।`
+  line `2 2019 केअहिहियमसं ० 34 कीिारा 95 औरपांिर्ीअिुसूिीद्वारा (31 - 10 - 2019 से ) “ जम्मू - कमीर राज्यकेहसर्ाय ” शब्दों का िोपककयागया।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-( ि ) “ अहियसन्ता िहर्हि ” सेर्िहर्हि - पद्धहतअहभप्रेतिैजोऐसे व् य हत कोिागूिैजोयकदयिअहिहियम
-पाररतिककयागयािोतातोमरासअहियसन्ता िऐ ट, 1949 ( मरासऐट 194 9 का 9) द्व ारायारूक़िगतअहियसन्ता ि
-हर्हिद्वाराउिहर्र्योंकेबारेमेंशाहसतिोताहजिकेहिएइसअहिहियममेंउपबन्ि ककयागयािै;
-( ग ) “ बन्िु ” — एकव्य हत दूसरेका “ बन्िु ” किाजाता िैयकदर्ेदोिोंरत यादत्तकद्वाराएकदूस रेसेसम्ब हन्ि त
-िोंककन्तु केर्िपुरुर्ोंकेमाध्य मसेििीं;
-( घ ) “ रू क़ि ” और “ प्र था ” पदऐसेककसीभीहियमकासंज्ञािकरातेिैंहजसिेदीघवकाितकहिरन्त रऔरएकरूपता
-सेअिुपाहितककएजािेकेकारणककसीस्था िीय िेत्र, जिजाहत, समुदाय, समूियाकुटुम्ब केहि न् दु ओं मेंहर्हिकाबि
-अहभप्राप्त करहिया िो:
-परन्तु यितबजब ककहियमहिहि तिोऔरअयुहत युत यािोकिीहतकेहर्रुद्धििो:तथा
-परन्तु यिऔरभीककऐसेहियमकीदशामेंजोएककुटुम्ब कोिीिागूिो, उसकीहिरन्त रताउसकुटुम्ब द्व ारा
-बन्द ि करदीगईिो;
-( ङ ) “ पूणवरत ”, “ अिवरत ” और “ एकोदररत ” —
-(i) कोईभीदोव्य हत एकदूसरेसेपूणवरत द्व ारासम्ब हन्ि त किेजातेिैंजबककर्ेएकिीपूर्वजसे
-उसकीएकिीपत्िी द्व ाराअर्जहितहुएिों, औरअिवरत द्व ारासम्ब हन्ि तकिेजातेिैंजबकक र्े एकिीपूर्वजसे
-ककन्तु उसकीहभन्ि पहत्ि योंद्वाराअर्जहितहुएिों;
-(ii) दोव्य हत एकदूसरेसेएकोदररत द्व ारासम्ब हन्ि तकिेजातेिैंजबककर्ेएकिीपूर्वजासेककन्तु
-उसकेहभन्ि पहतयोंसेअर्जहितहुएिों। स्
-प ष् टी करण — इसिण्ड में “ पूर्वज ” प दकेअन्त गवतहपताआतािैऔर “ पूर्वजा ” केअन्त गवतमाताआतीिै;
-( ि ) “ र् ाररस ” सेऐसाकोईभीव्य हत अहभप्रेतिैिािेर्िपुरुर्िो, यािारी, जोहिर्वसीयतकीसम्प हत्तका
-उत्तराहिकारीिोिेकाइसअहिहियमकेअिीििकदारिै;
-( छ ) “ हिर्वसीयत ” — कोईव्य हत िा िेपुरुर्िोयािारीहजसिे ककसीसम्प हत्तकेबारेमेंऐसा र् सीयतीव्य यिि
-ककयािोजोप्रभार्शीििोिेकेयोग्य िो, र् िउससम्प हत्तकेहर्र्यमेंहिर्वसीयमरासमझाजातािै;
-( ज ) “ मरुमक त्त ायम्हर्हि ” सेहर्हिकीर्िपद्धहतअहभप्रेतिैजोउिव्य हत योंकोिागू िै —
-( क ) जोयकदयिअहिहियमपाररतिहुआिोतातोमरासमरुमक त्त ायम्ऐट, 1932
-( मरासअहिहियम, 193 3 का 22), ट्र ार्िकोरिायरऐट (1100 केका 2), ट्र ार्िकोरईर्िाऐट, (1100 केका 3), ट्र
-ार्िकोरिाहन्ज िाडर्ेल्िा िऐट, (1101 केका 6), ट्र ार्िकोरिेत्रीयऐट, (1108 केका 7), ट्र ार्िकोरकृष्ण र् का
-मरुमक त्त ायीऐट, (1115 केका 7), कोिीिमरुमक त्त ायम्ऐट (1113 केका 33) याकोिीििायरऐट
-(1113 केका 29) द्व ाराउिहर्र्योंकेबारेमेंशा हसत िोतेहजिकेहिएइसअहिहियमद्वाराउपबन्ि ककयागया
-िै; अथर्ा
-( ि ) जोऐसेसमुदायकेिैं हजसकेसदस्य अहिकतरहतरुर्ांकुरकोिीियामरासराज्य में, 1 [ जैसाककर्ि
-पििीिर्म्ब र, 1956 केअव्य र् हितपूर्वअहस्त त्र् मेंथा ] अहिर्ासीिैंऔरयकदयिअहिहियमपाररतिहुआ
-िोतातो जो उिहर्र्यों केबारे मेंहजिकेहिएइसअहिहियमद्वाराउपबन्ि ककयागयािैहर्रासतकीऐसी
-पद्धहतद्वाराशाहसतिोतेहजसमेंिारीपरम्प राकेमाध्य मसेअर्जििहगिाजातािै;
-ककन्तु इसकेअंतगवत अहियसन्ता िहर्हिििींआती;
-( झ ) “ िंबूकदरीहर्हि ” सेहर्हिकीर्िपद्धहतअहभप्रेतिैजो उिव्य हत योंकोिागूिैजोयकदयिअहिहियम
-पाररतिककयागयािोतातोमरासिम्बू कदरीऐट, 1932 ( मरासअहिहियम, 193 3 का 21 ), कोिीििम्बू कदरीऐट
-(1113 केका 17) याट्रार्िकोरमिायल्ि ब्र ाह्मणऐट (1106 केका 3) द्व ाराउिहर्र्योंके बारेमें शाहसत िो तेहजिकेहिए
-इसअहिहियममेंउपबन्ि ककयागयािै;
-( ञ ) “ सम्ब हन्ि त ” सेअहभप्रेतिै, िमवजद्वारासम्ब हन्ि त:
-परन्तु अिमवजअपत्य अपिीमातासेऔरपरस्प रएकदूसरेसेसम्ब हन्ि तसमझेजाएंगेऔरउिकेिमवजर्ंशज
-उिसेऔरपरस्प रएकदूसरेसेसम्ब हन्ि तसम झेजाएंगेऔरककसीभी ऐसेशब्द काजोसम्ब न् ि कोअहभव्य त करेयासंबंिी
-कोघोहर्तकरेतद्िुसारअथविगायाजाएगा।
-1 हर्हिअिुकूिि ( सं ० 3) आदेश, 1956 द्व ाराअंत:स्था हपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `( ि ) “ अहियसन्ता िहर्हि ” सेर्िहर्हि - पद्धहतअहभप्रेतिैजोऐसे व् य हत कोिागूिैजोयकदयिअहिहियम`
+  line `पाररतिककयागयािोतातोमरासअहियसन्ता िऐ ट, 1949 ( मरासऐट 194 9 का 9) द्व ारायारूक़िगतअहियसन्ता ि`
+  line `हर्हिद्वाराउिहर्र्योंकेबारेमेंशाहसतिोताहजिकेहिएइसअहिहियममेंउपबन्ि ककयागयािै;`
+  line `( ग ) “ बन्िु ” — एकव्य हत दूसरेका “ बन्िु ” किाजाता िैयकदर्ेदोिोंरत यादत्तकद्वाराएकदूस रेसेसम्ब हन्ि त`
+  line `िोंककन्तु केर्िपुरुर्ोंकेमाध्य मसेििीं;`
+  line `( घ ) “ रू क़ि ” और “ प्र था ” पदऐसेककसीभीहियमकासंज्ञािकरातेिैंहजसिेदीघवकाितकहिरन्त रऔरएकरूपता`
+  line `सेअिुपाहितककएजािेकेकारणककसीस्था िीय िेत्र, जिजाहत, समुदाय, समूियाकुटुम्ब केहि न् दु ओं मेंहर्हिकाबि`
+  line `अहभप्राप्त करहिया िो:`
+  line `परन्तु यितबजब ककहियमहिहि तिोऔरअयुहत युत यािोकिीहतकेहर्रुद्धििो:तथा`
+  line `परन्तु यिऔरभीककऐसेहियमकीदशामेंजोएककुटुम्ब कोिीिागूिो, उसकीहिरन्त रताउसकुटुम्ब द्व ारा`
+  line `बन्द ि करदीगईिो;`
+  line `( ङ ) “ पूणवरत ”, “ अिवरत ” और “ एकोदररत ” —`
+  line `(i) कोईभीदोव्य हत एकदूसरेसेपूणवरत द्व ारासम्ब हन्ि त किेजातेिैंजबककर्ेएकिीपूर्वजसे`
+  line `उसकीएकिीपत्िी द्व ाराअर्जहितहुएिों, औरअिवरत द्व ारासम्ब हन्ि तकिेजातेिैंजबकक र्े एकिीपूर्वजसे`
+  line `ककन्तु उसकीहभन्ि पहत्ि योंद्वाराअर्जहितहुएिों;`
+  line `(ii) दोव्य हत एकदूसरेसेएकोदररत द्व ारासम्ब हन्ि तकिेजातेिैंजबककर्ेएकिीपूर्वजासेककन्तु`
+  line `उसकेहभन्ि पहतयोंसेअर्जहितहुएिों। स्`
+  line `प ष् टी करण — इसिण्ड में “ पूर्वज ” प दकेअन्त गवतहपताआतािैऔर “ पूर्वजा ” केअन्त गवतमाताआतीिै;`
+  line `( ि ) “ र् ाररस ” सेऐसाकोईभीव्य हत अहभप्रेतिैिािेर्िपुरुर्िो, यािारी, जोहिर्वसीयतकीसम्प हत्तका`
+  line उत्तराहिकारीिोिेकाइसअहिहियमकेअिीििकदारिै;
+  line `( छ ) “ हिर्वसीयत ” — कोईव्य हत िा िेपुरुर्िोयािारीहजसिे ककसीसम्प हत्तकेबारेमेंऐसा र् सीयतीव्य यिि`
+  line `ककयािोजोप्रभार्शीििोिेकेयोग्य िो, र् िउससम्प हत्तकेहर्र्यमेंहिर्वसीयमरासमझाजातािै;`
+  line `( ज ) “ मरुमक त्त ायम्हर्हि ” सेहर्हिकीर्िपद्धहतअहभप्रेतिैजोउिव्य हत योंकोिागू िै —`
+  line `( क ) जोयकदयिअहिहियमपाररतिहुआिोतातोमरासमरुमक त्त ायम्ऐट, 1932`
+  line `( मरासअहिहियम, 193 3 का 22), ट्र ार्िकोरिायरऐट (1100 केका 2), ट्र ार्िकोरईर्िाऐट, (1100 केका 3), ट्र`
+  line `ार्िकोरिाहन्ज िाडर्ेल्िा िऐट, (1101 केका 6), ट्र ार्िकोरिेत्रीयऐट, (1108 केका 7), ट्र ार्िकोरकृष्ण र् का`
+  line `मरुमक त्त ायीऐट, (1115 केका 7), कोिीिमरुमक त्त ायम्ऐट (1113 केका 33) याकोिीििायरऐट`
+  line `(1113 केका 29) द्व ाराउिहर्र्योंकेबारेमेंशा हसत िोतेहजिकेहिएइसअहिहियमद्वाराउपबन्ि ककयागया`
+  line `िै; अथर्ा`
+  line `( ि ) जोऐसेसमुदायकेिैं हजसकेसदस्य अहिकतरहतरुर्ांकुरकोिीियामरासराज्य में, 1 [ जैसाककर्ि`
+  line `पििीिर्म्ब र, 1956 केअव्य र् हितपूर्वअहस्त त्र् मेंथा ] अहिर्ासीिैंऔरयकदयिअहिहियमपाररतिहुआ`
+  line `िोतातो जो उिहर्र्यों केबारे मेंहजिकेहिएइसअहिहियमद्वाराउपबन्ि ककयागयािैहर्रासतकीऐसी`
+  line `पद्धहतद्वाराशाहसतिोतेहजसमेंिारीपरम्प राकेमाध्य मसेअर्जििहगिाजातािै;`
+  line `ककन्तु इसकेअंतगवत अहियसन्ता िहर्हिििींआती;`
+  line `( झ ) “ िंबूकदरीहर्हि ” सेहर्हिकीर्िपद्धहतअहभप्रेतिैजो उिव्य हत योंकोिागूिैजोयकदयिअहिहियम`
+  line `पाररतिककयागयािोतातोमरासिम्बू कदरीऐट, 1932 ( मरासअहिहियम, 193 3 का 21 ), कोिीििम्बू कदरीऐट`
+  line `(1113 केका 17) याट्रार्िकोरमिायल्ि ब्र ाह्मणऐट (1106 केका 3) द्व ाराउिहर्र्योंके बारेमें शाहसत िो तेहजिकेहिए`
+  line `इसअहिहियममेंउपबन्ि ककयागयािै;`
+  line `( ञ ) “ सम्ब हन्ि त ” सेअहभप्रेतिै, िमवजद्वारासम्ब हन्ि त:`
+  line `परन्तु अिमवजअपत्य अपिीमातासेऔरपरस्प रएकदूसरेसेसम्ब हन्ि तसमझेजाएंगेऔरउिकेिमवजर्ंशज`
+  line `उिसेऔरपरस्प रएकदूसरेसेसम्ब हन्ि तसम झेजाएंगेऔरककसीभी ऐसेशब्द काजोसम्ब न् ि कोअहभव्य त करेयासंबंिी`
+  line कोघोहर्तकरेतद्िुसारअथविगायाजाएगा।
+  line `1 हर्हिअिुकूिि ( सं ० 3) आदेश, 1956 द्व ाराअंत:स्था हपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-( 2 )इसअहिहियममेंजबतकककसन्द भवसेअन्य थाअपेहितििो, पुलल्िं गसंकेतकरिेर्ािेशब्दों केअंतगवतिाररयांि
-समझीजाएंगी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `( 2 )इसअहिहियममेंजबतकककसन्द भवसेअन्य थाअपेहितििो, पुलल्िं गसंकेतकरिेर्ािेशब्दों केअंतगवतिाररयांि`
+  line समझीजाएंगी।
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-4. अहिहियमकाअध्या रोिीप्रभार्  ( 1 )इसअहिहियममेंअहभव्य त त:उपबहन्ि तकेहसर्ाय 
-(क)हिन्दू हर्हिकाकोईऐसाशास्त्र - र् ाय, हियमयाहिर्विियाउसहर्हिकीभागरूपकोईभीरू क़ि याप्रथा,
-जोइसअहिहियमकेप्रारम्भ केअव्य र् हितपूर्वप्रर्ृत्तरिीिो, ऐसेककसी भीहर्र्यकेबारेमें, हजसकेहिएइसअहिहियम
-मेंउपबन्ि ककयागयािै, प्र भार्िीििोजाएगी;
-(ि)इसअहिहियमकेप्रारम्भ केअव्य र् हितपूर्वप्रर्ृत्तककसीभीअन्य हर्हिकाहिन्दु ओं कोिागूिोिार्िांतक
-बन्द िोजाएगाजिांतकककर्िइसअहिहियममेंअन्त र्र् वष् ट उपबन्िों मेंसेककसीसेभीअसंगतिो।
-1 * * * *
-अध्या य 2
-हिर्वसीयतीउत्तराहिकार
-सािारण
-5. अहिहियमकाकुछसम्प हत्तयोंकोिागूििोिा  यिअहिहियमहिम्ि हिहितकोिागूििोगा 
-( i )ऐसीककसीसम्प हत्तकोहजसकेहिएउत्तराहिकार, हर्शेर्अहिहियम, 1954 ( 1954 का 43) कीिारा 21 में
-अन्त र्र् वष् ट उपबन्िों केकारणभारतीयउत्तराहिकारअहिहियम, 1925 ( 1925 का 39) द्व ाराहर्हियहमतिोतािै;
-( ii )ऐसीककसीसम्प दाकोजोककसीदेशीराज्य केशासकद्वाराभारतसरकारसेकीगईप्रसंहर्दाकरारके
-हिबन्ि िोंद्वारायाइसअहिहियम केप्रारम्भ सेपूर्वपाररतककसीअहिहियहमहतकेहिबन्ि िोंद्वाराककसीएकिर्ाररसको
-अर्जहितहुईिै;
-( iii )र्हियम्म तंबुरािकेहर्िगम्सम्प दापैिेसफण्ड कोजोककमिाराजाकोिीिद्वारा 29 जूि, 1949 को प्र
-खया हपत उद् घो र् णा( 1124 का 9 )द्वाराप्रदत्तशहत यों केआिारपरपैिेसएडहमहिस्ट्रे शिबोडवद्वाराप्रशाहसतिै।
-2 [6. सिदाहयकीसम्प हत्तमेंकेहितकान्या गमि  ( 1 )हिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 केप्रारंभसेिी
-हमतािराहर्हिद्वाराशाहसतककसीसंयुत हिन्दू कुटुम्ब मेंककसीसिदाहयककीपु त्र ी, 
-(क)जन्म सेिीअपिेस्र् यंकेअहिकारसेउसीरीहतसेसिदाहयकबिजाएगीजैसेपुत्रिोतािै;
-(ि)सिदा हयकीसंपहत्तमेंउसेर्िीअहिकारप्राप्त िोंगेजोउसेतबप्राप्त हु एिोतेजबर्िपुत्रिोती;
-(ग)उत सिदाहयकीसंपहत्तकेसंबंिमेंपुत्रकेसमा ििीदाहयत्र्ों केअिीििोगी, औरहिन्दू हमतािरा
-सिदाहयककेप्रहतककसीहिदेशसेयिसमझाजाएगाककउसमेंसिदाहयककीपुत्रीकेप्रहतकोईहिदेशसम्म हितिै:
-परंतुइसउपिाराकीकोईबातककसीव्य यियाअन्य संिामणको, हजसकेअंतगवतसंपहत्तकाऐसाकोईहर् भाजिया र्
-सीयती व् य यभीिै, जो 20 कदसम्ब र, 2004 सेपूर्वककयागयाथा, प्र भाहर्तयाअहर्हिमान्य ििींकरेगी।
-( 2 )कोईसंपहत्त, हजसकेहिएकोईहिन्दू िारीउपिारा( 1 )केआिारपरिकदारबिजातीिै, उसकेद्वारासिदाहयकी स्र्
-ा हमत्र् कीप्र संग हत योंसहितिाररतकीजा एगीऔर, इसअहिहियमयातत्स मयप्रर्ृत्त ककसीअन्य हर्हिमेंअन्त र्र् वष् ट ककसीबा तके
-िोतेहुएभीर्सीयतीव्य यिद्वाराउसकेद्वाराककएजािेयोग्य संपहत्तकेरूपमेंसमझीजाएगी।
-( 3 )जिांककसीहिन्दू की, हिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 केप्रा रंभकेपिा त्मृत्यु िोजातीिै, र् िां
-हमतािराहर्हिद्वारा शाहसतककसीसंयुत हिन्दू कुटु म् ब कीसंपहत्तमें उसकाहित, यथा हस्थ हत, इसअहिहियमकेअिीिर्सीयतीया
-हिर्वसीयतीउत्तराहिकारद्वारान्या गतिोजाएगापरंतुउत्तरजीहर्ताकेआिारपरििींऔरसिदाहय कीसंपहत्तइसप्रकारहर्भाहजत
-कीगईसमझीजाएगीमािोहर्भाजििोिुकाथा, और 
-(क)पुत्रीकोर्िीअंशआबंरटतिोगाजोपुत्रकोआबंरटतककयागयािै;
-(ि)पूर्वमृतपुत्रयाककसीपूर्वमृतपुत्रीकाअंश, जोउन्िें तबप्राप्त हु आिोतायकदर्ेहर्भाजिकेसमयजीहर्त
-िो ते, ऐसेपूर्वमृतपुत्रयाऐसीपूर्वमृतपुत्रीकीउत्तरजीर्ीसंतािकोआबंरटतककयाजाएगा; और
-(ग)ककसीपूर्वमृतपुत्रयाककसीपूर्वमृतपुत्रीकीपूर्वमृतसंतािकाअंशजोउससंताििेउसरूपमेंप्राप्त ककया
-िोतायकदर्िहर्भाजिकेसमयजीहर्तिोती, यथाहस्थ हत, पूर्वमृतपुत्रयाककसीपूर्वमृत पुत्रीकीपूर्वमृत संतािकीसंताि
-कोआबंरटतककयाजाएगा।
-1 2005 केअहिहियमसं ० 39 कीिारा 2 द्व ारा( 9 - 9 - 2005 से) उपिारा( 2 )कािोपककयागया।
-2 2005 केअहिहियमसं ० 39 कीिारा 3 द्व ारा( 9 - 9 - 2005 से)िारा 6 केस्था िपरप्रहतस्था हपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `4. अहिहियमकाअध्या रोिीप्रभार्  ( 1 )इसअहिहियममेंअहभव्य त त:उपबहन्ि तकेहसर्ाय `
+  line `(क)हिन्दू हर्हिकाकोईऐसाशास्त्र - र् ाय, हियमयाहिर्विियाउसहर्हिकीभागरूपकोईभीरू क़ि याप्रथा,`
+  line `जोइसअहिहियमकेप्रारम्भ केअव्य र् हितपूर्वप्रर्ृत्तरिीिो, ऐसेककसी भीहर्र्यकेबारेमें, हजसकेहिएइसअहिहियम`
+  line `मेंउपबन्ि ककयागयािै, प्र भार्िीििोजाएगी;`
+  line `(ि)इसअहिहियमकेप्रारम्भ केअव्य र् हितपूर्वप्रर्ृत्तककसीभीअन्य हर्हिकाहिन्दु ओं कोिागूिोिार्िांतक`
+  line `बन्द िोजाएगाजिांतकककर्िइसअहिहियममेंअन्त र्र् वष् ट उपबन्िों मेंसेककसीसेभीअसंगतिो।`
+  line `1 * * * *`
+  line `अध्या य 2`
+  line हिर्वसीयतीउत्तराहिकार
+  line सािारण
+  line `5. अहिहियमकाकुछसम्प हत्तयोंकोिागूििोिा  यिअहिहियमहिम्ि हिहितकोिागूििोगा `
+  line `( i )ऐसीककसीसम्प हत्तकोहजसकेहिएउत्तराहिकार, हर्शेर्अहिहियम, 1954 ( 1954 का 43) कीिारा 21 में`
+  line `अन्त र्र् वष् ट उपबन्िों केकारणभारतीयउत्तराहिकारअहिहियम, 1925 ( 1925 का 39) द्व ाराहर्हियहमतिोतािै;`
+  line `( ii )ऐसीककसीसम्प दाकोजोककसीदेशीराज्य केशासकद्वाराभारतसरकारसेकीगईप्रसंहर्दाकरारके`
+  line `हिबन्ि िोंद्वारायाइसअहिहियम केप्रारम्भ सेपूर्वपाररतककसीअहिहियहमहतकेहिबन्ि िोंद्वाराककसीएकिर्ाररसको`
+  line अर्जहितहुईिै;
+  line `( iii )र्हियम्म तंबुरािकेहर्िगम्सम्प दापैिेसफण्ड कोजोककमिाराजाकोिीिद्वारा 29 जूि, 1949 को प्र`
+  line `खया हपत उद् घो र् णा( 1124 का 9 )द्वाराप्रदत्तशहत यों केआिारपरपैिेसएडहमहिस्ट्रे शिबोडवद्वाराप्रशाहसतिै।`
+  line `2 [6. सिदाहयकीसम्प हत्तमेंकेहितकान्या गमि  ( 1 )हिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 केप्रारंभसेिी`
+  line `हमतािराहर्हिद्वाराशाहसतककसीसंयुत हिन्दू कुटुम्ब मेंककसीसिदाहयककीपु त्र ी, `
+  line `(क)जन्म सेिीअपिेस्र् यंकेअहिकारसेउसीरीहतसेसिदाहयकबिजाएगीजैसेपुत्रिोतािै;`
+  line `(ि)सिदा हयकीसंपहत्तमेंउसेर्िीअहिकारप्राप्त िोंगेजोउसेतबप्राप्त हु एिोतेजबर्िपुत्रिोती;`
+  line `(ग)उत सिदाहयकीसंपहत्तकेसंबंिमेंपुत्रकेसमा ििीदाहयत्र्ों केअिीििोगी, औरहिन्दू हमतािरा`
+  line `सिदाहयककेप्रहतककसीहिदेशसेयिसमझाजाएगाककउसमेंसिदाहयककीपुत्रीकेप्रहतकोईहिदेशसम्म हितिै:`
+  line `परंतुइसउपिाराकीकोईबातककसीव्य यियाअन्य संिामणको, हजसकेअंतगवतसंपहत्तकाऐसाकोईहर् भाजिया र्`
+  line `सीयती व् य यभीिै, जो 20 कदसम्ब र, 2004 सेपूर्वककयागयाथा, प्र भाहर्तयाअहर्हिमान्य ििींकरेगी।`
+  line `( 2 )कोईसंपहत्त, हजसकेहिएकोईहिन्दू िारीउपिारा( 1 )केआिारपरिकदारबिजातीिै, उसकेद्वारासिदाहयकी स्र्`
+  line `ा हमत्र् कीप्र संग हत योंसहितिाररतकीजा एगीऔर, इसअहिहियमयातत्स मयप्रर्ृत्त ककसीअन्य हर्हिमेंअन्त र्र् वष् ट ककसीबा तके`
+  line `िोतेहुएभीर्सीयतीव्य यिद्वाराउसकेद्वाराककएजािेयोग्य संपहत्तकेरूपमेंसमझीजाएगी।`
+  line `( 3 )जिांककसीहिन्दू की, हिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 केप्रा रंभकेपिा त्मृत्यु िोजातीिै, र् िां`
+  line `हमतािराहर्हिद्वारा शाहसतककसीसंयुत हिन्दू कुटु म् ब कीसंपहत्तमें उसकाहित, यथा हस्थ हत, इसअहिहियमकेअिीिर्सीयतीया`
+  line `हिर्वसीयतीउत्तराहिकारद्वारान्या गतिोजाएगापरंतुउत्तरजीहर्ताकेआिारपरििींऔरसिदाहय कीसंपहत्तइसप्रकारहर्भाहजत`
+  line `कीगईसमझीजाएगीमािोहर्भाजििोिुकाथा, और `
+  line `(क)पुत्रीकोर्िीअंशआबंरटतिोगाजोपुत्रकोआबंरटतककयागयािै;`
+  line `(ि)पूर्वमृतपुत्रयाककसीपूर्वमृतपुत्रीकाअंश, जोउन्िें तबप्राप्त हु आिोतायकदर्ेहर्भाजिकेसमयजीहर्त`
+  line `िो ते, ऐसेपूर्वमृतपुत्रयाऐसीपूर्वमृतपुत्रीकीउत्तरजीर्ीसंतािकोआबंरटतककयाजाएगा; और`
+  line `(ग)ककसीपूर्वमृतपुत्रयाककसीपूर्वमृतपुत्रीकीपूर्वमृतसंतािकाअंशजोउससंताििेउसरूपमेंप्राप्त ककया`
+  line `िोतायकदर्िहर्भाजिकेसमयजीहर्तिोती, यथाहस्थ हत, पूर्वमृतपुत्रयाककसीपूर्वमृत पुत्रीकीपूर्वमृत संतािकीसंताि`
+  line कोआबंरटतककयाजाएगा।
+  line `1 2005 केअहिहियमसं ० 39 कीिारा 2 द्व ारा( 9 - 9 - 2005 से) उपिारा( 2 )कािोपककयागया।`
+  line `2 2005 केअहिहियमसं ० 39 कीिारा 3 द्व ारा( 9 - 9 - 2005 से)िारा 6 केस्था िपरप्रहतस्था हपत।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5 स्
-प ष् टी करण  इसिाराकेप्रयोजिोंकेहिएहिन्दू हमतािरासिदाहयककाहितसंपहत्तमेंकार्िअंशसमझाजाएगाजो
-उसेआबंरटतककयागयािोतायकदउसकीअपिीमृत्यु सेअव्य र् हितपूर्वसंपहत्तकाहर्भाजिककयागयािोता, इसबातकाहर्िार
-ककएहबिाककर्िहर्भाजिकादार्ाकरिेकािकदारथायाििीं।
-( 4 )हिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 केप्रारंभके पिा त्कोईन्या याियककसीपु त्र, पौत्रयाप्रपौत्रके
-हर्रुद्धउ सकेहपता, हपतामि, याप्रहपतामिसेशोध्य ककसीऋणकीर्सूिीकेहिएहिन्दू हर्हिकेअिीिपहर्त्रबाध्य ताकेआिारपर
-िीऐसेककसीऋणकोिुकािेकेहिएऐसेपुत्र, पौत्रयाप्रपौत्रकेहर्रुद्धकायवर्ािीकरिेकेककसीअहिकारकोमान्य ताििींदेगा:
-परन्तु हिन्दू उ त्त राहिकार(संशोिि)अहिहियम, 2005 केप्रारंभसेपूर्वहिएगएऋणकीदशामेंइसउपिारामेंअन्त र्र् वष् ट
-कोईबातहिम्ि हिहितकोप्रभाहर्तििींकरेगी, 
-( क)यथाहस्थ हत, पुत्र, पौत्रयाप्रपौत्रकेहर्रुद्धकायवर्ािीकरिेकेहिएककसीऋणदाताकाअहिकार; या
-(ि) ककसीऐसेऋणकेसंबंिमेंयाउसकेिुकाएजािेकेहिएककयागयाकोईसंिामणऔरकोईऐसाअहिकार
-यासंिामणपहर्त्रबाध्य ताकेहियमकेअिीिर्ैसीिीरीहतमेंऔरउसीसीमातकप्रर्तविीयिोगाजैसाककउससमय प्रर्
-तविीयिो ता जबककहिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 अहिहियहमतिककयागयािोता। स्
-प ष् टी करण  िंड(क)केप्रयोजिोंकेहिए, “ पुत्र ”, “ पौत्र ” या “ प्र पौत्र ” पदसेयिसमझाजाएगाककर्ि, यथाहस्थ हत, ऐसे
-पुत्र, पौत्रयाप्रपौत्रके प्र हतहिदेशिै, जोहिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 केप्रारंभके पूर्वपैदाहुआथादत्तकग्रिण
-ककयागयाथा।
-( 5 )इसिारामेंअन्त र्र् वष् ट कोईबातऐसेहर्भाजिकोिागूििींिोगीजो 20 कदसम्ब र, 2004 सेपूर्व ककयागयािै। स्
-प ष् टी करण  इसिाराकेप्रयोजिोंकेहिए “ हर्भाजि ” सेरहजस्ट्री करणअहिहियम, 1908 ( 1908 के 1 6) अिीि सम्य क् रू
-पसेरहजस्ट्री कृतककसीहर्भाजिहर्िेिकेहिष्पा दिद्वाराककयागयाकोईहर्भाजियाककसीन्या याियकीककसीहडिीद्वारा
-ककयागयाहर्भाजिअहभप्रेतिै।
-7. तरर्ाड, तार्हर्, कुटु म् ब, कर्रुयाइल्ि म्की सम्प हत्तमेंहितकान्या गमि  ( 1) जबकककोईहिन्दू हज सेयकदयि
-अहिहियमपारर तिककयागयािोतातोमरुमक तायम्यािंबु कदरीहर्हििागूिोतीइसअहिहियमकेप्रारम्भ केपिा त्अपिी
-मृत्यु केसमय, यथाहस्थ हत, तरर्ाड, तार्हर्याइस्ि म्कीसम्प हत्तमेंहितरितेहुएमरेतबसम्प हत्त मेंउसकाहितइसअहिहियमके
-अिीि, यथाहस्थ हत, र् सीयतीयाहिर्वसीयतीउत्तराहि का रद्वारान्या गतिोगा, मरुम क तायम्यािंबु कदरीहर्हिकेअिुसारििीं। स्
-प ष् टी करण  इसउपिाराकेप्रयोजिोंकेहिएतरर्ाड, तार्हर्याइल्ि म्कीसम्प हत्तमेंहिन्दू काहित, यथाहस्थ हत, तरर्ाड,
-तार्हर्याइल्ि म् कीस म् प हत्तमेंर्िअंशसमझाजाएगाजोउसेहमितायकदउसकीअपिीमृत्यु केअव्य र् हितपूर्व, यथाहस्थ हत,
-तरर्ाड़, तार्हर्याइल्ि म् केउससमयजीहर्तसबसदस्यों मेंउससम्प हत्तकाहर्भाजिव्य हत र् ारहुआिोता, िािेर्िअपिेको
-िागूमरुमका तायम्यािंबु कदरीहर्हिके अिीिऐसेहर्भाजिकादार्ाकरिेकािकदारथा या ििींतथाऐसाअंशउसेबांटमें
-आत्यं ककत:कदयागयासमझाजाएगा।
-( 2 )जबकककोईहिन्दू, हजसेयकदय िअहिहियमपाररतिककयागयािोतातोअहियसन्ता िहर्हििागूिोतीइस
-अहिहियमकेप्रारम्भ केप िा त्अपिीमृत्यु केस मय, यथाहस्थ हत, कुटुम्ब याकर्रूकी सम्प हत्तमेंअहर्भत हितरिते हु एमरेतब
-सम्प हत्तमेंउसकाअपिाहितइसअहिहियमकेअिीि, यथाहस्थ हत, र् सीयतीयाहिर्वसीयतीउत्तराहिकारद्वारान्या गतिोगा,
-अहियसन्ता िहर्हिकेअिुसारििीं। स्
-प ष् टी करण  इसउपिाराकेप्र योजिोंकेहिएकुटुम्ब याकर्रुकीसम्प हत्तमेंहिन्दू काहित, यथाहस्थ हत, कुटुम्ब याकर्रु
-कीसम्प हत्तमेंअंशसमझाजाएगाजोउसेहमितायकदउसकीअपिीमृत्यु केअव्यर्हितपूर्व,यथाहस्थहत,कुटुम्बयाकर्रुकेउससमय
-जीहर्तसबसदस्योंमेंउससम्पहत्तकाहर्भा जिव्य हत र् ारहुआिोता, िािेर्िअहियसन्तािहर्हिकेअिीि ऐसेहर्भाजिकादार्ा
-करिेकािकदारथायाििींतथाऐसाअंशउसेबांटमेंआत्यंहतकतःदेकदयागयासमझाजाएगा।
-( 3 )उपिारा( 1 )मेंअन्तर्र्वष्ट ककसीबातकेिोतेहुएभीजबककइसअहिहियमकेप्रा रम्भकेपिा त्कोईस्थािम्दा रमरे
-तबउसकेद्वारािाररतस्थािम्सम्पहत्तउसकुटुम्ब केसदस्योंकोहजसकार्िस्थािम्दारिैऔरस्थािम्दा रकेर्ाररसोंकोऐसेन्या गत
-िोगीमािोस्थािम्समहत्तस्था िम्दारऔर उसकेउससमयजीहर्तकुटुम्ब केसबसदस्योंकेबीिस्थािम्दा रकीमृत्यु केअव्यर्हित
-पूर्वव्यहत र् ारतौरपर हर्भाहजतकरदीगईथीऔरस्थािम्दा रके कुटुम्बकेसदस्योंऔरस्थािम्दा रकेर्ाररसोंकोजोअंशहमिेउन्िें र्े
-अपिीपृथक्सम्पहत्तकेतौरपरिाररतकरेंगे। स्
-पष्टीकरण — इसउपिाराकेप्रयोजिोंकेहिए स् था िम्दार के कुटुम्बके अंतगवतउसकुटुम्बको,िािेहर्भत िोयाअहर्भत,
-िरर्िशािाआएगीहजसकेपुरुर्सदस्ययकदअहिहियमपाररतिककयागयािोतातोककसीरूक़ियाप्रथाकेआिारपर स् था िम्दार
-केपद पर उत्तरर्तीिोिेकेिकदारिोते।
-8.पुरुर्कीदशामेंउत्तराहिकारकेसािारणहियम — हि र् व सीयतमरिेर्ािेहिन्दूपुरुर्कीसम्पहत्तइसअध्यायकेउपबन्िों
-केअिुसारहिम्ि हिहितकोन्यागतिोगी: —`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line `5 स्`
+  line `प ष् टी करण  इसिाराकेप्रयोजिोंकेहिएहिन्दू हमतािरासिदाहयककाहितसंपहत्तमेंकार्िअंशसमझाजाएगाजो`
+  line `उसेआबंरटतककयागयािोतायकदउसकीअपिीमृत्यु सेअव्य र् हितपूर्वसंपहत्तकाहर्भाजिककयागयािोता, इसबातकाहर्िार`
+  line ककएहबिाककर्िहर्भाजिकादार्ाकरिेकािकदारथायाििीं।
+  line `( 4 )हिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 केप्रारंभके पिा त्कोईन्या याियककसीपु त्र, पौत्रयाप्रपौत्रके`
+  line `हर्रुद्धउ सकेहपता, हपतामि, याप्रहपतामिसेशोध्य ककसीऋणकीर्सूिीकेहिएहिन्दू हर्हिकेअिीिपहर्त्रबाध्य ताकेआिारपर`
+  line `िीऐसेककसीऋणकोिुकािेकेहिएऐसेपुत्र, पौत्रयाप्रपौत्रकेहर्रुद्धकायवर्ािीकरिेकेककसीअहिकारकोमान्य ताििींदेगा:`
+  line `परन्तु हिन्दू उ त्त राहिकार(संशोिि)अहिहियम, 2005 केप्रारंभसेपूर्वहिएगएऋणकीदशामेंइसउपिारामेंअन्त र्र् वष् ट`
+  line `कोईबातहिम्ि हिहितकोप्रभाहर्तििींकरेगी, `
+  line `( क)यथाहस्थ हत, पुत्र, पौत्रयाप्रपौत्रकेहर्रुद्धकायवर्ािीकरिेकेहिएककसीऋणदाताकाअहिकार; या`
+  line `(ि) ककसीऐसेऋणकेसंबंिमेंयाउसकेिुकाएजािेकेहिएककयागयाकोईसंिामणऔरकोईऐसाअहिकार`
+  line `यासंिामणपहर्त्रबाध्य ताकेहियमकेअिीिर्ैसीिीरीहतमेंऔरउसीसीमातकप्रर्तविीयिोगाजैसाककउससमय प्रर्`
+  line `तविीयिो ता जबककहिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 अहिहियहमतिककयागयािोता। स्`
+  line `प ष् टी करण  िंड(क)केप्रयोजिोंकेहिए, “ पुत्र ”, “ पौत्र ” या “ प्र पौत्र ” पदसेयिसमझाजाएगाककर्ि, यथाहस्थ हत, ऐसे`
+  line `पुत्र, पौत्रयाप्रपौत्रके प्र हतहिदेशिै, जोहिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 केप्रारंभके पूर्वपैदाहुआथादत्तकग्रिण`
+  line ककयागयाथा।
+  line `( 5 )इसिारामेंअन्त र्र् वष् ट कोईबातऐसेहर्भाजिकोिागूििींिोगीजो 20 कदसम्ब र, 2004 सेपूर्व ककयागयािै। स्`
+  line `प ष् टी करण  इसिाराकेप्रयोजिोंकेहिए “ हर्भाजि ” सेरहजस्ट्री करणअहिहियम, 1908 ( 1908 के 1 6) अिीि सम्य क् रू`
+  line `पसेरहजस्ट्री कृतककसीहर्भाजिहर्िेिकेहिष्पा दिद्वाराककयागयाकोईहर्भाजियाककसीन्या याियकीककसीहडिीद्वारा`
+  line ककयागयाहर्भाजिअहभप्रेतिै।
+  line `7. तरर्ाड, तार्हर्, कुटु म् ब, कर्रुयाइल्ि म्की सम्प हत्तमेंहितकान्या गमि  ( 1) जबकककोईहिन्दू हज सेयकदयि`
+  line `अहिहियमपारर तिककयागयािोतातोमरुमक तायम्यािंबु कदरीहर्हििागूिोतीइसअहिहियमकेप्रारम्भ केपिा त्अपिी`
+  line `मृत्यु केसमय, यथाहस्थ हत, तरर्ाड, तार्हर्याइस्ि म्कीसम्प हत्तमेंहितरितेहुएमरेतबसम्प हत्त मेंउसकाहितइसअहिहियमके`
+  line `अिीि, यथाहस्थ हत, र् सीयतीयाहिर्वसीयतीउत्तराहि का रद्वारान्या गतिोगा, मरुम क तायम्यािंबु कदरीहर्हिकेअिुसारििीं। स्`
+  line `प ष् टी करण  इसउपिाराकेप्रयोजिोंकेहिएतरर्ाड, तार्हर्याइल्ि म्कीसम्प हत्तमेंहिन्दू काहित, यथाहस्थ हत, तरर्ाड,`
+  line `तार्हर्याइल्ि म् कीस म् प हत्तमेंर्िअंशसमझाजाएगाजोउसेहमितायकदउसकीअपिीमृत्यु केअव्य र् हितपूर्व, यथाहस्थ हत,`
+  line `तरर्ाड़, तार्हर्याइल्ि म् केउससमयजीहर्तसबसदस्यों मेंउससम्प हत्तकाहर्भाजिव्य हत र् ारहुआिोता, िािेर्िअपिेको`
+  line `िागूमरुमका तायम्यािंबु कदरीहर्हिके अिीिऐसेहर्भाजिकादार्ाकरिेकािकदारथा या ििींतथाऐसाअंशउसेबांटमें`
+  line `आत्यं ककत:कदयागयासमझाजाएगा।`
+  line `( 2 )जबकककोईहिन्दू, हजसेयकदय िअहिहियमपाररतिककयागयािोतातोअहियसन्ता िहर्हििागूिोतीइस`
+  line `अहिहियमकेप्रारम्भ केप िा त्अपिीमृत्यु केस मय, यथाहस्थ हत, कुटुम्ब याकर्रूकी सम्प हत्तमेंअहर्भत हितरिते हु एमरेतब`
+  line `सम्प हत्तमेंउसकाअपिाहितइसअहिहियमकेअिीि, यथाहस्थ हत, र् सीयतीयाहिर्वसीयतीउत्तराहिकारद्वारान्या गतिोगा,`
+  line `अहियसन्ता िहर्हिकेअिुसारििीं। स्`
+  line `प ष् टी करण  इसउपिाराकेप्र योजिोंकेहिएकुटुम्ब याकर्रुकीसम्प हत्तमेंहिन्दू काहित, यथाहस्थ हत, कुटुम्ब याकर्रु`
+  line `कीसम्प हत्तमेंअंशसमझाजाएगाजोउसेहमितायकदउसकीअपिीमृत्यु केअव्यर्हितपूर्व,यथाहस्थहत,कुटुम्बयाकर्रुकेउससमय`
+  line `जीहर्तसबसदस्योंमेंउससम्पहत्तकाहर्भा जिव्य हत र् ारहुआिोता, िािेर्िअहियसन्तािहर्हिकेअिीि ऐसेहर्भाजिकादार्ा`
+  line करिेकािकदारथायाििींतथाऐसाअंशउसेबांटमेंआत्यंहतकतःदेकदयागयासमझाजाएगा।
+  line `( 3 )उपिारा( 1 )मेंअन्तर्र्वष्ट ककसीबातकेिोतेहुएभीजबककइसअहिहियमकेप्रा रम्भकेपिा त्कोईस्थािम्दा रमरे`
+  line `तबउसकेद्वारािाररतस्थािम्सम्पहत्तउसकुटुम्ब केसदस्योंकोहजसकार्िस्थािम्दारिैऔरस्थािम्दा रकेर्ाररसोंकोऐसेन्या गत`
+  line `िोगीमािोस्थािम्समहत्तस्था िम्दारऔर उसकेउससमयजीहर्तकुटुम्ब केसबसदस्योंकेबीिस्थािम्दा रकीमृत्यु केअव्यर्हित`
+  line `पूर्वव्यहत र् ारतौरपर हर्भाहजतकरदीगईथीऔरस्थािम्दा रके कुटुम्बकेसदस्योंऔरस्थािम्दा रकेर्ाररसोंकोजोअंशहमिेउन्िें र्े`
+  line `अपिीपृथक्सम्पहत्तकेतौरपरिाररतकरेंगे। स्`
+  line `पष्टीकरण — इसउपिाराकेप्रयोजिोंकेहिए स् था िम्दार के कुटुम्बके अंतगवतउसकुटुम्बको,िािेहर्भत िोयाअहर्भत,`
+  line `िरर्िशािाआएगीहजसकेपुरुर्सदस्ययकदअहिहियमपाररतिककयागयािोतातोककसीरूक़ियाप्रथाकेआिारपर स् था िम्दार`
+  line `केपद पर उत्तरर्तीिोिेकेिकदारिोते।`
+  line `8.पुरुर्कीदशामेंउत्तराहिकारकेसािारणहियम — हि र् व सीयतमरिेर्ािेहिन्दूपुरुर्कीसम्पहत्तइसअध्यायकेउपबन्िों`
+  line `केअिुसारहिम्ि हिहितकोन्यागतिोगी: —`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-(क)प्रथमतः,उिर्ाररसोंको,जोअिुसूिीकेर्गव 1 मेंहर्हिर्दवष्ट सम्ब न् िी िैं;
-(ि)हद्वतीयतः,यकदर्गव 1 मेंर्ाररसििोतोउिर्ाररसोंकोजोअिुसू िीकेर्गव 2 मेंहर्हिर्दवष्ट सम्बन्िीिैं;
-(ग)तृतीयतः,यकददोिोंर्गोंमेंसेककसीमेंकाकोईर्ाररसििोतोमृतककेगोत्रजोंको; तथा
-(घ)अन्त त:,यकदकोईगोत्रजििोतोमृतकबन्िुओंको।
-9.अिुसूिीमेंकेर्ाररसोंकेबीिउत्तराहिकारकािम — अिुसूिीमेंहर्हिर्दवष्ट र् ाररसोंमेंकेर्गव 1 मेंकेर्ाररसएकसाथ
-औरअन्यसबर्ाररसोंकाअपर्जविकरतेहुएअंशभागीिोंगे; र् गव 2 मेंकीपििीप्रहर्हष्ट मेंकेर्ाररसोंकोदूसरीप्रहर्हष्ट में के र् ाररसों
-कीअपेिाअहिमा िप्राप्त िोगा; दूसरीप्रहर्हष्ट मेंके र् ाररसोंकोतीसरीप्रहर्हष्ट मेंकेर्ाररसोंकीअपेिाअहिमािप्राप्त िोगाऔर
-इसीप्रकारआगेिमसेअहिमािप्राप्त िोगा।
-10.अिुसूिीकेर्गव 1 मेंकेर्ाररसोंमेंसम्पहत्तकाहर्तरण — हिर्वसीयतकीसंपहत्तअिुसूिी केर्गव 1 मेंकेर्ाररसोंमें
-हिम्ि हिहित हियमोंकेअिुसारहर्भाहजतकीजाएगी —
-हियम 1 — हिर्वसीयतकीहर्िर्ाकोयायकदएकसेअहिकहर्िर्ाएंिोंतोसबहर्िर्ाओंकोहमिाकरएक
-अंशहमिेगा।
-हियम 2 — हिर्वसीयतकेउत्तरजीर्ीपुत्रोंऔरपुहत्रयोंऔरमातािरएककोएक - एकअंशहमिेगा।
-हियम 3 — हिर्वसीयतके िरएकपूर्वमृतपुत्रकीयािरएकपूर्वमृतपुत्रीकीशािामेंकेसबर्ाररसोंको
-हमिाकरएकअंशहमिेगा।
-हियम 4 — हियम 3 मेंहिर्दवष्ट अंशकाहर्तरण —
-( i )पूर्वमृतपुत्रकीशािामेंकेर्ाररसोंकेबीिऐसेककयाजाएगाककउसकीअपिीहर्िर्ाको(यासब
-हर्िर्ाओंकोहमिा कर)औरउत्तरजीर्ीपुत्रोंऔरपुहत्रयोंकोबराबरभागप्राप्त िों,औरउसकेपूर्वमृतपुत्रीकी
-शािाकोर्िीभागप्राप्त िो।
-( ii )पूर्वमृतपुत्रीकीशािामेंकेर्ाररसोंकेबीिऐसेककयाजाएगाककउत्तजीर्ीपुत्रोंऔरपुहत्रयोंको
-बराबरभागप्राप्त िो।
-11. अिुसूिीकेर्गव 2 मेंकेर्ाररसोंमेंसम्पहत्तकाहर्तरण — अिुसूिीकेर्गव 2 मेंककसीएकप्रहर्हष्ट मेंहर्हिर्दवष्ट र् ाररसों
-केबीिहिर्वसीयतकीसम्पहत्तऐसेहर्भाहजतकीजाएगीककउन्िेंबराबरअंशहमिे।
-12.गोत्रजोंऔरबन्िुओंमेंउत्तराहिकारकािम — गोत्रजों याबन्िुओंमें,यथाहस्थहत,उत्तराहिकारकािमयिांिीिेकदए हु
-एअहिमािकेहियमोंकेअिुसारअर्िाररतककयाजाएगा —
-हियम 1 — दोर्ाररसोंमेंसेउसेअहिमािप्राप्त िोगाहजसकीउपरिीओरकीहडहग्रयांअपेिातरकमिोंयािों
-िीििीं।
-हियम 2 — जिांकक उपरिीओरकीहडहग्रयोंकीसंखयाएकसमाििोयािोंिीििींउसर्ाररसकोअहिमाि प्र
-ाप्त िोगाहजसकीहिििीओरकीहडहग्रयांअपेिातरकमिोंयािोंिीििीं।
-हियम 3 — जिांककहियम 1 याहियम 2 केअिीिकोईभीर्ाररसदूसरेसेअहिमािकािकदारििोर्िांर्े
-दोिोंसाथ - साथअंशदायीिोंगे।
-13.हडहग्रयोंकीसंगणिा — ( 1 )गोत्रजोंयाबन्िुओंकेबीिउत्तराहिकारिमकेअर्िारणकेप्रयोजिकेहिएहिर्वसीयतसे,
-यथाहस्थहत,उपरिीहडग्री या हिििीहडग्रीयादोिोंकेअिुसारकेर्ाररसकेसम्बन्िकीसंगणिाकीजाएगी।
-( 2 )उपरिीहडग्रीऔरहि ििीहडग्रीकीसंगणिाहिर्वसीयतकोहगितेहुएकीजाएगी।
-( 3 )िरपी़िीएकहडग्रीगरितकरतीिैिािेउपरिीिािेहिििी।
-14.हिन्दूिारीकीसम्पहत्तउसकीआत्यं हतकतःअपिीसम्पहत्तिोगी — ( 1 )हिन्दूिारीकेकब्जेमेंकीकोईभीसम्पहत्त,िािे र्
-िइसअहिहियमकेप्रारम्भ सेपूर्वयापिा त्अर्जवतकीगईिो,उसकेद्वारापूणवस्र्ामीकेतौरपरिककपररसीहमतस्र्ामीकेतौर
-परिाररतकीजाएगी। स्
-पष्टीकरण — इसउपिारामें “ सम्पहत्त ” केअंतगवतर्िजंगमऔरस्थार्रसम्पहत्तआतीिैजोहिन्दूिारीिेहर्रासतद्वारा
-अथर्ार्सीयतद्वाराअ थर्ाहर्भाजिमेंअथर्ाभरण - पोर्णकेयाभरण - पोर्णकीबकायाकेबदिेमेंअथर्ाअपिेहर्र्ािकेपूर्वया
-हर्र्ािकेसमययापिा त्दािद्वाराककसीव्यहत से,िािेर्िसम्बन्िीिोयाििो,अथर्ाअपिेकौशियापररश्रमद्वाराअथर्ा
-ियद्वाराअथर्ाहिरभोगद्वाराअथर्ाककसीअ न् यरीहतसे,िािेर्िकैसीिीयोंििो,अर्जवतकीिोऔरऐसीसम्पहत्तभीजोइस
-अहिहियमकेप्रारम्भसेअव्यर्हित पूर्व स्त्र ी ििकेरूपमेंउसकेद्वारािाररतथी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `(क)प्रथमतः,उिर्ाररसोंको,जोअिुसूिीकेर्गव 1 मेंहर्हिर्दवष्ट सम्ब न् िी िैं;`
+  line `(ि)हद्वतीयतः,यकदर्गव 1 मेंर्ाररसििोतोउिर्ाररसोंकोजोअिुसू िीकेर्गव 2 मेंहर्हिर्दवष्ट सम्बन्िीिैं;`
+  line `(ग)तृतीयतः,यकददोिोंर्गोंमेंसेककसीमेंकाकोईर्ाररसििोतोमृतककेगोत्रजोंको; तथा`
+  line `(घ)अन्त त:,यकदकोईगोत्रजििोतोमृतकबन्िुओंको।`
+  line `9.अिुसूिीमेंकेर्ाररसोंकेबीिउत्तराहिकारकािम — अिुसूिीमेंहर्हिर्दवष्ट र् ाररसोंमेंकेर्गव 1 मेंकेर्ाररसएकसाथ`
+  line `औरअन्यसबर्ाररसोंकाअपर्जविकरतेहुएअंशभागीिोंगे; र् गव 2 मेंकीपििीप्रहर्हष्ट मेंकेर्ाररसोंकोदूसरीप्रहर्हष्ट में के र् ाररसों`
+  line `कीअपेिाअहिमा िप्राप्त िोगा; दूसरीप्रहर्हष्ट मेंके र् ाररसोंकोतीसरीप्रहर्हष्ट मेंकेर्ाररसोंकीअपेिाअहिमािप्राप्त िोगाऔर`
+  line `इसीप्रकारआगेिमसेअहिमािप्राप्त िोगा।`
+  line `10.अिुसूिीकेर्गव 1 मेंकेर्ाररसोंमेंसम्पहत्तकाहर्तरण — हिर्वसीयतकीसंपहत्तअिुसूिी केर्गव 1 मेंकेर्ाररसोंमें`
+  line `हिम्ि हिहित हियमोंकेअिुसारहर्भाहजतकीजाएगी —`
+  line `हियम 1 — हिर्वसीयतकीहर्िर्ाकोयायकदएकसेअहिकहर्िर्ाएंिोंतोसबहर्िर्ाओंकोहमिाकरएक`
+  line अंशहमिेगा।
+  line `हियम 2 — हिर्वसीयतकेउत्तरजीर्ीपुत्रोंऔरपुहत्रयोंऔरमातािरएककोएक - एकअंशहमिेगा।`
+  line `हियम 3 — हिर्वसीयतके िरएकपूर्वमृतपुत्रकीयािरएकपूर्वमृतपुत्रीकीशािामेंकेसबर्ाररसोंको`
+  line हमिाकरएकअंशहमिेगा।
+  line `हियम 4 — हियम 3 मेंहिर्दवष्ट अंशकाहर्तरण —`
+  line `( i )पूर्वमृतपुत्रकीशािामेंकेर्ाररसोंकेबीिऐसेककयाजाएगाककउसकीअपिीहर्िर्ाको(यासब`
+  line `हर्िर्ाओंकोहमिा कर)औरउत्तरजीर्ीपुत्रोंऔरपुहत्रयोंकोबराबरभागप्राप्त िों,औरउसकेपूर्वमृतपुत्रीकी`
+  line `शािाकोर्िीभागप्राप्त िो।`
+  line `( ii )पूर्वमृतपुत्रीकीशािामेंकेर्ाररसोंकेबीिऐसेककयाजाएगाककउत्तजीर्ीपुत्रोंऔरपुहत्रयोंको`
+  line `बराबरभागप्राप्त िो।`
+  line `11. अिुसूिीकेर्गव 2 मेंकेर्ाररसोंमेंसम्पहत्तकाहर्तरण — अिुसूिीकेर्गव 2 मेंककसीएकप्रहर्हष्ट मेंहर्हिर्दवष्ट र् ाररसों`
+  line केबीिहिर्वसीयतकीसम्पहत्तऐसेहर्भाहजतकीजाएगीककउन्िेंबराबरअंशहमिे।
+  line `12.गोत्रजोंऔरबन्िुओंमेंउत्तराहिकारकािम — गोत्रजों याबन्िुओंमें,यथाहस्थहत,उत्तराहिकारकािमयिांिीिेकदए हु`
+  line `एअहिमािकेहियमोंकेअिुसारअर्िाररतककयाजाएगा —`
+  line `हियम 1 — दोर्ाररसोंमेंसेउसेअहिमािप्राप्त िोगाहजसकीउपरिीओरकीहडहग्रयांअपेिातरकमिोंयािों`
+  line िीििीं।
+  line `हियम 2 — जिांकक उपरिीओरकीहडहग्रयोंकीसंखयाएकसमाििोयािोंिीििींउसर्ाररसकोअहिमाि प्र`
+  line `ाप्त िोगाहजसकीहिििीओरकीहडहग्रयांअपेिातरकमिोंयािोंिीििीं।`
+  line `हियम 3 — जिांककहियम 1 याहियम 2 केअिीिकोईभीर्ाररसदूसरेसेअहिमािकािकदारििोर्िांर्े`
+  line `दोिोंसाथ - साथअंशदायीिोंगे।`
+  line `13.हडहग्रयोंकीसंगणिा — ( 1 )गोत्रजोंयाबन्िुओंकेबीिउत्तराहिकारिमकेअर्िारणकेप्रयोजिकेहिएहिर्वसीयतसे,`
+  line `यथाहस्थहत,उपरिीहडग्री या हिििीहडग्रीयादोिोंकेअिुसारकेर्ाररसकेसम्बन्िकीसंगणिाकीजाएगी।`
+  line `( 2 )उपरिीहडग्रीऔरहि ििीहडग्रीकीसंगणिाहिर्वसीयतकोहगितेहुएकीजाएगी।`
+  line `( 3 )िरपी़िीएकहडग्रीगरितकरतीिैिािेउपरिीिािेहिििी।`
+  line `14.हिन्दूिारीकीसम्पहत्तउसकीआत्यं हतकतःअपिीसम्पहत्तिोगी — ( 1 )हिन्दूिारीकेकब्जेमेंकीकोईभीसम्पहत्त,िािे र्`
+  line `िइसअहिहियमकेप्रारम्भ सेपूर्वयापिा त्अर्जवतकीगईिो,उसकेद्वारापूणवस्र्ामीकेतौरपरिककपररसीहमतस्र्ामीकेतौर`
+  line `परिाररतकीजाएगी। स्`
+  line `पष्टीकरण — इसउपिारामें “ सम्पहत्त ” केअंतगवतर्िजंगमऔरस्थार्रसम्पहत्तआतीिैजोहिन्दूिारीिेहर्रासतद्वारा`
+  line `अथर्ार्सीयतद्वाराअ थर्ाहर्भाजिमेंअथर्ाभरण - पोर्णकेयाभरण - पोर्णकीबकायाकेबदिेमेंअथर्ाअपिेहर्र्ािकेपूर्वया`
+  line `हर्र्ािकेसमययापिा त्दािद्वाराककसीव्यहत से,िािेर्िसम्बन्िीिोयाििो,अथर्ाअपिेकौशियापररश्रमद्वाराअथर्ा`
+  line `ियद्वाराअथर्ाहिरभोगद्वाराअथर्ाककसीअ न् यरीहतसे,िािेर्िकैसीिीयोंििो,अर्जवतकीिोऔरऐसीसम्पहत्तभीजोइस`
+  line `अहिहियमकेप्रारम्भसेअव्यर्हित पूर्व स्त्र ी ििकेरूपमेंउसकेद्वारािाररतथी।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `7
-( 2 )उपिारा( 1 )मेंअन्तर्र्वष्ट कोईबातऐसीककसीसम्पहत्तकोिागूििोगीजोदािअथर्ाहर्िद्वारा याअन्यककसी
-हिितकेअिीिहसहर्िन्यायाियकीहडिीयाआदेशकेअिीियापंिाटकेअिीिअर्जवतकीगईिोयकददाि,हर्ियाअन्यहिित
-अथर्ाहडग्री,आदेशयापंिाटकेहिबन्ििऐसीसम्पहत्तमेंहिबवहन्ितसम्पदाहर्हितकरतेिों।
-15.हिन्दूिारीकीदशामेंउत्तराहिकार केसािारणहियम — ( 1 )हिर्वसीयतमरिेर्ािीहिन्दूिारीकीसम्पहत्तिारा 16 में
-कदएगएहियमोंकेअिुसारहिम्ि हिहितकोन्यागतिोगी: —
-(क)प्रथमतःपुत्रोंऔरपुहत्रयों(हजसकेअन्तगवतककसीपूर्वमृतपुत्रयापुत्रीकेअपत्यभीिैं )औरपहतको;
-(ि)हद्वतीयतःपहत केर्ाररसोंको;
-(ग)तृतीयतःमाताऔरहपताको;
-(घ)ितुथवतःहपताकेर्ाररसोंको; तथा
-(ङ)अन्ततःमाताकेर्ाररसोंको।
-( 2 )उपिारा( 1 )मेंअन्तर्र्वष्ट ककसीबातकेिोतेहुएभी —
-(क)कोईसम्पहत्तहजसकीहर्रासतहिन्दूिारीकोअपिेहपतायामातासेप्राप्त हु ई िो,मृतककेपुत्रयापुत्रीके
-(हजसकेअन्तगवतककसीपूर्वमृतपुत्रयापुत्रीकेअपत्यभीआतेिैं)अभार्मेंउपिारा( 1 )मेंहिर्दवष्ट अन्यर्ाररसोंकोउसमें
-हर्हिर्दवष्ट िमसेन्यागतििोकरहपताकेर्ाररसोंकोन्यागतिोगी; तथा
-(ि)कोईसम्प हत्तजोहिन्दू िारीकोअपिेपहत याअपिे र् सुरसे हर्रासतमेंप्राप्त हु ईिोमृतक केककसीपुत्र या
-पुत्री के(हजसकेअन्तगवतककसीपूर्वमृतपुत्रयापुत्री के अपत्यभीआतेिैं)अभार्मेंउपिारा( 1 )मेंहर्हिर्दवष्ट अन्यर्ाररसों
-कोउसमेंहर्हिर्दवष्ट िमसेन्यागतििोक रपहतकेर्ाररसोंकोन्यागतिोगी।
-16.हिन्दूिारीके र् ाररसोंमेंउत्तराहिकारकािमऔरहर्तरणकीरीहत — िारा 15 मेंहिर्दवष्ट र् ाररसों में उत्त राहिकारका
-िमऔरउिर्ाररसोंमेंहिर्वसीयतकीसंपहत्तकाहर्त रणहिम्ि हिहितहियमोंकेअिुसारिोगा,अथावत्: —
-हियम 1 — िारा 15 कीउपिारा( 1 )मेंहर्हिर्दवष्ट र् ाररसोंमेंसेपििीप्रहर्हष्ट मेंकेर्ाररसोंकोककसीउत्तरर्ती प्र
-हर्हष्ट मेंकेर्ाररसोंकीतु ििामेंअहिमािप्राप्त िोगा औरजोर्ाररसएकिीप्रहर्हष्ट केअंतगवतिो,र्ेसाथ - साथ
-अंशभागीिोंगे।
-हियम 2 — यकदहिर्वसीयतकाकोईपुत्रयाअपिेिीकोईअपत्य हिर्वसीयतकीमृत्यु केसमयजीहर्तछोड़कर
-हिर्वसीयतसे पूर्वमर जाएतोऐसेपुत्रयापुत्रीकेअपत्य परस्प रर्िअंशिेंगेहजसेर्ििेतीयकदहिर्वसीयतकीमृत्यु के
-समयऐसापुत्रयापुत्रीजीहर्तिोती।
-हियम 3 — िारा 15 कीउपिारा (1) केिण्ड (ि), (घ)और( ङ )मेंऔरउपिारा (2) मेंहिर्दवष्ट र् ाररसोंको
-हिर्वसीयतकीसम्प हत्तउसीिममेंऔरउन्िीं हियमोंकेअिुसारन्या गतिोगीजोिागूिोतेयकदसम्प हत्त, यथाहस्थ हत, हपता
-कीयामाताकीयापहतकीिोतीऔरर्िव्य हत हिर्वसीयतकीमृत्यु केअव्य र् हितपिा त्उससम्प हत्तकेबारेमेंर्सीयत
-ककएहबिामरगयािोता।
-17. मरुमक त्त ायम्औरअहियसन्ता िहर्हियोंद्वाराशाहसतव्य हत योंकेहर्र्यमेंहर्शेर्उपबन्ि — िाराओं 8, 10, 15 और
-23 केउपबन्ि उिव्य हत योंकेसम्ब न् ि मेंजोयकदयिअहिहियमपाररतिककया गयािोतातोमरुमक त्त ायम्हर्हि या
-अहियसन्ता िहर्हिद्वाराशाहसतिोते, ऐसेप्रभार्शीििोंगेमािो: —
-(i) िारा 8 केउपिण्डों (ग)और(घ)केस्था िपरहिम्ि हिहितप्रहतस्था हपतकरकदयागयािो, अथावत्: —
-“ (ग)तृतीयत:, य कददोिोंर्गोंमेंककसीकाकोईर्ाररसििोतोउसकेसम्ब हन्ि योंकोिािेर्ेगोत्रजिों
-याबन्िु िों। ”;
-(ii) िारा 15 कीउपिारा (1) केिण्ड (क)सेिेकर( ङ )तककेस्था िपरहिम्ि हिहितप्रहतस्था हपतकरकदयागया
-िो, अथावत्: —
-“ (क)प्रथमत:, पुत्रोंऔरपुहत्र योंको(हजिकेअंतगवतककसी पूर्वमृत पुत्रयापुत्रीकेअपत्य भीआतेिैं)
-औरमाताको;
-(ि)हद्वतीयत:, हपताऔरपहतको;
-(ग)तृतीयत:, माता के र् ाररसोंको;
-(घ)ितुथवत:, हपताकेर्ाररसों को; तथा
-( ङ )अन्त त:, पहतकेर्ाररसोंको। ”`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 7
+  line `( 2 )उपिारा( 1 )मेंअन्तर्र्वष्ट कोईबातऐसीककसीसम्पहत्तकोिागूििोगीजोदािअथर्ाहर्िद्वारा याअन्यककसी`
+  line हिितकेअिीिहसहर्िन्यायाियकीहडिीयाआदेशकेअिीियापंिाटकेअिीिअर्जवतकीगईिोयकददाि,हर्ियाअन्यहिित
+  line अथर्ाहडग्री,आदेशयापंिाटकेहिबन्ििऐसीसम्पहत्तमेंहिबवहन्ितसम्पदाहर्हितकरतेिों।
+  line `15.हिन्दूिारीकीदशामेंउत्तराहिकार केसािारणहियम — ( 1 )हिर्वसीयतमरिेर्ािीहिन्दूिारीकीसम्पहत्तिारा 16 में`
+  line `कदएगएहियमोंकेअिुसारहिम्ि हिहितकोन्यागतिोगी: —`
+  line `(क)प्रथमतःपुत्रोंऔरपुहत्रयों(हजसकेअन्तगवतककसीपूर्वमृतपुत्रयापुत्रीकेअपत्यभीिैं )औरपहतको;`
+  line `(ि)हद्वतीयतःपहत केर्ाररसोंको;`
+  line `(ग)तृतीयतःमाताऔरहपताको;`
+  line `(घ)ितुथवतःहपताकेर्ाररसोंको; तथा`
+  line `(ङ)अन्ततःमाताकेर्ाररसोंको।`
+  line `( 2 )उपिारा( 1 )मेंअन्तर्र्वष्ट ककसीबातकेिोतेहुएभी —`
+  line `(क)कोईसम्पहत्तहजसकीहर्रासतहिन्दूिारीकोअपिेहपतायामातासेप्राप्त हु ई िो,मृतककेपुत्रयापुत्रीके`
+  line `(हजसकेअन्तगवतककसीपूर्वमृतपुत्रयापुत्रीकेअपत्यभीआतेिैं)अभार्मेंउपिारा( 1 )मेंहिर्दवष्ट अन्यर्ाररसोंकोउसमें`
+  line `हर्हिर्दवष्ट िमसेन्यागतििोकरहपताकेर्ाररसोंकोन्यागतिोगी; तथा`
+  line `(ि)कोईसम्प हत्तजोहिन्दू िारीकोअपिेपहत याअपिे र् सुरसे हर्रासतमेंप्राप्त हु ईिोमृतक केककसीपुत्र या`
+  line `पुत्री के(हजसकेअन्तगवतककसीपूर्वमृतपुत्रयापुत्री के अपत्यभीआतेिैं)अभार्मेंउपिारा( 1 )मेंहर्हिर्दवष्ट अन्यर्ाररसों`
+  line `कोउसमेंहर्हिर्दवष्ट िमसेन्यागतििोक रपहतकेर्ाररसोंकोन्यागतिोगी।`
+  line `16.हिन्दूिारीके र् ाररसोंमेंउत्तराहिकारकािमऔरहर्तरणकीरीहत — िारा 15 मेंहिर्दवष्ट र् ाररसों में उत्त राहिकारका`
+  line `िमऔरउिर्ाररसोंमेंहिर्वसीयतकीसंपहत्तकाहर्त रणहिम्ि हिहितहियमोंकेअिुसारिोगा,अथावत्: —`
+  line `हियम 1 — िारा 15 कीउपिारा( 1 )मेंहर्हिर्दवष्ट र् ाररसोंमेंसेपििीप्रहर्हष्ट मेंकेर्ाररसोंकोककसीउत्तरर्ती प्र`
+  line `हर्हष्ट मेंकेर्ाररसोंकीतु ििामेंअहिमािप्राप्त िोगा औरजोर्ाररसएकिीप्रहर्हष्ट केअंतगवतिो,र्ेसाथ - साथ`
+  line अंशभागीिोंगे।
+  line `हियम 2 — यकदहिर्वसीयतकाकोईपुत्रयाअपिेिीकोईअपत्य हिर्वसीयतकीमृत्यु केसमयजीहर्तछोड़कर`
+  line `हिर्वसीयतसे पूर्वमर जाएतोऐसेपुत्रयापुत्रीकेअपत्य परस्प रर्िअंशिेंगेहजसेर्ििेतीयकदहिर्वसीयतकीमृत्यु के`
+  line समयऐसापुत्रयापुत्रीजीहर्तिोती।
+  line `हियम 3 — िारा 15 कीउपिारा (1) केिण्ड (ि), (घ)और( ङ )मेंऔरउपिारा (2) मेंहिर्दवष्ट र् ाररसोंको`
+  line `हिर्वसीयतकीसम्प हत्तउसीिममेंऔरउन्िीं हियमोंकेअिुसारन्या गतिोगीजोिागूिोतेयकदसम्प हत्त, यथाहस्थ हत, हपता`
+  line `कीयामाताकीयापहतकीिोतीऔरर्िव्य हत हिर्वसीयतकीमृत्यु केअव्य र् हितपिा त्उससम्प हत्तकेबारेमेंर्सीयत`
+  line ककएहबिामरगयािोता।
+  line `17. मरुमक त्त ायम्औरअहियसन्ता िहर्हियोंद्वाराशाहसतव्य हत योंकेहर्र्यमेंहर्शेर्उपबन्ि — िाराओं 8, 10, 15 और`
+  line `23 केउपबन्ि उिव्य हत योंकेसम्ब न् ि मेंजोयकदयिअहिहियमपाररतिककया गयािोतातोमरुमक त्त ायम्हर्हि या`
+  line `अहियसन्ता िहर्हिद्वाराशाहसतिोते, ऐसेप्रभार्शीििोंगेमािो: —`
+  line `(i) िारा 8 केउपिण्डों (ग)और(घ)केस्था िपरहिम्ि हिहितप्रहतस्था हपतकरकदयागयािो, अथावत्: —`
+  line `“ (ग)तृतीयत:, य कददोिोंर्गोंमेंककसीकाकोईर्ाररसििोतोउसकेसम्ब हन्ि योंकोिािेर्ेगोत्रजिों`
+  line `याबन्िु िों। ”;`
+  line `(ii) िारा 15 कीउपिारा (1) केिण्ड (क)सेिेकर( ङ )तककेस्था िपरहिम्ि हिहितप्रहतस्था हपतकरकदयागया`
+  line `िो, अथावत्: —`
+  line `“ (क)प्रथमत:, पुत्रोंऔरपुहत्र योंको(हजिकेअंतगवतककसी पूर्वमृत पुत्रयापुत्रीकेअपत्य भीआतेिैं)`
+  line औरमाताको;
+  line `(ि)हद्वतीयत:, हपताऔरपहतको;`
+  line `(ग)तृतीयत:, माता के र् ाररसोंको;`
+  line `(घ)ितुथवत:, हपताकेर्ाररसों को; तथा`
+  line `( ङ )अन्त त:, पहतकेर्ाररसोंको। ”`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `8
-(iii) िारा 15 कीउपिारा (2) का िण्ड (क)िुप्त करकदयागयािो;
-(iv) िारा 23 िुप्त करदीगईिो।
-उत्तराहिकारसेसंबंहितसािारण उप बंि
-18. पूणवरत कोअिवरत परअहिमािप्राप्त िै — हिर्वसीयतसेपूणवरत सम्ब न् ि रििेर्ािेर्ाररसोंकोअिवरत सम्ब न् ि
-रििेर्ािेर्ाररसोंपरअहिमा िप्राप्त िोगायकदउससम्ब न् ि कीप्रकृहतसबप्रकारसेर्िीिो।
-19. दोयाअहिकर्ाररसोंकेउत्तराहिकारकाढंग — यकददोयाअहिकर्ाररसहिर्सवसीयतकीसम्प हत्तकेएकसाथ
-उत्तराहिकारीिोतेिैंतोर्ेसम्प हत्तकोहिम्ि हिहितप्रकारसेपाएंगे —
-(क)इसअहिहियममें अहभव्य त तौरपरअन्य थाउपबहन्ि तकेहसर्ायव्य हत र् ार, िककशािार्ारआिारपर
-िेंगे; और
-(ि)सामाहन्य कअहभिाररयोंकीिैहसयतमेंिककसंयुत अहभिाररयोंकीिैहसयतमेंिेंगे।
-20. गभवहस्थ तअपत्य काअहिकार — जोअपत्य हिर्वसीयतकीमृत्यु केसमयगभवमें हस्थ तथाऔरजोतत्प िा त्जीहर्त
-पैदाहुआिोउसकेहिर्वसीयतकीहर्रासतकेहर्र्यमेंर्िीअहिकारिोंगेजोउसकेिोतेयकदर्िहिर्वसीयतकीमृत्यु केपूर्वपैदाहुआ
-िोता; औरऐसीदशामेंहर्रासतहिर्वसीयतकीमृत्यु कीतारीिसेउसमेंहिहितसमझीजाएगी।
-21. सम - सा महयकमृत्यु ओं केहर्र्यमेंउपिारणा — जिांककदोव्य हत ऐसीपररहस्थ हतयोंमेंमरेिोंहजिमेंयिअहभहिहि त
-िोककउिमेंसेकोईदूसरेकाउत्तरजीर्ीरिायाििींऔररिातोकौिसा, र् िांजबतकप्रहतकूिसाहबतिककयाजाए, सम्प हत्तके
-उत्तराहिकारसम्ब न् िी सबप्र योजिोंकेहिएयिउपिारणाकीजाएगीकककहिष्ि ज् ये ष् ि काउत्तरजीर्ीरिा।
-22. कुछदशाओंमेंसम्प हत्तअर्जवतकरिेकाअहिमािीअहिकार — (1) जिांककइसअहिहियमकेप्रारम्भ केपिा त्
-हिर्वसीयतकीककसीस्था र् रसम्प हत्तमेंयाउसकेद्वारािािेस्र् यंयादूसरों केसाथककएजािेर्ािेककसीकारबारमेंकेहितमें
-अिुसूिीकेर्गव 1 मेंहर्हिर्दवष्ट दोयाअहिकर्ाररसोंकोन्या गतिोंऔरऐसेर्ाररसोंमेंसेकोईउससम्प हत्तयाकारबारमेंअपिेहित
-केअन्त रणकीप्रस्था पिाकरेर्िांऐसेअन्त ररतककएजािेकेहिएप्रस्था हपत हितकोअर्जवतकरिेकाअहिमािीअहिकारदूसरे र्
-ाररसोंकोप्राप्त िोगा।
-(2) मृतककीसम्प हत्तमेंकोईहितहजसप्रहतफिकेहिएइसिाराकेअिीिअन्त ररतककयाजासकेगा, र् िपिकारोंकेबीि
-ककसीकरारकेअभार्मेंइसहिहमत्तककएगएआर्ेदिपरन्या याियद्वाराअर्िारर तककयाजाएगाऔरयकदउसहितकोअर्जवत
-करिेकीप्रस्था पिाकरिेर्ािाकोईव्य हत ऐसेअर्िाररतप्रहतफिपरउसेअर्जवतकरिेकेहिएराजीििोतोऐसाव्य हत उस
-आर्ेदिके, याउससेआिुर्ंहगकसबििोंकोदेिेकादायीिोगा।
-(3) यकदइसिारा केअिीिककसीहितकेअर्जव तकरिेकीप्रस्था पिाकरिेर्ािेअिुसूिीकेर्गव 1 मेंहर्हिर्दवष्ट दोया
-अहिकर्ाररसिोंतोउसर्ाररसकोअहिमािकदयाजाएगाजोअन्त रणकेहिएअहिकतमप्रहतफिदेिेकीपेशकशकरे। स्
-प ष् टी करण — इसिारामें “ न् या यािय ” सेर्िन्या याियअहभप्रेतिैहजसकीअहिकाररता कीसीमाओंकेअन्द रर्िस्था र् र
-सम्प हत्तआहस्थ तिैयाकारबारककयाजातािैऔरइसकेअंतगवतऐसाकोईअन्य न् या याियभीआतािैहजसेराज्य सरकारशासकीय
-राजपत्रमेंअहिसूििाद्वाराइसहिहमत्तहर्हिर्दवष्ट करे।
-23. [ हिर्ास - गृिकेबारेमेंहर्शेर्उपबन्ि — (1)] हिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 (2005 काअहिहियम
-सं ० 39) कीिारा 4 द्व ारा (9 - 9 - 2005 से ) िोपककयागया।
-24. [ पुिर्र्व र् ािकरिेर्ािी कुछहर्िर्ाएंहर्िर्ािोिेकेिातेहर्रासतप्राप्त िकरसकेंगी ] — हिन्दू उत्तराहिकार(संशोिि)
-अहिहियम, 2005 (2005 काअहिहि यमसं ० 39) कीिारा 5 द्व ारा (9 - 9 - 2005 से ) िोपककयागया।
-25. ित्या करिेर्ािाहिरर्िवतिोगा — जोव्य हत ित्या करतािैयाित्या क रिेकादुष्प्रे रणकरतािैर्िि तव्य हत की
-सम्प हत्तयाऐसीककसीअन्य सम्प हत्तको, हजसमेंउत्तराहिकारकोअग्रसरकरिे केहिएउसिेित्या कीथीयाित्या करिेकादुष्प्रे रण
-ककयाथा, हर्रासतमेंपािेसेहिरर्िवतिोगा।
-26. संपररर्र्तवतोंकेर्ंशजहिरर्िवतिोंगे — जिांकककोईहिन्दू इसअहिहियमकेप्रारम्भ केपूर्वयापिा त्िमव - संपररर्तविके
-कारणहिन्दू िरिगयािोयािरिे र् िांऐसेसंपररर्तविकेपिा त्पैदाहुएउसकेअपत्य औरउसअपत्य केर्ंशजअपिेहिन्दू
-सम्ब हन्ि योंमेंसेककसीकीसम्प हत्तकोहर्रासतमेंप्राप्त करिेसेहिरर्िवतिोंगेहसर्ायजबककऐसेअपत्य याउसअपत्य केर्ंशजउस
-समयजबककउत्तराहिकारिुिे, हिन्दू िों।
-27. उत्तराहिकारजबककर्ाररसहिरर्िवतिो — यकदकोईव्य हत ककसीसम्प हत्तकोहर्रासतमेंपािेसेइसअहिहियमके
-अिीिहिरर्िवतिोतोर्िसम्प हत्तऐसेन्या गतिोगीमािोऐसाव्य हत हिर्वसीयतकेपूर्वमरिुकािो।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 8
+  line `(iii) िारा 15 कीउपिारा (2) का िण्ड (क)िुप्त करकदयागयािो;`
+  line `(iv) िारा 23 िुप्त करदीगईिो।`
+  line `उत्तराहिकारसेसंबंहितसािारण उप बंि`
+  line `18. पूणवरत कोअिवरत परअहिमािप्राप्त िै — हिर्वसीयतसेपूणवरत सम्ब न् ि रििेर्ािेर्ाररसोंकोअिवरत सम्ब न् ि`
+  line `रििेर्ािेर्ाररसोंपरअहिमा िप्राप्त िोगायकदउससम्ब न् ि कीप्रकृहतसबप्रकारसेर्िीिो।`
+  line `19. दोयाअहिकर्ाररसोंकेउत्तराहिकारकाढंग — यकददोयाअहिकर्ाररसहिर्सवसीयतकीसम्प हत्तकेएकसाथ`
+  line `उत्तराहिकारीिोतेिैंतोर्ेसम्प हत्तकोहिम्ि हिहितप्रकारसेपाएंगे —`
+  line `(क)इसअहिहियममें अहभव्य त तौरपरअन्य थाउपबहन्ि तकेहसर्ायव्य हत र् ार, िककशािार्ारआिारपर`
+  line `िेंगे; और`
+  line `(ि)सामाहन्य कअहभिाररयोंकीिैहसयतमेंिककसंयुत अहभिाररयोंकीिैहसयतमेंिेंगे।`
+  line `20. गभवहस्थ तअपत्य काअहिकार — जोअपत्य हिर्वसीयतकीमृत्यु केसमयगभवमें हस्थ तथाऔरजोतत्प िा त्जीहर्त`
+  line `पैदाहुआिोउसकेहिर्वसीयतकीहर्रासतकेहर्र्यमेंर्िीअहिकारिोंगेजोउसकेिोतेयकदर्िहिर्वसीयतकीमृत्यु केपूर्वपैदाहुआ`
+  line `िोता; औरऐसीदशामेंहर्रासतहिर्वसीयतकीमृत्यु कीतारीिसेउसमेंहिहितसमझीजाएगी।`
+  line `21. सम - सा महयकमृत्यु ओं केहर्र्यमेंउपिारणा — जिांककदोव्य हत ऐसीपररहस्थ हतयोंमेंमरेिोंहजिमेंयिअहभहिहि त`
+  line `िोककउिमेंसेकोईदूसरेकाउत्तरजीर्ीरिायाििींऔररिातोकौिसा, र् िांजबतकप्रहतकूिसाहबतिककयाजाए, सम्प हत्तके`
+  line `उत्तराहिकारसम्ब न् िी सबप्र योजिोंकेहिएयिउपिारणाकीजाएगीकककहिष्ि ज् ये ष् ि काउत्तरजीर्ीरिा।`
+  line `22. कुछदशाओंमेंसम्प हत्तअर्जवतकरिेकाअहिमािीअहिकार — (1) जिांककइसअहिहियमकेप्रारम्भ केपिा त्`
+  line `हिर्वसीयतकीककसीस्था र् रसम्प हत्तमेंयाउसकेद्वारािािेस्र् यंयादूसरों केसाथककएजािेर्ािेककसीकारबारमेंकेहितमें`
+  line `अिुसूिीकेर्गव 1 मेंहर्हिर्दवष्ट दोयाअहिकर्ाररसोंकोन्या गतिोंऔरऐसेर्ाररसोंमेंसेकोईउससम्प हत्तयाकारबारमेंअपिेहित`
+  line `केअन्त रणकीप्रस्था पिाकरेर्िांऐसेअन्त ररतककएजािेकेहिएप्रस्था हपत हितकोअर्जवतकरिेकाअहिमािीअहिकारदूसरे र्`
+  line `ाररसोंकोप्राप्त िोगा।`
+  line `(2) मृतककीसम्प हत्तमेंकोईहितहजसप्रहतफिकेहिएइसिाराकेअिीिअन्त ररतककयाजासकेगा, र् िपिकारोंकेबीि`
+  line `ककसीकरारकेअभार्मेंइसहिहमत्तककएगएआर्ेदिपरन्या याियद्वाराअर्िारर तककयाजाएगाऔरयकदउसहितकोअर्जवत`
+  line `करिेकीप्रस्था पिाकरिेर्ािाकोईव्य हत ऐसेअर्िाररतप्रहतफिपरउसेअर्जवतकरिेकेहिएराजीििोतोऐसाव्य हत उस`
+  line `आर्ेदिके, याउससेआिुर्ंहगकसबििोंकोदेिेकादायीिोगा।`
+  line `(3) यकदइसिारा केअिीिककसीहितकेअर्जव तकरिेकीप्रस्था पिाकरिेर्ािेअिुसूिीकेर्गव 1 मेंहर्हिर्दवष्ट दोया`
+  line `अहिकर्ाररसिोंतोउसर्ाररसकोअहिमािकदयाजाएगाजोअन्त रणकेहिएअहिकतमप्रहतफिदेिेकीपेशकशकरे। स्`
+  line `प ष् टी करण — इसिारामें “ न् या यािय ” सेर्िन्या याियअहभप्रेतिैहजसकीअहिकाररता कीसीमाओंकेअन्द रर्िस्था र् र`
+  line `सम्प हत्तआहस्थ तिैयाकारबारककयाजातािैऔरइसकेअंतगवतऐसाकोईअन्य न् या याियभीआतािैहजसेराज्य सरकारशासकीय`
+  line `राजपत्रमेंअहिसूििाद्वाराइसहिहमत्तहर्हिर्दवष्ट करे।`
+  line `23. [ हिर्ास - गृिकेबारेमेंहर्शेर्उपबन्ि — (1)] हिन्दू उत्तराहिकार(संशोिि)अहिहियम, 2005 (2005 काअहिहियम`
+  line `सं ० 39) कीिारा 4 द्व ारा (9 - 9 - 2005 से ) िोपककयागया।`
+  line `24. [ पुिर्र्व र् ािकरिेर्ािी कुछहर्िर्ाएंहर्िर्ािोिेकेिातेहर्रासतप्राप्त िकरसकेंगी ] — हिन्दू उत्तराहिकार(संशोिि)`
+  line `अहिहियम, 2005 (2005 काअहिहि यमसं ० 39) कीिारा 5 द्व ारा (9 - 9 - 2005 से ) िोपककयागया।`
+  line `25. ित्या करिेर्ािाहिरर्िवतिोगा — जोव्य हत ित्या करतािैयाित्या क रिेकादुष्प्रे रणकरतािैर्िि तव्य हत की`
+  line `सम्प हत्तयाऐसीककसीअन्य सम्प हत्तको, हजसमेंउत्तराहिकारकोअग्रसरकरिे केहिएउसिेित्या कीथीयाित्या करिेकादुष्प्रे रण`
+  line `ककयाथा, हर्रासतमेंपािेसेहिरर्िवतिोगा।`
+  line `26. संपररर्र्तवतोंकेर्ंशजहिरर्िवतिोंगे — जिांकककोईहिन्दू इसअहिहियमकेप्रारम्भ केपूर्वयापिा त्िमव - संपररर्तविके`
+  line `कारणहिन्दू िरिगयािोयािरिे र् िांऐसेसंपररर्तविकेपिा त्पैदाहुएउसकेअपत्य औरउसअपत्य केर्ंशजअपिेहिन्दू`
+  line `सम्ब हन्ि योंमेंसेककसीकीसम्प हत्तकोहर्रासतमेंप्राप्त करिेसेहिरर्िवतिोंगेहसर्ायजबककऐसेअपत्य याउसअपत्य केर्ंशजउस`
+  line `समयजबककउत्तराहिकारिुिे, हिन्दू िों।`
+  line `27. उत्तराहिकारजबककर्ाररसहिरर्िवतिो — यकदकोईव्य हत ककसीसम्प हत्तकोहर्रासतमेंपािेसेइसअहिहियमके`
+  line `अिीिहिरर्िवतिोतोर्िसम्प हत्तऐसेन्या गतिोगीमािोऐसाव्य हत हिर्वसीयतकेपूर्वमरिुकािो।`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `9
-28. रोग, त्रु रटआकदसेहिरिवताििोगी — को ईव्य हत ककसीसम्प हत्तकाउत्तराहिकारपािेसेककसीरोग, त्रु रटया
-अंगहर्कारकेआिारपरयाइसहियममेंयथाउपबहन्ि तकोछोड़करककसीभीअन्य आिारपर, िािेर्िकोईयों ििो, हिरर्िवति
-िोगा।
-राजगाहमत्र्
-29. र् ाररसोंकाअभार् — यकदहिर्वसीयतऐसाकोईर्ाररसपी छेिछोड़ेजोउसकीसम्प हत्तकोइसअहिहियमकेउपबन्िों
-केअिुसारउत्तराहिकारमेंपािेकेहिएअिविोतोऐसीसम्प हत्तसरकारकोन्या गतिोगीऔरसरकारऐसीसम्प हत्तकोउिसब
-बाध्य ताओंऔरदाहयत्र्ों केअध्य िीििेगीहजिकेअध्य िीिर्ाररसिोता।
-अध्या य 3 र्
-सी यतीउत्तराहिकार
-30.र्सीयतीउत्तराहिकार — 1 *** कोईहिन्दू हर्िद्वारायाअन्य र् सीयतीव्य यिद्वाराभारतीयउत्तराहिकारअहिहियम,
-1925 (1925 का 39) याहिन्दु ओं कोिागूऔरककसीअन्य तत्स मयप्रर्ृत्तहर्हिकेउपबन्िों केअिुसारककसीऐसीसम्प हत्तको
-2 [ व् य यहित करसकेगायाकरसकेगी ] हजसकाऐसेव्य यहितककयाजािाशय िो। स्
-प ष् टी करण — हमतािरा सिदाहयकीसम्प हत्तमेंहिन्दू पुरुर्काहितयातरर्ाड, तार्हर्, इल्ि म, कुटुम्ब याकर्रु कीसम्प हत्त
-मेंतरर्ाड, तार्हर्, इल्ि म्, कुटुम्ब याकर्रु केसदस्य काहितइसअहिहियम मेंयाककसीअन्य तत्स मयप्रर्ृत्तहर्हिमेंककसीबातके
-िोतेहुएभीइस 3 [ िारा ] केअथवकेअन्द रऐसीसम्प हत्तसमझीजाएगीहजसकाउसद्वाराव्य यहितककयाजािाशय िो।
-4 * * * * *
-अध्या य 4
-हिरसि
-31. [ हिरसि ] — हिरसितथासंशोििअहिहियम, 1960 (1960 का 58) कीिारा 2 तथाअिुसूिी 1 द्व ाराहिरहसत।
-1 1960 केअहिहियमसं ० 58 कीिारा 3 तथाहद्वतीयअिुसूिीद्वाराकोष्ि कोंऔरअंक “(1)” कािोपककयागया।
-2 2005 केअहिहियमसं ० 39 कीिारा 6 द्व ारा (9 - 9 - 2005 से ) प्र हतस्था हपत।
-3 1974 केअहिहियमसं ० 56 कीिारा 3 तथाहद्वतीयअिुसूिीद्वारा (20 - 12 - 1974 से ) “ उपिा रा ” केस्था िपर प्र हतस्था हपत।
-4 1956 केअहिहियमसं ० 78 कीिारा 29 द्व ारा (21 - 2 - 1956 से ) उपिारा (2) का िोपककयागया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 9
+  line `28. रोग, त्रु रटआकदसेहिरिवताििोगी — को ईव्य हत ककसीसम्प हत्तकाउत्तराहिकारपािेसेककसीरोग, त्रु रटया`
+  line `अंगहर्कारकेआिारपरयाइसहियममेंयथाउपबहन्ि तकोछोड़करककसीभीअन्य आिारपर, िािेर्िकोईयों ििो, हिरर्िवति`
+  line िोगा।
+  line राजगाहमत्र्
+  line `29. र् ाररसोंकाअभार् — यकदहिर्वसीयतऐसाकोईर्ाररसपी छेिछोड़ेजोउसकीसम्प हत्तकोइसअहिहियमकेउपबन्िों`
+  line `केअिुसारउत्तराहिकारमेंपािेकेहिएअिविोतोऐसीसम्प हत्तसरकारकोन्या गतिोगीऔरसरकारऐसीसम्प हत्तकोउिसब`
+  line `बाध्य ताओंऔरदाहयत्र्ों केअध्य िीििेगीहजिकेअध्य िीिर्ाररसिोता।`
+  line `अध्या य 3 र्`
+  line `सी यतीउत्तराहिकार`
+  line `30.र्सीयतीउत्तराहिकार — 1 *** कोईहिन्दू हर्िद्वारायाअन्य र् सीयतीव्य यिद्वाराभारतीयउत्तराहिकारअहिहियम,`
+  line `1925 (1925 का 39) याहिन्दु ओं कोिागूऔरककसीअन्य तत्स मयप्रर्ृत्तहर्हिकेउपबन्िों केअिुसारककसीऐसीसम्प हत्तको`
+  line `2 [ व् य यहित करसकेगायाकरसकेगी ] हजसकाऐसेव्य यहितककयाजािाशय िो। स्`
+  line `प ष् टी करण — हमतािरा सिदाहयकीसम्प हत्तमेंहिन्दू पुरुर्काहितयातरर्ाड, तार्हर्, इल्ि म, कुटुम्ब याकर्रु कीसम्प हत्त`
+  line `मेंतरर्ाड, तार्हर्, इल्ि म्, कुटुम्ब याकर्रु केसदस्य काहितइसअहिहियम मेंयाककसीअन्य तत्स मयप्रर्ृत्तहर्हिमेंककसीबातके`
+  line `िोतेहुएभीइस 3 [ िारा ] केअथवकेअन्द रऐसीसम्प हत्तसमझीजाएगीहजसकाउसद्वाराव्य यहितककयाजािाशय िो।`
+  line `4 * * * * *`
+  line `अध्या य 4`
+  line हिरसि
+  line `31. [ हिरसि ] — हिरसितथासंशोििअहिहियम, 1960 (1960 का 58) कीिारा 2 तथाअिुसूिी 1 द्व ाराहिरहसत।`
+  line `1 1960 केअहिहियमसं ० 58 कीिारा 3 तथाहद्वतीयअिुसूिीद्वाराकोष्ि कोंऔरअंक “(1)” कािोपककयागया।`
+  line `2 2005 केअहिहियमसं ० 39 कीिारा 6 द्व ारा (9 - 9 - 2005 से ) प्र हतस्था हपत।`
+  line `3 1974 केअहिहियमसं ० 56 कीिारा 3 तथाहद्वतीयअिुसूिीद्वारा (20 - 12 - 1974 से ) “ उपिा रा ” केस्था िपर प्र हतस्था हपत।`
+  line `4 1956 केअहिहियमसं ० 78 कीिारा 29 द्व ारा (21 - 2 - 1956 से ) उपिारा (2) का िोपककयागया।`
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_10:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-10)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Page 10`)
-  (str content) (str `10
-अिुसूिी
-( िारा 8 देहिए ) र्
-गव 1 औरर्गव 2 मेंर्ाररस र्
-गव 1
-पुत्र, पुत्री, हर्िर्ा, माता, पूर्वमृतपुत्रकापुत्र, पूर्व मृतपुत्रकीपुत्री, पूर्वमृतपुत्रीकापुत्र, पूर्वमृतपुत्रीकीपुत्री, पूर्व मृतपुत्र
-कीहर्िर्ा, पूर्वमृतपुत्रकेपूर्वमृतपुत्रकापुत्र, पूर्वमृतपुत्रकेपूर्वमृतपुत्रकीपुत्री, पूर्वमृतपुत्रकेपूर्वमृतपुत्रकीहर्िर्ा, 1 [ पूर्वमृत
-पुत्रीकीपूर्वमृतपुत्रीकापुत्र; पूर्वमृत पुत्रीकी पूर्वमृत पुत्रीकीपुत्री, पूर्वमृत पुत्रीके पूर्वमृत पुत्रकीपुत्री; पूर्वमृत पुत्रकी पूर्वमृत
-पुत्रीकीपुत्री। ]
-I. हपता।
-II. (1) पुत्रकीपुत्रीकापुत्र, (2) पुत्रकीपुत्रीकीपुत्री, (3) भाई, (4) बहिि।
-III. (1) पुत्रीकेपुत्रकापुत्र, (2) पुत्रीकेपुत्रकीपुत्री, (3) पुत्रीकीपुत्रीकापुत्र, (4) पुत्रीकीपुत्री।
-IV. (1) भाईकापुत्र, (2) बहििकापुत्र, (3) भाईकीपुत्री, (4) बहििकीपुत्री।
-V. हपताकाहपता, हपताकीमाता।
-VI. हपताकीहर्िर्ा, भाईकीहर्िर्ा।
-VII. हपताकाभाई, हपताकीबहिि।
-VIII. माताकाहपता, माताकीमाता।
-IX. माताकाभाई, माताकीबहिि। स्
-प ष् टी करण — इसअिुसूिीमेंभाईयाबहििकेप्रहतहिदेशोंकेअंतगव त उसभाईयाबहििकेप्रहतहिदेशििींिैजोकेर्ि
-एकोदरत केिों।
-______
-1 2005 केअहिहियमसं ० 39 कीिारा 7 द्व ारा (9 - 9 - 2005 से ) अंत:स्था हपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 10)
+  kind page
+  sectionId pdf-page-10
+  sectionNo (10)
+  orderNo 10
+  title `Page 10`
+  content obj_root_law_translations_hi_sections_10_content
+  footnotes obj_root_law_translations_hi_sections_10_footnotes
+  sourcePage 10
+obj_root_law_translations_hi_sections_10_content:
+  string
+  line 10
+  line अिुसूिी
+  line `( िारा 8 देहिए ) र्`
+  line `गव 1 औरर्गव 2 मेंर्ाररस र्`
+  line `गव 1`
+  line `पुत्र, पुत्री, हर्िर्ा, माता, पूर्वमृतपुत्रकापुत्र, पूर्व मृतपुत्रकीपुत्री, पूर्वमृतपुत्रीकापुत्र, पूर्वमृतपुत्रीकीपुत्री, पूर्व मृतपुत्र`
+  line `कीहर्िर्ा, पूर्वमृतपुत्रकेपूर्वमृतपुत्रकापुत्र, पूर्वमृतपुत्रकेपूर्वमृतपुत्रकीपुत्री, पूर्वमृतपुत्रकेपूर्वमृतपुत्रकीहर्िर्ा, 1 [ पूर्वमृत`
+  line `पुत्रीकीपूर्वमृतपुत्रीकापुत्र; पूर्वमृत पुत्रीकी पूर्वमृत पुत्रीकीपुत्री, पूर्वमृत पुत्रीके पूर्वमृत पुत्रकीपुत्री; पूर्वमृत पुत्रकी पूर्वमृत`
+  line `पुत्रीकीपुत्री। ]`
+  line `I. हपता।`
+  line `II. (1) पुत्रकीपुत्रीकापुत्र, (2) पुत्रकीपुत्रीकीपुत्री, (3) भाई, (4) बहिि।`
+  line `III. (1) पुत्रीकेपुत्रकापुत्र, (2) पुत्रीकेपुत्रकीपुत्री, (3) पुत्रीकीपुत्रीकापुत्र, (4) पुत्रीकीपुत्री।`
+  line `IV. (1) भाईकापुत्र, (2) बहििकापुत्र, (3) भाईकीपुत्री, (4) बहििकीपुत्री।`
+  line `V. हपताकाहपता, हपताकीमाता।`
+  line `VI. हपताकीहर्िर्ा, भाईकीहर्िर्ा।`
+  line `VII. हपताकाभाई, हपताकीबहिि।`
+  line `VIII. माताकाहपता, माताकीमाता।`
+  line `IX. माताकाभाई, माताकीबहिि। स्`
+  line `प ष् टी करण — इसअिुसूिीमेंभाईयाबहििकेप्रहतहिदेशोंकेअंतगव त उसभाईयाबहििकेप्रहतहिदेशििींिैजोकेर्ि`
+  line `एकोदरत केिों।`
+  line ______
+  line `1 2005 केअहिहियमसं ० 39 कीिारा 7 द्व ारा (9 - 9 - 2005 से ) अंत:स्था हपत।`
+obj_root_law_translations_hi_sections_10_footnotes:
+  string
+  line

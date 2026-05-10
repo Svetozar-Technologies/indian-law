@@ -1,79 +1,81 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T19:51:36.304Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/21048`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-08T19:51:36.304Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/21048`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-mussalman-wakf-repeal-act-2025)
-  (str handle) (str 21048)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Mussalman Wakf (Repeal) Act, 2025`)
-  (str actNumber) (str 15)
-  (str enactmentDate) (str 2025-04-05)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/21048`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str actYear) (str 2025)
-  (str ministry) (str `Ministry of Minority Affairs`)
-  (str longTitle) (str `An Act to repeal the Mussalman Wakf Act, 1923.`)
-  (str enforcementDate) (str 09-04-2025)
+  slug the-mussalman-wakf-repeal-act-2025
+  handle (21048)
+  collectionHandle 123456789/1362
+  title `The Mussalman Wakf (Repeal) Act, 2025`
+  actNumber (15)
+  enactmentDate 2025-04-05
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/21048`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  actYear (2025)
+  ministry `Ministry of Minority Affairs`
+  longTitle `An Act to repeal the Mussalman Wakf Act, 1923.`
+  enforcementDate 09-04-2025
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_mussalman_wakf_repeal_act_2025
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/21048`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/21048`
 obj_root_law_sources_en_the_mussalman_wakf_repeal_act_2025:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/21048/1/A2025-15.pdf`)
-  (str title) (str `The Mussalman Wakf (Repeal) Act, 2025`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/21048/1/A2025-15.pdf`
+  title `The Mussalman Wakf (Repeal) Act, 2025`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 95418)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Mussalman Wakf (Repeal)
-Act, 2025.
-
-(2) It shall come into force on such date^1
-as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. 9th day of April, 2025, vide notification No. S.O. 1676 (E), dated 9th day of April, 2025, see Gazette of India,
-Extraordinary, Part II, sec. 3 (ii).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_44_0_00005_A2025-15_1745400820389&sectionId=95418&sectionno=1&orderno=1&orgactid=AC_CEN_44_0_00005_A2025-15_1745400820389)
+  sectionId (95418)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_44_0_00005_A2025-15_1745400820389&sectionId=95418&sectionno=1&orderno=1&orgactid=AC_CEN_44_0_00005_A2025-15_1745400820389
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Mussalman Wakf (Repeal)`
+  line `Act, 2025.`
+  line
+  line `(2) It shall come into force on such date^1`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 9th day of April, 2025, vide notification No. S.O. 1676 (E), dated 9th day of April, 2025, see Gazette of India,`
+  line `Extraordinary, Part II, sec. 3 (ii).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 95419)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Repeal of Act 42 of 1923.`)
-  (str content) (str `(1) The Mussalman Wakf Act, 1923 is hereby repealed.
-
-(2) The repeal by this Act shall not affect the previous operation of the Act so repealed or
-anything duly done or suffered thereunder, or any obligation or liability accrued or incurred under the
-Act so repealed, or any legal proceeding or remedy in respect of any such obligation or liability, as
-aforesaid, and any such legal proceeding or remedy may be continued or enforced as if this Act had
-not been passed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_44_0_00005_A2025-15_1745400820389&sectionId=95419&sectionno=2&orderno=2&orgactid=AC_CEN_44_0_00005_A2025-15_1745400820389)
+  sectionId (95419)
+  sectionNo (2)
+  orderNo 2
+  title `Repeal of Act 42 of 1923.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_44_0_00005_A2025-15_1745400820389&sectionId=95419&sectionno=2&orderno=2&orgactid=AC_CEN_44_0_00005_A2025-15_1745400820389
+obj_root_law_sections_2_content:
+  string
+  line `(1) The Mussalman Wakf Act, 1923 is hereby repealed.`
+  line
+  line `(2) The repeal by this Act shall not affect the previous operation of the Act so repealed or`
+  line `anything duly done or suffered thereunder, or any obligation or liability accrued or incurred under the`
+  line `Act so repealed, or any legal proceeding or remedy in respect of any such obligation or liability, as`
+  line `aforesaid, and any such legal proceeding or remedy may be continued or enforced as if this Act had`
+  line `not been passed.`
+obj_root_law_sections_2_footnotes:
+  string
+  line

@@ -1,50 +1,78 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T15:43:44.961Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/18946`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T17:41:21.913Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/18946`
+  completeFetch true
+  maxSections null
+  sectionCount 1
+  totalSections 1
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-revenue-commissioners-bombay-act-1842)
-  (str handle) (str 18946)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Revenue Commissioners, Bombay Act, 1842`)
-  (str actNumber) (str 17)
-  (str enactmentDate) (str 1842-12-16)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/18946`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1842)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act relative to the number and powers of the Revenue Commissioner under the Presidency of Bombay.`)
-  (str enforcementDate) (str 16-12-1842)
-  (str notification) (undefined)
+  slug the-revenue-commissioners-bombay-act-1842
+  handle (18946)
+  collectionHandle 123456789/1362
+  title `The Revenue Commissioners, Bombay Act, 1842`
+  actNumber (17)
+  enactmentDate 1842-12-16
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/18946`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1842)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act relative to the number and powers of the Revenue Commissioner under the Presidency of Bombay.`
+  enforcementDate 16-12-1842
+  notification undefined
+  fetchedAt `2026-05-09T15:43:44.961Z`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_revenue_commissioners_bombay_act_1842
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/18946`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/18946`
 obj_root_law_sources_en_the_revenue_commissioners_bombay_act_1842:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/18946/1/a1842-17.pdf`)
-  (str title) (str `The Revenue Commissioners, Bombay Act, 1842`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/18946/1/a1842-17.pdf`
+  title `The Revenue Commissioners, Bombay Act, 1842`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
+  obj_root_law_sections_1
+obj_root_law_sections_1:
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  sourcePage 1
+obj_root_law_sections_1_content:
+  string
+  line `THE REVENUE COMMISSIONERS, BOMBAY ACT, 1842`
+  line `A CT N O. 17 OF 1842.`
+  line ----------------------------
+  line `Passed by the Hon’ble the President of the Council of India in Council, on the 16 th of December, 1842,`
+  line `with the assent of the Right hon’ble the Governor General of India.`
+  line `A n Act relative to the number and powers of the Revenue Commissioner under the Presidency of`
+  line Bombay.
+  line `I. It is hereby enacted, that so much of Regulation V, of 180, of the Bombay Code, as provides that one`
+  line `Revenue Commissioner shall be appointed for the Territory subordinate to Bombay, and that the Southern`
+  line `Maharatta Country shall be excluded from his jurisdi ction, is repealed.`
+  line `II. And it is hereby enacted, that one or more Revenue Commissioners shall be appointed for the whole`
+  line `of the Territory composing the Presidency of Bombay, each of whom shall be vested with all the powers`
+  line `possessed by the single Revenue Com missioner, under Regulation V, 1830, and shall be empowered to act`
+  line `within the Presidency of Bombay, or over such portion as the Governor in Council of Bombay may, from`
+  line `time to time, prescribe by a Order published in the Gazette.`
+  line `III. And it he hereby enacted, that each Revenue Commissioner shall have such number of Deputies`
+  line `and Assistants, as the Governor in Council may deem it expedient to appoint.`
+  line ------------------------------------------------
+obj_root_law_sections_1_footnotes:
+  string
+  line

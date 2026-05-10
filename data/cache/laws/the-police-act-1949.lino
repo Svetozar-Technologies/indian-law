@@ -1,60 +1,51 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:56:46.224Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1430`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 7)
-  (str totalSections) (int 7)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:56:46.224Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1430`
+  completeFetch true
+  maxSections null
+  sectionCount 7
+  totalSections 7
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-police-act-1949)
-  (str handle) (str 1430)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Police Act, 1949`)
-  (str actNumber) (str 64)
-  (str enactmentDate) (str 1949-12-27)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1430`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `पुलिस अधिनियम,1949`)
-  (str actYear) (str 1949)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Internal Security`)
-  (str longTitle) (str `An Act to provide for the constitution of a general police-district embracing two or more Union territories and for the establishment of a police force therefor.`)
-  (str enforcementDate) (str 27-12-1949)
-  (str notification) (str `Notification not available`)
-  (str fetchedAt) (str `2026-05-10T11:56:44.218Z`)
-  (str translations) obj_root_law_translations
+  slug the-police-act-1949
+  handle (1430)
+  collectionHandle 123456789/1362
+  title `The Police Act, 1949`
+  actNumber (64)
+  enactmentDate 1949-12-27
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1430`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `पुलिस अधिनियम,1949`
+  actYear (1949)
+  ministry `Ministry of Home Affairs`
+  department `Department of Internal Security`
+  longTitle `An Act to provide for the constitution of a general police-district embracing two or more Union territories and for the establishment of a police force therefor.`
+  enforcementDate 27-12-1949
+  notification `Notification not available`
+  fetchedAt `2026-05-10T11:56:44.218Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_police_act_1949
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1430`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1430`
 obj_root_law_sources_en_the_police_act_1949:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1430/1/A1949-64.pdf`)
-  (str title) (str `The Police Act, 1949`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1430/1/A1949-64.pdf`
+  title `The Police Act, 1949`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1949
 obj_root_law_sources_hi_1949:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1430/3/H1949-64.pdf`)
-  (str title) (str `पुलिस अधिनियम,1949`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1430/3/H1949-64.pdf`
+  title `पुलिस अधिनियम,1949`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -63,162 +54,193 @@ obj_root_law_sections:
   obj_root_law_sections_6
   obj_root_law_sections_7
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 37132)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Police Act, 1949.
-
-(2) It extends to all the ^1
-[Union territories].
-
-(3) It shall come into force in a ^2
-[Union territory] on such date as the Central Government may, by
-notification in the Official Gazette, appoint in this behalf for ^3
-[such territory].`)
-  (str footnotes) (str `1. Subs., ibid., for "Part C States".
-
-2. Subs., ibid., for "Part C State."
-
-3. Subs., ibid., for "such state".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37132&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00012_194964_1517807321847)
+  sectionId (37132)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37132&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00012_194964_1517807321847
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Police Act, 1949.`
+  line
+  line `(2) It extends to all the ^1`
+  line `[Union territories].`
+  line
+  line `(3) It shall come into force in a ^2`
+  line `[Union territory] on such date as the Central Government may, by`
+  line `notification in the Official Gazette, appoint in this behalf for ^3`
+  line `[such territory].`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Subs., ibid., for "Part C States".`
+  line
+  line `2. Subs., ibid., for "Part C State."`
+  line
+  line `3. Subs., ibid., for "such state".`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 37133)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definition.)
-  (str content) (str `In this Act "general police-district" means the general police-district constituted
-under section 3.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37133&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00012_194964_1517807321847)
+  sectionId (37133)
+  sectionNo (2)
+  orderNo 2
+  title Definition.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37133&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00012_194964_1517807321847
+obj_root_law_sections_2_content:
+  string
+  line `In this Act "general police-district" means the general police-district constituted`
+  line `under section 3.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 37134)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Constitution of general police-district embracing two or more Union territories.`)
-  (str content) (str `Notwithstanding anything contained in the Police Act, 1861 (5 of 1861), the Central Government may, by
-notification in the Official Gazette, constitute a general police-district embracing two or more ^1
-[Union
-territories].`)
-  (str footnotes) (str `1. Subs. by the Adaptation of Laws (No. 3) Order, 1956, for "Chief Commissioners' Provinces".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37134&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00012_194964_1517807321847)
+  sectionId (37134)
+  sectionNo (3)
+  orderNo 3
+  title `Constitution of general police-district embracing two or more Union territories.`
+  content obj_root_law_sections_3_content
+  footnotes `1. Subs. by the Adaptation of Laws (No. 3) Order, 1956, for "Chief Commissioners' Provinces".`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37134&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00012_194964_1517807321847
+obj_root_law_sections_3_content:
+  string
+  line `Notwithstanding anything contained in the Police Act, 1861 (5 of 1861), the Central Government may, by`
+  line `notification in the Official Gazette, constitute a general police-district embracing two or more ^1`
+  line [Union
+  line territories].
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 37135)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Constitution of one police force for general police-district.`)
-  (str content) (str `The entire police establishment in a
-general police-district shall be one police force and shall consist of such number of officers and men and
-shall be constituted in such manner as the Central Government may, by order, direct.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37135&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00012_194964_1517807321847)
+  sectionId (37135)
+  sectionNo (4)
+  orderNo 4
+  title `Constitution of one police force for general police-district.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37135&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00012_194964_1517807321847
+obj_root_law_sections_4_content:
+  string
+  line `The entire police establishment in a`
+  line `general police-district shall be one police force and shall consist of such number of officers and men and`
+  line `shall be constituted in such manner as the Central Government may, by order, direct.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 37136)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Superintendence and administration of police.`)
-  (str content) (str `(1) The superintendence of the police
-throughout a general police-district shall vest in, and be exercised by, the Central Government.
-
-(2) The administration of the said police force shall vest in an officer, appointed in this behalf by the
-Central Government, who shall exercise in respect of that police force such of the powers exercisable by
-an Inspector-General of Police under the Police Act, 1861 (5 of 1861), as the Central Government may,
-by notification in the Official Gazette, specify in this behalf.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37136&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00012_194964_1517807321847)
+  sectionId (37136)
+  sectionNo (5)
+  orderNo 5
+  title `Superintendence and administration of police.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37136&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00012_194964_1517807321847
+obj_root_law_sections_5_content:
+  string
+  line `(1) The superintendence of the police`
+  line `throughout a general police-district shall vest in, and be exercised by, the Central Government.`
+  line
+  line `(2) The administration of the said police force shall vest in an officer, appointed in this behalf by the`
+  line `Central Government, who shall exercise in respect of that police force such of the powers exercisable by`
+  line `an Inspector-General of Police under the Police Act, 1861 (5 of 1861), as the Central Government may,`
+  line `by notification in the Official Gazette, specify in this behalf.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 37137)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Application of the Police Act, 1861.`)
-  (str content) (str `Save as otherwise expressly provided in this Act, the
-provisions of the Police Act, 1861 (5 of 1861), shall apply to the police force constituted for the general
-police-district as if it were one police force constituted for a State, and members of the said police force
-shall have, in every part of ^1
-[any territory] which is included in the general police-district, the same
-powers, duties and privileges, and shall be subject to the same liabilities, as they would have had, or
-would have been subject to, as police officers if they had formed a police establishment under one State
-Government.`)
-  (str footnotes) (str `1. Subs., ibid., for "any State".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37137&sectionno=6&orderno=6&orgactid=AC_CEN_5_23_00012_194964_1517807321847)
+  sectionId (37137)
+  sectionNo (6)
+  orderNo 6
+  title `Application of the Police Act, 1861.`
+  content obj_root_law_sections_6_content
+  footnotes `1. Subs., ibid., for "any State".`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37137&sectionno=6&orderno=6&orgactid=AC_CEN_5_23_00012_194964_1517807321847
+obj_root_law_sections_6_content:
+  string
+  line `Save as otherwise expressly provided in this Act, the`
+  line `provisions of the Police Act, 1861 (5 of 1861), shall apply to the police force constituted for the general`
+  line `police-district as if it were one police force constituted for a State, and members of the said police force`
+  line `shall have, in every part of ^1`
+  line `[any territory] which is included in the general police-district, the same`
+  line `powers, duties and privileges, and shall be subject to the same liabilities, as they would have had, or`
+  line `would have been subject to, as police officers if they had formed a police establishment under one State`
+  line Government.
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 37138)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str Saving.)
-  (str content) (str `Nothing in this Act shall be deemed to affect the provisions contained in the Delhi
-Special Police Establishment Act, 1946 (25 of 1946).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37138&sectionno=7&orderno=7&orgactid=AC_CEN_5_23_00012_194964_1517807321847)
+  sectionId (37138)
+  sectionNo (7)
+  orderNo 7
+  title Saving.
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00012_194964_1517807321847&sectionId=37138&sectionno=7&orderno=7&orgactid=AC_CEN_5_23_00012_194964_1517807321847
+obj_root_law_sections_7_content:
+  string
+  line `Nothing in this Act shall be deemed to affect the provisions contained in the Delhi`
+  line `Special Police Establishment Act, 1946 (25 of 1946).`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `पुलिस अधिनियम,1949`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1430/3/H1949-64.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:56:45.122Z`)
-  (str pageCount) (int 1)
-  (str sections) obj_root_law_translations_hi_sections
+  title `पुलिस अधिनियम,1949`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1430/3/H1949-64.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:56:45.122Z`
+  pageCount 1
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `पुलिस अलिलियम, 1949 1
-( 1949 का अलिलियम संखयां क 6 4 )
-[2 7 दिसम्ब र, 19 49 ]
-िो या अलिक 2 [ संघ रा ज् य क्षेत्रों ] को सलम्म लित करते हु ए एक सािारण
-पुलिस लििा गठित करिे के लिए और उसके लिए
-पुलिस बि के स् था पिाथथ उपबन्ि
-करिे के लिए अलिलियम
-यत: यह समीचीि है दक िो या अलिक 2 [ संघ राज्य क्षेत्रों ] को सलम्म लित करते हु ए एक सािारण पुलिस लििा गठित करिे के
-लिए और उसके लिए पुलिस बि के स् था पिाथथ उपबन्ि दकया िाए;
-अत: एति द्व ारा लिम्ि लिलित रू प में यह अलिलियलमत दकया िाता है: 
-1. संलक्षप्त िाम, लिस्ता र और प्र ारम्भ  ( 1 ) इस अलिलियम का संलक्षप्त िाम पुलिस अलिलियम, 1949 है।
-(2) इ सका लिस्ता र सभी 3 [ संघ राज्य क्षेत्रों ] पर है।
-(3) यह दकसी 4 [ संघ राज्य क्षेत्र ] में उस तारीि को प्र िृत्त होगा िो केन्री य सरकार, रािपत्र में अलिसूचिा द्व ारा,
-5 [ ऐसे रा ज् य क्षेत्रों ] के लिए इस लिलमत्त लियत करे।
-2. पठरभाषा  इस अलिलियम में “ सािारण पुलिस लििा ” से िारा 3 के अिीि गठित सािारण पुलिस लििा अलभप्रेत है।
-3. िो या अलिक संघ राज्य क्षेत्रों को सलम्म लित करते हु ए सािारण पुलिस लििे का गिि  पुलिस अलिलियम, 1861 ( 1861
-का 5) में अन्त र् िथष्ट दकसी बात के होते हु ए भी, केन्री य सरकार, रािपत्र में अलिसूचिा द्व ारा, िो या अलिक 2 [ संघ राज्य क्षेत्रों ] को
-सलम्म लित करते हु ए एक सा िारण पुलिस लििा गठित कर सकती है।
-4. सािारण पुलिस लििे के लिए एक पुलिस बि का गिि  एक सािारण पुलिस लि िे का समस्त पुलिस स् था पि एक पुलिस
-बि होगा और िह अलिकाठरयों और पुलिस िि की ऐसी संखया से लमिकर बिेगा और ऐसी रीलत से गठित होगा िैसी केन्री य सरकार
-आिेश द्व ारा लिर्िथष्ट करे।
-5. पुलिस का अिीक्षण और प्र शासि  ( 1 ) सािारण पुलिस लििे में सिथत्र पुलिस का अिीक्षण केन्री य सरकार में लिलहत होगा
-और उसके द्व ारा दकया िाएगा।
-( 2 ) उक्त पुलिस बि का प्र शासि एक अलिकारी में लिलहत होगा लिसे केन्री य सरकार इस लिलमत्त लियुक्त करेगी और िो
-उस पुलिस बि की बाबत पुलिस अलिलियम, 1861 ( 1861 का 5 ) के अिीि पुलिस - महालिरीक्षक द्व ारा प्र योक् त व् य ऐसी शलक्त यों का प्र
-योग करेगा िो केन्री य सरकार, रािपत्र में अलिसूचिा द्व ारा, इस लिलमत्त लिलिर्िथष्ट करे।
-6. पुलिस अलिलियम, 1861 का िागू होिा  इस अलिलियम में अलभव्य क् त त: अन्य था उपबलन्ि त के लसिाय, पुलि स
-अलिलियम, 1861 ( 1861 का 5 ) के उपबन्ि, सािारण पुलिस लििे के लिए गठित पुलिस बि को ऐसे िागू होंगे मािो िह दकसी राज्य
-के लिए गठित एक पुलिस बि है, और सािारण पुलिस लििे के अन्त गथत 6 [ दकसी राज्य क्षेत्र ] के प्रत् ये क भाग के लिए उक्त पुलिस बि के
-सिस्यों की ि ही शलक्त यां, कतथव्य और लिशेषालिकार होंगे और िे उन्हीं िालयत्िों के अध्य िीि होंगे िो उिकी होती या लििके िे
-अध्य िीि होते यदि िे पुलिस अलिकारी के रू प में एक राज्य सरकार के अिीि पुलिस स् था पि गठित करते।
-7. व् या िृलत्त  इस अलिलियम की कोई बात दिल्िी लि शेष पुलिस स् था पि अलिलियम, 1946 ( 1946 का 25 ) में अन्त र् िथष्ट
-उपबन्िों को प्र भालित करिे िािी िहीं समझी िाएगी।
-______
-1 यह अलिलियम गोिा, िमण और िीि पर यथा संशोलित 1962 के लिलियम सं ० 12 की िारा 3 और अिुसूची द्व ारा लिस् ता ठरत हु आ और पांलिचेरी में 1963 के लिलियम
-सं ० 7 की िारा 3 और अिुसूची 1 द्व ारा ( 1 - 10 - 1963 से), िा ि रा और िागर हिेिी में 1963 के लिलियम सं ० 6 की िारा 2 और अिुसूची 1 द्व ारा ( 1 - 7 - 1965 से) और
-िक्षद्वीप के 1965 के लिलियम सं ० 8 की िारा 3 और अिुसूची द्व ारा ( 1 - 10 - 1 967 से) प्र िृत्त हु आ।
-2 लिलि अिु कूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ मुखय आयुक्त के प्र ांतों ” के स् था ि पर प्र लतस्था लपत।
-3 लिलि अिुकूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ भाग ग राज्यों ” के स् था ि पर प्र लतस्था लपत।
-4 लिलि अिुकूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ भाग ग राज्य ” के स् था ि पर प्र लतस्था लपत।
-5 लिलि अिुकूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ ऐसे राज्य ” के स् था ि पर प्र लतस्था लपत।
-6 लिलि अिुकूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ कोई राज्य ” के स् था ि पर प्र लतस्था लपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `पुलिस अलिलियम, 1949 1`
+  line `( 1949 का अलिलियम संखयां क 6 4 )`
+  line `[2 7 दिसम्ब र, 19 49 ]`
+  line `िो या अलिक 2 [ संघ रा ज् य क्षेत्रों ] को सलम्म लित करते हु ए एक सािारण`
+  line `पुलिस लििा गठित करिे के लिए और उसके लिए`
+  line `पुलिस बि के स् था पिाथथ उपबन्ि`
+  line `करिे के लिए अलिलियम`
+  line `यत: यह समीचीि है दक िो या अलिक 2 [ संघ राज्य क्षेत्रों ] को सलम्म लित करते हु ए एक सािारण पुलिस लििा गठित करिे के`
+  line `लिए और उसके लिए पुलिस बि के स् था पिाथथ उपबन्ि दकया िाए;`
+  line `अत: एति द्व ारा लिम्ि लिलित रू प में यह अलिलियलमत दकया िाता है: `
+  line `1. संलक्षप्त िाम, लिस्ता र और प्र ारम्भ  ( 1 ) इस अलिलियम का संलक्षप्त िाम पुलिस अलिलियम, 1949 है।`
+  line `(2) इ सका लिस्ता र सभी 3 [ संघ राज्य क्षेत्रों ] पर है।`
+  line `(3) यह दकसी 4 [ संघ राज्य क्षेत्र ] में उस तारीि को प्र िृत्त होगा िो केन्री य सरकार, रािपत्र में अलिसूचिा द्व ारा,`
+  line `5 [ ऐसे रा ज् य क्षेत्रों ] के लिए इस लिलमत्त लियत करे।`
+  line `2. पठरभाषा  इस अलिलियम में “ सािारण पुलिस लििा ” से िारा 3 के अिीि गठित सािारण पुलिस लििा अलभप्रेत है।`
+  line `3. िो या अलिक संघ राज्य क्षेत्रों को सलम्म लित करते हु ए सािारण पुलिस लििे का गिि  पुलिस अलिलियम, 1861 ( 1861`
+  line `का 5) में अन्त र् िथष्ट दकसी बात के होते हु ए भी, केन्री य सरकार, रािपत्र में अलिसूचिा द्व ारा, िो या अलिक 2 [ संघ राज्य क्षेत्रों ] को`
+  line `सलम्म लित करते हु ए एक सा िारण पुलिस लििा गठित कर सकती है।`
+  line `4. सािारण पुलिस लििे के लिए एक पुलिस बि का गिि  एक सािारण पुलिस लि िे का समस्त पुलिस स् था पि एक पुलिस`
+  line `बि होगा और िह अलिकाठरयों और पुलिस िि की ऐसी संखया से लमिकर बिेगा और ऐसी रीलत से गठित होगा िैसी केन्री य सरकार`
+  line `आिेश द्व ारा लिर्िथष्ट करे।`
+  line `5. पुलिस का अिीक्षण और प्र शासि  ( 1 ) सािारण पुलिस लििे में सिथत्र पुलिस का अिीक्षण केन्री य सरकार में लिलहत होगा`
+  line `और उसके द्व ारा दकया िाएगा।`
+  line `( 2 ) उक्त पुलिस बि का प्र शासि एक अलिकारी में लिलहत होगा लिसे केन्री य सरकार इस लिलमत्त लियुक्त करेगी और िो`
+  line `उस पुलिस बि की बाबत पुलिस अलिलियम, 1861 ( 1861 का 5 ) के अिीि पुलिस - महालिरीक्षक द्व ारा प्र योक् त व् य ऐसी शलक्त यों का प्र`
+  line `योग करेगा िो केन्री य सरकार, रािपत्र में अलिसूचिा द्व ारा, इस लिलमत्त लिलिर्िथष्ट करे।`
+  line `6. पुलिस अलिलियम, 1861 का िागू होिा  इस अलिलियम में अलभव्य क् त त: अन्य था उपबलन्ि त के लसिाय, पुलि स`
+  line `अलिलियम, 1861 ( 1861 का 5 ) के उपबन्ि, सािारण पुलिस लििे के लिए गठित पुलिस बि को ऐसे िागू होंगे मािो िह दकसी राज्य`
+  line `के लिए गठित एक पुलिस बि है, और सािारण पुलिस लििे के अन्त गथत 6 [ दकसी राज्य क्षेत्र ] के प्रत् ये क भाग के लिए उक्त पुलिस बि के`
+  line `सिस्यों की ि ही शलक्त यां, कतथव्य और लिशेषालिकार होंगे और िे उन्हीं िालयत्िों के अध्य िीि होंगे िो उिकी होती या लििके िे`
+  line `अध्य िीि होते यदि िे पुलिस अलिकारी के रू प में एक राज्य सरकार के अिीि पुलिस स् था पि गठित करते।`
+  line `7. व् या िृलत्त  इस अलिलियम की कोई बात दिल्िी लि शेष पुलिस स् था पि अलिलियम, 1946 ( 1946 का 25 ) में अन्त र् िथष्ट`
+  line `उपबन्िों को प्र भालित करिे िािी िहीं समझी िाएगी।`
+  line ______
+  line `1 यह अलिलियम गोिा, िमण और िीि पर यथा संशोलित 1962 के लिलियम सं ० 12 की िारा 3 और अिुसूची द्व ारा लिस् ता ठरत हु आ और पांलिचेरी में 1963 के लिलियम`
+  line `सं ० 7 की िारा 3 और अिुसूची 1 द्व ारा ( 1 - 10 - 1963 से), िा ि रा और िागर हिेिी में 1963 के लिलियम सं ० 6 की िारा 2 और अिुसूची 1 द्व ारा ( 1 - 7 - 1965 से) और`
+  line `िक्षद्वीप के 1965 के लिलियम सं ० 8 की िारा 3 और अिुसूची द्व ारा ( 1 - 10 - 1 967 से) प्र िृत्त हु आ।`
+  line `2 लिलि अिु कूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ मुखय आयुक्त के प्र ांतों ” के स् था ि पर प्र लतस्था लपत।`
+  line `3 लिलि अिुकूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ भाग ग राज्यों ” के स् था ि पर प्र लतस्था लपत।`
+  line `4 लिलि अिुकूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ भाग ग राज्य ” के स् था ि पर प्र लतस्था लपत।`
+  line `5 लिलि अिुकूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ ऐसे राज्य ” के स् था ि पर प्र लतस्था लपत।`
+  line `6 लिलि अिुकूिि (संखयां क 3 ) आिेश, 1956 द्व ारा “ कोई राज्य ” के स् था ि पर प्र लतस्था लपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line

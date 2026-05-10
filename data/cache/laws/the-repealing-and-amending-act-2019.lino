@@ -1,59 +1,264 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T16:19:34.078Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/11956`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T17:42:08.798Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/11956`
+  completeFetch true
+  maxSections null
+  sectionCount 5
+  totalSections 5
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-repealing-and-amending-act-2019)
-  (str handle) (str 11956)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Repealing and Amending Act, 2019`)
-  (str actNumber) (str 31)
-  (str enactmentDate) (str 2019-08-08)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/11956`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 2019)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Legislative Department`)
-  (str longTitle) (str `An Act to repeal certain enactments and to amend certain other enactments.`)
-  (str enforcementDate) (str 08-08-2019)
-  (str notification) (undefined)
+  slug the-repealing-and-amending-act-2019
+  handle (11956)
+  collectionHandle 123456789/1362
+  title `The Repealing and Amending Act, 2019`
+  actNumber (31)
+  enactmentDate 2019-08-08
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/11956`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (2019)
+  ministry `Ministry of Law and Justice`
+  department `Legislative Department`
+  longTitle `An Act to repeal certain enactments and to amend certain other enactments.`
+  enforcementDate 08-08-2019
+  notification undefined
+  fetchedAt `2026-05-09T16:19:34.078Z`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_repealing_and_amending_act_2019
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/11956`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/11956`
 obj_root_law_sources_en_the_repealing_and_amending_act_2019:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/11956/1/a2019____31.pdf`)
-  (str title) (str `The Repealing and Amending Act, 2019`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/11956/1/a2019____31.pdf`
+  title `The Repealing and Amending Act, 2019`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_null
 obj_root_law_sources_hi_null:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/11956/2/H2019-31.pdf`)
-  (str title) (str null)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/11956/2/H2019-31.pdf`
+  title (null)
 obj_root_law_sections:
-  array
+  obj_root_law_sections_1
+  obj_root_law_sections_2
+  obj_root_law_sections_3
+  obj_root_law_sections_4
+  obj_root_law_sections_5
+obj_root_law_sections_1:
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  sourcePage 1
+obj_root_law_sections_1_content:
+  string
+  line 1
+  line `THE REPEALING AND AMENDING ACT, 2019`
+  line _______
+  line `ARRANGEMENT OF SECTIONS`
+  line ________
+  line `S ECTIONS`
+  line `1. Short title.`
+  line `2. Repeal of certain enactments.`
+  line `3. Amendment of certain enactments.`
+  line `4. Savings.`
+  line `THE FIRST SCHEDULE.`
+  line `THE SECOND SCHEDULE.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
+obj_root_law_sections_2:
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  sourcePage 2
+obj_root_law_sections_2_content:
+  string
+  line 2
+  line `THE REPEALING AND AMENDING ACT, 2019`
+  line `A CT NO. 31 OF 2019`
+  line `[8 th August, 2019.]`
+  line `An Act to repeal certain enactments and to amend certain other enactments.`
+  line `B E it enacted by Parliament in the Seventieth Year of the Republic of India as follows:—`
+  line `1. Short title. —This Act may be called the Repealing and Amending Act, 2019.`
+  line `2. Repeal of certain enactments. —The enactments specified in the First Schedule are hereby`
+  line repealed.
+  line `3. Amendment of certain enactments. —The enactments specified in the Second Schedule are`
+  line `hereby amended to the extent and in the manner specified in the fourth column thereof.`
+  line `4. Savings. —The repeal by this Act of any enactment shall not affect any other enactment in`
+  line `which the repealed enactment has been applied, incorporated or referred to;`
+  line `and this Act shall not affect the validity, invalidity, effect or consequences of anything already`
+  line `done or suffered, or any right, title, obligation or liability already acquired, accrued or incurred, or any`
+  line `remedy or proceeding in respect thereof, or any release or discharge of or from any debt, penalty,`
+  line `obligation, liability, claim or demand, or any indemnity already granted, or the proof of any past act`
+  line `or thing;`
+  line `nor shall this Act affect any principle or rule of law, or established jurisdiction, form or course of`
+  line `pleading, practice or procedure, or existing usage, custom, privilege, restriction, exemption, office or`
+  line `appointment, notwithstanding that the same respectively may have been in any manner affirmed or`
+  line `recognised or derived by, in or from any enactment hereby repealed;`
+  line `nor shall the repeal by this Act of any enactment revive or restore any jurisdiction, office, custom,`
+  line `liability, right, title, privilege, restriction, exemption, usage, practice, procedure or other matter or`
+  line `thing not now existing or in force.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
+obj_root_law_sections_3:
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  sourcePage 3
+obj_root_law_sections_3_content:
+  string
+  line 3
+  line `THE FIRST SCHEDULE`
+  line `( See section 2)`
+  line `R EPEALS`
+  line `Year Act No. Short Title`
+  line `11 1 2 3`
+  line `1850 XII The Public Accountants’ Defaults Act, 1850.`
+  line `1881 XI The Municipal Taxation Act, 1881.`
+  line `1892 X The Government Management of Private Estates Act, 1892.`
+  line `1956 69 The Terminal Tax on Railway Passengers Act, 1956.`
+  line `1958 56 The Himachal Pradesh Legislative Assembly (Constitution and`
+  line `Proceedings) Validation Act, 1958.`
+  line `1960 22 The Cotton Transport (Amendment) Act, 1960.`
+  line `1963 1 The Hindi Sahitya Sammelan (Amendment) Act, 1963.`
+  line `1963 35 The Dramatic Performances (Delhi Repeal) Act, 1963.`
+  line `1964 10 The Public Employment (Requirement as to Residence) Amendment`
+  line `Act, 1964.`
+  line `1968 49 The Delhi and Ajmer Rent Control (Nasirabad Cantonment Repeal)`
+  line `Act, 1968.`
+  line `1973 56 The Alcock Ashdown Company Limited (Acquisition of`
+  line `Undertakings) Act, 1973.`
+  line `1976 55 The Iron Ore Mines, Manganese Ore Mines and Chrome Ore Mines`
+  line `Labour Welfare Cess Act, 1976.`
+  line `1976 61 The Iron Ore Mines, Manganese Ore Mines and Chrome Ore Mines`
+  line `Labour Welfare Fund Act, 1976.`
+  line `1976 62 The Beedi Workers Welfare Fund Act, 1976.`
+  line `1980 68 The Tea (Amendment) Act, 1980.`
+  line `1981 62 The Aligarh Muslim University (Amendment) Act, 1981.`
+  line `1982 63 The Road Transport Corporations (Amendment) Act, 1982.`
+  line `1983 41 The Transformers and Switchgear Limited (Acquisition and Transfer`
+  line `of Undertakings) Act, 1983.`
+  line `1988 22 The Tamil Nadu Agricultural Service Co-operative Societies`
+  line `(Appointment of Special Officers) Amendment Act, 1988.`
+  line `1999 3 The High Denomination Bank Notes (Demonetisation) Amendment`
+  line `Act, 1998.`
+  line `2001 39 The Motor Vehicles (Amendment) Act, 2001.`
+  line `2001 48 The Registration and Other Related Laws (Amendment) Act, 2001.`
+  line `2002 16 The Institutes of Technology (Amendment) Act, 2002.`
+  line `2002 43 The Delhi University (Amendment) Act, 2002.`
+  line `2007 3 The Dalmia Dadri Cement Limited (Acquisition and Transfer of`
+  line `Undertakings) Amendment Act, 2006.`
+  line `2007 28 The Central Road Fund (Amendment) Act, 2007.`
+  line `2009 21 The Prevention of Money-laundering (Amendment) Act, 2009.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
+obj_root_law_sections_4:
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  sourcePage 4
+obj_root_law_sections_4_content:
+  string
+  line 4
+  line `1 2 3`
+  line `2009 22 The Central Industrial Security Force (Amendment) Act, 2009.`
+  line `2009 38 The Central Universities (Amendment) Act, 2009.`
+  line `2010 3 The Civil Defence (Amendment) Act, 2009.`
+  line `2011 6 The Repatriation of Prisoners (Amendment) Act, 2011.`
+  line `2011 14 The Customs (Amendment and Validation) Act, 2011.`
+  line `2012 28 The National Institutes of Technology (Amendment) Act, 2012.`
+  line `2012 34 The Institutes of Technology (Amendment) Act, 2012.`
+  line `2014 8 The Governors (Emoluments, Allowances and Privileges) Amendment`
+  line `Act, 2014.`
+  line `2014 9 The National Institute of Technology, Science Education and Research`
+  line `(Amendment) Act, 2014.`
+  line `2014 19 The Andhra Pradesh Reorganisation (Amendment) Act, 2014.`
+  line `2014 20 The Telecom Regulatory Authority of India (Amendment) Act, 2014.`
+  line `2014 31 The Merchant Shipping (Amendment) Act, 2014.`
+  line `2014 32 The Merchant Shipping (Second Amendment) Act, 2014.`
+  line `2014 39 The National Capital Territory of Delhi Laws (Special Provisions) Second`
+  line `(Amendment) Act, 2014.`
+  line `2015 2 The Public Premises (Eviction of Unauthorised Occupants) Amendment`
+  line `Act, 2015.`
+  line `2015 3 The Motor Vehicles (Amendment) Act, 2015.`
+  line `2015 5 The Insurance Laws (Amendment) Act, 2015.`
+  line `2015 10 The Mines and Minerals (Development and Regulation) Amendment`
+  line `Act, 2015.`
+  line `2015 12 The Andhra Pradesh Reorganisation (Amendment) Act, 2015.`
+  line `2015 14 The Regional Rural Banks (Amendment) Act, 2015.`
+  line `2015 16 The Warehousing Corporations (Amendment) Act, 2015.`
+  line `2015 21 The Companies (Amendment) Act, 2015.`
+  line `2016 10 The Election Laws (Amendment) Act, 2016.`
+  line `2016 13 The High Court and the Supreme Court Judges (Salaries and Conditions of`
+  line `Service) Amendment Act, 2016.`
+  line `2016 25 The Mines and Minerals (Development and Regulation) Amendment Act,`
+  line 2016.
+  line `2016 42 The National Institute of Technology, Science Education and Research`
+  line `(Amendment) Act, 2016.`
+  line `2016 45 The Central Agricultural University (Amendment) Act, 2016.`
+  line `2016 48 The Taxation Laws (Second Amendment) Act, 2016.`
+  line `2017 19 The National Institute of Technology, Science Education and Research`
+  line `(Amendment) Act, 2017.`
+  line `2017 21 The Collection of Statistics (Amendment) Act, 2017.`
+  line `2017 25 The Indian Institutes of Information Technology (Amendment) Act, 2017.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
+obj_root_law_sections_5:
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  sourcePage 5
+obj_root_law_sections_5_content:
+  string
+  line 5
+  line `THE SECOND SCHEDULE`
+  line `( See section 3)`
+  line `A MENDMENTS`
+  line `Year Act No. Short title Amendments`
+  line `1 2 3 4`
+  line `1961 43 The Income-tax Act, 1961 In section 54GA, in the Explanation to sub-section ( 1 ),`
+  line `in clause ( a ), after the word, brackets, letters “clause ( za )”,`
+  line `the words and figure “of section 2” shall be inserted.`
+  line `2017 33 The Indian Institutes of`
+  line `Management Act, 2017`
+  line `( i ) in section 3, in clause ( f ), for the words “Director”,`
+  line `means’, the words “Director” means’ shall be substituted;`
+  line `( ii ) in section 36, in sub-section ( 1 ), for the word`
+  line `“Ordinance”, the word “Ordinances” shall be substituted.`
+obj_root_law_sections_5_footnotes:
+  string
+  line

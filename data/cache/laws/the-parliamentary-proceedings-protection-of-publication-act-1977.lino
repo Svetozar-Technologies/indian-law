@@ -1,169 +1,181 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:19:29.010Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2442`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 4)
-  (str totalSections) (int 4)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:19:29.010Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2442`
+  completeFetch true
+  maxSections null
+  sectionCount 4
+  totalSections 4
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-parliamentary-proceedings-protection-of-publication-act-1977)
-  (str handle) (str 2442)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Parliamentary Proceedings (Protection of Publication) Act, 1977`)
-  (str actNumber) (str 15)
-  (str enactmentDate) (str 1977-04-18)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2442`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `संसदीय कार्यवाही (प्रकाशन-संरक्षण) अधिनियम,1977`)
-  (str actYear) (str 1977)
-  (str ministry) (str `Ministry of Information and Broadcasting`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act to protect the publication of reports of proceedings of Parliament`)
-  (str enforcementDate) (str 25-03-1977)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T09:42:05.813Z`)
-  (str translations) obj_root_law_translations
+  slug the-parliamentary-proceedings-protection-of-publication-act-1977
+  handle (2442)
+  collectionHandle 123456789/1362
+  title `The Parliamentary Proceedings (Protection of Publication) Act, 1977`
+  actNumber (15)
+  enactmentDate 1977-04-18
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2442`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `संसदीय कार्यवाही (प्रकाशन-संरक्षण) अधिनियम,1977`
+  actYear (1977)
+  ministry `Ministry of Information and Broadcasting`
+  department undefined
+  longTitle `An Act to protect the publication of reports of proceedings of Parliament`
+  enforcementDate 25-03-1977
+  notification undefined
+  fetchedAt `2026-05-09T09:42:05.813Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_parliamentary_proceedings_protection_of_publication_act_1977
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2442`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2442`
 obj_root_law_sources_en_the_parliamentary_proceedings_protection_of_publication_act_1977:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2442/1/a1977-15.pdf`)
-  (str title) (str `The Parliamentary Proceedings (Protection of Publication) Act, 1977`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2442/1/a1977-15.pdf`
+  title `The Parliamentary Proceedings (Protection of Publication) Act, 1977`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1977
 obj_root_law_sources_hi_1977:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2442/3/H1977-15.pdf`)
-  (str title) (str `संसदीय कार्यवाही (प्रकाशन-संरक्षण) अधिनियम,1977`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2442/3/H1977-15.pdf`
+  title `संसदीय कार्यवाही (प्रकाशन-संरक्षण) अधिनियम,1977`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
   obj_root_law_sections_4
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 33943)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement`)
-  (str content) (str `(1) This Act may be called the Parliamentary
-Proceedings (Protection of Publication) Act, 1977.
-
-(2) It extends to the whole of India except the State of Jammu and Kashmir*.
-
-(3) It shall be deemed to have come into force on the 25th day of March, 1977.`)
-  (str footnotes) (str `*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu
-and Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_33_52_00001_197715_1517807320683&sectionId=33943&sectionno=1&orderno=1&orgactid=AC_CEN_33_52_00001_197715_1517807320683)
+  sectionId (33943)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_33_52_00001_197715_1517807320683&sectionId=33943&sectionno=1&orderno=1&orgactid=AC_CEN_33_52_00001_197715_1517807320683
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Parliamentary`
+  line `Proceedings (Protection of Publication) Act, 1977.`
+  line
+  line `(2) It extends to the whole of India except the State of Jammu and Kashmir*.`
+  line
+  line `(3) It shall be deemed to have come into force on the 25th day of March, 1977.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu`
+  line `and Kashmir and the Union territory of Ladakh.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 33944)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definition)
-  (str content) (str `In this Act, "newspaper" means any printed periodical work containing public news
-or comments on public news, and includes a news agency supplying material for publication in a
-newspaper.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_33_52_00001_197715_1517807320683&sectionId=33944&sectionno=2&orderno=2&orgactid=AC_CEN_33_52_00001_197715_1517807320683)
+  sectionId (33944)
+  sectionNo (2)
+  orderNo 2
+  title Definition
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_33_52_00001_197715_1517807320683&sectionId=33944&sectionno=2&orderno=2&orgactid=AC_CEN_33_52_00001_197715_1517807320683
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, "newspaper" means any printed periodical work containing public news`
+  line `or comments on public news, and includes a news agency supplying material for publication in a`
+  line newspaper.
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 33945)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Publication of reports of Parliamentary proceedings privileged`)
-  (str content) (str `(1) Save as otherwise
-provided in sub-section (2), no person shall be liable to any proceedings, civil or criminal, in any court in
-respect of the publication in a newspaper of a substantially true report of any proceedings of either House
-of Parliament, unless the publication is proved to have been made with malice.
-
-(2) Nothing in sub-section (1) shall be construed as protecting the publication of any matter, the
-publication of which is not for the public good.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_33_52_00001_197715_1517807320683&sectionId=33945&sectionno=3&orderno=3&orgactid=AC_CEN_33_52_00001_197715_1517807320683)
+  sectionId (33945)
+  sectionNo (3)
+  orderNo 3
+  title `Publication of reports of Parliamentary proceedings privileged`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_33_52_00001_197715_1517807320683&sectionId=33945&sectionno=3&orderno=3&orgactid=AC_CEN_33_52_00001_197715_1517807320683
+obj_root_law_sections_3_content:
+  string
+  line `(1) Save as otherwise`
+  line `provided in sub-section (2), no person shall be liable to any proceedings, civil or criminal, in any court in`
+  line `respect of the publication in a newspaper of a substantially true report of any proceedings of either House`
+  line `of Parliament, unless the publication is proved to have been made with malice.`
+  line
+  line `(2) Nothing in sub-section (1) shall be construed as protecting the publication of any matter, the`
+  line `publication of which is not for the public good.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 33946)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Act also to apply to Parliamentary proceedings broadcast by wireless telegraphy.`)
-  (str content) (str `This Act
-shall apply in relation to reports or matters broadcast by means of wireless telegraphy as part of any
-programme or service provided by means of a broadcasting station situate within the territories to which
-this Act extends as it applies in relation to reports or matters published in a newspaper.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_33_52_00001_197715_1517807320683&sectionId=33946&sectionno=4&orderno=4&orgactid=AC_CEN_33_52_00001_197715_1517807320683)
+  sectionId (33946)
+  sectionNo (4)
+  orderNo 4
+  title `Act also to apply to Parliamentary proceedings broadcast by wireless telegraphy.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_33_52_00001_197715_1517807320683&sectionId=33946&sectionno=4&orderno=4&orgactid=AC_CEN_33_52_00001_197715_1517807320683
+obj_root_law_sections_4_content:
+  string
+  line `This Act`
+  line `shall apply in relation to reports or matters broadcast by means of wireless telegraphy as part of any`
+  line `programme or service provided by means of a broadcasting station situate within the territories to which`
+  line `this Act extends as it applies in relation to reports or matters published in a newspaper.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `संसदीय कार्यवाही (प्रकाशन-संरक्षण) अधिनियम,1977`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2442/3/H1977-15.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:19:27.909Z`)
-  (str pageCount) (int 1)
-  (str sections) obj_root_law_translations_hi_sections
+  title `संसदीय कार्यवाही (प्रकाशन-संरक्षण) अधिनियम,1977`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2442/3/H1977-15.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:19:27.909Z`
+  pageCount 1
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `संसदीय काययवाही ( प्र काशन - संरक्षण ) अधिधनयम, 1977
-( 1977 का अधिधनयम संखयां क 15 )
-[18 अप्रैल, 1977 ]
-संसद् की काययवाधहयों की ररपोर्टों के प्र काशन
-का संरक्षण करने के धलए
-अधिधनयम
-भारत गणराज्य के अट्ठाईसवें वर्य में संसद् द्व ारा धनम्न धलधित रू प में यह अधिधनयधम त हो: —
-1. संधक्षप्त नाम, धवस्ता र और प्र ारम्भ — ( 1 ) इस अधिधनयम का संधक्षप्त नाम संसदीय काययवाही ( प्र काशन - संरक्षण )
-अधिधनयम, 1977 है।
-( 2 ) इसका धवस्ता र, जम्मू - कश्मी र राज्य के धसवाय *, सम्पू णय भारत पर है।
-( 3 ) यह 25 मार्य, 1977 को प्र वृत्त हु आ समझा जाएगा।
-2. पररभार्ा — इस अधिधनयम में “ समार्ारपत्र ” से कोई ऐसी मुद्रित काधलक कृधत अधभप्रेत है धजसमें सावयजधनक समार्ार या
-सावयजधनक समार्ारों की समीक्षा है तथा द्र कसी समार्ारपत्र में प्र काशन के धलए सामग्री प्र दान करने वाली समार्ार एजेन्सी भी इसके
-अन्त गयत है।
-3. संसदीय काययवाधहयों की ररपोर्टों के प्र काशन का धवशेर्ाधिकृत होना — ( 1 ) उपिारा ( 2 ) में जैसा अन्य था उपबंधित है उसके
-धसवाय, कोई व्य धत संसद् के द्र कसी भी सदन की द्र कन्हीं काययवाधहयों की सारत: सही ररपोर्टय के द्र कसी समार्ारपत्र में प्र काशन के बारे में द्र
-कसी भी न् या यालय में द्र कसी भी प्र का र की धसधवल या दाण ध डक कायय वाही का भागी नहीं होगा जब तक यह साधबत नहीं कर द्र दया
-जाता द्र क प्र काशन दुभायव से द्र कया गया है।
-( 2 ) उपिारा ( 1 ) की द्र कसी बात का यह अथय नहीं लगाया जाएगा द्र क वह द्र कसी ऐसी बात के प्र काशन का संरक्षण करती है
-धजसका प्र काशन लोक कल्या ण के धलए नहीं है।
-4. बेतार तारयांधत्रकी से प्र साररत संसदीय कायय वाही को भी अधिधनयम का लागू होना — यह अधिधनयम, उन राज्यक्षेत्रों के
-अन्द र, धजन पर इस अधिधनयम का धवस्ता र है, धस्थ त द्र कसी प्र सारण केन्ि के माध्य म से उपलब्ि द्र कसी काययक्रम या सेवा के भागरूप
-बेतार तारयांधत्रकी के माध्य म से प्र साररत ररपोर्टों या बातों के सम्बन्ि में उसी प्र कार लागू होगा धजस प्र कार द्र कसी समार्ारपत्र में प्र
-काधशत ररपो र्टों या बातों के संबंि में लागू होता है।
-______
-* इस अधिधनयम को जम्मू - कश्मीर संघ राज्यक्षेत्र और लद्दाि संघ राज्यक्षेत्र में अधिसूर्ना सं. सा. का. 3912 (अ), तारीि, 30 अर्टूबर, 2019 से लागू द्र कया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `संसदीय काययवाही ( प्र काशन - संरक्षण ) अधिधनयम, 1977`
+  line `( 1977 का अधिधनयम संखयां क 15 )`
+  line `[18 अप्रैल, 1977 ]`
+  line `संसद् की काययवाधहयों की ररपोर्टों के प्र काशन`
+  line `का संरक्षण करने के धलए`
+  line अधिधनयम
+  line `भारत गणराज्य के अट्ठाईसवें वर्य में संसद् द्व ारा धनम्न धलधित रू प में यह अधिधनयधम त हो: —`
+  line `1. संधक्षप्त नाम, धवस्ता र और प्र ारम्भ — ( 1 ) इस अधिधनयम का संधक्षप्त नाम संसदीय काययवाही ( प्र काशन - संरक्षण )`
+  line `अधिधनयम, 1977 है।`
+  line `( 2 ) इसका धवस्ता र, जम्मू - कश्मी र राज्य के धसवाय *, सम्पू णय भारत पर है।`
+  line `( 3 ) यह 25 मार्य, 1977 को प्र वृत्त हु आ समझा जाएगा।`
+  line `2. पररभार्ा — इस अधिधनयम में “ समार्ारपत्र ” से कोई ऐसी मुद्रित काधलक कृधत अधभप्रेत है धजसमें सावयजधनक समार्ार या`
+  line `सावयजधनक समार्ारों की समीक्षा है तथा द्र कसी समार्ारपत्र में प्र काशन के धलए सामग्री प्र दान करने वाली समार्ार एजेन्सी भी इसके`
+  line `अन्त गयत है।`
+  line `3. संसदीय काययवाधहयों की ररपोर्टों के प्र काशन का धवशेर्ाधिकृत होना — ( 1 ) उपिारा ( 2 ) में जैसा अन्य था उपबंधित है उसके`
+  line `धसवाय, कोई व्य धत संसद् के द्र कसी भी सदन की द्र कन्हीं काययवाधहयों की सारत: सही ररपोर्टय के द्र कसी समार्ारपत्र में प्र काशन के बारे में द्र`
+  line `कसी भी न् या यालय में द्र कसी भी प्र का र की धसधवल या दाण ध डक कायय वाही का भागी नहीं होगा जब तक यह साधबत नहीं कर द्र दया`
+  line `जाता द्र क प्र काशन दुभायव से द्र कया गया है।`
+  line `( 2 ) उपिारा ( 1 ) की द्र कसी बात का यह अथय नहीं लगाया जाएगा द्र क वह द्र कसी ऐसी बात के प्र काशन का संरक्षण करती है`
+  line `धजसका प्र काशन लोक कल्या ण के धलए नहीं है।`
+  line `4. बेतार तारयांधत्रकी से प्र साररत संसदीय कायय वाही को भी अधिधनयम का लागू होना — यह अधिधनयम, उन राज्यक्षेत्रों के`
+  line `अन्द र, धजन पर इस अधिधनयम का धवस्ता र है, धस्थ त द्र कसी प्र सारण केन्ि के माध्य म से उपलब्ि द्र कसी काययक्रम या सेवा के भागरूप`
+  line `बेतार तारयांधत्रकी के माध्य म से प्र साररत ररपोर्टों या बातों के सम्बन्ि में उसी प्र कार लागू होगा धजस प्र कार द्र कसी समार्ारपत्र में प्र`
+  line `काधशत ररपो र्टों या बातों के संबंि में लागू होता है।`
+  line ______
+  line `* इस अधिधनयम को जम्मू - कश्मीर संघ राज्यक्षेत्र और लद्दाि संघ राज्यक्षेत्र में अधिसूर्ना सं. सा. का. 3912 (अ), तारीि, 30 अर्टूबर, 2019 से लागू द्र कया गया।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line

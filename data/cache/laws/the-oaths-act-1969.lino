@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:19:52.269Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1643`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 9)
-  (str totalSections) (int 9)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:19:52.269Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1643`
+  completeFetch true
+  maxSections null
+  sectionCount 9
+  totalSections 9
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-oaths-act-1969)
-  (str handle) (str 1643)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Oaths Act, 1969`)
-  (str actNumber) (str 44)
-  (str enactmentDate) (str 1969-12-26)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1643`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `शपथ अधिनियम, 1969`)
-  (str actYear) (str 1969)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Legislative Department`)
-  (str longTitle) (str `An Act to consolidate and amend the law relating to judicial oaths and for certain other purposes.`)
-  (str enforcementDate) (str 26-12-1969)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T09:53:36.647Z`)
-  (str translations) obj_root_law_translations
+  slug the-oaths-act-1969
+  handle (1643)
+  collectionHandle 123456789/1362
+  title `The Oaths Act, 1969`
+  actNumber (44)
+  enactmentDate 1969-12-26
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1643`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `शपथ अधिनियम, 1969`
+  actYear (1969)
+  ministry `Ministry of Law and Justice`
+  department `Legislative Department`
+  longTitle `An Act to consolidate and amend the law relating to judicial oaths and for certain other purposes.`
+  enforcementDate 26-12-1969
+  notification undefined
+  fetchedAt `2026-05-09T09:53:36.647Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_oaths_act_1969
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1643`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1643`
 obj_root_law_sources_en_the_oaths_act_1969:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1643/1/A1969-44.pdf`)
-  (str title) (str `The Oaths Act, 1969`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1643/1/A1969-44.pdf`
+  title `The Oaths Act, 1969`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1969
 obj_root_law_sources_hi_1969:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1643/2/hH1969-44.pdf`)
-  (str title) (str `शपथ अधिनियम, 1969`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1643/2/hH1969-44.pdf`
+  title `शपथ अधिनियम, 1969`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -71,286 +61,343 @@ obj_root_law_sections:
   obj_root_law_sections_8
   obj_root_law_sections_9
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 30006)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the Oaths Act, 1969.
-
-((2) It extends to the whole of India ^1
-***.`)
-  (str footnotes) (str `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule
-(w.e.f. 31-10-2019).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30006&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00014_196944_1517807320915)
+  sectionId (30006)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30006&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00014_196944_1517807320915
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Oaths Act, 1969.`
+  line
+  line `((2) It extends to the whole of India ^1`
+  line ***.
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule`
+  line `(w.e.f. 31-10-2019).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 30007)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Saving of certain oaths and affirmations.`)
-  (str content) (str `Nothing in this Act shall apply to proceedings before
-courts martial or to oaths, affirmations or declarations prescribed by the Central Government with respect
-to members of the Armed Forces of the Union.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30007&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00014_196944_1517807320915)
+  sectionId (30007)
+  sectionNo (2)
+  orderNo 2
+  title `Saving of certain oaths and affirmations.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30007&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00014_196944_1517807320915
+obj_root_law_sections_2_content:
+  string
+  line `Nothing in this Act shall apply to proceedings before`
+  line `courts martial or to oaths, affirmations or declarations prescribed by the Central Government with respect`
+  line `to members of the Armed Forces of the Union.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 30008)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Power to administer oaths.`)
-  (str content) (str `(1) The following courts and persons shall have power to
-administer, by themselves or, subject to the provisions of sub-section(2) of section 6, by an officer
-empowered by them in this behalf, oaths and affirmations in discharge of the duties imposed or in
-exercise of the powers conferred upon them by law, namely:--
-
-(a) all courts and persons having by law or consent of parties authority to receive evidence;
-
-(b) the commanding officer of any military, naval, or air force station or ship occupied by the
-Armed Forces of the Union, provided that the oath or affirmation is administered within the limits of
-the station.
-
-(2) Without prejudice to the powers conferred by sub-section (1) or by or under any other law for the
-time being in force, any court, Judge, Magistrate or person may administer oaths and affirmations for the
-purpose of affidavits, if empowered in this behalf--
-
-(a) by the High Court, in respect of affidavits for the purpose of judicial proceedings; or
-
-(b) by the State Government, in respect of other affidavits.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30008&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00014_196944_1517807320915)
+  sectionId (30008)
+  sectionNo (3)
+  orderNo 3
+  title `Power to administer oaths.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30008&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00014_196944_1517807320915
+obj_root_law_sections_3_content:
+  string
+  line `(1) The following courts and persons shall have power to`
+  line `administer, by themselves or, subject to the provisions of sub-section(2) of section 6, by an officer`
+  line `empowered by them in this behalf, oaths and affirmations in discharge of the duties imposed or in`
+  line `exercise of the powers conferred upon them by law, namely:--`
+  line
+  line `(a) all courts and persons having by law or consent of parties authority to receive evidence;`
+  line
+  line `(b) the commanding officer of any military, naval, or air force station or ship occupied by the`
+  line `Armed Forces of the Union, provided that the oath or affirmation is administered within the limits of`
+  line `the station.`
+  line
+  line `(2) Without prejudice to the powers conferred by sub-section (1) or by or under any other law for the`
+  line `time being in force, any court, Judge, Magistrate or person may administer oaths and affirmations for the`
+  line `purpose of affidavits, if empowered in this behalf--`
+  line
+  line `(a) by the High Court, in respect of affidavits for the purpose of judicial proceedings; or`
+  line
+  line `(b) by the State Government, in respect of other affidavits.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 30009)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Oaths or affirmations to be made by witnesses, interpreter and jurors.`)
-  (str content) (str `(1) Oaths or
-affirmations shall be made by the following persons, namely:--
-
-(a) all witnesses, that is to say, all persons who may lawfully be examined, or give, or be required
-to give, evidence by or before any court or person having by law or consent of parties authority to
-examine such persons or to receive evidence;
-
-(b) interpreters of questions put to, and evidence given by, witnesses; and
-
-(c) jurors:
-
-Provided that where the witness is a child under twelve years of age, and the court or person having
-authority to examine such witness is of opinion that, though the witness understands the duty of speaking
-the truth, he does not understand the nature of an oath or affirmation, the foregoing provisions of this
-section and the provisions of section 5 shall not apply to such witness; but in any such case the absence of
-an oath or affirmation shall not render inadmissible any evidence given by such witness nor affect the
-obligation of the witness to state the truth.
-
-(2) Nothing in this section shall render it lawful to administer, in a criminal proceeding, an oath or
-affirmation to the accused person, unless he is examined as a witness for the defence, or necessary to
-administer to the official interpreter of any court, after he has entered on the execution of the duties of his
-office, an oath or affirmation that he will faithfully discharge those duties.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30009&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00014_196944_1517807320915)
+  sectionId (30009)
+  sectionNo (4)
+  orderNo 4
+  title `Oaths or affirmations to be made by witnesses, interpreter and jurors.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30009&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00014_196944_1517807320915
+obj_root_law_sections_4_content:
+  string
+  line `(1) Oaths or`
+  line `affirmations shall be made by the following persons, namely:--`
+  line
+  line `(a) all witnesses, that is to say, all persons who may lawfully be examined, or give, or be required`
+  line `to give, evidence by or before any court or person having by law or consent of parties authority to`
+  line `examine such persons or to receive evidence;`
+  line
+  line `(b) interpreters of questions put to, and evidence given by, witnesses; and`
+  line
+  line `(c) jurors:`
+  line
+  line `Provided that where the witness is a child under twelve years of age, and the court or person having`
+  line `authority to examine such witness is of opinion that, though the witness understands the duty of speaking`
+  line `the truth, he does not understand the nature of an oath or affirmation, the foregoing provisions of this`
+  line `section and the provisions of section 5 shall not apply to such witness; but in any such case the absence of`
+  line `an oath or affirmation shall not render inadmissible any evidence given by such witness nor affect the`
+  line `obligation of the witness to state the truth.`
+  line
+  line `(2) Nothing in this section shall render it lawful to administer, in a criminal proceeding, an oath or`
+  line `affirmation to the accused person, unless he is examined as a witness for the defence, or necessary to`
+  line `administer to the official interpreter of any court, after he has entered on the execution of the duties of his`
+  line `office, an oath or affirmation that he will faithfully discharge those duties.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 30010)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Affirmation by persons desiring to affirm.`)
-  (str content) (str `A witness, interpreter or juror may, instead of
-making an oath, make an affirmation.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30010&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00014_196944_1517807320915)
+  sectionId (30010)
+  sectionNo (5)
+  orderNo 5
+  title `Affirmation by persons desiring to affirm.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30010&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00014_196944_1517807320915
+obj_root_law_sections_5_content:
+  string
+  line `A witness, interpreter or juror may, instead of`
+  line `making an oath, make an affirmation.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 30011)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Forms of oaths and affirmations.`)
-  (str content) (str `(1) All oaths and affirmations made under section 4 shall be
-administered according to such one of the forms given in the Schedule as may be appropriate to the
-circumstances of the case:
-
-Provided that if a witness in any judicial proceeding desires to give evidence on oath or solemn
-affirmation in any form common amongst, or held binding by, persons of the class to which he belongs,
-and not repugnant to justice or decency, and not purporting to affect any third person, the court may, if it
-thinks fit, notwithstanding anything hereinbefore contained, allow him to give evidence on such oath or
-affirmation.
-
-(2) All such oaths and affirmations shall, in the case of all courts other than the Supreme Court and
-the High Courts, be administered by the presiding officer of the court himself, or, in the case of a Bench
-of Judges or Magistrates, by any one of the Judges or Magistrates, as the case may be.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30011&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00014_196944_1517807320915)
+  sectionId (30011)
+  sectionNo (6)
+  orderNo 6
+  title `Forms of oaths and affirmations.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30011&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00014_196944_1517807320915
+obj_root_law_sections_6_content:
+  string
+  line `(1) All oaths and affirmations made under section 4 shall be`
+  line `administered according to such one of the forms given in the Schedule as may be appropriate to the`
+  line `circumstances of the case:`
+  line
+  line `Provided that if a witness in any judicial proceeding desires to give evidence on oath or solemn`
+  line `affirmation in any form common amongst, or held binding by, persons of the class to which he belongs,`
+  line `and not repugnant to justice or decency, and not purporting to affect any third person, the court may, if it`
+  line `thinks fit, notwithstanding anything hereinbefore contained, allow him to give evidence on such oath or`
+  line affirmation.
+  line
+  line `(2) All such oaths and affirmations shall, in the case of all courts other than the Supreme Court and`
+  line `the High Courts, be administered by the presiding officer of the court himself, or, in the case of a Bench`
+  line `of Judges or Magistrates, by any one of the Judges or Magistrates, as the case may be.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 30012)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Proceedings and evidence not invalidated by omission of oath or irregularity.`)
-  (str content) (str `No omission
-to take any oath or make any affirmation, no substitution of any one for any other of them, and no
-irregularity whatever in the administration of any oath or affirmation or in the form in which it is
-administered, shall invalidate any proceeding or render inadmissible any evidence whatever, in or in
-respect of which such omission, substitution or irregularity took place, or shall affect the obligation of a
-witness to state the truth.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30012&sectionno=7&orderno=7&orgactid=AC_CEN_3_20_00014_196944_1517807320915)
+  sectionId (30012)
+  sectionNo (7)
+  orderNo 7
+  title `Proceedings and evidence not invalidated by omission of oath or irregularity.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30012&sectionno=7&orderno=7&orgactid=AC_CEN_3_20_00014_196944_1517807320915
+obj_root_law_sections_7_content:
+  string
+  line `No omission`
+  line `to take any oath or make any affirmation, no substitution of any one for any other of them, and no`
+  line `irregularity whatever in the administration of any oath or affirmation or in the form in which it is`
+  line `administered, shall invalidate any proceeding or render inadmissible any evidence whatever, in or in`
+  line `respect of which such omission, substitution or irregularity took place, or shall affect the obligation of a`
+  line `witness to state the truth.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 30013)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Persons giving evidence bound to state the truth.`)
-  (str content) (str `Every person giving evidence on any subject
-before any court or person hereby authorised to administer oaths and affirmations shall be bound to state
-the truth on such subject.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30013&sectionno=8&orderno=8&orgactid=AC_CEN_3_20_00014_196944_1517807320915)
+  sectionId (30013)
+  sectionNo (8)
+  orderNo 8
+  title `Persons giving evidence bound to state the truth.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30013&sectionno=8&orderno=8&orgactid=AC_CEN_3_20_00014_196944_1517807320915
+obj_root_law_sections_8_content:
+  string
+  line `Every person giving evidence on any subject`
+  line `before any court or person hereby authorised to administer oaths and affirmations shall be bound to state`
+  line `the truth on such subject.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 30014)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Repeal and saving.`)
-  (str content) (str `(1) The Indian Oaths Act, 1873 (10 of 1873), is hereby repealed.
-
-(2) Where, in any proceeding pending at the commencement of this Act, the parties have agreed to be
-bound by any such oath or affirmation as is specified in section 8 of the said Act, then, notwithstanding
-the repeal of the said Act, the provisions of sections 9 to 12 of the said Act shall continue to apply in
-relation to such agreement as if this Act had not been passed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30014&sectionno=9&orderno=9&orgactid=AC_CEN_3_20_00014_196944_1517807320915)
+  sectionId (30014)
+  sectionNo (9)
+  orderNo 9
+  title `Repeal and saving.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00014_196944_1517807320915&sectionId=30014&sectionno=9&orderno=9&orgactid=AC_CEN_3_20_00014_196944_1517807320915
+obj_root_law_sections_9_content:
+  string
+  line `(1) The Indian Oaths Act, 1873 (10 of 1873), is hereby repealed.`
+  line
+  line `(2) Where, in any proceeding pending at the commencement of this Act, the parties have agreed to be`
+  line `bound by any such oath or affirmation as is specified in section 8 of the said Act, then, notwithstanding`
+  line `the repeal of the said Act, the provisions of sections 9 to 12 of the said Act shall continue to apply in`
+  line `relation to such agreement as if this Act had not been passed.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `शपथ अधिनियम, 1969`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1643/2/hH1969-44.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:19:51.167Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `शपथ अधिनियम, 1969`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1643/2/hH1969-44.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:19:51.167Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `शपथ अधिधियम, 1969
-( 1969 का अधिधियम संखयां क 44 )
-[26 दिसम्ब र, 1969 ] न्
-या धयक शपथों से संबंधित धिधि का समेकि और संशोिि करिे के धिए
-तथा कधतपय अन्य प्र योजिों के धिए
-अधिधियम
-भारत गणराज्य के बीसिें िर्ष में संसि् द्व ारा धिम्ि धिधित रू प में यह अधिधियधमत हो: —
-1. संधिप्त िाम और धिस्ता र — ( 1 ) यह अधिधियम शपथ अधिधियम, 1969 कहा जा सकेगा।
-( 2 ) इसका धिस्ता र 1 *** संपूणष भारत पर है।
-2. कधतपय शप थों और प्र धतज्ञािों की व् या िृधि — इस अधिधियम की कोई बात सेिा - न् या याियों के समि की कायषिाधहयों की
-या संघ के सशस्र ब िों के सिस्यों की बाबत केन्री य सरकार द्व ारा धिधहत शप थों, प्र धतज्ञािों या घोर्णाओं को िागू िहीं होगी।
-3. शपथें दििािे की शधत — ( 1 ) धिम्ि धिधित न् या याियों और व् य धत यों को यह शधत होगी दक धिधि द्व ारा उि पर
-अधिरोधपत कतषव्यों के धििषहि में या उन्हें प्र िि शधत यों के प्र योग में, िे स् ि यं या िारा 6 की उपिारा ( 2 ) के उपबन्िों के अिीि रहते हु
-ए, अपिे द्व ारा इस धिधमि सशत दकए गए दकसी अधिकारी द्व ारा शपथ दििाए और प्र धतज्ञाि कराए, अथाषत्: —
-(क) सब न् या यािय और साक्ष्य िेिे के धिए धिधि - अिुसार या पिकारों की सम्म धत से प्र ाधिकृत सब व् य धत;
-(ि) दकसी ऐसे सैधिक, िौसैधिक या िायुसैधिक स् टे शि या पोत का, जो संघ के सशस्र बिों के अधिभो ग में हो,
-कमाि आदिसर, परन् तु यह तब जब स् टे शि की सीमाओं के भीतर शपथ दििाई जाए या प्र धतज्ञाि कराया जाए।
-( 2 ) उपिारा ( 1 ) द्व ारा या दकसी अन्य तत्स मय प्र िृि धिधि द्व ारा या उसके अिीि प्र िि शधत यों पर प्र धतकूि प्र भाि डािे
-धबिा यह है दक कोई भी न् या यािय, न् या यािीश, मधजस्रे ट या व् य धत शपथ - परों के प्र योजि के धिए उस िशा में शपथ दििा और प्र
-धतज्ञाि करा सकेगा, जब उसे —
-(क) न् या धयक कायषिाधहयों के प्र योजि के धिए शपथ - परों की बाबत, उच्च न् या यािय द्व ारा; अथिा
-(ि) अन्य शपथ - परों की बाबत, राज्य सरकार द्व ारा,
-इस धिधमि सशत दकया गया हो।
-4. साधियों, िुभाधर्यों और जूरी - सिस्यों द्व ारा शपथ िी जािा या प्र धतज्ञा ि दकया जािा — ( 1 ) धिम्ि धिधित व् य धत यों द्व ारा
-शपथें िी जाएंगी या प्र धतज्ञाि दकए जाएंगे, अथाषत्: —
-(क) सब सािी, अथाषत् सब व् य धत, जो दकसी न् या यािय द्व ारा उसके समि अथिा ऐसे व् य धत यों की परीिा करिे
-या साक्ष्य िेिे के धिए धिधि - अिुसार या पि कारों की सम्म धत से प्र ाधिकृत व् य धत द्व ारा या उसके समि धिधिपूिषक परीधित
-दकए जा सकते हैं अथिा साक्ष्य िे सकते हैं या िेिे के धिए अपेधित दकए जा सकते हैं;
-(ि) साधियों से दकए गए प्रश् िों और उिके द्व ारा दिए गए साक्ष्य के िुभाधर्ए; तथा
-(ग) जूरी - सिस्य:
-परन् तु जहां सािी बारह िर्ष से कम आयु का बािक हो और उस न् या यािय या व् य धत को, धजसे उस सािी की परीिा करिे
-का प्र ा धिकार हो, यह राय हो दक यद्यधप सािी सत्य बोििे के कतषव्य को समझता है दकन्तु िह शपथ या प्र धतज्ञाि की प्र कृधत को िहीं
-सम झता िहां इस िारा के पूिषगामी उपबन्ि और िारा 5 के उपबन्ि उस सािी को िागू िहीं होंगे; दकन्तु ऐसे दकसी मामिे में शपथ या प्र
-धतज्ञाि का अभाि ि तो दकसी ऐसे सािी द्व ारा दिए गए साक्ष्य को अग्राह्य बिाएगा और ि उस सािी की सत्य कथि करिे की
-बाध्य ता पर प्र भाि डािेगा।
-( 2 ) इस िारा की कोई बात दकसी िाधड क कायषिाही में अधभयुत व् य धत को शपथ दििािा या प्र धतज्ञाि करािा तब के
-धसिाय धिधिपूणष िहीं करेगी जब उसकी परीिा प्र धतरिा पि के सािी के रू प में की जाए और ि िह दकसी न् या यािय के शासकीय
-िुभाधर्ए के अपिे पि के कतषव्यों का धिष्पा िि आरम्भ कर चुक िे के पश्चा त् उसे यह शपथ दििािा या प्र धतज्ञाि करािा दक िह उि
-कतषव्यों का धििषहि धिष्ठा पूिषक करेगा, आिश्य क बिाएगी।
-1 2019 के अधिधियम सं ० 34 की िारा 95 और पांचिी अिुसूची द्व ारा (31 - 10 - 201 9 से ) “ जम्मू - कश्मीर राज्य के धसिाय ” शब्िों का िोप दकया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `शपथ अधिधियम, 1969`
+  line `( 1969 का अधिधियम संखयां क 44 )`
+  line `[26 दिसम्ब र, 1969 ] न्`
+  line `या धयक शपथों से संबंधित धिधि का समेकि और संशोिि करिे के धिए`
+  line `तथा कधतपय अन्य प्र योजिों के धिए`
+  line अधिधियम
+  line `भारत गणराज्य के बीसिें िर्ष में संसि् द्व ारा धिम्ि धिधित रू प में यह अधिधियधमत हो: —`
+  line `1. संधिप्त िाम और धिस्ता र — ( 1 ) यह अधिधियम शपथ अधिधियम, 1969 कहा जा सकेगा।`
+  line `( 2 ) इसका धिस्ता र 1 *** संपूणष भारत पर है।`
+  line `2. कधतपय शप थों और प्र धतज्ञािों की व् या िृधि — इस अधिधियम की कोई बात सेिा - न् या याियों के समि की कायषिाधहयों की`
+  line `या संघ के सशस्र ब िों के सिस्यों की बाबत केन्री य सरकार द्व ारा धिधहत शप थों, प्र धतज्ञािों या घोर्णाओं को िागू िहीं होगी।`
+  line `3. शपथें दििािे की शधत — ( 1 ) धिम्ि धिधित न् या याियों और व् य धत यों को यह शधत होगी दक धिधि द्व ारा उि पर`
+  line `अधिरोधपत कतषव्यों के धििषहि में या उन्हें प्र िि शधत यों के प्र योग में, िे स् ि यं या िारा 6 की उपिारा ( 2 ) के उपबन्िों के अिीि रहते हु`
+  line `ए, अपिे द्व ारा इस धिधमि सशत दकए गए दकसी अधिकारी द्व ारा शपथ दििाए और प्र धतज्ञाि कराए, अथाषत्: —`
+  line `(क) सब न् या यािय और साक्ष्य िेिे के धिए धिधि - अिुसार या पिकारों की सम्म धत से प्र ाधिकृत सब व् य धत;`
+  line `(ि) दकसी ऐसे सैधिक, िौसैधिक या िायुसैधिक स् टे शि या पोत का, जो संघ के सशस्र बिों के अधिभो ग में हो,`
+  line `कमाि आदिसर, परन् तु यह तब जब स् टे शि की सीमाओं के भीतर शपथ दििाई जाए या प्र धतज्ञाि कराया जाए।`
+  line `( 2 ) उपिारा ( 1 ) द्व ारा या दकसी अन्य तत्स मय प्र िृि धिधि द्व ारा या उसके अिीि प्र िि शधत यों पर प्र धतकूि प्र भाि डािे`
+  line `धबिा यह है दक कोई भी न् या यािय, न् या यािीश, मधजस्रे ट या व् य धत शपथ - परों के प्र योजि के धिए उस िशा में शपथ दििा और प्र`
+  line `धतज्ञाि करा सकेगा, जब उसे —`
+  line `(क) न् या धयक कायषिाधहयों के प्र योजि के धिए शपथ - परों की बाबत, उच्च न् या यािय द्व ारा; अथिा`
+  line `(ि) अन्य शपथ - परों की बाबत, राज्य सरकार द्व ारा,`
+  line `इस धिधमि सशत दकया गया हो।`
+  line `4. साधियों, िुभाधर्यों और जूरी - सिस्यों द्व ारा शपथ िी जािा या प्र धतज्ञा ि दकया जािा — ( 1 ) धिम्ि धिधित व् य धत यों द्व ारा`
+  line `शपथें िी जाएंगी या प्र धतज्ञाि दकए जाएंगे, अथाषत्: —`
+  line `(क) सब सािी, अथाषत् सब व् य धत, जो दकसी न् या यािय द्व ारा उसके समि अथिा ऐसे व् य धत यों की परीिा करिे`
+  line `या साक्ष्य िेिे के धिए धिधि - अिुसार या पि कारों की सम्म धत से प्र ाधिकृत व् य धत द्व ारा या उसके समि धिधिपूिषक परीधित`
+  line `दकए जा सकते हैं अथिा साक्ष्य िे सकते हैं या िेिे के धिए अपेधित दकए जा सकते हैं;`
+  line `(ि) साधियों से दकए गए प्रश् िों और उिके द्व ारा दिए गए साक्ष्य के िुभाधर्ए; तथा`
+  line `(ग) जूरी - सिस्य:`
+  line `परन् तु जहां सािी बारह िर्ष से कम आयु का बािक हो और उस न् या यािय या व् य धत को, धजसे उस सािी की परीिा करिे`
+  line `का प्र ा धिकार हो, यह राय हो दक यद्यधप सािी सत्य बोििे के कतषव्य को समझता है दकन्तु िह शपथ या प्र धतज्ञाि की प्र कृधत को िहीं`
+  line `सम झता िहां इस िारा के पूिषगामी उपबन्ि और िारा 5 के उपबन्ि उस सािी को िागू िहीं होंगे; दकन्तु ऐसे दकसी मामिे में शपथ या प्र`
+  line `धतज्ञाि का अभाि ि तो दकसी ऐसे सािी द्व ारा दिए गए साक्ष्य को अग्राह्य बिाएगा और ि उस सािी की सत्य कथि करिे की`
+  line `बाध्य ता पर प्र भाि डािेगा।`
+  line `( 2 ) इस िारा की कोई बात दकसी िाधड क कायषिाही में अधभयुत व् य धत को शपथ दििािा या प्र धतज्ञाि करािा तब के`
+  line `धसिाय धिधिपूणष िहीं करेगी जब उसकी परीिा प्र धतरिा पि के सािी के रू प में की जाए और ि िह दकसी न् या यािय के शासकीय`
+  line `िुभाधर्ए के अपिे पि के कतषव्यों का धिष्पा िि आरम्भ कर चुक िे के पश्चा त् उसे यह शपथ दििािा या प्र धतज्ञाि करािा दक िह उि`
+  line `कतषव्यों का धििषहि धिष्ठा पूिषक करेगा, आिश्य क बिाएगी।`
+  line `1 2019 के अधिधियम सं ० 34 की िारा 95 और पांचिी अिुसूची द्व ारा (31 - 10 - 201 9 से ) “ जम्मू - कश्मीर राज्य के धसिाय ” शब्िों का िोप दकया गया।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-5. प्र धतज्ञाि करिे की िांछा करिे िािे व् य धत यों द्व ारा प्र धतज्ञाि — सािी, िुभाधर्ए या जूरी - सिस्य शपथ िेिे के बजाय प्र
-धतज्ञाि कर सकेगा।
-6. शपथ और प्र धतज्ञाि के प्ररू प — ( 1 ) िारा 4 के अिीि िी गई सभी शपथें और दकए गए सब प्र धतज्ञाि, अिुसूची में दिए गए प्ररू
-पों में से दकसी एक प्ररू प के अिुसार िी जाएंगी या दकए जाएंगे जो मामिे की पररधस्थ धतयों में उपयुत हो:
-परन् तु यदि दकसी न् या धयक कायषिाही में कोई सािी दकसी ऐसे प्ररू प में शपथ या सत्य धिधष्ठ त प्र धतज्ञाि पर शपथ िेिे की
-िांछा करे जो उस िगष के, धजसका िह हो, व् य धत यों में सामान्य हो या उिके द्व ारा आबद्धकर समझा जाता हो तथा जो ि तो न् या य या
-धशष्ट ता के धिरुद्ध और ि दकसी पर - व् य धत पर प्र भाि डाििे के धिए तात्प र् यषत हो तो, इसमें इसके पूिष दकसी बात के होते हु ए भी, न्
-या यािय, यदि िह ठीक समझे तो, उसे ऐसी शपथ या प्र धतज्ञाि पर साक्ष्य िेिे की अिुज्ञा िे सकेगा।
-( 2 ) उच्च तम न् या यािय और उच्च न् या याियों से धभन् ि सब न् या याियों में ऐसी सब शपथें और प्र धतज्ञाि न् या यािय के
-पीठासीि अधिकारी द्व ारा स् ि यं अथिा न् या यािीशों या मधजस्रे टों की न् या यपीठ की िशा में, यथाधस्थ धत, उिमें से दकसी एक न् या यािीश
-या मधजस्रे ट द्व ारा दििाई जाएगी या कराए जाएंगे।
-7. शपथ के िोप या अधियधमतता से कायषिाधहयों और साक्ष्य का अधिधिमान्य ि होिा — शपथ िेिे या प्र धतज्ञाि करिे का
-कोई िोप, उिमें से दकसी एक के स् था ि पर िूसरे का कोई प्र धतस्था पि और दकसी शपथ दििािे या प्र धतज्ञाि क रािे में, या धजस रू प में
-उसे दििाया या कराया जाए उसमें, कोई अधियधमतता ि तो दकसी कायषिाही को अधिधिमान्य बिाएगी और ि दकसी भी, ऐसे साक्ष्य
-को, धजसमें या धजसकी बाबत ऐसा िोप, प्र धतस्था पि या अधियधमतता हु ई हो, अग्राह्य बिाएगी, और ि िह सािी की सत्य कथि करिे
-की बाध्य ता पर ही प्र भाि डािेगी।
-8. साक्ष्य िेिे िािे व् य धत यों का सत्य कथि करिे के धिए आबद्ध होिा — दकसी न् या यािय या ऐसे व् य धत के समि, धजसे
-शपथें दििािे और प्र धतज्ञाि करािे के धि ए एति् द्व ारा प्र ाधिकृत दकया गया है, दकसी भी धिर्य पर साक्ष्य िे िे िािा प्रत् ये क व् य धत उस
-धिर्य पर सत्य कथि करिे के धिए आबद्ध होगा।
-9. धिरसि और व् या िृधि — ( 1 ) भारतीय शपथ अधिधियम, 1873 ( 1873 का 10 ) एति् द्व ारा धिरधसत दकया जाता है।
-( 2 ) जहां इस अधिधियम के प्र ारम्भ पर िधम्ब त दकसी कायषिाही में पिकारों िे दकसी ऐसे शपथ या प्र धतज्ञाि से आबद्ध रहिे
-का करार दकया है, जो उत अधिधियम की िारा 8 में धिधिर्िषष्ट है, िहां उ त अधिधियम के धिरसि के होते हु ए भी उ त अधिधियम
-की िारा 9 से 12 तक के उपबन्ि उस करार के संबंि में उसी तरह िागू बिे रहेंगे मािो यह अधिधियम पाररत ि हु आ हो।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `5. प्र धतज्ञाि करिे की िांछा करिे िािे व् य धत यों द्व ारा प्र धतज्ञाि — सािी, िुभाधर्ए या जूरी - सिस्य शपथ िेिे के बजाय प्र`
+  line `धतज्ञाि कर सकेगा।`
+  line `6. शपथ और प्र धतज्ञाि के प्ररू प — ( 1 ) िारा 4 के अिीि िी गई सभी शपथें और दकए गए सब प्र धतज्ञाि, अिुसूची में दिए गए प्ररू`
+  line `पों में से दकसी एक प्ररू प के अिुसार िी जाएंगी या दकए जाएंगे जो मामिे की पररधस्थ धतयों में उपयुत हो:`
+  line `परन् तु यदि दकसी न् या धयक कायषिाही में कोई सािी दकसी ऐसे प्ररू प में शपथ या सत्य धिधष्ठ त प्र धतज्ञाि पर शपथ िेिे की`
+  line `िांछा करे जो उस िगष के, धजसका िह हो, व् य धत यों में सामान्य हो या उिके द्व ारा आबद्धकर समझा जाता हो तथा जो ि तो न् या य या`
+  line `धशष्ट ता के धिरुद्ध और ि दकसी पर - व् य धत पर प्र भाि डाििे के धिए तात्प र् यषत हो तो, इसमें इसके पूिष दकसी बात के होते हु ए भी, न्`
+  line `या यािय, यदि िह ठीक समझे तो, उसे ऐसी शपथ या प्र धतज्ञाि पर साक्ष्य िेिे की अिुज्ञा िे सकेगा।`
+  line `( 2 ) उच्च तम न् या यािय और उच्च न् या याियों से धभन् ि सब न् या याियों में ऐसी सब शपथें और प्र धतज्ञाि न् या यािय के`
+  line `पीठासीि अधिकारी द्व ारा स् ि यं अथिा न् या यािीशों या मधजस्रे टों की न् या यपीठ की िशा में, यथाधस्थ धत, उिमें से दकसी एक न् या यािीश`
+  line `या मधजस्रे ट द्व ारा दििाई जाएगी या कराए जाएंगे।`
+  line `7. शपथ के िोप या अधियधमतता से कायषिाधहयों और साक्ष्य का अधिधिमान्य ि होिा — शपथ िेिे या प्र धतज्ञाि करिे का`
+  line `कोई िोप, उिमें से दकसी एक के स् था ि पर िूसरे का कोई प्र धतस्था पि और दकसी शपथ दििािे या प्र धतज्ञाि क रािे में, या धजस रू प में`
+  line `उसे दििाया या कराया जाए उसमें, कोई अधियधमतता ि तो दकसी कायषिाही को अधिधिमान्य बिाएगी और ि दकसी भी, ऐसे साक्ष्य`
+  line `को, धजसमें या धजसकी बाबत ऐसा िोप, प्र धतस्था पि या अधियधमतता हु ई हो, अग्राह्य बिाएगी, और ि िह सािी की सत्य कथि करिे`
+  line `की बाध्य ता पर ही प्र भाि डािेगी।`
+  line `8. साक्ष्य िेिे िािे व् य धत यों का सत्य कथि करिे के धिए आबद्ध होिा — दकसी न् या यािय या ऐसे व् य धत के समि, धजसे`
+  line `शपथें दििािे और प्र धतज्ञाि करािे के धि ए एति् द्व ारा प्र ाधिकृत दकया गया है, दकसी भी धिर्य पर साक्ष्य िे िे िािा प्रत् ये क व् य धत उस`
+  line `धिर्य पर सत्य कथि करिे के धिए आबद्ध होगा।`
+  line `9. धिरसि और व् या िृधि — ( 1 ) भारतीय शपथ अधिधियम, 1873 ( 1873 का 10 ) एति् द्व ारा धिरधसत दकया जाता है।`
+  line `( 2 ) जहां इस अधिधियम के प्र ारम्भ पर िधम्ब त दकसी कायषिाही में पिकारों िे दकसी ऐसे शपथ या प्र धतज्ञाि से आबद्ध रहिे`
+  line `का करार दकया है, जो उत अधिधियम की िारा 8 में धिधिर्िषष्ट है, िहां उ त अधिधियम के धिरसि के होते हु ए भी उ त अधिधियम`
+  line `की िारा 9 से 12 तक के उपबन्ि उस करार के संबंि में उसी तरह िागू बिे रहेंगे मािो यह अधिधियम पाररत ि हु आ हो।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-अिुसूची
-(िारा 6 िेधिए)
-शपथों या प्र धतज्ञािों के प्ररू प प्ररू
-प संखयां क 1 (सािी): —
-ईश् ि र की शपथ िेता हं
-मैं ————————————— दक मैं जो कुछ कथि करूंगा िह सत्य होगा, सम्पू णष सत्य होगा और सत्य के धसिाय
-सत्य धिष्ठा से प्र धतज्ञाि करता हं
-कुछ ि होगा। प्ररू
-प संखयां क 2 (जूरी सिस्य ): —
-ईश् ि र की शपथ िेता हं
-मैं ————————————— दक मैं धिचारण भिी - भांधत और सच्चा ई से करूंगा और राज्य के और उस (उि)
-सत्य धिष्ठा से प्र धतज्ञाि करता हं
-धिचारा िीि बन्िी (बधन्ि यों) के, धजसके (धजिके) धिचारण का भार मुझ पर होगा, बीच सच्ची राय िूंगा और साक्ष्य के अिुसार सच्चा
-अधभमत िूंगा। प्ररू
-प संखयां क 3 (िुभाधर्ए): —
-ईश् ि र की शपथ िेता हं
-मैं ————————————— दक मैं उि सब प्रश् िों का, जो साधियों से दकए जाएंगे और उिके द्व ारा दिए गए साक्ष्य
-सत्य धिष्ठा से प्र धतज्ञाि करता हं
-का भिी - भांधत और सच्चा ई के साथ भार्ान्त र और स् प ष् टी करण करूंगा तथा अिु िाि के धिए मु झे िी गई सभी िस्ता िेजों का ठीक - ठीक
-और शुद्ध अिुिाि करूंगा। प्ररू
-प संखयां क 4 (शपथ - पर): —
-ईश् ि र की शपथ िेता हं
-मैं ————————————— दक यह मेरा िाम और हस्ता ि र (या धचह्ि) है और मेरे शपथ - पर की अन्त िषस्तु
-सत्य धिष्ठा से प्र धतज्ञाि करता हं
-सम्प धि ही है।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line अिुसूची
+  line `(िारा 6 िेधिए)`
+  line `शपथों या प्र धतज्ञािों के प्ररू प प्ररू`
+  line `प संखयां क 1 (सािी): —`
+  line `ईश् ि र की शपथ िेता हं`
+  line `मैं ————————————— दक मैं जो कुछ कथि करूंगा िह सत्य होगा, सम्पू णष सत्य होगा और सत्य के धसिाय`
+  line `सत्य धिष्ठा से प्र धतज्ञाि करता हं`
+  line `कुछ ि होगा। प्ररू`
+  line `प संखयां क 2 (जूरी सिस्य ): —`
+  line `ईश् ि र की शपथ िेता हं`
+  line `मैं ————————————— दक मैं धिचारण भिी - भांधत और सच्चा ई से करूंगा और राज्य के और उस (उि)`
+  line `सत्य धिष्ठा से प्र धतज्ञाि करता हं`
+  line `धिचारा िीि बन्िी (बधन्ि यों) के, धजसके (धजिके) धिचारण का भार मुझ पर होगा, बीच सच्ची राय िूंगा और साक्ष्य के अिुसार सच्चा`
+  line `अधभमत िूंगा। प्ररू`
+  line `प संखयां क 3 (िुभाधर्ए): —`
+  line `ईश् ि र की शपथ िेता हं`
+  line `मैं ————————————— दक मैं उि सब प्रश् िों का, जो साधियों से दकए जाएंगे और उिके द्व ारा दिए गए साक्ष्य`
+  line `सत्य धिष्ठा से प्र धतज्ञाि करता हं`
+  line `का भिी - भांधत और सच्चा ई के साथ भार्ान्त र और स् प ष् टी करण करूंगा तथा अिु िाि के धिए मु झे िी गई सभी िस्ता िेजों का ठीक - ठीक`
+  line `और शुद्ध अिुिाि करूंगा। प्ररू`
+  line `प संखयां क 4 (शपथ - पर): —`
+  line `ईश् ि र की शपथ िेता हं`
+  line `मैं ————————————— दक यह मेरा िाम और हस्ता ि र (या धचह्ि) है और मेरे शपथ - पर की अन्त िषस्तु`
+  line `सत्य धिष्ठा से प्र धतज्ञाि करता हं`
+  line `सम्प धि ही है।`
+  line ______
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

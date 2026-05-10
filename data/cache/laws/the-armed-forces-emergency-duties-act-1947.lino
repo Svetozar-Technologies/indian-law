@@ -1,184 +1,191 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:27:19.887Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1419`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 3)
-  (str totalSections) (int 3)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:27:19.887Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1419`
+  completeFetch true
+  maxSections null
+  sectionCount 3
+  totalSections 3
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-armed-forces-emergency-duties-act-1947)
-  (str handle) (str 1419)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Armed Forces (Emergency Duties) Act, 1947`)
-  (str actNumber) (str 15)
-  (str enactmentDate) (str 1947-03-20)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1419`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `सशस्‍त्र बल (आपात कर्तव्य)अधिनियम, 1947`)
-  (str actYear) (str 1947)
-  (str ministry) (str `Ministry of Defence`)
-  (str department) (str `Department of Military Affairs`)
-  (str longTitle) (str `An Act to enable duties in connection with vital services to be imposed in an emergency on an Armed Forces.`)
-  (str enforcementDate) (str 20-03-1947)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T17:58:01.638Z`)
-  (str translations) obj_root_law_translations
+  slug the-armed-forces-emergency-duties-act-1947
+  handle (1419)
+  collectionHandle 123456789/1362
+  title `The Armed Forces (Emergency Duties) Act, 1947`
+  actNumber (15)
+  enactmentDate 1947-03-20
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1419`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `सशस्‍त्र बल (आपात कर्तव्य)अधिनियम, 1947`
+  actYear (1947)
+  ministry `Ministry of Defence`
+  department `Department of Military Affairs`
+  longTitle `An Act to enable duties in connection with vital services to be imposed in an emergency on an Armed Forces.`
+  enforcementDate 20-03-1947
+  notification undefined
+  fetchedAt `2026-05-09T17:58:01.638Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_armed_forces_emergency_duties_act_1947
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1419`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1419`
 obj_root_law_sources_en_the_armed_forces_emergency_duties_act_1947:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1419/1/AAA1947____15.pdf`)
-  (str title) (str `The Armed Forces (Emergency Duties) Act, 1947`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1419/1/AAA1947____15.pdf`
+  title `The Armed Forces (Emergency Duties) Act, 1947`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1947
 obj_root_law_sources_hi_1947:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1419/3/H1947-15.pdf`)
-  (str title) (str `सशस्‍त्र बल (आपात कर्तव्य)अधिनियम, 1947`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1419/3/H1947-15.pdf`
+  title `सशस्‍त्र बल (आपात कर्तव्य)अधिनियम, 1947`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 31522)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extend`)
-  (str content) (str `^1* * * This Act may be called the Armed Forces (Emergency Duties)
-Act, 1947.
-
-^2* * * * * *`)
-  (str footnotes) (str `1. The brackets and figure "(1)" omitted by Act 4 of 1948, s. 2.
-
-2. Omitted by s. 2, ibid.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00009_194715_1517807322354&sectionId=31522&sectionno=1&orderno=1&orgactid=AC_CEN_28_38_00009_194715_1517807322354)
+  sectionId (31522)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extend`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00009_194715_1517807322354&sectionId=31522&sectionno=1&orderno=1&orgactid=AC_CEN_28_38_00009_194715_1517807322354
+obj_root_law_sections_1_content:
+  string
+  line `^1* * * This Act may be called the Armed Forces (Emergency Duties)`
+  line `Act, 1947.`
+  line
+  line `^2* * * * * *`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. The brackets and figure "(1)" omitted by Act 4 of 1948, s. 2.`
+  line
+  line `2. Omitted by s. 2, ibid.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 31523)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Emergency duties of Armed Forces`)
-  (str content) (str `(1) The Central Government may, by notification in the
-Official Gazette, declare any specified service ^1[in a State] to be a service of vital importance to the
-community:
-
-Provided that such notification shall remain in force for one month in the first instance, but may be
-extended, from time to time, by a like notification.
-
-(2) Upon a declaration being made under sub-section (1) and until it is rescinded, it shall be the duty
-of every person subject to ^2[the Army Act, 1950 (46 of 1950) or the Air Force Act, 1950 (45 of 1950)],
-or ^3* * * ^4[the Navy Act, 1957 (62 of 1957)], to obey any command given by any superior officer in
-relation to employment upon or in connection with the service specified in the declaration; and every such
-command shall be deemed to be a lawful command within the meaning and for the purposes of the
-said Acts.`)
-  (str footnotes) (str `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "in a Part A State or a Part C State or, if so requested by the Government of
-a Part B State any specified service in that State".
-
-2. Subs. by s. 3 and the Schedule, ibid., for "the Indian Army Act, 1911, or the Indian Air Force Act, 1932".
-
-3. The words "the Naval Discipline Act, in the form in which it is set forth in the First Schedule to" omitted by the A.O. 1950.
-
-4. Subs. by Act 58 of 1960, s. 3 and the Second Schedule, for "the Indian Navy (Discipline) Act, 1934".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00009_194715_1517807322354&sectionId=31523&sectionno=2&orderno=2&orgactid=AC_CEN_28_38_00009_194715_1517807322354)
+  sectionId (31523)
+  sectionNo (2)
+  orderNo 2
+  title `Emergency duties of Armed Forces`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00009_194715_1517807322354&sectionId=31523&sectionno=2&orderno=2&orgactid=AC_CEN_28_38_00009_194715_1517807322354
+obj_root_law_sections_2_content:
+  string
+  line `(1) The Central Government may, by notification in the`
+  line `Official Gazette, declare any specified service ^1[in a State] to be a service of vital importance to the`
+  line `community:`
+  line
+  line `Provided that such notification shall remain in force for one month in the first instance, but may be`
+  line `extended, from time to time, by a like notification.`
+  line
+  line `(2) Upon a declaration being made under sub-section (1) and until it is rescinded, it shall be the duty`
+  line `of every person subject to ^2[the Army Act, 1950 (46 of 1950) or the Air Force Act, 1950 (45 of 1950)],`
+  line `or ^3* * * ^4[the Navy Act, 1957 (62 of 1957)], to obey any command given by any superior officer in`
+  line `relation to employment upon or in connection with the service specified in the declaration; and every such`
+  line `command shall be deemed to be a lawful command within the meaning and for the purposes of the`
+  line `said Acts.`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. Subs. by Act 3 of 1951, s. 3 and the Schedule, for "in a Part A State or a Part C State or, if so requested by the Government of`
+  line `a Part B State any specified service in that State".`
+  line
+  line `2. Subs. by s. 3 and the Schedule, ibid., for "the Indian Army Act, 1911, or the Indian Air Force Act, 1932".`
+  line
+  line `3. The words "the Naval Discipline Act, in the form in which it is set forth in the First Schedule to" omitted by the A.O. 1950.`
+  line
+  line `4. Subs. by Act 58 of 1960, s. 3 and the Second Schedule, for "the Indian Navy (Discipline) Act, 1934".`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 31524)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Validation of certain past commands.`)
-  (str content) (str `Every command given, alter the 30th day of September,
-1946, and before the commencement of this Act, to any person referred to in sub-section (2) of section 2
-by any superior officer in relation to employment upon or in connection with any such service as the
-central Government may, by notification in the Official Gazette, specify in his behalf, shall be deemed to
-have been a lawful command within the meaning and for the purposes of the Acts referred to in that
-sub-section, so, however, that no such person shall be punished by reason only of his not having obeyed
-any such command.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00009_194715_1517807322354&sectionId=31524&sectionno=3&orderno=3&orgactid=AC_CEN_28_38_00009_194715_1517807322354)
+  sectionId (31524)
+  sectionNo (3)
+  orderNo 3
+  title `Validation of certain past commands.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00009_194715_1517807322354&sectionId=31524&sectionno=3&orderno=3&orgactid=AC_CEN_28_38_00009_194715_1517807322354
+obj_root_law_sections_3_content:
+  string
+  line `Every command given, alter the 30th day of September,`
+  line `1946, and before the commencement of this Act, to any person referred to in sub-section (2) of section 2`
+  line `by any superior officer in relation to employment upon or in connection with any such service as the`
+  line `central Government may, by notification in the Official Gazette, specify in his behalf, shall be deemed to`
+  line `have been a lawful command within the meaning and for the purposes of the Acts referred to in that`
+  line `sub-section, so, however, that no such person shall be punished by reason only of his not having obeyed`
+  line `any such command.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `सशस्‍त्र बल (आपात कर्तव्य)अधिनियम, 1947`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1419/3/H1947-15.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:27:18.786Z`)
-  (str pageCount) (int 1)
-  (str sections) obj_root_law_translations_hi_sections
+  title `सशस्‍त्र बल (आपात कर्तव्य)अधिनियम, 1947`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1419/3/H1947-15.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:27:18.786Z`
+  pageCount 1
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `सश स्‍त् र ् बल्(आपात्कततव्य) अधिधियम,् 19 47
-( 19 47 ् का्अधिधियम्संखयांक 15 ) 1
-[ 20 ् मार्त,् 19 47 ]
-सश स्‍त् र ् बलों्पर्आपातकाल्में्अधिरोधपत्अत्यावश्क्
-सेवाओं्के्सम्बन्ि्में्कततव्यों्को्करिे्के्
-वास्‍तते्समर्त्बिािे्के्धलए्
-अधिधियम
-यत:् यह्समीर्ीि्है्कक् आपातकाल्में् 2 *** ् सश स्‍त् र ् बलों्पर्अत्यावश्यक्सेवाओं्के्सम्बन्ि्में्कततव्य्अधिरोधपत्करिे्के्
-धलए्समर्त्बिाया्जा ए;
-अतः् एत ् दद्वारा ् धिम्् ि धलधित्रूप्में्यह्अधिधियधमत्ककया्जाता्है: —
-1. संधि प्् त ् िाम् और् धवस्‍ततार — 3 *** ् इस् अधिधियम् का्संधि प्् त ् िाम्सश स्‍त् र ् बल्(आपात्कततव्य)् अधिधियम, ् 1947 ् है्।
-3 * * * *
-2.् सश स्‍त् र ् बल्के्आपात्कततव्य — ( 1 )्केन्रीय्सरकार्राजपर्में्अधिसूर्िा्द्वारा ् 4 [ ककसी्राज्य्में ] ् ककसी्धवधिर्दत ष्् ट ् सेवा्
-की्बाबत्यह्घोधित्कर्सकेगी्कक्वह्समुदाय्के्धलए्अत्यावश्यक्महत्व्की्सेवा्हैः
-परन्तु्ऐसी्अधिसूर्िा् प्रर् म ् बार्एक ् मास्तक्प्रवृत्त्रहेगी,्ककन्तु्यह्कालावधि्समय - समय्पर्वैसी्ही्अधिसूर्िा्द्वारा्
-बढाई्जा्सकेगी्।
-( 2 )् उपिारा् ( 1 )् के्अिीि् घोिणा् हो् जािे् पर् और् जब् तक् उसे् धविंधित् िहीं् ककया् जाता् है,् तब् तक् हर्व्य ध् त ् का्
-5 [ सेिा्अधिधियम,् 1950 ( 1950 का 46 )्या्वायु्सेवा्अधिधियम,् 1950 ( 1950 का 45 ) ] ् या् 6 *** ् 7 [ िौसेिा्अधिधियम,् 1957 ( 1957
-का 62 ) ] ् के् अिीि् रहते्हु ए् यह् कततव्य् होगा् कक् वह् घोिणा् में् धवधिर्दत ष्् ट ् सेवा् में् धियोज ि ् के्सम्बन्ि् में् या् उसके्बारे्में् ककसी्
-वरर ष्् ठ ् अधिकारी्द्वारा्कदए्गए्समादेश्का्पालि्करे,्और्ऐसे्हर्सामदेश्को्उ ् त ् अधिधिय मों्के्अर्त्में्और्प्रयोजिों्के्धलए्
-धवधिपूणत्समादेश्समझा्जाएगा्। ््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््
-3.्कधतपय्भूतपूवत्समादेशों्का्धवधिमान्यकरण — ऐसी्ककसी्सेवा्में्धियोजि्के्सम्बन्ि ् में्या्उसके्बारे्में,्धजसे्केन्रीय्
-सरकार्राजपर्में्अधिसूर्िा्द्वारा्इस्धिधमत्त्धवधिर्दत ष्् ट ् करे,्जो्भी्समादेश्िारा् 2 की्उपिारा्( 2 )्में्धिर्दत ष्् ट ् ककसी्व्य ध् त ् को्
-ककसी्वरर ष्् ठ ् अधिकारी्द्वारा् 1946 ् के्धसतम्बर्के् 30 वें्कदि्के् प श््र् ा त ्और्इस्अधिधियम्के्प्रारम्भ्के्पूवत्कदया्गया्र्ा,्वह्उस्
-उपिारा्में्धिर्दत ष्् ट ् अधिधियमों्के्अर्त्में्और्उिके्प्रयोजिों्के्धलए्धवधिपूणत्समादेश्समझा्जाएगा,्ककन्तु्ककसी्व्य ध् त ् को्केवल्
-इसी्कारण्दधडित्िहीं्ककया्जाएगा्कक्उसिे्ऐसे्ककसी्समादेश्का्पालि्िहीं्ककया ् है्।
-______
-1 धवलधयत्राज्य्(धवधियां)्अधिधियम, ् 1949 ् ( 1949 ् का् 59 )्की्िारा् 3 ् और्अिुसूर्ी्द्वारा्िए ् प्र ान्तों्और्धवलधयत्राज्यों्को; ् भाग्ग्राज्य्(धवधियां)्अधिधियम,्
-1950 ( 1950 का 30 )्की्िारा् 3 ् द्व ारा्मधणपुर,्धरपुरा्और्ववंध्य्प्रदेश्को; ् 1963 ् के्धवधियम्सं ० ् 7 की ् िारा् 3 ् और्अिुसूर्ी् 1 ् द्व ारा्( 1 - 10 - 1963 ् से) ् पाधडिर्ेरी्
-और् 1965 के्धवधियम्सं ० ् 8 ् की्िारा् 3 ् तर्ा्अिुसूर्ी्द्वारा् ( 1 - 10 - 19 87 ् से)्लिद्वीप्को; ् 1962 ् के्धवधियम्सं ० ् 12 ् की्िारा् 3 ् और्अिुसूर्ी्द्वारा्उपांतरणों्
-सधहत्गोवा,्दमण्और्दीव्को्और् 1963 ् के्धवधियम्सं ० ् 6 ् की्िारा् 2 ् और्अिुसूर्ी् 1 ् द्व ारा्( 1 - 7 - 1965 ् से)्दादरा्और्िागर्हवेली्को्धवस्‍तताररत्ककया्गया्।
-2 धवधि्अिुकूलि्आदेश,् 1950 ् द्व ारा् “ क्र ाउि्के ” ् शब्दों्का्लोप्ककया्गया्।
-3 1948 ् के्अधिधियम् 4 ् की्िारा् 2 ् द्व ारा् “ ( 1 ) ” ् को ष्् ट क्और्अंक्तर्ा्उपिारा्( 2 )्धिरधसत्की्गई्है्।्
-4 1951 ् के्अधिधिय म् 3 ् की्िारा् 3 ् और्अिुसूर्ी्द्वारा् “ ककसी्भाग्क्राज्य्या्ककसी्भाग्ग्राज्य्में्या,्यकद्भाग्ि्राज्य्द्वारा्ऐसा्अिुरोि्ककया्जाए्तो्उस्
-राज्य्में्की्ककसी्धवधिर्दतष्ट्सेवा्को ” ् के्स्‍तर्ाि्पर्प्रधतस्‍तर्ाधपत्।
-5 1951 ् के्अधिधियम् 3 ् की्िारा् 3 ् और्अिुसूर्ी्द्वारा् “ भारतीय्सेिा्अधि धियम,् 1911,्या्भारतीय्वायुसेिा्अधिधियम,् 1932” ् के्स्‍तर्ाि्पर्प्रधतस्‍तर्ाधपत्।
-6 धवधि्अिुकूलि्आदेश,् 1950 ् द्व ारा् “ िैवल्धिधसधप्लि्ऐट्उस्रूप्में्धजसमें्प्रर्म्अिुसूर्ी्में्कदया्गया्है, ” ् शब्द्धिरधसत्।
-7 1960 ् के्अधिधियम् 58 ् की्िारा् 3 ् और्अिुसूर्ी् 2 ् द्व ारा् “ कद्इंधियि्िे वी्(धिधसधप्लि)्ऐट,् 1934” ् के्स्‍तर्ाि्पर्प्रधतस्‍तर्ाधपत्।्`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `सश स्‍त् र ् बल्(आपात्कततव्य) अधिधियम,् 19 47`
+  line `( 19 47 ् का्अधिधियम्संखयांक 15 ) 1`
+  line `[ 20 ् मार्त,् 19 47 ]`
+  line `सश स्‍त् र ् बलों्पर्आपातकाल्में्अधिरोधपत्अत्यावश्क्`
+  line सेवाओं्के्सम्बन्ि्में्कततव्यों्को्करिे्के्
+  line वास्‍तते्समर्त्बिािे्के्धलए्
+  line अधिधियम
+  line `यत:् यह्समीर्ीि्है्कक् आपातकाल्में् 2 *** ् सश स्‍त् र ् बलों्पर्अत्यावश्यक्सेवाओं्के्सम्बन्ि्में्कततव्य्अधिरोधपत्करिे्के्`
+  line `धलए्समर्त्बिाया्जा ए;`
+  line `अतः् एत ् दद्वारा ् धिम्् ि धलधित्रूप्में्यह्अधिधियधमत्ककया्जाता्है: —`
+  line `1. संधि प्् त ् िाम् और् धवस्‍ततार — 3 *** ् इस् अधिधियम् का्संधि प्् त ् िाम्सश स्‍त् र ् बल्(आपात्कततव्य)् अधिधियम, ् 1947 ् है्।`
+  line `3 * * * *`
+  line `2.् सश स्‍त् र ् बल्के्आपात्कततव्य — ( 1 )्केन्रीय्सरकार्राजपर्में्अधिसूर्िा्द्वारा ् 4 [ ककसी्राज्य्में ] ् ककसी्धवधिर्दत ष्् ट ् सेवा्`
+  line की्बाबत्यह्घोधित्कर्सकेगी्कक्वह्समुदाय्के्धलए्अत्यावश्यक्महत्व्की्सेवा्हैः
+  line `परन्तु्ऐसी्अधिसूर्िा् प्रर् म ् बार्एक ् मास्तक्प्रवृत्त्रहेगी,्ककन्तु्यह्कालावधि्समय - समय्पर्वैसी्ही्अधिसूर्िा्द्वारा्`
+  line बढाई्जा्सकेगी्।
+  line `( 2 )् उपिारा् ( 1 )् के्अिीि् घोिणा् हो् जािे् पर् और् जब् तक् उसे् धविंधित् िहीं् ककया् जाता् है,् तब् तक् हर्व्य ध् त ् का्`
+  line `5 [ सेिा्अधिधियम,् 1950 ( 1950 का 46 )्या्वायु्सेवा्अधिधियम,् 1950 ( 1950 का 45 ) ] ् या् 6 *** ् 7 [ िौसेिा्अधिधियम,् 1957 ( 1957`
+  line `का 62 ) ] ् के् अिीि् रहते्हु ए् यह् कततव्य् होगा् कक् वह् घोिणा् में् धवधिर्दत ष्् ट ् सेवा् में् धियोज ि ् के्सम्बन्ि् में् या् उसके्बारे्में् ककसी्`
+  line `वरर ष्् ठ ् अधिकारी्द्वारा्कदए्गए्समादेश्का्पालि्करे,्और्ऐसे्हर्सामदेश्को्उ ् त ् अधिधिय मों्के्अर्त्में्और्प्रयोजिों्के्धलए्`
+  line `धवधिपूणत्समादेश्समझा्जाएगा्। ््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््््`
+  line `3.्कधतपय्भूतपूवत्समादेशों्का्धवधिमान्यकरण — ऐसी्ककसी्सेवा्में्धियोजि्के्सम्बन्ि ् में्या्उसके्बारे्में,्धजसे्केन्रीय्`
+  line `सरकार्राजपर्में्अधिसूर्िा्द्वारा्इस्धिधमत्त्धवधिर्दत ष्् ट ् करे,्जो्भी्समादेश्िारा् 2 की्उपिारा्( 2 )्में्धिर्दत ष्् ट ् ककसी्व्य ध् त ् को्`
+  line `ककसी्वरर ष्् ठ ् अधिकारी्द्वारा् 1946 ् के्धसतम्बर्के् 30 वें्कदि्के् प श््र् ा त ्और्इस्अधिधियम्के्प्रारम्भ्के्पूवत्कदया्गया्र्ा,्वह्उस्`
+  line `उपिारा्में्धिर्दत ष्् ट ् अधिधियमों्के्अर्त्में्और्उिके्प्रयोजिों्के्धलए्धवधिपूणत्समादेश्समझा्जाएगा,्ककन्तु्ककसी्व्य ध् त ् को्केवल्`
+  line `इसी्कारण्दधडित्िहीं्ककया्जाएगा्कक्उसिे्ऐसे्ककसी्समादेश्का्पालि्िहीं्ककया ् है्।`
+  line ______
+  line `1 धवलधयत्राज्य्(धवधियां)्अधिधियम, ् 1949 ् ( 1949 ् का् 59 )्की्िारा् 3 ् और्अिुसूर्ी्द्वारा्िए ् प्र ान्तों्और्धवलधयत्राज्यों्को; ् भाग्ग्राज्य्(धवधियां)्अधिधियम,्`
+  line `1950 ( 1950 का 30 )्की्िारा् 3 ् द्व ारा्मधणपुर,्धरपुरा्और्ववंध्य्प्रदेश्को; ् 1963 ् के्धवधियम्सं ० ् 7 की ् िारा् 3 ् और्अिुसूर्ी् 1 ् द्व ारा्( 1 - 10 - 1963 ् से) ् पाधडिर्ेरी्`
+  line `और् 1965 के्धवधियम्सं ० ् 8 ् की्िारा् 3 ् तर्ा्अिुसूर्ी्द्वारा् ( 1 - 10 - 19 87 ् से)्लिद्वीप्को; ् 1962 ् के्धवधियम्सं ० ् 12 ् की्िारा् 3 ् और्अिुसूर्ी्द्वारा्उपांतरणों्`
+  line `सधहत्गोवा,्दमण्और्दीव्को्और् 1963 ् के्धवधियम्सं ० ् 6 ् की्िारा् 2 ् और्अिुसूर्ी् 1 ् द्व ारा्( 1 - 7 - 1965 ् से)्दादरा्और्िागर्हवेली्को्धवस्‍तताररत्ककया्गया्।`
+  line `2 धवधि्अिुकूलि्आदेश,् 1950 ् द्व ारा् “ क्र ाउि्के ” ् शब्दों्का्लोप्ककया्गया्।`
+  line `3 1948 ् के्अधिधियम् 4 ् की्िारा् 2 ् द्व ारा् “ ( 1 ) ” ् को ष्् ट क्और्अंक्तर्ा्उपिारा्( 2 )्धिरधसत्की्गई्है्।्`
+  line `4 1951 ् के्अधिधिय म् 3 ् की्िारा् 3 ् और्अिुसूर्ी्द्वारा् “ ककसी्भाग्क्राज्य्या्ककसी्भाग्ग्राज्य्में्या,्यकद्भाग्ि्राज्य्द्वारा्ऐसा्अिुरोि्ककया्जाए्तो्उस्`
+  line `राज्य्में्की्ककसी्धवधिर्दतष्ट्सेवा्को ” ् के्स्‍तर्ाि्पर्प्रधतस्‍तर्ाधपत्।`
+  line `5 1951 ् के्अधिधियम् 3 ् की्िारा् 3 ् और्अिुसूर्ी्द्वारा् “ भारतीय्सेिा्अधि धियम,् 1911,्या्भारतीय्वायुसेिा्अधिधियम,् 1932” ् के्स्‍तर्ाि्पर्प्रधतस्‍तर्ाधपत्।`
+  line `6 धवधि्अिुकूलि्आदेश,् 1950 ् द्व ारा् “ िैवल्धिधसधप्लि्ऐट्उस्रूप्में्धजसमें्प्रर्म्अिुसूर्ी्में्कदया्गया्है, ” ् शब्द्धिरधसत्।`
+  line `7 1960 ् के्अधिधियम् 58 ् की्िारा् 3 ् और्अिुसूर्ी् 2 ् द्व ारा् “ कद्इंधियि्िे वी्(धिधसधप्लि)्ऐट,् 1934” ् के्स्‍तर्ाि्पर्प्रधतस्‍तर्ाधपत्।्`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line

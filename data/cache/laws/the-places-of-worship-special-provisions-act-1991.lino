@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:24:30.903Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1922`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 8)
-  (str totalSections) (int 8)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:24:30.903Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1922`
+  completeFetch true
+  maxSections null
+  sectionCount 8
+  totalSections 8
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-places-of-worship-special-provisions-act-1991)
-  (str handle) (str 1922)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Places of Worship (Special Provisions) Act, 1991`)
-  (str actNumber) (str 42)
-  (str enactmentDate) (str 1991-09-18)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1922`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `उपासना स्‍थल (विशेष उपबंध) अधिनियम, 1991`)
-  (str actYear) (str 1991)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act to prohibit conversion of any place of worship and to provide for the maintenance of the religious character of any place of worship as it existed on the 15th day of August, 1947, and for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 11-07-1991)
-  (str notification) (str `Ss. 3, 6 and 8 (18-09-1991)`)
-  (str fetchedAt) (str `2026-05-09T15:46:45.570Z`)
-  (str translations) obj_root_law_translations
+  slug the-places-of-worship-special-provisions-act-1991
+  handle (1922)
+  collectionHandle 123456789/1362
+  title `The Places of Worship (Special Provisions) Act, 1991`
+  actNumber (42)
+  enactmentDate 1991-09-18
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1922`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `उपासना स्‍थल (विशेष उपबंध) अधिनियम, 1991`
+  actYear (1991)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act to prohibit conversion of any place of worship and to provide for the maintenance of the religious character of any place of worship as it existed on the 15th day of August, 1947, and for matters connected therewith or incidental thereto.`
+  enforcementDate 11-07-1991
+  notification `Ss. 3, 6 and 8 (18-09-1991)`
+  fetchedAt `2026-05-09T15:46:45.570Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_places_of_worship_special_provisions_act_1991
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1922`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1922`
 obj_root_law_sources_en_the_places_of_worship_special_provisions_act_1991:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1922/1/A1991-42.pdf`)
-  (str title) (str `The Places of Worship (Special Provisions) Act, 1991`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1922/1/A1991-42.pdf`
+  title `The Places of Worship (Special Provisions) Act, 1991`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1991
 obj_root_law_sources_hi_1991:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1922/2/hH1991-42.pdf`)
-  (str title) (str `उपासना स्‍थल (विशेष उपबंध) अधिनियम, 1991`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1922/2/hH1991-42.pdf`
+  title `उपासना स्‍थल (विशेष उपबंध) अधिनियम, 1991`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -70,233 +60,274 @@ obj_root_law_sections:
   obj_root_law_sections_7
   obj_root_law_sections_8
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 39686)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Places of Worship
-(Special Provisions) Act, 1991.
-
-(2) It extends to the whole of India except the State of Jammu and Kashmir*.
-
-(3) The provisions of sections 3, 6 and 8 shall come into force at once and the remaining provisions of
-this Act shall be deemed to have come into force on the 11th day of July, 1991.`)
-  (str footnotes) (str `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39686&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00036_199142_1517807323144)
+  sectionId (39686)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39686&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00036_199142_1517807323144
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Places of Worship`
+  line `(Special Provisions) Act, 1991.`
+  line
+  line `(2) It extends to the whole of India except the State of Jammu and Kashmir*.`
+  line
+  line `(3) The provisions of sections 3, 6 and 8 shall come into force at once and the remaining provisions of`
+  line `this Act shall be deemed to have come into force on the 11th day of July, 1991.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 39687)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,—
-
-(a)“commencement of this Act” means the commencement of this Act on the 11th day of July, 1991;
-
-(b) “conversion”, with its grammatical variations, includes alteration or change of whatever nature;
-
-(c) “place of worship” means a temple, mosque, gurudwara, church, monastery or any other place of public religious worship of any religious denomination or any section thereof, by whatever name called.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39687&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00036_199142_1517807323144)
+  sectionId (39687)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39687&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00036_199142_1517807323144
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,—`
+  line
+  line `(a)“commencement of this Act” means the commencement of this Act on the 11th day of July, 1991;`
+  line
+  line `(b) “conversion”, with its grammatical variations, includes alteration or change of whatever nature;`
+  line
+  line `(c) “place of worship” means a temple, mosque, gurudwara, church, monastery or any other place of public religious worship of any religious denomination or any section thereof, by whatever name called.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 39688)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Bar of conversion of places of worship.`)
-  (str content) (str `No person shall convert any place of worship of any
-religious denomination or any section thereof into a place of worship of a different section of the same
-religious denomination or of a different religious denomination or any section thereof.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39688&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00036_199142_1517807323144)
+  sectionId (39688)
+  sectionNo (3)
+  orderNo 3
+  title `Bar of conversion of places of worship.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39688&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00036_199142_1517807323144
+obj_root_law_sections_3_content:
+  string
+  line `No person shall convert any place of worship of any`
+  line `religious denomination or any section thereof into a place of worship of a different section of the same`
+  line `religious denomination or of a different religious denomination or any section thereof.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 39693)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Declaration as to the religious character of certain places of worship and bar of jurisdiction of courts, etc.`)
-  (str content) (str `(1) It is hereby declared that the religious character of a place of worship existing on the
-15th day of August, 1947 shall continue to be the same as it existed on that day.
-
-(2) If, on the commencement of this Act, any suit, appeal or other proceeding with respect to the
-conversion of the religious character of any place of worship, existing on the 15th day of August, 1947, is
-pending before any court, tribunal or other authority, the same shall abate, and no suit, appeal or other
-proceeding with respect to any such matter shall lie on or after such commencement in any court, tribunal
-or other authority:
-
-Provided that if any suit, appeal or other proceeding, instituted or filed on the ground that conversion
-has taken place in the religious character of any such place after the 15th day of August, 1947, is pending
-on the commencement of this Act, such suit, appeal or other proceeding shall be disposed of in
-accordance with the provisions of sub-section (1).
-
-(3) Nothing contained in sub-section (1) and sub-section (2) shall apply to,—
-
-(a) any place of worship referred to in the said sub-sections which is an ancient and historical
-monument or an archaeological site or remains covered by the Ancient Monuments and
-Archaeological Sites and Remains Act, 1958 (24 of 1958) or any other law for the time being in
-force;
-
-(b) any suit, appeal or other proceeding, with respect to any matter referred to in sub-section (2),
-finally decided, settled or disposed of by a court, tribunal or other authority before the
-commencement of this Act;
-
-(c) any dispute with respect to any such matter settled by the parties amongst themselves before
-such commencement;
-
-(d) any conversion of any such place effected before such commencement by acquiescence;
-
-(e) any conversion of any such place effected before such commencement which is not liable to
-be challenged in any court, tribunal or other authority being barred by limitation under any law for the
-time being in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39693&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00036_199142_1517807323144)
+  sectionId (39693)
+  sectionNo (4)
+  orderNo 4
+  title `Declaration as to the religious character of certain places of worship and bar of jurisdiction of courts, etc.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39693&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00036_199142_1517807323144
+obj_root_law_sections_4_content:
+  string
+  line `(1) It is hereby declared that the religious character of a place of worship existing on the`
+  line `15th day of August, 1947 shall continue to be the same as it existed on that day.`
+  line
+  line `(2) If, on the commencement of this Act, any suit, appeal or other proceeding with respect to the`
+  line `conversion of the religious character of any place of worship, existing on the 15th day of August, 1947, is`
+  line `pending before any court, tribunal or other authority, the same shall abate, and no suit, appeal or other`
+  line `proceeding with respect to any such matter shall lie on or after such commencement in any court, tribunal`
+  line `or other authority:`
+  line
+  line `Provided that if any suit, appeal or other proceeding, instituted or filed on the ground that conversion`
+  line `has taken place in the religious character of any such place after the 15th day of August, 1947, is pending`
+  line `on the commencement of this Act, such suit, appeal or other proceeding shall be disposed of in`
+  line `accordance with the provisions of sub-section (1).`
+  line
+  line `(3) Nothing contained in sub-section (1) and sub-section (2) shall apply to,—`
+  line
+  line `(a) any place of worship referred to in the said sub-sections which is an ancient and historical`
+  line `monument or an archaeological site or remains covered by the Ancient Monuments and`
+  line `Archaeological Sites and Remains Act, 1958 (24 of 1958) or any other law for the time being in`
+  line force;
+  line
+  line `(b) any suit, appeal or other proceeding, with respect to any matter referred to in sub-section (2),`
+  line `finally decided, settled or disposed of by a court, tribunal or other authority before the`
+  line `commencement of this Act;`
+  line
+  line `(c) any dispute with respect to any such matter settled by the parties amongst themselves before`
+  line `such commencement;`
+  line
+  line `(d) any conversion of any such place effected before such commencement by acquiescence;`
+  line
+  line `(e) any conversion of any such place effected before such commencement which is not liable to`
+  line `be challenged in any court, tribunal or other authority being barred by limitation under any law for the`
+  line `time being in force.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 39690)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Act not to apply to Ram Janma Bhumi-Babri Masjid.`)
-  (str content) (str `Nothing contained in this Act shall
-apply to the place or place of worship commonly known as Ram Janma Bhumi-Babri Masjid situated in
-Ayodhya in the State of Uttar Pradesh and to any suit, appeal or other proceeding relating to the said place
-or place of worship.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39690&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00036_199142_1517807323144)
+  sectionId (39690)
+  sectionNo (5)
+  orderNo 5
+  title `Act not to apply to Ram Janma Bhumi-Babri Masjid.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39690&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00036_199142_1517807323144
+obj_root_law_sections_5_content:
+  string
+  line `Nothing contained in this Act shall`
+  line `apply to the place or place of worship commonly known as Ram Janma Bhumi-Babri Masjid situated in`
+  line `Ayodhya in the State of Uttar Pradesh and to any suit, appeal or other proceeding relating to the said place`
+  line `or place of worship.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 39691)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Punishment for contravention of section 3.`)
-  (str content) (str `(1) Whoever contravenes the provisions of section
-3 shall be punishable with imprisonment for a term which may extend to three years and shall also be
-liable to fine.
-
-(2) Whoever attempts to commit any offence punishable under sub-section (1) or to cause such
-offence to be committed and in such attempt does any act towards the commission of the offence shall be
-punishable with the punishment provided for the offence.
-
-(3) Whoever abets, or is a party to a criminal conspiracy to commit, an offence punishable under
-sub-section (1) shall, whether such offence be or be not committed in consequence of such abetment or in
-pursuance of such criminal conspiracy, and notwithstanding anything contained in section 116 of the
-Indian Penal Code (45 of 1860), be punishable with the punishment provided for the offence.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39691&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00036_199142_1517807323144)
+  sectionId (39691)
+  sectionNo (6)
+  orderNo 6
+  title `Punishment for contravention of section 3.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39691&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00036_199142_1517807323144
+obj_root_law_sections_6_content:
+  string
+  line `(1) Whoever contravenes the provisions of section`
+  line `3 shall be punishable with imprisonment for a term which may extend to three years and shall also be`
+  line `liable to fine.`
+  line
+  line `(2) Whoever attempts to commit any offence punishable under sub-section (1) or to cause such`
+  line `offence to be committed and in such attempt does any act towards the commission of the offence shall be`
+  line `punishable with the punishment provided for the offence.`
+  line
+  line `(3) Whoever abets, or is a party to a criminal conspiracy to commit, an offence punishable under`
+  line `sub-section (1) shall, whether such offence be or be not committed in consequence of such abetment or in`
+  line `pursuance of such criminal conspiracy, and notwithstanding anything contained in section 116 of the`
+  line `Indian Penal Code (45 of 1860), be punishable with the punishment provided for the offence.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 39692)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Act to override other enactments.`)
-  (str content) (str `The provisions of this Act shall have effect notwithstanding
-anything inconsistent therewith contained in any other law for the time being in force or any instrument
-having effect by virtue of any law other than this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39692&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_00036_199142_1517807323144)
+  sectionId (39692)
+  sectionNo (7)
+  orderNo 7
+  title `Act to override other enactments.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39692&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_00036_199142_1517807323144
+obj_root_law_sections_7_content:
+  string
+  line `The provisions of this Act shall have effect notwithstanding`
+  line `anything inconsistent therewith contained in any other law for the time being in force or any instrument`
+  line `having effect by virtue of any law other than this Act.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 39694)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str Repealed.)
-  (str content) (str `[Amendment of Act 43 of 1951.]—Rep. by the Repealing and Amending Act, 2001 (30 of 2001), s. 2 and the First Schedule (w.e.f. 3-9-2001).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39694&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_00036_199142_1517807323144)
+  sectionId (39694)
+  sectionNo (8)
+  orderNo 8
+  title Repealed.
+  content `[Amendment of Act 43 of 1951.]—Rep. by the Repealing and Amending Act, 2001 (30 of 2001), s. 2 and the First Schedule (w.e.f. 3-9-2001).`
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00036_199142_1517807323144&sectionId=39694&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_00036_199142_1517807323144
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `उपासना स्‍थल (विशेष उपबंध) अधिनियम, 1991`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1922/2/hH1991-42.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:24:29.801Z`)
-  (str pageCount) (int 2)
-  (str sections) obj_root_law_translations_hi_sections
+  title `उपासना स्‍थल (विशेष उपबंध) अधिनियम, 1991`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1922/2/hH1991-42.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:24:29.801Z`
+  pageCount 2
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `उपासना स् थ ल ( विशेष उपबंध ) अवधवनयम, 1991
-(1991 का अवधवनयम संखयां क 42 )
-[18 वसतंबर, 1991 ]
-ककसी उपासना स् थ ल का संपररिततन प्र वतवषद्ध करने के वलए
-और 15 अगस्त, 1947 को यथाविद्यमान ककसी उपासना स्
-थ ल के धार्मतक स् ि रू प को बनाए रखने
-तथा उससे संसक्त या उसके
-आनुषंवगक विषयों का
-उपबंध करने के वलए
-अवधवनयम
-भारत गणराज्य के बयालीसिें िषत में संसद् द्व ारा वनम्न वलवखत रू प में यह अवधवनयवमत हो: ––
-1. संविप्त नाम, विस्ता र और प्र ारंभ –– (1) इस अवधवनयम का संविप् त नाम उपासना स् थ ल ( विशेष उपबंध )
-अ वधवनयम, 1991 है।
-(2) इसका विस्ता र जम् मू - कश्मी र राज्य के वसिाय * सम्पू णत भारत पर है।
-(3) इस अवधवनयम की धारा 3, धारा 6 और धारा 8 के उपबंध तुरंत प्र िृत्त होंगे और इसके शेष उपबंध 11 जुलाई, 1991 को प्र
-िृत्त हु ए समझे जाएंगे।
-2. पररभाषाएं –– इस अवधवनयम में, जब तक कक संदभत से अन्य था अपेवित न हो, ––
-( क ) “ इस अवधवनयम का प्र ारंभ ” से 11 जुलाई, 1991 को इस अवधवनयम का प्र ारंभ अवभप्रेत है;
-( ख ) “ संपररिततन ” के अंतगतत, उसके व् या करवणक रू पभेदों संवहत, ककसी भी प्र कार का पररिततन या तब्दी ली है;
-( ग ) “ उपासना स् थ ल ” से कोई मंकदर, मवस्ज द, गुरु द्व ारा, वगर जाघर, मठ या ककसी धार्मतक संप्र दाय या उसके
-अनुभाग का, चाहे िह ककसी भी नाम से ज्ञ ात हो, लोक धार्मतक उपासना का कोई अन्य स् थ ल अवभप्रेत है।
-3. उपासना स् थ लों के संपररिततन का िजतन –– कोई भी व् य वक् त ककसी धार्मत क संप्र दाय या उसके ककसी अनुभाग के ककसी
-उपा सना स् थ ल का उसी धार्मतक संप्र दाय के वभन् न अनुभाग के या ककसी वभन् न धार्मतक संप्र दाय या उसके ककसी अनुभाग के उपासना स्
-थ ल में संपररिततन नहीं करेगा।
-4. कवतपय उपासना स् थ लों के धार्मतक स् ि रू प के बारे में घोषणा और न् या यालयों, आकद की अवधकाररता का िजतन –– (1) यह
-घोवषत ककया जाता है कक 15 अगस्त, 1947 को विद्यमान उपासना स् थ ल का धार्मतक स् ि रू प िैसा ही बना रहेगा जैसा िह उस कदन
-विद्यमान था।
-(2) यकद इस अवधवनयम के प्र ारंभ पर, 15 अगस्त, 1947 को विद्यमान ककसी उपासना स् थ ल के धार्मतक स् ि रू प के संपररिततन
-के बारे में कोई िाद, अपील या अन्य कायतिाही ककसी न् या यालय, अवधकरण या अन्य प्र ावधकारी के समि लवम्ब त है तो िह उपशवमत
-हो जाएगी और ऐसे ककसी मामले की बाबत कोई िाद, अपील या अन्य कायतिाही ऐसे प्र ारंभ पर या उसके पश्चा त् ककसी न् या यालय,
-अवधकरण या अन्य प्र ावधकारी के समि नहीं होगी:
-परंतु यकद इस आधार पर कक ऐसे ककसी स् थ ल के धार्मतक स् ि रू प में 15 अगस्त, 1947 के पश्चा त् संपररिततन हु आ है, संवस्थ त
-या फाइल ककया गया कोई िाद, अपील या अन्य कायतिाही इस अवधवनयम के प्र ारंभ पर लवम्ब त है, तो ऐसा िाद, अपील या अन्य
-कायतिाही इस प्र कार उपशवमत नहीं होगी और ऐसे प्रत् ये क िाद, अपील या अन्य कायतिाही का वनपटा रा उपधारा (1) के उपबंधों के
-अनुसार ककया जाएगा।
-(3) उपधारा (1) और उपधारा (2) की कोई बात वनम्न वलवखत को लागू नहीं होगी, ––
-( क ) उक्त उपधाराओं में वनर्दतष्ट कोई उपासना स् थ ल, जो प्र ाचीन संस्मा रक तथा पुरातत्िी य स् थ ल और अिशेष
-अवधवनयम, 1958 (1958 का 24) या तत्स मय प्र िृत्त ककसी अन्य विवध के अन्त गतत आने िाला कोई प्र ाचीन और ऐवतहावसक
-संस्मा रक या कोई पुरातत्िी य स् थ ल या अिशेष है;
-* इस अवधवनयम को जम्मू - कश्मीर संघ राज्यिेत्र और लद्दाख संघ राज्यिेत्र में अवधसूचना सं. सा. का. 3912 (अ), तारीख, 30 अक्टूबर, 2019 से लागू ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `उपासना स् थ ल ( विशेष उपबंध ) अवधवनयम, 1991`
+  line `(1991 का अवधवनयम संखयां क 42 )`
+  line `[18 वसतंबर, 1991 ]`
+  line `ककसी उपासना स् थ ल का संपररिततन प्र वतवषद्ध करने के वलए`
+  line `और 15 अगस्त, 1947 को यथाविद्यमान ककसी उपासना स्`
+  line `थ ल के धार्मतक स् ि रू प को बनाए रखने`
+  line `तथा उससे संसक्त या उसके`
+  line `आनुषंवगक विषयों का`
+  line `उपबंध करने के वलए`
+  line अवधवनयम
+  line `भारत गणराज्य के बयालीसिें िषत में संसद् द्व ारा वनम्न वलवखत रू प में यह अवधवनयवमत हो: ––`
+  line `1. संविप्त नाम, विस्ता र और प्र ारंभ –– (1) इस अवधवनयम का संविप् त नाम उपासना स् थ ल ( विशेष उपबंध )`
+  line `अ वधवनयम, 1991 है।`
+  line `(2) इसका विस्ता र जम् मू - कश्मी र राज्य के वसिाय * सम्पू णत भारत पर है।`
+  line `(3) इस अवधवनयम की धारा 3, धारा 6 और धारा 8 के उपबंध तुरंत प्र िृत्त होंगे और इसके शेष उपबंध 11 जुलाई, 1991 को प्र`
+  line `िृत्त हु ए समझे जाएंगे।`
+  line `2. पररभाषाएं –– इस अवधवनयम में, जब तक कक संदभत से अन्य था अपेवित न हो, ––`
+  line `( क ) “ इस अवधवनयम का प्र ारंभ ” से 11 जुलाई, 1991 को इस अवधवनयम का प्र ारंभ अवभप्रेत है;`
+  line `( ख ) “ संपररिततन ” के अंतगतत, उसके व् या करवणक रू पभेदों संवहत, ककसी भी प्र कार का पररिततन या तब्दी ली है;`
+  line `( ग ) “ उपासना स् थ ल ” से कोई मंकदर, मवस्ज द, गुरु द्व ारा, वगर जाघर, मठ या ककसी धार्मतक संप्र दाय या उसके`
+  line `अनुभाग का, चाहे िह ककसी भी नाम से ज्ञ ात हो, लोक धार्मतक उपासना का कोई अन्य स् थ ल अवभप्रेत है।`
+  line `3. उपासना स् थ लों के संपररिततन का िजतन –– कोई भी व् य वक् त ककसी धार्मत क संप्र दाय या उसके ककसी अनुभाग के ककसी`
+  line `उपा सना स् थ ल का उसी धार्मतक संप्र दाय के वभन् न अनुभाग के या ककसी वभन् न धार्मतक संप्र दाय या उसके ककसी अनुभाग के उपासना स्`
+  line `थ ल में संपररिततन नहीं करेगा।`
+  line `4. कवतपय उपासना स् थ लों के धार्मतक स् ि रू प के बारे में घोषणा और न् या यालयों, आकद की अवधकाररता का िजतन –– (1) यह`
+  line `घोवषत ककया जाता है कक 15 अगस्त, 1947 को विद्यमान उपासना स् थ ल का धार्मतक स् ि रू प िैसा ही बना रहेगा जैसा िह उस कदन`
+  line `विद्यमान था।`
+  line `(2) यकद इस अवधवनयम के प्र ारंभ पर, 15 अगस्त, 1947 को विद्यमान ककसी उपासना स् थ ल के धार्मतक स् ि रू प के संपररिततन`
+  line `के बारे में कोई िाद, अपील या अन्य कायतिाही ककसी न् या यालय, अवधकरण या अन्य प्र ावधकारी के समि लवम्ब त है तो िह उपशवमत`
+  line `हो जाएगी और ऐसे ककसी मामले की बाबत कोई िाद, अपील या अन्य कायतिाही ऐसे प्र ारंभ पर या उसके पश्चा त् ककसी न् या यालय,`
+  line `अवधकरण या अन्य प्र ावधकारी के समि नहीं होगी:`
+  line `परंतु यकद इस आधार पर कक ऐसे ककसी स् थ ल के धार्मतक स् ि रू प में 15 अगस्त, 1947 के पश्चा त् संपररिततन हु आ है, संवस्थ त`
+  line `या फाइल ककया गया कोई िाद, अपील या अन्य कायतिाही इस अवधवनयम के प्र ारंभ पर लवम्ब त है, तो ऐसा िाद, अपील या अन्य`
+  line `कायतिाही इस प्र कार उपशवमत नहीं होगी और ऐसे प्रत् ये क िाद, अपील या अन्य कायतिाही का वनपटा रा उपधारा (1) के उपबंधों के`
+  line `अनुसार ककया जाएगा।`
+  line `(3) उपधारा (1) और उपधारा (2) की कोई बात वनम्न वलवखत को लागू नहीं होगी, ––`
+  line `( क ) उक्त उपधाराओं में वनर्दतष्ट कोई उपासना स् थ ल, जो प्र ाचीन संस्मा रक तथा पुरातत्िी य स् थ ल और अिशेष`
+  line `अवधवनयम, 1958 (1958 का 24) या तत्स मय प्र िृत्त ककसी अन्य विवध के अन्त गतत आने िाला कोई प्र ाचीन और ऐवतहावसक`
+  line `संस्मा रक या कोई पुरातत्िी य स् थ ल या अिशेष है;`
+  line `* इस अवधवनयम को जम्मू - कश्मीर संघ राज्यिेत्र और लद्दाख संघ राज्यिेत्र में अवधसूचना सं. सा. का. 3912 (अ), तारीख, 30 अक्टूबर, 2019 से लागू ककया गया।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-( ख ) उपधारा (2) में वनर्दतष्ट ककसी मामले की बाबत कोई िाद, अपील या अन्य कायतिाही, वजसका इस अवधवनयम
-के प्र ारंभ के पूित ककसी न् या यालय, अवधकरण या अन्य प्र ावधकारी द्व ारा अंवतम रू प से विवनश्च य, पररवनधातरण या वनपटारा
-कर कदया गया है;
-( ग ) ऐसे ककसी मामले के बारे में कोई वििाद जो ऐसे प्र ारंभ के पूित पिकारों द्व ारा आपस में तय हो गया है;
-( घ ) ऐसे ककसी स् थ ल का कोई सं पररितत न जो ऐसे प्र ारंभ के पूित उपम वत द्व ारा ककया गया है;
-( ङ ) ऐसे प्र ारंभ के पूित ऐसे ककसी स् थ ल का ककया गया कोई संपररिततन, जो तत्स मय प्र िृत्त ककसी विवध के अधीन
-पररसीमा द्व ारा िर्जतत होने के कारण ककसी न् या यालय, अवधकरण या अन्य प्र ावधकारी के समि आिेपणीय नहीं है।
-5. अवधवनयम का राम जन् म भूवम - बाबरी मवस्ज द को लागू न होना –– इस अवधवनयम की कोई बात उत्तर प्र देश राज्य के
-अयोध्या में वस्थ त राम जन्म भूवम - बाब री मवस्ज द के रू प में सामान्य तया ज्ञ ात स् था न या उपासना स् थ ल को और उक्त स् था न या उपासना स्
-थ ल से संबंवधत ककसी िाद, अपील या अन्य कायतिाही को लागू नहीं होगी।
-6. धारा 3 के उल्लं घन के वलए दंड –– (1) जो कोई धारा 3 के उपबंधों का उल्लं घन करेगा, िह कारािास से, वजसकी अिवध
-तीन िषत तक ही हो सकेगी, दंडनीय होगा और जुमातने से भी दंडनीय होगा।
-(2) जो कोई उपधारा (1) के अधीन दंडनीय कोई अपराध करने का प्र यत्न करेगा या ऐसा अपराध कराएगा और ऐसे प्र यत्न में
-अपराध करने की कदशा में कोई कायत करेगा, िह उस अपराध के वलए उपबंवधत दंड से दंडनीय होगा।
-(3) जो कोई उपधारा (1) के अधीन दंडनीय ककसी अपराध का दुष् प्रे रण करेगा या उसे करने में आपरावधक षड्यं त्र का पिकार
-होगा, चाहे ऐसा अपराध ऐसी दुष् प्रे रणा के परर णामस्ि रू प या ऐसे आपरावधक षड्यं त्र के अनु सरण में ककया गया हो या न ककया गया
-हो, िह भारतीय दंड संवहता (1860 का 45) की धारा 116 में ककसी बात के होते हु ए भी, उस अपराध के वलए उपबंवधत दंड से दंड नीय
-होगा।
-7. अवधवनयम का अन्य अवधवनयवमवतयों पर अध्या रोही होना –– इस अवधवनयम के उपबंध, तत्स मय प्र िृत्त ककसी अन्य विवध
-या इस अवधवनयम से वभन् न ककसी विवध के आधार पर प्र भािी ककसी वलखत में उससे असंगत ककसी बात के होते हु ए भी, प्र भािी होंगे।
-1 * * * * * * *
-______
-1 2001 के अधीवनयम सं ० 30 की धारा 2 और पहली अनुसूची द्व ारा (3 - 9 - 2001 से) धारा 8 को वनरवसत ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `( ख ) उपधारा (2) में वनर्दतष्ट ककसी मामले की बाबत कोई िाद, अपील या अन्य कायतिाही, वजसका इस अवधवनयम`
+  line `के प्र ारंभ के पूित ककसी न् या यालय, अवधकरण या अन्य प्र ावधकारी द्व ारा अंवतम रू प से विवनश्च य, पररवनधातरण या वनपटारा`
+  line `कर कदया गया है;`
+  line `( ग ) ऐसे ककसी मामले के बारे में कोई वििाद जो ऐसे प्र ारंभ के पूित पिकारों द्व ारा आपस में तय हो गया है;`
+  line `( घ ) ऐसे ककसी स् थ ल का कोई सं पररितत न जो ऐसे प्र ारंभ के पूित उपम वत द्व ारा ककया गया है;`
+  line `( ङ ) ऐसे प्र ारंभ के पूित ऐसे ककसी स् थ ल का ककया गया कोई संपररिततन, जो तत्स मय प्र िृत्त ककसी विवध के अधीन`
+  line `पररसीमा द्व ारा िर्जतत होने के कारण ककसी न् या यालय, अवधकरण या अन्य प्र ावधकारी के समि आिेपणीय नहीं है।`
+  line `5. अवधवनयम का राम जन् म भूवम - बाबरी मवस्ज द को लागू न होना –– इस अवधवनयम की कोई बात उत्तर प्र देश राज्य के`
+  line `अयोध्या में वस्थ त राम जन्म भूवम - बाब री मवस्ज द के रू प में सामान्य तया ज्ञ ात स् था न या उपासना स् थ ल को और उक्त स् था न या उपासना स्`
+  line `थ ल से संबंवधत ककसी िाद, अपील या अन्य कायतिाही को लागू नहीं होगी।`
+  line `6. धारा 3 के उल्लं घन के वलए दंड –– (1) जो कोई धारा 3 के उपबंधों का उल्लं घन करेगा, िह कारािास से, वजसकी अिवध`
+  line `तीन िषत तक ही हो सकेगी, दंडनीय होगा और जुमातने से भी दंडनीय होगा।`
+  line `(2) जो कोई उपधारा (1) के अधीन दंडनीय कोई अपराध करने का प्र यत्न करेगा या ऐसा अपराध कराएगा और ऐसे प्र यत्न में`
+  line `अपराध करने की कदशा में कोई कायत करेगा, िह उस अपराध के वलए उपबंवधत दंड से दंडनीय होगा।`
+  line `(3) जो कोई उपधारा (1) के अधीन दंडनीय ककसी अपराध का दुष् प्रे रण करेगा या उसे करने में आपरावधक षड्यं त्र का पिकार`
+  line `होगा, चाहे ऐसा अपराध ऐसी दुष् प्रे रणा के परर णामस्ि रू प या ऐसे आपरावधक षड्यं त्र के अनु सरण में ककया गया हो या न ककया गया`
+  line `हो, िह भारतीय दंड संवहता (1860 का 45) की धारा 116 में ककसी बात के होते हु ए भी, उस अपराध के वलए उपबंवधत दंड से दंड नीय`
+  line होगा।
+  line `7. अवधवनयम का अन्य अवधवनयवमवतयों पर अध्या रोही होना –– इस अवधवनयम के उपबंध, तत्स मय प्र िृत्त ककसी अन्य विवध`
+  line `या इस अवधवनयम से वभन् न ककसी विवध के आधार पर प्र भािी ककसी वलखत में उससे असंगत ककसी बात के होते हु ए भी, प्र भािी होंगे।`
+  line `1 * * * * * * *`
+  line ______
+  line `1 2001 के अधीवनयम सं ० 30 की धारा 2 और पहली अनुसूची द्व ारा (3 - 9 - 2001 से) धारा 8 को वनरवसत ककया गया।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line

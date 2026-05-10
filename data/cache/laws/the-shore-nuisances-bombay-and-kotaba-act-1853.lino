@@ -1,188 +1,312 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:30:51.148Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19040`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 0)
-  (str totalSections) (int 0)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T17:42:51.211Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19040`
+  completeFetch true
+  maxSections null
+  sectionCount 3
+  totalSections 0
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-shore-nuisances-bombay-and-kotaba-act-1853)
-  (str handle) (str 19040)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Shore Nuisances (Bombay and Kotaba) Act, 1853`)
-  (str actNumber) (str 11)
-  (str enactmentDate) (str 1853-07-15)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19040`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `तट न्यूपसेंस (मुम्बई और कोलाबा) अधिनियम,1853`)
-  (str actYear) (str 1853)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act to facilitate the removal of Nuisances and Encroachments below High-water Mark in the Islands of Bombay and Colaba`)
-  (str enforcementDate) (str 15-07-1853)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T20:33:28.285Z`)
-  (str translations) obj_root_law_translations
+  slug the-shore-nuisances-bombay-and-kotaba-act-1853
+  handle (19040)
+  collectionHandle 123456789/1362
+  title `The Shore Nuisances (Bombay and Kotaba) Act, 1853`
+  actNumber (11)
+  enactmentDate 1853-07-15
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19040`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `तट न्यूपसेंस (मुम्बई और कोलाबा) अधिनियम,1853`
+  actYear (1853)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act to facilitate the removal of Nuisances and Encroachments below High-water Mark in the Islands of Bombay and Colaba`
+  enforcementDate 15-07-1853
+  notification undefined
+  fetchedAt `2026-05-10T11:30:51.148Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_shore_nuisances_bombay_and_kotaba_act_1853
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/19040`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/19040`
 obj_root_law_sources_en_the_shore_nuisances_bombay_and_kotaba_act_1853:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19040/1/a1853-11.pdf`)
-  (str title) (str `The Shore Nuisances (Bombay and Kotaba) Act, 1853`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19040/1/a1853-11.pdf`
+  title `The Shore Nuisances (Bombay and Kotaba) Act, 1853`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1853
 obj_root_law_sources_hi_1853:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19040/2/H1853-11.pdf`)
-  (str title) (str `तट न्यूपसेंस (मुम्बई और कोलाबा) अधिनियम,1853`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19040/2/H1853-11.pdf`
+  title `तट न्यूपसेंस (मुम्बई और कोलाबा) अधिनियम,1853`
 obj_root_law_sections:
-  array
+  obj_root_law_sections_1
+  obj_root_law_sections_2
+  obj_root_law_sections_3
+obj_root_law_sections_1:
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  sourcePage 1
+obj_root_law_sections_1_content:
+  string
+  line 1
+  line `THE SHORE NUISANCES (BOMBAY AND KOTABA) ACT, 1853`
+  line `A CT N O. XI OF 185 3`
+  line `[ Passed on the 1 5 th July, 185 3.]`
+  line `1. Empowers the Collector, & c. to require the removal of Nuisances, &c. in the harbor, &c. and in`
+  line `default to abate them himself.`
+  line `2, 3, 4, Authorizes the proprietor of the Nuisance on receipt of notice from Collector to apply by`
+  line `petition to Supreme Court, to stop proceedings of Collector, &c. ( 3 ) the onus probandi to lie on petitioner`
+  line `to prove his alleged right: (4) petition to be presented within a month, except under special`
+  line circumstances.
+  line `5. Prescribes mode of proceeding in case of no petition being presented or of petition being decided`
+  line `against petitioner.`
+  line `7. Empowers Collector to sell materials of encroachment.`
+  line `8. Save rights of E.I. Co. as trustees fo r the Crown, &c.`
+  line `9. Defines the term “high water mark.”`
+  line `Schedule. 1. Notice. 2. Warrant.`
+  line `An Act to facilitate the removal of Nuisances and Encroachments below High - water Mark in the Islands`
+  line `of Bombay and Colaba.`
+  line `Whereas there is a large sea - shore in the I slands of Bombay and C olaba, and it is expedient, with a`
+  line `view to the safe N avigation of the H arbour of Bombay, and to the public interests generally, to facilitate`
+  line `the removal of nuisances, obstructions and enroachments below high - water mark in the said H a rbour, or`
+  line `upon or about the shores of the said I slands; i t is enacted as follows: —`
+  line `I. It shall be lawful for the Collector of Land R evenue at Bombay to give notice requiring the`
+  line `removal of any nuisance, obstruction or encroachment anywhere below high - water mark in the said`
+  line `H arbour of Bombay, or upon or about the shore of the said I slands; such notice shall be given by affixing`
+  line `the same in some conspicuous place on or near to the encroachment, obstruction or nuisance complained`
+  line `of, and by publication thereof in th e Bombay Government Gazette, andshall State that, unless the`
+  line `nuisance, obstruction or encroachment be removed or abated within one month, the same will be removed`
+  line `or abated by the said Collector;such notice may be in the Form No. 1, in the Schedule to this Act annexed,`
+  line `or to the like effect.`
+  line `II. If any person shall deny the right of the said Collector to effect such abatement or removal, he`
+  line `shall, within one month after such notice shall have been given as aforesaid, apply to the Supreme Court`
+  line `of Judicature at Bombay by petition, setting forth the grounds of his alleged right and praying that the said`
+  line `Collector may be restrained f rom causing such abatement or removal; andthe said Court may thereupon`
+  line `(on the petitioner ’ s giving sufficient security for costs), fix a time for hearing and adjudicating upon such`
+  line `petition, and given such directions, and make such orders as the said Court may think just, and the said`
+  line `Court may also make an order for restraining the alleged nuisance, obstruction or encroachment from`
+  line `being extended, or from being abated or removed by the said Collector, until after adjudication upon the`
+  line `said petition, or the dismissal thereof for want of prosecution.`
+  line `III. Upon the hearing of every such petition, the onus of proving the alleged right shall be on the`
+  line petitioner.
+  line `IV. No person shall be allowed, after the expiration of such period of one month, to present any suc h`
+  line `petition as aforesaid, unless on satisfactory accounting to the said Court for the delay.`
+  line `V. If no such petition shall be presented within the said period of one month, or if the same be`
+  line `presented and determined against the right of the petitioner, or be dismissed for want of prosecution, it`
+  line `shall be lawful for the Collector to cause such abatement or removal as aforesaid, by any person or`
+  line `persons to be authorized by warrant under his hand, andsuch warrant may be in the Form No. 2 in the`
+  line `Schedule to this Act annexed, or to the like effect; and the said Collector, and any person acting under his`
+obj_root_law_sections_1_footnotes:
+  string
+  line
+obj_root_law_sections_2:
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  sourcePage 2
+obj_root_law_sections_2_content:
+  string
+  line 2
+  line `warrant, shall not be answerable for any damage unavoidably occasioned in the removal of any such`
+  line `nuisance, obstruction or encroachment.`
+  line `VI. The said Collector may s ell the materials of any encroachment or obstruction removed under this`
+  line `Act, and may apply the proceeds of sale in or towards payment of the expenses of the removal, and, if any`
+  line `surplus shall remain, the same be forfeited, and be paid and applied in such m anner as the Governor of`
+  line `Bombay in Council shall direct.`
+  line `VII. Nothing in this Act shall prejudice or affect the rights of the East India Company as trustees for`
+  line `the Crown in any part of the said H arbour, or of the sea - shore of the said I slands, or preclude or interfere`
+  line `with any such proceedings, civil or criminal, for abating such nuisances and encroachments as aforesaid,`
+  line `as might have been had if this Act had not been passed.`
+  line `VIII. The words “high - water mark” in this Act shall mean the ordinary line of high - water at monsoon`
+  line tides.
+  line ________
+obj_root_law_sections_2_footnotes:
+  string
+  line
+obj_root_law_sections_3:
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  sourcePage 3
+obj_root_law_sections_3_content:
+  string
+  line 3
+  line SCHEDULE
+  line `FORM NO. 1.`
+  line `Form No. 1.`
+  line `N OTICE is hereby given by the Collector of Land - revenue in Bombay, under Act XI. of 1853, that`
+  line `( describe the encroachment ) is to be removed or abated within one month from the date hereof; otherwise`
+  line `the same will be removed or abated by the said Collector under the authority of the said Act.Dated`
+  line `the day of in the year of our Lord`
+  line `( Signature of Collector. )`
+  line _________
+  line `Form No. 2.`
+  line `This W arrant, granted by the Collector of Lan d - revenue in Bombay, under Act XI. of 1853, is to`
+  line `authorize of to remove ( describe encroachment ).`
+  line `Dated ( Signature of Collector.)`
+  line ———
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `तट न्यूपसेंस (मुम्बई और कोलाबा) अधिनियम,1853`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/19040/2/H1853-11.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:30:50.046Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `तट न्यूपसेंस (मुम्बई और कोलाबा) अधिनियम,1853`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/19040/2/H1853-11.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:30:50.046Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `तट न् यू सेंस ( मुम्ब ई और कोलाबा ) अधिधियम, 1853
-_________
-िाराओं का क्र म
-_________
-िाराएं
-उद्देधिका।
-1. न् यू सेंस हटािे की सूचिा देिे की िधत। सूचिा देिे की पद्धधत। अन्त र् वस् तु एं। प्ररू प।
-2. न् यू सेन्स को हटािे के अधिकार से इंकार करिे र् ा ले व् य धत द्व ारा अर्जी। उस पर प्रक्रक्र या।
-3. अधिकार साधबत करिे का भार।
-4. अर्जी के धलए समय - सीमा।
-5. कलेट र न् यू सेन्स को कब हटर्ा सकेगा। र् ारंट का प्ररू प। संरक्षण।
-6. अधिक्रमण धर्षयक सामग्री का धर्क्रय करिे की िधत।
-7. सरकार के अधिकारों की व् या र्ृ धि।
-8. “ उ च्च त म - ज् र् ा र धच ह् ि ” की पररभाषा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `तट न् यू सेंस ( मुम्ब ई और कोलाबा ) अधिधियम, 1853`
+  line _________
+  line `िाराओं का क्र म`
+  line _________
+  line िाराएं
+  line उद्देधिका।
+  line `1. न् यू सेंस हटािे की सूचिा देिे की िधत। सूचिा देिे की पद्धधत। अन्त र् वस् तु एं। प्ररू प।`
+  line `2. न् यू सेन्स को हटािे के अधिकार से इंकार करिे र् ा ले व् य धत द्व ारा अर्जी। उस पर प्रक्रक्र या।`
+  line `3. अधिकार साधबत करिे का भार।`
+  line `4. अर्जी के धलए समय - सीमा।`
+  line `5. कलेट र न् यू सेन्स को कब हटर्ा सकेगा। र् ारंट का प्ररू प। संरक्षण।`
+  line `6. अधिक्रमण धर्षयक सामग्री का धर्क्रय करिे की िधत।`
+  line `7. सरकार के अधिकारों की व् या र्ृ धि।`
+  line `8. “ उ च्च त म - ज् र् ा र धच ह् ि ” की पररभाषा।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `1 तट न् यू सेंस ( मुम्ब ई और कोलाबा ) अधिधियम, 1853
-(1853 का अधिधियम संखयां क 11 )
-[15 र्जु लाई, 1853]
-मुम्ब ई और कोलाबा के द्व ीपों में उच्च तम - ज् र् ा र धच ह् ि के िीचे न्
-यू सेन्स और अधिक्रमण का हटाया र्ज ािा आ साि
-करिे के धलए
-अधिधियम
-उद्देधिका — मुम्ब ई और कोलाबा के द्व ीपों में एक बडा समुद्रतट है और मुम्ब ई के बन्द रगाह में सुरधक्षत िौपररर्हि की तथा
-सािारणतया सार्वर्जधिक धहत की दृधट से उ त बन्द रगाह में या उ त द्व ीपों के तटों पर या उिके आसपास उच्च तम - ज् र् ा र धच ह् ि के
-िीचे न् यू सेंसों, बािाओं और अधिक्रमणों का हटाया र्ज ािा आसाि करिा समीचीि है; अत: धिम्ि धलधित रू प में यह अधिधियधमत क्र
-कया र्ज ाता है: —
-1. न् यू सेंस हटािे की सूचिा देिे की िधत। सूचिा देिे की पद्धधत। अन्त र् वस् तु एं। प्ररू प — मुम्ब ई के भू - रार्जस् र् कलट र के
-धलए यह धर्धि सम्म त होगा क्र क र् ह ऐसी सूचिा दे धर्जसमें उ त मुम्ब ई के बन्द रगाह में अथर्ा उ त द्व ीपों के तटों पर या उ ि के आस -
-पास उच्च तम - ज् र् ा र धच ह् ि के िीचे कहीं पर भी क्र कसी न् यू सेन्स, बािा या अधिक्रमण के हटाए र्ज ािे की अपेक्षा की र्ज ाए; ऐसी सूचिा उस
-अधिक्रमण, बािा या न् यू सेन्स पर, या उसके आसपास धर्जसका क्र क पररर्ाद क्र कया गया है, क्र कसी सहर्जदृश्य स् था ि में उसे लगाकर, और
-2 [ िासकीय रार्जपत्र ] में उसे प्र काधित करके, दी र्ज ाएगी, और उसमें यह कहा र्ज ाएगा क्र क यक्रद उस न् यू सेन्स, बािा या अधिक्रमण को एक
-मास के अन्द र हटा या िहीं गया या समाप्त िहीं क्र कया गया, तो उत कलट र द्व ारा र् ह हटा क्र दया र्ज ाएगा या उसे समाप्त कर क्र दया र्ज
-ाएगा; ऐसी सूचिा इस अधिधियम से उपाबद्ध अिुसूची के प्ररू प सं ० 1 में या उसी आिय के प्ररू प में हो सकती है।
-2. न् यू सेन्स को हटािे के अधिकार से इंकार कर िे र् ाले व् य धत द्व ारा अर्जी। उस पर प्रक्रक्र या — यक्रद कोई व् य धत ऐसे समाप्त
-करिे या हटािे के उत कलट र से अधिकार से इंकार करे गा, तो र् ह यथापूर्ोत दी गई सूचिा के पश्चा त् एक मास के अन्द र मुम्ब ई में
-सुप्रीम कोटव ऑफ र्जु धिकेचर को अर्जी द्व ारा आर्ेदि करेगा, धर्जसमें र् ह अपिे अधभकधथत अधिकार के आिारों को बताते हु ए यह प्र ा थव िा
-करेगा क्र क इस प्र कार समाप्त करिे या हटािे से उ त कलट र को रोका र्ज ाए; और उ त कोटव तब ( िचों के धलए अर्जीदार द्व ारा पयावप्त प्र
-धतभूधत क्र दए र्ज ािे पर ) उस अर्जी की सुिर्ाई और उसके न् या यधिणवय के धलए समय धियत कर सकेगा तथा ऐसे धिदेि दे सकेगा और
-आदेि कर सकेगा धर्जन्हें र् ह न् या यसंगत समझे और उत कोटव अधभकधथत न् यू सेंस, बािा या अधिक्रमण को बढाए र्ज ािे से रोकिे अ थर्ा
-उ त कलट र द्व ारा उसे समाप्त करिे या हटािे से रोकिे का आदेि भी तब तक के धलए पाररत कर सकेगा र्ज ब तक क्र क उत अर्जी पर न्
-या यधिणवयि िहीं कर क्र दया र्ज ा ता या कारवर्ाई के अभार् में उसे िाररर्ज िहीं कर क्र दया र्ज ाता।
-3. अधिकार साधबत करिे का भार — प्रत् ये क ऐसी अर्जी की सुिर्ाई पर अधिकधथत अधिकार को साधबत करिे का भार
-अर्जीदार पर होगा।
-4. अर्जी के धलए समय - सीमा — ऐसी एक मास की अर्धि की समाधप्त के पश्चा त् क्र कसी भी व् य धत को यथापूर्ोत कोई अर्जी प्रस्
-तु त करिे के धलए तब तक अिुज्ञात िहीं क्र कया र्ज ाएगा र्ज ब तक धर्ल म् ब के धलए उत न् या यालय को समािा िप्रद कारण िहीं बता क्र
-दया र्ज ाता।
-5. कलेट र न् यू सेन्स को कब हटर्ा सकेगा। र् ारंट का प्ररू प। संरक्षण — यक्रद उ त एक मास की अर्धि के अन्द र कोई अर्जी प्रस्
-तु त िहीं की र्ज ाती है, या यक्रद र् ह प्रस् तु त की र्ज ाती है औ र अर्जीदार के अधिकार के धर्रुद्ध अर्िाररत की र्ज ाती है, या कारवर्ाई के
-अभार् में िाररर्ज कर दी र्ज ाती है, तो कलट र के धलए यह धर्धि सम्म त होगा क्र क र् ह क्र कसी व् य धत या क्र कन्हीं व् य धत यों द्व ारा, धर्जन्हें
-उसके स् र् हस्ता क्ष ररत र् ारण्ट द्व ारा प्र ाधिकृत क्र कया र्ज ाएगा, यथापूर्ोत समाधप्त कराए या हटर्ाए, और ऐसा र् ारण्ट इस अधिधियम से
-उपाबद्ध अिुसूची के प्ररू प सं ० 2 में अथर्ा उसी आिय के प्ररू प में हो सकेगा, और उ त कलट र, तथा उसके र् ा रण्ट के अिीि कायव
-करिे र् ाला कोई व् य धत क्र कसी ऐसे न् यू सेंस, बािा या अधिक्रमण को हटािे में अपररर्र्जविीय रू प से हु ए क्र कसी िुकसाि के धलए
-उिर दायी िहीं होगा।
-6. अधिक्रमण धर्षयक सामग्री का धर्क्रय करिे की िधत — उ त कलट र इस अधिधियम के अिीि हटाए गए क्र कसी
-अधिक्रमण या बािा धर्षयक सामग्री का धर्क्रय कर सकेगा, और धर्क्रय के आगमों को, हटाए र्ज ािे के व् य यों के संदाय में या उ ि के मद्धे प्र
-युत कर सकेगा तथा यक्रद कोई अधतिेष बच रहा तो र् ह सम प हृ त कर धलया र्ज ाएगा और ऐसी रीधत से संदि और प्र युत क्र कया र्ज
-ाएगा र्जै सी 3 [ केन् द्री य सरकार ] धिर्दवट करे।
-1 संधक्षप्त िाम, बा म् बे िाटव टाइटल्स ऐ ट, 1921 (1921 का मुम्ब ई अधिधियम सं ० 2) द्व ारा क्र दया गया।
-यह अधिधियम, र्ज हां तक इसका संबंि बािाओं, अडचिों या लोक न् यू सेन्स को दूर करिा है, धर्जससे मुम्ब ई पिि के िौ पररर्हि पर प्र भार् पडता हो या प्र
-भार् पडिा संभाव्य हो, 1855 के अधिधियम सं ० 22 की िारा 2 द्व ारा धिरधसत।
-2 भारत िासि ( भारतीय धर्धि अिुकूलि ) आदेि, 1937 द्व ारा “ मुम्ब ई का िासकीय रार्जपत्र ” के स् था ि पर प्र धतस्था धपत।
-3 भारत िासि ( भारतीय धर्धि अिुकूलि ) आदेि, 1937 द्व ारा “ बाम्बे गर्िवमेन्ट गर्जट ” के स् था ि पर प्र धतस्था धप त।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line `1 तट न् यू सेंस ( मुम्ब ई और कोलाबा ) अधिधियम, 1853`
+  line `(1853 का अधिधियम संखयां क 11 )`
+  line `[15 र्जु लाई, 1853]`
+  line `मुम्ब ई और कोलाबा के द्व ीपों में उच्च तम - ज् र् ा र धच ह् ि के िीचे न्`
+  line `यू सेन्स और अधिक्रमण का हटाया र्ज ािा आ साि`
+  line `करिे के धलए`
+  line अधिधियम
+  line `उद्देधिका — मुम्ब ई और कोलाबा के द्व ीपों में एक बडा समुद्रतट है और मुम्ब ई के बन्द रगाह में सुरधक्षत िौपररर्हि की तथा`
+  line `सािारणतया सार्वर्जधिक धहत की दृधट से उ त बन्द रगाह में या उ त द्व ीपों के तटों पर या उिके आसपास उच्च तम - ज् र् ा र धच ह् ि के`
+  line `िीचे न् यू सेंसों, बािाओं और अधिक्रमणों का हटाया र्ज ािा आसाि करिा समीचीि है; अत: धिम्ि धलधित रू प में यह अधिधियधमत क्र`
+  line `कया र्ज ाता है: —`
+  line `1. न् यू सेंस हटािे की सूचिा देिे की िधत। सूचिा देिे की पद्धधत। अन्त र् वस् तु एं। प्ररू प — मुम्ब ई के भू - रार्जस् र् कलट र के`
+  line `धलए यह धर्धि सम्म त होगा क्र क र् ह ऐसी सूचिा दे धर्जसमें उ त मुम्ब ई के बन्द रगाह में अथर्ा उ त द्व ीपों के तटों पर या उ ि के आस -`
+  line `पास उच्च तम - ज् र् ा र धच ह् ि के िीचे कहीं पर भी क्र कसी न् यू सेन्स, बािा या अधिक्रमण के हटाए र्ज ािे की अपेक्षा की र्ज ाए; ऐसी सूचिा उस`
+  line `अधिक्रमण, बािा या न् यू सेन्स पर, या उसके आसपास धर्जसका क्र क पररर्ाद क्र कया गया है, क्र कसी सहर्जदृश्य स् था ि में उसे लगाकर, और`
+  line `2 [ िासकीय रार्जपत्र ] में उसे प्र काधित करके, दी र्ज ाएगी, और उसमें यह कहा र्ज ाएगा क्र क यक्रद उस न् यू सेन्स, बािा या अधिक्रमण को एक`
+  line `मास के अन्द र हटा या िहीं गया या समाप्त िहीं क्र कया गया, तो उत कलट र द्व ारा र् ह हटा क्र दया र्ज ाएगा या उसे समाप्त कर क्र दया र्ज`
+  line `ाएगा; ऐसी सूचिा इस अधिधियम से उपाबद्ध अिुसूची के प्ररू प सं ० 1 में या उसी आिय के प्ररू प में हो सकती है।`
+  line `2. न् यू सेन्स को हटािे के अधिकार से इंकार कर िे र् ाले व् य धत द्व ारा अर्जी। उस पर प्रक्रक्र या — यक्रद कोई व् य धत ऐसे समाप्त`
+  line `करिे या हटािे के उत कलट र से अधिकार से इंकार करे गा, तो र् ह यथापूर्ोत दी गई सूचिा के पश्चा त् एक मास के अन्द र मुम्ब ई में`
+  line `सुप्रीम कोटव ऑफ र्जु धिकेचर को अर्जी द्व ारा आर्ेदि करेगा, धर्जसमें र् ह अपिे अधभकधथत अधिकार के आिारों को बताते हु ए यह प्र ा थव िा`
+  line `करेगा क्र क इस प्र कार समाप्त करिे या हटािे से उ त कलट र को रोका र्ज ाए; और उ त कोटव तब ( िचों के धलए अर्जीदार द्व ारा पयावप्त प्र`
+  line `धतभूधत क्र दए र्ज ािे पर ) उस अर्जी की सुिर्ाई और उसके न् या यधिणवय के धलए समय धियत कर सकेगा तथा ऐसे धिदेि दे सकेगा और`
+  line `आदेि कर सकेगा धर्जन्हें र् ह न् या यसंगत समझे और उत कोटव अधभकधथत न् यू सेंस, बािा या अधिक्रमण को बढाए र्ज ािे से रोकिे अ थर्ा`
+  line `उ त कलट र द्व ारा उसे समाप्त करिे या हटािे से रोकिे का आदेि भी तब तक के धलए पाररत कर सकेगा र्ज ब तक क्र क उत अर्जी पर न्`
+  line `या यधिणवयि िहीं कर क्र दया र्ज ा ता या कारवर्ाई के अभार् में उसे िाररर्ज िहीं कर क्र दया र्ज ाता।`
+  line `3. अधिकार साधबत करिे का भार — प्रत् ये क ऐसी अर्जी की सुिर्ाई पर अधिकधथत अधिकार को साधबत करिे का भार`
+  line `अर्जीदार पर होगा।`
+  line `4. अर्जी के धलए समय - सीमा — ऐसी एक मास की अर्धि की समाधप्त के पश्चा त् क्र कसी भी व् य धत को यथापूर्ोत कोई अर्जी प्रस्`
+  line `तु त करिे के धलए तब तक अिुज्ञात िहीं क्र कया र्ज ाएगा र्ज ब तक धर्ल म् ब के धलए उत न् या यालय को समािा िप्रद कारण िहीं बता क्र`
+  line `दया र्ज ाता।`
+  line `5. कलेट र न् यू सेन्स को कब हटर्ा सकेगा। र् ारंट का प्ररू प। संरक्षण — यक्रद उ त एक मास की अर्धि के अन्द र कोई अर्जी प्रस्`
+  line `तु त िहीं की र्ज ाती है, या यक्रद र् ह प्रस् तु त की र्ज ाती है औ र अर्जीदार के अधिकार के धर्रुद्ध अर्िाररत की र्ज ाती है, या कारवर्ाई के`
+  line `अभार् में िाररर्ज कर दी र्ज ाती है, तो कलट र के धलए यह धर्धि सम्म त होगा क्र क र् ह क्र कसी व् य धत या क्र कन्हीं व् य धत यों द्व ारा, धर्जन्हें`
+  line `उसके स् र् हस्ता क्ष ररत र् ारण्ट द्व ारा प्र ाधिकृत क्र कया र्ज ाएगा, यथापूर्ोत समाधप्त कराए या हटर्ाए, और ऐसा र् ारण्ट इस अधिधियम से`
+  line `उपाबद्ध अिुसूची के प्ररू प सं ० 2 में अथर्ा उसी आिय के प्ररू प में हो सकेगा, और उ त कलट र, तथा उसके र् ा रण्ट के अिीि कायव`
+  line `करिे र् ाला कोई व् य धत क्र कसी ऐसे न् यू सेंस, बािा या अधिक्रमण को हटािे में अपररर्र्जविीय रू प से हु ए क्र कसी िुकसाि के धलए`
+  line `उिर दायी िहीं होगा।`
+  line `6. अधिक्रमण धर्षयक सामग्री का धर्क्रय करिे की िधत — उ त कलट र इस अधिधियम के अिीि हटाए गए क्र कसी`
+  line `अधिक्रमण या बािा धर्षयक सामग्री का धर्क्रय कर सकेगा, और धर्क्रय के आगमों को, हटाए र्ज ािे के व् य यों के संदाय में या उ ि के मद्धे प्र`
+  line `युत कर सकेगा तथा यक्रद कोई अधतिेष बच रहा तो र् ह सम प हृ त कर धलया र्ज ाएगा और ऐसी रीधत से संदि और प्र युत क्र कया र्ज`
+  line `ाएगा र्जै सी 3 [ केन् द्री य सरकार ] धिर्दवट करे।`
+  line `1 संधक्षप्त िाम, बा म् बे िाटव टाइटल्स ऐ ट, 1921 (1921 का मुम्ब ई अधिधियम सं ० 2) द्व ारा क्र दया गया।`
+  line `यह अधिधियम, र्ज हां तक इसका संबंि बािाओं, अडचिों या लोक न् यू सेन्स को दूर करिा है, धर्जससे मुम्ब ई पिि के िौ पररर्हि पर प्र भार् पडता हो या प्र`
+  line `भार् पडिा संभाव्य हो, 1855 के अधिधियम सं ० 22 की िारा 2 द्व ारा धिरधसत।`
+  line `2 भारत िासि ( भारतीय धर्धि अिुकूलि ) आदेि, 1937 द्व ारा “ मुम्ब ई का िासकीय रार्जपत्र ” के स् था ि पर प्र धतस्था धपत।`
+  line `3 भारत िासि ( भारतीय धर्धि अिुकूलि ) आदेि, 1937 द्व ारा “ बाम्बे गर्िवमेन्ट गर्जट ” के स् था ि पर प्र धतस्था धप त।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `2
-7. सरकार के अधिकारों की व् या र्ृ धि — इस अधिधियम की कोई बात उ त बन्द रगाह के या उ त द्व ीपों के स मुद्रतट के क्र कसी
-भाग में 1 *** सरकार के अधिकारों पर प्र धतकूल प्र भार् िहीं िालेगी और ि ही पूर्ोत प्र कार के न् यू सेंसों और अधिक्रमणों को समाप्त
-करिे के धलए क्र कसी ऐसी धसधर्ल या दाधण्ि क प्रक्रक्र या को प्र चाररत करेगी या उसमें हस्त क्षे प करेगी र्जै सी इस अधिधियम के पाररत ि क्र
-कए र्ज ािे की दिा में की र्ज ा सकती।
-8. “ उ च्च त म - ज् र् ा र धच ह् ि ” की पररभाषा — इस अधिधियम में “ उच् च्त म - ज् र् ा र धच ह् ि ” िब्दों से मािसूि ज् र् ा र पर उच्च तम - ज् र्
-ा र की सामान्य रेिा अधभप्रेत हो गी।
-अिुसूची प्ररू
-प सं ० 1
-मुम्ब ई में भू - रार्जस् र् कलट र द्व ारा 1853 के अधिधियम सं ० 11 के अिीि इसके द्व ारा सूचिा दी र्ज ाती है क्र क ( अधिक्रमण का र् णवि
-कीधर्जए ) इसकी तारीि से एक मास के अन्द र हटाया र्ज ा िा है या समाप्त क्र कया र्ज ािा है, अन्य था उसे उ त अधिधियम के प्र ाधिकार के
-अिीि उ त कलट र द्व ारा हटा क्र दया र्ज ाएगा या समाप्त कर क्र दया र्ज ाएगा।
-तारीि
-( कलट र के हस्ता क्ष र ) प्र रू
-प सं ० 2
-मुम्ब ई में भू - रार्जस् र् कलट र द्व ारा 1853 के अधिधियम सं ० 11 के अिीि क्र दया गया र् ारंट............ के............ को ( अधिक्रम ण का र्
-णवि कीधर्जए ) हटािे के धलए प्र ाधिकृत करिे के र् ास्ते है।
-तारीि
-( कलट र के हस्ता क्ष र )
-_______
-1 1870 के अधिधियम सं ० 14 की िारा 1 और अिुसूची भाग 2 द्व ारा “ की न् यासी के रू प में ईस्ट इंधिया कंपिी ” िब्द धिरधसत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 2
+  line `7. सरकार के अधिकारों की व् या र्ृ धि — इस अधिधियम की कोई बात उ त बन्द रगाह के या उ त द्व ीपों के स मुद्रतट के क्र कसी`
+  line `भाग में 1 *** सरकार के अधिकारों पर प्र धतकूल प्र भार् िहीं िालेगी और ि ही पूर्ोत प्र कार के न् यू सेंसों और अधिक्रमणों को समाप्त`
+  line `करिे के धलए क्र कसी ऐसी धसधर्ल या दाधण्ि क प्रक्रक्र या को प्र चाररत करेगी या उसमें हस्त क्षे प करेगी र्जै सी इस अधिधियम के पाररत ि क्र`
+  line `कए र्ज ािे की दिा में की र्ज ा सकती।`
+  line `8. “ उ च्च त म - ज् र् ा र धच ह् ि ” की पररभाषा — इस अधिधियम में “ उच् च्त म - ज् र् ा र धच ह् ि ” िब्दों से मािसूि ज् र् ा र पर उच्च तम - ज् र्`
+  line `ा र की सामान्य रेिा अधभप्रेत हो गी।`
+  line `अिुसूची प्ररू`
+  line `प सं ० 1`
+  line `मुम्ब ई में भू - रार्जस् र् कलट र द्व ारा 1853 के अधिधियम सं ० 11 के अिीि इसके द्व ारा सूचिा दी र्ज ाती है क्र क ( अधिक्रमण का र् णवि`
+  line `कीधर्जए ) इसकी तारीि से एक मास के अन्द र हटाया र्ज ा िा है या समाप्त क्र कया र्ज ािा है, अन्य था उसे उ त अधिधियम के प्र ाधिकार के`
+  line `अिीि उ त कलट र द्व ारा हटा क्र दया र्ज ाएगा या समाप्त कर क्र दया र्ज ाएगा।`
+  line तारीि
+  line `( कलट र के हस्ता क्ष र ) प्र रू`
+  line `प सं ० 2`
+  line `मुम्ब ई में भू - रार्जस् र् कलट र द्व ारा 1853 के अधिधियम सं ० 11 के अिीि क्र दया गया र् ारंट............ के............ को ( अधिक्रम ण का र्`
+  line `णवि कीधर्जए ) हटािे के धलए प्र ाधिकृत करिे के र् ास्ते है।`
+  line तारीि
+  line `( कलट र के हस्ता क्ष र )`
+  line _______
+  line `1 1870 के अधिधियम सं ० 14 की िारा 1 और अिुसूची भाग 2 द्व ारा “ की न् यासी के रू प में ईस्ट इंधिया कंपिी ” िब्द धिरधसत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

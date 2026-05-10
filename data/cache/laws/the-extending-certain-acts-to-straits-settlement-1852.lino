@@ -1,53 +1,79 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T20:14:05.265Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19543`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 0)
-  (str totalSections) (int 0)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T17:42:43.286Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19543`
+  completeFetch true
+  maxSections null
+  sectionCount 1
+  totalSections 0
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-extending-certain-acts-to-straits-settlement-1852)
-  (str handle) (str 19543)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Extending certain Acts to Straits Settlement , 1852`)
-  (str actNumber) (str 14)
-  (str enactmentDate) (str 1852-02-27)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19543`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1852)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act extending the provisions of Acts XXIV. of 1841. and XVII. of 1843, to the Straits settlement.`)
-  (str enforcementDate) (undefined)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T20:14:05.265Z`)
+  slug the-extending-certain-acts-to-straits-settlement-1852
+  handle (19543)
+  collectionHandle 123456789/1362
+  title `The Extending certain Acts to Straits Settlement , 1852`
+  actNumber (14)
+  enactmentDate 1852-02-27
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19543`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1852)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act extending the provisions of Acts XXIV. of 1841. and XVII. of 1843, to the Straits settlement.`
+  enforcementDate undefined
+  notification undefined
+  fetchedAt `2026-05-09T20:14:05.265Z`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_extending_certain_acts_to_straits_settlement_1852
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/19543`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/19543`
 obj_root_law_sources_en_the_extending_certain_acts_to_straits_settlement_1852:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19543/1/a1852-14.pdf`)
-  (str title) (str `The Extending certain Acts to Straits Settlement , 1852`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19543/1/a1852-14.pdf`
+  title `The Extending certain Acts to Straits Settlement , 1852`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
+  obj_root_law_sections_1
+obj_root_law_sections_1:
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  sourcePage 1
+obj_root_law_sections_1_content:
+  string
+  line `STRAITS SETTLEMENTS.`
+  line `A CT No.XIV. OF 1852.`
+  line `[ Passed on the 2 7 th February,1852. ]`
+  line `1. Extending Acts 24,1841 and 17,1843 to Straits Settlements.`
+  line `2. Extending provisions of above Acts relating to Supreme Court to Court of Judicature of Straits`
+  line Settlements.
+  line `An Act for extending the provisions of Acts XXIV.of 1841. and XVII. of 1843, to the Straits`
+  line Settlement.
+  line `Whereas doubts have bee n entertained whether Acts XXIV. of 1841. and XVII. of 1843, are in`
+  line `forc e in the Settlement of Prince of Wales’ Islands, Singapore and Malacca; It is hereby enacted as`
+  line `follows:`
+  line `I. The Provisions of Acts XXIV. of 1841, and XVII. of 1843, shall be applicable and in force in the`
+  line `said Settlement.`
+  line `II. All provisions contained in Act XXIV. of 1841, and Act XVII. of 1843, relating to Her`
+  line `Majesty’s Supreme Courts shall be applicable to the Court of Judicature of the said Settlement, and`
+  line `shall b e respectively construed as, if, instead of the words Her Majes ty’s Supreme Courts, or Her`
+  line `Majesty’s Supreme Courts of the repective presidencies, or the Supreme Court of each of the`
+  line `Presidencies, the words, “the Court of Judicature of prince of Wales’ Island, Singapore and Malacca,”`
+  line `had been therein mentioned.`
+obj_root_law_sections_1_footnotes:
+  string
+  line

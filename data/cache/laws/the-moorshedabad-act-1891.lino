@@ -1,53 +1,45 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T15:53:14.342Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2320`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-09T15:53:14.342Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2320`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-moorshedabad-act-1891)
-  (str handle) (str 2320)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Moorshedabad Act, 1891`)
-  (str actNumber) (str 15)
-  (str enactmentDate) (str 1891-03-21)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2320`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1891)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act to confirm and give effect to an Indenture between the Secretary of State and the Nawab Bahadoor of Moorshedabad, Amir-ul-Omrah.`)
-  (str enforcementDate) (str 21-03-1891)
-  (str notification) (undefined)
+  slug the-moorshedabad-act-1891
+  handle (2320)
+  collectionHandle 123456789/1362
+  title `The Moorshedabad Act, 1891`
+  actNumber (15)
+  enactmentDate 1891-03-21
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2320`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1891)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act to confirm and give effect to an Indenture between the Secretary of State and the Nawab Bahadoor of Moorshedabad, Amir-ul-Omrah.`
+  enforcementDate 21-03-1891
+  notification undefined
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_moorshedabad_act_1891
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2320`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2320`
 obj_root_law_sources_en_the_moorshedabad_act_1891:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2320/1/A1891-15.pdf`)
-  (str title) (str `The Moorshedabad Act, 1891`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2320/1/A1891-15.pdf`
+  title `The Moorshedabad Act, 1891`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -55,83 +47,113 @@ obj_root_law_sections:
   obj_root_law_sections_5
   obj_root_law_sections_6
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 43410)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Title and commencement.`)
-  (str content) (str `(1) This Act may be called the Moorshedabad Act, 1891; and
-
-(2) It shall come into force at once.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43410&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00062_189115_1523336259308)
+  sectionId (43410)
+  sectionNo (1)
+  orderNo 1
+  title `Title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43410&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00062_189115_1523336259308
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Moorshedabad Act, 1891; and`
+  line
+  line `(2) It shall come into force at once.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 43411)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Confirmation of indenture of March, 1891.`)
-  (str content) (str `The said indenture is hereby
-confirmed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43411&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00062_189115_1523336259308)
+  sectionId (43411)
+  sectionNo (2)
+  orderNo 2
+  title `Confirmation of indenture of March, 1891.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43411&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00062_189115_1523336259308
+obj_root_law_sections_2_content:
+  string
+  line `The said indenture is hereby`
+  line confirmed.
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 43412)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Additions to schedule to indenture.`)
-  (str content) (str `(1) The Governor General in Council, by
-notification in the Gazette of India, may in his discretion, on the written request of the Nawab
-Bahadoor of Moorshedabad for the time being, add, in such form as the Governor General in Council
-may think fit, to the schedules of immoveable property which are annexed to the said indenture any
-additional immoveable property which may be acquired from time to time for the maintenance of the
-position and dignity of the Nawab Bahadoor of Moorshedabad for the time being.
-
-(2) No such notification as is referred to in sub-section (1) shall be made without such previous
-publication as would be necessary under section 6 of the General Clauses Act, 1887, in the case of a
-rule to be made under an enactment to which that section applies.
-
-(3) The publication in the Gazette of India of such a notification, as having been made by the
-Governor General in Council, shall, subject to any further order of the Governor General in Council,
-be conclusive proof with respect to the subject-matter of the notification.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43412&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00062_189115_1523336259308)
+  sectionId (43412)
+  sectionNo (3)
+  orderNo 3
+  title `Additions to schedule to indenture.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43412&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00062_189115_1523336259308
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Governor General in Council, by`
+  line `notification in the Gazette of India, may in his discretion, on the written request of the Nawab`
+  line `Bahadoor of Moorshedabad for the time being, add, in such form as the Governor General in Council`
+  line `may think fit, to the schedules of immoveable property which are annexed to the said indenture any`
+  line `additional immoveable property which may be acquired from time to time for the maintenance of the`
+  line `position and dignity of the Nawab Bahadoor of Moorshedabad for the time being.`
+  line
+  line `(2) No such notification as is referred to in sub-section (1) shall be made without such previous`
+  line `publication as would be necessary under section 6 of the General Clauses Act, 1887, in the case of a`
+  line `rule to be made under an enactment to which that section applies.`
+  line
+  line `(3) The publication in the Gazette of India of such a notification, as having been made by the`
+  line `Governor General in Council, shall, subject to any further order of the Governor General in Council,`
+  line `be conclusive proof with respect to the subject-matter of the notification.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 43413)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Limitation for claims to scheduled immoveable property.`)
-  (str content) (str `No right to any
-immoveable property mentioned in any of the schedules to the said indenture, or in any addition
-which under the last foregoing section may from time to time be made to those schedules or any of
-them, shall, if the right has not accrued before the passing of this Act, be acquired by any person by
-adverse possession or assertion of title unless such adverse possession or assertion of title is found to
-have existed for sixty years.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43413&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00062_189115_1523336259308)
+  sectionId (43413)
+  sectionNo (4)
+  orderNo 4
+  title `Limitation for claims to scheduled immoveable property.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43413&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00062_189115_1523336259308
+obj_root_law_sections_4_content:
+  string
+  line `No right to any`
+  line `immoveable property mentioned in any of the schedules to the said indenture, or in any addition`
+  line `which under the last foregoing section may from time to time be made to those schedules or any of`
+  line `them, shall, if the right has not accrued before the passing of this Act, be acquired by any person by`
+  line `adverse possession or assertion of title unless such adverse possession or assertion of title is found to`
+  line `have existed for sixty years.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 43414)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Perpetual descent of property.`)
-  (str content) (str `All property, moveable and immoveable, mentioned in the
-said indenture, or in any of the schedules thereto or in any addition which under section 3 may from
-time to time be made to those schedules or any of them, shall descend and, subject to the provisions of
-the said indenture, be enjoyed for ever by the Nawab Bahadoor of Moorshedabad for the time being.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43414&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00062_189115_1523336259308)
+  sectionId (43414)
+  sectionNo (5)
+  orderNo 5
+  title `Perpetual descent of property.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43414&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00062_189115_1523336259308
+obj_root_law_sections_5_content:
+  string
+  line `All property, moveable and immoveable, mentioned in the`
+  line `said indenture, or in any of the schedules thereto or in any addition which under section 3 may from`
+  line `time to time be made to those schedules or any of them, shall descend and, subject to the provisions of`
+  line `the said indenture, be enjoyed for ever by the Nawab Bahadoor of Moorshedabad for the time being.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 43415)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Relief from stamp and registration laws.`)
-  (str content) (str `The said indenture shall for all the purposes
-of all enactments for the time being in force be admissible in evidence and have in all other respects
-the same effect as if it had been duly stamped and registered in such manner as those enactments, or
-any of them, or any rule or order under any of them, may require.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43415&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00062_189115_1523336259308)
+  sectionId (43415)
+  sectionNo (6)
+  orderNo 6
+  title `Relief from stamp and registration laws.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00062_189115_1523336259308&sectionId=43415&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00062_189115_1523336259308
+obj_root_law_sections_6_content:
+  string
+  line `The said indenture shall for all the purposes`
+  line `of all enactments for the time being in force be admissible in evidence and have in all other respects`
+  line `the same effect as if it had been duly stamped and registered in such manner as those enactments, or`
+  line `any of them, or any rule or order under any of them, may require.`
+obj_root_law_sections_6_footnotes:
+  string
+  line

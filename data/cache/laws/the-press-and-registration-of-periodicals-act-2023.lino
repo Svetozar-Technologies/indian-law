@@ -1,53 +1,45 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T19:00:08.866Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/20162`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-09T19:00:08.866Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/20162`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-press-and-registration-of-periodicals-act-2023)
-  (str handle) (str 20162)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Press and Registration of Periodicals Act, 2023`)
-  (str actNumber) (str 51)
-  (str enactmentDate) (str 2023-12-28)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/20162`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 2023)
-  (str ministry) (str `Ministry of Information and Broadcasting`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act to provide for press, registration of periodicals and for matters connected therewith or incidental thereto`)
-  (str enforcementDate) (str 1-03-2024)
-  (str notification) (undefined)
+  slug the-press-and-registration-of-periodicals-act-2023
+  handle (20162)
+  collectionHandle 123456789/1362
+  title `The Press and Registration of Periodicals Act, 2023`
+  actNumber (51)
+  enactmentDate 2023-12-28
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/20162`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (2023)
+  ministry `Ministry of Information and Broadcasting`
+  department undefined
+  longTitle `An Act to provide for press, registration of periodicals and for matters connected therewith or incidental thereto`
+  enforcementDate 1-03-2024
+  notification undefined
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_press_and_registration_of_periodicals_act_2023
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/20162`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/20162`
 obj_root_law_sources_en_the_press_and_registration_of_periodicals_act_2023:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/20162/1/a2023-51.pdf`)
-  (str title) (str `The Press and Registration of Periodicals Act, 2023`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/20162/1/a2023-51.pdf`
+  title `The Press and Registration of Periodicals Act, 2023`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -71,630 +63,740 @@ obj_root_law_sections:
   obj_root_law_sections_21
   obj_root_law_sections_22
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 92419)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Press and Registration of
-Periodicals Act, 2023.
-
-(2) It extends to the whole of India.
-
-(3) It shall come into force on such date^1
-as the Central Government may, by notification in the Official
-Gazette, appoint.`)
-  (str footnotes) (str `1. 1st March, 2024, vide notification No. S.O. 989(E), dated, 1st day of March, 2024, see Gazette of India, Extraordinary,
-Part II, sec. 3(ii)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92419&sectionno=1&orderno=1&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92419)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92419&sectionno=1&orderno=1&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Press and Registration of`
+  line `Periodicals Act, 2023.`
+  line
+  line `(2) It extends to the whole of India.`
+  line
+  line `(3) It shall come into force on such date^1`
+  line `as the Central Government may, by notification in the Official`
+  line `Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 1st March, 2024, vide notification No. S.O. 989(E), dated, 1st day of March, 2024, see Gazette of India, Extraordinary,`
+  line `Part II, sec. 3(ii)`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 92420)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,---
-
-(a) "facsimile edition" of a publication means an exact reproduction of the original edition of a
-foreign publication in English or an Indian language included in the Eighth Schedule to the
-Constitution;
-
-(b) "journal" means a periodical publication, other than a magazine, which primarily carries
-academic, scientific or technical content related to a particular discipline or profession;
-
-(c) "keeper" means a person who manages the day-to-day operations of a printing press, the owner
-of which is a non-individual entity;
-
-(d) "newspaper" means a periodical of loose-folded sheets usually printed on newsprint and brought
-out daily or at least once in a week, containing information on current events, public news or comments
-on public news;
-
-(e) "notification" means a notification published in the Gazette of India or the Official Gazette of
-a State, as the case may be, and the expression "notify" with its grammatical variation and cognate
-expressions shall be construed accordingly;
-
-(f) "owner" means an individual, firm or any such legal entity owning a periodical;
-
-(g) "periodical" means any publication, including a newspaper, which is published and printed at
-regular intervals containing public news or comments on public news, but does not include a book, or
-a journal including a book or journal of scientific, technical and academic nature;
-
-(h) "prescribed" means prescribed by rules made under this Act;
-
-(i) "Press Registrar General" means the Press Registrar General of India, appointed by the Central
-Government under sub-section (1) of section 5;
-
-(j) "printer" means the owner or keeper of a printing press;
-
-(k) "printing" means reproduction of a periodical through any technology involving mass
-production of copies, but does not include photocopying;
-
-(l) "publication" means newspapers, magazines, journals or newsletters printed periodically and
-published in India, and shall include its reproduction in electronic form or any syndication, facsimile
-edition, for public distribution or access;
-
-(m) "publish" means the process of making a work available to the public by issuing or causing to
-be issued the copies thereof or in any other manner, whether for a price or free of charge, and the word
-"publishing" shall be construed accordingly;
-
-(n) "publisher" means a person responsible to publish any periodical;
-
-(o) "register" means the register of periodicals maintained under clause (b) of sub-section (3) of
-section 5;
-
-(p) "specified authority" means a District Magistrate or Collector or such other officer as the State
-Government or, as the case may be, Union territory Administration may, by notification, specify;
-
-(q) "title", in relation to a periodical, means the name of such periodical as may be verified by the
-Press Registrar General, printed prominently and legibly as the masthead on the front page of that
-periodical by which it shall be known or be identified.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92420&sectionno=2&orderno=2&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92420)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92420&sectionno=2&orderno=2&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,---`
+  line
+  line `(a) "facsimile edition" of a publication means an exact reproduction of the original edition of a`
+  line `foreign publication in English or an Indian language included in the Eighth Schedule to the`
+  line Constitution;
+  line
+  line `(b) "journal" means a periodical publication, other than a magazine, which primarily carries`
+  line `academic, scientific or technical content related to a particular discipline or profession;`
+  line
+  line `(c) "keeper" means a person who manages the day-to-day operations of a printing press, the owner`
+  line `of which is a non-individual entity;`
+  line
+  line `(d) "newspaper" means a periodical of loose-folded sheets usually printed on newsprint and brought`
+  line `out daily or at least once in a week, containing information on current events, public news or comments`
+  line `on public news;`
+  line
+  line `(e) "notification" means a notification published in the Gazette of India or the Official Gazette of`
+  line `a State, as the case may be, and the expression "notify" with its grammatical variation and cognate`
+  line `expressions shall be construed accordingly;`
+  line
+  line `(f) "owner" means an individual, firm or any such legal entity owning a periodical;`
+  line
+  line `(g) "periodical" means any publication, including a newspaper, which is published and printed at`
+  line `regular intervals containing public news or comments on public news, but does not include a book, or`
+  line `a journal including a book or journal of scientific, technical and academic nature;`
+  line
+  line `(h) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(i) "Press Registrar General" means the Press Registrar General of India, appointed by the Central`
+  line `Government under sub-section (1) of section 5;`
+  line
+  line `(j) "printer" means the owner or keeper of a printing press;`
+  line
+  line `(k) "printing" means reproduction of a periodical through any technology involving mass`
+  line `production of copies, but does not include photocopying;`
+  line
+  line `(l) "publication" means newspapers, magazines, journals or newsletters printed periodically and`
+  line `published in India, and shall include its reproduction in electronic form or any syndication, facsimile`
+  line `edition, for public distribution or access;`
+  line
+  line `(m) "publish" means the process of making a work available to the public by issuing or causing to`
+  line `be issued the copies thereof or in any other manner, whether for a price or free of charge, and the word`
+  line `"publishing" shall be construed accordingly;`
+  line
+  line `(n) "publisher" means a person responsible to publish any periodical;`
+  line
+  line `(o) "register" means the register of periodicals maintained under clause (b) of sub-section (3) of`
+  line `section 5;`
+  line
+  line `(p) "specified authority" means a District Magistrate or Collector or such other officer as the State`
+  line `Government or, as the case may be, Union territory Administration may, by notification, specify;`
+  line
+  line `(q) "title", in relation to a periodical, means the name of such periodical as may be verified by the`
+  line `Press Registrar General, printed prominently and legibly as the masthead on the front page of that`
+  line `periodical by which it shall be known or be identified.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 92421)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Printer to furnish intimation.`)
-  (str content) (str `Every printer of a periodical shall furnish an intimation in the
-online portal to the Press Registrar General and the specified authority within whose local jurisdiction his
-printing press is situated with such particulars and in such manner, as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92421&sectionno=3&orderno=3&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92421)
+  sectionNo (3)
+  orderNo 3
+  title `Printer to furnish intimation.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92421&sectionno=3&orderno=3&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_3_content:
+  string
+  line `Every printer of a periodical shall furnish an intimation in the`
+  line `online portal to the Press Registrar General and the specified authority within whose local jurisdiction his`
+  line `printing press is situated with such particulars and in such manner, as may be prescribed.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 92422)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Publication of periodical.`)
-  (str content) (str `(1) Every citizen of India or a person, being an entity incorporated and
-registered in India under any law for the time being in force, may bring out a periodical:
-
-Provided that no person who has been convicted by any court for an offence---
-
-(a) involving terrorist act or unlawful activity; or
-
-(b) for having done anything against the security of the State,
-
-shall bring out a periodical.
-
-Explanation.---For the purposes of this section, the expressions "terrorist act" and "unlawful activity"
-shall have the meanings respectively assigned to them in clauses (k) and (o) of sub-section (1) of section 2
-of the Unlawful Activities (Prevention) Act, 1967 (37 of 1967).
-
-(2) Every periodical printed in India shall have printed on it legibly the name of the printer, place of
-printing, name of editor, publisher and place of publication.
-
-Explanation.---For the purposes of this sub-section, "editor" means a person who decides the matter
-that is to be published in a periodical.
-
-(3) A facsimile edition of a foreign periodical may be printed in India only with the previous approval
-of the Central Government in accordance with the guidelines made in this regard, and the registration of
-such facsimile edition shall be made with the Press Registrar General in such manner as may be prescribed.
-
-Explanation.---For the purposes of this sub-section, "foreign periodical" means any periodical printed
-and published in a country outside India.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92422&sectionno=4&orderno=4&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92422)
+  sectionNo (4)
+  orderNo 4
+  title `Publication of periodical.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92422&sectionno=4&orderno=4&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_4_content:
+  string
+  line `(1) Every citizen of India or a person, being an entity incorporated and`
+  line `registered in India under any law for the time being in force, may bring out a periodical:`
+  line
+  line `Provided that no person who has been convicted by any court for an offence---`
+  line
+  line `(a) involving terrorist act or unlawful activity; or`
+  line
+  line `(b) for having done anything against the security of the State,`
+  line
+  line `shall bring out a periodical.`
+  line
+  line `Explanation.---For the purposes of this section, the expressions "terrorist act" and "unlawful activity"`
+  line `shall have the meanings respectively assigned to them in clauses (k) and (o) of sub-section (1) of section 2`
+  line `of the Unlawful Activities (Prevention) Act, 1967 (37 of 1967).`
+  line
+  line `(2) Every periodical printed in India shall have printed on it legibly the name of the printer, place of`
+  line `printing, name of editor, publisher and place of publication.`
+  line
+  line `Explanation.---For the purposes of this sub-section, "editor" means a person who decides the matter`
+  line `that is to be published in a periodical.`
+  line
+  line `(3) A facsimile edition of a foreign periodical may be printed in India only with the previous approval`
+  line `of the Central Government in accordance with the guidelines made in this regard, and the registration of`
+  line `such facsimile edition shall be made with the Press Registrar General in such manner as may be prescribed.`
+  line
+  line `Explanation.---For the purposes of this sub-section, "foreign periodical" means any periodical printed`
+  line `and published in a country outside India.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 92423)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Press Registrar General and other officers.`)
-  (str content) (str `(1) The Central Government may, by order, appoint
-a Press Registrar General of India for carrying out the purposes of this Act.
-
-(2) The Central Government may, by general or special order, appoint such other officers under the
-general superintendence and control of the Press Registrar General, as may be necessary, for the purpose
-of performing the functions assigned to the Press Registrar General by or under this Act and may, by such
-order provide for the distribution or allocation of functions to be performed by them under this Act.
-
-(3) In particular, and without prejudice to the generality of the foregoing provisions, the Press Registrar
-General shall perform the following functions, namely:---
-
-(a) issue a certificate of registration to a periodical;
-
-(b) maintain a register of registered periodicals;
-
-(c) make guidelines for admissibility and availability of title of a periodical;
-
-(d) collect fees, as may be applicable, with regard to applications received by him under this Act;
-
-(e) receive funds from the Central Government and disburse the same for implementation of the
-provisions of this Act;
-
-(f) prepare and publish an annual report containing information in respect of the periodicals in
-India;
-
-(g) any function incidental to, or connected with, clauses (a) to (f); and
-
-(h) any other function as may be assigned to it by the Central Government for the effective
-implementation of the provisions of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92423&sectionno=5&orderno=5&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92423)
+  sectionNo (5)
+  orderNo 5
+  title `Press Registrar General and other officers.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92423&sectionno=5&orderno=5&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_5_content:
+  string
+  line `(1) The Central Government may, by order, appoint`
+  line `a Press Registrar General of India for carrying out the purposes of this Act.`
+  line
+  line `(2) The Central Government may, by general or special order, appoint such other officers under the`
+  line `general superintendence and control of the Press Registrar General, as may be necessary, for the purpose`
+  line `of performing the functions assigned to the Press Registrar General by or under this Act and may, by such`
+  line `order provide for the distribution or allocation of functions to be performed by them under this Act.`
+  line
+  line `(3) In particular, and without prejudice to the generality of the foregoing provisions, the Press Registrar`
+  line `General shall perform the following functions, namely:---`
+  line
+  line `(a) issue a certificate of registration to a periodical;`
+  line
+  line `(b) maintain a register of registered periodicals;`
+  line
+  line `(c) make guidelines for admissibility and availability of title of a periodical;`
+  line
+  line `(d) collect fees, as may be applicable, with regard to applications received by him under this Act;`
+  line
+  line `(e) receive funds from the Central Government and disburse the same for implementation of the`
+  line `provisions of this Act;`
+  line
+  line `(f) prepare and publish an annual report containing information in respect of the periodicals in`
+  line India;
+  line
+  line `(g) any function incidental to, or connected with, clauses (a) to (f); and`
+  line
+  line `(h) any other function as may be assigned to it by the Central Government for the effective`
+  line `implementation of the provisions of this Act.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 92424)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Powers of Press Registrar General.`)
-  (str content) (str `The Press Registrar General shall---
-
-(a) obtain annual statements of a periodical;
-
-(b) verify the circulation figure of such class of periodicals in such manner and for such purpose,
-as may be prescribed, and shall have access to any relevant record or document relating to a periodical
-in the possession of the owner of such periodical or printer thereof, and enter any premises where the
-business of such periodical is carried on at any reasonable time to inspect or take copies of the relevant
-records or documents or ask any question necessary for obtaining any information required to be
-furnished;
-
-(c) revise, suspend or cancel registration of a periodical;
-
-(d) requisition the services of an authorised person and such other person as may be specified by
-him for undertaking verification of circulation figure of a periodical.
-
-Explanation.---For the removal of doubts, it is clarified that an "authorised person" means a
-Gazetted Officer of the Central Government, subordinate to the Press Registrar General, and authorised
-by the Press Registrar General in writing to function as his representative for discharging such functions
-as he may assign to such representative;
-
-(e) call for records, documents and such other information in respect of a printing press or a
-periodical as may be required in discharge of his duties;
-
-(f) call for information from a State Government or Union territory Administration or a specified
-authority regarding a periodical; and
-
-(g) impose penalty.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92424&sectionno=6&orderno=6&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92424)
+  sectionNo (6)
+  orderNo 6
+  title `Powers of Press Registrar General.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92424&sectionno=6&orderno=6&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_6_content:
+  string
+  line `The Press Registrar General shall---`
+  line
+  line `(a) obtain annual statements of a periodical;`
+  line
+  line `(b) verify the circulation figure of such class of periodicals in such manner and for such purpose,`
+  line `as may be prescribed, and shall have access to any relevant record or document relating to a periodical`
+  line `in the possession of the owner of such periodical or printer thereof, and enter any premises where the`
+  line `business of such periodical is carried on at any reasonable time to inspect or take copies of the relevant`
+  line `records or documents or ask any question necessary for obtaining any information required to be`
+  line furnished;
+  line
+  line `(c) revise, suspend or cancel registration of a periodical;`
+  line
+  line `(d) requisition the services of an authorised person and such other person as may be specified by`
+  line `him for undertaking verification of circulation figure of a periodical.`
+  line
+  line `Explanation.---For the removal of doubts, it is clarified that an "authorised person" means a`
+  line `Gazetted Officer of the Central Government, subordinate to the Press Registrar General, and authorised`
+  line `by the Press Registrar General in writing to function as his representative for discharging such functions`
+  line `as he may assign to such representative;`
+  line
+  line `(e) call for records, documents and such other information in respect of a printing press or a`
+  line `periodical as may be required in discharge of his duties;`
+  line
+  line `(f) call for information from a State Government or Union territory Administration or a specified`
+  line `authority regarding a periodical; and`
+  line
+  line `(g) impose penalty.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 92425)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Registration of periodical.`)
-  (str content) (str `(1) A periodical shall be printed or published in India only in
-accordance with the provisions of this Act.
-
-(2) Every publisher of a periodical shall, with the authorisation of the owner of such periodical, obtain
-a certificate of registration from the Press Registrar General by making an online application to the Press
-Registrar General and the specified authority within whose local jurisdiction such periodical is proposed to
-be published, in such manner and on payment of such fee, with such documents and particulars, as may be
-prescribed.
-
-(3) The application referred to in sub-section (2) shall contain the title, which the publisher intends to
-assign to the periodical, and for that purpose the publisher may suggest one or more names for the title, in
-an order of preference, which is not the same or similar to a title already held by any other owner of a
-periodical either in the same language anywhere in India or in any other language in the same State, and
-which conforms to the guidelines made by the Press Registrar General for this purpose.
-
-(4) The specified authority referred to in sub-section (2) shall, either furnish its no-objection or
-comments on the application to the Press Registrar General within a period of sixty days:
-
-Provided that no-objection of the specified authority shall not be required, where the application
-referred to in sub-section (2) is for registration of a periodical proposed to be published by the Central
-Government or a State Government or any authority under such Government.
-
-(5) On receipt of an application referred to in sub-section (2), if the Press Registrar General is satisfied
-with its correctness and completeness and after taking into account the comments, if any, received from the
-specified authority within the period referred to in sub-section (4) and the guidelines relating to
-admissibility of titles, he shall issue a certificate of registration containing particulars of its periodicity,
-language, place of publication, details of the owner and the title of the periodical, in such form as may be
-prescribed:
-
-Provided that the Press Registrar General may, after giving an opportunity of being heard and for
-reasons to be recorded in writing, refuse to issue the certificate of registration.
-
-(6) The publisher of the periodical shall, on receipt of the certificate of registration, commence
-publication of the periodical:
-
-Provided that if the publisher of the periodical fails to publish the periodical within twelve months from
-the end of the month in which the certificate of registration was issued, the Press Registrar General may
-cancel the certificate of registration and withdraw the title.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92425&sectionno=7&orderno=7&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92425)
+  sectionNo (7)
+  orderNo 7
+  title `Registration of periodical.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92425&sectionno=7&orderno=7&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_7_content:
+  string
+  line `(1) A periodical shall be printed or published in India only in`
+  line `accordance with the provisions of this Act.`
+  line
+  line `(2) Every publisher of a periodical shall, with the authorisation of the owner of such periodical, obtain`
+  line `a certificate of registration from the Press Registrar General by making an online application to the Press`
+  line `Registrar General and the specified authority within whose local jurisdiction such periodical is proposed to`
+  line `be published, in such manner and on payment of such fee, with such documents and particulars, as may be`
+  line prescribed.
+  line
+  line `(3) The application referred to in sub-section (2) shall contain the title, which the publisher intends to`
+  line `assign to the periodical, and for that purpose the publisher may suggest one or more names for the title, in`
+  line `an order of preference, which is not the same or similar to a title already held by any other owner of a`
+  line `periodical either in the same language anywhere in India or in any other language in the same State, and`
+  line `which conforms to the guidelines made by the Press Registrar General for this purpose.`
+  line
+  line `(4) The specified authority referred to in sub-section (2) shall, either furnish its no-objection or`
+  line `comments on the application to the Press Registrar General within a period of sixty days:`
+  line
+  line `Provided that no-objection of the specified authority shall not be required, where the application`
+  line `referred to in sub-section (2) is for registration of a periodical proposed to be published by the Central`
+  line `Government or a State Government or any authority under such Government.`
+  line
+  line `(5) On receipt of an application referred to in sub-section (2), if the Press Registrar General is satisfied`
+  line `with its correctness and completeness and after taking into account the comments, if any, received from the`
+  line `specified authority within the period referred to in sub-section (4) and the guidelines relating to`
+  line `admissibility of titles, he shall issue a certificate of registration containing particulars of its periodicity,`
+  line `language, place of publication, details of the owner and the title of the periodical, in such form as may be`
+  line `prescribed:`
+  line
+  line `Provided that the Press Registrar General may, after giving an opportunity of being heard and for`
+  line `reasons to be recorded in writing, refuse to issue the certificate of registration.`
+  line
+  line `(6) The publisher of the periodical shall, on receipt of the certificate of registration, commence`
+  line `publication of the periodical:`
+  line
+  line `Provided that if the publisher of the periodical fails to publish the periodical within twelve months from`
+  line `the end of the month in which the certificate of registration was issued, the Press Registrar General may`
+  line `cancel the certificate of registration and withdraw the title.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 92426)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Revision of certificate of registration or title.`)
-  (str content) (str `(1) A publisher of a periodical may make an
-application to the Press Registrar General for revision of particulars of the certificate of registration, or for
-revision of title, in such manner and with such particulars as may be prescribed.
-
-(2) The Press Registrar General may, on being satisfied with the particulars of the revision applied for
-under sub-section (1), issue a revised certificate of registration or a revised title, to the publisher and
-intimate the same to the specified authority.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92426&sectionno=8&orderno=8&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92426)
+  sectionNo (8)
+  orderNo 8
+  title `Revision of certificate of registration or title.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92426&sectionno=8&orderno=8&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_8_content:
+  string
+  line `(1) A publisher of a periodical may make an`
+  line `application to the Press Registrar General for revision of particulars of the certificate of registration, or for`
+  line `revision of title, in such manner and with such particulars as may be prescribed.`
+  line
+  line `(2) The Press Registrar General may, on being satisfied with the particulars of the revision applied for`
+  line `under sub-section (1), issue a revised certificate of registration or a revised title, to the publisher and`
+  line `intimate the same to the specified authority.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 92427)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Transfer of ownership of a periodical.`)
-  (str content) (str `(1) The transfer of ownership of every periodical
-registered under section 7 shall be made in accordance with the provisions of this section.
-
-(2) The owner of a periodical referred to in sub-section (1) shall apply for transfer of its ownership to
-the Press Registrar General by furnishing such documents, setting forth such particulars and on payment of
-such fee, as may be prescribed.
-
-(3) On receipt of an application from the owner of a periodical for transfer of ownership of such
-periodical, if the Press Registrar General is satisfied with its correctness and completeness, and after taking
-into account the comments, if any, received from the specified authority, he shall permit the transfer of
-ownership of that periodical:
-
-Provided that the Press Registrar General may, after giving an opportunity of being heard and for
-reasons to be recorded in writing, refuse to permit such transfer of ownership of a periodical.
-
-(4) The owner of the periodical shall, on receipt of the permission from the Press Registrar General
-under sub-section (3), forward a copy of the same to the publisher, and the publisher shall apply and obtain
-a revised certificate of registration in accordance with the provisions of section 7.
-
-(5) The owner of a periodical shall intimate any change in the shareholding pattern of his company
-within fifteen days of such change being informed by him to the Registrar of Companies.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92427&sectionno=9&orderno=9&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92427)
+  sectionNo (9)
+  orderNo 9
+  title `Transfer of ownership of a periodical.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92427&sectionno=9&orderno=9&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_9_content:
+  string
+  line `(1) The transfer of ownership of every periodical`
+  line `registered under section 7 shall be made in accordance with the provisions of this section.`
+  line
+  line `(2) The owner of a periodical referred to in sub-section (1) shall apply for transfer of its ownership to`
+  line `the Press Registrar General by furnishing such documents, setting forth such particulars and on payment of`
+  line `such fee, as may be prescribed.`
+  line
+  line `(3) On receipt of an application from the owner of a periodical for transfer of ownership of such`
+  line `periodical, if the Press Registrar General is satisfied with its correctness and completeness, and after taking`
+  line `into account the comments, if any, received from the specified authority, he shall permit the transfer of`
+  line `ownership of that periodical:`
+  line
+  line `Provided that the Press Registrar General may, after giving an opportunity of being heard and for`
+  line `reasons to be recorded in writing, refuse to permit such transfer of ownership of a periodical.`
+  line
+  line `(4) The owner of the periodical shall, on receipt of the permission from the Press Registrar General`
+  line `under sub-section (3), forward a copy of the same to the publisher, and the publisher shall apply and obtain`
+  line `a revised certificate of registration in accordance with the provisions of section 7.`
+  line
+  line `(5) The owner of a periodical shall intimate any change in the shareholding pattern of his company`
+  line `within fifteen days of such change being informed by him to the Registrar of Companies.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 92428)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Discontinuation of a periodical.`)
-  (str content) (str `(1) The owner of a periodical may discontinue a periodical
-registered under this Act and shall, within six months of such discontinuation, intimate to the Press Registrar
-General and the specified authority, within whose local jurisdiction such periodical is published, about such
-discontinuation.
-
-(2) The Press Registrar General shall, on receipt of intimation from the publisher under
-sub-section (1), cancel the certificate of registration of the discontinued periodical and remove the
-periodical along with its title from the register maintained under clause (b) of sub-section (3) of section 5.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92428&sectionno=10&orderno=10&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92428)
+  sectionNo (10)
+  orderNo 10
+  title `Discontinuation of a periodical.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92428&sectionno=10&orderno=10&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_10_content:
+  string
+  line `(1) The owner of a periodical may discontinue a periodical`
+  line `registered under this Act and shall, within six months of such discontinuation, intimate to the Press Registrar`
+  line `General and the specified authority, within whose local jurisdiction such periodical is published, about such`
+  line discontinuation.
+  line
+  line `(2) The Press Registrar General shall, on receipt of intimation from the publisher under`
+  line `sub-section (1), cancel the certificate of registration of the discontinued periodical and remove the`
+  line `periodical along with its title from the register maintained under clause (b) of sub-section (3) of section 5.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 92429)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Suspension or cancellation of registration.`)
-  (str content) (str `(1) The Press Registrar General may, by order, for
-a period not less than thirty days but not exceeding one hundred and eighty days, suspend the certificate of
-registration of a periodical, if---
-
-(a) the registration was obtained on false representation or on concealment of any material fact; or
-
-(b) the publisher has failed to publish the periodical continuously.
-
-Explanation.---For the removal of doubts, it is hereby clarified that if a periodical publishes less
-than half of its issues, as are required to be published in a calendar year in accordance with the
-application made under sub-section (2) of section 7, such periodical shall be deemed to have failed to
-publish continuously; or
-
-(c) the publisher has given false particulars in the annual statement; or
-
-(d) the publisher has failed to furnish the annual statement within two years from the end of the
-financial year for which the annual statement was to be furnished.
-
-(2) The Press Registrar General may cancel the certificate of registration of a periodical, where the
-publisher fails to remove the defects of the grounds on which the said certificate was suspended under
-sub-section (1) before the expiry of the period of such suspension.
-
-(3) The Press Registrar General may, by order, cancel the certificate of registration of a periodical
-which---
-
-(a) bears the same or similar title already held by any other owner of a periodical, either in the same
-language anywhere in India or in any other language in the same State or Union territory; or
-
-(b) violates the guidelines made under sub-section (3) of section 7.
-
-(4) The Press Registrar General may, by order, cancel the certificate of Registration of a periodical
-where the owner or publisher of such periodical has been convicted by any court for an offence---
-
-(a) involving terrorist act or unlawful activity; or
-
-(b) for having done anything against the security of the State.
-
-Explanation.---For the purposes of this section, the expressions "terrorist act" and "unlawful
-activity" shall have the meanings respectively assigned to them in clauses (k) and (o) of
-sub-section (1) of section 2 of the Unlawful Activities (Prevention) Act, 1967 (37 of 1967).
-
-(5) No order for suspension or cancellation of certificate of registration shall be passed under this
-section, without giving an opportunity of being heard to the publisher or owner of the periodical, as the case
-may be.
-
-(6) A copy of order of suspension or cancellation passed under this section shall be made available to
-the Central Government or State Government or Union territory Administration, as the case may be, and to
-the specified authority.
-
-(7) The Press Registrar General may, after the cancellation of certificate of registration of a periodical
-under this section, issue a new certificate of registration to such periodical bearing another title, if the
-publisher of that periodical makes an application to that effect in conformity with the guidelines made
-under sub-section (3) of section 7.
-
-(8) The Press Registrar General may, in such circumstances and manner, as may be prescribed,
-authorise the specified authority to suspend or cancel the certificate of registration granted under
-section 7.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92429&sectionno=11&orderno=11&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92429)
+  sectionNo (11)
+  orderNo 11
+  title `Suspension or cancellation of registration.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92429&sectionno=11&orderno=11&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_11_content:
+  string
+  line `(1) The Press Registrar General may, by order, for`
+  line `a period not less than thirty days but not exceeding one hundred and eighty days, suspend the certificate of`
+  line `registration of a periodical, if---`
+  line
+  line `(a) the registration was obtained on false representation or on concealment of any material fact; or`
+  line
+  line `(b) the publisher has failed to publish the periodical continuously.`
+  line
+  line `Explanation.---For the removal of doubts, it is hereby clarified that if a periodical publishes less`
+  line `than half of its issues, as are required to be published in a calendar year in accordance with the`
+  line `application made under sub-section (2) of section 7, such periodical shall be deemed to have failed to`
+  line `publish continuously; or`
+  line
+  line `(c) the publisher has given false particulars in the annual statement; or`
+  line
+  line `(d) the publisher has failed to furnish the annual statement within two years from the end of the`
+  line `financial year for which the annual statement was to be furnished.`
+  line
+  line `(2) The Press Registrar General may cancel the certificate of registration of a periodical, where the`
+  line `publisher fails to remove the defects of the grounds on which the said certificate was suspended under`
+  line `sub-section (1) before the expiry of the period of such suspension.`
+  line
+  line `(3) The Press Registrar General may, by order, cancel the certificate of registration of a periodical`
+  line which---
+  line
+  line `(a) bears the same or similar title already held by any other owner of a periodical, either in the same`
+  line `language anywhere in India or in any other language in the same State or Union territory; or`
+  line
+  line `(b) violates the guidelines made under sub-section (3) of section 7.`
+  line
+  line `(4) The Press Registrar General may, by order, cancel the certificate of Registration of a periodical`
+  line `where the owner or publisher of such periodical has been convicted by any court for an offence---`
+  line
+  line `(a) involving terrorist act or unlawful activity; or`
+  line
+  line `(b) for having done anything against the security of the State.`
+  line
+  line `Explanation.---For the purposes of this section, the expressions "terrorist act" and "unlawful`
+  line `activity" shall have the meanings respectively assigned to them in clauses (k) and (o) of`
+  line `sub-section (1) of section 2 of the Unlawful Activities (Prevention) Act, 1967 (37 of 1967).`
+  line
+  line `(5) No order for suspension or cancellation of certificate of registration shall be passed under this`
+  line `section, without giving an opportunity of being heard to the publisher or owner of the periodical, as the case`
+  line `may be.`
+  line
+  line `(6) A copy of order of suspension or cancellation passed under this section shall be made available to`
+  line `the Central Government or State Government or Union territory Administration, as the case may be, and to`
+  line `the specified authority.`
+  line
+  line `(7) The Press Registrar General may, after the cancellation of certificate of registration of a periodical`
+  line `under this section, issue a new certificate of registration to such periodical bearing another title, if the`
+  line `publisher of that periodical makes an application to that effect in conformity with the guidelines made`
+  line `under sub-section (3) of section 7.`
+  line
+  line `(8) The Press Registrar General may, in such circumstances and manner, as may be prescribed,`
+  line `authorise the specified authority to suspend or cancel the certificate of registration granted under`
+  line `section 7.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 92430)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Annual statement to be furnished by periodical.`)
-  (str content) (str `The publisher of a periodical shall furnish to
-the Press Registrar General an annual statement in respect of the periodical, at such time, in such form and
-giving such particulars, as may be prescribed.
-
-(2) The publisher of every newspaper in India shall, subject to any rules made under this Act, deliver
-free of cost to the Press Registrar General and to the State Government one copy of each issue of such
-newspaper within forty-eight hours.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92430&sectionno=12&orderno=12&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92430)
+  sectionNo (12)
+  orderNo 12
+  title `Annual statement to be furnished by periodical.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92430&sectionno=12&orderno=12&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_12_content:
+  string
+  line `The publisher of a periodical shall furnish to`
+  line `the Press Registrar General an annual statement in respect of the periodical, at such time, in such form and`
+  line `giving such particulars, as may be prescribed.`
+  line
+  line `(2) The publisher of every newspaper in India shall, subject to any rules made under this Act, deliver`
+  line `free of cost to the Press Registrar General and to the State Government one copy of each issue of such`
+  line `newspaper within forty-eight hours.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 92431)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Annual report.`)
-  (str content) (str `The Press Registrar General shall prepare and publish an annual report containing
-information in respect of the periodicals in India.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92431&sectionno=13&orderno=13&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92431)
+  sectionNo (13)
+  orderNo 13
+  title `Annual report.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92431&sectionno=13&orderno=13&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_13_content:
+  string
+  line `The Press Registrar General shall prepare and publish an annual report containing`
+  line `information in respect of the periodicals in India.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 92432)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Power of Press Registrar General to impose penalty.`)
-  (str content) (str `(1) The Press Registrar General may
-impose penalty, if---
-
-(a) a periodical is published without obtaining a certificate of registration under section 7;
-
-(b) the publisher fails to furnish the annual statement as required under section 12 within one year
-from the end of the financial year in respect of which the annual statement was required to be furnished:
-
-Provided that no order of imposition of penalty shall be passed without giving an opportunity of being
-heard to the publisher.
-
-(2) Where a periodical is published without obtaining a certificate of registration under section 7, the
-Press Registrar General may impose a penalty of an amount not exceeding five lakh rupees with a direction
-to the publisher to cease the publication of such periodical.
-
-(3) The quantum of penalty imposable under clause (b) of sub-section (1) shall be not less than ten
-thousand rupees but not exceeding twenty thousand rupees for the first default:
-
-Provided that for every subsequent default, an enhanced penalty of twice such quantum may be imposed
-but shall not exceed two lakh rupees
-
-(4) Whoever fails to cease publication of periodical even after six months of issue of a direction under
-sub-section (2), or publishes any other periodical without obtaining a certificate of registration under
-section 7, shall be punishable with imprisonment for a term which may extend to six months.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92432&sectionno=14&orderno=14&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92432)
+  sectionNo (14)
+  orderNo 14
+  title `Power of Press Registrar General to impose penalty.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92432&sectionno=14&orderno=14&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_14_content:
+  string
+  line `(1) The Press Registrar General may`
+  line `impose penalty, if---`
+  line
+  line `(a) a periodical is published without obtaining a certificate of registration under section 7;`
+  line
+  line `(b) the publisher fails to furnish the annual statement as required under section 12 within one year`
+  line `from the end of the financial year in respect of which the annual statement was required to be furnished:`
+  line
+  line `Provided that no order of imposition of penalty shall be passed without giving an opportunity of being`
+  line `heard to the publisher.`
+  line
+  line `(2) Where a periodical is published without obtaining a certificate of registration under section 7, the`
+  line `Press Registrar General may impose a penalty of an amount not exceeding five lakh rupees with a direction`
+  line `to the publisher to cease the publication of such periodical.`
+  line
+  line `(3) The quantum of penalty imposable under clause (b) of sub-section (1) shall be not less than ten`
+  line `thousand rupees but not exceeding twenty thousand rupees for the first default:`
+  line
+  line `Provided that for every subsequent default, an enhanced penalty of twice such quantum may be imposed`
+  line `but shall not exceed two lakh rupees`
+  line
+  line `(4) Whoever fails to cease publication of periodical even after six months of issue of a direction under`
+  line `sub-section (2), or publishes any other periodical without obtaining a certificate of registration under`
+  line `section 7, shall be punishable with imprisonment for a term which may extend to six months.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 92433)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Press and Registration Appellate Board.`)
-  (str content) (str `(1) There shall be an Appellate Board to be called the
-Press and Registration Appellate Board consisting of Chairperson, Press Council of India and two members
-to be nominated by the Press Council of India, from among its members:
-
-Provided that at least one of the two members shall be a person referred to in clause (d) or clause (e) of
-sub-section (3) of section 5 of the Press Council Act, 1978 (37 of 1978).
-
-(2) Any person aggrieved by an order of refusal to issue the certificate of registration under
-sub-section (5) of section 7, or cancellation or suspension of registration under section 11, or order of
-imposition of penalty under section 14, may, within sixty days from the date on which such order is
-communicated to him, prefer an appeal before the Press and Registration Appellate Board:
-
-Provided that the Press and Registration Appellate Board may admit an appeal after the expiry of the
-said period, if it is satisfied that the appellant was prevented by sufficient cause from preferring the appeal
-on time.
-
-(3) On receipt of an appeal under this section, the Press and Registration Appellate Board may, after
-calling for the records and after making such further inquiries as it deems fit, confirm, modify or set aside
-the order appealed against.
-
-(4) The manner and procedure to be followed for preferring appeals, calling for records and making
-inquires under this section shall be such as may be laid down by the Chairperson, Press Council of India.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92433&sectionno=15&orderno=15&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92433)
+  sectionNo (15)
+  orderNo 15
+  title `Press and Registration Appellate Board.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92433&sectionno=15&orderno=15&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_15_content:
+  string
+  line `(1) There shall be an Appellate Board to be called the`
+  line `Press and Registration Appellate Board consisting of Chairperson, Press Council of India and two members`
+  line `to be nominated by the Press Council of India, from among its members:`
+  line
+  line `Provided that at least one of the two members shall be a person referred to in clause (d) or clause (e) of`
+  line `sub-section (3) of section 5 of the Press Council Act, 1978 (37 of 1978).`
+  line
+  line `(2) Any person aggrieved by an order of refusal to issue the certificate of registration under`
+  line `sub-section (5) of section 7, or cancellation or suspension of registration under section 11, or order of`
+  line `imposition of penalty under section 14, may, within sixty days from the date on which such order is`
+  line `communicated to him, prefer an appeal before the Press and Registration Appellate Board:`
+  line
+  line `Provided that the Press and Registration Appellate Board may admit an appeal after the expiry of the`
+  line `said period, if it is satisfied that the appellant was prevented by sufficient cause from preferring the appeal`
+  line `on time.`
+  line
+  line `(3) On receipt of an appeal under this section, the Press and Registration Appellate Board may, after`
+  line `calling for the records and after making such further inquiries as it deems fit, confirm, modify or set aside`
+  line `the order appealed against.`
+  line
+  line `(4) The manner and procedure to be followed for preferring appeals, calling for records and making`
+  line `inquires under this section shall be such as may be laid down by the Chairperson, Press Council of India.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 92434)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Power of Central Government to issue directions.`)
-  (str content) (str `(1) Without prejudice to the foregoing
-provisions of this Act, the Central Government may give directions on matters of policy to the Press
-Registrar General, in writing, from time to time and the Press Registrar General shall, in the discharge of
-his powers and functions under this Act, be bound by such directions.
-
-(2) The decision of the Central Government as to whether a question is one of policy or not shall be
-final.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92434&sectionno=16&orderno=16&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92434)
+  sectionNo (16)
+  orderNo 16
+  title `Power of Central Government to issue directions.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92434&sectionno=16&orderno=16&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_16_content:
+  string
+  line `(1) Without prejudice to the foregoing`
+  line `provisions of this Act, the Central Government may give directions on matters of policy to the Press`
+  line `Registrar General, in writing, from time to time and the Press Registrar General shall, in the discharge of`
+  line `his powers and functions under this Act, be bound by such directions.`
+  line
+  line `(2) The decision of the Central Government as to whether a question is one of policy or not shall be`
+  line final.
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 92435)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Press Registrar General and other officers to be public servants.`)
-  (str content) (str `The Press Registrar General
-and all officers appointed under this Act shall be deemed to be public servants within the meaning of
-section 21 of the Indian Penal Code (45 of 1860).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92435&sectionno=17&orderno=17&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92435)
+  sectionNo (17)
+  orderNo 17
+  title `Press Registrar General and other officers to be public servants.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92435&sectionno=17&orderno=17&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_17_content:
+  string
+  line `The Press Registrar General`
+  line `and all officers appointed under this Act shall be deemed to be public servants within the meaning of`
+  line `section 21 of the Indian Penal Code (45 of 1860).`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 92436)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `No suit or other legal proceedings shall lie against the
-Central Government or State Government or Union territory Administration or the Press Registrar General
-or any officer or employee authorised by the Press Registrar General, for anything which is in good faith
-done or intended to be done in pursuance of this Act or the rules made thereunder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92436&sectionno=18&orderno=18&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92436)
+  sectionNo (18)
+  orderNo 18
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92436&sectionno=18&orderno=18&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_18_content:
+  string
+  line `No suit or other legal proceedings shall lie against the`
+  line `Central Government or State Government or Union territory Administration or the Press Registrar General`
+  line `or any officer or employee authorised by the Press Registrar General, for anything which is in good faith`
+  line `done or intended to be done in pursuance of this Act or the rules made thereunder.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 92437)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Power of Central Government to make rule.`)
-  (str content) (str `(1) The Central Government may, by notification
-in the Official Gazette, after previous publication, make rules to carry out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing provisions, such rules may
-provide for all or any of the following matters, namely:---
-
-(a) the manner and particulars for furnishing an intimation before the specified authority by the
-printing press under section 3;
-
-(b) the manner of registration of a facsimile edition of a foreign periodical under sub-section (3) of
-section 4;
-
-(c) the manner of verification of circulation figure of class of periodicals under clause (b) of
-section 6;
-
-(d) the form, fees and manner of making an online application, documents to be furnished and
-particulars to be set forth under sub-section (2) of section 7;
-
-(e) the form in which and the particulars along with which a certificate of registration shall be
-issued under sub-section (5) of section 7;
-
-(f) the manner of making an application and particulars to be set forth therein under sub-section (1)
-of section 8;
-
-(g) the form, fees and manner of making an application, documents to be furnished and particulars
-to be set forth under sub-section (2) of section 9;
-
-(h) the circumstances and manner for authorising the specified authority to suspend or cancel the
-certificate of registration under sub-section (7) of section 11;
-
-(i) the form, time and particulars for furnishing an annual statement under section 12;
-
-(j) any other matter which is required to be, or may be, prescribed under the provisions of this Act.
-
-(3) The State Government may, by notification in the Official Gazette of the State, make such rules not
-inconsistent with the rules made by the Central Government, as may be necessary or desirable for carrying
-out the objects of this Act.
-
-(4) Every rule made by the State Government under sub-section (3) shall be laid, as soon as may be
-after it is made, before the State Legislature.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92437&sectionno=19&orderno=19&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92437)
+  sectionNo (19)
+  orderNo 19
+  title `Power of Central Government to make rule.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92437&sectionno=19&orderno=19&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_19_content:
+  string
+  line `(1) The Central Government may, by notification`
+  line `in the Official Gazette, after previous publication, make rules to carry out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing provisions, such rules may`
+  line `provide for all or any of the following matters, namely:---`
+  line
+  line `(a) the manner and particulars for furnishing an intimation before the specified authority by the`
+  line `printing press under section 3;`
+  line
+  line `(b) the manner of registration of a facsimile edition of a foreign periodical under sub-section (3) of`
+  line `section 4;`
+  line
+  line `(c) the manner of verification of circulation figure of class of periodicals under clause (b) of`
+  line `section 6;`
+  line
+  line `(d) the form, fees and manner of making an online application, documents to be furnished and`
+  line `particulars to be set forth under sub-section (2) of section 7;`
+  line
+  line `(e) the form in which and the particulars along with which a certificate of registration shall be`
+  line `issued under sub-section (5) of section 7;`
+  line
+  line `(f) the manner of making an application and particulars to be set forth therein under sub-section (1)`
+  line `of section 8;`
+  line
+  line `(g) the form, fees and manner of making an application, documents to be furnished and particulars`
+  line `to be set forth under sub-section (2) of section 9;`
+  line
+  line `(h) the circumstances and manner for authorising the specified authority to suspend or cancel the`
+  line `certificate of registration under sub-section (7) of section 11;`
+  line
+  line `(i) the form, time and particulars for furnishing an annual statement under section 12;`
+  line
+  line `(j) any other matter which is required to be, or may be, prescribed under the provisions of this Act.`
+  line
+  line `(3) The State Government may, by notification in the Official Gazette of the State, make such rules not`
+  line `inconsistent with the rules made by the Central Government, as may be necessary or desirable for carrying`
+  line `out the objects of this Act.`
+  line
+  line `(4) Every rule made by the State Government under sub-section (3) shall be laid, as soon as may be`
+  line `after it is made, before the State Legislature.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 92438)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Power to remove difficulties.`)
-  (str content) (str `(1) If any difficulty arises in giving effect to the provisions of this
-Act, the Central Government may, by order published in the Official Gazette, make such provisions not
-inconsistent with the provisions of this Act, as appear to it to be necessary or expedient for removing the
-difficulty:
-
-Provided that no such order shall be made under this section after the expiry of three years from the
-commencement of this Act.
-
-(2) Every order made under this section shall be laid, as soon as may be after it is made, before each
-House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92438&sectionno=20&orderno=20&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92438)
+  sectionNo (20)
+  orderNo 20
+  title `Power to remove difficulties.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92438&sectionno=20&orderno=20&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_20_content:
+  string
+  line `(1) If any difficulty arises in giving effect to the provisions of this`
+  line `Act, the Central Government may, by order published in the Official Gazette, make such provisions not`
+  line `inconsistent with the provisions of this Act, as appear to it to be necessary or expedient for removing the`
+  line `difficulty:`
+  line
+  line `Provided that no such order shall be made under this section after the expiry of three years from the`
+  line `commencement of this Act.`
+  line
+  line `(2) Every order made under this section shall be laid, as soon as may be after it is made, before each`
+  line `House of Parliament.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 92439)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Laying of rules and notification.`)
-  (str content) (str `Every rule made or notification issued by the Central
-Government under this Act shall be laid, as soon as may be after it is made or issued, before each House of
-Parliament while it is in session, for a total period of thirty days which may be comprised in one session or
-in two or more successive sessions, and if, before the expiry of the session immediately following the
-session or the successive sessions aforesaid, both Houses agree in making any modification in the rule or
-notification or both Houses agree that the rule or notification should not be made or issued, the rule or
-notification shall thereafter have effect only in such modified form or be of no effect, as the case may be;
-so, however, that any such modification or annulment shall be without prejudice to the validity of anything
-previously done under that rule or notification.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92439&sectionno=21&orderno=21&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92439)
+  sectionNo (21)
+  orderNo 21
+  title `Laying of rules and notification.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92439&sectionno=21&orderno=21&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_21_content:
+  string
+  line `Every rule made or notification issued by the Central`
+  line `Government under this Act shall be laid, as soon as may be after it is made or issued, before each House of`
+  line `Parliament while it is in session, for a total period of thirty days which may be comprised in one session or`
+  line `in two or more successive sessions, and if, before the expiry of the session immediately following the`
+  line `session or the successive sessions aforesaid, both Houses agree in making any modification in the rule or`
+  line `notification or both Houses agree that the rule or notification should not be made or issued, the rule or`
+  line `notification shall thereafter have effect only in such modified form or be of no effect, as the case may be;`
+  line `so, however, that any such modification or annulment shall be without prejudice to the validity of anything`
+  line `previously done under that rule or notification.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 92440)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Repeal and savings.`)
-  (str content) (str `(1) The Press and Registration of Books Act, 1867 (25 of 1867) is hereby
-repealed.
-
-(2) Notwithstanding such repeal,---
-
-(a) anything done or any action taken or purported to have been done or taken including any rule,
-notification, inspection, order or declaration made or any document or instrument executed or any
-direction given or any proceedings taken or any penalty or fine imposed under the Act hereby repealed
-shall, in so far as it is not inconsistent with the provisions of this Act, be deemed to have been done or
-taken under the corresponding provisions of this Act;
-
-(b) any declaration, including title thereof, so made and authenticated under the provisions of the
-Act hereby repealed, shall be deemed to have been made and authenticated under the corresponding
-provisions of this Act;
-
-(c) any proceeding pending in any court at the commencement of this Act may be continued in that
-court as if this Act has not been passed;
-
-(d) the Press Registrar General and other officers appointed under the Act hereby repealed and
-holding office as such immediately before the commencement of this Act, shall, on the commencement
-of this Act, continue to hold their respective offices under the corresponding provisions of this Act,
-unless and until they are removed or superannuated;
-
-(e) the Press and Registration Appellate Board established under the Act hereby repealed shall
-continue to function under the corresponding provisions of this Act, unless and until the Press and
-Registration Appellate Board is constituted under this Act;
-
-(f) any appeal preferred to the Press and Registration Appellate Board hereby repealed and not
-disposed of before the commencement of this Act, may be disposed of by the Press and Registration
-Appellate Board constituted under this Act;
-
-(g) any penalty payable under the Act hereby repealed may be recovered in the manner provided
-by or under this Act, but without prejudice to any action already taken for the recovery of such penalty
-under the Act so repealed;
-
-(h) any certificate of registration issued or granted under the Act hereby repealed shall continue to
-have effect after the commencement of this Act under the same conditions as if this Act had not been
-passed.
-
-(3) The matters referred to in clauses (a) to (h) of sub-section (2) shall not be held to prejudice or affect
-the general application of section 6 of the General Clauses Act, 1897 (10 of 1897) with regard to the effect
-of such repeal.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92440&sectionno=22&orderno=22&orgactid=AC_CEN_29_0_00007_202351_1724412396961)
+  sectionId (92440)
+  sectionNo (22)
+  orderNo 22
+  title `Repeal and savings.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_29_0_00007_202351_1724412396961&sectionId=92440&sectionno=22&orderno=22&orgactid=AC_CEN_29_0_00007_202351_1724412396961
+obj_root_law_sections_22_content:
+  string
+  line `(1) The Press and Registration of Books Act, 1867 (25 of 1867) is hereby`
+  line repealed.
+  line
+  line `(2) Notwithstanding such repeal,---`
+  line
+  line `(a) anything done or any action taken or purported to have been done or taken including any rule,`
+  line `notification, inspection, order or declaration made or any document or instrument executed or any`
+  line `direction given or any proceedings taken or any penalty or fine imposed under the Act hereby repealed`
+  line `shall, in so far as it is not inconsistent with the provisions of this Act, be deemed to have been done or`
+  line `taken under the corresponding provisions of this Act;`
+  line
+  line `(b) any declaration, including title thereof, so made and authenticated under the provisions of the`
+  line `Act hereby repealed, shall be deemed to have been made and authenticated under the corresponding`
+  line `provisions of this Act;`
+  line
+  line `(c) any proceeding pending in any court at the commencement of this Act may be continued in that`
+  line `court as if this Act has not been passed;`
+  line
+  line `(d) the Press Registrar General and other officers appointed under the Act hereby repealed and`
+  line `holding office as such immediately before the commencement of this Act, shall, on the commencement`
+  line `of this Act, continue to hold their respective offices under the corresponding provisions of this Act,`
+  line `unless and until they are removed or superannuated;`
+  line
+  line `(e) the Press and Registration Appellate Board established under the Act hereby repealed shall`
+  line `continue to function under the corresponding provisions of this Act, unless and until the Press and`
+  line `Registration Appellate Board is constituted under this Act;`
+  line
+  line `(f) any appeal preferred to the Press and Registration Appellate Board hereby repealed and not`
+  line `disposed of before the commencement of this Act, may be disposed of by the Press and Registration`
+  line `Appellate Board constituted under this Act;`
+  line
+  line `(g) any penalty payable under the Act hereby repealed may be recovered in the manner provided`
+  line `by or under this Act, but without prejudice to any action already taken for the recovery of such penalty`
+  line `under the Act so repealed;`
+  line
+  line `(h) any certificate of registration issued or granted under the Act hereby repealed shall continue to`
+  line `have effect after the commencement of this Act under the same conditions as if this Act had not been`
+  line passed.
+  line
+  line `(3) The matters referred to in clauses (a) to (h) of sub-section (2) shall not be held to prejudice or affect`
+  line `the general application of section 6 of the General Clauses Act, 1897 (10 of 1897) with regard to the effect`
+  line `of such repeal.`
+obj_root_law_sections_22_footnotes:
+  string
+  line

@@ -1,38 +1,34 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:44:00.051Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1994`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 13)
-  (str totalSections) (int 13)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:44:00.051Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1994`
+  completeFetch true
+  maxSections null
+  sectionCount 13
+  totalSections 13
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-lotteries-regulation-act-1998)
-  (str handle) (str 1994)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Lotteries (Regulation) Act, 1998`)
-  (str actNumber) (str 17)
-  (str enactmentDate) (str 1998-07-07)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1994`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `लाटरी (विनियमन) अधिनियम, 1998`)
-  (str actYear) (str 1998)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Home`)
-  (str longTitle) (str `An Act to regulate the lotteries and to provide for matters connected therewith and incidental thereto.`)
-  (str enforcementDate) (str 02-10-1997)
-  (str fetchedAt) (str `2026-05-08T20:16:38.882Z`)
-  (str translations) obj_root_law_translations
+  slug the-lotteries-regulation-act-1998
+  handle (1994)
+  collectionHandle 123456789/1362
+  title `The Lotteries (Regulation) Act, 1998`
+  actNumber (17)
+  enactmentDate 1998-07-07
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1994`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `लाटरी (विनियमन) अधिनियम, 1998`
+  actYear (1998)
+  ministry `Ministry of Home Affairs`
+  department `Department of Home`
+  longTitle `An Act to regulate the lotteries and to provide for matters connected therewith and incidental thereto.`
+  enforcementDate 02-10-1997
+  fetchedAt `2026-05-08T20:16:38.882Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_lotteries_regulation_act_1998
   obj_root_law_sources_en_3
@@ -41,49 +37,51 @@ obj_root_law_sources_en:
   obj_root_law_sources_en_6
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1994`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1994`
 obj_root_law_sources_en_the_lotteries_regulation_act_1998:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1994/1/A1998-17.pdf`)
-  (str title) (str `The Lotteries (Regulation) Act, 1998`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1994/1/A1998-17.pdf`
+  title `The Lotteries (Regulation) Act, 1998`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/rulesindividualfile/&file=Lotteries+%28Regulation%29+Rules%2C+2010.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/rulesindividualfile/&file=Lotteries+%28Regulation%29+Rules%2C+2010.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/notificationindividualfile/&file=Notification+GSR+No.+278%28E%29+dated+01.04.2010+regarding+the+Lotteries+%28Regulation%29+Rules%2C+2010.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/notificationindividualfile/&file=Notification+GSR+No.+278%28E%29+dated+01.04.2010+regarding+the+Lotteries+%28Regulation%29+Rules%2C+2010.pdf`
+  title obj_root_law_sources_en_4_title
+obj_root_law_sources_en_4_title:
+  string
+  line
 obj_root_law_sources_en_5:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/notificationindividualfile/&file=Notification+GSR+No.+883%28E%29+dated+15.12.2011+for+banning+sale+of+Sikkim+State+Lottery+in+Kerala.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/notificationindividualfile/&file=Notification+GSR+No.+883%28E%29+dated+15.12.2011+for+banning+sale+of+Sikkim+State+Lottery+in+Kerala.pdf`
+  title obj_root_law_sources_en_5_title
+obj_root_law_sources_en_5_title:
+  string
+  line
 obj_root_law_sources_en_6:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/notificationindividualfile/&file=S.O.+No.+1641%28E%29+dated+12.06.2015+for+extending+the+ban+of+sale+of+Sikkim+State+Lottery+in+Kerala.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/notificationindividualfile/&file=S.O.+No.+1641%28E%29+dated+12.06.2015+for+extending+the+ban+of+sale+of+Sikkim+State+Lottery+in+Kerala.pdf`
+  title obj_root_law_sources_en_6_title
+obj_root_law_sources_en_6_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1998
 obj_root_law_sources_hi_1998:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1994/3/H1998-17.pdf`)
-  (str title) (str `लाटरी (विनियमन) अधिनियम, 1998`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1994/3/H1998-17.pdf`
+  title `लाटरी (विनियमन) अधिनियम, 1998`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -98,374 +96,451 @@ obj_root_law_sections:
   obj_root_law_sections_12
   obj_root_law_sections_13
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 6733)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Lotteries (Regulation)
-Act, 1998.
-
-(2) It extends to the whole of India.
-
-(3) It shall be deemed to have come into force on the 2nd day of October, 1997.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6733&sectionno=1&orderno=1&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6733)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6733&sectionno=1&orderno=1&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Lotteries (Regulation)`
+  line `Act, 1998.`
+  line
+  line `(2) It extends to the whole of India.`
+  line
+  line `(3) It shall be deemed to have come into force on the 2nd day of October, 1997.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 6734)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless there is anything repugnant in the subject or context,—
-
-(a) "bumper draw of a lottery" means a special draw of lottery conducted on or during any
-festival or other special occasion wherein the prize money offered is greater than the prize money
-offered in the case of other ordinary draw of lotteries;
-
-(b) "lottery" means a scheme, in whatever form and by whatever name called, for distribution of
-prizes by lot or chance to those persons participating in the chances of a prize by purchasing tickets;
-
-(c) "prescribed" means prescribed by rules made under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6734&sectionno=2&orderno=2&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6734)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6734&sectionno=2&orderno=2&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless there is anything repugnant in the subject or context,—`
+  line
+  line `(a) "bumper draw of a lottery" means a special draw of lottery conducted on or during any`
+  line `festival or other special occasion wherein the prize money offered is greater than the prize money`
+  line `offered in the case of other ordinary draw of lotteries;`
+  line
+  line `(b) "lottery" means a scheme, in whatever form and by whatever name called, for distribution of`
+  line `prizes by lot or chance to those persons participating in the chances of a prize by purchasing tickets;`
+  line
+  line `(c) "prescribed" means prescribed by rules made under this Act.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 6735)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Prohibition of lotteries.`)
-  (str content) (str `Save as otherwise provided in section 4, no State Government shall
-organise, conduct or promote any lottery.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6735&sectionno=3&orderno=3&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6735)
+  sectionNo (3)
+  orderNo 3
+  title `Prohibition of lotteries.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6735&sectionno=3&orderno=3&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_3_content:
+  string
+  line `Save as otherwise provided in section 4, no State Government shall`
+  line `organise, conduct or promote any lottery.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 6736)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Conditions subject to which lotteries may be organised, etc.`)
-  (str content) (str `A State Government may
-organise, conduct or promote a lottery, subject to the following conditions, namely:—
-
-(a) prizes shall not be offered on any pre-announced number or on the basis of a single digit;
-
-(b) the State Government shall print the lottery tickets bearing the imprint and logo of the State in
-such manner that the authenticity of the lottery ticket is ensured;
-
-(c) the State Government shall sell the tickets either itself or through distributors or selling
-agents;
-
-(d) the proceeds of the sale of lottery tickets shall be credited into the public account of the State;
-
-(e) the State Government itself shall conduct the draws of all the lotteries;
-
-(f) the prize money unclaimed within such time as may be prescribed by the State Government or
-not otherwise distributed, shall become the property of that Government;
-
-(g) the place of draw shall be located within the State concerned;
-
-(h) no lottery shall have more than one draw in a week;
-
-(i) the draws of all kinds of lotteries shall be conducted between such period of the day as may be
-prescribed by the State Government;
-
-(j) the number of bumper draws of a lottery shall not be more than six in a calendar year;
-
-(k) such other conditions as may be prescribed by the Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6736&sectionno=4&orderno=4&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6736)
+  sectionNo (4)
+  orderNo 4
+  title `Conditions subject to which lotteries may be organised, etc.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6736&sectionno=4&orderno=4&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_4_content:
+  string
+  line `A State Government may`
+  line `organise, conduct or promote a lottery, subject to the following conditions, namely:—`
+  line
+  line `(a) prizes shall not be offered on any pre-announced number or on the basis of a single digit;`
+  line
+  line `(b) the State Government shall print the lottery tickets bearing the imprint and logo of the State in`
+  line `such manner that the authenticity of the lottery ticket is ensured;`
+  line
+  line `(c) the State Government shall sell the tickets either itself or through distributors or selling`
+  line agents;
+  line
+  line `(d) the proceeds of the sale of lottery tickets shall be credited into the public account of the State;`
+  line
+  line `(e) the State Government itself shall conduct the draws of all the lotteries;`
+  line
+  line `(f) the prize money unclaimed within such time as may be prescribed by the State Government or`
+  line `not otherwise distributed, shall become the property of that Government;`
+  line
+  line `(g) the place of draw shall be located within the State concerned;`
+  line
+  line `(h) no lottery shall have more than one draw in a week;`
+  line
+  line `(i) the draws of all kinds of lotteries shall be conducted between such period of the day as may be`
+  line `prescribed by the State Government;`
+  line
+  line `(j) the number of bumper draws of a lottery shall not be more than six in a calendar year;`
+  line
+  line `(k) such other conditions as may be prescribed by the Central Government.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 6737)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Prohibition of sale of ticket in a State.`)
-  (str content) (str `A State Government may, within the State, prohibit the
-sale of tickets of a lottery organised, conducted or promoted by every other State.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6737&sectionno=5&orderno=5&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6737)
+  sectionNo (5)
+  orderNo 5
+  title `Prohibition of sale of ticket in a State.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6737&sectionno=5&orderno=5&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_5_content:
+  string
+  line `A State Government may, within the State, prohibit the`
+  line `sale of tickets of a lottery organised, conducted or promoted by every other State.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 6738)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Prohibition of organisation, etc., of lottery.`)
-  (str content) (str `The Central Government may, by order published
-in the Official Gazette, prohibit a lottery organised, conducted or promoted in contravention of the
-provisions of section 4 or where tickets of such lottery are sold in contravention of the provisions of
-section 5.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6738&sectionno=6&orderno=6&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6738)
+  sectionNo (6)
+  orderNo 6
+  title `Prohibition of organisation, etc., of lottery.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6738&sectionno=6&orderno=6&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_6_content:
+  string
+  line `The Central Government may, by order published`
+  line `in the Official Gazette, prohibit a lottery organised, conducted or promoted in contravention of the`
+  line `provisions of section 4 or where tickets of such lottery are sold in contravention of the provisions of`
+  line `section 5.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 6739)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str Penalty.)
-  (str content) (str `(1) Where a lottery is organised, conducted or promoted after the date on which this Act
-receives the assent of the President, in contravention of the provisions of this Act, by any Department of
-the State Government, the Head of the Department shall be punishable with rigorous imprisonment for a
-term which may extend to two years or with fine or with both:
-
-Provided that nothing contained in this section shall render such Head of the Department liable to any
-punishment if he proves that the contravention was committed without his knowledge or that he exercised
-all due diligence to prevent the commission of such contravention.
-
-(2) Notwithstanding anything contained in sub-section (1), where a contravention under this Act has
-been committed by a Department of Government and it is proved that the contravention has been
-committed with the consent or connivance of, or is attributable to any neglect on the part of, any officer,
-other than the Head of the Department, such officer shall also be deemed to be guilty of that
-contravention and shall be liable to be proceeded against and punished accordingly.
-
-(3) If any person acts as an agent or promoter or trader in any lottery organised, conducted or
-promoted in contravention of the provisions of this Act or sells, distributes or purchases the ticket of such
-lottery, he shall be punishable with rigorous imprisonment for a term which may extend to two years or
-with fine or with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6739&sectionno=7&orderno=7&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6739)
+  sectionNo (7)
+  orderNo 7
+  title Penalty.
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6739&sectionno=7&orderno=7&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_7_content:
+  string
+  line `(1) Where a lottery is organised, conducted or promoted after the date on which this Act`
+  line `receives the assent of the President, in contravention of the provisions of this Act, by any Department of`
+  line `the State Government, the Head of the Department shall be punishable with rigorous imprisonment for a`
+  line `term which may extend to two years or with fine or with both:`
+  line
+  line `Provided that nothing contained in this section shall render such Head of the Department liable to any`
+  line `punishment if he proves that the contravention was committed without his knowledge or that he exercised`
+  line `all due diligence to prevent the commission of such contravention.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), where a contravention under this Act has`
+  line `been committed by a Department of Government and it is proved that the contravention has been`
+  line `committed with the consent or connivance of, or is attributable to any neglect on the part of, any officer,`
+  line `other than the Head of the Department, such officer shall also be deemed to be guilty of that`
+  line `contravention and shall be liable to be proceeded against and punished accordingly.`
+  line
+  line `(3) If any person acts as an agent or promoter or trader in any lottery organised, conducted or`
+  line `promoted in contravention of the provisions of this Act or sells, distributes or purchases the ticket of such`
+  line `lottery, he shall be punishable with rigorous imprisonment for a term which may extend to two years or`
+  line `with fine or with both.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 6740)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Offences to be cognizable and non-bailable.`)
-  (str content) (str `The offence under this Act shall be cognizable and
-non-bailable.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6740&sectionno=8&orderno=8&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6740)
+  sectionNo (8)
+  orderNo 8
+  title `Offences to be cognizable and non-bailable.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6740&sectionno=8&orderno=8&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_8_content:
+  string
+  line `The offence under this Act shall be cognizable and`
+  line non-bailable.
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 6741)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Offences by companies.`)
-  (str content) (str `(1) Where an offence under this Act has been committed by a company,
-every person who at the time the offence was committed was incharge of, and was responsible to, the
-company for the conduct of the business of the company, as well as the company, shall be deemed to be
-guilty of the offence and shall be liable to be proceeded against and punished accordingly:
-
-Provided that nothing contained in this sub-section shall render any such person liable to any
-punishment if he proves that the offence was committed without his knowledge or that he had exercised
-all due diligence to prevent the commission of such offence.
-
-(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been
-committed by a company and it is proved that the offence has been committed with the consent or
-connivance of, or is attributable to, any neglect on the part of, any director, manager, secretary or other
-officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty
-of the offence and shall be liable to be proceeded against and punished accordingly.
-
-Explanation.—For the purposes of this section,—
-
-(a) "company" means any body corporate and includes a firm or other association of individuals;
-and
-
-(b) "director", in relation to a firm, means a partner in the firm.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6741&sectionno=9&orderno=9&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6741)
+  sectionNo (9)
+  orderNo 9
+  title `Offences by companies.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6741&sectionno=9&orderno=9&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_9_content:
+  string
+  line `(1) Where an offence under this Act has been committed by a company,`
+  line `every person who at the time the offence was committed was incharge of, and was responsible to, the`
+  line `company for the conduct of the business of the company, as well as the company, shall be deemed to be`
+  line `guilty of the offence and shall be liable to be proceeded against and punished accordingly:`
+  line
+  line `Provided that nothing contained in this sub-section shall render any such person liable to any`
+  line `punishment if he proves that the offence was committed without his knowledge or that he had exercised`
+  line `all due diligence to prevent the commission of such offence.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been`
+  line `committed by a company and it is proved that the offence has been committed with the consent or`
+  line `connivance of, or is attributable to, any neglect on the part of, any director, manager, secretary or other`
+  line `officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty`
+  line `of the offence and shall be liable to be proceeded against and punished accordingly.`
+  line
+  line `Explanation.—For the purposes of this section,—`
+  line
+  line `(a) "company" means any body corporate and includes a firm or other association of individuals;`
+  line and
+  line
+  line `(b) "director", in relation to a firm, means a partner in the firm.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 6742)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Power to give directions.`)
-  (str content) (str `The Central Government may give directions to the State
-Government as to carrying into execution in the State of any of the provisions of this Act or of any rule or
-order made thereunder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6742&sectionno=10&orderno=10&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6742)
+  sectionNo (10)
+  orderNo 10
+  title `Power to give directions.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6742&sectionno=10&orderno=10&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_10_content:
+  string
+  line `The Central Government may give directions to the State`
+  line `Government as to carrying into execution in the State of any of the provisions of this Act or of any rule or`
+  line `order made thereunder.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 6743)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Power of Central Government to make rules.`)
-  (str content) (str `(1) The Central Government may, by
-notification in the Official Gazette, make rules to carry out the provisions of this Act.
-
-(2) Every rule made by the Central Government shall be laid, as soon as may be after it is made,
-before each House of Parliament, while it is in session, for a total period of thirty days which may be
-comprised in one session or in two or more successive sessions, and if, before the expiry of the session
-immediately following the session or the successive sessions aforesaid, both Houses agree in making any
-modification in the rule, or both Houses agree that the rule should not be made, the rule shall thereafter
-have effect only in such modified form or be of no effect, as the case may be; so, however, that any such
-modification or annulment shall be without prejudice to the validity of anything previously done under
-that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6743&sectionno=11&orderno=11&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6743)
+  sectionNo (11)
+  orderNo 11
+  title `Power of Central Government to make rules.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6743&sectionno=11&orderno=11&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_11_content:
+  string
+  line `(1) The Central Government may, by`
+  line `notification in the Official Gazette, make rules to carry out the provisions of this Act.`
+  line
+  line `(2) Every rule made by the Central Government shall be laid, as soon as may be after it is made,`
+  line `before each House of Parliament, while it is in session, for a total period of thirty days which may be`
+  line `comprised in one session or in two or more successive sessions, and if, before the expiry of the session`
+  line `immediately following the session or the successive sessions aforesaid, both Houses agree in making any`
+  line `modification in the rule, or both Houses agree that the rule should not be made, the rule shall thereafter`
+  line `have effect only in such modified form or be of no effect, as the case may be; so, however, that any such`
+  line `modification or annulment shall be without prejudice to the validity of anything previously done under`
+  line `that rule.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 6744)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Power of State Government to make rules.`)
-  (str content) (str `(1) The State Government may, by notification in
-the Official Gazette, make rules to carry out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:—
-
-(a) time to be fixed for claiming prize money under clause (f) of section 4;
-
-(b) period to be fixed for draws of all lotteries under clause (i) of section 4; and
-
-(c) any other matter which is required to be, or may be, prescribed.
-
-(3) Every rule made by the State Government under this section shall be laid, as soon as may be after
-it is made, before each House of the State Legislature where it consists of two Houses, or where such
-Legislature consists of one House, before that House.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6744&sectionno=12&orderno=12&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6744)
+  sectionNo (12)
+  orderNo 12
+  title `Power of State Government to make rules.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6744&sectionno=12&orderno=12&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_12_content:
+  string
+  line `(1) The State Government may, by notification in`
+  line `the Official Gazette, make rules to carry out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:—`
+  line
+  line `(a) time to be fixed for claiming prize money under clause (f) of section 4;`
+  line
+  line `(b) period to be fixed for draws of all lotteries under clause (i) of section 4; and`
+  line
+  line `(c) any other matter which is required to be, or may be, prescribed.`
+  line
+  line `(3) Every rule made by the State Government under this section shall be laid, as soon as may be after`
+  line `it is made, before each House of the State Legislature where it consists of two Houses, or where such`
+  line `Legislature consists of one House, before that House.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 6745)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Repeal and saving.`)
-  (str content) (str `(1) The Lotteries (Regulation) Ordinance, 1998 (Ord. 6 of 1998), is hereby
-repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance, shall be
-deemed to have been done or taken under the corresponding provisions of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6745&sectionno=13&orderno=13&orgactid=AC_CEN_5_24_00017_199817_1517807323788)
+  sectionId (6745)
+  sectionNo (13)
+  orderNo 13
+  title `Repeal and saving.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00017_199817_1517807323788&sectionId=6745&sectionno=13&orderno=13&orgactid=AC_CEN_5_24_00017_199817_1517807323788
+obj_root_law_sections_13_content:
+  string
+  line `(1) The Lotteries (Regulation) Ordinance, 1998 (Ord. 6 of 1998), is hereby`
+  line repealed.
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance, shall be`
+  line `deemed to have been done or taken under the corresponding provisions of this Act.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `लाटरी (विनियमन) अधिनियम, 1998`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1994/3/H1998-17.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:43:58.949Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `लाटरी (विनियमन) अधिनियम, 1998`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1994/3/H1998-17.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:43:58.949Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `लाटरी (विवियमि) अविवियम, 1998
-( 1998 का अविवियम संखयांक 17 )
-[7 जुलाई, 1998]
-लाटररयों के विवियमि और उिसे संबंवित और
-उिके आिुषंविक विषयों का उपबन्ि
-करिे के वलए
-अविवियम
-भारत िणराज्य के उिचासिें िषष में संसद् द्व ारा विम्ि वलवित रू प में यह अविवियवमत हो: —
-1. संवि प् त िाम, विस्तार और प्र ारंभ — ( 1 ) इस अविवियम का संवि प् त िाम लाटरी (विवियमि) अविवियम, 1998 है।
-( 2 ) इसका विस्तार सम्पूणष भारत पर होिा।
-( 3 ) यह 2 अ क् तू बर, 1997 को प्र िृत्त हु आ समझा जाएिा।
-2. पररभाषाएं — इस अविवियम में, जब तक कक कोई बात विषय या संदभष में विरु द्ध ि हो: —
-(क) “ लाटरी का बम्पर ड्र ॉ ” से लाटरी का ऐसा विशेष ड्र ॉ अवभप्रेत है जो ककसी त् यौहार या अन्य विशेष अिसर पर
-या उसके दौराि विकाला जाता है वजसमें प्रस् थावपत इिाम की ििरावश उस इिाम की ििरावश से अविक होती है जो
-लाटररयों के अन्य सामान्य ड्र ॉ की दशा में प्रस् थावपत की जाती है;
-(ि) “ लाटरी ” से उि व्य वक् त यों को, जो रटकट क्र य करके ककसी इिाम की संभाििाओं में भाि लेते हैं, लाट या
-संभाििा द्व ारा इिामों के वितरण के वलए ककसी भी रू प में और ककसी भी िाम से ज्ञ ात स् कीम अवभप्रेत है;
-(ि) “ विवहत ” से इस अवि वियम के अिीि बिाए िए वियमों द्व ारा विवहत अवभप्रेत है।
-3. लाटररयों का प्र वतषेि — िारा 4 में जैसा अन्यथा उपबंवित है उसके वसिाय, कोई भी राज्य सरकार, ककसी लाटरी को
-आयोवजत, संचावलत या संप्रिर्तषत िहीं करेिी।
-4. िे शतें वजिके अिीि लाटररयां आयोवजत, आकद की जा स केंिी — कोई राज्य सरकार, विम्ि वलवित शतों के अिीि रहते हु
-ए, ककसी लाटरी को आयोवजत, संचावलत या संप्रिर्तषत कर सकेिी, अथाषत्: —
-(क) इिाम ककसी पूिष घोवषत संखयांक पर या ककसी एकल अंक के आिार पर प्रस् थावपत िहीं ककए जाएंिे;
-(ि) राज्य सरकार, राज्य की मोहर और िाम िाले लाटरी रटकट, ऐसी रीवत से मुकित कराएिी वजससे कक लाटरी
-के रटकट की प्र मावणकता सुवि वच त हो सके;
-(ि) राज्य सरकार, रटकटों का विक्रय या तो स् ियं करेिी या वितरकों या विक्रय अवभकताषओं की मार्षत कराएिी;
-(घ) लाटररयों की रटकटों के विक्रय के आिम राज्य के लोक लेिा में जमा ककया जाएिा;
-( ङ ) राज्य सरकार सभी लाटररयों के ड्र ॉ स् ियं विकालेिी;
-(च) िह इिामी िि, वजसका दािा ऐसे समय के भीतर िहीं ककया जाता है जो राज्य सरकार द्व ारा विवहत ककया
-जाए या वजसका अन्यथा वितरण िहीं ककया जाता है, उस सरकार की संपवत्त हो जाएिा;
-(छ) ड्र ॉ का स् थाि संबद्ध राज्य के भीतर अिवस्थत होिा;
-(ज) ककसी लाटरी के ककसी स प् ता ह में एक से अविक ड्र ॉ िहीं होंिे;
-(झ) सभी प्र कार की लाटररयों के ड्र ॉ कदि की ककसी ऐसी अिवि के बीच विकाले जाएंिे जो राज्य सरकार द्व ारा
-विवहत की जाए;
-(ञ) ककसी लाटरी के बम्पर ड्र ॉ की संखया ककसी कलैंडर िषष में छह से अविक िहीं होिी;
-(ट) ऐसी अन्य शतें जो केन्िीय सरकार द्व ारा विवहत की जाएं।
-5. ककसी राज्य में रटकट के विक्रय का प्र वतषेि — कोई राज्य सरकार, राज्य के भीतर प्रत् येक अन्य राज्य द्व ारा आयोवजत,
-संचावलत या संप्र िर्तषत ककसी लाटरी के रटकटों के विक्रय का प्र वतषेि कर सकेिी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `लाटरी (विवियमि) अविवियम, 1998`
+  line `( 1998 का अविवियम संखयांक 17 )`
+  line `[7 जुलाई, 1998]`
+  line `लाटररयों के विवियमि और उिसे संबंवित और`
+  line `उिके आिुषंविक विषयों का उपबन्ि`
+  line `करिे के वलए`
+  line अविवियम
+  line `भारत िणराज्य के उिचासिें िषष में संसद् द्व ारा विम्ि वलवित रू प में यह अविवियवमत हो: —`
+  line `1. संवि प् त िाम, विस्तार और प्र ारंभ — ( 1 ) इस अविवियम का संवि प् त िाम लाटरी (विवियमि) अविवियम, 1998 है।`
+  line `( 2 ) इसका विस्तार सम्पूणष भारत पर होिा।`
+  line `( 3 ) यह 2 अ क् तू बर, 1997 को प्र िृत्त हु आ समझा जाएिा।`
+  line `2. पररभाषाएं — इस अविवियम में, जब तक कक कोई बात विषय या संदभष में विरु द्ध ि हो: —`
+  line `(क) “ लाटरी का बम्पर ड्र ॉ ” से लाटरी का ऐसा विशेष ड्र ॉ अवभप्रेत है जो ककसी त् यौहार या अन्य विशेष अिसर पर`
+  line `या उसके दौराि विकाला जाता है वजसमें प्रस् थावपत इिाम की ििरावश उस इिाम की ििरावश से अविक होती है जो`
+  line `लाटररयों के अन्य सामान्य ड्र ॉ की दशा में प्रस् थावपत की जाती है;`
+  line `(ि) “ लाटरी ” से उि व्य वक् त यों को, जो रटकट क्र य करके ककसी इिाम की संभाििाओं में भाि लेते हैं, लाट या`
+  line `संभाििा द्व ारा इिामों के वितरण के वलए ककसी भी रू प में और ककसी भी िाम से ज्ञ ात स् कीम अवभप्रेत है;`
+  line `(ि) “ विवहत ” से इस अवि वियम के अिीि बिाए िए वियमों द्व ारा विवहत अवभप्रेत है।`
+  line `3. लाटररयों का प्र वतषेि — िारा 4 में जैसा अन्यथा उपबंवित है उसके वसिाय, कोई भी राज्य सरकार, ककसी लाटरी को`
+  line `आयोवजत, संचावलत या संप्रिर्तषत िहीं करेिी।`
+  line `4. िे शतें वजिके अिीि लाटररयां आयोवजत, आकद की जा स केंिी — कोई राज्य सरकार, विम्ि वलवित शतों के अिीि रहते हु`
+  line `ए, ककसी लाटरी को आयोवजत, संचावलत या संप्रिर्तषत कर सकेिी, अथाषत्: —`
+  line `(क) इिाम ककसी पूिष घोवषत संखयांक पर या ककसी एकल अंक के आिार पर प्रस् थावपत िहीं ककए जाएंिे;`
+  line `(ि) राज्य सरकार, राज्य की मोहर और िाम िाले लाटरी रटकट, ऐसी रीवत से मुकित कराएिी वजससे कक लाटरी`
+  line `के रटकट की प्र मावणकता सुवि वच त हो सके;`
+  line `(ि) राज्य सरकार, रटकटों का विक्रय या तो स् ियं करेिी या वितरकों या विक्रय अवभकताषओं की मार्षत कराएिी;`
+  line `(घ) लाटररयों की रटकटों के विक्रय के आिम राज्य के लोक लेिा में जमा ककया जाएिा;`
+  line `( ङ ) राज्य सरकार सभी लाटररयों के ड्र ॉ स् ियं विकालेिी;`
+  line `(च) िह इिामी िि, वजसका दािा ऐसे समय के भीतर िहीं ककया जाता है जो राज्य सरकार द्व ारा विवहत ककया`
+  line `जाए या वजसका अन्यथा वितरण िहीं ककया जाता है, उस सरकार की संपवत्त हो जाएिा;`
+  line `(छ) ड्र ॉ का स् थाि संबद्ध राज्य के भीतर अिवस्थत होिा;`
+  line `(ज) ककसी लाटरी के ककसी स प् ता ह में एक से अविक ड्र ॉ िहीं होंिे;`
+  line `(झ) सभी प्र कार की लाटररयों के ड्र ॉ कदि की ककसी ऐसी अिवि के बीच विकाले जाएंिे जो राज्य सरकार द्व ारा`
+  line `विवहत की जाए;`
+  line `(ञ) ककसी लाटरी के बम्पर ड्र ॉ की संखया ककसी कलैंडर िषष में छह से अविक िहीं होिी;`
+  line `(ट) ऐसी अन्य शतें जो केन्िीय सरकार द्व ारा विवहत की जाएं।`
+  line `5. ककसी राज्य में रटकट के विक्रय का प्र वतषेि — कोई राज्य सरकार, राज्य के भीतर प्रत् येक अन्य राज्य द्व ारा आयोवजत,`
+  line `संचावलत या संप्र िर्तषत ककसी लाटरी के रटकटों के विक्रय का प्र वतषेि कर सकेिी।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-6. लाटरी के आयोजि, आकद का प्र वतषेि — केन्िीय सरकार, राजपत्र में प्र कावशत आदेश द्व ारा, िारा 4 के उपबंिों के उल्लंघि
-में आयोवजत, संचावलत या संप्रिर्तषत ककसी लाटरी का या िहां जहां ऐसी लाटरी के रटकटों का विक्रय िा रा 5 के उपबंिों के उ ल् लंघि में
-ककया जाता है, प्र वतषेि कर सकेिी।
-7. शावस्त — ( 1 ) जहां कोई लाटरी उस तारीि के प चा त् वजसको इस अविवियम को रा ष्‍ट र पवत की अिुमवत प्र ा प् त होती है,
-राज्य सरकार के ककसी विभाि द्व ारा इस अविवियम के उपबंिों के उल्लंघि में आयोवजत, संचावलत या संप्रिर्तषत की जाती है िहां उस
-विभाि का अध्यि ऐसे कठोर कारािास से वजसकी अिवि दो िषष तक की हो सकेिी या जुमाषिे से या दोिों से दंडिीय होिा:
-परंतु इस िारा की कोई बात उस विभाि के ऐसे अध्यि को ककसी दंड का भािी िहीं बिाएिी यकद िह यह सावबत कर देता
-है कक उ क् त उल्लंघि उसकी जािकारी के वबिा ककया िया था या उसिे ऐसे उल्लंघि के ककए जािे का वििारण करिे के वलए सभी
-सम्यक् तत्परता बरती थी।
-( 2 ) उपिारा ( 1 ) में ककसी बात के होते हु ए भी जहां इस अविवियम के अिीि कोई उल्लंघि सरकार के ककसी विभाि द्व ारा
-ककया िया है और यह सावबत हो जाता है कक उ क् त उल्लंघि उस विभाि के, अध्यि से वभ न् ि ककसी अविकारी की सम्मवत से या उसकी
-मौिािुकूलता से ककया िया है या उस उल्लंघि का ककया जािा उसकी ककसी उपेिा के कारण मािा जा सकता है तो ऐसा अविकारी भी
-उस उल्लंघि का दोषी समझा जाएिा और तद्िुसार अपिे विरुद्ध कायषिाही ककए जािे और दंवडत ककए जािे का भािी होिा।
-( 3 ) यकद कोई व्य वक् त, इस अविवियम के उपबंिों के उल्लंघि में आयोवजत, संचावलत या संप्रिर्तषत ककसी लाटरी के ककसी
-अवभकताष, संप्रितषक या व्य ापारी के रू प में कायष करेिा, या ऐसी लाटरी के रटकट का विक्रय, वितरण या क्र य करेिा तो ि ह कठोर
-कारािास से, वजसकी अिवि दो िषष तक की हो सकेिी, या जुमाषिे से, अथिा दोिों से, दंडिीय होिा।
-8. अपरािों का संज्ञेय और अजमाितीय होिा — इस अविवियम के अिीि अपराि संज्ञेय और अजमाितीय होंिे।
-9. कम्पवियों द्व ारा अपराि — ( 1 ) जहां इस अविवियम के अिीि कोई अपराि ककसी कम्पिी द्व ारा ककया िया है, िहां ऐसा प्रत्
-येक व्य वक् त, जो अपराि के ककए जािे के समय उस कम्पिी के कारबार के संचालि के वलए उस कम्पिी का भारसािक और उसके प्र
-वत उत्तरदायी था और साथ ही िह कम्पिी भी, ऐसे अपराि के दोषी समझे जाएंिे और तद्िुसार अपिे विरुद्ध कायषिाही ककए जा िे
-और दंवडत ककए जािे के भािी होंिे:
-परन्तु इस उपिारा की कोई बात, ककसी ऐसे व्य वक् त को दंड का भािी िहीं बिाएिी यकद िह यह सावबत कर देता है कक
-अपराि उसकी जािकारी के वबिा ककया िया था या उसिे ऐसे अपराि के कक ए जािे का वििारण करिे के वलए सब सम्यक् तत्परता
-बरती थी।
-( 2 ) उपिारा ( 1 ) में ककसी बात के होते हु ए भी, जहां इस अविवियम के अिीि कोई अपराि, ककसी कम्पिी द्व ारा ककया िया
-है और यह सावबत हो जाता है कक िह अपराि कम्पिी के ककसी विदेशक, प्र बंिक, सवचि या अन्य अविकारी की सहमवत या
-मौिािुकूलता से ककया िया है या उसकी ककसी उपेिा के कारण मािा जा सकता है, िहां ऐसा विदे शक, प्र बंिक, सवचि या अन्य
-अविकारी भी उस अपराि का दोषी समझा जाएिा और तद्िुसार अपिे विरुद्ध कायषिाही ककए जािे और दंवडत ककए जािे का
-भािी होिा। स्
-प ष्‍ट टी करण — इस िारा के प्र योजिों के वलए, —
-(क) “ कम्पिी ” से कोई वििवमत विकाय अवभप्रेत है और इसके अंतिषत र् मष या व्य वष्‍टट यों का अन्य संिम है; और
-(ि) र् मष के संबंि में, “ विदेशक ” से उस र् मष का भािीदार अवभप्रेत है।
-10. विदेश देिे की श वक्त — केन्िीय सरकार, राज्य सरकार को उस राज्य में इस अविवियम के ककन्हीं उपबंिों या उसके
-अिीि बिाए िए ककसी वियम को या ककए िए ककसी आदेश को विष्‍टपाकदत करिे के बारे में विदेश दे सकेिी।
-11. वियम बिािे की केन्िीय सरकार की श वक्त — ( 1 ) केन्िीय सरकार, इस अविवियम के उपबंिों को कायाषवन्ित करिे के
-वलए वियम, राजपत्र में अविसूचिा द्व ारा, बिा सकेिी।
-( 2 ) केन्िीय सरकार द्व ारा बिाया िया प्रत् ये क वियम, बिाए जािे के प चा त् यथाशीघ्र, संसद् के प्रत् येक स दि के समि, जब
-िह सत्र में हो, कुल तीस कदि की अिवि के वलए रिा जाएिा। यह अिवि एक सत्र में अथिा दो या अविक आिुक्रवमक सत्रों में पू री हो
-सकेिी। यकद उस सत्र के या पूिो क् त आिुक्रवमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिष दोिों सदि उस वियम में कोई परर ितषि
-करिे के वलए सहमत हो जाएं तो तत्प चा त् िह ऐसे पररिर्तषत रू प में ही प्र भािी होिा। यकद उ क् त अिसाि के पूिष दो िों सदि सहम त
-हो जाएं कक िह वियम िहीं बिाया जािा चावहए तो तत्प चा त् िह विष्‍टप्रभा ि हो जाएिा। ककन्तु उस वियम के ऐसे पररिर्तष त या
-विष्‍टप्रभाि होिे से उसके अिीि पहले की िई ककसी बात की विविमान्यता पर प्र वतकूल प्र भाि िहीं पडेिा।
-12. वियम बिािे की राज्य सरकार की श वक्त — ( 1 ) राज्य सरकार, इस अविवियम के उपबंिों को कायाषवन्ित करिे के वलए
-वियम, राजपत्र में अविसूचिा द्व ारा, बिा सकेिी।
-( 2 ) विवश ष्‍ट ट तया और पूिषिामी श वक् त की व्य ापकता पर प्र वतकूल प्र भाि डाले वबिा, ऐसे वियम विम्ि वलवित सभी या ककन्हीं
-विषयों के वलए उपबंि कर सकेंिे, अथाषत्: —`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `6. लाटरी के आयोजि, आकद का प्र वतषेि — केन्िीय सरकार, राजपत्र में प्र कावशत आदेश द्व ारा, िारा 4 के उपबंिों के उल्लंघि`
+  line `में आयोवजत, संचावलत या संप्रिर्तषत ककसी लाटरी का या िहां जहां ऐसी लाटरी के रटकटों का विक्रय िा रा 5 के उपबंिों के उ ल् लंघि में`
+  line `ककया जाता है, प्र वतषेि कर सकेिी।`
+  line `7. शावस्त — ( 1 ) जहां कोई लाटरी उस तारीि के प चा त् वजसको इस अविवियम को रा ष्‍ट र पवत की अिुमवत प्र ा प् त होती है,`
+  line `राज्य सरकार के ककसी विभाि द्व ारा इस अविवियम के उपबंिों के उल्लंघि में आयोवजत, संचावलत या संप्रिर्तषत की जाती है िहां उस`
+  line `विभाि का अध्यि ऐसे कठोर कारािास से वजसकी अिवि दो िषष तक की हो सकेिी या जुमाषिे से या दोिों से दंडिीय होिा:`
+  line `परंतु इस िारा की कोई बात उस विभाि के ऐसे अध्यि को ककसी दंड का भािी िहीं बिाएिी यकद िह यह सावबत कर देता`
+  line `है कक उ क् त उल्लंघि उसकी जािकारी के वबिा ककया िया था या उसिे ऐसे उल्लंघि के ककए जािे का वििारण करिे के वलए सभी`
+  line `सम्यक् तत्परता बरती थी।`
+  line `( 2 ) उपिारा ( 1 ) में ककसी बात के होते हु ए भी जहां इस अविवियम के अिीि कोई उल्लंघि सरकार के ककसी विभाि द्व ारा`
+  line `ककया िया है और यह सावबत हो जाता है कक उ क् त उल्लंघि उस विभाि के, अध्यि से वभ न् ि ककसी अविकारी की सम्मवत से या उसकी`
+  line `मौिािुकूलता से ककया िया है या उस उल्लंघि का ककया जािा उसकी ककसी उपेिा के कारण मािा जा सकता है तो ऐसा अविकारी भी`
+  line `उस उल्लंघि का दोषी समझा जाएिा और तद्िुसार अपिे विरुद्ध कायषिाही ककए जािे और दंवडत ककए जािे का भािी होिा।`
+  line `( 3 ) यकद कोई व्य वक् त, इस अविवियम के उपबंिों के उल्लंघि में आयोवजत, संचावलत या संप्रिर्तषत ककसी लाटरी के ककसी`
+  line `अवभकताष, संप्रितषक या व्य ापारी के रू प में कायष करेिा, या ऐसी लाटरी के रटकट का विक्रय, वितरण या क्र य करेिा तो ि ह कठोर`
+  line `कारािास से, वजसकी अिवि दो िषष तक की हो सकेिी, या जुमाषिे से, अथिा दोिों से, दंडिीय होिा।`
+  line `8. अपरािों का संज्ञेय और अजमाितीय होिा — इस अविवियम के अिीि अपराि संज्ञेय और अजमाितीय होंिे।`
+  line `9. कम्पवियों द्व ारा अपराि — ( 1 ) जहां इस अविवियम के अिीि कोई अपराि ककसी कम्पिी द्व ारा ककया िया है, िहां ऐसा प्रत्`
+  line `येक व्य वक् त, जो अपराि के ककए जािे के समय उस कम्पिी के कारबार के संचालि के वलए उस कम्पिी का भारसािक और उसके प्र`
+  line `वत उत्तरदायी था और साथ ही िह कम्पिी भी, ऐसे अपराि के दोषी समझे जाएंिे और तद्िुसार अपिे विरुद्ध कायषिाही ककए जा िे`
+  line `और दंवडत ककए जािे के भािी होंिे:`
+  line `परन्तु इस उपिारा की कोई बात, ककसी ऐसे व्य वक् त को दंड का भािी िहीं बिाएिी यकद िह यह सावबत कर देता है कक`
+  line `अपराि उसकी जािकारी के वबिा ककया िया था या उसिे ऐसे अपराि के कक ए जािे का वििारण करिे के वलए सब सम्यक् तत्परता`
+  line `बरती थी।`
+  line `( 2 ) उपिारा ( 1 ) में ककसी बात के होते हु ए भी, जहां इस अविवियम के अिीि कोई अपराि, ककसी कम्पिी द्व ारा ककया िया`
+  line `है और यह सावबत हो जाता है कक िह अपराि कम्पिी के ककसी विदेशक, प्र बंिक, सवचि या अन्य अविकारी की सहमवत या`
+  line `मौिािुकूलता से ककया िया है या उसकी ककसी उपेिा के कारण मािा जा सकता है, िहां ऐसा विदे शक, प्र बंिक, सवचि या अन्य`
+  line `अविकारी भी उस अपराि का दोषी समझा जाएिा और तद्िुसार अपिे विरुद्ध कायषिाही ककए जािे और दंवडत ककए जािे का`
+  line `भािी होिा। स्`
+  line `प ष्‍ट टी करण — इस िारा के प्र योजिों के वलए, —`
+  line `(क) “ कम्पिी ” से कोई वििवमत विकाय अवभप्रेत है और इसके अंतिषत र् मष या व्य वष्‍टट यों का अन्य संिम है; और`
+  line `(ि) र् मष के संबंि में, “ विदेशक ” से उस र् मष का भािीदार अवभप्रेत है।`
+  line `10. विदेश देिे की श वक्त — केन्िीय सरकार, राज्य सरकार को उस राज्य में इस अविवियम के ककन्हीं उपबंिों या उसके`
+  line `अिीि बिाए िए ककसी वियम को या ककए िए ककसी आदेश को विष्‍टपाकदत करिे के बारे में विदेश दे सकेिी।`
+  line `11. वियम बिािे की केन्िीय सरकार की श वक्त — ( 1 ) केन्िीय सरकार, इस अविवियम के उपबंिों को कायाषवन्ित करिे के`
+  line `वलए वियम, राजपत्र में अविसूचिा द्व ारा, बिा सकेिी।`
+  line `( 2 ) केन्िीय सरकार द्व ारा बिाया िया प्रत् ये क वियम, बिाए जािे के प चा त् यथाशीघ्र, संसद् के प्रत् येक स दि के समि, जब`
+  line `िह सत्र में हो, कुल तीस कदि की अिवि के वलए रिा जाएिा। यह अिवि एक सत्र में अथिा दो या अविक आिुक्रवमक सत्रों में पू री हो`
+  line `सकेिी। यकद उस सत्र के या पूिो क् त आिुक्रवमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिष दोिों सदि उस वियम में कोई परर ितषि`
+  line `करिे के वलए सहमत हो जाएं तो तत्प चा त् िह ऐसे पररिर्तषत रू प में ही प्र भािी होिा। यकद उ क् त अिसाि के पूिष दो िों सदि सहम त`
+  line `हो जाएं कक िह वियम िहीं बिाया जािा चावहए तो तत्प चा त् िह विष्‍टप्रभा ि हो जाएिा। ककन्तु उस वियम के ऐसे पररिर्तष त या`
+  line `विष्‍टप्रभाि होिे से उसके अिीि पहले की िई ककसी बात की विविमान्यता पर प्र वतकूल प्र भाि िहीं पडेिा।`
+  line `12. वियम बिािे की राज्य सरकार की श वक्त — ( 1 ) राज्य सरकार, इस अविवियम के उपबंिों को कायाषवन्ित करिे के वलए`
+  line `वियम, राजपत्र में अविसूचिा द्व ारा, बिा सकेिी।`
+  line `( 2 ) विवश ष्‍ट ट तया और पूिषिामी श वक् त की व्य ापकता पर प्र वतकूल प्र भाि डाले वबिा, ऐसे वियम विम्ि वलवित सभी या ककन्हीं`
+  line `विषयों के वलए उपबंि कर सकेंिे, अथाषत्: —`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-(क) िारा 4 के िंड (च) के अिीि इिामी िि का दािा करिे के वल ए समय वियत करिा;
-(ि) िारा 4 के िंड (झ) के अिीि सभी लाटररयों के ड्र ॉ विकाले जािे के वलए अिवि विय त करिा; और
-(ि) कोई अन्य विषय जो विवहत ककया जािा अपेवित हो या वि वहत ककया जाए।
-( 3 ) इस िारा के अिीि राज्य सरकार द्व ारा बिाया िया प्रत् येक वियम बिाए जािे के प चा त् यथाशीघ्र जहां राज्य
-वििाि - मंडल के दो स दि हैं, िहां प्रत् येक सदि के समि, या जहां राज्य वििाि - मं डल का एक सदि है, िहां उस सदि के समि
-रिा जाएिा।
-13. विरसि और व्य ािृवत्त — ( 1 ) लाटरी (विवियमि) अध्यादेश, 1998 ( 1998 का अध्यादेश संखयांक 6 ) इ सके द्व ारा विरवसत
-ककया जाता है।
-( 2 ) ऐसे विरसि के होते हु ए भी, उ क् त अध्यादेश के अिीि की िई कोई बात या कारषिाई इस अविवियम के तत्स्थािी उ पबंिों
-के अिीि की िई समझी जाएिी।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `(क) िारा 4 के िंड (च) के अिीि इिामी िि का दािा करिे के वल ए समय वियत करिा;`
+  line `(ि) िारा 4 के िंड (झ) के अिीि सभी लाटररयों के ड्र ॉ विकाले जािे के वलए अिवि विय त करिा; और`
+  line `(ि) कोई अन्य विषय जो विवहत ककया जािा अपेवित हो या वि वहत ककया जाए।`
+  line `( 3 ) इस िारा के अिीि राज्य सरकार द्व ारा बिाया िया प्रत् येक वियम बिाए जािे के प चा त् यथाशीघ्र जहां राज्य`
+  line `वििाि - मंडल के दो स दि हैं, िहां प्रत् येक सदि के समि, या जहां राज्य वििाि - मं डल का एक सदि है, िहां उस सदि के समि`
+  line `रिा जाएिा।`
+  line `13. विरसि और व्य ािृवत्त — ( 1 ) लाटरी (विवियमि) अध्यादेश, 1998 ( 1998 का अध्यादेश संखयांक 6 ) इ सके द्व ारा विरवसत`
+  line `ककया जाता है।`
+  line `( 2 ) ऐसे विरसि के होते हु ए भी, उ क् त अध्यादेश के अिीि की िई कोई बात या कारषिाई इस अविवियम के तत्स्थािी उ पबंिों`
+  line `के अिीि की िई समझी जाएिी।`
+  line ______
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

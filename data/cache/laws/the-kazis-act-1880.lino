@@ -1,150 +1,263 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:25:39.890Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2290`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 0)
-  (str totalSections) (int 0)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T17:41:47.979Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2290`
+  completeFetch true
+  maxSections null
+  sectionCount 3
+  totalSections 0
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-kazis-act-1880)
-  (str handle) (str 2290)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Kazis Act, 1880`)
-  (str actNumber) (str 12)
-  (str enactmentDate) (str 1880-07-09)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2290`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `काज़ी अधिनियम,1880`)
-  (str actYear) (str 1880)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Legislative Department`)
-  (str longTitle) (str `An Act for the appointment of persons to the Office of Kazi.`)
-  (str enforcementDate) (str 09-07-1880)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T16:19:18.750Z`)
-  (str translations) obj_root_law_translations
+  slug the-kazis-act-1880
+  handle (2290)
+  collectionHandle 123456789/1362
+  title `The Kazis Act, 1880`
+  actNumber (12)
+  enactmentDate 1880-07-09
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2290`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `काज़ी अधिनियम,1880`
+  actYear (1880)
+  ministry `Ministry of Law and Justice`
+  department `Legislative Department`
+  longTitle `An Act for the appointment of persons to the Office of Kazi.`
+  enforcementDate 09-07-1880
+  notification undefined
+  fetchedAt `2026-05-10T11:25:39.890Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_kazis_act_1880
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2290`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2290`
 obj_root_law_sources_en_the_kazis_act_1880:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2290/1/a1880-12.pdf`)
-  (str title) (str `The Kazis Act, 1880`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2290/1/a1880-12.pdf`
+  title `The Kazis Act, 1880`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1880
 obj_root_law_sources_hi_1880:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2290/2/H1880-12.pdf`)
-  (str title) (str `काज़ी अधिनियम,1880`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2290/2/H1880-12.pdf`
+  title `काज़ी अधिनियम,1880`
 obj_root_law_sections:
-  array
+  obj_root_law_sections_1
+  obj_root_law_sections_2
+  obj_root_law_sections_3
+obj_root_law_sections_1:
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  sourcePage 1
+obj_root_law_sections_1_content:
+  string
+  line 1
+  line `THE KAZIS ACT, 1880`
+  line _________
+  line `ARRANGEMENT OF SECTIONS`
+  line ________
+  line `S ECTIONS`
+  line `1. Short title.`
+  line `Local extent.`
+  line `2. Power to appoint Kazis for any local area.`
+  line `3. Naib Kazis.`
+  line `4. Nothing in Act to confer judicial or administrative powers; or to render the presence of Kazi`
+  line `necessary; or to prevent any one acting as Kazi.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
+obj_root_law_sections_2:
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  sourcePage 2
+obj_root_law_sections_2_content:
+  string
+  line 2
+  line `THE KAZIS ACT, 1880`
+  line `A CT N O.12 OF 1880 1`
+  line `[9 th July, 1880. ]`
+  line `An Act for the appointment of persons to the Office of Kazi ’.`
+  line `W HEREAS by the preamble to Act No. 11 of 1864 2 ( An Act to repeal the law relating to t he offices of`
+  line `Hindu and Muhamma dan Law officers and to the offices of Kazi ’ - ul - Kuzaat and of Kazi ’, and to abolish`
+  line `the former offices ) it was (among other things) declared that it was declared that it was inexpedient that`
+  line `the appointment of the Kazi - ul - Kuzaat, or of City, Town or Pargana Kazi ’ s should be made by the`
+  line `Government, and by the same Act the enactments relating to the appointment by the Government of the`
+  line `said officers were repealed; and whereas by the usage of the Muhammad an community in some parts of`
+  line `3 [ India ] the presence of Kazi ’ s a ppointed by the G overnment is required at the celebration of marriages`
+  line `and the performance of certain other rites and ceremonies, and it is therefore expedient that the`
+  line `Government should again be empowered to appoint persons to the office of Kazi; It is he reby enacted as`
+  line `follows: —`
+  line `1. Short title. — This Act may be called the Kazi ’ s Act, 1880;`
+  line `4 * * * * *`
+  line `Local extent. — It extends, in the first instance, only to the territories administered by the Governor of`
+  line `Fort Saint George in Council. 5 [ But the Government of any other State ] may, from time to time, by`
+  line `notification in the Official Gazette, extend it to the whole or any part of the territories under its`
+  line `administration. 6`
+  line `2. Power to appoint Kazi ’ s for any local area. — Wherever it appears to the State Government that`
+  line `any considerable number of the Muhammadans resident in any local area desire that one or more Ka ’ zi ’ s`
+  line `should be appointed for such local area, the State Government may, if it thinks fit, after consulting the`
+  line `principal Muhammadan residents of such local area, select one or more fit persons and appoint him or`
+  line `them to be Kazi ’ s for such local area.`
+  line `If any question arises whether any person has been rightly appointed Kazi ’ under this section, the`
+  line `decision thereof by the State Government shall be conclusive.`
+  line `The State Government may, if it thinks fit, suspend or remove any Kazi ’ appointed under this section`
+  line `who is guilty of any misconduct in the execution of his office, or w ho is for a continuous period of six`
+  line `months absent from the local area for which he is appointed, or leaves such local area for the purpose of`
+  line `residing elsewhere, or is declared an insolvent, or desires to be discharged from the office, or who refuses`
+  line `or b ecomes in the opinion of the State Government unfit, or personally incapable, to discharge the duties`
+  line `of the office.`
+  line `1. The Act has been extended to the Union territory of Lakshadweep by Reg. 2 of 1970, s. 2 and the Schedule (w.e.f. 15 - 10 - 1970)`
+  line `and to the Union territory of Pondicherry by Act 26 of 1968, s. 3 and the Schedule.`
+  line `2. Rep.by Act 8 of 1868.`
+  line `3. Subs. by the A.O. 1950, for “the Provinces”.`
+  line `4. The words “and it shall come into force at once” omitted by Act 10 of 1914, s. 3and II Schedule.`
+  line `5. Subs. by Act 3 of 1951, s. 3 and the Schedule, f or “But the Government of any other Part A State or the Government of a`
+  line `Part C State”.`
+  line `6. The Act has been extended to certain places in the Bombay Presidency, West Bengal, t he U.P., t he Punjab, t he C.P. and`
+  line Assam.
+obj_root_law_sections_2_footnotes:
+  string
+  line
+obj_root_law_sections_3:
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  sourcePage 3
+obj_root_law_sections_3_content:
+  string
+  line 3
+  line `3. Naib Kazi ’ s. — Any Kazi ’ appointed under this Act may appoint one or more persons as his Naib`
+  line `or Naibs to act in his place in all or any of the matters appertaining to his office throughout the whole or`
+  line `in any portion of the local area for which he is appointed, and may suspend o r remove any naib so`
+  line appointed.
+  line `When any Kazi ’ is suspended or removed under section 2, his naib or naibs (if any) shall be deemed`
+  line `to be suspended or removed, as the case may be.`
+  line `4. Nothing in Act to confer judicial or administrative powers; or to render the presence of`
+  line `Kazi ’ s necessary; or to prevent any one acting as Kazi ’ s. — Nothing herein contained, and no`
+  line `appointment m ade hereunder, shall be deemed —`
+  line `( a ) to confer any judicial or administrative powers on any Kazi ’ or Naib Kazi ’ appointed`
+  line `hereunder; or`
+  line `( b ) to render the presence of a Kazi ’ or Naib Kazi ’ necessary at the celebration of any marriage or`
+  line `the perf ormance of any rite or ceremony; or`
+  line `( c ) to prev ent any person discharging any of the functions of a Kazi ’.`
+  line __________
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `काज़ी अधिनियम,1880`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2290/2/H1880-12.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:25:38.789Z`)
-  (str pageCount) (int 2)
-  (str sections) obj_root_law_translations_hi_sections
+  title `काज़ी अधिनियम,1880`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2290/2/H1880-12.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:25:38.789Z`
+  pageCount 2
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `काज़ी अधिधियम, 1 880
-( 1 880 का अधिधियम संखयां क 12 ) 1
-[ 9 जुलाई, 1880 ]
-काज़ी के पद पर व् य धि यों की
-धियुधि के धलए
-अधिधियम
-2 1864 के अधिधियम सं ० 11 की उद्देधिका )धि न् दू िथा मुसलमाि धिधि अधिकाररयों के पदों से और काज़ी - उल - कुज्जा ि के
-और काज़ी के पदों से सं बंधिि धिधि का धिरसि करिे िथा भूिपूिव पदों को उत्सा दद ि करिे के धलए अधिधियम ) द्व ारा )अन्य बािों के
-साथ - साथ( यि घोधिि दकया गया था दक काज़ी - उल - कुज्जा ि या िगर, ििर या परगिा काधजयों की सरकार द्व ारा धियुधि असम़ीच़ीि
-िै, और उस़ी अधिधियम द्व ारा उि अधिकाररयों की सरकार द्व ारा धियुधि से संबंधिि अधिधियधमधियां धिरधसि की गई थीं; और
-3 [ भारि ] के कुछ भागों में मुसलमाि समाज की प्र था द्व ारा, सरकार द्व ारा धियुि काधजयों की उपधथ धि धिकािों के अिसर पर िथा
-कधिपय अन्य िार्मवक कृत् यों िथा कमों के दकए जािे में अपेधि ि िोि़ी िै और इसधलए यि सम़ीच़ीि िै दक सरकार को काज़ी के पद पर व्
-य धि यों की धियुधि करिे के धलए पुि: सिि दकया जािा चाधिए;
-अि: एिद द्व ारा धिम्ि धलधिि रू प में यि अधिधियधमि दकया जािा िै: 
-1. संधिप्ि िाम  इस अधिधियम का संधिप् ि िाम काज़ी अधिधियम, 1880 िै।
-4 * * * * *
-था ि़ीय धििा र  इसका धििा र प्र थमि: केिल फोर्व सेंर् जाजव के सपररिद गििवर द्व ारा प्र िाधसि राज्य िेत्रों पर िै।
-5 [ दकन्िु दकस़ी अन्य राज्य की सरकार ] राजपत्र में अधिसूचिा द्व ारा समय - समय पर उसे अपिे 6 प्र िासिाि़ी ि संपूर्व राज्य िेत्रों पर या
-उिके दकस़ी भाग पर धििा ररि कर सकेग़ी।
-2. दकस़ी था ि़ीय िेत्र के धलए काधजयों की धियुधि करिे की िधि  जिां किीं राज्य सरकार को यि प्र ि़ीि िोिा िै दक
-दकस़ी था ि़ीय िेत्र में पयावप्ि संखया में मुसलमाि धििास़ी यि चाििे िैं दक ऐसे था ि़ीय िेत्र के धलए एक या अधिक काधजयों को
-धियुि दकया जािा चाधिए, ििां राज्य सरकार, यदद िि उधचि समझे, िो ऐसे था ि़ीय िेत्र के प्र मुि मुसलमाि धििाधसयों से परामिव
-करिे के पश्चा ि एक या अधिक योग्य व् य धि यों का चयि कर सकेग़ी िथा उसे या उन्िें ऐसे था ि़ीय िेत्र के धलए काधजयों के रू प में
-धियुि कर सकेग़ी।
-यदद यि प्रश् ि उठिा िै दक या कोई व् य धि इस िारा के अि़ीि काज़ी ठ़ीक ि़ी धियुि दकया गया िै, िो राज्य सरकार द्व ारा
-उसके बारे में धिधिश्च य धिश्चा यक िोगा।
-यदद राज्य सरकार, ठ़ीक समझि़ी िै, िो इस िारा के अि़ी ि धियुि दकए गए दकस़ी ऐसे काज़ी को धिलधम्ब ि कर सकेग़ी या
-पद से िर्ा सकेग़ी जो उसके पद के कायव के धिष्पा दि में दकस़ी अिचार का दोि़ी िै, या जो छि मास की लगािार अिधि के धलए उस
-था ि़ीय िेत्र से, धजसके धलए िि धियुि िै, अिुपधथ ि रिा िै या अन्य त्र धििास करिे के प्र योजि के धल ए ऐसे था ि़ीय िेत्र को छोड़
-देिा िै या ददिाधलया घोधिि दकया जािा िै या पद से उन्मो धचि दकए जािे की िांछा करिा िै या जो अपिे पद के किवव्यों का धििविि
-करिे से इंकार करिा िै या राज्य सरकार की राय में उ सके धलए अयोग्य या िैयधि क रू प से असमथव िो गया िै।
-3. िाय ब काज़ी  इस अधिधियम के अि़ीि धियुि कोई काज़ी, ऐसे सम्पू र् व था ि़ीय िेत्र में या उसके दकस़ी भाग में, धजसके
-धलए उसकी धियुधि की गई िै, अपिे पद से संबंधिि सभ़ी धिियों या उिमें से दकस़ी के धलए अप िे था ि पर कायव करिे के धलए एक
-या अधिक व् य धि यों को अपिे िायब या िायबों के रू प में धियुि कर सकेगा, और इस प्र कार धियुि दकए गए दकस़ी िायब को
-धिलंधबि कर सकेगा या पद से िर्ा सकेगा।
-जब कोई काज़ी िारा 2 के अि़ीि धिलंधबि दकया जािा िै या पद से िर्ा ददया जा िा िै, िब उसके िायब या िायबों को,
-)यदद कोई िों(, यथाधथ धि, धिलंधबि या पद से िर्ाया गया समझा जाएगा।
-1 इस अधिधियम का 1970 के धिधियम सं ० 20 की िारा 2 और अिुसूच़ी द्व ारा (15 - 10 - 1970 से ) लिद्व़ीप संघ राज्य िेत्र पर और 1968 के अधिधियम सं ० 26 की िारा 3
-और अिुसूच़ी द्व ारा पांधिचेऱी संघ राज्य िेत्र पर धििा र दकया गया।
-2 1868 के अधिधियम सं ० 8 द्व ारा धिरधसि।
-3 धिधि अिुकूलि आदेि, 1950 द्व ारा “ प्र ान्िों ” के था ि पर प्र धि था धपि।
-4 1914 के अधिधियम सं ० 10 की िारा 3 िथा अिुसूच़ी 2 द्व ारा “ और िि िुरन्ि प्र िृत्त िोगा ” िब्द धिरधसि।
-5 1951 के अधिधियम सं ० 3 की िारा 3 िथा अिुसूच़ी द्व ारा “ दकन्िु दकस़ी अन्य भाग क राज्य की सरकार या दकस़ी भाग ग राज्य की सरकार ” के था ि पर प्र धि था धपि।
-6 यि अधिधियम मुम्ब ई प्रे धसिेंस़ी पधश्च म़ी बंगाल, संयु ि प्र ांि, पंजाब, मध्य प्र ांि िथा आसाम के कधिपय था िों पर धििा ररि दकया गया िै।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `काज़ी अधिधियम, 1 880`
+  line `( 1 880 का अधिधियम संखयां क 12 ) 1`
+  line `[ 9 जुलाई, 1880 ]`
+  line `काज़ी के पद पर व् य धि यों की`
+  line `धियुधि के धलए`
+  line अधिधियम
+  line `2 1864 के अधिधियम सं ० 11 की उद्देधिका )धि न् दू िथा मुसलमाि धिधि अधिकाररयों के पदों से और काज़ी - उल - कुज्जा ि के`
+  line `और काज़ी के पदों से सं बंधिि धिधि का धिरसि करिे िथा भूिपूिव पदों को उत्सा दद ि करिे के धलए अधिधियम ) द्व ारा )अन्य बािों के`
+  line `साथ - साथ( यि घोधिि दकया गया था दक काज़ी - उल - कुज्जा ि या िगर, ििर या परगिा काधजयों की सरकार द्व ारा धियुधि असम़ीच़ीि`
+  line `िै, और उस़ी अधिधियम द्व ारा उि अधिकाररयों की सरकार द्व ारा धियुधि से संबंधिि अधिधियधमधियां धिरधसि की गई थीं; और`
+  line `3 [ भारि ] के कुछ भागों में मुसलमाि समाज की प्र था द्व ारा, सरकार द्व ारा धियुि काधजयों की उपधथ धि धिकािों के अिसर पर िथा`
+  line `कधिपय अन्य िार्मवक कृत् यों िथा कमों के दकए जािे में अपेधि ि िोि़ी िै और इसधलए यि सम़ीच़ीि िै दक सरकार को काज़ी के पद पर व्`
+  line `य धि यों की धियुधि करिे के धलए पुि: सिि दकया जािा चाधिए;`
+  line `अि: एिद द्व ारा धिम्ि धलधिि रू प में यि अधिधियधमि दकया जािा िै: `
+  line `1. संधिप्ि िाम  इस अधिधियम का संधिप् ि िाम काज़ी अधिधियम, 1880 िै।`
+  line `4 * * * * *`
+  line `था ि़ीय धििा र  इसका धििा र प्र थमि: केिल फोर्व सेंर् जाजव के सपररिद गििवर द्व ारा प्र िाधसि राज्य िेत्रों पर िै।`
+  line `5 [ दकन्िु दकस़ी अन्य राज्य की सरकार ] राजपत्र में अधिसूचिा द्व ारा समय - समय पर उसे अपिे 6 प्र िासिाि़ी ि संपूर्व राज्य िेत्रों पर या`
+  line `उिके दकस़ी भाग पर धििा ररि कर सकेग़ी।`
+  line `2. दकस़ी था ि़ीय िेत्र के धलए काधजयों की धियुधि करिे की िधि  जिां किीं राज्य सरकार को यि प्र ि़ीि िोिा िै दक`
+  line `दकस़ी था ि़ीय िेत्र में पयावप्ि संखया में मुसलमाि धििास़ी यि चाििे िैं दक ऐसे था ि़ीय िेत्र के धलए एक या अधिक काधजयों को`
+  line `धियुि दकया जािा चाधिए, ििां राज्य सरकार, यदद िि उधचि समझे, िो ऐसे था ि़ीय िेत्र के प्र मुि मुसलमाि धििाधसयों से परामिव`
+  line `करिे के पश्चा ि एक या अधिक योग्य व् य धि यों का चयि कर सकेग़ी िथा उसे या उन्िें ऐसे था ि़ीय िेत्र के धलए काधजयों के रू प में`
+  line `धियुि कर सकेग़ी।`
+  line `यदद यि प्रश् ि उठिा िै दक या कोई व् य धि इस िारा के अि़ीि काज़ी ठ़ीक ि़ी धियुि दकया गया िै, िो राज्य सरकार द्व ारा`
+  line `उसके बारे में धिधिश्च य धिश्चा यक िोगा।`
+  line `यदद राज्य सरकार, ठ़ीक समझि़ी िै, िो इस िारा के अि़ी ि धियुि दकए गए दकस़ी ऐसे काज़ी को धिलधम्ब ि कर सकेग़ी या`
+  line `पद से िर्ा सकेग़ी जो उसके पद के कायव के धिष्पा दि में दकस़ी अिचार का दोि़ी िै, या जो छि मास की लगािार अिधि के धलए उस`
+  line `था ि़ीय िेत्र से, धजसके धलए िि धियुि िै, अिुपधथ ि रिा िै या अन्य त्र धििास करिे के प्र योजि के धल ए ऐसे था ि़ीय िेत्र को छोड़`
+  line `देिा िै या ददिाधलया घोधिि दकया जािा िै या पद से उन्मो धचि दकए जािे की िांछा करिा िै या जो अपिे पद के किवव्यों का धििविि`
+  line `करिे से इंकार करिा िै या राज्य सरकार की राय में उ सके धलए अयोग्य या िैयधि क रू प से असमथव िो गया िै।`
+  line `3. िाय ब काज़ी  इस अधिधियम के अि़ीि धियुि कोई काज़ी, ऐसे सम्पू र् व था ि़ीय िेत्र में या उसके दकस़ी भाग में, धजसके`
+  line `धलए उसकी धियुधि की गई िै, अपिे पद से संबंधिि सभ़ी धिियों या उिमें से दकस़ी के धलए अप िे था ि पर कायव करिे के धलए एक`
+  line `या अधिक व् य धि यों को अपिे िायब या िायबों के रू प में धियुि कर सकेगा, और इस प्र कार धियुि दकए गए दकस़ी िायब को`
+  line `धिलंधबि कर सकेगा या पद से िर्ा सकेगा।`
+  line `जब कोई काज़ी िारा 2 के अि़ीि धिलंधबि दकया जािा िै या पद से िर्ा ददया जा िा िै, िब उसके िायब या िायबों को,`
+  line `)यदद कोई िों(, यथाधथ धि, धिलंधबि या पद से िर्ाया गया समझा जाएगा।`
+  line `1 इस अधिधियम का 1970 के धिधियम सं ० 20 की िारा 2 और अिुसूच़ी द्व ारा (15 - 10 - 1970 से ) लिद्व़ीप संघ राज्य िेत्र पर और 1968 के अधिधियम सं ० 26 की िारा 3`
+  line `और अिुसूच़ी द्व ारा पांधिचेऱी संघ राज्य िेत्र पर धििा र दकया गया।`
+  line `2 1868 के अधिधियम सं ० 8 द्व ारा धिरधसि।`
+  line `3 धिधि अिुकूलि आदेि, 1950 द्व ारा “ प्र ान्िों ” के था ि पर प्र धि था धपि।`
+  line `4 1914 के अधिधियम सं ० 10 की िारा 3 िथा अिुसूच़ी 2 द्व ारा “ और िि िुरन्ि प्र िृत्त िोगा ” िब्द धिरधसि।`
+  line `5 1951 के अधिधियम सं ० 3 की िारा 3 िथा अिुसूच़ी द्व ारा “ दकन्िु दकस़ी अन्य भाग क राज्य की सरकार या दकस़ी भाग ग राज्य की सरकार ” के था ि पर प्र धि था धपि।`
+  line `6 यि अधिधियम मुम्ब ई प्रे धसिेंस़ी पधश्च म़ी बंगाल, संयु ि प्र ांि, पंजाब, मध्य प्र ांि िथा आसाम के कधिपय था िों पर धििा ररि दकया गया िै।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-4. अधिधियम की कोई भ़ी बाि काज़ी को न् या धयक या प्र िासधिक िधि यां प्र दाि ििीं करेग़ी, या काज़ी की उपधथ धि
-आिश् य क ििीं बिाएग़ी या दकस़ी व् य धि को काज़ी के रू प में कायव करिे से धििाररि ििीं करेग़ी  इसमें अन्ि र् िवष् र् दकस़ी भ़ी बाि के
-बारे में िथा इसके अि़ीि की गई दकस़ी भ़ी धियुधि के बारे में यि ििीं समझा जा एगा दक िि 
-)क( इसके अि़ीि धियुि दकए गए दकस़ी काज़ी या िायब का ज़ी को कोई न् या धयक या प्र िासधिक िधि यां प्र दाि
-करि़ी िै; या
-)ि( दकस़ी धिकाि के अिसर पर या दकस़ी िार्मवक कृत् य या कमव के दकए जािे में दकस़ी काज़ी या िायब काज़ी की
-उपधथ धि आिश्य क बिाि़ी िै; या
-)ग( दकस़ी व् य धि को काज़ी के कृत् यों में से दकस़ी का धििविि करिे से धििाररि करि़ी िै।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `4. अधिधियम की कोई भ़ी बाि काज़ी को न् या धयक या प्र िासधिक िधि यां प्र दाि ििीं करेग़ी, या काज़ी की उपधथ धि`
+  line `आिश् य क ििीं बिाएग़ी या दकस़ी व् य धि को काज़ी के रू प में कायव करिे से धििाररि ििीं करेग़ी  इसमें अन्ि र् िवष् र् दकस़ी भ़ी बाि के`
+  line `बारे में िथा इसके अि़ीि की गई दकस़ी भ़ी धियुधि के बारे में यि ििीं समझा जा एगा दक िि `
+  line `)क( इसके अि़ीि धियुि दकए गए दकस़ी काज़ी या िायब का ज़ी को कोई न् या धयक या प्र िासधिक िधि यां प्र दाि`
+  line `करि़ी िै; या`
+  line `)ि( दकस़ी धिकाि के अिसर पर या दकस़ी िार्मवक कृत् य या कमव के दकए जािे में दकस़ी काज़ी या िायब काज़ी की`
+  line `उपधथ धि आिश्य क बिाि़ी िै; या`
+  line `)ग( दकस़ी व् य धि को काज़ी के कृत् यों में से दकस़ी का धििविि करिे से धििाररि करि़ी िै।`
+  line ______
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
