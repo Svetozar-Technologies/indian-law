@@ -51,6 +51,16 @@ function cleanField(value = "") {
   return stripTagsToText(value).replace(/\s+/g, " ").trim();
 }
 
+function attributeValue(attributes = "", name = "") {
+  const quotedPattern = new RegExp(`\\b${name}\\s*=\\s*(["'])(.*?)\\1`, "i");
+  const quoted = attributes.match(quotedPattern);
+  if (quoted) {
+    return quoted[2];
+  }
+  const unquotedPattern = new RegExp(`\\b${name}\\s*=\\s*([^\\s>]+)`, "i");
+  return attributes.match(unquotedPattern)?.[1] ?? "";
+}
+
 export function extractMetadataTable(html = "") {
   const metadata = {};
   const rowPattern =
@@ -67,16 +77,39 @@ export function extractMetadataTable(html = "") {
 
 export function extractPdfSources(html = "", baseUrl = "https://www.indiacode.nic.in") {
   const sources = {};
-  const linkPattern = /<a\b[^>]*href=["']?([^"'\s>]+\.pdf)["']?[^>]*>([\s\S]*?)<\/a>/gi;
-  for (const [, rawHref, body] of html.matchAll(linkPattern)) {
-    const url = absolutizeUrl(rawHref, baseUrl).replace("http://indiacode.nic.in", "https://www.indiacode.nic.in");
-    const text = cleanField(body);
-    const fileName = url.split("/").pop() ?? "";
+  function addPdfSource(rawUrl, title = "") {
+    if (!/\.pdf(?:[?#]|$)/i.test(rawUrl)) {
+      return;
+    }
+    const url = absolutizeUrl(rawUrl, baseUrl)
+      .replace("http://www.indiacode.nic.in", "https://www.indiacode.nic.in")
+      .replace("http://indiacode.nic.in", "https://www.indiacode.nic.in");
+    const parsedUrl = new URL(url);
+    if (!/^\/bitstream\/123456789\//.test(parsedUrl.pathname) || !/\.pdf$/i.test(parsedUrl.pathname)) {
+      return;
+    }
+    const text = cleanField(title);
+    const fileName = decodeURIComponent(parsedUrl.pathname.split("/").pop() ?? "");
     const language = /^H/i.test(fileName) || /hindi|[\u0900-\u097f]/i.test(text) ? "hi" : "en";
     sources[language] ??= [];
-    if (!sources[language].some((entry) => entry.url === url)) {
+    const existing = sources[language].find((entry) => entry.url === url);
+    if (!existing) {
       sources[language].push({ kind: "pdf", url, title: text });
+    } else if (!existing.title && text) {
+      existing.title = text;
     }
+  }
+
+  const metaPattern = /<meta\b([^>]*)>/gi;
+  for (const [, attributes] of html.matchAll(metaPattern)) {
+    if (attributeValue(attributes, "name").toLowerCase() === "citation_pdf_url") {
+      addPdfSource(attributeValue(attributes, "content"));
+    }
+  }
+
+  const linkPattern = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
+  for (const [, attributes, body] of html.matchAll(linkPattern)) {
+    addPdfSource(attributeValue(attributes, "href"), body);
   }
   return sources;
 }

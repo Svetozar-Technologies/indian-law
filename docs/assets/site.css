@@ -225,10 +225,15 @@ th {
   color: var(--accent);
 }
 
-.status.disabled,
-.disabled-choice {
+.status.pending {
   background: #f4f1ed;
   color: var(--warning);
+}
+
+.status.disabled,
+.disabled-choice {
+  background: #edf0f2;
+  color: var(--muted);
 }
 
 .viewer-grid {

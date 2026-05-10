@@ -1,6 +1,11 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 
+import {
+  sourceStatusForLaw,
+  statusClassForLanguage,
+  textStatusForLanguage
+} from "./catalog-status.mjs";
 import { readLino } from "../scripts/lib/lino-codec.mjs";
 
 const ASSET_BASE = typeof window === "undefined" ? "" : window.__INDIAN_LAW_ASSET_BASE__ ?? "";
@@ -91,10 +96,10 @@ function HomeView({ catalog, selectedLanguage }) {
     <>
       <section className="intro">
         <div>
-          <p className="kicker">Official-source prototype</p>
-          <h1>Active Indian laws in Markdown</h1>
+          <p className="kicker">Official-source copy</p>
+          <h1>Active Indian laws catalog</h1>
           <p className="summary">
-            A single React viewer reads Links Notation catalog metadata and Markdown law parts generated from official public sources.
+            A catalog viewer of Indian laws from official public sources.
           </p>
         </div>
         <aside className="source-panel" aria-label="Source summary">
@@ -133,6 +138,9 @@ function HomeView({ catalog, selectedLanguage }) {
               {catalog.laws.map((law) => {
                 const targetLanguage = languageForLaw(law, selectedLanguage, catalog.defaultLanguage);
                 const languageRecord = targetLanguage ? law.languages[targetLanguage] : null;
+                const sourceStatus = targetLanguage
+                  ? { code: targetLanguage, record: languageRecord }
+                  : sourceStatusForLaw(law, selectedLanguage, catalog.defaultLanguage);
                 return (
                   <tr key={law.slug}>
                     <td>
@@ -147,11 +155,9 @@ function HomeView({ catalog, selectedLanguage }) {
                     <td>{law.actYear}</td>
                     <td>{law.actNumber}</td>
                     <td>
-                      {targetLanguage ? (
-                        <span className="status ready">{targetLanguage.toUpperCase()} Markdown</span>
-                      ) : (
-                        <span className="status disabled">Unavailable</span>
-                      )}
+                      <span className={`status ${statusClassForLanguage(sourceStatus.record)}`}>
+                        {textStatusForLanguage(sourceStatus.record, sourceStatus.code)}
+                      </span>
                     </td>
                     <td><SourceLinks sources={sourcesForLanguage(law, selectedLanguage, catalog.defaultLanguage)} /></td>
                   </tr>
