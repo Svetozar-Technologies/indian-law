@@ -1,0 +1,111 @@
+---
+title: "The Revenue, Bombay, 1842"
+language: en
+part: 1
+parts: 1
+line_limit: 1500
+source: "https://www.indiacode.nic.in/handle/123456789/18945"
+---
+# The Revenue, Bombay, 1842
+
+Language: English
+Part 1 of 1
+Pages: 1 to 3
+
+> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
+
+Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/18945
+- pdf: https://www.indiacode.nic.in/bitstream/123456789/18945/1/a1842-13.pdf
+- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
+
+## Page 1
+
+1
+T HE REVENUE, BOMBAY, 1842
+__________
+A CT N O.13 OF 1842
+_________
+Passed by the Hon’ble the President of the Council of India in Council, on the 28 th of October, 1842, with
+the assent of the Right hon’ble the Governor General of India.
+A n Act to enable the holders of Revenue which has been alienated to them by the State, to collect that
+Revenue within the Presidency of Bombay.
+I. Whereas it is expedient to authorize the grant by the Governor in Council of Bombay, at his
+discretion, of Commissions to certain Jageerdars, and others, by virtue of which such persons shall posses
+increased powers for collecting the Revenue due to them; —
+It is hereby enacted, that it shall be lawful for the Governor in Council of Bomb ay, to grant any
+Jageerdar, Surinjamdar, Inamdar, or other person holding Lands or Villages the Revenue of which has been
+alienated to him by the State, a Commission conferring upon him authority for the collection of such
+Revenue by the powers hereinafter mentioned, or such of them as shall be specified in the Commission in
+addition to the powers now exercisable by law.
+II. And it is hereby enacted, that such Commission, which shall be drawn out according to the form of
+the annexed Schedule A, shall be g ranted or withheld, and, when granted, shall be liable to be withdrawn
+at the pleasure of Government, and that it may, if the Governor in Council of Bombay see fit, be issued to
+one or more Agents of such holder of alienated Revenue as well as to the hold er in person.
+III. And it is hereby enacted, that the holder of such Commission shall have authority to demand
+security for the payment of the Revenue, in respect of the Lands or Villages specified in the Commission,
+and if the same be not furnished, to ta ke such precaution as the Collector is authorized to make under
+Section XI, Regulation XVII, of 1827, Bombay Code.
+I V. And it is hereby enacted, that the holder of such Commission shall have authority to send Mohussuls
+on Defaulters under the Provisions of Clauses 2,3, and 5, Section XII, Regulation XVII of 1827, Bombay
+Code, provided that one foot Mohussul only be employed in each case, and that the Mohussulee shall cease
+on the enforcement of any other remedy for t he collection of the Revenue, except the taking of such security
+as aforesaid.
+V. And it is hereby enacted, that the holder of any such Commission shall be authorized to attach the
+property of persons making default in the payment of such Revenue as afore said, making an immediate
+report to the Collector or his Assistant of the his having done so, and should the demand on account of
+which the attachment may be made app ear to the Collector or his Assistant to b e just, he shall give orders
+for the sale of suc h property, and the sale shall be conducted agreeably to the Provisions of clause VII,
+Section XII, Regulation XVII, of 1827, Bombay Code, except in cases in which the holder of the
+Commission by whom the attachment has been made shall be a Jageerdar, Sur injamdar or Inamdar, vested
+by Regulation XIII, of 1830, with Civil jurisdiction and with power to execute his own decrees or his
+
+## Page 2
+
+2
+Agents, when the sale shall be conducted by him and not by the Collector and his subordinate Revenue
+Officers.
+VI. And it is hereby enacted, that all compulsory process under this Act shall cease on the alleged
+defaulter furnishing security to the holder of the Commission or to the Collector or Assistant Collector of
+the District, to institute a suit within 15 days in a com petent Court for the purpose of trying the demand
+and to pay the amount which may be decreed against him with costs and interest in such Court, provided
+that such suits in which any one of the privileged clas ses established by Regulation XXIX, of 1827, Se ctions
+III, and IV, and by Regulation VII, of 1830, Bombay Code, may be the defendant, shall be tried before the
+Collector and his Assistants, any thing in Regulations I, and XVI, of 1831, notwithstanding. And any holder
+of any such Commission as aforesai d by h imself or his Agents proceeding with any compulsory process
+under this Act after the furnishing of such security as aforesaid, or after the due tender thereof, shall forfeit
+three times the amount of the Revenue sought to be recovered by such compuls ory process.
+VII. And it is hereby enacted, that if the Revenue or rent payable to a Jageerdar or other holder of
+Government alienated lands or villages shall have been fixed by a Government Officer before the grant of
+the Land in free tenure, or if the rent or Revenue tend ered by any Ryut or other person be at the usual rate
+payable according to the custom of the Village and P urgunna as declared by the K oolkurnee and other
+Local Officers of Revenue, the enforcement of a demand by any holder of a Commission under this Act of
+an excess of rent or Revenue beyond the amount due as above provided shall be deemed to the extortion,
+and the person against whom such demand sh all have been enforced shall obtain upon any judgement being
+passed after regular or summary trial three times the amount of any such excessive demand as damages for
+the same. Provided, however, that nothing herein prescribed or con ta ined shall prevent a holder of
+alienated Lands or Villages from instituting a suit in any court of competent jurisdiction for the purpose
+of establishing his claim to re - assess the Lands or re - settle the Revenue of any Ryut or other who may be
+paying less than the full Jum a to which he is justly liable, and upon such holder obtaining a decree
+adjudging to him such power the demand made by him under such decree, shall, if conformable thereto be
+deemed a legal demand for arrears, and shall be leviable by the same process a s is above arrears.
+VIII. And it is hereby enacted, that the power conferred by such Commission shall extend to the
+enforcement of the payment of the Revenue of the current season and of the season next immediately
+preceding, and not to that of former year s.
+
+## Page 3
+
+3
+SCHEDULE A.
+Form of Commission to be used to a holder of alienated Revenue or his Agent for
+enabling him to recover such Revenue
+The Governor in Council of Bombay by virtue of the powers vested in him by Act XIII, of 1842,
+is pleased to confer on you -------------- -------------- (Jageerdar, & c., or Agent, & c., as the case may be)
+power to realize all Revenue demands due to you (or to your principal) from the Villages and Lands
+specified in this Com mission in the manner prescr ibed in ( or in Sections ---- ------------- of) this Act.
+The Villages and Lands over which the power thus conferred upon you extends are as follows:
+(Here enter the description.)
+The within delegated power is vested in you during the pleasure and subject to the re - call of the
+said Governor in Council.
+_____ __________
+SEAL

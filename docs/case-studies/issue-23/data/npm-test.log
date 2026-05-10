@@ -1,0 +1,194 @@
+
+> indian-law@0.1.0 test
+> node --test --test-timeout=30000 tests/*.test.mjs
+
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+  ---
+  duration_ms: 692.838685
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading
+  ---
+  duration_ms: 416.819221
+  ...
+# Subtest: fetch site build converts cached Hindi PDF source into Markdown
+ok 3 - fetch site build converts cached Hindi PDF source into Markdown
+  ---
+  duration_ms: 883.533061
+  ...
+# Subtest: fetch site build falls back to English PDF text when cached HTML sections are empty
+ok 4 - fetch site build falls back to English PDF text when cached HTML sections are empty
+  ---
+  duration_ms: 816.94948
+  ...
+# Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+ok 5 - fetch site build resumes an incomplete cached law without redownloading cached sections
+  ---
+  duration_ms: 337.117972
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 6 - fetch site build writes completed law cache and progress as Lino
+  ---
+  duration_ms: 342.399989
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 7 - fetch site build writes partial output when the runtime budget is exhausted
+  ---
+  duration_ms: 352.655926
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 8 - fetch site build records per-law upstream failures as partial output
+  ---
+  duration_ms: 2358.644421
+  ...
+# Subtest: labels enabled language records as Markdown
+ok 9 - labels enabled language records as Markdown
+  ---
+  duration_ms: 2.452312
+  ...
+# Subtest: labels known official sources without Markdown as pending
+ok 10 - labels known official sources without Markdown as pending
+  ---
+  duration_ms: 0.188522
+  ...
+# Subtest: labels languages with no known source as unavailable
+ok 11 - labels languages with no known source as unavailable
+  ---
+  duration_ms: 0.195992
+  ...
+# Subtest: does not fall back to another language when requested text is not ready
+ok 12 - does not fall back to another language when requested text is not ready
+  ---
+  duration_ms: 0.518964
+  ...
+# Subtest: Central Act discovery falls back to seed laws when the live listing is unavailable
+ok 13 - Central Act discovery falls back to seed laws when the live listing is unavailable
+  ---
+  duration_ms: 270.227304
+  ...
+# Subtest: extracts India Code metadata, PDF sources, and section references
+ok 14 - extracts India Code metadata, PDF sources, and section references
+  ---
+  duration_ms: 7.524796
+  ...
+# Subtest: normalises section JSON HTML into plain text
+ok 15 - normalises section JSON HTML into plain text
+  ---
+  duration_ms: 0.407929
+  ...
+# Subtest: extracts only primary India Code law PDFs from law pages
+ok 16 - extracts only primary India Code law PDFs from law pages
+  ---
+  duration_ms: 0.678823
+  ...
+# Subtest: parses India Code search result rows
+ok 17 - parses India Code search result rows
+  ---
+  duration_ms: 0.820665
+  ...
+# Subtest: parses regional PDF source rows
+ok 18 - parses regional PDF source rows
+  ---
+  duration_ms: 0.811411
+  ...
+# Subtest: strips table and inline HTML without collapsing intended breaks
+ok 19 - strips table and inline HTML without collapsing intended breaks
+  ---
+  duration_ms: 0.137855
+  ...
+# Subtest: repository-owned seed metadata is stored as Links Notation
+ok 20 - repository-owned seed metadata is stored as Links Notation
+  ---
+  duration_ms: 2834.709485
+  ...
+# Subtest: Lino codec stores strings unencoded and preserves numeric-looking identifiers
+ok 21 - Lino codec stores strings unencoded and preserves numeric-looking identifiers
+  ---
+  duration_ms: 1.735011
+  ...
+# Subtest: Lino codec keeps multilingual and multiline strings readable
+ok 22 - Lino codec keeps multilingual and multiline strings readable
+  ---
+  duration_ms: 0.624853
+  ...
+# Subtest: Lino writer uses indented definitions for nested data
+ok 23 - Lino writer uses indented definitions for nested data
+  ---
+  duration_ms: 0.67613
+  ...
+# Subtest: owned data directories do not store JSON metadata
+ok 24 - owned data directories do not store JSON metadata
+  ---
+  duration_ms: 12.396212
+  ...
+# Subtest: renders a section with content and footnotes
+ok 25 - renders a section with content and footnotes
+  ---
+  duration_ms: 0.907235
+  ...
+# Subtest: splits only between sections and keeps each part under the requested line budget when possible
+ok 26 - splits only between sections and keeps each part under the requested line budget when possible
+  ---
+  duration_ms: 0.911602
+  ...
+# Subtest: renders Markdown part metadata and source links
+ok 27 - renders Markdown part metadata and source links
+  ---
+  duration_ms: 0.336021
+  ...
+# Subtest: renders localized PDF pages with language-specific title and sources
+ok 28 - renders localized PDF pages with language-specific title and sources
+  ---
+  duration_ms: 0.275762
+  ...
+# Subtest: regional source discovery logs page decisions by default
+ok 29 - regional source discovery logs page decisions by default
+  ---
+  duration_ms: 212.359349
+  ...
+# Subtest: source smoke download logs source choices by default
+ok 30 - source smoke download logs source choices by default
+  ---
+  duration_ms: 84.340827
+  ...
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 31 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 11.424461
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 32 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 2.64581
+  ...
+# Subtest: refresh workflow uses one-hour checkpoint chunks by default
+ok 33 - refresh workflow uses one-hour checkpoint chunks by default
+  ---
+  duration_ms: 1.77412
+  ...
+# Subtest: refresh workflow uses plain sync commit message for one chunk
+ok 34 - refresh workflow uses plain sync commit message for one chunk
+  ---
+  duration_ms: 2.609336
+  ...
+# Subtest: refresh workflow advertises the canonical deployed site path
+ok 35 - refresh workflow advertises the canonical deployed site path
+  ---
+  duration_ms: 1.09861
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 36 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 1.010399
+  ...
+1..36
+# tests 36
+# suites 0
+# pass 36
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6314.857771

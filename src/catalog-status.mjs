@@ -4,7 +4,7 @@ export function hasKnownSource(record) {
 
 export function textStatusForLanguage(record, languageCode = "") {
   if (record?.enabled) {
-    return languageCode ? `${languageCode.toUpperCase()} Markdown` : "Markdown";
+    return "Markdown";
   }
   return hasKnownSource(record) ? "Pending" : "Unavailable";
 }
@@ -18,18 +18,6 @@ export function statusClassForLanguage(record) {
 
 export function sourceStatusForLaw(law, requestedLanguage, defaultLanguage) {
   const languages = law?.languages ?? {};
-  const candidates = [requestedLanguage, defaultLanguage, ...Object.keys(languages)].filter(Boolean);
-  const seen = new Set();
-  for (const code of candidates) {
-    if (seen.has(code)) {
-      continue;
-    }
-    seen.add(code);
-    const record = languages[code];
-    if (record?.enabled || hasKnownSource(record)) {
-      return { code, record };
-    }
-  }
-  const fallbackCode = requestedLanguage || defaultLanguage || Object.keys(languages)[0] || "";
-  return { code: fallbackCode, record: languages[fallbackCode] ?? null };
+  const code = requestedLanguage || defaultLanguage || "";
+  return { code, record: languages[code] ?? null };
 }

@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T15:43:44.961Z`)
+  (str fetchedAt) (str `2026-05-10T17:41:21.913Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/18946`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 1)
+  (str totalSections) (int 1)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -24,6 +26,7 @@ obj_root_law:
   (str longTitle) (str `An Act relative to the number and powers of the Revenue Commissioner under the Presidency of Bombay.`)
   (str enforcementDate) (str 16-12-1842)
   (str notification) (undefined)
+  (str fetchedAt) (str `2026-05-09T15:43:44.961Z`)
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -48,3 +51,31 @@ obj_root_law_sources_en_user_guide:
   (str title) (str `User Guide`)
 obj_root_law_sections:
   array
+  obj_root_law_sections_1
+obj_root_law_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `THE REVENUE COMMISSIONERS, BOMBAY ACT, 1842
+A CT N O. 17 OF 1842.
+----------------------------
+Passed by the Hon’ble the President of the Council of India in Council, on the 16 th of December, 1842,
+with the assent of the Right hon’ble the Governor General of India.
+A n Act relative to the number and powers of the Revenue Commissioner under the Presidency of
+Bombay.
+I. It is hereby enacted, that so much of Regulation V, of 180, of the Bombay Code, as provides that one
+Revenue Commissioner shall be appointed for the Territory subordinate to Bombay, and that the Southern
+Maharatta Country shall be excluded from his jurisdi ction, is repealed.
+II. And it is hereby enacted, that one or more Revenue Commissioners shall be appointed for the whole
+of the Territory composing the Presidency of Bombay, each of whom shall be vested with all the powers
+possessed by the single Revenue Com missioner, under Regulation V, 1830, and shall be empowered to act
+within the Presidency of Bombay, or over such portion as the Governor in Council of Bombay may, from
+time to time, prescribe by a Order published in the Gazette.
+III. And it he hereby enacted, that each Revenue Commissioner shall have such number of Deputies
+and Assistants, as the Governor in Council may deem it expedient to appoint.
+------------------------------------------------`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)
