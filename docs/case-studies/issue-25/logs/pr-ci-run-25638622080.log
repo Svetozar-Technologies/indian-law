@@ -1,0 +1,599 @@
+Test and Offline Build	Set up job	﻿2026-05-10T20:12:13.0984649Z Current runner version: '2.334.0'
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1011713Z ##[group]Runner Image Provisioner
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1012673Z Hosted Compute Agent
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1013174Z Version: 20260213.493
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1013769Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1014467Z Build Date: 2026-02-13T00:28:41Z
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1015364Z Worker ID: {104f9dab-a9c7-4954-a056-922335ade693}
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1016011Z Azure Region: eastus2
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1016578Z ##[endgroup]
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1018298Z ##[group]Operating System
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1018914Z Ubuntu
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1019455Z 24.04.4
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1019868Z LTS
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1020320Z ##[endgroup]
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1020801Z ##[group]Runner Image
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1021396Z Image: ubuntu-24.04
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1021864Z Version: 20260413.86.1
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1022925Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260413.86/images/ubuntu/Ubuntu2404-Readme.md
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1024594Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260413.86
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1025840Z ##[endgroup]
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1026795Z ##[group]GITHUB_TOKEN Permissions
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1028807Z Contents: read
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1029450Z Metadata: read
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1029911Z ##[endgroup]
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1031870Z Secret source: Actions
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1032970Z Prepare workflow directory
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1372666Z Prepare all required actions
+Test and Offline Build	Set up job	2026-05-10T20:12:13.1412368Z Getting action download info
+Test and Offline Build	Set up job	2026-05-10T20:12:13.4677373Z Download action repository 'actions/checkout@v6' (SHA:de0fac2e4500dabe0009e67214ff5f5447ce83dd)
+Test and Offline Build	Set up job	2026-05-10T20:12:13.6581964Z Download action repository 'actions/setup-node@v6' (SHA:48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e)
+Test and Offline Build	Set up job	2026-05-10T20:12:14.1111812Z Complete job name: Test and Offline Build
+Test and Offline Build	Checkout	﻿2026-05-10T20:12:14.1829726Z ##[group]Run actions/checkout@v6
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1830572Z with:
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1831019Z   repository: Svetozar-Technologies/indian-law
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1831737Z   token: ***
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1832113Z   ssh-strict: true
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1832490Z   ssh-user: git
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1832885Z   persist-credentials: true
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1833314Z   clean: true
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1833704Z   sparse-checkout-cone-mode: true
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1834173Z   fetch-depth: 1
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1834553Z   fetch-tags: false
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1835166Z   show-progress: true
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1835550Z   lfs: false
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1835902Z   submodules: false
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1836286Z   set-safe-directory: true
+Test and Offline Build	Checkout	2026-05-10T20:12:14.1836957Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2775393Z Syncing repository: Svetozar-Technologies/indian-law
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2777316Z ##[group]Getting Git version info
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2778035Z Working directory is '/home/runner/work/indian-law/indian-law'
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2779167Z [command]/usr/bin/git version
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2815091Z git version 2.53.0
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2838029Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2851681Z Temporarily overriding HOME='/home/runner/work/_temp/158042c1-1190-4b09-a110-9ef4aa0287aa' before making global git config changes
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2853096Z Adding repository directory to the temporary git global config as a safe directory
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2857234Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/indian-law/indian-law
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2888883Z Deleting the contents of '/home/runner/work/indian-law/indian-law'
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2893145Z ##[group]Initializing the repository
+Test and Offline Build	Checkout	2026-05-10T20:12:14.2897969Z [command]/usr/bin/git init /home/runner/work/indian-law/indian-law
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3000689Z hint: Using 'master' as the name for the initial branch. This default branch name
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3002314Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3004132Z hint: to use in all of your new repositories, which will suppress this warning,
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3006062Z hint: call:
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3006918Z hint:
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3007787Z hint: 	git config --global init.defaultBranch <name>
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3008881Z hint:
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3009931Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3011628Z hint: 'development'. The just-created branch can be renamed via this command:
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3012969Z hint:
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3013692Z hint: 	git branch -m <name>
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3014466Z hint:
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3015770Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3017392Z Initialized empty Git repository in /home/runner/work/indian-law/indian-law/.git/
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3020041Z [command]/usr/bin/git remote add origin https://github.com/Svetozar-Technologies/indian-law
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3077327Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3078546Z ##[group]Disabling automatic garbage collection
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3082343Z [command]/usr/bin/git config --local gc.auto 0
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3110692Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3111929Z ##[group]Setting up auth
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3112821Z Removing SSH command configuration
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3118414Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3150669Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3451367Z Removing HTTP extra header
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3456673Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3487445Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3695042Z Removing includeIf entries pointing to credentials config files
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3700925Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3731069Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3948143Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Test and Offline Build	Checkout	2026-05-10T20:12:14.3982598Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/indian-law/indian-law/.git.path /home/runner/work/_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Checkout	2026-05-10T20:12:14.4011890Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Checkout	2026-05-10T20:12:14.4040138Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Checkout	2026-05-10T20:12:14.4076546Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Checkout	2026-05-10T20:12:14.4102250Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-10T20:12:14.4103505Z ##[group]Fetching the repository
+Test and Offline Build	Checkout	2026-05-10T20:12:14.4112368Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +585fdb35e9ada043c8e51422373b8327c94e572a:refs/remotes/pull/26/merge
+Test and Offline Build	Checkout	2026-05-10T20:12:23.5839681Z From https://github.com/Svetozar-Technologies/indian-law
+Test and Offline Build	Checkout	2026-05-10T20:12:23.5840936Z  * [new ref]         585fdb35e9ada043c8e51422373b8327c94e572a -> pull/26/merge
+Test and Offline Build	Checkout	2026-05-10T20:12:23.5871056Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-10T20:12:23.5871931Z ##[group]Determining the checkout info
+Test and Offline Build	Checkout	2026-05-10T20:12:23.5872974Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-10T20:12:23.5878241Z [command]/usr/bin/git sparse-checkout disable
+Test and Offline Build	Checkout	2026-05-10T20:12:23.5915430Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Test and Offline Build	Checkout	2026-05-10T20:12:23.5942014Z ##[group]Checking out the ref
+Test and Offline Build	Checkout	2026-05-10T20:12:23.5945878Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/26/merge
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6046539Z Updating files:  87% (2660/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6164741Z Updating files:  88% (2669/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6275629Z Updating files:  89% (2699/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6388876Z Updating files:  90% (2729/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6470394Z Updating files:  91% (2760/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6538042Z Updating files:  92% (2790/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6635779Z Updating files:  93% (2820/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6725692Z Updating files:  94% (2851/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6816304Z Updating files:  95% (2881/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6901050Z Updating files:  96% (2911/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.6993548Z Updating files:  97% (2942/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7088572Z Updating files:  98% (2972/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7127765Z Updating files:  99% (3002/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7128663Z Updating files: 100% (3032/3032)
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7129487Z Updating files: 100% (3032/3032), done.
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7184196Z Note: switching to 'refs/remotes/pull/26/merge'.
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7185281Z 
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7186084Z You are in 'detached HEAD' state. You can look around, make experimental
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7187661Z changes and commit them, and you can discard any commits you make in this
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7189165Z state without impacting any branches by switching back to a branch.
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7190166Z 
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7191052Z If you want to create a new branch to retain commits you create, you may
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7192153Z do so (now or later) by using -c with the switch command. Example:
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7192687Z 
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7192932Z   git switch -c <new-branch-name>
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7193656Z 
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7193842Z Or undo this operation with:
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7194235Z 
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7194492Z   git switch -
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7194971Z 
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7195375Z Turn off this advice by setting config variable advice.detachedHead to false
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7196022Z 
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7196652Z HEAD is now at 585fdb3 Merge f0102bae665bbf1fc98f1452906af74bf2b8688d into 40ca1e1473342bf661a857ef38a658f55267f295
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7237309Z ##[endgroup]
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7283729Z [command]/usr/bin/git log -1 --format=%H
+Test and Offline Build	Checkout	2026-05-10T20:12:24.7309103Z 585fdb35e9ada043c8e51422373b8327c94e572a
+Test and Offline Build	Setup Node	﻿2026-05-10T20:12:24.7575054Z ##[group]Run actions/setup-node@v6
+Test and Offline Build	Setup Node	2026-05-10T20:12:24.7575657Z with:
+Test and Offline Build	Setup Node	2026-05-10T20:12:24.7575923Z   node-version: 20
+Test and Offline Build	Setup Node	2026-05-10T20:12:24.7576329Z   cache: npm
+Test and Offline Build	Setup Node	2026-05-10T20:12:24.7576616Z   check-latest: false
+Test and Offline Build	Setup Node	2026-05-10T20:12:24.7577018Z   token: ***
+Test and Offline Build	Setup Node	2026-05-10T20:12:24.7577362Z   package-manager-cache: true
+Test and Offline Build	Setup Node	2026-05-10T20:12:24.7577662Z ##[endgroup]
+Test and Offline Build	Setup Node	2026-05-10T20:12:24.9110456Z Found in cache @ /opt/hostedtoolcache/node/20.20.2/x64
+Test and Offline Build	Setup Node	2026-05-10T20:12:24.9114288Z ##[group]Environment details
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.2307787Z node: v20.20.2
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.2308540Z npm: 10.8.2
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.2308912Z yarn: 1.22.22
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.2309910Z ##[endgroup]
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.2328987Z [command]/opt/hostedtoolcache/node/20.20.2/x64/bin/npm config get cache
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.3493023Z /home/runner/.npm
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.4405575Z Cache hit for: node-cache-Linux-x64-npm-6efc0fa8c17faf7b93955da3d49e1b91e60db3f8f1a26372c2dca1bf2f0c82bc
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.7690785Z Received 30422979 of 30422979 (100.0%), 113.8 MBs/sec
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.7691774Z Cache Size: ~29 MB (30422979 B)
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.7725846Z [command]/usr/bin/tar -xf /home/runner/work/_temp/31485eec-5f79-4777-96be-515a6a63b7e4/cache.tzst -P -C /home/runner/work/indian-law/indian-law --use-compress-program unzstd
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.8279469Z Cache restored successfully
+Test and Offline Build	Setup Node	2026-05-10T20:12:25.8297594Z Cache restored from key: node-cache-Linux-x64-npm-6efc0fa8c17faf7b93955da3d49e1b91e60db3f8f1a26372c2dca1bf2f0c82bc
+Test and Offline Build	Install	﻿2026-05-10T20:12:25.8503454Z ##[group]Run npm ci
+Test and Offline Build	Install	2026-05-10T20:12:25.8503793Z ^[[36;1mnpm ci^[[0m
+Test and Offline Build	Install	2026-05-10T20:12:25.8539300Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Install	2026-05-10T20:12:25.8539596Z ##[endgroup]
+Test and Offline Build	Install	2026-05-10T20:12:27.2682002Z 
+Test and Offline Build	Install	2026-05-10T20:12:27.2689590Z added 11 packages, and audited 12 packages in 1s
+Test and Offline Build	Install	2026-05-10T20:12:27.2689966Z 
+Test and Offline Build	Install	2026-05-10T20:12:27.2690185Z 2 packages are looking for funding
+Test and Offline Build	Install	2026-05-10T20:12:27.2690554Z   run `npm fund` for details
+Test and Offline Build	Install	2026-05-10T20:12:27.2691444Z 
+Test and Offline Build	Install	2026-05-10T20:12:27.2691655Z found 0 vulnerabilities
+Test and Offline Build	Test	﻿2026-05-10T20:12:27.2854193Z ##[group]Run npm test
+Test and Offline Build	Test	2026-05-10T20:12:27.2854472Z ^[[36;1mnpm test^[[0m
+Test and Offline Build	Test	2026-05-10T20:12:27.2877169Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Test	2026-05-10T20:12:27.2877424Z ##[endgroup]
+Test and Offline Build	Test	2026-05-10T20:12:27.4095542Z 
+Test and Offline Build	Test	2026-05-10T20:12:27.4095941Z > indian-law@0.1.0 test
+Test and Offline Build	Test	2026-05-10T20:12:27.4096653Z > node --test --test-timeout=30000 tests/*.test.mjs
+Test and Offline Build	Test	2026-05-10T20:12:27.4096969Z 
+Test and Offline Build	Test	2026-05-10T20:12:27.4559707Z TAP version 13
+Test and Offline Build	Test	2026-05-10T20:12:28.1264666Z # Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+Test and Offline Build	Test	2026-05-10T20:12:28.1267046Z ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+Test and Offline Build	Test	2026-05-10T20:12:28.1268307Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:28.1269002Z   duration_ms: 632.5624
+Test and Offline Build	Test	2026-05-10T20:12:28.1269575Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:28.4036632Z # Subtest: fetch site build reuses fresh cached law data instead of redownloading
+Test and Offline Build	Test	2026-05-10T20:12:28.4042100Z ok 2 - fetch site build reuses fresh cached law data instead of redownloading
+Test and Offline Build	Test	2026-05-10T20:12:28.4051386Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:28.4051837Z   duration_ms: 279.760606
+Test and Offline Build	Test	2026-05-10T20:12:28.4052759Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:29.3047255Z # Subtest: fetch site build converts cached Hindi PDF source into Markdown
+Test and Offline Build	Test	2026-05-10T20:12:29.3073563Z ok 3 - fetch site build converts cached Hindi PDF source into Markdown
+Test and Offline Build	Test	2026-05-10T20:12:29.3074535Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:29.3095652Z   duration_ms: 900.5094
+Test and Offline Build	Test	2026-05-10T20:12:29.3096282Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:30.2288076Z # Subtest: fetch site build falls back to English PDF text when cached HTML sections are empty
+Test and Offline Build	Test	2026-05-10T20:12:30.2289421Z ok 4 - fetch site build falls back to English PDF text when cached HTML sections are empty
+Test and Offline Build	Test	2026-05-10T20:12:30.2290257Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:30.2290792Z   duration_ms: 924.188021
+Test and Offline Build	Test	2026-05-10T20:12:30.2291263Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:30.5091379Z # Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+Test and Offline Build	Test	2026-05-10T20:12:30.5092679Z ok 5 - fetch site build resumes an incomplete cached law without redownloading cached sections
+Test and Offline Build	Test	2026-05-10T20:12:30.5093757Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:30.5094168Z   duration_ms: 280.606417
+Test and Offline Build	Test	2026-05-10T20:12:30.5094588Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:30.8195741Z # Subtest: fetch site build writes completed law cache and progress as Lino
+Test and Offline Build	Test	2026-05-10T20:12:30.8197247Z ok 6 - fetch site build writes completed law cache and progress as Lino
+Test and Offline Build	Test	2026-05-10T20:12:30.8198485Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:30.8235700Z   duration_ms: 310.256163
+Test and Offline Build	Test	2026-05-10T20:12:30.8236597Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:31.0591101Z # Subtest: fetch site build writes partial output when the runtime budget is exhausted
+Test and Offline Build	Test	2026-05-10T20:12:31.0592718Z ok 7 - fetch site build writes partial output when the runtime budget is exhausted
+Test and Offline Build	Test	2026-05-10T20:12:31.0593904Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:31.0594496Z   duration_ms: 238.150957
+Test and Offline Build	Test	2026-05-10T20:12:31.0595419Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3060064Z # Subtest: fetch site build records per-law upstream failures as partial output
+Test and Offline Build	Test	2026-05-10T20:12:33.3061204Z ok 8 - fetch site build records per-law upstream failures as partial output
+Test and Offline Build	Test	2026-05-10T20:12:33.3061913Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3062495Z   duration_ms: 2248.354466
+Test and Offline Build	Test	2026-05-10T20:12:33.3062888Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3197243Z # Subtest: labels enabled language records as Markdown
+Test and Offline Build	Test	2026-05-10T20:12:33.3198177Z ok 9 - labels enabled language records as Markdown
+Test and Offline Build	Test	2026-05-10T20:12:33.3198736Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3199080Z   duration_ms: 1.927372
+Test and Offline Build	Test	2026-05-10T20:12:33.3200145Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3200851Z # Subtest: labels known official sources without Markdown as pending
+Test and Offline Build	Test	2026-05-10T20:12:33.3201864Z ok 10 - labels known official sources without Markdown as pending
+Test and Offline Build	Test	2026-05-10T20:12:33.3202524Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3202867Z   duration_ms: 0.287137
+Test and Offline Build	Test	2026-05-10T20:12:33.3203439Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3204106Z # Subtest: labels languages with no known source as unavailable
+Test and Offline Build	Test	2026-05-10T20:12:33.3207135Z ok 11 - labels languages with no known source as unavailable
+Test and Offline Build	Test	2026-05-10T20:12:33.3207801Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3208126Z   duration_ms: 0.232996
+Test and Offline Build	Test	2026-05-10T20:12:33.3208869Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3209612Z # Subtest: does not fall back to another language when requested text is not ready
+Test and Offline Build	Test	2026-05-10T20:12:33.3210749Z ok 12 - does not fall back to another language when requested text is not ready
+Test and Offline Build	Test	2026-05-10T20:12:33.3211468Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3211790Z   duration_ms: 0.998285
+Test and Offline Build	Test	2026-05-10T20:12:33.3212352Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3213259Z # Subtest: Central Act discovery falls back to seed laws when the live listing is unavailable
+Test and Offline Build	Test	2026-05-10T20:12:33.3214621Z ok 13 - Central Act discovery falls back to seed laws when the live listing is unavailable
+Test and Offline Build	Test	2026-05-10T20:12:33.3215717Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3216070Z   duration_ms: 202.007817
+Test and Offline Build	Test	2026-05-10T20:12:33.3216445Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3217184Z # Subtest: extracts India Code metadata, PDF sources, and section references
+Test and Offline Build	Test	2026-05-10T20:12:33.3218322Z ok 14 - extracts India Code metadata, PDF sources, and section references
+Test and Offline Build	Test	2026-05-10T20:12:33.3219009Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3219331Z   duration_ms: 16.608043
+Test and Offline Build	Test	2026-05-10T20:12:33.3219721Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3220279Z # Subtest: normalises section JSON HTML into plain text
+Test and Offline Build	Test	2026-05-10T20:12:33.3221064Z ok 15 - normalises section JSON HTML into plain text
+Test and Offline Build	Test	2026-05-10T20:12:33.3221602Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3221899Z   duration_ms: 0.743349
+Test and Offline Build	Test	2026-05-10T20:12:33.3222250Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3222887Z # Subtest: extracts only primary India Code law PDFs from law pages
+Test and Offline Build	Test	2026-05-10T20:12:33.3223811Z ok 16 - extracts only primary India Code law PDFs from law pages
+Test and Offline Build	Test	2026-05-10T20:12:33.3224377Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3224679Z   duration_ms: 1.974699
+Test and Offline Build	Test	2026-05-10T20:12:33.3225381Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3225898Z # Subtest: parses India Code search result rows
+Test and Offline Build	Test	2026-05-10T20:12:33.3226558Z ok 17 - parses India Code search result rows
+Test and Offline Build	Test	2026-05-10T20:12:33.3227057Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3227371Z   duration_ms: 1.664711
+Test and Offline Build	Test	2026-05-10T20:12:33.3227726Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3228165Z # Subtest: parses regional PDF source rows
+Test and Offline Build	Test	2026-05-10T20:12:33.3228789Z ok 18 - parses regional PDF source rows
+Test and Offline Build	Test	2026-05-10T20:12:33.3229270Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3229591Z   duration_ms: 7.366825
+Test and Offline Build	Test	2026-05-10T20:12:33.3229936Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3230633Z # Subtest: strips table and inline HTML without collapsing intended breaks
+Test and Offline Build	Test	2026-05-10T20:12:33.3231754Z ok 19 - strips table and inline HTML without collapsing intended breaks
+Test and Offline Build	Test	2026-05-10T20:12:33.3232427Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3232782Z   duration_ms: 0.215042
+Test and Offline Build	Test	2026-05-10T20:12:33.3233162Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3233878Z # Subtest: repository-owned seed metadata is stored as Links Notation
+Test and Offline Build	Test	2026-05-10T20:12:33.3235203Z ok 20 - repository-owned seed metadata is stored as Links Notation
+Test and Offline Build	Test	2026-05-10T20:12:33.3235833Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3236144Z   duration_ms: 3183.350546
+Test and Offline Build	Test	2026-05-10T20:12:33.3236521Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3237347Z # Subtest: Lino codec stores strings unencoded and preserves numeric-looking identifiers
+Test and Offline Build	Test	2026-05-10T20:12:33.3238666Z ok 21 - Lino codec stores strings unencoded and preserves numeric-looking identifiers
+Test and Offline Build	Test	2026-05-10T20:12:33.3239428Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3239733Z   duration_ms: 2.708828
+Test and Offline Build	Test	2026-05-10T20:12:33.3240089Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3240710Z # Subtest: Lino codec keeps multilingual and multiline strings readable
+Test and Offline Build	Test	2026-05-10T20:12:33.3241676Z ok 22 - Lino codec keeps multilingual and multiline strings readable
+Test and Offline Build	Test	2026-05-10T20:12:33.3242288Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3242587Z   duration_ms: 1.237496
+Test and Offline Build	Test	2026-05-10T20:12:33.3243234Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3244010Z # Subtest: Lino codec preserves empty string definitions before later definitions
+Test and Offline Build	Test	2026-05-10T20:12:33.3245418Z ok 23 - Lino codec preserves empty string definitions before later definitions
+Test and Offline Build	Test	2026-05-10T20:12:33.3246105Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3246432Z   duration_ms: 0.721019
+Test and Offline Build	Test	2026-05-10T20:12:33.3246822Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3247491Z # Subtest: Lino writer uses indented definitions for nested data
+Test and Offline Build	Test	2026-05-10T20:12:33.3248420Z ok 24 - Lino writer uses indented definitions for nested data
+Test and Offline Build	Test	2026-05-10T20:12:33.3249040Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3249755Z   duration_ms: 1.251231
+Test and Offline Build	Test	2026-05-10T20:12:33.3250151Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3250876Z # Subtest: Lino reader still accepts previous typed object notation
+Test and Offline Build	Test	2026-05-10T20:12:33.3251842Z ok 25 - Lino reader still accepts previous typed object notation
+Test and Offline Build	Test	2026-05-10T20:12:33.3252487Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3252828Z   duration_ms: 0.655687
+Test and Offline Build	Test	2026-05-10T20:12:33.3253249Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3253693Z # Subtest: owned data directories do not store JSON metadata
+Test and Offline Build	Test	2026-05-10T20:12:33.3254427Z ok 26 - owned data directories do not store JSON metadata
+Test and Offline Build	Test	2026-05-10T20:12:33.3255232Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3255423Z   duration_ms: 8.306311
+Test and Offline Build	Test	2026-05-10T20:12:33.3255624Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3256151Z # Subtest: renders a section with content and footnotes
+Test and Offline Build	Test	2026-05-10T20:12:33.3256847Z ok 27 - renders a section with content and footnotes
+Test and Offline Build	Test	2026-05-10T20:12:33.3257320Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3257593Z   duration_ms: 5.125628
+Test and Offline Build	Test	2026-05-10T20:12:33.3257916Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3258785Z # Subtest: splits only between sections and keeps each part under the requested line budget when possible
+Test and Offline Build	Test	2026-05-10T20:12:33.3260221Z ok 28 - splits only between sections and keeps each part under the requested line budget when possible
+Test and Offline Build	Test	2026-05-10T20:12:33.3260994Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3261271Z   duration_ms: 2.73447
+Test and Offline Build	Test	2026-05-10T20:12:33.3261587Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3262094Z # Subtest: renders Markdown part metadata and source links
+Test and Offline Build	Test	2026-05-10T20:12:33.3262826Z ok 29 - renders Markdown part metadata and source links
+Test and Offline Build	Test	2026-05-10T20:12:33.3263303Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3263570Z   duration_ms: 0.559716
+Test and Offline Build	Test	2026-05-10T20:12:33.3263890Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3264562Z # Subtest: renders localized PDF pages with language-specific title and sources
+Test and Offline Build	Test	2026-05-10T20:12:33.3265765Z ok 30 - renders localized PDF pages with language-specific title and sources
+Test and Offline Build	Test	2026-05-10T20:12:33.3266334Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3266617Z   duration_ms: 0.401099
+Test and Offline Build	Test	2026-05-10T20:12:33.3266935Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3267514Z # Subtest: regional source discovery logs page decisions by default
+Test and Offline Build	Test	2026-05-10T20:12:33.3268401Z ok 31 - regional source discovery logs page decisions by default
+Test and Offline Build	Test	2026-05-10T20:12:33.3268933Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3269217Z   duration_ms: 120.90363
+Test and Offline Build	Test	2026-05-10T20:12:33.3269544Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3270078Z # Subtest: source smoke download logs source choices by default
+Test and Offline Build	Test	2026-05-10T20:12:33.3270857Z ok 32 - source smoke download logs source choices by default
+Test and Offline Build	Test	2026-05-10T20:12:33.3271363Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3271596Z   duration_ms: 87.729316
+Test and Offline Build	Test	2026-05-10T20:12:33.3271922Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3272703Z # Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+Test and Offline Build	Test	2026-05-10T20:12:33.3273981Z ok 33 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+Test and Offline Build	Test	2026-05-10T20:12:33.3274584Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3275038Z   duration_ms: 12.120034
+Test and Offline Build	Test	2026-05-10T20:12:33.3275294Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3275633Z # Subtest: refresh workflow prints checkpoint staging diagnostics
+Test and Offline Build	Test	2026-05-10T20:12:33.3276131Z ok 34 - refresh workflow prints checkpoint staging diagnostics
+Test and Offline Build	Test	2026-05-10T20:12:33.3276448Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3276620Z   duration_ms: 2.061753
+Test and Offline Build	Test	2026-05-10T20:12:33.3276807Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3277164Z # Subtest: refresh workflow uses one-hour checkpoint chunks by default
+Test and Offline Build	Test	2026-05-10T20:12:33.3277681Z ok 35 - refresh workflow uses one-hour checkpoint chunks by default
+Test and Offline Build	Test	2026-05-10T20:12:33.3278243Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3278406Z   duration_ms: 2.288576
+Test and Offline Build	Test	2026-05-10T20:12:33.3278604Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3278953Z # Subtest: refresh workflow uses plain sync commit message for one chunk
+Test and Offline Build	Test	2026-05-10T20:12:33.3279469Z ok 36 - refresh workflow uses plain sync commit message for one chunk
+Test and Offline Build	Test	2026-05-10T20:12:33.3279787Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3279952Z   duration_ms: 3.66443
+Test and Offline Build	Test	2026-05-10T20:12:33.3280140Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3280484Z # Subtest: refresh workflow advertises the canonical deployed site path
+Test and Offline Build	Test	2026-05-10T20:12:33.3281031Z ok 37 - refresh workflow advertises the canonical deployed site path
+Test and Offline Build	Test	2026-05-10T20:12:33.3281705Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3281881Z   duration_ms: 1.528797
+Test and Offline Build	Test	2026-05-10T20:12:33.3282080Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3282482Z # Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+Test and Offline Build	Test	2026-05-10T20:12:33.3283122Z ok 38 - CI workflow treats live-source partial output as a recoverable smoke result
+Test and Offline Build	Test	2026-05-10T20:12:33.3283511Z   ---
+Test and Offline Build	Test	2026-05-10T20:12:33.3283680Z   duration_ms: 1.431625
+Test and Offline Build	Test	2026-05-10T20:12:33.3283871Z   ...
+Test and Offline Build	Test	2026-05-10T20:12:33.3284024Z 1..38
+Test and Offline Build	Test	2026-05-10T20:12:33.3284192Z # tests 38
+Test and Offline Build	Test	2026-05-10T20:12:33.3284356Z # suites 0
+Test and Offline Build	Test	2026-05-10T20:12:33.3284514Z # pass 38
+Test and Offline Build	Test	2026-05-10T20:12:33.3285047Z # fail 0
+Test and Offline Build	Test	2026-05-10T20:12:33.3285250Z # cancelled 0
+Test and Offline Build	Test	2026-05-10T20:12:33.3285433Z # skipped 0
+Test and Offline Build	Test	2026-05-10T20:12:33.3285590Z # todo 0
+Test and Offline Build	Test	2026-05-10T20:12:33.3285775Z # duration_ms 5880.37839
+Test and Offline Build	Build deterministic React Pages artifact	﻿2026-05-10T20:12:33.3411177Z ##[group]Run node scripts/build-site.mjs --offline --output /tmp/indian-law-ci-offline-site
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.3412038Z ^[[36;1mnode scripts/build-site.mjs --offline --output /tmp/indian-law-ci-offline-site^[[0m
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.3433991Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.3434232Z ##[endgroup]
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4530842Z 2026-05-10T20:12:33.450Z [build-site] info: Starting site build in offline mode
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4538141Z 2026-05-10T20:12:33.453Z [build-site] info: Inputs: manifest=data/laws.seed.lino, languages=data/languages.lino, regionalSources=data/regional-sources.seed.lino, output=../../../../../tmp/indian-law-ci-offline-site
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4540343Z 2026-05-10T20:12:33.453Z [build-site] info: Options: maxLines=1500, delayMs=1100, maxLaws=all, maxSections=all, cacheDir=none, cacheTtlDays=30, maxRuntimeMs=none, progressIntervalMs=30000, progressFile=none, pathAlias=indian-law, verboseDefault=true
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4541772Z 2026-05-10T20:12:33.453Z [build-site] info: Reading manifest from data/laws.seed.lino
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4712496Z 2026-05-10T20:12:33.471Z [build-site] info: Reading language config from data/languages.lino
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4758609Z 2026-05-10T20:12:33.475Z [build-site] info: Reading regional sources from data/regional-sources.seed.lino
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4783642Z 2026-05-10T20:12:33.478Z [build-site] info: Loaded 4 manifest law(s), 7 language(s), 1 regional source record(s)
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4785345Z 2026-05-10T20:12:33.478Z [build-site] info: Selected 4 law(s) for this run
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4788852Z 2026-05-10T20:12:33.478Z [build-site] info: Preparing law 1/4: The Copyright Act, 1957 (seed data)
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4793391Z 2026-05-10T20:12:33.479Z [build-site] info: Preparing law 2/4: The Bharatiya Nyaya Sanhita, 2023 (seed data)
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4795615Z 2026-05-10T20:12:33.479Z [build-site] info: Preparing law 3/4: The Bharatiya Nagarik Suraksha Sanhita, 2023 (seed data)
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4797442Z 2026-05-10T20:12:33.479Z [build-site] info: Preparing law 4/4: The Bharatiya Sakshya Adhiniyam, 2023 (seed data)
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4800226Z 2026-05-10T20:12:33.479Z [build-site] info: Writing site output to ../../../../../tmp/indian-law-ci-offline-site
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4803916Z 2026-05-10T20:12:33.480Z [build-site] info: Removing generated laws/assets/data output from previous build
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4821498Z 2026-05-10T20:12:33.481Z [build-site] info: Creating output asset and data directories
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4828868Z 2026-05-10T20:12:33.482Z [build-site] info: Cataloging law copyright-act-1957: The Copyright Act, 1957
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4834365Z 2026-05-10T20:12:33.483Z [build-site] info: Language decision for copyright-act-1957/en: sections=3, parts=1, sources=2, status=markdown
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4836512Z 2026-05-10T20:12:33.483Z [build-site] info: Creating markdown directory ../../../../../tmp/indian-law-ci-offline-site/laws/en/copyright-act-1957
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4843528Z 2026-05-10T20:12:33.484Z [build-site] info: Writing markdown part ../../../../../tmp/indian-law-ci-offline-site/laws/en/copyright-act-1957/part-001.md with 3 section(s) and 48 line(s)
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4850491Z 2026-05-10T20:12:33.484Z [build-site] info: Language decision for copyright-act-1957/hi: sections=0, parts=0, sources=1, status=source-only
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4852211Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for copyright-act-1957/bn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4853660Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for copyright-act-1957/kn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4855549Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for copyright-act-1957/mr: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4856999Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for copyright-act-1957/ta: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4858386Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for copyright-act-1957/te: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4860182Z 2026-05-10T20:12:33.485Z [build-site] info: Cataloging law bharatiya-nyaya-sanhita-2023: The Bharatiya Nyaya Sanhita, 2023
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4861507Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nyaya-sanhita-2023/en: sections=0, parts=0, sources=1, status=source-only
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4862947Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nyaya-sanhita-2023/hi: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4864078Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nyaya-sanhita-2023/bn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4865485Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nyaya-sanhita-2023/kn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4866606Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nyaya-sanhita-2023/mr: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4867735Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nyaya-sanhita-2023/ta: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4868843Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nyaya-sanhita-2023/te: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4869960Z 2026-05-10T20:12:33.485Z [build-site] info: Cataloging law bharatiya-nagarik-suraksha-sanhita-2023: The Bharatiya Nagarik Suraksha Sanhita, 2023
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4871143Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nagarik-suraksha-sanhita-2023/en: sections=0, parts=0, sources=1, status=source-only
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4872369Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nagarik-suraksha-sanhita-2023/hi: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4873601Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nagarik-suraksha-sanhita-2023/bn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4875086Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nagarik-suraksha-sanhita-2023/kn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4876327Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nagarik-suraksha-sanhita-2023/mr: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4877736Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nagarik-suraksha-sanhita-2023/ta: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4878978Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-nagarik-suraksha-sanhita-2023/te: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4880100Z 2026-05-10T20:12:33.485Z [build-site] info: Cataloging law bharatiya-sakshya-adhiniyam-2023: The Bharatiya Sakshya Adhiniyam, 2023
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4881198Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-sakshya-adhiniyam-2023/en: sections=0, parts=0, sources=1, status=source-only
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4882353Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-sakshya-adhiniyam-2023/hi: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4883505Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-sakshya-adhiniyam-2023/bn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4884914Z 2026-05-10T20:12:33.485Z [build-site] info: Language decision for bharatiya-sakshya-adhiniyam-2023/kn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4886145Z 2026-05-10T20:12:33.486Z [build-site] info: Language decision for bharatiya-sakshya-adhiniyam-2023/mr: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4887460Z 2026-05-10T20:12:33.486Z [build-site] info: Language decision for bharatiya-sakshya-adhiniyam-2023/ta: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4888605Z 2026-05-10T20:12:33.486Z [build-site] info: Language decision for bharatiya-sakshya-adhiniyam-2023/te: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.4889424Z 2026-05-10T20:12:33.486Z [build-site] info: Writing catalog with 4 law entries
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.5102235Z 2026-05-10T20:12:33.509Z [build-site] info: Writing favicon
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.5105084Z 2026-05-10T20:12:33.510Z [build-site] info: Copying stylesheet
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.5112216Z 2026-05-10T20:12:33.511Z [build-site] info: Bundling React application with esbuild
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.5676604Z 2026-05-10T20:12:33.566Z [build-site] info: Computed asset hashes: site.css=9b97bc593506, app.js=22e7f1805c4f
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.5678791Z 2026-05-10T20:12:33.566Z [build-site] info: Writing application shell
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.5680333Z 2026-05-10T20:12:33.567Z [build-site] info: Writing path alias shell ../../../../../tmp/indian-law-ci-offline-site/indian-law/index.html
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.5686372Z 2026-05-10T20:12:33.568Z [build-site] info: Site build completed in 0m 0s
+Test and Offline Build	Build deterministic React Pages artifact	2026-05-10T20:12:33.5688939Z Generated 4 law entries in ../../../../../tmp/indian-law-ci-offline-site
+Test and Offline Build	Discover one Central Act smoke sample	﻿2026-05-10T20:12:33.5796369Z ##[group]Run node scripts/discover-laws.mjs --limit 1 --output /tmp/indian-law-ci-discovered.lino --delay-ms 0
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.5797238Z ^[[36;1mnode scripts/discover-laws.mjs --limit 1 --output /tmp/indian-law-ci-discovered.lino --delay-ms 0^[[0m
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.5818873Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.5819118Z ##[endgroup]
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.6254618Z 2026-05-10T20:12:33.623Z [discover-laws] info: Starting Central Act discovery
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.6263137Z 2026-05-10T20:12:33.625Z [discover-laws] info: Options: searchUrl=https://www.indiacode.nic.in/handle/123456789/1362/simple-search, output=../../../../../tmp/indian-law-ci-discovered.lino, seed=data/laws.seed.lino, rpp=100, limit=1, delayMs=0, retries=2, retryDelayMs=1000, timeoutMs=60000
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.6266180Z 2026-05-10T20:12:33.626Z [discover-laws] info: Reading seed manifest from data/laws.seed.lino
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.6379143Z 2026-05-10T20:12:33.637Z [discover-laws] info: Loaded 4 seed law(s)
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.6386683Z 2026-05-10T20:12:33.638Z [discover-laws] info: Fetching search page start=0, rpp=100: https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=&sort_by=dc.date.enactment_dt&order=desc&rpp=100&etal=0&start=0
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.6390894Z 2026-05-10T20:12:33.638Z [http] info: HTTP fetch scheduled for https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=&sort_by=dc.date.enactment_dt&order=desc&rpp=100&etal=0&start=0 with 3 attempt(s), timeout 60000ms
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:33.6394454Z 2026-05-10T20:12:33.638Z [http] info: HTTP attempt 1/3: GET https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=&sort_by=dc.date.enactment_dt&order=desc&rpp=100&etal=0&start=0
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.5858752Z 2026-05-10T20:12:34.585Z [http] info: HTTP response 200 OK for https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=&sort_by=dc.date.enactment_dt&order=desc&rpp=100&etal=0&start=0
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.5941156Z 2026-05-10T20:12:34.593Z [http] info: HTTP completed https://www.indiacode.nic.in/handle/123456789/1362/simple-search?query=&sort_by=dc.date.enactment_dt&order=desc&rpp=100&etal=0&start=0: 75238 byte(s)
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.5952589Z 2026-05-10T20:12:34.595Z [discover-laws] info: Fetched search page start=0: 75224 character(s)
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.5985666Z 2026-05-10T20:12:34.598Z [discover-laws] info: Parsed 100 law row(s) from search page start=0
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.5987624Z 2026-05-10T20:12:34.598Z [discover-laws] info: Added law 1: The National Highways Authority of India Act, 1988 (handle 1803)
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.5989168Z 2026-05-10T20:12:34.598Z [discover-laws] info: Discovery limit 1 reached
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.5990062Z 2026-05-10T20:12:34.598Z [discover-laws] info: Stopping discovery because limit 1 was reached
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.5991148Z 2026-05-10T20:12:34.598Z [discover-laws] info: Discovery status complete; live laws=1, seed fallback laws=4, output laws=1, errors=0
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.5992334Z 2026-05-10T20:12:34.598Z [discover-laws] info: Writing discovery manifest to ../../../../../tmp/indian-law-ci-discovered.lino
+Test and Offline Build	Discover one Central Act smoke sample	2026-05-10T20:12:34.6025896Z Discovered 1 laws -> ../../../../../tmp/indian-law-ci-discovered.lino
+Test and Offline Build	Build one live law smoke sample	﻿2026-05-10T20:12:34.6121023Z ##[group]Run set +e
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6121313Z ^[[36;1mset +e^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6121531Z ^[[36;1mnode scripts/build-site.mjs \^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6121797Z ^[[36;1m  --fetch \^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6122026Z ^[[36;1m  --manifest data/laws.seed.lino \^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6122386Z ^[[36;1m  --regional-sources data/regional-sources.seed.lino \^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6122737Z ^[[36;1m  --max-laws 1 \^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6122963Z ^[[36;1m  --max-sections 1 \^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6123239Z ^[[36;1m  --output /tmp/indian-law-ci-live-site \^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6123525Z ^[[36;1m  --delay-ms 0^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6123730Z ^[[36;1mstatus=$?^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6123917Z ^[[36;1mset -e^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6124108Z ^[[36;1mif [ "$status" -eq 0 ]; then^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6124353Z ^[[36;1m  exit 0^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6124530Z ^[[36;1mfi^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6125023Z ^[[36;1mif [ "$status" -ne 75 ]; then^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6125305Z ^[[36;1m  exit "$status"^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6125574Z ^[[36;1mfi^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6126096Z ^[[36;1mecho "::notice::Live law smoke produced partial output after an upstream source failure; treating exit 75 as recoverable for PR CI."^[[0m
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6147206Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.6147447Z ##[endgroup]
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7230180Z 2026-05-10T20:12:34.720Z [build-site] info: Starting site build in live fetch mode
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7237218Z 2026-05-10T20:12:34.723Z [build-site] info: Inputs: manifest=data/laws.seed.lino, languages=data/languages.lino, regionalSources=data/regional-sources.seed.lino, output=../../../../../tmp/indian-law-ci-live-site
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7239365Z 2026-05-10T20:12:34.723Z [build-site] info: Options: maxLines=1500, delayMs=0, maxLaws=1, maxSections=1, cacheDir=none, cacheTtlDays=30, maxRuntimeMs=none, progressIntervalMs=30000, progressFile=none, pathAlias=indian-law, verboseDefault=true
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7240780Z 2026-05-10T20:12:34.723Z [build-site] info: Reading manifest from data/laws.seed.lino
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7376552Z 2026-05-10T20:12:34.737Z [build-site] info: Reading language config from data/languages.lino
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7426357Z 2026-05-10T20:12:34.742Z [build-site] info: Reading regional sources from data/regional-sources.seed.lino
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7448184Z 2026-05-10T20:12:34.744Z [build-site] info: Loaded 4 manifest law(s), 7 language(s), 1 regional source record(s)
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7449675Z 2026-05-10T20:12:34.744Z [build-site] info: Selected 1 law(s) for this run
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7453020Z 2026-05-10T20:12:34.745Z [build-site] info: Preparing law 1/1: The Copyright Act, 1957 (cache/live fetch)
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7457198Z 2026-05-10T20:12:34.745Z [build-site] info: [1/1] Cache decision for The Copyright Act, 1957: no cache dir
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7459563Z 2026-05-10T20:12:34.745Z [build-site] info: [1/1] Fetching The Copyright Act, 1957 from https://www.indiacode.nic.in/handle/123456789/1367
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7462898Z 2026-05-10T20:12:34.746Z [build-site] info: Fetching law landing page for The Copyright Act, 1957: https://www.indiacode.nic.in/handle/123456789/1367
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7465421Z 2026-05-10T20:12:34.746Z [http] info: HTTP fetch scheduled for https://www.indiacode.nic.in/handle/123456789/1367 with 3 attempt(s), timeout 60000ms
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:34.7467647Z 2026-05-10T20:12:34.746Z [http] info: HTTP attempt 1/3: GET https://www.indiacode.nic.in/handle/123456789/1367
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:36.9685025Z 2026-05-10T20:12:36.968Z [http] info: HTTP response 200 OK for https://www.indiacode.nic.in/handle/123456789/1367
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.1946895Z 2026-05-10T20:12:37.194Z [http] info: HTTP completed https://www.indiacode.nic.in/handle/123456789/1367: 202377 byte(s)
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.1961374Z 2026-05-10T20:12:37.195Z [build-site] info: Fetched law landing page for The Copyright Act, 1957: 202212 character(s)
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.2052213Z 2026-05-10T20:12:37.204Z [build-site] info: Found 105 section reference(s) for The Copyright Act, 1957; fetching 1 section(s) after maxSections=1
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.2055426Z 2026-05-10T20:12:37.205Z [build-site] info: Fetching section 1/1 for The Copyright Act, 1957: sectionId=14503, sectionNo=1, actid=AC_CEN_9_30_00006_195714_1517807321712
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.2058219Z 2026-05-10T20:12:37.205Z [http] info: HTTP fetch scheduled for https://www.indiacode.nic.in/SectionPageContent?actid=AC_CEN_9_30_00006_195714_1517807321712&sectionID=14503 with 3 attempt(s), timeout 60000ms
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.2060964Z 2026-05-10T20:12:37.205Z [http] info: HTTP attempt 1/3: GET https://www.indiacode.nic.in/SectionPageContent?actid=AC_CEN_9_30_00006_195714_1517807321712&sectionID=14503
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.5681458Z 2026-05-10T20:12:37.567Z [http] info: HTTP response 200 OK for https://www.indiacode.nic.in/SectionPageContent?actid=AC_CEN_9_30_00006_195714_1517807321712&sectionID=14503
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.5685959Z 2026-05-10T20:12:37.568Z [http] info: HTTP completed https://www.indiacode.nic.in/SectionPageContent?actid=AC_CEN_9_30_00006_195714_1517807321712&sectionID=14503: 758 byte(s)
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.5690394Z 2026-05-10T20:12:37.568Z [build-site] info: Parsed section 1/1 for The Copyright Act, 1957: content=216 chars, footnotes=127 chars
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.5691581Z 2026-05-10T20:12:37.568Z [build-site] info:   The Copyright Act, 1957: fetched 1/1 sections
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.5709668Z 2026-05-10T20:12:37.570Z [build-site] info: [1/1] Extracting Hindi PDF text for The Copyright Act, 1957: https://www.indiacode.nic.in/bitstream/123456789/1367/3/H1957-14.pdf
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.5712172Z 2026-05-10T20:12:37.570Z [http] info: HTTP fetch scheduled for https://www.indiacode.nic.in/bitstream/123456789/1367/3/H1957-14.pdf with 3 attempt(s), timeout 60000ms
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.5714030Z 2026-05-10T20:12:37.570Z [http] info: HTTP attempt 1/3: GET https://www.indiacode.nic.in/bitstream/123456789/1367/3/H1957-14.pdf
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.5867607Z 2026-05-10T20:12:37.586Z [http] info: HTTP response 200 OK for https://www.indiacode.nic.in/bitstream/123456789/1367/3/H1957-14.pdf
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:37.6100688Z 2026-05-10T20:12:37.609Z [http] info: HTTP completed https://www.indiacode.nic.in/bitstream/123456789/1367/3/H1957-14.pdf: 907577 byte(s)
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6799225Z 2026-05-10T20:12:38.679Z [build-site] info: [1/1] Extracted 41/41 page(s) of Hindi Markdown text for The Copyright Act, 1957
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6800775Z 2026-05-10T20:12:38.679Z [build-site] info: [1/1] Fetched 1 new section(s), reused 0 cached section(s), total 1/1 for The Copyright Act, 1957
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6804559Z 2026-05-10T20:12:38.680Z [build-site] info: Writing site output to ../../../../../tmp/indian-law-ci-live-site
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6835846Z 2026-05-10T20:12:38.680Z [build-site] info: Removing generated laws/assets/data output from previous build
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6885689Z 2026-05-10T20:12:38.688Z [build-site] info: Creating output asset and data directories
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6890982Z 2026-05-10T20:12:38.688Z [build-site] info: Cataloging law copyright-act-1957: The Copyright Act, 1957
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6895386Z 2026-05-10T20:12:38.689Z [build-site] info: Language decision for copyright-act-1957/en: sections=1, parts=1, sources=2, status=markdown
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6896833Z 2026-05-10T20:12:38.689Z [build-site] info: Creating markdown directory ../../../../../tmp/indian-law-ci-live-site/laws/en/copyright-act-1957
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6902449Z 2026-05-10T20:12:38.690Z [build-site] info: Writing markdown part ../../../../../tmp/indian-law-ci-live-site/laws/en/copyright-act-1957/part-001.md with 1 section(s) and 33 line(s)
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6913394Z 2026-05-10T20:12:38.691Z [build-site] info: Language decision for copyright-act-1957/hi: sections=41, parts=2, sources=1, status=markdown
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6915395Z 2026-05-10T20:12:38.691Z [build-site] info: Creating markdown directory ../../../../../tmp/indian-law-ci-live-site/laws/hi/copyright-act-1957
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6923850Z 2026-05-10T20:12:38.692Z [build-site] info: Writing markdown part ../../../../../tmp/indian-law-ci-live-site/laws/hi/copyright-act-1957/part-001.md with 29 section(s) and 1419 line(s)
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6936417Z 2026-05-10T20:12:38.693Z [build-site] info: Writing markdown part ../../../../../tmp/indian-law-ci-live-site/laws/hi/copyright-act-1957/part-002.md with 12 section(s) and 555 line(s)
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6942379Z 2026-05-10T20:12:38.694Z [build-site] info: Language decision for copyright-act-1957/bn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6944469Z 2026-05-10T20:12:38.694Z [build-site] info: Language decision for copyright-act-1957/kn: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6946745Z 2026-05-10T20:12:38.694Z [build-site] info: Language decision for copyright-act-1957/mr: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6948816Z 2026-05-10T20:12:38.694Z [build-site] info: Language decision for copyright-act-1957/ta: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6950940Z 2026-05-10T20:12:38.694Z [build-site] info: Language decision for copyright-act-1957/te: sections=0, parts=0, sources=0, status=unavailable
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.6952479Z 2026-05-10T20:12:38.694Z [build-site] info: Writing catalog with 1 law entries
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.7145743Z 2026-05-10T20:12:38.713Z [build-site] info: Writing favicon
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.7184956Z 2026-05-10T20:12:38.715Z [build-site] info: Copying stylesheet
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.7186127Z 2026-05-10T20:12:38.716Z [build-site] info: Bundling React application with esbuild
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.7675746Z 2026-05-10T20:12:38.767Z [build-site] info: Computed asset hashes: site.css=9b97bc593506, app.js=22e7f1805c4f
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.7676759Z 2026-05-10T20:12:38.767Z [build-site] info: Writing application shell
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.7679716Z 2026-05-10T20:12:38.767Z [build-site] info: Writing path alias shell ../../../../../tmp/indian-law-ci-live-site/indian-law/index.html
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.7685670Z 2026-05-10T20:12:38.768Z [build-site] info: Site build completed in 0m 4s
+Test and Offline Build	Build one live law smoke sample	2026-05-10T20:12:38.7688456Z Generated 1 law entries in ../../../../../tmp/indian-law-ci-live-site
+Test and Offline Build	Download one official law corpus smoke sample	﻿2026-05-10T20:12:38.7847675Z ##[group]Run node scripts/smoke-download-source.mjs --manifest data/laws.seed.lino --max-sources 1 --output /tmp/indian-law-ci-source --delay-ms 1100
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.7848806Z ^[[36;1mnode scripts/smoke-download-source.mjs --manifest data/laws.seed.lino --max-sources 1 --output /tmp/indian-law-ci-source --delay-ms 1100^[[0m
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.7869932Z shell: /usr/bin/bash -e {0}
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.7870194Z ##[endgroup]
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.8296906Z 2026-05-10T20:12:38.827Z [smoke-download-source] info: Starting official source smoke download
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.8302381Z 2026-05-10T20:12:38.830Z [smoke-download-source] info: Options: manifest=data/laws.seed.lino, output=/tmp/indian-law-ci-source, maxSources=1, minBytes=1024, delayMs=1100
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.8303993Z 2026-05-10T20:12:38.830Z [smoke-download-source] info: Reading law manifest from data/laws.seed.lino
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.8417905Z 2026-05-10T20:12:38.841Z [smoke-download-source] info: Loaded 4 law(s) from manifest
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.8419902Z 2026-05-10T20:12:38.841Z [smoke-download-source] info: Queued 6 official source(s) after sorting by source type
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.8421691Z 2026-05-10T20:12:38.841Z [smoke-download-source] info: Creating download output directory /tmp/indian-law-ci-source
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.8426763Z 2026-05-10T20:12:38.842Z [smoke-download-source] info: Downloading source 1/1: en pdf for copyright-act-1957 from https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.8429801Z 2026-05-10T20:12:38.842Z [http] info: HTTP fetch scheduled for https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf with 3 attempt(s), timeout 60000ms
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.8432250Z 2026-05-10T20:12:38.842Z [http] info: HTTP attempt 1/3: GET https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.9145747Z 2026-05-10T20:12:38.914Z [http] info: HTTP response 200 OK for https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.9384043Z 2026-05-10T20:12:38.938Z [http] info: HTTP completed https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf: 518938 byte(s)
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.9393454Z 2026-05-10T20:12:38.939Z [smoke-download-source] info: Downloaded 518938 byte(s) from https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.9395479Z 2026-05-10T20:12:38.939Z [smoke-download-source] info: Writing source body to /tmp/indian-law-ci-source/01-copyright-act-1957-en.pdf
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.9405467Z Downloaded 518938 bytes from https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.9406628Z 2026-05-10T20:12:38.940Z [smoke-download-source] info: Reached max-sources limit 1
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.9407706Z 2026-05-10T20:12:38.940Z [smoke-download-source] info: Completed official source smoke download with 1 file(s)
+Test and Offline Build	Download one official law corpus smoke sample	2026-05-10T20:12:38.9408429Z Downloaded 1 official law source(s) into /tmp/indian-law-ci-source
+Test and Offline Build	Post Setup Node	﻿2026-05-10T20:12:38.9521752Z Post job cleanup.
+Test and Offline Build	Post Setup Node	2026-05-10T20:12:39.0814395Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-6efc0fa8c17faf7b93955da3d49e1b91e60db3f8f1a26372c2dca1bf2f0c82bc, not saving cache.
+Test and Offline Build	Post Checkout	﻿2026-05-10T20:12:39.0950180Z Post job cleanup.
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.1799690Z [command]/usr/bin/git version
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.1839442Z git version 2.53.0
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.1880937Z Temporarily overriding HOME='/home/runner/work/_temp/5daf6757-496b-4a51-bb48-5a3eb73a9d14' before making global git config changes
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.1882045Z Adding repository directory to the temporary git global config as a safe directory
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.1887055Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/indian-law/indian-law
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.1918244Z Removing SSH command configuration
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.1924367Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.1959180Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2217084Z Removing HTTP extra header
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2221895Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2258374Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2480177Z Removing includeIf entries pointing to credentials config files
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2487287Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2510030Z includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2511224Z includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2512228Z includeif.gitdir:/github/workspace/.git.path
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2513059Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2520129Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2540717Z /home/runner/work/_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2552532Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/indian-law/indian-law/.git.path /home/runner/work/_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2585467Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2605661Z /home/runner/work/_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2615537Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/indian-law/indian-law/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2644220Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2664751Z /github/runner_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2673409Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2703589Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2725437Z /github/runner_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2734442Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.2766163Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test and Offline Build	Post Checkout	2026-05-10T20:12:39.3002934Z Removing credentials config '/home/runner/work/_temp/git-credentials-947845f8-040d-454f-bb99-0375d0d5442d.config'
+Test and Offline Build	Complete job	﻿2026-05-10T20:12:39.3160004Z Cleaning up orphan processes

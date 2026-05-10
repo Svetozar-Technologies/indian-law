@@ -1,12 +1,12 @@
 ---
-title: "null"
+title: "Act 26 of 1881"
 language: hi
 part: 1
 parts: 1
 line_limit: 1500
 source: "https://www.indiacode.nic.in/bitstream/123456789/2189/2/H1881-26.pdf"
 ---
-# null
+# Act 26 of 1881
 
 Language: Hindi
 Part 1 of 1

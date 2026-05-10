@@ -2,6 +2,9 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 
 import {
+  displayTitleForLanguage,
+  languageCoverageForCatalog,
+  lawsForLanguage,
   statusClassForLanguage,
   textStatusForLanguage
 } from "./catalog-status.mjs";
@@ -87,8 +90,8 @@ function LawViewer({ catalog, route }) {
 function HomeView({ catalog, selectedLanguage }) {
   const language = languageByCode(catalog, selectedLanguage) ?? languageByCode(catalog, catalog.defaultLanguage);
   const languageCode = language?.code ?? catalog.defaultLanguage;
-  const readyCount = catalog.laws.filter((law) => law.languages[languageCode]?.enabled).length;
-  const totalCount = catalog.laws.length;
+  const visibleLaws = useMemo(() => lawsForLanguage(catalog, languageCode), [catalog, languageCode]);
+  const { ready: readyCount, total: totalCount } = languageCoverageForCatalog(catalog, languageCode);
   const lawMetric = readyCount === totalCount ? String(totalCount) : `${readyCount}/${totalCount}`;
 
   return (
@@ -134,18 +137,19 @@ function HomeView({ catalog, selectedLanguage }) {
               <tr><th>Title</th><th>Year</th><th>Act</th><th>Text</th><th>Source</th></tr>
             </thead>
             <tbody>
-              {catalog.laws.map((law) => {
+              {visibleLaws.map((law) => {
                 const languageRecord = law.languages[languageCode] ?? null;
                 const canOpen = Boolean(languageRecord?.enabled);
+                const title = displayTitleForLanguage(law, languageCode, catalog.defaultLanguage);
                 return (
                   <tr key={law.slug}>
                     <td>
                       {canOpen ? (
                         <a href={documentHash(languageCode, law.slug, languageRecord.parts[0]?.file)}>
-                          {titleForLanguage(law, languageCode)}
+                          {title}
                         </a>
                       ) : (
-                        titleForLanguage(law, languageCode)
+                        title
                       )}
                     </td>
                     <td>{law.actYear}</td>
@@ -171,6 +175,7 @@ function DocumentView({ catalog, resolved }) {
   const { law, language, part } = resolved;
   const [markdown, setMarkdown] = useState("");
   const [error, setError] = useState("");
+  const showDefaultLanguageDetails = language.code === catalog.defaultLanguage;
 
   useEffect(() => {
     let cancelled = false;
@@ -199,19 +204,20 @@ function DocumentView({ catalog, resolved }) {
   }, [language.code, law.slug, part.file]);
 
   const languageRecord = law.languages[language.code];
+  const title = displayTitleForLanguage(law, language.code, catalog.defaultLanguage);
 
   return (
     <>
       <article className="law-heading">
         <div>
           <p className="kicker">{language.name}</p>
-          <h1>{titleForLanguage(law, language.code)}</h1>
-          <p>{law.longTitle}</p>
+          <h1>{title}</h1>
+          {showDefaultLanguageDetails && law.longTitle ? <p>{law.longTitle}</p> : null}
         </div>
         <dl>
           <div><dt>Act</dt><dd>{law.actNumber} of {law.actYear}</dd></div>
           <div><dt>Enacted</dt><dd>{law.enactmentDate}</dd></div>
-          <div><dt>Ministry</dt><dd>{law.ministry}</dd></div>
+          {showDefaultLanguageDetails && law.ministry ? <div><dt>Ministry</dt><dd>{law.ministry}</dd></div> : null}
         </dl>
       </article>
 
@@ -402,10 +408,6 @@ function languageForLaw(law, requestedLanguage, defaultLanguage) {
 
 function sourcesForLanguage(law, requestedLanguage) {
   return law.languages[requestedLanguage]?.sources ?? [];
-}
-
-function titleForLanguage(law, languageCode) {
-  return law.localizedTitles?.[languageCode] ?? law.title;
 }
 
 function languageByCode(catalog, code) {

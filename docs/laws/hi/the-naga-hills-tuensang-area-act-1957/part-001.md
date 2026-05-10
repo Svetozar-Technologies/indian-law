@@ -1,12 +1,12 @@
 ---
-title: "null"
+title: "Act 42 of 1957"
 language: hi
 part: 1
 parts: 1
 line_limit: 1500
 source: "https://www.indiacode.nic.in/bitstream/123456789/1417/5/H1957-42.pdf"
 ---
-# null
+# Act 42 of 1957
 
 Language: Hindi
 Part 1 of 1

@@ -66,6 +66,19 @@ test("extracts only primary India Code law PDFs from law pages", () => {
   ]);
 });
 
+test("ignores placeholder PDF link titles from India Code", () => {
+  const html = '<a href="/bitstream/123456789/2189/2/H1881-26.pdf">null</a>';
+  const metadata = extractIndiaCodeMetadata(html, "https://www.indiacode.nic.in/handle/123456789/2189");
+
+  assert.deepEqual(metadata.sources.hi, [
+    {
+      kind: "pdf",
+      url: "https://www.indiacode.nic.in/bitstream/123456789/2189/2/H1881-26.pdf",
+      title: ""
+    }
+  ]);
+});
+
 test("parses India Code search result rows", () => {
   const html = `<tr><td headers="t1" class="evenRowEvenCol">25-Dec-2023</td><td headers="t2"><em>45</em></td><td headers="t3">The <font><b>Bharatiya Nyaya Sanhita</b></font>, 2023</td><td headers="t4"><a href="/handle/123456789/20062?view_type=search&col=123456789/1362">View...</a></td></tr>`;
   const rows = parseActSearchRows(html);

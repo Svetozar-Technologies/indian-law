@@ -1,12 +1,12 @@
 ---
-title: "null"
+title: "Act 56 of 1959"
 language: hi
 part: 1
 parts: 1
 line_limit: 1500
 source: "https://www.indiacode.nic.in/bitstream/123456789/1409/3/H1959-56.pdf"
 ---
-# null
+# Act 56 of 1959
 
 Language: Hindi
 Part 1 of 1
