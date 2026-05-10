@@ -1,0 +1,420 @@
+TAP version 13
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 1 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 5.865226
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 2 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 1.565216
+  ...
+# Subtest: refresh workflow uses one-hour checkpoint chunks by default
+ok 3 - refresh workflow uses one-hour checkpoint chunks by default
+  ---
+  duration_ms: 1.206941
+  ...
+# Subtest: refresh workflow uses plain sync commit message for one chunk
+ok 4 - refresh workflow uses plain sync commit message for one chunk
+  ---
+  duration_ms: 2.193274
+  ...
+# Subtest: refresh workflow advertises the canonical deployed site path
+not ok 5 - refresh workflow advertises the canonical deployed site path
+  ---
+  duration_ms: 3.646083
+  location: '/tmp/gh-issue-solver-1778419921660/tests/workflow-refresh.test.mjs:75:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The input did not match the regular expression /^\s+url: https:\/\/law\.satyavera\.in\/indian-law\/$/m. Input:
+
+    'name: Refresh Laws and Deploy Pages\n' +
+      '\n' +
+      'on:\n' +
+      '  push:\n' +
+      '    branches:\n' +
+      '      - main\n' +
+      '  schedule:\n' +
+      '    - cron: "17 2 * * 1"\n' +
+      '  workflow_dispatch:\n' +
+      '    inputs:\n' +
+      '      fetch_limit:\n' +
+      '        description: "Maximum laws to fetch. Use 0 for the full discovered list."\n' +
+      '        required: false\n' +
+      '        default: "0"\n' +
+      '      max_sections:\n' +
+      '        description: "Maximum sections per law for diagnostics. Leave empty for all sections."\n' +
+      '        required: false\n' +
+      '        default: ""\n' +
+      '      regional_pages:\n' +
+      '        description: "Regional-language listing pages to inspect per language."\n' +
+      '        required: false\n' +
+      '        default: "10"\n' +
+      '      checkpoint_minutes:\n' +
+      '        description: "Minutes to fetch before committing partial progress."\n' +
+      '        required: false\n' +
+      '        default: "55"\n' +
+      '      max_chunks:\n' +
+      '        description: "Maximum checkpoint chunks to run in one workflow execution."\n' +
+      '        required: false\n' +
+      '        default: "1"\n' +
+      '\n' +
+      'permissions:\n' +
+      '  contents: write\n' +
+      '  pages: write\n' +
+      '  id-token: write\n' +
+      '\n' +
+      'concurrency:\n' +
+      '  group: pages-refresh\n' +
+      '  cancel-in-progress: false\n' +
+      '\n' +
+      'jobs:\n' +
+      '  refresh:\n' +
+      '    name: Refresh Official Sources\n' +
+      '    runs-on: ubuntu-latest\n' +
+      '    timeout-minutes: 75\n' +
+      '    environment:\n' +
+      '      name: github-pages\n' +
+      '      url: ${{ steps.deployment.outputs.page_url }}\n' +
+      '    steps:\n' +
+      '      - name: Checkout\n' +
+      '        uses: actions/checkout@v6\n' +
+      '        with:\n' +
+      '          ref: main\n' +
+      '\n' +
+      '      - name: Setup Node\n' +
+      '        uses: actions/setup-node@v6\n' +
+      '        with:\n' +
+      '          node-version: 20\n' +
+      '          cache: npm\n' +
+      '\n' +
+      '      - name: Install\n' +
+      '        run: npm ci\n' +
+      '\n' +
+      '      - name: Discover Central Acts\n' +
+      '        env:\n' +
+      "          FETCH_LIMIT: ${{ github.event.inputs.fetch_limit || '0' }}\n" +
+      '        run: node scripts/discover-laws.mjs --limit "$FETCH_LIMIT" --output data/laws.discovered.lino --delay-ms 1100\n' +
+      '\n' +
+      '      - name: Discover Regional Language Sources\n' +
+      '        env:\n' +
+      "          REGIONAL_PAGES: ${{ github.event.inputs.regional_pages || '10' }}\n" +
+      '        run: node scripts/discover-regional-sources.mjs --max-pages "$REGIONAL_PAGES" --output data/regional-sources.discovered.lino --delay-ms 1100\n' +
+      '\n' +
+      '      - name: Configure commit author\n' +
+      '        run: |\n' +
+      '          git config user.name "github-actions[bot]"\n' +
+      '          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"\n' +
+      '\n' +
+      '      - name: Build Pages with resumable checkpoints\n' +
+      '        env:\n' +
+      '          MAX_SECTIONS: ${{ github.event.inputs.max_sections }}\n' +
+      "          CHECKPOINT_MINUTES: ${{ github.event.inputs.checkpoint_minutes || '55' }}\n" +
+      "          MAX_CHUNKS: ${{ github.event.inputs.max_chunks || '1' }}\n" +
+      '        run: |\n' +
+      '          set -euxo pipefail\n' +
+      '\n' +
+      '          echo "Starting resumable refresh with CHECKPOINT_MINUTES=$CHECKPOINT_MINUTES, MAX_CHUNKS=$MAX_CHUNKS, MAX_SECTIONS=${MAX_SECTIONS:-all}."\n' +
+      '\n' +
+      '          commit_generated() {\n' +
+      '            local message="$1"\n' +
+      '            echo "Staging generated docs and cache for commit: $message"\n' +
+      '            echo "Workspace status before staging generated files:"\n' +
+      '            git status --short\n' +
+      '            git add docs\n' +
+      '            git add -f data/laws.discovered.lino data/regional-sources.discovered.lino\n' +
+      '            if [ -d data/cache ]; then\n' +
+      '              echo "Staging data/cache"\n' +
+      '              git add data/cache\n' +
+      '            else\n' +
+      '              echo "No data/cache directory exists yet."\n' +
+      '            fi\n' +
+      '            echo "Workspace status after staging generated files:"\n' +
+      '            git status --short\n' +
+      '            echo "Staged generated change summary:"\n' +
+      '            git diff --cached --stat\n' +
+      '            if git diff --cached --quiet; then\n' +
+      '              echo "No generated docs or cache changes to commit."\n' +
+      '              return\n' +
+      '            fi\n' +
+      '            git commit -m "$message"\n' +
+      '            echo "Created checkpoint commit $(git rev-parse --short HEAD)."\n' +
+      '            git push origin HEAD:main\n' +
+      '            echo "Pushed checkpoint commit $(git rev-parse --short HEAD) to main."\n' +
+      '          }\n' +
+      '\n' +
+      '          sync_commit_message() {\n' +
+      '            local chunk="$1"\n' +
+      '            local max_chunks="$2"\n' +
+      '            if [ "$max_chunks" -eq 1 ]; then\n' +
+      '              echo "Laws sync"\n' +
+      '            else\n' +
+      '              echo "Laws sync chunk $chunk of $max_chunks"\n' +
+      '            fi\n' +
+      '          }\n' +
+      '\n' +
+      '          checkpoint_ms=$(( CHECKPOINT_MINUTES * 60 * 1000 ))\n' +
+      '          echo "Computed checkpoint runtime budget: $checkpoint_ms ms."\n' +
+      '          args=(\n' +
+      '            --fetch\n' +
+      '            --manifest data/laws.discovered.lino\n' +
+      '            --regional-sources data/regional-sources.discovered.lino\n' +
+      '            --delay-ms 1100\n' +
+      '            --cache-dir data/cache/laws\n' +
+      '            --cache-ttl-days 30\n' +
+      '            --progress-file data/cache/refresh-status.lino\n' +
+      '            --max-runtime-ms "$checkpoint_ms"\n' +
+      '            --progress-interval-ms 30000\n' +
+      '          )\n' +
+      '          if [ -n "$MAX_SECTIONS" ]; then\n' +
+      '            echo "Limiting section fetches to MAX_SECTIONS=$MAX_SECTIONS."\n' +
+      '            args+=(--max-sections "$MAX_SECTIONS")\n' +
+      '          else\n' +
+      '            echo "Fetching all sections for each law."\n' +
+      '          fi\n' +
+      '          printf \'Build arguments: %q\\n\' "${args[@]}"\n' +
+      '\n' +
+      '          status=75\n' +
+      '          for chunk in $(seq 1 "$MAX_CHUNKS"); do\n' +
+      '            echo "::group::Refresh chunk $chunk of $MAX_CHUNKS"\n' +
+      '            set +e\n' +
+      '            node scripts/build-site.mjs "${args[@]}"\n' +
+      '            status=$?\n' +
+      '            set -e\n' +
+      '            echo "::endgroup::"\n' +
+      '\n' +
+      '            commit_generated "$(sync_commit_message "$chunk" "$MAX_CHUNKS")"\n' +
+      '\n' +
+      '            if [ "$status" -eq 0 ]; then\n' +
+      '              echo "Refresh completed."\n' +
+      '              break\n' +
+      '            fi\n' +
+      '            if [ "$status" -ne 75 ]; then\n' +
+      '              echo "::error::Refresh failed with exit code $status."\n' +
+      '              exit "$status"\n' +
+      '            fi\n' +
+      '            echo "Checkpoint reached; continuing from committed cached laws."\n' +
+      '            if [ "$chunk" -eq "$MAX_CHUNKS" ]; then\n' +
+      '              echo "::notice::Refresh checkpoint saved after $MAX_CHUNKS chunk(s); run this workflow again to continue."\n' +
+      '            fi\n' +
+      '          done\n' +
+      '\n' +
+      '      - name: Configure GitHub Pages\n' +
+      '        uses: actions/configure-pages@v6\n' +
+      '\n' +
+      '      - name: Upload GitHub Pages artifact\n' +
+      '        uses: actions/upload-pages-artifact@v5\n' +
+      '        with:\n' +
+      '          path: docs\n' +
+      '\n' +
+      '      - name: Deploy to GitHub Pages\n' +
+      '        id: deployment\n' +
+      '        uses: actions/deploy-pages@v5\n'
+
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+  actual: |-
+    name: Refresh Laws and Deploy Pages
+
+    on:
+      push:
+        branches:
+          - main
+      schedule:
+        - cron: "17 2 * * 1"
+      workflow_dispatch:
+        inputs:
+          fetch_limit:
+            description: "Maximum laws to fetch. Use 0 for the full discovered list."
+            required: false
+            default: "0"
+          max_sections:
+            description: "Maximum sections per law for diagnostics. Leave empty for all sections."
+            required: false
+            default: ""
+          regional_pages:
+            description: "Regional-language listing pages to inspect per language."
+            required: false
+            default: "10"
+          checkpoint_minutes:
+            description: "Minutes to fetch before committing partial progress."
+            required: false
+            default: "55"
+          max_chunks:
+            description: "Maximum checkpoint chunks to run in one workflow execution."
+            required: false
+            default: "1"
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    concurrency:
+      group: pages-refresh
+      cancel-in-progress: false
+
+    jobs:
+      refresh:
+        name: Refresh Official Sources
+        runs-on: ubuntu-latest
+        timeout-minutes: 75
+        environment:
+          name: github-pages
+          url: ${{ steps.deployment.outputs.page_url }}
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v6
+            with:
+              ref: main
+
+          - name: Setup Node
+            uses: actions/setup-node@v6
+            with:
+              node-version: 20
+              cache: npm
+
+          - name: Install
+            run: npm ci
+
+          - name: Discover Central Acts
+            env:
+              FETCH_LIMIT: ${{ github.event.inputs.fetch_limit || '0' }}
+            run: node scripts/discover-laws.mjs --limit "$FETCH_LIMIT" --output data/laws.discovered.lino --delay-ms 1100
+
+          - name: Discover Regional Language Sources
+            env:
+              REGIONAL_PAGES: ${{ github.event.inputs.regional_pages || '10' }}
+            run: node scripts/discover-regional-sources.mjs --max-pages "$REGIONAL_PAGES" --output data/regional-sources.discovered.lino --delay-ms 1100
+
+          - name: Configure commit author
+            run: |
+              git config user.name "github-actions[bot]"
+              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          - name: Build Pages with resumable checkpoints
+            env:
+              MAX_SECTIONS: ${{ github.event.inputs.max_sections }}
+              CHECKPOINT_MINUTES: ${{ github.event.inputs.checkpoint_minutes || '55' }}
+              MAX_CHUNKS: ${{ github.event.inputs.max_chunks || '1' }}
+            run: |
+              set -euxo pipefail
+
+              echo "Starting resumable refresh with CHECKPOINT_MINUTES=$CHECKPOINT_MINUTES, MAX_CHUNKS=$MAX_CHUNKS, MAX_SECTIONS=${MAX_SECTIONS:-all}."
+
+              commit_generated() {
+                local message="$1"
+                echo "Staging generated docs and cache for commit: $message"
+                echo "Workspace status before staging generated files:"
+                git status --short
+                git add docs
+                git add -f data/laws.discovered.lino data/regional-sources.discovered.lino
+                if [ -d data/cache ]; then
+                  echo "Staging data/cache"
+                  git add data/cache
+                else
+                  echo "No data/cache directory exists yet."
+                fi
+                echo "Workspace status after staging generated files:"
+                git status --short
+                echo "Staged generated change summary:"
+                git diff --cached --stat
+                if git diff --cached --quiet; then
+                  echo "No generated docs or cache changes to commit."
+                  return
+                fi
+                git commit -m "$message"
+                echo "Created checkpoint commit $(git rev-parse --short HEAD)."
+                git push origin HEAD:main
+                echo "Pushed checkpoint commit $(git rev-parse --short HEAD) to main."
+              }
+
+              sync_commit_message() {
+                local chunk="$1"
+                local max_chunks="$2"
+                if [ "$max_chunks" -eq 1 ]; then
+                  echo "Laws sync"
+                else
+                  echo "Laws sync chunk $chunk of $max_chunks"
+                fi
+              }
+
+              checkpoint_ms=$(( CHECKPOINT_MINUTES * 60 * 1000 ))
+              echo "Computed checkpoint runtime budget: $checkpoint_ms ms."
+              args=(
+                --fetch
+                --manifest data/laws.discovered.lino
+                --regional-sources data/regional-sources.discovered.lino
+                --delay-ms 1100
+                --cache-dir data/cache/laws
+                --cache-ttl-days 30
+                --progress-file data/cache/refresh-status.lino
+                --max-runtime-ms "$checkpoint_ms"
+                --progress-interval-ms 30000
+              )
+              if [ -n "$MAX_SECTIONS" ]; then
+                echo "Limiting section fetches to MAX_SECTIONS=$MAX_SECTIONS."
+                args+=(--max-sections "$MAX_SECTIONS")
+              else
+                echo "Fetching all sections for each law."
+              fi
+              printf 'Build arguments: %q\n' "${args[@]}"
+
+              status=75
+              for chunk in $(seq 1 "$MAX_CHUNKS"); do
+                echo "::group::Refresh chunk $chunk of $MAX_CHUNKS"
+                set +e
+                node scripts/build-site.mjs "${args[@]}"
+                status=$?
+                set -e
+                echo "::endgroup::"
+
+                commit_generated "$(sync_commit_message "$chunk" "$MAX_CHUNKS")"
+
+                if [ "$status" -eq 0 ]; then
+                  echo "Refresh completed."
+                  break
+                fi
+                if [ "$status" -ne 75 ]; then
+                  echo "::error::Refresh failed with exit code $status."
+                  exit "$status"
+                fi
+                echo "Checkpoint reached; continuing from committed cached laws."
+                if [ "$chunk" -eq "$MAX_CHUNKS" ]; then
+                  echo "::notice::Refresh checkpoint saved after $MAX_CHUNKS chunk(s); run this workflow again to continue."
+                fi
+              done
+
+          - name: Configure GitHub Pages
+            uses: actions/configure-pages@v6
+
+          - name: Upload GitHub Pages artifact
+            uses: actions/upload-pages-artifact@v5
+            with:
+              path: docs
+
+          - name: Deploy to GitHub Pages
+            id: deployment
+            uses: actions/deploy-pages@v5
+
+  operator: 'match'
+  stack: |-
+    TestContext.<anonymous> (file:///tmp/gh-issue-solver-1778419921660/tests/workflow-refresh.test.mjs:78:10)
+    async Test.run (node:internal/test_runner/test:797:9)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 6 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 1.753417
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 5
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 69.773339
