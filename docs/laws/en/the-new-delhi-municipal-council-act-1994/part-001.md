@@ -2,15 +2,15 @@
 title: "The New Delhi Municipal Council Act, 1994"
 language: en
 part: 1
-parts: 1
+parts: 6
 line_limit: 1500
 source: "https://www.indiacode.nic.in/handle/123456789/1986"
 ---
 # The New Delhi Municipal Council Act, 1994
 
 Language: English
-Part 1 of 1
-Sections: 1 to 42
+Part 1 of 6
+Sections: 1 to 59
 
 > Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
 
@@ -1052,3 +1052,387 @@ shall be final.
 
 The direct recruitment to category B and
 category C posts may be made by the Government through such agencies as may be prescribed for it.
+
+## Section 43 - Power of Council to make regulations.
+
+(1) The Council may make regulations to provide for
+any one or more of the following matters, namely:--
+
+(a) the tenure of office, salaries and allowances, provident funds, pensions, gratuities, leave of
+absence and other conditions of service of officers and other employees appointed under this Chapter;
+
+(b) the powers, duties and functions of Secretary;
+
+(c) the qualifications of candidates for appointment to posts specified in section 33 and to posts
+dealt with in the Schedule of posts referred to in sub-section (1) of section 34 and the manner of
+selection for appointments to such posts;
+
+(d) the procedure to be followed in imposing any penalty under sub-section (1) of section 39,
+suspension pending departmental inquiries before the imposition of such penalty and the authority by
+whom such suspension may be ordered; the officer or authority to whom an appeal shall lie under
+sub-section (4) of that section;
+
+(e) any other matter which is incidental to or necessary for, the purpose of regulating the
+appointment and conditions of service of persons appointed to services and posts under the Council
+and any other matter for which in the opinion of the Council provisions should be made by
+regulations.
+
+(2) No regulation under clause (c) of sub-section (1) shall be made except after consultation with the
+Commission.
+
+## Section 44 - Constitution of the New Delhi Municipal Fund.
+
+(1) Save as otherwise provided in this Act--
+
+(a) all funds which immediately before the establishment of the Council vested in the New Delhi
+Municipal Committee;
+
+(b) all moneys received by or on behalf of the Council under the provisions of this Act or of any
+other law for the time being in force, or under any contract;
+
+(c) all proceeds of the disposal of property by, or on behalf of, the Council;
+
+(d) all rents accruing from any property of the Council;
+
+(e) all moneys raised by any tax, rate or cess levied for the purposes of this Act;
+
+(f) all fees collected and all fines levied under this Act or under any rule, regulation or bye-law
+made thereunder;
+
+(g) all moneys received by or on behalf of the Council from the Government or Central
+Government or any individual or association of individuals by way of grant or gift or deposit;
+
+(h) all interests and profits arising from any investment of, or from any transaction in connection
+with, any money belonging to the Council, including loans advanced under this Act; and
+
+(i) all moneys received by or on behalf of the Council from any other source whatsoever,
+
+shall form one Fund to be entitled "the Municipal Fund of New Delhi" (hereafter in this Act referred to as
+"the New Delhi Municipal Fund").
+
+(2) The New Delhi Municipal Fund shall be held by the Council in trust for the purposes of this Act
+subject to the provisions herein contained and a General Account relating to all moneys received by or on
+behalf of the Council shall be maintained.
+
+## Section 45 - New Delhi Municipal Fund to be kept in the State Bank of India.
+
+All moneys payable to the
+credit of the New Delhi Municipal Fund in the General Account shall be received by the Chairperson and
+shall be forthwith paid into the State Bank of India to the credit of the said Account which shall be
+entitled “The General Account of the New Delhi Municipal Fund”.
+
+## Section 46 - Operation of the Accounts.
+
+(1) Save as otherwise provided in this Act no payment shall be
+made by the State Bank of India out of the New Delhi Municipal Fund except on a cheque signed by
+both--
+
+(a) the Financial Adviser or an officer subordinate to him authorised by the Chairperson in this
+behalf; and
+
+(b) the Chairperson or the Secretary or an officer subordinate to the Chairperson authorised by
+him in this behalf.
+
+(2) Payment of any sum due by the Council in excess of five hundred rupees shall be made by means
+of a cheque signed in accordance with sub-section (1) and not in any other way.
+
+(3) Payments not covered by sub-section (2) may be made in cash.
+
+## Section 47 - Payments not to be made unless covered by a budget-grant.
+
+No payment of any sum out of
+the New Delhi Municipal Fund shall be made unless the expenditure of the same is covered by a current
+budget-grant and a sufficient balance of such budget-grant is still available notwithstanding any reduction
+or transfer thereof which may have been made under the provisions of this Act:
+
+Provided that this section shall not apply to payments made in the following classes of cases,
+namely:--
+
+(a) refund of taxes and other moneys which are authorised under this Act;
+
+(b) repayment of moneys belonging to contractors or other persons and held in deposit and of
+moneys collected or credited to the New Delhi Municipal Fund by mistake;
+
+(c) sums payable in any of the following circumstances--
+
+(i) under orders of the Central Government on failure of the Council to take any action as
+required by that Government; or
+
+(ii) under any other enactment for the time being in force; or
+
+(iii) under the decree or order of a civil or criminal court passed against the Council; or
+
+(iv) under a compromise of any claim, suit or other legal proceedings; or
+
+(v) on account of cost incurred in taking immediate action by the Chairperson under
+clause (c) of section 18 to avert a sudden threat of danger to the property of the Council or to
+human life;
+
+(d) temporary payments for works urgently required by the Central Government in the public
+interest;
+
+(e) sums payable as compensation under this Act or under any rules, regulations or bye-laws
+made thereunder;
+
+(f) expenses incurred under section 287 by the Chairperson on special measures taken on the
+outbreak of dangerous diseases.
+
+## Section 48 - Duty of persons signing cheques.
+
+Before any person signs a cheque in accordance with
+section 46, he shall satisfy himself that the sum for which the cheque is drawn is either--
+
+(a) required for a purpose or work specifically sanctioned by the proper authority and covered by
+a current budget-grant, or
+
+(b) required for any payment referred to or specified in section 47.
+
+## Section 49 - Procedure when money not covered by a budget-grant is expended.
+
+Whenever any sum is
+expended under clauses (c), (e) or (f) of the proviso to section 47, the Chairperson shall forthwith
+communicate the circumstances to the Council, which may take such action under the provisions of this
+Act as shall, in the circumstances appear possible and expedient for covering the amount of the additional
+expenditure.
+
+## Section 50 - Application of New Delhi Municipal Fund.
+
+(1) The moneys from time to time credited to the
+New Delhi Municipal Fund shall be applied in payment of all sums, charges and costs necessary for
+carrying out the provisions of this Act, and of the rules, regulations and bye-laws made thereunder, or of
+which payment is duly directed, sanctioned or required by or under any of the provisions of this Act.
+
+(2) Such moneys shall likewise be applied in payment of all sums payable out of the New Delhi
+Municipal Fund under any other enactment for the time being in force.
+
+## Section 51 - Temporary payments from the New Delhi Municipal Fund for works urgently required for the public service.
+
+(1) On the written requisition of a Secretary to the Central Government, the
+Chairperson may at any time undertake the execution of any work certified by such Secretary to be
+urgently required in public interest, and for this purpose may temporarily make payments from the New
+Delhi Municipal Fund so far as the same can be met without unduly interfering with the regular work of
+the Council.
+
+(2) The cost of work so executed and of the establishment engaged in executing the same shall be
+paid by the Central Government and credited to the New Delhi Municipal Fund.
+
+(3) On the receipt of any requisition under sub-section (1) the Chairperson shall forthwith forward a
+copy thereof to the Council together with a report of the steps taken by him in pursuance of the same.
+
+## Section 52 - Investment of surplus moneys.
+
+(1) Surplus money standing at the credit of General Account of
+the New Delhi Municipal Fund which cannot immediately be applied for the purposes specified in
+section 50 shall be deposited in the State Bank of India or in such scheduled bank or banks as the Council
+may select or be invested in public securities
+
+(2) The loss, if any, arising from such deposit or investment shall be debited to the General Account
+of the New Delhi Municipal Fund.
+
+## Section 53 - Constitution of Finance Commission.
+
+(1) After the commencement of this Act the Finance
+Commission referred to in sub-section (1) of section 107A of the Delhi Municipal Corporation Act, 1957
+(66 of 1957), shall review the financial position of the Council and make recommendations to the
+Administrator as to,--
+
+(a) the principles which should govern,--
+
+(i) the distribution between the National Capital Territory of Delhi and the Council of the net
+proceeds of the taxes, duties, tolls and fees leviable by the National Capital Territory of Delhi
+which may be divided between them;
+
+(ii) the determination of the taxes, duties, tolls and fees which may be assigned to or
+appropriated by, the Council;
+
+(iii) the grants-in-aid to the Council from the Consolidated Fund of the National Capital
+Territory of Delhi;
+
+(b) the measures needed to improve the financial position of the Council,
+
+(c) any other matter referred to the Finance Commission by the Administrator in the interest of
+sound finance of the Council.
+
+(2) The Administrator shall cause every recommendation made by the Commission under this section
+together within an explanatory memorandum as to the action taken thereon to be laid before the
+Legislative Assembly of the National Capital Territory of Delhi.
+
+## Section 54 - Constitution of special funds.
+
+(1) The Council shall constitute such special fund or funds as
+may be prescribed by regulations and such other funds necessary for the purposes of this Act as may be so
+prescribed.
+
+(2) The constitution and disposal of such funds shall be effected in the manner laid down by
+regulations.
+
+## Section 55 - Adoption of budget estimates.
+
+(1) The Council shall, on or before the 31st day of March of
+every year, adopt for the ensuing year the budget estimate which shall be an estimate of the income and
+expenditure of the Council to be received and incurred on account of the municipal government of New
+Delhi.
+
+(2) On or before the 15th day of February of each year the Council shall determine the rates at which
+various municipal taxes, rates and cesses shall be levied in the next following year and save as otherwise
+provided in this Act the rates so fixed shall not be subsequently altered for the year for which they have
+been fixed.
+
+(3) Budget estimates shall be prepared in such form as may be approved by the Council and presented
+and adopted in such manner and shall provide for all such matters as are prescribed by regulations made
+in this behalf.
+
+## Section 56 - Power of Council to alter budget estimates.
+
+(1) On the recommendation of the Chairperson in
+respect of the budget estimate, the Council may from time to time, during the year,
+
+(i) increase the amount of budget-grant under any head;
+
+(ii) make additional budget-grant for the purpose of meeting any special or unforeseen
+requirement arising during the said year;
+
+(iii) transfer the amount or portion of the amount of the budget-grant under any head to any other
+head; or
+
+(iv) reduce the amount of the budget-grant under any head:
+
+Provided that due regard shall be had to all the requirements of this Act and in making any increase or
+any additional budget-grant, the estimated cash balance at the close of the year shall not be reduced below
+the sum of one lakh rupees or such higher sum as the Council may determine in respect of the budget
+estimate.
+
+(2) Every increase in a budget-grant and every additional budget-grant made in any year under
+sub-section (1) shall be deemed to be included in the budget estimates finally adopted for that year.
+
+(3) The Council may from time to time during the year--
+
+(a) reduce the amount of a budget-grant; or
+
+(b) sanction the transfer of any amount within a budget-grant.
+
+(4) The Chairperson may from time to time during the year sanction the transfer of any amount not
+exceeding ten thousand rupees within a minor head if such transfer does not involve a recurring liability:
+
+Provided that every such transfer if it exceeds ten thousand rupees shall be reported forthwith by the
+Chairperson to the Council and the Chairperson shall give effect to any order that may be passed by the
+Council in relation thereto.
+
+## Section 57 - Power of Council to re-adjust income and expenditure during the year.
+
+(1) If at any time
+during the year it appears to the Council that, notwithstanding any reduction of budget-grant that has been
+made under section 56 the income of the New Delhi Municipal Fund during the same year will not suffice
+to meet the expenditure sanctioned in the budget estimates of that year and to leave at the close of the year
+the cash balance specified in or determined under the proviso to sub-section (1) of section 56, then, it
+shall be incumbent on the Council to sanction forthwith any measures which it may consider necessary
+for adjusting the years income to the expenditure.
+
+(2) For the purposes of sub-section (1), the Council may either diminish the sanctioned expenditure of
+the year so far as it may be possible so to do with regard to all the requirements of this Act, or have
+recourse to supplementary taxation under section 97 or to an increase of the rates of cesses, fees, fares and
+other charges leviable under this Act, or to adopt all or any of these methods.
+
+(3) If the whole or any part of any budget-grant included in the budget estimates for a year remains
+unexpended at the close of that year, and the amount thereof has not been taken into account in the
+opening balance entered in the budget estimates of any of the next two following years, the Chairperson
+may sanction the expenditure of such budget-grant or the unexpended portion thereof during the next two
+following years for the completion of the purpose or object for which the budget-grant was originally
+made and not for any other purpose or object.
+
+## Section 58 - Accounts to be kept.
+
+These shall be kept in such manner and in such form as may be prescribed
+by regulations the General Account of all receipts and expenditures of the Council.
+
+## Section 59 - Audit.
+
+(1) The Chief Auditor shall conduct a monthly examination and audit of the accounts of
+the Council and shall report thereon to the Chairperson, who shall publish monthly an abstract of the
+receipts and expenditure of the month last proceeding signed by him and by the Chief Auditor.
+
+(2) The Chairperson may also, from time to time and for such period, as he may think fit, conduct
+independently any examination and audit of the accounts of the Council.
+
+(3) For the purpose of examination and audit of the accounts of the Council, the Chief Auditor shall
+have access to all the accounts of the Council and to all records and correspondence relating thereto.
+
+(4) The Chief Auditor shall audit the accounts of the Council with the assistance of the officers and
+other employees subordinate to him.
+
+(5) In the discharge of his functions under this section the Chief Auditor shall,--
+
+(a) audit the accounts of expenditure from the revenue of the Council, expenditure on account of
+loan works and expenditure incurred out of special funds and shall ascertain whether moneys shown
+therein as have been disbursed were legally available for, and applicable to, the service or purpose to
+which they have been applied or charged, and whether the expenditure conforms to the authority
+which governs it;
+
+(b) audit the accounts of debts, deposits, sinking funds, advances, suspense and remittance
+transactions of the Council and report upon those accounts and upon the results of verification of the
+balance relating thereto.
+
+(6) The Chief Auditor shall examine and audit the statement of accounts relating to the commercial
+services conducted in any department of the Council including the trading, manufacturing and profit and
+loss accounts, and the balance-sheets where such accounts are maintained under the orders of the Council
+and shall certify and report upon these accounts.
+
+(7) The Chief Auditor shall in consultation with the Chairperson and subject to any directions given
+by the Council determine the form and manner in which his reports on the accounts of the Council shall
+be prepared and shall have authority to call upon any officer of the Council to provide any information
+necessary for the preparation of these reports.
+
+(8) The Chief Auditor may make such queries and observations in relation to any of the accounts of
+the Council which he is required to audit and call for such vouchers, statements, returns and explanation
+in relation to such accounts as he may think fit.
+
+(9) Every such query or observation as aforesaid shall be promptly taken into consideration by the
+officer or authority to whom it may be addressed and returned without delay with the necessary vouchers,
+documents or explanations to the Chief Auditor.
+
+(10) The power of the Chief Auditor with regard to the disapproval of, and the procedure with regard
+to the settlement of objections to expenditure from the revenues of the Council shall be such as may be
+prescribed by the Chairperson in Consultation with Chief Auditor, and with the approval of the Council.
+
+(11) If the Chief Auditor considers it desirable that the whole or any part of the audit applied to any
+accounts which he is required to audit shall be conducted in the offices in which those accounts originate
+he may require that those accounts, together with all books and documents having relation thereto, shall at
+all convenient times be made available in the said offices for inspection.
+
+(12) The Chief Auditor shall have the power to require that any books or other documents relating to
+the accounts he is required to audit shall be sent for inspection by him:
+
+Provided that if the documents are confidential, he shall be responsible for preventing disclosure of
+their contents.
+
+(13) The Chief Auditor shall have authority to frame standing orders and to give directions on all
+matters relating to audit, and particularly, in respect of the method and the extent of audit to be applied
+and the raising and pursuing the objections.
+
+(14) Expenditure sanctioned by the Chief Auditor shall be audited by an officer to be nominated by
+the Council.
+
+(15) The Chief Auditor shall report to the Chairperson any material impropriety or irregularity which
+he may at any time observe in the expenditure or in the recovery of moneys due to the Council or in the
+accounts of the Council.
+
+(16) The Chairperson shall cause to be laid before the Council every report made by the Chief
+Auditor to the Chairperson and every statement of the views of the Chief Auditor on any matter affecting
+the exercise and performance of the powers and duties assigned to him under this Act and the Council
+may take such action in regard to any of the matters as aforesaid as the Council may deem necessary.
+
+(17) As soon as may be after the commencement of each year, the Chief Auditor shall deliver to the
+Council a report of the entire accounts of the Council for the previous year.
+
+(18) The Chairperson shall cause the said report to be printed and shall forward as soon as may be
+printed copy thereof to each member of the Council.
+
+(19) The Chairperson shall also forward without delay to the Government so many copies of the said
+report, as may be required by the Government with a brief statement of the action taken or proposed to be
+taken if any:
+
+Provided that the Government may at any time appoint auditor for the purpose of making a special
+audit of the General Account of the New Delhi Municipal Fund and reporting thereon to the Government
+and the costs of such audit, as determined by the Government, shall be chargeable to the New Delhi
+Municipal Fund. The auditor so appointed may exercise any power which the Chief Auditor may
+exercise.
