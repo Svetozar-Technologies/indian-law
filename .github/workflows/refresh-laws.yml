@@ -135,6 +135,8 @@ jobs:
             --progress-file data/cache/refresh-status.lino
             --max-runtime-ms "$checkpoint_ms"
             --progress-interval-ms 30000
+            --ocr
+            --ocr-languages hin,eng
           )
           if [ -n "$MAX_SECTIONS" ]; then
             echo "Limiting section fetches to MAX_SECTIONS=$MAX_SECTIONS."

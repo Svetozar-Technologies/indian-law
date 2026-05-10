@@ -2,9 +2,12 @@
 
 Issue: https://github.com/Svetozar-Technologies/indian-law/issues/27
 
-Pull request: https://github.com/Svetozar-Technologies/indian-law/pull/28
+Pull requests:
 
-Prepared branch: `issue-27-e5368f27f266`
+- https://github.com/Svetozar-Technologies/indian-law/pull/28 — disabled 0-law language links and initial case study (merged).
+- https://github.com/Svetozar-Technologies/indian-law/pull/29 — Tesseract OCR fallback for image-only Hindi PDFs (this PR, branch `issue-27-4effc0f43bc7`).
+
+Prepared branches: `issue-27-e5368f27f266` (merged), `issue-27-4effc0f43bc7` (active).
 
 ## Scope
 
@@ -86,15 +89,15 @@ The 13 affected laws and their PDF URLs:
 
 **This is an upstream data quality limitation**: India Code serves these Hindi translations as image-only PDFs. The code correctly detects and logs this, then marks the law as `source-only` rather than silently dropping the source or inventing text. This behavior satisfies the requirement: *"If the official source does not provide usable text for a language, the catalog must record that state instead of falling back to another language."*
 
-**Possible solutions** (not implemented in this PR — out of current scope):
+**Possible solutions** (option 1 implemented in PR 29; the rest remain open or deferred):
 
-1. **OCR integration** — Add Tesseract.js or a server-side OCR pipeline. For Hindi, `hin` tessdata would be required. Tesseract works on images, so the PDF pages would need to be rasterized first (e.g., with `pdfjs-dist` canvas rendering + sharp). Adds ~40–200 MB of dependency.
+1. **OCR integration — implemented in PR 29.** A new `scripts/lib/ocr.mjs` module renders each PDF page with `@napi-rs/canvas` (prebuilt N-API binary, no native compile) and calls `tesseract.js` with the `hin` + `eng` traineddata bundle. `scripts/build-site.mjs` now invokes this fallback inside `hydratePdfTextFromSources` when `extractPdfTextSections` returns 0 sections AND the new `--ocr` flag is set. Recognised pages are stored under `law.translations.<code>` with `sourceKind: "pdf-ocr"` and `ocrLanguages` so reviewers can distinguish them from text-extracted PDFs. The CI workflow `refresh-laws.yml` enables the flag with `--ocr --ocr-languages hin,eng`.
 
-2. **External OCR service** — Use Google Cloud Vision, AWS Textract, or Azure Form Recognizer for PDF OCR. These support Devanagari/Hindi text well. Would require API credentials in CI.
+2. **External OCR service** — Use Google Cloud Vision, AWS Textract, or Azure Form Recognizer for PDF OCR. These support Devanagari/Hindi text well. Would require API credentials in CI. Not used to keep the pipeline self-contained.
 
 3. **Report upstream** — File an issue with India Code (https://www.indiacode.nic.in/) requesting that these PDFs be replaced with digital/born-PDF versions. See the upstream report section below.
 
-4. **Update FEMA source URL** — The FEMA 1999 URL returns HTTP 404. The correct PDF location should be discovered manually or by searching India Code and the source URL updated in the law's catalog/seed entry.
+4. **Update FEMA source URL** — The FEMA 1999 URL returns HTTP 404. Ten URL variants were probed (path casing, no `%20`, alternate handle bitstreams, plain `H1999-42.pdf`, etc.); all returned 302 without a usable redirect target or HTTP 502. The official India Code landing page links to the broken URL, so this is a genuine upstream broken link. The build now records it as an upstream fetch failure and OCR cannot help when the file is missing entirely.
 
 ### Problem 2: 0-law languages shown as clickable links
 
@@ -140,9 +143,50 @@ Added `.language-link.disabled` rule:
 }
 ```
 
-### No code change for 13 Hindi image-PDFs
+### Fix 3: OCR fallback for image-only PDFs (PR 29)
 
-The code already handles this correctly — it logs the warning and sets `source-only` status. No code change is needed for the data limitation. The case study documents the 13 specific laws and their PDF URLs.
+A new module `scripts/lib/ocr.mjs` provides `extractPdfTextSectionsViaOcr(buffer, options)` which:
+
+1. Loads the PDF via `pdfjs-dist/legacy/build/pdf.mjs` (Node-friendly build).
+2. Renders each page to a bitmap with `@napi-rs/canvas` — a Skia-based canvas that ships prebuilt N-API binaries (no native compile needed in CI).
+3. Passes the PNG buffer to a `tesseract.js` worker created with the configured language pack (Hindi `hin` + English `eng` by default for Hindi sources).
+4. Caches the downloaded traineddata under `INDIAN_LAW_TESSDATA_CACHE` (defaults to a temp dir) so repeat builds skip the download.
+5. Returns `{ pageCount, sections }` where each section is `{ kind: "ocr-page", sectionId, sectionNo, orderNo, title: "Page N", content, sourcePage, ocrLanguages }`.
+
+`scripts/build-site.mjs` invokes this fallback inside `hydratePdfTextFromSources` only when `extractPdfTextSections` returns 0 sections AND the new `--ocr` flag is set. OCR-derived translations are recorded with `sourceKind: "pdf-ocr"` and `ocrLanguages` so reviewers can distinguish them from natively-extracted PDFs (per `docs/REQUIREMENTS.md`). The renderer (`scripts/lib/markdown.mjs`) emits `## Page N` headings for OCR pages and labels the part range as `Pages: X to Y`.
+
+The CI workflow `.github/workflows/refresh-laws.yml` enables OCR by default with `--ocr --ocr-languages hin,eng`. Local maintenance refreshes can opt in with the same flags. Per-law/per-language overrides are available via `--ocr-scale` (default 2x rendering) and `--ocr-max-pages` (defaults to all pages).
+
+#### CLI flags added
+
+| Flag | Default | Purpose |
+| --- | --- | --- |
+| `--ocr` | off | Enable Tesseract OCR fallback for PDFs with no text layer. |
+| `--ocr-languages hin,eng` | per-language auto (`hin+eng` for `hi`, `eng` for `en`) | Tesseract traineddata bundle. |
+| `--ocr-scale 2` | 2 | pdf.js render scale before OCR. Higher = sharper bitmaps but slower. |
+| `--ocr-max-pages N` | all | Cap recognised page count per PDF. |
+
+#### Verification
+
+Smoke test against a real upstream image-only PDF (Maritime Anti-Piracy Act, Hindi):
+
+```
+OCR: hin+eng on 22/22 page(s) at scale=2
+OCR: page 1/22 produced 1683 char(s) in 4922ms
+OCR: page 2/22 produced 2058 char(s) in 5319ms
+... (recognition continues per page)
+```
+
+Unit-level integration (added in `tests/build-site.test.mjs`):
+
+- `fetch site build runs OCR fallback when a Hindi PDF has no embedded text layer` — uses a generated `tests/fixtures/image-only.pdf` (rasterised "HELLO TEST" / "OCR FALLBACK PAGE" with no text layer). Asserts `status: "markdown"` in the catalog, generated Markdown contains `HELLO TEST`, cached law has `sourceKind: "pdf-ocr"`, `ocrLanguages: "eng"`, and section `kind: "ocr-page"`.
+- `fetch site build leaves Hindi PDF as source-only when OCR is not enabled` — same fixture without `--ocr`. Asserts `status: "source-only"` and the existing warning `No extractable text found in Hindi PDF`. Confirms the OCR path is opt-in and non-regressive.
+
+Both tests pass; the full suite (10/10 build-site tests, 5/5 markdown tests) remains green.
+
+#### Cache reset is not required
+
+The 13 affected laws have a fresh-and-complete cache hit (`hydratePdfTextFromSources` is always called even on cache hits). Since `law.translations.hi` is missing for them, the function detects zero existing sections and runs OCR on the next CI refresh without any manual cache invalidation.
 
 ## Requirements Cross-Check (Issues 19–25)
 

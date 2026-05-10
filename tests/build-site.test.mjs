@@ -754,3 +754,224 @@ test("fetch site build records per-law upstream failures as partial output", asy
     await rm(workspace, { recursive: true, force: true });
   }
 });
+
+test("fetch site build runs OCR fallback when a Hindi PDF has no embedded text layer", async () => {
+  const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-ocr-fallback-"));
+  const output = path.join(workspace, "site");
+  const cacheDir = path.join(workspace, "cache");
+  const manifest = path.join(workspace, "manifest.json");
+  const regionalSources = path.join(workspace, "regional-sources.json");
+  const tessdataCache = path.join(workspace, "tessdata");
+  const pdfBody = await readFile("tests/fixtures/image-only.pdf");
+  let pdfRequests = 0;
+  const server = http.createServer((request, response) => {
+    if (request.url === "/hindi.pdf") {
+      pdfRequests += 1;
+      response.writeHead(200, { "content-type": "application/pdf" });
+      response.end(pdfBody);
+      return;
+    }
+
+    response.writeHead(404, { "content-type": "text/plain" });
+    response.end("not found");
+  });
+
+  try {
+    await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+    const { port } = server.address();
+    const sourceUrl = `http://127.0.0.1:${port}/law`;
+    const hindiPdfUrl = `http://127.0.0.1:${port}/hindi.pdf`;
+    await mkdir(cacheDir, { recursive: true });
+    await writeFile(
+      manifest,
+      `${JSON.stringify(
+        {
+          generatedFrom: [sourceUrl],
+          lastVerified: "2026-05-10",
+          laws: [
+            {
+              slug: "ocr-required-act",
+              title: "OCR Required Act",
+              sourceUrl,
+              sources: {
+                en: [{ kind: "html", url: sourceUrl }],
+                hi: [{ kind: "pdf", url: hindiPdfUrl, title: "OCR Required Act (Hindi)" }]
+              },
+              sections: []
+            }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-10", sources: [] })}\n`);
+    await writeDataFile(path.join(cacheDir, "ocr-required-act.lino"), {
+      fetchedAt: "2099-01-01T00:00:00.000Z",
+      sourceUrl,
+      completeFetch: true,
+      law: {
+        slug: "ocr-required-act",
+        title: "OCR Required Act",
+        sourceUrl,
+        sources: {
+          en: [{ kind: "html", url: sourceUrl }],
+          hi: [{ kind: "pdf", url: hindiPdfUrl, title: "OCR Required Act (Hindi)" }]
+        },
+        sections: [
+          {
+            sectionId: "1",
+            sectionNo: "1",
+            orderNo: 1,
+            title: "Cached section",
+            content: "Cached English body.",
+            footnotes: ""
+          }
+        ]
+      }
+    });
+
+    const { stderr } = await execFileAsync(
+      "node",
+      [
+        "scripts/build-site.mjs",
+        "--fetch",
+        "--manifest",
+        manifest,
+        "--regional-sources",
+        regionalSources,
+        "--cache-dir",
+        cacheDir,
+        "--output",
+        output,
+        "--ocr",
+        "--ocr-languages",
+        "eng",
+        "--ocr-scale",
+        "2",
+        "--delay-ms",
+        "0"
+      ],
+      {
+        env: { ...process.env, INDIAN_LAW_TESSDATA_CACHE: tessdataCache },
+        timeout: 120000
+      }
+    );
+
+    const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
+    const markdown = await readFile(path.join(output, "laws/hi/ocr-required-act/part-001.md"), "utf8");
+    const cache = await readDataFile(path.join(cacheDir, "ocr-required-act.lino"));
+    assert.equal(pdfRequests, 1);
+    assert.equal(catalog.laws[0].languages.hi.enabled, true);
+    assert.equal(catalog.laws[0].languages.hi.status, "markdown");
+    assert.match(markdown, /Language: Hindi/);
+    assert.match(markdown, /HELLO TEST/);
+    assert.match(markdown, /## Page 1/);
+    assert.equal(cache.law.translations.hi.sourceKind, "pdf-ocr");
+    assert.equal(cache.law.translations.hi.ocrLanguages, "eng");
+    assert.ok(cache.law.translations.hi.sections.length > 0);
+    assert.equal(cache.law.translations.hi.sections[0].kind, "ocr-page");
+    assert.match(stderr, /OCR fallback for Hindi PDF/);
+    assert.match(stderr, /Extracted .* via OCR/);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+    await rm(workspace, { recursive: true, force: true });
+  }
+});
+
+test("fetch site build leaves Hindi PDF as source-only when OCR is not enabled", async () => {
+  const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-no-ocr-"));
+  const output = path.join(workspace, "site");
+  const cacheDir = path.join(workspace, "cache");
+  const manifest = path.join(workspace, "manifest.json");
+  const regionalSources = path.join(workspace, "regional-sources.json");
+  const pdfBody = await readFile("tests/fixtures/image-only.pdf");
+  const server = http.createServer((request, response) => {
+    if (request.url === "/hindi.pdf") {
+      response.writeHead(200, { "content-type": "application/pdf" });
+      response.end(pdfBody);
+      return;
+    }
+    response.writeHead(404, { "content-type": "text/plain" });
+    response.end("not found");
+  });
+
+  try {
+    await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+    const { port } = server.address();
+    const sourceUrl = `http://127.0.0.1:${port}/law`;
+    const hindiPdfUrl = `http://127.0.0.1:${port}/hindi.pdf`;
+    await mkdir(cacheDir, { recursive: true });
+    await writeFile(
+      manifest,
+      `${JSON.stringify(
+        {
+          generatedFrom: [sourceUrl],
+          lastVerified: "2026-05-10",
+          laws: [
+            {
+              slug: "image-only-act",
+              title: "Image Only Act",
+              sourceUrl,
+              sources: {
+                en: [{ kind: "html", url: sourceUrl }],
+                hi: [{ kind: "pdf", url: hindiPdfUrl, title: "Image Only Act (Hindi)" }]
+              },
+              sections: []
+            }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-10", sources: [] })}\n`);
+    await writeDataFile(path.join(cacheDir, "image-only-act.lino"), {
+      fetchedAt: "2099-01-01T00:00:00.000Z",
+      sourceUrl,
+      completeFetch: true,
+      law: {
+        slug: "image-only-act",
+        title: "Image Only Act",
+        sourceUrl,
+        sources: {
+          en: [{ kind: "html", url: sourceUrl }],
+          hi: [{ kind: "pdf", url: hindiPdfUrl, title: "Image Only Act (Hindi)" }]
+        },
+        sections: [
+          {
+            sectionId: "1",
+            sectionNo: "1",
+            orderNo: 1,
+            title: "Cached section",
+            content: "Cached English body.",
+            footnotes: ""
+          }
+        ]
+      }
+    });
+
+    const { stderr } = await execFileAsync("node", [
+      "scripts/build-site.mjs",
+      "--fetch",
+      "--manifest",
+      manifest,
+      "--regional-sources",
+      regionalSources,
+      "--cache-dir",
+      cacheDir,
+      "--output",
+      output,
+      "--delay-ms",
+      "0"
+    ]);
+
+    const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
+    assert.equal(catalog.laws[0].languages.hi.enabled, false);
+    assert.equal(catalog.laws[0].languages.hi.status, "source-only");
+    assert.match(stderr, /No extractable text found in Hindi PDF/);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+    await rm(workspace, { recursive: true, force: true });
+  }
+});

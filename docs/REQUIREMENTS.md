@@ -44,6 +44,7 @@ This project is an official-source law mirror and catalog viewer. These requirem
 - Incomplete caches should be reusable so future refreshes continue from already fetched data.
 - Long refreshes must preserve progress through generated docs, cache files, and refresh-status metadata.
 - Source fetch failures must be logged with the affected URL and language, then represented in catalog status rather than silently converted into fallback content.
+- When an official PDF source contains scanned page images instead of an embedded text layer, the build may run an OCR fallback (Tesseract) using the selected language traineddata to extract usable text. OCR-derived translations must record the recognised language pack and a `pdf-ocr` source kind so reviewers can distinguish them from PDFs with native text extraction.
 
 ## Testing and Review Requirements
 
