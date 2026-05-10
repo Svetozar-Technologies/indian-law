@@ -118,6 +118,129 @@ test("fetch site build reuses fresh cached law data instead of redownloading", a
   }
 });
 
+test("fetch site build converts cached Hindi PDF source into Markdown", async () => {
+  const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-hindi-pdf-"));
+  const output = path.join(workspace, "site");
+  const cacheDir = path.join(workspace, "cache");
+  const manifest = path.join(workspace, "manifest.json");
+  const regionalSources = path.join(workspace, "regional-sources.json");
+  const pdfBody = await readFile("docs/case-studies/issue-17/h198868.pdf");
+  let pdfRequests = 0;
+  const server = http.createServer((request, response) => {
+    if (request.url === "/law") {
+      response.writeHead(200, { "content-type": "text/html" });
+      response.end("<html><body>cached law page should not be needed</body></html>");
+      return;
+    }
+
+    if (request.url === "/hindi.pdf") {
+      pdfRequests += 1;
+      response.writeHead(200, { "content-type": "application/pdf" });
+      response.end(pdfBody);
+      return;
+    }
+
+    response.writeHead(404, { "content-type": "text/plain" });
+    response.end("not found");
+  });
+
+  try {
+    await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+    const { port } = server.address();
+    const sourceUrl = `http://127.0.0.1:${port}/law`;
+    const hindiPdfUrl = `http://127.0.0.1:${port}/hindi.pdf`;
+    await mkdir(cacheDir, { recursive: true });
+    await writeFile(
+      manifest,
+      `${JSON.stringify(
+        {
+          generatedFrom: [sourceUrl],
+          lastVerified: "2026-05-10",
+          laws: [
+            {
+              slug: "cached-hindi-act",
+              title: "Cached Hindi Act",
+              sourceUrl,
+              sources: {
+                en: [{ kind: "html", url: sourceUrl }],
+                hi: [{ kind: "pdf", url: hindiPdfUrl, title: "भारतीय राष्‍ट्रीय राजमार्ग प्राधिकरण अधिनियम, 1988" }]
+              },
+              sections: []
+            }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-10", sources: [] })}\n`);
+    await writeDataFile(path.join(cacheDir, "cached-hindi-act.lino"), {
+      fetchedAt: "2099-01-01T00:00:00.000Z",
+      sourceUrl,
+      completeFetch: true,
+      law: {
+        slug: "cached-hindi-act",
+        title: "Cached Hindi Act",
+        sourceUrl,
+        sources: {
+          en: [{ kind: "html", url: sourceUrl }],
+          hi: [{ kind: "pdf", url: hindiPdfUrl, title: "भारतीय राष्‍ट्रीय राजमार्ग प्राधिकरण अधिनियम, 1988" }]
+        },
+        sections: [
+          {
+            sectionId: "1",
+            sectionNo: "1",
+            orderNo: 1,
+            title: "Cached section",
+            content: "Cached English body.",
+            footnotes: ""
+          },
+          {
+            sectionId: "2",
+            sectionNo: "2",
+            orderNo: 2,
+            title: "Second cached section",
+            content: "Second cached English body.",
+            footnotes: ""
+          }
+        ]
+      }
+    });
+
+    await execFileAsync("node", [
+      "scripts/build-site.mjs",
+      "--fetch",
+      "--manifest",
+      manifest,
+      "--regional-sources",
+      regionalSources,
+      "--cache-dir",
+      cacheDir,
+      "--output",
+      output,
+      "--max-sections",
+      "1",
+      "--delay-ms",
+      "0"
+    ]);
+
+    const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
+    const markdown = await readFile(path.join(output, "laws/hi/cached-hindi-act/part-001.md"), "utf8");
+    const cache = await readDataFile(path.join(cacheDir, "cached-hindi-act.lino"));
+    assert.equal(pdfRequests, 1);
+    assert.equal(catalog.laws[0].languages.hi.enabled, true);
+    assert.equal(catalog.laws[0].languages.hi.status, "markdown");
+    assert.equal(catalog.laws[0].localizedTitles.hi, "भारतीय राष्‍ट्रीय राजमार्ग प्राधिकरण अधिनियम, 1988");
+    assert.match(markdown, /Language: Hindi/);
+    assert.match(markdown, /भारतीय/);
+    assert.equal(cache.law.sections.length, 2);
+    assert.ok(cache.law.translations.hi.sections.length > 0);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+    await rm(workspace, { recursive: true, force: true });
+  }
+});
+
 test("fetch site build resumes an incomplete cached law without redownloading cached sections", async () => {
   const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-resume-cache-"));
   const output = path.join(workspace, "site");

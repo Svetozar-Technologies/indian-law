@@ -52,6 +52,15 @@ test("refresh workflow prints checkpoint staging diagnostics", async () => {
   assert.match(workflow, /git rev-parse --short HEAD/);
 });
 
+test("refresh workflow uses one-hour checkpoint chunks by default", async () => {
+  const workflow = await readFile(".github/workflows/refresh-laws.yml", "utf8");
+
+  assert.match(workflow, /^\s+timeout-minutes: 75$/m);
+  assert.match(workflow, /checkpoint_minutes:\n\s+description: "Minutes to fetch before committing partial progress\."\n\s+required: false\n\s+default: "55"/);
+  assert.match(workflow, /CHECKPOINT_MINUTES: \$\{\{ github\.event\.inputs\.checkpoint_minutes \|\| '55' \}\}/);
+  assert.match(workflow, /MAX_CHUNKS: \$\{\{ github\.event\.inputs\.max_chunks \|\| '1' \}\}/);
+});
+
 test("CI workflow treats live-source partial output as a recoverable smoke result", async () => {
   const workflow = await readFile(".github/workflows/ci.yml", "utf8");
 

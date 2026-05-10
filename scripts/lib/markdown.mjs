@@ -8,6 +8,18 @@ export function countLines(value = "") {
 }
 
 export function sectionMarkdown(section) {
+  if (section.kind === "page") {
+    const title = section.title || `Page ${section.sectionNo}`;
+    const lines = [`## ${title}`, ""];
+    if (section.content) {
+      lines.push(section.content.trim(), "");
+    }
+    if (section.footnotes) {
+      lines.push("### Footnotes", "", section.footnotes.trim(), "");
+    }
+    return lines.join("\n").trimEnd();
+  }
+
   const title = section.title && section.title !== `Section ${section.sectionNo}` ? ` - ${section.title}` : "";
   const lines = [`## Section ${section.sectionNo}${title}`, ""];
   if (section.content) {
@@ -45,17 +57,19 @@ export function splitSectionsIntoParts(sections, options = {}) {
 }
 
 export function renderMarkdownPart({ law, language, partIndex, partCount, sections, maxLines = 1500 }) {
-  const title = law.title;
+  const title = localizedLawTitle(law, language.code);
   const partNumber = partIndex + 1;
   const languageCode = language.code;
-  const sourceLinks = Object.values(law.sources ?? {})
-    .flat()
+  const sources = sourcesForLanguage(law, languageCode);
+  const sourceLinks = sources
     .filter((source) => source.url)
     .map((source) => `- ${source.kind}: ${source.url}`)
     .join("\n");
+  const primarySource = sources.find((source) => source.url)?.url ?? law.sourceUrl ?? "";
   const sectionBody = sections.map((section) => sectionMarkdown(section)).join("\n\n");
   const firstSection = sections[0]?.sectionNo ?? "";
   const lastSection = sections.at(-1)?.sectionNo ?? "";
+  const rangeLabel = sections.some((section) => section.kind === "page") ? "Pages" : "Sections";
   const frontMatter = [
     "---",
     `title: "${escapeYaml(title)}"`,
@@ -63,7 +77,7 @@ export function renderMarkdownPart({ law, language, partIndex, partCount, sectio
     `part: ${partNumber}`,
     `parts: ${partCount}`,
     `line_limit: ${maxLines}`,
-    `source: "${escapeYaml(law.sourceUrl ?? "")}"`,
+    `source: "${escapeYaml(primarySource)}"`,
     "---",
     ""
   ].join("\n");
@@ -72,7 +86,7 @@ export function renderMarkdownPart({ law, language, partIndex, partCount, sectio
     "",
     `Language: ${language.name}`,
     `Part ${partNumber} of ${partCount}`,
-    firstSection && lastSection ? `Sections: ${firstSection} to ${lastSection}` : "",
+    firstSection && lastSection ? `${rangeLabel}: ${firstSection} to ${lastSection}` : "",
     "",
     "> Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.",
     "",
@@ -98,6 +112,29 @@ export function normaliseLaw(rawLaw) {
     sources: rawLaw.sources ?? {},
     sections: rawLaw.sections ?? []
   };
+}
+
+function localizedLawTitle(law, languageCode) {
+  if (languageCode === "en") {
+    return law.title;
+  }
+  return (
+    law.translations?.[languageCode]?.title ||
+    law.localizedTitles?.[languageCode] ||
+    (languageCode === "hi" ? law.hindiTitle : "") ||
+    law.title
+  );
+}
+
+function sourcesForLanguage(law, languageCode) {
+  const sources = law.sources?.[languageCode] ?? [];
+  if (sources.length > 0) {
+    return sources;
+  }
+  if (languageCode === "en") {
+    return law.sources?.en ?? [];
+  }
+  return [];
 }
 
 function escapeYaml(value = "") {

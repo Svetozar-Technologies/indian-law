@@ -6,7 +6,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { extractIndiaCodeMetadata, extractIndiaCodeSections, parseSectionContentJson } from "./lib/html.mjs";
-import { fetchJson, fetchText, sleep } from "./lib/http.mjs";
+import { fetchBuffer, fetchJson, fetchText, sleep } from "./lib/http.mjs";
 import { readDataFile, writeDataFile } from "./lib/lino.mjs";
 import { createLogger } from "./lib/logging.mjs";
 import {
@@ -16,6 +16,7 @@ import {
   renderMarkdownPart,
   splitSectionsIntoParts
 } from "./lib/markdown.mjs";
+import { extractPdfTextSections } from "./lib/pdf.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DEFAULT_MAX_LINES = 1500;
@@ -123,6 +124,7 @@ async function main() {
           httpLogger,
           index,
           logger,
+          languages,
           logProgress,
           maxSections,
           maxRuntimeMs,
@@ -203,8 +205,20 @@ async function fetchLawWithCache(seedLaw, options) {
         `${progressPrefix} Using cached ${seedLaw.title} (${cachedLaw.sections?.length ?? 0} sections, fetched ${cachedLaw.fetchedAt})`,
         options
       );
-      return annotateRefreshMetadata(cachedLaw, {
-        status: "cached",
+      const hydrationLaw = options.maxSections === undefined ? cachedLaw : fullLawFromCache(cache);
+      const translationResult = await hydratePdfTranslations(hydrationLaw, { ...options, cachePath, progressPrefix });
+      if (translationResult.changed) {
+        await writeLawCache(cachePath, translationResult.law, {
+          ...options,
+          completeFetch: cache.completeFetch,
+          totalSections: cache.totalSections ?? translationResult.law.sections?.length ?? 0
+        });
+        logVerbose(`${progressPrefix} Updated cache with PDF translation text ${path.relative(ROOT, cachePath)}`, options);
+      }
+      const preparedLaw =
+        options.maxSections === undefined ? translationResult.law : limitLawSections(translationResult.law, options.maxSections);
+      return annotateRefreshMetadata(preparedLaw, {
+        status: translationResult.partial ? "partial" : "cached",
         cachePath,
         fetchedAt: cachedLaw.fetchedAt ?? ""
       });
@@ -236,7 +250,8 @@ async function fetchLawWithCache(seedLaw, options) {
       fetchedAt: ""
     });
   }
-  const fetchedLaw = fetchResult.law;
+  const translationResult = await hydratePdfTranslations(fetchResult.law, { ...options, cachePath, progressPrefix });
+  const fetchedLaw = translationResult.law;
   logProgress(
     `${progressPrefix} Fetched ${fetchResult.fetchedSections} new section(s), reused ${
       fetchResult.reusedSections
@@ -254,7 +269,7 @@ async function fetchLawWithCache(seedLaw, options) {
   }
 
   return annotateRefreshMetadata(fetchedLaw, {
-    status: fetchResult.partialFetch ? "partial" : "fetched",
+    status: fetchResult.partialFetch || translationResult.partial ? "partial" : "fetched",
     cachePath,
     fetchedAt: fetchedLaw.fetchedAt ?? new Date().toISOString()
   });
@@ -352,6 +367,95 @@ async function fetchLaw(seedLaw, options) {
   };
 }
 
+async function hydratePdfTranslations(law, options) {
+  let changed = false;
+  let partial = false;
+
+  for (const language of options.languages ?? []) {
+    const languageCode = language.code;
+    if (!languageCode || languageCode === "en") {
+      continue;
+    }
+    if ((law.translations?.[languageCode]?.sections?.length ?? 0) > 0) {
+      continue;
+    }
+
+    const source = firstPdfSource(law.sources?.[languageCode] ?? []);
+    if (!source) {
+      continue;
+    }
+
+    if (runtimeBudgetExhausted(options.startedAt, options.maxRuntimeMs)) {
+      partial = true;
+      options.logger?.warn(
+        `${options.progressPrefix} Runtime checkpoint reached before extracting ${language.name} PDF text for ${law.title}`
+      );
+      break;
+    }
+
+    try {
+      logProgress(
+        `${options.progressPrefix} Extracting ${language.name} PDF text for ${law.title}: ${source.url}`,
+        options
+      );
+      const pdfBuffer = await fetchBuffer(source.url, {
+        logger: options.httpLogger,
+        headers: {
+          Accept: "application/pdf,*/*;q=0.8"
+        }
+      });
+      const { pageCount, sections } = await extractPdfTextSections(pdfBuffer);
+      if (sections.length === 0) {
+        options.logger?.warn(
+          `${options.progressPrefix} No extractable text found in ${language.name} PDF for ${law.title}: ${source.url}`
+        );
+        continue;
+      }
+
+      law.translations ??= {};
+      law.translations[languageCode] = {
+        title: source.title || law.translations?.[languageCode]?.title || localizedTitleForLanguage(law, languageCode),
+        sourceUrl: source.url,
+        sourceKind: source.kind ?? "pdf",
+        fetchedAt: new Date().toISOString(),
+        pageCount,
+        sections
+      };
+      if (languageCode === "hi" && source.title && !law.hindiTitle) {
+        law.hindiTitle = source.title;
+      }
+      changed = true;
+      logProgress(
+        `${options.progressPrefix} Extracted ${sections.length}/${pageCount} page(s) of ${language.name} Markdown text for ${law.title}`,
+        options
+      );
+      if (options.delayMs > 0) {
+        await sleep(options.delayMs);
+      }
+    } catch (error) {
+      options.logger?.warn(
+        `${options.progressPrefix} Unable to extract ${language.name} PDF text for ${law.title} from ${source.url}: ${error.message}`
+      );
+    }
+  }
+
+  return { changed, law, partial };
+}
+
+function firstPdfSource(sources) {
+  return sources.find((source) => {
+    if (!source?.url) {
+      return false;
+    }
+    const kind = String(source.kind ?? "").toLowerCase();
+    return kind === "pdf" || /\.pdf(?:[?#].*)?$/i.test(source.url);
+  });
+}
+
+function localizedTitleForLanguage(law, languageCode) {
+  return law.localizedTitles?.[languageCode] || (languageCode === "hi" ? law.hindiTitle : "") || law.title;
+}
+
 function sourceUrlForLaw(law) {
   return law.sourceUrl ?? `https://www.indiacode.nic.in/handle/123456789/${law.handle}`;
 }
@@ -382,6 +486,18 @@ function lawFromFreshCache(cache, cachePath, options) {
   normalised.fetchedAt = cache.fetchedAt;
   logVerbose(`Accepted fresh law cache ${path.relative(ROOT, cachePath)} fetched ${cache.fetchedAt}`, options);
   return normalised;
+}
+
+function fullLawFromCache(cache) {
+  const law = normaliseLaw(structuredClone(cache.law));
+  law.fetchedAt = cache.fetchedAt;
+  return law;
+}
+
+function limitLawSections(law, maxSections) {
+  const limited = normaliseLaw(structuredClone(law));
+  limited.sections = (limited.sections ?? []).slice(0, maxSections);
+  return limited;
 }
 
 async function writeLawCache(cachePath, law, options) {
@@ -842,6 +958,11 @@ function titlesLookRelated(sourceTitle = "", lawTitle = "") {
 
 function localizedTitles(law) {
   const titles = {};
+  for (const [languageCode, translation] of Object.entries(law.translations ?? {})) {
+    if (translation.title) {
+      titles[languageCode] = translation.title;
+    }
+  }
   if (law.hindiTitle) {
     titles.hi = law.hindiTitle;
   }
