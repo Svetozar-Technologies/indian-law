@@ -111,17 +111,28 @@ function HomeView({ catalog, selectedLanguage }) {
       </section>
 
       <section className="language-grid" aria-label="Languages">
-        {catalog.languages.map((entry) => (
-          <a
-            className={`language-link${entry.code === selectedLanguage ? " active" : ""}`}
-            href={`#/${entry.code}`}
-            key={entry.code}
-            lang={entry.code}
-          >
-            <span>{entry.name}</span>
-            <small>{entry.nativeName}</small>
-          </a>
-        ))}
+        {catalog.languages.map((entry) => {
+          const hasLaws = lawsForLanguage(catalog, entry.code).length > 0;
+          if (!hasLaws) {
+            return (
+              <span className="language-link disabled" key={entry.code} lang={entry.code}>
+                <span>{entry.name}</span>
+                <small>{entry.nativeName}</small>
+              </span>
+            );
+          }
+          return (
+            <a
+              className={`language-link${entry.code === selectedLanguage ? " active" : ""}`}
+              href={`#/${entry.code}`}
+              key={entry.code}
+              lang={entry.code}
+            >
+              <span>{entry.name}</span>
+              <small>{entry.nativeName}</small>
+            </a>
+          );
+        })}
       </section>
 
       <section className="table-section">
