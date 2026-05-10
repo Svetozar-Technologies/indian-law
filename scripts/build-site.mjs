@@ -16,6 +16,7 @@ import {
   renderMarkdownPart,
   splitSectionsIntoParts
 } from "./lib/markdown.mjs";
+import { extractPdfTextSectionsViaOcr } from "./lib/ocr.mjs";
 import { extractPdfTextSections } from "./lib/pdf.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -41,6 +42,10 @@ async function main() {
   const maxRuntimeMs = args["max-runtime-ms"] === undefined ? undefined : Number(args["max-runtime-ms"]);
   const progressIntervalMs = Number(args["progress-interval-ms"] ?? DEFAULT_PROGRESS_INTERVAL_MS);
   const pathAlias = normalisePathAlias(args["path-alias"] ?? DEFAULT_PATH_ALIAS);
+  const ocrEnabled = Boolean(args.ocr);
+  const ocrLanguages = parseOcrLanguages(args["ocr-languages"]);
+  const ocrScale = args["ocr-scale"] === undefined ? undefined : Number(args["ocr-scale"]);
+  const ocrMaxPages = args["ocr-max-pages"] === undefined ? undefined : Number(args["ocr-max-pages"]);
   const progressPath =
     args["progress-file"] === undefined
       ? cacheDir
@@ -68,7 +73,9 @@ async function main() {
       maxRuntimeMs ?? "none"
     }, progressIntervalMs=${progressIntervalMs}, progressFile=${
       progressPath ? path.relative(ROOT, progressPath) : "none"
-    }, pathAlias=${pathAlias || "none"}, verboseDefault=${verbose}`
+    }, pathAlias=${pathAlias || "none"}, verboseDefault=${verbose}, ocr=${ocrEnabled ? ocrLanguages.join("+") : "off"}, ocrScale=${
+      ocrScale ?? "default"
+    }, ocrMaxPages=${ocrMaxPages ?? "all"}`
   );
 
   logger.info(`Reading manifest from ${path.relative(ROOT, manifestPath)}`);
@@ -131,7 +138,11 @@ async function main() {
           progressIntervalMs,
           startedAt,
           total: selectedLaws.length,
-          verbose
+          verbose,
+          ocrEnabled,
+          ocrLanguages,
+          ocrScale,
+          ocrMaxPages
         })
       : law;
     const refreshStatus = preparedLaw.__refreshMetadata?.status;
@@ -407,12 +418,27 @@ async function hydratePdfTextFromSources(law, options) {
           Accept: "application/pdf,*/*;q=0.8"
         }
       });
-      const { pageCount, sections } = await extractPdfTextSections(pdfBuffer);
+      let { pageCount, sections } = await extractPdfTextSections(pdfBuffer);
+      let extractionMode = "text";
+      let ocrLanguages;
       if (sections.length === 0) {
-        options.logger?.warn(
-          `${options.progressPrefix} No extractable text found in ${language.name} PDF for ${law.title}: ${source.url}`
-        );
-        continue;
+        if (!options.ocrEnabled) {
+          options.logger?.warn(
+            `${options.progressPrefix} No extractable text found in ${language.name} PDF for ${law.title}: ${source.url}`
+          );
+          continue;
+        }
+        const ocrResult = await runOcrFallback(pdfBuffer, language, law, source, options);
+        if (!ocrResult || ocrResult.sections.length === 0) {
+          options.logger?.warn(
+            `${options.progressPrefix} No extractable text found in ${language.name} PDF (text or OCR) for ${law.title}: ${source.url}`
+          );
+          continue;
+        }
+        pageCount = ocrResult.pageCount;
+        sections = ocrResult.sections;
+        extractionMode = "ocr";
+        ocrLanguages = ocrResult.ocrLanguages;
       }
 
       if (languageCode === "en") {
@@ -426,10 +452,11 @@ async function hydratePdfTextFromSources(law, options) {
             cleanTitle(law.translations?.[languageCode]?.title) ||
             localizedTitleForLanguage(law, languageCode),
           sourceUrl: source.url,
-          sourceKind: source.kind ?? "pdf",
+          sourceKind: extractionMode === "ocr" ? "pdf-ocr" : source.kind ?? "pdf",
           fetchedAt: new Date().toISOString(),
           pageCount,
-          sections
+          sections,
+          ...(extractionMode === "ocr" && ocrLanguages ? { ocrLanguages } : {})
         };
         if (languageCode === "hi" && cleanTitle(source.title) && !cleanTitle(law.hindiTitle)) {
           law.hindiTitle = cleanTitle(source.title);
@@ -437,7 +464,9 @@ async function hydratePdfTextFromSources(law, options) {
       }
       changed = true;
       logProgress(
-        `${options.progressPrefix} Extracted ${sections.length}/${pageCount} page(s) of ${language.name} Markdown text for ${law.title}`,
+        `${options.progressPrefix} Extracted ${sections.length}/${pageCount} page(s) of ${language.name} Markdown text for ${law.title}${
+          extractionMode === "ocr" ? ` via OCR (${ocrLanguages})` : ""
+        }`,
         options
       );
       if (options.delayMs > 0) {
@@ -451,6 +480,53 @@ async function hydratePdfTextFromSources(law, options) {
   }
 
   return { changed, law, partial };
+}
+
+async function runOcrFallback(pdfBuffer, language, law, source, options) {
+  const languages = ocrLanguagesForLanguage(language, options.ocrLanguages);
+  const ocrLog = (message) => {
+    if (options.verbose) {
+      options.logger?.info(`${options.progressPrefix} ${message}`);
+    }
+  };
+  options.logger?.info(
+    `${options.progressPrefix} OCR fallback for ${language.name} PDF of ${law.title}: ${source.url} (${languages.join("+")})`
+  );
+  try {
+    const ocrResult = await extractPdfTextSectionsViaOcr(pdfBuffer, {
+      languages,
+      scale: options.ocrScale,
+      maxPages: options.ocrMaxPages,
+      log: ocrLog
+    });
+    return { ...ocrResult, ocrLanguages: languages.join("+") };
+  } catch (error) {
+    options.logger?.warn(
+      `${options.progressPrefix} OCR failed for ${language.name} PDF of ${law.title} from ${source.url}: ${error.message}`
+    );
+    return undefined;
+  }
+}
+
+function ocrLanguagesForLanguage(language, configured) {
+  if (configured?.length) {
+    return [...configured];
+  }
+  const code = language.code === "hi" ? "hin" : language.code === "en" ? "eng" : undefined;
+  if (!code) {
+    return ["eng"];
+  }
+  return code === "eng" ? ["eng"] : [code, "eng"];
+}
+
+function parseOcrLanguages(value) {
+  if (!value || value === true) {
+    return [];
+  }
+  return String(value)
+    .split(/[,+\s]+/)
+    .map((entry) => entry.trim())
+    .filter(Boolean);
 }
 
 function firstPdfSource(sources) {

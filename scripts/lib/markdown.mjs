@@ -8,7 +8,7 @@ export function countLines(value = "") {
 }
 
 export function sectionMarkdown(section) {
-  if (section.kind === "page") {
+  if (section.kind === "page" || section.kind === "ocr-page") {
     const title = section.title || `Page ${section.sectionNo}`;
     const lines = [`## ${title}`, ""];
     if (section.content) {
@@ -69,7 +69,9 @@ export function renderMarkdownPart({ law, language, partIndex, partCount, sectio
   const sectionBody = sections.map((section) => sectionMarkdown(section)).join("\n\n");
   const firstSection = sections[0]?.sectionNo ?? "";
   const lastSection = sections.at(-1)?.sectionNo ?? "";
-  const rangeLabel = sections.some((section) => section.kind === "page") ? "Pages" : "Sections";
+  const rangeLabel = sections.some((section) => section.kind === "page" || section.kind === "ocr-page")
+    ? "Pages"
+    : "Sections";
   const frontMatter = [
     "---",
     `title: "${escapeYaml(title)}"`,
