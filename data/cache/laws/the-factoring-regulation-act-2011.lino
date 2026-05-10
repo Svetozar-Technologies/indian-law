@@ -1,39 +1,35 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:17:01.251Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2116`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 36)
-  (str totalSections) (int 36)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:17:01.251Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2116`
+  completeFetch true
+  maxSections null
+  sectionCount 36
+  totalSections 36
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-factoring-regulation-act-2011)
-  (str handle) (str 2116)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Factoring Regulation Act, 2011`)
-  (str actNumber) (str 12)
-  (str enactmentDate) (str 2012-01-22)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2116`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `फैक्टरिंग विनियमन अधिनियम, 2011`)
-  (str actYear) (str 2012)
-  (str ministry) (str `Ministry of Finance`)
-  (str department) (str `Department of Financial Services`)
-  (str longTitle) (str `An Act to provide for and regulate assignment of receivables by making provision for registration there for and rights and obligations of parties to contract for assignment of receivables and for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 02-04-2012)
-  (str notification) (str `2nd April, 2012 (Ss. 19, 20, 21, 32), vide notification No. S.O. 711(E), dated 2nd April, 2012, see Gazette of India, Extraordinary, Part II, sec. 3 (ii). 1st February, 2012 (expect ss. 19, 20, 21 and 32), vide notification No. S.O. 1399(E), dated 21st June, 2012, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`)
-  (str fetchedAt) (str `2026-05-09T00:02:51.648Z`)
-  (str translations) obj_root_law_translations
+  slug the-factoring-regulation-act-2011
+  handle (2116)
+  collectionHandle 123456789/1362
+  title `The Factoring Regulation Act, 2011`
+  actNumber (12)
+  enactmentDate 2012-01-22
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2116`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `फैक्टरिंग विनियमन अधिनियम, 2011`
+  actYear (2012)
+  ministry `Ministry of Finance`
+  department `Department of Financial Services`
+  longTitle `An Act to provide for and regulate assignment of receivables by making provision for registration there for and rights and obligations of parties to contract for assignment of receivables and for matters connected therewith or incidental thereto.`
+  enforcementDate 02-04-2012
+  notification `2nd April, 2012 (Ss. 19, 20, 21, 32), vide notification No. S.O. 711(E), dated 2nd April, 2012, see Gazette of India, Extraordinary, Part II, sec. 3 (ii). 1st February, 2012 (expect ss. 19, 20, 21 and 32), vide notification No. S.O. 1399(E), dated 21st June, 2012, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`
+  fetchedAt `2026-05-09T00:02:51.648Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_factoring_regulation_act_2011
   obj_root_law_sources_en_3
@@ -43,54 +39,58 @@ obj_root_law_sources_en:
   obj_root_law_sources_en_7
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2116`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2116`
 obj_root_law_sources_en_the_factoring_regulation_act_2011:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2116/4/a2012-12.pdf`)
-  (str title) (str `The Factoring Regulation Act, 2011`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2116/4/a2012-12.pdf`
+  title `The Factoring Regulation Act, 2011`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/rulesindividualfile/&file=registration_of_assignment_of_receivables_rules_2012_under_factoring_regulation_act_2011.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/rulesindividualfile/&file=registration_of_assignment_of_receivables_rules_2012_under_factoring_regulation_act_2011.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/rulesindividualfile/&file=registration_of_assignment_of_receivables_%28amendment%29_rules-2018.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/rulesindividualfile/&file=registration_of_assignment_of_receivables_%28amendment%29_rules-2018.pdf`
+  title obj_root_law_sources_en_4_title
+obj_root_law_sources_en_4_title:
+  string
+  line
 obj_root_law_sources_en_5:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/rulesindividualfile/&file=registration_of_assignment_of_receivables_%28amendment%29_rules-2021.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/rulesindividualfile/&file=registration_of_assignment_of_receivables_%28amendment%29_rules-2021.pdf`
+  title obj_root_law_sources_en_5_title
+obj_root_law_sources_en_5_title:
+  string
+  line
 obj_root_law_sources_en_6:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/regulationindividualfile/&file=registration_of_assignment_of_receivables_%28reserve_bank%29_regulations-2022.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/regulationindividualfile/&file=registration_of_assignment_of_receivables_%28reserve_bank%29_regulations-2022.pdf`
+  title obj_root_law_sources_en_6_title
+obj_root_law_sources_en_6_title:
+  string
+  line
 obj_root_law_sources_en_7:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/regulationindividualfile/&file=registration_of_factors_%28reserve_bank%29_regulations-2022.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/regulationindividualfile/&file=registration_of_factors_%28reserve_bank%29_regulations-2022.pdf`
+  title obj_root_law_sources_en_7_title
+obj_root_law_sources_en_7_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_2011
 obj_root_law_sources_hi_2011:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2116/3/H2012-12.pdf`)
-  (str title) (str `फैक्टरिंग विनियमन अधिनियम, 2011`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2116/3/H2012-12.pdf`
+  title `फैक्टरिंग विनियमन अधिनियम, 2011`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -128,846 +128,1014 @@ obj_root_law_sections:
   obj_root_law_sections_34
   obj_root_law_sections_35
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 4800)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Factoring Regulation
-Act, 2011.
-
-(2) It extends to the whole of India.
-
-(3) It shall come into force on such date ^1
-as the Central Government may, by notification in the
-Official Gazette, appoint:
-
-Provided that different dates may be appointed for different provisions of this Act, and any reference
-in any such provision to the commencement of this Act shall be construed as a reference to the coming
-into force of that provision.`)
-  (str footnotes) (str `1 2nd April, 2012 (Ss. 19, 20, 21, 32), vide notification No. S.O. 711(E), dated 2nd April, 2012, see Gazette of India,
-Extraordinary, Part II, sec. 3 (ii).
-
-1st February, 2012 (expect ss. 19, 20, 21 and 32), vide notification No. S.O. 1399(E), dated 21st June, 2012, see
-Gazette of India, Extraordinary, Part II, sec. 3(ii).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4800&sectionno=1&orderno=1&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4800)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4800&sectionno=1&orderno=1&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Factoring Regulation`
+  line `Act, 2011.`
+  line
+  line `(2) It extends to the whole of India.`
+  line
+  line `(3) It shall come into force on such date ^1`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint:`
+  line
+  line `Provided that different dates may be appointed for different provisions of this Act, and any reference`
+  line `in any such provision to the commencement of this Act shall be construed as a reference to the coming`
+  line `into force of that provision.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1 2nd April, 2012 (Ss. 19, 20, 21, 32), vide notification No. S.O. 711(E), dated 2nd April, 2012, see Gazette of India,`
+  line `Extraordinary, Part II, sec. 3 (ii).`
+  line
+  line `1st February, 2012 (expect ss. 19, 20, 21 and 32), vide notification No. S.O. 1399(E), dated 21st June, 2012, see`
+  line `Gazette of India, Extraordinary, Part II, sec. 3(ii).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 4801)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,
-
-(a) assignment means ^1[
-transfer by agreement to a factor of an undivided interest, in whole or
-in part, in the receivables of an assignor due from a debtor and includes such transfer where either the
-assignor or the debtor is situated or established outside India].
-
-Explanation.For the purposes of this clause, undivided interest of any assignor in any
-receivable shall not include creation of rights in receivables as security for loans and advances or
-other obligations by a bank or a financial institution;
-
-(b) assignee means a factor in whose favour the receivable is transferred;
-
-(c) assignor means any person who is the owner of any receivable;
-
-(d) bank means,
-
-(i) a banking company;
-
-(ii) a corresponding new bank;
-
-(iii) the State Bank of India;
-
-(iv) a subsidiary bank;
-
-(v) such other bank which the Central Government may by notification specify for the purposes
-of this Act on the recommendations of the Reserve Bank; or
-
-(vi) a Multi-State Co-operative Society registered under the Multi-State Co-operative Societies
-Act, 2002 (39 of 2002) and licensed to undertake business of banking by the Reserve Bank under
-the provisions of the Banking Regulation Act, 1949 (10 of 1949);
-
-(e) banking company shall have the meaning assigned to it in clause (c) of section 5 of the
-Banking Regulation Act, 1949 (10 of 1949);
-
-(f) business enterprise means any enterprise or medium enterprise, micro enterprise or small
-enterprise as defined in clauses (e), (g), (h) and (m) of section 2 of the Micro, Small and Medium
-Enterprises Development Act, 2006 (27 of 2006), respectively engaged in any business activity;
-
-(g) corresponding new bank shall have the meaning assigned to it in clause (da) of section 5 of
-the Banking Regulation Act, 1949 (10 of 1949);
-
-(h) debtor' means any person liable to the assignor, whether under a contract or otherwise, to
-pay any receivable or discharge any obligation in respect of the receivable whether existing, accruing,
-future, conditional or contingent;
-
-(i) factor means a non-banking financial company as defined in clause (f) of section 45-I of the
-Reserve Bank of India Act, 1934 (2 of 1934) which has been granted a certificate of registration
-under sub-section (1) of section 3 or anybody corporate established under an Act of Parliament or any
-State Legislature or any Bank or any company registered under the Companies Act, 1956 (1 of 1956)
-engaged in the factoring business;
-
-(j) factoring business means the business of ^2[
-acquisition by way of assignment of receivables
-of assignor for a consideration for the purpose of collection of such receivables or for financing,
-whether by way of making loans or advances or otherwise, against such assignment, but]does not
-include
-
-(i) credit facilities provided by a bank ^3[ or a non-banking financial company] in its ordinary course of business against security of
-receivables;
-
-(ii) any activity as commission agent or otherwise for sale of agricultural produce or goods of
-any kind whatsoever or any activity relating to the production, storage, supply, distribution,
-acquisition or control of such produce or goods or provision of any services.
-
-Explanation.For the purposes of this clause
-
-(i) the expression agricultural produce shall have the meaning assigned to it under clause
-(a) of section 2 of the Agricultural Produce (Grading and Marking) Act, 1937 (1 of 1937); and
-
-(ii) the expressions goods and commission agent shall have the meanings assigned to
-them respectively under clause (d) and Explanation (ii) of clause (i) of section 2 of the Forward
-Contracts (Regulation) Act, 1952 (74 of 1952);
-
-(k) financial contract means any spot, forward, future, option or swap transaction involving
-interest rates, commodities, currencies, shares, bonds, debentures or any other financial instrument,
-any repurchase of securities and lending transaction or any other similar transaction or combination of
-such transactions entered into in the financial markets;
-
-(l) netting agreement means any agreement among the system participants for the purpose of
-determination by the system provider of the amount of money or securities due or payable or
-deliverable as a result of setting off or adjusting the payment obligations or delivery obligations
-among the system participants, including the claims and obligations arising out of the termination by
-the system provider, on the insolvency or dissolution or winding up of any system participant or such
-circumstances as the system provider, may specify in its rules or regulations or bye-laws (by whatever
-name called), of the transactions admitted for settlement at a future date so that only a net claim be
-demanded or a net obligation be owned;
-
-(m) notification means a notification published in the Official Gazette;
-
-(n) prescribed means prescribed by rules made under this Act;
-
-(o) property means,
-
-(i) the immovable property;
-
-(ii) the movable property;
-
-(iii) any debt or any right to receive payment of money, whether secured or unsecured;
-
-(iv) the receivables;
-
-(v) the intangible assets, being know-how, patent, copyright, design, trade mark, licence, franchise or any other business or commercial right of similar nature;
-
-^4
-[(p) receivables means the money owed by a debtor and not yet paid to the assignor for goods
-or services and includes payment of any sum, by whatever name called, required to be paid for the
-toll or for the use of any infrastructure facility or services;
-
-(pa) regulations means regulations made by the Reserve Bank under this Act;]
-
-(q) Reserve Bank, means the Reserve Bank of India constituted under section 3 of the Reserve Bank of India Act, 1934 (2 of 1934);
-
-(r) State Bank of India means the State Bank of India constituted under section 3 of the State Bank of India Act, 1955 (23 of 1955);
-
-(s) Subsidiary Bank shall have the meaning assigned to it in clause (k) of section 2 of the State Bank of India (Subsidiary Banks) Act, 1959 (38 of 1959);
-
-^5[(sa) Trade Receivables Discounting System means a payment system authorised by the
-Reserve Bank under section 7 of the Payment and Settlement Systems Act, 2007 (51 of 2007) for the
-purpose of facilitating financing of trade receivables;]
-
-(t) words and expressions used and not defined in this Act but defined in the Reserve Bank of India Act, 1934 (2 of 1934), the Banking Regulation Act, 1949 (10 of 1949), the Companies Act, 1956 (1 of 1956), the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002), the Credit Information Companies (Regulation) Act, 2005 (30 of 2005), or the Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006), shall have the meanings respectively assigned to them in those Acts.`)
-  (str footnotes) (str `1. Subs. by Act, 21 of 2021, s. 2, for the certain words (w.e.f. 23-8-2021).
-
-2.Subs. by Act 21 of 2021, s. 2, for certain words (w.e.f. 23-8-2021).
-
-3. Ins. by s. 2, ibid (w.e.f. 23-8-2021).
-
-4.Subs. by Act 21 of 2021, s. 2, for clause (p) (w.e.f. 23-8-2021).
-
-5. Ins. by s. 2, ibid. (w.e.f. 23-8-2021).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4801&sectionno=2&orderno=2&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4801)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4801&sectionno=2&orderno=2&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,`
+  line
+  line `(a) assignment means ^1[`
+  line `transfer by agreement to a factor of an undivided interest, in whole or`
+  line `in part, in the receivables of an assignor due from a debtor and includes such transfer where either the`
+  line `assignor or the debtor is situated or established outside India].`
+  line
+  line `Explanation.For the purposes of this clause, undivided interest of any assignor in any`
+  line `receivable shall not include creation of rights in receivables as security for loans and advances or`
+  line `other obligations by a bank or a financial institution;`
+  line
+  line `(b) assignee means a factor in whose favour the receivable is transferred;`
+  line
+  line `(c) assignor means any person who is the owner of any receivable;`
+  line
+  line `(d) bank means,`
+  line
+  line `(i) a banking company;`
+  line
+  line `(ii) a corresponding new bank;`
+  line
+  line `(iii) the State Bank of India;`
+  line
+  line `(iv) a subsidiary bank;`
+  line
+  line `(v) such other bank which the Central Government may by notification specify for the purposes`
+  line `of this Act on the recommendations of the Reserve Bank; or`
+  line
+  line `(vi) a Multi-State Co-operative Society registered under the Multi-State Co-operative Societies`
+  line `Act, 2002 (39 of 2002) and licensed to undertake business of banking by the Reserve Bank under`
+  line `the provisions of the Banking Regulation Act, 1949 (10 of 1949);`
+  line
+  line `(e) banking company shall have the meaning assigned to it in clause (c) of section 5 of the`
+  line `Banking Regulation Act, 1949 (10 of 1949);`
+  line
+  line `(f) business enterprise means any enterprise or medium enterprise, micro enterprise or small`
+  line `enterprise as defined in clauses (e), (g), (h) and (m) of section 2 of the Micro, Small and Medium`
+  line `Enterprises Development Act, 2006 (27 of 2006), respectively engaged in any business activity;`
+  line
+  line `(g) corresponding new bank shall have the meaning assigned to it in clause (da) of section 5 of`
+  line `the Banking Regulation Act, 1949 (10 of 1949);`
+  line
+  line `(h) debtor' means any person liable to the assignor, whether under a contract or otherwise, to`
+  line `pay any receivable or discharge any obligation in respect of the receivable whether existing, accruing,`
+  line `future, conditional or contingent;`
+  line
+  line `(i) factor means a non-banking financial company as defined in clause (f) of section 45-I of the`
+  line `Reserve Bank of India Act, 1934 (2 of 1934) which has been granted a certificate of registration`
+  line `under sub-section (1) of section 3 or anybody corporate established under an Act of Parliament or any`
+  line `State Legislature or any Bank or any company registered under the Companies Act, 1956 (1 of 1956)`
+  line `engaged in the factoring business;`
+  line
+  line `(j) factoring business means the business of ^2[`
+  line `acquisition by way of assignment of receivables`
+  line `of assignor for a consideration for the purpose of collection of such receivables or for financing,`
+  line `whether by way of making loans or advances or otherwise, against such assignment, but]does not`
+  line include
+  line
+  line `(i) credit facilities provided by a bank ^3[ or a non-banking financial company] in its ordinary course of business against security of`
+  line receivables;
+  line
+  line `(ii) any activity as commission agent or otherwise for sale of agricultural produce or goods of`
+  line `any kind whatsoever or any activity relating to the production, storage, supply, distribution,`
+  line `acquisition or control of such produce or goods or provision of any services.`
+  line
+  line `Explanation.For the purposes of this clause`
+  line
+  line `(i) the expression agricultural produce shall have the meaning assigned to it under clause`
+  line `(a) of section 2 of the Agricultural Produce (Grading and Marking) Act, 1937 (1 of 1937); and`
+  line
+  line `(ii) the expressions goods and commission agent shall have the meanings assigned to`
+  line `them respectively under clause (d) and Explanation (ii) of clause (i) of section 2 of the Forward`
+  line `Contracts (Regulation) Act, 1952 (74 of 1952);`
+  line
+  line `(k) financial contract means any spot, forward, future, option or swap transaction involving`
+  line `interest rates, commodities, currencies, shares, bonds, debentures or any other financial instrument,`
+  line `any repurchase of securities and lending transaction or any other similar transaction or combination of`
+  line `such transactions entered into in the financial markets;`
+  line
+  line `(l) netting agreement means any agreement among the system participants for the purpose of`
+  line `determination by the system provider of the amount of money or securities due or payable or`
+  line `deliverable as a result of setting off or adjusting the payment obligations or delivery obligations`
+  line `among the system participants, including the claims and obligations arising out of the termination by`
+  line `the system provider, on the insolvency or dissolution or winding up of any system participant or such`
+  line `circumstances as the system provider, may specify in its rules or regulations or bye-laws (by whatever`
+  line `name called), of the transactions admitted for settlement at a future date so that only a net claim be`
+  line `demanded or a net obligation be owned;`
+  line
+  line `(m) notification means a notification published in the Official Gazette;`
+  line
+  line `(n) prescribed means prescribed by rules made under this Act;`
+  line
+  line `(o) property means,`
+  line
+  line `(i) the immovable property;`
+  line
+  line `(ii) the movable property;`
+  line
+  line `(iii) any debt or any right to receive payment of money, whether secured or unsecured;`
+  line
+  line `(iv) the receivables;`
+  line
+  line `(v) the intangible assets, being know-how, patent, copyright, design, trade mark, licence, franchise or any other business or commercial right of similar nature;`
+  line
+  line ^4
+  line `[(p) receivables means the money owed by a debtor and not yet paid to the assignor for goods`
+  line `or services and includes payment of any sum, by whatever name called, required to be paid for the`
+  line `toll or for the use of any infrastructure facility or services;`
+  line
+  line `(pa) regulations means regulations made by the Reserve Bank under this Act;]`
+  line
+  line `(q) Reserve Bank, means the Reserve Bank of India constituted under section 3 of the Reserve Bank of India Act, 1934 (2 of 1934);`
+  line
+  line `(r) State Bank of India means the State Bank of India constituted under section 3 of the State Bank of India Act, 1955 (23 of 1955);`
+  line
+  line `(s) Subsidiary Bank shall have the meaning assigned to it in clause (k) of section 2 of the State Bank of India (Subsidiary Banks) Act, 1959 (38 of 1959);`
+  line
+  line `^5[(sa) Trade Receivables Discounting System means a payment system authorised by the`
+  line `Reserve Bank under section 7 of the Payment and Settlement Systems Act, 2007 (51 of 2007) for the`
+  line `purpose of facilitating financing of trade receivables;]`
+  line
+  line `(t) words and expressions used and not defined in this Act but defined in the Reserve Bank of India Act, 1934 (2 of 1934), the Banking Regulation Act, 1949 (10 of 1949), the Companies Act, 1956 (1 of 1956), the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002), the Credit Information Companies (Regulation) Act, 2005 (30 of 2005), or the Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006), shall have the meanings respectively assigned to them in those Acts.`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. Subs. by Act, 21 of 2021, s. 2, for the certain words (w.e.f. 23-8-2021).`
+  line
+  line `2.Subs. by Act 21 of 2021, s. 2, for certain words (w.e.f. 23-8-2021).`
+  line
+  line `3. Ins. by s. 2, ibid (w.e.f. 23-8-2021).`
+  line
+  line `4.Subs. by Act 21 of 2021, s. 2, for clause (p) (w.e.f. 23-8-2021).`
+  line
+  line `5. Ins. by s. 2, ibid. (w.e.f. 23-8-2021).`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 4802)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Registration of factors.`)
-  (str content) (str `(1) No factor shall commence or carry on the factoring business unless it
-obtains a certificate of registration from the Reserve Bank to commence or carry on the factoring business
-under this Act.
-
-(2) Every factor shall make an application for registration to the Reserve Bank in such form and
-manner as it may specify:
-
-^1*****
-
-(3) Every applicant for grant of a certificate of a registration as a factor shall comply, for the purpose
-of registration, with all the requirements to be fulfilled by an applicant for grant of certificate of
-registration as non-banking financial company under the Reserve Bank of India Act, 1934 (2 of 1934) and
-all the provisions of that Act, so far as they relate to the registration of non-banking financial companies,
-shall (except those provided for under this Act) mutatis mutandis apply.
-
-^2[(4) The Reserve Bank may grant the certificate of registration in such manner as may be specified
-by regulations.]
-
-(5) Save as otherwise provided in this Act, every factor including factors not subject to requirement of
-registration under section 5, shall be governed by the Reserve Bank of India Act, 1934 (2 of 1934), the rules and regulations made thereunder and the directions or guidelines issued by the Reserve Bank, from
-time to time.`)
-  (str footnotes) (str `1.The proviso and Explanation omitted by Act 21 of 2021, s. 3 (w.e.f. 23-8-2021).
-
-2. Subs. by s. 3, ibid., for sub-section (4) (w.e.f. 23-8-2021).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4802&sectionno=3&orderno=3&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4802)
+  sectionNo (3)
+  orderNo 3
+  title `Registration of factors.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4802&sectionno=3&orderno=3&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_3_content:
+  string
+  line `(1) No factor shall commence or carry on the factoring business unless it`
+  line `obtains a certificate of registration from the Reserve Bank to commence or carry on the factoring business`
+  line `under this Act.`
+  line
+  line `(2) Every factor shall make an application for registration to the Reserve Bank in such form and`
+  line `manner as it may specify:`
+  line
+  line ^1*****
+  line
+  line `(3) Every applicant for grant of a certificate of a registration as a factor shall comply, for the purpose`
+  line `of registration, with all the requirements to be fulfilled by an applicant for grant of certificate of`
+  line `registration as non-banking financial company under the Reserve Bank of India Act, 1934 (2 of 1934) and`
+  line `all the provisions of that Act, so far as they relate to the registration of non-banking financial companies,`
+  line `shall (except those provided for under this Act) mutatis mutandis apply.`
+  line
+  line `^2[(4) The Reserve Bank may grant the certificate of registration in such manner as may be specified`
+  line `by regulations.]`
+  line
+  line `(5) Save as otherwise provided in this Act, every factor including factors not subject to requirement of`
+  line `registration under section 5, shall be governed by the Reserve Bank of India Act, 1934 (2 of 1934), the rules and regulations made thereunder and the directions or guidelines issued by the Reserve Bank, from`
+  line `time to time.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1.The proviso and Explanation omitted by Act 21 of 2021, s. 3 (w.e.f. 23-8-2021).`
+  line
+  line `2. Subs. by s. 3, ibid., for sub-section (4) (w.e.f. 23-8-2021).`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 4803)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Provisions of non-banking financial companies apply to factor.`)
-  (str content) (str `All provisions of Chapter
-IIIB of the Reserve Bank of India Act, 1934 (2 of 1934) relating to non-banking financial companies
-which have been granted a certificate of registration under sub-section (5) of section 45-IA of the Reserve
-Bank of India Act, 1934 shall (except those specifically provided for under this Act) mutatis mutandis
-apply to a factor which has been granted a certificate of registration under section 3.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4803&sectionno=4&orderno=4&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4803)
+  sectionNo (4)
+  orderNo 4
+  title `Provisions of non-banking financial companies apply to factor.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4803&sectionno=4&orderno=4&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_4_content:
+  string
+  line `All provisions of Chapter`
+  line `IIIB of the Reserve Bank of India Act, 1934 (2 of 1934) relating to non-banking financial companies`
+  line `which have been granted a certificate of registration under sub-section (5) of section 45-IA of the Reserve`
+  line `Bank of India Act, 1934 shall (except those specifically provided for under this Act) mutatis mutandis`
+  line `apply to a factor which has been granted a certificate of registration under section 3.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 4804)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Requirement for registration as a factor not to apply to bank or Statutory corporation or Government company.`)
-  (str content) (str `Nothing contained in section 3 shall apply to a bank or any corporation
-established under an Act of Parliament or State Legislature, or a Government Company as defined under
-section 617 of the Companies Act, 1956 (1 of 1956).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4804&sectionno=5&orderno=5&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4804)
+  sectionNo (5)
+  orderNo 5
+  title `Requirement for registration as a factor not to apply to bank or Statutory corporation or Government company.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4804&sectionno=5&orderno=5&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_5_content:
+  string
+  line `Nothing contained in section 3 shall apply to a bank or any corporation`
+  line `established under an Act of Parliament or State Legislature, or a Government Company as defined under`
+  line `section 617 of the Companies Act, 1956 (1 of 1956).`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 4805)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Powers of Reserve Bank to give directions and to collect information from factors.`)
-  (str content) (str `(1) The
-Reserve Bank may, at any time by general or special order, direct that every factor shall furnish to it, in
-such form, at such intervals and within such time, such statements, information or particulars relating to
-factoring business undertaken by the factor, as may be specified by the Reserve Bank from time to time.
-
-(2) The Reserve Bank may, if it considers necessary in the interest of business enterprises availing
-factoring services or in the interest of factors or interest of other stake holders give directions to the
-factors either generally or to any factor in particular or group of factors in respect of any matters relating
-to or connected with the factoring business undertaken by such factors.
-
-(3) If any factor fails to comply with any direction given by the Reserve Bank under sub-section (2),
-the Reserve Bank may prohibit such factor from undertaking the factoring business:
-
-Provided that before prohibiting any factor from undertaking the factoring business, the factor shall
-be given a reasonable opportunity of being heard.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4805&sectionno=6&orderno=6&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4805)
+  sectionNo (6)
+  orderNo 6
+  title `Powers of Reserve Bank to give directions and to collect information from factors.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4805&sectionno=6&orderno=6&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_6_content:
+  string
+  line `(1) The`
+  line `Reserve Bank may, at any time by general or special order, direct that every factor shall furnish to it, in`
+  line `such form, at such intervals and within such time, such statements, information or particulars relating to`
+  line `factoring business undertaken by the factor, as may be specified by the Reserve Bank from time to time.`
+  line
+  line `(2) The Reserve Bank may, if it considers necessary in the interest of business enterprises availing`
+  line `factoring services or in the interest of factors or interest of other stake holders give directions to the`
+  line `factors either generally or to any factor in particular or group of factors in respect of any matters relating`
+  line `to or connected with the factoring business undertaken by such factors.`
+  line
+  line `(3) If any factor fails to comply with any direction given by the Reserve Bank under sub-section (2),`
+  line `the Reserve Bank may prohibit such factor from undertaking the factoring business:`
+  line
+  line `Provided that before prohibiting any factor from undertaking the factoring business, the factor shall`
+  line `be given a reasonable opportunity of being heard.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 4806)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Assignment of receivables.`)
-  (str content) (str `(1) Any assignor may, by an agreement in writing, assign any
-receivable due and payable to him by any debtor, to any factor, being the assignee, for a consideration as
-may be agreed between the assignor and the assignee and the assignor shall at the time of such
-assignment, disclose to the assignee any defences and right of set off that may be available to the debtor:
-
-Provided that if the debtor liable to pay the receivable or the business of factor is situated or
-established outside India, any assignment of receivable shall be subject to the provisions of the Foreign
-Exchange Management Act, 1999 (42 of 1999).
-
-(2) On execution of agreement in writing for assignment of receivables, all the rights, remedies and
-any security interest created over any property exclusively to secure the due payment of receivable shall
-vest in the assignee and the assignee shall have an absolute right to recover such receivable and exercise
-all the rights and remedies of the assignor whether by way of damages or otherwise, or whether notice of
-assignment as provided in section 8 is given or not.
-
-(3) Any assignment of receivables which constitute security for repayment of any loan advanced by
-any Bank or other creditor and if the assignor has given notice of such encumbrance to the assignee, then
-on accepting assignment of such receivable, the assignee shall pay the consideration for such assignment
-to the Bank or the creditor, as the case may be.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4806&sectionno=7&orderno=7&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4806)
+  sectionNo (7)
+  orderNo 7
+  title `Assignment of receivables.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4806&sectionno=7&orderno=7&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_7_content:
+  string
+  line `(1) Any assignor may, by an agreement in writing, assign any`
+  line `receivable due and payable to him by any debtor, to any factor, being the assignee, for a consideration as`
+  line `may be agreed between the assignor and the assignee and the assignor shall at the time of such`
+  line `assignment, disclose to the assignee any defences and right of set off that may be available to the debtor:`
+  line
+  line `Provided that if the debtor liable to pay the receivable or the business of factor is situated or`
+  line `established outside India, any assignment of receivable shall be subject to the provisions of the Foreign`
+  line `Exchange Management Act, 1999 (42 of 1999).`
+  line
+  line `(2) On execution of agreement in writing for assignment of receivables, all the rights, remedies and`
+  line `any security interest created over any property exclusively to secure the due payment of receivable shall`
+  line `vest in the assignee and the assignee shall have an absolute right to recover such receivable and exercise`
+  line `all the rights and remedies of the assignor whether by way of damages or otherwise, or whether notice of`
+  line `assignment as provided in section 8 is given or not.`
+  line
+  line `(3) Any assignment of receivables which constitute security for repayment of any loan advanced by`
+  line `any Bank or other creditor and if the assignor has given notice of such encumbrance to the assignee, then`
+  line `on accepting assignment of such receivable, the assignee shall pay the consideration for such assignment`
+  line `to the Bank or the creditor, as the case may be.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 4807)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Notice to debtor and discharge of obligation of such debtor.`)
-  (str content) (str `Any assignee of a receivable
-shall not be entitled to demand payment of the receivable from the debtor in respect of such receivables
-unless notice of such assignment is given to the debtor by the assignor or the assignee along with express
-authority in its favors granted by the assignor.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4807&sectionno=8&orderno=8&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4807)
+  sectionNo (8)
+  orderNo 8
+  title `Notice to debtor and discharge of obligation of such debtor.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4807&sectionno=8&orderno=8&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_8_content:
+  string
+  line `Any assignee of a receivable`
+  line `shall not be entitled to demand payment of the receivable from the debtor in respect of such receivables`
+  line `unless notice of such assignment is given to the debtor by the assignor or the assignee along with express`
+  line `authority in its favors granted by the assignor.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 4808)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Discharge of liability of debtor on payment to assignee.`)
-  (str content) (str `Where a notice of assignment of
-receivable is given by the assignor or the assignee, as the case may be, under section 8 the debtor on
-receipt of such notice, shall make payment to the assignee and payment made to such assignee in discharge of any obligation in relation to the receivables specified in the notice shall fully discharge the
-debtor making the payment, from corresponding liability in respect of such payment.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4808&sectionno=9&orderno=9&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4808)
+  sectionNo (9)
+  orderNo 9
+  title `Discharge of liability of debtor on payment to assignee.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4808&sectionno=9&orderno=9&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_9_content:
+  string
+  line `Where a notice of assignment of`
+  line `receivable is given by the assignor or the assignee, as the case may be, under section 8 the debtor on`
+  line `receipt of such notice, shall make payment to the assignee and payment made to such assignee in discharge of any obligation in relation to the receivables specified in the notice shall fully discharge the`
+  line `debtor making the payment, from corresponding liability in respect of such payment.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 4809)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Payment made by debtor to assignor to be held in trust for benefit of assignee in certain cases.`)
-  (str content) (str `Where no notice of assignment of receivables is given by the assignor or under his authority by
-the assignee, any payment made by the debtor in respect of such receivables to the assignor shall be held
-in trust for the benefit of the assignee which shall be forthwith be paid over to such assignee, as the case
-may be, or its agent duly authorised in this behalf.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4809&sectionno=10&orderno=10&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4809)
+  sectionNo (10)
+  orderNo 10
+  title `Payment made by debtor to assignor to be held in trust for benefit of assignee in certain cases.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4809&sectionno=10&orderno=10&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_10_content:
+  string
+  line `Where no notice of assignment of receivables is given by the assignor or under his authority by`
+  line `the assignee, any payment made by the debtor in respect of such receivables to the assignor shall be held`
+  line `in trust for the benefit of the assignee which shall be forthwith be paid over to such assignee, as the case`
+  line `may be, or its agent duly authorised in this behalf.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 4810)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Rights and obligations of parties to contract for assignment of receivables.`)
-  (str content) (str `Without
-prejudice to the provisions contained in any other law for the time being in force, the debtor shall have the
-right to notice of assignment under section 8 before any demand is made on it by the assignee and until
-notice is served on the debtor, the debtor shall be entitled to make payments to the assignor in respect of
-assigned receivables in accordance with the original contract and such payment shall fully discharge the
-debtor from corresponding liability under the original contract.
-
-Explanation.—For the removal of doubts, it is hereby clarified that nothing contained in this section
-shall affect the rights of debtor to make payment to the assignee under section 9.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4810&sectionno=11&orderno=11&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4810)
+  sectionNo (11)
+  orderNo 11
+  title `Rights and obligations of parties to contract for assignment of receivables.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4810&sectionno=11&orderno=11&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_11_content:
+  string
+  line Without
+  line `prejudice to the provisions contained in any other law for the time being in force, the debtor shall have the`
+  line `right to notice of assignment under section 8 before any demand is made on it by the assignee and until`
+  line `notice is served on the debtor, the debtor shall be entitled to make payments to the assignor in respect of`
+  line `assigned receivables in accordance with the original contract and such payment shall fully discharge the`
+  line `debtor from corresponding liability under the original contract.`
+  line
+  line `Explanation.—For the removal of doubts, it is hereby clarified that nothing contained in this section`
+  line `shall affect the rights of debtor to make payment to the assignee under section 9.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 4811)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Liability of debtor.`)
-  (str content) (str `Where a notice of assignment as referred to in section 8 is served, the
-debtor shall,—
-
-(a) intimate the assignee the details of the deposits or advance or payment on account made to
-the assignor before the receipt of notice of assignment and also provide any other information to the
-assignee relating to the receivable as and when called upon by the assignee to do so;
-
-(b) not be entitled to a valid discharge of his liability in respect of assigned receivables, unless he
-makes the payment due on an assigned receivables to the assignee.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4811&sectionno=12&orderno=12&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4811)
+  sectionNo (12)
+  orderNo 12
+  title `Liability of debtor.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4811&sectionno=12&orderno=12&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_12_content:
+  string
+  line `Where a notice of assignment as referred to in section 8 is served, the`
+  line `debtor shall,—`
+  line
+  line `(a) intimate the assignee the details of the deposits or advance or payment on account made to`
+  line `the assignor before the receipt of notice of assignment and also provide any other information to the`
+  line `assignee relating to the receivable as and when called upon by the assignee to do so;`
+  line
+  line `(b) not be entitled to a valid discharge of his liability in respect of assigned receivables, unless he`
+  line `makes the payment due on an assigned receivables to the assignee.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 4812)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Assignor to be trustee of assignee.`)
-  (str content) (str `Notwithstanding anything to the contrary contained in any
-other law for the time being in force, where a debtor makes any payment to an assignor which represents
-payment due on an assigned receivable, such payment shall be deemed to be for the benefit of the
-assignee, and the assignor shall be deemed to have received the amount of such payment as a trustee of
-the assignee and the assignor shall make payment of such amount to the assignee.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4812&sectionno=13&orderno=13&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4812)
+  sectionNo (13)
+  orderNo 13
+  title `Assignor to be trustee of assignee.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4812&sectionno=13&orderno=13&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_13_content:
+  string
+  line `Notwithstanding anything to the contrary contained in any`
+  line `other law for the time being in force, where a debtor makes any payment to an assignor which represents`
+  line `payment due on an assigned receivable, such payment shall be deemed to be for the benefit of the`
+  line `assignee, and the assignor shall be deemed to have received the amount of such payment as a trustee of`
+  line `the assignee and the assignor shall make payment of such amount to the assignee.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 4813)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Liability of debtor in case of an assignor being mircro or small enterprises.`)
-  (str content) (str `(1) If the
-assignor of receivables is a micro or small enterprise, the liability of the debtor to make payment due on
-assigned receivables shall be subject to the provisions contained in sections 15 to 17 of the Micro, Small
-and Medium Enterprises Development Act, 2006 (27 of 2006) with regards to the delayed payments of
-the receivables.
-
-(2) In the event of delay in payment on the part of the debtor to pay the receivable of any micro or
-small enterprise, the assignee shall be entitled to receive interest for the delayed period and shall take
-steps under the provisions of the Micro, Small and Medium Enterprises Development Act, 2006
-(27 of 2006) for the purpose of the recovery of the interest and shall pay such interest to the micro or
-small enterprise.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4813&sectionno=14&orderno=14&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4813)
+  sectionNo (14)
+  orderNo 14
+  title `Liability of debtor in case of an assignor being mircro or small enterprises.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4813&sectionno=14&orderno=14&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_14_content:
+  string
+  line `(1) If the`
+  line `assignor of receivables is a micro or small enterprise, the liability of the debtor to make payment due on`
+  line `assigned receivables shall be subject to the provisions contained in sections 15 to 17 of the Micro, Small`
+  line `and Medium Enterprises Development Act, 2006 (27 of 2006) with regards to the delayed payments of`
+  line `the receivables.`
+  line
+  line `(2) In the event of delay in payment on the part of the debtor to pay the receivable of any micro or`
+  line `small enterprise, the assignee shall be entitled to receive interest for the delayed period and shall take`
+  line `steps under the provisions of the Micro, Small and Medium Enterprises Development Act, 2006`
+  line `(27 of 2006) for the purpose of the recovery of the interest and shall pay such interest to the micro or`
+  line `small enterprise.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 4814)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Principle of debtor protection.`)
-  (str content) (str `(1) Save as otherwise provided in this Act, any assignment of
-the receivable shall not, without the express consent of the debtor in writing, affect the rights and
-obligations of the debtor (including the terms and conditions of the contract).
-
-(2) Consequent upon the assignment of receivables, the payment instruction under the contract
-entered into between assignor and debtor may modify the name of person, address or account to which the
-debtor is required to make payment, but such instructions shall not modify:—
-
-(a) the amount of debt specified in the original contract; or
-
-(b) the place specified in the original contract at which payment is to be made or in case no such
-place is mentioned in the contract, the place of payment to a place other than where the debtor is
-situated; or
-
-(c) the date on which payment is to be made or other terms of the original contract relating to
-payment.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4814&sectionno=15&orderno=15&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4814)
+  sectionNo (15)
+  orderNo 15
+  title `Principle of debtor protection.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4814&sectionno=15&orderno=15&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_15_content:
+  string
+  line `(1) Save as otherwise provided in this Act, any assignment of`
+  line `the receivable shall not, without the express consent of the debtor in writing, affect the rights and`
+  line `obligations of the debtor (including the terms and conditions of the contract).`
+  line
+  line `(2) Consequent upon the assignment of receivables, the payment instruction under the contract`
+  line `entered into between assignor and debtor may modify the name of person, address or account to which the`
+  line `debtor is required to make payment, but such instructions shall not modify:—`
+  line
+  line `(a) the amount of debt specified in the original contract; or`
+  line
+  line `(b) the place specified in the original contract at which payment is to be made or in case no such`
+  line `place is mentioned in the contract, the place of payment to a place other than where the debtor is`
+  line `situated; or`
+  line
+  line `(c) the date on which payment is to be made or other terms of the original contract relating to`
+  line payment.
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 4815)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Defences and right of set off of debtor.`)
-  (str content) (str `In a claim by the assignee against the debtor for
-payment of the assigned receivable, the debtor may raise against the assignee,—
-
-(a) all defences and right of set off arising from the original contract, entered into between the
-assignor and debtor or any other contract that was part of the same transaction, of which the debtor
-could avail himself as if the assignment had not been made and such claim were made by the assignor
-instead of assignee:
-
-Provided that the assignee shall, unless otherwise agreed between the parties, be entitled to
-recover from the assignor, any loss suffered by it as a result of any such defences and right of set off
-being exercised by the debtor;
-
-(b) any other right of set off if it was available to the debtor at the time notice, under section 8, of
-the assignment was received by the debtor.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4815&sectionno=16&orderno=16&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4815)
+  sectionNo (16)
+  orderNo 16
+  title `Defences and right of set off of debtor.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4815&sectionno=16&orderno=16&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_16_content:
+  string
+  line `In a claim by the assignee against the debtor for`
+  line `payment of the assigned receivable, the debtor may raise against the assignee,—`
+  line
+  line `(a) all defences and right of set off arising from the original contract, entered into between the`
+  line `assignor and debtor or any other contract that was part of the same transaction, of which the debtor`
+  line `could avail himself as if the assignment had not been made and such claim were made by the assignor`
+  line `instead of assignee:`
+  line
+  line `Provided that the assignee shall, unless otherwise agreed between the parties, be entitled to`
+  line `recover from the assignor, any loss suffered by it as a result of any such defences and right of set off`
+  line `being exercised by the debtor;`
+  line
+  line `(b) any other right of set off if it was available to the debtor at the time notice, under section 8, of`
+  line `the assignment was received by the debtor.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 4816)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Modification of original contract.`)
-  (str content) (str `(1) Any agreement made before service of notice, under
-section 8, of the assignment of a receivable between the assignor and the debtor that affects the assignee's
-rights in respect of that receivable shall be effective as against the assignee, and the assignee shall acquire
-rights in the assigned receivables, as modified by such agreement.
-
-(2) Any agreement made, after notice of the assignment between the assignor and the debtor that
-affects the assignee's rights, shall be ineffective as against the assignee unless,—
-
-(a) the assignee consents to it; or
-
-(b) the receivable is not fully earned by performance and either the modification is provided for in
-the original contract or, in the context of the original contract, a reasonable assignee would consent to
-the modification.
-
-(3) Nothing contained in sub-sections (1) and (2) shall affect any right of the assignor or the assignee
-arising from breach of an agreement between them.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4816&sectionno=17&orderno=17&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4816)
+  sectionNo (17)
+  orderNo 17
+  title `Modification of original contract.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4816&sectionno=17&orderno=17&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_17_content:
+  string
+  line `(1) Any agreement made before service of notice, under`
+  line `section 8, of the assignment of a receivable between the assignor and the debtor that affects the assignee's`
+  line `rights in respect of that receivable shall be effective as against the assignee, and the assignee shall acquire`
+  line `rights in the assigned receivables, as modified by such agreement.`
+  line
+  line `(2) Any agreement made, after notice of the assignment between the assignor and the debtor that`
+  line `affects the assignee's rights, shall be ineffective as against the assignee unless,—`
+  line
+  line `(a) the assignee consents to it; or`
+  line
+  line `(b) the receivable is not fully earned by performance and either the modification is provided for in`
+  line `the original contract or, in the context of the original contract, a reasonable assignee would consent to`
+  line `the modification.`
+  line
+  line `(3) Nothing contained in sub-sections (1) and (2) shall affect any right of the assignor or the assignee`
+  line `arising from breach of an agreement between them.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 4817)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Breach of contract.`)
-  (str content) (str `If the assignor commits any breach of the original contract with the debtor,
-such breach shall not entitle the debtor to recover from the assignee any sum paid by the debtor to the
-assignor or the assignee pursuant to the factoring transactions:
-
-Provided that nothing contained in this section shall affect the rights of the debtor to claim from the
-assignor any loss or damages caused to him by reason of breach of the original contract.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4817&sectionno=18&orderno=18&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4817)
+  sectionNo (18)
+  orderNo 18
+  title `Breach of contract.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4817&sectionno=18&orderno=18&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_18_content:
+  string
+  line `If the assignor commits any breach of the original contract with the debtor,`
+  line `such breach shall not entitle the debtor to recover from the assignee any sum paid by the debtor to the`
+  line `assignor or the assignee pursuant to the factoring transactions:`
+  line
+  line `Provided that nothing contained in this section shall affect the rights of the debtor to claim from the`
+  line `assignor any loss or damages caused to him by reason of breach of the original contract.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 4818)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Registration of certain assignments of receivables transactions.`)
-  (str content) (str `^1[(1)Every factor shall
-register the particulars of every transaction of assignment of receivables in his favour with the Central
-Registry set-up under section 20 of the Securitisation and Reconstruction of Financial Assets and
-Enforcement of Security Interest Act, 2002 (54 of 2002), within such time from the date of such
-assignment, in such manner and subject to payment of such fee, as may be prescribed.]
-
-Explanation.For the purpose of filing of particulars of every transaction of assignment of
-receivables with the Central Registry, the receivables may be described specifically or generally with
-reference to the debtor, or the period to which they relate or by any other general description by which
-such receivables can be identified.
-
-^2[(1A) Where any trade receivables are financed through a Trade Receivables Discounting System,
-the particulars specified in sub-section (1) and sub-section (3) shall be filed with the Central Registry on
-behalf of the factor by the Trade Receivables Discounting System concerned, in such manner as may be
-specified by regulations.]
-
-(2) For the purposes of this Act, a record called the Central Register shall be kept at the head office of
-the Central Registry for entering the particulars of the transactions relating to assignment of receivables in
-favour of a factor.
-
-(3) On realisation of the assigned receivables or settlement of the claim against the debtors, the factor
-shall file satisfaction of the assignment of receivables in its favour, in such manner and subject to
-payment of such fees as may be prescribed in this behalf.
-
-(4) The provisions for registration of transactions contained in the Securitisation and Reconstruction
-of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002) and the rules made
-thereunder shall, mutatis mutandis, apply to the record of assignment of receivables in favour of a factor
-in the Central Register with the Central Registry.`)
-  (str footnotes) (str `1. Subs. by Act 21 of 2021, s. 4, for sub-section (1) (w.e.f. 23-8-2021).
-
-2.Ins. by s. 4, ibid. (w.e.f. 23-8-2021).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4818&sectionno=19&orderno=19&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4818)
+  sectionNo (19)
+  orderNo 19
+  title `Registration of certain assignments of receivables transactions.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4818&sectionno=19&orderno=19&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_19_content:
+  string
+  line `^1[(1)Every factor shall`
+  line `register the particulars of every transaction of assignment of receivables in his favour with the Central`
+  line `Registry set-up under section 20 of the Securitisation and Reconstruction of Financial Assets and`
+  line `Enforcement of Security Interest Act, 2002 (54 of 2002), within such time from the date of such`
+  line `assignment, in such manner and subject to payment of such fee, as may be prescribed.]`
+  line
+  line `Explanation.For the purpose of filing of particulars of every transaction of assignment of`
+  line `receivables with the Central Registry, the receivables may be described specifically or generally with`
+  line `reference to the debtor, or the period to which they relate or by any other general description by which`
+  line `such receivables can be identified.`
+  line
+  line `^2[(1A) Where any trade receivables are financed through a Trade Receivables Discounting System,`
+  line `the particulars specified in sub-section (1) and sub-section (3) shall be filed with the Central Registry on`
+  line `behalf of the factor by the Trade Receivables Discounting System concerned, in such manner as may be`
+  line `specified by regulations.]`
+  line
+  line `(2) For the purposes of this Act, a record called the Central Register shall be kept at the head office of`
+  line `the Central Registry for entering the particulars of the transactions relating to assignment of receivables in`
+  line `favour of a factor.`
+  line
+  line `(3) On realisation of the assigned receivables or settlement of the claim against the debtors, the factor`
+  line `shall file satisfaction of the assignment of receivables in its favour, in such manner and subject to`
+  line `payment of such fees as may be prescribed in this behalf.`
+  line
+  line `(4) The provisions for registration of transactions contained in the Securitisation and Reconstruction`
+  line `of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002) and the rules made`
+  line `thereunder shall, mutatis mutandis, apply to the record of assignment of receivables in favour of a factor`
+  line `in the Central Register with the Central Registry.`
+obj_root_law_sections_19_footnotes:
+  string
+  line `1. Subs. by Act 21 of 2021, s. 4, for sub-section (1) (w.e.f. 23-8-2021).`
+  line
+  line `2.Ins. by s. 4, ibid. (w.e.f. 23-8-2021).`
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 4819)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Public inspection.`)
-  (str content) (str `(1) The particulars of transactions of assignment of receivables entered in
-the Central Register of such transactions under section 19 shall be open during business hours for
-inspection by any person on payment of such fee as may be prescribed.
-
-(2) The Central Register referred to in sub-section (2) of section 19 maintained in electronic form,
-shall also be open during the business hours or such extended hours as may be specified by the Central
-Registry for inspection by any person through electronic media on payment of such fee as may be
-prescribed.
-
-(3) The provisions for maintenance of Central Register and public inspection thereof contained in the
-Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002
-(54 of 2002) and the rules made thereunder shall, mutatis mutandis, apply.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4819&sectionno=20&orderno=20&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4819)
+  sectionNo (20)
+  orderNo 20
+  title `Public inspection.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4819&sectionno=20&orderno=20&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_20_content:
+  string
+  line `(1) The particulars of transactions of assignment of receivables entered in`
+  line `the Central Register of such transactions under section 19 shall be open during business hours for`
+  line `inspection by any person on payment of such fee as may be prescribed.`
+  line
+  line `(2) The Central Register referred to in sub-section (2) of section 19 maintained in electronic form,`
+  line `shall also be open during the business hours or such extended hours as may be specified by the Central`
+  line `Registry for inspection by any person through electronic media on payment of such fee as may be`
+  line prescribed.
+  line
+  line `(3) The provisions for maintenance of Central Register and public inspection thereof contained in the`
+  line `Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002`
+  line `(54 of 2002) and the rules made thereunder shall, mutatis mutandis, apply.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 4820)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str Penalties.)
-  (str content) (str `^1[21. Penalties.-- If a default is made in filing under section 19, the particulars of any transaction of
-assignment of receivables and realisation of receivables by a factor, such company and every officer of
-the company who is in default shall be liable to penalty which may extend to five lakh rupees and in the
-case of a continuing offence, with an additional penalty which may extend to ten thousand rupees for
-every day during which the default continues, to be imposed by the Reserve Bank in accordance with the
-provisions of subsections (2) to (4) of section 22.]`)
-  (str footnotes) (str `1. Ins. by Act 18 of 2023, s. 2 and Schedule, for sections 21 and 22 (w.e.f. 22-01-2024).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4820&sectionno=21&orderno=21&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4820)
+  sectionNo (21)
+  orderNo 21
+  title Penalties.
+  content obj_root_law_sections_21_content
+  footnotes `1. Ins. by Act 18 of 2023, s. 2 and Schedule, for sections 21 and 22 (w.e.f. 22-01-2024).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4820&sectionno=21&orderno=21&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_21_content:
+  string
+  line `^1[21. Penalties.-- If a default is made in filing under section 19, the particulars of any transaction of`
+  line `assignment of receivables and realisation of receivables by a factor, such company and every officer of`
+  line `the company who is in default shall be liable to penalty which may extend to five lakh rupees and in the`
+  line `case of a continuing offence, with an additional penalty which may extend to ten thousand rupees for`
+  line `every day during which the default continues, to be imposed by the Reserve Bank in accordance with the`
+  line `provisions of subsections (2) to (4) of section 22.]`
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 4821)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Penalties for non-compliance of direction of Reserve Bank.`)
-  (str content) (str `^1[22. Penalties for non-compliance of direction by Reserve Bank.—(1) If any factor fails to comply
-with any direction issued by the Reserve Bank under section 6, the Reserve Bank may impose a penalty
-which may extend to five lakh rupees and in the case of a continuing offence, with an additional fine
-which may extend to ten thousand rupees for every day during which the default continues.
-
-(2) For the purpose of adjudging the penalty under sub-section (1), the Reserve Bank shall serve
-notice on the factor requiring it to show cause why the amount specified in the notice should not be
-imposed and a reasonable opportunity of being heard shall also be given to such factor.
-
-(3) Any penalty imposed by the Reserve Bank under this section shall be payable within a period of
-fourteen days from the date on which notice issued by the Reserve Bank demanding payment of the sum
-is served on the factor and in the event of failure of the factor to pay the sum within such period, may be
-levied on a direction made by the principal civil court having jurisdiction in the area where the registered
-office of the factor is situated; or, in the case of a factor incorporated outside India, where its principal
-place of business in India is situated:
-
-Provided that no such direction shall be made except on an application made to the court by the
-Reserve Bank or any officer authorised by Reserve Bank in this behalf.
-
-(4) The court which makes a direction under sub-section (3) shall issue a certificate specifying the
-sum payable by the factor and every such certificate shall be enforceable in the same manner as if it were
-a decree made by the court in a civil suit.]`)
-  (str footnotes) (str `1. Ins. by Act 18 of 2023, s. 2 and Schedule, for sections 21 and 22 (w.e.f. 22-01-2024).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4821&sectionno=22&orderno=22&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4821)
+  sectionNo (22)
+  orderNo 22
+  title `Penalties for non-compliance of direction of Reserve Bank.`
+  content obj_root_law_sections_22_content
+  footnotes `1. Ins. by Act 18 of 2023, s. 2 and Schedule, for sections 21 and 22 (w.e.f. 22-01-2024).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4821&sectionno=22&orderno=22&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_22_content:
+  string
+  line `^1[22. Penalties for non-compliance of direction by Reserve Bank.—(1) If any factor fails to comply`
+  line `with any direction issued by the Reserve Bank under section 6, the Reserve Bank may impose a penalty`
+  line `which may extend to five lakh rupees and in the case of a continuing offence, with an additional fine`
+  line `which may extend to ten thousand rupees for every day during which the default continues.`
+  line
+  line `(2) For the purpose of adjudging the penalty under sub-section (1), the Reserve Bank shall serve`
+  line `notice on the factor requiring it to show cause why the amount specified in the notice should not be`
+  line `imposed and a reasonable opportunity of being heard shall also be given to such factor.`
+  line
+  line `(3) Any penalty imposed by the Reserve Bank under this section shall be payable within a period of`
+  line `fourteen days from the date on which notice issued by the Reserve Bank demanding payment of the sum`
+  line `is served on the factor and in the event of failure of the factor to pay the sum within such period, may be`
+  line `levied on a direction made by the principal civil court having jurisdiction in the area where the registered`
+  line `office of the factor is situated; or, in the case of a factor incorporated outside India, where its principal`
+  line `place of business in India is situated:`
+  line
+  line `Provided that no such direction shall be made except on an application made to the court by the`
+  line `Reserve Bank or any officer authorised by Reserve Bank in this behalf.`
+  line
+  line `(4) The court which makes a direction under sub-section (3) shall issue a certificate specifying the`
+  line `sum payable by the factor and every such certificate shall be enforceable in the same manner as if it were`
+  line `a decree made by the court in a civil suit.]`
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 4822)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str Offences.)
-  (str content) (str `If any person contravenes or attempts to contravene or abets the contravention of the
-provisions of this Act or of any rules made thereunder, for which no specific penalty has been provided
-for, he shall be punishable with imprisonment for a term which may extend to one year, or with fine, or
-with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4822&sectionno=23&orderno=23&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4822)
+  sectionNo (23)
+  orderNo 23
+  title Offences.
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4822&sectionno=23&orderno=23&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_23_content:
+  string
+  line `If any person contravenes or attempts to contravene or abets the contravention of the`
+  line `provisions of this Act or of any rules made thereunder, for which no specific penalty has been provided`
+  line `for, he shall be punishable with imprisonment for a term which may extend to one year, or with fine, or`
+  line `with both.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 4823)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Cognizance of offences.`)
-  (str content) (str `(1) No Court shall take cognizance of any offence punishable under
-this Act except upon a complaint in writing made by an officer of the Reserve Bank, generally or
-specially authorised in writing in this behalf by the Reserve Bank.
-
-(2) No Court other than that of a Metropolitan Magistrate or a Judicial Magistrate of the first class or
-a court superior thereto shall try any such offence punishable under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4823&sectionno=24&orderno=24&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4823)
+  sectionNo (24)
+  orderNo 24
+  title `Cognizance of offences.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4823&sectionno=24&orderno=24&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_24_content:
+  string
+  line `(1) No Court shall take cognizance of any offence punishable under`
+  line `this Act except upon a complaint in writing made by an officer of the Reserve Bank, generally or`
+  line `specially authorised in writing in this behalf by the Reserve Bank.`
+  line
+  line `(2) No Court other than that of a Metropolitan Magistrate or a Judicial Magistrate of the first class or`
+  line `a court superior thereto shall try any such offence punishable under this Act.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 4824)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Offences by factors.`)
-  (str content) (str `(1) Where an offence under this Act has been committed by a factor, every
-person who at the time the offence was committed was in charge of, and was responsible to, the factor, for
-the conduct of the business of the factor, as well as the factor, shall be deemed to be guilty of the offence
-and shall be liable to be proceeded against and punished accordingly:
-
-Provided that nothing contained in this sub-section shall render any such person liable to any
-punishment provided in this Act, if he proves that the offence was committed without his knowledge or
-that he has exercised all due diligence to prevent the commission of such offence.
-
-(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been
-committed by a factor and it is proved that the offence has been committed with the consent or
-connivance of, or is attributable to, any neglect on the part of any director, manager, secretary or other
-officer of the factor, such director, manager, secretary or other officer shall also be deemed to be guilty of
-the offence and shall be liable to be proceeded against and punished accordingly.
-
-Explanation.—For the purpose of this section, a "director", in relation to a factor means any officer
-entrusted with the management of the whole or substantially the affairs of the factor.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4824&sectionno=25&orderno=25&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4824)
+  sectionNo (25)
+  orderNo 25
+  title `Offences by factors.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4824&sectionno=25&orderno=25&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_25_content:
+  string
+  line `(1) Where an offence under this Act has been committed by a factor, every`
+  line `person who at the time the offence was committed was in charge of, and was responsible to, the factor, for`
+  line `the conduct of the business of the factor, as well as the factor, shall be deemed to be guilty of the offence`
+  line `and shall be liable to be proceeded against and punished accordingly:`
+  line
+  line `Provided that nothing contained in this sub-section shall render any such person liable to any`
+  line `punishment provided in this Act, if he proves that the offence was committed without his knowledge or`
+  line `that he has exercised all due diligence to prevent the commission of such offence.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been`
+  line `committed by a factor and it is proved that the offence has been committed with the consent or`
+  line `connivance of, or is attributable to, any neglect on the part of any director, manager, secretary or other`
+  line `officer of the factor, such director, manager, secretary or other officer shall also be deemed to be guilty of`
+  line `the offence and shall be liable to be proceeded against and punished accordingly.`
+  line
+  line `Explanation.—For the purpose of this section, a "director", in relation to a factor means any officer`
+  line `entrusted with the management of the whole or substantially the affairs of the factor.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 4825)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Provisions of this Act to override other laws.`)
-  (str content) (str `The provisions of this Act shall have effect,
-notwithstanding anything inconsistent therewith contained in any other law for the time being in force or
-any instrument having effect by virtue of any such law.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4825&sectionno=26&orderno=26&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4825)
+  sectionNo (26)
+  orderNo 26
+  title `Provisions of this Act to override other laws.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4825&sectionno=26&orderno=26&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_26_content:
+  string
+  line `The provisions of this Act shall have effect,`
+  line `notwithstanding anything inconsistent therewith contained in any other law for the time being in force or`
+  line `any instrument having effect by virtue of any such law.`
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 4826)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Application of other laws not barred.`)
-  (str content) (str `The provisions of this Act or the rules made thereunder
-shall be in addition to and not in derogation of the Negotiable Instruments Act, 1881 (26 of 1881), the
-Transfer of Property Act, 1882 (4 of 1882), the Reserve Bank of India Act, 1934 (2 of 1934), the Banking
-Regulation Act, 1949 (10 of 1949), the Companies Act, 1956 (1 of 1956), the Securitisation and
-Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002), the
-Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006) or any other law for the time
-being in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4826&sectionno=27&orderno=27&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4826)
+  sectionNo (27)
+  orderNo 27
+  title `Application of other laws not barred.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4826&sectionno=27&orderno=27&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_27_content:
+  string
+  line `The provisions of this Act or the rules made thereunder`
+  line `shall be in addition to and not in derogation of the Negotiable Instruments Act, 1881 (26 of 1881), the`
+  line `Transfer of Property Act, 1882 (4 of 1882), the Reserve Bank of India Act, 1934 (2 of 1934), the Banking`
+  line `Regulation Act, 1949 (10 of 1949), the Companies Act, 1956 (1 of 1956), the Securitisation and`
+  line `Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (54 of 2002), the`
+  line `Micro, Small and Medium Enterprises Development Act, 2006 (27 of 2006) or any other law for the time`
+  line `being in force.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 4827)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str Limitation.)
-  (str content) (str `No assignee of any receivable shall be entitled to take any measures for recovery of
-any assigned receivable, through any court or Tribunal unless his claim in respect of the receivable is
-made within the period of limitation specified under the Limitation Act, 1963 (36 of 1963).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4827&sectionno=28&orderno=28&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4827)
+  sectionNo (28)
+  orderNo 28
+  title Limitation.
+  content obj_root_law_sections_28_content
+  footnotes obj_root_law_sections_28_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4827&sectionno=28&orderno=28&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_28_content:
+  string
+  line `No assignee of any receivable shall be entitled to take any measures for recovery of`
+  line `any assigned receivable, through any court or Tribunal unless his claim in respect of the receivable is`
+  line `made within the period of limitation specified under the Limitation Act, 1963 (36 of 1963).`
+obj_root_law_sections_28_footnotes:
+  string
+  line
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 4828)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Confidentiality of information.`)
-  (str content) (str `Save as otherwise provided in this Act, or unless required to
-do so by an order passed by any Court or Tribunal or any other statutory authority under any provision of
-law for the time being in force or for the purpose of recovery of the receivable, a factor shall maintain
-confidentiality and shall not disclose to any person information obtained by it from, any assignor, its
-present and future customers, its commercial and business activities and the terms of sale between the
-assignor and any debtor and other detail about the assignor.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4828&sectionno=29&orderno=29&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4828)
+  sectionNo (29)
+  orderNo 29
+  title `Confidentiality of information.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4828&sectionno=29&orderno=29&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_29_content:
+  string
+  line `Save as otherwise provided in this Act, or unless required to`
+  line `do so by an order passed by any Court or Tribunal or any other statutory authority under any provision of`
+  line `law for the time being in force or for the purpose of recovery of the receivable, a factor shall maintain`
+  line `confidentiality and shall not disclose to any person information obtained by it from, any assignor, its`
+  line `present and future customers, its commercial and business activities and the terms of sale between the`
+  line `assignor and any debtor and other detail about the assignor.`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 4829)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str `Power to exempt.`)
-  (str content) (str `(1) The Central Government may, by notification in the public interest, direct
-that any of the provisions of this Act,
-
-(a) shall not apply to such class or classes of banks or a company or a factor; or
-
-(b) shall apply to the such class or classes of banks or a company or a factor with such exceptions,
-modifications and adaptations as may be specified in the notification.
-
-(2) A copy of every notification issued under sub-section (1), shall be laid before each House of
-Parliament, while it is in session, for a total period of thirty days which may be comprised in one session
-or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the
-notification or both the Houses agree that the notification shall not be issued or, the notification shall have
-effect only in such modified form or be of no effect, as the case may be; so, however, that any such
-modification or annulment shall be without prejudice to the validity of anything previously done under
-the notification.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4829&sectionno=30&orderno=30&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4829)
+  sectionNo (30)
+  orderNo 30
+  title `Power to exempt.`
+  content obj_root_law_sections_30_content
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4829&sectionno=30&orderno=30&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_30_content:
+  string
+  line `(1) The Central Government may, by notification in the public interest, direct`
+  line `that any of the provisions of this Act,`
+  line
+  line `(a) shall not apply to such class or classes of banks or a company or a factor; or`
+  line
+  line `(b) shall apply to the such class or classes of banks or a company or a factor with such exceptions,`
+  line `modifications and adaptations as may be specified in the notification.`
+  line
+  line `(2) A copy of every notification issued under sub-section (1), shall be laid before each House of`
+  line `Parliament, while it is in session, for a total period of thirty days which may be comprised in one session`
+  line `or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the`
+  line `notification or both the Houses agree that the notification shall not be issued or, the notification shall have`
+  line `effect only in such modified form or be of no effect, as the case may be; so, however, that any such`
+  line `modification or annulment shall be without prejudice to the validity of anything previously done under`
+  line `the notification.`
+obj_root_law_sections_30_footnotes:
+  string
+  line
 obj_root_law_sections_31:
-  object
-  (str sectionId) (str 4830)
-  (str sectionNo) (str 31)
-  (str orderNo) (int 31)
-  (str title) (str `Provisions of this Act not to apply or affect in certain cases.`)
-  (str content) (str `(1) The provisions of this Act
-shall not apply to any assignment of receivables arising under or from the following transactions,
-namely:—
-
-(a) any merger, acquisition or amalgamation of business activities or sale or change in the
-ownership or legal status of the business;
-
-(b) transactions on any stock exchange or commodities exchange regulated by the Securities and
-Exchange Board of India constituted under the provisions of the Securities and Exchange Board of
-India Act, 1992(15 of 1992) or by the Forward Markets Commission under the Forward Contracts
-(Regulation) Act, 1952 (74 of 1952), respectively;
-
-(c) financial contracts governed by netting agreements, except a receivable owed on the
-termination of all outstanding transactions;
-
-(d) foreign exchange transactions except receivables in any foreign currency;
-
-(e) inter-bank payment systems, inter-bank payment agreements or clearance and settlement
-systems relating to securities or other financial assets or instruments;
-
-(f) bank deposits;
-
-(g) a letter of credit or independent guarantee;
-
-(h) rights and obligations of any person under the law governing negotiable instruments,
-negotiable warehouse receipts under the Warehousing (Development and Regulation) Act, 2007
-(37 of 2007) or to instruments which are for the time being, by law or custom negotiable or any
-mercantile document of title to goods;
-
-(i) sale of goods or services for any personal, family or household use;
-
-(j) any assignment of loan receivables by a bank or non-banking financial company to another
-bank or non-banking financial company;
-
-(k) securitisation transactions (including assignment of receivables to special purpose vehicles or
-trusts that issue securities against such receivables, bought from a single debtor or single group of
-debtors).
-
-(2) Nothing contained in this Act shall affect the rights and obligations of a consumer, manufacturer,
-trader or service provider under the provisions of the Consumer Protection Act, 1986 (68 of 1986).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4830&sectionno=31&orderno=31&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4830)
+  sectionNo (31)
+  orderNo 31
+  title `Provisions of this Act not to apply or affect in certain cases.`
+  content obj_root_law_sections_31_content
+  footnotes obj_root_law_sections_31_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4830&sectionno=31&orderno=31&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_31_content:
+  string
+  line `(1) The provisions of this Act`
+  line `shall not apply to any assignment of receivables arising under or from the following transactions,`
+  line `namely:—`
+  line
+  line `(a) any merger, acquisition or amalgamation of business activities or sale or change in the`
+  line `ownership or legal status of the business;`
+  line
+  line `(b) transactions on any stock exchange or commodities exchange regulated by the Securities and`
+  line `Exchange Board of India constituted under the provisions of the Securities and Exchange Board of`
+  line `India Act, 1992(15 of 1992) or by the Forward Markets Commission under the Forward Contracts`
+  line `(Regulation) Act, 1952 (74 of 1952), respectively;`
+  line
+  line `(c) financial contracts governed by netting agreements, except a receivable owed on the`
+  line `termination of all outstanding transactions;`
+  line
+  line `(d) foreign exchange transactions except receivables in any foreign currency;`
+  line
+  line `(e) inter-bank payment systems, inter-bank payment agreements or clearance and settlement`
+  line `systems relating to securities or other financial assets or instruments;`
+  line
+  line `(f) bank deposits;`
+  line
+  line `(g) a letter of credit or independent guarantee;`
+  line
+  line `(h) rights and obligations of any person under the law governing negotiable instruments,`
+  line `negotiable warehouse receipts under the Warehousing (Development and Regulation) Act, 2007`
+  line `(37 of 2007) or to instruments which are for the time being, by law or custom negotiable or any`
+  line `mercantile document of title to goods;`
+  line
+  line `(i) sale of goods or services for any personal, family or household use;`
+  line
+  line `(j) any assignment of loan receivables by a bank or non-banking financial company to another`
+  line `bank or non-banking financial company;`
+  line
+  line `(k) securitisation transactions (including assignment of receivables to special purpose vehicles or`
+  line `trusts that issue securities against such receivables, bought from a single debtor or single group of`
+  line `debtors).`
+  line
+  line `(2) Nothing contained in this Act shall affect the rights and obligations of a consumer, manufacturer,`
+  line `trader or service provider under the provisions of the Consumer Protection Act, 1986 (68 of 1986).`
+obj_root_law_sections_31_footnotes:
+  string
+  line
 obj_root_law_sections_31_a:
-  object
-  (str sectionId) (str 57392)
-  (str sectionNo) (str 31A)
-  (str orderNo) (int 32)
-  (str title) (str `Power to make regulations.`)
-  (str content) (str `^1
-[31A. Power to make regulations.--(1) The Reserve Bank may, by notification, make regulations
-consistent with this Act to carry out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may
-provide for all or any of the following matters, namely:--
-
-(a) the manner of granting certificate of registration under sub-section (4) of section 3;
-
-(b) the manner of filling of particulars of transactions with the Central Registry on behalf of
-factors under sub-section (1A) of section 19;
-
-(c) any other matter which is required to be, or may be, specified by regulations.
-
-(3) Every regulation shall, as soon as may be after it is made by the Reserve Bank, be forwarded to
-the Central Government and ^2
-[that Government shall cause a copy of the same to be laid before each
-House of Parliament, while it is in session, for a total period of thirty days which may be comprised in
-one session or in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid, both Houses agree in making any modification
-in the regulation, or both Houses agree that the regulation should not be made, the regulation shall,]`)
-  (str footnotes) (str `1. Ins. by Act 21 of 2021, s. 5 (w.e.f. 23-8-2021).
-
-2. Subs. by Act 37 of 2023, s. 3 and the third Schedule, for "that Central Government" (w.e.f. 17-12-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=57392&sectionno=31A&orderno=32&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (57392)
+  sectionNo 31A
+  orderNo 32
+  title `Power to make regulations.`
+  content obj_root_law_sections_31_a_content
+  footnotes obj_root_law_sections_31_a_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=57392&sectionno=31A&orderno=32&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_31_a_content:
+  string
+  line ^1
+  line `[31A. Power to make regulations.--(1) The Reserve Bank may, by notification, make regulations`
+  line `consistent with this Act to carry out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the manner of granting certificate of registration under sub-section (4) of section 3;`
+  line
+  line `(b) the manner of filling of particulars of transactions with the Central Registry on behalf of`
+  line `factors under sub-section (1A) of section 19;`
+  line
+  line `(c) any other matter which is required to be, or may be, specified by regulations.`
+  line
+  line `(3) Every regulation shall, as soon as may be after it is made by the Reserve Bank, be forwarded to`
+  line `the Central Government and ^2`
+  line `[that Government shall cause a copy of the same to be laid before each`
+  line `House of Parliament, while it is in session, for a total period of thirty days which may be comprised in`
+  line `one session or in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid, both Houses agree in making any modification`
+  line `in the regulation, or both Houses agree that the regulation should not be made, the regulation shall,]`
+obj_root_law_sections_31_a_footnotes:
+  string
+  line `1. Ins. by Act 21 of 2021, s. 5 (w.e.f. 23-8-2021).`
+  line
+  line `2. Subs. by Act 37 of 2023, s. 3 and the third Schedule, for "that Central Government" (w.e.f. 17-12-2023).`
 obj_root_law_sections_32:
-  object
-  (str sectionId) (str 4831)
-  (str sectionNo) (str 32)
-  (str orderNo) (int 33)
-  (str title) (str `Power of Central Government to make rules.`)
-  (str content) (str `(1) The Central Government may, in
-consultation with the Reserve Bank, by notification and in the Electronic Gazette as defined in clause (5)
-of sub-section (1) of section 2 of the Information Technology Act, 2000 (21 of 2000) make rules for
-carrying out the provisions of this Act.
-
-(2) In particular and without prejudice to the generality of the foregoing power such rules may
-provide for all or any of the following matters, namely:
-
-(a) ^1[the time within which, the form and manner] in which the transactions of assignment of receivables in favour of a
-factor shall be filed and the fee for filing such transaction under sub-section (1) of section 19;
-
-(b) the form and manner in which the satisfaction of assignment of receivable or settlement of the
-claim shall be registered and the fee for filing such transactions under sub-section (3) of section 19;
-
-(c) fee for inspecting the Central Register under section 20; and
-
-(d) any other matter which is required to be or may be prescribed, in respect of which provision is
-to be made or may be made by rules.`)
-  (str footnotes) (str `1.Subs. by Act 21 of 2021, s. 6, for “the form and manner” (w.e.f. 23-8-2021).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4831&sectionno=32&orderno=33&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4831)
+  sectionNo (32)
+  orderNo 33
+  title `Power of Central Government to make rules.`
+  content obj_root_law_sections_32_content
+  footnotes `1.Subs. by Act 21 of 2021, s. 6, for “the form and manner” (w.e.f. 23-8-2021).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4831&sectionno=32&orderno=33&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_32_content:
+  string
+  line `(1) The Central Government may, in`
+  line `consultation with the Reserve Bank, by notification and in the Electronic Gazette as defined in clause (5)`
+  line `of sub-section (1) of section 2 of the Information Technology Act, 2000 (21 of 2000) make rules for`
+  line `carrying out the provisions of this Act.`
+  line
+  line `(2) In particular and without prejudice to the generality of the foregoing power such rules may`
+  line `provide for all or any of the following matters, namely:`
+  line
+  line `(a) ^1[the time within which, the form and manner] in which the transactions of assignment of receivables in favour of a`
+  line `factor shall be filed and the fee for filing such transaction under sub-section (1) of section 19;`
+  line
+  line `(b) the form and manner in which the satisfaction of assignment of receivable or settlement of the`
+  line `claim shall be registered and the fee for filing such transactions under sub-section (3) of section 19;`
+  line
+  line `(c) fee for inspecting the Central Register under section 20; and`
+  line
+  line `(d) any other matter which is required to be or may be prescribed, in respect of which provision is`
+  line `to be made or may be made by rules.`
 obj_root_law_sections_33:
-  object
-  (str sectionId) (str 4832)
-  (str sectionNo) (str 33)
-  (str orderNo) (int 34)
-  (str title) (str `Laying of rules.`)
-  (str content) (str `Every rule made under this Act shall be laid, as soon as may be after it is
-made, before each House of Parliament, while it is in session, for a total period of thirty days which may
-be comprised in one session or in two or more successive sessions, and if, before the expiry of the session
-immediately following the session or the successive sessions aforesaid, both Houses agree in making any
-modification in the rule or both Houses agree that the rule should not be made, the rule shall thereafter
-have effect only in such modified form or be of no effect, as the case may be; so, however, that any such
-modification or annulment shall be without prejudice to the validity of anything previously done under
-that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4832&sectionno=33&orderno=34&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4832)
+  sectionNo (33)
+  orderNo 34
+  title `Laying of rules.`
+  content obj_root_law_sections_33_content
+  footnotes obj_root_law_sections_33_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4832&sectionno=33&orderno=34&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_33_content:
+  string
+  line `Every rule made under this Act shall be laid, as soon as may be after it is`
+  line `made, before each House of Parliament, while it is in session, for a total period of thirty days which may`
+  line `be comprised in one session or in two or more successive sessions, and if, before the expiry of the session`
+  line `immediately following the session or the successive sessions aforesaid, both Houses agree in making any`
+  line `modification in the rule or both Houses agree that the rule should not be made, the rule shall thereafter`
+  line `have effect only in such modified form or be of no effect, as the case may be; so, however, that any such`
+  line `modification or annulment shall be without prejudice to the validity of anything previously done under`
+  line `that rule.`
+obj_root_law_sections_33_footnotes:
+  string
+  line
 obj_root_law_sections_34:
-  object
-  (str sectionId) (str 4833)
-  (str sectionNo) (str 34)
-  (str orderNo) (int 35)
-  (str title) (str `Power to remove difficulties.`)
-  (str content) (str `(1) If any difficulty arises in giving effect to the provisions of
-this Act, the Central Government may, by order published in Official Gazette, make such provisions not
-inconsistent with the provisions of this Act, as may appear to be necessary for removing the difficulty:
-
-Provided that no order shall be made under this section after the expiry of a period of two years from
-the commencement of this Act.
-
-(2) Every order made under this section shall be laid, as soon as may be, after it is made, before each
-House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4833&sectionno=34&orderno=35&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4833)
+  sectionNo (34)
+  orderNo 35
+  title `Power to remove difficulties.`
+  content obj_root_law_sections_34_content
+  footnotes obj_root_law_sections_34_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4833&sectionno=34&orderno=35&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_34_content:
+  string
+  line `(1) If any difficulty arises in giving effect to the provisions of`
+  line `this Act, the Central Government may, by order published in Official Gazette, make such provisions not`
+  line `inconsistent with the provisions of this Act, as may appear to be necessary for removing the difficulty:`
+  line
+  line `Provided that no order shall be made under this section after the expiry of a period of two years from`
+  line `the commencement of this Act.`
+  line
+  line `(2) Every order made under this section shall be laid, as soon as may be, after it is made, before each`
+  line `House of Parliament.`
+obj_root_law_sections_34_footnotes:
+  string
+  line
 obj_root_law_sections_35:
-  object
-  (str sectionId) (str 4834)
-  (str sectionNo) (str 35)
-  (str orderNo) (int 36)
-  (str title) (str `Amendments to certain enactments.`)
-  (str content) (str `The enactments specified in the Schedule shall be
-amended in the manner specified therein.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4834&sectionno=35&orderno=36&orgactid=AC_CEN_2_33_00006_201212_1517807327606)
+  sectionId (4834)
+  sectionNo (35)
+  orderNo 36
+  title `Amendments to certain enactments.`
+  content obj_root_law_sections_35_content
+  footnotes obj_root_law_sections_35_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_33_00006_201212_1517807327606&sectionId=4834&sectionno=35&orderno=36&orgactid=AC_CEN_2_33_00006_201212_1517807327606
+obj_root_law_sections_35_content:
+  string
+  line `The enactments specified in the Schedule shall be`
+  line `amended in the manner specified therein.`
+obj_root_law_sections_35_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `फैक्टरिंग विनियमन अधिनियम, 2011`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2116/3/H2012-12.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:17:00.150Z`)
-  (str pageCount) (int 13)
-  (str sections) obj_root_law_translations_hi_sections
+  title `फैक्टरिंग विनियमन अधिनियम, 2011`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2116/3/H2012-12.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:17:00.150Z`
+  pageCount 13
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -982,621 +1150,686 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_12
   obj_root_law_translations_hi_sections_13
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `फेक्ट रविवियमिअविवियम, 2011
-_________
-िाराओंकाक्रम
-_________
-िाराएं
-अध्या य 1 प्र
-ा र वि क
-1. संविप्त िाम,विस्ता रऔरप्रारंि।
-2. पररिाषाएं।
-अध्या य 2
-फेक्ट रोंकारविस्री करण
-3. फेक्ट रोंकारविस्री करण।
-4. गैर - बैंककारीवित्तीयकंपवियोंके उपबंिोंकाफेक्ट रकोलागूहोिा।
-5. ककसीफेक्ट रकेरूपमेंरविस्री करणकीअपेिाकाबैंकयाकािूिीविगमयासरकारीकंपिीको लागूिहोिा।
-6. ररििवबैंककीफेक्ट रोंकोविदेशदेिेऔरसूचिासंगृहीतकरिेकीशवक्त यां।
-अध्या य 3 प्र
-ाप्त व् यों कासमिुदे शि
-7. प्र ाप्त व् यों कासमिुदेशि।
-8. देिदारकोसूचिाऔरऐसेदेिदारकीबाध्य ताकाउन्मो चि।
-9. समिुदेवशतीकोसंदायकरकदएिािेपरदेिदारकेदावयत्ि काउन्मो चि।
-10. देिदारद्वारासमिुदेशककोककएगएसंदायकवतपयमामलोंमेंसमिुदेवशतीकेफायदेकेवलएन्या सकेरूपमेंिाररत
-ककयािािा।
-अध्या य 4 प्र
-ाप्त व् यों केसमिुदेशिकेवलएसंविदाकेपिकारोंकेअविकारऔरबाध्य ताएं
-11. प्र ाप्त व् यों केसमिुदेशिकेवलएसंविदाकेपिकारोंकेअविकारऔरबाध्य ताएं।
-12. देिदारकादावयत्ि।
-13. समिुदेशककासमिुदेवशती कान्या सीहोिा।
-14. ऐसेसमिुदेशककीदशामें,िोसूक्ष्म यालघुउद्यमहै,देिदारकादावयत्ि।
-15. देिदारसंरिणकावसद्ांत।
-16. बचािऔरदेिदारकामुिरासंबंिीअविकार।
-17. मूलसंविदाकाउपांतरण।
-18. संविदाकािंग।
-अध्या य 5
-समिुदेशिोंकारविस्री करण
-19. प्र ाप्त व् य संव्य िहारोंकेकवतपयसमिुदेशिोंकारविस्री करण।
-20. लोकविरीिण।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `फेक्ट रविवियमिअविवियम, 2011`
+  line _________
+  line िाराओंकाक्रम
+  line _________
+  line िाराएं
+  line `अध्या य 1 प्र`
+  line `ा र वि क`
+  line `1. संविप्त िाम,विस्ता रऔरप्रारंि।`
+  line `2. पररिाषाएं।`
+  line `अध्या य 2`
+  line `फेक्ट रोंकारविस्री करण`
+  line `3. फेक्ट रोंकारविस्री करण।`
+  line `4. गैर - बैंककारीवित्तीयकंपवियोंके उपबंिोंकाफेक्ट रकोलागूहोिा।`
+  line `5. ककसीफेक्ट रकेरूपमेंरविस्री करणकीअपेिाकाबैंकयाकािूिीविगमयासरकारीकंपिीको लागूिहोिा।`
+  line `6. ररििवबैंककीफेक्ट रोंकोविदेशदेिेऔरसूचिासंगृहीतकरिेकीशवक्त यां।`
+  line `अध्या य 3 प्र`
+  line `ाप्त व् यों कासमिुदे शि`
+  line `7. प्र ाप्त व् यों कासमिुदेशि।`
+  line `8. देिदारकोसूचिाऔरऐसेदेिदारकीबाध्य ताकाउन्मो चि।`
+  line `9. समिुदेवशतीकोसंदायकरकदएिािेपरदेिदारकेदावयत्ि काउन्मो चि।`
+  line `10. देिदारद्वारासमिुदेशककोककएगएसंदायकवतपयमामलोंमेंसमिुदेवशतीकेफायदेकेवलएन्या सकेरूपमेंिाररत`
+  line ककयािािा।
+  line `अध्या य 4 प्र`
+  line `ाप्त व् यों केसमिुदेशिकेवलएसंविदाकेपिकारोंकेअविकारऔरबाध्य ताएं`
+  line `11. प्र ाप्त व् यों केसमिुदेशिकेवलएसंविदाकेपिकारोंकेअविकारऔरबाध्य ताएं।`
+  line `12. देिदारकादावयत्ि।`
+  line `13. समिुदेशककासमिुदेवशती कान्या सीहोिा।`
+  line `14. ऐसेसमिुदेशककीदशामें,िोसूक्ष्म यालघुउद्यमहै,देिदारकादावयत्ि।`
+  line `15. देिदारसंरिणकावसद्ांत।`
+  line `16. बचािऔरदेिदारकामुिरासंबंिीअविकार।`
+  line `17. मूलसंविदाकाउपांतरण।`
+  line `18. संविदाकािंग।`
+  line `अध्या य 5`
+  line `समिुदेशिोंकारविस्री करण`
+  line `19. प्र ाप्त व् य संव्य िहारोंकेकवतपयसमिुदेशिोंकारविस्री करण।`
+  line `20. लोकविरीिण।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `ii
-िाराएं
-अध्या य 6
-अपरािऔरशावस्त यां
-21. शावस्त यां।
-22. ररििवबैंककेविदेशकाअिुपालििकरिेकेवलएशावस्त।
-23. अपराि।
-24. अपरािोंकासंज्ञाि।
-25. फेक्ट रों द्व ाराअपराि।
-अध्या य 7 प्र
-कीणव
-26. इसअविवियमकेउपबंिोंकाअन्य विवियोंपरअध्या रोहीप्रिािहोिा।
-27. अन्य विवियोंकेलागूहोिेकािर्िवतिहोिा।
-28. पररसीमा।
-29. सूचिाकीगोपिीयता।
-30. छूटदेिेकीशवक्त।
-31. कवतपयमामलोंमेंइसअविवियमके उपबंिोंकालागूयाप्रिािीिहोिा।
-32. वियमबिािेकीकेन्री यसरकारकीशवक्त।
-33. वियमोंकारखािािा।
-34. करििाइयोंकोदूरकरिेकीशवक्त।
-35. कवतपयअविवियवमवतयोंकासंशोिि।
-अिुसूची।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line ii
+  line िाराएं
+  line `अध्या य 6`
+  line `अपरािऔरशावस्त यां`
+  line `21. शावस्त यां।`
+  line `22. ररििवबैंककेविदेशकाअिुपालििकरिेकेवलएशावस्त।`
+  line `23. अपराि।`
+  line `24. अपरािोंकासंज्ञाि।`
+  line `25. फेक्ट रों द्व ाराअपराि।`
+  line `अध्या य 7 प्र`
+  line कीणव
+  line `26. इसअविवियमकेउपबंिोंकाअन्य विवियोंपरअध्या रोहीप्रिािहोिा।`
+  line `27. अन्य विवियोंकेलागूहोिेकािर्िवतिहोिा।`
+  line `28. पररसीमा।`
+  line `29. सूचिाकीगोपिीयता।`
+  line `30. छूटदेिेकीशवक्त।`
+  line `31. कवतपयमामलोंमेंइसअविवियमके उपबंिोंकालागूयाप्रिािीिहोिा।`
+  line `32. वियमबिािेकीकेन्री यसरकारकीशवक्त।`
+  line `33. वियमोंकारखािािा।`
+  line `34. करििाइयोंकोदूरकरिेकीशवक्त।`
+  line `35. कवतपयअविवियवमवतयोंकासंशोिि।`
+  line अिुसूची।
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `फेक्ट रविवियम ि अविवियम, 201 1
-(2012 काअविवियमसंखयां क 12 )
-[ 22 िििरी, 201 2 ] प्र
-ाप्त व् यों केसमिुदेशिकेरविस्री करणऔरप्राप्त व् यों कासमिुदेशिककएिािेसंबंिीसंविदा
-केपिकारोंकेअविकारोंऔरबाध्य ताओंकेवलएउपबंिकरकेप्राप्त व् यों के
-समिुदेशितथाउससेसंबंवितयाउसकेआिुषंवगक
-विषयोंकाउपबंि औरविवियमि
-करिेकेवलए
-अवि वियम
-िारत गणराज्य के बा सििेंिषवमेंसंसद्द्वाराविि वलवखतरूपमेंयह अविवियवमतहो: ––
-अध्या य 1 प्र
-ा र वि क
-1. सं वि प् त िाम,विस्ता रऔरप्रारंि – – (1) इसअविवियमकासंविप्त िाम फेक्ट रविवियम ि अविवियम, 201 1 है।
-(2) इसकाविस्ता रसं पूणविारतपरहै।
-( 3 ) यहउसतारीखकोप्रिृत्तहोगा,िोकेंरीयसरकार,रािपत्रमेंअविसूचिाद्वारा,वियतकरे:
-परंतुइसअविवियमकेविन्ि - विन्ि उपबंिोंकेवलएविन्ि - विन्ि तारीखें वियतकीिासकेंगीऔरऐसेककसी उपबंिमेंइस
-अविवियमकेप्रारंिकेप्रवतककसी विदेशकायहअथवलगायािाएगाककिहउसउपबंिकेप्रिृत्तहोिेकेप्रवतविदेश है।
-2. पररिाषाएं – – इसअविवियममें,िबतकककसंदिवमेंअन्य थाअपेवितिहो, ––
-( क ) “ समिुदेशि ” 1 [ ककसीफेक्टरकोककसीदेिदारसेशोध्यप्राप्योंमेंककसीसमिुदेशककेककसीअवििा वितवहत
-का,पूणवतःयािागतः,करारद्वाराअन्तरणअविप्रेतहैऔरिहांयातोसमुिदेशकयादेिदारिारतकेबाहरअिवस्थतया स्
-थावपतहै,िहांइसकेअऩ्तगवतऐसाअन्तरणिीहै;] स्
-प ष् टी करण –– इसखंडकेप्रयोििोंकेवलए,ककसीप्राप्त व् य मेंककसीसमिुदेशक केअवििावि तवहतकेअन्त गवत
-ककसीबैंकयाककसीवित्तीयसंस्था द्व ाराउिारोंऔरअविमोंयाअन्य बाध्य ताओंकेवलएप्रवतिूवतकेरूपमेंप्राप्त व् यों के
-अविकारोंकासृिििहींआएगा;
-( ख ) “ समिुदेवशती ” सेऐसाफेक्ट र अविप्रेतहैविसकेपिमेंप्राप्त व् य अंतररतककया िाताहै;
-( ग ) “ समिुदेशक ” सेऐसाकोईव्य वक्त अविप्रेतहै,िोककसीप्राप्त व् य कास्िा मीहै;
-( घ ) “ बैंक ” सेविि वलवखतअविप्रेतहै, ––
-( i ) कोईबैंककारीकंपिी;
-( ii ) कोईतस्था िीियाबैंक;
-( iii ) िारतीयस्टे टबैंक;
-( i v ) कोईसमिुषंगीबैंक;
-( v ) ऐसाअन्य बैं क,विसेकेंरीयसरकार,ररििवबैंककीवसफाररशोंपर,इसअविवियमकेप्रयोििोंके
-वलए,अविसूचिाद्वारा,विविर्दवष्ट करे;या
-( vi ) बहुराज्य सहकारीसोसाइटीअविवियम, 2002 (2002 का 39) केअिीिरविस्री कृतऔरबैंककारी
-विवियमअविवियम, 1949 (1949 का 10) केउपबंिों केअिीिररििवबैंकद्वाराबैंककारीकारबारआरंिकरिे के
-वलएअिुज्ञप्त कोईबहुराज्य सहकारीसोसाइटी;
-( ङ ) “ बैंक कारीकंपिी ” कािहीअथवहै,िोबैंककारीविवियमिअविवियम, 1949 (1949 का 10) कीिारा 5 के
-खंड ( ग ) मेंहै;
-1 2021 केअविवियमसं ० 21 कीिारा 2 द्व ाराप्रवतस्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line `फेक्ट रविवियम ि अविवियम, 201 1`
+  line `(2012 काअविवियमसंखयां क 12 )`
+  line `[ 22 िििरी, 201 2 ] प्र`
+  line `ाप्त व् यों केसमिुदेशिकेरविस्री करणऔरप्राप्त व् यों कासमिुदेशिककएिािेसंबंिीसंविदा`
+  line `केपिकारोंकेअविकारोंऔरबाध्य ताओंकेवलएउपबंिकरकेप्राप्त व् यों के`
+  line समिुदेशितथाउससेसंबंवितयाउसकेआिुषंवगक
+  line `विषयोंकाउपबंि औरविवियमि`
+  line करिेकेवलए
+  line `अवि वियम`
+  line `िारत गणराज्य के बा सििेंिषवमेंसंसद्द्वाराविि वलवखतरूपमेंयह अविवियवमतहो: ––`
+  line `अध्या य 1 प्र`
+  line `ा र वि क`
+  line `1. सं वि प् त िाम,विस्ता रऔरप्रारंि – – (1) इसअविवियमकासंविप्त िाम फेक्ट रविवियम ि अविवियम, 201 1 है।`
+  line `(2) इसकाविस्ता रसं पूणविारतपरहै।`
+  line `( 3 ) यहउसतारीखकोप्रिृत्तहोगा,िोकेंरीयसरकार,रािपत्रमेंअविसूचिाद्वारा,वियतकरे:`
+  line `परंतुइसअविवियमकेविन्ि - विन्ि उपबंिोंकेवलएविन्ि - विन्ि तारीखें वियतकीिासकेंगीऔरऐसेककसी उपबंिमेंइस`
+  line `अविवियमकेप्रारंिकेप्रवतककसी विदेशकायहअथवलगायािाएगाककिहउसउपबंिकेप्रिृत्तहोिेकेप्रवतविदेश है।`
+  line `2. पररिाषाएं – – इसअविवियममें,िबतकककसंदिवमेंअन्य थाअपेवितिहो, ––`
+  line `( क ) “ समिुदेशि ” 1 [ ककसीफेक्टरकोककसीदेिदारसेशोध्यप्राप्योंमेंककसीसमिुदेशककेककसीअवििा वितवहत`
+  line `का,पूणवतःयािागतः,करारद्वाराअन्तरणअविप्रेतहैऔरिहांयातोसमुिदेशकयादेिदारिारतकेबाहरअिवस्थतया स्`
+  line `थावपतहै,िहांइसकेअऩ्तगवतऐसाअन्तरणिीहै;] स्`
+  line `प ष् टी करण –– इसखंडकेप्रयोििोंकेवलए,ककसीप्राप्त व् य मेंककसीसमिुदेशक केअवििावि तवहतकेअन्त गवत`
+  line `ककसीबैंकयाककसीवित्तीयसंस्था द्व ाराउिारोंऔरअविमोंयाअन्य बाध्य ताओंकेवलएप्रवतिूवतकेरूपमेंप्राप्त व् यों के`
+  line अविकारोंकासृिििहींआएगा;
+  line `( ख ) “ समिुदेवशती ” सेऐसाफेक्ट र अविप्रेतहैविसकेपिमेंप्राप्त व् य अंतररतककया िाताहै;`
+  line `( ग ) “ समिुदेशक ” सेऐसाकोईव्य वक्त अविप्रेतहै,िोककसीप्राप्त व् य कास्िा मीहै;`
+  line `( घ ) “ बैंक ” सेविि वलवखतअविप्रेतहै, ––`
+  line `( i ) कोईबैंककारीकंपिी;`
+  line `( ii ) कोईतस्था िीियाबैंक;`
+  line `( iii ) िारतीयस्टे टबैंक;`
+  line `( i v ) कोईसमिुषंगीबैंक;`
+  line `( v ) ऐसाअन्य बैं क,विसेकेंरीयसरकार,ररििवबैंककीवसफाररशोंपर,इसअविवियमकेप्रयोििोंके`
+  line `वलए,अविसूचिाद्वारा,विविर्दवष्ट करे;या`
+  line `( vi ) बहुराज्य सहकारीसोसाइटीअविवियम, 2002 (2002 का 39) केअिीिरविस्री कृतऔरबैंककारी`
+  line `विवियमअविवियम, 1949 (1949 का 10) केउपबंिों केअिीिररििवबैंकद्वाराबैंककारीकारबारआरंिकरिे के`
+  line `वलएअिुज्ञप्त कोईबहुराज्य सहकारीसोसाइटी;`
+  line `( ङ ) “ बैंक कारीकंपिी ” कािहीअथवहै,िोबैंककारीविवियमिअविवियम, 1949 (1949 का 10) कीिारा 5 के`
+  line `खंड ( ग ) मेंहै;`
+  line `1 2021 केअविवियमसं ० 21 कीिारा 2 द्व ाराप्रवतस्था वपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `2
-( च ) “ कारबारउद्यम ” सेसूक्ष्म,लघुऔर मध्य मउद्यमविकासअविवियम, 2006 (2006 का 27) कीिारा 2 के क्र
-मश:खंड ( ङ ),खंड ( छ ),खंड ( ि ) औरखंड ( ड ) मेंयथापररिावषतऐसाकोईउद्यमयामध्य मउद्यम,सूक्ष्म उद्यम यालघु
-उद्यमअविप्रेतहै,िोककसीकारबारकक्रयाकलापमेंलगाहुआहै;
-( छ ) “ तत्स्था िीियाबैं क ” कािहीअथव है,िोबैंककारीविवियमिअविवियम, 1949 (1949 का 10) कीिारा 5
-केखंड ( घक ) मेंहै;
-( ि ) “ देिदार ” से ऐसाकोईव्य वक्त अविप्रेतहै,िोसमिुदेशकको,चाहेककसीसंविदाकेअिीियाअन्य था,ककसी प्र
-ाप्त व् य कासंदायकरिेकेवलएयाप्राप्त व् य की बाबतककसीबाध्य ताका,चाहेिहविद्यमाि,प्रोद्िूतहोिेिाली,िािी,
-सशतवयासमावितहो,वििवहिकरिेकेवलएदायीहै;
-( झ ) “ फेक्ट र ” सेिारतीयररििवबैंकअविवियम, 1934 (1934 का 2) कीिारा 45 झकेखंड ( च ) में
-यथापररिावषतऐसीकोईगैर - बैंककारीवि त्त ीयकंपिी, विसेिारा 3 कीउपिारा (1) केअिीिरविस्री करणप्रमाणपत्र
-अिुदत्तककयागयाहैयासंसद्याककसीराज्य वििाि - मंडलकेककसी अविवियमकेअिीिस्था वपतकोईविगवमतविकाय
-याकंपिीअविवियम, 1956 (1956 का 1) केअिीिरविस्री कृतकोईबैं कयाकोईकंपिीअविप्रेतहै, िोफेक्ट रकेकारबार
-मेंलगीहुईहै;
-( ञ ) “ फेक्ट रकारबार ” 1 [ अिविकाकारबारअविप्रेतहै, ककंतु ” केसाथसमाप्तहोिेिालेशब्दोंकेस्थािपर, “ ऐसे प्र
-ाप्योंकेसंिहणकेप्रयोििकेप्रवतफलाथवसमिुदेशककेप्राप्योंकेसमिुदेशिकेरूपमेंअिवियावित्तपोषण केवलए,चाहे
-ऐसेसमिुदेशिकेप्रवतउिारयाअविमकेरूपमेंदेिेयाअन्यथा,ककन्तु ] इसकेअंतगवतविि वलवखतिहींहैं ––
-( i ) ककसीबैंक 2 [ यागैर - बैंककारीवित्तीयकंपिी ] द्व ाराकारबारकेअपिेसािारणअिुक्रममेंप्राप्त व् यों
-कीप्रवतिूवतमद्देउपलब्ि कराई गईप्रत्य यसुवििाएं;
-( ii ) कृवषउपियाककसीिीप्रकारकेमालकेविक्रयकेवलएकमीशिअविकतावकेरूपमेंयाअन्य था
-कोईकक्रयाकलापयाऐसीउपियामालकेउत्पा दि,िंडारण,प्रदाय,वितरण,अिवियावियंत्रणयाककन्हीं
-सेिाओंकेउपबंिसेसंबंवितकोईकक्रयाकलाप। स्
-प ष् टी करण –– इसखंडकेप्रयोििोंकेवलए, ––
-( i ) “ कृवषउपि ” पदकािहीअथवहोगा,िोकृवषउपि ( िेणीकरणऔरवच हिांकि ) अविवियम, 1937
-(1937 का 1) कीिारा 2 केखंड ( क ) केअिीिहै;और
-( ii ) “ माल ” और “ कमीशिअविकताव ” पदोंके िहीअथवहोंगे,िोअविमसंविदा ( वि वियमि ) अविवियम,
-1952 (1952 का 74) कीिारा 2 केखंड ( घ ) औरखंड ( झ ) केस्प ष् टी करण ( ii ) केअिीि हैं;
-( ट ) “ वित्तीयसंविदा ” सेब्या िदरों,िस्तु ओं,करेंवसयों,शेयरों,बंिपत्रों,वडबेंच रोंयाककसीअन्य वित्तीय
-वलख त को अंतिववलतकरिेिालाकोईहाविर,अवि म,िािी,विकल्प याअदला - बदलीसंव्य िहार,प्रवतिूवतयोंकेकोईपुि: क्र
-ययाउिारदेिेकाकोईसंव्य िहारयावित्तीयबािारोंमेंककयागयाकोईअन्य इसीप्रकारकासंव्य िहारयाऐसे
-संव्य िहारोंकासमुच्च यअविप्रेतहै;
-( ि ) “ िेटटंगकरार ” सेवसस्ट म सहिावगयों केबीच,संदायसंबंिीबाध्य ताओंयापररदािसंबंिीबाध्य ताओंके,
-वििकेअंतगवतवसस्ट मप्रदाताद्वाराककसीवसस्ट मसहिागीके कदिावलएपियाविघटि यापरर स मापिपरयाऐसी
-पररवस्थ वतयोंमें,िो वसस्ट मप्रदाताककसीिविष्य ितीतारीखकोविपटारेकेवलएस्िी कारकक एगएसंव्य िहारोंकेअपिे
-वियमोंयाविवियमोंयाउपविवियोंमें ( चाहेिेककसीिामसेज्ञातहों ) वि विर्दवष्ट करे,पयविसािसेप्रो द् िू तदािेऔ र
-बाध्य ताएंिीहैं,मुिरायासमायोििककएिािेकेपररणामस्ि रू पशोध्य यासंदेययापररदेय िियाप्रवतिूवतयोंकीरकम
-कावसस्ट मप्रदाताद्वाराअििारणकरिेकेप्रयोििकेवलए,कोईकरारअविप्रेतहै,विससेकककेिलककसीशुद्दािेकी
-मांगकीिाएयाकोईशुद्बाध्य ताअपिेऊपर लीिाए;
-( ड ) “ अविसूचिा ” सेरािपत्रमेंप्रकावशतअविसूचिाअविप्रेतहै;
-( ढ ) “ विवहत ” सेइसअविवियमकेअिी िबिाएगएवियमोंद्वाराविवहतअविप्रेतहै;
-( ण ) “ संपवत्त ” सेविि वलवखतअविप्रेतहै, ––
-( i ) स् था िरसंपवत्त;
-( ii ) िंगमसंपवत्त;
-( iii ) कोईऋणअथिाििकासंदायप्राप्त करिेसंबंिीकोईअविकार,चाहेप्रवतिूतयाअप्रवतिूतहो;
-1 2021 केअविवियमसं ० 13 कीिारा 2 द्व ाराप्रवतस्था वपत।
-2 2021 केअवि वियमसं ० 13 कीिारा 2 द्व ारा “ यागैर - बैंककारीवित्तीयकंपिी ” शब्दों काअंत:स्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 2
+  line `( च ) “ कारबारउद्यम ” सेसूक्ष्म,लघुऔर मध्य मउद्यमविकासअविवियम, 2006 (2006 का 27) कीिारा 2 के क्र`
+  line `मश:खंड ( ङ ),खंड ( छ ),खंड ( ि ) औरखंड ( ड ) मेंयथापररिावषतऐसाकोईउद्यमयामध्य मउद्यम,सूक्ष्म उद्यम यालघु`
+  line उद्यमअविप्रेतहै,िोककसीकारबारकक्रयाकलापमेंलगाहुआहै;
+  line `( छ ) “ तत्स्था िीियाबैं क ” कािहीअथव है,िोबैंककारीविवियमिअविवियम, 1949 (1949 का 10) कीिारा 5`
+  line `केखंड ( घक ) मेंहै;`
+  line `( ि ) “ देिदार ” से ऐसाकोईव्य वक्त अविप्रेतहै,िोसमिुदेशकको,चाहेककसीसंविदाकेअिीियाअन्य था,ककसी प्र`
+  line `ाप्त व् य कासंदायकरिेकेवलएयाप्राप्त व् य की बाबतककसीबाध्य ताका,चाहेिहविद्यमाि,प्रोद्िूतहोिेिाली,िािी,`
+  line सशतवयासमावितहो,वििवहिकरिेकेवलएदायीहै;
+  line `( झ ) “ फेक्ट र ” सेिारतीयररििवबैंकअविवियम, 1934 (1934 का 2) कीिारा 45 झकेखंड ( च ) में`
+  line `यथापररिावषतऐसीकोईगैर - बैंककारीवि त्त ीयकंपिी, विसेिारा 3 कीउपिारा (1) केअिीिरविस्री करणप्रमाणपत्र`
+  line `अिुदत्तककयागयाहैयासंसद्याककसीराज्य वििाि - मंडलकेककसी अविवियमकेअिीिस्था वपतकोईविगवमतविकाय`
+  line `याकंपिीअविवियम, 1956 (1956 का 1) केअिीिरविस्री कृतकोईबैं कयाकोईकंपिीअविप्रेतहै, िोफेक्ट रकेकारबार`
+  line मेंलगीहुईहै;
+  line `( ञ ) “ फेक्ट रकारबार ” 1 [ अिविकाकारबारअविप्रेतहै, ककंतु ” केसाथसमाप्तहोिेिालेशब्दोंकेस्थािपर, “ ऐसे प्र`
+  line `ाप्योंकेसंिहणकेप्रयोििकेप्रवतफलाथवसमिुदेशककेप्राप्योंकेसमिुदेशिकेरूपमेंअिवियावित्तपोषण केवलए,चाहे`
+  line `ऐसेसमिुदेशिकेप्रवतउिारयाअविमकेरूपमेंदेिेयाअन्यथा,ककन्तु ] इसकेअंतगवतविि वलवखतिहींहैं ––`
+  line `( i ) ककसीबैंक 2 [ यागैर - बैंककारीवित्तीयकंपिी ] द्व ाराकारबारकेअपिेसािारणअिुक्रममेंप्राप्त व् यों`
+  line `कीप्रवतिूवतमद्देउपलब्ि कराई गईप्रत्य यसुवििाएं;`
+  line `( ii ) कृवषउपियाककसीिीप्रकारकेमालकेविक्रयकेवलएकमीशिअविकतावकेरूपमेंयाअन्य था`
+  line `कोईकक्रयाकलापयाऐसीउपियामालकेउत्पा दि,िंडारण,प्रदाय,वितरण,अिवियावियंत्रणयाककन्हीं`
+  line `सेिाओंकेउपबंिसेसंबंवितकोईकक्रयाकलाप। स्`
+  line `प ष् टी करण –– इसखंडकेप्रयोििोंकेवलए, ––`
+  line `( i ) “ कृवषउपि ” पदकािहीअथवहोगा,िोकृवषउपि ( िेणीकरणऔरवच हिांकि ) अविवियम, 1937`
+  line `(1937 का 1) कीिारा 2 केखंड ( क ) केअिीिहै;और`
+  line `( ii ) “ माल ” और “ कमीशिअविकताव ” पदोंके िहीअथवहोंगे,िोअविमसंविदा ( वि वियमि ) अविवियम,`
+  line `1952 (1952 का 74) कीिारा 2 केखंड ( घ ) औरखंड ( झ ) केस्प ष् टी करण ( ii ) केअिीि हैं;`
+  line `( ट ) “ वित्तीयसंविदा ” सेब्या िदरों,िस्तु ओं,करेंवसयों,शेयरों,बंिपत्रों,वडबेंच रोंयाककसीअन्य वित्तीय`
+  line `वलख त को अंतिववलतकरिेिालाकोईहाविर,अवि म,िािी,विकल्प याअदला - बदलीसंव्य िहार,प्रवतिूवतयोंकेकोईपुि: क्र`
+  line `ययाउिारदेिेकाकोईसंव्य िहारयावित्तीयबािारोंमेंककयागयाकोईअन्य इसीप्रकारकासंव्य िहारयाऐसे`
+  line `संव्य िहारोंकासमुच्च यअविप्रेतहै;`
+  line `( ि ) “ िेटटंगकरार ” सेवसस्ट म सहिावगयों केबीच,संदायसंबंिीबाध्य ताओंयापररदािसंबंिीबाध्य ताओंके,`
+  line `वििकेअंतगवतवसस्ट मप्रदाताद्वाराककसीवसस्ट मसहिागीके कदिावलएपियाविघटि यापरर स मापिपरयाऐसी`
+  line `पररवस्थ वतयोंमें,िो वसस्ट मप्रदाताककसीिविष्य ितीतारीखकोविपटारेकेवलएस्िी कारकक एगएसंव्य िहारोंकेअपिे`
+  line `वियमोंयाविवियमोंयाउपविवियोंमें ( चाहेिेककसीिामसेज्ञातहों ) वि विर्दवष्ट करे,पयविसािसेप्रो द् िू तदािेऔ र`
+  line `बाध्य ताएंिीहैं,मुिरायासमायोििककएिािेकेपररणामस्ि रू पशोध्य यासंदेययापररदेय िियाप्रवतिूवतयोंकीरकम`
+  line `कावसस्ट मप्रदाताद्वाराअििारणकरिेकेप्रयोििकेवलए,कोईकरारअविप्रेतहै,विससेकककेिलककसीशुद्दािेकी`
+  line `मांगकीिाएयाकोईशुद्बाध्य ताअपिेऊपर लीिाए;`
+  line `( ड ) “ अविसूचिा ” सेरािपत्रमेंप्रकावशतअविसूचिाअविप्रेतहै;`
+  line `( ढ ) “ विवहत ” सेइसअविवियमकेअिी िबिाएगएवियमोंद्वाराविवहतअविप्रेतहै;`
+  line `( ण ) “ संपवत्त ” सेविि वलवखतअविप्रेतहै, ––`
+  line `( i ) स् था िरसंपवत्त;`
+  line `( ii ) िंगमसंपवत्त;`
+  line `( iii ) कोईऋणअथिाििकासंदायप्राप्त करिेसंबंिीकोईअविकार,चाहेप्रवतिूतयाअप्रवतिूतहो;`
+  line `1 2021 केअविवियमसं ० 13 कीिारा 2 द्व ाराप्रवतस्था वपत।`
+  line `2 2021 केअवि वियमसं ० 13 कीिारा 2 द्व ारा “ यागैर - बैंककारीवित्तीयकंपिी ” शब्दों काअंत:स्था वपत।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `3
-( iv ) प्र ाप्त व् य;
-( v ) अमूतवआवस्त यां,िोव्य िहार - ज्ञ ाि,पेटेंट,प्रवतवलप्य विकार,वडिाइि,व्या पारवचहि, अिुज्ञवप्त, फ्रें
-चाइज़यासमािप्रकृवतकाकोईअन्य कारोबारीयािावणवज्य कअविकारहै;
-1 [ ( त ) “ प्र ाप्य ” सेऋणीद्वारादेयऐसाििअविप्रेतहैविसकामालयासेिाओंकेवलएसमिुदेशकको अिीतक
-संदायिहींककयागयाहैतथाइसकेअन्तगवतपथकरकेवलएयाककसीअिसंरचिासुवििायासेिाओंकेउपयोगकेवलए
-संदत्तककएिािेकेवलएअपेवितककसीरावश,चाहेिहककसीिीिामसेज्ञातहो,कासंदायिीसवमवलतहै;
-( तक) “ विवियम ” सेइसअविवियमकेअिीिररििवबैं कद्वाराबिाएगएविवियमअविप्रेतहैं; ]
-( थ ) “ ररििवबैंक ” सेिारतीय ररििवबैंकअविवियम, 1934 (1934 का 2) कीिारा 3 केअिीिगरितिारतीय
-ररििवबैंकअवि प्रे तहै;
-( द ) “ िारतीयस्टे टबैंक ” सेिारतीयस्टे टबैंकअविवियम, 1955 (1955 का 23) कीिारा 3 केअिीिग रित
-िारतीयस्टे टबैंकअविप्रेतहै;
-( ि ) “ समिुषंगीबैंक ” कािहीअथवहोगा,िोिारतीयस्टे टबैंक ( समिुषंगीबैंक ) अविवियम, 1959 (1959 का 38)
-कीिारा 2 केखंड ( ट ) मेंहै;
-2 [ ( िक) “ व्य ापारप्राप्यवमवतकाटाप्रणाली ” सेसंदायऔरविपटािप्रणालीअविवियम, 2007 (200 7 का 51 ) की
-िारा 7 केअिीिररििवबैंकद्वाराव्यापारप्राप्योंकोसुकरबिािेकेप्रयोििकेवलएप्राविकृतसंदायप्रणालीअविप्रेतहै; ]
-( ि ) उिशब्दों औरपदोंके,िोइसअविवियममेंप्रयुक्त हैंऔरपररिावषतिहींहैं,ककंतुिारतीय ररििवबैंक
-अिवियम, 1934 ( 1934 का 2),बैंककारी विवियमि अविवियम, 1949 (1949 का 10),कंपिीअविवियम, 1956
-(1956 का 1),वित्तीयआवस्त योंकाप्रवतिूवतकरणऔरपुिगव िितथाप्रवतिूवतवहतकाप्रितवि अविवियम, 2002 (2002 का
-54),प्रत्य यविषयकिािकारीकंपिी ( विवियमि ) अविवियम, 2005 (2 005 का 30) यासूक्ष्म,लघुऔर मध्य म उद्यम
-विकासअविवियम, 2006 (2006 का 27) मेंपररिावषतहैं,िहींअथवहों गेिोउिअविवियमोंमें हैं।
-अध्या य 2
-फेक्ट रोंकारविस्री करण
-3. फेक्ट रोंकारविस्री करण – – (1) कोईिीफेक्ट र,फेक्ट रकारबारतबतकप्रारंिि हींकरेगाअथिािहींचलाएगा, िबतक
-ककिहइसअविवियमकेअिीिफेक्ट रकारबारकोप्रारंिकरिेयाचलािेकेवलएररििवबैंकसेकोईरविस्री करणप्रमाणपत्रप्राप्त
-िहींकरलेताहै।
-(2) प्रत् ये कफेक्ट र,रविस्री करणकेवलएररििवबैंककोऐसेप्ररूपमेंऔरऐ सी रीवतमें,िोिहविविर्दवष्ट करे,
-आिेदिकरेगा:
-3 * * * * * * *
-( 3 ) ककसी फेक्ट रकेरूपमेंरविस्री करण प्र माणपत्रअिुदत्तकरिेकेवलएप्रत्ये कआिेदक,रविस्री करणकेप्रयोििकेवलए
-िारतीयररििवबैंकअविवियम, 1934 (1934 का 2) केअिीि गैर - बैं ककारीवित्तीयकंपिीकेरूपमेंरविस्री कर ण प्र माणपत्रअ िुदत्त
-ककएिािेकेसंबंिमेंककसीआिेदकद्वारापालिकीिािेिालीसिीअपेिाओंकाअिुपालि करेगाऔरउसअविवियमकेसिी
-उपबंि,िहांतकउिकासंबंिगैर - बैं ककारीवित्तीयकंपवियोंकेरविस्री करण से है ( उिकेवसिाय,िोइसअविवियमकेअ िीि
-उपबंवितहैं ),यथाआिश्य कपररितविोंकेसाथलागूहोंगे।
-4 [ (4) ररििवबैंक,रविस्रीकरणप्रमाणपत्रऐसीरीवतमेंअिुदत्तकरसकेगा, िोविवियमोंद्वाराविवहतकीिाए। ]
-( 5 ) इसअविवियममेंिैसाअन्य थाउपबंवितहै,उसकेवस िाय,प्रत्ये कफेक्ट र,विसकेअंतगवतऐसेफेक्ट रिीहैं,िो िारा 5
-केअिीिरविस्री करणकीअपेिाकेअध्य िीििहींहैं,िारतीयररििवबैंकअविवियम, 1934 (1934 का 2),उसकेअिीिबिाएगए
-वियमोंऔरविवियमोंतथासमय - स मयपरररििवबैंकद्वारािारीककएगएविदे शोंयामागवदशवकवसद्ांतोंद्वाराशावसतहोगा।
-4. गैर - बैंककारीवित्तीयकंपवियोंकेउपबंिोंकाफेक्ट रकोलागूहोिा – – िारतीयररििवबैंकअविवियम, 1934
-( 1934 का 2) केअध्या य 3 ख केऐसीगैर - बैंककारीवित्तीयकंपवियोंसे,वििकोिारतीयररििवबैंकअवि वियम, 1934 कीिारा 45 झक
-कीउपिारा ( 5 ) केअिीिरविस्री करणप्रमाण प त्र अिुदत्तककयागयाहै,संबंवित सिीउपबंि ( उिकेवसिाय,िोइसअविवियम के
-1 2021 केअविवियमसं ० 21 कीिारा 2 द्व ाराप्रवतस्था वपत।
-2 2021 केअविवियमसं ० 21 कीिारा 2 द्व ाराअंत:स्था वपत।
-3 2021 केअविवियमसं ० 21 कीिारा 3 द्व ारा लोपकक यागया।
-4 2021 केअविवियमसं ० 21 कीिारा 3 द्व ारा प्र वतस्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 3
+  line `( iv ) प्र ाप्त व् य;`
+  line `( v ) अमूतवआवस्त यां,िोव्य िहार - ज्ञ ाि,पेटेंट,प्रवतवलप्य विकार,वडिाइि,व्या पारवचहि, अिुज्ञवप्त, फ्रें`
+  line `चाइज़यासमािप्रकृवतकाकोईअन्य कारोबारीयािावणवज्य कअविकारहै;`
+  line `1 [ ( त ) “ प्र ाप्य ” सेऋणीद्वारादेयऐसाििअविप्रेतहैविसकामालयासेिाओंकेवलएसमिुदेशकको अिीतक`
+  line संदायिहींककयागयाहैतथाइसकेअन्तगवतपथकरकेवलएयाककसीअिसंरचिासुवििायासेिाओंकेउपयोगकेवलए
+  line संदत्तककएिािेकेवलएअपेवितककसीरावश,चाहेिहककसीिीिामसेज्ञातहो,कासंदायिीसवमवलतहै;
+  line `( तक) “ विवियम ” सेइसअविवियमकेअिीिररििवबैं कद्वाराबिाएगएविवियमअविप्रेतहैं; ]`
+  line `( थ ) “ ररििवबैंक ” सेिारतीय ररििवबैंकअविवियम, 1934 (1934 का 2) कीिारा 3 केअिीिगरितिारतीय`
+  line `ररििवबैंकअवि प्रे तहै;`
+  line `( द ) “ िारतीयस्टे टबैंक ” सेिारतीयस्टे टबैंकअविवियम, 1955 (1955 का 23) कीिारा 3 केअिीिग रित`
+  line `िारतीयस्टे टबैंकअविप्रेतहै;`
+  line `( ि ) “ समिुषंगीबैंक ” कािहीअथवहोगा,िोिारतीयस्टे टबैंक ( समिुषंगीबैंक ) अविवियम, 1959 (1959 का 38)`
+  line `कीिारा 2 केखंड ( ट ) मेंहै;`
+  line `2 [ ( िक) “ व्य ापारप्राप्यवमवतकाटाप्रणाली ” सेसंदायऔरविपटािप्रणालीअविवियम, 2007 (200 7 का 51 ) की`
+  line `िारा 7 केअिीिररििवबैंकद्वाराव्यापारप्राप्योंकोसुकरबिािेकेप्रयोििकेवलएप्राविकृतसंदायप्रणालीअविप्रेतहै; ]`
+  line `( ि ) उिशब्दों औरपदोंके,िोइसअविवियममेंप्रयुक्त हैंऔरपररिावषतिहींहैं,ककंतुिारतीय ररििवबैंक`
+  line `अिवियम, 1934 ( 1934 का 2),बैंककारी विवियमि अविवियम, 1949 (1949 का 10),कंपिीअविवियम, 1956`
+  line `(1956 का 1),वित्तीयआवस्त योंकाप्रवतिूवतकरणऔरपुिगव िितथाप्रवतिूवतवहतकाप्रितवि अविवियम, 2002 (2002 का`
+  line `54),प्रत्य यविषयकिािकारीकंपिी ( विवियमि ) अविवियम, 2005 (2 005 का 30) यासूक्ष्म,लघुऔर मध्य म उद्यम`
+  line `विकासअविवियम, 2006 (2006 का 27) मेंपररिावषतहैं,िहींअथवहों गेिोउिअविवियमोंमें हैं।`
+  line `अध्या य 2`
+  line `फेक्ट रोंकारविस्री करण`
+  line `3. फेक्ट रोंकारविस्री करण – – (1) कोईिीफेक्ट र,फेक्ट रकारबारतबतकप्रारंिि हींकरेगाअथिािहींचलाएगा, िबतक`
+  line `ककिहइसअविवियमकेअिीिफेक्ट रकारबारकोप्रारंिकरिेयाचलािेकेवलएररििवबैंकसेकोईरविस्री करणप्रमाणपत्रप्राप्त`
+  line िहींकरलेताहै।
+  line `(2) प्रत् ये कफेक्ट र,रविस्री करणकेवलएररििवबैंककोऐसेप्ररूपमेंऔरऐ सी रीवतमें,िोिहविविर्दवष्ट करे,`
+  line `आिेदिकरेगा:`
+  line `3 * * * * * * *`
+  line `( 3 ) ककसी फेक्ट रकेरूपमेंरविस्री करण प्र माणपत्रअिुदत्तकरिेकेवलएप्रत्ये कआिेदक,रविस्री करणकेप्रयोििकेवलए`
+  line `िारतीयररििवबैंकअविवियम, 1934 (1934 का 2) केअिीि गैर - बैं ककारीवित्तीयकंपिीकेरूपमेंरविस्री कर ण प्र माणपत्रअ िुदत्त`
+  line `ककएिािेकेसंबंिमेंककसीआिेदकद्वारापालिकीिािेिालीसिीअपेिाओंकाअिुपालि करेगाऔरउसअविवियमकेसिी`
+  line `उपबंि,िहांतकउिकासंबंिगैर - बैं ककारीवित्तीयकंपवियोंकेरविस्री करण से है ( उिकेवसिाय,िोइसअविवियमकेअ िीि`
+  line `उपबंवितहैं ),यथाआिश्य कपररितविोंकेसाथलागूहोंगे।`
+  line `4 [ (4) ररििवबैंक,रविस्रीकरणप्रमाणपत्रऐसीरीवतमेंअिुदत्तकरसकेगा, िोविवियमोंद्वाराविवहतकीिाए। ]`
+  line `( 5 ) इसअविवियममेंिैसाअन्य थाउपबंवितहै,उसकेवस िाय,प्रत्ये कफेक्ट र,विसकेअंतगवतऐसेफेक्ट रिीहैं,िो िारा 5`
+  line `केअिीिरविस्री करणकीअपेिाकेअध्य िीििहींहैं,िारतीयररििवबैंकअविवियम, 1934 (1934 का 2),उसकेअिीिबिाएगए`
+  line `वियमोंऔरविवियमोंतथासमय - स मयपरररििवबैंकद्वारािारीककएगएविदे शोंयामागवदशवकवसद्ांतोंद्वाराशावसतहोगा।`
+  line `4. गैर - बैंककारीवित्तीयकंपवियोंकेउपबंिोंकाफेक्ट रकोलागूहोिा – – िारतीयररििवबैंकअविवियम, 1934`
+  line `( 1934 का 2) केअध्या य 3 ख केऐसीगैर - बैंककारीवित्तीयकंपवियोंसे,वििकोिारतीयररििवबैंकअवि वियम, 1934 कीिारा 45 झक`
+  line `कीउपिारा ( 5 ) केअिीिरविस्री करणप्रमाण प त्र अिुदत्तककयागयाहै,संबंवित सिीउपबंि ( उिकेवसिाय,िोइसअविवियम के`
+  line `1 2021 केअविवियमसं ० 21 कीिारा 2 द्व ाराप्रवतस्था वपत।`
+  line `2 2021 केअविवियमसं ० 21 कीिारा 2 द्व ाराअंत:स्था वपत।`
+  line `3 2021 केअविवियमसं ० 21 कीिारा 3 द्व ारा लोपकक यागया।`
+  line `4 2021 केअविवियमसं ० 21 कीिारा 3 द्व ारा प्र वतस्था वपत।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `4
-अिीिविविर्दवष्ट रू पसेउपंबवितहैं ) यथाआिश्य कपररितविों केसाथऐसेफेक्ट रकोलागूहोंगे,विसेिारा 3 केअिीिर विस्री करण प्र
-माणपत्रअिुदत्तककयागयाहै।
-5. ककसीफेक्ट रकेरूपमेंरविस्री करणकीअपेिाकाबैंकयाकािूिीविगमयासरकारीकंपिीकोलागूिहोिा – – िारा 3
-कीकोईबातसंसद्याराज्य वििाि - मंडलकेककसीअवि वियमकेअिीिस्था वपतककसीबैंकयाविगम कोयाकं पिीअविवियम,
-1956 (1956 का 1) कीिारा 617 केअिीियथापररिावषतककसीसरकारीकंपिीकोलागूिहींहोगी।
-6. ररििवबैंक कीफेक्ट रोंकोविदेशदेिेऔरसूचिासंगृहीतकरिेकीशवक्त यां – – (1) ररििवबैंक,ककसी िीसमयसािारण
-याविशेषआदेश द्व ारा,यहविदेशदेसकेगा ककप्रत्ये कफेक्ट र,ऐसेप्ररूपमें,ऐसेअंतरालोंपरऔरऐसेसमयकेिीतर,फेक्ट रद्वारा
-ककएगएफेक्ट रकारबारसेसंबंवितऐसेवििरण,सूचिायाविवशवष्ट यांउसेदेगा,िोररििवबैंकद्वारासमय - स मयपरविविर्दवष्ट
-कीिाएं।
-(2) ररििवबैंक,यकदिहफेक्ट र सेिाओंकाउपयोगकरिेिालेकारबारउद्यमोंके वहतमेंयाफेक्ट रोंकेवहतमेंयाअन्य
-पणिारकोंकेवहतमेंआिश्य क समझताहै,ऐसेफेक्ट रों द्व ाराककए िारहेफेक्ट रकारबारसे सं बं वि तयाउिसेसंसक्त ककसीविषयके
-संबंिमेंफेक्ट रोंकोसािारणतयायाककसी फेक्ट रकोविवशष्ट तयायाफेक्ट रोंकेसमूहकोवि देशदेसकेगा।
-( 3 ) यकदकोईफेक्ट रररििवबैंकद्वाराउपिारा (2) केअिीिकदएगएककसीविदेशका अिुपालिकरिेमेंअसफलरहताहै
-तोररििवबैंकऐसेफेक्ट र कोफेक्ट र कारबारकरिेसे प्र वतवष द् करसकेगा:
-परंतुयहकककक सीफेक्ट रकोफेक्ट रकारबारकरिेसेप्रवतवषद्करिेसेपूिवउसफेक्ट रकोसुििाईकायुवक्त युक्त अिसर
-कदयािाएगा।
-अध्या य 3 प्र
-ाप्त व् यों कासमिुदेशि
-7. प्र ाप्त व् यों कासमिुदेशि – – (1) कोईसमिुदेशक,वलवखतमेंकरारद्वारा,ककसीदेिदारद्वाराउसकोशोध्य औरसंदेयककसी प्र
-ाप्त व् य कोऐसेककसीफेक्ट रको,िोसमिुदेवशतीहै, कक सीऐसेप्रवतफलकेवलए,िोसमिुदेशकऔर समिुदेवशतीकेबीचकरार
-पायािाए,समिुदेवशतकरसकेगाऔरसमिुदेशकऐ सेसमिुदेश िकेसमयसमिुदेवशतीकोककन्हीं ऐसेबचािोंऔरमुिरासंबंिी
-अविकारका प्र कटिकरेगा,िोदेिदारकोउपलब्ि हो:
-परंतुयकदप्राप्त व् य कासंदायकरिेकादायीदेिदारअथिाफेक्ट रकाकारबारिारतकेबाहरअिवस्थ तयास्था वपतहै,तो प्र
-ाप्त व् य काको ईसमिुदेश ि,विदेशीमुराप्रबंिअविवियम, 1999 (1999 का 42) केअध्य िीिहोगा।
-(2) प्र ाप्त व् यों केसमिुदेशिकेवलएवलवखतमेंकरारकेविष्पा दिपर,प्राप्त व् य केशोध्य संदायकोअिन्य रू पसेप्रवतिूत
-करिेकेवलएककसीसंपवत्तपरसृवितसिीअविकार,उपचारऔरकोईप्रवतिूवतवहतसमिुदेवशतीमेंविवहतहोगाऔरसमिुदेवशती
-कोऐसे प्र ाप्त व् य को िसूलकरिेऔरसमिुदेशककेसिीअविकारोंऔरउपचारोंका,िुकसािीकेरूपमेंयाअन्य थाअथिािारा 8 में
-यथाउपबंवितसमिुदेशिकीसूचिादीगईहोयािहीं,प्रयोगकरिेकाआत्यं वतकअविकारहोगा।
-( 3 ) प्र ाप्त व् यों काकोईसमिुदेशि,िोककसीबैंकयाअन्य लेिदार द्व ा रा कदएगएककसीऋणकेप्रवतसंदायकेवलएप्रवतिूवत
-केरूपमेंहैऔरयकदसमिुदेशकिेसमिुदेवशतीकोऐसेविल्लं गम्कीसूचिादेदीहै,तबऐसेप्राप्त व् य केसमिुदेशिकोस्िी कारकरिे
-परसमिुदेवशतीऐसेसमिुदेशिकेवलए,यथावस्थ वत,बैंकयालेिदारकोप्रवतफलका संदा यकरेगा।
-8. देिदारकोसूचिाऔरऐसेदेिदारकीबाध्य ताकाउन्मो चि – – ककसीप्राप्त व् य काकोईसमिुदेवशतीऐसेप्राप्त व् यों की
-बाबतप्राप्त व् य केसंदायकीदेिदारसेमांगकरिेकातबतकह कदारिहींहोगा,िबतकसमिुदेश कयासमिुदेवशतीद्वारा,ऐसे
-समिुदेशि कीसूचिा,समिुदेशकद्वाराउसकेपिमेंअिुदत्त,अविव्य क् त प्र ाविकार सवहत,देि दारकोिहींदेदी िातीहै।
-9. समिुदेवशतीकोसंदायकरकदएिािेपरदेिदारकेदावयत्ि काउन्मो चि – – िहांिारा 8 केअिीि,यथावस्थ वत,
-समिुदेशक यासमिुदेवशती द्व ाराप्राप्त व् य के समिुदेशिकीकोईसूचिादीिातीहै,िहांऐसीसूचिाकीप्रा वप्त परदेिदार
-समिुदेवशतीकोसंदायकरेगाऔरसूचिामेंविविर्दवष्ट प्र ाप्त व् यों केसंबंिमेंककसीबाध्य ताकेउन्मो चिमेंऐसेसमिुदेवशती कोककए
-गएसंदायसेसंदायकरिेिालादेिदारऐसेसंदायकेसंबं िमेंतत्स मािदावयत्ि सेपू णवरूप सेउन्मो वचतहोिाएगा।
-10. देिदारद्वारासमिुदेश ककोककएगएसंदायकवतपयमामलोंमेंसमिुदेवशतीकेफायदे केवलएन्या सकेरूपमेंिाररत
-ककयािािा – – िहांसमिुदेशकद्वारायाउसकेप्राविकारकेअिीिसमिुदेवशतीद्वारा प्र ाप्त व् यों के समिुदेश िकी को ईसूचिािहींदी
-िातीहै,िहांसमिुदेशककोऐसेप्राप्त व् यों केसंबंिमेंदेिदारद्वाराककयागयाऐसा कोईसंदायसमिुदे वशतीकेफायदेकेवलए न् या स
-केरूप मेंिाररतककयािाएगा,िो,यथावस्थ वत,समिुदेवशतीयाइसविवम त्त सय क्रूपसेप्रा विकृतउसकेअविकताव कोतुरंतसंदत्त
-ककयािाएगा।
-अध्या य 4 प्र
-ाप्त व् यों केसमिुदेशिकेवलएसंविदाकेपिकारोंकेअविकारऔरबाध्य ताएं`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 4
+  line `अिीिविविर्दवष्ट रू पसेउपंबवितहैं ) यथाआिश्य कपररितविों केसाथऐसेफेक्ट रकोलागूहोंगे,विसेिारा 3 केअिीिर विस्री करण प्र`
+  line माणपत्रअिुदत्तककयागयाहै।
+  line `5. ककसीफेक्ट रकेरूपमेंरविस्री करणकीअपेिाकाबैंकयाकािूिीविगमयासरकारीकंपिीकोलागूिहोिा – – िारा 3`
+  line `कीकोईबातसंसद्याराज्य वििाि - मंडलकेककसीअवि वियमकेअिीिस्था वपतककसीबैंकयाविगम कोयाकं पिीअविवियम,`
+  line `1956 (1956 का 1) कीिारा 617 केअिीियथापररिावषतककसीसरकारीकंपिीकोलागूिहींहोगी।`
+  line `6. ररििवबैंक कीफेक्ट रोंकोविदेशदेिेऔरसूचिासंगृहीतकरिेकीशवक्त यां – – (1) ररििवबैंक,ककसी िीसमयसािारण`
+  line `याविशेषआदेश द्व ारा,यहविदेशदेसकेगा ककप्रत्ये कफेक्ट र,ऐसेप्ररूपमें,ऐसेअंतरालोंपरऔरऐसेसमयकेिीतर,फेक्ट रद्वारा`
+  line `ककएगएफेक्ट रकारबारसेसंबंवितऐसेवििरण,सूचिायाविवशवष्ट यांउसेदेगा,िोररििवबैंकद्वारासमय - स मयपरविविर्दवष्ट`
+  line कीिाएं।
+  line `(2) ररििवबैंक,यकदिहफेक्ट र सेिाओंकाउपयोगकरिेिालेकारबारउद्यमोंके वहतमेंयाफेक्ट रोंकेवहतमेंयाअन्य`
+  line `पणिारकोंकेवहतमेंआिश्य क समझताहै,ऐसेफेक्ट रों द्व ाराककए िारहेफेक्ट रकारबारसे सं बं वि तयाउिसेसंसक्त ककसीविषयके`
+  line `संबंिमेंफेक्ट रोंकोसािारणतयायाककसी फेक्ट रकोविवशष्ट तयायाफेक्ट रोंकेसमूहकोवि देशदेसकेगा।`
+  line `( 3 ) यकदकोईफेक्ट रररििवबैंकद्वाराउपिारा (2) केअिीिकदएगएककसीविदेशका अिुपालिकरिेमेंअसफलरहताहै`
+  line `तोररििवबैंकऐसेफेक्ट र कोफेक्ट र कारबारकरिेसे प्र वतवष द् करसकेगा:`
+  line `परंतुयहकककक सीफेक्ट रकोफेक्ट रकारबारकरिेसेप्रवतवषद्करिेसेपूिवउसफेक्ट रकोसुििाईकायुवक्त युक्त अिसर`
+  line कदयािाएगा।
+  line `अध्या य 3 प्र`
+  line `ाप्त व् यों कासमिुदेशि`
+  line `7. प्र ाप्त व् यों कासमिुदेशि – – (1) कोईसमिुदेशक,वलवखतमेंकरारद्वारा,ककसीदेिदारद्वाराउसकोशोध्य औरसंदेयककसी प्र`
+  line `ाप्त व् य कोऐसेककसीफेक्ट रको,िोसमिुदेवशतीहै, कक सीऐसेप्रवतफलकेवलए,िोसमिुदेशकऔर समिुदेवशतीकेबीचकरार`
+  line `पायािाए,समिुदेवशतकरसकेगाऔरसमिुदेशकऐ सेसमिुदेश िकेसमयसमिुदेवशतीकोककन्हीं ऐसेबचािोंऔरमुिरासंबंिी`
+  line `अविकारका प्र कटिकरेगा,िोदेिदारकोउपलब्ि हो:`
+  line `परंतुयकदप्राप्त व् य कासंदायकरिेकादायीदेिदारअथिाफेक्ट रकाकारबारिारतकेबाहरअिवस्थ तयास्था वपतहै,तो प्र`
+  line `ाप्त व् य काको ईसमिुदेश ि,विदेशीमुराप्रबंिअविवियम, 1999 (1999 का 42) केअध्य िीिहोगा।`
+  line `(2) प्र ाप्त व् यों केसमिुदेशिकेवलएवलवखतमेंकरारकेविष्पा दिपर,प्राप्त व् य केशोध्य संदायकोअिन्य रू पसेप्रवतिूत`
+  line करिेकेवलएककसीसंपवत्तपरसृवितसिीअविकार,उपचारऔरकोईप्रवतिूवतवहतसमिुदेवशतीमेंविवहतहोगाऔरसमिुदेवशती
+  line `कोऐसे प्र ाप्त व् य को िसूलकरिेऔरसमिुदेशककेसिीअविकारोंऔरउपचारोंका,िुकसािीकेरूपमेंयाअन्य थाअथिािारा 8 में`
+  line `यथाउपबंवितसमिुदेशिकीसूचिादीगईहोयािहीं,प्रयोगकरिेकाआत्यं वतकअविकारहोगा।`
+  line `( 3 ) प्र ाप्त व् यों काकोईसमिुदेशि,िोककसीबैंकयाअन्य लेिदार द्व ा रा कदएगएककसीऋणकेप्रवतसंदायकेवलएप्रवतिूवत`
+  line `केरूपमेंहैऔरयकदसमिुदेशकिेसमिुदेवशतीकोऐसेविल्लं गम्कीसूचिादेदीहै,तबऐसेप्राप्त व् य केसमिुदेशिकोस्िी कारकरिे`
+  line `परसमिुदेवशतीऐसेसमिुदेशिकेवलए,यथावस्थ वत,बैंकयालेिदारकोप्रवतफलका संदा यकरेगा।`
+  line `8. देिदारकोसूचिाऔरऐसेदेिदारकीबाध्य ताकाउन्मो चि – – ककसीप्राप्त व् य काकोईसमिुदेवशतीऐसेप्राप्त व् यों की`
+  line `बाबतप्राप्त व् य केसंदायकीदेिदारसेमांगकरिेकातबतकह कदारिहींहोगा,िबतकसमिुदेश कयासमिुदेवशतीद्वारा,ऐसे`
+  line `समिुदेशि कीसूचिा,समिुदेशकद्वाराउसकेपिमेंअिुदत्त,अविव्य क् त प्र ाविकार सवहत,देि दारकोिहींदेदी िातीहै।`
+  line `9. समिुदेवशतीकोसंदायकरकदएिािेपरदेिदारकेदावयत्ि काउन्मो चि – – िहांिारा 8 केअिीि,यथावस्थ वत,`
+  line `समिुदेशक यासमिुदेवशती द्व ाराप्राप्त व् य के समिुदेशिकीकोईसूचिादीिातीहै,िहांऐसीसूचिाकीप्रा वप्त परदेिदार`
+  line `समिुदेवशतीकोसंदायकरेगाऔरसूचिामेंविविर्दवष्ट प्र ाप्त व् यों केसंबंिमेंककसीबाध्य ताकेउन्मो चिमेंऐसेसमिुदेवशती कोककए`
+  line `गएसंदायसेसंदायकरिेिालादेिदारऐसेसंदायकेसंबं िमेंतत्स मािदावयत्ि सेपू णवरूप सेउन्मो वचतहोिाएगा।`
+  line `10. देिदारद्वारासमिुदेश ककोककएगएसंदायकवतपयमामलोंमेंसमिुदेवशतीकेफायदे केवलएन्या सकेरूपमेंिाररत`
+  line `ककयािािा – – िहांसमिुदेशकद्वारायाउसकेप्राविकारकेअिीिसमिुदेवशतीद्वारा प्र ाप्त व् यों के समिुदेश िकी को ईसूचिािहींदी`
+  line `िातीहै,िहांसमिुदेशककोऐसेप्राप्त व् यों केसंबंिमेंदेिदारद्वाराककयागयाऐसा कोईसंदायसमिुदे वशतीकेफायदेकेवलए न् या स`
+  line `केरूप मेंिाररतककयािाएगा,िो,यथावस्थ वत,समिुदेवशतीयाइसविवम त्त सय क्रूपसेप्रा विकृतउसकेअविकताव कोतुरंतसंदत्त`
+  line ककयािाएगा।
+  line `अध्या य 4 प्र`
+  line `ाप्त व् यों केसमिुदेशिकेवलएसंविदाकेपिकारोंकेअविकारऔरबाध्य ताएं`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `5
-11. प्र ाप्त व् यों के समिुदेशि केवलएसंविदाकेपिकारोंकेअविकारऔरबाध्य ताएं – – तत्स मयप्रिृत्तककसीअन्य विवि के
-उपबंिोंपरप्रवतकूलप्रिािडालेवबिा,देिदारकोसमिुदेवशतीद्वाराउससेकोईमांगककएिािेसेपूिविारा 8 केअिीिस मिुदेश ि
-कीसूचिाकाअविकारहोगाऔरदेिदारकोसूचिाकीतामीलककएिािेतकदेिदारसमिुदेवशतप्राप्त व् यों कीबाबतमूलसंविदाके
-अिुसारसमिुदे शककोसंदायकरिेकेवलएहकदारहोगाऔरऐसेसंदायसेदेिदारमूलसंविदाकेअिीितत्स मािदावयत्ि सेपूणवत:
-उन्मो वचतहोिाएगा। स्
-प ष् टी करण –– शंकाओंकोदूरकरिेकेवलएयह स् प ष् ट ककयािाताहैककइसिाराकीकोई बातिारा 9 केअिीि
-समिुदेवशतीकोसंदायकरिेके देिदारकेअविकारोंपरप्रिाििहींडालेगी।
-1 2. देिदारकादावयत्ि – – िहांिारा 8 मेंयथाविर्दवष्ट समिुदेशिकीसूचिाकीतामीलकीिातीहैिहांदेिदार, ––
-( क ) समिुदेशिकीसूचिाकीप्रावप्त सेपूिवसमिुदेशककोउसलेखेककएगएवििेपयाअविमयासंदायकेब्यौ रों
-कीसंसूचिासमिुदेवशतीकोदेगाऔरिबकिीसमिुदेवशतीद्वाराप्राप्त व् य केसंबंिमेंकोईअन्य सूचिाउपलब्ि करािेके
-वलएकहािाएतोिहउसेसमिुदेवशतीकोउपलब्ि कराएगा;
-( ख ) समिुदेवशतप्राप्त व् यों केसंबंिमेंअपिेदावयत्ि कोविविमान्य उन्मो चिका तबत कहकदारिहींहोगा,िब
-तकिहककन्हीं समिुदेवशतप्रा प् त व् यों परशोध्य संदायसमिुदेवशतीकोिहींकरदेताहै।
-1 3. समिुदेशककासमिुदेवशतीकान्या सीहोिा – – तत्स मयप्रिृत्तककसीअन्य विविमेंककसीप्रवतकूलबातकेहोतेहुएिी,
-िहांकोईदेिदारककसीसमिुदे श ककोऐसाकोईसंदायकरताहैिोककसीसमिुदेवशतीप्राप्त व् य परशोध्य संदायस्ि रू पकाहै,िहां
-ऐसासंदायसमिुदेवशतीकेफायदेकेवलएसमझािाएगाऔरसमिुदेशककेबारेमेंयहसमझािाएगाककउसिेसमिुदेवशतीकेककसी न्
-या सीकेरूपमेंऐसेसंदायकीरकमकोप्राप्त ककयाहैऔर समिुदेशक स मिुदेवशतीकोऐसीरकमकासंदायकरेगा।
-1 4. ऐसेसमिुदेशककीदशा में,िोसू क्ष् म यालघु उद्यमहै,देिदारकादावयत्ि – – (1) यकदप्राप्त व् यों कासमिुदेशककोईसूक्ष्म
-यालघुउद्यमहैतोसमिुदेवशतप्राप्त व् यों परशोध्य संदायकरिेकेवल एदेिदारकादावयत्ि,प्राप्त व् यों केविलंवबतसंदायोंकीबाबत
-सूक्ष्म,लघुऔरमध्य मउद्यमविकासअविवियम, 2006 (2 006 का 27) कीिारा 15 सेिारा 17 मेंअंतर्िव ष् ट उपबंिोंके
-अध्य िीिहोगा।
-(2) देिदारकीओरसेककसीसूक्ष्म यालघुउद्यमकेप्राप्त व् य कासंदायकरिेमेंविलंबहोिेकीदशामेंसमिुदेवशतीविलंवबत
-अिविकेवलएब्या िप्राप्त करिेकाहकदारहोगाऔरिहब्या िकीिसूलीकेप्रयोििकेवलएसूक्ष्म,लघुऔरमध्य मउद्यमविकास
-अविवियम, 2006 (2006 का 27) केउपबंिोंकेअिीि कारविाईकरेगाऔरसूक्ष्म या लघुउद्यमकोऐसेब्या िकासंदायकरेगा।
-1 5. देिदारसंरिणकावसद्ांत – – (1) इसअविवियममेंिैसाअन्य थाउपबंवितहै,उसकेवसिाय,प्राप्त व् य काकोई
-समिुदेशि,वलवखतमेंदेिदारकीअविव्य क् त सहमवतकेवबिा,देिदारकेअविकारोंऔरबाध्य ताओंको ( विसके अंतगवतसंवि दाके
-विबंििऔरशतेंिीहैं ) प्र िावितिहींकरेगा।
-(2) प्र ाप्त व् यों केसमिुदे शिकेपररणामस्ि रू प,समिुदेश कऔरदेिदारकेबीचहुईसंविदाकेअिीिसंदायअिुदे शद्वारा व्
-य वक्त केिाम,पते याउसखाते,विसमेंदेिदारसेऐसेसंदायकीअपेिाकी िातीहै,मेंउपांतरणककयािासकेगा,ककन्तु ऐसेअिुदेश द्व
-ाराविि वलवखतकेसंबंिमेंउपांतरणिहींककयािाएगा, ––
-( क ) मूलसंविदामेंविविर्दवष्ट ऋणकीरकम;या
-( ख ) मूलसंविदामेंविविर्दवष्ट िहस्था ि,िहांसंदायककयािािाहैयायकदसंविदामेंऐसाकोईस्था ििर्णवत
-िहींहै,तोसंदायकेस्था िसेिहांदेिदारवस्थ तहैविन्ि कोईस्था ि;या
-( ग ) िहतारीखविसकोसंदायककयािािाहैयासंदायसेसंबं वि तमूलसंविदाकेअन्य विबंिि।
-1 6. बचािऔरदेिदारकामुिरासंबंिीअविकार – – समिुदेवशतप्राप्त व् य केसंदायकेवलएदे िदारकेविरुद्समिुदेवशती द्व
-ाराककसीदािेमें,देिदारसम िुदेवशतीकेविरुद्विि वलवखतबातेंउिासकेगा, ––
-( क ) समिुदेशकऔरदेिदारकेबीचहुईमूलसंविदायाककसीअन्य संविदासेिोउसीसंव्य िहारकािागथा,
-उद्िूतसिीबचािऔरमुिराकाअविकारविसकादेिदार स् ि यंफायदाउसीप्रकारउिासकताहैमािोसमिुदेशिककया
-हीिहींगया हैऔरऐसादािासमिुदेवशतीकेबिायसमिुदेशकद्वाराककयागयाहै:
-परंतुसमिुदेवशती,िबतकककपिकारोंकेबीचअन्य थाकरारिपायािाए,समिु दे शकसे,ककन्हीं ऐसेबचािों
-यादेिदारद्वाराप्रयोगककएगएमुिरेकेअविकारकेपररणामस्ि रू पउसकेद्वाराउिाईगईककसीहाविकीिसूलीकरिेके
-वलएहकदारहोगा;
-( ख ) मुिराकाकोईअन्य अविकार,यकद िहिारा 8 केअिीिसमिुदेशिकीसूचिाकेदेिदारकोप्राप्त होिेके
-समयदेिदार कोउपलब्ि था।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 5
+  line `11. प्र ाप्त व् यों के समिुदेशि केवलएसंविदाकेपिकारोंकेअविकारऔरबाध्य ताएं – – तत्स मयप्रिृत्तककसीअन्य विवि के`
+  line `उपबंिोंपरप्रवतकूलप्रिािडालेवबिा,देिदारकोसमिुदेवशतीद्वाराउससेकोईमांगककएिािेसेपूिविारा 8 केअिीिस मिुदेश ि`
+  line `कीसूचिाकाअविकारहोगाऔरदेिदारकोसूचिाकीतामीलककएिािेतकदेिदारसमिुदेवशतप्राप्त व् यों कीबाबतमूलसंविदाके`
+  line `अिुसारसमिुदे शककोसंदायकरिेकेवलएहकदारहोगाऔरऐसेसंदायसेदेिदारमूलसंविदाकेअिीितत्स मािदावयत्ि सेपूणवत:`
+  line `उन्मो वचतहोिाएगा। स्`
+  line `प ष् टी करण –– शंकाओंकोदूरकरिेकेवलएयह स् प ष् ट ककयािाताहैककइसिाराकीकोई बातिारा 9 केअिीि`
+  line `समिुदेवशतीकोसंदायकरिेके देिदारकेअविकारोंपरप्रिाििहींडालेगी।`
+  line `1 2. देिदारकादावयत्ि – – िहांिारा 8 मेंयथाविर्दवष्ट समिुदेशिकीसूचिाकीतामीलकीिातीहैिहांदेिदार, ––`
+  line `( क ) समिुदेशिकीसूचिाकीप्रावप्त सेपूिवसमिुदेशककोउसलेखेककएगएवििेपयाअविमयासंदायकेब्यौ रों`
+  line `कीसंसूचिासमिुदेवशतीकोदेगाऔरिबकिीसमिुदेवशतीद्वाराप्राप्त व् य केसंबंिमेंकोईअन्य सूचिाउपलब्ि करािेके`
+  line `वलएकहािाएतोिहउसेसमिुदेवशतीकोउपलब्ि कराएगा;`
+  line `( ख ) समिुदेवशतप्राप्त व् यों केसंबंिमेंअपिेदावयत्ि कोविविमान्य उन्मो चिका तबत कहकदारिहींहोगा,िब`
+  line `तकिहककन्हीं समिुदेवशतप्रा प् त व् यों परशोध्य संदायसमिुदेवशतीकोिहींकरदेताहै।`
+  line `1 3. समिुदेशककासमिुदेवशतीकान्या सीहोिा – – तत्स मयप्रिृत्तककसीअन्य विविमेंककसीप्रवतकूलबातकेहोतेहुएिी,`
+  line `िहांकोईदेिदारककसीसमिुदे श ककोऐसाकोईसंदायकरताहैिोककसीसमिुदेवशतीप्राप्त व् य परशोध्य संदायस्ि रू पकाहै,िहां`
+  line `ऐसासंदायसमिुदेवशतीकेफायदेकेवलएसमझािाएगाऔरसमिुदेशककेबारेमेंयहसमझािाएगाककउसिेसमिुदेवशतीकेककसी न्`
+  line `या सीकेरूपमेंऐसेसंदायकीरकमकोप्राप्त ककयाहैऔर समिुदेशक स मिुदेवशतीकोऐसीरकमकासंदायकरेगा।`
+  line `1 4. ऐसेसमिुदेशककीदशा में,िोसू क्ष् म यालघु उद्यमहै,देिदारकादावयत्ि – – (1) यकदप्राप्त व् यों कासमिुदेशककोईसूक्ष्म`
+  line `यालघुउद्यमहैतोसमिुदेवशतप्राप्त व् यों परशोध्य संदायकरिेकेवल एदेिदारकादावयत्ि,प्राप्त व् यों केविलंवबतसंदायोंकीबाबत`
+  line `सूक्ष्म,लघुऔरमध्य मउद्यमविकासअविवियम, 2006 (2 006 का 27) कीिारा 15 सेिारा 17 मेंअंतर्िव ष् ट उपबंिोंके`
+  line `अध्य िीिहोगा।`
+  line `(2) देिदारकीओरसेककसीसूक्ष्म यालघुउद्यमकेप्राप्त व् य कासंदायकरिेमेंविलंबहोिेकीदशामेंसमिुदेवशतीविलंवबत`
+  line `अिविकेवलएब्या िप्राप्त करिेकाहकदारहोगाऔरिहब्या िकीिसूलीकेप्रयोििकेवलएसूक्ष्म,लघुऔरमध्य मउद्यमविकास`
+  line `अविवियम, 2006 (2006 का 27) केउपबंिोंकेअिीि कारविाईकरेगाऔरसूक्ष्म या लघुउद्यमकोऐसेब्या िकासंदायकरेगा।`
+  line `1 5. देिदारसंरिणकावसद्ांत – – (1) इसअविवियममेंिैसाअन्य थाउपबंवितहै,उसकेवसिाय,प्राप्त व् य काकोई`
+  line `समिुदेशि,वलवखतमेंदेिदारकीअविव्य क् त सहमवतकेवबिा,देिदारकेअविकारोंऔरबाध्य ताओंको ( विसके अंतगवतसंवि दाके`
+  line `विबंििऔरशतेंिीहैं ) प्र िावितिहींकरेगा।`
+  line `(2) प्र ाप्त व् यों केसमिुदे शिकेपररणामस्ि रू प,समिुदेश कऔरदेिदारकेबीचहुईसंविदाकेअिीिसंदायअिुदे शद्वारा व्`
+  line `य वक्त केिाम,पते याउसखाते,विसमेंदेिदारसेऐसेसंदायकीअपेिाकी िातीहै,मेंउपांतरणककयािासकेगा,ककन्तु ऐसेअिुदेश द्व`
+  line `ाराविि वलवखतकेसंबंिमेंउपांतरणिहींककयािाएगा, ––`
+  line `( क ) मूलसंविदामेंविविर्दवष्ट ऋणकीरकम;या`
+  line `( ख ) मूलसंविदामेंविविर्दवष्ट िहस्था ि,िहांसंदायककयािािाहैयायकदसंविदामेंऐसाकोईस्था ििर्णवत`
+  line `िहींहै,तोसंदायकेस्था िसेिहांदेिदारवस्थ तहैविन्ि कोईस्था ि;या`
+  line `( ग ) िहतारीखविसकोसंदायककयािािाहैयासंदायसेसंबं वि तमूलसंविदाकेअन्य विबंिि।`
+  line `1 6. बचािऔरदेिदारकामुिरासंबंिीअविकार – – समिुदेवशतप्राप्त व् य केसंदायकेवलएदे िदारकेविरुद्समिुदेवशती द्व`
+  line `ाराककसीदािेमें,देिदारसम िुदेवशतीकेविरुद्विि वलवखतबातेंउिासकेगा, ––`
+  line `( क ) समिुदेशकऔरदेिदारकेबीचहुईमूलसंविदायाककसीअन्य संविदासेिोउसीसंव्य िहारकािागथा,`
+  line `उद्िूतसिीबचािऔरमुिराकाअविकारविसकादेिदार स् ि यंफायदाउसीप्रकारउिासकताहैमािोसमिुदेशिककया`
+  line `हीिहींगया हैऔरऐसादािासमिुदेवशतीकेबिायसमिुदेशकद्वाराककयागयाहै:`
+  line `परंतुसमिुदेवशती,िबतकककपिकारोंकेबीचअन्य थाकरारिपायािाए,समिु दे शकसे,ककन्हीं ऐसेबचािों`
+  line `यादेिदारद्वाराप्रयोगककएगएमुिरेकेअविकारकेपररणामस्ि रू पउसकेद्वाराउिाईगईककसीहाविकीिसूलीकरिेके`
+  line वलएहकदारहोगा;
+  line `( ख ) मुिराकाकोईअन्य अविकार,यकद िहिारा 8 केअिीिसमिुदेशिकीसूचिाकेदेिदारकोप्राप्त होिेके`
+  line `समयदेिदार कोउपलब्ि था।`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `6
-1 7. मूलसंविदाकाउपांतरण – – (1) िारा 8 केअिीिककसीप्राप्त व् य केसमिुदेशिकीसूचिाकीतामीलकेपूिवसमिुदेशक
-औरदेिदारकेबीचककयागयाकोईकरार,विससेउसप्राप्त व् य कीबाबतसमिुदेवशतीकेअविकारोंपरप्रिािपड़ताहै,समिुदे वशती
-केविरुद्समािरूपसेप्रिािीहोगाऔरसमिुदेवशतीऐसेकरारद्वारायथाउपांतररतसमिुदेवशतप्राप्त व् यों मेंकेअविका रअर्िवत
-करलेगा।
-(2) समिुदेशकऔरदेिदारकेबीचसमिुदेशिकीसूचिाकेपश्चा त्ककयागयाऐसाकोईकरार,विससेसमिुदेवशतीके
-अविकारोंपर प्र िािपड़ताहै,समिुदेवशतीकेविरु द् तबतकअप्रिािीहोगा,िबतक, ––
-( क ) समिुदेवशतीउसकीसहमवतिहींदेदेताहै;या
-( ख ) प्र ाप्त व् य कायवपालिद्वारापूणवतयाउपार्िवतिहींककयािाताहैऔरमूलसंविदामेंउपांतरणकेवलएउपबंि
-िहींककयािाताहैयामूलसंवि दाकेसंदिवमेंयुवक्त मािसमिुदेवशतीउपांतरणकेवलएसहमवतिहींदेदेताहै।
-( 3 ) उपिारा (1) औरउपिारा (2) मेंअंतर्िवष्ट कोईबातसमिुदेशकयासमिुदेवशतीकेबीचककसीकरारकेिंगसेउद्िूत
-होिेिालेउिकेककसी अविकारपरप्रिाििहींडालेगी।
-1 8. संविदाकािंग – – यकदसमिुदेशकदेिदारकेसाथहुईमूलसंविदाकाकोईिंगकरताहैतोऐसािंगदेिदारको
-समिुदेवशतीसेदेिदारद्वाराफेक्ट रसंव्य िहारोंकेअिुसरणमेंसमिुदेशकयासमिुदेवशतीकोसंदत्तककसीरावशकीिसूलीकेवलए
-हकदारिहींबिाएगा:
-परंतुइसिारामेंअंतर्िवष्ट कोईबातमूलसंविदाकेिंगकेकारणदेिदारकोहुईकक सीहावियािुकसािीकास मिुदेश कसे
-दािाकरिेकेउसकेअवि कारोंकोप्रिावितिहींकरेगी।
-अध्या य 5
-समिुदेशिोंकारविस्री करण
-1 9. प्र ाप्त व् य संव्य िहारोंकेकवतपयस मिुदेश िोंकारविस्री करण – – 1 [ (1) प्रत् येक फेक्टर,वित्तीयआवस्त योंकाप्र वतिूवतकरण
-औरपुिगविितथाप्रवतिूवतवहतकाप्रितविअविवियम, 2002 कीिारा 20 केअिीिस्थावपतकेंरीयरविस्रीकेपासअपिेपिमें प्र
-ाप्यपारेषणकेप्रत्येकसंव्यिहारकीविवशवियोंकोऐसेपारेषणकेऐसेसमयऔरतारीखकेिी तर, ऐसीरीवतमेंऔरऐसीफीसका
-संदायकरिेकेअिीिरहतेहुए, िोविवहतकीिाएं, रविस्टरकरेगा। ] स्
-प ष् टी करण –– प्र ाप्त व् यों केसमिुदेशिकेप्रत्ये कसंव्य िहारकीविवशवष्ट योंको केंरीयरविस्री केपासफाइलकरिेकेप्रयोिि
-केवलएप्राप्त व् यों को विवि र् दवष्ट रू पसेयासािारण रू पसेदेिदारयाउसअि विके,विससेिेसंबंवितहै,संदिवमेंयाककसी अन्य ऐसे
-सामान्य प्र कारसे,विससेऐसे प्र ाप्त व् यों कीपहचािकीिासकतीहै,िर्णवतककयािासकेगा।
-2 [ (1 क)िहांककसीव्यापारप्राप्यकावित्तपोषणककसीव्यापा रप्राप्यवमवतकाटाप्रणालीकेमाध्यमसेककयािाताहै, िहां
-संबंवितव्यापारप्राप्यवमवतकाटाप्रणालीद्वाराफेक्टरकेविवमत्त केंरीयरविस्रीमेंउपिारा( 1 )औरउपिारा( 3 )मेंविविर्दवि
-विवशवियोंकोऐसीरीवतमें, िोविवियमोंद्वाराविविर्दविकीिाए, फाइलककयािाएगा। ]
-(2) इसअविवियमकेप्रयोििोंकेवलए,ककसीफेक्ट रकेपिमेंप्राप्त व् यों केसमिुदेशिसेसंबंवितसंव्य िहारोंकी
-विवशवष्ट यांप्रविष्ट करिेकेवलएकेंरीयरविस्री केमुखय कायावलयमें केंरीयरविस्ट रिामकएकअविलेखरखािाएगा।
-( 3 ) समिुदेवशतप्राप्त व् यों कीिसूलीपरयादेिदारकेविरुद्दािेकेविपटारेपरफेक्ट रअपिेपिमेंप्राप्त व् यों केसमिुदेशि
-कास मािािऐसीरीवतमेंऔरऐसीफीसका संदायकरिेकेअिीिरहतेहुए,िोइसविवमत्तविवहतकीिाए,फाइलकरेगा।
-( 4 ) वित्तीयआवस्त योंकाप्रवतिूवतकरणऔरपुिगविितथाप्रवतिूवतवहतकाप्रितविअविवियम, 2002 (2002 का 54) और
-उसकेअिीिबिाएगएवियमोंमेंसंव्य िहारोंकेरवि स् री कर णसंबंिीउपबंिकेंरीयरविस्री मेंरखेगएकेंरीयरविस्ट रमेंककसी
-फेक्ट रकेपिमेंप्राप्त व् यों केसमिुदेशिकेअविलेखकोयथाआिश्य कपररितविोंसवहतलागूहोंगे।
-20. लोकविरीिण – – (1) िारा 19 केअिीिप्राप्त व् यों केसमिुदेशिकेसंव्य िहारोंकीऐसेसंव्य िहारोंकेकेंरीयरविस्ट रमें प्र
-विष्ट विवशवष्ट यां,ऐसीफीसकेसंदायपर,िोविवहतकीिाए, ककसीव्य वक्त द्व ाराकामकािकेसमयकेदौरािविरीिणकेवलए
-खुलीरहेंगी।
-(2) िारा 19 कीउपिारा (2) मेंविर्दवष्ट केंरीयरविस्ट र,िोइलैक्रा विकरूपमेंरखागयाहो,ऐसीफीसकेसंदायपर,िो
-विवहतकीिाए,इलैक्रा विकमीवडयाकेमाध्य मसेकामकािके समययाऐसेविस्ता ररतसमयकेदौराि,िोकेन्री यरविस्री द्व ारा
-विविर्दवष्ट ककयािाए,ककसीव्य वक्त द्व ाराविरीिणकेवलएिीखुलारहेगा।
-1 2021 केअविवियमसं ० 21 कीिारा 4 द्व ाराप्रवतस्था वपत।
-2 2021 केअविवियमसं ० 21 कीिारा 4 द्व ाराअंत:स्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 6
+  line `1 7. मूलसंविदाकाउपांतरण – – (1) िारा 8 केअिीिककसीप्राप्त व् य केसमिुदेशिकीसूचिाकीतामीलकेपूिवसमिुदेशक`
+  line `औरदेिदारकेबीचककयागयाकोईकरार,विससेउसप्राप्त व् य कीबाबतसमिुदेवशतीकेअविकारोंपरप्रिािपड़ताहै,समिुदे वशती`
+  line `केविरुद्समािरूपसेप्रिािीहोगाऔरसमिुदेवशतीऐसेकरारद्वारायथाउपांतररतसमिुदेवशतप्राप्त व् यों मेंकेअविका रअर्िवत`
+  line करलेगा।
+  line `(2) समिुदेशकऔरदेिदारकेबीचसमिुदेशिकीसूचिाकेपश्चा त्ककयागयाऐसाकोईकरार,विससेसमिुदेवशतीके`
+  line `अविकारोंपर प्र िािपड़ताहै,समिुदेवशतीकेविरु द् तबतकअप्रिािीहोगा,िबतक, ––`
+  line `( क ) समिुदेवशतीउसकीसहमवतिहींदेदेताहै;या`
+  line `( ख ) प्र ाप्त व् य कायवपालिद्वारापूणवतयाउपार्िवतिहींककयािाताहैऔरमूलसंविदामेंउपांतरणकेवलएउपबंि`
+  line `िहींककयािाताहैयामूलसंवि दाकेसंदिवमेंयुवक्त मािसमिुदेवशतीउपांतरणकेवलएसहमवतिहींदेदेताहै।`
+  line `( 3 ) उपिारा (1) औरउपिारा (2) मेंअंतर्िवष्ट कोईबातसमिुदेशकयासमिुदेवशतीकेबीचककसीकरारकेिंगसेउद्िूत`
+  line `होिेिालेउिकेककसी अविकारपरप्रिाििहींडालेगी।`
+  line `1 8. संविदाकािंग – – यकदसमिुदेशकदेिदारकेसाथहुईमूलसंविदाकाकोईिंगकरताहैतोऐसािंगदेिदारको`
+  line `समिुदेवशतीसेदेिदारद्वाराफेक्ट रसंव्य िहारोंकेअिुसरणमेंसमिुदेशकयासमिुदेवशतीकोसंदत्तककसीरावशकीिसूलीकेवलए`
+  line `हकदारिहींबिाएगा:`
+  line `परंतुइसिारामेंअंतर्िवष्ट कोईबातमूलसंविदाकेिंगकेकारणदेिदारकोहुईकक सीहावियािुकसािीकास मिुदेश कसे`
+  line `दािाकरिेकेउसकेअवि कारोंकोप्रिावितिहींकरेगी।`
+  line `अध्या य 5`
+  line `समिुदेशिोंकारविस्री करण`
+  line `1 9. प्र ाप्त व् य संव्य िहारोंकेकवतपयस मिुदेश िोंकारविस्री करण – – 1 [ (1) प्रत् येक फेक्टर,वित्तीयआवस्त योंकाप्र वतिूवतकरण`
+  line `औरपुिगविितथाप्रवतिूवतवहतकाप्रितविअविवियम, 2002 कीिारा 20 केअिीिस्थावपतकेंरीयरविस्रीकेपासअपिेपिमें प्र`
+  line `ाप्यपारेषणकेप्रत्येकसंव्यिहारकीविवशवियोंकोऐसेपारेषणकेऐसेसमयऔरतारीखकेिी तर, ऐसीरीवतमेंऔरऐसीफीसका`
+  line `संदायकरिेकेअिीिरहतेहुए, िोविवहतकीिाएं, रविस्टरकरेगा। ] स्`
+  line `प ष् टी करण –– प्र ाप्त व् यों केसमिुदेशिकेप्रत्ये कसंव्य िहारकीविवशवष्ट योंको केंरीयरविस्री केपासफाइलकरिेकेप्रयोिि`
+  line `केवलएप्राप्त व् यों को विवि र् दवष्ट रू पसेयासािारण रू पसेदेिदारयाउसअि विके,विससेिेसंबंवितहै,संदिवमेंयाककसी अन्य ऐसे`
+  line `सामान्य प्र कारसे,विससेऐसे प्र ाप्त व् यों कीपहचािकीिासकतीहै,िर्णवतककयािासकेगा।`
+  line `2 [ (1 क)िहांककसीव्यापारप्राप्यकावित्तपोषणककसीव्यापा रप्राप्यवमवतकाटाप्रणालीकेमाध्यमसेककयािाताहै, िहां`
+  line `संबंवितव्यापारप्राप्यवमवतकाटाप्रणालीद्वाराफेक्टरकेविवमत्त केंरीयरविस्रीमेंउपिारा( 1 )औरउपिारा( 3 )मेंविविर्दवि`
+  line `विवशवियोंकोऐसीरीवतमें, िोविवियमोंद्वाराविविर्दविकीिाए, फाइलककयािाएगा। ]`
+  line `(2) इसअविवियमकेप्रयोििोंकेवलए,ककसीफेक्ट रकेपिमेंप्राप्त व् यों केसमिुदेशिसेसंबंवितसंव्य िहारोंकी`
+  line `विवशवष्ट यांप्रविष्ट करिेकेवलएकेंरीयरविस्री केमुखय कायावलयमें केंरीयरविस्ट रिामकएकअविलेखरखािाएगा।`
+  line `( 3 ) समिुदेवशतप्राप्त व् यों कीिसूलीपरयादेिदारकेविरुद्दािेकेविपटारेपरफेक्ट रअपिेपिमेंप्राप्त व् यों केसमिुदेशि`
+  line `कास मािािऐसीरीवतमेंऔरऐसीफीसका संदायकरिेकेअिीिरहतेहुए,िोइसविवमत्तविवहतकीिाए,फाइलकरेगा।`
+  line `( 4 ) वित्तीयआवस्त योंकाप्रवतिूवतकरणऔरपुिगविितथाप्रवतिूवतवहतकाप्रितविअविवियम, 2002 (2002 का 54) और`
+  line `उसकेअिीिबिाएगएवियमोंमेंसंव्य िहारोंकेरवि स् री कर णसंबंिीउपबंिकेंरीयरविस्री मेंरखेगएकेंरीयरविस्ट रमेंककसी`
+  line `फेक्ट रकेपिमेंप्राप्त व् यों केसमिुदेशिकेअविलेखकोयथाआिश्य कपररितविोंसवहतलागूहोंगे।`
+  line `20. लोकविरीिण – – (1) िारा 19 केअिीिप्राप्त व् यों केसमिुदेशिकेसंव्य िहारोंकीऐसेसंव्य िहारोंकेकेंरीयरविस्ट रमें प्र`
+  line `विष्ट विवशवष्ट यां,ऐसीफीसकेसंदायपर,िोविवहतकीिाए, ककसीव्य वक्त द्व ाराकामकािकेसमयकेदौरािविरीिणकेवलए`
+  line खुलीरहेंगी।
+  line `(2) िारा 19 कीउपिारा (2) मेंविर्दवष्ट केंरीयरविस्ट र,िोइलैक्रा विकरूपमेंरखागयाहो,ऐसीफीसकेसंदायपर,िो`
+  line `विवहतकीिाए,इलैक्रा विकमीवडयाकेमाध्य मसेकामकािके समययाऐसेविस्ता ररतसमयकेदौराि,िोकेन्री यरविस्री द्व ारा`
+  line `विविर्दवष्ट ककयािाए,ककसीव्य वक्त द्व ाराविरीिणकेवलएिीखुलारहेगा।`
+  line `1 2021 केअविवियमसं ० 21 कीिारा 4 द्व ाराप्रवतस्था वपत।`
+  line `2 2021 केअविवियमसं ० 21 कीिारा 4 द्व ाराअंत:स्था वपत।`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `7
-( 3 ) वित्ती यआवस्त योंकाप्रवतिूवतकरण औरपुिगविितथाप्रवतिूवतवहतकाप्रितविअविवियम, 2002 (2002 का 54) और
-उ सकेअिीिबिाएगएवियमोंमेंकेंरीयरविस्ट रकेरखेिािेऔरउसकेलोकविरीिणसंबंिीउपबंियथाआिश्य कपररितविों
-सवहतलागूहोंगे।
-अध्या य 6
-अपरािऔरशावस्त यां
-2 1. शावस्त यां – – यकदिारा 19 केअिीिककसीफेक्ट रद्वाराप्राप्त व् यों केसमिुदेशिऔरप्राप्त व् यों कीिसूलीकेककसी
-संव्य िहारकीविवशवष्ट यांफाइलकरिेमेंकोईव्य वतक्रमककयािाताहैतोऐसीकंपिीऔरकंपिीकाप्रत्ये कअविकारी,िोव्य वतक्रमी
-है,ऐसेिुमाविेसे,िोऐसेप्रत्ये ककदिकेवलए,विसकेदौरािव्य वतक्रमिारीरहता है,पांचहिाररुपए तककाहोसकेगा,
-दंडिीयहोगा।
-22. ररििवबैंककेविदेशकाअिुपालििकरिेकेवलएशावस्त – – (1) यकदकोईफेक्ट र,िारा 6 केअिीिररििवबैंकद्वारा
-िा रीककसीविदेश काअिुपालिकरिेसेअसफलरहताहै,तोररििवबैंकऐसीशावस्त,िोपांचलाखरुपएतककीहोसके गीऔर
-अ परािकेिारीरहिेकीदशामेंऐसा अवतररक्त िुमाविा,िोऐसेप्रत्ये ककदिकेवलए,विसकेदौरािव्य वतक्रमिारीरहताहै,दस
-हिाररुपएतककाहोसकेगा,अविरोवपतकरसकेगा।
-(2) ररििवबैंक,उपिारा (1) केअिीिशावस्त अविविणीतकरिेकेप्रयोििकेवलए,फे क् ट रकोउससेयहहेतुकदर्शव तकरिे
-कीअपेिाकरिेिालीसू चिाकीतामील करेगाककसूचिामेंविविर्दवष्ट रकमअविरोवपतक्यों िहींकीिािीचावहएऔरऐसे फेक्ट र
-कोसुििाईकायुवक्त युक्त अिसरिीकदयािाएगा।
-( 3 ) इसिाराकेअिीिररििवबैंकद्वाराअविरोवपतकोई शावस्त,उसतारीखसे,विसकोररििवबैंकद्वारारावशकेसंदायकी
-मांगकरिेसंबंिीसूचिाकीफेक्ट रपरतामीलकीिातीहै,चौदहकदिकीअिविकेिीतर,संदेयहोगीऔरफेक्ट रद्वाराउसअिवि
-केिीतररावशकासंदायकरिेमेंअसफलरहिेकीदशामें,उसिेत्रमें,िहां फेक्ट रकारविस्री कृतकायावलयवस्थ तहै,अथिाककसी
-फेक्ट रकेिारतकेबाहरविगवमतहोिेकीदशामें,िहांिारतमेंउसकेकारबारकामुखय स् था िवस्थ तहै,अविकाररतारखिेिाले प्र
-िािवसविलन्या यालयद्वाराकदएगएककसीविदेशपरउद्गृ हीतकीिासकेगी:
-परंतु ऐसाकोईविदेशररििवबैंकया इस विवमत्तररििवबैंकद्वाराप्राविकृतककसीअविकारीद्वारान्या यालयकोककएगए
-आिेदिपरहीकदयािाएगा,अन्य थािहीं।
-( 4 ) िहन्या यालय,िोउपिारा ( 3 ) केअिीिकोईविदेशदेताहै,फेक्ट रद्वारासंदेयरावशवि विर्दवष्ट करतेहुए एक प्र
-माण पत्रिारीकरेगाऔरऐसाप्रत्ये कप्रमाणपत्रउसीरीवतमेंप्रितविीयहोगा,मािोिहककसीवसविलिादमेंन्या यालयद्वाराकी
-गईकोईवडक्रीहो।
-2 3. अपराि – – यकदकोईव्य वक्त इसअविवियमयाउसकेअिीिबिाएगएककन्हीं वियमोंकेऐसेउपबंिोंकाउल्लं घिकर ता
-हैयाउल्लं घिकरिेकाप्रयासकरताहैयाउल्लं घिकरिेकादुष्प्रे रणकरताहै,वििकेसंबंिमेंककसीविविर्दवष्ट शावस्त काउपबंि
-िहींककयागयाहै,तोिहऐसेकारािाससे,विसकीअिविएकिषवतककीहोसकेगी,यािुमाविेसे,यादोिोंसे,दंडिीयहो गा।
-2 4. अ परािोंकासंज्ञाि – – (1) कोईिीन्या यालयइसअविवियमकेअिीिदंडिीयककसीअपरािकासंज्ञािररििवबैंकके
-ककसीऐसेअविकारीद्वारा,विसेररििवबैंकद्वाराइसविवमत्तवलवखतमेंसािारणरूपसेयाविशेषरूपसेप्राविकृतककया गया हो,
-वलवखतमेंककएगएककसीपररिादप रहीकरेगा,अन्य थािहीं।
-(2) महािगरमविस्रे टयाप्रथमिगवन्या वयकमविस्रे टकेन्या यालययाउिसेउच्च तरककसीन्या यालयसेविन्ि कोई न्
-या यालयइसअविवियमकेअिीिदंडिीयऐसेककसी अपरािकाविचारण िहींकरेगा।
-2 5. फेक्ट रोंद्वाराअपराि – – (1) िहांकक सीफेक्ट रद्वाराइसअविवियमकेअिीिकोईअपरािककयागयाहै,िहांऐसा प्रत्
-ये कव्य वक्त,िोअपरािकेककएिािेकेसमयफेक्ट रकािारसािकथाऔरफेक्ट रकेकारबारकेसंचा लिकेवलएफेक्ट रकेप्रवत
-उत्तरदायीथाऔरसाथहीफेक्ट रिीअपरािकादोषीमािािाएगाऔर तद्िु सारअपिेविरु द् कायविाहीककएिािेऔरदंवडतककए
-िािेकेवलएदायीहोगा:
-परंतुइसउपिारामेंअंतर्िवष्ट कोईबातऐसेककसीव्य वक्त कोइसअविवियममेंउपबंवित ककसीदंडकािागी िहीं
-बिाएगीयकदिहयहसावबतकरदेताहैककअपरािउसकीिािकारीकेवबिा ककयागया थायाउसिे ऐसेअपरािकेककएिािेके
-वििारणकेवलएसिीसय क्तत्प रताबरतीथी।
-(2) उपिारा (1) मेंअंतर्िवष्ट ककसीबातकेहोतेहुएिी,िहांइसअविवियमकेअिीि कोईअपरािककसीफेक्ट रद्वारा
-ककयागयाहैऔरयहसावबतहोिाताहैककिहअपरािफेक्ट रकेककसी विदेशक,प्रबंिक,सवचियाअन्य अविकारीकीसहमवतया
-उसकीमौिािुकलूतासेककयागयाहैयाउसअपरािकाककयािािाउसकीककसीउपेिाकेकारणमािािासकताहैिहांऐसा`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 7
+  line `( 3 ) वित्ती यआवस्त योंकाप्रवतिूवतकरण औरपुिगविितथाप्रवतिूवतवहतकाप्रितविअविवियम, 2002 (2002 का 54) और`
+  line `उ सकेअिीिबिाएगएवियमोंमेंकेंरीयरविस्ट रकेरखेिािेऔरउसकेलोकविरीिणसंबंिीउपबंियथाआिश्य कपररितविों`
+  line सवहतलागूहोंगे।
+  line `अध्या य 6`
+  line `अपरािऔरशावस्त यां`
+  line `2 1. शावस्त यां – – यकदिारा 19 केअिीिककसीफेक्ट रद्वाराप्राप्त व् यों केसमिुदेशिऔरप्राप्त व् यों कीिसूलीकेककसी`
+  line `संव्य िहारकीविवशवष्ट यांफाइलकरिेमेंकोईव्य वतक्रमककयािाताहैतोऐसीकंपिीऔरकंपिीकाप्रत्ये कअविकारी,िोव्य वतक्रमी`
+  line `है,ऐसेिुमाविेसे,िोऐसेप्रत्ये ककदिकेवलए,विसकेदौरािव्य वतक्रमिारीरहता है,पांचहिाररुपए तककाहोसकेगा,`
+  line दंडिीयहोगा।
+  line `22. ररििवबैंककेविदेशकाअिुपालििकरिेकेवलएशावस्त – – (1) यकदकोईफेक्ट र,िारा 6 केअिीिररििवबैंकद्वारा`
+  line `िा रीककसीविदेश काअिुपालिकरिेसेअसफलरहताहै,तोररििवबैंकऐसीशावस्त,िोपांचलाखरुपएतककीहोसके गीऔर`
+  line `अ परािकेिारीरहिेकीदशामेंऐसा अवतररक्त िुमाविा,िोऐसेप्रत्ये ककदिकेवलए,विसकेदौरािव्य वतक्रमिारीरहताहै,दस`
+  line हिाररुपएतककाहोसकेगा,अविरोवपतकरसकेगा।
+  line `(2) ररििवबैंक,उपिारा (1) केअिीिशावस्त अविविणीतकरिेकेप्रयोििकेवलए,फे क् ट रकोउससेयहहेतुकदर्शव तकरिे`
+  line `कीअपेिाकरिेिालीसू चिाकीतामील करेगाककसूचिामेंविविर्दवष्ट रकमअविरोवपतक्यों िहींकीिािीचावहएऔरऐसे फेक्ट र`
+  line `कोसुििाईकायुवक्त युक्त अिसरिीकदयािाएगा।`
+  line `( 3 ) इसिाराकेअिीिररििवबैंकद्वाराअविरोवपतकोई शावस्त,उसतारीखसे,विसकोररििवबैंकद्वारारावशकेसंदायकी`
+  line `मांगकरिेसंबंिीसूचिाकीफेक्ट रपरतामीलकीिातीहै,चौदहकदिकीअिविकेिीतर,संदेयहोगीऔरफेक्ट रद्वाराउसअिवि`
+  line `केिीतररावशकासंदायकरिेमेंअसफलरहिेकीदशामें,उसिेत्रमें,िहां फेक्ट रकारविस्री कृतकायावलयवस्थ तहै,अथिाककसी`
+  line `फेक्ट रकेिारतकेबाहरविगवमतहोिेकीदशामें,िहांिारतमेंउसकेकारबारकामुखय स् था िवस्थ तहै,अविकाररतारखिेिाले प्र`
+  line `िािवसविलन्या यालयद्वाराकदएगएककसीविदेशपरउद्गृ हीतकीिासकेगी:`
+  line `परंतु ऐसाकोईविदेशररििवबैंकया इस विवमत्तररििवबैंकद्वाराप्राविकृतककसीअविकारीद्वारान्या यालयकोककएगए`
+  line `आिेदिपरहीकदयािाएगा,अन्य थािहीं।`
+  line `( 4 ) िहन्या यालय,िोउपिारा ( 3 ) केअिीिकोईविदेशदेताहै,फेक्ट रद्वारासंदेयरावशवि विर्दवष्ट करतेहुए एक प्र`
+  line `माण पत्रिारीकरेगाऔरऐसाप्रत्ये कप्रमाणपत्रउसीरीवतमेंप्रितविीयहोगा,मािोिहककसीवसविलिादमेंन्या यालयद्वाराकी`
+  line गईकोईवडक्रीहो।
+  line `2 3. अपराि – – यकदकोईव्य वक्त इसअविवियमयाउसकेअिीिबिाएगएककन्हीं वियमोंकेऐसेउपबंिोंकाउल्लं घिकर ता`
+  line `हैयाउल्लं घिकरिेकाप्रयासकरताहैयाउल्लं घिकरिेकादुष्प्रे रणकरताहै,वििकेसंबंिमेंककसीविविर्दवष्ट शावस्त काउपबंि`
+  line `िहींककयागयाहै,तोिहऐसेकारािाससे,विसकीअिविएकिषवतककीहोसकेगी,यािुमाविेसे,यादोिोंसे,दंडिीयहो गा।`
+  line `2 4. अ परािोंकासंज्ञाि – – (1) कोईिीन्या यालयइसअविवियमकेअिीिदंडिीयककसीअपरािकासंज्ञािररििवबैंकके`
+  line `ककसीऐसेअविकारीद्वारा,विसेररििवबैंकद्वाराइसविवमत्तवलवखतमेंसािारणरूपसेयाविशेषरूपसेप्राविकृतककया गया हो,`
+  line `वलवखतमेंककएगएककसीपररिादप रहीकरेगा,अन्य थािहीं।`
+  line `(2) महािगरमविस्रे टयाप्रथमिगवन्या वयकमविस्रे टकेन्या यालययाउिसेउच्च तरककसीन्या यालयसेविन्ि कोई न्`
+  line `या यालयइसअविवियमकेअिीिदंडिीयऐसेककसी अपरािकाविचारण िहींकरेगा।`
+  line `2 5. फेक्ट रोंद्वाराअपराि – – (1) िहांकक सीफेक्ट रद्वाराइसअविवियमकेअिीिकोईअपरािककयागयाहै,िहांऐसा प्रत्`
+  line `ये कव्य वक्त,िोअपरािकेककएिािेकेसमयफेक्ट रकािारसािकथाऔरफेक्ट रकेकारबारकेसंचा लिकेवलएफेक्ट रकेप्रवत`
+  line `उत्तरदायीथाऔरसाथहीफेक्ट रिीअपरािकादोषीमािािाएगाऔर तद्िु सारअपिेविरु द् कायविाहीककएिािेऔरदंवडतककए`
+  line `िािेकेवलएदायीहोगा:`
+  line `परंतुइसउपिारामेंअंतर्िवष्ट कोईबातऐसेककसीव्य वक्त कोइसअविवियममेंउपबंवित ककसीदंडकािागी िहीं`
+  line `बिाएगीयकदिहयहसावबतकरदेताहैककअपरािउसकीिािकारीकेवबिा ककयागया थायाउसिे ऐसेअपरािकेककएिािेके`
+  line `वििारणकेवलएसिीसय क्तत्प रताबरतीथी।`
+  line `(2) उपिारा (1) मेंअंतर्िवष्ट ककसीबातकेहोतेहुएिी,िहांइसअविवियमकेअिीि कोईअपरािककसीफेक्ट रद्वारा`
+  line `ककयागयाहैऔरयहसावबतहोिाताहैककिहअपरािफेक्ट रकेककसी विदेशक,प्रबंिक,सवचियाअन्य अविकारीकीसहमवतया`
+  line उसकीमौिािुकलूतासेककयागयाहैयाउसअपरािकाककयािािाउसकीककसीउपेिाकेकारणमािािासकताहैिहांऐसा
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_10:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-10)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Page 10`)
-  (str content) (str `8
-विदेशक,प्रंबंिक,सवचियाअन्य अविकारीिीउसअपरािकादोषीसमझािाएगाऔर तद्िुसार अपिेविरुद्का यविाहीककएिािे
-औरदंवडतककएिािेकािागीहोगा। स्
-प ष् टी करण –– इसिाराकेप्रयोििकेवलएककसीफेक्ट रकेसंबंिमें “ विदेशक ” से ऐसाकोईअविकारीअविप्रेतहै,विसे
-फेक्ट रकासंपूणवयासारिाि्प्रबंिकायवसौंपागयाहै।
-अध्या य 7 प्र
-कीणव
-2 6. इसअविवियम केउपबंिों काअन्य विवियोंपरअध्या रोहीप्रिािहोिा – – इसअविवियमकेउपबंि,तत्स मयप्रिृत्त
-अन्य ककसीविवियाऐसीककसीविविकेआिारपरप्रिािीककसीवलखतमेंअंतर्िवष्ट इससेअसंगतककसीबातकेहोतेहुएिी, प्र
-िािीहोंगे।
-2 7. अन्य विवियोंकेलागूहोिेका िर्िवतिहोिा – – इ सअविवियमयाइसकेअिीिबिा एगएवियमोंकेउपबंिपर क्र ाय
-वलवखतअविवियम, 1881 (1881 का 26),संपवत्तअंतरणअविवियम, 1882 (1882 का 4),िारतीयररििवबैंकअविवियम, 1934
-(1934 का 2), बैंककारीविवियमिअविवियम, 1949 (1949 का 10),कंपिीअविवियम, 1956 (1956 का 1), वित्तीयआवस्त योंका प्र
-वतिूवतकरणऔरपुिगविि तथा प्र वतिूवतवहतकाप्रितविअविवियम, 2002 (2002 का 54),सूक्ष्म,लघुऔरमध्य मउद्यमविकास
-अविवियम, 2006 (2006 का 27) यातत्स मयप्रिृत्तकक सीअन्य विविकेअवतररक्त होंगेिककउिकेअल्पी करणमें।
-2 8. पररसीमा – – ककसीप्राप्त व् य काकोईिीसमिुदेवशतीककसीन्या यालययाअविकरणकेमाध्य मसेककसीसमिुदेवशत प्र
-ाप्त व् य कीिसूलीकेवलएककन्हीं उपायोंकोकरिेकातबतकहकदारिहींहोगा,िबतकककप्राप्त व् य केसंबंिमेंउसकादािा
-पररसीमाअविवियम, 1963 (1963 का 36) केअिीिविविर्दवष्ट पररसीमाकालकेिीतर ि ककयागयाहो।
-2 9. सूचिाकीगोपिीयता – – इसअविवियममेंअन्य थाउपबंवितकेवसिाययािबतकककतत्स मयप्रिृत्तविविकेककसी
-उपबंिकेअिीिककसीन्या यालययाअविकरणयाककसीअन्य कािूिीप्राविकारीद्वा रापाररतककसीआदेशद्वाराऐसाककयािािा
-अपेवितिहोयाप्राप्त व् य कीिसूलीकेप्रयोििकेवलएकोईफेक्ट रगोपिीयताबिाएरखेगाऔरउसकेद्वाराककसीसमिुदेशक,उसके
-ितवमािऔरिािीिाहकों,उसकेिावण वज्य कऔरकारबार संबंिीकक्रयाकलापों,समिुदेश कतथाककसी अन्य देिदारकेबीचविक्रयके
-विबंििोंसेअविप्राप्त सूचिाऔरसमिुदेशककेबारेमेंअन्य ब् यौ राककसीव्य वक्त कोप्रकटिहींकरेगा।
-30. छूटदेिेकी श वक्त – – (1) केंरीयसरकार,लोकवहतमेंअविसूचिाद्वारा,यहविदेशदेसकेगीककइसअविवियमकेकोई
-िीउपबंि, ––
-( क ) बैंकोंकेऐसेिगवयािगोंयाककसीकंपिीयाफेक्ट रकोलागूिहींहोंगे;या
-( ख ) बैंकोंकेऐसेिगवयािगोंयाककसीकंपिीयाफेक्ट रकोऐसेअपिादों,उपांतरणोंऔरअिुकूलिोंकेसाथलागू
-होगा,िोअविसूचिामेंविविर्दवष्ट ककएिाएं।
-(2) उपिारा (1) केअिीििारीप्रत्ये कअविसूचिाकीप्रवतयथाशीघ्रसंसद्केप्रत्ये कसदिकेसमि, ि बिहसत्रमेंहो,कुल
-तीसकदिकीअिविकेवलएरखीिाएगी।यहअिविएकसत्रमेंअथिादोयाअविकआिुक्रवमकसत्रों मेंपूरीहोसके गी।यकदउस
-सत्रकेयापूिोक्त आिुक्रवमकसत्रों केिीकबादकेसत्रकेअिसािकेपूिवदोिोंसदिउसअविसूचिा में कोईपररितविकरिे के वलए
-सहमतहोिाएंतोतत्प श् चा त्िहऐसेपररिर्तवतरूपमेंहीप्रिािीहोगी।यकदउक्त अिसािकेपूिवदोिोंसदिसहमतहोिाएंकक
-िहअविसूचिािारीिहींकीिाएगीतोतत्प श् चा त्िहविष्प्र िािीहोिाएगी।ककं तुअविसूचिाके ऐसे पररिर्तवतयाविष्प्र िािहोिे
-सेउसकेअिीिपहलेकीगईककसीबातकीविविमान्य तापरप्रवतकूलप्रिाििहींपड़े गा।
-3 1. कवतपयमामलोंमेंइसअविवियमकेउपबंिोंकालागूयाप्रिािीिहोिा – – (1) इसअविवियमके उपबंिविि वलवखत
-संव्य िहारों केअिीियाउिसेउद्िूतहोिेिाले प्र ाप्त व् यों केककसीसमिु देशिकोलागूिहींहोंगे,अथावत्: ––
-( क ) कारबारसंबंिी कक्रयाकलापोंकेककसीविलयि,अिवियासमामेलिअथिास्िा वमत्ि अथिाकारबारकी
-विविकप्रावस्थ वतकाविक्रययापरर ितवि;
-( ख ) िारतीयप्रवतिूवतऔरविवि म यबोडवअविवियम, 1992 (1992 का 15) केअिी िगरितिारतीयप्रवतिूवत
-औ रविवि म यबोडवयाअविमसंविदा ( विवियमि ) अविवि यम, 1952 (1952 का 74) केअिीिगरितअविमबािारआयोग द्व
-ाराक्रमश:विवियवमतककसीस्टॉ कएक्स चेंि यािस्तु विविमय केसंव्य िहार;
-( ग ) सिीबकायासंव्य िहारोंकीसमावप्त परऋणबद्ककसीप्राप्त व् य केवसिायिे टटंगकरारों द्व ाराशावसत
-वित्तीयसंविदाएं;
-( घ ) ककसीविदेशीकरेंसीकेप्राप्त व् यों केवसिायविदेशीमुरासंव्य िहार;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 10)
+  kind page
+  sectionId pdf-page-10
+  sectionNo (10)
+  orderNo 10
+  title `Page 10`
+  content obj_root_law_translations_hi_sections_10_content
+  footnotes obj_root_law_translations_hi_sections_10_footnotes
+  sourcePage 10
+obj_root_law_translations_hi_sections_10_content:
+  string
+  line 8
+  line `विदेशक,प्रंबंिक,सवचियाअन्य अविकारीिीउसअपरािकादोषीसमझािाएगाऔर तद्िुसार अपिेविरुद्का यविाहीककएिािे`
+  line `औरदंवडतककएिािेकािागीहोगा। स्`
+  line `प ष् टी करण –– इसिाराकेप्रयोििकेवलएककसीफेक्ट रकेसंबंिमें “ विदेशक ” से ऐसाकोईअविकारीअविप्रेतहै,विसे`
+  line `फेक्ट रकासंपूणवयासारिाि्प्रबंिकायवसौंपागयाहै।`
+  line `अध्या य 7 प्र`
+  line कीणव
+  line `2 6. इसअविवियम केउपबंिों काअन्य विवियोंपरअध्या रोहीप्रिािहोिा – – इसअविवियमकेउपबंि,तत्स मयप्रिृत्त`
+  line `अन्य ककसीविवियाऐसीककसीविविकेआिारपरप्रिािीककसीवलखतमेंअंतर्िवष्ट इससेअसंगतककसीबातकेहोतेहुएिी, प्र`
+  line िािीहोंगे।
+  line `2 7. अन्य विवियोंकेलागूहोिेका िर्िवतिहोिा – – इ सअविवियमयाइसकेअिीिबिा एगएवियमोंकेउपबंिपर क्र ाय`
+  line `वलवखतअविवियम, 1881 (1881 का 26),संपवत्तअंतरणअविवियम, 1882 (1882 का 4),िारतीयररििवबैंकअविवियम, 1934`
+  line `(1934 का 2), बैंककारीविवियमिअविवियम, 1949 (1949 का 10),कंपिीअविवियम, 1956 (1956 का 1), वित्तीयआवस्त योंका प्र`
+  line `वतिूवतकरणऔरपुिगविि तथा प्र वतिूवतवहतकाप्रितविअविवियम, 2002 (2002 का 54),सूक्ष्म,लघुऔरमध्य मउद्यमविकास`
+  line `अविवियम, 2006 (2006 का 27) यातत्स मयप्रिृत्तकक सीअन्य विविकेअवतररक्त होंगेिककउिकेअल्पी करणमें।`
+  line `2 8. पररसीमा – – ककसीप्राप्त व् य काकोईिीसमिुदेवशतीककसीन्या यालययाअविकरणकेमाध्य मसेककसीसमिुदेवशत प्र`
+  line `ाप्त व् य कीिसूलीकेवलएककन्हीं उपायोंकोकरिेकातबतकहकदारिहींहोगा,िबतकककप्राप्त व् य केसंबंिमेंउसकादािा`
+  line `पररसीमाअविवियम, 1963 (1963 का 36) केअिीिविविर्दवष्ट पररसीमाकालकेिीतर ि ककयागयाहो।`
+  line `2 9. सूचिाकीगोपिीयता – – इसअविवियममेंअन्य थाउपबंवितकेवसिाययािबतकककतत्स मयप्रिृत्तविविकेककसी`
+  line `उपबंिकेअिीिककसीन्या यालययाअविकरणयाककसीअन्य कािूिीप्राविकारीद्वा रापाररतककसीआदेशद्वाराऐसाककयािािा`
+  line `अपेवितिहोयाप्राप्त व् य कीिसूलीकेप्रयोििकेवलएकोईफेक्ट रगोपिीयताबिाएरखेगाऔरउसकेद्वाराककसीसमिुदेशक,उसके`
+  line `ितवमािऔरिािीिाहकों,उसकेिावण वज्य कऔरकारबार संबंिीकक्रयाकलापों,समिुदेश कतथाककसी अन्य देिदारकेबीचविक्रयके`
+  line `विबंििोंसेअविप्राप्त सूचिाऔरसमिुदेशककेबारेमेंअन्य ब् यौ राककसीव्य वक्त कोप्रकटिहींकरेगा।`
+  line `30. छूटदेिेकी श वक्त – – (1) केंरीयसरकार,लोकवहतमेंअविसूचिाद्वारा,यहविदेशदेसकेगीककइसअविवियमकेकोई`
+  line `िीउपबंि, ––`
+  line `( क ) बैंकोंकेऐसेिगवयािगोंयाककसीकंपिीयाफेक्ट रकोलागूिहींहोंगे;या`
+  line `( ख ) बैंकोंकेऐसेिगवयािगोंयाककसीकंपिीयाफेक्ट रकोऐसेअपिादों,उपांतरणोंऔरअिुकूलिोंकेसाथलागू`
+  line `होगा,िोअविसूचिामेंविविर्दवष्ट ककएिाएं।`
+  line `(2) उपिारा (1) केअिीििारीप्रत्ये कअविसूचिाकीप्रवतयथाशीघ्रसंसद्केप्रत्ये कसदिकेसमि, ि बिहसत्रमेंहो,कुल`
+  line `तीसकदिकीअिविकेवलएरखीिाएगी।यहअिविएकसत्रमेंअथिादोयाअविकआिुक्रवमकसत्रों मेंपूरीहोसके गी।यकदउस`
+  line `सत्रकेयापूिोक्त आिुक्रवमकसत्रों केिीकबादकेसत्रकेअिसािकेपूिवदोिोंसदिउसअविसूचिा में कोईपररितविकरिे के वलए`
+  line `सहमतहोिाएंतोतत्प श् चा त्िहऐसेपररिर्तवतरूपमेंहीप्रिािीहोगी।यकदउक्त अिसािकेपूिवदोिोंसदिसहमतहोिाएंकक`
+  line `िहअविसूचिािारीिहींकीिाएगीतोतत्प श् चा त्िहविष्प्र िािीहोिाएगी।ककं तुअविसूचिाके ऐसे पररिर्तवतयाविष्प्र िािहोिे`
+  line `सेउसकेअिीिपहलेकीगईककसीबातकीविविमान्य तापरप्रवतकूलप्रिाििहींपड़े गा।`
+  line `3 1. कवतपयमामलोंमेंइसअविवियमकेउपबंिोंकालागूयाप्रिािीिहोिा – – (1) इसअविवियमके उपबंिविि वलवखत`
+  line `संव्य िहारों केअिीियाउिसेउद्िूतहोिेिाले प्र ाप्त व् यों केककसीसमिु देशिकोलागूिहींहोंगे,अथावत्: ––`
+  line `( क ) कारबारसंबंिी कक्रयाकलापोंकेककसीविलयि,अिवियासमामेलिअथिास्िा वमत्ि अथिाकारबारकी`
+  line `विविकप्रावस्थ वतकाविक्रययापरर ितवि;`
+  line `( ख ) िारतीयप्रवतिूवतऔरविवि म यबोडवअविवियम, 1992 (1992 का 15) केअिी िगरितिारतीयप्रवतिूवत`
+  line `औ रविवि म यबोडवयाअविमसंविदा ( विवियमि ) अविवि यम, 1952 (1952 का 74) केअिीिगरितअविमबािारआयोग द्व`
+  line `ाराक्रमश:विवियवमतककसीस्टॉ कएक्स चेंि यािस्तु विविमय केसंव्य िहार;`
+  line `( ग ) सिीबकायासंव्य िहारोंकीसमावप्त परऋणबद्ककसीप्राप्त व् य केवसिायिे टटंगकरारों द्व ाराशावसत`
+  line वित्तीयसंविदाएं;
+  line `( घ ) ककसीविदेशीकरेंसीकेप्राप्त व् यों केवसिायविदेशीमुरासंव्य िहार;`
+obj_root_law_translations_hi_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_11:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-11)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Page 11`)
-  (str content) (str `9
-( ङ ) प्र वतिूवतयोंयाअन्य वित्तीयआवस्त योंयावलखतोंसेसंबंवितअंत:बैंकसंदायप्रणावलयां,अंत:बैंकसंदाय
-करारयासमाशोििऔरसमािािप्रणावलयां;
-( च ) बैंकवििेप;
-( छ ) प्रत् य यपत्रयास्ि तंत्रप्रत्या िूवत;
-( ि ) परक्राय वलखतों,िाण्डा गारण ( विकासऔरअविवियम ि ) अविवि य म, 2007 (2007 का 37) केअिीि
-परक्राय िांडागा रणप्रावप्त योंकोयाऐसीवलखतों,िोककसीविवियारूक़िद्वारातत्स मयपरक्राय हैंयामालकेहकके
-ककसीिावण वज्य कदस्ता िेिकोशावसतकरिेिालीविविकेअिीिककसीव्य वक्त केअविकारऔरबाध्य ताएं;
-( झ ) ककसीिैयवक्त क,कौटुवब क याघरेलूउपयोगकेवलएमालयासेिाओंकाविक्रय;
-( ञ ) ककसीबैंकयागैर - बैंककारीवित्तीयकंपिीद्वाराककसीअन्य बैंकयागैर - बैंककारीवित्तीयकंपिीकोऋण प्र
-ाप्त व् यों काकोईसमिुदेशि;
-( ट ) प्र वतिूवतकरणसंव्य िहार ( वििकेअंतगवतऐसेविशेषप्रयोििमाध्य मोंया न् या सोंकोप्राप्त व् यों कासमिुदेशि
-िीहै,िोककसीएकलदेिदारयादेिदारोंकेएकलसमूहसेक्रयककएगएऐसेप्राप्त व् यों केसंबंिमेंप्रवतिूवतयांिारी
-करताहै )।
-(2) इसअविवियमकीकोईबातउपिोक्ता संरिणअविवियम, 1986 (1986 का 68) केउपबंिोंकेअिी िककसी
-उपिोक्ता,विविमावता,व्या पारीयासेिाप्रदाताकेअविकारोंऔरबाध्य ताओंपरप्रिाििहींडा लेगी।
-1 [ 31 क.(1)इसअविवियमकेउपबंिोंकोपूराकरिेकेवलएररििवबैंकअविसूचिाद्वाराइसअविवियमसेसुसंगतविवियम
-बिासकेगा।
-(2) विवशितयाऔरपूिवगामी शविकीव्यापकतापरप्रवतकूलप्रिािडालेवबिाऐसेविवियमविम्नवलवखतसिीयाककन्हीं
-विषयोंकेवलएउपबंिकरसकेंगे, अथावत्: —
-( क)िारा 3 कीउपिारा( 4 )केअिीिरविस्रीकरणप्रमाणपत्रअिुदत्तकरिेकीरीवत;
-( ख)िारा 19 की उपिारा( 1 क)केअिीिफेक्टरकेवि वमत्तकेंरीयरविस्रीकेपाससंव्यिहारोंकीविवशवियां
-फाइलकरिेकीरीवत;
-( ग)कोईअन्यविषय, िोअपेवितहोंयाविवियमोंद्वाराविविर्दविककयािाए।
-(3) ररििवबैंकद्वाराबिायागयाप्रत्येकविवियमबिाएिािेकेपश्चात्यथासंििशीघ्रकेंरीयसरका रकोअिेवषतककया
-िाएगाऔरकेंरीयसरकारद्वाराउसकीएकप्रवतकोसंसद्केप्रत्येकसदिकेसमि, िबिहसत्रमेंहो, कुलतीसकदिकी अिविके
-वलएरखािाएगा।यहअिविएकसत्रमेंअथिादोयाअविकआिुक्रवमकसत्रोंमेंपूरीहोसकेगी।यकदउससत्रकेयापूिो ि
-आिुक्रवमकसत्रोंकेिीकबादकेसत्रकेअिसािकेपूिवदोिोंसदि, उसविवियममेंकोईपररितविकरिेकेवलएसहमतहोिा एंतो
-तत्पश्चात्िहऐसेपररिर्तवतरूपमेंहीप्रिािीहोगा।यकदउिअिसािकेपूिवदोिोंसदिसहमतहोिाएंककिहविवियम िहीं
-बिायािािाचावह एतोतत्पश्चात्िहविवियमविष्प्रिािहोिाएगा।ककंतुविवियमकेइसप्रकारपररिर्तवतयाविष्प्रिाि हो िेसे
-उसकेअिीिपहलेकीगईककसीबातकीविविमान्यतापरप्रवतकूलप्रिाििहींपड़ेगा। ]
-3 2. वियमबिािेकीकेन्री यसरकारकीशवक्त – – (1) केन्री यसरकार,ररि िवबैंककेपरामशवसे,अविसूचिाद्वाराऔर
-सूचिाप्रौद्योवगकीअविवियम, 2000 (2000 का 21) कीिारा 2 कीउपिारा (1) केखंड ( ि ) मेंयथापररिावषतइलैक्रा विकरािपत्रमें
-इसअविवियमकेउपबंिोंकोलागूकरिेकेवलएवियमबिासकेगी।
-(2) विवशष्ट तयाऔरपूिवगामीशवक्त योंकीव्या पकतापरप्रवतकूलप्रिािडालेवबिा,ऐसेवियमविि वलवखतसिीया
-ककन्हीं विषयोंकेवलएउपबंिकरसकेंगे,अथावत्: ––
-( क ) 2 [ िहसमय, विसकेिीतर, प्ररू पऔररीवत ],विसमेंिारा 1 9 कीउपिारा (1) केअिीिप्राप्त व् यों के
-समिुदेशिकेसंव्य िहारोंको ककसीफेक्ट रकेपिमेंफाइलककयािाएगाऔरऐसेसंव्य िहारकोफाइलकरिेकेवलएफीस;
-( ख ) िहप्ररूप औररीवत,विसमेंिारा 1 9 कीउपिारा ( 3 ) केअिीिप्राप्त व् यों केसमिुदेशिोंकासमािािया
-दािेकेविपटारेकोरविस्ट रककयािाएगाऔरऐसेसंव्य िहारोंकोफाइलकर िेकेवलएफीस;
-( ग ) िारा 20 केअिीिकेन्री य रविस्ट रकाविरी िणकरिेकेवलएफीस;और
-( घ ) ऐसाकोई अन्य विषय,विसेविवहतकरिाअपेवितहैयाविसेविवहतककयािाए,विसकेसंबंिमेंउपबंि
-वियमद्वाराककयािािाहोगायाककयािासकेगा।
-1 2021 केअविवियमसं ० 21 कीिारा 5 द्व ाराअंत:स्था वपत।
-2 2021 के अविवियमसं ० 21 कीिारा 6 द्व ाराप्रवतस्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 11)
+  kind page
+  sectionId pdf-page-11
+  sectionNo (11)
+  orderNo 11
+  title `Page 11`
+  content obj_root_law_translations_hi_sections_11_content
+  footnotes obj_root_law_translations_hi_sections_11_footnotes
+  sourcePage 11
+obj_root_law_translations_hi_sections_11_content:
+  string
+  line 9
+  line `( ङ ) प्र वतिूवतयोंयाअन्य वित्तीयआवस्त योंयावलखतोंसेसंबंवितअंत:बैंकसंदायप्रणावलयां,अंत:बैंकसंदाय`
+  line करारयासमाशोििऔरसमािािप्रणावलयां;
+  line `( च ) बैंकवििेप;`
+  line `( छ ) प्रत् य यपत्रयास्ि तंत्रप्रत्या िूवत;`
+  line `( ि ) परक्राय वलखतों,िाण्डा गारण ( विकासऔरअविवियम ि ) अविवि य म, 2007 (2007 का 37) केअिीि`
+  line `परक्राय िांडागा रणप्रावप्त योंकोयाऐसीवलखतों,िोककसीविवियारूक़िद्वारातत्स मयपरक्राय हैंयामालकेहकके`
+  line `ककसीिावण वज्य कदस्ता िेिकोशावसतकरिेिालीविविकेअिीिककसीव्य वक्त केअविकारऔरबाध्य ताएं;`
+  line `( झ ) ककसीिैयवक्त क,कौटुवब क याघरेलूउपयोगकेवलएमालयासेिाओंकाविक्रय;`
+  line `( ञ ) ककसीबैंकयागैर - बैंककारीवित्तीयकंपिीद्वाराककसीअन्य बैंकयागैर - बैंककारीवित्तीयकंपिीकोऋण प्र`
+  line `ाप्त व् यों काकोईसमिुदेशि;`
+  line `( ट ) प्र वतिूवतकरणसंव्य िहार ( वििकेअंतगवतऐसेविशेषप्रयोििमाध्य मोंया न् या सोंकोप्राप्त व् यों कासमिुदेशि`
+  line `िीहै,िोककसीएकलदेिदारयादेिदारोंकेएकलसमूहसेक्रयककएगएऐसेप्राप्त व् यों केसंबंिमेंप्रवतिूवतयांिारी`
+  line `करताहै )।`
+  line `(2) इसअविवियमकीकोईबातउपिोक्ता संरिणअविवियम, 1986 (1986 का 68) केउपबंिोंकेअिी िककसी`
+  line `उपिोक्ता,विविमावता,व्या पारीयासेिाप्रदाताकेअविकारोंऔरबाध्य ताओंपरप्रिाििहींडा लेगी।`
+  line `1 [ 31 क.(1)इसअविवियमकेउपबंिोंकोपूराकरिेकेवलएररििवबैंकअविसूचिाद्वाराइसअविवियमसेसुसंगतविवियम`
+  line बिासकेगा।
+  line `(2) विवशितयाऔरपूिवगामी शविकीव्यापकतापरप्रवतकूलप्रिािडालेवबिाऐसेविवियमविम्नवलवखतसिीयाककन्हीं`
+  line `विषयोंकेवलएउपबंिकरसकेंगे, अथावत्: —`
+  line `( क)िारा 3 कीउपिारा( 4 )केअिीिरविस्रीकरणप्रमाणपत्रअिुदत्तकरिेकीरीवत;`
+  line `( ख)िारा 19 की उपिारा( 1 क)केअिीिफेक्टरकेवि वमत्तकेंरीयरविस्रीकेपाससंव्यिहारोंकीविवशवियां`
+  line फाइलकरिेकीरीवत;
+  line `( ग)कोईअन्यविषय, िोअपेवितहोंयाविवियमोंद्वाराविविर्दविककयािाए।`
+  line `(3) ररििवबैंकद्वाराबिायागयाप्रत्येकविवियमबिाएिािेकेपश्चात्यथासंििशीघ्रकेंरीयसरका रकोअिेवषतककया`
+  line `िाएगाऔरकेंरीयसरकारद्वाराउसकीएकप्रवतकोसंसद्केप्रत्येकसदिकेसमि, िबिहसत्रमेंहो, कुलतीसकदिकी अिविके`
+  line `वलएरखािाएगा।यहअिविएकसत्रमेंअथिादोयाअविकआिुक्रवमकसत्रोंमेंपूरीहोसकेगी।यकदउससत्रकेयापूिो ि`
+  line `आिुक्रवमकसत्रोंकेिीकबादकेसत्रकेअिसािकेपूिवदोिोंसदि, उसविवियममेंकोईपररितविकरिेकेवलएसहमतहोिा एंतो`
+  line `तत्पश्चात्िहऐसेपररिर्तवतरूपमेंहीप्रिािीहोगा।यकदउिअिसािकेपूिवदोिोंसदिसहमतहोिाएंककिहविवियम िहीं`
+  line `बिायािािाचावह एतोतत्पश्चात्िहविवियमविष्प्रिािहोिाएगा।ककंतुविवियमकेइसप्रकारपररिर्तवतयाविष्प्रिाि हो िेसे`
+  line `उसकेअिीिपहलेकीगईककसीबातकीविविमान्यतापरप्रवतकूलप्रिाििहींपड़ेगा। ]`
+  line `3 2. वियमबिािेकीकेन्री यसरकारकीशवक्त – – (1) केन्री यसरकार,ररि िवबैंककेपरामशवसे,अविसूचिाद्वाराऔर`
+  line `सूचिाप्रौद्योवगकीअविवियम, 2000 (2000 का 21) कीिारा 2 कीउपिारा (1) केखंड ( ि ) मेंयथापररिावषतइलैक्रा विकरािपत्रमें`
+  line इसअविवियमकेउपबंिोंकोलागूकरिेकेवलएवियमबिासकेगी।
+  line `(2) विवशष्ट तयाऔरपूिवगामीशवक्त योंकीव्या पकतापरप्रवतकूलप्रिािडालेवबिा,ऐसेवियमविि वलवखतसिीया`
+  line `ककन्हीं विषयोंकेवलएउपबंिकरसकेंगे,अथावत्: ––`
+  line `( क ) 2 [ िहसमय, विसकेिीतर, प्ररू पऔररीवत ],विसमेंिारा 1 9 कीउपिारा (1) केअिीिप्राप्त व् यों के`
+  line `समिुदेशिकेसंव्य िहारोंको ककसीफेक्ट रकेपिमेंफाइलककयािाएगाऔरऐसेसंव्य िहारकोफाइलकरिेकेवलएफीस;`
+  line `( ख ) िहप्ररूप औररीवत,विसमेंिारा 1 9 कीउपिारा ( 3 ) केअिीिप्राप्त व् यों केसमिुदेशिोंकासमािािया`
+  line `दािेकेविपटारेकोरविस्ट रककयािाएगाऔरऐसेसंव्य िहारोंकोफाइलकर िेकेवलएफीस;`
+  line `( ग ) िारा 20 केअिीिकेन्री य रविस्ट रकाविरी िणकरिेकेवलएफीस;और`
+  line `( घ ) ऐसाकोई अन्य विषय,विसेविवहतकरिाअपेवितहैयाविसेविवहतककयािाए,विसकेसंबंिमेंउपबंि`
+  line वियमद्वाराककयािािाहोगायाककयािासकेगा।
+  line `1 2021 केअविवियमसं ० 21 कीिारा 5 द्व ाराअंत:स्था वपत।`
+  line `2 2021 के अविवियमसं ० 21 कीिारा 6 द्व ाराप्रवतस्था वपत।`
+obj_root_law_translations_hi_sections_11_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_12:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-12)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Page 12`)
-  (str content) (str `10
-33. वियमोंकारखािािा – – इसअविवियमकेअिीिबिायागयाप्रत्ये कवियम,बिाएिािेकेपश्चा त्यथाशीघ्रसंसद्के प्रत्
-ये कसदिकेसमि,िबिहसत्रमेंहो,कुलतीसकदिकी अिवि केवलएरखािाएगा।यहअिविएकसत्रमेंअथिा दोयाअविक
-आिुक्रवमक सत्रोंमेंपूरीहोसकेगी।यकदउससत्रके यापूिोक्त आिुक्रवमकसत्रों के िीकबाद केसत्रकेअिसािकेपूिवदो िोंसदिउस
-वियममेंकोईपररितविकरिेकेवलएसहमतहोिाएंतोतत्प श् चा त्िहऐसेपररिर्तवतरूपमेंहीप्रिािीहोगा।यकदउक्त अिसािके
-पूिव दोिोंसदिसहमतहोिाएंककिहवियमिहींबिाया िािाचावहएतोतत्प श् चा त्िहवियमविष्प्र िािीहोिाएगा।ककंतुवियम
-केऐसेपररिर्तवतयाविष्प्र िािहोिेसेउसकेअिीिपहलेकीगईककसीबातकीविविमान्य तापरप्रवतकूलप्रिाििहींपड़ेगा।
-3 4. करििाइयोंकोदूरकरिेकीशवक्त – – (1) यकदइसअविवियमकेउपबंिों कोप्रिािीकरिेमेंकोईकरििाईउत्प न् ि होती
-हैतोकन्री यसरकार,रािपत्रमेंप्रकावशतआदेशद्वारा,ऐसेउपबंिकरसकेगी,िोइसअविवियमकेउपबंिोंसेअसंगतिहोंऔर
-करििाईकोदूरकरिेकेवलएआिश्ि यकप्रतीतहों:
-परंतुइसिाराकेअिीिऐसाकोईआदेशइसअवि वियमकेप्रारंिसेदोिषवकीअिविकीसमावप्त केपश्चा त्िहीं
-ककयािाएगा।
-(2) इसिाराकेअिीिककयागयाप्रत्ये कआदेशउसकेककएिािेकेपश्चा त्यथाशीघ्र,संसद्केप्रत्ये कसदिकेसमि
-रखािाएगा।
-3 5. कवतपयअविवियवमवतयोंकासंशोिि – – अिुसूचीमें विविर्दवष्ट अविवियवमवतयोंकोउसमेंविविर्दवष्ट रीवतमेंसंशोवित
-ककयािाएगा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 12)
+  kind page
+  sectionId pdf-page-12
+  sectionNo (12)
+  orderNo 12
+  title `Page 12`
+  content obj_root_law_translations_hi_sections_12_content
+  footnotes obj_root_law_translations_hi_sections_12_footnotes
+  sourcePage 12
+obj_root_law_translations_hi_sections_12_content:
+  string
+  line 10
+  line `33. वियमोंकारखािािा – – इसअविवियमकेअिीिबिायागयाप्रत्ये कवियम,बिाएिािेकेपश्चा त्यथाशीघ्रसंसद्के प्रत्`
+  line `ये कसदिकेसमि,िबिहसत्रमेंहो,कुलतीसकदिकी अिवि केवलएरखािाएगा।यहअिविएकसत्रमेंअथिा दोयाअविक`
+  line `आिुक्रवमक सत्रोंमेंपूरीहोसकेगी।यकदउससत्रके यापूिोक्त आिुक्रवमकसत्रों के िीकबाद केसत्रकेअिसािकेपूिवदो िोंसदिउस`
+  line `वियममेंकोईपररितविकरिेकेवलएसहमतहोिाएंतोतत्प श् चा त्िहऐसेपररिर्तवतरूपमेंहीप्रिािीहोगा।यकदउक्त अिसािके`
+  line `पूिव दोिोंसदिसहमतहोिाएंककिहवियमिहींबिाया िािाचावहएतोतत्प श् चा त्िहवियमविष्प्र िािीहोिाएगा।ककंतुवियम`
+  line `केऐसेपररिर्तवतयाविष्प्र िािहोिेसेउसकेअिीिपहलेकीगईककसीबातकीविविमान्य तापरप्रवतकूलप्रिाििहींपड़ेगा।`
+  line `3 4. करििाइयोंकोदूरकरिेकीशवक्त – – (1) यकदइसअविवियमकेउपबंिों कोप्रिािीकरिेमेंकोईकरििाईउत्प न् ि होती`
+  line `हैतोकन्री यसरकार,रािपत्रमेंप्रकावशतआदेशद्वारा,ऐसेउपबंिकरसकेगी,िोइसअविवियमकेउपबंिोंसेअसंगतिहोंऔर`
+  line `करििाईकोदूरकरिेकेवलएआिश्ि यकप्रतीतहों:`
+  line `परंतुइसिाराकेअिीिऐसाकोईआदेशइसअवि वियमकेप्रारंिसेदोिषवकीअिविकीसमावप्त केपश्चा त्िहीं`
+  line ककयािाएगा।
+  line `(2) इसिाराकेअिीिककयागयाप्रत्ये कआदेशउसकेककएिािेकेपश्चा त्यथाशीघ्र,संसद्केप्रत्ये कसदिकेसमि`
+  line रखािाएगा।
+  line `3 5. कवतपयअविवियवमवतयोंकासंशोिि – – अिुसूचीमें विविर्दवष्ट अविवियवमवतयोंकोउसमेंविविर्दवष्ट रीवतमेंसंशोवित`
+  line ककयािाएगा।
+obj_root_law_translations_hi_sections_12_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_13:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-13)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Page 13`)
-  (str content) (str `11
-अिुसूची
-( िारा 35 देवखए )
-िषव अविवियमसं 0 संविप्त िाम संशोिि
-1899 2 िारतीयस्टां पअविवियम, 189 9 िारा 8 गके पश्चा त्विि वलवखतिाराअंत: स् था वपतकी
-िाएगी,अथावत्: ––
-‘ 8 घ. प्र ाप्त व् यों केसमिुदेशिकेसंबंिमेंस्टां पशु ल् क केवलए
-गैर - दायीक रारयादस्ता िेि –– इसअविवियमयातत्स मय प्र
-िृत्तककसीअन्य विविमेंअंतर्िवष्ट ककसीबातकेहोतेहुए
-िी,फेक्ट रविवियमिअविवियम, 2011 कीिा रा 2 केखंड
-( त ) मेंयथापररिावषत “ प्र ा प् त व् यों ” काउक्त अविवियमकी
-िारा 2 केखंड ( झ ) मेंयथापररिावषतककसी “ फेक्ट र ” के
-पिमेंसमिुदेशिकरिेकेसंबंिमेंकोईकरारयाअन्य
-दस्ता िेिइसअविवियमयातत्स मयप्रिृत्तककसीअन्य विवि
-केअिीिशुल्क केवलएदायीिहीं हो गा। ’।
-1908 5 वसविलप्र कक्रयासंवहता, 1908 आदेश 37 केवियम 1 के उप वियम (2) केखंड ( ख ) में
-उपखंड (iii) केपश्चा त्विि वलवखतउपखंडअंत:स्था वपत
-ककयािाएगा,अथावत्: ––
-“(iv) प्र ाप्त व् य केककसीसमिुदेवशतीद्वाराप्राप्त व् यों की
-िसूलीकेवलएसंवस्थ तकोईिाद। ”।
-1934 2 िार तीयररििवबैंकअविवियम, 1934 िारा 8 कीउपिारा (1) केखंड ( घ ) में, “ एक ” शब्द के स्
-था िपर “ दो ” श ब् द रखािाएगा।
-2005 30 प्रत् य यविषयकिािकारीकंपिी
-( विवियमि ) अविवियम, 2005
-िारा 2 केखंड ( च ) मेंउपखंड (ii) केपश्चा त्विि वलवखत
-उपखंडअंत:स्था वपतककया िाएगा,अथावत्: ––
-“(ii क ) फेक्ट रविवियमिअविवियम, 2011 कीिारा 2 के
-खंड ( झ ) केअिीियथापररिावषतकोईफेक्ट र; ”।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 13)
+  kind page
+  sectionId pdf-page-13
+  sectionNo (13)
+  orderNo 13
+  title `Page 13`
+  content obj_root_law_translations_hi_sections_13_content
+  footnotes obj_root_law_translations_hi_sections_13_footnotes
+  sourcePage 13
+obj_root_law_translations_hi_sections_13_content:
+  string
+  line 11
+  line अिुसूची
+  line `( िारा 35 देवखए )`
+  line `िषव अविवियमसं 0 संविप्त िाम संशोिि`
+  line `1899 2 िारतीयस्टां पअविवियम, 189 9 िारा 8 गके पश्चा त्विि वलवखतिाराअंत: स् था वपतकी`
+  line `िाएगी,अथावत्: ––`
+  line `‘ 8 घ. प्र ाप्त व् यों केसमिुदेशिकेसंबंिमेंस्टां पशु ल् क केवलए`
+  line `गैर - दायीक रारयादस्ता िेि –– इसअविवियमयातत्स मय प्र`
+  line `िृत्तककसीअन्य विविमेंअंतर्िवष्ट ककसीबातकेहोतेहुए`
+  line `िी,फेक्ट रविवियमिअविवियम, 2011 कीिा रा 2 केखंड`
+  line `( त ) मेंयथापररिावषत “ प्र ा प् त व् यों ” काउक्त अविवियमकी`
+  line `िारा 2 केखंड ( झ ) मेंयथापररिावषतककसी “ फेक्ट र ” के`
+  line पिमेंसमिुदेशिकरिेकेसंबंिमेंकोईकरारयाअन्य
+  line `दस्ता िेिइसअविवियमयातत्स मयप्रिृत्तककसीअन्य विवि`
+  line `केअिीिशुल्क केवलएदायीिहीं हो गा। ’।`
+  line `1908 5 वसविलप्र कक्रयासंवहता, 1908 आदेश 37 केवियम 1 के उप वियम (2) केखंड ( ख ) में`
+  line `उपखंड (iii) केपश्चा त्विि वलवखतउपखंडअंत:स्था वपत`
+  line `ककयािाएगा,अथावत्: ––`
+  line `“(iv) प्र ाप्त व् य केककसीसमिुदेवशतीद्वाराप्राप्त व् यों की`
+  line `िसूलीकेवलएसंवस्थ तकोईिाद। ”।`
+  line `1934 2 िार तीयररििवबैंकअविवियम, 1934 िारा 8 कीउपिारा (1) केखंड ( घ ) में, “ एक ” शब्द के स्`
+  line `था िपर “ दो ” श ब् द रखािाएगा।`
+  line `2005 30 प्रत् य यविषयकिािकारीकंपिी`
+  line `( विवियमि ) अविवियम, 2005`
+  line `िारा 2 केखंड ( च ) मेंउपखंड (ii) केपश्चा त्विि वलवखत`
+  line `उपखंडअंत:स्था वपतककया िाएगा,अथावत्: ––`
+  line `“(ii क ) फेक्ट रविवियमिअविवियम, 2011 कीिारा 2 के`
+  line `खंड ( झ ) केअिीियथापररिावषतकोईफेक्ट र; ”।`
+  line ______
+obj_root_law_translations_hi_sections_13_footnotes:
+  string
+  line

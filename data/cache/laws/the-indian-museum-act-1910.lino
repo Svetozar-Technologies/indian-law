@@ -1,70 +1,62 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:44:50.502Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2350`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 20)
-  (str totalSections) (int 20)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:44:50.502Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2350`
+  completeFetch true
+  maxSections null
+  sectionCount 20
+  totalSections 20
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-indian-museum-act-1910)
-  (str handle) (str 2350)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Indian Museum Act, 1910`)
-  (str actNumber) (str 10)
-  (str enactmentDate) (str 1910-03-18)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2350`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `भारतीय संग्रहालय अधिनियम,1910`)
-  (str actYear) (str 1910)
-  (str ministry) (str `Ministry of Culture`)
-  (str longTitle) (str `An Act to consolidate and amend the law relating to the Indian Museum.`)
-  (str enforcementDate) (str 01-06-1910)
-  (str fetchedAt) (str `2026-05-08T20:40:27.849Z`)
-  (str translations) obj_root_law_translations
+  slug the-indian-museum-act-1910
+  handle (2350)
+  collectionHandle 123456789/1362
+  title `The Indian Museum Act, 1910`
+  actNumber (10)
+  enactmentDate 1910-03-18
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2350`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `भारतीय संग्रहालय अधिनियम,1910`
+  actYear (1910)
+  ministry `Ministry of Culture`
+  longTitle `An Act to consolidate and amend the law relating to the Indian Museum.`
+  enforcementDate 01-06-1910
+  fetchedAt `2026-05-08T20:40:27.849Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_indian_museum_act_1910
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2350`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2350`
 obj_root_law_sources_en_the_indian_museum_act_1910:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2350/1/A1910-10.pdf`)
-  (str title) (str `The Indian Museum Act, 1910`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2350/1/A1910-10.pdf`
+  title `The Indian Museum Act, 1910`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00014_191010_1523341315850/rulesindividualfile/&file=im_rules.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00014_191010_1523341315850/rulesindividualfile/&file=im_rules.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1910
 obj_root_law_sources_hi_1910:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2350/3/H1910-10.pdf`)
-  (str title) (str `भारतीय संग्रहालय अधिनियम,1910`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2350/3/H1910-10.pdf`
+  title `भारतीय संग्रहालय अधिनियम,1910`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -86,636 +78,725 @@ obj_root_law_sections:
   obj_root_law_sections_16
   obj_root_law_sections_17
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 34831)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Indian Museum Act,
-1910.
-
-(2) It shall come into force on such date^1
-as the Central Government, by notification in the Official
-Gazette, may direct.`)
-  (str footnotes) (str `1. 1st June, 1910, see Gazette of India, 1910, Pt. I, p. 411.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34831&sectionno=1&orderno=1&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34831)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes `1. 1st June, 1910, see Gazette of India, 1910, Pt. I, p. 411.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34831&sectionno=1&orderno=1&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Indian Museum Act,`
+  line 1910.
+  line
+  line `(2) It shall come into force on such date^1`
+  line `as the Central Government, by notification in the Official`
+  line `Gazette, may direct.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 34832)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Constitution and incorporation of the Trustees of the Indian Museum.`)
-  (str content) (str `^1[(1) The
-Trustees of the Indian Museum (hereinafter referred to as the Trustees) shall be--
-
-(a) the Governor of West Bengal, ex officio Chairman;
-
-(b) the Secretary to the. Government of India in the Ministry concerned with matters relating to
-the Indian Museum, ex officio;
-
-(c) the Mayor of the Corporation of Calcutta, ex officio;
-
-(d) the Vice-Chancellor of the University of Calcutta, ex officio;
-
-(e) the Accountant-General, West Bengal, ex officio;
-
-(f) four persons to be nominated by the Central Government, one of whom shall be a
-representative of commerce and industry chosen in consultation with the Government of
-West Bengal;
-
-(g) one person to be nominated by the Government of West Bengal;
-
-(h) one person to be nominated by the Council of the Asiatic Society, Calcutta:
-
-Provided that if any of the Trustees referred to in clauses (b), (c) (d) and (e) is unable to attend any
-meeting of the Trustees, he may, with the previous approval of the Chairman, authorise a person in
-writing to do so.]
-
-(2) The Trustees shall be a body corporate, by the name of "The Trustees of the Indian Museum",
-with perpetual succession and a common seal, and in that name shall sue and be sued, and shall have
-power to acquire and hold property, to enter into contracts, and to do all acts necessary for and consistent
-with the purposes of this Act.
-
-(3) The nominated Trustees shall, save as herein otherwise provided, hold office for a period of three
-years:
-
-Provided that the authority nominating a Trustee may extend his term of office for one or more like
-periods.`)
-  (str footnotes) (str `2. Subs. by Act 45 of 1960, s. 2, for sub-section (1).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34832&sectionno=2&orderno=2&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34832)
+  sectionNo (2)
+  orderNo 2
+  title `Constitution and incorporation of the Trustees of the Indian Museum.`
+  content obj_root_law_sections_2_content
+  footnotes `2. Subs. by Act 45 of 1960, s. 2, for sub-section (1).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34832&sectionno=2&orderno=2&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_2_content:
+  string
+  line `^1[(1) The`
+  line `Trustees of the Indian Museum (hereinafter referred to as the Trustees) shall be--`
+  line
+  line `(a) the Governor of West Bengal, ex officio Chairman;`
+  line
+  line `(b) the Secretary to the. Government of India in the Ministry concerned with matters relating to`
+  line `the Indian Museum, ex officio;`
+  line
+  line `(c) the Mayor of the Corporation of Calcutta, ex officio;`
+  line
+  line `(d) the Vice-Chancellor of the University of Calcutta, ex officio;`
+  line
+  line `(e) the Accountant-General, West Bengal, ex officio;`
+  line
+  line `(f) four persons to be nominated by the Central Government, one of whom shall be a`
+  line `representative of commerce and industry chosen in consultation with the Government of`
+  line `West Bengal;`
+  line
+  line `(g) one person to be nominated by the Government of West Bengal;`
+  line
+  line `(h) one person to be nominated by the Council of the Asiatic Society, Calcutta:`
+  line
+  line `Provided that if any of the Trustees referred to in clauses (b), (c) (d) and (e) is unable to attend any`
+  line `meeting of the Trustees, he may, with the previous approval of the Chairman, authorise a person in`
+  line `writing to do so.]`
+  line
+  line `(2) The Trustees shall be a body corporate, by the name of "The Trustees of the Indian Museum",`
+  line `with perpetual succession and a common seal, and in that name shall sue and be sued, and shall have`
+  line `power to acquire and hold property, to enter into contracts, and to do all acts necessary for and consistent`
+  line `with the purposes of this Act.`
+  line
+  line `(3) The nominated Trustees shall, save as herein otherwise provided, hold office for a period of three`
+  line `years:`
+  line
+  line `Provided that the authority nominating a Trustee may extend his term of office for one or more like`
+  line periods.
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 34833)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Minimum number of Trustees and quorum.`)
-  (str content) (str `(1) The powers of the said body corporate may
-only be exercised so long and so often as there are ^1[six] members thereof.
-
-(2) The quorum necessary for the transaction of business at a meeting of the Trustees shall not be less
-than ^2[four].`)
-  (str footnotes) (str `1. Subs. by s. 3, ibid., for "nine".
-
-2. Subs. by s. 3, ibid., for "six".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34833&sectionno=3&orderno=3&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34833)
+  sectionNo (3)
+  orderNo 3
+  title `Minimum number of Trustees and quorum.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34833&sectionno=3&orderno=3&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_3_content:
+  string
+  line `(1) The powers of the said body corporate may`
+  line `only be exercised so long and so often as there are ^1[six] members thereof.`
+  line
+  line `(2) The quorum necessary for the transaction of business at a meeting of the Trustees shall not be less`
+  line `than ^2[four].`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. Subs. by s. 3, ibid., for "nine".`
+  line
+  line `2. Subs. by s. 3, ibid., for "six".`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 34834)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Power to appoint new Trustees.`)
-  (str content) (str `If a nominated Trustee--
-
-(a) dies, or
-
-(b) is absent from the meetings of the Trustees for more than twelve consecutive months, or
-
-(c) desires to be discharged, or
-
-(d) refuses or becomes incapable to act, or
-
-(e) is appointed to perform the duties of ^1[any of the offices specified in clauses (a) to (e) of
-sub-section (1) of section 2],
-
-the authority which nominated the Trustee may nominate a new Trustee in his place.`)
-  (str footnotes) (str `1. Subs. by Act 45 of 1960, s. 4, ibid., for "any office specified in section 2, clause (a)".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34834&sectionno=4&orderno=4&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34834)
+  sectionNo (4)
+  orderNo 4
+  title `Power to appoint new Trustees.`
+  content obj_root_law_sections_4_content
+  footnotes `1. Subs. by Act 45 of 1960, s. 4, ibid., for "any office specified in section 2, clause (a)".`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34834&sectionno=4&orderno=4&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_4_content:
+  string
+  line `If a nominated Trustee--`
+  line
+  line `(a) dies, or`
+  line
+  line `(b) is absent from the meetings of the Trustees for more than twelve consecutive months, or`
+  line
+  line `(c) desires to be discharged, or`
+  line
+  line `(d) refuses or becomes incapable to act, or`
+  line
+  line `(e) is appointed to perform the duties of ^1[any of the offices specified in clauses (a) to (e) of`
+  line `sub-section (1) of section 2],`
+  line
+  line `the authority which nominated the Trustee may nominate a new Trustee in his place.`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 34835)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str [Omitted.].)
-  (str content) (str `[Vacation of office by existing Trustees.] omitted by the Indian Museum
-(Amendment) Act, 1960 (45 of 1960), s. 5.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34835&sectionno=5&orderno=5&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34835)
+  sectionNo (5)
+  orderNo 5
+  title [Omitted.].
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34835&sectionno=5&orderno=5&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_5_content:
+  string
+  line `[Vacation of office by existing Trustees.] omitted by the Indian Museum`
+  line `(Amendment) Act, 1960 (45 of 1960), s. 5.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 34836)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Property vested in or placed under the control of the Trustees.`)
-  (str content) (str `(1) All the property,
-whether movable or immovable, which at the commencement of this Act is held by the Trustees of the
-Indian Museum constituted by the ^1Indian Museum Act, 1876 (22 of 1876) on trust for the purposes of the
-said Museum shall, together with any such property which may hereinafter be given, bequeathed,
-transferred or acquired for the said purposes, vest in the Trustees of the Indian Museum constituted by
-this Act on trust for the purposes of the said Museum:
-
-Provided that the Trustees may expend the capital of any portion of such property which may consist
-of money on the maintenance, improvement and enlargement of the collections deposited in, presented to
-or purchased for, the said Museum or otherwise for the purposes of the same as they may think fit.
-
-(2) The Trustees shall have the exclusive possession, occupation and control, for the purposes of such
-trust, of the land specified in the schedule, including any buildings which may have been, or may
-hereafter be, erected thereon, other than those portions thereof which have been set apart by the Trustees
-for the records and offices of the Geological Survey of India.`)
-  (str footnotes) (str `1. Rep. by this Act, s. 17.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34836&sectionno=6&orderno=6&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34836)
+  sectionNo (6)
+  orderNo 6
+  title `Property vested in or placed under the control of the Trustees.`
+  content obj_root_law_sections_6_content
+  footnotes `1. Rep. by this Act, s. 17.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34836&sectionno=6&orderno=6&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_6_content:
+  string
+  line `(1) All the property,`
+  line `whether movable or immovable, which at the commencement of this Act is held by the Trustees of the`
+  line `Indian Museum constituted by the ^1Indian Museum Act, 1876 (22 of 1876) on trust for the purposes of the`
+  line `said Museum shall, together with any such property which may hereinafter be given, bequeathed,`
+  line `transferred or acquired for the said purposes, vest in the Trustees of the Indian Museum constituted by`
+  line `this Act on trust for the purposes of the said Museum:`
+  line
+  line `Provided that the Trustees may expend the capital of any portion of such property which may consist`
+  line `of money on the maintenance, improvement and enlargement of the collections deposited in, presented to`
+  line `or purchased for, the said Museum or otherwise for the purposes of the same as they may think fit.`
+  line
+  line `(2) The Trustees shall have the exclusive possession, occupation and control, for the purposes of such`
+  line `trust, of the land specified in the schedule, including any buildings which may have been, or may`
+  line `hereafter be, erected thereon, other than those portions thereof which have been set apart by the Trustees`
+  line `for the records and offices of the Geological Survey of India.`
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 34837)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Power to Trustees to exchange, sell and destroy articles in collections.`)
-  (str content) (str `Subject to the
-provisions of any bye-laws made in this behalf, the Trustees may, from time to time,--
-
-(a) deliver, by way of loan, to any person the whole or any portion of, or any article contained in,
-any collection vested in them under this Act;
-
-(b) exchange or sell duplicates of articles contained in any such collection and take or purchase,
-in the place of such duplicates, such articles as may in their opinion be worthy of preservation in the
-Museum;
-
-(c) present duplicates of articles contained in any such collection to other Museums in ^1[India];
-and
-
-(d) remove and destroy any article contained in any such collection.`)
-  (str footnotes) (str `1. Subs. by the A. O. 1950, for "the Provinces".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34837&sectionno=7&orderno=7&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34837)
+  sectionNo (7)
+  orderNo 7
+  title `Power to Trustees to exchange, sell and destroy articles in collections.`
+  content obj_root_law_sections_7_content
+  footnotes `1. Subs. by the A. O. 1950, for "the Provinces".`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34837&sectionno=7&orderno=7&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_7_content:
+  string
+  line `Subject to the`
+  line `provisions of any bye-laws made in this behalf, the Trustees may, from time to time,--`
+  line
+  line `(a) deliver, by way of loan, to any person the whole or any portion of, or any article contained in,`
+  line `any collection vested in them under this Act;`
+  line
+  line `(b) exchange or sell duplicates of articles contained in any such collection and take or purchase,`
+  line `in the place of such duplicates, such articles as may in their opinion be worthy of preservation in the`
+  line Museum;
+  line
+  line `(c) present duplicates of articles contained in any such collection to other Museums in ^1[India];`
+  line and
+  line
+  line `(d) remove and destroy any article contained in any such collection.`
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 34838)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Power to Trustees to make bye-laws.`)
-  (str content) (str `(1) the Trustees may from time to time, with the
-previous sanction of the Central Government,
-^1[make by notification in the Official Gazette, bye-laws]
-consistent with this Act ^2[and the rules made thereunder] for any purpose necessary for the execution of
-their trust.
-
-(2) In particular and without prejudice to the generality of the foregoing power, such ^3[bye-laws] may provide
-for--
-
-(a) the summoning, holding and adjournment of general and special meetings of the Trustees;
-
-(b) the securing of the attendance of Trustees at such meetings;
-
-(c) the provision and keeping of minute-books and account-books;
-
-(d) the compiling of catalogues;
-
-(e) the lending of articles contained in the collections vested in the Trustees;
-
-(f) the exchange and sale, and the presentation to other Museums in ^4[India], of duplicates of articles
-contained in such collections;
-
-(g) the removal and destruction of articles contained in such collections; and
-
-(h) the general management of the Museum.
-
-^5[(3) The Central Government shall cause every bye-law made under this section to be laid as soon as may be
-after it is made, before each House of Parliament, while it is in session, for a total period of thirty days which may
-be comprised in one session or in two or more successive sessions, and if, before the expiry of the session
-immediately following the session or the successive sessions aforesaid, both Houses agree in making any
-modification in the bye-law or both Houses agree that the bye-law should not be made, the bye-law shall
-thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such
-modification or annulment shall be without prejudice to the validity of anything previously done under that
-bye-law.]`)
-  (str footnotes) (str `1. Subs. by Act 20 of 1983, s. 2 and the Schedule, for"make bye-laws" (w.e.f. 15-3-1984).
-
-2. Ins. by Act 45 of 1960, s. 6.
-
-3. Subs. by Act 45 of 1960, s. 6 for "rules".
-
-4. Subs. by the A. O. 1950, for"the Provinces".
-
-5. Ins. by Act 20 of 1983, s. 2 and the Schedule (w.e.f. 15-3-1984).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34838&sectionno=8&orderno=8&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34838)
+  sectionNo (8)
+  orderNo 8
+  title `Power to Trustees to make bye-laws.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34838&sectionno=8&orderno=8&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_8_content:
+  string
+  line `(1) the Trustees may from time to time, with the`
+  line `previous sanction of the Central Government,`
+  line `^1[make by notification in the Official Gazette, bye-laws]`
+  line `consistent with this Act ^2[and the rules made thereunder] for any purpose necessary for the execution of`
+  line `their trust.`
+  line
+  line `(2) In particular and without prejudice to the generality of the foregoing power, such ^3[bye-laws] may provide`
+  line for--
+  line
+  line `(a) the summoning, holding and adjournment of general and special meetings of the Trustees;`
+  line
+  line `(b) the securing of the attendance of Trustees at such meetings;`
+  line
+  line `(c) the provision and keeping of minute-books and account-books;`
+  line
+  line `(d) the compiling of catalogues;`
+  line
+  line `(e) the lending of articles contained in the collections vested in the Trustees;`
+  line
+  line `(f) the exchange and sale, and the presentation to other Museums in ^4[India], of duplicates of articles`
+  line `contained in such collections;`
+  line
+  line `(g) the removal and destruction of articles contained in such collections; and`
+  line
+  line `(h) the general management of the Museum.`
+  line
+  line `^5[(3) The Central Government shall cause every bye-law made under this section to be laid as soon as may be`
+  line `after it is made, before each House of Parliament, while it is in session, for a total period of thirty days which may`
+  line `be comprised in one session or in two or more successive sessions, and if, before the expiry of the session`
+  line `immediately following the session or the successive sessions aforesaid, both Houses agree in making any`
+  line `modification in the bye-law or both Houses agree that the bye-law should not be made, the bye-law shall`
+  line `thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such`
+  line `modification or annulment shall be without prejudice to the validity of anything previously done under that`
+  line bye-law.]
+obj_root_law_sections_8_footnotes:
+  string
+  line `1. Subs. by Act 20 of 1983, s. 2 and the Schedule, for"make bye-laws" (w.e.f. 15-3-1984).`
+  line
+  line `2. Ins. by Act 45 of 1960, s. 6.`
+  line
+  line `3. Subs. by Act 45 of 1960, s. 6 for "rules".`
+  line
+  line `4. Subs. by the A. O. 1950, for"the Provinces".`
+  line
+  line `5. Ins. by Act 20 of 1983, s. 2 and the Schedule (w.e.f. 15-3-1984).`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 34839)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Power of Trustees to appoint officers and servants.`)
-  (str content) (str `^1[9. Power of Trustees to appoint officers and servants.--(1) Subject to the provisions of sub-section (2),
-the Trustees may appoint such officers and servants as they may consider necessary or proper for the care or
-management of the trust-property, and determine their functions.
-
-(2) The recruitment and the conditions of service of such officers and servants shall be regulated by rules
-made under this Act.]`)
-  (str footnotes) (str `13. Subs. by Act 45 of 1960, s. 7, for section 9.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34839&sectionno=9&orderno=9&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34839)
+  sectionNo (9)
+  orderNo 9
+  title `Power of Trustees to appoint officers and servants.`
+  content obj_root_law_sections_9_content
+  footnotes `13. Subs. by Act 45 of 1960, s. 7, for section 9.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34839&sectionno=9&orderno=9&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_9_content:
+  string
+  line `^1[9. Power of Trustees to appoint officers and servants.--(1) Subject to the provisions of sub-section (2),`
+  line `the Trustees may appoint such officers and servants as they may consider necessary or proper for the care or`
+  line `management of the trust-property, and determine their functions.`
+  line
+  line `(2) The recruitment and the conditions of service of such officers and servants shall be regulated by rules`
+  line `made under this Act.]`
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 34850)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str Budget.)
-  (str content) (str `^1[10. Budget.--The Trustees shall, by such date in each financial year as may be specified by the Central
-Government, submit to that Government for approval, in the form specified by that Government in consultation
-with the Comptroller and Auditor-General of India, the budget of the next financial year, showing the estimated
-receipts and expenditure during the next financial year.`)
-  (str footnotes) (str `1. Subs. by s. 8, ibid., for section 10.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34850&sectionno=10&orderno=10&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34850)
+  sectionNo (10)
+  orderNo 10
+  title Budget.
+  content obj_root_law_sections_10_content
+  footnotes `1. Subs. by s. 8, ibid., for section 10.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34850&sectionno=10&orderno=10&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_10_content:
+  string
+  line `^1[10. Budget.--The Trustees shall, by such date in each financial year as may be specified by the Central`
+  line `Government, submit to that Government for approval, in the form specified by that Government in consultation`
+  line `with the Comptroller and Auditor-General of India, the budget of the next financial year, showing the estimated`
+  line `receipts and expenditure during the next financial year.`
 obj_root_law_sections_10_a:
-  object
-  (str sectionId) (str 42832)
-  (str sectionNo) (str 10A)
-  (str orderNo) (int 11)
-  (str title) (str `Annual report and accounts.`)
-  (str content) (str `10A. Annual report and accounts.--(1) The Trustees shall, as soon as possible after the commencement of
-each financial year, submit--
-
-(a) to the Central Government within such time or date as may be specified by the Central Government, a
-report giving a true and full account of their activities during the previous financial year and an account of the
-activities likely to be undertaking during the current financial year;
-
-(b) to such auditor as the Central Government may appoint in this behalf, accounts of all moneys
-expended by the Trustees during the previous financial year, supported by the necessary vouchers.
-
-(2) The Trustees shall cause such report and accounts to be published annually for general information.]`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=42832&sectionno=10A&orderno=11&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (42832)
+  sectionNo 10A
+  orderNo 11
+  title `Annual report and accounts.`
+  content obj_root_law_sections_10_a_content
+  footnotes obj_root_law_sections_10_a_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=42832&sectionno=10A&orderno=11&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_10_a_content:
+  string
+  line `10A. Annual report and accounts.--(1) The Trustees shall, as soon as possible after the commencement of`
+  line `each financial year, submit--`
+  line
+  line `(a) to the Central Government within such time or date as may be specified by the Central Government, a`
+  line `report giving a true and full account of their activities during the previous financial year and an account of the`
+  line `activities likely to be undertaking during the current financial year;`
+  line
+  line `(b) to such auditor as the Central Government may appoint in this behalf, accounts of all moneys`
+  line `expended by the Trustees during the previous financial year, supported by the necessary vouchers.`
+  line
+  line `(2) The Trustees shall cause such report and accounts to be published annually for general information.]`
+obj_root_law_sections_10_a_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 34841)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 12)
-  (str title) (str `Collections of Asiatic Society to be kept distinguished in the museum.`)
-  (str content) (str `(1) The Trustees shall
-cause every article in the collections in the said Indian Museum formerly belonging to the Asiatic Society of
-Bengal ^1[(now known as the Asiatic Society, Calcutta)] and all additions that may hereafter be made thereto
-otherwise than by purchase under section 6, to be marked and numbered and (subject to the provisions contained
-in sections 7 and 16) to be kept and preserved in the said Museum with such marks and numbers.
-
-(2) An inventory of such additions shall be made by the said Society, one copy whereof shall be signed by the
-Trustees and delivered to the said society, and another copy shall be signed by the Council of the said Society and
-delivered to the Trustees, and shall be kept by them along with the inventory delivered to the predecessors in
-office of the Trustees when the said collections were deposited in the said Museum.`)
-  (str footnotes) (str `1. Ins. by s. 9, ibid.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34841&sectionno=11&orderno=12&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34841)
+  sectionNo (11)
+  orderNo 12
+  title `Collections of Asiatic Society to be kept distinguished in the museum.`
+  content obj_root_law_sections_11_content
+  footnotes `1. Ins. by s. 9, ibid.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34841&sectionno=11&orderno=12&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_11_content:
+  string
+  line `(1) The Trustees shall`
+  line `cause every article in the collections in the said Indian Museum formerly belonging to the Asiatic Society of`
+  line `Bengal ^1[(now known as the Asiatic Society, Calcutta)] and all additions that may hereafter be made thereto`
+  line `otherwise than by purchase under section 6, to be marked and numbered and (subject to the provisions contained`
+  line `in sections 7 and 16) to be kept and preserved in the said Museum with such marks and numbers.`
+  line
+  line `(2) An inventory of such additions shall be made by the said Society, one copy whereof shall be signed by the`
+  line `Trustees and delivered to the said society, and another copy shall be signed by the Council of the said Society and`
+  line `delivered to the Trustees, and shall be kept by them along with the inventory delivered to the predecessors in`
+  line `office of the Trustees when the said collections were deposited in the said Museum.`
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 34851)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 13)
-  (str title) (str `Articles received in exchange or purchased and moneys realised from sale to be held on trust.`)
-  (str content) (str `All objects taken in exchange and articles purchased under section 7 and all moneys realised from sales
-made in accordance with the terms of the same section shall be held on trust and subject to powers and
-declarations corresponding as nearly as may be with the trusts, powers and declarations by this Act limited and
-declared.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34851&sectionno=12&orderno=13&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34851)
+  sectionNo (12)
+  orderNo 13
+  title `Articles received in exchange or purchased and moneys realised from sale to be held on trust.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34851&sectionno=12&orderno=13&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_12_content:
+  string
+  line `All objects taken in exchange and articles purchased under section 7 and all moneys realised from sales`
+  line `made in accordance with the terms of the same section shall be held on trust and subject to powers and`
+  line `declarations corresponding as nearly as may be with the trusts, powers and declarations by this Act limited and`
+  line declared.
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_12_a:
-  object
-  (str sectionId) (str 34843)
-  (str sectionNo) (str 12A)
-  (str orderNo) (int 14)
-  (str title) (str `Power of Central Government to issue directions to Trustees.`)
-  (str content) (str `^1[12A. Power of Central Government to issue directions to Trustees.--(1) In the discharge of their
-functions under this Act, the Trustees shall be bound by such directions on questions of policy as the
-Central Government may give to them from time to time:
-
-Provided that the Trustees shall be given an opportunity to express their views before any direction is given
-under this sub-section.
-
-(2) The decision of the Central Government whether a question is one of policy or not shall be final.]`)
-  (str footnotes) (str `1. Ins. by Act 45 of 1960, s. 10.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34843&sectionno=12A&orderno=14&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34843)
+  sectionNo 12A
+  orderNo 14
+  title `Power of Central Government to issue directions to Trustees.`
+  content obj_root_law_sections_12_a_content
+  footnotes `1. Ins. by Act 45 of 1960, s. 10.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34843&sectionno=12A&orderno=14&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_12_a_content:
+  string
+  line `^1[12A. Power of Central Government to issue directions to Trustees.--(1) In the discharge of their`
+  line `functions under this Act, the Trustees shall be bound by such directions on questions of policy as the`
+  line `Central Government may give to them from time to time:`
+  line
+  line `Provided that the Trustees shall be given an opportunity to express their views before any direction is given`
+  line `under this sub-section.`
+  line
+  line `(2) The decision of the Central Government whether a question is one of policy or not shall be final.]`
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 34844)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 15)
-  (str title) (str `Officers under Act to be public servants.`)
-  (str content) (str `All officers and servants appointed under this Act shall
-be deemed to be public servants within the meaning of the Indian Penal Code (45 of 1860); ^1***.`)
-  (str footnotes) (str `1. Certain words omitted by s. 11, ibid.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34844&sectionno=13&orderno=15&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34844)
+  sectionNo (13)
+  orderNo 15
+  title `Officers under Act to be public servants.`
+  content obj_root_law_sections_13_content
+  footnotes `1. Certain words omitted by s. 11, ibid.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34844&sectionno=13&orderno=15&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_13_content:
+  string
+  line `All officers and servants appointed under this Act shall`
+  line `be deemed to be public servants within the meaning of the Indian Penal Code (45 of 1860); ^1***.`
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 34845)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 16)
-  (str title) (str `Power to Trustees to keep collections not belonging to them.`)
-  (str content) (str `Notwithstanding anything
-hereinbefore contained, the Trustees may, if they think fit, with the previous sanction of the Central Government
-and subject in each case to such conditions as it may approve and to such rules as it may prescribe, assume the
-custody and administration of collections which are not the property of the Trustees for the purposes of their trust
-under this Act, and keep and preserve such collections either in the Indian Museum or elsewhere:
-
-Provided that if the trust constituted by this Act is at any time determined, any such collections shall not by
-reason of their then being in the Indian Museum become the property of Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34845&sectionno=14&orderno=16&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34845)
+  sectionNo (14)
+  orderNo 16
+  title `Power to Trustees to keep collections not belonging to them.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34845&sectionno=14&orderno=16&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_14_content:
+  string
+  line `Notwithstanding anything`
+  line `hereinbefore contained, the Trustees may, if they think fit, with the previous sanction of the Central Government`
+  line `and subject in each case to such conditions as it may approve and to such rules as it may prescribe, assume the`
+  line `custody and administration of collections which are not the property of the Trustees for the purposes of their trust`
+  line `under this Act, and keep and preserve such collections either in the Indian Museum or elsewhere:`
+  line
+  line `Provided that if the trust constituted by this Act is at any time determined, any such collections shall not by`
+  line `reason of their then being in the Indian Museum become the property of Government.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 34846)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 17)
-  (str title) (str `Power to Trustees to part with certain property in their possession.`)
-  (str content) (str `^1[15. Power to Trustees to part with certain property in their possession.--Subject to such
-conditions as the Central Government may approve, the Trustees may deliver possession of the whole or
-any part of the property described in the schedule to such person as that Government may appoint.]`)
-  (str footnotes) (str `1. Subs. by the A.O. 1937, for the original section.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34846&sectionno=15&orderno=17&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34846)
+  sectionNo (15)
+  orderNo 17
+  title `Power to Trustees to part with certain property in their possession.`
+  content obj_root_law_sections_15_content
+  footnotes `1. Subs. by the A.O. 1937, for the original section.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34846&sectionno=15&orderno=17&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_15_content:
+  string
+  line `^1[15. Power to Trustees to part with certain property in their possession.--Subject to such`
+  line `conditions as the Central Government may approve, the Trustees may deliver possession of the whole or`
+  line `any part of the property described in the schedule to such person as that Government may appoint.]`
 obj_root_law_sections_15_a:
-  object
-  (str sectionId) (str 34847)
-  (str sectionNo) (str 15A)
-  (str orderNo) (int 18)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `^1[15A. Power to make rules.--(1) The Central Government may, in consultation with the Trustees, by
-notification in the Official Gazette, make rules to carry out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may provide for all
-or any of the following matters, namely:--
-
-(a) the recruitment and the conditions of service of the officers and servants of the Museum;
-
-(b) the form and manner in which the accounts of the Museum may be maintained and the manner in
-which such accounts may be audited;
-
-(c) the circumstances in which and the conditions subject to which the Trustees may assume the
-custody and administration of any collections referred to in section 14 and keep and preserve such
-collections;
-
-(d) the conditions subject to which the Trustees may deliver possession of any property in their possession
-to any other person.
-
-(3) Every rule made under this section shall be laid as soon as may be after it is made before each House of
-Parliament while it is in session for a total period of thirty days which may be comprised in one session or ^2[in two
-or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the rule, or both Houses agree
-that the rule should not be made, the rule shall thereafter have effect only in such modified form or be of no effect,
-as the case may be; so however that any such modification or annulment shall be without prejudice to the validity
-of anything previously done under that rule.]`)
-  (str footnotes) (str `1. Ins. by Act 45 of 1960, s. 12.
-2. Subs. by Act 20 of 1983, s. 2 and the Schedule, for certain words (w.e.f. 15-3-1984).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34847&sectionno=15A&orderno=18&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34847)
+  sectionNo 15A
+  orderNo 18
+  title `Power to make rules.`
+  content obj_root_law_sections_15_a_content
+  footnotes obj_root_law_sections_15_a_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34847&sectionno=15A&orderno=18&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_15_a_content:
+  string
+  line `^1[15A. Power to make rules.--(1) The Central Government may, in consultation with the Trustees, by`
+  line `notification in the Official Gazette, make rules to carry out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may provide for all`
+  line `or any of the following matters, namely:--`
+  line
+  line `(a) the recruitment and the conditions of service of the officers and servants of the Museum;`
+  line
+  line `(b) the form and manner in which the accounts of the Museum may be maintained and the manner in`
+  line `which such accounts may be audited;`
+  line
+  line `(c) the circumstances in which and the conditions subject to which the Trustees may assume the`
+  line `custody and administration of any collections referred to in section 14 and keep and preserve such`
+  line collections;
+  line
+  line `(d) the conditions subject to which the Trustees may deliver possession of any property in their possession`
+  line `to any other person.`
+  line
+  line `(3) Every rule made under this section shall be laid as soon as may be after it is made before each House of`
+  line `Parliament while it is in session for a total period of thirty days which may be comprised in one session or ^2[in two`
+  line `or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the rule, or both Houses agree`
+  line `that the rule should not be made, the rule shall thereafter have effect only in such modified form or be of no effect,`
+  line `as the case may be; so however that any such modification or annulment shall be without prejudice to the validity`
+  line `of anything previously done under that rule.]`
+obj_root_law_sections_15_a_footnotes:
+  string
+  line `1. Ins. by Act 45 of 1960, s. 12.`
+  line `2. Subs. by Act 20 of 1983, s. 2 and the Schedule, for certain words (w.e.f. 15-3-1984).`
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 34848)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 19)
-  (str title) (str `Property in collections on determination of trust.`)
-  (str content) (str `If the trust constituted by this Act is at any time
-determined,--
-
-(a) the collections and additions mentioned in section 11 shall become the property of the said Asiatic
-Society or their assigns, and
-
-(b) all the other collections then in the said Indian Museum shall, save as otherwise provided by section
-14, become the property of Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34848&sectionno=16&orderno=19&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34848)
+  sectionNo (16)
+  orderNo 19
+  title `Property in collections on determination of trust.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34848&sectionno=16&orderno=19&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_16_content:
+  string
+  line `If the trust constituted by this Act is at any time`
+  line determined,--
+  line
+  line `(a) the collections and additions mentioned in section 11 shall become the property of the said Asiatic`
+  line `Society or their assigns, and`
+  line
+  line `(b) all the other collections then in the said Indian Museum shall, save as otherwise provided by section`
+  line `14, become the property of Government.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 34849)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 20)
-  (str title) (str [Repealed.].)
-  (str content) (str `[Repeals.]. Rep. by the Repealing and Amending Act, 1914 (10 of 1914), s. 3 and the Second
-Schedule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34849&sectionno=17&orderno=20&orgactid=AC_CEN_27_0_00014_191010_1523341315850)
+  sectionId (34849)
+  sectionNo (17)
+  orderNo 20
+  title [Repealed.].
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00014_191010_1523341315850&sectionId=34849&sectionno=17&orderno=20&orgactid=AC_CEN_27_0_00014_191010_1523341315850
+obj_root_law_sections_17_content:
+  string
+  line `[Repeals.]. Rep. by the Repealing and Amending Act, 1914 (10 of 1914), s. 3 and the Second`
+  line Schedule.
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `भारतीय संग्रहालय अधिनियम,1910`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2350/3/H1910-10.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:44:49.400Z`)
-  (str pageCount) (int 5)
-  (str sections) obj_root_law_translations_hi_sections
+  title `भारतीय संग्रहालय अधिनियम,1910`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2350/3/H1910-10.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:44:49.400Z`
+  pageCount 5
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
   obj_root_law_translations_hi_sections_4
   obj_root_law_translations_hi_sections_5
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `भारतीय संग्रहालय अधिधियम, 19 10
-( 1910 का अधिधियम संखयां क 10 )
-[ 18 मार्च, 19 10 ]
-भारतीय संग्रहालय से संबंधित धिधि का
-समेकि और संशोिि करिे के धलए
-अधिधियम
-यत: भारतीय संग्रहालय से संबंधित धिधि का समेकि और संशोिि करिा समीर्ीि है; अत: एतद द्व ारा धिम्ि धलधित रू प में यह
-अधिधियधमत ककया जाता है: — प्र
-ारधम्भ क
-1. संधिप्त िाम और प्र ारम्भ — ( 1 ) इस अधिधियम का संधिप् त िाम भारतीय संग्रहालय अधिधियम, 1910 है।
-( 2 ) यह उस तारीि 1 को प्र िृत्त होगा जो केन्‍दरी य सरकार, राजपत्र में अधिसूर्िा द्व ारा, धिदेश करे। न्‍द
-या धस यों का धिगमि
-2. भारतीय संग्रहालय के न्‍द या धसयों का गठि और धिगमि — 2 [ ( 1 ) भारतीय सं ग्र हालय के न्‍द या सी (धजन्‍दहें इस में इसके पश् र्ा तन्‍द या सी
-कहा गया है) धिम्ि धलधित होंगे: —
-(क) पधश् र् मी बंगाल का राज्य पाल, पदेि अध्य ि;
-(ि) भारतीय संग्रहालय से संबंधित मामलों से सम्पृ क् त मंत्रालय में भारत सरकार का सधर्ि, पदेि;
-(ग) कलकत्ता धिगम का महापौर, पदेि;
-(घ) कलकत्ता धिश्ि धि द्य ालय का कुलपधत, पदेि;
-(ङ) पधश् र् मी बंगाल का महालेिापाल, पदेि;
-(र्) केन्‍दरी य सरकार द्व ारा िामधिर्दचष्ट र् ार व् य धक् त, धजिमें से एक िाधिज्य और उद्योग का प्र धतधिधि होगा और
-पधश् र् मी बंगाल सरकार के परामशच से र्ु िा जाएगा;
-(छ) पधश् र् मी बंगाल सरकार द्व ारा िामधिर्दचष्ट एक व् य धक् त;
-(ज) एधशयाटटक सोसाइटी, कलकत्ता की पटरषदद्व ारा िामधिर्दचष्ट एक व् य धक् त:
-परन्‍द तु यकद िण्ड (ि), (ग), (घ) और (ङ) में धिर्दचष्ट न्‍द या धसयों में से कोई न्‍द या धसयों की ककसी बैठक में उपधि त होिे में असमिच है
-तो िह, अध्य ि के पूिाचिुमोदि से, ककसी व् य धक् त को धलधित रू प में ऐसा करिे के धलए प्र ाधिकृत कर सकता है। ]
-( 2 ) न्‍द या सी, “ भारतीय संग्रहालय के न्‍द या सी ” िाम से एक धिगधमत धिकाय होंगे धजिका शाश्ि त उत्तराधिकार और सामान्‍दय मुरा
-होगी, और उक्त िाम से िाद ला सकेंगे और उि पर िाद लाया जा सकेगा, और उन्‍दहें सम्प धत्त अजचि करिे और िारि करिे की, संधिदा करिे
-की, और इस अधिधियम के प्र योजिों के धलए सभी आिश्य क और सुसंगत कायच करिे की शधक्त होगी।
-( 3 ) जैसा इसमें अन्‍दय िा उपबधन्‍दि त है उसके धसिाय िामधिर्दचष्ट न्‍द या सी तीि िषच की कालािधि के धलए पद िारि करेंगे:
-परन्‍द तु ककसी न्‍द या सी को िामधिर्दचष्ट करिे िाला प्र ाधिकारी इसी प्र कार की एक या अधिक कालािधियों के धलए उसकी पदािधि में
-धिता र कर सकता है।
-3. न्‍द या धसयों की न्‍द यू ितम संखया और गिपूर्तच — ( 1 ) उक्त धिगधमत धिकाय की शधक्त यों का प्र योग केिल तभी और उन्‍दहीं समयों पर
-ककया जा सकेगा जब उसके 3 [ छह ] सद य हों।
-1 1 जूि, 1910, देधिए भारत का राजपत्र (अंग्रेजी), 1910, भाग 1, पृ ० 411.
-2 1960 के अधिधिमय सं ० 45 की िारा 2 द्व ारा उपिारा ( 1 ) के िा ि पर प्र धत िा धपत।
-3 1960 के अधिधियम सं ० 45 की िारा 3 द्व ारा “ िौ ” के िा ि पर प्र धत िा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `भारतीय संग्रहालय अधिधियम, 19 10`
+  line `( 1910 का अधिधियम संखयां क 10 )`
+  line `[ 18 मार्च, 19 10 ]`
+  line `भारतीय संग्रहालय से संबंधित धिधि का`
+  line `समेकि और संशोिि करिे के धलए`
+  line अधिधियम
+  line `यत: भारतीय संग्रहालय से संबंधित धिधि का समेकि और संशोिि करिा समीर्ीि है; अत: एतद द्व ारा धिम्ि धलधित रू प में यह`
+  line `अधिधियधमत ककया जाता है: — प्र`
+  line `ारधम्भ क`
+  line `1. संधिप्त िाम और प्र ारम्भ — ( 1 ) इस अधिधियम का संधिप् त िाम भारतीय संग्रहालय अधिधियम, 1910 है।`
+  line `( 2 ) यह उस तारीि 1 को प्र िृत्त होगा जो केन्‍दरी य सरकार, राजपत्र में अधिसूर्िा द्व ारा, धिदेश करे। न्‍द`
+  line `या धस यों का धिगमि`
+  line `2. भारतीय संग्रहालय के न्‍द या धसयों का गठि और धिगमि — 2 [ ( 1 ) भारतीय सं ग्र हालय के न्‍द या सी (धजन्‍दहें इस में इसके पश् र्ा तन्‍द या सी`
+  line `कहा गया है) धिम्ि धलधित होंगे: —`
+  line `(क) पधश् र् मी बंगाल का राज्य पाल, पदेि अध्य ि;`
+  line `(ि) भारतीय संग्रहालय से संबंधित मामलों से सम्पृ क् त मंत्रालय में भारत सरकार का सधर्ि, पदेि;`
+  line `(ग) कलकत्ता धिगम का महापौर, पदेि;`
+  line `(घ) कलकत्ता धिश्ि धि द्य ालय का कुलपधत, पदेि;`
+  line `(ङ) पधश् र् मी बंगाल का महालेिापाल, पदेि;`
+  line `(र्) केन्‍दरी य सरकार द्व ारा िामधिर्दचष्ट र् ार व् य धक् त, धजिमें से एक िाधिज्य और उद्योग का प्र धतधिधि होगा और`
+  line `पधश् र् मी बंगाल सरकार के परामशच से र्ु िा जाएगा;`
+  line `(छ) पधश् र् मी बंगाल सरकार द्व ारा िामधिर्दचष्ट एक व् य धक् त;`
+  line `(ज) एधशयाटटक सोसाइटी, कलकत्ता की पटरषदद्व ारा िामधिर्दचष्ट एक व् य धक् त:`
+  line `परन्‍द तु यकद िण्ड (ि), (ग), (घ) और (ङ) में धिर्दचष्ट न्‍द या धसयों में से कोई न्‍द या धसयों की ककसी बैठक में उपधि त होिे में असमिच है`
+  line `तो िह, अध्य ि के पूिाचिुमोदि से, ककसी व् य धक् त को धलधित रू प में ऐसा करिे के धलए प्र ाधिकृत कर सकता है। ]`
+  line `( 2 ) न्‍द या सी, “ भारतीय संग्रहालय के न्‍द या सी ” िाम से एक धिगधमत धिकाय होंगे धजिका शाश्ि त उत्तराधिकार और सामान्‍दय मुरा`
+  line `होगी, और उक्त िाम से िाद ला सकेंगे और उि पर िाद लाया जा सकेगा, और उन्‍दहें सम्प धत्त अजचि करिे और िारि करिे की, संधिदा करिे`
+  line `की, और इस अधिधियम के प्र योजिों के धलए सभी आिश्य क और सुसंगत कायच करिे की शधक्त होगी।`
+  line `( 3 ) जैसा इसमें अन्‍दय िा उपबधन्‍दि त है उसके धसिाय िामधिर्दचष्ट न्‍द या सी तीि िषच की कालािधि के धलए पद िारि करेंगे:`
+  line `परन्‍द तु ककसी न्‍द या सी को िामधिर्दचष्ट करिे िाला प्र ाधिकारी इसी प्र कार की एक या अधिक कालािधियों के धलए उसकी पदािधि में`
+  line `धिता र कर सकता है।`
+  line `3. न्‍द या धसयों की न्‍द यू ितम संखया और गिपूर्तच — ( 1 ) उक्त धिगधमत धिकाय की शधक्त यों का प्र योग केिल तभी और उन्‍दहीं समयों पर`
+  line `ककया जा सकेगा जब उसके 3 [ छह ] सद य हों।`
+  line `1 1 जूि, 1910, देधिए भारत का राजपत्र (अंग्रेजी), 1910, भाग 1, पृ ० 411.`
+  line `2 1960 के अधिधिमय सं ० 45 की िारा 2 द्व ारा उपिारा ( 1 ) के िा ि पर प्र धत िा धपत।`
+  line `3 1960 के अधिधियम सं ० 45 की िारा 3 द्व ारा “ िौ ” के िा ि पर प्र धत िा धपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-( 2 ) न्‍द या सी की बैठक में कायच करिे के धलए आिश्य क गिपूर्तच 1 [ र् ार ] से कम िहीं होगी।
-4. िए न्‍द या सी धियुक्त करिे की शधक्त — यकद ककसी िामधिर्दचष्ट न्‍द या सी —
-(क) की मृत्यु हो जाती है, या
-(ि) िह न्‍द या सी की बैठक से लगातार, बारह मास से अधिक अिुपधि त रहता है, या
-(ग) िह उन्‍दमो धर्त हो िा र् ाहता है, या
-(घ) िह का यच करिे से इंकार करता है या अि म हो जाता है, या
-(ङ) उसकी 2 [ िारा 2 की उपिारा ( 1 ) के िण्ड (क) से (ङ) में धिर्दचष्ट पदों में से ककसी ] के कतचव्यों का धििचहि करिे के
-धलए धियुधक्त हो जाती है तो,
-िह प्र ाधिकारी धजसिे न्‍द या सी को िामधिर्दचष्ट ककया िा उसके िा ि पर एक अन्‍दय न्‍द या सी िामधिर्दचष्ट कर सकता है।
-5. [ धिद्यमाि न्‍द या धसयों द्व ारा पदों का टरक्त ककया जािा। ] — भारतीय संग्रहालय (संशोिि) अधिधियम, 1960 ( 1960 का 45 ) की
-िारा 5 द्व ारा धिरधसत। न्‍द
-या सी की सम्प धत्त और शधक्त यां
-6. सम्प धत्त का न्‍द या धसयों में धिधहत होिा या उिके धियंत्रि के अिीि होिा — ( 1 ) सभी सम्प धत्त, र् ाहे िा िर हो या जंगम, जो इस
-अधिधियम के प्र ारम्भ पर 3 भारतीय संग्रहालय अधिधियम, 1876 ( 1876 का 22 ) द्व ारा गटठत भारतीय संग्रहालय के न्‍द या धसयों द्व ारा, उक्त
-संग्र हालय के प्र योजिों के धलए न्‍द या सत: िाटरत है, ऐसी सम्प धत्त सधहत जो इसके पश् र्ा त उक्त प्र योजिों के धलए दी जाए, िसीयत की जाए,
-अन्‍दत टरत की जाए या अर्जचत की जाए, इस अधिधियम द्व ारा गटठत भारतीय संग्रहालय के न्‍द या धसयों में उक्त संग्रहालय के प्र योजिों के धलए न्‍द
-या सत: धिधहत होगी:
-परन्‍द तु न्‍द या सी ऐसी सम्प धत्त के, जो िि भी हो सकती है, ककसी भाग की पूंजी, उक्त संग्रहालय में धिधिप्त, उसको अर्पचत या उसके
-धलए क्र य ककए गए संग्रहों के अिुरिि, अधभिृधि और धिता र के धलए या उिके प्र योजिों के धलए जैसे िे ठीक समझें अन्‍दय िा व् य य कर
-सकते हैं।
-( 2 ) न्‍द या सी का ऐसे धियोजि के प्र योजिों के धलए अिुसूर्ी में धिधिर्दचष्ट भूधम पर ऐसे भििों सधहत जो उस पर हों, या इसके
-पश् र्ा त, उस पर बिाए गए हों, उि प्र भागों से धभन्‍द ि जो न्‍द या सी द्व ारा भारत के भू - िैज्ञाधिक - सिेिि के अधभले िों और कायाचलयों के धलए
-अलग कर कदए गए हों, अिन्‍दय कब्जा, अधिभोग और धियंत्रि होगा।
-7. न्‍द या सी की संग्रहों की ितु ओं का धिधिम य करिे, धिक्रय करिे और उन्‍दहें िष्ट करिे की शधक्त — इस धिधमत्त बिाई गई ककन्‍दहीं
-उपधिधियों के उपबन्‍दिों के अिीि न्‍द या सी, समय - समय पर, —
-(क) इस अधिधियम के अिीि उिमें धिधहत ककसी संग्रह को सम्पू िचतया उसका कोई भाग या उसकी कोई ितु, ककसी व्
-य धक् त को उिार के रू प में दे सकते हैं;
-(ि) ऐसे ककसी संग्रहालय की ककन्‍दहीं ितु ओं को धिधिमय कर सकते हैं या उिकी अिुकृधतयों को बेर् सकते हैं और ऐ सी
-अिुकृधतयों के िा ि पर ऐसी ितु ओं को जो उिकी राय में संग्रहालय में रििे योग्य हों ले सकते हैं या क्र य कर सकते हैं;
-(ग) 4 [ भारत ] में अन्‍दय संग्रहालयों को ऐसे संग्रहों में ककन्‍दहीं ितु ओं की अिुकृधतयां अर्पचत कर सकते हैं; और
-(घ) ऐसे ककसी संग्रह की ककसी ितु को हटा सकते हैं और िष्ट कर सकते हैं।
-8. न्‍द या सी की उपधिधि बिािे की शधक्त — ( 1 ) न्‍द या सी, समय - समय पर केन्‍दरी य सरकार के पूिाचिुमोदि से, उिके न्‍द या स के धिष्पा दि
-में आिश्य क ककसी प्र योजि के धलए इस अधिधियम 5 [ और तद िीि बिाए गए धियमों ] से सुसं गत 6 [ उपधिधियां, राजपत्र में अधिसूर्िा द्व ारा,
-बिा सकते हैं। ]
-1 1960 के अधिधियम सं ० 45 की िारा 3 द्व ारा “ छह ” के िा ि पर प्र धत िा धपत।
-2 1960 के अधिधियम सं ० 45 की िारा 4 द्व ारा “ िारा 2, िंड (क) में धिर्दचष्ट ककसी पद ” के िा ि पर प्र धत िा धपत।
-3 इस अधिधियम की िारा 17 द्व ारा धिरधसत।
-4 धिधि अिुकूलि आदेश, 1950 द्व ारा “ प्र ान्‍दतों ” के िा ि पर प्र धत िा धपत।
-5 1960 के अधिधियम सं ० 45 की िारा 6 द्व ारा अंत:िा धपत।
-6 1983 के अधिधियम सं ० 20 की िारा 2 और अिुसूर्ी द्व ारा ( 15 - 3 - 1984 से) “ उपधिधियां बिा सकते हैं ” के िा ि पर प्र धत िा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `( 2 ) न्‍द या सी की बैठक में कायच करिे के धलए आिश्य क गिपूर्तच 1 [ र् ार ] से कम िहीं होगी।`
+  line `4. िए न्‍द या सी धियुक्त करिे की शधक्त — यकद ककसी िामधिर्दचष्ट न्‍द या सी —`
+  line `(क) की मृत्यु हो जाती है, या`
+  line `(ि) िह न्‍द या सी की बैठक से लगातार, बारह मास से अधिक अिुपधि त रहता है, या`
+  line `(ग) िह उन्‍दमो धर्त हो िा र् ाहता है, या`
+  line `(घ) िह का यच करिे से इंकार करता है या अि म हो जाता है, या`
+  line `(ङ) उसकी 2 [ िारा 2 की उपिारा ( 1 ) के िण्ड (क) से (ङ) में धिर्दचष्ट पदों में से ककसी ] के कतचव्यों का धििचहि करिे के`
+  line `धलए धियुधक्त हो जाती है तो,`
+  line `िह प्र ाधिकारी धजसिे न्‍द या सी को िामधिर्दचष्ट ककया िा उसके िा ि पर एक अन्‍दय न्‍द या सी िामधिर्दचष्ट कर सकता है।`
+  line `5. [ धिद्यमाि न्‍द या धसयों द्व ारा पदों का टरक्त ककया जािा। ] — भारतीय संग्रहालय (संशोिि) अधिधियम, 1960 ( 1960 का 45 ) की`
+  line `िारा 5 द्व ारा धिरधसत। न्‍द`
+  line `या सी की सम्प धत्त और शधक्त यां`
+  line `6. सम्प धत्त का न्‍द या धसयों में धिधहत होिा या उिके धियंत्रि के अिीि होिा — ( 1 ) सभी सम्प धत्त, र् ाहे िा िर हो या जंगम, जो इस`
+  line `अधिधियम के प्र ारम्भ पर 3 भारतीय संग्रहालय अधिधियम, 1876 ( 1876 का 22 ) द्व ारा गटठत भारतीय संग्रहालय के न्‍द या धसयों द्व ारा, उक्त`
+  line `संग्र हालय के प्र योजिों के धलए न्‍द या सत: िाटरत है, ऐसी सम्प धत्त सधहत जो इसके पश् र्ा त उक्त प्र योजिों के धलए दी जाए, िसीयत की जाए,`
+  line `अन्‍दत टरत की जाए या अर्जचत की जाए, इस अधिधियम द्व ारा गटठत भारतीय संग्रहालय के न्‍द या धसयों में उक्त संग्रहालय के प्र योजिों के धलए न्‍द`
+  line `या सत: धिधहत होगी:`
+  line `परन्‍द तु न्‍द या सी ऐसी सम्प धत्त के, जो िि भी हो सकती है, ककसी भाग की पूंजी, उक्त संग्रहालय में धिधिप्त, उसको अर्पचत या उसके`
+  line `धलए क्र य ककए गए संग्रहों के अिुरिि, अधभिृधि और धिता र के धलए या उिके प्र योजिों के धलए जैसे िे ठीक समझें अन्‍दय िा व् य य कर`
+  line `सकते हैं।`
+  line `( 2 ) न्‍द या सी का ऐसे धियोजि के प्र योजिों के धलए अिुसूर्ी में धिधिर्दचष्ट भूधम पर ऐसे भििों सधहत जो उस पर हों, या इसके`
+  line `पश् र्ा त, उस पर बिाए गए हों, उि प्र भागों से धभन्‍द ि जो न्‍द या सी द्व ारा भारत के भू - िैज्ञाधिक - सिेिि के अधभले िों और कायाचलयों के धलए`
+  line `अलग कर कदए गए हों, अिन्‍दय कब्जा, अधिभोग और धियंत्रि होगा।`
+  line `7. न्‍द या सी की संग्रहों की ितु ओं का धिधिम य करिे, धिक्रय करिे और उन्‍दहें िष्ट करिे की शधक्त — इस धिधमत्त बिाई गई ककन्‍दहीं`
+  line `उपधिधियों के उपबन्‍दिों के अिीि न्‍द या सी, समय - समय पर, —`
+  line `(क) इस अधिधियम के अिीि उिमें धिधहत ककसी संग्रह को सम्पू िचतया उसका कोई भाग या उसकी कोई ितु, ककसी व्`
+  line `य धक् त को उिार के रू प में दे सकते हैं;`
+  line `(ि) ऐसे ककसी संग्रहालय की ककन्‍दहीं ितु ओं को धिधिमय कर सकते हैं या उिकी अिुकृधतयों को बेर् सकते हैं और ऐ सी`
+  line `अिुकृधतयों के िा ि पर ऐसी ितु ओं को जो उिकी राय में संग्रहालय में रििे योग्य हों ले सकते हैं या क्र य कर सकते हैं;`
+  line `(ग) 4 [ भारत ] में अन्‍दय संग्रहालयों को ऐसे संग्रहों में ककन्‍दहीं ितु ओं की अिुकृधतयां अर्पचत कर सकते हैं; और`
+  line `(घ) ऐसे ककसी संग्रह की ककसी ितु को हटा सकते हैं और िष्ट कर सकते हैं।`
+  line `8. न्‍द या सी की उपधिधि बिािे की शधक्त — ( 1 ) न्‍द या सी, समय - समय पर केन्‍दरी य सरकार के पूिाचिुमोदि से, उिके न्‍द या स के धिष्पा दि`
+  line `में आिश्य क ककसी प्र योजि के धलए इस अधिधियम 5 [ और तद िीि बिाए गए धियमों ] से सुसं गत 6 [ उपधिधियां, राजपत्र में अधिसूर्िा द्व ारा,`
+  line `बिा सकते हैं। ]`
+  line `1 1960 के अधिधियम सं ० 45 की िारा 3 द्व ारा “ छह ” के िा ि पर प्र धत िा धपत।`
+  line `2 1960 के अधिधियम सं ० 45 की िारा 4 द्व ारा “ िारा 2, िंड (क) में धिर्दचष्ट ककसी पद ” के िा ि पर प्र धत िा धपत।`
+  line `3 इस अधिधियम की िारा 17 द्व ारा धिरधसत।`
+  line `4 धिधि अिुकूलि आदेश, 1950 द्व ारा “ प्र ान्‍दतों ” के िा ि पर प्र धत िा धपत।`
+  line `5 1960 के अधिधियम सं ० 45 की िारा 6 द्व ारा अंत:िा धपत।`
+  line `6 1983 के अधिधियम सं ० 20 की िारा 2 और अिुसूर्ी द्व ारा ( 15 - 3 - 1984 से) “ उपधिधियां बिा सकते हैं ” के िा ि पर प्र धत िा धपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-( 2 ) धिधशष्ट तया, और पूिचगामी शधक्त की व् या पकता पर प्र धतकूल प्र भाि डाले धबिा 1 [ ऐसी उपधिधियां ] धिम्ि धलधित के धलए
-उपबन्‍दि कर सकती हैं: —
-(क) न्‍द या सी की सािारि और धिशेष बैठकों का बुलाया जािा, आयोजि और ि गि ककया जािा;
-(ि) ऐसी बैठकों में न्‍द या धसयों को उपधि त करिा;
-(ग) कायचिृत्त और लेिा पु त कों की व् य ििा और उसका रििा;
-(घ) सूर्ी बिािा;
-(ङ) न्‍द या सी में धिधहत संग्रह की ितु ओं को उिार देिा;
-(र्) ऐसे संग्रहों की ितु ओं की अिुकृधतयों का धिधिमय और धिक्रय और 2 [ भारत ] के अन्‍दय संग्रहालयों को उिका अपचि;
-(छ) ऐसे संग्रहों की ितु ओं का हटाया जािा और िष्ट ककया जािा;
-(ज) संग्रहालय का सािारि प्र बन्‍दि।
-3 [ ( 3 ) केन्‍दरी य सरकार, इस िारा के अिीि बिाई गई प्रत् ये क उपधिधि को उसके बिाए जािे के पश् र्ा त यिाशीघ्र, संसद के प्रत् ये क
-सदि के समि, जब िह सत्र में हो, कुल तीस कदि की अिधि के धलए रििाएगी। यह अिधि एक सत्र में अििा दो या अधिक आिुक्रधमक
-सत्रों में पूरी हो सकेगी। यकद उस सत्र के या पूिोक्त आिुक्रधमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिच दोिों सदि उस उपधिधि में कोई
-पटरितचि करिे के धलए सहमत हो जाएं, तो तत्प श् र् ा त िह ऐसे पटरिर्तचत रू प में ही प्र भािी होगी। यकद उक्त अिसाि के पूिच दोिों सदि
-सहमत हो जाएं कक िह उपधिधि िहीं बिाई जािी र् ाधहए तो तत्प श् र् ा त िह धिष् प्र भाि हो जाएगी। ककन्‍दतु उपधिधि के ऐसे पटरिर्तचत या
-धिष् प्र भाि होिे से उसके अिीि पहले की गई ककसी बात की धिधिमान्‍दय ता पर प्र धतकूल प्र भाि िहीं पङेगा। ]
-4 [ 9. न्‍द या सी की अधिकारी और सेिक धि युक्त करिे की शधक्त — ( 1 ) उपिारा ( 2 ) के उपबन्‍दिों के अिीि, न्‍द या सी इतिे अधिकारी
-और सेिक धियुक्त कर सकते हैं धजतिे िे न्‍द या स सम्प धत्त की देि - रेि और प्र बन्‍दि के धलए आिश्य क और उधर्त समझें और उिके कृत् यों का
-अििारि कर सकते हैं।
-( 2 ) ऐसे अधिकाटरयों और सेिकों की भती और सेिा की शतें इस अधिधियम के अिीि बिाए गए धियमों द्व ारा धिधियधमत की
-जाएं गी। न्‍द
-या सी के कतचव्य
-5 [ 10. बजट — न्‍द या सी, प्रत् ये क धित्तीय िषच में उस तारीि तक, जो केन्‍दरी य सरकार द्व ारा धिधिर्दचष्ट की जाए, उस सरकार को, उस
-सरकार द्व ारा भारत के धियंत्रक और महालेिापरीिक के परामशच से धिधिर्दचष्ट प्ररू प में आगामी धित्तीय िषच का बजट प्र तु त करेंगे धजसमें
-आगामी धित्तीय िषच के दौराि प्र ाधप्त और व् य य के प्र ाक्क लि कदिाए जाएंगे।
-10 क. िार्षचक टरपोटच और लेिे — (1 ) न्‍द या सी, प्रत् ये क धित्तीय िषच के प्र ारम्भ के पश् र्ा त यिासम्भ ि शीघ्र, —
-(क) केन्‍दरी य सरकार को ऐसे समय या तारीि के अन्‍दद र जो केन्‍दरी य सरकार द्व ारा धिधिर्दचष्ट की जाए, पूिचिती धित्तीय
-िषच के दौराि अपिे कक्रयाकलाप का सही और पूरा िृत्त देते हु ए एक टरपोटच और र् ालू धित्तीय िषच के दौराि धजिकी होिे की
-संभाव्य ता है उि कक्रयाकलापों का िृत्त प्र तु त करेंगे;
-(ि) ऐसे संपरीिक को जो इस धिधमत्त केन्‍दरी य सरकार द्व ारा धियुक्त ककया जाए पूिचिती धित्तीय िषच के दौराि न्‍द या सी द्व
-ारा व् य य ककए गए सभी ि िों का लेिा आिश्य क िाउर्रों सधहत प्र तु त करेंगे।
-( 2 ) न्‍द या सी सिचसािारि की सूर्िा के धलए ऐसी टरपोटच और लेिाओं को प्र धतिषच प्र काधशत करेंगे। ]
-11. एधशयाटटक सोसाइटी के संग्रहों का संग्रहालय में पृिक रिा जािा — ( 1 ) न्‍द या सी उक्त भारतीय संग्रहालय में उि संग्रहों की, जो
-पहले बंगाल की एधशयाटटक सोसाइटी के िा धमत्ि में िे, 6 [ ( जो अब एधशयाटटक सोसाइटी, कलकत्ता के िाम से ज्ञ ात है) ] प्रत् ये क ितु को
-1 1960 के अधिधियम सं ० 45 की िारा 6 द्व ारा “ ऐसे धियम ” के िा ि पर प्र धत िा धपत।
-2 धिधि अिुकूलि आदेश, 195 0 द्व ारा “ प्र ान्‍दतों ” के िा ि पर प्र धत िा धपत।
-3 1983 के अधिधियम सं ० 20 की िारा 2 द्व ारा और अिुसूर्ी द्व ारा ( 15 - 3 - 1984 से) अंत:िा धपत।
-4 1960 के अधिधियम सं ० 45 की िारा 7 द्व ारा िारा 9 के िा ि पर प्र धत िा धपत।
-5 1960 के अधिधियम सं ० 45 की िारा 8 द्व ारा िारा 10 के िा ि पर प्र धत िा धपत।
-6 1960 के अधिधियम सं ० 45 की िारा 9 द्व ारा अंत:िा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `( 2 ) धिधशष्ट तया, और पूिचगामी शधक्त की व् या पकता पर प्र धतकूल प्र भाि डाले धबिा 1 [ ऐसी उपधिधियां ] धिम्ि धलधित के धलए`
+  line `उपबन्‍दि कर सकती हैं: —`
+  line `(क) न्‍द या सी की सािारि और धिशेष बैठकों का बुलाया जािा, आयोजि और ि गि ककया जािा;`
+  line `(ि) ऐसी बैठकों में न्‍द या धसयों को उपधि त करिा;`
+  line `(ग) कायचिृत्त और लेिा पु त कों की व् य ििा और उसका रििा;`
+  line `(घ) सूर्ी बिािा;`
+  line `(ङ) न्‍द या सी में धिधहत संग्रह की ितु ओं को उिार देिा;`
+  line `(र्) ऐसे संग्रहों की ितु ओं की अिुकृधतयों का धिधिमय और धिक्रय और 2 [ भारत ] के अन्‍दय संग्रहालयों को उिका अपचि;`
+  line `(छ) ऐसे संग्रहों की ितु ओं का हटाया जािा और िष्ट ककया जािा;`
+  line `(ज) संग्रहालय का सािारि प्र बन्‍दि।`
+  line `3 [ ( 3 ) केन्‍दरी य सरकार, इस िारा के अिीि बिाई गई प्रत् ये क उपधिधि को उसके बिाए जािे के पश् र्ा त यिाशीघ्र, संसद के प्रत् ये क`
+  line `सदि के समि, जब िह सत्र में हो, कुल तीस कदि की अिधि के धलए रििाएगी। यह अिधि एक सत्र में अििा दो या अधिक आिुक्रधमक`
+  line `सत्रों में पूरी हो सकेगी। यकद उस सत्र के या पूिोक्त आिुक्रधमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिच दोिों सदि उस उपधिधि में कोई`
+  line `पटरितचि करिे के धलए सहमत हो जाएं, तो तत्प श् र् ा त िह ऐसे पटरिर्तचत रू प में ही प्र भािी होगी। यकद उक्त अिसाि के पूिच दोिों सदि`
+  line `सहमत हो जाएं कक िह उपधिधि िहीं बिाई जािी र् ाधहए तो तत्प श् र् ा त िह धिष् प्र भाि हो जाएगी। ककन्‍दतु उपधिधि के ऐसे पटरिर्तचत या`
+  line `धिष् प्र भाि होिे से उसके अिीि पहले की गई ककसी बात की धिधिमान्‍दय ता पर प्र धतकूल प्र भाि िहीं पङेगा। ]`
+  line `4 [ 9. न्‍द या सी की अधिकारी और सेिक धि युक्त करिे की शधक्त — ( 1 ) उपिारा ( 2 ) के उपबन्‍दिों के अिीि, न्‍द या सी इतिे अधिकारी`
+  line `और सेिक धियुक्त कर सकते हैं धजतिे िे न्‍द या स सम्प धत्त की देि - रेि और प्र बन्‍दि के धलए आिश्य क और उधर्त समझें और उिके कृत् यों का`
+  line `अििारि कर सकते हैं।`
+  line `( 2 ) ऐसे अधिकाटरयों और सेिकों की भती और सेिा की शतें इस अधिधियम के अिीि बिाए गए धियमों द्व ारा धिधियधमत की`
+  line `जाएं गी। न्‍द`
+  line `या सी के कतचव्य`
+  line `5 [ 10. बजट — न्‍द या सी, प्रत् ये क धित्तीय िषच में उस तारीि तक, जो केन्‍दरी य सरकार द्व ारा धिधिर्दचष्ट की जाए, उस सरकार को, उस`
+  line `सरकार द्व ारा भारत के धियंत्रक और महालेिापरीिक के परामशच से धिधिर्दचष्ट प्ररू प में आगामी धित्तीय िषच का बजट प्र तु त करेंगे धजसमें`
+  line `आगामी धित्तीय िषच के दौराि प्र ाधप्त और व् य य के प्र ाक्क लि कदिाए जाएंगे।`
+  line `10 क. िार्षचक टरपोटच और लेिे — (1 ) न्‍द या सी, प्रत् ये क धित्तीय िषच के प्र ारम्भ के पश् र्ा त यिासम्भ ि शीघ्र, —`
+  line `(क) केन्‍दरी य सरकार को ऐसे समय या तारीि के अन्‍दद र जो केन्‍दरी य सरकार द्व ारा धिधिर्दचष्ट की जाए, पूिचिती धित्तीय`
+  line `िषच के दौराि अपिे कक्रयाकलाप का सही और पूरा िृत्त देते हु ए एक टरपोटच और र् ालू धित्तीय िषच के दौराि धजिकी होिे की`
+  line `संभाव्य ता है उि कक्रयाकलापों का िृत्त प्र तु त करेंगे;`
+  line `(ि) ऐसे संपरीिक को जो इस धिधमत्त केन्‍दरी य सरकार द्व ारा धियुक्त ककया जाए पूिचिती धित्तीय िषच के दौराि न्‍द या सी द्व`
+  line `ारा व् य य ककए गए सभी ि िों का लेिा आिश्य क िाउर्रों सधहत प्र तु त करेंगे।`
+  line `( 2 ) न्‍द या सी सिचसािारि की सूर्िा के धलए ऐसी टरपोटच और लेिाओं को प्र धतिषच प्र काधशत करेंगे। ]`
+  line `11. एधशयाटटक सोसाइटी के संग्रहों का संग्रहालय में पृिक रिा जािा — ( 1 ) न्‍द या सी उक्त भारतीय संग्रहालय में उि संग्रहों की, जो`
+  line `पहले बंगाल की एधशयाटटक सोसाइटी के िा धमत्ि में िे, 6 [ ( जो अब एधशयाटटक सोसाइटी, कलकत्ता के िाम से ज्ञ ात है) ] प्रत् ये क ितु को`
+  line `1 1960 के अधिधियम सं ० 45 की िारा 6 द्व ारा “ ऐसे धियम ” के िा ि पर प्र धत िा धपत।`
+  line `2 धिधि अिुकूलि आदेश, 195 0 द्व ारा “ प्र ान्‍दतों ” के िा ि पर प्र धत िा धपत।`
+  line `3 1983 के अधिधियम सं ० 20 की िारा 2 द्व ारा और अिुसूर्ी द्व ारा ( 15 - 3 - 1984 से) अंत:िा धपत।`
+  line `4 1960 के अधिधियम सं ० 45 की िारा 7 द्व ारा िारा 9 के िा ि पर प्र धत िा धपत।`
+  line `5 1960 के अधिधियम सं ० 45 की िारा 8 द्व ारा िारा 10 के िा ि पर प्र धत िा धपत।`
+  line `6 1960 के अधिधियम सं ० 45 की िारा 9 द्व ारा अंत:िा धपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-और िारा 6 के अिीि क्र य से धभन्‍दि अन्‍दय ककसी बात से इसके पश् र्ा त की गई उसमें सभी िृधियों को धर् धनि त और संखयां ककत कारा एंगे और
-(िारा 7 और 16 के उपबंिों के अिीि रहते हु ए) ऐसे धर् निों और संखयां कों सधहत उक्त संग्रहालय में रििाएंगे और बिाए रिेंगे।
-( 2 ) उक्त सोसाइटी द्व ारा ऐसी िृधियों की एक सूर्ी बिाई जाएगी, धजसकी एक प्र धत न्‍द या धसयों द्व ारा हता िटरत की जा कर उक्त
-सो साइटी को पटरदत्त की जाएगी, और एक अन्‍दय प्र धत उक्त सोसाइटी की पटरषदद्व ारा हता िटरत की जा कर न्‍द या धसयों को पटरदत्त की
-जाएगी, और उिके द्व ारा उस सूर्ी के साि रिी जाएगी जो न्‍द या धसयों के पद में पूिचिर्तचयों िे पटरदत्त की िी जब उक्त संग्रह उक्त संग्रहाल य
-में धिधिप् त ककए गए िे।
-12. धिधिमय में प्र ाप्त या क्र य की गई ितु ओं का और धिक्रय से प्र ाप्त िि का न्‍द या सत: िारि ककया जािा — िारा 7 के अिीि
-धिधिमय में धलए गए सभी पदािच और क्र य की गई ितु एं और उस िारा के धिबन्‍दि िों के अिुसार धिक्रय से आपि ककए गए सभी िि न्‍द
-या सत: िारि ककए जाएंगे और इस अधिधिय म द्व ारा मयाचकदत और घोधषत न्‍द या स, शधक्त यों और घोषिाओं से धिकटतम समाि शधक्त यों
-और घोषिाओं के अिीि होंगे।
-अिुपूरक उपबन्‍द ि
-1 [ 12 क. केन्‍दरी य सरकार की न्‍द या सी को धिदेश जारी करिे की शधक्त — ( 1 ) इस अधिधियम के अिीि अपिे कतचव्यों के धििचहि
-में, न्‍द या सी िीधत के प्रश् िों पर ऐसे धिदेशों से आबि होंगे जो केन्‍दरी य सरकार उन्‍दहें समय - समय पर दे:
-परन्‍द तु इस उपिारा के अिीि ककसी धिदेश के कदए जािे के पहले न्‍द या सी को अपिा मत अधभव्य क् त करिे के धलए अिसर कद या
-जाएगा।
-( 2 ) कोई प्रश् ि िीधत का है या िहीं इस पर केन्‍दरी य सरकार का धिधिश् र् य अधन्‍दत म होगा। ]
-13. अधिधियम के अिीि अधिकाटरयों का लोक सेिक होिा — इस अधिधियम के अिीि धियुक्त सभी अधिकारी और सेिक
-भारतीय दण्ड संधहता ( 1860 का 45 ) के अिाचन्‍दत गचत लोक सेिक स मझे जाएंगे 2 ***।
-14. न्‍द या सी की ऐसे संग्रहों को रििे की शधक्त जो उिके िा धमत्ि में िहीं हैं — इसमें इसके पहले ककसी बात के होते हु ए
-भी, न्‍द या सी, यकद िह ठीक समझे तो, केन्‍दरी य सरकार की पूिच मंजूरी से, और प्रत् ये क दशा में ऐसी शतों के अिीि रहते हु ए धजिका िह
-अिुमोदि करे औ र ऐसे धियमों के अिीि रहते हु ए जो िह धिधहत करे, ऐसे संग्रहों की, अधभरिा और प्र शासि संभाल सकते है जो न्‍द या सी की
-इस अधिधियम के अिीि उिके न्‍द या स के प्र योजिों के धलए सम्प धत्त िहीं है और ऐसे संग्रहों को या तो भारतीय सं ग्र हालय में या अन्‍दय त्र रि
-सकते हैं और उिकी परीिा कर सकते हैं:
-परन्‍द तु यकद इस अधिधियम द्व ारा गटठत न्‍द या स ककसी समय पयचिधसत हो जाता है तो, ऐसे संग्रह इस कारि कक िे भारतीय
-संग्रहालय में िे, सरकार की सम्प धत्त िहीं हो जाएंगे।
-3 [ 15. न्‍द या सी की उिकी कब्जे की कुछ सम्प धत्त से धिलग होिे की शधक्त — ऐसी शतों के अिीि रहते हु ए जो केन्‍दरी य सरकार
-अिुमोकदत करे, न्‍द या सी अिुसूर्ी में िर्िचत समत संपधत्त या उसके ककसी भाग के कब्जे का ऐसे व् य धक् त को पटरदाि कर सकते हैं धजसे केन्‍दरी य
-सरकार धियुक्त करे। ]
-4 [ 15 क. धियम बिािे की शधक्त — ( 1 ) केन्‍दरी य सरकार, न्‍द या सी के परामशच से, राजपत्र में अधिसूर्िा द्व ारा, इस अधिधियम के प्र
-योजिों को कक्रयाधन्‍दि त करिे के धलए धियम बिा सकती है।
-( 2 ) धिधशष्ट तया और पूिचगामी शधक्त की व् या पकता पर प्र धतकूल प्र भाि डाले धबिा, ऐसे धियम धिम्ि धलधित में से सभी या ककन्‍दहीं
-बातों के धलए उपबन्‍दि कर सकते हैं: —
-(क) संग्रहालय के अधिकाटरयों और सेिकों की भती और सेिा की शतें;
-(ि) िह प्ररू प और रीधत धजसमें संग्रहालय के लेिे जाएंगे और िह रीधत धजसमें ऐसे लेिों की संपरीिा की जाएगी;
-(ग) िे पटर धि धतयां धजिमें और िे शतें धजिके अिीि न्‍द या सी िारा 14 में धिर्दचष्ट ककन्‍दहीं संग्रहों की अधभरिा और प्र
-शासि संभाल सकते हैं और ऐसे संग्रहों को रि सकते है और उिकी पटररिा कर सकते हैं;
-(घ) िे शतें धजिके अिीि न्‍द या सी ककसी अन्‍दय व् य धक्त को उस सम्प धत्त का कब्जा पटरदाि कर सकते हैं जो उिके
-कब्जे में है।
-1 1960 के अधिधियम सं ० 45 की िारा 10 द्व ारा अंत:िा धपत।
-2 1960 के अधिधियम सं ० 45 की िारा 11 द्व ारा कुछ शब्दों का लोप ककया गया।
-3 भारत शासि (भारती य धिधि अिुकूलि) आदेश, 1937 द्व ारा मूल िारा के िा ि पर प्र धत िा धपत।
-4 1960 के अधिधियम सं ० 45 की िारा 12 द्व ारा अंत िा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `और िारा 6 के अिीि क्र य से धभन्‍दि अन्‍दय ककसी बात से इसके पश् र्ा त की गई उसमें सभी िृधियों को धर् धनि त और संखयां ककत कारा एंगे और`
+  line `(िारा 7 और 16 के उपबंिों के अिीि रहते हु ए) ऐसे धर् निों और संखयां कों सधहत उक्त संग्रहालय में रििाएंगे और बिाए रिेंगे।`
+  line `( 2 ) उक्त सोसाइटी द्व ारा ऐसी िृधियों की एक सूर्ी बिाई जाएगी, धजसकी एक प्र धत न्‍द या धसयों द्व ारा हता िटरत की जा कर उक्त`
+  line `सो साइटी को पटरदत्त की जाएगी, और एक अन्‍दय प्र धत उक्त सोसाइटी की पटरषदद्व ारा हता िटरत की जा कर न्‍द या धसयों को पटरदत्त की`
+  line `जाएगी, और उिके द्व ारा उस सूर्ी के साि रिी जाएगी जो न्‍द या धसयों के पद में पूिचिर्तचयों िे पटरदत्त की िी जब उक्त संग्रह उक्त संग्रहाल य`
+  line `में धिधिप् त ककए गए िे।`
+  line `12. धिधिमय में प्र ाप्त या क्र य की गई ितु ओं का और धिक्रय से प्र ाप्त िि का न्‍द या सत: िारि ककया जािा — िारा 7 के अिीि`
+  line `धिधिमय में धलए गए सभी पदािच और क्र य की गई ितु एं और उस िारा के धिबन्‍दि िों के अिुसार धिक्रय से आपि ककए गए सभी िि न्‍द`
+  line `या सत: िारि ककए जाएंगे और इस अधिधिय म द्व ारा मयाचकदत और घोधषत न्‍द या स, शधक्त यों और घोषिाओं से धिकटतम समाि शधक्त यों`
+  line `और घोषिाओं के अिीि होंगे।`
+  line `अिुपूरक उपबन्‍द ि`
+  line `1 [ 12 क. केन्‍दरी य सरकार की न्‍द या सी को धिदेश जारी करिे की शधक्त — ( 1 ) इस अधिधियम के अिीि अपिे कतचव्यों के धििचहि`
+  line `में, न्‍द या सी िीधत के प्रश् िों पर ऐसे धिदेशों से आबि होंगे जो केन्‍दरी य सरकार उन्‍दहें समय - समय पर दे:`
+  line `परन्‍द तु इस उपिारा के अिीि ककसी धिदेश के कदए जािे के पहले न्‍द या सी को अपिा मत अधभव्य क् त करिे के धलए अिसर कद या`
+  line जाएगा।
+  line `( 2 ) कोई प्रश् ि िीधत का है या िहीं इस पर केन्‍दरी य सरकार का धिधिश् र् य अधन्‍दत म होगा। ]`
+  line `13. अधिधियम के अिीि अधिकाटरयों का लोक सेिक होिा — इस अधिधियम के अिीि धियुक्त सभी अधिकारी और सेिक`
+  line `भारतीय दण्ड संधहता ( 1860 का 45 ) के अिाचन्‍दत गचत लोक सेिक स मझे जाएंगे 2 ***।`
+  line `14. न्‍द या सी की ऐसे संग्रहों को रििे की शधक्त जो उिके िा धमत्ि में िहीं हैं — इसमें इसके पहले ककसी बात के होते हु ए`
+  line `भी, न्‍द या सी, यकद िह ठीक समझे तो, केन्‍दरी य सरकार की पूिच मंजूरी से, और प्रत् ये क दशा में ऐसी शतों के अिीि रहते हु ए धजिका िह`
+  line `अिुमोदि करे औ र ऐसे धियमों के अिीि रहते हु ए जो िह धिधहत करे, ऐसे संग्रहों की, अधभरिा और प्र शासि संभाल सकते है जो न्‍द या सी की`
+  line `इस अधिधियम के अिीि उिके न्‍द या स के प्र योजिों के धलए सम्प धत्त िहीं है और ऐसे संग्रहों को या तो भारतीय सं ग्र हालय में या अन्‍दय त्र रि`
+  line `सकते हैं और उिकी परीिा कर सकते हैं:`
+  line `परन्‍द तु यकद इस अधिधियम द्व ारा गटठत न्‍द या स ककसी समय पयचिधसत हो जाता है तो, ऐसे संग्रह इस कारि कक िे भारतीय`
+  line `संग्रहालय में िे, सरकार की सम्प धत्त िहीं हो जाएंगे।`
+  line `3 [ 15. न्‍द या सी की उिकी कब्जे की कुछ सम्प धत्त से धिलग होिे की शधक्त — ऐसी शतों के अिीि रहते हु ए जो केन्‍दरी य सरकार`
+  line `अिुमोकदत करे, न्‍द या सी अिुसूर्ी में िर्िचत समत संपधत्त या उसके ककसी भाग के कब्जे का ऐसे व् य धक् त को पटरदाि कर सकते हैं धजसे केन्‍दरी य`
+  line `सरकार धियुक्त करे। ]`
+  line `4 [ 15 क. धियम बिािे की शधक्त — ( 1 ) केन्‍दरी य सरकार, न्‍द या सी के परामशच से, राजपत्र में अधिसूर्िा द्व ारा, इस अधिधियम के प्र`
+  line `योजिों को कक्रयाधन्‍दि त करिे के धलए धियम बिा सकती है।`
+  line `( 2 ) धिधशष्ट तया और पूिचगामी शधक्त की व् या पकता पर प्र धतकूल प्र भाि डाले धबिा, ऐसे धियम धिम्ि धलधित में से सभी या ककन्‍दहीं`
+  line `बातों के धलए उपबन्‍दि कर सकते हैं: —`
+  line `(क) संग्रहालय के अधिकाटरयों और सेिकों की भती और सेिा की शतें;`
+  line `(ि) िह प्ररू प और रीधत धजसमें संग्रहालय के लेिे जाएंगे और िह रीधत धजसमें ऐसे लेिों की संपरीिा की जाएगी;`
+  line `(ग) िे पटर धि धतयां धजिमें और िे शतें धजिके अिीि न्‍द या सी िारा 14 में धिर्दचष्ट ककन्‍दहीं संग्रहों की अधभरिा और प्र`
+  line `शासि संभाल सकते हैं और ऐसे संग्रहों को रि सकते है और उिकी पटररिा कर सकते हैं;`
+  line `(घ) िे शतें धजिके अिीि न्‍द या सी ककसी अन्‍दय व् य धक्त को उस सम्प धत्त का कब्जा पटरदाि कर सकते हैं जो उिके`
+  line `कब्जे में है।`
+  line `1 1960 के अधिधियम सं ० 45 की िारा 10 द्व ारा अंत:िा धपत।`
+  line `2 1960 के अधिधियम सं ० 45 की िारा 11 द्व ारा कुछ शब्दों का लोप ककया गया।`
+  line `3 भारत शासि (भारती य धिधि अिुकूलि) आदेश, 1937 द्व ारा मूल िारा के िा ि पर प्र धत िा धपत।`
+  line `4 1960 के अधिधियम सं ० 45 की िारा 12 द्व ारा अंत िा धपत।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-1 [ ( 3 ) िे शतें धजिके अिीि बिाया गया प्रत् ये क धियम, बिाए जािे पश् र्ा त यिाशीघ्र, संसद के प्रत् ये क सदि के समि, जब िह सत्र
-में हो, कुल तीस कदि की अिधि के धलए रिा जाएगा। यह अिधि एक सत्र में अििा दो या अधिक आिुक्रधमक सत्रों में पूरी हो सकेगी। यकद
-उस सत्र के या पूिोक् त आिुक्रधमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिच दोिों सदि उस धियम में कोई पटरितचि करिे के धलए सहमत
-हो जाएं तो तत्प श् र् ा त िह ऐसे पटरिर्तचत रू प में ही प्र भािी होगा। यकद उक्त अिसाि के पूिच दोिों सदि सहमत हो जाएं कक िह धियम
-िहीं बिाया जािा र् ाधहए तो तत्प श् र् ा त िह धिष् प्र भाि हो जाएगा। ककन्‍दतु धियम के ऐसे पटरिर्तचत या धिष् प्र भाि होिे से उसके अिीि पहले
-की गई ककसी बात की धिधिमान्‍दय ता पर प्र धतकूल प्र भाि िहीं पड़ेगा। ]
-16. न्‍द या स के पयचिसाि पर संग्रहों की सम्प धत्त — यकद इस अधिधिय म द्व ारा गटठत न्‍द या स ककसी समय पयचिधसत हो जाता है तो, —
-(क) िारा 11 में उधल धित संग्रह और िृधियां उक्त एधशयाटटक सोसाइटी या उसके समिुदेधशधतयों की सम्प धत्त हो
-जाएंगी, और
-(ि ) उक्त भारतीय संग्रहालय के सभी अन्‍दय संग्रह, िारा 14 में जैसा उपबधन्‍दि त है उसके धसिाए, सरकार की सम्प धत्त हो
-जाएंगे।
-17. [ धिरसि। ] — धिरसि और संशोिि अधिधियम, 1914 ( 1914 का 10 ) की िारा 3 और अिुसूर्ी 2 द्व ारा धिरधसत।
-अिुसूर्ी
-(िारा 6 और 15 देधिए)
-सभी धिद्य माि या उस पर पटरधिर्मचत भििों, सड़कों और तालाबों और उिसे सम्ब ि सभी सुधििाधिकारों सधहत िह भूधम
-धजसके, —
-उत्तर में पटरसर सं ० 2 सदर मागच, और सदर मागच है;
-पधश् र् मी में र् ौरंगी मागच और पटरसर सं ० 29, र् ौरंगी मागच है (जो बंगाल यूिाइटेड सर्िचस क् ल ब के अ धिभोग में है);
-दधिि में पटरसर सं ० 29 र् ौरंगी मागच, ककड मागच है और पटरसर सं ० 4 र् ौरंगी लेि है; और
-पूिच में पटरसर सं ० 15 ककड मागच और पटरसर सं ० 4, 3, 2 और 1 र् ौरंगी लेि है।
-______
-1 1983 के अधिधियम सं ० 20 की िारा 2 और अिुसूर्ी द्व ारा ( 15 - 3 - 1984 से) उपिारा ( 3) के िा ि पर प्र धत िा धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `1 [ ( 3 ) िे शतें धजिके अिीि बिाया गया प्रत् ये क धियम, बिाए जािे पश् र्ा त यिाशीघ्र, संसद के प्रत् ये क सदि के समि, जब िह सत्र`
+  line `में हो, कुल तीस कदि की अिधि के धलए रिा जाएगा। यह अिधि एक सत्र में अििा दो या अधिक आिुक्रधमक सत्रों में पूरी हो सकेगी। यकद`
+  line `उस सत्र के या पूिोक् त आिुक्रधमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिच दोिों सदि उस धियम में कोई पटरितचि करिे के धलए सहमत`
+  line `हो जाएं तो तत्प श् र् ा त िह ऐसे पटरिर्तचत रू प में ही प्र भािी होगा। यकद उक्त अिसाि के पूिच दोिों सदि सहमत हो जाएं कक िह धियम`
+  line `िहीं बिाया जािा र् ाधहए तो तत्प श् र् ा त िह धिष् प्र भाि हो जाएगा। ककन्‍दतु धियम के ऐसे पटरिर्तचत या धिष् प्र भाि होिे से उसके अिीि पहले`
+  line `की गई ककसी बात की धिधिमान्‍दय ता पर प्र धतकूल प्र भाि िहीं पड़ेगा। ]`
+  line `16. न्‍द या स के पयचिसाि पर संग्रहों की सम्प धत्त — यकद इस अधिधिय म द्व ारा गटठत न्‍द या स ककसी समय पयचिधसत हो जाता है तो, —`
+  line `(क) िारा 11 में उधल धित संग्रह और िृधियां उक्त एधशयाटटक सोसाइटी या उसके समिुदेधशधतयों की सम्प धत्त हो`
+  line `जाएंगी, और`
+  line `(ि ) उक्त भारतीय संग्रहालय के सभी अन्‍दय संग्रह, िारा 14 में जैसा उपबधन्‍दि त है उसके धसिाए, सरकार की सम्प धत्त हो`
+  line जाएंगे।
+  line `17. [ धिरसि। ] — धिरसि और संशोिि अधिधियम, 1914 ( 1914 का 10 ) की िारा 3 और अिुसूर्ी 2 द्व ारा धिरधसत।`
+  line अिुसूर्ी
+  line `(िारा 6 और 15 देधिए)`
+  line `सभी धिद्य माि या उस पर पटरधिर्मचत भििों, सड़कों और तालाबों और उिसे सम्ब ि सभी सुधििाधिकारों सधहत िह भूधम`
+  line `धजसके, —`
+  line `उत्तर में पटरसर सं ० 2 सदर मागच, और सदर मागच है;`
+  line `पधश् र् मी में र् ौरंगी मागच और पटरसर सं ० 29, र् ौरंगी मागच है (जो बंगाल यूिाइटेड सर्िचस क् ल ब के अ धिभोग में है);`
+  line `दधिि में पटरसर सं ० 29 र् ौरंगी मागच, ककड मागच है और पटरसर सं ० 4 र् ौरंगी लेि है; और`
+  line `पूिच में पटरसर सं ० 15 ककड मागच और पटरसर सं ० 4, 3, 2 और 1 र् ौरंगी लेि है।`
+  line ______
+  line `1 1983 के अधिधियम सं ० 20 की िारा 2 और अिुसूर्ी द्व ारा ( 15 - 3 - 1984 से) उपिारा ( 3) के िा ि पर प्र धत िा धपत।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line

@@ -1,39 +1,35 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:46:22.362Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1414`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 6)
-  (str totalSections) (int 6)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:46:22.362Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1414`
+  completeFetch true
+  maxSections null
+  sectionCount 6
+  totalSections 6
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-sick-industrial-companies-special-provisions-repeal-act-2003)
-  (str handle) (str 1414)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Sick Industrial Companies (Special Provisions) Repeal Act, 2003`)
-  (str actNumber) (str 01)
-  (str enactmentDate) (str 2004-01-01)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1414`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `रुग्ण औद्योगिक कंपनी (विशेष उपबंध) निरसन अधिनियम, 2003`)
-  (str actYear) (str 2004)
-  (str ministry) (str `Ministry of Finance`)
-  (str department) (str `Department of Financial Services`)
-  (str longTitle) (str `An Act to repeal the Sick Industrial Companies (Special Provisions) Act, 1985.`)
-  (str enforcementDate) (str 01-12-2016)
-  (str notification) (str `1st December, 2016, vide notification No. S.O. 3568(E), dated 25th November, 2016, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`)
-  (str fetchedAt) (str `2026-05-08T21:24:08.922Z`)
-  (str translations) obj_root_law_translations
+  slug the-sick-industrial-companies-special-provisions-repeal-act-2003
+  handle (1414)
+  collectionHandle 123456789/1362
+  title `The Sick Industrial Companies (Special Provisions) Repeal Act, 2003`
+  actNumber (01)
+  enactmentDate 2004-01-01
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1414`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `रुग्ण औद्योगिक कंपनी (विशेष उपबंध) निरसन अधिनियम, 2003`
+  actYear (2004)
+  ministry `Ministry of Finance`
+  department `Department of Financial Services`
+  longTitle `An Act to repeal the Sick Industrial Companies (Special Provisions) Act, 1985.`
+  enforcementDate 01-12-2016
+  notification `1st December, 2016, vide notification No. S.O. 3568(E), dated 25th November, 2016, see Gazette of India, Extraordinary, Part II, sec. 3(ii).`
+  fetchedAt `2026-05-08T21:24:08.922Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_sick_industrial_companies_special_provisions_repeal_act_2003
   obj_root_law_sources_en_3
@@ -43,54 +39,58 @@ obj_root_law_sources_en:
   obj_root_law_sources_en_7
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1414`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1414`
 obj_root_law_sources_en_the_sick_industrial_companies_special_provisions_repeal_act_2003:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1414/1/A2004-01.pdf`)
-  (str title) (str `The Sick Industrial Companies (Special Provisions) Repeal Act, 2003`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1414/1/A2004-01.pdf`
+  title `The Sick Industrial Companies (Special Provisions) Repeal Act, 2003`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=bifr_%28salaries_and_allowances_and_conditions_of_servie_of_chairman_and_other_members%29_rules%2C_1987.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=bifr_%28salaries_and_allowances_and_conditions_of_servie_of_chairman_and_other_members%29_rules%2C_1987.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=bifr_%28financial_and_administrative_powers%29_rules%2C_1987.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=bifr_%28financial_and_administrative_powers%29_rules%2C_1987.pdf`
+  title obj_root_law_sources_en_4_title
+obj_root_law_sources_en_4_title:
+  string
+  line
 obj_root_law_sources_en_5:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=bifr_%28secretary%27s_powers_and_duties%29_rules%2C_1987.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=bifr_%28secretary%27s_powers_and_duties%29_rules%2C_1987.pdf`
+  title obj_root_law_sources_en_5_title
+obj_root_law_sources_en_5_title:
+  string
+  line
 obj_root_law_sources_en_6:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=aaifr_%28secretary%27s_powers_and_duties%29_rules%2C_1988.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=aaifr_%28secretary%27s_powers_and_duties%29_rules%2C_1988.pdf`
+  title obj_root_law_sources_en_6_title
+obj_root_law_sources_en_6_title:
+  string
+  line
 obj_root_law_sources_en_7:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=aaifr_%28conditions_of_service_of_the_secretary_and_other_officers_and_employees%29_rules%2C_1989.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=aaifr_%28conditions_of_service_of_the_secretary_and_other_officers_and_employees%29_rules%2C_1989.pdf`
+  title obj_root_law_sources_en_7_title
+obj_root_law_sources_en_7_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_2003
 obj_root_law_sources_hi_2003:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1414/3/H2004-01.pdf`)
-  (str title) (str `रुग्ण औद्योगिक कंपनी (विशेष उपबंध) निरसन अधिनियम, 2003`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1414/3/H2004-01.pdf`
+  title `रुग्ण औद्योगिक कंपनी (विशेष उपबंध) निरसन अधिनियम, 2003`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -98,367 +98,409 @@ obj_root_law_sections:
   obj_root_law_sections_5
   obj_root_law_sections_6
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 5102)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Sick Industrial Companies
-(Special Provisions) Repeal Act, 2003.
-
-(2) It shall come into force on such date as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5102&sectionno=1&orderno=1&orgactid=AC_CEN_2_11_00026_200401_1517807322103)
+  sectionId (5102)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5102&sectionno=1&orderno=1&orgactid=AC_CEN_2_11_00026_200401_1517807322103
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Sick Industrial Companies`
+  line `(Special Provisions) Repeal Act, 2003.`
+  line
+  line `(2) It shall come into force on such date as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 5103)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires--,
-
-(a) "Appellate Authority'' means the Appellate Authority for Industrial and Financial
-Reconstruction constituted under section 5 of the Sick Industrial Companies (Special Provisions) Act,
-1985 (1 of 1986);
-
-(b) "Board'' means the Board for Industrial and Financial Reconstruction established under
-section 4 of the Sick Industrial Companies (Special Provisions) Act, 1985 (1 of 1986);
-
-(c) words and expressions used herein and not defined but defined in the Sick Industrial
-Companies (Special Provisions) Act, 1985 (1 of1986), shall have the meanings respectively assigned
-to them in that Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5103&sectionno=2&orderno=2&orgactid=AC_CEN_2_11_00026_200401_1517807322103)
+  sectionId (5103)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5103&sectionno=2&orderno=2&orgactid=AC_CEN_2_11_00026_200401_1517807322103
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires--,`
+  line
+  line `(a) "Appellate Authority'' means the Appellate Authority for Industrial and Financial`
+  line `Reconstruction constituted under section 5 of the Sick Industrial Companies (Special Provisions) Act,`
+  line `1985 (1 of 1986);`
+  line
+  line `(b) "Board'' means the Board for Industrial and Financial Reconstruction established under`
+  line `section 4 of the Sick Industrial Companies (Special Provisions) Act, 1985 (1 of 1986);`
+  line
+  line `(c) words and expressions used herein and not defined but defined in the Sick Industrial`
+  line `Companies (Special Provisions) Act, 1985 (1 of1986), shall have the meanings respectively assigned`
+  line `to them in that Act.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 5104)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Repeal of Act 1 of 1986 and dissolution of Appellate Authority and Board.`)
-  (str content) (str `The Sick
-Industrial Companies (Special Provisions) Act, 1985(hereinafter referred to as the repealed enactment) is
-hereby repealed and the Appellate Authority and the Board stand dissolved.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5104&sectionno=3&orderno=3&orgactid=AC_CEN_2_11_00026_200401_1517807322103)
+  sectionId (5104)
+  sectionNo (3)
+  orderNo 3
+  title `Repeal of Act 1 of 1986 and dissolution of Appellate Authority and Board.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5104&sectionno=3&orderno=3&orgactid=AC_CEN_2_11_00026_200401_1517807322103
+obj_root_law_sections_3_content:
+  string
+  line `The Sick`
+  line `Industrial Companies (Special Provisions) Act, 1985(hereinafter referred to as the repealed enactment) is`
+  line `hereby repealed and the Appellate Authority and the Board stand dissolved.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 5105)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Consequential provisions.`)
-  (str content) (str `On the dissolution of the Appellate Authority and the Board,--
-
-(a) (i) the persons appointed as Chairman and Member of the Appellate Authority or the Board;
-and
-
-(ii) every other person appointed by the Central Government, Appellate Authority or the Board,
-and holding office as such immediately before the commencement of this Act, shall vacate his office and
-no such Chairman, Member or other person shall be entitled to claim any compensation for premature
-termination of the term of his office or of any contract of service:
-
-Provided that every officer or employee who has been, immediately before the dissolution of the
-Appellate Authority or the Board, appointed on deputation basis to the Appellate Authority or the Board,
-shall stand reverted to his parent cadre, Ministry or Department, as the case may be:
-
-Provided further that every officer or employee who has been, immediately before the dissolution of
-the Appellate Authority or the Board, employed on regular basis by the Appellate Authority or the Board,
-shall become, on and from the date of such dissolution, the officer and employee, respectively, of the
-Central Government with the same rights and privileges as to pension, gratuity and other like matters as
-would have been admissible to him if the rights in relation to such Appellate Authority or the Board had
-not been transferred to, and vested in, the Central Government and shall continue to do so unless and until
-his employment in the Central Government is duly terminated or until his remuneration, terms and
-conditions of employment are duly altered by that Government:
-
-Provided also that notwithstanding anything contained in the Industrial Disputes Act, 1947
-(14 of 1947), or in any other law for the time being in force, the transfer of the services of any officer or other employee, employed in the Appellate Authority or the Board, to the Central Government, shall not entitle such officer or employee to any compensation under this Act or any other law for the time being in force and no such claim shall be entertained by any court, tribunal or other authority:
-
-Provided also that where the Appellate Authority or the Board has established a provident fund,
-superannuation, welfare or other fund for the benefit of the officers and employees employed in the
-Appellate Authority or the Board, the monies relatable to the officers and employees whose services have been transferred by or under this Act to the Central Government shall, out of the monies standing, on the dissolution of the Appellate Authority or the Board, to the credit of such provident fund, superannuation, welfare or other fund, stand transferred to, and vest in, the Central Government and such monies which stand so transferred shall be dealt with by that Government in such manner as may be prescribed;
-
-^1[(b) On such date as may be notified by the Central Government in this behalf, any appeal preferred
-to the Appellate Authority or any reference made or inquiry pending to or before the Board or any
-proceeding of whatever nature pending before the Appellate Authority or the Board under the Sick
-Industrial Companies (Special Provisions) Act, 1985 (1 of 1986) shall stand abated:
-
-Provided that a company in respect of which such appeal or reference or inquiry stands abated under
-this clause may make reference to the National Company Law Tribunal under the Insolvency and
-Bankruptcy Code, 2016 within one hundred and eighty days from the commencement of the Insolvency
-and Bankruptcy Code, 2016 in accordance with the provisions of the Insolvency and Bankruptcy Code,
-2016:
-
-Provided further that no fees shall be payable for making such reference under Insolvency and
-Bankruptcy Code, 2016 by a company whose appeal or reference or inquiry stands abated under this
-clause.]
-
-^2[Provided also that any scheme sanctioned under sub-section (4) or any scheme under
-implementation under sub-section (12) of section 18 of the Sick Industrial Companies (Special
-Provisions) Act, 1985 shall be deemed to be an approved resolution plan under sub-section (1) of section
-31 of the Insolvency and Bankruptcy Code, 2016 and the same shall be dealt with, in accordance with the
-provisions of Part II of the said Code:
-
-Provided also that in case, the statutory period within which an appeal was allowed under the Sick
-Industrial Companies (Special Provisions) Act, 1985 against an order of the Board had not expired as on
-the date of notification of this Act, an appeal against any such deemed approved resolution plan may be
-preferred by any person before National Company Law Appellate Tribunal within ninety days from the
-date of publication of this order.]
-
-(c) the balance of all monies (including any fee) received by, or advanced to the Appellate
-Authority or the Board, as the case may be, and not spent by it before the commencement of this Act
-shall, on the commencement of this Act, stand transferred to, and vest in, the Central Government and
-shall be utilised for the purposes of clauses (e) and (f);
-
-(d) all property of whatever kind owned by, or vested in, the Appellate Authority or the Board, as
-the case may be, and not spent by it before the commencement of this Act shall, on the
-commencement of this Act, stand transferred to, and shall vest in the Central Government;
-
-(e) all liabilities and obligations of whatever kind incurred by the Appellate Authority or the
-Board and subsisting immediately before the commencement of this Act shall, on and from the
-commencement of this Act, be deemed to be the liabilities or obligations, as the case maybe, of the
-Central Government; and any proceeding or cause of action, pending or existing immediately before
-the commencement of this Act by or against the Appellate Authority or the Board in relation to such
-liability or obligation may, as from the commencement of this Act, be continued or enforced by or
-against the Central Government;
-
-(f) all monies vested in the Central Government under clause (c) shall, after deducting the amount
-incurred for discharging the liabilities and obligations referred to in that clause, be refunded by the
-Central Government to the person to whom such amount is due.`)
-  (str footnotes) (str `1. Subs. by Act 31 of 2016, s. 252 and the Eighth Schedule, for sub-clause (@i/i@) (w.e.f. 1-11-2016).
-
-2. Ins. by vide the Insolvency and Bankruptcy Code (Removal of Difficulties) Order, 2017 vide Notification No. SO1683(E)
-dated 24-05-2017.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5105&sectionno=4&orderno=4&orgactid=AC_CEN_2_11_00026_200401_1517807322103)
+  sectionId (5105)
+  sectionNo (4)
+  orderNo 4
+  title `Consequential provisions.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5105&sectionno=4&orderno=4&orgactid=AC_CEN_2_11_00026_200401_1517807322103
+obj_root_law_sections_4_content:
+  string
+  line `On the dissolution of the Appellate Authority and the Board,--`
+  line
+  line `(a) (i) the persons appointed as Chairman and Member of the Appellate Authority or the Board;`
+  line and
+  line
+  line `(ii) every other person appointed by the Central Government, Appellate Authority or the Board,`
+  line `and holding office as such immediately before the commencement of this Act, shall vacate his office and`
+  line `no such Chairman, Member or other person shall be entitled to claim any compensation for premature`
+  line `termination of the term of his office or of any contract of service:`
+  line
+  line `Provided that every officer or employee who has been, immediately before the dissolution of the`
+  line `Appellate Authority or the Board, appointed on deputation basis to the Appellate Authority or the Board,`
+  line `shall stand reverted to his parent cadre, Ministry or Department, as the case may be:`
+  line
+  line `Provided further that every officer or employee who has been, immediately before the dissolution of`
+  line `the Appellate Authority or the Board, employed on regular basis by the Appellate Authority or the Board,`
+  line `shall become, on and from the date of such dissolution, the officer and employee, respectively, of the`
+  line `Central Government with the same rights and privileges as to pension, gratuity and other like matters as`
+  line `would have been admissible to him if the rights in relation to such Appellate Authority or the Board had`
+  line `not been transferred to, and vested in, the Central Government and shall continue to do so unless and until`
+  line `his employment in the Central Government is duly terminated or until his remuneration, terms and`
+  line `conditions of employment are duly altered by that Government:`
+  line
+  line `Provided also that notwithstanding anything contained in the Industrial Disputes Act, 1947`
+  line `(14 of 1947), or in any other law for the time being in force, the transfer of the services of any officer or other employee, employed in the Appellate Authority or the Board, to the Central Government, shall not entitle such officer or employee to any compensation under this Act or any other law for the time being in force and no such claim shall be entertained by any court, tribunal or other authority:`
+  line
+  line `Provided also that where the Appellate Authority or the Board has established a provident fund,`
+  line `superannuation, welfare or other fund for the benefit of the officers and employees employed in the`
+  line `Appellate Authority or the Board, the monies relatable to the officers and employees whose services have been transferred by or under this Act to the Central Government shall, out of the monies standing, on the dissolution of the Appellate Authority or the Board, to the credit of such provident fund, superannuation, welfare or other fund, stand transferred to, and vest in, the Central Government and such monies which stand so transferred shall be dealt with by that Government in such manner as may be prescribed;`
+  line
+  line `^1[(b) On such date as may be notified by the Central Government in this behalf, any appeal preferred`
+  line `to the Appellate Authority or any reference made or inquiry pending to or before the Board or any`
+  line `proceeding of whatever nature pending before the Appellate Authority or the Board under the Sick`
+  line `Industrial Companies (Special Provisions) Act, 1985 (1 of 1986) shall stand abated:`
+  line
+  line `Provided that a company in respect of which such appeal or reference or inquiry stands abated under`
+  line `this clause may make reference to the National Company Law Tribunal under the Insolvency and`
+  line `Bankruptcy Code, 2016 within one hundred and eighty days from the commencement of the Insolvency`
+  line `and Bankruptcy Code, 2016 in accordance with the provisions of the Insolvency and Bankruptcy Code,`
+  line `2016:`
+  line
+  line `Provided further that no fees shall be payable for making such reference under Insolvency and`
+  line `Bankruptcy Code, 2016 by a company whose appeal or reference or inquiry stands abated under this`
+  line clause.]
+  line
+  line `^2[Provided also that any scheme sanctioned under sub-section (4) or any scheme under`
+  line `implementation under sub-section (12) of section 18 of the Sick Industrial Companies (Special`
+  line `Provisions) Act, 1985 shall be deemed to be an approved resolution plan under sub-section (1) of section`
+  line `31 of the Insolvency and Bankruptcy Code, 2016 and the same shall be dealt with, in accordance with the`
+  line `provisions of Part II of the said Code:`
+  line
+  line `Provided also that in case, the statutory period within which an appeal was allowed under the Sick`
+  line `Industrial Companies (Special Provisions) Act, 1985 against an order of the Board had not expired as on`
+  line `the date of notification of this Act, an appeal against any such deemed approved resolution plan may be`
+  line `preferred by any person before National Company Law Appellate Tribunal within ninety days from the`
+  line `date of publication of this order.]`
+  line
+  line `(c) the balance of all monies (including any fee) received by, or advanced to the Appellate`
+  line `Authority or the Board, as the case may be, and not spent by it before the commencement of this Act`
+  line `shall, on the commencement of this Act, stand transferred to, and vest in, the Central Government and`
+  line `shall be utilised for the purposes of clauses (e) and (f);`
+  line
+  line `(d) all property of whatever kind owned by, or vested in, the Appellate Authority or the Board, as`
+  line `the case may be, and not spent by it before the commencement of this Act shall, on the`
+  line `commencement of this Act, stand transferred to, and shall vest in the Central Government;`
+  line
+  line `(e) all liabilities and obligations of whatever kind incurred by the Appellate Authority or the`
+  line `Board and subsisting immediately before the commencement of this Act shall, on and from the`
+  line `commencement of this Act, be deemed to be the liabilities or obligations, as the case maybe, of the`
+  line `Central Government; and any proceeding or cause of action, pending or existing immediately before`
+  line `the commencement of this Act by or against the Appellate Authority or the Board in relation to such`
+  line `liability or obligation may, as from the commencement of this Act, be continued or enforced by or`
+  line `against the Central Government;`
+  line
+  line `(f) all monies vested in the Central Government under clause (c) shall, after deducting the amount`
+  line `incurred for discharging the liabilities and obligations referred to in that clause, be refunded by the`
+  line `Central Government to the person to whom such amount is due.`
+obj_root_law_sections_4_footnotes:
+  string
+  line `1. Subs. by Act 31 of 2016, s. 252 and the Eighth Schedule, for sub-clause (@i/i@) (w.e.f. 1-11-2016).`
+  line
+  line `2. Ins. by vide the Insolvency and Bankruptcy Code (Removal of Difficulties) Order, 2017 vide Notification No. SO1683(E)`
+  line `dated 24-05-2017.`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 5106)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str Saving.)
-  (str content) (str `(1) The repeal by this Act of the repealed enactment shall not--
-
-(a) affect any other enactment in which the repealed enactment has been applied, incorporated or
-referred to;
-
-(b) affect the previous operation of the repealed enactment or anything duly done or suffered
-thereunder;
-
-(c) affect any right, privilege, obligation or liability acquired, accrued, or incurred under the
-repealed enactment;
-
-(d) affect any order made by the Board for sanction of the schemes;
-
-(e) affect the validity, invalidity, effect or consequences of anything already done or suffered, or
-any right, title, obligation or liability already acquired, accrued or incurred or any remedy or
-proceeding in respect thereof or any release or discharge of or from any debt, penalty, obligation,
-liability, claim or demand, or any indemnity already granted, or the proof of any past act or thing;
-
-(f) affect any penalty, forfeiture or punishment incurred in respect of any offence committed
-against the repealed enactment, affect any investigation, legal proceedings or remedy in respect of
-any such right, privilege, obligation, liability, penalty, forfeiture or punishment as aforesaid, and any
-such investigation, legal proceeding or remedy may be instituted, continued or enforced, and any such
-privilege, forfeiture or punishment may be imposed as if this Act had not been passed;
-
-(g) affect any principle or rule of law, or established jurisdiction, form or course of pleading,
-practice or procedure, or existing usage, custom, privilege, restriction, exemption, office or
-appointment, notwithstanding that the same respectively may have been in any manner affirmed or
-recognised or derived by, in, or from, the repealed enactment;
-
-(h) revive or restore any jurisdiction, office, custom, liability, right, title, privilege, restriction,
-exemption, usage, practice, procedure or other matter or thing not now existing or in force.
-
-(2) Save as otherwise provided in section 4 and in sub-section (1) of this section, the mention of
-particular matters in the said section and sub-section shall not be held to prejudice or affect the general
-application of section 6 of the General Clauses Act, 1897 (10 of 1897),with regard to the effect of repeal.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5106&sectionno=5&orderno=5&orgactid=AC_CEN_2_11_00026_200401_1517807322103)
+  sectionId (5106)
+  sectionNo (5)
+  orderNo 5
+  title Saving.
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5106&sectionno=5&orderno=5&orgactid=AC_CEN_2_11_00026_200401_1517807322103
+obj_root_law_sections_5_content:
+  string
+  line `(1) The repeal by this Act of the repealed enactment shall not--`
+  line
+  line `(a) affect any other enactment in which the repealed enactment has been applied, incorporated or`
+  line `referred to;`
+  line
+  line `(b) affect the previous operation of the repealed enactment or anything duly done or suffered`
+  line thereunder;
+  line
+  line `(c) affect any right, privilege, obligation or liability acquired, accrued, or incurred under the`
+  line `repealed enactment;`
+  line
+  line `(d) affect any order made by the Board for sanction of the schemes;`
+  line
+  line `(e) affect the validity, invalidity, effect or consequences of anything already done or suffered, or`
+  line `any right, title, obligation or liability already acquired, accrued or incurred or any remedy or`
+  line `proceeding in respect thereof or any release or discharge of or from any debt, penalty, obligation,`
+  line `liability, claim or demand, or any indemnity already granted, or the proof of any past act or thing;`
+  line
+  line `(f) affect any penalty, forfeiture or punishment incurred in respect of any offence committed`
+  line `against the repealed enactment, affect any investigation, legal proceedings or remedy in respect of`
+  line `any such right, privilege, obligation, liability, penalty, forfeiture or punishment as aforesaid, and any`
+  line `such investigation, legal proceeding or remedy may be instituted, continued or enforced, and any such`
+  line `privilege, forfeiture or punishment may be imposed as if this Act had not been passed;`
+  line
+  line `(g) affect any principle or rule of law, or established jurisdiction, form or course of pleading,`
+  line `practice or procedure, or existing usage, custom, privilege, restriction, exemption, office or`
+  line `appointment, notwithstanding that the same respectively may have been in any manner affirmed or`
+  line `recognised or derived by, in, or from, the repealed enactment;`
+  line
+  line `(h) revive or restore any jurisdiction, office, custom, liability, right, title, privilege, restriction,`
+  line `exemption, usage, practice, procedure or other matter or thing not now existing or in force.`
+  line
+  line `(2) Save as otherwise provided in section 4 and in sub-section (1) of this section, the mention of`
+  line `particular matters in the said section and sub-section shall not be held to prejudice or affect the general`
+  line `application of section 6 of the General Clauses Act, 1897 (10 of 1897),with regard to the effect of repeal.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 5107)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification, make rules for carrying
-out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the manner in which the monies standing to the credit of provident fund, superannuation,
-welfare or other fund of officers and employees on their transfer to the Central Government, shall be
-dealt with by that Government under the fourth proviso to clause (a) of section 4;
-
-(b) any other matter which is to be, or may be, prescribed, or in respect of which provision is to
-be made, by rules.
-
-(3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House
-of Parliament, while it is in session, for a total period of thirty days which may be comprised in one
-session or in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid, both Houses agree in making any modification
-in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only
-in such modified form or be of no effect, as the case may be; so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5107&sectionno=6&orderno=6&orgactid=AC_CEN_2_11_00026_200401_1517807322103)
+  sectionId (5107)
+  sectionNo (6)
+  orderNo 6
+  title `Power to make rules.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_2_11_00026_200401_1517807322103&sectionId=5107&sectionno=6&orderno=6&orgactid=AC_CEN_2_11_00026_200401_1517807322103
+obj_root_law_sections_6_content:
+  string
+  line `(1) The Central Government may, by notification, make rules for carrying`
+  line `out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the manner in which the monies standing to the credit of provident fund, superannuation,`
+  line `welfare or other fund of officers and employees on their transfer to the Central Government, shall be`
+  line `dealt with by that Government under the fourth proviso to clause (a) of section 4;`
+  line
+  line `(b) any other matter which is to be, or may be, prescribed, or in respect of which provision is to`
+  line `be made, by rules.`
+  line
+  line `(3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House`
+  line `of Parliament, while it is in session, for a total period of thirty days which may be comprised in one`
+  line `session or in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid, both Houses agree in making any modification`
+  line `in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only`
+  line `in such modified form or be of no effect, as the case may be; so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that rule.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `रुग्ण औद्योगिक कंपनी (विशेष उपबंध) निरसन अधिनियम, 2003`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1414/3/H2004-01.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:46:21.262Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `रुग्ण औद्योगिक कंपनी (विशेष उपबंध) निरसन अधिनियम, 2003`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1414/3/H2004-01.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:46:21.262Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) िनरसन अिधिनयम, 2003
-(2004 का अिधिनयम सं ᭎ यांक 1)
-[1 जनवरी, 2004]
-ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध )
-अिधिनयम, 1985 का िनरसन
-करने के िलए
-अिधिनयम
-भारत गणरा ᭔ य के चौवनव ᱶ वष ᭅ म ᱶ संसद् ᳇ ारा िन ᳜ िलिखत ᱨ प म ᱶ यह अिधिनयिमत हो: --
-1. संि ᭃ᳙ नाम और ᮧ ारंभ —(1) इस अिधिनयम का संि ᭃ᳙ नाम ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) िनरसन अिधिनयम,
-2003 है।
-(2) यह उस तारीख 1 को ᮧ वृ ᱫ होगा जो के ᭠ᮤ ीय सरकार, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनयत करे।
-2. प ᳯ रभाषाएं — इस अिधिनयम म ᱶ, जब तक ᳰ क संदभ ᭅ से अ ᭠ यथा अपेि ᭃ त न हो,—
-( क ) “ अपील ᮧ ािधकरण ” से ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) अिधिनयम, 1985 (1986 का 1) क ᳱ धारा 5 के
-अधीन ग ᳯ ठत औ ᳒ ोिगक और िव ᱫ ीय पुन ᳶ नमा ᭅ ण अपील ᮧ ािधकरण अिभ ᮧ े त है;
-( ख ) “ बोड ᭅ ” से ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) अिधिनयम, 1985 (1986 का 1) क ᳱ धारा 4 के अधीन ᭭
-थािपत औ ᳒ ोिगक और िव ᱫ ीय पुन ᳶ नमा ᭅ ण बोड ᭅ अिभ ᮧ े त है;
-( ग ) उन श ᭣ द ᲂ और पद ᲂ के जो इसम ᱶ ᮧ यु Ღ ह ᱹ, और प ᳯ रभािषत नह ᱭ ह ᱹ ᳰ क ᭠ तु ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष
-उपबंध ) अिधिनयम, 1985 (1986 का 1) म ᱶ प ᳯ रभािषत ह ᱹ वही अथ ᭅ ह ᲂ गे जो ᮓ मश: उनके उस अिधिनयम म ᱶ ह ᱹ।
-3. 1986 के अिधिनयम सं ० 1 का िनरसन और अपील ᮧ ािधकरण तथा बोड ᭅ का िव ᳒ टन — ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष
-उपबंध ) अिधिनयम, 1985 ( िजसे इसम ᱶ इसके प ᳟ ात् िनरिसत अिधिनयिमित कहा गया है ) इसके ᳇ ारा िनरिसत ᳰ कया जाता है और
-अपील ᮧ ािधकरण तथा बोड ᭅ का िवघटन ᳰ कया जाता है।
-4. पा ᳯ रणािमक उपबंध — अपील ᮧ ािधकरण तथा बोड ᭅ के िव ᳒ टन पर,—
-( क ) (i) अपील ᮧ ािधकरण या बोड ᭅ के अ ᭟ य ᭃ और सद ᭭ य के ᱨ प म ᱶ िनयु Ღ ᳞ ि Ღ; और
-(ii) के ᭠ᮤ ीय सरकार, अपील ᮧ ािधकरण या बोड ᭅ ᳇ ारा िनयु Ღ ᮧ᭜ येक अ ᭠ य ᳞ ि Ღ,
-जो इस अिधिनयम के ᮧ ारंभ से ठीक पूव ᭅ उस ᱨ प म ᱶ पद धारण ᳰ कए ᱟ ए ह ᱹ, अपना पद ᳯ र Ღ कर द ᱶ गे और ऐसा कोई अ ᭟ य ᭃ, सद ᭭ य या
-अ ᭠ य ᳞ ि Ღ अपनी पदाविध या सेवा क ᳱ ᳰ कसी संिवदा क ᳱ समय से पूव ᭅ समाि ᳙ के िलए ᳰ कसी ᮧ ितकर का दावा करने का हकदार नह ᱭ
-होगा:
-परंतु ऐसा ᮧ᭜ येक अिधकारी या कम ᭅ चारी जो अपील ᮧ ािधकरण या बोड ᭅ के िव ᳒ टन से ठीक पूव ᭅ ᮧ ितिनयुि Ღ के आधार पर
-अपील ᮧ ािधकरण या बोड ᭅ म ᱶ िनयु Ღ ᳰ कया गया है, यथाि ᭭ थित, अपने मूल काडर, मं ᮢ ालय या िवभाग को ᮧ᭜ याव ᳶ तत हो जाएगा:
-परंतु यह और ᳰ क ऐसा ᮧ᭜ येक अिधकारी या कम ᭅ चारी जो अपील ᮧ ािधकरण या बोड ᭅ के िव ᳒ टन से ठीक पूव ᭅ अपील
-ᮧ ािधकरण या बोड ᭅ ᳇ ारा िनयिमत आधार पर िनयोिजत ᳰ कया गया है, ऐसे िव ᳒ टन क ᳱ तारीख से ही के ᭠ᮤ ीय सरकार का ᮓ मश:
-अिधकारी और कम ᭅ चारी हो जाएगा, और प ᱶ शन, उपदान और वैसे ही अ ᭠ य िवषय ᲂ के संबंध म ᱶ उसके अिधकार और िवशेषािधकार वह ᱭ
-ह ᲂ गे जो उसे तब अनु ᭄ े य होते जब ऐसे अपील ᮧ ािधकरण या बोड ᭅ के संबंध म ᱶ अिधकार के ᭠ᮤ ीय सरकार को अंत ᳯ रत न ᳰ कए गए होते
-ओर उसम ᱶ िनिहत न ᱟ ए होते तथा तब तक बने रह ᱶ गे जब तक ᳰ क के ᭠ᮤ ीय सरकार म ᱶ उसका िनयोजन स ᭥ य Ღ: समा ᳙ नह ᱭ कर ᳰ दया
-जाता या उसके पा ᳯ र ᮰ िमक, िनयोजन के िनबंधन ᲂ और शत ᲄ को उस सरकार ᳇ ारा स ᭥ य Ღ: प ᳯ रव ᳶ तत नह ᱭ कर ᳰ दया जाता:
-परंतु यह भी ᳰ क औ ᳒ ोिगक िववाद अिधिनयम, 1947 (1947 का 14) या त ᭜ समय ᮧ वृ ᱫ ᳰ कसी अ ᭠ य िविध म ᱶ ᳰ कसी बात के
-होते ᱟ ए भी, अपील ᮧ ािधकरण या बोड ᭅ म ᱶ िनयोिजत ᳰ कसी अिधकारी या अ ᭠ य कम ᭅ चारी क ᳱ सेवा Ა के के ᭠ᮤ ीय सरकार को अ ᭠ तरण से
-ऐसा कोई अिधकारी या कम ᭅ चारी इस अिधिनयम या त ᭜ समय ᮧ वृ ᱫ ᳰ कसी अ ᭠ य िविध के अधीन ᳰ कसी ᮧ ितकर का हकदार नह ᱭ होगा
-और ऐसा कोई दावा ᳰ कसी ᭠ यायालय, अिधकरण या अ ᭠ य ᮧ ािधकरण ᳇ ारा ᮕ हण नह ᱭ ᳰ कया जाएगा:
-1 25 नव ᭥ बर, 2016, अिधसूचना सं ०का०आ० 3568( अ ) तारीख 1 ᳰ दस ᭥ बर, 2016 ᳇ ारा, भारत के राजप ᮢ असाधारण, भाग 2 खंड 3(ii) म ᱶ देिखए।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) िनरसन अिधिनयम, 2003`
+  line `(2004 का अिधिनयम सं ᭎ यांक 1)`
+  line `[1 जनवरी, 2004]`
+  line `ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध )`
+  line `अिधिनयम, 1985 का िनरसन`
+  line `करने के िलए`
+  line अिधिनयम
+  line `भारत गणरा ᭔ य के चौवनव ᱶ वष ᭅ म ᱶ संसद् ᳇ ारा िन ᳜ िलिखत ᱨ प म ᱶ यह अिधिनयिमत हो: --`
+  line `1. संि ᭃ᳙ नाम और ᮧ ारंभ —(1) इस अिधिनयम का संि ᭃ᳙ नाम ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) िनरसन अिधिनयम,`
+  line `2003 है।`
+  line `(2) यह उस तारीख 1 को ᮧ वृ ᱫ होगा जो के ᭠ᮤ ीय सरकार, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनयत करे।`
+  line `2. प ᳯ रभाषाएं — इस अिधिनयम म ᱶ, जब तक ᳰ क संदभ ᭅ से अ ᭠ यथा अपेि ᭃ त न हो,—`
+  line `( क ) “ अपील ᮧ ािधकरण ” से ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) अिधिनयम, 1985 (1986 का 1) क ᳱ धारा 5 के`
+  line `अधीन ग ᳯ ठत औ ᳒ ोिगक और िव ᱫ ीय पुन ᳶ नमा ᭅ ण अपील ᮧ ािधकरण अिभ ᮧ े त है;`
+  line `( ख ) “ बोड ᭅ ” से ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) अिधिनयम, 1985 (1986 का 1) क ᳱ धारा 4 के अधीन ᭭`
+  line `थािपत औ ᳒ ोिगक और िव ᱫ ीय पुन ᳶ नमा ᭅ ण बोड ᭅ अिभ ᮧ े त है;`
+  line `( ग ) उन श ᭣ द ᲂ और पद ᲂ के जो इसम ᱶ ᮧ यु Ღ ह ᱹ, और प ᳯ रभािषत नह ᱭ ह ᱹ ᳰ क ᭠ तु ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष`
+  line `उपबंध ) अिधिनयम, 1985 (1986 का 1) म ᱶ प ᳯ रभािषत ह ᱹ वही अथ ᭅ ह ᲂ गे जो ᮓ मश: उनके उस अिधिनयम म ᱶ ह ᱹ।`
+  line `3. 1986 के अिधिनयम सं ० 1 का िनरसन और अपील ᮧ ािधकरण तथा बोड ᭅ का िव ᳒ टन — ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष`
+  line `उपबंध ) अिधिनयम, 1985 ( िजसे इसम ᱶ इसके प ᳟ ात् िनरिसत अिधिनयिमित कहा गया है ) इसके ᳇ ारा िनरिसत ᳰ कया जाता है और`
+  line `अपील ᮧ ािधकरण तथा बोड ᭅ का िवघटन ᳰ कया जाता है।`
+  line `4. पा ᳯ रणािमक उपबंध — अपील ᮧ ािधकरण तथा बोड ᭅ के िव ᳒ टन पर,—`
+  line `( क ) (i) अपील ᮧ ािधकरण या बोड ᭅ के अ ᭟ य ᭃ और सद ᭭ य के ᱨ प म ᱶ िनयु Ღ ᳞ ि Ღ; और`
+  line `(ii) के ᭠ᮤ ीय सरकार, अपील ᮧ ािधकरण या बोड ᭅ ᳇ ारा िनयु Ღ ᮧ᭜ येक अ ᭠ य ᳞ ि Ღ,`
+  line `जो इस अिधिनयम के ᮧ ारंभ से ठीक पूव ᭅ उस ᱨ प म ᱶ पद धारण ᳰ कए ᱟ ए ह ᱹ, अपना पद ᳯ र Ღ कर द ᱶ गे और ऐसा कोई अ ᭟ य ᭃ, सद ᭭ य या`
+  line `अ ᭠ य ᳞ ि Ღ अपनी पदाविध या सेवा क ᳱ ᳰ कसी संिवदा क ᳱ समय से पूव ᭅ समाि ᳙ के िलए ᳰ कसी ᮧ ितकर का दावा करने का हकदार नह ᱭ`
+  line `होगा:`
+  line `परंतु ऐसा ᮧ᭜ येक अिधकारी या कम ᭅ चारी जो अपील ᮧ ािधकरण या बोड ᭅ के िव ᳒ टन से ठीक पूव ᭅ ᮧ ितिनयुि Ღ के आधार पर`
+  line `अपील ᮧ ािधकरण या बोड ᭅ म ᱶ िनयु Ღ ᳰ कया गया है, यथाि ᭭ थित, अपने मूल काडर, मं ᮢ ालय या िवभाग को ᮧ᭜ याव ᳶ तत हो जाएगा:`
+  line `परंतु यह और ᳰ क ऐसा ᮧ᭜ येक अिधकारी या कम ᭅ चारी जो अपील ᮧ ािधकरण या बोड ᭅ के िव ᳒ टन से ठीक पूव ᭅ अपील`
+  line `ᮧ ािधकरण या बोड ᭅ ᳇ ारा िनयिमत आधार पर िनयोिजत ᳰ कया गया है, ऐसे िव ᳒ टन क ᳱ तारीख से ही के ᭠ᮤ ीय सरकार का ᮓ मश:`
+  line `अिधकारी और कम ᭅ चारी हो जाएगा, और प ᱶ शन, उपदान और वैसे ही अ ᭠ य िवषय ᲂ के संबंध म ᱶ उसके अिधकार और िवशेषािधकार वह ᱭ`
+  line `ह ᲂ गे जो उसे तब अनु ᭄ े य होते जब ऐसे अपील ᮧ ािधकरण या बोड ᭅ के संबंध म ᱶ अिधकार के ᭠ᮤ ीय सरकार को अंत ᳯ रत न ᳰ कए गए होते`
+  line `ओर उसम ᱶ िनिहत न ᱟ ए होते तथा तब तक बने रह ᱶ गे जब तक ᳰ क के ᭠ᮤ ीय सरकार म ᱶ उसका िनयोजन स ᭥ य Ღ: समा ᳙ नह ᱭ कर ᳰ दया`
+  line `जाता या उसके पा ᳯ र ᮰ िमक, िनयोजन के िनबंधन ᲂ और शत ᲄ को उस सरकार ᳇ ारा स ᭥ य Ღ: प ᳯ रव ᳶ तत नह ᱭ कर ᳰ दया जाता:`
+  line `परंतु यह भी ᳰ क औ ᳒ ोिगक िववाद अिधिनयम, 1947 (1947 का 14) या त ᭜ समय ᮧ वृ ᱫ ᳰ कसी अ ᭠ य िविध म ᱶ ᳰ कसी बात के`
+  line `होते ᱟ ए भी, अपील ᮧ ािधकरण या बोड ᭅ म ᱶ िनयोिजत ᳰ कसी अिधकारी या अ ᭠ य कम ᭅ चारी क ᳱ सेवा Ა के के ᭠ᮤ ीय सरकार को अ ᭠ तरण से`
+  line `ऐसा कोई अिधकारी या कम ᭅ चारी इस अिधिनयम या त ᭜ समय ᮧ वृ ᱫ ᳰ कसी अ ᭠ य िविध के अधीन ᳰ कसी ᮧ ितकर का हकदार नह ᱭ होगा`
+  line `और ऐसा कोई दावा ᳰ कसी ᭠ यायालय, अिधकरण या अ ᭠ य ᮧ ािधकरण ᳇ ारा ᮕ हण नह ᱭ ᳰ कया जाएगा:`
+  line `1 25 नव ᭥ बर, 2016, अिधसूचना सं ०का०आ० 3568( अ ) तारीख 1 ᳰ दस ᭥ बर, 2016 ᳇ ारा, भारत के राजप ᮢ असाधारण, भाग 2 खंड 3(ii) म ᱶ देिखए।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `परंतु यह भी ᳰ क जहां अपील ᮧ ािधकरण या बोड ᭅ म ᱶ िनयोिजत अिधका ᳯ रय ᲂ और कम ᭅ चा ᳯ रय ᲂ के फायदे के िलए अपील
-ᮧ ािधकरण या बोड ᭅ ने कोई भिव ᭬ य - िनिध, अिधव ᳶ षता, क ᭨ याण या अ ᭠ य िनिध ᭭ थािपत क ᳱ है, वहां उन अिधका ᳯ रय ᲂ और कम ᭅ चा ᳯ रय ᲂ,,
-िजनक ᳱ सेवाएं इस अिधिनयम ᳇ ारा या के अधीन के ᭠ᮤ ीय सरकार को अंत ᳯ रत कर दी गई ह ᱹ, से संबंिधत धन, अपील ᮧ ािधकरण या बोड ᭅ
-के िव ᳒ टन पर ऐसी भिव ᭬ य - िनिध, अिधव ᳶ षता, क ᭨ याण या अ ᭠ य िनिध म ᱶ जमा धन म ᱶ से के ᭠ᮤ ीय सरकार को अंत ᳯ रत हो जाएगा और
-उसम ᱶ िनिहत होगा तथा ऐसे धन को जो इस ᮧ कार अंत ᳯ रत होता है वह सरकार ऐसी रीित से िनपटान करेगी जो िविहत क ᳱ जाए:
-1 [( ख ) इस िनिम ᱫ के ᭠ᮤ ीय सरकार ᳇ ारा ऐसी तारीख, जो अिधसूिचत क ᳱ जाए, ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध )
-अिधिनयम, 1985 (1986 का 1) के अधीन अपील अिधकरण को क ᳱ गई कोई अपील या बोड ᭅ को या उसके सम ᭃ कोई िनद ᱷ श या लंिबत
-कोई जांच या अपील अिधकरण या बोड ᭅ के सम ᭃ कोई काय ᭅ वाही चाहे वो ᳰ कसी भी ᮧ कृित क ᳱ हो, उपशिमत हो जाएगी:
-परंतु कोई कंपनी िजसके संबंध म ᱶ ऐसी अपील या िनद ᱷ श या जांच का इस खंड के अधीन उपशमन हो गया है, ᳰ दवाला और
-शोधन अ ᭃ मता संिहता, 2016 के अधीन रा ᳦ ीय कंपनी िविध अिधकरण को ᳰ दवाला और शोधन अ ᭃ मता संिहता, 2016 के उपबंध ᲂ के
-अनुसरण म ᱶ ᳰ दवाला और शोधन अ ᭃ मता संिहता, 2016 के ᮧ ारंभ क ᳱ तारीख से एक सौ अ ᭭ सी ᳰ दन के भीतर िनद ᱷ श कर सकेगी:
-परंतु यह और ᳰ क ऐसी कंपनी ᳇ ारा, िजसक ᳱ अपील या िनद ᱷ श या जांच का इस खंड के अधीन उपशमन हो गया है, ᳰ दवाला
-और शोधन अ ᭃ मता संिहता, 2016 के अधीन ऐसा िनद ᱷ श करने के िलए कोई फ ᳱ स सं देय नह ᱭ होगी। ]
-2 [ परंतु यह भी ᳰ क ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) अिधिनयम, 1985 क ᳱ धारा 18 क ᳱ उपधारा (4) के अधीन मंजूरी
-दी गई कोई योजना या उपधारा (12) के अधीन काया ᭅ ᭠ वयनाधीन कोई योजना ᳰ दवाला एवं शोधन अ ᭃ मता संिहता, 2016 क ᳱ धारा 31
-क ᳱ उपधारा (1) के अधीन एक अनुमो ᳰ दत समाधान योजना मानी जाएगी और उस पर उ Ღ संिहता के भाग II के उपबंध ᲂ के अनुसार
-काय ᭅ वाही क ᳱ जाएगी:
-परंतु यह भी ᳰ क य ᳰ द इस अिधिनयम क ᳱ अिधसूचना क ᳱ तारीख तक वह कानूनी अविध समा ᳙ नह ᱭ ᱟ ई थी िजसके भीतर
-बोड ᭅ के ᳰ कसी आदेश के िव ᱧ᳍ ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) अिधिनयम, 1985 के अधीन कोई अपील अनु ᭄ ात क ᳱ गई थी, तो
-ऐसी ᳰ कसी मािनत अनुमो ᳰ दत संक ᭨ प योजना के िव ᱧ᳍ ᳰ कसी भी ᳞ ि Ღ ᳇ ारा इस आदेश के ᮧ काशन क ᳱ तारीख से न ᭣ बे ᳰ दन ᲂ के भीतर
-रा ᳦ ीय कंपनी िविध अपील अिधकरण के सम ᭃ अपील क ᳱ जा सकती है। ]
-( ग ) यथाि ᭭ थित, अपील ᮧ ािधकरण या बोड ᭅ ᳇ ारा ᮧ ा ᳙ या उसको ᳰ दए गए सभी धन का ( िजसके अंतग ᭅ त कोई फ ᳱ स भी है )
-अितशेष जो उसके ᳇ ारा इस अिधिनयम के ᮧ ारंभ से पूव ᭅ ᳞ य नह ᱭ ᳰ कया गया है, इस अिधिनयम के ᮧ ारंभ पर के ᭠ᮤ ीय सरकार को
-अंत ᳯ रत और उसम ᱶ िनिहत हो जाएगा और उसका खंड ( ङ ) तथा खंड ( च ) के ᮧ योजन ᲂ के िलए उपयोग ᳰ कया जाएगा;
-( घ ) ᳰ कसी ᮧ कार क ᳱ कोई स ᭥ पि ᱫ जो, यथाि ᭭ थित, अपील ᮧ ािधकरण या बोड ᭅ के ᭭ वािम ᭜ व म ᱶ है या उसम ᱶ िनिहत है, और जो
-उसके ᳇ ारा इस अिधिनयम के ᮧ ारंभ से पूव ᭅ ᳞ य नह ᱭ क ᳱ गई है, इस अिधिनयम के ᮧ ार ᭥ भ पर के ᭠ᮤ ीय सरकार को अंत ᳯ रत और उसम ᱶ
-िनिहत हो जाएगी;
-( ङ ) ᳰ कसी भी ᮧ कार के ऐसे सभी दािय ᭜ व और बा ᭟ यताएं जो अपील ᮧ ािधकरण या बोड ᭅ ᳇ ारा उपगत क ᳱ गई ह ᲂ और जो इस
-अिधिनयम के ᮧ ारंभ से ठीक पूव ᭅ िव ᳒ मान ह ᲂ, इस अिधिनयम के ᮧ ारंभ से ही के ᭠ᮤ ीय सरकार के, यथाि ᭭ थित, दािय ᭜ व या बा ᭟ यताएं
-समझी जाएगी और इस अिधिनयम के ᮧ ारंभ से ठीक पूव ᭅ ऐसे दािय ᭜ व ᲂ और बा ᭟ यता Ა के संबंध म ᱶ ᳰ कसी अपील ᮧ ािधकरण या बोड ᭅ
-᳇ ारा या उसके िव ᱧ᳍ लंिबत या िव ᳒ मान कोई काय ᭅ वाही या वाद हेतुक, इस अिधिनयम के ᮧ ारंभ से ही के ᭠ᮤ ीय सरकार ᳇ ारा या उसके
-िव ᱧ᳍ जारी रखा जा सकेगा या ᮧ व ᳶ तत ᳰ कया जा सकेगा;
-( च ) खंड ( ग ) के अधीन के ᭠ᮤ ीय सरकार म ᱶ िनिहत सभी धन का, उ Ღ खंड म ᱶ िन ᳸ द ᳥ दािय ᭜ व ᲂ और बा ᭟ याता Ა का िनव ᭅ हन
-करने के िलए उपगत रकम को उसम ᱶ से घटाकर के ᭠ᮤ ीय सरकार ᳇ ारा उस ᳞ ि Ღ को, िजसको ऐसी रकम देय है, ᮧ ितदाय कर ᳰ दया
-जाएगा।
-5. ᳞ ावृि ᱫ —(1) इस अिधिनयम ᳇ ारा िनरिसत अिधिनयिमित के िनरसन से —
-( क ) ᳰ कसी ऐसी अ ᭠ य अिधिनयिमित पर ᮧ भाव नह ᱭ पड़ेगा िजसम ᱶ िनरिसत अिधिनयिमित लागू क ᳱ गई है, उसम ᱶ
-सि ᭥ मिलत क ᳱ गई है या उसम ᱶ िन ᳸ द ᳥ क ᳱ गई है;
-( ख ) िनरिसत अिधिनयिमित के पूव ᭅ वत ᱮ ᮧ वत ᭅ न पर या उसके अधीन स ᭥ यक् ᱨ प से क ᳱ गई या सहन क ᳱ गई ᳰ कसी
-बात पर ᮧ भाव नह ᱭ पड़ेगा;
-( ग ) िनरिसत अिधिनयिमित के अधीन अ ᳶ जत, उ ᭞ भूत या उपगत ᳰ कसी अिधकार, िवशेषािधकार, बा ᭟ यता या
-दािय ᭜ व पर ᮧ भाव नह ᱭ पड़ेगा;
-( घ ) ᭭ क ᳱ म ᲂ को मंजूरी देने के िलए बोड ᭅ ᳇ ारा ᳰ कए गए ᳰ कसी आदेश पर ᮧ भाव नह ᱭ पड़ेगा;
-1 2016 अिधिनयम सं ० 31 क ᳱ धारा 252 ᳇ ारा ( तारीख 1-11-2016 से ) ᮧ ित ᭭ थािपत।
-2 अिधसूचना सं ० का०आ० 1683( अ ), तारीख 24-05-2017 ᳇ ारा ᳰ दवाला एवं शोधन अ ᭃ मता संिहता ( क ᳯ ठनाइयां दूर करना ) आदेश, 2017 ᳇ ारा अंत: ᭭ थािपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line `परंतु यह भी ᳰ क जहां अपील ᮧ ािधकरण या बोड ᭅ म ᱶ िनयोिजत अिधका ᳯ रय ᲂ और कम ᭅ चा ᳯ रय ᲂ के फायदे के िलए अपील`
+  line `ᮧ ािधकरण या बोड ᭅ ने कोई भिव ᭬ य - िनिध, अिधव ᳶ षता, क ᭨ याण या अ ᭠ य िनिध ᭭ थािपत क ᳱ है, वहां उन अिधका ᳯ रय ᲂ और कम ᭅ चा ᳯ रय ᲂ,,`
+  line `िजनक ᳱ सेवाएं इस अिधिनयम ᳇ ारा या के अधीन के ᭠ᮤ ीय सरकार को अंत ᳯ रत कर दी गई ह ᱹ, से संबंिधत धन, अपील ᮧ ािधकरण या बोड ᭅ`
+  line `के िव ᳒ टन पर ऐसी भिव ᭬ य - िनिध, अिधव ᳶ षता, क ᭨ याण या अ ᭠ य िनिध म ᱶ जमा धन म ᱶ से के ᭠ᮤ ीय सरकार को अंत ᳯ रत हो जाएगा और`
+  line `उसम ᱶ िनिहत होगा तथा ऐसे धन को जो इस ᮧ कार अंत ᳯ रत होता है वह सरकार ऐसी रीित से िनपटान करेगी जो िविहत क ᳱ जाए:`
+  line `1 [( ख ) इस िनिम ᱫ के ᭠ᮤ ीय सरकार ᳇ ारा ऐसी तारीख, जो अिधसूिचत क ᳱ जाए, ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध )`
+  line `अिधिनयम, 1985 (1986 का 1) के अधीन अपील अिधकरण को क ᳱ गई कोई अपील या बोड ᭅ को या उसके सम ᭃ कोई िनद ᱷ श या लंिबत`
+  line `कोई जांच या अपील अिधकरण या बोड ᭅ के सम ᭃ कोई काय ᭅ वाही चाहे वो ᳰ कसी भी ᮧ कृित क ᳱ हो, उपशिमत हो जाएगी:`
+  line `परंतु कोई कंपनी िजसके संबंध म ᱶ ऐसी अपील या िनद ᱷ श या जांच का इस खंड के अधीन उपशमन हो गया है, ᳰ दवाला और`
+  line `शोधन अ ᭃ मता संिहता, 2016 के अधीन रा ᳦ ीय कंपनी िविध अिधकरण को ᳰ दवाला और शोधन अ ᭃ मता संिहता, 2016 के उपबंध ᲂ के`
+  line `अनुसरण म ᱶ ᳰ दवाला और शोधन अ ᭃ मता संिहता, 2016 के ᮧ ारंभ क ᳱ तारीख से एक सौ अ ᭭ सी ᳰ दन के भीतर िनद ᱷ श कर सकेगी:`
+  line `परंतु यह और ᳰ क ऐसी कंपनी ᳇ ारा, िजसक ᳱ अपील या िनद ᱷ श या जांच का इस खंड के अधीन उपशमन हो गया है, ᳰ दवाला`
+  line `और शोधन अ ᭃ मता संिहता, 2016 के अधीन ऐसा िनद ᱷ श करने के िलए कोई फ ᳱ स सं देय नह ᱭ होगी। ]`
+  line `2 [ परंतु यह भी ᳰ क ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) अिधिनयम, 1985 क ᳱ धारा 18 क ᳱ उपधारा (4) के अधीन मंजूरी`
+  line `दी गई कोई योजना या उपधारा (12) के अधीन काया ᭅ ᭠ वयनाधीन कोई योजना ᳰ दवाला एवं शोधन अ ᭃ मता संिहता, 2016 क ᳱ धारा 31`
+  line `क ᳱ उपधारा (1) के अधीन एक अनुमो ᳰ दत समाधान योजना मानी जाएगी और उस पर उ Ღ संिहता के भाग II के उपबंध ᲂ के अनुसार`
+  line `काय ᭅ वाही क ᳱ जाएगी:`
+  line `परंतु यह भी ᳰ क य ᳰ द इस अिधिनयम क ᳱ अिधसूचना क ᳱ तारीख तक वह कानूनी अविध समा ᳙ नह ᱭ ᱟ ई थी िजसके भीतर`
+  line `बोड ᭅ के ᳰ कसी आदेश के िव ᱧ᳍ ᱧ᭏ ण औ ᳒ ोिगक कंपनी ( िवशेष उपबंध ) अिधिनयम, 1985 के अधीन कोई अपील अनु ᭄ ात क ᳱ गई थी, तो`
+  line `ऐसी ᳰ कसी मािनत अनुमो ᳰ दत संक ᭨ प योजना के िव ᱧ᳍ ᳰ कसी भी ᳞ ि Ღ ᳇ ारा इस आदेश के ᮧ काशन क ᳱ तारीख से न ᭣ बे ᳰ दन ᲂ के भीतर`
+  line `रा ᳦ ीय कंपनी िविध अपील अिधकरण के सम ᭃ अपील क ᳱ जा सकती है। ]`
+  line `( ग ) यथाि ᭭ थित, अपील ᮧ ािधकरण या बोड ᭅ ᳇ ारा ᮧ ा ᳙ या उसको ᳰ दए गए सभी धन का ( िजसके अंतग ᭅ त कोई फ ᳱ स भी है )`
+  line `अितशेष जो उसके ᳇ ारा इस अिधिनयम के ᮧ ारंभ से पूव ᭅ ᳞ य नह ᱭ ᳰ कया गया है, इस अिधिनयम के ᮧ ारंभ पर के ᭠ᮤ ीय सरकार को`
+  line `अंत ᳯ रत और उसम ᱶ िनिहत हो जाएगा और उसका खंड ( ङ ) तथा खंड ( च ) के ᮧ योजन ᲂ के िलए उपयोग ᳰ कया जाएगा;`
+  line `( घ ) ᳰ कसी ᮧ कार क ᳱ कोई स ᭥ पि ᱫ जो, यथाि ᭭ थित, अपील ᮧ ािधकरण या बोड ᭅ के ᭭ वािम ᭜ व म ᱶ है या उसम ᱶ िनिहत है, और जो`
+  line `उसके ᳇ ारा इस अिधिनयम के ᮧ ारंभ से पूव ᭅ ᳞ य नह ᱭ क ᳱ गई है, इस अिधिनयम के ᮧ ार ᭥ भ पर के ᭠ᮤ ीय सरकार को अंत ᳯ रत और उसम ᱶ`
+  line `िनिहत हो जाएगी;`
+  line `( ङ ) ᳰ कसी भी ᮧ कार के ऐसे सभी दािय ᭜ व और बा ᭟ यताएं जो अपील ᮧ ािधकरण या बोड ᭅ ᳇ ारा उपगत क ᳱ गई ह ᲂ और जो इस`
+  line `अिधिनयम के ᮧ ारंभ से ठीक पूव ᭅ िव ᳒ मान ह ᲂ, इस अिधिनयम के ᮧ ारंभ से ही के ᭠ᮤ ीय सरकार के, यथाि ᭭ थित, दािय ᭜ व या बा ᭟ यताएं`
+  line `समझी जाएगी और इस अिधिनयम के ᮧ ारंभ से ठीक पूव ᭅ ऐसे दािय ᭜ व ᲂ और बा ᭟ यता Ა के संबंध म ᱶ ᳰ कसी अपील ᮧ ािधकरण या बोड ᭅ`
+  line `᳇ ारा या उसके िव ᱧ᳍ लंिबत या िव ᳒ मान कोई काय ᭅ वाही या वाद हेतुक, इस अिधिनयम के ᮧ ारंभ से ही के ᭠ᮤ ीय सरकार ᳇ ारा या उसके`
+  line `िव ᱧ᳍ जारी रखा जा सकेगा या ᮧ व ᳶ तत ᳰ कया जा सकेगा;`
+  line `( च ) खंड ( ग ) के अधीन के ᭠ᮤ ीय सरकार म ᱶ िनिहत सभी धन का, उ Ღ खंड म ᱶ िन ᳸ द ᳥ दािय ᭜ व ᲂ और बा ᭟ याता Ა का िनव ᭅ हन`
+  line `करने के िलए उपगत रकम को उसम ᱶ से घटाकर के ᭠ᮤ ीय सरकार ᳇ ारा उस ᳞ ि Ღ को, िजसको ऐसी रकम देय है, ᮧ ितदाय कर ᳰ दया`
+  line जाएगा।
+  line `5. ᳞ ावृि ᱫ —(1) इस अिधिनयम ᳇ ारा िनरिसत अिधिनयिमित के िनरसन से —`
+  line `( क ) ᳰ कसी ऐसी अ ᭠ य अिधिनयिमित पर ᮧ भाव नह ᱭ पड़ेगा िजसम ᱶ िनरिसत अिधिनयिमित लागू क ᳱ गई है, उसम ᱶ`
+  line `सि ᭥ मिलत क ᳱ गई है या उसम ᱶ िन ᳸ द ᳥ क ᳱ गई है;`
+  line `( ख ) िनरिसत अिधिनयिमित के पूव ᭅ वत ᱮ ᮧ वत ᭅ न पर या उसके अधीन स ᭥ यक् ᱨ प से क ᳱ गई या सहन क ᳱ गई ᳰ कसी`
+  line `बात पर ᮧ भाव नह ᱭ पड़ेगा;`
+  line `( ग ) िनरिसत अिधिनयिमित के अधीन अ ᳶ जत, उ ᭞ भूत या उपगत ᳰ कसी अिधकार, िवशेषािधकार, बा ᭟ यता या`
+  line `दािय ᭜ व पर ᮧ भाव नह ᱭ पड़ेगा;`
+  line `( घ ) ᭭ क ᳱ म ᲂ को मंजूरी देने के िलए बोड ᭅ ᳇ ारा ᳰ कए गए ᳰ कसी आदेश पर ᮧ भाव नह ᱭ पड़ेगा;`
+  line `1 2016 अिधिनयम सं ० 31 क ᳱ धारा 252 ᳇ ारा ( तारीख 1-11-2016 से ) ᮧ ित ᭭ थािपत।`
+  line `2 अिधसूचना सं ० का०आ० 1683( अ ), तारीख 24-05-2017 ᳇ ारा ᳰ दवाला एवं शोधन अ ᭃ मता संिहता ( क ᳯ ठनाइयां दूर करना ) आदेश, 2017 ᳇ ारा अंत: ᭭ थािपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `( ङ ) पहले क ᳱ गई या सहन क ᳱ गई ᳰ कसी बात अथवा पहले ही अ ᳶ जत, उ ᭞ भूत या उपगत ᳰ कसी अिधकार, हक,
-बा ᭟ यता या दािय ᭜ व या उसके संबंध म ᱶ ᳰ कसी उपचार या काय ᭅ वाही या ᳰ कसी ऋण, शाि ᭭ त, बा ᭟ यता, दािय ᭜ व, दावे या मांग
-के या से िनम ᲃ चन या उ ᭠ मोचन अथवा पहले ᳰ दए गए ᳰ कसी प ᳯ र ᮢ ाण या ᳰ कसी पूव ᭅ काय ᭅ या बात के सबूत क ᳱ िविधमा ᭠ यता,
-अिविधमा ᭠ यता, उसके ᮧ भाव या प ᳯ रणाम ᲂ पर ᮧ भाव नह ᱭ पड़ेगा;
-( च ) िनरिसत अिधिनयिमित के संबंध म ᱶ ᳰ कए गए ᳰ कसी अपराध क ᳱ बाबत उपगत ᳰ कसी शाि ᭭ त, समपहरण या
-दंडादेश पर ᮧ भाव नह ᱭ पड़ेगा, यथापूव ᲃᲦ ् ᳰ कसी ऐसे अिधकार, िवशेषािधकार, बा ᭟ यता, दािय ᭜ व, शाि ᭭ त, समपहरण या दंड
-के संबंध म ᱶ, ᳰ कसी अ ᭠ वेषण, िविधक काय ᭅ वाही या उपचार पर ᮧ भाव नह ᱭ पड़ेगा और ऐसा कोई अ ᭠ वेषण, िविधक काय ᭅ वाही
-या उपचार संि ᭭ थत, चालू या ᮧ वृ ᱫ ᳰ कया जा सकेगा और ऐसा कोई िवशेषािधकार, समपहरण या दंडादेश ऐसे अिधरोिपत
-ᳰ कया जा सकेगा मानो यह अिधिनयम पा ᳯ रत ही न ᱟ आ हो;
-( छ ) िविध के ᳰ कसी िस ᳍ ांत या िनयम या ᭭ थािपत अिधका ᳯ रता, अिभवचन के ᱨ प या अनु ᮓ म, प ᳍ ित या ᮧᳰᮓ या
-या िव ᳒ मान ᮧ था, ᱧᳰ ढ़, िवशेषािधकार, िनब ᲈ धन, छूट, पद या िनयुि Ღ पर ᮧ भाव नह ᱭ पड़ेगा, भले ही वह, िनरिसत
-अिधिनयिमित ᳇ ारा, उसम ᱶ या उससे ᳰ कसी भी रीित से अिभपु ᳥ या मा ᭠ यता ᮧ ा ᳙ या ᳞ ु ᭜ प ᳖ हो;
-( ज ) कोई अिधका ᳯ रता, पद, ᱧᳰ ढ, दािय ᭜ व, अिधकार, हक, िवशेषािधकार, िनब ᲈ धन, छूट, ᮧ था, प ᳍ ित, ᮧᳰᮓ या या
-कोई अ ᭠ य िवषय या बात, जो अब िव ᳒ मान या ᮧ वृ ᱫ नह ᱭ ह ᱹ, पुन ᱧᲯ ीिवत या ᮧ᭜ याव ᳶ तत नह ᱭ होगी।
-(2) धारा 4 म ᱶ और इस धारा क ᳱ उपधारा (1) म ᱶ जैसा उपबंिधत है उसके िसवाय, उ Ღ धारा और उपधारा म ᱶ
-िविश ᳥ िवषय ᲂ के उ ᭨ लेख का, िनरसन के ᮧ भाव क ᳱ बाबत, यह अथ ᭅ नह ᱭ लगाया जाएगा ᳰ क वह साधारण खंड अिधिनयम,
-1897 (1897 का 10) क ᳱ धारा 6 के साधारणत: लागू होने पर ᮧ ितकूल ᮧ भाव डालने वाला या उसको ᮧ भािवत करने
-वाला है।
-6. िनयम बनाने क ᳱ शि Ღ —(1) के ᭠ᮤ ीय सरकार इस अिधिनयम के उपबंध ᲂ को काया ᭅ ि ᭠ वत करने के िलए
-अिधसूचना ᳇ ारा िनयम बना सकेगी।
-(2) िविश ᳥ तया और पूव ᭅ गामी शि Ღ क ᳱ ᳞ ापकता पर ᮧ ितकूल ᮧ भाव डाले िबना ऐसे िनयम िन ᳜ िलिखत सभी या
-ᳰ क ᭠ ह ᱭ िवषय ᲂ के िलए उपबंध कर सक ᱶ गे, अथा ᭅ त्:
-( क ) वह रीित िजसम ᱶ के ᭠ᮤ ीय सरकार को अ ᭠ तरण पर, अिधका ᳯ रय ᲂ और कम ᭅ चा ᳯ रय ᲂ क ᳱ भिव ᭬ य - िनिध,
-अिधव ᳶ षता, क ᭨ याण या अ ᭠ य िनिध म ᱶ जमा धन का उस सरकार ᳇ ारा धारा 4 के खंड ( क ) के चौथे पर ᭠ तु के अधीन
-िनपटान ᳰ कया जाएगा;
-( ख ) कोई अ ᭠ य िवषय जो िविहत ᳰ कया जाना है या ᳰ कया जाए अथवा िजसके संबंध म ᱶ िनयम ᲂ ᳇ ारा
-उपबंध ᳰ कया जाना है।
-(3) इस अिधिनयम के अधीन बनाया गया ᮧ᭜ येक िनयम बनाए जाने के प ᳟ ात् यथाशी ᮖ, संसद् के ᮧ᭜ येक सदन के सम ᭃ, जब
-वह ऐसी कुल तीस ᳰ दन क ᳱ अविध के िलए स ᮢ म ᱶ हो, जो एक स ᮢ म ᱶ अथवा दो या अिधक आनु ᮓ िमक स ᮢ ᲂ म ᱶ पूरी हो सकती है, रखा
-जाएगा और य ᳰ द उस स ᮢ के या पूव ᲃᲦ आनु ᮓ िमक स ᮢ ᲂ के ठीक बाद के स ᮢ के अवसान के पूव ᭅ दोन ᲂ सदन उस िनयम म ᱶ कोई प ᳯ रवत ᭅ न
-करने के िलए सहमत हो जाएं या दोन ᲂ सदन इस बात से सहमत हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो ऐसा िनयम
-त ᭜ प ᳟ ात्, यथाि ᭭ थित, केवल ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही ᮧ भावी होगा या उसको कोई ᮧ भाव नह ᱭ होगा। तथािप, उस िनयम के ऐसे
-प ᳯ रव ᳶ तत या िन ᭬ ᮧ भाव होने से पहले उसके अधीन क ᳱ गई ᳰ कसी बात क ᳱ िविधमा ᭠ यता पर ᮧ ितकूल ᮧ भाव नह ᱭ पड़ेगा।
-________`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line `( ङ ) पहले क ᳱ गई या सहन क ᳱ गई ᳰ कसी बात अथवा पहले ही अ ᳶ जत, उ ᭞ भूत या उपगत ᳰ कसी अिधकार, हक,`
+  line `बा ᭟ यता या दािय ᭜ व या उसके संबंध म ᱶ ᳰ कसी उपचार या काय ᭅ वाही या ᳰ कसी ऋण, शाि ᭭ त, बा ᭟ यता, दािय ᭜ व, दावे या मांग`
+  line `के या से िनम ᲃ चन या उ ᭠ मोचन अथवा पहले ᳰ दए गए ᳰ कसी प ᳯ र ᮢ ाण या ᳰ कसी पूव ᭅ काय ᭅ या बात के सबूत क ᳱ िविधमा ᭠ यता,`
+  line `अिविधमा ᭠ यता, उसके ᮧ भाव या प ᳯ रणाम ᲂ पर ᮧ भाव नह ᱭ पड़ेगा;`
+  line `( च ) िनरिसत अिधिनयिमित के संबंध म ᱶ ᳰ कए गए ᳰ कसी अपराध क ᳱ बाबत उपगत ᳰ कसी शाि ᭭ त, समपहरण या`
+  line `दंडादेश पर ᮧ भाव नह ᱭ पड़ेगा, यथापूव ᲃᲦ ् ᳰ कसी ऐसे अिधकार, िवशेषािधकार, बा ᭟ यता, दािय ᭜ व, शाि ᭭ त, समपहरण या दंड`
+  line `के संबंध म ᱶ, ᳰ कसी अ ᭠ वेषण, िविधक काय ᭅ वाही या उपचार पर ᮧ भाव नह ᱭ पड़ेगा और ऐसा कोई अ ᭠ वेषण, िविधक काय ᭅ वाही`
+  line `या उपचार संि ᭭ थत, चालू या ᮧ वृ ᱫ ᳰ कया जा सकेगा और ऐसा कोई िवशेषािधकार, समपहरण या दंडादेश ऐसे अिधरोिपत`
+  line `ᳰ कया जा सकेगा मानो यह अिधिनयम पा ᳯ रत ही न ᱟ आ हो;`
+  line `( छ ) िविध के ᳰ कसी िस ᳍ ांत या िनयम या ᭭ थािपत अिधका ᳯ रता, अिभवचन के ᱨ प या अनु ᮓ म, प ᳍ ित या ᮧᳰᮓ या`
+  line `या िव ᳒ मान ᮧ था, ᱧᳰ ढ़, िवशेषािधकार, िनब ᲈ धन, छूट, पद या िनयुि Ღ पर ᮧ भाव नह ᱭ पड़ेगा, भले ही वह, िनरिसत`
+  line `अिधिनयिमित ᳇ ारा, उसम ᱶ या उससे ᳰ कसी भी रीित से अिभपु ᳥ या मा ᭠ यता ᮧ ा ᳙ या ᳞ ु ᭜ प ᳖ हो;`
+  line `( ज ) कोई अिधका ᳯ रता, पद, ᱧᳰ ढ, दािय ᭜ व, अिधकार, हक, िवशेषािधकार, िनब ᲈ धन, छूट, ᮧ था, प ᳍ ित, ᮧᳰᮓ या या`
+  line `कोई अ ᭠ य िवषय या बात, जो अब िव ᳒ मान या ᮧ वृ ᱫ नह ᱭ ह ᱹ, पुन ᱧᲯ ीिवत या ᮧ᭜ याव ᳶ तत नह ᱭ होगी।`
+  line `(2) धारा 4 म ᱶ और इस धारा क ᳱ उपधारा (1) म ᱶ जैसा उपबंिधत है उसके िसवाय, उ Ღ धारा और उपधारा म ᱶ`
+  line `िविश ᳥ िवषय ᲂ के उ ᭨ लेख का, िनरसन के ᮧ भाव क ᳱ बाबत, यह अथ ᭅ नह ᱭ लगाया जाएगा ᳰ क वह साधारण खंड अिधिनयम,`
+  line `1897 (1897 का 10) क ᳱ धारा 6 के साधारणत: लागू होने पर ᮧ ितकूल ᮧ भाव डालने वाला या उसको ᮧ भािवत करने`
+  line `वाला है।`
+  line `6. िनयम बनाने क ᳱ शि Ღ —(1) के ᭠ᮤ ीय सरकार इस अिधिनयम के उपबंध ᲂ को काया ᭅ ि ᭠ वत करने के िलए`
+  line `अिधसूचना ᳇ ारा िनयम बना सकेगी।`
+  line `(2) िविश ᳥ तया और पूव ᭅ गामी शि Ღ क ᳱ ᳞ ापकता पर ᮧ ितकूल ᮧ भाव डाले िबना ऐसे िनयम िन ᳜ िलिखत सभी या`
+  line `ᳰ क ᭠ ह ᱭ िवषय ᲂ के िलए उपबंध कर सक ᱶ गे, अथा ᭅ त्:`
+  line `( क ) वह रीित िजसम ᱶ के ᭠ᮤ ीय सरकार को अ ᭠ तरण पर, अिधका ᳯ रय ᲂ और कम ᭅ चा ᳯ रय ᲂ क ᳱ भिव ᭬ य - िनिध,`
+  line `अिधव ᳶ षता, क ᭨ याण या अ ᭠ य िनिध म ᱶ जमा धन का उस सरकार ᳇ ारा धारा 4 के खंड ( क ) के चौथे पर ᭠ तु के अधीन`
+  line `िनपटान ᳰ कया जाएगा;`
+  line `( ख ) कोई अ ᭠ य िवषय जो िविहत ᳰ कया जाना है या ᳰ कया जाए अथवा िजसके संबंध म ᱶ िनयम ᲂ ᳇ ारा`
+  line `उपबंध ᳰ कया जाना है।`
+  line `(3) इस अिधिनयम के अधीन बनाया गया ᮧ᭜ येक िनयम बनाए जाने के प ᳟ ात् यथाशी ᮖ, संसद् के ᮧ᭜ येक सदन के सम ᭃ, जब`
+  line `वह ऐसी कुल तीस ᳰ दन क ᳱ अविध के िलए स ᮢ म ᱶ हो, जो एक स ᮢ म ᱶ अथवा दो या अिधक आनु ᮓ िमक स ᮢ ᲂ म ᱶ पूरी हो सकती है, रखा`
+  line `जाएगा और य ᳰ द उस स ᮢ के या पूव ᲃᲦ आनु ᮓ िमक स ᮢ ᲂ के ठीक बाद के स ᮢ के अवसान के पूव ᭅ दोन ᲂ सदन उस िनयम म ᱶ कोई प ᳯ रवत ᭅ न`
+  line `करने के िलए सहमत हो जाएं या दोन ᲂ सदन इस बात से सहमत हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो ऐसा िनयम`
+  line `त ᭜ प ᳟ ात्, यथाि ᭭ थित, केवल ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही ᮧ भावी होगा या उसको कोई ᮧ भाव नह ᱭ होगा। तथािप, उस िनयम के ऐसे`
+  line `प ᳯ रव ᳶ तत या िन ᭬ ᮧ भाव होने से पहले उसके अधीन क ᳱ गई ᳰ कसी बात क ᳱ िविधमा ᭠ यता पर ᮧ ितकूल ᮧ भाव नह ᱭ पड़ेगा।`
+  line ________
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

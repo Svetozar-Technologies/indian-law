@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:24:20.985Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/18944`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 11)
-  (str totalSections) (int 11)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:24:20.985Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/18944`
+  completeFetch true
+  maxSections null
+  sectionCount 11
+  totalSections 11
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-essential-services-maintenance-assam-act-1980)
-  (str handle) (str 18944)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Essential Services Maintenance (Assam) Act, 1980`)
-  (str actNumber) (str 41)
-  (str enactmentDate) (str 1980-07-19)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/18944`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `आवश्‍यक सेवा (असम) अधिनियम, 1980`)
-  (str actYear) (str 1980)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act to provide for the maintenance of certain essential services and the normal life of the community in Assam.`)
-  (str enforcementDate) (str 19-07-1980)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T15:44:50.445Z`)
-  (str translations) obj_root_law_translations
+  slug the-essential-services-maintenance-assam-act-1980
+  handle (18944)
+  collectionHandle 123456789/1362
+  title `The Essential Services Maintenance (Assam) Act, 1980`
+  actNumber (41)
+  enactmentDate 1980-07-19
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/18944`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `आवश्‍यक सेवा (असम) अधिनियम, 1980`
+  actYear (1980)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act to provide for the maintenance of certain essential services and the normal life of the community in Assam.`
+  enforcementDate 19-07-1980
+  notification undefined
+  fetchedAt `2026-05-09T15:44:50.445Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_essential_services_maintenance_assam_act_1980
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/18944`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/18944`
 obj_root_law_sources_en_the_essential_services_maintenance_assam_act_1980:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/18944/1/A1980-41.pdf`)
-  (str title) (str `The Essential Services Maintenance (Assam) Act, 1980`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/18944/1/A1980-41.pdf`
+  title `The Essential Services Maintenance (Assam) Act, 1980`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1980
 obj_root_law_sources_hi_1980:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/18944/3/H1980-41.pdf`)
-  (str title) (str `आवश्‍यक सेवा (असम) अधिनियम, 1980`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/18944/3/H1980-41.pdf`
+  title `आवश्‍यक सेवा (असम) अधिनियम, 1980`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -73,364 +63,425 @@ obj_root_law_sections:
   obj_root_law_sections_10
   obj_root_law_sections_11
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 67109)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the Essential Services Maintenance
-(Assam) Act, 1980.
-
-(2) It extends to the whole of the State of Assam.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67109&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67109)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67109&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Essential Services Maintenance`
+  line `(Assam) Act, 1980.`
+  line
+  line `(2) It extends to the whole of the State of Assam.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 67110)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `(1) In this Act, unless the context otherwise requires,--
-
-^1[***]
-
-^2[(b) "essential service" means--
-
-(i) any transport services for the carriage of passengers or goods, by land or water with
-respect to which the Legislative Assembly of the State of Assam has power to make laws;
-
-(ii) any service connected with the production, storage, supply or distribution, as the case may
-be, of gas or water;
-
-(iii) any service connected with the maintenance of public health and sanitation, including
-hospitals and dispensaries;
-
-(iv) any public services and posts in connection with the affairs of the State, and also persons
-appointed to the secretarial staff of the Legislative Assembly of the State of Assam;
-
-(v) any other service or employment or class thereof, connected with matters with respect to
-which the Legislative Assembly of the State of Assam has power to make laws and which the
-State Government, being of opinion that strikes therein would prejudicially affect the
-maintenance of any public utility service, the public safety or the maintenance of the supplies and
-services necessary for the life of the community or would result in the infliction of grave hardship
-on the community, may, by notification in the official gazette, declare to be an essential service
-for the purpose of this Act;
-
-(bb) 'State Government' means the State Government of Assam;]
-
-(c) "strike" means the cessation of work by a body of persons employed in any essential service
-acting in combination or a concerted refusal or a refusal under a common understanding of any
-number of persons who are or who have been so employed to continue to work or to accept
-employment, and includes--
-
-(i) refusal to work overtime where such work is necessary for the maintenance of any
-essential service;
-
-(ii) any other conduct which is likely to result in, or results ill, cessation or substantial
-retardation of work in any essential service.
-
-(2) Every notification issued ^3[under sub-clause (v)] of clause (6) of sub-section (1) shall be laid
-before each House of Parliament immediately after it is made if it is in session and on the first day of the
-commencement of the next session of the House if it is not in session, and shall cease to operate at the
-expiration of forty days from the date of its being so laid or from the re-assembly of Parliament, as the
-case may be, unless before the expiration of that period a resolution approving the issue of the notification
-is passed by both Houses of Parliament.
-
-Explanation.-- Where the Houses of Parliament are summoned to re- assemble on different dates, the
-period of forty days shall be reckoned from the later of those dates.
-
-(3) Any reference in this Act to any law which is not in force in any area of the State of Assam and to
-any authority under such law shall, in relation to that area, be construed as a reference to the
-corresponding law in force in that area and to the corresponding authority under such corresponding law.`)
-  (str footnotes) (str `1. Omitted by Act, 40 of 1981, s. 13, for clause (a) (w.e.f. 26-7-1981).
-
-2. Subs. by s. 13, ibid, for clause (b) (w.e.f. 26-7-1981),
-
-* Act 40 of 1981 shall cease to have effect on the expiry of nine years from the date of assent to the Act 40 of 1981 i.e, (23-9-
-1981).
-
-3. Subs. by Act 40 of 1981, s. 13, for "under sub-clause (xiv)" (w.e.f. 23-9-1981).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67110&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67110)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67110&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_2_content:
+  string
+  line `(1) In this Act, unless the context otherwise requires,--`
+  line
+  line ^1[***]
+  line
+  line `^2[(b) "essential service" means--`
+  line
+  line `(i) any transport services for the carriage of passengers or goods, by land or water with`
+  line `respect to which the Legislative Assembly of the State of Assam has power to make laws;`
+  line
+  line `(ii) any service connected with the production, storage, supply or distribution, as the case may`
+  line `be, of gas or water;`
+  line
+  line `(iii) any service connected with the maintenance of public health and sanitation, including`
+  line `hospitals and dispensaries;`
+  line
+  line `(iv) any public services and posts in connection with the affairs of the State, and also persons`
+  line `appointed to the secretarial staff of the Legislative Assembly of the State of Assam;`
+  line
+  line `(v) any other service or employment or class thereof, connected with matters with respect to`
+  line `which the Legislative Assembly of the State of Assam has power to make laws and which the`
+  line `State Government, being of opinion that strikes therein would prejudicially affect the`
+  line `maintenance of any public utility service, the public safety or the maintenance of the supplies and`
+  line `services necessary for the life of the community or would result in the infliction of grave hardship`
+  line `on the community, may, by notification in the official gazette, declare to be an essential service`
+  line `for the purpose of this Act;`
+  line
+  line `(bb) 'State Government' means the State Government of Assam;]`
+  line
+  line `(c) "strike" means the cessation of work by a body of persons employed in any essential service`
+  line `acting in combination or a concerted refusal or a refusal under a common understanding of any`
+  line `number of persons who are or who have been so employed to continue to work or to accept`
+  line `employment, and includes--`
+  line
+  line `(i) refusal to work overtime where such work is necessary for the maintenance of any`
+  line `essential service;`
+  line
+  line `(ii) any other conduct which is likely to result in, or results ill, cessation or substantial`
+  line `retardation of work in any essential service.`
+  line
+  line `(2) Every notification issued ^3[under sub-clause (v)] of clause (6) of sub-section (1) shall be laid`
+  line `before each House of Parliament immediately after it is made if it is in session and on the first day of the`
+  line `commencement of the next session of the House if it is not in session, and shall cease to operate at the`
+  line `expiration of forty days from the date of its being so laid or from the re-assembly of Parliament, as the`
+  line `case may be, unless before the expiration of that period a resolution approving the issue of the notification`
+  line `is passed by both Houses of Parliament.`
+  line
+  line `Explanation.-- Where the Houses of Parliament are summoned to re- assemble on different dates, the`
+  line `period of forty days shall be reckoned from the later of those dates.`
+  line
+  line `(3) Any reference in this Act to any law which is not in force in any area of the State of Assam and to`
+  line `any authority under such law shall, in relation to that area, be construed as a reference to the`
+  line `corresponding law in force in that area and to the corresponding authority under such corresponding law.`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. Omitted by Act, 40 of 1981, s. 13, for clause (a) (w.e.f. 26-7-1981).`
+  line
+  line `2. Subs. by s. 13, ibid, for clause (b) (w.e.f. 26-7-1981),`
+  line
+  line `* Act 40 of 1981 shall cease to have effect on the expiry of nine years from the date of assent to the Act 40 of 1981 i.e, (23-9-`
+  line `1981).`
+  line
+  line `3. Subs. by Act 40 of 1981, s. 13, for "under sub-clause (xiv)" (w.e.f. 23-9-1981).`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 67111)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Power to prohibit strikes in certain employments.`)
-  (str content) (str `(1) If the ^1[State Government] is satisfied
-that in the public interest it is necessary or expedient so to do, it may, by general or special Order, prohibit
-strikes in the State of Assam in any essential service specified in the Order.
-
-(2) An Order made under sub-section (1) shall be published in such manner as the ^1[State
-Government] considers best calculated to bring it to the notice of the persons affected by the Order.
-
-(3) An Order made under sub-section (1) shall be in force for six months only, but the ^1[State
-Government] may, by a like Order, extend it for any period not exceeding six months if it is satisfied that
-in the public interest it is necessary or expedient so to do.
-
-(4) Upon the issue of an Order under sub-section (1), --
-
-(a) no person employed in any essential service to which the Order relates shall go or remain on
-strike;
-
-(b) any strike declared or commenced, whether before or after the issue of the Order, by persons
-employed in any such service shall be illegal.`)
-  (str footnotes) (str `1. Subs. by s. 13, ibid, for "appropriate Government" (w.e.f. 23-9-1981).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67111&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67111)
+  sectionNo (3)
+  orderNo 3
+  title `Power to prohibit strikes in certain employments.`
+  content obj_root_law_sections_3_content
+  footnotes `1. Subs. by s. 13, ibid, for "appropriate Government" (w.e.f. 23-9-1981).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67111&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_3_content:
+  string
+  line `(1) If the ^1[State Government] is satisfied`
+  line `that in the public interest it is necessary or expedient so to do, it may, by general or special Order, prohibit`
+  line `strikes in the State of Assam in any essential service specified in the Order.`
+  line
+  line `(2) An Order made under sub-section (1) shall be published in such manner as the ^1[State`
+  line `Government] considers best calculated to bring it to the notice of the persons affected by the Order.`
+  line
+  line `(3) An Order made under sub-section (1) shall be in force for six months only, but the ^1[State`
+  line `Government] may, by a like Order, extend it for any period not exceeding six months if it is satisfied that`
+  line `in the public interest it is necessary or expedient so to do.`
+  line
+  line `(4) Upon the issue of an Order under sub-section (1), --`
+  line
+  line `(a) no person employed in any essential service to which the Order relates shall go or remain on`
+  line strike;
+  line
+  line `(b) any strike declared or commenced, whether before or after the issue of the Order, by persons`
+  line `employed in any such service shall be illegal.`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 67112)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Dismissal of employees participating in illegal strikes.`)
-  (str content) (str `Any person who commences a strike
-which is illegal under this Act, or goes or remains on, or otherwise takes part in, any such strike, shall be
-liable to disciplinary action (including dismissal) in accordance with the same pro-visions as are
-applicable for the purpose of taking such disciplinary action (including dismissal) on any other ground
-under the terms and conditions of service applicable to him in relation to his employment.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67112&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67112)
+  sectionNo (4)
+  orderNo 4
+  title `Dismissal of employees participating in illegal strikes.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67112&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_4_content:
+  string
+  line `Any person who commences a strike`
+  line `which is illegal under this Act, or goes or remains on, or otherwise takes part in, any such strike, shall be`
+  line `liable to disciplinary action (including dismissal) in accordance with the same pro-visions as are`
+  line `applicable for the purpose of taking such disciplinary action (including dismissal) on any other ground`
+  line `under the terms and conditions of service applicable to him in relation to his employment.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 67113)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Penalty for illegal strikes.`)
-  (str content) (str `Any person who commences a strike which is illegal under this Act,
-or goes or remains on, or otherwise takes part in, any such strike shall be punishable with imprisonment
-for a term which may extend to six months, or with fine which may extend to one thousand rupees, or
-with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67113&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67113)
+  sectionNo (5)
+  orderNo 5
+  title `Penalty for illegal strikes.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67113&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_5_content:
+  string
+  line `Any person who commences a strike which is illegal under this Act,`
+  line `or goes or remains on, or otherwise takes part in, any such strike shall be punishable with imprisonment`
+  line `for a term which may extend to six months, or with fine which may extend to one thousand rupees, or`
+  line `with both.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 67114)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Penalty for instigation, etc.`)
-  (str content) (str `Any person who instigates or incites other persons to take part in, or
-otherwise acts in furtherance of, a strike which is illegal under this Act shall be punishable with
-imprisonment for a term which may extend to one year, or with fine which may extend to two thousand
-rupees, or with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67114&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67114)
+  sectionNo (6)
+  orderNo 6
+  title `Penalty for instigation, etc.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67114&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_6_content:
+  string
+  line `Any person who instigates or incites other persons to take part in, or`
+  line `otherwise acts in furtherance of, a strike which is illegal under this Act shall be punishable with`
+  line `imprisonment for a term which may extend to one year, or with fine which may extend to two thousand`
+  line `rupees, or with both.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 67115)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Penalty for giving financial aid to illegal strikes.`)
-  (str content) (str `Any person who knowingly expends or
-supplies any money in furtherance or support of a strike which is illegal under this Act shall be punishable
-with imprisonment for a term which may extend to one year, or with fine which may extend to two
-thousand rupees, or with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67115&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67115)
+  sectionNo (7)
+  orderNo 7
+  title `Penalty for giving financial aid to illegal strikes.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67115&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_7_content:
+  string
+  line `Any person who knowingly expends or`
+  line `supplies any money in furtherance or support of a strike which is illegal under this Act shall be punishable`
+  line `with imprisonment for a term which may extend to one year, or with fine which may extend to two`
+  line `thousand rupees, or with both.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 67116)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Power to arrest without warrant.`)
-  (str content) (str `Notwithstanding anything contained in the Code of Criminal
-Procedure, 1973 (2 of 1974), any police officer may arrest without warrant any person who is reasonably
-suspected of having committed any offence under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67116&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67116)
+  sectionNo (8)
+  orderNo 8
+  title `Power to arrest without warrant.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67116&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_8_content:
+  string
+  line `Notwithstanding anything contained in the Code of Criminal`
+  line `Procedure, 1973 (2 of 1974), any police officer may arrest without warrant any person who is reasonably`
+  line `suspected of having committed any offence under this Act.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 67117)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Offences to be tried summarily.`)
-  (str content) (str `Notwithstanding anything contained in the Code of Criminal
-Procedure, 1973 (2 of 1974), all offences under this Act shall be tried in a summary way by a Judicial
-Magistrate of the first class specially empowered in this behalf by the ^1[State Government] and the
-provisions of Sections 262 to 265 (both inclusive) of the said Code shall, as far as may be, apply to such
-trial:
-
-Provided that in a case of conviction for any offence in a summary trial under this section, it shall be
-lawful for the Magistrate to pass a sentence of imprisonment for any term for which such offence is
-punishable under this Act.`)
-  (str footnotes) (str `1. Subs. by Act 40 of 1981, s. 13, for "appropriate Government" (w.e.f. 23-9-1981).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67117&sectionno=9&orderno=9&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67117)
+  sectionNo (9)
+  orderNo 9
+  title `Offences to be tried summarily.`
+  content obj_root_law_sections_9_content
+  footnotes `1. Subs. by Act 40 of 1981, s. 13, for "appropriate Government" (w.e.f. 23-9-1981).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67117&sectionno=9&orderno=9&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_9_content:
+  string
+  line `Notwithstanding anything contained in the Code of Criminal`
+  line `Procedure, 1973 (2 of 1974), all offences under this Act shall be tried in a summary way by a Judicial`
+  line `Magistrate of the first class specially empowered in this behalf by the ^1[State Government] and the`
+  line `provisions of Sections 262 to 265 (both inclusive) of the said Code shall, as far as may be, apply to such`
+  line `trial:`
+  line
+  line `Provided that in a case of conviction for any offence in a summary trial under this section, it shall be`
+  line `lawful for the Magistrate to pass a sentence of imprisonment for any term for which such offence is`
+  line `punishable under this Act.`
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 67118)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Act to override other laws.`)
-  (str content) (str `The provisions of this Act and of any Order issued there under
-shall have effect notwithstanding anything inconsistent therewith contained in the Industrial Disputes Act,
-1947 (14 of 1947), or in any other law for the time being in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67118&sectionno=10&orderno=10&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67118)
+  sectionNo (10)
+  orderNo 10
+  title `Act to override other laws.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67118&sectionno=10&orderno=10&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_10_content:
+  string
+  line `The provisions of this Act and of any Order issued there under`
+  line `shall have effect notwithstanding anything inconsistent therewith contained in the Industrial Disputes Act,`
+  line `1947 (14 of 1947), or in any other law for the time being in force.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 67119)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Repeal and saving.`)
-  (str content) (str `(1) The Essential Services Maintenance (Assam) Ordinance, 1980 (2 of
-1980), is hereby repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall be
-deemed to have been done or taken under this Act, as if this Act had come into force on the 6th day of
-April, 1980.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67119&sectionno=11&orderno=11&orgactid=AC_CEN_5_5_00068_198041_1658138840430)
+  sectionId (67119)
+  sectionNo (11)
+  orderNo 11
+  title `Repeal and saving.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00068_198041_1658138840430&sectionId=67119&sectionno=11&orderno=11&orgactid=AC_CEN_5_5_00068_198041_1658138840430
+obj_root_law_sections_11_content:
+  string
+  line `(1) The Essential Services Maintenance (Assam) Ordinance, 1980 (2 of`
+  line `1980), is hereby repealed.`
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall be`
+  line `deemed to have been done or taken under this Act, as if this Act had come into force on the 6th day of`
+  line `April, 1980.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `आवश्‍यक सेवा (असम) अधिनियम, 1980`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/18944/3/H1980-41.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:24:19.885Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `आवश्‍यक सेवा (असम) अधिनियम, 1980`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/18944/3/H1980-41.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:24:19.885Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `आवश्य कसेवा ( असम ) अधिधियम, 1980
-(1980 काअधिधियमसंखयां क 41 )
-[19 जुलाई, 1980]
-असममेंकुछआवश्य कसेवाएंतथा प्र
-सामान्य सामुदाधयकजीवि
-बिाएरखिेकाउपबन्ि
-करिेकेधलए
-अधिधियम
-भारतगणराज्य केइकतीसवेंवर्षमेंसंसद्द्वाराधिम्ि धलधखतरूपमेंयह अधिधियधमतहो: ––
-1. संधिप्त िामऔरधवस्ता र –– (1) इसअधिधियमकासंधिप्त िामआवश्य कसेवा ( असम ) अधिधियम, 1980 है।
-(2) इसकाधवस्ता रसम्पू णषअसमराज्य परहै।
-2. पररभार्ाएं –– (1) इसअधिधियममें,जबतकककसंदभष से अन्य थाअपेधितिहो, ––
-( क ) “ स मुधितसरकार ” सेअधभप्रेतहै, ––
-(i) संधविािकीसातवींअिुसूिीकीसूिी 1 मेंप्र ग धणतप्रधवधि योंमेंसेककसीसेसंबंधितधवर्योंसे
-सम्ब द्ध ककसीसेवाकेसंबंिमें,केन्री यसरकार;
-(ii) संधविािकीसातवींअिुसूिीकीसूिी 2 मेंप्रग धणतप्रधवधि योंमेंसे ककसीसेसंबंधितधवर्योंसे
-सम्ब द्ध ककसीसेवाकेसंबंिमें,असमराज्य सरकार;और
-(iii) संधविािकीसातवींअिुसूिीकीसूिी 3 मेंप्र ग धणतप्रधवधि योंमेंसेककसीसेसंबंधितधवर्योंसे
-सम्ब द्ध ककसीसेवाकेसंबंिमें,केन्री यसरकारऔरअसमराज्य स रका र;
-( ख ) “ आवश्य कसेवा ” केअधभप्रेतहै, ––
-(i) कोईडाक,ट्रेलीग्राफयािेलीफोिसेवा;
-(ii) कोईरेलसेवायाभू - मागष,जल - मागषयावायु - मागषद्वारायाधियोंयामालकोलेजािेकेधलएकोई
-अन्य पररवहिसेवा;
-(iii) मालकोलादिेऔरउतारिेसेसम्ब द्ध कोईसेवा;
-(iv) धवमाि - िेिोंकोिालूरखिेयाबिाएरखिेसेअथवावायुयािकोिलािे,उसकीमरम्म तकरिेया
-उसेबिाएरखिेसेसम्ब द्ध कोईसेवा;
-(v) मालयायाधियोंकीसीमाशुल्क सेधिकासीसेयातस्क रीकेधिवारणसेसम्ब द्ध कोईसेवा;
-(vi) संघकेसशस्ि बलोंकेककसी स् था पिमेंयाउससेसंबद्ध कोईसेवा,यारिासेसम्ब द्ध ककन्हीं अन्य स्
-था पिोंयाप्रधतठा िोंकीकोईसेवा;
-(vii) ककसीऔद्योधगकस्था पियाउपक्रमकेककसीअिुभागमेंकोईसेवाधजसकेकायषकरणपरऐसे स्
-था पियाउपक्रमयाउसमेंधियोधजतकमषिाररयोंकीसु रिाधिभषरहै;
-(viii) सरकारकेस्वा धमत्वा िीियाधियंिणािीिककसीऐसेउपक्रमकेकायषकरणमेंयाउससेसम्ब द्ध,
-कोईसेवा,जोखाद्या न् ि केक्रय,उपापि,भंडारण,प्रदाययाधवतरणकेकारबारमेंलगाउपक्रमहै;
-(ix) सावषजधिकसफाईयास्व च् छ ताप्रणाली मेंकोईसेवा;
-(x) बैंक कारीसेसं सक्त यासम्ब द्ध कोईसेवा;
-(xi) ऐसेककसीस्था पियाउपक्रममेंकोईसेवा,जोकोयलेकेउत्पा दि,प्रदायऔरधवतरणकाकारबार
-करताहै;
-(xii) ककसीतेलिेियापररक रणीयाऐसेककसीस्था पियाउपक्रममेंकोईसेवा,जोपेट्रो धलयमऔर
-पेट्रोधलयमउत्पा दोंकेउत्पा दि,प्रदाययाधवतरणकाकारबारकरताहै;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `आवश्य कसेवा ( असम ) अधिधियम, 1980`
+  line `(1980 काअधिधियमसंखयां क 41 )`
+  line `[19 जुलाई, 1980]`
+  line `असममेंकुछआवश्य कसेवाएंतथा प्र`
+  line `सामान्य सामुदाधयकजीवि`
+  line बिाएरखिेकाउपबन्ि
+  line करिेकेधलए
+  line अधिधियम
+  line `भारतगणराज्य केइकतीसवेंवर्षमेंसंसद्द्वाराधिम्ि धलधखतरूपमेंयह अधिधियधमतहो: ––`
+  line `1. संधिप्त िामऔरधवस्ता र –– (1) इसअधिधियमकासंधिप्त िामआवश्य कसेवा ( असम ) अधिधियम, 1980 है।`
+  line `(2) इसकाधवस्ता रसम्पू णषअसमराज्य परहै।`
+  line `2. पररभार्ाएं –– (1) इसअधिधियममें,जबतकककसंदभष से अन्य थाअपेधितिहो, ––`
+  line `( क ) “ स मुधितसरकार ” सेअधभप्रेतहै, ––`
+  line `(i) संधविािकीसातवींअिुसूिीकीसूिी 1 मेंप्र ग धणतप्रधवधि योंमेंसेककसीसेसंबंधितधवर्योंसे`
+  line `सम्ब द्ध ककसीसेवाकेसंबंिमें,केन्री यसरकार;`
+  line `(ii) संधविािकीसातवींअिुसूिीकीसूिी 2 मेंप्रग धणतप्रधवधि योंमेंसे ककसीसेसंबंधितधवर्योंसे`
+  line `सम्ब द्ध ककसीसेवाकेसंबंिमें,असमराज्य सरकार;और`
+  line `(iii) संधविािकीसातवींअिुसूिीकीसूिी 3 मेंप्र ग धणतप्रधवधि योंमेंसेककसीसेसंबंधितधवर्योंसे`
+  line `सम्ब द्ध ककसीसेवाकेसंबंिमें,केन्री यसरकारऔरअसमराज्य स रका र;`
+  line `( ख ) “ आवश्य कसेवा ” केअधभप्रेतहै, ––`
+  line `(i) कोईडाक,ट्रेलीग्राफयािेलीफोिसेवा;`
+  line `(ii) कोईरेलसेवायाभू - मागष,जल - मागषयावायु - मागषद्वारायाधियोंयामालकोलेजािेकेधलएकोई`
+  line `अन्य पररवहिसेवा;`
+  line `(iii) मालकोलादिेऔरउतारिेसेसम्ब द्ध कोईसेवा;`
+  line `(iv) धवमाि - िेिोंकोिालूरखिेयाबिाएरखिेसेअथवावायुयािकोिलािे,उसकीमरम्म तकरिेया`
+  line `उसेबिाएरखिेसेसम्ब द्ध कोईसेवा;`
+  line `(v) मालयायाधियोंकीसीमाशुल्क सेधिकासीसेयातस्क रीकेधिवारणसेसम्ब द्ध कोईसेवा;`
+  line `(vi) संघकेसशस्ि बलोंकेककसी स् था पिमेंयाउससेसंबद्ध कोईसेवा,यारिासेसम्ब द्ध ककन्हीं अन्य स्`
+  line `था पिोंयाप्रधतठा िोंकीकोईसेवा;`
+  line `(vii) ककसीऔद्योधगकस्था पियाउपक्रमकेककसीअिुभागमेंकोईसेवाधजसकेकायषकरणपरऐसे स्`
+  line `था पियाउपक्रमयाउसमेंधियोधजतकमषिाररयोंकीसु रिाधिभषरहै;`
+  line `(viii) सरकारकेस्वा धमत्वा िीियाधियंिणािीिककसीऐसेउपक्रमकेकायषकरणमेंयाउससेसम्ब द्ध,`
+  line `कोईसेवा,जोखाद्या न् ि केक्रय,उपापि,भंडारण,प्रदाययाधवतरणकेकारबारमेंलगाउपक्रमहै;`
+  line `(ix) सावषजधिकसफाईयास्व च् छ ताप्रणाली मेंकोईसेवा;`
+  line `(x) बैंक कारीसेसं सक्त यासम्ब द्ध कोईसेवा;`
+  line `(xi) ऐसेककसीस्था पियाउपक्रममेंकोईसेवा,जोकोयलेकेउत्पा दि,प्रदायऔरधवतरणकाकारबार`
+  line करताहै;
+  line `(xii) ककसीतेलिेियापररक रणीयाऐसेककसीस्था पियाउपक्रममेंकोईसेवा,जोपेट्रो धलयमऔर`
+  line `पेट्रोधलयमउत्पा दोंकेउत्पा दि,प्रदाययाधवतरणकाकारबारकरताहै;`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-(xiii) संघयाअसमरा ज् य केकायषकलापोंसेसंसक्त ऐसीकोईसेवाजोपूवषगामीककसीउपखंडमें
-धवधिर्दषि िहींकीगईहै;
-(xiv) ऐसीकोईअन्य सेवाजोऐसेधवर्योंसेसं स क् त हैधजि केबारेमेंधवधिबिािेकीशधक्त संसद्या
-असमराज्य कीधविािसभाकोप्राप्त हैऔरधजसे,यथाधस्थ धत,केन्री यसरकारया असमसरकार,यहरायहोिे
-परककउसमेंहड़तालककसीलोकोपयोगीसेवाकोबिाएरखिेपरयालोकसुरिापरयासामुदाधयकजीविके
-धलएआवश्य कप्रदा य औरसेवाओं कोबिाएरखिेपर,प्रधतकूलप्रभावडालेगीयाउसकेपररणामस्व रू पसमुदाय
-कोबड़ीकरठिाईहोगी,शासकीयराजपिमेंअधिसूििाद्वारा,इसअधिधियमकेप्रयोजिोंकेधलएआवश्य कसेवा
-घोधर्तकरे;
-( ग ) “ हड़ताल ” सेककसीआवश्य कसेवामेंधियोधजतव्य धक्त योंके धिकायद्वाराधमलकरकायषबन्द करकदयाजािा
-याककतिेहीऐसेव्य धक्त योंका,जोइसप्रकारधियोधजतहैंयाधियोधजत रहेहैं,कायषकरतेरहिेसेयाधियोजिप्रधतगृहीत
-करिेसेसधम्म धलतरूपसेइंकारकरिायासामान्य मधतसेइंकारकरिा,अधभप्रेतहैऔरइसकेअन्त गष तधिम्ि धलधखत
-भीहैं, ––
-(i) जहांअधत काल कायषककसीआवश्य कसेवाकोबिाएरखिेकेधलएआवश्य कहै,वहांअधतकालकायष
-करिेसेइंकारकरिा;
-(ii) ऐसाकोईअन्य आिरण,धजसकेपररणामस्व रू पककसीआवश्य कसेवामेंकामकाबन्द होजािाया
-उसकीगधतपयाष प् त रू पमेंमंदहोजािासंभाव्य हैयाहोजातीहै।
-(2) उपिारा (1) केखंड ( ख ) केउपखंड (xiv) केअिीिजारीकीगईप्रत्ये कअधिसूििा,जारीककएजािेकेपश्िा त्तुरन्त
-संसद्केप्रत्ये कसदिकेसमि,जबवहसिमेंहोऔरयकदवहसिमेंिहोतोउससदिके आगामीसिकेप्रारंभकेप्रथमकदिरखी
-जाएगीऔरऐसीअधिसूििा,यथाधस्थ धत,इसप्रकाररखेजािेकीतारीखसेयासंसद्केपुि:समवेतहोिेसेिालीसकदिकेअवसाि
-पर,जबतकककउसअधिसूििाकेजारीककएजािेकाअिुमोदिकरिेवालासंकल्प संसद्केदोिोंसदिोंद्वारा उसअवधिकेअवसाि
-केपूवषपाररतिकरकदयाजाएप्रवतषिमेंिहींरहजाएगी। स्
-प िी करण –– जहांसंसद्केसदिधभन्ि - धभन्ि तारीखों कोपुि:समवेतहोिेकेधलएआहू तककएजाएं,वहांिालीसकदिकी
-अवधिकीगणिाउितारीखोंमेंसेपश्िा त् वतीतारीखसेकीजाएगी।
-(3) इसअधिधियममेंककसीऐसीधवधिके,जोअसमराज्य केककसीभीिेिमेंप्रवृत्तिहींहै,औरऐसीधवधिकेअिीि
-ककसीप्राधिकारीकेप्रधतधिदेशकाउसिेिकेसंबंिमेंयहअथषलगायाजाएगाककवहउसिेिमेंप्रवृत्ततत्स्था िीधवधिऔरऐसी
-तत्स्था िी धवधिकेअिीितत्स्था िी प्र ाधिकारीकेप्रधतधिदेशहै।
-3. कुछधियोजिोंमेंहड़तालकाप्रधतर्ेिकरिेकीशधक्त –– (1) यकदसमुधितसरकारकासमािािहोजाताहैककऐसा
-करिालोकधहतमेंआवश्य कयासमीिीिहैतोवहसािारणयाधवशेर्आदेशद्वारा,असमराज्य मेंऐसी ककसीभीआवश्य कसेवामें,
-जोआदेशमेंधवधिर्दषि हो,हड़तालोंकोप्रधतधर्द्धकरसकेगी।
-(2) उपिारा (1) केअिीिककयागयाआदेशऐसीरीधतसेप्रकाधशतककयाजाएगाधजसेसमुधितसरकारआदेशद्वारा प्र
-भाधवतहोिेवालेव्य धक्त योंकीजािकारीमेंउसेलािेकेधलए,स वाषधिकठीकसमझे।
-(3) उपिारा (1) केअिीिककयागयाआदेशकेवलछहमासतकप्रवृत्तरहेगा,ककन्तु यकदसमुधितसरकारकासमािािहो
-जाताहैककऐसाकरिालोकधहतमेंआवश्य कऔरसमीिीिहैतोवहउसआदेशको,वैसेहीआदेशद्वारा,छहमाससेअिधिककी
-ककसीअवधिकेधलएबढा सकेगी।
-(4) उपिारा (1) केअिीिआदेश जारीककएजािेपर, ––
-( क ) ऐसीककसीआवश्य कसेवामें,धज स केसंबंिमेंवहआदेशहै,धियोधजतकोईव्य धक्त ितोहड़तालपरजाएगा
-औरिहड़तालपररहेगा;
-( ख ) यकदऐसीककसीसेवामेंधियोधजतव्य धक्त योंिे,ऐसेआदेशकेजारी ककएजािेकेपूवषयापश्िा त्,कोई
-हड़तालघोधर्तयाप्रारंभकीहैतोवहअवैिहोगी।
-4. अवैिहड़तालोंमेंभागलेिेवालेकमषिाररयोंकीपदच्यु धत –– यकदकोईव्य धक्त ऐसीकोईहड़ताल, जोइसअधिधियमके
-अिीिअवैिहै,प्रारंभकरेगाअथवाऐसीहड़तालपरजाएगायारहे गायाउसमेंअन्य थाभागलेगातोवहउन्हीं उपबंिोंकेअिुसार
-अिुशासधिककायषवाहीकेधलए ( धजसकेअन्त गषतपदच्यु धतभीहै ) दायीहोगाजोउसकेधियोजिकेसंबंिमेंउसेलागूसेवाकीशतों
-औरधिबंििोंकेअिीिककसीअन्य आिारपरऐसीअिुशासधिककायषवाही ( धजसकेअन्त गषतपदच्यु धतभीहै ) करिेकेप्रयोजिकेधलए
-लागूहैं।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `(xiii) संघयाअसमरा ज् य केकायषकलापोंसेसंसक्त ऐसीकोईसेवाजोपूवषगामीककसीउपखंडमें`
+  line `धवधिर्दषि िहींकीगईहै;`
+  line `(xiv) ऐसीकोईअन्य सेवाजोऐसेधवर्योंसेसं स क् त हैधजि केबारेमेंधवधिबिािेकीशधक्त संसद्या`
+  line `असमराज्य कीधविािसभाकोप्राप्त हैऔरधजसे,यथाधस्थ धत,केन्री यसरकारया असमसरकार,यहरायहोिे`
+  line परककउसमेंहड़तालककसीलोकोपयोगीसेवाकोबिाएरखिेपरयालोकसुरिापरयासामुदाधयकजीविके
+  line `धलएआवश्य कप्रदा य औरसेवाओं कोबिाएरखिेपर,प्रधतकूलप्रभावडालेगीयाउसकेपररणामस्व रू पसमुदाय`
+  line `कोबड़ीकरठिाईहोगी,शासकीयराजपिमेंअधिसूििाद्वारा,इसअधिधियमकेप्रयोजिोंकेधलएआवश्य कसेवा`
+  line घोधर्तकरे;
+  line `( ग ) “ हड़ताल ” सेककसीआवश्य कसेवामेंधियोधजतव्य धक्त योंके धिकायद्वाराधमलकरकायषबन्द करकदयाजािा`
+  line `याककतिेहीऐसेव्य धक्त योंका,जोइसप्रकारधियोधजतहैंयाधियोधजत रहेहैं,कायषकरतेरहिेसेयाधियोजिप्रधतगृहीत`
+  line `करिेसेसधम्म धलतरूपसेइंकारकरिायासामान्य मधतसेइंकारकरिा,अधभप्रेतहैऔरइसकेअन्त गष तधिम्ि धलधखत`
+  line `भीहैं, ––`
+  line `(i) जहांअधत काल कायषककसीआवश्य कसेवाकोबिाएरखिेकेधलएआवश्य कहै,वहांअधतकालकायष`
+  line करिेसेइंकारकरिा;
+  line `(ii) ऐसाकोईअन्य आिरण,धजसकेपररणामस्व रू पककसीआवश्य कसेवामेंकामकाबन्द होजािाया`
+  line `उसकीगधतपयाष प् त रू पमेंमंदहोजािासंभाव्य हैयाहोजातीहै।`
+  line `(2) उपिारा (1) केखंड ( ख ) केउपखंड (xiv) केअिीिजारीकीगईप्रत्ये कअधिसूििा,जारीककएजािेकेपश्िा त्तुरन्त`
+  line `संसद्केप्रत्ये कसदिकेसमि,जबवहसिमेंहोऔरयकदवहसिमेंिहोतोउससदिके आगामीसिकेप्रारंभकेप्रथमकदिरखी`
+  line `जाएगीऔरऐसीअधिसूििा,यथाधस्थ धत,इसप्रकाररखेजािेकीतारीखसेयासंसद्केपुि:समवेतहोिेसेिालीसकदिकेअवसाि`
+  line `पर,जबतकककउसअधिसूििाकेजारीककएजािेकाअिुमोदिकरिेवालासंकल्प संसद्केदोिोंसदिोंद्वारा उसअवधिकेअवसाि`
+  line `केपूवषपाररतिकरकदयाजाएप्रवतषिमेंिहींरहजाएगी। स्`
+  line `प िी करण –– जहांसंसद्केसदिधभन्ि - धभन्ि तारीखों कोपुि:समवेतहोिेकेधलएआहू तककएजाएं,वहांिालीसकदिकी`
+  line `अवधिकीगणिाउितारीखोंमेंसेपश्िा त् वतीतारीखसेकीजाएगी।`
+  line `(3) इसअधिधियममेंककसीऐसीधवधिके,जोअसमराज्य केककसीभीिेिमेंप्रवृत्तिहींहै,औरऐसीधवधिकेअिीि`
+  line `ककसीप्राधिकारीकेप्रधतधिदेशकाउसिेिकेसंबंिमेंयहअथषलगायाजाएगाककवहउसिेिमेंप्रवृत्ततत्स्था िीधवधिऔरऐसी`
+  line `तत्स्था िी धवधिकेअिीितत्स्था िी प्र ाधिकारीकेप्रधतधिदेशहै।`
+  line `3. कुछधियोजिोंमेंहड़तालकाप्रधतर्ेिकरिेकीशधक्त –– (1) यकदसमुधितसरकारकासमािािहोजाताहैककऐसा`
+  line `करिालोकधहतमेंआवश्य कयासमीिीिहैतोवहसािारणयाधवशेर्आदेशद्वारा,असमराज्य मेंऐसी ककसीभीआवश्य कसेवामें,`
+  line `जोआदेशमेंधवधिर्दषि हो,हड़तालोंकोप्रधतधर्द्धकरसकेगी।`
+  line `(2) उपिारा (1) केअिीिककयागयाआदेशऐसीरीधतसेप्रकाधशतककयाजाएगाधजसेसमुधितसरकारआदेशद्वारा प्र`
+  line `भाधवतहोिेवालेव्य धक्त योंकीजािकारीमेंउसेलािेकेधलए,स वाषधिकठीकसमझे।`
+  line `(3) उपिारा (1) केअिीिककयागयाआदेशकेवलछहमासतकप्रवृत्तरहेगा,ककन्तु यकदसमुधितसरकारकासमािािहो`
+  line `जाताहैककऐसाकरिालोकधहतमेंआवश्य कऔरसमीिीिहैतोवहउसआदेशको,वैसेहीआदेशद्वारा,छहमाससेअिधिककी`
+  line `ककसीअवधिकेधलएबढा सकेगी।`
+  line `(4) उपिारा (1) केअिीिआदेश जारीककएजािेपर, ––`
+  line `( क ) ऐसीककसीआवश्य कसेवामें,धज स केसंबंिमेंवहआदेशहै,धियोधजतकोईव्य धक्त ितोहड़तालपरजाएगा`
+  line औरिहड़तालपररहेगा;
+  line `( ख ) यकदऐसीककसीसेवामेंधियोधजतव्य धक्त योंिे,ऐसेआदेशकेजारी ककएजािेकेपूवषयापश्िा त्,कोई`
+  line हड़तालघोधर्तयाप्रारंभकीहैतोवहअवैिहोगी।
+  line `4. अवैिहड़तालोंमेंभागलेिेवालेकमषिाररयोंकीपदच्यु धत –– यकदकोईव्य धक्त ऐसीकोईहड़ताल, जोइसअधिधियमके`
+  line `अिीिअवैिहै,प्रारंभकरेगाअथवाऐसीहड़तालपरजाएगायारहे गायाउसमेंअन्य थाभागलेगातोवहउन्हीं उपबंिोंकेअिुसार`
+  line `अिुशासधिककायषवाहीकेधलए ( धजसकेअन्त गषतपदच्यु धतभीहै ) दायीहोगाजोउसकेधियोजिकेसंबंिमेंउसेलागूसेवाकीशतों`
+  line `औरधिबंििोंकेअिीिककसीअन्य आिारपरऐसीअिुशासधिककायषवाही ( धजसकेअन्त गषतपदच्यु धतभीहै ) करिेकेप्रयोजिकेधलए`
+  line लागूहैं।
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-5. अवैिहड़तालोंकेधलएशाधस्त –– यकदकोईव्य धक्त ऐसीकोईहड़ताल,जोइसअधिधियमकेअिीिअवैिहै,प्रारम्भ
-करेगायाऐसीहड़तालपरजाएगायारहेगायाउसमेंअन्य थाभागलेगातोवहकारावाससे,धज सकी अवधिछहमासतककीहो
-सकेगी,याजुमाषिेसे,जोएकहजाररुपएतककाहोसकेगा,यादोिोंसेदंडिीयहोगा।
-6. उकसािेआकदकेधलएशाधस्त –– यकदकोईव्य धक्त ऐसीहड़तालकेधलए,जोइसअधिधियमकेअिीिअवैिहै,अन्य व्
-य धक्त योंकोउकसाएगायाउसमेंभागलेिेकेधल एउन्हें उद्दीप्त करेगायाउसे अ ग्र सरकरिेमेंअन्य थाकायषकरेगा,तोवहकारावास
-से,धजसकीअवधिएकवर्षतककीहोसकेगीयाजुमाषिेसे,जोदोहजाररुपएतककाहोसकेगायादोिोंसेदण्ड िीयहोगा।
-7. अवैिहड़तालोंकोधवत्तीयसहायतादेिेकेधलएशाधस्त –– यकद कोईव्य धक्त ऐसीहड़तालको,जोइसअधिधियमके
-अिीिअवैिहै,जाितेहुएअग्रसरकरिे मेंयाउसकेसमथषिमेंििकाव्य ययाप्रदायकरेगातोवहकारावाससे,धजसकीअवधिएक
-वर्षतककीहोसकेगी,याजुमाषिेसे,जोदोहजाररुपएतककाहोसकेगा,यादोिोंसेदण्ड िीय होगा।
-8. धबिावारण्ि धगरफ्तारकरिेकीशधक्त –– दण्ड प्र कक्रयासंधहता, 1973 (1974 का 2) मेंअन्त र् वषि ककसीबातकेहोतेहुए
-भी,कोईपुधलसअधिकारीककसीऐसेव्य धक्त कोधजसकेधवरुद्धयुधक्त युक्त रू पसेयहसंदेहहोककउसिेइसअधिधियमकेअिीिकोई
-अपरा िककयाहैधबिावारंिधगरफ्तारकरसकेगा।
-9. अपरािों कासंधिप्त धविारण –– दण्ड प्र कक्रयासंधहता, 1973 (1974 का 2) मेंअन्त र् वषि ककसीबातकेहोतेहुएभी,इस
-अधिधियमकेअिीिसभीअपरािोंकासंधिप्त धविारणप्रथमवगषकाकोईऐसान्या धयकमधजस्ट्रे िक रेगा,धजसेसमुधितसरकारइस
-धिधमत्तधवशेर्रूपसेसशक्त करेऔरउक्त संधहताकीिारा 262 सेिारा 265 तक ( धजसकेअन्त गषतदोिोंसधम्म धलतहैं ) केउपबंिऐसे
-धविारणकोयावत्श क् य लागूहोंगे:
-परन्तु इसिाराकेअिीिसंधिप्त धविारणमेंककसीअपरािकेधलएदोर्धस धद्धकेमामलेमेंमधजस्ट्रे िकेधलएयहधवधिपूणष
-होगाककवहककसीभीऐसीअवधिकेधलएकारावासकादंडादेशपाररतकरेधजसकेधलएइसअधिधियमकेअिीिऐसाअपराि
-दंडिीयहै।
-10. अधिधियमकाअन्य धवधियोंपरअध्या रोहीप्रभाव –– इसअधिधियमकेऔरउसकेअिीिजारीककए गएककसीआदेशके
-उपबंि,औद्योधगकधववादअधिधियम, 19 4 7 (19 4 7 का 14) मेंयाउससमयप्रवृत्तककसीअन्य धवधिमेंअन्त र् वषि ककसीबातसे
-अंसगतहोतेहुएभी,प्रभावीहोंगे।
-11. धिरसिऔरव्या वृधत्त –– (1) आवश्य कसेवाएं ( असम ) अध्या देश, 1980 (1980 का 2) इसकेद्वा राधिरधसतककया
-जाता है।
-(2) ऐसेधिरसिकेहोतेहुएभीउक्त अध्या देशकेअिीिकीगईकोईभीबातयाकारषवाईइसअधिधियमकेअिीिवैसेही
-कीगईसमझीजाएगीमािोयहअधिधियम 6 अप्रैल, 1980 कोप्रवृत्तहोगयाथा।
-_____`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `5. अवैिहड़तालोंकेधलएशाधस्त –– यकदकोईव्य धक्त ऐसीकोईहड़ताल,जोइसअधिधियमकेअिीिअवैिहै,प्रारम्भ`
+  line `करेगायाऐसीहड़तालपरजाएगायारहेगायाउसमेंअन्य थाभागलेगातोवहकारावाससे,धज सकी अवधिछहमासतककीहो`
+  line सकेगी,याजुमाषिेसे,जोएकहजाररुपएतककाहोसकेगा,यादोिोंसेदंडिीयहोगा।
+  line `6. उकसािेआकदकेधलएशाधस्त –– यकदकोईव्य धक्त ऐसीहड़तालकेधलए,जोइसअधिधियमकेअिीिअवैिहै,अन्य व्`
+  line `य धक्त योंकोउकसाएगायाउसमेंभागलेिेकेधल एउन्हें उद्दीप्त करेगायाउसे अ ग्र सरकरिेमेंअन्य थाकायषकरेगा,तोवहकारावास`
+  line `से,धजसकीअवधिएकवर्षतककीहोसकेगीयाजुमाषिेसे,जोदोहजाररुपएतककाहोसकेगायादोिोंसेदण्ड िीयहोगा।`
+  line `7. अवैिहड़तालोंकोधवत्तीयसहायतादेिेकेधलएशाधस्त –– यकद कोईव्य धक्त ऐसीहड़तालको,जोइसअधिधियमके`
+  line `अिीिअवैिहै,जाितेहुएअग्रसरकरिे मेंयाउसकेसमथषिमेंििकाव्य ययाप्रदायकरेगातोवहकारावाससे,धजसकीअवधिएक`
+  line `वर्षतककीहोसकेगी,याजुमाषिेसे,जोदोहजाररुपएतककाहोसकेगा,यादोिोंसेदण्ड िीय होगा।`
+  line `8. धबिावारण्ि धगरफ्तारकरिेकीशधक्त –– दण्ड प्र कक्रयासंधहता, 1973 (1974 का 2) मेंअन्त र् वषि ककसीबातकेहोतेहुए`
+  line `भी,कोईपुधलसअधिकारीककसीऐसेव्य धक्त कोधजसकेधवरुद्धयुधक्त युक्त रू पसेयहसंदेहहोककउसिेइसअधिधियमकेअिीिकोई`
+  line `अपरा िककयाहैधबिावारंिधगरफ्तारकरसकेगा।`
+  line `9. अपरािों कासंधिप्त धविारण –– दण्ड प्र कक्रयासंधहता, 1973 (1974 का 2) मेंअन्त र् वषि ककसीबातकेहोतेहुएभी,इस`
+  line `अधिधियमकेअिीिसभीअपरािोंकासंधिप्त धविारणप्रथमवगषकाकोईऐसान्या धयकमधजस्ट्रे िक रेगा,धजसेसमुधितसरकारइस`
+  line `धिधमत्तधवशेर्रूपसेसशक्त करेऔरउक्त संधहताकीिारा 262 सेिारा 265 तक ( धजसकेअन्त गषतदोिोंसधम्म धलतहैं ) केउपबंिऐसे`
+  line `धविारणकोयावत्श क् य लागूहोंगे:`
+  line `परन्तु इसिाराकेअिीिसंधिप्त धविारणमेंककसीअपरािकेधलएदोर्धस धद्धकेमामलेमेंमधजस्ट्रे िकेधलएयहधवधिपूणष`
+  line होगाककवहककसीभीऐसीअवधिकेधलएकारावासकादंडादेशपाररतकरेधजसकेधलएइसअधिधियमकेअिीिऐसाअपराि
+  line दंडिीयहै।
+  line `10. अधिधियमकाअन्य धवधियोंपरअध्या रोहीप्रभाव –– इसअधिधियमकेऔरउसकेअिीिजारीककए गएककसीआदेशके`
+  line `उपबंि,औद्योधगकधववादअधिधियम, 19 4 7 (19 4 7 का 14) मेंयाउससमयप्रवृत्तककसीअन्य धवधिमेंअन्त र् वषि ककसीबातसे`
+  line अंसगतहोतेहुएभी,प्रभावीहोंगे।
+  line `11. धिरसिऔरव्या वृधत्त –– (1) आवश्य कसेवाएं ( असम ) अध्या देश, 1980 (1980 का 2) इसकेद्वा राधिरधसतककया`
+  line `जाता है।`
+  line `(2) ऐसेधिरसिकेहोतेहुएभीउक्त अध्या देशकेअिीिकीगईकोईभीबातयाकारषवाईइसअधिधियमकेअिीिवैसेही`
+  line `कीगईसमझीजाएगीमािोयहअधिधियम 6 अप्रैल, 1980 कोप्रवृत्तहोगयाथा।`
+  line _____
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

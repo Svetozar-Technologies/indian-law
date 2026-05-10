@@ -45,7 +45,8 @@ test("Central Act discovery falls back to seed laws when the live listing is una
     assert.equal(manifest.laws[0].handle, "1367");
     assert.equal(manifest.errors.length, 1);
     assert.match(manifest.errors[0].message, /HTTP 404/);
-    assert.match(notation, /^obj_root:\n  object\n/);
+    assert.match(notation, /^obj_root:\n  generatedFrom obj_root_generated_from\n/);
+    assert.doesNotMatch(notation, /^obj_root:\n  object\n/);
   } finally {
     await new Promise((resolve) => server.close(resolve));
     await rm(output, { recursive: true, force: true });

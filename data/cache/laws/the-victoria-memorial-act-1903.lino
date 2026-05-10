@@ -1,39 +1,35 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:18:27.420Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2336`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 6)
-  (str totalSections) (int 6)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:18:27.420Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2336`
+  completeFetch true
+  maxSections null
+  sectionCount 6
+  totalSections 6
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-victoria-memorial-act-1903)
-  (str handle) (str 2336)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Victoria Memorial Act, 1903`)
-  (str actNumber) (str 10)
-  (str enactmentDate) (str 1903-03-20)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2336`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `विक्‍टोरिया स्‍मारक अधिनियम, 1903`)
-  (str actYear) (str 1903)
-  (str ministry) (str `Ministry of Culture`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act to provide for the erection and management of the Victoria Memorial at Calcutta.`)
-  (str enforcementDate) (str 20-03-1903)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T09:13:48.980Z`)
-  (str translations) obj_root_law_translations
+  slug the-victoria-memorial-act-1903
+  handle (2336)
+  collectionHandle 123456789/1362
+  title `The Victoria Memorial Act, 1903`
+  actNumber (10)
+  enactmentDate 1903-03-20
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2336`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `विक्‍टोरिया स्‍मारक अधिनियम, 1903`
+  actYear (1903)
+  ministry `Ministry of Culture`
+  department undefined
+  longTitle `An Act to provide for the erection and management of the Victoria Memorial at Calcutta.`
+  enforcementDate 20-03-1903
+  notification undefined
+  fetchedAt `2026-05-09T09:13:48.980Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_victoria_memorial_act_1903
   obj_root_law_sources_en_3
@@ -41,44 +37,44 @@ obj_root_law_sources_en:
   obj_root_law_sources_en_5
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2336`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2336`
 obj_root_law_sources_en_the_victoria_memorial_act_1903:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2336/1/A1903-10.pdf`)
-  (str title) (str `The Victoria Memorial Act, 1903`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2336/1/A1903-10.pdf`
+  title `The Victoria Memorial Act, 1903`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/rulesindividualfile/&file=victorialmemorialact1903_21.03.2018_rule.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/rulesindividualfile/&file=victorialmemorialact1903_21.03.2018_rule.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/rulesindividualfile/&file=vm_rules_26_march_1903.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/rulesindividualfile/&file=vm_rules_26_march_1903.pdf`
+  title obj_root_law_sources_en_4_title
+obj_root_law_sources_en_4_title:
+  string
+  line
 obj_root_law_sources_en_5:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/regulationindividualfile/&file=vmh_service_regulation.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/regulationindividualfile/&file=vmh_service_regulation.pdf`
+  title obj_root_law_sources_en_5_title
+obj_root_law_sources_en_5_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1903
 obj_root_law_sources_hi_1903:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2336/3/H1903-10.pdf`)
-  (str title) (str `विक्‍टोरिया स्‍मारक अधिनियम, 1903`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2336/3/H1903-10.pdf`
+  title `विक्‍टोरिया स्‍मारक अधिनियम, 1903`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -86,339 +82,375 @@ obj_root_law_sections:
   obj_root_law_sections_5
   obj_root_law_sections_6
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 34910)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title.`)
-  (str content) (str `(1) This Act may be called the Victoria Memorial Act, 1903; ^1***
-
-^1* * * * *`)
-  (str footnotes) (str `1. The word "and" and sub-section (2) rep. by the Repealing and Amending Act, 1914 (10 of 1914), s. 3 and the First Schedule.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34910&sectionno=1&orderno=1&orgactid=AC_CEN_27_0_00012_190310_1523339874358)
+  sectionId (34910)
+  sectionNo (1)
+  orderNo 1
+  title `Short title.`
+  content obj_root_law_sections_1_content
+  footnotes `1. The word "and" and sub-section (2) rep. by the Repealing and Amending Act, 1914 (10 of 1914), s. 3 and the First Schedule.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34910&sectionno=1&orderno=1&orgactid=AC_CEN_27_0_00012_190310_1523339874358
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Victoria Memorial Act, 1903; ^1***`
+  line
+  line `^1* * * * *`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 34911)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Trustees.)
-  (str content) (str `^1[(1) The Trustees of the Victoria Memorial (hereinafter called the Trustees) shall be
-the following, namely:--
-
-(a) the Government of West Bengal, ex officio, Chairman ;
-
-(b) the Chief Justice of the High Court of West Bengal, ex officio ;
-
-(c) three persons to be nominated by the Central Government, one of whom shall be a
-representative of commerce and industry, chosen in consultation with the State Government of West
-Bengal and two others chosen from among persons who, in the opinion of the Central Government,
-have expert knowledge of the exhibits in the Victoria Memorial or are museologists, historians or art
-historians;
-
-(d) a representative of the Central Government in the Ministry concerned with matters relating to
-the Victoria Memorial, ex officio;
-
-(e) a representative of the Central Government in the Ministry of Finance, Department of
-Expenditure, concerned with matters relating to the Victoria Memorial, ex officio;
-
-(f) the Mayor of the Corporation of Calcutta and where the Corporation of Calcutta is superseded,
-the Administrator of that Corporation, ex officio;
-
-(g) an officer, not below the rank of the Accountant General, nominated by the Comptroller and
-Auditor General of India, ex officio;
-
-(h) the Secretary to the Government of West Bengal in the Department of Education, ex officio;
-
-(i) four persons (of whom one at least shall he from the general body of subscribers), to be
-nominated by the Trustees from among persons, who, in the opinion of the Trustees from among
-persons, who, in the opinion of the Victoria Memorial or are museologists, historians or art historians,
-with the approval of the Central Government.]
-
-(2) The Trustees shall be a body corporate, with perpetual succession by the name of "The Trustees of
-the Victoria Memorial" and a common seal, and in that name shall sue and be sued, and shall have power
-to acquire and hold property to enter into contracts, and to do all acts necessary for and consistent, with
-the purposes of this Act.
-
-^2[(3) All acts done by a majority by those present and voting at a meeting of the Trustees, and all acts
-done in pursuance of a majority decision of the Trustees obtained by circulation to the Trustees of the
-matter requiring decision, shall be deemed to be acts of the Trustees.]
-
-^3[(3A) If any of the Trustees referred to in clauses (b), (d), (e), (f), (g) and (h) of sub-section (1) is
-unable to attend any meeting of the Trustees, he may, with the previous approval of the Chairman,
-authorise in writing a person to do so.]
-
-(4) No act of the Trustees shall be, deemed to be invalid merely by reason of any vacancy in, or defect
-in the constitution of the body of the Trustees.
-
-(5) In the case of ex officio Trustees the person for the time being performing the duties of any of the
-offices mentioned in sub-section (1) shall act as a Trustee.
-
-(6) The Trustees may appoint a person to act as their Secretary.
-
-(7) Orders for the payment of money on behalf of the Trustees shall be deemed to be sufficiently
-authenticated if signed by two Trustees and countersigned by the Secretary.`)
-  (str footnotes) (str `1. Subs. by Act 32 of 1981, s. 2, for sub-section (1).
-
-2. Subs. by Act 25 of 1943, s. 2, for sub-section (3) (with retrospective effect).
-
-3. Ins. by Act 32 of 1981, s. 2.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34911&sectionno=2&orderno=2&orgactid=AC_CEN_27_0_00012_190310_1523339874358)
+  sectionId (34911)
+  sectionNo (2)
+  orderNo 2
+  title Trustees.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34911&sectionno=2&orderno=2&orgactid=AC_CEN_27_0_00012_190310_1523339874358
+obj_root_law_sections_2_content:
+  string
+  line `^1[(1) The Trustees of the Victoria Memorial (hereinafter called the Trustees) shall be`
+  line `the following, namely:--`
+  line
+  line `(a) the Government of West Bengal, ex officio, Chairman ;`
+  line
+  line `(b) the Chief Justice of the High Court of West Bengal, ex officio ;`
+  line
+  line `(c) three persons to be nominated by the Central Government, one of whom shall be a`
+  line `representative of commerce and industry, chosen in consultation with the State Government of West`
+  line `Bengal and two others chosen from among persons who, in the opinion of the Central Government,`
+  line `have expert knowledge of the exhibits in the Victoria Memorial or are museologists, historians or art`
+  line historians;
+  line
+  line `(d) a representative of the Central Government in the Ministry concerned with matters relating to`
+  line `the Victoria Memorial, ex officio;`
+  line
+  line `(e) a representative of the Central Government in the Ministry of Finance, Department of`
+  line `Expenditure, concerned with matters relating to the Victoria Memorial, ex officio;`
+  line
+  line `(f) the Mayor of the Corporation of Calcutta and where the Corporation of Calcutta is superseded,`
+  line `the Administrator of that Corporation, ex officio;`
+  line
+  line `(g) an officer, not below the rank of the Accountant General, nominated by the Comptroller and`
+  line `Auditor General of India, ex officio;`
+  line
+  line `(h) the Secretary to the Government of West Bengal in the Department of Education, ex officio;`
+  line
+  line `(i) four persons (of whom one at least shall he from the general body of subscribers), to be`
+  line `nominated by the Trustees from among persons, who, in the opinion of the Trustees from among`
+  line `persons, who, in the opinion of the Victoria Memorial or are museologists, historians or art historians,`
+  line `with the approval of the Central Government.]`
+  line
+  line `(2) The Trustees shall be a body corporate, with perpetual succession by the name of "The Trustees of`
+  line `the Victoria Memorial" and a common seal, and in that name shall sue and be sued, and shall have power`
+  line `to acquire and hold property to enter into contracts, and to do all acts necessary for and consistent, with`
+  line `the purposes of this Act.`
+  line
+  line `^2[(3) All acts done by a majority by those present and voting at a meeting of the Trustees, and all acts`
+  line `done in pursuance of a majority decision of the Trustees obtained by circulation to the Trustees of the`
+  line `matter requiring decision, shall be deemed to be acts of the Trustees.]`
+  line
+  line `^3[(3A) If any of the Trustees referred to in clauses (b), (d), (e), (f), (g) and (h) of sub-section (1) is`
+  line `unable to attend any meeting of the Trustees, he may, with the previous approval of the Chairman,`
+  line `authorise in writing a person to do so.]`
+  line
+  line `(4) No act of the Trustees shall be, deemed to be invalid merely by reason of any vacancy in, or defect`
+  line `in the constitution of the body of the Trustees.`
+  line
+  line `(5) In the case of ex officio Trustees the person for the time being performing the duties of any of the`
+  line `offices mentioned in sub-section (1) shall act as a Trustee.`
+  line
+  line `(6) The Trustees may appoint a person to act as their Secretary.`
+  line
+  line `(7) Orders for the payment of money on behalf of the Trustees shall be deemed to be sufficiently`
+  line `authenticated if signed by two Trustees and countersigned by the Secretary.`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. Subs. by Act 32 of 1981, s. 2, for sub-section (1).`
+  line
+  line `2. Subs. by Act 25 of 1943, s. 2, for sub-section (3) (with retrospective effect).`
+  line
+  line `3. Ins. by Act 32 of 1981, s. 2.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 34912)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Property vested in Trustees.`)
-  (str content) (str `All sums of money now in the custody of the said Provisional
-Executive Committee and all other property, whether movable or immovable, which have been or may
-hereafter be given, bequeathed or otherwise transferred for the purposes of the said Memorial or acquired
-for the said purposes by the Trustees shall vest in the Trustees.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34912&sectionno=3&orderno=3&orgactid=AC_CEN_27_0_00012_190310_1523339874358)
+  sectionId (34912)
+  sectionNo (3)
+  orderNo 3
+  title `Property vested in Trustees.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34912&sectionno=3&orderno=3&orgactid=AC_CEN_27_0_00012_190310_1523339874358
+obj_root_law_sections_3_content:
+  string
+  line `All sums of money now in the custody of the said Provisional`
+  line `Executive Committee and all other property, whether movable or immovable, which have been or may`
+  line `hereafter be given, bequeathed or otherwise transferred for the purposes of the said Memorial or acquired`
+  line `for the said purposes by the Trustees shall vest in the Trustees.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 34913)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Officers and servants to be public servants.`)
-  (str content) (str `All Officers and servants employed by the Trustees
-shall be deemed to be public servants within the meaning of the Indian Penal Code (45 of 1860):
-
-Provided that this section shall not apply to persons in the service of any contractor employed by the
-Trustees.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34913&sectionno=4&orderno=4&orgactid=AC_CEN_27_0_00012_190310_1523339874358)
+  sectionId (34913)
+  sectionNo (4)
+  orderNo 4
+  title `Officers and servants to be public servants.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34913&sectionno=4&orderno=4&orgactid=AC_CEN_27_0_00012_190310_1523339874358
+obj_root_law_sections_4_content:
+  string
+  line `All Officers and servants employed by the Trustees`
+  line `shall be deemed to be public servants within the meaning of the Indian Penal Code (45 of 1860):`
+  line
+  line `Provided that this section shall not apply to persons in the service of any contractor employed by the`
+  line Trustees.
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 34914)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str Rules.)
-  (str content) (str `(1) The Central Government ^1[by notification in the Official Gazette,] may make rules to
-carry out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide--
-
-(a) for the manner in which Trustees, other than ex officio Trustees, shall be appointed, and for the
-periods of time for which such Trustees shall hold office;
-
-(b) for the manner in which meetings of the Trustees shall be convened, the quorum necessary for
-the transaction of business, and the procedure at such meetings;
-
-^2[(bb) for the manner in which a majority decision of the Trustees shall be obtained by circulation
-to the Trustees of the matter requiring decision;]
-
-(c) for the appointment of Committees of the Trustees, and the powers of expenditure and control
-which may be delegated to such Committees;
-
-(d) for the erection, maintenance .and management of the Memorial, the care and custody of the
-objects deposited therein, and the conditions under which the public shall have access thereto;
-
-^3[(da) for the fees to be levied for admission to the Victoria Memorial;]
-
-(e) for the form of accounts to be kept by the Trustees, and for the audit and publication of such
-accounts. ^4***
-
-^5** * * *
-
-^6[(3) Every rule made by the Central Government under this section shall be laid, as soon as may be
-after it is made, before each House of Parliament, while it is in session, for a total period of thirty days
-which may be comprised in one session or in two or more successive sessions, and if, before the expiry of
-the session immediately following the session or the successive sessions aforesaid, both Houses agree in
-making any modification in the rule or both Houses agree that the rule should not be made, the rule shall
-thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that
-any such modification or annulment shall be without prejudice to the validity of anything previously done
-under that rule.`)
-  (str footnotes) (str `1. Ins. by Act 32 of 1981, s. 2.
-
-2. Ins. by Act 25 of 1943. s. 3.
-
-3. Ins. by Act 32 of 1981. s. 3.
-
-4. The word "and" omitted by s. 3 ibid.
-
-5. Clause (f) omitted by s. 3 ibid.
-
-6. Ins. by Act 32 of 1981, s. 3.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34914&sectionno=5&orderno=5&orgactid=AC_CEN_27_0_00012_190310_1523339874358)
+  sectionId (34914)
+  sectionNo (5)
+  orderNo 5
+  title Rules.
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34914&sectionno=5&orderno=5&orgactid=AC_CEN_27_0_00012_190310_1523339874358
+obj_root_law_sections_5_content:
+  string
+  line `(1) The Central Government ^1[by notification in the Official Gazette,] may make rules to`
+  line `carry out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line provide--
+  line
+  line `(a) for the manner in which Trustees, other than ex officio Trustees, shall be appointed, and for the`
+  line `periods of time for which such Trustees shall hold office;`
+  line
+  line `(b) for the manner in which meetings of the Trustees shall be convened, the quorum necessary for`
+  line `the transaction of business, and the procedure at such meetings;`
+  line
+  line `^2[(bb) for the manner in which a majority decision of the Trustees shall be obtained by circulation`
+  line `to the Trustees of the matter requiring decision;]`
+  line
+  line `(c) for the appointment of Committees of the Trustees, and the powers of expenditure and control`
+  line `which may be delegated to such Committees;`
+  line
+  line `(d) for the erection, maintenance .and management of the Memorial, the care and custody of the`
+  line `objects deposited therein, and the conditions under which the public shall have access thereto;`
+  line
+  line `^3[(da) for the fees to be levied for admission to the Victoria Memorial;]`
+  line
+  line `(e) for the form of accounts to be kept by the Trustees, and for the audit and publication of such`
+  line `accounts. ^4***`
+  line
+  line `^5** * * *`
+  line
+  line `^6[(3) Every rule made by the Central Government under this section shall be laid, as soon as may be`
+  line `after it is made, before each House of Parliament, while it is in session, for a total period of thirty days`
+  line `which may be comprised in one session or in two or more successive sessions, and if, before the expiry of`
+  line `the session immediately following the session or the successive sessions aforesaid, both Houses agree in`
+  line `making any modification in the rule or both Houses agree that the rule should not be made, the rule shall`
+  line `thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that`
+  line `any such modification or annulment shall be without prejudice to the validity of anything previously done`
+  line `under that rule.`
+obj_root_law_sections_5_footnotes:
+  string
+  line `1. Ins. by Act 32 of 1981, s. 2.`
+  line
+  line `2. Ins. by Act 25 of 1943. s. 3.`
+  line
+  line `3. Ins. by Act 32 of 1981. s. 3.`
+  line
+  line `4. The word "and" omitted by s. 3 ibid.`
+  line
+  line `5. Clause (f) omitted by s. 3 ibid.`
+  line
+  line `6. Ins. by Act 32 of 1981, s. 3.`
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 34915)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Power of Trustees to make regulations.`)
-  (str content) (str `^1[6. Power of Trustees to make regulations.--(1) The Trustees may, with the previous approval of
-the Central Government, by notification in the Official Gazette, make regulations, not inconsistent with
-this Act and the rules made thereunder, for enabling the body to discharge its functions under this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may
-provide for all or any of the following matters, namely:--
-
-(a) the conditions and restrictions subject to which articles and things vested in the Trustees may be
-given on loan;
-
-(b) the recruitment and conditions of service of the employees of the Victoria Memorial.
-
-(3) Every regulation shall, as soon as may be, after it is made by the Trustees, be forwarded to the
-Central Government and that Government shall cause a copy of the same to be laid before each House of
-Parliament, while it is in session for a total period of thirty days, which may be comprised in one session
-or in two or more successive sessions, and if, before the expiry of the session immediately following the
-session or the successive sessions aforesaid, both Houses agree in making any modification in the
-regulation or both Houses agree that the regulation should not be made, the regulation shall thereafter
-have effect only in such modified form or be of no effect, as the case may be; so, however that any such
-modification or annulment shall be without prejudice to the validity of anything previously done under
-that regulation.]`)
-  (str footnotes) (str `1. Ins. by s. 4,ibid.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34915&sectionno=6&orderno=6&orgactid=AC_CEN_27_0_00012_190310_1523339874358)
+  sectionId (34915)
+  sectionNo (6)
+  orderNo 6
+  title `Power of Trustees to make regulations.`
+  content obj_root_law_sections_6_content
+  footnotes `1. Ins. by s. 4,ibid.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_0_00012_190310_1523339874358&sectionId=34915&sectionno=6&orderno=6&orgactid=AC_CEN_27_0_00012_190310_1523339874358
+obj_root_law_sections_6_content:
+  string
+  line `^1[6. Power of Trustees to make regulations.--(1) The Trustees may, with the previous approval of`
+  line `the Central Government, by notification in the Official Gazette, make regulations, not inconsistent with`
+  line `this Act and the rules made thereunder, for enabling the body to discharge its functions under this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the conditions and restrictions subject to which articles and things vested in the Trustees may be`
+  line `given on loan;`
+  line
+  line `(b) the recruitment and conditions of service of the employees of the Victoria Memorial.`
+  line
+  line `(3) Every regulation shall, as soon as may be, after it is made by the Trustees, be forwarded to the`
+  line `Central Government and that Government shall cause a copy of the same to be laid before each House of`
+  line `Parliament, while it is in session for a total period of thirty days, which may be comprised in one session`
+  line `or in two or more successive sessions, and if, before the expiry of the session immediately following the`
+  line `session or the successive sessions aforesaid, both Houses agree in making any modification in the`
+  line `regulation or both Houses agree that the regulation should not be made, the regulation shall thereafter`
+  line `have effect only in such modified form or be of no effect, as the case may be; so, however that any such`
+  line `modification or annulment shall be without prejudice to the validity of anything previously done under`
+  line `that regulation.]`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `विक्‍टोरिया स्‍मारक अधिनियम, 1903`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2336/3/H1903-10.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:18:26.318Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `विक्‍टोरिया स्‍मारक अधिनियम, 1903`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2336/3/H1903-10.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:18:26.318Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `विक्टो रियास्मा िक अविवियम, 19 0 3
-( 19 03 काअविवियमसंखयां क 10 )
-[2 0 मार्च, 19 03 ]
-कलकत्तामेंविक्टो रियास्मा िककेविमाचणतथा प्र
-बन्ि के उपबन्ि केवलए
-अविवियम ग्रे
-टविटेितथाआयिलैण्ड केयूिाइटेडककंगडमकीिािी, भाितकीमहािािीस्ि गीयहिमजे स् टी विक्टो रियाकेजीिितथा
-शासिकेस्मा िककेरूपमेंकलकत्तामेंएकभििकेविमाचणकििेकाविर्ािहैतथाइसप्रयोजिकेवलएभाितकेिाजाओंतथालोगों
-िेबड़ीमात्रामेंिििावशयोंकाअवभदािककयाहै;
-औिकलकत्तेमेंहुईअवभदाताओंकीबैठकमेंकवतपयव्य वक्त योंकोअिंवतमकायचपावलकासवमवतकेरूपमेंउक्त ििकी
-अवभिक्षाकेवलएवियुक्त ककयागयाथा;
-औिस्मा िककेविमाचण, अिुिक्षणतथाप्रबन्ि केवलएतथान्या वसयोंकेस्था यी विकायकीवियुवक्त केवलएउपबन्ि कििा
-समीर्ीिहै;
-अत: एतद द्व ािा विम्ि वलवित रू पमेंयहअविवियवमतककयाजाताहै: —
-1. संवक्षप्त िाम — ( 1 )इसअविवियमकासंवक्षप्त िामविक्टो रियास्मा िकअविवियम, 1903 है 1 ***
-1 * * * * *
-2. न् या सी — 2 [ ( 1 )विक्टो रियास्मा िककेन्या सी(वजन्हें इसमेंइसकेपश्र्ा त न्या सीकहागयाहै)विम्ि वलवितहोंगे,
-अथाचत: —
-(क)पवश्र् मीबंगालकािाज्य पाल, पदेिअध्य क्ष;
-(ि)पवश्र् मीबंगाल उच्र् न् या यालयकामुखय न् या यमूर्तच, पदेि;
-(ग)केन्री यसिकािद्वािािामविदेवशतककएजािेिालेतीिव्य वक्त वजिमेंसेएकपवश्र् मीबंगाल िाज्य सिकाि
-केपिामशचसेर्ुिागयािावणज्य औिउद्योगकाप्रवतविविहोगाऔिअन्य दोव्य वक्त योंमेंसेर्ुिेगएव्य वक्त होंगेवजन्हें
-केन्री यसिकािकीिायमें, विक्टो रियास्मा िककेप्रदशोंकीविशेषज्ञीयजािकािीहैयातोसंग्रहालयकाि, इवतहासकािया
-कला - इवतहासकािहैं;
-(घ)केन्री यसिकािकाएकप्रवतविवि, पदेि, जोविक्टो रियास्मा िकसेसम्ब वन्ि तविषयोंसेसम्ब द्ध मंत्रालयका
-हो;
-(ङ) केन्री यसिकािकाएकप्रवतविवि, पदेि, जोविक्टो रियास्मा िकसेसम्ब वन्ि तविषयोंसेसम्ब द्ध वित्तमंत्राल य
-केव्य यविभागकाहो;
-(र्)कलकत्तािगिविगमकामहापौिऔिजबकलकत्तािगिविगमअवतवठ तहोतबउसविगमकाप्रशासक,
-पदेि;
-(छ)भाितकेवियंत्रकऔिमहालेिापिीक्षकद्वािािामविदेवशतएकअविकािीजोमहालेिाकािकीपंवक्त से
-िीर्ेकािहो, पदेि;
-(ज)पवश्र् मी बंगालसिकािकेवशक्षाविभागकासवर्ि, पदेि;
-(झ)केन्री यसिकािकेअिुमोदिसेन्या वसयोंद्वािाउिव्य वक्त योंमेंसेिामविदेवशतककएजािेिालेऐसेर्ाि व्
-य वक्त (वजिमेंसेकमसेकमएकअवभदाताओंकेसािािणविकायमेंसेहोगा)वजन्हें न् या वसयोंकीिाय में, विक्टो रिया स्
-मा िककेप्रदेशोंकीविशेषज्ञीयजािकािीहैयाजोसंग्रहालयकाि, इवतहासकाियाकला - इवतहासकािहै। ]
-( 2 ) “ विक्टो रियास्मा िककेन्या सी ” केिामसेशाश्ि तउत्तिाविकाितथासामान्य मुरािालान्या वसयोंकाएकविगवमत
-विकायहोगाऔिउसिामसे िहिादलाएगाऔिउसपििादलायाजाएगाऔिउसेसम्प वत्तकाअजचिकििेतथाउसेिािणकििे,
-संविदाकििेतथाइसअविवियमकेप्रयोजिोंकेवलएआिश्य कतथाउिसेसुसंगतसभीकायचकििेकीशवक्त होगी।
-1 1914 केअविवियम सं ० 10 कीिािा 3 तथाअिुसूर्ी 2 द्व ािा “ औि ” शब्द तथाउपिािा( 2 )वििवसत।
-2 1981 केअविवियमसं ० 32 कीिािा 2 द्व ािा उपिािा( 1 )केस्था िपिप्रवतस्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `विक्टो रियास्मा िक अविवियम, 19 0 3`
+  line `( 19 03 काअविवियमसंखयां क 10 )`
+  line `[2 0 मार्च, 19 03 ]`
+  line `कलकत्तामेंविक्टो रियास्मा िककेविमाचणतथा प्र`
+  line `बन्ि के उपबन्ि केवलए`
+  line `अविवियम ग्रे`
+  line `टविटेितथाआयिलैण्ड केयूिाइटेडककंगडमकीिािी, भाितकीमहािािीस्ि गीयहिमजे स् टी विक्टो रियाकेजीिितथा`
+  line `शासिकेस्मा िककेरूपमेंकलकत्तामेंएकभििकेविमाचणकििेकाविर्ािहैतथाइसप्रयोजिकेवलएभाितकेिाजाओंतथालोगों`
+  line िेबड़ीमात्रामेंिििावशयोंकाअवभदािककयाहै;
+  line `औिकलकत्तेमेंहुईअवभदाताओंकीबैठकमेंकवतपयव्य वक्त योंकोअिंवतमकायचपावलकासवमवतकेरूपमेंउक्त ििकी`
+  line `अवभिक्षाकेवलएवियुक्त ककयागयाथा;`
+  line `औिस्मा िककेविमाचण, अिुिक्षणतथाप्रबन्ि केवलएतथान्या वसयोंकेस्था यी विकायकीवियुवक्त केवलएउपबन्ि कििा`
+  line समीर्ीिहै;
+  line `अत: एतद द्व ािा विम्ि वलवित रू पमेंयहअविवियवमतककयाजाताहै: —`
+  line `1. संवक्षप्त िाम — ( 1 )इसअविवियमकासंवक्षप्त िामविक्टो रियास्मा िकअविवियम, 1903 है 1 ***`
+  line `1 * * * * *`
+  line `2. न् या सी — 2 [ ( 1 )विक्टो रियास्मा िककेन्या सी(वजन्हें इसमेंइसकेपश्र्ा त न्या सीकहागयाहै)विम्ि वलवितहोंगे,`
+  line `अथाचत: —`
+  line `(क)पवश्र् मीबंगालकािाज्य पाल, पदेिअध्य क्ष;`
+  line `(ि)पवश्र् मीबंगाल उच्र् न् या यालयकामुखय न् या यमूर्तच, पदेि;`
+  line `(ग)केन्री यसिकािद्वािािामविदेवशतककएजािेिालेतीिव्य वक्त वजिमेंसेएकपवश्र् मीबंगाल िाज्य सिकाि`
+  line `केपिामशचसेर्ुिागयािावणज्य औिउद्योगकाप्रवतविविहोगाऔिअन्य दोव्य वक्त योंमेंसेर्ुिेगएव्य वक्त होंगेवजन्हें`
+  line `केन्री यसिकािकीिायमें, विक्टो रियास्मा िककेप्रदशोंकीविशेषज्ञीयजािकािीहैयातोसंग्रहालयकाि, इवतहासकािया`
+  line `कला - इवतहासकािहैं;`
+  line `(घ)केन्री यसिकािकाएकप्रवतविवि, पदेि, जोविक्टो रियास्मा िकसेसम्ब वन्ि तविषयोंसेसम्ब द्ध मंत्रालयका`
+  line हो;
+  line `(ङ) केन्री यसिकािकाएकप्रवतविवि, पदेि, जोविक्टो रियास्मा िकसेसम्ब वन्ि तविषयोंसेसम्ब द्ध वित्तमंत्राल य`
+  line `केव्य यविभागकाहो;`
+  line `(र्)कलकत्तािगिविगमकामहापौिऔिजबकलकत्तािगिविगमअवतवठ तहोतबउसविगमकाप्रशासक,`
+  line पदेि;
+  line `(छ)भाितकेवियंत्रकऔिमहालेिापिीक्षकद्वािािामविदेवशतएकअविकािीजोमहालेिाकािकीपंवक्त से`
+  line `िीर्ेकािहो, पदेि;`
+  line `(ज)पवश्र् मी बंगालसिकािकेवशक्षाविभागकासवर्ि, पदेि;`
+  line `(झ)केन्री यसिकािकेअिुमोदिसेन्या वसयोंद्वािाउिव्य वक्त योंमेंसेिामविदेवशतककएजािेिालेऐसेर्ाि व्`
+  line `य वक्त (वजिमेंसेकमसेकमएकअवभदाताओंकेसािािणविकायमेंसेहोगा)वजन्हें न् या वसयोंकीिाय में, विक्टो रिया स्`
+  line `मा िककेप्रदेशोंकीविशेषज्ञीयजािकािीहैयाजोसंग्रहालयकाि, इवतहासकाियाकला - इवतहासकािहै। ]`
+  line `( 2 ) “ विक्टो रियास्मा िककेन्या सी ” केिामसेशाश्ि तउत्तिाविकाितथासामान्य मुरािालान्या वसयोंकाएकविगवमत`
+  line `विकायहोगाऔिउसिामसे िहिादलाएगाऔिउसपििादलायाजाएगाऔिउसेसम्प वत्तकाअजचिकििेतथाउसेिािणकििे,`
+  line `संविदाकििेतथाइसअविवियमकेप्रयोजिोंकेवलएआिश्य कतथाउिसेसुसंगतसभीकायचकििेकीशवक्त होगी।`
+  line `1 1914 केअविवियम सं ० 10 कीिािा 3 तथाअिुसूर्ी 2 द्व ािा “ औि ” शब्द तथाउपिािा( 2 )वििवसत।`
+  line `2 1981 केअविवियमसं ० 32 कीिािा 2 द्व ािा उपिािा( 1 )केस्था िपिप्रवतस्था वपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-1 [ ( 3 ) न् या वसयोंकीबैठकमेंउपवस्थ त तथामतदेिेिालोंकेबहुमत सेककएगएसभीकायचतथावजसपिविविश्र् यकी
-अपेक्षाहैऐसीककसीबातपिन्या वसयोंकोपरिर्ालिद्वािान्या वसयोंकेबहुमतसेप्राप्त विविश्र् यकेअिुसिणमेंककएगएसभीकायच न्
-या वसयोंकेकायचसमझेजाएंगे। ]
-2 [ ( 3 क)यकदउपिािा( 1 )केिंड(ि), (घ), (ङ), (र् ), (छ)औि(ज)मेंविर्दचट न् या वसयोंमेंसेकोईन्या सीन्या वसयोंकी
-ककसीबैठकमेंहावजिहोिेमेंअसमथचहैतोिहअध्य क्ष केपूिचअिुमोदिसे, ककसीव्य वक्त कोहावजिहोिेकेवलएवलवितरूपमें प्र
-ाविकृतकिसकेगा। ]
-( 4 )न्या वसयोंकाकोईभीकायच, केि लइसकािणककन्या वसयोंकेविकायमेंकोईरिवक्त याउसकेगठिमेंकोईत्रुरटथी,
-अविविमान्य िहींसमझाजाएगा।
-( 5 )पदेिन्या वसयोंकीदशामें, उपिािा( 1 )मेंिर्णचतपदोंमेंसेककसीकेकतचव्यों कातत्स मयपालिकििेिालाव्य वक्त न्
-या सीकेरूपमेंकायच किेगा।
-( 6 )न्या सीअपिेसवर्िकेरूपमेंकायचकििेकेवलएककसीव्य वक्त कोवियुक्त किसकतेहैं।
-( 7 )न्या वसयोंकीओिसेििकेसंदायकेआदेशपयाचप्त रू पसेअविप्रमावणतसमझेजाएंगेयकदिेदोन्या वसयोंद्वािा
-हस्ता क्ष रिततथासवर्िद्वािाप्रवतहस्ता क्ष रितहों।
-3. न् या वसयोंमेंविवहतसंपवत्त — उक्त अ िवन्त म कायचपावलकासवमवतकीअवभिक्षामेंअभीििीहुईसभीिििावशयांतथा
-सभीअन्य संपवत्त, र् ाहेस्था ििहोयाजंगम, जोदीगईहैयाइसकेपश्र्ा तदीजाए, यावजसकीउक्त स् मा िककेप्रयोजिोंकेवलए
-िसीय तकीजाएयाजोअन्य थाअंतरितकीजाएंयान्या वसयोंद्वािाउक्त प्र योजिोंकेवलएअर्जचतकीजाएं, न् या वसयोंमेंविवहत
-होंगी।
-4. अविकािीतथासेिकोंकालोकसेिकहोिा — न् या वसयोंद्वािावियोवजतसभीअविकािीतथासेिकभाितीयदण्ड संवहता
-( 1860 का 45 )केअथचमेलोकसेिकसमझेजाएंगे:
-पिन्तु यहिािान्या वसयोंद्वािावियोवजतककसीठेकेदािकीसेिाकेव्य वक्त योंकोलागूिहींहोगी।
-5. वियम — ( 1 )केन्री यसिकाि 3 [ िाजपत्रमेंअविसूर्िाद्वािा ] इसअविवियमकेप्रयोजिोंकोकायाचवन्ि तकििेके वलए
-वियमबिासकतीहै।
-( 2 )विवशट तयातथापूिचगामीशवक्त कीव्या पकतापिप्रवतकूलप्रभािडालेवबिा, ऐसेवियमोंमेंविम्ि वलवितकेवलए
-उपबंिककएजासकतेहैं: —
-(क)िहिीवतवजसमेंपदेिन्या वसयोंसेवभन्ि न् या वसयोंकीवियुवक्त कीजाएगी औििेकालािवि यांजबतकऐसे न्
-या सीपदिािणकिेंगे;
-(ि)िहिीवतवजसमेंन्या वसयोंकीबैठकेंबुलाईजाएंगी, कािबािकेसंव्य िहािकेवलएआिश्य कगणपूर्तचतथा
-ऐसीबैठकोंकीप्रकिया;
-4 [ (िि)िहिीवतवजसमेंउसविषयपिवजसपिविविश्र् यअपेवक्षतहैपरिर्ालिद्वािान्या वस योंकेबहुमतके
-आिािपिविविश्र् यप्राप्त ककयाजाएगा; ]
-(ग)न्या सीसवमवतयोंकीवियुवक्त तथाव्य यऔिवियंत्रणकीशवक्त यां, जोउन्हें प्रत् या योवजतकीजासकतीहैं;
-(घ)स्मा िककाविमाचण, अिुिक्षणतथाप्रबन्ि, उसमेंविक्षेपकीगईिस्तु ओं कीदेिभाल तथाअवभिक्षातथािे
-शतेंवजिपिजिसािािणकीउििस्तु ओं तकपहुंर्होगी;
-2 [ (घक) विक्टो रियास्मा िकमेंप्रिेशकेवलए उद गृ ह ीीतकीजािेिालीफीस; ]
-(ङ)न्या वसयोंद्वािाििेजािेिालेलेिाओंकेप्ररूपतथाउिकीलेिापिीक्षाऔिप्रकाशि; 5 ***
-5 * * * * *
-3 [ ( 3 )इसिािाकेअिीिकेन्री यसिकािद्वािाबिायागयाप्रत्ये क वियम बिाएजािेकेपश्र्ा त, यथाशीघ्र, संसदकेप्रत्ये क
-सदिकेसमक्ष, जबिहसत्रमेंहो, कुलतीसकदिकीअिविकेवलएििाजाएगा।यहअिविएकसत्रमेंअथिादोयाअविक
-आिुिवमकसत्रों मेंपूिीहोसकेगी।यकदउससत्रकेयापूिोक्त आिुिवमकसत्रोंकेठीकबादकेसत्रकेअिसािकेपूिचदोिोंसदिउस
-वियममेंकोईपरिितचिकििेकेवलएसहमतहोजाएं, तोतत्प श्र् ा तिहऐसेपरििर्तचतरूपमेंहीप्रभािीहोगा।यकदउक्त अिसाि
-1 1943 केअविवियमसं ० 25 कीिािा 2 द्व ािा(भूतलक्षीप्रभािसे)उपिािा( 3 )केस्था िपिप्रवतस्था वपत।
-2 1981 केअविवियमसं ० 32 कीिािा 2 द्व ािाअन्त:स्था वपत।
-3 1981 केअविवियमसं ० 32 कीिािा 3 द्व ािाअंत:स्था वपत।
-4 1943 केअविवियमसं ० 25 कीिािा 3 द्व ािाअंत:स्था वपत।
-5 1981 केअविवियमसं ० 32 कीिािा 3 द्व ािा “ औि ” शब्द औििण्ड (र्)कालोपककयागया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `1 [ ( 3 ) न् या वसयोंकीबैठकमेंउपवस्थ त तथामतदेिेिालोंकेबहुमत सेककएगएसभीकायचतथावजसपिविविश्र् यकी`
+  line `अपेक्षाहैऐसीककसीबातपिन्या वसयोंकोपरिर्ालिद्वािान्या वसयोंकेबहुमतसेप्राप्त विविश्र् यकेअिुसिणमेंककएगएसभीकायच न्`
+  line `या वसयोंकेकायचसमझेजाएंगे। ]`
+  line `2 [ ( 3 क)यकदउपिािा( 1 )केिंड(ि), (घ), (ङ), (र् ), (छ)औि(ज)मेंविर्दचट न् या वसयोंमेंसेकोईन्या सीन्या वसयोंकी`
+  line `ककसीबैठकमेंहावजिहोिेमेंअसमथचहैतोिहअध्य क्ष केपूिचअिुमोदिसे, ककसीव्य वक्त कोहावजिहोिेकेवलएवलवितरूपमें प्र`
+  line `ाविकृतकिसकेगा। ]`
+  line `( 4 )न्या वसयोंकाकोईभीकायच, केि लइसकािणककन्या वसयोंकेविकायमेंकोईरिवक्त याउसकेगठिमेंकोईत्रुरटथी,`
+  line `अविविमान्य िहींसमझाजाएगा।`
+  line `( 5 )पदेिन्या वसयोंकीदशामें, उपिािा( 1 )मेंिर्णचतपदोंमेंसेककसीकेकतचव्यों कातत्स मयपालिकििेिालाव्य वक्त न्`
+  line `या सीकेरूपमेंकायच किेगा।`
+  line `( 6 )न्या सीअपिेसवर्िकेरूपमेंकायचकििेकेवलएककसीव्य वक्त कोवियुक्त किसकतेहैं।`
+  line `( 7 )न्या वसयोंकीओिसेििकेसंदायकेआदेशपयाचप्त रू पसेअविप्रमावणतसमझेजाएंगेयकदिेदोन्या वसयोंद्वािा`
+  line `हस्ता क्ष रिततथासवर्िद्वािाप्रवतहस्ता क्ष रितहों।`
+  line `3. न् या वसयोंमेंविवहतसंपवत्त — उक्त अ िवन्त म कायचपावलकासवमवतकीअवभिक्षामेंअभीििीहुईसभीिििावशयांतथा`
+  line `सभीअन्य संपवत्त, र् ाहेस्था ििहोयाजंगम, जोदीगईहैयाइसकेपश्र्ा तदीजाए, यावजसकीउक्त स् मा िककेप्रयोजिोंकेवलए`
+  line `िसीय तकीजाएयाजोअन्य थाअंतरितकीजाएंयान्या वसयोंद्वािाउक्त प्र योजिोंकेवलएअर्जचतकीजाएं, न् या वसयोंमेंविवहत`
+  line होंगी।
+  line `4. अविकािीतथासेिकोंकालोकसेिकहोिा — न् या वसयोंद्वािावियोवजतसभीअविकािीतथासेिकभाितीयदण्ड संवहता`
+  line `( 1860 का 45 )केअथचमेलोकसेिकसमझेजाएंगे:`
+  line `पिन्तु यहिािान्या वसयोंद्वािावियोवजतककसीठेकेदािकीसेिाकेव्य वक्त योंकोलागूिहींहोगी।`
+  line `5. वियम — ( 1 )केन्री यसिकाि 3 [ िाजपत्रमेंअविसूर्िाद्वािा ] इसअविवियमकेप्रयोजिोंकोकायाचवन्ि तकििेके वलए`
+  line वियमबिासकतीहै।
+  line `( 2 )विवशट तयातथापूिचगामीशवक्त कीव्या पकतापिप्रवतकूलप्रभािडालेवबिा, ऐसेवियमोंमेंविम्ि वलवितकेवलए`
+  line `उपबंिककएजासकतेहैं: —`
+  line `(क)िहिीवतवजसमेंपदेिन्या वसयोंसेवभन्ि न् या वसयोंकीवियुवक्त कीजाएगी औििेकालािवि यांजबतकऐसे न्`
+  line `या सीपदिािणकिेंगे;`
+  line `(ि)िहिीवतवजसमेंन्या वसयोंकीबैठकेंबुलाईजाएंगी, कािबािकेसंव्य िहािकेवलएआिश्य कगणपूर्तचतथा`
+  line ऐसीबैठकोंकीप्रकिया;
+  line `4 [ (िि)िहिीवतवजसमेंउसविषयपिवजसपिविविश्र् यअपेवक्षतहैपरिर्ालिद्वािान्या वस योंकेबहुमतके`
+  line `आिािपिविविश्र् यप्राप्त ककयाजाएगा; ]`
+  line `(ग)न्या सीसवमवतयोंकीवियुवक्त तथाव्य यऔिवियंत्रणकीशवक्त यां, जोउन्हें प्रत् या योवजतकीजासकतीहैं;`
+  line `(घ)स्मा िककाविमाचण, अिुिक्षणतथाप्रबन्ि, उसमेंविक्षेपकीगईिस्तु ओं कीदेिभाल तथाअवभिक्षातथािे`
+  line `शतेंवजिपिजिसािािणकीउििस्तु ओं तकपहुंर्होगी;`
+  line `2 [ (घक) विक्टो रियास्मा िकमेंप्रिेशकेवलए उद गृ ह ीीतकीजािेिालीफीस; ]`
+  line `(ङ)न्या वसयोंद्वािाििेजािेिालेलेिाओंकेप्ररूपतथाउिकीलेिापिीक्षाऔिप्रकाशि; 5 ***`
+  line `5 * * * * *`
+  line `3 [ ( 3 )इसिािाकेअिीिकेन्री यसिकािद्वािाबिायागयाप्रत्ये क वियम बिाएजािेकेपश्र्ा त, यथाशीघ्र, संसदकेप्रत्ये क`
+  line `सदिकेसमक्ष, जबिहसत्रमेंहो, कुलतीसकदिकीअिविकेवलएििाजाएगा।यहअिविएकसत्रमेंअथिादोयाअविक`
+  line `आिुिवमकसत्रों मेंपूिीहोसकेगी।यकदउससत्रकेयापूिोक्त आिुिवमकसत्रोंकेठीकबादकेसत्रकेअिसािकेपूिचदोिोंसदिउस`
+  line `वियममेंकोईपरिितचिकििेकेवलएसहमतहोजाएं, तोतत्प श्र् ा तिहऐसेपरििर्तचतरूपमेंहीप्रभािीहोगा।यकदउक्त अिसाि`
+  line `1 1943 केअविवियमसं ० 25 कीिािा 2 द्व ािा(भूतलक्षीप्रभािसे)उपिािा( 3 )केस्था िपिप्रवतस्था वपत।`
+  line `2 1981 केअविवियमसं ० 32 कीिािा 2 द्व ािाअन्त:स्था वपत।`
+  line `3 1981 केअविवियमसं ० 32 कीिािा 3 द्व ािाअंत:स्था वपत।`
+  line `4 1943 केअविवियमसं ० 25 कीिािा 3 द्व ािाअंत:स्था वपत।`
+  line `5 1981 केअविवियमसं ० 32 कीिािा 3 द्व ािा “ औि ” शब्द औििण्ड (र्)कालोपककयागया।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-केपूिचदोिोंस दिसहमतहोजाएं ककिहवियमिहींबिायाजािार्ावहए, तोतत्प श्र् ा तिहविप्र भािहोजाएगा।ककन्तु वियमके
-ऐसेपरििर्तचतयाविप्र भािहोिेसेउसकेअिीिपहले कीगईककसीबातकीविविमान्य तापिप्रवतकूलप्रभाििहीं
-पड़ेगा। ]
-1 [ 6. न् या वसयों कीविविय म बिािेकीशवक्त — ( 1 )न्या सी, केन्री यसिकािकेपूिचअिुमोदिसे, िाजपत्रमेंअविसूर्िाद्वािा,
-इसअविवियमकेअिीिविकायकोअपिेकतचव्यों कावििचहिकििेमेंसमथचबिािेकेवलए, ऐसेविवियमबिासकेंगेजोइस
-अविवियमऔिउसकेअिीिबिाएगएवियमोंसे असंगतिहों।
-( 2 )विवशट यातथापूिचगामीशवक्त कीव्या पकतापिप्रवतकूलप्रभािडालेवबिा, ऐसेविवियमोंमेंविम्ि वलवितसभीया
-ककन्हीं विषयोंकेवलएउपबन्ि ककयाजासकताहै, अथाचत: —
-(क)िेशतेंऔिविबचन्ि िवजिकेअिीििहतेहुएन्या वसयोंमेंवि वहतिस्तु ओं औिर्ीजोंकोउिािकदयाजा
-सकेगा;
-(ि)विक्टो रियास्मा िककेकमचर्ारियोंकीभतीऔिसेिाकीशतें।
-( 3 )प्रत्ये कविवियम, न् या वसयोंद्वािाबिाएजािेकेपश्र्ा तयथाशीघ्रकेन्री यसिकािकोभेजाजाएगाऔििहसिकाि
-उसकीएकप्रवत, संसदकेप्रत्ये कसदिकेसमक्ष, जबिहसत्रमेंहो, कुलतीसकदिकीअिविकेवलएिििाएगी।यहअिविएकसत्र
-मेंअथिादोयाअविकआिुिवमकसत्रोंमेंपूिीहोसकेगी।यकदउससत्रकेयापूिोक्त आिुिवमकसत्रोंकेठीकबादकेसत्रकेअिसाि
-केपूिचदोिोंसदि उसविवियममेंकोईपरिितचिकििेकेवलएसहमतहोजाएं, तोतत्प श्र् ा तिहऐसेपरििर्तचतरूपमेंहीप्रभािी
-होगा। यकदउक्त अिसािकेपूिचदोिोंसदिसहमतहोजाएंककिहविवियमिहीं बिायाजािार्ावहएतोतत्प श्र् ा तिहविप्र भाि
-होजाएगा।ककन्तु विवियमके ऐसेपरििर्तचतयाविप्र भािहोिेसेउसकेअिीिपहलेकीगईककसीबात की विविमान्य ता पि प्र
-वतकूलप्रभाििहींपड़ेगा। ]
-______
-1 1981 केअविवियमसं ० 32 कीिािा 4 द्व ािाअंत:स्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `केपूिचदोिोंस दिसहमतहोजाएं ककिहवियमिहींबिायाजािार्ावहए, तोतत्प श्र् ा तिहविप्र भािहोजाएगा।ककन्तु वियमके`
+  line `ऐसेपरििर्तचतयाविप्र भािहोिेसेउसकेअिीिपहले कीगईककसीबातकीविविमान्य तापिप्रवतकूलप्रभाििहीं`
+  line `पड़ेगा। ]`
+  line `1 [ 6. न् या वसयों कीविविय म बिािेकीशवक्त — ( 1 )न्या सी, केन्री यसिकािकेपूिचअिुमोदिसे, िाजपत्रमेंअविसूर्िाद्वािा,`
+  line `इसअविवियमकेअिीिविकायकोअपिेकतचव्यों कावििचहिकििेमेंसमथचबिािेकेवलए, ऐसेविवियमबिासकेंगेजोइस`
+  line `अविवियमऔिउसकेअिीिबिाएगएवियमोंसे असंगतिहों।`
+  line `( 2 )विवशट यातथापूिचगामीशवक्त कीव्या पकतापिप्रवतकूलप्रभािडालेवबिा, ऐसेविवियमोंमेंविम्ि वलवितसभीया`
+  line `ककन्हीं विषयोंकेवलएउपबन्ि ककयाजासकताहै, अथाचत: —`
+  line `(क)िेशतेंऔिविबचन्ि िवजिकेअिीििहतेहुएन्या वसयोंमेंवि वहतिस्तु ओं औिर्ीजोंकोउिािकदयाजा`
+  line सकेगा;
+  line `(ि)विक्टो रियास्मा िककेकमचर्ारियोंकीभतीऔिसेिाकीशतें।`
+  line `( 3 )प्रत्ये कविवियम, न् या वसयोंद्वािाबिाएजािेकेपश्र्ा तयथाशीघ्रकेन्री यसिकािकोभेजाजाएगाऔििहसिकाि`
+  line `उसकीएकप्रवत, संसदकेप्रत्ये कसदिकेसमक्ष, जबिहसत्रमेंहो, कुलतीसकदिकीअिविकेवलएिििाएगी।यहअिविएकसत्र`
+  line `मेंअथिादोयाअविकआिुिवमकसत्रोंमेंपूिीहोसकेगी।यकदउससत्रकेयापूिोक्त आिुिवमकसत्रोंकेठीकबादकेसत्रकेअिसाि`
+  line `केपूिचदोिोंसदि उसविवियममेंकोईपरिितचिकििेकेवलएसहमतहोजाएं, तोतत्प श्र् ा तिहऐसेपरििर्तचतरूपमेंहीप्रभािी`
+  line `होगा। यकदउक्त अिसािकेपूिचदोिोंसदिसहमतहोजाएंककिहविवियमिहीं बिायाजािार्ावहएतोतत्प श्र् ा तिहविप्र भाि`
+  line `होजाएगा।ककन्तु विवियमके ऐसेपरििर्तचतयाविप्र भािहोिेसेउसकेअिीिपहलेकीगईककसीबात की विविमान्य ता पि प्र`
+  line `वतकूलप्रभाििहींपड़ेगा। ]`
+  line ______
+  line `1 1981 केअविवियमसं ० 32 कीिािा 4 द्व ािाअंत:स्था वपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

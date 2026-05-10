@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:32:58.029Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19146`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 8)
-  (str totalSections) (int 8)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:32:58.029Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19146`
+  completeFetch true
+  maxSections null
+  sectionCount 8
+  totalSections 8
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-laws-local-extent-act-1874)
-  (str handle) (str 19146)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Laws Local Extent Act, 1874`)
-  (str actNumber) (str 15)
-  (str enactmentDate) (str 1874-12-08)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19146`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `विधि स्‍थानीय विस्‍तार अधिनियम, 1874`)
-  (str actYear) (str 1874)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act for declaring the local extent of certain Enactments, and for other purposes.`)
-  (str enforcementDate) (undefined)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T21:54:44.037Z`)
-  (str translations) obj_root_law_translations
+  slug the-laws-local-extent-act-1874
+  handle (19146)
+  collectionHandle 123456789/1362
+  title `The Laws Local Extent Act, 1874`
+  actNumber (15)
+  enactmentDate 1874-12-08
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19146`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `विधि स्‍थानीय विस्‍तार अधिनियम, 1874`
+  actYear (1874)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act for declaring the local extent of certain Enactments, and for other purposes.`
+  enforcementDate undefined
+  notification undefined
+  fetchedAt `2026-05-09T21:54:44.037Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_laws_local_extent_act_1874
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/19146`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/19146`
 obj_root_law_sources_en_the_laws_local_extent_act_1874:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19146/1/a1874-15.pdf`)
-  (str title) (str `The Laws Local Extent Act, 1874`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19146/1/a1874-15.pdf`
+  title `The Laws Local Extent Act, 1874`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1874
 obj_root_law_sources_hi_1874:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19146/2/H1874-15.pdf`)
-  (str title) (str `विधि स्‍थानीय विस्‍तार अधिनियम, 1874`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19146/2/H1874-15.pdf`
+  title `विधि स्‍थानीय विस्‍तार अधिनियम, 1874`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -70,129 +60,163 @@ obj_root_law_sections:
   obj_root_law_sections_7
   obj_root_law_sections_8
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 68201)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title.`)
-  (str content) (str `This Act may be called the Laws Local Extent Act, 1874.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68201&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_000100_187415_1663830097653)
+  sectionId (68201)
+  sectionNo (1)
+  orderNo 1
+  title `Short title.`
+  content `This Act may be called the Laws Local Extent Act, 1874.`
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68201&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_000100_187415_1663830097653
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 68202)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Interpretation clause.`)
-  (str content) (str `In this Act the expression “Scheduled Districts” means the territories
-mentioned in the sixth schedule hereto annexed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68202&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_000100_187415_1663830097653)
+  sectionId (68202)
+  sectionNo (2)
+  orderNo 2
+  title `Interpretation clause.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68202&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_000100_187415_1663830097653
+obj_root_law_sections_2_content:
+  string
+  line `In this Act the expression “Scheduled Districts” means the territories`
+  line `mentioned in the sixth schedule hereto annexed.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 68203)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Local extent of Acts in first schedule.`)
-  (str content) (str `The Acts mentioned in the first schedule hereto annexed
-are now in force ^1[in the whole of India except ^2[the territories which, immediately before the
-1st November, 1956, were comprised in Part B States] and] the Scheduled Districts.`)
-  (str footnotes) (str `1. Subs. by the A.O. 1950 for "throughout all the Provinces of India, except".
-
-2. Subs. by the Adaptation of Laws (No. 2) Order, 1956, for "Part B States" (w.e.f. 1-11-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68203&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_000100_187415_1663830097653)
+  sectionId (68203)
+  sectionNo (3)
+  orderNo 3
+  title `Local extent of Acts in first schedule.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68203&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_000100_187415_1663830097653
+obj_root_law_sections_3_content:
+  string
+  line `The Acts mentioned in the first schedule hereto annexed`
+  line `are now in force ^1[in the whole of India except ^2[the territories which, immediately before the`
+  line `1st November, 1956, were comprised in Part B States] and] the Scheduled Districts.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. Subs. by the A.O. 1950 for "throughout all the Provinces of India, except".`
+  line
+  line `2. Subs. by the Adaptation of Laws (No. 2) Order, 1956, for "Part B States" (w.e.f. 1-11-1956).`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 68204)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Local extent of enactments in second schedule.`)
-  (str content) (str `The enactments mentioned in the second
-schedule hereto annexed are now in force throughout the whole of the territories now subject to the
-government of the Governor of Fort St. George in Council, except the Scheduled Districts subject to such
-government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68204&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_000100_187415_1663830097653)
+  sectionId (68204)
+  sectionNo (4)
+  orderNo 4
+  title `Local extent of enactments in second schedule.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68204&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_000100_187415_1663830097653
+obj_root_law_sections_4_content:
+  string
+  line `The enactments mentioned in the second`
+  line `schedule hereto annexed are now in force throughout the whole of the territories now subject to the`
+  line `government of the Governor of Fort St. George in Council, except the Scheduled Districts subject to such`
+  line government.
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 68205)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Local extent of enactments in third schedule.`)
-  (str content) (str `The enactments mentioned in the third schedule
-hereto annexed are now in force throughout the whole of the territories now subject to the government of
-the Governor of Bombay in Council, except the Scheduled Districts subject to such government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68205&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_000100_187415_1663830097653)
+  sectionId (68205)
+  sectionNo (5)
+  orderNo 5
+  title `Local extent of enactments in third schedule.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68205&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_000100_187415_1663830097653
+obj_root_law_sections_5_content:
+  string
+  line `The enactments mentioned in the third schedule`
+  line `hereto annexed are now in force throughout the whole of the territories now subject to the government of`
+  line `the Governor of Bombay in Council, except the Scheduled Districts subject to such government.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 68206)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Local extent of enactments in fourth schedule.`)
-  (str content) (str `The enactments mentioned in the fourth schedule
-hereto annexed are now in force throughout the whole of the territories now subject to the government of
-the Lieutenant-Governor of Bengal, except the Scheduled Districts subject to such government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68206&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_000100_187415_1663830097653)
+  sectionId (68206)
+  sectionNo (6)
+  orderNo 6
+  title `Local extent of enactments in fourth schedule.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68206&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_000100_187415_1663830097653
+obj_root_law_sections_6_content:
+  string
+  line `The enactments mentioned in the fourth schedule`
+  line `hereto annexed are now in force throughout the whole of the territories now subject to the government of`
+  line `the Lieutenant-Governor of Bengal, except the Scheduled Districts subject to such government.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 68207)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Local extent of enactments in fifth schedule.`)
-  (str content) (str `The enactments mentioned in the fifth schedule
-hereto annexed are now in force throughout the whole of the territories now subject to the government of
-the Lieutenant-Governor of the North-Western Provinces of the Presidency of Fort William, except the
-Scheduled Districts subject to such government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68207&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_000100_187415_1663830097653)
+  sectionId (68207)
+  sectionNo (7)
+  orderNo 7
+  title `Local extent of enactments in fifth schedule.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68207&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_000100_187415_1663830097653
+obj_root_law_sections_7_content:
+  string
+  line `The enactments mentioned in the fifth schedule`
+  line `hereto annexed are now in force throughout the whole of the territories now subject to the government of`
+  line `the Lieutenant-Governor of the North-Western Provinces of the Presidency of Fort William, except the`
+  line `Scheduled Districts subject to such government.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 68208)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str Savings.)
-  (str content) (str `Nothing herein contained shall---
-
-(a) bar the power of the Central Government or the State Government under any law for the time being
-in force, to extend to any place any Act mentioned in the said first schedule;
-
-(b) extend any Act empowering the State Government to extend the same or any part thereof, or affect
-in any manner the exercise of such power;
-
-(c) affect the operation of any Act or Regulation heretofore extended to or declared to be in force in
-any of the Scheduled Districts;
-
-(d) revive any enactment which has been repealed either generally or with reference to some special
-subject;
-
-^1* * * * *
-
-(j) extend to any of the towns of Calcutta, Madras and Bombay any law not now in force therein;
-
-^2[(jj) extend to Pargana Bhadohi or Pargana Kera Mangror in the Mirzapur district, or to Pargana Kaswa
-Raja in the Benares district, any law not now in force therein];
-
-(k) affect the operation of any enactment not mentioned in any of the schedules hereto annexed.`)
-  (str footnotes) (str `1. Clauses (e) and (h) were rep. by Act 8 of 1887, clause (f) by Act 12 of 1891, clause (g) by Act 8 of 1890 and clause (i) by Act 4
-of 1894.
-
-2. Ins. by Act 14 of 1881, s.15.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68208&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_000100_187415_1663830097653)
+  sectionId (68208)
+  sectionNo (8)
+  orderNo 8
+  title Savings.
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_000100_187415_1663830097653&sectionId=68208&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_000100_187415_1663830097653
+obj_root_law_sections_8_content:
+  string
+  line `Nothing herein contained shall---`
+  line
+  line `(a) bar the power of the Central Government or the State Government under any law for the time being`
+  line `in force, to extend to any place any Act mentioned in the said first schedule;`
+  line
+  line `(b) extend any Act empowering the State Government to extend the same or any part thereof, or affect`
+  line `in any manner the exercise of such power;`
+  line
+  line `(c) affect the operation of any Act or Regulation heretofore extended to or declared to be in force in`
+  line `any of the Scheduled Districts;`
+  line
+  line `(d) revive any enactment which has been repealed either generally or with reference to some special`
+  line subject;
+  line
+  line `^1* * * * *`
+  line
+  line `(j) extend to any of the towns of Calcutta, Madras and Bombay any law not now in force therein;`
+  line
+  line `^2[(jj) extend to Pargana Bhadohi or Pargana Kera Mangror in the Mirzapur district, or to Pargana Kaswa`
+  line `Raja in the Benares district, any law not now in force therein];`
+  line
+  line `(k) affect the operation of any enactment not mentioned in any of the schedules hereto annexed.`
+obj_root_law_sections_8_footnotes:
+  string
+  line `1. Clauses (e) and (h) were rep. by Act 8 of 1887, clause (f) by Act 12 of 1891, clause (g) by Act 8 of 1890 and clause (i) by Act 4`
+  line `of 1894.`
+  line
+  line `2. Ins. by Act 14 of 1881, s.15.`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `विधि स्‍थानीय विस्‍तार अधिनियम, 1874`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/19146/2/H1874-15.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:32:56.929Z`)
-  (str pageCount) (int 15)
-  (str sections) obj_root_law_translations_hi_sections
+  title `विधि स्‍थानीय विस्‍तार अधिनियम, 1874`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/19146/2/H1874-15.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:32:56.929Z`
+  pageCount 15
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -209,730 +233,805 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_14
   obj_root_law_translations_hi_sections_15
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `विवि स् था नीय विस्ता र अविवनयम, 1874
-( 1874 का अविवनयम संखयां क 15 ) 1
-[ 8 दिसम्ब र, 1 874 ]
-कवतपय अविवनयवमवतयों का स् था नीय विस्ता र
-घोवित करने के विए और अन्य प्र
-योजनों के विए
-अविवनयम
-उद्देविका — विवियां और विवनयम बनाने के प्र योजनाथथ समिेत भारत के सपरर िि् गिनथर जनरि, भारत की वििायी पररिि्
-और भारत के गिनथर जनरि की पररिि् द्व ारा पाररत कवतपय अविवनयमों का स् था नीय विस्ता र घोवित करना स मीचीन है;
-और फोर्थ सेंर् जाजथ और मुम्ब ई की प्रे वसडेंवसयों में और बंगाि में फोर्थ विवियम की प्रे वसडेंसी के वनचिे और उत्त र - पवच मी प्र
-ान्तों में कवतपय अविवनयमों और विवनयमों के स् था नीय विस्ता र से संबंवित विवियों का समेकन करना भी समीचीन है;
-अत: एति् द्व ारा वनम्न विवित रू प में यह घोवित और अविवनयवमत दकया जाता है: —
-1. संविप्त नाम — इस अविवनयम का संविप् त नाम विवि स् था नीय विस्ता र अविवनयम, 1874 है।
-2. वनिथचन िण्ड — इस अविवनयम में “ अनुसूवचत वजिे ” पि से इससे उपाबद्ध छठी अनुसूची में उवि वित राज्य िेत्र
-अवभप्रेत हैं।
-3. प्र थम अनुसूची में उवि वित अविवनयवमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध प्र थम अनु सूची में उवि वित
-अविवनयम अब 2 [ 3 [ उन राज्य िेत्रों के वसिाय जो 1 निम्ब र, 1956 के ठीक पूिथ भाग ि राज्यों ] और ] अनुसूवचत वजिों 2 [ 3 [ में समाविष् र्
-थे ] सम्पू र् थ भारत में ] प्र िृत्त हैं।
-4. वद्वतीय अनुसूची में उवि वित अविवनयवमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध वद्वतीय अनुसूची में उवि वित
-अविवनयवमवतयां अब, उन अनुसूवचत वजिों के वसिाय जो फोर्थ सेंर् जाजथ के सपररिि् गिनथर के िासनािीन है, इस समय ऐसे
-िासनािीन समस्त राज्य िेत्रों में प्र िृत्त हैं।
-5. तृतीय अनुसूची में उवि वित अविवनयवमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध तृतीय अनुसूची में उवि वित
-अविवनयवमवतयां अब, उन अनुसूवचत वजिों के वसिाय जो मुम्ब ई के सपररिि् गिनथर के िा सनािीन हैं, इस समय ऐसे िासनािीन
-समस्त राज्य िेत्रों में प्र िृत्त हैं।
-6. चतुथथ अनुसूची में उवि वित अविवनयवमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध चतुथथ अनुसूची में उवि वित
-अविवनयवमवतयां अब, उन अनुसूवचत वजिों के वसिाय जो बंगाि के िेवटर्नेंर् - ग िनथर के िासनािीन हैं, इस समय ऐसे िासनािीन
-समस्त राज्य िेत्रों में प्र िृत्त हैं।
-7. पंचम अनुसूची में उवि वित अविवनय वमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध पंचम अनुसूची में उवि वित
-अविवनयवमवतयां अब, उन अनुसूवचत वजिों के वसिाय जो फोर्थ विवियम की प्रे वसडेन्सी के उत्तर - प वच मी प्र ान्त के िेवटर्नेंर् - ग िनथर के
-िासनािीन हैं, इस समय ऐसे िासनािीन समस्त राज्य िेत्रों में प्र िृत्त हैं।
-8. व् या िृवत्तयां — इसमें अन्त र् िथष् र् कोई भी बात —
-(क) केन्री य सरकार या राज्य सरकार को, तत्स मय प्र िृत्त दकसी विवि के अिीन उक्त प्र थम अनुसूची में उवि वित
-दकसी अविवनयम का दकसी भी स् था न पर विस्ता र करने की, िवक्त को िर्जथत नहीं करे गी;
-(ि) ऐसे दकसी अविवनयम का विस्ता र नहीं करेगी जो उसका या उसके दकसी भाग का विस्ता र करने के विए राज्य
-सरकार को सिक्त करती है और न ऐ सी िवक्त के प्र योग को दकसी री वत से प्र भावित करेगी;
-(ग) दकसी अनुसूवचत वजिे में इससे पूिथ विस्ता ररत या प्र िृत्त घोवि त दकसी अविवन यम या विवनयम के प्र ितथन को प्र
-भावित नहीं करेगी;
-1 जहां तक 1 जुिाई, 1890 को यथाविद्यमान सं रिक और प्र वतपाय अविवनयम, 1890 ( 1890 का 8 ) द्व ारा प्र वतस्था वपत दकसी अविवनयवमवत का संबंि है, यह
-अविवनयम मरास प्र ान्त के कवतपय भागत: अपिर्जथत िेत्र पर वनरवसत दकया गया।
-िेविए 1940 का मरास विवनयम सं ० 6।
-2 विवि अनुकूिन आिेि, 1950 द्व ारा “ भार त के सम्पू र् थ प्र ान्तों में, वसिाय ” िब्िों के स् था न पर प्र वतस्था वपत।
-3 विवि अनुकूिन (सं ० 2 ) आिेि, 1956 द्व ारा “ भाग ि राज्य ” के स् था न पर प्र वतस्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `विवि स् था नीय विस्ता र अविवनयम, 1874`
+  line `( 1874 का अविवनयम संखयां क 15 ) 1`
+  line `[ 8 दिसम्ब र, 1 874 ]`
+  line `कवतपय अविवनयवमवतयों का स् था नीय विस्ता र`
+  line `घोवित करने के विए और अन्य प्र`
+  line `योजनों के विए`
+  line अविवनयम
+  line `उद्देविका — विवियां और विवनयम बनाने के प्र योजनाथथ समिेत भारत के सपरर िि् गिनथर जनरि, भारत की वििायी पररिि्`
+  line `और भारत के गिनथर जनरि की पररिि् द्व ारा पाररत कवतपय अविवनयमों का स् था नीय विस्ता र घोवित करना स मीचीन है;`
+  line `और फोर्थ सेंर् जाजथ और मुम्ब ई की प्रे वसडेंवसयों में और बंगाि में फोर्थ विवियम की प्रे वसडेंसी के वनचिे और उत्त र - पवच मी प्र`
+  line `ान्तों में कवतपय अविवनयमों और विवनयमों के स् था नीय विस्ता र से संबंवित विवियों का समेकन करना भी समीचीन है;`
+  line `अत: एति् द्व ारा वनम्न विवित रू प में यह घोवित और अविवनयवमत दकया जाता है: —`
+  line `1. संविप्त नाम — इस अविवनयम का संविप् त नाम विवि स् था नीय विस्ता र अविवनयम, 1874 है।`
+  line `2. वनिथचन िण्ड — इस अविवनयम में “ अनुसूवचत वजिे ” पि से इससे उपाबद्ध छठी अनुसूची में उवि वित राज्य िेत्र`
+  line `अवभप्रेत हैं।`
+  line `3. प्र थम अनुसूची में उवि वित अविवनयवमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध प्र थम अनु सूची में उवि वित`
+  line `अविवनयम अब 2 [ 3 [ उन राज्य िेत्रों के वसिाय जो 1 निम्ब र, 1956 के ठीक पूिथ भाग ि राज्यों ] और ] अनुसूवचत वजिों 2 [ 3 [ में समाविष् र्`
+  line `थे ] सम्पू र् थ भारत में ] प्र िृत्त हैं।`
+  line `4. वद्वतीय अनुसूची में उवि वित अविवनयवमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध वद्वतीय अनुसूची में उवि वित`
+  line `अविवनयवमवतयां अब, उन अनुसूवचत वजिों के वसिाय जो फोर्थ सेंर् जाजथ के सपररिि् गिनथर के िासनािीन है, इस समय ऐसे`
+  line `िासनािीन समस्त राज्य िेत्रों में प्र िृत्त हैं।`
+  line `5. तृतीय अनुसूची में उवि वित अविवनयवमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध तृतीय अनुसूची में उवि वित`
+  line `अविवनयवमवतयां अब, उन अनुसूवचत वजिों के वसिाय जो मुम्ब ई के सपररिि् गिनथर के िा सनािीन हैं, इस समय ऐसे िासनािीन`
+  line `समस्त राज्य िेत्रों में प्र िृत्त हैं।`
+  line `6. चतुथथ अनुसूची में उवि वित अविवनयवमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध चतुथथ अनुसूची में उवि वित`
+  line `अविवनयवमवतयां अब, उन अनुसूवचत वजिों के वसिाय जो बंगाि के िेवटर्नेंर् - ग िनथर के िासनािीन हैं, इस समय ऐसे िासनािीन`
+  line `समस्त राज्य िेत्रों में प्र िृत्त हैं।`
+  line `7. पंचम अनुसूची में उवि वित अविवनय वमवतयों का स् था नीय विस्ता र — इससे उपाबद्ध पंचम अनुसूची में उवि वित`
+  line `अविवनयवमवतयां अब, उन अनुसूवचत वजिों के वसिाय जो फोर्थ विवियम की प्रे वसडेन्सी के उत्तर - प वच मी प्र ान्त के िेवटर्नेंर् - ग िनथर के`
+  line `िासनािीन हैं, इस समय ऐसे िासनािीन समस्त राज्य िेत्रों में प्र िृत्त हैं।`
+  line `8. व् या िृवत्तयां — इसमें अन्त र् िथष् र् कोई भी बात —`
+  line `(क) केन्री य सरकार या राज्य सरकार को, तत्स मय प्र िृत्त दकसी विवि के अिीन उक्त प्र थम अनुसूची में उवि वित`
+  line `दकसी अविवनयम का दकसी भी स् था न पर विस्ता र करने की, िवक्त को िर्जथत नहीं करे गी;`
+  line `(ि) ऐसे दकसी अविवनयम का विस्ता र नहीं करेगी जो उसका या उसके दकसी भाग का विस्ता र करने के विए राज्य`
+  line `सरकार को सिक्त करती है और न ऐ सी िवक्त के प्र योग को दकसी री वत से प्र भावित करेगी;`
+  line `(ग) दकसी अनुसूवचत वजिे में इससे पूिथ विस्ता ररत या प्र िृत्त घोवि त दकसी अविवन यम या विवनयम के प्र ितथन को प्र`
+  line `भावित नहीं करेगी;`
+  line `1 जहां तक 1 जुिाई, 1890 को यथाविद्यमान सं रिक और प्र वतपाय अविवनयम, 1890 ( 1890 का 8 ) द्व ारा प्र वतस्था वपत दकसी अविवनयवमवत का संबंि है, यह`
+  line `अविवनयम मरास प्र ान्त के कवतपय भागत: अपिर्जथत िेत्र पर वनरवसत दकया गया।`
+  line `िेविए 1940 का मरास विवनयम सं ० 6।`
+  line `2 विवि अनुकूिन आिेि, 1950 द्व ारा “ भार त के सम्पू र् थ प्र ान्तों में, वसिाय ” िब्िों के स् था न पर प्र वतस्था वपत।`
+  line `3 विवि अनुकूिन (सं ० 2 ) आिेि, 1956 द्व ारा “ भाग ि राज्य ” के स् था न पर प्र वतस्था वपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-(घ) दकसी ऐसी अविवनयवमवत को पुन: प्र िर्तथत नहीं करेगी वजसे सािारर् रू प से या दकसी वििेि वििय के संबं ि
-में वनरवसत दकया गया है;
-1 * * * *
-(ञ) किकत्ता, मरास और मुम्ब ई नगरों में से दकसी नगर में ऐसी दकसी विवि का विस्ता र नहीं करेगी जो अब िहां प्र
-िृत्त नहीं है;
-2 [ (ञञ) वमजाथपुर वजिे में परगना भिोई या परगना केड़ा मारोर में या बनारस वजिे में परगना कसिा राजा में,
-ऐसी दकसी विवि का विस्ता र नहीं करेगी जो अब िहां प्र िृत्त नहीं है;]
-(र्) ऐसी दकसी अविवनयवमवत के प्र ितथन को प्र भावित नहीं करेगी जो इससे उपाबद्ध अनुसूवचयों में उवि वित
-नहीं है।
-9. [ अविवनयवमवतयां वनरवसत। ] — वनरसन अविवनयम, 1876 ( 1876 का 12 ) द्व ारा वनरवसत। प्र
-थम अनुसूची 3
-(िारा 3 िेवि ए)
-उच्च तम पररिि् के अविवनयम
-ििथ और संखया वििय
-4 1837 4 भूवम अजथन की िवक्त।
-1 1887 के अविवनयम सं ० 8 द्व ारा िण्ड (ङ) और िण्ड (ज), 1891 के अविवनयम सं ० 12 द्व ारा िण्ड (च), 1890 के अविवनयम सं ० 8 द्व ारा िण्ड (छ) और 1894 के
-अविवनयम सं ० 4 द्व ारा िंड (झ) वनरवसत दकए गए।
-2 1881 के अविवनयम सं ० 14 की िारा 15 द्व ारा अंत:स्था वपत।
-3 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया जा चुका है, उन
-अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए है: —
-िोवपत अविवनयवमवतयां वनरसन अविवनयम
-1836 का अविवनयम सं ० 26.. 1927 का अविवनयम सं ० 12।
-1840 का अविवनयम सं ० 6.. 1881 का अविवन यम सं ० 26।
-1841 का अविवनयम सं ० 11.. 1887 का अविवनयम सं ० 8।
-1841 का अविवनयम सं ० 18.. 1878 का अविवनयम सं ० 11।
-1841 का अविवनयम सं ० 19.. 1927 का अविवनयम सं ० 12।
-1842 का अविवनयम सं ० 9.. 1891 का अविवनयम सं ० 12।
-1842 का अविवनयम सं ० 12.. 1887 का अविवनयम सं ० 8।
-1847 का अविवनयम सं ० 20 1927 का अविवनयम सं ० 12।
-1850 का अविवनयम सं ० 34.. विवि अनुकूिन आिेि, 1937।
-1852 का अविवनयम सं ० 30.. 1927 का अविवनयम सं ० 12।
-1852 का अविवनयम सं ० 33.. 1887 का अविवनयम सं ० 8।
-185 4 का अविवनयम सं ० 18.. 1891 का अविवनयम सं ० 12।
-1854 का अविवनयम सं ० 18.. विवि अनुकूिन आिेि, 1937।
-1859 का अविवनयम सं ० 1.. 1923 का अविवनयम सं ० 21।
-1859 का अविवनयम सं ० 3.. 1887 का अविवनयम सं ० 8।
-1859 का अविवनयम सं ० 8..
-1859 का अवि वनयम सं ० 14 की िारा 15. 1891 का अविवनयम सं ० 12।
-1859 का अविवनयम सं ० 15..
-1860 का अविवनयम सं ० 27.. 1889 का अविवनयम सं ० 7।
-1861 का अविवनयम सं ० 9.. 1890 का अविवनयम सं ० 8।
-1861 का अविवनयम सं ० 23.. 1891 का अविवनयम सं ० 12।
-1863 का अविवनयम सं ० 6..
-1864 का अविवनयम सं ० 6.. 1927 का अविवनयम सं ० 12।
-1865 का अविवनयम सं ० 11.. 1887 का अविवनयम सं ० 9।
-1865 का अविवनयम सं ० 21.. 1927 का अविवनयम सं ० 12।
-1866 का अविवनयम सं ० 5..
-1866 का अविवनयम सं ० 10.. 1891 का अविवनयम सं ० 12।
-1867 का अविवनयम सं ० 10.. 1887 का अविवनयम सं ० 9।
-1868 का अविवनयम सं ० 10.. 1891 का अविवनयम सं ० 12।
-1869 का अविवनयम सं ० 15.. 1927 का अविवनयम सं ० 12।
-1870 का अविवनयम सं ० 1..
-4 विवि अनुकूिन आिेि, 1950 द्व ारा वनरवसत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `(घ) दकसी ऐसी अविवनयवमवत को पुन: प्र िर्तथत नहीं करेगी वजसे सािारर् रू प से या दकसी वििेि वििय के संबं ि`
+  line `में वनरवसत दकया गया है;`
+  line `1 * * * *`
+  line `(ञ) किकत्ता, मरास और मुम्ब ई नगरों में से दकसी नगर में ऐसी दकसी विवि का विस्ता र नहीं करेगी जो अब िहां प्र`
+  line `िृत्त नहीं है;`
+  line `2 [ (ञञ) वमजाथपुर वजिे में परगना भिोई या परगना केड़ा मारोर में या बनारस वजिे में परगना कसिा राजा में,`
+  line `ऐसी दकसी विवि का विस्ता र नहीं करेगी जो अब िहां प्र िृत्त नहीं है;]`
+  line `(र्) ऐसी दकसी अविवनयवमवत के प्र ितथन को प्र भावित नहीं करेगी जो इससे उपाबद्ध अनुसूवचयों में उवि वित`
+  line `नहीं है।`
+  line `9. [ अविवनयवमवतयां वनरवसत। ] — वनरसन अविवनयम, 1876 ( 1876 का 12 ) द्व ारा वनरवसत। प्र`
+  line `थम अनुसूची 3`
+  line `(िारा 3 िेवि ए)`
+  line `उच्च तम पररिि् के अविवनयम`
+  line `ििथ और संखया वििय`
+  line `4 1837 4 भूवम अजथन की िवक्त।`
+  line `1 1887 के अविवनयम सं ० 8 द्व ारा िण्ड (ङ) और िण्ड (ज), 1891 के अविवनयम सं ० 12 द्व ारा िण्ड (च), 1890 के अविवनयम सं ० 8 द्व ारा िण्ड (छ) और 1894 के`
+  line `अविवनयम सं ० 4 द्व ारा िंड (झ) वनरवसत दकए गए।`
+  line `2 1881 के अविवनयम सं ० 14 की िारा 15 द्व ारा अंत:स्था वपत।`
+  line `3 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया जा चुका है, उन`
+  line `अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए है: —`
+  line `िोवपत अविवनयवमवतयां वनरसन अविवनयम`
+  line `1836 का अविवनयम सं ० 26.. 1927 का अविवनयम सं ० 12।`
+  line `1840 का अविवनयम सं ० 6.. 1881 का अविवन यम सं ० 26।`
+  line `1841 का अविवनयम सं ० 11.. 1887 का अविवनयम सं ० 8।`
+  line `1841 का अविवनयम सं ० 18.. 1878 का अविवनयम सं ० 11।`
+  line `1841 का अविवनयम सं ० 19.. 1927 का अविवनयम सं ० 12।`
+  line `1842 का अविवनयम सं ० 9.. 1891 का अविवनयम सं ० 12।`
+  line `1842 का अविवनयम सं ० 12.. 1887 का अविवनयम सं ० 8।`
+  line `1847 का अविवनयम सं ० 20 1927 का अविवनयम सं ० 12।`
+  line `1850 का अविवनयम सं ० 34.. विवि अनुकूिन आिेि, 1937।`
+  line `1852 का अविवनयम सं ० 30.. 1927 का अविवनयम सं ० 12।`
+  line `1852 का अविवनयम सं ० 33.. 1887 का अविवनयम सं ० 8।`
+  line `185 4 का अविवनयम सं ० 18.. 1891 का अविवनयम सं ० 12।`
+  line `1854 का अविवनयम सं ० 18.. विवि अनुकूिन आिेि, 1937।`
+  line `1859 का अविवनयम सं ० 1.. 1923 का अविवनयम सं ० 21।`
+  line `1859 का अविवनयम सं ० 3.. 1887 का अविवनयम सं ० 8।`
+  line `1859 का अविवनयम सं ० 8..`
+  line `1859 का अवि वनयम सं ० 14 की िारा 15. 1891 का अविवनयम सं ० 12।`
+  line `1859 का अविवनयम सं ० 15..`
+  line `1860 का अविवनयम सं ० 27.. 1889 का अविवनयम सं ० 7।`
+  line `1861 का अविवनयम सं ० 9.. 1890 का अविवनयम सं ० 8।`
+  line `1861 का अविवनयम सं ० 23.. 1891 का अविवनयम सं ० 12।`
+  line `1863 का अविवनयम सं ० 6..`
+  line `1864 का अविवनयम सं ० 6.. 1927 का अविवनयम सं ० 12।`
+  line `1865 का अविवनयम सं ० 11.. 1887 का अविवनयम सं ० 9।`
+  line `1865 का अविवनयम सं ० 21.. 1927 का अविवनयम सं ० 12।`
+  line `1866 का अविवनयम सं ० 5..`
+  line `1866 का अविवनयम सं ० 10.. 1891 का अविवनयम सं ० 12।`
+  line `1867 का अविवनयम सं ० 10.. 1887 का अविवनयम सं ० 9।`
+  line `1868 का अविवनयम सं ० 10.. 1891 का अविवनयम सं ० 12।`
+  line `1869 का अविवनयम सं ० 15.. 1927 का अविवनयम सं ० 12।`
+  line `1870 का अविवनयम सं ० 1..`
+  line `4 विवि अनुकूिन आिेि, 1950 द्व ारा वनरवसत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-ििथ और संखया वििय
-1 1838 25 1866 की पहिी जनिरी से पहिे वनष्पा दित वबि।
-2 1839 29 1866 की पहिी जनिरी से पहिे दकए गए वििाह की ििा में िहेज।
-1 1839 30 18 66 की पहिी जनिरी से पहिे अिजवनत विरासत।
-1839 32 ब् या ज।
-1841 10 पोतों का रवजस्री करर्।
-2 1843 5 िासता।
-3 1850 5 तर्िती व् या पार।
-1850 11 नौपररिहन विवियां।
-4 1850 12 िोक िेिापािों का व् य वतक्रम।
-1850 18 न् या वयक अविकाररयों का संरि र्।
-1850 19 वििुओं का आबद्ध करना।
-1850 21 जावत विहीनता से अविकारों का समपहरर् न होना।
-1850 37 िोक सेिकों के आचार की जांच।
-5 1853 2 भूवम पर भार।
-2 1854 31 वििेि वनयमािीन प्र ित्त सम्प वत्त का छोड़कर, वििावहत वस् त्र यों द्व ारा हस्तां तर।
-2 1855 11 अंत:कािीन िाभ और अवभिृवद्ध।
-1855 12 वनष्पा िक और प्र िासक।
-1855 13 अनुयोज्य िोि द्व ारा मृत्यु से हावन के विए प्र वतकर।
-2 1855 23 1866 की पहिी जनिरी के पहिे की िसीयतों या अिजननों के मामिे में बंिदकत
-सम्प िाओं का प्र बंि।
-6 1855 24 िावस्त क सुवििा भार।
-1855 28 ब् या ज।
-1856 9 िहनपत्र।
-5 1856 11 यूरोपीय वसपावहयों द्व ारा अवभत्य जन।
-1856 15 वहन्िू विििाओं का वििाह।
-7 1857 11 राज्य के विरुद्ध अपराि।
-7 1857 25 विरोवहयों द्व ारा समपहरर्।
-8 1858 35 उच्च तम न् या याियों की अविकाररता के अन्त गथत नहीं आने िािे पागिों की सम्प िाएं।
-7 1858 36 पागििाने।
-1 समाप्त हो गया।
-2 1952 के अविवनयम सं ० 48 द्व ारा वनरवसत।
-3 1839 के अविवनयम सं ० 34 द्व ारा वनरवसत।
-4 1886 के विवनयम सं ० 1 द्व ारा असम में वनर वसत।
-5 विवि अनुकूिन आिेि, 1950 द्व ारा वनरवसत।
-6 1949 के अविवनयम सं ० 17 द्व ारा वनरवसत।
-7 1912 के अविवनयम सं ० 4 द्व ारा वनरवसत।
-8 1922 के अविवनयम सं ० 4 द्व ारा वनरवसत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `ििथ और संखया वििय`
+  line `1 1838 25 1866 की पहिी जनिरी से पहिे वनष्पा दित वबि।`
+  line `2 1839 29 1866 की पहिी जनिरी से पहिे दकए गए वििाह की ििा में िहेज।`
+  line `1 1839 30 18 66 की पहिी जनिरी से पहिे अिजवनत विरासत।`
+  line `1839 32 ब् या ज।`
+  line `1841 10 पोतों का रवजस्री करर्।`
+  line `2 1843 5 िासता।`
+  line `3 1850 5 तर्िती व् या पार।`
+  line `1850 11 नौपररिहन विवियां।`
+  line `4 1850 12 िोक िेिापािों का व् य वतक्रम।`
+  line `1850 18 न् या वयक अविकाररयों का संरि र्।`
+  line `1850 19 वििुओं का आबद्ध करना।`
+  line `1850 21 जावत विहीनता से अविकारों का समपहरर् न होना।`
+  line `1850 37 िोक सेिकों के आचार की जांच।`
+  line `5 1853 2 भूवम पर भार।`
+  line `2 1854 31 वििेि वनयमािीन प्र ित्त सम्प वत्त का छोड़कर, वििावहत वस् त्र यों द्व ारा हस्तां तर।`
+  line `2 1855 11 अंत:कािीन िाभ और अवभिृवद्ध।`
+  line `1855 12 वनष्पा िक और प्र िासक।`
+  line `1855 13 अनुयोज्य िोि द्व ारा मृत्यु से हावन के विए प्र वतकर।`
+  line `2 1855 23 1866 की पहिी जनिरी के पहिे की िसीयतों या अिजननों के मामिे में बंिदकत`
+  line `सम्प िाओं का प्र बंि।`
+  line `6 1855 24 िावस्त क सुवििा भार।`
+  line `1855 28 ब् या ज।`
+  line `1856 9 िहनपत्र।`
+  line `5 1856 11 यूरोपीय वसपावहयों द्व ारा अवभत्य जन।`
+  line `1856 15 वहन्िू विििाओं का वििाह।`
+  line `7 1857 11 राज्य के विरुद्ध अपराि।`
+  line `7 1857 25 विरोवहयों द्व ारा समपहरर्।`
+  line `8 1858 35 उच्च तम न् या याियों की अविकाररता के अन्त गथत नहीं आने िािे पागिों की सम्प िाएं।`
+  line `7 1858 36 पागििाने।`
+  line `1 समाप्त हो गया।`
+  line `2 1952 के अविवनयम सं ० 48 द्व ारा वनरवसत।`
+  line `3 1839 के अविवनयम सं ० 34 द्व ारा वनरवसत।`
+  line `4 1886 के विवनयम सं ० 1 द्व ारा असम में वनर वसत।`
+  line `5 विवि अनुकूिन आिेि, 1950 द्व ारा वनरवसत।`
+  line `6 1949 के अविवनयम सं ० 17 द्व ारा वनरवसत।`
+  line `7 1912 के अविवनयम सं ० 4 द्व ारा वनरवसत।`
+  line `8 1922 के अविवनयम सं ० 4 द्व ारा वनरवसत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-ििथ और संखया वििय
-1859 9 िारा 16, 17, 18 और 20 — समपहरर्।
-1860 21 सोसाइरर्यों का रवजस्री करर्।
-1862 3 सरकारी मुरा।
-1863 16 किा और विवनमाथ र्ों में प्र युक्त वस्प ररर् पर संिेय उ त् पा ि - िु क।
-1 1863 23 बंजर भूवमयों के िािे।
-2 1863 31 भारत का राजपत्र।
-3 1864 3 वििेिी।
-1865 3 सामान्य िाहक।
-4 1865 15 पारवसयों में वििाह और वििाह - वि च् छे ि।
-1866 21 िेिी संपररिर्तथत व् य वक् त यों के वििाह - वि च् छे ि।
-5 1866 28 न् या वसयों और बंिकिारों की िवक्त यां।
-1867 25 मुरर् प्रे स, आदि।
-वद्वतीय अनुसूची 6
-(िारा 4 िेविए)
-(क) मरास विवनयम
-ििथ और संखया वििय
-1802 3 (िारा 1, िारा 16 का केिि एक भाग) वसविि न् या याियों की प्र दक्रया।
-1802 19 (िारा 2 ) प्र संवििाबद्ध वसविि सेिकों का उिार िेने के विए वनविद्ध होना।
-1802 25 भू - राजस्ि का व् य िस्था पन।
-1802 26 (केिि िारा 1, 2 और 3 ) मािगुजारी भूवम का रवजस्री करर्।
-1 1943 के मुम्ब ई अविवनयम सं ० 9 द्व ारा मुम्ब ई में वनरवसत।
-2 1938 के अविवनयम सं ० 1 द्व ारा वनरवसत।
-3 1946 के अविवनयम सं ० 31 द्व ारा वनरवसत।
-4 1936 के अविवनयम सं ० 3 द्व ारा वनरवसत।
-5 1952 के अविवनयम सं ० 48 द्व ारा वनरवसत।
-6 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ा रा वनरवसत दकया जा चुका है, उन
-अविवनयवमवतयों के वनिेि अनुसूची से िोप कर दिए गए हैं: —
-िोवपत अविवनयवमवतयां वनरसन अविवनयम
-1802 का मरास विवनयम सं ० 3 की िारा 11.. 1891 का अविवनयम सं ० 12। ]
-1802 का मरास विवनयम सं ० 5 की िारा 3 0.. 1901 का अविवनयम सं ० 11।
-1802 का मरास विवनयम सं ० 13.. 1901 का अविवनयम सं ० 11।
-1805 का मरास विवनयम सं ० 1..
-1807 का मरास विवनयम सं ० 2..
-1816 का मरास विवनयम सं ० 4.. 1891 का अविवनयम सं ० 12।
-1816 का मरास विवनयम सं ० 9 की िा रा 43..
-1816 का मरास विवनयम सं ० 14..
-1816 का मरास विवनयम सं ० 5.. 1927 का अविवनयम सं ० 12।
-1819 का मरास विवनयम सं ० 1.. 1876 का अविवनयम सं ० 12।
-1819 का मरास विवनयम सं ० 2.. विवि अनुकूिन आिेि, 1937।
-1821 का मरास विवनयम सं ० 4 की िारा 4
-1831 का मरास विवनयम सं ० 3.. 1876 का अविवनयम सं ० 12।
-1832 का मरास विवनयम सं ० 7..
-1832 का मरास विवनयम सं ० 11.. 1878 का अविवनयम सं ० 6।
-1832 का मरास विवनयम सं ० 14.. 1889 का अविवनयम सं ० 13।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `ििथ और संखया वििय`
+  line `1859 9 िारा 16, 17, 18 और 20 — समपहरर्।`
+  line `1860 21 सोसाइरर्यों का रवजस्री करर्।`
+  line `1862 3 सरकारी मुरा।`
+  line `1863 16 किा और विवनमाथ र्ों में प्र युक्त वस्प ररर् पर संिेय उ त् पा ि - िु क।`
+  line `1 1863 23 बंजर भूवमयों के िािे।`
+  line `2 1863 31 भारत का राजपत्र।`
+  line `3 1864 3 वििेिी।`
+  line `1865 3 सामान्य िाहक।`
+  line `4 1865 15 पारवसयों में वििाह और वििाह - वि च् छे ि।`
+  line `1866 21 िेिी संपररिर्तथत व् य वक् त यों के वििाह - वि च् छे ि।`
+  line `5 1866 28 न् या वसयों और बंिकिारों की िवक्त यां।`
+  line `1867 25 मुरर् प्रे स, आदि।`
+  line `वद्वतीय अनुसूची 6`
+  line `(िारा 4 िेविए)`
+  line `(क) मरास विवनयम`
+  line `ििथ और संखया वििय`
+  line `1802 3 (िारा 1, िारा 16 का केिि एक भाग) वसविि न् या याियों की प्र दक्रया।`
+  line `1802 19 (िारा 2 ) प्र संवििाबद्ध वसविि सेिकों का उिार िेने के विए वनविद्ध होना।`
+  line `1802 25 भू - राजस्ि का व् य िस्था पन।`
+  line `1802 26 (केिि िारा 1, 2 और 3 ) मािगुजारी भूवम का रवजस्री करर्।`
+  line `1 1943 के मुम्ब ई अविवनयम सं ० 9 द्व ारा मुम्ब ई में वनरवसत।`
+  line `2 1938 के अविवनयम सं ० 1 द्व ारा वनरवसत।`
+  line `3 1946 के अविवनयम सं ० 31 द्व ारा वनरवसत।`
+  line `4 1936 के अविवनयम सं ० 3 द्व ारा वनरवसत।`
+  line `5 1952 के अविवनयम सं ० 48 द्व ारा वनरवसत।`
+  line `6 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ा रा वनरवसत दकया जा चुका है, उन`
+  line `अविवनयवमवतयों के वनिेि अनुसूची से िोप कर दिए गए हैं: —`
+  line `िोवपत अविवनयवमवतयां वनरसन अविवनयम`
+  line `1802 का मरास विवनयम सं ० 3 की िारा 11.. 1891 का अविवनयम सं ० 12। ]`
+  line `1802 का मरास विवनयम सं ० 5 की िारा 3 0.. 1901 का अविवनयम सं ० 11।`
+  line `1802 का मरास विवनयम सं ० 13.. 1901 का अविवनयम सं ० 11।`
+  line `1805 का मरास विवनयम सं ० 1..`
+  line `1807 का मरास विवनयम सं ० 2..`
+  line `1816 का मरास विवनयम सं ० 4.. 1891 का अविवनयम सं ० 12।`
+  line `1816 का मरास विवनयम सं ० 9 की िा रा 43..`
+  line `1816 का मरास विवनयम सं ० 14..`
+  line `1816 का मरास विवनयम सं ० 5.. 1927 का अविवनयम सं ० 12।`
+  line `1819 का मरास विवनयम सं ० 1.. 1876 का अविवनयम सं ० 12।`
+  line `1819 का मरास विवनयम सं ० 2.. विवि अनुकूिन आिेि, 1937।`
+  line `1821 का मरास विवनयम सं ० 4 की िारा 4`
+  line `1831 का मरास विवनयम सं ० 3.. 1876 का अविवनयम सं ० 12।`
+  line `1832 का मरास विवनयम सं ० 7..`
+  line `1832 का मरास विवनयम सं ० 11.. 1878 का अविवनयम सं ० 6।`
+  line `1832 का मरास विवनयम सं ० 14.. 1889 का अविवनयम सं ० 13।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-ििथ और संखया वििय
-1 1802 29 करनाम।
-1803 1 राजस्ि बो डथ।
-1803 2 किक् र् रों आदि का आचरर्।
-2 1804 5 प्र वतपाय अविकरर्।
-1806 2 3 [ (िारा 7 िण्ड 2 ) ] किक् र् र और करनाम।
-4 1808 7 सैन्य विवि।
-1816 11 िारा 8, 9, 10 — ग्रामों के मुविया;
-िारा 11 िण्ड 1 — चुराई हु ई सम्प वत्त;
-िारा 13 — ििों का पता चिाना;
-िारा 14 — ग्रामों के मुवियों द्व ारा परररुद्ध व् य वक् त यों का रवजस् र् र; और
-िारा 47 — िावन्त बनाए रिने से भाररत मवज स् रे र्।
-5 1816 12 भूवम और उपज से संबंवित िािों का ग्र ामों और वजिा पंचायतों को वनिेि।
-1817 7 पुिों का अनुरिर्, आदि, राजगामी सम्प वत्त।
-1817 8 (केिि िारा 9 ) भारतीय अविकाररयों और वसपावहयों की सम्प िा का भू - राजस्ि की
-बकाया के विए विक्रय।
-1822 4 1802 के मरास विवनयम सं ० 25 का स् प ष् र् ी करर्।
-6 1822 7 (केिि िारा 3 का िण्ड 1 ) राजस्ि और अन्य िोक विभागों में भारती य अविकारी।
-1822 9 िोक सेिकों द्व ारा गबन और राजस्ि के मामिों में भ्र ष् र् ा चार।
-1823 3
-1828 7 अिीनस्थ और सहायक किक् र् रों की िवक्त यां।
-1829 5 वहन्िू विि और सम्प िाएं।
-1830 1 विििाओं के जिाने का प्र वतिेि।
-1831 5 (केिि िारा 7 िण्ड 2 ) अनुवचत रू प से स् र् ा म् प िगाए हु ए िस्ता िेज को स् िी कार करने
-पर अनुसवचिीय अविकारी का िावयत्ि।
-7 1831 6 आनुिंविक ग्र ाम पि।
-8 1831 10 राजस्ि की बकाया के विए अियस्कों की सम्प िा के विक्रय का प्र वतिेि।
-1832 3 1828 के मरास विवनयम सं ० 7 के अिीन, रा जस्ि प्र ाविकाररयों के आिेिों के विरुद्ध
-िािों के विए पररसीमा।
-1 1894 के मरास अविवनय म सं ० 2 द्व ारा यह विवनयम स् था नीय रू प से वनरवसत दकया गया।
-2 1874 अविवनयम सं ० 15, जहां तक 1804 के मरास विवनयम सं ० 5, जो संरिक और प्र वतपाय अविवनयम, 1890 ( 1890 का 8 ) द्व ारा वनरवसत दकया गया था, का
-संबंि है पचा त् कवथत अविवनयम द्व ारा वनरवसत दकया गया। विवनयम, मरास कोर्थ आफ िार्डसथ ऐक् र्, 1902 ( 1902 का मरास अविवनयम सं ० 1 ) द्व ारा वनरवसत
-दकया गया।
-3 िारा 1 और 7 के भाग मूि रू प से इस अनुसूची में वनिेवित दकए गए थे। सम्पू र् थ विवनयम की िारा 7 का िूसरा िण्ड ही अब िागू है, िेविए वनरसन अविवनयम, 1876
-( 1876 का 12 ) की अनुसूची का भाग 3।
-4 1922 का अविवनयम सं ० 4 की िारा 3 और अनुसूची द्व ारा वनरवसत।
-5 मरास सिे एण्ड बाऊण्ड रीज ऐक् र्, 1897 ( 1897 का मरास अविवनयम सं ० 4 ) द्व ारा 1816 का मरास विवनयम सं ० 12 उस सीमा तक वनरवसत दकया गया जहां तक,
-यह भूवम औ र फसिों के उन िािों के मामिों को िागू होता, वजन िािों की विविमान्य ता अवनवच त और वििािग्रस्त सीमा अथिा भूवम वचह्न के अििारर् पर वनभथर
-करती है।
-6 विवि अनुकूिन आिेि, 1937 द्व ारा वनरवसत।
-7 1895 के मरास अविवनयम सं ० 3 द्व ारा वनरवसत।
-8 1874 का अविवनय म सं ० 15, जहां तक इसका संबंि 1831 के मरास विवनयम सं ० 10 की िारा 3 से है, 1890 के अविवनयम सं ० 8 द्व ारा वनरवसत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `ििथ और संखया वििय`
+  line `1 1802 29 करनाम।`
+  line `1803 1 राजस्ि बो डथ।`
+  line `1803 2 किक् र् रों आदि का आचरर्।`
+  line `2 1804 5 प्र वतपाय अविकरर्।`
+  line `1806 2 3 [ (िारा 7 िण्ड 2 ) ] किक् र् र और करनाम।`
+  line `4 1808 7 सैन्य विवि।`
+  line `1816 11 िारा 8, 9, 10 — ग्रामों के मुविया;`
+  line `िारा 11 िण्ड 1 — चुराई हु ई सम्प वत्त;`
+  line `िारा 13 — ििों का पता चिाना;`
+  line `िारा 14 — ग्रामों के मुवियों द्व ारा परररुद्ध व् य वक् त यों का रवजस् र् र; और`
+  line `िारा 47 — िावन्त बनाए रिने से भाररत मवज स् रे र्।`
+  line `5 1816 12 भूवम और उपज से संबंवित िािों का ग्र ामों और वजिा पंचायतों को वनिेि।`
+  line `1817 7 पुिों का अनुरिर्, आदि, राजगामी सम्प वत्त।`
+  line `1817 8 (केिि िारा 9 ) भारतीय अविकाररयों और वसपावहयों की सम्प िा का भू - राजस्ि की`
+  line `बकाया के विए विक्रय।`
+  line `1822 4 1802 के मरास विवनयम सं ० 25 का स् प ष् र् ी करर्।`
+  line `6 1822 7 (केिि िारा 3 का िण्ड 1 ) राजस्ि और अन्य िोक विभागों में भारती य अविकारी।`
+  line `1822 9 िोक सेिकों द्व ारा गबन और राजस्ि के मामिों में भ्र ष् र् ा चार।`
+  line `1823 3`
+  line `1828 7 अिीनस्थ और सहायक किक् र् रों की िवक्त यां।`
+  line `1829 5 वहन्िू विि और सम्प िाएं।`
+  line `1830 1 विििाओं के जिाने का प्र वतिेि।`
+  line `1831 5 (केिि िारा 7 िण्ड 2 ) अनुवचत रू प से स् र् ा म् प िगाए हु ए िस्ता िेज को स् िी कार करने`
+  line `पर अनुसवचिीय अविकारी का िावयत्ि।`
+  line `7 1831 6 आनुिंविक ग्र ाम पि।`
+  line `8 1831 10 राजस्ि की बकाया के विए अियस्कों की सम्प िा के विक्रय का प्र वतिेि।`
+  line `1832 3 1828 के मरास विवनयम सं ० 7 के अिीन, रा जस्ि प्र ाविकाररयों के आिेिों के विरुद्ध`
+  line `िािों के विए पररसीमा।`
+  line `1 1894 के मरास अविवनय म सं ० 2 द्व ारा यह विवनयम स् था नीय रू प से वनरवसत दकया गया।`
+  line `2 1874 अविवनयम सं ० 15, जहां तक 1804 के मरास विवनयम सं ० 5, जो संरिक और प्र वतपाय अविवनयम, 1890 ( 1890 का 8 ) द्व ारा वनरवसत दकया गया था, का`
+  line `संबंि है पचा त् कवथत अविवनयम द्व ारा वनरवसत दकया गया। विवनयम, मरास कोर्थ आफ िार्डसथ ऐक् र्, 1902 ( 1902 का मरास अविवनयम सं ० 1 ) द्व ारा वनरवसत`
+  line `दकया गया।`
+  line `3 िारा 1 और 7 के भाग मूि रू प से इस अनुसूची में वनिेवित दकए गए थे। सम्पू र् थ विवनयम की िारा 7 का िूसरा िण्ड ही अब िागू है, िेविए वनरसन अविवनयम, 1876`
+  line `( 1876 का 12 ) की अनुसूची का भाग 3।`
+  line `4 1922 का अविवनयम सं ० 4 की िारा 3 और अनुसूची द्व ारा वनरवसत।`
+  line `5 मरास सिे एण्ड बाऊण्ड रीज ऐक् र्, 1897 ( 1897 का मरास अविवनयम सं ० 4 ) द्व ारा 1816 का मरास विवनयम सं ० 12 उस सीमा तक वनरवसत दकया गया जहां तक,`
+  line `यह भूवम औ र फसिों के उन िािों के मामिों को िागू होता, वजन िािों की विविमान्य ता अवनवच त और वििािग्रस्त सीमा अथिा भूवम वचह्न के अििारर् पर वनभथर`
+  line `करती है।`
+  line `6 विवि अनुकूिन आिेि, 1937 द्व ारा वनरवसत।`
+  line `7 1895 के मरास अविवनयम सं ० 3 द्व ारा वनरवसत।`
+  line `8 1874 का अविवनय म सं ० 15, जहां तक इसका संबंि 1831 के मरास विवनयम सं ० 10 की िारा 3 से है, 1890 के अविवनयम सं ० 8 द्व ारा वनरवसत।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-(ि) मरास प्रे वसडेन्सी से संबंवित उच्च तम पररिि् के अविवनयम 1
-ििथ और संखया वििय
-1837 36 किक् र् रों की िावण्ड क अविकाररता।
-1839 7 तहसीििार।
-2 1840 8 पंचायतों के अविवनर्थय।
-3 1846 1 प् िी डर।
-1849 10 राजस्ि आयुक्त।
-3 1853 20 प् िी डर।
-1857 7 प्र संवििा मुक्त अवभकरर्।
-1858 1 अवनिायथ श्र म।
-1859 24 पुविस।
-तृतीय अनुसूची 4
-(िारा 5 िेविए)
-(क) मुम् ब ई विवनयम
-ििथ और संखया वििय
-1827 2 िारा 21 (जावत सबंिी प्र न ) 5 ***।
-1 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया जा चुका है, उन
-अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —
-िोप की गई अविवनयवमवतयां वनरसन अविवनयम
-1838 का अविवनयम सं ० 12.. 1878 का अविवनयम सं ० 6।
-1840 का अविवनयम सं ० 17. 1891 का अविवनयम सं ० 12।
-1852 का अविवनयम सं ० 7..
-184 4 का अविवनयम सं ० 6... 1937 का अविवनयम सं ० 3।
-1846 का अविवनयम सं ० 9... 1927 का अविवनयम सं ० 12।
-1855 का अविवनयम सं ० 10 की िारा 10.. 1901 का अविवनयम सं ० 11।
-1855 का अविवनयम सं ० 14.. 1887 का अविवनयम सं ० 8।
-1855 का अविवनयम सं ० 21. 1927 का अविवनयम सं ० 12।
-1856 का अविवनयम सं ० 8.
-1858 का अविवनयम सं ० 14.. 1890 का अविवनयम सं ० 8।
-1860 का अविवनयम सं ० 28.. 1927 का अविवनयम सं ० 12।
-1869 का अविवनयम सं ० 11.. 1891 का अविवनयम सं ० 12।
-1869 का अविवनयम सं ० 24.. 1877 का अविवनयम सं ० 18।
-2 1931 के मरास अविवनयम सं ० 7 द्व ारा वनरवसत।
-3 मरास प्रे वसडेंसी में 1846 के अविवनयम सं ० 1 और 1853 के अविवनयम सं ० 20 के वनरसन के बारे में िेविए विवि व् य िसायी अविवनयम, 1879 ( 1879 का 18 ) की
-िारा 1 और 42।
-4 1874 के अविवनयम सं ० 15, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, वनरवसत कर दिया गया था, उन
-अविवनयवमवतयों के वनिेि अनुसूची से िोप कर दिए गए हैं: —
-िोवपत अविवनयवमवतयां वनरसन अविवनयम
-1827 का बाम्बे विवनयम सं ० 12, उद्देविका..
-1827 का बाम्बे विवनयम सं ० 16... 1891 का अविवनयम सं ० 12।
-1827 का बाम्बे विवनयम सं ० 21, िारा 1 - 6, 46, 54 - 73
-1827 का विवनयम सं ० 22, िारा 18 - 20, 45 - 47.. 1889 का अविवनयम सं ० 13।
-1827 का विवनयम सं ० 25... विवि अनुकूिन आिेि, 1937।
-5 1927 के अविवनयम सं ० 12 द्व ारा कवतपय िब्ि वनरवसत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `(ि) मरास प्रे वसडेन्सी से संबंवित उच्च तम पररिि् के अविवनयम 1`
+  line `ििथ और संखया वििय`
+  line `1837 36 किक् र् रों की िावण्ड क अविकाररता।`
+  line `1839 7 तहसीििार।`
+  line `2 1840 8 पंचायतों के अविवनर्थय।`
+  line `3 1846 1 प् िी डर।`
+  line `1849 10 राजस्ि आयुक्त।`
+  line `3 1853 20 प् िी डर।`
+  line `1857 7 प्र संवििा मुक्त अवभकरर्।`
+  line `1858 1 अवनिायथ श्र म।`
+  line `1859 24 पुविस।`
+  line `तृतीय अनुसूची 4`
+  line `(िारा 5 िेविए)`
+  line `(क) मुम् ब ई विवनयम`
+  line `ििथ और संखया वििय`
+  line `1827 2 िारा 21 (जावत सबंिी प्र न ) 5 ***।`
+  line `1 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया जा चुका है, उन`
+  line `अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —`
+  line `िोप की गई अविवनयवमवतयां वनरसन अविवनयम`
+  line `1838 का अविवनयम सं ० 12.. 1878 का अविवनयम सं ० 6।`
+  line `1840 का अविवनयम सं ० 17. 1891 का अविवनयम सं ० 12।`
+  line `1852 का अविवनयम सं ० 7..`
+  line `184 4 का अविवनयम सं ० 6... 1937 का अविवनयम सं ० 3।`
+  line `1846 का अविवनयम सं ० 9... 1927 का अविवनयम सं ० 12।`
+  line `1855 का अविवनयम सं ० 10 की िारा 10.. 1901 का अविवनयम सं ० 11।`
+  line `1855 का अविवनयम सं ० 14.. 1887 का अविवनयम सं ० 8।`
+  line `1855 का अविवनयम सं ० 21. 1927 का अविवनयम सं ० 12।`
+  line `1856 का अविवनयम सं ० 8.`
+  line `1858 का अविवनयम सं ० 14.. 1890 का अविवनयम सं ० 8।`
+  line `1860 का अविवनयम सं ० 28.. 1927 का अविवनयम सं ० 12।`
+  line `1869 का अविवनयम सं ० 11.. 1891 का अविवनयम सं ० 12।`
+  line `1869 का अविवनयम सं ० 24.. 1877 का अविवनयम सं ० 18।`
+  line `2 1931 के मरास अविवनयम सं ० 7 द्व ारा वनरवसत।`
+  line `3 मरास प्रे वसडेंसी में 1846 के अविवनयम सं ० 1 और 1853 के अविवनयम सं ० 20 के वनरसन के बारे में िेविए विवि व् य िसायी अविवनयम, 1879 ( 1879 का 18 ) की`
+  line `िारा 1 और 42।`
+  line `4 1874 के अविवनयम सं ० 15, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, वनरवसत कर दिया गया था, उन`
+  line `अविवनयवमवतयों के वनिेि अनुसूची से िोप कर दिए गए हैं: —`
+  line `िोवपत अविवनयवमवतयां वनरसन अविवनयम`
+  line `1827 का बाम्बे विवनयम सं ० 12, उद्देविका..`
+  line `1827 का बाम्बे विवनयम सं ० 16... 1891 का अविवनयम सं ० 12।`
+  line `1827 का बाम्बे विवनयम सं ० 21, िारा 1 - 6, 46, 54 - 73`
+  line `1827 का विवनयम सं ० 22, िारा 18 - 20, 45 - 47.. 1889 का अविवनयम सं ० 13।`
+  line `1827 का विवनयम सं ० 25... विवि अनुकूिन आिेि, 1937।`
+  line `5 1927 के अविवनयम सं ० 12 द्व ारा कवतपय िब्ि वनरवसत।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `7
-ििथ और संखया वििय
-1827 4 िारा 26 (िािों को िागू विवि);
-िारा 69 िण्ड िो और तीन (फसिों की कुकी और करस्थ म्)।
-1827 5 उद्देविका; िारा 9 (ऋर् की अवभस्िी कृवत); िारा 14 (ब्या ज); िारा 15 (बन्ि क और
-वगरिी)।
-1827 8 सम्प िाओं का प्र बंि।
-1827 12 िारा 19 (वनयम बनाने की मवजस्रे र्ों की िवक्त ); िारा 20 ( बा र् और माप मानक);
-िारा 27, िण्ड 2 (संदिग्ि व् य वक् त यों का पयथिेिर्); िारा 31, ि ण् ड प्र थम और वद्वतीय
-(ग्रामों का िूर् के विए उत्तरिावयत्ि )।
-1827 13 िारा 34, तृतीय िण्ड (समनों के विए प्र वत स् था वपत पत्र)।
-1827 22 िारा 40, 41, 42, 43 (सैन्य िि का यात्रा व् य य)।
-1 1830 5 िारा 1 (राजस्ि आयुक्त ); िारा 2, िण्ड 1, 2, 3 (किक् र् र और उप - क िक् र् र)।
-1830 13 जागीरिारों की वसविि अविकाररता।
-1 1831 15 ग्र ाम - पर्ेि।
-1 1832 2 राजस्ि की िसूिी।
-1 1833 5 आनुिंविक अविकारी।
-(ि) मुम्ब ई प्रे वसडेन्सी से सम्ब वन्ि त उच्च तम पररिि् के अविवनयम 2
-ििथ और संखया वििय
-3 1838 16 न् या यपाविका।
-4 1838 18 प्र वतभू।
-1838 19 तर्िती जियान।
-5 1839 20 राजस्ि।
-6 1840 15 वििेिी प्र वतभुओं के अवभकताथ।
-4 1842 13 राजस्ि।
-1 1879 के बाम्बे अविवनयम सं ० 5 द्व ारा स् था नीय रू प से 1827 के बाम्बे विवनयम सं ० 4 की िारा 69 तथा 1830 के बाम्बे विवनयम सं ० 5, 1831 के बाम्बे विवनय म
-सं ० 15, 1832 के बाम्बे विवनयम सं ० 2 और 1833 के बाम्बे विवनयम सं ० 5 को वनरवसत दकया गया।
-2 1874 का अविवनयम सं ० 15 जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया गया था, उन
-अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —
-िोवपत अविवनयवमवतयां वनरसन अविवनयम
-1843 का अविवनयम सं ० 11...
-1852 का अविवनयम सं ० 3... 1891 का अविवनयम सं ० 12।
-1852 का अविवनयम सं ० 21...
-1855 का अविवनयम सं ० 10 की िारा 10... 1901 का अविवनयम सं ० 11।
-1856 का अविवनयम सं ० 8... 1894 का अविवनयम सं ० 9।
-1864 का अविवनयम सं ० 20... 1890 का अविवनयम सं ० 8।
-3 1953 के बाम्बे अविवनयम सं ० 18 द्व ारा वनरवसत।
-4 बाम्बे िैंड - रेिेन्यू कोड, 1879 ( 1879 का बाम्बे सं ० 5 ) द्व ारा 1838 का अविवनयम सं ० 18, 1842 का अविवनयम सं ० 13 और 17 तथा 1846 का अविवनयम सं ० 3 स्
-था नीय रू प से वनरवसत। 1838 के अविवनयम सं ० 18 का 1940 के अविवनयम सं ० 32 द्व ारा वनरसन।
-5 1952 के अविवनयम सं ० 48 और 1953 के बाम्बे अविवनयम सं ० 18 द्व ारा वनरवसत।
-6 मुम्ब ई में 19 53 के बाम्बे अविवनयम सं ० 18 द्व ारा वनरवसत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 7
+  line `ििथ और संखया वििय`
+  line `1827 4 िारा 26 (िािों को िागू विवि);`
+  line `िारा 69 िण्ड िो और तीन (फसिों की कुकी और करस्थ म्)।`
+  line `1827 5 उद्देविका; िारा 9 (ऋर् की अवभस्िी कृवत); िारा 14 (ब्या ज); िारा 15 (बन्ि क और`
+  line `वगरिी)।`
+  line `1827 8 सम्प िाओं का प्र बंि।`
+  line `1827 12 िारा 19 (वनयम बनाने की मवजस्रे र्ों की िवक्त ); िारा 20 ( बा र् और माप मानक);`
+  line `िारा 27, िण्ड 2 (संदिग्ि व् य वक् त यों का पयथिेिर्); िारा 31, ि ण् ड प्र थम और वद्वतीय`
+  line `(ग्रामों का िूर् के विए उत्तरिावयत्ि )।`
+  line `1827 13 िारा 34, तृतीय िण्ड (समनों के विए प्र वत स् था वपत पत्र)।`
+  line `1827 22 िारा 40, 41, 42, 43 (सैन्य िि का यात्रा व् य य)।`
+  line `1 1830 5 िारा 1 (राजस्ि आयुक्त ); िारा 2, िण्ड 1, 2, 3 (किक् र् र और उप - क िक् र् र)।`
+  line `1830 13 जागीरिारों की वसविि अविकाररता।`
+  line `1 1831 15 ग्र ाम - पर्ेि।`
+  line `1 1832 2 राजस्ि की िसूिी।`
+  line `1 1833 5 आनुिंविक अविकारी।`
+  line `(ि) मुम्ब ई प्रे वसडेन्सी से सम्ब वन्ि त उच्च तम पररिि् के अविवनयम 2`
+  line `ििथ और संखया वििय`
+  line `3 1838 16 न् या यपाविका।`
+  line `4 1838 18 प्र वतभू।`
+  line `1838 19 तर्िती जियान।`
+  line `5 1839 20 राजस्ि।`
+  line `6 1840 15 वििेिी प्र वतभुओं के अवभकताथ।`
+  line `4 1842 13 राजस्ि।`
+  line `1 1879 के बाम्बे अविवनयम सं ० 5 द्व ारा स् था नीय रू प से 1827 के बाम्बे विवनयम सं ० 4 की िारा 69 तथा 1830 के बाम्बे विवनयम सं ० 5, 1831 के बाम्बे विवनय म`
+  line `सं ० 15, 1832 के बाम्बे विवनयम सं ० 2 और 1833 के बाम्बे विवनयम सं ० 5 को वनरवसत दकया गया।`
+  line `2 1874 का अविवनयम सं ० 15 जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया गया था, उन`
+  line `अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —`
+  line `िोवपत अविवनयवमवतयां वनरसन अविवनयम`
+  line `1843 का अविवनयम सं ० 11...`
+  line `1852 का अविवनयम सं ० 3... 1891 का अविवनयम सं ० 12।`
+  line `1852 का अविवनयम सं ० 21...`
+  line `1855 का अविवनयम सं ० 10 की िारा 10... 1901 का अविवनयम सं ० 11।`
+  line `1856 का अविवनयम सं ० 8... 1894 का अविवनयम सं ० 9।`
+  line `1864 का अविवनयम सं ० 20... 1890 का अविवनयम सं ० 8।`
+  line `3 1953 के बाम्बे अविवनयम सं ० 18 द्व ारा वनरवसत।`
+  line `4 बाम्बे िैंड - रेिेन्यू कोड, 1879 ( 1879 का बाम्बे सं ० 5 ) द्व ारा 1838 का अविवनयम सं ० 18, 1842 का अविवनयम सं ० 13 और 17 तथा 1846 का अविवनयम सं ० 3 स्`
+  line `था नीय रू प से वनरवसत। 1838 के अविवनयम सं ० 18 का 1940 के अविवनयम सं ० 32 द्व ारा वनरसन।`
+  line `5 1952 के अविवनयम सं ० 48 और 1953 के बाम्बे अविवनयम सं ० 18 द्व ारा वनरवसत।`
+  line `6 मुम्ब ई में 19 53 के बाम्बे अविवनयम सं ० 18 द्व ारा वनरवसत।`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `8
-ििथ और संखया वििय
-1 1842 17 राजस्ि आयुक्त।
-2 1844 19 नगर िु कों का उ त् सा िन।
-3 1846 1 प् िी डर।
-1 1846 3 िारा 1, 5 और 6 — सीमा वच ह् न।
-3 1853 20 प् िी डर।
-चतु थथ अनुसूची 4
-(िारा 6 िेविए)
-(क) बंगाि विवनयम (वनचिे प्र ांत)
-ििथ और संखया वििय
-1793 1 िाि त बन् िो बस्त।
-1793 2 भू - राजस्ि का संग्रहर्।
-1793 8 िस ििीय बन्िो बस्त के विए वनयम।
-1793 11 राजस्ि िेने िािी भूवम की विरासत की भारतीय विवियां।
-1793 19 राजस्ि से छूर् प्र ाप्त भूवमयों पर हक।
-1793 37 बाििाही अनुिानों के अिीन राजस्ि से छूर् प्र ा प् त भूवमयों पर हक।
-1793 38 िारा 1 उद्देविका: िारा 2 — प्र संवििाबद्ध सेिक द्व ारा उिार दिए जाने का प्र वतिे ि।
-1794 3 िारा 13, 16, 17, 19 और 20 — राजस्ि की बकाया।
-1799 5 भारतीयों के विि और वनिथसीयतता।
-1800 8 भूवमयों का परगना रवजस् र् र।
-1 बाम्बे िैंड - रेिेन्यू कोड, 1879 ( 1879 का बाम्बे सं ० 5 ) द्व ारा 1838 का अविवनयम सं ० 18, 1842 का अविवनयम सं ० 13 और 17 तथा 1846 का अविवनयम सं ० 3 स्
-था नीय रू प से वनरवसत। 1838 के अविवनयम सं ० 18 का 1940 के अविवन यम सं ० 32 द्व ारा वनरसन।
-2 मुम्ब ई में 1953 के बाम्बे अविवनयम सं ० 18 द्व ारा वनरवसत।
-3 बोम्बे प्रे वसडेंसी में 1846 के अविवनयम सं ० 1 और 1853 के अविवनयम सं ० 20 के वनरसन के बारे में िेविए विवि व् य िसायी अविवनयम, 1879 ( 1879 का 18 ) की
-िारा 1 और 42।
-4 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया गया था, उन
-अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —
-िोवपत अविवनयवमवतयां वनरसन अविवनयम
-1793 का अ विवनयम सं ० 48... 1891 का अविवनयम सं ० 12।
-1794 का बंगाि विवनयम सं ० 3 की िारा 12..
-1795 का बंगाि विवनयम सं ० 58 की िारा 3 और 4.. 1876 का अविवनयम सं ० 12।
-1797 का बंगाि वि वनयम सं ० 15...
-1798 का बंगाि विवनयम सं ० 1... 1891 का अविवनयम सं ० 12।
-1806 का बंगाि विवनयम सं ० 17 की िारा 7 और 8..
-1810 का बंगाि विवनयम सं ० 20... 1889 का अविवनयम सं ० 13।
-1811 का बंगाि विवनयम सं ० 11.. 1891 का अविवनयम सं ० 12।
-1814 का बंगाि विवनयम सं ० 19..
-1817 का बंगाि विवनयम सं ० 5... 1878 का अविवनयम सं ० 6।
-1817 का बंगाि विवनयम सं ० 20 की िारा 28 और िारा 32. 1891 का अविवनयम सं ० 12।
-1818 का बंगाि विवनयम सं ० 3... विवि अनुकूिन आिेि, 1937।
-1819 का बंगाि विवनयम सं ० 6... 1891 का अविवनयम सं ० 12।
-1825 का बंगाि विवनयम सं ० 20... 1882 का अविवनयम सं ० 10।
-1829 का बंगाि विवनयम सं ० 4... 1876 का अविवनयम सं ० 12।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 8
+  line `ििथ और संखया वििय`
+  line `1 1842 17 राजस्ि आयुक्त।`
+  line `2 1844 19 नगर िु कों का उ त् सा िन।`
+  line `3 1846 1 प् िी डर।`
+  line `1 1846 3 िारा 1, 5 और 6 — सीमा वच ह् न।`
+  line `3 1853 20 प् िी डर।`
+  line `चतु थथ अनुसूची 4`
+  line `(िारा 6 िेविए)`
+  line `(क) बंगाि विवनयम (वनचिे प्र ांत)`
+  line `ििथ और संखया वििय`
+  line `1793 1 िाि त बन् िो बस्त।`
+  line `1793 2 भू - राजस्ि का संग्रहर्।`
+  line `1793 8 िस ििीय बन्िो बस्त के विए वनयम।`
+  line `1793 11 राजस्ि िेने िािी भूवम की विरासत की भारतीय विवियां।`
+  line `1793 19 राजस्ि से छूर् प्र ाप्त भूवमयों पर हक।`
+  line `1793 37 बाििाही अनुिानों के अिीन राजस्ि से छूर् प्र ा प् त भूवमयों पर हक।`
+  line `1793 38 िारा 1 उद्देविका: िारा 2 — प्र संवििाबद्ध सेिक द्व ारा उिार दिए जाने का प्र वतिे ि।`
+  line `1794 3 िारा 13, 16, 17, 19 और 20 — राजस्ि की बकाया।`
+  line `1799 5 भारतीयों के विि और वनिथसीयतता।`
+  line `1800 8 भूवमयों का परगना रवजस् र् र।`
+  line `1 बाम्बे िैंड - रेिेन्यू कोड, 1879 ( 1879 का बाम्बे सं ० 5 ) द्व ारा 1838 का अविवनयम सं ० 18, 1842 का अविवनयम सं ० 13 और 17 तथा 1846 का अविवनयम सं ० 3 स्`
+  line `था नीय रू प से वनरवसत। 1838 के अविवनयम सं ० 18 का 1940 के अविवन यम सं ० 32 द्व ारा वनरसन।`
+  line `2 मुम्ब ई में 1953 के बाम्बे अविवनयम सं ० 18 द्व ारा वनरवसत।`
+  line `3 बोम्बे प्रे वसडेंसी में 1846 के अविवनयम सं ० 1 और 1853 के अविवनयम सं ० 20 के वनरसन के बारे में िेविए विवि व् य िसायी अविवनयम, 1879 ( 1879 का 18 ) की`
+  line `िारा 1 और 42।`
+  line `4 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया गया था, उन`
+  line `अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —`
+  line `िोवपत अविवनयवमवतयां वनरसन अविवनयम`
+  line `1793 का अ विवनयम सं ० 48... 1891 का अविवनयम सं ० 12।`
+  line `1794 का बंगाि विवनयम सं ० 3 की िारा 12..`
+  line `1795 का बंगाि विवनयम सं ० 58 की िारा 3 और 4.. 1876 का अविवनयम सं ० 12।`
+  line `1797 का बंगाि वि वनयम सं ० 15...`
+  line `1798 का बंगाि विवनयम सं ० 1... 1891 का अविवनयम सं ० 12।`
+  line `1806 का बंगाि विवनयम सं ० 17 की िारा 7 और 8..`
+  line `1810 का बंगाि विवनयम सं ० 20... 1889 का अविवनयम सं ० 13।`
+  line `1811 का बंगाि विवनयम सं ० 11.. 1891 का अविवनयम सं ० 12।`
+  line `1814 का बंगाि विवनयम सं ० 19..`
+  line `1817 का बंगाि विवनयम सं ० 5... 1878 का अविवनयम सं ० 6।`
+  line `1817 का बंगाि विवनयम सं ० 20 की िारा 28 और िारा 32. 1891 का अविवनयम सं ० 12।`
+  line `1818 का बंगाि विवनयम सं ० 3... विवि अनुकूिन आिेि, 1937।`
+  line `1819 का बंगाि विवनयम सं ० 6... 1891 का अविवनयम सं ० 12।`
+  line `1825 का बंगाि विवनयम सं ० 20... 1882 का अविवनयम सं ० 10।`
+  line `1829 का बंगाि विवनयम सं ० 4... 1876 का अविवनयम सं ० 12।`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `9
-ििथ और संखया वििय
-1801 1 राजस्ि की बकाया, संयुक्त संपिा का विभाजन।
-1 1804 10 कवतपय राज्य अपरािों के विए से ना न् या यािय द्व ारा िण्ड दिया जाना।
-1806 11 सैन्य ििों का यात्रा व् य य।
-1810 19 पुिों का अनुरिर् आदि; राजगामी संपवत्त।
-1812 5 भू - राजस्ि का संग्रहर्।
-1812 11 वििेिी उत् प्र िावसयों को हर्ाना।
-1817 20 िारा 20 — नमक और अफीम विभागों में िावण्ड क प्र दक्रया — िारा 30, िण्ड 1, 2 और
-5 — दकिों का वनमाथर्, वसपावहयों और स् र् ो र का संग्रह करना, मागों पर अविक्रमर्।
-1819 2 राजस्ि मुक्त भूवमयों का पुनग्रथहर्।
-1821 4 किक् र् रों और मवजस्रे र्ों की िवक्त यां।
-2 1822 3 भू - राजस्ि के बोडथ।
-1822 11 िारा 36 — सरकार द्व ारा िरीिों का िास प्र बन्ि। िारा 38 — न् या याियों की गिवतयों
-के विए सरकार का िायी न होना।
-1823 6 नीि संवििाएं।
-1823 7 प्र संवििाबद्ध वसविि सेिकों को उिार दिए जाने का प्र वतिेि।
-1825 6 सैन्य ििों का यात्रा व् य य।
-1825 9 व् य वतक्रमी माि - गुजार।
-1825 11 जिोढ़ और आप्िा ि वनिेप।
-1825 13 पुन: गृहीत ििीराज भूवम का बंिोबस्त।
-1825 14 ििीराज भू - िृ वतयों की पुवष् र् का प्र ाविकार; िेिी अनुिान।
-1 1827 3 िारा 5 — साक्ष्य।
-1827 5 कुकी के अिीन सम्प िाओं का प्र बंि।
-1828 3 राजस्ि प्र ाविकाररयों के विवनच यों से अपीि।
-1828 4 िारा 1 और िारा 2 िण्ड 4 — समय वजसके िौरान किक् र् रों को बंिोबस्त करने में िगा हु
-आ समझा जाए।
-1829 1 राजस्ि आयुक्त और राजस्ि बोडथ।
-1829 17 विििाओं का जिाना।
-1830 5 िारा 1 और 5 — नीि संवििाएं।
-(ि) वनचिे प्र ांतों से सम्ब वन्ि त उच्च तम पररिि् के अविवनयम 3
-ििथ और संखया वििय
-1836 10 नीि संवििा।
-1 वििेि विवि वनरसन अविवनयम, 1922 ( 1922 का 4 ) की िारा 3 और अनुसूची द्व ारा वनरवस त।
-2 बंगाि बोडथ आफ रेिेन्यू ऐक् र्, 1913 ( 1913 का बंगाि अविवनयम सं ० 2 ) द्व ारा वनरवसत।
-3 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया जा चुका है, उन
-अविवनयवमवतयों के वनिे ि इस अनुसूची से िोप कर दिए गए हैं: —
-िोवपत अविवनयवमवतयां वनरसन अविवनयम
-1836 का अविवनयम सं ० 20.. 1891 का अविवनयम सं ० 12।
-1838 का अविवनयम सं ० 11.
-1853 का अविवनयम सं ० 19 की िारा 26... 1903 का अविवनयम सं ० 1।
-1856 का अविवनयम सं ० 2 0... 1891 का अविवनयम सं ० 12।
-1856 का अविवनयम सं ० 21
-1858 का अविवनयम सं ० 40... 1890 का अविवनयम सं ० 8।
-1860 का अविवनयम सं ० 23... 1891 का अविवनयम सं ० 12।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 9
+  line `ििथ और संखया वििय`
+  line `1801 1 राजस्ि की बकाया, संयुक्त संपिा का विभाजन।`
+  line `1 1804 10 कवतपय राज्य अपरािों के विए से ना न् या यािय द्व ारा िण्ड दिया जाना।`
+  line `1806 11 सैन्य ििों का यात्रा व् य य।`
+  line `1810 19 पुिों का अनुरिर् आदि; राजगामी संपवत्त।`
+  line `1812 5 भू - राजस्ि का संग्रहर्।`
+  line `1812 11 वििेिी उत् प्र िावसयों को हर्ाना।`
+  line `1817 20 िारा 20 — नमक और अफीम विभागों में िावण्ड क प्र दक्रया — िारा 30, िण्ड 1, 2 और`
+  line `5 — दकिों का वनमाथर्, वसपावहयों और स् र् ो र का संग्रह करना, मागों पर अविक्रमर्।`
+  line `1819 2 राजस्ि मुक्त भूवमयों का पुनग्रथहर्।`
+  line `1821 4 किक् र् रों और मवजस्रे र्ों की िवक्त यां।`
+  line `2 1822 3 भू - राजस्ि के बोडथ।`
+  line `1822 11 िारा 36 — सरकार द्व ारा िरीिों का िास प्र बन्ि। िारा 38 — न् या याियों की गिवतयों`
+  line `के विए सरकार का िायी न होना।`
+  line `1823 6 नीि संवििाएं।`
+  line `1823 7 प्र संवििाबद्ध वसविि सेिकों को उिार दिए जाने का प्र वतिेि।`
+  line `1825 6 सैन्य ििों का यात्रा व् य य।`
+  line `1825 9 व् य वतक्रमी माि - गुजार।`
+  line `1825 11 जिोढ़ और आप्िा ि वनिेप।`
+  line `1825 13 पुन: गृहीत ििीराज भूवम का बंिोबस्त।`
+  line `1825 14 ििीराज भू - िृ वतयों की पुवष् र् का प्र ाविकार; िेिी अनुिान।`
+  line `1 1827 3 िारा 5 — साक्ष्य।`
+  line `1827 5 कुकी के अिीन सम्प िाओं का प्र बंि।`
+  line `1828 3 राजस्ि प्र ाविकाररयों के विवनच यों से अपीि।`
+  line `1828 4 िारा 1 और िारा 2 िण्ड 4 — समय वजसके िौरान किक् र् रों को बंिोबस्त करने में िगा हु`
+  line `आ समझा जाए।`
+  line `1829 1 राजस्ि आयुक्त और राजस्ि बोडथ।`
+  line `1829 17 विििाओं का जिाना।`
+  line `1830 5 िारा 1 और 5 — नीि संवििाएं।`
+  line `(ि) वनचिे प्र ांतों से सम्ब वन्ि त उच्च तम पररिि् के अविवनयम 3`
+  line `ििथ और संखया वििय`
+  line `1836 10 नीि संवििा।`
+  line `1 वििेि विवि वनरसन अविवनयम, 1922 ( 1922 का 4 ) की िारा 3 और अनुसूची द्व ारा वनरवस त।`
+  line `2 बंगाि बोडथ आफ रेिेन्यू ऐक् र्, 1913 ( 1913 का बंगाि अविवनयम सं ० 2 ) द्व ारा वनरवसत।`
+  line `3 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया जा चुका है, उन`
+  line `अविवनयवमवतयों के वनिे ि इस अनुसूची से िोप कर दिए गए हैं: —`
+  line `िोवपत अविवनयवमवतयां वनरसन अविवनयम`
+  line `1836 का अविवनयम सं ० 20.. 1891 का अविवनयम सं ० 12।`
+  line `1838 का अविवनयम सं ० 11.`
+  line `1853 का अविवनयम सं ० 19 की िारा 26... 1903 का अविवनयम सं ० 1।`
+  line `1856 का अविवनयम सं ० 2 0... 1891 का अविवनयम सं ० 12।`
+  line `1856 का अविवनयम सं ० 21`
+  line `1858 का अविवनयम सं ० 40... 1890 का अविवनयम सं ० 8।`
+  line `1860 का अविवनयम सं ० 23... 1891 का अविवनयम सं ० 12।`
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_10:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-10)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Page 10`)
-  (str content) (str `10
-ििथ और संखया वििय
-1836 21 वजिों का बनाया जाना।
-1841 12 िारा 2 — भू - रा जस्ि की बकाया पर कोई ब् या ज न होना।
-1847 9 नई भूवमयों का वनिाथरर्।
-1848 20 भू - राजस्ि।
-1 1850 44 राजस्ि बो डथ।
-2 1855 32 बांि।
-1856 12 वसविि न् या यािय अमीन।
-1857 13 अफीम।
-1858 31 जिोढ़ का बन् िो बस्त।
-1859 11 राजस्ि की बकाया के विए विक्रय।
-पांचिीं अनुसूची 3
-(िारा 7 िेविए)
-(क) बंगाि विवनयम (उत्तर - पवच मी प्र ां त) 3
-ििथ और संखया वििय
-1793 38 िारा 1 — उद्देविका, िारा 2 — प्रसंवििाबद्ध सेिकों द्व ारा उिारों का प्र वतिेि
-1799 5 भारतीयों के वि ि और उनका प्र िासन
-4 1804 10 कवतपय राज्य अपरािों में से ना न् या याियों द्व ारा िण्ड।
-1806 11 सैन्य िि का यात्रा व् य य।
-1812 11 वििेिी उत् प्र िावसयों को हर्ाया जाना।
-1822 11 िारा 38 — न् या याियों की गिवतयों के विए सरकार का िायी न होना
-1823 6 नीि संवििाएं
-1 बंगाि बोडथ आफ रेिेन्यू ऐक् र्, 1913 ( 1913 का बंगाि अविवनयम सं ० 2 ) द्व ारा वन रवसत।
-2 बंगाि एम्बैं कमेंट्स ऐक् र्, 1873 ( 1873 का बंगाि अविवनयम सं ० 6 ) द्व ारा 1855 के अविवनयम सं ० 32 को स् था नीय रू प में बंगाि में वनरवसत दकया गया।
-3 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवन यमों द्व ारा वनरवसत दकया जा चुका है, उन
-अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —
-िोवपत अविवनयवमवतयां वनरसन अविवनयम
-1798 का बंगाि विवनयम सं ० 1..
-1806 का बंगाि विवनयम सं ० 17 की िारा 7 और 8. 1891 का अविवनयम सं ० 12।
-1810 का बंगाि विवनयम सं ० 19...
-1810 का बंगाि विवनयम सं ० 20... 1889 का अविवनयम सं ० 13।
-1817 का बंगाि विवनयम सं ० 5... 1891 का अविवनयम सं ० 12।
-1818 का बंगाि विवनयम सं ० 3... विवि अनुकूिन आिेि, 1937।
-1819 का बंगाि विवनयम सं ० 6... 1 891 का अविवनयम सं ० 12।
-1825 का बंगाि विवनयम सं ० 20... 1882 का अविवनयम सं ० 10।
-1831 का बंगाि विवनयम सं ० 6 की िारा 6. 1819 का अविवनयम सं ० 12।
-1831 का बंगाि विवनयम सं ० 11 की िारा 4 और 8
-1833 का बंगाि विवनयम सं ० 1... 1875 का अवि वनयम सं ० 8।
-4 1922 के अविवनयम सं ० 4 की िारा 3 और अनुसूची द्व ारा वनरवसत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 10)
+  kind page
+  sectionId pdf-page-10
+  sectionNo (10)
+  orderNo 10
+  title `Page 10`
+  content obj_root_law_translations_hi_sections_10_content
+  footnotes obj_root_law_translations_hi_sections_10_footnotes
+  sourcePage 10
+obj_root_law_translations_hi_sections_10_content:
+  string
+  line 10
+  line `ििथ और संखया वििय`
+  line `1836 21 वजिों का बनाया जाना।`
+  line `1841 12 िारा 2 — भू - रा जस्ि की बकाया पर कोई ब् या ज न होना।`
+  line `1847 9 नई भूवमयों का वनिाथरर्।`
+  line `1848 20 भू - राजस्ि।`
+  line `1 1850 44 राजस्ि बो डथ।`
+  line `2 1855 32 बांि।`
+  line `1856 12 वसविि न् या यािय अमीन।`
+  line `1857 13 अफीम।`
+  line `1858 31 जिोढ़ का बन् िो बस्त।`
+  line `1859 11 राजस्ि की बकाया के विए विक्रय।`
+  line `पांचिीं अनुसूची 3`
+  line `(िारा 7 िेविए)`
+  line `(क) बंगाि विवनयम (उत्तर - पवच मी प्र ां त) 3`
+  line `ििथ और संखया वििय`
+  line `1793 38 िारा 1 — उद्देविका, िारा 2 — प्रसंवििाबद्ध सेिकों द्व ारा उिारों का प्र वतिेि`
+  line `1799 5 भारतीयों के वि ि और उनका प्र िासन`
+  line `4 1804 10 कवतपय राज्य अपरािों में से ना न् या याियों द्व ारा िण्ड।`
+  line `1806 11 सैन्य िि का यात्रा व् य य।`
+  line `1812 11 वििेिी उत् प्र िावसयों को हर्ाया जाना।`
+  line `1822 11 िारा 38 — न् या याियों की गिवतयों के विए सरकार का िायी न होना`
+  line `1823 6 नीि संवििाएं`
+  line `1 बंगाि बोडथ आफ रेिेन्यू ऐक् र्, 1913 ( 1913 का बंगाि अविवनयम सं ० 2 ) द्व ारा वन रवसत।`
+  line `2 बंगाि एम्बैं कमेंट्स ऐक् र्, 1873 ( 1873 का बंगाि अविवनयम सं ० 6 ) द्व ारा 1855 के अविवनयम सं ० 32 को स् था नीय रू प में बंगाि में वनरवसत दकया गया।`
+  line `3 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवन यमों द्व ारा वनरवसत दकया जा चुका है, उन`
+  line `अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —`
+  line `िोवपत अविवनयवमवतयां वनरसन अविवनयम`
+  line `1798 का बंगाि विवनयम सं ० 1..`
+  line `1806 का बंगाि विवनयम सं ० 17 की िारा 7 और 8. 1891 का अविवनयम सं ० 12।`
+  line `1810 का बंगाि विवनयम सं ० 19...`
+  line `1810 का बंगाि विवनयम सं ० 20... 1889 का अविवनयम सं ० 13।`
+  line `1817 का बंगाि विवनयम सं ० 5... 1891 का अविवनयम सं ० 12।`
+  line `1818 का बंगाि विवनयम सं ० 3... विवि अनुकूिन आिेि, 1937।`
+  line `1819 का बंगाि विवनयम सं ० 6... 1 891 का अविवनयम सं ० 12।`
+  line `1825 का बंगाि विवनयम सं ० 20... 1882 का अविवनयम सं ० 10।`
+  line `1831 का बंगाि विवनयम सं ० 6 की िारा 6. 1819 का अविवनयम सं ० 12।`
+  line `1831 का बंगाि विवनयम सं ० 11 की िारा 4 और 8`
+  line `1833 का बंगाि विवनयम सं ० 1... 1875 का अवि वनयम सं ० 8।`
+  line `4 1922 के अविवनयम सं ० 4 की िारा 3 और अनुसूची द्व ारा वनरवसत।`
+obj_root_law_translations_hi_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_11:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-11)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Page 11`)
-  (str content) (str `11
-ििथ और संखया वििय
-1823 7 प्र वसिंिाबद्ध वसविि सेिकों को उिार दिए जाने का प्र वतिेि।
-1825 6 सै न् य िि का यात्रा व् य य
-1825 11 जिोढ़ और आप्िा ि वनिेप
-1827 3 िारा 5 — साक्ष्य
-1827 5 कुकी के अिीन संपिाओं का प्र बन्ि
-1829 17 विििाओं को जिाना
-1830 5 िारा 1 और 5 — नीि संवििाएं
-1831 11 िारा 1, 2, 5, 6 — तहसीििारों की पुविस िवक्त यां।
-1833 9 उप - किक् र् र।
-(ि) उत्तर - पवच मी प्र ांतों से सम्ब वन्ि त उच्च तम पररिि् के अविवनयम 1
-ििथ और संखया वििय
-1836 10 नीि संवििाएं।
-1854 16 पुविस।
-1856 12 वसविि न् या यािय अमीन।
-2 1856 20 चौकीिार।
-1857 13 अफीम।
-छ ठी अ नुसूची
-(िारा 2, 3, 5, 6 और 7 िेविए)
-भाग 1
-मरास के अनुसूवचत वजिे
-I — गंजाम में
-( 1 ) गु मसुर मविया, वजसमें चौकापाड़ भी है। ( 8 ) कोराड़ा और रोना बा के मुत्ता (जो अन्य था श्र ीकमथ कहिाते हैं)।
-( 2 ) सुराडा मविया। ( 9 ) 3 * * * *
-( 3 ) वचन्ना दकमेडी मविया। ( 10 ) जुराडा मविया।
-( 4 ) पेद्दा दकमेडी मविया। ( 11 ) जित्रा मविया।
-( 5 ) िोड़ा गुड़ा मविया। ( 12 ) मन्िा सा मविया।
-( 6 ) सुरंगी मविया। ( 13 ) बुराससंघी मविया।
-( 7 ) पारिा दकमेडी मविया। ( 14 ) कुटर्ंवगया मविया।
-1 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया जा चुका है, उन
-अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —
-िोवपत अविवनयवमवतयां वनरसन अविवनयम
-1836 का अविवनयम सं ० 21.. 1903 का अविवनयम सं ० 1।
-1853 का अविवनयम सं ० 19 की िारा 26..
-1858 का अविवनयम सं ० 40... 1890 का अविवनयम सं ० 8।
-2 यू ० पी ० र् ाउन एररयाज ऐक् र्, 1914 ( 1914 का यू ० पी ० अविवनयम सं ० 2 ) की िारा 41 द्व ारा 1856 का अविवनयम सं ० 20 उत्तर प्र िेि में वनरवसत दकया गया।
-3 1881 के अविवनयम सं ० 12 द्व ारा मि ( 9 ) “ वचघार्ी माविहा ” वनरवसत दकया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 11)
+  kind page
+  sectionId pdf-page-11
+  sectionNo (11)
+  orderNo 11
+  title `Page 11`
+  content obj_root_law_translations_hi_sections_11_content
+  footnotes obj_root_law_translations_hi_sections_11_footnotes
+  sourcePage 11
+obj_root_law_translations_hi_sections_11_content:
+  string
+  line 11
+  line `ििथ और संखया वििय`
+  line `1823 7 प्र वसिंिाबद्ध वसविि सेिकों को उिार दिए जाने का प्र वतिेि।`
+  line `1825 6 सै न् य िि का यात्रा व् य य`
+  line `1825 11 जिोढ़ और आप्िा ि वनिेप`
+  line `1827 3 िारा 5 — साक्ष्य`
+  line `1827 5 कुकी के अिीन संपिाओं का प्र बन्ि`
+  line `1829 17 विििाओं को जिाना`
+  line `1830 5 िारा 1 और 5 — नीि संवििाएं`
+  line `1831 11 िारा 1, 2, 5, 6 — तहसीििारों की पुविस िवक्त यां।`
+  line `1833 9 उप - किक् र् र।`
+  line `(ि) उत्तर - पवच मी प्र ांतों से सम्ब वन्ि त उच्च तम पररिि् के अविवनयम 1`
+  line `ििथ और संखया वििय`
+  line `1836 10 नीि संवििाएं।`
+  line `1854 16 पुविस।`
+  line `1856 12 वसविि न् या यािय अमीन।`
+  line `2 1856 20 चौकीिार।`
+  line `1857 13 अफीम।`
+  line `छ ठी अ नुसूची`
+  line `(िारा 2, 3, 5, 6 और 7 िेविए)`
+  line `भाग 1`
+  line `मरास के अनुसूवचत वजिे`
+  line `I — गंजाम में`
+  line `( 1 ) गु मसुर मविया, वजसमें चौकापाड़ भी है। ( 8 ) कोराड़ा और रोना बा के मुत्ता (जो अन्य था श्र ीकमथ कहिाते हैं)।`
+  line `( 2 ) सुराडा मविया। ( 9 ) 3 * * * *`
+  line `( 3 ) वचन्ना दकमेडी मविया। ( 10 ) जुराडा मविया।`
+  line `( 4 ) पेद्दा दकमेडी मविया। ( 11 ) जित्रा मविया।`
+  line `( 5 ) िोड़ा गुड़ा मविया। ( 12 ) मन्िा सा मविया।`
+  line `( 6 ) सुरंगी मविया। ( 13 ) बुराससंघी मविया।`
+  line `( 7 ) पारिा दकमेडी मविया। ( 14 ) कुटर्ंवगया मविया।`
+  line `1 1874 का अविवनयम सं ० 15, जहां तक वनम्न विवित अविवनयवमवतयों का संबंि है, प्रत् ये क के सामने िर्िथत अविवनयमों द्व ारा वनरवसत दकया जा चुका है, उन`
+  line `अविवनयवमवतयों के वनिेि इस अनुसूची से िोप कर दिए गए हैं: —`
+  line `िोवपत अविवनयवमवतयां वनरसन अविवनयम`
+  line `1836 का अविवनयम सं ० 21.. 1903 का अविवनयम सं ० 1।`
+  line `1853 का अविवनयम सं ० 19 की िारा 26..`
+  line `1858 का अविवनयम सं ० 40... 1890 का अविवनयम सं ० 8।`
+  line `2 यू ० पी ० र् ाउन एररयाज ऐक् र्, 1914 ( 1914 का यू ० पी ० अविवनयम सं ० 2 ) की िारा 41 द्व ारा 1856 का अविवनयम सं ० 20 उत्तर प्र िेि में वनरवसत दकया गया।`
+  line `3 1881 के अविवनयम सं ० 12 द्व ारा मि ( 9 ) “ वचघार्ी माविहा ” वनरवसत दकया गया।`
+obj_root_law_translations_hi_sections_11_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_12:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-12)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Page 12`)
-  (str content) (str `12
-II — वि िािापत्तनम में
-( 1 ) जेपुर जमींिा री ( 6 ) मैरंगी जमींिारी में भीडेमकोिा।
-( 2 ) बोढ़रू निी के पवच म में गोिकुं ड़ा पहावड़यां। 1 [ ( 7 ) मेरंगी का कोंडा मुत्ता। ]
-( 3 ) मुड़गोि मविया। ( 8 ) कुरपम के गुम् मा और कोंडा मुत्ता।
-( 4 ) कासीपुर जमींिारी। ( 9 ) पािकुंडा के कुरपम, राम और कोंडा मुत्ता।
-( 5 ) पंछीपेर्ा मविया।
-II I — गोिािरी वजिे में 2
-( 1 ) भराचिम तािुक। ( 3 ) राम्पा प्र िेि।
-( 2 ) रैकावप िी तािुक।
-IV — वहन्ि महासागर में
-िक्का द्व ीप द्व ीपसमूह वजसमें वमवनकाय भी है।
-भाग 2
-मुम् ब ई के अनुसूवचत वजिे
-I — वसन्ि प्र ांत 3
-4 * * * *
-III — अिन 5
-IV — वनवम्न विवित महिासी प्र मुिों के स् िा वमत्िा िीन ग्र ाम
-( 1 ) काठी का परिी। ( 4 ) गािहिी का ि िी।
-( 2 ) नाि का परिी। ( 5 ) वचििी का िासिा।
-( 3 ) ससंगपुर का परिी। ( 6 ) नििपुर का परिी।
-1 1891 के अविवनयम सं ० 12 द्व ारा “ ( 7 ) बेिगाम का कोंडा मुत्ता ” के स् था न प र प्र वतस्था वपत।
-2 गोिकुंडा पहावड़यों में िुचारती और गुडीतेरू मुत्ताओं को वििािापत्तनम से गोिािरी वजिे में अंतररत कर दिया गया है।
-िेविए फोर्थ सैंर् जाजथ गजर्, 1881, भाग 1, पृ ० 336।
-अनुसूवचत वजिा अविवनयम, 1874 ( 1874 का 14) के प्र योजन के विए गोिािरी वज िे के कुछ गांि और संम्प िाएं अनुसूवचत वजिे बन गए; दकन्तु विवि स् था नीय
-विस् ता र अविवनयम, 1874 के अथथ में िे अनुसूवचत वजिे नहीं हैं।
-3 15 अगस्त, 1947 से भारत का भाग नहीं रहा।
-4 1885 के अविवनयम सं ० 7 द्व ारा, 1 मई, 1895 से, मि 2 “ पंच महि ” वनरवसत।
-5 1 अप्रैि, 1937 से अिन भारत का भाग नहीं रहा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 12)
+  kind page
+  sectionId pdf-page-12
+  sectionNo (12)
+  orderNo 12
+  title `Page 12`
+  content obj_root_law_translations_hi_sections_12_content
+  footnotes obj_root_law_translations_hi_sections_12_footnotes
+  sourcePage 12
+obj_root_law_translations_hi_sections_12_content:
+  string
+  line 12
+  line `II — वि िािापत्तनम में`
+  line `( 1 ) जेपुर जमींिा री ( 6 ) मैरंगी जमींिारी में भीडेमकोिा।`
+  line `( 2 ) बोढ़रू निी के पवच म में गोिकुं ड़ा पहावड़यां। 1 [ ( 7 ) मेरंगी का कोंडा मुत्ता। ]`
+  line `( 3 ) मुड़गोि मविया। ( 8 ) कुरपम के गुम् मा और कोंडा मुत्ता।`
+  line `( 4 ) कासीपुर जमींिारी। ( 9 ) पािकुंडा के कुरपम, राम और कोंडा मुत्ता।`
+  line `( 5 ) पंछीपेर्ा मविया।`
+  line `II I — गोिािरी वजिे में 2`
+  line `( 1 ) भराचिम तािुक। ( 3 ) राम्पा प्र िेि।`
+  line `( 2 ) रैकावप िी तािुक।`
+  line `IV — वहन्ि महासागर में`
+  line `िक्का द्व ीप द्व ीपसमूह वजसमें वमवनकाय भी है।`
+  line `भाग 2`
+  line `मुम् ब ई के अनुसूवचत वजिे`
+  line `I — वसन्ि प्र ांत 3`
+  line `4 * * * *`
+  line `III — अिन 5`
+  line `IV — वनवम्न विवित महिासी प्र मुिों के स् िा वमत्िा िीन ग्र ाम`
+  line `( 1 ) काठी का परिी। ( 4 ) गािहिी का ि िी।`
+  line `( 2 ) नाि का परिी। ( 5 ) वचििी का िासिा।`
+  line `( 3 ) ससंगपुर का परिी। ( 6 ) नििपुर का परिी।`
+  line `1 1891 के अविवनयम सं ० 12 द्व ारा “ ( 7 ) बेिगाम का कोंडा मुत्ता ” के स् था न प र प्र वतस्था वपत।`
+  line `2 गोिकुंडा पहावड़यों में िुचारती और गुडीतेरू मुत्ताओं को वििािापत्तनम से गोिािरी वजिे में अंतररत कर दिया गया है।`
+  line `िेविए फोर्थ सैंर् जाजथ गजर्, 1881, भाग 1, पृ ० 336।`
+  line `अनुसूवचत वजिा अविवनयम, 1874 ( 1874 का 14) के प्र योजन के विए गोिािरी वज िे के कुछ गांि और संम्प िाएं अनुसूवचत वजिे बन गए; दकन्तु विवि स् था नीय`
+  line `विस् ता र अविवनयम, 1874 के अथथ में िे अनुसूवचत वजिे नहीं हैं।`
+  line `3 15 अगस्त, 1947 से भारत का भाग नहीं रहा।`
+  line `4 1885 के अविवनयम सं ० 7 द्व ारा, 1 मई, 1895 से, मि 2 “ पंच महि ” वनरवसत।`
+  line `5 1 अप्रैि, 1937 से अिन भारत का भाग नहीं रहा।`
+obj_root_law_translations_hi_sections_12_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_13:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-13)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Page 13`)
-  (str content) (str `13
-भाग 3
-बंगाि के अनुसूवचत वजिे
-I — जिपाई गुड़ी और िार्जथसिंग 1 [ वजिे ] IV — छुरर्या नागपुर िंड 2
-II — चर्गांि के पहाड़ी भू - भाग 3 V — अंगुि और बंकी के महाि 4
-III — सन्था ि परगना
-भाग 4
-उत्तर - पवच मी प्र ान्तों के अनुसुवचत वजिे
-5 * * * *
-II — कुमाउं और गढ़िाि प्र ांत
-III — तराई परगना वजसमें — बाजपुर, कािीपुर, जसपुर, रु रपुर, गिरपुर,
-दकि - पुड़ी, नानक मत्ता और वबिहेड़ी समाविष् र् हैं
-IV — वमजाथपुर वजिे में
-( 1 ) परगना अगोरी में अगोरी िास और साउथकोर् के र्प् पा। ( 3 ) परगना बीची पुर में फुििा, िुिी और बड़हा के र्प् पा।
-( 2 ) ससं घ रौिी परगना में विरर्ि ससंि रौिी के र्प् पा। ( 4 ) कैमूर श्रेर् ी के िविर् में वस्थ त भाग।
-6 * * * * *
-IV — िेहरािून वजिे में जौनसार बाबर नाम से ज्ञ ात भू - भाग
-भाग 5
-पंजाब के अनुसूवचत वजिे
-हजारा, पेिाि र, कोहार्, ब न् नु, डेरा इस्मा इििां,
-डेरा गाजीिां, िाहोि और वस्प वत के वजिे 7
-1 1891 के अविवनयम सं ० 12 द्व ारा “ िण्ड ” के स् था न पर प्र वतस्था वपत।
-2 रायपुर और िात्र थाने, जो छुरर्या नागपुर िण्ड का भूतपूिथ भाग थे बांकुरा वजिे को अंतररत कर दिए गए और 1 अक् र्ू बर, 1879 से अनुसूवचत वजिे न हीं रहे। िेविए
-रायपुर और िात्र विवि अविवनयम, 1879 ( 1879 का 19 )
-अनुसूवचत वजिा अविवनयम, 1874 के प्र योजन के विए पोरहार् की एस् र्े र् अब छुरर्या नागपुर िण्ड अनुसूवचत वजिे का भाग बन गया। िेविए पोरहार् एस् र्े र्
-ऐक् र्, 1893 ( 1893 का 2 ) की िारा 3 दकन्तु विवि स् था नीय विस्ता र अविवनयम, 1874 के अथथ में यह “ अनुसूवचत वजिा ” नहीं है।
-3 15 अगस्त, 1947 से भारत का भाग नहीं रहा।
-4 1 अप्रैि 1882 से बंकी का महाि अनुसूवचत वजिा नहीं रहा, िेविए बंकी िाज ऐक् र्, 1881 ( 1881 का 25 )। उड़ीसा में िोंडामि जो पहिे अंगुि वजिा के भाग थे
-(िेविए अंगुि िाज रेगुिेिन, 1913 ( 1913 का 3 ) और अब स् ि तंत्र वजिा बन गया [ िेविए िोंडामि िाज रेगुिेिन, 1936 ( 1936 का 4 ) ], अनुसूवचत वजिा
-अविवनयम, 1874 ( 1874 का 14 ) के प्र योजन के विए अनुसूवचत वजिे बन गए, दकन्तु विवि स् था नीय विस् ता र अविवनयम, 1874 के अथथ में िे “ अनुसूवचत वजिा ”
-नहीं हैं।
-5 1890 के अविवनयम सं ० 20 की िारा 8 ( 1 ) द्व ारा मि 1, “ झांसी िण्ड, वजसमें झांसी, जािौन और िवितपुर के वजिे समाविष् र् हैं ” वनरवसत की गई।
-6 1881 के अविवनयम सं ० 14 की िारा 14 द्व ारा मि 5, “ बनारस के महाराजा की पाररिाररक ररयासत, वजसमें वनम्न विवित परगने समाविष् र् हैं: — वमजाथ पुर वजिे में
-भिोई और िेयरा मंगरोर; बनारस वजिे में कसिा राजा ” वनरवसत की गई है।
-7 िहौि और वस्प वत को छोड़कर, ये वजिे 15 अगस्त, 1947 से भारत का भाग नहीं रहे।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 13)
+  kind page
+  sectionId pdf-page-13
+  sectionNo (13)
+  orderNo 13
+  title `Page 13`
+  content obj_root_law_translations_hi_sections_13_content
+  footnotes obj_root_law_translations_hi_sections_13_footnotes
+  sourcePage 13
+obj_root_law_translations_hi_sections_13_content:
+  string
+  line 13
+  line `भाग 3`
+  line `बंगाि के अनुसूवचत वजिे`
+  line `I — जिपाई गुड़ी और िार्जथसिंग 1 [ वजिे ] IV — छुरर्या नागपुर िंड 2`
+  line `II — चर्गांि के पहाड़ी भू - भाग 3 V — अंगुि और बंकी के महाि 4`
+  line `III — सन्था ि परगना`
+  line `भाग 4`
+  line `उत्तर - पवच मी प्र ान्तों के अनुसुवचत वजिे`
+  line `5 * * * *`
+  line `II — कुमाउं और गढ़िाि प्र ांत`
+  line `III — तराई परगना वजसमें — बाजपुर, कािीपुर, जसपुर, रु रपुर, गिरपुर,`
+  line `दकि - पुड़ी, नानक मत्ता और वबिहेड़ी समाविष् र् हैं`
+  line `IV — वमजाथपुर वजिे में`
+  line `( 1 ) परगना अगोरी में अगोरी िास और साउथकोर् के र्प् पा। ( 3 ) परगना बीची पुर में फुििा, िुिी और बड़हा के र्प् पा।`
+  line `( 2 ) ससं घ रौिी परगना में विरर्ि ससंि रौिी के र्प् पा। ( 4 ) कैमूर श्रेर् ी के िविर् में वस्थ त भाग।`
+  line `6 * * * * *`
+  line `IV — िेहरािून वजिे में जौनसार बाबर नाम से ज्ञ ात भू - भाग`
+  line `भाग 5`
+  line `पंजाब के अनुसूवचत वजिे`
+  line `हजारा, पेिाि र, कोहार्, ब न् नु, डेरा इस्मा इििां,`
+  line `डेरा गाजीिां, िाहोि और वस्प वत के वजिे 7`
+  line `1 1891 के अविवनयम सं ० 12 द्व ारा “ िण्ड ” के स् था न पर प्र वतस्था वपत।`
+  line `2 रायपुर और िात्र थाने, जो छुरर्या नागपुर िण्ड का भूतपूिथ भाग थे बांकुरा वजिे को अंतररत कर दिए गए और 1 अक् र्ू बर, 1879 से अनुसूवचत वजिे न हीं रहे। िेविए`
+  line `रायपुर और िात्र विवि अविवनयम, 1879 ( 1879 का 19 )`
+  line `अनुसूवचत वजिा अविवनयम, 1874 के प्र योजन के विए पोरहार् की एस् र्े र् अब छुरर्या नागपुर िण्ड अनुसूवचत वजिे का भाग बन गया। िेविए पोरहार् एस् र्े र्`
+  line `ऐक् र्, 1893 ( 1893 का 2 ) की िारा 3 दकन्तु विवि स् था नीय विस्ता र अविवनयम, 1874 के अथथ में यह “ अनुसूवचत वजिा ” नहीं है।`
+  line `3 15 अगस्त, 1947 से भारत का भाग नहीं रहा।`
+  line `4 1 अप्रैि 1882 से बंकी का महाि अनुसूवचत वजिा नहीं रहा, िेविए बंकी िाज ऐक् र्, 1881 ( 1881 का 25 )। उड़ीसा में िोंडामि जो पहिे अंगुि वजिा के भाग थे`
+  line `(िेविए अंगुि िाज रेगुिेिन, 1913 ( 1913 का 3 ) और अब स् ि तंत्र वजिा बन गया [ िेविए िोंडामि िाज रेगुिेिन, 1936 ( 1936 का 4 ) ], अनुसूवचत वजिा`
+  line `अविवनयम, 1874 ( 1874 का 14 ) के प्र योजन के विए अनुसूवचत वजिे बन गए, दकन्तु विवि स् था नीय विस् ता र अविवनयम, 1874 के अथथ में िे “ अनुसूवचत वजिा ”`
+  line `नहीं हैं।`
+  line `5 1890 के अविवनयम सं ० 20 की िारा 8 ( 1 ) द्व ारा मि 1, “ झांसी िण्ड, वजसमें झांसी, जािौन और िवितपुर के वजिे समाविष् र् हैं ” वनरवसत की गई।`
+  line `6 1881 के अविवनयम सं ० 14 की िारा 14 द्व ारा मि 5, “ बनारस के महाराजा की पाररिाररक ररयासत, वजसमें वनम्न विवित परगने समाविष् र् हैं: — वमजाथ पुर वजिे में`
+  line `भिोई और िेयरा मंगरोर; बनारस वजिे में कसिा राजा ” वनरवसत की गई है।`
+  line `7 िहौि और वस्प वत को छोड़कर, ये वजिे 15 अगस्त, 1947 से भारत का भाग नहीं रहे।`
+obj_root_law_translations_hi_sections_13_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_14:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-14)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Page 14`)
-  (str content) (str `14
-भाग 6
-1 मध्य प्र ान्त के अनुसूवचत वजिे
-छत्तीसगढ़ जमींिारी
-1. िररयार। 13. मतीि।
-2. विन्रा निागढ़। 14. अपरोरा।
-3. सहजपुर। 15. केंडा।
-4. गंडई। 16. िपहा।
-5. वसिहर्ी। 17. छुरी।
-6. बरबसपुर। 18. कौरिा।
-7. ठाकुरर्ौिा। 19. चापा।
-8. िौहारा। 20. बोरा संभर।
-9. गोंडरडेही। 21. फूिझाड़।
-10. फफंगेस्ि र। 22. कोिबीरा।
-11. पंडररया। 23. रामपुर।
-12. पेंड्रा।
-चांिा जमींिारी
-1. अवहरी। 11. भुरमगांि।
-2. अम्बा गढ़ चौकी। 12. पानबरस।
-3. औं िी। 13. पिासगढ़।
-4. िनोरा। 14. रंगी।
-5. िूिमािा। 15. वसरसुंिी।
-6. गेिरिा। 16. सोंसरी।
-7. झाड़ापाप र। 17. चंििा।
-8. िुर्गां। 18. वगिगांि।
-9. कोरछा। 19. पिी मुतंडा।
-10. कोर् गाि। 20. पार्ेगांि।
-सछंििाड़ा जागीरिारी
-1. हरथई। 7. पचमढ़ी।
-2. छतेर। 8. प्र ताबगढ़।
-3. गोरिघार्। 9. अिमोि।
-4. गोरपानी। 10. सोनपुर।
-5. बितगढ़। 11. बररयम पगरा।
-6. बरिागढ़।
-1 अनुसूवचत वजिा अविवनयम, 18 74 ( 1874 का 14 ) के अथथ में नुगूर, अिा का और चेरिा तािु क, जो 1 जुिाई, 1909 से मरास प्रे वसडेंसी को अंतररत हो गए थे, 17
-जनिरी, 1905 से अनुसूवचत वजिे बन गए।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 14)
+  kind page
+  sectionId pdf-page-14
+  sectionNo (14)
+  orderNo 14
+  title `Page 14`
+  content obj_root_law_translations_hi_sections_14_content
+  footnotes obj_root_law_translations_hi_sections_14_footnotes
+  sourcePage 14
+obj_root_law_translations_hi_sections_14_content:
+  string
+  line 14
+  line `भाग 6`
+  line `1 मध्य प्र ान्त के अनुसूवचत वजिे`
+  line `छत्तीसगढ़ जमींिारी`
+  line `1. िररयार। 13. मतीि।`
+  line `2. विन्रा निागढ़। 14. अपरोरा।`
+  line `3. सहजपुर। 15. केंडा।`
+  line `4. गंडई। 16. िपहा।`
+  line `5. वसिहर्ी। 17. छुरी।`
+  line `6. बरबसपुर। 18. कौरिा।`
+  line `7. ठाकुरर्ौिा। 19. चापा।`
+  line `8. िौहारा। 20. बोरा संभर।`
+  line `9. गोंडरडेही। 21. फूिझाड़।`
+  line `10. फफंगेस्ि र। 22. कोिबीरा।`
+  line `11. पंडररया। 23. रामपुर।`
+  line `12. पेंड्रा।`
+  line `चांिा जमींिारी`
+  line `1. अवहरी। 11. भुरमगांि।`
+  line `2. अम्बा गढ़ चौकी। 12. पानबरस।`
+  line `3. औं िी। 13. पिासगढ़।`
+  line `4. िनोरा। 14. रंगी।`
+  line `5. िूिमािा। 15. वसरसुंिी।`
+  line `6. गेिरिा। 16. सोंसरी।`
+  line `7. झाड़ापाप र। 17. चंििा।`
+  line `8. िुर्गां। 18. वगिगांि।`
+  line `9. कोरछा। 19. पिी मुतंडा।`
+  line `10. कोर् गाि। 20. पार्ेगांि।`
+  line `सछंििाड़ा जागीरिारी`
+  line `1. हरथई। 7. पचमढ़ी।`
+  line `2. छतेर। 8. प्र ताबगढ़।`
+  line `3. गोरिघार्। 9. अिमोि।`
+  line `4. गोरपानी। 10. सोनपुर।`
+  line `5. बितगढ़। 11. बररयम पगरा।`
+  line `6. बरिागढ़।`
+  line `1 अनुसूवचत वजिा अविवनयम, 18 74 ( 1874 का 14 ) के अथथ में नुगूर, अिा का और चेरिा तािु क, जो 1 जुिाई, 1909 से मरास प्रे वसडेंसी को अंतररत हो गए थे, 17`
+  line `जनिरी, 1905 से अनुसूवचत वजिे बन गए।`
+obj_root_law_translations_hi_sections_14_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_15:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-15)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Page 15`)
-  (str content) (str `15
-भाग 7
-कु गथ की मुखय कवमन री
-भाग 8
-अंिमान और वनकोबार द्व ी पसमूह की मुखय कवमन री
-भाग 9
-अजमेर और मेरिाड़ा की मुखय कवमन री
-भाग 10
-1 आसाम की मुखय कवमन री
-[ भाग 11 — अराकान का पहाड़ी भू - भाग। ] विवि अनुकूिन आिेि, 1937 द्व ारा वनरवसत।
-[ भाग 12 — मानपुर परगाना। ] वनरसन अविवनयम, 1938 ( 1938 का 1 ) की िारा 2 और अनुसूची द्व ारा वनरवसत।
-[ भाग 13 — मोरार छािनी। ] वनरसन और संिोिन अविवनयम, 1891 ( 1891 का 12 ) द्व ारा वनरवसत
-सातिीं अनुसूची — [ अविवनयवमवतयां वनरवसत। ] — वनरसन अविवनयम, 1876 ( 1876 का 12 ) द्व ारा वनरवसत।
-______
-1 अनुसूवचत वजिा अविवनयम, 1874 ( 1874 का 14 ) के प्र योजन के विए िुिाई पहावड़यां, वजसमें उत्तर औ र िविर् िु ि ई पहावड़यां तथा नागा पहाड़ी वजिे का
-मोकोकचुंग उप - िण्ड सवम्म वित है, अनुसूवचत वजिे बन गए, दकन्तु इस अविवनयम के अथथ में िे अनुसूवचत वजिे नहीं हैं।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 15)
+  kind page
+  sectionId pdf-page-15
+  sectionNo (15)
+  orderNo 15
+  title `Page 15`
+  content obj_root_law_translations_hi_sections_15_content
+  footnotes obj_root_law_translations_hi_sections_15_footnotes
+  sourcePage 15
+obj_root_law_translations_hi_sections_15_content:
+  string
+  line 15
+  line `भाग 7`
+  line `कु गथ की मुखय कवमन री`
+  line `भाग 8`
+  line `अंिमान और वनकोबार द्व ी पसमूह की मुखय कवमन री`
+  line `भाग 9`
+  line `अजमेर और मेरिाड़ा की मुखय कवमन री`
+  line `भाग 10`
+  line `1 आसाम की मुखय कवमन री`
+  line `[ भाग 11 — अराकान का पहाड़ी भू - भाग। ] विवि अनुकूिन आिेि, 1937 द्व ारा वनरवसत।`
+  line `[ भाग 12 — मानपुर परगाना। ] वनरसन अविवनयम, 1938 ( 1938 का 1 ) की िारा 2 और अनुसूची द्व ारा वनरवसत।`
+  line `[ भाग 13 — मोरार छािनी। ] वनरसन और संिोिन अविवनयम, 1891 ( 1891 का 12 ) द्व ारा वनरवसत`
+  line `सातिीं अनुसूची — [ अविवनयवमवतयां वनरवसत। ] — वनरसन अविवनयम, 1876 ( 1876 का 12 ) द्व ारा वनरवसत।`
+  line ______
+  line `1 अनुसूवचत वजिा अविवनयम, 1874 ( 1874 का 14 ) के प्र योजन के विए िुिाई पहावड़यां, वजसमें उत्तर औ र िविर् िु ि ई पहावड़यां तथा नागा पहाड़ी वजिे का`
+  line `मोकोकचुंग उप - िण्ड सवम्म वित है, अनुसूवचत वजिे बन गए, दकन्तु इस अविवनयम के अथथ में िे अनुसूवचत वजिे नहीं हैं।`
+obj_root_law_translations_hi_sections_15_footnotes:
+  string
+  line

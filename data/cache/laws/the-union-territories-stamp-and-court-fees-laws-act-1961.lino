@@ -1,53 +1,45 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T15:46:55.236Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19248`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-09T15:46:55.236Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19248`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-union-territories-stamp-and-court-fees-laws-act-1961)
-  (str handle) (str 19248)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Union Territories (Stamp and Court-fees Laws) Act, 1961`)
-  (str actNumber) (str 33)
-  (str enactmentDate) (str 1961-08-29)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19248`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1961)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Department of Justice`)
-  (str longTitle) (str `An Act to provide for the amendment and repeal of certain laws relating to stamp duties and court-fees as in force in certain Union territories.`)
-  (str enforcementDate) (undefined)
-  (str notification) (undefined)
+  slug the-union-territories-stamp-and-court-fees-laws-act-1961
+  handle (19248)
+  collectionHandle 123456789/1362
+  title `The Union Territories (Stamp and Court-fees Laws) Act, 1961`
+  actNumber (33)
+  enactmentDate 1961-08-29
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19248`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1961)
+  ministry `Ministry of Law and Justice`
+  department `Department of Justice`
+  longTitle `An Act to provide for the amendment and repeal of certain laws relating to stamp duties and court-fees as in force in certain Union territories.`
+  enforcementDate undefined
+  notification undefined
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_union_territories_stamp_and_court_fees_laws_act_1961
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/19248`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/19248`
 obj_root_law_sources_en_the_union_territories_stamp_and_court_fees_laws_act_1961:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19248/1/a1961-33.pdf`)
-  (str title) (str `The Union Territories (Stamp and Court-fees Laws) Act, 1961`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19248/1/a1961-33.pdf`
+  title `The Union Territories (Stamp and Court-fees Laws) Act, 1961`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -55,89 +47,119 @@ obj_root_law_sections:
   obj_root_law_sections_5
   obj_root_law_sections_6
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 72660)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title.`)
-  (str content) (str `This Act may be called the Union Territories (Stamp and Court-fees Laws)
-Act, 1961.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72660&sectionno=1&orderno=1&orgactid=AC_CEN_3_3_00028_196133_1673601905242)
+  sectionId (72660)
+  sectionNo (1)
+  orderNo 1
+  title `Short title.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72660&sectionno=1&orderno=1&orgactid=AC_CEN_3_3_00028_196133_1673601905242
+obj_root_law_sections_1_content:
+  string
+  line `This Act may be called the Union Territories (Stamp and Court-fees Laws)`
+  line `Act, 1961.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 72661)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Amendment of Indian Stamp Act, 1899, as in force in Himachal Pradesh.`)
-  (str content) (str `On such date as the
-Central Government may, by notification in the Official Gazette, appoint, for Schedule I-A of the Indian
-Stamp Act, 1899 (2 of 1899), as in force in the Union territory of Himachal Pradesh immediately before
-that date, there shall be substituted, with such modifications as may be specified in the notification,
-Schedule I-A to the Indian Stamp Act, 1899, as in force in the State of Punjab on the 28th day of
-November, 1960.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72661&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00028_196133_1673601905242)
+  sectionId (72661)
+  sectionNo (2)
+  orderNo 2
+  title `Amendment of Indian Stamp Act, 1899, as in force in Himachal Pradesh.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72661&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00028_196133_1673601905242
+obj_root_law_sections_2_content:
+  string
+  line `On such date as the`
+  line `Central Government may, by notification in the Official Gazette, appoint, for Schedule I-A of the Indian`
+  line `Stamp Act, 1899 (2 of 1899), as in force in the Union territory of Himachal Pradesh immediately before`
+  line `that date, there shall be substituted, with such modifications as may be specified in the notification,`
+  line `Schedule I-A to the Indian Stamp Act, 1899, as in force in the State of Punjab on the 28th day of`
+  line `November, 1960.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 72662)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Repeal of Court-fees Act, 1870, as in force in Himachal Pradesh.`)
-  (str content) (str `On the date on which the
-Court-fees Act, 1870 (7 of 1870), as in force in the State of Punjab, is extended to the Union territory of
-Himachal Pradesh by notification under section 2 of the Union Territories (Laws) Act, 1950 (30 of 1950),
-the Court-fees Act, 1870, as in force in that Union territory immediately before the date of such
-notification, shall stand repealed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72662&sectionno=3&orderno=3&orgactid=AC_CEN_3_3_00028_196133_1673601905242)
+  sectionId (72662)
+  sectionNo (3)
+  orderNo 3
+  title `Repeal of Court-fees Act, 1870, as in force in Himachal Pradesh.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72662&sectionno=3&orderno=3&orgactid=AC_CEN_3_3_00028_196133_1673601905242
+obj_root_law_sections_3_content:
+  string
+  line `On the date on which the`
+  line `Court-fees Act, 1870 (7 of 1870), as in force in the State of Punjab, is extended to the Union territory of`
+  line `Himachal Pradesh by notification under section 2 of the Union Territories (Laws) Act, 1950 (30 of 1950),`
+  line `the Court-fees Act, 1870, as in force in that Union territory immediately before the date of such`
+  line `notification, shall stand repealed.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 72663)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Repeal of Court-fees Act, 1870, as in force in Manipur and Tripura.`)
-  (str content) (str `(a) On the date on which
-the Court-fees Act, 1870(7 of 1870), as in force in the State of Assam, is extended to the Union territory
-of Manipur by notification under section 2 of the Union Territories (Laws) Act, 1950 (30 of 1950), the
-Court-fees Act, 1870, as in force in that Union territory immediately before the date of such notification,
-shall stand repealed.
-
-(b) On the date on which the Court-fees Act, 1870 (7 of 1870), as in force in the State of Assam, is
-extended to the Union territory of Tripura by notification under section 2 of the Union Territories (Laws)
-Act, 1950 (30 of 1950), the Court-fees Act, 1870, as in force in that Union territory immediately before
-the date of such notification, shall stand repeale`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72663&sectionno=4&orderno=4&orgactid=AC_CEN_3_3_00028_196133_1673601905242)
+  sectionId (72663)
+  sectionNo (4)
+  orderNo 4
+  title `Repeal of Court-fees Act, 1870, as in force in Manipur and Tripura.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72663&sectionno=4&orderno=4&orgactid=AC_CEN_3_3_00028_196133_1673601905242
+obj_root_law_sections_4_content:
+  string
+  line `(a) On the date on which`
+  line `the Court-fees Act, 1870(7 of 1870), as in force in the State of Assam, is extended to the Union territory`
+  line `of Manipur by notification under section 2 of the Union Territories (Laws) Act, 1950 (30 of 1950), the`
+  line `Court-fees Act, 1870, as in force in that Union territory immediately before the date of such notification,`
+  line `shall stand repealed.`
+  line
+  line `(b) On the date on which the Court-fees Act, 1870 (7 of 1870), as in force in the State of Assam, is`
+  line `extended to the Union territory of Tripura by notification under section 2 of the Union Territories (Laws)`
+  line `Act, 1950 (30 of 1950), the Court-fees Act, 1870, as in force in that Union territory immediately before`
+  line `the date of such notification, shall stand repeale`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 72664)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Repeal of Indian Stamp Act, 1899, as in force in Manipur and Tripura.`)
-  (str content) (str `(a) On the date on
-which the Indian Stamp Act, 1899 (2 of 1899), as in force in the State of Assam, is extended to the Union
-territory of Manipur by notification under section 2 of the Union Territories (Laws)
-Act, 1950 (30 of 1950), the Indian Stamp Act, 1899, as in force in that Union territory immediately before
-the date of such notification, shall stand repealed.
-
-(b) On the date on which the Indian Stamp Act, 1899 (2 of 1899), as in force in the State of Assam, is
-extended to the Union territory of Tripura by notification under section 2 of the Union Territories (Laws)
-Act, 1950 (30 of 1950), the Indian Stamp Act, 1899, as in force in that Union territory immediately before
-the date of such notification, shall stand repealed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72664&sectionno=5&orderno=5&orgactid=AC_CEN_3_3_00028_196133_1673601905242)
+  sectionId (72664)
+  sectionNo (5)
+  orderNo 5
+  title `Repeal of Indian Stamp Act, 1899, as in force in Manipur and Tripura.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72664&sectionno=5&orderno=5&orgactid=AC_CEN_3_3_00028_196133_1673601905242
+obj_root_law_sections_5_content:
+  string
+  line `(a) On the date on`
+  line `which the Indian Stamp Act, 1899 (2 of 1899), as in force in the State of Assam, is extended to the Union`
+  line `territory of Manipur by notification under section 2 of the Union Territories (Laws)`
+  line `Act, 1950 (30 of 1950), the Indian Stamp Act, 1899, as in force in that Union territory immediately before`
+  line `the date of such notification, shall stand repealed.`
+  line
+  line `(b) On the date on which the Indian Stamp Act, 1899 (2 of 1899), as in force in the State of Assam, is`
+  line `extended to the Union territory of Tripura by notification under section 2 of the Union Territories (Laws)`
+  line `Act, 1950 (30 of 1950), the Indian Stamp Act, 1899, as in force in that Union territory immediately before`
+  line `the date of such notification, shall stand repealed.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 72665)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Validation of levy of stamp duties in certain cases.`)
-  (str content) (str `Any stamp duties levied and collected in
-the Union territory of Manipur during the period commencing on the 16th day of
-April, 1950, and ending on the date on which the Indian Stamp Act, 1899 (2 of 1899), as in force in the
-State of Assam is extended to that Union territory under section 5, in the belief that the Indian Stamp Act,
-1899 , as in force in the State of Assam immediately before the 16th day of April, 1950, was applicable to
-that Union territory, shall be deemed always to have been levied and collected in accordance with law.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72665&sectionno=6&orderno=6&orgactid=AC_CEN_3_3_00028_196133_1673601905242)
+  sectionId (72665)
+  sectionNo (6)
+  orderNo 6
+  title `Validation of levy of stamp duties in certain cases.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00028_196133_1673601905242&sectionId=72665&sectionno=6&orderno=6&orgactid=AC_CEN_3_3_00028_196133_1673601905242
+obj_root_law_sections_6_content:
+  string
+  line `Any stamp duties levied and collected in`
+  line `the Union territory of Manipur during the period commencing on the 16th day of`
+  line `April, 1950, and ending on the date on which the Indian Stamp Act, 1899 (2 of 1899), as in force in the`
+  line `State of Assam is extended to that Union territory under section 5, in the belief that the Indian Stamp Act,`
+  line `1899 , as in force in the State of Assam immediately before the 16th day of April, 1950, was applicable to`
+  line `that Union territory, shall be deemed always to have been levied and collected in accordance with law.`
+obj_root_law_sections_6_footnotes:
+  string
+  line

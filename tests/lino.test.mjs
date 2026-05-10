@@ -6,7 +6,7 @@ import { Parser } from "links-notation";
 
 import { readDataFile, readLino, writeLino } from "../scripts/lib/lino.mjs";
 
-const parser = new Parser();
+const parser = new Parser({ maxInputSize: 128 * 1024 * 1024 });
 
 test("repository-owned seed metadata is stored as Links Notation", async () => {
   const paths = [
@@ -23,7 +23,7 @@ test("repository-owned seed metadata is stored as Links Notation", async () => {
   for (const filePath of paths) {
     const notation = await readFile(filePath, "utf8");
     assert.ok(parser.parse(notation).length > 0, `${filePath} should parse as Links Notation`);
-    assert.match(notation, /^obj_root:\n  object\n/, `${filePath} should use indented object notation`);
+    assert.match(notation, /^obj_root:\n/, `${filePath} should use indented object notation`);
     assert.doesNotMatch(notation, /\(str ZGVmYXVsdExhbmd1YWdl\)/, `${filePath} should not base64-encode keys`);
     assert.doesNotMatch(notation, /\(str dGl0bGU=\)/, `${filePath} should not base64-encode keys`);
   }
@@ -40,22 +40,36 @@ test("Lino codec stores strings unencoded and preserves numeric-looking identifi
   const parsed = parser.parse(notation);
   const decoded = readLino(notation);
   assert.equal(parsed.length, 1);
-  assert.match(notation, /^obj_root:\n  object\n/);
-  assert.match(notation, /\n  \(str handle\) \(str 1367\)/);
+  assert.match(notation, /^obj_root:\n  handle \(1367\)\n/);
+  assert.match(notation, /\n  actYear \(1957\)/);
   assert.doesNotMatch(notation, /MTM2Nw==/);
+  assert.doesNotMatch(notation, /\(str /);
   assert.deepEqual(decoded, { handle: "1367", actYear: "1957", sectionNo: "1" });
 });
 
 test("Lino codec keeps multilingual and multiline strings readable", () => {
   const value = {
     title: "प्रतिलिप्‍यधिकार अधिनियम, 1957",
-    body: "Line one\nLine two with `code` and apostrophe's mark",
+    body: "Line one\n\nLine two with `code` and apostrophe's mark",
     empty: ""
   };
   const notation = writeLino(value);
   assert.match(notation, /प्रतिलिप्‍यधिकार अधिनियम/);
-  assert.match(notation, /Line one\nLine two/);
-  assert.match(notation, /\(str empty\) \(str \)/);
+  assert.match(notation, /\n  body obj_root_body\n/);
+  assert.match(notation, /\nobj_root_body:\n  string\n  line `Line one`\n  line\n  line 'Line two with `code` and apostrophe''s mark'/);
+  assert.match(notation, /\n  empty obj_root_empty\n/);
+  assert.match(notation, /\nobj_root_empty:\n  string\n  line$/);
+  assert.deepEqual(readLino(notation), value);
+});
+
+test("Lino codec preserves empty string definitions before later definitions", () => {
+  const value = {
+    empty: "",
+    nested: { label: "after empty string" }
+  };
+  const notation = writeLino(value);
+
+  assert.match(notation, /\nobj_root_empty:\n  string\n  line\nobj_root_nested:/);
   assert.deepEqual(readLino(notation), value);
 });
 
@@ -65,14 +79,36 @@ test("Lino writer uses indented definitions for nested data", () => {
     languages: [{ code: "en", enabled: true }],
     empty: null
   });
-  assert.match(notation, /^obj_root:\n  object\n/);
-  assert.match(notation, /\nobj_root_languages:\n  array\n  obj_root_languages_en\n/);
-  assert.match(notation, /\nobj_root_languages_en:\n  object\n/);
+  assert.match(notation, /^obj_root:\n  defaultLanguage en\n/);
+  assert.match(notation, /\nobj_root_languages:\n  obj_root_languages_en\n/);
+  assert.match(notation, /\nobj_root_languages_en:\n  code en\n  enabled true/);
+  assert.doesNotMatch(notation, /\n  object\n/);
+  assert.doesNotMatch(notation, /\n  array\n/);
   assert.doesNotMatch(notation.split("\n")[0], /^\(object /);
   assert.deepEqual(readLino(notation), {
     defaultLanguage: "en",
     languages: [{ code: "en", enabled: true }],
     empty: null
+  });
+});
+
+test("Lino reader still accepts previous typed object notation", () => {
+  const notation = `obj_root:
+  object
+  (str handle) (str 1367)
+  (str enabled) (bool false)
+  (str maxLines) (int 1500)
+  (str urls) obj_root_urls
+obj_root_urls:
+  array
+  str one
+  str two`;
+
+  assert.deepEqual(readLino(notation), {
+    handle: "1367",
+    enabled: false,
+    maxLines: 1500,
+    urls: ["one", "two"]
   });
 });
 

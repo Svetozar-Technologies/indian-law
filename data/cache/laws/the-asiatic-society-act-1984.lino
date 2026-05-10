@@ -1,71 +1,63 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:47:11.249Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1789`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 15)
-  (str totalSections) (int 15)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:47:11.249Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1789`
+  completeFetch true
+  maxSections null
+  sectionCount 15
+  totalSections 15
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-asiatic-society-act-1984)
-  (str handle) (str 1789)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Asiatic Society Act, 1984`)
-  (str actNumber) (str 05)
-  (str enactmentDate) (str 1984-03-23)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1789`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `एशियाटिक सोसाइटी अधिनियम, 1984`)
-  (str actYear) (str 1984)
-  (str ministry) (str `Ministry of Culture`)
-  (str longTitle) (str `An Act to declare the institution known as the Asiatic Society having at present its registered office in Calcutta to be an institution of national importance and to provide for certain matters connected therewith.`)
-  (str enforcementDate) (str 25-06-1984)
-  (str notification) (str `25th June, 1984, vide notification No. G.S.R. 470(E), dated 25th June, 1984, see Gazette of India, Extraordinary, Part II, sec. (i).`)
-  (str fetchedAt) (str `2026-05-08T21:37:53.699Z`)
-  (str translations) obj_root_law_translations
+  slug the-asiatic-society-act-1984
+  handle (1789)
+  collectionHandle 123456789/1362
+  title `The Asiatic Society Act, 1984`
+  actNumber (05)
+  enactmentDate 1984-03-23
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1789`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `एशियाटिक सोसाइटी अधिनियम, 1984`
+  actYear (1984)
+  ministry `Ministry of Culture`
+  longTitle `An Act to declare the institution known as the Asiatic Society having at present its registered office in Calcutta to be an institution of national importance and to provide for certain matters connected therewith.`
+  enforcementDate 25-06-1984
+  notification `25th June, 1984, vide notification No. G.S.R. 470(E), dated 25th June, 1984, see Gazette of India, Extraordinary, Part II, sec. (i).`
+  fetchedAt `2026-05-08T21:37:53.699Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_asiatic_society_act_1984
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1789`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1789`
 obj_root_law_sources_en_the_asiatic_society_act_1984:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1789/1/A1984-05.pdf`)
-  (str title) (str `The Asiatic Society Act, 1984`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1789/1/A1984-05.pdf`
+  title `The Asiatic Society Act, 1984`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00012_198405_1517807326040/notificationindividualfile/&file=seachable+AS+_notification_sw.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00012_198405_1517807326040/notificationindividualfile/&file=seachable+AS+_notification_sw.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1984
 obj_root_law_sources_hi_1984:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1789/3/H1984-5.pdf`)
-  (str title) (str `एशियाटिक सोसाइटी अधिनियम, 1984`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1789/3/H1984-5.pdf`
+  title `एशियाटिक सोसाइटी अधिनियम, 1984`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -82,559 +74,651 @@ obj_root_law_sections:
   obj_root_law_sections_14
   obj_root_law_sections_15
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 34801)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Asiatic Society Act, 1984.
-
-(2) It shall come into force on such date^1
-as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. 25th June, 1984, vide notification No. G.S.R. 470(E), dated 25th June, 1984, see Gazette of India, Extraordinary, Part II,
-sec. (i).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34801&sectionno=1&orderno=1&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34801)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34801&sectionno=1&orderno=1&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Asiatic Society Act, 1984.`
+  line
+  line `(2) It shall come into force on such date^1`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 25th June, 1984, vide notification No. G.S.R. 470(E), dated 25th June, 1984, see Gazette of India, Extraordinary, Part II,`
+  line `sec. (i).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 34802)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Declaration of Asiatic Society as an institution of national importance.`)
-  (str content) (str `Whereas the late
-William Jones founded on the 15th day of January, 1784, an institution in Calcutta which is now known
-as the Asiatic Society and the objects of which are such as to make the institution one of national
-importance, it is hereby declared that the said Asiatic Society is an institution of national importance.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34802&sectionno=2&orderno=2&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34802)
+  sectionNo (2)
+  orderNo 2
+  title `Declaration of Asiatic Society as an institution of national importance.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34802&sectionno=2&orderno=2&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_2_content:
+  string
+  line `Whereas the late`
+  line `William Jones founded on the 15th day of January, 1784, an institution in Calcutta which is now known`
+  line `as the Asiatic Society and the objects of which are such as to make the institution one of national`
+  line `importance, it is hereby declared that the said Asiatic Society is an institution of national importance.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 34803)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "memorandum" means the memorandum of association of the Society;
-
-(b) "prescribed" means prescribed by rules made under this Act;
-
-(c) "regulations" includes any rule or regulation (by whatever name called) which the Society is
-competent to make in the exercise of the powers conferred on it under the West Bengal Societies
-Registration Act, 1961 (West Bengal Act XXVI,1961), but shall not include any bye-laws or standing
-orders made under the regulations for the conduct of its day-to-day administration ;
-
-(d) "Society" means the Asiatic Society being a society within the meaning of the West Bengal
-Societies Registration Act, 1961(West Bengal Act XXVI, 1961), and having its registered office in
-Calcutta.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34803&sectionno=3&orderno=3&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34803)
+  sectionNo (3)
+  orderNo 3
+  title Definitions.
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34803&sectionno=3&orderno=3&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_3_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "memorandum" means the memorandum of association of the Society;`
+  line
+  line `(b) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(c) "regulations" includes any rule or regulation (by whatever name called) which the Society is`
+  line `competent to make in the exercise of the powers conferred on it under the West Bengal Societies`
+  line `Registration Act, 1961 (West Bengal Act XXVI,1961), but shall not include any bye-laws or standing`
+  line `orders made under the regulations for the conduct of its day-to-day administration ;`
+  line
+  line `(d) "Society" means the Asiatic Society being a society within the meaning of the West Bengal`
+  line `Societies Registration Act, 1961(West Bengal Act XXVI, 1961), and having its registered office in`
+  line Calcutta.
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 34804)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Grants, loans, etc., by Central Government to Society.`)
-  (str content) (str `For the purpose of enabling the
-Society to discharge efficiently its functions, including in particular those relating to research, literary,
-library, scientific and museological activities, collection of manuscripts, coins and art objects, and the
-publication of periodicals, books and other literature, the Central Government may, after due
-appropriation made by Parliament by law in this behalf, pay to the Society in each financial year such
-sums of money as that Government considers necessary by way of grants, loans or otherwise.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34804&sectionno=4&orderno=4&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34804)
+  sectionNo (4)
+  orderNo 4
+  title `Grants, loans, etc., by Central Government to Society.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34804&sectionno=4&orderno=4&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_4_content:
+  string
+  line `For the purpose of enabling the`
+  line `Society to discharge efficiently its functions, including in particular those relating to research, literary,`
+  line `library, scientific and museological activities, collection of manuscripts, coins and art objects, and the`
+  line `publication of periodicals, books and other literature, the Central Government may, after due`
+  line `appropriation made by Parliament by law in this behalf, pay to the Society in each financial year such`
+  line `sums of money as that Government considers necessary by way of grants, loans or otherwise.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 34805)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Audit of accounts of Society.`)
-  (str content) (str `(1) The Society shall maintain proper accounts and other relevant
-records and prepare an annual statement of accounts including the balance sheet in such form as may be
-approved by the Comptroller and Auditor-General of India.
-
-(2) The accounts of the Society shall be audited by the Comptroller and Auditor-General of India and
-any expenditure incurred by him in connection with such audit shall be payable by the Society to the
-Comptroller and Auditor-General of India.
-
-(3) The Comptroller and Auditor-General of India and any person appointed by him in connection
-with the audit of the accounts of the Society shall have the same rights, privileges and authority in
-connection with such audit as the Comptroller and Auditor-General of India has in connection with the
-audit of the Government accounts, and, in particular, shall have the right to demand the production of
-books, accounts, connected vouchers and other documents and papers and to inspect the office of the
-Society.
-
-(4) The accounts of the Society as certified by the Comptroller and Auditor-General of India or any
-person appointed by him in this behalf together with the audit report thereof shall be forwarded annually
-to the Central Government and that Government shall cause the same to be laid before each House of
-Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34805&sectionno=5&orderno=5&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34805)
+  sectionNo (5)
+  orderNo 5
+  title `Audit of accounts of Society.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34805&sectionno=5&orderno=5&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_5_content:
+  string
+  line `(1) The Society shall maintain proper accounts and other relevant`
+  line `records and prepare an annual statement of accounts including the balance sheet in such form as may be`
+  line `approved by the Comptroller and Auditor-General of India.`
+  line
+  line `(2) The accounts of the Society shall be audited by the Comptroller and Auditor-General of India and`
+  line `any expenditure incurred by him in connection with such audit shall be payable by the Society to the`
+  line `Comptroller and Auditor-General of India.`
+  line
+  line `(3) The Comptroller and Auditor-General of India and any person appointed by him in connection`
+  line `with the audit of the accounts of the Society shall have the same rights, privileges and authority in`
+  line `connection with such audit as the Comptroller and Auditor-General of India has in connection with the`
+  line `audit of the Government accounts, and, in particular, shall have the right to demand the production of`
+  line `books, accounts, connected vouchers and other documents and papers and to inspect the office of the`
+  line Society.
+  line
+  line `(4) The accounts of the Society as certified by the Comptroller and Auditor-General of India or any`
+  line `person appointed by him in this behalf together with the audit report thereof shall be forwarded annually`
+  line `to the Central Government and that Government shall cause the same to be laid before each House of`
+  line Parliament.
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 34806)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Annual report.`)
-  (str content) (str `The Society shall furnish to the Central Government, at such time each year as
-may be directed, its annual report giving full account of its activities, policies and programmes during the
-previous year and that Government shall cause the same to be laid before each House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34806&sectionno=6&orderno=6&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34806)
+  sectionNo (6)
+  orderNo 6
+  title `Annual report.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34806&sectionno=6&orderno=6&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_6_content:
+  string
+  line `The Society shall furnish to the Central Government, at such time each year as`
+  line `may be directed, its annual report giving full account of its activities, policies and programmes during the`
+  line `previous year and that Government shall cause the same to be laid before each House of Parliament.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 34807)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Prior approval of Central Government necessary for certain action by Society.`)
-  (str content) (str `The Society
-shall not, except with the previous approval of the Central Government,--
-
-(a) alter, extend or abridge any of the purposes for which it has been established or for which it is
-being used immediately before the commencement of this Act, or amalgamate itself either wholly or
-partially with any other institution or society; or
-
-(b) alter or amend in any manner the memorandum or regulations; or
-
-(c) sell or otherwise dispose of any property acquired by the Society with money specifically
-provided for such acquisition by the Central Government:
-
-Provided that no such approval shall be necessary in the case of any such movable property or
-class of movable property as may be specified by the Central Government in this behalf by general or
-special order; or
-
-(d) be dissolved.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34807&sectionno=7&orderno=7&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34807)
+  sectionNo (7)
+  orderNo 7
+  title `Prior approval of Central Government necessary for certain action by Society.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34807&sectionno=7&orderno=7&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_7_content:
+  string
+  line `The Society`
+  line `shall not, except with the previous approval of the Central Government,--`
+  line
+  line `(a) alter, extend or abridge any of the purposes for which it has been established or for which it is`
+  line `being used immediately before the commencement of this Act, or amalgamate itself either wholly or`
+  line `partially with any other institution or society; or`
+  line
+  line `(b) alter or amend in any manner the memorandum or regulations; or`
+  line
+  line `(c) sell or otherwise dispose of any property acquired by the Society with money specifically`
+  line `provided for such acquisition by the Central Government:`
+  line
+  line `Provided that no such approval shall be necessary in the case of any such movable property or`
+  line `class of movable property as may be specified by the Central Government in this behalf by general or`
+  line `special order; or`
+  line
+  line `(d) be dissolved.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 34808)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Planning Board.`)
-  (str content) (str `(1) For the purpose of advising it with respect to the planning and
-implementation of the developmental programmes of the Society and other matters concerning the
-Society, the Central Government may, by notification in the Official Gazette, establish a board to be
-called the Planning Board (Asiatic Society).
-
-(2) The Board shall consist of a Chairman and such other members as may be appointed by the
-Central Government.
-
-(3) Subject to any rules which the Central Government may make in this behalf, the Board shall have
-the power to regulate its own procedure.
-
-(4) The term of office of, the procedure to be followed in the discharge of their functions by, the
-manner of filling casual vacancies among, the allowances, if any, payable to, and other matters
-concerning, the members of the Board shall be such as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34808&sectionno=8&orderno=8&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34808)
+  sectionNo (8)
+  orderNo 8
+  title `Planning Board.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34808&sectionno=8&orderno=8&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_8_content:
+  string
+  line `(1) For the purpose of advising it with respect to the planning and`
+  line `implementation of the developmental programmes of the Society and other matters concerning the`
+  line `Society, the Central Government may, by notification in the Official Gazette, establish a board to be`
+  line `called the Planning Board (Asiatic Society).`
+  line
+  line `(2) The Board shall consist of a Chairman and such other members as may be appointed by the`
+  line `Central Government.`
+  line
+  line `(3) Subject to any rules which the Central Government may make in this behalf, the Board shall have`
+  line `the power to regulate its own procedure.`
+  line
+  line `(4) The term of office of, the procedure to be followed in the discharge of their functions by, the`
+  line `manner of filling casual vacancies among, the allowances, if any, payable to, and other matters`
+  line `concerning, the members of the Board shall be such as may be prescribed.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 34809)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str Committees.)
-  (str content) (str `(1) The Central Government may, by notifications in the Official Gazette,
-constitute as many committees, as and when it considers it necessary, consisting of such number of
-persons as it thinks fit to appoint thereto and assign to each such committee all or any of the following
-duties, namely:--
-
-(a) the preparation and submission to the Central Government, as far as possible before the
-commencement of each financial year, of statements showing programmes of work agreed to be
-undertaken by the Society during that year for which the Central Government may provide funds as
-well as general financial estimates in respect of such work;
-
-(b) the settlement on broad line of the programmes of such work.
-
-(2) A committee constituted under sub-section (1) shall, in discharging its duties with respect to any
-matter under this section, have due regard to the advice, if any, tendered in respect of such matter under
-section 8 by the Board to the Central Government.
-
-(3) Where the Society does not agree to undertake any work suggested by any committee referred to
-in sub-section (1), it shall give to the Central Government its reasons for not so agreeing.
-
-(4) The procedure to be followed by a committee constituted under sub-section (1) in the discharge of
-its functions, the allowances, if any, payable to the members of such committee and other matters relating
-to such committee shall be such as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34809&sectionno=9&orderno=9&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34809)
+  sectionNo (9)
+  orderNo 9
+  title Committees.
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34809&sectionno=9&orderno=9&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_9_content:
+  string
+  line `(1) The Central Government may, by notifications in the Official Gazette,`
+  line `constitute as many committees, as and when it considers it necessary, consisting of such number of`
+  line `persons as it thinks fit to appoint thereto and assign to each such committee all or any of the following`
+  line `duties, namely:--`
+  line
+  line `(a) the preparation and submission to the Central Government, as far as possible before the`
+  line `commencement of each financial year, of statements showing programmes of work agreed to be`
+  line `undertaken by the Society during that year for which the Central Government may provide funds as`
+  line `well as general financial estimates in respect of such work;`
+  line
+  line `(b) the settlement on broad line of the programmes of such work.`
+  line
+  line `(2) A committee constituted under sub-section (1) shall, in discharging its duties with respect to any`
+  line `matter under this section, have due regard to the advice, if any, tendered in respect of such matter under`
+  line `section 8 by the Board to the Central Government.`
+  line
+  line `(3) Where the Society does not agree to undertake any work suggested by any committee referred to`
+  line `in sub-section (1), it shall give to the Central Government its reasons for not so agreeing.`
+  line
+  line `(4) The procedure to be followed by a committee constituted under sub-section (1) in the discharge of`
+  line `its functions, the allowances, if any, payable to the members of such committee and other matters relating`
+  line `to such committee shall be such as may be prescribed.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 34810)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Review of work done, inspection of assets, etc.`)
-  (str content) (str `(1) the Central Government may, by
-notification in the Official Gazette, constitute a Committee consisting of such number of persons as it
-thinks fit to appoint thereto for the purpose of--
-
-(a) reviewing the work done by the Society and the progress made by it;
-
-(b) inspecting its buildings, equipment and other assets;
-
-(c) evaluating the work done by the Society; and
-
-(d) advising Government generally on any matter which in the
-
-opinion of the Central Government is of importance in connection with the work of the Society;
-
-and the Committee shall submit its report thereon in such manner as the Central Government may direct.
-
-(2) The procedure to be followed by, the allowances, if any, payable to, the members of the
-Committee and other matters concerning the Committee shall be such as may be prescribed.
-
-(3) The Committee shall, subject to the provisions of sub-section (4) and of any rules which the
-Central Government may make in this behalf, have power to regulate its own procedure.
-
-(4) Notice shall be given in every case to the Society of the intention to cause a review, inspection or
-evaluation to be made, and the Society shall be entitled to appoint a representative who shall have the
-right to be present and be heard at such review, inspection or evaluation.
-
-(5) The Central Government may address the President of the Society with reference to the result of
-such review, inspection or evaluation as disclosed in any report of the Committee referred to in subsection (1), and the President shall communicate to the Central Government the action, if any, taken
-thereon.
-
-(6) When the Central Government has in pursuance of sub-section (5), addressed the President of the
-Society in connection with any matter, and the President does not within a reasonable time take action to
-the satisfaction of the Central Government in respect thereof, the Central Government may, after
-considering any explanations furnished or representations made on behalf of the Society, issue such
-directions as it considers necessary in respect of any of the matters dealt with in the report.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34810&sectionno=10&orderno=10&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34810)
+  sectionNo (10)
+  orderNo 10
+  title `Review of work done, inspection of assets, etc.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34810&sectionno=10&orderno=10&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_10_content:
+  string
+  line `(1) the Central Government may, by`
+  line `notification in the Official Gazette, constitute a Committee consisting of such number of persons as it`
+  line `thinks fit to appoint thereto for the purpose of--`
+  line
+  line `(a) reviewing the work done by the Society and the progress made by it;`
+  line
+  line `(b) inspecting its buildings, equipment and other assets;`
+  line
+  line `(c) evaluating the work done by the Society; and`
+  line
+  line `(d) advising Government generally on any matter which in the`
+  line
+  line `opinion of the Central Government is of importance in connection with the work of the Society;`
+  line
+  line `and the Committee shall submit its report thereon in such manner as the Central Government may direct.`
+  line
+  line `(2) The procedure to be followed by, the allowances, if any, payable to, the members of the`
+  line `Committee and other matters concerning the Committee shall be such as may be prescribed.`
+  line
+  line `(3) The Committee shall, subject to the provisions of sub-section (4) and of any rules which the`
+  line `Central Government may make in this behalf, have power to regulate its own procedure.`
+  line
+  line `(4) Notice shall be given in every case to the Society of the intention to cause a review, inspection or`
+  line `evaluation to be made, and the Society shall be entitled to appoint a representative who shall have the`
+  line `right to be present and be heard at such review, inspection or evaluation.`
+  line
+  line `(5) The Central Government may address the President of the Society with reference to the result of`
+  line `such review, inspection or evaluation as disclosed in any report of the Committee referred to in subsection (1), and the President shall communicate to the Central Government the action, if any, taken`
+  line thereon.
+  line
+  line `(6) When the Central Government has in pursuance of sub-section (5), addressed the President of the`
+  line `Society in connection with any matter, and the President does not within a reasonable time take action to`
+  line `the satisfaction of the Central Government in respect thereof, the Central Government may, after`
+  line `considering any explanations furnished or representations made on behalf of the Society, issue such`
+  line `directions as it considers necessary in respect of any of the matters dealt with in the report.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 34811)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Society to afford facilities to Committees.`)
-  (str content) (str `The Society shall be bound to afford all necessary
-facilities to the Board constituted under section 8 and to every committee constituted under section 9 or
-section 10 for the purpose of enabling them to carry out their duties.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34811&sectionno=11&orderno=11&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34811)
+  sectionNo (11)
+  orderNo 11
+  title `Society to afford facilities to Committees.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34811&sectionno=11&orderno=11&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_11_content:
+  string
+  line `The Society shall be bound to afford all necessary`
+  line `facilities to the Board constituted under section 8 and to every committee constituted under section 9 or`
+  line `section 10 for the purpose of enabling them to carry out their duties.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 34812)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Power to issue directions to Society.`)
-  (str content) (str `(1) The Central Government may, if it is satisfied that it
-is necessary so to do in the public interest issue, for reasons to be recorded and communicated to the
-Society, such directions as it thinks to the Society, and such directions may include directions requiring
-the Society--
-
-(a) to amend the memorandum or to make or amend any regulation within such period as may be
-specified in the directions;
-
-(b) to give priorities to the work undertaken or to be undertaken by the Society in such manner as
-the Central Government may think fit to specify in this behalf.
-
-(2) Any directions issued under this section shall have effect, notwithstanding anything contained in
-any law for the time being in force or in the memorandum or regulations of the Society.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34812&sectionno=12&orderno=12&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34812)
+  sectionNo (12)
+  orderNo 12
+  title `Power to issue directions to Society.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34812&sectionno=12&orderno=12&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_12_content:
+  string
+  line `(1) The Central Government may, if it is satisfied that it`
+  line `is necessary so to do in the public interest issue, for reasons to be recorded and communicated to the`
+  line `Society, such directions as it thinks to the Society, and such directions may include directions requiring`
+  line `the Society--`
+  line
+  line `(a) to amend the memorandum or to make or amend any regulation within such period as may be`
+  line `specified in the directions;`
+  line
+  line `(b) to give priorities to the work undertaken or to be undertaken by the Society in such manner as`
+  line `the Central Government may think fit to specify in this behalf.`
+  line
+  line `(2) Any directions issued under this section shall have effect, notwithstanding anything contained in`
+  line `any law for the time being in force or in the memorandum or regulations of the Society.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 34813)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Power of Central Government to assume functions of control.`)
-  (str content) (str `(1) If, in the opinion of the
-Central Government,--
-
-(i) the Society without just or reasonable cause has made default in giving effect to any direction
-issued under sub-section (6) of section 10 or section 12; or
-
-(ii) the Council of the Society has exceeded or abused the powers in relation to the Society or any
-part thereof;
-
-the Central Government may, by written order, direct the Society within a period to be specified in the
-order to show cause to the satisfaction of the Central Government against the making of any appointment
-referred to in sub-section (2).
-
-(2) If, within the period fixed by any order issued under sub-section (1), cause is not shown to the
-satisfaction of the Central Government, the Central Government may, by order published in the Official
-Gazette and stating the reasons therefor, appoint one or more persons to take over the management of the
-Society or of any of the activities of the Society for such period not exceeding two years as may be
-specified in the order.
-
-(3) During the period specified in the order issued under sub-section (2),--
-
-(a) where the order provides for any person or persons taking over the management of the
-Society--
-
-(i) all persons holding office as Members of the Council, including the President, shall be
-deemed to have vacated their offices as such;
-
-(ii) the person or persons appointed under sub-section (2) to take over the management of the
-Society shall exercise all the powers and perform all the duties of the President or Council of the
-Society, whether at a meeting or otherwise, in respect of the Society;
-
-(b) where the order provides for any person or persons taking over the management of any
-activities of the Society, the person or persons so appointed shall alone be entitled to exercise all the
-powers and perform all the duties of the President or Council in relation to those activities.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34813&sectionno=13&orderno=13&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34813)
+  sectionNo (13)
+  orderNo 13
+  title `Power of Central Government to assume functions of control.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34813&sectionno=13&orderno=13&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_13_content:
+  string
+  line `(1) If, in the opinion of the`
+  line `Central Government,--`
+  line
+  line `(i) the Society without just or reasonable cause has made default in giving effect to any direction`
+  line `issued under sub-section (6) of section 10 or section 12; or`
+  line
+  line `(ii) the Council of the Society has exceeded or abused the powers in relation to the Society or any`
+  line `part thereof;`
+  line
+  line `the Central Government may, by written order, direct the Society within a period to be specified in the`
+  line `order to show cause to the satisfaction of the Central Government against the making of any appointment`
+  line `referred to in sub-section (2).`
+  line
+  line `(2) If, within the period fixed by any order issued under sub-section (1), cause is not shown to the`
+  line `satisfaction of the Central Government, the Central Government may, by order published in the Official`
+  line `Gazette and stating the reasons therefor, appoint one or more persons to take over the management of the`
+  line `Society or of any of the activities of the Society for such period not exceeding two years as may be`
+  line `specified in the order.`
+  line
+  line `(3) During the period specified in the order issued under sub-section (2),--`
+  line
+  line `(a) where the order provides for any person or persons taking over the management of the`
+  line Society--
+  line
+  line `(i) all persons holding office as Members of the Council, including the President, shall be`
+  line `deemed to have vacated their offices as such;`
+  line
+  line `(ii) the person or persons appointed under sub-section (2) to take over the management of the`
+  line `Society shall exercise all the powers and perform all the duties of the President or Council of the`
+  line `Society, whether at a meeting or otherwise, in respect of the Society;`
+  line
+  line `(b) where the order provides for any person or persons taking over the management of any`
+  line `activities of the Society, the person or persons so appointed shall alone be entitled to exercise all the`
+  line `powers and perform all the duties of the President or Council in relation to those activities.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 34814)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Act to have overriding effect.`)
-  (str content) (str `The provisions of this Act shall have effect notwithstanding
-anything inconsistent therewith contained in the memorandum or regulations or the West Bengal
-Societies Registration Act, 1961 (West Bengal Act XXVI, 1961) or any other law for the time being in
-force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34814&sectionno=14&orderno=14&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34814)
+  sectionNo (14)
+  orderNo 14
+  title `Act to have overriding effect.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34814&sectionno=14&orderno=14&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_14_content:
+  string
+  line `The provisions of this Act shall have effect notwithstanding`
+  line `anything inconsistent therewith contained in the memorandum or regulations or the West Bengal`
+  line `Societies Registration Act, 1961 (West Bengal Act XXVI, 1961) or any other law for the time being in`
+  line force.
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 34815)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules to carry out the provisions of this Act.
-
-(2) In particular and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(i) matters with respect to the procedure to be followed by the Board under sub-section (3) of
-section 8;
-
-(ii) the term of office of, the procedure to be followed in the discharge of their functions by, the
-manner of filling casual vacancies among, the allowances, if any, payable to, and other matters
-concerning, the members of the Board under sub-section (4) of section 8;
-
-(iii) the procedure to be followed by a committee in the discharge of its functions, the allowances,
-if any, payable to the members of the committee and other matters relating to the committee under
-sub-section (4) of section 9;
-
-(iv) the procedure to be followed by, the allowances, if any, payable to, the members of the
-Committee and other matters concerning the Committee under sub-section (2) of section 10;
-
-(v) any other matter which is required to be or in respect of which rules may be made under this
-Act.
-
-(3) Every rule made by the Central Government under this Act shall be laid, as soon as may be after it
-is made, before each House of Parliament, while it is in session, for a total period of thirty days which
-may be comprised in one session or in two or more successive sessions, and if, before the expiry of the
-session immediately following the session or the successive sessions aforesaid, both Houses agree in
-making any modification in the rule or both Houses agree that the rule should not be made, the rule shall
-thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that
-any such modification or annulment shall be without prejudice to the validity of anything previously done
-under that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34815&sectionno=15&orderno=15&orgactid=AC_CEN_27_37_00012_198405_1517807326040)
+  sectionId (34815)
+  sectionNo (15)
+  orderNo 15
+  title `Power to make rules.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00012_198405_1517807326040&sectionId=34815&sectionno=15&orderno=15&orgactid=AC_CEN_27_37_00012_198405_1517807326040
+obj_root_law_sections_15_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules to carry out the provisions of this Act.`
+  line
+  line `(2) In particular and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(i) matters with respect to the procedure to be followed by the Board under sub-section (3) of`
+  line `section 8;`
+  line
+  line `(ii) the term of office of, the procedure to be followed in the discharge of their functions by, the`
+  line `manner of filling casual vacancies among, the allowances, if any, payable to, and other matters`
+  line `concerning, the members of the Board under sub-section (4) of section 8;`
+  line
+  line `(iii) the procedure to be followed by a committee in the discharge of its functions, the allowances,`
+  line `if any, payable to the members of the committee and other matters relating to the committee under`
+  line `sub-section (4) of section 9;`
+  line
+  line `(iv) the procedure to be followed by, the allowances, if any, payable to, the members of the`
+  line `Committee and other matters concerning the Committee under sub-section (2) of section 10;`
+  line
+  line `(v) any other matter which is required to be or in respect of which rules may be made under this`
+  line Act.
+  line
+  line `(3) Every rule made by the Central Government under this Act shall be laid, as soon as may be after it`
+  line `is made, before each House of Parliament, while it is in session, for a total period of thirty days which`
+  line `may be comprised in one session or in two or more successive sessions, and if, before the expiry of the`
+  line `session immediately following the session or the successive sessions aforesaid, both Houses agree in`
+  line `making any modification in the rule or both Houses agree that the rule should not be made, the rule shall`
+  line `thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that`
+  line `any such modification or annulment shall be without prejudice to the validity of anything previously done`
+  line `under that rule.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `एशियाटिक सोसाइटी अधिनियम, 1984`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1789/3/H1984-5.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:47:10.148Z`)
-  (str pageCount) (int 4)
-  (str sections) obj_root_law_translations_hi_sections
+  title `एशियाटिक सोसाइटी अधिनियम, 1984`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1789/3/H1984-5.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:47:10.148Z`
+  pageCount 4
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
   obj_root_law_translations_hi_sections_4
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `एशियाटिक सोसाइिी अशिशियम, 1984
-(1984 का अशिशियम संखयां क 5 )
-[23 मार्च, 1984]
-एशियाटिक सोसाइिी िामक संस्था को, शिसका रशिस्री कृत
-कायाचलय इस समय कलकत्ता में है, राष्‍टरी य महत्व
-की संस्था घोशित करिे के शलए और
-उससे संबंशित कशतपय शवियों
-का उपबन्ि करिे के शलए
-अशिशियम
-भारत गणराज्य के पैंतीसवें विच में संसद् द्व ारा शिम्ि शलशित रू प में यह अशिशियशमत हो: ––
-1. संशिप्त िाम और प्र ारम्भ –– (1) इस अशिशियम का संशिप् त िाम एशियाटिक सोसाइिी अशिशियम, 1984 है।
-(2) यह उस तारीि को प्र वृत्त होगा, िो के न् री य सरकार, रािपत्र में अशिसूर्िा द्व ारा, शियत करे।
-2. एशियाटिक सोसाइिी की राष्‍टरी य महत्व की संस्था के रू प में घोिणा –– स् व गीय शवशलयम िोन्स िे 15 ििवरी, 1784 को
-कलकत्ता में एक संस्था की स् था पिा की थी, शिसका िाम अब एशियाटिक सोसाइिी है और शिसके उद्देश्य ऐसे हैं िो उसे राष्‍टरी य महत्व
-की संस्था बिाते हैं, अत: यह घोशित ककया िाता है कक उक्त एशियाटिक सोसाइिी राष्‍टरी य महत्व की संस्था है।
-3. पटरभािाएं –– इस अशिशियम में, िब तक कक संदभच से अन्य था अपेशित ि हो, ––
-( क ) “ ज्ञ ापि ” से सोसाइिी का सं गम - ज्ञ ापि अशभप्रेत है;
-( ि ) “ शवशहत ” से इस अशिशियम के अिीि शियमों द्व ारा शवशहत अशभप्रेत है;
-( ग ) “ शवशियम ” के अन्त गचत कोई ऐसा शियम या शवशियम है ( र् ाहे उसका कोई भी िाम हो ) शिसे सोसाइिी, वैस्ि
-बंगाल सोसाइिीि रशिस्रे िि ऐक्ि, 1961 (1961 का वैस्ि बंगाल ऐक्ि 26) के अिीि उसको प्र दत्त िशक्त यों के प्र योग में
-बिािे के शलए सिम है, ककन्तु इसके अन्त गचत ऐसी कोई उपशवशि या स् था यी आदेि िहीं है, िो शवशियमों के अिीि कदि प्र
-शतकदि के प्र िासि के संर्ालि के शलए बिाया गया हो।
-( घ ) “ सोसाइिी ” से एशियाटिक सोसाइिी अशभ प्रे त है, िो वैस्ि बंगाल सोसाइिीि रशिस्रे िि ऐक्ि, 196 1
-(1961 का वैस्ि बंगाल ऐक्ि 26) के अथच में सोसाइिी है और शिसका रशिस्री कृत कायाचलय कलकत्ता में है।
-4. केन्री य सरकार द्व ारा सोसाइिी को अिुदाि, उिार आकद –– सोसाइिी को अपिे कृत् यों का, शििके अन्त गचत शवशिष्‍टि त:
-अिुसंिाि, साशहशत्य क पुस् त काल्य, वैज्ञाशिक और संग्रहालय संबंिी कायचकलाप, पाण्डु शलशपयों, शसक्कों और कलाकृशतयों का संग्रहण तथा
-शियतकाशलक पशत्रकाओं, पुस्त कों और अन्य साशहत्य का प्र कािि है, दितापूवचक शिवचहि करिे में समथच बिािे के प्र योिि के शलए,
-केन्री य सरकार, संसद् द्व ारा शवशि द्व ारा इस शिशमत्त सम्य क् शवशियोग ककए िािे के पश् र्ा त्, सोसाइिी को प्रत् ये क शवत्तीय विच में ऐसी
-ििराशियां अिुदाि के रू प में, उिार के रू प में या अन्य था दे सकेगी िो वह आवश्य क समझे।
-5. सोसाइिी के लेिाओं की लेिापरीिा –– (1) सोसाइिी उशर्त लेिा और अन्य सुसंगत अशभलेि रिेगी और लेिाओं का
-वार्िचक शववरण, शिसके अन्त गचत तुलिपत्र है, ऐसे प्ररू प में तैयार करेगी, शिसे भारत का शियन् त्र क - महालेिापरीिक अिुमोकदत करे।
-(2) सोसाइिी के लेिाओं की लेिापरीिा भारत के शियंत्रक - महालेिापरीिक द्व ारा की िाएगी और ऐसी लेिापरीिा के
-संबंि में उपगत कोई व् य य सोसाइिी द्व ारा भारत के शियंत्रक - महालेिापरीिक को संदेय होगा।
-(3) भारत के शियंत्रक - महालेिापरीिक को और सोसाइिी के लेिाओं की लेिापरीिा के संबं ि में उसके द्व ारा शियुक्त ककसी व्
-य शक् त को ऐसी लेिापरीिा के संबंि में वही अशिकार, शविेिाशिकार और प्र ाशिकार होंगे, िो भारत के शियंत्रक - महालेिापरीिक को
-सरकारी लेिापरीिा के संबंि में होते हैं और शवशिष्‍टि तया बशहयों, लेिाओं, सम्ब द्ध वाउर्रों तथा अन्य द स् ता वेिों और कागि - पत्रों के
-पेि ककए िािे की मांग करिे और सोसाइिी के कायाचलय का शिरीिण करिे का अशिकार होगा।
-(4) भारत के शियंत्रक - महालेिापरीिक या इस शिशमत्त उसके द्व ारा शियुक्त ककसी अन्य व् य शक् त द्व ारा प्र माशणत सोसाइिी के
-लेिा और उिकी लेिापरीिा टरपोिच केन्री य सरकार को प्र शतविच भेिी िाएगी और वह उन्हें संसद् के प्रत् ये क सदि के समि रिवाएगी।
-6. वार्िचक टरपोिच –– सोसाइिी केन्री य सरकार को प्रत् ये क विच ऐसे समय पर, िो शिदेशित ककया िाए, अपिी वार्िचक टरपोिच,
-पूवच विच के दौराि के अपिे कि याकलापों, िी शतयों और कायचिमों का पूरा शववरण देते हु ए देगी और केन्री य सरकार उसे संसद् के प्रत् ये क
-सदि के समि रिवाएगी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `एशियाटिक सोसाइिी अशिशियम, 1984`
+  line `(1984 का अशिशियम संखयां क 5 )`
+  line `[23 मार्च, 1984]`
+  line `एशियाटिक सोसाइिी िामक संस्था को, शिसका रशिस्री कृत`
+  line `कायाचलय इस समय कलकत्ता में है, राष्‍टरी य महत्व`
+  line `की संस्था घोशित करिे के शलए और`
+  line `उससे संबंशित कशतपय शवियों`
+  line `का उपबन्ि करिे के शलए`
+  line अशिशियम
+  line `भारत गणराज्य के पैंतीसवें विच में संसद् द्व ारा शिम्ि शलशित रू प में यह अशिशियशमत हो: ––`
+  line `1. संशिप्त िाम और प्र ारम्भ –– (1) इस अशिशियम का संशिप् त िाम एशियाटिक सोसाइिी अशिशियम, 1984 है।`
+  line `(2) यह उस तारीि को प्र वृत्त होगा, िो के न् री य सरकार, रािपत्र में अशिसूर्िा द्व ारा, शियत करे।`
+  line `2. एशियाटिक सोसाइिी की राष्‍टरी य महत्व की संस्था के रू प में घोिणा –– स् व गीय शवशलयम िोन्स िे 15 ििवरी, 1784 को`
+  line `कलकत्ता में एक संस्था की स् था पिा की थी, शिसका िाम अब एशियाटिक सोसाइिी है और शिसके उद्देश्य ऐसे हैं िो उसे राष्‍टरी य महत्व`
+  line `की संस्था बिाते हैं, अत: यह घोशित ककया िाता है कक उक्त एशियाटिक सोसाइिी राष्‍टरी य महत्व की संस्था है।`
+  line `3. पटरभािाएं –– इस अशिशियम में, िब तक कक संदभच से अन्य था अपेशित ि हो, ––`
+  line `( क ) “ ज्ञ ापि ” से सोसाइिी का सं गम - ज्ञ ापि अशभप्रेत है;`
+  line `( ि ) “ शवशहत ” से इस अशिशियम के अिीि शियमों द्व ारा शवशहत अशभप्रेत है;`
+  line `( ग ) “ शवशियम ” के अन्त गचत कोई ऐसा शियम या शवशियम है ( र् ाहे उसका कोई भी िाम हो ) शिसे सोसाइिी, वैस्ि`
+  line `बंगाल सोसाइिीि रशिस्रे िि ऐक्ि, 1961 (1961 का वैस्ि बंगाल ऐक्ि 26) के अिीि उसको प्र दत्त िशक्त यों के प्र योग में`
+  line `बिािे के शलए सिम है, ककन्तु इसके अन्त गचत ऐसी कोई उपशवशि या स् था यी आदेि िहीं है, िो शवशियमों के अिीि कदि प्र`
+  line `शतकदि के प्र िासि के संर्ालि के शलए बिाया गया हो।`
+  line `( घ ) “ सोसाइिी ” से एशियाटिक सोसाइिी अशभ प्रे त है, िो वैस्ि बंगाल सोसाइिीि रशिस्रे िि ऐक्ि, 196 1`
+  line `(1961 का वैस्ि बंगाल ऐक्ि 26) के अथच में सोसाइिी है और शिसका रशिस्री कृत कायाचलय कलकत्ता में है।`
+  line `4. केन्री य सरकार द्व ारा सोसाइिी को अिुदाि, उिार आकद –– सोसाइिी को अपिे कृत् यों का, शििके अन्त गचत शवशिष्‍टि त:`
+  line `अिुसंिाि, साशहशत्य क पुस् त काल्य, वैज्ञाशिक और संग्रहालय संबंिी कायचकलाप, पाण्डु शलशपयों, शसक्कों और कलाकृशतयों का संग्रहण तथा`
+  line `शियतकाशलक पशत्रकाओं, पुस्त कों और अन्य साशहत्य का प्र कािि है, दितापूवचक शिवचहि करिे में समथच बिािे के प्र योिि के शलए,`
+  line `केन्री य सरकार, संसद् द्व ारा शवशि द्व ारा इस शिशमत्त सम्य क् शवशियोग ककए िािे के पश् र्ा त्, सोसाइिी को प्रत् ये क शवत्तीय विच में ऐसी`
+  line `ििराशियां अिुदाि के रू प में, उिार के रू प में या अन्य था दे सकेगी िो वह आवश्य क समझे।`
+  line `5. सोसाइिी के लेिाओं की लेिापरीिा –– (1) सोसाइिी उशर्त लेिा और अन्य सुसंगत अशभलेि रिेगी और लेिाओं का`
+  line `वार्िचक शववरण, शिसके अन्त गचत तुलिपत्र है, ऐसे प्ररू प में तैयार करेगी, शिसे भारत का शियन् त्र क - महालेिापरीिक अिुमोकदत करे।`
+  line `(2) सोसाइिी के लेिाओं की लेिापरीिा भारत के शियंत्रक - महालेिापरीिक द्व ारा की िाएगी और ऐसी लेिापरीिा के`
+  line `संबंि में उपगत कोई व् य य सोसाइिी द्व ारा भारत के शियंत्रक - महालेिापरीिक को संदेय होगा।`
+  line `(3) भारत के शियंत्रक - महालेिापरीिक को और सोसाइिी के लेिाओं की लेिापरीिा के संबं ि में उसके द्व ारा शियुक्त ककसी व्`
+  line `य शक् त को ऐसी लेिापरीिा के संबंि में वही अशिकार, शविेिाशिकार और प्र ाशिकार होंगे, िो भारत के शियंत्रक - महालेिापरीिक को`
+  line `सरकारी लेिापरीिा के संबंि में होते हैं और शवशिष्‍टि तया बशहयों, लेिाओं, सम्ब द्ध वाउर्रों तथा अन्य द स् ता वेिों और कागि - पत्रों के`
+  line `पेि ककए िािे की मांग करिे और सोसाइिी के कायाचलय का शिरीिण करिे का अशिकार होगा।`
+  line `(4) भारत के शियंत्रक - महालेिापरीिक या इस शिशमत्त उसके द्व ारा शियुक्त ककसी अन्य व् य शक् त द्व ारा प्र माशणत सोसाइिी के`
+  line `लेिा और उिकी लेिापरीिा टरपोिच केन्री य सरकार को प्र शतविच भेिी िाएगी और वह उन्हें संसद् के प्रत् ये क सदि के समि रिवाएगी।`
+  line `6. वार्िचक टरपोिच –– सोसाइिी केन्री य सरकार को प्रत् ये क विच ऐसे समय पर, िो शिदेशित ककया िाए, अपिी वार्िचक टरपोिच,`
+  line `पूवच विच के दौराि के अपिे कि याकलापों, िी शतयों और कायचिमों का पूरा शववरण देते हु ए देगी और केन्री य सरकार उसे संसद् के प्रत् ये क`
+  line `सदि के समि रिवाएगी।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-7. सोसाइिी की कशतपय कारचवाइयों के शलए केन्री य सरकार के पूवच अिुमोदि का आवश् य क होिा –– सोसाइिी, केन्री य
-सरकार के पूवच अिुमोदि के शसवाय, ––
-( क ) उि प्र योििों में से, शििके शलए इसकी स् था पिा की गई है, या शििके शलए इसका इस अशिशियम के प्र ारम्भ के
-ठीक पूवच उपयोग ककया िा रहा है, ककसी का पटरवतचि, शवस्ता र या न् यू िि िहीं करेगी, अथवा स् व यं को पूणचत: या भागत:,
-ककसी अन्य संस्था या सोसाइिी के साथ समामेशलत िहीं करेगी; या
-( ि ) ककसी रीशत से ज्ञ ापि या शवशियमों का पटरवतचि या संिोिि िहीं करेगी; या
-( ग ) केन्री य सरकार द्व ारा ऐसे अिचि के शलए शवशिर्दचष्‍टि रू प में उपबंशित िि से सोसाइिी द्व ारा अर्िचत ककसी
-सम्प शत्त का शविय िहीं करे गी या उसका अन्य था व् य यि िहीं करेगी:
-परन् तु ऐसा कोई अिुमोदि ऐसी ककसी िंगम सम्प शत्त या ककसी वगच की िंगम सम्प शत्त की दिा में, िो केन्री य
-सरकार द्व ारा सािारण या शविेि आदेि द्व ारा इस शिशमत्त शवशिर्दचष्‍टि की िाए, आवश्य क िहीं होगा; या
-( घ ) शवघटित िहीं की िाएगी।
-8. योििा बोडच –– (1) केन्री य सरकार, सोसाइिी के शवकास कायचिमों के बारे में योििा बिािे और उिके कियान्व यि तथा
-सोसाइिी से संबंशित अन्य शवियों के संबंि में उसे सलाह देिे के प्र योिि के शलए, रािपत्र में अशिसूर्िा द्व ारा, एक बोडच की स् था प िा
-करेगी शिसका िाम योििा बोडच ( एशियाटिक सोसाइिी ) होगा।
-(2) बोडच में अध्य ि और ऐसे अन्य सदस्य होंगे िो केन्री य सरकार द्व ारा शियुक्त ककए िाएं।
-(3) ऐसे शियमों के अिीि रहते हु ए, िो केन्री य सरकार इस शिशमत्त बिाए, बोडच को अपिी प्र किया शवशियशम त करिे की
-िशक्त होगी।
-(4) बोडच के सदस्यों की पदावशि, उिके कृत् यों के शिवचहि में अिुसरण की िािे वाली प्र किया, उिमें आकशस्म क टरशक् त यों को
-भरिे की रीशत, उिको सं देय भत्ते, यकद कोई हों, और उिसे संबंशित अन्य शविय ऐसे होंगे िो शवशहत ककए िाएं।
-9. सशम शतयां –– (1) केन्री य सरकार, रािपत्र में अशिसूर्िा द्व ारा, उतिी सशमशतयों का गठि कर सकेगी, शितिी और िब वह
-आवश्य क समझे, शिसमें उतिे व् य शक् त होंगे शितिे वह उिमें शियुक्त करिा ठीक समझे और प्रत् ये क ऐसी सशमशत को शिम्ि शलशित सभी
-या कोई कतचव्य समिुदेशित कर सकेगी, अथाचत्: ––
-( क ) प्रत् ये क शवत्तीय विच के प्र ारम्भ के पूवच यथासंभव केन्री य सरकार को उस विच के दौराि, शिसके शलए केन्री य
-सरकार शिशियों की व् य वस्था करती है, सोसाइिी द्व ारा शिम्मा शलए िािे के शलए तय पाए गए कायच के कायचिमों को दर्िचत
-करिे वाले शववरणों और ऐसे कायच के संबंि में सािा रण शवत्तीय प्र ाक् क लिों को तैयार करिा और उन्हें केन्री य सरकार को प्रस्
-तु त करिा; और
-( ि ) ऐसे कायच के कायचिमों का शवस्तृ त रू परेिा के आिार पर पटरशििाचरण।
-(2) उपिारा (1) के अिीि गटठत सशमशत, इस िारा के अिीि ककसी शविय के संबंि में अपिे कृत् यों का शिवचहि करिे में,
-केन्री य सरकार को बोडच द्व ारा िारा 8 के अिीि ककसी शविय के संबंि में दी गई सलाह का, यकद कोई हो, सम्य क् ध् या ि रिेगी।
-(3) िहां सोसाइिी उपिारा (1) में शिर्दचष्‍टि ककसी सशमशत द्व ारा सुझाए गए ककसी कायच का शिम्मा लेिे के शलए सहमत िहीं
-होती है, वहां केन्री य सरकार को ऐसे सहमत ि होिे के शलए अपिे कारण देगी।
-(4) उपिारा (1) के अिीि गटठत सशमशत द्व ारा अपिे कृत् यों के शिवचहि में अिुसरण की िािे वाली प्र किया, ऐसी सशमशत के
-सदस्यों को संदेय भत्ते, यकद कोई हों, और ऐसी सशमशत से संबंशित अन्य शविय ऐसे होंगे, िो शवशहत ककए िाएं।
-10. ककए गए कायच का पुिर्वचलोकि, आशस्त यों का शिरीिण, आकद –– (1) केन्री य सरकार, रािपत्र में अशिसूर्िा द्व ारा, एक
-सशमशत का गठि कर सकेगी शिसमें उतिे व् य शक् त होंगे शितिे वह ––
-( क ) सोसाइिी द्व ारा ककए गए कायच और उसके द्व ारा की गई प्र गशत का पुिर्वचलोकि करिे;
-( ि ) उसके भविों, उपस्क र और अन्य आशस्त यों का शिरीिण करिे;
-( ग ) सोसाइिी द्व ारा ककए गए कायच का मूल्यां कि करिे;
-( घ ) ऐसे ककसी शविय पर, िो केन्री य सरकार की राय में सोसाइिी के कायच के संबंि में महत्व का है, सािारणतया
-सरकार को सलाह देिे,
-के प्र योिि के शलए उसमें शियुक्त करिा ठीक समझे और सशमशत उस पर अपिी टरपोिच ऐसी रीशत से, िो केन्री य सरकार शिदेशित करे, प्रस्
-तु त करेगी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `7. सोसाइिी की कशतपय कारचवाइयों के शलए केन्री य सरकार के पूवच अिुमोदि का आवश् य क होिा –– सोसाइिी, केन्री य`
+  line `सरकार के पूवच अिुमोदि के शसवाय, ––`
+  line `( क ) उि प्र योििों में से, शििके शलए इसकी स् था पिा की गई है, या शििके शलए इसका इस अशिशियम के प्र ारम्भ के`
+  line `ठीक पूवच उपयोग ककया िा रहा है, ककसी का पटरवतचि, शवस्ता र या न् यू िि िहीं करेगी, अथवा स् व यं को पूणचत: या भागत:,`
+  line `ककसी अन्य संस्था या सोसाइिी के साथ समामेशलत िहीं करेगी; या`
+  line `( ि ) ककसी रीशत से ज्ञ ापि या शवशियमों का पटरवतचि या संिोिि िहीं करेगी; या`
+  line `( ग ) केन्री य सरकार द्व ारा ऐसे अिचि के शलए शवशिर्दचष्‍टि रू प में उपबंशित िि से सोसाइिी द्व ारा अर्िचत ककसी`
+  line `सम्प शत्त का शविय िहीं करे गी या उसका अन्य था व् य यि िहीं करेगी:`
+  line `परन् तु ऐसा कोई अिुमोदि ऐसी ककसी िंगम सम्प शत्त या ककसी वगच की िंगम सम्प शत्त की दिा में, िो केन्री य`
+  line `सरकार द्व ारा सािारण या शविेि आदेि द्व ारा इस शिशमत्त शवशिर्दचष्‍टि की िाए, आवश्य क िहीं होगा; या`
+  line `( घ ) शवघटित िहीं की िाएगी।`
+  line `8. योििा बोडच –– (1) केन्री य सरकार, सोसाइिी के शवकास कायचिमों के बारे में योििा बिािे और उिके कियान्व यि तथा`
+  line `सोसाइिी से संबंशित अन्य शवियों के संबंि में उसे सलाह देिे के प्र योिि के शलए, रािपत्र में अशिसूर्िा द्व ारा, एक बोडच की स् था प िा`
+  line `करेगी शिसका िाम योििा बोडच ( एशियाटिक सोसाइिी ) होगा।`
+  line `(2) बोडच में अध्य ि और ऐसे अन्य सदस्य होंगे िो केन्री य सरकार द्व ारा शियुक्त ककए िाएं।`
+  line `(3) ऐसे शियमों के अिीि रहते हु ए, िो केन्री य सरकार इस शिशमत्त बिाए, बोडच को अपिी प्र किया शवशियशम त करिे की`
+  line `िशक्त होगी।`
+  line `(4) बोडच के सदस्यों की पदावशि, उिके कृत् यों के शिवचहि में अिुसरण की िािे वाली प्र किया, उिमें आकशस्म क टरशक् त यों को`
+  line `भरिे की रीशत, उिको सं देय भत्ते, यकद कोई हों, और उिसे संबंशित अन्य शविय ऐसे होंगे िो शवशहत ककए िाएं।`
+  line `9. सशम शतयां –– (1) केन्री य सरकार, रािपत्र में अशिसूर्िा द्व ारा, उतिी सशमशतयों का गठि कर सकेगी, शितिी और िब वह`
+  line `आवश्य क समझे, शिसमें उतिे व् य शक् त होंगे शितिे वह उिमें शियुक्त करिा ठीक समझे और प्रत् ये क ऐसी सशमशत को शिम्ि शलशित सभी`
+  line `या कोई कतचव्य समिुदेशित कर सकेगी, अथाचत्: ––`
+  line `( क ) प्रत् ये क शवत्तीय विच के प्र ारम्भ के पूवच यथासंभव केन्री य सरकार को उस विच के दौराि, शिसके शलए केन्री य`
+  line `सरकार शिशियों की व् य वस्था करती है, सोसाइिी द्व ारा शिम्मा शलए िािे के शलए तय पाए गए कायच के कायचिमों को दर्िचत`
+  line `करिे वाले शववरणों और ऐसे कायच के संबंि में सािा रण शवत्तीय प्र ाक् क लिों को तैयार करिा और उन्हें केन्री य सरकार को प्रस्`
+  line `तु त करिा; और`
+  line `( ि ) ऐसे कायच के कायचिमों का शवस्तृ त रू परेिा के आिार पर पटरशििाचरण।`
+  line `(2) उपिारा (1) के अिीि गटठत सशमशत, इस िारा के अिीि ककसी शविय के संबंि में अपिे कृत् यों का शिवचहि करिे में,`
+  line `केन्री य सरकार को बोडच द्व ारा िारा 8 के अिीि ककसी शविय के संबंि में दी गई सलाह का, यकद कोई हो, सम्य क् ध् या ि रिेगी।`
+  line `(3) िहां सोसाइिी उपिारा (1) में शिर्दचष्‍टि ककसी सशमशत द्व ारा सुझाए गए ककसी कायच का शिम्मा लेिे के शलए सहमत िहीं`
+  line `होती है, वहां केन्री य सरकार को ऐसे सहमत ि होिे के शलए अपिे कारण देगी।`
+  line `(4) उपिारा (1) के अिीि गटठत सशमशत द्व ारा अपिे कृत् यों के शिवचहि में अिुसरण की िािे वाली प्र किया, ऐसी सशमशत के`
+  line `सदस्यों को संदेय भत्ते, यकद कोई हों, और ऐसी सशमशत से संबंशित अन्य शविय ऐसे होंगे, िो शवशहत ककए िाएं।`
+  line `10. ककए गए कायच का पुिर्वचलोकि, आशस्त यों का शिरीिण, आकद –– (1) केन्री य सरकार, रािपत्र में अशिसूर्िा द्व ारा, एक`
+  line `सशमशत का गठि कर सकेगी शिसमें उतिे व् य शक् त होंगे शितिे वह ––`
+  line `( क ) सोसाइिी द्व ारा ककए गए कायच और उसके द्व ारा की गई प्र गशत का पुिर्वचलोकि करिे;`
+  line `( ि ) उसके भविों, उपस्क र और अन्य आशस्त यों का शिरीिण करिे;`
+  line `( ग ) सोसाइिी द्व ारा ककए गए कायच का मूल्यां कि करिे;`
+  line `( घ ) ऐसे ककसी शविय पर, िो केन्री य सरकार की राय में सोसाइिी के कायच के संबंि में महत्व का है, सािारणतया`
+  line `सरकार को सलाह देिे,`
+  line `के प्र योिि के शलए उसमें शियुक्त करिा ठीक समझे और सशमशत उस पर अपिी टरपोिच ऐसी रीशत से, िो केन्री य सरकार शिदेशित करे, प्रस्`
+  line `तु त करेगी।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-(2) सशमशत के सदस्यों द्व ारा अिुसरण की िािे वाले प्र किया, उिको संदेय भत्ते, यकद कोई हों, और सशमशत से संबंशित अन्य
-शविय ऐसे होंगे, िो शवशहत ककए िाएं।
-(3) सशमशत को, उपिारा (4 ) के उपबन्िों और ऐसे ककन्हीं शियमों के अिीि रहते हु ए, िो केन्री य सरकार इस शिशमत्त बिाए,
-अपिी प्र किया शवशियशमत करिे की िशक्त होगी।
-(4) पुिर्वच लोकि, शिरीिण या मूल्यां कि कराए िािे के आिय की सूर्िा प्रत् ये क मामले में सोसाइिी को दी िाएगी और
-सोसाइिी ऐसे ककसी प्र शतशिशि को शियुक्त करिे के शलए हकदार होगी शिसे उपशस्थ त होिे का और ऐसे पुिर्वचलोकि, शिरीिण या
-मूल्यां कि में सुिवाई का अशिकार होगा।
-(5) केन्री य सरकार, उपिारा (1) में शिर्दचष्‍टि सशमशत की ककसी टरपोिच में प्र कि ककए गए ऐसे पुिर्वचलोकि, शिरीिण या
-मूल्यां कि के पटरणाम के प्र शत शिदेि से सोसाइिी के प्र िाि को सम्बो शित कर सकेगी और प्र िाि, केन्री य सरकार को उस सम्ब न् ि में की
-गई कारचवाई की, यकद कोई हो, सूर्िा देगा।
-(6) िब केन्री य सरकार िे उपिारा (5) के अिुसरण में ककसी शविय के संबंि में सोसाइिी के प्र िाि को सम्बो शित ककया है
-और प्र िाि उसके संबंि में के न् री य सरकार के समािािप्रद रू प में युशक्त युक्त स मय के भीतर कारचवाई िहीं करता है तो केन्री य सरकार,
-सोसाइिी की ओर से कदए गए ककसी स् प ष्‍ट िी करण या अभ्या वेदि पर शवर्ार करिे के पश् र्ा त्, ऐसे शिदेि दे सकेगी िो वह टरपोिच में कदए
-गए ककसी शविय के संबंि में आवश्य क समझती है।
-11. सोसाइिी द्व ारा सशमशतयों को सुशविाओं का कदया िािा –– सोसाइिी, िारा 8 के अिीि गटठत बोडच को और िारा 9 या
-िारा 10 के अिीि गटठत प्रत् ये क सशमशत को, अपिे कतचव्यों का पालि करिे में उन्हें समथच बिािे के प्र योिि के शलए, सभी आवश्य क
-सुशविा एं देिे के शलए आबद्ध होगी।
-12. सोसाइिी को शिदेि देिे की िशक्त –– (1) केन्री य सरकार, यकद उसका यह समािाि हो िाता है कक लोक शहत में ऐसा
-करिा आवश्य क है तो लेिबद्ध ककए िािे वाले और सोसाइिी को संसूशर्त ककए िािे वाले कारणों से, सोसाइिी को ऐसे शिदेि दे
-सकेगी, िो वह ठीक समझे और ऐसे शिदेिों में सोसाइिी से शिम्ि शलशित की अपेिा करिे वाले शिदेि सशम्म शलत होंगे ––
-( क ) ऐसी अवशि के भीतर िो शिदेिों में शवशिर्दचष्‍टि की िाए, ज्ञ ापि का संिोिि करिा या कोई शवशियम बिािा
-या उसका संिोिि करिा;
-( ि ) सोसाइिी द्व ारा शिम्मा शलए गए या शिम्मा शलए िािे वाले कायच को ऐसी रीशत से, िो केन्री य सरकार इस
-शिशमत्त शवशिर्दचष्‍टि करिा ठीक समझे, पूर्वचकता देिा।
-(2) इस िारा के अिीि िारी ककए गए शिदेि, तत्स मय प्र वृत्त ककसी शवशि में या सोसाइिी के ज्ञ ापि अथवा शवशियमों में
-अन्त र् वचष्‍टि कक सी बात के होते हु ए भी, प्र भावी होंगे।
-13. शियंत्रण के कृत्यों को ग्र हण करिे की केन्री य सरकार की िशक्त –– (1) यकद केन्री य सरकार की राय में, ––
-(i ) सोसाइिी िे न् या योशर्त या युशक्त युक्त कारण के शबिा िारा 10 की उपिारा (6) या िारा 12 के अिीि िारी
-ककए गए ककसी शिदे ि को प्र भावी करिे में व् य शत िम ककया है; या
-(ii) सोसाइिी की पटरिद् िे सोसाइिी या उसके ककसी भाग के सम्ब न् ि में िशक्त यों का अशतिम या दुरुपयोग
-ककया है,
-तो केन्री य सरकार, शलशित आदेि द्व ारा सोसाइिी को शिदेि दे सकेगी कक व ह आदेि में शवशिर्दचष्‍टि की िािे वाली अवशि के भीतर
-उपिारा (2) में शिर्दचष्‍टि कोई शियुशक्त करिे के शवरुद्ध केन्री य सरकार के समािािप्रद रू प में हेतुक दर्िचत करे।
-(2) यकद उपिारा (1) के अिीि िारी ककए गए ककसी आदेि द्व ारा शियत की गई अवशि के भीतर, केन्री य सरकार के
-समािािप्रद रू प में हेतुक दर्िचत िहीं ककया िाता है तो केन्री य सरकार, रािपत्र में प्र काशित और उसके शलए कारण बताते हु ए आदेि द्व
-ारा सोसाइिी के ककसी कियाकलाप का दो विच से अिशिक की ऐसी अवशि के शलए, िो आदेि में शवशिर्दचष्‍टि की िाए, प्र बन्ि ग्र हण
-करिे के शलए एक या अशिक व् य शक्त यों को शियुक्त कर सकेगी।
-(3) उपिारा (2) के अिीि िारी ककए गए आदेि में शवशिर्दचष्‍टि अवशि के दौराि, ––
-( क ) िहां आदेि में ककसी व् य शक् त या व् य शक् त यों द्व ारा सोसाइिी का प्र बन्ि ग्र हण करिे के शलए उपबन्ि ककया गया
-है वहां ––
-(i) पटरिद् के सदस्यों के रू प में, पद िारण करिे वाले सभी व् य शक्त यों के, शििके अन्त गचत प्र िाि है, बारे
-में यह समझा िाएगा कक उन्हों िे उस रू प में अपिे पद टरक्त कर कदए हैं;
-(ii) उपिारा (2) के अिीि सोसाइिी का प्र बन्ि ग्र हण करिे के शलए शियुक्त व् य शक् त, सोसाइिी के
-सम्ब न् ि में, र् ाहे ककसी बैठक या अन्य था सोसाइिी के प्र िाि या पटरिद् की सभी िशक्त यों का प्र योग और सभी
-कतचव्यों का पालि करेगा या करेंगे;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `(2) सशमशत के सदस्यों द्व ारा अिुसरण की िािे वाले प्र किया, उिको संदेय भत्ते, यकद कोई हों, और सशमशत से संबंशित अन्य`
+  line `शविय ऐसे होंगे, िो शवशहत ककए िाएं।`
+  line `(3) सशमशत को, उपिारा (4 ) के उपबन्िों और ऐसे ककन्हीं शियमों के अिीि रहते हु ए, िो केन्री य सरकार इस शिशमत्त बिाए,`
+  line `अपिी प्र किया शवशियशमत करिे की िशक्त होगी।`
+  line `(4) पुिर्वच लोकि, शिरीिण या मूल्यां कि कराए िािे के आिय की सूर्िा प्रत् ये क मामले में सोसाइिी को दी िाएगी और`
+  line `सोसाइिी ऐसे ककसी प्र शतशिशि को शियुक्त करिे के शलए हकदार होगी शिसे उपशस्थ त होिे का और ऐसे पुिर्वचलोकि, शिरीिण या`
+  line `मूल्यां कि में सुिवाई का अशिकार होगा।`
+  line `(5) केन्री य सरकार, उपिारा (1) में शिर्दचष्‍टि सशमशत की ककसी टरपोिच में प्र कि ककए गए ऐसे पुिर्वचलोकि, शिरीिण या`
+  line `मूल्यां कि के पटरणाम के प्र शत शिदेि से सोसाइिी के प्र िाि को सम्बो शित कर सकेगी और प्र िाि, केन्री य सरकार को उस सम्ब न् ि में की`
+  line `गई कारचवाई की, यकद कोई हो, सूर्िा देगा।`
+  line `(6) िब केन्री य सरकार िे उपिारा (5) के अिुसरण में ककसी शविय के संबंि में सोसाइिी के प्र िाि को सम्बो शित ककया है`
+  line `और प्र िाि उसके संबंि में के न् री य सरकार के समािािप्रद रू प में युशक्त युक्त स मय के भीतर कारचवाई िहीं करता है तो केन्री य सरकार,`
+  line `सोसाइिी की ओर से कदए गए ककसी स् प ष्‍ट िी करण या अभ्या वेदि पर शवर्ार करिे के पश् र्ा त्, ऐसे शिदेि दे सकेगी िो वह टरपोिच में कदए`
+  line `गए ककसी शविय के संबंि में आवश्य क समझती है।`
+  line `11. सोसाइिी द्व ारा सशमशतयों को सुशविाओं का कदया िािा –– सोसाइिी, िारा 8 के अिीि गटठत बोडच को और िारा 9 या`
+  line `िारा 10 के अिीि गटठत प्रत् ये क सशमशत को, अपिे कतचव्यों का पालि करिे में उन्हें समथच बिािे के प्र योिि के शलए, सभी आवश्य क`
+  line `सुशविा एं देिे के शलए आबद्ध होगी।`
+  line `12. सोसाइिी को शिदेि देिे की िशक्त –– (1) केन्री य सरकार, यकद उसका यह समािाि हो िाता है कक लोक शहत में ऐसा`
+  line `करिा आवश्य क है तो लेिबद्ध ककए िािे वाले और सोसाइिी को संसूशर्त ककए िािे वाले कारणों से, सोसाइिी को ऐसे शिदेि दे`
+  line `सकेगी, िो वह ठीक समझे और ऐसे शिदेिों में सोसाइिी से शिम्ि शलशित की अपेिा करिे वाले शिदेि सशम्म शलत होंगे ––`
+  line `( क ) ऐसी अवशि के भीतर िो शिदेिों में शवशिर्दचष्‍टि की िाए, ज्ञ ापि का संिोिि करिा या कोई शवशियम बिािा`
+  line `या उसका संिोिि करिा;`
+  line `( ि ) सोसाइिी द्व ारा शिम्मा शलए गए या शिम्मा शलए िािे वाले कायच को ऐसी रीशत से, िो केन्री य सरकार इस`
+  line `शिशमत्त शवशिर्दचष्‍टि करिा ठीक समझे, पूर्वचकता देिा।`
+  line `(2) इस िारा के अिीि िारी ककए गए शिदेि, तत्स मय प्र वृत्त ककसी शवशि में या सोसाइिी के ज्ञ ापि अथवा शवशियमों में`
+  line `अन्त र् वचष्‍टि कक सी बात के होते हु ए भी, प्र भावी होंगे।`
+  line `13. शियंत्रण के कृत्यों को ग्र हण करिे की केन्री य सरकार की िशक्त –– (1) यकद केन्री य सरकार की राय में, ––`
+  line `(i ) सोसाइिी िे न् या योशर्त या युशक्त युक्त कारण के शबिा िारा 10 की उपिारा (6) या िारा 12 के अिीि िारी`
+  line `ककए गए ककसी शिदे ि को प्र भावी करिे में व् य शत िम ककया है; या`
+  line `(ii) सोसाइिी की पटरिद् िे सोसाइिी या उसके ककसी भाग के सम्ब न् ि में िशक्त यों का अशतिम या दुरुपयोग`
+  line `ककया है,`
+  line `तो केन्री य सरकार, शलशित आदेि द्व ारा सोसाइिी को शिदेि दे सकेगी कक व ह आदेि में शवशिर्दचष्‍टि की िािे वाली अवशि के भीतर`
+  line `उपिारा (2) में शिर्दचष्‍टि कोई शियुशक्त करिे के शवरुद्ध केन्री य सरकार के समािािप्रद रू प में हेतुक दर्िचत करे।`
+  line `(2) यकद उपिारा (1) के अिीि िारी ककए गए ककसी आदेि द्व ारा शियत की गई अवशि के भीतर, केन्री य सरकार के`
+  line `समािािप्रद रू प में हेतुक दर्िचत िहीं ककया िाता है तो केन्री य सरकार, रािपत्र में प्र काशित और उसके शलए कारण बताते हु ए आदेि द्व`
+  line `ारा सोसाइिी के ककसी कियाकलाप का दो विच से अिशिक की ऐसी अवशि के शलए, िो आदेि में शवशिर्दचष्‍टि की िाए, प्र बन्ि ग्र हण`
+  line `करिे के शलए एक या अशिक व् य शक्त यों को शियुक्त कर सकेगी।`
+  line `(3) उपिारा (2) के अिीि िारी ककए गए आदेि में शवशिर्दचष्‍टि अवशि के दौराि, ––`
+  line `( क ) िहां आदेि में ककसी व् य शक् त या व् य शक् त यों द्व ारा सोसाइिी का प्र बन्ि ग्र हण करिे के शलए उपबन्ि ककया गया`
+  line `है वहां ––`
+  line `(i) पटरिद् के सदस्यों के रू प में, पद िारण करिे वाले सभी व् य शक्त यों के, शििके अन्त गचत प्र िाि है, बारे`
+  line `में यह समझा िाएगा कक उन्हों िे उस रू प में अपिे पद टरक्त कर कदए हैं;`
+  line `(ii) उपिारा (2) के अिीि सोसाइिी का प्र बन्ि ग्र हण करिे के शलए शियुक्त व् य शक् त, सोसाइिी के`
+  line `सम्ब न् ि में, र् ाहे ककसी बैठक या अन्य था सोसाइिी के प्र िाि या पटरिद् की सभी िशक्त यों का प्र योग और सभी`
+  line `कतचव्यों का पालि करेगा या करेंगे;`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-( ि ) िहां आदेि में ककसी व् य शक् त या व् य शक् त यों द्व ारा सोसाइिी के ककसी कियाकलाप का प्र बन्ि ग्र हण करिे के शलए उपबन्ि
-ककया गया है वहां इस प्र कार शियुक्त व् य शक् त अकेले उि कियाकलापों के सम्ब न् ि में प्र िाि या पटरिद् की सभी िशक्त यों का प्र योग करिे
-और सभी कतचव्यों का पालि करिे के शलए हकदार होगा या होंगे।
-14. अशिशियम का अध्या रोही प्र भा व –– इस अशिशियम के उपबन्ि ज्ञ ापि या शवशियमों या वैस्ि बंगाल सोसाइिीि
-रशिस्रे िि ऐक्ि, 1961 (1961 का वैस्ि बंगाल ऐक्ि 26) या तत्स मय प्र वृत्त ककसी अन्य शवशि में इससे असंगत ककसी बात के होते हु ए
-भी, प्र भावी होंगे।
-15. शियम बिािे की िशक्त –– (1) केन्री य सरकार, इस अशिशियम के उपबन्िों को कायाचशन्व त करिे के शलए शियम, रािपत्र
-में अशिसूर्िा द्व ारा बिा सकेगी।
-(2) शवशिष्‍टि तया और पूवचगामी िशक्त की व् या पकता पर प्र शतकूल प्र भाव डाले शबिा, ऐसे शियम शिम्ि शलशित सभी या ककन्हीं
-शवियों के शलए उपबन्ि कर सकें गे, अथाचत्: ––
-(i) िारा 8 की उपिारा (3) के अिीि बोडच द्व ारा अिुसरण की िािे वाली प्र किया से सम्ब शन्ि त शविय;
-(ii) िारा 8 की उपिारा (4) के अिीि बोडच के सदस्यों की पदावशि, उिके कृत् यों के शिवचहि में अिुसरण की िािे
-वाली प्र किया, उिमें आकशस्म क टरशक् त यों को भरिे की रीशत, उिको संदेय भत्ते, यकद कोई हों, और उिसे सम्ब शन्ि त अन्य
-शविय;
-(iii) िारा 9 की उपिारा (4) के अिीि सशमशत द्व ारा अपिे कृत् यों के शिवचहि में अिुसरण की िािे वाली प्र किया,
-सशमशत के सदस्यों को संदेय भत्ते, यकद कोई हों, और सशमशत से संबंशित अन्य शविय;
-(iv) िारा 10 की उपिारा (2) के अिीि, सशमशत के सदस्यों द्व ारा अिुसरण की िािे वाली प्र किया, उिको संदेय
-भत्ते, यकद कोई हों, और सशमशत से संबंशित अन्य शविय;
-(v) कोई अन्य शविय, िो इस अशिशियम के अिीि ककया िािा अपेशित है या शिसके संबंि में इस अशिशियम के
-अिीि शियम बिाए िा सकते हैं।
-(3) इस अशिशियम के अिीि केन्री य सरकार द्व ारा बिाया गया प्रत् ये क शियम, बिाए िािे के पश् र्ा त् यथािीघ्र, संसद् के प्रत्
-ये क सदि के समि, िब वह सत्र में हो, कुल तीस कदि की अवशि के शलए रिा िाएगा। यह अ वशि एक सत्र में अथवा दो या अशिक
-आिुिशमक सत्रों में पूरी हो सकेगा। यकद उस सत्र के या पूवोक् त आिुिशमक सत्रों के ठीक बाद के सत्र के अवसाि के पूवच दोिों सदि उस
-शियम में कोई पटरवतचि करिे के शलए सहमत हो िाएं तो तत्प श् र् ा त् वह ऐसे पटरवर्तचत रू प में ही प्र भावी होगा। यकद उक्त अवसाि के
-पूवच दोिों सदि सहमत हो िाएं कक वह शियम िहीं बिाया िािा र् ाशहए तो पश् र्ा त् वह शिष्‍ट प्र भाव हो िाएगा। ककन्तु शियम के ऐसे
-पटरवर्तचत या शिष्‍ट प्र भाव होिे से उसके अिीि पहले की गई ककसी बात की शवशिमान्य ता पर प्र शतकूल प्र भाव िहीं पडेगा।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `( ि ) िहां आदेि में ककसी व् य शक् त या व् य शक् त यों द्व ारा सोसाइिी के ककसी कियाकलाप का प्र बन्ि ग्र हण करिे के शलए उपबन्ि`
+  line `ककया गया है वहां इस प्र कार शियुक्त व् य शक् त अकेले उि कियाकलापों के सम्ब न् ि में प्र िाि या पटरिद् की सभी िशक्त यों का प्र योग करिे`
+  line `और सभी कतचव्यों का पालि करिे के शलए हकदार होगा या होंगे।`
+  line `14. अशिशियम का अध्या रोही प्र भा व –– इस अशिशियम के उपबन्ि ज्ञ ापि या शवशियमों या वैस्ि बंगाल सोसाइिीि`
+  line `रशिस्रे िि ऐक्ि, 1961 (1961 का वैस्ि बंगाल ऐक्ि 26) या तत्स मय प्र वृत्त ककसी अन्य शवशि में इससे असंगत ककसी बात के होते हु ए`
+  line `भी, प्र भावी होंगे।`
+  line `15. शियम बिािे की िशक्त –– (1) केन्री य सरकार, इस अशिशियम के उपबन्िों को कायाचशन्व त करिे के शलए शियम, रािपत्र`
+  line `में अशिसूर्िा द्व ारा बिा सकेगी।`
+  line `(2) शवशिष्‍टि तया और पूवचगामी िशक्त की व् या पकता पर प्र शतकूल प्र भाव डाले शबिा, ऐसे शियम शिम्ि शलशित सभी या ककन्हीं`
+  line `शवियों के शलए उपबन्ि कर सकें गे, अथाचत्: ––`
+  line `(i) िारा 8 की उपिारा (3) के अिीि बोडच द्व ारा अिुसरण की िािे वाली प्र किया से सम्ब शन्ि त शविय;`
+  line `(ii) िारा 8 की उपिारा (4) के अिीि बोडच के सदस्यों की पदावशि, उिके कृत् यों के शिवचहि में अिुसरण की िािे`
+  line `वाली प्र किया, उिमें आकशस्म क टरशक् त यों को भरिे की रीशत, उिको संदेय भत्ते, यकद कोई हों, और उिसे सम्ब शन्ि त अन्य`
+  line शविय;
+  line `(iii) िारा 9 की उपिारा (4) के अिीि सशमशत द्व ारा अपिे कृत् यों के शिवचहि में अिुसरण की िािे वाली प्र किया,`
+  line `सशमशत के सदस्यों को संदेय भत्ते, यकद कोई हों, और सशमशत से संबंशित अन्य शविय;`
+  line `(iv) िारा 10 की उपिारा (2) के अिीि, सशमशत के सदस्यों द्व ारा अिुसरण की िािे वाली प्र किया, उिको संदेय`
+  line `भत्ते, यकद कोई हों, और सशमशत से संबंशित अन्य शविय;`
+  line `(v) कोई अन्य शविय, िो इस अशिशियम के अिीि ककया िािा अपेशित है या शिसके संबंि में इस अशिशियम के`
+  line `अिीि शियम बिाए िा सकते हैं।`
+  line `(3) इस अशिशियम के अिीि केन्री य सरकार द्व ारा बिाया गया प्रत् ये क शियम, बिाए िािे के पश् र्ा त् यथािीघ्र, संसद् के प्रत्`
+  line `ये क सदि के समि, िब वह सत्र में हो, कुल तीस कदि की अवशि के शलए रिा िाएगा। यह अ वशि एक सत्र में अथवा दो या अशिक`
+  line `आिुिशमक सत्रों में पूरी हो सकेगा। यकद उस सत्र के या पूवोक् त आिुिशमक सत्रों के ठीक बाद के सत्र के अवसाि के पूवच दोिों सदि उस`
+  line `शियम में कोई पटरवतचि करिे के शलए सहमत हो िाएं तो तत्प श् र् ा त् वह ऐसे पटरवर्तचत रू प में ही प्र भावी होगा। यकद उक्त अवसाि के`
+  line `पूवच दोिों सदि सहमत हो िाएं कक वह शियम िहीं बिाया िािा र् ाशहए तो पश् र्ा त् वह शिष्‍ट प्र भाव हो िाएगा। ककन्तु शियम के ऐसे`
+  line `पटरवर्तचत या शिष्‍ट प्र भाव होिे से उसके अिीि पहले की गई ककसी बात की शवशिमान्य ता पर प्र शतकूल प्र भाव िहीं पडेगा।`
+  line ______
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line

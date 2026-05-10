@@ -1,60 +1,51 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T12:04:09.905Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2013`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 32)
-  (str totalSections) (int 32)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T12:04:09.905Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2013`
+  completeFetch true
+  maxSections null
+  sectionCount 32
+  totalSections 32
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-micro-small-and-medium-enterprises-development-act-2006)
-  (str handle) (str 2013)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Micro, Small and Medium Enterprises Development Act, 2006`)
-  (str actNumber) (str 27)
-  (str enactmentDate) (str 2006-06-16)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2013`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `सूक्ष्‍म, लघु और मध्‍यम उद्यम विकासअधिनियम, 2006`)
-  (str actYear) (str 2006)
-  (str ministry) (str `Ministry of Micro, Small and Medium Enterprises`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act to provide for facilitating the promotion and development and enhancing the competitiveness of micro, small and medium enterprises and for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 02-10-2006)
-  (str notification) (str `2nd October, 2006, vide notification No. S.O. 1154(E) dated 18th July, 2006, see Gazette of India, Extraordinary Part II sec.3(ii).`)
-  (str fetchedAt) (str `2026-05-10T12:04:07.484Z`)
-  (str translations) obj_root_law_translations
+  slug the-micro-small-and-medium-enterprises-development-act-2006
+  handle (2013)
+  collectionHandle 123456789/1362
+  title `The Micro, Small and Medium Enterprises Development Act, 2006`
+  actNumber (27)
+  enactmentDate 2006-06-16
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2013`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `सूक्ष्‍म, लघु और मध्‍यम उद्यम विकासअधिनियम, 2006`
+  actYear (2006)
+  ministry `Ministry of Micro, Small and Medium Enterprises`
+  department undefined
+  longTitle `An Act to provide for facilitating the promotion and development and enhancing the competitiveness of micro, small and medium enterprises and for matters connected therewith or incidental thereto.`
+  enforcementDate 02-10-2006
+  notification `2nd October, 2006, vide notification No. S.O. 1154(E) dated 18th July, 2006, see Gazette of India, Extraordinary Part II sec.3(ii).`
+  fetchedAt `2026-05-10T12:04:07.484Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_micro_small_and_medium_enterprises_development_act_2006
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2013`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2013`
 obj_root_law_sources_en_the_micro_small_and_medium_enterprises_development_act_2006:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2013/3/A2006-27.pdf`)
-  (str title) (str `The Micro, Small and Medium Enterprises Development Act, 2006`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2013/3/A2006-27.pdf`
+  title `The Micro, Small and Medium Enterprises Development Act, 2006`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_2006
 obj_root_law_sources_hi_2006:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2013/5/H2006-27.pdf`)
-  (str title) (str `सूक्ष्‍म, लघु और मध्‍यम उद्यम विकासअधिनियम, 2006`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2013/5/H2006-27.pdf`
+  title `सूक्ष्‍म, लघु और मध्‍यम उद्यम विकासअधिनियम, 2006`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -88,829 +79,986 @@ obj_root_law_sections:
   obj_root_law_sections_31
   obj_root_law_sections_32
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 9883)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) This Act may be called the Micro, Small and Medium
-Enterprises Development Act, 2006.
-
-(2) It shall come into force on such date^1 as the Central Government may, by notification, appoint;
-
-and different dates may be appointed for different provisions of this Act and any reference in any such
-provision to the commencement of this Act shall be construed as a reference to the coming into force of
-that provision.`)
-  (str footnotes) (str `1 2nd October, 2006, vide notification No. S.O. 1154(E) dated 18th July, 2006, see Gazette of India, Extraordinary Part II
-sec.3(ii).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9883&sectionno=1&orderno=1&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9883)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9883&sectionno=1&orderno=1&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Micro, Small and Medium`
+  line `Enterprises Development Act, 2006.`
+  line
+  line `(2) It shall come into force on such date^1 as the Central Government may, by notification, appoint;`
+  line
+  line `and different dates may be appointed for different provisions of this Act and any reference in any such`
+  line `provision to the commencement of this Act shall be construed as a reference to the coming into force of`
+  line `that provision.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1 2nd October, 2006, vide notification No. S.O. 1154(E) dated 18th July, 2006, see Gazette of India, Extraordinary Part II`
+  line `sec.3(ii).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 9884)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "Advisory Committee" means the committee constituted by the Central Government under
-sub-section (2) of section 7;
-
-(b) "appointed day' means the day following immediately after the expiry of the period of fifteen
-days from the day of acceptance or the day of deemed acceptance of any goods or any services by a
-buyer from a supplier.
-
-Explanation.--For the purposes of this clause,--
-
-(i) "the day of acceptance" means,--
-
-(a) the day of the actual delivery of goods or the rendering of services; or
-
-(b) where any objection is made in writing by the buyer regarding acceptance of goods or
-services within fifteen days from the day of the delivery of goods or the rendering of services,
-the day on which such objection is removed by the supplier;
-
-(ii) "the day of deemed acceptance" means, where no objection is made in writing by the
-buyer regarding acceptance of goods or services within fifteen days from the day of the delivery
-of goods or the rendering of services, the day of the actual delivery of goods or the rendering of
-services;
-
-(c) "Board" means the National Board for Micro, Small and Medium Enterprises established
-under section 3;
-
-(d) "buyer" means whoever buys any goods or receives any services from a supplier for
-consideration;
-
-(e) "enterprise" means an industrial undertaking or a business concern or any other establishment,
-by whatever name called, engaged in the manufacture or production of goods, in any manner,
-pertaining to any industry specified in the First Schedule to the Industries (Development and
-Regulation) Act, 1951 (55 of 1951) or engaged in providing or rendering of any service or services;
-
-(f) "goods" means every kind of movable property other than actionable claims and money;
-
-(g) "medium enterprise" means an enterprise classified as such under sub-clause (iii) of clause (a)
-or sub-clause (iii) of clause (b) of sub-section (1) of section 7;
-
-(h) "micro enterprise' means an enterprise classified as such under sub-clause (i) of clause (a) or
-sub-clause (i) of clause (b) of sub-section (1) of section 7;
-
-(i) "National Bank" means the National Bank for Agriculture and Rural Development established
-under section 3 of the National Bank for Agriculture and Rural Development Act, 1981 (51 of 1981);
-
-(j) "notification" means a notification published in the Official Gazette;
-
-(k) "prescribed" means prescribed by rules made under this Act;
-
-(l) "Reserve Bank" means the Reserve Bank of India constituted under section 3 of the Reserve
-Bank of India Act, 1934 (2 of 1934);
-
-(m) "small enterprise" means an enterprise classified as such under sub-clause (ii) of clause (a) or
-sub-clause (ii) of clause (b) of sub-section (1) of section 7;
-
-(n) "supplier" means a micro or small enterprise, which has filed a memorandum with the
-authority referred to in sub-section (1) of section 8, and includes,--
-
-(i) the National Small Industries Corporation, being a company, registered under the
-Companies Act, 1956 (1 of 1956);
-
-(ii) the Small Industries Development Corporation of a State or a Union territory, by
-whatever name called, being a company registered under the Companies Act, 1956 (1 of 1956);
-
-(iii) any company, co-operative society, trust or a body, by whatever name called, registered
-or constituted under any law for the time being in force and engaged in selling goods produced by
-micro or small enterprises and rendering services which are provided by such enterprises;
-
-(o) "Small Industries Bank" means the Small Industries Development Bank of India established
-under sub-section (1) of section 3 of the Small Industries Development Bank of India Act, 1989 (39
-of 1989);
-
-(p) "State Government", in relation to a Union territory, means the Administrator thereof
-appointed under article 239 of the Constitution.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9884&sectionno=2&orderno=2&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9884)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9884&sectionno=2&orderno=2&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "Advisory Committee" means the committee constituted by the Central Government under`
+  line `sub-section (2) of section 7;`
+  line
+  line `(b) "appointed day' means the day following immediately after the expiry of the period of fifteen`
+  line `days from the day of acceptance or the day of deemed acceptance of any goods or any services by a`
+  line `buyer from a supplier.`
+  line
+  line `Explanation.--For the purposes of this clause,--`
+  line
+  line `(i) "the day of acceptance" means,--`
+  line
+  line `(a) the day of the actual delivery of goods or the rendering of services; or`
+  line
+  line `(b) where any objection is made in writing by the buyer regarding acceptance of goods or`
+  line `services within fifteen days from the day of the delivery of goods or the rendering of services,`
+  line `the day on which such objection is removed by the supplier;`
+  line
+  line `(ii) "the day of deemed acceptance" means, where no objection is made in writing by the`
+  line `buyer regarding acceptance of goods or services within fifteen days from the day of the delivery`
+  line `of goods or the rendering of services, the day of the actual delivery of goods or the rendering of`
+  line services;
+  line
+  line `(c) "Board" means the National Board for Micro, Small and Medium Enterprises established`
+  line `under section 3;`
+  line
+  line `(d) "buyer" means whoever buys any goods or receives any services from a supplier for`
+  line consideration;
+  line
+  line `(e) "enterprise" means an industrial undertaking or a business concern or any other establishment,`
+  line `by whatever name called, engaged in the manufacture or production of goods, in any manner,`
+  line `pertaining to any industry specified in the First Schedule to the Industries (Development and`
+  line `Regulation) Act, 1951 (55 of 1951) or engaged in providing or rendering of any service or services;`
+  line
+  line `(f) "goods" means every kind of movable property other than actionable claims and money;`
+  line
+  line `(g) "medium enterprise" means an enterprise classified as such under sub-clause (iii) of clause (a)`
+  line `or sub-clause (iii) of clause (b) of sub-section (1) of section 7;`
+  line
+  line `(h) "micro enterprise' means an enterprise classified as such under sub-clause (i) of clause (a) or`
+  line `sub-clause (i) of clause (b) of sub-section (1) of section 7;`
+  line
+  line `(i) "National Bank" means the National Bank for Agriculture and Rural Development established`
+  line `under section 3 of the National Bank for Agriculture and Rural Development Act, 1981 (51 of 1981);`
+  line
+  line `(j) "notification" means a notification published in the Official Gazette;`
+  line
+  line `(k) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(l) "Reserve Bank" means the Reserve Bank of India constituted under section 3 of the Reserve`
+  line `Bank of India Act, 1934 (2 of 1934);`
+  line
+  line `(m) "small enterprise" means an enterprise classified as such under sub-clause (ii) of clause (a) or`
+  line `sub-clause (ii) of clause (b) of sub-section (1) of section 7;`
+  line
+  line `(n) "supplier" means a micro or small enterprise, which has filed a memorandum with the`
+  line `authority referred to in sub-section (1) of section 8, and includes,--`
+  line
+  line `(i) the National Small Industries Corporation, being a company, registered under the`
+  line `Companies Act, 1956 (1 of 1956);`
+  line
+  line `(ii) the Small Industries Development Corporation of a State or a Union territory, by`
+  line `whatever name called, being a company registered under the Companies Act, 1956 (1 of 1956);`
+  line
+  line `(iii) any company, co-operative society, trust or a body, by whatever name called, registered`
+  line `or constituted under any law for the time being in force and engaged in selling goods produced by`
+  line `micro or small enterprises and rendering services which are provided by such enterprises;`
+  line
+  line `(o) "Small Industries Bank" means the Small Industries Development Bank of India established`
+  line `under sub-section (1) of section 3 of the Small Industries Development Bank of India Act, 1989 (39`
+  line `of 1989);`
+  line
+  line `(p) "State Government", in relation to a Union territory, means the Administrator thereof`
+  line `appointed under article 239 of the Constitution.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 9885)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Establishment of Board.`)
-  (str content) (str `(1) With effect from such date as the Central Government may, by
-notification, appoint, there shall be established, for the purposes of this Act, a Board to be known as the
-National Board for Micro, Small and Medium Enterprises.
-
-(2) The head office of the Board shall be at Delhi.
-
-(3) The Board shall consist of the following members, namely:--
-
-(a) the Minister in charge of the Ministry or Department of the Central Government having
-administrative control of the micro, small and medium enterprises who shall be the ex officio
-Chairperson of the Board;
-
-(b) the Minister of State or a Deputy Minister, if any, in the Ministry or Department of the Central
-Government having administrative control of the micro, small and medium enterprises who shall be
-ex officio Vice-Chairperson of the Board, and where there is no such Minister of State or Deputy Minister, such person as may be appointed by the Central Government to be the Vice-Chairperson of
-the Board;
-
-(c) six Ministers of the State Governments having administrative control of the departments of
-small scale industries or, as the case may be, micro, small and medium enterprises, to be appointed by
-the Central Government to represent such regions of the country as may be notified by the Central
-Government in this behalf, ex officio;
-
-(d) three Members of Parliament of whom two shall be elected by the House of the People and
-one by the Council of States;
-
-(e) the Administrator of a Union territory to be appointed by the Central Government, ex officio;
-
-(f) the Secretary to the Government of India in charge of the Ministry or Department of the
-Central Government having administrative control of the micro, small and medium enterprises, ex
-officio;
-
-(g) four Secretaries to the Government of India, to represent the Ministries of the Central
-Government dealing with commerce and industry, finance, food processing industries, labour and
-planning to be appointed by the Central Government, ex officio;
-
-(h) the Chairman of the Board of Directors of the National Bank, ex officio;
-
-(i) the chairman and managing director of the Board of Directors of the Small Industries Bank, ex
-officio;
-
-(j) the chairman, Indian Banks Association, ex officio;
-
-(k) one officer of the Reserve Bank, not below the rank of an Executive Director,to be appointed
-by the Central Government to represent the Reserve Bank;
-
-(l) twenty persons to represent the associations of micro, small and midium enterprises, including
-not less than three persons representing associations of women's enterprises and not less than three
-persons representing associations of micro enterprises, to be appointed by the Central Government;
-
-(m) three persons of eminence, one each from the fileds of economics, industry and science and
-technology, not less than one of whom shall be a woman, to be appointed by the Central Government;
-
-(n) two representatives of Central Trade Union Organisations, to be appointed by the Central
-Government; and
-
-(o) one officer not below the rank of Joint Secretary to the Government of India in the Ministry or
-Department of the Central Government having administrative control of the micro, small and medium
-enterprises to be appointed by the Central Government, who shall be the Member-Secretary of the
-Board, ex officio.
-
-(4) The term of office of the members of the Board, other than ex officio members of the Board, the
-manner of filling vacancies, and the procedure to be followed in the discharge of their functions by the
-members of the Board, shall be such as may be prescribed:
-
-Provided that the term of office of an ex officio member of the Board shall continue so long as he
-holds the office by virtue of which he is such a member.
-
-(5) No act or proceedings of the Board shall be invalid merely by reason of--
-
-(a) any vacancy in, or any defect in the constitution of, the Board; or
-
-(b) any defect in the appointment of a person acting as a member of the Board; or
-
-(c) any irregularity in the procedure of the Board not affecting the merits of the case.
-
-(6) The Board shall meet at least once in every three months in a year.
-
-(7) The Board may associate with itself, in such manner and for such purposes as it may deem
-necessary, any person or persons whose assistance or advice it may desire in complying with any of the provisions of this Act and a person so associated shall have the right to take part in the discussions of the
-Board relevant to the purposes for which he has been associated but shall not have the right to vote.
-
-(8) Without prejudice to sub-section (7)the Chairperson of the Board shall, for not less than two of the
-meetings of the Board in a year, invite such Ministers of the State Governments having administrative
-control of the departments of small scale industries or, as the case may be, the micro, small and medium
-enterprises, or the Administrators of Union territories and representatives of such other associations of
-micro, small and medium enterprises, as he may deem necessary for carrying out the purposes of this Act.
-
-(9) It is hereby delcared that the office of member of the Board shall not disqualify its holder for
-being chosen as, or for being, a member of either House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9885&sectionno=3&orderno=3&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9885)
+  sectionNo (3)
+  orderNo 3
+  title `Establishment of Board.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9885&sectionno=3&orderno=3&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_3_content:
+  string
+  line `(1) With effect from such date as the Central Government may, by`
+  line `notification, appoint, there shall be established, for the purposes of this Act, a Board to be known as the`
+  line `National Board for Micro, Small and Medium Enterprises.`
+  line
+  line `(2) The head office of the Board shall be at Delhi.`
+  line
+  line `(3) The Board shall consist of the following members, namely:--`
+  line
+  line `(a) the Minister in charge of the Ministry or Department of the Central Government having`
+  line `administrative control of the micro, small and medium enterprises who shall be the ex officio`
+  line `Chairperson of the Board;`
+  line
+  line `(b) the Minister of State or a Deputy Minister, if any, in the Ministry or Department of the Central`
+  line `Government having administrative control of the micro, small and medium enterprises who shall be`
+  line `ex officio Vice-Chairperson of the Board, and where there is no such Minister of State or Deputy Minister, such person as may be appointed by the Central Government to be the Vice-Chairperson of`
+  line `the Board;`
+  line
+  line `(c) six Ministers of the State Governments having administrative control of the departments of`
+  line `small scale industries or, as the case may be, micro, small and medium enterprises, to be appointed by`
+  line `the Central Government to represent such regions of the country as may be notified by the Central`
+  line `Government in this behalf, ex officio;`
+  line
+  line `(d) three Members of Parliament of whom two shall be elected by the House of the People and`
+  line `one by the Council of States;`
+  line
+  line `(e) the Administrator of a Union territory to be appointed by the Central Government, ex officio;`
+  line
+  line `(f) the Secretary to the Government of India in charge of the Ministry or Department of the`
+  line `Central Government having administrative control of the micro, small and medium enterprises, ex`
+  line officio;
+  line
+  line `(g) four Secretaries to the Government of India, to represent the Ministries of the Central`
+  line `Government dealing with commerce and industry, finance, food processing industries, labour and`
+  line `planning to be appointed by the Central Government, ex officio;`
+  line
+  line `(h) the Chairman of the Board of Directors of the National Bank, ex officio;`
+  line
+  line `(i) the chairman and managing director of the Board of Directors of the Small Industries Bank, ex`
+  line officio;
+  line
+  line `(j) the chairman, Indian Banks Association, ex officio;`
+  line
+  line `(k) one officer of the Reserve Bank, not below the rank of an Executive Director,to be appointed`
+  line `by the Central Government to represent the Reserve Bank;`
+  line
+  line `(l) twenty persons to represent the associations of micro, small and midium enterprises, including`
+  line `not less than three persons representing associations of women's enterprises and not less than three`
+  line `persons representing associations of micro enterprises, to be appointed by the Central Government;`
+  line
+  line `(m) three persons of eminence, one each from the fileds of economics, industry and science and`
+  line `technology, not less than one of whom shall be a woman, to be appointed by the Central Government;`
+  line
+  line `(n) two representatives of Central Trade Union Organisations, to be appointed by the Central`
+  line `Government; and`
+  line
+  line `(o) one officer not below the rank of Joint Secretary to the Government of India in the Ministry or`
+  line `Department of the Central Government having administrative control of the micro, small and medium`
+  line `enterprises to be appointed by the Central Government, who shall be the Member-Secretary of the`
+  line `Board, ex officio.`
+  line
+  line `(4) The term of office of the members of the Board, other than ex officio members of the Board, the`
+  line `manner of filling vacancies, and the procedure to be followed in the discharge of their functions by the`
+  line `members of the Board, shall be such as may be prescribed:`
+  line
+  line `Provided that the term of office of an ex officio member of the Board shall continue so long as he`
+  line `holds the office by virtue of which he is such a member.`
+  line
+  line `(5) No act or proceedings of the Board shall be invalid merely by reason of--`
+  line
+  line `(a) any vacancy in, or any defect in the constitution of, the Board; or`
+  line
+  line `(b) any defect in the appointment of a person acting as a member of the Board; or`
+  line
+  line `(c) any irregularity in the procedure of the Board not affecting the merits of the case.`
+  line
+  line `(6) The Board shall meet at least once in every three months in a year.`
+  line
+  line `(7) The Board may associate with itself, in such manner and for such purposes as it may deem`
+  line `necessary, any person or persons whose assistance or advice it may desire in complying with any of the provisions of this Act and a person so associated shall have the right to take part in the discussions of the`
+  line `Board relevant to the purposes for which he has been associated but shall not have the right to vote.`
+  line
+  line `(8) Without prejudice to sub-section (7)the Chairperson of the Board shall, for not less than two of the`
+  line `meetings of the Board in a year, invite such Ministers of the State Governments having administrative`
+  line `control of the departments of small scale industries or, as the case may be, the micro, small and medium`
+  line `enterprises, or the Administrators of Union territories and representatives of such other associations of`
+  line `micro, small and medium enterprises, as he may deem necessary for carrying out the purposes of this Act.`
+  line
+  line `(9) It is hereby delcared that the office of member of the Board shall not disqualify its holder for`
+  line `being chosen as, or for being, a member of either House of Parliament.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 9886)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Removal of member from Board.`)
-  (str content) (str `(1) The Central Government may remove a member of the
-Board from it, if he--
-
-(a) is, or at any time has been, adjudged as insolvent; or
-
-(b) is, or becomes, of unsound mind and stands so declared by a competent court; or
-
-(c) refuses to act or becomes incapable of acting as a member of the Board; or
-
-(d) has been convicted of an offence which, in the opinion of the Central Government, involves
-moral turpitude; or
-
-(e) has so abused, in the opinion of the Central Government, his position as a member of the
-Board as to render his continuance in the Board detrimental to the interests of the general public.
-
-(2) Notwithstanding anything contained in sub-section (1), no member shall be removed from his
-office on the grounds specified in clauses (c) to (e) of that sub-section unless he has been given a
-reasonable opportunity of being heard in the matter.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9886&sectionno=4&orderno=4&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9886)
+  sectionNo (4)
+  orderNo 4
+  title `Removal of member from Board.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9886&sectionno=4&orderno=4&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_4_content:
+  string
+  line `(1) The Central Government may remove a member of the`
+  line `Board from it, if he--`
+  line
+  line `(a) is, or at any time has been, adjudged as insolvent; or`
+  line
+  line `(b) is, or becomes, of unsound mind and stands so declared by a competent court; or`
+  line
+  line `(c) refuses to act or becomes incapable of acting as a member of the Board; or`
+  line
+  line `(d) has been convicted of an offence which, in the opinion of the Central Government, involves`
+  line `moral turpitude; or`
+  line
+  line `(e) has so abused, in the opinion of the Central Government, his position as a member of the`
+  line `Board as to render his continuance in the Board detrimental to the interests of the general public.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), no member shall be removed from his`
+  line `office on the grounds specified in clauses (c) to (e) of that sub-section unless he has been given a`
+  line `reasonable opportunity of being heard in the matter.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 9887)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Functions of Board.`)
-  (str content) (str `The Board shall, subject to the general directions of the Central
-Government, perform all or any of the following functions, namely:--
-
-(a) examine the factors affecting the promotion and development of micro, small and medium
-enterprises and review the policies and programmes of the Central Government in regard to
-facilitating the promotion and development and enhancing the competitiveness of such enterprises
-and the impact thereof on such enterprises;
-
-(b) make recommendations on matters referred to in clause (a) or on any other matter referred to
-it by the Central Government which, in the opinion of that Government, is necessary or expedient for
-facilitating the promotion and development and enhancing the competitiveness of the micro, small
-and medium enterprises; and
-
-(c) advise the Central Government on the use of the Fund or Funds constituted under section 12.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9887&sectionno=5&orderno=5&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9887)
+  sectionNo (5)
+  orderNo 5
+  title `Functions of Board.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9887&sectionno=5&orderno=5&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_5_content:
+  string
+  line `The Board shall, subject to the general directions of the Central`
+  line `Government, perform all or any of the following functions, namely:--`
+  line
+  line `(a) examine the factors affecting the promotion and development of micro, small and medium`
+  line `enterprises and review the policies and programmes of the Central Government in regard to`
+  line `facilitating the promotion and development and enhancing the competitiveness of such enterprises`
+  line `and the impact thereof on such enterprises;`
+  line
+  line `(b) make recommendations on matters referred to in clause (a) or on any other matter referred to`
+  line `it by the Central Government which, in the opinion of that Government, is necessary or expedient for`
+  line `facilitating the promotion and development and enhancing the competitiveness of the micro, small`
+  line `and medium enterprises; and`
+  line
+  line `(c) advise the Central Government on the use of the Fund or Funds constituted under section 12.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 9888)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Powers and functions of Member-Secretary of Board.`)
-  (str content) (str `Subject to other provisions of this Act,
-the Member-Secretary of the Board shall exercise such powers and perform such functions as may be
-prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9888&sectionno=6&orderno=6&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9888)
+  sectionNo (6)
+  orderNo 6
+  title `Powers and functions of Member-Secretary of Board.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9888&sectionno=6&orderno=6&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_6_content:
+  string
+  line `Subject to other provisions of this Act,`
+  line `the Member-Secretary of the Board shall exercise such powers and perform such functions as may be`
+  line prescribed.
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 9889)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Classification of enterprises.`)
-  (str content) (str `(1) Notwithstanding anything contained in section 11B of the
-Industries (Development and Regulation) Act, 1951 (65 of 1951),the Central Government may, for the
-purposes of this Act, by notification and having regard to the provisions of sub-sections (4) and (5),
-classify any class or classes of enterprises, whether proprietorship, Hindu undivided family, association of
-persons, co-operative society, partnership firm, company or undertaking, by whatever name called,--
-
-(a) in the case of the enterprises engaged in the manufacture or production of goods pertaining to
-any industry specified in the First Schedule to the Industries (Development and Regulation) Act, 1951
-(65 of 1951),as--
-
-(i) a micro enterprise, where the investment in plant and machinery does not exceed twentyfive
-lakh rupees;
-
-(ii) a small enterprise, where the investment in plant and machinery is more than twenty-five
-lakh rupees but does not exceed five crore rupees; or
-
-(iii) a medium enterprise, where the investment in plant and machinery is more than five
-crore rupees but does not exceed ten crore rupees;
-
-(b) in the case of the enterprises engaged in providing or rendering of services, as--
-
-(i) a micro enterprise, where the investment in equipment does not exceed ten lakh rupees;
-
-(ii) a small enterprise, where the investment in equipment is more than ten lakh rupees but
-does not exceed two crore rupees; or
-
-(iii) a medium enterprise, where the investment in equipment is more than two crore rupees
-but does not exceed five crore rupees.
-
-Explanation 1.--For the removal of doubts, it is hereby clarified that in calculating the investment in
-plant and machinery, the cost of pollution control, research and development, industrial safety devices
-and such other items as may be specified, by notification, shall be excluded.
-
-Explanation 2.--It is clarified that the provisions of section 29B of the Industries (Development and
-Regulation) Act, 1951 (65 of 1951), shall be applicable to the enterprises specified in sub-clauses (i) and
-(ii) of clause (a) of sub-section (1) of this section.
-
-(2) The Central Government shall, by notification, constitute an Advisory Committee consisting of
-the following members, namely:--
-
-(a) the Secretary to the Government of India in the Ministry or Department of the Central
-Government having administrative control of the small and medium enterprises who shall be the
-Chairperson, ex officio;
-
-(b) not more than five officers of the Central Government possessing necessary expertise in
-matters relating to micro, small and medium enterprises, members, ex officio;
-
-(c) not more than three representatives of the State Governments, members, ex officio; and
-
-(d) one representative each of the associations of micro, small and medium enterprises, members,
-ex officio.
-
-(3) The Member-Secretary of the Board shall also be the ex officio Member-Secretary of the Advisory
-Committee.
-
-(4) The Central Government shall, prior to classifying any class or classes of enterprises under
-sub-section (1), obtain the recommendations of the Advisory Committee.
-
-(5) The Advisory Committee shall examine the matters referred to it by the Board in connection with
-any subject referred to in section 5 and furnish its recommendations to the Board.
-
-(6) The Central Government may seek the advice of the Advisory Committee on any of the matters
-specified in section 9, 10, 11, 12 or 14 of Chapter IV.
-
-(7) The State Government may seek advice of the Advisory Committee on any of the matters
-specified in the rules made under section 30.
-
-(8) The Advisory Committee shall, after considering the following matters, communicate its
-recommendations or advice to the Central Government or, as the case may be, State Government or the
-Board, namely:--
-
-(a) the level of employment in a class or classes of enterprises;
-
-(b) the level of investments in plant and machinery or equipment in a class or classes of
-enterprises;
-
-(c) the need of higher investment in plant and machinery or equipment for technological
-upgradation, employment generation and enhanced competitiveness of the class or classes of
-enterprises;
-
-(d) the possibility of promoting and diffusing entrepreneurship inmicro, small or medium
-enterprises; and
-
-(e) the international standards for classification of small and medium enterprises.
-
-(9) Notwithstanding anything contained in section 11B of the Industries (Development and
-Regulation) Act, 1951 (65 of 1951) and clause (h) of section 2 of the Khadi and Village Industries
-Commission Act, 1956 (61 of 1956),the Central Government may, while classifying any class or classes
-of enterprises under sub-section (1), vary, from time to time, the criterion of investment and also consider
-criteria or standards in respect of employment or turnover of the enterprises and include in such
-classification the micro or tiny enterprises or the village enterprises, as part of small enterprises.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9889&sectionno=7&orderno=7&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9889)
+  sectionNo (7)
+  orderNo 7
+  title `Classification of enterprises.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9889&sectionno=7&orderno=7&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_7_content:
+  string
+  line `(1) Notwithstanding anything contained in section 11B of the`
+  line `Industries (Development and Regulation) Act, 1951 (65 of 1951),the Central Government may, for the`
+  line `purposes of this Act, by notification and having regard to the provisions of sub-sections (4) and (5),`
+  line `classify any class or classes of enterprises, whether proprietorship, Hindu undivided family, association of`
+  line `persons, co-operative society, partnership firm, company or undertaking, by whatever name called,--`
+  line
+  line `(a) in the case of the enterprises engaged in the manufacture or production of goods pertaining to`
+  line `any industry specified in the First Schedule to the Industries (Development and Regulation) Act, 1951`
+  line `(65 of 1951),as--`
+  line
+  line `(i) a micro enterprise, where the investment in plant and machinery does not exceed twentyfive`
+  line `lakh rupees;`
+  line
+  line `(ii) a small enterprise, where the investment in plant and machinery is more than twenty-five`
+  line `lakh rupees but does not exceed five crore rupees; or`
+  line
+  line `(iii) a medium enterprise, where the investment in plant and machinery is more than five`
+  line `crore rupees but does not exceed ten crore rupees;`
+  line
+  line `(b) in the case of the enterprises engaged in providing or rendering of services, as--`
+  line
+  line `(i) a micro enterprise, where the investment in equipment does not exceed ten lakh rupees;`
+  line
+  line `(ii) a small enterprise, where the investment in equipment is more than ten lakh rupees but`
+  line `does not exceed two crore rupees; or`
+  line
+  line `(iii) a medium enterprise, where the investment in equipment is more than two crore rupees`
+  line `but does not exceed five crore rupees.`
+  line
+  line `Explanation 1.--For the removal of doubts, it is hereby clarified that in calculating the investment in`
+  line `plant and machinery, the cost of pollution control, research and development, industrial safety devices`
+  line `and such other items as may be specified, by notification, shall be excluded.`
+  line
+  line `Explanation 2.--It is clarified that the provisions of section 29B of the Industries (Development and`
+  line `Regulation) Act, 1951 (65 of 1951), shall be applicable to the enterprises specified in sub-clauses (i) and`
+  line `(ii) of clause (a) of sub-section (1) of this section.`
+  line
+  line `(2) The Central Government shall, by notification, constitute an Advisory Committee consisting of`
+  line `the following members, namely:--`
+  line
+  line `(a) the Secretary to the Government of India in the Ministry or Department of the Central`
+  line `Government having administrative control of the small and medium enterprises who shall be the`
+  line `Chairperson, ex officio;`
+  line
+  line `(b) not more than five officers of the Central Government possessing necessary expertise in`
+  line `matters relating to micro, small and medium enterprises, members, ex officio;`
+  line
+  line `(c) not more than three representatives of the State Governments, members, ex officio; and`
+  line
+  line `(d) one representative each of the associations of micro, small and medium enterprises, members,`
+  line `ex officio.`
+  line
+  line `(3) The Member-Secretary of the Board shall also be the ex officio Member-Secretary of the Advisory`
+  line Committee.
+  line
+  line `(4) The Central Government shall, prior to classifying any class or classes of enterprises under`
+  line `sub-section (1), obtain the recommendations of the Advisory Committee.`
+  line
+  line `(5) The Advisory Committee shall examine the matters referred to it by the Board in connection with`
+  line `any subject referred to in section 5 and furnish its recommendations to the Board.`
+  line
+  line `(6) The Central Government may seek the advice of the Advisory Committee on any of the matters`
+  line `specified in section 9, 10, 11, 12 or 14 of Chapter IV.`
+  line
+  line `(7) The State Government may seek advice of the Advisory Committee on any of the matters`
+  line `specified in the rules made under section 30.`
+  line
+  line `(8) The Advisory Committee shall, after considering the following matters, communicate its`
+  line `recommendations or advice to the Central Government or, as the case may be, State Government or the`
+  line `Board, namely:--`
+  line
+  line `(a) the level of employment in a class or classes of enterprises;`
+  line
+  line `(b) the level of investments in plant and machinery or equipment in a class or classes of`
+  line enterprises;
+  line
+  line `(c) the need of higher investment in plant and machinery or equipment for technological`
+  line `upgradation, employment generation and enhanced competitiveness of the class or classes of`
+  line enterprises;
+  line
+  line `(d) the possibility of promoting and diffusing entrepreneurship inmicro, small or medium`
+  line `enterprises; and`
+  line
+  line `(e) the international standards for classification of small and medium enterprises.`
+  line
+  line `(9) Notwithstanding anything contained in section 11B of the Industries (Development and`
+  line `Regulation) Act, 1951 (65 of 1951) and clause (h) of section 2 of the Khadi and Village Industries`
+  line `Commission Act, 1956 (61 of 1956),the Central Government may, while classifying any class or classes`
+  line `of enterprises under sub-section (1), vary, from time to time, the criterion of investment and also consider`
+  line `criteria or standards in respect of employment or turnover of the enterprises and include in such`
+  line `classification the micro or tiny enterprises or the village enterprises, as part of small enterprises.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 9890)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Memorandum of micro, small and medium enterprises.`)
-  (str content) (str `(1) Any person who intends to
-establish,--
-
-(a) a micro or small enterprise, may, at his discretion; or
-
-(b) a medium enterprise engaged in providing or rendering of services may, at his discretion; or
-
-(c) a medium enterprise engaged in the manufacture or production of goods pertaining to any
-industry specified in the First Schedule to the Industries (Development and Regulation) Act, 1951 (65
-of 1951),
-
-shall file the memorandum of micro, small or, as the case may be, of medium enterprise with such
-authority as may be specified by the State Government under sub-section (4) or the Central Government
-under sub-section (3):
-
-Provided that any person who, before the commencement of this Act, established--
-
-(a) a small scale industry and obtained a registration certificate, may, at his discretion; and
-
-(b) an industry engaged in the manufacture or production of goods pertaining to any industry
-specified in the First Schedule to the Industries (Development and Regulation) Act, 1951 (65 of
-1951),having investment in plant and machinery of more than one crore rupees but not exceeding ten
-crore rupees and, in pursuance of the notification of the Government of India in the erstwhile Ministry
-of Industry (Department of Industrial Development) number S.O. 477(E), dated the 25th July, 1991
-filed an Industrial Entrepreneur's Memorandum,
-
-shall within one hundred and eighty days from the commencement of this Act, file the memorandum, in
-accordance with the provisions of this Act.
-
-(2) The form of the memorandum, the procedure of its filing and other matters incidental thereto shall
-be such as may be notified by the Central Government after obtaining the recommendations of the
-Advisory Committee in this behalf.
-
-(3) The authority with which the memorandum shall be filed by a medium enterprise shall be such as
-may be specified, by notification, by the Central Government.
-
-(4) The State Government shall, by notification, specify the authority with which a micro or small
-enterprise may file the memorandum.
-
-(5) The authorities specified under sub-sections (3) and (4) shall follow, for the purposes of this
-section, the procedure notified by the Central Government under sub-section (2).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9890&sectionno=8&orderno=8&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9890)
+  sectionNo (8)
+  orderNo 8
+  title `Memorandum of micro, small and medium enterprises.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9890&sectionno=8&orderno=8&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_8_content:
+  string
+  line `(1) Any person who intends to`
+  line establish,--
+  line
+  line `(a) a micro or small enterprise, may, at his discretion; or`
+  line
+  line `(b) a medium enterprise engaged in providing or rendering of services may, at his discretion; or`
+  line
+  line `(c) a medium enterprise engaged in the manufacture or production of goods pertaining to any`
+  line `industry specified in the First Schedule to the Industries (Development and Regulation) Act, 1951 (65`
+  line `of 1951),`
+  line
+  line `shall file the memorandum of micro, small or, as the case may be, of medium enterprise with such`
+  line `authority as may be specified by the State Government under sub-section (4) or the Central Government`
+  line `under sub-section (3):`
+  line
+  line `Provided that any person who, before the commencement of this Act, established--`
+  line
+  line `(a) a small scale industry and obtained a registration certificate, may, at his discretion; and`
+  line
+  line `(b) an industry engaged in the manufacture or production of goods pertaining to any industry`
+  line `specified in the First Schedule to the Industries (Development and Regulation) Act, 1951 (65 of`
+  line `1951),having investment in plant and machinery of more than one crore rupees but not exceeding ten`
+  line `crore rupees and, in pursuance of the notification of the Government of India in the erstwhile Ministry`
+  line `of Industry (Department of Industrial Development) number S.O. 477(E), dated the 25th July, 1991`
+  line `filed an Industrial Entrepreneur's Memorandum,`
+  line
+  line `shall within one hundred and eighty days from the commencement of this Act, file the memorandum, in`
+  line `accordance with the provisions of this Act.`
+  line
+  line `(2) The form of the memorandum, the procedure of its filing and other matters incidental thereto shall`
+  line `be such as may be notified by the Central Government after obtaining the recommendations of the`
+  line `Advisory Committee in this behalf.`
+  line
+  line `(3) The authority with which the memorandum shall be filed by a medium enterprise shall be such as`
+  line `may be specified, by notification, by the Central Government.`
+  line
+  line `(4) The State Government shall, by notification, specify the authority with which a micro or small`
+  line `enterprise may file the memorandum.`
+  line
+  line `(5) The authorities specified under sub-sections (3) and (4) shall follow, for the purposes of this`
+  line `section, the procedure notified by the Central Government under sub-section (2).`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 9891)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Measures for promotion and development.`)
-  (str content) (str `The Central Government may, from time to time,
-for the purposes of facilitating the promotion and development and enhancing the competitiveness of
-micro, small and medium enterprises, particularly of the micro and small enterprises, by way of
-development of skill in the employees, management and entrepreneurs, provisioning for technological
-upgradation,marketing assistance or infrastructure facilities and cluster development of such enterprises
-with a view to strengthening backward and forward linkages, specify, by notification, such programmes,
-guidelines or instructions, as it may deem fit.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9891&sectionno=9&orderno=9&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9891)
+  sectionNo (9)
+  orderNo 9
+  title `Measures for promotion and development.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9891&sectionno=9&orderno=9&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_9_content:
+  string
+  line `The Central Government may, from time to time,`
+  line `for the purposes of facilitating the promotion and development and enhancing the competitiveness of`
+  line `micro, small and medium enterprises, particularly of the micro and small enterprises, by way of`
+  line `development of skill in the employees, management and entrepreneurs, provisioning for technological`
+  line `upgradation,marketing assistance or infrastructure facilities and cluster development of such enterprises`
+  line `with a view to strengthening backward and forward linkages, specify, by notification, such programmes,`
+  line `guidelines or instructions, as it may deem fit.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 9892)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Credit facilities.`)
-  (str content) (str `The policies and practices in respect of credit to the micro, small and medium
-enterprises shall be progressive and such as may be specified in the guidelines or instructions issued by
-the Reserve Bank, from time to time, to ensure timely and smooth flow of credit tosuch enterprises,
-minimise the incidence of sickness among and enhance the competitiveness of such enterprises.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9892&sectionno=10&orderno=10&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9892)
+  sectionNo (10)
+  orderNo 10
+  title `Credit facilities.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9892&sectionno=10&orderno=10&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_10_content:
+  string
+  line `The policies and practices in respect of credit to the micro, small and medium`
+  line `enterprises shall be progressive and such as may be specified in the guidelines or instructions issued by`
+  line `the Reserve Bank, from time to time, to ensure timely and smooth flow of credit tosuch enterprises,`
+  line `minimise the incidence of sickness among and enhance the competitiveness of such enterprises.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 9893)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Procurement preference policy.`)
-  (str content) (str `For facilitating promotion and development of micro and
-small enterprises, the Central Government or the State Government may, by order notify from time to
-time, preference policies in respect of procurement of goods and services, produced and provided by
-micro and small enterprises, by its Ministries or departments, as the case may be, or its aided institutions
-and public sector enterprises.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9893&sectionno=11&orderno=11&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9893)
+  sectionNo (11)
+  orderNo 11
+  title `Procurement preference policy.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9893&sectionno=11&orderno=11&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_11_content:
+  string
+  line `For facilitating promotion and development of micro and`
+  line `small enterprises, the Central Government or the State Government may, by order notify from time to`
+  line `time, preference policies in respect of procurement of goods and services, produced and provided by`
+  line `micro and small enterprises, by its Ministries or departments, as the case may be, or its aided institutions`
+  line `and public sector enterprises.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 9894)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str Funds.)
-  (str content) (str `There shall be constituted, by notification, one or more Funds to be called by such name
-as may be specified in the notification and there shall be credited thereto any grants made by the Central
-Government under section 13.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9894&sectionno=12&orderno=12&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9894)
+  sectionNo (12)
+  orderNo 12
+  title Funds.
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9894&sectionno=12&orderno=12&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_12_content:
+  string
+  line `There shall be constituted, by notification, one or more Funds to be called by such name`
+  line `as may be specified in the notification and there shall be credited thereto any grants made by the Central`
+  line `Government under section 13.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 9895)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Grants by Central Government.`)
-  (str content) (str `The Central Government may, after due appropriation made
-by Parliament by law in this behalf, credit to the Fund or Funds by way of grants for the purposes of this
-Act, such sums of money as that Government may consider necessary to provide.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9895&sectionno=13&orderno=13&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9895)
+  sectionNo (13)
+  orderNo 13
+  title `Grants by Central Government.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9895&sectionno=13&orderno=13&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_13_content:
+  string
+  line `The Central Government may, after due appropriation made`
+  line `by Parliament by law in this behalf, credit to the Fund or Funds by way of grants for the purposes of this`
+  line `Act, such sums of money as that Government may consider necessary to provide.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 9896)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Administration and utilisation of Fund or Funds.`)
-  (str content) (str `(1) The Central Government shall have the
-power to administer the Fund or Funds in such manner as may be prescribed.
-
-(2) The Fund or Funds shall be utilised exclusively for the measures specified in sub-section (1) of
-section 9.
-
-(3) The Central Government shall be responsible for the coordination and ensuring timely utilisation
-and release of sums in accordance with such criteria as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9896&sectionno=14&orderno=14&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9896)
+  sectionNo (14)
+  orderNo 14
+  title `Administration and utilisation of Fund or Funds.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9896&sectionno=14&orderno=14&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_14_content:
+  string
+  line `(1) The Central Government shall have the`
+  line `power to administer the Fund or Funds in such manner as may be prescribed.`
+  line
+  line `(2) The Fund or Funds shall be utilised exclusively for the measures specified in sub-section (1) of`
+  line `section 9.`
+  line
+  line `(3) The Central Government shall be responsible for the coordination and ensuring timely utilisation`
+  line `and release of sums in accordance with such criteria as may be prescribed.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 9897)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Liability of buyer to make payment.`)
-  (str content) (str `Where any supplier supplies any goods or renders any
-services to any buyer, the buyer shall make payment therefor on or before the date agreed upon between
-him and the supplier in writing or, where there is no agreement in this behalf, before the appointed day:
-
-Provided that in no case the period agreed upon between the supplier and the buyer in writing shall
-exceed forty-five days from the day of acceptance or the day of deemed acceptance.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9897&sectionno=15&orderno=15&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9897)
+  sectionNo (15)
+  orderNo 15
+  title `Liability of buyer to make payment.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9897&sectionno=15&orderno=15&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_15_content:
+  string
+  line `Where any supplier supplies any goods or renders any`
+  line `services to any buyer, the buyer shall make payment therefor on or before the date agreed upon between`
+  line `him and the supplier in writing or, where there is no agreement in this behalf, before the appointed day:`
+  line
+  line `Provided that in no case the period agreed upon between the supplier and the buyer in writing shall`
+  line `exceed forty-five days from the day of acceptance or the day of deemed acceptance.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 9898)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Date from which and rate at which interest is payable.`)
-  (str content) (str `Where any buyer fails to make
-payment of the amount to the supplier, as required under section 15, the buyer shall, notwithstanding
-anything contained in any agreement between the buyer and the supplier or in any law for the time being
-in force, be liable to pay compound interest with monthly rests to the supplier on that amount from the
-appointed day or, as the case may be, from the date immediately following the date agreed upon, at three
-times of the bank rate notified by the Reserve Bank.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9898&sectionno=16&orderno=16&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9898)
+  sectionNo (16)
+  orderNo 16
+  title `Date from which and rate at which interest is payable.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9898&sectionno=16&orderno=16&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_16_content:
+  string
+  line `Where any buyer fails to make`
+  line `payment of the amount to the supplier, as required under section 15, the buyer shall, notwithstanding`
+  line `anything contained in any agreement between the buyer and the supplier or in any law for the time being`
+  line `in force, be liable to pay compound interest with monthly rests to the supplier on that amount from the`
+  line `appointed day or, as the case may be, from the date immediately following the date agreed upon, at three`
+  line `times of the bank rate notified by the Reserve Bank.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 9899)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Recovery of amount due.`)
-  (str content) (str `For any goods supplied or services rendered by the supplier, the
-buyer shall be liable to pay the amount with interest thereon as provided under section 16.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9899&sectionno=17&orderno=17&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9899)
+  sectionNo (17)
+  orderNo 17
+  title `Recovery of amount due.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9899&sectionno=17&orderno=17&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_17_content:
+  string
+  line `For any goods supplied or services rendered by the supplier, the`
+  line `buyer shall be liable to pay the amount with interest thereon as provided under section 16.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 9900)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Reference to Micro and small Enterprises Facilitation Council.`)
-  (str content) (str `(1) Notwithstanding anything
-contained in any other law for the time being in force, any party to a dispute may, with regard to any
-amount due under section 17, make a reference to the Micro and Small Enterprises Facilitation Council.
-
-(2) On receipt of a reference under sub-section (1), the Council shall either itself conduct conciliation
-in the matter or seek the assistance of any institution or centre providing alternate dispute resolution
-services by making a reference to such an institution or centre, for conducting conciliation and the
-provisions of sections 65 to 81 of the Arbitration and Conciliation Act, 1996 (26 of 1996) shall apply to
-such a dispute as if the conciliation was initiated under Part III of that Act.
-
-(3) Where the conciliation initiated under sub-section (2) is not successful and stands terminated
-without any settlement between the parties, the Council shall either itself take up the dispute for
-arbitration or refer ittoany institution or centre providing alternate dispute resolution services for such
-arbitration and the provisions of the Arbitration and Conciliation Act, 1996 (26 of 1996) shall then apply
-to the dispute as if the arbitration was in pursuance of an arbitration agreement referred to in
-sub-section(1) of section 7 of that Act.
-
-(4) Notwithstanding anything contained in any other law for the time being in force, the Micro and
-Small Enterprises Facilitation Council or the centre providing alternate dispute resolution services shall
-have jurisdiction to act as an Arbitrator or Conciliator under this section in a dispute between the supplier
-located within its jurisdiction and a buyer located anywhere in India.
-
-(5) Every reference made under this section shall be decided within a period of ninety days from the
-date of making such a reference.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9900&sectionno=18&orderno=18&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9900)
+  sectionNo (18)
+  orderNo 18
+  title `Reference to Micro and small Enterprises Facilitation Council.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9900&sectionno=18&orderno=18&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_18_content:
+  string
+  line `(1) Notwithstanding anything`
+  line `contained in any other law for the time being in force, any party to a dispute may, with regard to any`
+  line `amount due under section 17, make a reference to the Micro and Small Enterprises Facilitation Council.`
+  line
+  line `(2) On receipt of a reference under sub-section (1), the Council shall either itself conduct conciliation`
+  line `in the matter or seek the assistance of any institution or centre providing alternate dispute resolution`
+  line `services by making a reference to such an institution or centre, for conducting conciliation and the`
+  line `provisions of sections 65 to 81 of the Arbitration and Conciliation Act, 1996 (26 of 1996) shall apply to`
+  line `such a dispute as if the conciliation was initiated under Part III of that Act.`
+  line
+  line `(3) Where the conciliation initiated under sub-section (2) is not successful and stands terminated`
+  line `without any settlement between the parties, the Council shall either itself take up the dispute for`
+  line `arbitration or refer ittoany institution or centre providing alternate dispute resolution services for such`
+  line `arbitration and the provisions of the Arbitration and Conciliation Act, 1996 (26 of 1996) shall then apply`
+  line `to the dispute as if the arbitration was in pursuance of an arbitration agreement referred to in`
+  line `sub-section(1) of section 7 of that Act.`
+  line
+  line `(4) Notwithstanding anything contained in any other law for the time being in force, the Micro and`
+  line `Small Enterprises Facilitation Council or the centre providing alternate dispute resolution services shall`
+  line `have jurisdiction to act as an Arbitrator or Conciliator under this section in a dispute between the supplier`
+  line `located within its jurisdiction and a buyer located anywhere in India.`
+  line
+  line `(5) Every reference made under this section shall be decided within a period of ninety days from the`
+  line `date of making such a reference.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 9901)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Application for setting aside decree, award or order.`)
-  (str content) (str `No application for setting aside any
-decree, award or other order made either by the Council itself or by any institution or centre providing
-alternate dispute resolution services to which a reference is made by the Council, shall be entertained by
-any court unless the appellant (not being a supplier) has deposited with it seventy-five per cent. of the
-amount in terms of the decree, award or, as the case may be, the other order in the manner directed by
-such court:
-
-Provided that pending disposal of the application to set aside the decree, award or order, the court
-shall order that such percentage of the amount deposited shall be paid to the supplier, as it considers
-reasonable under the circumstances of the case, subject to such conditions as it deems necessary to
-impose.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9901&sectionno=19&orderno=19&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9901)
+  sectionNo (19)
+  orderNo 19
+  title `Application for setting aside decree, award or order.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9901&sectionno=19&orderno=19&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_19_content:
+  string
+  line `No application for setting aside any`
+  line `decree, award or other order made either by the Council itself or by any institution or centre providing`
+  line `alternate dispute resolution services to which a reference is made by the Council, shall be entertained by`
+  line `any court unless the appellant (not being a supplier) has deposited with it seventy-five per cent. of the`
+  line `amount in terms of the decree, award or, as the case may be, the other order in the manner directed by`
+  line `such court:`
+  line
+  line `Provided that pending disposal of the application to set aside the decree, award or order, the court`
+  line `shall order that such percentage of the amount deposited shall be paid to the supplier, as it considers`
+  line `reasonable under the circumstances of the case, subject to such conditions as it deems necessary to`
+  line impose.
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 9902)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Establishment of Micro and Small Enterprises Facilitation Council.`)
-  (str content) (str `The State Government
-shall, by notification, establish one or more Micro and Small Enterprises Facilitation Councils, at such
-places, exercising such jurisdiction and for such areas, as may be specified in the notification.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9902&sectionno=20&orderno=20&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9902)
+  sectionNo (20)
+  orderNo 20
+  title `Establishment of Micro and Small Enterprises Facilitation Council.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9902&sectionno=20&orderno=20&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_20_content:
+  string
+  line `The State Government`
+  line `shall, by notification, establish one or more Micro and Small Enterprises Facilitation Councils, at such`
+  line `places, exercising such jurisdiction and for such areas, as may be specified in the notification.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 9903)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Composition of Micro and Small Enterprises Facilitation Council.`)
-  (str content) (str `(1) The Micro and Small
-Enterprise Facilitation Council shall consist of not less than three but not more than five members to be
-appointed from amongst the following categories, namely:--
-
-(i) Director of Industries, by whatever name called, or any other officer not below the rank of
-such Director, in the Department of the State Government having administrative control of the small
-scale industries or, as the case may be, micro, small and medium enterprises; and
-
-(ii) one or more office-bearers or representatives of associations of micro or small industry or
-enterprises in the State; and
-
-(iii) one or more representatives of banks and financial institutions lending to micro or small
-enterprises; or
-
-(iv) one or more persons having special knowledge in the field of industry, finance, law, trade or
-commerce.
-
-(2) The person appointed under clause (i) of sub-section (1) shall be the Chairperson of the Micro and
-Small Enterprises Facilitation Council.
-
-(3) The composition of the Micro and Small Enterprises Facilitation Council, the manner of filling
-vacancies of its members and the procedure to be followed in the discharge of their functions by the
-members shall be such as may be prescribed by the State Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9903&sectionno=21&orderno=21&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9903)
+  sectionNo (21)
+  orderNo 21
+  title `Composition of Micro and Small Enterprises Facilitation Council.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9903&sectionno=21&orderno=21&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_21_content:
+  string
+  line `(1) The Micro and Small`
+  line `Enterprise Facilitation Council shall consist of not less than three but not more than five members to be`
+  line `appointed from amongst the following categories, namely:--`
+  line
+  line `(i) Director of Industries, by whatever name called, or any other officer not below the rank of`
+  line `such Director, in the Department of the State Government having administrative control of the small`
+  line `scale industries or, as the case may be, micro, small and medium enterprises; and`
+  line
+  line `(ii) one or more office-bearers or representatives of associations of micro or small industry or`
+  line `enterprises in the State; and`
+  line
+  line `(iii) one or more representatives of banks and financial institutions lending to micro or small`
+  line `enterprises; or`
+  line
+  line `(iv) one or more persons having special knowledge in the field of industry, finance, law, trade or`
+  line commerce.
+  line
+  line `(2) The person appointed under clause (i) of sub-section (1) shall be the Chairperson of the Micro and`
+  line `Small Enterprises Facilitation Council.`
+  line
+  line `(3) The composition of the Micro and Small Enterprises Facilitation Council, the manner of filling`
+  line `vacancies of its members and the procedure to be followed in the discharge of their functions by the`
+  line `members shall be such as may be prescribed by the State Government.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 9904)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Requirement to specify unpaid amount with interest in the annual statement of accounts.`)
-  (str content) (str `Where any buyer is required to get his annual accounts audited under any law for the time being in force,
-such buyer shall furnish the following additional information in his annual statement of accounts,
-namely:--
-
-(i)the principal amount and the interest due thereon (to be shown separately) remaining unpaid to
-any supplier as at the end of each accounting year;
-
-(ii) the amount of interest paid by the buyer in terms of section 16, along with the amount of the
-payment made to the supplier beyond the appointed day during each accounting year;
-
-(iii) the amount of interest due and payable for the period of delay in making payment (which
-have been paid but beyond the appointed day during the year) but without adding the interest
-specified under this Act;
-
-(iv) the amount of interest accrued and remaining unpaid at the end of each accounting year; and
-
-(v) the amount of further interest remaining due and payable even in the succeeding years, until
-such date when the interest dues as above are actually paid to the small enterprise, for the purpose of
-disallowance as a deductible expenditure under section 23.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9904&sectionno=22&orderno=22&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9904)
+  sectionNo (22)
+  orderNo 22
+  title `Requirement to specify unpaid amount with interest in the annual statement of accounts.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9904&sectionno=22&orderno=22&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_22_content:
+  string
+  line `Where any buyer is required to get his annual accounts audited under any law for the time being in force,`
+  line `such buyer shall furnish the following additional information in his annual statement of accounts,`
+  line `namely:--`
+  line
+  line `(i)the principal amount and the interest due thereon (to be shown separately) remaining unpaid to`
+  line `any supplier as at the end of each accounting year;`
+  line
+  line `(ii) the amount of interest paid by the buyer in terms of section 16, along with the amount of the`
+  line `payment made to the supplier beyond the appointed day during each accounting year;`
+  line
+  line `(iii) the amount of interest due and payable for the period of delay in making payment (which`
+  line `have been paid but beyond the appointed day during the year) but without adding the interest`
+  line `specified under this Act;`
+  line
+  line `(iv) the amount of interest accrued and remaining unpaid at the end of each accounting year; and`
+  line
+  line `(v) the amount of further interest remaining due and payable even in the succeeding years, until`
+  line `such date when the interest dues as above are actually paid to the small enterprise, for the purpose of`
+  line `disallowance as a deductible expenditure under section 23.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 9905)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Interest not to be allowed as deduction from income.`)
-  (str content) (str `Notwithstanding anything contained in
-the Income-tax Act, 1961 (43 of 1961), the amount of interest payable or paid by any buyer, under or in
-accordance with the provisions of this Act, shall not, for the purposes of computation of income under the
-Income-tax Act, 1961, be allowed as deduction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9905&sectionno=23&orderno=23&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9905)
+  sectionNo (23)
+  orderNo 23
+  title `Interest not to be allowed as deduction from income.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9905&sectionno=23&orderno=23&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_23_content:
+  string
+  line `Notwithstanding anything contained in`
+  line `the Income-tax Act, 1961 (43 of 1961), the amount of interest payable or paid by any buyer, under or in`
+  line `accordance with the provisions of this Act, shall not, for the purposes of computation of income under the`
+  line `Income-tax Act, 1961, be allowed as deduction.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 9906)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Overriding effect.`)
-  (str content) (str `The provisions of sections 15 to 23 shall have effect notwithstanding
-anything inconsistent therewith contained in any other law for the time being in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9906&sectionno=24&orderno=24&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9906)
+  sectionNo (24)
+  orderNo 24
+  title `Overriding effect.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9906&sectionno=24&orderno=24&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_24_content:
+  string
+  line `The provisions of sections 15 to 23 shall have effect notwithstanding`
+  line `anything inconsistent therewith contained in any other law for the time being in force.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 9907)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Scheme for closure of business of micro, small and medium enterprises.`)
-  (str content) (str `Notwithstanding
-anything contained in any law for the time being in force, the Central Government may, with a view to
-facilitating closure of business by a micro, small or medium enterprise, not being a company registered
-under the Companies Act, 1956 (1 of 1956), notify a Scheme within one year from the date of
-commencement of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9907&sectionno=25&orderno=25&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9907)
+  sectionNo (25)
+  orderNo 25
+  title `Scheme for closure of business of micro, small and medium enterprises.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9907&sectionno=25&orderno=25&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_25_content:
+  string
+  line Notwithstanding
+  line `anything contained in any law for the time being in force, the Central Government may, with a view to`
+  line `facilitating closure of business by a micro, small or medium enterprise, not being a company registered`
+  line `under the Companies Act, 1956 (1 of 1956), notify a Scheme within one year from the date of`
+  line `commencement of this Act.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 9908)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Appointment of Officers and other employees.`)
-  (str content) (str `(1) The Central Government or the State
-Government may appoint such officers with such designations and such other employees as it thinks fit
-for the purposes of this Act and may entrust to them such of the powers and functions under this Act as it
-may deem fit.
-
-(2) The Officers appointed under sub-section (1) may, for the purposes of this Act, by order require
-any person to furnish such information, in such form, as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9908&sectionno=26&orderno=26&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9908)
+  sectionNo (26)
+  orderNo 26
+  title `Appointment of Officers and other employees.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9908&sectionno=26&orderno=26&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_26_content:
+  string
+  line `(1) The Central Government or the State`
+  line `Government may appoint such officers with such designations and such other employees as it thinks fit`
+  line `for the purposes of this Act and may entrust to them such of the powers and functions under this Act as it`
+  line `may deem fit.`
+  line
+  line `(2) The Officers appointed under sub-section (1) may, for the purposes of this Act, by order require`
+  line `any person to furnish such information, in such form, as may be prescribed.`
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 9909)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Penalty for contravention of section 8 or section 22 or section 26.`)
-  (str content) (str `(1) Whoever intentionally
-contravenes or attempts to contravene or abets the contravention of any of the provisions contained in
-sub-section (1) of section 8 or sub-section (2) of section 26 shall be punishable--
-
-(a) in the case of the first conviction, with fine which may extend to rupees one thousand; and
-
-(b) in the case of second or subsequent conviction, with fine which shall not be less than rupees
-one thousand but may extend to rupees ten thousand.
-
-(2) Where a buyer contravenes the provisions of section 22, he shall be punishable with fine
-which shall not be less than rupees ten thousand.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9909&sectionno=27&orderno=27&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9909)
+  sectionNo (27)
+  orderNo 27
+  title `Penalty for contravention of section 8 or section 22 or section 26.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9909&sectionno=27&orderno=27&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_27_content:
+  string
+  line `(1) Whoever intentionally`
+  line `contravenes or attempts to contravene or abets the contravention of any of the provisions contained in`
+  line `sub-section (1) of section 8 or sub-section (2) of section 26 shall be punishable--`
+  line
+  line `(a) in the case of the first conviction, with fine which may extend to rupees one thousand; and`
+  line
+  line `(b) in the case of second or subsequent conviction, with fine which shall not be less than rupees`
+  line `one thousand but may extend to rupees ten thousand.`
+  line
+  line `(2) Where a buyer contravenes the provisions of section 22, he shall be punishable with fine`
+  line `which shall not be less than rupees ten thousand.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 9910)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str `Jurisdiction of courts.`)
-  (str content) (str `No court inferior to that of a Metropolitan Magistrate or a Magistrate of
-the first class shall try any offence punishable under this Act`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9910&sectionno=28&orderno=28&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9910)
+  sectionNo (28)
+  orderNo 28
+  title `Jurisdiction of courts.`
+  content obj_root_law_sections_28_content
+  footnotes obj_root_law_sections_28_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9910&sectionno=28&orderno=28&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_28_content:
+  string
+  line `No court inferior to that of a Metropolitan Magistrate or a Magistrate of`
+  line `the first class shall try any offence punishable under this Act`
+obj_root_law_sections_28_footnotes:
+  string
+  line
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 9911)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification, make rules to carry
-out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the term of office of the members of the Board, the manner of filling vacancies, and the
-procedure to be followed in the discharge of functions by the members of the Board under
-sub-section (4) of section 3;
-
-(b) the powers and functions of the Member-Secretary under section 6;
-
-(c) the manner in which the Fund may be administered under sub-section (1) of section 14;
-
-(d) the criteria based on which sums may be released under sub-section (3) of section 14;
-
-(e) the information to be furnished and the form in which it is to be furnished under
-sub-section (2) of section 26; and
-
-(f) any other matter which is to be or may be prescribed under this Act.
-
-(3) Every notification issued under section 9 and every rule made by the Central Government under
-this section shall be laid, as soon as may be after it is made, before each House of Parliament, while it is
-in session, for a total period of thirty days which may be comprised in one session or in two or more
-successive sessions, and if, before the expiry of the session immediately following the session or the
-successive sessions aforesaid, both Houses agree in making any modification in the notification or rule or
-both Houses agree that the notification or rule should not be made, the notification or rule shall thereafter
-have effect only in such modified form or be of no effect, as the case may be; so, however, that any such
-modification or annulment shall be without prejudice to the validity of anything previously done under
-that notification or rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9911&sectionno=29&orderno=29&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9911)
+  sectionNo (29)
+  orderNo 29
+  title `Power to make rules.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9911&sectionno=29&orderno=29&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_29_content:
+  string
+  line `(1) The Central Government may, by notification, make rules to carry`
+  line `out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the term of office of the members of the Board, the manner of filling vacancies, and the`
+  line `procedure to be followed in the discharge of functions by the members of the Board under`
+  line `sub-section (4) of section 3;`
+  line
+  line `(b) the powers and functions of the Member-Secretary under section 6;`
+  line
+  line `(c) the manner in which the Fund may be administered under sub-section (1) of section 14;`
+  line
+  line `(d) the criteria based on which sums may be released under sub-section (3) of section 14;`
+  line
+  line `(e) the information to be furnished and the form in which it is to be furnished under`
+  line `sub-section (2) of section 26; and`
+  line
+  line `(f) any other matter which is to be or may be prescribed under this Act.`
+  line
+  line `(3) Every notification issued under section 9 and every rule made by the Central Government under`
+  line `this section shall be laid, as soon as may be after it is made, before each House of Parliament, while it is`
+  line `in session, for a total period of thirty days which may be comprised in one session or in two or more`
+  line `successive sessions, and if, before the expiry of the session immediately following the session or the`
+  line `successive sessions aforesaid, both Houses agree in making any modification in the notification or rule or`
+  line `both Houses agree that the notification or rule should not be made, the notification or rule shall thereafter`
+  line `have effect only in such modified form or be of no effect, as the case may be; so, however, that any such`
+  line `modification or annulment shall be without prejudice to the validity of anything previously done under`
+  line `that notification or rule.`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 9912)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str `Power to make rules by State Government.`)
-  (str content) (str `(1) The State Government may, by notification,
-make rules to carry out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the composition of the Micro and Small Enterprises Facilitation Council, the manner of filling
-vacancies of the members and the procedure to be followed in the discharge of their functions by the
-members of the Micro and Small Enterprises Facilitation Council under sub-section (3) of section 21;
-
-(b) any other matter which is to be, or may be, prescribed under this Act.
-
-(3) The rule made under this section shall, as soon as may be after it is made, be laid before each
-House of the State Legislature where there are two Houses, and where there is one House of the State
-Legislature, before that House.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9912&sectionno=30&orderno=30&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9912)
+  sectionNo (30)
+  orderNo 30
+  title `Power to make rules by State Government.`
+  content obj_root_law_sections_30_content
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9912&sectionno=30&orderno=30&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_30_content:
+  string
+  line `(1) The State Government may, by notification,`
+  line `make rules to carry out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the composition of the Micro and Small Enterprises Facilitation Council, the manner of filling`
+  line `vacancies of the members and the procedure to be followed in the discharge of their functions by the`
+  line `members of the Micro and Small Enterprises Facilitation Council under sub-section (3) of section 21;`
+  line
+  line `(b) any other matter which is to be, or may be, prescribed under this Act.`
+  line
+  line `(3) The rule made under this section shall, as soon as may be after it is made, be laid before each`
+  line `House of the State Legislature where there are two Houses, and where there is one House of the State`
+  line `Legislature, before that House.`
+obj_root_law_sections_30_footnotes:
+  string
+  line
 obj_root_law_sections_31:
-  object
-  (str sectionId) (str 9913)
-  (str sectionNo) (str 31)
-  (str orderNo) (int 31)
-  (str title) (str `Power to remove difficulties.`)
-  (str content) (str `(1) If any difficulty arises in giving effect to the provisions of
-this Act, the Central Government may, by order published in the Official Gazette, make such provisions
-not inconsistent with the provisions of this Act as may appear to be necessary for removing the difficulty:
-
-Provided that no order shall be made under this section after the expiry of two years from the
-commencement of this Act.
-
-(2) Every order made under this section shall, as soon as may be after it is made, be laid before each
-House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9913&sectionno=31&orderno=31&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9913)
+  sectionNo (31)
+  orderNo 31
+  title `Power to remove difficulties.`
+  content obj_root_law_sections_31_content
+  footnotes obj_root_law_sections_31_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9913&sectionno=31&orderno=31&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_31_content:
+  string
+  line `(1) If any difficulty arises in giving effect to the provisions of`
+  line `this Act, the Central Government may, by order published in the Official Gazette, make such provisions`
+  line `not inconsistent with the provisions of this Act as may appear to be necessary for removing the difficulty:`
+  line
+  line `Provided that no order shall be made under this section after the expiry of two years from the`
+  line `commencement of this Act.`
+  line
+  line `(2) Every order made under this section shall, as soon as may be after it is made, be laid before each`
+  line `House of Parliament.`
+obj_root_law_sections_31_footnotes:
+  string
+  line
 obj_root_law_sections_32:
-  object
-  (str sectionId) (str 9914)
-  (str sectionNo) (str 32)
-  (str orderNo) (int 32)
-  (str title) (str `Repeal of Act 32 of 1993.`)
-  (str content) (str `(1) The Interest on Delayed Payments to Small Scale and Ancillary
-Industrial Undertakings Act, 1993is hereby repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken under the Act so repealed under
-sub-section (1), shall be deemed to have been done or taken under the corresponding provisions of this
-Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9914&sectionno=32&orderno=32&orgactid=AC_CEN_46_77_00002_200627_1517807324919)
+  sectionId (9914)
+  sectionNo (32)
+  orderNo 32
+  title `Repeal of Act 32 of 1993.`
+  content obj_root_law_sections_32_content
+  footnotes obj_root_law_sections_32_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_46_77_00002_200627_1517807324919&sectionId=9914&sectionno=32&orderno=32&orgactid=AC_CEN_46_77_00002_200627_1517807324919
+obj_root_law_sections_32_content:
+  string
+  line `(1) The Interest on Delayed Payments to Small Scale and Ancillary`
+  line `Industrial Undertakings Act, 1993is hereby repealed.`
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken under the Act so repealed under`
+  line `sub-section (1), shall be deemed to have been done or taken under the corresponding provisions of this`
+  line Act.
+obj_root_law_sections_32_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `सूक्ष्‍म, लघु और मध्‍यम उद्यम विकासअधिनियम, 2006`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2013/5/H2006-27.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T12:04:08.803Z`)
-  (str pageCount) (int 11)
-  (str sections) obj_root_law_translations_hi_sections
+  title `सूक्ष्‍म, लघु और मध्‍यम उद्यम विकासअधिनियम, 2006`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2013/5/H2006-27.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T12:04:08.803Z`
+  pageCount 11
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -923,540 +1071,595 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_10
   obj_root_law_translations_hi_sections_11
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `सूक्ष्म,लघुऔरमध्य मउद्यमविकास
-अविवियम, 2006
-_________
-िाराओंकाक्रम
-_________
-ि ााराएं
-अध्या य 1 प्र
-ारंविक
-1. संविप्त िामऔरप्रारंि।
-2. पररिाषाएं।
-अध्या य 2
-राष्‍टरी यसूक्ष्म,लघुऔरमध्य मउद्यमबोर्ड
-3. बोर्डकीस्था पिा।
-4. बोर्डकेसदस्य काहटायाजािा।
-5. बोर्डकेकृत्य।
-6. बोर्डकेसदस्य - सवििकीशवत यांऔरकृत्य।
-अध्या य 3
-उद्यमोंकािर्गीकरण,सलाहकारसवमवतऔरसूक्ष्म,लघुऔरमध्य मउद्यमोंकाज्ञापि
-7. उद्यमोंकािर्गीकरण।
-8. सूक्ष्म,लघुऔरमध्य मउद्यमोंकाज्ञापि।
-अध्या य 4
-सूक्ष्म,लघुऔरमध्य मउद्यमोंकीप्रवतस्प िाडकेसंििडि,विकासऔरिृ विकेउपाय
-9. संििडिऔरविकासकेउपाय।
-10. उिारसुवििाएं।
-11. उपापिअविमाििीवत।
-12. विवियां।
-13. केन्‍दरी यसरकारद्वाराअिुदाि।
-14. विवियाविवियोंकाप्रशासिऔरउपयो र्ग।
-अध्या य 5
-सूक्ष्म औरलघुउद्यमोंकोविलंवबतसंदाय
-15. संदायकरिेकाक्रेताकादावयत्ि।
-16. िहतारीखवजससेऔरिहदरवजसपरब्या जसंदेयहै।
-17. देयरकमकीिसूली।
-18. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कोविदेश।
-19. वर्क्री,पंिाटयाआदेशअपा स् त करिेकेवलएआिेदि।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `सूक्ष्म,लघुऔरमध्य मउद्यमविकास`
+  line `अविवियम, 2006`
+  line _________
+  line िाराओंकाक्रम
+  line _________
+  line `ि ााराएं`
+  line `अध्या य 1 प्र`
+  line ारंविक
+  line `1. संविप्त िामऔरप्रारंि।`
+  line `2. पररिाषाएं।`
+  line `अध्या य 2`
+  line `राष्‍टरी यसूक्ष्म,लघुऔरमध्य मउद्यमबोर्ड`
+  line `3. बोर्डकीस्था पिा।`
+  line `4. बोर्डकेसदस्य काहटायाजािा।`
+  line `5. बोर्डकेकृत्य।`
+  line `6. बोर्डकेसदस्य - सवििकीशवत यांऔरकृत्य।`
+  line `अध्या य 3`
+  line `उद्यमोंकािर्गीकरण,सलाहकारसवमवतऔरसूक्ष्म,लघुऔरमध्य मउद्यमोंकाज्ञापि`
+  line `7. उद्यमोंकािर्गीकरण।`
+  line `8. सूक्ष्म,लघुऔरमध्य मउद्यमोंकाज्ञापि।`
+  line `अध्या य 4`
+  line `सूक्ष्म,लघुऔरमध्य मउद्यमोंकीप्रवतस्प िाडकेसंििडि,विकासऔरिृ विकेउपाय`
+  line `9. संििडिऔरविकासकेउपाय।`
+  line `10. उिारसुवििाएं।`
+  line `11. उपापिअविमाििीवत।`
+  line `12. विवियां।`
+  line `13. केन्‍दरी यसरकारद्वाराअिुदाि।`
+  line `14. विवियाविवियोंकाप्रशासिऔरउपयो र्ग।`
+  line `अध्या य 5`
+  line `सूक्ष्म औरलघुउद्यमोंकोविलंवबतसंदाय`
+  line `15. संदायकरिेकाक्रेताकादावयत्ि।`
+  line `16. िहतारीखवजससेऔरिहदरवजसपरब्या जसंदेयहै।`
+  line `17. देयरकमकीिसूली।`
+  line `18. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कोविदेश।`
+  line `19. वर्क्री,पंिाटयाआदेशअपा स् त करिेकेवलएआिेदि।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `ii
-िाराएं
-20. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीस्था पिा।
-21. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीसंरििा।
-22. िार्षडकलेखावििरणमेंब्या जसवहतअसंदत्तरकमविविर्दडष्‍टट करिेकीअपेिा।
-23. ब् या जकाआयसेकटौतीकेरूप मेंअिुज्ञातिककयाजािा।
-24. अध्या रोहीप्रिाि।
-25. सूक्ष्म,लघुऔरमध्य मउद्यमोंकेकारबारकीबंदीकेवलएस्की म।
-अध्या य 6 प्र
-कीणड
-26. अविकाररयोंऔरअन्‍दय कमडिाररयोंकीवियुवत।
-27. िारा 8 यािारा 22 यािारा 26 केउल्लं घिकेवलएशावस्त।
-2 8. न्‍द या यालयोंकीअविकाररता।
-29. वियमबिािेकीशवत।
-30. वियमबिािेकीराज्य सरकारकीशवत।
-31. करििाइयोंकोदूरकरिेकीशवत।
-32. अविवियमकाविरसि।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line ii
+  line िाराएं
+  line `20. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीस्था पिा।`
+  line `21. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीसंरििा।`
+  line `22. िार्षडकलेखावििरणमेंब्या जसवहतअसंदत्तरकमविविर्दडष्‍टट करिेकीअपेिा।`
+  line `23. ब् या जकाआयसेकटौतीकेरूप मेंअिुज्ञातिककयाजािा।`
+  line `24. अध्या रोहीप्रिाि।`
+  line `25. सूक्ष्म,लघुऔरमध्य मउद्यमोंकेकारबारकीबंदीकेवलएस्की म।`
+  line `अध्या य 6 प्र`
+  line कीणड
+  line `26. अविकाररयोंऔरअन्‍दय कमडिाररयोंकीवियुवत।`
+  line `27. िारा 8 यािारा 22 यािारा 26 केउल्लं घिकेवलएशावस्त।`
+  line `2 8. न्‍द या यालयोंकीअविकाररता।`
+  line `29. वियमबिािेकीशवत।`
+  line `30. वियमबिािेकीराज्य सरकारकीशवत।`
+  line `31. करििाइयोंकोदूरकरिेकीशवत।`
+  line `32. अविवियमकाविरसि।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `सूक्ष्म,लघुऔरमध्य मउद्यमविकास
-अविवियम, 2006
-( 2006 काअविवियमसंखयां क 27 )
-[ 16 जूि, 2006 ]
-सूक्ष्म,लघुऔरम ध् य मउद्यमोंकेसंििडिऔरविकासकोसुकरबिािे
-औरउिमेंप्रवतस्प िाडकोबढािेतथाउिसेसंबंवितयाउिके
-आिुषंवर्गकविषयोंकाउपबंि
-करिेकेवलए
-अविवियम
-उद्योर्ग (विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 )कीिारा 2 केअिीिसंघद्वाराकवत पयउद्योर्गोंके
-वियंत्रणकीसमीिीिताकेबारेमेंएकघोषणाकीर्गईथी;
-औरयहसमीिीिहैककसूक्ष्म,लघुऔरमध्य मउद्यमोंकेसंििडिऔरविकासकोसुकरबिािेऔरउिमेंप्रवतस्प िाडको
-बढािेकेवलएतथाउिसेसंबंवितयाउिकेआिुषंवर्गकविषयोंकेवलएउपबंि ककयाजाए;
-िारतर्गणराज्य केसतािििेंिषडमेंसंसद्द्वाराविम्ि वलवखतरूपमेंयहअविवियवमतहो: —
-अध्या य 1 प्र
-ारंविक
-1. संविप्त िाम और प्र ारंि — ( 1 )इसअविवियमकासंविप्त िामसूक्ष्म,लघुऔरमध्य मउद्यमविकासअविवियम,
-2006 है।
-( 2 )यहउसतारीखकोप्रिृ त्त होर्गाजोकेरीयसरकार,अविसूििाद्वारा,वियतकरेऔरइसअविवियमकेविन्‍दि - विन्‍दि
-उपबंिोंकेवलएविन्‍दि - विन्‍दि तारीखेंवियतकीजासकेंर्गीऔरऐसेककसीउपबंिमेंइसअविवियमकेप्रारंिकेप्रवतककसीविदेशका
-यहअथडलर्गायाजाएर्गाककिहउसउपबंिकेप्रिृत्त होिेकेप्रवतविदेशहै।
-2. पररिाषाएं — इसअविवियम में,जबतकककसंदिडसेअन्‍दय थाअपेवितिहो, —
-(क) “ सलाहकारसवमवत ” सेकेरीयसरकारद्वारािारा 7 कीउपिारा( 2 )केअिीिर्गरितसवमवतअविप्रेतहै;
-(ख) “ वियतकदि ” सेप्रदायकताडसेक्रेताद्वाराककसीमालया ककन्‍दहीं सेिाओंकीस्िी कृवतकेकदियासमझीर्गई स्
-िी कृवतकेकदिसेपन्‍दर हकदिकीअिविकीसमावप्त केिीकबादकाअर्गलाकदिअविप्रेतहै। स्
-प ष्‍ट टी करण — इसखंर्केप्रयोजिोंकेवलए, —
-( i ) “ स् िी कृवतकेकदि ” सेअविप्रेतहै, —
-(क)मालकेिास्त विकपरर दाियासेिा ओं केिस्तु त: कदएजािेकाकदि;
-(ख)जहांमालकेपररदाियासेिाओंकेकदएजािेके कदिसेपन्‍दर हकदिकेिीतरक्रेताद्वारा
-मालयासेिाओंकीस्िी कृवतकेसंबंिमेंवलवखतमेंकोई आिेपककयाजाताहै,िहांिहकदि,वजसको प्र
-दायकताडद्वाराऐसा आिे पदूरककयाजाताहै;
-( ii ) “ समझीर्गईस्िी कृवतकेकदि ” सेजहांमालकेपररदाियासेिाओंकेकदएजािेकेकदिसेपन्‍दर हकदि
-केिीतरमालयासेिाओंकीस्िी कृवतकेसंबंिमेंक्रेताद्वारावलवखतरूपसेकोईआिेपिहींककयाजाताहै,िहां
-मालकेिास्त विकपररदािया सेिाओंकेिस्तु त:कदएजािेकाकदिअविप्रेतहै;
-(र्ग) “ बोर्ड ” सेिारा 3 केअिीिस्था वप तराष्‍टरी यसूक्ष्म,लघुऔरम ध् य मउद्यमबोर्डअविप्रेतहै;
-(घ) “ क्रे ता ” सेिहव्य वत अविप्रेतहै,जोप्रदायकताडसेप्रवतफलकेवलएकोईमालक्रयकरताहैयाकोईसे िा प्र
-ाप्त करताहै;
-( ङ ) “ उद्यम ” सेऐसाकोईऔद्यो वर्गकउपक्रमयाकोईकारबारसमुत्था ियाकोईअन्‍दय स् था पि,अविप्रेतहैिाहेिह
-ककसीिीिामसेज्ञातहो,जोउद्यो र्ग (विकासऔरविवियमि)अविविय म, 1951 ( 1951 का 65 ) कीपहली अिुसूिीमें`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line `सूक्ष्म,लघुऔरमध्य मउद्यमविकास`
+  line `अविवियम, 2006`
+  line `( 2006 काअविवियमसंखयां क 27 )`
+  line `[ 16 जूि, 2006 ]`
+  line `सूक्ष्म,लघुऔरम ध् य मउद्यमोंकेसंििडिऔरविकासकोसुकरबिािे`
+  line `औरउिमेंप्रवतस्प िाडकोबढािेतथाउिसेसंबंवितयाउिके`
+  line आिुषंवर्गकविषयोंकाउपबंि
+  line करिेकेवलए
+  line अविवियम
+  line `उद्योर्ग (विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 )कीिारा 2 केअिीिसंघद्वाराकवत पयउद्योर्गोंके`
+  line वियंत्रणकीसमीिीिताकेबारेमेंएकघोषणाकीर्गईथी;
+  line `औरयहसमीिीिहैककसूक्ष्म,लघुऔरमध्य मउद्यमोंकेसंििडिऔरविकासकोसुकरबिािेऔरउिमेंप्रवतस्प िाडको`
+  line `बढािेकेवलएतथाउिसेसंबंवितयाउिकेआिुषंवर्गकविषयोंकेवलएउपबंि ककयाजाए;`
+  line `िारतर्गणराज्य केसतािििेंिषडमेंसंसद्द्वाराविम्ि वलवखतरूपमेंयहअविवियवमतहो: —`
+  line `अध्या य 1 प्र`
+  line ारंविक
+  line `1. संविप्त िाम और प्र ारंि — ( 1 )इसअविवियमकासंविप्त िामसूक्ष्म,लघुऔरमध्य मउद्यमविकासअविवियम,`
+  line `2006 है।`
+  line `( 2 )यहउसतारीखकोप्रिृ त्त होर्गाजोकेरीयसरकार,अविसूििाद्वारा,वियतकरेऔरइसअविवियमकेविन्‍दि - विन्‍दि`
+  line `उपबंिोंकेवलएविन्‍दि - विन्‍दि तारीखेंवियतकीजासकेंर्गीऔरऐसेककसीउपबंिमेंइसअविवियमकेप्रारंिकेप्रवतककसीविदेशका`
+  line `यहअथडलर्गायाजाएर्गाककिहउसउपबंिकेप्रिृत्त होिेकेप्रवतविदेशहै।`
+  line `2. पररिाषाएं — इसअविवियम में,जबतकककसंदिडसेअन्‍दय थाअपेवितिहो, —`
+  line `(क) “ सलाहकारसवमवत ” सेकेरीयसरकारद्वारािारा 7 कीउपिारा( 2 )केअिीिर्गरितसवमवतअविप्रेतहै;`
+  line `(ख) “ वियतकदि ” सेप्रदायकताडसेक्रेताद्वाराककसीमालया ककन्‍दहीं सेिाओंकीस्िी कृवतकेकदियासमझीर्गई स्`
+  line `िी कृवतकेकदिसेपन्‍दर हकदिकीअिविकीसमावप्त केिीकबादकाअर्गलाकदिअविप्रेतहै। स्`
+  line `प ष्‍ट टी करण — इसखंर्केप्रयोजिोंकेवलए, —`
+  line `( i ) “ स् िी कृवतकेकदि ” सेअविप्रेतहै, —`
+  line `(क)मालकेिास्त विकपरर दाियासेिा ओं केिस्तु त: कदएजािेकाकदि;`
+  line `(ख)जहांमालकेपररदाियासेिाओंकेकदएजािेके कदिसेपन्‍दर हकदिकेिीतरक्रेताद्वारा`
+  line `मालयासेिाओंकीस्िी कृवतकेसंबंिमेंवलवखतमेंकोई आिेपककयाजाताहै,िहांिहकदि,वजसको प्र`
+  line `दायकताडद्वाराऐसा आिे पदूरककयाजाताहै;`
+  line `( ii ) “ समझीर्गईस्िी कृवतकेकदि ” सेजहांमालकेपररदाियासेिाओंकेकदएजािेकेकदिसेपन्‍दर हकदि`
+  line `केिीतरमालयासेिाओंकीस्िी कृवतकेसंबंिमेंक्रेताद्वारावलवखतरूपसेकोईआिेपिहींककयाजाताहै,िहां`
+  line `मालकेिास्त विकपररदािया सेिाओंकेिस्तु त:कदएजािेकाकदिअविप्रेतहै;`
+  line `(र्ग) “ बोर्ड ” सेिारा 3 केअिीिस्था वप तराष्‍टरी यसूक्ष्म,लघुऔरम ध् य मउद्यमबोर्डअविप्रेतहै;`
+  line `(घ) “ क्रे ता ” सेिहव्य वत अविप्रेतहै,जोप्रदायकताडसेप्रवतफलकेवलएकोईमालक्रयकरताहैयाकोईसे िा प्र`
+  line `ाप्त करताहै;`
+  line `( ङ ) “ उद्यम ” सेऐसाकोईऔद्यो वर्गकउपक्रमयाकोईकारबारसमुत्था ियाकोईअन्‍दय स् था पि,अविप्रेतहैिाहेिह`
+  line `ककसीिीिामसेज्ञातहो,जोउद्यो र्ग (विकासऔरविवियमि)अविविय म, 1951 ( 1951 का 65 ) कीपहली अिुसूिीमें`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `2
-विविर्दडष्‍टट ककसीउद्योर्ग सेसंबंवितमालकेविविमाडणयाउत्पा दिमें,ककसीरीवतसेलर्गाहुआहैयाकोईसेिायासेिाओं
-कोउपलब्ि करािेयाउिकोदेिेमेंलर्गाहुआहै;
-(ि) “ माल ” सेहरप्रकारकीजंर्गमसंपवत्तअविप्रेतहैजोअिुयोज्य दािोंऔरििसेविन्‍दि है;
-(छ) “ मध्य मउद्यम ” सेिारा 7 कीउपिारा( 1 )केखंर्(क)केउपखंर्( iii )याखंर्(ख)केउपखंर्( iii )केअिीि
-उसरूपमेंिर्गीकृतकोईउद्यमअविप्रेतहै;
-(ज) “ सूक्ष्म उद्यम ” सेिारा 7 कीउपिारा( 1 )केखंर्(क)केउपखंर्( i )याखंर्(ख)केउपखंर्( i ) केअिीिउस रू
-पमेंिर्गीकृतकोईउद्यमअविप्रे तहै;
-(झ) “ राष्‍टरी यबैंक ” सेराष्‍टरी यकृवषऔरग्रा मीणविकासबैंकअविवियम, 1981 ( 1981 का 61 ) कीिारा 3 के
-अिीिस्था वपतराष्‍टरी यकृवषऔरग्रामीणविकासबैंकअविप्रेतहै;
-( ञ ) “ अविसूििा ” सेराजपत्रमेंप्रकावशतकोईअविसूििाअविप्रेतहै;
-(ट) “ विवहत ” सेइसअविवियमकेअिीिबिाएर्गएवियमोंद्वाराविवहतअविप्रेतहै;
-(ि) “ ररजिडबैंक ” सेिारतीयररजिडबैंकअविवियम, 1934 ( 1934 का 2 ) कीिारा 3 केअिीिर्गरितिारतीय
-ररजिडबैंकअविप्रेतहै;
-(र्) “ लघुउद्यम ” सेिारा 7 कीउपिारा( 1 )केखंर्(क)केउपखंर्( ii )याखं र् (ख)केउपखंर्( ii )केअिीिउ स रू
-पमेंिर्गीकृतकोईउद्यमअविप्रेतहै;
-(ढ) “ प्र दायकताड ” सेऐसासूक्ष्म यालघुउद्यमअविप्रेतहै, वजसिेिारा 8 कीउपिारा( 1 )मेंविर्दडष्‍टट प्र ाविकारीके
-यहांकोईज्ञापिफाइलककयाहैऔरवजसकेअंतर्गडतविम्ि वलवखतहैं —
-( i ) राष्‍टरी यलघुउद्योर्गविर्गम,जोकंपिीअविवियम, 1 956 ( 1956 का 1 )केअिीिरवजस्री कृत
-कंपिीहै;
-( ii )ककसीराज्य याककसीसंघराज्य िेत्रकालघुउद्योर्गविकासविर्गम,िाहेककसीिीिामसेज्ञातहो,
-जोकंपिीअविवियम, 1956 ( 1956 का 1 )केअिीिरवजस्री कृत कंपिीहै;
-( iii )तत्स मयप्रिृत्तककसीविविकेअिीिरवजस्री कृतयार्गरितकोईकंपिी,सहकारीसोसाइटी,न्‍दया स
-याकोईविकाय,िाहेककसीिीिामसेज्ञातहो,औरजोसूक्ष्म यालघुउद्यमद्वाराउत्पा कदतमालकेविक्रयमें
-लर्गाहु आहैतथाऐसेउद्यमोंद्वाराउपलब्ि क राईजािेिालीसेिाएंदेरहाहै;
-(ण) “ लघुउद्योर्गबैंक ” सेिारतीयलघुउद्योर्गविकासबैंकअविवियम, 1989 ( 1989 का 39 )कीिारा 3 की
-उपिारा( 1 )केअिीिस्था वपतिारतीयलघुउद्योर्गविकासबैंक अ विप्रेतहै;
-(त)ककसीसंघराज्य िेत्रकेसंबंिमें, “ राज्य सरकार ” सेसंवििािके अिुच्छे द 239 केअिीिवियुत उसका प्र
-शासकअविप्रेतहै।
-अध्या य 2
-राष्‍टरी यसूक्ष्म,लघुऔरमध्य मउद्यमबोर्ड
-3. बोर्डकीस्था पिा — ( 1 ) ऐसीतारीखसे,जोकेंरीयसरकार,अविसूििाद्वारा वियतकरे,इसअविवियमकेप्रयोजिोंके
-वलए,राष्‍टरी यसूक्ष्म,लघुऔरमध्य मउद्यमबोर्डकेिा मसेज्ञातएकबोर्डकीस्था पिाकीजाएर्गी।
-( 2 )बोर्डकाप्रिािकायाडलयकदल्ली मेंहोर्गा।
-( 3 )बोर्डविम्ि वलवखतसदस्यों सेवमलकरबिेर्गा,अथाडत्: —
-(क)सूक्ष्म,लघुऔरमध्य मउद्यमोंकाप्रशासविकवियंत्रणरखिे िालेकेंरीयसरकारकेमंत्रालययावििार्गका
-िारसािकमंत्री,जोबोर्डकापदेिअध्य िहोर्गा;
-(ख)सूक्ष्म,लघुऔरमध्य मउद्यमोंकाप्रशासविकवियंत्रणरखिेिालेकेंरीयसरकारकेमंत्रालययावििार्गका
-राज्य मंत्रीयाकोईउपमंत्री,यकदकोईहो,जोबोर्डका पदे िउपाध्य िहोर्गाऔरजहांकोईऐसाराज्य मंत्रीयाउपमंत्रीिहीं
-हैिहांऐसाव्य वत,जोकेंरी यसरकारद्वाराबोर्डकाउपाध्य िहोिेकेवलएवियुत ककयाजाए;
-(र्ग)देशकेऐसेिेत्रोंकाजोकेन्‍दरी यसरकारद्वाराइसविवमत्तअविसूवितककएजाएं,प्रवत विवित्ि करिेकेवलए
-वियुत ककएजािेिाले,यथावस्थ वत,लघुउद्यो र्गों यासूक्ष्म,लघुऔरमध्य मउद्यमोंकेवििार्गोंका प्र शासविकवियंत्रणरखिे
-िालीराज्य सरकारोंकेछहमंत्री,पदेि;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 2
+  line `विविर्दडष्‍टट ककसीउद्योर्ग सेसंबंवितमालकेविविमाडणयाउत्पा दिमें,ककसीरीवतसेलर्गाहुआहैयाकोईसेिायासेिाओं`
+  line `कोउपलब्ि करािेयाउिकोदेिेमेंलर्गाहुआहै;`
+  line `(ि) “ माल ” सेहरप्रकारकीजंर्गमसंपवत्तअविप्रेतहैजोअिुयोज्य दािोंऔरििसेविन्‍दि है;`
+  line `(छ) “ मध्य मउद्यम ” सेिारा 7 कीउपिारा( 1 )केखंर्(क)केउपखंर्( iii )याखंर्(ख)केउपखंर्( iii )केअिीि`
+  line उसरूपमेंिर्गीकृतकोईउद्यमअविप्रेतहै;
+  line `(ज) “ सूक्ष्म उद्यम ” सेिारा 7 कीउपिारा( 1 )केखंर्(क)केउपखंर्( i )याखंर्(ख)केउपखंर्( i ) केअिीिउस रू`
+  line `पमेंिर्गीकृतकोईउद्यमअविप्रे तहै;`
+  line `(झ) “ राष्‍टरी यबैंक ” सेराष्‍टरी यकृवषऔरग्रा मीणविकासबैंकअविवियम, 1981 ( 1981 का 61 ) कीिारा 3 के`
+  line `अिीिस्था वपतराष्‍टरी यकृवषऔरग्रामीणविकासबैंकअविप्रेतहै;`
+  line `( ञ ) “ अविसूििा ” सेराजपत्रमेंप्रकावशतकोईअविसूििाअविप्रेतहै;`
+  line `(ट) “ विवहत ” सेइसअविवियमकेअिीिबिाएर्गएवियमोंद्वाराविवहतअविप्रेतहै;`
+  line `(ि) “ ररजिडबैंक ” सेिारतीयररजिडबैंकअविवियम, 1934 ( 1934 का 2 ) कीिारा 3 केअिीिर्गरितिारतीय`
+  line ररजिडबैंकअविप्रेतहै;
+  line `(र्) “ लघुउद्यम ” सेिारा 7 कीउपिारा( 1 )केखंर्(क)केउपखंर्( ii )याखं र् (ख)केउपखंर्( ii )केअिीिउ स रू`
+  line पमेंिर्गीकृतकोईउद्यमअविप्रेतहै;
+  line `(ढ) “ प्र दायकताड ” सेऐसासूक्ष्म यालघुउद्यमअविप्रेतहै, वजसिेिारा 8 कीउपिारा( 1 )मेंविर्दडष्‍टट प्र ाविकारीके`
+  line `यहांकोईज्ञापिफाइलककयाहैऔरवजसकेअंतर्गडतविम्ि वलवखतहैं —`
+  line `( i ) राष्‍टरी यलघुउद्योर्गविर्गम,जोकंपिीअविवियम, 1 956 ( 1956 का 1 )केअिीिरवजस्री कृत`
+  line कंपिीहै;
+  line `( ii )ककसीराज्य याककसीसंघराज्य िेत्रकालघुउद्योर्गविकासविर्गम,िाहेककसीिीिामसेज्ञातहो,`
+  line `जोकंपिीअविवियम, 1956 ( 1956 का 1 )केअिीिरवजस्री कृत कंपिीहै;`
+  line `( iii )तत्स मयप्रिृत्तककसीविविकेअिीिरवजस्री कृतयार्गरितकोईकंपिी,सहकारीसोसाइटी,न्‍दया स`
+  line `याकोईविकाय,िाहेककसीिीिामसेज्ञातहो,औरजोसूक्ष्म यालघुउद्यमद्वाराउत्पा कदतमालकेविक्रयमें`
+  line `लर्गाहु आहैतथाऐसेउद्यमोंद्वाराउपलब्ि क राईजािेिालीसेिाएंदेरहाहै;`
+  line `(ण) “ लघुउद्योर्गबैंक ” सेिारतीयलघुउद्योर्गविकासबैंकअविवियम, 1989 ( 1989 का 39 )कीिारा 3 की`
+  line `उपिारा( 1 )केअिीिस्था वपतिारतीयलघुउद्योर्गविकासबैंक अ विप्रेतहै;`
+  line `(त)ककसीसंघराज्य िेत्रकेसंबंिमें, “ राज्य सरकार ” सेसंवििािके अिुच्छे द 239 केअिीिवियुत उसका प्र`
+  line शासकअविप्रेतहै।
+  line `अध्या य 2`
+  line `राष्‍टरी यसूक्ष्म,लघुऔरमध्य मउद्यमबोर्ड`
+  line `3. बोर्डकीस्था पिा — ( 1 ) ऐसीतारीखसे,जोकेंरीयसरकार,अविसूििाद्वारा वियतकरे,इसअविवियमकेप्रयोजिोंके`
+  line `वलए,राष्‍टरी यसूक्ष्म,लघुऔरमध्य मउद्यमबोर्डकेिा मसेज्ञातएकबोर्डकीस्था पिाकीजाएर्गी।`
+  line `( 2 )बोर्डकाप्रिािकायाडलयकदल्ली मेंहोर्गा।`
+  line `( 3 )बोर्डविम्ि वलवखतसदस्यों सेवमलकरबिेर्गा,अथाडत्: —`
+  line `(क)सूक्ष्म,लघुऔरमध्य मउद्यमोंकाप्रशासविकवियंत्रणरखिे िालेकेंरीयसरकारकेमंत्रालययावििार्गका`
+  line `िारसािकमंत्री,जोबोर्डकापदेिअध्य िहोर्गा;`
+  line `(ख)सूक्ष्म,लघुऔरमध्य मउद्यमोंकाप्रशासविकवियंत्रणरखिेिालेकेंरीयसरकारकेमंत्रालययावििार्गका`
+  line `राज्य मंत्रीयाकोईउपमंत्री,यकदकोईहो,जोबोर्डका पदे िउपाध्य िहोर्गाऔरजहांकोईऐसाराज्य मंत्रीयाउपमंत्रीिहीं`
+  line `हैिहांऐसाव्य वत,जोकेंरी यसरकारद्वाराबोर्डकाउपाध्य िहोिेकेवलएवियुत ककयाजाए;`
+  line `(र्ग)देशकेऐसेिेत्रोंकाजोकेन्‍दरी यसरकारद्वाराइसविवमत्तअविसूवितककएजाएं,प्रवत विवित्ि करिेकेवलए`
+  line `वियुत ककएजािेिाले,यथावस्थ वत,लघुउद्यो र्गों यासूक्ष्म,लघुऔरमध्य मउद्यमोंकेवििार्गोंका प्र शासविकवियंत्रणरखिे`
+  line `िालीराज्य सरकारोंकेछहमंत्री,पदेि;`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `3
-(घ)तीिसंसद्सदस्य,वजिमेंसेदोसदस्य लोकसिाद्वाराऔरएकसदस्य रा ज् य सिाद्वारावििाडवितककया
-जाएर्गा;
-( ङ )केन्‍दरी यसरकारद्वारावियुत ककयाजािेिाला सं घराज्य िेत्रकाप्रशासक,पदेि;
-(ि)सूक्ष्म,लघुऔरमध्य मउद्यमोंकाप्रशासविकवियंत्रणरखिेिालेकेन्‍दरी यसरकारकेमंत्रालययावििार्गका
-िारसािकसविि,िारत सरकार,पदेि;
-(छ)केन्‍दरी यसरकारद्वारा िावणज्य औरउद्योर्ग,वित्त,खाद्यप्रसंस्क रणउद्योर्ग,श्रमऔरवियोजिसेसंबंवित
-केन्‍दरी यसरकारकेमंत्रालयोंकाप्रवतविवित्ि करिेकेवलएवियुत ककएजािेिा लेिारतसरकारकेिारसविि,पदेि;
-(ज)राष्‍टरी यबैंक केविदेशकबोर्डकाअध्य ि,पदेि;
-(झ)लघुउद्योर्गबैंककेविदेशकबोर्डकाअध्य िऔरप्रबंिविदेशक,पदे ि;
-( ञ )अध्य ि,िारतीयबैंकसंर्गम,पदेि;
-(ट)ररजिडबैंककाप्रवतविवित्ि करिेकेवलएकेन्‍दरी यसरकारद्वारावियुत ककयाजािेिालाररजिडबैंकका एक
-अविकारी,जोककसीकायडपालकविदेशकसेिीिेकीपंवत कािहो;
-(ि)सूक्ष्म,लघुऔरमध्य मउद्यमोंकेसंर्गमोंकाप्रवतविवित्ि करिेकेवलएबीसव्य वत,वजिकेअंतर्गडतकमसेकम
-तीिव्य वत मवहलाउद्यमसंर्गमोंकाप्रवतविवित्ि करिेिालेऔरकमसेकमतीिव्य वत सूक्ष्म उद्यमसंर्गमोंका प्र
-वतविवित्ि करिेिालेहोंर्गे,जोकेरीयस रकारद्वारावियुत ककएजाएं;
-(र्)केन्‍दरी यसरकारद्वारावियुत ककएजािेिालेतीिप्रवतवष्‍टि तव्य वत,वजिमेंअथडशास्त्र,उद्योर्गतथाविज्ञाि
-औरप्रौद्योवर्गकीकेिेत्रों मेंसेप्रत्ये कसेएकहोर्गा,उिमेंकमसेकम एक मवहलाहोर्गी;
-(ढ)केन्‍दरी यसरकारद्वारावियुत ककएजािेिालेकेन्‍दरी यव्य िसायसंघसंर्गििोंकेदोप्रवतविवि;और
-(ण)केन्‍दरी यसरकारद्वारावियुत ककयाजािेिालासू क्ष् म,लघुऔरमध्य मउद्यमोंका प्र शा सविकवियंत्रणरखिे
-िालेकेन्‍दरी यसरकारकेमंत्रालययावििार्गमेंएकअविकारी,जोिारतसरकारकेसंयुत सवििकीपंवत सेिीिेकाि
-हो,जोबोर्डकापदेि सदस्य - सवििहोर्गा।
-( 4 )बोर्डकेपदेिसदस्यों सेविन्‍दि बोर्डके सदस्यों कीपदािवि,ररवत यों कोि रिेकोरीवतऔरबोर्डकेसदस्यों द्व ाराउिके
-कृत्यों केवििडहिमेंअिुसरणकीजािेिा लीप्रकक्रयािहहोर्गी,जोविवहतकीजाए:
-परन्‍दतु यहककबोर्डकेककसीपदेिसदस्य कीपदािवि,तबतकजारीरहेर्गीजबतकिहउसपदको,वजसकेकारण िह ऐसा
-सदस्य है,िारणकरताहै।
-( 5 )बोर्डकाकोईकायडयाकायडिावहयांकेिलइसकारणअविविमान्‍दय िहींहोंर्गीकक —
-(क)बोर्डकेर्गििमेंकोईररवत याकोईत्रुरटहै;या
-(ख)बोर्डकेसदस्य केरूपमेंकायडकररहेककसीव्य वत कीवियुवत मेंकोईत्रुरटहै;या
-(र्ग)बोर्डकीप्र कक्रयामेंऐसीकोईअवियवमतताहैजोमामलेकेर्गुणा र्गु णकोप्रिावितिकरिेिालीहो।
-( 6 )बोर्ड,ककसीिषडमेंप्रत्ये कतीिमासमेंकमसेकमएकबारबैिककरेर्गा।
-( 7 )बोर्ड,अपिेसाथ,ऐसेव्य वत याव्य वत योंको,वजिकीसहायतायासलाहकी,िहइसअविविय मकेककन्‍दहीं उपबंिों
-काअिुपालिकरिेमेंिांछाकरे,ऐसीरीवतसेऔरऐसेप्रयोजिोंकेवलएवजन्‍दहें िहआिश्य कसमझे,सहयोवजतकरसकेर्गाऔरइस प्र
-कारसहयोवजतव्य वत को,ऐसेप्रयोंजिोंसे,वजिकेवलएउसेसहयोवजतककयार्गयाहै,सुसंर्गतबोर्डकेवििार - वि मशडमेंिा र्ग लेिे
-काअविकारहोर्गा,ककन्‍दतु उसेमतदेिेकाअविकारिहींहोर्गा।
-( 8 )उपिारा( 7 )परप्रवतकूलप्रिािर्ालेवबिा,बोर्डकाअध्य ि,एकिषडमेंबोर्डकीकमसेकमदोबैिकोंकेवलए,
-यथावस्थ वत,लघुउद्योर्गोंयासूक्ष्म,लघुऔरमध्य मउद्यमोंकेवििार्गकाप्रशा सविकवियंत्रणर खिेिालेराज्य सरकारोंकेऐसेमंवत्रयों
-यासंघराज्य िेत्रोंकेप्रशासकोंतथासूक्ष्म,लघुऔरमध्य मउद्यमोंकेऐसेअन्‍दय संर्गमोंकेप्रवतविवियोंको,वजन्‍दहें िहइसअविवियमके प्र
-योजिोंकोकायाड वन्‍दि तकरिेकेवलएआिश्य कसमझे,आमंवत्रतक रेर्गा।
-( 9 )यहघोवषतककयाजाताहैककबोर्डकेसदस्य कापदउसकेिारककोसंसद्केककसीिीसदिकासदस्य िुिेजािेया
-होिेसेविरर्हडतिहींकरेर्गा।
-4. बोर्डकेसदस्य काहटायाजािा — ( 1 )केन्‍दरी यसरकारबोर्डकेककसीसदस्य कोहटासकेर्गी,यकद —
-(क)िहन्‍दया यविणीतकदिावलयाहैयाककसीसमयिहकदिावलयारहाहै;या`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 3
+  line `(घ)तीिसंसद्सदस्य,वजिमेंसेदोसदस्य लोकसिाद्वाराऔरएकसदस्य रा ज् य सिाद्वारावििाडवितककया`
+  line जाएर्गा;
+  line `( ङ )केन्‍दरी यसरकारद्वारावियुत ककयाजािेिाला सं घराज्य िेत्रकाप्रशासक,पदेि;`
+  line `(ि)सूक्ष्म,लघुऔरमध्य मउद्यमोंकाप्रशासविकवियंत्रणरखिेिालेकेन्‍दरी यसरकारकेमंत्रालययावििार्गका`
+  line `िारसािकसविि,िारत सरकार,पदेि;`
+  line `(छ)केन्‍दरी यसरकारद्वारा िावणज्य औरउद्योर्ग,वित्त,खाद्यप्रसंस्क रणउद्योर्ग,श्रमऔरवियोजिसेसंबंवित`
+  line `केन्‍दरी यसरकारकेमंत्रालयोंकाप्रवतविवित्ि करिेकेवलएवियुत ककएजािेिा लेिारतसरकारकेिारसविि,पदेि;`
+  line `(ज)राष्‍टरी यबैंक केविदेशकबोर्डकाअध्य ि,पदेि;`
+  line `(झ)लघुउद्योर्गबैंककेविदेशकबोर्डकाअध्य िऔरप्रबंिविदेशक,पदे ि;`
+  line `( ञ )अध्य ि,िारतीयबैंकसंर्गम,पदेि;`
+  line `(ट)ररजिडबैंककाप्रवतविवित्ि करिेकेवलएकेन्‍दरी यसरकारद्वारावियुत ककयाजािेिालाररजिडबैंकका एक`
+  line `अविकारी,जोककसीकायडपालकविदेशकसेिीिेकीपंवत कािहो;`
+  line `(ि)सूक्ष्म,लघुऔरमध्य मउद्यमोंकेसंर्गमोंकाप्रवतविवित्ि करिेकेवलएबीसव्य वत,वजिकेअंतर्गडतकमसेकम`
+  line `तीिव्य वत मवहलाउद्यमसंर्गमोंकाप्रवतविवित्ि करिेिालेऔरकमसेकमतीिव्य वत सूक्ष्म उद्यमसंर्गमोंका प्र`
+  line `वतविवित्ि करिेिालेहोंर्गे,जोकेरीयस रकारद्वारावियुत ककएजाएं;`
+  line `(र्)केन्‍दरी यसरकारद्वारावियुत ककएजािेिालेतीिप्रवतवष्‍टि तव्य वत,वजिमेंअथडशास्त्र,उद्योर्गतथाविज्ञाि`
+  line `औरप्रौद्योवर्गकीकेिेत्रों मेंसेप्रत्ये कसेएकहोर्गा,उिमेंकमसेकम एक मवहलाहोर्गी;`
+  line `(ढ)केन्‍दरी यसरकारद्वारावियुत ककएजािेिालेकेन्‍दरी यव्य िसायसंघसंर्गििोंकेदोप्रवतविवि;और`
+  line `(ण)केन्‍दरी यसरकारद्वारावियुत ककयाजािेिालासू क्ष् म,लघुऔरमध्य मउद्यमोंका प्र शा सविकवियंत्रणरखिे`
+  line `िालेकेन्‍दरी यसरकारकेमंत्रालययावििार्गमेंएकअविकारी,जोिारतसरकारकेसंयुत सवििकीपंवत सेिीिेकाि`
+  line `हो,जोबोर्डकापदेि सदस्य - सवििहोर्गा।`
+  line `( 4 )बोर्डकेपदेिसदस्यों सेविन्‍दि बोर्डके सदस्यों कीपदािवि,ररवत यों कोि रिेकोरीवतऔरबोर्डकेसदस्यों द्व ाराउिके`
+  line `कृत्यों केवििडहिमेंअिुसरणकीजािेिा लीप्रकक्रयािहहोर्गी,जोविवहतकीजाए:`
+  line `परन्‍दतु यहककबोर्डकेककसीपदेिसदस्य कीपदािवि,तबतकजारीरहेर्गीजबतकिहउसपदको,वजसकेकारण िह ऐसा`
+  line `सदस्य है,िारणकरताहै।`
+  line `( 5 )बोर्डकाकोईकायडयाकायडिावहयांकेिलइसकारणअविविमान्‍दय िहींहोंर्गीकक —`
+  line `(क)बोर्डकेर्गििमेंकोईररवत याकोईत्रुरटहै;या`
+  line `(ख)बोर्डकेसदस्य केरूपमेंकायडकररहेककसीव्य वत कीवियुवत मेंकोईत्रुरटहै;या`
+  line `(र्ग)बोर्डकीप्र कक्रयामेंऐसीकोईअवियवमतताहैजोमामलेकेर्गुणा र्गु णकोप्रिावितिकरिेिालीहो।`
+  line `( 6 )बोर्ड,ककसीिषडमेंप्रत्ये कतीिमासमेंकमसेकमएकबारबैिककरेर्गा।`
+  line `( 7 )बोर्ड,अपिेसाथ,ऐसेव्य वत याव्य वत योंको,वजिकीसहायतायासलाहकी,िहइसअविविय मकेककन्‍दहीं उपबंिों`
+  line `काअिुपालिकरिेमेंिांछाकरे,ऐसीरीवतसेऔरऐसेप्रयोजिोंकेवलएवजन्‍दहें िहआिश्य कसमझे,सहयोवजतकरसकेर्गाऔरइस प्र`
+  line `कारसहयोवजतव्य वत को,ऐसेप्रयोंजिोंसे,वजिकेवलएउसेसहयोवजतककयार्गयाहै,सुसंर्गतबोर्डकेवििार - वि मशडमेंिा र्ग लेिे`
+  line `काअविकारहोर्गा,ककन्‍दतु उसेमतदेिेकाअविकारिहींहोर्गा।`
+  line `( 8 )उपिारा( 7 )परप्रवतकूलप्रिािर्ालेवबिा,बोर्डकाअध्य ि,एकिषडमेंबोर्डकीकमसेकमदोबैिकोंकेवलए,`
+  line `यथावस्थ वत,लघुउद्योर्गोंयासूक्ष्म,लघुऔरमध्य मउद्यमोंकेवििार्गकाप्रशा सविकवियंत्रणर खिेिालेराज्य सरकारोंकेऐसेमंवत्रयों`
+  line `यासंघराज्य िेत्रोंकेप्रशासकोंतथासूक्ष्म,लघुऔरमध्य मउद्यमोंकेऐसेअन्‍दय संर्गमोंकेप्रवतविवियोंको,वजन्‍दहें िहइसअविवियमके प्र`
+  line `योजिोंकोकायाड वन्‍दि तकरिेकेवलएआिश्य कसमझे,आमंवत्रतक रेर्गा।`
+  line `( 9 )यहघोवषतककयाजाताहैककबोर्डकेसदस्य कापदउसकेिारककोसंसद्केककसीिीसदिकासदस्य िुिेजािेया`
+  line होिेसेविरर्हडतिहींकरेर्गा।
+  line `4. बोर्डकेसदस्य काहटायाजािा — ( 1 )केन्‍दरी यसरकारबोर्डकेककसीसदस्य कोहटासकेर्गी,यकद —`
+  line `(क)िहन्‍दया यविणीतकदिावलयाहैयाककसीसमयिहकदिावलयारहाहै;या`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `4
-(ख)िहविकृतवित्त काहैयाविकृतवित्त होर्गयाहैऔरसिमन्‍दया यालयद्वाराघोवषतकरकदयार्गयाहै;या
-(र्ग)िहसदस्य केरूपमेंकायडकरिेसेइंकारकरताहैयाकायडकरिेकेवलएअसमथडहोर्गयाहै; या
-(घ)िहककसीऐसेअपरािकेवलएदोषवसििहरायार्गयाहैवजसमेंकेन्‍दरी यसरकारकीरायमेंिैवतकअिमता
-अतंिडवलतहै;या
-( ङ )उसिेकेन्‍दरी यसरकारकीरायमेंबोर्डकेसदस्य केरूपमेंअपिेपदकाइसप्रकारदुरुपयोर्गककयाहैवजससे
-उसकाबोर्डमेंबिेरहिासा िारणजिताकेवहतमेंहाविकारकहै।
-( 2 )उपिारा( 1 )मेंककसीबातकेहोतेहुएिी,ककसीसदस्य कोउसउपिाराकेखंर्(र्ग)सेखंर्( ङ )मेंविविर्दडष्‍टट आिारों
-परउसकेपदसेतबतकिहींहटायाजाएर्गा,जबतकउसेउसमामलेमेंसुििाईकायुवत युत अिसरिहींदेकद या र्ग याहो।
-5. बोर्डकेकृत्य — बोर्ड,केन्‍दरी यसरकारकेसािारणविदेशोंकेअिीिरहतेहुए,विम्ि वलवखतसिी याककन्‍दहीं कृत्यों का
-पालिकरेर्गा,अथाडत्: —
-(क)सूक्ष्म,लघुऔरमध्य मउद्यमोंकेसंििडिऔरविकासकोप्रिावितकरिेिालीबातोंकीपरीिाकरिाऔर
-सं ििडिऔरविकाससुकरबिािेतथाऐसेउद्यमोंकीप्रवतस्प िाडबढािेऔरऐसेउद्यमोंपरउसकेप्रिािकेसंबंिमेंके न्‍द री य
-सरकारकीिीवतयोंऔरकायडक्रमोंकापुिर्िडलोकिकरिा;
-(ख)खंर्(क)मेंविर्दडष्‍टट विषयोंपरयाके न्‍द री यसरकारद्वाराउसको वि र् दडष्‍टट कक सीअन्‍दय विषयपर,जोउस
-सरकारकीरायमें,सूक्ष्म,लघुऔरमध्य मउद्यमोंकेसंििडिऔरविकासको सुकरबिािेतथाउिकीप्रवतस्प िाड कोबढािेके
-वलएआिश्य कयासमीिीिहै,वसफाररशेंकरिा;और
-(र्ग)िारा 12 केअिीिर्गरितविवियाविवियोंकेउपयोर्गकेसंबंिमेंके न्‍द री यस र कारकोसलाहदेिा।
-6. बोर्डकेसदस्य - सवििकीशवत यांऔरकृत्य — इसअविवियमकेअन्‍दय उपबंिोंकेअिीिरहते हु ए,बोर्डकासदस्य - सविि
-ऐसीशवत योंकाप्रयोर्गऔरऐसेकृत्यों कापालिकरेर्गा,जोविवहतककएजाएं।
-अध्या य 3
-उद्यमोंकािर्गीकरण,स लाहकारसवमवतऔरसूक्ष्म,लघु
-औरमध्य मउद्यमोंकाज्ञापि
-7. उद्यमोंकािर्गीकरण — ( 1 )केन्‍दरी यसरकार,उद्योर्ग(विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 )कीिारा
-11 खमेंककसीबातकेहोतेहुएिीइसअविवियमकेप्रयोजिोंकेवलएअविसूििाद्वाराऔरउपिारा( 4 )औरउपिारा( 5 )केउपबंिों
-कोध्या िमेंरखतेहुए,उद्यमोंकेककन्‍दहीं िर्गडयािर्गोंको,िाहेस्िा वमत्ि,वहन्‍ददू अविित कुटुम्ब,व्य वत संर्गम,सहकारीसोसाइटी,
-िार्गीदारीफमड,कंपिीयाउपक्रमहों,िाहेिेवजसिामसेज्ञातहों,विम्ि वलवखतरूपमेंिर्गी कृतकर सकेर्गी, —
-(क)उद्योर्ग(विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 )कीपहलीअिुसूिीमेंविविर्दडष्‍टट ककसी
-उद्योर्गसेसंबंवितमालकेविविमाडणयाउत्पा दिमेंलर्गेउद्यमोंकीदशामें, —
-( i )ऐसासूक्ष्म उद्यम,जहांसंयं त्र औरमशीिरीमेंविवििािपच्िी सलाखरुपएसेअविकिहींहै;
-( ii )ऐसालघुउद्यम,जहांसंयंत्रऔरमशीिरीमेंविवििािपच्िी सलाखरुपएसेअविकहै,ककन्‍दतु पांि
-करोड़रुपएसेअविकिहींहै;या
-( iii )ऐसामध्य मउद्यम,जहांसंयंत्रऔरमशीिरीमेंविवििािपांिकरोड़रुपएसेअविकहै,ककन्‍दतु दस
-करोड़रुपएसेअविकिहींहै;
-(ख)सेिाएंउपलब्ि करािेयादेिेमेंलर्गेउद्यमोंकीदशामें, —
-( i )ऐसासूक्ष्म उद्यम,जहांउपस्क रमेंविवििािदसलाखरुपएसेअविकिहींहै;
-( ii )ऐसालघुउद्यम,जहांउपस्क रमेंविवििा िदसलाखरुपएसेअविकहै,ककन्‍दतु दो करोड़रुपएसे
-अविकिहींहै;या
-( iii )ऐसामध्य मउद्यम,जहांउपस्क रमेंविवििािदोकरोड़रुपएसेअविकहै,ककन्‍दतु पांिकरोड़रुपए
-सेअविकिहींहै। स्
-प ष्‍ट टी करण 1 — शंकाओंकोदूरकरिेकेवलएयहस्प ष्‍ट ट ककया जाताहैककसंयं त्र औ रमशीिरीमेंविवििािकीसं र्ग णिाकरिे
-मेंप्रदूषणवियंत्रण,अिुसंिािऔर विकास,औद्योवर्गकसुरिायुवत योंऔरऐसीअन्‍दय मदोंकीलार्गतको,जोअविसूििाद्वारा
-विविर्दडष्‍टट कीजाए,अपिर्जडतकरकदयाजाएर्गा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 4
+  line `(ख)िहविकृतवित्त काहैयाविकृतवित्त होर्गयाहैऔरसिमन्‍दया यालयद्वाराघोवषतकरकदयार्गयाहै;या`
+  line `(र्ग)िहसदस्य केरूपमेंकायडकरिेसेइंकारकरताहैयाकायडकरिेकेवलएअसमथडहोर्गयाहै; या`
+  line `(घ)िहककसीऐसेअपरािकेवलएदोषवसििहरायार्गयाहैवजसमेंकेन्‍दरी यसरकारकीरायमेंिैवतकअिमता`
+  line अतंिडवलतहै;या
+  line `( ङ )उसिेकेन्‍दरी यसरकारकीरायमेंबोर्डकेसदस्य केरूपमेंअपिेपदकाइसप्रकारदुरुपयोर्गककयाहैवजससे`
+  line `उसकाबोर्डमेंबिेरहिासा िारणजिताकेवहतमेंहाविकारकहै।`
+  line `( 2 )उपिारा( 1 )मेंककसीबातकेहोतेहुएिी,ककसीसदस्य कोउसउपिाराकेखंर्(र्ग)सेखंर्( ङ )मेंविविर्दडष्‍टट आिारों`
+  line `परउसकेपदसेतबतकिहींहटायाजाएर्गा,जबतकउसेउसमामलेमेंसुििाईकायुवत युत अिसरिहींदेकद या र्ग याहो।`
+  line `5. बोर्डकेकृत्य — बोर्ड,केन्‍दरी यसरकारकेसािारणविदेशोंकेअिीिरहतेहुए,विम्ि वलवखतसिी याककन्‍दहीं कृत्यों का`
+  line `पालिकरेर्गा,अथाडत्: —`
+  line `(क)सूक्ष्म,लघुऔरमध्य मउद्यमोंकेसंििडिऔरविकासकोप्रिावितकरिेिालीबातोंकीपरीिाकरिाऔर`
+  line `सं ििडिऔरविकाससुकरबिािेतथाऐसेउद्यमोंकीप्रवतस्प िाडबढािेऔरऐसेउद्यमोंपरउसकेप्रिािकेसंबंिमेंके न्‍द री य`
+  line सरकारकीिीवतयोंऔरकायडक्रमोंकापुिर्िडलोकिकरिा;
+  line `(ख)खंर्(क)मेंविर्दडष्‍टट विषयोंपरयाके न्‍द री यसरकारद्वाराउसको वि र् दडष्‍टट कक सीअन्‍दय विषयपर,जोउस`
+  line `सरकारकीरायमें,सूक्ष्म,लघुऔरमध्य मउद्यमोंकेसंििडिऔरविकासको सुकरबिािेतथाउिकीप्रवतस्प िाड कोबढािेके`
+  line `वलएआिश्य कयासमीिीिहै,वसफाररशेंकरिा;और`
+  line `(र्ग)िारा 12 केअिीिर्गरितविवियाविवियोंकेउपयोर्गकेसंबंिमेंके न्‍द री यस र कारकोसलाहदेिा।`
+  line `6. बोर्डकेसदस्य - सवििकीशवत यांऔरकृत्य — इसअविवियमकेअन्‍दय उपबंिोंकेअिीिरहते हु ए,बोर्डकासदस्य - सविि`
+  line `ऐसीशवत योंकाप्रयोर्गऔरऐसेकृत्यों कापालिकरेर्गा,जोविवहतककएजाएं।`
+  line `अध्या य 3`
+  line `उद्यमोंकािर्गीकरण,स लाहकारसवमवतऔरसूक्ष्म,लघु`
+  line `औरमध्य मउद्यमोंकाज्ञापि`
+  line `7. उद्यमोंकािर्गीकरण — ( 1 )केन्‍दरी यसरकार,उद्योर्ग(विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 )कीिारा`
+  line `11 खमेंककसीबातकेहोतेहुएिीइसअविवियमकेप्रयोजिोंकेवलएअविसूििाद्वाराऔरउपिारा( 4 )औरउपिारा( 5 )केउपबंिों`
+  line `कोध्या िमेंरखतेहुए,उद्यमोंकेककन्‍दहीं िर्गडयािर्गोंको,िाहेस्िा वमत्ि,वहन्‍ददू अविित कुटुम्ब,व्य वत संर्गम,सहकारीसोसाइटी,`
+  line `िार्गीदारीफमड,कंपिीयाउपक्रमहों,िाहेिेवजसिामसेज्ञातहों,विम्ि वलवखतरूपमेंिर्गी कृतकर सकेर्गी, —`
+  line `(क)उद्योर्ग(विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 )कीपहलीअिुसूिीमेंविविर्दडष्‍टट ककसी`
+  line `उद्योर्गसेसंबंवितमालकेविविमाडणयाउत्पा दिमेंलर्गेउद्यमोंकीदशामें, —`
+  line `( i )ऐसासूक्ष्म उद्यम,जहांसंयं त्र औरमशीिरीमेंविवििािपच्िी सलाखरुपएसेअविकिहींहै;`
+  line `( ii )ऐसालघुउद्यम,जहांसंयंत्रऔरमशीिरीमेंविवििािपच्िी सलाखरुपएसेअविकहै,ककन्‍दतु पांि`
+  line करोड़रुपएसेअविकिहींहै;या
+  line `( iii )ऐसामध्य मउद्यम,जहांसंयंत्रऔरमशीिरीमेंविवििािपांिकरोड़रुपएसेअविकहै,ककन्‍दतु दस`
+  line करोड़रुपएसेअविकिहींहै;
+  line `(ख)सेिाएंउपलब्ि करािेयादेिेमेंलर्गेउद्यमोंकीदशामें, —`
+  line `( i )ऐसासूक्ष्म उद्यम,जहांउपस्क रमेंविवििािदसलाखरुपएसेअविकिहींहै;`
+  line `( ii )ऐसालघुउद्यम,जहांउपस्क रमेंविवििा िदसलाखरुपएसेअविकहै,ककन्‍दतु दो करोड़रुपएसे`
+  line अविकिहींहै;या
+  line `( iii )ऐसामध्य मउद्यम,जहांउपस्क रमेंविवििािदोकरोड़रुपएसेअविकहै,ककन्‍दतु पांिकरोड़रुपए`
+  line `सेअविकिहींहै। स्`
+  line `प ष्‍ट टी करण 1 — शंकाओंकोदूरकरिेकेवलएयहस्प ष्‍ट ट ककया जाताहैककसंयं त्र औ रमशीिरीमेंविवििािकीसं र्ग णिाकरिे`
+  line `मेंप्रदूषणवियंत्रण,अिुसंिािऔर विकास,औद्योवर्गकसुरिायुवत योंऔरऐसीअन्‍दय मदोंकीलार्गतको,जोअविसूििाद्वारा`
+  line `विविर्दडष्‍टट कीजाए,अपिर्जडतकरकदयाजाएर्गा।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `5 स्
-प ष्‍ट टी करण 2 — यहस्प ष्‍ट ट ककयाजाताहैककउद्योर्ग(विकासऔरविवियमि)अविवियम, 195 1 ( 1951 का 65 )की िारा
-29 खकेउपबंि,इसिाराकीउपिारा( 1 )केखंर्(क)केउपखंर्( i )औरउपखंर्( ii )मेंविविर्दडष्‍टट उद्यमोंकोलार्गूहोंर्गे।
-( 2 )केन्‍दरी यसरकार,अविसूििाद्वाराएकसलाहकारसवमवतकार्गििकरेर्गीजोविम्ि वलवखतसदस्यों सेवमलकरबिेर्गी,
-अथाडत्: —
-(क)लघुऔरमध्य मउद्यमोंकाप्रशासविकवियंत्रणरखिेिालेकेन्‍दरी यसरकारकेमंत्रालययावििार्गमेंिारत
-सरकारकासवििजोपदेिअध्य िहोर्गा;
-(ख)सूक्ष्म,लघुऔरमध्य मउद्यमोंसेसंबंवितविषयोंमेंआिश्य कविशेषज्ञतारखिेिालेकेन्‍दरी यसरकारकेपांि
-सेअिविकअविकारी, सदस्य,पदेि;
-(र्ग)राज्य सरकारोंकेतीिसेअिविकप्रवतविवि,सदस्य,पदेि;और
-(घ)सूक्ष्म,लघुऔरमध्य मउद्यमोंकेप्रत्ये कसंर्गमकाएकप्रवतविवि,सदस्य,पदेि।
-( 3 )बोर्डकासदस्य - सवि िसलाहकारसवमवतकापदेिसदस्य - सविििीहोर्गा।
-( 4 )केन्‍दरी यसरकार,उपिारा( 1 )केअिीिउद्यमोंकेककन्‍दहीं िर्गडयािर्गोंकोिर्गीकृतकरिेसेपूिडसलाहकारसवमवतकी
-वसफाररशेंअविप्राप्त करेर्गी।
-( 5 )सलाहकारसवमवत,िारा 5 मेंविर्दडष्‍टट ककसीविषयकेसंबंिमेंबोर्डद्वाराइसेविर्दडष्‍टट विषयोंकीपरी िाकरेर्गीऔर
-बोर्डकोअपिीवसफाररशेंदेर्गी।
-( 6 )केन्‍दरी यसरकारअध्या य 4 कीिारा 9,िारा 10, िारा 11,िारा 12 यािारा 14 मेंविविर्दडष्‍टट ककसीविषयपर
-सलाहकारसवमवतसेिीसलाहलेसकेर्गी।
-( 7 )राज्य सरकारिारा 30 केअिीिबिाएर्गएवियमोंमेंविविर्दडष्‍टट ककसीविषयपरसलाहकारसवमवतसेसलाहले
-सकेर्गी।
-( 8 )सलाहकारसवमवत,विम्ि वलवखतविषयोंपरवििारकरिेकेपश्िा त्, यथावस्थ वत,केन्‍दरी यसरकारयाराज्य सरकारया
-बोर्डकोअपिीवसफाररशेंयासलाहसंसूवितकरेर्गी,अथाडत्: —
-(क)उद्यमोंकेककसीिर्गडयािर्गों मेंवियोजिकास्त र;
-(ख)उद्यमोंकेककसीिर्गडयािर्गोंमेंसंयंत्रऔरमशीिरीयाउपस्क रमेंविवििािोंकास्त र;
-(र्ग)उद्यमोंकेककसीिर्गडयािर्गोंकेप्रौद्योवर्गकीउन्‍दि यिकेवलएसंयं त्र औरमशीिरी या उपस्क रमेंउच्ि तर
-विवििाि,वियोजिकेसृजिऔरबढा ईर्गईप्रवतस्प िाडकीआिश्य कता;
-(घ)सूक्ष्म,लघुयामध्य मउद्यमोंमें उद्यमताकेसंििडिऔरविस्ता रकरिेकीसंिाव्य ता;
-( ङ )लघुऔरमध्य मउद्यमोंकेिर्गीकरणकेवलएअं तरराष्‍टरी यमािक।
-( 9 )उद्योर्ग(विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 )कीिारा 11 खऔरखादीऔरग्रामोद्योर्गआयोर्ग
-अविवियम, 1956 ( 1956 का 61 ) कीिारा 2 केखंर्(ज)मेंककसीबातकेहोतेहुएिी,केन्‍दरी यसरकार,उपिारा( 1 )केअिीिउद्यमों
-केककसीिर्गडयािर्गों कोिर्गीकृतकरतेसमय,विवििाि केमािदंर्मेंसमय - समयपर फे रफारकर सकेर्गी औरउद्यमोंकेवियोजिया
-आितडकेसंबंिमेंमािदंर्यामािकोंपरिीवििारकरसकेर्गीतथाऐसेिर्गीकरणमेंसूक्ष्म याछोटेउद्यमोंयाग्रामउद्यमों कोलघु
-उद्यमोंकेिार्गकेरूपमेंसवम्म वलतकरसकेर्गी।
-8. सूक्ष्म,लघुऔरमध्य मउद्यमोंकाज्ञापि — ( 1 )कोई व् य वत,जो —
-(क)अपिेवििेकािुसारकोईसूक्ष्म यालघुउद्यम,या
-(ख)अपिेवििेकािुसारसेिाएंउपलब्ि करािेयादेिेमेंलर्गाहुआकोईमध्य मउद्यम;अथिा
-(र्ग)उद्योर्ग(विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 ) कीपहलीअिुसूिीमेंविविर्दडष्‍टट ककसी
-उद्यो र्ग सेसंबंवितमालकेविविमाडणयाउत्पा दिमेंलर्गाहुआकोईमध्य मउद्यम, स्
-था वपतकरिेकाआशयरखताहो,ऐसेप्राविकारीकेपास, जोउपिारा( 4 )केअिीिराज्य सरकारद्वारा याउपिारा( 3 )केअिीि
-केन्‍दरी यसरकारद्वाराविविर्दडष्‍टट ककयाजाए,यथावस्थ वत,सूक्ष्म,लद्युयामध्य मउद्यमकाज्ञापिफाइल करेर्गा:
-परंतुकोईव्य वत,वजसिेइसअविवियमकेप्रारंिसेपूिड —
-(क)कोईलघुउद्योर्गस्था वपतककयाहैऔरउसिेस्ि विकेकािुसाररवजस्री करणप्रमाणपत्र अविप्राप्त ककया
-है;और`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line `5 स्`
+  line `प ष्‍ट टी करण 2 — यहस्प ष्‍ट ट ककयाजाताहैककउद्योर्ग(विकासऔरविवियमि)अविवियम, 195 1 ( 1951 का 65 )की िारा`
+  line `29 खकेउपबंि,इसिाराकीउपिारा( 1 )केखंर्(क)केउपखंर्( i )औरउपखंर्( ii )मेंविविर्दडष्‍टट उद्यमोंकोलार्गूहोंर्गे।`
+  line `( 2 )केन्‍दरी यसरकार,अविसूििाद्वाराएकसलाहकारसवमवतकार्गििकरेर्गीजोविम्ि वलवखतसदस्यों सेवमलकरबिेर्गी,`
+  line `अथाडत्: —`
+  line `(क)लघुऔरमध्य मउद्यमोंकाप्रशासविकवियंत्रणरखिेिालेकेन्‍दरी यसरकारकेमंत्रालययावििार्गमेंिारत`
+  line `सरकारकासवििजोपदेिअध्य िहोर्गा;`
+  line `(ख)सूक्ष्म,लघुऔरमध्य मउद्यमोंसेसंबंवितविषयोंमेंआिश्य कविशेषज्ञतारखिेिालेकेन्‍दरी यसरकारकेपांि`
+  line `सेअिविकअविकारी, सदस्य,पदेि;`
+  line `(र्ग)राज्य सरकारोंकेतीिसेअिविकप्रवतविवि,सदस्य,पदेि;और`
+  line `(घ)सूक्ष्म,लघुऔरमध्य मउद्यमोंकेप्रत्ये कसंर्गमकाएकप्रवतविवि,सदस्य,पदेि।`
+  line `( 3 )बोर्डकासदस्य - सवि िसलाहकारसवमवतकापदेिसदस्य - सविििीहोर्गा।`
+  line `( 4 )केन्‍दरी यसरकार,उपिारा( 1 )केअिीिउद्यमोंकेककन्‍दहीं िर्गडयािर्गोंकोिर्गीकृतकरिेसेपूिडसलाहकारसवमवतकी`
+  line `वसफाररशेंअविप्राप्त करेर्गी।`
+  line `( 5 )सलाहकारसवमवत,िारा 5 मेंविर्दडष्‍टट ककसीविषयकेसंबंिमेंबोर्डद्वाराइसेविर्दडष्‍टट विषयोंकीपरी िाकरेर्गीऔर`
+  line बोर्डकोअपिीवसफाररशेंदेर्गी।
+  line `( 6 )केन्‍दरी यसरकारअध्या य 4 कीिारा 9,िारा 10, िारा 11,िारा 12 यािारा 14 मेंविविर्दडष्‍टट ककसीविषयपर`
+  line सलाहकारसवमवतसेिीसलाहलेसकेर्गी।
+  line `( 7 )राज्य सरकारिारा 30 केअिीिबिाएर्गएवियमोंमेंविविर्दडष्‍टट ककसीविषयपरसलाहकारसवमवतसेसलाहले`
+  line सकेर्गी।
+  line `( 8 )सलाहकारसवमवत,विम्ि वलवखतविषयोंपरवििारकरिेकेपश्िा त्, यथावस्थ वत,केन्‍दरी यसरकारयाराज्य सरकारया`
+  line `बोर्डकोअपिीवसफाररशेंयासलाहसंसूवितकरेर्गी,अथाडत्: —`
+  line `(क)उद्यमोंकेककसीिर्गडयािर्गों मेंवियोजिकास्त र;`
+  line `(ख)उद्यमोंकेककसीिर्गडयािर्गोंमेंसंयंत्रऔरमशीिरीयाउपस्क रमेंविवििािोंकास्त र;`
+  line `(र्ग)उद्यमोंकेककसीिर्गडयािर्गोंकेप्रौद्योवर्गकीउन्‍दि यिकेवलएसंयं त्र औरमशीिरी या उपस्क रमेंउच्ि तर`
+  line `विवििाि,वियोजिकेसृजिऔरबढा ईर्गईप्रवतस्प िाडकीआिश्य कता;`
+  line `(घ)सूक्ष्म,लघुयामध्य मउद्यमोंमें उद्यमताकेसंििडिऔरविस्ता रकरिेकीसंिाव्य ता;`
+  line `( ङ )लघुऔरमध्य मउद्यमोंकेिर्गीकरणकेवलएअं तरराष्‍टरी यमािक।`
+  line `( 9 )उद्योर्ग(विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 )कीिारा 11 खऔरखादीऔरग्रामोद्योर्गआयोर्ग`
+  line `अविवियम, 1956 ( 1956 का 61 ) कीिारा 2 केखंर्(ज)मेंककसीबातकेहोतेहुएिी,केन्‍दरी यसरकार,उपिारा( 1 )केअिीिउद्यमों`
+  line `केककसीिर्गडयािर्गों कोिर्गीकृतकरतेसमय,विवििाि केमािदंर्मेंसमय - समयपर फे रफारकर सकेर्गी औरउद्यमोंकेवियोजिया`
+  line `आितडकेसंबंिमेंमािदंर्यामािकोंपरिीवििारकरसकेर्गीतथाऐसेिर्गीकरणमेंसूक्ष्म याछोटेउद्यमोंयाग्रामउद्यमों कोलघु`
+  line `उद्यमोंकेिार्गकेरूपमेंसवम्म वलतकरसकेर्गी।`
+  line `8. सूक्ष्म,लघुऔरमध्य मउद्यमोंकाज्ञापि — ( 1 )कोई व् य वत,जो —`
+  line `(क)अपिेवििेकािुसारकोईसूक्ष्म यालघुउद्यम,या`
+  line `(ख)अपिेवििेकािुसारसेिाएंउपलब्ि करािेयादेिेमेंलर्गाहुआकोईमध्य मउद्यम;अथिा`
+  line `(र्ग)उद्योर्ग(विकासऔरविवियमि)अविवियम, 1951 ( 1951 का 65 ) कीपहलीअिुसूिीमेंविविर्दडष्‍टट ककसी`
+  line `उद्यो र्ग सेसंबंवितमालकेविविमाडणयाउत्पा दिमेंलर्गाहुआकोईमध्य मउद्यम, स्`
+  line `था वपतकरिेकाआशयरखताहो,ऐसेप्राविकारीकेपास, जोउपिारा( 4 )केअिीिराज्य सरकारद्वारा याउपिारा( 3 )केअिीि`
+  line `केन्‍दरी यसरकारद्वाराविविर्दडष्‍टट ककयाजाए,यथावस्थ वत,सूक्ष्म,लद्युयामध्य मउद्यमकाज्ञापिफाइल करेर्गा:`
+  line `परंतुकोईव्य वत,वजसिेइसअविवियमकेप्रारंिसेपूिड —`
+  line `(क)कोईलघुउद्योर्गस्था वपतककयाहैऔरउसिेस्ि विकेकािुसाररवजस्री करणप्रमाणपत्र अविप्राप्त ककया`
+  line है;और
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `6
-(ख)उद्योर्ग(विकासऔरविविय मि)अविवियम, 1951 ( 1951 का 65 )कीपहलीअिुसूिीमेंविविर्दडष्‍टट एक
-करोड़रुपएसेअविकककन्‍दतु दसकरोड़रुपएसेअिविककेसंयंत्रऔरमशीिरीमेंविवििाििालेककसीउद्योर्गसेसंबंवित
-मालकेविविमाडणयाउत्पा दिमेंलर्गाकोईउद्योर्गस्था वपतककयाहैऔरउसिेिारत सरकारकेतत्का लीिउद्योर्गमंत्रालय
-(औद्योवर्गकविकासवििार्ग)कीअविसूििा सं ० का ० आ ० 477 (अ),तारीख 25 जुलाई, 1991 केअिुसरणमेंकोईऔद्योवर्गक
-उद्यमज्ञापिफाइलककयाथा,
-इसअविवियमकेप्रारंिसेएकसौअस्सी कदिकेिीतर,इसअवि वियमकेउपबंिोंकेअिुसारज्ञापिफा इलकरेर्गा।
-( 2 )ज्ञापिकाप्ररूप,उसेफाइलकरिेकीप्रकक्रयाऔरउससेआिुषंवर्गकअन्‍दय विषयिेहोंर्गे,जोकेन्‍दरी यसरकारद्वाराइस
-विवमत्तसलाहकारसवमवतकीवसफाररशोंकोअविप्राप्त करिेकेपश्िा त्अविसूवितककएजाएं।
-( 3 )िहप्राविकारी,वजसकेपासककसीमध्य मउद्यमद्वाराज्ञापिफाइलककयाजाएर्गा,ऐसाहोर्गाजोकेन्‍दरी यसरकार
-अविसूििाद्वाराविविर्दडष्‍टट करे।
-( 4 )राज्य सरकार,अविसूििाद्वाराउसप्राविकारीकोविविर्दडष्‍टट करेर्गी,वजसकेपासकोईसूक्ष्म या लघुउद्यम ज्ञ ापि
-फाइल करसकेर्गा।
-( 5 )उपिारा( 3 )और उपिारा( 4 )केअिीिविविर्दडष्‍टट प्र ाविकारी,इसिाराकेप्रयोजिोंकेवलए,उपिारा( 2 )केअिीि
-केन्‍दरी यसरकारद्वाराअविसूवितप्रकक्रयाकापालिकरेंर्गे।
-अध्या य 4
-सूक्ष्म,लघुऔरमध्य मउद्यमोंकीप्रवत स् प िाडकेसंििडि,विकासऔरिृ विकेउपाय
-9. सं ििडिऔरविकासकेउपाय — केन्‍दरी यसरकार,सूक्ष्म,लघुऔरमध्य मउद्यमोंकेविवशष्‍टट रू पसेसूक्ष्म औरलघुउद्यमों
-में,कमडिाररयों,प्रबंितंत्रऔरउद्यवमयोंमेंकायडकौशलकेविकास,वपछड़ेऔरउन्‍दि तसंयोजिोंकोसुदृढकरिेकीदृवष्‍टट सेऐसेउद्यमों
-मेंवि पणिसहायतायाअिसंरििात्म कसुवििाओंऔरउिकेसामूवहकविकासकीप्रौद्योवर्गकउन्‍दि वतकेवलएव्य िस्था करकेउिके
-संििडिऔरविकासकोसुकरबिािेकेतथाउिकीप्रवतस्प िाडमेंिृविकरिेकेप्रयोजिोंकेवलए,समय - समयपर,अविसू ििाद्वाराऐसे
-कायडक्रम,मार्गडदशी वसिांतयाअिुदेशविविर्दडष्‍टट करसकेर्गी,जोिहिीकसमझे।
-10. उिारसुवििाएं — सूक्ष्म,लघुऔरमध्य मउद्यमोंकोउिारदेिेकेसंबंिमेंिीवतयांऔरपिवतयांप्रर्गामीऔरऐसी
-होंर्गी,जोररजिडबैंकद्वारा,ऐसेउद्यमोंकोउिार केसमयपरऔर सुिारू प्र िाह,उि केबीिरुग्ण ताकेसंपातकोकमकरिेऔरऐसे
-उद्यमोंकीप्रवतस्प िाडबढािे केवलए,समय - समयपर,ररजिड बैंकद्वारा,जारीककएर्गएमार्गडदशडकवसिांतोंयाअिुदेशोंमें विविर्दडष्‍टट की
-जाएं।
-11. उपापिअविमाि िीवत — सूक्ष्म औरलघुउद्यमोंकेसंििडिऔरविकास कोसुकरबिािेकेवलएकेंरीयसरकारयाराज्य
-सरकार,समय - समयपर,आदेश द्व ारा,ऐसेमालऔरसेिाओंके,वजिकासूक्ष्म औरलघुउद्यमोंद्वारा,यथावस्थ वत,उसकेमंत्रालयोंया
-वििार्गोंयाउसकीसहायताप्राप्त संस्था ओं औरपवब्ल कसेट रउद्यमोंद्वाराउत्पा दिऔर व् य िस्था कीर्गईहो,उपापिकेसंबंिमें,
-अविमािीिीवतयां,अविसूवितकरसकेर्गी।
-12. विवियां — अविसूििाद्वाराऐसे िामसे,जोअविसूििामेंविविर्दडष्‍टट ककएजाएं,ज्ञातहोिेिालीएकयाअविक
-विवियांर्गरितकीजासकेंर्गीऔरउिमेंिारा 13 केअिीिकेंरीयसरकारद्वा राककएर्गएकोईअिुदा ि जमाककएजाएंर्गे।
-13. केन्‍दरी यसरकारद्वाराअिुदाि — केंरीयसरकार,संसद्कीविविद्वाराइसविवमत्तसम्य क्विवियोर्गकरिेकेपश्िा त्,इस
-अविवियमकेप्रयोजिोंकेवलएअिुदािोंकेरूपमेंविवियाविवियोंमेंऐसीििरावशयां,जमाकरसकेर्गी,वजन्‍दहें िहसरकारप्रदा ि
-करिेकेवलएआिश्य कसमझे।
-14. विवियाविवियों का प्र शासिऔरउपयोर्ग — ( 1 )केंरीयसरकारकोउसरीवतमें,जोविवहतकीजाए,विवियाविवियों
-का प्र शासिकरिेकीशवत होर्गी।
-( 2 )विवियाविवियोंकाउपयोर्गअिन्‍दय रू पसेिारा 9 कीउपिा रा( 1 )मेंविविर्दडष्‍टट उपायोंकेवलएककयाजाएर्गा।
-( 3 )केंरीयसरकारउसमािदंर्केअिुसार,जोविवहतककयाजाए,रावशयोंकेसमन्‍दि यऔरसमयपरउपयोर्गतथाविमोिि
-कोसुविवश्ि तकरिेकेवलएउत्तरदायीहोर्गी।
-अध्या य 5
-सूक्ष्म औरलघुउद्यमोंकोविलंवबतसंदाय
-15. संदायकरिेकाक्रेताकादावयत्ि — जहांकोईप्रदायकताड,ककसीक्रेताकोककसीमालकाप्रदायकरताहैयाकोईसेिा
-देताहै,िहांक्रेताअपिेऔरप्रदायकताडकेबीिवलवखतरूपमेंकरारपाईर्गईतारीखकोयाउसकेपूिडअथिाजहांइसविवम त्त को ई
-करारिहींहै,िहांवि यतकदिकेपूिड,उसकेवलएसंदायकरेर्गा:`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 6
+  line `(ख)उद्योर्ग(विकासऔरविविय मि)अविवियम, 1951 ( 1951 का 65 )कीपहलीअिुसूिीमेंविविर्दडष्‍टट एक`
+  line `करोड़रुपएसेअविकककन्‍दतु दसकरोड़रुपएसेअिविककेसंयंत्रऔरमशीिरीमेंविवििाििालेककसीउद्योर्गसेसंबंवित`
+  line `मालकेविविमाडणयाउत्पा दिमेंलर्गाकोईउद्योर्गस्था वपतककयाहैऔरउसिेिारत सरकारकेतत्का लीिउद्योर्गमंत्रालय`
+  line `(औद्योवर्गकविकासवििार्ग)कीअविसूििा सं ० का ० आ ० 477 (अ),तारीख 25 जुलाई, 1991 केअिुसरणमेंकोईऔद्योवर्गक`
+  line उद्यमज्ञापिफाइलककयाथा,
+  line `इसअविवियमकेप्रारंिसेएकसौअस्सी कदिकेिीतर,इसअवि वियमकेउपबंिोंकेअिुसारज्ञापिफा इलकरेर्गा।`
+  line `( 2 )ज्ञापिकाप्ररूप,उसेफाइलकरिेकीप्रकक्रयाऔरउससेआिुषंवर्गकअन्‍दय विषयिेहोंर्गे,जोकेन्‍दरी यसरकारद्वाराइस`
+  line `विवमत्तसलाहकारसवमवतकीवसफाररशोंकोअविप्राप्त करिेकेपश्िा त्अविसूवितककएजाएं।`
+  line `( 3 )िहप्राविकारी,वजसकेपासककसीमध्य मउद्यमद्वाराज्ञापिफाइलककयाजाएर्गा,ऐसाहोर्गाजोकेन्‍दरी यसरकार`
+  line `अविसूििाद्वाराविविर्दडष्‍टट करे।`
+  line `( 4 )राज्य सरकार,अविसूििाद्वाराउसप्राविकारीकोविविर्दडष्‍टट करेर्गी,वजसकेपासकोईसूक्ष्म या लघुउद्यम ज्ञ ापि`
+  line `फाइल करसकेर्गा।`
+  line `( 5 )उपिारा( 3 )और उपिारा( 4 )केअिीिविविर्दडष्‍टट प्र ाविकारी,इसिाराकेप्रयोजिोंकेवलए,उपिारा( 2 )केअिीि`
+  line `केन्‍दरी यसरकारद्वाराअविसूवितप्रकक्रयाकापालिकरेंर्गे।`
+  line `अध्या य 4`
+  line `सूक्ष्म,लघुऔरमध्य मउद्यमोंकीप्रवत स् प िाडकेसंििडि,विकासऔरिृ विकेउपाय`
+  line `9. सं ििडिऔरविकासकेउपाय — केन्‍दरी यसरकार,सूक्ष्म,लघुऔरमध्य मउद्यमोंकेविवशष्‍टट रू पसेसूक्ष्म औरलघुउद्यमों`
+  line `में,कमडिाररयों,प्रबंितंत्रऔरउद्यवमयोंमेंकायडकौशलकेविकास,वपछड़ेऔरउन्‍दि तसंयोजिोंकोसुदृढकरिेकीदृवष्‍टट सेऐसेउद्यमों`
+  line `मेंवि पणिसहायतायाअिसंरििात्म कसुवििाओंऔरउिकेसामूवहकविकासकीप्रौद्योवर्गकउन्‍दि वतकेवलएव्य िस्था करकेउिके`
+  line `संििडिऔरविकासकोसुकरबिािेकेतथाउिकीप्रवतस्प िाडमेंिृविकरिेकेप्रयोजिोंकेवलए,समय - समयपर,अविसू ििाद्वाराऐसे`
+  line `कायडक्रम,मार्गडदशी वसिांतयाअिुदेशविविर्दडष्‍टट करसकेर्गी,जोिहिीकसमझे।`
+  line `10. उिारसुवििाएं — सूक्ष्म,लघुऔरमध्य मउद्यमोंकोउिारदेिेकेसंबंिमेंिीवतयांऔरपिवतयांप्रर्गामीऔरऐसी`
+  line `होंर्गी,जोररजिडबैंकद्वारा,ऐसेउद्यमोंकोउिार केसमयपरऔर सुिारू प्र िाह,उि केबीिरुग्ण ताकेसंपातकोकमकरिेऔरऐसे`
+  line `उद्यमोंकीप्रवतस्प िाडबढािे केवलए,समय - समयपर,ररजिड बैंकद्वारा,जारीककएर्गएमार्गडदशडकवसिांतोंयाअिुदेशोंमें विविर्दडष्‍टट की`
+  line जाएं।
+  line `11. उपापिअविमाि िीवत — सूक्ष्म औरलघुउद्यमोंकेसंििडिऔरविकास कोसुकरबिािेकेवलएकेंरीयसरकारयाराज्य`
+  line `सरकार,समय - समयपर,आदेश द्व ारा,ऐसेमालऔरसेिाओंके,वजिकासूक्ष्म औरलघुउद्यमोंद्वारा,यथावस्थ वत,उसकेमंत्रालयोंया`
+  line `वििार्गोंयाउसकीसहायताप्राप्त संस्था ओं औरपवब्ल कसेट रउद्यमोंद्वाराउत्पा दिऔर व् य िस्था कीर्गईहो,उपापिकेसंबंिमें,`
+  line अविमािीिीवतयां,अविसूवितकरसकेर्गी।
+  line `12. विवियां — अविसूििाद्वाराऐसे िामसे,जोअविसूििामेंविविर्दडष्‍टट ककएजाएं,ज्ञातहोिेिालीएकयाअविक`
+  line `विवियांर्गरितकीजासकेंर्गीऔरउिमेंिारा 13 केअिीिकेंरीयसरकारद्वा राककएर्गएकोईअिुदा ि जमाककएजाएंर्गे।`
+  line `13. केन्‍दरी यसरकारद्वाराअिुदाि — केंरीयसरकार,संसद्कीविविद्वाराइसविवमत्तसम्य क्विवियोर्गकरिेकेपश्िा त्,इस`
+  line `अविवियमकेप्रयोजिोंकेवलएअिुदािोंकेरूपमेंविवियाविवियोंमेंऐसीििरावशयां,जमाकरसकेर्गी,वजन्‍दहें िहसरकारप्रदा ि`
+  line `करिेकेवलएआिश्य कसमझे।`
+  line `14. विवियाविवियों का प्र शासिऔरउपयोर्ग — ( 1 )केंरीयसरकारकोउसरीवतमें,जोविवहतकीजाए,विवियाविवियों`
+  line `का प्र शासिकरिेकीशवत होर्गी।`
+  line `( 2 )विवियाविवियोंकाउपयोर्गअिन्‍दय रू पसेिारा 9 कीउपिा रा( 1 )मेंविविर्दडष्‍टट उपायोंकेवलएककयाजाएर्गा।`
+  line `( 3 )केंरीयसरकारउसमािदंर्केअिुसार,जोविवहतककयाजाए,रावशयोंकेसमन्‍दि यऔरसमयपरउपयोर्गतथाविमोिि`
+  line `कोसुविवश्ि तकरिेकेवलएउत्तरदायीहोर्गी।`
+  line `अध्या य 5`
+  line `सूक्ष्म औरलघुउद्यमोंकोविलंवबतसंदाय`
+  line `15. संदायकरिेकाक्रेताकादावयत्ि — जहांकोईप्रदायकताड,ककसीक्रेताकोककसीमालकाप्रदायकरताहैयाकोईसेिा`
+  line `देताहै,िहांक्रेताअपिेऔरप्रदायकताडकेबीिवलवखतरूपमेंकरारपाईर्गईतारीखकोयाउसकेपूिडअथिाजहांइसविवम त्त को ई`
+  line `करारिहींहै,िहांवि यतकदिकेपूिड,उसकेवलएसंदायकरेर्गा:`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `7
-परन्‍दतु ककसीिीदशामें,प्रदायकताडऔरक्रेताकेबीिवलवखतरूपमेंकरारपाईर्गईअिवि,स्िी कृवतकीतारीखयासमझी र्ग
-ईस्िी कृवतकीतारीखसेपैंतालीसकदिसेअविकिहींहोर्गी।
-16. िहतारीखवजससेऔरिहदरवजसपरब्या जसं देयहै — जहांकोईक्रेताप्रदायकताडकोिारा 15 कीअपेिािुसाररकम
-कासंदायकरिेमेंअसफलरहताहै,िहांक्रेता,अपिेऔरप्रदायकताडकेबीिककसीकरारमेंयातत्स मयप्रिृत्तककसीविविमें ककसी
-बातकेहोतेहुएिीप्रदायकताडको,यथावस्थ वत,वियतकदिसेयाकरा रपाईर्गईतारीखकेिीकबा दकीतारीखसेउसरकमपर
-ररजिडबैंकद्वाराअविसूवितबैंकदरपरमावसकअिशेषकेसाथतीिर्गुणािक्रिृविब्या जकासंदेयकरिेकेवलएदायीहोर्गा।
-17. देयरकमकीिसूली — क्रे ता,प्रदायकताडद्वाराप्रदायककएर्गएककसीमालयादीर्गईसेिाओंके वलएिारा 16 केअिीि
-यथाउपबंवितब्या जसवहतरकमकासंदायकरिेकादायीहोर्गा।
-18. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कोविदेश — ( 1 )तत्स मयप्रिृत्तककसीअन्‍दय विविमेंअंतर्िडष्‍टट ककसीबातके
-होतेहुएिीककसीवििादकाकोईपिकारिारा 17 केअिीिदेय ककसीरकमकेसंबंिमेंसूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्को
-विदेशकरसकेर्गा।
-( 2 )उपिारा( 1 )केअिीिकोईविदेशप्राप्त होिेपर,पररषद्यातोस्ि यंमामलेमेंसुलहकायडकरेर्गीयाऐसीककसीसंस्था
-याकेन्‍दर सेसहायतालेर्गीजोऐसीककसीसंस्था याके न्‍द र कोऐसासुलहकायडकरिेसंबंिीविदेशकरकेआिुकवल्प कवििादसमािाि
-सेिाएं उपलब्ि करातीहोऔरमाध्य स् थ म्औरसुलहअविवियम, 1996 ( 1996 का 26 ) कीिारा 65 सेिारा 81 केउपबंिऐसेवििाद
-कोऐसेलार्गूहोंर्गेमािोसुलहउसअविवियमकेिार्ग 3 केअिीिआरंिकीर्ग ईहो।
-( 3 )जहांउपिारा ( 2 ) केअिीिआरंिकीर्गईसुलहसफलिहींहोतीहैऔरपिकारोंकेबीिकोईसमझौताहुएवबिा
-समाप्त होर्गईहैिहांपररषद्यातोवििादपरस्ि यंमाध्य स् थ म्कारडिाईकरेर्गीयाउसेऐसेमाध्य स् थ म्केवलएआिुकवल्प कवििाद
-समािािसेिाएंउपलब्ि करािेिालीककसीसंस्था याकेन्‍दर कोविर्दडष्‍टट करेर्गीऔरतबमाध्य स् थ म्औरसुलहअविवियम, 1996 ( 1996
-का 26 ) केउपबंिऐसेवििादकोऐसेलार्गूहोंर्गेमािोिहउसअविवियमकीिारा 7 कीउपिारा( 1 )मेंविर्दडष्‍टट ककसीमाध्य स् थ म्
-करारकेअिुसरणमेंहो।
-( 4 )तत्स मयप्रिृ त्त ककसीअन्‍दय विविमेंककसीबातकेहोतेहुएिीसूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्याआिुकवल्प क
-वििादसमािािसेिाएंउपलब्ि करािेिालीककसीसंस्था याकेन्‍दर कोउसकीअविकाररताकेिीतरअिवस्थ तप्रदायकताड औरिारतमें
-ककसीिीस्था िपरअिवस्थ तक्रेताकेमध्य ककसीवििादमेंइसिाराकेअिीिमध्य स् थ यासुलहकताडकेरूपमेंकायडकरिेकी
-अविकाररताहोर्गी।
-( 5 )इसिाराकेअिीिककएर्गएप्रत्ये कविदेशकाविविश्ि यऐसाविदेशककएजािेकीतारीखसेिब्बे कदिकीअिविके
-िीतरककयाजाएर्गा।
-19. वर् क्र ी,पंिाटयाआदेशअपास्त करिेकेवलएआिेदि — ( 1 )पररषद्द्वारास्ि यंयाआिुकवल्प कवििादसमािािसेिाएं
-उपलब्ि करािेिालीककसीऐसीसंस्था याकेन्‍दर द्व ारा,वजसेपररषद्द्वाराविदेशककयार्गयाहै,पाररतकीर्गईककसीवर्क्री,पंिाटया
-अन्‍दय आदेशकोअपास्त करिेकेवलएकोईआिेदिककसीन्‍दया यालयद्वारातबतकग्रहणिहींककयाजाएर्गाजबतकककअपीलाथी(जो प्र
-दायकताडिहींहै)िेऐसेन्‍दया लालयद्वाराविदेवशतरीवतमें,यथावस्थ वत,वर्क्री,पंिाटयाअन्‍दय आदेशकेविबंििािुसारउसरकमका
-पिहत्तरप्रवतशतउसकेपासजमाि करकदयाहो:
-परंतुवर्क्री,पंिाटयाआदेशकोअपास्त करिेसंबंिीआिेदिकाविपटारालंवबतरहिेतकन्‍दया यालययहआदेशकरेर्गाकक
-जमाकीर्गईरकमकीऐसीप्रवतशतताकाजोिहमामलेकीपररवस्थ वतयोंमेंऐसीशतोंकेअिीिरहतेहुए,जोिहअविरोवपतकरिा
-आिश्य कसमझे,युवत युत वििारकरे औरप्रदायकताडकोसंदायककयाजाएर्गा।
-20. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीस्था पिा — राज्य सरकार,अविसूििाद्वारा,ऐसेस्था िोंपरऐसी
-अविकाररताकाप्रयोर्गकरिेकेवलएऔरऐसेिेत्रोंकेवलए,जोअविसूििामेंविविर्दडष्‍टट ककएजा एं,एकयाअवि कसूक्ष्म औरलघु
-उद्यमसुकरीकरणपररषद्कीस्था पिाकरेर्गी।
-21. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीसंरििा — ( 1 )सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्ऐसेतीि सेअन्‍दयू ि,
-ककंतुपांिसेअिविकसदस्यों सेवमलकरबिेर्गी,जोविम्ि वलवखतप्रिर्गों मेंसेवियुत ककएजाएंर्गे, अ थाडत्: —
-( i )यथावस्थ वत,लघुउद्योर्गोंयासूक्ष्म,लघुऔरमध्य मउद्यमों का प्र शासविकवियंत्रणरखिेिाले राज्य सरकारके
-वििार्गमेंउद्योर्गविदेशक,िाहेिहककसीिीिामसेज्ञातहो,याऐसेअन्‍दय अविकारी,जोऐसेविदेशककीपंवत सेिीिे
-कािहो;और
-( ii )राज्य मेंसूक्ष्म यालघुउद्योर्गअथिाउद्यमोंकेसंर्गमोंकेएकयाअविकपदाविकारीयाप्रवतविवि;और
-( iii )सूक्ष्म यालघुउद्यमोंकोउिारदेिेिालेबैंकों औरवि त्त ीयसंस्था ओं केएकयाअविकप्रवतविवि;और
-( iv )उद्योर्ग,वित्त,विवि,व्या पारयािावणज्य केिेत्रमेंविशेषज्ञािरखिेिालेएकयाअविकव्य वत।
-( 2 )उपिारा( 1 )केखंर्( i )केअिीिवियुत व् य वत सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्काअध्य िहोर्गा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 7
+  line `परन्‍दतु ककसीिीदशामें,प्रदायकताडऔरक्रेताकेबीिवलवखतरूपमेंकरारपाईर्गईअिवि,स्िी कृवतकीतारीखयासमझी र्ग`
+  line `ईस्िी कृवतकीतारीखसेपैंतालीसकदिसेअविकिहींहोर्गी।`
+  line `16. िहतारीखवजससेऔरिहदरवजसपरब्या जसं देयहै — जहांकोईक्रेताप्रदायकताडकोिारा 15 कीअपेिािुसाररकम`
+  line `कासंदायकरिेमेंअसफलरहताहै,िहांक्रेता,अपिेऔरप्रदायकताडकेबीिककसीकरारमेंयातत्स मयप्रिृत्तककसीविविमें ककसी`
+  line `बातकेहोतेहुएिीप्रदायकताडको,यथावस्थ वत,वियतकदिसेयाकरा रपाईर्गईतारीखकेिीकबा दकीतारीखसेउसरकमपर`
+  line `ररजिडबैंकद्वाराअविसूवितबैंकदरपरमावसकअिशेषकेसाथतीिर्गुणािक्रिृविब्या जकासंदेयकरिेकेवलएदायीहोर्गा।`
+  line `17. देयरकमकीिसूली — क्रे ता,प्रदायकताडद्वाराप्रदायककएर्गएककसीमालयादीर्गईसेिाओंके वलएिारा 16 केअिीि`
+  line `यथाउपबंवितब्या जसवहतरकमकासंदायकरिेकादायीहोर्गा।`
+  line `18. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कोविदेश — ( 1 )तत्स मयप्रिृत्तककसीअन्‍दय विविमेंअंतर्िडष्‍टट ककसीबातके`
+  line `होतेहुएिीककसीवििादकाकोईपिकारिारा 17 केअिीिदेय ककसीरकमकेसंबंिमेंसूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्को`
+  line विदेशकरसकेर्गा।
+  line `( 2 )उपिारा( 1 )केअिीिकोईविदेशप्राप्त होिेपर,पररषद्यातोस्ि यंमामलेमेंसुलहकायडकरेर्गीयाऐसीककसीसंस्था`
+  line `याकेन्‍दर सेसहायतालेर्गीजोऐसीककसीसंस्था याके न्‍द र कोऐसासुलहकायडकरिेसंबंिीविदेशकरकेआिुकवल्प कवििादसमािाि`
+  line `सेिाएं उपलब्ि करातीहोऔरमाध्य स् थ म्औरसुलहअविवियम, 1996 ( 1996 का 26 ) कीिारा 65 सेिारा 81 केउपबंिऐसेवििाद`
+  line `कोऐसेलार्गूहोंर्गेमािोसुलहउसअविवियमकेिार्ग 3 केअिीिआरंिकीर्ग ईहो।`
+  line `( 3 )जहांउपिारा ( 2 ) केअिीिआरंिकीर्गईसुलहसफलिहींहोतीहैऔरपिकारोंकेबीिकोईसमझौताहुएवबिा`
+  line `समाप्त होर्गईहैिहांपररषद्यातोवििादपरस्ि यंमाध्य स् थ म्कारडिाईकरेर्गीयाउसेऐसेमाध्य स् थ म्केवलएआिुकवल्प कवििाद`
+  line `समािािसेिाएंउपलब्ि करािेिालीककसीसंस्था याकेन्‍दर कोविर्दडष्‍टट करेर्गीऔरतबमाध्य स् थ म्औरसुलहअविवियम, 1996 ( 1996`
+  line `का 26 ) केउपबंिऐसेवििादकोऐसेलार्गूहोंर्गेमािोिहउसअविवियमकीिारा 7 कीउपिारा( 1 )मेंविर्दडष्‍टट ककसीमाध्य स् थ म्`
+  line करारकेअिुसरणमेंहो।
+  line `( 4 )तत्स मयप्रिृ त्त ककसीअन्‍दय विविमेंककसीबातकेहोतेहुएिीसूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्याआिुकवल्प क`
+  line `वििादसमािािसेिाएंउपलब्ि करािेिालीककसीसंस्था याकेन्‍दर कोउसकीअविकाररताकेिीतरअिवस्थ तप्रदायकताड औरिारतमें`
+  line `ककसीिीस्था िपरअिवस्थ तक्रेताकेमध्य ककसीवििादमेंइसिाराकेअिीिमध्य स् थ यासुलहकताडकेरूपमेंकायडकरिेकी`
+  line अविकाररताहोर्गी।
+  line `( 5 )इसिाराकेअिीिककएर्गएप्रत्ये कविदेशकाविविश्ि यऐसाविदेशककएजािेकीतारीखसेिब्बे कदिकीअिविके`
+  line िीतरककयाजाएर्गा।
+  line `19. वर् क्र ी,पंिाटयाआदेशअपास्त करिेकेवलएआिेदि — ( 1 )पररषद्द्वारास्ि यंयाआिुकवल्प कवििादसमािािसेिाएं`
+  line `उपलब्ि करािेिालीककसीऐसीसंस्था याकेन्‍दर द्व ारा,वजसेपररषद्द्वाराविदेशककयार्गयाहै,पाररतकीर्गईककसीवर्क्री,पंिाटया`
+  line `अन्‍दय आदेशकोअपास्त करिेकेवलएकोईआिेदिककसीन्‍दया यालयद्वारातबतकग्रहणिहींककयाजाएर्गाजबतकककअपीलाथी(जो प्र`
+  line `दायकताडिहींहै)िेऐसेन्‍दया लालयद्वाराविदेवशतरीवतमें,यथावस्थ वत,वर्क्री,पंिाटयाअन्‍दय आदेशकेविबंििािुसारउसरकमका`
+  line `पिहत्तरप्रवतशतउसकेपासजमाि करकदयाहो:`
+  line `परंतुवर्क्री,पंिाटयाआदेशकोअपास्त करिेसंबंिीआिेदिकाविपटारालंवबतरहिेतकन्‍दया यालययहआदेशकरेर्गाकक`
+  line `जमाकीर्गईरकमकीऐसीप्रवतशतताकाजोिहमामलेकीपररवस्थ वतयोंमेंऐसीशतोंकेअिीिरहतेहुए,जोिहअविरोवपतकरिा`
+  line `आिश्य कसमझे,युवत युत वििारकरे औरप्रदायकताडकोसंदायककयाजाएर्गा।`
+  line `20. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीस्था पिा — राज्य सरकार,अविसूििाद्वारा,ऐसेस्था िोंपरऐसी`
+  line `अविकाररताकाप्रयोर्गकरिेकेवलएऔरऐसेिेत्रोंकेवलए,जोअविसूििामेंविविर्दडष्‍टट ककएजा एं,एकयाअवि कसूक्ष्म औरलघु`
+  line `उद्यमसुकरीकरणपररषद्कीस्था पिाकरेर्गी।`
+  line `21. सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीसंरििा — ( 1 )सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्ऐसेतीि सेअन्‍दयू ि,`
+  line `ककंतुपांिसेअिविकसदस्यों सेवमलकरबिेर्गी,जोविम्ि वलवखतप्रिर्गों मेंसेवियुत ककएजाएंर्गे, अ थाडत्: —`
+  line `( i )यथावस्थ वत,लघुउद्योर्गोंयासूक्ष्म,लघुऔरमध्य मउद्यमों का प्र शासविकवियंत्रणरखिेिाले राज्य सरकारके`
+  line `वििार्गमेंउद्योर्गविदेशक,िाहेिहककसीिीिामसेज्ञातहो,याऐसेअन्‍दय अविकारी,जोऐसेविदेशककीपंवत सेिीिे`
+  line कािहो;और
+  line `( ii )राज्य मेंसूक्ष्म यालघुउद्योर्गअथिाउद्यमोंकेसंर्गमोंकेएकयाअविकपदाविकारीयाप्रवतविवि;और`
+  line `( iii )सूक्ष्म यालघुउद्यमोंकोउिारदेिेिालेबैंकों औरवि त्त ीयसंस्था ओं केएकयाअविकप्रवतविवि;और`
+  line `( iv )उद्योर्ग,वित्त,विवि,व्या पारयािावणज्य केिेत्रमेंविशेषज्ञािरखिेिालेएकयाअविकव्य वत।`
+  line `( 2 )उपिारा( 1 )केखंर्( i )केअिीिवियुत व् य वत सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्काअध्य िहोर्गा।`
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_10:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-10)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Page 10`)
-  (str content) (str `8
-( 3 )सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीसंरििा,उसके सदस्यों मेंररवत यांिरेजािेकीरीवतऔरसदस्यों द्व ारा
-अपिेकृत्यों केवििडहिमेंअिुसरणकीजािेिालीप्रकक्रयािहहोर्गी,जोराज्य सरकारद्वारा विवहतकीजाए।
-22. िार्षडकलेखावििरणमेंब्या जसवहतअसंदत्तरकमविविर्दडष्‍टट करिेकीअपेिा — जहांकक सीक्रेतासे,तत्स मयप्रिृत्त
-ककसीविविकेअिीिअपिेिार्षडकलेखाओंकीसंपरीिाकरिािेकीअपेिाकीजातीहै,िहांऐसाक्रेताअपिेिार्षडकलेखा के
-वििरणमेंविम्ि वलवखतअवतररत जािकारीदेर्गा,अथाड त्: —
-( i )ककसीप्रदायकताडकोप्रत्ये कलेखािषडकेअंत मेंशेषअसंदत्तमूलरकमऔर उ सपरदेयब्या ज(पृ थक्रूपसे
-दर्शडतककयाजाएर्गा);
-( ii )प्रत्ये कलेखािषडकेदौरािवियतकदिकेपश्िा त्प्रदायकताडकोककएर्गएसंदायकीरकमसवहतिारा 16 के
-विबंििोंकेअिुसारक्रे ताद्वारासंदत्तब्या जकीरकम;
-( iii )संदायकरिे मेंहुएविलंबकीअिविकेवलएदेयऔरसंदेयब्या जकीरकम(वजसकासंदायिषडकेदौराि
-ककंतुवियतकदिकेपश्िा त्ककयार्गयाहै)ककंतुइसअविवियमकेअिीिविविर्दडष्‍टट ब् या जजोड़ेवबिा;
-( iv )ऐसेब्या जकीरकम,जोप्रत्ये कलेखािषडकेअंतमेंप्रोद्िू तऔर अ संदत्त रहर्गईरकम;और
-( v )िारा 23 केअिीिकटौतीयोग्य खिडकेरूपमेंिामंजूरकरिेकेप्रयोजिकेवलएऐसीअवतररत ब् या जकी
-रकमजोपश्िा त् ितीिषोंमेंिीऐसीतारीखतकजबतकयथाउपरोत देयब्या जकािस्तु त:लघुउद्यमकोसं दायिहींकर
-कदयाजाता,दे यऔरसंदेयरहर्गईहै।
-23. ब् या जकाआयसेकटौतीकेरूपमेंअिुज्ञातिककयाजािा — आय - करअविवियम, 1961 ( 1961 का 43 )मेंककसीबातके
-होतेहुएिी,ककसीक्रेताद्वारा,इसअविवियमकेउपबंिोंकेअिीियाउसकेअिुसारसंदेययासंदत्तब्या जकीरकम,आय - कर
-अविवियम, 1961 केअिीिआयकीसंर्गणिाकरिेकेप्रयोजिकेवलएकटौतीकेरूपमेंअिुज्ञातिहींकीजाएर्गी।
-24. अध्या रोहीप्रिाि — िारा 15 सेिारा 23 तककेउपबंितत्स मयप्रिृत्तककसीअन्‍दय विविमेंउससेअंसर्गतककसीबातके
-होतेिी,प्रिािीहोंर्गे।
-25. सूक्ष्म,लघुऔरमध्य मउद्यमोंकेकारबारकीबंदीकेवलएस्की म — तत्स मयप्रिृत्तककसीअन्‍दय विविमेंककसीबातके
-होतेहुएिीकेन्‍दरी यसरकारककसीऐसे सूक्ष्म,लघुयामध्य मउद्यमद्वारा,जोकंपिीअविवियम, 1956 ( 1956 का 1 )केअिीि
-रवजस्री कृतकंपिीिहींहै,कारबारबंदकरिे कोसुकरबिािेकीदृवष्‍टट सेइसअविवियमकेप्रारंिकीतारीखसेएकिषडकेिीत रएक स्
-की मअविसूवितकरसकेर्गी।
-अध्या य 6 प्र
-कीणड
-26. अविकाररयोंऔरअन्‍दय कमडिाररयोंकीवियुवत — ( 1 )केन्‍दरी यसरकारयाराज्य सरकारऐसेपदिामोंिालेउतिे
-अविकाररयोंऔरउतिे अन्‍दय कमडिाररयोंको,वजतिेिहइसअविवियमकेप्रयोजिोंकेवलएिीकसमझे,वियुत करसकेर्गीऔरउन्‍दहें
-इसअविवियमकेअिीिऐसीशवत यांऔरकृत्य सौंपसकेर्गी,जोिहिीकसमझे।
-( 2 )उपिारा( 1 )केअिीिवियुत अविकारी,इसअविवियमके प्र योजिोंकेवलएआदेशद्वारा,ककसीव्य वत सेऐसेप्ररूप
-में,ऐसीजािकारीदेिेकीअपेिाकरसकेंर्गे,जोविवहतकीजाए।
-27. िारा 8 यािारा 2 2 यािारा 26 केउल्लं घिकेवलएशावस्त — ( 1 )जोकोईिारा 8 कीउपिारा( 1 )यािारा 26 की
-उपिारा( 2 )मेंअंतर्िडष्‍टट ककसीउपबंिकासाशयउल्लं घि करेर्गायाउल्लं घिकरिेकाप्रयत्ि करेर्गाअथिाउल्लं घिकेवलएदुष्‍टप्र रेण
-करेर्गा,िह —
-(क)प्रथमउल्लं घिकीदशामें ऐ सेजुमाडिेसे,जोएकहजाररुपएतककाहोसकेर्गा;और
-(ख)वद्वतीययापश्िा त् ितीउल्लं घिकीदशामें,ऐ सेजुमाडिेसे,जोएकहजाररुपएसेक मकािहोर्गाककंतुदस
-हजाररुपएतककाहोसकेर्गा,
-दंर्िीयहोर्गा।
-( 2 )जहांकोईक्रेतािारा 22 केउपबंिोंकाउल्लं घिकरताहैिहांिहऐसेजुमाडिेसे,जोदसहजाररुपएसेकमकािहीं
-होर्गा,दंर्िीयहोर्गा।
-28. न्‍द या यालयोंकीअविकाररता — ककसीमहािर्गरमवजस्रे टया प्र थमिर्गडमवजस्रे टसेअिरकोईन्‍दया यालयइसअविवियम
-केअिीिदंर्िीयककसीअपरािकावििारणिहींकरेर्गा।
-29. वियमबिािेकीशवत — ( 1 )केन्‍दरी यसरकारइसअविवियमकेउपबंिोंकोकायाड वन्‍दि तकरिेकेवलए,अविसूििाद्वारा,
-वियमबिासकेर्गी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 10)
+  kind page
+  sectionId pdf-page-10
+  sectionNo (10)
+  orderNo 10
+  title `Page 10`
+  content obj_root_law_translations_hi_sections_10_content
+  footnotes obj_root_law_translations_hi_sections_10_footnotes
+  sourcePage 10
+obj_root_law_translations_hi_sections_10_content:
+  string
+  line 8
+  line `( 3 )सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीसंरििा,उसके सदस्यों मेंररवत यांिरेजािेकीरीवतऔरसदस्यों द्व ारा`
+  line `अपिेकृत्यों केवििडहिमेंअिुसरणकीजािेिालीप्रकक्रयािहहोर्गी,जोराज्य सरकारद्वारा विवहतकीजाए।`
+  line `22. िार्षडकलेखावििरणमेंब्या जसवहतअसंदत्तरकमविविर्दडष्‍टट करिेकीअपेिा — जहांकक सीक्रेतासे,तत्स मयप्रिृत्त`
+  line `ककसीविविकेअिीिअपिेिार्षडकलेखाओंकीसंपरीिाकरिािेकीअपेिाकीजातीहै,िहांऐसाक्रेताअपिेिार्षडकलेखा के`
+  line `वििरणमेंविम्ि वलवखतअवतररत जािकारीदेर्गा,अथाड त्: —`
+  line `( i )ककसीप्रदायकताडकोप्रत्ये कलेखािषडकेअंत मेंशेषअसंदत्तमूलरकमऔर उ सपरदेयब्या ज(पृ थक्रूपसे`
+  line `दर्शडतककयाजाएर्गा);`
+  line `( ii )प्रत्ये कलेखािषडकेदौरािवियतकदिकेपश्िा त्प्रदायकताडकोककएर्गएसंदायकीरकमसवहतिारा 16 के`
+  line `विबंििोंकेअिुसारक्रे ताद्वारासंदत्तब्या जकीरकम;`
+  line `( iii )संदायकरिे मेंहुएविलंबकीअिविकेवलएदेयऔरसंदेयब्या जकीरकम(वजसकासंदायिषडकेदौराि`
+  line `ककंतुवियतकदिकेपश्िा त्ककयार्गयाहै)ककंतुइसअविवियमकेअिीिविविर्दडष्‍टट ब् या जजोड़ेवबिा;`
+  line `( iv )ऐसेब्या जकीरकम,जोप्रत्ये कलेखािषडकेअंतमेंप्रोद्िू तऔर अ संदत्त रहर्गईरकम;और`
+  line `( v )िारा 23 केअिीिकटौतीयोग्य खिडकेरूपमेंिामंजूरकरिेकेप्रयोजिकेवलएऐसीअवतररत ब् या जकी`
+  line `रकमजोपश्िा त् ितीिषोंमेंिीऐसीतारीखतकजबतकयथाउपरोत देयब्या जकािस्तु त:लघुउद्यमकोसं दायिहींकर`
+  line `कदयाजाता,दे यऔरसंदेयरहर्गईहै।`
+  line `23. ब् या जकाआयसेकटौतीकेरूपमेंअिुज्ञातिककयाजािा — आय - करअविवियम, 1961 ( 1961 का 43 )मेंककसीबातके`
+  line `होतेहुएिी,ककसीक्रेताद्वारा,इसअविवियमकेउपबंिोंकेअिीियाउसकेअिुसारसंदेययासंदत्तब्या जकीरकम,आय - कर`
+  line `अविवियम, 1961 केअिीिआयकीसंर्गणिाकरिेकेप्रयोजिकेवलएकटौतीकेरूपमेंअिुज्ञातिहींकीजाएर्गी।`
+  line `24. अध्या रोहीप्रिाि — िारा 15 सेिारा 23 तककेउपबंितत्स मयप्रिृत्तककसीअन्‍दय विविमेंउससेअंसर्गतककसीबातके`
+  line होतेिी,प्रिािीहोंर्गे।
+  line `25. सूक्ष्म,लघुऔरमध्य मउद्यमोंकेकारबारकीबंदीकेवलएस्की म — तत्स मयप्रिृत्तककसीअन्‍दय विविमेंककसीबातके`
+  line `होतेहुएिीकेन्‍दरी यसरकारककसीऐसे सूक्ष्म,लघुयामध्य मउद्यमद्वारा,जोकंपिीअविवियम, 1956 ( 1956 का 1 )केअिीि`
+  line `रवजस्री कृतकंपिीिहींहै,कारबारबंदकरिे कोसुकरबिािेकीदृवष्‍टट सेइसअविवियमकेप्रारंिकीतारीखसेएकिषडकेिीत रएक स्`
+  line `की मअविसूवितकरसकेर्गी।`
+  line `अध्या य 6 प्र`
+  line कीणड
+  line `26. अविकाररयोंऔरअन्‍दय कमडिाररयोंकीवियुवत — ( 1 )केन्‍दरी यसरकारयाराज्य सरकारऐसेपदिामोंिालेउतिे`
+  line `अविकाररयोंऔरउतिे अन्‍दय कमडिाररयोंको,वजतिेिहइसअविवियमकेप्रयोजिोंकेवलएिीकसमझे,वियुत करसकेर्गीऔरउन्‍दहें`
+  line `इसअविवियमकेअिीिऐसीशवत यांऔरकृत्य सौंपसकेर्गी,जोिहिीकसमझे।`
+  line `( 2 )उपिारा( 1 )केअिीिवियुत अविकारी,इसअविवियमके प्र योजिोंकेवलएआदेशद्वारा,ककसीव्य वत सेऐसेप्ररूप`
+  line में,ऐसीजािकारीदेिेकीअपेिाकरसकेंर्गे,जोविवहतकीजाए।
+  line `27. िारा 8 यािारा 2 2 यािारा 26 केउल्लं घिकेवलएशावस्त — ( 1 )जोकोईिारा 8 कीउपिारा( 1 )यािारा 26 की`
+  line `उपिारा( 2 )मेंअंतर्िडष्‍टट ककसीउपबंिकासाशयउल्लं घि करेर्गायाउल्लं घिकरिेकाप्रयत्ि करेर्गाअथिाउल्लं घिकेवलएदुष्‍टप्र रेण`
+  line `करेर्गा,िह —`
+  line `(क)प्रथमउल्लं घिकीदशामें ऐ सेजुमाडिेसे,जोएकहजाररुपएतककाहोसकेर्गा;और`
+  line `(ख)वद्वतीययापश्िा त् ितीउल्लं घिकीदशामें,ऐ सेजुमाडिेसे,जोएकहजाररुपएसेक मकािहोर्गाककंतुदस`
+  line हजाररुपएतककाहोसकेर्गा,
+  line दंर्िीयहोर्गा।
+  line `( 2 )जहांकोईक्रेतािारा 22 केउपबंिोंकाउल्लं घिकरताहैिहांिहऐसेजुमाडिेसे,जोदसहजाररुपएसेकमकािहीं`
+  line होर्गा,दंर्िीयहोर्गा।
+  line `28. न्‍द या यालयोंकीअविकाररता — ककसीमहािर्गरमवजस्रे टया प्र थमिर्गडमवजस्रे टसेअिरकोईन्‍दया यालयइसअविवियम`
+  line केअिीिदंर्िीयककसीअपरािकावििारणिहींकरेर्गा।
+  line `29. वियमबिािेकीशवत — ( 1 )केन्‍दरी यसरकारइसअविवियमकेउपबंिोंकोकायाड वन्‍दि तकरिेकेवलए,अविसूििाद्वारा,`
+  line वियमबिासकेर्गी।
+obj_root_law_translations_hi_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_11:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-11)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Page 11`)
-  (str content) (str `9
-( 2 )विवशष्‍टट तयाऔ रपूिडर्गामीशवत कीव्या पकतापरप्रवतकूलप्रिािर्ालेवबिा,ऐसेवियमोंमेंविम्ि वलवखतसिीया
-ककन्‍दहीं विषयोंकेवलएउपबंिककयाजासकेर्गा,अथाडत्: —
-(क)बोर्डकेसदस्यों कीपदािवि,ररवत यांिरिेकीरीवतऔरिारा 3 कीउपिारा( 4 )केअिीिबोर्डकेसदस्यों द्व
-ाराकृत्यों केवििडहिमेंअिुसरणकीजािेिालीप्रकक्र या;
-(ख)िारा 6 केअिीिसदस्य - सवििकी शवत यांऔरकृत्य;
-(र्ग)िहरीवत,वजसमेंिारा 14 कीउपिारा( 1 )केअिीिविविप्रशावसतकीजासकेर्गी;
-(घ)िहमािदंर्वजसपरिारा 14 कीउपिारा( 3 )केअिीिरकमें विमोवितकीजासकेंर्गी;
-( ङ )िारा 26 कीउपिारा( 2 )केअिीिदीजािे िालीजािकारीऔरिहप्ररूप,वजसमेंिहदीजाएर्गी; और
-(ि)ऐसाकोईअन्‍दय विषय,वजसेइसअविवियमकेअिीिविवहतककयाजािाहैयाजोविवहतककयाजाए।
-( 3 )िारा 9 केअिीिजारीप्रत्ये कअविसूििाऔर इसिाराकेअिीिकेन्‍दरी यसरकारद्वाराबिायार्गयाप्रत्ये कवियम
-बिाएजािेकेपश्िा त्,यथाशीघ्र,संसद्केप्रत्ये कसदिकेसमि,जबिहऐसीकुलतीसकदिकीअिविकेवलएसत्रमेंहो,जोएक
-सत्रमेंअथिादोयाअविकआिुक्रवमकसत्रोंमेंपूरीहोसकतीहै,रखाजा एर्गाऔरयकदउससत्रकेयापूिोत आिुक्रवमकसत्र केिीक
-बादकेसत्रकेअिसािकेपूिडदोिोंसदिअविसूििायावियमअथिादोिोंमेंकोईपररितडिकरिेकेवलएसहमतहोजाएंया दो िों
-सदिइसबातसेसहमतहोजाएंककिहअविसूििायावियमिहींबिायाजािािावहएतोऐसी अविसूििायावियम,यथावस्थ वत,
-तत्प श् िा त्केिलऐसेपररिर्तडतरूपमेंहीप्रिािीहोर्गायाउसकाकोईप्रिाििहींहोर्गा,तथावप,उसअविसूििायावियमकेऐसे
-पररिर्तडतयाविष्‍टप्र िािहोिेसेपहलेउसकेअिीिकीर्गई ककसीबातकीविविमान्‍दय तापरप्रवतकूलप्रिाििहींपड़े र्ग ा।
-30. वियमबिािेकीराज्य सरकारकीशवत — ( 1 )राज्य सरकारइसअविवियमकेप्रयोजिोंकोकायाडवन्‍दि तकरिेकेवलए,
-अविसूििाद्वारा,वियमबिासकेर्गी।
-( 2 )वि वशष्‍टट ताऔरपूिडर्गामीशवत योंकी व् या पकतापरप्रवतकूलप्रिािर्ालेवबिाऐसेवियममेंविम्ि वल वखतसिीया
-ककन्‍दहीं विषयोंकेवलएउपबंिककयाजासकेर्गा,अथाडत्: —
-(क)सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीसंरििा,सदस्यों कीररवत योंकोिरिेकीरी वतऔरिारा 23
-कीउपिारा( 3 )केअिीिसूक्ष्म औरलघुउद्यमसुक रीकरणपररषद्केसदस्यों द्व ाराअपिेकृत्यों केवििडहिमेंअिुसरणकी
-जािेिालीप्रकक्रया;
-(ख) कोईअन्‍दय विषय,वजसेइस अविवियमकेअिीिविवहतककयाजािाहैयाविवहतककयाजाए।
-( 3 )इसिाराकेअिीिबिायार्गयावियमबिाएजािेकेपश्िा त्,यथाशीघ्र,जहांराज्य वििाि - मंर्लकेदोसदिहैं,िहां प्रत्
-ये कसदिकेसमिऔरजहांराज्य वििाि - मंर्लकाएकस दिहै,िहांउससदिकेसमिरखाजाएर्गा।
-31. करििाइयोंकोदूरकरिेकीशवत — ( 1 )यकदइस अविवियमकेउपबंिोंकोप्रिािीकरिेमेंकोईकरििाईउत्प न्‍द ि होती
-हैतोकेन्‍दरी यसरकार,राजपत्रमेंप्रकावशतआदेशद्वा रा,ऐसेउपबंिकर स केर्गी,जोइसअविवियमकेउपबंिोंसेअसंर्गतिहोंऔर जो
-उसकरििाईकोदूरकरिेकेवलएआिश्य कप्रतीतहों:
-परंतुइसिाराकेअिीिकोईआदेश,इसअविवियमकेप्रारंिकीतारीखसेदोिषडकीसमावप्त केपश्िा त्िहींककया
-जाएर्गा।
-( 2 )इसिाराके अिीिककयार्गयाप्रत्ये कआदेश,ककएजािेकेपश्िा त्,यथाशीघ्र,संसद्केप्रत्ये कसदिकेसमिरखा
-जाएर्गा।
-32. अविवियमकाविरसि — ( 1 )लघुऔरआिुषंवर्गकऔद्योवर्गकउपक्रमोंकोविलंवबतसंदायपरब्या जअविवियम, 1993
-( 1993 का 32 )इसकेद्वाराविरवसतककयाजाताहै।
-( 2 )ऐसेविरसिकेहोतेहुएिी,उपिारा( 1 )केअिीिइसप्रकारविरवसतककएर्गएअविवियमकेअिीिकीर्गईकोईबात
-याकोईकारडिाई,इसअविवियमकेतत्स्था यीउपबंिोंकेअिीिकीर्गईसमझीजाएर्गी।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 11)
+  kind page
+  sectionId pdf-page-11
+  sectionNo (11)
+  orderNo 11
+  title `Page 11`
+  content obj_root_law_translations_hi_sections_11_content
+  footnotes obj_root_law_translations_hi_sections_11_footnotes
+  sourcePage 11
+obj_root_law_translations_hi_sections_11_content:
+  string
+  line 9
+  line `( 2 )विवशष्‍टट तयाऔ रपूिडर्गामीशवत कीव्या पकतापरप्रवतकूलप्रिािर्ालेवबिा,ऐसेवियमोंमेंविम्ि वलवखतसिीया`
+  line `ककन्‍दहीं विषयोंकेवलएउपबंिककयाजासकेर्गा,अथाडत्: —`
+  line `(क)बोर्डकेसदस्यों कीपदािवि,ररवत यांिरिेकीरीवतऔरिारा 3 कीउपिारा( 4 )केअिीिबोर्डकेसदस्यों द्व`
+  line `ाराकृत्यों केवििडहिमेंअिुसरणकीजािेिालीप्रकक्र या;`
+  line `(ख)िारा 6 केअिीिसदस्य - सवििकी शवत यांऔरकृत्य;`
+  line `(र्ग)िहरीवत,वजसमेंिारा 14 कीउपिारा( 1 )केअिीिविविप्रशावसतकीजासकेर्गी;`
+  line `(घ)िहमािदंर्वजसपरिारा 14 कीउपिारा( 3 )केअिीिरकमें विमोवितकीजासकेंर्गी;`
+  line `( ङ )िारा 26 कीउपिारा( 2 )केअिीिदीजािे िालीजािकारीऔरिहप्ररूप,वजसमेंिहदीजाएर्गी; और`
+  line `(ि)ऐसाकोईअन्‍दय विषय,वजसेइसअविवियमकेअिीिविवहतककयाजािाहैयाजोविवहतककयाजाए।`
+  line `( 3 )िारा 9 केअिीिजारीप्रत्ये कअविसूििाऔर इसिाराकेअिीिकेन्‍दरी यसरकारद्वाराबिायार्गयाप्रत्ये कवियम`
+  line `बिाएजािेकेपश्िा त्,यथाशीघ्र,संसद्केप्रत्ये कसदिकेसमि,जबिहऐसीकुलतीसकदिकीअिविकेवलएसत्रमेंहो,जोएक`
+  line `सत्रमेंअथिादोयाअविकआिुक्रवमकसत्रोंमेंपूरीहोसकतीहै,रखाजा एर्गाऔरयकदउससत्रकेयापूिोत आिुक्रवमकसत्र केिीक`
+  line `बादकेसत्रकेअिसािकेपूिडदोिोंसदिअविसूििायावियमअथिादोिोंमेंकोईपररितडिकरिेकेवलएसहमतहोजाएंया दो िों`
+  line `सदिइसबातसेसहमतहोजाएंककिहअविसूििायावियमिहींबिायाजािािावहएतोऐसी अविसूििायावियम,यथावस्थ वत,`
+  line `तत्प श् िा त्केिलऐसेपररिर्तडतरूपमेंहीप्रिािीहोर्गायाउसकाकोईप्रिाििहींहोर्गा,तथावप,उसअविसूििायावियमकेऐसे`
+  line `पररिर्तडतयाविष्‍टप्र िािहोिेसेपहलेउसकेअिीिकीर्गई ककसीबातकीविविमान्‍दय तापरप्रवतकूलप्रिाििहींपड़े र्ग ा।`
+  line `30. वियमबिािेकीराज्य सरकारकीशवत — ( 1 )राज्य सरकारइसअविवियमकेप्रयोजिोंकोकायाडवन्‍दि तकरिेकेवलए,`
+  line अविसूििाद्वारा,वियमबिासकेर्गी।
+  line `( 2 )वि वशष्‍टट ताऔरपूिडर्गामीशवत योंकी व् या पकतापरप्रवतकूलप्रिािर्ालेवबिाऐसेवियममेंविम्ि वल वखतसिीया`
+  line `ककन्‍दहीं विषयोंकेवलएउपबंिककयाजासकेर्गा,अथाडत्: —`
+  line `(क)सूक्ष्म औरलघुउद्यमसुकरीकरणपररषद्कीसंरििा,सदस्यों कीररवत योंकोिरिेकीरी वतऔरिारा 23`
+  line `कीउपिारा( 3 )केअिीिसूक्ष्म औरलघुउद्यमसुक रीकरणपररषद्केसदस्यों द्व ाराअपिेकृत्यों केवििडहिमेंअिुसरणकी`
+  line जािेिालीप्रकक्रया;
+  line `(ख) कोईअन्‍दय विषय,वजसेइस अविवियमकेअिीिविवहतककयाजािाहैयाविवहतककयाजाए।`
+  line `( 3 )इसिाराकेअिीिबिायार्गयावियमबिाएजािेकेपश्िा त्,यथाशीघ्र,जहांराज्य वििाि - मंर्लकेदोसदिहैं,िहां प्रत्`
+  line `ये कसदिकेसमिऔरजहांराज्य वििाि - मंर्लकाएकस दिहै,िहांउससदिकेसमिरखाजाएर्गा।`
+  line `31. करििाइयोंकोदूरकरिेकीशवत — ( 1 )यकदइस अविवियमकेउपबंिोंकोप्रिािीकरिेमेंकोईकरििाईउत्प न्‍द ि होती`
+  line `हैतोकेन्‍दरी यसरकार,राजपत्रमेंप्रकावशतआदेशद्वा रा,ऐसेउपबंिकर स केर्गी,जोइसअविवियमकेउपबंिोंसेअसंर्गतिहोंऔर जो`
+  line `उसकरििाईकोदूरकरिेकेवलएआिश्य कप्रतीतहों:`
+  line `परंतुइसिाराकेअिीिकोईआदेश,इसअविवियमकेप्रारंिकीतारीखसेदोिषडकीसमावप्त केपश्िा त्िहींककया`
+  line जाएर्गा।
+  line `( 2 )इसिाराके अिीिककयार्गयाप्रत्ये कआदेश,ककएजािेकेपश्िा त्,यथाशीघ्र,संसद्केप्रत्ये कसदिकेसमिरखा`
+  line जाएर्गा।
+  line `32. अविवियमकाविरसि — ( 1 )लघुऔरआिुषंवर्गकऔद्योवर्गकउपक्रमोंकोविलंवबतसंदायपरब्या जअविवियम, 1993`
+  line `( 1993 का 32 )इसकेद्वाराविरवसतककयाजाताहै।`
+  line `( 2 )ऐसेविरसिकेहोतेहुएिी,उपिारा( 1 )केअिीिइसप्रकारविरवसतककएर्गएअविवियमकेअिीिकीर्गईकोईबात`
+  line `याकोईकारडिाई,इसअविवियमकेतत्स्था यीउपबंिोंकेअिीिकीर्गईसमझीजाएर्गी।`
+  line ______
+obj_root_law_translations_hi_sections_11_footnotes:
+  string
+  line

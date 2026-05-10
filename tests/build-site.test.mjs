@@ -549,7 +549,9 @@ test("fetch site build writes completed law cache and progress as Lino", async (
     const cacheNotation = await readFile(cachePath, "utf8");
     const cache = await readDataFile(cachePath);
     const progress = await readDataFile(progressFile);
-    assert.match(cacheNotation, /^obj_root:\n  object\n/);
+    assert.match(cacheNotation, /^obj_root:\n  cacheVersion 1\n/);
+    assert.match(cacheNotation, /^  completeFetch true$/m);
+    assert.doesNotMatch(cacheNotation, /^obj_root:\n  object\n/);
     assert.equal(cache.completeFetch, true);
     assert.equal(cache.law.slug, "live-cache-act");
     assert.equal(progress.status, "complete");

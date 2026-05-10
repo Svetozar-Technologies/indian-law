@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:44:37.719Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1570`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 10)
-  (str totalSections) (int 10)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:44:37.719Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1570`
+  completeFetch true
+  maxSections null
+  sectionCount 10
+  totalSections 10
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-prisoners-attendance-in-courts-act-1955)
-  (str handle) (str 1570)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Prisoners (Attendance in Courts) Act, 1955`)
-  (str actNumber) (str 32)
-  (str enactmentDate) (str 1955-09-20)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1570`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `बन्‍दी (न्‍यायालयों में उपस्‍थिति) अधिनियम, 1955`)
-  (str actYear) (str 1955)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Home`)
-  (str longTitle) (str `An Act to provide for the attendance in courts of persons confined in prisons for obtaining their evidence or for answering a criminal charge.`)
-  (str enforcementDate) (str 01-01-1956)
-  (str notification) (str `1st January, 1956, vide notification No. S.R.O. 3447, dated 8th November, 1955, see Gazette of India, Extraordinary, Part II, sec. 3.`)
-  (str fetchedAt) (str `2026-05-08T20:39:09.790Z`)
-  (str translations) obj_root_law_translations
+  slug the-prisoners-attendance-in-courts-act-1955
+  handle (1570)
+  collectionHandle 123456789/1362
+  title `The Prisoners (Attendance in Courts) Act, 1955`
+  actNumber (32)
+  enactmentDate 1955-09-20
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1570`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `बन्‍दी (न्‍यायालयों में उपस्‍थिति) अधिनियम, 1955`
+  actYear (1955)
+  ministry `Ministry of Home Affairs`
+  department `Department of Home`
+  longTitle `An Act to provide for the attendance in courts of persons confined in prisons for obtaining their evidence or for answering a criminal charge.`
+  enforcementDate 01-01-1956
+  notification `1st January, 1956, vide notification No. S.R.O. 3447, dated 8th November, 1955, see Gazette of India, Extraordinary, Part II, sec. 3.`
+  fetchedAt `2026-05-08T20:39:09.790Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_prisoners_attendance_in_courts_act_1955
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1570`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1570`
 obj_root_law_sources_en_the_prisoners_attendance_in_courts_act_1955:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1570/1/AAA1955____33.pdf`)
-  (str title) (str `The Prisoners (Attendance in Courts) Act, 1955`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1570/1/AAA1955____33.pdf`
+  title `The Prisoners (Attendance in Courts) Act, 1955`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1955
 obj_root_law_sources_hi_1955:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1570/3/H1955-32.pdf`)
-  (str title) (str `बन्‍दी (न्‍यायालयों में उपस्‍थिति) अधिनियम, 1955`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1570/3/H1955-32.pdf`
+  title `बन्‍दी (न्‍यायालयों में उपस्‍थिति) अधिनियम, 1955`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -72,420 +62,484 @@ obj_root_law_sections:
   obj_root_law_sections_9
   obj_root_law_sections_10
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 47517)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Prisoners (Attendance in
-Courts) Act, 1955.
-
-(2) It extends to the whole of India except the State of Jammu and Kashmir*.
-
-(3) It shall come into force on such date^1
-as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. 1st January, 1956, vide notification No. S.R.O. 3447, dated 8th November, 1955, see Gazette of India, Extraordinary,
-Part II, sec. 3.
-
-*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu
-and Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47517&sectionno=1&orderno=1&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47517)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47517&sectionno=1&orderno=1&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Prisoners (Attendance in`
+  line `Courts) Act, 1955.`
+  line
+  line `(2) It extends to the whole of India except the State of Jammu and Kashmir*.`
+  line
+  line `(3) It shall come into force on such date^1`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. 1st January, 1956, vide notification No. S.R.O. 3447, dated 8th November, 1955, see Gazette of India, Extraordinary,`
+  line `Part II, sec. 3.`
+  line
+  line `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu`
+  line `and Kashmir and the Union territory of Ladakh.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 47518)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act,—
-
-(a) "confinement in a prison"—references to confinement in a prison, by whatever form of words,
-include references to confinement or detention in a prison under any law providing for preventive
-detention;
-
-(b) "prison" includes—
-
-(i) any place which has been declared by the State Government, by general or special order,
-to be a subsidiary jail; and
-
-(ii) any reformatory, Borstal institution or other institution of a like nature;
-
-^1[(c) "State Government", in relation to a Union territory, means the Administrator thereof.]`)
-  (str footnotes) (str `1. Subs. by Adaptation of Laws (No. 3) Order, 1956, for clause (c) (w.e.f. 1-11-56).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47518&sectionno=2&orderno=2&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47518)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes `1. Subs. by Adaptation of Laws (No. 3) Order, 1956, for clause (c) (w.e.f. 1-11-56).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47518&sectionno=2&orderno=2&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_2_content:
+  string
+  line `In this Act,—`
+  line
+  line `(a) "confinement in a prison"—references to confinement in a prison, by whatever form of words,`
+  line `include references to confinement or detention in a prison under any law providing for preventive`
+  line detention;
+  line
+  line `(b) "prison" includes—`
+  line
+  line `(i) any place which has been declared by the State Government, by general or special order,`
+  line `to be a subsidiary jail; and`
+  line
+  line `(ii) any reformatory, Borstal institution or other institution of a like nature;`
+  line
+  line `^1[(c) "State Government", in relation to a Union territory, means the Administrator thereof.]`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 47519)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Power of courts to require appearance of prisoners to give evidence or answer a charge.`)
-  (str content) (str `(1)
-Any civil or criminal court may, if it thinks that the evidence of any person confined in any prison is
-material in any matter pending before it, make an order in the form set forth in the First Schedule,
-directed to the officer in charge of the prison:
-
-Provided that no civil court shall make an order under this sub-section in respect of a person confined
-in a prison situated outside the State in which the court is held.
-
-(2) Any criminal court may, if a charge of an offence against a person confined in any prison is made
-or pending before it, make an order in the form set forth in the Second Schedule, directed to the officer in
-charge of the prison.
-
-(3) No order made under this section by a civil court which is subordinate to a district judge shall
-have effect unless it is countersigned by the district judge; and no order made under this section by a
-criminal court which is inferior to the court of a magistrate of the first class shall have effect unless it is
-countersigned by the district magistrate to whom that court is subordinate or within the local limits of
-whose jurisdiction that court is situate.
-
-(4) For the purposes of sub-section (3), a court of small causes outside a presidency town or the city
-of Hyderabad shall be deemed to be subordinate to the district judge within the local limits of whose
-jurisdiction such court is situate.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47519&sectionno=3&orderno=3&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47519)
+  sectionNo (3)
+  orderNo 3
+  title `Power of courts to require appearance of prisoners to give evidence or answer a charge.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47519&sectionno=3&orderno=3&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_3_content:
+  string
+  line `(1)`
+  line `Any civil or criminal court may, if it thinks that the evidence of any person confined in any prison is`
+  line `material in any matter pending before it, make an order in the form set forth in the First Schedule,`
+  line `directed to the officer in charge of the prison:`
+  line
+  line `Provided that no civil court shall make an order under this sub-section in respect of a person confined`
+  line `in a prison situated outside the State in which the court is held.`
+  line
+  line `(2) Any criminal court may, if a charge of an offence against a person confined in any prison is made`
+  line `or pending before it, make an order in the form set forth in the Second Schedule, directed to the officer in`
+  line `charge of the prison.`
+  line
+  line `(3) No order made under this section by a civil court which is subordinate to a district judge shall`
+  line `have effect unless it is countersigned by the district judge; and no order made under this section by a`
+  line `criminal court which is inferior to the court of a magistrate of the first class shall have effect unless it is`
+  line `countersigned by the district magistrate to whom that court is subordinate or within the local limits of`
+  line `whose jurisdiction that court is situate.`
+  line
+  line `(4) For the purposes of sub-section (3), a court of small causes outside a presidency town or the city`
+  line `of Hyderabad shall be deemed to be subordinate to the district judge within the local limits of whose`
+  line `jurisdiction such court is situate.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 47520)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Power of State Government to exempt certain persons from operation of section 3.`)
-  (str content) (str `(1) The
-State Government may, having regard to the matters specified in sub-section (2), by general or special
-order, direct that any person or class of persons shall not be removed from the prison in which he or they
-may be confined, and thereupon so long as any such order remains in force, the provisions of section 3
-shall not apply to such person or class of persons.
-
-(2) Before making an order under sub-section (1), the State Government shall have regard to the
-following matters, namely:—
-
-(a) the nature of the offence for which or the grounds on which the confinement has been ordered
-in respect of the person or class of persons;
-
-(b) the likelihood of the disturbance of public order if the person or class of persons is allowed to
-be removed from the prison;
-
-(c) the public interest, generally.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47520&sectionno=4&orderno=4&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47520)
+  sectionNo (4)
+  orderNo 4
+  title `Power of State Government to exempt certain persons from operation of section 3.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47520&sectionno=4&orderno=4&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_4_content:
+  string
+  line `(1) The`
+  line `State Government may, having regard to the matters specified in sub-section (2), by general or special`
+  line `order, direct that any person or class of persons shall not be removed from the prison in which he or they`
+  line `may be confined, and thereupon so long as any such order remains in force, the provisions of section 3`
+  line `shall not apply to such person or class of persons.`
+  line
+  line `(2) Before making an order under sub-section (1), the State Government shall have regard to the`
+  line `following matters, namely:—`
+  line
+  line `(a) the nature of the offence for which or the grounds on which the confinement has been ordered`
+  line `in respect of the person or class of persons;`
+  line
+  line `(b) the likelihood of the disturbance of public order if the person or class of persons is allowed to`
+  line `be removed from the prison;`
+  line
+  line `(c) the public interest, generally.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 47521)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Prisoners to be brought up.`)
-  (str content) (str `Upon delivery of any order made under section 3 to the officer in
-charge of the prison in which the person named therein is confined, that officer shall cause him to be
-taken to the court in which his attendance is required, so as to be present in the court at the time of such
-order mentioned, and shall cause him to be detained in custody in or near the court until he has been
-examined or until the judge or presiding officer of the court authorises him to be taken back to the prison
-in which he was confined.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47521&sectionno=5&orderno=5&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47521)
+  sectionNo (5)
+  orderNo 5
+  title `Prisoners to be brought up.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47521&sectionno=5&orderno=5&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_5_content:
+  string
+  line `Upon delivery of any order made under section 3 to the officer in`
+  line `charge of the prison in which the person named therein is confined, that officer shall cause him to be`
+  line `taken to the court in which his attendance is required, so as to be present in the court at the time of such`
+  line `order mentioned, and shall cause him to be detained in custody in or near the court until he has been`
+  line `examined or until the judge or presiding officer of the court authorises him to be taken back to the prison`
+  line `in which he was confined.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 47522)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Officer in charge of prison when to abstain from carrying out order.`)
-  (str content) (str `Where the person in
-respect of whom an order is made under section 3—
-
-(a) is, in accordance with the rules made in this behalf, declared to be unfit to be removed from
-the prison where he is confined by reason of sickness or other infirmity; or
-
-(b) is under committal for trial; or
-
-(c) is under remand pending trial or pending a preliminary investigation; or
-
-(d) is in custody for a period which would expire before the expiration of the time required for
-removing him under this Act and for taking him back to the prison in which he is confined,
-
-the officer in charge of the prison shall abstain from carrying out the order and shall send to the court
-from which the order had been issued a statement of reasons for so abstaining:
-
-Provided that such officer as aforesaid shall not so obstain where—
-
-(i) the order has been made by a criminal court; and
-
-(ii) the person named in the order is confined under committal for trial or under remand pending
-trial or pending a preliminary investigation and is not declared in accordance with the rules made in
-this behalf to be unfit to be removed from the prison where he is confined by reason of sickness or
-other infirmity; and
-
-(iii) the place, where the evidence of the person named in the order is required, is not more than
-five miles distant from the prison in which he is confined.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47522&sectionno=6&orderno=6&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47522)
+  sectionNo (6)
+  orderNo 6
+  title `Officer in charge of prison when to abstain from carrying out order.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47522&sectionno=6&orderno=6&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_6_content:
+  string
+  line `Where the person in`
+  line `respect of whom an order is made under section 3—`
+  line
+  line `(a) is, in accordance with the rules made in this behalf, declared to be unfit to be removed from`
+  line `the prison where he is confined by reason of sickness or other infirmity; or`
+  line
+  line `(b) is under committal for trial; or`
+  line
+  line `(c) is under remand pending trial or pending a preliminary investigation; or`
+  line
+  line `(d) is in custody for a period which would expire before the expiration of the time required for`
+  line `removing him under this Act and for taking him back to the prison in which he is confined,`
+  line
+  line `the officer in charge of the prison shall abstain from carrying out the order and shall send to the court`
+  line `from which the order had been issued a statement of reasons for so abstaining:`
+  line
+  line `Provided that such officer as aforesaid shall not so obstain where—`
+  line
+  line `(i) the order has been made by a criminal court; and`
+  line
+  line `(ii) the person named in the order is confined under committal for trial or under remand pending`
+  line `trial or pending a preliminary investigation and is not declared in accordance with the rules made in`
+  line `this behalf to be unfit to be removed from the prison where he is confined by reason of sickness or`
+  line `other infirmity; and`
+  line
+  line `(iii) the place, where the evidence of the person named in the order is required, is not more than`
+  line `five miles distant from the prison in which he is confined.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 47523)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Commissions for examination of prisoners.`)
-  (str content) (str `In any of the following cases, that is to say,—
-
-(a) where it appears to any civil court that the evidence of a person confined in a prison is
-material in any matter pending before it and that the attendance of such person in court cannot be
-secured by reason of the provisions of section 6 or of an order under section 4 or of the district judge
-declining under sub-section (3) of section 3 to counter sign an order for removal; or
-
-(b) where it appears to any civil court as aforesaid that the evidence of a person confined in a
-prison which is situated outside the State in which, or is more than fifty miles distant from the place at
-which, such court is held is material in any such matter,
-
-the court may, if it thinks fit, issue a commission under the provisions of the Code of Civil
-Procedure, 1908 (5 of 1908), for the examination of the person in the prison in which he is confined.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47523&sectionno=7&orderno=7&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47523)
+  sectionNo (7)
+  orderNo 7
+  title `Commissions for examination of prisoners.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47523&sectionno=7&orderno=7&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_7_content:
+  string
+  line `In any of the following cases, that is to say,—`
+  line
+  line `(a) where it appears to any civil court that the evidence of a person confined in a prison is`
+  line `material in any matter pending before it and that the attendance of such person in court cannot be`
+  line `secured by reason of the provisions of section 6 or of an order under section 4 or of the district judge`
+  line `declining under sub-section (3) of section 3 to counter sign an order for removal; or`
+  line
+  line `(b) where it appears to any civil court as aforesaid that the evidence of a person confined in a`
+  line `prison which is situated outside the State in which, or is more than fifty miles distant from the place at`
+  line `which, such court is held is material in any such matter,`
+  line
+  line `the court may, if it thinks fit, issue a commission under the provisions of the Code of Civil`
+  line `Procedure, 1908 (5 of 1908), for the examination of the person in the prison in which he is confined.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 47524)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Certain provisions of the Code of Criminal Procedure and the Code of Civil Procedure to apply.`)
-  (str content) (str `Save as otherwise provided in this Act and any rules made thereunder, the provisions of the
-Code of Civil Procedure, 1908 (5 of 1908), and the Code of Criminal Procedure, 1898 (5 of 1898), as the
-case may be, shall, so far as may be, apply in relation to the examination on commission or otherwise of
-any person confined in a prison as they apply in relation to the examination on commission of any other
-person.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47524&sectionno=8&orderno=8&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47524)
+  sectionNo (8)
+  orderNo 8
+  title `Certain provisions of the Code of Criminal Procedure and the Code of Civil Procedure to apply.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47524&sectionno=8&orderno=8&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_8_content:
+  string
+  line `Save as otherwise provided in this Act and any rules made thereunder, the provisions of the`
+  line `Code of Civil Procedure, 1908 (5 of 1908), and the Code of Criminal Procedure, 1898 (5 of 1898), as the`
+  line `case may be, shall, so far as may be, apply in relation to the examination on commission or otherwise of`
+  line `any person confined in a prison as they apply in relation to the examination on commission of any other`
+  line person.
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 47525)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The State Government may, by notification in the Official Gazette,
-make rules for carrying out the purposes of this Act.
-
-(2) In particular and without prejudice to the generality of the foregoing power, such rules may
-provide for—
-
-(a) the procedure for obtaining the countersignature of an order made under section 3;
-
-(b) the authority by whom and the manner in which a declaration that a person confined in prison
-is unfit to be removed therefrom, may be made;
-
-(c) the conditions, including payment of costs and charges, subject to which an order made under
-section 3 by a civil court may be executed;
-
-(d) the manner in which a process directed against any person confined in a prison issued from
-any court may be served upon him;
-
-(e) the escort of persons confined in a prison to and from courts in which their attendance is
-required and for their custody during the period of such attendance;
-
-(f) the amount to be allowed for the costs and charges of such escort; and
-
-(g) the guidance of officers in all other matters connected with the enforcement of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47525&sectionno=9&orderno=9&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47525)
+  sectionNo (9)
+  orderNo 9
+  title `Power to make rules.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47525&sectionno=9&orderno=9&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_9_content:
+  string
+  line `(1) The State Government may, by notification in the Official Gazette,`
+  line `make rules for carrying out the purposes of this Act.`
+  line
+  line `(2) In particular and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for—`
+  line
+  line `(a) the procedure for obtaining the countersignature of an order made under section 3;`
+  line
+  line `(b) the authority by whom and the manner in which a declaration that a person confined in prison`
+  line `is unfit to be removed therefrom, may be made;`
+  line
+  line `(c) the conditions, including payment of costs and charges, subject to which an order made under`
+  line `section 3 by a civil court may be executed;`
+  line
+  line `(d) the manner in which a process directed against any person confined in a prison issued from`
+  line `any court may be served upon him;`
+  line
+  line `(e) the escort of persons confined in a prison to and from courts in which their attendance is`
+  line `required and for their custody during the period of such attendance;`
+  line
+  line `(f) the amount to be allowed for the costs and charges of such escort; and`
+  line
+  line `(g) the guidance of officers in all other matters connected with the enforcement of this Act.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 47526)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str Repeal.)
-  (str content) (str `(1) Part IX of the Prisoners Act, 1900 (3 of 1900) and the First and Second Schedules
-to the said Act are hereby repealed.
-
-(2) If immediately before the commencement of this Act, there is in force in any Part B State to which
-this Act extends any law corresponding to the provisions of this Act, that law shall, in so far as it relates
-to matters dealt within this Act, stand repealed on such commencement:
-
-Provided that anything done or any action taken under any such law, shall be deemed to have been
-done or taken under the corresponding provisions of this Act and shall continue to have effect
-accordingly, unless and until superseded by anything done or any action taken under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47526&sectionno=10&orderno=10&orgactid=AC_CEN_5_40_00003_195532_1517807319528)
+  sectionId (47526)
+  sectionNo (10)
+  orderNo 10
+  title Repeal.
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00003_195532_1517807319528&sectionId=47526&sectionno=10&orderno=10&orgactid=AC_CEN_5_40_00003_195532_1517807319528
+obj_root_law_sections_10_content:
+  string
+  line `(1) Part IX of the Prisoners Act, 1900 (3 of 1900) and the First and Second Schedules`
+  line `to the said Act are hereby repealed.`
+  line
+  line `(2) If immediately before the commencement of this Act, there is in force in any Part B State to which`
+  line `this Act extends any law corresponding to the provisions of this Act, that law shall, in so far as it relates`
+  line `to matters dealt within this Act, stand repealed on such commencement:`
+  line
+  line `Provided that anything done or any action taken under any such law, shall be deemed to have been`
+  line `done or taken under the corresponding provisions of this Act and shall continue to have effect`
+  line `accordingly, unless and until superseded by anything done or any action taken under this Act.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `बन्‍दी (न्‍यायालयों में उपस्‍थिति) अधिनियम, 1955`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1570/3/H1955-32.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:44:36.617Z`)
-  (str pageCount) (int 4)
-  (str sections) obj_root_law_translations_hi_sections
+  title `बन्‍दी (न्‍यायालयों में उपस्‍थिति) अधिनियम, 1955`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1570/3/H1955-32.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:44:36.617Z`
+  pageCount 4
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
   obj_root_law_translations_hi_sections_4
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `बन्दी ( न् या यालयोंमेंउपस्ि स् ि ) अस्िस्ियम, 1955
-(1955 काअस्िस्ियमसंखयां क 32 )
-[20 स् सिम्ब र, 1955 ]
-कारागारोंमेंपरररुद्धव्य स् ि योंकी,उिकासाक्ष्य प्र ाप्ि
-करिेयाआपरास्िकआरोपकाउत्तरदेिे
-केस्लए,न्या यालयोंमेंउपस्ि स् ि
-काउपबन्ि करिेकेस्ल ए
-अस्िस्ियम
-भारणगणराज्य के छठेवर्ष मेंसंसद्द्वारास्िम्ि स् लस्ििरूपमेंयहअस्िस्ियस्मि ककयाजािाहै: ––
-1. संस्िप्ि िाम,स्विा रऔरप्रारम्भ ाा –– (1) इसअस्िस्ियमकासंस्िप्ि िामबन्दी ( न् या यालयोंमेंउपस्ि स् ि ) अस्िस्ियम,
-1955 है।
-(2) इसकास्विा र,जम्मू - कश्मी रराज्य केस्सवाय *,सम्पू णषभारिपरहै।
-(3) यहउसिारीि 1 कोप्रवृत्तहोगा,स्जसेकेन्री यसरकार,राजपत्रमेंअस्िसूचिाद्वारा,स्ियिकरे।
-2. पररभार्ाएं –– इसअस्िस्ियममें, ––
-( क ) “ कारागारमेंपरररोि ” –– ककसीकारागारमेंपरररोिकेप्रस्िस्िदे शोंकेअन्ि गषि,चाहे वे ककन्हींभीशब्दों में व्
-य ि ककएगएहों,स्िवारकस्िरोिकाउपबन्ि करिेवालीककसीस्वस्िकेअिीिककसीकारागारमेंपरररोियास्िरोिके प्रस्
-िस्िदेशभीहै;
-( ि ) “ कारागार ” केअन्ि गषिस्िम्ि स् लस्ििभीहैं, ––
-(i) ऐसािा ि,स्जसेराज्य सरकारिे,सािारणयास्वशेर्आदेशद्वारा,उपकारागारघोस्र्िककयाहै;
-और
-(ii) कोईसुिारालय,बोष लसंिा याउसीप्रकारकीअन्य संिा;
-2 [( ग ) “ राज्य सरकार ” से,ककसीसंघराज्य िेत्रकेसम्ब न् ि में,उसकाप्रशासकअस्भप्रेिहै। ]
-3. साक्ष्य देिे याआरोपकाउत्तरदेिेकेस्लएबस्न्द योंकोहास्जरकरिेकीअपेिाकरिेकीन्या यालयकीशस्ि –– (1) यकद
-कोईस्सस्वलयादांस्िकन्या यालययहसमझिाहैककककसीकारागारमेंपरररुद्धककसीव्य स् ि कासाक्ष्य उसन्या यालयकेसमि
-लस्म्ब िककसीमामलेमेंिास्वव कहै िोवहप्रिमअिुसूचीमेंकदएगएप्ररूपमें एकआदेशकरेगाजोकारागारकेभार सािकअस्िकारी
-कोस्िकदष् होगा:
-परन्िु कोईभीस्सस्वलन्या यालयइसउपिाराकेअिीिकोईआदेशउसराज्य के,स्जसमेंन्या यालय लगिाहै,बाहरस्ि ि
-ककसीकारागारमेंपरररुद्धककसीव्य स् ि केस्लएिहींकरेगा।
-(2) यकदककसीकारागारमेंपरररुद्धव्य स् ि केस्वरुद्धककसीदांस्िकन्या यालयमेंककसीअपरािकाआरोपलगा यागयाहैया
-लस्म्ब िहैिोवहन्या यालयस्द्विीयअिुसूचीमेंकदएगएप्ररूपमेंएकआदेशकरेगाजोउसका रागारकेभारसािकअस्िकारीको स्
-ि कद ष् होगा।
-(3) ककसीऐसेस्सस्वलन्या यालयद्वारा,जोककसीस्जलान्या यािीशकेअिीिि हो,इसिाराकेअिीिकदयागयाकोईभी
-आदेशिबिकप्रभावीिहींहोगाजबिकककउसपरउसस्जलान्या यािीशिेप्रस्िहिा िरिकरकदएहों;औरककसीऐसेदास्ि क न्
-या यालयद्वारा,जोप्रिमवगषमस्जरे केन्या यालयसेअवरहै,इसिाराकेअिीिकदयागयाकोईभीआदेशिबिकप्रभावीिहीं
-होगाजबिकककउसपरउसस्जलामस्जरे िेप्रस्िहिा िरिकरकदएहोंस्जसकेअिीिि वहन्या यालयहैयास्जसकी
-अस्िकाररिाकीिा िीयसीमाओंकेभीि रवहन्या यालयस्ि िहै।
-(4) ककसीप्रेस्सिेन्सी िगरकेया हैदराबादशहरकेबाहरकाकोईलघु वादन्या यालय,उपिारा (3) केप्रयोजिोंकेस्लए,उस स्
-जलान्या यािीशकेअिीिि समझाजाएगास्जसकीअस्िकाररिाकीसीमाओंकेभीिरवहन्या यालयस्ि िहै।
-4. कस्िपयव्य स् ि योंकोिारा 3 केप्रविषिसेछूदेिेकीराज्य सरकारकीशस्ि –– (1) राज्य सरकार,उपिारा (2) में स्
-वस्िर्दषष् मामलोंकोध्या िमेंरििेहुए,सािारणयास्वशेर्आदेशद्वारा,यहस्िदेशदेसकेगीकककोईभीव्य स् ि याव्य स् ि योंका
-* इस अस्िस्ियमकोजम्मू - कश्मीरसंघराज्यिेत्रऔरलद्दािसंघराज्यिेत्रमेंअस्ि सूचिासं.सा.का. 3912 (अ),िारीि, 30 अूबर, 2019 सेलागूककयागया।
-1 1 जिवरी, 1956,देस्िएअस्िसूचिासं ० का ० स् ि ० आ ० 3447,िारीि 8 िवंबर, 1955,भारिकाराजपत्र, 1955,भाग 2,िि 3,पृ ० 2229.
-2 स् वस्िअिुकूलि ( सं ० 3) आदेश, 1956 द्व ारािंि ( ग ) केिा िपरप्र स् ििा स् पि।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `बन्दी ( न् या यालयोंमेंउपस्ि स् ि ) अस्िस्ियम, 1955`
+  line `(1955 काअस्िस्ियमसंखयां क 32 )`
+  line `[20 स् सिम्ब र, 1955 ]`
+  line `कारागारोंमेंपरररुद्धव्य स् ि योंकी,उिकासाक्ष्य प्र ाप्ि`
+  line करिेयाआपरास्िकआरोपकाउत्तरदेिे
+  line `केस्लए,न्या यालयोंमेंउपस्ि स् ि`
+  line `काउपबन्ि करिेकेस्ल ए`
+  line अस्िस्ियम
+  line `भारणगणराज्य के छठेवर्ष मेंसंसद्द्वारास्िम्ि स् लस्ििरूपमेंयहअस्िस्ियस्मि ककयाजािाहै: ––`
+  line `1. संस्िप्ि िाम,स्विा रऔरप्रारम्भ ाा –– (1) इसअस्िस्ियमकासंस्िप्ि िामबन्दी ( न् या यालयोंमेंउपस्ि स् ि ) अस्िस्ियम,`
+  line `1955 है।`
+  line `(2) इसकास्विा र,जम्मू - कश्मी रराज्य केस्सवाय *,सम्पू णषभारिपरहै।`
+  line `(3) यहउसिारीि 1 कोप्रवृत्तहोगा,स्जसेकेन्री यसरकार,राजपत्रमेंअस्िसूचिाद्वारा,स्ियिकरे।`
+  line `2. पररभार्ाएं –– इसअस्िस्ियममें, ––`
+  line `( क ) “ कारागारमेंपरररोि ” –– ककसीकारागारमेंपरररोिकेप्रस्िस्िदे शोंकेअन्ि गषि,चाहे वे ककन्हींभीशब्दों में व्`
+  line `य ि ककएगएहों,स्िवारकस्िरोिकाउपबन्ि करिेवालीककसीस्वस्िकेअिीिककसीकारागारमेंपरररोियास्िरोिके प्रस्`
+  line िस्िदेशभीहै;
+  line `( ि ) “ कारागार ” केअन्ि गषिस्िम्ि स् लस्ििभीहैं, ––`
+  line `(i) ऐसािा ि,स्जसेराज्य सरकारिे,सािारणयास्वशेर्आदेशद्वारा,उपकारागारघोस्र्िककयाहै;`
+  line और
+  line `(ii) कोईसुिारालय,बोष लसंिा याउसीप्रकारकीअन्य संिा;`
+  line `2 [( ग ) “ राज्य सरकार ” से,ककसीसंघराज्य िेत्रकेसम्ब न् ि में,उसकाप्रशासकअस्भप्रेिहै। ]`
+  line `3. साक्ष्य देिे याआरोपकाउत्तरदेिेकेस्लएबस्न्द योंकोहास्जरकरिेकीअपेिाकरिेकीन्या यालयकीशस्ि –– (1) यकद`
+  line `कोईस्सस्वलयादांस्िकन्या यालययहसमझिाहैककककसीकारागारमेंपरररुद्धककसीव्य स् ि कासाक्ष्य उसन्या यालयकेसमि`
+  line `लस्म्ब िककसीमामलेमेंिास्वव कहै िोवहप्रिमअिुसूचीमेंकदएगएप्ररूपमें एकआदेशकरेगाजोकारागारकेभार सािकअस्िकारी`
+  line `कोस्िकदष् होगा:`
+  line `परन्िु कोईभीस्सस्वलन्या यालयइसउपिाराकेअिीिकोईआदेशउसराज्य के,स्जसमेंन्या यालय लगिाहै,बाहरस्ि ि`
+  line `ककसीकारागारमेंपरररुद्धककसीव्य स् ि केस्लएिहींकरेगा।`
+  line `(2) यकदककसीकारागारमेंपरररुद्धव्य स् ि केस्वरुद्धककसीदांस्िकन्या यालयमेंककसीअपरािकाआरोपलगा यागयाहैया`
+  line `लस्म्ब िहैिोवहन्या यालयस्द्विीयअिुसूचीमेंकदएगएप्ररूपमेंएकआदेशकरेगाजोउसका रागारकेभारसािकअस्िकारीको स्`
+  line `ि कद ष् होगा।`
+  line `(3) ककसीऐसेस्सस्वलन्या यालयद्वारा,जोककसीस्जलान्या यािीशकेअिीिि हो,इसिाराकेअिीिकदयागयाकोईभी`
+  line `आदेशिबिकप्रभावीिहींहोगाजबिकककउसपरउसस्जलान्या यािीशिेप्रस्िहिा िरिकरकदएहों;औरककसीऐसेदास्ि क न्`
+  line `या यालयद्वारा,जोप्रिमवगषमस्जरे केन्या यालयसेअवरहै,इसिाराकेअिीिकदयागयाकोईभीआदेशिबिकप्रभावीिहीं`
+  line `होगाजबिकककउसपरउसस्जलामस्जरे िेप्रस्िहिा िरिकरकदएहोंस्जसकेअिीिि वहन्या यालयहैयास्जसकी`
+  line `अस्िकाररिाकीिा िीयसीमाओंकेभीि रवहन्या यालयस्ि िहै।`
+  line `(4) ककसीप्रेस्सिेन्सी िगरकेया हैदराबादशहरकेबाहरकाकोईलघु वादन्या यालय,उपिारा (3) केप्रयोजिोंकेस्लए,उस स्`
+  line `जलान्या यािीशकेअिीिि समझाजाएगास्जसकीअस्िकाररिाकीसीमाओंकेभीिरवहन्या यालयस्ि िहै।`
+  line `4. कस्िपयव्य स् ि योंकोिारा 3 केप्रविषिसेछूदेिेकीराज्य सरकारकीशस्ि –– (1) राज्य सरकार,उपिारा (2) में स्`
+  line `वस्िर्दषष् मामलोंकोध्या िमेंरििेहुए,सािारणयास्वशेर्आदेशद्वारा,यहस्िदेशदेसकेगीकककोईभीव्य स् ि याव्य स् ि योंका`
+  line `* इस अस्िस्ियमकोजम्मू - कश्मीरसंघराज्यिेत्रऔरलद्दािसंघराज्यिेत्रमेंअस्ि सूचिासं.सा.का. 3912 (अ),िारीि, 30 अूबर, 2019 सेलागूककयागया।`
+  line `1 1 जिवरी, 1956,देस्िएअस्िसूचिासं ० का ० स् ि ० आ ० 3447,िारीि 8 िवंबर, 1955,भारिकाराजपत्र, 1955,भाग 2,िि 3,पृ ० 2229.`
+  line `2 स् वस्िअिुकूलि ( सं ० 3) आदेश, 1956 द्व ारािंि ( ग ) केिा िपरप्र स् ििा स् पि।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-वगषउसकारागारसेिहीं हायाजाएगास्जसमेंवेपरररुद्धहों,औरिब,जबिकककवहआदेशप्रवृत्तरहिाहै,िारा 3 केउपबन्ध् ाा
-उसव्य स् ि याव्य स् ि योंकेवगषकोलागूिहींहोंगे।
-(2) उपिारा (1) केअिीिकोईआदेशकरिेसेपूवष,राज्य सरकारस्िम्ि स् लस्ििबािोंकोध्या िमेंरिेगी,अिाषि्: ––
-( क ) उसअपरािकीप्रकृस्ि,स्जसकेस्लए,अिवावेआिार,स्जिपर,उसव्य स् ि याउिव्य स् ि योंकेवगषकी
-बाबिपरररोिकाआदेशकदयागयाहै;
-( ि ) यकदउसव्य स् ि को या उिव्य स् ि योंकेवगषकोकारागारसेहािेकदयाजािाहैिोसावषजस्िकव्य विा में स्
-वघ्ि पड़िेकीसंभाव्य िा;
-( ग ) सािारणिया,लोकस्हि।
-5. बस्न्द योंकालायाजािा –– िारा 3 केअिीिककएगएआदेशकोउसकारागारकेभारसािकअस्िकारीकोदेकदएजािे
-पर,स्जसमेंआदेशमेंिास्मिव्य स् ि परररुद्धहै,वहअस्िकारीउसेउसन्या यालयमें,स्जसमेंउस कीउपस्ि स् िअपेस्ििहै,इसप्रकार स्
-भजवाएगाककवहउसन्या यालयमें,उि आदेशमेंउस्ल स् िि समयपर,उपस्ि िहोजाए,औरउसे िबिकउसन्या यालयमेंया
-उसकेसमीपअस्भरिामेंस्िरुद्धरिवाएगाजबिकउ सकीपरी िािहींहोजािीयावहन्या यािीशयान्या यालय का पीठासीि
-अस्िकारीउसे उसकारागारको,स्जसमेंवहपरररु द्ध िा,वापसभेजेजािेकेस्लएप्रास्िकृििहींकरदेिा।
-6. आदेशकापालिकरिेसेकारागारकाभारसािकअस्िकारीकबप्रस्वरिरहेगा –– जहांऐसाव्य स् ि,स्जसकीबाबििारा
-3 केअिीिकोईआदेशककयागयाहै, ––
-( क ) इसस्िस्म त्त बिाएगएस्ियमोंकेअिुसार,उसकारागारसे,जहांवहपरररुद्धहै,बीमारीयाअन्य अंगशैस्िय
-केकारणहाएजािेकेअयोग्य घोस्र्िकरकदयागयाहै;अिवा
-( ि ) स् वचारणकेस्लएसुपुदषककयागयाहै;अिवा
-( ग ) स् वचारणयाप्रारस्म्भ क अन्वे र् णलस्म्ब िरहिेिकप्रस्ि प्रे र् णकेअिीिहै;अिवा
-( घ ) उसअवस्ििकअस्भरिामेंहै,जोइसअस्िस्ियमकेअिीिउसेहाएजािेििाउसकारागारमें,स्जसमेंवह
-परररुद्धहै,वापसलािेकेस्लएअपेस्ििसमयकीसमास्प्ि केपूवषहीसमाप्ि होजाएगी,
-िोकारागारकाभारसािकअस्िकारीउसआदेशकापालि करिेसेप्रवररिरहेगाऔरउसन्या यालयको,जहांसेआदेशजारीककया
-गयािा,इसप्रकारप्रस्वरिरहिेकेकारणोंकास्ववरणभेजेगा:
-परन्िु यिापूवोि अस्िकारीउसदशामेंइसप्रकारप्रस्वरििहींहोगा,जब ––
-(i) आदेशककसीदास्ि कन्या यालयद्वाराककयागयाहो; और
-(ii) आदेशमेंिास्मिव्य स् ि स् वचारणकेस्लएसुपुदषगीकेअिीि, अिवास्वचारणयाप्रारस्म्भ कअन्वे र् णलस्म्ब ि
-रहिेिक,प्रस्िप्रेर्णकेअिीिपरररुद्धहैऔरइसस्िस्मत्तबिाएगएस्ियमोंकेअिुसार,उसकारागारसे,जहांवहपरररुद्ध
-है,बीमारीयाअन्य अंगशैस्िय केकारणहाएजािेकेअयोग्य घोस्र्ििहींककयागयाहै;और
-(iii) वहिा ि,जहांआदेशमेंिास्मिव्य स् ि कासाक्ष्य अपेस्ििहै,उसकारागारसे,स्जसमेंवहपरररुद्धहैपांच
-मीलसेअस्िकदूरीपरिहींहै।
-7. बस्न्द योंकीपरीिाकेस्लएकमीशि –– स् िम्ि स् लस्ििमामलोंमेंसेककसीमेंभी,अिाषि्: ––
-( क ) जहांककसीस्सस्वलन्या यालयकोयहप्रिीिहोिाहैककककसीकारागारमेंपरररुद्धव्य स् ि कासाक्ष्य उसके
-समि लस्म्ब िककसीमामलेमेंिास्वव कहैऔरयहककन्या यालयमेंऐसेव्य स् ि कोिारा 6 केउपबन्िों केकारण,अिवा
-िारा 4 केअिीिककएगएककसीआदेशकेकारण,अिवाहाएजािेसेसम्ब स्न् ि िककसीआदेशपरिारा 3 कीउपिारा (3)
-केअिीिप्रस्िहिा िरकरिेसेस्जलान्या यािीशकेइन्का रकरिेकेकारणउपस्ि ििहींककयाजासकिा;अिवा
-( ि ) जहांयिापूवोि कक सीस्सस्वलन्या यालयकोयहप्रिीिहोिाहैककककसीऐसेकारागारमें,जोउसराज्य के
-बाहरस्ि िहै,स्जसमेंयाउसिा िसेपचासमीलसेअस्िकदूरहै,जहांवहन्या यालयलगिाहै,परररुद्धककसीव्य स् ि का
-साक्ष्य ऐसेककसीमामलेमेंिास्वव कहै,
-वहांयकदन्या यालयठीकसमझिाहैिो,वहउसकारागारमें,स्जसमेंवहव्य स् ि परररुद्धहै,उसकीपरीिाकेस्लएस्सस्वलप्रकिया
-संस्ह िा, 1908 (1908 का 5) केउपबन्िों केअिीिएककमीशिस्िकालसकेगा।
-8. दंिप्रकियासंस्हिाििास्सस्वलप्रकियासंस्हिाकेकस्िपयउपबंिोंकालागू होिा –– इसअस्िस्ियममेंििाि द् िी ि
-बिाएगएककन्हीं स् ियमोंमेंजैसाअन्य िाउपबस्न्ि िहैउसकेस्सवाय,यिास्ि स् ि,स्सस्वलप्रकियासंस्हिा, 1908 (1908 का 5) ििा
-दि प्र कियासंस्हिा, 1898 (1898 का 5) केउपबन्ि,ककसीकारागारमेंपरररुद्धककसीव्य स् ि की,क मीशिपरयाअन्य िा,परीिा
-करिेकेसम्ब न् ि मेंयिाशय वैसेहीलागूहोंगेजैसेवेककसीअन्य व् य स् ि कीकमीशिपरपरीिाकेसम्ब न्ध् ाामेंलागूहोिेहैं।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `वगषउसकारागारसेिहीं हायाजाएगास्जसमेंवेपरररुद्धहों,औरिब,जबिकककवहआदेशप्रवृत्तरहिाहै,िारा 3 केउपबन्ध् ाा`
+  line `उसव्य स् ि याव्य स् ि योंकेवगषकोलागूिहींहोंगे।`
+  line `(2) उपिारा (1) केअिीिकोईआदेशकरिेसेपूवष,राज्य सरकारस्िम्ि स् लस्ििबािोंकोध्या िमेंरिेगी,अिाषि्: ––`
+  line `( क ) उसअपरािकीप्रकृस्ि,स्जसकेस्लए,अिवावेआिार,स्जिपर,उसव्य स् ि याउिव्य स् ि योंकेवगषकी`
+  line बाबिपरररोिकाआदेशकदयागयाहै;
+  line `( ि ) यकदउसव्य स् ि को या उिव्य स् ि योंकेवगषकोकारागारसेहािेकदयाजािाहैिोसावषजस्िकव्य विा में स्`
+  line `वघ्ि पड़िेकीसंभाव्य िा;`
+  line `( ग ) सािारणिया,लोकस्हि।`
+  line `5. बस्न्द योंकालायाजािा –– िारा 3 केअिीिककएगएआदेशकोउसकारागारकेभारसािकअस्िकारीकोदेकदएजािे`
+  line `पर,स्जसमेंआदेशमेंिास्मिव्य स् ि परररुद्धहै,वहअस्िकारीउसेउसन्या यालयमें,स्जसमेंउस कीउपस्ि स् िअपेस्ििहै,इसप्रकार स्`
+  line `भजवाएगाककवहउसन्या यालयमें,उि आदेशमेंउस्ल स् िि समयपर,उपस्ि िहोजाए,औरउसे िबिकउसन्या यालयमेंया`
+  line `उसकेसमीपअस्भरिामेंस्िरुद्धरिवाएगाजबिकउ सकीपरी िािहींहोजािीयावहन्या यािीशयान्या यालय का पीठासीि`
+  line `अस्िकारीउसे उसकारागारको,स्जसमेंवहपरररु द्ध िा,वापसभेजेजािेकेस्लएप्रास्िकृििहींकरदेिा।`
+  line `6. आदेशकापालिकरिेसेकारागारकाभारसािकअस्िकारीकबप्रस्वरिरहेगा –– जहांऐसाव्य स् ि,स्जसकीबाबििारा`
+  line `3 केअिीिकोईआदेशककयागयाहै, ––`
+  line `( क ) इसस्िस्म त्त बिाएगएस्ियमोंकेअिुसार,उसकारागारसे,जहांवहपरररुद्धहै,बीमारीयाअन्य अंगशैस्िय`
+  line `केकारणहाएजािेकेअयोग्य घोस्र्िकरकदयागयाहै;अिवा`
+  line `( ि ) स् वचारणकेस्लएसुपुदषककयागयाहै;अिवा`
+  line `( ग ) स् वचारणयाप्रारस्म्भ क अन्वे र् णलस्म्ब िरहिेिकप्रस्ि प्रे र् णकेअिीिहै;अिवा`
+  line `( घ ) उसअवस्ििकअस्भरिामेंहै,जोइसअस्िस्ियमकेअिीिउसेहाएजािेििाउसकारागारमें,स्जसमेंवह`
+  line `परररुद्धहै,वापसलािेकेस्लएअपेस्ििसमयकीसमास्प्ि केपूवषहीसमाप्ि होजाएगी,`
+  line `िोकारागारकाभारसािकअस्िकारीउसआदेशकापालि करिेसेप्रवररिरहेगाऔरउसन्या यालयको,जहांसेआदेशजारीककया`
+  line `गयािा,इसप्रकारप्रस्वरिरहिेकेकारणोंकास्ववरणभेजेगा:`
+  line `परन्िु यिापूवोि अस्िकारीउसदशामेंइसप्रकारप्रस्वरििहींहोगा,जब ––`
+  line `(i) आदेशककसीदास्ि कन्या यालयद्वाराककयागयाहो; और`
+  line `(ii) आदेशमेंिास्मिव्य स् ि स् वचारणकेस्लएसुपुदषगीकेअिीि, अिवास्वचारणयाप्रारस्म्भ कअन्वे र् णलस्म्ब ि`
+  line रहिेिक,प्रस्िप्रेर्णकेअिीिपरररुद्धहैऔरइसस्िस्मत्तबिाएगएस्ियमोंकेअिुसार,उसकारागारसे,जहांवहपरररुद्ध
+  line `है,बीमारीयाअन्य अंगशैस्िय केकारणहाएजािेकेअयोग्य घोस्र्ििहींककयागयाहै;और`
+  line `(iii) वहिा ि,जहांआदेशमेंिास्मिव्य स् ि कासाक्ष्य अपेस्ििहै,उसकारागारसे,स्जसमेंवहपरररुद्धहैपांच`
+  line मीलसेअस्िकदूरीपरिहींहै।
+  line `7. बस्न्द योंकीपरीिाकेस्लएकमीशि –– स् िम्ि स् लस्ििमामलोंमेंसेककसीमेंभी,अिाषि्: ––`
+  line `( क ) जहांककसीस्सस्वलन्या यालयकोयहप्रिीिहोिाहैककककसीकारागारमेंपरररुद्धव्य स् ि कासाक्ष्य उसके`
+  line `समि लस्म्ब िककसीमामलेमेंिास्वव कहैऔरयहककन्या यालयमेंऐसेव्य स् ि कोिारा 6 केउपबन्िों केकारण,अिवा`
+  line `िारा 4 केअिीिककएगएककसीआदेशकेकारण,अिवाहाएजािेसेसम्ब स्न् ि िककसीआदेशपरिारा 3 कीउपिारा (3)`
+  line `केअिीिप्रस्िहिा िरकरिेसेस्जलान्या यािीशकेइन्का रकरिेकेकारणउपस्ि ििहींककयाजासकिा;अिवा`
+  line `( ि ) जहांयिापूवोि कक सीस्सस्वलन्या यालयकोयहप्रिीिहोिाहैककककसीऐसेकारागारमें,जोउसराज्य के`
+  line `बाहरस्ि िहै,स्जसमेंयाउसिा िसेपचासमीलसेअस्िकदूरहै,जहांवहन्या यालयलगिाहै,परररुद्धककसीव्य स् ि का`
+  line `साक्ष्य ऐसेककसीमामलेमेंिास्वव कहै,`
+  line `वहांयकदन्या यालयठीकसमझिाहैिो,वहउसकारागारमें,स्जसमेंवहव्य स् ि परररुद्धहै,उसकीपरीिाकेस्लएस्सस्वलप्रकिया`
+  line `संस्ह िा, 1908 (1908 का 5) केउपबन्िों केअिीिएककमीशिस्िकालसकेगा।`
+  line `8. दंिप्रकियासंस्हिाििास्सस्वलप्रकियासंस्हिाकेकस्िपयउपबंिोंकालागू होिा –– इसअस्िस्ियममेंििाि द् िी ि`
+  line `बिाएगएककन्हीं स् ियमोंमेंजैसाअन्य िाउपबस्न्ि िहैउसकेस्सवाय,यिास्ि स् ि,स्सस्वलप्रकियासंस्हिा, 1908 (1908 का 5) ििा`
+  line `दि प्र कियासंस्हिा, 1898 (1898 का 5) केउपबन्ि,ककसीकारागारमेंपरररुद्धककसीव्य स् ि की,क मीशिपरयाअन्य िा,परीिा`
+  line `करिेकेसम्ब न् ि मेंयिाशय वैसेहीलागूहोंगेजैसेवेककसीअन्य व् य स् ि कीकमीशिपरपरीिाकेसम्ब न्ध् ाामेंलागूहोिेहैं।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-9. स् ियमबिािेकीशस्ि –– (1) केन्री यसरकार,इसअस्िस्ियमकेप्रयोजिोंकोकायाषस्न्व िकरिे केस्लएस्ियम,राजपत्रमें
-अस्िसूचिाद्वारा,बिासकेगी।
-(2) स् वस्शष् ियाऔरपूवषगामीशस्ि कीव्या पकिापरप्रस्िकूलप्रभाविालेस्बिा,ऐसेस्ियमोंमेंस्िम्ि स् लस्ििकेस्लए
-उपबन्ि ककयाजासकेगा ––
-( क ) िारा 3 केअिीिककएगएककसीआदेशपरप्रस्िहिा िरप्राप्ि करिेकीप्रकिया;
-( ि ) वहप्रास्िकारीस्जसकेद्वाराऔरवहरीस्िस्जससेयहघोर्णाकीजासकेगी कककारागारमेंपरररुद्धव्य स् ि
-वहांसेहाएजािेकेअयोग्य है;
-( ग ) वेशिें,स्जिकेअन्ि गषििचोंऔरप्रभारोंकासंदायभीहै,औरस्जिकेअिीिरहिेहुएककसी स् सस्वल न्
-या यालयद्वारािारा 3 केअिीिककयागयाकोईआदेशस्िष्पा कदिककयाजासकेगा;
-( घ ) वहरीस्िस्जससेककसीन्या यालयसेजारीकीगईकोईआदेस्शका,जोकारागारमेंपरररुद्ध ककसीव्य स् ि के स्
-वरुद्धस्िकद ष् हो,उसपरिामीलकीजासकेगी;
-( ङ ) ककसीकारागारमें परररुद्धस्जिव्य स् ि योंकीउपस्ि स् िअपेस्ििहैउन्हें न् या यालयोंकोलेजािेऔरवहांसे
-लािेकेस्लएििाऐसीउपस्ि स् िकीअवस्िकेदौरािउिकीअस्भरिाकेस्लएअिुरिक;
-( च ) ऐसेअिुरिकोंकेव्य यऔरप्रभारोंकेस्लएअिुज्ञािकीजािेवालीरकम;और
-( छ ) इसअस्िस्ियमकेप्रविषिसेसम्ब द्ध अन्य सभीमामलोंमेंअस्िकाररयोंकामागषदशषि।
-10. स् िरसि –– (1) स्प्र जिसषऐ, 1900 (1900 का 3) काभाग 9 ििाउि अस्िस्ियमकीप्रिमऔरस्द्विीयअिुसूस्चयां
-इसकेद्वारास्िरस्सिकीजािीहैं।
-(2) यकदइसअस्िस्ियमकेप्रारम्भ सेठीकपूवषककसीभाग - िराज्य में,स्जसपरइसअस्िस्ियमकास्विा रहै,इस
-अस्िस्ियमकेउपबंिोंकीित्‍िा िीकोईस्वस्िप्रवृत्तहैिोवहस्वस्ि,जहांिकउसकासम्ब न् ि इसअस्िस्ियममेंकदएगएमामलोंसे
-है,ऐसेप्रारम्भ परस्िरस्सिहोजाएगी:
-परन्िु ऐसीककसीस्व स् िकेअिीिककयागयाकोईकायषयाकीगईकारषवाई,इसअस्िस्ियमकेित्‍िा िीउपबन्िों केअिीि
-ककयागयायाकीगईसमझीजाएगी,औरजबिकककउसेइसअस्िस्ियमकेअिीिकीगईकक सीबाियाकारषवाईद्वाराअस्ििा न् ि
-िहींकरकदयाजािािबिकिद्िुसार प्र भावी बिारहेगा याबिीरहेगी। प्र
-िमअिुसूची
-[ िारा 3 कीउपिारा (1) देस्िए ]
-____________________ ______________ कान्या यालय
-______________________ ____________ ( कारागारकािामस्लस्िए ) काभारसािकअस्िकारी।
-आपसेइसकेद्वारायहअपेिाकीजािीहैकक आप ________________ को,जो इससमय _________ मेंपरररुद्धहै,
-__________ में _________ केन्या यालयकेसमिआगामी _________ के _____ कदि,उसकदिकेपूवाषह्ि _____________ बजे
-िक,उि न् या यालयकेसमिइससमयलस्म्ब िएकमामलेमेंसाक्ष्य देिेकेस्लए,सुरस्ििऔरसुस्िस्श्च िरूप सेलाकरपेशकरें,और
-उि _____________ द्व ारावहींउि न् या यालयकेसमक्ष् ााअपिासाक्ष्य कदएजाचुकिेकेपश्चा ि्,याउि न् या यालयद्वाराउसे
-आगेकीउपस्ि स् िसेछूकदएजािेकेपश्चा ि्,उसेउि कारागारकोसुरस्ििऔरसुस्िस्श्च िरूपसेवापसले जाएं।
-_____________ के ___________ का _______________ कदि।
-क ० ि ०
-( प्रस् िहिा िररि ) ग ० घ ०`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `9. स् ियमबिािेकीशस्ि –– (1) केन्री यसरकार,इसअस्िस्ियमकेप्रयोजिोंकोकायाषस्न्व िकरिे केस्लएस्ियम,राजपत्रमें`
+  line अस्िसूचिाद्वारा,बिासकेगी।
+  line `(2) स् वस्शष् ियाऔरपूवषगामीशस्ि कीव्या पकिापरप्रस्िकूलप्रभाविालेस्बिा,ऐसेस्ियमोंमेंस्िम्ि स् लस्ििकेस्लए`
+  line `उपबन्ि ककयाजासकेगा ––`
+  line `( क ) िारा 3 केअिीिककएगएककसीआदेशपरप्रस्िहिा िरप्राप्ि करिेकीप्रकिया;`
+  line `( ि ) वहप्रास्िकारीस्जसकेद्वाराऔरवहरीस्िस्जससेयहघोर्णाकीजासकेगी कककारागारमेंपरररुद्धव्य स् ि`
+  line `वहांसेहाएजािेकेअयोग्य है;`
+  line `( ग ) वेशिें,स्जिकेअन्ि गषििचोंऔरप्रभारोंकासंदायभीहै,औरस्जिकेअिीिरहिेहुएककसी स् सस्वल न्`
+  line `या यालयद्वारािारा 3 केअिीिककयागयाकोईआदेशस्िष्पा कदिककयाजासकेगा;`
+  line `( घ ) वहरीस्िस्जससेककसीन्या यालयसेजारीकीगईकोईआदेस्शका,जोकारागारमेंपरररुद्ध ककसीव्य स् ि के स्`
+  line `वरुद्धस्िकद ष् हो,उसपरिामीलकीजासकेगी;`
+  line `( ङ ) ककसीकारागारमें परररुद्धस्जिव्य स् ि योंकीउपस्ि स् िअपेस्ििहैउन्हें न् या यालयोंकोलेजािेऔरवहांसे`
+  line `लािेकेस्लएििाऐसीउपस्ि स् िकीअवस्िकेदौरािउिकीअस्भरिाकेस्लएअिुरिक;`
+  line `( च ) ऐसेअिुरिकोंकेव्य यऔरप्रभारोंकेस्लएअिुज्ञािकीजािेवालीरकम;और`
+  line `( छ ) इसअस्िस्ियमकेप्रविषिसेसम्ब द्ध अन्य सभीमामलोंमेंअस्िकाररयोंकामागषदशषि।`
+  line `10. स् िरसि –– (1) स्प्र जिसषऐ, 1900 (1900 का 3) काभाग 9 ििाउि अस्िस्ियमकीप्रिमऔरस्द्विीयअिुसूस्चयां`
+  line इसकेद्वारास्िरस्सिकीजािीहैं।
+  line `(2) यकदइसअस्िस्ियमकेप्रारम्भ सेठीकपूवषककसीभाग - िराज्य में,स्जसपरइसअस्िस्ियमकास्विा रहै,इस`
+  line `अस्िस्ियमकेउपबंिोंकीित्‍िा िीकोईस्वस्िप्रवृत्तहैिोवहस्वस्ि,जहांिकउसकासम्ब न् ि इसअस्िस्ियममेंकदएगएमामलोंसे`
+  line `है,ऐसेप्रारम्भ परस्िरस्सिहोजाएगी:`
+  line `परन्िु ऐसीककसीस्व स् िकेअिीिककयागयाकोईकायषयाकीगईकारषवाई,इसअस्िस्ियमकेित्‍िा िीउपबन्िों केअिीि`
+  line `ककयागयायाकीगईसमझीजाएगी,औरजबिकककउसेइसअस्िस्ियमकेअिीिकीगईकक सीबाियाकारषवाईद्वाराअस्ििा न् ि`
+  line `िहींकरकदयाजािािबिकिद्िुसार प्र भावी बिारहेगा याबिीरहेगी। प्र`
+  line िमअिुसूची
+  line `[ िारा 3 कीउपिारा (1) देस्िए ]`
+  line `____________________ ______________ कान्या यालय`
+  line `______________________ ____________ ( कारागारकािामस्लस्िए ) काभारसािकअस्िकारी।`
+  line `आपसेइसकेद्वारायहअपेिाकीजािीहैकक आप ________________ को,जो इससमय _________ मेंपरररुद्धहै,`
+  line `__________ में _________ केन्या यालयकेसमिआगामी _________ के _____ कदि,उसकदिकेपूवाषह्ि _____________ बजे`
+  line `िक,उि न् या यालयकेसमिइससमयलस्म्ब िएकमामलेमेंसाक्ष्य देिेकेस्लए,सुरस्ििऔरसुस्िस्श्च िरूप सेलाकरपेशकरें,और`
+  line `उि _____________ द्व ारावहींउि न् या यालयकेसमक्ष् ााअपिासाक्ष्य कदएजाचुकिेकेपश्चा ि्,याउि न् या यालयद्वाराउसे`
+  line `आगेकीउपस्ि स् िसेछूकदएजािेकेपश्चा ि्,उसेउि कारागारकोसुरस्ििऔरसुस्िस्श्च िरूपसेवापसले जाएं।`
+  line `_____________ के ___________ का _______________ कदि।`
+  line `क ० ि ०`
+  line `( प्रस् िहिा िररि ) ग ० घ ०`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4 स्द्व
-िीय अिुसूची
-[ िारा 3 कीउपिारा (2 ) देस्िए ]
-__________________________________ कान्या यालय
-__________________________________ ( कारागारकािामस्लस्िए ) का भारसािकअस्िकारी।
-आपसेइसकेद्वारायहअपेिाकीजािीहैकक आप ________________________ को,जोइससमय ____________ में
-परररुद्धहै, ________________ में ______________ केन्या यालयकेसमिआगामी _______________________ के ______
-कदि,उसकदिकेपूवाषह्ि _____________________ बजेिक,उि न् या यालयकेसमिइससमयलस्म्ब ि आरोपकाउत्तरदेिेके स्
-लए,सुरस्ििऔरसुस्िस्श्च िरूपसेलाकरपेशकरें,औरउि आरोपकास्िपाराहोजािेकेपश्चा ि्,याउि न् या यालयद्वाराउसे
-आगेकीउपस्ि स् िसेछूकदएजािेके पश्चा ि्,उसेउि कारागारकोसुरस्ििऔरसुस्िस्श्च िरूपसेवापसलेजाएं।
-_____________ के ___________ का _______________ कदि।
-क ० ि ०
-( प्रस् िहिा िररि ) ग ० घ ०
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line `4 स्द्व`
+  line `िीय अिुसूची`
+  line `[ िारा 3 कीउपिारा (2 ) देस्िए ]`
+  line `__________________________________ कान्या यालय`
+  line `__________________________________ ( कारागारकािामस्लस्िए ) का भारसािकअस्िकारी।`
+  line `आपसेइसकेद्वारायहअपेिाकीजािीहैकक आप ________________________ को,जोइससमय ____________ में`
+  line `परररुद्धहै, ________________ में ______________ केन्या यालयकेसमिआगामी _______________________ के ______`
+  line `कदि,उसकदिकेपूवाषह्ि _____________________ बजेिक,उि न् या यालयकेसमिइससमयलस्म्ब ि आरोपकाउत्तरदेिेके स्`
+  line `लए,सुरस्ििऔरसुस्िस्श्च िरूपसेलाकरपेशकरें,औरउि आरोपकास्िपाराहोजािेकेपश्चा ि्,याउि न् या यालयद्वाराउसे`
+  line `आगेकीउपस्ि स् िसेछूकदएजािेके पश्चा ि्,उसेउि कारागारकोसुरस्ििऔरसुस्िस्श्च िरूपसेवापसलेजाएं।`
+  line `_____________ के ___________ का _______________ कदि।`
+  line `क ० ि ०`
+  line `( प्रस् िहिा िररि ) ग ० घ ०`
+  line ______
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line

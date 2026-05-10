@@ -1,64 +1,54 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:46:44.781Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1422`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 9)
-  (str totalSections) (int 9)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:46:44.781Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1422`
+  completeFetch true
+  maxSections null
+  sectionCount 9
+  totalSections 9
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-delivery-of-books-and-newspapers-public-libraries-act-1954)
-  (str handle) (str 1422)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Delivery of Books and Newspapers (Public Libraries) Act, 1954`)
-  (str actNumber) (str 27)
-  (str enactmentDate) (str 1954-05-20)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1422`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `पुस्‍तक और समाचारपत्र परिदान (सार्वजनिक पुस्‍तकालय) अधिनियम, 1954`)
-  (str actYear) (str 1954)
-  (str ministry) (str `Ministry of Culture`)
-  (str longTitle) (str `An Act to provide for delivery of books to the National Library and other public libraries.`)
-  (str enforcementDate) (str 20-05-1954)
-  (str fetchedAt) (str `2026-05-08T21:30:11.587Z`)
-  (str translations) obj_root_law_translations
+  slug the-delivery-of-books-and-newspapers-public-libraries-act-1954
+  handle (1422)
+  collectionHandle 123456789/1362
+  title `The Delivery of Books and Newspapers (Public Libraries) Act, 1954`
+  actNumber (27)
+  enactmentDate 1954-05-20
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1422`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `पुस्‍तक और समाचारपत्र परिदान (सार्वजनिक पुस्‍तकालय) अधिनियम, 1954`
+  actYear (1954)
+  ministry `Ministry of Culture`
+  longTitle `An Act to provide for delivery of books to the National Library and other public libraries.`
+  enforcementDate 20-05-1954
+  fetchedAt `2026-05-08T21:30:11.587Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_delivery_of_books_and_newspapers_public_libraries_act_1954
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1422`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1422`
 obj_root_law_sources_en_the_delivery_of_books_and_newspapers_public_libraries_act_1954:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1422/1/A1954-27.pdf`)
-  (str title) (str `The Delivery of Books and Newspapers (Public Libraries) Act, 1954`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1422/1/A1954-27.pdf`
+  title `The Delivery of Books and Newspapers (Public Libraries) Act, 1954`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1954
 obj_root_law_sources_hi_1954:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1422/2/H1954-27.pdf`)
-  (str title) (str `पुस्‍तक और समाचारपत्र परिदान (सार्वजनिक पुस्‍तकालय) अधिनियम, 1954`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1422/2/H1954-27.pdf`
+  title `पुस्‍तक और समाचारपत्र परिदान (सार्वजनिक पुस्‍तकालय) अधिनियम, 1954`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -69,260 +59,303 @@ obj_root_law_sections:
   obj_root_law_sections_7
   obj_root_law_sections_8
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 34816)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the Delivery of Books ^1[and Newspapers]
-(Public Libraries) Act, 1954.
-
-(2) It extends to the whole of India except the State of Jammu and Kashmir*.`)
-  (str footnotes) (str `1. Ins. by Act 99 of 1956, s. 3 (w.e.f. 29-12-1956).
-
-*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu
-and Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34816&sectionno=1&orderno=1&orgactid=AC_CEN_27_37_00006_195427_1517807322342)
+  sectionId (34816)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34816&sectionno=1&orderno=1&orgactid=AC_CEN_27_37_00006_195427_1517807322342
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Delivery of Books ^1[and Newspapers]`
+  line `(Public Libraries) Act, 1954.`
+  line
+  line `(2) It extends to the whole of India except the State of Jammu and Kashmir*.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Ins. by Act 99 of 1956, s. 3 (w.e.f. 29-12-1956).`
+  line
+  line `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu`
+  line `and Kashmir and the Union territory of Ladakh.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 34817)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires:--
-
-(a) "book" includes every volume, part or division of a volume and pamphlet, in any language,
-and every sheet of music, map, chart or plan separately printed or lithographed, but does not include a
-newspaper published in conformity with the provisions of section 5 of the Press and Registration of
-Books Act, 1867(XXV of 1867):
-
-^1[(aa) 'newspaper' means any printed periodical work containing public news or comments on
-public news published in conformity with the provisions of section 5 of the Press and Registration of
-Books Act, 1867 (25 of 1867).]
-
-(b) "public libraries" means the National Library at Calcutta and any three other libraries which
-may be specified by the Central Government in this behalf by notification in the Official Gazette.`)
-  (str footnotes) (str `1. Ins. by s. 4, ibid. (w.e.f. 29-12-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34817&sectionno=2&orderno=2&orgactid=AC_CEN_27_37_00006_195427_1517807322342)
+  sectionId (34817)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes `1. Ins. by s. 4, ibid. (w.e.f. 29-12-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34817&sectionno=2&orderno=2&orgactid=AC_CEN_27_37_00006_195427_1517807322342
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires:--`
+  line
+  line `(a) "book" includes every volume, part or division of a volume and pamphlet, in any language,`
+  line `and every sheet of music, map, chart or plan separately printed or lithographed, but does not include a`
+  line `newspaper published in conformity with the provisions of section 5 of the Press and Registration of`
+  line `Books Act, 1867(XXV of 1867):`
+  line
+  line `^1[(aa) 'newspaper' means any printed periodical work containing public news or comments on`
+  line `public news published in conformity with the provisions of section 5 of the Press and Registration of`
+  line `Books Act, 1867 (25 of 1867).]`
+  line
+  line `(b) "public libraries" means the National Library at Calcutta and any three other libraries which`
+  line `may be specified by the Central Government in this behalf by notification in the Official Gazette.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 34818)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Delivery of books of public libraries.`)
-  (str content) (str `(1) Subject to any rules that may be made under this Act,
-but without prejudice to the provisions contained in Section 9 of the Press and Registration of Books Act,
-1867 (XXV of 1867), the publisher of every book published is the territories to which this Act extends
-after the commencement of this act, shall, notwithstanding any agreement to the contrary, deliver at his
-own expense a copy of the book to the National Library at Calcutta and one such copy to each of the other
-three public libraries within thirty days from the date of its publication.
-
-(2) The copy delivered to the National Library shall be a copy of the whole book with all maps and
-illustrations belonging thereto, finished and coloured in the same manner as the best copies of the same,
-and shall be bound, sewed or stitched together and on the best paper on which any copy of the book is
-printed.
-
-(3) The copy delivered to any other public library shall be on the paper on which the largest number
-of copies of the books is printed for sale, and shall be in the like condition as the book prepared for sale.
-
-(4) Nothing contained in sub-section (1) shall apply to any second or subsequent edition of a book in
-which edition no additions or alterations either in the letter-press or in the maps, book prints or other
-engravings belongings to the book have been made, and a copy of the first or some preceding edition of
-which book has been delivered under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34818&sectionno=3&orderno=3&orgactid=AC_CEN_27_37_00006_195427_1517807322342)
+  sectionId (34818)
+  sectionNo (3)
+  orderNo 3
+  title `Delivery of books of public libraries.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34818&sectionno=3&orderno=3&orgactid=AC_CEN_27_37_00006_195427_1517807322342
+obj_root_law_sections_3_content:
+  string
+  line `(1) Subject to any rules that may be made under this Act,`
+  line `but without prejudice to the provisions contained in Section 9 of the Press and Registration of Books Act,`
+  line `1867 (XXV of 1867), the publisher of every book published is the territories to which this Act extends`
+  line `after the commencement of this act, shall, notwithstanding any agreement to the contrary, deliver at his`
+  line `own expense a copy of the book to the National Library at Calcutta and one such copy to each of the other`
+  line `three public libraries within thirty days from the date of its publication.`
+  line
+  line `(2) The copy delivered to the National Library shall be a copy of the whole book with all maps and`
+  line `illustrations belonging thereto, finished and coloured in the same manner as the best copies of the same,`
+  line `and shall be bound, sewed or stitched together and on the best paper on which any copy of the book is`
+  line printed.
+  line
+  line `(3) The copy delivered to any other public library shall be on the paper on which the largest number`
+  line `of copies of the books is printed for sale, and shall be in the like condition as the book prepared for sale.`
+  line
+  line `(4) Nothing contained in sub-section (1) shall apply to any second or subsequent edition of a book in`
+  line `which edition no additions or alterations either in the letter-press or in the maps, book prints or other`
+  line `engravings belongings to the book have been made, and a copy of the first or some preceding edition of`
+  line `which book has been delivered under this Act.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_3_a:
-  object
-  (str sectionId) (str 34819)
-  (str sectionNo) (str 3A)
-  (str orderNo) (int 4)
-  (str title) (str `Delivery of newspapers to public libraries.`)
-  (str content) (str `^1[3A. Delivery of newspapers to public libraries. --Subject to any rules that may be made under
-this Act, but without prejudice to the provisions contained in the Press and Registration of Books Act,
-1867 (25 of 1867.), the publisher of every newspaper, published in the territories to which this Act
-extends, shall deliver at his own expense one copy of each issue of such newspaper as soon as it is
-published to each such public library as may be notified in this behalf by the Central Government in the
-Official Gazette.]`)
-  (str footnotes) (str `1. Ins. by s. 5, ibid. (w.e.f. 29-12-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34819&sectionno=3A&orderno=4&orgactid=AC_CEN_27_37_00006_195427_1517807322342)
+  sectionId (34819)
+  sectionNo 3A
+  orderNo 4
+  title `Delivery of newspapers to public libraries.`
+  content obj_root_law_sections_3_a_content
+  footnotes `1. Ins. by s. 5, ibid. (w.e.f. 29-12-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34819&sectionno=3A&orderno=4&orgactid=AC_CEN_27_37_00006_195427_1517807322342
+obj_root_law_sections_3_a_content:
+  string
+  line `^1[3A. Delivery of newspapers to public libraries. --Subject to any rules that may be made under`
+  line `this Act, but without prejudice to the provisions contained in the Press and Registration of Books Act,`
+  line `1867 (25 of 1867.), the publisher of every newspaper, published in the territories to which this Act`
+  line `extends, shall deliver at his own expense one copy of each issue of such newspaper as soon as it is`
+  line `published to each such public library as may be notified in this behalf by the Central Government in the`
+  line `Official Gazette.]`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 34820)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 5)
-  (str title) (str `Receipt for books delivered.`)
-  (str content) (str `The person in charge of a public library (whether called a librarian
-or by any other name) or any other person authorised by him in this behalf to whom a copy of a book is
-delivered under Section 3 shall give to the publisher a receipt in writing therefor.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34820&sectionno=4&orderno=5&orgactid=AC_CEN_27_37_00006_195427_1517807322342)
+  sectionId (34820)
+  sectionNo (4)
+  orderNo 5
+  title `Receipt for books delivered.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34820&sectionno=4&orderno=5&orgactid=AC_CEN_27_37_00006_195427_1517807322342
+obj_root_law_sections_4_content:
+  string
+  line `The person in charge of a public library (whether called a librarian`
+  line `or by any other name) or any other person authorised by him in this behalf to whom a copy of a book is`
+  line `delivered under Section 3 shall give to the publisher a receipt in writing therefor.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 34821)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 6)
-  (str title) (str Penalty.)
-  (str content) (str `Any publisher who contravenes any provision of this Act or of any rule made
-thereunder shall be punishable with fine which may extend to fifty rupees^1[and, if the contravention is in
-respect of a book, shall also be punishable with fine which shall be equivalent to the value of the book],
-and the court trying the offence may direct that the whole or any part of the fine realised from him shall
-be paid, by way of compensation, to the public library to which the book ^2[or newspaper, as the case may
-be] ought to have been delivered.`)
-  (str footnotes) (str `1. Subs. by Act 99 of 1956, s. 6, for "and the value of the book" (w.e.f. 29-12-1956).
-
-2. Ins. by s. 6, ibid. (w.e.f. 29-12-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34821&sectionno=5&orderno=6&orgactid=AC_CEN_27_37_00006_195427_1517807322342)
+  sectionId (34821)
+  sectionNo (5)
+  orderNo 6
+  title Penalty.
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34821&sectionno=5&orderno=6&orgactid=AC_CEN_27_37_00006_195427_1517807322342
+obj_root_law_sections_5_content:
+  string
+  line `Any publisher who contravenes any provision of this Act or of any rule made`
+  line `thereunder shall be punishable with fine which may extend to fifty rupees^1[and, if the contravention is in`
+  line `respect of a book, shall also be punishable with fine which shall be equivalent to the value of the book],`
+  line `and the court trying the offence may direct that the whole or any part of the fine realised from him shall`
+  line `be paid, by way of compensation, to the public library to which the book ^2[or newspaper, as the case may`
+  line `be] ought to have been delivered.`
+obj_root_law_sections_5_footnotes:
+  string
+  line `1. Subs. by Act 99 of 1956, s. 6, for "and the value of the book" (w.e.f. 29-12-1956).`
+  line
+  line `2. Ins. by s. 6, ibid. (w.e.f. 29-12-1956).`
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 34822)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 7)
-  (str title) (str `Cognizance of offences.`)
-  (str content) (str `(1) No court shall take cognizance of any offence punishable under this
-Act save on complaint made by an officer empowered in this behalf by the Central Government by a
-General or special order.
-
-(2) No court inferior to that of a presidency magistrate or a magistrate of the first class shall try any
-offence punishable under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34822&sectionno=6&orderno=7&orgactid=AC_CEN_27_37_00006_195427_1517807322342)
+  sectionId (34822)
+  sectionNo (6)
+  orderNo 7
+  title `Cognizance of offences.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34822&sectionno=6&orderno=7&orgactid=AC_CEN_27_37_00006_195427_1517807322342
+obj_root_law_sections_6_content:
+  string
+  line `(1) No court shall take cognizance of any offence punishable under this`
+  line `Act save on complaint made by an officer empowered in this behalf by the Central Government by a`
+  line `General or special order.`
+  line
+  line `(2) No court inferior to that of a presidency magistrate or a magistrate of the first class shall try any`
+  line `offence punishable under this Act.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 34823)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 8)
-  (str title) (str `Application of Act to books and newspapers published by Government.`)
-  (str content) (str `^1[7. Application of Act to books and newspapers published by Government.--This Act shall also
-apply to books and newspapers published by or under the authority of the Government but shall not apply
-to books meant for official use only.]`)
-  (str footnotes) (str `1. Subs. by s. 7, ibid., for section 7 (w.e.f. 29-12-1956).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34823&sectionno=7&orderno=8&orgactid=AC_CEN_27_37_00006_195427_1517807322342)
+  sectionId (34823)
+  sectionNo (7)
+  orderNo 8
+  title `Application of Act to books and newspapers published by Government.`
+  content obj_root_law_sections_7_content
+  footnotes `1. Subs. by s. 7, ibid., for section 7 (w.e.f. 29-12-1956).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34823&sectionno=7&orderno=8&orgactid=AC_CEN_27_37_00006_195427_1517807322342
+obj_root_law_sections_7_content:
+  string
+  line `^1[7. Application of Act to books and newspapers published by Government.--This Act shall also`
+  line `apply to books and newspapers published by or under the authority of the Government but shall not apply`
+  line `to books meant for official use only.]`
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 34824)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 9)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `^1[(1)] The Central Government may, by notification in the Official
-Gazette, makes rules to carry out the purposes of this Act.
-
-^2[(2) Every rule made by the Central Government under this Act shall be laid, as soon as may be after
-it is made, before each House of Parliament, while it is in session, for a total period of thirty days which
-may be comprised in one session or in two or more successive sessions, and if, before the expiry of the
-session immediately following the session or the successive sessions aforesaid, both Houses agree in
-making any modification in the rule or both Houses agree that the rule should not be made, the rule shall
-thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that
-any such modification or annulment shall be without prejudice to the validity of anything previously done
-under that rule.]`)
-  (str footnotes) (str `1. Section 8 re-numbered as sub-section (1) thereof by Act 4 of 2005, s. 2 and the Schedule (w.e.f. 11-1-2005).
-
-2. Added by s. 2 and the Schedule, ibid. (w.e.f. 11-1-2005).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34824&sectionno=8&orderno=9&orgactid=AC_CEN_27_37_00006_195427_1517807322342)
+  sectionId (34824)
+  sectionNo (8)
+  orderNo 9
+  title `Power to make rules.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_27_37_00006_195427_1517807322342&sectionId=34824&sectionno=8&orderno=9&orgactid=AC_CEN_27_37_00006_195427_1517807322342
+obj_root_law_sections_8_content:
+  string
+  line `^1[(1)] The Central Government may, by notification in the Official`
+  line `Gazette, makes rules to carry out the purposes of this Act.`
+  line
+  line `^2[(2) Every rule made by the Central Government under this Act shall be laid, as soon as may be after`
+  line `it is made, before each House of Parliament, while it is in session, for a total period of thirty days which`
+  line `may be comprised in one session or in two or more successive sessions, and if, before the expiry of the`
+  line `session immediately following the session or the successive sessions aforesaid, both Houses agree in`
+  line `making any modification in the rule or both Houses agree that the rule should not be made, the rule shall`
+  line `thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that`
+  line `any such modification or annulment shall be without prejudice to the validity of anything previously done`
+  line `under that rule.]`
+obj_root_law_sections_8_footnotes:
+  string
+  line `1. Section 8 re-numbered as sub-section (1) thereof by Act 4 of 2005, s. 2 and the Schedule (w.e.f. 11-1-2005).`
+  line
+  line `2. Added by s. 2 and the Schedule, ibid. (w.e.f. 11-1-2005).`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `पुस्‍तक और समाचारपत्र परिदान (सार्वजनिक पुस्‍तकालय) अधिनियम, 1954`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1422/2/H1954-27.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:46:43.679Z`)
-  (str pageCount) (int 2)
-  (str sections) obj_root_law_translations_hi_sections
+  title `पुस्‍तक और समाचारपत्र परिदान (सार्वजनिक पुस्‍तकालय) अधिनियम, 1954`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1422/2/H1954-27.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:46:43.679Z`
+  pageCount 2
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `पुस्त कऔरसमाचारपत्रपररदान(सार्वजननकपुस्त कालय)
-अनिननयम, 19 54
-) 19 54 काअनिननयमसंखयां क 27 (
-[2 0 मई, 19 54 ]
-राष्‍टरी य पुस्त कालयऔरअन्य सार्वजननकपुस्त कालयों
-कोपुस्त क 1 [ औरसमाचारपत्रों ] केपररदान
-काउपबन्ि करनेकेनलए
-अनिननयम
-भारतगणराज्य के पां च र्ेंर्र् व मेंसंसद्द्वाराननम्न नलनितरूपमेंयहअनिननयनमतहो: —
-1. संनिप्त नाम और नर्स्ता र — (1) इस अनिननयम का संनिप्त नाम पुस्त क 2 [ औरसमाचारपत्र ] पररदान(सार्वजननक
-पुस्ता कलय) अनिननयम, 19 54 है।
-(2) इसकानर्स्ता र जम्मू - कश्मी रराज्य केनसर्ाय * सम्पू णवभारतपरहै।
-2. पररभार्ाएं — इसअनिननयममें, जबतकककसंदभवसेअन्य थाअपेनितनहो, —
-(क) “ पुस्त क ” केअन्त गवतककसीभीभार्ामेंपृथक्रूपसेमुकित यानिलामुकित कीहुईप्रत्ये कनजल्द, नजल्द का
-भाग या िण्ड औरपुनस्त का औरस्र् रनलनपपत्र, मा ननचत्र, चार्वयारेिांकनहैककन्तु इसकेअन्त गवतप्रैसऔरपुस्त क
-रनजस्री करणअनिननयम, 1867 (1867 का 25) कीिारा 5 केउप बन्िों केअनुरूपप्रकानितसमाचारपत्रनहींहै;
-3 [ (कक) “ समाचारपत्र ” सेप्रैसऔरपुस्त करनजस्री करणअनिननयम, 1867 (1867 का 25) की िारा 5 केउप बन्िों
-केअनुरूप प्र कानितऐसीमुकितकानलक कृनतअनभप्रेतहैनजसमेंसार्वजननकसमाचारयासार्वजननकसमाचारोंकीसमीिा
-अंतर्र्वष्‍टर् है; ]
-(ि) “ सार्वजननकपुस्त कालय ” सेकलकत्तानस्थ तराष्‍टरी यपुस्त कालयऔरकोईअन्य तीनपुस्त कालयअनभप्रेतहैं
-जोकेन्िी यसरकारद्वाराइसनननमत्त राजपत्रमेंअनिसूचना द्व ारा नर्ननर्दवष्‍टर् ककएजाएं।
-3. सार्वजननक पुस्त कालयोंकोपु स् त कोंकापररदान — (1) इसअनिननयमकेअिीनबनाएजानेर्ाले ननयमों केअिीनरहते हु
-ए, प्रै स और पुस्त करनजस्री करण अनिननयम, 1867 (1867 का 25) कीिारा 9 केउपबन्िों परप्रनतकूल प्र भार्डालेनबना, उन
-राज्य िेत्रोंमें, नजनपरइसअनिननयमका नर्स्ता रहै, इसअनिननयमकेप्रारम्भ केपश्चा त्प्रकानितप्रत्ये कपुस्त ककाप्रकािक, प्र
-नतकूलकरारकेहोतेहुएभी, अपने िचेपरपुस्त ककी एकप्रनत कलकत्तानस्थ तराष्‍टरी य पुस्त कालयकोऔरतीनअन्य सार्वजननक
-पुस्त कालयों में सेप्रत्ये कको ऐसी एक प्र नतप्रकािनकीतारीि से तीसकदनकेअन्द रपररदान करेगा।
-(2) राष्‍टरी य पुस्त कालय कोपररदत्तउसकेसभीमाननचत्रोंऔरनचत्रकारीसनहतसम्पू णवपुस्त ककी एकप्रनतहोगी, जोउसी
-रीनतमेंपररसानितऔररंनजतहोगीऔरनजल्द बन्द कीजाएगी, नसलीजाएगीयाबांिीजाएगी, जैसीउसकीसर्ोत्तमकृनतयांहैं और
-ऐसेसर्ोत्तमकागजपरहोगीनजसपरउसपुस्त ककीएकभीप्रनतमुकितकीगईहै।
-(3) ककसीअन्य सार्वजननकपुस्त कालयकोपररदानकीजानेर्ालीप्रनतउसकागजपरहोगीनजसपरनर्क्रयकेनलएपुस्त क
-कीसर्ावनिकसंखया मेंप्रनतयांमुकितकीगईहैं, औरउसीदिामेंहोगीजैसीनर्क्रयकेनलएतैयारकीगईपुस्त केंहैं।
-(4) उपिारा (1) कीकोईबातपुस्त ककेऐसेनद्वतीययापश्चा त्र् तीसंस्क रणकोलागूनहीं होगीनजससंस्क रणमेंनतोलेर्र प्रै
-समेंऔरनमाननचत्रोंमेंपुस्त कमुि(बुकप्प्रंर्)मेंयापुस्त ककेअन्य उत्की णोंमेंकोईपररर्िवनयापररर्तवनककएगएहैं, औरउस
-पुस्त ककेप्रथमयाअन्य पूर्वर्तीसंस्क रणकीप्रनत इसअनिननयमकेअिीनपररदत्तकरदीगईहै।
-4 [ 3 क. सार्वजननकपुस्त कालयों कोसमाचारपत्रोंकापररदान — इस अनिननयमकेअिीनबनाएजानेर्ालेननयमोंकेअिीन
-रहतेहुए, ककन्तु प्रै सऔरपुस्त करनजस्री करणअनिननयम, 1867 (1867 का 25) केउपबन्िों परप्रनतकूलप्रभार् डालेनबना, उन
-राज्य िेत्रों में, नजनपरइसअनिननयमकानर्स्ता रहै, प्र कानितप्रत्ये कसमाचारपत्रकाप्रकािक, अपनेिचेपरसमाचारपत्रकेप्रत्ये क
-अंककीएकप्रनत उसकेप्रकानितहोतेहुएभीऐसेप्रत्ये कसार्वजननक पुस्त कालयकोजोकेन्िी यसरकारइसनननमत्तराजपत्रमें
-अनिसूनचतकरे, पररदानकरेगा। ]
-1 1956 केअनिननयमसं ० 99 कीिारा 2 द्व ाराअंत:स्था नपत।
-2 1956 केअनिननयमसं ० 99 कीिारा 3 द्व ाराअंत:स्था नपत।
-* इस अनिननयमकोजम्मू - कश्मीरसंघराज्यिेत्रऔरलद्दािसंघराज्यिेत्र मेंअनिसूचनासं.सा.का. 3912 (अ),तारीि, 30 अक्र्ूबर, 2019 सेलागूककयागया।
-3 1956 केअनिननयमसं ० 99 कीिारा 4 द्व ाराअंत:स्था नपत।
-4 1956 केअनिननयमसं ० 99 कीिारा 5 द्व ाराअंत:स्था नपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `पुस्त कऔरसमाचारपत्रपररदान(सार्वजननकपुस्त कालय)`
+  line `अनिननयम, 19 54`
+  line `) 19 54 काअनिननयमसंखयां क 27 (`
+  line `[2 0 मई, 19 54 ]`
+  line `राष्‍टरी य पुस्त कालयऔरअन्य सार्वजननकपुस्त कालयों`
+  line `कोपुस्त क 1 [ औरसमाचारपत्रों ] केपररदान`
+  line `काउपबन्ि करनेकेनलए`
+  line अनिननयम
+  line `भारतगणराज्य के पां च र्ेंर्र् व मेंसंसद्द्वाराननम्न नलनितरूपमेंयहअनिननयनमतहो: —`
+  line `1. संनिप्त नाम और नर्स्ता र — (1) इस अनिननयम का संनिप्त नाम पुस्त क 2 [ औरसमाचारपत्र ] पररदान(सार्वजननक`
+  line `पुस्ता कलय) अनिननयम, 19 54 है।`
+  line `(2) इसकानर्स्ता र जम्मू - कश्मी रराज्य केनसर्ाय * सम्पू णवभारतपरहै।`
+  line `2. पररभार्ाएं — इसअनिननयममें, जबतकककसंदभवसेअन्य थाअपेनितनहो, —`
+  line `(क) “ पुस्त क ” केअन्त गवतककसीभीभार्ामेंपृथक्रूपसेमुकित यानिलामुकित कीहुईप्रत्ये कनजल्द, नजल्द का`
+  line `भाग या िण्ड औरपुनस्त का औरस्र् रनलनपपत्र, मा ननचत्र, चार्वयारेिांकनहैककन्तु इसकेअन्त गवतप्रैसऔरपुस्त क`
+  line `रनजस्री करणअनिननयम, 1867 (1867 का 25) कीिारा 5 केउप बन्िों केअनुरूपप्रकानितसमाचारपत्रनहींहै;`
+  line `3 [ (कक) “ समाचारपत्र ” सेप्रैसऔरपुस्त करनजस्री करणअनिननयम, 1867 (1867 का 25) की िारा 5 केउप बन्िों`
+  line `केअनुरूप प्र कानितऐसीमुकितकानलक कृनतअनभप्रेतहैनजसमेंसार्वजननकसमाचारयासार्वजननकसमाचारोंकीसमीिा`
+  line `अंतर्र्वष्‍टर् है; ]`
+  line `(ि) “ सार्वजननकपुस्त कालय ” सेकलकत्तानस्थ तराष्‍टरी यपुस्त कालयऔरकोईअन्य तीनपुस्त कालयअनभप्रेतहैं`
+  line `जोकेन्िी यसरकारद्वाराइसनननमत्त राजपत्रमेंअनिसूचना द्व ारा नर्ननर्दवष्‍टर् ककएजाएं।`
+  line `3. सार्वजननक पुस्त कालयोंकोपु स् त कोंकापररदान — (1) इसअनिननयमकेअिीनबनाएजानेर्ाले ननयमों केअिीनरहते हु`
+  line `ए, प्रै स और पुस्त करनजस्री करण अनिननयम, 1867 (1867 का 25) कीिारा 9 केउपबन्िों परप्रनतकूल प्र भार्डालेनबना, उन`
+  line `राज्य िेत्रोंमें, नजनपरइसअनिननयमका नर्स्ता रहै, इसअनिननयमकेप्रारम्भ केपश्चा त्प्रकानितप्रत्ये कपुस्त ककाप्रकािक, प्र`
+  line `नतकूलकरारकेहोतेहुएभी, अपने िचेपरपुस्त ककी एकप्रनत कलकत्तानस्थ तराष्‍टरी य पुस्त कालयकोऔरतीनअन्य सार्वजननक`
+  line `पुस्त कालयों में सेप्रत्ये कको ऐसी एक प्र नतप्रकािनकीतारीि से तीसकदनकेअन्द रपररदान करेगा।`
+  line `(2) राष्‍टरी य पुस्त कालय कोपररदत्तउसकेसभीमाननचत्रोंऔरनचत्रकारीसनहतसम्पू णवपुस्त ककी एकप्रनतहोगी, जोउसी`
+  line `रीनतमेंपररसानितऔररंनजतहोगीऔरनजल्द बन्द कीजाएगी, नसलीजाएगीयाबांिीजाएगी, जैसीउसकीसर्ोत्तमकृनतयांहैं और`
+  line `ऐसेसर्ोत्तमकागजपरहोगीनजसपरउसपुस्त ककीएकभीप्रनतमुकितकीगईहै।`
+  line `(3) ककसीअन्य सार्वजननकपुस्त कालयकोपररदानकीजानेर्ालीप्रनतउसकागजपरहोगीनजसपरनर्क्रयकेनलएपुस्त क`
+  line `कीसर्ावनिकसंखया मेंप्रनतयांमुकितकीगईहैं, औरउसीदिामेंहोगीजैसीनर्क्रयकेनलएतैयारकीगईपुस्त केंहैं।`
+  line `(4) उपिारा (1) कीकोईबातपुस्त ककेऐसेनद्वतीययापश्चा त्र् तीसंस्क रणकोलागूनहीं होगीनजससंस्क रणमेंनतोलेर्र प्रै`
+  line `समेंऔरनमाननचत्रोंमेंपुस्त कमुि(बुकप्प्रंर्)मेंयापुस्त ककेअन्य उत्की णोंमेंकोईपररर्िवनयापररर्तवनककएगएहैं, औरउस`
+  line `पुस्त ककेप्रथमयाअन्य पूर्वर्तीसंस्क रणकीप्रनत इसअनिननयमकेअिीनपररदत्तकरदीगईहै।`
+  line `4 [ 3 क. सार्वजननकपुस्त कालयों कोसमाचारपत्रोंकापररदान — इस अनिननयमकेअिीनबनाएजानेर्ालेननयमोंकेअिीन`
+  line `रहतेहुए, ककन्तु प्रै सऔरपुस्त करनजस्री करणअनिननयम, 1867 (1867 का 25) केउपबन्िों परप्रनतकूलप्रभार् डालेनबना, उन`
+  line `राज्य िेत्रों में, नजनपरइसअनिननयमकानर्स्ता रहै, प्र कानितप्रत्ये कसमाचारपत्रकाप्रकािक, अपनेिचेपरसमाचारपत्रकेप्रत्ये क`
+  line `अंककीएकप्रनत उसकेप्रकानितहोतेहुएभीऐसेप्रत्ये कसार्वजननक पुस्त कालयकोजोकेन्िी यसरकारइसनननमत्तराजपत्रमें`
+  line `अनिसूनचतकरे, पररदानकरेगा। ]`
+  line `1 1956 केअनिननयमसं ० 99 कीिारा 2 द्व ाराअंत:स्था नपत।`
+  line `2 1956 केअनिननयमसं ० 99 कीिारा 3 द्व ाराअंत:स्था नपत।`
+  line `* इस अनिननयमकोजम्मू - कश्मीरसंघराज्यिेत्रऔरलद्दािसंघराज्यिेत्र मेंअनिसूचनासं.सा.का. 3912 (अ),तारीि, 30 अक्र्ूबर, 2019 सेलागूककयागया।`
+  line `3 1956 केअनिननयमसं ० 99 कीिारा 4 द्व ाराअंत:स्था नपत।`
+  line `4 1956 केअनिननयमसं ० 99 कीिारा 5 द्व ाराअंत:स्था नपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-4. पररदत्तपुस्त कों कीरसीद — सार्वजननक पुस्त कालयकाभारसािकव्य नक्त (चाहेर्हपुस्त काल याध्य ि याककसीअन्य नाम
-सेसंबो नितककयाजाए) याइसनननमत्त उसकेद्वाराप्रा निकृत कोईअन्य व् य नक्त नजसको िारा 3 केअिीनपुस्त ककीप्रनतपररदत्त की
-जातीहैप्रकािककोउसकेनलएनलनितरूपमेंरसीददेगा।
-5. िानस्त — कोईप्रकािक जोइसअनिननयमया तद् िीन बनाएगएककसीननयमकेककसीउपबन्ि काउल्लं घनकरेगार्ह
-जुमावनेसेजोपचासरु पएतककाहोसकेगादण्ड नीयहोगा 1 [ औरयकदउल्लं घनपुस्त ककीबाबतहैतो पुस्त ककेमूल्य केबराबर
-जुमावनेसेभीदण्ड नीयहोगा ] औरअपरािकानर्चारणकरनेर्ालान्या यालययहननदेिदेसकताहैककउससे आपन ककयागया
-सम्पू णवजुमावनायाउसकाकोईभागप्रनतकरकेरू पमेंउससार्वजननकपुस्त कालयकोकदयाजाएगा; नजसको 2 [ यथानस्थ नत, र् हपुस्त क
-यासमाचारपत्र ] पररदत्तककयाजानाथा।
-6. अपरािोंकासंज्ञान — (1) केन्िी यसरकारद्वारा सािारणयानर्िेर्आदेिद्वाराइसनननमत्तसिक्त ककसीअनिकारीद्वारा
-ककएगएपररर्ादकेनसर्ायको ईन्या यालयइसअनिननयमकेअिीनदण्ड नीय ककसीअपरािकासंज्ञाननहींकरेगा।
-(2) प्रे नसडेंसी मनजस्रे र् याप्रथमर्गवमनजस्रे र् सेननम्न कोईन्या यालयइसअनिननयमकेअिीनदण्ड नीयककसीअपरािका
-नर्चारणनहींकरेगा।
-3 [ 7. सरकारद्वाराप्रकानितपुस्त कोंऔर समाचारपत्रोंकोअनिननयमकालागूहोना — यहअनिननयम सरकारद्वाराया
-उसकेप्रानिकार केअिीनप्रकानितपु स् त कोंकोभीलागूहो गा ककन्तु िासकीयउपयोगकेनलएप्रकानितपुस्त कोंकोलागू
-नहींहोगा। ]
-8. ननयमबनानेकीिनक्त — 4 [ (1) ] केन्िी यसरकार, राजपत्रमेंअनिसूचनाद्वारा, इसअनिननयमकेप्रयोजनोंकोकक्रयानन्र् त
-करनेकेनलएननयमबनासकतीहै।
-5 [ ( 2 ) इसअनिननयमकेअिीनकेन्िी यसरकारद्वारा बनायागयाप्रत्ये कननयमबनाएजानेकेपश्चा त्, यथािीघ्र, संसद्के प्रत्
-ये कसदनकेसमि, जबर्हऐसीकुल ती स कदनकीअर्निकेनलएसत्रमेंहो, जोएकसत्रमेंअथर्ादोयाअनिकआनुक्रनमकसत्रों
-मेंपूरीहोसकतीहै, रिाजाएगाऔरयकदउस सत्रकेयापूर्ोक्त आनुक्रनमकसत्रकेठीकबादकेसत्रकेअर्सानकेपूर्वदोनोंसदन
-उसननयममेंकोईपररर्तवनकरनेकेनलएसहमतहोजाएं, यादोनोंसदनइसबातसेसहमतहोजाएंककर्हननयमनहींबनाया
-जानाचानहएतोऐसाननयम, यथानस्थ नत, तत्प श् चा त्केर्लऐसेपररर्र्तवतरूपमेंहीप्रभार्ीहोगायाउसकाकोईप्रभार् नहींहोगा,
-तथानप, उसननयमकेऐसेपररर्र्तवतयाननष्‍टप्र भार्होनेसेपहले उसकेअिीनकी गईककसीबातकीनर्निमान्य तापरप्रनतकूलप्रभार्
-नहींपडेगा। ]
-______
-1 1956 केअनिननयमसं ० 99 कीिारा 6 द्व ारा “ औरपुस्त ककेमूल्य ” केस्था नपरप्रनतस्था नपत।
-2 1956 केअनिननयमसं ० 99 कीिारा 6 द्व ाराअंत:स्था नपत।
-3 1956 केअनिननयमसं ० 99 कीिारा 7 द्व ारा प्र नत स् था नपत।
-4 2005 केअनिननयमसं ० 4 कीिारा 2 और अनुसूचीद्वारापुन:संखयां ककत।
-5 2005 केअनिननयमसं ० 4 कीिारा 2 औरअ नुसूचीद्वाराअंत:स्था नपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `4. पररदत्तपुस्त कों कीरसीद — सार्वजननक पुस्त कालयकाभारसािकव्य नक्त (चाहेर्हपुस्त काल याध्य ि याककसीअन्य नाम`
+  line `सेसंबो नितककयाजाए) याइसनननमत्त उसकेद्वाराप्रा निकृत कोईअन्य व् य नक्त नजसको िारा 3 केअिीनपुस्त ककीप्रनतपररदत्त की`
+  line जातीहैप्रकािककोउसकेनलएनलनितरूपमेंरसीददेगा।
+  line `5. िानस्त — कोईप्रकािक जोइसअनिननयमया तद् िीन बनाएगएककसीननयमकेककसीउपबन्ि काउल्लं घनकरेगार्ह`
+  line `जुमावनेसेजोपचासरु पएतककाहोसकेगादण्ड नीयहोगा 1 [ औरयकदउल्लं घनपुस्त ककीबाबतहैतो पुस्त ककेमूल्य केबराबर`
+  line `जुमावनेसेभीदण्ड नीयहोगा ] औरअपरािकानर्चारणकरनेर्ालान्या यालययहननदेिदेसकताहैककउससे आपन ककयागया`
+  line `सम्पू णवजुमावनायाउसकाकोईभागप्रनतकरकेरू पमेंउससार्वजननकपुस्त कालयकोकदयाजाएगा; नजसको 2 [ यथानस्थ नत, र् हपुस्त क`
+  line `यासमाचारपत्र ] पररदत्तककयाजानाथा।`
+  line `6. अपरािोंकासंज्ञान — (1) केन्िी यसरकारद्वारा सािारणयानर्िेर्आदेिद्वाराइसनननमत्तसिक्त ककसीअनिकारीद्वारा`
+  line `ककएगएपररर्ादकेनसर्ायको ईन्या यालयइसअनिननयमकेअिीनदण्ड नीय ककसीअपरािकासंज्ञाननहींकरेगा।`
+  line `(2) प्रे नसडेंसी मनजस्रे र् याप्रथमर्गवमनजस्रे र् सेननम्न कोईन्या यालयइसअनिननयमकेअिीनदण्ड नीयककसीअपरािका`
+  line नर्चारणनहींकरेगा।
+  line `3 [ 7. सरकारद्वाराप्रकानितपुस्त कोंऔर समाचारपत्रोंकोअनिननयमकालागूहोना — यहअनिननयम सरकारद्वाराया`
+  line `उसकेप्रानिकार केअिीनप्रकानितपु स् त कोंकोभीलागूहो गा ककन्तु िासकीयउपयोगकेनलएप्रकानितपुस्त कोंकोलागू`
+  line `नहींहोगा। ]`
+  line `8. ननयमबनानेकीिनक्त — 4 [ (1) ] केन्िी यसरकार, राजपत्रमेंअनिसूचनाद्वारा, इसअनिननयमकेप्रयोजनोंकोकक्रयानन्र् त`
+  line करनेकेनलएननयमबनासकतीहै।
+  line `5 [ ( 2 ) इसअनिननयमकेअिीनकेन्िी यसरकारद्वारा बनायागयाप्रत्ये कननयमबनाएजानेकेपश्चा त्, यथािीघ्र, संसद्के प्रत्`
+  line `ये कसदनकेसमि, जबर्हऐसीकुल ती स कदनकीअर्निकेनलएसत्रमेंहो, जोएकसत्रमेंअथर्ादोयाअनिकआनुक्रनमकसत्रों`
+  line `मेंपूरीहोसकतीहै, रिाजाएगाऔरयकदउस सत्रकेयापूर्ोक्त आनुक्रनमकसत्रकेठीकबादकेसत्रकेअर्सानकेपूर्वदोनोंसदन`
+  line `उसननयममेंकोईपररर्तवनकरनेकेनलएसहमतहोजाएं, यादोनोंसदनइसबातसेसहमतहोजाएंककर्हननयमनहींबनाया`
+  line `जानाचानहएतोऐसाननयम, यथानस्थ नत, तत्प श् चा त्केर्लऐसेपररर्र्तवतरूपमेंहीप्रभार्ीहोगायाउसकाकोईप्रभार् नहींहोगा,`
+  line `तथानप, उसननयमकेऐसेपररर्र्तवतयाननष्‍टप्र भार्होनेसेपहले उसकेअिीनकी गईककसीबातकीनर्निमान्य तापरप्रनतकूलप्रभार्`
+  line `नहींपडेगा। ]`
+  line ______
+  line `1 1956 केअनिननयमसं ० 99 कीिारा 6 द्व ारा “ औरपुस्त ककेमूल्य ” केस्था नपरप्रनतस्था नपत।`
+  line `2 1956 केअनिननयमसं ० 99 कीिारा 6 द्व ाराअंत:स्था नपत।`
+  line `3 1956 केअनिननयमसं ० 99 कीिारा 7 द्व ारा प्र नत स् था नपत।`
+  line `4 2005 केअनिननयमसं ० 4 कीिारा 2 और अनुसूचीद्वारापुन:संखयां ककत।`
+  line `5 2005 केअनिननयमसं ० 4 कीिारा 2 औरअ नुसूचीद्वाराअंत:स्था नपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line

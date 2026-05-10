@@ -1,39 +1,35 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:24:49.256Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/11413`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 35)
-  (str totalSections) (int 35)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:24:49.256Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/11413`
+  completeFetch true
+  maxSections null
+  sectionCount 35
+  totalSections 35
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-india-international-arbitration-centre-act-2019)
-  (str handle) (str 11413)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The India International Arbitration Centre Act, 2019`)
-  (str actNumber) (str 17)
-  (str enactmentDate) (str 2019-07-26)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/11413`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `नई दिल्ली अन्तरराष्ट्रीदय माध्यस्थम् केंद्र अधिनियम, 2019`)
-  (str actYear) (str 2019)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Department of Legal Affairs`)
-  (str longTitle) (str `An Act to provide for the establishment and incorporation of the New Delhi International Arbitration Centre for the purpose of creating an independent and autonomous regime for institutionalised arbitration and for acquisition and transfer of the undertakings of the International Centre for Alternative Dispute Resolution and to vest such undertakings in the New Delhi International Arbitration Centre for the better management of arbitration so as to make it a hub for institutional arbitration and to declare the New Delhi International Arbitration Centre to be an institution of national importance and for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 02-03-2019)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T15:52:45.570Z`)
-  (str translations) obj_root_law_translations
+  slug the-india-international-arbitration-centre-act-2019
+  handle (11413)
+  collectionHandle 123456789/1362
+  title `The India International Arbitration Centre Act, 2019`
+  actNumber (17)
+  enactmentDate 2019-07-26
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/11413`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `नई दिल्ली अन्तरराष्ट्रीदय माध्यस्थम् केंद्र अधिनियम, 2019`
+  actYear (2019)
+  ministry `Ministry of Law and Justice`
+  department `Department of Legal Affairs`
+  longTitle `An Act to provide for the establishment and incorporation of the New Delhi International Arbitration Centre for the purpose of creating an independent and autonomous regime for institutionalised arbitration and for acquisition and transfer of the undertakings of the International Centre for Alternative Dispute Resolution and to vest such undertakings in the New Delhi International Arbitration Centre for the better management of arbitration so as to make it a hub for institutional arbitration and to declare the New Delhi International Arbitration Centre to be an institution of national importance and for matters connected therewith or incidental thereto.`
+  enforcementDate 02-03-2019
+  notification undefined
+  fetchedAt `2026-05-09T15:52:45.570Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_india_international_arbitration_centre_act_2019
   obj_root_law_sources_en_3
@@ -42,49 +38,51 @@ obj_root_law_sources_en:
   obj_root_law_sources_en_6
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/11413`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/11413`
 obj_root_law_sources_en_the_india_international_arbitration_centre_act_2019:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/11413/1/A2019-17.pdf`)
-  (str title) (str `The India International Arbitration Centre Act, 2019`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/11413/1/A2019-17.pdf`
+  title `The India International Arbitration Centre Act, 2019`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_442_eng.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_442_eng.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_464_english.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_464_english.pdf`
+  title obj_root_law_sources_en_4_title
+obj_root_law_sources_en_4_title:
+  string
+  line
 obj_root_law_sources_en_5:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_470_english.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_470_english.pdf`
+  title obj_root_law_sources_en_5_title
+obj_root_law_sources_en_5_title:
+  string
+  line
 obj_root_law_sources_en_6:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_469_english.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_469_english.pdf`
+  title obj_root_law_sources_en_6_title
+obj_root_law_sources_en_6_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_2019
 obj_root_law_sources_hi_2019:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/11413/2/H2019-17.pdf`)
-  (str title) (str `नई दिल्ली अन्तरराष्ट्रीदय माध्यस्थम् केंद्र अधिनियम, 2019`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/11413/2/H2019-17.pdf`
+  title `नई दिल्ली अन्तरराष्ट्रीदय माध्यस्थम् केंद्र अधिनियम, 2019`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -121,807 +119,952 @@ obj_root_law_sections:
   obj_root_law_sections_34
   obj_root_law_sections_35
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 49380)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and commencement.`)
-  (str content) (str `(1) (1) This Act may be called the ^1[India International
-Arbitration Centre] Act, 2019.
-
-(2) It shall be deemed to have come into force on the 2nd March, 2019.`)
-  (str footnotes) (str `1. Subs. by Act 23 of 2022, s. 4, for "New Delhi International Arbitration Centre" (w.e.f. 27-1-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49380&sectionno=1&orderno=1&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49380)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes `1. Subs. by Act 23 of 2022, s. 4, for "New Delhi International Arbitration Centre" (w.e.f. 27-1-2023).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49380&sectionno=1&orderno=1&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_1_content:
+  string
+  line `(1) (1) This Act may be called the ^1[India International`
+  line `Arbitration Centre] Act, 2019.`
+  line
+  line `(2) It shall be deemed to have come into force on the 2nd March, 2019.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 49381)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `(1) In this Act, unless the context otherwise requires,---
-
-(a) "Centre" means the ^1[India International Arbitration Centre] established and incorporated
-under section 3;
-
-(b) "Chairperson" means the Chairperson of the Centre referred to in clause (a) of section 5;
-
-(c) "Chief Executive Officer" means the Chief Executive Officer appointed under section 21;
-
-(d) "Committee" means the relevant Committee of the Centre referred to in section 19;
-
-(e) "Custodian" means the person who is appointed as Custodian under sub-section (2) of
-section 11 in respect of the undertakings;
-
-(f) "Fund" means the Fund of the Centre to be maintained under section 25;
-
-(g) "Member" means Full-time or Part-time Member of the Centre and includes the
-Chairperson;
-
-(h) "notification" means a notification published in the Official Gazette;
-
-(i) "prescribed" means prescribed by rules made by the Central Government under this Act;
-
-(j) "regulations" means regulations made by the Centre under this Act;
-
-(k) "Society" means the International Centre for Alternative Dispute Resolution, registered as
-such under the Societies Registration Act, 1860 (21 of 1860), and having its registered office at
-New Delhi;
-
-(l) "specified date" means the date as may be specified by the Central Government by
-notification;
-
-(m) "undertakings" means the undertakings of the Society which vests with the Central
-Government under section 7.
-
-(2) All other words and expressions used herein but not defined and defined in the Arbitration and
-Conciliation Act, 1996 (26 of 1996), shall have the same meanings as assigned to them in that Act.`)
-  (str footnotes) (str `1. Subs. by Act 23 of 2022, s. 5, for "New Delhi International Arbitration Centre" (w.e.f. 27-1-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49381&sectionno=2&orderno=2&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49381)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes `1. Subs. by Act 23 of 2022, s. 5, for "New Delhi International Arbitration Centre" (w.e.f. 27-1-2023).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49381&sectionno=2&orderno=2&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_2_content:
+  string
+  line `(1) In this Act, unless the context otherwise requires,---`
+  line
+  line `(a) "Centre" means the ^1[India International Arbitration Centre] established and incorporated`
+  line `under section 3;`
+  line
+  line `(b) "Chairperson" means the Chairperson of the Centre referred to in clause (a) of section 5;`
+  line
+  line `(c) "Chief Executive Officer" means the Chief Executive Officer appointed under section 21;`
+  line
+  line `(d) "Committee" means the relevant Committee of the Centre referred to in section 19;`
+  line
+  line `(e) "Custodian" means the person who is appointed as Custodian under sub-section (2) of`
+  line `section 11 in respect of the undertakings;`
+  line
+  line `(f) "Fund" means the Fund of the Centre to be maintained under section 25;`
+  line
+  line `(g) "Member" means Full-time or Part-time Member of the Centre and includes the`
+  line Chairperson;
+  line
+  line `(h) "notification" means a notification published in the Official Gazette;`
+  line
+  line `(i) "prescribed" means prescribed by rules made by the Central Government under this Act;`
+  line
+  line `(j) "regulations" means regulations made by the Centre under this Act;`
+  line
+  line `(k) "Society" means the International Centre for Alternative Dispute Resolution, registered as`
+  line `such under the Societies Registration Act, 1860 (21 of 1860), and having its registered office at`
+  line `New Delhi;`
+  line
+  line `(l) "specified date" means the date as may be specified by the Central Government by`
+  line notification;
+  line
+  line `(m) "undertakings" means the undertakings of the Society which vests with the Central`
+  line `Government under section 7.`
+  line
+  line `(2) All other words and expressions used herein but not defined and defined in the Arbitration and`
+  line `Conciliation Act, 1996 (26 of 1996), shall have the same meanings as assigned to them in that Act.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 49382)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Establishment and incorporation of India International Arbitration Centre`)
-  (str content) (str `CHAPTER II
-
-ESTABLISHMENT AND INCORPORATION OF ^1[INDIA INTERNATIONAL ARBITRATION CENTRE]
-
-3. Establishment and incorporation of ^2[India International Arbitration Centre].--- (1) The
-Central Government shall, by notification, establish a body to be called the ^2[India International
-Arbitration Centre] for the purposes of exercising the powers and discharging the functions under this
-Act.
-
-(2) The Centre shall be a body corporate by the name aforesaid, having perpetual succession and a
-common seal with power, subject to the provisions of this Act, to acquire, hold and dispose of
-property, both movable and immovable, and to enter into contract, and shall, by the said name, sue or
-be sued.`)
-  (str footnotes) (str `1. Subs. by Act 23 of 2022, s. 6, for Chapter heading "NEW DELHI INTERNATIONAL ARBITRATION CENTRE" (w.e.f. 27-1-
-2023).
-
-2. Subs. by s. 7, ibid., for "New Delhi International Arbitration Centre" (w.e.f. 27-1-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49382&sectionno=3&orderno=3&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49382)
+  sectionNo (3)
+  orderNo 3
+  title `Establishment and incorporation of India International Arbitration Centre`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49382&sectionno=3&orderno=3&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_3_content:
+  string
+  line `CHAPTER II`
+  line
+  line `ESTABLISHMENT AND INCORPORATION OF ^1[INDIA INTERNATIONAL ARBITRATION CENTRE]`
+  line
+  line `3. Establishment and incorporation of ^2[India International Arbitration Centre].--- (1) The`
+  line `Central Government shall, by notification, establish a body to be called the ^2[India International`
+  line `Arbitration Centre] for the purposes of exercising the powers and discharging the functions under this`
+  line Act.
+  line
+  line `(2) The Centre shall be a body corporate by the name aforesaid, having perpetual succession and a`
+  line `common seal with power, subject to the provisions of this Act, to acquire, hold and dispose of`
+  line `property, both movable and immovable, and to enter into contract, and shall, by the said name, sue or`
+  line `be sued.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. Subs. by Act 23 of 2022, s. 6, for Chapter heading "NEW DELHI INTERNATIONAL ARBITRATION CENTRE" (w.e.f. 27-1-`
+  line `2023).`
+  line
+  line `2. Subs. by s. 7, ibid., for "New Delhi International Arbitration Centre" (w.e.f. 27-1-2023).`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 49383)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Declaration of India International Arbitration Centre as an institution of national importance.`)
-  (str content) (str `4. Declaration of ^1[India International Arbitration Centre] as an institution of national
-importance.--- (1) Whereas, the objects of the ^1[India International Arbitration Centre] are such as to
-make it as an institution of national importance, it is hereby declared that the ^1[India International
-Arbitration Centre] is an institution of national importance.
-
-(2) The head office of the Centre shall be at New Delhi and it may with the previous approval of
-the Central Government, establish branches at other places in India and abroad.`)
-  (str footnotes) (str `1. Subs. by Act 23 of 2022, s. 8, for "New Delhi International Arbitration Centre" (w.e.f. 27-1-2023)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49383&sectionno=4&orderno=4&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49383)
+  sectionNo (4)
+  orderNo 4
+  title `Declaration of India International Arbitration Centre as an institution of national importance.`
+  content obj_root_law_sections_4_content
+  footnotes `1. Subs. by Act 23 of 2022, s. 8, for "New Delhi International Arbitration Centre" (w.e.f. 27-1-2023)`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49383&sectionno=4&orderno=4&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_4_content:
+  string
+  line `4. Declaration of ^1[India International Arbitration Centre] as an institution of national`
+  line `importance.--- (1) Whereas, the objects of the ^1[India International Arbitration Centre] are such as to`
+  line `make it as an institution of national importance, it is hereby declared that the ^1[India International`
+  line `Arbitration Centre] is an institution of national importance.`
+  line
+  line `(2) The head office of the Centre shall be at New Delhi and it may with the previous approval of`
+  line `the Central Government, establish branches at other places in India and abroad.`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 49384)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Composition of Centre.`)
-  (str content) (str `The Centre shall consist of the following Members, namely:--
-
-(a) a person, who has been a Judge of the Supreme Court or a Judge of a High Court or an
-eminent person, having special knowledge and experience in the conduct or administration of
-arbitration, law or management, appointed by the Central Government in consultation with the
-Chief Justice of India----Chairperson;
-
-(b) two eminent persons having substantial knowledge and experience in institutional
-arbitration, both domestic and international, appointed by the Central Government----Full-time
-Members or Part-time Members;
-
-(c) one representative of a recognised body of commerce and industry, chosen on rotational
-basis by the Central Government----Part-time Member;
-
-(d) Secretary, Department of Legal Affairs, Ministry of Law and Justice or his representative,
-not below the rank of the Joint Secretary----Member, ex officio;
-
-(e) one Financial Adviser nominated by the Department of Expenditure, Ministry of Finance----
-Member, ex officio; and
-
-(f) Chief Executive Officer----Member, ex officio.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49384&sectionno=5&orderno=5&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49384)
+  sectionNo (5)
+  orderNo 5
+  title `Composition of Centre.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49384&sectionno=5&orderno=5&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_5_content:
+  string
+  line `The Centre shall consist of the following Members, namely:--`
+  line
+  line `(a) a person, who has been a Judge of the Supreme Court or a Judge of a High Court or an`
+  line `eminent person, having special knowledge and experience in the conduct or administration of`
+  line `arbitration, law or management, appointed by the Central Government in consultation with the`
+  line `Chief Justice of India----Chairperson;`
+  line
+  line `(b) two eminent persons having substantial knowledge and experience in institutional`
+  line `arbitration, both domestic and international, appointed by the Central Government----Full-time`
+  line `Members or Part-time Members;`
+  line
+  line `(c) one representative of a recognised body of commerce and industry, chosen on rotational`
+  line `basis by the Central Government----Part-time Member;`
+  line
+  line `(d) Secretary, Department of Legal Affairs, Ministry of Law and Justice or his representative,`
+  line `not below the rank of the Joint Secretary----Member, ex officio;`
+  line
+  line `(e) one Financial Adviser nominated by the Department of Expenditure, Ministry of Finance----`
+  line `Member, ex officio; and`
+  line
+  line `(f) Chief Executive Officer----Member, ex officio.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 49385)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Terms and conditions, etc., of Chairperson and Members.`)
-  (str content) (str `(1) The Chairperson and
-Members shall hold office for a term of three years from the date on which they enter upon their
-office and shall be eligible for re-appointment:
-
-Provided that no Chairperson or Member shall hold office as such after he has attained the age of
-seventy years in the case of Chairperson and sixty-seven years in the case of a Member.
-
-(2) The terms and conditions, salaries and allowances payable to the Chairperson and Full-time
-Member shall be such as may be prescribed.
-
-(3) The term of office of a Member appointed to fill a casual vacancy shall be for the remainder of
-the term of the Member in whose place he has been appointed.
-
-(4) The Part-time Member shall be entitled to such travelling and other allowances as may be
-prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49385&sectionno=6&orderno=6&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49385)
+  sectionNo (6)
+  orderNo 6
+  title `Terms and conditions, etc., of Chairperson and Members.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49385&sectionno=6&orderno=6&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_6_content:
+  string
+  line `(1) The Chairperson and`
+  line `Members shall hold office for a term of three years from the date on which they enter upon their`
+  line `office and shall be eligible for re-appointment:`
+  line
+  line `Provided that no Chairperson or Member shall hold office as such after he has attained the age of`
+  line `seventy years in the case of Chairperson and sixty-seven years in the case of a Member.`
+  line
+  line `(2) The terms and conditions, salaries and allowances payable to the Chairperson and Full-time`
+  line `Member shall be such as may be prescribed.`
+  line
+  line `(3) The term of office of a Member appointed to fill a casual vacancy shall be for the remainder of`
+  line `the term of the Member in whose place he has been appointed.`
+  line
+  line `(4) The Part-time Member shall be entitled to such travelling and other allowances as may be`
+  line prescribed.
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 49386)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Transfer and vesting.`)
-  (str content) (str `On and from the specified date, so much of the undertakings of the
-Society as form part of, or are relatable to the Society, and the right, title and interest of the Society in
-relation to such undertakings, shall, by virtue of this Act, stand transferred to, and vest in, the Central
-Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49386&sectionno=7&orderno=7&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49386)
+  sectionNo (7)
+  orderNo 7
+  title `Transfer and vesting.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49386&sectionno=7&orderno=7&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_7_content:
+  string
+  line `On and from the specified date, so much of the undertakings of the`
+  line `Society as form part of, or are relatable to the Society, and the right, title and interest of the Society in`
+  line `relation to such undertakings, shall, by virtue of this Act, stand transferred to, and vest in, the Central`
+  line Government.
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 49387)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `General effect of vesting.`)
-  (str content) (str `(1) The undertakings vested under section 7 shall be deemed to
-include all assets, rights, leaseholds, powers, authorities and privileges, and all property (movable and
-immovable), including lands, buildings, works, projects, instruments, automobiles and other vehicles,
-cash balances, funds, including reserve funds, investments and book debts of the Society as form part
-of, or are relatable to, the Society and all other rights and interest arising out of such properties as
-were immediately before the commencement of the New Delhi International Arbitration Centre
-Ordinance, 2019 (Ord. 10 of 2019) in the ownership, possession, power or control of the Society, and
-all books of account, registers and all other documents of whatever nature relating thereto.
-
-(2) All properties and assets as aforesaid which have vested in the Central Government under
-section 7 shall, by force of such vesting, be freed and discharged from any trust, obligation, mortgage,
-charge, lien and all other encumbrances affecting them or of any attachment, injunction, decree or
-order of any court or other authority restricting the use of such properties or assets in any manner or
-appointing any receiver in respect of the whole or any part of such properties or assets shall be
-deemed to have been withdrawn.
-
-(3) Any licence or other instrument granted to the Society in relation to any undertaking which has
-vested in the Central Government under section 7 at any time before the specified date and in force
-immediately before the specified date, shall continue to be in force on and after such day in
-accordance with its tenor in relation to and for the purpose of such undertaking or where the
-undertaking is directed under section 10, to vest in the Centre, the Centre shall be deemed to be
-substituted in such licence or other instrument as if such licence or other instrument had been granted to the Centre and the Centre shall hold it for the remainder of the period which the Society would
-have held it under the terms thereof.
-
-(4) If, on the specified date, any suit, appeal or other proceeding, of whatever nature, in relation to
-any property or asset which has vested in the Central Government under section 7, instituted or
-preferred by or against the Society is pending, the same shall not abate, be discontinued or be, in any
-way, prejudicially affected by reason of the transfer of the undertaking of the Society of anything
-contained in this Act, but the suit, appeal or other proceeding may be continued, prosecuted or
-enforced by or against the Central Government or where the undertakings of the Society are directed
-under section 10, to vest in the Centre, by or against the Centre.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49387&sectionno=8&orderno=8&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49387)
+  sectionNo (8)
+  orderNo 8
+  title `General effect of vesting.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49387&sectionno=8&orderno=8&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_8_content:
+  string
+  line `(1) The undertakings vested under section 7 shall be deemed to`
+  line `include all assets, rights, leaseholds, powers, authorities and privileges, and all property (movable and`
+  line `immovable), including lands, buildings, works, projects, instruments, automobiles and other vehicles,`
+  line `cash balances, funds, including reserve funds, investments and book debts of the Society as form part`
+  line `of, or are relatable to, the Society and all other rights and interest arising out of such properties as`
+  line `were immediately before the commencement of the New Delhi International Arbitration Centre`
+  line `Ordinance, 2019 (Ord. 10 of 2019) in the ownership, possession, power or control of the Society, and`
+  line `all books of account, registers and all other documents of whatever nature relating thereto.`
+  line
+  line `(2) All properties and assets as aforesaid which have vested in the Central Government under`
+  line `section 7 shall, by force of such vesting, be freed and discharged from any trust, obligation, mortgage,`
+  line `charge, lien and all other encumbrances affecting them or of any attachment, injunction, decree or`
+  line `order of any court or other authority restricting the use of such properties or assets in any manner or`
+  line `appointing any receiver in respect of the whole or any part of such properties or assets shall be`
+  line `deemed to have been withdrawn.`
+  line
+  line `(3) Any licence or other instrument granted to the Society in relation to any undertaking which has`
+  line `vested in the Central Government under section 7 at any time before the specified date and in force`
+  line `immediately before the specified date, shall continue to be in force on and after such day in`
+  line `accordance with its tenor in relation to and for the purpose of such undertaking or where the`
+  line `undertaking is directed under section 10, to vest in the Centre, the Centre shall be deemed to be`
+  line `substituted in such licence or other instrument as if such licence or other instrument had been granted to the Centre and the Centre shall hold it for the remainder of the period which the Society would`
+  line `have held it under the terms thereof.`
+  line
+  line `(4) If, on the specified date, any suit, appeal or other proceeding, of whatever nature, in relation to`
+  line `any property or asset which has vested in the Central Government under section 7, instituted or`
+  line `preferred by or against the Society is pending, the same shall not abate, be discontinued or be, in any`
+  line `way, prejudicially affected by reason of the transfer of the undertaking of the Society of anything`
+  line `contained in this Act, but the suit, appeal or other proceeding may be continued, prosecuted or`
+  line `enforced by or against the Central Government or where the undertakings of the Society are directed`
+  line `under section 10, to vest in the Centre, by or against the Centre.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 49388)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Liability prior to specified date.`)
-  (str content) (str `Every liability in relation to any undertaking in respect of
-any period prior to the specified date, shall be enforceable against the Society and not against the
-Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49388&sectionno=9&orderno=9&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49388)
+  sectionNo (9)
+  orderNo 9
+  title `Liability prior to specified date.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49388&sectionno=9&orderno=9&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_9_content:
+  string
+  line `Every liability in relation to any undertaking in respect of`
+  line `any period prior to the specified date, shall be enforceable against the Society and not against the`
+  line `Central Government.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 49389)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Power of Central Government to direct vesting of undertaking in Centre.`)
-  (str content) (str `(1)
-Notwithstanding anything contained in sections 7 and 8, the Central Government shall, as soon as
-may be after the specified date, direct by notification, that the undertakings and the right, title and
-interest of the Society in relation to such undertakings which had vested in the Central Government
-under section 7, shall, vest in the Centre either on the date of publication of the notification or on such
-earlier or later date as may be specified in the notification.
-
-(2) Where the right, title and interest of the Society in relation to the undertakings vest, under subsection (1), in the Centre, the Centre shall, on and from the date of such vesting, be deemed to have
-become the owner in relation to such undertakings and the rights and liabilities of the Central
-Government in relation to such undertakings shall, on and from the date of such vesting, be deemed to
-have become, the rights and liabilities, respectively, of the Centre.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49389&sectionno=10&orderno=10&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49389)
+  sectionNo (10)
+  orderNo 10
+  title `Power of Central Government to direct vesting of undertaking in Centre.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49389&sectionno=10&orderno=10&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_10_content:
+  string
+  line `(1)`
+  line `Notwithstanding anything contained in sections 7 and 8, the Central Government shall, as soon as`
+  line `may be after the specified date, direct by notification, that the undertakings and the right, title and`
+  line `interest of the Society in relation to such undertakings which had vested in the Central Government`
+  line `under section 7, shall, vest in the Centre either on the date of publication of the notification or on such`
+  line `earlier or later date as may be specified in the notification.`
+  line
+  line `(2) Where the right, title and interest of the Society in relation to the undertakings vest, under subsection (1), in the Centre, the Centre shall, on and from the date of such vesting, be deemed to have`
+  line `become the owner in relation to such undertakings and the rights and liabilities of the Central`
+  line `Government in relation to such undertakings shall, on and from the date of such vesting, be deemed to`
+  line `have become, the rights and liabilities, respectively, of the Centre.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 49390)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Management, etc., of undertakings.`)
-  (str content) (str `(1) The general superintendence, direction, control
-and management of affairs of the undertakings, the right, the interest in relation to which have vested
-in the Central Government under section 7, shall---
-
-(a) where a direction has been made by the Central Government under sub-section (1) of
-section 10, vest in the Centre; or
-
-(b) where no such direction has been made by the Central Government, vest in the Custodian
-appointed by the Central Government under sub-section (2),
-
-and, thereupon, the Centre or the Custodian so appointed, as the case may be, shall be entitled to
-exercise all such powers and do all such things as the Society, is authorised to exercise and do in
-relation to its undertakings.
-
-(2) The Central Government may appoint any person as the Custodian of the undertakings in
-relation to which no direction has been made by it under sub-section (1) of section 10.
-
-(3) The Custodian so appointed shall receive such remuneration as the Central Government may
-fix and shall hold office during the pleasure of the Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49390&sectionno=11&orderno=11&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49390)
+  sectionNo (11)
+  orderNo 11
+  title `Management, etc., of undertakings.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49390&sectionno=11&orderno=11&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_11_content:
+  string
+  line `(1) The general superintendence, direction, control`
+  line `and management of affairs of the undertakings, the right, the interest in relation to which have vested`
+  line `in the Central Government under section 7, shall---`
+  line
+  line `(a) where a direction has been made by the Central Government under sub-section (1) of`
+  line `section 10, vest in the Centre; or`
+  line
+  line `(b) where no such direction has been made by the Central Government, vest in the Custodian`
+  line `appointed by the Central Government under sub-section (2),`
+  line
+  line `and, thereupon, the Centre or the Custodian so appointed, as the case may be, shall be entitled to`
+  line `exercise all such powers and do all such things as the Society, is authorised to exercise and do in`
+  line `relation to its undertakings.`
+  line
+  line `(2) The Central Government may appoint any person as the Custodian of the undertakings in`
+  line `relation to which no direction has been made by it under sub-section (1) of section 10.`
+  line
+  line `(3) The Custodian so appointed shall receive such remuneration as the Central Government may`
+  line `fix and shall hold office during the pleasure of the Central Government.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 49391)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Duties of persons in charge of management of undertakings to deliver all assets.`)
-  (str content) (str `(1) On
-the vesting of the management of the undertakings in the Centre or on the appointment of a Custodian
-under sub-section (2) of section 11, all persons in charge of management of the undertakings
-immediately before such vesting or appointment shall be bound to deliver to the Centre or Custodian,
-as the case may be, all assets, books of account, registers and other documents in their custody
-relating to the undertakings.
-
-(2) The Central Government may issue such directions as it may deem desirable in the
-circumstances of the case to the Custodian as to the powers and duties of the Custodian and such
-Custodian may also, if it is considered necessary so to do, apply to the Central Government at any
-time for instructions as to the manner in which the management of the undertaking shall be conducted
-or in relation to any other matter arising in the course of such management.
-
-(3) Any person who on the specified date, has in his possession or under his control, any books,
-documents or other papers relating to the undertakings shall be liable to account for the said books,
-documents or other papers to the Central Government or the Custodian or the Centre, as the case may
-be, and shall deliver them to the Central Government or the Custodian or the Centre or to such person
-or body of persons as the Central Government or the Centre may specify in this behalf.
-
-(4) The Central Government or the Centre may take or cause to be taken, all necessary steps for
-securing possession of all undertakings which have vested in the Central Government or the Centre
-under this Act.
-
-(5) The Society shall, within such period as the Central Government may allow in this behalf,
-furnish to that Government a complete inventory of all its properties and assets, as on the
-commencement of the New Delhi International Arbitration Centre Ordinance, 2019 (Ord. 10 of 2019)
-pertaining to the undertaking and for this purpose, the Central Government or Custodian or the Centre
-shall afford to the Society, or body all reasonable facilities.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49391&sectionno=12&orderno=12&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49391)
+  sectionNo (12)
+  orderNo 12
+  title `Duties of persons in charge of management of undertakings to deliver all assets.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49391&sectionno=12&orderno=12&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_12_content:
+  string
+  line `(1) On`
+  line `the vesting of the management of the undertakings in the Centre or on the appointment of a Custodian`
+  line `under sub-section (2) of section 11, all persons in charge of management of the undertakings`
+  line `immediately before such vesting or appointment shall be bound to deliver to the Centre or Custodian,`
+  line `as the case may be, all assets, books of account, registers and other documents in their custody`
+  line `relating to the undertakings.`
+  line
+  line `(2) The Central Government may issue such directions as it may deem desirable in the`
+  line `circumstances of the case to the Custodian as to the powers and duties of the Custodian and such`
+  line `Custodian may also, if it is considered necessary so to do, apply to the Central Government at any`
+  line `time for instructions as to the manner in which the management of the undertaking shall be conducted`
+  line `or in relation to any other matter arising in the course of such management.`
+  line
+  line `(3) Any person who on the specified date, has in his possession or under his control, any books,`
+  line `documents or other papers relating to the undertakings shall be liable to account for the said books,`
+  line `documents or other papers to the Central Government or the Custodian or the Centre, as the case may`
+  line `be, and shall deliver them to the Central Government or the Custodian or the Centre or to such person`
+  line `or body of persons as the Central Government or the Centre may specify in this behalf.`
+  line
+  line `(4) The Central Government or the Centre may take or cause to be taken, all necessary steps for`
+  line `securing possession of all undertakings which have vested in the Central Government or the Centre`
+  line `under this Act.`
+  line
+  line `(5) The Society shall, within such period as the Central Government may allow in this behalf,`
+  line `furnish to that Government a complete inventory of all its properties and assets, as on the`
+  line `commencement of the New Delhi International Arbitration Centre Ordinance, 2019 (Ord. 10 of 2019)`
+  line `pertaining to the undertaking and for this purpose, the Central Government or Custodian or the Centre`
+  line `shall afford to the Society, or body all reasonable facilities.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 49392)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Certain powers of Central Government or Centre.`)
-  (str content) (str `The Central Government or the
-Custodian or the Centre shall be entitled to receive up to the specified date, to the exclusion of all
-other persons, any money due to the Society in relation to its undertakings which have vested in the
-Central Government or Custodian or the Centre, as the case may be, and realised after the
-commencement of the New Delhi International Arbitration Centre Ordinance, 2019 (Ord. 10 of
-2019.), notwithstanding that the realisation pertains to a period prior to the commencement of the
-New Delhi International Arbitration Centre Ordinance, 2019 (Ord. 10 of 2019).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49392&sectionno=13&orderno=13&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49392)
+  sectionNo (13)
+  orderNo 13
+  title `Certain powers of Central Government or Centre.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49392&sectionno=13&orderno=13&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_13_content:
+  string
+  line `The Central Government or the`
+  line `Custodian or the Centre shall be entitled to receive up to the specified date, to the exclusion of all`
+  line `other persons, any money due to the Society in relation to its undertakings which have vested in the`
+  line `Central Government or Custodian or the Centre, as the case may be, and realised after the`
+  line `commencement of the New Delhi International Arbitration Centre Ordinance, 2019 (Ord. 10 of`
+  line `2019.), notwithstanding that the realisation pertains to a period prior to the commencement of the`
+  line `New Delhi International Arbitration Centre Ordinance, 2019 (Ord. 10 of 2019).`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 49393)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Objects of Centre.`)
-  (str content) (str `The objects of the Centre shall be,--
-
-(a) to bring targeted reforms to develop itself as a flagship institution for conducting
-international and domestic arbitration;
-
-(b) to promote research and study, providing teaching and training, and organising conferences
-and seminars in arbitration, conciliation, mediation and other alternative dispute resolution
-matters;
-
-(c) to provide facilities and administrative assistance for conciliation, mediation and arbitral
-proceedings;
-
-(d) to maintain panels of accredited arbitrators, conciliators and mediators both at national and
-international level or specialists such as surveyors and investigators;
-
-(e) to collaborate with other national and international institutions and organisations for
-ensuring credibility of the Centre as a specialised institution in arbitration and conciliation;
-
-(f) to set up facilities in India and abroad to promote the activities of the Centre;
-
-(g) to lay down parameters for different modes of alternative dispute resolution mechanisms
-being adopted by the Centre; and
-
-(h) such other objectives as it may deem fit with the approval of the Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49393&sectionno=14&orderno=14&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49393)
+  sectionNo (14)
+  orderNo 14
+  title `Objects of Centre.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49393&sectionno=14&orderno=14&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_14_content:
+  string
+  line `The objects of the Centre shall be,--`
+  line
+  line `(a) to bring targeted reforms to develop itself as a flagship institution for conducting`
+  line `international and domestic arbitration;`
+  line
+  line `(b) to promote research and study, providing teaching and training, and organising conferences`
+  line `and seminars in arbitration, conciliation, mediation and other alternative dispute resolution`
+  line matters;
+  line
+  line `(c) to provide facilities and administrative assistance for conciliation, mediation and arbitral`
+  line proceedings;
+  line
+  line `(d) to maintain panels of accredited arbitrators, conciliators and mediators both at national and`
+  line `international level or specialists such as surveyors and investigators;`
+  line
+  line `(e) to collaborate with other national and international institutions and organisations for`
+  line `ensuring credibility of the Centre as a specialised institution in arbitration and conciliation;`
+  line
+  line `(f) to set up facilities in India and abroad to promote the activities of the Centre;`
+  line
+  line `(g) to lay down parameters for different modes of alternative dispute resolution mechanisms`
+  line `being adopted by the Centre; and`
+  line
+  line `(h) such other objectives as it may deem fit with the approval of the Central Government.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 49394)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Functions of Centre.`)
-  (str content) (str `Without prejudice to the provisions contained in section 14, the
-Centre shall strive,--
-
-^1[(a) to facilitate the conduct of conciliation and other forms of alternative dispute resolution
-mechanism, both international and domestic, in the manner as may be specified by the
-regulations;]
-
-(b) to provide cost effective and timely services for the conduct of arbitration and conciliation
-at national and international level;
-
-(c) to promote studies in the field of alternative dispute resolution and related matters, and to
-promote reforms in the system of settlement of disputes;
-
-(d) to undertake teaching and to provide for diffusion of knowledge of law and procedures on
-alternative dispute resolution and related matters and to award certificates and other academic or
-professional distinction;
-
-(e) to impart training in alternative dispute resolution and related matters to those who are
-handling arbitration, conciliation and mediation;
-
-(f) to co-operate with other societies, institutions and organisations, national or international for
-promoting alternative dispute resolution; and
-
-(g) to perform such other functions as may be entrusted to it by the Central Government for
-promoting alternative dispute resolution.`)
-  (str footnotes) (str `1. Subs. by Act 23 of 2022, s. 9, for clause (a) (w.e.f. 27-1-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49394&sectionno=15&orderno=15&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49394)
+  sectionNo (15)
+  orderNo 15
+  title `Functions of Centre.`
+  content obj_root_law_sections_15_content
+  footnotes `1. Subs. by Act 23 of 2022, s. 9, for clause (a) (w.e.f. 27-1-2023).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49394&sectionno=15&orderno=15&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_15_content:
+  string
+  line `Without prejudice to the provisions contained in section 14, the`
+  line `Centre shall strive,--`
+  line
+  line `^1[(a) to facilitate the conduct of conciliation and other forms of alternative dispute resolution`
+  line `mechanism, both international and domestic, in the manner as may be specified by the`
+  line regulations;]
+  line
+  line `(b) to provide cost effective and timely services for the conduct of arbitration and conciliation`
+  line `at national and international level;`
+  line
+  line `(c) to promote studies in the field of alternative dispute resolution and related matters, and to`
+  line `promote reforms in the system of settlement of disputes;`
+  line
+  line `(d) to undertake teaching and to provide for diffusion of knowledge of law and procedures on`
+  line `alternative dispute resolution and related matters and to award certificates and other academic or`
+  line `professional distinction;`
+  line
+  line `(e) to impart training in alternative dispute resolution and related matters to those who are`
+  line `handling arbitration, conciliation and mediation;`
+  line
+  line `(f) to co-operate with other societies, institutions and organisations, national or international for`
+  line `promoting alternative dispute resolution; and`
+  line
+  line `(g) to perform such other functions as may be entrusted to it by the Central Government for`
+  line `promoting alternative dispute resolution.`
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 49395)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Vacancies, etc., not to invalidate proceedings of Centre.`)
-  (str content) (str `No act or proceedings of the
-Centre shall be invalid merely by reason of,--
-
-(a) any vacancy or any defect in the constitution of the Centre; or
-
-(b) any defect in the appointment of a person acting as a Member of the Centre; or
-
-(c) any irregularity in the procedure of the Centre not affecting the merits of the case.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49395&sectionno=16&orderno=16&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49395)
+  sectionNo (16)
+  orderNo 16
+  title `Vacancies, etc., not to invalidate proceedings of Centre.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49395&sectionno=16&orderno=16&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_16_content:
+  string
+  line `No act or proceedings of the`
+  line `Centre shall be invalid merely by reason of,--`
+  line
+  line `(a) any vacancy or any defect in the constitution of the Centre; or`
+  line
+  line `(b) any defect in the appointment of a person acting as a Member of the Centre; or`
+  line
+  line `(c) any irregularity in the procedure of the Centre not affecting the merits of the case.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 49396)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Resignation of Members.`)
-  (str content) (str `The Chairperson or the Full-time Member or Part-time Member
-may, by notice in writing, under his hand addressed to the Central Government, resign his office:
-
-Provided that the Chairperson or the Full-time Member shall, unless he is permitted by the Central
-Government to relinquish his office sooner, continue to hold office until the expiry of three months
-from the date of receipt of such notice or until a person duly appointed as his successor enters upon
-his office or until the expiry of his term of office, whichever is the earlier.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49396&sectionno=17&orderno=17&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49396)
+  sectionNo (17)
+  orderNo 17
+  title `Resignation of Members.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49396&sectionno=17&orderno=17&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_17_content:
+  string
+  line `The Chairperson or the Full-time Member or Part-time Member`
+  line `may, by notice in writing, under his hand addressed to the Central Government, resign his office:`
+  line
+  line `Provided that the Chairperson or the Full-time Member shall, unless he is permitted by the Central`
+  line `Government to relinquish his office sooner, continue to hold office until the expiry of three months`
+  line `from the date of receipt of such notice or until a person duly appointed as his successor enters upon`
+  line `his office or until the expiry of his term of office, whichever is the earlier.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 49397)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Removal of Members.`)
-  (str content) (str `(1) The Central Government may, remove a Member from his
-office if he,--
-
-(a) is an undischarged insolvent; or
-
-(b) has engaged at any time (except Part-time Member), during his term of office, in any paid
-employment; or
-
-(c) has been convicted of an offence which, in the opinion of the Central Government, involves
-moral turpitude; or
-
-(d) has acquired such financial or other interest as is likely to affect prejudicially his functions
-as a Member; or
-
-(e) has so abused his position as to render his continuance in office prejudicial to the public
-interest; or
-
-(f) has become physically or mentally incapable of acting as a Member.
-
-(2) Notwithstanding anything contained in sub-section (1), no Member shall be removed from his
-office on the grounds specified in clauses (d) and (e) of that sub-section unless the Supreme Court, on
-a reference being made to it in this behalf by the Central Government, has, on an inquiry, held by it in
-accordance with such procedure as may be prescribed in this behalf by the Supreme Court, reported
-that the Member, ought on such ground or grounds to be removed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49397&sectionno=18&orderno=18&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49397)
+  sectionNo (18)
+  orderNo 18
+  title `Removal of Members.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49397&sectionno=18&orderno=18&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_18_content:
+  string
+  line `(1) The Central Government may, remove a Member from his`
+  line `office if he,--`
+  line
+  line `(a) is an undischarged insolvent; or`
+  line
+  line `(b) has engaged at any time (except Part-time Member), during his term of office, in any paid`
+  line `employment; or`
+  line
+  line `(c) has been convicted of an offence which, in the opinion of the Central Government, involves`
+  line `moral turpitude; or`
+  line
+  line `(d) has acquired such financial or other interest as is likely to affect prejudicially his functions`
+  line `as a Member; or`
+  line
+  line `(e) has so abused his position as to render his continuance in office prejudicial to the public`
+  line `interest; or`
+  line
+  line `(f) has become physically or mentally incapable of acting as a Member.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), no Member shall be removed from his`
+  line `office on the grounds specified in clauses (d) and (e) of that sub-section unless the Supreme Court, on`
+  line `a reference being made to it in this behalf by the Central Government, has, on an inquiry, held by it in`
+  line `accordance with such procedure as may be prescribed in this behalf by the Supreme Court, reported`
+  line `that the Member, ought on such ground or grounds to be removed.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 49398)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Committees of Centre.`)
-  (str content) (str `(1) The Centre may constitute such Committees as may be
-considered necessary to administer various aspects of its functions.
-
-(2) The composition and functions of the Committees referred to in sub-section (1) shall be such as
-may be prescribed.
-
-(3) The Committee shall meet at such time and at such places and shall observe such rules of
-procedure in regard to the transaction of business at its meetings including the quorum as may be
-specified by the regulations.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49398&sectionno=19&orderno=19&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49398)
+  sectionNo (19)
+  orderNo 19
+  title `Committees of Centre.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49398&sectionno=19&orderno=19&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_19_content:
+  string
+  line `(1) The Centre may constitute such Committees as may be`
+  line `considered necessary to administer various aspects of its functions.`
+  line
+  line `(2) The composition and functions of the Committees referred to in sub-section (1) shall be such as`
+  line `may be prescribed.`
+  line
+  line `(3) The Committee shall meet at such time and at such places and shall observe such rules of`
+  line `procedure in regard to the transaction of business at its meetings including the quorum as may be`
+  line `specified by the regulations.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 49399)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Meetings of Centre.`)
-  (str content) (str `(1) The Chairperson shall ordinarily preside at the meetings of the
-Centre:
-
-Provided that, in his absence, the Member chosen by the other Members present amongst
-themselves shall preside at the meetings.
-
-(2) It shall be the duty of the Chairperson to ensure that the decisions taken by the Centre are
-implemented.
-
-(3) The Chairperson shall exercise such other powers and perform such other duties as are
-assigned to him under this Act.
-
-(4) The Centre shall meet at least four times a year and follow such procedure in its meetings
-including quorum at such meetings in such manner as may be specified by the regulations.
-
-(5) All questions which come up before any meeting of the Centre shall be--
-
-(a) decided by a majority of votes by the Members present and voting, and in the event of an
-equality of votes, the Chairperson or in his absence, the person presiding, shall have a casting vote;
-
-(b) dealt with as expeditiously as possible and the Centre shall dispose of the same within a
-period of sixty days from the date of receipt of the application:
-
-Provided that where any such application could not be disposed of within the said period of
-sixty days, the Centre shall record its reasons in writing for not disposing of the application within
-that period.
-
-(6) The Chairperson may invite any expert, not being a Member, to attend the meetings of the
-Centre, but such invitee shall not be entitled to vote at the meeting.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49399&sectionno=20&orderno=20&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49399)
+  sectionNo (20)
+  orderNo 20
+  title `Meetings of Centre.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49399&sectionno=20&orderno=20&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_20_content:
+  string
+  line `(1) The Chairperson shall ordinarily preside at the meetings of the`
+  line `Centre:`
+  line
+  line `Provided that, in his absence, the Member chosen by the other Members present amongst`
+  line `themselves shall preside at the meetings.`
+  line
+  line `(2) It shall be the duty of the Chairperson to ensure that the decisions taken by the Centre are`
+  line implemented.
+  line
+  line `(3) The Chairperson shall exercise such other powers and perform such other duties as are`
+  line `assigned to him under this Act.`
+  line
+  line `(4) The Centre shall meet at least four times a year and follow such procedure in its meetings`
+  line `including quorum at such meetings in such manner as may be specified by the regulations.`
+  line
+  line `(5) All questions which come up before any meeting of the Centre shall be--`
+  line
+  line `(a) decided by a majority of votes by the Members present and voting, and in the event of an`
+  line `equality of votes, the Chairperson or in his absence, the person presiding, shall have a casting vote;`
+  line
+  line `(b) dealt with as expeditiously as possible and the Centre shall dispose of the same within a`
+  line `period of sixty days from the date of receipt of the application:`
+  line
+  line `Provided that where any such application could not be disposed of within the said period of`
+  line `sixty days, the Centre shall record its reasons in writing for not disposing of the application within`
+  line `that period.`
+  line
+  line `(6) The Chairperson may invite any expert, not being a Member, to attend the meetings of the`
+  line `Centre, but such invitee shall not be entitled to vote at the meeting.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 49400)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Chief Executive Officer.`)
-  (str content) (str `(1) There shall be a Chief Executive Officer of the Centre who
-shall be responsible for day-to-day administration of the Centre and for this purpose, he shall maintain
-liaison with the Centre and the Secretariat.
-
-(2) The appointment, qualifications and the terms and conditions of services of the Chief
-Executive Officer shall be such as may be specified by the regulations.
-
-(3) The Chief Executive Officer shall exercise such powers and discharge such functions as may
-be specified by the regulations or as may be delegated to him by the Centre.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49400&sectionno=21&orderno=21&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49400)
+  sectionNo (21)
+  orderNo 21
+  title `Chief Executive Officer.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49400&sectionno=21&orderno=21&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_21_content:
+  string
+  line `(1) There shall be a Chief Executive Officer of the Centre who`
+  line `shall be responsible for day-to-day administration of the Centre and for this purpose, he shall maintain`
+  line `liaison with the Centre and the Secretariat.`
+  line
+  line `(2) The appointment, qualifications and the terms and conditions of services of the Chief`
+  line `Executive Officer shall be such as may be specified by the regulations.`
+  line
+  line `(3) The Chief Executive Officer shall exercise such powers and discharge such functions as may`
+  line `be specified by the regulations or as may be delegated to him by the Centre.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 49401)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Delegation of powers.`)
-  (str content) (str `The Centre may, for the purpose of discharging of its powers,
-functions and duties, by general or special order in writing, specify the powers and duties conferred or
-imposed upon the Centre by or under this Act (except the power to make regulation) which may also
-be exercised or performed by the Chief Executive Officer or any officer or officers of the Centre and
-the conditions and restrictions, if any, subject to which the powers and duties may be exercised and
-performed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49401&sectionno=22&orderno=22&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49401)
+  sectionNo (22)
+  orderNo 22
+  title `Delegation of powers.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49401&sectionno=22&orderno=22&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_22_content:
+  string
+  line `The Centre may, for the purpose of discharging of its powers,`
+  line `functions and duties, by general or special order in writing, specify the powers and duties conferred or`
+  line `imposed upon the Centre by or under this Act (except the power to make regulation) which may also`
+  line `be exercised or performed by the Chief Executive Officer or any officer or officers of the Centre and`
+  line `the conditions and restrictions, if any, subject to which the powers and duties may be exercised and`
+  line performed.
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 49402)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str Secretariat.)
-  (str content) (str `(1) There shall be a Secretariat to the Centre consisting of---
-
-(a) Registrar, who shall supervise the activities of the ^1[Secretariat];
-
-(b) Counsel, dealing with the matters relating to domestic and international arbitration; and
-
-(c) such number of other officers and employees as may be prescribed.
-
-(2) The qualifications, experience, method of selection and the functions of the Registrar, Counsel
-and other officers and employees shall be such as may be prescribed.`)
-  (str footnotes) (str `1. Subs. by Act 23 of 2022, s. 11, for "Centre" (w.e.f. 27-1-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49402&sectionno=23&orderno=23&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49402)
+  sectionNo (23)
+  orderNo 23
+  title Secretariat.
+  content obj_root_law_sections_23_content
+  footnotes `1. Subs. by Act 23 of 2022, s. 11, for "Centre" (w.e.f. 27-1-2023).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49402&sectionno=23&orderno=23&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_23_content:
+  string
+  line `(1) There shall be a Secretariat to the Centre consisting of---`
+  line
+  line `(a) Registrar, who shall supervise the activities of the ^1[Secretariat];`
+  line
+  line `(b) Counsel, dealing with the matters relating to domestic and international arbitration; and`
+  line
+  line `(c) such number of other officers and employees as may be prescribed.`
+  line
+  line `(2) The qualifications, experience, method of selection and the functions of the Registrar, Counsel`
+  line `and other officers and employees shall be such as may be prescribed.`
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 49403)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Grants by Central Government`)
-  (str content) (str `The Central Government may, after due appropriation
-made by Parliament by law in this behalf, pay to the Centre in each financial year such sums of
-money and in such manner as it may think fit for being utilised for the purposes of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49403&sectionno=24&orderno=24&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49403)
+  sectionNo (24)
+  orderNo 24
+  title `Grants by Central Government`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49403&sectionno=24&orderno=24&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_24_content:
+  string
+  line `The Central Government may, after due appropriation`
+  line `made by Parliament by law in this behalf, pay to the Centre in each financial year such sums of`
+  line `money and in such manner as it may think fit for being utilised for the purposes of this Act.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 49404)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Fund of Centre.`)
-  (str content) (str `(1) The Centre shall maintain a Fund to which shall be credited,---
-
-(a) all monies provided by the Central Government;
-
-(b) all fees and other charges received during or in connection with the arbitration, conciliation,
-mediation or other proceedings;
-
-(c) all monies received by the Centre for the facilities provided by it to the parties;
-
-(d) all monies received by the Centre in the form of donations, grants, contributions and income
-from other sources; and
-
-(e) the amount received from the investment income.
-
-(2) All monies credited to the Fund shall be deposited in such banks or invested in such manner as
-may be decided by the Centre.
-
-(3) The Fund shall be applied towards meeting the salaries and other allowances of Members,
-^1[Registrar, Counsel and other officers and employees of the Centre] and the expenses of the Centre
-including expenses incurred in the exercise of its powers and discharge of its duties under this Act.`)
-  (str footnotes) (str `1. Ins. by Act 23 of 2022, s. 12, (w.e.f. 27-1-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49404&sectionno=25&orderno=25&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49404)
+  sectionNo (25)
+  orderNo 25
+  title `Fund of Centre.`
+  content obj_root_law_sections_25_content
+  footnotes `1. Ins. by Act 23 of 2022, s. 12, (w.e.f. 27-1-2023).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49404&sectionno=25&orderno=25&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_25_content:
+  string
+  line `(1) The Centre shall maintain a Fund to which shall be credited,---`
+  line
+  line `(a) all monies provided by the Central Government;`
+  line
+  line `(b) all fees and other charges received during or in connection with the arbitration, conciliation,`
+  line `mediation or other proceedings;`
+  line
+  line `(c) all monies received by the Centre for the facilities provided by it to the parties;`
+  line
+  line `(d) all monies received by the Centre in the form of donations, grants, contributions and income`
+  line `from other sources; and`
+  line
+  line `(e) the amount received from the investment income.`
+  line
+  line `(2) All monies credited to the Fund shall be deposited in such banks or invested in such manner as`
+  line `may be decided by the Centre.`
+  line
+  line `(3) The Fund shall be applied towards meeting the salaries and other allowances of Members,`
+  line `^1[Registrar, Counsel and other officers and employees of the Centre] and the expenses of the Centre`
+  line `including expenses incurred in the exercise of its powers and discharge of its duties under this Act.`
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 49405)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Accounts and audit.`)
-  (str content) (str `(1) The Centre shall maintain proper accounts and other relevant
-records and prepare an annual statement of accounts, including the balance sheet, in such form and
-manner as may be prescribed in consultation with the Comptroller and Auditor-General of India.
-
-(2) The accounts of the Centre shall be audited by the Comptroller and Auditor General of India
-and any expenditure incurred by him in connection with such audit shall be payable by the Centre to
-the Comptroller and Auditor-General of India.
-
-(3) The Comptroller and Auditor-General of India and any person appointed by him in connection
-with the audit of the accounts of the Centre shall have the same rights, privileges and authority in
-connection with such audit as the Comptroller and Auditor-General of India has in connection with
-the audit of the Government accounts, and, in particular, shall have the right to demand the production
-of books, accounts, connected vouchers and other documents and papers and to inspect the offices of
-the Centre.
-
-(4) The accounts of the Centre as certified by the Comptroller and Auditor-General of India or any
-other person appointed by him in this behalf together with the audit report thereon shall be forwarded
-annually to the Central Government and the Central Government shall cause the same to be laid
-before each House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49405&sectionno=26&orderno=26&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49405)
+  sectionNo (26)
+  orderNo 26
+  title `Accounts and audit.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49405&sectionno=26&orderno=26&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_26_content:
+  string
+  line `(1) The Centre shall maintain proper accounts and other relevant`
+  line `records and prepare an annual statement of accounts, including the balance sheet, in such form and`
+  line `manner as may be prescribed in consultation with the Comptroller and Auditor-General of India.`
+  line
+  line `(2) The accounts of the Centre shall be audited by the Comptroller and Auditor General of India`
+  line `and any expenditure incurred by him in connection with such audit shall be payable by the Centre to`
+  line `the Comptroller and Auditor-General of India.`
+  line
+  line `(3) The Comptroller and Auditor-General of India and any person appointed by him in connection`
+  line `with the audit of the accounts of the Centre shall have the same rights, privileges and authority in`
+  line `connection with such audit as the Comptroller and Auditor-General of India has in connection with`
+  line `the audit of the Government accounts, and, in particular, shall have the right to demand the production`
+  line `of books, accounts, connected vouchers and other documents and papers and to inspect the offices of`
+  line `the Centre.`
+  line
+  line `(4) The accounts of the Centre as certified by the Comptroller and Auditor-General of India or any`
+  line `other person appointed by him in this behalf together with the audit report thereon shall be forwarded`
+  line `annually to the Central Government and the Central Government shall cause the same to be laid`
+  line `before each House of Parliament.`
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 49406)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Assessment of assets and liabilities of undertaking.`)
-  (str content) (str `The assets and liabilities in relation to
-any undertaking under this Act shall be caused to be assessed by any agency authorised by the
-Comptroller and Auditor-General of India in such manner as may be specified by him and any
-payment on a claim to be made in relation thereto shall be settled by him between the Society and the
-Central Government and shall be paid by the Society or the Central Government, as the case may be,
-in the manner as may be specified by the Comptroller and Auditor-General of India.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49406&sectionno=27&orderno=27&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49406)
+  sectionNo (27)
+  orderNo 27
+  title `Assessment of assets and liabilities of undertaking.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49406&sectionno=27&orderno=27&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_27_content:
+  string
+  line `The assets and liabilities in relation to`
+  line `any undertaking under this Act shall be caused to be assessed by any agency authorised by the`
+  line `Comptroller and Auditor-General of India in such manner as may be specified by him and any`
+  line `payment on a claim to be made in relation thereto shall be settled by him between the Society and the`
+  line `Central Government and shall be paid by the Society or the Central Government, as the case may be,`
+  line `in the manner as may be specified by the Comptroller and Auditor-General of India.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 49407)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str `Chamber of Arbitration.`)
-  (str content) (str `(1) The Centre shall, establish a Chamber of Arbitration ^1[to]
-empanel the Arbitrators and also scrutinise the applications for admission in the panel of reputed
-arbitrators to maintain a permanent panel of arbitrators.
-
-(2) The Chamber of Arbitration shall consist of experienced arbitration practitioners of repute, at
-national and international level and persons having wide experience in the area of alternative dispute
-resolution and conciliation.
-
-(3) The Centre shall by regulations lay down the criteria for admission to the panel of the cadre so
-as to maintain a pool of reputed arbitrators having expertise in international commercial arbitration
-and arbitration other than international commercial arbitration.
-
-(4) The Registrar to the Secretariat of the Centre shall act as the Member-Secretary to the Chamber
-of Arbitration.`)
-  (str footnotes) (str `1. Subs. by Act 23 of 2022, s. 13, for "which shall" (w.e.f. 27-1-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49407&sectionno=28&orderno=28&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49407)
+  sectionNo (28)
+  orderNo 28
+  title `Chamber of Arbitration.`
+  content obj_root_law_sections_28_content
+  footnotes `1. Subs. by Act 23 of 2022, s. 13, for "which shall" (w.e.f. 27-1-2023).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49407&sectionno=28&orderno=28&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_28_content:
+  string
+  line `(1) The Centre shall, establish a Chamber of Arbitration ^1[to]`
+  line `empanel the Arbitrators and also scrutinise the applications for admission in the panel of reputed`
+  line `arbitrators to maintain a permanent panel of arbitrators.`
+  line
+  line `(2) The Chamber of Arbitration shall consist of experienced arbitration practitioners of repute, at`
+  line `national and international level and persons having wide experience in the area of alternative dispute`
+  line `resolution and conciliation.`
+  line
+  line `(3) The Centre shall by regulations lay down the criteria for admission to the panel of the cadre so`
+  line `as to maintain a pool of reputed arbitrators having expertise in international commercial arbitration`
+  line `and arbitration other than international commercial arbitration.`
+  line
+  line `(4) The Registrar to the Secretariat of the Centre shall act as the Member-Secretary to the Chamber`
+  line `of Arbitration.`
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 49408)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Arbitration Academy.`)
-  (str content) (str `(1) The Centre may establish an Arbitration Academy---
-
-(a) to train the arbitrators, particularly in the area of international commercial arbitration to
-compete on par with the reputed international arbitral institutions;
-
-(b) to conduct research in the area of alternative dispute resolution and allied areas; and
-
-(c) to give suggestions for achieving the objectives of the Act.
-
-(2) For the purposes of sub-section (1), there may be constituted a permanent three member
-committee in order to suggest and to submit a report to the Centre with respect to the amendments, if
-any, necessary to the rules and regulations made under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49408&sectionno=29&orderno=29&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49408)
+  sectionNo (29)
+  orderNo 29
+  title `Arbitration Academy.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49408&sectionno=29&orderno=29&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_29_content:
+  string
+  line `(1) The Centre may establish an Arbitration Academy---`
+  line
+  line `(a) to train the arbitrators, particularly in the area of international commercial arbitration to`
+  line `compete on par with the reputed international arbitral institutions;`
+  line
+  line `(b) to conduct research in the area of alternative dispute resolution and allied areas; and`
+  line
+  line `(c) to give suggestions for achieving the objectives of the Act.`
+  line
+  line `(2) For the purposes of sub-section (1), there may be constituted a permanent three member`
+  line `committee in order to suggest and to submit a report to the Centre with respect to the amendments, if`
+  line `any, necessary to the rules and regulations made under this Act.`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 49409)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification, make rules to
-carry out the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-make provision for---
-
-(a) the terms and conditions and the salaries and allowances payable to the Chairperson and
-Full-time Members under sub-section (2) of section 6;
-
-(b) the travelling and other allowances payable to the Part-time Members under sub-section (4)
-of section 6;
-
-(c) the composition and functions of the Committees referred to in sub-section (2) of section
-19;
-
-(d) the number of officers and employees of the Secretariat of the Centre under clause (c) of
-sub-section (1) of section 23;
-
-(e) the qualifications, experience, method of selection and the functions of the Registrar,
-Counsel and other officers and employees of the Centre under sub-section (2) of section 23;
-
-(f) annual statement of accounts, including the balance sheet under sub-section (1) of section
-26; and
-
-(g) any other matter in respect of which provision is to be made or may be made under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49409&sectionno=30&orderno=30&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49409)
+  sectionNo (30)
+  orderNo 30
+  title `Power to make rules.`
+  content obj_root_law_sections_30_content
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49409&sectionno=30&orderno=30&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_30_content:
+  string
+  line `(1) The Central Government may, by notification, make rules to`
+  line `carry out the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `make provision for---`
+  line
+  line `(a) the terms and conditions and the salaries and allowances payable to the Chairperson and`
+  line `Full-time Members under sub-section (2) of section 6;`
+  line
+  line `(b) the travelling and other allowances payable to the Part-time Members under sub-section (4)`
+  line `of section 6;`
+  line
+  line `(c) the composition and functions of the Committees referred to in sub-section (2) of section`
+  line 19;
+  line
+  line `(d) the number of officers and employees of the Secretariat of the Centre under clause (c) of`
+  line `sub-section (1) of section 23;`
+  line
+  line `(e) the qualifications, experience, method of selection and the functions of the Registrar,`
+  line `Counsel and other officers and employees of the Centre under sub-section (2) of section 23;`
+  line
+  line `(f) annual statement of accounts, including the balance sheet under sub-section (1) of section`
+  line `26; and`
+  line
+  line `(g) any other matter in respect of which provision is to be made or may be made under this Act.`
+obj_root_law_sections_30_footnotes:
+  string
+  line
 obj_root_law_sections_31:
-  object
-  (str sectionId) (str 49410)
-  (str sectionNo) (str 31)
-  (str orderNo) (int 31)
-  (str title) (str `Power to make regulations.`)
-  (str content) (str `(1) The Centre may, with the previous approval of the
-Central Government, by notification, make regulations consistent with this Act and the rules made
-thereunder to provide for all matters for which provision is necessary or expedient for the purposes
-of giving effect to the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such
-regulations may make provision for--
-
-^1[(a) the manner of the conduct of arbitration and other forms of alternative dispute
-resolution mechanism under clause (a) of section 15;
-
-(aa) the time and place and the rules of procedure to be observed in regard to the transaction
-of business of the Committee at the meetings including the quorum under sub-section (3) of
-section 19;]
-
-(b) the time and place and rules of procedure in regard to the transaction of business of the
-Centre or any Committee including the quorum at the meeting under sub-section (4) of section 20;
-
-(c) the appointment, qualifications and the terms and conditions of service of the Chief
-Executive Officer under sub-section (2) of section 21;
-
-(d) the powers and functions of the Chief Executive Officer under sub-section (3) of section 21;
-
-(e) the criteria for admission to the panel of reputed arbitrators under sub-section (3) of section
-28; and
-
-(f) any other matter in respect of which provision, in the opinion of the Centre, is necessary for
-the performance of its functions under this Act.`)
-  (str footnotes) (str `1. Subs. by Act 23 of 2022, s. 14, for clause (a) (w.e.f. 27-1-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49410&sectionno=31&orderno=31&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49410)
+  sectionNo (31)
+  orderNo 31
+  title `Power to make regulations.`
+  content obj_root_law_sections_31_content
+  footnotes `1. Subs. by Act 23 of 2022, s. 14, for clause (a) (w.e.f. 27-1-2023).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49410&sectionno=31&orderno=31&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_31_content:
+  string
+  line `(1) The Centre may, with the previous approval of the`
+  line `Central Government, by notification, make regulations consistent with this Act and the rules made`
+  line `thereunder to provide for all matters for which provision is necessary or expedient for the purposes`
+  line `of giving effect to the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such`
+  line `regulations may make provision for--`
+  line
+  line `^1[(a) the manner of the conduct of arbitration and other forms of alternative dispute`
+  line `resolution mechanism under clause (a) of section 15;`
+  line
+  line `(aa) the time and place and the rules of procedure to be observed in regard to the transaction`
+  line `of business of the Committee at the meetings including the quorum under sub-section (3) of`
+  line `section 19;]`
+  line
+  line `(b) the time and place and rules of procedure in regard to the transaction of business of the`
+  line `Centre or any Committee including the quorum at the meeting under sub-section (4) of section 20;`
+  line
+  line `(c) the appointment, qualifications and the terms and conditions of service of the Chief`
+  line `Executive Officer under sub-section (2) of section 21;`
+  line
+  line `(d) the powers and functions of the Chief Executive Officer under sub-section (3) of section 21;`
+  line
+  line `(e) the criteria for admission to the panel of reputed arbitrators under sub-section (3) of section`
+  line `28; and`
+  line
+  line `(f) any other matter in respect of which provision, in the opinion of the Centre, is necessary for`
+  line `the performance of its functions under this Act.`
 obj_root_law_sections_32:
-  object
-  (str sectionId) (str 49411)
-  (str sectionNo) (str 32)
-  (str orderNo) (int 32)
-  (str title) (str `Laying of rules and regulations.`)
-  (str content) (str `Every rule and regulation made under this Act shall be
-laid, as soon as may be after it is made, before each House of Parliament, while it is in session, for
-a total period of thirty days which may be comprised in one session or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the
-successive sessions aforesaid, both Houses agree in making any modification in the rule or
-regulation or both Houses agree that the rule or regulation should not be made, the rule or
-regulation shall thereafter have effect only in such modified form or be of no effect, as the case
-may be; so, however, that any such modification or annulment shall be without prejudice to the
-validity of anything previously done under that rule or regulation.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49411&sectionno=32&orderno=32&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49411)
+  sectionNo (32)
+  orderNo 32
+  title `Laying of rules and regulations.`
+  content obj_root_law_sections_32_content
+  footnotes obj_root_law_sections_32_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49411&sectionno=32&orderno=32&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_32_content:
+  string
+  line `Every rule and regulation made under this Act shall be`
+  line `laid, as soon as may be after it is made, before each House of Parliament, while it is in session, for`
+  line `a total period of thirty days which may be comprised in one session or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the`
+  line `successive sessions aforesaid, both Houses agree in making any modification in the rule or`
+  line `regulation or both Houses agree that the rule or regulation should not be made, the rule or`
+  line `regulation shall thereafter have effect only in such modified form or be of no effect, as the case`
+  line `may be; so, however, that any such modification or annulment shall be without prejudice to the`
+  line `validity of anything previously done under that rule or regulation.`
+obj_root_law_sections_32_footnotes:
+  string
+  line
 obj_root_law_sections_33:
-  object
-  (str sectionId) (str 49412)
-  (str sectionNo) (str 33)
-  (str orderNo) (int 33)
-  (str title) (str `Protection of action taken in good faith`)
-  (str content) (str `No suit, prosecution or other legal
-proceedings shall lie against the Centre, the Chairperson or Members or its employees and
-arbitrators for anything which is in good faith done or intended to be done under this Act or the
-rules or regulations made thereunder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49412&sectionno=33&orderno=33&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49412)
+  sectionNo (33)
+  orderNo 33
+  title `Protection of action taken in good faith`
+  content obj_root_law_sections_33_content
+  footnotes obj_root_law_sections_33_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49412&sectionno=33&orderno=33&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_33_content:
+  string
+  line `No suit, prosecution or other legal`
+  line `proceedings shall lie against the Centre, the Chairperson or Members or its employees and`
+  line `arbitrators for anything which is in good faith done or intended to be done under this Act or the`
+  line `rules or regulations made thereunder.`
+obj_root_law_sections_33_footnotes:
+  string
+  line
 obj_root_law_sections_34:
-  object
-  (str sectionId) (str 49413)
-  (str sectionNo) (str 34)
-  (str orderNo) (int 34)
-  (str title) (str `Power to remove difficulty.`)
-  (str content) (str `(1) If any difficulty arises in giving effect to the provisions
-of this Act, the Central Government may, by order published in the Official Gazette, make such
-provisions, not inconsistent with the provisions of this Act, as may appear to it to be necessary for
-removing the difficulty:
-
-Provided that no such order shall be made under this section after the expiry of a period of
-^1[five years] from the date of commencement of this Act.
-
-(2) Every order made under this section shall be laid, as soon as may be after it is made, before
-each House of Parliament.`)
-  (str footnotes) (str `1. Subs. by Act 23 of 2022, s. 15, for "two years" (w.e.f. 27-1-2023).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49413&sectionno=34&orderno=34&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49413)
+  sectionNo (34)
+  orderNo 34
+  title `Power to remove difficulty.`
+  content obj_root_law_sections_34_content
+  footnotes `1. Subs. by Act 23 of 2022, s. 15, for "two years" (w.e.f. 27-1-2023).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49413&sectionno=34&orderno=34&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_34_content:
+  string
+  line `(1) If any difficulty arises in giving effect to the provisions`
+  line `of this Act, the Central Government may, by order published in the Official Gazette, make such`
+  line `provisions, not inconsistent with the provisions of this Act, as may appear to it to be necessary for`
+  line `removing the difficulty:`
+  line
+  line `Provided that no such order shall be made under this section after the expiry of a period of`
+  line `^1[five years] from the date of commencement of this Act.`
+  line
+  line `(2) Every order made under this section shall be laid, as soon as may be after it is made, before`
+  line `each House of Parliament.`
 obj_root_law_sections_35:
-  object
-  (str sectionId) (str 49414)
-  (str sectionNo) (str 35)
-  (str orderNo) (int 35)
-  (str title) (str `Repeal and savings.`)
-  (str content) (str `(1) The New Delhi International Arbitration Centre Ordinance,
-2019 (Ord. 10 of 2019) is hereby repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken under the New Delhi
-International Arbitration Centre Ordinance, 2019 (Ord. 10 of 2019), shall be deemed to have been
-done or taken under the provisions of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49414&sectionno=35&orderno=35&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143)
+  sectionId (49414)
+  sectionNo (35)
+  orderNo 35
+  title `Repeal and savings.`
+  content obj_root_law_sections_35_content
+  footnotes obj_root_law_sections_35_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_46_00012_A2019-17_1564468638143&sectionId=49414&sectionno=35&orderno=35&orgactid=AC_CEN_3_46_00012_A2019-17_1564468638143
+obj_root_law_sections_35_content:
+  string
+  line `(1) The New Delhi International Arbitration Centre Ordinance,`
+  line `2019 (Ord. 10 of 2019) is hereby repealed.`
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken under the New Delhi`
+  line `International Arbitration Centre Ordinance, 2019 (Ord. 10 of 2019), shall be deemed to have been`
+  line `done or taken under the provisions of this Act.`
+obj_root_law_sections_35_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `नई दिल्ली अन्तरराष्ट्रीदय माध्यस्थम् केंद्र अधिनियम, 2019`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/11413/2/H2019-17.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:24:48.155Z`)
-  (str pageCount) (int 12)
-  (str sections) obj_root_law_translations_hi_sections
+  title `नई दिल्ली अन्तरराष्ट्रीदय माध्यस्थम् केंद्र अधिनियम, 2019`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/11413/2/H2019-17.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:24:48.155Z`
+  pageCount 12
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -934,610 +1077,665 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_10
   obj_root_law_translations_hi_sections_11
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str ``vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 35
-ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dasnz
-vfèfu;e] 2019
-¼2019 dk vfèfu;e la[;kad 17½
-[ 26 tqykbZ] 2019 ]
-lkaLFkkfud ek/;LFke~ ds fy,,d Lora= vkSj Lok;Ùk O;oLFkk dk l`tu djus ds fy,
-ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz dh LFkkiuk rFkk mldk fuxeu djus vkSj
-vUrjjk"Vªh; fodYih fookn lekèku dsanz ds miØ eksa ds vtZu vkSj varj.k ds
-fy, rFkk ek/;LFke~ ds csgrj izcaèu ds fy, miØ eksa dks ubZ fnYyh
-vUrjjk"Vªh; ek/;LFke~ dsUnz esa fufgr djus ds iz;kstuksa ds fy,
-ftlls ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz dks laLFkkxr
-ek/;LFke~ dk dsanz cuk;k tk lds vkSj mls,d
-jk"Vªh; egÙkk dh laLFkk?kksf"kr djus ds fy,
-rFkk mlls vkuq"kafxd fo"k;ksa dk micaè
-djus ds fy,
-vfèfu;e
-fookn lekèku izfØ;k dk Hkkjrh; vFkZO;oLFkk ij vkSj gekjs ns'k esa dkjckj djus lacaèh oSf'od cksè
-ij,d O;kid izHkko gS rFkk okf.kfT;d fooknksa ds eqndescktksa ds chp fo'okl vkSj lk[k izsfjr djuk
-vko';d gks x;k gS(
-vkSj vfr ifjorZu'khy vkfFkZd xfrfofè;ka fooknksa ds 'kh?kz ifjfuèkZj.k rFkk lkaLFkkfud ek/;LFke~ ds
-l`tu vkSj LFkkiuk dh ekax djrh gS(
-vkSj vUrjjk"Vªh; fodYih fookn lekèku dsanz dh LFkkiuk dsanzh; ljdkj ds rRokoèku esa o"kZ 1995
-esa dh xbZ Fkh vkSj bls fodYih fookn lekèku ra= dk laoèZu djus ds mís'; ls vkSj mlds fy, lqfoèkvksa dk
-micaè djus ds fy, lkslkbVh jftLVªhdj.k vfèfu;e] 1860 ds vèhu jftLVªhd`r fd;k x;k Fkk( 1860 dk 21``)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 35`
+  line `ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dasnz`
+  line `vfèfu;e] 2019`
+  line `¼2019 dk vfèfu;e la[;kad 17½`
+  line `[ 26 tqykbZ] 2019 ]`
+  line 'lkaLFkkfud ek/;LFke~ ds fy,,d Lora= vkSj Lok;Ùk O;oLFkk dk l`tu djus ds fy,'
+  line `ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz dh LFkkiuk rFkk mldk fuxeu djus vkSj`
+  line `vUrjjk"Vªh; fodYih fookn lekèku dsanz ds miØ eksa ds vtZu vkSj varj.k ds`
+  line `fy, rFkk ek/;LFke~ ds csgrj izcaèu ds fy, miØ eksa dks ubZ fnYyh`
+  line `vUrjjk"Vªh; ek/;LFke~ dsUnz esa fufgr djus ds iz;kstuksa ds fy,`
+  line `ftlls ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz dks laLFkkxr`
+  line `ek/;LFke~ dk dsanz cuk;k tk lds vkSj mls,d`
+  line `jk"Vªh; egÙkk dh laLFkk?kksf"kr djus ds fy,`
+  line `rFkk mlls vkuq"kafxd fo"k;ksa dk micaè`
+  line `djus ds fy,`
+  line vfèfu;e
+  line `fookn lekèku izfØ;k dk Hkkjrh; vFkZO;oLFkk ij vkSj gekjs ns'k esa dkjckj djus lacaèh oSf'od cksè`
+  line `ij,d O;kid izHkko gS rFkk okf.kfT;d fooknksa ds eqndescktksa ds chp fo'okl vkSj lk[k izsfjr djuk`
+  line `vko';d gks x;k gS(`
+  line `vkSj vfr ifjorZu'khy vkfFkZd xfrfofè;ka fooknksa ds 'kh?kz ifjfuèkZj.k rFkk lkaLFkkfud ek/;LFke~ ds`
+  line 'l`tu vkSj LFkkiuk dh ekax djrh gS('
+  line `vkSj vUrjjk"Vªh; fodYih fookn lekèku dsanz dh LFkkiuk dsanzh; ljdkj ds rRokoèku esa o"kZ 1995`
+  line `esa dh xbZ Fkh vkSj bls fodYih fookn lekèku ra= dk laoèZu djus ds mís'; ls vkSj mlds fy, lqfoèkvksa dk`
+  line 'micaè djus ds fy, lkslkbVh jftLVªhdj.k vfèfu;e] 1860 ds vèhu jftLVªhd`r fd;k x;k Fkk( 1860 dk 21'
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str ``36 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —
-vkSj vUrjjk"Vªh; fodYih fookn lekèku dsanz dks volajpuk dk lfUuekZ.k djus vkSj vU; lqfoèkvksa
-dks cukus ds fy, vuqnkuksa vkSj vU; Qk;nksa ds ek/;e ls dsanzh; ljdkj ls Hkwfe vkSj lkjoku~ foÙkiks"k.k izkIr
-gqvk gS(
-vkSj nks n'kdksa ls vfèd le; ls vUrjjk"Vªh; fodYih fookn lekèu dsanz lfØ;:i ls ek/;LFke~
-ikfjfLFkfrdh ra= esa lfEefyr gksus vkSj mlesa gq, fodkl dks vkRelkr djus rFkk ek/;LFke~ dh ifjorZu'khy
-izd`fr ds lkFk xfr cuk, j[krs gq, mRd`"Vrk dh izfr"Bk cukus esa leFkZ ugha gks ldk gS(
-vkSj dsanzh; ljdkj }kjk fu;qDr mPp Lrjh; lfefr }kjk fd, x, v/;;u;g minf'kZr djrs gSa fd
-vUrjjk"Vªh; fodYih fookn lekèku dsanz lkaLFkkfud ek/;LFke~ dh c<+rh gqbZ vko';drkvksa dks iwjk djus
-vkSj vuqdwyre:i ls eqdneksa dks laHkkyus rFkk ek/;LFke~ ds i{kdkjksa dks csgrj fodYi miyCè djkus esa
-vlQy jgk gS(
-vkSj vUrjjk"Vªh; fodYih fookn lekèku dsanz ds miØeksa ds] ftuds varxZr mlds izknsf'kd dk;kZy;
-Hkh gSa] mlds dk;Zdykiksa esa dksbZ gLr{ksi fd, fcuk vkSj,d lkslkbVh ds:i esa mlds pfj= dks izfrdwy:i
-ls izHkkfor fd, fcuk dk;ZHkkj dks laHkkyuk] fdarq mldh fo|eku volajpuk vkSj vU; lqfoèkvksa dk mi;ksx
-djuk] ftudh LFkkiuk ljdkj }kjk miyCè djkbZ xbZ yksd fufè;ksa dk mi;ksx djrs gq, dh xbZ gS] vkSj
-ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz ds uke ls Kkr,d lqn`<+ laLFkk dk?kjsyw vkSj vUrjjk"Vªh; ek/;LFke~
-ds fy, fuxeu djuk lehphu gks x;k gS(
-vkSj Rofjr rFkk n{k fookn lekèku ra= dk laoèZu djds ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsUnz dks]
-mlds,d izeq[k ek/;LFke~ gc ds:i esa lexz fodkl ds fy, jk"Vªh; egÙkk dh,d laLFkk ds:i esa?kksf"kr
-djuk vko';d le>k x;k gS(
-Hkkjr x.kjkT; ds lÙkjosa o"kZ esa laln~ }kjk fuEufyf[kr:i esa;g vfèfu;fer gks% —
-v/;k; 1
-izkjafHkd
-1- ¼1½ bl vfèfu;e dk laf{kIr uke ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz vfèfu;e] 2019 gSA
-¼2½;g 2 ekpZ] 2019 dks izo`Ùk gqvk le>k tk,xkA
-2- ¼1½ bl vfèfu;e esa] tc rd fd lanHkZ ls vU;Fkk visf{kr u gks] —
-¼d½ ^^dsanz** ls èkjk 3 ds vèhu LFkkfir vkSj fuxfer ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz
-vfHkizsr gS(
-¼[k½ ^^v/;{k** ls èkjk 5 ds [kaM ¼d½ esa fufnZ"V dsanz dk v/;{k vfHkizsr gS(
-¼x½ ^^eq[; dk;Zikyd vfèdkjh** ls èkjk 21 ds vèhu fu;qDr eq[; dk;Zikyd vfèdkjh
-vfHkizsr gS(
-¼?k½ ^^lfefr** ls èkjk 19 esa fufnZ"V dsanz dh lqlaxr lfefr vfHkizsr gS(
-¼³½ ^^vfHkj{kd** ls og O;fDr vfHkizsr gS] ftls èkjk 11 dh mièkjk ¼2½ ds vèhu miØeksa
-ds lacaè esa vfHkj{kd ds:i esa fu;qDr fd;k x;k gS(
-¼p½ ^^fufè** ls èkjk 25 ds vèhu cuk, j[ks tkus okyh dsanz dh fufè vfHkizsr gS(
-¼N½ ^^lnL;** ls dsanz dk iw.kZdkfyd;k va'kdkfyd lnL; vfHkizsr gS vkSj blds varxZr
-v/;{k Hkh gS(
-¼t½ ^^vfèlwpuk** ls jkti= esa izdkf'kr vfèlwpuk vfHkizsr gS(
-¼>½ ^^fofgr** ls dsanzh; ljdkj }kjk bl vfèfu;e ds vèhu cuk, x, fu;eksa }kjk fofgr
-vfHkizsr gS(
-laf{kIr uke vkSj
-izkjaHkA
-ifjHkk"kk,aA``)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line `36 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —`
+  line `vkSj vUrjjk"Vªh; fodYih fookn lekèku dsanz dks volajpuk dk lfUuekZ.k djus vkSj vU; lqfoèkvksa`
+  line `dks cukus ds fy, vuqnkuksa vkSj vU; Qk;nksa ds ek/;e ls dsanzh; ljdkj ls Hkwfe vkSj lkjoku~ foÙkiks"k.k izkIr`
+  line `gqvk gS(`
+  line `vkSj nks n'kdksa ls vfèd le; ls vUrjjk"Vªh; fodYih fookn lekèu dsanz lfØ;:i ls ek/;LFke~`
+  line `ikfjfLFkfrdh ra= esa lfEefyr gksus vkSj mlesa gq, fodkl dks vkRelkr djus rFkk ek/;LFke~ dh ifjorZu'khy`
+  line 'izd`fr ds lkFk xfr cuk, j[krs gq, mRd`"Vrk dh izfr"Bk cukus esa leFkZ ugha gks ldk gS('
+  line `vkSj dsanzh; ljdkj }kjk fu;qDr mPp Lrjh; lfefr }kjk fd, x, v/;;u;g minf'kZr djrs gSa fd`
+  line `vUrjjk"Vªh; fodYih fookn lekèku dsanz lkaLFkkfud ek/;LFke~ dh c<+rh gqbZ vko';drkvksa dks iwjk djus`
+  line `vkSj vuqdwyre:i ls eqdneksa dks laHkkyus rFkk ek/;LFke~ ds i{kdkjksa dks csgrj fodYi miyCè djkus esa`
+  line `vlQy jgk gS(`
+  line `vkSj vUrjjk"Vªh; fodYih fookn lekèku dsanz ds miØeksa ds] ftuds varxZr mlds izknsf'kd dk;kZy;`
+  line `Hkh gSa] mlds dk;Zdykiksa esa dksbZ gLr{ksi fd, fcuk vkSj,d lkslkbVh ds:i esa mlds pfj= dks izfrdwy:i`
+  line `ls izHkkfor fd, fcuk dk;ZHkkj dks laHkkyuk] fdarq mldh fo|eku volajpuk vkSj vU; lqfoèkvksa dk mi;ksx`
+  line `djuk] ftudh LFkkiuk ljdkj }kjk miyCè djkbZ xbZ yksd fufè;ksa dk mi;ksx djrs gq, dh xbZ gS] vkSj`
+  line 'ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz ds uke ls Kkr,d lqn`<+ laLFkk dk?kjsyw vkSj vUrjjk"Vªh; ek/;LFke~'
+  line `ds fy, fuxeu djuk lehphu gks x;k gS(`
+  line `vkSj Rofjr rFkk n{k fookn lekèku ra= dk laoèZu djds ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsUnz dks]`
+  line `mlds,d izeq[k ek/;LFke~ gc ds:i esa lexz fodkl ds fy, jk"Vªh; egÙkk dh,d laLFkk ds:i esa?kksf"kr`
+  line `djuk vko';d le>k x;k gS(`
+  line `Hkkjr x.kjkT; ds lÙkjosa o"kZ esa laln~ }kjk fuEufyf[kr:i esa;g vfèfu;fer gks% —`
+  line `v/;k; 1`
+  line izkjafHkd
+  line `1- ¼1½ bl vfèfu;e dk laf{kIr uke ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz vfèfu;e] 2019 gSA`
+  line '¼2½;g 2 ekpZ] 2019 dks izo`Ùk gqvk le>k tk,xkA'
+  line `2- ¼1½ bl vfèfu;e esa] tc rd fd lanHkZ ls vU;Fkk visf{kr u gks] —`
+  line `¼d½ ^^dsanz** ls èkjk 3 ds vèhu LFkkfir vkSj fuxfer ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz`
+  line `vfHkizsr gS(`
+  line `¼[k½ ^^v/;{k** ls èkjk 5 ds [kaM ¼d½ esa fufnZ"V dsanz dk v/;{k vfHkizsr gS(`
+  line `¼x½ ^^eq[; dk;Zikyd vfèdkjh** ls èkjk 21 ds vèhu fu;qDr eq[; dk;Zikyd vfèdkjh`
+  line `vfHkizsr gS(`
+  line `¼?k½ ^^lfefr** ls èkjk 19 esa fufnZ"V dsanz dh lqlaxr lfefr vfHkizsr gS(`
+  line `¼³½ ^^vfHkj{kd** ls og O;fDr vfHkizsr gS] ftls èkjk 11 dh mièkjk ¼2½ ds vèhu miØeksa`
+  line `ds lacaè esa vfHkj{kd ds:i esa fu;qDr fd;k x;k gS(`
+  line `¼p½ ^^fufè** ls èkjk 25 ds vèhu cuk, j[ks tkus okyh dsanz dh fufè vfHkizsr gS(`
+  line `¼N½ ^^lnL;** ls dsanz dk iw.kZdkfyd;k va'kdkfyd lnL; vfHkizsr gS vkSj blds varxZr`
+  line `v/;{k Hkh gS(`
+  line `¼t½ ^^vfèlwpuk** ls jkti= esa izdkf'kr vfèlwpuk vfHkizsr gS(`
+  line `¼>½ ^^fofgr** ls dsanzh; ljdkj }kjk bl vfèfu;e ds vèhu cuk, x, fu;eksa }kjk fofgr`
+  line `vfHkizsr gS(`
+  line `laf{kIr uke vkSj`
+  line izkjaHkA
+  line `ifjHkk"kk,aA`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str ``vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 37
-¼´½ ^^fofu;e** ls dsanz }kjk bl vfèfu;e ds vèhu cuk, x, fofu;e vfHkizsr gS(
-¼V½ ^^lkslkbVh** ls] lkslkbVh jftLVªhdj.k vfèfu;e] 1860 ds vèhu ml:i esa jftLVªhd`r
-vUrjjk"Vªh; fodYih fookn lekèku dsanz vfHkizsr gS ftldk jftLVªhd`r dk;kZy; ubZ fnYyh esa gS(
-¼B½ ^^fofufnZ"V rkjh[k** ls dsanzh; ljdkj }kjk vfèlwpuk }kjk fofufnZ"V dh tkus okyh rkjh[k
-vfHkizsr gS(
-¼M½ ^^miØeksa** ls lkslkbVh ds miØe vfHkizsr gS] tks èkjk 7 ds vèhu dsanzh; ljdkj esa
-fufgr gSaA
-¼2½ lHkh vU; 'kCnksa vkSj inksa] ftudk blesa iz;ksx fd;k x;k gS] fdarq ifjHkkf"kr ugha fd;k
-x;k gS vkSj tks ek/;LFke~ vkSj lqyg vfèfu;e] 1996 esa ifjHkkf"kr gS] dk ogh vFkZ gksxk] tks mudk
-ml vfèfu;e esa gSA
-v/;k; 2
-ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz dh LFkkiuk vkSj fuxeu
-3- ¼1½ dsanzh; ljdkj vfèlwpuk }kjk bl vfèfu;e ds vèhu 'kfDr;ksa dk iz;ksx djus vkSj d`R;ksa dk
-fuoZgu djus ds iz;kstuksa ds fy, ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz ds uke ls Kkr,d fudk; dh
-LFkkiuk djsxhA
-¼2½ dsanz iwoksZDr uke dk,d fuxfer fudk; gksxk] ftldk 'kk'or~ mÙkjkfèdkj vkSj lekkU; eqnzk
-gksxh] ftls bl foès;d ds micaèksa ds vèhu jgrs gq,] taxe vkSj LFkkoj] nksuksa izdkj dh laifÙk dk vtZu]
-èkj.k vkSj O;;u djus rFkk lafonk djus dh 'kfDr gksxh vkSj og mDr uke ls okn yk,xk rFkk mlds fo#)
-okn yk;k tk,xkA
-4 ¼1½ ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz ds mís';,sls gSa] tks mls jk"Vªh; egÙkk dh laLFkk cukrs
-gSa] vr%;g?kksf"kr fd;k tkrk gS fd ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz,d jk"Vªh; egÙkk dh laLFkk gSA
-¼2½ dsanz dk eq[;ky; ubZ fnYyh gksxk vkSj;g dsanzh; ljdkj ds iwokZuqeksnu ls Hkkjr vkSj fons'kksa esa
-vU; LFkkuksa ij 'kk[kk,a LFkkfir dj ldsxkA
-5- dsanz fuEufyf[kr lnL;ksa ls feydj cusxk] vFkkZr~% —
-¼d½ dsanzh; ljdkj }kjk Hkkjr ds eq[; U;k;ewfrZ ds ijke'kZ ls fu;qDr dksbZ O;fDr] tks mPpre
-U;k;ky;;k fdlh mPp U;k;ky; dk U;k;kèh'k jgk gks;k ek/;LFke~ ds lapkyu;k iz'kklu] fofè;k
-izcaè esa fo'ks"k Kku vkSj vuqHko j[kus okyk dksbZ fo[;kr O;fDr — v/;{k(
-¼[k½ dsanzh; ljdkj }kjk fu;qDr nks fo[;kr O;fDr ftuds ikl?kjsyw vkSj vUrjjk"Vªh;] nksuksa
-izdkj ds lkaLFkkfud ek/;LFke~ esa lkjoku~ Kku vkSj vuqHko gks — iw.kZdkfyd;k va'kdkfyd lnL;(
-¼x½ dsanzh; ljdkj }kjk pØkuqØe ds vèkj ij p;fur okf.kT; vkSj m|ksx ds fdlh ekU;rkizkIr
-fudk; dk,d izfrfufè — va'kdkfyd lnL;(
-¼?k½ lfpo] fofè dk;Z foHkkx] fofè vkSj U;k; ea=ky;;k la;qDr lfpo ls vU;wu jSad dk
-mldk izfrfufè — lnL;] insu(
-¼³½ O;; foHkkx] foÙk ea=ky; }kjk ukefufnZ"V,d foÙkh; lykgdkj — lnL;] insu( vkSj
-¼p½ eq[; dk;Zikyd vfèdkjh — lnL;] insuA
-6- ¼1½ v/;{k vkSj lnL;] muds }kjk viuk in èkj.k djus dh rkjh[k ls rhu o"kZ dh vofè ds fy,
-in èkj.k djsaxs vkSj os iqufuZ;qfDr ds fy, ik= gksaxs%
-ubZ fnYyh
-vUrjjk"Vªh;
-ek?;LFke~ dsanz
-dh LFkkiuk vkSj
-fuxeuA
-ubZ fnYyh
-vUrjjk"Vªh;
-ek?;LFke~ dsanz
-dh jk"Vªh; egÙkk
-dh laLFkk ds:i
-esa?kks"k.kkA
-dsanz dh lajpukA
-v/;{k vkSj
-lnL;ksa] vkfn dh
-lsok ds fucaèu
-vkSj 'krs±A
-1996 dk 26
-1860 dk 21``)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line `vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 37`
+  line `¼´½ ^^fofu;e** ls dsanz }kjk bl vfèfu;e ds vèhu cuk, x, fofu;e vfHkizsr gS(`
+  line '¼V½ ^^lkslkbVh** ls] lkslkbVh jftLVªhdj.k vfèfu;e] 1860 ds vèhu ml:i esa jftLVªhd`r'
+  line 'vUrjjk"Vªh; fodYih fookn lekèku dsanz vfHkizsr gS ftldk jftLVªhd`r dk;kZy; ubZ fnYyh esa gS('
+  line `¼B½ ^^fofufnZ"V rkjh[k** ls dsanzh; ljdkj }kjk vfèlwpuk }kjk fofufnZ"V dh tkus okyh rkjh[k`
+  line `vfHkizsr gS(`
+  line `¼M½ ^^miØeksa** ls lkslkbVh ds miØe vfHkizsr gS] tks èkjk 7 ds vèhu dsanzh; ljdkj esa`
+  line `fufgr gSaA`
+  line `¼2½ lHkh vU; 'kCnksa vkSj inksa] ftudk blesa iz;ksx fd;k x;k gS] fdarq ifjHkkf"kr ugha fd;k`
+  line `x;k gS vkSj tks ek/;LFke~ vkSj lqyg vfèfu;e] 1996 esa ifjHkkf"kr gS] dk ogh vFkZ gksxk] tks mudk`
+  line `ml vfèfu;e esa gSA`
+  line `v/;k; 2`
+  line `ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz dh LFkkiuk vkSj fuxeu`
+  line '3- ¼1½ dsanzh; ljdkj vfèlwpuk }kjk bl vfèfu;e ds vèhu ''kfDr;ksa dk iz;ksx djus vkSj d`R;ksa dk'
+  line `fuoZgu djus ds iz;kstuksa ds fy, ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz ds uke ls Kkr,d fudk; dh`
+  line `LFkkiuk djsxhA`
+  line `¼2½ dsanz iwoksZDr uke dk,d fuxfer fudk; gksxk] ftldk 'kk'or~ mÙkjkfèdkj vkSj lekkU; eqnzk`
+  line `gksxh] ftls bl foès;d ds micaèksa ds vèhu jgrs gq,] taxe vkSj LFkkoj] nksuksa izdkj dh laifÙk dk vtZu]`
+  line `èkj.k vkSj O;;u djus rFkk lafonk djus dh 'kfDr gksxh vkSj og mDr uke ls okn yk,xk rFkk mlds fo#)`
+  line `okn yk;k tk,xkA`
+  line `4 ¼1½ ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz ds mís';,sls gSa] tks mls jk"Vªh; egÙkk dh laLFkk cukrs`
+  line `gSa] vr%;g?kksf"kr fd;k tkrk gS fd ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz,d jk"Vªh; egÙkk dh laLFkk gSA`
+  line `¼2½ dsanz dk eq[;ky; ubZ fnYyh gksxk vkSj;g dsanzh; ljdkj ds iwokZuqeksnu ls Hkkjr vkSj fons'kksa esa`
+  line `vU; LFkkuksa ij 'kk[kk,a LFkkfir dj ldsxkA`
+  line `5- dsanz fuEufyf[kr lnL;ksa ls feydj cusxk] vFkkZr~% —`
+  line `¼d½ dsanzh; ljdkj }kjk Hkkjr ds eq[; U;k;ewfrZ ds ijke'kZ ls fu;qDr dksbZ O;fDr] tks mPpre`
+  line `U;k;ky;;k fdlh mPp U;k;ky; dk U;k;kèh'k jgk gks;k ek/;LFke~ ds lapkyu;k iz'kklu] fofè;k`
+  line `izcaè esa fo'ks"k Kku vkSj vuqHko j[kus okyk dksbZ fo[;kr O;fDr — v/;{k(`
+  line `¼[k½ dsanzh; ljdkj }kjk fu;qDr nks fo[;kr O;fDr ftuds ikl?kjsyw vkSj vUrjjk"Vªh;] nksuksa`
+  line `izdkj ds lkaLFkkfud ek/;LFke~ esa lkjoku~ Kku vkSj vuqHko gks — iw.kZdkfyd;k va'kdkfyd lnL;(`
+  line `¼x½ dsanzh; ljdkj }kjk pØkuqØe ds vèkj ij p;fur okf.kT; vkSj m|ksx ds fdlh ekU;rkizkIr`
+  line `fudk; dk,d izfrfufè — va'kdkfyd lnL;(`
+  line `¼?k½ lfpo] fofè dk;Z foHkkx] fofè vkSj U;k; ea=ky;;k la;qDr lfpo ls vU;wu jSad dk`
+  line `mldk izfrfufè — lnL;] insu(`
+  line `¼³½ O;; foHkkx] foÙk ea=ky; }kjk ukefufnZ"V,d foÙkh; lykgdkj — lnL;] insu( vkSj`
+  line `¼p½ eq[; dk;Zikyd vfèdkjh — lnL;] insuA`
+  line `6- ¼1½ v/;{k vkSj lnL;] muds }kjk viuk in èkj.k djus dh rkjh[k ls rhu o"kZ dh vofè ds fy,`
+  line `in èkj.k djsaxs vkSj os iqufuZ;qfDr ds fy, ik= gksaxs%`
+  line `ubZ fnYyh`
+  line `vUrjjk"Vªh;`
+  line `ek?;LFke~ dsanz`
+  line `dh LFkkiuk vkSj`
+  line fuxeuA
+  line `ubZ fnYyh`
+  line `vUrjjk"Vªh;`
+  line `ek?;LFke~ dsanz`
+  line `dh jk"Vªh; egÙkk`
+  line `dh laLFkk ds:i`
+  line `esa?kks"k.kkA`
+  line `dsanz dh lajpukA`
+  line `v/;{k vkSj`
+  line `lnL;ksa] vkfn dh`
+  line `lsok ds fucaèu`
+  line `vkSj 'krs±A`
+  line `1996 dk 26`
+  line `1860 dk 21`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str ``38 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —
-ijarq dksbZ v/;{k;k lnL; ml:i esa] v/;{k dh n'kk esa lÙkj o"kZ dh vk;q izkIr djus ds i'pkr~
-vkSj lnL; dh n'kk esa lM+lB o"kZ dh vk;q izkIr djus ds i'pkr~ in èkj.k ugha djsxkA
-¼2½ v/;{k vkSj iw.kZdkfyd lnL; dh lsok ds fucaèu vkSj 'krs± rFkk lans; osru vkSj HkÙks os gksaxs] tks
-fofgr fd, tk,aA
-¼3½ fdlh vkdfLed fjfDr dks Hkjus ds fy, fu;qDr lnL; dh inkofè ml lnL; dh 'ks"k inkofè
-gksxh] ftlds LFkku ij mldh fu;qfDr dh xbZ gSA
-¼4½ va'kdkfyd lnL;,sls;k=k vkSj vU; HkÙkksa ds gdnkj gksaxs] tks fofgr fd, tk,aA
-v/;k; 3
-lkslkbVh ds miØ eksa dk vtZu vkSj varj.k
-7- fofufnZ"V rkjh[k ls gh] lkslkbVh ds mrus miØe] tks lkslkbVh dk Hkkx gSa;k mlls lacafèr gSa vkSj
-,sls miØeksa ds lacaè esa lkslkbVh dk vfèdkj] gd vkSj fgr bl vfèfu;e ds dkj.k dsanzh; ljdkj dks
-varfjr gks tk,axs rFkk mlesa fufgr gksaxsA
-8- ¼1½ èkjk 7 ds vèhu fufgr miØeksa esa lkslkbVh dh,slh lHkh vkfLr;ka] vfèdkj] iV~Vkè`fr;ka]
-'kfDr;ka] izkfèdkj vkSj fo'ks"kkfèdkj rFkk lHkh laifÙk ¼taxe vkSj LFkkoj½] ftlds varxZr Hkwfe] Hkou]
-ladeZ] ifj;kstuk,a] fy[krsa] vkVkseksckby vkSj vU;;ku] udn vfr'ks"k] fufè;ka ftuds varxZr vkjf{kr
-fufè;ka] fofuèku vkSj ys[kk cgh _.k Hkh gS] tks lkslkbVh ds Hkkx gSa;k mlls lacafèr gSa vkSj,slh laifÙk;kas ls
-mn~Hkwr vU; vfèdkj vkSj fgr] tks ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz v/;kns'k] 2019 ds izkjaHk dh
-rkjh[k ls Bhd iwoZ lkslkbVh ds LokfeRo] dCts] 'kfDr;k fu;a=.k esa Fks rFkk lHkh ys[kk cfg;ka] jftLVj rFkk
-muls lacafèr fdlh Hkh izd`fr ds vU; lHkh nLrkost lkslkbVh esa fufgr gks tk,axsA
-¼2½;Fkk iwoksZDr lHkh laifÙk;ka vkSj vkfLr;ka] tks èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr gSa],sls
-fufgr gksus ds dkj.k fdlh U;kl] ck/;rk] vkMeku] izHkkj] èkj.kkfèdkj vkSj lHkh vU; foYyaxeksa] tks mUgsa
-izHkkfor djrs gSa ls eqDr vkSj mUeksfpr gksaxh;k fdlh U;k;ky;;k vU; izkfèdkjh ds fdlh dqdhZ] O;kns'k]
-fMØh;k,slh ifjlaifÙk;ksa;k vkfLr;ksa ds fdlh jhfr esa mi;ksx dks fuc±fèr djus ds vkns'k;k,slh laiw.kZ
-ifjlaifÙk;ksa;k vkfLr;ksa;k muds fdlh Hkkx ds lacaè esa fdlh izkid dh fu;qfDr dks izfrlag`r fd;k x;k
-le>k tk,xkA
-¼3½ lkslkbVh dks fdlh miØe ds lacaè esa fofufnZ"V rkjh[k ls iwoZ fdlh le; vuqnÙk vkSj fofufnZ"V
-rkjh[k ls rqjUr iwoZ izo`Ùk dksbZ vuqKfIr;k vU; fy[kr] tks èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr gSa],slh
-rkjh[k dks vkSj mlds i'pkr~ viuh dk;kZofè ds fy, rFkk,sls miØe ds lacaè esa vkSj mlds iz;kstu ds fy,
-tkjh jgsaxs;k tgka miØeksa dks èkjk 10 ds vèhu dsanz esa fufgr fd, tkus dk funs'k fd;k x;k gS] dsanz dks,slh
-vuqKfIr;k vU; fy[kr esa bl izdkj izfrLFkkfir fd;k x;k le>k tk,xk] ekuksa,slh vuqKfIr;k vU;
-fy[kr dks dsanz dks vuqnÙk fd;k x;k gS vkSj dsanz ml 'ks"k vofè ds fy, mUgsa èkfjr djsxk] ftlds fy,
-lkslkbVh mudks muds fucaèuksa ds vèhu èkfjr djrhA
-¼4½;fn fofufnZ"V rkjh[k dks,slh ifjlaifÙk;k vkfLr] tks èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr
-gS] ds lacaè esa dksbZ okn] vihy;k vU; dk;Zokgh] pkgs fdlh Hkh izd`fr dh gks] lkslkbVh }kjk;k mlds fo#)
-lafLFkr;k vkjaHk dh tkrh gS] yafcr gS] rks mldk mi'keu ugha fd;k tk,xk] mls can ugha fd;k tk,xk;k
-fdlh Hkh izdkj ls lkslkbVh esa miØeksa ds vtZu ds dkj.k bl vfèfu;e esa varfoZ"V fdlh ckr ds dkj.k
-izfrdwy:i ls izHkkfor ugha gksxh] fdarq dsanzh; ljdkj }kjk;k mlds fo#);k tgka lkslkbVh ds miØeksa dks
-èkjk 10 ds vèhu dsanz esa fufgr gksus dk funs'k fn;k x;k gS] ogka dsUnz }kjk;k mlds fo#) okn] vihy;k
-vU; dk;Zokgh dks tkjh j[kk tk ldsxk] vfHk;ksftr fd;k tk ldsxk;k mls izorZu esa yk;k tk ldsxkA
-9- fofufnZ"V rkjh[k ls iwoZ fdlh vofè dh ckcr fdlh miØe ds lacaè esa izR;sd nkf;Ro lkslkbVh
-ds fo#) vkSj u fd dsanzh; ljdkj ds fo#) izorZuh; gksxkA
-varj.k vkSj
-fufgr gksukA
-fufgr gksus dk
-lkèkj.k izHkkoA
-2019 dk
-v/;kns'k lañ 10
-fofufnZ"V rkjh[k
-ls iwoZ nkf;RoA``)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line `38 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —`
+  line `ijarq dksbZ v/;{k;k lnL; ml:i esa] v/;{k dh n'kk esa lÙkj o"kZ dh vk;q izkIr djus ds i'pkr~`
+  line `vkSj lnL; dh n'kk esa lM+lB o"kZ dh vk;q izkIr djus ds i'pkr~ in èkj.k ugha djsxkA`
+  line `¼2½ v/;{k vkSj iw.kZdkfyd lnL; dh lsok ds fucaèu vkSj 'krs± rFkk lans; osru vkSj HkÙks os gksaxs] tks`
+  line `fofgr fd, tk,aA`
+  line `¼3½ fdlh vkdfLed fjfDr dks Hkjus ds fy, fu;qDr lnL; dh inkofè ml lnL; dh 'ks"k inkofè`
+  line `gksxh] ftlds LFkku ij mldh fu;qfDr dh xbZ gSA`
+  line `¼4½ va'kdkfyd lnL;,sls;k=k vkSj vU; HkÙkksa ds gdnkj gksaxs] tks fofgr fd, tk,aA`
+  line `v/;k; 3`
+  line `lkslkbVh ds miØ eksa dk vtZu vkSj varj.k`
+  line `7- fofufnZ"V rkjh[k ls gh] lkslkbVh ds mrus miØe] tks lkslkbVh dk Hkkx gSa;k mlls lacafèr gSa vkSj`
+  line `,sls miØeksa ds lacaè esa lkslkbVh dk vfèdkj] gd vkSj fgr bl vfèfu;e ds dkj.k dsanzh; ljdkj dks`
+  line `varfjr gks tk,axs rFkk mlesa fufgr gksaxsA`
+  line '8- ¼1½ èkjk 7 ds vèhu fufgr miØeksa esa lkslkbVh dh,slh lHkh vkfLr;ka] vfèdkj] iV~Vkè`fr;ka]'
+  line `'kfDr;ka] izkfèdkj vkSj fo'ks"kkfèdkj rFkk lHkh laifÙk ¼taxe vkSj LFkkoj½] ftlds varxZr Hkwfe] Hkou]`
+  line `ladeZ] ifj;kstuk,a] fy[krsa] vkVkseksckby vkSj vU;;ku] udn vfr'ks"k] fufè;ka ftuds varxZr vkjf{kr`
+  line `fufè;ka] fofuèku vkSj ys[kk cgh _.k Hkh gS] tks lkslkbVh ds Hkkx gSa;k mlls lacafèr gSa vkSj,slh laifÙk;kas ls`
+  line `mn~Hkwr vU; vfèdkj vkSj fgr] tks ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz v/;kns'k] 2019 ds izkjaHk dh`
+  line `rkjh[k ls Bhd iwoZ lkslkbVh ds LokfeRo] dCts] 'kfDr;k fu;a=.k esa Fks rFkk lHkh ys[kk cfg;ka] jftLVj rFkk`
+  line 'muls lacafèr fdlh Hkh izd`fr ds vU; lHkh nLrkost lkslkbVh esa fufgr gks tk,axsA'
+  line `¼2½;Fkk iwoksZDr lHkh laifÙk;ka vkSj vkfLr;ka] tks èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr gSa],sls`
+  line `fufgr gksus ds dkj.k fdlh U;kl] ck/;rk] vkMeku] izHkkj] èkj.kkfèdkj vkSj lHkh vU; foYyaxeksa] tks mUgsa`
+  line `izHkkfor djrs gSa ls eqDr vkSj mUeksfpr gksaxh;k fdlh U;k;ky;;k vU; izkfèdkjh ds fdlh dqdhZ] O;kns'k]`
+  line `fMØh;k,slh ifjlaifÙk;ksa;k vkfLr;ksa ds fdlh jhfr esa mi;ksx dks fuc±fèr djus ds vkns'k;k,slh laiw.kZ`
+  line 'ifjlaifÙk;ksa;k vkfLr;ksa;k muds fdlh Hkkx ds lacaè esa fdlh izkid dh fu;qfDr dks izfrlag`r fd;k x;k'
+  line `le>k tk,xkA`
+  line `¼3½ lkslkbVh dks fdlh miØe ds lacaè esa fofufnZ"V rkjh[k ls iwoZ fdlh le; vuqnÙk vkSj fofufnZ"V`
+  line 'rkjh[k ls rqjUr iwoZ izo`Ùk dksbZ vuqKfIr;k vU; fy[kr] tks èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr gSa],slh'
+  line `rkjh[k dks vkSj mlds i'pkr~ viuh dk;kZofè ds fy, rFkk,sls miØe ds lacaè esa vkSj mlds iz;kstu ds fy,`
+  line `tkjh jgsaxs;k tgka miØeksa dks èkjk 10 ds vèhu dsanz esa fufgr fd, tkus dk funs'k fd;k x;k gS] dsanz dks,slh`
+  line `vuqKfIr;k vU; fy[kr esa bl izdkj izfrLFkkfir fd;k x;k le>k tk,xk] ekuksa,slh vuqKfIr;k vU;`
+  line `fy[kr dks dsanz dks vuqnÙk fd;k x;k gS vkSj dsanz ml 'ks"k vofè ds fy, mUgsa èkfjr djsxk] ftlds fy,`
+  line `lkslkbVh mudks muds fucaèuksa ds vèhu èkfjr djrhA`
+  line `¼4½;fn fofufnZ"V rkjh[k dks,slh ifjlaifÙk;k vkfLr] tks èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr`
+  line 'gS] ds lacaè esa dksbZ okn] vihy;k vU; dk;Zokgh] pkgs fdlh Hkh izd`fr dh gks] lkslkbVh }kjk;k mlds fo#)'
+  line `lafLFkr;k vkjaHk dh tkrh gS] yafcr gS] rks mldk mi'keu ugha fd;k tk,xk] mls can ugha fd;k tk,xk;k`
+  line `fdlh Hkh izdkj ls lkslkbVh esa miØeksa ds vtZu ds dkj.k bl vfèfu;e esa varfoZ"V fdlh ckr ds dkj.k`
+  line `izfrdwy:i ls izHkkfor ugha gksxh] fdarq dsanzh; ljdkj }kjk;k mlds fo#);k tgka lkslkbVh ds miØeksa dks`
+  line `èkjk 10 ds vèhu dsanz esa fufgr gksus dk funs'k fn;k x;k gS] ogka dsUnz }kjk;k mlds fo#) okn] vihy;k`
+  line `vU; dk;Zokgh dks tkjh j[kk tk ldsxk] vfHk;ksftr fd;k tk ldsxk;k mls izorZu esa yk;k tk ldsxkA`
+  line `9- fofufnZ"V rkjh[k ls iwoZ fdlh vofè dh ckcr fdlh miØe ds lacaè esa izR;sd nkf;Ro lkslkbVh`
+  line `ds fo#) vkSj u fd dsanzh; ljdkj ds fo#) izorZuh; gksxkA`
+  line `varj.k vkSj`
+  line `fufgr gksukA`
+  line `fufgr gksus dk`
+  line `lkèkj.k izHkkoA`
+  line `2019 dk`
+  line `v/;kns'k lañ 10`
+  line `fofufnZ"V rkjh[k`
+  line `ls iwoZ nkf;RoA`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str ``vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 39
-10- ¼1½ dsanzh; ljdkj] èkjk 7 vkSj èkjk 8 esa varfoZ"V fdlh ckr ds gksrs gq, Hkh fofufnZ"V rkjh[k ds
-i'pkr~;Fkk'kh?kz] vfèlwpuk }kjk funs'k ns ldsxh fd,sls miØe vkSj,sls miØeksa dh ckcr lkslkbVh ds
-vfèdkj] gd vkSj fgr] tks èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr fd, x, Fks];k rks vfèlwpuk ds
-izdk'ku dh rkjh[k dks;k,slh iwoZrj;k i'pkr~orhZ rkjh[k dks] tks vfèlwpuk esa fofufnZ"V dh tk,] dsanz esa
-fufgr gks tk,axsA
-¼2½ tgka lkslkbVh ds fdUgha miØeksa dh ckcr mièkjk ¼1½ ds vèhu vfèdkj] gd vkSj fgr dsanz esa
-fufgr gSa] dsanz,sls fufgr gksus dh rkjh[k ls gh,sls miØeksa dh ckcr Lokeh le>k tk,xk vkSj,sls miØeksa
-dh ckcr dsanzh; ljdkj ds fgr vkSj mÙkjnkf;Ro,sls fufgr gksus dh rkjh[k ls gh Øe'k% dsanz ds vfèdkj vkSj
-nkf;Ro le>s tk,axsA
-11- ¼1½,sls miØeksa] ftuds lacaè esa vfèdkj] fgr] èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr gSa] dk
-lkèkj.k vèh{k.k] funs'k] fu;a=.k vkSj izcaè] —
-¼d½ tgka èkjk 10 dh mièkjk ¼1½ ds vèhu dsanzh; ljdkj }kjk dksbZ funs'k fn;k x;k gS] dsanz
-esa fufgr gksxk(;k
-¼[k½ tgka dsanzh; ljdkj }kjk,slk dksbZ funs'k ugha fn;k x;k gS] mièkjk ¼2½ ds vèhu dsanzh;
-ljdkj }kjk fu;qDr vfHkj{kd esa fufgr gksxk] vkSj rnqijkar];FkkfLFkfr] dsanz;k bl izdkj fu;qDr
-vfHkj{kd,slh lHkh 'kfDr;ksa dk iz;ksx djus vkSj,sls lHkh d`R;ksa dk fuoZgu djus dk gdnkj gksxk]
-tSls lkslkbVh vius miØeksa dh ckcr iz;ksx;k fuoZgu djus ds fy, izkfèd`r gSA
-¼2½ dsanzh; ljdkj fdlh Hkh O;fDr dks,sls miØeksa dh ckcr] ftuds lacaè esa èkjk 10 dh mièkjk
-¼1½ ds vèhu dksbZ funs'k ugha fn;k x;k gS] vfHkj{kd fu;qDr dj ldsxhA
-¼3½ bl izdkj fu;qDr vfHkj{kd,slk ikfjJfed izkIr djsxk] tks dsanzh; ljdkj fu;r djs vkSj dsanzh;
-ljdkj ds izlkni;±r in èkj.k djsxkA
-12- ¼1½ dsanz esa miØeksa ds izcaè dks fufgr djus;k èkjk 11 dh mièkjk ¼2½ ds vèhu fdlh
-vfHkj{kd dh fu;qfDr ij],sls fufgr djus;k fu;qfDr ls rqjar iwoZ miØeksa ds izcaè ds Hkkjlkèd lHkh O;fDr]
-;FkkfLFkfr] dsanz;k vfHkj{kd dks viuh vfHkj{kk esa ds miØeksa ls lacafèr lHkh vkfLr;ksa] ys[kk cfg;ksa]
-jftLVjksa vkSj vU; nLrkostksa dks ifjnÙk djus ds fy, vkc) gksaxsA
-¼2½ dsanzh; ljdkj vfHkj{kd dks] vfHkj{kd dh 'kfDr;ksa vkSj drZO;ksa ds lacaè esa,sls funs'k tkjh dj
-ldsxh] tks og ekeys dh ifjfLFkfr;ksa esa okaNuh; le>s vkSj vfHkj{kd Hkh;fn,slk djuk vko';d le>rk
-gS rks fdlh Hkh le; dsanzh; ljdkj dks ml jhfr] ftlesa miØeksa ds izcaè dk lapkyu fd;k tkuk gS] ds lacaè
-esa;k,sls izcaè ds vuqØe esa mn~Hkwr fdlh vU; fo"k; ds lacaè esa vuqns'kksa gsrq vkosnu dj ldsxkA
-¼3½ dksbZ O;fDr] ftlds ikl;k ftlds fu;a=.kkèhu fofufnZ"V rkjh[k dks miØeksa ds lacaè esa dksbZ
-cfg;ka] nLrkost;k vU; dkxti= gSa],slh cfg;ksa] nLrkostksa;k vU; dkxti=ksa ds fy,];FkkfLFkfr] dsanzh;
-ljdkj;k vfHkj{kd dks fglkc nsus ds fy, nk;h gksxk vkSj mUgsa dsanzh; ljdkj;k vfHkj{kd;k dsanz;k,sls
-O;fDr;k O;fDr;ksa ds fudk; dks ifjnÙk djsxk] tSlk bl fufeÙk dsanzh; ljdkj;k dsanz fofufnZ"V djsA
-¼4½ dsanzh; ljdkj;k dsanz,sls lHkh miØeksa] ftudks bl vfèfu;e ds vèhu dsanzh; ljdkj;k dsanz
-esa fufgr fd;k x;k gS] dks dCts essa ysus ds fy, lHkh vko';d dne mBk,xk;k mBok,xkA
-¼5½ lkslkbVh,slh dkykofè ds Hkhrj] tks bl fufeÙk dsanzh; ljdkj vuqKkr djs] ml ljdkj dks
-ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz v/;kns'k] 2019 ds izkjaHk gksus dh rkjh[k dks miØeksa ds lacaè esa
-mldh lHkh ifjlaifÙk;ksa vkSj vkfLr;ksa dh,d iw.kZ eky lwph izLrqr djsxh vkSj bl iz;kstu ds fy, dsanzh;
-ljdkj;k vfHkj{kd;k dsanz] lkslkbVh;k fudk; dks lHkh;qfDr;qDr lqfoèk,a iznku djsxkA
-dsanzh; ljdkj dh
-miØe dks dsanz esa
-fufgr djus dk
-funs'k nsus dh
-'kfDrA
-miØeksa dk izcaè]
-vkfnA
-miØeksa ds izcaè
-ds Hkkjlkèd
-O;fDr;ksa dk
-lHkh vkfLr;ka
-ifjnÙk djus dk
-drZO;A
-2019 dk
-v/;kns'k lañ 10``)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line `vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 39`
+  line `10- ¼1½ dsanzh; ljdkj] èkjk 7 vkSj èkjk 8 esa varfoZ"V fdlh ckr ds gksrs gq, Hkh fofufnZ"V rkjh[k ds`
+  line `i'pkr~;Fkk'kh?kz] vfèlwpuk }kjk funs'k ns ldsxh fd,sls miØe vkSj,sls miØeksa dh ckcr lkslkbVh ds`
+  line `vfèdkj] gd vkSj fgr] tks èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr fd, x, Fks];k rks vfèlwpuk ds`
+  line `izdk'ku dh rkjh[k dks;k,slh iwoZrj;k i'pkr~orhZ rkjh[k dks] tks vfèlwpuk esa fofufnZ"V dh tk,] dsanz esa`
+  line `fufgr gks tk,axsA`
+  line `¼2½ tgka lkslkbVh ds fdUgha miØeksa dh ckcr mièkjk ¼1½ ds vèhu vfèdkj] gd vkSj fgr dsanz esa`
+  line `fufgr gSa] dsanz,sls fufgr gksus dh rkjh[k ls gh,sls miØeksa dh ckcr Lokeh le>k tk,xk vkSj,sls miØeksa`
+  line `dh ckcr dsanzh; ljdkj ds fgr vkSj mÙkjnkf;Ro,sls fufgr gksus dh rkjh[k ls gh Øe'k% dsanz ds vfèdkj vkSj`
+  line `nkf;Ro le>s tk,axsA`
+  line `11- ¼1½,sls miØeksa] ftuds lacaè esa vfèdkj] fgr] èkjk 7 ds vèhu dsanzh; ljdkj esa fufgr gSa] dk`
+  line `lkèkj.k vèh{k.k] funs'k] fu;a=.k vkSj izcaè] —`
+  line `¼d½ tgka èkjk 10 dh mièkjk ¼1½ ds vèhu dsanzh; ljdkj }kjk dksbZ funs'k fn;k x;k gS] dsanz`
+  line `esa fufgr gksxk(;k`
+  line `¼[k½ tgka dsanzh; ljdkj }kjk,slk dksbZ funs'k ugha fn;k x;k gS] mièkjk ¼2½ ds vèhu dsanzh;`
+  line `ljdkj }kjk fu;qDr vfHkj{kd esa fufgr gksxk] vkSj rnqijkar];FkkfLFkfr] dsanz;k bl izdkj fu;qDr`
+  line 'vfHkj{kd,slh lHkh ''kfDr;ksa dk iz;ksx djus vkSj,sls lHkh d`R;ksa dk fuoZgu djus dk gdnkj gksxk]'
+  line 'tSls lkslkbVh vius miØeksa dh ckcr iz;ksx;k fuoZgu djus ds fy, izkfèd`r gSA'
+  line `¼2½ dsanzh; ljdkj fdlh Hkh O;fDr dks,sls miØeksa dh ckcr] ftuds lacaè esa èkjk 10 dh mièkjk`
+  line `¼1½ ds vèhu dksbZ funs'k ugha fn;k x;k gS] vfHkj{kd fu;qDr dj ldsxhA`
+  line `¼3½ bl izdkj fu;qDr vfHkj{kd,slk ikfjJfed izkIr djsxk] tks dsanzh; ljdkj fu;r djs vkSj dsanzh;`
+  line `ljdkj ds izlkni;±r in èkj.k djsxkA`
+  line `12- ¼1½ dsanz esa miØeksa ds izcaè dks fufgr djus;k èkjk 11 dh mièkjk ¼2½ ds vèhu fdlh`
+  line `vfHkj{kd dh fu;qfDr ij],sls fufgr djus;k fu;qfDr ls rqjar iwoZ miØeksa ds izcaè ds Hkkjlkèd lHkh O;fDr]`
+  line `;FkkfLFkfr] dsanz;k vfHkj{kd dks viuh vfHkj{kk esa ds miØeksa ls lacafèr lHkh vkfLr;ksa] ys[kk cfg;ksa]`
+  line `jftLVjksa vkSj vU; nLrkostksa dks ifjnÙk djus ds fy, vkc) gksaxsA`
+  line `¼2½ dsanzh; ljdkj vfHkj{kd dks] vfHkj{kd dh 'kfDr;ksa vkSj drZO;ksa ds lacaè esa,sls funs'k tkjh dj`
+  line `ldsxh] tks og ekeys dh ifjfLFkfr;ksa esa okaNuh; le>s vkSj vfHkj{kd Hkh;fn,slk djuk vko';d le>rk`
+  line `gS rks fdlh Hkh le; dsanzh; ljdkj dks ml jhfr] ftlesa miØeksa ds izcaè dk lapkyu fd;k tkuk gS] ds lacaè`
+  line `esa;k,sls izcaè ds vuqØe esa mn~Hkwr fdlh vU; fo"k; ds lacaè esa vuqns'kksa gsrq vkosnu dj ldsxkA`
+  line `¼3½ dksbZ O;fDr] ftlds ikl;k ftlds fu;a=.kkèhu fofufnZ"V rkjh[k dks miØeksa ds lacaè esa dksbZ`
+  line `cfg;ka] nLrkost;k vU; dkxti= gSa],slh cfg;ksa] nLrkostksa;k vU; dkxti=ksa ds fy,];FkkfLFkfr] dsanzh;`
+  line `ljdkj;k vfHkj{kd dks fglkc nsus ds fy, nk;h gksxk vkSj mUgsa dsanzh; ljdkj;k vfHkj{kd;k dsanz;k,sls`
+  line `O;fDr;k O;fDr;ksa ds fudk; dks ifjnÙk djsxk] tSlk bl fufeÙk dsanzh; ljdkj;k dsanz fofufnZ"V djsA`
+  line `¼4½ dsanzh; ljdkj;k dsanz,sls lHkh miØeksa] ftudks bl vfèfu;e ds vèhu dsanzh; ljdkj;k dsanz`
+  line `esa fufgr fd;k x;k gS] dks dCts essa ysus ds fy, lHkh vko';d dne mBk,xk;k mBok,xkA`
+  line `¼5½ lkslkbVh,slh dkykofè ds Hkhrj] tks bl fufeÙk dsanzh; ljdkj vuqKkr djs] ml ljdkj dks`
+  line `ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz v/;kns'k] 2019 ds izkjaHk gksus dh rkjh[k dks miØeksa ds lacaè esa`
+  line `mldh lHkh ifjlaifÙk;ksa vkSj vkfLr;ksa dh,d iw.kZ eky lwph izLrqr djsxh vkSj bl iz;kstu ds fy, dsanzh;`
+  line `ljdkj;k vfHkj{kd;k dsanz] lkslkbVh;k fudk; dks lHkh;qfDr;qDr lqfoèk,a iznku djsxkA`
+  line `dsanzh; ljdkj dh`
+  line `miØe dks dsanz esa`
+  line `fufgr djus dk`
+  line `funs'k nsus dh`
+  line `'kfDrA`
+  line `miØeksa dk izcaè]`
+  line vkfnA
+  line `miØeksa ds izcaè`
+  line `ds Hkkjlkèd`
+  line `O;fDr;ksa dk`
+  line `lHkh vkfLr;ka`
+  line `ifjnÙk djus dk`
+  line drZO;A
+  line `2019 dk`
+  line `v/;kns'k lañ 10`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str ``40 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —
-13- dsanzh; ljdkj;k vfHkj{kd;k dsanz] fofufnZ"V rkjh[k rd lHkh vU; O;fDr;ksa dks vioftZr djrs
-gq, fdlh èu] tks lkslkbVh ds,sls miØeksa dh ckcr lkslkbVh dks 'kks/; gSa] tks];FkkfLFkfr] dsanzh; ljdkj;k
-vfHkj{kd;k dsanz esa fufgr gSa vkSj ftudh ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz v/;kns'k] 2019 ds izkjaHk
-ds i'pkr~ olwyh dh xbZ gS] bl ckr ds gksrs gq, Hkh fd olwyh ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz
-v/;kns'k] 2019 ds izkjaHk gksus ls iwoZ fdlh dkykofè ds fy, gS] dks izkIr djus dk gdnkj gksxkA
-14 - dsanz ds fuEufyf[kr mís'; gksaxs] —
-¼d½ vUrjjk"Vªh; vkSj?kjsyw ek/;LFke~ lapkfyr djus ds fy,,d vxz.kh laLFkk ds:i esa
-Lo;a dk fodkl djus ds fy, yf{;r lqèkj djuk(
-¼[k½ ek/;LFke] lqyg] e/;drk vkSj vU; fodYih fookn lekèku fo"k;ksa esa vuqlaèku vkSj
-v/;;u dk laoèZu djuk] f'k{k.k vkSj izf'k{k.k iznku djuk rFkk lEesyu vkSj laxksf"B;ka vk;ksftr
-djuk(
-¼x½ lqyg] e/;drk vkSj ek/;LFke~ dk;Zokfg;ksa ds fy, lqfoèk,a vkSj iz'kklfud lgk;rk
-miyCè djuk(
-¼?k½ izR;kf'kr e/;LFkksa] lqygdrkZvksa vkSj e/;drksa dk jk"Vªh; vkSj vUrjjk"Vªh;] nksuksa Lrjksa
-ij;k fo'ks"kKksa] tSls fd losZ{kdksa vkSj vUos"kdksa dk iSuy cuk, j[kuk(
-¼³½ dsanz dh ek/;LFke~ vkSj lqyg esa,d fo'ks"kK laLFkk ds:i esa lk[k dks lqfuf'pr djus ds
-fy, vU; jk"Vªh; vkSj vUrjjk"Vªh; laLFkkvksa vkSj laxBuksa ds lkFk lg;ksx djuk(
-¼p½ dsanz ds dk;Zdykiksa dk laoèZu djus ds fy, Hkkjr vkSj fons'k esa lqfoèk,a LFkkfir djuk(
-¼N½ dsanz }kjk vaxhd`r fd, tkus okys fodYih fookn lekèku ra=ksa ds fofHkUu <axksa ds fy,
-iSjkehVj vfèdfFkr djuk( vkSj
-¼t½,sls vU; mís';] ftUgsa og dsanzh; ljdkj ds vuqeksnu ls mfpr le>sA
-15 - èkjk 14 esa varfoZ"V micaèksa ij izfrdwy izHkko Mkys fcuk] dsanz fuEufyf[kr ds fy, iz;kl
-djsxk] —
-¼d½ vR;fèd o`fÙkd jhfr esa varjjk"Vªh; vkSj?kjsyw ek/;LFkeksa vkSj lqyg ds lapkyu dks
-lqdj cukus(
-¼[k½ jk"Vªh; vkSj varjjk"Vªh; Lrj ij ek/;LFkeksa vkSj lqyg ds lapkyu ds fy, lLrh vkSj
-le;c) lsok,a miyCè djkus(
-¼x½ fodYih fookn lekèku ds {ks= vkSj vU; lac) fo"k;ksa esa v/;;uksa dk laoèZu djus vkSj
-fookn lekèku dh iz.kkyh esa lqèkjksa dk laoèZu djus(
-¼?k½ fodYih fookn lekèku ds {ks= vkSj vU; lac) fo"k;ksa esa v/;kiu izkjaHk djus vkSj fofè
-rFkk izfØ;kvksa ds Kku ds izlkj ds fy, micaè djus vkSj izek.ki=ksa rFkk vU; 'kS{kf.kd;k o`fÙkd
-mikfè;ksa dks iznku djus(
-¼³½ fodYih fookn lekèku ds {ks= vkSj vU; lac) fo"k;ksa esa,sls O;fDr;ksa dks izf'k{k.k
-iznku djus] tks ek/;LFke~] lqyg vkSj e/;drk lacaèh dk;Zokgh dj jgs gSa(
-¼p½ fodYih fookn lekèku dk laoèZu djus ds fy, jk"Vªh;;k varjjk"Vªh; vU; lkslkbfV;ksa]
-laLFkkvksa vkSj laxBuksa ds lkFk lg;ksx djus( vkSj
-¼N½,sls vU; d`R;ksa dk fuoZgu djus] tks fodYih fookn lekèku dk laoèZu djus ds fy,
-dsaUnzh; ljdkj }kjk mls lkSais tk,aA
-dsanzh; ljdkj;k
-dsanz dh dfri;
-'kfDr;kaA 2019 dk
-v/;kns'k lañ 10
-dsanz ds mís';A
-dsUnz ds d`R;A``)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line `40 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —`
+  line `13- dsanzh; ljdkj;k vfHkj{kd;k dsanz] fofufnZ"V rkjh[k rd lHkh vU; O;fDr;ksa dks vioftZr djrs`
+  line `gq, fdlh èu] tks lkslkbVh ds,sls miØeksa dh ckcr lkslkbVh dks 'kks/; gSa] tks];FkkfLFkfr] dsanzh; ljdkj;k`
+  line `vfHkj{kd;k dsanz esa fufgr gSa vkSj ftudh ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz v/;kns'k] 2019 ds izkjaHk`
+  line `ds i'pkr~ olwyh dh xbZ gS] bl ckr ds gksrs gq, Hkh fd olwyh ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsanz`
+  line `v/;kns'k] 2019 ds izkjaHk gksus ls iwoZ fdlh dkykofè ds fy, gS] dks izkIr djus dk gdnkj gksxkA`
+  line `14 - dsanz ds fuEufyf[kr mís'; gksaxs] —`
+  line `¼d½ vUrjjk"Vªh; vkSj?kjsyw ek/;LFke~ lapkfyr djus ds fy,,d vxz.kh laLFkk ds:i esa`
+  line `Lo;a dk fodkl djus ds fy, yf{;r lqèkj djuk(`
+  line `¼[k½ ek/;LFke] lqyg] e/;drk vkSj vU; fodYih fookn lekèku fo"k;ksa esa vuqlaèku vkSj`
+  line `v/;;u dk laoèZu djuk] f'k{k.k vkSj izf'k{k.k iznku djuk rFkk lEesyu vkSj laxksf"B;ka vk;ksftr`
+  line `djuk(`
+  line `¼x½ lqyg] e/;drk vkSj ek/;LFke~ dk;Zokfg;ksa ds fy, lqfoèk,a vkSj iz'kklfud lgk;rk`
+  line `miyCè djuk(`
+  line `¼?k½ izR;kf'kr e/;LFkksa] lqygdrkZvksa vkSj e/;drksa dk jk"Vªh; vkSj vUrjjk"Vªh;] nksuksa Lrjksa`
+  line `ij;k fo'ks"kKksa] tSls fd losZ{kdksa vkSj vUos"kdksa dk iSuy cuk, j[kuk(`
+  line `¼³½ dsanz dh ek/;LFke~ vkSj lqyg esa,d fo'ks"kK laLFkk ds:i esa lk[k dks lqfuf'pr djus ds`
+  line `fy, vU; jk"Vªh; vkSj vUrjjk"Vªh; laLFkkvksa vkSj laxBuksa ds lkFk lg;ksx djuk(`
+  line `¼p½ dsanz ds dk;Zdykiksa dk laoèZu djus ds fy, Hkkjr vkSj fons'k esa lqfoèk,a LFkkfir djuk(`
+  line '¼N½ dsanz }kjk vaxhd`r fd, tkus okys fodYih fookn lekèku ra=ksa ds fofHkUu <axksa ds fy,'
+  line `iSjkehVj vfèdfFkr djuk( vkSj`
+  line `¼t½,sls vU; mís';] ftUgsa og dsanzh; ljdkj ds vuqeksnu ls mfpr le>sA`
+  line `15 - èkjk 14 esa varfoZ"V micaèksa ij izfrdwy izHkko Mkys fcuk] dsanz fuEufyf[kr ds fy, iz;kl`
+  line `djsxk] —`
+  line '¼d½ vR;fèd o`fÙkd jhfr esa varjjk"Vªh; vkSj?kjsyw ek/;LFkeksa vkSj lqyg ds lapkyu dks'
+  line `lqdj cukus(`
+  line `¼[k½ jk"Vªh; vkSj varjjk"Vªh; Lrj ij ek/;LFkeksa vkSj lqyg ds lapkyu ds fy, lLrh vkSj`
+  line `le;c) lsok,a miyCè djkus(`
+  line `¼x½ fodYih fookn lekèku ds {ks= vkSj vU; lac) fo"k;ksa esa v/;;uksa dk laoèZu djus vkSj`
+  line `fookn lekèku dh iz.kkyh esa lqèkjksa dk laoèZu djus(`
+  line `¼?k½ fodYih fookn lekèku ds {ks= vkSj vU; lac) fo"k;ksa esa v/;kiu izkjaHk djus vkSj fofè`
+  line 'rFkk izfØ;kvksa ds Kku ds izlkj ds fy, micaè djus vkSj izek.ki=ksa rFkk vU; ''kS{kf.kd;k o`fÙkd'
+  line `mikfè;ksa dks iznku djus(`
+  line `¼³½ fodYih fookn lekèku ds {ks= vkSj vU; lac) fo"k;ksa esa,sls O;fDr;ksa dks izf'k{k.k`
+  line `iznku djus] tks ek/;LFke~] lqyg vkSj e/;drk lacaèh dk;Zokgh dj jgs gSa(`
+  line `¼p½ fodYih fookn lekèku dk laoèZu djus ds fy, jk"Vªh;;k varjjk"Vªh; vU; lkslkbfV;ksa]`
+  line `laLFkkvksa vkSj laxBuksa ds lkFk lg;ksx djus( vkSj`
+  line '¼N½,sls vU; d`R;ksa dk fuoZgu djus] tks fodYih fookn lekèku dk laoèZu djus ds fy,'
+  line `dsaUnzh; ljdkj }kjk mls lkSais tk,aA`
+  line `dsanzh; ljdkj;k`
+  line `dsanz dh dfri;`
+  line `'kfDr;kaA 2019 dk`
+  line `v/;kns'k lañ 10`
+  line `dsanz ds mís';A`
+  line 'dsUnz ds d`R;A'
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str ``vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 41
-16 - dsUnz dh dksbZ dkjZokbZ;k dk;Zokgh ek= bl dkj.k ls vfofèekU; ugha gksxh fd] —
-¼d½ dsUnz esa dksbZ fjfDr gS;k mlds xBu esa dksbZ =qfV gS(;k
-¼[k½ dsUnz ds lnL; ds:i esa dk;Z dj jgs fdlh O;fDr dh fu;qfDr esa dksbZ =qfV gS(;k
-¼x½ dsUnz dh izfØ;k esa,slh dksbZ vfu;ferrk gS] tks ekeys ds xqq.kkxq.k dks izHkkfor ugha
-djrh gSA
-17 - v/;{k;k iw.kZdkfyd vFkok va'kdkfyd lnL;] fyf[kr esa dsUnzh; ljdkj dks lacksfèr viuh
-gLrk{kj;qDr lwpuk nsdj] vius in ls R;kxi= ns ldsxk%
-ijarq v/;{k;k iw.kZdkfyd lnL;] tc rd dsUnzh; ljdkj }kjk mls mlls iwoZ mldk in R;kx djus
-dh vuqefr u nh tk,],slh lwpuk dh izkfIr dh rkjh[k ls rhu ekl dh vofè dh lekfIr rd;k mlds
-mÙkjorhZ ds:i esa lE;d~:i ls fu;qDr fdlh O;fDr }kjk mldk inxzg.k djus rd;k mldh inkofè ds
-volku rd] buesa ls tks Hkh iwoZrj gks] viuk inèkj.k djuk tkjh j[ksxkA
-18 - ¼1½ dsUnzh; ljdkj] fdlh lnL; dks mlds in ls gVk ldsxh];fn] —
-¼d½ og dksbZ vuqUeksfpr fnokfy;k gS(;k
-¼[k½ og vius dk;Zdky ds nkSjku fdlh Hkh le; ¼va'kdkfyd lnL; ds flok;½ fdlh
-lank;;qDr fu;kstu esa fu;ksftr gksrk gS(;k
-¼x½ mls,sls fdlh vijkè ds fy, fl)nks"k Bgjk;k x;k gS] ftlesa dsUnzh; ljdkj dh jk; esa
-uSfrd vèerk varoZfyr gS(;k
-¼?k½ mlus,sls foÙkh;;k vU; fgr vftZr fd, gSa] ftuds dkj.k lnL; ds:i esa mlds d`R;ksa
-ij izfrdwy izHkko iM+us dh laHkkouk gS(;k
-¼³½ mlus viuh gSfl;r dk bl izdkj nq#i;ksx fd;k gS fd mldk in ij cuk jguk yksdfgr
-ds izfrdwy gks x;k gS(;k
-¼p½ og lnL; ds:i esa dk;Z djus ds fy, 'kkjhfjd;k ekufld:i ls v{ke gks x;k gSA
-¼2½ mièkjk ¼1½ esa varfoZ"V fdlh ckr ds gksrs gq, Hkh] fdlh lnL; dks ml mièkjk ds [kaM ¼?k½ vkSj
-[kaM ¼³½ es fofufnZ"V vkèkjksa ij mlds in ls rc rd ugha gVk;k tk,xk tc rd fd mPpre U;k;ky; }kjk]
-dsUnzh; ljdkj }kjk bl fufeÙk mls fd, x, fdlh izfrfunsZ'k ij] mPpre U;k;ky; }kjk bl fufeÙk fofgr dh
-tkus okyh izfØ;k ds vuqlkj mlds }kjk dh xbZ tkap ij;g fjiksVZ u fd;k x;k gks fd lnL; dks,sls vkèkj
-ij vkèkjksa ij gVk;k tkuk vko';d gSA
-19 - ¼1½ dsUnz,sls lfefr;ksa dk xBu dj ldsxk] tks mlds }kjk mlds d`R;ksa ds fofHkUu igyqvksa ds
-iz'kklu ds fy, vko';d le>h tk,aA
-¼2½ mièkjk ¼1½ esa fufnZ"V lfefr;ksa dh lajpuk vkSj muds d`R; os gksaxs] tks fofgr fd, tk,aA
-¼3½ lfefr,sls le; ij vkSj,sls LFkkuksa ij viuh cSBd djsxh vkSj og viuh cSBdksa esa dkjxkj ds
-laO;ogkj ds lacaè esa,sls izfØ;k fu;eksa] ftuds varxZr x.kiwfrZ Hkh gS] dk ikyu djsxh] tks fofu;eksa }kjk
-fofufnZ"V fd, tk,aA
-20 - ¼1½ v/;{k lkekU;:i ls dsUnz dh cSBdksa dh v/;{krk djsxk%
-ijarq mldh vuqifLFkfr esa] vU; lnL;ksa }kjk muds chp esa ls pquk x;k lnL; cSBdksa dh v/;{krk
-djsxkA
-¼2½ v/;{k dk;g drZO; gksxk fd og lqfuf'pr djs fd dsUnz }kjk fd, x, fofu'p;ksa dk dk;kZUo;u
-fd;k tkrk gSA
-fjfDr;ksa] vkfn
-dk dsUnz dh
-dk;Zokfg;ksa dks
-vfofèekU; u
-djukA
-lnL;ksa dk
-R;kxi=A
-lnL;ksa dk gVk;k
-tkukA
-dsUnz dh
-lfefr;kaA
-dsUnz dh cSBdsaA``)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line `vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 41`
+  line `16 - dsUnz dh dksbZ dkjZokbZ;k dk;Zokgh ek= bl dkj.k ls vfofèekU; ugha gksxh fd] —`
+  line `¼d½ dsUnz esa dksbZ fjfDr gS;k mlds xBu esa dksbZ =qfV gS(;k`
+  line `¼[k½ dsUnz ds lnL; ds:i esa dk;Z dj jgs fdlh O;fDr dh fu;qfDr esa dksbZ =qfV gS(;k`
+  line `¼x½ dsUnz dh izfØ;k esa,slh dksbZ vfu;ferrk gS] tks ekeys ds xqq.kkxq.k dks izHkkfor ugha`
+  line `djrh gSA`
+  line `17 - v/;{k;k iw.kZdkfyd vFkok va'kdkfyd lnL;] fyf[kr esa dsUnzh; ljdkj dks lacksfèr viuh`
+  line `gLrk{kj;qDr lwpuk nsdj] vius in ls R;kxi= ns ldsxk%`
+  line `ijarq v/;{k;k iw.kZdkfyd lnL;] tc rd dsUnzh; ljdkj }kjk mls mlls iwoZ mldk in R;kx djus`
+  line `dh vuqefr u nh tk,],slh lwpuk dh izkfIr dh rkjh[k ls rhu ekl dh vofè dh lekfIr rd;k mlds`
+  line `mÙkjorhZ ds:i esa lE;d~:i ls fu;qDr fdlh O;fDr }kjk mldk inxzg.k djus rd;k mldh inkofè ds`
+  line `volku rd] buesa ls tks Hkh iwoZrj gks] viuk inèkj.k djuk tkjh j[ksxkA`
+  line `18 - ¼1½ dsUnzh; ljdkj] fdlh lnL; dks mlds in ls gVk ldsxh];fn] —`
+  line `¼d½ og dksbZ vuqUeksfpr fnokfy;k gS(;k`
+  line `¼[k½ og vius dk;Zdky ds nkSjku fdlh Hkh le; ¼va'kdkfyd lnL; ds flok;½ fdlh`
+  line `lank;;qDr fu;kstu esa fu;ksftr gksrk gS(;k`
+  line `¼x½ mls,sls fdlh vijkè ds fy, fl)nks"k Bgjk;k x;k gS] ftlesa dsUnzh; ljdkj dh jk; esa`
+  line `uSfrd vèerk varoZfyr gS(;k`
+  line '¼?k½ mlus,sls foÙkh;;k vU; fgr vftZr fd, gSa] ftuds dkj.k lnL; ds:i esa mlds d`R;ksa'
+  line `ij izfrdwy izHkko iM+us dh laHkkouk gS(;k`
+  line `¼³½ mlus viuh gSfl;r dk bl izdkj nq#i;ksx fd;k gS fd mldk in ij cuk jguk yksdfgr`
+  line `ds izfrdwy gks x;k gS(;k`
+  line `¼p½ og lnL; ds:i esa dk;Z djus ds fy, 'kkjhfjd;k ekufld:i ls v{ke gks x;k gSA`
+  line `¼2½ mièkjk ¼1½ esa varfoZ"V fdlh ckr ds gksrs gq, Hkh] fdlh lnL; dks ml mièkjk ds [kaM ¼?k½ vkSj`
+  line `[kaM ¼³½ es fofufnZ"V vkèkjksa ij mlds in ls rc rd ugha gVk;k tk,xk tc rd fd mPpre U;k;ky; }kjk]`
+  line `dsUnzh; ljdkj }kjk bl fufeÙk mls fd, x, fdlh izfrfunsZ'k ij] mPpre U;k;ky; }kjk bl fufeÙk fofgr dh`
+  line `tkus okyh izfØ;k ds vuqlkj mlds }kjk dh xbZ tkap ij;g fjiksVZ u fd;k x;k gks fd lnL; dks,sls vkèkj`
+  line `ij vkèkjksa ij gVk;k tkuk vko';d gSA`
+  line '19 - ¼1½ dsUnz,sls lfefr;ksa dk xBu dj ldsxk] tks mlds }kjk mlds d`R;ksa ds fofHkUu igyqvksa ds'
+  line `iz'kklu ds fy, vko';d le>h tk,aA`
+  line '¼2½ mièkjk ¼1½ esa fufnZ"V lfefr;ksa dh lajpuk vkSj muds d`R; os gksaxs] tks fofgr fd, tk,aA'
+  line `¼3½ lfefr,sls le; ij vkSj,sls LFkkuksa ij viuh cSBd djsxh vkSj og viuh cSBdksa esa dkjxkj ds`
+  line `laO;ogkj ds lacaè esa,sls izfØ;k fu;eksa] ftuds varxZr x.kiwfrZ Hkh gS] dk ikyu djsxh] tks fofu;eksa }kjk`
+  line `fofufnZ"V fd, tk,aA`
+  line `20 - ¼1½ v/;{k lkekU;:i ls dsUnz dh cSBdksa dh v/;{krk djsxk%`
+  line `ijarq mldh vuqifLFkfr esa] vU; lnL;ksa }kjk muds chp esa ls pquk x;k lnL; cSBdksa dh v/;{krk`
+  line djsxkA
+  line `¼2½ v/;{k dk;g drZO; gksxk fd og lqfuf'pr djs fd dsUnz }kjk fd, x, fofu'p;ksa dk dk;kZUo;u`
+  line `fd;k tkrk gSA`
+  line `fjfDr;ksa] vkfn`
+  line `dk dsUnz dh`
+  line `dk;Zokfg;ksa dks`
+  line `vfofèekU; u`
+  line djukA
+  line `lnL;ksa dk`
+  line R;kxi=A
+  line `lnL;ksa dk gVk;k`
+  line tkukA
+  line `dsUnz dh`
+  line lfefr;kaA
+  line `dsUnz dh cSBdsaA`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str ``42 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —
-¼3½ v/;{k,slh vU; 'kfDr;ksa dk iz;ksx vkSj,sls vU; drZO;ksa dk fuoZgu djsxk] tks vfèfu;e ds
-vèhu mls leuqnsf'kr fd, tk,aA
-¼4½ dsUnz,d o"kZ esa de ls de pkj ckj cSBdsa djsxk vkSj viuh cSBdksa esa,slh izfØ;k] ftlds
-varxZr,slh cSBdksa esa x.kiwfrZ Hkh gS] dk,slh jhfr esa vuqikyu djsxk] tks fofu;eksa }kjk fofufnZ"V dh tk,A
-¼5½,sls lHkh iz'uksa] tks fdlh cSBd ds nkSjku dsUnz ds le{k vkrs gSa —
-¼d½ dk fofu'p; mifLFkr vkSj ernku djus okys lnL;ksa ds cgqer ls fd;k tk,xk vkSj erksa
-dh lekurk dh n'kk esa v/;{k;k mldh vuqifLFkfr esa v/;{krk djus okys O;fDr ds ikl fu.kkZ;d
-er gksxk(
-¼[k½ ds lacaè esa;FkklaHko 'kh?kz dk;Zokgh dh tk,xh vkSj dsUnz mudk fuiVkjk vkosnu dh
-izkfIr dh rkjh[k ls lkB fnu dh vofè ds Hkhrj djsxk%
-ijarq tgka,sls fdlh vkosnu dk fuiVkjk lkB fnu dh mDr vofè ds Hkhrj ugha fd;k tk ldk
-Fkk] ogka dsUnz mDr vkosnu dk ml vofè ds Hkhrj fuiVkjk u djus ds fy, dkj.kksa dks fyf[kr esa
-ys[kc) djsxkA
-¼6½ v/;{k dsUnz dh cSBdksa esa Hkkx ysus ds fy, fdlh fo'ks"kK dks] tks lnL; ugha gS] vkeaf=r dj
-ldsxk fdUrq,slk vkeaf=rh cSBd esa ernku djus dk gdnkj ugha gksxkA
-21 - ¼1½ dsUnz dk,d eq[; dk;Zikyd vfèdkjh gksxk] tks dsUnz ds fnu&izfrfnu ds iz'kklu ds fy,
-mÙkjnk;h gksxk vkSj og bl iz;kstu ds fy, dsUnz vkSj lfpoky; ds chp lEidZ cuk, j[ksxkA
-¼2½ eq[; dk;Zikyd vfèdkjh dh fu;qfDr] vgZrk,a vkSj lsok ds fucaèu vkSj 'krs± os gksaxh] tks
-fofu;eksa }kjk fofufnZ"V dh tk,aA
-¼3½ eq[; dk;Zikyd vfèdkjh,slh 'kfDr;ksa dk iz;ksx vkSj,sls d`R;ksa dk fuoZgu djsxk] tks fofu;eksa
-}kjk fofufnZ"V fd, tk,a;k tks dsUnz }kjk mls izR;k;ksftr dh tk,aA
-22 - dsUnz] viuh 'kfDr;ksa] d`R;ksa vkSj drZO;ksa ds fuoZgu ds iz;kstuksa ds fy,],d lkèkj.k;k fo'ks"k
-fyf[kr vkns'k }kjk] vfèfu;e }kjk;k mlds vèhu mls iznÙk;k ml ij vfèjksfir 'kfDr;ksa ¼fofu;e cukus
-dh 'kfDr dks NksM+dj½ vkSj drZO;ksa dks fofufnZ"V dj ldsxk] ftudk iz;ksx;k fuoZgu dsUnz ds eq[;
-dk;Zikyd vfèdkjh;k fdlh vU; vfèdkjh;k vfèdkfj;ksa }kjk Hkh fd;k tk ldsxk vkSj lkFk gh og,slh
-'krks± vkSj fucZèuksa];fn dksbZ gksa] dks Hkh fofgr djsxk] ftuds vèhu 'kfDr;ksa vkSj drZO;ksa dk iz;ksx vkSj
-fuoZgu fd;k tk ldsxkA
-23 - ¼1½ dsUnz dk,d lfpoky; gksxk] ftlesa fuEufyf[kr lfEefyr gksaxs] —
-¼d½ jftLVªkj tks dsUnz ds fØ;kdykiksa dk i;Zos{k.k djsxk(
-¼[k½ dkmalsy] tks?kjsyw vkSj varjjk"Vªh; ek/;LFke~ ls lacafèr ekeyksa ds lacaè esa dk;Zokgh
-djsxk( vkSj
-¼x½,slh laLFkk esa vU; vfèdkjh vkSj deZpkjh] tks fofgr dh tk,A
-¼2½ jftLVªkj] dkmalsy vkSj vU; vfèdkfj;ksa vkSj deZpkfj;ksa dh vgZrk,a] vuqHko] p;u dh i)fr
-vkSj d`R; os gksaxs] tks fofgr fd, tk,aA
-v/;k; 4
-foÙk] ys[kk vkSj laijh{kk
-24 - dsUnzh; ljdkj] bl fufer laln }kjk fofè }kjk lE;d~ fofu;ksx fd, tkus ds i'pkr~ dsUnz dks
-izR;sd foÙkh; o"kZ esa,slh èujkf'k;ksa dk vkSj,slh jhfr esa] ftls og mfpr le>s] lank; dj ldsxh] ftudk
-mi;ksx bl vfèfu;e ds iz;kstuksa ds fy, fd;k tk,xkA
-eq[; dk;Zikyd
-vfèdkjhA
-'kfDr;ksa dk
-izR;k;kstuA
-lfpoky;A
-dsUnzh; ljdkj
-}kjk vuqnkuA``)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line `42 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —`
+  line `¼3½ v/;{k,slh vU; 'kfDr;ksa dk iz;ksx vkSj,sls vU; drZO;ksa dk fuoZgu djsxk] tks vfèfu;e ds`
+  line `vèhu mls leuqnsf'kr fd, tk,aA`
+  line `¼4½ dsUnz,d o"kZ esa de ls de pkj ckj cSBdsa djsxk vkSj viuh cSBdksa esa,slh izfØ;k] ftlds`
+  line `varxZr,slh cSBdksa esa x.kiwfrZ Hkh gS] dk,slh jhfr esa vuqikyu djsxk] tks fofu;eksa }kjk fofufnZ"V dh tk,A`
+  line `¼5½,sls lHkh iz'uksa] tks fdlh cSBd ds nkSjku dsUnz ds le{k vkrs gSa —`
+  line `¼d½ dk fofu'p; mifLFkr vkSj ernku djus okys lnL;ksa ds cgqer ls fd;k tk,xk vkSj erksa`
+  line `dh lekurk dh n'kk esa v/;{k;k mldh vuqifLFkfr esa v/;{krk djus okys O;fDr ds ikl fu.kkZ;d`
+  line `er gksxk(`
+  line `¼[k½ ds lacaè esa;FkklaHko 'kh?kz dk;Zokgh dh tk,xh vkSj dsUnz mudk fuiVkjk vkosnu dh`
+  line `izkfIr dh rkjh[k ls lkB fnu dh vofè ds Hkhrj djsxk%`
+  line `ijarq tgka,sls fdlh vkosnu dk fuiVkjk lkB fnu dh mDr vofè ds Hkhrj ugha fd;k tk ldk`
+  line `Fkk] ogka dsUnz mDr vkosnu dk ml vofè ds Hkhrj fuiVkjk u djus ds fy, dkj.kksa dks fyf[kr esa`
+  line `ys[kc) djsxkA`
+  line `¼6½ v/;{k dsUnz dh cSBdksa esa Hkkx ysus ds fy, fdlh fo'ks"kK dks] tks lnL; ugha gS] vkeaf=r dj`
+  line `ldsxk fdUrq,slk vkeaf=rh cSBd esa ernku djus dk gdnkj ugha gksxkA`
+  line `21 - ¼1½ dsUnz dk,d eq[; dk;Zikyd vfèdkjh gksxk] tks dsUnz ds fnu&izfrfnu ds iz'kklu ds fy,`
+  line `mÙkjnk;h gksxk vkSj og bl iz;kstu ds fy, dsUnz vkSj lfpoky; ds chp lEidZ cuk, j[ksxkA`
+  line `¼2½ eq[; dk;Zikyd vfèdkjh dh fu;qfDr] vgZrk,a vkSj lsok ds fucaèu vkSj 'krs± os gksaxh] tks`
+  line `fofu;eksa }kjk fofufnZ"V dh tk,aA`
+  line '¼3½ eq[; dk;Zikyd vfèdkjh,slh ''kfDr;ksa dk iz;ksx vkSj,sls d`R;ksa dk fuoZgu djsxk] tks fofu;eksa'
+  line `}kjk fofufnZ"V fd, tk,a;k tks dsUnz }kjk mls izR;k;ksftr dh tk,aA`
+  line '22 - dsUnz] viuh ''kfDr;ksa] d`R;ksa vkSj drZO;ksa ds fuoZgu ds iz;kstuksa ds fy,],d lkèkj.k;k fo''ks"k'
+  line `fyf[kr vkns'k }kjk] vfèfu;e }kjk;k mlds vèhu mls iznÙk;k ml ij vfèjksfir 'kfDr;ksa ¼fofu;e cukus`
+  line `dh 'kfDr dks NksM+dj½ vkSj drZO;ksa dks fofufnZ"V dj ldsxk] ftudk iz;ksx;k fuoZgu dsUnz ds eq[;`
+  line `dk;Zikyd vfèdkjh;k fdlh vU; vfèdkjh;k vfèdkfj;ksa }kjk Hkh fd;k tk ldsxk vkSj lkFk gh og,slh`
+  line `'krks± vkSj fucZèuksa];fn dksbZ gksa] dks Hkh fofgr djsxk] ftuds vèhu 'kfDr;ksa vkSj drZO;ksa dk iz;ksx vkSj`
+  line `fuoZgu fd;k tk ldsxkA`
+  line `23 - ¼1½ dsUnz dk,d lfpoky; gksxk] ftlesa fuEufyf[kr lfEefyr gksaxs] —`
+  line `¼d½ jftLVªkj tks dsUnz ds fØ;kdykiksa dk i;Zos{k.k djsxk(`
+  line `¼[k½ dkmalsy] tks?kjsyw vkSj varjjk"Vªh; ek/;LFke~ ls lacafèr ekeyksa ds lacaè esa dk;Zokgh`
+  line `djsxk( vkSj`
+  line `¼x½,slh laLFkk esa vU; vfèdkjh vkSj deZpkjh] tks fofgr dh tk,A`
+  line `¼2½ jftLVªkj] dkmalsy vkSj vU; vfèdkfj;ksa vkSj deZpkfj;ksa dh vgZrk,a] vuqHko] p;u dh i)fr`
+  line 'vkSj d`R; os gksaxs] tks fofgr fd, tk,aA'
+  line `v/;k; 4`
+  line `foÙk] ys[kk vkSj laijh{kk`
+  line `24 - dsUnzh; ljdkj] bl fufer laln }kjk fofè }kjk lE;d~ fofu;ksx fd, tkus ds i'pkr~ dsUnz dks`
+  line `izR;sd foÙkh; o"kZ esa,slh èujkf'k;ksa dk vkSj,slh jhfr esa] ftls og mfpr le>s] lank; dj ldsxh] ftudk`
+  line `mi;ksx bl vfèfu;e ds iz;kstuksa ds fy, fd;k tk,xkA`
+  line `eq[; dk;Zikyd`
+  line vfèdkjhA
+  line `'kfDr;ksa dk`
+  line izR;k;kstuA
+  line lfpoky;A
+  line `dsUnzh; ljdkj`
+  line `}kjk vuqnkuA`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str ``vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 43
-25 - ¼1½ dsUnz,d fufè cuk, j[ksxk] ftlesa fuEufyf[kr dks tek fd;k tk,xk] —
-¼d½ dsUnzh; ljdkj }kjk miyCè djkbZ tkus okyh lHkh èujkf'k;ksa(
-¼[k½ ek/;LFke~] lqyg] e/;drk;k vU; dk;Zokfg;ksa ds nkSjku;k muds lacaè esa izkIr lHkh
-Qhlksa vkSj vU; izHkkjksa(
-¼x½ dsUnz }kjk i{kdkjksa dks miyCè djkbZ tkus okyh izlqfoèkvksa gsrq mls izkIr lHkh èujkf'k;ksa(
-¼?k½ dsUnz }kjk lankuksa] vuqnkuksa] vfHknk;ksa vkSj vU; lzksrksa ls vk; ds:i esa izkIr lHkh
-èujkf'k;ksa( vkSj
-¼³½ fuos'k dh xbZ vk; ls izkIr jdeksaA
-¼2½ fufè esa tek dh xbZ lHkh èujkf'k;ksa dks,sls cSadksa esa tek fd;k tk,xk;k,slh jhfr esa mudk
-fuos'k fd;k tk,xk] tSlk fd dsUnz }kjk fofu'p; fd;k tk,A
-¼3½ fufè dk mi;ksx lnL;ksa ds osru vkSj vU; HkÙkksa ds lank; dh iwfrZ;ksa ds fy, vkSj dsUnz ds O;;ksa
-ds fy, fd;k tk,xk] ftlds varxZr bl vfèfu;e ds vèhu mldh 'kfDr;ksa ds iz;ksx vkSj mlds drZO;ksa ds
-fuoZgu esa mixr O;; Hkh gSA
-26 - ¼1½ dsUnz leqfpr ys[kk vkSj vU; lqlaxr vfHkys[k cuk, j[ksxk vkSj Hkkjr ds fu;a=d
-egkys[kkijh{kd ds ijke'kZ ls fofgr fd, tkus okys iz:i vkSj jhfr esa ys[kkvksa dk,d okf"kZd fooj.k rS;kj
-djsxk] ftlds varxZr rqyui= Hkh gSA
-¼2½ dsUnz ds ys[kkvksa dh laijh{kk Hkkjr ds fu;a=d egkys[kkijh{kd }kjk dh tk,xh vkSj,slh
-laijh{kk ds lacaè esa mlds }kjk mixr O;; dsUnz }kjk Hkkjr ds fu;a=d egkys[kkijh{kd dks lans; gksxkA
-¼3½ Hkkjr ds fu;a=d egkys[kkijh{kd vkSj muds }kjk dsUnz ds ys[kkvksa dh laijh{kkvksa ds lacaè esa
-fu;qDr fdlh O;fDr ds ikl,slh laijh{kk ds lacaè esa ogh fo'ks"kkfèdkj vkSj izkfèdkj gksaxs] tks Hkkjr ds
-fu;a=d egkys[kkijh{kd ds ikl ljdkjh ys[kkvksa dh laijh{kk ds lacaè esa gksrs gSa vkSj muds ikl fof'k"V:i
-ls cfg;ksa] ys[kkvksa] lac) okmpjksa vkSj vU; nLrkostksa rFkk dkxti=ksa dks izLrqr djus dh ekax djus vkSj
-dsUnz ds dk;kZy;ksa dk fujh{k.k djus dk vfèdkj gksxkA
-¼4½ Hkkjr ds fu;a=d egkys[kkijh{kd vkSj muds }kjk dsUnz ds ys[kkvksa dh laijh{kkvksa ds lacaè esa
-fu;qDr fdlh O;fDr }kjk;Fkkizekf.kr dsUnz ds ys[kkvksa dks] mudh laijh{kk fjiksVZ lfgr okf"kZd:i ls dsUnzh;
-ljdkj dks vxzsf"kr fd;k tk,xk vkSj dsUnzh; ljdkj mUgsa laln~ ds izR;sd lnu ds le{k j[kok,xhA
-27- bl vfèfu;e ds vèhu fdlh miØe ds lacaè esa vkfLr;ksa vkSj nkf;Roksa dk fuèkZj.k] Hkkjr ds
-fu;a=d egkys[kkijh{kd }kjk izkfèd`r fdlh vfHkdj.k }kjk,slh jhfr esa] tks mlds }kjk fofufnZ"V dh tk,]
-djok;k tk,xk vkSj mlds lacaè esa fd, x, fdlh nkos ds lacaè esa fdlh lank; dk lekèku] mlds }kjk
-lkslkbVh vkSj dsUnzh; ljdkj ds chp djk;k tk,xk vkSj mldk lank;];FkkfLFkfr] lkslkbVh;k dsUnzh; ljdkj
-}kjk,slh jhfr esa fd;k tk,xk] tks Hkkjr ds fu;a=d egkys[kkijh{kd }kjk fofufnZ"V dh tk,A
-v/;k; 5
-ek/;LFke~ pSacj vkSj ek/;LFke~ vdkneh
-28 - ¼1½ dsUnz,d ek/;LFke~ pSacj dh LFkkiuk djsxk] tks e/;LFkksa ds,d LFkk;h iSuy dks cuk,
-j[kus ds fy, e/;LFkksa dks iSuyc) djsxk vkSj lkFk gh fo[;kr e/;LFkksa ds iSuy esa izfof"V gsrq vkosnuksa dh
-laoh{kk djsxkA
-¼2½ ek/;LFke~ pSacj jk"Vªh; vkSj varjjk"Vªh; Lrj ds vuqHko izkIr fo[;kr ek/;LFke~ O;olkf;;ksa vkSj
-,sls O;fDr;ksa ls feydj cusxk] ftuds ikl fodYih fookn lekèku vkSj lqyg ds {ks= esa O;kid vuqHko gSA
-dsUnz dh fufèA
-ys[kk vkSj
-laijh{kkA
-miØe dh
-vkfLr;ksa vkSj
-nkf;Roksa dk
-fuèkZj.kA
-ek/;LFke~ pSacjA``)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line `vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 43`
+  line `25 - ¼1½ dsUnz,d fufè cuk, j[ksxk] ftlesa fuEufyf[kr dks tek fd;k tk,xk] —`
+  line `¼d½ dsUnzh; ljdkj }kjk miyCè djkbZ tkus okyh lHkh èujkf'k;ksa(`
+  line `¼[k½ ek/;LFke~] lqyg] e/;drk;k vU; dk;Zokfg;ksa ds nkSjku;k muds lacaè esa izkIr lHkh`
+  line `Qhlksa vkSj vU; izHkkjksa(`
+  line `¼x½ dsUnz }kjk i{kdkjksa dks miyCè djkbZ tkus okyh izlqfoèkvksa gsrq mls izkIr lHkh èujkf'k;ksa(`
+  line `¼?k½ dsUnz }kjk lankuksa] vuqnkuksa] vfHknk;ksa vkSj vU; lzksrksa ls vk; ds:i esa izkIr lHkh`
+  line `èujkf'k;ksa( vkSj`
+  line `¼³½ fuos'k dh xbZ vk; ls izkIr jdeksaA`
+  line `¼2½ fufè esa tek dh xbZ lHkh èujkf'k;ksa dks,sls cSadksa esa tek fd;k tk,xk;k,slh jhfr esa mudk`
+  line `fuos'k fd;k tk,xk] tSlk fd dsUnz }kjk fofu'p; fd;k tk,A`
+  line `¼3½ fufè dk mi;ksx lnL;ksa ds osru vkSj vU; HkÙkksa ds lank; dh iwfrZ;ksa ds fy, vkSj dsUnz ds O;;ksa`
+  line `ds fy, fd;k tk,xk] ftlds varxZr bl vfèfu;e ds vèhu mldh 'kfDr;ksa ds iz;ksx vkSj mlds drZO;ksa ds`
+  line `fuoZgu esa mixr O;; Hkh gSA`
+  line `26 - ¼1½ dsUnz leqfpr ys[kk vkSj vU; lqlaxr vfHkys[k cuk, j[ksxk vkSj Hkkjr ds fu;a=d`
+  line `egkys[kkijh{kd ds ijke'kZ ls fofgr fd, tkus okys iz:i vkSj jhfr esa ys[kkvksa dk,d okf"kZd fooj.k rS;kj`
+  line `djsxk] ftlds varxZr rqyui= Hkh gSA`
+  line `¼2½ dsUnz ds ys[kkvksa dh laijh{kk Hkkjr ds fu;a=d egkys[kkijh{kd }kjk dh tk,xh vkSj,slh`
+  line `laijh{kk ds lacaè esa mlds }kjk mixr O;; dsUnz }kjk Hkkjr ds fu;a=d egkys[kkijh{kd dks lans; gksxkA`
+  line `¼3½ Hkkjr ds fu;a=d egkys[kkijh{kd vkSj muds }kjk dsUnz ds ys[kkvksa dh laijh{kkvksa ds lacaè esa`
+  line `fu;qDr fdlh O;fDr ds ikl,slh laijh{kk ds lacaè esa ogh fo'ks"kkfèdkj vkSj izkfèdkj gksaxs] tks Hkkjr ds`
+  line `fu;a=d egkys[kkijh{kd ds ikl ljdkjh ys[kkvksa dh laijh{kk ds lacaè esa gksrs gSa vkSj muds ikl fof'k"V:i`
+  line `ls cfg;ksa] ys[kkvksa] lac) okmpjksa vkSj vU; nLrkostksa rFkk dkxti=ksa dks izLrqr djus dh ekax djus vkSj`
+  line `dsUnz ds dk;kZy;ksa dk fujh{k.k djus dk vfèdkj gksxkA`
+  line `¼4½ Hkkjr ds fu;a=d egkys[kkijh{kd vkSj muds }kjk dsUnz ds ys[kkvksa dh laijh{kkvksa ds lacaè esa`
+  line `fu;qDr fdlh O;fDr }kjk;Fkkizekf.kr dsUnz ds ys[kkvksa dks] mudh laijh{kk fjiksVZ lfgr okf"kZd:i ls dsUnzh;`
+  line `ljdkj dks vxzsf"kr fd;k tk,xk vkSj dsUnzh; ljdkj mUgsa laln~ ds izR;sd lnu ds le{k j[kok,xhA`
+  line `27- bl vfèfu;e ds vèhu fdlh miØe ds lacaè esa vkfLr;ksa vkSj nkf;Roksa dk fuèkZj.k] Hkkjr ds`
+  line 'fu;a=d egkys[kkijh{kd }kjk izkfèd`r fdlh vfHkdj.k }kjk,slh jhfr esa] tks mlds }kjk fofufnZ"V dh tk,]'
+  line `djok;k tk,xk vkSj mlds lacaè esa fd, x, fdlh nkos ds lacaè esa fdlh lank; dk lekèku] mlds }kjk`
+  line `lkslkbVh vkSj dsUnzh; ljdkj ds chp djk;k tk,xk vkSj mldk lank;];FkkfLFkfr] lkslkbVh;k dsUnzh; ljdkj`
+  line `}kjk,slh jhfr esa fd;k tk,xk] tks Hkkjr ds fu;a=d egkys[kkijh{kd }kjk fofufnZ"V dh tk,A`
+  line `v/;k; 5`
+  line `ek/;LFke~ pSacj vkSj ek/;LFke~ vdkneh`
+  line `28 - ¼1½ dsUnz,d ek/;LFke~ pSacj dh LFkkiuk djsxk] tks e/;LFkksa ds,d LFkk;h iSuy dks cuk,`
+  line `j[kus ds fy, e/;LFkksa dks iSuyc) djsxk vkSj lkFk gh fo[;kr e/;LFkksa ds iSuy esa izfof"V gsrq vkosnuksa dh`
+  line `laoh{kk djsxkA`
+  line `¼2½ ek/;LFke~ pSacj jk"Vªh; vkSj varjjk"Vªh; Lrj ds vuqHko izkIr fo[;kr ek/;LFke~ O;olkf;;ksa vkSj`
+  line `,sls O;fDr;ksa ls feydj cusxk] ftuds ikl fodYih fookn lekèku vkSj lqyg ds {ks= esa O;kid vuqHko gSA`
+  line `dsUnz dh fufèA`
+  line `ys[kk vkSj`
+  line laijh{kkA
+  line `miØe dh`
+  line `vkfLr;ksa vkSj`
+  line `nkf;Roksa dk`
+  line fuèkZj.kA
+  line `ek/;LFke~ pSacjA`
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_10:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-10)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Page 10`)
-  (str content) (str ``44 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —
-¼3½ dsUnz] fofu;eksa }kjk dkMj ds iSuy esa izos'k gsrq ekunaM vfèdfFkr djsxk] ftlls fo[;kr
-e/;LFkksa dk,d iwy cuk;k tk lds] ftuds ikl varjjk"Vªh; okf.kfT;d ek/;LFke~ vkSj varjjk"Vªh; okf.kfT;d
-ek/;LFke~ ls fHkUu ek/;LFke~ esa fo'ks"kKrk gksA
-¼4½ dsUnz ds lfpoky; dk jftLVªkj ek/;LFke~ pSacj ds lnL;&lfpo ds:i esa dk;Z djsxkA
-29 - ¼1½ dsUnz fuEufyf[kr ds fy,,d ek/;LFke~ vdkneh dh LFkkiuk dj ldsxk —
-¼d½ e/;LFkksa dks izf'kf{kr djus] fof'k"V:i ls varjjk"Vªh; okf.kfT;d ek/;LFke~ ds {ks= esa
-fo[;kr varjjk"Vªh; ek/;LFke~ laLFkkvksa ds lkFk izfr;ksfxrk djus gsrq(
-¼[k½ fodYih fookn lekèku vkSj lac) {ks=ksa esa vuqlaèku djus( vkSj
-¼x½ vfèfu;e ds mís';ksa dh iwfrZ ds fy, lq>ko nsusA
-¼2½ mièkjk ¼1½ ds iz;kstuksa ds fy,] vfèfu;e ds vèhu fu;eksa vkSj fofu;eksa esa la'kksèuksa];fn
-dksbZ gksa] dh vko';drk ds lcaè esa dsUnz dks lq>ko nsus vkSj bl lacaè esa,d fjiksVZ izLrqr djus ds fy,,d
-rhu lnL;h; LFkk;h lfefr dk xBu fd;k tk ldsxkA
-v/;k; 6
-izdh.kZ
-30 - ¼1½ dsUnzh; ljdkj] bl vfèfu;e ds micaèksa ds fØ;kUo;u ds fy, vfèlwpuk }kjk fu;e cuk
-ldsxhA
-¼2½ fof'k"Vr;k vkSj iwoZxkeh 'kfDr dh O;kidrk ij izfrdwy izHkko Mkys fcuk,sls fu;e fuEufyf[kr
-ds fy, micaè dj ldsaxs] —
-¼d½ èkjk 6 dh mièkjk ¼2½ ds vèhu v/;{k vkSj iw.kZdkfyd lnL; dh lsok ds fucaèuksa
-vkSj 'krks± rFkk mUgsa lans; osru vkSj HkÙkksa(
-¼[k½ èkjk 6 dh mièkjk ¼4½ ds vèhu va'kdkfyd lnL;ksa dks lans;;k=k vkSj vU; HkÙkksa(
-¼x½ èkjk 19 dh mièkjk ¼2½ esa fufnZ"V lfefr;ksa dh lajpuk vkSj d`R;ksa(
-¼?k½ èkjk 23 dh mièkjk ¼1½ ds [kaM ¼x½ ds vèhu dsUnz ds lfpoky; ds vfèdkfj;ksa vkSj
-deZpkfj;ksa dh la[;k(
-¼³½ èkjk 23 dh mièkjk ¼2½ ds vèhu dsUnz ds jftLVªkj] dkmalsy vkSj vU; vfèdkfj;ksa vkSj
-deZpkfj;ksa dh vgZrkvksa] vuqHko] p;u dh i)fr vkSj d`R;ksa(
-¼p½ èkjk 26 dh mièkjk ¼1½ ds vèhu ys[kkvksa ds okf"kZd fooj.k] ftuds varxZr rqyui=
-Hkh gSa( vkSj
-¼N½,sls fdlh vU; fo"k;] ftlds lacaè esa bl vfèfu;e ds vèhu micaè fd;k tkuk gS;k
-fd;k tk ldsxkA
-31 - ¼1½ dsUnz] dsUnzh; ljdkj ds iwoZ vuqeksnu ls] vfèlwpuk }kjk bl vfèfu;e vkSj rn~èhu cuk,
-x, fu;eksa ls lqlaxr fofu;e cuk ldsxk] tks,sls lHkh fo"k;ksa ds fy, micaè dj ldsaxs] ftuds fy, bl
-vfèfu;e ds iz;kstuksa dks izHkkoh djus ds iz;kstuksa gsrq micaè djuk vko';d;k lehphu gSA
-¼2½ fof'k"Vr;k vkSj iwoZxkeh 'kfDr dh O;kidrk ij izfrdwy izHkko Mkys fcuk,sls fofu;e fuEufyf[kr
-ds fy, micaè dj ldsaxs] —
-¼d½ èkjk 19 dh mièkjk ¼3½ ds vèhu lfefr dh cSBdksa ds le; vkSj LFkku rFkk muesa
-dkjckj ds laO;ogkj ds lacaè esa vuqikyu dh tkus okyh izfØ;k ds fu;eksa] ftuds varxZr x.kiwfrZ
-Hkh gS(
-ek/;LFke~
-vdknehA
-fu;e cukus dh
-'kfDrA
-fofu;e cukus
-dh 'kfDrA``)
-  (str footnotes) (str )
-  (str sourcePage) (int 10)
+  kind page
+  sectionId pdf-page-10
+  sectionNo (10)
+  orderNo 10
+  title `Page 10`
+  content obj_root_law_translations_hi_sections_10_content
+  footnotes obj_root_law_translations_hi_sections_10_footnotes
+  sourcePage 10
+obj_root_law_translations_hi_sections_10_content:
+  string
+  line `44 Hkkjr dk jkti= vlkèkj.k [ Hkkx 2 —`
+  line `¼3½ dsUnz] fofu;eksa }kjk dkMj ds iSuy esa izos'k gsrq ekunaM vfèdfFkr djsxk] ftlls fo[;kr`
+  line `e/;LFkksa dk,d iwy cuk;k tk lds] ftuds ikl varjjk"Vªh; okf.kfT;d ek/;LFke~ vkSj varjjk"Vªh; okf.kfT;d`
+  line `ek/;LFke~ ls fHkUu ek/;LFke~ esa fo'ks"kKrk gksA`
+  line `¼4½ dsUnz ds lfpoky; dk jftLVªkj ek/;LFke~ pSacj ds lnL;&lfpo ds:i esa dk;Z djsxkA`
+  line `29 - ¼1½ dsUnz fuEufyf[kr ds fy,,d ek/;LFke~ vdkneh dh LFkkiuk dj ldsxk —`
+  line `¼d½ e/;LFkksa dks izf'kf{kr djus] fof'k"V:i ls varjjk"Vªh; okf.kfT;d ek/;LFke~ ds {ks= esa`
+  line `fo[;kr varjjk"Vªh; ek/;LFke~ laLFkkvksa ds lkFk izfr;ksfxrk djus gsrq(`
+  line `¼[k½ fodYih fookn lekèku vkSj lac) {ks=ksa esa vuqlaèku djus( vkSj`
+  line `¼x½ vfèfu;e ds mís';ksa dh iwfrZ ds fy, lq>ko nsusA`
+  line `¼2½ mièkjk ¼1½ ds iz;kstuksa ds fy,] vfèfu;e ds vèhu fu;eksa vkSj fofu;eksa esa la'kksèuksa];fn`
+  line `dksbZ gksa] dh vko';drk ds lcaè esa dsUnz dks lq>ko nsus vkSj bl lacaè esa,d fjiksVZ izLrqr djus ds fy,,d`
+  line `rhu lnL;h; LFkk;h lfefr dk xBu fd;k tk ldsxkA`
+  line `v/;k; 6`
+  line izdh.kZ
+  line `30 - ¼1½ dsUnzh; ljdkj] bl vfèfu;e ds micaèksa ds fØ;kUo;u ds fy, vfèlwpuk }kjk fu;e cuk`
+  line ldsxhA
+  line `¼2½ fof'k"Vr;k vkSj iwoZxkeh 'kfDr dh O;kidrk ij izfrdwy izHkko Mkys fcuk,sls fu;e fuEufyf[kr`
+  line `ds fy, micaè dj ldsaxs] —`
+  line `¼d½ èkjk 6 dh mièkjk ¼2½ ds vèhu v/;{k vkSj iw.kZdkfyd lnL; dh lsok ds fucaèuksa`
+  line `vkSj 'krks± rFkk mUgsa lans; osru vkSj HkÙkksa(`
+  line `¼[k½ èkjk 6 dh mièkjk ¼4½ ds vèhu va'kdkfyd lnL;ksa dks lans;;k=k vkSj vU; HkÙkksa(`
+  line '¼x½ èkjk 19 dh mièkjk ¼2½ esa fufnZ"V lfefr;ksa dh lajpuk vkSj d`R;ksa('
+  line `¼?k½ èkjk 23 dh mièkjk ¼1½ ds [kaM ¼x½ ds vèhu dsUnz ds lfpoky; ds vfèdkfj;ksa vkSj`
+  line `deZpkfj;ksa dh la[;k(`
+  line `¼³½ èkjk 23 dh mièkjk ¼2½ ds vèhu dsUnz ds jftLVªkj] dkmalsy vkSj vU; vfèdkfj;ksa vkSj`
+  line 'deZpkfj;ksa dh vgZrkvksa] vuqHko] p;u dh i)fr vkSj d`R;ksa('
+  line `¼p½ èkjk 26 dh mièkjk ¼1½ ds vèhu ys[kkvksa ds okf"kZd fooj.k] ftuds varxZr rqyui=`
+  line `Hkh gSa( vkSj`
+  line `¼N½,sls fdlh vU; fo"k;] ftlds lacaè esa bl vfèfu;e ds vèhu micaè fd;k tkuk gS;k`
+  line `fd;k tk ldsxkA`
+  line `31 - ¼1½ dsUnz] dsUnzh; ljdkj ds iwoZ vuqeksnu ls] vfèlwpuk }kjk bl vfèfu;e vkSj rn~èhu cuk,`
+  line `x, fu;eksa ls lqlaxr fofu;e cuk ldsxk] tks,sls lHkh fo"k;ksa ds fy, micaè dj ldsaxs] ftuds fy, bl`
+  line `vfèfu;e ds iz;kstuksa dks izHkkoh djus ds iz;kstuksa gsrq micaè djuk vko';d;k lehphu gSA`
+  line `¼2½ fof'k"Vr;k vkSj iwoZxkeh 'kfDr dh O;kidrk ij izfrdwy izHkko Mkys fcuk,sls fofu;e fuEufyf[kr`
+  line `ds fy, micaè dj ldsaxs] —`
+  line `¼d½ èkjk 19 dh mièkjk ¼3½ ds vèhu lfefr dh cSBdksa ds le; vkSj LFkku rFkk muesa`
+  line `dkjckj ds laO;ogkj ds lacaè esa vuqikyu dh tkus okyh izfØ;k ds fu;eksa] ftuds varxZr x.kiwfrZ`
+  line `Hkh gS(`
+  line ek/;LFke~
+  line vdknehA
+  line `fu;e cukus dh`
+  line `'kfDrA`
+  line `fofu;e cukus`
+  line `dh 'kfDrA`
+obj_root_law_translations_hi_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_11:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-11)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Page 11`)
-  (str content) (str ``vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 45
-¼[k½ èkjk 20 dh mièkjk ¼4½ ds vèhu dsUnz;k fdlh lfefr dh cSBd dk le; vkSj LFkku
-rFkk mlesa dkjckj ds laO;ogkj ds lacaè esa izfØ;k fu;e] ftuds varxZr x.kiwfrZ Hkh gS(
-¼x½ èkjk 21 dh mièkjk ¼2½ ds vèhu eq[; dk;Zikyd vfèdkjh dh fu;qfDr] vgZrk,a vkSj
-lsok ds fucaèu vkSj 'krs±(
-¼?k½ èkjk 21 dh mièkjk ¼3½ ds vèhu eq[; dk;Zikyd vfèdkjh dh 'kfDr;ka vkSj d`R;(
-¼³ ½ èkjk 28 dh mièkjk ¼3½ ds vèhu ek/;LFke~ iwy esa izos'k ds fy, ekunaM( vkSj
-¼p½,slk dksbZ vU; fo"k;] ftlds lacaè esa] ljdkj dh jk; esa bl vfèfu;e ds vèhu mlds
-d`R;ksa ds vuqikyu ds fy, micaè fd;k tkuk vko';d gSA
-32- bl vfèfu;e ds vèhu cuk;k x;k izR;sd fu;e vkSj fofu;e] mlds cuk, tkus ds i'pkr~
-;Fkk'kh?kz,slh dqy rhl fnu dh vofè ds fy, laln~ ds izR;sd lnu ds le{k] tc og l= esa gks] j[kk
-tk,xkA;g vofè,d l= esa vFkok nks;k vfèd vkuqØfed l=ksa esa iwjh gks ldsxhA;fn ml l= ds;k
-iwoksZDr vkuqØfed l=ksa ds Bhd ckn ds l= ds volku ds iwoZ nksuksa lnu ml fu;e;k fofu;e esa dksbZ
-ifjorZu djus ds fy, lger gks tk,a rks rRi'pkr~ og,sls ifjofrZr:i esa gh izHkkoh gksxkA;fn mDr volku
-ds iwoZ nksuksa lnu lger gks tk,a fd og fu;e;k fofu;e ugha cuk;k tkuk pkfg, rks rRi'pkr~ og fu"izHkko
-gks tk,xkA fdUrq fu;e;k fofu;e ds,sls ifjofrZr;k fu"izHkko gksus ls iwoZ ml fu;e;k fofu;e ds vèhu
-dh xbZ fdlh ckr dh fofèekU;rk ij izfrdwy izHkko ugha iM+sxkA
-33- dsUnz] mlds v/;{k;k lnL;ksa;k blds deZpkfj;ksa vkSj e/;LFkksa ds fo#)] muds }kjk dh xbZ,slh
-fdlh ckr ds fy,] tks bl vfèfu;e;k rn~/khu cuk, x, fu;eksa;k fofu;eksa ds vèhu ln~HkkoiwoZd dh xbZ
-gS;k ftldk fd;k tkuk vk'kf;r gS] dksbZ okn] vfHk;kstu;k vU; fofèd dk;Zokfg;ka ugha ykbZ tk,axhA
-34- ¼1½;fn bl vfèfu;e ds micaèksa dks izHkkoh djus esa dksbZ dfBukbZ mRiUu gksrh gS rks dsUnzh;
-ljdkj] jkti= esa izdkf'kr,sls vkns'k }kjk],sls micaè dj ldsxh tks bl vfèfu;e ds micaèksa ls vlaxr
-u gksa vkSj tks ml dfBukbZ dks nwj djus ds fy, mls vko';d;k lehphu izrhr gksa%
-ijUrq bl èkjk ds vèhu,slk dksbZ vkns'k bl vfèfu;e ds izkjEHk ls nks o"kZ dh lekfIr ds i'pkr~
-ugha fd;k tk,xkA
-¼2½ bl èkjk ds vèhu fd;k x;k izR;sd vkns'k] fd, tkus ds i'pkr~;Fkk'kh?kz] laln~ ds izR;sd
-lnu ds le{k j[kk tk,xkA
-35- ¼1½ ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsUnz v/;kns'k] 2019 dk blds }kjk fujlu fd;k tkrk
-gSA
-¼2½,sls fujlu ds gksrs gq, Hkh] ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsUnz v/;kns'k] 2019 ds vèhu
-dh xbZ dksbZ ckr;k dh xbZ dkjZokbZ bl vfèfu;e ds micaèksa ds vèhu dh xbZ le>h tk,xhA
-fu;eksa vkSj
-fofu;eksa dk j[kk
-tkukA
-ln~HkkoiwoZd dh
-xbZ dkjZokbZ dk
-laj{k.kA
-dfBukb;ksa dks nwj
-djus dh 'kfDrA
-fujlu vkSj
-O;ko`fÙkA
-2019 dk
-v/;kns'k lañ 10
-2019 dk
-v/;kns'k lañ 10
-——————``)
-  (str footnotes) (str )
-  (str sourcePage) (int 11)
+  kind page
+  sectionId pdf-page-11
+  sectionNo (11)
+  orderNo 11
+  title `Page 11`
+  content obj_root_law_translations_hi_sections_11_content
+  footnotes obj_root_law_translations_hi_sections_11_footnotes
+  sourcePage 11
+obj_root_law_translations_hi_sections_11_content:
+  string
+  line `vuqHkkx 1d ] Hkkjr dk jkti= vlkèkj.k 45`
+  line `¼[k½ èkjk 20 dh mièkjk ¼4½ ds vèhu dsUnz;k fdlh lfefr dh cSBd dk le; vkSj LFkku`
+  line `rFkk mlesa dkjckj ds laO;ogkj ds lacaè esa izfØ;k fu;e] ftuds varxZr x.kiwfrZ Hkh gS(`
+  line `¼x½ èkjk 21 dh mièkjk ¼2½ ds vèhu eq[; dk;Zikyd vfèdkjh dh fu;qfDr] vgZrk,a vkSj`
+  line `lsok ds fucaèu vkSj 'krs±(`
+  line '¼?k½ èkjk 21 dh mièkjk ¼3½ ds vèhu eq[; dk;Zikyd vfèdkjh dh ''kfDr;ka vkSj d`R;('
+  line `¼³ ½ èkjk 28 dh mièkjk ¼3½ ds vèhu ek/;LFke~ iwy esa izos'k ds fy, ekunaM( vkSj`
+  line `¼p½,slk dksbZ vU; fo"k;] ftlds lacaè esa] ljdkj dh jk; esa bl vfèfu;e ds vèhu mlds`
+  line 'd`R;ksa ds vuqikyu ds fy, micaè fd;k tkuk vko'';d gSA'
+  line `32- bl vfèfu;e ds vèhu cuk;k x;k izR;sd fu;e vkSj fofu;e] mlds cuk, tkus ds i'pkr~`
+  line `;Fkk'kh?kz,slh dqy rhl fnu dh vofè ds fy, laln~ ds izR;sd lnu ds le{k] tc og l= esa gks] j[kk`
+  line `tk,xkA;g vofè,d l= esa vFkok nks;k vfèd vkuqØfed l=ksa esa iwjh gks ldsxhA;fn ml l= ds;k`
+  line `iwoksZDr vkuqØfed l=ksa ds Bhd ckn ds l= ds volku ds iwoZ nksuksa lnu ml fu;e;k fofu;e esa dksbZ`
+  line `ifjorZu djus ds fy, lger gks tk,a rks rRi'pkr~ og,sls ifjofrZr:i esa gh izHkkoh gksxkA;fn mDr volku`
+  line `ds iwoZ nksuksa lnu lger gks tk,a fd og fu;e;k fofu;e ugha cuk;k tkuk pkfg, rks rRi'pkr~ og fu"izHkko`
+  line `gks tk,xkA fdUrq fu;e;k fofu;e ds,sls ifjofrZr;k fu"izHkko gksus ls iwoZ ml fu;e;k fofu;e ds vèhu`
+  line `dh xbZ fdlh ckr dh fofèekU;rk ij izfrdwy izHkko ugha iM+sxkA`
+  line `33- dsUnz] mlds v/;{k;k lnL;ksa;k blds deZpkfj;ksa vkSj e/;LFkksa ds fo#)] muds }kjk dh xbZ,slh`
+  line `fdlh ckr ds fy,] tks bl vfèfu;e;k rn~/khu cuk, x, fu;eksa;k fofu;eksa ds vèhu ln~HkkoiwoZd dh xbZ`
+  line `gS;k ftldk fd;k tkuk vk'kf;r gS] dksbZ okn] vfHk;kstu;k vU; fofèd dk;Zokfg;ka ugha ykbZ tk,axhA`
+  line `34- ¼1½;fn bl vfèfu;e ds micaèksa dks izHkkoh djus esa dksbZ dfBukbZ mRiUu gksrh gS rks dsUnzh;`
+  line `ljdkj] jkti= esa izdkf'kr,sls vkns'k }kjk],sls micaè dj ldsxh tks bl vfèfu;e ds micaèksa ls vlaxr`
+  line `u gksa vkSj tks ml dfBukbZ dks nwj djus ds fy, mls vko';d;k lehphu izrhr gksa%`
+  line `ijUrq bl èkjk ds vèhu,slk dksbZ vkns'k bl vfèfu;e ds izkjEHk ls nks o"kZ dh lekfIr ds i'pkr~`
+  line `ugha fd;k tk,xkA`
+  line `¼2½ bl èkjk ds vèhu fd;k x;k izR;sd vkns'k] fd, tkus ds i'pkr~;Fkk'kh?kz] laln~ ds izR;sd`
+  line `lnu ds le{k j[kk tk,xkA`
+  line `35- ¼1½ ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsUnz v/;kns'k] 2019 dk blds }kjk fujlu fd;k tkrk`
+  line gSA
+  line `¼2½,sls fujlu ds gksrs gq, Hkh] ubZ fnYyh vUrjjk"Vªh; ek/;LFke~ dsUnz v/;kns'k] 2019 ds vèhu`
+  line `dh xbZ dksbZ ckr;k dh xbZ dkjZokbZ bl vfèfu;e ds micaèksa ds vèhu dh xbZ le>h tk,xhA`
+  line `fu;eksa vkSj`
+  line `fofu;eksa dk j[kk`
+  line tkukA
+  line `ln~HkkoiwoZd dh`
+  line `xbZ dkjZokbZ dk`
+  line laj{k.kA
+  line `dfBukb;ksa dks nwj`
+  line `djus dh 'kfDrA`
+  line `fujlu vkSj`
+  line 'O;ko`fÙkA'
+  line `2019 dk`
+  line `v/;kns'k lañ 10`
+  line `2019 dk`
+  line `v/;kns'k lañ 10`
+  line ——————
+obj_root_law_translations_hi_sections_11_footnotes:
+  string
+  line

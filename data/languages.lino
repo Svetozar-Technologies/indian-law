@@ -1,9 +1,7 @@
 obj_root:
-  object
-  (str defaultLanguage) (str en)
-  (str languages) obj_root_languages
+  defaultLanguage en
+  languages obj_root_languages
 obj_root_languages:
-  array
   obj_root_languages_en
   obj_root_languages_hi
   obj_root_languages_bn
@@ -12,63 +10,56 @@ obj_root_languages:
   obj_root_languages_ta
   obj_root_languages_te
 obj_root_languages_en:
-  object
-  (str code) (str en)
-  (str name) (str English)
-  (str nativeName) (str English)
-  (str direction) (str ltr)
-  (str sourceKind) (str indiacode-html)
-  (str officialSource) (str `https://www.indiacode.nic.in/`)
+  code en
+  name English
+  nativeName English
+  direction ltr
+  sourceKind indiacode-html
+  officialSource `https://www.indiacode.nic.in/`
 obj_root_languages_hi:
-  object
-  (str code) (str hi)
-  (str name) (str Hindi)
-  (str nativeName) (str हिन्दी)
-  (str direction) (str ltr)
-  (str sourceKind) (str indiacode-pdf)
-  (str officialSource) (str `https://www.indiacode.nic.in/`)
+  code hi
+  name Hindi
+  nativeName हिन्दी
+  direction ltr
+  sourceKind indiacode-pdf
+  officialSource `https://www.indiacode.nic.in/`
 obj_root_languages_bn:
-  object
-  (str code) (str bn)
-  (str name) (str Bengali)
-  (str nativeName) (str বাংলা)
-  (str direction) (str ltr)
-  (str sourceKind) (str legislative-regional-pdf)
-  (str regionalSlug) (str bengali)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/bengali`)
+  code bn
+  name Bengali
+  nativeName বাংলা
+  direction ltr
+  sourceKind legislative-regional-pdf
+  regionalSlug bengali
+  officialSource `https://lddashboard.legislative.gov.in/bengali`
 obj_root_languages_kn:
-  object
-  (str code) (str kn)
-  (str name) (str Kannada)
-  (str nativeName) (str ಕನ್ನಡ)
-  (str direction) (str ltr)
-  (str sourceKind) (str legislative-regional-pdf)
-  (str regionalSlug) (str kannada)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/kannada`)
+  code kn
+  name Kannada
+  nativeName ಕನ್ನಡ
+  direction ltr
+  sourceKind legislative-regional-pdf
+  regionalSlug kannada
+  officialSource `https://lddashboard.legislative.gov.in/kannada`
 obj_root_languages_mr:
-  object
-  (str code) (str mr)
-  (str name) (str Marathi)
-  (str nativeName) (str मराठी)
-  (str direction) (str ltr)
-  (str sourceKind) (str legislative-regional-pdf)
-  (str regionalSlug) (str marathi)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/marathi`)
+  code mr
+  name Marathi
+  nativeName मराठी
+  direction ltr
+  sourceKind legislative-regional-pdf
+  regionalSlug marathi
+  officialSource `https://lddashboard.legislative.gov.in/marathi`
 obj_root_languages_ta:
-  object
-  (str code) (str ta)
-  (str name) (str Tamil)
-  (str nativeName) (str தமிழ்)
-  (str direction) (str ltr)
-  (str sourceKind) (str legislative-regional-pdf)
-  (str regionalSlug) (str tamil)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/tamil`)
+  code ta
+  name Tamil
+  nativeName தமிழ்
+  direction ltr
+  sourceKind legislative-regional-pdf
+  regionalSlug tamil
+  officialSource `https://lddashboard.legislative.gov.in/tamil`
 obj_root_languages_te:
-  object
-  (str code) (str te)
-  (str name) (str Telugu)
-  (str nativeName) (str తెలుగు)
-  (str direction) (str ltr)
-  (str sourceKind) (str legislative-regional-pdf)
-  (str regionalSlug) (str telugu)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/telugu`)
+  code te
+  name Telugu
+  nativeName తెలుగు
+  direction ltr
+  sourceKind legislative-regional-pdf
+  regionalSlug telugu
+  officialSource `https://lddashboard.legislative.gov.in/telugu`

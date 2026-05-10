@@ -1,65 +1,55 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:45:32.762Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2363`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 10)
-  (str totalSections) (int 10)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:45:32.762Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2363`
+  completeFetch true
+  maxSections null
+  sectionCount 10
+  totalSections 10
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-poisons-act-1919)
-  (str handle) (str 2363)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Poisons Act, 1919`)
-  (str actNumber) (str 12)
-  (str enactmentDate) (str 1919-09-03)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2363`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `विष अधिनियम,1919`)
-  (str actYear) (str 1919)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Home`)
-  (str longTitle) (str `An Act to consolidate and amend the law regulating the importation, possession and sale of poisons.`)
-  (str enforcementDate) (str 03-09-1919)
-  (str fetchedAt) (str `2026-05-08T21:09:53.311Z`)
-  (str translations) obj_root_law_translations
+  slug the-poisons-act-1919
+  handle (2363)
+  collectionHandle 123456789/1362
+  title `The Poisons Act, 1919`
+  actNumber (12)
+  enactmentDate 1919-09-03
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2363`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `विष अधिनियम,1919`
+  actYear (1919)
+  ministry `Ministry of Home Affairs`
+  department `Department of Home`
+  longTitle `An Act to consolidate and amend the law regulating the importation, possession and sale of poisons.`
+  enforcementDate 03-09-1919
+  fetchedAt `2026-05-08T21:09:53.311Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_poisons_act_1919
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2363`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2363`
 obj_root_law_sources_en_the_poisons_act_1919:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2363/1/a1919-------12.pdf`)
-  (str title) (str `The Poisons Act, 1919`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2363/1/a1919-------12.pdf`
+  title `The Poisons Act, 1919`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1919
 obj_root_law_sources_hi_1919:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2363/3/H1919-12.pdf`)
-  (str title) (str `विष अधिनियम,1919`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2363/3/H1919-12.pdf`
+  title `विष अधिनियम,1919`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -71,389 +61,439 @@ obj_root_law_sections:
   obj_root_law_sections_9
   obj_root_law_sections_10
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 34287)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the Poisons Act, 1919.
-
-^1
-[(2) It extends to the whole of India:
-
-Provided that it shall not apply to the State of Jammu and Kashmir* except to the extent to which the
-provisions of this Act relate to the importation into India of any specified poison.]`)
-  (str footnotes) (str `1. Subs. by Act 47 of 1958, s. 2, for the former sub-section (2).
-
-*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu
-and Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34287&sectionno=1&orderno=1&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34287)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34287&sectionno=1&orderno=1&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Poisons Act, 1919.`
+  line
+  line ^1
+  line `[(2) It extends to the whole of India:`
+  line
+  line `Provided that it shall not apply to the State of Jammu and Kashmir* except to the extent to which the`
+  line `provisions of this Act relate to the importation into India of any specified poison.]`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Subs. by Act 47 of 1958, s. 2, for the former sub-section (2).`
+  line
+  line `*. Vide Notification No. S.O. 3912 (E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu`
+  line `and Kashmir and the Union territory of Ladakh.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 34288)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Power of the State Government to regulate possession for sale and sale of any poison.`)
-  (str content) (str `(1)
-^1*** The State Government may by rule regulate within the whole or any part of the territories under its
-administration the possession for sale and the sale, whether wholesale or retail, of any specified poison.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for--
-
-(a) the grant of licences to possess any specified poison for sale, wholesale or retail, and fixing of
-the fee (if any) to be charged for such licences ;
-
-(b) the classes of persons to whom alone such licences may be granted ;
-
-(c) the classes of persons to whom alone any such poison may be sold ;
-
-(d) the maximum quantity of any such poison which may be sold to any one person ;
-
-(e) the maintenance by vendors of any such poison of registers of sales, the particulars to be
-entered in such registers, and the inspection of the same ;
-
-(f) the safe custody of such poisons and the labelling of the vessels, packages or coverings in
-which any such poison is sold or possessed for sale ; and
-
-(g) the inspection and examination of any such poison when possessed for sale by any such
-vendor.`)
-  (str footnotes) (str `1. The words "Subject to the control of the G.G. in C" rep. by the A.O. 1937.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34288&sectionno=2&orderno=2&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34288)
+  sectionNo (2)
+  orderNo 2
+  title `Power of the State Government to regulate possession for sale and sale of any poison.`
+  content obj_root_law_sections_2_content
+  footnotes `1. The words "Subject to the control of the G.G. in C" rep. by the A.O. 1937.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34288&sectionno=2&orderno=2&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_2_content:
+  string
+  line `(1)`
+  line `^1*** The State Government may by rule regulate within the whole or any part of the territories under its`
+  line `administration the possession for sale and the sale, whether wholesale or retail, of any specified poison.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for--`
+  line
+  line `(a) the grant of licences to possess any specified poison for sale, wholesale or retail, and fixing of`
+  line `the fee (if any) to be charged for such licences ;`
+  line
+  line `(b) the classes of persons to whom alone such licences may be granted ;`
+  line
+  line `(c) the classes of persons to whom alone any such poison may be sold ;`
+  line
+  line `(d) the maximum quantity of any such poison which may be sold to any one person ;`
+  line
+  line `(e) the maintenance by vendors of any such poison of registers of sales, the particulars to be`
+  line `entered in such registers, and the inspection of the same ;`
+  line
+  line `(f) the safe custody of such poisons and the labelling of the vessels, packages or coverings in`
+  line `which any such poison is sold or possessed for sale ; and`
+  line
+  line `(g) the inspection and examination of any such poison when possessed for sale by any such`
+  line vendor.
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 34289)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Power to prohibit importation into the States of any poison except under licence.`)
-  (str content) (str `The
-Central Government may, by notification in the Official Gazette, prohibit, except under and in accordance
-with the conditions of a licence, the importation into ^1
-[India] ^2
-[across any customs frontier^3
-defined by the
-Central Government] of any specified poison, and may by rule regulate the grant of licences.`)
-  (str footnotes) (str `1. Sub. By Act 47 of 1958, s. 3, for "the States".
-
-2. Ins. by the A.O. 1937.
-
-3. For definition of the customs frontiers of India, see Gazette of India, 1955, Pt. II, sec. 3, p. 1521.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34289&sectionno=3&orderno=3&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34289)
+  sectionNo (3)
+  orderNo 3
+  title `Power to prohibit importation into the States of any poison except under licence.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34289&sectionno=3&orderno=3&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_3_content:
+  string
+  line The
+  line `Central Government may, by notification in the Official Gazette, prohibit, except under and in accordance`
+  line `with the conditions of a licence, the importation into ^1`
+  line `[India] ^2`
+  line `[across any customs frontier^3`
+  line `defined by the`
+  line `Central Government] of any specified poison, and may by rule regulate the grant of licences.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. Sub. By Act 47 of 1958, s. 3, for "the States".`
+  line
+  line `2. Ins. by the A.O. 1937.`
+  line
+  line `3. For definition of the customs frontiers of India, see Gazette of India, 1955, Pt. II, sec. 3, p. 1521.`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 34290)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Power to regulate possession of any poison in certain areas.`)
-  (str content) (str `(1) The State Government ^1
-***
-may by rule regulate on the possession of any specified poison in any local area in which the use of such
-poison for the purpose of committing murder or mischief by poisoning cattle appears to it to be of such
-frequent occurrence as to render restrictions on the possession thereof desirable.
-
-(2) In making any rule under sub-section (1), the State Government may direct that any breach
-thereof shall be punishable with imprisonment for a term which may extend to one year, or with fine
-which may extend to one thousand rupees, or with both, together with confiscation of the poison in
-respect of which the breach has been committed, and of the vessels, packages or coverings in which the
-same is found.`)
-  (str footnotes) (str `1. The words “subject to the control of the G.G. in C.” rep by the A.O. 1937.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34290&sectionno=4&orderno=4&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34290)
+  sectionNo (4)
+  orderNo 4
+  title `Power to regulate possession of any poison in certain areas.`
+  content obj_root_law_sections_4_content
+  footnotes `1. The words “subject to the control of the G.G. in C.” rep by the A.O. 1937.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34290&sectionno=4&orderno=4&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_4_content:
+  string
+  line `(1) The State Government ^1`
+  line ***
+  line `may by rule regulate on the possession of any specified poison in any local area in which the use of such`
+  line `poison for the purpose of committing murder or mischief by poisoning cattle appears to it to be of such`
+  line `frequent occurrence as to render restrictions on the possession thereof desirable.`
+  line
+  line `(2) In making any rule under sub-section (1), the State Government may direct that any breach`
+  line `thereof shall be punishable with imprisonment for a term which may extend to one year, or with fine`
+  line `which may extend to one thousand rupees, or with both, together with confiscation of the poison in`
+  line `respect of which the breach has been committed, and of the vessels, packages or coverings in which the`
+  line `same is found.`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 34291)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Presumption as to specified poisons.`)
-  (str content) (str `Any substance specified as a poison in a rule made or
-notification issued under this Act shall be deemed to be a poison for the purposes of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34291&sectionno=5&orderno=5&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34291)
+  sectionNo (5)
+  orderNo 5
+  title `Presumption as to specified poisons.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34291&sectionno=5&orderno=5&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_5_content:
+  string
+  line `Any substance specified as a poison in a rule made or`
+  line `notification issued under this Act shall be deemed to be a poison for the purposes of this Act.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 34292)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Penalty for unlawful importation, etc.`)
-  (str content) (str `(1) Whoever—
-
-(a) commits a breach of any rule made under section 2, or
-
-(b) imports ^1
-*** without a licence ^2
-[into ^3
-[India] across a customs frontier^4
-defined by the Central
-Central Government] any poison the importation of which is for the time being restricted under
-section 3, or
-
-(c) breaks any condition of a licence for the importation of any poison granted to him under
-section 3,
-
-shall be punishable, —
-
-(i) on a first conviction, with imprisonment for a term which may extend to three months, or with
-fine which may extend to five hundred rupees, or with both, and
-
-(ii) on a second or subsequent conviction, with imprisonment for a term which may extend to six
-months, or with fine which may extend to one thousand rupees, or with both.
-
-(2) Any poison in respect of which an offence has been committed under this section, together with
-the vessels, packages or coverings in which the same is found, shall be liable to confiscation.`)
-  (str footnotes) (str `1. The words “into British India” rep. ibid.
-
-2. Ins.by the A.O.1937.
-
-3. Subs. by Act 47 of 1958, s. 3, for “the States”.
-
-4. For definition of the customs frontiers of India, see Gazette of India, 1955, Pt. II, sec. 3, p. 1521.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34292&sectionno=6&orderno=6&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34292)
+  sectionNo (6)
+  orderNo 6
+  title `Penalty for unlawful importation, etc.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34292&sectionno=6&orderno=6&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_6_content:
+  string
+  line `(1) Whoever—`
+  line
+  line `(a) commits a breach of any rule made under section 2, or`
+  line
+  line `(b) imports ^1`
+  line `*** without a licence ^2`
+  line `[into ^3`
+  line `[India] across a customs frontier^4`
+  line `defined by the Central`
+  line `Central Government] any poison the importation of which is for the time being restricted under`
+  line `section 3, or`
+  line
+  line `(c) breaks any condition of a licence for the importation of any poison granted to him under`
+  line `section 3,`
+  line
+  line `shall be punishable, —`
+  line
+  line `(i) on a first conviction, with imprisonment for a term which may extend to three months, or with`
+  line `fine which may extend to five hundred rupees, or with both, and`
+  line
+  line `(ii) on a second or subsequent conviction, with imprisonment for a term which may extend to six`
+  line `months, or with fine which may extend to one thousand rupees, or with both.`
+  line
+  line `(2) Any poison in respect of which an offence has been committed under this section, together with`
+  line `the vessels, packages or coverings in which the same is found, shall be liable to confiscation.`
+obj_root_law_sections_6_footnotes:
+  string
+  line `1. The words “into British India” rep. ibid.`
+  line
+  line `2. Ins.by the A.O.1937.`
+  line
+  line `3. Subs. by Act 47 of 1958, s. 3, for “the States”.`
+  line
+  line `4. For definition of the customs frontiers of India, see Gazette of India, 1955, Pt. II, sec. 3, p. 1521.`
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 34293)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Power to issue search warrants.`)
-  (str content) (str `(1) The District Magistrate, the Sub-divisional Magistrate and,
-in a presidency-town, the Commissioner of Police, may issue a warrant for the search of any place in
-which he has reason to believe or to suspect that any poison is possessed or sold in contravention of this
-Act or any rule thereunder, or that any poison liable to confiscation under this Act is kept or concealed.
-
-(2) The person to whom the warrant is directed may enter and search the place in accordance
-therewith, and the provisions of the ^1 Code of Criminal Procedure, 1898 (5 of 1898), relating to searchwarrants shall, as far as may be, be deemed to apply to the execution of the warrant.`)
-  (str footnotes) (str `1 See now the Code of Criminal Procedure, 1973 (2 of 1974).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34293&sectionno=7&orderno=7&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34293)
+  sectionNo (7)
+  orderNo 7
+  title `Power to issue search warrants.`
+  content obj_root_law_sections_7_content
+  footnotes `1 See now the Code of Criminal Procedure, 1973 (2 of 1974).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34293&sectionno=7&orderno=7&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_7_content:
+  string
+  line `(1) The District Magistrate, the Sub-divisional Magistrate and,`
+  line `in a presidency-town, the Commissioner of Police, may issue a warrant for the search of any place in`
+  line `which he has reason to believe or to suspect that any poison is possessed or sold in contravention of this`
+  line `Act or any rule thereunder, or that any poison liable to confiscation under this Act is kept or concealed.`
+  line
+  line `(2) The person to whom the warrant is directed may enter and search the place in accordance`
+  line `therewith, and the provisions of the ^1 Code of Criminal Procedure, 1898 (5 of 1898), relating to searchwarrants shall, as far as may be, be deemed to apply to the execution of the warrant.`
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 34294)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str Rules.)
-  (str content) (str `(1) In addition to any other power to make rules hereinbefore conferred ^1
-*** the State
-Government may make rules generally to carry out the purposes and objects of this Act ^2
-[except
-section 3]
-
-(2) Every power to make rules conferred by this Act shall be subject to the condition of the rules
-being made after previous publication.
-
-(3) All rules made by the Central Government or by the State Government under this Act shall be
-published in the ^3
-[Official Gazette] and on such publication shall have effect as if enacted in this Act.
-
-^4
-[(4) Every rule made by the Central Government under this Act shall be laid, as soon as may be after
-it is made, before each House of Parliament, while it is in session, for a total period of thirty days which
-may be comprised in one session or in two or more successive sessions and if, before the expiry of the
-session immediately following the session or the successive sessions aforesaid, both Houses agree in
-making any modification in the rule or both Houses agree that the rule should not be made, the rule shall
-thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that
-any such modification or annulment shall be without prejudice to the validity of anything previously done
-under that rule. rule.
-
-(5) Every rule made by the State Government under this Act shall be laid, as soon as may be after it is
-made, before the State Legislature.]`)
-  (str footnotes) (str `1. The words “subject to the control of the G.G. in C.” rep by the A.O. 1937.
-
-2. Ins.by the A.O.1937.
-
-3. Subs. by the A.O. 1937, para 4, for “Gazette of India or the local Official Gazette , as the case may be”, Strictly the
-substitution would read “Official Gazette or the Official Gazette, as the case may be” but the last nine words have been omitted
-as being obviously redundant.
-
-4. Ins. by Act 4 of 1986, s. 2 and Sch. (w.e.f. 15-5-1986).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34294&sectionno=8&orderno=8&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34294)
+  sectionNo (8)
+  orderNo 8
+  title Rules.
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34294&sectionno=8&orderno=8&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_8_content:
+  string
+  line `(1) In addition to any other power to make rules hereinbefore conferred ^1`
+  line `*** the State`
+  line `Government may make rules generally to carry out the purposes and objects of this Act ^2`
+  line [except
+  line `section 3]`
+  line
+  line `(2) Every power to make rules conferred by this Act shall be subject to the condition of the rules`
+  line `being made after previous publication.`
+  line
+  line `(3) All rules made by the Central Government or by the State Government under this Act shall be`
+  line `published in the ^3`
+  line `[Official Gazette] and on such publication shall have effect as if enacted in this Act.`
+  line
+  line ^4
+  line `[(4) Every rule made by the Central Government under this Act shall be laid, as soon as may be after`
+  line `it is made, before each House of Parliament, while it is in session, for a total period of thirty days which`
+  line `may be comprised in one session or in two or more successive sessions and if, before the expiry of the`
+  line `session immediately following the session or the successive sessions aforesaid, both Houses agree in`
+  line `making any modification in the rule or both Houses agree that the rule should not be made, the rule shall`
+  line `thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that`
+  line `any such modification or annulment shall be without prejudice to the validity of anything previously done`
+  line `under that rule. rule.`
+  line
+  line `(5) Every rule made by the State Government under this Act shall be laid, as soon as may be after it is`
+  line `made, before the State Legislature.]`
+obj_root_law_sections_8_footnotes:
+  string
+  line `1. The words “subject to the control of the G.G. in C.” rep by the A.O. 1937.`
+  line
+  line `2. Ins.by the A.O.1937.`
+  line
+  line `3. Subs. by the A.O. 1937, para 4, for “Gazette of India or the local Official Gazette , as the case may be”, Strictly the`
+  line `substitution would read “Official Gazette or the Official Gazette, as the case may be” but the last nine words have been omitted`
+  line `as being obviously redundant.`
+  line
+  line `4. Ins. by Act 4 of 1986, s. 2 and Sch. (w.e.f. 15-5-1986).`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 34295)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str Savings.)
-  (str content) (str `(1) Nothing in this Act or in any licence granted or rule made s thereunder shall extend
-to, or interfere with, anything done in good faith in the exercise of his profession as such by a medical or
-veterinary practitioner.
-
-(2) Notwithstanding anything hereinbefore contained, the State Government may ^1
-*** by general or
-special order declare that all or any of the provisions of this Act ^2
-[except section 3] shall be deemed not to
-to apply to any article or class of articles of commerce specified in such order, or to any poison or class of
-poisons used for any purpose so specified.
-
-(3) The authority on which any power to make rules under this Act is conferred may, by general or
-special order, either wholly or partially—
-
-(a) exempt from the operation of any such rules, or
-
-(b) exclude from the scope of the exemption provided by sub-section (1),
-
-any person or class of persons either generally or in respect of any poisons specified in the order.`)
-  (str footnotes) (str `1. The words “in its discretion” rep. by the A.O. 1937.
-
-2. Ins., ibid..`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34295&sectionno=9&orderno=9&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34295)
+  sectionNo (9)
+  orderNo 9
+  title Savings.
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34295&sectionno=9&orderno=9&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_9_content:
+  string
+  line `(1) Nothing in this Act or in any licence granted or rule made s thereunder shall extend`
+  line `to, or interfere with, anything done in good faith in the exercise of his profession as such by a medical or`
+  line `veterinary practitioner.`
+  line
+  line `(2) Notwithstanding anything hereinbefore contained, the State Government may ^1`
+  line `*** by general or`
+  line `special order declare that all or any of the provisions of this Act ^2`
+  line `[except section 3] shall be deemed not to`
+  line `to apply to any article or class of articles of commerce specified in such order, or to any poison or class of`
+  line `poisons used for any purpose so specified.`
+  line
+  line `(3) The authority on which any power to make rules under this Act is conferred may, by general or`
+  line `special order, either wholly or partially—`
+  line
+  line `(a) exempt from the operation of any such rules, or`
+  line
+  line `(b) exclude from the scope of the exemption provided by sub-section (1),`
+  line
+  line `any person or class of persons either generally or in respect of any poisons specified in the order.`
+obj_root_law_sections_9_footnotes:
+  string
+  line `1. The words “in its discretion” rep. by the A.O. 1937.`
+  line
+  line `2. Ins., ibid..`
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 34296)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str [Repealed.].)
-  (str content) (str `[Repeal of Act 1 of 1904.] Rep.by the Repealing Act, 1927 (12 of 1927).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34296&sectionno=10&orderno=10&orgactid=AC_CEN_5_40_00020_191912_1523343031904)
+  sectionId (34296)
+  sectionNo (10)
+  orderNo 10
+  title [Repealed.].
+  content `[Repeal of Act 1 of 1904.] Rep.by the Repealing Act, 1927 (12 of 1927).`
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_40_00020_191912_1523343031904&sectionId=34296&sectionno=10&orderno=10&orgactid=AC_CEN_5_40_00020_191912_1523343031904
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `विष अधिनियम,1919`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2363/3/H1919-12.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:45:31.662Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `विष अधिनियम,1919`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2363/3/H1919-12.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:45:31.662Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `विष अविवियम, 19 19
-( 1919 का अविवियम संखयां क 12 ) 1
-[ 3 वसतम्ब र, 1919 ]
-2 *** विषों के आयात, कब्जे और विक्रय को विवियवमत करिे िाली
-विवि को समेककत और संशोवित
-करिे के वलए
-अविवियम
-यत: 2 *** विषों के आयात, कब्जे और विक्रय को विवियवमत करिे िाली विवि को समेककत और संशोवित करिा समीचीि
-है, अत: एतद द्व ारा विम्ि वलवित रू प में यह अविवियवमत ककया जाता है: —
-1. संविप्त िाम और विस्ता र — ( 1 ) यह अविवियम विष अविवियम, 1919 कहा जा सकेगा।
-3 [ ( 2 ) इसका विस्ता र संपूर्ण भारत पर है:
-परंतु यह जम्मू और कश्मी र राज्य * को उस विस्ता र तक के वसिाय लागू िहीं होगा वजस तक कक इस अविवियम के उपबंि
-ककसी विविर्दणष्ट विष के भारत में आयात से सम्ब द्ध हैं। ]
-2. ककसी विष के विक्रयार्ण कब्जे और विक्रय को विवियवमत करिे की राज्य सरकार की शवत — ( 1 ) 4 *** राज्य सरकार,
-अपिे प्र शासिािीि सम्पू र् ण राज्य िेत्रों या उिके ककसी भाग के भीतर ककसी विविर्दणष्ट विष के, चाहे र् ोक या फुटकर, विक्रयार्ण कब्जे
-और विक्रय को वियम द्व ारा विवियवमत कर सकेगी।
-( 2 ) विवशष्ट तया और पूिणगामी शवत की व् या पकता पर प्र वतकूल प्र भाि डाले वबिा ऐसे वियम विम्ि वलवित के वलए उपबंि
-कर सकेंगे: —
-(क) ककसी विविर्दणष्ट विष को, चाहे र् ोक या फुटकर, वबक्री के वलए कब्जे में रििे के वलए अिुज्ञवप्त यों का कदया
-जािा, और ऐसी अिुज्ञवप्त यों के वलए प्र भाररत की जािे िाली फीस (यकद कोई हो) वियत करिा;
-(ि) उि व् य वत यों के िगण केि ल वजन्हें ऐसी कोई अिुज्ञवप्त दी जा सकेगी;
-(ग) उि व् य वत यों के िगण केिल वजन्हें ऐसा कोई विष विक्रीत ककया जा सकेगा;
-(घ) ऐसे ककसी विष की अविकतम मात्रा वजतिी ककसी एक व् य वत को विक्रीत की जा सकेगी;
-(ङ) ऐसे ककसी विष के विक्रेताओं द्व ारा वबक्री के रवजस्ट रों का रिा जािा, ऐसे रवजस्ट रों में प्र विष्ट की जािे िाली
-विवशवष्ट यां, और उिका विरीिर्;
-(च) ऐसे विषों की सुरवित अवभरिा और उि पात्रों, पैकेजों या आिेष्ट कों पर लेबल लगािा वजिमें ऐसा कोई विष
-विक्रीत ककया जाता है या विक्रयार्ण कब् जे में रिा जा ता है; और
-(छ) ऐसे ककसी विक्रेता द्व ारा विक्रयार्ण कब्जे में रिे गए ऐसे ककसी विष का विरीिर् और परीिर्।
-3. अिुज्ञवप् त के वबिा ककसी विष का भारत में आयात प्र वतवषद्ध करिे की शवत — केंद्रीय सरकार, शासकीय राजपत्र में
-अविसूचिा द्व ारा, ककसी विविर्दण ष् ट विष का, 5 [ केंद्रीय सरकार द्व ारा पररविवश्च त ककसी सीमाशुल्क सीमान्त 6 के पार ] से 7 [ भारत ] में
-आयात, ककसी अिुज्ञवप्त की शतों के अिीि और अिुसार करिे से अन्यर्ा करिे का प्र वतषेि कर सकेगी, और अिुज्ञवप्त यों के कदए जािे
-को वियम द्व ारा विवियवमत कर सकेगी।
-1 यह अविवियम 1955 के मैसूर अविवियम सं ० 14 द्व ारा बेल्ला री वजले को लागू होिे से विरवसत।
-यह अविवियम —
-( 1 ) 1963 के विवियम सं ० 6 की िारा 2 और अिुसूची द्व ा रा ( 1 - 7 - 1965 से) दादरा और िागर हिेली को;
-( 2 ) 1965 के विवियम सं ० 8 की िारा 3 और अिुसूची द्व ारा संघ राज्य िेत्र लिद्वीप को; और
-( 3 ) 1968 के अविवियम सं ० 26 की िारा 3 और अिुसूची द्व ारा संघ राज्य िेत्र पांवडचेरी को,
-लागू करिे के वलए विस् ता ररत कक या गया।
-2 विवि अिुकूलि आदेश, 1948 द्व ारा “ सम्पू र् ण विरटश भारत पर ” शब्द विरवसत ककए गए।
-3 1958 के अविवियम सं ० 47 की िारा 3 द्व ारा पूिणिती उपिारा ( 2 ) के स् र् ा ि पर प्र वतस् र्ा वपत।
-* इस अविवियम को जम्मू - कश्मीर संघ राज्यिेत्र और लद्दाि संघ राज्यिे त्र में अविसूचिा सं. सा. का. 3912 (अ), तारीि, 30 अटूबर, 2019 से लागू ककया गया।
-4 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा “ सपररषद गििणर जिरल के वियंत्रर्ािीि ” शब्द विरवसत।
-5 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा अंत:स् र्ा वपत।
-6 भारत की सीमाशुल्क सीमाओं की पररभाषा के वलए, देविए भारत का राजपत्र, 1955, भाग 2, िंड 3, पृ ० 1521.
-7 1958 के अविवियम सं ० 47 की िारा 3 द्व ारा “ राज्यों ” के स् र् ा ि पर प्र वतस् र्ा वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `विष अविवियम, 19 19`
+  line `( 1919 का अविवियम संखयां क 12 ) 1`
+  line `[ 3 वसतम्ब र, 1919 ]`
+  line `2 *** विषों के आयात, कब्जे और विक्रय को विवियवमत करिे िाली`
+  line `विवि को समेककत और संशोवित`
+  line `करिे के वलए`
+  line अविवियम
+  line `यत: 2 *** विषों के आयात, कब्जे और विक्रय को विवियवमत करिे िाली विवि को समेककत और संशोवित करिा समीचीि`
+  line `है, अत: एतद द्व ारा विम्ि वलवित रू प में यह अविवियवमत ककया जाता है: —`
+  line `1. संविप्त िाम और विस्ता र — ( 1 ) यह अविवियम विष अविवियम, 1919 कहा जा सकेगा।`
+  line `3 [ ( 2 ) इसका विस्ता र संपूर्ण भारत पर है:`
+  line `परंतु यह जम्मू और कश्मी र राज्य * को उस विस्ता र तक के वसिाय लागू िहीं होगा वजस तक कक इस अविवियम के उपबंि`
+  line `ककसी विविर्दणष्ट विष के भारत में आयात से सम्ब द्ध हैं। ]`
+  line `2. ककसी विष के विक्रयार्ण कब्जे और विक्रय को विवियवमत करिे की राज्य सरकार की शवत — ( 1 ) 4 *** राज्य सरकार,`
+  line `अपिे प्र शासिािीि सम्पू र् ण राज्य िेत्रों या उिके ककसी भाग के भीतर ककसी विविर्दणष्ट विष के, चाहे र् ोक या फुटकर, विक्रयार्ण कब्जे`
+  line `और विक्रय को वियम द्व ारा विवियवमत कर सकेगी।`
+  line `( 2 ) विवशष्ट तया और पूिणगामी शवत की व् या पकता पर प्र वतकूल प्र भाि डाले वबिा ऐसे वियम विम्ि वलवित के वलए उपबंि`
+  line `कर सकेंगे: —`
+  line `(क) ककसी विविर्दणष्ट विष को, चाहे र् ोक या फुटकर, वबक्री के वलए कब्जे में रििे के वलए अिुज्ञवप्त यों का कदया`
+  line `जािा, और ऐसी अिुज्ञवप्त यों के वलए प्र भाररत की जािे िाली फीस (यकद कोई हो) वियत करिा;`
+  line `(ि) उि व् य वत यों के िगण केि ल वजन्हें ऐसी कोई अिुज्ञवप्त दी जा सकेगी;`
+  line `(ग) उि व् य वत यों के िगण केिल वजन्हें ऐसा कोई विष विक्रीत ककया जा सकेगा;`
+  line `(घ) ऐसे ककसी विष की अविकतम मात्रा वजतिी ककसी एक व् य वत को विक्रीत की जा सकेगी;`
+  line `(ङ) ऐसे ककसी विष के विक्रेताओं द्व ारा वबक्री के रवजस्ट रों का रिा जािा, ऐसे रवजस्ट रों में प्र विष्ट की जािे िाली`
+  line `विवशवष्ट यां, और उिका विरीिर्;`
+  line `(च) ऐसे विषों की सुरवित अवभरिा और उि पात्रों, पैकेजों या आिेष्ट कों पर लेबल लगािा वजिमें ऐसा कोई विष`
+  line `विक्रीत ककया जाता है या विक्रयार्ण कब् जे में रिा जा ता है; और`
+  line `(छ) ऐसे ककसी विक्रेता द्व ारा विक्रयार्ण कब्जे में रिे गए ऐसे ककसी विष का विरीिर् और परीिर्।`
+  line `3. अिुज्ञवप् त के वबिा ककसी विष का भारत में आयात प्र वतवषद्ध करिे की शवत — केंद्रीय सरकार, शासकीय राजपत्र में`
+  line `अविसूचिा द्व ारा, ककसी विविर्दण ष् ट विष का, 5 [ केंद्रीय सरकार द्व ारा पररविवश्च त ककसी सीमाशुल्क सीमान्त 6 के पार ] से 7 [ भारत ] में`
+  line `आयात, ककसी अिुज्ञवप्त की शतों के अिीि और अिुसार करिे से अन्यर्ा करिे का प्र वतषेि कर सकेगी, और अिुज्ञवप्त यों के कदए जािे`
+  line `को वियम द्व ारा विवियवमत कर सकेगी।`
+  line `1 यह अविवियम 1955 के मैसूर अविवियम सं ० 14 द्व ारा बेल्ला री वजले को लागू होिे से विरवसत।`
+  line `यह अविवियम —`
+  line `( 1 ) 1963 के विवियम सं ० 6 की िारा 2 और अिुसूची द्व ा रा ( 1 - 7 - 1965 से) दादरा और िागर हिेली को;`
+  line `( 2 ) 1965 के विवियम सं ० 8 की िारा 3 और अिुसूची द्व ारा संघ राज्य िेत्र लिद्वीप को; और`
+  line `( 3 ) 1968 के अविवियम सं ० 26 की िारा 3 और अिुसूची द्व ारा संघ राज्य िेत्र पांवडचेरी को,`
+  line `लागू करिे के वलए विस् ता ररत कक या गया।`
+  line `2 विवि अिुकूलि आदेश, 1948 द्व ारा “ सम्पू र् ण विरटश भारत पर ” शब्द विरवसत ककए गए।`
+  line `3 1958 के अविवियम सं ० 47 की िारा 3 द्व ारा पूिणिती उपिारा ( 2 ) के स् र् ा ि पर प्र वतस् र्ा वपत।`
+  line `* इस अविवियम को जम्मू - कश्मीर संघ राज्यिेत्र और लद्दाि संघ राज्यिे त्र में अविसूचिा सं. सा. का. 3912 (अ), तारीि, 30 अटूबर, 2019 से लागू ककया गया।`
+  line `4 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा “ सपररषद गििणर जिरल के वियंत्रर्ािीि ” शब्द विरवसत।`
+  line `5 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा अंत:स् र्ा वपत।`
+  line `6 भारत की सीमाशुल्क सीमाओं की पररभाषा के वलए, देविए भारत का राजपत्र, 1955, भाग 2, िंड 3, पृ ० 1521.`
+  line `7 1958 के अविवियम सं ० 47 की िारा 3 द्व ारा “ राज्यों ” के स् र् ा ि पर प्र वतस् र्ा वपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-4. कुछ िेत्रों में ककसी विष के कब्जे को विवियवमत करिे की शवत — ( 1 ) 1 *** राज्य सरकार ककसी विविर्दणष्ट विष का
-कब्जा ककसी ऐसे स् र् ा िीय िेत्र में वियम द्व ारा विवियवमत कर सकेगी वजसमें हत्या या पशुओं को विष देकर ररवष्ट करिे के प्र योजि के
-वलए ऐसे वि ष का उपयोग उसे इस प्र कार बारंबार ककया जािा प्र तीत होता है कक उसके कब्जे पर विबणन्ि ि िांछिीय हो गया हो।
-( 2 ) उपिारा ( 1 ) के अिीि वियम बिािे में राज्य सरकार विदेश दे सकेगी कक उसका भंग कारािास से वजसकी अिवि एक
-िषण तक की हो सकेगी या जुमाणिे से जो एक हजा र रु पए तक का हो सकेगा अर्िा दोिों से, उस विष के वजसके सम्ब न् ि में भंग हु आ है
-और उि पात्रों, पैकेजों या आिेष्ट कों के वजिमें िह पाया जाए, समपहरर् सवहत दण्ड िीय होगा।
-5. विविर्दणष्ट विषों के बारे में उपिारर्ा — इस अविवियम के अिीि बिाए गए वियम या जारी की गई अविसूचिा में विष के रू
-प में विविर्दणष्ट कोई पदार्ण इस अविवियम के प्र योजिों के वलए विष समझा जाएगा।
-6. विविविरुद्ध आयात आकद के वलए शावस्त — ( 1 ) जो कोई —
-(क) िारा 2 के अिीि बिाए गए ककसी वियम को भंग करेगा; या
-(ि) 2 [ केन् द्री य सरकार द्व ारा पररविवश्च त सी माशुल्क सीमान्त 3 के पार से 4 [ भारत ] में, अिुज्ञवप्त के वबिा, ककसी ऐसे
-विष का आयात करेगा वजसका 5 *** आयात िारा 3 के अिीि तत्स मय विबणवन्ि त है; या
-(ग) िारा 3 के अिीि ककसी विष के आयात के वलए उसे दी गई ककसी अिुज्ञवप्त की ककसी शतण को तोड़ेगा, िह
-विम्ि वल वित रू प से दण्ड िीय होगा, —
-( i ) प्रर् म दोषवसवद्ध पर कारािास वजसकी अिवि तीि मास तक की हो सकेगी, या जुमाणिा जो पांच सौ रु
-पए तक का हो सकेगा, अर्िा दोिों; और
-( ii ) वद्वती य या पश्चा त िती दोषवसवद्ध पर का रािास वजसकी अिवि छह मास तक की हो सकेगी, या
-जुमाणिा जो ए क हजार रु पए तक का हो सकेगा, अर्िा दोिों।
-( 2 ) कोई विष वजसके संबंि में इस िारा के अिीि कोई अपराि ककया गया है उि पात्रों, पैकेजों और आ िेष्ट कों सवहत वजसमें
-िह पाया गया हो स मपहृत ककया जा सकेगा।
-7. तलाशी िारंट जारी करिे की शवत — ( 1 ) वजला मवजस्रे ट, उपिण्ड मवजस्रे ट और प्रे वसन्डे न् सी िगर में पुवलस आयुत
-ककसी ऐसे स् र् ा ि की तलाशी के वलए िारंट जारी कर सकेगा और वजसके बारे में उसके पास यह विश्िा स या संदेह करिे का कारर् है कक
-िहां इस अविवियम या इसके अिीि के ककसी वियम के उल्लं घि में कोई विष कब्जे में है या विक्रीत ककया जाता है या कक इस
-अविवियम के अिीि समप हृ त ककया जा सकिे िाला कोई विष रिा या वछपाया हु आ है।
-( 2 ) िह व् य वत वजसको िार न् ट विर्दणष्ट ककया गया है उसके अिु सा र उस स् र् ा ि में प्र िेश और उसकी तलाशी कर सकेगा
-और दण्ड प्र कक्रया संवहता, 1898 ( 1898 का 5 ) 6 के तलाशी िारंटों से सम्ब वन्ि त उपबंि उस िारंट के विष्पा दि को याित लागू समझे
-जाएंगे।
-8. वियम — ( 1 ) इसमें इसके पूिण प्र दत्त वियम बिािे की ककसी अन्य शवत के अवतररत 1 *** राज्य सरकार 2 [ िारा 3 के
-वसिाय ] इस अविवियम के प्र योजिों और उद्देश्यों को सािारर्तया कक्रयावन्ि त करिे के वलए वियम बिा सकेगी।
-( 2 ) इस अविवियम द्व ारा प्र दत्त वियम बिािे की प्रत् ये क शवत वियमों के पूिण प्र काशि के पश्चा त बिाए जािे की शतण के
-अध्य िीि होगी।
-( 3 ) इस अविवियम के अिीि केन् द्री य सरकार या राज्य सरकार द्व ारा बिाए गए सब वियम 7 [ शासकीय राजपत्र ] में प्र कावशत
-ककए जाएंगे और ऐसे प्र काशि पर इस प्र कार प्र भािी होंगे मािो िे इस अविवियम में अविवियवमत हों।
-8 [ ( 4 ) इस अविवियम के अिीि केन् द्री य सरकार द्व ारा बिाया गया प्रत् ये क वियम, बिा ए जािे के पश्चा त यर्ाशीघ्र संसद के प्रत्
-ये क सदि के समि, जब िह सत्र में हो, कुल तीस कदि की अिवि के वलए रिा जाएगा। िह अिवि एक सत्र में अर्िा दो या अविक
-आिुक्रवमक सत्रों में पूरी हो सकेगी। यकद उस सत्र के या पूिोत आिुक्रवमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिण दोिों सदि उस
-वियम में कोई पररितणि करिे के वलए सहमत हो जाएं तो तत्प श् चा त िह ऐसे पररिर्तणत रू प में ही प्र भािी होगा। यकद उ त अिसाि के
-1 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा “ सपररषद गिणिर जिरल के वियंत्रर्ािीि ” शब्द विरवसत।
-2 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा अंत:स् र्ा वपत।
-3 भारत की सीमाशुल्क सीमाओं की पररभाषा के वलए, देविए भारत का राजपत्र, 1955, भाग 2, िंड 3, पृ ० 1521.
-4 1958 के अविवियम सं ० 47 की िारा 3 द्व ारा “ राज्यों ” के स् र् ा ि पर प्र वतस् र्ा वपत।
-5 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा “ विरटश भारत में ” शब्द विरवसत।
-6 अब देविए दण्ड प्र कक्रया संवहता, 1973 ( 1974 का 2 )।
-7 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 के पैरा 4 द्व ारा “ यर्ावस् र् वत, भारत का रा जपत्र या स् र् ा िीय शासकीय राजपत्र ” के स् र् ा ि पर प्र वतस् र्ा वपत।
-अवििायणत: प्र वतस् र्ा पि को “ यर्ावस् र् वत, शासकीय राजपत्र या शासकीय राजपत्र पढ़ा जाएगा ” ककन्तु अंवतम िौ शब्दों का स् प ष् ट तया विरर्णक होिे के कारर् उिका
-लोप ककया गया।
-8 1986 के अविवियम सं ० 4 की िारा 2 और अिुसूची द्व ारा ( 15 - 5 - 1986 से) अंत:स् र्ा वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `4. कुछ िेत्रों में ककसी विष के कब्जे को विवियवमत करिे की शवत — ( 1 ) 1 *** राज्य सरकार ककसी विविर्दणष्ट विष का`
+  line `कब्जा ककसी ऐसे स् र् ा िीय िेत्र में वियम द्व ारा विवियवमत कर सकेगी वजसमें हत्या या पशुओं को विष देकर ररवष्ट करिे के प्र योजि के`
+  line `वलए ऐसे वि ष का उपयोग उसे इस प्र कार बारंबार ककया जािा प्र तीत होता है कक उसके कब्जे पर विबणन्ि ि िांछिीय हो गया हो।`
+  line `( 2 ) उपिारा ( 1 ) के अिीि वियम बिािे में राज्य सरकार विदेश दे सकेगी कक उसका भंग कारािास से वजसकी अिवि एक`
+  line `िषण तक की हो सकेगी या जुमाणिे से जो एक हजा र रु पए तक का हो सकेगा अर्िा दोिों से, उस विष के वजसके सम्ब न् ि में भंग हु आ है`
+  line `और उि पात्रों, पैकेजों या आिेष्ट कों के वजिमें िह पाया जाए, समपहरर् सवहत दण्ड िीय होगा।`
+  line `5. विविर्दणष्ट विषों के बारे में उपिारर्ा — इस अविवियम के अिीि बिाए गए वियम या जारी की गई अविसूचिा में विष के रू`
+  line `प में विविर्दणष्ट कोई पदार्ण इस अविवियम के प्र योजिों के वलए विष समझा जाएगा।`
+  line `6. विविविरुद्ध आयात आकद के वलए शावस्त — ( 1 ) जो कोई —`
+  line `(क) िारा 2 के अिीि बिाए गए ककसी वियम को भंग करेगा; या`
+  line `(ि) 2 [ केन् द्री य सरकार द्व ारा पररविवश्च त सी माशुल्क सीमान्त 3 के पार से 4 [ भारत ] में, अिुज्ञवप्त के वबिा, ककसी ऐसे`
+  line `विष का आयात करेगा वजसका 5 *** आयात िारा 3 के अिीि तत्स मय विबणवन्ि त है; या`
+  line `(ग) िारा 3 के अिीि ककसी विष के आयात के वलए उसे दी गई ककसी अिुज्ञवप्त की ककसी शतण को तोड़ेगा, िह`
+  line `विम्ि वल वित रू प से दण्ड िीय होगा, —`
+  line `( i ) प्रर् म दोषवसवद्ध पर कारािास वजसकी अिवि तीि मास तक की हो सकेगी, या जुमाणिा जो पांच सौ रु`
+  line `पए तक का हो सकेगा, अर्िा दोिों; और`
+  line `( ii ) वद्वती य या पश्चा त िती दोषवसवद्ध पर का रािास वजसकी अिवि छह मास तक की हो सकेगी, या`
+  line `जुमाणिा जो ए क हजार रु पए तक का हो सकेगा, अर्िा दोिों।`
+  line `( 2 ) कोई विष वजसके संबंि में इस िारा के अिीि कोई अपराि ककया गया है उि पात्रों, पैकेजों और आ िेष्ट कों सवहत वजसमें`
+  line `िह पाया गया हो स मपहृत ककया जा सकेगा।`
+  line `7. तलाशी िारंट जारी करिे की शवत — ( 1 ) वजला मवजस्रे ट, उपिण्ड मवजस्रे ट और प्रे वसन्डे न् सी िगर में पुवलस आयुत`
+  line `ककसी ऐसे स् र् ा ि की तलाशी के वलए िारंट जारी कर सकेगा और वजसके बारे में उसके पास यह विश्िा स या संदेह करिे का कारर् है कक`
+  line `िहां इस अविवियम या इसके अिीि के ककसी वियम के उल्लं घि में कोई विष कब्जे में है या विक्रीत ककया जाता है या कक इस`
+  line `अविवियम के अिीि समप हृ त ककया जा सकिे िाला कोई विष रिा या वछपाया हु आ है।`
+  line `( 2 ) िह व् य वत वजसको िार न् ट विर्दणष्ट ककया गया है उसके अिु सा र उस स् र् ा ि में प्र िेश और उसकी तलाशी कर सकेगा`
+  line `और दण्ड प्र कक्रया संवहता, 1898 ( 1898 का 5 ) 6 के तलाशी िारंटों से सम्ब वन्ि त उपबंि उस िारंट के विष्पा दि को याित लागू समझे`
+  line जाएंगे।
+  line `8. वियम — ( 1 ) इसमें इसके पूिण प्र दत्त वियम बिािे की ककसी अन्य शवत के अवतररत 1 *** राज्य सरकार 2 [ िारा 3 के`
+  line `वसिाय ] इस अविवियम के प्र योजिों और उद्देश्यों को सािारर्तया कक्रयावन्ि त करिे के वलए वियम बिा सकेगी।`
+  line `( 2 ) इस अविवियम द्व ारा प्र दत्त वियम बिािे की प्रत् ये क शवत वियमों के पूिण प्र काशि के पश्चा त बिाए जािे की शतण के`
+  line `अध्य िीि होगी।`
+  line `( 3 ) इस अविवियम के अिीि केन् द्री य सरकार या राज्य सरकार द्व ारा बिाए गए सब वियम 7 [ शासकीय राजपत्र ] में प्र कावशत`
+  line `ककए जाएंगे और ऐसे प्र काशि पर इस प्र कार प्र भािी होंगे मािो िे इस अविवियम में अविवियवमत हों।`
+  line `8 [ ( 4 ) इस अविवियम के अिीि केन् द्री य सरकार द्व ारा बिाया गया प्रत् ये क वियम, बिा ए जािे के पश्चा त यर्ाशीघ्र संसद के प्रत्`
+  line `ये क सदि के समि, जब िह सत्र में हो, कुल तीस कदि की अिवि के वलए रिा जाएगा। िह अिवि एक सत्र में अर्िा दो या अविक`
+  line `आिुक्रवमक सत्रों में पूरी हो सकेगी। यकद उस सत्र के या पूिोत आिुक्रवमक सत्रों के ठीक बाद के सत्र के अिसाि के पूिण दोिों सदि उस`
+  line `वियम में कोई पररितणि करिे के वलए सहमत हो जाएं तो तत्प श् चा त िह ऐसे पररिर्तणत रू प में ही प्र भािी होगा। यकद उ त अिसाि के`
+  line `1 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा “ सपररषद गिणिर जिरल के वियंत्रर्ािीि ” शब्द विरवसत।`
+  line `2 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा अंत:स् र्ा वपत।`
+  line `3 भारत की सीमाशुल्क सीमाओं की पररभाषा के वलए, देविए भारत का राजपत्र, 1955, भाग 2, िंड 3, पृ ० 1521.`
+  line `4 1958 के अविवियम सं ० 47 की िारा 3 द्व ारा “ राज्यों ” के स् र् ा ि पर प्र वतस् र्ा वपत।`
+  line `5 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा “ विरटश भारत में ” शब्द विरवसत।`
+  line `6 अब देविए दण्ड प्र कक्रया संवहता, 1973 ( 1974 का 2 )।`
+  line `7 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 के पैरा 4 द्व ारा “ यर्ावस् र् वत, भारत का रा जपत्र या स् र् ा िीय शासकीय राजपत्र ” के स् र् ा ि पर प्र वतस् र्ा वपत।`
+  line `अवििायणत: प्र वतस् र्ा पि को “ यर्ावस् र् वत, शासकीय राजपत्र या शासकीय राजपत्र पढ़ा जाएगा ” ककन्तु अंवतम िौ शब्दों का स् प ष् ट तया विरर्णक होिे के कारर् उिका`
+  line `लोप ककया गया।`
+  line `8 1986 के अविवियम सं ० 4 की िारा 2 और अिुसूची द्व ारा ( 15 - 5 - 1986 से) अंत:स् र्ा वपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-पूिण दोिों सदि सहमत हो जाएं कक िह वियम िहीं बिाया जािा चावहए तो तत्प श् चा त िह विष् प्र भाि हो जाए गा। ककंतु वियम के ऐसे
-पररिर्तणत या विष् प्र भाि होिे से उसके अिीि पहले की गई ककसी बात की विविमान्य ता पर प्र वतकूल प्र भाि िहीं पड़ेगा।
-( 5 ) इस अविवियम के अिीि राज्य सरकार द्व ारा बिाया गया प्र त् ये के वियम, बिाए जािे के पश्चा त यर्ाशी घ्र राज्य वििाि -
-मंडल के सम ि रिा जाएगा। ]
-9. व् या िृवत्तयां — ( 1 ) इस अविवियम की या तद िीि दी गई ककसी अिुज्ञवप्त या बिाए गए ककसी वियम की कोई बात ककसी
-वचककत्सा या पशु - वचककत्सा व् य िसायी द्व ारा उस रू प में अपिी िृवत्त के प्र योग में सद भािपूिणक की गई ककसी बात पर विस्ता ररत िहीं
-होगी या उसमें हस्त िेप िहीं करेगी।
-( 2 ) इसमें इसके पूिण अंतर्िणष्ट ककसी बात के होते हु ए भी राज्य सरकार 1 *** सािारर् या विशेष आदेश द्व ारा घोवषत कर
-सकेगी कक 2 [ िारा 3 के वसिाय ] इस अविवियम के सब या कोई उपबंि ऐसे आदेश में विविर्दणष्ट िावर्ज्य की ककसी चीज या चीजों के
-िगण को अर्िा ऐसे विविर्दणष्ट ककसी प्र योजि के वलए प्र युत ककसी विष या विषों के िगण को लागू होिे िाले िहीं समझे जाएंगे।
-( 3 ) िह प्र ाविकारी, वजसे वियम बिािे की कोई शवत इस अविवियम के अिीि प्र दत्त की गई है, सािारर् या विशेष आदेश द्व
-ारा ककसी व् य वत या व् य वत यों के िगण को, या तो सािारर्तया या उस आदेश में विविर्दणष्ट ककन्हीं विषों के सम्ब न् ि में या तो पूर्णत:
-या भागत: —
-(क) ककन्हीं ऐसे वियमों के प्र ितणि से छूट दे सकेगा, या
-(ि) उपिारा ( 1 ) द्व ारा उपबंवित छूट की पररवि से अपिर्जणत कर सके गा।
-10. [1904 के अविवियम सं ० 1 का विरसि 1] — विरसि अविवियम, 1927 ( 1927 का 12 ) द्व ारा विरवसत।
-______
-1 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा “ अपिे वििेकाविकार से ” शब्द विरवसत।
-2 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा अंत:स् र्ा वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `पूिण दोिों सदि सहमत हो जाएं कक िह वियम िहीं बिाया जािा चावहए तो तत्प श् चा त िह विष् प्र भाि हो जाए गा। ककंतु वियम के ऐसे`
+  line `पररिर्तणत या विष् प्र भाि होिे से उसके अिीि पहले की गई ककसी बात की विविमान्य ता पर प्र वतकूल प्र भाि िहीं पड़ेगा।`
+  line `( 5 ) इस अविवियम के अिीि राज्य सरकार द्व ारा बिाया गया प्र त् ये के वियम, बिाए जािे के पश्चा त यर्ाशी घ्र राज्य वििाि -`
+  line `मंडल के सम ि रिा जाएगा। ]`
+  line `9. व् या िृवत्तयां — ( 1 ) इस अविवियम की या तद िीि दी गई ककसी अिुज्ञवप्त या बिाए गए ककसी वियम की कोई बात ककसी`
+  line `वचककत्सा या पशु - वचककत्सा व् य िसायी द्व ारा उस रू प में अपिी िृवत्त के प्र योग में सद भािपूिणक की गई ककसी बात पर विस्ता ररत िहीं`
+  line `होगी या उसमें हस्त िेप िहीं करेगी।`
+  line `( 2 ) इसमें इसके पूिण अंतर्िणष्ट ककसी बात के होते हु ए भी राज्य सरकार 1 *** सािारर् या विशेष आदेश द्व ारा घोवषत कर`
+  line `सकेगी कक 2 [ िारा 3 के वसिाय ] इस अविवियम के सब या कोई उपबंि ऐसे आदेश में विविर्दणष्ट िावर्ज्य की ककसी चीज या चीजों के`
+  line `िगण को अर्िा ऐसे विविर्दणष्ट ककसी प्र योजि के वलए प्र युत ककसी विष या विषों के िगण को लागू होिे िाले िहीं समझे जाएंगे।`
+  line `( 3 ) िह प्र ाविकारी, वजसे वियम बिािे की कोई शवत इस अविवियम के अिीि प्र दत्त की गई है, सािारर् या विशेष आदेश द्व`
+  line `ारा ककसी व् य वत या व् य वत यों के िगण को, या तो सािारर्तया या उस आदेश में विविर्दणष्ट ककन्हीं विषों के सम्ब न् ि में या तो पूर्णत:`
+  line `या भागत: —`
+  line `(क) ककन्हीं ऐसे वियमों के प्र ितणि से छूट दे सकेगा, या`
+  line `(ि) उपिारा ( 1 ) द्व ारा उपबंवित छूट की पररवि से अपिर्जणत कर सके गा।`
+  line `10. [1904 के अविवियम सं ० 1 का विरसि 1] — विरसि अविवियम, 1927 ( 1927 का 12 ) द्व ारा विरवसत।`
+  line ______
+  line `1 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा “ अपिे वििेकाविकार से ” शब्द विरवसत।`
+  line `2 भारत शासि (भारतीय विवि अिुकूलि) आदेश, 1937 द्व ारा अंत:स् र्ा वपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

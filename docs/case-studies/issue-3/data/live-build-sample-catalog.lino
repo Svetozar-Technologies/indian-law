@@ -1,22 +1,18 @@
 obj_root:
-  object
-  (str title) (str `Indian Law`)
-  (str defaultLanguage) (str en)
-  (str maxLines) (int 1500)
-  (str sourceMetadata) obj_root_source_metadata
-  (str languages) obj_root_languages
-  (str laws) obj_root_laws
+  title `Indian Law`
+  defaultLanguage en
+  maxLines 1500
+  sourceMetadata obj_root_source_metadata
+  languages obj_root_languages
+  laws obj_root_laws
 obj_root_source_metadata:
-  object
-  (str generatedFrom) obj_root_source_metadata_generated_from
-  (str lastVerified) (str 2026-05-08)
-  (str regionalLastVerified) (str 2026-05-08)
+  generatedFrom obj_root_source_metadata_generated_from
+  lastVerified 2026-05-08
+  regionalLastVerified 2026-05-08
 obj_root_source_metadata_generated_from:
-  array
-  str `https://www.indiacode.nic.in/`
-  str `https://lddashboard.legislative.gov.in/regional-language`
+  `https://www.indiacode.nic.in/`
+  `https://lddashboard.legislative.gov.in/regional-language`
 obj_root_languages:
-  array
   obj_root_languages_en
   obj_root_languages_hi
   obj_root_languages_bn
@@ -25,87 +21,75 @@ obj_root_languages:
   obj_root_languages_ta
   obj_root_languages_te
 obj_root_languages_en:
-  object
-  (str code) (str en)
-  (str name) (str English)
-  (str nativeName) (str English)
-  (str direction) (str ltr)
-  (str officialSource) (str `https://www.indiacode.nic.in/`)
-  (str sourceKind) (str indiacode-html)
+  code en
+  name English
+  nativeName English
+  direction ltr
+  officialSource `https://www.indiacode.nic.in/`
+  sourceKind indiacode-html
 obj_root_languages_hi:
-  object
-  (str code) (str hi)
-  (str name) (str Hindi)
-  (str nativeName) (str हिन्दी)
-  (str direction) (str ltr)
-  (str officialSource) (str `https://www.indiacode.nic.in/`)
-  (str sourceKind) (str indiacode-pdf)
+  code hi
+  name Hindi
+  nativeName हिन्दी
+  direction ltr
+  officialSource `https://www.indiacode.nic.in/`
+  sourceKind indiacode-pdf
 obj_root_languages_bn:
-  object
-  (str code) (str bn)
-  (str name) (str Bengali)
-  (str nativeName) (str বাংলা)
-  (str direction) (str ltr)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/bengali`)
-  (str sourceKind) (str legislative-regional-pdf)
+  code bn
+  name Bengali
+  nativeName বাংলা
+  direction ltr
+  officialSource `https://lddashboard.legislative.gov.in/bengali`
+  sourceKind legislative-regional-pdf
 obj_root_languages_kn:
-  object
-  (str code) (str kn)
-  (str name) (str Kannada)
-  (str nativeName) (str ಕನ್ನಡ)
-  (str direction) (str ltr)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/kannada`)
-  (str sourceKind) (str legislative-regional-pdf)
+  code kn
+  name Kannada
+  nativeName ಕನ್ನಡ
+  direction ltr
+  officialSource `https://lddashboard.legislative.gov.in/kannada`
+  sourceKind legislative-regional-pdf
 obj_root_languages_mr:
-  object
-  (str code) (str mr)
-  (str name) (str Marathi)
-  (str nativeName) (str मराठी)
-  (str direction) (str ltr)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/marathi`)
-  (str sourceKind) (str legislative-regional-pdf)
+  code mr
+  name Marathi
+  nativeName मराठी
+  direction ltr
+  officialSource `https://lddashboard.legislative.gov.in/marathi`
+  sourceKind legislative-regional-pdf
 obj_root_languages_ta:
-  object
-  (str code) (str ta)
-  (str name) (str Tamil)
-  (str nativeName) (str தமிழ்)
-  (str direction) (str ltr)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/tamil`)
-  (str sourceKind) (str legislative-regional-pdf)
+  code ta
+  name Tamil
+  nativeName தமிழ்
+  direction ltr
+  officialSource `https://lddashboard.legislative.gov.in/tamil`
+  sourceKind legislative-regional-pdf
 obj_root_languages_te:
-  object
-  (str code) (str te)
-  (str name) (str Telugu)
-  (str nativeName) (str తెలుగు)
-  (str direction) (str ltr)
-  (str officialSource) (str `https://lddashboard.legislative.gov.in/telugu`)
-  (str sourceKind) (str legislative-regional-pdf)
+  code te
+  name Telugu
+  nativeName తెలుగు
+  direction ltr
+  officialSource `https://lddashboard.legislative.gov.in/telugu`
+  sourceKind legislative-regional-pdf
 obj_root_laws:
-  array
   obj_root_laws_copyright_act_1957
 obj_root_laws_copyright_act_1957:
-  object
-  (str slug) (str copyright-act-1957)
-  (str title) (str `The Copyright Act, 1957`)
-  (str localizedTitles) obj_root_laws_copyright_act_1957_localized_titles
-  (str actNumber) (str 14)
-  (str actYear) (str 1957)
-  (str enactmentDate) (str 1957-06-04)
-  (str ministry) (str `Ministry of Commerce and Industry`)
-  (str department) (str `Department of Promotion of Industry and Internal Trade`)
-  (str longTitle) (str `An Act to amend and consolidate the law relating to copyright.`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1367`)
-  (str sources) obj_root_laws_copyright_act_1957_sources
-  (str languages) obj_root_laws_copyright_act_1957_languages
+  slug copyright-act-1957
+  title `The Copyright Act, 1957`
+  localizedTitles obj_root_laws_copyright_act_1957_localized_titles
+  actNumber (14)
+  actYear (1957)
+  enactmentDate 1957-06-04
+  ministry `Ministry of Commerce and Industry`
+  department `Department of Promotion of Industry and Internal Trade`
+  longTitle `An Act to amend and consolidate the law relating to copyright.`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1367`
+  sources obj_root_laws_copyright_act_1957_sources
+  languages obj_root_laws_copyright_act_1957_languages
 obj_root_laws_copyright_act_1957_localized_titles:
-  object
-  (str hi) (str `प्रतिलिप्‍यधिकार अधिनियम, 1957`)
+  hi `प्रतिलिप्‍यधिकार अधिनियम, 1957`
 obj_root_laws_copyright_act_1957_sources:
-  object
-  (str en) obj_root_laws_copyright_act_1957_sources_en
-  (str hi) obj_root_laws_copyright_act_1957_sources_hi
+  en obj_root_laws_copyright_act_1957_sources_en
+  hi obj_root_laws_copyright_act_1957_sources_hi
 obj_root_laws_copyright_act_1957_sources_en:
-  array
   obj_root_laws_copyright_act_1957_sources_en_1
   obj_root_laws_copyright_act_1957_sources_en_2
   obj_root_laws_copyright_act_1957_sources_en_3
@@ -114,125 +98,107 @@ obj_root_laws_copyright_act_1957_sources_en:
   obj_root_laws_copyright_act_1957_sources_en_6
   obj_root_laws_copyright_act_1957_sources_en_user_guide
 obj_root_laws_copyright_act_1957_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1367`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1367`
 obj_root_laws_copyright_act_1957_sources_en_2:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf`
 obj_root_laws_copyright_act_1957_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/rulesindividualfile/&file=copyrightrules1958.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/rulesindividualfile/&file=copyrightrules1958.pdf`
+  title obj_root_laws_copyright_act_1957_sources_en_3_title
+obj_root_laws_copyright_act_1957_sources_en_3_title:
+  string
+  line
 obj_root_laws_copyright_act_1957_sources_en_4:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/rulesindividualfile/&file=copyright+2013searchable.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/rulesindividualfile/&file=copyright+2013searchable.pdf`
+  title obj_root_laws_copyright_act_1957_sources_en_4_title
+obj_root_laws_copyright_act_1957_sources_en_4_title:
+  string
+  line
 obj_root_laws_copyright_act_1957_sources_en_5:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/rulesindividualfile/&file=Copy-Right-Rules%28Amendment%29-2016.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/rulesindividualfile/&file=Copy-Right-Rules%28Amendment%29-2016.pdf`
+  title obj_root_laws_copyright_act_1957_sources_en_5_title
+obj_root_laws_copyright_act_1957_sources_en_5_title:
+  string
+  line
 obj_root_laws_copyright_act_1957_sources_en_6:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/notificationindividualfile/&file=the+International+Copyright+Order%2C+1999.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/notificationindividualfile/&file=the+International+Copyright+Order%2C+1999.pdf`
+  title obj_root_laws_copyright_act_1957_sources_en_6_title
+obj_root_laws_copyright_act_1957_sources_en_6_title:
+  string
+  line
 obj_root_laws_copyright_act_1957_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_laws_copyright_act_1957_sources_hi:
-  array
   obj_root_laws_copyright_act_1957_sources_hi_1
 obj_root_laws_copyright_act_1957_sources_hi_1:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1367/3/H1957-14.pdf`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1367/3/H1957-14.pdf`
 obj_root_laws_copyright_act_1957_languages:
-  object
-  (str en) obj_root_laws_copyright_act_1957_languages_en
-  (str hi) obj_root_laws_copyright_act_1957_languages_hi
-  (str bn) obj_root_laws_copyright_act_1957_languages_bn
-  (str kn) obj_root_laws_copyright_act_1957_languages_kn
-  (str mr) obj_root_laws_copyright_act_1957_languages_mr
-  (str ta) obj_root_laws_copyright_act_1957_languages_ta
-  (str te) obj_root_laws_copyright_act_1957_languages_te
+  en obj_root_laws_copyright_act_1957_languages_en
+  hi obj_root_laws_copyright_act_1957_languages_hi
+  bn obj_root_laws_copyright_act_1957_languages_bn
+  kn obj_root_laws_copyright_act_1957_languages_kn
+  mr obj_root_laws_copyright_act_1957_languages_mr
+  ta obj_root_laws_copyright_act_1957_languages_ta
+  te obj_root_laws_copyright_act_1957_languages_te
 obj_root_laws_copyright_act_1957_languages_en:
-  object
-  (str enabled) (bool true)
-  (str status) (str markdown)
-  (str parts) obj_root_laws_copyright_act_1957_languages_en_parts
-  (str sources) obj_root_laws_copyright_act_1957_sources_en
+  enabled true
+  status markdown
+  parts obj_root_laws_copyright_act_1957_languages_en_parts
+  sources obj_root_laws_copyright_act_1957_sources_en
 obj_root_laws_copyright_act_1957_languages_en_parts:
-  array
   obj_root_laws_copyright_act_1957_languages_en_parts_part_001_md
 obj_root_laws_copyright_act_1957_languages_en_parts_part_001_md:
-  object
-  (str file) (str part-001.md)
-  (str title) (str `Part 1`)
-  (str lineCount) (int 39)
-  (str firstSection) (str 1)
-  (str lastSection) (str 1)
+  file part-001.md
+  title `Part 1`
+  lineCount 39
+  firstSection (1)
+  lastSection (1)
 obj_root_laws_copyright_act_1957_languages_hi:
-  object
-  (str enabled) (bool false)
-  (str status) (str source-only)
-  (str parts) obj_root_laws_copyright_act_1957_languages_hi_parts
-  (str sources) obj_root_laws_copyright_act_1957_sources_hi
+  enabled false
+  status source-only
+  parts obj_root_laws_copyright_act_1957_languages_hi_parts
+  sources obj_root_laws_copyright_act_1957_sources_hi
 obj_root_laws_copyright_act_1957_languages_hi_parts:
-  array
 obj_root_laws_copyright_act_1957_languages_bn:
-  object
-  (str enabled) (bool false)
-  (str status) (str unavailable)
-  (str parts) obj_root_laws_copyright_act_1957_languages_bn_parts
-  (str sources) obj_root_laws_copyright_act_1957_languages_bn_sources
+  enabled false
+  status unavailable
+  parts obj_root_laws_copyright_act_1957_languages_bn_parts
+  sources obj_root_laws_copyright_act_1957_languages_bn_sources
 obj_root_laws_copyright_act_1957_languages_bn_parts:
-  array
 obj_root_laws_copyright_act_1957_languages_bn_sources:
-  array
 obj_root_laws_copyright_act_1957_languages_kn:
-  object
-  (str enabled) (bool false)
-  (str status) (str unavailable)
-  (str parts) obj_root_laws_copyright_act_1957_languages_kn_parts
-  (str sources) obj_root_laws_copyright_act_1957_languages_kn_sources
+  enabled false
+  status unavailable
+  parts obj_root_laws_copyright_act_1957_languages_kn_parts
+  sources obj_root_laws_copyright_act_1957_languages_kn_sources
 obj_root_laws_copyright_act_1957_languages_kn_parts:
-  array
 obj_root_laws_copyright_act_1957_languages_kn_sources:
-  array
 obj_root_laws_copyright_act_1957_languages_mr:
-  object
-  (str enabled) (bool false)
-  (str status) (str unavailable)
-  (str parts) obj_root_laws_copyright_act_1957_languages_mr_parts
-  (str sources) obj_root_laws_copyright_act_1957_languages_mr_sources
+  enabled false
+  status unavailable
+  parts obj_root_laws_copyright_act_1957_languages_mr_parts
+  sources obj_root_laws_copyright_act_1957_languages_mr_sources
 obj_root_laws_copyright_act_1957_languages_mr_parts:
-  array
 obj_root_laws_copyright_act_1957_languages_mr_sources:
-  array
 obj_root_laws_copyright_act_1957_languages_ta:
-  object
-  (str enabled) (bool false)
-  (str status) (str unavailable)
-  (str parts) obj_root_laws_copyright_act_1957_languages_ta_parts
-  (str sources) obj_root_laws_copyright_act_1957_languages_ta_sources
+  enabled false
+  status unavailable
+  parts obj_root_laws_copyright_act_1957_languages_ta_parts
+  sources obj_root_laws_copyright_act_1957_languages_ta_sources
 obj_root_laws_copyright_act_1957_languages_ta_parts:
-  array
 obj_root_laws_copyright_act_1957_languages_ta_sources:
-  array
 obj_root_laws_copyright_act_1957_languages_te:
-  object
-  (str enabled) (bool false)
-  (str status) (str unavailable)
-  (str parts) obj_root_laws_copyright_act_1957_languages_te_parts
-  (str sources) obj_root_laws_copyright_act_1957_languages_te_sources
+  enabled false
+  status unavailable
+  parts obj_root_laws_copyright_act_1957_languages_te_parts
+  sources obj_root_laws_copyright_act_1957_languages_te_sources
 obj_root_laws_copyright_act_1957_languages_te_parts:
-  array
 obj_root_laws_copyright_act_1957_languages_te_sources:
-  array

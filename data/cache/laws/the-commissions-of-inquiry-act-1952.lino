@@ -1,72 +1,64 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:27:12.129Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1508`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 20)
-  (str totalSections) (int 20)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:27:12.129Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1508`
+  completeFetch true
+  maxSections null
+  sectionCount 20
+  totalSections 20
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-commissions-of-inquiry-act-1952)
-  (str handle) (str 1508)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Commissions of Inquiry Act, 1952`)
-  (str actNumber) (str 60)
-  (str enactmentDate) (str 1952-08-14)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1508`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `जांच आयोग अधिनियम, 1952`)
-  (str actYear) (str 1952)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Home`)
-  (str longTitle) (str `An Act to provide for the appointment of Commissions of Inquiry and for vesting such Commissions with certain powers.`)
-  (str enforcementDate) (str 01-10-1952)
-  (str notification) (str `1st October, 1952, vide Notification No. S.R.O. 1670, dated the 30th September, 1952, see Gazette of India, Extraordinary, Part II, s. 3. This Act, as amended by Act 79 of 1971, came into force in the State of Jammu and Kashmir on 6-3-1972 and in the districts of Kohima and Mokokchung in the State of Nagaland on 15-2-1972, vide notification No. 94(E), dated 4-3-1972 and 74(E), dated 14-2-1972, respectively, issued under s. 15 of Act 79 of 1972.`)
-  (str fetchedAt) (str `2026-05-09T17:55:41.629Z`)
-  (str translations) obj_root_law_translations
+  slug the-commissions-of-inquiry-act-1952
+  handle (1508)
+  collectionHandle 123456789/1362
+  title `The Commissions of Inquiry Act, 1952`
+  actNumber (60)
+  enactmentDate 1952-08-14
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1508`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `जांच आयोग अधिनियम, 1952`
+  actYear (1952)
+  ministry `Ministry of Home Affairs`
+  department `Department of Home`
+  longTitle `An Act to provide for the appointment of Commissions of Inquiry and for vesting such Commissions with certain powers.`
+  enforcementDate 01-10-1952
+  notification `1st October, 1952, vide Notification No. S.R.O. 1670, dated the 30th September, 1952, see Gazette of India, Extraordinary, Part II, s. 3. This Act, as amended by Act 79 of 1971, came into force in the State of Jammu and Kashmir on 6-3-1972 and in the districts of Kohima and Mokokchung in the State of Nagaland on 15-2-1972, vide notification No. 94(E), dated 4-3-1972 and 74(E), dated 14-2-1972, respectively, issued under s. 15 of Act 79 of 1972.`
+  fetchedAt `2026-05-09T17:55:41.629Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_commissions_of_inquiry_act_1952
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1508`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1508`
 obj_root_law_sources_en_the_commissions_of_inquiry_act_1952:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1508/1/A1952-60.pdf`)
-  (str title) (str `The Commissions of Inquiry Act, 1952`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1508/1/A1952-60.pdf`
+  title `The Commissions of Inquiry Act, 1952`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00004_195260_1517807319316/rulesindividualfile/&file=Commissions+of+Inquiry+%28Central%29+Rules%2C+1972.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00004_195260_1517807319316/rulesindividualfile/&file=Commissions+of+Inquiry+%28Central%29+Rules%2C+1972.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1952
 obj_root_law_sources_hi_1952:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1508/2/H1952-60.pdf`)
-  (str title) (str `जांच आयोग अधिनियम, 1952`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1508/2/H1952-60.pdf`
+  title `जांच आयोग अधिनियम, 1952`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_2_a
@@ -88,517 +80,587 @@ obj_root_law_sections:
   obj_root_law_sections_11
   obj_root_law_sections_12
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 6688)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Commissions of
-Inquiry Act, 1952.
-
-^1[(2) It extends to the whole of India:
-
-*****
-]
-
-(3) It shall come into force on such date^2
-as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. Subs by Act 79 of 1971, s. 2, for sub-section (2).
-
-2. 1st October, 1952, vide Notification No. S.R.O. 1670, dated the 30th September, 1952, see Gazette of India,
-Extraordinary, Part II, s. 3.
-
-This Act, as amended by Act 79 of 1971, came into force in the State of Jammu and Kashmir on 6-3-1972 and in the
-districts of Kohima and Mokokchung in the State of Nagaland on 15-2-1972, vide notification No. 94(E), dated 4-3-1972
-and 74(E), dated 14-2-1972, respectively, issued under s. 15 of Act 79 of 1972.
-
-3. The proviso omitted by Act 34 of 2019, s. 95 and the Fifth Schedule (w.e.f. 31-10- 2019).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6688&sectionno=1&orderno=1&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6688)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6688&sectionno=1&orderno=1&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Commissions of`
+  line `Inquiry Act, 1952.`
+  line
+  line `^1[(2) It extends to the whole of India:`
+  line
+  line *****
+  line ]
+  line
+  line `(3) It shall come into force on such date^2`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Subs by Act 79 of 1971, s. 2, for sub-section (2).`
+  line
+  line `2. 1st October, 1952, vide Notification No. S.R.O. 1670, dated the 30th September, 1952, see Gazette of India,`
+  line `Extraordinary, Part II, s. 3.`
+  line
+  line `This Act, as amended by Act 79 of 1971, came into force in the State of Jammu and Kashmir on 6-3-1972 and in the`
+  line `districts of Kohima and Mokokchung in the State of Nagaland on 15-2-1972, vide notification No. 94(E), dated 4-3-1972`
+  line `and 74(E), dated 14-2-1972, respectively, issued under s. 15 of Act 79 of 1972.`
+  line
+  line `3. The proviso omitted by Act 34 of 2019, s. 95 and the Fifth Schedule (w.e.f. 31-10- 2019).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 6689)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "appropriate Government" means--
-
-(i) the Central Government, in relation to a Commission appointed by it to make an
-inquiry into any matter relatable to any of the entries enumerated in List I or List II or List III in the Seventh Schedule to the Constitution; and
-
-(ii) the State Government, in relation to a Commission appointed by it to make an inquiry
-into any matter relatable to any of the entries enumerated in List II or List III in the Seventh
-Schedule to the Constitution:
-
-^1*****
-
-(b) "Commission" means a Commission of Inquiry appointed under section 3;
-
-(c) "prescribed" means prescribed by rules made under this Act.`)
-  (str footnotes) (str `1. The Proviso omitted by the Jammu and Kashmir Reorganization (Adaptation of Central Laws) Order, 2020, vide
-notification No. S.O. 1123(E) dated (18-3-2020) and vide Union Territory of Ladakh Reorganisation (Adaptation of
-Central Laws) Order, 2020, Notification No. S.O. 3774(E), dated (23-10-2020).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6689&sectionno=2&orderno=2&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6689)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6689&sectionno=2&orderno=2&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "appropriate Government" means--`
+  line
+  line `(i) the Central Government, in relation to a Commission appointed by it to make an`
+  line `inquiry into any matter relatable to any of the entries enumerated in List I or List II or List III in the Seventh Schedule to the Constitution; and`
+  line
+  line `(ii) the State Government, in relation to a Commission appointed by it to make an inquiry`
+  line `into any matter relatable to any of the entries enumerated in List II or List III in the Seventh`
+  line `Schedule to the Constitution:`
+  line
+  line ^1*****
+  line
+  line `(b) "Commission" means a Commission of Inquiry appointed under section 3;`
+  line
+  line `(c) "prescribed" means prescribed by rules made under this Act.`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. The Proviso omitted by the Jammu and Kashmir Reorganization (Adaptation of Central Laws) Order, 2020, vide`
+  line `notification No. S.O. 1123(E) dated (18-3-2020) and vide Union Territory of Ladakh Reorganisation (Adaptation of`
+  line `Central Laws) Order, 2020, Notification No. S.O. 3774(E), dated (23-10-2020).`
 obj_root_law_sections_2_a:
-  object
-  (str sectionId) (str 6690)
-  (str sectionNo) (str 2A)
-  (str orderNo) (int 3)
-  (str title) (str `Construction of references to laws not in force in the State of Jammu and Kashmir.`)
-  (str content) (str `2A. [Construction of references to laws not in force in the State of Jammu and Kashmir^*.]--
-omitted by the Jammu and Kashmir Reorganization (Adaptation of Central Laws) Order, 2020, vide
-notification No. S.O. 1123(E), dated (18-3-2020) and vide Union Territory of Ladakh Reorganisation
-(Adaptation of Central Laws) Order, 2020, Notification No. S.O. 3774(E), dated (23-10-2020).]`)
-  (str footnotes) (str `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu
-and Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6690&sectionno=2A&orderno=3&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6690)
+  sectionNo 2A
+  orderNo 3
+  title `Construction of references to laws not in force in the State of Jammu and Kashmir.`
+  content obj_root_law_sections_2_a_content
+  footnotes obj_root_law_sections_2_a_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6690&sectionno=2A&orderno=3&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_2_a_content:
+  string
+  line `2A. [Construction of references to laws not in force in the State of Jammu and Kashmir^*.]--`
+  line `omitted by the Jammu and Kashmir Reorganization (Adaptation of Central Laws) Order, 2020, vide`
+  line `notification No. S.O. 1123(E), dated (18-3-2020) and vide Union Territory of Ladakh Reorganisation`
+  line `(Adaptation of Central Laws) Order, 2020, Notification No. S.O. 3774(E), dated (23-10-2020).]`
+obj_root_law_sections_2_a_footnotes:
+  string
+  line `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu`
+  line `and Kashmir and the Union territory of Ladakh.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 6691)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 4)
-  (str title) (str `Appointment of Commission.`)
-  (str content) (str `(1) The appropriate Government may, if it is of opinion that it
-is necessary so to do, and shall if a resolution in this behalf is passed by ^1
-[each House of Parliament
-or, as the case may be, the Legislature of the State], by notification in the Official Gazette, appoint a
-Commission of Inquiry for the purpose of making an inquiry into any definite matter of public
-importance and performing such functions and within such time as may be specified in the
-notification, and the Commission so appointed shall make the inquiry and perform the functions
-accordingly:
-
-Provided that where any such Commission has been appointed to inquire into any matter--
-
-(a) by the Central Government, no State Government shall, except with the approval of the
-Central Government, appoint another Commission to inquire into the same matter for so long as
-the Commission appointed by the Central Government is functioning;
-
-(b) by a State Government, the Central Government shall not appoint another Commission to
-inquire into the same matter for so long as the Commission appointed by the State Government is
-functioning, unless the Central Government is of opinion that the scope of the inquiry should be
-extended to two or more States.
-
-(2) The Commission may consist of one or more members appointed by the appropriate
-Government, and where the Commission consists of more than one member, one of them may be
-appointed as the Chairman thereof.
-
-^2
-[(3) The appropriate Government , at any stage of an inquiry by the Commission fill any vacancy which may have arisen in the office of a member of the Commission (whether consisting of
-one or more than one member).
-
-(4) The appropriate Government shall cause to be laid before ^1[each House of Parliament or, as the case may be, the Legislature of the State], the report, if any, of the Commission on the inquiry
-made by the Commission under sub-section (1) together with a memorandum of the action taken
-thereon, within a period of six months of the submission of the report by the Commission to the
-appropriate Government.]
-
-^3
-**** *`)
-  (str footnotes) (str `1. Subs. by Act 19 of 1990, s. 2, for certain words (w.e.f. 28-8-1990).
-
-2. Ins. by Act 79 of 1971, s. 5 (w.e.f. 30-12-1971).
-
-3. Sub-sections (5) and (6) omitted by Act 19 of 1990, s. 2, ibid.(w.e.f. 28-8-1990).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6691&sectionno=3&orderno=4&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6691)
+  sectionNo (3)
+  orderNo 4
+  title `Appointment of Commission.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6691&sectionno=3&orderno=4&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_3_content:
+  string
+  line `(1) The appropriate Government may, if it is of opinion that it`
+  line `is necessary so to do, and shall if a resolution in this behalf is passed by ^1`
+  line `[each House of Parliament`
+  line `or, as the case may be, the Legislature of the State], by notification in the Official Gazette, appoint a`
+  line `Commission of Inquiry for the purpose of making an inquiry into any definite matter of public`
+  line `importance and performing such functions and within such time as may be specified in the`
+  line `notification, and the Commission so appointed shall make the inquiry and perform the functions`
+  line `accordingly:`
+  line
+  line `Provided that where any such Commission has been appointed to inquire into any matter--`
+  line
+  line `(a) by the Central Government, no State Government shall, except with the approval of the`
+  line `Central Government, appoint another Commission to inquire into the same matter for so long as`
+  line `the Commission appointed by the Central Government is functioning;`
+  line
+  line `(b) by a State Government, the Central Government shall not appoint another Commission to`
+  line `inquire into the same matter for so long as the Commission appointed by the State Government is`
+  line `functioning, unless the Central Government is of opinion that the scope of the inquiry should be`
+  line `extended to two or more States.`
+  line
+  line `(2) The Commission may consist of one or more members appointed by the appropriate`
+  line `Government, and where the Commission consists of more than one member, one of them may be`
+  line `appointed as the Chairman thereof.`
+  line
+  line ^2
+  line `[(3) The appropriate Government , at any stage of an inquiry by the Commission fill any vacancy which may have arisen in the office of a member of the Commission (whether consisting of`
+  line `one or more than one member).`
+  line
+  line `(4) The appropriate Government shall cause to be laid before ^1[each House of Parliament or, as the case may be, the Legislature of the State], the report, if any, of the Commission on the inquiry`
+  line `made by the Commission under sub-section (1) together with a memorandum of the action taken`
+  line `thereon, within a period of six months of the submission of the report by the Commission to the`
+  line `appropriate Government.]`
+  line
+  line ^3
+  line `**** *`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. Subs. by Act 19 of 1990, s. 2, for certain words (w.e.f. 28-8-1990).`
+  line
+  line `2. Ins. by Act 79 of 1971, s. 5 (w.e.f. 30-12-1971).`
+  line
+  line `3. Sub-sections (5) and (6) omitted by Act 19 of 1990, s. 2, ibid.(w.e.f. 28-8-1990).`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 6692)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 5)
-  (str title) (str `Powers of Commission.`)
-  (str content) (str `The Commission shall have the powers of a civil court, while trying
-a suit under the Code of Civil Procedure, 1908 (5 of 1908), in respect of the following matters,
-namely:--
-
-(a)
-^1[summoning and enforcing the attendance of any person from any part of India] and
-examining him on oath;
-
-(b) requiring the discovery and production of any document;
-
-(c) receiving evidence on affidavits;
-
-(d) requisitioning any public record or copy thereof from any court or office;
-
-(e) issuing commissions for the examination of witnesses or documents;
-
-(f) any other matter which may be prescribed.`)
-  (str footnotes) (str `1. Subs. by Act 79 of 1971, s. 6, for certain words (w.e.f. 30-12-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6692&sectionno=4&orderno=5&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6692)
+  sectionNo (4)
+  orderNo 5
+  title `Powers of Commission.`
+  content obj_root_law_sections_4_content
+  footnotes `1. Subs. by Act 79 of 1971, s. 6, for certain words (w.e.f. 30-12-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6692&sectionno=4&orderno=5&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_4_content:
+  string
+  line `The Commission shall have the powers of a civil court, while trying`
+  line `a suit under the Code of Civil Procedure, 1908 (5 of 1908), in respect of the following matters,`
+  line `namely:--`
+  line
+  line `(a)`
+  line `^1[summoning and enforcing the attendance of any person from any part of India] and`
+  line `examining him on oath;`
+  line
+  line `(b) requiring the discovery and production of any document;`
+  line
+  line `(c) receiving evidence on affidavits;`
+  line
+  line `(d) requisitioning any public record or copy thereof from any court or office;`
+  line
+  line `(e) issuing commissions for the examination of witnesses or documents;`
+  line
+  line `(f) any other matter which may be prescribed.`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 6693)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 6)
-  (str title) (str `Additional powers of Commission.`)
-  (str content) (str `(1) Where the appropriate Government is of opinion
-that, having regard to the nature of the inquiry to be made and other circumstances of the case, all or
-any of the provisions of sub-section (2) or sub-section (3) or sub-section (4) or sub-section (5) should
-be made applicable to a Commission, the appropriate Government may, by notification in the Official
-Gazette, direct that all or such of the said provisions as may be specified in the notification shall apply
-to that Commission and on the issue of such a notification, the said provisions shall apply
-accordingly.
-
-(2) The Commission shall have power to require any person, subject to any privilege which may
-be claimed by that person under any law for the time being in force, to furnish information on such
-points or matters as, in the opinion of the Commission, may be useful for, or relevant to, the
-subject matter of the inquiry ^1
-[and any person so required shall be deemed to be legally bound to
-furnish such information within the meaning of section 176 and section 177 of the Indian Penal Code
-(45 of 1860)].
-
-(3) The Commission or any officer, not below the rank of a Gazetted Officer, specially authorised
-in this behalf by the Commission may enter any building or place where the Commission has reason
-to believe that any books of account or other documents relating to the subject matter of the inquiry
-may be found, and may seize any books of account or documents or take extracts or copies therefrom,
-subject to the provisions of section 102 and section 103 of the Code of Criminal Procedure, 1898
-(5 of 1898), in so far as they may be applicable.
-
-(4) The Commission shall be deemed to be a civil court and when any offence as is described in
-section 175, section 178, section 179, section 180 or section 228 of the Indian Penal Code
-(45 of 1860) is committed in the view or presence of the Commission, the Commission may, after
-recording the facts constituting the offence and the statement of the accused as provided for in the
-Code of Criminal Procedure, 1898 (5 of 1898), forward the case to a magistrate having jurisdiction to
-try the same and the magistrate to whom any such case is forwarded shall proceed to hear the
-complaint against the accused as if the case had been forwarded to him under section 482 of the Code
-of Criminal Procedure, 1898.
-
-(5) Any proceeding before the Commission shall be deemed to be a judicial proceeding within the
-meaning of sections 193 and 228 of the Indian Penal Code (45 of 1860).`)
-  (str footnotes) (str `1. Ins. by Act 79 of 1971, s. 7 (w.e.f. 30-12-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6693&sectionno=5&orderno=6&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6693)
+  sectionNo (5)
+  orderNo 6
+  title `Additional powers of Commission.`
+  content obj_root_law_sections_5_content
+  footnotes `1. Ins. by Act 79 of 1971, s. 7 (w.e.f. 30-12-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6693&sectionno=5&orderno=6&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_5_content:
+  string
+  line `(1) Where the appropriate Government is of opinion`
+  line `that, having regard to the nature of the inquiry to be made and other circumstances of the case, all or`
+  line `any of the provisions of sub-section (2) or sub-section (3) or sub-section (4) or sub-section (5) should`
+  line `be made applicable to a Commission, the appropriate Government may, by notification in the Official`
+  line `Gazette, direct that all or such of the said provisions as may be specified in the notification shall apply`
+  line `to that Commission and on the issue of such a notification, the said provisions shall apply`
+  line accordingly.
+  line
+  line `(2) The Commission shall have power to require any person, subject to any privilege which may`
+  line `be claimed by that person under any law for the time being in force, to furnish information on such`
+  line `points or matters as, in the opinion of the Commission, may be useful for, or relevant to, the`
+  line `subject matter of the inquiry ^1`
+  line `[and any person so required shall be deemed to be legally bound to`
+  line `furnish such information within the meaning of section 176 and section 177 of the Indian Penal Code`
+  line `(45 of 1860)].`
+  line
+  line `(3) The Commission or any officer, not below the rank of a Gazetted Officer, specially authorised`
+  line `in this behalf by the Commission may enter any building or place where the Commission has reason`
+  line `to believe that any books of account or other documents relating to the subject matter of the inquiry`
+  line `may be found, and may seize any books of account or documents or take extracts or copies therefrom,`
+  line `subject to the provisions of section 102 and section 103 of the Code of Criminal Procedure, 1898`
+  line `(5 of 1898), in so far as they may be applicable.`
+  line
+  line `(4) The Commission shall be deemed to be a civil court and when any offence as is described in`
+  line `section 175, section 178, section 179, section 180 or section 228 of the Indian Penal Code`
+  line `(45 of 1860) is committed in the view or presence of the Commission, the Commission may, after`
+  line `recording the facts constituting the offence and the statement of the accused as provided for in the`
+  line `Code of Criminal Procedure, 1898 (5 of 1898), forward the case to a magistrate having jurisdiction to`
+  line `try the same and the magistrate to whom any such case is forwarded shall proceed to hear the`
+  line `complaint against the accused as if the case had been forwarded to him under section 482 of the Code`
+  line `of Criminal Procedure, 1898.`
+  line
+  line `(5) Any proceeding before the Commission shall be deemed to be a judicial proceeding within the`
+  line `meaning of sections 193 and 228 of the Indian Penal Code (45 of 1860).`
 obj_root_law_sections_5_a:
-  object
-  (str sectionId) (str 6694)
-  (str sectionNo) (str 5A)
-  (str orderNo) (int 7)
-  (str title) (str `Power of Commission to utilise the services of certain officers and investigation agencies for conducting investigation pertaining to inquiry.`)
-  (str content) (str `^1
-[5A. Power of Commission to utilise the services of certain officers and investigation
-agencies for conducting investigation pertaining to inquiry.--(1) The Commission may, for the
-purpose of conducting any investigation pertaining to the inquiry, utilise the services,--
-
-(a) in the case of a Commission appointed by the Central Government, of any officer or
-investigation agency of the Central Government or any State Government with the concurrence of
-the Central Government or the State Government, as the case may be; or
-
-(b) in the case of a Commission appointed by the State Government, of any officer or
-investigation agency of the State Government or Central Government with the concurrence of the
-State Government or the Central Government, as the case may be.
-
-(2) For the purpose of investigating into any matter pertaining to the inquiry, any officer or
-agency whose services are utilised under sub-section (1) may, subject to the direction and control of
-the Commission,--
-
-(a) summon and enforce the attendance of any person and examine him;
-
-(b) require the discovery and production of any document; and
-
-(c) requisition any public record or copy thereof from any office.
-
-(3) The provisions of section 6 shall apply in relation to any statement made by a person before
-any officer or agency whose services are utilised under sub section (1) as they apply in relation to any
-statement made by a person in the course of giving evidence before the Commission.
-
-(4) The officer or agency, whose services are utilised under sub-section (1), shall investigate into
-any matter pertaining to the inquiry and submit a report thereon (hereafter in this section referred to as
-the investigation report) to the Commission within such period as may be specified by the
-Commission in this behalf.
-
-(5) The Commission shall satisfy itself about the correctness of the facts stated and the
-conclusions, if any, arrived at in the investigation report submitted to it under sub-section (4), and for
-this purpose the Commission may make such inquiry (including the examination of the person or
-persons who conducted or assisted in the investigation) as it thinks fit.]`)
-  (str footnotes) (str `1 Ins. by s. 8, ibid. (w.e.f. 30-12-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6694&sectionno=5A&orderno=7&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6694)
+  sectionNo 5A
+  orderNo 7
+  title `Power of Commission to utilise the services of certain officers and investigation agencies for conducting investigation pertaining to inquiry.`
+  content obj_root_law_sections_5_a_content
+  footnotes `1 Ins. by s. 8, ibid. (w.e.f. 30-12-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6694&sectionno=5A&orderno=7&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_5_a_content:
+  string
+  line ^1
+  line `[5A. Power of Commission to utilise the services of certain officers and investigation`
+  line `agencies for conducting investigation pertaining to inquiry.--(1) The Commission may, for the`
+  line `purpose of conducting any investigation pertaining to the inquiry, utilise the services,--`
+  line
+  line `(a) in the case of a Commission appointed by the Central Government, of any officer or`
+  line `investigation agency of the Central Government or any State Government with the concurrence of`
+  line `the Central Government or the State Government, as the case may be; or`
+  line
+  line `(b) in the case of a Commission appointed by the State Government, of any officer or`
+  line `investigation agency of the State Government or Central Government with the concurrence of the`
+  line `State Government or the Central Government, as the case may be.`
+  line
+  line `(2) For the purpose of investigating into any matter pertaining to the inquiry, any officer or`
+  line `agency whose services are utilised under sub-section (1) may, subject to the direction and control of`
+  line `the Commission,--`
+  line
+  line `(a) summon and enforce the attendance of any person and examine him;`
+  line
+  line `(b) require the discovery and production of any document; and`
+  line
+  line `(c) requisition any public record or copy thereof from any office.`
+  line
+  line `(3) The provisions of section 6 shall apply in relation to any statement made by a person before`
+  line `any officer or agency whose services are utilised under sub section (1) as they apply in relation to any`
+  line `statement made by a person in the course of giving evidence before the Commission.`
+  line
+  line `(4) The officer or agency, whose services are utilised under sub-section (1), shall investigate into`
+  line `any matter pertaining to the inquiry and submit a report thereon (hereafter in this section referred to as`
+  line `the investigation report) to the Commission within such period as may be specified by the`
+  line `Commission in this behalf.`
+  line
+  line `(5) The Commission shall satisfy itself about the correctness of the facts stated and the`
+  line `conclusions, if any, arrived at in the investigation report submitted to it under sub-section (4), and for`
+  line `this purpose the Commission may make such inquiry (including the examination of the person or`
+  line `persons who conducted or assisted in the investigation) as it thinks fit.]`
 obj_root_law_sections_5_b:
-  object
-  (str sectionId) (str 6695)
-  (str sectionNo) (str 5B)
-  (str orderNo) (int 8)
-  (str title) (str `Power of Commission to appoint assessors.`)
-  (str content) (str `^1
-[5B. Power of Commission to appoint assessors.The Commission may, for the purpose of
-conducting any inquiry, appoint persons having special knowledge of any matter connected with the
-inquiry as assessors, to assist and advise the Commission in the inquiry and the assessors shall be
-entitled to such travelling and other expenses as may be prescribed.]`)
-  (str footnotes) (str `1 . Ins. by Act 63 of 1988, s. 2 (w.e.f. 10-12-1988).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6695&sectionno=5B&orderno=8&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6695)
+  sectionNo 5B
+  orderNo 8
+  title `Power of Commission to appoint assessors.`
+  content obj_root_law_sections_5_b_content
+  footnotes `1 . Ins. by Act 63 of 1988, s. 2 (w.e.f. 10-12-1988).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6695&sectionno=5B&orderno=8&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_5_b_content:
+  string
+  line ^1
+  line `[5B. Power of Commission to appoint assessors.The Commission may, for the purpose of`
+  line `conducting any inquiry, appoint persons having special knowledge of any matter connected with the`
+  line `inquiry as assessors, to assist and advise the Commission in the inquiry and the assessors shall be`
+  line `entitled to such travelling and other expenses as may be prescribed.]`
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 6696)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 9)
-  (str title) (str `Statements made by persons to the Commission.`)
-  (str content) (str `No statement made by a person in the
-course of giving evidence before the Commission shall subject him to, or be used against him in, any
-civil or criminal proceeding except a prosecution for giving false evidence by such statement:
-
-Provided that the statement—
-
-(a) is made in reply to a question which he is required by the Commission to answer, or
-
-(b) is relevant to the subject matter of the inquiry`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6696&sectionno=6&orderno=9&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6696)
+  sectionNo (6)
+  orderNo 9
+  title `Statements made by persons to the Commission.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6696&sectionno=6&orderno=9&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_6_content:
+  string
+  line `No statement made by a person in the`
+  line `course of giving evidence before the Commission shall subject him to, or be used against him in, any`
+  line `civil or criminal proceeding except a prosecution for giving false evidence by such statement:`
+  line
+  line `Provided that the statement—`
+  line
+  line `(a) is made in reply to a question which he is required by the Commission to answer, or`
+  line
+  line `(b) is relevant to the subject matter of the inquiry`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_6_a:
-  object
-  (str sectionId) (str 6697)
-  (str sectionNo) (str 6A)
-  (str orderNo) (int 10)
-  (str title) (str `Persons not obliged to disclose secret process of manufacture of goods in certain cases.`)
-  (str content) (str `^1
-[6A. Persons not obliged to disclose secret process of manufacture of goods in certain
-cases.--Except in cases where a Commission is expressly required to inquire into the process of
-manufacture of any goods, nothing in this Act shall be deemed to compel any person giving evidence
-before the Commission to disclose any secret process of manufacture thereof.]`)
-  (str footnotes) (str `1 Ins. by Act 79 of 1971, s. 9 (w.e.f. 30-12-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6697&sectionno=6A&orderno=10&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6697)
+  sectionNo 6A
+  orderNo 10
+  title `Persons not obliged to disclose secret process of manufacture of goods in certain cases.`
+  content obj_root_law_sections_6_a_content
+  footnotes `1 Ins. by Act 79 of 1971, s. 9 (w.e.f. 30-12-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6697&sectionno=6A&orderno=10&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_6_a_content:
+  string
+  line ^1
+  line `[6A. Persons not obliged to disclose secret process of manufacture of goods in certain`
+  line `cases.--Except in cases where a Commission is expressly required to inquire into the process of`
+  line `manufacture of any goods, nothing in this Act shall be deemed to compel any person giving evidence`
+  line `before the Commission to disclose any secret process of manufacture thereof.]`
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 6698)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 11)
-  (str title) (str `Commission to cease to exist when so notified.`)
-  (str content) (str `^1
-[7. Commission to cease to exist when so notified.--(1) The appropriate Government may, by
-notification in the Official Gazette, declare that--
-
-(a) a Commission (other than a Commission appointed in pursuance of a resolution passed by
-^2
-[each House of Parliament or, as the case may be, the Legislature of the State] shall cease to
-exist, if it is of opinion that the continued existence of the Commission is unnecessary;
-
-(b) a Commission appointed in pursuance of a resolution passed by ^2
-[each House of
-Parliament or, as the case may be, the Legislature of the State] shall cease to exist if a resolution
-for the discontinuance of the Commission is passed by ^2
-[each House of Parliament or, as the case
-may be, the Legislature of the State].
-
-(2) Every notification issued under sub-section (1) shall specify the date from which the
-Commission shall cease to exist and on the issue of such notification, the Commission shall cease to
-exist with effect from the date specified therein.]`)
-  (str footnotes) (str `1 Subs. by s. 10, ibid., for section 7 (w.e.f. 30-12-1971).
-
-2 Subs. by Act 19 of 1990, s. 3, for certain words (w.e.f. 28-8-1990).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6698&sectionno=7&orderno=11&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6698)
+  sectionNo (7)
+  orderNo 11
+  title `Commission to cease to exist when so notified.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6698&sectionno=7&orderno=11&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_7_content:
+  string
+  line ^1
+  line `[7. Commission to cease to exist when so notified.--(1) The appropriate Government may, by`
+  line `notification in the Official Gazette, declare that--`
+  line
+  line `(a) a Commission (other than a Commission appointed in pursuance of a resolution passed by`
+  line ^2
+  line `[each House of Parliament or, as the case may be, the Legislature of the State] shall cease to`
+  line `exist, if it is of opinion that the continued existence of the Commission is unnecessary;`
+  line
+  line `(b) a Commission appointed in pursuance of a resolution passed by ^2`
+  line `[each House of`
+  line `Parliament or, as the case may be, the Legislature of the State] shall cease to exist if a resolution`
+  line `for the discontinuance of the Commission is passed by ^2`
+  line `[each House of Parliament or, as the case`
+  line `may be, the Legislature of the State].`
+  line
+  line `(2) Every notification issued under sub-section (1) shall specify the date from which the`
+  line `Commission shall cease to exist and on the issue of such notification, the Commission shall cease to`
+  line `exist with effect from the date specified therein.]`
+obj_root_law_sections_7_footnotes:
+  string
+  line `1 Subs. by s. 10, ibid., for section 7 (w.e.f. 30-12-1971).`
+  line
+  line `2 Subs. by Act 19 of 1990, s. 3, for certain words (w.e.f. 28-8-1990).`
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 6699)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 12)
-  (str title) (str `Procedure to be followed by the Commission.`)
-  (str content) (str `The Commission shall, subject to any rules
-that may be made in this behalf, have power to regulate its own procedure (including the fixing of
-places and times of its sittings and deciding whether to sit in public or in private) ^1
-* * *.`)
-  (str footnotes) (str `1. Certain words omitted by Act 79 of 1971, s. 11 (w.e.f. 30-12-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6699&sectionno=8&orderno=12&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6699)
+  sectionNo (8)
+  orderNo 12
+  title `Procedure to be followed by the Commission.`
+  content obj_root_law_sections_8_content
+  footnotes `1. Certain words omitted by Act 79 of 1971, s. 11 (w.e.f. 30-12-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6699&sectionno=8&orderno=12&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_8_content:
+  string
+  line `The Commission shall, subject to any rules`
+  line `that may be made in this behalf, have power to regulate its own procedure (including the fixing of`
+  line `places and times of its sittings and deciding whether to sit in public or in private) ^1`
+  line `* * *.`
 obj_root_law_sections_8_a:
-  object
-  (str sectionId) (str 6700)
-  (str sectionNo) (str 8A)
-  (str orderNo) (int 13)
-  (str title) (str `Inquiry not to be interrupted by reason of vacancy or change in the constitution of the Commission.`)
-  (str content) (str `^1[8A. Inquiry not to be interrupted by reason of vacancy or change in the constitution of the
-Commission.--(1) Where the Commission consists of two or more members, it may act notwithstanding the absence of the Chairman or any other member or any vacancy among its
-members.
-
-(2) Where during the course of an inquiry before a Commission, a change has taken place in the
-constitution of the Commission by reason of any vacancy having been filled or by any other reason, it
-shall not be necessary for the Commission to commence the inquiry a fresh and the inquiry may be
-continued from the stage at which the change took place.`)
-  (str footnotes) (str `1 Ins. by s. 12, ibid (w.e.f. 30-10-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6700&sectionno=8A&orderno=13&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6700)
+  sectionNo 8A
+  orderNo 13
+  title `Inquiry not to be interrupted by reason of vacancy or change in the constitution of the Commission.`
+  content obj_root_law_sections_8_a_content
+  footnotes `1 Ins. by s. 12, ibid (w.e.f. 30-10-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6700&sectionno=8A&orderno=13&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_8_a_content:
+  string
+  line `^1[8A. Inquiry not to be interrupted by reason of vacancy or change in the constitution of the`
+  line `Commission.--(1) Where the Commission consists of two or more members, it may act notwithstanding the absence of the Chairman or any other member or any vacancy among its`
+  line members.
+  line
+  line `(2) Where during the course of an inquiry before a Commission, a change has taken place in the`
+  line `constitution of the Commission by reason of any vacancy having been filled or by any other reason, it`
+  line `shall not be necessary for the Commission to commence the inquiry a fresh and the inquiry may be`
+  line `continued from the stage at which the change took place.`
 obj_root_law_sections_8_b:
-  object
-  (str sectionId) (str 6701)
-  (str sectionNo) (str 8B)
-  (str orderNo) (int 14)
-  (str title) (str `Persons likely to be prejudicially affected to be heard.`)
-  (str content) (str `^1[8B. Persons likely to be prejudicially affected to be heard.--If, at any stage of the inquiry, the
-Commission,--
-
-(a) considers it necessary to inquire into the conduct of any person; or
-
-(b) is of opinion that the reputation of any person is likely to be prejudicially affected by the
-inquiry,
-
-the Commission shall give to that person a reasonable opportunity of being heard in the inquiry and to
-produce evidence in his defence:
-
-Provided that nothing in this section shall apply where the credit of a witness is being impeached.]`)
-  (str footnotes) (str `1 Ins. by s. 12, ibid. (w.e.f. 30-10-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6701&sectionno=8B&orderno=14&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6701)
+  sectionNo 8B
+  orderNo 14
+  title `Persons likely to be prejudicially affected to be heard.`
+  content obj_root_law_sections_8_b_content
+  footnotes `1 Ins. by s. 12, ibid. (w.e.f. 30-10-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6701&sectionno=8B&orderno=14&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_8_b_content:
+  string
+  line `^1[8B. Persons likely to be prejudicially affected to be heard.--If, at any stage of the inquiry, the`
+  line Commission,--
+  line
+  line `(a) considers it necessary to inquire into the conduct of any person; or`
+  line
+  line `(b) is of opinion that the reputation of any person is likely to be prejudicially affected by the`
+  line inquiry,
+  line
+  line `the Commission shall give to that person a reasonable opportunity of being heard in the inquiry and to`
+  line `produce evidence in his defence:`
+  line
+  line `Provided that nothing in this section shall apply where the credit of a witness is being impeached.]`
 obj_root_law_sections_8_c:
-  object
-  (str sectionId) (str 6702)
-  (str sectionNo) (str 8C)
-  (str orderNo) (int 15)
-  (str title) (str `Right of cross-examination and representation by legal practitioner.`)
-  (str content) (str `^1[8C. Right of cross-examination and representation by legal practitioner.--The appropriate
-Government, every person referred to in section 8B and, with the permission of the Commission, any
-other person whose evidence is recorded by the Commission,--
-
-(a) may cross-examine a witness other than a witness produced by it or him;
-
-(b) may address the Commission; and
-
-(c) may be represented before the Commission by a legal practitioner or, with the permission
-of the Commission, by any other person.]`)
-  (str footnotes) (str `1. Ins. by s. 12, ibid. (w.e.f. 30-10-1971).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6702&sectionno=8C&orderno=15&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6702)
+  sectionNo 8C
+  orderNo 15
+  title `Right of cross-examination and representation by legal practitioner.`
+  content obj_root_law_sections_8_c_content
+  footnotes `1. Ins. by s. 12, ibid. (w.e.f. 30-10-1971).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6702&sectionno=8C&orderno=15&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_8_c_content:
+  string
+  line `^1[8C. Right of cross-examination and representation by legal practitioner.--The appropriate`
+  line `Government, every person referred to in section 8B and, with the permission of the Commission, any`
+  line `other person whose evidence is recorded by the Commission,--`
+  line
+  line `(a) may cross-examine a witness other than a witness produced by it or him;`
+  line
+  line `(b) may address the Commission; and`
+  line
+  line `(c) may be represented before the Commission by a legal practitioner or, with the permission`
+  line `of the Commission, by any other person.]`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 6703)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 16)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `No suit or other legal proceeding shall lie against
-the appropriate Government, the Commission or any member thereof, or any person acting under the
-direction either of the appropriate Government or of the Commission in respect of anything which is
-in good faith done or intended to be done in pursuance of this Act or of any rules or orders made
-thereunder or in respect of the publication, by or under the authority of the appropriate Government or
-the Commission, of any report, paper or proceedings.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6703&sectionno=9&orderno=16&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6703)
+  sectionNo (9)
+  orderNo 16
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6703&sectionno=9&orderno=16&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_9_content:
+  string
+  line `No suit or other legal proceeding shall lie against`
+  line `the appropriate Government, the Commission or any member thereof, or any person acting under the`
+  line `direction either of the appropriate Government or of the Commission in respect of anything which is`
+  line `in good faith done or intended to be done in pursuance of this Act or of any rules or orders made`
+  line `thereunder or in respect of the publication, by or under the authority of the appropriate Government or`
+  line `the Commission, of any report, paper or proceedings.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 6704)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 17)
-  (str title) (str `Members, etc., to be public servants.`)
-  (str content) (str `Every member of the Commission and every officer
-appointed or authorised by the Commission in exercise of functions under this Act shall be deemed to
-be a public servant within the meaning of section 21 of the Indian Penal Code (45 of 1860).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6704&sectionno=10&orderno=17&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6704)
+  sectionNo (10)
+  orderNo 17
+  title `Members, etc., to be public servants.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6704&sectionno=10&orderno=17&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_10_content:
+  string
+  line `Every member of the Commission and every officer`
+  line `appointed or authorised by the Commission in exercise of functions under this Act shall be deemed to`
+  line `be a public servant within the meaning of section 21 of the Indian Penal Code (45 of 1860).`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_10_a:
-  object
-  (str sectionId) (str 6705)
-  (str sectionNo) (str 10A)
-  (str orderNo) (int 18)
-  (str title) (str `Penalty for acts calculated to bring the Commission or any member thereof into disrepute.`)
-  (str content) (str `^1
-[10A. Penalty for acts calculated to bring the Commission or any member thereof into
-disrepute.--(1) If any person, by words either spoken or intended to be read, makes or publishes any
-statement or does any other act, which is calculated to bring the Commission or any member thereof
-into disrepute, he shall be punishable with simple imprisonment for a term which may extend to six
-months, or with fine, or with both.
-
-^2
-[(2) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974),
-when an offence under sub-section (1) is alleged to have been committed, the High Court may take
-cognizance of such offence, without the case being committed to it, upon a complaint in writing, made
-by a member of a Commission or an officer of the Commission authorised by it in this behalf.
-
-(3) Every complaint referred to it in sub-section (2) shall set forth the facts which constitute the
-offence alleged, the nature of such offence and such other particulars as are reasonably sufficient to
-give notice to the accused of the offence alleged to have been committed by him.
-
-(4) No High Court shall take cognizance of an offence under sub-section (1) unless the complaint
-is made within six months from the date on which the offence is alleged to have been committed.
-
-(5) A High Court taking cognizance of an offence under sub-section (1) shall try the case in
-accordance with the procedure for the trial of warrant cases instituted otherwise than on a police
-report before a court of a Magistrate:
-
-Provided that the personal attendance of a member of a Commission as a complainant or
-otherwise is not required in such trial.
-
-(6) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974) an
-appeal shall lie as a matter of right from any judgment of the High Court to the Supreme Court, both
-on facts and on law.
-
-(7) Every appeal to the Supreme Court under sub-section (6) shall be preferred within a period of
-thirty days from the date of the judgment appealed from:
-
-Provided that the Supreme Court may entertain an appeal after the expiry of the said period of
-thirty days if it is satisfied that the appellant had sufficient cause for not preferring the appeal within
-the period of thirty days.]]`)
-  (str footnotes) (str `1 Ins. by Act 79 of 1971, s. 13 (w.e.f. 30-12-1971).
-
-2 Subs. by Act 63 of 1988, s. 3, for sub-section (2) (w.e.f. 10-12-1988).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6705&sectionno=10A&orderno=18&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6705)
+  sectionNo 10A
+  orderNo 18
+  title `Penalty for acts calculated to bring the Commission or any member thereof into disrepute.`
+  content obj_root_law_sections_10_a_content
+  footnotes obj_root_law_sections_10_a_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6705&sectionno=10A&orderno=18&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_10_a_content:
+  string
+  line ^1
+  line `[10A. Penalty for acts calculated to bring the Commission or any member thereof into`
+  line `disrepute.--(1) If any person, by words either spoken or intended to be read, makes or publishes any`
+  line `statement or does any other act, which is calculated to bring the Commission or any member thereof`
+  line `into disrepute, he shall be punishable with simple imprisonment for a term which may extend to six`
+  line `months, or with fine, or with both.`
+  line
+  line ^2
+  line `[(2) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974),`
+  line `when an offence under sub-section (1) is alleged to have been committed, the High Court may take`
+  line `cognizance of such offence, without the case being committed to it, upon a complaint in writing, made`
+  line `by a member of a Commission or an officer of the Commission authorised by it in this behalf.`
+  line
+  line `(3) Every complaint referred to it in sub-section (2) shall set forth the facts which constitute the`
+  line `offence alleged, the nature of such offence and such other particulars as are reasonably sufficient to`
+  line `give notice to the accused of the offence alleged to have been committed by him.`
+  line
+  line `(4) No High Court shall take cognizance of an offence under sub-section (1) unless the complaint`
+  line `is made within six months from the date on which the offence is alleged to have been committed.`
+  line
+  line `(5) A High Court taking cognizance of an offence under sub-section (1) shall try the case in`
+  line `accordance with the procedure for the trial of warrant cases instituted otherwise than on a police`
+  line `report before a court of a Magistrate:`
+  line
+  line `Provided that the personal attendance of a member of a Commission as a complainant or`
+  line `otherwise is not required in such trial.`
+  line
+  line `(6) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974) an`
+  line `appeal shall lie as a matter of right from any judgment of the High Court to the Supreme Court, both`
+  line `on facts and on law.`
+  line
+  line `(7) Every appeal to the Supreme Court under sub-section (6) shall be preferred within a period of`
+  line `thirty days from the date of the judgment appealed from:`
+  line
+  line `Provided that the Supreme Court may entertain an appeal after the expiry of the said period of`
+  line `thirty days if it is satisfied that the appellant had sufficient cause for not preferring the appeal within`
+  line `the period of thirty days.]]`
+obj_root_law_sections_10_a_footnotes:
+  string
+  line `1 Ins. by Act 79 of 1971, s. 13 (w.e.f. 30-12-1971).`
+  line
+  line `2 Subs. by Act 63 of 1988, s. 3, for sub-section (2) (w.e.f. 10-12-1988).`
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 6706)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 19)
-  (str title) (str `Act to apply to other inquiring authorities in certain cases.`)
-  (str content) (str `Where any authority (by
-whatever name called), other than a Commission appointed under section 3, has been or is set up
-under any resolution or order of the appropriate Government for the purpose of making an inquiry
-into any definite matter of public importance and that Government is of opinion that all or any of the
-provisions of this Act should be made applicable to that authority, that Government may, subject to
-the prohibition contained in the proviso to sub section (1) of section 3, by notification in the Official
-Gazette, direct that the said provisions of this Act shall apply to that authority, and on the issue of
-such a notification, that authority shall be deemed to be a Commission appointed under section 3 for
-the purposes of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6706&sectionno=11&orderno=19&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6706)
+  sectionNo (11)
+  orderNo 19
+  title `Act to apply to other inquiring authorities in certain cases.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6706&sectionno=11&orderno=19&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_11_content:
+  string
+  line `Where any authority (by`
+  line `whatever name called), other than a Commission appointed under section 3, has been or is set up`
+  line `under any resolution or order of the appropriate Government for the purpose of making an inquiry`
+  line `into any definite matter of public importance and that Government is of opinion that all or any of the`
+  line `provisions of this Act should be made applicable to that authority, that Government may, subject to`
+  line `the prohibition contained in the proviso to sub section (1) of section 3, by notification in the Official`
+  line `Gazette, direct that the said provisions of this Act shall apply to that authority, and on the issue of`
+  line `such a notification, that authority shall be deemed to be a Commission appointed under section 3 for`
+  line `the purposes of this Act.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 6707)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 20)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The appropriate Government may, by notification in the Official
-Gazette, make rules to carry out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the term of office and the conditions of service of the members of the Commission;
-
-(b) the manner in which inquiries may be held under this Act and the procedure to be
-followed by the Commission in respect of the proceedings before it;
-
-(c) the powers of civil court which may be vested in the Commission;
-
-^1
-[(cc) the travelling and other expenses payable to assessors appointed under section 5B, and
-to person summoned by the Commission to give evidence or to produce documents before it;]
-
-(d) any other matter which has to be, or may be, prescribed.
-
-^2
-[(3) Every rule made by the Central Government under this section shall be laid, as soon as may
-be after it is made, before each House of Parliament while it is in session for a total period of thirty
-days which may be comprised in one session or ^3
-[in two or more successive sessions, and if, before
-the expiry of the session immediately following the session or the successive sessions aforesaid], both
-Houses agree in making any modification in the rule or both Houses agree that the rule should not be
-made, the rule shall thereafter have effect only in such modified form or be of no effect, as the case
-may be; so, however, that any such modification or annulment shall be without prejudice to the
-validity of anything previously done under that rule.]
-
-^4
-[(4) Every rule made by the State Government under this section shall be laid, as soon as may be
-after it is made, before the State Legislature.]`)
-  (str footnotes) (str `1. Ins. by Act 63 of 1988, s. 4 (w.e.f. 10-12-1988).
-
-2 .Ins. by Act 79 of 1971, s. 14 (w.e.f. 30-12-1971).
-
-3. Subs. by Act 4 of 1986, s. 2 and the Schedule, for certain words (w.e.f. 15-5-1986).
-
-4. Ins. by s. 2 and the Schedule, ibid. (w.e.f. 15-5-1986).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6707&sectionno=12&orderno=20&orgactid=AC_CEN_5_24_00004_195260_1517807319316)
+  sectionId (6707)
+  sectionNo (12)
+  orderNo 20
+  title `Power to make rules.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_24_00004_195260_1517807319316&sectionId=6707&sectionno=12&orderno=20&orgactid=AC_CEN_5_24_00004_195260_1517807319316
+obj_root_law_sections_12_content:
+  string
+  line `(1) The appropriate Government may, by notification in the Official`
+  line `Gazette, make rules to carry out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the term of office and the conditions of service of the members of the Commission;`
+  line
+  line `(b) the manner in which inquiries may be held under this Act and the procedure to be`
+  line `followed by the Commission in respect of the proceedings before it;`
+  line
+  line `(c) the powers of civil court which may be vested in the Commission;`
+  line
+  line ^1
+  line `[(cc) the travelling and other expenses payable to assessors appointed under section 5B, and`
+  line `to person summoned by the Commission to give evidence or to produce documents before it;]`
+  line
+  line `(d) any other matter which has to be, or may be, prescribed.`
+  line
+  line ^2
+  line `[(3) Every rule made by the Central Government under this section shall be laid, as soon as may`
+  line `be after it is made, before each House of Parliament while it is in session for a total period of thirty`
+  line `days which may be comprised in one session or ^3`
+  line `[in two or more successive sessions, and if, before`
+  line `the expiry of the session immediately following the session or the successive sessions aforesaid], both`
+  line `Houses agree in making any modification in the rule or both Houses agree that the rule should not be`
+  line `made, the rule shall thereafter have effect only in such modified form or be of no effect, as the case`
+  line `may be; so, however, that any such modification or annulment shall be without prejudice to the`
+  line `validity of anything previously done under that rule.]`
+  line
+  line ^4
+  line `[(4) Every rule made by the State Government under this section shall be laid, as soon as may be`
+  line `after it is made, before the State Legislature.]`
+obj_root_law_sections_12_footnotes:
+  string
+  line `1. Ins. by Act 63 of 1988, s. 4 (w.e.f. 10-12-1988).`
+  line
+  line `2 .Ins. by Act 79 of 1971, s. 14 (w.e.f. 30-12-1971).`
+  line
+  line `3. Subs. by Act 4 of 1986, s. 2 and the Schedule, for certain words (w.e.f. 15-5-1986).`
+  line
+  line `4. Ins. by s. 2 and the Schedule, ibid. (w.e.f. 15-5-1986).`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `जांच आयोग अधिनियम, 1952`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1508/2/H1952-60.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:27:11.028Z`)
-  (str pageCount) (int 7)
-  (str sections) obj_root_law_translations_hi_sections
+  title `जांच आयोग अधिनियम, 1952`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1508/2/H1952-60.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:27:11.028Z`
+  pageCount 7
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -607,329 +669,364 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_6
   obj_root_law_translations_hi_sections_7
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `जांच आयोग अिधिनयम, 1952
-( 1952 का अिधिनयम सं ᭎ यां क 60 )
-धारा Ა का ᮓ म
-_________
-धाराएं
-अ ᭟ याय 1
-ᮧ ारंिभक
-1. संि ᭃ᭡ त नाम, िव ᭭ तार और ᮧ ारंभ।
-2. प ᳯ रभाषाएं।
-2 क. जो िविधयां ज ᭥ मू - क ᭫ मीर रा ᭔ य म ᱶ ᮧ वृ ᱫ नह ᱭ ह ᱹ उनके ᮧ ित िनद ᱷ श ᲂ का अथा ᭅ ᭠ वयन।
-3. आयोग क ᳱ िनयुि ᭍ त।
-4. आयोग क ᳱ शि ᭍ तयां।
-5. आयोग क ᳱ अित ᳯ र ᭍ त शि ᭍ तयां।
-5 क. जांच से संबंिधत अ ᭠ वेषण करने के िलए कितपय अिधका ᳯ रय ᲂ और अ ᭠ वे षण अिभकरण ᲂ क ᳱ सेवा Ა का उपयोग करने
-क ᳱ आयोग क ᳱ शि ᭍ त।
-5 ख. असेसर िनयु ᭍ त करने क ᳱ आयोग क ᳱ शि ᭍ त।
-6. आयोग के सम ᭃ ᭪ यि ᭍ तय ᲂ ᳇ ारा ᳰ कए गए कथन।
-6 क. माल के िविनमा ᭅ ण क ᳱ गु ᭡ त ᮧᳰᮓ या को ᮧ कट करने के िलए ᭪ यि ᭍ तय ᲂ का कितपय मामल ᲂ म ᱶ बा ᭟ य न होना।
-7. आयोग का अि ᭭ त ᭜ वहीन हो जाना जब वैसा अिधसूिचत कर ᳰ दया जाए।
-8. आयोग ᳇ ारा अनुसरणीय ᮧᳰᮓ या।
-8 क. आयोग म ᱶ कोई ᳯ रि ᭍ त या उसके गठन म ᱶ प ᳯ रव ᭅ तन होने के कारण जांच म ᱶ कोई िव ᭐ न न पड़ना।
-8 ख. उन ᭪ यि ᭍ तय ᲂ क ᳱ सुनवाई िजन पर ᮧ ितकूल ᮧ भाव पड़ना स ᭥ भा ᭪ य हो।
-8 ग. ᮧ ितपरी ᭃ ा और िविध ᭪ यवसायी ᳇ ारा ᮧ ितिनिध ᭜ व का अिधकार।
-9. सद् भावपू व ᭅ क क ᳱ गई कार ᭅ वाई का प ᳯ र ᮢ ाण।
-10. सद ᭭ य ᲂ आ ᳰ द का लोक सेवक होना।
-10 क. आयोग या उसके ᳰ कसी सद ᭭ य क ᳱ बदनामी करने के िलए ᮧ कि ᭨ पत काय ᲄ के िलए शाि ᭭ त।
-11. कितपय प ᳯ र ᭭ थितय ᲂ म ᱶ अिधिनयम का अ ᭠ य जांच ᮧ ािधकारण ᲂ को लागू होना।
-12. िनयम बनाने क ᳱ शि ᭍ त।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `जांच आयोग अिधिनयम, 1952`
+  line `( 1952 का अिधिनयम सं ᭎ यां क 60 )`
+  line `धारा Ა का ᮓ म`
+  line _________
+  line धाराएं
+  line `अ ᭟ याय 1`
+  line `ᮧ ारंिभक`
+  line `1. संि ᭃ᭡ त नाम, िव ᭭ तार और ᮧ ारंभ।`
+  line `2. प ᳯ रभाषाएं।`
+  line `2 क. जो िविधयां ज ᭥ मू - क ᭫ मीर रा ᭔ य म ᱶ ᮧ वृ ᱫ नह ᱭ ह ᱹ उनके ᮧ ित िनद ᱷ श ᲂ का अथा ᭅ ᭠ वयन।`
+  line `3. आयोग क ᳱ िनयुि ᭍ त।`
+  line `4. आयोग क ᳱ शि ᭍ तयां।`
+  line `5. आयोग क ᳱ अित ᳯ र ᭍ त शि ᭍ तयां।`
+  line `5 क. जांच से संबंिधत अ ᭠ वेषण करने के िलए कितपय अिधका ᳯ रय ᲂ और अ ᭠ वे षण अिभकरण ᲂ क ᳱ सेवा Ა का उपयोग करने`
+  line `क ᳱ आयोग क ᳱ शि ᭍ त।`
+  line `5 ख. असेसर िनयु ᭍ त करने क ᳱ आयोग क ᳱ शि ᭍ त।`
+  line `6. आयोग के सम ᭃ ᭪ यि ᭍ तय ᲂ ᳇ ारा ᳰ कए गए कथन।`
+  line `6 क. माल के िविनमा ᭅ ण क ᳱ गु ᭡ त ᮧᳰᮓ या को ᮧ कट करने के िलए ᭪ यि ᭍ तय ᲂ का कितपय मामल ᲂ म ᱶ बा ᭟ य न होना।`
+  line `7. आयोग का अि ᭭ त ᭜ वहीन हो जाना जब वैसा अिधसूिचत कर ᳰ दया जाए।`
+  line `8. आयोग ᳇ ारा अनुसरणीय ᮧᳰᮓ या।`
+  line `8 क. आयोग म ᱶ कोई ᳯ रि ᭍ त या उसके गठन म ᱶ प ᳯ रव ᭅ तन होने के कारण जांच म ᱶ कोई िव ᭐ न न पड़ना।`
+  line `8 ख. उन ᭪ यि ᭍ तय ᲂ क ᳱ सुनवाई िजन पर ᮧ ितकूल ᮧ भाव पड़ना स ᭥ भा ᭪ य हो।`
+  line `8 ग. ᮧ ितपरी ᭃ ा और िविध ᭪ यवसायी ᳇ ारा ᮧ ितिनिध ᭜ व का अिधकार।`
+  line `9. सद् भावपू व ᭅ क क ᳱ गई कार ᭅ वाई का प ᳯ र ᮢ ाण।`
+  line `10. सद ᭭ य ᲂ आ ᳰ द का लोक सेवक होना।`
+  line `10 क. आयोग या उसके ᳰ कसी सद ᭭ य क ᳱ बदनामी करने के िलए ᮧ कि ᭨ पत काय ᲄ के िलए शाि ᭭ त।`
+  line `11. कितपय प ᳯ र ᭭ थितय ᲂ म ᱶ अिधिनयम का अ ᭠ य जांच ᮧ ािधकारण ᲂ को लागू होना।`
+  line `12. िनयम बनाने क ᳱ शि ᭍ त।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `जां च आयोग अिधिनयम, 1952
-( 1952 का अिधिनयम सं ᭎ यां क 60 ) 1
-[14 अग ᭭ त, 1952]
-जांच आयोग ᲂ क ᳱ िनयुि ᭍ त के िलए तथा ऐसे आयोग ᲂ म ᱶ
-कितपय शि ᭍ तयां िनिहत करने के िलए
-उपब ᭠ ध बनाने के िलए
-अिधिनयम
-संसद् ᳇ ारा िन ᭥ निलिखत ᱨ प म ᱶ यह अिधिनयिमत हो: —
-1. संि ᭃ᭡ त नाम, िव ᭭ तार और ᮧ ार ᭥ भ  (1 ) यह अिधिनयम जांच आयोग अिधिनयम, 1952 कहा जा सकेगा।
-2 [ ( 2 ) इसका िव ᭭ तार स ᭥ पू ण ᭅ भारत पर है:
-3 * * * * * * *]
-( 3 ) यह उस तारीख 4 को ᮧ वृ ᱫ होगा, िजसे के ᭠ ᮤ ीय सरकार, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनयत करे।
-2. प ᳯ रभाषाएं — इस अिधिनयम म ᱶ जब तक ᳰ क संदभ ᭅ से अ ᭠ था अपेि ᭃ त न हो, 
-(क) “ समुिचत सरकार ” से अिभ ᮧ े त है —
-( i ) संिवधान क ᳱ स ᭡ तम अनुसूची क ᳱ सूची 1 या सूची 2 या सूची 3 म ᱶ ᮧ गिणत ᮧ िवि ᭬ टय ᲂ म ᱶ से ᳰ कसी से
-स ᭥ ब ᭠ ध यो ᭏ य ᳰ कसी िवषय क ᳱ बाबत जांच करने के िलए के ᭠ ᮤ ीय सरकार ᳇ ारा िनयु ᭍ त आयोग के स ᭥ ब ᭠ ध म ᱶ,
-के ᭠ ᮤ ीय सरकार; और
-( ii) संिवधान क ᳱ स ᭡ तम अनुसूची क ᳱ सूची 2 या सूची 3 म ᱶ ᮧ गिणत ᮧ िवि ᭬ टय ᲂ म ᱶ से ᳰ कसी से स ᭥ ब ᭠ ध
-यो ᭏ य ᳰ कसी िवषय के बारे म ᱶ जांच करने के िलए रा ᭔ य सरकार ᳇ ारा िनयु ᭍ त आयोग के स ᭥ ब ᭠ ध म ᱶ, रा ᭔ य
-सरकार:
-5 * * * * * *
-(ख) “ आयोग ” से धारा 3 के अधीन िनयु ᭍ त जांच आयोग अिभ ᮧ े त है;
-(ग) “ िविहत ” से इस अिधिनयम के अधीन बनाए गए िनयम ᲂ ᳇ ारा िविहत अिभ ᮧ े त है।
-6 [ 2 क. जो िविधयां ज ᭥ मू - क ᭫ मीर रा ᭔ य म ᱶ ᮧ वृ ᱫ नह ᱭ ह ᱹ उनके ᮧ ित िनद ᱷ श ᲂ का अथा ᭅ ᭠ वयन  इस अिधिनयम म ᱶ ऐसी ᳰ कसी
-िविध के ᮧ ित, जो ज ᭥ मू - क ᭫ मीर रा ᭔ य म ᱶ ᮧ वृ ᱫ नह ᱭ है, ᳰ कसी िनद ᱷ श का उस रा ᭔ य के स ᭥ ब ᭠ ध म ᱶ यह अथ ᭅ लगाया जाएगा ᳰ क वह उस
-रा ᭔ य म ᱶ लागू त ᭜ ᭭ थानी िविध के, य ᳰ द कोई हो, ᮧ ित िनद ᱷ श है। ]
-3. आयोग क ᳱ िनयुि ᭍ त — ( 1 ) 7 [ जैसा लोकपाल और लोकायु ᭍ त अिधिनयम, 2013 (2014 का 1) म ᱶ अ ᭠ यथा उपबंिधत है
-उसके िसवाय, समुिचत सरकार ] राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, एक आयोग क ᳱ िनयुि ᭍ त, साव ᭅ जिनक मह ᭜ व के ᳰ कसी िनि ᭫ चत मामले
-क ᳱ जांच करने तथा ऐसे कृ ᭜ य ᲂ को, और इतने समय के अंदर, जो अिधसूचना म ᱶ िविन ᳸ द ᭬ ट हो, करने के ᮧ योजन के िलए उस दशा म ᱶ,
-िजसम ᱶ उसक ᳱ यह राय है ᳰ क वैसा करना आव ᭫ यक है, कर सकेगी और उस दशा म ᱶ िजसम ᱶ 8 [ यथाि ᭭ थित, संसद् के ᮧ᭜ येक सदन या
-1 इस अिधिनयम का िव ᭭ तार, 1962 के िविनयम सं ० 12 क ᳱ धारा 3 और अनुसूची ᳇ ारा गोवा, दमन और दीव पर, 1963 के िविनयम सं ० 6 क ᳱ धारा 2 और अनुसूची 1
-᳇ ारा ( 1-7-1965 से ) दादरा और नागर हवेली पर तथा 1963 के िविनयम सं ० 7 क ᳱ धारा 3 और अनुसूची 1 ᳇ ारा ( 1-10-1963 से ) पांिडचेरी पर ᳰ कया गया है।
-2 1971 के अिधिनयम सं ० 79 क ᳱ धारा 2 ᳇ ारा (2) के ᭭ थान पर ᮧ ित ᭭ थािपत।
-3 2019 के अिधिनयम सं ० 34 क ᳱ धारा 95 और पांचवी अनुसूची ᳇ ारा (31-10-2019 से ) “ परंतु ” श ᭣ द का लोप ᳰ कया गया।
-4 1 अ ᭍ तू बर, 1952, देिखए अिधसूचना सं ० सा०का० िन० 1670, तारीख 30 िसत ᭥ बर, 1952, भारत का राजप ᮢ, असाधारण, भाग 2, अनुभाग 3, पृ ᭬ ठ 861। 1971
-के अिधिनयम सं ० 79 ᳇ ारा यथा संशोिधत यह अिधिनयम 6-3-1972 को ज ᭥ मू - क ᭫ मीर रा ᭔ य म ᱶ और 15-2-1972 को नागाल ᱹ ड रा ᭔ य के कोिहमा और मोकोकचुंग
-िजल ᲂ म ᱶ ᮧ वृ ᱫ ᱟ आ था - देिखए 1971 के अिधिनयम सं ० 79 क ᳱ धारा 15 के अधीन ᮓ मश: जारी क ᳱ गई अिधसूचना सं ० 94( अ ), तारीख 4-3-1972 और अिधसूचना
-सं ० 74 (अ) तारीख 14-2-1972।
-5 ज ᭥ मू - क ᭫ मीर पुनग ᭅ ठन (क ᱶᮤ ीय िविधय ᲂ का अनुकूलन) आदेश, 2020 अिधसूचना सं ० का०आ० 1123 (अ), तारीख 18 माच ᭅ, 2020 और ल ᳎ ाख पुनग ᭅ ठन (क ᱶᮤ ीय
-िविधय ᲂ का अनुकूलन) आदेश, 2020 अिधसूचना सं ० का०आ० 3774 (अ), तारीख 23 अ ᭍ टूबर, 2020 ᳇ ारा परंतुक का लोप ᳰ कया गया।
-6 1971 के अिधिनधयम सं ० 79 क ᳱ धारा 4 ᳇ ारा अ ᭠ त: ᭭ थािपत।
-7 2014 के अिधिनधयम सं ० 1 क ᳱ धारा 58 और अनुसूची ᳇ ारा ᮧ ित ᭭ थािपत।
-8 1990 के अिधिनयम सं ० 19 क ᳱ धारा 2 ᳇ ारा कितपय श ᭣ द ᲂ के ᭭ थान पर ᮧ ित ᭭ थािपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line `जां च आयोग अिधिनयम, 1952`
+  line `( 1952 का अिधिनयम सं ᭎ यां क 60 ) 1`
+  line `[14 अग ᭭ त, 1952]`
+  line `जांच आयोग ᲂ क ᳱ िनयुि ᭍ त के िलए तथा ऐसे आयोग ᲂ म ᱶ`
+  line `कितपय शि ᭍ तयां िनिहत करने के िलए`
+  line `उपब ᭠ ध बनाने के िलए`
+  line अिधिनयम
+  line `संसद् ᳇ ारा िन ᭥ निलिखत ᱨ प म ᱶ यह अिधिनयिमत हो: —`
+  line `1. संि ᭃ᭡ त नाम, िव ᭭ तार और ᮧ ार ᭥ भ  (1 ) यह अिधिनयम जांच आयोग अिधिनयम, 1952 कहा जा सकेगा।`
+  line `2 [ ( 2 ) इसका िव ᭭ तार स ᭥ पू ण ᭅ भारत पर है:`
+  line `3 * * * * * * *]`
+  line `( 3 ) यह उस तारीख 4 को ᮧ वृ ᱫ होगा, िजसे के ᭠ ᮤ ीय सरकार, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनयत करे।`
+  line `2. प ᳯ रभाषाएं — इस अिधिनयम म ᱶ जब तक ᳰ क संदभ ᭅ से अ ᭠ था अपेि ᭃ त न हो, `
+  line `(क) “ समुिचत सरकार ” से अिभ ᮧ े त है —`
+  line `( i ) संिवधान क ᳱ स ᭡ तम अनुसूची क ᳱ सूची 1 या सूची 2 या सूची 3 म ᱶ ᮧ गिणत ᮧ िवि ᭬ टय ᲂ म ᱶ से ᳰ कसी से`
+  line `स ᭥ ब ᭠ ध यो ᭏ य ᳰ कसी िवषय क ᳱ बाबत जांच करने के िलए के ᭠ ᮤ ीय सरकार ᳇ ारा िनयु ᭍ त आयोग के स ᭥ ब ᭠ ध म ᱶ,`
+  line `के ᭠ ᮤ ीय सरकार; और`
+  line `( ii) संिवधान क ᳱ स ᭡ तम अनुसूची क ᳱ सूची 2 या सूची 3 म ᱶ ᮧ गिणत ᮧ िवि ᭬ टय ᲂ म ᱶ से ᳰ कसी से स ᭥ ब ᭠ ध`
+  line `यो ᭏ य ᳰ कसी िवषय के बारे म ᱶ जांच करने के िलए रा ᭔ य सरकार ᳇ ारा िनयु ᭍ त आयोग के स ᭥ ब ᭠ ध म ᱶ, रा ᭔ य`
+  line `सरकार:`
+  line `5 * * * * * *`
+  line `(ख) “ आयोग ” से धारा 3 के अधीन िनयु ᭍ त जांच आयोग अिभ ᮧ े त है;`
+  line `(ग) “ िविहत ” से इस अिधिनयम के अधीन बनाए गए िनयम ᲂ ᳇ ारा िविहत अिभ ᮧ े त है।`
+  line `6 [ 2 क. जो िविधयां ज ᭥ मू - क ᭫ मीर रा ᭔ य म ᱶ ᮧ वृ ᱫ नह ᱭ ह ᱹ उनके ᮧ ित िनद ᱷ श ᲂ का अथा ᭅ ᭠ वयन  इस अिधिनयम म ᱶ ऐसी ᳰ कसी`
+  line `िविध के ᮧ ित, जो ज ᭥ मू - क ᭫ मीर रा ᭔ य म ᱶ ᮧ वृ ᱫ नह ᱭ है, ᳰ कसी िनद ᱷ श का उस रा ᭔ य के स ᭥ ब ᭠ ध म ᱶ यह अथ ᭅ लगाया जाएगा ᳰ क वह उस`
+  line `रा ᭔ य म ᱶ लागू त ᭜ ᭭ थानी िविध के, य ᳰ द कोई हो, ᮧ ित िनद ᱷ श है। ]`
+  line `3. आयोग क ᳱ िनयुि ᭍ त — ( 1 ) 7 [ जैसा लोकपाल और लोकायु ᭍ त अिधिनयम, 2013 (2014 का 1) म ᱶ अ ᭠ यथा उपबंिधत है`
+  line `उसके िसवाय, समुिचत सरकार ] राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, एक आयोग क ᳱ िनयुि ᭍ त, साव ᭅ जिनक मह ᭜ व के ᳰ कसी िनि ᭫ चत मामले`
+  line `क ᳱ जांच करने तथा ऐसे कृ ᭜ य ᲂ को, और इतने समय के अंदर, जो अिधसूचना म ᱶ िविन ᳸ द ᭬ ट हो, करने के ᮧ योजन के िलए उस दशा म ᱶ,`
+  line `िजसम ᱶ उसक ᳱ यह राय है ᳰ क वैसा करना आव ᭫ यक है, कर सकेगी और उस दशा म ᱶ िजसम ᱶ 8 [ यथाि ᭭ थित, संसद् के ᮧ᭜ येक सदन या`
+  line `1 इस अिधिनयम का िव ᭭ तार, 1962 के िविनयम सं ० 12 क ᳱ धारा 3 और अनुसूची ᳇ ारा गोवा, दमन और दीव पर, 1963 के िविनयम सं ० 6 क ᳱ धारा 2 और अनुसूची 1`
+  line `᳇ ारा ( 1-7-1965 से ) दादरा और नागर हवेली पर तथा 1963 के िविनयम सं ० 7 क ᳱ धारा 3 और अनुसूची 1 ᳇ ारा ( 1-10-1963 से ) पांिडचेरी पर ᳰ कया गया है।`
+  line `2 1971 के अिधिनयम सं ० 79 क ᳱ धारा 2 ᳇ ारा (2) के ᭭ थान पर ᮧ ित ᭭ थािपत।`
+  line `3 2019 के अिधिनयम सं ० 34 क ᳱ धारा 95 और पांचवी अनुसूची ᳇ ारा (31-10-2019 से ) “ परंतु ” श ᭣ द का लोप ᳰ कया गया।`
+  line `4 1 अ ᭍ तू बर, 1952, देिखए अिधसूचना सं ० सा०का० िन० 1670, तारीख 30 िसत ᭥ बर, 1952, भारत का राजप ᮢ, असाधारण, भाग 2, अनुभाग 3, पृ ᭬ ठ 861। 1971`
+  line `के अिधिनयम सं ० 79 ᳇ ारा यथा संशोिधत यह अिधिनयम 6-3-1972 को ज ᭥ मू - क ᭫ मीर रा ᭔ य म ᱶ और 15-2-1972 को नागाल ᱹ ड रा ᭔ य के कोिहमा और मोकोकचुंग`
+  line `िजल ᲂ म ᱶ ᮧ वृ ᱫ ᱟ आ था - देिखए 1971 के अिधिनयम सं ० 79 क ᳱ धारा 15 के अधीन ᮓ मश: जारी क ᳱ गई अिधसूचना सं ० 94( अ ), तारीख 4-3-1972 और अिधसूचना`
+  line `सं ० 74 (अ) तारीख 14-2-1972।`
+  line `5 ज ᭥ मू - क ᭫ मीर पुनग ᭅ ठन (क ᱶᮤ ीय िविधय ᲂ का अनुकूलन) आदेश, 2020 अिधसूचना सं ० का०आ० 1123 (अ), तारीख 18 माच ᭅ, 2020 और ल ᳎ ाख पुनग ᭅ ठन (क ᱶᮤ ीय`
+  line `िविधय ᲂ का अनुकूलन) आदेश, 2020 अिधसूचना सं ० का०आ० 3774 (अ), तारीख 23 अ ᭍ टूबर, 2020 ᳇ ारा परंतुक का लोप ᳰ कया गया।`
+  line `6 1971 के अिधिनधयम सं ० 79 क ᳱ धारा 4 ᳇ ारा अ ᭠ त: ᭭ थािपत।`
+  line `7 2014 के अिधिनधयम सं ० 1 क ᳱ धारा 58 और अनुसूची ᳇ ारा ᮧ ित ᭭ थािपत।`
+  line `8 1990 के अिधिनयम सं ० 19 क ᳱ धारा 2 ᳇ ारा कितपय श ᭣ द ᲂ के ᭭ थान पर ᮧ ित ᭭ थािपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `2
-रा ᭔ य क ᱶ िवधान - मंडल ] ᳇ ारा इस िनिम ᱫ संक ᭨ प पा ᳯ रत ᳰ कया जाए, करेगी और ऐसे िनयु ᭍ त आयोग तदनुसार जांच करेगा और कृ ᭜ य ᲂ
-का पालन करेगा:
-पर ᭠ तु जहां ᳰ कसी मामले क ᳱ जांच के िलए ऐसे आयोग क ᳱ िनयुि ᭍ त 
-(क) के ᭠ ᮤ ीय सरकार ᳇ ारा क ᳱ गई है, वहां उसी मामले क ᳱ जांच के िलए दूसरे आयोग क ᳱ िनयुि ᭍ त के ᭠ ᮤ ीय सरकार
-के अनुमोदन के िबना कोई भी रा ᭔ य सरकार तब तक नह ᱭ करेगी जब तक के ᭠ ᮤ ीय सरकार ᳇ ारा िनयु ᭍ त आयोग काय ᭅ कर
-रहा हो;
-(ख) ᳰ कसी रा ᭔ य सरकार ᳇ ारा क ᳱ गई है, वहां उसी मामले क ᳱ जांच के िलए दू सरे आयोग क ᳱ िनयुि ᭍ त के ᭠ ᮤ ीय
-सरकार तब तक जब तक ᳰ क रा ᭔ य सरकार ᳇ ारा िनयु ᭍ त आयोग काय ᭅ कर रहा हो, उस दशा के िसवाय नह ᱭ करेगी िजसम ᱶ
-के ᭠ ᮤ ीय सरकार क ᳱ राय है ᳰ क जांच क ᳱ प ᳯ रिध दो या अिधक रा ᭔ य ᲂ तक िव ᭭ ता ᳯ रत कर दी जानी चािहए।
-( 2 ) आयोग म ᱶ समुिचत सरकार ᳇ ारा िनयु ᭍ त एक या अिधक सद ᭭ य हो सक ᱶ गे और जहां आयोग म ᱶ एक से अिधक सद ᭭ य ह ᲂ,
-वहां उनम ᱶ से एक उनका अ ᭟ य ᭃ िनयु ᭍ त ᳰ कया जा सकेगा।
-1 [(3) आयोग ᳇ ारा जांच के ᳰ कसी भी ᮧᮓ म म ᱶ, समुिचत सरकार, ᳰ कसी ऐसी ᳯ रि ᭍ त को भर सकेगी जो आयोग के ᳰ कसी
-सद ᭭ य के पद म ᱶ ᱟ ई हो (चाहे आयोग म ᱶ एक सद ᭭ य हो या उससे अिधक)।
-( 4 ) समुिचत सरकार, 2 [ यथाि ᭭ थित, संसद् के ᮧ᭜ येक सदन या रा ᭔ य के िवधान - मंडल ] के सम ᭃ, उपधारा ( 1 ) के अधीन
-आयोग ᳇ ारा क ᳱ गई जांच पर आयोग क ᳱ ᳯ रपोट ᭅ, य ᳰ द कोई हो, उस पर क ᳱ गई काय ᭅ वाही के ᭄ ापन सिहत, आयोग ᳇ ारा समुिचत
-सरकार को ᳯ रपोट ᭅ के ᮧ᭭ तु त ᳰ कए जाने से छह मास क ᳱ कालाविध के अंदर, रखवाएगी। ]
-2 * * * * *
-4. आयोग क ᳱ शि ᭍ तयां  िन ᭥ निलिखत बात ᲂ के बारे म ᱶ, आयोग को वे शि ᭍ तयां ᮧ ा ᭡ त ह ᲂ गी, जो िसिवल ᮧᳰᮓ या संिहता,
-1908 ( 1908 का 5 ) के अधीन वाद का िवचारण करते समय िसिवल ᭠ यायालय को ᮧ ा ᭡ त होती ह ᱹ, अथा ᭅ त्: 
-(क) 3 [ भारत के ᳰ कसी भाग से ᳰ कसी ᭪ यि ᭍ त को समन करना और हािजर कराना ] तथा शपथ पर उसक ᳱ
-परी ᭃ ा करना;
-(ख) ᳰ कसी द ᭭ तावेज को ᮧ कट ओर पेश करने क ᳱ अपे ᭃ ा करना;
-(ग) शपथप ᮢ ᲂ पर सा ᭯ य ᮕ हण करना;
-(घ) ᳰ कसी ᭠ यायालय या काया ᭅ लय से कोई लोक - अिभलेख या उसक ᳱ ᮧ ितिलिप अपेि ᭃ त करना;
-(ङ) साि ᭃ य ᲂ या द ᭭ तावेज ᲂ क ᳱ परी ᭃ ा के िलए कमीशन िनकालना;
-(च) कोई अ ᭠ य िवषय जो िविहत ᳰ कया जाए।
-5. आयोग क ᳱ अित ᳯ र ᭍ त शि ᭍ तयां  (1 ) जहां समुिचत सरकार क ᳱ यह राय है ᳰ क क ᳱ जाने वाली जांच के ᭭ व ᱨ प और मामले
-क ᳱ अ ᭠ य प ᳯ रि ᭭ थितय ᲂ को ᭟ यान म ᱶ रखते ᱟ ए आयोग को उपधारा ( 2 ) या उपधारा ( 3 ) या उपधारा ( 4 ) या उपधारा ( 5 ) के उपब ᭠ ध ᲂ म ᱶ
-से कोई लागू ᳰ कए जाने चािहएं, वहां समुिचत सरकार, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनदेश दे सकेगी ᳰ क उ ᭍ त सब उपब ᭠ ध या उनम ᱶ
-से ऐसे जो अिधसूचना म ᱶ िविन ᳸ द ᭬ ट ᳰ कए जाएं, उस आयोग को लागू ह ᲂ गे और ऐसी अिधसूचना के जारी ᳰ कए जाने पर उ ᭍ त उपब ᭠ ध
-तदनुसार लागू ह ᲂ गे।
-( 2 ) आयोग को ᳰ कसी ᭪ यि ᭍ त से, ᳰ कसी ऐसे िवशेषािधकार के अ ᭟ यधीन, िजसका उस ᭪ यि ᭍ त ᳇ ारा त ᭜ समय ᮧ वृ ᱫ ᳰ कसी
-िविध के अधीन दावा ᳰ कया जाए, ऐसी बात ᲂ या िवषय ᲂ पर जानकारी देने क ᳱ अपे ᭃ ा करने क ᳱ शि ᭍ त होगी, जो आयोग क ᳱ राय म ᱶ
-जांच क ᳱ िवषय - व ᭭ तु के िलए उपयोगी या उससे सुसंगत ह ᲂ 4 [ और िजस ᭪ यि ᭍ त से ऐसी अपे ᭃ ा क ᳱ जाए वह भारतीय द ᭛ ड संिहता
-( 1860 का 45) क ᳱ धारा 176 और धारा 177 के अथ ᭅ म ᱶ ऐसी जानकारी देने के िलए वैध ᱨ प से आब ᳍ समझा जाएगा। ]
-( 3) आयोग या राजपि ᮢ त अिधकारी क ᳱ पंि ᭍ त से नीचे न होने वाला कोई अिधकारी, जो आयोग ᳇ ारा इस िनिम ᱫ
-िवशेषतया ᮧ ािधकृत ᳰ कया जाए, द ᭛ ड ᮧᳰᮓ या संिहता, 1898 ( 1898 का 5 ) क ᳱ धारा 102 और धारा 103 के उपब ᭠ ध ᲂ के, जहां तक वे
-लागू ह ᲂ, अ ᭟ यधीन ᳰ कसी ऐसे भवन या ᭭ थान म ᱶ, िजसक ᳱ बाबत आयोग के पास यह िव ᭫ वास करने का कारण है ᳰ क जांच क ᳱ िवषय -
-व ᭭ तु से संबंिधत कोई लेखा - बिहयां या अ ᭠ य द ᭭ तावेज वहां पाए जा सकते ह ᱹ, ᮧ वेश कर सकेगा और ᳰ क ᭠ ह ᱭ ऐसी लेखा - बिहय ᲂ या
-द ᭭ तावेज ᲂ को अिभगृहीत कर सकेगा अथवा उनसे उ ᳍ रण या उनक ᳱ ᮧ ितिलिपयां ले सकेगा।
-1 1971 के अिधिनयम सं ० 79 क ᳱ धारा 5 ᳇ ारा अ ᭠ त: ᭭ थािपत।
-2 1990 के अिधिनयम सं ० 19 क ᳱ धारा 2 ᳇ ारा उपधारा ( 5 ) और उपधारा ( 6 ) का लोप ᳰ कया गया।
-3 1971 के अिधिनयम सं ० 79 क ᳱ धारा 6 ᳇ ारा कितपय श ᭣ द ᲂ के ᭭ थान पर ᮧ ित ᭭ थािपत।
-4 1971 के अिधिनयम सं ० 79 क ᳱ धारा 7 ᳇ ारा अ ᭠ त: ᭭ थािपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 2
+  line `रा ᭔ य क ᱶ िवधान - मंडल ] ᳇ ारा इस िनिम ᱫ संक ᭨ प पा ᳯ रत ᳰ कया जाए, करेगी और ऐसे िनयु ᭍ त आयोग तदनुसार जांच करेगा और कृ ᭜ य ᲂ`
+  line `का पालन करेगा:`
+  line `पर ᭠ तु जहां ᳰ कसी मामले क ᳱ जांच के िलए ऐसे आयोग क ᳱ िनयुि ᭍ त `
+  line `(क) के ᭠ ᮤ ीय सरकार ᳇ ारा क ᳱ गई है, वहां उसी मामले क ᳱ जांच के िलए दूसरे आयोग क ᳱ िनयुि ᭍ त के ᭠ ᮤ ीय सरकार`
+  line `के अनुमोदन के िबना कोई भी रा ᭔ य सरकार तब तक नह ᱭ करेगी जब तक के ᭠ ᮤ ीय सरकार ᳇ ारा िनयु ᭍ त आयोग काय ᭅ कर`
+  line `रहा हो;`
+  line `(ख) ᳰ कसी रा ᭔ य सरकार ᳇ ारा क ᳱ गई है, वहां उसी मामले क ᳱ जांच के िलए दू सरे आयोग क ᳱ िनयुि ᭍ त के ᭠ ᮤ ीय`
+  line `सरकार तब तक जब तक ᳰ क रा ᭔ य सरकार ᳇ ारा िनयु ᭍ त आयोग काय ᭅ कर रहा हो, उस दशा के िसवाय नह ᱭ करेगी िजसम ᱶ`
+  line `के ᭠ ᮤ ीय सरकार क ᳱ राय है ᳰ क जांच क ᳱ प ᳯ रिध दो या अिधक रा ᭔ य ᲂ तक िव ᭭ ता ᳯ रत कर दी जानी चािहए।`
+  line `( 2 ) आयोग म ᱶ समुिचत सरकार ᳇ ारा िनयु ᭍ त एक या अिधक सद ᭭ य हो सक ᱶ गे और जहां आयोग म ᱶ एक से अिधक सद ᭭ य ह ᲂ,`
+  line `वहां उनम ᱶ से एक उनका अ ᭟ य ᭃ िनयु ᭍ त ᳰ कया जा सकेगा।`
+  line `1 [(3) आयोग ᳇ ारा जांच के ᳰ कसी भी ᮧᮓ म म ᱶ, समुिचत सरकार, ᳰ कसी ऐसी ᳯ रि ᭍ त को भर सकेगी जो आयोग के ᳰ कसी`
+  line `सद ᭭ य के पद म ᱶ ᱟ ई हो (चाहे आयोग म ᱶ एक सद ᭭ य हो या उससे अिधक)।`
+  line `( 4 ) समुिचत सरकार, 2 [ यथाि ᭭ थित, संसद् के ᮧ᭜ येक सदन या रा ᭔ य के िवधान - मंडल ] के सम ᭃ, उपधारा ( 1 ) के अधीन`
+  line `आयोग ᳇ ारा क ᳱ गई जांच पर आयोग क ᳱ ᳯ रपोट ᭅ, य ᳰ द कोई हो, उस पर क ᳱ गई काय ᭅ वाही के ᭄ ापन सिहत, आयोग ᳇ ारा समुिचत`
+  line `सरकार को ᳯ रपोट ᭅ के ᮧ᭭ तु त ᳰ कए जाने से छह मास क ᳱ कालाविध के अंदर, रखवाएगी। ]`
+  line `2 * * * * *`
+  line `4. आयोग क ᳱ शि ᭍ तयां  िन ᭥ निलिखत बात ᲂ के बारे म ᱶ, आयोग को वे शि ᭍ तयां ᮧ ा ᭡ त ह ᲂ गी, जो िसिवल ᮧᳰᮓ या संिहता,`
+  line `1908 ( 1908 का 5 ) के अधीन वाद का िवचारण करते समय िसिवल ᭠ यायालय को ᮧ ा ᭡ त होती ह ᱹ, अथा ᭅ त्: `
+  line `(क) 3 [ भारत के ᳰ कसी भाग से ᳰ कसी ᭪ यि ᭍ त को समन करना और हािजर कराना ] तथा शपथ पर उसक ᳱ`
+  line `परी ᭃ ा करना;`
+  line `(ख) ᳰ कसी द ᭭ तावेज को ᮧ कट ओर पेश करने क ᳱ अपे ᭃ ा करना;`
+  line `(ग) शपथप ᮢ ᲂ पर सा ᭯ य ᮕ हण करना;`
+  line `(घ) ᳰ कसी ᭠ यायालय या काया ᭅ लय से कोई लोक - अिभलेख या उसक ᳱ ᮧ ितिलिप अपेि ᭃ त करना;`
+  line `(ङ) साि ᭃ य ᲂ या द ᭭ तावेज ᲂ क ᳱ परी ᭃ ा के िलए कमीशन िनकालना;`
+  line `(च) कोई अ ᭠ य िवषय जो िविहत ᳰ कया जाए।`
+  line `5. आयोग क ᳱ अित ᳯ र ᭍ त शि ᭍ तयां  (1 ) जहां समुिचत सरकार क ᳱ यह राय है ᳰ क क ᳱ जाने वाली जांच के ᭭ व ᱨ प और मामले`
+  line `क ᳱ अ ᭠ य प ᳯ रि ᭭ थितय ᲂ को ᭟ यान म ᱶ रखते ᱟ ए आयोग को उपधारा ( 2 ) या उपधारा ( 3 ) या उपधारा ( 4 ) या उपधारा ( 5 ) के उपब ᭠ ध ᲂ म ᱶ`
+  line `से कोई लागू ᳰ कए जाने चािहएं, वहां समुिचत सरकार, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनदेश दे सकेगी ᳰ क उ ᭍ त सब उपब ᭠ ध या उनम ᱶ`
+  line `से ऐसे जो अिधसूचना म ᱶ िविन ᳸ द ᭬ ट ᳰ कए जाएं, उस आयोग को लागू ह ᲂ गे और ऐसी अिधसूचना के जारी ᳰ कए जाने पर उ ᭍ त उपब ᭠ ध`
+  line `तदनुसार लागू ह ᲂ गे।`
+  line `( 2 ) आयोग को ᳰ कसी ᭪ यि ᭍ त से, ᳰ कसी ऐसे िवशेषािधकार के अ ᭟ यधीन, िजसका उस ᭪ यि ᭍ त ᳇ ारा त ᭜ समय ᮧ वृ ᱫ ᳰ कसी`
+  line `िविध के अधीन दावा ᳰ कया जाए, ऐसी बात ᲂ या िवषय ᲂ पर जानकारी देने क ᳱ अपे ᭃ ा करने क ᳱ शि ᭍ त होगी, जो आयोग क ᳱ राय म ᱶ`
+  line `जांच क ᳱ िवषय - व ᭭ तु के िलए उपयोगी या उससे सुसंगत ह ᲂ 4 [ और िजस ᭪ यि ᭍ त से ऐसी अपे ᭃ ा क ᳱ जाए वह भारतीय द ᭛ ड संिहता`
+  line `( 1860 का 45) क ᳱ धारा 176 और धारा 177 के अथ ᭅ म ᱶ ऐसी जानकारी देने के िलए वैध ᱨ प से आब ᳍ समझा जाएगा। ]`
+  line `( 3) आयोग या राजपि ᮢ त अिधकारी क ᳱ पंि ᭍ त से नीचे न होने वाला कोई अिधकारी, जो आयोग ᳇ ारा इस िनिम ᱫ`
+  line `िवशेषतया ᮧ ािधकृत ᳰ कया जाए, द ᭛ ड ᮧᳰᮓ या संिहता, 1898 ( 1898 का 5 ) क ᳱ धारा 102 और धारा 103 के उपब ᭠ ध ᲂ के, जहां तक वे`
+  line `लागू ह ᲂ, अ ᭟ यधीन ᳰ कसी ऐसे भवन या ᭭ थान म ᱶ, िजसक ᳱ बाबत आयोग के पास यह िव ᭫ वास करने का कारण है ᳰ क जांच क ᳱ िवषय -`
+  line `व ᭭ तु से संबंिधत कोई लेखा - बिहयां या अ ᭠ य द ᭭ तावेज वहां पाए जा सकते ह ᱹ, ᮧ वेश कर सकेगा और ᳰ क ᭠ ह ᱭ ऐसी लेखा - बिहय ᲂ या`
+  line `द ᭭ तावेज ᲂ को अिभगृहीत कर सकेगा अथवा उनसे उ ᳍ रण या उनक ᳱ ᮧ ितिलिपयां ले सकेगा।`
+  line `1 1971 के अिधिनयम सं ० 79 क ᳱ धारा 5 ᳇ ारा अ ᭠ त: ᭭ थािपत।`
+  line `2 1990 के अिधिनयम सं ० 19 क ᳱ धारा 2 ᳇ ारा उपधारा ( 5 ) और उपधारा ( 6 ) का लोप ᳰ कया गया।`
+  line `3 1971 के अिधिनयम सं ० 79 क ᳱ धारा 6 ᳇ ारा कितपय श ᭣ द ᲂ के ᭭ थान पर ᮧ ित ᭭ थािपत।`
+  line `4 1971 के अिधिनयम सं ० 79 क ᳱ धारा 7 ᳇ ारा अ ᭠ त: ᭭ थािपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `3
-( 4 ) आयोग को िसिवल ᭠ यायालय समझा जाएगा और जब कोई ऐसा अपराध जैसा भारतीय द ᭛ ड संिहता ( 1860 का 45 )
-क ᳱ धारा 175, धारा 178, धारा 179, धारा 180 या धारा 228 म ᱶ व ᳶ णत है आयोग क ᳱ दृि ᭬ टगोचरता म ᱶ या उपि ᭭ थित म ᱶ ᳰ कया जाता
-है तब आयोग अपराध ग ᳯ ठत करने वाले त ᭝ य ᲂ और अिभयु ᭍ त के कथन को अिभिलिखत करने के प ᭫ चात्, जैसा ᳰ क द ᭛ ड ᮧᳰᮓ या
-संिहता, 1898 ( 1898 का 5 ) म ᱶ उपबंिधत है, उस मामले को ऐसे मिज ᭭ ᮝ े ट को भेज सकेगा िजसे उसका परी ᭃ ण करने क ᳱ अिधका ᳯ रता
-है, तथा वह मिज ᭭ ᮝ े ट िजसे कोई ऐसा मामला भेजा जाता है, अिभयु ᭍ त के िव ᱧ᳍ प ᳯ रवाद सुनने के िलए इस ᮧ कार अ ᮕ सर होगा मानो
-वह मामला द ᭛ ड ᮧᳰᮓ या संिहता, 1898 क ᳱ धारा 482 के अधीन उसको भेजा गया हो।
-( 5 ) आयोग के सम ᭃ ᳰ कसी काय ᭅ वाही को भारतीय द ᭛ ड संिहता ( 1860 का 45 ) क ᳱ धारा 193 और 228 के अथ ᭅ म ᱶ ᭠ याियक
-काय ᭅ वाही समझा जाएगा।
-1 [ 5 क. जांच से संबंिधत अ ᭠ वे षण करने के िलए कितपय अिधका ᳯ रय ᲂ और अ ᭠ वे षण अिभकरण ᲂ क ᳱ सेवा Ა का उपयोग करने
-क ᳱ आयोग क ᳱ शि ᭍ त  ( 1 ) आयोग, जांच से संबंिधत अ ᭠ वेषण करने के ᮧ योजनाथ ᭅ, िन ᭥ निलिखत क ᳱ सेवा Ა का उपयोग कर
-सकेगा: 
-(क) के ᭠ ᮤ ीय सरकार ᳇ ारा िनयु ᭍ त आयोग क ᳱ दशा म ᱶ, यथाि ᭭ थित, के ᭠ ᮤ ीय सरकार या ᳰ कसी रा ᭔ य सरकार क ᳱ
-सहमित से के ᭠ ᮤ ीय सरकार या उस रा ᭔ य सरकार का कोई अिधकारी या अ ᭠ वे षण अिभकरण: अथवा
-(ख) रा ᭔ य सरकार ᳇ ारा िनयु ᭍ त आयोग क ᳱ दशा म ᱶ, यथाि ᭭ थित, रा ᭔ य सरकार या के ᭠ ᮤ ीय सरकार क ᳱ सहमित से
-रा ᭔ य सरकार या के ᭠ ᮤ ीय सरकार का कोई अिधकारी या अ ᭠ वेषण अिभकरण।
-( 2 ) जांच से संबंिधत ᳰ कसी िवषय का अ ᭠ वेषण करने के ᮧ योजनाथ ᭅ, कोई अिधकारी या अिभकरण, िजसक ᳱ सेवा Ა का
-उपधारा ( 1 ) के अधीन उपयोग ᳰ कया जा रहा है, आयोग के िनदेश और िनयं ᮢ ण के अधीन रहते ᱟ ए 
-(क) ᳰ कसी ᭪ यि ᭍ त को समन कर सकेगा और हािजर करा सकेगा तथा उसक ᳱ परी ᭃ ा कर सकेगा;
-(ख) ᳰ कसी द ᭭ तावेज के ᮧ कटीकरण एवं पेश ᳰ कए जाने क ᳱ अपे ᭃ ा कर सकेगा; तथा
-(ग) ᳰ कसी काया ᭅ लय से ᳰ कसी लोक अिभलेख या उसक ᳱ ᮧ ितिलिप क ᳱ अपे ᭃ ा कर सकेगा।
-( 3 ) धारा 6 के उपब ᭠ ध ᳰ कसी ऐसे अिधकारी या अिभकरण के सम ᭃ िजसक ᳱ सेवा Ა का उपधारा ( 1 ) के अधीन उपयोग
-ᳰ कया जाए, ᳰ कसी ᭪ यि ᭍ त ᳇ ारा ᳰ कए गए कथन के संबंध म ᱶ वैसे ही लागू ह ᲂ गे जैसे वे आयोग के सम ᭃ सा ᭯ य देने के अनु ᮓ म म ᱶ ᳰ कसी
-᭪ यि ᭍ त ᳇ ारा ᳰ कए गए कथन के संबंध म ᱶ लागू होते ह ᱹ।
-( 4 ) िजस अिधकारी या अिभकरण क ᳱ सेवा Ა का उपयोग उपधारा ( 1 ) के अधीन ᳰ कया जाए वह जांच से संबंिधत ᳰ कसी
-िवषय का अ ᭠ वेषण करेगा और उस पर ऐसी कालाविध के भीतर जो आयोग ᳇ ारा इस िनिम ᱫ िविन ᳸ द ᭬ ट क ᳱ जाए, आयोग को ᳯ रपोट ᭅ
-(िजसे इस धारा म ᱶ इसके प ᭫ चात् अ ᭠ वेषण ᳯ रपोट ᭅ कहा गया है ) देगा।
-( 5 ) आयोग उपधारा ( 4 ) के अधीन उसे दी गई अ ᭠ वेषण ᳯ रपोट ᭅ म ᱶ किथत त ᭝ य ᲂ के तथा िनकाले गए िन ᭬ कष ᲄ के, य ᳰ द कोई
-ह ᲂ, सही होने के बारे म ᱶ अपना समाधान करेगा और इस ᮧ योजनाथ ᭅ आयोग ऐसी जांच (िजसके अ ᭠ तग ᭅ त उस ᭪ यि ᭍ त क ᳱ या उन
-᭪ यि ᭍ तय ᲂ क ᳱ परी ᭃ ा भी है िजसने या िज ᭠ ह ᲂ ने अ ᭠ वे षण ᳰ कया हो या उसम ᱶ सहायता क ᳱ हो) कर सकेगा जो वह ठीक समझे। ]
-2 [5 ख. असेसर िनयु ᭍ त करने क ᳱ आयोग क ᳱ शि ᭍ त  आयोग कोई जांच करने के ᮧ योजन के िलए, जांच से संब ᳍ ᳰ कसी
-िवषय का िवशेष ᭄ ान रखने वाले ᭪ यि ᭍ तय ᲂ को, जांच म ᱶ, आय ᲂ ग क ᳱ सहायता करने और उसे सलाह देने के िलए, असेसर ᲂ के ᱨ प म ᱶ
-िनयु ᭍ त कर सकेगा और असेसर ऐसे या ᮢ ा और अ ᭠ य खच ᲄ का हकदार होगा जो िविहत ᳰ कए जाएं।
-6. आयोग के सम ᭃ ᭪ यि ᭍ तय ᲂ ᳇ ारा ᳰ कए गए कथन  आयोग के सम ᭃ सा ᭯ य देते ᱟ ए ᳰ कसी ᭪ यि ᭍ त ᳇ ारा ᳰ कया गया कोई
-कथन, ऐसे कथन ᳇ ारा िम ᭝ या सा ᭯ य देने के िलए अिभयोजन के िसवाय उसे ᳰ कसी िसिवल या दाि ᭛ डक काय ᭅ वाही के अ ᭟ यधीन नह ᱭ
-करेगा या उसम ᱶ उसके िव ᱧ᳍ ᮧ यु ᭍ त नह ᱭ ᳰ कया जाएगा:
-पर ᭠ तु यह तब जब ᳰ क ऐसा कथन 
-(क) ऐसे ᮧ᭫ न के उ ᱫ र म ᱶ ᳰ दया जाता है िजसका उ ᱫ र देने के िलए उससे आयोग ᳇ ारा अपे ᭃ ा क ᳱ जाए; या
-(ख) जांच क ᳱ िवषय - व ᭭ तु से सुसंगत है।
-3 [6 क. माल के िविनमा ᭅ ण क ᳱ गु ᭡ त ᮧᳰᮓ या को ᮧ कट करने के िलए ᭪ यि ᭍ तय ᲂ का कितपय मामल ᲂ म ᱶ बा ᭟ य न होना  उन
-मामल ᲂ के िसवाय िजनम ᱶ आयोग ᳰ कसी माल के िविनमा ᭅ ण क ᳱ ᮧᳰᮓ या क ᳱ जांच करने के िलए ᭭ प ᭬ टत: अपेि ᭃ त हो, इस अिधिनयम क ᳱ
-ᳰ कसी बात से यह न समझा जाएगा ᳰ क वह आयोग के सम ᭃ सा ᭯ य देने वाले ᳰ कसी ᭪ यि ᭍ त को उस माल के िविनमा ᭅ ण क ᳱ ᳰ कसी गु ᭡ त
-ᮧᳰᮓ या को ᮧ कट करने को िववश करती है। ]
-1 1971 के अिधिनयम सं ० 79 क ᳱ धारा 8 ᳇ ारा अ ᭠ त: ᭭ थािपत।
-2 1988 के अिधिनयम सं ० 63 क ᳱ धारा 2 ᳇ ारा अ ᭠ त: ᭭ थािपत।
-3 1971 के अिधिनयम सं ० 79 क ᳱ धारा 9 ᳇ ारा अ ᭠ त: ᭭ थािपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 3
+  line `( 4 ) आयोग को िसिवल ᭠ यायालय समझा जाएगा और जब कोई ऐसा अपराध जैसा भारतीय द ᭛ ड संिहता ( 1860 का 45 )`
+  line `क ᳱ धारा 175, धारा 178, धारा 179, धारा 180 या धारा 228 म ᱶ व ᳶ णत है आयोग क ᳱ दृि ᭬ टगोचरता म ᱶ या उपि ᭭ थित म ᱶ ᳰ कया जाता`
+  line `है तब आयोग अपराध ग ᳯ ठत करने वाले त ᭝ य ᲂ और अिभयु ᭍ त के कथन को अिभिलिखत करने के प ᭫ चात्, जैसा ᳰ क द ᭛ ड ᮧᳰᮓ या`
+  line `संिहता, 1898 ( 1898 का 5 ) म ᱶ उपबंिधत है, उस मामले को ऐसे मिज ᭭ ᮝ े ट को भेज सकेगा िजसे उसका परी ᭃ ण करने क ᳱ अिधका ᳯ रता`
+  line `है, तथा वह मिज ᭭ ᮝ े ट िजसे कोई ऐसा मामला भेजा जाता है, अिभयु ᭍ त के िव ᱧ᳍ प ᳯ रवाद सुनने के िलए इस ᮧ कार अ ᮕ सर होगा मानो`
+  line `वह मामला द ᭛ ड ᮧᳰᮓ या संिहता, 1898 क ᳱ धारा 482 के अधीन उसको भेजा गया हो।`
+  line `( 5 ) आयोग के सम ᭃ ᳰ कसी काय ᭅ वाही को भारतीय द ᭛ ड संिहता ( 1860 का 45 ) क ᳱ धारा 193 और 228 के अथ ᭅ म ᱶ ᭠ याियक`
+  line `काय ᭅ वाही समझा जाएगा।`
+  line `1 [ 5 क. जांच से संबंिधत अ ᭠ वे षण करने के िलए कितपय अिधका ᳯ रय ᲂ और अ ᭠ वे षण अिभकरण ᲂ क ᳱ सेवा Ა का उपयोग करने`
+  line `क ᳱ आयोग क ᳱ शि ᭍ त  ( 1 ) आयोग, जांच से संबंिधत अ ᭠ वेषण करने के ᮧ योजनाथ ᭅ, िन ᭥ निलिखत क ᳱ सेवा Ა का उपयोग कर`
+  line `सकेगा: `
+  line `(क) के ᭠ ᮤ ीय सरकार ᳇ ारा िनयु ᭍ त आयोग क ᳱ दशा म ᱶ, यथाि ᭭ थित, के ᭠ ᮤ ीय सरकार या ᳰ कसी रा ᭔ य सरकार क ᳱ`
+  line `सहमित से के ᭠ ᮤ ीय सरकार या उस रा ᭔ य सरकार का कोई अिधकारी या अ ᭠ वे षण अिभकरण: अथवा`
+  line `(ख) रा ᭔ य सरकार ᳇ ारा िनयु ᭍ त आयोग क ᳱ दशा म ᱶ, यथाि ᭭ थित, रा ᭔ य सरकार या के ᭠ ᮤ ीय सरकार क ᳱ सहमित से`
+  line `रा ᭔ य सरकार या के ᭠ ᮤ ीय सरकार का कोई अिधकारी या अ ᭠ वेषण अिभकरण।`
+  line `( 2 ) जांच से संबंिधत ᳰ कसी िवषय का अ ᭠ वेषण करने के ᮧ योजनाथ ᭅ, कोई अिधकारी या अिभकरण, िजसक ᳱ सेवा Ა का`
+  line `उपधारा ( 1 ) के अधीन उपयोग ᳰ कया जा रहा है, आयोग के िनदेश और िनयं ᮢ ण के अधीन रहते ᱟ ए `
+  line `(क) ᳰ कसी ᭪ यि ᭍ त को समन कर सकेगा और हािजर करा सकेगा तथा उसक ᳱ परी ᭃ ा कर सकेगा;`
+  line `(ख) ᳰ कसी द ᭭ तावेज के ᮧ कटीकरण एवं पेश ᳰ कए जाने क ᳱ अपे ᭃ ा कर सकेगा; तथा`
+  line `(ग) ᳰ कसी काया ᭅ लय से ᳰ कसी लोक अिभलेख या उसक ᳱ ᮧ ितिलिप क ᳱ अपे ᭃ ा कर सकेगा।`
+  line `( 3 ) धारा 6 के उपब ᭠ ध ᳰ कसी ऐसे अिधकारी या अिभकरण के सम ᭃ िजसक ᳱ सेवा Ა का उपधारा ( 1 ) के अधीन उपयोग`
+  line `ᳰ कया जाए, ᳰ कसी ᭪ यि ᭍ त ᳇ ारा ᳰ कए गए कथन के संबंध म ᱶ वैसे ही लागू ह ᲂ गे जैसे वे आयोग के सम ᭃ सा ᭯ य देने के अनु ᮓ म म ᱶ ᳰ कसी`
+  line `᭪ यि ᭍ त ᳇ ारा ᳰ कए गए कथन के संबंध म ᱶ लागू होते ह ᱹ।`
+  line `( 4 ) िजस अिधकारी या अिभकरण क ᳱ सेवा Ა का उपयोग उपधारा ( 1 ) के अधीन ᳰ कया जाए वह जांच से संबंिधत ᳰ कसी`
+  line `िवषय का अ ᭠ वेषण करेगा और उस पर ऐसी कालाविध के भीतर जो आयोग ᳇ ारा इस िनिम ᱫ िविन ᳸ द ᭬ ट क ᳱ जाए, आयोग को ᳯ रपोट ᭅ`
+  line `(िजसे इस धारा म ᱶ इसके प ᭫ चात् अ ᭠ वेषण ᳯ रपोट ᭅ कहा गया है ) देगा।`
+  line `( 5 ) आयोग उपधारा ( 4 ) के अधीन उसे दी गई अ ᭠ वेषण ᳯ रपोट ᭅ म ᱶ किथत त ᭝ य ᲂ के तथा िनकाले गए िन ᭬ कष ᲄ के, य ᳰ द कोई`
+  line `ह ᲂ, सही होने के बारे म ᱶ अपना समाधान करेगा और इस ᮧ योजनाथ ᭅ आयोग ऐसी जांच (िजसके अ ᭠ तग ᭅ त उस ᭪ यि ᭍ त क ᳱ या उन`
+  line `᭪ यि ᭍ तय ᲂ क ᳱ परी ᭃ ा भी है िजसने या िज ᭠ ह ᲂ ने अ ᭠ वे षण ᳰ कया हो या उसम ᱶ सहायता क ᳱ हो) कर सकेगा जो वह ठीक समझे। ]`
+  line `2 [5 ख. असेसर िनयु ᭍ त करने क ᳱ आयोग क ᳱ शि ᭍ त  आयोग कोई जांच करने के ᮧ योजन के िलए, जांच से संब ᳍ ᳰ कसी`
+  line `िवषय का िवशेष ᭄ ान रखने वाले ᭪ यि ᭍ तय ᲂ को, जांच म ᱶ, आय ᲂ ग क ᳱ सहायता करने और उसे सलाह देने के िलए, असेसर ᲂ के ᱨ प म ᱶ`
+  line `िनयु ᭍ त कर सकेगा और असेसर ऐसे या ᮢ ा और अ ᭠ य खच ᲄ का हकदार होगा जो िविहत ᳰ कए जाएं।`
+  line `6. आयोग के सम ᭃ ᭪ यि ᭍ तय ᲂ ᳇ ारा ᳰ कए गए कथन  आयोग के सम ᭃ सा ᭯ य देते ᱟ ए ᳰ कसी ᭪ यि ᭍ त ᳇ ारा ᳰ कया गया कोई`
+  line `कथन, ऐसे कथन ᳇ ारा िम ᭝ या सा ᭯ य देने के िलए अिभयोजन के िसवाय उसे ᳰ कसी िसिवल या दाि ᭛ डक काय ᭅ वाही के अ ᭟ यधीन नह ᱭ`
+  line `करेगा या उसम ᱶ उसके िव ᱧ᳍ ᮧ यु ᭍ त नह ᱭ ᳰ कया जाएगा:`
+  line `पर ᭠ तु यह तब जब ᳰ क ऐसा कथन `
+  line `(क) ऐसे ᮧ᭫ न के उ ᱫ र म ᱶ ᳰ दया जाता है िजसका उ ᱫ र देने के िलए उससे आयोग ᳇ ारा अपे ᭃ ा क ᳱ जाए; या`
+  line `(ख) जांच क ᳱ िवषय - व ᭭ तु से सुसंगत है।`
+  line `3 [6 क. माल के िविनमा ᭅ ण क ᳱ गु ᭡ त ᮧᳰᮓ या को ᮧ कट करने के िलए ᭪ यि ᭍ तय ᲂ का कितपय मामल ᲂ म ᱶ बा ᭟ य न होना  उन`
+  line `मामल ᲂ के िसवाय िजनम ᱶ आयोग ᳰ कसी माल के िविनमा ᭅ ण क ᳱ ᮧᳰᮓ या क ᳱ जांच करने के िलए ᭭ प ᭬ टत: अपेि ᭃ त हो, इस अिधिनयम क ᳱ`
+  line `ᳰ कसी बात से यह न समझा जाएगा ᳰ क वह आयोग के सम ᭃ सा ᭯ य देने वाले ᳰ कसी ᭪ यि ᭍ त को उस माल के िविनमा ᭅ ण क ᳱ ᳰ कसी गु ᭡ त`
+  line `ᮧᳰᮓ या को ᮧ कट करने को िववश करती है। ]`
+  line `1 1971 के अिधिनयम सं ० 79 क ᳱ धारा 8 ᳇ ारा अ ᭠ त: ᭭ थािपत।`
+  line `2 1988 के अिधिनयम सं ० 63 क ᳱ धारा 2 ᳇ ारा अ ᭠ त: ᭭ थािपत।`
+  line `3 1971 के अिधिनयम सं ० 79 क ᳱ धारा 9 ᳇ ारा अ ᭠ त: ᭭ थािपत।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `4
-1 [7. आयोग का अि ᭭ त ᭜ वहीन हो जाना जब वैसा अिधसूिचत कर ᳰ दया जाए  (1 ) समुिचत सरकार, राजप ᮢ म ᱶ अिधसूचना
-᳇ ारा, घोषणा कर सकेगी 
-(क) ᳰ क, 2 [ ( यथाि ᭭ थित, संसद् के ᮧ᭜ येक सदन या रा ᭔ य के िवधान - मंडल ] ᳇ ारा, पा ᳯ रत संक ᭨ प के अनुसरण म ᱶ
-िनयु ᭍ त आयोग से िभ ᭠ न) कोई आयोग अि ᭭ त ᭜ वहीन हो जाएगा, य ᳰ द उस सरकार क ᳱ यह राय हो ᳰ क आयोग का
-अि ᭭ त ᭜ वशील रहना आव ᭫ यक है:
-(ख) ᳰ क, 2 [ यथाि ᭭ थित, संसद् के ᮧ᭜ येक सदन या रा ᭔ य के िवधान - मंडल ] ᳇ ारा, पा ᳯ रत संक ᭨ प के अनुसरण म ᱶ
-िनयु ᭍ त आयोग अि ᭭ त ᭜ वहीन हो जाएगा य ᳰ द आयोग को समा ᭡ त करने का संक ᭨ प, 2 [ यथाि ᭭ थित, संसद् के ᮧ᭜ ये क सदन या
-रा ᭔ य के िवधान - मंडल ] ᳇ ारा, पा ᳯ रत कर ᳰ दया जाता है।
-( 2 ) उपधारा ( 1 ) के अधीन जारी क ᳱ गई हर अिधसूचना म ᱶ वह तारीख िविन ᳸ द ᭬ ट होगी जबसे आयोग अि ᭭ त ᭜ वहीन हो
-जाएगा और ऐसी अिधसूचना के जारी ᳰ कए जाने पर, उसम ᱶ िविन ᳸ द ᭬ ट तारीख से ही आयोग अि ᭭ त ᭜ वहीन हो जाएगा। ]
-8. आयोग ᳇ ारा अनुसरणीय ᮧᳰᮓ या  आयोग को ᳰ क ᭠ ह ᱭ िनयम ᲂ के जो इस िनिम ᱫ बनाए जाएं, अधीन रहते ᱟ ए अपनी
-ᮧᳰᮓ या (िजसके अ ᭠ तग ᭅ त उसक ᳱ बैठक ᲂ के ᭭ थान और समय िनयत करना तथा यह िविन ᭫ चय करना भी है ᳰ क बैठक ᱶ खुली ह ᲂ या
-ᮧ ाइवेट ह ᲂ ) ᭭ वयं िविनयिमत करने क ᳱ शि ᭍ त होगी, 3 ***
-4 [ 8 क. आयोग म ᱶ कोई ᳯ रि ᭍ त या उसके गठन म ᱶ प ᳯ रव ᭅ तन होने के कारण जांच म ᱶ कोई िव ᭐ न न पड़ना  ( 1 ) जहां आयोग म ᱶ
-दो या दो से अिधक सद ᭭ य ह ᲂ वहां वह अ ᭟ य ᭃ या ᳰ कसी अ ᭠ य सद ᭭ य को अनुपि ᭭ थित या अपने सद ᭭ य ᲂ म ᱶ से ᳰ कसी ᳯ रि ᭍ त के होते ᱟ ए
-भी काय ᭅ कर सकेगा।
-( 2 ) जहां आयोग के सम ᭃ जांच के दौरान, ᳰ कसी ᳯ रि ᭍ त के भरे जाने से या ᳰ कसी अ ᭠ य कारण से आयोग के गठन म ᱶ कोई
-प ᳯ रवत ᭅ न हो जाए वहां आयोग के िलए यह आव ᭫ यक नह ᱭ होगा ᳰ क वह जांच नए िसरे से ᮧ ार ᭥ भ करे और जांच उसी ᮧᮓ म से जारी
-रखी जा सकेगी िजस पर प ᳯ रवत ᭅ न ᱟ आ हो।
-8 ख. उन ᭪ यि ᭍ तय ᲂ क ᳱ सुनवाई िजन पर ᮧ ितकूल ᮧ भाव पड़ना स ᭥ भा ᭪ य हो  य ᳰ द जांच के ᳰ कसी अनु ᮓ म म ᱶ 
-( क ) आयोग ᳰ कसी ᭪ यि ᭍ त के आचरण क ᳱ जांच करना आव ᭫ यक समझता है; या
-( ख ) आयोग क ᳱ यह राय है ᳰ क जांच से ᳰ कसी ᭪ यि ᭍ त क ᳱ ᭎ याित पर ᮧ ितकूल ᮧ भाव पड़ना स ᭥ भा ᭪ य है, तो आयोग
-उस ᭪ यि ᭍ त को जांच म ᱶ सुनवाई और अपनी ᮧ ितर ᭃ ा म ᱶ सा ᭯ य पेश करने का यथोिचत असवर देगा:
-पर ᭠ तु इस धारा क ᳱ कोई बात वहां लागू नह ᱭ होगी जहां ᳰ कसी सा ᭃ ी क ᳱ िव ᭫ वसनीयता पर अिध ᭃ े प ᳰ कया जा रहा हो।
-8 ग. ᮧ ितपरी ᭃ ा और िविध ᭪ यवसायी ᳇ ारा ᮧ ितिनिध ᭜ व का अिधकार  समुिचत सरकार, धारा 8 ख म ᱶ िन ᳸ द ᭬ ट ᮧ᭜ ये क
-᭪ यि ᭍ त और, आयोग क ᳱ अनु ᭄ ा से कोई अ ᭠ य ᭪ यि ᭍ त, िजसका सा ᭯ य आयोग ᳇ ारा अिभिलिखत ᳰ कया जाता है 
-( क ) अपने ᳇ ारा पेश ᳰ कए गए सा ᭃ ी से िभ ᭠ न ᳰ कसी सा ᭃ ी क ᳱ ᮧ ितपरी ᭃ ा कर सकेगा;
-( ख ) आयोग को संबोिधत कर सकेगा; और
-( ग ) आयोग के सम ᭃ ᳰ कसी िविध ᭪ यवसायी ᳇ ारा या आयोग क ᳱ अनु ᭄ ा से ᳰ कसी अ ᭠ य ᭪ यि ᭍ त ᳇ ारा अपना
-ᮧ ितिनिध ᭜ व करा सकेगा। ]
-9. सद् भावपू व ᭅ क क ᳱ गई कार ᭅ वाई का प ᳯ र ᮢ ाण  कोई भी वाद या अ ᭠ य िविधक काय ᭅ वाही ᳰ कसी भी ऐसी बात के बारे म ᱶ जो
-इस अिधिनयम के या तद् धीन बनाए गए ᳰ क ᭠ ह ᱭ िनयम ᲂ या आदेश ᲂ के अनुसरण म ᱶ अथवा ᳰ कसी ᳯ रपोट ᭅ, कागज या काय ᭅ वाही के
-समुिचत सरकार या आयोग ᳇ ारा या उसके ᮧ ािधकार के अधीन ᮧ काशन के स ᭥ ब ᭠ ध म ᱶ सद् भावपू व ᭅ क क ᳱ गई हो या क ᳱ जाने के िलए
-आशियत हो, समुिचत सरकार, आयोग या उसके ᳰ कसी सद ᭭ य अथवा समुिचत सरकार के या आयोग के िनदेश के अधीन काय ᭅ करने
-वाले ᳰ कसी ᭪ यि ᭍ त के िव ᱧ᳍ न होगी।
-10. सद ᭭ य ᲂ आ ᳰ द का लोक सेवक होना  आयोग का ᮧ᭜ ये क सद ᭭ य और इस अिधिनयम के अधीन कृ ᭜ य ᲂ का िन ᭬ पादन करने
-के िलए आयोग ᳇ ारा िनयु ᭍ त या ᮧ ािधकृत ᮧ᭜ ये क अिधकारी भारतीय द ᭛ ड संिहता ( 1860 का 45 ) क ᳱ धारा 21 के अथ ᭅ म ᱶ लोक सेवक
-समझा जाएगा।
-5 [10 क. आयोग या उसके ᳰ कसी सद ᭭ य क ᳱ बदनामी करने के िलए ᮧ कि ᭨ पत काय ᲄ के िलए शाि ᭭ त  ( 1 ) य ᳰ द कोई ᭪ यि ᭍ त
-या तो बोले गए या पढ़े जाने के िलए आशियत श ᭣ द ᲂ ᳇ ारा कोई ऐसा कथन करेगा या ᮧ कािशत करेगा या कोई ऐसा अ ᭠ य काय ᭅ करेगा
-1 1971 के अिधिनयम सं ० 79 क ᳱ धारा 10 ᳇ ारा धारा 7 के ᭭ थान पर ᮧ ित ᭭ थािपत।
-2 1990 के अिधिनयम सं ० 19 क ᳱ धारा 3 ᳇ ारा कितपय श ᭣ द ᲂ के ᭭ थान पर ᮧ ित ᭭ थािपत।
-3 1971 के अिधिनयम सं ० 79 क ᳱ धारा 11 ᳇ ारा कितपय श ᭣ द ᲂ का लोप ᳰ कया गया।
-4 1971 के अिधिनयम सं ० 79 क ᳱ धारा 12 ᳇ ारा अ ᭠ त: ᭭ थािपत।
-5 1971 के अिधिनयम सं ० 79 क ᳱ धारा 13 ᳇ ारा अ ᭠ त: ᭭ थािपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 4
+  line `1 [7. आयोग का अि ᭭ त ᭜ वहीन हो जाना जब वैसा अिधसूिचत कर ᳰ दया जाए  (1 ) समुिचत सरकार, राजप ᮢ म ᱶ अिधसूचना`
+  line `᳇ ारा, घोषणा कर सकेगी `
+  line `(क) ᳰ क, 2 [ ( यथाि ᭭ थित, संसद् के ᮧ᭜ येक सदन या रा ᭔ य के िवधान - मंडल ] ᳇ ारा, पा ᳯ रत संक ᭨ प के अनुसरण म ᱶ`
+  line `िनयु ᭍ त आयोग से िभ ᭠ न) कोई आयोग अि ᭭ त ᭜ वहीन हो जाएगा, य ᳰ द उस सरकार क ᳱ यह राय हो ᳰ क आयोग का`
+  line `अि ᭭ त ᭜ वशील रहना आव ᭫ यक है:`
+  line `(ख) ᳰ क, 2 [ यथाि ᭭ थित, संसद् के ᮧ᭜ येक सदन या रा ᭔ य के िवधान - मंडल ] ᳇ ारा, पा ᳯ रत संक ᭨ प के अनुसरण म ᱶ`
+  line `िनयु ᭍ त आयोग अि ᭭ त ᭜ वहीन हो जाएगा य ᳰ द आयोग को समा ᭡ त करने का संक ᭨ प, 2 [ यथाि ᭭ थित, संसद् के ᮧ᭜ ये क सदन या`
+  line `रा ᭔ य के िवधान - मंडल ] ᳇ ारा, पा ᳯ रत कर ᳰ दया जाता है।`
+  line `( 2 ) उपधारा ( 1 ) के अधीन जारी क ᳱ गई हर अिधसूचना म ᱶ वह तारीख िविन ᳸ द ᭬ ट होगी जबसे आयोग अि ᭭ त ᭜ वहीन हो`
+  line `जाएगा और ऐसी अिधसूचना के जारी ᳰ कए जाने पर, उसम ᱶ िविन ᳸ द ᭬ ट तारीख से ही आयोग अि ᭭ त ᭜ वहीन हो जाएगा। ]`
+  line `8. आयोग ᳇ ारा अनुसरणीय ᮧᳰᮓ या  आयोग को ᳰ क ᭠ ह ᱭ िनयम ᲂ के जो इस िनिम ᱫ बनाए जाएं, अधीन रहते ᱟ ए अपनी`
+  line `ᮧᳰᮓ या (िजसके अ ᭠ तग ᭅ त उसक ᳱ बैठक ᲂ के ᭭ थान और समय िनयत करना तथा यह िविन ᭫ चय करना भी है ᳰ क बैठक ᱶ खुली ह ᲂ या`
+  line `ᮧ ाइवेट ह ᲂ ) ᭭ वयं िविनयिमत करने क ᳱ शि ᭍ त होगी, 3 ***`
+  line `4 [ 8 क. आयोग म ᱶ कोई ᳯ रि ᭍ त या उसके गठन म ᱶ प ᳯ रव ᭅ तन होने के कारण जांच म ᱶ कोई िव ᭐ न न पड़ना  ( 1 ) जहां आयोग म ᱶ`
+  line `दो या दो से अिधक सद ᭭ य ह ᲂ वहां वह अ ᭟ य ᭃ या ᳰ कसी अ ᭠ य सद ᭭ य को अनुपि ᭭ थित या अपने सद ᭭ य ᲂ म ᱶ से ᳰ कसी ᳯ रि ᭍ त के होते ᱟ ए`
+  line `भी काय ᭅ कर सकेगा।`
+  line `( 2 ) जहां आयोग के सम ᭃ जांच के दौरान, ᳰ कसी ᳯ रि ᭍ त के भरे जाने से या ᳰ कसी अ ᭠ य कारण से आयोग के गठन म ᱶ कोई`
+  line `प ᳯ रवत ᭅ न हो जाए वहां आयोग के िलए यह आव ᭫ यक नह ᱭ होगा ᳰ क वह जांच नए िसरे से ᮧ ार ᭥ भ करे और जांच उसी ᮧᮓ म से जारी`
+  line `रखी जा सकेगी िजस पर प ᳯ रवत ᭅ न ᱟ आ हो।`
+  line `8 ख. उन ᭪ यि ᭍ तय ᲂ क ᳱ सुनवाई िजन पर ᮧ ितकूल ᮧ भाव पड़ना स ᭥ भा ᭪ य हो  य ᳰ द जांच के ᳰ कसी अनु ᮓ म म ᱶ `
+  line `( क ) आयोग ᳰ कसी ᭪ यि ᭍ त के आचरण क ᳱ जांच करना आव ᭫ यक समझता है; या`
+  line `( ख ) आयोग क ᳱ यह राय है ᳰ क जांच से ᳰ कसी ᭪ यि ᭍ त क ᳱ ᭎ याित पर ᮧ ितकूल ᮧ भाव पड़ना स ᭥ भा ᭪ य है, तो आयोग`
+  line `उस ᭪ यि ᭍ त को जांच म ᱶ सुनवाई और अपनी ᮧ ितर ᭃ ा म ᱶ सा ᭯ य पेश करने का यथोिचत असवर देगा:`
+  line `पर ᭠ तु इस धारा क ᳱ कोई बात वहां लागू नह ᱭ होगी जहां ᳰ कसी सा ᭃ ी क ᳱ िव ᭫ वसनीयता पर अिध ᭃ े प ᳰ कया जा रहा हो।`
+  line `8 ग. ᮧ ितपरी ᭃ ा और िविध ᭪ यवसायी ᳇ ारा ᮧ ितिनिध ᭜ व का अिधकार  समुिचत सरकार, धारा 8 ख म ᱶ िन ᳸ द ᭬ ट ᮧ᭜ ये क`
+  line `᭪ यि ᭍ त और, आयोग क ᳱ अनु ᭄ ा से कोई अ ᭠ य ᭪ यि ᭍ त, िजसका सा ᭯ य आयोग ᳇ ारा अिभिलिखत ᳰ कया जाता है `
+  line `( क ) अपने ᳇ ारा पेश ᳰ कए गए सा ᭃ ी से िभ ᭠ न ᳰ कसी सा ᭃ ी क ᳱ ᮧ ितपरी ᭃ ा कर सकेगा;`
+  line `( ख ) आयोग को संबोिधत कर सकेगा; और`
+  line `( ग ) आयोग के सम ᭃ ᳰ कसी िविध ᭪ यवसायी ᳇ ारा या आयोग क ᳱ अनु ᭄ ा से ᳰ कसी अ ᭠ य ᭪ यि ᭍ त ᳇ ारा अपना`
+  line `ᮧ ितिनिध ᭜ व करा सकेगा। ]`
+  line `9. सद् भावपू व ᭅ क क ᳱ गई कार ᭅ वाई का प ᳯ र ᮢ ाण  कोई भी वाद या अ ᭠ य िविधक काय ᭅ वाही ᳰ कसी भी ऐसी बात के बारे म ᱶ जो`
+  line `इस अिधिनयम के या तद् धीन बनाए गए ᳰ क ᭠ ह ᱭ िनयम ᲂ या आदेश ᲂ के अनुसरण म ᱶ अथवा ᳰ कसी ᳯ रपोट ᭅ, कागज या काय ᭅ वाही के`
+  line `समुिचत सरकार या आयोग ᳇ ारा या उसके ᮧ ािधकार के अधीन ᮧ काशन के स ᭥ ब ᭠ ध म ᱶ सद् भावपू व ᭅ क क ᳱ गई हो या क ᳱ जाने के िलए`
+  line `आशियत हो, समुिचत सरकार, आयोग या उसके ᳰ कसी सद ᭭ य अथवा समुिचत सरकार के या आयोग के िनदेश के अधीन काय ᭅ करने`
+  line `वाले ᳰ कसी ᭪ यि ᭍ त के िव ᱧ᳍ न होगी।`
+  line `10. सद ᭭ य ᲂ आ ᳰ द का लोक सेवक होना  आयोग का ᮧ᭜ ये क सद ᭭ य और इस अिधिनयम के अधीन कृ ᭜ य ᲂ का िन ᭬ पादन करने`
+  line `के िलए आयोग ᳇ ारा िनयु ᭍ त या ᮧ ािधकृत ᮧ᭜ ये क अिधकारी भारतीय द ᭛ ड संिहता ( 1860 का 45 ) क ᳱ धारा 21 के अथ ᭅ म ᱶ लोक सेवक`
+  line `समझा जाएगा।`
+  line `5 [10 क. आयोग या उसके ᳰ कसी सद ᭭ य क ᳱ बदनामी करने के िलए ᮧ कि ᭨ पत काय ᲄ के िलए शाि ᭭ त  ( 1 ) य ᳰ द कोई ᭪ यि ᭍ त`
+  line `या तो बोले गए या पढ़े जाने के िलए आशियत श ᭣ द ᲂ ᳇ ारा कोई ऐसा कथन करेगा या ᮧ कािशत करेगा या कोई ऐसा अ ᭠ य काय ᭅ करेगा`
+  line `1 1971 के अिधिनयम सं ० 79 क ᳱ धारा 10 ᳇ ारा धारा 7 के ᭭ थान पर ᮧ ित ᭭ थािपत।`
+  line `2 1990 के अिधिनयम सं ० 19 क ᳱ धारा 3 ᳇ ारा कितपय श ᭣ द ᲂ के ᭭ थान पर ᮧ ित ᭭ थािपत।`
+  line `3 1971 के अिधिनयम सं ० 79 क ᳱ धारा 11 ᳇ ारा कितपय श ᭣ द ᲂ का लोप ᳰ कया गया।`
+  line `4 1971 के अिधिनयम सं ० 79 क ᳱ धारा 12 ᳇ ारा अ ᭠ त: ᭭ थािपत।`
+  line `5 1971 के अिधिनयम सं ० 79 क ᳱ धारा 13 ᳇ ारा अ ᭠ त: ᭭ थािपत।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `5
-जो आयोग या उसके ᳰ कसी सद ᭭ य क ᳱ बदनामी करने के िलए ᮧ कि ᭨ पत हो तो वह सादा कारावास से, िजसक ᳱ अविध छह मास तक हो
-सकेगी या जुमा ᭅ ने से, अथवा दोन ᲂ से, द ᭛ डनीय होगा।
-1 [ ( 2 ) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते ᱟ ए भी, जब यह अिभकिथत है ᳰ क उपधारा ( 1 ) के
-अधीन कोई अपराध ᳰ कया गया है तब उ ᭒ च ᭠ यायालय, ऐसा मामला उसे सुपुद ᭅ ᱟ ए िबना ही, आयोग के ᳰ कसी सद ᭭ य ᳇ ारा या आयोग
-᳇ ारा इस िनिम ᱫ ᮧ ािधकृत उसके ᳰ कसी अिधकारी ᳇ ारा ᳰ कए गए िलिखत प ᳯ रवाद पर, ऐसे अपराध का सं ᭄ ान कर सकता है।
-( 3) उपधारा ( 2 ) म ᱶ िन ᳸ द ᭬ ट ᮧ᭜ ये क प ᳯ रवाद म ᱶ उन त ᭝ य ᲂ का िजनसे अिभकिथत अपराध बनता है, ऐसे अपराध क ᳱ ᮧ कृि ᱫ
-का, और ऐसी अ ᭠ य िविशि ᭬ टय ᲂ का उ ᭨ ले ख होगा जो अिभयु ᭍ त ᳇ ारा ᳰ कए गए अिभकिथत अपराध क ᳱ उसे सूचना देने के िलए
-युि ᭍ तयु ᭍ त ᱨ प से पया ᭅ ᭡ त ह ᱹ।
-( 4 ) कोई भी उ ᭒ च ᭠ यायालय उपधारा ( 1 ) के अधीन ᳰ कसी अपराध का सं ᭄ ान तब तक नही करेगा जब तक ᳰ क प ᳯ रवाद उस
-तारीख से, िजसको अपराध का ᳰ कया जाना अिभकिथत है, छह मास के भीतर नह ᱭ ᳰ कया जाता।
-( 5 ) उपधारा ( 1 ) के अधीन अपराध का सं ᭄ ान करने वाला उ ᭒ च ᭠ यायालय उस मामले का िवचारण, मिज ᭭ ᮝ े ट के ᭠ यायालय
-के सम ᭃ पुिलस ᳯ रपोट ᭅ से िभ ᭠ न आधार पर संि ᭭ थत वारंट मामल ᲂ के िवचारण क ᳱ ᮧᳰᮓ या के अनुसार करेगा:
-पर ᭠ तु ऐसे िवचारण म ᱶ आयोग के सद ᭭ य क ᳱ प ᳯ रवादी के ᱨ प म ᱶ या अ ᭠ यथा वैयि ᭍ तक हािजरी अपेि ᭃ त नह ᱭ है।
-( 6 ) दंड ᮧᳰᮓ या संिहता, 1973 ( 1974 का 2 ) म ᱶ ᳰ कसी बात के होते ᱟ ए भी, उ ᭒ च ᭠ यायालय के ᳰ कसी िनण ᭅ य से उ ᭒ चतम
-᭠ यायालय म ᱶ, त ᭝ य और िविध दोन ᲂ पर, अपील सािधकार क ᳱ जा सकती है।
-( 7 ) उपधारा ( 6 ) के अधीन उ ᭒ चतम ᭠ यायालय को ᮧ᭜ ये क अपील, उस िनण ᭅ य क ᳱ तारीख से, िजससे अपील क ᳱ गई है, तीस
-ᳰ दन क ᳱ अविध के भीतर क ᳱ जाएगी:
-पर ᭠ तु उ ᭒ चतम ᭠ यायालय उ ᭍ त तीस ᳰ दन क ᳱ अविध क ᳱ समाि ᭡ त के प ᭫ चात् भी अपील ᮕ हण कर सकता है य ᳰ द उसका यह
-समाधान हो जाता है ᳰ क अपीलाथ ᱮ के पास तीस ᳰ दन क ᳱ अविध के भीतर अपील न करने के िलए पया ᭅ ᭡ त कारण था। ]
-11. कितपय प ᳯ र ᭭ थितय ᲂ म ᱶ अिधिनयम का अ ᭠ य जांच ᮧ ािधकारण ᲂ को लागू होना — जहां ( ᳰ कसी भी नाम से ᭄ ात) कोई
-ᮧ ािधकरण, जो धारा 3 के अधीन िनयु ᭍ त आयोग से िभ ᭠ न है, साव ᭅ जिनक मह ᭜ व के ᳰ कसी िनि ᭫ चत मामले क ᳱ जांच करने के ᮧ योजन के
-िलए समुिचत सरकार के ᳰ कसी संक ᭨ प या आदेश ᳇ ारा बनाया गया है या बनाया जाता है और उस सरकार क ᳱ यह राय है ᳰ क इस
-अिधिनयम के सब या कोई उपब ᭠ ध उस ᮧ ािधकारण को लागू ᳰ कए जाने चािहए वहां वह सरकार, धारा 3 क ᳱ उपधारा ( 1 ) के पर ᭠ तु क
-म ᱶ अ ᭠ त ᳶ व ᭬ ट ᮧ ितषेध के अधीन, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनदेश दे सकेगी ᳰ क इस अिधिनयम के उ ᭍ त उपबंध इस ᮧ ािधकरण को
-लागू ह ᲂ गे, और ऐसी अिधसूचना के जारी होने पर वह ᮧ ािधकरण इस अिधिनयम के ᮧ योजन ᲂ के िलए धारा 3 के अधीन िनयु ᭍ त
-आयोग समझा जाएगा।
-12. िनयम बनाने क ᳱ शि ᭍ त  (1 ) समुिचत सरकार इस अिधिनयम के ᮧ योजन ᲂ को काया ᭅ ि ᭠ वत करने के िलए िनयम,
-राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, बना सकेगी।
-( 2 ) िविशि ᭬ टयता और पूव ᭅ गामी शि ᭍ त क ᳱ ᭪ यापकता पर ᮧ ितकूल ᮧ भाव डाले िबना ऐसे िनयम िन ᭥ निलिखत सब िवषय ᲂ
-या उनम ᱶ से ᳰ कसी के िलए उपब ᭠ ध कर सक ᱶ गे, अथा ᭅ त्: —
-(क) आयोग के सद ᭭ य ᲂ क ᳱ पदाविध और सेवा क ᳱ शत ᱸ;
-(ख) वह रीित िजसम ᱶ इस अिधिनयम के अधीन जांच क ᳱ जा सकेगी और आयोग ᳇ ारा अपने सम ᭃ काय ᭅ वािहय ᲂ के
-स ᭥ ब ᭠ ध म ᱶ अनुसरण क ᳱ जाने वाली ᮧᳰᮓ या;
-(ग) िसिवल ᭠ यायालय क ᳱ वे शि ᭍ तयां जो आयोग म ᱶ िनिहत हो सकेगी;
-2 [ (गग) धारा 5 ख के अधीन िनयु ᭍ त असेसर ᲂ को और आयोग ᳇ ारा सा ᭯ य देने के िलए या उसके सम ᭃ द ᭭ तावेज
-ᮧ᭭ तु त करने के िलए, समन ᳰ कए गए ᭪ यि ᭍ तय ᲂ को संदेय या ᮢ ा और अ ᭠ य खच ᱸ। ]
-(घ) कोई अ ᭠ य िवषय जो िविहत ᳰ कया जाना है या ᳰ कया जाए।
-3 [ ( 3 ) इस धारा के अधीन के ᭠ ᮤ ीय सरकार ᳇ ारा बनाए गया ᮧ᭜ ये क िनयम, बनाए जाने के प ᭫ चात् यथाशी ᮖ, संसद् के ᮧ᭜ येक
-सदन के सम ᭃ, जब वह स ᮢ म ᱶ हो कुल तीस ᳰ दन क ᳱ अविध के िलए रखा जाएगा। यह अविध एक स ᮢ म ᱶ अथवा 4 [ दो या अिधक
-आनु ᮓ िमक स ᮢ ᲂ म ᱶ पूरी हो सकेगी। य ᳰ द उस स ᮢ के या पूव ᲃ᭍ त आनु ᮓ िमक स ᮢ ᲂ के ठीक बाद के स ᮢ के अवसान के पूव ᭅ ] दोन ᲂ सदन
-उस िनयम म ᱶ कोई प ᳯ रवत ᭅ न करने के िलए सहमत हो जाएं तो त ᭜ प ᭫ चात् वह ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही ᮧ भावी होगा। य ᳰ द उ ᭍ त
-1 1988 के अिधिनयम सं ० 63 क ᳱ धारा 3 ᳇ ारा उपधारा ( 2 ) के ᭭ थान पर ᮧ ित ᭭ थािपत।
-2 1988 के अिधिनयम सं ० 63 क ᳱ धारा 4 ᳇ ारा ᮧ ित ᭭ थािपत।
-3 1971 के अिधिनयम सं ० 79 क ᳱ धारा 14 ᳇ ारा ᮧ ित ᭭ थािपत।
-4 1986 के अिधिनयम सं ० 4 क ᳱ धारा 2 और अनुसूची ᳇ ारा ( 15-5-1986 से ) कितपय श ᭣ द ᲂ के ᭭ थान पर ᮧ ित ᭭ थािपत। उपधारा ( 3 ) के ᭭ थान पर ᮧ ित ᭭ थािपत। मूल
-उपधारा ( 3 ) सं ० 79 क ᳱ धारा 14 ᳇ ारा अ ᭠ त: ᭭ थािपत क ᳱ गई थी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 5
+  line `जो आयोग या उसके ᳰ कसी सद ᭭ य क ᳱ बदनामी करने के िलए ᮧ कि ᭨ पत हो तो वह सादा कारावास से, िजसक ᳱ अविध छह मास तक हो`
+  line `सकेगी या जुमा ᭅ ने से, अथवा दोन ᲂ से, द ᭛ डनीय होगा।`
+  line `1 [ ( 2 ) दंड ᮧᳰᮓ या संिहता, 1973 (1974 का 2) म ᱶ ᳰ कसी बात के होते ᱟ ए भी, जब यह अिभकिथत है ᳰ क उपधारा ( 1 ) के`
+  line `अधीन कोई अपराध ᳰ कया गया है तब उ ᭒ च ᭠ यायालय, ऐसा मामला उसे सुपुद ᭅ ᱟ ए िबना ही, आयोग के ᳰ कसी सद ᭭ य ᳇ ारा या आयोग`
+  line `᳇ ारा इस िनिम ᱫ ᮧ ािधकृत उसके ᳰ कसी अिधकारी ᳇ ारा ᳰ कए गए िलिखत प ᳯ रवाद पर, ऐसे अपराध का सं ᭄ ान कर सकता है।`
+  line `( 3) उपधारा ( 2 ) म ᱶ िन ᳸ द ᭬ ट ᮧ᭜ ये क प ᳯ रवाद म ᱶ उन त ᭝ य ᲂ का िजनसे अिभकिथत अपराध बनता है, ऐसे अपराध क ᳱ ᮧ कृि ᱫ`
+  line `का, और ऐसी अ ᭠ य िविशि ᭬ टय ᲂ का उ ᭨ ले ख होगा जो अिभयु ᭍ त ᳇ ारा ᳰ कए गए अिभकिथत अपराध क ᳱ उसे सूचना देने के िलए`
+  line `युि ᭍ तयु ᭍ त ᱨ प से पया ᭅ ᭡ त ह ᱹ।`
+  line `( 4 ) कोई भी उ ᭒ च ᭠ यायालय उपधारा ( 1 ) के अधीन ᳰ कसी अपराध का सं ᭄ ान तब तक नही करेगा जब तक ᳰ क प ᳯ रवाद उस`
+  line `तारीख से, िजसको अपराध का ᳰ कया जाना अिभकिथत है, छह मास के भीतर नह ᱭ ᳰ कया जाता।`
+  line `( 5 ) उपधारा ( 1 ) के अधीन अपराध का सं ᭄ ान करने वाला उ ᭒ च ᭠ यायालय उस मामले का िवचारण, मिज ᭭ ᮝ े ट के ᭠ यायालय`
+  line `के सम ᭃ पुिलस ᳯ रपोट ᭅ से िभ ᭠ न आधार पर संि ᭭ थत वारंट मामल ᲂ के िवचारण क ᳱ ᮧᳰᮓ या के अनुसार करेगा:`
+  line `पर ᭠ तु ऐसे िवचारण म ᱶ आयोग के सद ᭭ य क ᳱ प ᳯ रवादी के ᱨ प म ᱶ या अ ᭠ यथा वैयि ᭍ तक हािजरी अपेि ᭃ त नह ᱭ है।`
+  line `( 6 ) दंड ᮧᳰᮓ या संिहता, 1973 ( 1974 का 2 ) म ᱶ ᳰ कसी बात के होते ᱟ ए भी, उ ᭒ च ᭠ यायालय के ᳰ कसी िनण ᭅ य से उ ᭒ चतम`
+  line `᭠ यायालय म ᱶ, त ᭝ य और िविध दोन ᲂ पर, अपील सािधकार क ᳱ जा सकती है।`
+  line `( 7 ) उपधारा ( 6 ) के अधीन उ ᭒ चतम ᭠ यायालय को ᮧ᭜ ये क अपील, उस िनण ᭅ य क ᳱ तारीख से, िजससे अपील क ᳱ गई है, तीस`
+  line `ᳰ दन क ᳱ अविध के भीतर क ᳱ जाएगी:`
+  line `पर ᭠ तु उ ᭒ चतम ᭠ यायालय उ ᭍ त तीस ᳰ दन क ᳱ अविध क ᳱ समाि ᭡ त के प ᭫ चात् भी अपील ᮕ हण कर सकता है य ᳰ द उसका यह`
+  line `समाधान हो जाता है ᳰ क अपीलाथ ᱮ के पास तीस ᳰ दन क ᳱ अविध के भीतर अपील न करने के िलए पया ᭅ ᭡ त कारण था। ]`
+  line `11. कितपय प ᳯ र ᭭ थितय ᲂ म ᱶ अिधिनयम का अ ᭠ य जांच ᮧ ािधकारण ᲂ को लागू होना — जहां ( ᳰ कसी भी नाम से ᭄ ात) कोई`
+  line `ᮧ ािधकरण, जो धारा 3 के अधीन िनयु ᭍ त आयोग से िभ ᭠ न है, साव ᭅ जिनक मह ᭜ व के ᳰ कसी िनि ᭫ चत मामले क ᳱ जांच करने के ᮧ योजन के`
+  line `िलए समुिचत सरकार के ᳰ कसी संक ᭨ प या आदेश ᳇ ारा बनाया गया है या बनाया जाता है और उस सरकार क ᳱ यह राय है ᳰ क इस`
+  line `अिधिनयम के सब या कोई उपब ᭠ ध उस ᮧ ािधकारण को लागू ᳰ कए जाने चािहए वहां वह सरकार, धारा 3 क ᳱ उपधारा ( 1 ) के पर ᭠ तु क`
+  line `म ᱶ अ ᭠ त ᳶ व ᭬ ट ᮧ ितषेध के अधीन, राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, िनदेश दे सकेगी ᳰ क इस अिधिनयम के उ ᭍ त उपबंध इस ᮧ ािधकरण को`
+  line `लागू ह ᲂ गे, और ऐसी अिधसूचना के जारी होने पर वह ᮧ ािधकरण इस अिधिनयम के ᮧ योजन ᲂ के िलए धारा 3 के अधीन िनयु ᭍ त`
+  line `आयोग समझा जाएगा।`
+  line `12. िनयम बनाने क ᳱ शि ᭍ त  (1 ) समुिचत सरकार इस अिधिनयम के ᮧ योजन ᲂ को काया ᭅ ि ᭠ वत करने के िलए िनयम,`
+  line `राजप ᮢ म ᱶ अिधसूचना ᳇ ारा, बना सकेगी।`
+  line `( 2 ) िविशि ᭬ टयता और पूव ᭅ गामी शि ᭍ त क ᳱ ᭪ यापकता पर ᮧ ितकूल ᮧ भाव डाले िबना ऐसे िनयम िन ᭥ निलिखत सब िवषय ᲂ`
+  line `या उनम ᱶ से ᳰ कसी के िलए उपब ᭠ ध कर सक ᱶ गे, अथा ᭅ त्: —`
+  line `(क) आयोग के सद ᭭ य ᲂ क ᳱ पदाविध और सेवा क ᳱ शत ᱸ;`
+  line `(ख) वह रीित िजसम ᱶ इस अिधिनयम के अधीन जांच क ᳱ जा सकेगी और आयोग ᳇ ारा अपने सम ᭃ काय ᭅ वािहय ᲂ के`
+  line `स ᭥ ब ᭠ ध म ᱶ अनुसरण क ᳱ जाने वाली ᮧᳰᮓ या;`
+  line `(ग) िसिवल ᭠ यायालय क ᳱ वे शि ᭍ तयां जो आयोग म ᱶ िनिहत हो सकेगी;`
+  line `2 [ (गग) धारा 5 ख के अधीन िनयु ᭍ त असेसर ᲂ को और आयोग ᳇ ारा सा ᭯ य देने के िलए या उसके सम ᭃ द ᭭ तावेज`
+  line `ᮧ᭭ तु त करने के िलए, समन ᳰ कए गए ᭪ यि ᭍ तय ᲂ को संदेय या ᮢ ा और अ ᭠ य खच ᱸ। ]`
+  line `(घ) कोई अ ᭠ य िवषय जो िविहत ᳰ कया जाना है या ᳰ कया जाए।`
+  line `3 [ ( 3 ) इस धारा के अधीन के ᭠ ᮤ ीय सरकार ᳇ ारा बनाए गया ᮧ᭜ ये क िनयम, बनाए जाने के प ᭫ चात् यथाशी ᮖ, संसद् के ᮧ᭜ येक`
+  line `सदन के सम ᭃ, जब वह स ᮢ म ᱶ हो कुल तीस ᳰ दन क ᳱ अविध के िलए रखा जाएगा। यह अविध एक स ᮢ म ᱶ अथवा 4 [ दो या अिधक`
+  line `आनु ᮓ िमक स ᮢ ᲂ म ᱶ पूरी हो सकेगी। य ᳰ द उस स ᮢ के या पूव ᲃ᭍ त आनु ᮓ िमक स ᮢ ᲂ के ठीक बाद के स ᮢ के अवसान के पूव ᭅ ] दोन ᲂ सदन`
+  line `उस िनयम म ᱶ कोई प ᳯ रवत ᭅ न करने के िलए सहमत हो जाएं तो त ᭜ प ᭫ चात् वह ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही ᮧ भावी होगा। य ᳰ द उ ᭍ त`
+  line `1 1988 के अिधिनयम सं ० 63 क ᳱ धारा 3 ᳇ ारा उपधारा ( 2 ) के ᭭ थान पर ᮧ ित ᭭ थािपत।`
+  line `2 1988 के अिधिनयम सं ० 63 क ᳱ धारा 4 ᳇ ारा ᮧ ित ᭭ थािपत।`
+  line `3 1971 के अिधिनयम सं ० 79 क ᳱ धारा 14 ᳇ ारा ᮧ ित ᭭ थािपत।`
+  line `4 1986 के अिधिनयम सं ० 4 क ᳱ धारा 2 और अनुसूची ᳇ ारा ( 15-5-1986 से ) कितपय श ᭣ द ᲂ के ᭭ थान पर ᮧ ित ᭭ थािपत। उपधारा ( 3 ) के ᭭ थान पर ᮧ ित ᭭ थािपत। मूल`
+  line `उपधारा ( 3 ) सं ० 79 क ᳱ धारा 14 ᳇ ारा अ ᭠ त: ᭭ थािपत क ᳱ गई थी।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `6
-अवसान के पूव ᭅ दोन ᲂ सदन सहमत हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो त ᭜ प ᭫ चात् वह ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही
-ᮧ भावी होगा। य ᳰ द उ ᭍ त अवसान के पूव ᭅ दोन ᲂ सदन सहमत हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो त ᭜ प ᭫ चात् वह
-िन ᭬ ᮧ भाव हो जाएगा। ᳰ क ᭠ तु िनयम के ऐसे प ᳯ रव ᳶ तत या िन ᭬ ᮧ भाव होने से उसके अधीन पहले क ᳱ गई ᳰ कसी बात क ᳱ िविधमा ᭠ यता
-पर ᮧ ितकूल ᮧ भाव नह ᱭ पड़ेगा। ]
-1 [ ( 4 ) इस धारा के अधीन रा ᭔ य सरकार ᳇ ारा बनाया गया ᮧ᭜ ये क िनयम, बनाए जाने के प ᭫ चात् यथाशी ᮖ, रा ᭔ य
-िवधान - मंडल के सम ᭃ रखा जाएगा। ]
-______
-1 1986 के अिधिनयम सं ० 4 क ᳱ धारा 2 और अनुसूची ᳇ ारा ( 15-5-1986 से ) अ ᭠ त: ᭭ थािपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 6
+  line `अवसान के पूव ᭅ दोन ᲂ सदन सहमत हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो त ᭜ प ᭫ चात् वह ऐसे प ᳯ रव ᳶ तत ᱨ प म ᱶ ही`
+  line `ᮧ भावी होगा। य ᳰ द उ ᭍ त अवसान के पूव ᭅ दोन ᲂ सदन सहमत हो जाएं ᳰ क वह िनयम नह ᱭ बनाया जाना चािहए तो त ᭜ प ᭫ चात् वह`
+  line `िन ᭬ ᮧ भाव हो जाएगा। ᳰ क ᭠ तु िनयम के ऐसे प ᳯ रव ᳶ तत या िन ᭬ ᮧ भाव होने से उसके अधीन पहले क ᳱ गई ᳰ कसी बात क ᳱ िविधमा ᭠ यता`
+  line `पर ᮧ ितकूल ᮧ भाव नह ᱭ पड़ेगा। ]`
+  line `1 [ ( 4 ) इस धारा के अधीन रा ᭔ य सरकार ᳇ ारा बनाया गया ᮧ᭜ ये क िनयम, बनाए जाने के प ᭫ चात् यथाशी ᮖ, रा ᭔ य`
+  line `िवधान - मंडल के सम ᭃ रखा जाएगा। ]`
+  line ______
+  line `1 1986 के अिधिनयम सं ० 4 क ᳱ धारा 2 और अनुसूची ᳇ ारा ( 15-5-1986 से ) अ ᭠ त: ᭭ थािपत।`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line

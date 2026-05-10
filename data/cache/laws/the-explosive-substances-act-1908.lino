@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:22:46.599Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2342`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 7)
-  (str totalSections) (int 7)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:22:46.599Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2342`
+  completeFetch true
+  maxSections null
+  sectionCount 7
+  totalSections 7
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-explosive-substances-act-1908)
-  (str handle) (str 2342)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Explosive Substances Act, 1908`)
-  (str actNumber) (str 06)
-  (str enactmentDate) (str 1908-06-08)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2342`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `विस्‍फोटक पदार्थ अधिनियम, 1908`)
-  (str actYear) (str 1908)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Internal Security`)
-  (str longTitle) (str `An Act farther to amend the law relating to explosive substances.`)
-  (str enforcementDate) (str 08-06-1908)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T14:46:42.163Z`)
-  (str translations) obj_root_law_translations
+  slug the-explosive-substances-act-1908
+  handle (2342)
+  collectionHandle 123456789/1362
+  title `The Explosive Substances Act, 1908`
+  actNumber (06)
+  enactmentDate 1908-06-08
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2342`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `विस्‍फोटक पदार्थ अधिनियम, 1908`
+  actYear (1908)
+  ministry `Ministry of Home Affairs`
+  department `Department of Internal Security`
+  longTitle `An Act farther to amend the law relating to explosive substances.`
+  enforcementDate 08-06-1908
+  notification undefined
+  fetchedAt `2026-05-09T14:46:42.163Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_explosive_substances_act_1908
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2342`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2342`
 obj_root_law_sources_en_the_explosive_substances_act_1908:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2342/1/AAA1908___06.pdf`)
-  (str title) (str `The Explosive Substances Act, 1908`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2342/1/AAA1908___06.pdf`
+  title `The Explosive Substances Act, 1908`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1908
 obj_root_law_sources_hi_1908:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2342/3/H1908-6.pdf`)
-  (str title) (str `विस्‍फोटक पदार्थ अधिनियम, 1908`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2342/3/H1908-6.pdf`
+  title `विस्‍फोटक पदार्थ अधिनियम, 1908`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -69,243 +59,282 @@ obj_root_law_sections:
   obj_root_law_sections_6
   obj_root_law_sections_7
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 36513)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and application.`)
-  (str content) (str `(1) This Act may be called the Explosive Substances
-Act, 1908.
-
-^1
-[(2) It extends to the whole of India ^2
-*** and applies also to citizens of India ^3
-[outside India].]`)
-  (str footnotes) (str `1. Subs. by the A.O. 1950, for sub-section (2).
-
-2. The words and letter "except Part B States" omitted by Act 3 of 1951, s. 3 and the Schedule.
-
-3. Subs. by s. 3 and the Schedule, ibid., for "wherever they may be".`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36513&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00051_190806_1545374878109)
+  sectionId (36513)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and application.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36513&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00051_190806_1545374878109
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Explosive Substances`
+  line `Act, 1908.`
+  line
+  line ^1
+  line `[(2) It extends to the whole of India ^2`
+  line `*** and applies also to citizens of India ^3`
+  line `[outside India].]`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Subs. by the A.O. 1950, for sub-section (2).`
+  line
+  line `2. The words and letter "except Part B States" omitted by Act 3 of 1951, s. 3 and the Schedule.`
+  line
+  line `3. Subs. by s. 3 and the Schedule, ibid., for "wherever they may be".`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 36514)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definition.)
-  (str content) (str `^1In this Act—
-
-(a) the expression "explosive substance" shall be deemed to include any materials for
-making any explosive substance; also any apparatus, machine, implement or material used,
-or intended to be used, or adapted for causing, or aiding in causing, any explosion in or with
-any explosive substance; also any part of any such apparatus, machine or implement;
-
-(b) the expression "special category explosive substance" shall be deemed to include
-research development explosive (RDX), penta erythritol tetra nitrate (PETN), high melting
-explosive (HMX), tri nitro toluene (TNT), low temperature plastic explosive (LTPE),
-composition exploding (CE) (2, 4, 6 phenyl methyl nitramine or tetryl), OCTOL (mixture of
-high melting explosive and tri nitro toluene), plastic explosive kirkee -1 (PEK-1) and
-RDX/TNT compounds and other similar type of explosives and a combination thereof and
-remote control devices causing explosion and any other substance and a combination
-thereof which the Central Government may, by notification in the Official Gazette, specify
-or the purposes of this Act.`)
-  (str footnotes) (str `1. Subs. by Act 54 of 2001, s. 2, for sections 2 to 5 (w.e.f. 1-2-2002).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36514&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00051_190806_1545374878109)
+  sectionId (36514)
+  sectionNo (2)
+  orderNo 2
+  title Definition.
+  content obj_root_law_sections_2_content
+  footnotes `1. Subs. by Act 54 of 2001, s. 2, for sections 2 to 5 (w.e.f. 1-2-2002).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36514&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00051_190806_1545374878109
+obj_root_law_sections_2_content:
+  string
+  line `^1In this Act—`
+  line
+  line `(a) the expression "explosive substance" shall be deemed to include any materials for`
+  line `making any explosive substance; also any apparatus, machine, implement or material used,`
+  line `or intended to be used, or adapted for causing, or aiding in causing, any explosion in or with`
+  line `any explosive substance; also any part of any such apparatus, machine or implement;`
+  line
+  line `(b) the expression "special category explosive substance" shall be deemed to include`
+  line `research development explosive (RDX), penta erythritol tetra nitrate (PETN), high melting`
+  line `explosive (HMX), tri nitro toluene (TNT), low temperature plastic explosive (LTPE),`
+  line `composition exploding (CE) (2, 4, 6 phenyl methyl nitramine or tetryl), OCTOL (mixture of`
+  line `high melting explosive and tri nitro toluene), plastic explosive kirkee -1 (PEK-1) and`
+  line `RDX/TNT compounds and other similar type of explosives and a combination thereof and`
+  line `remote control devices causing explosion and any other substance and a combination`
+  line `thereof which the Central Government may, by notification in the Official Gazette, specify`
+  line `or the purposes of this Act.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 36515)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Punishment for causing explosion likely to endanger life or property.`)
-  (str content) (str `Any person who
-unlawfully and maliciously causes by—
-
-(a) any explosive substance an explosion of a nature likely to endanger life or to cause serious
-injury to property shall, whether any injury to person or property has been actually caused or not, be
-punished with imprisonment for life, or with rigorous imprisonment of either description which shall
-not be less than (ten years, and shall also be liable to fine;
-
-(b) any special category explosive substance an explosion of a nature likely to endanger life or to
-cause serious injury to property shall, whether any injury to person or property has been actually
-caused or not, be punished with death, or rigorous imprisonment for life, and shall also be liable to
-fine.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36515&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00051_190806_1545374878109)
+  sectionId (36515)
+  sectionNo (3)
+  orderNo 3
+  title `Punishment for causing explosion likely to endanger life or property.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36515&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00051_190806_1545374878109
+obj_root_law_sections_3_content:
+  string
+  line `Any person who`
+  line `unlawfully and maliciously causes by—`
+  line
+  line `(a) any explosive substance an explosion of a nature likely to endanger life or to cause serious`
+  line `injury to property shall, whether any injury to person or property has been actually caused or not, be`
+  line `punished with imprisonment for life, or with rigorous imprisonment of either description which shall`
+  line `not be less than (ten years, and shall also be liable to fine;`
+  line
+  line `(b) any special category explosive substance an explosion of a nature likely to endanger life or to`
+  line `cause serious injury to property shall, whether any injury to person or property has been actually`
+  line `caused or not, be punished with death, or rigorous imprisonment for life, and shall also be liable to`
+  line fine.
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 36520)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Punishment for attempt to cause explosion, or for making or keeping explosive with intent to endanger life or property.`)
-  (str content) (str `Any person who unlawfully and maliciously—
-
-(a) does any act with intent to cause by an explosive substance or special category explosive
-substance, or conspires lo cause by an explosive substance or special category explosive substance,
-an explosion of a nature likely to endanger life or to cause serious injury to property; or
-
-(b) makes or has in his possession or under his control any explosive substance or special
-category explosive substance with intent by means thereof to endanger life, or cause serious injury to
-property, or to enable any other person by means thereof to endanger life or cause serious injury to
-property in India,
-
-shall, whether any explosion does or does not take place and whether any injury to person or property has
-been actually caused or not, be punished,—
-
-(i) in the case of any explosive substance, with imprisonment for life, or with imprisonment
-of either description for a term which may extend to ten years, and shall also be liable to fine;
-
-(ii) in the case of any special category explosive substance, with rigorous imprisonment for
-life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be
-liable to fine.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36520&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00051_190806_1545374878109)
+  sectionId (36520)
+  sectionNo (4)
+  orderNo 4
+  title `Punishment for attempt to cause explosion, or for making or keeping explosive with intent to endanger life or property.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36520&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00051_190806_1545374878109
+obj_root_law_sections_4_content:
+  string
+  line `Any person who unlawfully and maliciously—`
+  line
+  line `(a) does any act with intent to cause by an explosive substance or special category explosive`
+  line `substance, or conspires lo cause by an explosive substance or special category explosive substance,`
+  line `an explosion of a nature likely to endanger life or to cause serious injury to property; or`
+  line
+  line `(b) makes or has in his possession or under his control any explosive substance or special`
+  line `category explosive substance with intent by means thereof to endanger life, or cause serious injury to`
+  line `property, or to enable any other person by means thereof to endanger life or cause serious injury to`
+  line `property in India,`
+  line
+  line `shall, whether any explosion does or does not take place and whether any injury to person or property has`
+  line `been actually caused or not, be punished,—`
+  line
+  line `(i) in the case of any explosive substance, with imprisonment for life, or with imprisonment`
+  line `of either description for a term which may extend to ten years, and shall also be liable to fine;`
+  line
+  line `(ii) in the case of any special category explosive substance, with rigorous imprisonment for`
+  line `life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be`
+  line `liable to fine.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 36517)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Punishment for making or possessing explosives under suspicious circumstances.`)
-  (str content) (str `Any
-person who makes or knowingly has in his possession or under his control any explosive substance or
-special category explosive substance, under such circumstances as to give rise to a reasonable suspicion
-that he is not making it or does not have it in his possession or under his control for a lawful object, shall,
-unless he can show that he made it or had it in his possession or under his control for a lawful object, be
-punished,—
-
-(a) in the case of any explosive substance, with imprisonment for a term which may extend to ten
-years, and shall also be liable to fine;
-
-(b) in the case of any special category explosive substance, with rigorous imprisonment for life,
-or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to
-fine.]`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36517&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00051_190806_1545374878109)
+  sectionId (36517)
+  sectionNo (5)
+  orderNo 5
+  title `Punishment for making or possessing explosives under suspicious circumstances.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36517&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00051_190806_1545374878109
+obj_root_law_sections_5_content:
+  string
+  line Any
+  line `person who makes or knowingly has in his possession or under his control any explosive substance or`
+  line `special category explosive substance, under such circumstances as to give rise to a reasonable suspicion`
+  line `that he is not making it or does not have it in his possession or under his control for a lawful object, shall,`
+  line `unless he can show that he made it or had it in his possession or under his control for a lawful object, be`
+  line punished,—
+  line
+  line `(a) in the case of any explosive substance, with imprisonment for a term which may extend to ten`
+  line `years, and shall also be liable to fine;`
+  line
+  line `(b) in the case of any special category explosive substance, with rigorous imprisonment for life,`
+  line `or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to`
+  line fine.]
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 36518)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Punishment of abettors.`)
-  (str content) (str `Any person who by the supply or solicitation for money, the providing
-of premises, the supply of materials, or in any manner whatsoever, procures, counsels, aids, abets, or is
-accessory to, the commission of any offence under this Act shall be punished with the punishment
-provided for the offence.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36518&sectionno=6&orderno=6&orgactid=AC_CEN_5_23_00051_190806_1545374878109)
+  sectionId (36518)
+  sectionNo (6)
+  orderNo 6
+  title `Punishment of abettors.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36518&sectionno=6&orderno=6&orgactid=AC_CEN_5_23_00051_190806_1545374878109
+obj_root_law_sections_6_content:
+  string
+  line `Any person who by the supply or solicitation for money, the providing`
+  line `of premises, the supply of materials, or in any manner whatsoever, procures, counsels, aids, abets, or is`
+  line `accessory to, the commission of any offence under this Act shall be punished with the punishment`
+  line `provided for the offence.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 36519)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Restriction on trial of offences.`)
-  (str content) (str `No court shall proceed to the trial of any person for an offence
-against this Act except with the consent of ^1
-*** the ^2
-[District Magistrate].`)
-  (str footnotes) (str `1. The words "the L.G. or" rep. by the A.O. 1937.
-
-2. Subs. by Act 54 of 2001, s. 3, for "Central Government" (w.e.f. 1-2-2002).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36519&sectionno=7&orderno=7&orgactid=AC_CEN_5_23_00051_190806_1545374878109)
+  sectionId (36519)
+  sectionNo (7)
+  orderNo 7
+  title `Restriction on trial of offences.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00051_190806_1545374878109&sectionId=36519&sectionno=7&orderno=7&orgactid=AC_CEN_5_23_00051_190806_1545374878109
+obj_root_law_sections_7_content:
+  string
+  line `No court shall proceed to the trial of any person for an offence`
+  line `against this Act except with the consent of ^1`
+  line `*** the ^2`
+  line `[District Magistrate].`
+obj_root_law_sections_7_footnotes:
+  string
+  line `1. The words "the L.G. or" rep. by the A.O. 1937.`
+  line
+  line `2. Subs. by Act 54 of 2001, s. 3, for "Central Government" (w.e.f. 1-2-2002).`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `विस्‍फोटक पदार्थ अधिनियम, 1908`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2342/3/H1908-6.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:22:45.497Z`)
-  (str pageCount) (int 2)
-  (str sections) obj_root_law_translations_hi_sections
+  title `विस्‍फोटक पदार्थ अधिनियम, 1908`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2342/3/H1908-6.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:22:45.497Z`
+  pageCount 2
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `विस्फो ट क पदार्थअविवियम, 19 08 1
-( 19 08 काअविवियमसंखयां क 6 )
-[ 8 जूि, 19 08 ]
-विस्फो टकपदार्ोंसेसम्ब वि तविविको
-औरसंशोवितकरिेकेविए
-अविवियम
-विस्फो टकपदार्ोंसेसंबंवितविविकोऔरसंशोवितकरिाआिश्य कहै, अत: एतद द्व ारा विम्ि विवितरूपमेंयहअ विवियवमत
-ककयाजाताहै: —
-1. संविप्त िाम, विस्ता रऔरिागूहोिा — ( 1 )यहअविवियमविस्फो टकपदार्थअविवियम, 1908 कहाजासकेगा।
-2 [ ( 2 )इसकावि स् ता रसंपूर्थभारतपरहै 3 ***, औरयह 4 [ भारतकेबाहर ] भारतकेिागररकोंकोभीिागू होताहै। ]
-5 [ 2. पररभाषाएं — इसअ विवियममें —
-(क) “ विस्फो ट क पदार्थ ” पदकेअत गथत कोईविस्फो टकपदार्थबिािेकेविएकोईसामग्री, ककसीविस्फो टकपदार्थमें
-याउससेविस्फो टकाररतकरिे याकाररतकरिे मेंप्रयुक्त याप्रयुक्त ककएजािेकेविएआशवयतयाअिु कूवितयाकाररतकरिे
-मेंसहायताकेवि एकोईसावित्र, मशीि, उपकरर्यासामग्रीभी तर्ाऐसेककसीसावित्र, मशीिया उपकरर्काकाईभागभी
-समझाजाएगा;
-(ि) “ विशेषप्रिगथकेविस्फो टकपदार्थ ” पदकेअत गथत अिुसंिािविकासविस्फो टक(आर ० डी ० एक्स ०), पेंटा
-एररथ्रीटािटेट्रािाइट्रेट(पी ० ई ० टी ० एि ०), उ च् च गििविस्फो टक(एच ० एम ० एक्स ०), ट्र ीिाइट्रोटाल्यू इि(टी ० एि ० टी ०),
-विम्ि तापप्िा वस्ट कविस्फो टक(एि ० टी ० पी ० ई ०) सवम्म श्रर् विस्फो टि(सी ० ई ०)( 2, 4, 6 कफिाइिवमर्ाइििाइट्रामाइि
-याटैरट्रि), ओ ० सी ० टी ० ओ ० एि ० (उच्च गििविस्फो टकऔरिाइट्रोटाल्यू इिकावमश्रर्)प्िा वस्ट कविस्फो टकककरकी - 1
-(पी ० ई ० के ० - 1 )औरआर ० डी ० एक्स ० / टी ० एि ० टी ० सवम्म श्रर् तर्ाअय उसीप्रकारकेविस्फो टकों औरउिकासंयोजि
-तर्ाविस्फो टकाररतकरिेिािीसुदूरवियंत्रर्युवक्त यांऔरऐसाकोईअय पदार्थतर्ाउ स कासवम्म श्रर्, वज सेकेरी य
-सरकार, राजपत्रमेंअविसूचिाद्वाराइसअविवियमकेप्रयोजिोंकेविएविविर्दथष्ट करे, भीसमझाजाएगा।
-3. जीिियासम्प विकोजोविममेंडाििे िािाविस्फो टकाररतकरिेकेविएदंड — कोईव्य वक्त जोविविविरुद्धत:और
-विद्वेषत: —
-(क)ककसीविस्फो टकपदार्थद्वाराइसप्रकारकाविस्फो टकाररतकरेगावजससेजीििकेितरेमेंपड़िेयाककसीसंपवि
-कोगम्भी रिवतहोिेकीसंभाव्य ताहै, िह, चाहेककसीव्य वक्त यासंपविकोिस्तु त:कोईिवतहुईहोअर्िािहीं, आजीिि
-कारािाससेया दोिोंमेंसेककसीभांवतकेकठोरकारािाससे, वजसकीअिविदसिषथसेकमिहींहोगी, दंवडतककयाजाएगा
-औरजुमाथिेकाभीदायीहोगा;
-(ि)ककसीविशेषप्रिगथकेविस्फो टकपदार्थद्वाराइसप्रकारकाविस्फो टकाररतकरेगावजससेजीििकेितरेमेंपड़िे
-यासंपविको गंभीरिवतहोिेकीसम्भा व् य ताहै, िह, चाहेककसीव्य वक्त याककसीसंपविकोिस्तु त:कोईिवतहुईहोअर्िा
-िहीं, मृत्यु याकठोरआजीििकारािाससेदंवडतककयाजाएगाऔरजुमाथिेकाभीदायीहोगा।
-4. विस्फो टकाररतकरिेकेप्रयत्ि केविएयाजीिियासंपवि कोजोविममेंडाििेकेआशयसेविस्फो टकबिािेयारििेके
-विएदंड — कोईव्य वक्त जोविविविरुद्धत:औरविद्वेष त: —
-1 इसअविवियमकाविस्ता रर् 1962 केविवियमसं ० 12 कीिारा 3 औरअिुसूचीद्वारागोिा, दमर्औरदीिपरककयागयाऔर 1963 केविवियमसं ० 7 कीिारा (3) और
-पहिीअिुसूचीद्वा रापांवडचेरीपरतर्ा 1963 केविवियमसं ० 6 कीिारा 2 औरपहिीअिुसूचीद्वारादादराऔरिागरहिेिीपरतर्ा 1965 केविवियमसं ० 8 की
-िारा 3 औरअिुसूचीद्वारा( 1 - 10 - 1967 से)संपूर्थििद्वीपसंघराज्य िेत्रपर; औरअविसूचिासं ० सा ० का ० वि ० 201, तारीि 30 - 1 - 1976 द्व ारावसवक्क मराज्य परिागू
-ककयागया।
-2 विविअिुकूििआदेश, 1950 द्व ारापूिथितीउपिाराकेस्र्ा िपरप्रवतस्र्ा वपत।
-3 1951 केअविवियमसं ० 3 कीिारा 3 औरअिुसूचीद्वारा “ भागिराज्यों केवसिाय ” शब्द विरवसत।
-4 1951 केअविवियमसं ० 3 कीिा रा 3 औरअिुसूचीद्वारा “ जहांकहीं परभीिेहों ” शब्दों केस्र्ा िपरप्रवतस्र्ा वपत।
-5 2001 केअविवियमसं ० 54 कीिारा 2 द्व ारा(िाराओं 2 से 5 केस्र्ा िपर)प्रवतस्र्ा वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `विस्फो ट क पदार्थअविवियम, 19 08 1`
+  line `( 19 08 काअविवियमसंखयां क 6 )`
+  line `[ 8 जूि, 19 08 ]`
+  line `विस्फो टकपदार्ोंसेसम्ब वि तविविको`
+  line औरसंशोवितकरिेकेविए
+  line अविवियम
+  line `विस्फो टकपदार्ोंसेसंबंवितविविकोऔरसंशोवितकरिाआिश्य कहै, अत: एतद द्व ारा विम्ि विवितरूपमेंयहअ विवियवमत`
+  line `ककयाजाताहै: —`
+  line `1. संविप्त िाम, विस्ता रऔरिागूहोिा — ( 1 )यहअविवियमविस्फो टकपदार्थअविवियम, 1908 कहाजासकेगा।`
+  line `2 [ ( 2 )इसकावि स् ता रसंपूर्थभारतपरहै 3 ***, औरयह 4 [ भारतकेबाहर ] भारतकेिागररकोंकोभीिागू होताहै। ]`
+  line `5 [ 2. पररभाषाएं — इसअ विवियममें —`
+  line `(क) “ विस्फो ट क पदार्थ ” पदकेअत गथत कोईविस्फो टकपदार्थबिािेकेविएकोईसामग्री, ककसीविस्फो टकपदार्थमें`
+  line `याउससेविस्फो टकाररतकरिे याकाररतकरिे मेंप्रयुक्त याप्रयुक्त ककएजािेकेविएआशवयतयाअिु कूवितयाकाररतकरिे`
+  line `मेंसहायताकेवि एकोईसावित्र, मशीि, उपकरर्यासामग्रीभी तर्ाऐसेककसीसावित्र, मशीिया उपकरर्काकाईभागभी`
+  line समझाजाएगा;
+  line `(ि) “ विशेषप्रिगथकेविस्फो टकपदार्थ ” पदकेअत गथत अिुसंिािविकासविस्फो टक(आर ० डी ० एक्स ०), पेंटा`
+  line `एररथ्रीटािटेट्रािाइट्रेट(पी ० ई ० टी ० एि ०), उ च् च गििविस्फो टक(एच ० एम ० एक्स ०), ट्र ीिाइट्रोटाल्यू इि(टी ० एि ० टी ०),`
+  line `विम्ि तापप्िा वस्ट कविस्फो टक(एि ० टी ० पी ० ई ०) सवम्म श्रर् विस्फो टि(सी ० ई ०)( 2, 4, 6 कफिाइिवमर्ाइििाइट्रामाइि`
+  line `याटैरट्रि), ओ ० सी ० टी ० ओ ० एि ० (उच्च गििविस्फो टकऔरिाइट्रोटाल्यू इिकावमश्रर्)प्िा वस्ट कविस्फो टकककरकी - 1`
+  line `(पी ० ई ० के ० - 1 )औरआर ० डी ० एक्स ० / टी ० एि ० टी ० सवम्म श्रर् तर्ाअय उसीप्रकारकेविस्फो टकों औरउिकासंयोजि`
+  line `तर्ाविस्फो टकाररतकरिेिािीसुदूरवियंत्रर्युवक्त यांऔरऐसाकोईअय पदार्थतर्ाउ स कासवम्म श्रर्, वज सेकेरी य`
+  line `सरकार, राजपत्रमेंअविसूचिाद्वाराइसअविवियमकेप्रयोजिोंकेविएविविर्दथष्ट करे, भीसमझाजाएगा।`
+  line `3. जीिियासम्प विकोजोविममेंडाििे िािाविस्फो टकाररतकरिेकेविएदंड — कोईव्य वक्त जोविविविरुद्धत:और`
+  line `विद्वेषत: —`
+  line `(क)ककसीविस्फो टकपदार्थद्वाराइसप्रकारकाविस्फो टकाररतकरेगावजससेजीििकेितरेमेंपड़िेयाककसीसंपवि`
+  line `कोगम्भी रिवतहोिेकीसंभाव्य ताहै, िह, चाहेककसीव्य वक्त यासंपविकोिस्तु त:कोईिवतहुईहोअर्िािहीं, आजीिि`
+  line `कारािाससेया दोिोंमेंसेककसीभांवतकेकठोरकारािाससे, वजसकीअिविदसिषथसेकमिहींहोगी, दंवडतककयाजाएगा`
+  line औरजुमाथिेकाभीदायीहोगा;
+  line `(ि)ककसीविशेषप्रिगथकेविस्फो टकपदार्थद्वाराइसप्रकारकाविस्फो टकाररतकरेगावजससेजीििकेितरेमेंपड़िे`
+  line `यासंपविको गंभीरिवतहोिेकीसम्भा व् य ताहै, िह, चाहेककसीव्य वक्त याककसीसंपविकोिस्तु त:कोईिवतहुईहोअर्िा`
+  line `िहीं, मृत्यु याकठोरआजीििकारािाससेदंवडतककयाजाएगाऔरजुमाथिेकाभीदायीहोगा।`
+  line `4. विस्फो टकाररतकरिेकेप्रयत्ि केविएयाजीिियासंपवि कोजोविममेंडाििेकेआशयसेविस्फो टकबिािेयारििेके`
+  line `विएदंड — कोईव्य वक्त जोविविविरुद्धत:औरविद्वेष त: —`
+  line `1 इसअविवियमकाविस्ता रर् 1962 केविवियमसं ० 12 कीिारा 3 औरअिुसूचीद्वारागोिा, दमर्औरदीिपरककयागयाऔर 1963 केविवियमसं ० 7 कीिारा (3) और`
+  line `पहिीअिुसूचीद्वा रापांवडचेरीपरतर्ा 1963 केविवियमसं ० 6 कीिारा 2 औरपहिीअिुसूचीद्वारादादराऔरिागरहिेिीपरतर्ा 1965 केविवियमसं ० 8 की`
+  line `िारा 3 औरअिुसूचीद्वारा( 1 - 10 - 1967 से)संपूर्थििद्वीपसंघराज्य िेत्रपर; औरअविसूचिासं ० सा ० का ० वि ० 201, तारीि 30 - 1 - 1976 द्व ारावसवक्क मराज्य परिागू`
+  line ककयागया।
+  line `2 विविअिुकूििआदेश, 1950 द्व ारापूिथितीउपिाराकेस्र्ा िपरप्रवतस्र्ा वपत।`
+  line `3 1951 केअविवियमसं ० 3 कीिारा 3 औरअिुसूचीद्वारा “ भागिराज्यों केवसिाय ” शब्द विरवसत।`
+  line `4 1951 केअविवियमसं ० 3 कीिा रा 3 औरअिुसूचीद्वारा “ जहांकहीं परभीिेहों ” शब्दों केस्र्ा िपरप्रवतस्र्ा वपत।`
+  line `5 2001 केअविवियमसं ० 54 कीिारा 2 द्व ारा(िाराओं 2 से 5 केस्र्ा िपर)प्रवतस्र्ा वपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-(क)इसप्रकारकाविस्फो ट, वजससेजीििकेितरेमेंपड़िेयासंपविकोगंभीरिवतहोिेकीसम्भा व् य ताहै, ककसी
-विस्फो टकपदार्थयाविशेषप्रिगथ केविस्फो टकपदार्थद्वाराकाररतकर िेकेआशयसेकोईकायथकरेगायाककसीविस्फो टकपदार्थ
-याविशेषप्रिगथकेविस्फो टकपदार्थद्वाराकाररतकरिेकेविएषड्यंत्रकरेगा; या
-(ि)कोईविस्फो ट क पदार्थयाविशेषप्रिगथकाविस्फो टकपदार्थइसआशयसेबिाएगाया अपिेपासरिेगायाअपिे
-वियंत्रर्ािीिरिेगाककउसकेद्वारािहजीििकोजोविममेंडािेयासंपविकोगंभीरिवतकाररतकरेअर्िाउसकेद्वाराककसी
-अय व् य वक्त कोभारतमेंजीििकोजोविममेंडाििेयासपविकोगंभीरिवतकाररतकरिेकेविएसमर्थबिाए,
-चाहेकोईविस्फो टहोताहैयािहींऔरचाहेककसीव्य वक्त यासंपविकोिस्तु त:कोईिवतहुईहोअर्िािहीं —
-( i )ककसीविस्फो टकपदार्थकीदशामें, आजीििकारािाससे, यादोिोंमेंसेककसीभांवतकेकारािाससेवजसकी
-अिविदसिषथतककीहोसकेगी, दंवडतककयाजाएगा औरजुमाथिेकाभीदायीहोगा;
-( ii )ककसीविशेषप्रिगथकेविस्फो टकपदार्थकीदशामें, कठोरआजीििकारािाससेयाऐसेकठोरकारािाससे,
-वजसकीअिविदसिषथतककीहोसकेगी, दंवडतककयाजाएगाऔरजुमाथिेकाभीदायीहोगा।
-5. संकदग्ि पररवस्र् वतयोंमेंविस्फो ट कपदार्थबिािेयाअपिेपासरििेकेविएदंड — कोईव्य वक्त जोऐसीपररवस्र् वतयोंमेंकोई
-विस्फो टकपदार्थयाविशेषप्रिगथकाविस्फो टकपदार्थबिाताहैयाजािबू झक रअपिेपासरिताहै
-याअपिेवियंत्रर्ािीिरिताहैवजससेयुवक्त युक्त रू पसेयहसंदेहउत्प ि हो ताहैककिहउसेविविपूर्थउद्देश्य केविएिहींबिारहाहै
-याअपिेपासिहींरिरहाहैयाअपिेवियंत्रर्ािीििहींरिरहाहैजबतकककिहयहदर्शथतिहींकरसकताककउसिेउसेविविपूर्थ
-उद्देश्य केविएबिायाहैयाअपिेपासरिा हैयाअपिेवियंत्रर्ािीिरिाहै —
-(क) ककसीविस्फो टकपदार्थकीदशामें, ऐसेकारािाससेवजसकीअिविदसिषथतककीहोसकेगी, दंवडतककया
-जाएगाऔरजुमाथिेकाभीदायीहोगा;
-(ि)ककसीविशेषप्रिगथकेविस्फो टकपदार्थकीदशामें, कठोरआजीििकारािाससेयाऐसेकठोरकारािाससे,
-वजसकीअिविदसिषथतक कीहोसकेगी, दंवडतककयाजाएगा औरजुमाथिेकाभीदायीहोगा। ]
-6. दुष्प्रे रकोंकोदण्ड — कोईव्य वक्त जोििकेप्रदाययायाचिाद्वारा, पररसर उपिब्ि कराके, सामग्रीकेप्रदायद्वारा, याअय
-ककसीभीरीवतसेइसअविवियमकेअिीिककसीअपरािकोकराताहै, उसके ककएजािेकेविएमंत्रर्ादेताहै, सहायताकरताहै, दुष्प्रे रर्
-करताहै, याउसकाउपसािकहोताहै, उसअपरािकेविएउपबंवितदंडसेदंवडतककयाजाएगा।
-7. अपरािोंकेविचारर्परविबथि ि — इसअविवियमकेविरुद्धककसीअपरािकेविएककसीव्य वक्त केविचारर्केविएको ई
-या यािय 1 *** 2 [ वजिामवजस्ट्रे ट ] कीस म् म वत केवबिाकायथिाहीिहींकरेगा।
-______
-1 भारतशासि(भारतीयविविअिुकूिि)आदेश, 1937 द्व ारा “ स्र् ा िीयसरकारया ” शब्द विरवस तककएगए।
-2 2001 केअविवियमसं ० 54 कीिारा 3 द्व ाराप्रवतस्र्ा वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `(क)इसप्रकारकाविस्फो ट, वजससेजीििकेितरेमेंपड़िेयासंपविकोगंभीरिवतहोिेकीसम्भा व् य ताहै, ककसी`
+  line `विस्फो टकपदार्थयाविशेषप्रिगथ केविस्फो टकपदार्थद्वाराकाररतकर िेकेआशयसेकोईकायथकरेगायाककसीविस्फो टकपदार्थ`
+  line `याविशेषप्रिगथकेविस्फो टकपदार्थद्वाराकाररतकरिेकेविएषड्यंत्रकरेगा; या`
+  line `(ि)कोईविस्फो ट क पदार्थयाविशेषप्रिगथकाविस्फो टकपदार्थइसआशयसेबिाएगाया अपिेपासरिेगायाअपिे`
+  line वियंत्रर्ािीिरिेगाककउसकेद्वारािहजीििकोजोविममेंडािेयासंपविकोगंभीरिवतकाररतकरेअर्िाउसकेद्वाराककसी
+  line `अय व् य वक्त कोभारतमेंजीििकोजोविममेंडाििेयासपविकोगंभीरिवतकाररतकरिेकेविएसमर्थबिाए,`
+  line `चाहेकोईविस्फो टहोताहैयािहींऔरचाहेककसीव्य वक्त यासंपविकोिस्तु त:कोईिवतहुईहोअर्िािहीं —`
+  line `( i )ककसीविस्फो टकपदार्थकीदशामें, आजीििकारािाससे, यादोिोंमेंसेककसीभांवतकेकारािाससेवजसकी`
+  line `अिविदसिषथतककीहोसकेगी, दंवडतककयाजाएगा औरजुमाथिेकाभीदायीहोगा;`
+  line `( ii )ककसीविशेषप्रिगथकेविस्फो टकपदार्थकीदशामें, कठोरआजीििकारािाससेयाऐसेकठोरकारािाससे,`
+  line `वजसकीअिविदसिषथतककीहोसकेगी, दंवडतककयाजाएगाऔरजुमाथिेकाभीदायीहोगा।`
+  line `5. संकदग्ि पररवस्र् वतयोंमेंविस्फो ट कपदार्थबिािेयाअपिेपासरििेकेविएदंड — कोईव्य वक्त जोऐसीपररवस्र् वतयोंमेंकोई`
+  line `विस्फो टकपदार्थयाविशेषप्रिगथकाविस्फो टकपदार्थबिाताहैयाजािबू झक रअपिेपासरिताहै`
+  line `याअपिेवियंत्रर्ािीिरिताहैवजससेयुवक्त युक्त रू पसेयहसंदेहउत्प ि हो ताहैककिहउसेविविपूर्थउद्देश्य केविएिहींबिारहाहै`
+  line याअपिेपासिहींरिरहाहैयाअपिेवियंत्रर्ािीििहींरिरहाहैजबतकककिहयहदर्शथतिहींकरसकताककउसिेउसेविविपूर्थ
+  line `उद्देश्य केविएबिायाहैयाअपिेपासरिा हैयाअपिेवियंत्रर्ािीिरिाहै —`
+  line `(क) ककसीविस्फो टकपदार्थकीदशामें, ऐसेकारािाससेवजसकीअिविदसिषथतककीहोसकेगी, दंवडतककया`
+  line जाएगाऔरजुमाथिेकाभीदायीहोगा;
+  line `(ि)ककसीविशेषप्रिगथकेविस्फो टकपदार्थकीदशामें, कठोरआजीििकारािाससेयाऐसेकठोरकारािाससे,`
+  line `वजसकीअिविदसिषथतक कीहोसकेगी, दंवडतककयाजाएगा औरजुमाथिेकाभीदायीहोगा। ]`
+  line `6. दुष्प्रे रकोंकोदण्ड — कोईव्य वक्त जोििकेप्रदाययायाचिाद्वारा, पररसर उपिब्ि कराके, सामग्रीकेप्रदायद्वारा, याअय`
+  line `ककसीभीरीवतसेइसअविवियमकेअिीिककसीअपरािकोकराताहै, उसके ककएजािेकेविएमंत्रर्ादेताहै, सहायताकरताहै, दुष्प्रे रर्`
+  line `करताहै, याउसकाउपसािकहोताहै, उसअपरािकेविएउपबंवितदंडसेदंवडतककयाजाएगा।`
+  line `7. अपरािोंकेविचारर्परविबथि ि — इसअविवियमकेविरुद्धककसीअपरािकेविएककसीव्य वक्त केविचारर्केविएको ई`
+  line `या यािय 1 *** 2 [ वजिामवजस्ट्रे ट ] कीस म् म वत केवबिाकायथिाहीिहींकरेगा।`
+  line ______
+  line `1 भारतशासि(भारतीयविविअिुकूिि)आदेश, 1937 द्व ारा “ स्र् ा िीयसरकारया ” शब्द विरवस तककएगए।`
+  line `2 2001 केअविवियमसं ० 54 कीिारा 3 द्व ाराप्रवतस्र्ा वपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line

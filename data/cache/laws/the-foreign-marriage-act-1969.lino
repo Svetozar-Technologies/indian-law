@@ -1,72 +1,64 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:27:37.972Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1720`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 30)
-  (str totalSections) (int 30)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:27:37.972Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1720`
+  completeFetch true
+  maxSections null
+  sectionCount 30
+  totalSections 30
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-foreign-marriage-act-1969)
-  (str handle) (str 1720)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Foreign Marriage Act, 1969`)
-  (str actNumber) (str 33)
-  (str enactmentDate) (str 1969-08-31)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1720`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `विदेशीय विवाह अधिनियम, 1969`)
-  (str actYear) (str 1969)
-  (str ministry) (str `Ministry of External Affairs`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act to make provision relating to marriages of citizens of India outside India.`)
-  (str enforcementDate) (str 31-08-1969)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T18:03:36.606Z`)
-  (str translations) obj_root_law_translations
+  slug the-foreign-marriage-act-1969
+  handle (1720)
+  collectionHandle 123456789/1362
+  title `The Foreign Marriage Act, 1969`
+  actNumber (33)
+  enactmentDate 1969-08-31
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1720`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `विदेशीय विवाह अधिनियम, 1969`
+  actYear (1969)
+  ministry `Ministry of External Affairs`
+  department undefined
+  longTitle `An Act to make provision relating to marriages of citizens of India outside India.`
+  enforcementDate 31-08-1969
+  notification undefined
+  fetchedAt `2026-05-09T18:03:36.606Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_foreign_marriage_act_1969
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1720`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1720`
 obj_root_law_sources_en_the_foreign_marriage_act_1969:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1720/1/aA1969-33.pdf`)
-  (str title) (str `The Foreign Marriage Act, 1969`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1720/1/aA1969-33.pdf`
+  title `The Foreign Marriage Act, 1969`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00029_196933_1517807324405/rulesindividualfile/&file=The+Foreing+Marriage+Rules%2C+1970.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00029_196933_1517807324405/rulesindividualfile/&file=The+Foreing+Marriage+Rules%2C+1970.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1969
 obj_root_law_sources_hi_1969:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1720/2/h1969-33.pdf`)
-  (str title) (str `विदेशीय विवाह अधिनियम, 1969`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1720/2/h1969-33.pdf`
+  title `विदेशीय विवाह अधिनियम, 1969`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -98,639 +90,774 @@ obj_root_law_sections:
   obj_root_law_sections_29
   obj_root_law_sections_30
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 15796)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title.`)
-  (str content) (str `This Act may be called the Foreign Marriage Act, 1969.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15796&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15796)
+  sectionNo (1)
+  orderNo 1
+  title `Short title.`
+  content `This Act may be called the Foreign Marriage Act, 1969.`
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15796&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 15797)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "degrees of prohibited relationship" shall have the same meaning as in the Special Marriage
-Act, 1954 (43 of 1954);
-
-(b) "district", in relation to a Marriage Officer, means the area within which the duties of his
-office are to be discharged;
-
-(c) "foreign country" means a country or place outside India, and includes a ship which is for the
-time being in the territorial waters of such a country or place;
-
-(d) "Marriage Officer" means a person appointed under section 3 to be a Marriage Officer;
-
-(e) "official house", in relation to a Marriage Officer, means--
-
-(i) the official house of residence of the officer;
-
-(ii) the office in which the business of the officer is transacted;
-
-(iii) a prescribed place; and
-
-(f) "prescribed" means prescribed by rules made under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15797&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15797)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15797&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "degrees of prohibited relationship" shall have the same meaning as in the Special Marriage`
+  line `Act, 1954 (43 of 1954);`
+  line
+  line `(b) "district", in relation to a Marriage Officer, means the area within which the duties of his`
+  line `office are to be discharged;`
+  line
+  line `(c) "foreign country" means a country or place outside India, and includes a ship which is for the`
+  line `time being in the territorial waters of such a country or place;`
+  line
+  line `(d) "Marriage Officer" means a person appointed under section 3 to be a Marriage Officer;`
+  line
+  line `(e) "official house", in relation to a Marriage Officer, means--`
+  line
+  line `(i) the official house of residence of the officer;`
+  line
+  line `(ii) the office in which the business of the officer is transacted;`
+  line
+  line `(iii) a prescribed place; and`
+  line
+  line `(f) "prescribed" means prescribed by rules made under this Act.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 15798)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Marriage Officers.`)
-  (str content) (str `For the purposes of this Act, the Central Government may, by notification in
-the Official Gazette, appoint such of its diplomatic or consular officers as it may think fit to be Marriage
-Officers for any foreign country.
-
-Explanation.--In this section, "diplomatic officer" means an ambassador, envoy, minister, high
-commissioner, commissioner, charge d' affairs or other diplomatic representative or a counsellor or
-secretary of an embassy, legation or high commission.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15798&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15798)
+  sectionNo (3)
+  orderNo 3
+  title `Marriage Officers.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15798&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_3_content:
+  string
+  line `For the purposes of this Act, the Central Government may, by notification in`
+  line `the Official Gazette, appoint such of its diplomatic or consular officers as it may think fit to be Marriage`
+  line `Officers for any foreign country.`
+  line
+  line `Explanation.--In this section, "diplomatic officer" means an ambassador, envoy, minister, high`
+  line `commissioner, commissioner, charge d' affairs or other diplomatic representative or a counsellor or`
+  line `secretary of an embassy, legation or high commission.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 15799)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Conditions relating to solemnization of foreign marriages.`)
-  (str content) (str `A marriage between parties one of
-whom at least is a citizen of India may be solemnized under this Act by or before a Marriage Officer in a
-foreign country, if, at the time of the marriage, the following conditions are fulfilled, namely:--
-
-(a) neither party has a spouse living,
-
-(b) neither party is an idiot or a lunatic,
-
-(c) the bridegroom has completed the age of twenty-one years and the bride the age of eighteen
-years at the time of the marriage, and
-
-(d) the parties are not within the degrees of prohibited relationship:
-
-Provided that where the personal law or a custom governing at least one of the parties permits of a
-marriage between them, such marriage may be solemnized, notwithstanding that they are within the
-degrees of prohibited relationship.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15799&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15799)
+  sectionNo (4)
+  orderNo 4
+  title `Conditions relating to solemnization of foreign marriages.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15799&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_4_content:
+  string
+  line `A marriage between parties one of`
+  line `whom at least is a citizen of India may be solemnized under this Act by or before a Marriage Officer in a`
+  line `foreign country, if, at the time of the marriage, the following conditions are fulfilled, namely:--`
+  line
+  line `(a) neither party has a spouse living,`
+  line
+  line `(b) neither party is an idiot or a lunatic,`
+  line
+  line `(c) the bridegroom has completed the age of twenty-one years and the bride the age of eighteen`
+  line `years at the time of the marriage, and`
+  line
+  line `(d) the parties are not within the degrees of prohibited relationship:`
+  line
+  line `Provided that where the personal law or a custom governing at least one of the parties permits of a`
+  line `marriage between them, such marriage may be solemnized, notwithstanding that they are within the`
+  line `degrees of prohibited relationship.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 15800)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Notice of intended marriage.`)
-  (str content) (str `When a marriage is intended to be solemnized under this Act, the
-parties to the marriage shall give notice thereof in writing in the form specified in the First Schedule to
-the Marriage Officer of the district in which at least one of the parties to the marriage has resided for a
-period of not less than thirty days immediately preceding the date on which such notice is given, and the
-notice shall state that the party has so resided.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15800&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15800)
+  sectionNo (5)
+  orderNo 5
+  title `Notice of intended marriage.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15800&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_5_content:
+  string
+  line `When a marriage is intended to be solemnized under this Act, the`
+  line `parties to the marriage shall give notice thereof in writing in the form specified in the First Schedule to`
+  line `the Marriage Officer of the district in which at least one of the parties to the marriage has resided for a`
+  line `period of not less than thirty days immediately preceding the date on which such notice is given, and the`
+  line `notice shall state that the party has so resided.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 15801)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Marriage Notice Book.`)
-  (str content) (str `The Marriage Officer shall keep all notices given under section 5 with
-the records of his office and shall also forthwith enter a true copy of every such notice in a book
-prescribed for that purpose, to be called the "Marriage Notice Book", and such book shall be open, for
-inspection at all reasonable times, without fee, by any person desirous of inspecting the same.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15801&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15801)
+  sectionNo (6)
+  orderNo 6
+  title `Marriage Notice Book.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15801&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_6_content:
+  string
+  line `The Marriage Officer shall keep all notices given under section 5 with`
+  line `the records of his office and shall also forthwith enter a true copy of every such notice in a book`
+  line `prescribed for that purpose, to be called the "Marriage Notice Book", and such book shall be open, for`
+  line `inspection at all reasonable times, without fee, by any person desirous of inspecting the same.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 15802)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Publication of notice.`)
-  (str content) (str `Where a notice under section 5 is given to the Marriage Officer, he shall
-cause it to be published--
-
-(a) in his own office, by affixing a copy thereof to a conspicuous place, and
-
-(b) in India and in the country or countries in which the parties are ordinarily resident, in the
-prescribed manner.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15802&sectionno=7&orderno=7&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15802)
+  sectionNo (7)
+  orderNo 7
+  title `Publication of notice.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15802&sectionno=7&orderno=7&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_7_content:
+  string
+  line `Where a notice under section 5 is given to the Marriage Officer, he shall`
+  line `cause it to be published--`
+  line
+  line `(a) in his own office, by affixing a copy thereof to a conspicuous place, and`
+  line
+  line `(b) in India and in the country or countries in which the parties are ordinarily resident, in the`
+  line `prescribed manner.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 15803)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Objection to marriage.`)
-  (str content) (str `(1) Any person may, before the expiration of thirty days from the date of
-publication of the notice under section 7, object to the marriage on the ground that it would contravene
-one or more of the conditions specified in section 4.
-
-Explanation.--Where the publication of the notice by affixation under clause (a) of section 7 and in
-the prescribed manner under clause (b) of that section is on different dates, the period of thirty days shall,
-for the purposes of this sub-section, be computed from the later date.
-
-(2) Every such objection shall be in writing signed by the person making it or by any person duly
-authorised to sign on his behalf, and shall state the ground of objection; and the Marriage Officer shall
-record the nature of the objection in his Marriage Notice Book.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15803&sectionno=8&orderno=8&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15803)
+  sectionNo (8)
+  orderNo 8
+  title `Objection to marriage.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15803&sectionno=8&orderno=8&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_8_content:
+  string
+  line `(1) Any person may, before the expiration of thirty days from the date of`
+  line `publication of the notice under section 7, object to the marriage on the ground that it would contravene`
+  line `one or more of the conditions specified in section 4.`
+  line
+  line `Explanation.--Where the publication of the notice by affixation under clause (a) of section 7 and in`
+  line `the prescribed manner under clause (b) of that section is on different dates, the period of thirty days shall,`
+  line `for the purposes of this sub-section, be computed from the later date.`
+  line
+  line `(2) Every such objection shall be in writing signed by the person making it or by any person duly`
+  line `authorised to sign on his behalf, and shall state the ground of objection; and the Marriage Officer shall`
+  line `record the nature of the objection in his Marriage Notice Book.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 15804)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Solemnization of marriage where no objection made.`)
-  (str content) (str `If no objection is made within the period
-specified in section 8 to an intended marriage, then, on the expiry of that period, the marriage may be
-solemnized.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15804&sectionno=9&orderno=9&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15804)
+  sectionNo (9)
+  orderNo 9
+  title `Solemnization of marriage where no objection made.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15804&sectionno=9&orderno=9&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_9_content:
+  string
+  line `If no objection is made within the period`
+  line `specified in section 8 to an intended marriage, then, on the expiry of that period, the marriage may be`
+  line solemnized.
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 15805)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Procedure on receipt of objection.`)
-  (str content) (str `(1) If an objection is made under section 8 to an intended
-marriage, the Marriage Officer shall not solemnize the marriage until he has inquired into the matter of
-the objection in such manner as he thinks fit and is satisfied that it ought not to prevent the solemnization
-of the Marriage or the objection is withdrawn by the person making it.
-
-(2) Where a Marriage Officer after making any such inquiry entertains a doubt in respect of any
-objection, he shall transmit the record with such statement respecting the matter as he thinks fit to the
-Central Government; and the Central Government, after making such further inquiry into the matter and
-after obtaining such advice as it thinks fit, shall give its decision thereon in writing to the Marriage
-Officer, who shall act in conformity with the decision of the Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15805&sectionno=10&orderno=10&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15805)
+  sectionNo (10)
+  orderNo 10
+  title `Procedure on receipt of objection.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15805&sectionno=10&orderno=10&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_10_content:
+  string
+  line `(1) If an objection is made under section 8 to an intended`
+  line `marriage, the Marriage Officer shall not solemnize the marriage until he has inquired into the matter of`
+  line `the objection in such manner as he thinks fit and is satisfied that it ought not to prevent the solemnization`
+  line `of the Marriage or the objection is withdrawn by the person making it.`
+  line
+  line `(2) Where a Marriage Officer after making any such inquiry entertains a doubt in respect of any`
+  line `objection, he shall transmit the record with such statement respecting the matter as he thinks fit to the`
+  line `Central Government; and the Central Government, after making such further inquiry into the matter and`
+  line `after obtaining such advice as it thinks fit, shall give its decision thereon in writing to the Marriage`
+  line `Officer, who shall act in conformity with the decision of the Central Government.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 15806)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Marriage not to be in contravention of local laws.`)
-  (str content) (str `(1) The Marriage Officer may, for reasons
-to be recorded in writing, refuse to solemnize a marriage under this Act if the intended marriage is
-prohibited by any law in force in the foreign country where it is to be solemnized.
-
-(2) The Marriage Officer may, for reasons to be recorded in writing, refuse to solemnize a marriage
-under this Act on the ground that in his opinion, the solemnization of the marriage would be inconsistent
-with international law or the comity of nations.
-
-(3) Where a Marriage Officer refuses to solemnize a marriage under this section, any party to the
-intended marriage may appeal to the Central Government in the prescribed manner within a period of
-thirty days from the date of such refusal; and the Marriage Officer shall act in conformity with the
-decision of the Central Government on such appeal.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15806&sectionno=11&orderno=11&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15806)
+  sectionNo (11)
+  orderNo 11
+  title `Marriage not to be in contravention of local laws.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15806&sectionno=11&orderno=11&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_11_content:
+  string
+  line `(1) The Marriage Officer may, for reasons`
+  line `to be recorded in writing, refuse to solemnize a marriage under this Act if the intended marriage is`
+  line `prohibited by any law in force in the foreign country where it is to be solemnized.`
+  line
+  line `(2) The Marriage Officer may, for reasons to be recorded in writing, refuse to solemnize a marriage`
+  line `under this Act on the ground that in his opinion, the solemnization of the marriage would be inconsistent`
+  line `with international law or the comity of nations.`
+  line
+  line `(3) Where a Marriage Officer refuses to solemnize a marriage under this section, any party to the`
+  line `intended marriage may appeal to the Central Government in the prescribed manner within a period of`
+  line `thirty days from the date of such refusal; and the Marriage Officer shall act in conformity with the`
+  line `decision of the Central Government on such appeal.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 15807)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Declaration by parties and witnesses.`)
-  (str content) (str `Before the marriage is solemnized, the parties and three
-witnesses shall, in the presence of the Marriage Officer, sign a declaration in the form specified in the
-Second Schedule, and the declaration shall be countersigned by the Marriage Officer.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15807&sectionno=12&orderno=12&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15807)
+  sectionNo (12)
+  orderNo 12
+  title `Declaration by parties and witnesses.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15807&sectionno=12&orderno=12&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_12_content:
+  string
+  line `Before the marriage is solemnized, the parties and three`
+  line `witnesses shall, in the presence of the Marriage Officer, sign a declaration in the form specified in the`
+  line `Second Schedule, and the declaration shall be countersigned by the Marriage Officer.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 15808)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Place and form of solemnization.`)
-  (str content) (str `(1) A marriage by or before a Marriage Officer under this
-Act shall be solemnized at the official house of the Marriage Officer with open doors between the
-prescribed hours in the presence of at least three witnesses.
-
-(2) The marriage may be solemnized in any form which the parties may choose to adopt:
-
-Provided that it shall not be complete and binding on the parties unless each party declares to the
-other in the presence of the Marriage Officer and the three witnesses and in any language understood by
-the parties,-- "I, (A) take the (B), to be my lawful wife (or husband)":
-
-Provided further that where the declaration referred to in the preceding proviso is made in any
-language which is not understood by the Marriage Officer or by any of the witnesses, either of the parties
-shall interpret or cause to be interpreted the declaration in a language which the Marriage Officer, or, as
-the case may be, such witness understands.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15808&sectionno=13&orderno=13&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15808)
+  sectionNo (13)
+  orderNo 13
+  title `Place and form of solemnization.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15808&sectionno=13&orderno=13&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_13_content:
+  string
+  line `(1) A marriage by or before a Marriage Officer under this`
+  line `Act shall be solemnized at the official house of the Marriage Officer with open doors between the`
+  line `prescribed hours in the presence of at least three witnesses.`
+  line
+  line `(2) The marriage may be solemnized in any form which the parties may choose to adopt:`
+  line
+  line `Provided that it shall not be complete and binding on the parties unless each party declares to the`
+  line `other in the presence of the Marriage Officer and the three witnesses and in any language understood by`
+  line `the parties,-- "I, (A) take the (B), to be my lawful wife (or husband)":`
+  line
+  line `Provided further that where the declaration referred to in the preceding proviso is made in any`
+  line `language which is not understood by the Marriage Officer or by any of the witnesses, either of the parties`
+  line `shall interpret or cause to be interpreted the declaration in a language which the Marriage Officer, or, as`
+  line `the case may be, such witness understands.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 15809)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Certificate of marriage.`)
-  (str content) (str `(1) Whenever a marriage is solemnized under this Act, the Marriage
-Officer shall enter a certificate thereof in the form specified in the Third Schedule in a book to be kept by
-him for that purpose and to be called the Marriage Certificate Book, and such certificate shall be signed
-by the parties to the marriage and the three witnesses.
-
-(2) On a certificate being entered in the Marriage Certificate Book by the Marriage Officer, the
-certificate shall be deemed to be conclusive evidence of the fact that a marriage under this Act has been
-solemnized, and that all formalities respecting the residence of the party concerned previous to the
-marriage and the signatures of witnesses have been complied with.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15809&sectionno=14&orderno=14&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15809)
+  sectionNo (14)
+  orderNo 14
+  title `Certificate of marriage.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15809&sectionno=14&orderno=14&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_14_content:
+  string
+  line `(1) Whenever a marriage is solemnized under this Act, the Marriage`
+  line `Officer shall enter a certificate thereof in the form specified in the Third Schedule in a book to be kept by`
+  line `him for that purpose and to be called the Marriage Certificate Book, and such certificate shall be signed`
+  line `by the parties to the marriage and the three witnesses.`
+  line
+  line `(2) On a certificate being entered in the Marriage Certificate Book by the Marriage Officer, the`
+  line `certificate shall be deemed to be conclusive evidence of the fact that a marriage under this Act has been`
+  line `solemnized, and that all formalities respecting the residence of the party concerned previous to the`
+  line `marriage and the signatures of witnesses have been complied with.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 15810)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Validity of foreign marriages in India.`)
-  (str content) (str `Subject to the other provisions contained in this Act, a
-marriage solemnized in the manner provided in this Act shall be good and valid in law.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15810&sectionno=15&orderno=15&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15810)
+  sectionNo (15)
+  orderNo 15
+  title `Validity of foreign marriages in India.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15810&sectionno=15&orderno=15&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_15_content:
+  string
+  line `Subject to the other provisions contained in this Act, a`
+  line `marriage solemnized in the manner provided in this Act shall be good and valid in law.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 15811)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `New notice when marriage not solemnized within six months.`)
-  (str content) (str `Whenever a marriage is not
-solemnized within six months from the date on which notice thereof has been given to the Marriage
-Officer as required under section 5 or where the record of a case has been transmitted to the Central
-Government under section 10, or where an appeal has been preferred to the Central Government under
-section 11, within three months from the date of decision of the Central Government in such case or
-appeal, as the case may be, the notice and all other proceedings arising therefrom shall be deemed to have
-lapsed, and no Marriage Officer shall solemnize the marriage until new notice has been given in the
-manner laid down in this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15811&sectionno=16&orderno=16&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15811)
+  sectionNo (16)
+  orderNo 16
+  title `New notice when marriage not solemnized within six months.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15811&sectionno=16&orderno=16&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_16_content:
+  string
+  line `Whenever a marriage is not`
+  line `solemnized within six months from the date on which notice thereof has been given to the Marriage`
+  line `Officer as required under section 5 or where the record of a case has been transmitted to the Central`
+  line `Government under section 10, or where an appeal has been preferred to the Central Government under`
+  line `section 11, within three months from the date of decision of the Central Government in such case or`
+  line `appeal, as the case may be, the notice and all other proceedings arising therefrom shall be deemed to have`
+  line `lapsed, and no Marriage Officer shall solemnize the marriage until new notice has been given in the`
+  line `manner laid down in this Act.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 15812)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Registration of foreign marriages.`)
-  (str content) (str `(1) Where--
-
-(a) a Marriage Officer is satisfied that a marriage has been duly solemnized in a foreign country
-in accordance with the law of that country between parties of whom one at least was a citizen of
-India; and
-
-(b) a party to the marriage informs the Marriage Officer in writing that he or she desires the
-marriage to be registered under this section,
-the Marriage Officer may, upon payment of the prescribed fee, register the marriage.
-
-(2) No marriage shall be registered under the section unless at the time of registration it satisfies the
-conditions mentioned in section 4.
-
-(3) The Marriage Officer may, for reasons to be recorded in writing, refuse to register a marriage
-under this section on the ground that in his opinion the marriage is inconsistent with international law or
-the comity of nations.
-
-(4) Where a Marriage Officer refuses to register a marriage under this section the party applying for
-registration may appeal to the Central Government in the prescribed manner within a period of thirty days
-from the date of such refusal; and the Marriage Officer shall act in conformity with the decision of the
-Central Government on such appeal.
-
-(5) Registration of a marriage under this section shall be effected by the Marriage Officer by entering
-a certificate of the marriage in the prescribed form and in the prescribed manner in the Marriage
-Certificate Book, and such certificate shall be signed by the parties to the marriage and by three
-witnesses.
-
-(6) A marriage registered under this section shall, as from the date of registration, be deemed to have
-been solemnized under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15812&sectionno=17&orderno=17&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15812)
+  sectionNo (17)
+  orderNo 17
+  title `Registration of foreign marriages.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15812&sectionno=17&orderno=17&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_17_content:
+  string
+  line `(1) Where--`
+  line
+  line `(a) a Marriage Officer is satisfied that a marriage has been duly solemnized in a foreign country`
+  line `in accordance with the law of that country between parties of whom one at least was a citizen of`
+  line `India; and`
+  line
+  line `(b) a party to the marriage informs the Marriage Officer in writing that he or she desires the`
+  line `marriage to be registered under this section,`
+  line `the Marriage Officer may, upon payment of the prescribed fee, register the marriage.`
+  line
+  line `(2) No marriage shall be registered under the section unless at the time of registration it satisfies the`
+  line `conditions mentioned in section 4.`
+  line
+  line `(3) The Marriage Officer may, for reasons to be recorded in writing, refuse to register a marriage`
+  line `under this section on the ground that in his opinion the marriage is inconsistent with international law or`
+  line `the comity of nations.`
+  line
+  line `(4) Where a Marriage Officer refuses to register a marriage under this section the party applying for`
+  line `registration may appeal to the Central Government in the prescribed manner within a period of thirty days`
+  line `from the date of such refusal; and the Marriage Officer shall act in conformity with the decision of the`
+  line `Central Government on such appeal.`
+  line
+  line `(5) Registration of a marriage under this section shall be effected by the Marriage Officer by entering`
+  line `a certificate of the marriage in the prescribed form and in the prescribed manner in the Marriage`
+  line `Certificate Book, and such certificate shall be signed by the parties to the marriage and by three`
+  line witnesses.
+  line
+  line `(6) A marriage registered under this section shall, as from the date of registration, be deemed to have`
+  line `been solemnized under this Act.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 15813)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Matrimonial reliefs to be under Special Marriage Act, 1954.`)
-  (str content) (str `(1) Subject to the other
-provisions contained in this section, the provisions of Chapters IV, V, VI and VII of the Special Marriage
-Act, 1954 (43 of 1954) shall apply in relation to marriages solemnized under this Act and to any other
-marriage solemnized in a foreign country between parties of whom one at least is a citizen of India as
-they apply in relation to marriages solemnized under that Act.
-
-Explanation.--In its application to the marriages referred to in this sub-section, section 24 of the
-Special Marriage Act, 1954 (43 of 1954), shall be subject to the following modifications, namely:--
-
-(i) the reference in sub-section (1) thereof to clauses (a), (b), (c) and (d) of section 4 of that Act
-shall be construed as a reference to clauses (a), (b), (c) and (d) respectively of section 4 of this
-Act, and
-
-(ii) nothing contained in section 24 aforesaid shall apply to any marriage--
-
-(a) which is not solemnized under this Act; or
-
-(b) which is deemed to be solemnized under this Act by reason of the provisions contained in
-section 17:
-
-Provided that the registration of any such marriage as is referred to in sub-clause (b) may be declared
-to be of no effect if the registration was in contravention of sub-section (2) of section 17.
-
-(2) Every petition for relief under Chapter V or Chapter VI of the Special Marriage
-Act, 1954 (43 of 1954) as made applicable to the marriages referred to in sub-section (1) shall be
-presented to the district court within the local limits of whose ordinary civil jurisdiction--
-
-(a) the respondent is residing at the time of the presentation of the petition; or
-
-(b) the husband and wife last resided together; or
-
-(c) the petitioner is residing at the time of the presentation of the petition, provided that the
-respondent is at that time residing outside India.
-
-Explanation.--In this section, "district court" has the same meaning as in the Special Marriage
-Act, 1954 (43 of 1954).
-
-(3) Nothing contained in this section shall authorise any court--
-
-(a) to make any decree of dissolution of marriage, except where--
-
-(i) the parties to the marriage are domiciled in India at the time of the presentation of the
-petition; or
-
-(ii) the petitioner, being the wife, was domiciled in India immediately before the marriage
-and has been residing in India for a period of not less than three years immediately preceding the
-presentation of the petition;
-
-(b) to make any decree annulling avoidable marriage, except where--
-
-(i) the parties to the marriage are domiciled in India at the time of the presentation of the
-petition; or
-
-(ii) the marriage was solemnized under this Act and the petitioner being the wife, has been
-ordinarily resident in India for a period of three years immediately preceding the presentation of
-the petition;
-
-(c) to make any decree of nullity of marriage in respect of a void marriage, except where--
-
-(i) either of the parties to the marriage is domiciled in India at the time of the presentation of
-the petition; or
-
-(ii) the marriage was solemnized under this Act and the petitioner is residing in India at the
-time of the presentation of the petition;
-
-(d) to grant any other relief under Chapter V or Chapter VI of the Special Marriage
-Act, 1954 (43 of 1954), except where the petitioner is residing in India at the time of the presentation
-of the petition.
-
-(4) Nothing contained in sub-section (1) shall authorise any court to grant any relief under this Act in
-relation to any marriage in a foreign country not solemnized under it, if the grant of relief in respect of
-such marriage (whether on any of the grounds specified in the Special Marriage Act, 1954 (43 of 1954),
-or otherwise) is provided for under any other law for the time being in force.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15813&sectionno=18&orderno=18&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15813)
+  sectionNo (18)
+  orderNo 18
+  title `Matrimonial reliefs to be under Special Marriage Act, 1954.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15813&sectionno=18&orderno=18&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_18_content:
+  string
+  line `(1) Subject to the other`
+  line `provisions contained in this section, the provisions of Chapters IV, V, VI and VII of the Special Marriage`
+  line `Act, 1954 (43 of 1954) shall apply in relation to marriages solemnized under this Act and to any other`
+  line `marriage solemnized in a foreign country between parties of whom one at least is a citizen of India as`
+  line `they apply in relation to marriages solemnized under that Act.`
+  line
+  line `Explanation.--In its application to the marriages referred to in this sub-section, section 24 of the`
+  line `Special Marriage Act, 1954 (43 of 1954), shall be subject to the following modifications, namely:--`
+  line
+  line `(i) the reference in sub-section (1) thereof to clauses (a), (b), (c) and (d) of section 4 of that Act`
+  line `shall be construed as a reference to clauses (a), (b), (c) and (d) respectively of section 4 of this`
+  line `Act, and`
+  line
+  line `(ii) nothing contained in section 24 aforesaid shall apply to any marriage--`
+  line
+  line `(a) which is not solemnized under this Act; or`
+  line
+  line `(b) which is deemed to be solemnized under this Act by reason of the provisions contained in`
+  line `section 17:`
+  line
+  line `Provided that the registration of any such marriage as is referred to in sub-clause (b) may be declared`
+  line `to be of no effect if the registration was in contravention of sub-section (2) of section 17.`
+  line
+  line `(2) Every petition for relief under Chapter V or Chapter VI of the Special Marriage`
+  line `Act, 1954 (43 of 1954) as made applicable to the marriages referred to in sub-section (1) shall be`
+  line `presented to the district court within the local limits of whose ordinary civil jurisdiction--`
+  line
+  line `(a) the respondent is residing at the time of the presentation of the petition; or`
+  line
+  line `(b) the husband and wife last resided together; or`
+  line
+  line `(c) the petitioner is residing at the time of the presentation of the petition, provided that the`
+  line `respondent is at that time residing outside India.`
+  line
+  line `Explanation.--In this section, "district court" has the same meaning as in the Special Marriage`
+  line `Act, 1954 (43 of 1954).`
+  line
+  line `(3) Nothing contained in this section shall authorise any court--`
+  line
+  line `(a) to make any decree of dissolution of marriage, except where--`
+  line
+  line `(i) the parties to the marriage are domiciled in India at the time of the presentation of the`
+  line `petition; or`
+  line
+  line `(ii) the petitioner, being the wife, was domiciled in India immediately before the marriage`
+  line `and has been residing in India for a period of not less than three years immediately preceding the`
+  line `presentation of the petition;`
+  line
+  line `(b) to make any decree annulling avoidable marriage, except where--`
+  line
+  line `(i) the parties to the marriage are domiciled in India at the time of the presentation of the`
+  line `petition; or`
+  line
+  line `(ii) the marriage was solemnized under this Act and the petitioner being the wife, has been`
+  line `ordinarily resident in India for a period of three years immediately preceding the presentation of`
+  line `the petition;`
+  line
+  line `(c) to make any decree of nullity of marriage in respect of a void marriage, except where--`
+  line
+  line `(i) either of the parties to the marriage is domiciled in India at the time of the presentation of`
+  line `the petition; or`
+  line
+  line `(ii) the marriage was solemnized under this Act and the petitioner is residing in India at the`
+  line `time of the presentation of the petition;`
+  line
+  line `(d) to grant any other relief under Chapter V or Chapter VI of the Special Marriage`
+  line `Act, 1954 (43 of 1954), except where the petitioner is residing in India at the time of the presentation`
+  line `of the petition.`
+  line
+  line `(4) Nothing contained in sub-section (1) shall authorise any court to grant any relief under this Act in`
+  line `relation to any marriage in a foreign country not solemnized under it, if the grant of relief in respect of`
+  line `such marriage (whether on any of the grounds specified in the Special Marriage Act, 1954 (43 of 1954),`
+  line `or otherwise) is provided for under any other law for the time being in force.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 15814)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Punishment for bigamy.`)
-  (str content) (str `(1) Any person whose marriage is solemnized or deemed to have
-been solemnized under this Act and who, during the subsistence of his marriage, contracts any other
-marriage in India shall be subject to the penalties provided in section 494 and section 495 of the Indian
-Penal Code (45 of 1860) and the marriage so contracted shall be void.
-
-(2) The provisions of sub-section (1) apply also to any such offence committed by any citizen of India
-without and beyond India.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15814&sectionno=19&orderno=19&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15814)
+  sectionNo (19)
+  orderNo 19
+  title `Punishment for bigamy.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15814&sectionno=19&orderno=19&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_19_content:
+  string
+  line `(1) Any person whose marriage is solemnized or deemed to have`
+  line `been solemnized under this Act and who, during the subsistence of his marriage, contracts any other`
+  line `marriage in India shall be subject to the penalties provided in section 494 and section 495 of the Indian`
+  line `Penal Code (45 of 1860) and the marriage so contracted shall be void.`
+  line
+  line `(2) The provisions of sub-section (1) apply also to any such offence committed by any citizen of India`
+  line `without and beyond India.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 15815)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Punishment for contravention of certain other conditions for marriage.`)
-  (str content) (str `Any citizen of India
-who procures a marriage of himself or herself be solemnized under this Act in contravention of the
-condition specified in clause (c) or clause (d) of section 4 shall be punishable--
-
-(a) in the case of a contravention of the condition specified in clause (c) of section 4, with simple
-imprisonment which may extend to fifteen days, or with the fine which may extend to one thousand
-rupees, or with both; and
-
-(b) in the case of a contravention of the condition specified in clause (d) of section 4, with simple
-imprisonment which may extend to one month, or with fine which may extend to one thousand
-rupees, or with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15815&sectionno=20&orderno=20&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15815)
+  sectionNo (20)
+  orderNo 20
+  title `Punishment for contravention of certain other conditions for marriage.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15815&sectionno=20&orderno=20&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_20_content:
+  string
+  line `Any citizen of India`
+  line `who procures a marriage of himself or herself be solemnized under this Act in contravention of the`
+  line `condition specified in clause (c) or clause (d) of section 4 shall be punishable--`
+  line
+  line `(a) in the case of a contravention of the condition specified in clause (c) of section 4, with simple`
+  line `imprisonment which may extend to fifteen days, or with the fine which may extend to one thousand`
+  line `rupees, or with both; and`
+  line
+  line `(b) in the case of a contravention of the condition specified in clause (d) of section 4, with simple`
+  line `imprisonment which may extend to one month, or with fine which may extend to one thousand`
+  line `rupees, or with both.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 15816)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Punishment for false declaration.`)
-  (str content) (str `If any citizen of India for the purpose of procuring a
-marriage, intentionally--
-
-(a) where a declaration is required by this Act, makes a false declaration; or
-
-(b) where a notice or certificate is required by this Act, signs a false notice or certificate,
-
-he shall be punishable with imprisonment for a term which may extend to three years and shall also be
-liable to fine.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15816&sectionno=21&orderno=21&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15816)
+  sectionNo (21)
+  orderNo 21
+  title `Punishment for false declaration.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15816&sectionno=21&orderno=21&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_21_content:
+  string
+  line `If any citizen of India for the purpose of procuring a`
+  line `marriage, intentionally--`
+  line
+  line `(a) where a declaration is required by this Act, makes a false declaration; or`
+  line
+  line `(b) where a notice or certificate is required by this Act, signs a false notice or certificate,`
+  line
+  line `he shall be punishable with imprisonment for a term which may extend to three years and shall also be`
+  line `liable to fine.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 15817)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Punishment for wrongful action of Marriage Officer.`)
-  (str content) (str `Any Marriage Officer who knowingly
-and wilfully solemnizes a marriage under this Act in contravention of any of the provisions of this Act
-shall be punishable with simple imprisonment which may extend to one year, or with fine which may
-extend to five hundred rupees, or with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15817&sectionno=22&orderno=22&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15817)
+  sectionNo (22)
+  orderNo 22
+  title `Punishment for wrongful action of Marriage Officer.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15817&sectionno=22&orderno=22&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_22_content:
+  string
+  line `Any Marriage Officer who knowingly`
+  line `and wilfully solemnizes a marriage under this Act in contravention of any of the provisions of this Act`
+  line `shall be punishable with simple imprisonment which may extend to one year, or with fine which may`
+  line `extend to five hundred rupees, or with both.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 15818)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Recognition of marriages solemnized under law of other countries.`)
-  (str content) (str `If the Central
-Government is satisfied that the law in force in any foreign country for the solemnization of marriages
-contains provisions similar to those contained in this Act, it may, by notification in the Official Gazette,
-declare that marriages solemnized under the law in force in such foreign country shall be recognized by
-courts in India as valid.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15818&sectionno=23&orderno=23&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15818)
+  sectionNo (23)
+  orderNo 23
+  title `Recognition of marriages solemnized under law of other countries.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15818&sectionno=23&orderno=23&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_23_content:
+  string
+  line `If the Central`
+  line `Government is satisfied that the law in force in any foreign country for the solemnization of marriages`
+  line `contains provisions similar to those contained in this Act, it may, by notification in the Official Gazette,`
+  line `declare that marriages solemnized under the law in force in such foreign country shall be recognized by`
+  line `courts in India as valid.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 15819)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Certification of documents of marriages solemnized in accordance with local law in a foreign country.`)
-  (str content) (str `(1) Where--
-
-(a) a marriage is solemnized in any foreign country specified in this behalf by the Central
-Government, by notification in the Official Gazette, in accordance with the law of that country
-between parties of whom one at least is a citizen of India; and
-
-(b) a party to the marriage who is such citizen produces to a Marriage Officer in the country in
-which the marriage was solemnized--
-
-(i) a copy of the entry in respect of the marriage in the marriage register of that country
-certified by the appropriate authority in that country to be a true copy of that entry; and
-
-(ii) if the copy of that entry is not in the English language, a translation into the prescribed
-language of that copy; and
-
-(c) the Marriage Officer is satisfied that the copy of the entry in the marriage register is a true
-copy and that the translation, if any, is a true translation;
-
-the Marriage Officer, upon the payment of the prescribed fee, shall certify upon the copy that he is
-satisfied that the copy is a true copy of the entry in the marriage register and upon the translation that he is
-satisfied that the translation is a true translation of the copy and shall issue the copy and the translation to
-the said party.
-
-(2) A document relating to a marriage in a foreign country issued under sub-section (1) shall be
-admitted in evidence in any proceedings as if it were a certificate duly issued by the appropriate authority
-of that country.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15819&sectionno=24&orderno=24&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15819)
+  sectionNo (24)
+  orderNo 24
+  title `Certification of documents of marriages solemnized in accordance with local law in a foreign country.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15819&sectionno=24&orderno=24&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_24_content:
+  string
+  line `(1) Where--`
+  line
+  line `(a) a marriage is solemnized in any foreign country specified in this behalf by the Central`
+  line `Government, by notification in the Official Gazette, in accordance with the law of that country`
+  line `between parties of whom one at least is a citizen of India; and`
+  line
+  line `(b) a party to the marriage who is such citizen produces to a Marriage Officer in the country in`
+  line `which the marriage was solemnized--`
+  line
+  line `(i) a copy of the entry in respect of the marriage in the marriage register of that country`
+  line `certified by the appropriate authority in that country to be a true copy of that entry; and`
+  line
+  line `(ii) if the copy of that entry is not in the English language, a translation into the prescribed`
+  line `language of that copy; and`
+  line
+  line `(c) the Marriage Officer is satisfied that the copy of the entry in the marriage register is a true`
+  line `copy and that the translation, if any, is a true translation;`
+  line
+  line `the Marriage Officer, upon the payment of the prescribed fee, shall certify upon the copy that he is`
+  line `satisfied that the copy is a true copy of the entry in the marriage register and upon the translation that he is`
+  line `satisfied that the translation is a true translation of the copy and shall issue the copy and the translation to`
+  line `the said party.`
+  line
+  line `(2) A document relating to a marriage in a foreign country issued under sub-section (1) shall be`
+  line `admitted in evidence in any proceedings as if it were a certificate duly issued by the appropriate authority`
+  line `of that country.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 15820)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Certified copy of entries to be evidences.`)
-  (str content) (str `Every certified copy purporting to be signed by the
-Marriage Officer of an entry of a marriage in the Marriage Certificate Book shall be received in evidence
-without production or proof of the original.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15820&sectionno=25&orderno=25&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15820)
+  sectionNo (25)
+  orderNo 25
+  title `Certified copy of entries to be evidences.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15820&sectionno=25&orderno=25&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_25_content:
+  string
+  line `Every certified copy purporting to be signed by the`
+  line `Marriage Officer of an entry of a marriage in the Marriage Certificate Book shall be received in evidence`
+  line `without production or proof of the original.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 15821)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Correction of errors.`)
-  (str content) (str `(1) Any Marriage Officer who discovers any error in the form or
-substance of any entry in the Marriage Certificate Book may, within one month next after the discovery of
-such error, in the presence of the persons married, or, in case of their death or absence, in the presence of
-two other witnesses, correct the error by entry in the margin without any alteration of the original entry
-and add thereto the date of such correction.
-
-(2) Every correction made under this section shall be attested by the witnesses in whose presence it
-was made.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15821&sectionno=26&orderno=26&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15821)
+  sectionNo (26)
+  orderNo 26
+  title `Correction of errors.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15821&sectionno=26&orderno=26&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_26_content:
+  string
+  line `(1) Any Marriage Officer who discovers any error in the form or`
+  line `substance of any entry in the Marriage Certificate Book may, within one month next after the discovery of`
+  line `such error, in the presence of the persons married, or, in case of their death or absence, in the presence of`
+  line `two other witnesses, correct the error by entry in the margin without any alteration of the original entry`
+  line `and add thereto the date of such correction.`
+  line
+  line `(2) Every correction made under this section shall be attested by the witnesses in whose presence it`
+  line `was made.`
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 15822)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Act not to affect validity of marriages outside it.`)
-  (str content) (str `Nothing in this Act shall in any way affect
-the validity of a marriage solemnized in a foreign country otherwise than under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15822&sectionno=27&orderno=27&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15822)
+  sectionNo (27)
+  orderNo 27
+  title `Act not to affect validity of marriages outside it.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15822&sectionno=27&orderno=27&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_27_content:
+  string
+  line `Nothing in this Act shall in any way affect`
+  line `the validity of a marriage solemnized in a foreign country otherwise than under this Act.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 15823)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules for carrying out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the duties and powers of Marriage Officers and their districts;
-
-(b) the manner in which a Marriage Officer may hold any inquiry under this Act;
-
-(c) the manner in which notices of marriage shall be published;
-
-(d) the places in which and the hours between which marriages under this Act may be
-solemnized;
-
-(e) the form and the manner in which any books required by or under this Act to be kept shall be
-maintained;
-
-(f) the form and manner in which certificates of marriages may be entered under sub-section (5)
-of section 17;
-
-(g) the fees that may be levied for the performance of any duty imposed upon a Marriage Officer
-under this Act;
-
-(h) the authorities to which, the form in which and the intervals within which copies of entries in
-the Marriage Certificate Book shall be sent, and, when corrections are made in the Marriage
-Certificate Book, the manner in which Certificates of such corrections shall be sent to the authorities;
-
-(i) the inspection of any books required to be kept under this Act and the furnishing of certified
-copies of entries therein;
-
-(j) the manner in which and the conditions subject to which any marriage may be recognised
-under section 23;
-
-(k) any other matter which may be, or requires to be, prescribed.
-
-(3) Every rule made under this section shall be laid as soon as may be after it is made before each
-House of Parliament while it is in session for a total period of thirty days which may be comprised in one
-session or ^1
-[in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid] both Houses agree in making any modification
-in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only
-in such modified form or be of no effect, as the case may be; so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str `1. Subs. by Act 20 of 1983, s. 2 and the schedule., for certain words (w.e.f. 15-3-1984).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15823&sectionno=28&orderno=28&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15823)
+  sectionNo (28)
+  orderNo 28
+  title `Power to make rules.`
+  content obj_root_law_sections_28_content
+  footnotes `1. Subs. by Act 20 of 1983, s. 2 and the schedule., for certain words (w.e.f. 15-3-1984).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15823&sectionno=28&orderno=28&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_28_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules for carrying out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the duties and powers of Marriage Officers and their districts;`
+  line
+  line `(b) the manner in which a Marriage Officer may hold any inquiry under this Act;`
+  line
+  line `(c) the manner in which notices of marriage shall be published;`
+  line
+  line `(d) the places in which and the hours between which marriages under this Act may be`
+  line solemnized;
+  line
+  line `(e) the form and the manner in which any books required by or under this Act to be kept shall be`
+  line maintained;
+  line
+  line `(f) the form and manner in which certificates of marriages may be entered under sub-section (5)`
+  line `of section 17;`
+  line
+  line `(g) the fees that may be levied for the performance of any duty imposed upon a Marriage Officer`
+  line `under this Act;`
+  line
+  line `(h) the authorities to which, the form in which and the intervals within which copies of entries in`
+  line `the Marriage Certificate Book shall be sent, and, when corrections are made in the Marriage`
+  line `Certificate Book, the manner in which Certificates of such corrections shall be sent to the authorities;`
+  line
+  line `(i) the inspection of any books required to be kept under this Act and the furnishing of certified`
+  line `copies of entries therein;`
+  line
+  line `(j) the manner in which and the conditions subject to which any marriage may be recognised`
+  line `under section 23;`
+  line
+  line `(k) any other matter which may be, or requires to be, prescribed.`
+  line
+  line `(3) Every rule made under this section shall be laid as soon as may be after it is made before each`
+  line `House of Parliament while it is in session for a total period of thirty days which may be comprised in one`
+  line `session or ^1`
+  line `[in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid] both Houses agree in making any modification`
+  line `in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only`
+  line `in such modified form or be of no effect, as the case may be; so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that rule.`
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 15824)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Amendment of Act 43 of 1954.`)
-  (str content) (str `In the Special Marriage Act, 1954,--
-
-(a) in section 1, in sub-section (2), for the words "outside the said territories, the words "in the
-State of Jammu and Kashmir*" shall be substituted;
-
-(b) in section 2, clauses (a) and (c) shall be omitted;
-
-(c) in section 3, for sub-section (2), the following sub-section shall be substituted, namely:--
-
-"(2) For the purposes of this Act, in its application to citizens of India domiciled in the
-territories to which this Act extends who are in the State of Jammu and Kashmir*, the Central
-Government may, by notification in the Official Gazette, specify such officers of the Central
-Government as it may think fit to be the Marriage Officers for the State or any part thereof.";
-
-(d) in section 4, for clause (e), the following clause shall be substituted, namely:--
-
-"(e) where the marriage is solemnized in the State of Jammu and Kashmir*, both parties are
-citizens of India domiciled in the territories to which this Act extends.";
-
-(e) in section 10, for the words "outside the territories to which this Act extends in respect of an
-intended marriage outside and said territories", the words "in the State of Jammu and Kashmir* in
-respect of an intended marriage in the State" shall be substituted;
-
-(f) in section 50, in sub-section (1), the words "Diplomatic and consular officers and other" shall
-be omitted.`)
-  (str footnotes) (str `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15824&sectionno=29&orderno=29&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15824)
+  sectionNo (29)
+  orderNo 29
+  title `Amendment of Act 43 of 1954.`
+  content obj_root_law_sections_29_content
+  footnotes `*. Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15824&sectionno=29&orderno=29&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_29_content:
+  string
+  line `In the Special Marriage Act, 1954,--`
+  line
+  line `(a) in section 1, in sub-section (2), for the words "outside the said territories, the words "in the`
+  line `State of Jammu and Kashmir*" shall be substituted;`
+  line
+  line `(b) in section 2, clauses (a) and (c) shall be omitted;`
+  line
+  line `(c) in section 3, for sub-section (2), the following sub-section shall be substituted, namely:--`
+  line
+  line `"(2) For the purposes of this Act, in its application to citizens of India domiciled in the`
+  line `territories to which this Act extends who are in the State of Jammu and Kashmir*, the Central`
+  line `Government may, by notification in the Official Gazette, specify such officers of the Central`
+  line `Government as it may think fit to be the Marriage Officers for the State or any part thereof.";`
+  line
+  line `(d) in section 4, for clause (e), the following clause shall be substituted, namely:--`
+  line
+  line `"(e) where the marriage is solemnized in the State of Jammu and Kashmir*, both parties are`
+  line `citizens of India domiciled in the territories to which this Act extends.";`
+  line
+  line `(e) in section 10, for the words "outside the territories to which this Act extends in respect of an`
+  line `intended marriage outside and said territories", the words "in the State of Jammu and Kashmir* in`
+  line `respect of an intended marriage in the State" shall be substituted;`
+  line
+  line `(f) in section 50, in sub-section (1), the words "Diplomatic and consular officers and other" shall`
+  line `be omitted.`
 obj_root_law_sections_30:
-  object
-  (str sectionId) (str 15825)
-  (str sectionNo) (str 30)
-  (str orderNo) (int 30)
-  (str title) (str Repeal.)
-  (str content) (str `The Indian Foreign Marriage Act, 1903 (14 of 1903), is hereby repealed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15825&sectionno=30&orderno=30&orgactid=AC_CEN_3_20_00029_196933_1517807324405)
+  sectionId (15825)
+  sectionNo (30)
+  orderNo 30
+  title Repeal.
+  content `The Indian Foreign Marriage Act, 1903 (14 of 1903), is hereby repealed.`
+  footnotes obj_root_law_sections_30_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00029_196933_1517807324405&sectionId=15825&sectionno=30&orderno=30&orgactid=AC_CEN_3_20_00029_196933_1517807324405
+obj_root_law_sections_30_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `विदेशीय विवाह अधिनियम, 1969`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1720/2/h1969-33.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:27:36.871Z`)
-  (str pageCount) (int 9)
-  (str sections) obj_root_law_translations_hi_sections
+  title `विदेशीय विवाह अधिनियम, 1969`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1720/2/h1969-33.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:27:36.871Z`
+  pageCount 9
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -741,439 +868,484 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_8
   obj_root_law_translations_hi_sections_9
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `विदेशीय वििाह अविवियम, 1969
-( 1969 का अविवियम संखयां क 33 )
-[31 अगस्त, 1969]
-भारत के िागररकों के भारत से बाहर
-वििाह सम्ब न् िी उपबन्ि
-करिे के विए
-अविवियम
-भारत गणराज्य के बीसिें िर्ष में संसद् द्व ारा विम्ि विवित रू प में यह अविवियवमत हो: —
-अध्या य 1 प्र
-ार वम्भ क
-1. संविप्त िाम — यह अविवियम विदेशीय वििाह अविवियम, 1969 कहा जा सकेगा।
-2. पररभार्ाएं — इस अविवियम में, जब तक कक संदभष से अन्य था अपेवित ि हो, —
-(क) “ प्र वतवर्द्ध कोरि की िातेदारी ” का िही अथष होगा जो विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) में है;
-(ि) वििाह अविकारी के संबंि में “ वजिा ” से िह िेत्र अवभप्रेत है वजसके भीतर उसके पद के कतषव्यों का वििषहि
-ककया जािा है;
-(ग) “ विदेश ” से भारत के बाहर का देश या स् था ि अवभप्रेत है और इसके अन्त गषत ऐसा पोत भी है जो तत्स मय ऐसे
-देश या स् था ि के राज्य िेत्री य समुद्र में हो;
-(घ) “ वििाह अविकारी ” से ऐसा व् य वत अवभप्रेत है जो िारा 3 के अिीि वििाह अविकारी वियुत ककया गया है;
-( ङ ) वििाह अविकारी के संबंि में “ शासकीय गृह ” से विम्ि विवित अवभप्रेत है: —
-( i ) अविकारी के वििास का शासकीय गृह;
-( ii ) िह कायाषिय वजसमें अविकारी का कायष ककया जा ता है;
-( iii ) कोई विवहत स् था ि; तथा
-(च) “ विवहत ” से इस अविवियम के अिीि बिाए गए वि यमों द्व ारा विवहत अवभप्रेत है।
-3. वििाह अविकारी — इस अवि वियम के प्र योजिों के विए केन् द्री य सरकार शासकीय राजपत्र में अविसूचिा द्व ारा अपिे ऐसे
-राजि वयक या कौन्स िीय आकिसरों को, वजन्हें िह ठीक समझे, ककसी विदेश के विए वििाह अविकारी वियुत कर सकेगी। स्
-प ष् िी करण — इस िारा में “ राजिवयक आकिसर ” से राजदूत, दूत, मंत्री, उच्चा युत, आयुत, कायषदूत या अन्य राजिवयक प्र
-वतविवि या ककसी राजदूतािास, दूतािास या उच्च आयोग का परा शषद या सवचि अवभप्रेत है।
-अध्या य 2
-विदेशीय वििाहों का अिुष् ठा पि
-4. विदेशीय वििाहों के अिुष्ठा पि से सम्ब वन्ि त शतें — ऐसे पिकारों का वििाह, वजिमें कम से कम एक भारत का िागररक
-हो, विदेश में वििाह अविकारी द्व ारा या उसके समि इस अविवि यम के अिीि अिुष्ठा वपत ककया जा सकेगा, यकद उस वििाह के समय
-विम्ि विवित शतें पूरी हो जाती हैं, अथाषत्: —
-(क) ककसी पिकार का पवत या पत्िी जीवित िहीं है;
-(ि) कोई पिकार जड़ या पागि िहीं है;
-(ग) वििाह के समय िर िे इकी स िर्ष की आयु और ििू िे अट्ठारह िर्ष की आयु प्र ाप्त कर िी है; तथा
-(घ) पिकारों में प्र वतवर्द्ध कोरि की िातेदारी िहीं है:
-परन् तु जहां पिकारों में से कम से कम एक को शावसत करिे िािी स् िी य विवि या रू क़ि उिका परस्प र वििाह अिुज्ञात करती
-हो िहां ऐसा वििाह, इस बात के होते हु ए भी अिुष्ठा वपत ककया जा सकेगा कक उिमें प्र वतवर्द्ध कोरि की िातेदारी है।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `विदेशीय वििाह अविवियम, 1969`
+  line `( 1969 का अविवियम संखयां क 33 )`
+  line `[31 अगस्त, 1969]`
+  line `भारत के िागररकों के भारत से बाहर`
+  line `वििाह सम्ब न् िी उपबन्ि`
+  line `करिे के विए`
+  line अविवियम
+  line `भारत गणराज्य के बीसिें िर्ष में संसद् द्व ारा विम्ि विवित रू प में यह अविवियवमत हो: —`
+  line `अध्या य 1 प्र`
+  line `ार वम्भ क`
+  line `1. संविप्त िाम — यह अविवियम विदेशीय वििाह अविवियम, 1969 कहा जा सकेगा।`
+  line `2. पररभार्ाएं — इस अविवियम में, जब तक कक संदभष से अन्य था अपेवित ि हो, —`
+  line `(क) “ प्र वतवर्द्ध कोरि की िातेदारी ” का िही अथष होगा जो विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) में है;`
+  line `(ि) वििाह अविकारी के संबंि में “ वजिा ” से िह िेत्र अवभप्रेत है वजसके भीतर उसके पद के कतषव्यों का वििषहि`
+  line `ककया जािा है;`
+  line `(ग) “ विदेश ” से भारत के बाहर का देश या स् था ि अवभप्रेत है और इसके अन्त गषत ऐसा पोत भी है जो तत्स मय ऐसे`
+  line `देश या स् था ि के राज्य िेत्री य समुद्र में हो;`
+  line `(घ) “ वििाह अविकारी ” से ऐसा व् य वत अवभप्रेत है जो िारा 3 के अिीि वििाह अविकारी वियुत ककया गया है;`
+  line `( ङ ) वििाह अविकारी के संबंि में “ शासकीय गृह ” से विम्ि विवित अवभप्रेत है: —`
+  line `( i ) अविकारी के वििास का शासकीय गृह;`
+  line `( ii ) िह कायाषिय वजसमें अविकारी का कायष ककया जा ता है;`
+  line `( iii ) कोई विवहत स् था ि; तथा`
+  line `(च) “ विवहत ” से इस अविवियम के अिीि बिाए गए वि यमों द्व ारा विवहत अवभप्रेत है।`
+  line `3. वििाह अविकारी — इस अवि वियम के प्र योजिों के विए केन् द्री य सरकार शासकीय राजपत्र में अविसूचिा द्व ारा अपिे ऐसे`
+  line `राजि वयक या कौन्स िीय आकिसरों को, वजन्हें िह ठीक समझे, ककसी विदेश के विए वििाह अविकारी वियुत कर सकेगी। स्`
+  line `प ष् िी करण — इस िारा में “ राजिवयक आकिसर ” से राजदूत, दूत, मंत्री, उच्चा युत, आयुत, कायषदूत या अन्य राजिवयक प्र`
+  line `वतविवि या ककसी राजदूतािास, दूतािास या उच्च आयोग का परा शषद या सवचि अवभप्रेत है।`
+  line `अध्या य 2`
+  line `विदेशीय वििाहों का अिुष् ठा पि`
+  line `4. विदेशीय वििाहों के अिुष्ठा पि से सम्ब वन्ि त शतें — ऐसे पिकारों का वििाह, वजिमें कम से कम एक भारत का िागररक`
+  line `हो, विदेश में वििाह अविकारी द्व ारा या उसके समि इस अविवि यम के अिीि अिुष्ठा वपत ककया जा सकेगा, यकद उस वििाह के समय`
+  line `विम्ि विवित शतें पूरी हो जाती हैं, अथाषत्: —`
+  line `(क) ककसी पिकार का पवत या पत्िी जीवित िहीं है;`
+  line `(ि) कोई पिकार जड़ या पागि िहीं है;`
+  line `(ग) वििाह के समय िर िे इकी स िर्ष की आयु और ििू िे अट्ठारह िर्ष की आयु प्र ाप्त कर िी है; तथा`
+  line `(घ) पिकारों में प्र वतवर्द्ध कोरि की िातेदारी िहीं है:`
+  line `परन् तु जहां पिकारों में से कम से कम एक को शावसत करिे िािी स् िी य विवि या रू क़ि उिका परस्प र वििाह अिुज्ञात करती`
+  line `हो िहां ऐसा वििाह, इस बात के होते हु ए भी अिुष्ठा वपत ककया जा सकेगा कक उिमें प्र वतवर्द्ध कोरि की िातेदारी है।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-5. आशवयत वििाह की सूचिा — जब ककसी वििाह का इस अविवियम के अिीि अिुष्ठा पि आशवयत हो, तब वििाह के
-पिकार प्र थम अिुसूची में विविर्दषष्ि प्ररू प में उसकी विवित सूचिा उस वजिे के वििाह अविकारी को देंगे, वजसमें वििाह के पिकारों
-में से कम से कम एक िे ऐसी सूचिा कदए जािे की तारीि के ठीक पहिे तीस कदि से अन्यू ि की कािािवि पयषन्त वििास ककया हो, तथा
-ऐसी सूचिा में यह कथि रहेगा कक पिकार िे इस प्र कार वििास ककया है।
-6. वििाह सूचिा पुस्त क — वििाह अविकारी िा रा 5 के अिीि दी गई सब सूचिाओं को अपिे कायाषिय के अवभिेिों के साथ
-रिेगा और उस प्र योजि के विए विवहत पुस्त क में, जो “ वििाह - सूचिा पुस्त क ” कही जाएगी, ऐसी प्रत् ये क सूचिा की एक शुद्ध प्र वतविवप
-भी तत्का ि दजष करेगा और ऐसी पुस्त क उसका विरीिण करिे की इच्छा रििे िािे व् य वत द्व ारा, वबिा िीस के, विरीिण के विए सभी
-उवचत समयों पर उपिब् ि रहेगी।
-7. सूचिा का प्र काशि — जहां वििाह अविकारी को िारा 5 के अिीि सूचिा दी जाए िहां िह उसका प्र काशि —
-(क) अपिे कायाषिय में ककसी सहजदृश्य स् था ि पर उसकी प्र वतविवप िगा कर करा एगा, तथा
-(ि) भारत में और उस देश में या उि देशों में, जहां पिकार मामूिी तौर पर वििास करते हों, विवहत रीवत
-से कराएगा।
-8. वििाह के प्र वत आिेप — ( 1 ) िारा 7 के अिीि सूचिा के प्र काशि की तारीि से तीस कदि की समावप्त से पूिष कोई व् य वत
-उस वििाह के प्र वत इस आिार पर आिेप कर सकेगा कक िह वििाह िारा 4 में विविर्दषष्ि ककसी एक या अविक शतों का
-उल्िं घि करेगा। स्
-प ष् िी करण — जहां सूचिा का िारा 7 के िंड (क) के अिीि प्र वतविवप िगाकर प्र काशि और उस िारा के िंड (ि) के अिीि
-विवहत रीवत से प्र काशि वि वभन् ि तारीिों पर हो िहां इस उपिारा के प्र योजिों के विए तीस कदि की कािािवि पश्चा त् िती तारीि से
-वगिी जाएगी।
-( 2 ) ऐसा प्रत् ये क आिेप विवित रू प में होगा; िह आिेप करिे िािे उस व् य वत द्व ारा या उसके विवमत्त हस्ता िर करिे के
-विए सम्य क् रू प से प्र ावि कृत ककसी व् य वत द्व ारा हस्ता िररत होगा और उसमें आिेप का आिार कवथत होगा; तथा वििाह अविकारी
-आिेप की प्र कृवत को अपिी वििाह - सूचिा पुस् त क में अवभविवित करेगा।
-9. जहां कोई आिेप ि ककया जाए िहां वििाह का अिुष्ठा पि — यकद आशवयत वििाह के प्र वत कोई आिे प िारा 8 में
-विविर्दषष्ि कािािवि के भीतर ि ककया जाए तो िह वििाह उस कािािवि के अिसाि पर अिुष्ठा वपत ककया जा सकेगा।
-10. आिेप की प्र ावप्त पर प्र किया — ( 1 ) यकद ककसी आशवयत वििाह के प्र वत िारा 8 के अिीि आिेप ककया जाता है तो
-वििाह अविकारी िह वििाह तब तक अ िुष्ठा वपत ि करेगा जब तक िह ऐसी रीवत से, जैसी िह ठीक समझे, आिेप के विर्य में जांच ि
-कर िे और उसका समािाि ि हो जाए, कक िह आिेप ऐसा िहीं है कक वििाह अिुष्ठा वपत ि ककया जाए या जब तक उस व् य वत द्व ारा,
-वजसिे आिेप ककया हो, िह आिेप िापस ि िे विया जाए।
-( 2 ) जहां ककसी आिे प की बाबत वििाह अविकारी के मि में कोई शंका ऐसी जांच करिे के पश्चा त् बिी रहे िहां िह
-अवभिेि को उस विर्य की बाबत ऐसे कथि के साथ, जैसा िह ठीक समझे, केन् द्री य सरकार को भेजेगा, तथा केन् द्री य सरकार उस विर्य
-में ऐसी अवतररत जांच करिे के पश्चा त् और ऐसी सिाह अवभप्राप्त करिे के पश्चा त्, जैसी िह ठीक समझे, उस पर अपिा विविश्च य
-विवित रू प में वििाह अविकारी को देगी, जो केन् द्री य सरकार के विविश्च य के अिुरूप कायष करेगा।
-11. वििाह का स् था िीय विवियों के उल्िं घि में ि होिा — ( 1 ) वििाह अविकारी ऐसे कारणों से, वजन्हें िेिबद्ध ककया जाएगा,
-इस अविवियम के अिीि वििाह का अिुष्ठा पि करिे से इंकार कर सकेगा यकद आशवयत वििाह, वजस विदेश में उसका अिुष्ठा पि
-ककया जािा है उस विदेश में प्र िृत्त ककसी विवि द्व ारा प्र वतवर्द्ध हो।
-( 2 ) वििाह अविकारी ऐसे कारणों से, वजन्हें िेिबद्ध ककया जाएगा, इस अविवियम के अिीि ककसी वििाह का अिुष्ठा पि
-करिे से इस आिार पर इंकार कर सकेगा कक उसकी राय में ऐसे वििाह का अिुष्ठा पि अन्त रराष्री य विवि या अन्त रराष्री य सौजन्य से
-असंगत होगा।
-( 3 ) जहां वििाह अविकारी इस िारा के अिीि ककसी वि िाह का अिुष्ठा पि करिे से इंकार करता है िहां आशवयत वििाह का
-कोई पिकार केन् द्री य सरकार को विवहत रीवत से अपीि, ऐसे इंकार की तारीि से तीस कदि की कािािवि के भीतर कर सकेगा तथा
-वििाह अविकारी उस विविश्च य के अिुरूप, जो ऐसी अपीि पर केन् द्री य सरकार दे, कायष करे गा।
-12. पिकारों और सावियों द्व ारा घोर्णा — वििाह का अिुष्ठा पि होिे से पूिष, पिकार और तीि सािी वद्वतीय अिुसूची में
-विविर्दषष्ि प्ररू प में घोर्णा पर हस्ता िर वििाह अविकारी की उपवस्थ वत में करेंगे तथा इस घोर्णा पर वििाह अविकारी प्र वतहस्ता िर
-करेगा।
-13. अिुष्ठा पि का स् था ि और रू प — ( 1 ) इस अविवियम के अिीि वििाह अविकारी के द्व ारा या उसके समि वििाह कम से
-कम तीि सावियों की उपवस्थ वत में, विवहत समय के भीतर, वििाह अविकारी के शासकीय गृह में, वजसके द्व ार िुिे रहेंगे, अिुष्ठा वपत
-ककया जाएगा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `5. आशवयत वििाह की सूचिा — जब ककसी वििाह का इस अविवियम के अिीि अिुष्ठा पि आशवयत हो, तब वििाह के`
+  line `पिकार प्र थम अिुसूची में विविर्दषष्ि प्ररू प में उसकी विवित सूचिा उस वजिे के वििाह अविकारी को देंगे, वजसमें वििाह के पिकारों`
+  line `में से कम से कम एक िे ऐसी सूचिा कदए जािे की तारीि के ठीक पहिे तीस कदि से अन्यू ि की कािािवि पयषन्त वििास ककया हो, तथा`
+  line `ऐसी सूचिा में यह कथि रहेगा कक पिकार िे इस प्र कार वििास ककया है।`
+  line `6. वििाह सूचिा पुस्त क — वििाह अविकारी िा रा 5 के अिीि दी गई सब सूचिाओं को अपिे कायाषिय के अवभिेिों के साथ`
+  line `रिेगा और उस प्र योजि के विए विवहत पुस्त क में, जो “ वििाह - सूचिा पुस्त क ” कही जाएगी, ऐसी प्रत् ये क सूचिा की एक शुद्ध प्र वतविवप`
+  line `भी तत्का ि दजष करेगा और ऐसी पुस्त क उसका विरीिण करिे की इच्छा रििे िािे व् य वत द्व ारा, वबिा िीस के, विरीिण के विए सभी`
+  line `उवचत समयों पर उपिब् ि रहेगी।`
+  line `7. सूचिा का प्र काशि — जहां वििाह अविकारी को िारा 5 के अिीि सूचिा दी जाए िहां िह उसका प्र काशि —`
+  line `(क) अपिे कायाषिय में ककसी सहजदृश्य स् था ि पर उसकी प्र वतविवप िगा कर करा एगा, तथा`
+  line `(ि) भारत में और उस देश में या उि देशों में, जहां पिकार मामूिी तौर पर वििास करते हों, विवहत रीवत`
+  line `से कराएगा।`
+  line `8. वििाह के प्र वत आिेप — ( 1 ) िारा 7 के अिीि सूचिा के प्र काशि की तारीि से तीस कदि की समावप्त से पूिष कोई व् य वत`
+  line `उस वििाह के प्र वत इस आिार पर आिेप कर सकेगा कक िह वििाह िारा 4 में विविर्दषष्ि ककसी एक या अविक शतों का`
+  line `उल्िं घि करेगा। स्`
+  line `प ष् िी करण — जहां सूचिा का िारा 7 के िंड (क) के अिीि प्र वतविवप िगाकर प्र काशि और उस िारा के िंड (ि) के अिीि`
+  line `विवहत रीवत से प्र काशि वि वभन् ि तारीिों पर हो िहां इस उपिारा के प्र योजिों के विए तीस कदि की कािािवि पश्चा त् िती तारीि से`
+  line `वगिी जाएगी।`
+  line `( 2 ) ऐसा प्रत् ये क आिेप विवित रू प में होगा; िह आिेप करिे िािे उस व् य वत द्व ारा या उसके विवमत्त हस्ता िर करिे के`
+  line `विए सम्य क् रू प से प्र ावि कृत ककसी व् य वत द्व ारा हस्ता िररत होगा और उसमें आिेप का आिार कवथत होगा; तथा वििाह अविकारी`
+  line `आिेप की प्र कृवत को अपिी वििाह - सूचिा पुस् त क में अवभविवित करेगा।`
+  line `9. जहां कोई आिेप ि ककया जाए िहां वििाह का अिुष्ठा पि — यकद आशवयत वििाह के प्र वत कोई आिे प िारा 8 में`
+  line `विविर्दषष्ि कािािवि के भीतर ि ककया जाए तो िह वििाह उस कािािवि के अिसाि पर अिुष्ठा वपत ककया जा सकेगा।`
+  line `10. आिेप की प्र ावप्त पर प्र किया — ( 1 ) यकद ककसी आशवयत वििाह के प्र वत िारा 8 के अिीि आिेप ककया जाता है तो`
+  line `वििाह अविकारी िह वििाह तब तक अ िुष्ठा वपत ि करेगा जब तक िह ऐसी रीवत से, जैसी िह ठीक समझे, आिेप के विर्य में जांच ि`
+  line `कर िे और उसका समािाि ि हो जाए, कक िह आिेप ऐसा िहीं है कक वििाह अिुष्ठा वपत ि ककया जाए या जब तक उस व् य वत द्व ारा,`
+  line `वजसिे आिेप ककया हो, िह आिेप िापस ि िे विया जाए।`
+  line `( 2 ) जहां ककसी आिे प की बाबत वििाह अविकारी के मि में कोई शंका ऐसी जांच करिे के पश्चा त् बिी रहे िहां िह`
+  line `अवभिेि को उस विर्य की बाबत ऐसे कथि के साथ, जैसा िह ठीक समझे, केन् द्री य सरकार को भेजेगा, तथा केन् द्री य सरकार उस विर्य`
+  line `में ऐसी अवतररत जांच करिे के पश्चा त् और ऐसी सिाह अवभप्राप्त करिे के पश्चा त्, जैसी िह ठीक समझे, उस पर अपिा विविश्च य`
+  line `विवित रू प में वििाह अविकारी को देगी, जो केन् द्री य सरकार के विविश्च य के अिुरूप कायष करेगा।`
+  line `11. वििाह का स् था िीय विवियों के उल्िं घि में ि होिा — ( 1 ) वििाह अविकारी ऐसे कारणों से, वजन्हें िेिबद्ध ककया जाएगा,`
+  line `इस अविवियम के अिीि वििाह का अिुष्ठा पि करिे से इंकार कर सकेगा यकद आशवयत वििाह, वजस विदेश में उसका अिुष्ठा पि`
+  line `ककया जािा है उस विदेश में प्र िृत्त ककसी विवि द्व ारा प्र वतवर्द्ध हो।`
+  line `( 2 ) वििाह अविकारी ऐसे कारणों से, वजन्हें िेिबद्ध ककया जाएगा, इस अविवियम के अिीि ककसी वििाह का अिुष्ठा पि`
+  line `करिे से इस आिार पर इंकार कर सकेगा कक उसकी राय में ऐसे वििाह का अिुष्ठा पि अन्त रराष्री य विवि या अन्त रराष्री य सौजन्य से`
+  line `असंगत होगा।`
+  line `( 3 ) जहां वििाह अविकारी इस िारा के अिीि ककसी वि िाह का अिुष्ठा पि करिे से इंकार करता है िहां आशवयत वििाह का`
+  line `कोई पिकार केन् द्री य सरकार को विवहत रीवत से अपीि, ऐसे इंकार की तारीि से तीस कदि की कािािवि के भीतर कर सकेगा तथा`
+  line `वििाह अविकारी उस विविश्च य के अिुरूप, जो ऐसी अपीि पर केन् द्री य सरकार दे, कायष करे गा।`
+  line `12. पिकारों और सावियों द्व ारा घोर्णा — वििाह का अिुष्ठा पि होिे से पूिष, पिकार और तीि सािी वद्वतीय अिुसूची में`
+  line `विविर्दषष्ि प्ररू प में घोर्णा पर हस्ता िर वििाह अविकारी की उपवस्थ वत में करेंगे तथा इस घोर्णा पर वििाह अविकारी प्र वतहस्ता िर`
+  line करेगा।
+  line `13. अिुष्ठा पि का स् था ि और रू प — ( 1 ) इस अविवियम के अिीि वििाह अविकारी के द्व ारा या उसके समि वििाह कम से`
+  line `कम तीि सावियों की उपवस्थ वत में, विवहत समय के भीतर, वििाह अविकारी के शासकीय गृह में, वजसके द्व ार िुिे रहेंगे, अिुष्ठा वपत`
+  line `ककया जाएगा।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-( 2 ) वििा ह ककसी भी रू प में, वजसे पिकार अपिािा पसन्द करे, अिुष्ठा वपत ककया जा सकेगा:
-परन् तु जब तक प्रत् ये क पिकार दूसरे पिकार से वििाह अविकारी और तीि सावियों की उपवस्थ वत में तथा ऐसी भार्ा में
-वजसे पिकार समझ सकें, यह घोवर्त ि करे कक “ मैं (क) तुम (ि) को अ पिी विविपूणष पत्िी स् िी कार करता हं (या अपिा विविपूणष पवत स्
-िी कार करती हं) ” तब तक िह पूणष और पिकारों पर आबद्धकर ि होगा:
-परन् तु यह और कक जहां पूिषगामी परन् तु क में विर्दषष्ि घोर्णा ककसी ऐसी भार्ा में की जाए वजसे वििाह अविकारी या
-सावियों में से कोई समझ ि सके िहां पिकारों में से कोई उस घोर्णा का वििषचि ऐसी भार्ा में करेगा या कराएगा वजसे, यथावस्थ वत,
-वििाह अविकारी या ऐसा सािी समझ िे।
-14. वििाह का प्र माणपत्र — ( 1 ) जब भी कोई वििाह इस अविवियम के अिीि अिुष्ठा वपत ककया जाए तब वििाह अविकारी
-तृतीय अिु सूची में विविर्दषष्ि प्ररू प में उसका प्र माणपत्र उस प्र योजि के विए अपिे द्व ारा रिी गई पुस्त क में प्र विष्ि करेगा, जो वििाह - प्र
-माणपत्र पुस्त क कही जाएगी और ऐसे प्र माणपत्र पर वििाह के पिकार और तीिों सािी हस्ता िर करेंगे।
-( 2 ) वििाह - प्र माणपत्र पुस्त क में वििाह अविका री द्व ारा प्र माणपत्र प्र विष्ि ककए जािे पर िह प्र माणपत्र इस तथ्य का
-विश्चा यक साक्ष्य समझा जाएगा कक इस अविवियम के अिीि वििाह अिुष्ठा वपत हो गया है तथा वििाह के पूिष संबद्ध पिकार के
-वििास तथा सावियों के हस्ता िर के सम्ब न् ि में सब प्ररू वपताओं का अिुपािि हो गया है।
-15. विदेशीय वििाहों की भारत में विविमान्य ता — इस अविवियम के अन्य उपबन्िों के अध्य िीि रहते हु ए, इस अविवियम में
-उपबवन्ि त रीवत से अिुष्ठा वपत वििाह, विवि की दृवष्ि से ठीक और मान्य होगा।
-16. छह माह के भीतर वििाह का अिु ष् ठा पि ि होिे पर िई सूचिा का कदया जािा — जब भी ककसी वििाह का अिुष्ठा पि
-उस तारीि से, जब उसकी सूचिा वििाह अविकारी को िारा 5 के अिीि अपेवित रू प में दी गई हो, छह मास के भीतर, अथिा जहां
-िारा 10 के अिीि ककसी मामिे का अवभिेि केन् द्री य सरकार को भेजा गया हो या िारा 11 के अिीि केन् द्री य सरकार को अपीि की
-गई हो िहां, यथावस्थ वत, ऐसे मामिे या अपीि में केन् द्री य सरकार के विविश्च य की तारीि से तीि मास के भीतर िहीं होता तब िह
-सूचिा और उससे पैदा होिे िािी सब अन्य कायषिावहयां व् य पगत हु ई समझी जाएंगी और जब तक इस अविवि यम में दी गई रीवत से िई
-सूचिा िहीं दी जाती, कोई वििाह अविकारी उस वििाह का अिुष्ठा पि िहीं करेगा।
-अध्या य 3
-अन् य विवियों के अिीि अिुष्ठा वपत विदेशीय वििाहों का रवजस्री करण
-17. विदेशीय वििाहों का रवजस्री करण — ( 1 ) जहां —
-(क) वििाह अविकारी का यह समािाि हो जाए कक ऐसा वििाह ककसी विदेश में उस देश की विवि के अिुसार
-पिकारों के बीच, वजिमें कम से कम एक भारत का िागररक है, सम्य क् रू प से अिुष्ठा वपत हो गया है, तथा
-(ि) वििाह का कोई पिकार वििाह अविकारी को विवित रू प में इवत्तिा दे कक िह इस िारा के अिीि उस
-वििाह को रवजस्री कृत करािा चाहता या चाहती है,
-िहां वििाह अविकारी विवहत िीस के विए जािे पर, उस वििाह को रवजस्री कृत कर सकेगा।
-( 2 ) इस िारा के अिीि कोई वििाह रवजस्री कृत ि ककया जाएगा, जब तक कक िह िारा 4 में िर्णषत शतों को रवजस्री करण के
-समय पूरा िहीं कर ता है।
-( 3 ) वििाह अविकारी ककसी वििाह को, ऐसे कारणों से, जो िेिबद्ध ककए जाएंगे, इस िारा के अिीि रवजस्री कृत करिे से
-इस आिार पर इंकार कर सकेगा कक उसकी राय में िह वििाह अन्त राष्री य विवि या अन्त रराष्री य सौजन्य से असंगत है।
-( 4 ) जहां वििाह अविकारी ककसी वििाह को इस िारा के अिीि रवजस्री कृत करिे से इंकार करे िहां रवजस्री करण के विए
-आिेदि करिे िािा पिकार ऐसे इंकार की तारीि से तीस कदि के भीतर केन् द्री य सरकार को विवहत रीवत से अपीि कर सकेगा, और
-वििाह अविकारी उस विविश्च य के अिुरूप, जो ऐसी अपीि पर के न् द्र ी य सरकार दे, कायष करेगा।
-( 5 ) इस िारा के अिीि वििाह का रवजस्री करण वििाह अविकारी द्व ारा, उस वििाह के प्र माणपत्र की विवहत प्ररू प में और
-विवहत रीवत से वि िाह - प्र माणपत्र पुस्त क में प्र विवष्ि करके, ककया जाएगा, तथा ऐसे प्र माणपत्र पर वििाह के पिकार और तीि सािी
-हस्ता िर करेंगे।
-( 6 ) इस िारा के अिीि रवजस्री कृत वििाह रवजस्री करण की तारीि से इस अविवियम के अिीि अिुष्ठा वपत समझा
-जाएगा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `( 2 ) वििा ह ककसी भी रू प में, वजसे पिकार अपिािा पसन्द करे, अिुष्ठा वपत ककया जा सकेगा:`
+  line `परन् तु जब तक प्रत् ये क पिकार दूसरे पिकार से वििाह अविकारी और तीि सावियों की उपवस्थ वत में तथा ऐसी भार्ा में`
+  line `वजसे पिकार समझ सकें, यह घोवर्त ि करे कक “ मैं (क) तुम (ि) को अ पिी विविपूणष पत्िी स् िी कार करता हं (या अपिा विविपूणष पवत स्`
+  line `िी कार करती हं) ” तब तक िह पूणष और पिकारों पर आबद्धकर ि होगा:`
+  line `परन् तु यह और कक जहां पूिषगामी परन् तु क में विर्दषष्ि घोर्णा ककसी ऐसी भार्ा में की जाए वजसे वििाह अविकारी या`
+  line `सावियों में से कोई समझ ि सके िहां पिकारों में से कोई उस घोर्णा का वििषचि ऐसी भार्ा में करेगा या कराएगा वजसे, यथावस्थ वत,`
+  line `वििाह अविकारी या ऐसा सािी समझ िे।`
+  line `14. वििाह का प्र माणपत्र — ( 1 ) जब भी कोई वििाह इस अविवियम के अिीि अिुष्ठा वपत ककया जाए तब वििाह अविकारी`
+  line `तृतीय अिु सूची में विविर्दषष्ि प्ररू प में उसका प्र माणपत्र उस प्र योजि के विए अपिे द्व ारा रिी गई पुस्त क में प्र विष्ि करेगा, जो वििाह - प्र`
+  line `माणपत्र पुस्त क कही जाएगी और ऐसे प्र माणपत्र पर वििाह के पिकार और तीिों सािी हस्ता िर करेंगे।`
+  line `( 2 ) वििाह - प्र माणपत्र पुस्त क में वििाह अविका री द्व ारा प्र माणपत्र प्र विष्ि ककए जािे पर िह प्र माणपत्र इस तथ्य का`
+  line `विश्चा यक साक्ष्य समझा जाएगा कक इस अविवियम के अिीि वििाह अिुष्ठा वपत हो गया है तथा वििाह के पूिष संबद्ध पिकार के`
+  line `वििास तथा सावियों के हस्ता िर के सम्ब न् ि में सब प्ररू वपताओं का अिुपािि हो गया है।`
+  line `15. विदेशीय वििाहों की भारत में विविमान्य ता — इस अविवियम के अन्य उपबन्िों के अध्य िीि रहते हु ए, इस अविवियम में`
+  line `उपबवन्ि त रीवत से अिुष्ठा वपत वििाह, विवि की दृवष्ि से ठीक और मान्य होगा।`
+  line `16. छह माह के भीतर वििाह का अिु ष् ठा पि ि होिे पर िई सूचिा का कदया जािा — जब भी ककसी वििाह का अिुष्ठा पि`
+  line `उस तारीि से, जब उसकी सूचिा वििाह अविकारी को िारा 5 के अिीि अपेवित रू प में दी गई हो, छह मास के भीतर, अथिा जहां`
+  line `िारा 10 के अिीि ककसी मामिे का अवभिेि केन् द्री य सरकार को भेजा गया हो या िारा 11 के अिीि केन् द्री य सरकार को अपीि की`
+  line `गई हो िहां, यथावस्थ वत, ऐसे मामिे या अपीि में केन् द्री य सरकार के विविश्च य की तारीि से तीि मास के भीतर िहीं होता तब िह`
+  line `सूचिा और उससे पैदा होिे िािी सब अन्य कायषिावहयां व् य पगत हु ई समझी जाएंगी और जब तक इस अविवि यम में दी गई रीवत से िई`
+  line `सूचिा िहीं दी जाती, कोई वििाह अविकारी उस वििाह का अिुष्ठा पि िहीं करेगा।`
+  line `अध्या य 3`
+  line `अन् य विवियों के अिीि अिुष्ठा वपत विदेशीय वििाहों का रवजस्री करण`
+  line `17. विदेशीय वििाहों का रवजस्री करण — ( 1 ) जहां —`
+  line `(क) वििाह अविकारी का यह समािाि हो जाए कक ऐसा वििाह ककसी विदेश में उस देश की विवि के अिुसार`
+  line `पिकारों के बीच, वजिमें कम से कम एक भारत का िागररक है, सम्य क् रू प से अिुष्ठा वपत हो गया है, तथा`
+  line `(ि) वििाह का कोई पिकार वििाह अविकारी को विवित रू प में इवत्तिा दे कक िह इस िारा के अिीि उस`
+  line `वििाह को रवजस्री कृत करािा चाहता या चाहती है,`
+  line `िहां वििाह अविकारी विवहत िीस के विए जािे पर, उस वििाह को रवजस्री कृत कर सकेगा।`
+  line `( 2 ) इस िारा के अिीि कोई वििाह रवजस्री कृत ि ककया जाएगा, जब तक कक िह िारा 4 में िर्णषत शतों को रवजस्री करण के`
+  line `समय पूरा िहीं कर ता है।`
+  line `( 3 ) वििाह अविकारी ककसी वििाह को, ऐसे कारणों से, जो िेिबद्ध ककए जाएंगे, इस िारा के अिीि रवजस्री कृत करिे से`
+  line `इस आिार पर इंकार कर सकेगा कक उसकी राय में िह वििाह अन्त राष्री य विवि या अन्त रराष्री य सौजन्य से असंगत है।`
+  line `( 4 ) जहां वििाह अविकारी ककसी वििाह को इस िारा के अिीि रवजस्री कृत करिे से इंकार करे िहां रवजस्री करण के विए`
+  line `आिेदि करिे िािा पिकार ऐसे इंकार की तारीि से तीस कदि के भीतर केन् द्री य सरकार को विवहत रीवत से अपीि कर सकेगा, और`
+  line `वििाह अविकारी उस विविश्च य के अिुरूप, जो ऐसी अपीि पर के न् द्र ी य सरकार दे, कायष करेगा।`
+  line `( 5 ) इस िारा के अिीि वििाह का रवजस्री करण वििाह अविकारी द्व ारा, उस वििाह के प्र माणपत्र की विवहत प्ररू प में और`
+  line `विवहत रीवत से वि िाह - प्र माणपत्र पुस्त क में प्र विवष्ि करके, ककया जाएगा, तथा ऐसे प्र माणपत्र पर वििाह के पिकार और तीि सािी`
+  line `हस्ता िर करेंगे।`
+  line `( 6 ) इस िारा के अिीि रवजस्री कृत वििाह रवजस्री करण की तारीि से इस अविवियम के अिीि अिुष्ठा वपत समझा`
+  line जाएगा।
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-अध्या य 4
-विदेशीय वििाहों की बाबत वििाह - विर्यक अिुतोर्
-18. वििाह - विर्यक अिुतोर्ों का विशेर् वििाह अविवियम, 1 954 के अिीि होिा — ( 1 ) इस िारा के अन्य उपबन्िों के
-अध्य िीि रहते हु ए, विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) के अध्या य 4, 5, 6 और 7 के उपबन्ि इस अविवियम के अिीि
-अिुष्ठा वपत वििाहों और ऐसे पिकारों के बीच, वजिमें कम से कम एक भारत का िागररक हो, विदेश में अिुष्ठा वपत अन्य वििाह के
-संबंि में िैसे ही िागू होंगे जैसे िे उस अविवियम के अिीि अिुष्ठा वपत वििाहों के सम्ब न् ि में िागू होते हैं। स्
-प ष् िी करण — विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) की िारा 24, इस उपिारा में विर्दषष्ि वििाहों को
-विम्ि विवित उपान्त रों के साथ िागू होगी, अथाषत्: —
-( i ) उसकी उपिारा ( 1 ) में उस अविवियम की िारा 4 के िण्ड (क), (ि), (ग) और (घ) के प्र वत विदेश का अथष यह
-िगाया जाएगा कक िह िमश: इस अविवियम की िारा 4 के िंड (क), (ि), (ग) और (घ) के प्र वत विदेश है; तथा
-( ii ) पूिोत िारा 24 की कोई बात ककसी ऐसे वििाह को िागू ि होगी, —
-(क) जो इस अविवियम के अिीि अिुष्ठा वपत ि ककया गया हो; अथिा
-(ि) जो िारा 17 के उपबन्िों के कारण इस अविवियम के अिीि अिुष्ठा वपत ककया गया समझा जाए:
-परन् तु उपिण्ड (ि) में विविर्दषष्ि प्र कार के ककसी वििाह के रवजस्री करण को विष् प्र भािी घोवर्त ककया जा सकेगा यकद िह
-रवजस्री करण िारा 17 की उपिारा ( 2 ) के उल्िं घि में हो।
-( 2 ) विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) के अध्या य 5 या अध्या य 6 के अिीि, जैसे कक िे उपिारा ( 1 ) में विर्दषष्ि
-वििाहों के प्र वत िागू ककए गए हैं, अिुतोर् के विए प्रत् ये क अजी, उस वजिा न् या यािय के समि पेश की जाएगी वजसकी मामूिी वसविि
-अविकाररता की स् था िीय सीमाओं के भीतर —
-(क) अजी पेश करिे के समय प्रत् य थी वििास कर रहा हो; अथिा
-(ि) पवत और पत्िी िे अवन्त म बार एक साथ वििास ककया हो; अथ िा
-(ग) अजीदार अजी पेश करिे के समय वििास कर रहा हो, परन् तु यह तब जब उस समय प्रत् य थी भारत के बाहर
-वििास कर रहा हो। स्
-प ष् िी करण — इस िारा में “ वजिा न् या यािय ” का िही अथष है जो विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) में है।
-( 3 ) इस िारा की कोई बात ककसी न् या यािय को —
-(क) वििाह के विघिि की कोई वडिी देिे के विए िहां के वसिाय प्र ाविकृत िहीं करेगी जहां —
-( i ) वििाह के पिकार अजी पेश ककए जािे के समय भारत के अवििासी हों; अथिा
-( ii ) अजीदार पत्िी, अपिे वििाह के ठीक पहिे भारत की अवििावसिी थी और अजी पेश करिे के ठीक
-पहिे तीि िर्ष से अन्यू ि कािािवि तक भारत में वििास करती रही हो;
-(ि) ककसी शून्य करणीय वििाह को बावति करिे िािी कोई वडिी देिे के विए िहां के वसिाय प्र ाविकृत िहीं
-करेगी, जहां —
-( i ) वििाह के पिकार अजी पेश ककए जािे के समय भारत के अवििासी हों, अथिा
-( ii ) वििाह इस अविवियम के अिीि अिुष्ठा वपत ककया गया था और अजीदार पत्िी अजी पेश करिे के
-ठीक पहिे तीि िर्ष की कािािवि तक भारत में मामूिी तौर पर वििासी रही हो;
-(ग) ककसी शून्य वििाह की बाबत वििाह के बावतिकरण की कोई वडिी देिे के विए िहां के वसिाय, प्र ाविकृत िहीं
-करेगी, जहां —
-( i ) वििाह के पिकारों में से कोई भी अजी पेश ककए जािे के समय भारत का अवििासी हो; अथिा
-( ii ) वििाह इस अविवियम के अिीि अिुष्ठा वपत ककया गया था और अजीदार अजी पेश करिे के समय
-भारत का वििासी हो;
-(घ) विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) के अध्या य 5 या अध्या य 6 के अिीि कोई अन्य अिुतोर्
-अिुदत्त करिे के विए िहां के वसिाय प्र ाविकृत िहीं करेगी जहां अजीदार अजी पेश करिे के समय भारत में वििास कर
-रहा हो।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `अध्या य 4`
+  line `विदेशीय वििाहों की बाबत वििाह - विर्यक अिुतोर्`
+  line `18. वििाह - विर्यक अिुतोर्ों का विशेर् वििाह अविवियम, 1 954 के अिीि होिा — ( 1 ) इस िारा के अन्य उपबन्िों के`
+  line `अध्य िीि रहते हु ए, विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) के अध्या य 4, 5, 6 और 7 के उपबन्ि इस अविवियम के अिीि`
+  line `अिुष्ठा वपत वििाहों और ऐसे पिकारों के बीच, वजिमें कम से कम एक भारत का िागररक हो, विदेश में अिुष्ठा वपत अन्य वििाह के`
+  line `संबंि में िैसे ही िागू होंगे जैसे िे उस अविवियम के अिीि अिुष्ठा वपत वििाहों के सम्ब न् ि में िागू होते हैं। स्`
+  line `प ष् िी करण — विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) की िारा 24, इस उपिारा में विर्दषष्ि वििाहों को`
+  line `विम्ि विवित उपान्त रों के साथ िागू होगी, अथाषत्: —`
+  line `( i ) उसकी उपिारा ( 1 ) में उस अविवियम की िारा 4 के िण्ड (क), (ि), (ग) और (घ) के प्र वत विदेश का अथष यह`
+  line `िगाया जाएगा कक िह िमश: इस अविवियम की िारा 4 के िंड (क), (ि), (ग) और (घ) के प्र वत विदेश है; तथा`
+  line `( ii ) पूिोत िारा 24 की कोई बात ककसी ऐसे वििाह को िागू ि होगी, —`
+  line `(क) जो इस अविवियम के अिीि अिुष्ठा वपत ि ककया गया हो; अथिा`
+  line `(ि) जो िारा 17 के उपबन्िों के कारण इस अविवियम के अिीि अिुष्ठा वपत ककया गया समझा जाए:`
+  line `परन् तु उपिण्ड (ि) में विविर्दषष्ि प्र कार के ककसी वििाह के रवजस्री करण को विष् प्र भािी घोवर्त ककया जा सकेगा यकद िह`
+  line `रवजस्री करण िारा 17 की उपिारा ( 2 ) के उल्िं घि में हो।`
+  line `( 2 ) विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) के अध्या य 5 या अध्या य 6 के अिीि, जैसे कक िे उपिारा ( 1 ) में विर्दषष्ि`
+  line `वििाहों के प्र वत िागू ककए गए हैं, अिुतोर् के विए प्रत् ये क अजी, उस वजिा न् या यािय के समि पेश की जाएगी वजसकी मामूिी वसविि`
+  line `अविकाररता की स् था िीय सीमाओं के भीतर —`
+  line `(क) अजी पेश करिे के समय प्रत् य थी वििास कर रहा हो; अथिा`
+  line `(ि) पवत और पत्िी िे अवन्त म बार एक साथ वििास ककया हो; अथ िा`
+  line `(ग) अजीदार अजी पेश करिे के समय वििास कर रहा हो, परन् तु यह तब जब उस समय प्रत् य थी भारत के बाहर`
+  line `वििास कर रहा हो। स्`
+  line `प ष् िी करण — इस िारा में “ वजिा न् या यािय ” का िही अथष है जो विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) में है।`
+  line `( 3 ) इस िारा की कोई बात ककसी न् या यािय को —`
+  line `(क) वििाह के विघिि की कोई वडिी देिे के विए िहां के वसिाय प्र ाविकृत िहीं करेगी जहां —`
+  line `( i ) वििाह के पिकार अजी पेश ककए जािे के समय भारत के अवििासी हों; अथिा`
+  line `( ii ) अजीदार पत्िी, अपिे वििाह के ठीक पहिे भारत की अवििावसिी थी और अजी पेश करिे के ठीक`
+  line `पहिे तीि िर्ष से अन्यू ि कािािवि तक भारत में वििास करती रही हो;`
+  line `(ि) ककसी शून्य करणीय वििाह को बावति करिे िािी कोई वडिी देिे के विए िहां के वसिाय प्र ाविकृत िहीं`
+  line `करेगी, जहां —`
+  line `( i ) वििाह के पिकार अजी पेश ककए जािे के समय भारत के अवििासी हों, अथिा`
+  line `( ii ) वििाह इस अविवियम के अिीि अिुष्ठा वपत ककया गया था और अजीदार पत्िी अजी पेश करिे के`
+  line `ठीक पहिे तीि िर्ष की कािािवि तक भारत में मामूिी तौर पर वििासी रही हो;`
+  line `(ग) ककसी शून्य वििाह की बाबत वििाह के बावतिकरण की कोई वडिी देिे के विए िहां के वसिाय, प्र ाविकृत िहीं`
+  line `करेगी, जहां —`
+  line `( i ) वििाह के पिकारों में से कोई भी अजी पेश ककए जािे के समय भारत का अवििासी हो; अथिा`
+  line `( ii ) वििाह इस अविवियम के अिीि अिुष्ठा वपत ककया गया था और अजीदार अजी पेश करिे के समय`
+  line `भारत का वििासी हो;`
+  line `(घ) विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) के अध्या य 5 या अध्या य 6 के अिीि कोई अन्य अिुतोर्`
+  line `अिुदत्त करिे के विए िहां के वसिाय प्र ाविकृत िहीं करेगी जहां अजीदार अजी पेश करिे के समय भारत में वििास कर`
+  line `रहा हो।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-( 4 ) उपिारा ( 1 ) की कोई बात विदेश में के ककसी वििाह के संबंि में, जो इस अविवियम के अिीि अिुष्ठा वपत ि ककया गया
-हो इस अविवियम के अिीि कोई अिुतोर् अिुदत्त करिे के विए ककसी न् या यािय को प्र ाविकृत िहीं करेगी। यकद ऐसे वििाह की बाबत
-अिुतोर् का अिुदाि [ चाहे विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) में विवि र् दषष्ि ककसी आिार पर या अन्य था ] ककसी अन्य
-तत्स मय प्र िृत विवि के अिीि उपबवन्ि त हो।
-अध्या य 5
-शावस्त यां
-19. वद्ववििाह के विए दण् ड — ( 1 ) कोई व् य वत, वजसका वििाह इस अविवियम के अिीि अिुष्ठा वपत ककया गया हो या
-अिुष्ठा वपत समझा जाए और जो अपिे वििाह के बिे रहिे के दौराि भारत में कोई अन्य वििाह करे, भारतीय दंड संवहता
-( 1860 का 45 ) की िारा 494 और िारा 495 में उपबवन्ि त शावस्त यों का भागी होगा तथा इस प्र कार ककया गया वििाह शून्य होगा।
-( 2 ) उपिारा ( 1 ) के उपबन्ि भारत से बाहर और परे भारत के ककसी िा गररक द्व ारा ककए गए ऐसे अपराि को भी िागू
-होते हैं।
-20. वििाह के विए कुछ अन्य शतों के उल्िं घि के विए दण् ड — भारत का कोई िागररक, जो अपिे वििाह का इस अविवियम
-के अिीि अिुष्ठा पि िारा 4 के िण्ड (ग) या िण्ड (घ) के विविर्दषष्ि शतष के उल्िं घि में कराएगा, —
-(क) िारा 4 के िण्ड (ग) में विविर्दषष्ि शतष के उल्िं घि की दशा में, सादे कारािास से, जो पंद्रह कदि तक का हो
-सकेगा, या जुमाषिे से, जो एक हजार रु पए तक का हो सकेगा, या दोिों से, दण्ड िीय होगा, तथा
-(ि) िारा 4 के िण्ड (घ) में विविर्दषष्ि शतष के उल्िं घि की दशा में, सादे कारािास से, जो एक मास तक का हो
-सकेगा, या जुमाषिे से, जो एक हजार रु पए तक का हो सकेगा, या दोिों से, दण्ड िीय होगा।
-21. वमथ्या घोर्णा के विए दण् ड — यकद भारत का कोई िागररक वििाह करािे के प्र योजि से, —
-(क) जहां इस अविवियम द्व ारा कोई घोर्णा अपेवित हो िहां, साशय वमथ्या घोर्णा करेगा; अथिा
-(ि) जहां इस अविवियम द्व ारा कोई सूचिा या प्र माणपत्र अपेवित हो िहां वमथ्या सूचिा या प्र माणपत्र पर साशय
-हस्ता िर करेगा,
-तो िह कारािास से, वजसकी अिवि तीि िर्ष तक की हो सकेगी, दण्ड िीय होगा और जुमाष िे का भी दायी होगा।
-22. वििाह अविकारी की सदोर् कारषिाई के विए दण्ड — कोई वििाह अविकारी, जो इस अविवियम के अिीि वििाह इस
-अविवियम के उपबन्िों में से ककसी के उल्िं घि में, जािते हु ए और जािबूझकर अिुष्ठा वपत करेगा, सादे कारािास से, जो एक िर्ष तक
-का हो सकेगा, या जुमाषिे से, जो पांच सौ रु पए तक का हो सकेगा या दोिों से, दण्ड िीय होगा।
-अध्या य 6 प्र
-कीणष
-23. अन्य देशों की विवि के अिीि अिुष्ठा वपत वििाहों को मान्य ता — यकद केन् द्री य सरकार का समािाि हो जाए कक वििाह
-का अिुष्ठा पि करिे के विए ककसी विदेश में तत्स मय प्र िृत्त विवि में ऐसे उपबन्ि हैं, जो इस अविवियम के उपबन्िों के समरूप हैं, तो
-िह शासकीय राजपत्र में अविसूचिा द्व ारा घोवर्त कर सकेगी कक ऐसे विदेश में प्र िृत्त विवि के अिीि अिुष्ठा वपत वििाह भारत के न्
-या याियों द्व ारा मान्य होंगे।
-24. स् था िीय विवि के अिुसा र विदेश में अिुष्ठा वपत वििाहों की दस्ता िेजों का प्र माणि — ( 1 ) जहां —
-(क) कोई वििाह केन् द्री य सरकार द्व ारा शासकीय राजपत्र में अविसूचिा द्व ारा इस विवमत्त विविर्दषष्ि ककसी विदेश
-में उस देश की विवि के अिुसार ऐसे पिकारों के बीच, वजिमें कम से कम एक भारत का िा गररक हो, अिुष्ठा वपत ककया
-जाए; तथा
-(ि) वििाह का कोई पिकार, जो ऐसा िागररक हो, उस देश के, वजसमें वििाह अिुष्ठा वपत हु आ हो, वििाह
-अविकारी के समि, —
-( i ) उस वििाह की बाबत उस देश के वििाह रवजस्ि र में की प्र विवष्ि की प्र वतविवप, वजसे उस देश के
-समुवचत प्र ा विकारी द्व ारा उस प्र विवष्ि की शुद्ध प्र वतविवप होिा प्र मावणत ककया गया हो, पेश कर दे; तथा
-( ii ) यकद उस प्र विवष्ि की प्र वतविवप अंग्रेजी भार्ा में ि हो तो उस प्र वतविवप का विवहत भार्ा में अिुिाद
-पेश कर दे; तथा
-(ग) वििाह अविकारी का यह समािाि हो जाए कक वििाह रवज स् ि र में की प्र विवष्ि की प्र वतविवप शुद्ध प्र वतविवप है
-और अिुिाद, यकद कोई हो, शुद्ध अिुिाद है,`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `( 4 ) उपिारा ( 1 ) की कोई बात विदेश में के ककसी वििाह के संबंि में, जो इस अविवियम के अिीि अिुष्ठा वपत ि ककया गया`
+  line `हो इस अविवियम के अिीि कोई अिुतोर् अिुदत्त करिे के विए ककसी न् या यािय को प्र ाविकृत िहीं करेगी। यकद ऐसे वििाह की बाबत`
+  line `अिुतोर् का अिुदाि [ चाहे विशेर् वििाह अविवियम, 1954 ( 1954 का 43 ) में विवि र् दषष्ि ककसी आिार पर या अन्य था ] ककसी अन्य`
+  line `तत्स मय प्र िृत विवि के अिीि उपबवन्ि त हो।`
+  line `अध्या य 5`
+  line `शावस्त यां`
+  line `19. वद्ववििाह के विए दण् ड — ( 1 ) कोई व् य वत, वजसका वििाह इस अविवियम के अिीि अिुष्ठा वपत ककया गया हो या`
+  line `अिुष्ठा वपत समझा जाए और जो अपिे वििाह के बिे रहिे के दौराि भारत में कोई अन्य वििाह करे, भारतीय दंड संवहता`
+  line `( 1860 का 45 ) की िारा 494 और िारा 495 में उपबवन्ि त शावस्त यों का भागी होगा तथा इस प्र कार ककया गया वििाह शून्य होगा।`
+  line `( 2 ) उपिारा ( 1 ) के उपबन्ि भारत से बाहर और परे भारत के ककसी िा गररक द्व ारा ककए गए ऐसे अपराि को भी िागू`
+  line `होते हैं।`
+  line `20. वििाह के विए कुछ अन्य शतों के उल्िं घि के विए दण् ड — भारत का कोई िागररक, जो अपिे वििाह का इस अविवियम`
+  line `के अिीि अिुष्ठा पि िारा 4 के िण्ड (ग) या िण्ड (घ) के विविर्दषष्ि शतष के उल्िं घि में कराएगा, —`
+  line `(क) िारा 4 के िण्ड (ग) में विविर्दषष्ि शतष के उल्िं घि की दशा में, सादे कारािास से, जो पंद्रह कदि तक का हो`
+  line `सकेगा, या जुमाषिे से, जो एक हजार रु पए तक का हो सकेगा, या दोिों से, दण्ड िीय होगा, तथा`
+  line `(ि) िारा 4 के िण्ड (घ) में विविर्दषष्ि शतष के उल्िं घि की दशा में, सादे कारािास से, जो एक मास तक का हो`
+  line `सकेगा, या जुमाषिे से, जो एक हजार रु पए तक का हो सकेगा, या दोिों से, दण्ड िीय होगा।`
+  line `21. वमथ्या घोर्णा के विए दण् ड — यकद भारत का कोई िागररक वििाह करािे के प्र योजि से, —`
+  line `(क) जहां इस अविवियम द्व ारा कोई घोर्णा अपेवित हो िहां, साशय वमथ्या घोर्णा करेगा; अथिा`
+  line `(ि) जहां इस अविवियम द्व ारा कोई सूचिा या प्र माणपत्र अपेवित हो िहां वमथ्या सूचिा या प्र माणपत्र पर साशय`
+  line `हस्ता िर करेगा,`
+  line `तो िह कारािास से, वजसकी अिवि तीि िर्ष तक की हो सकेगी, दण्ड िीय होगा और जुमाष िे का भी दायी होगा।`
+  line `22. वििाह अविकारी की सदोर् कारषिाई के विए दण्ड — कोई वििाह अविकारी, जो इस अविवियम के अिीि वििाह इस`
+  line `अविवियम के उपबन्िों में से ककसी के उल्िं घि में, जािते हु ए और जािबूझकर अिुष्ठा वपत करेगा, सादे कारािास से, जो एक िर्ष तक`
+  line `का हो सकेगा, या जुमाषिे से, जो पांच सौ रु पए तक का हो सकेगा या दोिों से, दण्ड िीय होगा।`
+  line `अध्या य 6 प्र`
+  line कीणष
+  line `23. अन्य देशों की विवि के अिीि अिुष्ठा वपत वििाहों को मान्य ता — यकद केन् द्री य सरकार का समािाि हो जाए कक वििाह`
+  line `का अिुष्ठा पि करिे के विए ककसी विदेश में तत्स मय प्र िृत्त विवि में ऐसे उपबन्ि हैं, जो इस अविवियम के उपबन्िों के समरूप हैं, तो`
+  line `िह शासकीय राजपत्र में अविसूचिा द्व ारा घोवर्त कर सकेगी कक ऐसे विदेश में प्र िृत्त विवि के अिीि अिुष्ठा वपत वििाह भारत के न्`
+  line `या याियों द्व ारा मान्य होंगे।`
+  line `24. स् था िीय विवि के अिुसा र विदेश में अिुष्ठा वपत वििाहों की दस्ता िेजों का प्र माणि — ( 1 ) जहां —`
+  line `(क) कोई वििाह केन् द्री य सरकार द्व ारा शासकीय राजपत्र में अविसूचिा द्व ारा इस विवमत्त विविर्दषष्ि ककसी विदेश`
+  line `में उस देश की विवि के अिुसार ऐसे पिकारों के बीच, वजिमें कम से कम एक भारत का िा गररक हो, अिुष्ठा वपत ककया`
+  line `जाए; तथा`
+  line `(ि) वििाह का कोई पिकार, जो ऐसा िागररक हो, उस देश के, वजसमें वििाह अिुष्ठा वपत हु आ हो, वििाह`
+  line `अविकारी के समि, —`
+  line `( i ) उस वििाह की बाबत उस देश के वििाह रवजस्ि र में की प्र विवष्ि की प्र वतविवप, वजसे उस देश के`
+  line `समुवचत प्र ा विकारी द्व ारा उस प्र विवष्ि की शुद्ध प्र वतविवप होिा प्र मावणत ककया गया हो, पेश कर दे; तथा`
+  line `( ii ) यकद उस प्र विवष्ि की प्र वतविवप अंग्रेजी भार्ा में ि हो तो उस प्र वतविवप का विवहत भार्ा में अिुिाद`
+  line `पेश कर दे; तथा`
+  line `(ग) वििाह अविकारी का यह समािाि हो जाए कक वििाह रवज स् ि र में की प्र विवष्ि की प्र वतविवप शुद्ध प्र वतविवप है`
+  line `और अिुिाद, यकद कोई हो, शुद्ध अिुिाद है,`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-िहां वििाह अविकारी विवहत िीस कदए जािे पर उस प्र वतविवप पर प्र मावणत करेगा कक उसका समािाि हो गया है कक िह प्र वतविवप
-वििाह रवजस्ि र में की प्र विवष्ि की शुद्ध प्र वत विवप है और उस अिुिाद पर प्र मावणत करेगा कक उसका समािाि हो गया है कक अिुिाद
-उस प्र वतविवप का शुद्ध अिुिाद है तथा उस प्र वतविवप और अिुिाद को उ त पिकार को दे देगा।
-( 2 ) विदेश में वििाह के संबंि में उपिारा ( 1 ) के अिीि दी गई दस्ता िेज ककसी भी कायषिाही में सा क्ष् य के रू प में उसी प्र कार ग्र
-ाह्य होगी मािो िह उस देश के समुवचत प्र ाविकारी द्व ारा सम्य क् रू प से कदया गया प्र माणपत्र हो।
-25. प्र विवष्ि यों की प्र मावणत प्र वतविवप का साक्ष्य होिा — वििाह प्र माणपत्र पुस्त क में वििाह की प्र विवष्ि की प्रत् ये क प्र मावणत प्र
-वतविवप, वजसका वििाह अविकारी द्व ारा हस्ता िररत होिा तात्प र् यषत हो, मूि प्र वत या उसका सबूत पेश ककए वबिा साक्ष्य में
-िी जाएगी।
-26. गिवतयों का ठीक ककया जािा — ( 1 ) कोई वििाह अविकारी, जो वििाह - प्र माणपत्र पुस्त क में की ककसी प्र विवष्ि के प्ररू प
-या सार में कोई गिती का पता चिाए, ऐसी गिती का पता चििे के पश्चा त् एक महीिे के भीतर उि वििावहत व् य वत यों के समि
-अथिा उिकी मृत्यु या उिके अिुपवस्थ त रहिे की दशा में दो अन्य सावियों के समि, गिती को, पाश्िष में प्र विवष्ि करके तथा मूि प्र
-विवष्ि में पररितषि ककए वबिा, ठीक कर सकेगा और उसमें ऐसे ठीक करिे की तारीि जोड़ेगा।
-( 2 ) इस िारा के अिीि गिती ठीक करिे की प्रत् ये क प्र विवष्ि उि सावियों द्व ारा वजिके समि िह की गई हो, अिुप्रमावणत
-की जाएगी।
-27. अविवियम - बाह्य वििाहों की विविमान्य ता का इस अविवि यम द्व ारा प्र भावित ि होिा — इस अविवियम की कोई बात
-विदेश में इस अविवियम के अिुसरण से अन्य था अिुष्ठा वपत वििाह की विविमान्य ता पर ककसी प्र कार से प्र भाि ि डािेगी।
-28. वियम बिािे की शवत — ( 1 ) केन् द्री य सरकार, इस अविवियम के प्र योजिों को कायाषवन्ि त करिे के विए वियम शासकीय
-राजपत्र में अविसूचिा द्व ारा, बिा सकेगी।
-( 2 ) विवशष्ि तया और पूिषगामी शवत की व् या पकता पर प्र वतकूि प्र भाि डािे वबिा, ऐसे वियम विम्ि विवित सभी विर्यों के
-विए या उिमें से ककसी के विए उपबन्ि कर सकेंगे, अथाषत्: —
-(क) वि िाह अविकाररयों के क तषव्य और शवत यां और उिके वजिे;
-(ि) िह रीवत वजससे वििाह अविकारी इस अविवियम के अिीि कोई जांच कर सकेगा;
-(ग) िह रीवत वजससे वििाहों की सूचिाएं, प्र का वशत की जाएंगी;
-(घ) िे स् था ि जहां और िह समय जब इस अविवियम के अिीि वििाह अिुष्ठा वपत ककए जा सकेंगे;
-( ङ ) िह प्ररू प वजसमें और िह रीवत वजससे इस अविवियम द्व ारा या उसके अिीि रिी जािे के विए अपेवित
-पुस्त कें रिी जाएंगी;
-(च) िह प्ररू प वजसमें और िह रीवत वजससे िारा 17 की उपिारा ( 5 ) के अिीि वििाहों के प्र माणपत्र प्र विष्ि ककए
-जा सकेंगे;
-(छ) िह िीस, जो इस अविवि यम के अिीि वििाह अविकारी पर अविरोवपत ककसी कतषव्य के पािि के विए
-उद्गृहीत की जा सकेगी;
-(ज) िे प्र ाविकारी वजिको, िह प्ररू प वजसमें और िे अन्त राि वजिके भीतर, वििाह - प्र माणपत्र पुस्त क में की प्र
-विवष्ि यों की प्र वतविवपयां भेजी जाएंगी तथा जब वििाह - प्र माणपत्र पुस्त क में गिवतयां ठीक की जाएं तब िह रीवत वजससे
-ऐसी शुवद्धयों के प्र माणपत्र प्र ाविकाररयों को भेजे जाएंगे;
-(झ) इस अविवियम के अिीि रिी जािे के विए अपेवित पुस्त कों का विरीिण और उिमें की प्र विवष्ि यों की प्र
-मावणत प्र वतविवपयों का कदया जािा;
-( ञ ) िह री वत वजससे और िे शतें वजिके अध्य िीि रहते हु ए िारा 23 के अिीि ककसी वििाह को मान्य ता दी
-जा सकेगी;
-(ि) कोई अन्य विर्य जो विवहत ककया जाए या वजसका विवहत ककया जािा अपेवित हो।
-1 [ ( 3 ) इस िारा के अिीि केन् द्री य सरकार द्व ारा बिाया गया प्रत् ये क वियम ब िाए जािे के पश्चा त् यथाशीघ्र, संसद् के प्रत् ये क
-सदि के समि, जब िह सत्र में हो, कुि तीस कदि की अिवि के विए रिा जाएगा। यह अिवि एक सत्र में अथिा दो या अविक
-आिुिवमक सत्रों में पूरी हो सकेगी। यकद उस सत्र के या पूिोत आिुिवमक सत्रों के ठीक बाद के स त्र के अिसाि के पूिष दोिों सदि उस
-वियम में कोई पररितषि करिे के विए सहमत हो जाएं तो तत्प श् चा त् िह ऐसे पररिर्तषत रू प में ही प्र भािी होगा। यकद उ त अिसाि के
-1 1983 के अविवियम सं ० 20 की िारा 2 और अिुसूची द्व ारा ( 15 - 3 - 1984 से) कवतपय शब्दों के स् था ि पर प्र वतस्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `िहां वििाह अविकारी विवहत िीस कदए जािे पर उस प्र वतविवप पर प्र मावणत करेगा कक उसका समािाि हो गया है कक िह प्र वतविवप`
+  line `वििाह रवजस्ि र में की प्र विवष्ि की शुद्ध प्र वत विवप है और उस अिुिाद पर प्र मावणत करेगा कक उसका समािाि हो गया है कक अिुिाद`
+  line `उस प्र वतविवप का शुद्ध अिुिाद है तथा उस प्र वतविवप और अिुिाद को उ त पिकार को दे देगा।`
+  line `( 2 ) विदेश में वििाह के संबंि में उपिारा ( 1 ) के अिीि दी गई दस्ता िेज ककसी भी कायषिाही में सा क्ष् य के रू प में उसी प्र कार ग्र`
+  line `ाह्य होगी मािो िह उस देश के समुवचत प्र ाविकारी द्व ारा सम्य क् रू प से कदया गया प्र माणपत्र हो।`
+  line `25. प्र विवष्ि यों की प्र मावणत प्र वतविवप का साक्ष्य होिा — वििाह प्र माणपत्र पुस्त क में वििाह की प्र विवष्ि की प्रत् ये क प्र मावणत प्र`
+  line `वतविवप, वजसका वििाह अविकारी द्व ारा हस्ता िररत होिा तात्प र् यषत हो, मूि प्र वत या उसका सबूत पेश ककए वबिा साक्ष्य में`
+  line `िी जाएगी।`
+  line `26. गिवतयों का ठीक ककया जािा — ( 1 ) कोई वििाह अविकारी, जो वििाह - प्र माणपत्र पुस्त क में की ककसी प्र विवष्ि के प्ररू प`
+  line `या सार में कोई गिती का पता चिाए, ऐसी गिती का पता चििे के पश्चा त् एक महीिे के भीतर उि वििावहत व् य वत यों के समि`
+  line `अथिा उिकी मृत्यु या उिके अिुपवस्थ त रहिे की दशा में दो अन्य सावियों के समि, गिती को, पाश्िष में प्र विवष्ि करके तथा मूि प्र`
+  line `विवष्ि में पररितषि ककए वबिा, ठीक कर सकेगा और उसमें ऐसे ठीक करिे की तारीि जोड़ेगा।`
+  line `( 2 ) इस िारा के अिीि गिती ठीक करिे की प्रत् ये क प्र विवष्ि उि सावियों द्व ारा वजिके समि िह की गई हो, अिुप्रमावणत`
+  line `की जाएगी।`
+  line `27. अविवियम - बाह्य वििाहों की विविमान्य ता का इस अविवि यम द्व ारा प्र भावित ि होिा — इस अविवियम की कोई बात`
+  line `विदेश में इस अविवियम के अिुसरण से अन्य था अिुष्ठा वपत वििाह की विविमान्य ता पर ककसी प्र कार से प्र भाि ि डािेगी।`
+  line `28. वियम बिािे की शवत — ( 1 ) केन् द्री य सरकार, इस अविवियम के प्र योजिों को कायाषवन्ि त करिे के विए वियम शासकीय`
+  line `राजपत्र में अविसूचिा द्व ारा, बिा सकेगी।`
+  line `( 2 ) विवशष्ि तया और पूिषगामी शवत की व् या पकता पर प्र वतकूि प्र भाि डािे वबिा, ऐसे वियम विम्ि विवित सभी विर्यों के`
+  line `विए या उिमें से ककसी के विए उपबन्ि कर सकेंगे, अथाषत्: —`
+  line `(क) वि िाह अविकाररयों के क तषव्य और शवत यां और उिके वजिे;`
+  line `(ि) िह रीवत वजससे वििाह अविकारी इस अविवियम के अिीि कोई जांच कर सकेगा;`
+  line `(ग) िह रीवत वजससे वििाहों की सूचिाएं, प्र का वशत की जाएंगी;`
+  line `(घ) िे स् था ि जहां और िह समय जब इस अविवियम के अिीि वििाह अिुष्ठा वपत ककए जा सकेंगे;`
+  line `( ङ ) िह प्ररू प वजसमें और िह रीवत वजससे इस अविवियम द्व ारा या उसके अिीि रिी जािे के विए अपेवित`
+  line `पुस्त कें रिी जाएंगी;`
+  line `(च) िह प्ररू प वजसमें और िह रीवत वजससे िारा 17 की उपिारा ( 5 ) के अिीि वििाहों के प्र माणपत्र प्र विष्ि ककए`
+  line `जा सकेंगे;`
+  line `(छ) िह िीस, जो इस अविवि यम के अिीि वििाह अविकारी पर अविरोवपत ककसी कतषव्य के पािि के विए`
+  line `उद्गृहीत की जा सकेगी;`
+  line `(ज) िे प्र ाविकारी वजिको, िह प्ररू प वजसमें और िे अन्त राि वजिके भीतर, वििाह - प्र माणपत्र पुस्त क में की प्र`
+  line `विवष्ि यों की प्र वतविवपयां भेजी जाएंगी तथा जब वििाह - प्र माणपत्र पुस्त क में गिवतयां ठीक की जाएं तब िह रीवत वजससे`
+  line `ऐसी शुवद्धयों के प्र माणपत्र प्र ाविकाररयों को भेजे जाएंगे;`
+  line `(झ) इस अविवियम के अिीि रिी जािे के विए अपेवित पुस्त कों का विरीिण और उिमें की प्र विवष्ि यों की प्र`
+  line `मावणत प्र वतविवपयों का कदया जािा;`
+  line `( ञ ) िह री वत वजससे और िे शतें वजिके अध्य िीि रहते हु ए िारा 23 के अिीि ककसी वििाह को मान्य ता दी`
+  line `जा सकेगी;`
+  line `(ि) कोई अन्य विर्य जो विवहत ककया जाए या वजसका विवहत ककया जािा अपेवित हो।`
+  line `1 [ ( 3 ) इस िारा के अिीि केन् द्री य सरकार द्व ारा बिाया गया प्रत् ये क वियम ब िाए जािे के पश्चा त् यथाशीघ्र, संसद् के प्रत् ये क`
+  line `सदि के समि, जब िह सत्र में हो, कुि तीस कदि की अिवि के विए रिा जाएगा। यह अिवि एक सत्र में अथिा दो या अविक`
+  line `आिुिवमक सत्रों में पूरी हो सकेगी। यकद उस सत्र के या पूिोत आिुिवमक सत्रों के ठीक बाद के स त्र के अिसाि के पूिष दोिों सदि उस`
+  line `वियम में कोई पररितषि करिे के विए सहमत हो जाएं तो तत्प श् चा त् िह ऐसे पररिर्तषत रू प में ही प्र भािी होगा। यकद उ त अिसाि के`
+  line `1 1983 के अविवियम सं ० 20 की िारा 2 और अिुसूची द्व ारा ( 15 - 3 - 1984 से) कवतपय शब्दों के स् था ि पर प्र वतस्था वपत।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `7
-पूिष दोिों सदि सहमत हो जाएं कक िह वियम िहीं बिाया जािा चावहए तो तत्प श् चा त् िह विष् प्र भाि हो जाएगा। ककन्तु वियम के ऐसे
-पररिर्तषत या विष् प्र भाि होिे से उसके अिीि की गई ककसी बात की विविमान्य ता पर प्र वतकूि प्र भाि िहीं पड़ेगा। ]
-29. 1954 के अविवियम सं ० 43 का संशोिि — विशेर् वििाह अविवियम, 1954 में, —
-(क) िारा 1 की उपिारा ( 2 ) में, “ उत राज्य िेत्रों के बाहर ” शब्दों के स् था ि पर “ जम्मू - कश्मी र राज्य * में ” शब्द प्र
-वतस्था वपत ककए जाएंगे;
-(ि) िारा 2 में, िण्ड (क) और (ग) का िोप कर कदया जाएगा;
-(ग) िारा 3 की उपिारा ( 2 ) के स् था ि पर विम्ि विवित उपिारा प्र वतस्था वपत की जाएगी, अथाषत्: —
-“ ( 2 ) इस अविवि यम के प्र योजिों के विए, इसके भारत के उि िागररकों के संबंि में िागू होिे में, जो उि
-राज्य िेत्रों के, वजि पर इस अविवियम का विस्ता र है, अवििासी हैं, तथा जम् मू - कश्मी र राज्य में है, केन् द्री य सरकार,
-शासकीय राजपत्र में अविसूचिा द्व ारा, अपिे ऐसे अविकाररयों को, वजन्हें िह ठीक समझे, उस राज्य या उसके
-ककसी भाग के विए वििाह अविकारी विविर्दषष्ि कर सकेगी। ”;
-(घ) िारा 4 के िंड ( ङ ) के स् था ि पर विम्ि विवित िण्ड प्र वतस्था वपत ककया जाएगा, अथाषत्: —
-“ ( ङ ) जहां वििाह जम्मू - कश्मी र राज्य में अिुष्ठा वपत ककया ग या हो, िहां दोिों पिकार उि राज्य िेत्रों
-में, वजि पर इस अविवियम का विस्ता र है, अवििवसत भारत के िागररक हों। ”;
-( ङ ) िारा 10 में, “ उि राज्य िेत्रों के बाहर, वजि पर इस अविवियम का विस्ता र है, आशवयत वििाह के बारे में को ई
-आिेप उ त राज्य िेत्रों के बाहर ” शब्दों स् था ि पर “ जम्मू और कश्मी र राज्य में आशवयत वििाह के बारे में कोई आिेप उस
-राज्य में ” शब्द प्र वतस्था वपत ककए जाएंगे;
-(च) िारा 50 की उपिारा ( 1 ) में, “ राजिवयक और कौन्स िीय आकिसरों और केन् द्री य सरकार के अन्य
-अविकाररयों ” शब्दों के स् था ि पर “ केन् द्री य सरकार के अविकाररयों ” शब्द प्र वतस्था वपत ककए जाएंगे।
-30. विरसि — भारतीय विदेशीय वििाह अविवियम, 1903 ( 1903 का 14 ) एतद् द्व ारा विरवसत ककया जाता है। प्र
-थम अिुसूची
-(िारा 5 देविए)
-आशवयत वििाह की सूचिा का प्ररू प
-सेिा में,
-वििाह अविकारी,
-............................ (स्था ि)
-हम एतद् द्व ारा आपको सूचिा देते हैं कक इसकी तारीि से तीि मास के भीतर हम दोिों का परस्प र वििाह विदेशीय वििाह
-अविवियम, 1969 के अिीि अिुष्ठा वपत होिा आशवयत है।
-िाम तथा
-वपता का
-िाम
-वस्थ वत उपजीवि का जन्म की
-तारीि
-रहिे का स्
-था ि
-यकद रहिे का ितषमाि स्
-था ि स् था यी ि हो तो
-रहिे का स् था यी स् था ि
-रहिे के ितषमाि स् था ि
-में वििास की अिवि
-क ि अवििावहत
-वििुर
-विवच्छ न् ि - वििाह
-ग घ अवििावहत
-विििा
-विवच्छ न् ि - वि िाह
-* इस अविवियम को जम्मू - कश्मीर संघ राज्यिेत्र और िद्दाि संघ राज्यिेत्र में अविसूचिा सं. सा. का. 3912 (अ), तारीि, 30 अिूबर, 2019 से िागू ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 7
+  line `पूिष दोिों सदि सहमत हो जाएं कक िह वियम िहीं बिाया जािा चावहए तो तत्प श् चा त् िह विष् प्र भाि हो जाएगा। ककन्तु वियम के ऐसे`
+  line `पररिर्तषत या विष् प्र भाि होिे से उसके अिीि की गई ककसी बात की विविमान्य ता पर प्र वतकूि प्र भाि िहीं पड़ेगा। ]`
+  line `29. 1954 के अविवियम सं ० 43 का संशोिि — विशेर् वििाह अविवियम, 1954 में, —`
+  line `(क) िारा 1 की उपिारा ( 2 ) में, “ उत राज्य िेत्रों के बाहर ” शब्दों के स् था ि पर “ जम्मू - कश्मी र राज्य * में ” शब्द प्र`
+  line `वतस्था वपत ककए जाएंगे;`
+  line `(ि) िारा 2 में, िण्ड (क) और (ग) का िोप कर कदया जाएगा;`
+  line `(ग) िारा 3 की उपिारा ( 2 ) के स् था ि पर विम्ि विवित उपिारा प्र वतस्था वपत की जाएगी, अथाषत्: —`
+  line `“ ( 2 ) इस अविवि यम के प्र योजिों के विए, इसके भारत के उि िागररकों के संबंि में िागू होिे में, जो उि`
+  line `राज्य िेत्रों के, वजि पर इस अविवियम का विस्ता र है, अवििासी हैं, तथा जम् मू - कश्मी र राज्य में है, केन् द्री य सरकार,`
+  line `शासकीय राजपत्र में अविसूचिा द्व ारा, अपिे ऐसे अविकाररयों को, वजन्हें िह ठीक समझे, उस राज्य या उसके`
+  line `ककसी भाग के विए वििाह अविकारी विविर्दषष्ि कर सकेगी। ”;`
+  line `(घ) िारा 4 के िंड ( ङ ) के स् था ि पर विम्ि विवित िण्ड प्र वतस्था वपत ककया जाएगा, अथाषत्: —`
+  line `“ ( ङ ) जहां वििाह जम्मू - कश्मी र राज्य में अिुष्ठा वपत ककया ग या हो, िहां दोिों पिकार उि राज्य िेत्रों`
+  line `में, वजि पर इस अविवियम का विस्ता र है, अवििवसत भारत के िागररक हों। ”;`
+  line `( ङ ) िारा 10 में, “ उि राज्य िेत्रों के बाहर, वजि पर इस अविवियम का विस्ता र है, आशवयत वििाह के बारे में को ई`
+  line `आिेप उ त राज्य िेत्रों के बाहर ” शब्दों स् था ि पर “ जम्मू और कश्मी र राज्य में आशवयत वििाह के बारे में कोई आिेप उस`
+  line `राज्य में ” शब्द प्र वतस्था वपत ककए जाएंगे;`
+  line `(च) िारा 50 की उपिारा ( 1 ) में, “ राजिवयक और कौन्स िीय आकिसरों और केन् द्री य सरकार के अन्य`
+  line `अविकाररयों ” शब्दों के स् था ि पर “ केन् द्री य सरकार के अविकाररयों ” शब्द प्र वतस्था वपत ककए जाएंगे।`
+  line `30. विरसि — भारतीय विदेशीय वििाह अविवियम, 1903 ( 1903 का 14 ) एतद् द्व ारा विरवसत ककया जाता है। प्र`
+  line `थम अिुसूची`
+  line `(िारा 5 देविए)`
+  line `आशवयत वििाह की सूचिा का प्ररू प`
+  line `सेिा में,`
+  line `वििाह अविकारी,`
+  line `............................ (स्था ि)`
+  line `हम एतद् द्व ारा आपको सूचिा देते हैं कक इसकी तारीि से तीि मास के भीतर हम दोिों का परस्प र वििाह विदेशीय वििाह`
+  line `अविवियम, 1969 के अिीि अिुष्ठा वपत होिा आशवयत है।`
+  line `िाम तथा`
+  line `वपता का`
+  line िाम
+  line `वस्थ वत उपजीवि का जन्म की`
+  line तारीि
+  line `रहिे का स्`
+  line `था ि`
+  line `यकद रहिे का ितषमाि स्`
+  line `था ि स् था यी ि हो तो`
+  line `रहिे का स् था यी स् था ि`
+  line `रहिे के ितषमाि स् था ि`
+  line `में वििास की अिवि`
+  line `क ि अवििावहत`
+  line वििुर
+  line `विवच्छ न् ि - वििाह`
+  line `ग घ अवििावहत`
+  line विििा
+  line `विवच्छ न् ि - वि िाह`
+  line `* इस अविवियम को जम्मू - कश्मीर संघ राज्यिेत्र और िद्दाि संघ राज्यिेत्र में अविसूचिा सं. सा. का. 3912 (अ), तारीि, 30 अिूबर, 2019 से िागू ककया गया।`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `8
-आज 19 ………………... के ……………………….. मास के …………………. कदि हमिे हस्ता िर ककए।
-हस्ता िर क ि
-हस्ता िर ग घ
-वद्वतीय अिुसूची
-(िारा 12 देविए)
-िर द्व ारा की जािे िािी घोर्णा
-मैं, क ि, एतद् द्व ारा विम्ि विवित घोर्णा करता हं: —
-1. मैं इस समय अवििावहत (या, यथावस्थ वत, वििुर या विवच्छ न् ि - वििाह) हं।
-2. मैंिे.............. िर्ष की आयु प्र ाप्त कर िी है।
-3. मेरी.............. ग घ (ििू) से प्र वतवर्द्ध कोरि की िातेदारी िहीं है।
-4. मैं............... का िा गररक हं।
-5. मैं यह जािता हं कक यकद इस घोर्णा में कोई कथि वमथ्या हु आ तो मैं कारािास से और जुमाषिे से भी
-दण्ड िीय होऊंगा।
-हस्ता िर क ि (िर)
-ििू द्व ारा की जािे िािी घोर्णा
-मैं, ग घ, एतद् द्व ारा विम्ि विवित घोर्णा करती हं: —
-1. मैं इस समय अवििावहता (या, यथावस्थ वत, विििा या विवच्छ न् ि - वििाह) हं।
-2. मैंिे.............. िर्ष की आयु प्र ाप्त कर िी है।
-3. मेरी.............. क ि (िर) से प्र वतवर्द्ध कोरि की िातेदारी िहीं है।
-4. मैं............... की िागररक हं।
-5. मैं यह जािती हं कक यकद इस घोर्णा में कोई कथि वमथ्या हु ता तो मैं कारािास से और जुमाषिे से भी
-दण्ड िीय होऊंगी।
-हस्ता िर ग घ (ििू)
-उपररिावमत क ि और ग घ द्व ारा हमारी उपवस्थ वत में हस्ता िर ककए गए। जहां तक हम जािते हैं इस वििाह में कोई
-विविपूणष बा िा िहीं है।
-हस्ता िर: छ ज
-हस्ता िर: झ ञ तीि सािी
-हस्ता िर: ि ठ
-(प्रवतहस्ता िररत) ङ च
-वििाह अविकारी
-तारीि 19............. के............. मास का............ कदि।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 8
+  line `आज 19 ………………... के ……………………….. मास के …………………. कदि हमिे हस्ता िर ककए।`
+  line `हस्ता िर क ि`
+  line `हस्ता िर ग घ`
+  line `वद्वतीय अिुसूची`
+  line `(िारा 12 देविए)`
+  line `िर द्व ारा की जािे िािी घोर्णा`
+  line `मैं, क ि, एतद् द्व ारा विम्ि विवित घोर्णा करता हं: —`
+  line `1. मैं इस समय अवििावहत (या, यथावस्थ वत, वििुर या विवच्छ न् ि - वििाह) हं।`
+  line `2. मैंिे.............. िर्ष की आयु प्र ाप्त कर िी है।`
+  line `3. मेरी.............. ग घ (ििू) से प्र वतवर्द्ध कोरि की िातेदारी िहीं है।`
+  line `4. मैं............... का िा गररक हं।`
+  line `5. मैं यह जािता हं कक यकद इस घोर्णा में कोई कथि वमथ्या हु आ तो मैं कारािास से और जुमाषिे से भी`
+  line `दण्ड िीय होऊंगा।`
+  line `हस्ता िर क ि (िर)`
+  line `ििू द्व ारा की जािे िािी घोर्णा`
+  line `मैं, ग घ, एतद् द्व ारा विम्ि विवित घोर्णा करती हं: —`
+  line `1. मैं इस समय अवििावहता (या, यथावस्थ वत, विििा या विवच्छ न् ि - वििाह) हं।`
+  line `2. मैंिे.............. िर्ष की आयु प्र ाप्त कर िी है।`
+  line `3. मेरी.............. क ि (िर) से प्र वतवर्द्ध कोरि की िातेदारी िहीं है।`
+  line `4. मैं............... की िागररक हं।`
+  line `5. मैं यह जािती हं कक यकद इस घोर्णा में कोई कथि वमथ्या हु ता तो मैं कारािास से और जुमाषिे से भी`
+  line `दण्ड िीय होऊंगी।`
+  line `हस्ता िर ग घ (ििू)`
+  line `उपररिावमत क ि और ग घ द्व ारा हमारी उपवस्थ वत में हस्ता िर ककए गए। जहां तक हम जािते हैं इस वििाह में कोई`
+  line `विविपूणष बा िा िहीं है।`
+  line `हस्ता िर: छ ज`
+  line `हस्ता िर: झ ञ तीि सािी`
+  line `हस्ता िर: ि ठ`
+  line `(प्रवतहस्ता िररत) ङ च`
+  line `वििाह अविकारी`
+  line `तारीि 19............. के............. मास का............ कदि।`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `9
-तृतीय अिुसूची
-(िारा 14 देवि ए)
-वििाह के प्र माणपत्र का प्ररू प
-मैं, ङ च, एतद् द्व ारा प्र मावणत करता हं कक 19........... के............. मास का............ कदि क ि........
-. और ग घ........... 1 * मेरे समि हावजर हु ए और विदेशीय वििाह अविवियम, 1969 की िारा 2 †.......... द्व ारा अपेवित
-घोर्णा सम्य क् रू प से की गई, तथा उिमें परस्प र वििाह उस अविवियम के अिीि मेरी उपवस्थ वत में और उि तीि सावियों की
-उपवस्थ वत में, वजन्हों िे इसके िीचे हस्ता िर ककए हैं, अिुष्ठा वपत ककया गया।
-हस्ता िर: ङ ० च ०
-वििाह अविकारी
-हस्ता िर: क ० ि ० (िर)
-हस्ता िर: ग ० घ ० (ििू)
-हस्ता िर: छ ० ज ०
-हस्ता िर: झ ० ञ ० तीि सािी
-हस्ता िर: ि ० ठ ०
-तारीि 19............ के............ मास का............ कदि।
-______
-* 1 यहां पिकारों की विवशवष्ि यां दीवजए।
-† 2 िारा भररए।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 9
+  line `तृतीय अिुसूची`
+  line `(िारा 14 देवि ए)`
+  line `वििाह के प्र माणपत्र का प्ररू प`
+  line `मैं, ङ च, एतद् द्व ारा प्र मावणत करता हं कक 19........... के............. मास का............ कदि क ि........`
+  line `. और ग घ........... 1 * मेरे समि हावजर हु ए और विदेशीय वििाह अविवियम, 1969 की िारा 2 †.......... द्व ारा अपेवित`
+  line `घोर्णा सम्य क् रू प से की गई, तथा उिमें परस्प र वििाह उस अविवियम के अिीि मेरी उपवस्थ वत में और उि तीि सावियों की`
+  line `उपवस्थ वत में, वजन्हों िे इसके िीचे हस्ता िर ककए हैं, अिुष्ठा वपत ककया गया।`
+  line `हस्ता िर: ङ ० च ०`
+  line `वििाह अविकारी`
+  line `हस्ता िर: क ० ि ० (िर)`
+  line `हस्ता िर: ग ० घ ० (ििू)`
+  line `हस्ता िर: छ ० ज ०`
+  line `हस्ता िर: झ ० ञ ० तीि सािी`
+  line `हस्ता िर: ि ० ठ ०`
+  line `तारीि 19............ के............ मास का............ कदि।`
+  line ______
+  line `* 1 यहां पिकारों की विवशवष्ि यां दीवजए।`
+  line `† 2 िारा भररए।`
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line

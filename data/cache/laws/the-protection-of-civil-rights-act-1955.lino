@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:43:12.513Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1544`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 23)
-  (str totalSections) (int 23)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:43:12.513Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1544`
+  completeFetch true
+  maxSections null
+  sectionCount 23
+  totalSections 23
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-protection-of-civil-rights-act-1955)
-  (str handle) (str 1544)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Protection of Civil Rights Act, 1955`)
-  (str actNumber) (str 22)
-  (str enactmentDate) (str 1955-05-08)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1544`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `सिविल अधिकार संरक्षण अधिनियम, 1955`)
-  (str actYear) (str 1955)
-  (str ministry) (str `Ministry of Social Justice and Empowerment`)
-  (str department) (str `Department of Social Justice and Empowerment`)
-  (str longTitle) (str `An Act to prescribe punishment for the preaching and practice of Untouchability for the enforcement of any disability arising therefrom and for matters connected therewith.`)
-  (str enforcementDate) (str 01-06-1955)
-  (str notification) (str `1st June, 1955, vide notification No. S.R.O. 1109(E), dated the 23rd May, 1955, see Gazette of India, 1955, Extraordinary Part II, s. 3.`)
-  (str fetchedAt) (str `2026-05-08T20:04:57.959Z`)
-  (str translations) obj_root_law_translations
+  slug the-protection-of-civil-rights-act-1955
+  handle (1544)
+  collectionHandle 123456789/1362
+  title `The Protection of Civil Rights Act, 1955`
+  actNumber (22)
+  enactmentDate 1955-05-08
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1544`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `सिविल अधिकार संरक्षण अधिनियम, 1955`
+  actYear (1955)
+  ministry `Ministry of Social Justice and Empowerment`
+  department `Department of Social Justice and Empowerment`
+  longTitle `An Act to prescribe punishment for the preaching and practice of Untouchability for the enforcement of any disability arising therefrom and for matters connected therewith.`
+  enforcementDate 01-06-1955
+  notification `1st June, 1955, vide notification No. S.R.O. 1109(E), dated the 23rd May, 1955, see Gazette of India, 1955, Extraordinary Part II, s. 3.`
+  fetchedAt `2026-05-08T20:04:57.959Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_protection_of_civil_rights_act_1955
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1544`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1544`
 obj_root_law_sources_en_the_protection_of_civil_rights_act_1955:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1544/3/a1955-22.pdf`)
-  (str title) (str `The Protection of Civil Rights Act, 1955`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1544/3/a1955-22.pdf`
+  title `The Protection of Civil Rights Act, 1955`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1955
 obj_root_law_sources_hi_1955:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1544/5/H1955-22.pdf`)
-  (str title) (str `सिविल अधिकार संरक्षण अधिनियम, 1955`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1544/5/H1955-22.pdf`
+  title `सिविल अधिकार संरक्षण अधिनियम, 1955`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -85,645 +75,730 @@ obj_root_law_sections:
   obj_root_law_sections_16_b
   obj_root_law_sections_17
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 36687)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called ^1
-[the Protection of Civil
-Rights Act], 1955.
-
-(2) It extends to the whole of India.
-
-(3) It shall come into force on such date^2
-as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. Subs. by s. 3, ibid., for "the Untouchability (Offences) Act" (w.e.f. 19-11-1976).
-
-2. 1st June, 1955, vide notification No. S.R.O. 1109(E), dated the 23rd May, 1955, see Gazette of India, 1955, Extraordinary
-Part II, s. 3.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36687&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36687)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36687&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called ^1`
+  line `[the Protection of Civil`
+  line `Rights Act], 1955.`
+  line
+  line `(2) It extends to the whole of India.`
+  line
+  line `(3) It shall come into force on such date^2`
+  line `as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. Subs. by s. 3, ibid., for "the Untouchability (Offences) Act" (w.e.f. 19-11-1976).`
+  line
+  line `2. 1st June, 1955, vide notification No. S.R.O. 1109(E), dated the 23rd May, 1955, see Gazette of India, 1955, Extraordinary`
+  line `Part II, s. 3.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 36688)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,—
-
-^1
-[(a) "civil rights" means any right accruing to a person by reason of the abolition of
-"untouchability" by article 17 of the Constitution;]
-
-^2
-[(aa)] "hotel" includes a refreshment room, a boarding house, a lodging house, a coffee house
-and a cafe;
-
-^3
-[(b) "place" includes a house, building and other structure and premises; and also includes a tent,
-vehicle and vessel;]
-
-(c) "place of public entertainment" includes any place to which the public are admitted and in
-which an entertainment is provided or field.
-
-Explanation.—"Entertainment" includes any exhibition performance, game, sport and any other
-form of amusement;
-
-(d) "place of public worship" means a place, by whatever name known, which is used as a place
-of public religious worship or which is dedicated generally to, or is used generally by persons
-professing any religion or belonging to any religious denomination or any section thereof, for the
-performance of any religious service, or for offering prayers therein, ^4
-[and includes—
-
-(i) all lands and subsidiary shrines appurtenant or attached to any such place;
-
-(ii) a privately owned place of worship which is, in fact, allowed by the owner thereof to be
-used as a place of public worship; and
-
-(iii) such land or subsidiary shrine appurtenant to such privately owned place of worship as is
-allowed by the owner thereof to be used as a place of public religious worship;]
-
-^5
-[(da) "prescribed" means prescribed by rules made under this Act;
-
-(db) "Scheduled Castes" has the meaning assigned to it in clause (24) of article 366 of the
-Constitution;]
-
-(e) "shop" means any premises where goods are sold either wholesale or by retail or both
-wholesale and by retail ^6
-[and includes—
-
-(i) any place from where goods are sold by a hawker or vendor or from a mobile van or cart;
-
-(ii) a laundry and a hair cutting saloon;
-
-(iii) any other place where services are rendered to customers].`)
-  (str footnotes) (str `1. Ins. by Act 106 of 1976, s. 4 (w.e.f. 19-11-1976).
-
-2. Clause (a) relettered as clause (aa) by s. 4, ibid. (w.e.f. 19-11-1976).
-
-3. Subs. by s. 4, ibid., for clause (b) (w.e.f. 19-11-1976).
-
-4. Subs. by s. 4, ibid., for certain words (w.e.f. 19-11-1976).
-
-5. Ins. by Act 106 of 1976, s. 4 (w.e.f. 19-11-1976).
-
-6. Subs. by s. 4, ibid., for certain words (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36688&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36688)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36688&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,—`
+  line
+  line ^1
+  line `[(a) "civil rights" means any right accruing to a person by reason of the abolition of`
+  line `"untouchability" by article 17 of the Constitution;]`
+  line
+  line ^2
+  line `[(aa)] "hotel" includes a refreshment room, a boarding house, a lodging house, a coffee house`
+  line `and a cafe;`
+  line
+  line ^3
+  line `[(b) "place" includes a house, building and other structure and premises; and also includes a tent,`
+  line `vehicle and vessel;]`
+  line
+  line `(c) "place of public entertainment" includes any place to which the public are admitted and in`
+  line `which an entertainment is provided or field.`
+  line
+  line `Explanation.—"Entertainment" includes any exhibition performance, game, sport and any other`
+  line `form of amusement;`
+  line
+  line `(d) "place of public worship" means a place, by whatever name known, which is used as a place`
+  line `of public religious worship or which is dedicated generally to, or is used generally by persons`
+  line `professing any religion or belonging to any religious denomination or any section thereof, for the`
+  line `performance of any religious service, or for offering prayers therein, ^4`
+  line `[and includes—`
+  line
+  line `(i) all lands and subsidiary shrines appurtenant or attached to any such place;`
+  line
+  line `(ii) a privately owned place of worship which is, in fact, allowed by the owner thereof to be`
+  line `used as a place of public worship; and`
+  line
+  line `(iii) such land or subsidiary shrine appurtenant to such privately owned place of worship as is`
+  line `allowed by the owner thereof to be used as a place of public religious worship;]`
+  line
+  line ^5
+  line `[(da) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(db) "Scheduled Castes" has the meaning assigned to it in clause (24) of article 366 of the`
+  line Constitution;]
+  line
+  line `(e) "shop" means any premises where goods are sold either wholesale or by retail or both`
+  line `wholesale and by retail ^6`
+  line `[and includes—`
+  line
+  line `(i) any place from where goods are sold by a hawker or vendor or from a mobile van or cart;`
+  line
+  line `(ii) a laundry and a hair cutting saloon;`
+  line
+  line `(iii) any other place where services are rendered to customers].`
+obj_root_law_sections_2_footnotes:
+  string
+  line `1. Ins. by Act 106 of 1976, s. 4 (w.e.f. 19-11-1976).`
+  line
+  line `2. Clause (a) relettered as clause (aa) by s. 4, ibid. (w.e.f. 19-11-1976).`
+  line
+  line `3. Subs. by s. 4, ibid., for clause (b) (w.e.f. 19-11-1976).`
+  line
+  line `4. Subs. by s. 4, ibid., for certain words (w.e.f. 19-11-1976).`
+  line
+  line `5. Ins. by Act 106 of 1976, s. 4 (w.e.f. 19-11-1976).`
+  line
+  line `6. Subs. by s. 4, ibid., for certain words (w.e.f. 19-11-1976).`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 36689)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Punishment for enforcing religious disabilities.`)
-  (str content) (str `Whoever on the ground of "untouchability"
-prevents any person—
-
-(a) from entering any place of public worship which is open to other persons professing the same
-religion ^1
-* * * or any section thereof, as such person; or
-
-(b) from worshipping or offering prayers or performing any religious service in any place of
-public worship, or bathing in, or using the waters of, any sacred tank, well, spring or water-course
-^2
-[river or lake or bathing at any ghat of such tank, water-course, river or lake] in the same manner and
-and to the same extent as is permissible to the other persons professing the same religion ^1
-* * * or any
-section thereof, as such person,
-
-^3
-[shall be punishable with imprisonment for a term of not less than one month and not more than six
-months and also with fine which shall be not less than one hundred rupees and not more than five hundred
-rupees].
-
-Explanation.—For the purposes of this section and section 4 persons professing the Buddhist, Sikh or
-Jaina religion or persons professing the Hindu religion in any of its forms or developments including
-Virashaivas, Lingayats, Adivasis, followers of Brahmo, Prarthana, Arya Samaj and the Swaminarayan
-Sampraday shall be deemed to be Hindus.`)
-  (str footnotes) (str `1. The words "or belonging to the same religious denomination" omitted by s. 5, ibid. (w.e.f. 19-11-1976).
-2. Ins. by s. 5, ibid. (w.e.f. 19-11-1976).
-3. Subs. by s. 5, ibid., for certain words (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36689&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36689)
+  sectionNo (3)
+  orderNo 3
+  title `Punishment for enforcing religious disabilities.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36689&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_3_content:
+  string
+  line `Whoever on the ground of "untouchability"`
+  line `prevents any person—`
+  line
+  line `(a) from entering any place of public worship which is open to other persons professing the same`
+  line `religion ^1`
+  line `* * * or any section thereof, as such person; or`
+  line
+  line `(b) from worshipping or offering prayers or performing any religious service in any place of`
+  line `public worship, or bathing in, or using the waters of, any sacred tank, well, spring or water-course`
+  line ^2
+  line `[river or lake or bathing at any ghat of such tank, water-course, river or lake] in the same manner and`
+  line `and to the same extent as is permissible to the other persons professing the same religion ^1`
+  line `* * * or any`
+  line `section thereof, as such person,`
+  line
+  line ^3
+  line `[shall be punishable with imprisonment for a term of not less than one month and not more than six`
+  line `months and also with fine which shall be not less than one hundred rupees and not more than five hundred`
+  line rupees].
+  line
+  line `Explanation.—For the purposes of this section and section 4 persons professing the Buddhist, Sikh or`
+  line `Jaina religion or persons professing the Hindu religion in any of its forms or developments including`
+  line `Virashaivas, Lingayats, Adivasis, followers of Brahmo, Prarthana, Arya Samaj and the Swaminarayan`
+  line `Sampraday shall be deemed to be Hindus.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. The words "or belonging to the same religious denomination" omitted by s. 5, ibid. (w.e.f. 19-11-1976).`
+  line `2. Ins. by s. 5, ibid. (w.e.f. 19-11-1976).`
+  line `3. Subs. by s. 5, ibid., for certain words (w.e.f. 19-11-1976).`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 36690)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Punishment for enforcing social disabilities.`)
-  (str content) (str `Whoever on the ground of "untouchability"
-enforces against any person any disability with regard to—
-
-(i) access to any shop, public restaurant, hotel or place of public entertainment; or
-
-(ii) the use of any utensils, and other articles kept in any public restaurant, hotel, dharamshala,
-sarai or musafirkhana for the use of the general public or of ^1
-[any section thereof]; or
-
-(iii) the practice of any profession or the carrying on of any occupation, trade or
-business ^2
-[or employment in any job]; or
-
-(iv) the use of, or access to, any river, stream, spring, well, tank, cistern, water-tap or other
-watering place, or any bathing ghat, burial or cremation ground, any sanitary convenience, any road, or passage, or any other place of public resort which other members of the public, or ^3
-[any section
-thereof], have a right to use or have access to; or
-
-(v) the use of, or access to, any place used for a charitable or a public purpose maintained wholly
-or partly out of State funds or dedicated to the use of the general public or ^3
-[any section thereof]; or
-
-(vi) the enjoyment of any benefit under a charitable trust created for the benefit of the general
-public or of ^3
-[any section thereof]; or
-
-(vii) the use of, or access to, any public conveyance; or
-
-(viii) the construction, acquisition, or occupation of any residential premises in any locality,
-whatsoever; or
-
-(ix) the use of any dharamshala, sarai or musafirkhana which is open to the general public, or
-to ^3
-[any section thereof]; or
-
-(x) the observance of any social or religious custom, usage or ceremony or ^4
-[taking part in, or
-taking out, any religious, social or cultural procession]; or
-
-(xi) the use of jewellery and finery,
-
-^5
-[shall be punishable with imprisonment for a term of not less than one month and not more than six
-months and also with fine which shall be not less than one hundred rupees and not more than five hundred
-rupees].
-
-^6
-[Explanation.—For the purposes of this section, "enforcement of any disability" includes any
-discrimination on the ground of "untouchability".]`)
-  (str footnotes) (str `1. Subs. by s. 6, ibid., for certain words (w.e.f. 19-11-1976).
-
-2. Ins. by s. 6, ibid. (w.e.f. 19-11-1976).
-
-3. Subs. by Act 106 of 1976, s. 6, for certain words (w.e.f. 19-11-1976).
-
-4. Subs. by s. 6, ibid., for "taking part in any religious procession" (w.e.f. 19-11-1976).
-
-5. Subs. by s. 6, ibid., for certain words (w.e.f. 19-11-1976).
-
-6. Ins. by s. 6, ibid. (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36690&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36690)
+  sectionNo (4)
+  orderNo 4
+  title `Punishment for enforcing social disabilities.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36690&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_4_content:
+  string
+  line `Whoever on the ground of "untouchability"`
+  line `enforces against any person any disability with regard to—`
+  line
+  line `(i) access to any shop, public restaurant, hotel or place of public entertainment; or`
+  line
+  line `(ii) the use of any utensils, and other articles kept in any public restaurant, hotel, dharamshala,`
+  line `sarai or musafirkhana for the use of the general public or of ^1`
+  line `[any section thereof]; or`
+  line
+  line `(iii) the practice of any profession or the carrying on of any occupation, trade or`
+  line `business ^2`
+  line `[or employment in any job]; or`
+  line
+  line `(iv) the use of, or access to, any river, stream, spring, well, tank, cistern, water-tap or other`
+  line `watering place, or any bathing ghat, burial or cremation ground, any sanitary convenience, any road, or passage, or any other place of public resort which other members of the public, or ^3`
+  line `[any section`
+  line `thereof], have a right to use or have access to; or`
+  line
+  line `(v) the use of, or access to, any place used for a charitable or a public purpose maintained wholly`
+  line `or partly out of State funds or dedicated to the use of the general public or ^3`
+  line `[any section thereof]; or`
+  line
+  line `(vi) the enjoyment of any benefit under a charitable trust created for the benefit of the general`
+  line `public or of ^3`
+  line `[any section thereof]; or`
+  line
+  line `(vii) the use of, or access to, any public conveyance; or`
+  line
+  line `(viii) the construction, acquisition, or occupation of any residential premises in any locality,`
+  line `whatsoever; or`
+  line
+  line `(ix) the use of any dharamshala, sarai or musafirkhana which is open to the general public, or`
+  line `to ^3`
+  line `[any section thereof]; or`
+  line
+  line `(x) the observance of any social or religious custom, usage or ceremony or ^4`
+  line `[taking part in, or`
+  line `taking out, any religious, social or cultural procession]; or`
+  line
+  line `(xi) the use of jewellery and finery,`
+  line
+  line ^5
+  line `[shall be punishable with imprisonment for a term of not less than one month and not more than six`
+  line `months and also with fine which shall be not less than one hundred rupees and not more than five hundred`
+  line rupees].
+  line
+  line ^6
+  line `[Explanation.—For the purposes of this section, "enforcement of any disability" includes any`
+  line `discrimination on the ground of "untouchability".]`
+obj_root_law_sections_4_footnotes:
+  string
+  line `1. Subs. by s. 6, ibid., for certain words (w.e.f. 19-11-1976).`
+  line
+  line `2. Ins. by s. 6, ibid. (w.e.f. 19-11-1976).`
+  line
+  line `3. Subs. by Act 106 of 1976, s. 6, for certain words (w.e.f. 19-11-1976).`
+  line
+  line `4. Subs. by s. 6, ibid., for "taking part in any religious procession" (w.e.f. 19-11-1976).`
+  line
+  line `5. Subs. by s. 6, ibid., for certain words (w.e.f. 19-11-1976).`
+  line
+  line `6. Ins. by s. 6, ibid. (w.e.f. 19-11-1976).`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 36691)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Punishment for refusing to admit person to hospitals, etc.`)
-  (str content) (str `Whoever on the ground of
-"untouchability"—
-
-(a) refuses admission to any person to any hospital, dispensary, educational institution or any
-hostel ^1
-***, if such hospital, dispensary, educational institution or hostel is established or maintained
-for the benefit of the general public or any section thereof; or
-
-(b) does any act which discriminates against any such person after admission to any of the
-aforesaid institutions,
-
-^2
-[shall be punishable with imprisonment for a term of not less than one month and not more than six
-months and also with fine which shall be not less than one hundred rupees and not more than five hundred
-rupees].`)
-  (str footnotes) (str `1. The words "attached thereto" omitted by s. 7, ibid. (w.e.f. 19-11-1976).
-
-2. Subs. by s. 7, ibid., for certain words (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36691&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36691)
+  sectionNo (5)
+  orderNo 5
+  title `Punishment for refusing to admit person to hospitals, etc.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36691&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_5_content:
+  string
+  line `Whoever on the ground of`
+  line `"untouchability"—`
+  line
+  line `(a) refuses admission to any person to any hospital, dispensary, educational institution or any`
+  line `hostel ^1`
+  line `***, if such hospital, dispensary, educational institution or hostel is established or maintained`
+  line `for the benefit of the general public or any section thereof; or`
+  line
+  line `(b) does any act which discriminates against any such person after admission to any of the`
+  line `aforesaid institutions,`
+  line
+  line ^2
+  line `[shall be punishable with imprisonment for a term of not less than one month and not more than six`
+  line `months and also with fine which shall be not less than one hundred rupees and not more than five hundred`
+  line rupees].
+obj_root_law_sections_5_footnotes:
+  string
+  line `1. The words "attached thereto" omitted by s. 7, ibid. (w.e.f. 19-11-1976).`
+  line
+  line `2. Subs. by s. 7, ibid., for certain words (w.e.f. 19-11-1976).`
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 36692)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Punishment for refusing to sell goods or render services.`)
-  (str content) (str `Whoever on the ground of
-"untouchability" refuses to sell any goods or refuses to render any service to any person at the same time
-and place and on the same terms and conditions at or which such goods are sold or services are rendered
-to other persons in the ordinary course of business ^1
-[shall be punishable with imprisonment for a term of
-not less than one month and not more than six months and also with fine which shall be not less than one
-hundred rupees and not more than five hundred rupees].`)
-  (str footnotes) (str `1. Subs. by s. 8, ibid., for certain words (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36692&sectionno=6&orderno=6&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36692)
+  sectionNo (6)
+  orderNo 6
+  title `Punishment for refusing to sell goods or render services.`
+  content obj_root_law_sections_6_content
+  footnotes `1. Subs. by s. 8, ibid., for certain words (w.e.f. 19-11-1976).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36692&sectionno=6&orderno=6&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_6_content:
+  string
+  line `Whoever on the ground of`
+  line `"untouchability" refuses to sell any goods or refuses to render any service to any person at the same time`
+  line `and place and on the same terms and conditions at or which such goods are sold or services are rendered`
+  line `to other persons in the ordinary course of business ^1`
+  line `[shall be punishable with imprisonment for a term of`
+  line `not less than one month and not more than six months and also with fine which shall be not less than one`
+  line `hundred rupees and not more than five hundred rupees].`
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 36708)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Punishment for other offences arising out of "untouchability".`)
-  (str content) (str `(1) Whoever—
-
-(a) prevents any person from exercising any right accruing to him by reason of the abolition of
-“untouchability” under Article 17 of the Constitution; or
-
-(b) molests, injures, annoys, obstructs or causes or attempts to cause obstruction to any person in
-the exercise of any such right or molests, injures, annoys or boycotts any person by reason of his
-having exercised any such right; or
-
-(c) by words, either spoken or written, or by signs or by visible representations or otherwise,
-incites or encourages any person or class of persons or the public generally to practice
-“untouchability” in any form whatsoever; ^1
-[or]
-
-^1
-[(d) insults or attempts to insult, on the ground of “untouchability”, a member of a Scheduled
-Caste;]
-
-^2
-[shall be punishable with imprisonment for a term of not less than one month and not more than six
-months, and also with fine which shall be not less than one hundred rupees and not more than five
-hundred rupees].
-
-^3
-[Explanation I ].—A person shall be deemed to boycott another person who—
-
-(a) refuses to let to such other person or refuses to permit such other person, to use or occupy any
-house or land or refuses to deal with, work for hire for, or do business with, such other person or to
-render to him or receive from him any customary service, or refuses to do any of the said things on
-the terms on which such things would be commonly done in the ordinary course of business; or
-
-(b) abstains from such social, professional or business relations as he would ordinarily maintain
-with such other person.
-
-^1
-[Explanation II.—For the purpose of clause (c) a person shall be deemed to incite or encourage the
-practice of “untouchability”—
-
-(i) if he, directly or indirectly, preaches “untouchability” or its practice in any form; or
-
-(ii) if he justifies, whether on historical, philosophical or religious grounds or on the ground of
-any tradition of the caste system or on any other ground, the practice of “untouchability” in any
-form.]
-
-^1
-[(1A) Whoever commits any offence against the person or property of any individual as a repraisal or
-revenge for his having exercised any right accruing to him by reason of the abolition of “untouchability”
-under article 17 of the Constitution, shall, where the offence is punishable with imprisonment for a term
-exceeding two years, be punishable with imprisonment for a term which shall not be less than two years
-and also with fine.]
-
-(2) Whoever—
-
-(i) denies to any person belonging to his community or any section thereof any right or privilege
-to which such person would be entitled as a member of such community or section, or
-
-(ii) takes any part in the ex-communication of such person, on the ground that such person has
-refused to practice “untouchability” that such person has done any act in furtherance of the objects of
-this Act,
-
-[shall be punishable with imprisonment for a term of not less than one month and not more than six
-months and also with fine which shall be not less than one hundred rupees and not more than five hundred
-rupees.]`)
-  (str footnotes) (str `1. Ins. by Act 106 of 1976, s. 9, (w.e.f. 19-11-1976).
-
-2. Subs. by s. 9, ibid., for certain words (w.e.f. 19-11-1976).
-
-3. The existing Explanation renumbered as Explanation I by s. 9, ibid., (w.e.f 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36708&sectionno=7&orderno=7&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36708)
+  sectionNo (7)
+  orderNo 7
+  title `Punishment for other offences arising out of "untouchability".`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36708&sectionno=7&orderno=7&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_7_content:
+  string
+  line `(1) Whoever—`
+  line
+  line `(a) prevents any person from exercising any right accruing to him by reason of the abolition of`
+  line `“untouchability” under Article 17 of the Constitution; or`
+  line
+  line `(b) molests, injures, annoys, obstructs or causes or attempts to cause obstruction to any person in`
+  line `the exercise of any such right or molests, injures, annoys or boycotts any person by reason of his`
+  line `having exercised any such right; or`
+  line
+  line `(c) by words, either spoken or written, or by signs or by visible representations or otherwise,`
+  line `incites or encourages any person or class of persons or the public generally to practice`
+  line `“untouchability” in any form whatsoever; ^1`
+  line [or]
+  line
+  line ^1
+  line `[(d) insults or attempts to insult, on the ground of “untouchability”, a member of a Scheduled`
+  line Caste;]
+  line
+  line ^2
+  line `[shall be punishable with imprisonment for a term of not less than one month and not more than six`
+  line `months, and also with fine which shall be not less than one hundred rupees and not more than five`
+  line `hundred rupees].`
+  line
+  line ^3
+  line `[Explanation I ].—A person shall be deemed to boycott another person who—`
+  line
+  line `(a) refuses to let to such other person or refuses to permit such other person, to use or occupy any`
+  line `house or land or refuses to deal with, work for hire for, or do business with, such other person or to`
+  line `render to him or receive from him any customary service, or refuses to do any of the said things on`
+  line `the terms on which such things would be commonly done in the ordinary course of business; or`
+  line
+  line `(b) abstains from such social, professional or business relations as he would ordinarily maintain`
+  line `with such other person.`
+  line
+  line ^1
+  line `[Explanation II.—For the purpose of clause (c) a person shall be deemed to incite or encourage the`
+  line `practice of “untouchability”—`
+  line
+  line `(i) if he, directly or indirectly, preaches “untouchability” or its practice in any form; or`
+  line
+  line `(ii) if he justifies, whether on historical, philosophical or religious grounds or on the ground of`
+  line `any tradition of the caste system or on any other ground, the practice of “untouchability” in any`
+  line form.]
+  line
+  line ^1
+  line `[(1A) Whoever commits any offence against the person or property of any individual as a repraisal or`
+  line `revenge for his having exercised any right accruing to him by reason of the abolition of “untouchability”`
+  line `under article 17 of the Constitution, shall, where the offence is punishable with imprisonment for a term`
+  line `exceeding two years, be punishable with imprisonment for a term which shall not be less than two years`
+  line `and also with fine.]`
+  line
+  line `(2) Whoever—`
+  line
+  line `(i) denies to any person belonging to his community or any section thereof any right or privilege`
+  line `to which such person would be entitled as a member of such community or section, or`
+  line
+  line `(ii) takes any part in the ex-communication of such person, on the ground that such person has`
+  line `refused to practice “untouchability” that such person has done any act in furtherance of the objects of`
+  line `this Act,`
+  line
+  line `[shall be punishable with imprisonment for a term of not less than one month and not more than six`
+  line `months and also with fine which shall be not less than one hundred rupees and not more than five hundred`
+  line rupees.]
+obj_root_law_sections_7_footnotes:
+  string
+  line `1. Ins. by Act 106 of 1976, s. 9, (w.e.f. 19-11-1976).`
+  line
+  line `2. Subs. by s. 9, ibid., for certain words (w.e.f. 19-11-1976).`
+  line
+  line `3. The existing Explanation renumbered as Explanation I by s. 9, ibid., (w.e.f 19-11-1976).`
 obj_root_law_sections_7_a:
-  object
-  (str sectionId) (str 36711)
-  (str sectionNo) (str 7A)
-  (str orderNo) (int 8)
-  (str title) (str `Unlawful compulsory labour when to be deemed to be a practice of "untouchability".`)
-  (str content) (str `^1[7A. Unlawful compulsory labour when to be deemed to be a practice of "untouchability".—(1)
-(1) Whoever compels any person, on the ground of "untouchability", to do any scavenging or sweeping or to remove any carcass or to flay any animal, or to remove the umbilical cord or to do any other job of a
-similar nature shall be deemed to have enforced a disability arising out of "untouchability".
-
-(2) Whoever is deemed under sub-section (1) to have enforced a disability arising out of
-"untouchability" shall be punishable with imprisonment for a term which shall not be less than three
-months and not more than six months and also with fine which shall not be less than one hundred rupees
-and not more than five hundred rupees.
-
-Explanation.—For the purposes of this section, "compulsion" includes a threat of social or economic
-boycott.]`)
-  (str footnotes) (str `1. Ins. by s. 10, ibid. (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36711&sectionno=7A&orderno=8&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36711)
+  sectionNo 7A
+  orderNo 8
+  title `Unlawful compulsory labour when to be deemed to be a practice of "untouchability".`
+  content obj_root_law_sections_7_a_content
+  footnotes `1. Ins. by s. 10, ibid. (w.e.f. 19-11-1976).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36711&sectionno=7A&orderno=8&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_7_a_content:
+  string
+  line `^1[7A. Unlawful compulsory labour when to be deemed to be a practice of "untouchability".—(1)`
+  line `(1) Whoever compels any person, on the ground of "untouchability", to do any scavenging or sweeping or to remove any carcass or to flay any animal, or to remove the umbilical cord or to do any other job of a`
+  line `similar nature shall be deemed to have enforced a disability arising out of "untouchability".`
+  line
+  line `(2) Whoever is deemed under sub-section (1) to have enforced a disability arising out of`
+  line `"untouchability" shall be punishable with imprisonment for a term which shall not be less than three`
+  line `months and not more than six months and also with fine which shall not be less than one hundred rupees`
+  line `and not more than five hundred rupees.`
+  line
+  line `Explanation.—For the purposes of this section, "compulsion" includes a threat of social or economic`
+  line boycott.]
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 36710)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 9)
-  (str title) (str `Cancellation or suspension of licences in certain cases.`)
-  (str content) (str `When a person who is convicted of an
-offence under section 6 holds any licence under any law for the time being in force in respect of any
-profession, trade, calling or employment in relation to which the offence is committed, the court trying
-the offence may without prejudice to any other penalty to which such person may be liable under that
-section, direct that the licence shall stand cancelled or be suspended for such period as the court may
-deem fit, and every order of the court so cancelling or suspending a licence shall have effect as if it had
-been passed by the authority competent to cancel or suspend the licence under any such law.
-
-Explanation.--In this section, "licence" includes a permit or a permission.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36710&sectionno=8&orderno=9&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36710)
+  sectionNo (8)
+  orderNo 9
+  title `Cancellation or suspension of licences in certain cases.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36710&sectionno=8&orderno=9&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_8_content:
+  string
+  line `When a person who is convicted of an`
+  line `offence under section 6 holds any licence under any law for the time being in force in respect of any`
+  line `profession, trade, calling or employment in relation to which the offence is committed, the court trying`
+  line `the offence may without prejudice to any other penalty to which such person may be liable under that`
+  line `section, direct that the licence shall stand cancelled or be suspended for such period as the court may`
+  line `deem fit, and every order of the court so cancelling or suspending a licence shall have effect as if it had`
+  line `been passed by the authority competent to cancel or suspend the licence under any such law.`
+  line
+  line `Explanation.--In this section, "licence" includes a permit or a permission.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 36694)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 10)
-  (str title) (str `Resumption or suspension of grants made by Government.`)
-  (str content) (str `Where the manager or trustee of a
-place of public worship ^1
-[for any educational institution or hostel] which is in receipt of a grant of land or
-money from the Government is convicted of an offence under this Act and such conviction is not reversed
-or quashed in any appeal or revision, the Government may, if in its opinion the circumstances of the case
-warrant such a course, direct the supension or resumption of the whole or any part of such grant.`)
-  (str footnotes) (str `1. Ins. by Act 106 of 1976, s. 11, ibid. (w.e.f. 19-11-1976)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36694&sectionno=9&orderno=10&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36694)
+  sectionNo (9)
+  orderNo 10
+  title `Resumption or suspension of grants made by Government.`
+  content obj_root_law_sections_9_content
+  footnotes `1. Ins. by Act 106 of 1976, s. 11, ibid. (w.e.f. 19-11-1976)`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36694&sectionno=9&orderno=10&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_9_content:
+  string
+  line `Where the manager or trustee of a`
+  line `place of public worship ^1`
+  line `[for any educational institution or hostel] which is in receipt of a grant of land or`
+  line `money from the Government is convicted of an offence under this Act and such conviction is not reversed`
+  line `or quashed in any appeal or revision, the Government may, if in its opinion the circumstances of the case`
+  line `warrant such a course, direct the supension or resumption of the whole or any part of such grant.`
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 36695)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 11)
-  (str title) (str `Abetment of offence.`)
-  (str content) (str `Whoever abets any offence under this Act shall be punishable with the
-punishment provided for the offence.
-
-^1
-[Explanation.— A public servant who wilfully neglects the investigation of any offence punishable
-under this Act shall be deemed to have abetted an offence punishable under this Act.]`)
-  (str footnotes) (str `1. Ins. by s. 12, ibid. (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36695&sectionno=10&orderno=11&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36695)
+  sectionNo (10)
+  orderNo 11
+  title `Abetment of offence.`
+  content obj_root_law_sections_10_content
+  footnotes `1. Ins. by s. 12, ibid. (w.e.f. 19-11-1976).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36695&sectionno=10&orderno=11&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_10_content:
+  string
+  line `Whoever abets any offence under this Act shall be punishable with the`
+  line `punishment provided for the offence.`
+  line
+  line ^1
+  line `[Explanation.— A public servant who wilfully neglects the investigation of any offence punishable`
+  line `under this Act shall be deemed to have abetted an offence punishable under this Act.]`
 obj_root_law_sections_10_a:
-  object
-  (str sectionId) (str 36696)
-  (str sectionNo) (str 10A)
-  (str orderNo) (int 12)
-  (str title) (str `Power of State Government to impose collective fine.`)
-  (str content) (str `^1[10A. Power of State Government to impose collective fine—.(1) If, after an inquiry in the
-prescribed manner, the State Government is satisfied that the inhabitants of an area are concerned in, or
-abetting the commission of, any offence punishable under this Act, or harbouring persons concerned in
-the commission of such offence or failing to render all the assistance in their power to discover or
-apprehend the offender or offenders or suppressing material evidence of the commission of such offence,
-the State Government may, by notification in the Official Gazette, impose a collective fine on such
-inhabitants and apportion such fine amongst the inhabitants who are liable collectively to pay it, and such
-apportionment shall be made according to the State Government's judgment of the respective means of
-such inhabitants and in making any such apportionment the State Government may assign a portion of
-such fine to a Hindu undivided family to be payable by it:
-
-Provided that the fine apportioned to an inhabitant shall not be realised until the petition, if any, filed
-by him under sub-section (3), is disposed of.
-
-(2) The notification made under sub-section (1) shall be proclaimed in the area by beat of drum or in
-such other manner as the State Government may think best in the circumstances to bring the imposition of
-the collective fine to the notice of the inhabitants of the said area.
-
-(3) (a) Any person aggrieved by the imposition of the collective fine under sub-section (1)or by the
-order of apportionment, may, within the prescribed period, file a petition before the State Government or
-such other authority as that Government may specify in this behalf for being exempted from such fine or
-for modification of the order or apportionment:
-
-Provided that no fee shall be charged for filing such petition.
-
-(b) The State Government or the authority specified by it shall, after giving to the petitioner a
-reasonable opportunity of being heard, pass such order as it may think fit:
-
-Provided that the amount of the fine exempted or reduced under this section shall not be realisable
-from any person, and the total fine imposed on the inhabitants of an area under sub-section (1) shall be
-deemed to have been reduced to that extent.
-
-(4) Notwithstanding anything contained in sub-section (3), the State Government may exempt the
-victims of any offence punishable under this Act or any person who does not, in its opinion, fall within
-the category of persons specified in sub-section (1), from the liability to pay the collective fine imposed
-under sub-section (1) or any portion thereof.
-
-(5) The portion of collective fine payable by any person (including a Hindu undivided family) may be
-recovered in the manner provided by the Code of Criminal Procedure, 1973 (2 of 1974), for the recovery
-of fines imposed by a Court as if such portion were a fine imposed by a Magistrate.]`)
-  (str footnotes) (str `1. Ins. by s. 13, ibid. (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36696&sectionno=10A&orderno=12&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36696)
+  sectionNo 10A
+  orderNo 12
+  title `Power of State Government to impose collective fine.`
+  content obj_root_law_sections_10_a_content
+  footnotes `1. Ins. by s. 13, ibid. (w.e.f. 19-11-1976).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36696&sectionno=10A&orderno=12&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_10_a_content:
+  string
+  line `^1[10A. Power of State Government to impose collective fine—.(1) If, after an inquiry in the`
+  line `prescribed manner, the State Government is satisfied that the inhabitants of an area are concerned in, or`
+  line `abetting the commission of, any offence punishable under this Act, or harbouring persons concerned in`
+  line `the commission of such offence or failing to render all the assistance in their power to discover or`
+  line `apprehend the offender or offenders or suppressing material evidence of the commission of such offence,`
+  line `the State Government may, by notification in the Official Gazette, impose a collective fine on such`
+  line `inhabitants and apportion such fine amongst the inhabitants who are liable collectively to pay it, and such`
+  line `apportionment shall be made according to the State Government's judgment of the respective means of`
+  line `such inhabitants and in making any such apportionment the State Government may assign a portion of`
+  line `such fine to a Hindu undivided family to be payable by it:`
+  line
+  line `Provided that the fine apportioned to an inhabitant shall not be realised until the petition, if any, filed`
+  line `by him under sub-section (3), is disposed of.`
+  line
+  line `(2) The notification made under sub-section (1) shall be proclaimed in the area by beat of drum or in`
+  line `such other manner as the State Government may think best in the circumstances to bring the imposition of`
+  line `the collective fine to the notice of the inhabitants of the said area.`
+  line
+  line `(3) (a) Any person aggrieved by the imposition of the collective fine under sub-section (1)or by the`
+  line `order of apportionment, may, within the prescribed period, file a petition before the State Government or`
+  line `such other authority as that Government may specify in this behalf for being exempted from such fine or`
+  line `for modification of the order or apportionment:`
+  line
+  line `Provided that no fee shall be charged for filing such petition.`
+  line
+  line `(b) The State Government or the authority specified by it shall, after giving to the petitioner a`
+  line `reasonable opportunity of being heard, pass such order as it may think fit:`
+  line
+  line `Provided that the amount of the fine exempted or reduced under this section shall not be realisable`
+  line `from any person, and the total fine imposed on the inhabitants of an area under sub-section (1) shall be`
+  line `deemed to have been reduced to that extent.`
+  line
+  line `(4) Notwithstanding anything contained in sub-section (3), the State Government may exempt the`
+  line `victims of any offence punishable under this Act or any person who does not, in its opinion, fall within`
+  line `the category of persons specified in sub-section (1), from the liability to pay the collective fine imposed`
+  line `under sub-section (1) or any portion thereof.`
+  line
+  line `(5) The portion of collective fine payable by any person (including a Hindu undivided family) may be`
+  line `recovered in the manner provided by the Code of Criminal Procedure, 1973 (2 of 1974), for the recovery`
+  line `of fines imposed by a Court as if such portion were a fine imposed by a Magistrate.]`
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 36697)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 13)
-  (str title) (str `Enhanced penalty on subsequent conviction.`)
-  (str content) (str `Whoever having already been convicted of an
-offence under this Act or of an abetment of such offence is again convicted of any such offence or
-abetment, ^1
-[shall, on conviction, be punishable—
-
-(a) for the second offence, with imprisonment for a term of not less than six months and not more
-than one year, and also with fine which shall be not less than two hundred rupees and not more than
-five hundred rupees;
-
-(b) for the third offence or any offence subsequent to the third offence with imprisonment for a
-term of not less than one year and not more than two years, and also with fine which shall be not less
-than five hundred rupees and not more than one thousand rupees].`)
-  (str footnotes) (str `1. Subs. by Act 106 of 1976, s. 14, for certain words (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36697&sectionno=11&orderno=13&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36697)
+  sectionNo (11)
+  orderNo 13
+  title `Enhanced penalty on subsequent conviction.`
+  content obj_root_law_sections_11_content
+  footnotes `1. Subs. by Act 106 of 1976, s. 14, for certain words (w.e.f. 19-11-1976).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36697&sectionno=11&orderno=13&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_11_content:
+  string
+  line `Whoever having already been convicted of an`
+  line `offence under this Act or of an abetment of such offence is again convicted of any such offence or`
+  line `abetment, ^1`
+  line `[shall, on conviction, be punishable—`
+  line
+  line `(a) for the second offence, with imprisonment for a term of not less than six months and not more`
+  line `than one year, and also with fine which shall be not less than two hundred rupees and not more than`
+  line `five hundred rupees;`
+  line
+  line `(b) for the third offence or any offence subsequent to the third offence with imprisonment for a`
+  line `term of not less than one year and not more than two years, and also with fine which shall be not less`
+  line `than five hundred rupees and not more than one thousand rupees].`
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 36698)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 14)
-  (str title) (str `Presumption by Courts in certain cases.`)
-  (str content) (str `Where any act constituting an offence under this Act
-is committed in relation to a member of a Scheduled Caste ^1
-***, the Court shall presume, unless the
-contrary is proved, that such act was committed on the ground of "untouchability".`)
-  (str footnotes) (str `1. The words, brackets and figures "as defined in clause (24) of article 366 of the Constitution" omitted by s. 15, ibid.
-(w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36698&sectionno=12&orderno=14&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36698)
+  sectionNo (12)
+  orderNo 14
+  title `Presumption by Courts in certain cases.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36698&sectionno=12&orderno=14&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_12_content:
+  string
+  line `Where any act constituting an offence under this Act`
+  line `is committed in relation to a member of a Scheduled Caste ^1`
+  line `***, the Court shall presume, unless the`
+  line `contrary is proved, that such act was committed on the ground of "untouchability".`
+obj_root_law_sections_12_footnotes:
+  string
+  line `1. The words, brackets and figures "as defined in clause (24) of article 366 of the Constitution" omitted by s. 15, ibid.`
+  line `(w.e.f. 19-11-1976).`
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 36699)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 15)
-  (str title) (str `Limitation of Jurisdiction of Civil Courts.`)
-  (str content) (str `(1) No Civil Court shall entertain or continue any
-suit or proceeding or shall pass any decree or order if the claim involved in such suit or proceeding or if
-the passing of such decree or order or if such execution would in any way be contrary to the provisions of
-this Act.
-
-(2) No Court shall, in adjudicating any matter or executing any decree or order, recognise any custom
-or usage imposing any disability on any person on the ground of "untouchability".`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36699&sectionno=13&orderno=15&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36699)
+  sectionNo (13)
+  orderNo 15
+  title `Limitation of Jurisdiction of Civil Courts.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36699&sectionno=13&orderno=15&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_13_content:
+  string
+  line `(1) No Civil Court shall entertain or continue any`
+  line `suit or proceeding or shall pass any decree or order if the claim involved in such suit or proceeding or if`
+  line `the passing of such decree or order or if such execution would in any way be contrary to the provisions of`
+  line `this Act.`
+  line
+  line `(2) No Court shall, in adjudicating any matter or executing any decree or order, recognise any custom`
+  line `or usage imposing any disability on any person on the ground of "untouchability".`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 36700)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 16)
-  (str title) (str `Offences by companies.`)
-  (str content) (str `(1) If the person committing an offence under this Act is a company,
-every person who at the time the offence was committed was in charge of, and was responsible to the
-company for the conduct of the business of the company, shall be deemed to be guilty of the offence and
-shall be liable to be proceeded against and punished accordingly:
-
-Provided that nothing contained in this sub-section shall render any such person liable to any
-punishment, if he proves that the offence was committed without his knowledge or that he exercised all
-due diligence to prevent the commission of such offence.
-
-(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been
-committed with the consent of any director or manager, secretary or other officer of the company, such
-director, manager, secretary or other officer shall also be deemed to be guilty of that offence and shall be
-liable to be proceeded against and punished accordingly.
-
-Explanation.—For the purposes of this section,—
-
-(a) "company" means any body corporate and includes a firm or other association of individuals;
-and
-
-(b) "director" in relation to a firm means a partner in the firm.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36700&sectionno=14&orderno=16&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36700)
+  sectionNo (14)
+  orderNo 16
+  title `Offences by companies.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36700&sectionno=14&orderno=16&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_14_content:
+  string
+  line `(1) If the person committing an offence under this Act is a company,`
+  line `every person who at the time the offence was committed was in charge of, and was responsible to the`
+  line `company for the conduct of the business of the company, shall be deemed to be guilty of the offence and`
+  line `shall be liable to be proceeded against and punished accordingly:`
+  line
+  line `Provided that nothing contained in this sub-section shall render any such person liable to any`
+  line `punishment, if he proves that the offence was committed without his knowledge or that he exercised all`
+  line `due diligence to prevent the commission of such offence.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been`
+  line `committed with the consent of any director or manager, secretary or other officer of the company, such`
+  line `director, manager, secretary or other officer shall also be deemed to be guilty of that offence and shall be`
+  line `liable to be proceeded against and punished accordingly.`
+  line
+  line `Explanation.—For the purposes of this section,—`
+  line
+  line `(a) "company" means any body corporate and includes a firm or other association of individuals;`
+  line and
+  line
+  line `(b) "director" in relation to a firm means a partner in the firm.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_14_a:
-  object
-  (str sectionId) (str 36701)
-  (str sectionNo) (str 14A)
-  (str orderNo) (int 17)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `^1
-[14A. Protection of action taken in good faith.--(1) No suit, prosecution or other legal proceeding
-shall lie against the Central Government or a State Government for anything which is in good faith done
-or intended to be done under this Act.
-
-(2) No suit or other legal proceeding shall lie against the Central Government or a State Government
-for any damage caused or likely to be caused by anything which is in good faith done or intended to be
-done under this Act.]`)
-  (str footnotes) (str `1. Ins. by Act 106 of 1976, s. 16 (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36701&sectionno=14A&orderno=17&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36701)
+  sectionNo 14A
+  orderNo 17
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_14_a_content
+  footnotes `1. Ins. by Act 106 of 1976, s. 16 (w.e.f. 19-11-1976).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36701&sectionno=14A&orderno=17&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_14_a_content:
+  string
+  line ^1
+  line `[14A. Protection of action taken in good faith.--(1) No suit, prosecution or other legal proceeding`
+  line `shall lie against the Central Government or a State Government for anything which is in good faith done`
+  line `or intended to be done under this Act.`
+  line
+  line `(2) No suit or other legal proceeding shall lie against the Central Government or a State Government`
+  line `for any damage caused or likely to be caused by anything which is in good faith done or intended to be`
+  line `done under this Act.]`
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 36702)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 18)
-  (str title) (str `Offences to be cognizable and triable summarily.`)
-  (str content) (str `^1[15. Offences to be cognizable and triable summarily.—(1) Notwithstanding anything contained
-in the Code of Criminal Procedure, 1973 (2 of 1974), every offence punishable under this Act shall be
-cognizable and every such offence, except where its punishable with imprisonment for a minimum term
-exceeding three months, may be tried summarily by a Judicial Magistrate of the first class or in a
-metropolitan area by a Metropolitan Magistrate in accordance with the procedure specified in the said
-Code.
-
-(2) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), when
-any public servant is alleged to have committed the offence of abetment of an offence punishable under
-this Act, while acting or purporting to act in the discharge of his official duty, no Court shall take
-cognizance of such offence of abetment except with the previous sanction—
-
-(a) of the Central Government, in the case of a person employed in connection with the affairs of
-the Union; and
-
-(b) of the State Government, in the case of a person employed in connection with the affairs of a
-State.`)
-  (str footnotes) (str `1. Subs. by s. 17, ibid., for s. 15 (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36702&sectionno=15&orderno=18&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36702)
+  sectionNo (15)
+  orderNo 18
+  title `Offences to be cognizable and triable summarily.`
+  content obj_root_law_sections_15_content
+  footnotes `1. Subs. by s. 17, ibid., for s. 15 (w.e.f. 19-11-1976).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36702&sectionno=15&orderno=18&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_15_content:
+  string
+  line `^1[15. Offences to be cognizable and triable summarily.—(1) Notwithstanding anything contained`
+  line `in the Code of Criminal Procedure, 1973 (2 of 1974), every offence punishable under this Act shall be`
+  line `cognizable and every such offence, except where its punishable with imprisonment for a minimum term`
+  line `exceeding three months, may be tried summarily by a Judicial Magistrate of the first class or in a`
+  line `metropolitan area by a Metropolitan Magistrate in accordance with the procedure specified in the said`
+  line Code.
+  line
+  line `(2) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), when`
+  line `any public servant is alleged to have committed the offence of abetment of an offence punishable under`
+  line `this Act, while acting or purporting to act in the discharge of his official duty, no Court shall take`
+  line `cognizance of such offence of abetment except with the previous sanction—`
+  line
+  line `(a) of the Central Government, in the case of a person employed in connection with the affairs of`
+  line `the Union; and`
+  line
+  line `(b) of the State Government, in the case of a person employed in connection with the affairs of a`
+  line State.
 obj_root_law_sections_15_a:
-  object
-  (str sectionId) (str 36709)
-  (str sectionNo) (str 15A)
-  (str orderNo) (int 19)
-  (str title) (str `Duty of State Government to ensure that the rights accruing from the abolition of "untouchability" may be availed of by the concerned persons.`)
-  (str content) (str `(1) Subject to such rules as the
-Central Government may make in this behalf, the State Government shall take such measures as may be
-necessary for ensuring that the rights arising from the abolition of "untouchability" are made available to,
-and are availed of by the persons subjected to any disability arising out of "untouchability".
-
-(2) In particular, and without prejudice to the generality of the provisions of sub-section (1), such
-measures may include—
-
-(i) the provision of adequate facilities, including legal aid, to the persons subjected to any
-disability arising out of "untouchability" to enable them to avail themselves of such rights;
-
-(ii) the appointment of officers for initiating or exercising supervision over prosecutions for the
-contravention of the provisions of this Act;
-
-(iii) the setting up of special courts for the trial of offences under this Act;
-
-(iv) the setting up of Committees at such appropriate levels as the State Government may think fit
-to assist the State Government in formulating or implementing such measures;
-
-(v) provision for a periodic survey of the working of the provisions of this Act with a view to
-suggesting measures for the better implementation of the provisions of this Act;
-
-(vi) the identification of the areas where persons are under any disability arising out of
-"untouchability" and adoption of such measures as would ensure the removal of such disability from
-such areas.
-
-(3) The Central Government shall take such steps as may be necessary to coordinate the measures
-taken by the State Governments under sub-section (1).
-
-(4) The Central Government shall, every year, place on the Table of each House of Parliament, a
-report on the measures taken by itself and by the State Governments in pursuance of the provisions of this
-section.]`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36709&sectionno=15A&orderno=19&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36709)
+  sectionNo 15A
+  orderNo 19
+  title `Duty of State Government to ensure that the rights accruing from the abolition of "untouchability" may be availed of by the concerned persons.`
+  content obj_root_law_sections_15_a_content
+  footnotes obj_root_law_sections_15_a_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36709&sectionno=15A&orderno=19&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_15_a_content:
+  string
+  line `(1) Subject to such rules as the`
+  line `Central Government may make in this behalf, the State Government shall take such measures as may be`
+  line `necessary for ensuring that the rights arising from the abolition of "untouchability" are made available to,`
+  line `and are availed of by the persons subjected to any disability arising out of "untouchability".`
+  line
+  line `(2) In particular, and without prejudice to the generality of the provisions of sub-section (1), such`
+  line `measures may include—`
+  line
+  line `(i) the provision of adequate facilities, including legal aid, to the persons subjected to any`
+  line `disability arising out of "untouchability" to enable them to avail themselves of such rights;`
+  line
+  line `(ii) the appointment of officers for initiating or exercising supervision over prosecutions for the`
+  line `contravention of the provisions of this Act;`
+  line
+  line `(iii) the setting up of special courts for the trial of offences under this Act;`
+  line
+  line `(iv) the setting up of Committees at such appropriate levels as the State Government may think fit`
+  line `to assist the State Government in formulating or implementing such measures;`
+  line
+  line `(v) provision for a periodic survey of the working of the provisions of this Act with a view to`
+  line `suggesting measures for the better implementation of the provisions of this Act;`
+  line
+  line `(vi) the identification of the areas where persons are under any disability arising out of`
+  line `"untouchability" and adoption of such measures as would ensure the removal of such disability from`
+  line `such areas.`
+  line
+  line `(3) The Central Government shall take such steps as may be necessary to coordinate the measures`
+  line `taken by the State Governments under sub-section (1).`
+  line
+  line `(4) The Central Government shall, every year, place on the Table of each House of Parliament, a`
+  line `report on the measures taken by itself and by the State Governments in pursuance of the provisions of this`
+  line section.]
+obj_root_law_sections_15_a_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 36704)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 20)
-  (str title) (str `Act to override other laws.`)
-  (str content) (str `Save as otherwise expressly provided in this Act, the provisions of
-this Act shall have effect notwithstanding anything inconsistent therewith contained in any other law for
-the time being in force, or any custom or usage or any instrument having effect by virtue of any such law
-or any decree or order of any Court or other authority.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36704&sectionno=16&orderno=20&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36704)
+  sectionNo (16)
+  orderNo 20
+  title `Act to override other laws.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36704&sectionno=16&orderno=20&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_16_content:
+  string
+  line `Save as otherwise expressly provided in this Act, the provisions of`
+  line `this Act shall have effect notwithstanding anything inconsistent therewith contained in any other law for`
+  line `the time being in force, or any custom or usage or any instrument having effect by virtue of any such law`
+  line `or any decree or order of any Court or other authority.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_16_a:
-  object
-  (str sectionId) (str 36705)
-  (str sectionNo) (str 16A)
-  (str orderNo) (int 21)
-  (str title) (str `Probation of Offenders Act, 1958, not to apply to persons above the age of fourteen years.`)
-  (str content) (str `^1
-[16A. Probation of Offenders Act, 1958, not to apply to persons above the age of fourteen
-years.—The provisions of the Probation of Offenders Act, 1958 (20 of 1958), shall not apply to any
-person above the age of fourteen years who is found guilty of having committed any offence punishable
-under this Act.]`)
-  (str footnotes) (str `1. Ins. by Act 106 of 1976, s. 18 (w.e.f. 19-11-1976).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36705&sectionno=16A&orderno=21&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36705)
+  sectionNo 16A
+  orderNo 21
+  title `Probation of Offenders Act, 1958, not to apply to persons above the age of fourteen years.`
+  content obj_root_law_sections_16_a_content
+  footnotes `1. Ins. by Act 106 of 1976, s. 18 (w.e.f. 19-11-1976).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36705&sectionno=16A&orderno=21&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_16_a_content:
+  string
+  line ^1
+  line `[16A. Probation of Offenders Act, 1958, not to apply to persons above the age of fourteen`
+  line `years.—The provisions of the Probation of Offenders Act, 1958 (20 of 1958), shall not apply to any`
+  line `person above the age of fourteen years who is found guilty of having committed any offence punishable`
+  line `under this Act.]`
 obj_root_law_sections_16_b:
-  object
-  (str sectionId) (str 36706)
-  (str sectionNo) (str 16B)
-  (str orderNo) (int 22)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official
-Gazette, make rules to carry out the provisions of this Act.
-
-(2) Every rule made by the Central Government under this Act shall be laid, as soon as may be after it
-is made, before each House of Parliament while it is in session for a total period of thirty days which may
-be comprised in one session or in two or more successive sessions, and if, before the expiry of the session
-immediately following the session or the successive sessions aforesaid, both Houses agree in making any
-modification in the rule or both Houses agree that the rule should not be made, the rule shall thereafter
-have effect only in such modified form or be of no effect, as the case may be; so, however, that any such
-modification or annulment shall be without prejudice to the validity of anything previously done under
-that rule.]`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36706&sectionno=16B&orderno=22&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36706)
+  sectionNo 16B
+  orderNo 22
+  title `Power to make rules.`
+  content obj_root_law_sections_16_b_content
+  footnotes obj_root_law_sections_16_b_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36706&sectionno=16B&orderno=22&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_16_b_content:
+  string
+  line `(1) The Central Government may, by notification in the Official`
+  line `Gazette, make rules to carry out the provisions of this Act.`
+  line
+  line `(2) Every rule made by the Central Government under this Act shall be laid, as soon as may be after it`
+  line `is made, before each House of Parliament while it is in session for a total period of thirty days which may`
+  line `be comprised in one session or in two or more successive sessions, and if, before the expiry of the session`
+  line `immediately following the session or the successive sessions aforesaid, both Houses agree in making any`
+  line `modification in the rule or both Houses agree that the rule should not be made, the rule shall thereafter`
+  line `have effect only in such modified form or be of no effect, as the case may be; so, however, that any such`
+  line `modification or annulment shall be without prejudice to the validity of anything previously done under`
+  line `that rule.]`
+obj_root_law_sections_16_b_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 36707)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 23)
-  (str title) (str Repeal.)
-  (str content) (str `The enactments specified in the Schedule are hereby repealed to the extent to which
-they or any of the provisions contained therein correspond or are repugnant to this Act or to any of the
-provisions contained therein.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36707&sectionno=17&orderno=23&orgactid=AC_CEN_5_23_00002_195522_1517807318156)
+  sectionId (36707)
+  sectionNo (17)
+  orderNo 23
+  title Repeal.
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00002_195522_1517807318156&sectionId=36707&sectionno=17&orderno=23&orgactid=AC_CEN_5_23_00002_195522_1517807318156
+obj_root_law_sections_17_content:
+  string
+  line `The enactments specified in the Schedule are hereby repealed to the extent to which`
+  line `they or any of the provisions contained therein correspond or are repugnant to this Act or to any of the`
+  line `provisions contained therein.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `सिविल अधिकार संरक्षण अधिनियम, 1955`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1544/5/H1955-22.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:43:11.413Z`)
-  (str pageCount) (int 8)
-  (str sections) obj_root_law_translations_hi_sections
+  title `सिविल अधिकार संरक्षण अधिनियम, 1955`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1544/5/H1955-22.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:43:11.413Z`
+  pageCount 8
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -733,404 +808,444 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_7
   obj_root_law_translations_hi_sections_8
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `सिसिल असिकार िंरक्षण असिसियम, 1955
-(1955 का असिसियम िंखयां क 22 ) 1
-[8 मई, 1955 ]
-2 [ अस्पृ श् य ता का प्र चार और आचरण करिे ] और उििे उपजी ककिी सियोग्य ता
-को लागू करिे और, उििे िंबंसित बातों के सलए दंड
-सिसित करिे के सलए
-असिसियम
-भारण गणराज्य के छठे िर्ष में िंिद् द्व ारा सिम्ि सलसित रू प में यि असिसियसमत िो: ––
-1. िंसक्षप्त िाम, सिस्ता र और प्र ारम्भ –– (1) यि असिसियम 3 [ सिसिल असिकार िंरक्षण असिसियम, ] 1955 किा जा िकेगा।
-(2) इिका सिस्ता र िम्पू णष भारत पर िै।
-(3) यि उि तारीि 4 को प्र िृत्त िोगा, सजिे केन्‍दरी य िरकार शािकीय राजपत्र में असििूचिा द्व ारा सियत करे।
-2. पररभार्ा ए –– इि असिसियम में, जब तक कक िंदभष िे अन्‍दय था अपेसक्षत ि िो, ––
-5 [( क ) “ सिसिल असिकार ” िे कोई ऐिा असिकार असभप्रेत िै, जो िंसििाि के अिुच्छे द 17 द्व ारा “ अस्पृ श् य ता ” का
-अन्‍दत कर कदए जािे के कारण ककिी व् य सत को प्र ोद्भूत िोता िै; ]
-6 [( कक ) ] “ िोटल ” के अन्‍दत गषत जलपाि - गृ ि, भोजिालय, बािा, कॉफी िाउि और के फे भी िैं;
-7 [( ि ) “ स् था ि ” के अन्‍दत गषत गृि, भिि और अन्‍दय िंरचिा तथा पररिर िैं और उिके अन्‍दत गषत तम्बू, याि और
-जलयाि भी िैं; ]
-( ग ) “ लोक मिोरं जि - स् था ि ” के अन्‍दत गषत कोई भी ऐिा स् था ि िै सजिमें जिता को प्र िेश करिे कदया जाता िै और
-सजिमें मिोरंजि की व् य िस्था की जाती िै या मिोरंजि ककया जाता िै। स्
-प ष् टी करण –– “ मिोरंजि ” के अन्‍दत गषत कोई प्र दशषिी, तमाशा, िेलकूद, क्र ीडा और ककिी अन्‍दय प्र कार का आमोद
-भी िै;
-( घ ) “ लोक पूजा - स् था ि ” िे, चािे सजि िाम िे ज्ञ ात िो, ऐिा स् था ि असभप्रेत िै, जो िार्मषक - पूजा के िािषजसिक स्
-था ि के तौर पर उपयोग में लाया जाता िै या जो ििां कोई िार्मषक िेिा या प्र ाथषिा करिे के सलए, ककिी िमष को माििे
-िाले या ककिी िार्मषक िं प्र दाय या उिके ककिी सिभाग के व् य सत यों को िािारणत: िमर्पषत ककया गया िै या उिके द्व ारा
-िािारणत: उपयोग में लाया जाता िै, 8 [ और इिके अन्‍दत गषत सिम्ि सलसित िैं ––
-(i) ऐिे ककिी स् था ि के िाथ अिुलग्ि या िंलग्ि िब भूसम और गौण पसित्र स् था ि;
-(ii) सिजी स् िा समत्ि का कोई पूजा - स् था ि सजिका स् िा मी िस्तु त: उिे लोक पूजा - स् था ि के रू प में उपयोग
-में लािे की अिुज्ञा देता िै; और
-(iii) ऐिे सिजी स् िा समत्ि िाले पूजा - स् था ि िे अिुलग्ि ऐिी भूसम या गौण पसित्र स् था ि सजिके स् िा मी
-उिे लोक िार्मषक पूजा - स् था ि के रू प में उपयोग में लािे की अिुज्ञा देता िै; ]
-5 [( घक ) “ सिसित ” िे इि असिसियम के अिीि बिाए गए सियमों द्व ारा सिसित असभप्रेत िै;
-( घि ) “ अिुिूसचत जासत ” का ििी अथष िै जो िंसििाि के अिुच्छे द 366 के िंड ( 24 ) में उिे कदया गया िै; ]
-( ङ ) “ दुकाि ” िे कोई ऐिा पररिर असभप्रेत िै, जिां िस्तु ओं का या तो थोक या फुटकर या थोक और फुटकर दोिों प्र
-कार का सिक्रय ककया जाता िै 8 [ और इिके अन्‍दत गषत सिम्ि सलसित िैं: ––
-1 1962 के सिसियम िं ० 12 की िारा 3 तथा अिुिूची द्व ारा उपांतरों िसित गोिा, दमण और दीि पर, 1963 के सिसियम िं ० 6 की िा रा 2 तथा अिुिूची 1 द्व ारा
-(1 जुलाई, 1965 िे ) दादरा और ििेली पर, और 1963 के सिसियम िं ० 7 की िारा 3 तथा अिुिूची 1 द्व ारा (1 अतू बर, 1963 िे ) पासड चेरी पर, सिस् ता र
-कक या गया।
-2 1976 के असिसियम िं ० 106 की िारा 2 द्व ारा (19 - 11 - 1976 िे ) “ अस्पृ श् य ता का आचरण करिे ” के स् था ि पर प्र सतस्था सपत।
-3 1976 के असिसियम िं ० 106 की िारा 3 द्व ारा (19 - 11 - 1976 िे ) “ अस्पृ श् य ता ( अपराि ) असिसियम ” के स् था ि पर प्र सतस्था सपत।
-4 1 जूि, 1955, देसिए असििूचिा िं ० का ० सि ० आ ० 1109, तारीि 23 मई, 1955, भारत का राजपत्र, 1955, अिािारण, भाग 2, िड 3, पृ ० 1971।
-5 1976 के असिसियम िं ० 106 की िारा 4 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-6 1976 के असिसियम िं ० 106 की िारा 4 द्व ारा (19 - 11 - 1976 िे ) िड ( क ) को िड ( कक ) के रू प में पुि:अक्ष ाारांककत ककया गया।
-7 1976 के असिसियम िं ० 106 की िारा 4 द्व ारा (19 - 11 - 1976 िे ) िड ( ि ) के स् था ि पर प्र सतस्था सपत।
-8 1976 के असिसियम िं ० 106 की िारा 4 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `सिसिल असिकार िंरक्षण असिसियम, 1955`
+  line `(1955 का असिसियम िंखयां क 22 ) 1`
+  line `[8 मई, 1955 ]`
+  line `2 [ अस्पृ श् य ता का प्र चार और आचरण करिे ] और उििे उपजी ककिी सियोग्य ता`
+  line `को लागू करिे और, उििे िंबंसित बातों के सलए दंड`
+  line `सिसित करिे के सलए`
+  line असिसियम
+  line `भारण गणराज्य के छठे िर्ष में िंिद् द्व ारा सिम्ि सलसित रू प में यि असिसियसमत िो: ––`
+  line `1. िंसक्षप्त िाम, सिस्ता र और प्र ारम्भ –– (1) यि असिसियम 3 [ सिसिल असिकार िंरक्षण असिसियम, ] 1955 किा जा िकेगा।`
+  line `(2) इिका सिस्ता र िम्पू णष भारत पर िै।`
+  line `(3) यि उि तारीि 4 को प्र िृत्त िोगा, सजिे केन्‍दरी य िरकार शािकीय राजपत्र में असििूचिा द्व ारा सियत करे।`
+  line `2. पररभार्ा ए –– इि असिसियम में, जब तक कक िंदभष िे अन्‍दय था अपेसक्षत ि िो, ––`
+  line `5 [( क ) “ सिसिल असिकार ” िे कोई ऐिा असिकार असभप्रेत िै, जो िंसििाि के अिुच्छे द 17 द्व ारा “ अस्पृ श् य ता ” का`
+  line `अन्‍दत कर कदए जािे के कारण ककिी व् य सत को प्र ोद्भूत िोता िै; ]`
+  line `6 [( कक ) ] “ िोटल ” के अन्‍दत गषत जलपाि - गृ ि, भोजिालय, बािा, कॉफी िाउि और के फे भी िैं;`
+  line `7 [( ि ) “ स् था ि ” के अन्‍दत गषत गृि, भिि और अन्‍दय िंरचिा तथा पररिर िैं और उिके अन्‍दत गषत तम्बू, याि और`
+  line `जलयाि भी िैं; ]`
+  line `( ग ) “ लोक मिोरं जि - स् था ि ” के अन्‍दत गषत कोई भी ऐिा स् था ि िै सजिमें जिता को प्र िेश करिे कदया जाता िै और`
+  line `सजिमें मिोरंजि की व् य िस्था की जाती िै या मिोरंजि ककया जाता िै। स्`
+  line `प ष् टी करण –– “ मिोरंजि ” के अन्‍दत गषत कोई प्र दशषिी, तमाशा, िेलकूद, क्र ीडा और ककिी अन्‍दय प्र कार का आमोद`
+  line `भी िै;`
+  line `( घ ) “ लोक पूजा - स् था ि ” िे, चािे सजि िाम िे ज्ञ ात िो, ऐिा स् था ि असभप्रेत िै, जो िार्मषक - पूजा के िािषजसिक स्`
+  line `था ि के तौर पर उपयोग में लाया जाता िै या जो ििां कोई िार्मषक िेिा या प्र ाथषिा करिे के सलए, ककिी िमष को माििे`
+  line `िाले या ककिी िार्मषक िं प्र दाय या उिके ककिी सिभाग के व् य सत यों को िािारणत: िमर्पषत ककया गया िै या उिके द्व ारा`
+  line `िािारणत: उपयोग में लाया जाता िै, 8 [ और इिके अन्‍दत गषत सिम्ि सलसित िैं ––`
+  line `(i) ऐिे ककिी स् था ि के िाथ अिुलग्ि या िंलग्ि िब भूसम और गौण पसित्र स् था ि;`
+  line `(ii) सिजी स् िा समत्ि का कोई पूजा - स् था ि सजिका स् िा मी िस्तु त: उिे लोक पूजा - स् था ि के रू प में उपयोग`
+  line `में लािे की अिुज्ञा देता िै; और`
+  line `(iii) ऐिे सिजी स् िा समत्ि िाले पूजा - स् था ि िे अिुलग्ि ऐिी भूसम या गौण पसित्र स् था ि सजिके स् िा मी`
+  line `उिे लोक िार्मषक पूजा - स् था ि के रू प में उपयोग में लािे की अिुज्ञा देता िै; ]`
+  line `5 [( घक ) “ सिसित ” िे इि असिसियम के अिीि बिाए गए सियमों द्व ारा सिसित असभप्रेत िै;`
+  line `( घि ) “ अिुिूसचत जासत ” का ििी अथष िै जो िंसििाि के अिुच्छे द 366 के िंड ( 24 ) में उिे कदया गया िै; ]`
+  line `( ङ ) “ दुकाि ” िे कोई ऐिा पररिर असभप्रेत िै, जिां िस्तु ओं का या तो थोक या फुटकर या थोक और फुटकर दोिों प्र`
+  line `कार का सिक्रय ककया जाता िै 8 [ और इिके अन्‍दत गषत सिम्ि सलसित िैं: ––`
+  line `1 1962 के सिसियम िं ० 12 की िारा 3 तथा अिुिूची द्व ारा उपांतरों िसित गोिा, दमण और दीि पर, 1963 के सिसियम िं ० 6 की िा रा 2 तथा अिुिूची 1 द्व ारा`
+  line `(1 जुलाई, 1965 िे ) दादरा और ििेली पर, और 1963 के सिसियम िं ० 7 की िारा 3 तथा अिुिूची 1 द्व ारा (1 अतू बर, 1963 िे ) पासड चेरी पर, सिस् ता र`
+  line `कक या गया।`
+  line `2 1976 के असिसियम िं ० 106 की िारा 2 द्व ारा (19 - 11 - 1976 िे ) “ अस्पृ श् य ता का आचरण करिे ” के स् था ि पर प्र सतस्था सपत।`
+  line `3 1976 के असिसियम िं ० 106 की िारा 3 द्व ारा (19 - 11 - 1976 िे ) “ अस्पृ श् य ता ( अपराि ) असिसियम ” के स् था ि पर प्र सतस्था सपत।`
+  line `4 1 जूि, 1955, देसिए असििूचिा िं ० का ० सि ० आ ० 1109, तारीि 23 मई, 1955, भारत का राजपत्र, 1955, अिािारण, भाग 2, िड 3, पृ ० 1971।`
+  line `5 1976 के असिसियम िं ० 106 की िारा 4 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `6 1976 के असिसियम िं ० 106 की िारा 4 द्व ारा (19 - 11 - 1976 िे ) िड ( क ) को िड ( कक ) के रू प में पुि:अक्ष ाारांककत ककया गया।`
+  line `7 1976 के असिसियम िं ० 106 की िारा 4 द्व ारा (19 - 11 - 1976 िे ) िड ( ि ) के स् था ि पर प्र सतस्था सपत।`
+  line `8 1976 के असिसियम िं ० 106 की िारा 4 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-(i) कोई ऐिा स् था ि जिां फेरी िाले या सिक्रेता द्व ारा या चलते - कफरते याि या गाडी िे माल का सिक्रय
-ककया जाता िै;
-(ii) लांड्री और बाल काटिे का िै लूि;
-(iii) को ई अन्‍दय स् था ि जिां ग्र ािकों की िेिा की जाती िै। ]
-3. िार्मषक सियोग्य ताएं लागू करिे के सलए दड –– जो कोई ककिी व् य सत को, ––
-( क ) ककिी ऐिे लोक - पूजा स् था ि में प्र िेश करिे िे, जो उिी िमष को मामिे िाले 1 * * * या उि के ककिी सिभाग के
-अन्‍दय व् य सत यों के सलए िुला िो, सजिका िि व् य सत िो, अथ िा
-( ि ) ककिी लोक पूजा - स् था ि में पूजा या प्र ाथषिा या कोई िार्मषक िेिा अथिा, कक िी पुिीत तालाब, कुएं, जलस्रो त
-या 2 [ जल - िरणी, िदी या झील में स् िा ि या उिके जल का उपयोग या ऐिे तालाब, जल - िरणी, िदी या झील के ककिी घाट
-पर स् िा ि ] उिी रीसत िे और उिी सिस्ता र तक करिे िे, सजि रीसत िे और सजि सिस्ता र तक ऐिा करिा उिी िमष को माि िे
-िाले 1 * * * या उिके ककिी सिभाग के अन्‍दय व् य सत यों के सलए अिुज्ञेय िो, सजिका िि व् य सत िो,
-“ अस्पृ श् य ता ” के आिार पर सििाररत करेगा 3 [ िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के कारािाि िे और
-ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दंडिीय िोगा ]। स्
-प ष् टी करण –– इि िारा और िारा 4 के प्र योजिों के सलए बौद्ध, सिि या जैि िमष को मामिे िाले व् य सत या सिन्‍ददू िमष के
-ककिी भी रू प या सिकाि को माि िे िाले व् य सत, सजिके अंतगषत िीरशैि, ललंगायत, आकदिािी, ब्र ाह्मो िमाज, प्र ाथषिा िमाज, आयष
-िमाज और स् िा मी िारायण िंप्रदाय के अिुयायी भी िैं, सिन्‍ददू िमझे जाएंगे।
-4. िामासजक सियोग्य ताएं लागू करिे के सलए द ड –– जो कोई ककिी व् य सत के सिरुद्ध सिम्ि सलसित के िम्ब न्‍द ि में कोई
-सियोग्य ता “ अस्पृ श् य ता ” के आिार पर लागू करेगा िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के 4 [ कारािाि
-िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा, ––
-(i) ककिी दुकाि, लोक उपािार - गृि, िोटल या लोक मिोरंजि - स् था ि में प्र िेश करिा; अथिा
-(ii) ककिी लोक उपािार - गृि, िोटल, िमषशाला, िराय या मुिाकफरिािे में, जििािारण या 4 [ उिके ककिी सिभाग
-के ] व् य सत यों के, सजिका िि व् य सत िो, उपयोग के सलए रिे गए ककन्‍दिीं बतष िों और अन्‍दय िस्तु ओं का उपयोग करिा; अथिा
-(iii) कोई िृसत्त करिा या उपजीसिका, 5 [ या ककिी काम में सियोजि ]; अथिा
-(iv) ऐिी ककिी िदी, जलिारा, जल स्र ोत, कुएं, तालाब, िौज, पा िी के िल या जल के अन्‍दय स् था ि का या ककिी स्
-िा ि घाट, कसब्रस्ता ि या श् म शाि, स् ि च् छ ता िम्ब न्‍द िी िुसििा, िडक, या रास्ते या लोक असभगम के अन्‍दय स् था ि का सजिका
-उपयोग करिे के सलए या सजिमें प्र िेश करिे के जिता के अन्‍दय िदस्य, या 4 [ उिके ककिी सिभाग के ] व् य सत सजिका िि व्
-य सत िो, असिकारिाि िों, उपयोग करिा या उिमें प्र िेश करिा; अथिा
-(v) राज्य सिसियों िे पूणषत: या अंशत: पोसर्त पूतष या लोक प्र योजि के सलए उपयोग में लाए जािे िाले या
-जििािारण के या 4 [ उिके ककिी सिभाग के ] व् य सत यों के, सजिका िि व् य सत िो, उपयोग के सलए िमर्पषत स् था ि का,
-उपयोग करिा या उिमें प्र िेश करिा; अथिा
-(vi) जििािारण या 4 [ उिके ककिी सिभाग के ] व् य सत यों के, सजिका िि व् य सत िो, फायदे के सलए िृष्ट ककिी
-पूतष न्‍द या ि के अिीि ककिी फायदे का उपभोग करिा; अथिा
-(vii) ककिी िािषजसिक ििारी का उपयोग करिा या उिमें प्र िेश करिा; अथिा
-(viii) ककिी भी पररक्षेत्र में, ककिी सििाि - पररिर का िसन्‍दि माषण, अजषि या असिभोग करिा; अथिा
-(ix) ककिी ऐिी िमषशाला, िराय या मुिाकफरिािे का, जो जििािारण या 4 [ उिके ककिी सिभाग के ] व् य सत यों के
-सलए, सजिका िि व् य सत िो, िुला िो उपयोग ऐिे व् य सत के रू प में करिा; अथिा
-(x) ककिी िा मासजक या िार्मषक रु क़ि, प्र था या कमष का अिुपालि या 6 [ ककिी िार्मषक, िामासजक या िांस्कृ सतक
-जलूि में भाग लेिा या ऐिा जु लूि सिकालिा ]; अथिा
-(xi) आभूर्णों और अलंकारों का उपयोग करिा।
-1 1976 के असिसियम िं ० 106 की िारा 5 द्व ारा (19 - 11 - 1976 िे ) “ या उिी िार्मषक िंप्रदाय ” शब्दों का लोप ककया गया।
-2 1976 के असिसियम िं ० 106 की िारा 5 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-3 1976 के असिसियम िं ० 106 की िारा 5 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।
-4 1976 के असिसियम िं ० 106 की िारा 6 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।
-5 1976 के असिसियम िं ० 106 की िारा 6 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-6 1976 के असिसियम िं ० 106 की िारा 6 द्व ारा (19 - 11 - 1976 िे ) “ ककिी िार्मषक जलूि में भाग लेिा ” शब्दों के स् था ि पर प्र सतस्था सपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `(i) कोई ऐिा स् था ि जिां फेरी िाले या सिक्रेता द्व ारा या चलते - कफरते याि या गाडी िे माल का सिक्रय`
+  line `ककया जाता िै;`
+  line `(ii) लांड्री और बाल काटिे का िै लूि;`
+  line `(iii) को ई अन्‍दय स् था ि जिां ग्र ािकों की िेिा की जाती िै। ]`
+  line `3. िार्मषक सियोग्य ताएं लागू करिे के सलए दड –– जो कोई ककिी व् य सत को, ––`
+  line `( क ) ककिी ऐिे लोक - पूजा स् था ि में प्र िेश करिे िे, जो उिी िमष को मामिे िाले 1 * * * या उि के ककिी सिभाग के`
+  line `अन्‍दय व् य सत यों के सलए िुला िो, सजिका िि व् य सत िो, अथ िा`
+  line `( ि ) ककिी लोक पूजा - स् था ि में पूजा या प्र ाथषिा या कोई िार्मषक िेिा अथिा, कक िी पुिीत तालाब, कुएं, जलस्रो त`
+  line `या 2 [ जल - िरणी, िदी या झील में स् िा ि या उिके जल का उपयोग या ऐिे तालाब, जल - िरणी, िदी या झील के ककिी घाट`
+  line `पर स् िा ि ] उिी रीसत िे और उिी सिस्ता र तक करिे िे, सजि रीसत िे और सजि सिस्ता र तक ऐिा करिा उिी िमष को माि िे`
+  line `िाले 1 * * * या उिके ककिी सिभाग के अन्‍दय व् य सत यों के सलए अिुज्ञेय िो, सजिका िि व् य सत िो,`
+  line `“ अस्पृ श् य ता ” के आिार पर सििाररत करेगा 3 [ िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के कारािाि िे और`
+  line `ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दंडिीय िोगा ]। स्`
+  line `प ष् टी करण –– इि िारा और िारा 4 के प्र योजिों के सलए बौद्ध, सिि या जैि िमष को मामिे िाले व् य सत या सिन्‍ददू िमष के`
+  line `ककिी भी रू प या सिकाि को माि िे िाले व् य सत, सजिके अंतगषत िीरशैि, ललंगायत, आकदिािी, ब्र ाह्मो िमाज, प्र ाथषिा िमाज, आयष`
+  line `िमाज और स् िा मी िारायण िंप्रदाय के अिुयायी भी िैं, सिन्‍ददू िमझे जाएंगे।`
+  line `4. िामासजक सियोग्य ताएं लागू करिे के सलए द ड –– जो कोई ककिी व् य सत के सिरुद्ध सिम्ि सलसित के िम्ब न्‍द ि में कोई`
+  line `सियोग्य ता “ अस्पृ श् य ता ” के आिार पर लागू करेगा िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के 4 [ कारािाि`
+  line `िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा, ––`
+  line `(i) ककिी दुकाि, लोक उपािार - गृि, िोटल या लोक मिोरंजि - स् था ि में प्र िेश करिा; अथिा`
+  line `(ii) ककिी लोक उपािार - गृि, िोटल, िमषशाला, िराय या मुिाकफरिािे में, जििािारण या 4 [ उिके ककिी सिभाग`
+  line `के ] व् य सत यों के, सजिका िि व् य सत िो, उपयोग के सलए रिे गए ककन्‍दिीं बतष िों और अन्‍दय िस्तु ओं का उपयोग करिा; अथिा`
+  line `(iii) कोई िृसत्त करिा या उपजीसिका, 5 [ या ककिी काम में सियोजि ]; अथिा`
+  line `(iv) ऐिी ककिी िदी, जलिारा, जल स्र ोत, कुएं, तालाब, िौज, पा िी के िल या जल के अन्‍दय स् था ि का या ककिी स्`
+  line `िा ि घाट, कसब्रस्ता ि या श् म शाि, स् ि च् छ ता िम्ब न्‍द िी िुसििा, िडक, या रास्ते या लोक असभगम के अन्‍दय स् था ि का सजिका`
+  line `उपयोग करिे के सलए या सजिमें प्र िेश करिे के जिता के अन्‍दय िदस्य, या 4 [ उिके ककिी सिभाग के ] व् य सत सजिका िि व्`
+  line `य सत िो, असिकारिाि िों, उपयोग करिा या उिमें प्र िेश करिा; अथिा`
+  line `(v) राज्य सिसियों िे पूणषत: या अंशत: पोसर्त पूतष या लोक प्र योजि के सलए उपयोग में लाए जािे िाले या`
+  line `जििािारण के या 4 [ उिके ककिी सिभाग के ] व् य सत यों के, सजिका िि व् य सत िो, उपयोग के सलए िमर्पषत स् था ि का,`
+  line `उपयोग करिा या उिमें प्र िेश करिा; अथिा`
+  line `(vi) जििािारण या 4 [ उिके ककिी सिभाग के ] व् य सत यों के, सजिका िि व् य सत िो, फायदे के सलए िृष्ट ककिी`
+  line `पूतष न्‍द या ि के अिीि ककिी फायदे का उपभोग करिा; अथिा`
+  line `(vii) ककिी िािषजसिक ििारी का उपयोग करिा या उिमें प्र िेश करिा; अथिा`
+  line `(viii) ककिी भी पररक्षेत्र में, ककिी सििाि - पररिर का िसन्‍दि माषण, अजषि या असिभोग करिा; अथिा`
+  line `(ix) ककिी ऐिी िमषशाला, िराय या मुिाकफरिािे का, जो जििािारण या 4 [ उिके ककिी सिभाग के ] व् य सत यों के`
+  line `सलए, सजिका िि व् य सत िो, िुला िो उपयोग ऐिे व् य सत के रू प में करिा; अथिा`
+  line `(x) ककिी िा मासजक या िार्मषक रु क़ि, प्र था या कमष का अिुपालि या 6 [ ककिी िार्मषक, िामासजक या िांस्कृ सतक`
+  line `जलूि में भाग लेिा या ऐिा जु लूि सिकालिा ]; अथिा`
+  line `(xi) आभूर्णों और अलंकारों का उपयोग करिा।`
+  line `1 1976 के असिसियम िं ० 106 की िारा 5 द्व ारा (19 - 11 - 1976 िे ) “ या उिी िार्मषक िंप्रदाय ” शब्दों का लोप ककया गया।`
+  line `2 1976 के असिसियम िं ० 106 की िारा 5 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `3 1976 के असिसियम िं ० 106 की िारा 5 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।`
+  line `4 1976 के असिसियम िं ० 106 की िारा 6 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।`
+  line `5 1976 के असिसियम िं ० 106 की िारा 6 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `6 1976 के असिसियम िं ० 106 की िारा 6 द्व ारा (19 - 11 - 1976 िे ) “ ककिी िार्मषक जलूि में भाग लेिा ” शब्दों के स् था ि पर प्र सतस्था सपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-1 [ स् प ष् टी करण –– इि िारा के प्र योजिों के सलए, “ कोई सियोग्य ता लागू करिा ” के अन्‍दत गषत “ अस्पृ श् य ता ” के आिार पर सिभेद
-करिा िै। ]
-5. अस्प तालों, आकद में व् य सत यों को प्र िेश करिे देिे िे इन्‍दका र करिे के सलए दड –– जो कोई “ अस्पृ श् य ता ” के आिार पर ––
-( क ) ककिी व् य सत को ककिी अस्प ताल, सशक्षा - िंस्था, या 2 ** * ककिी छात्रिाि में, यकद िि अस्प ताल, और्िालय,
-सशक्षा - िंस्था या छात्रा िाि जि - िािारण या उिके ककिी सिभाग के फायदे के सलए स् था सपत िो या चलाया जाता िो, प्र िेश
-करिे देिे िे इन्‍दका र करेगा, अथिा
-( ि ) पू िोत िंस्था ओं में िे ककिी में प्र िेश के पश्चा त् ऐिे व् य सत के सिरुद्ध कोई सिभेदपूणष कायष करेगा,
-3 [ िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के कारािाि िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु
-पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा। ]
-6. माल बेचिे या िे िा करिे िे इन्‍दका र के सलए द ड –– जो कोई उिी िमय और स् था ि पर और िैिे िी सिब न्‍द ि िों और शतों
-पर, सजि पर कारबार के िािारण अिुक्रम में अन्‍दय व् य सत यों को ऐिा माल बेचा जाता िै या उिकी िेिा की जाती िै ककिी व् य सत को
-कोई माल बेचिे या उिकी िेिा करिे िे “ अस्पृ श् य ता ” के आिार पर इन्‍दका र करेगा, 4 [ िि कम िे कम एक माि और असिक िे असिक
-छि माि की अिसि के कारािाि िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु पए और असिक िे असिक पांच िौ रु पए तक का
-िो िकेगा, दड िीय िोगा। ]
-7. “ अस्पृ श् य ता ” उद्भूत अन्‍दय अपरािों के सलए दड –– (1) जो कोई ––
-( क ) ककिी व् य सत को िंसििाि के अिुच्छे द 17 के अिीि “ अस्पृ श् य ता ” के अन्‍दत िोिे िे उिको प्र ोद्भूत िोिे िाले
-ककिी असिकार का प्र योग करिे िे सििाररत करेगा, अथिा
-( ि ) ककिी व् य सत को ककिी ऐिे असिकार के प्र योग िे उत्पी सडत करेगा, क्ष सत पहंचाएगा, क्षुब् ि करेगा, बािा
-डालेगा या बािा काररत करेगा या काररत करिे का प्र यत्ि करेगा या ककिी व् य सत के, कोई ऐिा असिकार प्र योग करिे के
-कारण उिे उत्पी सडत करेगा, क्ष सत पहंचाएगा, क्षुब् ि करेगा या उिका बसिष्का र करेगा, अथिा
-( ग ) ककिी व् य सत या व् य सत - िगष या जििािारण को बोले गए या सलसित शब्दों द्व ारा या िंकेतों द्व ारा या
-दृश्य रू पणों द्व ारा या अन्‍दय था ककिी भी रू प में “ अस्पृ श् य ता ” का आचरण करिे के सलए उद्दीप्त या प्र ोत्िा सित करेगा, 5 [ अ थिा ]
-5 [( घ ) अिुिूसचत जासत के िदस्य का “ अस्पृ श् य ता ” के आिार पर अपमाि करेगा, या अपमाि करिे का प्र यत्ि
-करेगा, ]
-6 [ िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के कारािाि िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु
-पए और असिक िे असिक पांच िौ रु पए त क का िो िकेगा, दड िीय िोगा ]।
-7 [ स् प ष् टी करण 1 ] –– ककिी व् य सत के बारे में यि िमझा जाएगा कक िि अन्‍दय व् य सत का बसिष्का र करता िै, जब िि ––
-( क ) ऐिे अन्‍दय व् य सत को कोई गृि भूसम पट्टे पर देिे िे इन्‍दका र करता िै या ऐिे अन्‍दय व् य सत को ककिी गृि या भूसम
-के उपयोग या असिभोग के सलए अिुज्ञा देिे िे इन्‍दका र करता िै या ऐिे अन्‍दय व् य सत के िाथ व् य ििार करिे िे, उिके सलए
-भाडे पर काम करिे िे, या उिके िाथ कारबार करिे िे या उिको कोई रू क़िगत िेिा करिे िे या उििे कोई रू क़िगत िेिा
-लेिे िे इन्‍दका र करता िै या उ त बातों में िे ककिी को ऐिे सिबन्‍दि िों पर करिे िे इन्‍दका र करता िै, सजि पर ऐिी बातें
-कारबार िे िािारण अिुक्रम िे िामान्‍दय त: की जाती; अथिा
-( ि ) ऐिे िा मासजक, िृसत्तक या कारबारी िम्ब न्‍द िों िे सिरत रिता िै, जैिे िि ऐिे अन्‍दय व् य सत के िाथ
-िािारणतया बिाए रिता।
-5 [ स् प ष् टी करण 2 –– ि ड ( ग ) के प्र योजिों के सलए यकद कोई व् य सत ––
-(i) प्रत् य क्ष त: या अप्रत्य क्ष त: “ अस्पृ श् य ता ” का या ककिी रू प में इिके आचरण का प्र चार करेगा; अथिा
-(ii) ककिी रू प में “ अस्पृ श् य ता ” के आचरण को, चािे ऐसतिासिक, दाशष सिक या िा र् मषक आिारों पर या जासत व्
-य िस्था की ककिी परम्प रा के आिार पर या ककिी अन्‍दय आिार पर न्‍द या योसचत ठिराएगा,
-1 1976 के असिसियम िं ० 106 की िारा 6 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-2 1976 के असिसियम िं ० 106 की िारा 7 द्व ारा (19 - 11 - 1976 िे ) “ उििे िंलग्ि ” शब्दों का लोप ककया गया।
-3 1976 के असिसियम िं ० 106 की िारा 7 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।
-4 1976 के असिसियम िं ० 106 की िारा 8 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।
-5 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-6 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।
-7 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) पुि:िंखयां ककत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `1 [ स् प ष् टी करण –– इि िारा के प्र योजिों के सलए, “ कोई सियोग्य ता लागू करिा ” के अन्‍दत गषत “ अस्पृ श् य ता ” के आिार पर सिभेद`
+  line `करिा िै। ]`
+  line `5. अस्प तालों, आकद में व् य सत यों को प्र िेश करिे देिे िे इन्‍दका र करिे के सलए दड –– जो कोई “ अस्पृ श् य ता ” के आिार पर ––`
+  line `( क ) ककिी व् य सत को ककिी अस्प ताल, सशक्षा - िंस्था, या 2 ** * ककिी छात्रिाि में, यकद िि अस्प ताल, और्िालय,`
+  line `सशक्षा - िंस्था या छात्रा िाि जि - िािारण या उिके ककिी सिभाग के फायदे के सलए स् था सपत िो या चलाया जाता िो, प्र िेश`
+  line `करिे देिे िे इन्‍दका र करेगा, अथिा`
+  line `( ि ) पू िोत िंस्था ओं में िे ककिी में प्र िेश के पश्चा त् ऐिे व् य सत के सिरुद्ध कोई सिभेदपूणष कायष करेगा,`
+  line `3 [ िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के कारािाि िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु`
+  line `पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा। ]`
+  line `6. माल बेचिे या िे िा करिे िे इन्‍दका र के सलए द ड –– जो कोई उिी िमय और स् था ि पर और िैिे िी सिब न्‍द ि िों और शतों`
+  line `पर, सजि पर कारबार के िािारण अिुक्रम में अन्‍दय व् य सत यों को ऐिा माल बेचा जाता िै या उिकी िेिा की जाती िै ककिी व् य सत को`
+  line `कोई माल बेचिे या उिकी िेिा करिे िे “ अस्पृ श् य ता ” के आिार पर इन्‍दका र करेगा, 4 [ िि कम िे कम एक माि और असिक िे असिक`
+  line `छि माि की अिसि के कारािाि िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु पए और असिक िे असिक पांच िौ रु पए तक का`
+  line `िो िकेगा, दड िीय िोगा। ]`
+  line `7. “ अस्पृ श् य ता ” उद्भूत अन्‍दय अपरािों के सलए दड –– (1) जो कोई ––`
+  line `( क ) ककिी व् य सत को िंसििाि के अिुच्छे द 17 के अिीि “ अस्पृ श् य ता ” के अन्‍दत िोिे िे उिको प्र ोद्भूत िोिे िाले`
+  line `ककिी असिकार का प्र योग करिे िे सििाररत करेगा, अथिा`
+  line `( ि ) ककिी व् य सत को ककिी ऐिे असिकार के प्र योग िे उत्पी सडत करेगा, क्ष सत पहंचाएगा, क्षुब् ि करेगा, बािा`
+  line `डालेगा या बािा काररत करेगा या काररत करिे का प्र यत्ि करेगा या ककिी व् य सत के, कोई ऐिा असिकार प्र योग करिे के`
+  line `कारण उिे उत्पी सडत करेगा, क्ष सत पहंचाएगा, क्षुब् ि करेगा या उिका बसिष्का र करेगा, अथिा`
+  line `( ग ) ककिी व् य सत या व् य सत - िगष या जििािारण को बोले गए या सलसित शब्दों द्व ारा या िंकेतों द्व ारा या`
+  line `दृश्य रू पणों द्व ारा या अन्‍दय था ककिी भी रू प में “ अस्पृ श् य ता ” का आचरण करिे के सलए उद्दीप्त या प्र ोत्िा सित करेगा, 5 [ अ थिा ]`
+  line `5 [( घ ) अिुिूसचत जासत के िदस्य का “ अस्पृ श् य ता ” के आिार पर अपमाि करेगा, या अपमाि करिे का प्र यत्ि`
+  line `करेगा, ]`
+  line `6 [ िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के कारािाि िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु`
+  line `पए और असिक िे असिक पांच िौ रु पए त क का िो िकेगा, दड िीय िोगा ]।`
+  line `7 [ स् प ष् टी करण 1 ] –– ककिी व् य सत के बारे में यि िमझा जाएगा कक िि अन्‍दय व् य सत का बसिष्का र करता िै, जब िि ––`
+  line `( क ) ऐिे अन्‍दय व् य सत को कोई गृि भूसम पट्टे पर देिे िे इन्‍दका र करता िै या ऐिे अन्‍दय व् य सत को ककिी गृि या भूसम`
+  line `के उपयोग या असिभोग के सलए अिुज्ञा देिे िे इन्‍दका र करता िै या ऐिे अन्‍दय व् य सत के िाथ व् य ििार करिे िे, उिके सलए`
+  line `भाडे पर काम करिे िे, या उिके िाथ कारबार करिे िे या उिको कोई रू क़िगत िेिा करिे िे या उििे कोई रू क़िगत िेिा`
+  line `लेिे िे इन्‍दका र करता िै या उ त बातों में िे ककिी को ऐिे सिबन्‍दि िों पर करिे िे इन्‍दका र करता िै, सजि पर ऐिी बातें`
+  line `कारबार िे िािारण अिुक्रम िे िामान्‍दय त: की जाती; अथिा`
+  line `( ि ) ऐिे िा मासजक, िृसत्तक या कारबारी िम्ब न्‍द िों िे सिरत रिता िै, जैिे िि ऐिे अन्‍दय व् य सत के िाथ`
+  line `िािारणतया बिाए रिता।`
+  line `5 [ स् प ष् टी करण 2 –– ि ड ( ग ) के प्र योजिों के सलए यकद कोई व् य सत ––`
+  line `(i) प्रत् य क्ष त: या अप्रत्य क्ष त: “ अस्पृ श् य ता ” का या ककिी रू प में इिके आचरण का प्र चार करेगा; अथिा`
+  line `(ii) ककिी रू प में “ अस्पृ श् य ता ” के आचरण को, चािे ऐसतिासिक, दाशष सिक या िा र् मषक आिारों पर या जासत व्`
+  line `य िस्था की ककिी परम्प रा के आिार पर या ककिी अन्‍दय आिार पर न्‍द या योसचत ठिराएगा,`
+  line `1 1976 के असिसियम िं ० 106 की िारा 6 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `2 1976 के असिसियम िं ० 106 की िारा 7 द्व ारा (19 - 11 - 1976 िे ) “ उििे िंलग्ि ” शब्दों का लोप ककया गया।`
+  line `3 1976 के असिसियम िं ० 106 की िारा 7 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।`
+  line `4 1976 के असिसियम िं ० 106 की िारा 8 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।`
+  line `5 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `6 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।`
+  line `7 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) पुि:िंखयां ककत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-तो उिके बारे में यि िमझा जाएगा कक िि “ अस्पृ श् य ता ” के आचरण को उद्दीप्त या प्र ोत्िा सित करता िै। ]
-1 [(1 क ) जो कोई कक िी व् य सत के शरीर या उिकी िम्प सत्त के सिरुद्ध कोई अपराि उिके द्व ारा ककिी ऐिे असिकार के, जो
-िंसििाि के अिुच्छे द 17 के अिीि “ अस्पृ श् य ता ” का अन्‍दत करिे के कारण उिे प्र ोद्भूत ह आ िै, प्र योग ककए जािे के प्र सतशो ि के रू प में
-या बदला लेिे की भाििा िे करेगा, िि, जिां अपराि दो िर्ष िे असिक की अिसि के कारािाि िे दड िीय िै, ििां, कम िे कम दो िर्ष
-की अिसि के कारािाि िे और जुमाषिे िे भी, दड िीय िोगा। ]
-(2) जो कोई इि आिार पर कक ऐिे व् य सत िे “ अस्पृ श् य ता ” का आचारण करिे िे इन्‍दका र ककया िै या ऐिे व् य सत िे इि
-असिसियम के उद्देश्यों को अग्रिर करिे में कोई कायष ककया िै, ––
-(i) अपिे िमुदाय के या उिके ककिी सिभाग के ककिी व् य सत को ककिी ऐिे असिकार या सिशोर्ासिकार िे िंसचत
-करेगा सजिके सलए ऐिा व् य सत ऐिे िमुदाय या सिभाग के िदस्य के तौर पर िकदार िो, अथिा
-(ii) ऐिे व् य सत को जासतच्यु त करिे में कोई भाग लेगा,
-2 [ िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के कारािाि िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु
-पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा ]।
-3 [ 7 क. सिसिसिरुद्ध असििायष श्र म कब “ अस्पृ श् य ता ” का आ चरण िमझा जाएगा –– (1) जो कोई ककिी व् य सत को िफाई करिे
-या बुिारिे या कोई पशु शि िटािे या ककिी पशु की िाल िींचिे या िाल काटिे या इिी प्र कार का कोई अन्‍दय काम करिे के सलए
-“ अस्पृ श् य ता ” के आिार पर मजबूर करेगा, तो उिके बारे में यि िमझा जाएगा कक उििे “ अस्पृ श् य ता ” िे उद्भूत सियोग्य ता को लागू
-ककया िै।
-(2) सजि ककिी के बारे में उपिारा (1) के अिीि यि िमझा जाता िै कक उििे “ अस्पृ श् य ता ” िे उद्भूत सियोग्य ता को लागू
-ककया िै, िि कम िे कम तीि माि और असिक िे असिक छि माि की अिसि के कारािाि िे और जुमाषिे िे भी, जो कक कम िे कम एक
-िौ रु पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा। स्
-प ष् टी करण –– इि िारा के प्र योजिों के सलए “ मजबूर करिे ” के अन्‍दत गषत िामासजक या आर्थषक बसिष्का र करिे की िमकी
-भी िै। ]
-8. कुछ दशाओं में अिुज्ञसप् त यों का रद्द या सिलसम्ब त ककया जािा –– जबकक िि व् य सत, जो िारा 6 के अिीि ककिी अपराि
-का दोर्सिद्ध िो, ककिी ऐिी िृसत्त, व् या पार, आजीसिका या सियोजि के बारे में सजिके िम्ब न्‍द ि में अपराि ककया गया िो, कोई अिुज्ञसप्त
-ककिी तत्ि मय प्र िृत्त सिसि के अिीि रिता िो, तब उि अपराि का सिचारण करिे िाला न्‍द या यालय ककिी अन्‍दय ऐिी शासस्त पर,
-सजििे िि व् य सत उि िारा के अिीि दड िीय िो, प्र सतकूल प्र भाि डाले सबिा, सिदे श दे िकेगा कक िि अिुज्ञसप्त रद्द िोगी या ऐिी
-कालािसि के सलए, सजतिी न्‍द या यालय ठीक िमझे, सिलसम्ब त रिेगी, और अिुज्ञ सप्त को इि प्र कार रद्द या सिलसम्ब त करिे िाले न्‍द
-या यालय का प्रत् ये क आदेश ऐिे प्र भािी िोगा, मािो िि आदेश उि प्र ासिकारी द्व ारा कदया गया िो; जो ककिी ऐिी सिसि के अिीि
-अिुज्ञसप्त को रद्द या सिलसम्ब त करिे के सलए िक्षम था। स्
-प ष् टी करण –– इि िारा में “ अिुज्ञसप्त ” के अन्‍दत गषत अिुज्ञापत्र या अिुज्ञा भी िै।
-9. िरकार द्व ारा ककए गए अिुदािों का पुिग्रष िण या सिलम्ब ि –– जिां कक ककिी ऐिे लोक पूजा - स् था ि 4 [ या ककिी सशक्षा
-िंस्था ि या छात्रािाि ] का प्र बन्‍दि क या न्‍द या िी सजिे िरकार िे भूसम या िि का अिुदाि प्र ाप्त िो, इि असिसियम के अिीि ककिी
-अपराि के सलए दोर्सिद्ध हआ िो और ऐिी दोर्सिसद्ध ककिी अपील या पुिरीक्षण में उलटी या असभिसड त ि की गई िो ििां, यकद
-िरकार की राय में उि मामले की पररसस्थ सतयों में ऐिा करिे के सलए, िमुसचत आिार िों तो िि ऐिे िारे अिुदाि या उिके ककिी
-भाग के सिलम्ब ि या पुिग्रषिण के सलए सिदेश दे िकेगी।
-10. अपराि का दुष् प्रे रण –– जो कोई इि असिसियम के अिीि ककिी अपराि का दुष् प्रे रण करेगा, िि उि अपराि के सलए
-उपबसन्‍दि त दड िे दड िीय िोगा।
-5 [ स् प ष् टी करण –– लोक िेिक के बारे में, जो इि असिसियम के अिीि दड िीय ककिी अपराि के अन्‍दिे र् ण में जािबूझकर
-उपेक्षा करता िै, यि िमझा जाएगा कक उििे इि असिसियम के अिीि दड िीय अपराि का दुष् प्रे रण ककया िै। ]
-6 [ 10 क. िामूसिक जुमाषिा असिरोसपत करिे की राज्य िरकार की शसत –– (1) यकद सिसित रीसत में जांच करिे के पश्चा त्,
-रा ज् य िरकार का यि िमािाि िो जाता िै कक ककिी क्षेत्र के सििािी इि असिसियम के अिीि दड िीय ककिी अपराि के कक ए जािे िे
-िम्ब सन्‍दि त िैं, या उिका दुष् प्रे रण कर रिे िैं, या ऐिे अपराि के ककए जािे िे िम्ब सन्‍दि त व् य सत यों को िंश्रय दे रिे िैं, या अपरािी या
-1 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-2 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।
-3 1976 के असिसियम िं ० 106 की िारा 10 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-4 1976 के असिसियम िं ० 106 की िारा 11 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-5 1976 के असिसियम िं ० 106 की िारा 12 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-6 1976 के असिसियम िं ० 106 की िारा 13 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `तो उिके बारे में यि िमझा जाएगा कक िि “ अस्पृ श् य ता ” के आचरण को उद्दीप्त या प्र ोत्िा सित करता िै। ]`
+  line `1 [(1 क ) जो कोई कक िी व् य सत के शरीर या उिकी िम्प सत्त के सिरुद्ध कोई अपराि उिके द्व ारा ककिी ऐिे असिकार के, जो`
+  line `िंसििाि के अिुच्छे द 17 के अिीि “ अस्पृ श् य ता ” का अन्‍दत करिे के कारण उिे प्र ोद्भूत ह आ िै, प्र योग ककए जािे के प्र सतशो ि के रू प में`
+  line `या बदला लेिे की भाििा िे करेगा, िि, जिां अपराि दो िर्ष िे असिक की अिसि के कारािाि िे दड िीय िै, ििां, कम िे कम दो िर्ष`
+  line `की अिसि के कारािाि िे और जुमाषिे िे भी, दड िीय िोगा। ]`
+  line `(2) जो कोई इि आिार पर कक ऐिे व् य सत िे “ अस्पृ श् य ता ” का आचारण करिे िे इन्‍दका र ककया िै या ऐिे व् य सत िे इि`
+  line `असिसियम के उद्देश्यों को अग्रिर करिे में कोई कायष ककया िै, ––`
+  line `(i) अपिे िमुदाय के या उिके ककिी सिभाग के ककिी व् य सत को ककिी ऐिे असिकार या सिशोर्ासिकार िे िंसचत`
+  line `करेगा सजिके सलए ऐिा व् य सत ऐिे िमुदाय या सिभाग के िदस्य के तौर पर िकदार िो, अथिा`
+  line `(ii) ऐिे व् य सत को जासतच्यु त करिे में कोई भाग लेगा,`
+  line `2 [ िि कम िे कम एक माि और असिक िे असिक छि माि की अिसि के कारािाि िे और ऐिे जुमाषिे िे भी, जो कम िे कम एक िौ रु`
+  line `पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा ]।`
+  line `3 [ 7 क. सिसिसिरुद्ध असििायष श्र म कब “ अस्पृ श् य ता ” का आ चरण िमझा जाएगा –– (1) जो कोई ककिी व् य सत को िफाई करिे`
+  line `या बुिारिे या कोई पशु शि िटािे या ककिी पशु की िाल िींचिे या िाल काटिे या इिी प्र कार का कोई अन्‍दय काम करिे के सलए`
+  line `“ अस्पृ श् य ता ” के आिार पर मजबूर करेगा, तो उिके बारे में यि िमझा जाएगा कक उििे “ अस्पृ श् य ता ” िे उद्भूत सियोग्य ता को लागू`
+  line `ककया िै।`
+  line `(2) सजि ककिी के बारे में उपिारा (1) के अिीि यि िमझा जाता िै कक उििे “ अस्पृ श् य ता ” िे उद्भूत सियोग्य ता को लागू`
+  line `ककया िै, िि कम िे कम तीि माि और असिक िे असिक छि माि की अिसि के कारािाि िे और जुमाषिे िे भी, जो कक कम िे कम एक`
+  line `िौ रु पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा। स्`
+  line `प ष् टी करण –– इि िारा के प्र योजिों के सलए “ मजबूर करिे ” के अन्‍दत गषत िामासजक या आर्थषक बसिष्का र करिे की िमकी`
+  line `भी िै। ]`
+  line `8. कुछ दशाओं में अिुज्ञसप् त यों का रद्द या सिलसम्ब त ककया जािा –– जबकक िि व् य सत, जो िारा 6 के अिीि ककिी अपराि`
+  line `का दोर्सिद्ध िो, ककिी ऐिी िृसत्त, व् या पार, आजीसिका या सियोजि के बारे में सजिके िम्ब न्‍द ि में अपराि ककया गया िो, कोई अिुज्ञसप्त`
+  line `ककिी तत्ि मय प्र िृत्त सिसि के अिीि रिता िो, तब उि अपराि का सिचारण करिे िाला न्‍द या यालय ककिी अन्‍दय ऐिी शासस्त पर,`
+  line `सजििे िि व् य सत उि िारा के अिीि दड िीय िो, प्र सतकूल प्र भाि डाले सबिा, सिदे श दे िकेगा कक िि अिुज्ञसप्त रद्द िोगी या ऐिी`
+  line `कालािसि के सलए, सजतिी न्‍द या यालय ठीक िमझे, सिलसम्ब त रिेगी, और अिुज्ञ सप्त को इि प्र कार रद्द या सिलसम्ब त करिे िाले न्‍द`
+  line `या यालय का प्रत् ये क आदेश ऐिे प्र भािी िोगा, मािो िि आदेश उि प्र ासिकारी द्व ारा कदया गया िो; जो ककिी ऐिी सिसि के अिीि`
+  line `अिुज्ञसप्त को रद्द या सिलसम्ब त करिे के सलए िक्षम था। स्`
+  line `प ष् टी करण –– इि िारा में “ अिुज्ञसप्त ” के अन्‍दत गषत अिुज्ञापत्र या अिुज्ञा भी िै।`
+  line `9. िरकार द्व ारा ककए गए अिुदािों का पुिग्रष िण या सिलम्ब ि –– जिां कक ककिी ऐिे लोक पूजा - स् था ि 4 [ या ककिी सशक्षा`
+  line `िंस्था ि या छात्रािाि ] का प्र बन्‍दि क या न्‍द या िी सजिे िरकार िे भूसम या िि का अिुदाि प्र ाप्त िो, इि असिसियम के अिीि ककिी`
+  line `अपराि के सलए दोर्सिद्ध हआ िो और ऐिी दोर्सिसद्ध ककिी अपील या पुिरीक्षण में उलटी या असभिसड त ि की गई िो ििां, यकद`
+  line `िरकार की राय में उि मामले की पररसस्थ सतयों में ऐिा करिे के सलए, िमुसचत आिार िों तो िि ऐिे िारे अिुदाि या उिके ककिी`
+  line `भाग के सिलम्ब ि या पुिग्रषिण के सलए सिदेश दे िकेगी।`
+  line `10. अपराि का दुष् प्रे रण –– जो कोई इि असिसियम के अिीि ककिी अपराि का दुष् प्रे रण करेगा, िि उि अपराि के सलए`
+  line `उपबसन्‍दि त दड िे दड िीय िोगा।`
+  line `5 [ स् प ष् टी करण –– लोक िेिक के बारे में, जो इि असिसियम के अिीि दड िीय ककिी अपराि के अन्‍दिे र् ण में जािबूझकर`
+  line `उपेक्षा करता िै, यि िमझा जाएगा कक उििे इि असिसियम के अिीि दड िीय अपराि का दुष् प्रे रण ककया िै। ]`
+  line `6 [ 10 क. िामूसिक जुमाषिा असिरोसपत करिे की राज्य िरकार की शसत –– (1) यकद सिसित रीसत में जांच करिे के पश्चा त्,`
+  line `रा ज् य िरकार का यि िमािाि िो जाता िै कक ककिी क्षेत्र के सििािी इि असिसियम के अिीि दड िीय ककिी अपराि के कक ए जािे िे`
+  line `िम्ब सन्‍दि त िैं, या उिका दुष् प्रे रण कर रिे िैं, या ऐिे अपराि के ककए जािे िे िम्ब सन्‍दि त व् य सत यों को िंश्रय दे रिे िैं, या अपरािी या`
+  line `1 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `2 1976 के असिसियम िं ० 106 की िारा 9 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।`
+  line `3 1976 के असिसियम िं ० 106 की िारा 10 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `4 1976 के असिसियम िं ० 106 की िारा 11 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `5 1976 के असिसियम िं ० 106 की िारा 12 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `6 1976 के असिसियम िं ० 106 की िारा 13 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-अपरा सियों का पता लगािे या पकडिािे में अपिी शसत के अिुिार िभी प्र कार की ििायता ििीं दे रिे िैं, या ऐिे अपराि के ककए
-जािे के मित्ि पूणष िाक्षय को दबा रिे िैं, तो राज्य िरकार, राजपत्र में असििूचिा द्व ारा, ऐिे सििासियों पर िामूसिक जुमाषिा
-असिरोसपत कर िकेगी और जुमाषिे का ऐिे सििासियों के बीच प्र भाजि कर िकेगी जो िामूसिक रू प िे ऐिा जुमाषिा देिे के सलए दायी
-िैं और यि कायष राज्य िरकार ििां के सििासियों की व् य सत गत क्ष मता के िम्ब न्‍द ध ाा में अपिे सिणषय के अिुिार करेगी और ऐिा प्र
-भाजि करािे में राज्य िरका र यि भी तय कर िकेगी कक एक सिन्‍ददू असिभत कुटुम्ब ऐिे जुमाषिे के ककतिे भाग का िंदाय करेगा:
-परन्‍द तु ककिी सििािी के बारे में प्र भासजत जुमाषिा तब तक ििूल ििीं ककया जाएगा, जब तक कक उिके द्व ारा उपिारा (3) के
-अिीि फाइल की गई अजी का सिपटारा ििीं कर कदया जाता।
-(2) उपिारा (1) के अिीि असििूचिा की उ द् घो र् णा ऐिे क्षेत्र में ढोल पीट कर या ऐिी अन्‍दय रीसत िे की जाएगी, सजिे राज्य
-िरकार उत क्षेत्र के सििासियों को िामूसिक जुमाषिे का असिरोपण िूसचत करिे के सलए उि पररसस्थ सतयों में ििोत्तम िमझे।
-(3) ( क ) उपिा रा (1) के अिीि िामूसिक जुमाषिे के असिरोपण िे या प्र भाजि के आदेश िे व् य सथत कोई व् य सत सिसित
-कालािसि के अन्‍दद र राज्य िरकार के िमक्ष या ऐिे अन्‍दय प्र ासिकारी के िमक्ष सजिे िि िरकार इि सिसमत्त सिसिर्दषष्ट करे, ऐिे जुमाषिे
-िे छूट पािे के सलए या प्र भाजि के आदेश में पररितषि के सलए अजी फाइल कर िकेगा:
-परन्‍द तु ए ाे िी अजी फाइल करिे के सलए कोई फीि प्र भाररत ििीं की जाएगी।
-( ि ) राज्य िरकार या उिके द्व ारा सिसिर्दषष्ट प्र ासिकारी अजीदार को िुििाई के सलए युसत युत अििर प्र दाि करिे के
-पश्चा त् ऐिा आदेश पाररत करेगा, जो िि ठीक िमझे:
-परन्‍द तु इि िारा के अिीि छू ट दी गई या कम की गई जुमाषिे की रकम ककिी व् य सत िे ििूलीय ििीं िो गी और ककिी क्षेत्र के
-सििासियों पर उपिारा (1) के अिीि असिरोसपत कुल जुमाषिा उि सिस्ता र तक कम ककया गया िमझा जाएगा।
-(4) उपिारा (3) में ककिी बात के िोते हए भी राज्य िरकार, इि असिसियम के अिीि दड िीय ककिी अपराि के सशकार व्
-य सत यों को या ककिी ऐिे व् य सत को, जो उिकी राय में उपिारा (1) में सिसिर्दषष्ट व् य सत यों के िगष में ििीं आता िै, उपिारा (1) के
-अिीि असिरोसपत िामूसिक जुमाषिे िे या उिके ककिी प्र भा ग का िंदाय करिे के दासयत्ि िे छूट दे िकेगी।
-(5) ककिी व् य सत द्व ारा ( सजिके अन्‍दत गषत सिन्‍ददू असिभत कुटुम्ब िै ) िंदेय िामूसिक जुमाषिे का प्र भाग, न्‍द या यालय द्व ारा
-असिरोसपत जुमाषिे की ििूली के सलए दड प्र कक्रया िंसिता, 1973 (1974 का 2) द्व ारा उपबसन्‍दि त रीसत में ऐिे ििूल ककया जा िकेगा
-मािो ऐिा प्र भाग, मसजस्रे ट द्व ारा असिरोसपत जुमाषिा िो। ]
-11. पश्चा त् िती दोर्सिसद्ध पर िर्िषत शासस्त –– जो कोई इि असिसियम के अिीि ककिी अपराि का या ऐिे अपराि के
-दुष् प्रे रण का पिले दोर्सिद्ध िो चुकिे पर ककिी ऐिे अपराि या दुष् प्रे रण का पुि: दोर्सिद्ध िोगा, 1 [ िि दोर्सिसद्ध पर ––
-( क ) सद्वतीय अपराि के सलए कम िे कम छि माि और असिक िे असिक एक िर्ष की अिसि के कारािाि िे और
-जुमाषिे िे भी, जो कम िे कम दो िौ रु पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा;
-( ि ) तृतीय अपराि के सलए या तृतीय अपराि के पश्चा त् िती ककिी अपराि के सलए कम िे कम एक िर्ष और
-असि क िे असिक दो िर्ष की अिसि के का रािाि िे और जुमाषिे िे भी, जो कम िे कम पांच िौ रु पए और असिक िे असिक
-एक िजार रु पए तक का िो िकेगा, दड िीय िोगा। ]
-12. कुछ मामलों में न्‍द या यालयों द्व ारा उपिारणा –– जिां कक इि असिसियम के अिीि अपराि गरठत करिे िाला कोई कायष
-2 ** * अिुिूसचत जासत के ि दस्य के िम्ब न्‍द ि में ककया जाए ििां, जब तक कक प्र सतकूल िासबत ि ककया जाए, न्‍द या यालय यि उपिारणा
-करेगा कक िि कायष “ अस्पृ श् य ता ” के आिार पर ककया गया िै।
-13. सिसिल न्‍द या यालयों की असिकाररता की पररिीमा –– (1) यकद सिसिल न्‍द या यालय के िमक्ष के ककिी िाद या कायषिािी में
-अन्‍दत ग्र षस् त दािा या ककिी सडक्री या आदेश का कदया जािा या ककिी सडक्री या आदेश का पूणषत: या भागत: सिष्पा दि इि असिसियम के
-उपबन्‍दिों के ककिी प्र कार प्र सतकूल िो तो ऐिा न्‍द या यालय ि ऐिा कोई िाद या कायषिािी ग्र िण करेगा या चालू रिेगा और ि ऐिी कोई
-सडक्री या आदेश देगा या ऐिी सडक्री या आदेश का पूणषत: या भागत: सिष्पा दि करेगा।
-(2) कोई न्‍द या यालय ककिी बात के न्‍द या य सिणषयि में या ककिी सडक्री या आदेश के सिष्पा दि में, ककिी व् य सत पर “ अस्पृ श् य ता ”
-के आिार पर कोई सियोग्य ता असिरोसपत करिे िाली ककिी रू क़ि या प्र था को मान्‍दय ता ििीं देगा।
-14. कम्प सियों द्व ारा अपराि –– (1) यकद इि असिसियम के अिीि अपराि करिे िाला व् य सत कम्प िी िो तो िर ऐिा व् य सत,
-जो अपराि ककए जािे के िमय उि कम्प िी के कारबार के िंचालि के सलए उि कम्प िी का भारिािक और उि कम्प िी के प्र सत
-उत्त र दायी था, उि अपराि का दोर्ी िमझा जाएगा और त द िुिार अपिे सिरुद्ध कायषिािी ककए जािे और दसड त ककए जािे का भागी
-िोगा:
-1 1976 के असिसियम िं ० 106 की िारा 14 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।
-2 1976 के असिसियम िं ० 106 की िारा 15 द्व ारा (19 - 11 - 1976 िे ) “ िंसििाि के अिुच्छे द 366 के िड (24) में यथापररभासर्त ” शब्दों का लोप ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `अपरा सियों का पता लगािे या पकडिािे में अपिी शसत के अिुिार िभी प्र कार की ििायता ििीं दे रिे िैं, या ऐिे अपराि के ककए`
+  line `जािे के मित्ि पूणष िाक्षय को दबा रिे िैं, तो राज्य िरकार, राजपत्र में असििूचिा द्व ारा, ऐिे सििासियों पर िामूसिक जुमाषिा`
+  line `असिरोसपत कर िकेगी और जुमाषिे का ऐिे सििासियों के बीच प्र भाजि कर िकेगी जो िामूसिक रू प िे ऐिा जुमाषिा देिे के सलए दायी`
+  line `िैं और यि कायष राज्य िरकार ििां के सििासियों की व् य सत गत क्ष मता के िम्ब न्‍द ध ाा में अपिे सिणषय के अिुिार करेगी और ऐिा प्र`
+  line `भाजि करािे में राज्य िरका र यि भी तय कर िकेगी कक एक सिन्‍ददू असिभत कुटुम्ब ऐिे जुमाषिे के ककतिे भाग का िंदाय करेगा:`
+  line `परन्‍द तु ककिी सििािी के बारे में प्र भासजत जुमाषिा तब तक ििूल ििीं ककया जाएगा, जब तक कक उिके द्व ारा उपिारा (3) के`
+  line `अिीि फाइल की गई अजी का सिपटारा ििीं कर कदया जाता।`
+  line `(2) उपिारा (1) के अिीि असििूचिा की उ द् घो र् णा ऐिे क्षेत्र में ढोल पीट कर या ऐिी अन्‍दय रीसत िे की जाएगी, सजिे राज्य`
+  line `िरकार उत क्षेत्र के सििासियों को िामूसिक जुमाषिे का असिरोपण िूसचत करिे के सलए उि पररसस्थ सतयों में ििोत्तम िमझे।`
+  line `(3) ( क ) उपिा रा (1) के अिीि िामूसिक जुमाषिे के असिरोपण िे या प्र भाजि के आदेश िे व् य सथत कोई व् य सत सिसित`
+  line `कालािसि के अन्‍दद र राज्य िरकार के िमक्ष या ऐिे अन्‍दय प्र ासिकारी के िमक्ष सजिे िि िरकार इि सिसमत्त सिसिर्दषष्ट करे, ऐिे जुमाषिे`
+  line `िे छूट पािे के सलए या प्र भाजि के आदेश में पररितषि के सलए अजी फाइल कर िकेगा:`
+  line `परन्‍द तु ए ाे िी अजी फाइल करिे के सलए कोई फीि प्र भाररत ििीं की जाएगी।`
+  line `( ि ) राज्य िरकार या उिके द्व ारा सिसिर्दषष्ट प्र ासिकारी अजीदार को िुििाई के सलए युसत युत अििर प्र दाि करिे के`
+  line `पश्चा त् ऐिा आदेश पाररत करेगा, जो िि ठीक िमझे:`
+  line `परन्‍द तु इि िारा के अिीि छू ट दी गई या कम की गई जुमाषिे की रकम ककिी व् य सत िे ििूलीय ििीं िो गी और ककिी क्षेत्र के`
+  line `सििासियों पर उपिारा (1) के अिीि असिरोसपत कुल जुमाषिा उि सिस्ता र तक कम ककया गया िमझा जाएगा।`
+  line `(4) उपिारा (3) में ककिी बात के िोते हए भी राज्य िरकार, इि असिसियम के अिीि दड िीय ककिी अपराि के सशकार व्`
+  line `य सत यों को या ककिी ऐिे व् य सत को, जो उिकी राय में उपिारा (1) में सिसिर्दषष्ट व् य सत यों के िगष में ििीं आता िै, उपिारा (1) के`
+  line `अिीि असिरोसपत िामूसिक जुमाषिे िे या उिके ककिी प्र भा ग का िंदाय करिे के दासयत्ि िे छूट दे िकेगी।`
+  line `(5) ककिी व् य सत द्व ारा ( सजिके अन्‍दत गषत सिन्‍ददू असिभत कुटुम्ब िै ) िंदेय िामूसिक जुमाषिे का प्र भाग, न्‍द या यालय द्व ारा`
+  line `असिरोसपत जुमाषिे की ििूली के सलए दड प्र कक्रया िंसिता, 1973 (1974 का 2) द्व ारा उपबसन्‍दि त रीसत में ऐिे ििूल ककया जा िकेगा`
+  line `मािो ऐिा प्र भाग, मसजस्रे ट द्व ारा असिरोसपत जुमाषिा िो। ]`
+  line `11. पश्चा त् िती दोर्सिसद्ध पर िर्िषत शासस्त –– जो कोई इि असिसियम के अिीि ककिी अपराि का या ऐिे अपराि के`
+  line `दुष् प्रे रण का पिले दोर्सिद्ध िो चुकिे पर ककिी ऐिे अपराि या दुष् प्रे रण का पुि: दोर्सिद्ध िोगा, 1 [ िि दोर्सिसद्ध पर ––`
+  line `( क ) सद्वतीय अपराि के सलए कम िे कम छि माि और असिक िे असिक एक िर्ष की अिसि के कारािाि िे और`
+  line `जुमाषिे िे भी, जो कम िे कम दो िौ रु पए और असिक िे असिक पांच िौ रु पए तक का िो िकेगा, दड िीय िोगा;`
+  line `( ि ) तृतीय अपराि के सलए या तृतीय अपराि के पश्चा त् िती ककिी अपराि के सलए कम िे कम एक िर्ष और`
+  line `असि क िे असिक दो िर्ष की अिसि के का रािाि िे और जुमाषिे िे भी, जो कम िे कम पांच िौ रु पए और असिक िे असिक`
+  line `एक िजार रु पए तक का िो िकेगा, दड िीय िोगा। ]`
+  line `12. कुछ मामलों में न्‍द या यालयों द्व ारा उपिारणा –– जिां कक इि असिसियम के अिीि अपराि गरठत करिे िाला कोई कायष`
+  line `2 ** * अिुिूसचत जासत के ि दस्य के िम्ब न्‍द ि में ककया जाए ििां, जब तक कक प्र सतकूल िासबत ि ककया जाए, न्‍द या यालय यि उपिारणा`
+  line `करेगा कक िि कायष “ अस्पृ श् य ता ” के आिार पर ककया गया िै।`
+  line `13. सिसिल न्‍द या यालयों की असिकाररता की पररिीमा –– (1) यकद सिसिल न्‍द या यालय के िमक्ष के ककिी िाद या कायषिािी में`
+  line `अन्‍दत ग्र षस् त दािा या ककिी सडक्री या आदेश का कदया जािा या ककिी सडक्री या आदेश का पूणषत: या भागत: सिष्पा दि इि असिसियम के`
+  line `उपबन्‍दिों के ककिी प्र कार प्र सतकूल िो तो ऐिा न्‍द या यालय ि ऐिा कोई िाद या कायषिािी ग्र िण करेगा या चालू रिेगा और ि ऐिी कोई`
+  line `सडक्री या आदेश देगा या ऐिी सडक्री या आदेश का पूणषत: या भागत: सिष्पा दि करेगा।`
+  line `(2) कोई न्‍द या यालय ककिी बात के न्‍द या य सिणषयि में या ककिी सडक्री या आदेश के सिष्पा दि में, ककिी व् य सत पर “ अस्पृ श् य ता ”`
+  line `के आिार पर कोई सियोग्य ता असिरोसपत करिे िाली ककिी रू क़ि या प्र था को मान्‍दय ता ििीं देगा।`
+  line `14. कम्प सियों द्व ारा अपराि –– (1) यकद इि असिसियम के अिीि अपराि करिे िाला व् य सत कम्प िी िो तो िर ऐिा व् य सत,`
+  line `जो अपराि ककए जािे के िमय उि कम्प िी के कारबार के िंचालि के सलए उि कम्प िी का भारिािक और उि कम्प िी के प्र सत`
+  line `उत्त र दायी था, उि अपराि का दोर्ी िमझा जाएगा और त द िुिार अपिे सिरुद्ध कायषिािी ककए जािे और दसड त ककए जािे का भागी`
+  line `िोगा:`
+  line `1 1976 के असिसियम िं ० 106 की िारा 14 द्व ारा (19 - 11 - 1976 िे ) कसतपय शब्दों के स् था ि पर प्र सतस्था सपत।`
+  line `2 1976 के असिसियम िं ० 106 की िारा 15 द्व ारा (19 - 11 - 1976 िे ) “ िंसििाि के अिुच्छे द 366 के िड (24) में यथापररभासर्त ” शब्दों का लोप ककया गया।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-परन्‍द तु इि िारा में अन्‍दत र् िषष्ट ककिी भी बात िे कोई ऐिा व् य सत दड का भागी ि िोगा, यकद िि यि िा सबत कर दे कक
-अपराि उिकी जािकारी के सबिा ककया गया था या ऐिे अपराि का ककया जािा सििाररत करिे के सलए उििे िब िम्य क् तत्प रता
-बरती थी।
-(2) उपिारा (1) में अन्‍दत सि ष् ट ककिी बात के िोते हए भी, जिां इि असिसियम के अिीि कोई अपराि कम्प िी के ककिी
-सिदेशक या प्र बंि क, िसच ि या अन्‍दय असिकारी की िम्म सत्त िे ककया गया िो, ििां ऐिा सिदेशक, प्र बन्‍दि क, िसचि या अन्‍दय असिकारी
-भी उि अपराि का दोर्ी िमझा जाएगा, और तदिुिार अपिे सिरुद्ध कायषिािी ककए जािे और दसड त ककए जािे का भागी िोगा। स्
-प ष् टी करण –– इि िारा के प्र योजिों के सलए ––
-( क ) “ कम्प िी ” िे कोई सिगसमत सिकाय असभप्रेत िै, और इिके अन्‍दत गषत फमष या व् य सष्ट यों का अन्‍दय िंगम
-भी िै; तथा
-( ि ) फमष के िम्ब न्‍द ि में “ सिदेशक ” िे फमष का भागीदार असभप्रेत िै।
-1 [ 14 क. ि द् भा िपूिषक की गई कारषिाई के सलए िंरक्ष ण –– (1) कोई भी िाद, असभयोजि या अन्‍दय सिसिक कायषिािी ककिी भी
-ऐिी बात के बारे में, जो इि असिसियम के असिि ि द् भा िपूिषक की गई िो या की जािे के सलए आशसयत िो, केन्‍दरी य िरकार या राज्य
-िरकार के सिरुद्ध ि िोगी।
-(2) कोई भी िाद या अन्‍दय सिसिक कायषिािी ककिी भी ऐिे िुकिाि के बारे में, जो इि असिसियम के अिीि ि द् भा िपूिषक की
-गई या की जािे के सलए आशसयत ककिी बात के कारण हआ िो, केन्‍दरी य िरकार या राज्य िरकार के सिरुद्ध ि िोगी। ]
-2 [ 15. अपराि िंज्ञेय और िंक्षेपत: सिचारणीय िोंगे –– (1) दड प्र कक्रया िंसिता, 1973 ( 1974 का 2) में ककिी बात के िोते हए
-भी इि असिसियम के अिीि दड िीय िर अपराि िंज्ञेय िोगा और ऐिे िर अपराि पर सििाय उिके जो कम िे कम तीि माि िे
-असिक अिसि के कारािाि िे दड िीय िै, प्र थम श्रे णी न्‍द या सयक मसजस्रे ट या मिािगर क्षेत्र में मिािगर मसजस्रे ट द्व ा रा उत िंसिता में
-सिसिर्दषष्ट प्र कक्रया के अिुिार िंक्षेपत: सिचार ककया जा िकेगा।
-(2) दड प्र कक्रया िंसिता, 1973 (1974 का 2) में ककिी बात के िोते हए भी, जब ककिी लोक िेिक के बारे में यि असभकसथत
-िै कक उििे इि असिसियम के अिीि दड िीय ककिी अपराि के दुष् प्रे रण का अपराि अपिे पदीय कतषव्यों के सििषिि में कायष करते हए
-या कायष करिा तात्प र् यषत करते हए, ककया िै तब कोई भी न्‍द या यालय ऐिे दुष् प्रे रण के अपराि का िंज्ञाि, ––
-( क ) िंघ के कायों के िम्ब न्‍द ि में सियोसजत व् य सत की दशा में, केन्‍दरी य िरका र की; और
-( ि ) ककिी रा ज् य के कायों के िम्ब न्‍द ि में सियोसजत व् य सत की दशा में उि राज्य िरकार की,
-पूिष मंजूरी के सबिा ििीं करेगा।
-15 क. “ अस्पृ श् य ता ” का अन्‍दत करिे िे प्र ोद्भूत असिकारों का िम्ब सन्‍दि त व् य सत यों द्व ारा फायदा उठािा िुसिसश्च त क रिे का
-राज्य िरकार का कतषव्य –– (1) ऐिे सियमों के अिीि रिते हए, जो केन्‍दरी य िरकार इि सिसमत्त बिाए, राज्य िरकार ऐिे उपाय करेगी,
-जो यि िुसिसश्च त करिे के सलए आिश्य क िों, कक “ अस्पृ श् य ता ” का अन्‍दत करिे िे उद्भूत िोिे िाले असिकार “ अस्पृ श् य ता ” िे उद्भू त
-ककिी सियोग्य ता िे पी सडत व् य सत यों को उपलब् ि ककए जाते िैं और िे उिका फायदा उठाते िैं।
-(2) सिसशष्ट त: और उपिारा (1) के उपबन्‍दिों की व् या पकता पर प्र सतकूल प्र भाि डाले सबिा, ऐिे उपायों के अन्‍दत गषत
-सिम्ि सलसित िैं, अथाषत्: ––
-(i) पयाषप्त िुसििा ओं की व् य िस्था सजिके अन्‍दत गषत “ अस्पृ श् य ता ” िे उद्भूत ककिी सियोग्य ता िे पीसडत व् य सत यों
-को सिसिक ििायता देिा िै, सजििे कक िे ऐिे असिकारों का फायदा उठा िकें;
-(ii) इि असिसियम के उपबन्‍दिों के उल्लं घि के सलए असभयोजि प्र ारम्भ करिे या ऐिे असभयोजिों का पयषिेक्षण
-करिे के सलए असिकाररयों की सियुसत;
-(iii) इि असिसियम के अिीि अपरािों के सिचारण के सलए सिशेर् न्‍द या यालयों की स् था पिा;
-(iv) ऐिे िमुसचत स् त रों पर िसमसतयों की स् था पिा को राज्य िरकार ऐिे उपायों के सिरूपण या उन्‍दिें कायाषसन्‍दि त
-करिे में रा ज् य िरकार की ििायता करिे के सलए ठीक िमझे;
-(v) इि असिसियम के उपबन्‍दिों के बेितर कायाषन्‍दि यि के सलए उपाय िुझािे की दृसष्ट िे इि असिसियम के
-उपबन्‍दिों के कायषकरण के ििेक्षण की िमय - िमय पर व् य िस्था करिा;
-(vi) उि क्षेत्रों का असभसििाषरण जिां व् य सत “ अस्पृ श् य ता ” िे उद्भूत ककिी सियोग्य ता िे पीसडत िै, और ऐिे
-उपायों को अपिािा सजििे ऐिे क्षेत्रों में ऐिी सियोग्य ता का दूर ककया जािा िुसिसश्च त िो िके।
-1 1976 के असिसियम िं ० 106 की िारा 16 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।
-2 1976 के असिसियम िं ० 106 की िारा 17 द्व ारा (19 - 11 - 1976 िे ) िारा 15 के स् था ि पर प्र सतस्था सपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `परन्‍द तु इि िारा में अन्‍दत र् िषष्ट ककिी भी बात िे कोई ऐिा व् य सत दड का भागी ि िोगा, यकद िि यि िा सबत कर दे कक`
+  line `अपराि उिकी जािकारी के सबिा ककया गया था या ऐिे अपराि का ककया जािा सििाररत करिे के सलए उििे िब िम्य क् तत्प रता`
+  line `बरती थी।`
+  line `(2) उपिारा (1) में अन्‍दत सि ष् ट ककिी बात के िोते हए भी, जिां इि असिसियम के अिीि कोई अपराि कम्प िी के ककिी`
+  line `सिदेशक या प्र बंि क, िसच ि या अन्‍दय असिकारी की िम्म सत्त िे ककया गया िो, ििां ऐिा सिदेशक, प्र बन्‍दि क, िसचि या अन्‍दय असिकारी`
+  line `भी उि अपराि का दोर्ी िमझा जाएगा, और तदिुिार अपिे सिरुद्ध कायषिािी ककए जािे और दसड त ककए जािे का भागी िोगा। स्`
+  line `प ष् टी करण –– इि िारा के प्र योजिों के सलए ––`
+  line `( क ) “ कम्प िी ” िे कोई सिगसमत सिकाय असभप्रेत िै, और इिके अन्‍दत गषत फमष या व् य सष्ट यों का अन्‍दय िंगम`
+  line `भी िै; तथा`
+  line `( ि ) फमष के िम्ब न्‍द ि में “ सिदेशक ” िे फमष का भागीदार असभप्रेत िै।`
+  line `1 [ 14 क. ि द् भा िपूिषक की गई कारषिाई के सलए िंरक्ष ण –– (1) कोई भी िाद, असभयोजि या अन्‍दय सिसिक कायषिािी ककिी भी`
+  line `ऐिी बात के बारे में, जो इि असिसियम के असिि ि द् भा िपूिषक की गई िो या की जािे के सलए आशसयत िो, केन्‍दरी य िरकार या राज्य`
+  line `िरकार के सिरुद्ध ि िोगी।`
+  line `(2) कोई भी िाद या अन्‍दय सिसिक कायषिािी ककिी भी ऐिे िुकिाि के बारे में, जो इि असिसियम के अिीि ि द् भा िपूिषक की`
+  line `गई या की जािे के सलए आशसयत ककिी बात के कारण हआ िो, केन्‍दरी य िरकार या राज्य िरकार के सिरुद्ध ि िोगी। ]`
+  line `2 [ 15. अपराि िंज्ञेय और िंक्षेपत: सिचारणीय िोंगे –– (1) दड प्र कक्रया िंसिता, 1973 ( 1974 का 2) में ककिी बात के िोते हए`
+  line `भी इि असिसियम के अिीि दड िीय िर अपराि िंज्ञेय िोगा और ऐिे िर अपराि पर सििाय उिके जो कम िे कम तीि माि िे`
+  line `असिक अिसि के कारािाि िे दड िीय िै, प्र थम श्रे णी न्‍द या सयक मसजस्रे ट या मिािगर क्षेत्र में मिािगर मसजस्रे ट द्व ा रा उत िंसिता में`
+  line `सिसिर्दषष्ट प्र कक्रया के अिुिार िंक्षेपत: सिचार ककया जा िकेगा।`
+  line `(2) दड प्र कक्रया िंसिता, 1973 (1974 का 2) में ककिी बात के िोते हए भी, जब ककिी लोक िेिक के बारे में यि असभकसथत`
+  line `िै कक उििे इि असिसियम के अिीि दड िीय ककिी अपराि के दुष् प्रे रण का अपराि अपिे पदीय कतषव्यों के सििषिि में कायष करते हए`
+  line `या कायष करिा तात्प र् यषत करते हए, ककया िै तब कोई भी न्‍द या यालय ऐिे दुष् प्रे रण के अपराि का िंज्ञाि, ––`
+  line `( क ) िंघ के कायों के िम्ब न्‍द ि में सियोसजत व् य सत की दशा में, केन्‍दरी य िरका र की; और`
+  line `( ि ) ककिी रा ज् य के कायों के िम्ब न्‍द ि में सियोसजत व् य सत की दशा में उि राज्य िरकार की,`
+  line `पूिष मंजूरी के सबिा ििीं करेगा।`
+  line `15 क. “ अस्पृ श् य ता ” का अन्‍दत करिे िे प्र ोद्भूत असिकारों का िम्ब सन्‍दि त व् य सत यों द्व ारा फायदा उठािा िुसिसश्च त क रिे का`
+  line `राज्य िरकार का कतषव्य –– (1) ऐिे सियमों के अिीि रिते हए, जो केन्‍दरी य िरकार इि सिसमत्त बिाए, राज्य िरकार ऐिे उपाय करेगी,`
+  line `जो यि िुसिसश्च त करिे के सलए आिश्य क िों, कक “ अस्पृ श् य ता ” का अन्‍दत करिे िे उद्भूत िोिे िाले असिकार “ अस्पृ श् य ता ” िे उद्भू त`
+  line `ककिी सियोग्य ता िे पी सडत व् य सत यों को उपलब् ि ककए जाते िैं और िे उिका फायदा उठाते िैं।`
+  line `(2) सिसशष्ट त: और उपिारा (1) के उपबन्‍दिों की व् या पकता पर प्र सतकूल प्र भाि डाले सबिा, ऐिे उपायों के अन्‍दत गषत`
+  line `सिम्ि सलसित िैं, अथाषत्: ––`
+  line `(i) पयाषप्त िुसििा ओं की व् य िस्था सजिके अन्‍दत गषत “ अस्पृ श् य ता ” िे उद्भूत ककिी सियोग्य ता िे पीसडत व् य सत यों`
+  line `को सिसिक ििायता देिा िै, सजििे कक िे ऐिे असिकारों का फायदा उठा िकें;`
+  line `(ii) इि असिसियम के उपबन्‍दिों के उल्लं घि के सलए असभयोजि प्र ारम्भ करिे या ऐिे असभयोजिों का पयषिेक्षण`
+  line `करिे के सलए असिकाररयों की सियुसत;`
+  line `(iii) इि असिसियम के अिीि अपरािों के सिचारण के सलए सिशेर् न्‍द या यालयों की स् था पिा;`
+  line `(iv) ऐिे िमुसचत स् त रों पर िसमसतयों की स् था पिा को राज्य िरकार ऐिे उपायों के सिरूपण या उन्‍दिें कायाषसन्‍दि त`
+  line `करिे में रा ज् य िरकार की ििायता करिे के सलए ठीक िमझे;`
+  line `(v) इि असिसियम के उपबन्‍दिों के बेितर कायाषन्‍दि यि के सलए उपाय िुझािे की दृसष्ट िे इि असिसियम के`
+  line `उपबन्‍दिों के कायषकरण के ििेक्षण की िमय - िमय पर व् य िस्था करिा;`
+  line `(vi) उि क्षेत्रों का असभसििाषरण जिां व् य सत “ अस्पृ श् य ता ” िे उद्भूत ककिी सियोग्य ता िे पीसडत िै, और ऐिे`
+  line `उपायों को अपिािा सजििे ऐिे क्षेत्रों में ऐिी सियोग्य ता का दूर ककया जािा िुसिसश्च त िो िके।`
+  line `1 1976 के असिसियम िं ० 106 की िारा 16 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+  line `2 1976 के असिसियम िं ० 106 की िारा 17 द्व ारा (19 - 11 - 1976 िे ) िारा 15 के स् था ि पर प्र सतस्था सपत।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `7
-(3) केन्‍दरी य िरकार राज्य िरकारों द्व ारा उपिारा (1) के अिीि ककए गए उपायों में िमन्‍दि य स् था सप त करिे के सलए ऐिे कदम
-उठाएगी जो आिश्य क िों।
-(4) केन्‍दरी य िरकार िर िर्ष िंिद् के प्रत् ये क िदि के पटल पर ऐिे उपायों की ररपोटष प्रस् तु त करेगी जो उििे और राज्य
-िरकारों िे इि िारा के उपबंिों के अिुिरण में ककए िैं। ]
-16. असिसियम अन्‍दय सिसियों का अधया रोिण करेगा –– इि असिसियम में असभव्य त रू प िे अन्‍दय था उपबसन्‍दि त के सििाय,
-इि असिसियम के उपबन्‍दध ाा, ककिी तत्ि मय प्र िृत्त सिसि में उििे अिंगत कक िी बात के िोते हए भी या ककिी रू क़ि या प्र था अथिा
-ककिी ऐिी सिसि अथिा ककिी न्‍द या यालय या अन्‍दय प्र ासिकारी का ककिी सड क्र ी या आदेश के आिार पर प्र भािी ककिी सलित के िोते हए
-भी प्र भािी िोंगे।
-1 [ 16 क. अपरािी पररिीक्षा असिसियम, 1958 का चौदि िर्ष िे असिक आयु के व् य सत यों को लागू ि िोिा –– अपरािी
-पररिीक्षा असिसियम, 1958 (1958 का 20) के उपबन्‍दि ककिी ऐिे व् य सत को लागू ि िीं िोंगे, जो चौदि िर्ष िे असिक आयु का िै और
-इि असिसियम के अिीि ककिी अपराि के कक ए जािे का दोर्ी पाया जाता िै।
-16 ि. सियम बिािे की शसत –– (1) केन्‍दरी य िरकार, राजपत्र में असििूचिा द्व ारा, इि असिसियम के उपबन्‍दिों का पालि
-करिे के सलए, सियम बिा िकेगी।
-(2 ) इि असिसियम के अिीि केन्‍दरी य िरकार द्व ारा बिाया गया प्रत् ये क सियम, बिाए जािे के पश्चा त् यथाशीघ्र, िंिद् के प्रत्
-ये क िदि के िमक्ष, ज ब िि ित्र में िो, कुल तीि कदि की अिसि के सलए रिा जाएगा। यि अिसि एक ित्र में अथिा दो या असिक
-आिुक्रसमक ित्रो में पूरी िो िकेगी। यकद उि ित्र के, या पूिोत आ िुक्रसमक ित्रों के ठीक बाद के ित्र के अििाि के पूिष दोिों िदि उि
-सियम में कोई पररितषि करिे के सलए ििमत िो जाएं, तो तत्प श् चा त् िि ऐिे पररिर्तषत रू प िे िी प्र भािी िोगा। यकद उत अििाि
-के पूिष दोिों िदि ििमत िो जाएं कक िि सियम ििीं बिाया जािा चासिए, तो तत्प श् चा त् िि सिष् प्र भाि िो जाएगा ककन्‍दतु सियम के
-ऐिे पररिर्तषत या सिष् प्र भाि िोिे िे उिके अिीि पिले की गई ककिी बात की सिसिमान्‍दय ता पर प्र सतकूल प्र भाि ििीं पडेगा। ]
-17. सिरिि –– अिुिूची में सिसिर्दषष्ट असिसिय समसतयां, जिां तक कक िे या उिमें अन्‍दत र् िषष्ट उपबन्‍दिों में िे कोई इि
-असिसियम या उिमें अन्‍दत र् िषष्ट उपबन्‍दिों में िे ककिी के िमाि िै या उिके सिरुद्ध िै, एत द् द्व ा रा सिरसित की जाती िै।
-अिुिूची
-( िारा 17 देसिए )
-1. सबिार िररजि ( ररमूिल आफ सिसिल सडिेसबसलटीज ) ऐट, 1949 (1949 का सबिार असिसियम िंखयां क 19)।
-2. बाम्बे िररजि ( ररमूिल आफ िोशल सडिेसबसलटीज ) ऐट, 1946 (1947 का मुं ब ई असिसियम िंखयां क 1)।
-3. बाम्बे िररजि टैम्प ल एन्‍दरी ऐट, 1947 (1947 का मुं ब ई असिसियम िंखयां क 35)।
-4. िैं रल प्र ोसिन्‍दिे ज एड बरार शैड्यूल्ड कास् ्ि ( ररमूिल आफ सिसिल सडिेसबसलटीज ) ऐट, 1947 (1947 का मधय प्र ान्‍दत
-और बरार असिसियम िंखयां क 24)।
-5. िैन्‍दर ल प्र ोसिन्‍दिे ज एड बरार टैम्प ल एन्‍दरी आथोराइजेशि ऐट, 1947 (1947 का मधय प्र ान्‍दत और बरार असिसियम
-िंखयां क 41 )
-6. ईस्ट पंजाब ( ररमूिल आफ ररसलजि एड िोशल सडिेसबसलटीज ) ऐट, 1948 (1948 का पूिी पंजाब असिसियम
-िंखयां क 16 )
-7. मराि ररमूिल आफ सिसिल सडिेसबसलटीज ऐट, 1938 (1938 का मराि असिसियम िंखयां क 21)।
-8. उडीिा ररमूिल आफ सिसिल सडिेसबसलटीज ऐ ट, 1946 (1946 का उडीिा असिसियम िंखयां क 11)।
-9. उडीिा टैम्प ल एन्‍दरी आथोराइजेशि ऐट, 1948 (1948 का उडीिा असिसियम िंखयां क 11)।
-10. यूिाइटेड प्र ोसिन्‍दिे ज ररमूिल आफ िोशल सडिेसबसलटीज ऐ ट, 1947 (1947 का िंयुत प्र ांत असिसियम िंखयां क 14)।
-11. िेस्ट बंगाल सि न्‍द दू िोशल सडिेसबसलटीज ररमूिल ऐट, 1948 (1948 का पसश्च मी बंगाल असिसियम िंखयां क 37)।
-12. िैदराबाद िररजि टैम्प ल एन्‍दरी रेग्यू लेशि, 1358 (1358 फिली का असिसियम िंखयां क 55)।
-13. िैदराबाद िररजि ( ररमूिल आफ िो शल सडिेसबसलटीज ) रेग्यू लेशि, 1358 एफ ० (1358 फिली का असिसियम
-िंखयां क 56)।
-14. मधय भारत िररजि अयोग्य ता सििारण सििाि, िंित् 2005 (1949 का मधय भारत असिसियम िंखयां क 15)।
-1 1976 के असिसियम िं ० 106 की िारा 18 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 7
+  line `(3) केन्‍दरी य िरकार राज्य िरकारों द्व ारा उपिारा (1) के अिीि ककए गए उपायों में िमन्‍दि य स् था सप त करिे के सलए ऐिे कदम`
+  line `उठाएगी जो आिश्य क िों।`
+  line `(4) केन्‍दरी य िरकार िर िर्ष िंिद् के प्रत् ये क िदि के पटल पर ऐिे उपायों की ररपोटष प्रस् तु त करेगी जो उििे और राज्य`
+  line `िरकारों िे इि िारा के उपबंिों के अिुिरण में ककए िैं। ]`
+  line `16. असिसियम अन्‍दय सिसियों का अधया रोिण करेगा –– इि असिसियम में असभव्य त रू प िे अन्‍दय था उपबसन्‍दि त के सििाय,`
+  line `इि असिसियम के उपबन्‍दध ाा, ककिी तत्ि मय प्र िृत्त सिसि में उििे अिंगत कक िी बात के िोते हए भी या ककिी रू क़ि या प्र था अथिा`
+  line `ककिी ऐिी सिसि अथिा ककिी न्‍द या यालय या अन्‍दय प्र ासिकारी का ककिी सड क्र ी या आदेश के आिार पर प्र भािी ककिी सलित के िोते हए`
+  line `भी प्र भािी िोंगे।`
+  line `1 [ 16 क. अपरािी पररिीक्षा असिसियम, 1958 का चौदि िर्ष िे असिक आयु के व् य सत यों को लागू ि िोिा –– अपरािी`
+  line `पररिीक्षा असिसियम, 1958 (1958 का 20) के उपबन्‍दि ककिी ऐिे व् य सत को लागू ि िीं िोंगे, जो चौदि िर्ष िे असिक आयु का िै और`
+  line `इि असिसियम के अिीि ककिी अपराि के कक ए जािे का दोर्ी पाया जाता िै।`
+  line `16 ि. सियम बिािे की शसत –– (1) केन्‍दरी य िरकार, राजपत्र में असििूचिा द्व ारा, इि असिसियम के उपबन्‍दिों का पालि`
+  line `करिे के सलए, सियम बिा िकेगी।`
+  line `(2 ) इि असिसियम के अिीि केन्‍दरी य िरकार द्व ारा बिाया गया प्रत् ये क सियम, बिाए जािे के पश्चा त् यथाशीघ्र, िंिद् के प्रत्`
+  line `ये क िदि के िमक्ष, ज ब िि ित्र में िो, कुल तीि कदि की अिसि के सलए रिा जाएगा। यि अिसि एक ित्र में अथिा दो या असिक`
+  line `आिुक्रसमक ित्रो में पूरी िो िकेगी। यकद उि ित्र के, या पूिोत आ िुक्रसमक ित्रों के ठीक बाद के ित्र के अििाि के पूिष दोिों िदि उि`
+  line `सियम में कोई पररितषि करिे के सलए ििमत िो जाएं, तो तत्प श् चा त् िि ऐिे पररिर्तषत रू प िे िी प्र भािी िोगा। यकद उत अििाि`
+  line `के पूिष दोिों िदि ििमत िो जाएं कक िि सियम ििीं बिाया जािा चासिए, तो तत्प श् चा त् िि सिष् प्र भाि िो जाएगा ककन्‍दतु सियम के`
+  line `ऐिे पररिर्तषत या सिष् प्र भाि िोिे िे उिके अिीि पिले की गई ककिी बात की सिसिमान्‍दय ता पर प्र सतकूल प्र भाि ििीं पडेगा। ]`
+  line `17. सिरिि –– अिुिूची में सिसिर्दषष्ट असिसिय समसतयां, जिां तक कक िे या उिमें अन्‍दत र् िषष्ट उपबन्‍दिों में िे कोई इि`
+  line `असिसियम या उिमें अन्‍दत र् िषष्ट उपबन्‍दिों में िे ककिी के िमाि िै या उिके सिरुद्ध िै, एत द् द्व ा रा सिरसित की जाती िै।`
+  line अिुिूची
+  line `( िारा 17 देसिए )`
+  line `1. सबिार िररजि ( ररमूिल आफ सिसिल सडिेसबसलटीज ) ऐट, 1949 (1949 का सबिार असिसियम िंखयां क 19)।`
+  line `2. बाम्बे िररजि ( ररमूिल आफ िोशल सडिेसबसलटीज ) ऐट, 1946 (1947 का मुं ब ई असिसियम िंखयां क 1)।`
+  line `3. बाम्बे िररजि टैम्प ल एन्‍दरी ऐट, 1947 (1947 का मुं ब ई असिसियम िंखयां क 35)।`
+  line `4. िैं रल प्र ोसिन्‍दिे ज एड बरार शैड्यूल्ड कास् ्ि ( ररमूिल आफ सिसिल सडिेसबसलटीज ) ऐट, 1947 (1947 का मधय प्र ान्‍दत`
+  line `और बरार असिसियम िंखयां क 24)।`
+  line `5. िैन्‍दर ल प्र ोसिन्‍दिे ज एड बरार टैम्प ल एन्‍दरी आथोराइजेशि ऐट, 1947 (1947 का मधय प्र ान्‍दत और बरार असिसियम`
+  line `िंखयां क 41 )`
+  line `6. ईस्ट पंजाब ( ररमूिल आफ ररसलजि एड िोशल सडिेसबसलटीज ) ऐट, 1948 (1948 का पूिी पंजाब असिसियम`
+  line `िंखयां क 16 )`
+  line `7. मराि ररमूिल आफ सिसिल सडिेसबसलटीज ऐट, 1938 (1938 का मराि असिसियम िंखयां क 21)।`
+  line `8. उडीिा ररमूिल आफ सिसिल सडिेसबसलटीज ऐ ट, 1946 (1946 का उडीिा असिसियम िंखयां क 11)।`
+  line `9. उडीिा टैम्प ल एन्‍दरी आथोराइजेशि ऐट, 1948 (1948 का उडीिा असिसियम िंखयां क 11)।`
+  line `10. यूिाइटेड प्र ोसिन्‍दिे ज ररमूिल आफ िोशल सडिेसबसलटीज ऐ ट, 1947 (1947 का िंयुत प्र ांत असिसियम िंखयां क 14)।`
+  line `11. िेस्ट बंगाल सि न्‍द दू िोशल सडिेसबसलटीज ररमूिल ऐट, 1948 (1948 का पसश्च मी बंगाल असिसियम िंखयां क 37)।`
+  line `12. िैदराबाद िररजि टैम्प ल एन्‍दरी रेग्यू लेशि, 1358 (1358 फिली का असिसियम िंखयां क 55)।`
+  line `13. िैदराबाद िररजि ( ररमूिल आफ िो शल सडिेसबसलटीज ) रेग्यू लेशि, 1358 एफ ० (1358 फिली का असिसियम`
+  line `िंखयां क 56)।`
+  line `14. मधय भारत िररजि अयोग्य ता सििारण सििाि, िंित् 2005 (1949 का मधय भारत असिसियम िंखयां क 15)।`
+  line `1 1976 के असिसियम िं ० 106 की िारा 18 द्व ारा (19 - 11 - 1976 िे ) अन्‍दत:स्था सपत।`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `8
-15. ररमूिल आफ सिसिल सडिेसबसलटीज ऐ ट, 1943 (1943 का मैिूर असि सियम िंखयां क 42)।
-16. मैिूर टैम्प ल ऐं री आथोराइजेशि ऐट, 1948 (1948 का मैिूर असिसियम िंखयां क 14)।
-17. िौराष्र िररजि ( ररमूिल आफ िोशल सडिेसबसलटीज ) आर्डषिेन्‍दि (1948 का िंखयां क 40)।
-18. राििकोर - कोचीि ररमूिल आफ िोशल सडिेसबसलटीज ऐट, 1 125 के (1125 का राििकोर - कोचीि
-असिसियम िंखयां क 3)।
-19. राििकोर - कोचीि टैम्प ल एन्‍दरी ( ररमूिल आफ सडिेसबसलटीज ) ऐट, 1950 (1950 का राि िकोर - कोचीि
-असिसियम िंखयां क 27)।
-20. कुगष शेड्यूल्ड कास् ्ि ( ररमूि ल आफ सिसिल एन्‍दड िोशल सडिेसबसलटीज ) ऐट, 1949 (1949 का कुगष
-असिसियम िंखयां क 1 )
-21. कुगष टैम्प ल ऐं री आथोराइजेशि ऐट, 1949 (1949 का कुडुगू असिसियम िंखयां क 2)।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 8
+  line `15. ररमूिल आफ सिसिल सडिेसबसलटीज ऐ ट, 1943 (1943 का मैिूर असि सियम िंखयां क 42)।`
+  line `16. मैिूर टैम्प ल ऐं री आथोराइजेशि ऐट, 1948 (1948 का मैिूर असिसियम िंखयां क 14)।`
+  line `17. िौराष्र िररजि ( ररमूिल आफ िोशल सडिेसबसलटीज ) आर्डषिेन्‍दि (1948 का िंखयां क 40)।`
+  line `18. राििकोर - कोचीि ररमूिल आफ िोशल सडिेसबसलटीज ऐट, 1 125 के (1125 का राििकोर - कोचीि`
+  line `असिसियम िंखयां क 3)।`
+  line `19. राििकोर - कोचीि टैम्प ल एन्‍दरी ( ररमूिल आफ सडिेसबसलटीज ) ऐट, 1950 (1950 का राि िकोर - कोचीि`
+  line `असिसियम िंखयां क 27)।`
+  line `20. कुगष शेड्यूल्ड कास् ्ि ( ररमूि ल आफ सिसिल एन्‍दड िोशल सडिेसबसलटीज ) ऐट, 1949 (1949 का कुगष`
+  line `असिसियम िंखयां क 1 )`
+  line `21. कुगष टैम्प ल ऐं री आथोराइजेशि ऐट, 1949 (1949 का कुडुगू असिसियम िंखयां क 2)।`
+  line ______
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line

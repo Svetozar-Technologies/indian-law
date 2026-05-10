@@ -1,60 +1,51 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T12:03:17.223Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1456`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 29)
-  (str totalSections) (int 29)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T12:03:17.223Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1456`
+  completeFetch true
+  maxSections null
+  sectionCount 29
+  totalSections 29
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-delhi-school-education-act-1973)
-  (str handle) (str 1456)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Delhi School Education Act, 1973`)
-  (str actNumber) (str 18)
-  (str enactmentDate) (str 1973-04-09)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1456`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `दिल्‍ली विद्यालय शिक्षा अधिनियम, 1973`)
-  (str actYear) (str 1973)
-  (str ministry) (str `Ministry of Education`)
-  (str department) (str `Department of Higher Education`)
-  (str longTitle) (str `An Act to provide for better organisation and development of school education in the Union territory of Delhi and for matters connected therewith or incidental thereto.`)
-  (str enforcementDate) (str 28-04-1973)
-  (str notification) (str `28th April, 1973, vide notification of the Delhi Administration in the Education Deptt. No. F. 5/15/72-Education dated 28th April, 1973, in respect of the provisions except Chapters II to V (both inclusive), sections 16, 17, 18, 22 and 27). 31st December, 1973, vide notification No. F. 5/15/72-Education (i), dated 31st December, 1973, Delhi Gazette, Extraordinary, Pt. IV, dated 31st December, 1973, in respect of Chapters II to V (both inclusive), sections, 16, 17, 18, 22 and 27.`)
-  (str fetchedAt) (str `2026-05-10T12:03:14.341Z`)
-  (str translations) obj_root_law_translations
+  slug the-delhi-school-education-act-1973
+  handle (1456)
+  collectionHandle 123456789/1362
+  title `The Delhi School Education Act, 1973`
+  actNumber (18)
+  enactmentDate 1973-04-09
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1456`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `दिल्‍ली विद्यालय शिक्षा अधिनियम, 1973`
+  actYear (1973)
+  ministry `Ministry of Education`
+  department `Department of Higher Education`
+  longTitle `An Act to provide for better organisation and development of school education in the Union territory of Delhi and for matters connected therewith or incidental thereto.`
+  enforcementDate 28-04-1973
+  notification `28th April, 1973, vide notification of the Delhi Administration in the Education Deptt. No. F. 5/15/72-Education dated 28th April, 1973, in respect of the provisions except Chapters II to V (both inclusive), sections 16, 17, 18, 22 and 27). 31st December, 1973, vide notification No. F. 5/15/72-Education (i), dated 31st December, 1973, Delhi Gazette, Extraordinary, Pt. IV, dated 31st December, 1973, in respect of Chapters II to V (both inclusive), sections, 16, 17, 18, 22 and 27.`
+  fetchedAt `2026-05-10T12:03:14.341Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_delhi_school_education_act_1973
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1456`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1456`
 obj_root_law_sources_en_the_delhi_school_education_act_1973:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1456/1/197318.pdf`)
-  (str title) (str `The Delhi School Education Act, 1973`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1456/1/197318.pdf`
+  title `The Delhi School Education Act, 1973`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1973
 obj_root_law_sources_hi_1973:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1456/3/H1973-18.pdf`)
-  (str title) (str `दिल्‍ली विद्यालय शिक्षा अधिनियम, 1973`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1456/3/H1973-18.pdf`
+  title `दिल्‍ली विद्यालय शिक्षा अधिनियम, 1973`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -85,888 +76,1030 @@ obj_root_law_sections:
   obj_root_law_sections_28
   obj_root_law_sections_29
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 34242)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the Delhi School Education
-Act, 1973.
-
-(2) It extends to the whole of the Union territory of Delhi.
-
-(3) It shall come into force on such date as the Administrator may, by notification, appoint and
-different dates ^1 may be appointed for different provisions of this Act, and any reference to the
-commencement of this Act in relation to any provision thereof shall be construed as a reference to the
-date on which that provision comes into force.`)
-  (str footnotes) (str `1 28th April, 1973, vide notification of the Delhi Administration in the Education Deptt. No. F. 5/15/72-Education
-dated 28th April, 1973, in respect of the provisions except Chapters II to V (both inclusive), sections 16, 17, 18, 22 and 27).
-
-31st December, 1973, vide notification No. F. 5/15/72-Education (i), dated 31st December, 1973, Delhi Gazette, Extraordinary,
-Pt. IV, dated 31st December, 1973, in respect of Chapters II to V (both inclusive), sections, 16, 17, 18, 22 and 27,`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34242&sectionno=1&orderno=1&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34242)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34242&sectionno=1&orderno=1&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Delhi School Education`
+  line `Act, 1973.`
+  line
+  line `(2) It extends to the whole of the Union territory of Delhi.`
+  line
+  line `(3) It shall come into force on such date as the Administrator may, by notification, appoint and`
+  line `different dates ^1 may be appointed for different provisions of this Act, and any reference to the`
+  line `commencement of this Act in relation to any provision thereof shall be construed as a reference to the`
+  line `date on which that provision comes into force.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1 28th April, 1973, vide notification of the Delhi Administration in the Education Deptt. No. F. 5/15/72-Education`
+  line `dated 28th April, 1973, in respect of the provisions except Chapters II to V (both inclusive), sections 16, 17, 18, 22 and 27).`
+  line
+  line `31st December, 1973, vide notification No. F. 5/15/72-Education (i), dated 31st December, 1973, Delhi Gazette, Extraordinary,`
+  line `Pt. IV, dated 31st December, 1973, in respect of Chapters II to V (both inclusive), sections, 16, 17, 18, 22 and 27,`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 34243)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,—
-
-(a) “Administrator” means the Administrator of the Union territory of Delhi appointed by the
-President under article 239 of the Constitution;
-
-(b) “Advisory Board” means the Board referred to in section 22;
-
-(c) “aid” means any aid granted to a recognised school by the Central Government,
-Administrator, a local authority or any other authority designated by the Central Government,
-Administrator or a local authority;
-
-(d) “aided school” means a recognised private school which is receiving aid in the form of
-maintenance grant from the Central Government, Administrator or a local authority or any other
-authority designated by the Central Government, Administrator or a local authority;
-
-(e) “appropriate authority” means,—
-
-(i) in the case of a school recognised or to be recognised by an authority designated or
-sponsored by the Central Government, that authority;
-
-(ii) in the case of a school recognised or to be recognised by the Delhi Administration, the
-Administrator or any other officer authorised by him in this behalf;
-
-(iii) in the case of a school recognised or to be recognised by the Municipal Corporation of
-Delhi, that Corporation;
-
-(iv) in the case of any other school, the Administrator or any other officer authorised by him
-in this behalf;
-
-(f) “Delhi” means the Union territory of Delhi;
-
-(g) “Director” means the Director of Education, Delhi, and includes any other officer authorised
-by him to perform all or any of the functions of the Director under this Act;
-
-(h) “employee” means a teacher and includes every other employee working in a recognised
-school;
-
-(i) “existing employee” means an employee of an existing school who is employed in such school
-immediately before the commencement of this Act, and includes an employee who was employed in
-such school for a period of not less than twelve months immediately preceding the 2nd day of
-September, 1972;
-
-(j) “existing school” means a recognised private school which is in existence at the
-commencement of this Act;
-
-(k) “Head of school” means the principal academic officer, by whatever name called, of a
-recognised school;
-
-(l) “local authority” means,—
-
-(i) in relation to an area within the local limits of the Municipal Corporation of Delhi, that
-Corporation;
-
-(ii) in relation to an area within the local limits of the New Delhi Municipal Committee, that
-Committee;
-
-(iii) in relation to an area within the local limits of the Delhi Cantonment Board, that Board;
-
-(m) “manager”, in relation to a school, means the person, by whatever name called, who is
-entrusted, either on the date on which this Act comes into force or, as the case may be, under a
-scheme of management made under section 5, with the management of the affairs of that school;
-
-(n) “managing committee” means the body of individuals who are entrusted with the management
-of any recognised private school;
-
-(o) “minority school” means a school established and administered by a minority having the right
-to do so under clause (1) of article 30 of the Constitution;
-
-(p) “notification” means a notification published in the Official Gazette;
-
-(q) “prescribed” means prescribed by rules made under this Act;
-
-(r) “private school” means a school which is not run by the Central Government, Administrator, a
-local authority or any other authority designated or sponsored by the Central Government,
-Administrator or a local authority;
-
-(s) “public examination” means an examination conducted by the Central Board of Secondary
-Education, Council for Indian School Certificate Examinations or any other Board which may
-hereafter be established for the purpose, and recognised by the Administrator or any other officer
-authorised by him in this behalf;
-
-(t) “recognised school” means a school recognised by the appropriate authority;
-
-(u) “school” includes a pre-primary, primary, middle and higher secondary school, and also
-includes any other institution which imparts education or training below the degree level, but does not
-include an institution which imparts technical education;
-
-(v) “school property” means all movable and immovable property belonging to, or in the
-possession of, the school and all other rights and interests in, or arising out of, such property, and
-includes land, building and its appurtenances, playgrounds, hostels, furniture, books, apparatus, maps,
-equipment, utensils, cash, reserve funds investments and bank balances;
-
-(w) “teacher” includes the Head of a school;
-
-(x) “unaided minority school” means a recognised minority school which does not receive any
-aid.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34243&sectionno=2&orderno=2&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34243)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34243&sectionno=2&orderno=2&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,—`
+  line
+  line `(a) “Administrator” means the Administrator of the Union territory of Delhi appointed by the`
+  line `President under article 239 of the Constitution;`
+  line
+  line `(b) “Advisory Board” means the Board referred to in section 22;`
+  line
+  line `(c) “aid” means any aid granted to a recognised school by the Central Government,`
+  line `Administrator, a local authority or any other authority designated by the Central Government,`
+  line `Administrator or a local authority;`
+  line
+  line `(d) “aided school” means a recognised private school which is receiving aid in the form of`
+  line `maintenance grant from the Central Government, Administrator or a local authority or any other`
+  line `authority designated by the Central Government, Administrator or a local authority;`
+  line
+  line `(e) “appropriate authority” means,—`
+  line
+  line `(i) in the case of a school recognised or to be recognised by an authority designated or`
+  line `sponsored by the Central Government, that authority;`
+  line
+  line `(ii) in the case of a school recognised or to be recognised by the Delhi Administration, the`
+  line `Administrator or any other officer authorised by him in this behalf;`
+  line
+  line `(iii) in the case of a school recognised or to be recognised by the Municipal Corporation of`
+  line `Delhi, that Corporation;`
+  line
+  line `(iv) in the case of any other school, the Administrator or any other officer authorised by him`
+  line `in this behalf;`
+  line
+  line `(f) “Delhi” means the Union territory of Delhi;`
+  line
+  line `(g) “Director” means the Director of Education, Delhi, and includes any other officer authorised`
+  line `by him to perform all or any of the functions of the Director under this Act;`
+  line
+  line `(h) “employee” means a teacher and includes every other employee working in a recognised`
+  line school;
+  line
+  line `(i) “existing employee” means an employee of an existing school who is employed in such school`
+  line `immediately before the commencement of this Act, and includes an employee who was employed in`
+  line `such school for a period of not less than twelve months immediately preceding the 2nd day of`
+  line `September, 1972;`
+  line
+  line `(j) “existing school” means a recognised private school which is in existence at the`
+  line `commencement of this Act;`
+  line
+  line `(k) “Head of school” means the principal academic officer, by whatever name called, of a`
+  line `recognised school;`
+  line
+  line `(l) “local authority” means,—`
+  line
+  line `(i) in relation to an area within the local limits of the Municipal Corporation of Delhi, that`
+  line Corporation;
+  line
+  line `(ii) in relation to an area within the local limits of the New Delhi Municipal Committee, that`
+  line Committee;
+  line
+  line `(iii) in relation to an area within the local limits of the Delhi Cantonment Board, that Board;`
+  line
+  line `(m) “manager”, in relation to a school, means the person, by whatever name called, who is`
+  line `entrusted, either on the date on which this Act comes into force or, as the case may be, under a`
+  line `scheme of management made under section 5, with the management of the affairs of that school;`
+  line
+  line `(n) “managing committee” means the body of individuals who are entrusted with the management`
+  line `of any recognised private school;`
+  line
+  line `(o) “minority school” means a school established and administered by a minority having the right`
+  line `to do so under clause (1) of article 30 of the Constitution;`
+  line
+  line `(p) “notification” means a notification published in the Official Gazette;`
+  line
+  line `(q) “prescribed” means prescribed by rules made under this Act;`
+  line
+  line `(r) “private school” means a school which is not run by the Central Government, Administrator, a`
+  line `local authority or any other authority designated or sponsored by the Central Government,`
+  line `Administrator or a local authority;`
+  line
+  line `(s) “public examination” means an examination conducted by the Central Board of Secondary`
+  line `Education, Council for Indian School Certificate Examinations or any other Board which may`
+  line `hereafter be established for the purpose, and recognised by the Administrator or any other officer`
+  line `authorised by him in this behalf;`
+  line
+  line `(t) “recognised school” means a school recognised by the appropriate authority;`
+  line
+  line `(u) “school” includes a pre-primary, primary, middle and higher secondary school, and also`
+  line `includes any other institution which imparts education or training below the degree level, but does not`
+  line `include an institution which imparts technical education;`
+  line
+  line `(v) “school property” means all movable and immovable property belonging to, or in the`
+  line `possession of, the school and all other rights and interests in, or arising out of, such property, and`
+  line `includes land, building and its appurtenances, playgrounds, hostels, furniture, books, apparatus, maps,`
+  line `equipment, utensils, cash, reserve funds investments and bank balances;`
+  line
+  line `(w) “teacher” includes the Head of a school;`
+  line
+  line `(x) “unaided minority school” means a recognised minority school which does not receive any`
+  line aid.
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 34244)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Power of Administrator to regulate education in schools.`)
-  (str content) (str `(1) The Administrator may regulate
-education in all the schools in Delhi in accordance with the provisions of this Act and the rules made
-thereunder.
-
-(2) The Administrator may establish and maintain any school in Delhi or may permit any person or
-local authority to establish and maintain any school in Delhi, subject to compliance with the provisions of
-this Act and the rules made thereunder.
-
-(3) On and from the commencement of this Act and subject to the provisions of clause (1) of article
-30 of the Constitution, the establishment of a new school or the opening of a higher class or the closing
-down of an existing class in any existing school in Delhi shall be subject to the provisions of this Act and
-the rules made thereunder and any school or higher class established or opened otherwise than in
-accordance with the provisions of this Act shall not be recognised by the appropriate authority.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34244&sectionno=3&orderno=3&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34244)
+  sectionNo (3)
+  orderNo 3
+  title `Power of Administrator to regulate education in schools.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34244&sectionno=3&orderno=3&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Administrator may regulate`
+  line `education in all the schools in Delhi in accordance with the provisions of this Act and the rules made`
+  line thereunder.
+  line
+  line `(2) The Administrator may establish and maintain any school in Delhi or may permit any person or`
+  line `local authority to establish and maintain any school in Delhi, subject to compliance with the provisions of`
+  line `this Act and the rules made thereunder.`
+  line
+  line `(3) On and from the commencement of this Act and subject to the provisions of clause (1) of article`
+  line `30 of the Constitution, the establishment of a new school or the opening of a higher class or the closing`
+  line `down of an existing class in any existing school in Delhi shall be subject to the provisions of this Act and`
+  line `the rules made thereunder and any school or higher class established or opened otherwise than in`
+  line `accordance with the provisions of this Act shall not be recognised by the appropriate authority.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 34245)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Recognition of schools.`)
-  (str content) (str `(1) The appropriate authority may, on an application made to it in the
-prescribed form and in the prescribed manner, recognise any private school:
-
-Provided that no school shall be recognised unless—
-
-(a) it has adequate funds to ensure its financial stability and regular payment of salary and
-allowances to its employees;
-
-(b) it has a duly approved scheme of management as required by section 5;
-
-(c) it has suitable or adequate accommodation and sanitary facilities having regard, among other
-factors, to the number, age and sex of the pupils attending it;
-
-(d) it provides for approved courses of study and efficient instruction;
-
-(e) it has teachers with prescribed qualifications; and
-
-(f) it has the prescribed facilities for physical education, library service, laboratory work,
-workshop practice or co-curricular activities.
-
-(2) Every application for recognition of a school shall be entertained and considered by the
-appropriate authority and the decision thereon shall be communicated to the applicant within a period of
-four months from the date of the receipt of the application; and where recognition is not granted, the
-reasons for not granting such recognition shall also be communicated to the applicant within the said
-period.
-
-(3) Where recognition to a school is refused, any person aggrieved by such refusal may, within thirty
-days from the date of communication to him, of such refusal, appeal against such refusal, in the
-prescribed manner, to the prescribed authority and the decision of the prescribed authority thereon shall
-be final:
-
-Provided that the prescribed authority may, if it is satisfied that the appellant was prevented by
-sufficient cause from preferring the appeal within the said period of thirty days, extend, for reasons to be
-recorded by it in writing, the said period by a further period of sixty days.
-
-(4) Where the managing committee of a school obtains recognition by fraud, misrepresentation or
-suppression of material particulars, or where, after obtaining recognition, the school fails to continue to
-comply with any of the conditions specified in the proviso to sub-section (1). the authority granting the
-recognition may, after giving the managing committee of the school a reasonable opportunity of showing
-cause against the proposed action, withdraw the recognition granted to such school under sub-section (1).
-
-(5) The recognition granted under sub-section (1) shall not, by itself, entitle any school to receive aid.
-
-(6) Every existing school shall be deemed to have been recognised under this section and shall be
-subject to the provisions of this Act and the rules made thereunder:
-
-Provided that where any such school does not satisfy any of the conditions specified in the proviso to
-sub-section (1), the prescribed authority may require the school to satisfy such conditions and such other
-conditions as may be prescribed, within a specified period and if any such condition is not satisfied,
-recognition may be withdrawn from such school.
-
-(7) Every school, whose recognition is withdrawn under sub-section (4) or sub-section (6), may
-appeal to the prescribed authority, who shall dispose of the appeal within six months from the date of
-presentation of the appeal in such manner as may be prescribed, and if the appeal is not disposed of
-within that period, the order for the withdrawal of recognition shall, on the expiry of the said period of six
-months, stand cancelled.
-
-(8) On hearing an appeal preferred under sub-section (3) or sub-section (7), the prescribed authority
-may, after giving the appellant a reasonable opportunity of being heard, confirm, modify or reverse the
-order appealed against.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34245&sectionno=4&orderno=4&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34245)
+  sectionNo (4)
+  orderNo 4
+  title `Recognition of schools.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34245&sectionno=4&orderno=4&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_4_content:
+  string
+  line `(1) The appropriate authority may, on an application made to it in the`
+  line `prescribed form and in the prescribed manner, recognise any private school:`
+  line
+  line `Provided that no school shall be recognised unless—`
+  line
+  line `(a) it has adequate funds to ensure its financial stability and regular payment of salary and`
+  line `allowances to its employees;`
+  line
+  line `(b) it has a duly approved scheme of management as required by section 5;`
+  line
+  line `(c) it has suitable or adequate accommodation and sanitary facilities having regard, among other`
+  line `factors, to the number, age and sex of the pupils attending it;`
+  line
+  line `(d) it provides for approved courses of study and efficient instruction;`
+  line
+  line `(e) it has teachers with prescribed qualifications; and`
+  line
+  line `(f) it has the prescribed facilities for physical education, library service, laboratory work,`
+  line `workshop practice or co-curricular activities.`
+  line
+  line `(2) Every application for recognition of a school shall be entertained and considered by the`
+  line `appropriate authority and the decision thereon shall be communicated to the applicant within a period of`
+  line `four months from the date of the receipt of the application; and where recognition is not granted, the`
+  line `reasons for not granting such recognition shall also be communicated to the applicant within the said`
+  line period.
+  line
+  line `(3) Where recognition to a school is refused, any person aggrieved by such refusal may, within thirty`
+  line `days from the date of communication to him, of such refusal, appeal against such refusal, in the`
+  line `prescribed manner, to the prescribed authority and the decision of the prescribed authority thereon shall`
+  line `be final:`
+  line
+  line `Provided that the prescribed authority may, if it is satisfied that the appellant was prevented by`
+  line `sufficient cause from preferring the appeal within the said period of thirty days, extend, for reasons to be`
+  line `recorded by it in writing, the said period by a further period of sixty days.`
+  line
+  line `(4) Where the managing committee of a school obtains recognition by fraud, misrepresentation or`
+  line `suppression of material particulars, or where, after obtaining recognition, the school fails to continue to`
+  line `comply with any of the conditions specified in the proviso to sub-section (1). the authority granting the`
+  line `recognition may, after giving the managing committee of the school a reasonable opportunity of showing`
+  line `cause against the proposed action, withdraw the recognition granted to such school under sub-section (1).`
+  line
+  line `(5) The recognition granted under sub-section (1) shall not, by itself, entitle any school to receive aid.`
+  line
+  line `(6) Every existing school shall be deemed to have been recognised under this section and shall be`
+  line `subject to the provisions of this Act and the rules made thereunder:`
+  line
+  line `Provided that where any such school does not satisfy any of the conditions specified in the proviso to`
+  line `sub-section (1), the prescribed authority may require the school to satisfy such conditions and such other`
+  line `conditions as may be prescribed, within a specified period and if any such condition is not satisfied,`
+  line `recognition may be withdrawn from such school.`
+  line
+  line `(7) Every school, whose recognition is withdrawn under sub-section (4) or sub-section (6), may`
+  line `appeal to the prescribed authority, who shall dispose of the appeal within six months from the date of`
+  line `presentation of the appeal in such manner as may be prescribed, and if the appeal is not disposed of`
+  line `within that period, the order for the withdrawal of recognition shall, on the expiry of the said period of six`
+  line `months, stand cancelled.`
+  line
+  line `(8) On hearing an appeal preferred under sub-section (3) or sub-section (7), the prescribed authority`
+  line `may, after giving the appellant a reasonable opportunity of being heard, confirm, modify or reverse the`
+  line `order appealed against.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 34246)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Scheme of management.`)
-  (str content) (str `(1) Notwithstanding anything contained in any other law for the time
-being in force or in any instrument having effect by virtue of any such law, the managing committee of
-every recognised school shall make, in accordance with the rules made under this Act and with the
-previous approval of the appropriate authority, a scheme of management for such school:
-
-Provided that in the case of a recognised private school which does not receive any aid, the scheme of
-management shall apply with such variations and modifications as may be prescribed:
-
-Provided further that so much of this sub-section as relates to the previous approval of the appropriate
-authority, shall not apply to a scheme of management for an unaided minority school.
-
-(2) A scheme may be made, in like manner, to add to, vary or modify any scheme made under
-sub-section (1).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34246&sectionno=5&orderno=5&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34246)
+  sectionNo (5)
+  orderNo 5
+  title `Scheme of management.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34246&sectionno=5&orderno=5&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_5_content:
+  string
+  line `(1) Notwithstanding anything contained in any other law for the time`
+  line `being in force or in any instrument having effect by virtue of any such law, the managing committee of`
+  line `every recognised school shall make, in accordance with the rules made under this Act and with the`
+  line `previous approval of the appropriate authority, a scheme of management for such school:`
+  line
+  line `Provided that in the case of a recognised private school which does not receive any aid, the scheme of`
+  line `management shall apply with such variations and modifications as may be prescribed:`
+  line
+  line `Provided further that so much of this sub-section as relates to the previous approval of the appropriate`
+  line `authority, shall not apply to a scheme of management for an unaided minority school.`
+  line
+  line `(2) A scheme may be made, in like manner, to add to, vary or modify any scheme made under`
+  line `sub-section (1).`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 34247)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Aid to recognised schools.`)
-  (str content) (str `(1) The Central Government may, after due appropriation made by
-Parliament by law in this behalf and subject to such conditions as may be prescribed, pay to the
-Administrator, for distribution of aid to recognised private schools, not being primary schools recognised
-by a local authority, such sums of money as that Government may consider necessary:
-
-Provided that no existing school receiving, immediately before the commencement of this Act, aid
-shall be eligible for the continuance of such aid unless it complies, within such period as may be specified
-by the Director, with the conditions specified in the proviso to sub-section (1) of section 4.
-
-(2) The authority competent to grant the aid may stop, reduce or suspend aid for violation of any of
-the conditions prescribed in this behalf.
-
-(3) The aid may cover such part of the expenditure of the school as may be prescribed.
-
-(4) No payment, out of the aid given for salary, allowances and provident fund of employees of the
-school, shall be made for any other purpose.
-
-(5) No aid shall be given to a school the management of which has been taken over under section 20.
-
-(6) No unrecognised school shall be eligible to receive any aid or any benefit made available to
-private schools by the Administrator or any agency of the Administrator.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34247&sectionno=6&orderno=6&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34247)
+  sectionNo (6)
+  orderNo 6
+  title `Aid to recognised schools.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34247&sectionno=6&orderno=6&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_6_content:
+  string
+  line `(1) The Central Government may, after due appropriation made by`
+  line `Parliament by law in this behalf and subject to such conditions as may be prescribed, pay to the`
+  line `Administrator, for distribution of aid to recognised private schools, not being primary schools recognised`
+  line `by a local authority, such sums of money as that Government may consider necessary:`
+  line
+  line `Provided that no existing school receiving, immediately before the commencement of this Act, aid`
+  line `shall be eligible for the continuance of such aid unless it complies, within such period as may be specified`
+  line `by the Director, with the conditions specified in the proviso to sub-section (1) of section 4.`
+  line
+  line `(2) The authority competent to grant the aid may stop, reduce or suspend aid for violation of any of`
+  line `the conditions prescribed in this behalf.`
+  line
+  line `(3) The aid may cover such part of the expenditure of the school as may be prescribed.`
+  line
+  line `(4) No payment, out of the aid given for salary, allowances and provident fund of employees of the`
+  line `school, shall be made for any other purpose.`
+  line
+  line `(5) No aid shall be given to a school the management of which has been taken over under section 20.`
+  line
+  line `(6) No unrecognised school shall be eligible to receive any aid or any benefit made available to`
+  line `private schools by the Administrator or any agency of the Administrator.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 34248)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `School property.`)
-  (str content) (str `(1) The management of every aided school shall furnish to the appropriate
-authority, initially, at the time of grant of aid and thereafter annually, a statement containing a list of
-school property together with such particulars as may be prescribed.
-
-(2) Notwithstanding anything contained in any other law for the time being in force, no transfer,
-mortgage or lease of any movable or immovable property of an aided school, not being the property
-specified in the rules, shall be made except with the previous permission of the appropriate authority:
-
-Provided that where the appropriate authority omits or fails to dispose of the application for such
-permission within sixty days from the date of receipt of the application in this behalf, the permission
-shall, on the expiry of the said period of sixty days, be deemed to have been granted.
-
-(3) Any person aggrieved by the grant or refusal of permission under sub-section (2) may prefer, in
-such form and within such time as may be prescribed, appeal to the Administrator against such grant or
-refusal of permission and the decision of the Administrator thereon shall be final.
-
-(4) Any transaction made in contravention of the provisions of sub-section (2), or, as the case may be,
-decision of the Administrator, shall be void.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34248&sectionno=7&orderno=7&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34248)
+  sectionNo (7)
+  orderNo 7
+  title `School property.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34248&sectionno=7&orderno=7&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_7_content:
+  string
+  line `(1) The management of every aided school shall furnish to the appropriate`
+  line `authority, initially, at the time of grant of aid and thereafter annually, a statement containing a list of`
+  line `school property together with such particulars as may be prescribed.`
+  line
+  line `(2) Notwithstanding anything contained in any other law for the time being in force, no transfer,`
+  line `mortgage or lease of any movable or immovable property of an aided school, not being the property`
+  line `specified in the rules, shall be made except with the previous permission of the appropriate authority:`
+  line
+  line `Provided that where the appropriate authority omits or fails to dispose of the application for such`
+  line `permission within sixty days from the date of receipt of the application in this behalf, the permission`
+  line `shall, on the expiry of the said period of sixty days, be deemed to have been granted.`
+  line
+  line `(3) Any person aggrieved by the grant or refusal of permission under sub-section (2) may prefer, in`
+  line `such form and within such time as may be prescribed, appeal to the Administrator against such grant or`
+  line `refusal of permission and the decision of the Administrator thereon shall be final.`
+  line
+  line `(4) Any transaction made in contravention of the provisions of sub-section (2), or, as the case may be,`
+  line `decision of the Administrator, shall be void.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 34249)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Terms and conditions of service of employees of recognised private schools.`)
-  (str content) (str `(1) The
-Administrator may make rules regulating the minimum qualifications for recruitment, and the conditions
-of service, of employees of recognised private schools:
-
-Provided that neither the salary nor the rights in respect of leave of absence, age of retirement and
-pension of an employee in the employment of an existing school at the commencement of this Act shall
-be varied to the disadvantage of such employee:
-
-Provided further that every such employee shall be entitled to opt for terms and conditions of service
-as they were applicable to him immediately before the commencement of this Act.
-
-(2) Subject to any rule that may be made in this behalf, no employee of a recognised private school
-shall be dismissed, removed or reduced in rank nor shall his service be otherwise terminated except with
-the prior approval of the Director.
-
-(3) Any employee of a recognised private school who is dismissed, removed or reduced in rank may,
-within three months from the date of communication to him of the order of such dismissal, removal or
-reduction in rank, appeal against such order to the Tribunal constituted under section 11.
-
-(4) Where the managing committee of a recognised private school intends to suspend any of its
-employees, such intention shall be communicated to the Director and no such suspension shall be made
-except with the prior approval of the Director:
-
-Provided that the managing committee may suspend an employee with immediate effect and without
-the prior approval of the Director if it is satisfied that such immediate suspension is necessary by reason
-of the gross misconduct, within the meaning of the Code of Conduct prescribed under section 9, of the
-employee:
-
-Provided further that no such immediate suspension shall remain in force for more than a period of
-fifteen days from the date of suspension unless it has been communicated to the Director and approved by
-him before the expiry of the said period.
-
-(5) Where the intention to suspend, or the immediate suspension of, an employee is communicated to
-the Director, he may, if he is satisfied that there are adequate and reasonable grounds for such suspension,
-accord his approval to such suspension.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34249&sectionno=8&orderno=8&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34249)
+  sectionNo (8)
+  orderNo 8
+  title `Terms and conditions of service of employees of recognised private schools.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34249&sectionno=8&orderno=8&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_8_content:
+  string
+  line `(1) The`
+  line `Administrator may make rules regulating the minimum qualifications for recruitment, and the conditions`
+  line `of service, of employees of recognised private schools:`
+  line
+  line `Provided that neither the salary nor the rights in respect of leave of absence, age of retirement and`
+  line `pension of an employee in the employment of an existing school at the commencement of this Act shall`
+  line `be varied to the disadvantage of such employee:`
+  line
+  line `Provided further that every such employee shall be entitled to opt for terms and conditions of service`
+  line `as they were applicable to him immediately before the commencement of this Act.`
+  line
+  line `(2) Subject to any rule that may be made in this behalf, no employee of a recognised private school`
+  line `shall be dismissed, removed or reduced in rank nor shall his service be otherwise terminated except with`
+  line `the prior approval of the Director.`
+  line
+  line `(3) Any employee of a recognised private school who is dismissed, removed or reduced in rank may,`
+  line `within three months from the date of communication to him of the order of such dismissal, removal or`
+  line `reduction in rank, appeal against such order to the Tribunal constituted under section 11.`
+  line
+  line `(4) Where the managing committee of a recognised private school intends to suspend any of its`
+  line `employees, such intention shall be communicated to the Director and no such suspension shall be made`
+  line `except with the prior approval of the Director:`
+  line
+  line `Provided that the managing committee may suspend an employee with immediate effect and without`
+  line `the prior approval of the Director if it is satisfied that such immediate suspension is necessary by reason`
+  line `of the gross misconduct, within the meaning of the Code of Conduct prescribed under section 9, of the`
+  line `employee:`
+  line
+  line `Provided further that no such immediate suspension shall remain in force for more than a period of`
+  line `fifteen days from the date of suspension unless it has been communicated to the Director and approved by`
+  line `him before the expiry of the said period.`
+  line
+  line `(5) Where the intention to suspend, or the immediate suspension of, an employee is communicated to`
+  line `the Director, he may, if he is satisfied that there are adequate and reasonable grounds for such suspension,`
+  line `accord his approval to such suspension.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 34250)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Employees to be governed by a Code of Conduct.`)
-  (str content) (str `Every employee of a recognised school shall
-be governed by such Code of Conduct as may be prescribed and on the violation of any provision of such
-Code of Conduct, the employee shall be liable to such disciplinary action as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34250&sectionno=9&orderno=9&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34250)
+  sectionNo (9)
+  orderNo 9
+  title `Employees to be governed by a Code of Conduct.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34250&sectionno=9&orderno=9&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_9_content:
+  string
+  line `Every employee of a recognised school shall`
+  line `be governed by such Code of Conduct as may be prescribed and on the violation of any provision of such`
+  line `Code of Conduct, the employee shall be liable to such disciplinary action as may be prescribed.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 34270)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Salaries of employees.`)
-  (str content) (str `(1) The scales of pay and allowances, medical facilities, pension,
-gratuity, provident fund and other prescribed benefits of the employees of a recognised private school
-shall not be less than those of the employees of the corresponding status in schools run by the appropriate
-authority:
-
-Provided that where the scales of pay and allowances, medical facilities, pension, gratuity, provident
-fund and other prescribed benefits of the employees of any recognised private school are less than those
-of the employees of the corresponding status in the schools run by the appropriate authority, the
-appropriate authority shall direct, in writing, the managing committee of such school to bring the same up
-to the level of those of the employees of the corresponding status in schools run by the appropriate
-authority:
-
-Provided further that the failure to comply with such direction shall be deemed to be non-compliance
-with the conditions for continuing recognition of an existing school and the provisions of section 4 shall
-apply accordingly.
-
-(2) The managing committee of every aided school shall deposit, every month, its share towards pay
-and allowances, medical facilities, pension, gratuity, provident fund and other prescribed benefits with the
-Administrator and the Administrator shall disburse, or cause to be disbursed, within the first week of
-every month, the salaries and allowances to the employees of the aided schools.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34270&sectionno=10&orderno=10&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34270)
+  sectionNo (10)
+  orderNo 10
+  title `Salaries of employees.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34270&sectionno=10&orderno=10&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_10_content:
+  string
+  line `(1) The scales of pay and allowances, medical facilities, pension,`
+  line `gratuity, provident fund and other prescribed benefits of the employees of a recognised private school`
+  line `shall not be less than those of the employees of the corresponding status in schools run by the appropriate`
+  line `authority:`
+  line
+  line `Provided that where the scales of pay and allowances, medical facilities, pension, gratuity, provident`
+  line `fund and other prescribed benefits of the employees of any recognised private school are less than those`
+  line `of the employees of the corresponding status in the schools run by the appropriate authority, the`
+  line `appropriate authority shall direct, in writing, the managing committee of such school to bring the same up`
+  line `to the level of those of the employees of the corresponding status in schools run by the appropriate`
+  line `authority:`
+  line
+  line `Provided further that the failure to comply with such direction shall be deemed to be non-compliance`
+  line `with the conditions for continuing recognition of an existing school and the provisions of section 4 shall`
+  line `apply accordingly.`
+  line
+  line `(2) The managing committee of every aided school shall deposit, every month, its share towards pay`
+  line `and allowances, medical facilities, pension, gratuity, provident fund and other prescribed benefits with the`
+  line `Administrator and the Administrator shall disburse, or cause to be disbursed, within the first week of`
+  line `every month, the salaries and allowances to the employees of the aided schools.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 34271)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str Tribunal.)
-  (str content) (str `(1) The Administrator shall, by notification, constitute a Tribunal, to be known as the
-"Delhi School Tribunal", consisting of one person:
-
-Provided that no person shall be so appointed unless he has held office as a District Judge or any
-equivalent judicial office.
-
-(2) If any vacancy, other than a temporary absence, occurs in the office of the presiding officer of the
-Tribunal, the Administrator shall appoint another person, in accordance with the provisions of this
-section, to fill the vacancy and the proceedings may be continued before the Tribunal from the stage at
-which the vacancy is filled.
-
-(3) The Administrator shall make available to the Tribunal such staff as may be necessary in the
-discharge of its functions under this Act.
-
-(4) All expenses incurred in connection with the Tribunal shall be defrayed out of the Consolidated
-Fund of India.
-
-(5) The Tribunal shall have power to regulate its own procedure in all matters arising out of the
-discharge of its functions including the place or places at which it shall hold its sittings.
-
-(6) The Tribunal shall for the purpose of disposal of an appeal preferred under this Act have the same
-powers as are vested in a court of appeal by the Code of Civil Procedure, 1908 (5 of 1908) and shall also
-have the power to stay the operation of the order appealed against on such terms as it may think fit.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34271&sectionno=11&orderno=11&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34271)
+  sectionNo (11)
+  orderNo 11
+  title Tribunal.
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34271&sectionno=11&orderno=11&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_11_content:
+  string
+  line `(1) The Administrator shall, by notification, constitute a Tribunal, to be known as the`
+  line `"Delhi School Tribunal", consisting of one person:`
+  line
+  line `Provided that no person shall be so appointed unless he has held office as a District Judge or any`
+  line `equivalent judicial office.`
+  line
+  line `(2) If any vacancy, other than a temporary absence, occurs in the office of the presiding officer of the`
+  line `Tribunal, the Administrator shall appoint another person, in accordance with the provisions of this`
+  line `section, to fill the vacancy and the proceedings may be continued before the Tribunal from the stage at`
+  line `which the vacancy is filled.`
+  line
+  line `(3) The Administrator shall make available to the Tribunal such staff as may be necessary in the`
+  line `discharge of its functions under this Act.`
+  line
+  line `(4) All expenses incurred in connection with the Tribunal shall be defrayed out of the Consolidated`
+  line `Fund of India.`
+  line
+  line `(5) The Tribunal shall have power to regulate its own procedure in all matters arising out of the`
+  line `discharge of its functions including the place or places at which it shall hold its sittings.`
+  line
+  line `(6) The Tribunal shall for the purpose of disposal of an appeal preferred under this Act have the same`
+  line `powers as are vested in a court of appeal by the Code of Civil Procedure, 1908 (5 of 1908) and shall also`
+  line `have the power to stay the operation of the order appealed against on such terms as it may think fit.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 34252)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Chapter not to apply to unaided minority school.`)
-  (str content) (str `Nothing contained in this Chapter shall
-apply to an unaided minority school.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34252&sectionno=12&orderno=12&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34252)
+  sectionNo (12)
+  orderNo 12
+  title `Chapter not to apply to unaided minority school.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34252&sectionno=12&orderno=12&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_12_content:
+  string
+  line `Nothing contained in this Chapter shall`
+  line `apply to an unaided minority school.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 34253)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Power to prescribe minimum qualifications for recruitment.`)
-  (str content) (str `The Administrator may make
-rules regulating the minimum qualifications for, and method of, recruitment of employees of unaided
-minority schools:
-
-Provided that no qualification shall be varied to the disadvantage of an existing employee of an
-unaided minority school.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34253&sectionno=13&orderno=13&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34253)
+  sectionNo (13)
+  orderNo 13
+  title `Power to prescribe minimum qualifications for recruitment.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34253&sectionno=13&orderno=13&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_13_content:
+  string
+  line `The Administrator may make`
+  line `rules regulating the minimum qualifications for, and method of, recruitment of employees of unaided`
+  line `minority schools:`
+  line
+  line `Provided that no qualification shall be varied to the disadvantage of an existing employee of an`
+  line `unaided minority school.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 34254)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Power to prescribe Code of Conduct.`)
-  (str content) (str `Every employee of an unaided minority school shall be
-governed by such Code of Conduct as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34254&sectionno=14&orderno=14&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34254)
+  sectionNo (14)
+  orderNo 14
+  title `Power to prescribe Code of Conduct.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34254&sectionno=14&orderno=14&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_14_content:
+  string
+  line `Every employee of an unaided minority school shall be`
+  line `governed by such Code of Conduct as may be prescribed.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 34255)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Contract of service.`)
-  (str content) (str `(1) The managing committee of every unaided minority school shall enter
-into a written contract of service with every employee of such school:
-
-Provided that if, at the commencement of this Act, there is no written contract of service in relation to
-any existing employee of an unaided minority school, the managing committee of such school shall enter
-into such contract within a period of three months from such commencement:
-
-Provided further that no contract referred to in the foregoing proviso shall vary to the disadvantage of
-any existing employee the term of any contract subsisting at the commencement of this Act between him
-and the school.
-
-(2) A copy of every contract of service referred to in sub-section (1) shall be forwarded by the
-managing committee of the concerned unaided minority school to the Administrator who shall, on receipt
-of such copy, register it in such manner as may be prescribed.
-
-(3) Every contract of service referred to in sub-section (1) shall provide for the following matters,
-namely:—
-
-(a) the terms and conditions of service of the employee, including the scale of pay and other
-allowances to which he shall be entitled;
-
-(b) the leave of absence, age of retirement, pension and gratuity, or, contributory provident fund
-in lieu of pension and gratuity, and medical and other benefits to which the employee shall be
-entitled;
-
-(c) the penalties which may be imposed on the employee for the violation of any Code of
-Conduct or the breach of any term of the contract entered into by him;
-
-(d) the manner in which disciplinary proceedings in relation to the employee shall be conducted
-and the procedure which shall be followed before any employee is dismissed, removed from service
-or reduced in rank;
-
-(e) arbitration of any dispute arising out of any breach of contract between the employee and the
-managing committee with regard to—
-
-(i) the scales of pay and other allowances,
-
-(ii) leave of absence, age of retirement, pension, gratuity, provident fund, medical and other
-benefits,
-
-(iii) any disciplinary action leading to the dismissal or removal from service or reduction in
-rank of the employee;
-
-(f) any other matter which, in the opinion of the managing committee, ought to be, or may be,
-specified in such contract.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34255&sectionno=15&orderno=15&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34255)
+  sectionNo (15)
+  orderNo 15
+  title `Contract of service.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34255&sectionno=15&orderno=15&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_15_content:
+  string
+  line `(1) The managing committee of every unaided minority school shall enter`
+  line `into a written contract of service with every employee of such school:`
+  line
+  line `Provided that if, at the commencement of this Act, there is no written contract of service in relation to`
+  line `any existing employee of an unaided minority school, the managing committee of such school shall enter`
+  line `into such contract within a period of three months from such commencement:`
+  line
+  line `Provided further that no contract referred to in the foregoing proviso shall vary to the disadvantage of`
+  line `any existing employee the term of any contract subsisting at the commencement of this Act between him`
+  line `and the school.`
+  line
+  line `(2) A copy of every contract of service referred to in sub-section (1) shall be forwarded by the`
+  line `managing committee of the concerned unaided minority school to the Administrator who shall, on receipt`
+  line `of such copy, register it in such manner as may be prescribed.`
+  line
+  line `(3) Every contract of service referred to in sub-section (1) shall provide for the following matters,`
+  line `namely:—`
+  line
+  line `(a) the terms and conditions of service of the employee, including the scale of pay and other`
+  line `allowances to which he shall be entitled;`
+  line
+  line `(b) the leave of absence, age of retirement, pension and gratuity, or, contributory provident fund`
+  line `in lieu of pension and gratuity, and medical and other benefits to which the employee shall be`
+  line entitled;
+  line
+  line `(c) the penalties which may be imposed on the employee for the violation of any Code of`
+  line `Conduct or the breach of any term of the contract entered into by him;`
+  line
+  line `(d) the manner in which disciplinary proceedings in relation to the employee shall be conducted`
+  line `and the procedure which shall be followed before any employee is dismissed, removed from service`
+  line `or reduced in rank;`
+  line
+  line `(e) arbitration of any dispute arising out of any breach of contract between the employee and the`
+  line `managing committee with regard to—`
+  line
+  line `(i) the scales of pay and other allowances,`
+  line
+  line `(ii) leave of absence, age of retirement, pension, gratuity, provident fund, medical and other`
+  line benefits,
+  line
+  line `(iii) any disciplinary action leading to the dismissal or removal from service or reduction in`
+  line `rank of the employee;`
+  line
+  line `(f) any other matter which, in the opinion of the managing committee, ought to be, or may be,`
+  line `specified in such contract.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 34256)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Admission to recognised schools.`)
-  (str content) (str `(1) A child who has not attained the age of five years, shall
-not be admitted to class I, or an equivalent class or any class higher than class I, in a recognised school.
-
-(2) A student seeking admission for the first time in a recognised school in a class higher than class I
-shall not be admitted to that class if his age reduced by the number of years of normal school study
-between that class and class I or an equivalent class, falls short of five years.
-
-(3) Admission to a recognised school or to any class thereof shall be regulated by rules made in this
-behalf.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34256&sectionno=16&orderno=16&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34256)
+  sectionNo (16)
+  orderNo 16
+  title `Admission to recognised schools.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34256&sectionno=16&orderno=16&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_16_content:
+  string
+  line `(1) A child who has not attained the age of five years, shall`
+  line `not be admitted to class I, or an equivalent class or any class higher than class I, in a recognised school.`
+  line
+  line `(2) A student seeking admission for the first time in a recognised school in a class higher than class I`
+  line `shall not be admitted to that class if his age reduced by the number of years of normal school study`
+  line `between that class and class I or an equivalent class, falls short of five years.`
+  line
+  line `(3) Admission to a recognised school or to any class thereof shall be regulated by rules made in this`
+  line behalf.
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 34257)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Fees and other charges.`)
-  (str content) (str `(1) No aided school shall levy any fee or collect any other charge or
-receive any other payment except those specified by the Director.
-
-(2) Every aided school having different rates of fees or other charges or different funds shall obtain
-prior approval of the prescribed authority before levying such fees or collecting such charges or creating
-such funds.
-
-(3) The manager of every recognised school shall, before the commencement of each academic
-session, file with the Director a full statement of the fees to be levied by such school during the ensuing
-academic session, and except with the prior approval of the Director, no such school shall charge, during
-that academic session, any fee in excess of the fee specified by its manager in the said statement.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34257&sectionno=17&orderno=17&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34257)
+  sectionNo (17)
+  orderNo 17
+  title `Fees and other charges.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34257&sectionno=17&orderno=17&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_17_content:
+  string
+  line `(1) No aided school shall levy any fee or collect any other charge or`
+  line `receive any other payment except those specified by the Director.`
+  line
+  line `(2) Every aided school having different rates of fees or other charges or different funds shall obtain`
+  line `prior approval of the prescribed authority before levying such fees or collecting such charges or creating`
+  line `such funds.`
+  line
+  line `(3) The manager of every recognised school shall, before the commencement of each academic`
+  line `session, file with the Director a full statement of the fees to be levied by such school during the ensuing`
+  line `academic session, and except with the prior approval of the Director, no such school shall charge, during`
+  line `that academic session, any fee in excess of the fee specified by its manager in the said statement.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 34258)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `School Fund.`)
-  (str content) (str `(1) In every aided school, there shall be a fund, to be called the "School Fund",
-and there shall be credited thereto—
-
-(a) any aid granted by the Administrator,
-
-(b) income accruing to the school by way of fees, charges or other payments, and
-
-(c) any other contributions, endowments and the like.
-
-(2) The School Fund and all other funds, including the Pupils' Fund, established with the approval of
-the Administrator, shall be accounted for and operated in accordance with the rules made under this Act.
-
-(3) In every recognised unaided school, there shall be a fund, to be called the "Recognised Unaided
-School Fund", and there shall be credited thereto income accruing to the school by way of—
-
-(a) fees,
-
-(b) any charges and payments which may be realised by the school for other specific purposes,
-and
-
-(c) any other contributions, endowments, gifts and the like,
-
-(4) (a) Income derived by unaided schools by way of fees shall be utilised only for such educational
-purposes as may be prescribed; and
-
-(b) charges and payments realised and all other contributions, endowments and gifts received by the
-school shall be utilised only for the specific purpose for which they were realised or received.
-
-(5) The managing committee of every recognised private school shall file every year with the
-Director such duly audited financial and other returns as may be prescribed, and every such return shall
-be audited by such authority as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34258&sectionno=18&orderno=18&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34258)
+  sectionNo (18)
+  orderNo 18
+  title `School Fund.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34258&sectionno=18&orderno=18&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_18_content:
+  string
+  line `(1) In every aided school, there shall be a fund, to be called the "School Fund",`
+  line `and there shall be credited thereto—`
+  line
+  line `(a) any aid granted by the Administrator,`
+  line
+  line `(b) income accruing to the school by way of fees, charges or other payments, and`
+  line
+  line `(c) any other contributions, endowments and the like.`
+  line
+  line `(2) The School Fund and all other funds, including the Pupils' Fund, established with the approval of`
+  line `the Administrator, shall be accounted for and operated in accordance with the rules made under this Act.`
+  line
+  line `(3) In every recognised unaided school, there shall be a fund, to be called the "Recognised Unaided`
+  line `School Fund", and there shall be credited thereto income accruing to the school by way of—`
+  line
+  line `(a) fees,`
+  line
+  line `(b) any charges and payments which may be realised by the school for other specific purposes,`
+  line and
+  line
+  line `(c) any other contributions, endowments, gifts and the like,`
+  line
+  line `(4) (a) Income derived by unaided schools by way of fees shall be utilised only for such educational`
+  line `purposes as may be prescribed; and`
+  line
+  line `(b) charges and payments realised and all other contributions, endowments and gifts received by the`
+  line `school shall be utilised only for the specific purpose for which they were realised or received.`
+  line
+  line `(5) The managing committee of every recognised private school shall file every year with the`
+  line `Director such duly audited financial and other returns as may be prescribed, and every such return shall`
+  line `be audited by such authority as may be prescribed.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 34259)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str Affiliations.)
-  (str content) (str `(1) For the purpose of any public examination every recognised higher secondary
-school shall be affiliated to one or more of the Boards or Council conducting such examination and shall
-fulfil the conditions specified by the Board or Council in this behalf.
-
-(2) The students of recognised higher secondary schools shall be prepared for, and presented to, the
-public examinations or such other form of evaluation held or made for the students of such schools.
-
-(3) The students of every recognised middle school shall be prepared for, and presented to, such
-public examination as may be held by the Directorate of Education, Delhi, for the students of such
-schools.
-
-(4) Every student of a recognised primary school shall be prepared for, and presented to, the public
-examination held by a local authority competent to hold such examination for the students of such
-schools.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34259&sectionno=19&orderno=19&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34259)
+  sectionNo (19)
+  orderNo 19
+  title Affiliations.
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34259&sectionno=19&orderno=19&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_19_content:
+  string
+  line `(1) For the purpose of any public examination every recognised higher secondary`
+  line `school shall be affiliated to one or more of the Boards or Council conducting such examination and shall`
+  line `fulfil the conditions specified by the Board or Council in this behalf.`
+  line
+  line `(2) The students of recognised higher secondary schools shall be prepared for, and presented to, the`
+  line `public examinations or such other form of evaluation held or made for the students of such schools.`
+  line
+  line `(3) The students of every recognised middle school shall be prepared for, and presented to, such`
+  line `public examination as may be held by the Directorate of Education, Delhi, for the students of such`
+  line schools.
+  line
+  line `(4) Every student of a recognised primary school shall be prepared for, and presented to, the public`
+  line `examination held by a local authority competent to hold such examination for the students of such`
+  line schools.
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 34260)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Taking over the management of schools.`)
-  (str content) (str `(1) Whenever the Administrator is satisfied that the
-managing committee or manager of any school, whether recognised or not, has neglected to perform any
-of the duties imposed on it by or under this Act or any rule made thereunder and that it is expedient in the
-interests of school education to take over the management of such school, he may, after giving the
-managing committee or the manager of such school, a reasonable opportunity of showing cause against
-the proposed action, take over the management of such school for a limited period not exceeding three
-years:
-
-Provided that where the management of a school has been taken over for a period of three years or
-less, the Administrator may, if he is of opinion that in order to secure proper management of the school it
-is expedient that such management should continue to be in force after the expiry of the said limited
-period, he may, from time to time, issue directions for the continuance of such management for such
-period not exceeding one year at a time as he may think fit, so, however, that the total period for which
-such management is taken over shall not, in any case, exceed five years.
-
-(2) Whenever the management of any school is taken over under sub-section (1), every person in
-charge of the management of such school immediately before its management is taken over, shall deliver
-possession of the school property to the Administrator or any officer authorised by him in this behalf.
-
-(3) After taking over the management of any school under this section, the Administrator may arrange
-to manage the school through the Director or any other person authorised by the Director in this behalf
-(hereinafter referred to as the "authorised officer").
-
-(4) Where the management of any school has been taken over under sub-section (1), the managing
-committee or manager of such school may, within three months from the date of taking over, appeal to
-the Administrator, who may after considering the representation made by the managing committee or the
-manager, pass such orders, including an order for the restoration of the management or for the reduction
-of the period during which the management of such school shall remain vested in the Administrator, as he
-may deem fit.
-
-(5) Where the management of a school has been taken over under this section, the Administrator shall
-pay such rent as may be payable for the building of the school to the person entitled to receive it as was
-being paid by the managing committee or the manager immediately before the management of such
-school was taken over.
-
-(6) During such period as any school remains under the management of the authorised officer—
-
-(a) the service conditions, as approved by the Administrator, of the employees of the school who
-were in employment immediately before the date on which the management was taken over, shall not
-be varied to their disadvantage;
-
-(b) all educational facilities which the school had been affording immediately before such
-management was taken over, shall continue to be afforded;
-
-(c) the School Fund, the Pupils Fund and the Management Fund and any other existing fund
-shall continue to be available to the authorised officer for being spent for the purposes of the school;
-and
-
-(d) no resolution passed at any meeting of the managing committee of such school shall be given
-effect to unless approved by the Administrator.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34260&sectionno=20&orderno=20&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34260)
+  sectionNo (20)
+  orderNo 20
+  title `Taking over the management of schools.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34260&sectionno=20&orderno=20&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_20_content:
+  string
+  line `(1) Whenever the Administrator is satisfied that the`
+  line `managing committee or manager of any school, whether recognised or not, has neglected to perform any`
+  line `of the duties imposed on it by or under this Act or any rule made thereunder and that it is expedient in the`
+  line `interests of school education to take over the management of such school, he may, after giving the`
+  line `managing committee or the manager of such school, a reasonable opportunity of showing cause against`
+  line `the proposed action, take over the management of such school for a limited period not exceeding three`
+  line `years:`
+  line
+  line `Provided that where the management of a school has been taken over for a period of three years or`
+  line `less, the Administrator may, if he is of opinion that in order to secure proper management of the school it`
+  line `is expedient that such management should continue to be in force after the expiry of the said limited`
+  line `period, he may, from time to time, issue directions for the continuance of such management for such`
+  line `period not exceeding one year at a time as he may think fit, so, however, that the total period for which`
+  line `such management is taken over shall not, in any case, exceed five years.`
+  line
+  line `(2) Whenever the management of any school is taken over under sub-section (1), every person in`
+  line `charge of the management of such school immediately before its management is taken over, shall deliver`
+  line `possession of the school property to the Administrator or any officer authorised by him in this behalf.`
+  line
+  line `(3) After taking over the management of any school under this section, the Administrator may arrange`
+  line `to manage the school through the Director or any other person authorised by the Director in this behalf`
+  line `(hereinafter referred to as the "authorised officer").`
+  line
+  line `(4) Where the management of any school has been taken over under sub-section (1), the managing`
+  line `committee or manager of such school may, within three months from the date of taking over, appeal to`
+  line `the Administrator, who may after considering the representation made by the managing committee or the`
+  line `manager, pass such orders, including an order for the restoration of the management or for the reduction`
+  line `of the period during which the management of such school shall remain vested in the Administrator, as he`
+  line `may deem fit.`
+  line
+  line `(5) Where the management of a school has been taken over under this section, the Administrator shall`
+  line `pay such rent as may be payable for the building of the school to the person entitled to receive it as was`
+  line `being paid by the managing committee or the manager immediately before the management of such`
+  line `school was taken over.`
+  line
+  line `(6) During such period as any school remains under the management of the authorised officer—`
+  line
+  line `(a) the service conditions, as approved by the Administrator, of the employees of the school who`
+  line `were in employment immediately before the date on which the management was taken over, shall not`
+  line `be varied to their disadvantage;`
+  line
+  line `(b) all educational facilities which the school had been affording immediately before such`
+  line `management was taken over, shall continue to be afforded;`
+  line
+  line `(c) the School Fund, the Pupils Fund and the Management Fund and any other existing fund`
+  line `shall continue to be available to the authorised officer for being spent for the purposes of the school;`
+  line and
+  line
+  line `(d) no resolution passed at any meeting of the managing committee of such school shall be given`
+  line `effect to unless approved by the Administrator.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 34261)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Section 20 not to apply to minority schools.`)
-  (str content) (str `Nothing contained in section 20 shall apply to
-any minority school.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34261&sectionno=21&orderno=21&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34261)
+  sectionNo (21)
+  orderNo 21
+  title `Section 20 not to apply to minority schools.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34261&sectionno=21&orderno=21&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_21_content:
+  string
+  line `Nothing contained in section 20 shall apply to`
+  line `any minority school.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 34262)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Delhi Schools Education Advisory Board.`)
-  (str content) (str `(1) There shall be an Advisory Board for school
-education, to be called the "Delhi School Education Advisory Board" for the purpose of advising the
-Administrator on matters of policy relating to education in Delhi.
-
-(2) The Advisory Board shall be constituted by the Administrator and shall consist of a Chairman and
-fourteen other members, to be nominated by the Administrator.
-
-(3) The Advisory Board constituted under sub-section (2) shall include—
-
-(a) Heads of recognised private schools;
-
-(b) representatives of the organisations of teachers of the recognised private schools;
-
-(c) managers of the recognised private schools;
-
-(d) representatives of parents or guardians of students of recognised private schools; and
-
-(e) eminent educationists.
-
-(4) The Advisory Board shall regulate its own procedure.
-
-(5) The terms of office of every member of the Board and travelling and other allowances payable to
-a member of the Board shall be such as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34262&sectionno=22&orderno=22&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34262)
+  sectionNo (22)
+  orderNo 22
+  title `Delhi Schools Education Advisory Board.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34262&sectionno=22&orderno=22&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_22_content:
+  string
+  line `(1) There shall be an Advisory Board for school`
+  line `education, to be called the "Delhi School Education Advisory Board" for the purpose of advising the`
+  line `Administrator on matters of policy relating to education in Delhi.`
+  line
+  line `(2) The Advisory Board shall be constituted by the Administrator and shall consist of a Chairman and`
+  line `fourteen other members, to be nominated by the Administrator.`
+  line
+  line `(3) The Advisory Board constituted under sub-section (2) shall include—`
+  line
+  line `(a) Heads of recognised private schools;`
+  line
+  line `(b) representatives of the organisations of teachers of the recognised private schools;`
+  line
+  line `(c) managers of the recognised private schools;`
+  line
+  line `(d) representatives of parents or guardians of students of recognised private schools; and`
+  line
+  line `(e) eminent educationists.`
+  line
+  line `(4) The Advisory Board shall regulate its own procedure.`
+  line
+  line `(5) The terms of office of every member of the Board and travelling and other allowances payable to`
+  line `a member of the Board shall be such as may be prescribed.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 34263)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Delegation of powers.`)
-  (str content) (str `(1) The Administrator may delegate all or any of his powers, duties and
-functions under this Act to the Director or any other officer.
-
-(2) Every person to whom any power is delegated under sub-section (1), may exercise that power in
-the same manner and with the same effect as if such power had been conferred on him directly by this Act
-and not by way of delegation.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34263&sectionno=23&orderno=23&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34263)
+  sectionNo (23)
+  orderNo 23
+  title `Delegation of powers.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34263&sectionno=23&orderno=23&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_23_content:
+  string
+  line `(1) The Administrator may delegate all or any of his powers, duties and`
+  line `functions under this Act to the Director or any other officer.`
+  line
+  line `(2) Every person to whom any power is delegated under sub-section (1), may exercise that power in`
+  line `the same manner and with the same effect as if such power had been conferred on him directly by this Act`
+  line `and not by way of delegation.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 34264)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Inspection of schools.`)
-  (str content) (str `(1) Every recognised school shall be inspected at least once in each
-financial year in such manner as may be prescribed.
-
-(2) The Director may also arrange special inspection of any school on such aspects of its working as
-may, from time to time, be considered necessary by him.
-
-(3) The Director may give directions to the manager requiring the manager to rectify any defect or
-deficiency found at the time of inspection or otherwise in the working of the school.
-
-(4) If the manager fails to comply with any direction given under sub-section (3), the Director may,
-after considering the explanation or report, if any, given or made by the manager, take such action as he
-may think fit, including—
-
-(a) stoppage of aid,
-
-(b) withdrawal of recognition, or
-
-(c) except in the case of a minority school, taking over of the school under section 20.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34264&sectionno=24&orderno=24&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34264)
+  sectionNo (24)
+  orderNo 24
+  title `Inspection of schools.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34264&sectionno=24&orderno=24&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_24_content:
+  string
+  line `(1) Every recognised school shall be inspected at least once in each`
+  line `financial year in such manner as may be prescribed.`
+  line
+  line `(2) The Director may also arrange special inspection of any school on such aspects of its working as`
+  line `may, from time to time, be considered necessary by him.`
+  line
+  line `(3) The Director may give directions to the manager requiring the manager to rectify any defect or`
+  line `deficiency found at the time of inspection or otherwise in the working of the school.`
+  line
+  line `(4) If the manager fails to comply with any direction given under sub-section (3), the Director may,`
+  line `after considering the explanation or report, if any, given or made by the manager, take such action as he`
+  line `may think fit, including—`
+  line
+  line `(a) stoppage of aid,`
+  line
+  line `(b) withdrawal of recognition, or`
+  line
+  line `(c) except in the case of a minority school, taking over of the school under section 20.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 34265)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Jurisdiction of civil courts barred.`)
-  (str content) (str `No civil court shall have jurisdiction in respect of any
-matter in relation to which the Administrator or the Director or any other person authorised by the
-Administrator or Director or any other officer or authority appointed or specified by or under this Act, is
-empowered by or under this Act to exercise any power, and no injunction shall be granted by any civil
-court in respect of anything which is done or intended to be done by or under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34265&sectionno=25&orderno=25&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34265)
+  sectionNo (25)
+  orderNo 25
+  title `Jurisdiction of civil courts barred.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34265&sectionno=25&orderno=25&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_25_content:
+  string
+  line `No civil court shall have jurisdiction in respect of any`
+  line `matter in relation to which the Administrator or the Director or any other person authorised by the`
+  line `Administrator or Director or any other officer or authority appointed or specified by or under this Act, is`
+  line `empowered by or under this Act to exercise any power, and no injunction shall be granted by any civil`
+  line `court in respect of anything which is done or intended to be done by or under this Act.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 34266)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `No suit, prosecution or other legal proceeding shall
-lie against the Administrator, Director or any other person authorised by the Administrator or Director for
-anything which is in good faith done or intended to be done in pursuance of this Act or any rule made
-thereunder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34266&sectionno=26&orderno=26&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34266)
+  sectionNo (26)
+  orderNo 26
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34266&sectionno=26&orderno=26&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_26_content:
+  string
+  line `No suit, prosecution or other legal proceeding shall`
+  line `lie against the Administrator, Director or any other person authorised by the Administrator or Director for`
+  line `anything which is in good faith done or intended to be done in pursuance of this Act or any rule made`
+  line thereunder.
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 34267)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 27)
-  (str title) (str `Liability of manager to punishment.`)
-  (str content) (str `If the manager of any recognised private school.—
-
-(a) omits or fails, without any reasonable excuse, to carry out any orders made by the Tribunal, or
-
-(b) presents any student for any public examination without complying with the provisions of
-section 19, or
-
-(c) omits or fails to deliver any school property to the Administrator or any officer authorised by
-him under sub-section (2) of section 20,
-
-he shall be punished with imprisonment for a term which may extend to three months, or with fine which
-may extend to one thousand rupees, or with both.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34267&sectionno=27&orderno=27&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34267)
+  sectionNo (27)
+  orderNo 27
+  title `Liability of manager to punishment.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34267&sectionno=27&orderno=27&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_27_content:
+  string
+  line `If the manager of any recognised private school.—`
+  line
+  line `(a) omits or fails, without any reasonable excuse, to carry out any orders made by the Tribunal, or`
+  line
+  line `(b) presents any student for any public examination without complying with the provisions of`
+  line `section 19, or`
+  line
+  line `(c) omits or fails to deliver any school property to the Administrator or any officer authorised by`
+  line `him under sub-section (2) of section 20,`
+  line
+  line `he shall be punished with imprisonment for a term which may extend to three months, or with fine which`
+  line `may extend to one thousand rupees, or with both.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_sections_28:
-  object
-  (str sectionId) (str 34268)
-  (str sectionNo) (str 28)
-  (str orderNo) (int 28)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Administrator may, with the previous approval of the Central
-Government, and subject to the condition of previous publication, by notification, make rules to carry out
-the provisions of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:—
-
-(a) the manner in which education may be regulated by the Administrator in Delhi;
-
-(b) the conditions which every existing school shall be required to comply;
-
-(c) establishment of a new school or the opening of a higher class or the closing down of an
-existing class in an existing school;
-
-(d) the form and manner in which an application for recognition of a school shall be made;
-
-(e) the facilities to be provided by a school to obtain recognition;
-
-(f) the manner in which, and the authority to which, an appeal against the refusal or withdrawal of
-recognition shall be made;
-
-(g) the minimum qualifications for, and method of recruitment, and the terms and conditions of
-service of employees;
-
-(h) the authorities to be specified for the purposes of the different provisions of this Act;
-
-(i) the particulars which a scheme of management shall contain, and the manner in which such
-scheme shall be made;
-
-(j) variations and modifications which may be made in the scheme of management for a
-recognised school which does not receive any aid;
-
-(k) the conditions under which aid may be granted to recognised schools, and on the violation of
-which aid may be stopped, reduced or suspended;
-
-(l) the part of the expenditure of a recognised school which is to be covered by aid;
-
-(m) particulars of school property which should be furnished to the appropriate authority;
-
-(n) the form in which, and the time within which, an appeal shall be preferred to the
-Administrator against an order made in relation to the transfer, mortgage or lien of any school
-property;
-
-(o) the Code of Conduct for the employees and the disciplinary action to be taken for the
-violation thereof;
-
-(p) the benefits which should be granted to the employees of recognised private schools;
-
-(q) admissions to a recognised school;
-
-(r) fees and other charges which may be collected by an aided school;
-
-(s) the manner of inspection of recognised schools;
-
-(t) the term of office, travelling and other allowances payable to the members of the Advisory
-Board;
-
-(u) financial and other returns to be filed by the managing committee of recognised private
-schools, and the authority by which such returns shall be audited;
-
-(v) educational purposes for which the income derived by way of fees by recognised unaided
-schools shall be spent;
-
-(w) manner of accounting and operation of school funds and other funds of a recognised private
-school;
-
-(x) fees, not exceeding one rupee, for preferring any appeal under this Act;
-
-(y) any other matter which is to be, or may be, prescribed under this Act.
-
-(3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each
-House of Parliament while it is in session for a total period of thirty days which may be comprised in one
-session or in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid, both Houses agree in making any modification
-in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only
-in such modified form or be of no effect, as the case may be, so, however, that any such modification or
-annualment shall be without prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34268&sectionno=28&orderno=28&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34268)
+  sectionNo (28)
+  orderNo 28
+  title `Power to make rules.`
+  content obj_root_law_sections_28_content
+  footnotes obj_root_law_sections_28_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34268&sectionno=28&orderno=28&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_28_content:
+  string
+  line `(1) The Administrator may, with the previous approval of the Central`
+  line `Government, and subject to the condition of previous publication, by notification, make rules to carry out`
+  line `the provisions of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:—`
+  line
+  line `(a) the manner in which education may be regulated by the Administrator in Delhi;`
+  line
+  line `(b) the conditions which every existing school shall be required to comply;`
+  line
+  line `(c) establishment of a new school or the opening of a higher class or the closing down of an`
+  line `existing class in an existing school;`
+  line
+  line `(d) the form and manner in which an application for recognition of a school shall be made;`
+  line
+  line `(e) the facilities to be provided by a school to obtain recognition;`
+  line
+  line `(f) the manner in which, and the authority to which, an appeal against the refusal or withdrawal of`
+  line `recognition shall be made;`
+  line
+  line `(g) the minimum qualifications for, and method of recruitment, and the terms and conditions of`
+  line `service of employees;`
+  line
+  line `(h) the authorities to be specified for the purposes of the different provisions of this Act;`
+  line
+  line `(i) the particulars which a scheme of management shall contain, and the manner in which such`
+  line `scheme shall be made;`
+  line
+  line `(j) variations and modifications which may be made in the scheme of management for a`
+  line `recognised school which does not receive any aid;`
+  line
+  line `(k) the conditions under which aid may be granted to recognised schools, and on the violation of`
+  line `which aid may be stopped, reduced or suspended;`
+  line
+  line `(l) the part of the expenditure of a recognised school which is to be covered by aid;`
+  line
+  line `(m) particulars of school property which should be furnished to the appropriate authority;`
+  line
+  line `(n) the form in which, and the time within which, an appeal shall be preferred to the`
+  line `Administrator against an order made in relation to the transfer, mortgage or lien of any school`
+  line property;
+  line
+  line `(o) the Code of Conduct for the employees and the disciplinary action to be taken for the`
+  line `violation thereof;`
+  line
+  line `(p) the benefits which should be granted to the employees of recognised private schools;`
+  line
+  line `(q) admissions to a recognised school;`
+  line
+  line `(r) fees and other charges which may be collected by an aided school;`
+  line
+  line `(s) the manner of inspection of recognised schools;`
+  line
+  line `(t) the term of office, travelling and other allowances payable to the members of the Advisory`
+  line Board;
+  line
+  line `(u) financial and other returns to be filed by the managing committee of recognised private`
+  line `schools, and the authority by which such returns shall be audited;`
+  line
+  line `(v) educational purposes for which the income derived by way of fees by recognised unaided`
+  line `schools shall be spent;`
+  line
+  line `(w) manner of accounting and operation of school funds and other funds of a recognised private`
+  line school;
+  line
+  line `(x) fees, not exceeding one rupee, for preferring any appeal under this Act;`
+  line
+  line `(y) any other matter which is to be, or may be, prescribed under this Act.`
+  line
+  line `(3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each`
+  line `House of Parliament while it is in session for a total period of thirty days which may be comprised in one`
+  line `session or in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid, both Houses agree in making any modification`
+  line `in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only`
+  line `in such modified form or be of no effect, as the case may be, so, however, that any such modification or`
+  line `annualment shall be without prejudice to the validity of anything previously done under that rule.`
+obj_root_law_sections_28_footnotes:
+  string
+  line
 obj_root_law_sections_29:
-  object
-  (str sectionId) (str 34269)
-  (str sectionNo) (str 29)
-  (str orderNo) (int 29)
-  (str title) (str `Power to remove difficulties.`)
-  (str content) (str `If any difficulty arises in giving effect to the provisions of this
-Act, the Central Government may, by order not inconsistent with the provisions of this Act, remove the
-difficulty:
-
-Provided that no such order shall be made after the expiry of a period of two years from the
-commencement of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34269&sectionno=29&orderno=29&orgactid=AC_CEN_9_9_00001_197318_1517807317397)
+  sectionId (34269)
+  sectionNo (29)
+  orderNo 29
+  title `Power to remove difficulties.`
+  content obj_root_law_sections_29_content
+  footnotes obj_root_law_sections_29_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_9_9_00001_197318_1517807317397&sectionId=34269&sectionno=29&orderno=29&orgactid=AC_CEN_9_9_00001_197318_1517807317397
+obj_root_law_sections_29_content:
+  string
+  line `If any difficulty arises in giving effect to the provisions of this`
+  line `Act, the Central Government may, by order not inconsistent with the provisions of this Act, remove the`
+  line `difficulty:`
+  line
+  line `Provided that no such order shall be made after the expiry of a period of two years from the`
+  line `commencement of this Act.`
+obj_root_law_sections_29_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `दिल्‍ली विद्यालय शिक्षा अधिनियम, 1973`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1456/3/H1973-18.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T12:03:16.122Z`)
-  (str pageCount) (int 11)
-  (str sections) obj_root_law_translations_hi_sections
+  title `दिल्‍ली विद्यालय शिक्षा अधिनियम, 1973`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1456/3/H1973-18.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T12:03:16.122Z`
+  pageCount 11
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -979,540 +1112,595 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_10
   obj_root_law_translations_hi_sections_11
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `दिल्ली विद्यालयविक्षा अविवियम, 1973
-( 1973 काअविवियमसंखयां क 18 )
-[9 अप्रैल, 1973 ]
-दिल्ली संघराज्य क्षेत्र मेंविद्यालयविक्षाकीअविकअच्छी व् य िस्था
-औरविकासकेवलएऔरउससेसम्ब द्ध याअिुषंगीमामलों
-केवलएउपबन्ि करिेकेवलए
-अविवियम
-भारतगणरा ज् य के चौबीसिेंिषषमेंसंसि्द्वाराविम्ि वलवितरूपमेंयहअविवियवमतहो: —
-1. संवक्षप्त िाम, विस्ता र औरप्रारंभ — ( 1 )इसअविवियमकासंवक्षप्त िाम दिल्ली विद्यालयविक्षा अविवियम, 1973 है।
-( 2 ) इसकाविस्ता रसम्पू णषदिल्ली संघराज्य क्षेत्र परहै।
-(3) यहउसतारीिकोप्रिृत्तहोगाजोप्रिासक,अविसूचिाद्वारावियतकरेऔरइसअविवियमकेविवभन्ि उपबन्िों के
-वलएविवभन्ि तारीिेंवियतकीजासकतीहैं,औरइसअविवियमकेदकसीउपबन्ि केसम्ब न् ि मेंइसअविवियमकेप्रारम्भ केप्रवत
-दकसीवििेिकायहअथष लगायाजाएगादकिहउसतारीिकेप्रवतवििेिहैवजसकोिहउपबन्ि प्र िृत्तहोगा।
-2. पररभाषा एं — इसअविवियममें,जबतकदकसन्ि भषसेअन्य थाअपेवक्षतिहो, —
-(क) “ प्र िासक ” सेसंवििािकेअिुच्छे ि 239 केअिीिराष्‍टर पवतद्वारावियुक्त दिल्ली संघराज्य क्षे त्र काप्रिासक
-अवभप्रेतहै;
-(ि) “ सलाहकारबोर्ष ” सेिारा 22 मेंविर्िषष्‍टट बोर्षअवभप्रेतहै;
-(ग) “ सहायता ” सेकेन्री यसरकार,प्रिासक,स्था िीयप्राविकारीयाकेन्री यसरकार,प्रिास क यास्था िीय प्र
-ाविकारीद्वाराअवभवहतदकसीअन्य प्र ाविकारीद्वारा दकसीमान्य ताप्राप्त विद्यालयकोिीगईसहायताअवभप्रेतहै;
-(घ) “ सहायतापािेिालाविद्यालय ” सेिहमान्य ताप्राप्त प्र ाइिेटविद्यालयअवभप्रेतहैजोकेन्री यसरकार, प्र
-िासकयास्था िीयप्राविकारीयाकेन्री यसरकार,प्रिासकयास्था िीयप्राविकारीद्वारा अवभवहतदकसीअन्य प्र ाविकारी
-सेचलािेकेवलएअिुिािकेरूपमेंसहायताप्राप्त कररहाहै;
-( ङ ) “ समुवचतप्राविकारी ” सेअवभप्रेतहै —
-( i ) केन्री य सरकार द्व ाराअवभवहतयाप्रायोवजतप्राविकारीद्वारामान्य ताप्राप्त यामान्य तादिएजािे
-िालेविद्यालयकी ििामें,िहप्राविकारी;
-( ii ) दिल्ली प्र िासिद्वारामान्य ताप्राप्त यामा न् य ता दिएजािेिालेविद्यालयकीििामें,प्रिासकया
-उसकेद्वाराइसविवमत्तप्राविकृतकोईअन्य अविकारी;
-( iii ) दिल्ली िगरविगमद्वारामान्य ताप्राप्त यामान्य तादिएजािेिालेवि द्य ालयकीििामें,दिल्ली
-िगरविगम;
-( iv ) दकसीअन्य विद्यालयकीििामें,प्रिासकयाउसकेद्वाराइसविवमत्तप्राविकृतकोईअन्य
-अविकारी;
-( च ) “ दिल्ली ” सेदिल्ली संघराज्य क्षेत्र अवभप्रेतहै;
-(छ ) “ वििेिक ” सेदिल्ली काविक्षावििेिकअवभप्रेतहैऔरइ सकेअन्त गषतइसअविवियमकेअिीिवििेिकके
-सभीयादकन्हीं कृत्यों कोकरिेकेवलएउसकेद्वाराप्राविकृतकोईअन्य अविकारीभीहै;
-(ज ) “ कमषचारी ” सेकोईअध्या पकअवभप्रेतहैऔरइसकेअन्त गषतमान्य ताप्राप्त विद्यालयमेंकामकरिेिाला प्रत्
-ये ककमषचारीहै;
-( झ ) “ विद्यमािकमषचारी ” सेविद्यमािविद्यालयकाऐसाकमषचारीअवभप्रेतहैजोइसअविवियमकेप्रारम्भ के
-ठीकपहलेऐसेविद्यालयमेंवियोवजतहै,औरइसकेअन्त गषतऐसाकमषचारीभीहैजो ऐसे विद्यालयमें 2 वसतम्ब र, 1972 के
-ठीकपूिषितीबारहमाससेअन्यू ि कालािविकेवलएवियोवजतथा;
-( ञ ) “ विद्यमािविद्यालय ” सेइसअविवियमकेप्रारम्भ परविद्यमािमान्य ताप्राप्त प्र ाइिेटविद्यालयअवभप्रेतहै;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `दिल्ली विद्यालयविक्षा अविवियम, 1973`
+  line `( 1973 काअविवियमसंखयां क 18 )`
+  line `[9 अप्रैल, 1973 ]`
+  line `दिल्ली संघराज्य क्षेत्र मेंविद्यालयविक्षाकीअविकअच्छी व् य िस्था`
+  line `औरविकासकेवलएऔरउससेसम्ब द्ध याअिुषंगीमामलों`
+  line `केवलएउपबन्ि करिेकेवलए`
+  line अविवियम
+  line `भारतगणरा ज् य के चौबीसिेंिषषमेंसंसि्द्वाराविम्ि वलवितरूपमेंयहअविवियवमतहो: —`
+  line `1. संवक्षप्त िाम, विस्ता र औरप्रारंभ — ( 1 )इसअविवियमकासंवक्षप्त िाम दिल्ली विद्यालयविक्षा अविवियम, 1973 है।`
+  line `( 2 ) इसकाविस्ता रसम्पू णषदिल्ली संघराज्य क्षेत्र परहै।`
+  line `(3) यहउसतारीिकोप्रिृत्तहोगाजोप्रिासक,अविसूचिाद्वारावियतकरेऔरइसअविवियमकेविवभन्ि उपबन्िों के`
+  line `वलएविवभन्ि तारीिेंवियतकीजासकतीहैं,औरइसअविवियमकेदकसीउपबन्ि केसम्ब न् ि मेंइसअविवियमकेप्रारम्भ केप्रवत`
+  line `दकसीवििेिकायहअथष लगायाजाएगादकिहउसतारीिकेप्रवतवििेिहैवजसकोिहउपबन्ि प्र िृत्तहोगा।`
+  line `2. पररभाषा एं — इसअविवियममें,जबतकदकसन्ि भषसेअन्य थाअपेवक्षतिहो, —`
+  line `(क) “ प्र िासक ” सेसंवििािकेअिुच्छे ि 239 केअिीिराष्‍टर पवतद्वारावियुक्त दिल्ली संघराज्य क्षे त्र काप्रिासक`
+  line अवभप्रेतहै;
+  line `(ि) “ सलाहकारबोर्ष ” सेिारा 22 मेंविर्िषष्‍टट बोर्षअवभप्रेतहै;`
+  line `(ग) “ सहायता ” सेकेन्री यसरकार,प्रिासक,स्था िीयप्राविकारीयाकेन्री यसरकार,प्रिास क यास्था िीय प्र`
+  line `ाविकारीद्वाराअवभवहतदकसीअन्य प्र ाविकारीद्वारा दकसीमान्य ताप्राप्त विद्यालयकोिीगईसहायताअवभप्रेतहै;`
+  line `(घ) “ सहायतापािेिालाविद्यालय ” सेिहमान्य ताप्राप्त प्र ाइिेटविद्यालयअवभप्रेतहैजोकेन्री यसरकार, प्र`
+  line `िासकयास्था िीयप्राविकारीयाकेन्री यसरकार,प्रिासकयास्था िीयप्राविकारीद्वारा अवभवहतदकसीअन्य प्र ाविकारी`
+  line `सेचलािेकेवलएअिुिािकेरूपमेंसहायताप्राप्त कररहाहै;`
+  line `( ङ ) “ समुवचतप्राविकारी ” सेअवभप्रेतहै —`
+  line `( i ) केन्री य सरकार द्व ाराअवभवहतयाप्रायोवजतप्राविकारीद्वारामान्य ताप्राप्त यामान्य तादिएजािे`
+  line `िालेविद्यालयकी ििामें,िहप्राविकारी;`
+  line `( ii ) दिल्ली प्र िासिद्वारामान्य ताप्राप्त यामा न् य ता दिएजािेिालेविद्यालयकीििामें,प्रिासकया`
+  line `उसकेद्वाराइसविवमत्तप्राविकृतकोईअन्य अविकारी;`
+  line `( iii ) दिल्ली िगरविगमद्वारामान्य ताप्राप्त यामान्य तादिएजािेिालेवि द्य ालयकीििामें,दिल्ली`
+  line िगरविगम;
+  line `( iv ) दकसीअन्य विद्यालयकीििामें,प्रिासकयाउसकेद्वाराइसविवमत्तप्राविकृतकोईअन्य`
+  line अविकारी;
+  line `( च ) “ दिल्ली ” सेदिल्ली संघराज्य क्षेत्र अवभप्रेतहै;`
+  line `(छ ) “ वििेिक ” सेदिल्ली काविक्षावििेिकअवभप्रेतहैऔरइ सकेअन्त गषतइसअविवियमकेअिीिवििेिकके`
+  line `सभीयादकन्हीं कृत्यों कोकरिेकेवलएउसकेद्वाराप्राविकृतकोईअन्य अविकारीभीहै;`
+  line `(ज ) “ कमषचारी ” सेकोईअध्या पकअवभप्रेतहैऔरइसकेअन्त गषतमान्य ताप्राप्त विद्यालयमेंकामकरिेिाला प्रत्`
+  line `ये ककमषचारीहै;`
+  line `( झ ) “ विद्यमािकमषचारी ” सेविद्यमािविद्यालयकाऐसाकमषचारीअवभप्रेतहैजोइसअविवियमकेप्रारम्भ के`
+  line `ठीकपहलेऐसेविद्यालयमेंवियोवजतहै,औरइसकेअन्त गषतऐसाकमषचारीभीहैजो ऐसे विद्यालयमें 2 वसतम्ब र, 1972 के`
+  line `ठीकपूिषितीबारहमाससेअन्यू ि कालािविकेवलएवियोवजतथा;`
+  line `( ञ ) “ विद्यमािविद्यालय ” सेइसअविवियमकेप्रारम्भ परविद्यमािमान्य ताप्राप्त प्र ाइिेटविद्यालयअवभप्रेतहै;`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-(ट ) “ विद्यालयकाप्रिाि ” सेमान्य ताप्राप्त विद्यालयकामुखय िैक्ष ाावणकअ विकारीअवभप्रेतहै,चाहेिहवजस
-िामसे सम्बो वितदकयाजाए;
-(ठ ) “ स् था िीयप्राविकारी ” से अवभप्रेतहै —
-( i ) दिल्ली िगरविगमकीस्था िीयसीमाओंकेभीतरदकसीक्षेत्रकेसम्ब न्ध् ाामें,दिल्ली िगरविगम;
-( ii ) िईदिल्ली िगरपावलकाकीस्था िीयसीमाओंकेभीतरदकसीक्षेत्रकेसम्ब न् ि में,िईदि ल् ली
-िगरपावलका;
-( iii ) दिल्ली छाििीबोर्षकीस्था िीयसीमाओंकेभीतरदकसीक्षेत्रकेसम्ब न् ि में,दिल्ली छाििीबोर्ष;
-( ङ ) दकसीविद्यालयकेसम्ब न् ि में “ प्र बन्ध् ााक ” सेऐसाव्य वक्त अवभप्रेतहै,चाहेिहवजसिामसेसम्बो वितदकया
-जाए,वजसे,यथावस्थ वत,उसतारीिकोवजसतारीिकोयहअविवियमप्रिृत्तहुआहैयािारा 5 केअिीिबिाईगईप्रबन्ि
-कीस्की मकेअिीिउसविद्यालयकेकायषकलापकाप्रबन्ि सौंपागयाहै;
-(ढ ) “ प्र बन्ि सवमवत ” सेउिव्य वष्‍टट योंकाविकायअवभप्रेतहै,वजन्हें दकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयका प्र
-बन्ि सौंपागयाहै;
-( ण ) “ अल्प संखय कविद्यालय ” सेसंवििािकेअिुच्छे ि 30 केिण्र् (1) केअिीिविद्यालयस्था वपतऔरप्रिावसत
-करिेकाअविकाररििेिालेदकसीअल्प संखय कसमुिायद्वारास्था वपतऔरप्रिावसतविद्यालयअवभप्रेतहै;
-( त ) “ अविसूचिा ” सेराजपत्रमेंप्रकावितअविसूचिाअवभप्रेतहै;
-( थ ) “ विवहत ” सेइसअविवियमकेअिीिबिाएगएवियमोंद्वाराविवहतअवभप्रेतहै;
-( ि ) “ प्र ाइिेटविद्यालय ” सेिहविद्यालयअवभप्रेतहैजोकेन्री यसरकार,प्रिासक,स्था िीयप्राविकारीयाकेन्री य
-सरका र,प्रिासकयास्था िीयप्राविकारीद्वाराअवभवहतयाप्रायोवजतदकसीअन्य प्र ाविकारीद्वारािहींचलायाजाताहै;
-( ि ) “ सािषजविकपरीक्षा ” सेकेन्री यमाध्य वमकविक्षाबोर्ष,भारतीयविद्यालयप्रमाणपत्रपरीक्षापररषि्यादकसी
-अन्य ऐसेबोर्षद्वारासंचावलत परीक्षाअवभप्रेतहै,जोइसकेपश्चा त्इसप्रयोजिकेवलएस्था वपतदकयाजाएऔरवजसे प्र
-िासकयाउसकेद्वाराइसविवमत्तप्राविकृतदकसीअन्य अविकारीद्वारामान्य ताप्रिािकीगईहो;
-( ि ) “ मान्य ताप्राप्त विद्यालय ” सेसमुवचतप्राविकारीद्वारामान्य ताप्राप्त विद्यालयअवभप्रेतहै;
-( प ) “ विद्यालय ” केअन्त गषतपूिष - प्र ाथवमक, प्र ाथवमक, मध्य ितीऔरउच्च तरमाध्य वमकविद्यालयहैंऔरइसके
-अन्त गषतकोईअन्य ऐसीसंस्था भीहैजोविक्षाप्रिािकरतीहैयाउपाविकेस्त रकेिीचेकाप्रविक्षणिेतीहैदकन्तु इसके
-अ न् त गषतऐसीसंस्था िहींहैजोतकिीकीविक्षािेतीहै;
-( फ ) “ विद्यालयसवमवत ” सेविद्यालयकेस्िा वमत्ि याकब्जे कीसभीस्था िरऔरजंगमसम्प वत्तऔरऐसीसम्प वत्त
-मेंयासेउद्भूतहोिेिालेअन्य सभीअविकारऔरवहतअवभप्रेतहैं,औरइसकेअन्त गषतभूवम,भि िऔरउसकेअिुलग्ि क,
-िेलकेमैिाि,छात्रािास,फिीचर,पुस्त कें,सावित्र, मािवचत्र,उपस्क र,पात्र,िकिी,आरवक्षत विवियां,विवििािऔरबैंक
-जमाहै;
-( ब ) “ अध्या पक ” केअन्त गषतविद्यालयकाप्रिािभीहै;
-( भ ) “ सहायतािपालेिालाअल्प संखय कविद्यालय ” सेमा न् य ताप्राप्त ऐसाअल्प संखय कविद्यालयअवभप्रेतहैवजसे
-कोईभीसहायताप्राप्त िहींहै।
-अध्या य 2
-विद्यालयोंकीस्था पिा,मान्य ता,उिकाप्रबन्ध् ााऔरउिकोसहायता
-3. प्र िासककी,विद्यालयोंमेंविक्षाकोविवियवमतकरिेकीिवक्त — ( 1 ) प्र िासकदिल्ली के सभीविद्यालयोंमेंइस
-अविवियमऔर ति् िीि बिाएगएवियमोंकेउपबंिोंकेअिुसारविक्षाकोविवियवमतकरसकताहै।
-( 2 ) प्र िासकइसअविवियमऔर ति् िीि बिाएगएवियमोंकेउपबंिोंकाअिुपालिकरतेहुएदिल्ली मेंकोईभीविद्यालय स्
-था वपतकरसकताहैऔरचलासकताहैया दकसीभीव्य वक्त यास्था िीय प्र ाविकारीकोदिल्ली मेंकोई विद्यालयस्था वपतकरिेया
-चलािेकीअिुज्ञािेसकताहै।
-( 3 ) इसअविवियमकेप्रारम्भ ाासेहीऔरसंवििािकेअिुच्छे ि 30 केिण्र् (1) केउपबन्िों केअिीिरहतेहुए,दिल्ली में
-दकसीिएविद्यालय कीस्था पिायादकसीविद्यमािविद्यालयमेंउच्च तरकक्षाकािोलिायादकसीविद्यमािकक्षाकाबन्ि करिा
-इसअविवियमऔर ति् िीि बिाएगएवियमोंकेउपबन्िों केअिीिहोगाऔरदकसीऐसेविद्यालययाउच्च तरकक्षाकोजोइस
-अविवियमकेउपबन्िों केअिुसारस्था वपतयािो लीिहींगईहै,समुवचतप्राविकारीद्वारामान्य ताििीजाएगी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `(ट ) “ विद्यालयकाप्रिाि ” सेमान्य ताप्राप्त विद्यालयकामुखय िैक्ष ाावणकअ विकारीअवभप्रेतहै,चाहेिहवजस`
+  line `िामसे सम्बो वितदकयाजाए;`
+  line `(ठ ) “ स् था िीयप्राविकारी ” से अवभप्रेतहै —`
+  line `( i ) दिल्ली िगरविगमकीस्था िीयसीमाओंकेभीतरदकसीक्षेत्रकेसम्ब न्ध् ाामें,दिल्ली िगरविगम;`
+  line `( ii ) िईदिल्ली िगरपावलकाकीस्था िीयसीमाओंकेभीतरदकसीक्षेत्रकेसम्ब न् ि में,िईदि ल् ली`
+  line िगरपावलका;
+  line `( iii ) दिल्ली छाििीबोर्षकीस्था िीयसीमाओंकेभीतरदकसीक्षेत्रकेसम्ब न् ि में,दिल्ली छाििीबोर्ष;`
+  line `( ङ ) दकसीविद्यालयकेसम्ब न् ि में “ प्र बन्ध् ााक ” सेऐसाव्य वक्त अवभप्रेतहै,चाहेिहवजसिामसेसम्बो वितदकया`
+  line `जाए,वजसे,यथावस्थ वत,उसतारीिकोवजसतारीिकोयहअविवियमप्रिृत्तहुआहैयािारा 5 केअिीिबिाईगईप्रबन्ि`
+  line `कीस्की मकेअिीिउसविद्यालयकेकायषकलापकाप्रबन्ि सौंपागयाहै;`
+  line `(ढ ) “ प्र बन्ि सवमवत ” सेउिव्य वष्‍टट योंकाविकायअवभप्रेतहै,वजन्हें दकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयका प्र`
+  line `बन्ि सौंपागयाहै;`
+  line `( ण ) “ अल्प संखय कविद्यालय ” सेसंवििािकेअिुच्छे ि 30 केिण्र् (1) केअिीिविद्यालयस्था वपतऔरप्रिावसत`
+  line `करिेकाअविकाररििेिालेदकसीअल्प संखय कसमुिायद्वारास्था वपतऔरप्रिावसतविद्यालयअवभप्रेतहै;`
+  line `( त ) “ अविसूचिा ” सेराजपत्रमेंप्रकावितअविसूचिाअवभप्रेतहै;`
+  line `( थ ) “ विवहत ” सेइसअविवियमकेअिीिबिाएगएवियमोंद्वाराविवहतअवभप्रेतहै;`
+  line `( ि ) “ प्र ाइिेटविद्यालय ” सेिहविद्यालयअवभप्रेतहैजोकेन्री यसरकार,प्रिासक,स्था िीयप्राविकारीयाकेन्री य`
+  line `सरका र,प्रिासकयास्था िीयप्राविकारीद्वाराअवभवहतयाप्रायोवजतदकसीअन्य प्र ाविकारीद्वारािहींचलायाजाताहै;`
+  line `( ि ) “ सािषजविकपरीक्षा ” सेकेन्री यमाध्य वमकविक्षाबोर्ष,भारतीयविद्यालयप्रमाणपत्रपरीक्षापररषि्यादकसी`
+  line `अन्य ऐसेबोर्षद्वारासंचावलत परीक्षाअवभप्रेतहै,जोइसकेपश्चा त्इसप्रयोजिकेवलएस्था वपतदकयाजाएऔरवजसे प्र`
+  line `िासकयाउसकेद्वाराइसविवमत्तप्राविकृतदकसीअन्य अविकारीद्वारामान्य ताप्रिािकीगईहो;`
+  line `( ि ) “ मान्य ताप्राप्त विद्यालय ” सेसमुवचतप्राविकारीद्वारामान्य ताप्राप्त विद्यालयअवभप्रेतहै;`
+  line `( प ) “ विद्यालय ” केअन्त गषतपूिष - प्र ाथवमक, प्र ाथवमक, मध्य ितीऔरउच्च तरमाध्य वमकविद्यालयहैंऔरइसके`
+  line `अन्त गषतकोईअन्य ऐसीसंस्था भीहैजोविक्षाप्रिािकरतीहैयाउपाविकेस्त रकेिीचेकाप्रविक्षणिेतीहैदकन्तु इसके`
+  line `अ न् त गषतऐसीसंस्था िहींहैजोतकिीकीविक्षािेतीहै;`
+  line `( फ ) “ विद्यालयसवमवत ” सेविद्यालयकेस्िा वमत्ि याकब्जे कीसभीस्था िरऔरजंगमसम्प वत्तऔरऐसीसम्प वत्त`
+  line `मेंयासेउद्भूतहोिेिालेअन्य सभीअविकारऔरवहतअवभप्रेतहैं,औरइसकेअन्त गषतभूवम,भि िऔरउसकेअिुलग्ि क,`
+  line `िेलकेमैिाि,छात्रािास,फिीचर,पुस्त कें,सावित्र, मािवचत्र,उपस्क र,पात्र,िकिी,आरवक्षत विवियां,विवििािऔरबैंक`
+  line जमाहै;
+  line `( ब ) “ अध्या पक ” केअन्त गषतविद्यालयकाप्रिािभीहै;`
+  line `( भ ) “ सहायतािपालेिालाअल्प संखय कविद्यालय ” सेमा न् य ताप्राप्त ऐसाअल्प संखय कविद्यालयअवभप्रेतहैवजसे`
+  line `कोईभीसहायताप्राप्त िहींहै।`
+  line `अध्या य 2`
+  line `विद्यालयोंकीस्था पिा,मान्य ता,उिकाप्रबन्ध् ााऔरउिकोसहायता`
+  line `3. प्र िासककी,विद्यालयोंमेंविक्षाकोविवियवमतकरिेकीिवक्त — ( 1 ) प्र िासकदिल्ली के सभीविद्यालयोंमेंइस`
+  line `अविवियमऔर ति् िीि बिाएगएवियमोंकेउपबंिोंकेअिुसारविक्षाकोविवियवमतकरसकताहै।`
+  line `( 2 ) प्र िासकइसअविवियमऔर ति् िीि बिाएगएवियमोंकेउपबंिोंकाअिुपालिकरतेहुएदिल्ली मेंकोईभीविद्यालय स्`
+  line `था वपतकरसकताहैऔरचलासकताहैया दकसीभीव्य वक्त यास्था िीय प्र ाविकारीकोदिल्ली मेंकोई विद्यालयस्था वपतकरिेया`
+  line चलािेकीअिुज्ञािेसकताहै।
+  line `( 3 ) इसअविवियमकेप्रारम्भ ाासेहीऔरसंवििािकेअिुच्छे ि 30 केिण्र् (1) केउपबन्िों केअिीिरहतेहुए,दिल्ली में`
+  line `दकसीिएविद्यालय कीस्था पिायादकसीविद्यमािविद्यालयमेंउच्च तरकक्षाकािोलिायादकसीविद्यमािकक्षाकाबन्ि करिा`
+  line `इसअविवियमऔर ति् िीि बिाएगएवियमोंकेउपबन्िों केअिीिहोगाऔरदकसीऐसेविद्यालययाउच्च तरकक्षाकोजोइस`
+  line `अविवियमकेउपबन्िों केअिुसारस्था वपतयािो लीिहींगईहै,समुवचतप्राविकारीद्वारामान्य ताििीजाएगी।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-4. विद्यालयोंकोमान्य ता — (1) समुवचतप्राविकारीविवहतप्ररूपमेंऔरविवहतरीवतसेउसेदकएगएआिेििपर,दकसी प्र
-ाइिेट विद्यालयकोमान्य तािेसकताहै;
-परन्तु दकसीविद्यालयकोमान्य तािहीं िीजाएगी,जबतकदक —
-(क) उसकेपासअपिावित्तीयस्था वयत्ि सुविवश्च तकरिेकेवलएतथाअपिेकमषचाररयोंकोिेतिऔरभत्तेका
-वियवमतसंिायकरिेकेवलएपयाषप्त विवििहींहै;
-(ि) उसकेपासिारा 5 द्व ारायथाअपेवक्षतप्रबन्ि की सम्यक् तः: अिुमोदित स् की म िहीं है;
-(ग) उसकेपास,अन्य बातोंकेसाथ - साथ,उसमेंआिेिालेविद्यार्थषयोंकीसंखया,आयुऔरललंगकोध्या िमेंरिते हु
-एस्था िऔरस्ि च् छ तासम्ब न् िी उपयुक्त यापयाषप्त सुवििाएंिहींहैं;
-(घ) उसमेंअिुमोदितपाठ्यक्रमऔरअच्छे विक्षणकीव्य िस्था िहींहै;
-( ङ ) उसमेंविवहतअहषतािालेअध्या पकिहींहैं;और
-(च) उसकेपासिारीररकविक्षा,पुस्त कालयसेिा,प्रयोगिालाकायष,कमषिालाअभया सयापाठ्यक्रमेत्त र
-गवतविवियोंकेवलएविवहतसुवििाएंिहींहैं।
-(2) विद्यालयकीमान्य ताकेवलएप्रत्ये कआिेििसमु वचतप्राविकारीद्वाराग्रहणदकयाजाएगाऔरउसपरउसकेद्वारा
-विचारदकयाजाएगाऔरआिेििकीप्रावप्त कीतारीिसेचारमासकीअिविकेभीतरआिेिककोउसपरदकएगएविविश्च यकी
-सूचिािीजाएगी;औरजहांमान्य तािहींिीजातीहैिहां,उक्त कालािविकेभीतरआिेिकको ऐसीमान्य तािदिएजािेकेकारण
-भीसंसूवचतदकएजाएंगे।
-(3) जहांदकसीविद्यालयकोमान्य तािेिेसेइंकारदकयाजाताहैिहांऐसेइंकारसेव्य वथतकोईव्य वक्त,उसेऐसेइंकारकी
-संसूचिाकीतारीिसेतीसदििकेभीतर,ऐसेइंकारकेविरुद्धविवहतरीवतसे,विवह तप्राविकारीसेअपीलकरसकताहै,औरविवहत प्र
-ाविकारीकाउसपरविविश्च यअवन्त महोगा:
-परन्तु यदिविवहतप्राविकारीकायहसमािािहोजाताहैदकअपीलाथीतीसदििकीउक्त कालािविकेभीतरअपील प्रस्
-तु तकरिेमेंपयाषप्त कारणसेवि िाररतहुआथातोिहउक्त कालाि विकोसाठदििकीअवतररक्त कालािविकेवलएबढासकेगा
-दकन्तु ऐसाकरिेकेकारणउसकेद्वारालेिबद्धदकएजाएंगे।
-(4) जहांदकसीविद्यालयकीप्रबन्ि सवमवतकपटसे,िुव्यष पिेििसेयामहत्ि पूणषविविवष्‍टट यांवछपाकरमान्य ताप्राप्त करती
-हैं,याजहांमा न् य ताप्राप्त करिेकेपश्चा त्विद्यालयउपिारा (1) केपरन्तु कमेंविविर्िषष्‍टट ितोंमेंसेदकसीकाअिुपालिकर ते रहिेमें
-असफलरहताहैिहां,मान्य तािेिेिालाप्राविकारी,विद्यालयकीप्रबन्ि सवमवतकोप्रस्था वपतकायषिाहीकेविरुद्धहेतुकिर्िषतकरिे
-काउवचतअिसरिेिेकेपश्चा त्उपिारा (1) केअिीिऐसेविद्यालयकोिीगईमान्य तािापसलेसकताहै।
-(5) उपिारा (1) केअिीििीगईमान्य ताकेकारणदकसीविद्यालयकोसहायताप्राप्त करिेकाहकिहींहोगा।
-(6) प्रत् ये कविद्यमािविद्यालयकेबारेमेंयहसमझा जाएगादकउसेइसिाराकेअिीिमान्य तािीगईहैऔरिहइस
-अविवियमकेउपबंिोंऔर ति् िीि बिाएगएवियमोंकेअिीिहोगा:
-परन्तु जहांऐसाकोईविद्यालयउपिारा (1) केपरन्तु कमेंविविर्िषष्‍टट ितोंमेंसेदकसीितषकोपूरािहींकरताहैिहां,
-विवहतप्राविकारी विद्यालयसेविविर्िषष्‍टट कालािविकेभीतरऐसीितोंकोऔरऐसीअन्य ितोंकोजोविवहतकीजाएं,पूराकरिे
-कीअपेक्षाकरसकताहैऔरयदिऐसीकोईितषपूरीिहींकीजातीहैतोऐसेविद्यालयकीमान्य तािापसलीजासकतीहै।
-(7) प्रत् ये कविद्यालय,वजसकीमान्य ताउपिारा (4) याउपिारा (6) केअिीििापसलीजातीहै,विवहतप्राविकारीसे
-अपीलकरसकताहैऔरविवहतप्राविकारीअपीलकेप्रस्तु तदकएजािेकीतारीिसेछहमासकेभीतरअपीलकोऐसीरीवतमें
-विपटाएगाजोविवहतकीजाए,औरयदिअपीलउसकालािविकेभीतरिहींविपटाईजा तीहैतोमान्य तािापसलेिेकाआिेिछह
-मासकीउक्त कालािविकेअिसािपर,रद्दहोजाएगा।
-(8) उपिारा (3) याउपिारा (7) केअिीिकीगईअपीलसुििेकेपश्चा त्,विवहतप्राविकारी,अपीलाथीकोसुििाईका
-उवचतअिसरिेिेकेपश्चा त्,अपीलदकएगएआिेिकीपुवष्‍टट करसकताहै,उसेउपान्त ररतकरसकताहै,याउसेउलटसकताहै।
-5. प्र बन्ि कीस्की म — (1) तत्स मयप्रिृत्तदकसीअन्य विविमेंयाऐसीअन्य विविकेआिारपरप्रभािीदकसीवलितमें
-दकसीबातकेहोतेहुएभी,प्रत्ये कमान्य ता प्र ाप्त विद्यालयकीप्रबन्ध् ाासवमवत इ स अविवियमकेअिीिबिाएगएवियमोंकेअिुसार
-औरसमुवचतप्राविकारीकेपूिाषिुमोििसे,ऐसेविद्यालयकेप्रबन्ि केवलएएकस्की मबिाएगी:
-परन्तु ऐसेमान्य ताप्राप्त प्र ाइिे टविद्यालयकीििामेंजोकोईसहायतािहींप्राप्त करताहै,प्रबन्ि कीस्की मऐसे पररितषिों
-औरउपान्त रोंकेसाथलागूहोगीजोविवहतदकएजाएं:`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `4. विद्यालयोंकोमान्य ता — (1) समुवचतप्राविकारीविवहतप्ररूपमेंऔरविवहतरीवतसेउसेदकएगएआिेििपर,दकसी प्र`
+  line `ाइिेट विद्यालयकोमान्य तािेसकताहै;`
+  line `परन्तु दकसीविद्यालयकोमान्य तािहीं िीजाएगी,जबतकदक —`
+  line `(क) उसकेपासअपिावित्तीयस्था वयत्ि सुविवश्च तकरिेकेवलएतथाअपिेकमषचाररयोंकोिेतिऔरभत्तेका`
+  line `वियवमतसंिायकरिेकेवलएपयाषप्त विवििहींहै;`
+  line `(ि) उसकेपासिारा 5 द्व ारायथाअपेवक्षतप्रबन्ि की सम्यक् तः: अिुमोदित स् की म िहीं है;`
+  line `(ग) उसकेपास,अन्य बातोंकेसाथ - साथ,उसमेंआिेिालेविद्यार्थषयोंकीसंखया,आयुऔरललंगकोध्या िमेंरिते हु`
+  line `एस्था िऔरस्ि च् छ तासम्ब न् िी उपयुक्त यापयाषप्त सुवििाएंिहींहैं;`
+  line `(घ) उसमेंअिुमोदितपाठ्यक्रमऔरअच्छे विक्षणकीव्य िस्था िहींहै;`
+  line `( ङ ) उसमेंविवहतअहषतािालेअध्या पकिहींहैं;और`
+  line `(च) उसकेपासिारीररकविक्षा,पुस्त कालयसेिा,प्रयोगिालाकायष,कमषिालाअभया सयापाठ्यक्रमेत्त र`
+  line गवतविवियोंकेवलएविवहतसुवििाएंिहींहैं।
+  line `(2) विद्यालयकीमान्य ताकेवलएप्रत्ये कआिेििसमु वचतप्राविकारीद्वाराग्रहणदकयाजाएगाऔरउसपरउसकेद्वारा`
+  line `विचारदकयाजाएगाऔरआिेििकीप्रावप्त कीतारीिसेचारमासकीअिविकेभीतरआिेिककोउसपरदकएगएविविश्च यकी`
+  line `सूचिािीजाएगी;औरजहांमान्य तािहींिीजातीहैिहां,उक्त कालािविकेभीतरआिेिकको ऐसीमान्य तािदिएजािेकेकारण`
+  line भीसंसूवचतदकएजाएंगे।
+  line `(3) जहांदकसीविद्यालयकोमान्य तािेिेसेइंकारदकयाजाताहैिहांऐसेइंकारसेव्य वथतकोईव्य वक्त,उसेऐसेइंकारकी`
+  line `संसूचिाकीतारीिसेतीसदििकेभीतर,ऐसेइंकारकेविरुद्धविवहतरीवतसे,विवह तप्राविकारीसेअपीलकरसकताहै,औरविवहत प्र`
+  line `ाविकारीकाउसपरविविश्च यअवन्त महोगा:`
+  line `परन्तु यदिविवहतप्राविकारीकायहसमािािहोजाताहैदकअपीलाथीतीसदििकीउक्त कालािविकेभीतरअपील प्रस्`
+  line `तु तकरिेमेंपयाषप्त कारणसेवि िाररतहुआथातोिहउक्त कालाि विकोसाठदििकीअवतररक्त कालािविकेवलएबढासकेगा`
+  line `दकन्तु ऐसाकरिेकेकारणउसकेद्वारालेिबद्धदकएजाएंगे।`
+  line `(4) जहांदकसीविद्यालयकीप्रबन्ि सवमवतकपटसे,िुव्यष पिेििसेयामहत्ि पूणषविविवष्‍टट यांवछपाकरमान्य ताप्राप्त करती`
+  line `हैं,याजहांमा न् य ताप्राप्त करिेकेपश्चा त्विद्यालयउपिारा (1) केपरन्तु कमेंविविर्िषष्‍टट ितोंमेंसेदकसीकाअिुपालिकर ते रहिेमें`
+  line `असफलरहताहैिहां,मान्य तािेिेिालाप्राविकारी,विद्यालयकीप्रबन्ि सवमवतकोप्रस्था वपतकायषिाहीकेविरुद्धहेतुकिर्िषतकरिे`
+  line `काउवचतअिसरिेिेकेपश्चा त्उपिारा (1) केअिीिऐसेविद्यालयकोिीगईमान्य तािापसलेसकताहै।`
+  line `(5) उपिारा (1) केअिीििीगईमान्य ताकेकारणदकसीविद्यालयकोसहायताप्राप्त करिेकाहकिहींहोगा।`
+  line `(6) प्रत् ये कविद्यमािविद्यालयकेबारेमेंयहसमझा जाएगादकउसेइसिाराकेअिीिमान्य तािीगईहैऔरिहइस`
+  line `अविवियमकेउपबंिोंऔर ति् िीि बिाएगएवियमोंकेअिीिहोगा:`
+  line `परन्तु जहांऐसाकोईविद्यालयउपिारा (1) केपरन्तु कमेंविविर्िषष्‍टट ितोंमेंसेदकसीितषकोपूरािहींकरताहैिहां,`
+  line `विवहतप्राविकारी विद्यालयसेविविर्िषष्‍टट कालािविकेभीतरऐसीितोंकोऔरऐसीअन्य ितोंकोजोविवहतकीजाएं,पूराकरिे`
+  line `कीअपेक्षाकरसकताहैऔरयदिऐसीकोईितषपूरीिहींकीजातीहैतोऐसेविद्यालयकीमान्य तािापसलीजासकतीहै।`
+  line `(7) प्रत् ये कविद्यालय,वजसकीमान्य ताउपिारा (4) याउपिारा (6) केअिीििापसलीजातीहै,विवहतप्राविकारीसे`
+  line `अपीलकरसकताहैऔरविवहतप्राविकारीअपीलकेप्रस्तु तदकएजािेकीतारीिसेछहमासकेभीतरअपीलकोऐसीरीवतमें`
+  line `विपटाएगाजोविवहतकीजाए,औरयदिअपीलउसकालािविकेभीतरिहींविपटाईजा तीहैतोमान्य तािापसलेिेकाआिेिछह`
+  line `मासकीउक्त कालािविकेअिसािपर,रद्दहोजाएगा।`
+  line `(8) उपिारा (3) याउपिारा (7) केअिीिकीगईअपीलसुििेकेपश्चा त्,विवहतप्राविकारी,अपीलाथीकोसुििाईका`
+  line `उवचतअिसरिेिेकेपश्चा त्,अपीलदकएगएआिेिकीपुवष्‍टट करसकताहै,उसेउपान्त ररतकरसकताहै,याउसेउलटसकताहै।`
+  line `5. प्र बन्ि कीस्की म — (1) तत्स मयप्रिृत्तदकसीअन्य विविमेंयाऐसीअन्य विविकेआिारपरप्रभािीदकसीवलितमें`
+  line `दकसीबातकेहोतेहुएभी,प्रत्ये कमान्य ता प्र ाप्त विद्यालयकीप्रबन्ध् ाासवमवत इ स अविवियमकेअिीिबिाएगएवियमोंकेअिुसार`
+  line `औरसमुवचतप्राविकारीकेपूिाषिुमोििसे,ऐसेविद्यालयकेप्रबन्ि केवलएएकस्की मबिाएगी:`
+  line `परन्तु ऐसेमान्य ताप्राप्त प्र ाइिे टविद्यालयकीििामेंजोकोईसहायतािहींप्राप्त करताहै,प्रबन्ि कीस्की मऐसे पररितषिों`
+  line `औरउपान्त रोंकेसाथलागूहोगीजोविवहतदकएजाएं:`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-परन्तु यहऔरदकइसउपिाराकाउतिाभागवजसकासम्ब न् ि समुवचतप्राविकारीकेपूिाषिुमोििसेहै,सहायतािपािे
-िालेदकसीअल्प संखय कविद्यालयकेवलएदकसीप्रबन्ि स् की मकोलागूिहोगा।
-(2) उपिारा (1) केअिीिबिाईगईस्की ममेंजोड़िे,पररितषिकरिेयाउपान्त रकरिेकेवलएऐसीहीरीवतमेंस्की म
-बिाईजासकतीहै।
-6. मान्य ताप्राप्त विद्यालयोंकोसहायता — (1) केन्री यसरकार,संसि्द्वारा,विविद्वाराइसविवमत्त सम्यक् तः विवियोजि
-दकएजािे केपश्चा त्औरऐसीितोंकेअिीिरहतेहुएजोविवहतकी जाएं,प्रिासककोऐसेमान्य ताप्राप्त प्र ाइिेटविद्यालयोंको,जो
-दकसीस्था िीयप्राविकारीद्वारामान्य तादिएगएप्राथवमकविद्यालयिहों,सहायताकेवितरणकेवलए,ऐसीििरावििेसकतीहैजो
-िहसरकारआिश्य कसमझे:
-परन्तु कोईविद्यमािविद्यालय,जोइसअविवियमकेप्रारम्भ केठीकपूिष,सहायताप्राप्त करताथातबतकऐसीसहायता
-केचालूरहिेकेवलएपात्रिहींहोगाजबतकिहऐसीकालािविकेभीतरजोवििेिकद्वाराविविर्िषष्‍टट कीजाए,िारा 4 कीउपिारा
-(1) केपरन्तु कमेंविविर्िषष्‍टट ितोंकाअिुपालििहींकरताहै।
-(2) सहायतािेिेकेवलएसक्षमप्राविकारीइसविवमत्तविवहतितोंमेंसेदकसीकेअवतक्रमणकेवलएसहायताबन्ि कर
-सकताहै,घटासकताहैयाविलवम्ब तकरसकताहै।
-(3) सहायताविद्यालयकेिचषकेऐसेभाग केबराबरहोसकतीहैजोविवहतदकयाजाए।
-(4) विद्यालयकेकमषचाररयोंकेिेति,भत्तेऔरभविष्‍टय - विविकेवलएिीगईसहायतासेदकसीअन्य प्र योजिकेवलएकोई
-संिायिहींदकयाजाएगा।
-(5) ऐसेविद्यालयकोकोईसहायतािहींिीजाएगीवजसकाप्रबन्ि िारा 20 केअिीिले वलयागयाहै।
-(6) ऐसाविद्यालयवजसेमान्य तािहींवमलीहैकोईभीसहायतायाकोईफायिाप्राप्त करिेकापात्रिहींहोगाजोप्रिासक
-याप्रिासककेदकसीअवभकरणद्वाराप्राइिेटविद्यालयोंकोउपलभय दकयागयाहै।
-अध्या य 3
-विद्यालयकीसम्प वत्त
-7. विद्यालयकी सम्प वत्त — (1) प्रत् ये कसहायतापािेिालेविद्यालयकाप्रबन्ि - मण्र् लसहायतादिएजािेकेसमयप्रारम्भ में
-औरउसकेबािप्रवतिषषसमुवचतप्राविकारीकोएकवििरणिेगावजसमें,ऐसीविविवष्‍टट योंसवहतजोविवहतकीजाएं,विद्यालयकी
-सम्प वत्तकीएकसूचीिेगा।
-( 2) तत्स मय - प्र िृत्तदकसीअन्य विविमेंदकसीबातकेहोतेहुएभी,दकसीसहायतापािेिालेविद्यालयकीस्था िरयाजंगम
-सम्प वत्तकाजोवियमोंमेंविविर्िषष्‍टट सम्प वत्तिहींहैकोईअन्त रण,बन्ि कयापट्टा,समुवचतप्राविकारीकीपूिाषिुज्ञाकेवबिािहींदकया
-जा एगा:
-परन्तु जहांसमुवचतप्राविकारीऐसीअिुज्ञाकेवलएआिेििकोइसविवमत्तआिेििकीप्रावप्त कीतारीिसेसाठदििके
-भीतरिहींविपटाताहैयाविपटािेमेंअसफलरहताहैिहांसाठदििकीउक्त कालािविकीसमावप्त परयहसमझाजाएगादक
-अिुज्ञािेिीगईहै।
-( 3) कोईव्य वक्त जोउपिारा (2) केअिीिअिुज्ञाकेिेिेयाइंकारकरिेसेव्य वथतहै,ऐसेप्ररूपमेंऔरऐसेसमयकेअन्ि र,
-जोविवहतदकयाजाए,ऐसीअिुज्ञािेिेयाउसकेइंकारकेविरुद्धप्रिासकसेअपीलकरसकताहैऔरउसपरप्रिासककाविविश्च य
-अवन्त महोगा।
-(4) यथावस्थ वत,उपिारा (2) केउपबन्िों केयाप्रिासककेविविश्च यकेउल्लं घिमेंदकयागयाकोईसंव्य िहारिून्य होगा।
-अध्या य 4
-मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकेकमषचाररयोंकीसेिाकेविबन्ि ि औरितें
-8. मान्य ताप्राप्त प्र ाइिेटविद्यालयों केकमषचाररयोंकीसेिाकेविबन्ि िऔरितें — (1) प्र िासकमान्य ताप्राप्त प्र ाइिेट
-विद्यालयोंकेकमषचाररयोंकीभतीकेवलएन्यू ितमअहषताओंऔरसेिाकीितोंको विवियवमतकरिेिालेवियमबिासकता है:
-परन्तु इसअविवियमकेप्रारम्भ परदकसीविद्यमािविद्या लयद्वारावियोवजतकमषचारीकािेतितथाछुट्टी,विितषि - आयु
-औरपेंििकीबाबतअविकारऐसेकमषचारीकेवलएअवहतकररीवतसेपररिर्तषतिहींदकएजाएंगे:
-परन्तु यहऔरदकऐसाप्रत्ये ककमषचारीसेिाकीउिितोंऔरविबन्ि िोंकेवलएअपिाविकल्प िेिेकाहकिारहो गाजो
-इसअविवियमकेप्रारम्भ ठीकपहलेउसेलागूथे।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `परन्तु यहऔरदकइसउपिाराकाउतिाभागवजसकासम्ब न् ि समुवचतप्राविकारीकेपूिाषिुमोििसेहै,सहायतािपािे`
+  line `िालेदकसीअल्प संखय कविद्यालयकेवलएदकसीप्रबन्ि स् की मकोलागूिहोगा।`
+  line `(2) उपिारा (1) केअिीिबिाईगईस्की ममेंजोड़िे,पररितषिकरिेयाउपान्त रकरिेकेवलएऐसीहीरीवतमेंस्की म`
+  line बिाईजासकतीहै।
+  line `6. मान्य ताप्राप्त विद्यालयोंकोसहायता — (1) केन्री यसरकार,संसि्द्वारा,विविद्वाराइसविवमत्त सम्यक् तः विवियोजि`
+  line `दकएजािे केपश्चा त्औरऐसीितोंकेअिीिरहतेहुएजोविवहतकी जाएं,प्रिासककोऐसेमान्य ताप्राप्त प्र ाइिेटविद्यालयोंको,जो`
+  line `दकसीस्था िीयप्राविकारीद्वारामान्य तादिएगएप्राथवमकविद्यालयिहों,सहायताकेवितरणकेवलए,ऐसीििरावििेसकतीहैजो`
+  line `िहसरकारआिश्य कसमझे:`
+  line `परन्तु कोईविद्यमािविद्यालय,जोइसअविवियमकेप्रारम्भ केठीकपूिष,सहायताप्राप्त करताथातबतकऐसीसहायता`
+  line `केचालूरहिेकेवलएपात्रिहींहोगाजबतकिहऐसीकालािविकेभीतरजोवििेिकद्वाराविविर्िषष्‍टट कीजाए,िारा 4 कीउपिारा`
+  line `(1) केपरन्तु कमेंविविर्िषष्‍टट ितोंकाअिुपालििहींकरताहै।`
+  line `(2) सहायतािेिेकेवलएसक्षमप्राविकारीइसविवमत्तविवहतितोंमेंसेदकसीकेअवतक्रमणकेवलएसहायताबन्ि कर`
+  line `सकताहै,घटासकताहैयाविलवम्ब तकरसकताहै।`
+  line `(3) सहायताविद्यालयकेिचषकेऐसेभाग केबराबरहोसकतीहैजोविवहतदकयाजाए।`
+  line `(4) विद्यालयकेकमषचाररयोंकेिेति,भत्तेऔरभविष्‍टय - विविकेवलएिीगईसहायतासेदकसीअन्य प्र योजिकेवलएकोई`
+  line संिायिहींदकयाजाएगा।
+  line `(5) ऐसेविद्यालयकोकोईसहायतािहींिीजाएगीवजसकाप्रबन्ि िारा 20 केअिीिले वलयागयाहै।`
+  line `(6) ऐसाविद्यालयवजसेमान्य तािहींवमलीहैकोईभीसहायतायाकोईफायिाप्राप्त करिेकापात्रिहींहोगाजोप्रिासक`
+  line `याप्रिासककेदकसीअवभकरणद्वाराप्राइिेटविद्यालयोंकोउपलभय दकयागयाहै।`
+  line `अध्या य 3`
+  line `विद्यालयकीसम्प वत्त`
+  line `7. विद्यालयकी सम्प वत्त — (1) प्रत् ये कसहायतापािेिालेविद्यालयकाप्रबन्ि - मण्र् लसहायतादिएजािेकेसमयप्रारम्भ में`
+  line `औरउसकेबािप्रवतिषषसमुवचतप्राविकारीकोएकवििरणिेगावजसमें,ऐसीविविवष्‍टट योंसवहतजोविवहतकीजाएं,विद्यालयकी`
+  line `सम्प वत्तकीएकसूचीिेगा।`
+  line `( 2) तत्स मय - प्र िृत्तदकसीअन्य विविमेंदकसीबातकेहोतेहुएभी,दकसीसहायतापािेिालेविद्यालयकीस्था िरयाजंगम`
+  line `सम्प वत्तकाजोवियमोंमेंविविर्िषष्‍टट सम्प वत्तिहींहैकोईअन्त रण,बन्ि कयापट्टा,समुवचतप्राविकारीकीपूिाषिुज्ञाकेवबिािहींदकया`
+  line `जा एगा:`
+  line `परन्तु जहांसमुवचतप्राविकारीऐसीअिुज्ञाकेवलएआिेििकोइसविवमत्तआिेििकीप्रावप्त कीतारीिसेसाठदििके`
+  line `भीतरिहींविपटाताहैयाविपटािेमेंअसफलरहताहैिहांसाठदििकीउक्त कालािविकीसमावप्त परयहसमझाजाएगादक`
+  line अिुज्ञािेिीगईहै।
+  line `( 3) कोईव्य वक्त जोउपिारा (2) केअिीिअिुज्ञाकेिेिेयाइंकारकरिेसेव्य वथतहै,ऐसेप्ररूपमेंऔरऐसेसमयकेअन्ि र,`
+  line `जोविवहतदकयाजाए,ऐसीअिुज्ञािेिेयाउसकेइंकारकेविरुद्धप्रिासकसेअपीलकरसकताहैऔरउसपरप्रिासककाविविश्च य`
+  line `अवन्त महोगा।`
+  line `(4) यथावस्थ वत,उपिारा (2) केउपबन्िों केयाप्रिासककेविविश्च यकेउल्लं घिमेंदकयागयाकोईसंव्य िहारिून्य होगा।`
+  line `अध्या य 4`
+  line `मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकेकमषचाररयोंकीसेिाकेविबन्ि ि औरितें`
+  line `8. मान्य ताप्राप्त प्र ाइिेटविद्यालयों केकमषचाररयोंकीसेिाकेविबन्ि िऔरितें — (1) प्र िासकमान्य ताप्राप्त प्र ाइिेट`
+  line `विद्यालयोंकेकमषचाररयोंकीभतीकेवलएन्यू ितमअहषताओंऔरसेिाकीितोंको विवियवमतकरिेिालेवियमबिासकता है:`
+  line `परन्तु इसअविवियमकेप्रारम्भ परदकसीविद्यमािविद्या लयद्वारावियोवजतकमषचारीकािेतितथाछुट्टी,विितषि - आयु`
+  line `औरपेंििकीबाबतअविकारऐसेकमषचारीकेवलएअवहतकररीवतसेपररिर्तषतिहींदकएजाएंगे:`
+  line `परन्तु यहऔरदकऐसाप्रत्ये ककमषचारीसेिाकीउिितोंऔरविबन्ि िोंकेवलएअपिाविकल्प िेिेकाहकिारहो गाजो`
+  line `इसअविवियमकेप्रारम्भ ठीकपहलेउसेलागूथे।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-(2) ऐसेवियमोंकेअिीिरहतेहुएजोइसविवमत्तबिाएजाएं,दकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकाकोईभीकमषचारी
-वििेिककेपूिाषिुमोििकेवबिापिच्यु तिहींदकयाजाएगा,हटायािहींजाएगायाअिितिहीं दकयाजाएगाऔरिहीउसकीसेिा
-अ न् य थासमाप्त कीजाएगी।
-(3) दकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकाकोईकमषचारीजोपिच्यु तदकयागयाहै,हटायागयाहैयाअिितदकयागया
-है,ऐसेपिच्यु तदकएजािे,हटाएजािेयाअिितदकएजािेकेआिेिकीसंसूचिाकीतारी िसे तीिमासकेभीतर,ऐसेआिेिके
-विरुद्धिारा 11 केअिीिगरठतअविकरणकोअपीलकरसकताहै।
-(4) जहांदकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकीप्रबन्ि सवमवतअपिेकमषचाररयोंमेंसेदकसीकोविलवम्ब तकरिाचाहती
-हैिहांवििेिककोऐसेआियकीसंसूचिािीजाएगी औरऐसाकोईविलम्ब िवििेिककेपूिाषिुमोििकेवबिािहींदकयाजाएगा:
-परन्तु प्र बन्ि सवमवतदकसीकमषचारीकोतुरन्त औ रवििेिककेपूिाषिुमोििकेवबिाविलवम्ब तकरसकतीहैयदिउसकायह
-समािािहोजाताहैदकऐसातुरन्त विलंबिकमषचारीके,िारा 9 केअिीिवि वहतआचरणसंवहताकेअथाषन्त गषत,घोरअिचारके
-कारणआिश्य कहै:
-परन्तु यहऔरदकऐसातुरन्त विलंबि,विलंबिकीतारीिसेपन्र हदििकीकालािविसेअविककेवलएतबतकप्रिृत्त
-िहींरहेगाजबतकदकउक्त कालािविकेसमाप्त होिेकेपूिषवििेिककोउसकीसंसूच िाििेिीगईहोऔरउसिेउसकाअिुमोिि
-िकरदियाहो।
-(5) जहांवििेिककोदकसीकमषचारीकोविलवम्ब तकरिेयातुरन्त विलम्ब िकेआियकीसंसूचिािीजातीहैिहांयदि
-उसकायहसमािािहोजाताहैदकऐसेविलम्ब िकेवलएपयाषप्त औरउवचतआिारहैंतोिह,ऐसेविलम्ब िकोअपिाअिुमोिििे
-सकताहै।
-9. कमषचाररयोंकाआचरणसंवहताद्वारािावसतहोिा — दकसीमान्य ताप्राप्त विद्यालयकाप्रत्ये ककमषचारीऐसीआचरण
-संवहताद्वारािावसतहोगाजोविवहतकीजाएऔरऐसीआचरणसंवहताकेदकसीउपबन्ि काअवतक्रमणकरिेपरकमषचारीकेविरुद्ध
-ऐसीअिुिासविककारषिाईकीजासकतीहैजोविवहतकीजाए।
-10. कमषचाररयोंकेिेति — (1) दकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकेकमषचाररयोंकेिेतिमािऔरभत्ते,वचदकत्सा
-सुवििाएं,पेंिि,उपिाि,भविष्‍टय - विविऔरअन्य विवहतप्रसुवििाएंउिसेकमिहींहोंगी जोसमुवचतप्राविकारीद्वाराचलाएजारहे
-विद्यालयकेतत्स मप्रावस्थ वतिालेकमषचाररयोंकीहैं:
-परन्तु जहांदकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकेकमषचाररयोंकेिेतिमािऔरभत्ते,वचदकत्सा सुवििाएं,पेंिि,उपिाि,
-भविष्‍टय - विविऔरअन्य विवहतप्रसुवि िाएंउिसेकमहों,जोसमुवचतप्राविकारीद्वाराचलाएजारहेविद्यालयोंकेतत्स मप्रावस्थ वत
-िालेकमषचाररयोंकीहैंिहांसमुवचतप्राविकारीऐसेविद्यालयकीप्रबन्ि सवमवतकोवलवितवििेििेगादकिहउन्हें समुवचत प्र
-ाविकारीद्वाराचा वलतविद्यालयोंकेतत्स म प्र ावस्थ वतिालेकमषचाररयोंकेस्त रपरलािे:
-परन्तु यहऔरदकऐसे वििेिकेअिुपालिमेंअसफलताकोदकसीविद्यमािविद्यालयकीमान्य ताकोचालूरििेकेवलए
-ितोंकाअििुपालिसमझाजाएगाऔरतििुसारिारा 4 केउपबन्ि लागूहोंगे।
-(2) सहायतापािेिालेप्रत्ये कविद्यालयकीप्रबन्ि सवमवत,प्रत्ये कमास,िेतिऔरभत्तों,वचदकत्सा सुवििाओं,पेंिि,
-उपिाि,भविष्‍टय - विविऔरअन्य विवहतप्रसुवििाओंकेलेिेअपिाअंिप्रिासककेपासजमाकरेगीऔरप्रिासकसहायतापािेिाले
-विद्यालयोंकेकमषचाररयोंकोिेतिऔरभत्तेप्रत्ये कमासकेप्रथमसप्ता हमेंसंवितररतकरेगायासंवितररतकराएगा।
-11. अविकरण — (1) प्र िासकअविसूचिाद्वाराएकअविकरणगरठतकरेगाजो “ दिल्ली विद्यालयअविकरण ” केिामसे ज्ञ
-ातहोगाऔरवजसमेंएकव्य वक्त होगा:
-परन्तु कोईभीव्य वक्त इसप्रकारतभीवियुक्त होगाजबउसिेवजलान्या यािीिकेरूपमेंपियाकोईसमतुल्य न् या वयकपि
-िारणदकयाहो।
-(2) यदिअविकरणकेपीठासीिअविकारीकेपिमेंअस्था यीअिुपवस्थ वतसेवभन्ि कोईररवक्त होतीहैतोप्रिासकदकसी
-अन्य व् य वक्त कोउसररवक्त कोभरिेकेवलएइसिाराके उपबन्िों केअिुसारवियुक्त करेगाऔरकायषिाहीउसप्रक्रमसेजबररवक्त
-भरीजातीहैआगेचालूरिीजासकेगी।
-(3) प्र िासकअविकरणकोऐसेकमषचाररिृन्ि उपलभय करेगाजोइसअविवियमकेअिीिउसकेकृत्यों केवििषहिमें
-आिश्य कहों।
-(4) अविकरणकेसम्ब न् ि मेंउपगतसभीिचेभारतकीसंवचतविविमेंसेदकएजाएंगे।
-(5) अविकरणकोअपिेकृत्यों केवििषहिसेउत्प न् ि होिेिालेसभीविषयोंमें,वजिकेअन्त गषतिहस्था िहै,यािेस्था िहैं
-जहांिहअपिीबैठकेंकरेगा,अपिीप्रदक्रयाकोविवियवमतकरिेकीिवक्त होगी।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `(2) ऐसेवियमोंकेअिीिरहतेहुएजोइसविवमत्तबिाएजाएं,दकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकाकोईभीकमषचारी`
+  line `वििेिककेपूिाषिुमोििकेवबिापिच्यु तिहींदकयाजाएगा,हटायािहींजाएगायाअिितिहीं दकयाजाएगाऔरिहीउसकीसेिा`
+  line `अ न् य थासमाप्त कीजाएगी।`
+  line `(3) दकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकाकोईकमषचारीजोपिच्यु तदकयागयाहै,हटायागयाहैयाअिितदकयागया`
+  line `है,ऐसेपिच्यु तदकएजािे,हटाएजािेयाअिितदकएजािेकेआिेिकीसंसूचिाकीतारी िसे तीिमासकेभीतर,ऐसेआिेिके`
+  line `विरुद्धिारा 11 केअिीिगरठतअविकरणकोअपीलकरसकताहै।`
+  line `(4) जहांदकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकीप्रबन्ि सवमवतअपिेकमषचाररयोंमेंसेदकसीकोविलवम्ब तकरिाचाहती`
+  line `हैिहांवििेिककोऐसेआियकीसंसूचिािीजाएगी औरऐसाकोईविलम्ब िवििेिककेपूिाषिुमोििकेवबिािहींदकयाजाएगा:`
+  line `परन्तु प्र बन्ि सवमवतदकसीकमषचारीकोतुरन्त औ रवििेिककेपूिाषिुमोििकेवबिाविलवम्ब तकरसकतीहैयदिउसकायह`
+  line `समािािहोजाताहैदकऐसातुरन्त विलंबिकमषचारीके,िारा 9 केअिीिवि वहतआचरणसंवहताकेअथाषन्त गषत,घोरअिचारके`
+  line `कारणआिश्य कहै:`
+  line `परन्तु यहऔरदकऐसातुरन्त विलंबि,विलंबिकीतारीिसेपन्र हदििकीकालािविसेअविककेवलएतबतकप्रिृत्त`
+  line `िहींरहेगाजबतकदकउक्त कालािविकेसमाप्त होिेकेपूिषवििेिककोउसकीसंसूच िाििेिीगईहोऔरउसिेउसकाअिुमोिि`
+  line िकरदियाहो।
+  line `(5) जहांवििेिककोदकसीकमषचारीकोविलवम्ब तकरिेयातुरन्त विलम्ब िकेआियकीसंसूचिािीजातीहैिहांयदि`
+  line `उसकायहसमािािहोजाताहैदकऐसेविलम्ब िकेवलएपयाषप्त औरउवचतआिारहैंतोिह,ऐसेविलम्ब िकोअपिाअिुमोिििे`
+  line सकताहै।
+  line `9. कमषचाररयोंकाआचरणसंवहताद्वारािावसतहोिा — दकसीमान्य ताप्राप्त विद्यालयकाप्रत्ये ककमषचारीऐसीआचरण`
+  line `संवहताद्वारािावसतहोगाजोविवहतकीजाएऔरऐसीआचरणसंवहताकेदकसीउपबन्ि काअवतक्रमणकरिेपरकमषचारीकेविरुद्ध`
+  line ऐसीअिुिासविककारषिाईकीजासकतीहैजोविवहतकीजाए।
+  line `10. कमषचाररयोंकेिेति — (1) दकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकेकमषचाररयोंकेिेतिमािऔरभत्ते,वचदकत्सा`
+  line `सुवििाएं,पेंिि,उपिाि,भविष्‍टय - विविऔरअन्य विवहतप्रसुवििाएंउिसेकमिहींहोंगी जोसमुवचतप्राविकारीद्वाराचलाएजारहे`
+  line `विद्यालयकेतत्स मप्रावस्थ वतिालेकमषचाररयोंकीहैं:`
+  line `परन्तु जहांदकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकेकमषचाररयोंकेिेतिमािऔरभत्ते,वचदकत्सा सुवििाएं,पेंिि,उपिाि,`
+  line `भविष्‍टय - विविऔरअन्य विवहतप्रसुवि िाएंउिसेकमहों,जोसमुवचतप्राविकारीद्वाराचलाएजारहेविद्यालयोंकेतत्स मप्रावस्थ वत`
+  line `िालेकमषचाररयोंकीहैंिहांसमुवचतप्राविकारीऐसेविद्यालयकीप्रबन्ि सवमवतकोवलवितवििेििेगादकिहउन्हें समुवचत प्र`
+  line `ाविकारीद्वाराचा वलतविद्यालयोंकेतत्स म प्र ावस्थ वतिालेकमषचाररयोंकेस्त रपरलािे:`
+  line `परन्तु यहऔरदकऐसे वििेिकेअिुपालिमेंअसफलताकोदकसीविद्यमािविद्यालयकीमान्य ताकोचालूरििेकेवलए`
+  line `ितोंकाअििुपालिसमझाजाएगाऔरतििुसारिारा 4 केउपबन्ि लागूहोंगे।`
+  line `(2) सहायतापािेिालेप्रत्ये कविद्यालयकीप्रबन्ि सवमवत,प्रत्ये कमास,िेतिऔरभत्तों,वचदकत्सा सुवििाओं,पेंिि,`
+  line `उपिाि,भविष्‍टय - विविऔरअन्य विवहतप्रसुवििाओंकेलेिेअपिाअंिप्रिासककेपासजमाकरेगीऔरप्रिासकसहायतापािेिाले`
+  line `विद्यालयोंकेकमषचाररयोंकोिेतिऔरभत्तेप्रत्ये कमासकेप्रथमसप्ता हमेंसंवितररतकरेगायासंवितररतकराएगा।`
+  line `11. अविकरण — (1) प्र िासकअविसूचिाद्वाराएकअविकरणगरठतकरेगाजो “ दिल्ली विद्यालयअविकरण ” केिामसे ज्ञ`
+  line `ातहोगाऔरवजसमेंएकव्य वक्त होगा:`
+  line `परन्तु कोईभीव्य वक्त इसप्रकारतभीवियुक्त होगाजबउसिेवजलान्या यािीिकेरूपमेंपियाकोईसमतुल्य न् या वयकपि`
+  line िारणदकयाहो।
+  line `(2) यदिअविकरणकेपीठासीिअविकारीकेपिमेंअस्था यीअिुपवस्थ वतसेवभन्ि कोईररवक्त होतीहैतोप्रिासकदकसी`
+  line `अन्य व् य वक्त कोउसररवक्त कोभरिेकेवलएइसिाराके उपबन्िों केअिुसारवियुक्त करेगाऔरकायषिाहीउसप्रक्रमसेजबररवक्त`
+  line भरीजातीहैआगेचालूरिीजासकेगी।
+  line `(3) प्र िासकअविकरणकोऐसेकमषचाररिृन्ि उपलभय करेगाजोइसअविवियमकेअिीिउसकेकृत्यों केवििषहिमें`
+  line `आिश्य कहों।`
+  line `(4) अविकरणकेसम्ब न् ि मेंउपगतसभीिचेभारतकीसंवचतविविमेंसेदकएजाएंगे।`
+  line `(5) अविकरणकोअपिेकृत्यों केवििषहिसेउत्प न् ि होिेिालेसभीविषयोंमें,वजिकेअन्त गषतिहस्था िहै,यािेस्था िहैं`
+  line `जहांिहअपिीबैठकेंकरेगा,अपिीप्रदक्रयाकोविवियवमतकरिेकीिवक्त होगी।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-(6) अविकरणकोइसअविवियमकेअिीिकीगईदकसीअपीलकेविपटािेकेप्रयोजिकेवलएिेहीिवक्त यांहोंगीजो
-वसविलप्रदक्रयासंवहता, 1908 (1908 का 5) द्व ाराअपीलन्या यालयमेंविवहतहैंऔरऐसेआिेिकेप्रितषिको,वजसकेविरुद्धअपील
-कीगईहै,ऐसेविबंििोंपर,जैसेिहउवचतसमझे,रोकिेकीिवक्त भीहोगी।
-12. अध्या यकासहायतािपालेिालेअल्प संखय कविद्यालयोंको लागूिहोिा — इसअध्या यकीकोईबातसहा यतािपािे
-िालेअल्प संखय कविद्यालयकोलागूिहोगी।
-अध्या य 5
-सहायतािपािेिालेअल्प संखय कविद्यालयोंकोलागूहोिेिालेउपबन्ि
-13. भतीकेवलएन्यू ितमअहषताएंविवहतकरिेकीिवक्त — प्र िासकसहायतािपािेिालेअल्प संखय कविद्यालयोंके
-कमषचारर योंकीभतीकेवलएन्यू ितमअहषताएंऔरउ स केढंगकोविवियवमतकरिेिालेवियमबिासकेगा:
-परन्तु दकसीअहषतामेंऐसापररितषििहींदकयाजाएगावजससेदकसीसहायतािपािेिालेअल्प संखय कविद्यालयकेदकसी
-विद्यमािकमषचारीकाअवहतहो।
-14. आचरणसंवहतावि वहतकरिेकीिवक्त — दकसीसहायतािपािेिालेअल्प संखय कविद्यालयकाप्रत्ये ककमषचारीऐसी
-आचरणसंवहताद्वारािावसतहोगाजोविवहतकीजाए।
-15. सेिा - संवििा — (1) प्रत् ये कसहायतािपािेिालेअल्य संखय कविद्यालयकीप्रबन्ि सवमवतऐसेविद्यालयकेप्रत्ये क
-कमष चारीकेसाथवलवितरूपमेंसेिा - संवििाकरेगी:
-परन्तु यदिइसअविवियमकेप्रारम्भ परदकसीसहायतािपािेिालेअल्प संखय कविद्यालयकेदकसीविद्यमािकमषचारीके
-सम्ब न् ि मेंकोईवलवितसेिा - संवििािहींहैतोऐसेविद्यालयकीप्रबन्ि सवमवतऐसेप्रारम्भ सेतीिमासकीकालािविकेभीतरऐसी
-संवििाकरेगी:
-परन्तु यहऔरदकपूिषगामीपरन्तु कमेंविर्िषष्‍टट कोईसंवििादकसीविद्यमािकमषचारीऔरविद्यालयकेबीच,इसअविवियम
-केप्रारम्भ परअवस्त त् ि िीलदकसीसंवििाकेविबन्ि ि मेंऐसापररितषििहींकरेगीवजससे उसकमषचारीकाअवहतहो।
-(2) उपिारा (1) मेंविर्िषष्‍टट प्रत् ये कसेिा - संवििाकीएकप्रवतसम्ब द्ध सहायतािपािेिालेअल्प संखय कविद्यालयकीप्रबन्ि
-सवमवतद्वाराप्रिासककोभेजीजाएगीजोऐसीप्रवतकोपाकरउसेऐसीरीवतसेरवजस्ट रकरेगाजोविवहतकीजाए।
-(3) उपिारा (1) मेंविर्िषष्‍टट प्रत् ये कसेिा - संवििामेंविम्ि वलवितबातोंकेवलएउपबन्ि होगा,अथाषत्: —
-( क ) कमषचारीकीसेिाकेविबन्ि िऔरितें वजिकेअन्त गषतिहिेतिमािऔरअन्य भत्तेभीहैंवजिकािह
-हकिारहोगा;
-( ि ) अिुपवस्थ वत - छुट्टी,विितष ि - आयु,पेंििऔरउपिाियापेंििऔरउपिािकेबिलेअवभिायीभविष्‍टय - विवि
-तथावचदकत्सा औरअन्य प्र सुवििाएं,वजिकाकमषचारीहकिारहोगा;
-( ग ) िावस्त यां,जोदकसीआचरणसंवहताकेअवतक्रमणयाकमषचारीद्वाराकीगईसंवििाकेदकसीविबन्ि िकेभंग
-केवलएउसकमषचारी परअविरोवपतकीजासकतीहैं;
-( घ ) िहरीवतवजससेकमषचारीकेसम्ब न् ि मेंअिुिासविककायषिाहीचलाईजाएगीऔरिहप्रदक्रयावजसका
-अिुसरणदकसीकमषचारीकोपिच्यु तकरिे,सेिासेहटािेयापंवक्त च् यु तकरिेसेपूिषदकयाजाएगा;
-( ङ ) कमषचारीऔरप्रबन्ि सवमवत केबीचविम्ि वलवितकेसम्ब न् ि मेंसंवििाकेदकसीभंगसेउत्प न् ि होिेिाले
-दकसीवििािकामाध्य स् थ ााम्,अथाषत्: —
-(i) िेतिमािऔरअन्य भत्ते;
-(ii) अिुपवस्थ वत - छुट्टी,विितषि - आयु,पेंिि,उपिाि,भविष्‍टय - विवि,वचदकत्सा औरअन्य प्र सुवििाएं;
-(iii ) ऐसीकोईअिुिासविककायषिाहीवजसकापररणामकमषचारीकोपिच्यु तकरिा,सेिासेउसे
-हटािायाउसेपंवक्त च् यु तकरिाहो;
-( च ) अन्य कोईबातजोप्रबन्ि सवमवतकीरायमेंऐसीसंवििामेंविविर्िषष्‍टट होिीचावहएयाकीजासकतीहै।
-अध्या य 6
-विद्यालयोंमेंप्र िेिऔरफीस
-16. मान्य ताप्राप्त विद्यालयोंमेंप्रिेि — (1) ऐसेबालककोवजसिेपांचिषषकीआयुपूरीिहींकीहैदकसीमान्य ताप्राप्त
-विद्यालयमेंकक्षा 1 यासमतुल्य कक्षामेंअथिाकक्षा 1 सेउच्च तरदकसीमेंप्रिेििहींदियाजाएगा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `(6) अविकरणकोइसअविवियमकेअिीिकीगईदकसीअपीलकेविपटािेकेप्रयोजिकेवलएिेहीिवक्त यांहोंगीजो`
+  line `वसविलप्रदक्रयासंवहता, 1908 (1908 का 5) द्व ाराअपीलन्या यालयमेंविवहतहैंऔरऐसेआिेिकेप्रितषिको,वजसकेविरुद्धअपील`
+  line `कीगईहै,ऐसेविबंििोंपर,जैसेिहउवचतसमझे,रोकिेकीिवक्त भीहोगी।`
+  line `12. अध्या यकासहायतािपालेिालेअल्प संखय कविद्यालयोंको लागूिहोिा — इसअध्या यकीकोईबातसहा यतािपािे`
+  line `िालेअल्प संखय कविद्यालयकोलागूिहोगी।`
+  line `अध्या य 5`
+  line `सहायतािपािेिालेअल्प संखय कविद्यालयोंकोलागूहोिेिालेउपबन्ि`
+  line `13. भतीकेवलएन्यू ितमअहषताएंविवहतकरिेकीिवक्त — प्र िासकसहायतािपािेिालेअल्प संखय कविद्यालयोंके`
+  line `कमषचारर योंकीभतीकेवलएन्यू ितमअहषताएंऔरउ स केढंगकोविवियवमतकरिेिालेवियमबिासकेगा:`
+  line `परन्तु दकसीअहषतामेंऐसापररितषििहींदकयाजाएगावजससेदकसीसहायतािपािेिालेअल्प संखय कविद्यालयकेदकसी`
+  line विद्यमािकमषचारीकाअवहतहो।
+  line `14. आचरणसंवहतावि वहतकरिेकीिवक्त — दकसीसहायतािपािेिालेअल्प संखय कविद्यालयकाप्रत्ये ककमषचारीऐसी`
+  line आचरणसंवहताद्वारािावसतहोगाजोविवहतकीजाए।
+  line `15. सेिा - संवििा — (1) प्रत् ये कसहायतािपािेिालेअल्य संखय कविद्यालयकीप्रबन्ि सवमवतऐसेविद्यालयकेप्रत्ये क`
+  line `कमष चारीकेसाथवलवितरूपमेंसेिा - संवििाकरेगी:`
+  line `परन्तु यदिइसअविवियमकेप्रारम्भ परदकसीसहायतािपािेिालेअल्प संखय कविद्यालयकेदकसीविद्यमािकमषचारीके`
+  line `सम्ब न् ि मेंकोईवलवितसेिा - संवििािहींहैतोऐसेविद्यालयकीप्रबन्ि सवमवतऐसेप्रारम्भ सेतीिमासकीकालािविकेभीतरऐसी`
+  line `संवििाकरेगी:`
+  line `परन्तु यहऔरदकपूिषगामीपरन्तु कमेंविर्िषष्‍टट कोईसंवििादकसीविद्यमािकमषचारीऔरविद्यालयकेबीच,इसअविवियम`
+  line `केप्रारम्भ परअवस्त त् ि िीलदकसीसंवििाकेविबन्ि ि मेंऐसापररितषििहींकरेगीवजससे उसकमषचारीकाअवहतहो।`
+  line `(2) उपिारा (1) मेंविर्िषष्‍टट प्रत् ये कसेिा - संवििाकीएकप्रवतसम्ब द्ध सहायतािपािेिालेअल्प संखय कविद्यालयकीप्रबन्ि`
+  line `सवमवतद्वाराप्रिासककोभेजीजाएगीजोऐसीप्रवतकोपाकरउसेऐसीरीवतसेरवजस्ट रकरेगाजोविवहतकीजाए।`
+  line `(3) उपिारा (1) मेंविर्िषष्‍टट प्रत् ये कसेिा - संवििामेंविम्ि वलवितबातोंकेवलएउपबन्ि होगा,अथाषत्: —`
+  line `( क ) कमषचारीकीसेिाकेविबन्ि िऔरितें वजिकेअन्त गषतिहिेतिमािऔरअन्य भत्तेभीहैंवजिकािह`
+  line हकिारहोगा;
+  line `( ि ) अिुपवस्थ वत - छुट्टी,विितष ि - आयु,पेंििऔरउपिाियापेंििऔरउपिािकेबिलेअवभिायीभविष्‍टय - विवि`
+  line `तथावचदकत्सा औरअन्य प्र सुवििाएं,वजिकाकमषचारीहकिारहोगा;`
+  line `( ग ) िावस्त यां,जोदकसीआचरणसंवहताकेअवतक्रमणयाकमषचारीद्वाराकीगईसंवििाकेदकसीविबन्ि िकेभंग`
+  line `केवलएउसकमषचारी परअविरोवपतकीजासकतीहैं;`
+  line `( घ ) िहरीवतवजससेकमषचारीकेसम्ब न् ि मेंअिुिासविककायषिाहीचलाईजाएगीऔरिहप्रदक्रयावजसका`
+  line `अिुसरणदकसीकमषचारीकोपिच्यु तकरिे,सेिासेहटािेयापंवक्त च् यु तकरिेसेपूिषदकयाजाएगा;`
+  line `( ङ ) कमषचारीऔरप्रबन्ि सवमवत केबीचविम्ि वलवितकेसम्ब न् ि मेंसंवििाकेदकसीभंगसेउत्प न् ि होिेिाले`
+  line `दकसीवििािकामाध्य स् थ ााम्,अथाषत्: —`
+  line `(i) िेतिमािऔरअन्य भत्ते;`
+  line `(ii) अिुपवस्थ वत - छुट्टी,विितषि - आयु,पेंिि,उपिाि,भविष्‍टय - विवि,वचदकत्सा औरअन्य प्र सुवििाएं;`
+  line `(iii ) ऐसीकोईअिुिासविककायषिाहीवजसकापररणामकमषचारीकोपिच्यु तकरिा,सेिासेउसे`
+  line `हटािायाउसेपंवक्त च् यु तकरिाहो;`
+  line `( च ) अन्य कोईबातजोप्रबन्ि सवमवतकीरायमेंऐसीसंवििामेंविविर्िषष्‍टट होिीचावहएयाकीजासकतीहै।`
+  line `अध्या य 6`
+  line `विद्यालयोंमेंप्र िेिऔरफीस`
+  line `16. मान्य ताप्राप्त विद्यालयोंमेंप्रिेि — (1) ऐसेबालककोवजसिेपांचिषषकीआयुपूरीिहींकीहैदकसीमान्य ताप्राप्त`
+  line `विद्यालयमेंकक्षा 1 यासमतुल्य कक्षामेंअथिाकक्षा 1 सेउच्च तरदकसीमेंप्रिेििहींदियाजाएगा।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `7
-(2) ऐसेछात्रकोजोदकसी मान्य ताप्राप्त विद्यालयमेंकक्षा 1 सेउच्च तरदकसीकक्षामेंपहलीबारप्रिेिपािाचाहताहै,
-उसकक्षामेंप्रिेििहींदियाजाएगायदिउसकीआयुमेंसेउसकक्षाऔरकक्षा 1 यासमतुल्य कक्षाकीबीचप्रसामान्य विद्यालय
-अध्य यिकेिषोंकीसंखया को घटािे सेउसकीआयुपांचिषषसेकमहोतीहो।
-(3) दकसीमान्य ताप्राप्त विद्यालयमेंयाउसकीदकसीकक्षामेंप्रिेिइसविवमत्तबिाएगएवियमोंद्वाराविवियवमतहोगा।
-17. फीसऔरअन्य प्र भार — (1) प्रत् ये कसहायतापािेिालाविद्यालयवििेिकद्वाराविविर्िषष्‍टट फीस, प्र भारयाअन्य सं िाय
-केवसिायकोईफीसउद्गृहीतिहींकरेगायाकोईअन्य प्र भारसंगृहीतिहींकरेगाऔरिकोईअन्य संिायप्राप्त करेगा।
-(2) प्रत् ये कसहायतापािेिालाविद्यालयवजसकीफीसयाअन्य प्र भारोंकीिरेंवभन्ि हैंयावजसकीविवियांवभन्ि हैं,ऐसी
-फीसउद्गृहीतकरिेयाऐसेप्रभारसंगृहीतकरिेयाऐसीविवियांसृवजतकरिे सेपूिषविवहतप्राविकारीका पूिाषिुमोििप्राप्त करेगा।
-(3) प्रत् ये कमान्य ताप्राप्त, विद्यालयकाप्रबन्ि कप्रत्ये कविक्षासत्रकेप्रारम्भ सेपूिषवििेिककेपासआगामीविक्षा सत्रके
-िौरािऐसेविद्यालयद्वाराउद्गृहीतकीजािेिालीफीसकापूरावििरणफाइलकरेगाऔरवििेिककेपूिाषिुमोििकेवसिायऐसा
-कोईविद्यालयउसविक्षासत्रकेिौराि,उक्त वििरणमेंउसकेप्रबन्ि क द्व ाराविविर्िषष्‍टट फीससेअविककोईफीसप्रभाररतिहीं
-करेगा।
-18. विद्यालयविवि — (1) प्रत् ये कसहायतापािेिालेविद्यालयमें “ विद्यालयविवि ” केिामसेज्ञातएकविविहोगीऔर
-उसकेिातेमें, —
-( क ) प्र िासकद्वारािीगईसहायता,
-( ि ) फीस,प्रभारोंयाअन्य संिायोंकेरूपमेंविद्यालयकोप्रोद्भूतहोिेिालीआय,
-( ग ) कोई अन्य अवभिाय,विन्या सऔरिैसीहीरावियां,
-जमाकीजाएंगी।
-(2) विद्यालयविविऔरसभीअन्य वि वियोंका,वजसकेअन्त गषतप्रिासककेअिुमोििसेस्था वपतविद्याथीविविभीहै,
-लेिाजोिाऔरसंचालिइसअविवियमकेअिीिबिाएगएवियमोंकेअिुसारहोगा।
-(3) प्रत् ये कसहायतािपािेिालेमान्य ताप्राप्त विद्यालयमें “ सहायतािपािेिालेमान्य ताप्राप्त विद्यालयकीविवि ” के
-िामसेज्ञातएकविविहोगी,औरउसकेिातेमें, —
-( क ) फीस,
-( ि ) कोईप्रभारऔरसंिाय,जोविद्यालयद्वाराअन्य विविर्िषष्‍टट प्र योजिोंकेवलएिसूल दकएजाएं,तथा
-( ग ) कोईअन्य अवभिाय,विन्या स,िािऔरिैसीहीरावियों,
-केरूपमेंविद्यालयकोप्रोद्भूतहोिेिालीआयजमाकीजाएगी।
-(4) ( क ) सहायतािपािेिालेविद्यालयोंद्वाराफीसकेरूपमेंव्यु त् प न् ि आयकेिलऐसेिैक्षवणकप्रयोजिोंकेवलए,जो
-विवह तदकएजाएं,उपयोगमेंलाईजाएगी;और
-( ि ) िसूलदकएगएप्रभारऔरसंिायतथाविद्यालयद्वाराप्राप्त दकएगएसभीअन्य अवभिाय,विन्या सऔरिािकेिलउस
-विविर्िषष्‍टट प्र योजिकेवलएउपयोगमेंलाएजाएंगेवजसकेवलएिेिसूलऔरप्राप्त दकएगएथे।
-(5) प्रत् ये क मान्य ताप्राप्त प्र ाइिेटविद्यालयकीप्रबन्ि सवमवतप्रत्ये किषषवििेिककेपासऐसी सम्यक् तः:संपरीवक्षतवित्तीय
-औरअन्य वििरवणयां,जोविवहतकीजाएं,फाइलकरेगीऔरऐसीप्रत्ये कवििरणीऐसेप्राविकारीद्वारा,जोविवहतदकयाजाए,
-संपरीवक्षतकीजाएगी।
-1 9. सम्ब द्ध दकयाजािा — (1) दकसीसािषजविकपरीक्षाकेप्रयोजिकेवलएप्रत्ये कमान्य ताप्राप्त उच्च तरमाध्य वमक
-विद्यालयऐसीपरीक्षा का संचालिकरिेकेवलएएकयाअविकबोर्षयापररषि्सेसम्ब द्ध दकयाजाएगाऔरिहबोर्षयापररषि् द्व
-ाराइसविवमत्तविविर्िषष्‍टट ितोंकोपूराकरेगा।
-(2) मान्य ताप्राप्त उच्च तरमाध्य वमकविद्यालयकेछात्रऐसीसािषजविकपरीक्षाओंयाऐसेअन्य प्र कारकेमूल्यां किकेवलए
-तैयारऔरप्रस्तु तदकएजाएंगेजोऐसेविद्यालयों केछात्रोंकेवलएआयोवजतकीजाएंयादकयाजाए।
-(3) प्रत् ये कमान्य ताप्राप्त मध्य ितीविद्यालयकेछात्रऐसीसािषजविकपरीक्षाकेवलएतैयारऔ र प्रस् तु तदकएजाएंगेजो
-विक्षावििेिालय,दिल्ली द्व ाराऐसेविद्यालयोंकेछात्रोंकेवलएआयोवजतकीजाए।
-(4) मान्य ताप्राप्त प्र ाथवमकविद्यालयकेप्रत्ये कछात्रको उससािषजविकपरीक्षाकेवलएतैयारऔरप्रस्तु तदकयाजाएगाजो
-दकसीऐसेस्था िीयप्राविकारीद्वाराआयोवजतकीजाएजोऐसेविद्यालयोंकेछात्रोंकेवलएऐसीपरीक्षाआयोवजतकरिेकेवलएसक्षम
-हो।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 7
+  line `(2) ऐसेछात्रकोजोदकसी मान्य ताप्राप्त विद्यालयमेंकक्षा 1 सेउच्च तरदकसीकक्षामेंपहलीबारप्रिेिपािाचाहताहै,`
+  line `उसकक्षामेंप्रिेििहींदियाजाएगायदिउसकीआयुमेंसेउसकक्षाऔरकक्षा 1 यासमतुल्य कक्षाकीबीचप्रसामान्य विद्यालय`
+  line `अध्य यिकेिषोंकीसंखया को घटािे सेउसकीआयुपांचिषषसेकमहोतीहो।`
+  line `(3) दकसीमान्य ताप्राप्त विद्यालयमेंयाउसकीदकसीकक्षामेंप्रिेिइसविवमत्तबिाएगएवियमोंद्वाराविवियवमतहोगा।`
+  line `17. फीसऔरअन्य प्र भार — (1) प्रत् ये कसहायतापािेिालाविद्यालयवििेिकद्वाराविविर्िषष्‍टट फीस, प्र भारयाअन्य सं िाय`
+  line `केवसिायकोईफीसउद्गृहीतिहींकरेगायाकोईअन्य प्र भारसंगृहीतिहींकरेगाऔरिकोईअन्य संिायप्राप्त करेगा।`
+  line `(2) प्रत् ये कसहायतापािेिालाविद्यालयवजसकीफीसयाअन्य प्र भारोंकीिरेंवभन्ि हैंयावजसकीविवियांवभन्ि हैं,ऐसी`
+  line `फीसउद्गृहीतकरिेयाऐसेप्रभारसंगृहीतकरिेयाऐसीविवियांसृवजतकरिे सेपूिषविवहतप्राविकारीका पूिाषिुमोििप्राप्त करेगा।`
+  line `(3) प्रत् ये कमान्य ताप्राप्त, विद्यालयकाप्रबन्ि कप्रत्ये कविक्षासत्रकेप्रारम्भ सेपूिषवििेिककेपासआगामीविक्षा सत्रके`
+  line िौरािऐसेविद्यालयद्वाराउद्गृहीतकीजािेिालीफीसकापूरावििरणफाइलकरेगाऔरवििेिककेपूिाषिुमोििकेवसिायऐसा
+  line `कोईविद्यालयउसविक्षासत्रकेिौराि,उक्त वििरणमेंउसकेप्रबन्ि क द्व ाराविविर्िषष्‍टट फीससेअविककोईफीसप्रभाररतिहीं`
+  line करेगा।
+  line `18. विद्यालयविवि — (1) प्रत् ये कसहायतापािेिालेविद्यालयमें “ विद्यालयविवि ” केिामसेज्ञातएकविविहोगीऔर`
+  line `उसकेिातेमें, —`
+  line `( क ) प्र िासकद्वारािीगईसहायता,`
+  line `( ि ) फीस,प्रभारोंयाअन्य संिायोंकेरूपमेंविद्यालयकोप्रोद्भूतहोिेिालीआय,`
+  line `( ग ) कोई अन्य अवभिाय,विन्या सऔरिैसीहीरावियां,`
+  line जमाकीजाएंगी।
+  line `(2) विद्यालयविविऔरसभीअन्य वि वियोंका,वजसकेअन्त गषतप्रिासककेअिुमोििसेस्था वपतविद्याथीविविभीहै,`
+  line लेिाजोिाऔरसंचालिइसअविवियमकेअिीिबिाएगएवियमोंकेअिुसारहोगा।
+  line `(3) प्रत् ये कसहायतािपािेिालेमान्य ताप्राप्त विद्यालयमें “ सहायतािपािेिालेमान्य ताप्राप्त विद्यालयकीविवि ” के`
+  line `िामसेज्ञातएकविविहोगी,औरउसकेिातेमें, —`
+  line `( क ) फीस,`
+  line `( ि ) कोईप्रभारऔरसंिाय,जोविद्यालयद्वाराअन्य विविर्िषष्‍टट प्र योजिोंकेवलएिसूल दकएजाएं,तथा`
+  line `( ग ) कोईअन्य अवभिाय,विन्या स,िािऔरिैसीहीरावियों,`
+  line केरूपमेंविद्यालयकोप्रोद्भूतहोिेिालीआयजमाकीजाएगी।
+  line `(4) ( क ) सहायतािपािेिालेविद्यालयोंद्वाराफीसकेरूपमेंव्यु त् प न् ि आयकेिलऐसेिैक्षवणकप्रयोजिोंकेवलए,जो`
+  line `विवह तदकएजाएं,उपयोगमेंलाईजाएगी;और`
+  line `( ि ) िसूलदकएगएप्रभारऔरसंिायतथाविद्यालयद्वाराप्राप्त दकएगएसभीअन्य अवभिाय,विन्या सऔरिािकेिलउस`
+  line `विविर्िषष्‍टट प्र योजिकेवलएउपयोगमेंलाएजाएंगेवजसकेवलएिेिसूलऔरप्राप्त दकएगएथे।`
+  line `(5) प्रत् ये क मान्य ताप्राप्त प्र ाइिेटविद्यालयकीप्रबन्ि सवमवतप्रत्ये किषषवििेिककेपासऐसी सम्यक् तः:संपरीवक्षतवित्तीय`
+  line `औरअन्य वििरवणयां,जोविवहतकीजाएं,फाइलकरेगीऔरऐसीप्रत्ये कवििरणीऐसेप्राविकारीद्वारा,जोविवहतदकयाजाए,`
+  line संपरीवक्षतकीजाएगी।
+  line `1 9. सम्ब द्ध दकयाजािा — (1) दकसीसािषजविकपरीक्षाकेप्रयोजिकेवलएप्रत्ये कमान्य ताप्राप्त उच्च तरमाध्य वमक`
+  line `विद्यालयऐसीपरीक्षा का संचालिकरिेकेवलएएकयाअविकबोर्षयापररषि्सेसम्ब द्ध दकयाजाएगाऔरिहबोर्षयापररषि् द्व`
+  line `ाराइसविवमत्तविविर्िषष्‍टट ितोंकोपूराकरेगा।`
+  line `(2) मान्य ताप्राप्त उच्च तरमाध्य वमकविद्यालयकेछात्रऐसीसािषजविकपरीक्षाओंयाऐसेअन्य प्र कारकेमूल्यां किकेवलए`
+  line `तैयारऔरप्रस्तु तदकएजाएंगेजोऐसेविद्यालयों केछात्रोंकेवलएआयोवजतकीजाएंयादकयाजाए।`
+  line `(3) प्रत् ये कमान्य ताप्राप्त मध्य ितीविद्यालयकेछात्रऐसीसािषजविकपरीक्षाकेवलएतैयारऔ र प्रस् तु तदकएजाएंगेजो`
+  line `विक्षावििेिालय,दिल्ली द्व ाराऐसेविद्यालयोंकेछात्रोंकेवलएआयोवजतकीजाए।`
+  line `(4) मान्य ताप्राप्त प्र ाथवमकविद्यालयकेप्रत्ये कछात्रको उससािषजविकपरीक्षाकेवलएतैयारऔरप्रस्तु तदकयाजाएगाजो`
+  line `दकसीऐसेस्था िीयप्राविकारीद्वाराआयोवजतकीजाएजोऐसेविद्यालयोंकेछात्रोंकेवलएऐसीपरीक्षाआयोवजतकरिेकेवलएसक्षम`
+  line हो।
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `8
-अध्या य 7
-विद्यालयोंकाप्रबन्ि ग्र हण
-20. विद्यालयोंकाप्रबन्ध् ााग्रहण — (1) जबकभीप्रिासककायहसमािािहोजाताहैदकदकसीविद्यालयकी,चाहेिह
-मान्य ताप्राप्त होयािहीं,प्रबन्ि सवमवतया प्र बन्ि किेइसअविवियमयाउसकेअिीिबिाएगएदकसीवियमकेद्वारायाउसके
-अिीिउसपरअविरोवपतकतषव्यों मेंसेदकसीकतषव्य का पालिकरिेमेंउपेक्षाकीहैऔरयहदकविद्यालयकीविक्षाकेवहतोंमेंयह
-समीचीिहैदकऐसेविद्यालयकाप्रबन्ध् ााग्रहणकरवलयाजाएतोिहऐसेविद्यालयकीप्रबन्ि सवमवतयाप्रबन्ि कोप्रस्ता वित
-कायषिाहीकेविरुद्धहेतुकिर्िषतकरिेकाउवचतअिसरिेिेके पश्चा त्ऐसेविद्यालयकाप्रबन्ि ऐसीसीवमतकालािविकेवलए,जो
-तीििषषसेअविकिहींहोगी,ग्रहणकरसकेगा:
-परन्तु जहांदकसीविद्यालयकाप्रबन्ध् ाातीििषषयाकमकालािविकेवलएग्रहणकरवलयागयाहैिहांयदिप्रिासककी
-यहरायहैदकउसविद्यालयकेउवचत प्र बन्ि कोसुविवश्च तकरिेकेउद्देश्य सेयहसमीचीिहैदकऐसाप्रबन्ि उक्त सीवमतकालािवि
-केअिसािकेपश्चा त्प्रिृत्तबिारहिाचावहएतोिहसमय - समयपरऐसेप्रबन्ि कीएकसमयमें,एकिषषसेअिविककीऐसी
-कालािविकेवलए,जोिहठीकसमझे,जारीरििेकेवलए वििेिजारीकरसकेगादकन्तु िहकुलकालािविवजसकेवलएऐसाप्रबन्ि ग्र
-हणदकयागयाहैदकसीभीििामेंपांचिषषसेअविकिहींहोगी।
-(2) जबकभीउपिारा (1) केअिीिदकसीविद्यालयकाप्रबन्ि ग्र हणकरवलयाजाताहैतोऐसेप्रबन्ि ग्र हणकेठीकपूिषऐसे
-विद्यालय केप्रबन्ि काभारसािकप्रत्ये कव्य वक्त विद्यालयकीसम्प वत्तकाकब्जा,प्रिासककोयाइसविवमत्तउसकेद्वाराप्राविकृत
-दकसीअविकारीको,पररित्तकरेगा।
-(3) इसिाराकेअिीिदकसीविद्यालयकाप्रबन्ि ग्र हणकरिेकेपश्चा त्प्रिासकउसविद्यालयकाप्रबन्ि,वििेिकअथिा
-वििेिकद्वाराइसविवमत्तप्राविकृतदकसीअन्य व् य वक्त ( वजसेइसमेंइसकेपश्चा त् “ प्र ाविकृतअविकारी ” कहागयाहै ) कीमाफषतकरिे
-कीव्य िस्था करसकताहै।
-(4) जहांदकसीविद्यालयकाप्रबन्ि उपिारा (1) केअिीिग्रहणकरवलयागयाहैिहांऐ सेविद्यालयकीप्रबन्ि सवमवतया प्र
-बन्ध् ााक,प्रबन्ि ग्र हणकीतारीिसेतीिमासकेभीतरप्रिासकसेअपीलकरसकेगाजोप्रबन्ि सवमवतयाप्रबन्ि कद्वारादकएगए
-अभया िेििपरविचारकरिेकेपश्चा त्ऐसेआिेिपाररतकरसकेगा,जैसेिहठीकसमझे,वजिकेअन्त गषत प्र बन्ि केप्रत्या ितषिका
-आिेियाउसकालािविकेघटाएजािेकाआिेिहैवजसकेिौरािऐसेविद्यालयकाप्रबन्ि प्र िासकमेंविवहतबिारहेगा।
-(5) जहांदकसीविद्यालयकाप्रबन्ि इसिाराकेअिीिग्रहणकरवलयागयाहैिहांप्रिासकउसविद्यालयकेभििकेवलए
-ऐसा भाटक,जोिेयहो,जैसादकऐसेविद्यालयकेप्रबन्ि ग्र हणसेठीकपूिषप्रबन्ि सवमवतयाप्रबन्ि कद्वारासंित्तदकयाजारहाथा,
-ऐसेव्य वक्त कोसंित्तकरेगाजोउसेपािेकाहकिारहै।
-(6) ऐसीकालािविकेिौरािवजसमेंकोईविद्यालयप्राविकृतअविकारीकेप्रबन्ि केअिीिरहताहै, —
-( क ) उसविद्यालयकेउिकमषचाररयोंकीजोउसतारीिसेवजसकोप्रबन्ि ग्र हणदकयागयाथा,ठीकपूिष
-वियोजिमेंथे,प्रिासकद्वाराअिुमोदित क कीितोंको उिकोअवहतकररूपमेंपररिर्तषत िदकयाजाएगा;
-( ि ) िेसभीिैक्षवणकसुवििाएंजोिहविद्या लयऐसेप्रबन्ि ग्र हणसेठीकपहले प्र िािकररहाथाप्रित्तकीजाती
-रहेंगी;
-( ग ) विद्यालयविवि,विद्याथीविविऔरप्रबन्ि विवितथाकोईअन्य विद्यमािविविविद्यालयकेप्रयोजिोंके
-वलएव्य यकीजािेकेवलएप्राविकृतअविकारीकोउपलभय बिीरहेगी;और
-( घ ) ऐसेविद्यालयकीप्रबन्ि सवमवतकेदकसीअवििेििमेंपाररतदकसीसंकल्प कोतबतकप्रभािीिहींदकया
-जाएगाजबतकदकप्रिासकउसकाअिुमोिििकरिे।
-21. अल्प संखय कविद्यालयोंकोिारा 20 कालागूिहोिा — िारा 20 कीकोईबातदकसीअल्प संखय कविद्यालयकोलागू
-िहीं होगी।
-अध्या य 8 प्र
-कीणष
-22. दिल्ली विद्यालयविक्षासलाहकारबोर्ष — (1) दिल्ली मेंविक्षासम्ब न् िी िीवतविषयकमामलोंपरप्रिासककोसलाह
-िेिेकेप्रयोजिसे “ दिल्ली विद्यालयविक्षासलाहकारबोर्ष ” केिामसेज्ञातएकविद्यालयविक्षासलाहकारबोर्षहोगा।
-(2) सलाहकारबोर्षकागठिप्रिासकद्वारादकयाजाएगाजोएकअध्य क्ष औरचौिहअन्य सिस्यों से,जोप्रिासकद्वारा
-िामविर्िषष्‍टट दकएजाएंगे,वमलकरबिेगा।
-(3) उपिारा (2) केअिीिगरठतसलाहकारबोर्षकेअन्त गषतविम्ि वलवितभीहैं —`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 8
+  line `अध्या य 7`
+  line `विद्यालयोंकाप्रबन्ि ग्र हण`
+  line `20. विद्यालयोंकाप्रबन्ध् ााग्रहण — (1) जबकभीप्रिासककायहसमािािहोजाताहैदकदकसीविद्यालयकी,चाहेिह`
+  line `मान्य ताप्राप्त होयािहीं,प्रबन्ि सवमवतया प्र बन्ि किेइसअविवियमयाउसकेअिीिबिाएगएदकसीवियमकेद्वारायाउसके`
+  line `अिीिउसपरअविरोवपतकतषव्यों मेंसेदकसीकतषव्य का पालिकरिेमेंउपेक्षाकीहैऔरयहदकविद्यालयकीविक्षाकेवहतोंमेंयह`
+  line `समीचीिहैदकऐसेविद्यालयकाप्रबन्ध् ााग्रहणकरवलयाजाएतोिहऐसेविद्यालयकीप्रबन्ि सवमवतयाप्रबन्ि कोप्रस्ता वित`
+  line `कायषिाहीकेविरुद्धहेतुकिर्िषतकरिेकाउवचतअिसरिेिेके पश्चा त्ऐसेविद्यालयकाप्रबन्ि ऐसीसीवमतकालािविकेवलए,जो`
+  line `तीििषषसेअविकिहींहोगी,ग्रहणकरसकेगा:`
+  line `परन्तु जहांदकसीविद्यालयकाप्रबन्ध् ाातीििषषयाकमकालािविकेवलएग्रहणकरवलयागयाहैिहांयदिप्रिासककी`
+  line `यहरायहैदकउसविद्यालयकेउवचत प्र बन्ि कोसुविवश्च तकरिेकेउद्देश्य सेयहसमीचीिहैदकऐसाप्रबन्ि उक्त सीवमतकालािवि`
+  line `केअिसािकेपश्चा त्प्रिृत्तबिारहिाचावहएतोिहसमय - समयपरऐसेप्रबन्ि कीएकसमयमें,एकिषषसेअिविककीऐसी`
+  line `कालािविकेवलए,जोिहठीकसमझे,जारीरििेकेवलए वििेिजारीकरसकेगादकन्तु िहकुलकालािविवजसकेवलएऐसाप्रबन्ि ग्र`
+  line हणदकयागयाहैदकसीभीििामेंपांचिषषसेअविकिहींहोगी।
+  line `(2) जबकभीउपिारा (1) केअिीिदकसीविद्यालयकाप्रबन्ि ग्र हणकरवलयाजाताहैतोऐसेप्रबन्ि ग्र हणकेठीकपूिषऐसे`
+  line `विद्यालय केप्रबन्ि काभारसािकप्रत्ये कव्य वक्त विद्यालयकीसम्प वत्तकाकब्जा,प्रिासककोयाइसविवमत्तउसकेद्वाराप्राविकृत`
+  line दकसीअविकारीको,पररित्तकरेगा।
+  line `(3) इसिाराकेअिीिदकसीविद्यालयकाप्रबन्ि ग्र हणकरिेकेपश्चा त्प्रिासकउसविद्यालयकाप्रबन्ि,वििेिकअथिा`
+  line `वििेिकद्वाराइसविवमत्तप्राविकृतदकसीअन्य व् य वक्त ( वजसेइसमेंइसकेपश्चा त् “ प्र ाविकृतअविकारी ” कहागयाहै ) कीमाफषतकरिे`
+  line `कीव्य िस्था करसकताहै।`
+  line `(4) जहांदकसीविद्यालयकाप्रबन्ि उपिारा (1) केअिीिग्रहणकरवलयागयाहैिहांऐ सेविद्यालयकीप्रबन्ि सवमवतया प्र`
+  line `बन्ध् ााक,प्रबन्ि ग्र हणकीतारीिसेतीिमासकेभीतरप्रिासकसेअपीलकरसकेगाजोप्रबन्ि सवमवतयाप्रबन्ि कद्वारादकएगए`
+  line `अभया िेििपरविचारकरिेकेपश्चा त्ऐसेआिेिपाररतकरसकेगा,जैसेिहठीकसमझे,वजिकेअन्त गषत प्र बन्ि केप्रत्या ितषिका`
+  line `आिेियाउसकालािविकेघटाएजािेकाआिेिहैवजसकेिौरािऐसेविद्यालयकाप्रबन्ि प्र िासकमेंविवहतबिारहेगा।`
+  line `(5) जहांदकसीविद्यालयकाप्रबन्ि इसिाराकेअिीिग्रहणकरवलयागयाहैिहांप्रिासकउसविद्यालयकेभििकेवलए`
+  line `ऐसा भाटक,जोिेयहो,जैसादकऐसेविद्यालयकेप्रबन्ि ग्र हणसेठीकपूिषप्रबन्ि सवमवतयाप्रबन्ि कद्वारासंित्तदकयाजारहाथा,`
+  line `ऐसेव्य वक्त कोसंित्तकरेगाजोउसेपािेकाहकिारहै।`
+  line `(6) ऐसीकालािविकेिौरािवजसमेंकोईविद्यालयप्राविकृतअविकारीकेप्रबन्ि केअिीिरहताहै, —`
+  line `( क ) उसविद्यालयकेउिकमषचाररयोंकीजोउसतारीिसेवजसकोप्रबन्ि ग्र हणदकयागयाथा,ठीकपूिष`
+  line `वियोजिमेंथे,प्रिासकद्वाराअिुमोदित क कीितोंको उिकोअवहतकररूपमेंपररिर्तषत िदकयाजाएगा;`
+  line `( ि ) िेसभीिैक्षवणकसुवििाएंजोिहविद्या लयऐसेप्रबन्ि ग्र हणसेठीकपहले प्र िािकररहाथाप्रित्तकीजाती`
+  line रहेंगी;
+  line `( ग ) विद्यालयविवि,विद्याथीविविऔरप्रबन्ि विवितथाकोईअन्य विद्यमािविविविद्यालयकेप्रयोजिोंके`
+  line `वलएव्य यकीजािेकेवलएप्राविकृतअविकारीकोउपलभय बिीरहेगी;और`
+  line `( घ ) ऐसेविद्यालयकीप्रबन्ि सवमवतकेदकसीअवििेििमेंपाररतदकसीसंकल्प कोतबतकप्रभािीिहींदकया`
+  line जाएगाजबतकदकप्रिासकउसकाअिुमोिििकरिे।
+  line `21. अल्प संखय कविद्यालयोंकोिारा 20 कालागूिहोिा — िारा 20 कीकोईबातदकसीअल्प संखय कविद्यालयकोलागू`
+  line `िहीं होगी।`
+  line `अध्या य 8 प्र`
+  line कीणष
+  line `22. दिल्ली विद्यालयविक्षासलाहकारबोर्ष — (1) दिल्ली मेंविक्षासम्ब न् िी िीवतविषयकमामलोंपरप्रिासककोसलाह`
+  line `िेिेकेप्रयोजिसे “ दिल्ली विद्यालयविक्षासलाहकारबोर्ष ” केिामसेज्ञातएकविद्यालयविक्षासलाहकारबोर्षहोगा।`
+  line `(2) सलाहकारबोर्षकागठिप्रिासकद्वारादकयाजाएगाजोएकअध्य क्ष औरचौिहअन्य सिस्यों से,जोप्रिासकद्वारा`
+  line `िामविर्िषष्‍टट दकएजाएंगे,वमलकरबिेगा।`
+  line `(3) उपिारा (2) केअिीिगरठतसलाहकारबोर्षकेअन्त गषतविम्ि वलवितभीहैं —`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `9
-( क ) मान्य ताप्राप्त प्र ा इिेटविद्यालयोंकेप्रिाि;
-( ि ) मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकेअध्या पकोंकेसंगठिोंकेप्रवतविवि;
-( ग ) मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकेप्रबन्ि क;
-( घ ) मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकेछात्रोंकेमाता - वपतायासंरक्षकोंकेप्रवत विवि;और
-( ङ ) प्र वतवष्‍टठ तविक्षाविि्।
-( 4 ) सलाहकारबोर्षस्ि यंअपिीप्रदक्रयाकाविवियमिकरेगा।
-( 5 ) बोर्षकेप्रत्ये कसिस्य कीपिािविऔरउसकोिेययात्राऔरअन्य भत्तेिेहोंगेजोविवहतदकएजाएं।
-23. िवक्त योंकाप्रत्या योजि — (1) प्र िासकइसअवि वियमकेअिीिअपिीसबिवक्त यों,कतषव्यों औरकृत्यों कायाउिमें
-सेदकसी का प्रत् या योजिवििेिकयादकसीअन्य अविकारीकोकरसकेगा।
-(2) प्रत् ये कव्य वक्त वजसेउपिारा (1) केअिीिकोईिवक्त प्रत् या योवजतकीजातीहैउसिवक्त काप्रयोगउसीप्रकारसेऔर
-उसीप्रभािसेकरसकेगामािोउसेऐसीिवक्त इसअविवियमद्वारासीिे,िकीप्रत्या योजिकेरूपमें,प्रित्तकीगईहै।
-24. विद्यालयोंकाविरीक्षण — (1) प्रत् ये कमान्य ताप्राप्त विद्यालयकाविरीक्षणहरवित्तीयिषषमेंकमसेकमएकबारऐसी
-रीवतसेदकयाजाएगा जोविवहतकीजाए।
-(2) वििेिकदकसीविद्यालयकेकायषकरणकेऐसेपहलुओंके,जोसमय - समयपरउसकेद्वाराआिश्य कसमझेजाएं,वििेष
-विरीक्षणकाभीइन्त जामकरसकताहै।
-(3) वििेिकप्रबन्ि ककोऐसेवििेििेसकताहैवजसमेंप्रबन्ि कसेयहअपेक्षाकीजाएदकिहवि रीक्षणकेसमययाअन्य था
-विद्यालयकेकायषकरणमेंपाईगईदकसीत्रुरटयाकमीकोिूरकरे।
-(4) यदिप्रबन्ि कउपिारा (3) केअिीिदिएगएदकसीवििेिकाअिुपालिकरिेमेंअसफलरहताहैतोवििेिकप्रबन्ि क द्व
-ारादिएगएदकसीस्प ष्‍ट टी करणयाररपोटषपर,यदिकोईहो,विचारकरिेकेपश्चा त्ऐसीकारषिाईकरसकताहैजोिहठीकसमझे
-औरइसकेअन्त गषत —
-( क ) सहायताकाबन्ि दकयाजािा;
-( ि ) मान्य ताकािापसवलयाजािा;या
-( ग ) िारा 20 केअिीिअल्प संखय कविद्यालयसेवभन्ि दकसीविद्यालयकाप्रबन्ि ग्र हणकरिा,
-आताहै।
-25. वसविलन्या यालयोंकीअविकाररताकािजषि — दकसीभीवसविलन्या यालयकोऐसेविषयकीबाबतअविकाररताि
-होगी,वजसकेसंबंिमेंप्रिासकयावििेिकयाप्रिासकयावििेिकद्वाराप्रा विकृतकोईअन्य व् य वक्त याइ स अविवियमद्वाराया
-उसकेअिीिवियुक्त याविविर्िषष्‍टट कोईअन्य अविकारीयाप्राविकारीदकसीिवक्त काप्रयोगकरिेकेवलएइसअविवियमद्वाराया
-उसकेअिीिसिक्त हैऔरदकसीऐसीबातकीबाबतजोइसअविवियमद्वारायाउसकेअिीिकीजातीहैयादकएजािेकेवलए
-आिवयतहै,दकसीवसविलन्या यालयद्वाराव्या िेििदियाजाएगा।
-26. सि् भाि पूिषककीगईकारषिाईकेवलएसंरक्षण — इसअविवियमया ति् िीि बिाएगएदकसीवियमकेअिुसरणमें
-सि् भाि पूिषककीगईयाकीजािेकेवलएआिवयतदकसीबातकेवलएकोईभीिाि,अवभयोजियाअन्य विविककायषिाहीप्रिासक,
-वििेिकअथिाप्रिासकयावििेिकद्वा राप्राविकृतदकसीअन्य व् य वक्त केविरुद्धिहींहोगी।
-27. िंर्केवलएप्रबन्ि ककािावयत्ि — यदिदकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकाप्रबन्ध् ााक —
-( क ) अविकरणद्वारादकएगएदकन्हीं आिेिोंकादकसीयुवक्त युक्त प्र वतहेतुकेवबिापालिकरिेकालोप करताहै
-यापालिकरिेमेंअसफलरहताहै,अथिा
-( ि ) िारा 19 केउपबंिोंकाअिुपालिदकएवबिादकसीछात्रकोदकसीसािषजविकपरीक्षामेंप्रस्तु तकरताहै,
-अथिा
-( ग ) िारा 20 कीउपिारा (2) केअिीिप्रिासकयाउसकेद्वाराप्राविकृतदकसीअविकारीकोदकसीविद्यालयकी
-सम्प वत्तकापररिािकरिेमेंलोपकरताहैयाअसफलरहताहै,
-तोिहकारािाससेवजसकीअिवितीिमासतककीहोसकेगी,याजुमाषिेसे,जोएकहजाररुपएतककाहोसकेगा,यािोिों से,
-िवण्र् तदकयाजाएगा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 9
+  line `( क ) मान्य ताप्राप्त प्र ा इिेटविद्यालयोंकेप्रिाि;`
+  line `( ि ) मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकेअध्या पकोंकेसंगठिोंकेप्रवतविवि;`
+  line `( ग ) मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकेप्रबन्ि क;`
+  line `( घ ) मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकेछात्रोंकेमाता - वपतायासंरक्षकोंकेप्रवत विवि;और`
+  line `( ङ ) प्र वतवष्‍टठ तविक्षाविि्।`
+  line `( 4 ) सलाहकारबोर्षस्ि यंअपिीप्रदक्रयाकाविवियमिकरेगा।`
+  line `( 5 ) बोर्षकेप्रत्ये कसिस्य कीपिािविऔरउसकोिेययात्राऔरअन्य भत्तेिेहोंगेजोविवहतदकएजाएं।`
+  line `23. िवक्त योंकाप्रत्या योजि — (1) प्र िासकइसअवि वियमकेअिीिअपिीसबिवक्त यों,कतषव्यों औरकृत्यों कायाउिमें`
+  line `सेदकसी का प्रत् या योजिवििेिकयादकसीअन्य अविकारीकोकरसकेगा।`
+  line `(2) प्रत् ये कव्य वक्त वजसेउपिारा (1) केअिीिकोईिवक्त प्रत् या योवजतकीजातीहैउसिवक्त काप्रयोगउसीप्रकारसेऔर`
+  line `उसीप्रभािसेकरसकेगामािोउसेऐसीिवक्त इसअविवियमद्वारासीिे,िकीप्रत्या योजिकेरूपमें,प्रित्तकीगईहै।`
+  line `24. विद्यालयोंकाविरीक्षण — (1) प्रत् ये कमान्य ताप्राप्त विद्यालयकाविरीक्षणहरवित्तीयिषषमेंकमसेकमएकबारऐसी`
+  line `रीवतसेदकयाजाएगा जोविवहतकीजाए।`
+  line `(2) वििेिकदकसीविद्यालयकेकायषकरणकेऐसेपहलुओंके,जोसमय - समयपरउसकेद्वाराआिश्य कसमझेजाएं,वििेष`
+  line `विरीक्षणकाभीइन्त जामकरसकताहै।`
+  line `(3) वििेिकप्रबन्ि ककोऐसेवििेििेसकताहैवजसमेंप्रबन्ि कसेयहअपेक्षाकीजाएदकिहवि रीक्षणकेसमययाअन्य था`
+  line विद्यालयकेकायषकरणमेंपाईगईदकसीत्रुरटयाकमीकोिूरकरे।
+  line `(4) यदिप्रबन्ि कउपिारा (3) केअिीिदिएगएदकसीवििेिकाअिुपालिकरिेमेंअसफलरहताहैतोवििेिकप्रबन्ि क द्व`
+  line `ारादिएगएदकसीस्प ष्‍ट टी करणयाररपोटषपर,यदिकोईहो,विचारकरिेकेपश्चा त्ऐसीकारषिाईकरसकताहैजोिहठीकसमझे`
+  line `औरइसकेअन्त गषत —`
+  line `( क ) सहायताकाबन्ि दकयाजािा;`
+  line `( ि ) मान्य ताकािापसवलयाजािा;या`
+  line `( ग ) िारा 20 केअिीिअल्प संखय कविद्यालयसेवभन्ि दकसीविद्यालयकाप्रबन्ि ग्र हणकरिा,`
+  line आताहै।
+  line `25. वसविलन्या यालयोंकीअविकाररताकािजषि — दकसीभीवसविलन्या यालयकोऐसेविषयकीबाबतअविकाररताि`
+  line `होगी,वजसकेसंबंिमेंप्रिासकयावििेिकयाप्रिासकयावििेिकद्वाराप्रा विकृतकोईअन्य व् य वक्त याइ स अविवियमद्वाराया`
+  line `उसकेअिीिवियुक्त याविविर्िषष्‍टट कोईअन्य अविकारीयाप्राविकारीदकसीिवक्त काप्रयोगकरिेकेवलएइसअविवियमद्वाराया`
+  line `उसकेअिीिसिक्त हैऔरदकसीऐसीबातकीबाबतजोइसअविवियमद्वारायाउसकेअिीिकीजातीहैयादकएजािेकेवलए`
+  line `आिवयतहै,दकसीवसविलन्या यालयद्वाराव्या िेििदियाजाएगा।`
+  line `26. सि् भाि पूिषककीगईकारषिाईकेवलएसंरक्षण — इसअविवियमया ति् िीि बिाएगएदकसीवियमकेअिुसरणमें`
+  line `सि् भाि पूिषककीगईयाकीजािेकेवलएआिवयतदकसीबातकेवलएकोईभीिाि,अवभयोजियाअन्य विविककायषिाहीप्रिासक,`
+  line `वििेिकअथिाप्रिासकयावििेिकद्वा राप्राविकृतदकसीअन्य व् य वक्त केविरुद्धिहींहोगी।`
+  line `27. िंर्केवलएप्रबन्ि ककािावयत्ि — यदिदकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकाप्रबन्ध् ााक —`
+  line `( क ) अविकरणद्वारादकएगएदकन्हीं आिेिोंकादकसीयुवक्त युक्त प्र वतहेतुकेवबिापालिकरिेकालोप करताहै`
+  line यापालिकरिेमेंअसफलरहताहै,अथिा
+  line `( ि ) िारा 19 केउपबंिोंकाअिुपालिदकएवबिादकसीछात्रकोदकसीसािषजविकपरीक्षामेंप्रस्तु तकरताहै,`
+  line अथिा
+  line `( ग ) िारा 20 कीउपिारा (2) केअिीिप्रिासकयाउसकेद्वाराप्राविकृतदकसीअविकारीकोदकसीविद्यालयकी`
+  line `सम्प वत्तकापररिािकरिेमेंलोपकरताहैयाअसफलरहताहै,`
+  line `तोिहकारािाससेवजसकीअिवितीिमासतककीहोसकेगी,याजुमाषिेसे,जोएकहजाररुपएतककाहोसकेगा,यािोिों से,`
+  line `िवण्र् तदकयाजाएगा।`
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_10:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-10)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Page 10`)
-  (str content) (str `10
-28. वियमबिािेकीिवक्त — (1) प्र िासक, केन्री यसरकारकेपूिष अिुमोििसेऔरपूिषप्रकाििकीितषकेअिीि,
-अविसूचिाद्वाराइसअविवियमकेउपबन्िों कोकायाषवन्ि तकरिेकेवलए,वियमबिासकेगा।
-(2) विविष्‍टट तयाऔरपूिषगामीिवक्त कीव्या पकतापरप्रवतकूलप्रभािर्ालेवबिाऐसेवियमविम्ि वलवितबातोंयाउिमें
-सेदकसी केवलएउपबन्ध् ााकरसकेंगे,अथाषत्: —
-( क ) िहरीवतवजससेप्रिासकद्वारादिल्ली मेंविक्षाकोविवियवमतदकयाजासकताहै;
-( ि ) िेितेंवजिकाअिुपालिकरिेकीप्रत्ये कविद्यमािविद्यालयसेअपेक्षाकीजाएगी;
-( ग ) िएविद्यालयकीस्था पिायादकसीविद्यमा ि विद्यालय मेंउच्च तरकक्षाकािोलिायादकसीविद्यमािकक्षा
-काबन्ि करिा;
-( घ ) िहप्ररूपऔररीवतवजससेदकसीविद्यालयकोमान्य तािेिेकेवलएआिेििदकयाजाएगा;
-( ङ ) िेसुवििाएंवजिकीव्य िस्था मान्य ताप्राप्त करिेकेवलएदकसीविद्यालयद्वाराकीजाएंगी;
-( च ) िहरीवतवजससेऔरिहप्राविकारीवजसकोमान्य तािेिेसेइंकारयाउसकेिापसवलएजािेकेविरुद्ध
-अपीलकीजाएगी;
-( छ ) कमषचाररयोंकीसेिाकीविम्ि तमअहषताएंऔ र उिकीभतीकाढंगतथासेिाकेविबंििऔरितें;
-( ज ) िेप्राविकारीजोइसअविवियमकेविवभ न् ि उपबन्िों केप्रयोजिोंकेवलएविविर्िषष्‍टट दकएजाएंगे;
-( झ ) विविवष्‍टट यां,जोप्रबन्ि कीदकसीस्की ममेंअन्त र् िषष्‍टट होंगीऔरिहरीवत वजससेऐसीस्की मबिाईजाएगी;
-( ञ ) िेपररितषिऔरसंिोििजोदकसीऐसेमान्य ताप्राप्त विद्यालयके,जोदकसीप्रकारकी सहायताप्राप्त िहीं
-करताहै,प्रबन्ि कीस्की ममेंदकएजासकेंगे;
-( ट ) िेितेंवजिकेअिीिमान्य ताप्राप्त विद्यालयोंकोसहायतािीजासकतीहैऔरवजिकेअवतक्रमणकरिेपर
-सहायतारोकीजासकतीहै,कमकीजासकतीहैयाविलंवबतकीजासकतीहै;
-( ठ ) दकसीमान्य ताप्राप्त विद्यालयकेव्य यकािहभागजोसहायताद्वारापूरादकयाजाएगा;
-( र् ) विद्यालयकीसम्प वत्तकीिेविविवष्‍टट यांजोसमुवचतअविकारीकोिीजािीचावहएं;
-( ढ ) िहप्ररूपवजसमेंऔरिहसमयवजसकेिौराि,दकसीविद्यालयकीसम्प वत्तकेअंतरण,बंिकया
-िारणा विकारकेसम्ब न्ध् ाामेंदकएगएदकसीआिेिकेविरुद्धअपील,प्रिासकसेकीजाएगी;
-( ण ) कमषचाररयोंकेवलएआचरणसंवहताऔरउसकेअवतक्रमणकेवलएकीजािेिालीकारषिाई;
-( त ) प्र सुवििाएं,जोमान्य ताप्राप्त प्र ाइिेटविद्यालयकेकमषचाररयोंकोिीजािीचावहएं;
-( थ ) दकसीमान्य ताप्राप्त विद्यालयमेंप्रिेि;
-( ि ) िेफीसेंऔरअन्य प्र भारजोसहायतापािेिालेविद्यालयोंद्वारासंगृहीतदकएजाएंगे;
-( ि ) मान्य ताप्राप्त विद्यालयोंकेविरीक्ष ााणकीरीवत;
-( ि ) सलाहकारबोर्षकेसिस्यों कीपिािवि,उिकोिेययात्रात थाअन्य भत्ते;
-( प ) मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकीप्रबन्ि स वमवतद्वारावित्तीयऔरअन्य वििरवणयोंकाफाइलदकयाजािा
-तथािहप्राविकारीवजसकेद्वाराऐसीवििरवणयोंकीसंपरीक्षाकीजाएगी;
-( फ ) िेिैक्ष ाावणकप्रयोजिवजिकेवलएसहायतािपािेिालेमा न् य ताप्राप्त विद्यालयोंद्वाराफीसकेरूपमें व्
-यु त् प न् ि आय,िचषकीजाएगी;
-( ब ) विद्यालयविवियोंतथादकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकीअन्य विवियोंकालेिाजोिारििेऔर
-उिकेसंचालिकीरीवत;
-( भ ) इसअविवियमकेअिीिकोईअपीलकरिेकेवलएफीस,जोएकरुपएसेअिविकहोगी;
-( म ) कोईअन्य बातजोइसअविवियमकेअिीिविवहतकीजािीहैयाकीजासकतीहै।
-(3) इसअविवियमकेअिीिबिायागयाप्रत्ये कवियमबिाएजािेकेपश्चा त्यथािीघ्रसंसि्केप्रत्ये कसििकेसमक्ष,जब
-िहसत्रमेंहो,तीसदििकीअिविके वलएरिाजाएगा।यहअिविएकसत्रमेंअथिािो याअविकआिुक्रवमकसत्रोंमेंपू रीहो
-सकेगी।यदिउससत्रकेयापूिोक्त आिुक्रवमकसत्रोंकेठीकबािकेसत्रकेअिसािकेपूिषिोिोंसििउसवियममेंकोईपररितषि
-करिेकेवलएसहमतहोजाएंतोतत्प श् चा त्िहऐसे पररिर्तषतरूपमेंहीप्रभािीहोगा।यदिउक्त अिसािकेपूिषिोिोंसििसहमत`)
-  (str footnotes) (str )
-  (str sourcePage) (int 10)
+  kind page
+  sectionId pdf-page-10
+  sectionNo (10)
+  orderNo 10
+  title `Page 10`
+  content obj_root_law_translations_hi_sections_10_content
+  footnotes obj_root_law_translations_hi_sections_10_footnotes
+  sourcePage 10
+obj_root_law_translations_hi_sections_10_content:
+  string
+  line 10
+  line `28. वियमबिािेकीिवक्त — (1) प्र िासक, केन्री यसरकारकेपूिष अिुमोििसेऔरपूिषप्रकाििकीितषकेअिीि,`
+  line `अविसूचिाद्वाराइसअविवियमकेउपबन्िों कोकायाषवन्ि तकरिेकेवलए,वियमबिासकेगा।`
+  line `(2) विविष्‍टट तयाऔरपूिषगामीिवक्त कीव्या पकतापरप्रवतकूलप्रभािर्ालेवबिाऐसेवियमविम्ि वलवितबातोंयाउिमें`
+  line `सेदकसी केवलएउपबन्ध् ााकरसकेंगे,अथाषत्: —`
+  line `( क ) िहरीवतवजससेप्रिासकद्वारादिल्ली मेंविक्षाकोविवियवमतदकयाजासकताहै;`
+  line `( ि ) िेितेंवजिकाअिुपालिकरिेकीप्रत्ये कविद्यमािविद्यालयसेअपेक्षाकीजाएगी;`
+  line `( ग ) िएविद्यालयकीस्था पिायादकसीविद्यमा ि विद्यालय मेंउच्च तरकक्षाकािोलिायादकसीविद्यमािकक्षा`
+  line `काबन्ि करिा;`
+  line `( घ ) िहप्ररूपऔररीवतवजससेदकसीविद्यालयकोमान्य तािेिेकेवलएआिेििदकयाजाएगा;`
+  line `( ङ ) िेसुवििाएंवजिकीव्य िस्था मान्य ताप्राप्त करिेकेवलएदकसीविद्यालयद्वाराकीजाएंगी;`
+  line `( च ) िहरीवतवजससेऔरिहप्राविकारीवजसकोमान्य तािेिेसेइंकारयाउसकेिापसवलएजािेकेविरुद्ध`
+  line अपीलकीजाएगी;
+  line `( छ ) कमषचाररयोंकीसेिाकीविम्ि तमअहषताएंऔ र उिकीभतीकाढंगतथासेिाकेविबंििऔरितें;`
+  line `( ज ) िेप्राविकारीजोइसअविवियमकेविवभ न् ि उपबन्िों केप्रयोजिोंकेवलएविविर्िषष्‍टट दकएजाएंगे;`
+  line `( झ ) विविवष्‍टट यां,जोप्रबन्ि कीदकसीस्की ममेंअन्त र् िषष्‍टट होंगीऔरिहरीवत वजससेऐसीस्की मबिाईजाएगी;`
+  line `( ञ ) िेपररितषिऔरसंिोििजोदकसीऐसेमान्य ताप्राप्त विद्यालयके,जोदकसीप्रकारकी सहायताप्राप्त िहीं`
+  line `करताहै,प्रबन्ि कीस्की ममेंदकएजासकेंगे;`
+  line `( ट ) िेितेंवजिकेअिीिमान्य ताप्राप्त विद्यालयोंकोसहायतािीजासकतीहैऔरवजिकेअवतक्रमणकरिेपर`
+  line सहायतारोकीजासकतीहै,कमकीजासकतीहैयाविलंवबतकीजासकतीहै;
+  line `( ठ ) दकसीमान्य ताप्राप्त विद्यालयकेव्य यकािहभागजोसहायताद्वारापूरादकयाजाएगा;`
+  line `( र् ) विद्यालयकीसम्प वत्तकीिेविविवष्‍टट यांजोसमुवचतअविकारीकोिीजािीचावहएं;`
+  line `( ढ ) िहप्ररूपवजसमेंऔरिहसमयवजसकेिौराि,दकसीविद्यालयकीसम्प वत्तकेअंतरण,बंिकया`
+  line `िारणा विकारकेसम्ब न्ध् ाामेंदकएगएदकसीआिेिकेविरुद्धअपील,प्रिासकसेकीजाएगी;`
+  line `( ण ) कमषचाररयोंकेवलएआचरणसंवहताऔरउसकेअवतक्रमणकेवलएकीजािेिालीकारषिाई;`
+  line `( त ) प्र सुवििाएं,जोमान्य ताप्राप्त प्र ाइिेटविद्यालयकेकमषचाररयोंकोिीजािीचावहएं;`
+  line `( थ ) दकसीमान्य ताप्राप्त विद्यालयमेंप्रिेि;`
+  line `( ि ) िेफीसेंऔरअन्य प्र भारजोसहायतापािेिालेविद्यालयोंद्वारासंगृहीतदकएजाएंगे;`
+  line `( ि ) मान्य ताप्राप्त विद्यालयोंकेविरीक्ष ााणकीरीवत;`
+  line `( ि ) सलाहकारबोर्षकेसिस्यों कीपिािवि,उिकोिेययात्रात थाअन्य भत्ते;`
+  line `( प ) मान्य ताप्राप्त प्र ाइिेटविद्यालयोंकीप्रबन्ि स वमवतद्वारावित्तीयऔरअन्य वििरवणयोंकाफाइलदकयाजािा`
+  line तथािहप्राविकारीवजसकेद्वाराऐसीवििरवणयोंकीसंपरीक्षाकीजाएगी;
+  line `( फ ) िेिैक्ष ाावणकप्रयोजिवजिकेवलएसहायतािपािेिालेमा न् य ताप्राप्त विद्यालयोंद्वाराफीसकेरूपमें व्`
+  line `यु त् प न् ि आय,िचषकीजाएगी;`
+  line `( ब ) विद्यालयविवियोंतथादकसीमान्य ताप्राप्त प्र ाइिेटविद्यालयकीअन्य विवियोंकालेिाजोिारििेऔर`
+  line उिकेसंचालिकीरीवत;
+  line `( भ ) इसअविवियमकेअिीिकोईअपीलकरिेकेवलएफीस,जोएकरुपएसेअिविकहोगी;`
+  line `( म ) कोईअन्य बातजोइसअविवियमकेअिीिविवहतकीजािीहैयाकीजासकतीहै।`
+  line `(3) इसअविवियमकेअिीिबिायागयाप्रत्ये कवियमबिाएजािेकेपश्चा त्यथािीघ्रसंसि्केप्रत्ये कसििकेसमक्ष,जब`
+  line `िहसत्रमेंहो,तीसदििकीअिविके वलएरिाजाएगा।यहअिविएकसत्रमेंअथिािो याअविकआिुक्रवमकसत्रोंमेंपू रीहो`
+  line `सकेगी।यदिउससत्रकेयापूिोक्त आिुक्रवमकसत्रोंकेठीकबािकेसत्रकेअिसािकेपूिषिोिोंसििउसवियममेंकोईपररितषि`
+  line `करिेकेवलएसहमतहोजाएंतोतत्प श् चा त्िहऐसे पररिर्तषतरूपमेंहीप्रभािीहोगा।यदिउक्त अिसािकेपूिषिोिोंसििसहमत`
+obj_root_law_translations_hi_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_11:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-11)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Page 11`)
-  (str content) (str `11
-होजाएंदकिहवियमिहींबिायाजािाचावहएतोतत्प श् चा त्िहविष्‍टप्र भािहोजाएगा।दकन्तु वियमकेऐसेपररिर्तषतया
-विष्‍टप्र भािहोिेसेउसकेअिीिपहलेकीगईदकसीबातकीविविमान्य ता परप्रवतकूलप्रभाििहींपड़ेगा।
-29. करठिाइयोंकोिूरकरिेकीिवक्त — यदिइसअविवियमकेउपबन्िों कोप्रभािीकरिेमेंकोईकरठिाईउत्प न् ि होतीहै
-तोकेन्री यसरकारऐसेआिेिद्वाराजोइसअविवियमकेउपबन्िों सेअसंगतिहो,उसकरठिाईकोिूरकरसकतीहै:
-परन्तु ऐसाकोईभीआिेिइसअविवियमकेप्रारम्भ सेिोिषषकीकालािविकेअिसािकेपश्चा त्िहींदकयाजाएगा।
-_______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 11)
+  kind page
+  sectionId pdf-page-11
+  sectionNo (11)
+  orderNo 11
+  title `Page 11`
+  content obj_root_law_translations_hi_sections_11_content
+  footnotes obj_root_law_translations_hi_sections_11_footnotes
+  sourcePage 11
+obj_root_law_translations_hi_sections_11_content:
+  string
+  line 11
+  line `होजाएंदकिहवियमिहींबिायाजािाचावहएतोतत्प श् चा त्िहविष्‍टप्र भािहोजाएगा।दकन्तु वियमकेऐसेपररिर्तषतया`
+  line `विष्‍टप्र भािहोिेसेउसकेअिीिपहलेकीगईदकसीबातकीविविमान्य ता परप्रवतकूलप्रभाििहींपड़ेगा।`
+  line `29. करठिाइयोंकोिूरकरिेकीिवक्त — यदिइसअविवियमकेउपबन्िों कोप्रभािीकरिेमेंकोईकरठिाईउत्प न् ि होतीहै`
+  line `तोकेन्री यसरकारऐसेआिेिद्वाराजोइसअविवियमकेउपबन्िों सेअसंगतिहो,उसकरठिाईकोिूरकरसकतीहै:`
+  line `परन्तु ऐसाकोईभीआिेिइसअविवियमकेप्रारम्भ सेिोिषषकीकालािविकेअिसािकेपश्चा त्िहींदकयाजाएगा।`
+  line _______
+obj_root_law_translations_hi_sections_11_footnotes:
+  string
+  line

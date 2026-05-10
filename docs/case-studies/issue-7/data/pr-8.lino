@@ -1,80 +1,73 @@
 obj_root:
-  object
-  (str pr) obj_root_pr
-  (str conversationComments) obj_root_conversation_comments
-  (str reviewComments) obj_root_review_comments
-  (str reviews) obj_root_reviews
+  pr obj_root_pr
+  conversationComments obj_root_conversation_comments
+  reviewComments obj_root_review_comments
+  reviews obj_root_reviews
 obj_root_pr:
-  object
-  (str baseRefName) (str main)
-  (str body) (str `## 🤖 AI-Powered Solution Draft
-
-This pull request is being automatically generated to solve issue #7.
-
-### 📋 Issue Reference
-Fixes #7
-
-### 🚧 Status
-**Work in Progress** - The AI assistant is currently analyzing and implementing the solution draft.
-
-### 📝 Implementation Details
-_Details will be added as the solution draft is developed..._
-
----
-*This PR was created automatically by the AI issue solver*`)
-  (str comments) obj_root_pr_comments
-  (str commits) obj_root_pr_commits
-  (str headRefName) (str issue-7-6572af923ca3)
-  (str isDraft) (bool true)
-  (str number) (int 8)
-  (str reviews) obj_root_pr_reviews
-  (str state) (str OPEN)
-  (str statusCheckRollup) obj_root_pr_status_check_rollup
-  (str title) (str `[WIP] CI/CD is broken`)
-  (str url) (str `https://github.com/Svetozar-Technologies/indian-law/pull/8`)
+  baseRefName main
+  body obj_root_pr_body
+  comments obj_root_pr_comments
+  commits obj_root_pr_commits
+  headRefName issue-7-6572af923ca3
+  isDraft true
+  number 8
+  reviews obj_root_pr_reviews
+  state OPEN
+  statusCheckRollup obj_root_pr_status_check_rollup
+  title `[WIP] CI/CD is broken`
+  url `https://github.com/Svetozar-Technologies/indian-law/pull/8`
+obj_root_pr_body:
+  string
+  line `## 🤖 AI-Powered Solution Draft`
+  line
+  line `This pull request is being automatically generated to solve issue #7.`
+  line
+  line `### 📋 Issue Reference`
+  line `Fixes #7`
+  line
+  line `### 🚧 Status`
+  line `**Work in Progress** - The AI assistant is currently analyzing and implementing the solution draft.`
+  line
+  line `### 📝 Implementation Details`
+  line `_Details will be added as the solution draft is developed..._`
+  line
+  line ---
+  line `*This PR was created automatically by the AI issue solver*`
 obj_root_pr_comments:
-  array
 obj_root_pr_commits:
-  array
   obj_root_pr_commits_1
 obj_root_pr_commits_1:
-  object
-  (str authoredDate) (str `2026-05-09T02:35:52Z`)
-  (str authors) obj_root_pr_commits_1_authors
-  (str committedDate) (str `2026-05-09T02:35:52Z`)
-  (str messageBody) (str `Adding .gitkeep for PR creation (default mode).
-This file will be removed when the task is complete.
-
-Issue: https://github.com/Svetozar-Technologies/indian-law/issues/7`)
-  (str messageHeadline) (str `Initial commit with task details`)
-  (str oid) (str c266e2046db539c5b943f3680518e6c73dcdc998)
+  authoredDate `2026-05-09T02:35:52Z`
+  authors obj_root_pr_commits_1_authors
+  committedDate `2026-05-09T02:35:52Z`
+  messageBody obj_root_pr_commits_1_message_body
+  messageHeadline `Initial commit with task details`
+  oid c266e2046db539c5b943f3680518e6c73dcdc998
 obj_root_pr_commits_1_authors:
-  array
   obj_root_pr_commits_1_authors_konard
 obj_root_pr_commits_1_authors_konard:
-  object
-  (str email) (str drakonard@gmail.com)
-  (str id) (str MDQ6VXNlcjE0MzE5MDQ=)
-  (str login) (str konard)
-  (str name) (str konard)
+  email drakonard@gmail.com
+  id MDQ6VXNlcjE0MzE5MDQ=
+  login konard
+  name konard
+obj_root_pr_commits_1_message_body:
+  string
+  line `Adding .gitkeep for PR creation (default mode).`
+  line `This file will be removed when the task is complete.`
+  line
+  line `Issue: https://github.com/Svetozar-Technologies/indian-law/issues/7`
 obj_root_pr_reviews:
-  array
 obj_root_pr_status_check_rollup:
-  array
   obj_root_pr_status_check_rollup_test_and_offline_build
 obj_root_pr_status_check_rollup_test_and_offline_build:
-  object
-  (str __typename) (str CheckRun)
-  (str completedAt) (str `2026-05-09T02:36:26Z`)
-  (str conclusion) (str FAILURE)
-  (str detailsUrl) (str `https://github.com/Svetozar-Technologies/indian-law/actions/runs/25589319973/job/75123905473`)
-  (str name) (str `Test and Offline Build`)
-  (str startedAt) (str `2026-05-09T02:36:11Z`)
-  (str status) (str COMPLETED)
-  (str workflowName) (str CI)
+  __typename CheckRun
+  completedAt `2026-05-09T02:36:26Z`
+  conclusion FAILURE
+  detailsUrl `https://github.com/Svetozar-Technologies/indian-law/actions/runs/25589319973/job/75123905473`
+  name `Test and Offline Build`
+  startedAt `2026-05-09T02:36:11Z`
+  status COMPLETED
+  workflowName CI
 obj_root_conversation_comments:
-  array
 obj_root_review_comments:
-  array
 obj_root_reviews:
-  array

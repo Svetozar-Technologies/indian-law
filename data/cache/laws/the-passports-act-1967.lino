@@ -1,60 +1,51 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T13:09:00.909Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1372`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 29)
-  (str totalSections) (int 29)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T13:09:00.909Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1372`
+  completeFetch true
+  maxSections null
+  sectionCount 29
+  totalSections 29
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-passports-act-1967)
-  (str handle) (str 1372)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Passports Act, 1967`)
-  (str actNumber) (str 15)
-  (str enactmentDate) (str 1967-06-24)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1372`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `पासपोर्ट अधिनियम, 1967`)
-  (str actYear) (str 1967)
-  (str ministry) (str `Ministry of External Affairs`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act to provide for the issue of passports and travel documents, to regulate the departure from India of citizens of India and other persons and for matters incidental or ancillary thereto.`)
-  (str enforcementDate) (str 24-06-1967)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-10T13:08:58.137Z`)
-  (str translations) obj_root_law_translations
+  slug the-passports-act-1967
+  handle (1372)
+  collectionHandle 123456789/1362
+  title `The Passports Act, 1967`
+  actNumber (15)
+  enactmentDate 1967-06-24
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1372`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `पासपोर्ट अधिनियम, 1967`
+  actYear (1967)
+  ministry `Ministry of External Affairs`
+  department undefined
+  longTitle `An Act to provide for the issue of passports and travel documents, to regulate the departure from India of citizens of India and other persons and for matters incidental or ancillary thereto.`
+  enforcementDate 24-06-1967
+  notification undefined
+  fetchedAt `2026-05-10T13:08:58.137Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_passports_act_1967
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1372`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1372`
 obj_root_law_sources_en_the_passports_act_1967:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1372/1/196715.pdf`)
-  (str title) (str `The Passports Act, 1967`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1372/1/196715.pdf`
+  title `The Passports Act, 1967`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1967
 obj_root_law_sources_hi_1967:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1372/2/H1967-15.pdf`)
-  (str title) (str `पासपोर्ट अधिनियम, 1967`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1372/2/H1967-15.pdf`
+  title `पासपोर्ट अधिनियम, 1967`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -85,777 +76,910 @@ obj_root_law_sections:
   obj_root_law_sections_26
   obj_root_law_sections_27
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 4362)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the Passports Act, 1967.
-
-(2) It extends to the whole of India and applies also to citizens of India who are outside India.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4362&sectionno=1&orderno=1&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4362)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4362&sectionno=1&orderno=1&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Passports Act, 1967.`
+  line
+  line `(2) It extends to the whole of India and applies also to citizens of India who are outside India.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 4363)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "departure", with its grammatical variations and cognate expressions, means departure from
-India by water, land or air;
-
-(b) "passport" means a passport issued or deemed to have been issued under this Act;
-
-(c) "passport authority" means an officer or authority empowered under rules made under this
-Act to issue passports or travel documents and includes the Central Government;
-
-(d) "prescribed" means prescribed by rules made under this Act;
-
-(e) "travel document" means a travel document issued or deemed to have been issued under
-this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4363&sectionno=2&orderno=2&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4363)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4363&sectionno=2&orderno=2&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "departure", with its grammatical variations and cognate expressions, means departure from`
+  line `India by water, land or air;`
+  line
+  line `(b) "passport" means a passport issued or deemed to have been issued under this Act;`
+  line
+  line `(c) "passport authority" means an officer or authority empowered under rules made under this`
+  line `Act to issue passports or travel documents and includes the Central Government;`
+  line
+  line `(d) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(e) "travel document" means a travel document issued or deemed to have been issued under`
+  line `this Act.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 4364)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Passport or travel document for departure from India.`)
-  (str content) (str `No person shall depart from, or
-attempt to depart from India unless he holds in this behalf a valid passport or travel document.
-
-Explanation.--For the purposes of this section,--
-
-(a) "passport" includes a passport which having been issued by or under the authority of the
-Government of a foreign country satisfies the conditions prescribed under the Passport
-(Entry into India) Act, 1920 (34 of 1920), in respect of the class of passports to which it belongs;
-
-(b) "travel document" includes a travel document which having been issued by or under the
-authority of the Government of a foreign country satisfies the conditions prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4364&sectionno=3&orderno=3&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4364)
+  sectionNo (3)
+  orderNo 3
+  title `Passport or travel document for departure from India.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4364&sectionno=3&orderno=3&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_3_content:
+  string
+  line `No person shall depart from, or`
+  line `attempt to depart from India unless he holds in this behalf a valid passport or travel document.`
+  line
+  line `Explanation.--For the purposes of this section,--`
+  line
+  line `(a) "passport" includes a passport which having been issued by or under the authority of the`
+  line `Government of a foreign country satisfies the conditions prescribed under the Passport`
+  line `(Entry into India) Act, 1920 (34 of 1920), in respect of the class of passports to which it belongs;`
+  line
+  line `(b) "travel document" includes a travel document which having been issued by or under the`
+  line `authority of the Government of a foreign country satisfies the conditions prescribed.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 4365)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Classes of passports and travel documents.`)
-  (str content) (str `(1) The following classes of passports may be
-issued under this Act, namely:--
-
-(a) ordinary passport;
-
-(b) Official passport;
-
-(c) diplomatic passport.
-
-(2) The following classes of travel documents may be issued under this Act, namely:--
-
-(a) emergency certificate authorising a person to enter India;
-
-(b) certificate of identity for the purpose of establishing the identity of a person;
-
-(c) such other certificate or document as may be prescribed.
-
-(3) The Central Government shall, in consonance with the usage and practice followed by it in this
-behalf, prescribe the classes of persons to whom the classes of passports and travel documents referred to
-respectively in sub-section (1) and sub-section (2) may be issued under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4365&sectionno=4&orderno=4&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4365)
+  sectionNo (4)
+  orderNo 4
+  title `Classes of passports and travel documents.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4365&sectionno=4&orderno=4&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_4_content:
+  string
+  line `(1) The following classes of passports may be`
+  line `issued under this Act, namely:--`
+  line
+  line `(a) ordinary passport;`
+  line
+  line `(b) Official passport;`
+  line
+  line `(c) diplomatic passport.`
+  line
+  line `(2) The following classes of travel documents may be issued under this Act, namely:--`
+  line
+  line `(a) emergency certificate authorising a person to enter India;`
+  line
+  line `(b) certificate of identity for the purpose of establishing the identity of a person;`
+  line
+  line `(c) such other certificate or document as may be prescribed.`
+  line
+  line `(3) The Central Government shall, in consonance with the usage and practice followed by it in this`
+  line `behalf, prescribe the classes of persons to whom the classes of passports and travel documents referred to`
+  line `respectively in sub-section (1) and sub-section (2) may be issued under this Act.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 4366)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Applications for passports, travel documents, etc, and orders thereon.`)
-  (str content) (str `^1
-[(1) An application
-for the issue of a passport under this Act for visiting such foreign country or countries (not being a named
-foreign country) as may be specified in the application may be made to the passport authority and shall be accompanied by ^2
-[such fee as may be prescribed to meet the expenses incurred on special security paper,
-printing, lamination and other connected miscellaneous services in issuing passports and other travel
-documents.]
-
-Explanation.--In this section, "named foreign country" means such foreign country as the Central
-Government may, by rules made under this Act, specify in this behalf.
-
-(1A) An application for the issue of--
-
-(i) a passport under this Act for visiting a named foreign country; or
-
-(ii) a travel document under this Act, for visiting such foreign country or countries
-(including a named foreign country) as may be specified in the application or for an endorsement
-on the passport or travel document referred to in this section,
-
-may be made to the passport authority and shall be accompanied by such fee (if any) not exceeding
-rupees fifty, as may be prescribed.
-
-(1B) Every application under this section shall be in such form and contain such particulars as
-may be prescribed.]
-
-(2) On receipt of an application ^3
-[under this section], the passport authority, after making such
-inquiry, if any, as it may consider necessary, shall, subject to the other provisions of this Act, by order
-in writing,--
-
-(a) issue the passport or travel document with endorsement ,or, as the case may be, make on the
-passport or travel document the endorsement, in respect of the foreign country or countries specified
-in the application; or
-
-(b) issue the passport or travel document with endorsement, or, as the case may be, make on the
-passport or travel document the endorsement, in respect of one or more of the foreign countries
-specified in the application and refuse to make an endorsement in respect of the other country or
-countries; or
-
-(c) refuse to issue the passport or travel document or, as the case may be, refuse to make on the
-passport or travel document any endorsement.
-
-(3) Where the passport authority makes an order under clause (b) or clause (c) of sub-section (2) on
-the application of any person, it shall record in writing a brief statement of its reasons for making such
-order and furnish to that person on demand a copy of the same unless in any case the passport authority is
-of the opinion that it will not be in the interests of the sovereignty and integrity of India, the security of
-India, friendly relations of India with any foreign country or in the interests of the general public to
-furnish such copy.`)
-  (str footnotes) (str `1 Subs. by Act 31 of 1978, s. 2, for sub-section (1) (w.e.f. 18-8-1978).
-
-2 Subs. by Act 35 of 1993, s. 2, for "a fee of rupees fifty" (w.e.f. 1-7-1993).
-
-3 Ins. by Act 31 of 1978 s. 2 (w.e.f. 18-8-1978).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4366&sectionno=5&orderno=5&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4366)
+  sectionNo (5)
+  orderNo 5
+  title `Applications for passports, travel documents, etc, and orders thereon.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4366&sectionno=5&orderno=5&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_5_content:
+  string
+  line ^1
+  line `[(1) An application`
+  line `for the issue of a passport under this Act for visiting such foreign country or countries (not being a named`
+  line `foreign country) as may be specified in the application may be made to the passport authority and shall be accompanied by ^2`
+  line `[such fee as may be prescribed to meet the expenses incurred on special security paper,`
+  line `printing, lamination and other connected miscellaneous services in issuing passports and other travel`
+  line documents.]
+  line
+  line `Explanation.--In this section, "named foreign country" means such foreign country as the Central`
+  line `Government may, by rules made under this Act, specify in this behalf.`
+  line
+  line `(1A) An application for the issue of--`
+  line
+  line `(i) a passport under this Act for visiting a named foreign country; or`
+  line
+  line `(ii) a travel document under this Act, for visiting such foreign country or countries`
+  line `(including a named foreign country) as may be specified in the application or for an endorsement`
+  line `on the passport or travel document referred to in this section,`
+  line
+  line `may be made to the passport authority and shall be accompanied by such fee (if any) not exceeding`
+  line `rupees fifty, as may be prescribed.`
+  line
+  line `(1B) Every application under this section shall be in such form and contain such particulars as`
+  line `may be prescribed.]`
+  line
+  line `(2) On receipt of an application ^3`
+  line `[under this section], the passport authority, after making such`
+  line `inquiry, if any, as it may consider necessary, shall, subject to the other provisions of this Act, by order`
+  line `in writing,--`
+  line
+  line `(a) issue the passport or travel document with endorsement ,or, as the case may be, make on the`
+  line `passport or travel document the endorsement, in respect of the foreign country or countries specified`
+  line `in the application; or`
+  line
+  line `(b) issue the passport or travel document with endorsement, or, as the case may be, make on the`
+  line `passport or travel document the endorsement, in respect of one or more of the foreign countries`
+  line `specified in the application and refuse to make an endorsement in respect of the other country or`
+  line `countries; or`
+  line
+  line `(c) refuse to issue the passport or travel document or, as the case may be, refuse to make on the`
+  line `passport or travel document any endorsement.`
+  line
+  line `(3) Where the passport authority makes an order under clause (b) or clause (c) of sub-section (2) on`
+  line `the application of any person, it shall record in writing a brief statement of its reasons for making such`
+  line `order and furnish to that person on demand a copy of the same unless in any case the passport authority is`
+  line `of the opinion that it will not be in the interests of the sovereignty and integrity of India, the security of`
+  line `India, friendly relations of India with any foreign country or in the interests of the general public to`
+  line `furnish such copy.`
+obj_root_law_sections_5_footnotes:
+  string
+  line `1 Subs. by Act 31 of 1978, s. 2, for sub-section (1) (w.e.f. 18-8-1978).`
+  line
+  line `2 Subs. by Act 35 of 1993, s. 2, for "a fee of rupees fifty" (w.e.f. 1-7-1993).`
+  line
+  line `3 Ins. by Act 31 of 1978 s. 2 (w.e.f. 18-8-1978).`
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 4367)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Refusal of passports, travel documents, etc.`)
-  (str content) (str `(1) Subject to the other provisions of this Act, the
-passport authority shall refuse to make an endorsement for visiting any foreign country under clause
-(b) or clause (c) of sub-section (2) of section 5 on any one or more of the following grounds, and on no
-other ground, namely:--
-
-(a) that the applicant may, or is likely to, engage in such country in activities prejudicial to the
-sovereignty and integrity of India;
-
-(b) that the presence of the applicant in such country may, or is likely to, be detrimental to the
-security of India;
-
-(c) that the presence of the applicant in such country may, or is likely to, prejudice the friendly
-relations of India with that or any other country;
-
-(d) that in the opinion of the Central Government the presence of the applicant in such country is
-not in the public interest.
-
-(2) Subject to the other provisions of this Act, the passport authority shall refuse to issue a passport or
-travel document for visiting any foreign country under clause (c) of sub-section (2) of section 5 on any
-one or more of the following grounds, and on no other ground, namely:--
-
-(a) that the applicant is not a citizen of India;
-
-(b) that the applicant may, or is likely to, engage outside India in activities prejudicial to the
-sovereignty and integrity of India;
-
-(c) that the departure of the applicant from India may, or is likely to, be detrimental to the
-security of India;
-
-(d) that the presence of the applicant outside India may, or is likely to, prejudice the friendly
-relations of India with any foreign country;
-
-(e) that the applicant has, at any time during the period of five years immediately preceding the
-date of his application, been convicted by a court in India for any offence involving moral turpitude
-and sentenced in respect thereof to imprisonment for not less than two years;
-
-(f) that proceedings in respect of an offence alleged to have been committed by the applicant are
-pending before a criminal court in India;
-
-(g) that a warrant or summons for the appearance, or a warrant for the arrest, of the applicant has
-been issued by a court under any law for the time being in force or that an order prohibiting the
-departure from India of the applicant has been made by any such court;
-
-(h) that the applicant has been repatriated and has not reimbursed the expenditure incurred in
-connection with such repatriation;
-
-(i) that in the opinion of the Central Government the issue of a passport or travel document to the
-applicant will not be in the public interest.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4367&sectionno=6&orderno=6&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4367)
+  sectionNo (6)
+  orderNo 6
+  title `Refusal of passports, travel documents, etc.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4367&sectionno=6&orderno=6&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_6_content:
+  string
+  line `(1) Subject to the other provisions of this Act, the`
+  line `passport authority shall refuse to make an endorsement for visiting any foreign country under clause`
+  line `(b) or clause (c) of sub-section (2) of section 5 on any one or more of the following grounds, and on no`
+  line `other ground, namely:--`
+  line
+  line `(a) that the applicant may, or is likely to, engage in such country in activities prejudicial to the`
+  line `sovereignty and integrity of India;`
+  line
+  line `(b) that the presence of the applicant in such country may, or is likely to, be detrimental to the`
+  line `security of India;`
+  line
+  line `(c) that the presence of the applicant in such country may, or is likely to, prejudice the friendly`
+  line `relations of India with that or any other country;`
+  line
+  line `(d) that in the opinion of the Central Government the presence of the applicant in such country is`
+  line `not in the public interest.`
+  line
+  line `(2) Subject to the other provisions of this Act, the passport authority shall refuse to issue a passport or`
+  line `travel document for visiting any foreign country under clause (c) of sub-section (2) of section 5 on any`
+  line `one or more of the following grounds, and on no other ground, namely:--`
+  line
+  line `(a) that the applicant is not a citizen of India;`
+  line
+  line `(b) that the applicant may, or is likely to, engage outside India in activities prejudicial to the`
+  line `sovereignty and integrity of India;`
+  line
+  line `(c) that the departure of the applicant from India may, or is likely to, be detrimental to the`
+  line `security of India;`
+  line
+  line `(d) that the presence of the applicant outside India may, or is likely to, prejudice the friendly`
+  line `relations of India with any foreign country;`
+  line
+  line `(e) that the applicant has, at any time during the period of five years immediately preceding the`
+  line `date of his application, been convicted by a court in India for any offence involving moral turpitude`
+  line `and sentenced in respect thereof to imprisonment for not less than two years;`
+  line
+  line `(f) that proceedings in respect of an offence alleged to have been committed by the applicant are`
+  line `pending before a criminal court in India;`
+  line
+  line `(g) that a warrant or summons for the appearance, or a warrant for the arrest, of the applicant has`
+  line `been issued by a court under any law for the time being in force or that an order prohibiting the`
+  line `departure from India of the applicant has been made by any such court;`
+  line
+  line `(h) that the applicant has been repatriated and has not reimbursed the expenditure incurred in`
+  line `connection with such repatriation;`
+  line
+  line `(i) that in the opinion of the Central Government the issue of a passport or travel document to the`
+  line `applicant will not be in the public interest.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 4368)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Duration of passports travel documents.`)
-  (str content) (str `A passport or travel document shall, unless
-revoked earlier, continue in force for such period as may be prescribed and different periods may be
-prescribed for different classes of passports or travel documents or for different categories of passports or
-travel documents under each such class:
-
-Provided that a passport or travel document may be issued for a shorter period than the
-prescribed period--
-
-(a) if the person by whom it is required so desires; or
-
-(b) if the passport authority, for reasons to be communicated in writing to the applicant, considers
-in any case that the passport or travel document should be issued for a shorter period.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4368&sectionno=7&orderno=7&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4368)
+  sectionNo (7)
+  orderNo 7
+  title `Duration of passports travel documents.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4368&sectionno=7&orderno=7&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_7_content:
+  string
+  line `A passport or travel document shall, unless`
+  line `revoked earlier, continue in force for such period as may be prescribed and different periods may be`
+  line `prescribed for different classes of passports or travel documents or for different categories of passports or`
+  line `travel documents under each such class:`
+  line
+  line `Provided that a passport or travel document may be issued for a shorter period than the`
+  line `prescribed period--`
+  line
+  line `(a) if the person by whom it is required so desires; or`
+  line
+  line `(b) if the passport authority, for reasons to be communicated in writing to the applicant, considers`
+  line `in any case that the passport or travel document should be issued for a shorter period.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 4369)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Extension of period of Passport.`)
-  (str content) (str `^1
-[8. Extension of period of Passport.--Where a passport is issued for a shorter period than the
-prescribed period under section 7, such shorter period shall, unless the passport authority for reasons to be
-recorded in writing otherwise determines, be extendable for a further period (which together with the
-shorter period shall not exceed the prescribed period) and the provisions of this Act shall apply to such
-extension as they apply to the issue thereof.]`)
-  (str footnotes) (str `1. Subs. by Act 35 of 1993, s. 3, for section 8 (w.e.f. 1-7-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4369&sectionno=8&orderno=8&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4369)
+  sectionNo (8)
+  orderNo 8
+  title `Extension of period of Passport.`
+  content obj_root_law_sections_8_content
+  footnotes `1. Subs. by Act 35 of 1993, s. 3, for section 8 (w.e.f. 1-7-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4369&sectionno=8&orderno=8&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_8_content:
+  string
+  line ^1
+  line `[8. Extension of period of Passport.--Where a passport is issued for a shorter period than the`
+  line `prescribed period under section 7, such shorter period shall, unless the passport authority for reasons to be`
+  line `recorded in writing otherwise determines, be extendable for a further period (which together with the`
+  line `shorter period shall not exceed the prescribed period) and the provisions of this Act shall apply to such`
+  line `extension as they apply to the issue thereof.]`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 4370)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Conditions and forms of passports and travel documents.`)
-  (str content) (str `The conditions subject to which,
-and the form in which, a passport or travel document shall be issued or renewed shall be such as may be
-prescribed:
-
-Provided that different conditions and different forms may be prescribed for different classes of
-passports or travel documents or for different categories of passports or travel documents under each such
-class:
-
-Provided further that a passport or travel document may contain in addition to the prescribed
-conditions such other conditions as the passport authority may, with the previous approval of the Central
-Government, impose in any particular case.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4370&sectionno=9&orderno=9&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4370)
+  sectionNo (9)
+  orderNo 9
+  title `Conditions and forms of passports and travel documents.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4370&sectionno=9&orderno=9&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_9_content:
+  string
+  line `The conditions subject to which,`
+  line `and the form in which, a passport or travel document shall be issued or renewed shall be such as may be`
+  line `prescribed:`
+  line
+  line `Provided that different conditions and different forms may be prescribed for different classes of`
+  line `passports or travel documents or for different categories of passports or travel documents under each such`
+  line `class:`
+  line
+  line `Provided further that a passport or travel document may contain in addition to the prescribed`
+  line `conditions such other conditions as the passport authority may, with the previous approval of the Central`
+  line `Government, impose in any particular case.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 4371)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Variation, impounding and revocation of passports and travel documents.`)
-  (str content) (str `(1) The passport
-authority may, having regard to the provisions of sub-section (1) of section 6 or any notification under
-section 19, vary or cancel the endorsements on a passport or travel document or may, with the previous
-approval of the Central Government, vary or cancel the conditions (other than the prescribed conditions)
-subject to which a passport or travel document has been issued and may, for that purpose, require the
-holder of a passport or a travel document, by notice in writing, to deliver up the passport or travel
-document to it within such time as may be specified in the notice and the holder shall comply with such
-notice.
-
-(2) The passport authority may, on the application of the holder of a passport or a travel document,
-and with the previous approval of the Central Government also vary or cancel the conditions
-(other than the prescribed conditions) of the passport or travel document.
-
-(3) The passport authority may impound or cause to be impounded or revoke a passport or travel
-document,--
-
-(a) if the passport authority is satisfied that the holder of the passport or travel document is in
-wrongful possession thereof;
-
-(b) if the passport or travel document was obtained by the suppression of material information or
-on the basis of wrong information provided by the holder of the passport or travel document or any
-other person on his behalf:
-
-^1
-[Provided that if the holder of such passport obtains another passport, the passport authority shall
-also impound or cause to be impounded or revoke such other passport.]
-
-(c) if the passport authority deems it necessary so to do in the interests of the sovereignty and
-integrity of India, the security of India, friendly relations of India with any foreign country, or in the
-interests of the general public;
-
-(d) if the holder of the passport or travel document has, at any time after the issue of the passport
-or travel document, been convicted by a court in India for any offence involving moral turpitude and
-sentenced in respect thereof to imprisonment for not less than two years;
-
-(e) if proceedings in respect of an offence alleged to have been committed by the holder of the
-passport or travel document are pending before a criminal court in India;
-
-(f) if any of the conditions of the passport or travel document has been contravened;
-
-(g) if the holder of the passport or travel document has failed to comply with a notice under
-sub-section (1) requiring him to deliver up the same;
-
-(h) if it is brought to the notice of the passport authority that a warrant or summons for the
-appearance, or a warrant for the arrest, of the holder of the passport or travel document has been
-issued by a court under any law for the time being in force or if an order prohibiting the departure
-from India of the holder of the passport or other travel document has been made by any such court
-and the passport authority is satisfied that a warrant or summons has been so issued or an order has
-been so made.
-
-(4) The passport authority may also revoke a passport or travel document on the application of the
-holder thereof.
-
-(5) Where the passport authority makes an order varying or cancelling the endorsements on, or
-varying the conditions of, a passport or travel document under sub-section (1) or an order impounding or
-revoking a passport or travel document under sub-section (3), it shall record in writing a brief statement
-of the reasons for making such order and furnish to the holder of the passport or travel document on demand a copy of the same unless in any case, the passport authority is of the opinion that it will not be in
-the interests of the sovereignty and integrity of India, the security of India, friendly relations of India with
-any foreign country or in the interests of the general public to furnish such a copy.
-
-(6) The authority to whom the passport authority is subordinate may, by order in writing, impound or
-cause to be impounded or revoke a passport or travel document on any ground on which it may be
-impounded or revoked by the passport authority and the foregoing provisions of this section shall, as far
-as may be, apply in relation to the impounding or revocation of a passport or travel document by such
-authority.
-
-(7) A court convicting the holder of a passport or travel document of any offence under this Act or the
-rules made thereunder may also revoke the passport or travel document:
-
-Provided that if the conviction is set aside on appeal or otherwise the revocation shall become void.
-
-(8) An order of revocation under sub-section (7) may also be made by an appellate court or by the
-High Court when exercising its powers of revision.
-
-(9) On the revocation of a passport or travel document under this section the holder thereof shall,
-without delay, surrender the passport or travel document, if the same has not already been impounded, to
-the authority by whom it has been revoked or to such other authority as may be specified in this behalf in
-the order of revocation.`)
-  (str footnotes) (str `1. The proviso ins. by Act 35 of 1993, s. 4 (w.e.f. 1-7-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4371&sectionno=10&orderno=10&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4371)
+  sectionNo (10)
+  orderNo 10
+  title `Variation, impounding and revocation of passports and travel documents.`
+  content obj_root_law_sections_10_content
+  footnotes `1. The proviso ins. by Act 35 of 1993, s. 4 (w.e.f. 1-7-1993).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4371&sectionno=10&orderno=10&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_10_content:
+  string
+  line `(1) The passport`
+  line `authority may, having regard to the provisions of sub-section (1) of section 6 or any notification under`
+  line `section 19, vary or cancel the endorsements on a passport or travel document or may, with the previous`
+  line `approval of the Central Government, vary or cancel the conditions (other than the prescribed conditions)`
+  line `subject to which a passport or travel document has been issued and may, for that purpose, require the`
+  line `holder of a passport or a travel document, by notice in writing, to deliver up the passport or travel`
+  line `document to it within such time as may be specified in the notice and the holder shall comply with such`
+  line notice.
+  line
+  line `(2) The passport authority may, on the application of the holder of a passport or a travel document,`
+  line `and with the previous approval of the Central Government also vary or cancel the conditions`
+  line `(other than the prescribed conditions) of the passport or travel document.`
+  line
+  line `(3) The passport authority may impound or cause to be impounded or revoke a passport or travel`
+  line document,--
+  line
+  line `(a) if the passport authority is satisfied that the holder of the passport or travel document is in`
+  line `wrongful possession thereof;`
+  line
+  line `(b) if the passport or travel document was obtained by the suppression of material information or`
+  line `on the basis of wrong information provided by the holder of the passport or travel document or any`
+  line `other person on his behalf:`
+  line
+  line ^1
+  line `[Provided that if the holder of such passport obtains another passport, the passport authority shall`
+  line `also impound or cause to be impounded or revoke such other passport.]`
+  line
+  line `(c) if the passport authority deems it necessary so to do in the interests of the sovereignty and`
+  line `integrity of India, the security of India, friendly relations of India with any foreign country, or in the`
+  line `interests of the general public;`
+  line
+  line `(d) if the holder of the passport or travel document has, at any time after the issue of the passport`
+  line `or travel document, been convicted by a court in India for any offence involving moral turpitude and`
+  line `sentenced in respect thereof to imprisonment for not less than two years;`
+  line
+  line `(e) if proceedings in respect of an offence alleged to have been committed by the holder of the`
+  line `passport or travel document are pending before a criminal court in India;`
+  line
+  line `(f) if any of the conditions of the passport or travel document has been contravened;`
+  line
+  line `(g) if the holder of the passport or travel document has failed to comply with a notice under`
+  line `sub-section (1) requiring him to deliver up the same;`
+  line
+  line `(h) if it is brought to the notice of the passport authority that a warrant or summons for the`
+  line `appearance, or a warrant for the arrest, of the holder of the passport or travel document has been`
+  line `issued by a court under any law for the time being in force or if an order prohibiting the departure`
+  line `from India of the holder of the passport or other travel document has been made by any such court`
+  line `and the passport authority is satisfied that a warrant or summons has been so issued or an order has`
+  line `been so made.`
+  line
+  line `(4) The passport authority may also revoke a passport or travel document on the application of the`
+  line `holder thereof.`
+  line
+  line `(5) Where the passport authority makes an order varying or cancelling the endorsements on, or`
+  line `varying the conditions of, a passport or travel document under sub-section (1) or an order impounding or`
+  line `revoking a passport or travel document under sub-section (3), it shall record in writing a brief statement`
+  line `of the reasons for making such order and furnish to the holder of the passport or travel document on demand a copy of the same unless in any case, the passport authority is of the opinion that it will not be in`
+  line `the interests of the sovereignty and integrity of India, the security of India, friendly relations of India with`
+  line `any foreign country or in the interests of the general public to furnish such a copy.`
+  line
+  line `(6) The authority to whom the passport authority is subordinate may, by order in writing, impound or`
+  line `cause to be impounded or revoke a passport or travel document on any ground on which it may be`
+  line `impounded or revoked by the passport authority and the foregoing provisions of this section shall, as far`
+  line `as may be, apply in relation to the impounding or revocation of a passport or travel document by such`
+  line authority.
+  line
+  line `(7) A court convicting the holder of a passport or travel document of any offence under this Act or the`
+  line `rules made thereunder may also revoke the passport or travel document:`
+  line
+  line `Provided that if the conviction is set aside on appeal or otherwise the revocation shall become void.`
+  line
+  line `(8) An order of revocation under sub-section (7) may also be made by an appellate court or by the`
+  line `High Court when exercising its powers of revision.`
+  line
+  line `(9) On the revocation of a passport or travel document under this section the holder thereof shall,`
+  line `without delay, surrender the passport or travel document, if the same has not already been impounded, to`
+  line `the authority by whom it has been revoked or to such other authority as may be specified in this behalf in`
+  line `the order of revocation.`
 obj_root_law_sections_10_a:
-  object
-  (str sectionId) (str 4372)
-  (str sectionNo) (str 10A)
-  (str orderNo) (int 11)
-  (str title) (str `Suspension of passports or travel documents in certain cases.`)
-  (str content) (str `^1[10A. Suspension of passports or travel documents in certain cases.--(1) Without prejudice
-to the generality of the provisions contained in section 10, if the Central Government or any
-designated officer is satisfied that the passport or travel document is likely to be impounded or caused
-to be impounded or revoked under clause (c) of sub-section (3) of section 10 and it is necessary in the
-public interest so to do, it or he may,--
-
-(a) by order, suspend, with immediate effect, any passport or travel document;
-
-(b) pass such other appropriate order which may have the effect of rendering any passport or
-travel document invalid,
-
-for a period not exceeding four weeks:
-
-Provided that the Central Government or the designated officer may, if it or he considers
-appropriate, extend, by order and for reasons to be recorded in writing, the said period of four weeks
-till the proceedings relating to variation, impounding or revocation of passport or travel document
-under section 10 are concluded:
-
-Provided further that every holder of the passport or travel document, in respect of whom an
-order under clause (a) or clause (b) of this sub-section had been passed, shall be given an opportunity
-of being heard within a period of not later than eight weeks reckoned from the date of passing of such
-order and thereupon the Central Government may, if necessary, by order in writing, modify or revoke
-the order passed under this sub-section.
-
-(2) The designated officer shall immediately communicate the order passed under sub-section (1),
-to the concerned authority at an airport or any other point of embarkation or immigration, and to the
-passport authority.
-
-(3) Every authority referred to in sub-section (2) shall, immediately on receipt of the order passed
-under sub-section (1), give effect to such order.]`)
-  (str footnotes) (str `1. Ins by Act 17 of 2002, s. 2 (w.e.f. 23-10-2002).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4372&sectionno=10A&orderno=11&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4372)
+  sectionNo 10A
+  orderNo 11
+  title `Suspension of passports or travel documents in certain cases.`
+  content obj_root_law_sections_10_a_content
+  footnotes `1. Ins by Act 17 of 2002, s. 2 (w.e.f. 23-10-2002).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4372&sectionno=10A&orderno=11&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_10_a_content:
+  string
+  line `^1[10A. Suspension of passports or travel documents in certain cases.--(1) Without prejudice`
+  line `to the generality of the provisions contained in section 10, if the Central Government or any`
+  line `designated officer is satisfied that the passport or travel document is likely to be impounded or caused`
+  line `to be impounded or revoked under clause (c) of sub-section (3) of section 10 and it is necessary in the`
+  line `public interest so to do, it or he may,--`
+  line
+  line `(a) by order, suspend, with immediate effect, any passport or travel document;`
+  line
+  line `(b) pass such other appropriate order which may have the effect of rendering any passport or`
+  line `travel document invalid,`
+  line
+  line `for a period not exceeding four weeks:`
+  line
+  line `Provided that the Central Government or the designated officer may, if it or he considers`
+  line `appropriate, extend, by order and for reasons to be recorded in writing, the said period of four weeks`
+  line `till the proceedings relating to variation, impounding or revocation of passport or travel document`
+  line `under section 10 are concluded:`
+  line
+  line `Provided further that every holder of the passport or travel document, in respect of whom an`
+  line `order under clause (a) or clause (b) of this sub-section had been passed, shall be given an opportunity`
+  line `of being heard within a period of not later than eight weeks reckoned from the date of passing of such`
+  line `order and thereupon the Central Government may, if necessary, by order in writing, modify or revoke`
+  line `the order passed under this sub-section.`
+  line
+  line `(2) The designated officer shall immediately communicate the order passed under sub-section (1),`
+  line `to the concerned authority at an airport or any other point of embarkation or immigration, and to the`
+  line `passport authority.`
+  line
+  line `(3) Every authority referred to in sub-section (2) shall, immediately on receipt of the order passed`
+  line `under sub-section (1), give effect to such order.]`
 obj_root_law_sections_10_b:
-  object
-  (str sectionId) (str 4373)
-  (str sectionNo) (str 10B)
-  (str orderNo) (int 12)
-  (str title) (str `Validation of intimations.`)
-  (str content) (str `^1[10B. Validation of intimations.--Every intimation given by the Central Government or the
-designated officer, before the commencement of the Passports (Amendment) Act, 2002 (17 of 2002),
-to any immigration authority at an airport or any other point of embarkation or immigration,
-restricting or in any manner prohibiting the departure from India of any holder of the passport or
-travel document under sub-section (3) of section 10, shall be deemed to be an order under subsection
-(1) of section 10A and such order shall continue to be in force for a period of three months from the date of commencement of the Passports (Amendment) Act, 2002, or the date of giving such
-intimation, whichever is later.
-
-Explanation.--For the purposes of sections 10A and 10B, the expression "designated officer"
-means such officer or authority designated, by order in writing, as such by the Central Government.]`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4373&sectionno=10B&orderno=12&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4373)
+  sectionNo 10B
+  orderNo 12
+  title `Validation of intimations.`
+  content obj_root_law_sections_10_b_content
+  footnotes obj_root_law_sections_10_b_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4373&sectionno=10B&orderno=12&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_10_b_content:
+  string
+  line `^1[10B. Validation of intimations.--Every intimation given by the Central Government or the`
+  line `designated officer, before the commencement of the Passports (Amendment) Act, 2002 (17 of 2002),`
+  line `to any immigration authority at an airport or any other point of embarkation or immigration,`
+  line `restricting or in any manner prohibiting the departure from India of any holder of the passport or`
+  line `travel document under sub-section (3) of section 10, shall be deemed to be an order under subsection`
+  line `(1) of section 10A and such order shall continue to be in force for a period of three months from the date of commencement of the Passports (Amendment) Act, 2002, or the date of giving such`
+  line `intimation, whichever is later.`
+  line
+  line `Explanation.--For the purposes of sections 10A and 10B, the expression "designated officer"`
+  line `means such officer or authority designated, by order in writing, as such by the Central Government.]`
+obj_root_law_sections_10_b_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 4374)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 13)
-  (str title) (str Appeals.)
-  (str content) (str `(1) Any person aggrieved by an order of the passport authority under clause (b) or
-clause (c) of sub-section (2) of section 5 or clause (b) of the proviso to section 7 or sub-section (1), or
-sub-section (3) of section 10 or by an order under sub-section (6) of section 10 of the authority to whom
-the passport authority is subordinate, may prefer an appeal against that order to such authority (hereinafter
-referred to as the appellate authority) and within such period as may be prescribed:
-
-Provided that no appeal shall lie against any order made by the Central Government.
-
-(2) No appeal shall be admitted if it is preferred after the expiry of the period prescribed therefor:
-
-Provided that an appeal may be admitted after the expiry of the period prescribed therefor if the
-appellant satisfied the appellate authority that he had sufficient cause for not preferring the appeal within
-that period.
-
-(3) The period prescribed for an appeal shall be computed in accordance with the provisions of the
-Limitation Act, 1963 (36 of 1963), with respect to the computation of the periods of
-limitation thereunder.
-
-(4) Every appeal under this section shall be made by a petition in writing and shall be accompanied
-by a copy of the statement of the reasons for the order appealed against where such copy has been
-furnished to the appellant and ^1
-[by such fee as may be prescribed for meeting the expenses that may be
-incurred in calling for relevant records and for connected services].
-
-(5) In disposing of an appeal, the appellate authority shall follow such procedure as may be
-prescribed:
-
-Provided that no appeal shall be disposed of unless the appellant has been given a reasonable
-opportunity or representing his case.
-
-(6) Every order of the appellate authority confirming, modifying or reversing the order appealed
-against shall be final.`)
-  (str footnotes) (str `1 Subs. by Act 35 of 1993, s. 5, for "by such fee (if any) not exceeding rupees twenty-five as may be prescribed"
-(w.e.f. 1-7-1993).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4374&sectionno=11&orderno=13&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4374)
+  sectionNo (11)
+  orderNo 13
+  title Appeals.
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4374&sectionno=11&orderno=13&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_11_content:
+  string
+  line `(1) Any person aggrieved by an order of the passport authority under clause (b) or`
+  line `clause (c) of sub-section (2) of section 5 or clause (b) of the proviso to section 7 or sub-section (1), or`
+  line `sub-section (3) of section 10 or by an order under sub-section (6) of section 10 of the authority to whom`
+  line `the passport authority is subordinate, may prefer an appeal against that order to such authority (hereinafter`
+  line `referred to as the appellate authority) and within such period as may be prescribed:`
+  line
+  line `Provided that no appeal shall lie against any order made by the Central Government.`
+  line
+  line `(2) No appeal shall be admitted if it is preferred after the expiry of the period prescribed therefor:`
+  line
+  line `Provided that an appeal may be admitted after the expiry of the period prescribed therefor if the`
+  line `appellant satisfied the appellate authority that he had sufficient cause for not preferring the appeal within`
+  line `that period.`
+  line
+  line `(3) The period prescribed for an appeal shall be computed in accordance with the provisions of the`
+  line `Limitation Act, 1963 (36 of 1963), with respect to the computation of the periods of`
+  line `limitation thereunder.`
+  line
+  line `(4) Every appeal under this section shall be made by a petition in writing and shall be accompanied`
+  line `by a copy of the statement of the reasons for the order appealed against where such copy has been`
+  line `furnished to the appellant and ^1`
+  line `[by such fee as may be prescribed for meeting the expenses that may be`
+  line `incurred in calling for relevant records and for connected services].`
+  line
+  line `(5) In disposing of an appeal, the appellate authority shall follow such procedure as may be`
+  line `prescribed:`
+  line
+  line `Provided that no appeal shall be disposed of unless the appellant has been given a reasonable`
+  line `opportunity or representing his case.`
+  line
+  line `(6) Every order of the appellate authority confirming, modifying or reversing the order appealed`
+  line `against shall be final.`
+obj_root_law_sections_11_footnotes:
+  string
+  line `1 Subs. by Act 35 of 1993, s. 5, for "by such fee (if any) not exceeding rupees twenty-five as may be prescribed"`
+  line `(w.e.f. 1-7-1993).`
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 4375)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 14)
-  (str title) (str `Offences and penalties.`)
-  (str content) (str `(1) Whoever--
-
-(a) contravenes the provisions of section 3; or
-
-(b) knowingly furnishes any false information or suppresses any material information with a view
-to obtaining a passport or travel document under this Act or without lawful authority alters or
-attempts to alter or causes to alter the entries made in a passport or travel document; or
-
-(c) fails to produce for inspection his passport or travel document (whether issued under this
-Act or not) when called upon to do so by the prescribed authority; or
-
-(d) knowingly uses a passport or travel document issued to another person; or
-
-(e) knowingly allows another person to use a passport or travel document issued to him,
-
-shall be punishable with imprisonment for a term which may extend to ^1
-[two years or with fine which
-may extend to five thousand rupees] or with both.
-
-^2
-[(1A) Whoever, not being a citizen of India,--
-
-(a) makes an application for a passport or obtains a passport by suppressing information about his
-nationality, or
-
-(b) holds a forged passport or any travel document,
-
-shall be punishable with imprisonment for a term which shall not be less than one year but which may
-extend to five years and with fine which shall not be less than ten thousand rupees but which may extend
-to fifty thousand rupees.]
-
-(2) Whoever abets any offence punishable under ^3
-[sub-section (1) or sub-section (1A)] shall, if the
-act abetted is committed in consequence of the abetment, be punishable with the punishment provided in
-that sub-section for that offence.
-
-(3) Whoever contravenes any condition of a passport or travel document or any provision of this Act
-or any rule made thereunder for which no punishment is provided elsewhere in this Act shall be
-punishable with imprisonment for a term which may extend to three months or with fine which may
-extend to five hundred rupees or with both.
-
-(4) Whoever, having been convicted of an offence under this Act, is again convicted of an offence
-under this Act shall be punishable with double the penalty provided for the latter offence.`)
-  (str footnotes) (str `1. Subs. by s. 6, ibid., for "six months or with fine which may extend to two thousand rupees" (w.e.f. 1-7-1993).
-
-2. Ins. by Act 35 of 1993 s. 6, (w.e.f. 1-7-1993).
-
-3. Subs. by s. 6, ibid., for "sub-section (1)" (w.e.f. 1-7-1993)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4375&sectionno=12&orderno=14&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4375)
+  sectionNo (12)
+  orderNo 14
+  title `Offences and penalties.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4375&sectionno=12&orderno=14&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_12_content:
+  string
+  line `(1) Whoever--`
+  line
+  line `(a) contravenes the provisions of section 3; or`
+  line
+  line `(b) knowingly furnishes any false information or suppresses any material information with a view`
+  line `to obtaining a passport or travel document under this Act or without lawful authority alters or`
+  line `attempts to alter or causes to alter the entries made in a passport or travel document; or`
+  line
+  line `(c) fails to produce for inspection his passport or travel document (whether issued under this`
+  line `Act or not) when called upon to do so by the prescribed authority; or`
+  line
+  line `(d) knowingly uses a passport or travel document issued to another person; or`
+  line
+  line `(e) knowingly allows another person to use a passport or travel document issued to him,`
+  line
+  line `shall be punishable with imprisonment for a term which may extend to ^1`
+  line `[two years or with fine which`
+  line `may extend to five thousand rupees] or with both.`
+  line
+  line ^2
+  line `[(1A) Whoever, not being a citizen of India,--`
+  line
+  line `(a) makes an application for a passport or obtains a passport by suppressing information about his`
+  line `nationality, or`
+  line
+  line `(b) holds a forged passport or any travel document,`
+  line
+  line `shall be punishable with imprisonment for a term which shall not be less than one year but which may`
+  line `extend to five years and with fine which shall not be less than ten thousand rupees but which may extend`
+  line `to fifty thousand rupees.]`
+  line
+  line `(2) Whoever abets any offence punishable under ^3`
+  line `[sub-section (1) or sub-section (1A)] shall, if the`
+  line `act abetted is committed in consequence of the abetment, be punishable with the punishment provided in`
+  line `that sub-section for that offence.`
+  line
+  line `(3) Whoever contravenes any condition of a passport or travel document or any provision of this Act`
+  line `or any rule made thereunder for which no punishment is provided elsewhere in this Act shall be`
+  line `punishable with imprisonment for a term which may extend to three months or with fine which may`
+  line `extend to five hundred rupees or with both.`
+  line
+  line `(4) Whoever, having been convicted of an offence under this Act, is again convicted of an offence`
+  line `under this Act shall be punishable with double the penalty provided for the latter offence.`
+obj_root_law_sections_12_footnotes:
+  string
+  line `1. Subs. by s. 6, ibid., for "six months or with fine which may extend to two thousand rupees" (w.e.f. 1-7-1993).`
+  line
+  line `2. Ins. by Act 35 of 1993 s. 6, (w.e.f. 1-7-1993).`
+  line
+  line `3. Subs. by s. 6, ibid., for "sub-section (1)" (w.e.f. 1-7-1993)`
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 4376)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 15)
-  (str title) (str `Power to arrest.`)
-  (str content) (str `(1) Any officer of customs empowered by a general or special order of the
-Central Government in this behalf and any ^1
-[officer of police or emigration officer] not below the rank of
-a sub-inspector may arrest without warrant any person against whom a reasonable suspicion exists that he
-has committed any offence punishable under section 12 and shall, as soon as may be, inform him of the
-grounds for such arrest.
-
-(2) Every officer making an arrest under this section shall, without unnecessary delay, take or send
-the person arrested before a magistrate having jurisdiction in the case or to the officer in charge of the
-nearest police station and the provisions of ^2
-[section 57 of the Code of Criminal procedure, 1973
-(2 of 1974)] shall, so far as may be, apply in the case of any such arrest.`)
-  (str footnotes) (str `1. Subs. by s. 7, ibid., for Officer of police (w.e.f. 1-7-1993).
-
-2. Subs. by Act 31 of 1978, s. 3, for "section 61 of the Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 18-8-1978).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4376&sectionno=13&orderno=15&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4376)
+  sectionNo (13)
+  orderNo 15
+  title `Power to arrest.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4376&sectionno=13&orderno=15&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_13_content:
+  string
+  line `(1) Any officer of customs empowered by a general or special order of the`
+  line `Central Government in this behalf and any ^1`
+  line `[officer of police or emigration officer] not below the rank of`
+  line `a sub-inspector may arrest without warrant any person against whom a reasonable suspicion exists that he`
+  line `has committed any offence punishable under section 12 and shall, as soon as may be, inform him of the`
+  line `grounds for such arrest.`
+  line
+  line `(2) Every officer making an arrest under this section shall, without unnecessary delay, take or send`
+  line `the person arrested before a magistrate having jurisdiction in the case or to the officer in charge of the`
+  line `nearest police station and the provisions of ^2`
+  line `[section 57 of the Code of Criminal procedure, 1973`
+  line `(2 of 1974)] shall, so far as may be, apply in the case of any such arrest.`
+obj_root_law_sections_13_footnotes:
+  string
+  line `1. Subs. by s. 7, ibid., for Officer of police (w.e.f. 1-7-1993).`
+  line
+  line `2. Subs. by Act 31 of 1978, s. 3, for "section 61 of the Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 18-8-1978).`
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 4377)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 16)
-  (str title) (str `Power of search and seizure.`)
-  (str content) (str `(1) Any officer of customs empowered by a general or special
-order of the Central Government in this behalf and any ^1
-[officer of police or emigration officer] not below
-the rank of a sub-inspector may search any place and seize any passport or travel document from any
-person against whom a reasonable suspicion exists that he has committed any offence punishable under
-section 12.
-
-(2) The provisions of the ^2
-[Code of Criminal Procedure, 1973 (2 of 1974)], relating to searches and
-seizures shall, so far as may be, apply to searches and seizures under this section.`)
-  (str footnotes) (str `1. Subs. by s. 7, ibid., for 'Officer of police" (w.e.f. 1-7-1993).
-
-2. Subs. by s. 4, ibid., for "Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 18-8-1978).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4377&sectionno=14&orderno=16&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4377)
+  sectionNo (14)
+  orderNo 16
+  title `Power of search and seizure.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4377&sectionno=14&orderno=16&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_14_content:
+  string
+  line `(1) Any officer of customs empowered by a general or special`
+  line `order of the Central Government in this behalf and any ^1`
+  line `[officer of police or emigration officer] not below`
+  line `the rank of a sub-inspector may search any place and seize any passport or travel document from any`
+  line `person against whom a reasonable suspicion exists that he has committed any offence punishable under`
+  line `section 12.`
+  line
+  line `(2) The provisions of the ^2`
+  line `[Code of Criminal Procedure, 1973 (2 of 1974)], relating to searches and`
+  line `seizures shall, so far as may be, apply to searches and seizures under this section.`
+obj_root_law_sections_14_footnotes:
+  string
+  line `1. Subs. by s. 7, ibid., for 'Officer of police" (w.e.f. 1-7-1993).`
+  line
+  line `2. Subs. by s. 4, ibid., for "Code of Criminal Procedure, 1898 (5 of 1898)" (w.e.f. 18-8-1978).`
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 4378)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 17)
-  (str title) (str `Previous sanction of Central Government necessary.`)
-  (str content) (str `No prosecution shall be instituted
-against any person in respect of any offence under this Act without the previous sanction of the Central
-Government or such officer or authority as may be authorised by that Government by order in writing in
-this behalf.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4378&sectionno=15&orderno=17&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4378)
+  sectionNo (15)
+  orderNo 17
+  title `Previous sanction of Central Government necessary.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4378&sectionno=15&orderno=17&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_15_content:
+  string
+  line `No prosecution shall be instituted`
+  line `against any person in respect of any offence under this Act without the previous sanction of the Central`
+  line `Government or such officer or authority as may be authorised by that Government by order in writing in`
+  line `this behalf.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 4379)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 18)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `No suit, prosecution or other legal proceeding shall
-lie against the Government or any officer or authority for anything which is in good faith done or
-intended to be done under this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4379&sectionno=16&orderno=18&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4379)
+  sectionNo (16)
+  orderNo 18
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4379&sectionno=16&orderno=18&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_16_content:
+  string
+  line `No suit, prosecution or other legal proceeding shall`
+  line `lie against the Government or any officer or authority for anything which is in good faith done or`
+  line `intended to be done under this Act.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 4380)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 19)
-  (str title) (str `Passports and travel documents to be property of Central Government.`)
-  (str content) (str `A passport or travel
-document issued under this Act shall at all times remain the property of the Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4380&sectionno=17&orderno=19&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4380)
+  sectionNo (17)
+  orderNo 19
+  title `Passports and travel documents to be property of Central Government.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4380&sectionno=17&orderno=19&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_17_content:
+  string
+  line `A passport or travel`
+  line `document issued under this Act shall at all times remain the property of the Central Government.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 4381)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 20)
-  (str title) (str [Omitted].)
-  (str content) (str `[Passports, etc., not to be issued to persons who cannot emigrate under Act 7 of 1922].--Omitted
-by the Passports (Amendment) Act, 1993 (35 of 1993), s. 8 (w.e.f. 1-7-1993).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4381&sectionno=18&orderno=20&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4381)
+  sectionNo (18)
+  orderNo 20
+  title [Omitted].
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4381&sectionno=18&orderno=20&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_18_content:
+  string
+  line `[Passports, etc., not to be issued to persons who cannot emigrate under Act 7 of 1922].--Omitted`
+  line `by the Passports (Amendment) Act, 1993 (35 of 1993), s. 8 (w.e.f. 1-7-1993).`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 4382)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 21)
-  (str title) (str `Passports and travel documents to be invalid for travel to certain countries.`)
-  (str content) (str `Upon the issue
-of a notification by the Central Government that a foreign country is--
-
-(a) a country which is committing external aggression against India; or
-
-(b) a country assisting the country committing external aggression against India; or
-
-(c) a country where armed hostilities are in progress; or
-
-(d) a country to which travel must be restricted in the public interest because such travel would
-seriously impair the conduct of foreign affairs of the Government of India,
-
-a passport or travel document for travel through or visiting such country shall cease to be valid for such
-travel or visit unless in any case a special endorsement in that behalf is made in the prescribed form by
-the prescribed authority.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4382&sectionno=19&orderno=21&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4382)
+  sectionNo (19)
+  orderNo 21
+  title `Passports and travel documents to be invalid for travel to certain countries.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4382&sectionno=19&orderno=21&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_19_content:
+  string
+  line `Upon the issue`
+  line `of a notification by the Central Government that a foreign country is--`
+  line
+  line `(a) a country which is committing external aggression against India; or`
+  line
+  line `(b) a country assisting the country committing external aggression against India; or`
+  line
+  line `(c) a country where armed hostilities are in progress; or`
+  line
+  line `(d) a country to which travel must be restricted in the public interest because such travel would`
+  line `seriously impair the conduct of foreign affairs of the Government of India,`
+  line
+  line `a passport or travel document for travel through or visiting such country shall cease to be valid for such`
+  line `travel or visit unless in any case a special endorsement in that behalf is made in the prescribed form by`
+  line `the prescribed authority.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 4383)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 22)
-  (str title) (str `Issue of passports and travel documents to persons who are not citizens of India.`)
-  (str content) (str `Notwithstanding anything contained in the foregoing provisions relating to issue of a passport or
-travel document, the Central Government may issue, or cause to be issued, a passport or travel document
-to a person who is not a citizen of India if that Government is of the opinion that it is necessary so to do in
-the public interest.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4383&sectionno=20&orderno=22&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4383)
+  sectionNo (20)
+  orderNo 22
+  title `Issue of passports and travel documents to persons who are not citizens of India.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4383&sectionno=20&orderno=22&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_20_content:
+  string
+  line `Notwithstanding anything contained in the foregoing provisions relating to issue of a passport or`
+  line `travel document, the Central Government may issue, or cause to be issued, a passport or travel document`
+  line `to a person who is not a citizen of India if that Government is of the opinion that it is necessary so to do in`
+  line `the public interest.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 4384)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 23)
-  (str title) (str `Power to delegate.`)
-  (str content) (str `The Central Government may, by notification in the Official Gazette, direct
-that any power or function which may be exercised or performed by it under this Act other than the power
-under clause (d) of sub-section (1) of section 6 or the power under clause (i) of sub-section (2) of that
-section or the power under section 24, may, in relation to such matters and subject to such conditions, if
-any, as it may specify in the notification, be exercised or performed--
-
-(a) by such officer or authority subordinate to the Central Government; or
-
-(b) by any State Government or by any officer or authority subordinate to such Government; or
-
-(c) in any foreign country in which there is no diplomatic mission of India, by such foreign
-Consular Officer; as may be specified in the notification.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4384&sectionno=21&orderno=23&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4384)
+  sectionNo (21)
+  orderNo 23
+  title `Power to delegate.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4384&sectionno=21&orderno=23&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_21_content:
+  string
+  line `The Central Government may, by notification in the Official Gazette, direct`
+  line `that any power or function which may be exercised or performed by it under this Act other than the power`
+  line `under clause (d) of sub-section (1) of section 6 or the power under clause (i) of sub-section (2) of that`
+  line `section or the power under section 24, may, in relation to such matters and subject to such conditions, if`
+  line `any, as it may specify in the notification, be exercised or performed--`
+  line
+  line `(a) by such officer or authority subordinate to the Central Government; or`
+  line
+  line `(b) by any State Government or by any officer or authority subordinate to such Government; or`
+  line
+  line `(c) in any foreign country in which there is no diplomatic mission of India, by such foreign`
+  line `Consular Officer; as may be specified in the notification.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 4385)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 24)
-  (str title) (str `Power to exempt.`)
-  (str content) (str `Where the Central Government is of the opinion that it is necessary or
-expedient in the public interest so to do, it may, by notification in the Official Gazette and subject to such
-conditions, if any, as it may specify in the notification,--
-
-(a) exempt any person or class of persons from the operation of all or any of the provisions of this
-Act or the rules made thereunder; and
-
-(b) as often as may be, cancel any such notification and again subject, by a like notification, the
-person or class of persons to the operation of such provisions.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4385&sectionno=22&orderno=24&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4385)
+  sectionNo (22)
+  orderNo 24
+  title `Power to exempt.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4385&sectionno=22&orderno=24&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_22_content:
+  string
+  line `Where the Central Government is of the opinion that it is necessary or`
+  line `expedient in the public interest so to do, it may, by notification in the Official Gazette and subject to such`
+  line `conditions, if any, as it may specify in the notification,--`
+  line
+  line `(a) exempt any person or class of persons from the operation of all or any of the provisions of this`
+  line `Act or the rules made thereunder; and`
+  line
+  line `(b) as often as may be, cancel any such notification and again subject, by a like notification, the`
+  line `person or class of persons to the operation of such provisions.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 4386)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 25)
-  (str title) (str `Act to be in addition to certain enactments.`)
-  (str content) (str `The provisions of this Act shall be in addition to
-and not in derogation of the provisions of the Passport (Entry into India) Act, 1920 (34 of 1920), ^14
-[the
-Emigration Act, 1983 (31 of 1983)] the Registration of Foreigners Act, 1939 (16 of 1939), the Foreigners
-Act, 1946 (31 of 1946), Trading with the Enemy (Continuance of Emergency Provisions)
-(16 of 1947), the Foreigners Law (Application and Amendment) Act, 1962 (42 of 1962), ^15
-the Foreign
-Exchange Regulation Act, 1973 (46 of 1973) and other enactments relating to foreigners and foreign
-exchange.`)
-  (str footnotes) (str `1 Subs. by Act 35 of 1993, s. 9, for "the Emigration Act, 1922 (7 of 1922)" (w.e.f. 1-7-1993).
-
-2 Ins. by Act 31 of 1978, s. 5, ibid. (w.e.f. 18-8-1978).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4386&sectionno=23&orderno=25&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4386)
+  sectionNo (23)
+  orderNo 25
+  title `Act to be in addition to certain enactments.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4386&sectionno=23&orderno=25&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_23_content:
+  string
+  line `The provisions of this Act shall be in addition to`
+  line `and not in derogation of the provisions of the Passport (Entry into India) Act, 1920 (34 of 1920), ^14`
+  line [the
+  line `Emigration Act, 1983 (31 of 1983)] the Registration of Foreigners Act, 1939 (16 of 1939), the Foreigners`
+  line `Act, 1946 (31 of 1946), Trading with the Enemy (Continuance of Emergency Provisions)`
+  line `(16 of 1947), the Foreigners Law (Application and Amendment) Act, 1962 (42 of 1962), ^15`
+  line `the Foreign`
+  line `Exchange Regulation Act, 1973 (46 of 1973) and other enactments relating to foreigners and foreign`
+  line exchange.
+obj_root_law_sections_23_footnotes:
+  string
+  line `1 Subs. by Act 35 of 1993, s. 9, for "the Emigration Act, 1922 (7 of 1922)" (w.e.f. 1-7-1993).`
+  line
+  line `2 Ins. by Act 31 of 1978, s. 5, ibid. (w.e.f. 18-8-1978).`
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 4387)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 26)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules for carrying out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the appointment, jurisdiction, control and functions of passport authorities;
-
-(b) the classes of persons to whom passports and travel documents referred to respectively in
-sub-section (1) and sub-section (2) of section 4 may be issued;
-
-(c) the form and particulars of application for the issue or renewal of a passport or travel
-document or for endorsement on a passport or travel document and where the application is for the
-renewal, the time within which it shall be made;
-
-(d) the period for which passports and travel documents shall continue in force;
-
-(e) the form in which and the conditions subject to which the different classes of passports and
-travel documents may be issued, renewed or varied;
-
-^1[(ee) specifying the foreign country for the purposes of the Explanation to sub-section (1) of
-section 5;]
-
-(f) the fees payable in respect of ^2[any application for the issue of a passport under sub-section (1)
-of section 5 or issue of a passport for visiting a foreign country referred to in sub-section (1A) of
-section 5] or travel document or for varying any endorsement or making a fresh endorsement on a
-passport or a travel document and the fees payable in respect of any appeal under this Act;
-
-(g) the appointment of appellate authorities under sub-section (1) of section 11, the jurisdiction
-of, and the procedure which may be followed by, such appellate authorities;
-
-(h) the services (including the issue of a duplicate passport or travel document in lieu of a
-passport or travel document lost, damaged or destroyed) which may be rendered in relation to a
-passport or travel document and the fees therefor;
-
-(i) any other matter which is to be or may be prescribed or in respect of which this Act makes no
-provision or makes insufficient provision and provision is, in the opinion of the Central Government,
-necessary for the proper implementation of the Act.
-
-(3) Every rule made under this Act shall be laid as soon as may be after it is made, before each House
-of Parliament while it is in session for a total period of thirty days which may be comprised in one session
-or ^18
-in two or more successive sessions and if, before the expiry of the session immediately following the
-session or the successive sessions aforesaid, both Houses agree in making any modification in the rule or
-both Houses agree that the rule should not be made, the rule shall thereafter have effect only in such
-modified form or be of no effect, as the case may be; so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that rule.`)
-  (str footnotes) (str `1 Ins. by Act 31 of 1978, s. 6 (w.e.f. 18-8-1978).
-
-2 The words "issue or renewal of a passport" of clause (f) were subs. by Act 31 of 1978, s. 6 (w.e.f.18-8-1978) to read as
-issue or renewal of a passport for visiting a foreign country referred to in sub-section (1A) of section 5and the words
-any application for the issue or renewal of a passport were further subs. by Act 35 of 1993, s.10 to read as above
-(w.e.f.1-7-1993).
-
-3 Subs. by Act 31 of 1978, s. 6, for certain words (w.e.f. 18-8-1978).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4387&sectionno=24&orderno=26&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4387)
+  sectionNo (24)
+  orderNo 26
+  title `Power to make rules.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4387&sectionno=24&orderno=26&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_24_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules for carrying out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the appointment, jurisdiction, control and functions of passport authorities;`
+  line
+  line `(b) the classes of persons to whom passports and travel documents referred to respectively in`
+  line `sub-section (1) and sub-section (2) of section 4 may be issued;`
+  line
+  line `(c) the form and particulars of application for the issue or renewal of a passport or travel`
+  line `document or for endorsement on a passport or travel document and where the application is for the`
+  line `renewal, the time within which it shall be made;`
+  line
+  line `(d) the period for which passports and travel documents shall continue in force;`
+  line
+  line `(e) the form in which and the conditions subject to which the different classes of passports and`
+  line `travel documents may be issued, renewed or varied;`
+  line
+  line `^1[(ee) specifying the foreign country for the purposes of the Explanation to sub-section (1) of`
+  line `section 5;]`
+  line
+  line `(f) the fees payable in respect of ^2[any application for the issue of a passport under sub-section (1)`
+  line `of section 5 or issue of a passport for visiting a foreign country referred to in sub-section (1A) of`
+  line `section 5] or travel document or for varying any endorsement or making a fresh endorsement on a`
+  line `passport or a travel document and the fees payable in respect of any appeal under this Act;`
+  line
+  line `(g) the appointment of appellate authorities under sub-section (1) of section 11, the jurisdiction`
+  line `of, and the procedure which may be followed by, such appellate authorities;`
+  line
+  line `(h) the services (including the issue of a duplicate passport or travel document in lieu of a`
+  line `passport or travel document lost, damaged or destroyed) which may be rendered in relation to a`
+  line `passport or travel document and the fees therefor;`
+  line
+  line `(i) any other matter which is to be or may be prescribed or in respect of which this Act makes no`
+  line `provision or makes insufficient provision and provision is, in the opinion of the Central Government,`
+  line `necessary for the proper implementation of the Act.`
+  line
+  line `(3) Every rule made under this Act shall be laid as soon as may be after it is made, before each House`
+  line `of Parliament while it is in session for a total period of thirty days which may be comprised in one session`
+  line `or ^18`
+  line `in two or more successive sessions and if, before the expiry of the session immediately following the`
+  line `session or the successive sessions aforesaid, both Houses agree in making any modification in the rule or`
+  line `both Houses agree that the rule should not be made, the rule shall thereafter have effect only in such`
+  line `modified form or be of no effect, as the case may be; so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that rule.`
+obj_root_law_sections_24_footnotes:
+  string
+  line `1 Ins. by Act 31 of 1978, s. 6 (w.e.f. 18-8-1978).`
+  line
+  line `2 The words "issue or renewal of a passport" of clause (f) were subs. by Act 31 of 1978, s. 6 (w.e.f.18-8-1978) to read as`
+  line `issue or renewal of a passport for visiting a foreign country referred to in sub-section (1A) of section 5and the words`
+  line `any application for the issue or renewal of a passport were further subs. by Act 35 of 1993, s.10 to read as above`
+  line `(w.e.f.1-7-1993).`
+  line
+  line `3 Subs. by Act 31 of 1978, s. 6, for certain words (w.e.f. 18-8-1978).`
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 4388)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 27)
-  (str title) (str `Change of short title of Act 34 of 1920.`)
-  (str content) (str `In the Indian Passport Act, 1920, in sub-section (1) of
-section 1, for the words and figures the Indian Passport Act, 1920," the words, brackets and figures "the
-Passport (Entry into India) Act, 1920 shall be substituted.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4388&sectionno=25&orderno=27&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4388)
+  sectionNo (25)
+  orderNo 27
+  title `Change of short title of Act 34 of 1920.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4388&sectionno=25&orderno=27&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_25_content:
+  string
+  line `In the Indian Passport Act, 1920, in sub-section (1) of`
+  line `section 1, for the words and figures the Indian Passport Act, 1920," the words, brackets and figures "the`
+  line `Passport (Entry into India) Act, 1920 shall be substituted.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 4390)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 28)
-  (str title) (str Omitted.)
-  (str content) (str `[Saving as to certain passports and applications.]--Omitted by the Passports (Amendment) Act,
-1993 (35 of 1993), s. 8 (w.e.f. 1-7-1993).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4390&sectionno=26&orderno=28&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4390)
+  sectionNo (26)
+  orderNo 28
+  title Omitted.
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4390&sectionno=26&orderno=28&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_26_content:
+  string
+  line `[Saving as to certain passports and applications.]--Omitted by the Passports (Amendment) Act,`
+  line `1993 (35 of 1993), s. 8 (w.e.f. 1-7-1993).`
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_sections_27:
-  object
-  (str sectionId) (str 4391)
-  (str sectionNo) (str 27)
-  (str orderNo) (int 29)
-  (str title) (str `Repeal and saving.`)
-  (str content) (str `(1) The Passports Ordinance, 1967 (4 of 1967) is hereby repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken or purporting to have been done
-or taken under the said Ordinance shall be deemed to have been done or taken under this Act as if this Act
-had commenced on the 5th day of May, 1967.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4391&sectionno=27&orderno=29&orgactid=AC_CEN_10_10_00008_196715_1517807321481)
+  sectionId (4391)
+  sectionNo (27)
+  orderNo 29
+  title `Repeal and saving.`
+  content obj_root_law_sections_27_content
+  footnotes obj_root_law_sections_27_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00008_196715_1517807321481&sectionId=4391&sectionno=27&orderno=29&orgactid=AC_CEN_10_10_00008_196715_1517807321481
+obj_root_law_sections_27_content:
+  string
+  line `(1) The Passports Ordinance, 1967 (4 of 1967) is hereby repealed.`
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken or purporting to have been done`
+  line `or taken under the said Ordinance shall be deemed to have been done or taken under this Act as if this Act`
+  line `had commenced on the 5th day of May, 1967.`
+obj_root_law_sections_27_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `पासपोर्ट अधिनियम, 1967`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1372/2/H1967-15.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T13:08:59.807Z`)
-  (str pageCount) (int 9)
-  (str sections) obj_root_law_translations_hi_sections
+  title `पासपोर्ट अधिनियम, 1967`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1372/2/H1967-15.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T13:08:59.807Z`
+  pageCount 9
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -866,442 +990,487 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_8
   obj_root_law_translations_hi_sections_9
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `पासपोर्ट अधिधियम, 196 7
-( 1967 का अधिधियम संखयां क 15 )
-[ 24 जूि, 1967 ]
-भारत के िागररकों तथा अन्य व् य धत यों के भारत से प्रस् था ि
-करिे का धिधियमि करिे के धिए पासपोर्ट और
-यात्रा - दस्ता िेज जारी करिे का और उिसे
-आिुषंधगक या सम्ब द्ध धिषयों का
-उपबंि करिे के धिए
-अधिधियम
-भारत गणराज्य के अठारहिें िषट में संसद् द्व ारा धिम्ि धिधित रू प में यह अधिधियधमत हो: —
-1. संधिप्त िाम और धिस्ता र — (1) यह अधिधियम पासपोर्ट अधिधियम, 1967 कहा जा सकेगा।
-(2) इसका धिस्ता र सम्पू णट भारत पर है और यह भारत के उि िागररकों को भी िा गू है जो भारत से बाहर हैं।
-2. पररभाषाएं — इस अधिधियम में, जब तक कक संदभट से अन्य था अपेधित ि हो, —
-( क) व् या करधणक रू पभेदों और सजातीय पदों सधहत “ प्रस् था ि ” से जि, भूधम या िायु द्व ारा भारत से प्रस् था ि
-अधभप्रेत है;
-( ि) “ पासपोर्ट ” से इस अधिधियम के अिीि जा री ककया गया या जारी ककया गया समझा जािे िािा पासपोर्ट
-अधभप्रेत है;
-( ग) “ पासपोर्ट प्र ाधिकारी ” से ऐसा अधिकारी या प्र ाधिकारी अधभप्रेत है धजसे पासपोर्ट या यात्रा - दस्ता िेज जारी
-करिे के धिए उि धियमों के अिीि सशत ककया गया हो जो इस अधिधियम के अिीि बिाए जाएं औ र इसके अन्त गटत
-केन्री य सरकार भी है;
-( घ ) “ धिधहत ” से इस अधिधियम के अिीि बिाए गए धियमों द्व ारा धिधहत अधभप्रेत है;
-( ङ ) “ यात्रा - दस्ता िेज ” से इस अधिधियम के अिीि जारी की गई या जारी की गई समझी जािे िािी यात्रा -
-दस्ता िेजें अधभप्रेत हैं।
-3. भारत से प्रस् था ि के धिए पासपोर्ट या यात्रा - दस्ता िेज — कोई भी व् य धत, जब तक उसके पास इस धिधमत्त कोई धिधिमान्य
-पासपोर्ट या यात्रा - दस्ता िेज ि हो, ि भारत से प्रस् था ि करेगा और ि प्रस् था ि करिे का प्र यत्ि करेगा। स्
-प ष् र् ी करण — इस िारा के प्र योजि के धिए, —
-(क) “ पासपोर्ट ” के अन्त गटत ऐसा पासपोर्ट भी है जो ककसी धिदेश की सरकार द्व ारा या उसके प्र ाधिकार के अिीि
-जारी ककया जाकर पासपोर्ों के उस िगट की बाबत, धजस िगट का िह पासपोर्ट है, उि शतों को पूरा करता है, जो पासपोर्ट
-(भारत में प्र िेश) अधिधियम, 1920 (1920 का 34) के अिीि धिधहत हैं;
-(ि) “ यात्रा - दस्ता िेज ” के अन्त गटत िह यात्रा - दस्ता िेज भी है जो ककसी धिदेश की सरकार द्व ारा या उसके प्र ाधिकार
-के अिीि जारी की जाकर धिधहत शतों को पूरा करती है।
-4. पासपोर्ाां और यात्रा - दस्ता िेजों के िगट — (1) इस अधिधियम के अिीि धिम्ि धिधित ि गों के पासपोर्ट जारी ककए जा
-सकेंगे, अथाटत्: —
-(क) सािारण पासपोर्ट;
-(ि) शासकीय पासपोर्ट;
-(ग) राजिधयक पासपोर्ट।
-(2) इस अधिधियम के अिीि धिम्ि धिधित िगों की यात्रा - दस्ता िेजें जारी की जा सकेंगी, अथाटत्: —
-(क) आपात प्र माणपत्र, जो भारत में प्र िेश क रिे के धिए ककसी व् य धत को प्र ाधिकृत करे;
-(ि) पहचाि - पत्र, जो ककसी व् य धत के पहचािे जािे के प्र योजिाथट हो;
-(ग) ऐसा अन्य प्र माणपत्र या दस्ता िेज धजसे धिधहत ककया जाए।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `पासपोर्ट अधिधियम, 196 7`
+  line `( 1967 का अधिधियम संखयां क 15 )`
+  line `[ 24 जूि, 1967 ]`
+  line `भारत के िागररकों तथा अन्य व् य धत यों के भारत से प्रस् था ि`
+  line `करिे का धिधियमि करिे के धिए पासपोर्ट और`
+  line `यात्रा - दस्ता िेज जारी करिे का और उिसे`
+  line `आिुषंधगक या सम्ब द्ध धिषयों का`
+  line `उपबंि करिे के धिए`
+  line अधिधियम
+  line `भारत गणराज्य के अठारहिें िषट में संसद् द्व ारा धिम्ि धिधित रू प में यह अधिधियधमत हो: —`
+  line `1. संधिप्त िाम और धिस्ता र — (1) यह अधिधियम पासपोर्ट अधिधियम, 1967 कहा जा सकेगा।`
+  line `(2) इसका धिस्ता र सम्पू णट भारत पर है और यह भारत के उि िागररकों को भी िा गू है जो भारत से बाहर हैं।`
+  line `2. पररभाषाएं — इस अधिधियम में, जब तक कक संदभट से अन्य था अपेधित ि हो, —`
+  line `( क) व् या करधणक रू पभेदों और सजातीय पदों सधहत “ प्रस् था ि ” से जि, भूधम या िायु द्व ारा भारत से प्रस् था ि`
+  line `अधभप्रेत है;`
+  line `( ि) “ पासपोर्ट ” से इस अधिधियम के अिीि जा री ककया गया या जारी ककया गया समझा जािे िािा पासपोर्ट`
+  line `अधभप्रेत है;`
+  line `( ग) “ पासपोर्ट प्र ाधिकारी ” से ऐसा अधिकारी या प्र ाधिकारी अधभप्रेत है धजसे पासपोर्ट या यात्रा - दस्ता िेज जारी`
+  line `करिे के धिए उि धियमों के अिीि सशत ककया गया हो जो इस अधिधियम के अिीि बिाए जाएं औ र इसके अन्त गटत`
+  line `केन्री य सरकार भी है;`
+  line `( घ ) “ धिधहत ” से इस अधिधियम के अिीि बिाए गए धियमों द्व ारा धिधहत अधभप्रेत है;`
+  line `( ङ ) “ यात्रा - दस्ता िेज ” से इस अधिधियम के अिीि जारी की गई या जारी की गई समझी जािे िािी यात्रा -`
+  line `दस्ता िेजें अधभप्रेत हैं।`
+  line `3. भारत से प्रस् था ि के धिए पासपोर्ट या यात्रा - दस्ता िेज — कोई भी व् य धत, जब तक उसके पास इस धिधमत्त कोई धिधिमान्य`
+  line `पासपोर्ट या यात्रा - दस्ता िेज ि हो, ि भारत से प्रस् था ि करेगा और ि प्रस् था ि करिे का प्र यत्ि करेगा। स्`
+  line `प ष् र् ी करण — इस िारा के प्र योजि के धिए, —`
+  line `(क) “ पासपोर्ट ” के अन्त गटत ऐसा पासपोर्ट भी है जो ककसी धिदेश की सरकार द्व ारा या उसके प्र ाधिकार के अिीि`
+  line `जारी ककया जाकर पासपोर्ों के उस िगट की बाबत, धजस िगट का िह पासपोर्ट है, उि शतों को पूरा करता है, जो पासपोर्ट`
+  line `(भारत में प्र िेश) अधिधियम, 1920 (1920 का 34) के अिीि धिधहत हैं;`
+  line `(ि) “ यात्रा - दस्ता िेज ” के अन्त गटत िह यात्रा - दस्ता िेज भी है जो ककसी धिदेश की सरकार द्व ारा या उसके प्र ाधिकार`
+  line `के अिीि जारी की जाकर धिधहत शतों को पूरा करती है।`
+  line `4. पासपोर्ाां और यात्रा - दस्ता िेजों के िगट — (1) इस अधिधियम के अिीि धिम्ि धिधित ि गों के पासपोर्ट जारी ककए जा`
+  line `सकेंगे, अथाटत्: —`
+  line `(क) सािारण पासपोर्ट;`
+  line `(ि) शासकीय पासपोर्ट;`
+  line `(ग) राजिधयक पासपोर्ट।`
+  line `(2) इस अधिधियम के अिीि धिम्ि धिधित िगों की यात्रा - दस्ता िेजें जारी की जा सकेंगी, अथाटत्: —`
+  line `(क) आपात प्र माणपत्र, जो भारत में प्र िेश क रिे के धिए ककसी व् य धत को प्र ाधिकृत करे;`
+  line `(ि) पहचाि - पत्र, जो ककसी व् य धत के पहचािे जािे के प्र योजिाथट हो;`
+  line `(ग) ऐसा अन्य प्र माणपत्र या दस्ता िेज धजसे धिधहत ककया जाए।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-(3) केन्री य सरकार, अपिे द्व ारा इस धिधमत्त अिुसररत प्र था और पद्धधत के अिुकूि, व् य धत यों के उि िगों को धिधहत करेगी
-धजन्हें क्र मश: उपिारा (1) और उपिारा (2) में धिर्दटष् र् िगों के पासपोर्ट और यात्रा - दस्ता िेजें इस अधिधियम के अिीि जा री की जा
-सकेंगी।
-5. पासपोर्ों, यात्रा - दस्ता िेजों आकद के धिए आिेदि और उि पर आदेश — 1 [(1) ऐसे धिदेश या धिदेशों के ( जो िाधमत धिदेश
-िहीं हैं ), जो आिेदि में धिधिर्दटष् र् ककए जाएं, पररदशटि के धिए, इस अधिधियम के अिीि पासपोर्ट जारी करिे के धिए आिेदि
-पासपोर्ट प्र ाधिकारी को ककया जा सकेगा और उसके साथ 2 [ ऐसी फीस दी जाएगी जो पासपोर्ट और अन्य यात्रा - दस्ता िेजों को जारी करिे
-में धिशेष सुरिा कागज, मुरण पर्िि और अन्य संबंधित प्र कीणट सेिाओं पर उपगत व् य य की पूर्तट के धिए, धिधहत की जाए। ] स्
-प ष् र् ी करण — इस िारा में, “ िाधमत धिदेश ” से ऐसा धिदेश अधभप्रेत है, जो केन्री य सरकार, इस अधिधियम के अिीि बिाए
-गए धियमों द्व ारा, इस धिधमत्त धिधिर्दटष् र् करे।
-(1 क ) कोई आिेदि, जो —
-(i) िाधमत धिदेश के पररदशटि के धिए इस अधिधियम के अिीि पासपोर्ट जारी करिे के धिए हो; या
-(ii) ऐसे धिदेश या धिदेशों के (धजिके अन्त गटत िाधमत धिदेश भी है) जो आिेदि में धिधिर्दटष् र् ककए जाएं या इस
-िारा में धिर्दटष् र् पासपोर्ट या यात्रा - दस्ता िेज पर पृष्ठां कि के धिए इस अधिधियम के अिीि, यात्रा दस्ता िेज जारी करिे के
-धिए हो,
-पासपोर्ट प्र ाधिकारी को ककया जा सकेगा और उसके साथ पचास रु पए से अिधिक उतिी फीस (यकद कोई हो) होगी, जो धिधहत
-की जाए।
-( 1 ि ) इस िारा के अिीि प्रत् ये क आिेदि ऐसे प्ररू प में होगा और उसमें ऐसी धिधशधष् र् यां होंगी, जो धिधहत की जाएं। ]
-(2) 3 [ इस िारा के अिीि ] आिेदि की प्र ाधप्त पर, पासपोर्ट प्र ाधिकारी, ऐसी जांच, यकद कोई हो, धजसे िह आिश्य क समझे,
-करिे के पश्चा त्, इस अधिधियम के अन्य उपबन्िों के अध्य िीि रहते हु ए, धिधित आदेश द्व ारा, —
-(क) आिेदि में धिधिर्दटष् र् धिदेश या धिदेशों की बाबत, यथाधस्थ धत, पृष्ठां कि सधहत पासपोर्ट या यात्रा - दस्ता िेज
-जारी करेगा या, पासपोर्ट या यात्रा - दस्ता िेज पर पृष्ठां कि करेगा; अथिा
-(ि) आिेदि में धिधिर्दट ष् र् एक या अधिक धिदेशों की बाबत, यथाधस्थ धत, पृष्ठां कि सधहत पासपोर्ट या यात्रा -
-दस्ता िेज जारी करेगा या, पासपोर्ट या यात्रा - दस्ता िेज पर पृष्ठां कि करेगा और अन्य धिदेश या धिदेशों की बाबत पृष्ठां कि
-करिे से इन्का र करेगा; अथिा
-(ग) यथाधस्थ धत, पासपोर्ट या यात्रा - दस्ता िेज जारी करिे से या, पासपोर्ट या यात्रा - दस्ता िेज पर कोई पृष्ठां कि
-करिे से इन्का र करेगा।
-(3) जहां पासपोर्ट प्र ाधिकारी ककसी व् य धत के आिेदि पर उपिारा (2) के िण्ड (ि) या िण्ड (ग) के अिीि कोई आदेश करे
-िहां िह ऐसा आदेश करिे के अपिे कारणों का संधिप् त कथि िेिबद्ध करेगा और मांगे जािे पर उस व् य धत को उसकी एक प्र धत तब के
-धसिाय देगा जब ककसी मामिे में पासपोर्ट प्र ाधिकारी की यह राय हो कक ऐसी प्र धत देिा भारत की प्र भुता और अिण्ड ता, भारत की
-सुरिा या ककसी धिदेश के साथ भारत के मैत्रीपूणट सम्ब न् िों के धहत में या जि - सािारण के धहत में ि होगा।
-6. पासपोर्ट यात्रा - दस्ता िेज, आकद देिे से इन्का र — (1) इस अधिधियम के अन्य उपबन्िों के अध्य िीि रहते हु ए यह है कक
-पासपोर्ट प्र ाधिकारी ककसी धिदेश के पररदशटि के धिए पृष्ठां कि करिे से िारा 5 की उपिारा (2) के िण्ड (ि) या िण्ड (ग) के अिीि
-इन्का र धिम्ि धिधित एक या अधिक आिारों पर ही करेगा, ि कक अन्य ककसी आिार, पर अथाटत्: —
-(क) आिेदि ऐसे देश में ऐसे कक्रयाकिाप में िग सकता है या उिमें उसका िगिा संभाव्य है जो भारत की प्र भुता
-और अिंडता पर प्र धतकूि प्र भाि डाि िे िािे हों;
-(ि) ऐसे देश में आिेदक की उपधस्थ धत भारत की सुरिा के धिए अधहतकर हो सकती है या होिी सम्भा व् य है;
-(ग) ऐसे देश में आिेदक की उपधस्थ धत से उस या ककसी अन्य देश के साथ भारत के मैत्रीपूणट सम्ब न् िों पर प्र धतकूि प्र
-भाि पड़ सकता है या पड़िा सम्भा व् य है;
-(घ) आिेदक की ऐसे देश में उपधस्थ धत केन्री य सरकार की राय में िोकधहत में िहीं है।
-1 1978 के अधिधियम सं 31 की िारा 2 द्व ारा (18 - 8 - 1978 से ) उपिारा (1) के स् था ि पर प्र धतस्था धपत।
-2 19 9 3 के अधिधियम सं ० 35 की िारा 2 द्व ारा (1 - 7 - 1993 से ) “ पचास रु पए की फीस दी जाएगी ” के स् था ि पर प्र धतस्था धपत।
-3 1978 के अधिधियम सं ० 31 की िारा 2 द्व ारा (18 - 8 - 1978 से ) अन्त:स्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `(3) केन्री य सरकार, अपिे द्व ारा इस धिधमत्त अिुसररत प्र था और पद्धधत के अिुकूि, व् य धत यों के उि िगों को धिधहत करेगी`
+  line `धजन्हें क्र मश: उपिारा (1) और उपिारा (2) में धिर्दटष् र् िगों के पासपोर्ट और यात्रा - दस्ता िेजें इस अधिधियम के अिीि जा री की जा`
+  line सकेंगी।
+  line `5. पासपोर्ों, यात्रा - दस्ता िेजों आकद के धिए आिेदि और उि पर आदेश — 1 [(1) ऐसे धिदेश या धिदेशों के ( जो िाधमत धिदेश`
+  line `िहीं हैं ), जो आिेदि में धिधिर्दटष् र् ककए जाएं, पररदशटि के धिए, इस अधिधियम के अिीि पासपोर्ट जारी करिे के धिए आिेदि`
+  line `पासपोर्ट प्र ाधिकारी को ककया जा सकेगा और उसके साथ 2 [ ऐसी फीस दी जाएगी जो पासपोर्ट और अन्य यात्रा - दस्ता िेजों को जारी करिे`
+  line `में धिशेष सुरिा कागज, मुरण पर्िि और अन्य संबंधित प्र कीणट सेिाओं पर उपगत व् य य की पूर्तट के धिए, धिधहत की जाए। ] स्`
+  line `प ष् र् ी करण — इस िारा में, “ िाधमत धिदेश ” से ऐसा धिदेश अधभप्रेत है, जो केन्री य सरकार, इस अधिधियम के अिीि बिाए`
+  line `गए धियमों द्व ारा, इस धिधमत्त धिधिर्दटष् र् करे।`
+  line `(1 क ) कोई आिेदि, जो —`
+  line `(i) िाधमत धिदेश के पररदशटि के धिए इस अधिधियम के अिीि पासपोर्ट जारी करिे के धिए हो; या`
+  line `(ii) ऐसे धिदेश या धिदेशों के (धजिके अन्त गटत िाधमत धिदेश भी है) जो आिेदि में धिधिर्दटष् र् ककए जाएं या इस`
+  line `िारा में धिर्दटष् र् पासपोर्ट या यात्रा - दस्ता िेज पर पृष्ठां कि के धिए इस अधिधियम के अिीि, यात्रा दस्ता िेज जारी करिे के`
+  line `धिए हो,`
+  line `पासपोर्ट प्र ाधिकारी को ककया जा सकेगा और उसके साथ पचास रु पए से अिधिक उतिी फीस (यकद कोई हो) होगी, जो धिधहत`
+  line `की जाए।`
+  line `( 1 ि ) इस िारा के अिीि प्रत् ये क आिेदि ऐसे प्ररू प में होगा और उसमें ऐसी धिधशधष् र् यां होंगी, जो धिधहत की जाएं। ]`
+  line `(2) 3 [ इस िारा के अिीि ] आिेदि की प्र ाधप्त पर, पासपोर्ट प्र ाधिकारी, ऐसी जांच, यकद कोई हो, धजसे िह आिश्य क समझे,`
+  line `करिे के पश्चा त्, इस अधिधियम के अन्य उपबन्िों के अध्य िीि रहते हु ए, धिधित आदेश द्व ारा, —`
+  line `(क) आिेदि में धिधिर्दटष् र् धिदेश या धिदेशों की बाबत, यथाधस्थ धत, पृष्ठां कि सधहत पासपोर्ट या यात्रा - दस्ता िेज`
+  line `जारी करेगा या, पासपोर्ट या यात्रा - दस्ता िेज पर पृष्ठां कि करेगा; अथिा`
+  line `(ि) आिेदि में धिधिर्दट ष् र् एक या अधिक धिदेशों की बाबत, यथाधस्थ धत, पृष्ठां कि सधहत पासपोर्ट या यात्रा -`
+  line `दस्ता िेज जारी करेगा या, पासपोर्ट या यात्रा - दस्ता िेज पर पृष्ठां कि करेगा और अन्य धिदेश या धिदेशों की बाबत पृष्ठां कि`
+  line `करिे से इन्का र करेगा; अथिा`
+  line `(ग) यथाधस्थ धत, पासपोर्ट या यात्रा - दस्ता िेज जारी करिे से या, पासपोर्ट या यात्रा - दस्ता िेज पर कोई पृष्ठां कि`
+  line `करिे से इन्का र करेगा।`
+  line `(3) जहां पासपोर्ट प्र ाधिकारी ककसी व् य धत के आिेदि पर उपिारा (2) के िण्ड (ि) या िण्ड (ग) के अिीि कोई आदेश करे`
+  line `िहां िह ऐसा आदेश करिे के अपिे कारणों का संधिप् त कथि िेिबद्ध करेगा और मांगे जािे पर उस व् य धत को उसकी एक प्र धत तब के`
+  line `धसिाय देगा जब ककसी मामिे में पासपोर्ट प्र ाधिकारी की यह राय हो कक ऐसी प्र धत देिा भारत की प्र भुता और अिण्ड ता, भारत की`
+  line `सुरिा या ककसी धिदेश के साथ भारत के मैत्रीपूणट सम्ब न् िों के धहत में या जि - सािारण के धहत में ि होगा।`
+  line `6. पासपोर्ट यात्रा - दस्ता िेज, आकद देिे से इन्का र — (1) इस अधिधियम के अन्य उपबन्िों के अध्य िीि रहते हु ए यह है कक`
+  line `पासपोर्ट प्र ाधिकारी ककसी धिदेश के पररदशटि के धिए पृष्ठां कि करिे से िारा 5 की उपिारा (2) के िण्ड (ि) या िण्ड (ग) के अिीि`
+  line `इन्का र धिम्ि धिधित एक या अधिक आिारों पर ही करेगा, ि कक अन्य ककसी आिार, पर अथाटत्: —`
+  line `(क) आिेदि ऐसे देश में ऐसे कक्रयाकिाप में िग सकता है या उिमें उसका िगिा संभाव्य है जो भारत की प्र भुता`
+  line `और अिंडता पर प्र धतकूि प्र भाि डाि िे िािे हों;`
+  line `(ि) ऐसे देश में आिेदक की उपधस्थ धत भारत की सुरिा के धिए अधहतकर हो सकती है या होिी सम्भा व् य है;`
+  line `(ग) ऐसे देश में आिेदक की उपधस्थ धत से उस या ककसी अन्य देश के साथ भारत के मैत्रीपूणट सम्ब न् िों पर प्र धतकूि प्र`
+  line `भाि पड़ सकता है या पड़िा सम्भा व् य है;`
+  line `(घ) आिेदक की ऐसे देश में उपधस्थ धत केन्री य सरकार की राय में िोकधहत में िहीं है।`
+  line `1 1978 के अधिधियम सं 31 की िारा 2 द्व ारा (18 - 8 - 1978 से ) उपिारा (1) के स् था ि पर प्र धतस्था धपत।`
+  line `2 19 9 3 के अधिधियम सं ० 35 की िारा 2 द्व ारा (1 - 7 - 1993 से ) “ पचास रु पए की फीस दी जाएगी ” के स् था ि पर प्र धतस्था धपत।`
+  line `3 1978 के अधिधियम सं ० 31 की िारा 2 द्व ारा (18 - 8 - 1978 से ) अन्त:स्था धपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-(2) इस अधिधियम के अन्य उपबन्िों के अध्य िीि रहते हु ए यह है कक पासपोर्ट प्र ाधिकारी ककसी धिदेश के पररदशटि के धिए
-पासपोर्ट या यात्रा - दस्ता िेज जारी करिे से िारा 5 की उप िारा (2) के िण्ड (ग) के अिीि धिम्ि धिधित एक या अधिक आिारों पर ही
-इन्का र करेगा, ि कक अन्य ककसी आिार पर, अथाटत्: —
-(क) आिेदक भार त का िागररक िहीं है;
-(ि) आिेदक भारत से बाहर ऐसे कक्रयाकिाप में िग सकता है या उिमें उसका िगिा सम्भा व् य है जो भारत की प्र
-भुता और अिण्ड ता पर प्र धतकूि प्र भाि डाििे िािे हों;
-(ग) आिेदक का भारत से प्रस् था ि भारत की सुरिा के धिए अधहतकर हो सकता है या होिा सम्भा व् य है;
-(घ) आिेदक की भारत से बाहर उपधस्थ धत से ककसी धिदेश के साथ भारत के मैत्रीपूणट सम्ब न् िों पर प्र धतकूि प्र भाि
-पड़ सकता है या पड़िा सम्भा व् य है;
-( ङ ) आिेदक, अपिे आिेदि की तारीि से ठीक पहिे की पांच िषट की कािािधि के दौराि ककसी भी समय भारत
-में के ककसी न् या यािय द्व ारा िैधतक अिमता अंतिटधित करिे िािे ककसी अपराि के धिए धसद्धदोष ठहराया गया है और
-उसकी बाबत दो िषट से अन्यू ि के कारािास से दण्डा कदष् र् ककया गया है;
-( च) ककसी ऐसे अपराि की बाबत, धजसका आिेदक द्व ारा ककया जािा अधभकधथत है, कायटिाधहयां भारत में ककसी
-दण्ड न् या यािय के समि िधम्ब त हैं;
-(छ) आिेदक की हाधजरी के धिए कोई िारण् र् या समि, या उसकी धगरफ्तारी के धिए कोई िारण् र्, ककसी तत्स मय प्र
-िृत्त धिधि के अिीि ककसी न् या यािय द्व ारा जारी ककया गया है या आिेदक का भारत से प्रस् था ि प्र धतधषद्ध करिे का कोई
-आदेश ऐसे ककसी न् या यािय द्व ारा ककया गया है;
-(ज) आिेदक संप्रत्या िर्तटत ककया जा चुका है और उसिे उस व् य य की प्र धतपूर्तट िहीं की है जो ऐसे संप्रत्या ितटि के
-सम्ब न् ि में उपगत हु आ;
-(झ) आिेदक को पासपोर्ट या यात्रा - दस्ता िेज जारी करिा केन्री य सरकार की राय में िोकधहत में ि होगा।
-7. पासपोर्ों और यात्रा - दस्ता िेजों की अधस्त त् िा िधि — कोई पासपोर्ट या यात्रा - दस्ता िेज, जब तक उसे पहिे ही प्र धतसंहृत ि
-कर धिया जाए, उतिी कािािधि के धिए प्र िृत्त रहेगा धजतिी धिधहत की जाए, और पासपोर्ों या यात्रा - दस्ता िेजों के धिधभन् ि िगों के
-धिए अथिा ऐसे प्रत् ये क िगट के पासपोर्ों या यात्रा - दस्ता िेजों के धिधभन् ि प्र िगों के धिए धिधभन् ि कािािधियां धिधहत की जा सकेंगी:
-परन् तु पासपोर्ट या यात्रा - दस्ता िेज धिधहत कािािधि से कम के धिए भी जारी की जा सकेंगी, —
-(क) यकद िह व् य धत, धजसके द्व ारा िह अपेधित हो, िैसा चाहे; अथिा
-(ि) यकद पासपोर्ट प्र ाधिकारी, ऐसे कारणों से, जो आिेदक को धिधि त रू प में संसूधचत ककए जाएंगे, ककसी मामिे
-में यह समझे कक पासपोर्ट या यात्रा - दस्ता िेज ककसी कम कािािधि के धिए जारी की जािी चाधहए।
-1 [ 8. पासपोर्ट की अिधि का धिस्ता रण — जहां कोई पासपोर्ट िारा 7 के अिीि धिधहत अिधि से िघु त्त र अिधि के धिए जारी
-ककया जाता है, िहां ऐसी िघु त्त र अिधि का तब के धसिाय जब पासपोर्ट प्र ाधिकारी, ऐसे कारणों से, जो िेिबद्ध ककए जाएंगे, ककसी
-मामिे में अन्य था अििाररत करे, उतिी अधतररत अिधि के धिए (जो उस िघु त्त र अिधि को धमिाकर धिधहत अिधि से अधिक िहीं
-होगी) धिस्ता र ककया जा सकेगा और इस अधिधियम के उपबन्ि ऐसे धिस्ता रण को िैसे ही िागू होंगे जैसे िे उसके जारी ककए जािे को
-िागू होते हैं। ]
-9. पासपोर्ों और यात्रा - दस्ता िेजों की शतें और प्ररू प — िे शतें धजिके अध्य िीि और िह प्ररू प धजसमें पासपोर्ट या यात्रा -
-दस्ता िेजें जारी और ििीकृत की जाएंगी, िे हों गे जो धिधहत ककए जाएं:
-परन् तु पासपोर्ट या यात्रा - दस्ता िेजों के धिधभन् ि िगों के धिए अथिा ऐसे प्रत् ये क िगट के पासपोर्ों या यात्रा - दस्ता िेजों के
-धिधभन् ि प्र िगों के धिए धिधभन् ि शतें और धिधभन् ि प्ररू प धिधहत ककए जा सकेंगे:
-परन् तु यह और कक ककसी पासपोर्ट या यात्रा - दस्ता िेज में धिधहत शतों के अधतररत अन्य ऐसी शतें हो सकेंगी, धजन्हें पासपोर्ट प्र
-ाधिकारी केन्री य सरकार के पूिट अिुमोदि से, ककसी धिधशष् र् मामिे में अधिरोधपत करे।
-10. पासपोर्ों और यात्रा - दस्ता िेजों में फेरफार, उिका पररबद्ध ककया जािा और प्र धतसंहरण — (1) पासपोर्ट प्र ाधिकारी, िारा
-6 की उपिारा (1) के उपबन्िों को या िारा 19 के अिीि की ककसी अधिसूचिा को ध् या ि में रिते हु ए, पासपोर्ट या यात्रा - दस्ता िेज में
-ककए गए पृष्ठां किों में फेरफार कर सकेगा या उन्हें रद्द कर सकेगा या केन्री य सरकार के पूिट अिुमोदि से (धिधहत शतों से धभन् ि ) उि
-शतों में, धजिके अध्य िीि पासपोर्ट या यात्रा - दस्ता िेज जारी की गई हो, फेरफार कर सकेगा या उन्हें रद्द कर सकेगा, और उस प्र योजि के
-1 1993 के अधिधियम सं ० 35 की िारा 3 द्व ारा (1 - 7 - 1993 से ) िारा 8 के स् था ि पर प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `(2) इस अधिधियम के अन्य उपबन्िों के अध्य िीि रहते हु ए यह है कक पासपोर्ट प्र ाधिकारी ककसी धिदेश के पररदशटि के धिए`
+  line `पासपोर्ट या यात्रा - दस्ता िेज जारी करिे से िारा 5 की उप िारा (2) के िण्ड (ग) के अिीि धिम्ि धिधित एक या अधिक आिारों पर ही`
+  line `इन्का र करेगा, ि कक अन्य ककसी आिार पर, अथाटत्: —`
+  line `(क) आिेदक भार त का िागररक िहीं है;`
+  line `(ि) आिेदक भारत से बाहर ऐसे कक्रयाकिाप में िग सकता है या उिमें उसका िगिा सम्भा व् य है जो भारत की प्र`
+  line `भुता और अिण्ड ता पर प्र धतकूि प्र भाि डाििे िािे हों;`
+  line `(ग) आिेदक का भारत से प्रस् था ि भारत की सुरिा के धिए अधहतकर हो सकता है या होिा सम्भा व् य है;`
+  line `(घ) आिेदक की भारत से बाहर उपधस्थ धत से ककसी धिदेश के साथ भारत के मैत्रीपूणट सम्ब न् िों पर प्र धतकूि प्र भाि`
+  line `पड़ सकता है या पड़िा सम्भा व् य है;`
+  line `( ङ ) आिेदक, अपिे आिेदि की तारीि से ठीक पहिे की पांच िषट की कािािधि के दौराि ककसी भी समय भारत`
+  line `में के ककसी न् या यािय द्व ारा िैधतक अिमता अंतिटधित करिे िािे ककसी अपराि के धिए धसद्धदोष ठहराया गया है और`
+  line `उसकी बाबत दो िषट से अन्यू ि के कारािास से दण्डा कदष् र् ककया गया है;`
+  line `( च) ककसी ऐसे अपराि की बाबत, धजसका आिेदक द्व ारा ककया जािा अधभकधथत है, कायटिाधहयां भारत में ककसी`
+  line `दण्ड न् या यािय के समि िधम्ब त हैं;`
+  line `(छ) आिेदक की हाधजरी के धिए कोई िारण् र् या समि, या उसकी धगरफ्तारी के धिए कोई िारण् र्, ककसी तत्स मय प्र`
+  line `िृत्त धिधि के अिीि ककसी न् या यािय द्व ारा जारी ककया गया है या आिेदक का भारत से प्रस् था ि प्र धतधषद्ध करिे का कोई`
+  line `आदेश ऐसे ककसी न् या यािय द्व ारा ककया गया है;`
+  line `(ज) आिेदक संप्रत्या िर्तटत ककया जा चुका है और उसिे उस व् य य की प्र धतपूर्तट िहीं की है जो ऐसे संप्रत्या ितटि के`
+  line `सम्ब न् ि में उपगत हु आ;`
+  line `(झ) आिेदक को पासपोर्ट या यात्रा - दस्ता िेज जारी करिा केन्री य सरकार की राय में िोकधहत में ि होगा।`
+  line `7. पासपोर्ों और यात्रा - दस्ता िेजों की अधस्त त् िा िधि — कोई पासपोर्ट या यात्रा - दस्ता िेज, जब तक उसे पहिे ही प्र धतसंहृत ि`
+  line `कर धिया जाए, उतिी कािािधि के धिए प्र िृत्त रहेगा धजतिी धिधहत की जाए, और पासपोर्ों या यात्रा - दस्ता िेजों के धिधभन् ि िगों के`
+  line `धिए अथिा ऐसे प्रत् ये क िगट के पासपोर्ों या यात्रा - दस्ता िेजों के धिधभन् ि प्र िगों के धिए धिधभन् ि कािािधियां धिधहत की जा सकेंगी:`
+  line `परन् तु पासपोर्ट या यात्रा - दस्ता िेज धिधहत कािािधि से कम के धिए भी जारी की जा सकेंगी, —`
+  line `(क) यकद िह व् य धत, धजसके द्व ारा िह अपेधित हो, िैसा चाहे; अथिा`
+  line `(ि) यकद पासपोर्ट प्र ाधिकारी, ऐसे कारणों से, जो आिेदक को धिधि त रू प में संसूधचत ककए जाएंगे, ककसी मामिे`
+  line `में यह समझे कक पासपोर्ट या यात्रा - दस्ता िेज ककसी कम कािािधि के धिए जारी की जािी चाधहए।`
+  line `1 [ 8. पासपोर्ट की अिधि का धिस्ता रण — जहां कोई पासपोर्ट िारा 7 के अिीि धिधहत अिधि से िघु त्त र अिधि के धिए जारी`
+  line `ककया जाता है, िहां ऐसी िघु त्त र अिधि का तब के धसिाय जब पासपोर्ट प्र ाधिकारी, ऐसे कारणों से, जो िेिबद्ध ककए जाएंगे, ककसी`
+  line `मामिे में अन्य था अििाररत करे, उतिी अधतररत अिधि के धिए (जो उस िघु त्त र अिधि को धमिाकर धिधहत अिधि से अधिक िहीं`
+  line `होगी) धिस्ता र ककया जा सकेगा और इस अधिधियम के उपबन्ि ऐसे धिस्ता रण को िैसे ही िागू होंगे जैसे िे उसके जारी ककए जािे को`
+  line `िागू होते हैं। ]`
+  line `9. पासपोर्ों और यात्रा - दस्ता िेजों की शतें और प्ररू प — िे शतें धजिके अध्य िीि और िह प्ररू प धजसमें पासपोर्ट या यात्रा -`
+  line `दस्ता िेजें जारी और ििीकृत की जाएंगी, िे हों गे जो धिधहत ककए जाएं:`
+  line `परन् तु पासपोर्ट या यात्रा - दस्ता िेजों के धिधभन् ि िगों के धिए अथिा ऐसे प्रत् ये क िगट के पासपोर्ों या यात्रा - दस्ता िेजों के`
+  line `धिधभन् ि प्र िगों के धिए धिधभन् ि शतें और धिधभन् ि प्ररू प धिधहत ककए जा सकेंगे:`
+  line `परन् तु यह और कक ककसी पासपोर्ट या यात्रा - दस्ता िेज में धिधहत शतों के अधतररत अन्य ऐसी शतें हो सकेंगी, धजन्हें पासपोर्ट प्र`
+  line `ाधिकारी केन्री य सरकार के पूिट अिुमोदि से, ककसी धिधशष् र् मामिे में अधिरोधपत करे।`
+  line `10. पासपोर्ों और यात्रा - दस्ता िेजों में फेरफार, उिका पररबद्ध ककया जािा और प्र धतसंहरण — (1) पासपोर्ट प्र ाधिकारी, िारा`
+  line `6 की उपिारा (1) के उपबन्िों को या िारा 19 के अिीि की ककसी अधिसूचिा को ध् या ि में रिते हु ए, पासपोर्ट या यात्रा - दस्ता िेज में`
+  line `ककए गए पृष्ठां किों में फेरफार कर सकेगा या उन्हें रद्द कर सकेगा या केन्री य सरकार के पूिट अिुमोदि से (धिधहत शतों से धभन् ि ) उि`
+  line `शतों में, धजिके अध्य िीि पासपोर्ट या यात्रा - दस्ता िेज जारी की गई हो, फेरफार कर सकेगा या उन्हें रद्द कर सकेगा, और उस प्र योजि के`
+  line `1 1993 के अधिधियम सं ० 35 की िारा 3 द्व ारा (1 - 7 - 1993 से ) िारा 8 के स् था ि पर प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-धिए पासपोर्ट या यात्रा - दस्ता िेज के िारक से धिधित सूचिा द्व ारा अपेिा कर सकेगा कक िह उसे पासपोर्ट या यात्रा - दस्ता िेज ऐसे
-समय के भीतर समर्पटत कर दे जो सूचिा में धिधिर्दटष् र् हो और िारक ऐसी सूचिा का अिुपािि करेगा।
-(2) पासपोर्ट प्र ाधिकारी, पासपोर्ट या यात्रा - दस्ता िेज के िारक के आिेदि पर, और केन्री य सरकार के पूिट अिुमो दि से,
-पासपोर्ट या यात्रा - दस्ता िेज की (धिधहत शतों से धभन् ि ) शतों में फेरफार, या उि श तों को रद्द भी, कर सकेगा।
-(3) पासपोर्ट प्र ाधिकारी, पासपोर्ट या यात्रा - दस्ता िेज को पररबद्ध कर सकेगा या पररबद्ध करा सकेगा या प्र धतसंहृत
-कर सकेगा, —
-(क) यकद पासपोर्ट प्र ाधिकारी का समािाि हो जाए कक पासपोर्ट या यात्रा - दस्ता िेज का िारक उसे सदोष कब्जे में
-रिे हु ए है;
-(ि) यकद पासपोर्ट या यात्रा - दस्ता िेज ताधत्ि क जािकारी को दबाकर अथिा पासपोर्ट या यात्रा - दस्ता िेज के िारक द्व
-ारा अथिा उसकी ओर से ककसी अन्य व् य धत द्व ारा दी गई गित जािकारी के आिार पर अधभप्राप्त ककया गया था:
-1 [ परन् तु यकद ऐसे पासपोर्ट का िारक कोई अन्य पासपोर्ट अधभप्राप्त कर िेता है तो पासपोर्ट प्र ाधिकारी ऐसे अन्य
-पासपोर्ट को भी पररबद्ध करेगा या पररबद्ध कराएगा या प्र धतसंहृत करेगा। ]
-( ग ) यकद पासपोर्ट प्र ाधिकारी ऐसा करिा भारत की प्र भुता और अिण्ड ता, भारत की सुरिा या ककसी धिदेश के
-साथ भारत के मैत्रीपूणट सम्ब न् िों के धहत में या जिसािारण के धहत में आिश्य क समझे;
-(घ) यकद पासपोर्ट या यात्रा - दस्ता िेज जारी करिे के पश्चा त् ककसी भी समय पासपोर्ट या यात्रा - दस्ता िेज का िारक
-भारत में के ककसी न् या यािय द्व ारा िैधतक अिमता अंतिटधित करिे िािे ककसी अपराि के धिए धसद्धदोष ठहराया गया हो
-और उसकी बाबत दो िषट से अन्यू ि के कारािास से दण्ड कदष् र् ककया गया हो;
-( ङ ) यकद ककसी ऐसे अपराि की बबात, धजसका पासपोर्ट या यात्रा - दस्ता िेज के िारक द्व ारा ककया जािा
-अ धभ कधथत हो, कायटिाधहयां भारत में ककसी दण्ड न् या यािय के समि िधम्ब त हों;
-(च) यकद पासपोर्ट या यात्रा - दस्ता िेज की शतों में से ककसी का उल्िं घि ककया गया हो;
-(छ) यकद पासपोर्ट या यात्रा - दस्ता िेज का िारक उ पिारा (1) के अिीि की उस सूचिा का अिुपािि करिे में
-असफि रहा हो धजसमें उससे िह पासपोर्ट या यात्रा - दस्ता िेज समर्पटत करिे की अपेिा की गई हो;
-(ज) यकद पासपोर्ट प्र ाधिकारी का ध् या ि इस ओर आकृष् र् ककया गया हो कक पासपोर्ट या यात्रा - दस्ता िेज के िारक
-की हाधजरी के धिए कोई िारण् र् या समि, या उसकी धगरफ्तारी के धिए कोई िारण् र्, ककसी तत्स मय प्र िृत्त धिधि के अिीि
-ककसी न् या यािय द्व ारा जारी ककया गया है या यकद पासपोर्ट या अन्य यात्रा - दस्ता िेज के िारक का भारत से प्रस् था ि प्र धतधषद्ध
-करिे का कोई आदेश ऐसे ककसी न् या यािय द्व ारा ककया गया हो और पासपोर्ट प्र ाधिकारी का समािाि हो गया हो कक िारण् र्
-या समि इस प्र कार जारी ककया गया है या कोई आदेश इस प्र कार ककया गया है।
-(4) पासपोर्ट प्र ाधिकारी पासपोर्ट या यात्रा - दस्ता िेज को उसके िारक के आिेदि पर भी प्र धतसंहृत कर सकेगा।
-(5) जहां पासपोर्ट प्र ाधिकारी उपिारा (1) के अिीि पासपोर्ट या यात्रा - दस्ता िेज पर के पृष्ठां किों में फेरफार करिे या उन्हें
-रद्द करिे या उसकी शतों में फे रफार करिे का कोई आदेश या पासपोर्ट को उपिारा (3) के अिीि पररबद्ध करिे या प्र धतसंहृत करिे का
-कोई आदेश करे िहां िह ऐसा आदेश करिे के कारणों का संधिप् त कथि िेिबद्ध करेगा और मांगे जािे पर पासपोर्ट या यात्रा - दस्ता िेज
-के िारक को, उसकी एक प्र धत तब के धसिाय देगा जब ककसी मामिे में पासपोर्ट प्र ाधिकारी की यह राय हो कक ऐसी प्र धत देिा भारत
-की प्र भुता और अिण्ड ता, भारत की सुरिा या ककसी धिदेश के साथ भारत के मैत्रीपूणट स म् ब न् िों के धहत में या जिसािारण के धहत में
-ि होगा।
-(6) िह प्र ाधिकारी, धजसके अिीिस्थ पासपोर्ट प्र ाधिकारी हो, पासपोर्ट या यात्रा - दस्ता िेज को ककसी भी ऐसे आिार पर, धजस
-पर उसे पासपोर्ट प्र ाधिकारी द्व ारा पररबद्ध या प्र धतसंहृत ककया जा सकता है, धिधित आदेश द्व ारा पररबद्ध कर या करा सकेगा या प्र
-धतसंहृत कर सकेगा और ऐसे प्र ाधिकारी द्व ारा पासपोर्ट या यात्रा - दस्ता िेज पररबद्ध या प्र धतसंहृत ककए जािे के सम्ब न् ि में इस
-अधिधियम के पूिटगामी उपबन्ि याित्श य िागू होंगे।
-(7) पासपोर्ट या यात्रा - दस्ता िेज के िारक को इस अधिधियम या तद् िीि बिाए गए धियमों के अिीि ककसी अपराि के धिए
-धसद्धदोष ठहरािे िािा न् या यािय उस पासपोर्ट या यात्रा - दस्ता िेज को प्र धतसंहृत भी कर सकेगा:
-परंतु यकद अपीि पर या अन्य था िह दोषधसधद्ध अ पास्त की जाए तो िह प्र धतसंहरण शून्य हो जाएगा।
-(8) उपिारा (7) के अिीि प्र धतसंहरण का आदेश अपीि न् या यािय द्व ारा, या उच्च न् या यािय द्व ारा भी पुिरीिण की
-शधत यों के प्र योग में ककया जा सकेगा।
-1 1993 के अधिधियम सं ० 35 की िारा 4 द्व ारा (1 - 7 - 1973 से ) अंत:स्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `धिए पासपोर्ट या यात्रा - दस्ता िेज के िारक से धिधित सूचिा द्व ारा अपेिा कर सकेगा कक िह उसे पासपोर्ट या यात्रा - दस्ता िेज ऐसे`
+  line `समय के भीतर समर्पटत कर दे जो सूचिा में धिधिर्दटष् र् हो और िारक ऐसी सूचिा का अिुपािि करेगा।`
+  line `(2) पासपोर्ट प्र ाधिकारी, पासपोर्ट या यात्रा - दस्ता िेज के िारक के आिेदि पर, और केन्री य सरकार के पूिट अिुमो दि से,`
+  line `पासपोर्ट या यात्रा - दस्ता िेज की (धिधहत शतों से धभन् ि ) शतों में फेरफार, या उि श तों को रद्द भी, कर सकेगा।`
+  line `(3) पासपोर्ट प्र ाधिकारी, पासपोर्ट या यात्रा - दस्ता िेज को पररबद्ध कर सकेगा या पररबद्ध करा सकेगा या प्र धतसंहृत`
+  line `कर सकेगा, —`
+  line `(क) यकद पासपोर्ट प्र ाधिकारी का समािाि हो जाए कक पासपोर्ट या यात्रा - दस्ता िेज का िारक उसे सदोष कब्जे में`
+  line `रिे हु ए है;`
+  line `(ि) यकद पासपोर्ट या यात्रा - दस्ता िेज ताधत्ि क जािकारी को दबाकर अथिा पासपोर्ट या यात्रा - दस्ता िेज के िारक द्व`
+  line `ारा अथिा उसकी ओर से ककसी अन्य व् य धत द्व ारा दी गई गित जािकारी के आिार पर अधभप्राप्त ककया गया था:`
+  line `1 [ परन् तु यकद ऐसे पासपोर्ट का िारक कोई अन्य पासपोर्ट अधभप्राप्त कर िेता है तो पासपोर्ट प्र ाधिकारी ऐसे अन्य`
+  line `पासपोर्ट को भी पररबद्ध करेगा या पररबद्ध कराएगा या प्र धतसंहृत करेगा। ]`
+  line `( ग ) यकद पासपोर्ट प्र ाधिकारी ऐसा करिा भारत की प्र भुता और अिण्ड ता, भारत की सुरिा या ककसी धिदेश के`
+  line `साथ भारत के मैत्रीपूणट सम्ब न् िों के धहत में या जिसािारण के धहत में आिश्य क समझे;`
+  line `(घ) यकद पासपोर्ट या यात्रा - दस्ता िेज जारी करिे के पश्चा त् ककसी भी समय पासपोर्ट या यात्रा - दस्ता िेज का िारक`
+  line `भारत में के ककसी न् या यािय द्व ारा िैधतक अिमता अंतिटधित करिे िािे ककसी अपराि के धिए धसद्धदोष ठहराया गया हो`
+  line `और उसकी बाबत दो िषट से अन्यू ि के कारािास से दण्ड कदष् र् ककया गया हो;`
+  line `( ङ ) यकद ककसी ऐसे अपराि की बबात, धजसका पासपोर्ट या यात्रा - दस्ता िेज के िारक द्व ारा ककया जािा`
+  line `अ धभ कधथत हो, कायटिाधहयां भारत में ककसी दण्ड न् या यािय के समि िधम्ब त हों;`
+  line `(च) यकद पासपोर्ट या यात्रा - दस्ता िेज की शतों में से ककसी का उल्िं घि ककया गया हो;`
+  line `(छ) यकद पासपोर्ट या यात्रा - दस्ता िेज का िारक उ पिारा (1) के अिीि की उस सूचिा का अिुपािि करिे में`
+  line `असफि रहा हो धजसमें उससे िह पासपोर्ट या यात्रा - दस्ता िेज समर्पटत करिे की अपेिा की गई हो;`
+  line `(ज) यकद पासपोर्ट प्र ाधिकारी का ध् या ि इस ओर आकृष् र् ककया गया हो कक पासपोर्ट या यात्रा - दस्ता िेज के िारक`
+  line `की हाधजरी के धिए कोई िारण् र् या समि, या उसकी धगरफ्तारी के धिए कोई िारण् र्, ककसी तत्स मय प्र िृत्त धिधि के अिीि`
+  line `ककसी न् या यािय द्व ारा जारी ककया गया है या यकद पासपोर्ट या अन्य यात्रा - दस्ता िेज के िारक का भारत से प्रस् था ि प्र धतधषद्ध`
+  line `करिे का कोई आदेश ऐसे ककसी न् या यािय द्व ारा ककया गया हो और पासपोर्ट प्र ाधिकारी का समािाि हो गया हो कक िारण् र्`
+  line `या समि इस प्र कार जारी ककया गया है या कोई आदेश इस प्र कार ककया गया है।`
+  line `(4) पासपोर्ट प्र ाधिकारी पासपोर्ट या यात्रा - दस्ता िेज को उसके िारक के आिेदि पर भी प्र धतसंहृत कर सकेगा।`
+  line `(5) जहां पासपोर्ट प्र ाधिकारी उपिारा (1) के अिीि पासपोर्ट या यात्रा - दस्ता िेज पर के पृष्ठां किों में फेरफार करिे या उन्हें`
+  line `रद्द करिे या उसकी शतों में फे रफार करिे का कोई आदेश या पासपोर्ट को उपिारा (3) के अिीि पररबद्ध करिे या प्र धतसंहृत करिे का`
+  line `कोई आदेश करे िहां िह ऐसा आदेश करिे के कारणों का संधिप् त कथि िेिबद्ध करेगा और मांगे जािे पर पासपोर्ट या यात्रा - दस्ता िेज`
+  line `के िारक को, उसकी एक प्र धत तब के धसिाय देगा जब ककसी मामिे में पासपोर्ट प्र ाधिकारी की यह राय हो कक ऐसी प्र धत देिा भारत`
+  line `की प्र भुता और अिण्ड ता, भारत की सुरिा या ककसी धिदेश के साथ भारत के मैत्रीपूणट स म् ब न् िों के धहत में या जिसािारण के धहत में`
+  line `ि होगा।`
+  line `(6) िह प्र ाधिकारी, धजसके अिीिस्थ पासपोर्ट प्र ाधिकारी हो, पासपोर्ट या यात्रा - दस्ता िेज को ककसी भी ऐसे आिार पर, धजस`
+  line `पर उसे पासपोर्ट प्र ाधिकारी द्व ारा पररबद्ध या प्र धतसंहृत ककया जा सकता है, धिधित आदेश द्व ारा पररबद्ध कर या करा सकेगा या प्र`
+  line `धतसंहृत कर सकेगा और ऐसे प्र ाधिकारी द्व ारा पासपोर्ट या यात्रा - दस्ता िेज पररबद्ध या प्र धतसंहृत ककए जािे के सम्ब न् ि में इस`
+  line `अधिधियम के पूिटगामी उपबन्ि याित्श य िागू होंगे।`
+  line `(7) पासपोर्ट या यात्रा - दस्ता िेज के िारक को इस अधिधियम या तद् िीि बिाए गए धियमों के अिीि ककसी अपराि के धिए`
+  line `धसद्धदोष ठहरािे िािा न् या यािय उस पासपोर्ट या यात्रा - दस्ता िेज को प्र धतसंहृत भी कर सकेगा:`
+  line `परंतु यकद अपीि पर या अन्य था िह दोषधसधद्ध अ पास्त की जाए तो िह प्र धतसंहरण शून्य हो जाएगा।`
+  line `(8) उपिारा (7) के अिीि प्र धतसंहरण का आदेश अपीि न् या यािय द्व ारा, या उच्च न् या यािय द्व ारा भी पुिरीिण की`
+  line `शधत यों के प्र योग में ककया जा सकेगा।`
+  line `1 1993 के अधिधियम सं ० 35 की िारा 4 द्व ारा (1 - 7 - 1973 से ) अंत:स्था धपत।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-(9) इस िारा के अिीि पासपोर्ट या यात्रा - दस्ता िेज के प्र धत संहरण पर उसका िारक उस पासपोर्ट या यात्रा - दस्ता िेज को,
-यकद उसे पहिे ही पररबद्ध ि कर धिया गया हो तो, अधि िम्ब उस प्र ाधि कारी को, धजसके द्व ारा उसे प्र धतसंहृत ककया गया हो, या ऐसे
-अन्य प्र ाधिकारी को, धजसे प्र धतसंहरण के आदेश में इस धिधमत्त धिधिर्दटष् र् ककया गया हो, अभ्य र् पटत करेगा।
-1 [ 10 क. पासपोर्ों या यात्रा - दस्ता िेजों का कधतपय दशाओं में धििंबि — (1) िारा 10 में अंतर्िटष् र् उपबंिों की व् या पकता पर प्र
-धतकूि प्र भाि डािे धबिा, यकद केन्री य सरकार या ककसी अधभधहत अधिकारी का यह समािाि हो जाता है कक िारा 10 की उपिा रा
-(3) के िंड (ग) के अिीि पासपोर्ट या यात्रा - दस्ता िेज को पररबद्ध ककए जािे या पररबद्ध कराए जािे या प्र धतसंहृत ककए जािे की
-संभाििा है और ऐसा करिा िोक धहत में आिश्य क है तो िह चार सप्ता ह से अिधिक की अिधि के धिए, —
-(क) आदेश द्व ारा, ककसी पासपोर्ट या यात्रा - द स् ता िेज को तुरन्त प्र भािी रू प से धििंधबत कर सकेगी या कर सकेगा;
-(ि) ऐसा अन्य समुधचत आदेश पाररत कर सकेगी या कर सकेगा धजसके प्र भाि से कोई पासपोर्ट या यात्रा - दस्ता िेज
-अधिधिमान्य हो जाएगा:
-परन् तु केन्री य सरकार या अधभधहत अधिकारी, यकद िह समुधचत समझे तो आदेश द्व ारा और उि कारणों से, जो िेिबद्ध ककए
-जाएंगे, चार सप्ता ह की उत अिधि को िारा 10 के अिीि पासपोर्ट या यात्रा - दस्ता िेज में फेरफार या उसके पररबद्धकरण या प्र
-धतसंहरण से संबंधित कायटिाधहयों के समाप्त होिे तक बढा सकेगी या सकेगा:
-परन् तु यह और कक पासपोर्ट या यात्रा - दस्ता िेज के ऐसे प्रत् ये क िारक को, धजसकी बाबत इस उपिारा के िंड (क) या िंड (ि)
-के अिीि कोई आदेश पाररत ककया गया था, ऐसे आदेश के पाररत ककए जािे की तारीि से संगधणत आठ सप्ता ह से अपश्चा त् की अिधि
-के भीतर सुिे जािे का अिसर कदया जाएगा और तब केन्री य सरकार, यकद आिश्य क हो तो धिधित आदेश द्व ारा, इस उपिारा के अिीि
-पाररत आदेश को उपांतररत या प्र धतसंहृत कर सकेगी।
-(2) अधभधहत अधिकारी, उपिारा (1) के अिीि पाररत आदेशों की, ककसी धिमाि पत्ति पर या पोतारोहण या आप्रिास के
-ककसी अन्य स् था ि पर, संबद्ध प्र ाधिकारी को और पासपोर्ट प्र ाधिकारी को तुरन्त संसूचिा देगा।
-(3) उपिारा (2) में धिर्दटष् र् प्रत् ये क प्र ाधिकारी, उपिारा (1) के अिीि पाररत ककए गए आदेश के प्र ाप्त होते ही ऐसे आदेश
-को तुरन्त प्र भािी करेगा।
-10 ि. प्रज्ञ ापिा का धिधिमान्य करण — केन्री य सरकार या अधभधहत अधिकारी द्व ारा, पासपोर्ट (संशोिि) अधिधियम, 2002 के प्र
-ारंभ के पूिट ककसी धिमाि पत्ति पर या पोतारोहण या आप्रिास के ककसी अन्य स् था ि पर ककसी आप्रिास प्र ाधिकारी को िारा 10 की
-उपिारा (3) के अिीि पासपोर्ट या यात्रा - दस्ता िेज के ककसी िारक के भारत से प्रस् था ि को धिबांधित या ककसी भी रीधत से प्र धतधषद्ध
-करते हु ए दी गई प्रत् ये क प्रज्ञ ा पिा िारा 10 क की उपिारा ( 1 ) के अिीि आदेश समझी जाएगी और ऐसा आदेश पासपोर्ट (संशोिि)
-अधिधियम, 2002 के प्र ारंभ की तारीि से या ऐसी प्रज्ञ ापिा देिे की तारीि से, जो भी पश्चा त् िती हो, तीि मास की अिधि के धिए प्र
-िृत्त बिा रहेगा। स्
-प ष् र् ी करण — िारा 10 क और िारा 10 ि के प्र योजिों के धिए “ अधभधहत अधिकारी ” पद से केन्री य सरकार द्व ारा धिधित
-आदेश द्व ारा, उस रू प में अधभधहत अधिकारी या प्र ाधिकारी अधभप्रेत है। ]
-11. अपीिें — (1) िा रा 5 की उपिारा (2) के िंड (ि) या िंड (ग) अथिा िारा 7 के परन् तु क के िंड (ि) अथिा िारा 10 की
-उपिारा (1) या उपिारा (3) के अिीि पासपोर्ट प्र ाधिकारी के आदेश से या िारा 10 की उपिारा (6) के अिीि उस प्र ाधिकारी के
-आदेश से, धजसके अिीिस्थ पासपोर्ट प्र ाधिकारी हो, व् य धथत कोई भी व् य धत, उस आदेश के धिरुद्ध अपीि उस प्र ाधिकारी से (धजसे इसमें
-इसके पश्चा त् अपीि प्र ाधिकारी कहा गया है) उस कािािधि के भीतर, धजसे धिधहत ककया जाए, कर सकेगा:
-परन् तु केन्री य सरकार द्व ारा ककए गए ककसी भी आदेश के धिरुद्ध कोई अपीि ि होगी।
-(2) कोई भी अपीि, यकद िह उसके धिए धिधहत कािािधि के अिसाि के पश्चा त् की जाए तो, ग्र हण िहीं की जाएगी:
-परन् तु यकद अपीिाथी अपीि प्र ाधिकारी का यह समािाि कर दे कक उस कािािधि के भीतर अपीि ि करिे का उसके पास
-पयाटप्त कारण था तो अपीि उसके धिए धिधहत कािािधि के अि साि के पश्चा त् ग्र हण की जा सकेगी।
-(3) अपीि के धिए धिधहत कािािधि की संगणिा पररसीमा अधिधियम, 1963 (1963 का 36) के उि उपबंिों के अिुसार की
-जाएगी जो उसके अिीि पररसीमा कािािधियों की संगणिा करिे के बारे में है।
-(4) इस िारा के अिीि प्रत् ये क अपीि धिधित अजी द्व ारा की जाएगी और उसके साथ उस आदेश के, धजसके धिरुद्ध अपीि की
-गई हो, कारणों के कथि की एक प्र धत, यकद ऐसी प्र धत अपीिाथी को दी गई हो तो और 2 [ ऐसी फीस जो ऐसे व् य यों की पूर्तट के धिए
-धिधहत की जाए, जो सुसंगत अधभिेि मंगािे पर और संबंधित सेिाओं पर उपगत ककए जाएं। ]
-(5) अपीि का धिपर्ारा करिे में अपीि प्र ाधिकारी ऐसी प्र कक्रया का अिुसरण करेगा जो धिधहत की जाए:
-1 2002 के अधिधियम सं ० 17 की िारा 2 द्व ारा (23 - 10 - 2001 से ) अंत:स्था धपत।
-2 1993 के अधिधियम सं ० 35 की िारा 5 द्व ारा (1 - 7 - 1993 से ) कुछ शब्दों के स् था ि पर प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `(9) इस िारा के अिीि पासपोर्ट या यात्रा - दस्ता िेज के प्र धत संहरण पर उसका िारक उस पासपोर्ट या यात्रा - दस्ता िेज को,`
+  line `यकद उसे पहिे ही पररबद्ध ि कर धिया गया हो तो, अधि िम्ब उस प्र ाधि कारी को, धजसके द्व ारा उसे प्र धतसंहृत ककया गया हो, या ऐसे`
+  line `अन्य प्र ाधिकारी को, धजसे प्र धतसंहरण के आदेश में इस धिधमत्त धिधिर्दटष् र् ककया गया हो, अभ्य र् पटत करेगा।`
+  line `1 [ 10 क. पासपोर्ों या यात्रा - दस्ता िेजों का कधतपय दशाओं में धििंबि — (1) िारा 10 में अंतर्िटष् र् उपबंिों की व् या पकता पर प्र`
+  line `धतकूि प्र भाि डािे धबिा, यकद केन्री य सरकार या ककसी अधभधहत अधिकारी का यह समािाि हो जाता है कक िारा 10 की उपिा रा`
+  line `(3) के िंड (ग) के अिीि पासपोर्ट या यात्रा - दस्ता िेज को पररबद्ध ककए जािे या पररबद्ध कराए जािे या प्र धतसंहृत ककए जािे की`
+  line `संभाििा है और ऐसा करिा िोक धहत में आिश्य क है तो िह चार सप्ता ह से अिधिक की अिधि के धिए, —`
+  line `(क) आदेश द्व ारा, ककसी पासपोर्ट या यात्रा - द स् ता िेज को तुरन्त प्र भािी रू प से धििंधबत कर सकेगी या कर सकेगा;`
+  line `(ि) ऐसा अन्य समुधचत आदेश पाररत कर सकेगी या कर सकेगा धजसके प्र भाि से कोई पासपोर्ट या यात्रा - दस्ता िेज`
+  line `अधिधिमान्य हो जाएगा:`
+  line `परन् तु केन्री य सरकार या अधभधहत अधिकारी, यकद िह समुधचत समझे तो आदेश द्व ारा और उि कारणों से, जो िेिबद्ध ककए`
+  line `जाएंगे, चार सप्ता ह की उत अिधि को िारा 10 के अिीि पासपोर्ट या यात्रा - दस्ता िेज में फेरफार या उसके पररबद्धकरण या प्र`
+  line `धतसंहरण से संबंधित कायटिाधहयों के समाप्त होिे तक बढा सकेगी या सकेगा:`
+  line `परन् तु यह और कक पासपोर्ट या यात्रा - दस्ता िेज के ऐसे प्रत् ये क िारक को, धजसकी बाबत इस उपिारा के िंड (क) या िंड (ि)`
+  line `के अिीि कोई आदेश पाररत ककया गया था, ऐसे आदेश के पाररत ककए जािे की तारीि से संगधणत आठ सप्ता ह से अपश्चा त् की अिधि`
+  line `के भीतर सुिे जािे का अिसर कदया जाएगा और तब केन्री य सरकार, यकद आिश्य क हो तो धिधित आदेश द्व ारा, इस उपिारा के अिीि`
+  line `पाररत आदेश को उपांतररत या प्र धतसंहृत कर सकेगी।`
+  line `(2) अधभधहत अधिकारी, उपिारा (1) के अिीि पाररत आदेशों की, ककसी धिमाि पत्ति पर या पोतारोहण या आप्रिास के`
+  line `ककसी अन्य स् था ि पर, संबद्ध प्र ाधिकारी को और पासपोर्ट प्र ाधिकारी को तुरन्त संसूचिा देगा।`
+  line `(3) उपिारा (2) में धिर्दटष् र् प्रत् ये क प्र ाधिकारी, उपिारा (1) के अिीि पाररत ककए गए आदेश के प्र ाप्त होते ही ऐसे आदेश`
+  line `को तुरन्त प्र भािी करेगा।`
+  line `10 ि. प्रज्ञ ापिा का धिधिमान्य करण — केन्री य सरकार या अधभधहत अधिकारी द्व ारा, पासपोर्ट (संशोिि) अधिधियम, 2002 के प्र`
+  line `ारंभ के पूिट ककसी धिमाि पत्ति पर या पोतारोहण या आप्रिास के ककसी अन्य स् था ि पर ककसी आप्रिास प्र ाधिकारी को िारा 10 की`
+  line `उपिारा (3) के अिीि पासपोर्ट या यात्रा - दस्ता िेज के ककसी िारक के भारत से प्रस् था ि को धिबांधित या ककसी भी रीधत से प्र धतधषद्ध`
+  line `करते हु ए दी गई प्रत् ये क प्रज्ञ ा पिा िारा 10 क की उपिारा ( 1 ) के अिीि आदेश समझी जाएगी और ऐसा आदेश पासपोर्ट (संशोिि)`
+  line `अधिधियम, 2002 के प्र ारंभ की तारीि से या ऐसी प्रज्ञ ापिा देिे की तारीि से, जो भी पश्चा त् िती हो, तीि मास की अिधि के धिए प्र`
+  line `िृत्त बिा रहेगा। स्`
+  line `प ष् र् ी करण — िारा 10 क और िारा 10 ि के प्र योजिों के धिए “ अधभधहत अधिकारी ” पद से केन्री य सरकार द्व ारा धिधित`
+  line `आदेश द्व ारा, उस रू प में अधभधहत अधिकारी या प्र ाधिकारी अधभप्रेत है। ]`
+  line `11. अपीिें — (1) िा रा 5 की उपिारा (2) के िंड (ि) या िंड (ग) अथिा िारा 7 के परन् तु क के िंड (ि) अथिा िारा 10 की`
+  line `उपिारा (1) या उपिारा (3) के अिीि पासपोर्ट प्र ाधिकारी के आदेश से या िारा 10 की उपिारा (6) के अिीि उस प्र ाधिकारी के`
+  line `आदेश से, धजसके अिीिस्थ पासपोर्ट प्र ाधिकारी हो, व् य धथत कोई भी व् य धत, उस आदेश के धिरुद्ध अपीि उस प्र ाधिकारी से (धजसे इसमें`
+  line `इसके पश्चा त् अपीि प्र ाधिकारी कहा गया है) उस कािािधि के भीतर, धजसे धिधहत ककया जाए, कर सकेगा:`
+  line `परन् तु केन्री य सरकार द्व ारा ककए गए ककसी भी आदेश के धिरुद्ध कोई अपीि ि होगी।`
+  line `(2) कोई भी अपीि, यकद िह उसके धिए धिधहत कािािधि के अिसाि के पश्चा त् की जाए तो, ग्र हण िहीं की जाएगी:`
+  line `परन् तु यकद अपीिाथी अपीि प्र ाधिकारी का यह समािाि कर दे कक उस कािािधि के भीतर अपीि ि करिे का उसके पास`
+  line `पयाटप्त कारण था तो अपीि उसके धिए धिधहत कािािधि के अि साि के पश्चा त् ग्र हण की जा सकेगी।`
+  line `(3) अपीि के धिए धिधहत कािािधि की संगणिा पररसीमा अधिधियम, 1963 (1963 का 36) के उि उपबंिों के अिुसार की`
+  line `जाएगी जो उसके अिीि पररसीमा कािािधियों की संगणिा करिे के बारे में है।`
+  line `(4) इस िारा के अिीि प्रत् ये क अपीि धिधित अजी द्व ारा की जाएगी और उसके साथ उस आदेश के, धजसके धिरुद्ध अपीि की`
+  line `गई हो, कारणों के कथि की एक प्र धत, यकद ऐसी प्र धत अपीिाथी को दी गई हो तो और 2 [ ऐसी फीस जो ऐसे व् य यों की पूर्तट के धिए`
+  line `धिधहत की जाए, जो सुसंगत अधभिेि मंगािे पर और संबंधित सेिाओं पर उपगत ककए जाएं। ]`
+  line `(5) अपीि का धिपर्ारा करिे में अपीि प्र ाधिकारी ऐसी प्र कक्रया का अिुसरण करेगा जो धिधहत की जाए:`
+  line `1 2002 के अधिधियम सं ० 17 की िारा 2 द्व ारा (23 - 10 - 2001 से ) अंत:स्था धपत।`
+  line `2 1993 के अधिधियम सं ० 35 की िारा 5 द्व ारा (1 - 7 - 1993 से ) कुछ शब्दों के स् था ि पर प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-परन् तु जब तक अपीिाथी को अपिे मामिे का अभ्या िेदि करिे का युधत युत अिसर ि दे कदया हो जब तक ककसी भी
-अपीि का धिपर्ारा िहीं ककया जाएगा।
-(6) धजस आदेश के धि रुद्ध अपीि की गई हो उसे पुष् र् करिे, उपान्त ररत करिे या उिर् देिे का अपीि प्र ाधिकारी का प्रत् ये क
-आदेश अधन्त म होगा।
-12. अपराि और शाधस्त यां — (1) जो कोई —
-(क) िारा 3 के उपबंिों का उल्िं घि करेगा; अथिा
-(ि) इस अधिधियम के अिीि कोई पासपोर्ट या यात्रा - दस्ता िे ज अधभप्राप्त करिे की दृधष् र् से, जािते हु ए, कोई
-धमथ्या जािकारी देगा या कोई ताधत्ि क जािकारी दबाएगा या ककसी पासपोर्ट या यात्रा - दस्ता िेज में की गई प्र धिधष् र् यों में
-धिधिपूणट प्र ाधिकार के धबिा कोई पररितटि करेगा या पररितटि करिे का प्र यत्ि करेगा या पररितट ि कराएगा; अथिा
-(ग) अपिा पासपोर्ट या यात्रा - दस्ता िेज (चाहे उसे इस अधिधियम के अिीि जारी ककया गया हो या िहीं) धिरीिण
-के धिए पेश करिे में, जब धिधहत प्र ाधिकारी उससे ऐसा करिे की अपेिा करे, असफि रहेगा; अथिा
-(घ) ककसी अन्य व् य धत को जारी ककए गए पासपोर्ट या यात्रा - दस्ता िेज को जािते हु ए उपयोग में िाएगा; अथिा
-( ङ ) अपिे को जारी ककए गए पासपोर्ट या यात्रा - दस्ता िेज का उपयोग, जािते हु ए, ककसी दूसरे व् य धत को करिे
-देगा, िह कारािास से, धजसकी अिधि 1 [ दो िषट तक की हो सकेगी या जुमाटिे से, जो पांच हजार रु पए तक का हो सकेगा, ] या
-दोिों से दण्ड िीय होगा।
-2 [ (1 क ) जो कोई, जो भारत का िागररक िहीं है, —
-(क) अपिी राष्री यता के बारे में कोई जािकारी दबाकर ककसी पासपोर्ट के धिए आिेदि करेगा या उसे अधभप्राप्त
-करेगा, या
-(ि) कोई कूर्रधचत पासपोर्ट या यात्रा - दस्ता िेज िारण करेगा।
-िह कारािास से, धजसकी अिधि एक िषट से कम की िहीं होगी ककन्तु पांच िषट तक की हो सकेगी और जुमाटि से जो दस हजार रु पए से
-कम का िहीं होगा, ककन्तु पचास हजार रु पए तक का हो सकेगा, दण्ड िीय होगा। ]
-(2) जो कोई 1 [ उपिारा (1) या उपिारा (1 क ) ] के अिीि दण्ड िीय ककसी अपराि का दुष् प्रे रण करेगा िह, यकद दुष् प्रे ररत कायट
-दुष् प्रे रण के पररणामस्ि रू प कर कदया जाए तो, उस उपिारा में उस अपराि के धिए उपबंधित दण्ड से दण्ड िीय होगा।
-(3) जो कोई पासपोर्ट या यात्रा - दस्ता िेज की ककसी शतट का या इस अधिधियम के या तद् िीि बिाए गए ककसी धियम के
-ककसी उपबंि का कोई ऐसा उल्िं घि करेगा धजसके धिए इस अधिधियम में अन्य त्र कोई दण्ड उपबंधित िहीं है, िह कारािास से,
-धजसकी अिधि तीि मास तक की हो सकेगी, या जुमाटि से, जो पांच सौ रु पए तक का हो सकेगा, या दोिों से, दण्ड िीय होगा।
-(4) जो कोई इस अधिधि यम के अिीि ककसी अपराि का धसद्धदोष ठहराया जाकर इस अधिधियम के अिीि ककसी अपराि के
-धिए पुि: धसद्धदोष ठहराया जाएगा िह पश्चा त् कधथत अपराि के धिए उपबंधित शाधस्त की दुगुिी शाधस्त से दण्ड िीय होगा।
-13. धगरफ्तार करिे की शधत — (1) सीमाशुल्क का कोई अधिकारी, धज से केन्री य सरकार के सािारण या धिशेष आदेश द्व ारा
-इस धिधमत्त सशत ककया गया हो, और 3 [ पुधिस का कोई आकफसर या उत् प्र िास अधिकारी ] जो उप - धिरीिक की पंधत से िीचे का ि
-हो, ककसी भी ऐसे व् य धत को, धजसके धिरुद्ध यह समुधचत संदेह हो कक उसिे िारा 12 के अिीि द ण् ड िीय कोई अपराि ककया है, िारण् र्
-के धबिा धगरफ्तार कर सकेगा और ऐसी धगरफ्तारी के आिारों की जािकारी उसे यथाशय शीघ्र देगा।
-(2) इस िारा के अिीि धगरफ्तारी करिे िािा प्रत् ये क अधिकारी, धगरफ्तार ककए गए व् य धत को ऐसे मधजस्रे र् के समि, धजसे
-उस मामिे में अधिकाररता हो, या धिकर्तम थािे के भारसािक आकफसर के समि, अिािश्य क धििंब ककए धबिा, िे जाएगा या भेजेगा
-और ऐसी ककसी धगरफ्तारी के मामिे में 4 [ दण्ड प्र कक्रया संधहता, 1973 (1974 का 2) की िारा 57] के उपबन्ि याित् शय िागू होंगे।
-14. तिाशी और अधभग्रहण की शधत — (1) सीमाशुल्क का कोई अधिकारी, धजसे केन्री य सरकार के सािारण या धिशेष
-आदेश द्व ारा इस धिधमत्त सशत ककया गया हो, और 3 [ पुधिस का कोई आकफसर या उत् प्र िास अधिकारी ] जो उप - धिरीिक की पंधत से
-िीचे का ि हो, ककसी भी स् था ि की तिाशी िे सकेगा और कोई भी पासपो र् ट या यात्रा - दस्ता िेज ककसी ऐसे व् य धत से अधभगृहीत कर
-सकेगा धजसके धिरुद्ध यह समुधचत संदेह हो कक उसिे िारा 12 के अिीि दण्ड िीय कोई अपराि ककया है।
-1 1993 के अधिधियम सं ० 35 की िारा 6 द्व ारा (1 - 7 - 1993 से ) कुछ शब्दों के स् था ि पर प्र धतस्था धपत।
-2 1993 के अधिधियम सं ० 35 की िारा 6 द्व ारा (1 - 7 - 1993 से ) अंत:स्था धपत।
-3 1993 के अधिधियम सं ० 35 की िारा 7 द्व ारा (1 - 7 - 1993 से ) “ पुधिस का कोई आकफसर ” के स् था ि पर प्र धतस्था धपत।
-4 1978 के अधिधियम सं ० 31 की िारा 3 द्व ारा (18 - 8 - 1978 से ) “ दण्ड प्र कक्रया संधहता, 1898 की िारा 61” के स् था ि पर प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `परन् तु जब तक अपीिाथी को अपिे मामिे का अभ्या िेदि करिे का युधत युत अिसर ि दे कदया हो जब तक ककसी भी`
+  line `अपीि का धिपर्ारा िहीं ककया जाएगा।`
+  line `(6) धजस आदेश के धि रुद्ध अपीि की गई हो उसे पुष् र् करिे, उपान्त ररत करिे या उिर् देिे का अपीि प्र ाधिकारी का प्रत् ये क`
+  line `आदेश अधन्त म होगा।`
+  line `12. अपराि और शाधस्त यां — (1) जो कोई —`
+  line `(क) िारा 3 के उपबंिों का उल्िं घि करेगा; अथिा`
+  line `(ि) इस अधिधियम के अिीि कोई पासपोर्ट या यात्रा - दस्ता िे ज अधभप्राप्त करिे की दृधष् र् से, जािते हु ए, कोई`
+  line `धमथ्या जािकारी देगा या कोई ताधत्ि क जािकारी दबाएगा या ककसी पासपोर्ट या यात्रा - दस्ता िेज में की गई प्र धिधष् र् यों में`
+  line `धिधिपूणट प्र ाधिकार के धबिा कोई पररितटि करेगा या पररितटि करिे का प्र यत्ि करेगा या पररितट ि कराएगा; अथिा`
+  line `(ग) अपिा पासपोर्ट या यात्रा - दस्ता िेज (चाहे उसे इस अधिधियम के अिीि जारी ककया गया हो या िहीं) धिरीिण`
+  line `के धिए पेश करिे में, जब धिधहत प्र ाधिकारी उससे ऐसा करिे की अपेिा करे, असफि रहेगा; अथिा`
+  line `(घ) ककसी अन्य व् य धत को जारी ककए गए पासपोर्ट या यात्रा - दस्ता िेज को जािते हु ए उपयोग में िाएगा; अथिा`
+  line `( ङ ) अपिे को जारी ककए गए पासपोर्ट या यात्रा - दस्ता िेज का उपयोग, जािते हु ए, ककसी दूसरे व् य धत को करिे`
+  line `देगा, िह कारािास से, धजसकी अिधि 1 [ दो िषट तक की हो सकेगी या जुमाटिे से, जो पांच हजार रु पए तक का हो सकेगा, ] या`
+  line `दोिों से दण्ड िीय होगा।`
+  line `2 [ (1 क ) जो कोई, जो भारत का िागररक िहीं है, —`
+  line `(क) अपिी राष्री यता के बारे में कोई जािकारी दबाकर ककसी पासपोर्ट के धिए आिेदि करेगा या उसे अधभप्राप्त`
+  line `करेगा, या`
+  line `(ि) कोई कूर्रधचत पासपोर्ट या यात्रा - दस्ता िेज िारण करेगा।`
+  line `िह कारािास से, धजसकी अिधि एक िषट से कम की िहीं होगी ककन्तु पांच िषट तक की हो सकेगी और जुमाटि से जो दस हजार रु पए से`
+  line `कम का िहीं होगा, ककन्तु पचास हजार रु पए तक का हो सकेगा, दण्ड िीय होगा। ]`
+  line `(2) जो कोई 1 [ उपिारा (1) या उपिारा (1 क ) ] के अिीि दण्ड िीय ककसी अपराि का दुष् प्रे रण करेगा िह, यकद दुष् प्रे ररत कायट`
+  line `दुष् प्रे रण के पररणामस्ि रू प कर कदया जाए तो, उस उपिारा में उस अपराि के धिए उपबंधित दण्ड से दण्ड िीय होगा।`
+  line `(3) जो कोई पासपोर्ट या यात्रा - दस्ता िेज की ककसी शतट का या इस अधिधियम के या तद् िीि बिाए गए ककसी धियम के`
+  line `ककसी उपबंि का कोई ऐसा उल्िं घि करेगा धजसके धिए इस अधिधियम में अन्य त्र कोई दण्ड उपबंधित िहीं है, िह कारािास से,`
+  line `धजसकी अिधि तीि मास तक की हो सकेगी, या जुमाटि से, जो पांच सौ रु पए तक का हो सकेगा, या दोिों से, दण्ड िीय होगा।`
+  line `(4) जो कोई इस अधिधि यम के अिीि ककसी अपराि का धसद्धदोष ठहराया जाकर इस अधिधियम के अिीि ककसी अपराि के`
+  line `धिए पुि: धसद्धदोष ठहराया जाएगा िह पश्चा त् कधथत अपराि के धिए उपबंधित शाधस्त की दुगुिी शाधस्त से दण्ड िीय होगा।`
+  line `13. धगरफ्तार करिे की शधत — (1) सीमाशुल्क का कोई अधिकारी, धज से केन्री य सरकार के सािारण या धिशेष आदेश द्व ारा`
+  line `इस धिधमत्त सशत ककया गया हो, और 3 [ पुधिस का कोई आकफसर या उत् प्र िास अधिकारी ] जो उप - धिरीिक की पंधत से िीचे का ि`
+  line `हो, ककसी भी ऐसे व् य धत को, धजसके धिरुद्ध यह समुधचत संदेह हो कक उसिे िारा 12 के अिीि द ण् ड िीय कोई अपराि ककया है, िारण् र्`
+  line `के धबिा धगरफ्तार कर सकेगा और ऐसी धगरफ्तारी के आिारों की जािकारी उसे यथाशय शीघ्र देगा।`
+  line `(2) इस िारा के अिीि धगरफ्तारी करिे िािा प्रत् ये क अधिकारी, धगरफ्तार ककए गए व् य धत को ऐसे मधजस्रे र् के समि, धजसे`
+  line `उस मामिे में अधिकाररता हो, या धिकर्तम थािे के भारसािक आकफसर के समि, अिािश्य क धििंब ककए धबिा, िे जाएगा या भेजेगा`
+  line `और ऐसी ककसी धगरफ्तारी के मामिे में 4 [ दण्ड प्र कक्रया संधहता, 1973 (1974 का 2) की िारा 57] के उपबन्ि याित् शय िागू होंगे।`
+  line `14. तिाशी और अधभग्रहण की शधत — (1) सीमाशुल्क का कोई अधिकारी, धजसे केन्री य सरकार के सािारण या धिशेष`
+  line `आदेश द्व ारा इस धिधमत्त सशत ककया गया हो, और 3 [ पुधिस का कोई आकफसर या उत् प्र िास अधिकारी ] जो उप - धिरीिक की पंधत से`
+  line `िीचे का ि हो, ककसी भी स् था ि की तिाशी िे सकेगा और कोई भी पासपो र् ट या यात्रा - दस्ता िेज ककसी ऐसे व् य धत से अधभगृहीत कर`
+  line `सकेगा धजसके धिरुद्ध यह समुधचत संदेह हो कक उसिे िारा 12 के अिीि दण्ड िीय कोई अपराि ककया है।`
+  line `1 1993 के अधिधियम सं ० 35 की िारा 6 द्व ारा (1 - 7 - 1993 से ) कुछ शब्दों के स् था ि पर प्र धतस्था धपत।`
+  line `2 1993 के अधिधियम सं ० 35 की िारा 6 द्व ारा (1 - 7 - 1993 से ) अंत:स्था धपत।`
+  line `3 1993 के अधिधियम सं ० 35 की िारा 7 द्व ारा (1 - 7 - 1993 से ) “ पुधिस का कोई आकफसर ” के स् था ि पर प्र धतस्था धपत।`
+  line `4 1978 के अधिधियम सं ० 31 की िारा 3 द्व ारा (18 - 8 - 1978 से ) “ दण्ड प्र कक्रया संधहता, 1898 की िारा 61” के स् था ि पर प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `7
-(2) 1 [ दण्ड प्र कक्रया संधहता, 1973 (1974 का 2) ] के िे उपबन्ि, जो तिाधशयों और अधभग्रहणों के संबंि में हैं, इस िारा के
-अिीि तिाधश यों और अधभग्रहणों को याित् शय िागू होंगे।
-15. केन्री य सरकार की पूिट मंजूरी आिश् य क — ककसी भी व् य धत के धिरुद्ध इस अधिधियम के अिीि ककसी अपराि की बाबत
-कोई अधभयोजि केन्री य सरकार की या ऐसे अधिकारी या प्र ाधिकारी की, धजसे िह सर कार धिधित आदेश द्व ारा इस धिधमत्त प्र ाधिकृत
-करे, पूिट मंजूरी के धबिा संधस्थ त िहीं ककया जाएगा।
-16. सद् भा िपूिटक की गई कारटिाई के धिए पररत्राण — कोई भी िाद, अधभयोजि या अन्य धिधिक कायटिाही इस अधिधियम
-के अिीि सद् भा िपूटक की गई या की जािे के धिए आशधयत कक सी बात के धिए सरकार या ककसी अधिकारी या प्र ाधिकारी के धिरुद्ध
-िहीं होगी।
-17. पासपोर्ों और यात्रा - दस्ता िेजों का केन्री य सरकार की सम्प धत्त होिा — इस अधिधियम के अिीि जारी ककया गया
-पासपोर्ट या यात्रा - दस्ता िेज सदैि केन्री य सरकार की सम्प धत्त रहेगी।
-2 * * * * *
-19. पासपोर्ों और यात्रा - दस्ता िेजों का कुछ देशों में यात्रा के धिए अधिधिमान्य होिा — केन्री य सरकार द्व ारा यह अधिसूचिा
-धिकािी जािे पर कक कोई धिदेश ऐसा देश है, —
-(क) जो भारत के धिरुद्ध बाह्य आक्रमण कर रहा है; अथिा
-(ि) जो भारत के धि रुद्ध बाह्य आक्रमण करिे िािे देश की सहायता कर रहा है; अथिा
-(ग) जहां सशस् त्र संघषट चि रहा है; अथिा
-(घ) जहां की यात्रा करिा िोक धहत में धिबटधन्ि त ककया जािा चाधहए, यों कक ऐसी यात्रा से भारत सरकार के
-िैदेधशक कायटकिाप के संचािि को गम्भी र िुकसाि पहुं चेगा,
-ऐसे देश में होकर यात्रा करिे अथिा ऐसे देश के पररदशटि के धिए पासपोर्ट या यात्रा - दस्ता िेज का ऐसी यात्रा या ऐसे पररदशटि के धिए
-धिधिमान्य रहिा समाप्त हो जाएगा जब तक ककसी मामिे में धिधहत प्र ाधिकारी द्व ारा उस धिधमत्त धिशेष पृष्ठां कि धिधहत प्ररू प में ि
-कर कदया गया है।
-20. पासपोर्ों और यात्रा - दस्ता िेजों का ऐसे व् य धत यों को, जो भारत के िागररक िहीं हैं जारी ककया जािा — पासपोर्ट या
-यात्रा - दस्ता िेज के जारी ककए जािे के संबंि में पूिटगामी उपबंिों में ककसी बात के होते हु ए भी, केन्री य सरकार ऐसे व् य धत को, जो
-भारत का िाधगरक ि हो, पासपोर्ट या यात्रा - दस्ता िेज जारी कर या करिा सकेगी यकद उस सरकार की यह राय हो कक ऐसा करिा
-िोकधहत में आिश्य क है।
-21. प्रत् या योधजत करिे की शधत — केन्री य सरकार, शासकीय राजपत्र में अधिसूचिा द्व ारा, यह धिदेश दे सकेगी कक िारा 6
-की उपिारा (1) के िण्ड (घ) के अिीि की शधत से या उस िारा की उपिारा (2) के िण्ड (झ) के अिीि की शधत से या िारा 24 के
-अिीि की शधत से धभन् ि ककसी भी शधत या कृत् य का, धजसका प्र योग या पािि इस अधिधियम के अिीि उसके द्व ारा ककया जा सकता
-है, ऐसे धिषयों के संबंि में और ऐसी शतों के, यकद कोई हों, अध्य िीि रहते हु ए, धजन्हें िह अधिसूचिा में धिधिर्दटष् र् करे, —
-(क) केन्री य सरकार के अिीिस्थ उस आधिकारी या उस प्र ाधिकारी द्व ारा, अथिा
-(ि) ककसी राज्य सरकार द्व ारा या ऐसी सरकार के अिीिस्थ ककसी अधिकारी या प्र ाधिकारी द्व ारा, अथिा
-(ग) ऐसे धिदेश में, धजसमें भारत का कोई राजिधयक धमशि िहीं है, उस कौन्स िीय आकफसर द्व ारा,
-जो अधिसूचिा में धिधिर्दटष् र् ककया जाए, प्र योग या पािि ककया जा सकेगा।
-22. छूर् देिे की शधत — जहां केन्री य सरकार की यह राय हो कक ऐसा करिा िोक धहत में आिश्य क या समीचीि है, िहां िह,
-शासकीय राजपत्र में अधिसूचिा द्व ारा, और ऐसी शतों के, यकद कोई हों, अध्य िीि रहते हु ए, धजन्हें िह अधिसूचिा में धिधिर्दटष् र् करे, —
-(क) ककसी भी व् य धत को या व् य धत यों के िगट को इस अधिधियम के या तद् िीि बिाए गए धि यमों के सभी या
-ककन्हीं उपबन्िों के प्र ितटि से छूर् दे सकेगी; तथा
-(ि) ऐसी ककसी भी अधिसूचिा को ककतिी ही बार रद्द कर सकेगी और िैसी ही अधिसूचिा द्व ारा उस व् य धत या व्
-य धत यों के िगट को पुि: ऐसे उपबन्िों के प्र ितटि के अध्य िीि कर सकेगी।
-23. अधिधियम का कुछ अधिधियधमधतयों के अधतररत होिा — इस अधिधियम के उपबन्ि पासपोर्ट (भारत में प्र िेश)
-अधिधियम, 1920 (1920 का 34) 3 [ उत् प्र िास अधिधियम, 1983 (1983 का 31)], धिदेधशयों का रधजस्री करण अधिधियम, 1939
-1 1978 के अधिधियम सं ० 31 की िारा 4 द्व ारा (18 - 8 - 1978 से ) “ दण्ड प्र कक्रया संधहता, 1898” के स् था ि पर प्र धतस्था धपत।
-2 1993 के अधिधियम सं ० 35 की िारा 8 द्व ारा (1 - 7 - 1993 से ) िारा 8 का िोप ककया गया।
-3 1993 के अधिधियम सं ० 35 की िारा 9 द्व ारा (1 - 7 - 1993 से ) “ उत् प्र िास अधिधियम, 1922” के स् था ि पर प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 7
+  line `(2) 1 [ दण्ड प्र कक्रया संधहता, 1973 (1974 का 2) ] के िे उपबन्ि, जो तिाधशयों और अधभग्रहणों के संबंि में हैं, इस िारा के`
+  line `अिीि तिाधश यों और अधभग्रहणों को याित् शय िागू होंगे।`
+  line `15. केन्री य सरकार की पूिट मंजूरी आिश् य क — ककसी भी व् य धत के धिरुद्ध इस अधिधियम के अिीि ककसी अपराि की बाबत`
+  line `कोई अधभयोजि केन्री य सरकार की या ऐसे अधिकारी या प्र ाधिकारी की, धजसे िह सर कार धिधित आदेश द्व ारा इस धिधमत्त प्र ाधिकृत`
+  line `करे, पूिट मंजूरी के धबिा संधस्थ त िहीं ककया जाएगा।`
+  line `16. सद् भा िपूिटक की गई कारटिाई के धिए पररत्राण — कोई भी िाद, अधभयोजि या अन्य धिधिक कायटिाही इस अधिधियम`
+  line `के अिीि सद् भा िपूटक की गई या की जािे के धिए आशधयत कक सी बात के धिए सरकार या ककसी अधिकारी या प्र ाधिकारी के धिरुद्ध`
+  line `िहीं होगी।`
+  line `17. पासपोर्ों और यात्रा - दस्ता िेजों का केन्री य सरकार की सम्प धत्त होिा — इस अधिधियम के अिीि जारी ककया गया`
+  line `पासपोर्ट या यात्रा - दस्ता िेज सदैि केन्री य सरकार की सम्प धत्त रहेगी।`
+  line `2 * * * * *`
+  line `19. पासपोर्ों और यात्रा - दस्ता िेजों का कुछ देशों में यात्रा के धिए अधिधिमान्य होिा — केन्री य सरकार द्व ारा यह अधिसूचिा`
+  line `धिकािी जािे पर कक कोई धिदेश ऐसा देश है, —`
+  line `(क) जो भारत के धिरुद्ध बाह्य आक्रमण कर रहा है; अथिा`
+  line `(ि) जो भारत के धि रुद्ध बाह्य आक्रमण करिे िािे देश की सहायता कर रहा है; अथिा`
+  line `(ग) जहां सशस् त्र संघषट चि रहा है; अथिा`
+  line `(घ) जहां की यात्रा करिा िोक धहत में धिबटधन्ि त ककया जािा चाधहए, यों कक ऐसी यात्रा से भारत सरकार के`
+  line `िैदेधशक कायटकिाप के संचािि को गम्भी र िुकसाि पहुं चेगा,`
+  line `ऐसे देश में होकर यात्रा करिे अथिा ऐसे देश के पररदशटि के धिए पासपोर्ट या यात्रा - दस्ता िेज का ऐसी यात्रा या ऐसे पररदशटि के धिए`
+  line `धिधिमान्य रहिा समाप्त हो जाएगा जब तक ककसी मामिे में धिधहत प्र ाधिकारी द्व ारा उस धिधमत्त धिशेष पृष्ठां कि धिधहत प्ररू प में ि`
+  line `कर कदया गया है।`
+  line `20. पासपोर्ों और यात्रा - दस्ता िेजों का ऐसे व् य धत यों को, जो भारत के िागररक िहीं हैं जारी ककया जािा — पासपोर्ट या`
+  line `यात्रा - दस्ता िेज के जारी ककए जािे के संबंि में पूिटगामी उपबंिों में ककसी बात के होते हु ए भी, केन्री य सरकार ऐसे व् य धत को, जो`
+  line `भारत का िाधगरक ि हो, पासपोर्ट या यात्रा - दस्ता िेज जारी कर या करिा सकेगी यकद उस सरकार की यह राय हो कक ऐसा करिा`
+  line `िोकधहत में आिश्य क है।`
+  line `21. प्रत् या योधजत करिे की शधत — केन्री य सरकार, शासकीय राजपत्र में अधिसूचिा द्व ारा, यह धिदेश दे सकेगी कक िारा 6`
+  line `की उपिारा (1) के िण्ड (घ) के अिीि की शधत से या उस िारा की उपिारा (2) के िण्ड (झ) के अिीि की शधत से या िारा 24 के`
+  line `अिीि की शधत से धभन् ि ककसी भी शधत या कृत् य का, धजसका प्र योग या पािि इस अधिधियम के अिीि उसके द्व ारा ककया जा सकता`
+  line `है, ऐसे धिषयों के संबंि में और ऐसी शतों के, यकद कोई हों, अध्य िीि रहते हु ए, धजन्हें िह अधिसूचिा में धिधिर्दटष् र् करे, —`
+  line `(क) केन्री य सरकार के अिीिस्थ उस आधिकारी या उस प्र ाधिकारी द्व ारा, अथिा`
+  line `(ि) ककसी राज्य सरकार द्व ारा या ऐसी सरकार के अिीिस्थ ककसी अधिकारी या प्र ाधिकारी द्व ारा, अथिा`
+  line `(ग) ऐसे धिदेश में, धजसमें भारत का कोई राजिधयक धमशि िहीं है, उस कौन्स िीय आकफसर द्व ारा,`
+  line `जो अधिसूचिा में धिधिर्दटष् र् ककया जाए, प्र योग या पािि ककया जा सकेगा।`
+  line `22. छूर् देिे की शधत — जहां केन्री य सरकार की यह राय हो कक ऐसा करिा िोक धहत में आिश्य क या समीचीि है, िहां िह,`
+  line `शासकीय राजपत्र में अधिसूचिा द्व ारा, और ऐसी शतों के, यकद कोई हों, अध्य िीि रहते हु ए, धजन्हें िह अधिसूचिा में धिधिर्दटष् र् करे, —`
+  line `(क) ककसी भी व् य धत को या व् य धत यों के िगट को इस अधिधियम के या तद् िीि बिाए गए धि यमों के सभी या`
+  line `ककन्हीं उपबन्िों के प्र ितटि से छूर् दे सकेगी; तथा`
+  line `(ि) ऐसी ककसी भी अधिसूचिा को ककतिी ही बार रद्द कर सकेगी और िैसी ही अधिसूचिा द्व ारा उस व् य धत या व्`
+  line `य धत यों के िगट को पुि: ऐसे उपबन्िों के प्र ितटि के अध्य िीि कर सकेगी।`
+  line `23. अधिधियम का कुछ अधिधियधमधतयों के अधतररत होिा — इस अधिधियम के उपबन्ि पासपोर्ट (भारत में प्र िेश)`
+  line `अधिधियम, 1920 (1920 का 34) 3 [ उत् प्र िास अधिधियम, 1983 (1983 का 31)], धिदेधशयों का रधजस्री करण अधिधियम, 1939`
+  line `1 1978 के अधिधियम सं ० 31 की िारा 4 द्व ारा (18 - 8 - 1978 से ) “ दण्ड प्र कक्रया संधहता, 1898” के स् था ि पर प्र धतस्था धपत।`
+  line `2 1993 के अधिधियम सं ० 35 की िारा 8 द्व ारा (1 - 7 - 1993 से ) िारा 8 का िोप ककया गया।`
+  line `3 1993 के अधिधियम सं ० 35 की िारा 9 द्व ारा (1 - 7 - 1993 से ) “ उत् प्र िास अधिधियम, 1922” के स् था ि पर प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `8
-(1939 का 16), धिदेधशयों धिषयक अधिधिय म, 1946 (1946 का 31) 1 *** शत्रु से व् या पार (आपात उपबन्िों का चािू रहिा)
-अधिधियम, 1947 (1947 का 16), धिदेधशयों धिषयक धिधि (िागू होिा और संशोिि) अधिधियम, 1962 (1962 का 42), 2 [ धिदेशी
-मुरा धिधियमि अधिधियम, 1973 (1973 का 46) ] तथा धिदेधशयों और धिदेशी मुरा संबंिी, अन्य अधिधियधमधतयों के उपबन्िों के
-अधतररत होंगे, ि कक उिके अल्पी करण में।
-24. धियम बिािे की शधत — (1) केन्री य सरकार इस अधिधियम के प्र योजिों को कायाटधन्ि त करिे के धिए धियम, शासकीय
-राजपत्र में अधिसूचिा द्व ारा, बिा सकेगी।
-(2) धिधशष् र् तया औ र पूिटगामी शधत की व् या पकता पर प्र धतकूि प्र भाि डािे धबिा, ऐसे धियम धिम्ि धिधित सभी धि षयों के
-धिए या उिमें से ककसी के धिए उपबन्ि कर सकेंगे, अथाटत्: —
-(क) पासपोर्ट प्र ाधिकाररयों की धियुधत, अधिकाररता, धियंत्रण और कृत् य;
-(ि) व् य धत यों के िे िगट धजन्हें क्र मश: िारा 4 की उपिारा (1) और उपिारा (2) में धिर्दटष् र् पासपोर्ट और
-यात्रा - दस्ता िेजें जारी की जा सकेंगी;
-(ग) पासपोर्ट या यात्रा - दस्ता िेज जारी करिे या ििीकृत करिे अथिा पासपोर्ट या यात्रा - दस्ता िेज पर पृष्ठां कि
-करिे के धिए आिेद ि का प्ररू प और धिधशधष् र् यां और जहां आिेदि ििीकरण के धिए हो िहां िह समय धजसके भीतर िह
-आिेदि ककया जाएगा;
-(घ) िह कािािधि धजसके धिए पासपोर्ट और यात्रा - दस्ता िजें प्र िृत्त बिी रहेंगी;
-( ङ ) िह प्ररू प धजसमें और िे शतें धजिके अध्य िीि धिधभन् ि िगों के पासपोर्ट और यात्रा - दस्ता िेजें जारी या ििीकृत
-की जा सकेंगी, या उिमें फेरफार ककया जा सकेगा;
-3 [ ( ङङ ) िारा 5 की उपिारा (1) के स् प ष् र् ी करण के प्र योजिों के धिए धिदेश धिधिर्दटष् र् करिा; ]
-(च) 4 [ िारा 5 की उपिारा (1) के अिीि पासपोर्ट जारी करिे या िारा 5 की उपिारा (1 क ) में धिर्दटष् र् धिदेश का
-पररदशटि करिे के धिए पासपोर्ट या यात्रा - दस्ता िेज जारी करिे या पासपोर्ट या यात्रा - दस्ता िेज पर ककए गए ककसी पृष्ठां कि
-में फेरफार करिे या उस पर िया पृष्ठां कि करिे के ककसी आिेदि की बाबत ] देय फीसें और इस अधिधियम के अिीि ककसी
-अपीि की बा बत देय फीसें;
-(छ) िारा 11 की उपिारा (1) के अिीि अपीि प्र ाधिकाररयों की धियुधत और ऐसे प्र ाधिकाररयों की अधिकाररता
-और िह प्र कक्रया धजसका उिके द्व ारा अिुसरण ककया जाए;
-(ज) िे सेिाएं (धजिके अन्त गटत ऐसे पासपोर्ट या यात्रा - दस्ता िेज के बदिे में, जो िो गई हैं, िधतग्रस्त हो गई हैं, या
-िष् र् हो गई हैं, पासपोर्ट या यात्रा - दस्ता िेज की दूसरी प्र धत का जारी ककया जािा भी है) जो पासपोर्ट या यात्रा - दस्ता िेज के
-संबंि में की जा सकेंगी और उिके धिए फीसें;
-(झ) कोई अन्य धिषय जो धिधहत ककया जािा है या धिधहत ककया जाए अथ िा धजसकी बाबत यह अधिधियम कोई
-उपबन्ि िहीं करता है या अपयाटप्त उपबन्ि करता है और ऐसे उपबन्ि का ककया जािा इस अधिधियम को उधचत रू प से
-कायाटधन्ि त करिे के धिए केन्री य सरकार की राय में आिश्य क हो।
-5 [(3) इस अधिधियम के अिीि बिाया गया प्रत् ये क धियम बिाए जा िे के पश्चा त् यथाशीघ्र संसद् के प्रत् ये क सदि के समि,
-जब िह सत्र में हो, तीस कदि की अिधि के धिए रिा जाएगा। यह अिधि एक सत्र में अथिा दो या अधिक आिुक्रधमक सत्रों में पूरी हो
-सकेगी। यकद उस सत्र के या पूिोत आिुक्रधमक सत्रों के ठीक बाद के सत्र के अिसा ि के पूिट दोिों सदि उस धियम में कोई पररितटि
-करिे के धिए सहमत हो जाएं तो तत्प श् चा त् िह ऐसे पररिर्तटत रू प में ही प्र भािी होगा। यकद उ त अिसाि के पूिट दोिों सदि सहमत
-हो जाएं कक िह धियम िहीं बिाया जािा चाधहए तो तत्प श् चा त् िह धिष् प्र भाि हो जाएगा। कक न् तु धियम के ऐसे पररिर्तटत या
-धिष् प्र भाि होिे से उसके अिीि पहिे की गई ककसी बात की धिधिमान्य ता पर प्र धतकूि प्र भाि िहीं पड़ेगा। ]
-1 1978 के अधिधियम सं ० 31 की िारा 5 द्व ारा (18 - 8 - 1978 से ) “ धिदेशी मुरा धिधियमि अधिधियम, 1947 (1947 का 7)” शब्द और अिरों का िोप ककया गया।
-2 1978 के अधिधियम सं ० 31 की िारा 5 द्व ारा (18 - 8 - 1978 से ) अन्त:स्था धपत।
-3 1978 के अधिधि यम सं ० 31 की िारा 6 द्व ारा (18 - 8 - 1978 से ) अन्त:स्था धपत।
-4 1993 के अधिधियम सं ० 35 की िारा 9 द्व ारा (1 - 7 - 1993 से ) कुछ शब्दों के स् था ि पर प्र धतस्था धपत।
-5 1978 के अधिधियम सं ० 31 की िारा 6 द्व ारा (18 - 8 - 1978 से ) उपिारा (3) के स् था ि पर प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 8
+  line `(1939 का 16), धिदेधशयों धिषयक अधिधिय म, 1946 (1946 का 31) 1 *** शत्रु से व् या पार (आपात उपबन्िों का चािू रहिा)`
+  line `अधिधियम, 1947 (1947 का 16), धिदेधशयों धिषयक धिधि (िागू होिा और संशोिि) अधिधियम, 1962 (1962 का 42), 2 [ धिदेशी`
+  line `मुरा धिधियमि अधिधियम, 1973 (1973 का 46) ] तथा धिदेधशयों और धिदेशी मुरा संबंिी, अन्य अधिधियधमधतयों के उपबन्िों के`
+  line `अधतररत होंगे, ि कक उिके अल्पी करण में।`
+  line `24. धियम बिािे की शधत — (1) केन्री य सरकार इस अधिधियम के प्र योजिों को कायाटधन्ि त करिे के धिए धियम, शासकीय`
+  line `राजपत्र में अधिसूचिा द्व ारा, बिा सकेगी।`
+  line `(2) धिधशष् र् तया औ र पूिटगामी शधत की व् या पकता पर प्र धतकूि प्र भाि डािे धबिा, ऐसे धियम धिम्ि धिधित सभी धि षयों के`
+  line `धिए या उिमें से ककसी के धिए उपबन्ि कर सकेंगे, अथाटत्: —`
+  line `(क) पासपोर्ट प्र ाधिकाररयों की धियुधत, अधिकाररता, धियंत्रण और कृत् य;`
+  line `(ि) व् य धत यों के िे िगट धजन्हें क्र मश: िारा 4 की उपिारा (1) और उपिारा (2) में धिर्दटष् र् पासपोर्ट और`
+  line `यात्रा - दस्ता िेजें जारी की जा सकेंगी;`
+  line `(ग) पासपोर्ट या यात्रा - दस्ता िेज जारी करिे या ििीकृत करिे अथिा पासपोर्ट या यात्रा - दस्ता िेज पर पृष्ठां कि`
+  line `करिे के धिए आिेद ि का प्ररू प और धिधशधष् र् यां और जहां आिेदि ििीकरण के धिए हो िहां िह समय धजसके भीतर िह`
+  line `आिेदि ककया जाएगा;`
+  line `(घ) िह कािािधि धजसके धिए पासपोर्ट और यात्रा - दस्ता िजें प्र िृत्त बिी रहेंगी;`
+  line `( ङ ) िह प्ररू प धजसमें और िे शतें धजिके अध्य िीि धिधभन् ि िगों के पासपोर्ट और यात्रा - दस्ता िेजें जारी या ििीकृत`
+  line `की जा सकेंगी, या उिमें फेरफार ककया जा सकेगा;`
+  line `3 [ ( ङङ ) िारा 5 की उपिारा (1) के स् प ष् र् ी करण के प्र योजिों के धिए धिदेश धिधिर्दटष् र् करिा; ]`
+  line `(च) 4 [ िारा 5 की उपिारा (1) के अिीि पासपोर्ट जारी करिे या िारा 5 की उपिारा (1 क ) में धिर्दटष् र् धिदेश का`
+  line `पररदशटि करिे के धिए पासपोर्ट या यात्रा - दस्ता िेज जारी करिे या पासपोर्ट या यात्रा - दस्ता िेज पर ककए गए ककसी पृष्ठां कि`
+  line `में फेरफार करिे या उस पर िया पृष्ठां कि करिे के ककसी आिेदि की बाबत ] देय फीसें और इस अधिधियम के अिीि ककसी`
+  line `अपीि की बा बत देय फीसें;`
+  line `(छ) िारा 11 की उपिारा (1) के अिीि अपीि प्र ाधिकाररयों की धियुधत और ऐसे प्र ाधिकाररयों की अधिकाररता`
+  line `और िह प्र कक्रया धजसका उिके द्व ारा अिुसरण ककया जाए;`
+  line `(ज) िे सेिाएं (धजिके अन्त गटत ऐसे पासपोर्ट या यात्रा - दस्ता िेज के बदिे में, जो िो गई हैं, िधतग्रस्त हो गई हैं, या`
+  line `िष् र् हो गई हैं, पासपोर्ट या यात्रा - दस्ता िेज की दूसरी प्र धत का जारी ककया जािा भी है) जो पासपोर्ट या यात्रा - दस्ता िेज के`
+  line `संबंि में की जा सकेंगी और उिके धिए फीसें;`
+  line `(झ) कोई अन्य धिषय जो धिधहत ककया जािा है या धिधहत ककया जाए अथ िा धजसकी बाबत यह अधिधियम कोई`
+  line `उपबन्ि िहीं करता है या अपयाटप्त उपबन्ि करता है और ऐसे उपबन्ि का ककया जािा इस अधिधियम को उधचत रू प से`
+  line `कायाटधन्ि त करिे के धिए केन्री य सरकार की राय में आिश्य क हो।`
+  line `5 [(3) इस अधिधियम के अिीि बिाया गया प्रत् ये क धियम बिाए जा िे के पश्चा त् यथाशीघ्र संसद् के प्रत् ये क सदि के समि,`
+  line `जब िह सत्र में हो, तीस कदि की अिधि के धिए रिा जाएगा। यह अिधि एक सत्र में अथिा दो या अधिक आिुक्रधमक सत्रों में पूरी हो`
+  line `सकेगी। यकद उस सत्र के या पूिोत आिुक्रधमक सत्रों के ठीक बाद के सत्र के अिसा ि के पूिट दोिों सदि उस धियम में कोई पररितटि`
+  line `करिे के धिए सहमत हो जाएं तो तत्प श् चा त् िह ऐसे पररिर्तटत रू प में ही प्र भािी होगा। यकद उ त अिसाि के पूिट दोिों सदि सहमत`
+  line `हो जाएं कक िह धियम िहीं बिाया जािा चाधहए तो तत्प श् चा त् िह धिष् प्र भाि हो जाएगा। कक न् तु धियम के ऐसे पररिर्तटत या`
+  line `धिष् प्र भाि होिे से उसके अिीि पहिे की गई ककसी बात की धिधिमान्य ता पर प्र धतकूि प्र भाि िहीं पड़ेगा। ]`
+  line `1 1978 के अधिधियम सं ० 31 की िारा 5 द्व ारा (18 - 8 - 1978 से ) “ धिदेशी मुरा धिधियमि अधिधियम, 1947 (1947 का 7)” शब्द और अिरों का िोप ककया गया।`
+  line `2 1978 के अधिधियम सं ० 31 की िारा 5 द्व ारा (18 - 8 - 1978 से ) अन्त:स्था धपत।`
+  line `3 1978 के अधिधि यम सं ० 31 की िारा 6 द्व ारा (18 - 8 - 1978 से ) अन्त:स्था धपत।`
+  line `4 1993 के अधिधियम सं ० 35 की िारा 9 द्व ारा (1 - 7 - 1993 से ) कुछ शब्दों के स् था ि पर प्र धतस्था धपत।`
+  line `5 1978 के अधिधियम सं ० 31 की िारा 6 द्व ारा (18 - 8 - 1978 से ) उपिारा (3) के स् था ि पर प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `9
-25. 1920 के अधिधियम 34 के संधिप्त िाम का पररितटि — भारतीय पासपोर्ट अधिधियम, 1920 में िारा 1 की उपिारा (1)
-में “ भारतीय पा सपोर्ट अधिधियम, 1920” शब्दों और अंकों के स् था ि पर “ पासपोर्ट (भारत में प्र िेश) अधिधियम 1920” शब्द, कोष्ठ क
-और अंक प्र धतस्था धपत ककए जाएंगे।
-1 * * * * *
-27. धिरसि और व् या िृधत्त — (1) पासपोर्ट अध्या देश, 1967 (1967 का 4) एतद् द्व ारा धिरधसत ककया जाता है।
-(2) ऐसे धिरसि के होते हु ए भी यह है कक उ त अध्या देश के अिीि की गई या की गई तात्प र् यटत कोई बात या कारटिाई इस
-अधिधियम के अिीि उसी प्र कार की गई समझी जाएगी मािो यह अधिधियम मई, 1967 के पांचिें कदि प्र ारम्भ हो गया था।
-______
-1 1993 के अधिधियम सं ० 35 की िारा 8 द्व ारा (1 - 7 - 1993 से ) िारा 26 का िोप ककया गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 9
+  line `25. 1920 के अधिधियम 34 के संधिप्त िाम का पररितटि — भारतीय पासपोर्ट अधिधियम, 1920 में िारा 1 की उपिारा (1)`
+  line `में “ भारतीय पा सपोर्ट अधिधियम, 1920” शब्दों और अंकों के स् था ि पर “ पासपोर्ट (भारत में प्र िेश) अधिधियम 1920” शब्द, कोष्ठ क`
+  line `और अंक प्र धतस्था धपत ककए जाएंगे।`
+  line `1 * * * * *`
+  line `27. धिरसि और व् या िृधत्त — (1) पासपोर्ट अध्या देश, 1967 (1967 का 4) एतद् द्व ारा धिरधसत ककया जाता है।`
+  line `(2) ऐसे धिरसि के होते हु ए भी यह है कक उ त अध्या देश के अिीि की गई या की गई तात्प र् यटत कोई बात या कारटिाई इस`
+  line `अधिधियम के अिीि उसी प्र कार की गई समझी जाएगी मािो यह अधिधियम मई, 1967 के पांचिें कदि प्र ारम्भ हो गया था।`
+  line ______
+  line `1 1993 के अधिधियम सं ० 35 की िारा 8 द्व ारा (1 - 7 - 1993 से ) िारा 26 का िोप ककया गया।`
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line

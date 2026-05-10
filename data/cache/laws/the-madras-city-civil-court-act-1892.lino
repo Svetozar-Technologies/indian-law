@@ -1,59 +1,53 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T10:33:12.541Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2323`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-09T10:33:12.541Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2323`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-madras-city-civil-court-act-1892)
-  (str handle) (str 2323)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Madras City Civil Court Act, 1892`)
-  (str actNumber) (str 07)
-  (str enactmentDate) (str 1892-08-12)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2323`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1892)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Department of Justice`)
-  (str longTitle) (str `An Act to establish an additional Civil Court for the City of Madras`)
-  (str enforcementDate) (str 12-08-1892)
-  (str notification) (undefined)
+  slug the-madras-city-civil-court-act-1892
+  handle (2323)
+  collectionHandle 123456789/1362
+  title `The Madras City Civil Court Act, 1892`
+  actNumber (07)
+  enactmentDate 1892-08-12
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2323`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1892)
+  ministry `Ministry of Law and Justice`
+  department `Department of Justice`
+  longTitle `An Act to establish an additional Civil Court for the City of Madras`
+  enforcementDate 12-08-1892
+  notification undefined
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_madras_city_civil_court_act_1892
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2323`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2323`
 obj_root_law_sources_en_the_madras_city_civil_court_act_1892:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2323/1/A1892-7.pdf`)
-  (str title) (str `The Madras City Civil Court Act, 1892`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2323/1/A1892-7.pdf`
+  title `The Madras City Civil Court Act, 1892`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00029_189207_1523337170643/notificationindividualfile/&file=Vesting+with+the+Chennai+City+Civil+Court+to+receive%2C+try+and+dispose+of+all+suits+and+other+proceeding+of+civil+nature+within+the+city+of+chennai+upto+10+lakhs.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00029_189207_1523337170643/notificationindividualfile/&file=Vesting+with+the+Chennai+City+Civil+Court+to+receive%2C+try+and+dispose+of+all+suits+and+other+proceeding+of+civil+nature+within+the+city+of+chennai+upto+10+lakhs.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -73,272 +67,362 @@ obj_root_law_sections:
   obj_root_law_sections_17
   obj_root_law_sections_18
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 42415)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Title and commencement.`)
-  (str content) (str `(1) This Act may be called the Madras City Civil Court Act, 1892;
-^1
-***
-
-^2
-* * * * *`)
-  (str footnotes) (str `1. The word "and" omitted by Act 17 of 1914, s. 3 and the Second Schedule (w.e.f. 16-9-1914).
-
-2. Sub-section (2) omitted by s. 3 and the Second Schedule, ibid. (w.e.f. 16-9-1914).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42415&sectionno=1&orderno=1&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42415)
+  sectionNo (1)
+  orderNo 1
+  title `Title and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42415&sectionno=1&orderno=1&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Madras City Civil Court Act, 1892;`
+  line ^1
+  line ***
+  line
+  line ^2
+  line `* * * * *`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. The word "and" omitted by Act 17 of 1914, s. 3 and the Second Schedule (w.e.f. 16-9-1914).`
+  line
+  line `2. Sub-section (2) omitted by s. 3 and the Second Schedule, ibid. (w.e.f. 16-9-1914).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 42416)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless there is something repugnant in the subject or context,—
-
-(1) "City Court" means the Court established under the next following section;
-
-(2) "City of Madras" means the area within the local limits for the time being of the ordinary
-original civil jurisdiction of the High Court;
-
-(3) "High Court" means the High Court of Judicature at Madras; and
-
-(4) "Small Cause Court" means the Court of Small Causes of Madras.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42416&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42416)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42416&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless there is something repugnant in the subject or context,—`
+  line
+  line `(1) "City Court" means the Court established under the next following section;`
+  line
+  line `(2) "City of Madras" means the area within the local limits for the time being of the ordinary`
+  line `original civil jurisdiction of the High Court;`
+  line
+  line `(3) "High Court" means the High Court of Judicature at Madras; and`
+  line
+  line `(4) "Small Cause Court" means the Court of Small Causes of Madras.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 42417)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Constitution of the City Court.`)
-  (str content) (str `The Local Government may, by notification in the official
-Gazette, establish a Court, to be called the Madras City Civil Court, with jurisdiction to receive, try and
-dispose of all suits and other proceedings of a civil nature not exceeding two thousand five hundred
-rupees in value and arising within the City of Madras, except suits or proceedings which are cognizable—
-
-(a) by the High Court as a Court of Admiralty or Vice-Admiralty or as a Colonial Court of
-Admiralty, or as a Court having testamentary, intestate or matrimonial jurisdiction, or
-
-(b) by the Court for the relief of inso0lvent debtors, or
-
-(c) by the Small Cause Court.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42417&sectionno=3&orderno=3&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42417)
+  sectionNo (3)
+  orderNo 3
+  title `Constitution of the City Court.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42417&sectionno=3&orderno=3&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_3_content:
+  string
+  line `The Local Government may, by notification in the official`
+  line `Gazette, establish a Court, to be called the Madras City Civil Court, with jurisdiction to receive, try and`
+  line `dispose of all suits and other proceedings of a civil nature not exceeding two thousand five hundred`
+  line `rupees in value and arising within the City of Madras, except suits or proceedings which are cognizable—`
+  line
+  line `(a) by the High Court as a Court of Admiralty or Vice-Admiralty or as a Colonial Court of`
+  line `Admiralty, or as a Court having testamentary, intestate or matrimonial jurisdiction, or`
+  line
+  line `(b) by the Court for the relief of inso0lvent debtors, or`
+  line
+  line `(c) by the Small Cause Court.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 42418)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Appointment, suspension and removal of Judges.`)
-  (str content) (str `The Local Government may, by notification
-in the official Gazette, appoint so many persons as it may think fit to be Judges of the City Court; and
-may, for any misconduct by a like notification, suspend or remove any Judge so appointed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42418&sectionno=4&orderno=4&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42418)
+  sectionNo (4)
+  orderNo 4
+  title `Appointment, suspension and removal of Judges.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42418&sectionno=4&orderno=4&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_4_content:
+  string
+  line `The Local Government may, by notification`
+  line `in the official Gazette, appoint so many persons as it may think fit to be Judges of the City Court; and`
+  line `may, for any misconduct by a like notification, suspend or remove any Judge so appointed.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 42419)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Judge of City Court to be Judge of Small Clause Court.`)
-  (str content) (str `(1) Every person appointed a Judge
-of the City Court shall be, by virtue of his office, a Judge of the Small Cause Court with respect to cases
-cognizable by that Court.
-
-(2) Every such Judge shall be liable to perform any duties of a Judge of the Small Cause Court which
-the Chief Justice of the High Court may require him to perform.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42419&sectionno=5&orderno=5&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42419)
+  sectionNo (5)
+  orderNo 5
+  title `Judge of City Court to be Judge of Small Clause Court.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42419&sectionno=5&orderno=5&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_5_content:
+  string
+  line `(1) Every person appointed a Judge`
+  line `of the City Court shall be, by virtue of his office, a Judge of the Small Cause Court with respect to cases`
+  line `cognizable by that Court.`
+  line
+  line `(2) Every such Judge shall be liable to perform any duties of a Judge of the Small Cause Court which`
+  line `the Chief Justice of the High Court may require him to perform.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 42420)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Powers of Judges when City Court consists of more than one Judge.`)
-  (str content) (str `When the City Court
-consists of more than one Judge,—
-
-(a) each of the Judges may exercise all or any of the powers conferred on the Court by this Act or
-any other law for the time being in force;
-
-(b) the Local Government may appoint any one of the Judges to be the principal Judge; and
-
-(c) the principal Judge may, from time to time, make such arrangements as he may think fit for
-the distribution of the business of the Court among the various Judges thereof.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42420&sectionno=6&orderno=6&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42420)
+  sectionNo (6)
+  orderNo 6
+  title `Powers of Judges when City Court consists of more than one Judge.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42420&sectionno=6&orderno=6&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_6_content:
+  string
+  line `When the City Court`
+  line `consists of more than one Judge,—`
+  line
+  line `(a) each of the Judges may exercise all or any of the powers conferred on the Court by this Act or`
+  line `any other law for the time being in force;`
+  line
+  line `(b) the Local Government may appoint any one of the Judges to be the principal Judge; and`
+  line
+  line `(c) the principal Judge may, from time to time, make such arrangements as he may think fit for`
+  line `the distribution of the business of the Court among the various Judges thereof.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 42421)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Appointment, powers, duties and punishment of ministerial officers.`)
-  (str content) (str `(1) The Judge of the
-City Court, or, when the Court consists of more than on Judge, the principal Judge, may from time to
-time, with the sanction of the Local Government, appoint as many clerks, bailiffs and other ministerial
-officers as may be necessary for the administration of justice by the Court and for the exercise and
-performance of the powers and duties conferred and imposed on it by this Act or any other law for the
-time being in force.
-
-(2) The officers so appointed shall exercise such powers and discharge such duties of a ministerial
-nature as the said Judge or principal Judge may from time to time direct.
-
-(3) The said Judge or principal Judge may, subject to the control of the High Court,—
-
-(a) suspend or remove any officer so appointed, or
-
-(b) fine any such officer who is guilty of misconduct or neglect in the performance of the duties
-of his office.
-
-(4) Any fine imposed on an officer under sub-section (3) may be deducted from his salary.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42421&sectionno=7&orderno=7&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42421)
+  sectionNo (7)
+  orderNo 7
+  title `Appointment, powers, duties and punishment of ministerial officers.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42421&sectionno=7&orderno=7&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_7_content:
+  string
+  line `(1) The Judge of the`
+  line `City Court, or, when the Court consists of more than on Judge, the principal Judge, may from time to`
+  line `time, with the sanction of the Local Government, appoint as many clerks, bailiffs and other ministerial`
+  line `officers as may be necessary for the administration of justice by the Court and for the exercise and`
+  line `performance of the powers and duties conferred and imposed on it by this Act or any other law for the`
+  line `time being in force.`
+  line
+  line `(2) The officers so appointed shall exercise such powers and discharge such duties of a ministerial`
+  line `nature as the said Judge or principal Judge may from time to time direct.`
+  line
+  line `(3) The said Judge or principal Judge may, subject to the control of the High Court,—`
+  line
+  line `(a) suspend or remove any officer so appointed, or`
+  line
+  line `(b) fine any such officer who is guilty of misconduct or neglect in the performance of the duties`
+  line `of his office.`
+  line
+  line `(4) Any fine imposed on an officer under sub-section (3) may be deducted from his salary.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 42433)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Questions arising in suits, etc., under Act to be dealt with according to law administered by High Court.`)
-  (str content) (str `All questions which arise in suits or other proceedings under this Act in the City Court
-shall be dealt with and determined according to the law for the time being administered by the High Court
-in the exercise of its ordinary original civil jurisdiction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42433&sectionno=8&orderno=8&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42433)
+  sectionNo (8)
+  orderNo 8
+  title `Questions arising in suits, etc., under Act to be dealt with according to law administered by High Court.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42433&sectionno=8&orderno=8&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_8_content:
+  string
+  line `All questions which arise in suits or other proceedings under this Act in the City Court`
+  line `shall be dealt with and determined according to the law for the time being administered by the High Court`
+  line `in the exercise of its ordinary original civil jurisdiction.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 42423)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Valuation of immoveable property for jurisdictional purposes.`)
-  (str content) (str `When the subject-matter of
-any suit or other proceeding is land or a house or a garden, its value for the purposes of the jurisdiction
-conferred on the City Court by this Act shall, subject to the other provisions of this Act, be fixed in
-manner provided by the Court-fees Act, 1870 (7 of 1870), section 7, clause v.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42423&sectionno=9&orderno=9&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42423)
+  sectionNo (9)
+  orderNo 9
+  title `Valuation of immoveable property for jurisdictional purposes.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42423&sectionno=9&orderno=9&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_9_content:
+  string
+  line `When the subject-matter of`
+  line `any suit or other proceeding is land or a house or a garden, its value for the purposes of the jurisdiction`
+  line `conferred on the City Court by this Act shall, subject to the other provisions of this Act, be fixed in`
+  line `manner provided by the Court-fees Act, 1870 (7 of 1870), section 7, clause v.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 42424)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str Process-fees.)
-  (str content) (str `Fees chargeable for serving or executing processes issued by the City Court, or
-served or executed under its direction or control, shall be such as the High Court may prescribe with the
-approval of the Governor of Fort St. George in Council ^1
-***.`)
-  (str footnotes) (str `1. The words "and the sanction of the Governor General in Council" omitted by Act 4 of 1914, s. 2 and the Schedule, Part I,
-(w.e.f. 24-2-1914).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42424&sectionno=10&orderno=10&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42424)
+  sectionNo (10)
+  orderNo 10
+  title Process-fees.
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42424&sectionno=10&orderno=10&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_10_content:
+  string
+  line `Fees chargeable for serving or executing processes issued by the City Court, or`
+  line `served or executed under its direction or control, shall be such as the High Court may prescribe with the`
+  line `approval of the Governor of Fort St. George in Council ^1`
+  line ***.
+obj_root_law_sections_10_footnotes:
+  string
+  line `1. The words "and the sanction of the Governor General in Council" omitted by Act 4 of 1914, s. 2 and the Schedule, Part I,`
+  line `(w.e.f. 24-2-1914).`
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 42425)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Appointment of Receivers.`)
-  (str content) (str `The powers conferred by Chapter XXXVI of the Code of Civil
-Procedure (14 of 1882), on High Courts and District Courts as to the appointment of Receivers may be
-exercised by the City Court or any Judge thereof.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42425&sectionno=11&orderno=11&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42425)
+  sectionNo (11)
+  orderNo 11
+  title `Appointment of Receivers.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42425&sectionno=11&orderno=11&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_11_content:
+  string
+  line `The powers conferred by Chapter XXXVI of the Code of Civil`
+  line `Procedure (14 of 1882), on High Courts and District Courts as to the appointment of Receivers may be`
+  line `exercised by the City Court or any Judge thereof.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 42426)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str [Repealed.].)
-  (str content) (str `[Amendment of Act 15 of 1882, section 31].—Rep. by the Repealing Act, 1938 (1 of 1938), s. 2
-and the Schedule (w.e.f. 26-2-1938).^`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42426&sectionno=12&orderno=12&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42426)
+  sectionNo (12)
+  orderNo 12
+  title [Repealed.].
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42426&sectionno=12&orderno=12&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_12_content:
+  string
+  line `[Amendment of Act 15 of 1882, section 31].—Rep. by the Repealing Act, 1938 (1 of 1938), s. 2`
+  line `and the Schedule (w.e.f. 26-2-1938).^`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 42427)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Repayment of half fees on settlement before hearing.`)
-  (str content) (str `Whenever any suit or proceeding in the
-City Court is settled by agreement of the parties before issues have been settled or any evidence recorded,
-half the amount of the institution fees paid by the plaintiff shall be repaid to him by the Court.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42427&sectionno=13&orderno=13&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42427)
+  sectionNo (13)
+  orderNo 13
+  title `Repayment of half fees on settlement before hearing.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42427&sectionno=13&orderno=13&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_13_content:
+  string
+  line `Whenever any suit or proceeding in the`
+  line `City Court is settled by agreement of the parties before issues have been settled or any evidence recorded,`
+  line `half the amount of the institution fees paid by the plaintiff shall be repaid to him by the Court.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 42428)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Allowance for fees paid in City Court in cases removed to High Court.`)
-  (str content) (str `When, under
-section 13 of the letters Patent for the High Court, dated the twenty-eight day of December, 1865, or
-under section 25 of the Code of Civil Procedure (14 of 1882), the High Court has removed for trial by
-itself any suit from the City Court, fees on the scale for the time being in force in the High Court as a
-Court of ordinary original civil jurisdiction shall be payable in that Court in respect of the suit and
-proceedings therein:
-
-Provided that, in the levy of any such fees which, according to the practice of the Court, are credited
-to the Government, credit shall be given to the plaintiff in the suit for any fee which in the City Court he
-has already paid under the Court-fees Act, 1870, on the plaint.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42428&sectionno=14&orderno=14&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42428)
+  sectionNo (14)
+  orderNo 14
+  title `Allowance for fees paid in City Court in cases removed to High Court.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42428&sectionno=14&orderno=14&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_14_content:
+  string
+  line `When, under`
+  line `section 13 of the letters Patent for the High Court, dated the twenty-eight day of December, 1865, or`
+  line `under section 25 of the Code of Civil Procedure (14 of 1882), the High Court has removed for trial by`
+  line `itself any suit from the City Court, fees on the scale for the time being in force in the High Court as a`
+  line `Court of ordinary original civil jurisdiction shall be payable in that Court in respect of the suit and`
+  line `proceedings therein:`
+  line
+  line `Provided that, in the levy of any such fees which, according to the practice of the Court, are credited`
+  line `to the Government, credit shall be given to the plaintiff in the suit for any fee which in the City Court he`
+  line `has already paid under the Court-fees Act, 1870, on the plaint.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 42429)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str Appeals.)
-  (str content) (str `(1) The Court authorized to hear appeals from the City Court shall be the High Court.
-
-(2) The period of limitation for an appeal from a decree or order of the City Court shall be the same as
-that provided by law for an appeal from a decree or order of the High Court in the exercise of its original
-jurisdiction.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42429&sectionno=15&orderno=15&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42429)
+  sectionNo (15)
+  orderNo 15
+  title Appeals.
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42429&sectionno=15&orderno=15&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_15_content:
+  string
+  line `(1) The Court authorized to hear appeals from the City Court shall be the High Court.`
+  line
+  line `(2) The period of limitation for an appeal from a decree or order of the City Court shall be the same as`
+  line `that provided by law for an appeal from a decree or order of the High Court in the exercise of its original`
+  line jurisdiction.
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 42430)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Saving of original civil jurisdiction of High Court.`)
-  (str content) (str `Nothing in this Act contained shall affect
-the original civil jurisdiction of the High Court:
-
-Provided that—
-
-(1) if any suit or other proceeding is instituted in the High Court which, in the opinion of the
-Judge who tries the same (whose opinion shall be final), ought to have been instituted in the City
-Court, no costs shall be allowed to a successful plaintiff, and a successful defendant shall be allowed
-his costs as between attorney and client;
-
-(2) in any suit or other proceeding pending at any time in the High Court, and Judge of such
-Court may at any stage thereof make an order transferring the same to the City Court if in his opinion
-such suit or proceeding is within the jurisdiction of that Court and should be tried therein;
-
-(3) in any suit or other proceeding so transferred, the Court-fees Act, 1870 (7 of 1870), shall
-apply, credit being given for any fees levied in the High Court.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42430&sectionno=16&orderno=16&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42430)
+  sectionNo (16)
+  orderNo 16
+  title `Saving of original civil jurisdiction of High Court.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42430&sectionno=16&orderno=16&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_16_content:
+  string
+  line `Nothing in this Act contained shall affect`
+  line `the original civil jurisdiction of the High Court:`
+  line
+  line `Provided that—`
+  line
+  line `(1) if any suit or other proceeding is instituted in the High Court which, in the opinion of the`
+  line `Judge who tries the same (whose opinion shall be final), ought to have been instituted in the City`
+  line `Court, no costs shall be allowed to a successful plaintiff, and a successful defendant shall be allowed`
+  line `his costs as between attorney and client;`
+  line
+  line `(2) in any suit or other proceeding pending at any time in the High Court, and Judge of such`
+  line `Court may at any stage thereof make an order transferring the same to the City Court if in his opinion`
+  line `such suit or proceeding is within the jurisdiction of that Court and should be tried therein;`
+  line
+  line `(3) in any suit or other proceeding so transferred, the Court-fees Act, 1870 (7 of 1870), shall`
+  line `apply, credit being given for any fees levied in the High Court.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 42431)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Seal to be used.`)
-  (str content) (str `The City Court shall use a seal of such form and dimensions as may be for the
-time being prescribed by the local Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42431&sectionno=17&orderno=17&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42431)
+  sectionNo (17)
+  orderNo 17
+  title `Seal to be used.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42431&sectionno=17&orderno=17&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_17_content:
+  string
+  line `The City Court shall use a seal of such form and dimensions as may be for the`
+  line `time being prescribed by the local Government.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 42432)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Holidays and vacations.`)
-  (str content) (str `(1) The Judge of the City Court, or, when the Court consists of more
-than one Judge, the principal Judge, shall, at the commencement of each year, draw up a list of holidays
-and vacations to be observed in the Court, and shall submit the same for the approval of the Local
-Government.
-
-(2) Such list, when it has received such approval, shall be published in the official Gazette, and the
-said holidays and vacations shall be observed accordingly.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42432&sectionno=18&orderno=18&orgactid=AC_CEN_3_3_00029_189207_1523337170643)
+  sectionId (42432)
+  sectionNo (18)
+  orderNo 18
+  title `Holidays and vacations.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00029_189207_1523337170643&sectionId=42432&sectionno=18&orderno=18&orgactid=AC_CEN_3_3_00029_189207_1523337170643
+obj_root_law_sections_18_content:
+  string
+  line `(1) The Judge of the City Court, or, when the Court consists of more`
+  line `than one Judge, the principal Judge, shall, at the commencement of each year, draw up a list of holidays`
+  line `and vacations to be observed in the Court, and shall submit the same for the approval of the Local`
+  line Government.
+  line
+  line `(2) Such list, when it has received such approval, shall be published in the official Gazette, and the`
+  line `said holidays and vacations shall be observed accordingly.`
+obj_root_law_sections_18_footnotes:
+  string
+  line

@@ -1,70 +1,62 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:48:05.954Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1633`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 24)
-  (str totalSections) (int 24)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:48:05.954Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1633`
+  completeFetch true
+  maxSections null
+  sectionCount 24
+  totalSections 24
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-seamens-provident-fund-act-1966)
-  (str handle) (str 1633)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Seamens Provident Fund Act, 1966`)
-  (str actNumber) (str 04)
-  (str enactmentDate) (str 1966-03-26)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1633`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `नाविक भविष्‍य-निधि अधिनियम,1966`)
-  (str actYear) (str 1966)
-  (str ministry) (str `Ministry of Shipping`)
-  (str longTitle) (str `An Act to provide for the institution of a provident fund for seamen.`)
-  (str enforcementDate) (str 26-03-1966)
-  (str fetchedAt) (str `2026-05-08T21:54:14.614Z`)
-  (str translations) obj_root_law_translations
+  slug the-seamens-provident-fund-act-1966
+  handle (1633)
+  collectionHandle 123456789/1362
+  title `The Seamens Provident Fund Act, 1966`
+  actNumber (04)
+  enactmentDate 1966-03-26
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1633`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `नाविक भविष्‍य-निधि अधिनियम,1966`
+  actYear (1966)
+  ministry `Ministry of Shipping`
+  longTitle `An Act to provide for the institution of a provident fund for seamen.`
+  enforcementDate 26-03-1966
+  fetchedAt `2026-05-08T21:54:14.614Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_seamens_provident_fund_act_1966
   obj_root_law_sources_en_3
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1633`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1633`
 obj_root_law_sources_en_the_seamens_provident_fund_act_1966:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1633/1/196604.pdf`)
-  (str title) (str `The Seamens Provident Fund Act, 1966`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1633/1/196604.pdf`
+  title `The Seamens Provident Fund Act, 1966`
 obj_root_law_sources_en_3:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00013_196604_1517807320985/rulesindividualfile/&file=SPFO+-+Scheme.pdf`)
-  (str title) (str )
+  kind pdf
+  url `https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00013_196604_1517807320985/rulesindividualfile/&file=SPFO+-+Scheme.pdf`
+  title obj_root_law_sources_en_3_title
+obj_root_law_sources_en_3_title:
+  string
+  line
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1966
 obj_root_law_sources_hi_1966:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1633/3/H1966-4.pdf`)
-  (str title) (str `नाविक भविष्‍य-निधि अधिनियम,1966`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1633/3/H1966-4.pdf`
+  title `नाविक भविष्‍य-निधि अधिनियम,1966`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -90,592 +82,697 @@ obj_root_law_sections:
   obj_root_law_sections_23
   obj_root_law_sections_24
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 12336)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and application.`)
-  (str content) (str `(1) This Act may be called the Seamen's Provident Fund Act, 1966.
-
-(2) Unless otherwise expressly provided, the provisions of this Act shall apply to every seaman and to
-the employer of such seaman.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12336&sectionno=1&orderno=1&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12336)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and application.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12336&sectionno=1&orderno=1&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Seamen's Provident Fund Act, 1966.`
+  line
+  line `(2) Unless otherwise expressly provided, the provisions of this Act shall apply to every seaman and to`
+  line `the employer of such seaman.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 12337)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "agreement with the crew" means the agreement referred to in section 100 or, as the case may
-be, section 114 of the Merchant Shipping Act;
-
-(b) "Board" means the Board of Trustees of the Seamen's Provident Fund constituted under
-section 5;
-
-(c) "continuous discharge certificate" means the certificate referred to in section 99 of the
-Merchant Shipping Act;
-
-(d) "contribution" means a contribution payable in respect of a member under the Scheme;
-
-(e) "employer", in relation to a seaman, means the owner of the ship on which the seaman is
-employed or engaged, or the agent of such owner or the master of the ship;
-
-(f) "Fund" means the Seamen's Provident Fund established under the Scheme;
-
-(g) "Government" means the Central Government;
-
-(h) "master" and "ship" have the meanings respectively assigned to them in the Merchant
-Shipping Act;
-
-(i) "member" means a seaman who is in possession of a continuous discharge certificate and who
-is admitted as a member of the Fund;
-
-(j) "Merchant Shipping Act" means the Merchant Shipping Act, 1958 (44 of 1958);
-
-(k) "Scheme" means the Seamens Provident Fund Scheme framed under sub-section (1) of
-section 3;
-
-(l) "seaman" means a person employed or engaged as a member of the crew of a ship under the
-Merchant Shipping Act but does not include ^1
-[a welfare officer, nurse, musician, pilot or deck
-barber];
-
-(m) "service" means the period of employment of a seaman under the agreement with the crew
-and includes any period in respect of which wages are paid or are payable to him;
-
-(n) "wages" means the basic wages for the time being payable to a seaman under the agreement
-with the crew and includes--
-
-(i) any remuneration to which he is entitled in respect of holidays or any leave period;
-
-(ii) any increase of such wages in accordance with such agreement or any other agreement
-between the parties;
-
-but does not include the overtime allowance.`)
-  (str footnotes) (str `1 Subs. by Act 29 of 1997, s. 2, for certain words (w.e.f. 12-11-1998).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12337&sectionno=2&orderno=2&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12337)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes `1 Subs. by Act 29 of 1997, s. 2, for certain words (w.e.f. 12-11-1998).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12337&sectionno=2&orderno=2&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "agreement with the crew" means the agreement referred to in section 100 or, as the case may`
+  line `be, section 114 of the Merchant Shipping Act;`
+  line
+  line `(b) "Board" means the Board of Trustees of the Seamen's Provident Fund constituted under`
+  line `section 5;`
+  line
+  line `(c) "continuous discharge certificate" means the certificate referred to in section 99 of the`
+  line `Merchant Shipping Act;`
+  line
+  line `(d) "contribution" means a contribution payable in respect of a member under the Scheme;`
+  line
+  line `(e) "employer", in relation to a seaman, means the owner of the ship on which the seaman is`
+  line `employed or engaged, or the agent of such owner or the master of the ship;`
+  line
+  line `(f) "Fund" means the Seamen's Provident Fund established under the Scheme;`
+  line
+  line `(g) "Government" means the Central Government;`
+  line
+  line `(h) "master" and "ship" have the meanings respectively assigned to them in the Merchant`
+  line `Shipping Act;`
+  line
+  line `(i) "member" means a seaman who is in possession of a continuous discharge certificate and who`
+  line `is admitted as a member of the Fund;`
+  line
+  line `(j) "Merchant Shipping Act" means the Merchant Shipping Act, 1958 (44 of 1958);`
+  line
+  line `(k) "Scheme" means the Seamens Provident Fund Scheme framed under sub-section (1) of`
+  line `section 3;`
+  line
+  line `(l) "seaman" means a person employed or engaged as a member of the crew of a ship under the`
+  line `Merchant Shipping Act but does not include ^1`
+  line `[a welfare officer, nurse, musician, pilot or deck`
+  line barber];
+  line
+  line `(m) "service" means the period of employment of a seaman under the agreement with the crew`
+  line `and includes any period in respect of which wages are paid or are payable to him;`
+  line
+  line `(n) "wages" means the basic wages for the time being payable to a seaman under the agreement`
+  line `with the crew and includes--`
+  line
+  line `(i) any remuneration to which he is entitled in respect of holidays or any leave period;`
+  line
+  line `(ii) any increase of such wages in accordance with such agreement or any other agreement`
+  line `between the parties;`
+  line
+  line `but does not include the overtime allowance.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 12338)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Seamen's Provident Fund Scheme.`)
-  (str content) (str `(1) The Government may, by notification in the
-Official Gazette, frame a scheme to be called the Seamen's Provident Fund Scheme for the establishment
-of a provident fund for seamen and there shall be established, as soon as may be after the framing of the
-Scheme, a Fund in accordance with the provisions of this Act and the Scheme.
-
-(2) Subject to the provisions of this Act, the Scheme may provide for all or any of the matters
-specified in the Schedule to this Act.
-
-(3) The Scheme may provide that any of its provisions shall take effect either prospectively or
-retrospectively on such date as may be specified in this behalf in the Scheme.
-
-(4) The Scheme shall have effect notwithstanding anything contained in any law for the time being in
-force other than this Act or in any instrument having effect by virtue of any law other than this Act.
-
-(5) The Government may, by notification in the Official Gazette, add to, amend, vary or rescind the
-Scheme.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12338&sectionno=3&orderno=3&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12338)
+  sectionNo (3)
+  orderNo 3
+  title `Seamen's Provident Fund Scheme.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12338&sectionno=3&orderno=3&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Government may, by notification in the`
+  line `Official Gazette, frame a scheme to be called the Seamen's Provident Fund Scheme for the establishment`
+  line `of a provident fund for seamen and there shall be established, as soon as may be after the framing of the`
+  line `Scheme, a Fund in accordance with the provisions of this Act and the Scheme.`
+  line
+  line `(2) Subject to the provisions of this Act, the Scheme may provide for all or any of the matters`
+  line `specified in the Schedule to this Act.`
+  line
+  line `(3) The Scheme may provide that any of its provisions shall take effect either prospectively or`
+  line `retrospectively on such date as may be specified in this behalf in the Scheme.`
+  line
+  line `(4) The Scheme shall have effect notwithstanding anything contained in any law for the time being in`
+  line `force other than this Act or in any instrument having effect by virtue of any law other than this Act.`
+  line
+  line `(5) The Government may, by notification in the Official Gazette, add to, amend, vary or rescind the`
+  line Scheme.
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 12339)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Vesting of Fund, etc.`)
-  (str content) (str `(1) The Fund referred to in sub-section (1) of section 3 shall vest in, and be
-administered by, the Board constituted under section 5.
-
-(2) The moneys in the Fund shall be applied for--
-
-(a) meeting the pay and allowances of the employees of the Board and other administrative
-expenses of the Board;
-
-(b) carrying out the purposes of this Act.
-
-(3) All moneys in the Fund shall be deposited in ^1
-[an approved bank] or be invested in such securities
-as may be approved by the Government.
-
-^2
-[Explanation. --In this section, "approved bank" means the State Bank of India constituted under
-section 3 of the State Bank of India Act, 1955 (23 of 1955), or a subsidiary bank as defined in clause (k)
-of section 2 of the State Bank of India (Subsidiary Banks) Act,1959 (38 of 1959), or a corresponding new
-bank constituted under section 3 of the Banking Companies (Acquisition and Transfer of Undertakings)
-Act, 1970 (5 of 1970), or a corresponding new bank constituted under section 3 of the Banking
-Companies (Acquisition and Transfer of Undertakings) Act, 1980 (40 of 1980).]`)
-  (str footnotes) (str `1. Subs. by Act 29 of 1997, s. 3, for "the State Bank of India" (w.e.f. 12-11-1998).
-
-2. Explanation added by s. 3, ibid. (w.e.f. 12-11-1998).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12339&sectionno=4&orderno=4&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12339)
+  sectionNo (4)
+  orderNo 4
+  title `Vesting of Fund, etc.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12339&sectionno=4&orderno=4&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_4_content:
+  string
+  line `(1) The Fund referred to in sub-section (1) of section 3 shall vest in, and be`
+  line `administered by, the Board constituted under section 5.`
+  line
+  line `(2) The moneys in the Fund shall be applied for--`
+  line
+  line `(a) meeting the pay and allowances of the employees of the Board and other administrative`
+  line `expenses of the Board;`
+  line
+  line `(b) carrying out the purposes of this Act.`
+  line
+  line `(3) All moneys in the Fund shall be deposited in ^1`
+  line `[an approved bank] or be invested in such securities`
+  line `as may be approved by the Government.`
+  line
+  line ^2
+  line `[Explanation. --In this section, "approved bank" means the State Bank of India constituted under`
+  line `section 3 of the State Bank of India Act, 1955 (23 of 1955), or a subsidiary bank as defined in clause (k)`
+  line `of section 2 of the State Bank of India (Subsidiary Banks) Act,1959 (38 of 1959), or a corresponding new`
+  line `bank constituted under section 3 of the Banking Companies (Acquisition and Transfer of Undertakings)`
+  line `Act, 1970 (5 of 1970), or a corresponding new bank constituted under section 3 of the Banking`
+  line `Companies (Acquisition and Transfer of Undertakings) Act, 1980 (40 of 1980).]`
+obj_root_law_sections_4_footnotes:
+  string
+  line `1. Subs. by Act 29 of 1997, s. 3, for "the State Bank of India" (w.e.f. 12-11-1998).`
+  line
+  line `2. Explanation added by s. 3, ibid. (w.e.f. 12-11-1998).`
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 12340)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Constitution of Board of Trustees.`)
-  (str content) (str `(1) The Government shall, by notification in the
-Official Gazette, constitute, with effect from such date as may be specified therein, a Board to be known
-as the Board of Trustees of the Seamen's Provident Fund which shall be a body corporate having
-perpetual succession and a common seal and may, by that name, sue and be sued.
-
-(2) The head office of the Board shall be in Bombay or at such other place as the Government may,
-by notification in the Official Gazette, specify.
-
-(3) The Board shall consist of--
-
-(a) a Chairman to be appointed by the Government;
-
-(b) not more than three persons appointed by the Government from amongst its officials;
-
-(c) three persons representing employers, to be appointed by the Government after consultation
-with such organisation or organisations of employers as may be recognised by the Government in this
-behalf;
-
-(d) three persons representing seamen, to be appointed by the Government after consultation with
-such organisation or organisations of seamen as may be recognised by the Government in this behalf.
-
-(4) The terms and conditions subject to which a member of the Board may be appointed and the time,
-place and procedure of the meetings of the Board, including the quorum, shall be such as may be
-provided for in the Scheme.
-
-(5) The Board shall administer the Fund vested in it in such manner as may be specified in the
-Scheme.
-
-(6) The Board shall perform such other functions as it may be required to perform by or under any
-provision of the Scheme.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12340&sectionno=5&orderno=5&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12340)
+  sectionNo (5)
+  orderNo 5
+  title `Constitution of Board of Trustees.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12340&sectionno=5&orderno=5&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_5_content:
+  string
+  line `(1) The Government shall, by notification in the`
+  line `Official Gazette, constitute, with effect from such date as may be specified therein, a Board to be known`
+  line `as the Board of Trustees of the Seamen's Provident Fund which shall be a body corporate having`
+  line `perpetual succession and a common seal and may, by that name, sue and be sued.`
+  line
+  line `(2) The head office of the Board shall be in Bombay or at such other place as the Government may,`
+  line `by notification in the Official Gazette, specify.`
+  line
+  line `(3) The Board shall consist of--`
+  line
+  line `(a) a Chairman to be appointed by the Government;`
+  line
+  line `(b) not more than three persons appointed by the Government from amongst its officials;`
+  line
+  line `(c) three persons representing employers, to be appointed by the Government after consultation`
+  line `with such organisation or organisations of employers as may be recognised by the Government in this`
+  line behalf;
+  line
+  line `(d) three persons representing seamen, to be appointed by the Government after consultation with`
+  line `such organisation or organisations of seamen as may be recognised by the Government in this behalf.`
+  line
+  line `(4) The terms and conditions subject to which a member of the Board may be appointed and the time,`
+  line `place and procedure of the meetings of the Board, including the quorum, shall be such as may be`
+  line `provided for in the Scheme.`
+  line
+  line `(5) The Board shall administer the Fund vested in it in such manner as may be specified in the`
+  line Scheme.
+  line
+  line `(6) The Board shall perform such other functions as it may be required to perform by or under any`
+  line `provision of the Scheme.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 12341)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str Committees.)
-  (str content) (str `(1) The Board may, from time to time, constitute one or more committee or
-committees for exercising any power or discharging any duty of the Board or for inquiring into, or
-reporting and advising on, any matter which the Board may refer to such committee or committees.
-
-(2) A committee may include persons who are not members of the Board but their number shall not
-exceed one-half of its strength.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12341&sectionno=6&orderno=6&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12341)
+  sectionNo (6)
+  orderNo 6
+  title Committees.
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12341&sectionno=6&orderno=6&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_6_content:
+  string
+  line `(1) The Board may, from time to time, constitute one or more committee or`
+  line `committees for exercising any power or discharging any duty of the Board or for inquiring into, or`
+  line `reporting and advising on, any matter which the Board may refer to such committee or committees.`
+  line
+  line `(2) A committee may include persons who are not members of the Board but their number shall not`
+  line `exceed one-half of its strength.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 12342)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Appointment of employees of Board.`)
-  (str content) (str `(1) The Government shall appoint a Seamens Provident
-Fund Commissioner who shall be the chief executive officer of the Board and shall be subject to the
-general control and superintendence of the Board.
-
-(2) The Government may also appoint as many Deputy Seamen's Provident Fund Commissioners ^1
-***, as it may consider necessary, to assist the Seamen's Provident Fund Commissioner in the discharge
-of his duties.
-
-(3) The Board may appoint such other officers and employees as it may consider necessary for the
-efficient administration of the Scheme.
-
-(4) No appointment to the post of the Seamen's Provident Fund Commissioner or Deputy Seamen's
-Provident Fund Commissioner ^2
-*** shall be made except after consultation with the Union Public Service
-Commission:
-
-Provided that no such consultation shall be necessary in regard to any such appointment--
-
-(a) for a period not exceeding one year; or
-
-(b) if the person to be appointed is at the time of his appointment--
-
-(i) a member of the Indian Administrative Service; or
-
-(ii) in the service of the Government in a Class I or Class II post or in the service of the
-Board.
-
-(5) The method of recruitment, salary and allowances, discipline and other conditions of service of
-the Seamen's Provident Fund Commissioner and of the officers referred to in sub-section (2) shall be such
-as may be specified by the Government.
-
-(6) The method of recruitment, salary and allowances, discipline and other conditions of service of
-other officers and employees of the Board shall be such as may be specified by the Board with the
-approval of the Government.
-
-(7) All persons appointed under this section shall be the employees of the Board.`)
-  (str footnotes) (str `1. The words "and other officers whose maximum monthly salary is not less than six hundred rupees" omitted
-by Act 29 of 1997, s. 4 (w.e.f. 12-11-1998).
-2. The words "or to any other post carrying a maximum monthly salary of not less than six hundred rupees" omitted
-by s. 4, ibid. (w.e.f. 12-11-1998).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12342&sectionno=7&orderno=7&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12342)
+  sectionNo (7)
+  orderNo 7
+  title `Appointment of employees of Board.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12342&sectionno=7&orderno=7&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_7_content:
+  string
+  line `(1) The Government shall appoint a Seamens Provident`
+  line `Fund Commissioner who shall be the chief executive officer of the Board and shall be subject to the`
+  line `general control and superintendence of the Board.`
+  line
+  line `(2) The Government may also appoint as many Deputy Seamen's Provident Fund Commissioners ^1`
+  line `***, as it may consider necessary, to assist the Seamen's Provident Fund Commissioner in the discharge`
+  line `of his duties.`
+  line
+  line `(3) The Board may appoint such other officers and employees as it may consider necessary for the`
+  line `efficient administration of the Scheme.`
+  line
+  line `(4) No appointment to the post of the Seamen's Provident Fund Commissioner or Deputy Seamen's`
+  line `Provident Fund Commissioner ^2`
+  line `*** shall be made except after consultation with the Union Public Service`
+  line `Commission:`
+  line
+  line `Provided that no such consultation shall be necessary in regard to any such appointment--`
+  line
+  line `(a) for a period not exceeding one year; or`
+  line
+  line `(b) if the person to be appointed is at the time of his appointment--`
+  line
+  line `(i) a member of the Indian Administrative Service; or`
+  line
+  line `(ii) in the service of the Government in a Class I or Class II post or in the service of the`
+  line Board.
+  line
+  line `(5) The method of recruitment, salary and allowances, discipline and other conditions of service of`
+  line `the Seamen's Provident Fund Commissioner and of the officers referred to in sub-section (2) shall be such`
+  line `as may be specified by the Government.`
+  line
+  line `(6) The method of recruitment, salary and allowances, discipline and other conditions of service of`
+  line `other officers and employees of the Board shall be such as may be specified by the Board with the`
+  line `approval of the Government.`
+  line
+  line `(7) All persons appointed under this section shall be the employees of the Board.`
+obj_root_law_sections_7_footnotes:
+  string
+  line `1. The words "and other officers whose maximum monthly salary is not less than six hundred rupees" omitted`
+  line `by Act 29 of 1997, s. 4 (w.e.f. 12-11-1998).`
+  line `2. The words "or to any other post carrying a maximum monthly salary of not less than six hundred rupees" omitted`
+  line `by s. 4, ibid. (w.e.f. 12-11-1998).`
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 12343)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str Contributions.)
-  (str content) (str `(1) Every employer to whom this Act applies shall, in respect of each seaman
-(being a member) employed by him, contribute to the Fund for the period beginning with the 1st day of
-July, 1964 and ending with the 31st day of March, 1968, at the rate of six per cent.,
-^1
-[for the period
-beginning with the 1st day of April, 1968 and ending with the 31st day of December, 1977, at the rate of
-eight per cent. and thereafter at the rate of ten per cent. or such higher rate as may be specified in the
-Scheme] of the wages paid or payable to each such seaman and every such seaman shall also contribute to
-the Fund an amount equal to the contribution payable by the employer in respect of him:
-
-Provided that the amount of contribution aforesaid shall, in so far as it relates to the period prior to the
-commencement of the Scheme, be payable by the employer or, as the case may be, by the seaman only on
-such date (being a date not earlier than sixty days after the commencement of the Scheme) as the
-Government may, by notification in the Official Gazette, specify in this behalf.
-
-(2) The employer shall pay, in respect of each seaman (being a member) employed by him, both the
-employer's contribution and the employees contribution and shall be entitled to recover from the seaman
-the employee's contribution by deduction from his wages and not otherwise.
-
-(3) Every employer shall also pay such sums of money as may be specified in the Scheme towards the
-cost of administering the Fund.
-
-(4) Where the amount of any contribution under sub-section (1) or any sum payable under
-sub-section (3) contains a part of a rupee, then, if such part if fifty paise or more, it shall be increased to
-one complete rupee and if such part is less than fifty paise it shall be ignored.`)
-  (str footnotes) (str `1. Subs. by s. 5, ibid., for "and thereafter at the rate of eight per cent." (w.e.f. 12-11-1998).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12343&sectionno=8&orderno=8&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12343)
+  sectionNo (8)
+  orderNo 8
+  title Contributions.
+  content obj_root_law_sections_8_content
+  footnotes `1. Subs. by s. 5, ibid., for "and thereafter at the rate of eight per cent." (w.e.f. 12-11-1998).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12343&sectionno=8&orderno=8&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_8_content:
+  string
+  line `(1) Every employer to whom this Act applies shall, in respect of each seaman`
+  line `(being a member) employed by him, contribute to the Fund for the period beginning with the 1st day of`
+  line `July, 1964 and ending with the 31st day of March, 1968, at the rate of six per cent.,`
+  line ^1
+  line `[for the period`
+  line `beginning with the 1st day of April, 1968 and ending with the 31st day of December, 1977, at the rate of`
+  line `eight per cent. and thereafter at the rate of ten per cent. or such higher rate as may be specified in the`
+  line `Scheme] of the wages paid or payable to each such seaman and every such seaman shall also contribute to`
+  line `the Fund an amount equal to the contribution payable by the employer in respect of him:`
+  line
+  line `Provided that the amount of contribution aforesaid shall, in so far as it relates to the period prior to the`
+  line `commencement of the Scheme, be payable by the employer or, as the case may be, by the seaman only on`
+  line `such date (being a date not earlier than sixty days after the commencement of the Scheme) as the`
+  line `Government may, by notification in the Official Gazette, specify in this behalf.`
+  line
+  line `(2) The employer shall pay, in respect of each seaman (being a member) employed by him, both the`
+  line `employer's contribution and the employees contribution and shall be entitled to recover from the seaman`
+  line `the employee's contribution by deduction from his wages and not otherwise.`
+  line
+  line `(3) Every employer shall also pay such sums of money as may be specified in the Scheme towards the`
+  line `cost of administering the Fund.`
+  line
+  line `(4) Where the amount of any contribution under sub-section (1) or any sum payable under`
+  line `sub-section (3) contains a part of a rupee, then, if such part if fifty paise or more, it shall be increased to`
+  line `one complete rupee and if such part is less than fifty paise it shall be ignored.`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 12344)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Determination of moneys due from employers.`)
-  (str content) (str `(1) The Seamen's Provident Fund
-Commissioner or any Deputy Seamen's Provident Fund Commissioner may, by order, determine the
-amount due from any employer under any provision of this Act or of the Scheme and for this purpose
-may conduct such inquiry as he may deem necessary.
-
-(2) The officer conducting the inquiry under sub-section (1) shall, for the purposes of such inquiry,
-have the same powers as are vested in a court under the Code of Civil Procedure, 1908 (5 of 1908), for
-trying a suit in respect of the following matters, namely:--
-
-span@
-(a) enforcing the attendance of any person or examining him on oath;
-
-span@
-(b) requiring the discovery and production of documents;
-
-span@
-(c) receiving evidence on affidavit;
-
-span@
-(d) issuing commission for the examination of witnesses;
-
-and any such inquiry shall be deemed to be a judicial proceeding within the meaning of sections 193 and
-228, and for the purpose of section 196, of the Indian Penal Code (45 of 1860).
-
-(3) No order shall be made under this section unless the employer has been given a reasonable
-opportunity of representing his case.
-
-(4) An order made under this section shall be final and shall not be questioned in any court of law.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12344&sectionno=9&orderno=9&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12344)
+  sectionNo (9)
+  orderNo 9
+  title `Determination of moneys due from employers.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12344&sectionno=9&orderno=9&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_9_content:
+  string
+  line `(1) The Seamen's Provident Fund`
+  line `Commissioner or any Deputy Seamen's Provident Fund Commissioner may, by order, determine the`
+  line `amount due from any employer under any provision of this Act or of the Scheme and for this purpose`
+  line `may conduct such inquiry as he may deem necessary.`
+  line
+  line `(2) The officer conducting the inquiry under sub-section (1) shall, for the purposes of such inquiry,`
+  line `have the same powers as are vested in a court under the Code of Civil Procedure, 1908 (5 of 1908), for`
+  line `trying a suit in respect of the following matters, namely:--`
+  line
+  line span@
+  line `(a) enforcing the attendance of any person or examining him on oath;`
+  line
+  line span@
+  line `(b) requiring the discovery and production of documents;`
+  line
+  line span@
+  line `(c) receiving evidence on affidavit;`
+  line
+  line span@
+  line `(d) issuing commission for the examination of witnesses;`
+  line
+  line `and any such inquiry shall be deemed to be a judicial proceeding within the meaning of sections 193 and`
+  line `228, and for the purpose of section 196, of the Indian Penal Code (45 of 1860).`
+  line
+  line `(3) No order shall be made under this section unless the employer has been given a reasonable`
+  line `opportunity of representing his case.`
+  line
+  line `(4) An order made under this section shall be final and shall not be questioned in any court of law.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 12345)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Mode of recovery of moneys due from employers.`)
-  (str content) (str `Any amount due from an employer in
-respect of any contribution payable to the Fund, or damages recoverable under section 18 or any charges
-payable by him under any other provision of this Act or under any provision of the Scheme, may, if the
-amount is in arrear, be recovered by the Government in the same manner as an arrear of land revenue.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12345&sectionno=10&orderno=10&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12345)
+  sectionNo (10)
+  orderNo 10
+  title `Mode of recovery of moneys due from employers.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12345&sectionno=10&orderno=10&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_10_content:
+  string
+  line `Any amount due from an employer in`
+  line `respect of any contribution payable to the Fund, or damages recoverable under section 18 or any charges`
+  line `payable by him under any other provision of this Act or under any provision of the Scheme, may, if the`
+  line `amount is in arrear, be recovered by the Government in the same manner as an arrear of land revenue.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 12346)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Fund deemed to be recognised Provident Fund under Act 43 of 1961.`)
-  (str content) (str `For the purposes of
-the Income-tax Act, 1961, the Fund shall be deemed to be a recognised provident fund within the
-meaning of that Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12346&sectionno=11&orderno=11&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12346)
+  sectionNo (11)
+  orderNo 11
+  title `Fund deemed to be recognised Provident Fund under Act 43 of 1961.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12346&sectionno=11&orderno=11&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_11_content:
+  string
+  line `For the purposes of`
+  line `the Income-tax Act, 1961, the Fund shall be deemed to be a recognised provident fund within the`
+  line `meaning of that Act.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 12347)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Protection against attachment.`)
-  (str content) (str `(1) The amount standing to the credit of any member in the
-Fund shall not in any way be capable of being assigned or charged and shall not be liable to attachment
-under any decree or order of any court in respect of any debt or liability incurred by the member, and
-neither the official assignee appointed under the Presidency Towns Insolvency Act, 1909 (3 of 1909), nor
-any receiver appointed under the Provincial Insolvency Act, 1920 (5 of 1920), shall be entitled to, or have
-any claim on, any such amount.
-
-(2) Any amount standing to the credit of any member in the Fund at the time of his death and payable
-under the Scheme to his nominee shall, subject to any deduction authorised by the Scheme, vest in the
-nominee and shall be free from any debt or other liability incurred by the deceased or the nominee before
-the death of the member.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12347&sectionno=12&orderno=12&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12347)
+  sectionNo (12)
+  orderNo 12
+  title `Protection against attachment.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12347&sectionno=12&orderno=12&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_12_content:
+  string
+  line `(1) The amount standing to the credit of any member in the`
+  line `Fund shall not in any way be capable of being assigned or charged and shall not be liable to attachment`
+  line `under any decree or order of any court in respect of any debt or liability incurred by the member, and`
+  line `neither the official assignee appointed under the Presidency Towns Insolvency Act, 1909 (3 of 1909), nor`
+  line `any receiver appointed under the Provincial Insolvency Act, 1920 (5 of 1920), shall be entitled to, or have`
+  line `any claim on, any such amount.`
+  line
+  line `(2) Any amount standing to the credit of any member in the Fund at the time of his death and payable`
+  line `under the Scheme to his nominee shall, subject to any deduction authorised by the Scheme, vest in the`
+  line `nominee and shall be free from any debt or other liability incurred by the deceased or the nominee before`
+  line `the death of the member.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 12348)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Priority of payment of contributions over other debts.`)
-  (str content) (str `Where any employer is adjudicated
-insolvent, or, being a company, an order for winding up is made, the amount due from the employer
-in respect of any contribution payable to the Fund, damages recoverable under section 18 or any charges
-payable by him under any other provision of this Act or under any provision of the Scheme shall,
-where the liability therefor has accrued before the order of adjudication or winding up is made, be
-deemed to be included among the debts which under section 49 of the Presidency Towns Insolvency
-Act, 1909 (3 of 1909), or under section 61 of the Provincial Insolvency Act, 1920 (5 of 1920), or under
-section 530 of the Companies Act, 1956 (1 of 1956), are to be paid in priority to all other debts in the
-distribution of the property of the insolvent or the assets of the company being wound up, as the case may
-be.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12348&sectionno=13&orderno=13&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12348)
+  sectionNo (13)
+  orderNo 13
+  title `Priority of payment of contributions over other debts.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12348&sectionno=13&orderno=13&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_13_content:
+  string
+  line `Where any employer is adjudicated`
+  line `insolvent, or, being a company, an order for winding up is made, the amount due from the employer`
+  line `in respect of any contribution payable to the Fund, damages recoverable under section 18 or any charges`
+  line `payable by him under any other provision of this Act or under any provision of the Scheme shall,`
+  line `where the liability therefor has accrued before the order of adjudication or winding up is made, be`
+  line `deemed to be included among the debts which under section 49 of the Presidency Towns Insolvency`
+  line `Act, 1909 (3 of 1909), or under section 61 of the Provincial Insolvency Act, 1920 (5 of 1920), or under`
+  line `section 530 of the Companies Act, 1956 (1 of 1956), are to be paid in priority to all other debts in the`
+  line `distribution of the property of the insolvent or the assets of the company being wound up, as the case may`
+  line be.
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 12349)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Employer not to reduce wages.`)
-  (str content) (str `No employer shall, by reason only of his liability for the
-payment of any contribution to the Fund or any charges under this Act or the Scheme, reduce, whether
-directly or indirectly, the wages of any seaman to whom the Scheme applies or the total quantum of
-benefits in the nature of old age pension, gratuity or provident fund to which the seaman is entitled under
-the agreement with the crew or any other agreement between the parties.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12349&sectionno=14&orderno=14&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12349)
+  sectionNo (14)
+  orderNo 14
+  title `Employer not to reduce wages.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12349&sectionno=14&orderno=14&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_14_content:
+  string
+  line `No employer shall, by reason only of his liability for the`
+  line `payment of any contribution to the Fund or any charges under this Act or the Scheme, reduce, whether`
+  line `directly or indirectly, the wages of any seaman to whom the Scheme applies or the total quantum of`
+  line `benefits in the nature of old age pension, gratuity or provident fund to which the seaman is entitled under`
+  line `the agreement with the crew or any other agreement between the parties.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 12350)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str Inspectors.)
-  (str content) (str `(1) The Government may, by notification in the Official Gazette, appoint such
-employees of the Board, as the Government thinks fit, to be Inspectors for the purposes of this Act and
-the Scheme, and may define their jurisdiction.
-
-(2) Every Inspector appointed under sub-section (1) may, for the purpose of inquiring into the
-correctness of any information furnished in connection with this Act or the Scheme or for the purpose of
-ascertaining whether any of the provisions of this Act or of the Scheme have been complied with--
-
-(a) require an employer to furnish such information as he may consider necessary in relation to
-the Scheme;
-
-(b) at any reasonable time and with such assistance, if any, as he may think fit, enter any office or
-board any ship, search the same and require any one found in charge thereof to produce before him
-for examination any accounts, books, registers and other documents in relation to the employment of
-seamen or the payment of wages to seamen;
-
-(c) examine, with respect to any matter relevant to any of the purposes aforesaid, the employer,
-his agent or servant or any other person found in charge of the office or the ship or whom the
-Inspector has reasonable cause to believe to be, or to have been, an employee in the office or on the
-ship;
-
-(d) make copies of, or take extracts from, any book, register or other document maintained in
-connection with the Fund and, where he has reason to believe that any offence under this Act has
-been committed by an employer, seize with such assistance as he may think fit such book, register or
-other document or portions thereof as he may consider relevant in respect of that offence;
-
-(e) exercise such other powers as the Scheme may provide.
-
-^1
-[(3) The provisions of the Code of Criminal Procedure, 1973 (2 of 1974) shall, as far as may be,
-apply to any search or seizure under sub-section (2) as they apply to any search or seizure made under the
-authority of a warrant issued under section 94 of the said Code.]
-
-(4) Every Inspector shall be deemed to be a public servant within the meaning of section 21 of the
-Indian Penal Code (45 of 1860).`)
-  (str footnotes) (str `1. Subs. by Act 29 of 1997, s. 6, for sub-section (3) (w.e.f. 12-11-1998).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12350&sectionno=15&orderno=15&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12350)
+  sectionNo (15)
+  orderNo 15
+  title Inspectors.
+  content obj_root_law_sections_15_content
+  footnotes `1. Subs. by Act 29 of 1997, s. 6, for sub-section (3) (w.e.f. 12-11-1998).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12350&sectionno=15&orderno=15&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_15_content:
+  string
+  line `(1) The Government may, by notification in the Official Gazette, appoint such`
+  line `employees of the Board, as the Government thinks fit, to be Inspectors for the purposes of this Act and`
+  line `the Scheme, and may define their jurisdiction.`
+  line
+  line `(2) Every Inspector appointed under sub-section (1) may, for the purpose of inquiring into the`
+  line `correctness of any information furnished in connection with this Act or the Scheme or for the purpose of`
+  line `ascertaining whether any of the provisions of this Act or of the Scheme have been complied with--`
+  line
+  line `(a) require an employer to furnish such information as he may consider necessary in relation to`
+  line `the Scheme;`
+  line
+  line `(b) at any reasonable time and with such assistance, if any, as he may think fit, enter any office or`
+  line `board any ship, search the same and require any one found in charge thereof to produce before him`
+  line `for examination any accounts, books, registers and other documents in relation to the employment of`
+  line `seamen or the payment of wages to seamen;`
+  line
+  line `(c) examine, with respect to any matter relevant to any of the purposes aforesaid, the employer,`
+  line `his agent or servant or any other person found in charge of the office or the ship or whom the`
+  line `Inspector has reasonable cause to believe to be, or to have been, an employee in the office or on the`
+  line ship;
+  line
+  line `(d) make copies of, or take extracts from, any book, register or other document maintained in`
+  line `connection with the Fund and, where he has reason to believe that any offence under this Act has`
+  line `been committed by an employer, seize with such assistance as he may think fit such book, register or`
+  line `other document or portions thereof as he may consider relevant in respect of that offence;`
+  line
+  line `(e) exercise such other powers as the Scheme may provide.`
+  line
+  line ^1
+  line `[(3) The provisions of the Code of Criminal Procedure, 1973 (2 of 1974) shall, as far as may be,`
+  line `apply to any search or seizure under sub-section (2) as they apply to any search or seizure made under the`
+  line `authority of a warrant issued under section 94 of the said Code.]`
+  line
+  line `(4) Every Inspector shall be deemed to be a public servant within the meaning of section 21 of the`
+  line `Indian Penal Code (45 of 1860).`
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 12351)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str Penalties.)
-  (str content) (str `(1) Whoever, for the purpose of avoiding any payment to be made by himself under
-this Act or under the Scheme or of enabling any other person to avoid such payment, knowingly makes or
-causes to be made any false statement or false representation shall be punishable with imprisonment for a
-term which may extend to ^1
-[one year, or with fine which may extend to fifty thousand rupees], or with
-both.
-
-(2) The Scheme may provide that any person who contravenes, or makes default in complying with
-any of the provisions thereof shall be punishable with imprisonment for a term which may extend to six
-months, or with fine which may extend to one thousand rupees, or with both.
-
-(3) Whoever contravenes or makes default in complying with any provision of this Act shall, if no
-other penalty is elsewhere provided by or under this Act for such contravention or non-compliance, be
-punishable with imprisonment which may extend to three months, or with fine which may extend to one
-thousand rupees, or with both.
-
-(4) No court shall take cognizance of any offence punishable under this Act or under the Scheme
-except on a report in writing of the facts constituting such offence made by the Seamen's Provident Fund
-Commissioner or by an Inspector appointed under sub-section (1) of section 15, with the previous
-sanction of such authority as may be specified in this behalf by the Government.`)
-  (str footnotes) (str `1. Subs. by s. 7, ibid., for "six months, or with fine which may extend to one thousand rupees" (w.e.f. 12-11-1998).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12351&sectionno=16&orderno=16&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12351)
+  sectionNo (16)
+  orderNo 16
+  title Penalties.
+  content obj_root_law_sections_16_content
+  footnotes `1. Subs. by s. 7, ibid., for "six months, or with fine which may extend to one thousand rupees" (w.e.f. 12-11-1998).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12351&sectionno=16&orderno=16&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_16_content:
+  string
+  line `(1) Whoever, for the purpose of avoiding any payment to be made by himself under`
+  line `this Act or under the Scheme or of enabling any other person to avoid such payment, knowingly makes or`
+  line `causes to be made any false statement or false representation shall be punishable with imprisonment for a`
+  line `term which may extend to ^1`
+  line `[one year, or with fine which may extend to fifty thousand rupees], or with`
+  line both.
+  line
+  line `(2) The Scheme may provide that any person who contravenes, or makes default in complying with`
+  line `any of the provisions thereof shall be punishable with imprisonment for a term which may extend to six`
+  line `months, or with fine which may extend to one thousand rupees, or with both.`
+  line
+  line `(3) Whoever contravenes or makes default in complying with any provision of this Act shall, if no`
+  line `other penalty is elsewhere provided by or under this Act for such contravention or non-compliance, be`
+  line `punishable with imprisonment which may extend to three months, or with fine which may extend to one`
+  line `thousand rupees, or with both.`
+  line
+  line `(4) No court shall take cognizance of any offence punishable under this Act or under the Scheme`
+  line `except on a report in writing of the facts constituting such offence made by the Seamen's Provident Fund`
+  line `Commissioner or by an Inspector appointed under sub-section (1) of section 15, with the previous`
+  line `sanction of such authority as may be specified in this behalf by the Government.`
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 12352)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Offences by companies.`)
-  (str content) (str `(1) If the person committing an offence under this Act or the Scheme
-is a company, every person who at the time the offence was committed was in charge of, and was
-responsible to, the company for the conduct of the business of the company, as well as the company, shall
-be deemed to be guilty of the offence and shall be liable to be proceeded against and punished
-accordingly:
-
-Provided that nothing contained in this sub-section shall render any such person liable to any
-punishment, if he proves that the offence was committed without his knowledge or that he exercised due
-diligence to prevent the commission of such offence.
-
-(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act or the
-Scheme has been committed by a company, and it is proved that the offence was committed with the
-consent or connivance of, or is attributable to any neglect on the part of, any director, manager, secretary
-or other officer of the company, such director, manager, secretary or other officer shall be deemed to be
-guilty of that offence and shall be liable to be proceeded against and punished accordingly.
-
-(3) Where any offence under this Act or the Scheme is committed by a company not registered in
-India and such a company has an agent in India which agent is also a company, then the provisions of this
-section shall apply to such agent as if the offence was committed by that agent.
-
-Explanation. -- For the purposes of this section--
-
-(a) "company" means any body corporate and includes a firm and other association of
-individuals; and
-
-(b) "director", in relation to a firm, means a partner in the firm.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12352&sectionno=17&orderno=17&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12352)
+  sectionNo (17)
+  orderNo 17
+  title `Offences by companies.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12352&sectionno=17&orderno=17&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_17_content:
+  string
+  line `(1) If the person committing an offence under this Act or the Scheme`
+  line `is a company, every person who at the time the offence was committed was in charge of, and was`
+  line `responsible to, the company for the conduct of the business of the company, as well as the company, shall`
+  line `be deemed to be guilty of the offence and shall be liable to be proceeded against and punished`
+  line `accordingly:`
+  line
+  line `Provided that nothing contained in this sub-section shall render any such person liable to any`
+  line `punishment, if he proves that the offence was committed without his knowledge or that he exercised due`
+  line `diligence to prevent the commission of such offence.`
+  line
+  line `(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act or the`
+  line `Scheme has been committed by a company, and it is proved that the offence was committed with the`
+  line `consent or connivance of, or is attributable to any neglect on the part of, any director, manager, secretary`
+  line `or other officer of the company, such director, manager, secretary or other officer shall be deemed to be`
+  line `guilty of that offence and shall be liable to be proceeded against and punished accordingly.`
+  line
+  line `(3) Where any offence under this Act or the Scheme is committed by a company not registered in`
+  line `India and such a company has an agent in India which agent is also a company, then the provisions of this`
+  line `section shall apply to such agent as if the offence was committed by that agent.`
+  line
+  line `Explanation. -- For the purposes of this section--`
+  line
+  line `(a) "company" means any body corporate and includes a firm and other association of`
+  line `individuals; and`
+  line
+  line `(b) "director", in relation to a firm, means a partner in the firm.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 12353)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Power to recover damages.`)
-  (str content) (str `Where any employer makes default in the payment of
-any contribution to the Fund or in the payment of any charges payable under any other provision of this
-Act or under the Scheme, the Government may recover from the employer such damages, not exceeding
-twenty-five per cent. of the amount of arrears, as it may think fit.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12353&sectionno=18&orderno=18&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12353)
+  sectionNo (18)
+  orderNo 18
+  title `Power to recover damages.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12353&sectionno=18&orderno=18&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_18_content:
+  string
+  line `Where any employer makes default in the payment of`
+  line `any contribution to the Fund or in the payment of any charges payable under any other provision of this`
+  line `Act or under the Scheme, the Government may recover from the employer such damages, not exceeding`
+  line `twenty-five per cent. of the amount of arrears, as it may think fit.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 12354)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Transfer of account`)
-  (str content) (str `Where a seaman leaves the seafaring profession with no present intention
-of resuming that profession and obtains employment in any establishment to which the Employees'
-Provident Funds Act, 1952 (19 of 1952), applies, the amount standing to the credit of such seaman in the
-Fund shall be transferred, within such time as may be specified by the Board in this behalf, to the credit of
-his account in the provident fund of that establishment, if the seaman so desires and the rules in relation to
-that provident fund permit such transfer.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12354&sectionno=19&orderno=19&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (12354)
+  sectionNo (19)
+  orderNo 19
+  title `Transfer of account`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=12354&sectionno=19&orderno=19&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_19_content:
+  string
+  line `Where a seaman leaves the seafaring profession with no present intention`
+  line `of resuming that profession and obtains employment in any establishment to which the Employees'`
+  line `Provident Funds Act, 1952 (19 of 1952), applies, the amount standing to the credit of such seaman in the`
+  line `Fund shall be transferred, within such time as may be specified by the Board in this behalf, to the credit of`
+  line `his account in the provident fund of that establishment, if the seaman so desires and the rules in relation to`
+  line `that provident fund permit such transfer.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 29170)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Power to exempt.`)
-  (str content) (str `(1) The Board may, by order in writing, exempt any seaman to whom this
-Act applies and his employer from the operation of all or any of the provisions of this Act if, in the
-opinion of the Board, the seaman is in enjoyment of benefits in the nature of provident fund or pension
-and such benefits, separately or jointly are on the whole not less favourable to the seaman than the
-benefits provided by or under this Act.
-
-(2) Where an exemption has been granted under sub-section (1), the employer shall not at any time
-after the grant of the exemption, without the leave of the Board, reduce the total quantum of benefits in
-the nature of provident fund, pension or gratuity to which the seaman was entitled at the time of grant of
-such exemption.
-
-(3) Any exemption granted under this section may be cancelled by the Board, by order in writing, if
-the employer fails to comply with the requirements of sub-section (2):
-
-Provided that no such order shall be made unless the employer has been given a reasonable
-opportunity of showing cause against the proposed cancellation.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29170&sectionno=20&orderno=20&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (29170)
+  sectionNo (20)
+  orderNo 20
+  title `Power to exempt.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29170&sectionno=20&orderno=20&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_20_content:
+  string
+  line `(1) The Board may, by order in writing, exempt any seaman to whom this`
+  line `Act applies and his employer from the operation of all or any of the provisions of this Act if, in the`
+  line `opinion of the Board, the seaman is in enjoyment of benefits in the nature of provident fund or pension`
+  line `and such benefits, separately or jointly are on the whole not less favourable to the seaman than the`
+  line `benefits provided by or under this Act.`
+  line
+  line `(2) Where an exemption has been granted under sub-section (1), the employer shall not at any time`
+  line `after the grant of the exemption, without the leave of the Board, reduce the total quantum of benefits in`
+  line `the nature of provident fund, pension or gratuity to which the seaman was entitled at the time of grant of`
+  line `such exemption.`
+  line
+  line `(3) Any exemption granted under this section may be cancelled by the Board, by order in writing, if`
+  line `the employer fails to comply with the requirements of sub-section (2):`
+  line
+  line `Provided that no such order shall be made unless the employer has been given a reasonable`
+  line `opportunity of showing cause against the proposed cancellation.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 29171)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Protection for acts done in good faith.`)
-  (str content) (str `No suit or other legal proceeding shall lie against the
-Government or the Board or any officer or employee thereof in respect of anything which is in good faith
-done or intended to be done under this Act or under the Scheme.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29171&sectionno=21&orderno=21&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (29171)
+  sectionNo (21)
+  orderNo 21
+  title `Protection for acts done in good faith.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29171&sectionno=21&orderno=21&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_21_content:
+  string
+  line `No suit or other legal proceeding shall lie against the`
+  line `Government or the Board or any officer or employee thereof in respect of anything which is in good faith`
+  line `done or intended to be done under this Act or under the Scheme.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 29172)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str Delegation.)
-  (str content) (str `(1) The Government may, by order, direct that any power or duty which by this Act
-or by the Scheme is conferred or imposed upon the Government (other than the power to frame a scheme
-under section 3) shall, in such circumstances and under such conditions, if any, as may be specified in the
-direction, be exercised or discharged also by such officer or authority as may be so specified.
-
-(2) The Board may, with the prior approval of the Government, delegate to its Chairman or to any of
-its employees, subject to such conditions and limitations, if any, as it may specify, such of its functions
-under this Act as it may deem necessary for the efficient administration of the Scheme.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29172&sectionno=22&orderno=22&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (29172)
+  sectionNo (22)
+  orderNo 22
+  title Delegation.
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29172&sectionno=22&orderno=22&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_22_content:
+  string
+  line `(1) The Government may, by order, direct that any power or duty which by this Act`
+  line `or by the Scheme is conferred or imposed upon the Government (other than the power to frame a scheme`
+  line `under section 3) shall, in such circumstances and under such conditions, if any, as may be specified in the`
+  line `direction, be exercised or discharged also by such officer or authority as may be so specified.`
+  line
+  line `(2) The Board may, with the prior approval of the Government, delegate to its Chairman or to any of`
+  line `its employees, subject to such conditions and limitations, if any, as it may specify, such of its functions`
+  line `under this Act as it may deem necessary for the efficient administration of the Scheme.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 29173)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Power to remove difficulties.`)
-  (str content) (str `If any difficulty arises in giving effect to the provisions of this
-Act, the Government may make such order or give such direction, not inconsistent with the provisions of
-this Act, as appears to it to be necessary or expedient for the removal of the difficulty, and any such order
-shall be final.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29173&sectionno=23&orderno=23&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (29173)
+  sectionNo (23)
+  orderNo 23
+  title `Power to remove difficulties.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29173&sectionno=23&orderno=23&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_23_content:
+  string
+  line `If any difficulty arises in giving effect to the provisions of this`
+  line `Act, the Government may make such order or give such direction, not inconsistent with the provisions of`
+  line `this Act, as appears to it to be necessary or expedient for the removal of the difficulty, and any such order`
+  line `shall be final.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 29174)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Scheme to be laid before Houses of Parliament.`)
-  (str content) (str `Any Scheme framed under this Act shall be
-laid, as soon as may be after it is framed, before each House of Parliament while it is in session for a total
-period of thirty days which may be comprised in one session or in two successive sessions, and, if before
-the expiry of the session in which it is so laid or the session immediately following, both Houses agree in
-making any modification in any provision of the Scheme or both Houses agree that any provision in the
-Scheme should not be made, that provision of the Scheme shall thereafter have effect only in such
-modified form or be of no effect, as the case may be; so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that provision.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29174&sectionno=24&orderno=24&orgactid=AC_CEN_6_6_00013_196604_1517807320985)
+  sectionId (29174)
+  sectionNo (24)
+  orderNo 24
+  title `Scheme to be laid before Houses of Parliament.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_6_6_00013_196604_1517807320985&sectionId=29174&sectionno=24&orderno=24&orgactid=AC_CEN_6_6_00013_196604_1517807320985
+obj_root_law_sections_24_content:
+  string
+  line `Any Scheme framed under this Act shall be`
+  line `laid, as soon as may be after it is framed, before each House of Parliament while it is in session for a total`
+  line `period of thirty days which may be comprised in one session or in two successive sessions, and, if before`
+  line `the expiry of the session in which it is so laid or the session immediately following, both Houses agree in`
+  line `making any modification in any provision of the Scheme or both Houses agree that any provision in the`
+  line `Scheme should not be made, that provision of the Scheme shall thereafter have effect only in such`
+  line `modified form or be of no effect, as the case may be; so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that provision.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `नाविक भविष्‍य-निधि अधिनियम,1966`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1633/3/H1966-4.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:48:04.852Z`)
-  (str pageCount) (int 7)
-  (str sections) obj_root_law_translations_hi_sections
+  title `नाविक भविष्‍य-निधि अधिनियम,1966`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1633/3/H1966-4.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:48:04.852Z`
+  pageCount 7
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -684,357 +781,392 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_6
   obj_root_law_translations_hi_sections_7
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `नाविक भविष्य - वनवि अविवनयम, 1966
-( 1966 का अविवनयम संखयां क 4 )
-[26 मार्च, 1966 ]
-नाविकों के विए भविष् य - वनवि संवि त ककए जाने
-का उपबन्ि करने के विए
-अविवनयम
-भारत गणराज्य के सत्रहिें िर्च में संसद् द्व ारा वनम्न विवित रू प में यह अविवनयवमत हो ––
-1. संविप्त नाम तिा िागू होना –– ( 1 ) यह अविवनयम नाविक भविष्य - वनवि अविवनयम, 1966 कहा जा सकेगा।
-( 2 ) जब तक कक अवभव्य क् त रू प से अन्य िा उपबवन्ि त न हो, इस अविवनयम के उपबन्ि हर नाविक को तिा ऐसे नाविक के
-वनयोजक को िागू होंगे।
-2. पररभार्ाएं –– इस अविवनयम में, जब तक कक संदभच से अन्य िा अपेवित न हो, ––
-(क) “ कमीदि के साि करार ” से िावणज्य - पोत - पररिहन अविवनयम की, यिावि वत, िारा 100 में या िारा 114
-में वनर्दचष्ट करार अवभप्रेत है;
-(ि) “ बोर्च ” से िारा 5 के अिीन गरित नाविक भविष्य - वनवि का न् या सी बोर्च अवभप्रेत है;
-(ग) “ र् ित उन्मो र् न प्र माणपत्र ” से िावणज्य - पोत - पररिहन अविवनयम की िारा 99 में वनर्दचष्ट प्र माणपत्र
-अवभप्रेत है;
-(घ) “ अवभदाय ” से की म के अिीन ककसी सद य की बाबत देय अवभदाय अवभप्रेत है;
-( ङ ) “ वनयोजक ” से नाविक के सम्ब न् ि में, उस पोत का, वजस पर िह ना विक वनयोवजत या काम पर िगा हु आ है,
-िा मी अििा पोत के ऐसे िा मी का अवभकताच या पोत का माट र अवभप्रेत है;
-(र्) “ वनवि ” से की म के अिीन िा वपत नाविक भविष्य - वनवि अवभप्रेत है;
-(छ) “ सरकार ” से केन्री य सरकार अवभप्रेत है;
-(ज) “ माट र ” और “ पोत ” के िे ही अिच हैं जो क्र मश: उन्हें िावणज्य - पोत - पररिहन अविवनयम में समनुकदष् ट हैं;
-(झ) “ सद य ” से ऐसा नाविक अवभप्रेत है वजसके कब्जे में र् ित उन्मो र् न प्र माणपत्र हो और वजसे वनवि के सद य
-के रू प में प्र विष्ट ककया गया हो;
-( ञ ) “ िावणज्य - पोत - पररिहन अविवनयम ” से िावणज्य - पोत - पररिहन अविवनयम, 1958 ( 1958 का 44 )
-अवभप्रेत है;
-(ट) “ की म ” से िारा 3 की उपिारा ( 1 ) के अिीन विरवर्त नाविक भविष्य - वनवि की म अवभप्रेत है;
-(ि) “ नाविक ” से िह व् य वक् त अवभप्रेत है जो िावणज्य - पोत - पररिहन अविवनयम के अिीन पो त के कमीदि के
-सद य के रू प में वनयोवजत या काम पर िगा हु आ हो, ककन्तु इसके अन्त गचत 1 [ कल्या ण आकिसर, पररर्ाररका, संगीतज्ञ,
-पाइिट या र्े क ना ई ] नहीं आते;
-(र्) “ सेिा ” से कमीदि के साि करार के अिीन ककसी नाविक के वनयोजन की कािािवि अवभप्रेत है और इसके
-अन्त गच त ऐसी कोई कािािवि आती है वजसकी बाबत उसे मजदूरी दी जाती है या देय होती है;
-(ढ) “ मजदूरी ” से कमीदि के साि करार के अिीन नाविक को तत्स मय देय आिाररक मजदूरी अवभप्रेत है, और
-इसके अन्त गचत ––
-( i ) कोई ऐसा पाररश्रवमक आता है वजसका िह अिकाश कदनों की बाबत या ककसी छुट्टी की कािािवि की
-बाबत हकदार है,
-( ii ) ऐसे करार या पिकारों के बीर् के ककसी अन्य करार के अनुसार ऐसी मजदूरी की कोई िृवि आती है,
-ककन्तु इसके अन्त गचत अवतकाविक भत्ता नहीं आता।
-1 1997 के अविवनयम सं ० 29 की िारा 2 द्व ारा ( 12 - 11 - 1998 से) कवतपय शब्दों के िा न पर प्र वत िा वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `नाविक भविष्य - वनवि अविवनयम, 1966`
+  line `( 1966 का अविवनयम संखयां क 4 )`
+  line `[26 मार्च, 1966 ]`
+  line `नाविकों के विए भविष् य - वनवि संवि त ककए जाने`
+  line `का उपबन्ि करने के विए`
+  line अविवनयम
+  line `भारत गणराज्य के सत्रहिें िर्च में संसद् द्व ारा वनम्न विवित रू प में यह अविवनयवमत हो ––`
+  line `1. संविप्त नाम तिा िागू होना –– ( 1 ) यह अविवनयम नाविक भविष्य - वनवि अविवनयम, 1966 कहा जा सकेगा।`
+  line `( 2 ) जब तक कक अवभव्य क् त रू प से अन्य िा उपबवन्ि त न हो, इस अविवनयम के उपबन्ि हर नाविक को तिा ऐसे नाविक के`
+  line `वनयोजक को िागू होंगे।`
+  line `2. पररभार्ाएं –– इस अविवनयम में, जब तक कक संदभच से अन्य िा अपेवित न हो, ––`
+  line `(क) “ कमीदि के साि करार ” से िावणज्य - पोत - पररिहन अविवनयम की, यिावि वत, िारा 100 में या िारा 114`
+  line `में वनर्दचष्ट करार अवभप्रेत है;`
+  line `(ि) “ बोर्च ” से िारा 5 के अिीन गरित नाविक भविष्य - वनवि का न् या सी बोर्च अवभप्रेत है;`
+  line `(ग) “ र् ित उन्मो र् न प्र माणपत्र ” से िावणज्य - पोत - पररिहन अविवनयम की िारा 99 में वनर्दचष्ट प्र माणपत्र`
+  line `अवभप्रेत है;`
+  line `(घ) “ अवभदाय ” से की म के अिीन ककसी सद य की बाबत देय अवभदाय अवभप्रेत है;`
+  line `( ङ ) “ वनयोजक ” से नाविक के सम्ब न् ि में, उस पोत का, वजस पर िह ना विक वनयोवजत या काम पर िगा हु आ है,`
+  line `िा मी अििा पोत के ऐसे िा मी का अवभकताच या पोत का माट र अवभप्रेत है;`
+  line `(र्) “ वनवि ” से की म के अिीन िा वपत नाविक भविष्य - वनवि अवभप्रेत है;`
+  line `(छ) “ सरकार ” से केन्री य सरकार अवभप्रेत है;`
+  line `(ज) “ माट र ” और “ पोत ” के िे ही अिच हैं जो क्र मश: उन्हें िावणज्य - पोत - पररिहन अविवनयम में समनुकदष् ट हैं;`
+  line `(झ) “ सद य ” से ऐसा नाविक अवभप्रेत है वजसके कब्जे में र् ित उन्मो र् न प्र माणपत्र हो और वजसे वनवि के सद य`
+  line `के रू प में प्र विष्ट ककया गया हो;`
+  line `( ञ ) “ िावणज्य - पोत - पररिहन अविवनयम ” से िावणज्य - पोत - पररिहन अविवनयम, 1958 ( 1958 का 44 )`
+  line `अवभप्रेत है;`
+  line `(ट) “ की म ” से िारा 3 की उपिारा ( 1 ) के अिीन विरवर्त नाविक भविष्य - वनवि की म अवभप्रेत है;`
+  line `(ि) “ नाविक ” से िह व् य वक् त अवभप्रेत है जो िावणज्य - पोत - पररिहन अविवनयम के अिीन पो त के कमीदि के`
+  line `सद य के रू प में वनयोवजत या काम पर िगा हु आ हो, ककन्तु इसके अन्त गचत 1 [ कल्या ण आकिसर, पररर्ाररका, संगीतज्ञ,`
+  line `पाइिट या र्े क ना ई ] नहीं आते;`
+  line `(र्) “ सेिा ” से कमीदि के साि करार के अिीन ककसी नाविक के वनयोजन की कािािवि अवभप्रेत है और इसके`
+  line `अन्त गच त ऐसी कोई कािािवि आती है वजसकी बाबत उसे मजदूरी दी जाती है या देय होती है;`
+  line `(ढ) “ मजदूरी ” से कमीदि के साि करार के अिीन नाविक को तत्स मय देय आिाररक मजदूरी अवभप्रेत है, और`
+  line `इसके अन्त गचत ––`
+  line `( i ) कोई ऐसा पाररश्रवमक आता है वजसका िह अिकाश कदनों की बाबत या ककसी छुट्टी की कािािवि की`
+  line `बाबत हकदार है,`
+  line `( ii ) ऐसे करार या पिकारों के बीर् के ककसी अन्य करार के अनुसार ऐसी मजदूरी की कोई िृवि आती है,`
+  line `ककन्तु इसके अन्त गचत अवतकाविक भत्ता नहीं आता।`
+  line `1 1997 के अविवनयम सं ० 29 की िारा 2 द्व ारा ( 12 - 11 - 1998 से) कवतपय शब्दों के िा न पर प्र वत िा वपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-3. नाविक भविष् य - वनवि की म –– ( 1 ) सरकार शासकीय राजपत्र में अविसूर्ना द्व ा रा नाविकों के विए भविष्य - वनवि की
-िा पना करने के विए नाविक भविष्य - वनवि की म के नाम से कही जाने िािी की म विर वर्त कर सकेगी तिा इस की म के विरर्न के
-पश् र्ा त् यिाशक्य शीघ्र इस अविवनयम और उस की म के उपबन्िों के अनुसार एक वनवि की िा पना की जाएगी।
-( 2 ) इस अविवनयम के उपबन्िों के अध्य िीन रहते हु ए, की म इस अविवनयम की अनुसूर्ी में विवनर्दचष्ट सब विर्यों के विए
-या उनमें से ककसी के विए उपबन्ि कर सकेगी।
-( 3 ) की म उपबन्ि कर सकेगी का उसमें को कोई उपबन्ि ऐसी तारीि से, जैसी की म में इस वनवमत्त विवनर्दच ष् ट की जाए, र्
-ाहे भविष्य ििी र् ाहे भूतििी रू प से प्र भािशीि होगा।
-( 4 ) की म इस अविवनयम से वभन् न ककसी तत्स मय प्र िृत्त विवि में अििा इस अविवनयम से वभन् न विवि के आिार पर प्र
-भािशीि ककसी विित में ककसी बात के अन्त र् िचष्ट होते हु ए भी प्र भािशीि होगी।
-( 5 ) सरकार की म में पररििचन, संशोिन, िेरिार या उसका वििण् र् न शासकीय राजपत्र में अविसूर्ना द्व ारा कर सकेगी।
-4. वनवि का वनवहत होना आकद –– ( 1 ) िारा 3 की उपिारा ( 1 ) में वनर्दचष्ट वनवि िारा 5 के अिीन गरित बोर्च में वनवहत होगी
-तिा उसके द्व ारा प्र शावसत की जा एगी।
-( 2 ) वनवि में के िन ––
-(क) बोर्च के कमचर्ाररयों के िेतन और भत्तों तिा बोर्च के अन्य प्र शासवनक व् य यों की पूर्तच में; तिा
-(ि) इस अविवनयम के प्र योजनों को कायाचवन्ि त करने में,
-उपयोवजत ककए जाएंगे।
-( 3 ) वनवि में के सब िन 1 [ अनुमोकदत बैंक ] में वनविप् त ककए अििा ऐसी प्र वतभूवतयों में, जैसी सरकार द्व ारा अनुमोकदत की
-जाएं, विवनवहत ककए जाएंगे।
-2 [ प ष् टी करण –– इस िारा में “ अनुमोकदत बैंक ”, से भारतीय टे ट बैंक अविवनयम, 1955 ( 1955 का 23 ) की िारा 3 के अिीन
-गरित भारतीय टे ट बैंक, या भारतीय टे ट बैंक (सम नुर्ंगी बैंक) अविवनयम, 1959 ( 1959 का 38 ) की िारा 2 के िंर् (ट) में पररभावर्त
-कोई समनुर्ंगी बैंक, या बैंककारी कंपनी (उपक्रमों का अजचन और अन्त रण) अविवनयम, 1970 ( 1970 का 5 ) की िारा 3 के अिीन गरित
-कोई तत्िा नी नया बैंक या बैंककारी कंपनी (उपक्रमों का अजचन और अंतरण) अविवनयम, 1980 ( 1980 का 40 ) की िारा 3 के अिीन
-गरित कोई तत्िा नी नया बैंक अवभप्रेत है। ]
-5. न् या सी बोर्च का गिन –– ( 1 ) सरकार, शासकीय राजपत्र में अविसूर्ना द्व ारा ऐसी तारीि से जैसी उसमें विवनर्दचष्ट की जाए,
-नाविक भविष्य - वनवि का न् या सी - बोर्च के नाम से कहे जाने िािे एक बोर्च का गिन करेगी जो शाश्ि त उत्तराविकार और सामान्य मुरा
-िािा एक वनवमत्त वनकाय होगा तिा उस नाम से िह िाद िा सकेगा और उस पर िाद िाया जा सकेगा।
-( 2 ) बोर्च का प्र िान कायाचिय, मुम्ब ई में या ऐसे अन्य िा न में होगा वजसे सरकार शासकी य राजपत्र में अविसूर्ना द्व ारा
-विवनर्दचष्ट करे।
-( 3 ) बोर्च वनम्न विवित से वमिकर बनेगा ––
-(क) एक अध्य ि जो सरकार द्व ारा वनयुक्त ककया जाएगा;
-(ि) सरकार द्व ारा अपने पदिाररयों में से वनयुक्त तीन से अविक व् य वक्त;
-(ग) वनयोजकों का प्र वतवनवित्ि करने िािे तीन व् य वक् त जो वनयोजकों के ऐसे संगिन या संगिनों से, जो सरकार से
-इस वनवमत्त मान्य ताप्राप्त हों, परामशच के पश् र्ा त् सरकार द्व ारा वनयुक्त ककए जाएंगे;
-(घ) नाविकों का प्र वतवनवित्ि करने िािे तीन व् य वक् त जो नाविकों के ऐसे संगिन या संगिनों से, जो सरकार से इस
-वनवमत्त मान्य ताप्राप्त हों, परामशच के पश् र्ा त् सरकार द्व ारा वनयुक्त ककए जाएंगे;
-( 4 ) िे वनबन्ि न और शतें, वजनके अध्य िीन बोर्च का सद य वनयुक्त ककया जा सकेगा और बोर्च के अवििेशनों का समय, िा न
-और प्र कक्रया, वजसके अन्त गचत गणपूर्तच आती है, ऐसी होगी जैसी की म में उपबवन्ि त की जाएं।
-( 5 ) बोर्च अपने में वनवहत वनवि का प्र शासन ऐसी रीवत से करेगा जैसी की म में विवनर्दचष्ट की जाए।
-( 6 ) बोर्च अन्य ऐसे कृत् यों का पािन करेगा वजनके पािन करने की अपेिा की म के ककसी उपबं ि द्व ारा या के अिीन उससे
-की जाए।
-1 1997 के अविवनयम सं ० 29 की िारा 3 द्व ारा ( 12 - 11 - 1998 से) कवत पय शब्दों के िा न पर प्र वत िा वपत।
-2 1997 के अविवनयम सं ० 29 की िारा 3 द्व ारा ( 12 - 11 - 1998 से) अन्त:िा वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `3. नाविक भविष् य - वनवि की म –– ( 1 ) सरकार शासकीय राजपत्र में अविसूर्ना द्व ा रा नाविकों के विए भविष्य - वनवि की`
+  line `िा पना करने के विए नाविक भविष्य - वनवि की म के नाम से कही जाने िािी की म विर वर्त कर सकेगी तिा इस की म के विरर्न के`
+  line `पश् र्ा त् यिाशक्य शीघ्र इस अविवनयम और उस की म के उपबन्िों के अनुसार एक वनवि की िा पना की जाएगी।`
+  line `( 2 ) इस अविवनयम के उपबन्िों के अध्य िीन रहते हु ए, की म इस अविवनयम की अनुसूर्ी में विवनर्दचष्ट सब विर्यों के विए`
+  line `या उनमें से ककसी के विए उपबन्ि कर सकेगी।`
+  line `( 3 ) की म उपबन्ि कर सकेगी का उसमें को कोई उपबन्ि ऐसी तारीि से, जैसी की म में इस वनवमत्त विवनर्दच ष् ट की जाए, र्`
+  line `ाहे भविष्य ििी र् ाहे भूतििी रू प से प्र भािशीि होगा।`
+  line `( 4 ) की म इस अविवनयम से वभन् न ककसी तत्स मय प्र िृत्त विवि में अििा इस अविवनयम से वभन् न विवि के आिार पर प्र`
+  line `भािशीि ककसी विित में ककसी बात के अन्त र् िचष्ट होते हु ए भी प्र भािशीि होगी।`
+  line `( 5 ) सरकार की म में पररििचन, संशोिन, िेरिार या उसका वििण् र् न शासकीय राजपत्र में अविसूर्ना द्व ारा कर सकेगी।`
+  line `4. वनवि का वनवहत होना आकद –– ( 1 ) िारा 3 की उपिारा ( 1 ) में वनर्दचष्ट वनवि िारा 5 के अिीन गरित बोर्च में वनवहत होगी`
+  line `तिा उसके द्व ारा प्र शावसत की जा एगी।`
+  line `( 2 ) वनवि में के िन ––`
+  line `(क) बोर्च के कमचर्ाररयों के िेतन और भत्तों तिा बोर्च के अन्य प्र शासवनक व् य यों की पूर्तच में; तिा`
+  line `(ि) इस अविवनयम के प्र योजनों को कायाचवन्ि त करने में,`
+  line `उपयोवजत ककए जाएंगे।`
+  line `( 3 ) वनवि में के सब िन 1 [ अनुमोकदत बैंक ] में वनविप् त ककए अििा ऐसी प्र वतभूवतयों में, जैसी सरकार द्व ारा अनुमोकदत की`
+  line `जाएं, विवनवहत ककए जाएंगे।`
+  line `2 [ प ष् टी करण –– इस िारा में “ अनुमोकदत बैंक ”, से भारतीय टे ट बैंक अविवनयम, 1955 ( 1955 का 23 ) की िारा 3 के अिीन`
+  line `गरित भारतीय टे ट बैंक, या भारतीय टे ट बैंक (सम नुर्ंगी बैंक) अविवनयम, 1959 ( 1959 का 38 ) की िारा 2 के िंर् (ट) में पररभावर्त`
+  line `कोई समनुर्ंगी बैंक, या बैंककारी कंपनी (उपक्रमों का अजचन और अन्त रण) अविवनयम, 1970 ( 1970 का 5 ) की िारा 3 के अिीन गरित`
+  line `कोई तत्िा नी नया बैंक या बैंककारी कंपनी (उपक्रमों का अजचन और अंतरण) अविवनयम, 1980 ( 1980 का 40 ) की िारा 3 के अिीन`
+  line `गरित कोई तत्िा नी नया बैंक अवभप्रेत है। ]`
+  line `5. न् या सी बोर्च का गिन –– ( 1 ) सरकार, शासकीय राजपत्र में अविसूर्ना द्व ारा ऐसी तारीि से जैसी उसमें विवनर्दचष्ट की जाए,`
+  line `नाविक भविष्य - वनवि का न् या सी - बोर्च के नाम से कहे जाने िािे एक बोर्च का गिन करेगी जो शाश्ि त उत्तराविकार और सामान्य मुरा`
+  line `िािा एक वनवमत्त वनकाय होगा तिा उस नाम से िह िाद िा सकेगा और उस पर िाद िाया जा सकेगा।`
+  line `( 2 ) बोर्च का प्र िान कायाचिय, मुम्ब ई में या ऐसे अन्य िा न में होगा वजसे सरकार शासकी य राजपत्र में अविसूर्ना द्व ारा`
+  line `विवनर्दचष्ट करे।`
+  line `( 3 ) बोर्च वनम्न विवित से वमिकर बनेगा ––`
+  line `(क) एक अध्य ि जो सरकार द्व ारा वनयुक्त ककया जाएगा;`
+  line `(ि) सरकार द्व ारा अपने पदिाररयों में से वनयुक्त तीन से अविक व् य वक्त;`
+  line `(ग) वनयोजकों का प्र वतवनवित्ि करने िािे तीन व् य वक् त जो वनयोजकों के ऐसे संगिन या संगिनों से, जो सरकार से`
+  line `इस वनवमत्त मान्य ताप्राप्त हों, परामशच के पश् र्ा त् सरकार द्व ारा वनयुक्त ककए जाएंगे;`
+  line `(घ) नाविकों का प्र वतवनवित्ि करने िािे तीन व् य वक् त जो नाविकों के ऐसे संगिन या संगिनों से, जो सरकार से इस`
+  line `वनवमत्त मान्य ताप्राप्त हों, परामशच के पश् र्ा त् सरकार द्व ारा वनयुक्त ककए जाएंगे;`
+  line `( 4 ) िे वनबन्ि न और शतें, वजनके अध्य िीन बोर्च का सद य वनयुक्त ककया जा सकेगा और बोर्च के अवििेशनों का समय, िा न`
+  line `और प्र कक्रया, वजसके अन्त गचत गणपूर्तच आती है, ऐसी होगी जैसी की म में उपबवन्ि त की जाएं।`
+  line `( 5 ) बोर्च अपने में वनवहत वनवि का प्र शासन ऐसी रीवत से करेगा जैसी की म में विवनर्दचष्ट की जाए।`
+  line `( 6 ) बोर्च अन्य ऐसे कृत् यों का पािन करेगा वजनके पािन करने की अपेिा की म के ककसी उपबं ि द्व ारा या के अिीन उससे`
+  line `की जाए।`
+  line `1 1997 के अविवनयम सं ० 29 की िारा 3 द्व ारा ( 12 - 11 - 1998 से) कवत पय शब्दों के िा न पर प्र वत िा वपत।`
+  line `2 1997 के अविवनयम सं ० 29 की िारा 3 द्व ारा ( 12 - 11 - 1998 से) अन्त:िा वपत।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-6. सवमवतयां –– ( 1 ) बोर्च एक या अविक सवमवतयां बोर्च की ककसी शवक्त का प्र योग या ककसी कतचव्य का वनिचहन करने के विए
-अििा ऐसे ककसी विर्यकी, जो बोर्च ऐसी सवमवत या सवमवतयों को वनदेवशत करे, जांर् करने या उस पर ररपो ट देने और सिाह देने के
-विए समय - समय पर गरित कर सकेगा।
-( 2 ) सवमवत में ऐसे व् य वक् त हो सकेंगे जो बोर्च के सद य नहीं हैं ककन्तु उनकी संखया सवमवत की सद य संखया के आिे से अ विक
-न होगी।
-7. बोर्च के कमचर्ाररयों की वनयुवक्त –– ( 1 ) सरकार, एक नाविक भवि ष् य - वनवि आयुक्त वनयुक्त करेगी, जो बोर्च का मुखय
-कायचपािक आकिसर होगा तिा बोर्च के सािारण वनयंत्रण और अिीिण के अध्य िीन होगा।
-( 2 ) सरकार नाविक भविष्य - वनवि आयुक्त के कतचव्यों के वनिचहन में उसकी सहायता करने के विए इतने नाविक भवि ष् य - वनवि
-उप - आयुक्त 1 * * * वनयुक्त कर सकेगी, वजतने सरकार आिश्य क समझे।
-( 3 ) बोर्च ऐसे अन्य आकिसरों और कमचर्ाररयों को वनयुक्त कर सकेगा वजन्हें िह की म के दि प्र शासन के विए
-आिश्य क समझे।
-( 4 ) नाविक भविष्य - वनवि आयुक्त या नाविक भविष्य - वनवि उप - आयु क् त के पद पर 1 * * * कोई भी वनयुवक्त संघ िोक सेिा
-आयोग से परामशच के पश् र्ा त् ककए जाने के वसिाय न की जाएगी:
-परन् तु ऐसा कोई भी परामशच ककसी ऐसी वनयुवक्त की बाबत आिश्य क न होगा ––
-(क) यकद वनयुवक्त एक िर्च से अनविक की कािािवि के विए हो; तिा
-(ि) यकद वनयु क् त ककया जाने िािा व् य वक् त अपनी वनयुवक्त के समय ––
-( i ) भारतीय प्र शासवनक सेिा का सद य हो; अििा
-( ii ) सरकार की सेिा में िगच I या िगच II पद पर हो या बोर्च की सेिा में हो।
-( 5 ) नाविक भविष्य - वनवि आयुक्त की तिा उपिारा ( 2 ) में वनर्दचष्ट आकिसरों की भती की रीवत, उनके संबिम् और भत्ते,
-अनुशासन तिा सेिा की अन्य शतें ऐसी होंगी जैसी सरकार द्व ारा विवनर्दचष्ट की जाएं।
-( 6 ) बोर्च के अन्य आकिसरों और कमचर्ाररयों की भती की रीवत, उनके संबिम् और भत्ते, अनुशासन तिा उनकी सेिा की अन्य
-शतें ऐसी होंगी जैसी सरकार के अनुमोदन से बोर्च द्व ारा विवनर्दचष्ट की जाएं।
-( 7 ) इस िारा के अिीन वनयुक्त सब व् य वक् त बोर्च के कमचर्ारी होंगे।
-8. अवभदाय –– ( 1 ) हर वनयोजक, वजसे य ह अविवनयम िागू होता है, अपने द्व ारा वनयोवजत हर एक नाविक की बाबत (जो
-सद य हो) जुिाई, 1964 के प्र िम कदन आरम्भ होने िािी और मार्च, 1968 के 31 िें कदन समाप्त होने िािी कािािवि के विए, ऐसे हर
-एक नाविक को दी गई या देय मजदूरी के छह प्र वतशत की दर से, 2 [ अप्रैि, 1968 के प्र िम कदन से आरंभ होने िािी और कदसम्ब र,
-1977 के 31 िें कदन को समाप्त होने िािी कािािवि के विए आि प्र वतशत की दर से और तत्प श् र् ा त् दस प्र वतशत की दर से या ऐसी
-उच् र् तर दर से जो की म में विवनर्दचष्ट की जाए,] उस वनवि में अवभदाय करेगा तिा ऐसा हर नाविक भी उस वनवि में ऐसी रकम का,
-जो उसकी बाबत वनयोजक द्व ारा देय अवभदाय के बराबर है, अवभदाय करेगा:
-परन् तु पूिोक् त अवभदाय की रकम, जहां तक कक िह की म के प्र ारम्भ से पूिच की कािािवि से सम्ब ि है, केिि ऐसी तारीि
-को (जो की म के प्र ारम्भ के पश् र्ा त् साि कदन से पूिचतर की न होगी) जैसी कक सरकार शासकीय राजपत्र में अविसूर्ना द्व ारा इस
-वनवमत्त विवनर्दच ष् ट करे, यिावि वत, वनयोजक या नाविक द्व ारा देय होगी।
-( 2 ) वनयोजक अपने द्व ारा वनयोवजत हर एक नाविक की बाबत (जो सद य हो) वनयोजक - अवभदाय और कमचर्ारी - अवभदाय
-दोनों देगा तिा ऐसा कमचर्ारी - अवभदाय नाविक से उसकी मजदूरी में से कटौती करके, न कक अन्य िा, िसूि करने का हकदार होगा।
-( 3 ) हर वनयोजक वनवि के प्र शासन के िर्च के विए िन की ऐसी रावशयां देगा जैसी कक की म में विवनर्दचष्ट हों।
-( 4 ) जहां कक उपिारा ( 1 ) के अिीन ककसी अवभदाय की रकम में या उपिारा ( 3 ) के अिीन देय ककसी रावश में रु पए का भाग
-अन्त र् िचष्ट हो िहां यकद ऐसा भाग पर्ास पैसे या अविक है तो उसे पूरा एक रु पया वगना जाएगा और यकद ऐसा भाग पर्ास पैसे से कम
-है तो उसे गणना में नहीं विया जाएगा।
-9. वनयोजकों द्व ारा शोध्य िन का अििारण –– ( 1 ) नाविक भविष्य - वनवि आयुक्त या कोई नाविक भविष्य - वनवि उप - आयुक्त
-उस रकम का वनिाचरण आदेश द्व ारा कर सकेगा जो ककसी वनयोजक द्व ारा इस अविवनयम या की म के ककसी उपबन्ि के अिीन शोध्य हो
-तिा इस प्र योजन के विए ऐसी जांर् कर सकेगा जैसी िह आिश्य क समझे।
-1 1997 के अविवनयम सं ० 29 की िारा 4 द्व ारा ( 12 - 11 - 1998 से) कवतपय शब्दों का िोप ककया गया।
-2 1997 के अविवनयम सं ० 29 की िारा 5 द्व ारा ( 12 - 11 - 19 98 से) प्र वतिा वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `6. सवमवतयां –– ( 1 ) बोर्च एक या अविक सवमवतयां बोर्च की ककसी शवक्त का प्र योग या ककसी कतचव्य का वनिचहन करने के विए`
+  line `अििा ऐसे ककसी विर्यकी, जो बोर्च ऐसी सवमवत या सवमवतयों को वनदेवशत करे, जांर् करने या उस पर ररपो ट देने और सिाह देने के`
+  line `विए समय - समय पर गरित कर सकेगा।`
+  line `( 2 ) सवमवत में ऐसे व् य वक् त हो सकेंगे जो बोर्च के सद य नहीं हैं ककन्तु उनकी संखया सवमवत की सद य संखया के आिे से अ विक`
+  line `न होगी।`
+  line `7. बोर्च के कमचर्ाररयों की वनयुवक्त –– ( 1 ) सरकार, एक नाविक भवि ष् य - वनवि आयुक्त वनयुक्त करेगी, जो बोर्च का मुखय`
+  line `कायचपािक आकिसर होगा तिा बोर्च के सािारण वनयंत्रण और अिीिण के अध्य िीन होगा।`
+  line `( 2 ) सरकार नाविक भविष्य - वनवि आयुक्त के कतचव्यों के वनिचहन में उसकी सहायता करने के विए इतने नाविक भवि ष् य - वनवि`
+  line `उप - आयुक्त 1 * * * वनयुक्त कर सकेगी, वजतने सरकार आिश्य क समझे।`
+  line `( 3 ) बोर्च ऐसे अन्य आकिसरों और कमचर्ाररयों को वनयुक्त कर सकेगा वजन्हें िह की म के दि प्र शासन के विए`
+  line `आिश्य क समझे।`
+  line `( 4 ) नाविक भविष्य - वनवि आयुक्त या नाविक भविष्य - वनवि उप - आयु क् त के पद पर 1 * * * कोई भी वनयुवक्त संघ िोक सेिा`
+  line `आयोग से परामशच के पश् र्ा त् ककए जाने के वसिाय न की जाएगी:`
+  line `परन् तु ऐसा कोई भी परामशच ककसी ऐसी वनयुवक्त की बाबत आिश्य क न होगा ––`
+  line `(क) यकद वनयुवक्त एक िर्च से अनविक की कािािवि के विए हो; तिा`
+  line `(ि) यकद वनयु क् त ककया जाने िािा व् य वक् त अपनी वनयुवक्त के समय ––`
+  line `( i ) भारतीय प्र शासवनक सेिा का सद य हो; अििा`
+  line `( ii ) सरकार की सेिा में िगच I या िगच II पद पर हो या बोर्च की सेिा में हो।`
+  line `( 5 ) नाविक भविष्य - वनवि आयुक्त की तिा उपिारा ( 2 ) में वनर्दचष्ट आकिसरों की भती की रीवत, उनके संबिम् और भत्ते,`
+  line `अनुशासन तिा सेिा की अन्य शतें ऐसी होंगी जैसी सरकार द्व ारा विवनर्दचष्ट की जाएं।`
+  line `( 6 ) बोर्च के अन्य आकिसरों और कमचर्ाररयों की भती की रीवत, उनके संबिम् और भत्ते, अनुशासन तिा उनकी सेिा की अन्य`
+  line `शतें ऐसी होंगी जैसी सरकार के अनुमोदन से बोर्च द्व ारा विवनर्दचष्ट की जाएं।`
+  line `( 7 ) इस िारा के अिीन वनयुक्त सब व् य वक् त बोर्च के कमचर्ारी होंगे।`
+  line `8. अवभदाय –– ( 1 ) हर वनयोजक, वजसे य ह अविवनयम िागू होता है, अपने द्व ारा वनयोवजत हर एक नाविक की बाबत (जो`
+  line `सद य हो) जुिाई, 1964 के प्र िम कदन आरम्भ होने िािी और मार्च, 1968 के 31 िें कदन समाप्त होने िािी कािािवि के विए, ऐसे हर`
+  line `एक नाविक को दी गई या देय मजदूरी के छह प्र वतशत की दर से, 2 [ अप्रैि, 1968 के प्र िम कदन से आरंभ होने िािी और कदसम्ब र,`
+  line `1977 के 31 िें कदन को समाप्त होने िािी कािािवि के विए आि प्र वतशत की दर से और तत्प श् र् ा त् दस प्र वतशत की दर से या ऐसी`
+  line `उच् र् तर दर से जो की म में विवनर्दचष्ट की जाए,] उस वनवि में अवभदाय करेगा तिा ऐसा हर नाविक भी उस वनवि में ऐसी रकम का,`
+  line `जो उसकी बाबत वनयोजक द्व ारा देय अवभदाय के बराबर है, अवभदाय करेगा:`
+  line `परन् तु पूिोक् त अवभदाय की रकम, जहां तक कक िह की म के प्र ारम्भ से पूिच की कािािवि से सम्ब ि है, केिि ऐसी तारीि`
+  line `को (जो की म के प्र ारम्भ के पश् र्ा त् साि कदन से पूिचतर की न होगी) जैसी कक सरकार शासकीय राजपत्र में अविसूर्ना द्व ारा इस`
+  line `वनवमत्त विवनर्दच ष् ट करे, यिावि वत, वनयोजक या नाविक द्व ारा देय होगी।`
+  line `( 2 ) वनयोजक अपने द्व ारा वनयोवजत हर एक नाविक की बाबत (जो सद य हो) वनयोजक - अवभदाय और कमचर्ारी - अवभदाय`
+  line `दोनों देगा तिा ऐसा कमचर्ारी - अवभदाय नाविक से उसकी मजदूरी में से कटौती करके, न कक अन्य िा, िसूि करने का हकदार होगा।`
+  line `( 3 ) हर वनयोजक वनवि के प्र शासन के िर्च के विए िन की ऐसी रावशयां देगा जैसी कक की म में विवनर्दचष्ट हों।`
+  line `( 4 ) जहां कक उपिारा ( 1 ) के अिीन ककसी अवभदाय की रकम में या उपिारा ( 3 ) के अिीन देय ककसी रावश में रु पए का भाग`
+  line `अन्त र् िचष्ट हो िहां यकद ऐसा भाग पर्ास पैसे या अविक है तो उसे पूरा एक रु पया वगना जाएगा और यकद ऐसा भाग पर्ास पैसे से कम`
+  line `है तो उसे गणना में नहीं विया जाएगा।`
+  line `9. वनयोजकों द्व ारा शोध्य िन का अििारण –– ( 1 ) नाविक भविष्य - वनवि आयुक्त या कोई नाविक भविष्य - वनवि उप - आयुक्त`
+  line `उस रकम का वनिाचरण आदेश द्व ारा कर सकेगा जो ककसी वनयोजक द्व ारा इस अविवनयम या की म के ककसी उपबन्ि के अिीन शोध्य हो`
+  line `तिा इस प्र योजन के विए ऐसी जांर् कर सकेगा जैसी िह आिश्य क समझे।`
+  line `1 1997 के अविवनयम सं ० 29 की िारा 4 द्व ारा ( 12 - 11 - 1998 से) कवतपय शब्दों का िोप ककया गया।`
+  line `2 1997 के अविवनयम सं ० 29 की िारा 5 द्व ारा ( 12 - 11 - 19 98 से) प्र वतिा वपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-( 2 ) उपिारा ( 1 ) के अिीन जांर् करने िािे आकिसर की, ऐसी जांर् के प्र योजन के विए, वनम्न विवित विर्यों की बाबत िही
-शवक्त यां होंगी जो ककसी िाद का विर्ारण करने के विए वसविि प्र कक्रया संवहता, 1908 ( 1908 का 5 ) के अिीन ककसी न् या यािय में
-वनवहत होती हैं, अिाचत्: ––
-( क ) ककसी व् य वक् त को हावजर कराना या शपि पर उसकी परीिा करना;
-( ि ) दता िेजों को प्र कट करने या पेश करने की अपेिा करना;
-(ग) शपिपत्र पर साक्ष्य प्र ाप्त करना;
-(घ) सावियों की परीिा के विए कमीशन वनकािना,
-और ऐसी जांर् भारतीय दंर् संवहता ( 1860 का 45 ) की िारा 193 और 228 के अिच के अंदर और िारा 196 के प्र योजन के विए न् या वयक
-कायचिाही समझी जाएगी।
-( 3 ) इस िारा के अिीन कोई आदेश तब तक नहीं ककया जाएगा जब तक कक वनयोजक को अपने मामिे का अभ्या िेदन करने
-का युवक्त युक्त अिसर न दे कदया गया हो।
-( 4 ) इस िारा के अिीन ककया गया आदेश अवन्त म होगा और ककसी न् या यािय में प्रश् न गत नहीं ककया जाएगा।
-10. वनयोजकों द्व ा रा शोध्य िन की िसूिी का ढंग –– कोई ऐसी रकम जो वनयोजक द्व ारा वनवि में देय ककसी अवभदाय की
-बाबत या िारा 18 के अिीन िसूिीय नुकसानी की बाबत या इस अविवनयम के ककसी अन्य उपबन्ि के अिीन या की म के ककसी
-उपबन्ि के अिीन उसके द्व ारा देय ककन्हीं प्र भारों की बाबत शोध्य हो, यकद िह रकम बकाया में हो तो, सरकार द्व ारा उसी रीवत से िसूि
-की जाएगी जैसे कक भू - राजि की बकाया िसूि की जाती है।
-11. वनवि का 1961 के अविवनयम 43 के अिीन मान्य ताप्राप्त भवि ष् य - वनवि समझा जाना –– वनवि आय - कर अविवनयम,
-1961 के प्र योजनों के विए उस अ विवनयम के अिच के अंदर मान्य ताप्राप्त भवि ष् य - वनवि समझी जाएगी।
-12. कुकी के विरुि संरिण –– ( 1 ) वनवि में ककसी सद य के नाम जमा रकम ककसी प्र कार भी समनुकदष् ट या भाररत ककए जाने
-योग्य न होगी और उस सदय द्व ारा उपगत ककसी ऋण या दावयत्ि के बारे में ककसी न् या यािय की ककसी वर्क्री या आदेश के अिीन कुकच
-ककए जाने के दावयत्ि के अिीन न होगी और न तो प्रे वसर्ेन्सी नगर कदिािा अविवनयम, 1909 ( 1909 का 3 ) के अिीन वनयुक्त शासकीय
-समनुदेवशती और न प्र ान्ती य कदिािा अविवनयम, 1920 ( 1920 का 5 ) के अिीन वनयुक्त कोई ररसीिर ऐसी ककसी रकम का, या उस
-रकम पर ककसी दािे का, हकदार होगा।
-( 2 ) ककसी सद य की मृत्यु के समय उसके नाम जमा और की म के अिीन उसके नामवनदेवशती को देय कोई रकम उस
-नामवनदेवशती में ऐसी ककसी कटौती के अध्य िीन वनवहत होगी जो की म द्व ारा प्र ाविकृत हो तिा मृतक द्व ा रा उपगत या उस सद य की
-मृत्यु के पूिच मृतक या नामवनदेवशती द्व ारा उपगत ककसी ऋण या अन्य दावयत्ि से मुक्त होगी।
-13. अवभदायों के संदाय की अन्य ऋणों पर पूर्िचकता –– जहां कक कोई वनयोजक कदिाविया न् या यवनणीत ककया जाता है,
-अििा कम्प नी होने की दशा में उ स के पररसमापन का आदेश ककया जाता है, िहां ऐसी कोई रकम जो वनयोजक द्व ारा वनवि में देय ककसी
-अवभदाय की बाबत, या िारा 18 के अिीन िसूिीय नुकसानी की बाबत, या इस अविवनयम के ककसी अन्य उपबन्ि के अिीन या की म
-के ककसी उपबन्ि के अिीन उसके द्व ारा देय ककन्हीं प्र भा रों की बाबत शोध्य हो, उस दशा में जबकक उनके विए दावयत्ि ऐसे न्
-या यवनणचयन या पररसमापन का आदेश कदए जाने से पूिच प्र ोद्भूत हु आ हो, ऐसे ऋणों के अन्त गचत समझी जाएगी वजन्हें प्रे सीर्ेन्सी नगर
-कदिािा अविवनयम, 1909 ( 1909 का 3 ) की िारा 49 के अिीन या प्र ान्ती य कदिािा अविवनयम, 1920 ( 1920 का 5 ) की िारा 61 के
-अिीन या कम्प नी अविवनयम, 1956 ( 1956 का 1 ) की िारा 530 के अिीन, यिावि वत, कदिाविए की सम्प वत्त का या पररसमापन की
-जाने िािी कम्प नी की आवत यों का वितरण करने में अन्य सब ऋणों के ऊपर पू र् िचकता कदया जाना है।
-14. वनयोजक द्व ारा मजदूरी का कम न ककया जाना –– कोई भी वनयोजक ककसी नाविक की, वजसे की म िागू होती है, मजदूरी
-को अििा िािचक्य पेंशन, उपदान, या भवि ष् य - वनवि की प्र कृवत के िायदों की कुि मात्रा को, वजसके विए िह नाविक ककसी कमीदि के
-साि करार के या पिकारों के बीर् ककसी अन्य करार के अिीन हकदार है, वनवि के विए ककसी अवभदाय की अििा इस अविवनयम या
-की म के अिीन ककसी प्र भारों के संदाय की बाबत अपने दावयत्ि के कारण ही प्रत् य ित: या अप्रत्य ित: कम नहीं करेगा।
-15. वनरीिक –– ( 1 ) सरकार शासकीय राजपत्र में अविसूर्ना द्व ारा इस अविवनयम और की म के प्र योजनों के विए, बोर्च के
-ऐसे कमचर्ाररयों को, वजन्हें सरकार िीक समझे, वनरीिक वनयुक्त कर सकेगी तिा उनकी अविकाररता पररवनवश् र् त कर सकेगी।
-( 2 ) उपिारा ( 1 ) के अिीन वनयुक्त हर वनरीिक इस अविवनयम या की म के सम्ब न् ि में दी गई ककसी जानकारी की शुिता
-की जांर् करने के प्र योजन के विए, अििा यह अवभवनश् र् य करने के प्र योजन के विए कक इस अविवनयम के या की म के उपबन्िों में से
-ककसी का अनुपािन हु आ है या नहीं ––
-(क) ककसी वनयोजक से ऐसी जानकारी देने की अपेिा कर स केगा जो िह की म के सम्ब न् ि में आिश्य क समझे;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `( 2 ) उपिारा ( 1 ) के अिीन जांर् करने िािे आकिसर की, ऐसी जांर् के प्र योजन के विए, वनम्न विवित विर्यों की बाबत िही`
+  line `शवक्त यां होंगी जो ककसी िाद का विर्ारण करने के विए वसविि प्र कक्रया संवहता, 1908 ( 1908 का 5 ) के अिीन ककसी न् या यािय में`
+  line `वनवहत होती हैं, अिाचत्: ––`
+  line `( क ) ककसी व् य वक् त को हावजर कराना या शपि पर उसकी परीिा करना;`
+  line `( ि ) दता िेजों को प्र कट करने या पेश करने की अपेिा करना;`
+  line `(ग) शपिपत्र पर साक्ष्य प्र ाप्त करना;`
+  line `(घ) सावियों की परीिा के विए कमीशन वनकािना,`
+  line `और ऐसी जांर् भारतीय दंर् संवहता ( 1860 का 45 ) की िारा 193 और 228 के अिच के अंदर और िारा 196 के प्र योजन के विए न् या वयक`
+  line `कायचिाही समझी जाएगी।`
+  line `( 3 ) इस िारा के अिीन कोई आदेश तब तक नहीं ककया जाएगा जब तक कक वनयोजक को अपने मामिे का अभ्या िेदन करने`
+  line `का युवक्त युक्त अिसर न दे कदया गया हो।`
+  line `( 4 ) इस िारा के अिीन ककया गया आदेश अवन्त म होगा और ककसी न् या यािय में प्रश् न गत नहीं ककया जाएगा।`
+  line `10. वनयोजकों द्व ा रा शोध्य िन की िसूिी का ढंग –– कोई ऐसी रकम जो वनयोजक द्व ारा वनवि में देय ककसी अवभदाय की`
+  line `बाबत या िारा 18 के अिीन िसूिीय नुकसानी की बाबत या इस अविवनयम के ककसी अन्य उपबन्ि के अिीन या की म के ककसी`
+  line `उपबन्ि के अिीन उसके द्व ारा देय ककन्हीं प्र भारों की बाबत शोध्य हो, यकद िह रकम बकाया में हो तो, सरकार द्व ारा उसी रीवत से िसूि`
+  line `की जाएगी जैसे कक भू - राजि की बकाया िसूि की जाती है।`
+  line `11. वनवि का 1961 के अविवनयम 43 के अिीन मान्य ताप्राप्त भवि ष् य - वनवि समझा जाना –– वनवि आय - कर अविवनयम,`
+  line `1961 के प्र योजनों के विए उस अ विवनयम के अिच के अंदर मान्य ताप्राप्त भवि ष् य - वनवि समझी जाएगी।`
+  line `12. कुकी के विरुि संरिण –– ( 1 ) वनवि में ककसी सद य के नाम जमा रकम ककसी प्र कार भी समनुकदष् ट या भाररत ककए जाने`
+  line `योग्य न होगी और उस सदय द्व ारा उपगत ककसी ऋण या दावयत्ि के बारे में ककसी न् या यािय की ककसी वर्क्री या आदेश के अिीन कुकच`
+  line `ककए जाने के दावयत्ि के अिीन न होगी और न तो प्रे वसर्ेन्सी नगर कदिािा अविवनयम, 1909 ( 1909 का 3 ) के अिीन वनयुक्त शासकीय`
+  line `समनुदेवशती और न प्र ान्ती य कदिािा अविवनयम, 1920 ( 1920 का 5 ) के अिीन वनयुक्त कोई ररसीिर ऐसी ककसी रकम का, या उस`
+  line `रकम पर ककसी दािे का, हकदार होगा।`
+  line `( 2 ) ककसी सद य की मृत्यु के समय उसके नाम जमा और की म के अिीन उसके नामवनदेवशती को देय कोई रकम उस`
+  line `नामवनदेवशती में ऐसी ककसी कटौती के अध्य िीन वनवहत होगी जो की म द्व ारा प्र ाविकृत हो तिा मृतक द्व ा रा उपगत या उस सद य की`
+  line `मृत्यु के पूिच मृतक या नामवनदेवशती द्व ारा उपगत ककसी ऋण या अन्य दावयत्ि से मुक्त होगी।`
+  line `13. अवभदायों के संदाय की अन्य ऋणों पर पूर्िचकता –– जहां कक कोई वनयोजक कदिाविया न् या यवनणीत ककया जाता है,`
+  line `अििा कम्प नी होने की दशा में उ स के पररसमापन का आदेश ककया जाता है, िहां ऐसी कोई रकम जो वनयोजक द्व ारा वनवि में देय ककसी`
+  line `अवभदाय की बाबत, या िारा 18 के अिीन िसूिीय नुकसानी की बाबत, या इस अविवनयम के ककसी अन्य उपबन्ि के अिीन या की म`
+  line `के ककसी उपबन्ि के अिीन उसके द्व ारा देय ककन्हीं प्र भा रों की बाबत शोध्य हो, उस दशा में जबकक उनके विए दावयत्ि ऐसे न्`
+  line `या यवनणचयन या पररसमापन का आदेश कदए जाने से पूिच प्र ोद्भूत हु आ हो, ऐसे ऋणों के अन्त गचत समझी जाएगी वजन्हें प्रे सीर्ेन्सी नगर`
+  line `कदिािा अविवनयम, 1909 ( 1909 का 3 ) की िारा 49 के अिीन या प्र ान्ती य कदिािा अविवनयम, 1920 ( 1920 का 5 ) की िारा 61 के`
+  line `अिीन या कम्प नी अविवनयम, 1956 ( 1956 का 1 ) की िारा 530 के अिीन, यिावि वत, कदिाविए की सम्प वत्त का या पररसमापन की`
+  line `जाने िािी कम्प नी की आवत यों का वितरण करने में अन्य सब ऋणों के ऊपर पू र् िचकता कदया जाना है।`
+  line `14. वनयोजक द्व ारा मजदूरी का कम न ककया जाना –– कोई भी वनयोजक ककसी नाविक की, वजसे की म िागू होती है, मजदूरी`
+  line `को अििा िािचक्य पेंशन, उपदान, या भवि ष् य - वनवि की प्र कृवत के िायदों की कुि मात्रा को, वजसके विए िह नाविक ककसी कमीदि के`
+  line `साि करार के या पिकारों के बीर् ककसी अन्य करार के अिीन हकदार है, वनवि के विए ककसी अवभदाय की अििा इस अविवनयम या`
+  line `की म के अिीन ककसी प्र भारों के संदाय की बाबत अपने दावयत्ि के कारण ही प्रत् य ित: या अप्रत्य ित: कम नहीं करेगा।`
+  line `15. वनरीिक –– ( 1 ) सरकार शासकीय राजपत्र में अविसूर्ना द्व ारा इस अविवनयम और की म के प्र योजनों के विए, बोर्च के`
+  line `ऐसे कमचर्ाररयों को, वजन्हें सरकार िीक समझे, वनरीिक वनयुक्त कर सकेगी तिा उनकी अविकाररता पररवनवश् र् त कर सकेगी।`
+  line `( 2 ) उपिारा ( 1 ) के अिीन वनयुक्त हर वनरीिक इस अविवनयम या की म के सम्ब न् ि में दी गई ककसी जानकारी की शुिता`
+  line `की जांर् करने के प्र योजन के विए, अििा यह अवभवनश् र् य करने के प्र योजन के विए कक इस अविवनयम के या की म के उपबन्िों में से`
+  line `ककसी का अनुपािन हु आ है या नहीं ––`
+  line `(क) ककसी वनयोजक से ऐसी जानकारी देने की अपेिा कर स केगा जो िह की म के सम्ब न् ि में आिश्य क समझे;`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5
-(ि) ककसी युवक् त युक्त समय पर और ऐसी सहायता के साि, यकद कोई हो, जैसी िह िीक समझे, ककसी कायाचिय में
-या पोत में प्र िेश कर सकेगा, उसकी तिाशी िे सकेगा तिा उसका भारसािक पाए गए व् य वक् त से य ह अपेिा कर सकेगा कक
-िह नाविकों के वनयोजन से या नाविकों की मजदूरी के संदाय से सम्ब वन्ि त िेिाओं, बवहयों, रवजट रों या अन्य द ता िेजों को
-उसके सम ि परीिा के विए पेश करे;
-(ग) पूिोक् त प्र योजनों में से ककसी से सुसंगत ककसी बात के बारे में वनयोजक को, उसके अवभकताच या से िक की, या
-ककसी अन्य ऐसे व् य वक् त की, जो कायाचिय या पोत का भारसािक पाया जाए या वजसके बारे में वनरीिक को यह विश्िा स
-करने के विए युवक्त युक्त हेतुक हो कक िह उस कायाचिय में या उस पोत पर कमचर्ारी है या रहा है, परीिा कर सकेगा;
-(घ) वनवि के सम्ब न् ि में रिी गई ककसी पुत क, रवजट र या अन्य दता िेज की प्र वतविवपयां बना सकेगा या उनसे
-उिरण िे सकेगा और जहां कक उसके पास यह विश्िा स करने का कारण हो कक इस अविवनयम के अिीन कोई अपराि
-वनयोजक द्व ारा ककया गया है िहां िह ऐसी सहायता के साि, जैसी िह िीक समझे, ऐसी बही, रवजट र या अन्य द ता िेज या
-उनके कोई प्र भाग, जैसे िह उस अपराि की बाबत सुसंगत समझे, अवभगृहीत कर सकेगा;
-( ङ ) ऐसी अन्य शवक्त यों का प्र योग कर सकेगा जैसी कक की म में उपबवन्ि त हों।
-1 [ ( 3 ) दंर् प्र कक्रया संवहता, 1973 ( 197 4 का 2 ) के उपबंि उपिारा ( 2 ) के अिीन की ककसी तिाशी या अवभग्रहण को,
-यिाशक्य, िैसे ही िागू होंगे कक िे उक्त संवहता की िारा 94 के अिीन वनकािे गए िारंट के प्र ाविकार के अिीन की गई ककसी तिाशी
-या अवभग्रहण को िागू होते हैं। ]
-( 4 ) हर वनरीिक भारतीय दण् र् संवहता ( 1860 का 45 ) की िारा 21 के अिच के अंदर िोक सेिक समझा जाएगा।
-16. शावत यां –– ( 1 ) जो कोई इस अविवनयम या की म के अिीन अपने द्व ारा ककसी संदाय के कदए जाने से बर्ने अििा ऐसे
-संदाय से बर्ने में ककसी अन्य व् य वक् त को समिच करने के प्र योजन से, जानते हु ए, वमथ्या किन या वमथ्या व् य पदेशन करेगा या कराएगा
-िह कारािास से, वजसकी अिवि 2 [ एक िर्च तक की हो सकेगी, या जुमाचने से, जो पर्ास हजार रु पए तक का हो सकेगा ] या दोनों से
-दण् र् नीय होगा।
-( 2 ) की म यह उपबन्ि कर सकेगी कक कोई व् य वक् त, जो उसके उपबन्िों में से ककसी का उल्िं घन करेगा या उसके अनुपा िन में व्
-य वतक्रम करेगा, कारािास से, वजसकी अिवि छह मास तक की हो सकेगी, या जुमाचने से, जो एक हजार रु पए तक का हो सकेगा, या
-दोनों से दण् र् नीय होगा।
-( 3 ) जो कोई इस अविवनयम के ककसी उपबन्ि का उल्िं घन करेगा या उसके अनुपािन में व् य वतक्रम करेगा िह, यकद ऐसे
-उल्िं घन या अननुपािन के विए इस अविवनयम द्व ारा या इसके अिीन कोई अन्य शावत अन्य त्र उपबवन्ि त नहीं है, कारािास से, जो
-तीन मास तक का हो सकेगा या जुमाचने से, जो एक हजार रु पए तक का हो सकेगा, या दोनों से, दण् र् नीय होगा।
-( 4 ) कोई भी न् या यािय इस अविवनयम के अिी न या की म के अिीन दण् र् नीय ककसी अपराि का संज्ञान ऐसा अपराि गरित
-करने िािे तथ्यों की ऐसी विवित ररपोटच पर करने के वसिाय नहीं करेगा जो नाविक भविष्य - वनवि आयुक्त द्व ारा या िारा 15 की
-उपिारा ( 1 ) के अिीन वनयुक्त ककसी वनरीिक द्व ारा ऐसे प्र ाविकारी की, जो सरकार द्व ारा इस वनवमत्त विवनर्दचष्ट ककया जाए, पूिच
-मंजूरी से की गई हो।
-17. कम्प वनयों द्व ारा अपराि –– ( 1 ) यकद इस अविवनयम या की म के अिीन अपराि करने िािा व् य वक् त कम्प नी है तो हर व्
-य वक् त, जो अपराि के ककए जाने के समय कम्प नी के कारबार के संर्ािन के वि ए उस कम्प नी का भारसािक और उस कम्प नी के प्र वत
-उत्तरदायी िा और िह कम्प नी भी उस अपराि के दोर्ी समझे जाएंगे और तद्नुसार अपने विरुि कायचिाही की जाने और दंवर्त ककए
-जाने के दावयत्ि के अिीन होंगे:
-परन् तु इस उपिारा में अंतर्िचष्ट कोई भी बात ऐसे ककसी व् य वक् त को ककसी दण् र् के दावयत्ि के अिीन न करेगी यकद िह यह
-सावबत कर देता है कक अपराि उसकी जानकारी के वबना ककया गया िा या ऐसे अपराि का ककया जाना वनिाररत करने के विए उसने
-सम्य क् तत्प रता बरती िी।
-( 2 ) उपिारा ( 1 ) में अंतर्िचष्ट ककसी बात के होते हु ए भी, जहां कक इस अविवनयम या की म के अिीन कोई अपराि कम्प नी द्व
-ारा ककया गया है और यह सावबत कर कदया जाता है कक िह अपराि कम्प नी के ककसी वनदेशक, प्र बन्ि क, सवर्ि या अन्य आकिसर की
-सम्म वत या मौनानुकूिता से ककया गया है या उसकी ओर से हु ई ककसी उपेिा के कारण हु आ माना जा सकता है िहां ऐसा वनदेशक, प्र
-बन्ि क, सवर्ि या अन्य आकिसर उस अपराि का दोर्ी समझा जाएगा और तद्नुसार अपने विरुि कायचिाही की जाने और दवण् र् त
-ककए जाने के दावयत्ि के अिीन होगा।
-1 1997 के अविवनयम सं ० 29 की िारा 6 द्व ारा ( 12 - 11 - 1998 से) उपिारा ( 3 ) के िा न पर प्र वत िा वपत।
-2 1997 के अविवनयम सं ० 29 की िारा 7 द्व ारा ( 12 - 11 - 1998 से) कवतपय शब्दों के िा न पर प्र वत िा वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 5
+  line `(ि) ककसी युवक् त युक्त समय पर और ऐसी सहायता के साि, यकद कोई हो, जैसी िह िीक समझे, ककसी कायाचिय में`
+  line `या पोत में प्र िेश कर सकेगा, उसकी तिाशी िे सकेगा तिा उसका भारसािक पाए गए व् य वक् त से य ह अपेिा कर सकेगा कक`
+  line `िह नाविकों के वनयोजन से या नाविकों की मजदूरी के संदाय से सम्ब वन्ि त िेिाओं, बवहयों, रवजट रों या अन्य द ता िेजों को`
+  line `उसके सम ि परीिा के विए पेश करे;`
+  line `(ग) पूिोक् त प्र योजनों में से ककसी से सुसंगत ककसी बात के बारे में वनयोजक को, उसके अवभकताच या से िक की, या`
+  line `ककसी अन्य ऐसे व् य वक् त की, जो कायाचिय या पोत का भारसािक पाया जाए या वजसके बारे में वनरीिक को यह विश्िा स`
+  line `करने के विए युवक्त युक्त हेतुक हो कक िह उस कायाचिय में या उस पोत पर कमचर्ारी है या रहा है, परीिा कर सकेगा;`
+  line `(घ) वनवि के सम्ब न् ि में रिी गई ककसी पुत क, रवजट र या अन्य दता िेज की प्र वतविवपयां बना सकेगा या उनसे`
+  line `उिरण िे सकेगा और जहां कक उसके पास यह विश्िा स करने का कारण हो कक इस अविवनयम के अिीन कोई अपराि`
+  line `वनयोजक द्व ारा ककया गया है िहां िह ऐसी सहायता के साि, जैसी िह िीक समझे, ऐसी बही, रवजट र या अन्य द ता िेज या`
+  line `उनके कोई प्र भाग, जैसे िह उस अपराि की बाबत सुसंगत समझे, अवभगृहीत कर सकेगा;`
+  line `( ङ ) ऐसी अन्य शवक्त यों का प्र योग कर सकेगा जैसी कक की म में उपबवन्ि त हों।`
+  line `1 [ ( 3 ) दंर् प्र कक्रया संवहता, 1973 ( 197 4 का 2 ) के उपबंि उपिारा ( 2 ) के अिीन की ककसी तिाशी या अवभग्रहण को,`
+  line `यिाशक्य, िैसे ही िागू होंगे कक िे उक्त संवहता की िारा 94 के अिीन वनकािे गए िारंट के प्र ाविकार के अिीन की गई ककसी तिाशी`
+  line `या अवभग्रहण को िागू होते हैं। ]`
+  line `( 4 ) हर वनरीिक भारतीय दण् र् संवहता ( 1860 का 45 ) की िारा 21 के अिच के अंदर िोक सेिक समझा जाएगा।`
+  line `16. शावत यां –– ( 1 ) जो कोई इस अविवनयम या की म के अिीन अपने द्व ारा ककसी संदाय के कदए जाने से बर्ने अििा ऐसे`
+  line `संदाय से बर्ने में ककसी अन्य व् य वक् त को समिच करने के प्र योजन से, जानते हु ए, वमथ्या किन या वमथ्या व् य पदेशन करेगा या कराएगा`
+  line `िह कारािास से, वजसकी अिवि 2 [ एक िर्च तक की हो सकेगी, या जुमाचने से, जो पर्ास हजार रु पए तक का हो सकेगा ] या दोनों से`
+  line `दण् र् नीय होगा।`
+  line `( 2 ) की म यह उपबन्ि कर सकेगी कक कोई व् य वक् त, जो उसके उपबन्िों में से ककसी का उल्िं घन करेगा या उसके अनुपा िन में व्`
+  line `य वतक्रम करेगा, कारािास से, वजसकी अिवि छह मास तक की हो सकेगी, या जुमाचने से, जो एक हजार रु पए तक का हो सकेगा, या`
+  line `दोनों से दण् र् नीय होगा।`
+  line `( 3 ) जो कोई इस अविवनयम के ककसी उपबन्ि का उल्िं घन करेगा या उसके अनुपािन में व् य वतक्रम करेगा िह, यकद ऐसे`
+  line `उल्िं घन या अननुपािन के विए इस अविवनयम द्व ारा या इसके अिीन कोई अन्य शावत अन्य त्र उपबवन्ि त नहीं है, कारािास से, जो`
+  line `तीन मास तक का हो सकेगा या जुमाचने से, जो एक हजार रु पए तक का हो सकेगा, या दोनों से, दण् र् नीय होगा।`
+  line `( 4 ) कोई भी न् या यािय इस अविवनयम के अिी न या की म के अिीन दण् र् नीय ककसी अपराि का संज्ञान ऐसा अपराि गरित`
+  line `करने िािे तथ्यों की ऐसी विवित ररपोटच पर करने के वसिाय नहीं करेगा जो नाविक भविष्य - वनवि आयुक्त द्व ारा या िारा 15 की`
+  line `उपिारा ( 1 ) के अिीन वनयुक्त ककसी वनरीिक द्व ारा ऐसे प्र ाविकारी की, जो सरकार द्व ारा इस वनवमत्त विवनर्दचष्ट ककया जाए, पूिच`
+  line `मंजूरी से की गई हो।`
+  line `17. कम्प वनयों द्व ारा अपराि –– ( 1 ) यकद इस अविवनयम या की म के अिीन अपराि करने िािा व् य वक् त कम्प नी है तो हर व्`
+  line `य वक् त, जो अपराि के ककए जाने के समय कम्प नी के कारबार के संर्ािन के वि ए उस कम्प नी का भारसािक और उस कम्प नी के प्र वत`
+  line `उत्तरदायी िा और िह कम्प नी भी उस अपराि के दोर्ी समझे जाएंगे और तद्नुसार अपने विरुि कायचिाही की जाने और दंवर्त ककए`
+  line `जाने के दावयत्ि के अिीन होंगे:`
+  line `परन् तु इस उपिारा में अंतर्िचष्ट कोई भी बात ऐसे ककसी व् य वक् त को ककसी दण् र् के दावयत्ि के अिीन न करेगी यकद िह यह`
+  line `सावबत कर देता है कक अपराि उसकी जानकारी के वबना ककया गया िा या ऐसे अपराि का ककया जाना वनिाररत करने के विए उसने`
+  line `सम्य क् तत्प रता बरती िी।`
+  line `( 2 ) उपिारा ( 1 ) में अंतर्िचष्ट ककसी बात के होते हु ए भी, जहां कक इस अविवनयम या की म के अिीन कोई अपराि कम्प नी द्व`
+  line `ारा ककया गया है और यह सावबत कर कदया जाता है कक िह अपराि कम्प नी के ककसी वनदेशक, प्र बन्ि क, सवर्ि या अन्य आकिसर की`
+  line `सम्म वत या मौनानुकूिता से ककया गया है या उसकी ओर से हु ई ककसी उपेिा के कारण हु आ माना जा सकता है िहां ऐसा वनदेशक, प्र`
+  line `बन्ि क, सवर्ि या अन्य आकिसर उस अपराि का दोर्ी समझा जाएगा और तद्नुसार अपने विरुि कायचिाही की जाने और दवण् र् त`
+  line `ककए जाने के दावयत्ि के अिीन होगा।`
+  line `1 1997 के अविवनयम सं ० 29 की िारा 6 द्व ारा ( 12 - 11 - 1998 से) उपिारा ( 3 ) के िा न पर प्र वत िा वपत।`
+  line `2 1997 के अविवनयम सं ० 29 की िारा 7 द्व ारा ( 12 - 11 - 1998 से) कवतपय शब्दों के िा न पर प्र वत िा वपत।`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-( 3 ) जहां कक इस अविवनयम या की म के अिीन कोई अपराि ऐसी कम्प नी द्व ारा ककया जाता है जो भारत में रवजरी कृत नहीं
-है और ऐसी कम्प नी का भारत में कोई अवभकताच है, जो अवभकताच भी कम्प नी ही है िहां इस िारा के उपबन्ि उस अवभकताच को ऐसे
-िागू होंगे मानो िह अपराि उस अवभकताच द्व ारा ककया गया िा।
-प ष् टी करण –– इस िारा के प्र योजनों के विए ––
-( क) “ कम्प नी ” से कोई वनगवमत वनकाय अवभप्रेत है और इसके अन्त गचत िमच या व् य वष्ट यों का अन्य संगम आता
-है; तिा
-(ि) ककसी िमच के सम्ब न् ि में “ वनदेशक ” से उस िमच का भागीदार अवभप्रेत है।
-18. नुकसानी िसूि करने की शवक्त –– जहां कक कोई वनयोजक वनवि में ककसी अवभदाय का संदाय करने में अििा इस
-अविवनयम के ककसी अन्य उपबन्ि के या की म के अिीन देय ककन्हीं प्र भारों का संदाय करने में व् य वतक्रम करेगा िहां सरकार बकाया की
-रकम के पच् र्ी स प्र वतशत से अनविक उतनी नुकसानी, वजतनी िह िीक समझे, वनयोजक से िसूि कर सकेगी।
-19. िेिा का अन्त रण –– जहां कक कोई नाविक अपनी सांयावत्रक िृवत्त, उस िृवत्त को पुन:ग्रहण करने के ितचमान आशय के
-वबना, छोड़ देता है और ककसी अन्य िा पन में, वजसे कमचर्ारी भवि ष् य - वनवि अविवनयम, 1952 ( 1952 का 19 ) िागू है, वनयोजन
-अवभप्राप्त कर िेता है िहां य कद िह नाविक ऐसा र् ाहे और उस भवि ष् य - वनवि से सम्ब वन्ि त वनयम ऐसा अन्त रण अनुज्ञात करे तो वनवि
-में ऐसे नाविक के नाम जमा रकम ऐसे समय के भीतर जैसा बोर्च द्व ारा इस वनवमत्त विवनर्दचष्ट ककया जाए उस िा पन की भवि ष् य - वनवि
-के उसके िाते में उसके नाम अन्त ररत कर दी जाएगी।
-20. छूट देने की शवक्त –– ( 1 ) बोर्च ककसी नाविक को, वजसे यह अविवनयम िागू होता है, और उसके वनयोजक को इस
-अविवनयम के सभी उपबन्िों के या उनमें से ककसी के प्र ितचन से विवित आदेश द्व ारा छूट दे सकेगा, यकद बोर्च की राय में िह नाविक
-भवि या पेंशन की प्र कृवत की ककन्हीं प्र सुवििाओं का उपभोग कर रहा है और उस नाविक को ऐसी प्र सुवििा पृिक् तः या संयुक्त त: इ स
-अविवनयम द्व ारा या इसके अिीन उ प ब वन्ि त प्र सुवििाओं से कुि वमिाकर कम वहतकर नहीं है।
-( 2 ) जहां कक उपिारा ( 1 ) के अिीन कोई छूट दी गई है िहां वनयोजक ऐसी छूट के कदए जाने के पश् र्ा त् ककसी भी समय, बोर्च
-की इजाजत के वबना, भविष्य - वनवि, पेंशन या उपदान की प्र कृवत की प्र सुवििाओं की कुि मात्रा को, वजसके विए िह नाविक ऐसी छूट
-के कदए जाने के समय हकदार िा कम न कर सकेगा।
-( 3 ) यकद वनयोजक उपिारा ( 2 ) की अपेिाओं का अनुपािन करने में असिि रहे तो इस िारा के अिीन दी गई छूट बोर्च द्व ारा
-विवित आदेश द्व ारा रद्द की जा सकेगी:
-परन् तु ऐसा कोई भी आदेश तब तक नहीं ककया जाएगा जब तक कक वनयोजक को प्र िा वपत रद्दकरण के विरुि हेतुक दर्शचत
-करने का युवक्त युक्त अिसर न दे कदया गया हो।
-21. स द् भािपूिचक ककए गए कायों के विए पररत्राण –– कोई भी िाद या अन्य विविक कायचिाही इस अविवनयम के या की म के
-अिीन सद् भािपू िचक की गई या की जाने के विए आशवयत ककसी बात की बाबत सरकार या बोर्च या उसके ककसी आकिसर या कमचर्ारी
-के विरुि न होगी।
-22. प्रत् या योज न –– ( 1 ) सरकार आदेश द्व ारा वनदेश दे सकेगी कक (िारा 3 के अिीन की म विरवर्त करने की शवक्त से वभन् न )
-ककसी शवक्त या कतचव्य का, जो इस अविवनयम द्व ारा या की म द्व ारा सरकार को प्र दत्त या सरकार पर अविरोवपत हो, ऐसी
-पररवि वतयों में और ऐसी शतों के अिीन, यकद कोई हों, जैसी वनदेश में विवनर्दचष्ट की जाएं, प्र योग या वनिचहन ऐसे आकिसर या प्र
-ाविकारी द्व ारा भी ककया जाएगा, जैसा इस प्र कार विवनर्दचष्ट ककया जाए।
-( 2 ) सरकार के पूिच अनुमोदन से बोर्च इस अविवनयम के अिीन के अपने ऐसे कृत् य, वजन्हें िह की म के द ि प्र शा सन के विए
-आिश्य क समझे, अपने अध्य ि या अपने कमचर्ाररयों में से ककसी को, ऐसी शतों और पररसीमाओं के अध्य िीन, यकद कोई हों, जैसी
-विवनर्दचष्ट की जाएं, प्रत् या योवजत कर सकेगा।
-23. करिना इ यों के वनराकरण की शवक्त –– यकद इस अविवनयम के उपबन्िों को प्र भािशीि कर ने में कोई करिनाई उद्भूत हो
-तो सरकार ऐसा आदेश कर सकेगी या ऐसा वनदेश दे सकेगी, जो इस अविवनयम के उपबन्िों से असंगत न हो और जो उस करिनाई के
-वनराकरण के विए उसे आिश्य क या समीर्ीन प्र तीत हो और ऐसा आदेश अवन्त म होगा।
-24. की म का संसद् के सदनों के समि रिा जा ना –– इस अविवनयम के अिीन विरवर्त की म, ऐसे विरवर्त की जाने के
-पश् र्ा त् यिाशक्य शीघ्र संसद् के हर एक सदन के समि, उस समय जब िह सत्र में हो, कुि वमिाकर तीस कदन की कािािवि के विए,
-जो एक सत्र में या दो क्र मिती सत्रों में समाविष्ट हो सकेगी, रिी जाएगी और यकद उस सत्र के, वजसमें िह ऐसे रिी गई हो या
-अव्य िवहत पश् र्ा त् िती सत्र के अिसान के पूिच दोनों सदन उस की म के ककसी उपबन्ि में कोई उपान्त र करने के विए सहमत हो जाएं
-या यकद दोनों सदन सहमत हो जाएं कक उस की म में का कोई उपबन्ि नहीं बनाया जाना र् ावहए तो तत्प श् र् ा त्, उस की म का िह
-उपबन्ि, यिावि वत, ऐसे उपान्त ररत रू प में ही प्र भािशीि होगा या उसका कोई भी प्र भाि न होगा ककन्तु ऐसे कक ऐसा कोई उपान्त र
-या बावतिकरण उस उपबन्ि के अिीन पहिे की गई ककसी बात की विविमान्य ता पर प्र वतकूि प्र भाि र् ािे वबना होगा।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `( 3 ) जहां कक इस अविवनयम या की म के अिीन कोई अपराि ऐसी कम्प नी द्व ारा ककया जाता है जो भारत में रवजरी कृत नहीं`
+  line `है और ऐसी कम्प नी का भारत में कोई अवभकताच है, जो अवभकताच भी कम्प नी ही है िहां इस िारा के उपबन्ि उस अवभकताच को ऐसे`
+  line `िागू होंगे मानो िह अपराि उस अवभकताच द्व ारा ककया गया िा।`
+  line `प ष् टी करण –– इस िारा के प्र योजनों के विए ––`
+  line `( क) “ कम्प नी ” से कोई वनगवमत वनकाय अवभप्रेत है और इसके अन्त गचत िमच या व् य वष्ट यों का अन्य संगम आता`
+  line `है; तिा`
+  line `(ि) ककसी िमच के सम्ब न् ि में “ वनदेशक ” से उस िमच का भागीदार अवभप्रेत है।`
+  line `18. नुकसानी िसूि करने की शवक्त –– जहां कक कोई वनयोजक वनवि में ककसी अवभदाय का संदाय करने में अििा इस`
+  line `अविवनयम के ककसी अन्य उपबन्ि के या की म के अिीन देय ककन्हीं प्र भारों का संदाय करने में व् य वतक्रम करेगा िहां सरकार बकाया की`
+  line `रकम के पच् र्ी स प्र वतशत से अनविक उतनी नुकसानी, वजतनी िह िीक समझे, वनयोजक से िसूि कर सकेगी।`
+  line `19. िेिा का अन्त रण –– जहां कक कोई नाविक अपनी सांयावत्रक िृवत्त, उस िृवत्त को पुन:ग्रहण करने के ितचमान आशय के`
+  line `वबना, छोड़ देता है और ककसी अन्य िा पन में, वजसे कमचर्ारी भवि ष् य - वनवि अविवनयम, 1952 ( 1952 का 19 ) िागू है, वनयोजन`
+  line `अवभप्राप्त कर िेता है िहां य कद िह नाविक ऐसा र् ाहे और उस भवि ष् य - वनवि से सम्ब वन्ि त वनयम ऐसा अन्त रण अनुज्ञात करे तो वनवि`
+  line `में ऐसे नाविक के नाम जमा रकम ऐसे समय के भीतर जैसा बोर्च द्व ारा इस वनवमत्त विवनर्दचष्ट ककया जाए उस िा पन की भवि ष् य - वनवि`
+  line `के उसके िाते में उसके नाम अन्त ररत कर दी जाएगी।`
+  line `20. छूट देने की शवक्त –– ( 1 ) बोर्च ककसी नाविक को, वजसे यह अविवनयम िागू होता है, और उसके वनयोजक को इस`
+  line `अविवनयम के सभी उपबन्िों के या उनमें से ककसी के प्र ितचन से विवित आदेश द्व ारा छूट दे सकेगा, यकद बोर्च की राय में िह नाविक`
+  line `भवि या पेंशन की प्र कृवत की ककन्हीं प्र सुवििाओं का उपभोग कर रहा है और उस नाविक को ऐसी प्र सुवििा पृिक् तः या संयुक्त त: इ स`
+  line `अविवनयम द्व ारा या इसके अिीन उ प ब वन्ि त प्र सुवििाओं से कुि वमिाकर कम वहतकर नहीं है।`
+  line `( 2 ) जहां कक उपिारा ( 1 ) के अिीन कोई छूट दी गई है िहां वनयोजक ऐसी छूट के कदए जाने के पश् र्ा त् ककसी भी समय, बोर्च`
+  line `की इजाजत के वबना, भविष्य - वनवि, पेंशन या उपदान की प्र कृवत की प्र सुवििाओं की कुि मात्रा को, वजसके विए िह नाविक ऐसी छूट`
+  line `के कदए जाने के समय हकदार िा कम न कर सकेगा।`
+  line `( 3 ) यकद वनयोजक उपिारा ( 2 ) की अपेिाओं का अनुपािन करने में असिि रहे तो इस िारा के अिीन दी गई छूट बोर्च द्व ारा`
+  line `विवित आदेश द्व ारा रद्द की जा सकेगी:`
+  line `परन् तु ऐसा कोई भी आदेश तब तक नहीं ककया जाएगा जब तक कक वनयोजक को प्र िा वपत रद्दकरण के विरुि हेतुक दर्शचत`
+  line `करने का युवक्त युक्त अिसर न दे कदया गया हो।`
+  line `21. स द् भािपूिचक ककए गए कायों के विए पररत्राण –– कोई भी िाद या अन्य विविक कायचिाही इस अविवनयम के या की म के`
+  line `अिीन सद् भािपू िचक की गई या की जाने के विए आशवयत ककसी बात की बाबत सरकार या बोर्च या उसके ककसी आकिसर या कमचर्ारी`
+  line `के विरुि न होगी।`
+  line `22. प्रत् या योज न –– ( 1 ) सरकार आदेश द्व ारा वनदेश दे सकेगी कक (िारा 3 के अिीन की म विरवर्त करने की शवक्त से वभन् न )`
+  line `ककसी शवक्त या कतचव्य का, जो इस अविवनयम द्व ारा या की म द्व ारा सरकार को प्र दत्त या सरकार पर अविरोवपत हो, ऐसी`
+  line `पररवि वतयों में और ऐसी शतों के अिीन, यकद कोई हों, जैसी वनदेश में विवनर्दचष्ट की जाएं, प्र योग या वनिचहन ऐसे आकिसर या प्र`
+  line `ाविकारी द्व ारा भी ककया जाएगा, जैसा इस प्र कार विवनर्दचष्ट ककया जाए।`
+  line `( 2 ) सरकार के पूिच अनुमोदन से बोर्च इस अविवनयम के अिीन के अपने ऐसे कृत् य, वजन्हें िह की म के द ि प्र शा सन के विए`
+  line `आिश्य क समझे, अपने अध्य ि या अपने कमचर्ाररयों में से ककसी को, ऐसी शतों और पररसीमाओं के अध्य िीन, यकद कोई हों, जैसी`
+  line `विवनर्दचष्ट की जाएं, प्रत् या योवजत कर सकेगा।`
+  line `23. करिना इ यों के वनराकरण की शवक्त –– यकद इस अविवनयम के उपबन्िों को प्र भािशीि कर ने में कोई करिनाई उद्भूत हो`
+  line `तो सरकार ऐसा आदेश कर सकेगी या ऐसा वनदेश दे सकेगी, जो इस अविवनयम के उपबन्िों से असंगत न हो और जो उस करिनाई के`
+  line `वनराकरण के विए उसे आिश्य क या समीर्ीन प्र तीत हो और ऐसा आदेश अवन्त म होगा।`
+  line `24. की म का संसद् के सदनों के समि रिा जा ना –– इस अविवनयम के अिीन विरवर्त की म, ऐसे विरवर्त की जाने के`
+  line `पश् र्ा त् यिाशक्य शीघ्र संसद् के हर एक सदन के समि, उस समय जब िह सत्र में हो, कुि वमिाकर तीस कदन की कािािवि के विए,`
+  line `जो एक सत्र में या दो क्र मिती सत्रों में समाविष्ट हो सकेगी, रिी जाएगी और यकद उस सत्र के, वजसमें िह ऐसे रिी गई हो या`
+  line `अव्य िवहत पश् र्ा त् िती सत्र के अिसान के पूिच दोनों सदन उस की म के ककसी उपबन्ि में कोई उपान्त र करने के विए सहमत हो जाएं`
+  line `या यकद दोनों सदन सहमत हो जाएं कक उस की म में का कोई उपबन्ि नहीं बनाया जाना र् ावहए तो तत्प श् र् ा त्, उस की म का िह`
+  line `उपबन्ि, यिावि वत, ऐसे उपान्त ररत रू प में ही प्र भािशीि होगा या उसका कोई भी प्र भाि न होगा ककन्तु ऐसे कक ऐसा कोई उपान्त र`
+  line `या बावतिकरण उस उपबन्ि के अिीन पहिे की गई ककसी बात की विविमान्य ता पर प्र वतकूि प्र भाि र् ािे वबना होगा।`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `7
-अनुसू र् ी
-[ िारा 3 ( 2 ) देविए ]
-िे विर्य वजनके विए की म में उपबन्ि ककया जा सकेगा।
-1. िे नाविक जो वनवि में शावमि होंगे।
-2. िह समय वजसमें और िह रीवत वजससे वनयोजकों द्व ारा और नाविकों द्व ारा या उनकी ओर से वनवि में अवभदाय
-ककए जाएंगे।
-3. वनयोजक द्व ारा ऐसी िनरावश यों का संदाय जो वनवि के प्र शासन का िर्च पूरा करने के विए आिश्य क हों, तिा
-िह दर वजस पर और िह रीवत वजससे िह संदाय ककया जाएगा।
-4. बोर्च के अन्य कृत्य।
-5. बोर्च को सहायता देने के विए ककसी सवमवत का गिन।
-6. बोर्च के प्र ादेवशक और अन्य कायाचियों का िोिा जा ना।
-7. िह रीवत वजसमें िेिा रिे जाएंगे, सरकार द्व ारा वनकािे गए वनदेशों या विवनर्दचष्ट शतों के अनुसार वनवि के
-िनों का विवनिान, बजट का तैयार ककया जाना, िेिाओं की संपरीिा और सरकार को ररपोटों का वनिेदन।
-8. िे शतें वजनके अिीन वनवि में से रकम वनकािना अनुज्ञात ककया जा सकेगा तिा कोई कटौती या समपहरण
-ककया जा सकेगा और ऐसी कटौती या समपहरण की अविकतम रकम।
-9. सद यों को देय ब् या ज की दर का बोर्च के परामशच से सरकार द्व ारा वनयत ककया जाना।
-10. िह प्ररू प वजसमें नाविक अपने और अपने कुटुम्ब के बारे में, जब कभी अ पेिा की जाए, विवशवष्ट यां देगा।
-11. ककसी सद य के नाम में जमा रकम की उसकी मृत्यु के पश् र्ा त् प्र ावप्त के विए ककसी व् य वक् त का उस सद य द्व
-ारा नामवनदेवशत ककया जाना तिा ऐसे नामवनदेशन का रद्द ककया जाना या उसमें िेरिार ककया जाना।
-12. नाविकों की बा बत रिे जाने िािे रवजट र और अवभिेि तिा वनयोजकों द्व ारा दी जाने िािी वििरवणयां।
-13. इस अनुसूर्ी में विवनर्दचष्ट प्र योजनों में से ककसी के विए उद्गृहीत की जाने िािी िीसें।
-14. िे उल्िं घन या व् य वतक्रम जो िारा 16 के अिीन दण् र् नीय होंगे।
-15. िे अवतररक्त श वक् त यां, यकद कोई हों, वजनका वनरीिकों द्व ारा प्र योग ककया जा सकेगा।
-16. िे शतें वजनके अिीन ककसी सद य को वनवि में से जीिन बीमा प्र ीवमयम देने के विए अनुज्ञात ककया
-जा सकेगा।
-17. कोई अन्य विर्य वजसके विए की म में उपबन्ि ककया जाना है या जो की म को कायाचवन्ि त करने के प्र योजन के
-विए आिश्य क या उवर्त हो।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 7
+  line `अनुसू र् ी`
+  line `[ िारा 3 ( 2 ) देविए ]`
+  line `िे विर्य वजनके विए की म में उपबन्ि ककया जा सकेगा।`
+  line `1. िे नाविक जो वनवि में शावमि होंगे।`
+  line `2. िह समय वजसमें और िह रीवत वजससे वनयोजकों द्व ारा और नाविकों द्व ारा या उनकी ओर से वनवि में अवभदाय`
+  line `ककए जाएंगे।`
+  line `3. वनयोजक द्व ारा ऐसी िनरावश यों का संदाय जो वनवि के प्र शासन का िर्च पूरा करने के विए आिश्य क हों, तिा`
+  line `िह दर वजस पर और िह रीवत वजससे िह संदाय ककया जाएगा।`
+  line `4. बोर्च के अन्य कृत्य।`
+  line `5. बोर्च को सहायता देने के विए ककसी सवमवत का गिन।`
+  line `6. बोर्च के प्र ादेवशक और अन्य कायाचियों का िोिा जा ना।`
+  line `7. िह रीवत वजसमें िेिा रिे जाएंगे, सरकार द्व ारा वनकािे गए वनदेशों या विवनर्दचष्ट शतों के अनुसार वनवि के`
+  line `िनों का विवनिान, बजट का तैयार ककया जाना, िेिाओं की संपरीिा और सरकार को ररपोटों का वनिेदन।`
+  line `8. िे शतें वजनके अिीन वनवि में से रकम वनकािना अनुज्ञात ककया जा सकेगा तिा कोई कटौती या समपहरण`
+  line `ककया जा सकेगा और ऐसी कटौती या समपहरण की अविकतम रकम।`
+  line `9. सद यों को देय ब् या ज की दर का बोर्च के परामशच से सरकार द्व ारा वनयत ककया जाना।`
+  line `10. िह प्ररू प वजसमें नाविक अपने और अपने कुटुम्ब के बारे में, जब कभी अ पेिा की जाए, विवशवष्ट यां देगा।`
+  line `11. ककसी सद य के नाम में जमा रकम की उसकी मृत्यु के पश् र्ा त् प्र ावप्त के विए ककसी व् य वक् त का उस सद य द्व`
+  line `ारा नामवनदेवशत ककया जाना तिा ऐसे नामवनदेशन का रद्द ककया जाना या उसमें िेरिार ककया जाना।`
+  line `12. नाविकों की बा बत रिे जाने िािे रवजट र और अवभिेि तिा वनयोजकों द्व ारा दी जाने िािी वििरवणयां।`
+  line `13. इस अनुसूर्ी में विवनर्दचष्ट प्र योजनों में से ककसी के विए उद्गृहीत की जाने िािी िीसें।`
+  line `14. िे उल्िं घन या व् य वतक्रम जो िारा 16 के अिीन दण् र् नीय होंगे।`
+  line `15. िे अवतररक्त श वक् त यां, यकद कोई हों, वजनका वनरीिकों द्व ारा प्र योग ककया जा सकेगा।`
+  line `16. िे शतें वजनके अिीन ककसी सद य को वनवि में से जीिन बीमा प्र ीवमयम देने के विए अनुज्ञात ककया`
+  line `जा सकेगा।`
+  line `17. कोई अन्य विर्य वजसके विए की म में उपबन्ि ककया जाना है या जो की म को कायाचवन्ि त करने के प्र योजन के`
+  line `विए आिश्य क या उवर्त हो।`
+  line ______
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line

@@ -1,56 +1,48 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T21:21:55.203Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19142`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 24)
-  (str totalSections) (int 24)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-09T21:21:55.203Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19142`
+  completeFetch true
+  maxSections null
+  sectionCount 24
+  totalSections 24
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-chutia-nagpur-encumbered-estates-act-1876)
-  (str handle) (str 19142)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Chutia Nagpur Encumbered Estates Act, 1876`)
-  (str actNumber) (str 06)
-  (str enactmentDate) (str 1876-03-14)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19142`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1876)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act to relieve certain Landholders in Chutia Nagpur.`)
-  (str enforcementDate) (undefined)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T21:21:55.203Z`)
+  slug the-chutia-nagpur-encumbered-estates-act-1876
+  handle (19142)
+  collectionHandle 123456789/1362
+  title `The Chutia Nagpur Encumbered Estates Act, 1876`
+  actNumber (06)
+  enactmentDate 1876-03-14
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19142`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1876)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act to relieve certain Landholders in Chutia Nagpur.`
+  enforcementDate undefined
+  notification undefined
+  fetchedAt `2026-05-09T21:21:55.203Z`
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_chutia_nagpur_encumbered_estates_act_1876
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/19142`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/19142`
 obj_root_law_sources_en_the_chutia_nagpur_encumbered_estates_act_1876:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19142/1/a1876-6.pdf`)
-  (str title) (str `The Chutia Nagpur Encumbered Estates Act, 1876`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19142/1/a1876-6.pdf`
+  title `The Chutia Nagpur Encumbered Estates Act, 1876`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -76,433 +68,550 @@ obj_root_law_sections:
   obj_root_law_sections_23
   obj_root_law_sections_24
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 68114)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title.`)
-  (str content) (str `This Act may be called "The Chutia Nagpur Encumbered Estates Act, 1876."`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68114&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68114)
+  sectionNo (1)
+  orderNo 1
+  title `Short title.`
+  content `This Act may be called "The Chutia Nagpur Encumbered Estates Act, 1876."`
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68114&sectionno=1&orderno=1&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 68116)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Power to vest management of property in an officer appointed by Commissioner.`)
-  (str content) (str `Whenever
-any holder of immoveable property, or (when such holder is a minor, or of unsound mind, or an idiot) his
-guardian, committee or other legal curator,
-
-or the person who would be heir to such holder if he died intestate,
-
-or (when such person is a minor, or of unsound mind, or an idiot) his guardian, committee or other legal
-curator,
-
-or when any such property belonging to such holder has been attached in execution of a decree of a
-Civil Court, the Deputy Commissioner within whose jurisdiction such property is situate,
-
-applies in writing to the Commissioner, stating that the holder of the said property is subject to, or that
-his said property is charged with, debts or liabilities other than debts due, or liabilities incurred, to
-Government, and requesting that the provisions of this Act be applied to his case,
-
-the Commissioner may, with the previous consent of the Lieutenant-Governor of Bengal, by order
-published in the Calcutta Gazette, appoint an officer (hereinafter called the Manager), and vest in him the
-management of the whole or any portion of the immoveable property of or to which the said holder is then
-possessed or entitled in his own right, or which he is entitled to redeem, or which may be acquired by or
-devolve on him or his heir, during the continuance of such management.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68116&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68116)
+  sectionNo (2)
+  orderNo 2
+  title `Power to vest management of property in an officer appointed by Commissioner.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68116&sectionno=2&orderno=2&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_2_content:
+  string
+  line Whenever
+  line `any holder of immoveable property, or (when such holder is a minor, or of unsound mind, or an idiot) his`
+  line `guardian, committee or other legal curator,`
+  line
+  line `or the person who would be heir to such holder if he died intestate,`
+  line
+  line `or (when such person is a minor, or of unsound mind, or an idiot) his guardian, committee or other legal`
+  line curator,
+  line
+  line `or when any such property belonging to such holder has been attached in execution of a decree of a`
+  line `Civil Court, the Deputy Commissioner within whose jurisdiction such property is situate,`
+  line
+  line `applies in writing to the Commissioner, stating that the holder of the said property is subject to, or that`
+  line `his said property is charged with, debts or liabilities other than debts due, or liabilities incurred, to`
+  line `Government, and requesting that the provisions of this Act be applied to his case,`
+  line
+  line `the Commissioner may, with the previous consent of the Lieutenant-Governor of Bengal, by order`
+  line `published in the Calcutta Gazette, appoint an officer (hereinafter called the Manager), and vest in him the`
+  line `management of the whole or any portion of the immoveable property of or to which the said holder is then`
+  line `possessed or entitled in his own right, or which he is entitled to redeem, or which may be acquired by or`
+  line `devolve on him or his heir, during the continuance of such management.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 68117)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Effect of order.`)
-  (str content) (str `On the such publication the following consequences shall ensue:--
-
-Bar of suits.--First, all proceedings which may then be pending in any Civil Court in British India, in
-respect to such debts or liabilities, shall be barred; and all processes, executions and attachments for or in
-respect of such debts and liabilities shall become null and void;
-
-Freedom from arrest.--Secondly, so long as such management continues, the holder of the said
-property and his heir shall not be liable to arrest for or in respect of the debts and liabilities to which the
-said holder was immediately before the said publication subject, or with which the property so vested as
-aforesaid or any part thereof was at the time of the said publication charged, other than debts due, or
-liabilities incurred, to Government,
-
-Moveable property not liable to attachment for prior debts.--nor shall their movable property be
-liable to attachment or sale, under process of any Civil Court in British India, for or in respect of such debts
-and liabilities other than as aforesaid; and
-
-Cessation of power to alienate. --Thirdly, so long as such management continues,
-
-(a) the holder of the said immoveable property and his heir shall be incompetent to mortgage, charge,
-lease or alienate their immoveable property or any part thereof, or to grant valid receipts for the rents and
-profits arising or accruing therefrom,
-
-Immoveable property freed from attachment.--(b) such property shall be exempt from attachment
-or sale under such process as aforesaid except for or in respect of debts due, or liabilities incurred, to
-Government, and
-
-Cessation of power to contract.--(c) the holder of the same property and his heir shall be incapable
-of entering into any contract which may involve them, or either of them, in pecuniary liability.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68117&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68117)
+  sectionNo (3)
+  orderNo 3
+  title `Effect of order.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68117&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_3_content:
+  string
+  line `On the such publication the following consequences shall ensue:--`
+  line
+  line `Bar of suits.--First, all proceedings which may then be pending in any Civil Court in British India, in`
+  line `respect to such debts or liabilities, shall be barred; and all processes, executions and attachments for or in`
+  line `respect of such debts and liabilities shall become null and void;`
+  line
+  line `Freedom from arrest.--Secondly, so long as such management continues, the holder of the said`
+  line `property and his heir shall not be liable to arrest for or in respect of the debts and liabilities to which the`
+  line `said holder was immediately before the said publication subject, or with which the property so vested as`
+  line `aforesaid or any part thereof was at the time of the said publication charged, other than debts due, or`
+  line `liabilities incurred, to Government,`
+  line
+  line `Moveable property not liable to attachment for prior debts.--nor shall their movable property be`
+  line `liable to attachment or sale, under process of any Civil Court in British India, for or in respect of such debts`
+  line `and liabilities other than as aforesaid; and`
+  line
+  line `Cessation of power to alienate. --Thirdly, so long as such management continues,`
+  line
+  line `(a) the holder of the said immoveable property and his heir shall be incompetent to mortgage, charge,`
+  line `lease or alienate their immoveable property or any part thereof, or to grant valid receipts for the rents and`
+  line `profits arising or accruing therefrom,`
+  line
+  line `Immoveable property freed from attachment.--(b) such property shall be exempt from attachment`
+  line `or sale under such process as aforesaid except for or in respect of debts due, or liabilities incurred, to`
+  line `Government, and`
+  line
+  line `Cessation of power to contract.--(c) the holder of the same property and his heir shall be incapable`
+  line `of entering into any contract which may involve them, or either of them, in pecuniary liability.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 68119)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Manager to receive rents and profits, and pay therefrom.`)
-  (str content) (str `The Manager shall, during his management of the said
-immoveable property, receive and recover all rents and profits due in respect thereof; and shall, upon
-receiving such rents and profits, give receipts for the same.
-
-From the sums so received, he shall pay--
-
-and pay therefrom the Government demand, First, the Government revenue, and all debts of
-liabilities for the time being due or incurred to Government;
-
-rent due to superior landlord, Secondly, in the case of under-tenures, the rent (if any) due to the
-superior landlord, in respect of the said property:
-
-annual sum for maintenance of holder of property and his heir, Thirdly, such annual sums as
-appears to the Commissioner requisite for the maintenance of the holder of the property, his heir, and their
-families:
-
-costs of repairs and improvements, Fourthly the costs of such repairs and improvements of the
-property as appear necessary to the Manager and are approved by the Commissioner:
-
-cost of management and the debt and liabilities, and the residue shall be applied in discharge of the
-costs of the management, and in settlement of such debts and liabilities of the holder of the property and
-his heir, as may be established under the provision hereinafter contained.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68119&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68119)
+  sectionNo (4)
+  orderNo 4
+  title `Manager to receive rents and profits, and pay therefrom.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68119&sectionno=4&orderno=4&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_4_content:
+  string
+  line `The Manager shall, during his management of the said`
+  line `immoveable property, receive and recover all rents and profits due in respect thereof; and shall, upon`
+  line `receiving such rents and profits, give receipts for the same.`
+  line
+  line `From the sums so received, he shall pay--`
+  line
+  line `and pay therefrom the Government demand, First, the Government revenue, and all debts of`
+  line `liabilities for the time being due or incurred to Government;`
+  line
+  line `rent due to superior landlord, Secondly, in the case of under-tenures, the rent (if any) due to the`
+  line `superior landlord, in respect of the said property:`
+  line
+  line `annual sum for maintenance of holder of property and his heir, Thirdly, such annual sums as`
+  line `appears to the Commissioner requisite for the maintenance of the holder of the property, his heir, and their`
+  line `families:`
+  line
+  line `costs of repairs and improvements, Fourthly the costs of such repairs and improvements of the`
+  line `property as appear necessary to the Manager and are approved by the Commissioner:`
+  line
+  line `cost of management and the debt and liabilities, and the residue shall be applied in discharge of the`
+  line `costs of the management, and in settlement of such debts and liabilities of the holder of the property and`
+  line `his heir, as may be established under the provision hereinafter contained.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 68121)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Notice to claimants against holder of property.`)
-  (str content) (str `On the publication of the order vesting in him the
-management on the said property, the manager shall publish a notice in English, Urdu and Hindi, calling
-upon all persons having claims against the holder of the said property to notify the same in writing to such
-Manager within three months from the date of the publication.
-
-Notice how published.--Such notice shall be published by being posted at the kachahris in the district
-or districts in which the said property lies, and at such other places as the Manager thinks fit.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68121&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68121)
+  sectionNo (5)
+  orderNo 5
+  title `Notice to claimants against holder of property.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68121&sectionno=5&orderno=5&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_5_content:
+  string
+  line `On the publication of the order vesting in him the`
+  line `management on the said property, the manager shall publish a notice in English, Urdu and Hindi, calling`
+  line `upon all persons having claims against the holder of the said property to notify the same in writing to such`
+  line `Manager within three months from the date of the publication.`
+  line
+  line `Notice how published.--Such notice shall be published by being posted at the kachahris in the district`
+  line `or districts in which the said property lies, and at such other places as the Manager thinks fit.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 68122)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Claim to contain full particulars.`)
-  (str content) (str `Every such claimant shall, along with his claim present full
-particulars thereof.
-
-Documents to be given up.--Every document on which the claimant founds his claim, or on which he
-relies in support thereof, shall be delivered to the Manager along with the claim.
-
-Entries in Books.--If the document be an entry in any book, the claimant shall produce the book to
-the Manager, together with a copy of the entry on which he relies. The Manager shall mark the book for the
-purpose of identification, and, after examining and comparing the copy with the original, shall return the
-book to the claimant.
-
-Exclusion of documents not produced.--If any document in the possession or under the control of
-the claimant is not delivered or produced by him to the Manager along with the claim, the Manager may
-refuse to receive such document in evidence on the claimant's behalf at the investigation of the case.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68122&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68122)
+  sectionNo (6)
+  orderNo 6
+  title `Claim to contain full particulars.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68122&sectionno=6&orderno=6&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_6_content:
+  string
+  line `Every such claimant shall, along with his claim present full`
+  line `particulars thereof.`
+  line
+  line `Documents to be given up.--Every document on which the claimant founds his claim, or on which he`
+  line `relies in support thereof, shall be delivered to the Manager along with the claim.`
+  line
+  line `Entries in Books.--If the document be an entry in any book, the claimant shall produce the book to`
+  line `the Manager, together with a copy of the entry on which he relies. The Manager shall mark the book for the`
+  line `purpose of identification, and, after examining and comparing the copy with the original, shall return the`
+  line `book to the claimant.`
+  line
+  line `Exclusion of documents not produced.--If any document in the possession or under the control of`
+  line `the claimant is not delivered or produced by him to the Manager along with the claim, the Manager may`
+  line `refuse to receive such document in evidence on the claimant's behalf at the investigation of the case.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 68123)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Debt not duly notified to be barred.`)
-  (str content) (str `Every debt or liability other than debts due, or
-liabilities incurred, to Government or (in the case of under-tenures), the rent due to the superior landlord,
-to which the holder of the property is subject, or with which the property is charged, and which is not duly
-notified to the Manager within the time and in manner hereinbefore mentioned, shall be barred:
-
-Provision for admission of claim within further period of nine months.--Provided that, when proof
-is made to the Manager that the claimant was unable to comply with the provisions of sections five and six,
-the Manager may admit his claim within the further period of nine months from the expiration of the said
-period of three months.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68123&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68123)
+  sectionNo (7)
+  orderNo 7
+  title `Debt not duly notified to be barred.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68123&sectionno=7&orderno=7&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_7_content:
+  string
+  line `Every debt or liability other than debts due, or`
+  line `liabilities incurred, to Government or (in the case of under-tenures), the rent due to the superior landlord,`
+  line `to which the holder of the property is subject, or with which the property is charged, and which is not duly`
+  line `notified to the Manager within the time and in manner hereinbefore mentioned, shall be barred:`
+  line
+  line `Provision for admission of claim within further period of nine months.--Provided that, when proof`
+  line `is made to the Manager that the claimant was unable to comply with the provisions of sections five and six,`
+  line `the Manager may admit his claim within the further period of nine months from the expiration of the said`
+  line `period of three months.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 68124)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Determination of debts.`)
-  (str content) (str `The Manager shall, in accordance with the rules to be made under this
-Act, determine the amount of all principal debts and liabilities justly due to the several creditors of the
-holder of the property, and to persons holding mortgages, charges or liens thereon, and the interest (if any)
-due at the date of such determination, in respect of such debts and liabilities.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68124&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68124)
+  sectionNo (8)
+  orderNo 8
+  title `Determination of debts.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68124&sectionno=8&orderno=8&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_8_content:
+  string
+  line `The Manager shall, in accordance with the rules to be made under this`
+  line `Act, determine the amount of all principal debts and liabilities justly due to the several creditors of the`
+  line `holder of the property, and to persons holding mortgages, charges or liens thereon, and the interest (if any)`
+  line `due at the date of such determination, in respect of such debts and liabilities.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 68125)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Power to inquire into consideration for leases.`)
-  (str content) (str `If such property or any part thereof be in the
-possession of any person claiming to hold it under a lease, dated within the three years immediately
-preceding the publication of the order mentioned in section two, the Manager, with the sanction of the
-Deputy Commissioner and Commissioner (or of the Commissioner only if the Deputy Commissioner be
-himself the Manager), may inquire into the sufficiency of the consideration for which the lease was given;
-
-Power to set aside leases.-- and, if such consideration appears to him insufficient, may by order either
-set aside the lease or cause the person so in possession to pay such consideration for the said lease as the
-Manager thinks fit, and in default of such payment the lease or shall be cancelled.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68125&sectionno=9&orderno=9&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68125)
+  sectionNo (9)
+  orderNo 9
+  title `Power to inquire into consideration for leases.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68125&sectionno=9&orderno=9&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_9_content:
+  string
+  line `If such property or any part thereof be in the`
+  line `possession of any person claiming to hold it under a lease, dated within the three years immediately`
+  line `preceding the publication of the order mentioned in section two, the Manager, with the sanction of the`
+  line `Deputy Commissioner and Commissioner (or of the Commissioner only if the Deputy Commissioner be`
+  line `himself the Manager), may inquire into the sufficiency of the consideration for which the lease was given;`
+  line
+  line `Power to set aside leases.-- and, if such consideration appears to him insufficient, may by order either`
+  line `set aside the lease or cause the person so in possession to pay such consideration for the said lease as the`
+  line `Manager thinks fit, and in default of such payment the lease or shall be cancelled.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 68127)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Appeal to Deputy Commissioner.`)
-  (str content) (str `An appeal against any refusal, admission, determination or
-order under section six, seven, eight or nine shall lie, if preferred within six weeks from the date thereof to
-the Deputy Commissioner within whose jurisdiction the property is situate, and the decision of the manager,
-if no such appeal has been so preferred, shall be final:
-
-Provided that, if the Deputy Commissioner be himself the Manager, the appeal shall lie to the
-Commissioner.
-
-Appeal to commissioner.--An appeal shall lie from any decision of the Deputy Commissioner, if
-preferred within six weeks of the date of his decision, to the Commissioner, and the decision of such
-Commissioner, or of the Deputy Commissioner if no such appeal has been so preferred, shall be final.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68127&sectionno=10&orderno=10&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68127)
+  sectionNo (10)
+  orderNo 10
+  title `Appeal to Deputy Commissioner.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68127&sectionno=10&orderno=10&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_10_content:
+  string
+  line `An appeal against any refusal, admission, determination or`
+  line `order under section six, seven, eight or nine shall lie, if preferred within six weeks from the date thereof to`
+  line `the Deputy Commissioner within whose jurisdiction the property is situate, and the decision of the manager,`
+  line `if no such appeal has been so preferred, shall be final:`
+  line
+  line `Provided that, if the Deputy Commissioner be himself the Manager, the appeal shall lie to the`
+  line Commissioner.
+  line
+  line `Appeal to commissioner.--An appeal shall lie from any decision of the Deputy Commissioner, if`
+  line `preferred within six weeks of the date of his decision, to the Commissioner, and the decision of such`
+  line `Commissioner, or of the Deputy Commissioner if no such appeal has been so preferred, shall be final.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 68128)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Scheme for settlement of debts.`)
-  (str content) (str `When the amount due in respect of the debts and liabilities
-mentioned in section eight has been finally determined, the Manager shall prepare and submit to the
-Commissioner a schedule of such debts and liabilities, and a scheme for the settlement thereof; and such
-scheme, when approved by the Commissioner, shall be carried into effect.
-
-Power to return scheme for revision.--Until such approval is given, the Commissioner may, as often
-as he thinks fit, send back such scheme to the Manager for revision, and direct him to make such further
-inquiry as may be requisite for the proper preparation of the scheme.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68128&sectionno=11&orderno=11&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68128)
+  sectionNo (11)
+  orderNo 11
+  title `Scheme for settlement of debts.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68128&sectionno=11&orderno=11&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_11_content:
+  string
+  line `When the amount due in respect of the debts and liabilities`
+  line `mentioned in section eight has been finally determined, the Manager shall prepare and submit to the`
+  line `Commissioner a schedule of such debts and liabilities, and a scheme for the settlement thereof; and such`
+  line `scheme, when approved by the Commissioner, shall be carried into effect.`
+  line
+  line `Power to return scheme for revision.--Until such approval is given, the Commissioner may, as often`
+  line `as he thinks fit, send back such scheme to the Manager for revision, and direct him to make such further`
+  line `inquiry as may be requisite for the proper preparation of the scheme.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 68129)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Restoration of owner to his property.`)
-  (str content) (str `When all such debts and liabilities have been discharged,
-or if, within six months after the publication of the order mentioned in section two, the Commissioner
-thinks that the provisions of this Act should not continue to apply to the case of the holder of the said
-property or his heir,
-
-such holder or his heir shall be restored to the possession and enjoyment of the property, or of such part
-thereof as has not been sold by the Manager under the power contained in section eighteen, but subject to
-the leases and mortgages (if any) granted and made by the Manager under the powers hereinafter contained.
-
-Restoration to be notified. Revival of barred proceedings and debts. Reinstatement of
-mortgagees.--Where the holder of the property or his heir is so restored under the circumstances
-mentioned in the second clause of this section,such restoration shall be notified in the Calcutta Gazette, and
-thereupon the proceedings, processes, executions, any attachments mentioned in section three (so far as
-they relate to debts and liabilities which the Manager has not paid off or compromised), and the debts and
-liabilities barred by section seven, shall be revived; and any mortgagee or conditional vendee dispossessed
-under section sixteen shall be reinstated, unless his claim under the mortgage or conditional sale has been
-satisfied;
-
-Period of limitation as to revived proceedings and debts.--and in calculating the periods of
-limitation applicable to such revived proceedings, and to suits to recover and enforce such revived debts
-and liabilities, the time intervening between such restoration and the publication of the order mentioned in
-section two, shall be excluded.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68129&sectionno=12&orderno=12&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68129)
+  sectionNo (12)
+  orderNo 12
+  title `Restoration of owner to his property.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68129&sectionno=12&orderno=12&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_12_content:
+  string
+  line `When all such debts and liabilities have been discharged,`
+  line `or if, within six months after the publication of the order mentioned in section two, the Commissioner`
+  line `thinks that the provisions of this Act should not continue to apply to the case of the holder of the said`
+  line `property or his heir,`
+  line
+  line `such holder or his heir shall be restored to the possession and enjoyment of the property, or of such part`
+  line `thereof as has not been sold by the Manager under the power contained in section eighteen, but subject to`
+  line `the leases and mortgages (if any) granted and made by the Manager under the powers hereinafter contained.`
+  line
+  line `Restoration to be notified. Revival of barred proceedings and debts. Reinstatement of`
+  line `mortgagees.--Where the holder of the property or his heir is so restored under the circumstances`
+  line `mentioned in the second clause of this section,such restoration shall be notified in the Calcutta Gazette, and`
+  line `thereupon the proceedings, processes, executions, any attachments mentioned in section three (so far as`
+  line `they relate to debts and liabilities which the Manager has not paid off or compromised), and the debts and`
+  line `liabilities barred by section seven, shall be revived; and any mortgagee or conditional vendee dispossessed`
+  line `under section sixteen shall be reinstated, unless his claim under the mortgage or conditional sale has been`
+  line satisfied;
+  line
+  line `Period of limitation as to revived proceedings and debts.--and in calculating the periods of`
+  line `limitation applicable to such revived proceedings, and to suits to recover and enforce such revived debts`
+  line `and liabilities, the time intervening between such restoration and the publication of the order mentioned in`
+  line `section two, shall be excluded.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 68131)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Power to call for further particulars.`)
-  (str content) (str `The manager may, from time to time, call for further and
-more detailed particulars of any claim preferred before him under this Act, and may at his discretion refuse
-to proceed with the investigation of the claim until such particulars are supplied.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68131&sectionno=13&orderno=13&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68131)
+  sectionNo (13)
+  orderNo 13
+  title `Power to call for further particulars.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68131&sectionno=13&orderno=13&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_13_content:
+  string
+  line `The manager may, from time to time, call for further and`
+  line `more detailed particulars of any claim preferred before him under this Act, and may at his discretion refuse`
+  line `to proceed with the investigation of the claim until such particulars are supplied.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 68132)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Power to summon witnesses and compel production of documents.`)
-  (str content) (str `For the purposes of this
-Act, the Manager may summon and enforce the attendance of witnesses and compel them to give evidence,
-and compel the production of documents by the same means, and, as far as possible, in the same manner,
-as is provided in the case of a Civil Court by the Code of Civil Procedure.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68132&sectionno=14&orderno=14&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68132)
+  sectionNo (14)
+  orderNo 14
+  title `Power to summon witnesses and compel production of documents.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68132&sectionno=14&orderno=14&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_14_content:
+  string
+  line `For the purposes of this`
+  line `Act, the Manager may summon and enforce the attendance of witnesses and compel them to give evidence,`
+  line `and compel the production of documents by the same means, and, as far as possible, in the same manner,`
+  line `as is provided in the case of a Civil Court by the Code of Civil Procedure.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 68133)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str `Investigation to be deemed a judicial proceeding.`)
-  (str content) (str `Every investigation conducted by the Manager
-with reference to any claim preferred before him under this Act, or to any matter connected with any such
-claim, shall be taken to be a judicial proceeding within the meaning of the Indian Penal Code.
-
-Statements of persons examined to be evidence.--And every statement made by any person
-examined by or before the Manager with reference to such investigation, whether upon oath or otherwise,
-shall be taken to be evidence within the meaning of the same Code.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68133&sectionno=15&orderno=15&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68133)
+  sectionNo (15)
+  orderNo 15
+  title `Investigation to be deemed a judicial proceeding.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68133&sectionno=15&orderno=15&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_15_content:
+  string
+  line `Every investigation conducted by the Manager`
+  line `with reference to any claim preferred before him under this Act, or to any matter connected with any such`
+  line `claim, shall be taken to be a judicial proceeding within the meaning of the Indian Penal Code.`
+  line
+  line `Statements of persons examined to be evidence.--And every statement made by any person`
+  line `examined by or before the Manager with reference to such investigation, whether upon oath or otherwise,`
+  line `shall be taken to be evidence within the meaning of the same Code.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 68134)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Manager to have powers of holder of estate.`)
-  (str content) (str `The Manager shall have, for the purpose of
-realizing and recovering the rents and profits of the said immovable property, the same powers as the holder
-of the property would have had for such purpose if this Act had not been passed.
-
-Power to remove mortgagee or conditional vendee in possession.--And if such property, or any part
-thereof, be in the possession of any mortgagee or conditional vendee, the Manager may apply to the Court
-of the Deputy Commissioner within whose jurisdiction the property is situate, and such Court shall cause
-the same to be delivered to the Manager as if a decree therefor had been made in his favour, but without
-prejudice to the mortgagee or vendee preferring his claim under the provisions hereinbefore contained.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68134&sectionno=16&orderno=16&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68134)
+  sectionNo (16)
+  orderNo 16
+  title `Manager to have powers of holder of estate.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68134&sectionno=16&orderno=16&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_16_content:
+  string
+  line `The Manager shall have, for the purpose of`
+  line `realizing and recovering the rents and profits of the said immovable property, the same powers as the holder`
+  line `of the property would have had for such purpose if this Act had not been passed.`
+  line
+  line `Power to remove mortgagee or conditional vendee in possession.--And if such property, or any part`
+  line `thereof, be in the possession of any mortgagee or conditional vendee, the Manager may apply to the Court`
+  line `of the Deputy Commissioner within whose jurisdiction the property is situate, and such Court shall cause`
+  line `the same to be delivered to the Manager as if a decree therefor had been made in his favour, but without`
+  line `prejudice to the mortgagee or vendee preferring his claim under the provisions hereinbefore contained.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 68135)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Power to lease.`)
-  (str content) (str `Subject to the rules made under Section 19, the Manager shall have power to
-demise all or any part of the property under his management for any term of years not exceeding twenty
-years absolute, to take effect in possession in consideration of any fine or fines, or without fine and reserving
-such rents and under such conditions as may be agreed upon.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68135&sectionno=17&orderno=17&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68135)
+  sectionNo (17)
+  orderNo 17
+  title `Power to lease.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68135&sectionno=17&orderno=17&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_17_content:
+  string
+  line `Subject to the rules made under Section 19, the Manager shall have power to`
+  line `demise all or any part of the property under his management for any term of years not exceeding twenty`
+  line `years absolute, to take effect in possession in consideration of any fine or fines, or without fine and reserving`
+  line `such rents and under such conditions as may be agreed upon.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 68136)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Power to raise money by mortgage or sale.`)
-  (str content) (str `The Manager, with the previous assent of the
-Commissioner, shall have power to raise any money which may be required for the settlement of the debts
-and liabilities (other than as aforesaid) to which the holder of the property is subject, or with which such
-property or any part thereof is charged,
-
-by demising by way of mortgage the whole or any part of such property for a term not exceeding twenty
-years from the said publication,
-
-or by selling, with the previous consent of the holder of the property and of the person (being of full
-age) who would be his heir if he died intestate, by public auction or by private contract, and upon such
-terms as the Manager thinks fit, such portion of the same property as may appear expedient.
-
-And no mortgagee advancing money upon any mortgage made under this section, shall be bound to see
-that such money is wanted, or that no more than is wanted is raised.
-
-Manager’s receipts.--And the receipt of the Manager for any monies paid to him as such, shall
-discharge the person paying the same therefrom and from being concerned to see to the application thereof.
-The power to mortgage conferred by this section shall not be exercisable until six months have elapsed
-from the publication of the order mentioned in section two.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68136&sectionno=18&orderno=18&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68136)
+  sectionNo (18)
+  orderNo 18
+  title `Power to raise money by mortgage or sale.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68136&sectionno=18&orderno=18&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_18_content:
+  string
+  line `The Manager, with the previous assent of the`
+  line `Commissioner, shall have power to raise any money which may be required for the settlement of the debts`
+  line `and liabilities (other than as aforesaid) to which the holder of the property is subject, or with which such`
+  line `property or any part thereof is charged,`
+  line
+  line `by demising by way of mortgage the whole or any part of such property for a term not exceeding twenty`
+  line `years from the said publication,`
+  line
+  line `or by selling, with the previous consent of the holder of the property and of the person (being of full`
+  line `age) who would be his heir if he died intestate, by public auction or by private contract, and upon such`
+  line `terms as the Manager thinks fit, such portion of the same property as may appear expedient.`
+  line
+  line `And no mortgagee advancing money upon any mortgage made under this section, shall be bound to see`
+  line `that such money is wanted, or that no more than is wanted is raised.`
+  line
+  line `Manager’s receipts.--And the receipt of the Manager for any monies paid to him as such, shall`
+  line `discharge the person paying the same therefrom and from being concerned to see to the application thereof.`
+  line `The power to mortgage conferred by this section shall not be exercisable until six months have elapsed`
+  line `from the publication of the order mentioned in section two.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 68138)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `The Lieutenant-Governor of Bengal may, from time to time, make rules
-consistent with this Act to regulate the following matter:--
-
-(a) the security to be required from subordinate officers under this Act,
-
-(b) the notices to be given under this Act and the publication of such notices,
-
-(c) the procedure to be followed in determining under section eight the debts and liabilities due to
-creditors and other persons, and in performing the other duties imposed on any officer by this Act,
-
-(d) the allowance of interest on each of the principal debts and liabilities so determined, from the
-date on which it was incurred down to the date of the determination, and on the aggregate amount of
-such debts and liabilities from the date of the determination down to the date of payment,
-
-(e) the order of paying debts and liabilities so determined;
-
-and generally for the guidance of officers in all matters connected with the enforcement of this Act.
-
-Such rules, when approved by the Governor General in Council and published in the Calcutta
-Gazette, shall have the force of law.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68138&sectionno=19&orderno=19&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68138)
+  sectionNo (19)
+  orderNo 19
+  title `Power to make rules.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68138&sectionno=19&orderno=19&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_19_content:
+  string
+  line `The Lieutenant-Governor of Bengal may, from time to time, make rules`
+  line `consistent with this Act to regulate the following matter:--`
+  line
+  line `(a) the security to be required from subordinate officers under this Act,`
+  line
+  line `(b) the notices to be given under this Act and the publication of such notices,`
+  line
+  line `(c) the procedure to be followed in determining under section eight the debts and liabilities due to`
+  line `creditors and other persons, and in performing the other duties imposed on any officer by this Act,`
+  line
+  line `(d) the allowance of interest on each of the principal debts and liabilities so determined, from the`
+  line `date on which it was incurred down to the date of the determination, and on the aggregate amount of`
+  line `such debts and liabilities from the date of the determination down to the date of payment,`
+  line
+  line `(e) the order of paying debts and liabilities so determined;`
+  line
+  line `and generally for the guidance of officers in all matters connected with the enforcement of this Act.`
+  line
+  line `Such rules, when approved by the Governor General in Council and published in the Calcutta`
+  line `Gazette, shall have the force of law.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 68139)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Power to appoint new Managers.`)
-  (str content) (str `Whenever the Commissioner thinks fit, he may appoint any
-officer to be a Manager instead of any Manager appointed under this Act; and thereupon the property then
-vested under this Act in the former Manager shall become vested in the new Manager.
-
-Every such new Manager shall have the same powers as if he had been originally appointed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68139&sectionno=20&orderno=20&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68139)
+  sectionNo (20)
+  orderNo 20
+  title `Power to appoint new Managers.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68139&sectionno=20&orderno=20&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_20_content:
+  string
+  line `Whenever the Commissioner thinks fit, he may appoint any`
+  line `officer to be a Manager instead of any Manager appointed under this Act; and thereupon the property then`
+  line `vested under this Act in the former Manager shall become vested in the new Manager.`
+  line
+  line `Every such new Manager shall have the same powers as if he had been originally appointed.`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 68140)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Managers to be public servants.`)
-  (str content) (str `Every Manager appointed under this Act shall be deemed a
-public servant within the meaning of the Indian Penal Code.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68140&sectionno=21&orderno=21&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68140)
+  sectionNo (21)
+  orderNo 21
+  title `Managers to be public servants.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68140&sectionno=21&orderno=21&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_21_content:
+  string
+  line `Every Manager appointed under this Act shall be deemed a`
+  line `public servant within the meaning of the Indian Penal Code.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 68141)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Bar of suits.`)
-  (str content) (str `No suit or other proceeding shall be maintained against any person in respect of
-anything done by him bona fide pursuant to this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68141&sectionno=22&orderno=22&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68141)
+  sectionNo (22)
+  orderNo 22
+  title `Bar of suits.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68141&sectionno=22&orderno=22&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_22_content:
+  string
+  line `No suit or other proceeding shall be maintained against any person in respect of`
+  line `anything done by him bona fide pursuant to this Act.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 68142)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Saving of jurisdiction of Courts in Chutia Nagpur in respect of certain suits.`)
-  (str content) (str `Nothing in this
-Act precludes the Courts in Chutia Nagpur having jurisdiction in suits relating to the succession to, or
-claims of maintenance from, any immoveable property brought under the operation of this Act, from
-entertaining and disposing of such suits; but to all such suits the Manager of such property shall be made a
-party.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68142&sectionno=23&orderno=23&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68142)
+  sectionNo (23)
+  orderNo 23
+  title `Saving of jurisdiction of Courts in Chutia Nagpur in respect of certain suits.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68142&sectionno=23&orderno=23&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_23_content:
+  string
+  line `Nothing in this`
+  line `Act precludes the Courts in Chutia Nagpur having jurisdiction in suits relating to the succession to, or`
+  line `claims of maintenance from, any immoveable property brought under the operation of this Act, from`
+  line `entertaining and disposing of such suits; but to all such suits the Manager of such property shall be made a`
+  line party.
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 68143)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Act not to affect powers conferred by Bengal Act II of 1869.`)
-  (str content) (str `Nothing in this Act shall be
-deemed to take away or abridge any power or authority conferred by an Act passed by the LieutenantGovernor of Bengal in Council, entitled “\"An Act to ascertain, regulate and record certain tenures in Chutia Nagpur," on any person appointed to be a Special Commissioner thereunder, or on the Commissioner of
-the division of Chutia Nagpur.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68143&sectionno=24&orderno=24&orgactid=AC_CEN_5_5_00094_187606_1663821910941)
+  sectionId (68143)
+  sectionNo (24)
+  orderNo 24
+  title `Act not to affect powers conferred by Bengal Act II of 1869.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00094_187606_1663821910941&sectionId=68143&sectionno=24&orderno=24&orgactid=AC_CEN_5_5_00094_187606_1663821910941
+obj_root_law_sections_24_content:
+  string
+  line `Nothing in this Act shall be`
+  line `deemed to take away or abridge any power or authority conferred by an Act passed by the LieutenantGovernor of Bengal in Council, entitled “\"An Act to ascertain, regulate and record certain tenures in Chutia Nagpur," on any person appointed to be a Special Commissioner thereunder, or on the Commissioner of`
+  line `the division of Chutia Nagpur.`
+obj_root_law_sections_24_footnotes:
+  string
+  line

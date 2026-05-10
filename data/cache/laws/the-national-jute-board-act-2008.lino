@@ -1,60 +1,51 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T12:47:34.667Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2092`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 26)
-  (str totalSections) (int 26)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T12:47:34.667Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2092`
+  completeFetch true
+  maxSections null
+  sectionCount 26
+  totalSections 26
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-national-jute-board-act-2008)
-  (str handle) (str 2092)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The National Jute Board Act, 2008`)
-  (str actNumber) (str 12)
-  (str enactmentDate) (str 2009-02-12)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2092`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `राष्‍ट्रीय जूट बोर्ड अधिनियम, 2008`)
-  (str actYear) (str 2009)
-  (str ministry) (str `Ministry of Textiles`)
-  (str department) (undefined)
-  (str longTitle) (str `An Act to provide for the establishment of a National Jute Board for the development of the cultivation, manufacture and marketing of jute and jute products and for matters connected therewith and incidental thereto.`)
-  (str enforcementDate) (undefined)
-  (str notification) (str `yet to be notified`)
-  (str fetchedAt) (str `2026-05-10T12:47:32.583Z`)
-  (str translations) obj_root_law_translations
+  slug the-national-jute-board-act-2008
+  handle (2092)
+  collectionHandle 123456789/1362
+  title `The National Jute Board Act, 2008`
+  actNumber (12)
+  enactmentDate 2009-02-12
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2092`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `राष्‍ट्रीय जूट बोर्ड अधिनियम, 2008`
+  actYear (2009)
+  ministry `Ministry of Textiles`
+  department undefined
+  longTitle `An Act to provide for the establishment of a National Jute Board for the development of the cultivation, manufacture and marketing of jute and jute products and for matters connected therewith and incidental thereto.`
+  enforcementDate undefined
+  notification `yet to be notified`
+  fetchedAt `2026-05-10T12:47:32.583Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_national_jute_board_act_2008
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2092`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2092`
 obj_root_law_sources_en_the_national_jute_board_act_2008:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2092/5/a2009-12.pdf`)
-  (str title) (str `The National Jute Board Act, 2008`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2092/5/a2009-12.pdf`
+  title `The National Jute Board Act, 2008`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_2008
 obj_root_law_sources_hi_2008:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2092/3/H2009-12.pdf`)
-  (str title) (str `राष्‍ट्रीय जूट बोर्ड अधिनियम, 2008`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2092/3/H2009-12.pdf`
+  title `राष्‍ट्रीय जूट बोर्ड अधिनियम, 2008`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -82,735 +73,859 @@ obj_root_law_sections:
   obj_root_law_sections_25
   obj_root_law_sections_26
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 25858)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title, extent and commencement.`)
-  (str content) (str `(1) This Act may be called the National Jute Board Act,
-2008.
-
-(2) It extends to the whole of India.
-
-(3) It shall come into force on such date^1 as the Central Government may, by notification in the
-Official Gazette, appoint.`)
-  (str footnotes) (str `1. 1st April 2010, vide notification F. No. 3/6/2007-Jute, 30th March, 2010, see Gazette of India, Extraordinary, Part I, sec. 2`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25858&sectionno=1&orderno=1&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25858)
+  sectionNo (1)
+  orderNo 1
+  title `Short title, extent and commencement.`
+  content obj_root_law_sections_1_content
+  footnotes `1. 1st April 2010, vide notification F. No. 3/6/2007-Jute, 30th March, 2010, see Gazette of India, Extraordinary, Part I, sec. 2`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25858&sectionno=1&orderno=1&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the National Jute Board Act,`
+  line 2008.
+  line
+  line `(2) It extends to the whole of India.`
+  line
+  line `(3) It shall come into force on such date^1 as the Central Government may, by notification in the`
+  line `Official Gazette, appoint.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 25859)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "appointed day" means such date as the Central Government may, by notification in the
-Official Gazette, appoint for the purpose of section 3;
-
-(b) "Board" means the National Jute Board constituted under section 3;
-
-(c) "Chairperson" means the Chairperson of the Board;
-
-(d) "Council" means the Jute Manufactures Development Council established under section 3 of
-the Jute Manufactures Development Council Act, 1983 (27 of 1983);
-
-(e) "Jute" means the plants of jute, kenaf and mesta;
-
-(f) "jute manufacture" shall have the same meaning as assigned to it in the Jute Manufactures
-Cess Act, 1983(28 of 1983);
-
-(g) "member" means a member of the Board and includes the Chairperson;
-
-(h) "prescribed" means prescribed by rules made under this Act;
-
-(i) "regulations" means regulations made by the Board under this Act;
-
-(j) "Society" means the National Centre for Jute Diversification, a society set up by the Central
-Government in the Ministry of Textiles and registered under the Societies Registration Act,1860
-(21 of 1860);
-
-(k) "year" means the year commencing on the 1st day of April and ending on the 31st day of
-March next following.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25859&sectionno=2&orderno=2&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25859)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25859&sectionno=2&orderno=2&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "appointed day" means such date as the Central Government may, by notification in the`
+  line `Official Gazette, appoint for the purpose of section 3;`
+  line
+  line `(b) "Board" means the National Jute Board constituted under section 3;`
+  line
+  line `(c) "Chairperson" means the Chairperson of the Board;`
+  line
+  line `(d) "Council" means the Jute Manufactures Development Council established under section 3 of`
+  line `the Jute Manufactures Development Council Act, 1983 (27 of 1983);`
+  line
+  line `(e) "Jute" means the plants of jute, kenaf and mesta;`
+  line
+  line `(f) "jute manufacture" shall have the same meaning as assigned to it in the Jute Manufactures`
+  line `Cess Act, 1983(28 of 1983);`
+  line
+  line `(g) "member" means a member of the Board and includes the Chairperson;`
+  line
+  line `(h) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(i) "regulations" means regulations made by the Board under this Act;`
+  line
+  line `(j) "Society" means the National Centre for Jute Diversification, a society set up by the Central`
+  line `Government in the Ministry of Textiles and registered under the Societies Registration Act,1860`
+  line `(21 of 1860);`
+  line
+  line `(k) "year" means the year commencing on the 1st day of April and ending on the 31st day of`
+  line `March next following.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 25860)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Constitution and incorporation of Board.`)
-  (str content) (str `(1) With effect from the appointed day, the Central
-Government shall, by notification in the Official Gazette, constitute, for the purposes of this Act, a Board
-to be called the National Jute Board.
-
-(2) The Board shall be a body corporate by the name aforesaid, having perpetual succession and a
-common seal, with power to acquire, hold and dispose of property, both movable and immovable, and to
-contract, and shall by the said name sue and be sued.
-
-(3) The head office of the Board shall be at Kolkata in the State of West Bengal or such other place as
-the Central Government may, by notification in the Official Gazette, specify and the Board may, with the previous approval of the Central Government, establish offices or agencies at other places in or outside
-India.
-
-(4) The Board shall consist of the following members, namely:--
-
-(a) the Secretary in charge of the ministry of the Central Government dealing with textiles, who
-shall be the ex officio Chairperson of the Board;
-
-(b) three Members of Parliament of whom two shall be elected from among themselves by the
-members of the House of the People and one from among themselves by the members of the Council
-of States;
-
-(c) the Additional Secretary and Financial Adviser, Ministry of Textiles, Government of India,
-ex officio;
-
-(d) the Joint Secretary (Jute) in the Ministry of Textiles, Government of India, ex officio;
-
-(e) two members of the rank of Joint Secretary to be nominated by the Central Government to
-represent respectively the ministries of the Central Government dealing with--
-
-(i) agriculture, and
-
-(ii) food and public distribution;
-
-(f) three members to be nominated by the Central Government by rotation in the alphabetical
-order to represent respectively the Governments of the States of Andhra Pradesh, Assam, Bihar,
-Meghalaya, Orissa, Tripura and West Bengal; the nomination shall be from officials of the State
-Government holding the rank of Secretary to the State Government and dealing with Jute or Textile
-matters;
-
-(g) three members of jute farmers of which one from State of West Bengal and two from other
-States on rotational basis to be nominated by the Central Government;
-
-(h) three members of jute workers of which one from State of West Bengal and two from other
-States nominated by the Central Government on rotational basis;
-
-(i) two experts from the field of jute technology and related field to be nominated by the Central
-Government;
-
-(j) two members from the "micro enterprises", "small enterprises" and "medium enterprises"
-dealing in jute industry to be nominated by the Central Government.
-
-Explanation.--For the purpose of this clause, the expressions "medium enterprise", "micro
-enterprise" and "small enterprise" shall have the meanings respectively assigned to them in clause (g),
-clause (h) and clause (m) of section 2 of the Micro, Small and Medium Enterprises Development Act,
-2006 (27 of 2006);
-
-(k) two members to be appointed by the Central Government to represent the jute industry in the
-organised sector;
-
-(l) two members to be appointed by the Central Government to represent the jute industry in the
-decentralised sector;
-
-(m) two members to be appointed by the Central Government to represent the exporters of jute
-products;
-
-(n) the Director, Indian Jute Industries Research Association, ex officio;
-
-(o) the Principal, Institute of Jute Technology, ex officio;
-
-(p) the Director, National Institute of Research on Jute and Allied Fibre Technology, Kolkata,
-ex officio;
-
-(q) the Director, Central Research Institute for Jute and Allied Fibres, ex officio;
-
-(r) the Chairman and Managing Director, Jute Corporation of India, ex officio;
-
-(s) the Jute Commissioner, ex officio;
-
-(t) the Secretary, National Jute Board, who shall be the ex officio Member-Secretary of the Board.
-
-(5) The term of office of the members, other than the ex officio members, and the manner of filling
-vacancies among, and the procedure to be followed in the discharge of their functions by, such members
-shall be as may be prescribed.
-
-(6) The office of members of the Board shall not disqualify its holder for being chosen as, or for
-being a member of either House of Parliament.
-
-(7) The Chairperson shall, in addition to presiding over the meetings of the Board, exercise and
-discharge such powers and duties of the Board as may be assigned to him by the Board and such other
-powers and duties as may be prescribed.
-
-(8) The Board shall elect from among its members a Vice-Chairperson who shall exercise such of the
-powers and perform such of the functions of the Chairperson as may be prescribed or as may be delegated
-to him by the Chairperson.
-
-(9) The Board shall meet at such times and places and shall observe such procedure in regard to the
-transaction of business at its meetings (including the quorum at meetings) as may be determined by
-regulations.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25860&sectionno=3&orderno=3&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25860)
+  sectionNo (3)
+  orderNo 3
+  title `Constitution and incorporation of Board.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25860&sectionno=3&orderno=3&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_3_content:
+  string
+  line `(1) With effect from the appointed day, the Central`
+  line `Government shall, by notification in the Official Gazette, constitute, for the purposes of this Act, a Board`
+  line `to be called the National Jute Board.`
+  line
+  line `(2) The Board shall be a body corporate by the name aforesaid, having perpetual succession and a`
+  line `common seal, with power to acquire, hold and dispose of property, both movable and immovable, and to`
+  line `contract, and shall by the said name sue and be sued.`
+  line
+  line `(3) The head office of the Board shall be at Kolkata in the State of West Bengal or such other place as`
+  line `the Central Government may, by notification in the Official Gazette, specify and the Board may, with the previous approval of the Central Government, establish offices or agencies at other places in or outside`
+  line India.
+  line
+  line `(4) The Board shall consist of the following members, namely:--`
+  line
+  line `(a) the Secretary in charge of the ministry of the Central Government dealing with textiles, who`
+  line `shall be the ex officio Chairperson of the Board;`
+  line
+  line `(b) three Members of Parliament of whom two shall be elected from among themselves by the`
+  line `members of the House of the People and one from among themselves by the members of the Council`
+  line `of States;`
+  line
+  line `(c) the Additional Secretary and Financial Adviser, Ministry of Textiles, Government of India,`
+  line `ex officio;`
+  line
+  line `(d) the Joint Secretary (Jute) in the Ministry of Textiles, Government of India, ex officio;`
+  line
+  line `(e) two members of the rank of Joint Secretary to be nominated by the Central Government to`
+  line `represent respectively the ministries of the Central Government dealing with--`
+  line
+  line `(i) agriculture, and`
+  line
+  line `(ii) food and public distribution;`
+  line
+  line `(f) three members to be nominated by the Central Government by rotation in the alphabetical`
+  line `order to represent respectively the Governments of the States of Andhra Pradesh, Assam, Bihar,`
+  line `Meghalaya, Orissa, Tripura and West Bengal; the nomination shall be from officials of the State`
+  line `Government holding the rank of Secretary to the State Government and dealing with Jute or Textile`
+  line matters;
+  line
+  line `(g) three members of jute farmers of which one from State of West Bengal and two from other`
+  line `States on rotational basis to be nominated by the Central Government;`
+  line
+  line `(h) three members of jute workers of which one from State of West Bengal and two from other`
+  line `States nominated by the Central Government on rotational basis;`
+  line
+  line `(i) two experts from the field of jute technology and related field to be nominated by the Central`
+  line Government;
+  line
+  line `(j) two members from the "micro enterprises", "small enterprises" and "medium enterprises"`
+  line `dealing in jute industry to be nominated by the Central Government.`
+  line
+  line `Explanation.--For the purpose of this clause, the expressions "medium enterprise", "micro`
+  line `enterprise" and "small enterprise" shall have the meanings respectively assigned to them in clause (g),`
+  line `clause (h) and clause (m) of section 2 of the Micro, Small and Medium Enterprises Development Act,`
+  line `2006 (27 of 2006);`
+  line
+  line `(k) two members to be appointed by the Central Government to represent the jute industry in the`
+  line `organised sector;`
+  line
+  line `(l) two members to be appointed by the Central Government to represent the jute industry in the`
+  line `decentralised sector;`
+  line
+  line `(m) two members to be appointed by the Central Government to represent the exporters of jute`
+  line products;
+  line
+  line `(n) the Director, Indian Jute Industries Research Association, ex officio;`
+  line
+  line `(o) the Principal, Institute of Jute Technology, ex officio;`
+  line
+  line `(p) the Director, National Institute of Research on Jute and Allied Fibre Technology, Kolkata,`
+  line `ex officio;`
+  line
+  line `(q) the Director, Central Research Institute for Jute and Allied Fibres, ex officio;`
+  line
+  line `(r) the Chairman and Managing Director, Jute Corporation of India, ex officio;`
+  line
+  line `(s) the Jute Commissioner, ex officio;`
+  line
+  line `(t) the Secretary, National Jute Board, who shall be the ex officio Member-Secretary of the Board.`
+  line
+  line `(5) The term of office of the members, other than the ex officio members, and the manner of filling`
+  line `vacancies among, and the procedure to be followed in the discharge of their functions by, such members`
+  line `shall be as may be prescribed.`
+  line
+  line `(6) The office of members of the Board shall not disqualify its holder for being chosen as, or for`
+  line `being a member of either House of Parliament.`
+  line
+  line `(7) The Chairperson shall, in addition to presiding over the meetings of the Board, exercise and`
+  line `discharge such powers and duties of the Board as may be assigned to him by the Board and such other`
+  line `powers and duties as may be prescribed.`
+  line
+  line `(8) The Board shall elect from among its members a Vice-Chairperson who shall exercise such of the`
+  line `powers and perform such of the functions of the Chairperson as may be prescribed or as may be delegated`
+  line `to him by the Chairperson.`
+  line
+  line `(9) The Board shall meet at such times and places and shall observe such procedure in regard to the`
+  line `transaction of business at its meetings (including the quorum at meetings) as may be determined by`
+  line regulations.
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 25861)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Secretary and other officers.`)
-  (str content) (str `(1) The Central Government may appoint the Secretary and such
-other officers and employees as it considers necessary, for the efficient discharge of the functions of the
-Board under this Act.
-
-(2) The terms and conditions of service of the Secretary and other officers and employees of the
-Board shall be such as may be determined by regulations.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25861&sectionno=4&orderno=4&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25861)
+  sectionNo (4)
+  orderNo 4
+  title `Secretary and other officers.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25861&sectionno=4&orderno=4&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_4_content:
+  string
+  line `(1) The Central Government may appoint the Secretary and such`
+  line `other officers and employees as it considers necessary, for the efficient discharge of the functions of the`
+  line `Board under this Act.`
+  line
+  line `(2) The terms and conditions of service of the Secretary and other officers and employees of the`
+  line `Board shall be such as may be determined by regulations.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 25862)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Functions of Board.`)
-  (str content) (str `(1) It shall be the duty of the Board to promote the development of jute and
-jute products by such measures as it thinks fit.
-
-(2) Without prejudice to the generality of the foregoing provision, the Board may undertake measures
-to--
-
-(i) evolve an integrated approach to jute cultivation in the matters of formulation of schemes,
-extension work, implementation and evaluation of schemes aimed at increasing the yield of jute and
-improving the quality thereon;
-
-(ii) promote production of better quality raw jute;
-
-(iii) enhance productivity of raw jute;
-
-(iv) promote or undertake arrangements for better marketing and stabilisation of the prices of raw
-jute;
-
-(v) promote standardisation of raw jute and jute products;
-
-(vi) suggest norms of efficiency for jute industry with a view to eliminating waste, obtaining
-optimum production, improving quality and reducing costs;
-
-(vii) propagate information useful to the growers of raw jute and manufacturers of jute products;
-
-(viii) promote and undertake measures for quality control of raw jute and jute products;
-
-(ix) assist and encourage studies and research for improvement of processing, quality, techniques
-of grading and packaging of raw jute;
-
-(x) promote or undertake surveys or studies aimed at collection and formulation of statistics
-regarding raw jute and jute products;
-
-(xi) promote standardisation of jute manufactures;
-
-(xii) promote the development of production of jute manufactures by increasing the efficiency
-and productivity of the jute industry;
-
-(xiii) sponsor, assist, coordinate, encourage or undertake scientific, technological, economic and
-marketing research pertaining to the jute sector;
-
-(xiv) maintain and improve existing markets and to develop new markets within the country and
-outside for jute manufactures and to devise marketing strategies in consonance with the demand for
-such manufactures in the domestic and international markets;
-
-(xv) sponsor, assist, coordinate or encourage scientific, technological and economic research in
-the matters related to materials, equipment, methods of production, product development including
-discovery and development of new materials, equipment and methods and improvements in those
-already in use in the jute industry;
-
-(xvi) provide and create necessary infrastructural facilities and conditions conducive to the
-development of diversified jute products by way of assisting the entrepreneurs, artisans, craftsman,
-designers, manufacturers, exporters, non-Governmental agencies in the following manner, namely:--
-
-(a) transfer of technology from research and development institutions and other
-organisations in India and abroad;
-
-(b) providing support services to the entrepreneurs for the implementation of their
-projects including technical guidance and training;
-
-(c) organising entrepreneurial development programmes;
-
-(d) planning and executing market promotion strategies including exhibitions,
-demonstrations, media campaigns in India and abroad;
-
-(e) providing financial assistance by way of subsidy or seed capital;
-
-(f) providing a forum to the people engaged or interested in diversified jute products for
-interacting with various national and international agencies, engaged in the jute and jute
-textile sector;
-
-(xvii) organise workshops, conferences, lectures, seminars, refresher courses and set up study
-groups and conduct training programmes for the purpose of promotion and development of jute and
-jute products;
-
-(xviii) undertake research on jute seed to improve quality and to shorten the gestation period of
-jute crop;
-
-(xix) incorporate measures for sustainable Human Resource Development of the jute sector and to
-provide necessary funds for the same;
-
-(xx) modernisation of jute sector and technology development;
-
-(xxi) take steps to protect the interests of jute growers and workers and to promote their welfare
-by improving their livelihood avenues;
-
-(xxii) secure better working conditions and provisions and improvement of amenities and
-incentives for workers engaged in the jute industry;
-
-(xxiii) register jute growers and manufacturers on optional basis;
-
-(xxiv) collect statistics with regard to jute and jute products for compilation and publication;
-
-(xxv) subscribe to the share capital of or enter into any arrangement (whether by way of
-partnership, joint venture or any other manner) with any other body corporate for the purpose of
-promoting the jute sector or for promotion and marketing of jute and jute products in India and
-abroad.
-
-(3) It shall be the duty of the Board--
-
-(a) to advise the Central Government on all matters relating to the development of raw jute and
-the jute industry, including import and export of jute and jute products;
-
-(b) to prepare and furnish reports relating to the jute sector as may be required by the Central
-Government from time to time.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25862&sectionno=5&orderno=5&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25862)
+  sectionNo (5)
+  orderNo 5
+  title `Functions of Board.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25862&sectionno=5&orderno=5&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_5_content:
+  string
+  line `(1) It shall be the duty of the Board to promote the development of jute and`
+  line `jute products by such measures as it thinks fit.`
+  line
+  line `(2) Without prejudice to the generality of the foregoing provision, the Board may undertake measures`
+  line to--
+  line
+  line `(i) evolve an integrated approach to jute cultivation in the matters of formulation of schemes,`
+  line `extension work, implementation and evaluation of schemes aimed at increasing the yield of jute and`
+  line `improving the quality thereon;`
+  line
+  line `(ii) promote production of better quality raw jute;`
+  line
+  line `(iii) enhance productivity of raw jute;`
+  line
+  line `(iv) promote or undertake arrangements for better marketing and stabilisation of the prices of raw`
+  line jute;
+  line
+  line `(v) promote standardisation of raw jute and jute products;`
+  line
+  line `(vi) suggest norms of efficiency for jute industry with a view to eliminating waste, obtaining`
+  line `optimum production, improving quality and reducing costs;`
+  line
+  line `(vii) propagate information useful to the growers of raw jute and manufacturers of jute products;`
+  line
+  line `(viii) promote and undertake measures for quality control of raw jute and jute products;`
+  line
+  line `(ix) assist and encourage studies and research for improvement of processing, quality, techniques`
+  line `of grading and packaging of raw jute;`
+  line
+  line `(x) promote or undertake surveys or studies aimed at collection and formulation of statistics`
+  line `regarding raw jute and jute products;`
+  line
+  line `(xi) promote standardisation of jute manufactures;`
+  line
+  line `(xii) promote the development of production of jute manufactures by increasing the efficiency`
+  line `and productivity of the jute industry;`
+  line
+  line `(xiii) sponsor, assist, coordinate, encourage or undertake scientific, technological, economic and`
+  line `marketing research pertaining to the jute sector;`
+  line
+  line `(xiv) maintain and improve existing markets and to develop new markets within the country and`
+  line `outside for jute manufactures and to devise marketing strategies in consonance with the demand for`
+  line `such manufactures in the domestic and international markets;`
+  line
+  line `(xv) sponsor, assist, coordinate or encourage scientific, technological and economic research in`
+  line `the matters related to materials, equipment, methods of production, product development including`
+  line `discovery and development of new materials, equipment and methods and improvements in those`
+  line `already in use in the jute industry;`
+  line
+  line `(xvi) provide and create necessary infrastructural facilities and conditions conducive to the`
+  line `development of diversified jute products by way of assisting the entrepreneurs, artisans, craftsman,`
+  line `designers, manufacturers, exporters, non-Governmental agencies in the following manner, namely:--`
+  line
+  line `(a) transfer of technology from research and development institutions and other`
+  line `organisations in India and abroad;`
+  line
+  line `(b) providing support services to the entrepreneurs for the implementation of their`
+  line `projects including technical guidance and training;`
+  line
+  line `(c) organising entrepreneurial development programmes;`
+  line
+  line `(d) planning and executing market promotion strategies including exhibitions,`
+  line `demonstrations, media campaigns in India and abroad;`
+  line
+  line `(e) providing financial assistance by way of subsidy or seed capital;`
+  line
+  line `(f) providing a forum to the people engaged or interested in diversified jute products for`
+  line `interacting with various national and international agencies, engaged in the jute and jute`
+  line `textile sector;`
+  line
+  line `(xvii) organise workshops, conferences, lectures, seminars, refresher courses and set up study`
+  line `groups and conduct training programmes for the purpose of promotion and development of jute and`
+  line `jute products;`
+  line
+  line `(xviii) undertake research on jute seed to improve quality and to shorten the gestation period of`
+  line `jute crop;`
+  line
+  line `(xix) incorporate measures for sustainable Human Resource Development of the jute sector and to`
+  line `provide necessary funds for the same;`
+  line
+  line `(xx) modernisation of jute sector and technology development;`
+  line
+  line `(xxi) take steps to protect the interests of jute growers and workers and to promote their welfare`
+  line `by improving their livelihood avenues;`
+  line
+  line `(xxii) secure better working conditions and provisions and improvement of amenities and`
+  line `incentives for workers engaged in the jute industry;`
+  line
+  line `(xxiii) register jute growers and manufacturers on optional basis;`
+  line
+  line `(xxiv) collect statistics with regard to jute and jute products for compilation and publication;`
+  line
+  line `(xxv) subscribe to the share capital of or enter into any arrangement (whether by way of`
+  line `partnership, joint venture or any other manner) with any other body corporate for the purpose of`
+  line `promoting the jute sector or for promotion and marketing of jute and jute products in India and`
+  line abroad.
+  line
+  line `(3) It shall be the duty of the Board--`
+  line
+  line `(a) to advise the Central Government on all matters relating to the development of raw jute and`
+  line `the jute industry, including import and export of jute and jute products;`
+  line
+  line `(b) to prepare and furnish reports relating to the jute sector as may be required by the Central`
+  line `Government from time to time.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 25863)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `The Council and Society to vest in Board.`)
-  (str content) (str `(1) On and from the appointed day, there shall be
-transferred to, and vest in, the Board constituted under section 3, the Council and the Society.
-
-(2) The Council and the Society which is transferred to, and which vests in, the Board under subsection
-(1) shall be deemed to include all assets, rights, powers, authorities and privileges and all property
-movable and immovable, real or personal, corporeal or incorporeal, present or contingent, of whatever
-nature and wheresoever situate, including lands, buildings, machinery, equipments, cash balances, capital,
-reserves, reserve funds, investments, tenancies, leases and book debts and all other rights and interests
-arising out of such property as were immediately before the appointed day in the ownership or possession
-or power of the Council, or as the case may be, the Society, whether within or outside India, all books of
-account and documents relating thereto and shall also be deemed to include all borrowings, liabilities and
-obligations of whatever kind then subsisting of the Society, or as the case may be, the Council.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25863&sectionno=6&orderno=6&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25863)
+  sectionNo (6)
+  orderNo 6
+  title `The Council and Society to vest in Board.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25863&sectionno=6&orderno=6&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_6_content:
+  string
+  line `(1) On and from the appointed day, there shall be`
+  line `transferred to, and vest in, the Board constituted under section 3, the Council and the Society.`
+  line
+  line `(2) The Council and the Society which is transferred to, and which vests in, the Board under subsection`
+  line `(1) shall be deemed to include all assets, rights, powers, authorities and privileges and all property`
+  line `movable and immovable, real or personal, corporeal or incorporeal, present or contingent, of whatever`
+  line `nature and wheresoever situate, including lands, buildings, machinery, equipments, cash balances, capital,`
+  line `reserves, reserve funds, investments, tenancies, leases and book debts and all other rights and interests`
+  line `arising out of such property as were immediately before the appointed day in the ownership or possession`
+  line `or power of the Council, or as the case may be, the Society, whether within or outside India, all books of`
+  line `account and documents relating thereto and shall also be deemed to include all borrowings, liabilities and`
+  line `obligations of whatever kind then subsisting of the Society, or as the case may be, the Council.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 25864)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `General effect of vesting of Council and Society in Board.`)
-  (str content) (str `(1) All contracts, agreements and
-working arrangements subsisting immediately before the appointed day and affecting the Council, or, as
-the case may be, the Society shall, in so far as they relate to the Council, or, as the case may be, the
-Society, cease to have effect or be enforceable against the Council, or, as the case may be, the Society and
-shall be of as full force and effect against or in favour of the Board in which the Council and the Society
-have vested by virtue of this Act and enforceable as fully and effectively as if, instead of the Council, or,
-as the case may be, the Society, the Board had been named therein or had been a party thereto.
-
-(2) Any proceeding, suit or cause of action pending or existing immediately before the appointed day
-by or against the Council or the Society may, as from that day, be continued and enforced by or against
-the Board in which it has vested by virtue of this Act, as it might have been enforced by or against the
-Council or the Society if this Act had not been passed, and shall cease to be enforceable by or against the
-Council or, as the case may be, the Society.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25864&sectionno=7&orderno=7&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25864)
+  sectionNo (7)
+  orderNo 7
+  title `General effect of vesting of Council and Society in Board.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25864&sectionno=7&orderno=7&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_7_content:
+  string
+  line `(1) All contracts, agreements and`
+  line `working arrangements subsisting immediately before the appointed day and affecting the Council, or, as`
+  line `the case may be, the Society shall, in so far as they relate to the Council, or, as the case may be, the`
+  line `Society, cease to have effect or be enforceable against the Council, or, as the case may be, the Society and`
+  line `shall be of as full force and effect against or in favour of the Board in which the Council and the Society`
+  line `have vested by virtue of this Act and enforceable as fully and effectively as if, instead of the Council, or,`
+  line `as the case may be, the Society, the Board had been named therein or had been a party thereto.`
+  line
+  line `(2) Any proceeding, suit or cause of action pending or existing immediately before the appointed day`
+  line `by or against the Council or the Society may, as from that day, be continued and enforced by or against`
+  line `the Board in which it has vested by virtue of this Act, as it might have been enforced by or against the`
+  line `Council or the Society if this Act had not been passed, and shall cease to be enforceable by or against the`
+  line `Council or, as the case may be, the Society.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 25865)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Licences, etc., to be deemed to have been granted to Board.`)
-  (str content) (str `With effect from the appointed
-day, all licences, permits, quotas and exemptions, granted to the Council or the Society in connection with
-the affairs and business of the Council, or, as the case may be, the Society, under any law for the time
-being in force, shall be deemed to have been granted to the Board in which the Council and the Society
-have vested by virtue of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25865&sectionno=8&orderno=8&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25865)
+  sectionNo (8)
+  orderNo 8
+  title `Licences, etc., to be deemed to have been granted to Board.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25865&sectionno=8&orderno=8&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_8_content:
+  string
+  line `With effect from the appointed`
+  line `day, all licences, permits, quotas and exemptions, granted to the Council or the Society in connection with`
+  line `the affairs and business of the Council, or, as the case may be, the Society, under any law for the time`
+  line `being in force, shall be deemed to have been granted to the Board in which the Council and the Society`
+  line `have vested by virtue of this Act.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 25866)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Tax exemption or benefits to continue have effect.`)
-  (str content) (str `(1) Where any exemption from, or any
-assessment with respect to, any tax has been granted or made or any benefit by way of set off or carry
-forward, as the case may be, of any unabsorbed depreciation or investment allowance or other allowance
-or loss has been extended or is available to the Council or the Society, under the Income-tax Act, 1961
-(43 of 1961), such exemption, assessment or benefit shall continue to have effect in relation to the Board
-in which the Council and the Society have vested by virtue of this Act.
-
-(2) Where any payment made by the Council or the Society is exempted from deduction of tax at
-source under any provision of the Income-tax Act, 1961(43 of 1961) the exemption from tax will continue
-to be available as if the provisions of the said Act made applicable to the Council or the Society were
-operative in relation to the Board in which the Council and the Society have vested by virtue of this Act.
-
-(3) The transfer and vesting of the Council or the Society in terms of section 6 shall not be construed
-as a transfer within the meaning of the Income-tax Act, 1961(43 of 1961) for the purposes of capital
-gains.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25866&sectionno=9&orderno=9&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25866)
+  sectionNo (9)
+  orderNo 9
+  title `Tax exemption or benefits to continue have effect.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25866&sectionno=9&orderno=9&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_9_content:
+  string
+  line `(1) Where any exemption from, or any`
+  line `assessment with respect to, any tax has been granted or made or any benefit by way of set off or carry`
+  line `forward, as the case may be, of any unabsorbed depreciation or investment allowance or other allowance`
+  line `or loss has been extended or is available to the Council or the Society, under the Income-tax Act, 1961`
+  line `(43 of 1961), such exemption, assessment or benefit shall continue to have effect in relation to the Board`
+  line `in which the Council and the Society have vested by virtue of this Act.`
+  line
+  line `(2) Where any payment made by the Council or the Society is exempted from deduction of tax at`
+  line `source under any provision of the Income-tax Act, 1961(43 of 1961) the exemption from tax will continue`
+  line `to be available as if the provisions of the said Act made applicable to the Council or the Society were`
+  line `operative in relation to the Board in which the Council and the Society have vested by virtue of this Act.`
+  line
+  line `(3) The transfer and vesting of the Council or the Society in terms of section 6 shall not be construed`
+  line `as a transfer within the meaning of the Income-tax Act, 1961(43 of 1961) for the purposes of capital`
+  line gains.
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 25867)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Guarantee to be operative.`)
-  (str content) (str `Any guarantee given for or in favour of the Council or the Society
-with respect to any loan or lease finance shall continue to be operative in relation to the Board in which
-the Council and the Society have vested by virtue of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25867&sectionno=10&orderno=10&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25867)
+  sectionNo (10)
+  orderNo 10
+  title `Guarantee to be operative.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25867&sectionno=10&orderno=10&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_10_content:
+  string
+  line `Any guarantee given for or in favour of the Council or the Society`
+  line `with respect to any loan or lease finance shall continue to be operative in relation to the Board in which`
+  line `the Council and the Society have vested by virtue of this Act.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 25868)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Provisions in respect of officers and other employees of Council and Society.`)
-  (str content) (str `(1) (a) Every
-officer or other employee of the Council serving in its employment immediately before the appointed day
-shall, in so far as such officer or other employee is employed in connection with the Council which has
-vested in the Board by virtue of this Act, becomes, as from the appointed day, an officer, or, as the case
-may be, other employee of the Board.
-
-(b) Every officer or other employee of the Society serving in its employment immediately before the
-appointed day shall, in so far as such officer or other employee is employed in connection with the
-Society which has vested in the Board by virtue of this Act, becomes, as from the appointed day, an
-officer, or, as the case may be, other employee of the Board.
-
-(2) Every officer or other employee of the Council or the Society who becomes an officer, or as the
-case may be, other employee of the Board, as referred to in sub-section (1), shall hold his office or service
-therein by the same tenure, at the same remuneration, upon the same terms and conditions, with the same
-obligations and rights and privileges as to leave, insurance, superannuation scheme, provident fund, other
-funds, retirement, pension, gratuity and other benefits as he would have held under the Council, or, as the
-case may be, the Society, if it had not vested in the Board and shall continue to do so as an officer or other
-employee, as the case may be, of the Board, or until the expiry of a period of one year from the appointed
-day if such officer or other employee opts not to be the officer or other employee of the Board within such
-period:
-
-Provided that if the Board thinks it expedient to extend the period so fixed, it may extend the same up
-to a maximum period of one year.
-
-(3) Where an officer or other employee of the Council or the Society opts under sub-section (2) not to
-be in the employment or service of the Board in which the Council and the Society have vested, such
-officer or other employee shall be deemed to have resigned from the respective cadre.
-
-(4) Notwithstanding anything contained in the Industrial Disputes Act, 1947(14 of 1947) or in any
-other law for the time being in force, the transfer of the services of any officer or other employee of the
-Council or the Society to the Board shall not entitle such officer or other employee to any compensation
-under this Act or any other law for the time being in force and no such claim shall be entertained by any
-court, tribunal or other authority.
-
-(5) The officers and other employees who have retired before the appointed day from the service of
-the Council or the Society and are entitled to any benefits, rights or privileges shall be entitled to receive
-the same benefits, rights or privileges from the Board in which the Council and the Society have vested.
-
-(6) The trusts of the Provident Fund and Group Insurance and Superannuation Scheme of the Council
-or the Society for the welfare of officers or employees would continue to discharge their functions in the
-Board as was being done hitherto in the Council or the Society and tax exemption granted to Provident
-Fund or Group Insurance and Superannuation Scheme would continue to be applied to the Board.
-
-(7) After the expiry of the period of one year, or the extended period, as referred to in sub-section (2),
-all the officers and other employees transferred and appointed to the Board, other than those opting not to
-be the officers or employees of the Board within such period, shall be governed by the rules and
-regulations made by the Board in respect of the service conditions of the officers and other employees of
-the said Board.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25868&sectionno=11&orderno=11&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25868)
+  sectionNo (11)
+  orderNo 11
+  title `Provisions in respect of officers and other employees of Council and Society.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25868&sectionno=11&orderno=11&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_11_content:
+  string
+  line `(1) (a) Every`
+  line `officer or other employee of the Council serving in its employment immediately before the appointed day`
+  line `shall, in so far as such officer or other employee is employed in connection with the Council which has`
+  line `vested in the Board by virtue of this Act, becomes, as from the appointed day, an officer, or, as the case`
+  line `may be, other employee of the Board.`
+  line
+  line `(b) Every officer or other employee of the Society serving in its employment immediately before the`
+  line `appointed day shall, in so far as such officer or other employee is employed in connection with the`
+  line `Society which has vested in the Board by virtue of this Act, becomes, as from the appointed day, an`
+  line `officer, or, as the case may be, other employee of the Board.`
+  line
+  line `(2) Every officer or other employee of the Council or the Society who becomes an officer, or as the`
+  line `case may be, other employee of the Board, as referred to in sub-section (1), shall hold his office or service`
+  line `therein by the same tenure, at the same remuneration, upon the same terms and conditions, with the same`
+  line `obligations and rights and privileges as to leave, insurance, superannuation scheme, provident fund, other`
+  line `funds, retirement, pension, gratuity and other benefits as he would have held under the Council, or, as the`
+  line `case may be, the Society, if it had not vested in the Board and shall continue to do so as an officer or other`
+  line `employee, as the case may be, of the Board, or until the expiry of a period of one year from the appointed`
+  line `day if such officer or other employee opts not to be the officer or other employee of the Board within such`
+  line `period:`
+  line
+  line `Provided that if the Board thinks it expedient to extend the period so fixed, it may extend the same up`
+  line `to a maximum period of one year.`
+  line
+  line `(3) Where an officer or other employee of the Council or the Society opts under sub-section (2) not to`
+  line `be in the employment or service of the Board in which the Council and the Society have vested, such`
+  line `officer or other employee shall be deemed to have resigned from the respective cadre.`
+  line
+  line `(4) Notwithstanding anything contained in the Industrial Disputes Act, 1947(14 of 1947) or in any`
+  line `other law for the time being in force, the transfer of the services of any officer or other employee of the`
+  line `Council or the Society to the Board shall not entitle such officer or other employee to any compensation`
+  line `under this Act or any other law for the time being in force and no such claim shall be entertained by any`
+  line `court, tribunal or other authority.`
+  line
+  line `(5) The officers and other employees who have retired before the appointed day from the service of`
+  line `the Council or the Society and are entitled to any benefits, rights or privileges shall be entitled to receive`
+  line `the same benefits, rights or privileges from the Board in which the Council and the Society have vested.`
+  line
+  line `(6) The trusts of the Provident Fund and Group Insurance and Superannuation Scheme of the Council`
+  line `or the Society for the welfare of officers or employees would continue to discharge their functions in the`
+  line `Board as was being done hitherto in the Council or the Society and tax exemption granted to Provident`
+  line `Fund or Group Insurance and Superannuation Scheme would continue to be applied to the Board.`
+  line
+  line `(7) After the expiry of the period of one year, or the extended period, as referred to in sub-section (2),`
+  line `all the officers and other employees transferred and appointed to the Board, other than those opting not to`
+  line `be the officers or employees of the Board within such period, shall be governed by the rules and`
+  line `regulations made by the Board in respect of the service conditions of the officers and other employees of`
+  line `the said Board.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 25869)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 12)
-  (str title) (str `Directions by Central Government.`)
-  (str content) (str `(1) The Board shall, in the discharge of its functions and
-duties under the relevant statute, be bound by the directions on questions of policy as the Central
-Government may give in writing to it from time to time:
-
-Provided that the Board shall, as far as practicable, be given an opportunity to express its views
-before any direction is given.
-
-(2) The decision of the Central Government, whether a question is one of policy or not, shall be final.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25869&sectionno=12&orderno=12&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25869)
+  sectionNo (12)
+  orderNo 12
+  title `Directions by Central Government.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25869&sectionno=12&orderno=12&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_12_content:
+  string
+  line `(1) The Board shall, in the discharge of its functions and`
+  line `duties under the relevant statute, be bound by the directions on questions of policy as the Central`
+  line `Government may give in writing to it from time to time:`
+  line
+  line `Provided that the Board shall, as far as practicable, be given an opportunity to express its views`
+  line `before any direction is given.`
+  line
+  line `(2) The decision of the Central Government, whether a question is one of policy or not, shall be final.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 25870)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 13)
-  (str title) (str `Supersession of Board.`)
-  (str content) (str `(1) If at any time the Central Government is of the opinion that--
-
-(a) on account of grave emergency, the Board is unable to discharge the functions and duties
-imposed on it by or under the provisions of this Act; or
-
-(b) the Board has persistently made default in complying with any direction issued by the Central
-Government under this Act or in the discharge of the functions and duties imposed on it by or under
-the provisions of this Act and as a result of such default, the financial position of the Board or the
-administration of the Board has deteriorated; or
-
-(c) the circumstances exist which render it necessary in the public interest so to do,
-
-the Central Government may, by notification in the Official Gazette, supersede the Board for such period,
-not exceeding six months, as may be specified in the notification.
-
-(2) Upon the publication of a notification--
-
-(a) all the members of the Board shall, as from the date of supersession vacate their offices as
-such;
-
-(b) all the powers, functions and duties which may, by or under the provisions of the relevant Act,
-be exercised or discharged by or on behalf of the Board shall, until the Board is reconstituted under
-sub-section (3), be exercised and discharged by such person or persons as the Central Government
-may direct; and
-
-(c) all property owned or controlled by the Board shall, until the Board is reconstituted, vest in
-the Central Government.
-
-(3) On the expiration of the period of supersession specified in the notification issued under
-sub-section (1), the Central Government may reconstitute the Board by a fresh appointment and in such
-case any person or persons who vacated their offices under clause (a) of sub-section (2), shall not be
-deemed disqualified for appointment:
-
-Provided that the Central Government may, at any time, before the expiration of the period of
-supersession, take action under this sub-section.
-
-(4) The Central Government shall cause a notification to be issued under sub-section (1) and a full
-report of any action taken under this section and the circumstances leading to such action will be laid
-before each House of Parliament at the earliest.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25870&sectionno=13&orderno=13&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25870)
+  sectionNo (13)
+  orderNo 13
+  title `Supersession of Board.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25870&sectionno=13&orderno=13&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_13_content:
+  string
+  line `(1) If at any time the Central Government is of the opinion that--`
+  line
+  line `(a) on account of grave emergency, the Board is unable to discharge the functions and duties`
+  line `imposed on it by or under the provisions of this Act; or`
+  line
+  line `(b) the Board has persistently made default in complying with any direction issued by the Central`
+  line `Government under this Act or in the discharge of the functions and duties imposed on it by or under`
+  line `the provisions of this Act and as a result of such default, the financial position of the Board or the`
+  line `administration of the Board has deteriorated; or`
+  line
+  line `(c) the circumstances exist which render it necessary in the public interest so to do,`
+  line
+  line `the Central Government may, by notification in the Official Gazette, supersede the Board for such period,`
+  line `not exceeding six months, as may be specified in the notification.`
+  line
+  line `(2) Upon the publication of a notification--`
+  line
+  line `(a) all the members of the Board shall, as from the date of supersession vacate their offices as`
+  line such;
+  line
+  line `(b) all the powers, functions and duties which may, by or under the provisions of the relevant Act,`
+  line `be exercised or discharged by or on behalf of the Board shall, until the Board is reconstituted under`
+  line `sub-section (3), be exercised and discharged by such person or persons as the Central Government`
+  line `may direct; and`
+  line
+  line `(c) all property owned or controlled by the Board shall, until the Board is reconstituted, vest in`
+  line `the Central Government.`
+  line
+  line `(3) On the expiration of the period of supersession specified in the notification issued under`
+  line `sub-section (1), the Central Government may reconstitute the Board by a fresh appointment and in such`
+  line `case any person or persons who vacated their offices under clause (a) of sub-section (2), shall not be`
+  line `deemed disqualified for appointment:`
+  line
+  line `Provided that the Central Government may, at any time, before the expiration of the period of`
+  line `supersession, take action under this sub-section.`
+  line
+  line `(4) The Central Government shall cause a notification to be issued under sub-section (1) and a full`
+  line `report of any action taken under this section and the circumstances leading to such action will be laid`
+  line `before each House of Parliament at the earliest.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 25871)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 14)
-  (str title) (str `Grants and loans by Central Government.`)
-  (str content) (str `(1) The Central Government may, after due
-appropriation made by Parliament by law, in this behalf, make to the Board grants and loans of such sums
-of money as that Government may consider necessary.
-
-(2) There shall be constituted a fund to be called the Jute Board Fund and there shall be credited
-thereto--
-
-(a) any grants and loans made to the Board by the Central Government;
-
-(b) all sums received by the Board from such other sources as may be decided upon by the
-Central Government.
-
-(3) The Fund shall be applied for meeting--
-
-(a) salary, allowances and other remuneration of the members, officers and other employees of
-the Board;
-
-(b) expenses of the Board in the discharge of its functions; and
-
-(c) expenses on objects and for purposes authorised by this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25871&sectionno=14&orderno=14&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25871)
+  sectionNo (14)
+  orderNo 14
+  title `Grants and loans by Central Government.`
+  content obj_root_law_sections_14_content
+  footnotes obj_root_law_sections_14_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25871&sectionno=14&orderno=14&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_14_content:
+  string
+  line `(1) The Central Government may, after due`
+  line `appropriation made by Parliament by law, in this behalf, make to the Board grants and loans of such sums`
+  line `of money as that Government may consider necessary.`
+  line
+  line `(2) There shall be constituted a fund to be called the Jute Board Fund and there shall be credited`
+  line thereto--
+  line
+  line `(a) any grants and loans made to the Board by the Central Government;`
+  line
+  line `(b) all sums received by the Board from such other sources as may be decided upon by the`
+  line `Central Government.`
+  line
+  line `(3) The Fund shall be applied for meeting--`
+  line
+  line `(a) salary, allowances and other remuneration of the members, officers and other employees of`
+  line `the Board;`
+  line
+  line `(b) expenses of the Board in the discharge of its functions; and`
+  line
+  line `(c) expenses on objects and for purposes authorised by this Act.`
+obj_root_law_sections_14_footnotes:
+  string
+  line
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 25872)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 15)
-  (str title) (str Budget.)
-  (str content) (str `The Board shall prepare in such form and at such time during each financial year, as
-may be prescribed, its budget for the next financial year, showing the estimated receipts and expenditure
-of the Board, and forward the same to the Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25872&sectionno=15&orderno=15&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25872)
+  sectionNo (15)
+  orderNo 15
+  title Budget.
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25872&sectionno=15&orderno=15&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_15_content:
+  string
+  line `The Board shall prepare in such form and at such time during each financial year, as`
+  line `may be prescribed, its budget for the next financial year, showing the estimated receipts and expenditure`
+  line `of the Board, and forward the same to the Central Government.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 25873)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 16)
-  (str title) (str `Annual report.`)
-  (str content) (str `The Board shall prepare in such form and at such time, each financial year, as
-may be prescribed, its annual report, giving a full account of its activities during the previous financial
-year and submit a copy thereof to the Central Government.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25873&sectionno=16&orderno=16&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25873)
+  sectionNo (16)
+  orderNo 16
+  title `Annual report.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25873&sectionno=16&orderno=16&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_16_content:
+  string
+  line `The Board shall prepare in such form and at such time, each financial year, as`
+  line `may be prescribed, its annual report, giving a full account of its activities during the previous financial`
+  line `year and submit a copy thereof to the Central Government.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 25874)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 17)
-  (str title) (str `Accounts and audit.`)
-  (str content) (str `The accounts of the Board shall be maintained and audited in such manner
-as may, in consultation with the Comptroller and Auditor-General of India, be prescribed and the Board
-shall furnish to the Central Government before such date, as may be prescribed, an audited copy of its
-accounts, together with the auditor's report thereon.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25874&sectionno=17&orderno=17&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25874)
+  sectionNo (17)
+  orderNo 17
+  title `Accounts and audit.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25874&sectionno=17&orderno=17&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_17_content:
+  string
+  line `The accounts of the Board shall be maintained and audited in such manner`
+  line `as may, in consultation with the Comptroller and Auditor-General of India, be prescribed and the Board`
+  line `shall furnish to the Central Government before such date, as may be prescribed, an audited copy of its`
+  line `accounts, together with the auditor's report thereon.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 25875)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 18)
-  (str title) (str `Laying of annual and auditor’s report before Parliament.`)
-  (str content) (str `The Central Government shall
-cause the annual report and auditor's report to be laid, as soon as may be after they are received, before
-each House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25875&sectionno=18&orderno=18&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25875)
+  sectionNo (18)
+  orderNo 18
+  title `Laying of annual and auditor’s report before Parliament.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25875&sectionno=18&orderno=18&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_18_content:
+  string
+  line `The Central Government shall`
+  line `cause the annual report and auditor's report to be laid, as soon as may be after they are received, before`
+  line `each House of Parliament.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_sections_19:
-  object
-  (str sectionId) (str 25876)
-  (str sectionNo) (str 19)
-  (str orderNo) (int 19)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `No suit, prosecution or other legal proceeding shall
-lie against the Central Government, or the Board or any member of the Board, or any officer or other
-employee of the Central Government or of the Board or any other person authorised by the Central
-Government or the Board, for anything which is in good faith done or intended to be done under this Act
-or the rules or regulations made thereunder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25876&sectionno=19&orderno=19&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25876)
+  sectionNo (19)
+  orderNo 19
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_19_content
+  footnotes obj_root_law_sections_19_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25876&sectionno=19&orderno=19&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_19_content:
+  string
+  line `No suit, prosecution or other legal proceeding shall`
+  line `lie against the Central Government, or the Board or any member of the Board, or any officer or other`
+  line `employee of the Central Government or of the Board or any other person authorised by the Central`
+  line `Government or the Board, for anything which is in good faith done or intended to be done under this Act`
+  line `or the rules or regulations made thereunder.`
+obj_root_law_sections_19_footnotes:
+  string
+  line
 obj_root_law_sections_20:
-  object
-  (str sectionId) (str 25877)
-  (str sectionNo) (str 20)
-  (str orderNo) (int 20)
-  (str title) (str `Officers and employees of Board to be public servants.`)
-  (str content) (str `All officers and employees of the
-Board shall, while acting or purporting to act in pursuance of the provisions of this Act or of any rule or
-regulation made thereunder, be deemed to be public servants within the meaning of section 21 of the
-Indian Penal Code (45 of 1860).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25877&sectionno=20&orderno=20&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25877)
+  sectionNo (20)
+  orderNo 20
+  title `Officers and employees of Board to be public servants.`
+  content obj_root_law_sections_20_content
+  footnotes obj_root_law_sections_20_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25877&sectionno=20&orderno=20&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_20_content:
+  string
+  line `All officers and employees of the`
+  line `Board shall, while acting or purporting to act in pursuance of the provisions of this Act or of any rule or`
+  line `regulation made thereunder, be deemed to be public servants within the meaning of section 21 of the`
+  line `Indian Penal Code (45 of 1860).`
+obj_root_law_sections_20_footnotes:
+  string
+  line
 obj_root_law_sections_21:
-  object
-  (str sectionId) (str 25878)
-  (str sectionNo) (str 21)
-  (str orderNo) (int 21)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules to carry out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the term of office and other conditions of service of the members of the Board under
-sub-section (5) of section 3;
-
-(b) the powers and duties of the Chairperson under sub-section (7) of section 3;
-
-(c) the powers and functions of the Vice-Chairperson under sub-section (8) of section 3;
-
-(d) the form in which, and the time at which, the Board shall prepare its budget under section
-15;
-
-(e) the form in which, and the time at which, the Board shall prepare its annual report under
-section 16;
-
-(f) the manner in which the accounts of the Board shall be maintained and audited, and the date
-before which the audited copy of the accounts may be furnished to the Central Government under
-section 17;
-
-(g) any other matter which is to be, or may be, prescribed or in respect of which provision is to
-be, or may be, made by the rules.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25878&sectionno=21&orderno=21&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25878)
+  sectionNo (21)
+  orderNo 21
+  title `Power to make rules.`
+  content obj_root_law_sections_21_content
+  footnotes obj_root_law_sections_21_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25878&sectionno=21&orderno=21&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_21_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules to carry out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the term of office and other conditions of service of the members of the Board under`
+  line `sub-section (5) of section 3;`
+  line
+  line `(b) the powers and duties of the Chairperson under sub-section (7) of section 3;`
+  line
+  line `(c) the powers and functions of the Vice-Chairperson under sub-section (8) of section 3;`
+  line
+  line `(d) the form in which, and the time at which, the Board shall prepare its budget under section`
+  line 15;
+  line
+  line `(e) the form in which, and the time at which, the Board shall prepare its annual report under`
+  line `section 16;`
+  line
+  line `(f) the manner in which the accounts of the Board shall be maintained and audited, and the date`
+  line `before which the audited copy of the accounts may be furnished to the Central Government under`
+  line `section 17;`
+  line
+  line `(g) any other matter which is to be, or may be, prescribed or in respect of which provision is to`
+  line `be, or may be, made by the rules.`
+obj_root_law_sections_21_footnotes:
+  string
+  line
 obj_root_law_sections_22:
-  object
-  (str sectionId) (str 25879)
-  (str sectionNo) (str 22)
-  (str orderNo) (int 22)
-  (str title) (str `Power to make regulations.`)
-  (str content) (str `(1) The Board may, with the previous approval of the Central
-Government, by notification in the Official Gazette, make regulations consistent with the provisions of
-this Act and the rules generally to carry out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may
-provide for all or any of the following matters, namely:--
-
-(a) the manner in which the business of the Board shall be conducted under sub-section (9) of
-section 3; and
-
-(b) the terms and conditions of service of the Secretary and other officers and employees of the
-Board under section 4.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25879&sectionno=22&orderno=22&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25879)
+  sectionNo (22)
+  orderNo 22
+  title `Power to make regulations.`
+  content obj_root_law_sections_22_content
+  footnotes obj_root_law_sections_22_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25879&sectionno=22&orderno=22&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_22_content:
+  string
+  line `(1) The Board may, with the previous approval of the Central`
+  line `Government, by notification in the Official Gazette, make regulations consistent with the provisions of`
+  line `this Act and the rules generally to carry out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such regulations may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the manner in which the business of the Board shall be conducted under sub-section (9) of`
+  line `section 3; and`
+  line
+  line `(b) the terms and conditions of service of the Secretary and other officers and employees of the`
+  line `Board under section 4.`
+obj_root_law_sections_22_footnotes:
+  string
+  line
 obj_root_law_sections_23:
-  object
-  (str sectionId) (str 25880)
-  (str sectionNo) (str 23)
-  (str orderNo) (int 23)
-  (str title) (str `Rules and regulations to be laid before Parliament.`)
-  (str content) (str `Every rule and every regulation made
-under this Act shall be laid, as soon as may be after it is made, before each House of Parliament while it is
-in session, for a total period of thirty days which may be comprised in one session or in two or more
-successive sessions, and if, before the expiry of the session immediately following the session or the
-successive sessions aforesaid, both Houses agree in making any modification in the rule or regulation or
-both Houses agree that the rule or regulation should not be made, the rule or regulation shall thereafter
-have effect only in such modified form or be of no effect, as the case may be; so, however, that any such
-modification or annulment shall be without prejudice to the validity of anything previously done under
-that rule or regulation.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25880&sectionno=23&orderno=23&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25880)
+  sectionNo (23)
+  orderNo 23
+  title `Rules and regulations to be laid before Parliament.`
+  content obj_root_law_sections_23_content
+  footnotes obj_root_law_sections_23_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25880&sectionno=23&orderno=23&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_23_content:
+  string
+  line `Every rule and every regulation made`
+  line `under this Act shall be laid, as soon as may be after it is made, before each House of Parliament while it is`
+  line `in session, for a total period of thirty days which may be comprised in one session or in two or more`
+  line `successive sessions, and if, before the expiry of the session immediately following the session or the`
+  line `successive sessions aforesaid, both Houses agree in making any modification in the rule or regulation or`
+  line `both Houses agree that the rule or regulation should not be made, the rule or regulation shall thereafter`
+  line `have effect only in such modified form or be of no effect, as the case may be; so, however, that any such`
+  line `modification or annulment shall be without prejudice to the validity of anything previously done under`
+  line `that rule or regulation.`
+obj_root_law_sections_23_footnotes:
+  string
+  line
 obj_root_law_sections_24:
-  object
-  (str sectionId) (str 25881)
-  (str sectionNo) (str 24)
-  (str orderNo) (int 24)
-  (str title) (str `Power to remove difficulties.`)
-  (str content) (str `(1) If any difficulty arises in giving effect to the provisions of
-this Act, the Central Government may, by order, published in the Official Gazette, make such provisions
-not inconsistent with the provisions of this Act as may appear to be necessary for removing the difficulty:
-
-Provided that no such order shall be made after the expiry of a period of two years from the
-commencement of this Act.
-
-(2) Every order made under sub-section (1) shall be laid, as soon as may be after it is made, before
-each House of Parliament.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25881&sectionno=24&orderno=24&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25881)
+  sectionNo (24)
+  orderNo 24
+  title `Power to remove difficulties.`
+  content obj_root_law_sections_24_content
+  footnotes obj_root_law_sections_24_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25881&sectionno=24&orderno=24&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_24_content:
+  string
+  line `(1) If any difficulty arises in giving effect to the provisions of`
+  line `this Act, the Central Government may, by order, published in the Official Gazette, make such provisions`
+  line `not inconsistent with the provisions of this Act as may appear to be necessary for removing the difficulty:`
+  line
+  line `Provided that no such order shall be made after the expiry of a period of two years from the`
+  line `commencement of this Act.`
+  line
+  line `(2) Every order made under sub-section (1) shall be laid, as soon as may be after it is made, before`
+  line `each House of Parliament.`
+obj_root_law_sections_24_footnotes:
+  string
+  line
 obj_root_law_sections_25:
-  object
-  (str sectionId) (str 25882)
-  (str sectionNo) (str 25)
-  (str orderNo) (int 25)
-  (str title) (str `Amendment of Act 28 of 1983.`)
-  (str content) (str `In the Jute Manufactures Cess Act, 1983,--
-
-(a) in section 3,--
-
-(i) in sub-section (1), for the words and figures "the Jute Manufactures Development Council
-Act, 1983", the words and figures "the National Jute Board Act, 2008 (12 of 2009)" shall be
-substituted;
-
-(ii) in sub-section (2), the words "and Salt" shall be omitted;
-
-(iii) in sub-section (4), the words "and Salt" shall be omitted;
-
-(b) in section 4, for the words, brackets and figures "the Jute Manufactures Development Council,
-from time to time, from out of such proceeds (after deducting the cost of collection which shall not
-exceed four per cent. of such proceeds) such sums of money as it may think fit for being utilised for the
-purposes of the Jute Manufactures Development Council Act, 1983 (27 of 1983), the words, brackets and
-figures "the National Jute Board from time to time, from out of such proceeds (after deducting the cost of
-collection which shall not exceed four per cent. of such proceeds) such sums of money as it may think fit
-for being utilised for the purposes of the National Jute Board Act, 2008 (28 of 1983), shall be substituted.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25882&sectionno=25&orderno=25&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25882)
+  sectionNo (25)
+  orderNo 25
+  title `Amendment of Act 28 of 1983.`
+  content obj_root_law_sections_25_content
+  footnotes obj_root_law_sections_25_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25882&sectionno=25&orderno=25&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_25_content:
+  string
+  line `In the Jute Manufactures Cess Act, 1983,--`
+  line
+  line `(a) in section 3,--`
+  line
+  line `(i) in sub-section (1), for the words and figures "the Jute Manufactures Development Council`
+  line `Act, 1983", the words and figures "the National Jute Board Act, 2008 (12 of 2009)" shall be`
+  line substituted;
+  line
+  line `(ii) in sub-section (2), the words "and Salt" shall be omitted;`
+  line
+  line `(iii) in sub-section (4), the words "and Salt" shall be omitted;`
+  line
+  line `(b) in section 4, for the words, brackets and figures "the Jute Manufactures Development Council,`
+  line `from time to time, from out of such proceeds (after deducting the cost of collection which shall not`
+  line `exceed four per cent. of such proceeds) such sums of money as it may think fit for being utilised for the`
+  line `purposes of the Jute Manufactures Development Council Act, 1983 (27 of 1983), the words, brackets and`
+  line `figures "the National Jute Board from time to time, from out of such proceeds (after deducting the cost of`
+  line `collection which shall not exceed four per cent. of such proceeds) such sums of money as it may think fit`
+  line `for being utilised for the purposes of the National Jute Board Act, 2008 (28 of 1983), shall be substituted.`
+obj_root_law_sections_25_footnotes:
+  string
+  line
 obj_root_law_sections_26:
-  object
-  (str sectionId) (str 25883)
-  (str sectionNo) (str 26)
-  (str orderNo) (int 26)
-  (str title) (str `Repeal and savings.`)
-  (str content) (str `(1) On and from the appointed day, the Jute Manufactures Development
-Council Act, 1983 (27 of 1983) shall stand repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken or purported to have been done or
-taken under the Act so repealed shall, in so far as it is not inconsistent with the provisions of this Act, be
-deemed to have been done or taken under the corresponding provisions of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25883&sectionno=26&orderno=26&orgactid=AC_CEN_20_25_00016_200912_1517807327624)
+  sectionId (25883)
+  sectionNo (26)
+  orderNo 26
+  title `Repeal and savings.`
+  content obj_root_law_sections_26_content
+  footnotes obj_root_law_sections_26_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00016_200912_1517807327624&sectionId=25883&sectionno=26&orderno=26&orgactid=AC_CEN_20_25_00016_200912_1517807327624
+obj_root_law_sections_26_content:
+  string
+  line `(1) On and from the appointed day, the Jute Manufactures Development`
+  line `Council Act, 1983 (27 of 1983) shall stand repealed.`
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken or purported to have been done or`
+  line `taken under the Act so repealed shall, in so far as it is not inconsistent with the provisions of this Act, be`
+  line `deemed to have been done or taken under the corresponding provisions of this Act.`
+obj_root_law_sections_26_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `राष्‍ट्रीय जूट बोर्ड अधिनियम, 2008`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2092/3/H2009-12.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T12:47:33.566Z`)
-  (str pageCount) (int 11)
-  (str sections) obj_root_law_translations_hi_sections
+  title `राष्‍ट्रीय जूट बोर्ड अधिनियम, 2008`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2092/3/H2009-12.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T12:47:33.566Z`
+  pageCount 11
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -823,499 +938,554 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_10
   obj_root_law_translations_hi_sections_11
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `राष्‍ट् री य्जूट्बोर्ड्अधिधियम,् 2008
-_________
-िाराओं्का्क्रम
-_________
-िाराएं
-अध्याय् 1 प्र
-ारंधिक
-1. संधिप्् त ् िाम,्धिस्तार्और्प्रारंि ्।
-2. ् पररिाषाएं ्।
-अध्याय् 2
-राष्‍ट् री य्जूट्बोर्ड
-3. ् बोर्ड्का्गठि्और्धिगमि ्।
-4. ् सधिि्और्अन्य्अधिकारी ्।
-अध्याय् 3
-बोर्ड्के्कृ त् य
-5. ् बोर्ड्के्कृत्य ्।
-अध्याय् 4
-संपधि्और्संधिदा
-6. ् पररषद््और्सोसाइटी्का्बोर्ड्में्धिधित्िोिा ्।
-7. ् पररषद््और्सोसाइटी्का्बोर्ड्में्धिधित्िोिे्का्सामान्य्प्रिाि ्।
-8. अिुज्ञधप्् त यों,्आदद्का्बोर्ड्को्अिुदि्दकया्गया्समझा्जािा ्।
-9. ् कर्छूट्या्फायदे्का्धिरन्तर ् प्र िािी्बिे्रििा ्।
-10. प्रत् यािूधत्का्प्रिािी्िोिा ्।
-11. पररषद््और्सोसाइटी्के्अधिकाररयों्और्अन्य्कमडिाररयों्के्संबंि्में्उपबंि ्।
-अध्याय् 5
-केन्रीय्सरकार्की्शध् त यां
-12. केन्रीय्सरकार्द्वारा्धिदेश ्।
-13. ् बोर्ड्का्अधिक्रमण ्।
-अध्याय् 6
-धिि,्लेखा्और्लेखा परीिा
-14. ् केन्रीय्सरकार्द्वारा्अिुदाि्और्उिार ्।
-15. बजट ्।
-16. ् िार्षडक्ररपोटड ्।
-17. ् लेखा्और्लेखापरीिा ्।
-18. ् िार्षडक्और्लेखापरीिक्की्ररपोटड्का्संसद््के्समि्रखा्जािा ्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `राष्‍ट् री य्जूट्बोर्ड्अधिधियम,् 2008`
+  line _________
+  line िाराओं्का्क्रम
+  line _________
+  line िाराएं
+  line `अध्याय् 1 प्र`
+  line ारंधिक
+  line `1. संधिप्् त ् िाम,्धिस्तार्और्प्रारंि ्।`
+  line `2. ् पररिाषाएं ्।`
+  line `अध्याय् 2`
+  line `राष्‍ट् री य्जूट्बोर्ड`
+  line `3. ् बोर्ड्का्गठि्और्धिगमि ्।`
+  line `4. ् सधिि्और्अन्य्अधिकारी ्।`
+  line `अध्याय् 3`
+  line `बोर्ड्के्कृ त् य`
+  line `5. ् बोर्ड्के्कृत्य ्।`
+  line `अध्याय् 4`
+  line संपधि्और्संधिदा
+  line `6. ् पररषद््और्सोसाइटी्का्बोर्ड्में्धिधित्िोिा ्।`
+  line `7. ् पररषद््और्सोसाइटी्का्बोर्ड्में्धिधित्िोिे्का्सामान्य्प्रिाि ्।`
+  line `8. अिुज्ञधप्् त यों,्आदद्का्बोर्ड्को्अिुदि्दकया्गया्समझा्जािा ्।`
+  line `9. ् कर्छूट्या्फायदे्का्धिरन्तर ् प्र िािी्बिे्रििा ्।`
+  line `10. प्रत् यािूधत्का्प्रिािी्िोिा ्।`
+  line `11. पररषद््और्सोसाइटी्के्अधिकाररयों्और्अन्य्कमडिाररयों्के्संबंि्में्उपबंि ्।`
+  line `अध्याय् 5`
+  line `केन्रीय्सरकार्की्शध् त यां`
+  line `12. केन्रीय्सरकार्द्वारा्धिदेश ्।`
+  line `13. ् बोर्ड्का्अधिक्रमण ्।`
+  line `अध्याय् 6`
+  line `धिि,्लेखा्और्लेखा परीिा`
+  line `14. ् केन्रीय्सरकार्द्वारा्अिुदाि्और्उिार ्।`
+  line `15. बजट ्।`
+  line `16. ् िार्षडक्ररपोटड ्।`
+  line `17. ् लेखा्और्लेखापरीिा ्।`
+  line `18. ् िार्षडक्और्लेखापरीिक्की्ररपोटड्का्संसद््के्समि्रखा्जािा ्।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `ii
-िाराएं
-अध्याय् 7 प्र
-कीणड
-19. सद्भािपूिडक्की्गई्कारडिाई्के्धलए्संरिण ्।
-20. ् बोर्ड्के्अधिकाररयों्और्कमडिाररयों्का्लोक्सेिक्िोिा ्।
-21. ् धियम्बिािे्की्शध् त ्।
-22. ् धिधियम्बिािे्की्शध् त ्।
-23. धियमों्और्धिधियमों्का्संसद््के्समि्रखा्जािा ्।
-24. करठिाइयों्को्दूर्करिे्की्शध् त ्।
-25. ् 1983 ् के्अधिधियम्संखयांक 28 ् का्संशोिि ्।
-26. ् धिरसि्और ् व्य ािृधि ्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line ii
+  line िाराएं
+  line `अध्याय् 7 प्र`
+  line कीणड
+  line `19. सद्भािपूिडक्की्गई्कारडिाई्के्धलए्संरिण ्।`
+  line `20. ् बोर्ड्के्अधिकाररयों्और्कमडिाररयों्का्लोक्सेिक्िोिा ्।`
+  line `21. ् धियम्बिािे्की्शध् त ्।`
+  line `22. ् धिधियम्बिािे्की्शध् त ्।`
+  line `23. धियमों्और्धिधियमों्का्संसद््के्समि्रखा्जािा ्।`
+  line `24. करठिाइयों्को्दूर्करिे्की्शध् त ्।`
+  line `25. ् 1983 ् के्अधिधियम्संखयांक 28 ् का्संशोिि ्।`
+  line `26. ् धिरसि्और ् व्य ािृधि ्।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `राष्‍ट् री य ् जूट्बोर्ड्अधिधियम,् 2008
-( 2009 ् का्अधिधियम्संखयांक 12 )
-[12 ् फरिरी, 2009 ]
-जूट्की्खेती्और्जूट्उत्पादों्के्धिधिमाडण्और्धिपणि
-के्धिकास्के्धलए् राष्‍ट् री य ् जूट्बोर्ड्की्स्थापिा
-करिे्और्उससे्संबंधित्और्उसके
-आिुषंधगक्धिषयों्का्उपबंि
-करिे् के्धलए
-अधिधियम
-िारत्गणराज्य्के्उिसठिें्िषड्में्संसद््द्वारा् धिम्् ि धलधखत ् रू प्में्यि्अधिधियधमत्िो: —
-अध्याय् 1 प्र
-ारंधिक
-1. संधि प्् त ् िाम,्धिस्तार्और्प्रारंि — ( 1 )्इस्अधिधियम्का् संधि प्् त ् िाम् राष्‍ट् री य ् जूट्बोर्ड्अधिधियम,् 2008 ् िै्।
-( 2 )् इसका्धिस्तार्संपूणड्िा रत्पर्िै्।
-( 3 )्यि्उस्तारीख्को्प्रिृि्िोगा,्जो्केंरीय्सरकार्राजपत्र्में्अधिसूििा्द्वारा्धियत्करे्।
-2. ् पररिाषाएं — इ स्अधिधियम्में्जब्तक्दक्सन्दिड्से्अन्यथा्अपेधित्ि्िो, —
-(क)् “ धियत् ददि ” ् से् िि् तारीख् अधिप्रेत् िै् जो् केन्रीय् सरकार् िारा् 3 ् के्प्र योजि् के् धलए,् राजपत्र् में्
-अधिसूििा्द्वारा,्धियत्करे;
-(ख)् “ बोर्ड ” ् से्िारा् 3 ् के्अिीि्गरठत् राष्‍ट् री य ् जूट्बोर्ड्अधिप्रेत्िै;
-(ग)् “ अध्यि ” ् से्बोर्ड्का्अध्यि्अधिप्रेत्िै;
-(घ)् “ पररषद् ” ् से्जूट्धिधिर्मडधत्धिकास्पररषद््अधिधियम,् 1983 ् ( 1983 का 27 )्का्िारा 3 ् के्अिीि स् थाधपत ्
-जूट्धिधिर्मडधत्धिकास्पररषद््अधिप्रेत्िै;
-( ङ )् “ जूट ” ् से्जूट,्केिफ्और्मेस्टा्का्पौिा्अधिप्रेत्िै;
-(ि)् “ जूट्धिधिर्मडधत ” ् का्ििी्अथड्िै,्जो् जूट् धिधिर्मडधत्उपकर्अधिधियम,् 1983 ( 1983 ् का 28 )्में्िै;
-(छ)् “ सदस्य ” ् से्बोर्ड्का्सदस्य्अधिप्रेत्िै्और्इसके्अन्तगडत्अध्य ि्िी्िै;
-(ज)् “ धिधित ” ् से्इस्अधिधियम्के्अिीि्बिाए्गए्धियमों्द्वारा्धिधित्अधिप्रेत्िै;
-(झ)् “ धिधियम ” ् से्इस्अधिधियम्के्अिीि्बोर्ड्द्वारा्बिाए्गए्धिधियम्अधिप्रेत्िैं;
-(ञ)् “ सोसाइटी ” ् से् राष्‍ट् री य ् जूट्धिधििता्केन्र्अधिप्रेत्िै्जो्केन्रीय्सरकार्के्ि स््त्र ् मंत्रालय्द्वारा्स्थाधपत्
-सोसाइटी्िै्और्सोसाइटी्रधजस्रीकरण्अधिधियम,् 1860 ( 1860 ् का 21 )्के्अिीि्रधजस्रीकृ त ् िै;
-(ट)् “ िषड ” ् से्ऐसा्िषड्अधिप्रेत्िै्जो् 1 अप्रै ल्को्प्रारंि्िोकर,्आगामी 31 ् मािड्को्समा प्् त ् िोता्िै्।
-अध्याय् 2
-राष्‍ट् री य ् जूट्बोर्ड
-3. ् बोर्ड्का् गठि्और्धिगमि — ( 1 )्केन्रीय्सरकार,्धियत्ददि्से्िी,्इस्अधिधियम्के्प्रयोजिों्के्धलए,्राजपत्र्में्
-अधिसूििा्द्वारा,् राष्‍ट् री य ् जूट्बोर्ड्के्िाम्एक्बोर्ड्का्गठि्करेगी्।
-( 2 )्बोर्ड्पूिो ् त ् िाम्का्एक्धिगधमत्धिकाय्िोगा्धजसका् शाश्् ि त ् उिराधिकार्और्सामान्य्मुरा ् िोगी,्धजसे्जंगम्
-और्स्थािर्दोिों्िी्प्रकार्की्संपधि्का्अजडि,्िारण्और्व्ययि्करिे्तथा्संधिदा्करिे्की्श ध् त ् िोगी्और्उ ् त ् िाम्से्िि्
-िाद्लाएगा्और्उसके्धिरुद्ध्िाद्लाया्जाएगा्।
-( 3 )्बोर्ड्का्मुखयालय्प धश्् ि मी्बंगाल्राज्य्में्कोलकाता्में्या्ऐसे्अन्य्स्थाि्पर ् िोगा्धजसे्केन्रीय्सरकार,्राजपत्र्में्
-अधिसूििा्द्व ारा,् धिधिर्दड ष्‍ट् ट ् करे् और् बोर्ड,् केन्रीय् सरकार् के् पूिड् अिुमोदि् से,् िारत् में् या् िारत् के् बािर् अन्य्स् थािों् पर्
-कायाडलय्या्अधिकरण्स्थाधपत्कर्सकेगा्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line `राष्‍ट् री य ् जूट्बोर्ड्अधिधियम,् 2008`
+  line `( 2009 ् का्अधिधियम्संखयांक 12 )`
+  line `[12 ् फरिरी, 2009 ]`
+  line जूट्की्खेती्और्जूट्उत्पादों्के्धिधिमाडण्और्धिपणि
+  line `के्धिकास्के्धलए् राष्‍ट् री य ् जूट्बोर्ड्की्स्थापिा`
+  line करिे्और्उससे्संबंधित्और्उसके
+  line आिुषंधगक्धिषयों्का्उपबंि
+  line `करिे् के्धलए`
+  line अधिधियम
+  line `िारत्गणराज्य्के्उिसठिें्िषड्में्संसद््द्वारा् धिम्् ि धलधखत ् रू प्में्यि्अधिधियधमत्िो: —`
+  line `अध्याय् 1 प्र`
+  line ारंधिक
+  line `1. संधि प्् त ् िाम,्धिस्तार्और्प्रारंि — ( 1 )्इस्अधिधियम्का् संधि प्् त ् िाम् राष्‍ट् री य ् जूट्बोर्ड्अधिधियम,् 2008 ् िै्।`
+  line `( 2 )् इसका्धिस्तार्संपूणड्िा रत्पर्िै्।`
+  line `( 3 )्यि्उस्तारीख्को्प्रिृि्िोगा,्जो्केंरीय्सरकार्राजपत्र्में्अधिसूििा्द्वारा्धियत्करे्।`
+  line `2. ् पररिाषाएं — इ स्अधिधियम्में्जब्तक्दक्सन्दिड्से्अन्यथा्अपेधित्ि्िो, —`
+  line `(क)् “ धियत् ददि ” ् से् िि् तारीख् अधिप्रेत् िै् जो् केन्रीय् सरकार् िारा् 3 ् के्प्र योजि् के् धलए,् राजपत्र् में्`
+  line अधिसूििा्द्वारा,्धियत्करे;
+  line `(ख)् “ बोर्ड ” ् से्िारा् 3 ् के्अिीि्गरठत् राष्‍ट् री य ् जूट्बोर्ड्अधिप्रेत्िै;`
+  line `(ग)् “ अध्यि ” ् से्बोर्ड्का्अध्यि्अधिप्रेत्िै;`
+  line `(घ)् “ पररषद् ” ् से्जूट्धिधिर्मडधत्धिकास्पररषद््अधिधियम,् 1983 ् ( 1983 का 27 )्का्िारा 3 ् के्अिीि स् थाधपत ्`
+  line जूट्धिधिर्मडधत्धिकास्पररषद््अधिप्रेत्िै;
+  line `( ङ )् “ जूट ” ् से्जूट,्केिफ्और्मेस्टा्का्पौिा्अधिप्रेत्िै;`
+  line `(ि)् “ जूट्धिधिर्मडधत ” ् का्ििी्अथड्िै,्जो् जूट् धिधिर्मडधत्उपकर्अधिधियम,् 1983 ( 1983 ् का 28 )्में्िै;`
+  line `(छ)् “ सदस्य ” ् से्बोर्ड्का्सदस्य्अधिप्रेत्िै्और्इसके्अन्तगडत्अध्य ि्िी्िै;`
+  line `(ज)् “ धिधित ” ् से्इस्अधिधियम्के्अिीि्बिाए्गए्धियमों्द्वारा्धिधित्अधिप्रेत्िै;`
+  line `(झ)् “ धिधियम ” ् से्इस्अधिधियम्के्अिीि्बोर्ड्द्वारा्बिाए्गए्धिधियम्अधिप्रेत्िैं;`
+  line `(ञ)् “ सोसाइटी ” ् से् राष्‍ट् री य ् जूट्धिधििता्केन्र्अधिप्रेत्िै्जो्केन्रीय्सरकार्के्ि स््त्र ् मंत्रालय्द्वारा्स्थाधपत्`
+  line `सोसाइटी्िै्और्सोसाइटी्रधजस्रीकरण्अधिधियम,् 1860 ( 1860 ् का 21 )्के्अिीि्रधजस्रीकृ त ् िै;`
+  line `(ट)् “ िषड ” ् से्ऐसा्िषड्अधिप्रेत्िै्जो् 1 अप्रै ल्को्प्रारंि्िोकर,्आगामी 31 ् मािड्को्समा प्् त ् िोता्िै्।`
+  line `अध्याय् 2`
+  line `राष्‍ट् री य ् जूट्बोर्ड`
+  line `3. ् बोर्ड्का् गठि्और्धिगमि — ( 1 )्केन्रीय्सरकार,्धियत्ददि्से्िी,्इस्अधिधियम्के्प्रयोजिों्के्धलए,्राजपत्र्में्`
+  line `अधिसूििा्द्वारा,् राष्‍ट् री य ् जूट्बोर्ड्के्िाम्एक्बोर्ड्का्गठि्करेगी्।`
+  line `( 2 )्बोर्ड्पूिो ् त ् िाम्का्एक्धिगधमत्धिकाय्िोगा्धजसका् शाश्् ि त ् उिराधिकार्और्सामान्य्मुरा ् िोगी,्धजसे्जंगम्`
+  line `और्स्थािर्दोिों्िी्प्रकार्की्संपधि्का्अजडि,्िारण्और्व्ययि्करिे्तथा्संधिदा्करिे्की्श ध् त ् िोगी्और्उ ् त ् िाम्से्िि्`
+  line िाद्लाएगा्और्उसके्धिरुद्ध्िाद्लाया्जाएगा्।
+  line `( 3 )्बोर्ड्का्मुखयालय्प धश्् ि मी्बंगाल्राज्य्में्कोलकाता्में्या्ऐसे्अन्य्स्थाि्पर ् िोगा्धजसे्केन्रीय्सरकार,्राजपत्र्में्`
+  line `अधिसूििा्द्व ारा,् धिधिर्दड ष्‍ट् ट ् करे् और् बोर्ड,् केन्रीय् सरकार् के् पूिड् अिुमोदि् से,् िारत् में् या् िारत् के् बािर् अन्य्स् थािों् पर्`
+  line कायाडलय्या्अधिकरण्स्थाधपत्कर्सकेगा्।
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `2
-( 4 )्बोर्ड् धिम्् ि धलधखत ् सदस्यों्से्धमलकर्बिेगा,्अथाडत्: —
-( क ) ि स््त्र ् से्संबंधित्केन्रीय्सरकार्के्मंत्रालय्का्िारसािक्सधिि,्जो्बोर्ड्का्पदेि्अध्यि्िो गा;
-( ख ) तीि् संसद्् सदस्य् धजिमें् से् दो,् लोक् सिा् के् सदस्यों्द्व ारा् अपिे् में् से् धििाडधित्दकए् जाएंगे् और् ए क,्
-राज्य्सिा्के्सदस्यों्द्वारा्अपिे्में्से्धििाडधित्दकया्जाएगा; ्
-( ग ) िा रत्सरकार्के्ि स््त्र ् मंत्रालय्का्अपर्सधिि्तथा्धििीय्सलािकार,्पदेि;
-( घ ) िारत्सरकार्के्ि स््त्र ् मंत्रालय्का्संयु ् त ् सधिि्(जूट),्पदेि;
-( ङ )् संयु ् त ् सधिि् की् पं ध् त ् के् दो् सदस्य,् जो् धिम्् ि धलधखत ् से् संबंधित् केन्रीय् सरकार् के् मं त्र ालयों् का् प्र
-धतधिधित्ि्करिे्के्धलए, ् केन्रीय्सरकार्द्वारा्िामधिर्दड ष्‍ट् ट ् दकए्जाएंगे,्अथाडत्: — ्
-( i )्कृ धष; और
-( ii )्खाद्य्और्सािडजधिक्धितरण;
-(ि)्तीि्सदस्य,्धजन्िें्क्रमशः्आंध्र्प्रदेश,्असम,्धबिार,्मेघालय,्उडीसा,्धत्रपुरा्और्प धश्् ि मी्बंगाल्राज्यों ्
-की् सरकारों् का्प्र धतधिधित्ि् करिे् के् धलए् िणड माला् के्क्र म् में् िक्रािुक्रम् से् केन्रीय् सरकार्द्व ारा् िामधिर्दड ष्‍ट् ट ् दकया्
-जाएगा्।् िामधिदेशि,् राज्य् सरकार् के् उि् पदिाररयों् में् से् िोगा,् जो् उस् राज्य् सरकार् में् सधिि् की् पं ध् त ् का् पद्
-िारण्कर्रिे्िों्और्जो्जूट्या्ि स््त्रों ् से्संबंधित्कायड्कर्रिे्िों;
-(छ)् जूट ् कृषकों् के्तीि् सदस्य् धजिमें् से् एक,् प धश्् ि मी् बंगाल्राज्य् से् और् दो,् अन्य् राज्यों् से् िक्रािु क्र म् के्
-आिार्पर्केन्रीय्सरकार्द्वारा्िामधिर्दड ष्‍ट् ट ् दकए्जाएंगे;
-(ज)् जूट्का र् मडकों्के्तीि्सदस्् य ् धजिमें्से्एक,्पश्् ध िमी्बंगाल्से्और्दो,्अन्् य ् राज्् यों ् से्िक्रािुक्रम्के ् आिार्
-पर्केन्् री य्सरकार्द्वारा्िामधिर्दडष्‍ट् ट ् दकए्जाएंगे;
-(झ)्केन्रीय्सरकार्द्वारा्िामधिर्दड ष्‍ट् ट ् दकए्जािे्िाले,्संबद्ध्जूट्प्रौद्योधगकी्और्संबंधित्िेत्र ् से्दो् धि शेषज्ञ;
-(ञ)्केन्रीय्सरकार्द्वारा्िामधिर्दड ष्‍ट् ट ् दकए्जािे्िाले,्जूट्उद्योग्से्संबद्ध,् “ सू क्ष् म्उद्यम ”,् “ ल घु्उद्यम ” ् औ र्
-“ मध्यम्उद्यम ” ् से्दो्सदस्य्। स्
-प ष्‍ट् टी करण — इस्खंर््के्प्रयोजि्के्धलए् “ मध्यम्उद्यम ”,् “ सूक्ष्म्उद्यम ” ् और “ लघु्उद्यम ” ् पदों्के्ििी् अ थड्िैं,्
-जो्सूक्ष्म,्लघु्और्मध्यम्उद्यम्धिकास्अधिधियम,् 2006 ( 2006 ् का 27 )्की्िारा् 2 ् के्खंर््(छ),्खंर््(ज)् और्खंर््(र्)्
-में्िैं;
-(ट)् दो्सदस्य,्धजन्िें्संगरठत्सेटर्में्जूट्उद्योग्का्प्रधतधिधित्ि्करिे्के्धलए्केन्रीय्सरकार्द्वा रा्धियु ् त ्
-दकया्जाएगा;
-(ठ)्दो्सदस्य,्धजन्िें्धिकेंरीकृत्िेत्र्में्जूट्उद्योग्का्प्रधतधिधित्ि्करिे्के्धलए्केन्रीय्स रकार्द्वा रा्धियु ् त ्
-दकया्जाएगा;
-(र्)्दो्सदस्य,्धजन्िें्जूट्उत्पादों्के्धियाडतकताडओं्का्प्रधतधिधित्ि्करिे्के्धलए्केन्रीय्सरकार् द्व ा रा्धि यु ् त ्
-दकया्जाएगा;
-(ढ)्धिदेशक,्िारतीय्जूट्उद्योग्अिुसंिाि्संगम,्पदेि;
-(ण)्प्रिािािायड,्जूट्प्रौद्योधगकी्संस्थाि,्पदेि;
-(त)्धिदेशक,् रा ष्‍ट् री य ् जूट्और्समि गी ् फाइबर्प्रौद्योधगकी्अिुसंिाि्संस्थाि,्कोलकाता,्पदेि;
-(थ)्धिदेशक, ् केन्रीय्जूट्और्समिगी्फाइबर्अिुसंिाि्संस्थाि,्पदेि;
-(द)्अध्यि्और्प्रबंि्धिदेशक,्िारतीय्जूट्धिगम,्पदेि;
-(ि)्जूट्आयु ् त,्पदेि;
-(ि)्सधिि,् राष्‍ट् री य ् जूट्बोर्ड,्जो्बो र् ड् का्पदेि्सदस्य - स धिि,्िोगा्।
-( 5 )्पदेि्सदस्यों्से्धि न्् ि ् सदस्यों्की्पदािधि्और्उिमें्रर ध् त यों्को्िरिे्की्रीधत्और्ऐसे्सदस्यों्द्वारा्अपिे्कृत्यों्
-के्धििडिि्में्अिुसरण्की्जािे्िाली्प्रदक्रया्िि्िोगी्जो्धिधित्की्जाए्।
-( 6 )् बोर्ड् के् सदस्यों् का् पद् उिके् िार कों् को,् संसद्् के् दकसी् िी् सदि् का् सदस्य् िुिे् जािे् से् या् िोिे् से् धिरर्िडत् ्््््््््
-ििीं्करेगा्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 2
+  line `( 4 )्बोर्ड् धिम्् ि धलधखत ् सदस्यों्से्धमलकर्बिेगा,्अथाडत्: —`
+  line `( क ) ि स््त्र ् से्संबंधित्केन्रीय्सरकार्के्मंत्रालय्का्िारसािक्सधिि,्जो्बोर्ड्का्पदेि्अध्यि्िो गा;`
+  line `( ख ) तीि् संसद्् सदस्य् धजिमें् से् दो,् लोक् सिा् के् सदस्यों्द्व ारा् अपिे् में् से् धििाडधित्दकए् जाएंगे् और् ए क,्`
+  line `राज्य्सिा्के्सदस्यों्द्वारा्अपिे्में्से्धििाडधित्दकया्जाएगा; ्`
+  line `( ग ) िा रत्सरकार्के्ि स््त्र ् मंत्रालय्का्अपर्सधिि्तथा्धििीय्सलािकार,्पदेि;`
+  line `( घ ) िारत्सरकार्के्ि स््त्र ् मंत्रालय्का्संयु ् त ् सधिि्(जूट),्पदेि;`
+  line `( ङ )् संयु ् त ् सधिि् की् पं ध् त ् के् दो् सदस्य,् जो् धिम्् ि धलधखत ् से् संबंधित् केन्रीय् सरकार् के् मं त्र ालयों् का् प्र`
+  line `धतधिधित्ि्करिे्के्धलए, ् केन्रीय्सरकार्द्वारा्िामधिर्दड ष्‍ट् ट ् दकए्जाएंगे,्अथाडत्: — ्`
+  line `( i )्कृ धष; और`
+  line `( ii )्खाद्य्और्सािडजधिक्धितरण;`
+  line `(ि)्तीि्सदस्य,्धजन्िें्क्रमशः्आंध्र्प्रदेश,्असम,्धबिार,्मेघालय,्उडीसा,्धत्रपुरा्और्प धश्् ि मी्बंगाल्राज्यों ्`
+  line `की् सरकारों् का्प्र धतधिधित्ि् करिे् के् धलए् िणड माला् के्क्र म् में् िक्रािुक्रम् से् केन्रीय् सरकार्द्व ारा् िामधिर्दड ष्‍ट् ट ् दकया्`
+  line `जाएगा्।् िामधिदेशि,् राज्य् सरकार् के् उि् पदिाररयों् में् से् िोगा,् जो् उस् राज्य् सरकार् में् सधिि् की् पं ध् त ् का् पद्`
+  line `िारण्कर्रिे्िों्और्जो्जूट्या्ि स््त्रों ् से्संबंधित्कायड्कर्रिे्िों;`
+  line `(छ)् जूट ् कृषकों् के्तीि् सदस्य् धजिमें् से् एक,् प धश्् ि मी् बंगाल्राज्य् से् और् दो,् अन्य् राज्यों् से् िक्रािु क्र म् के्`
+  line `आिार्पर्केन्रीय्सरकार्द्वारा्िामधिर्दड ष्‍ट् ट ् दकए्जाएंगे;`
+  line `(ज)् जूट्का र् मडकों्के्तीि्सदस्् य ् धजिमें्से्एक,्पश्् ध िमी्बंगाल्से्और्दो,्अन्् य ् राज्् यों ् से्िक्रािुक्रम्के ् आिार्`
+  line `पर्केन्् री य्सरकार्द्वारा्िामधिर्दडष्‍ट् ट ् दकए्जाएंगे;`
+  line `(झ)्केन्रीय्सरकार्द्वारा्िामधिर्दड ष्‍ट् ट ् दकए्जािे्िाले,्संबद्ध्जूट्प्रौद्योधगकी्और्संबंधित्िेत्र ् से्दो् धि शेषज्ञ;`
+  line `(ञ)्केन्रीय्सरकार्द्वारा्िामधिर्दड ष्‍ट् ट ् दकए्जािे्िाले,्जूट्उद्योग्से्संबद्ध,् “ सू क्ष् म्उद्यम ”,् “ ल घु्उद्यम ” ् औ र्`
+  line `“ मध्यम्उद्यम ” ् से्दो्सदस्य्। स्`
+  line `प ष्‍ट् टी करण — इस्खंर््के्प्रयोजि्के्धलए् “ मध्यम्उद्यम ”,् “ सूक्ष्म्उद्यम ” ् और “ लघु्उद्यम ” ् पदों्के्ििी् अ थड्िैं,्`
+  line `जो्सूक्ष्म,्लघु्और्मध्यम्उद्यम्धिकास्अधिधियम,् 2006 ( 2006 ् का 27 )्की्िारा् 2 ् के्खंर््(छ),्खंर््(ज)् और्खंर््(र्)्`
+  line में्िैं;
+  line `(ट)् दो्सदस्य,्धजन्िें्संगरठत्सेटर्में्जूट्उद्योग्का्प्रधतधिधित्ि्करिे्के्धलए्केन्रीय्सरकार्द्वा रा्धियु ् त ्`
+  line दकया्जाएगा;
+  line `(ठ)्दो्सदस्य,्धजन्िें्धिकेंरीकृत्िेत्र्में्जूट्उद्योग्का्प्रधतधिधित्ि्करिे्के्धलए्केन्रीय्स रकार्द्वा रा्धियु ् त ्`
+  line दकया्जाएगा;
+  line `(र्)्दो्सदस्य,्धजन्िें्जूट्उत्पादों्के्धियाडतकताडओं्का्प्रधतधिधित्ि्करिे्के्धलए्केन्रीय्सरकार् द्व ा रा्धि यु ् त ्`
+  line दकया्जाएगा;
+  line `(ढ)्धिदेशक,्िारतीय्जूट्उद्योग्अिुसंिाि्संगम,्पदेि;`
+  line `(ण)्प्रिािािायड,्जूट्प्रौद्योधगकी्संस्थाि,्पदेि;`
+  line `(त)्धिदेशक,् रा ष्‍ट् री य ् जूट्और्समि गी ् फाइबर्प्रौद्योधगकी्अिुसंिाि्संस्थाि,्कोलकाता,्पदेि;`
+  line `(थ)्धिदेशक, ् केन्रीय्जूट्और्समिगी्फाइबर्अिुसंिाि्संस्थाि,्पदेि;`
+  line `(द)्अध्यि्और्प्रबंि्धिदेशक,्िारतीय्जूट्धिगम,्पदेि;`
+  line `(ि)्जूट्आयु ् त,्पदेि;`
+  line `(ि)्सधिि,् राष्‍ट् री य ् जूट्बोर्ड,्जो्बो र् ड् का्पदेि्सदस्य - स धिि,्िोगा्।`
+  line `( 5 )्पदेि्सदस्यों्से्धि न्् ि ् सदस्यों्की्पदािधि्और्उिमें्रर ध् त यों्को्िरिे्की्रीधत्और्ऐसे्सदस्यों्द्वारा्अपिे्कृत्यों्`
+  line के्धििडिि्में्अिुसरण्की्जािे्िाली्प्रदक्रया्िि्िोगी्जो्धिधित्की्जाए्।
+  line `( 6 )् बोर्ड् के् सदस्यों् का् पद् उिके् िार कों् को,् संसद्् के् दकसी् िी् सदि् का् सदस्य् िुिे् जािे् से् या् िोिे् से् धिरर्िडत् ्््््््््`
+  line ििीं्करेगा्।
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `3
-( 7 ) अध्यि,्बोर्ड्के्अधििेशिों्की्अध्यिता्करिे्के्अधतरर ् त,्बोर्ड्की्ऐसी्श ध् त यों्का्प्रयोग्और्ऐसे्कतडव्यों्का्
-धििडिि् करेगा् जो् बोर्ड्द्व ारा् उसे् समिुदेधशत् दक ए् जाएं् तथा् ऐसी् अन्य् श ध् त यों् का्प्र योग् और् कतडव्यों् का् धििडिि ् करेगा,् जो ्
-धिधित्दकए्जाएं्।
-( 8 )्बोर्ड्अपिे्सदस्यों्में्से्एक्सदस्य्को्उपाध्यि्धििाडधित्करेगा्जो्अध्यि्की्ऐसी्श ध् त यों्का्प्रयोग्और्ऐसे्
-कृत्यों्का्पालि्करेगा्जो्धिधित्दकए्जाएं्या्अध्यि ् द्व ारा्उसे्प्रत्यायोधजत्दकए्जाएं्।
-( 9 )्बोर्ड्ऐसे्समयों्और्स्थािों्पर्अधििेशि्करेगा्और्अपिे्अधििेशिों्में्कारबार्के्संिालि्के्संबंि्में्(धजसके्
-अंतगडत्अधििेशिों्में्गणपूर्तड्िी्िै),्प्रदक्रया्के्ऐसे्धियमों्का्अिुसरण्करेगा,्जो्धिधियमों्द्वारा्अििाररत्दकए् जा एं्।
-4. ् सधिि्और्अन्य्अधिकारी — ( 1 ) ् केन्रीय्सरकार,्इस्अधिधियम्के्अिीि्बोर्ड्के्कृत्यों्के्दि्धििडिि्के्धलए्सधिि्
-और्ऐसे्अन्य्अधिकाररयों्तथा्कमडिाररयों्की्धियु ध् त ् कर्सकेगी्जो्िि्आिश्यक्समझे्।
-( 2 )् बोर्ड् के् सधिि् और् अन्य् अधिकाररयों् तथा् कमडिाररयों् की् से िा् के् धिबंिि् और् शतें् िे् िोंगी,् जो् धिधियमों्द्व ारा्
-अििाररत्की्जाएं्।
-अध्याय् 3
-बोर्ड्के्कृत्य
-5. ् बोर्ड्के्कृत्य — ( 1 ) ् बोर्ड्का्यि्कतडव्य्िोगा्दक्िि्जूट्और्जूट्उत्पादों्के्धिकास्में,्ऐसे्उपायों्द्वारा,्धजन्िें्िि्
-ठीक्समझे,्अधििृधद्ध्करे्।
-( 2 )्पूिडगामी्उपबं िों्की्व्यापकता्पर्प्रधतकूल्प्रिाि्र्ाले्धबिा,्बोर्ड् धिम्् ि धलधखत ् के्धलए्उपाय्कर्सकेगा —
-( i )् स् कीमों्के्बिािे,्धिस्ता र ण्कायड्के्धिषय्में्जूट्की्खेती्के्प्रधत्समेदकत्दृ धष्‍ट् ट कोण्धिकधसत्क रिा,्जूट्के ्
-उत्पादि्में्िृधद्ध्और्उसकी् ् िा धलटी ् में्सुिार्के्धलए्लधित् स् कीमों्का्कायाडन्ियि्और्मूलयांकि्क रिा;
-( ii )्बेितर् ् िा धलटी ् के्क च्् िे ् जूट्के्उत्पादि्का्संििडि्करिा;
-( iii )्क च्् िे ् जूट्की्उत्पादकता्में्िृधद्ध्करिा;
-( iv )्क च्् िे ् जूट्के्बेितर्धिपणि्और्कीमतों्को्धस्थर्रखिे्के्धलए्संििडि्करिा्या्उसके्धल ए ् प्र बंि्कर िा;
-( v )् क च्् िे ् जूट्और्जूट्उत्पादों्के्मािकीकरण्का्संििडि्करिा;
-( vi )्अपधश ष्‍ट् ट ् िटािे,्अधिकतम्उत्पाद्प्रा प्् त ् करिे,् ् िा धलटी ् में्सुिार्और्लागत्में्कमी्करिे ् की्दृ धष्‍ट् ट ् से्जूट्
-उद्योग्के्धलए्दिता्मािों्का्सुझाि्देिा;
-( vii )्क च्् िा ् जूट्उगािे्िालों्और्जूट्उत्पादों्के्धि धिमाडताओं्के्धलए्उपयोगी्जािकारी्का्प्रिार्कर िा;
-( viii )्क च्् िे ् जूट्और्जूट्उत्पादों्की् ् िा धलटी ् धियंत्रण्का्संििडि्करिा्और्उसके्धलए्उपाय् क रिा;
-( ix )् क च्् िे ् जूट् के्प्रसंस्करण,् ् िा धलटी,्श्रे णीकरण् और् पैकेजजंग् की् तकिीकों् में् सुिार् के्धल ए् अध्ययि् और्
-अिुसंिाि् में्सिायता्करिा्और्उन्िें्प्रोत्साधित्करिा;
-( x )्क च्् िे ् जूट्और्जूट्उत्पादों्के्संबंि्में्सांधखयकी्के्संग्रिण्और्सूत्रीकरण्पर्केन्री त,्सिे िण्या् अ ध् ययि्
-का्संििडि्करिा्और्उिका्दकया्जािा;
-( xi )्जूट्धिधिर्मडधतयों्के्मािकीकरण्का्संििडि्करिा;
-( xii )् जूट् उद्यो ग् की् दिता् और् उत्पादकता् में् िृधद्ध् करके् जूट् धिधिर्मडधतयों् के् उत्पादि् के् धिकास् का् ् ् ् ् ्
-संििडि्करिा;
-( xiii )्जूट्सेटर्से्संबंधित्िैज्ञाधिक,्प्रौद्योधगकी,्आर्थडक्और्धिपणि्अिुसंिाि्को्प्रायोधजत्करिा, ् उसमें्
-सिायता्करिा,्उसका्समन्िय्करिा,्उसे्प्रोत्साधित्कर िा्या्आरंि्करिा;
-( xiv )्जूट्धिधिर्मडधतयों्के्धलए्देश्के्िीतर्और्बािर्धिद्यमाि्बाजारों्को्बिाए्रखिा्और्उिमें्सुिार्
-करिा्तथा्िए्बाजारों्का्धिकास्करिा्और्देशी् और् अंतर राष्‍ट् री य ् बाजारों्में्ऐसी्धिधिर्मडधतयों्की्मांग्के ् अिुरूप्
-धिपणि्यु ध् त यां्तैयार्करिा;
-( xv )्सा मग्री,्उपस्कर,्उत्पादि्की्प्रणाधलयों,्उत्पाद्धिकास,्धजसमें्िई्सामग्री,्उपस्कर,्पद्धधतयों्की ् खोज्
-और् जूट् उद्योग् में् पिले् से् िी् उपयोग् में् लाई् जा् रिी्प्र णाधलयों् का् धिकास् िी् सधम्मधलत् िै,् से् संबंधित् धिषयों् के ्
-िैज्ञाधिक,्प्रौद्योधगकी्और्आर्थडक्अिुसंिाि्का्कायड् प्र ायोधजत्करिा,्उसमें्सिायता्करिा,्उसका्समन्िय्करिा् या ्
-उसे्प्रोत्साधित्करिा;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line 3
+  line `( 7 ) अध्यि,्बोर्ड्के्अधििेशिों्की्अध्यिता्करिे्के्अधतरर ् त,्बोर्ड्की्ऐसी्श ध् त यों्का्प्रयोग्और्ऐसे्कतडव्यों्का्`
+  line `धििडिि् करेगा् जो् बोर्ड्द्व ारा् उसे् समिुदेधशत् दक ए् जाएं् तथा् ऐसी् अन्य् श ध् त यों् का्प्र योग् और् कतडव्यों् का् धििडिि ् करेगा,् जो ्`
+  line धिधित्दकए्जाएं्।
+  line `( 8 )्बोर्ड्अपिे्सदस्यों्में्से्एक्सदस्य्को्उपाध्यि्धििाडधित्करेगा्जो्अध्यि्की्ऐसी्श ध् त यों्का्प्रयोग्और्ऐसे्`
+  line `कृत्यों्का्पालि्करेगा्जो्धिधित्दकए्जाएं्या्अध्यि ् द्व ारा्उसे्प्रत्यायोधजत्दकए्जाएं्।`
+  line `( 9 )्बोर्ड्ऐसे्समयों्और्स्थािों्पर्अधििेशि्करेगा्और्अपिे्अधििेशिों्में्कारबार्के्संिालि्के्संबंि्में्(धजसके्`
+  line `अंतगडत्अधििेशिों्में्गणपूर्तड्िी्िै),्प्रदक्रया्के्ऐसे्धियमों्का्अिुसरण्करेगा,्जो्धिधियमों्द्वारा्अििाररत्दकए् जा एं्।`
+  line `4. ् सधिि्और्अन्य्अधिकारी — ( 1 ) ् केन्रीय्सरकार,्इस्अधिधियम्के्अिीि्बोर्ड्के्कृत्यों्के्दि्धििडिि्के्धलए्सधिि्`
+  line `और्ऐसे्अन्य्अधिकाररयों्तथा्कमडिाररयों्की्धियु ध् त ् कर्सकेगी्जो्िि्आिश्यक्समझे्।`
+  line `( 2 )् बोर्ड् के् सधिि् और् अन्य् अधिकाररयों् तथा् कमडिाररयों् की् से िा् के् धिबंिि् और् शतें् िे् िोंगी,् जो् धिधियमों्द्व ारा्`
+  line अििाररत्की्जाएं्।
+  line `अध्याय् 3`
+  line बोर्ड्के्कृत्य
+  line `5. ् बोर्ड्के्कृत्य — ( 1 ) ् बोर्ड्का्यि्कतडव्य्िोगा्दक्िि्जूट्और्जूट्उत्पादों्के्धिकास्में,्ऐसे्उपायों्द्वारा,्धजन्िें्िि्`
+  line ठीक्समझे,्अधििृधद्ध्करे्।
+  line `( 2 )्पूिडगामी्उपबं िों्की्व्यापकता्पर्प्रधतकूल्प्रिाि्र्ाले्धबिा,्बोर्ड् धिम्् ि धलधखत ् के्धलए्उपाय्कर्सकेगा —`
+  line `( i )् स् कीमों्के्बिािे,्धिस्ता र ण्कायड्के्धिषय्में्जूट्की्खेती्के्प्रधत्समेदकत्दृ धष्‍ट् ट कोण्धिकधसत्क रिा,्जूट्के ्`
+  line `उत्पादि्में्िृधद्ध्और्उसकी् ् िा धलटी ् में्सुिार्के्धलए्लधित् स् कीमों्का्कायाडन्ियि्और्मूलयांकि्क रिा;`
+  line `( ii )्बेितर् ् िा धलटी ् के्क च्् िे ् जूट्के्उत्पादि्का्संििडि्करिा;`
+  line `( iii )्क च्् िे ् जूट्की्उत्पादकता्में्िृधद्ध्करिा;`
+  line `( iv )्क च्् िे ् जूट्के्बेितर्धिपणि्और्कीमतों्को्धस्थर्रखिे्के्धलए्संििडि्करिा्या्उसके्धल ए ् प्र बंि्कर िा;`
+  line `( v )् क च्् िे ् जूट्और्जूट्उत्पादों्के्मािकीकरण्का्संििडि्करिा;`
+  line `( vi )्अपधश ष्‍ट् ट ् िटािे,्अधिकतम्उत्पाद्प्रा प्् त ् करिे,् ् िा धलटी ् में्सुिार्और्लागत्में्कमी्करिे ् की्दृ धष्‍ट् ट ् से्जूट्`
+  line उद्योग्के्धलए्दिता्मािों्का्सुझाि्देिा;
+  line `( vii )्क च्् िा ् जूट्उगािे्िालों्और्जूट्उत्पादों्के्धि धिमाडताओं्के्धलए्उपयोगी्जािकारी्का्प्रिार्कर िा;`
+  line `( viii )्क च्् िे ् जूट्और्जूट्उत्पादों्की् ् िा धलटी ् धियंत्रण्का्संििडि्करिा्और्उसके्धलए्उपाय् क रिा;`
+  line `( ix )् क च्् िे ् जूट् के्प्रसंस्करण,् ् िा धलटी,्श्रे णीकरण् और् पैकेजजंग् की् तकिीकों् में् सुिार् के्धल ए् अध्ययि् और्`
+  line `अिुसंिाि् में्सिायता्करिा्और्उन्िें्प्रोत्साधित्करिा;`
+  line `( x )्क च्् िे ् जूट्और्जूट्उत्पादों्के्संबंि्में्सांधखयकी्के्संग्रिण्और्सूत्रीकरण्पर्केन्री त,्सिे िण्या् अ ध् ययि्`
+  line का्संििडि्करिा्और्उिका्दकया्जािा;
+  line `( xi )्जूट्धिधिर्मडधतयों्के्मािकीकरण्का्संििडि्करिा;`
+  line `( xii )् जूट् उद्यो ग् की् दिता् और् उत्पादकता् में् िृधद्ध् करके् जूट् धिधिर्मडधतयों् के् उत्पादि् के् धिकास् का् ् ् ् ् ्`
+  line संििडि्करिा;
+  line `( xiii )्जूट्सेटर्से्संबंधित्िैज्ञाधिक,्प्रौद्योधगकी,्आर्थडक्और्धिपणि्अिुसंिाि्को्प्रायोधजत्करिा, ् उसमें्`
+  line `सिायता्करिा,्उसका्समन्िय्करिा,्उसे्प्रोत्साधित्कर िा्या्आरंि्करिा;`
+  line `( xiv )्जूट्धिधिर्मडधतयों्के्धलए्देश्के्िीतर्और्बािर्धिद्यमाि्बाजारों्को्बिाए्रखिा्और्उिमें्सुिार्`
+  line `करिा्तथा्िए्बाजारों्का्धिकास्करिा्और्देशी् और् अंतर राष्‍ट् री य ् बाजारों्में्ऐसी्धिधिर्मडधतयों्की्मांग्के ् अिुरूप्`
+  line `धिपणि्यु ध् त यां्तैयार्करिा;`
+  line `( xv )्सा मग्री,्उपस्कर,्उत्पादि्की्प्रणाधलयों,्उत्पाद्धिकास,्धजसमें्िई्सामग्री,्उपस्कर,्पद्धधतयों्की ् खोज्`
+  line `और् जूट् उद्योग् में् पिले् से् िी् उपयोग् में् लाई् जा् रिी्प्र णाधलयों् का् धिकास् िी् सधम्मधलत् िै,् से् संबंधित् धिषयों् के ्`
+  line `िैज्ञाधिक,्प्रौद्योधगकी्और्आर्थडक्अिुसंिाि्का्कायड् प्र ायोधजत्करिा,्उसमें्सिायता्करिा,्उसका्समन्िय्करिा् या ्`
+  line उसे्प्रोत्साधित्करिा;
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `4
-( xvi )् उद्यधमयों,्कारीगरों,्धशलपकारों,्धर्जाइिरों,्धिधिमाडताओं,्धियाडतकताडओं,्गैर - सरकारी्अधिकर णों् की्
-धिम्् ि धलधखत ् रीधत् में् सिायता् के्रू प् में् आिश्यक् अिसंरििात्मक् सुधििाओं् और् धिधि न्् ि ् प्र कार् के् जूट् उत्पा दों् के्
-धिकास्के्धलए्सिायक्पररधस्थधतयों्का्उपबंि्करिा्और्सृजि्करिा,्अथाडत्: —
-(क) ् िारत्में्और्िारत्के्बािर्अिुसंिाि्और्धिकास्संस्थाओं्तथा्अन्य्संगठिों्से्प्रौद्योधगकी्
-का्अंतरण;
-(ख)्उद्यधमयों्को्उिकी्पररयोजिाओं्के्कायाडन्ियि्के्धलए्सिा यक्सेिाएं्उपलब्ि्करािा्धजसमें्
-तकिीकी्मागडदशडि्और्प्रधशिण्सधम्मधलत्िै;
-(ग)्उद्यम्संबंिी्धिकास्कायडक्रमों्का्आयोजि्करिा;
-(घ)्िारत्में्और्िारत्के्बािर्धिपणि्संििडि्िीधतयों्की्योजिा्बिािा्और्धिष्‍टपादि्करिा्
-धजिमें्प्रदशडधियां,्प्रदशडि्मीधर्या्प्रिार्सधम्म धलत्िैं;
-( ङ )्सिाधयकी्या्बीज्पूंजी्के्रूप्में्धििीय्सिायता्उपलब्ि्करािा;
-(ि)् जूट् और् जूट् ि स््त्र ् सेटर् में् लगे्हु ए् धिधि न्् ि ् राष्‍ट् री य ् और् अंतर राष्‍ट् री य ् अधिकरणों् के् साथ्
-पारस्पररक् सियोग् के् धलए् धिधि न्् ि ् जूट् उत्पादों् में् लगे्हु ए् या् धितबद्ध्व्य ध् त यों् के ् धलए् एक् मंि् ् ् ् ् ् ् ्
-उपलब्ि्करािा;
-( xvii )् जूट् और् जूट् उत्पादों् के् संििडि् और् धिकास् के्प्र योजि् के् धलए् कायडशालाएं,् सम्मेलि,्व्य ाखयाि, ्
-सेमीिार,्पुि श्् ि याड्पाठ्यक्रम्आयोधजत्करिा्और्अध्ययि्समूि्स्थाधपत्करिा;
-( xviii )् जूट् की् फसल् की् ् िा धलटी का् सुिार् और् सगिडता् अिधि् को् कम् करिे् के् धलए् जूट् के् बीज् पर्
-अिुसंिाि्करिा;
-( xix )्जूट्सेटर्के्सतत्मािि्संसािि्धिकास्के्धलए्उपायों्को्सधम्मधलत्करिा्और्उिके्धलए्आिश्यक्
-धिधियों्की्व्यिस्था्करिा;
-( xx )्जूट्सेटर्और्प्रौद्योधगकी्धिकास्का्आिुधिकीकरण;
-( xxi )्जूट्उद्योग्िालों्और्कमडकारों ् के्धितों्का्संरिण्करिे्के्धलए्उपाय्करिा्और्उिकी्आजीधिका ् के्
-साििों्में्सुिार्करके्उिके्कलयाण्की्अधििृधद्ध्करिा;
-( xxii )्जूट्उद्योग्में्लगे्हुए्कमडकारों्के्धलए्कायड्करिे्की्बेितर्पररधस्थधतयों्और्सुख - सुधििाओं्में ् सुिा र्
-सुधि धश्् ि त्करिा्और्उिकी्व्यिस्था् करिा;
-( xxiii )्िैकधलपक्आिार्पर्जूट्उगािे्िालों्और्जूट्धिधिमाडताओं्को्रधजस्रीकृत्करिा;
-( xxiv )्संकलि्और्प्रकाशि्के्धलए्जूट्और्जूट्उत्पादों्से्संबंधित्सांधखयकी्का्संग्रि्करिा;
-( xxv )्जूट्सेटर्के्संििडि्के्प्रयोजि्के्धलए्या्िारत्में्और्िारत्के्बािर्जूट्औ र्जूट्उत्पादों्के् सं ििडि्
-और् धिपणि् के् धलए् शेयर् पूंजी् में् अधिदाय् करिा् या् दकसी् अन्य् धिगधमत् धिकाय् के् साथ् कोई् ठिराि् करिा् (िािे्
-िागीदारी,्संयु ् त ् उद्यम्के्रूप्में्या्दकसी्अन्य्रीधत्में)्।
-( 3 )्बोर्ड्का्यि्कतडव्य्िोगा्दक्िि —
-(क)्क च्् िे ् जूट्और्जूट्उद्योग्के्धिका स्से्संबंधित्सिी्मामलों्पर्धजसके्अंतगडत्जूट्और्जूट्उत्पादों ् का्
-आयात्और्धियाडत्िी्िै,्केन्रीय्सरकार्को्परामशड्दे;
-(ख)् जूट् सेटर् के् संबंि् में् ऐसी् ररपोटें् तैयार् करे् और्प्रस् तुत् करे् जो् केन्रीय् सरकार् समय - समय् पर् ्््््् ्
-अपेिा्करे्।
-अध्याय् 4
-संपधि्औ र्संधिदा
-6. ् पररषद््और्सोसाइटी्का्बोर्ड्में्धिधित्िोिा — ( 1 )्धियत्ददि्से्िी,्पररषद््और्सोसाइटी्िारा् 3 ् के्अिीि्गरठत्
-बोर्ड्को्अंतररत्और्उसमें्धिधित्िो्जाएंगी्।
-( 2 )्पररषद््और्सोसाइटी्के्बारे्में,्जो्उपिारा्( 1 )्के्अिीि्बोर्ड्को्अंतररत्और्उसमें्धिधित्िो्गई्िैं,् यि्समझा्
-जाएगा्दक्उसके्अंतगडत्सिी्आधस्तयां,्अधिकार,्श ध् त यां,्प्राधिकार्और्धिशेषाधिकार्तथा्जंगम्और्स्थािर्पूणड्स्िाधमत्ि्या्
-धिजी,्मूतड्या्अमूतड,्ितडमाि्या्समाधश्रत्दकसी्िी्प्रकार्की्और्किीं्िी्धस्थत्सिी्संपधियां्िैं,्धजिके्अंतगडत्िूधम,्ििि,्
-मशीिरी, ् उपस्कर,्िकदी्अधतशेष,्पूंजी,्आरधिधतयां,्आरधित्धिधि,्धिधििाि,्अधििृधतयां,्पट्टे्और्बिी्ऋण्और्ऐसी्संपधि्`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 4
+  line `( xvi )् उद्यधमयों,्कारीगरों,्धशलपकारों,्धर्जाइिरों,्धिधिमाडताओं,्धियाडतकताडओं,्गैर - सरकारी्अधिकर णों् की्`
+  line `धिम्् ि धलधखत ् रीधत् में् सिायता् के्रू प् में् आिश्यक् अिसंरििात्मक् सुधििाओं् और् धिधि न्् ि ् प्र कार् के् जूट् उत्पा दों् के्`
+  line `धिकास्के्धलए्सिायक्पररधस्थधतयों्का्उपबंि्करिा्और्सृजि्करिा,्अथाडत्: —`
+  line `(क) ् िारत्में्और्िारत्के्बािर्अिुसंिाि्और्धिकास्संस्थाओं्तथा्अन्य्संगठिों्से्प्रौद्योधगकी्`
+  line का्अंतरण;
+  line `(ख)्उद्यधमयों्को्उिकी्पररयोजिाओं्के्कायाडन्ियि्के्धलए्सिा यक्सेिाएं्उपलब्ि्करािा्धजसमें्`
+  line तकिीकी्मागडदशडि्और्प्रधशिण्सधम्मधलत्िै;
+  line `(ग)्उद्यम्संबंिी्धिकास्कायडक्रमों्का्आयोजि्करिा;`
+  line `(घ)्िारत्में्और्िारत्के्बािर्धिपणि्संििडि्िीधतयों्की्योजिा्बिािा्और्धिष्‍टपादि्करिा्`
+  line `धजिमें्प्रदशडधियां,्प्रदशडि्मीधर्या्प्रिार्सधम्म धलत्िैं;`
+  line `( ङ )्सिाधयकी्या्बीज्पूंजी्के्रूप्में्धििीय्सिायता्उपलब्ि्करािा;`
+  line `(ि)् जूट् और् जूट् ि स््त्र ् सेटर् में् लगे्हु ए् धिधि न्् ि ् राष्‍ट् री य ् और् अंतर राष्‍ट् री य ् अधिकरणों् के् साथ्`
+  line `पारस्पररक् सियोग् के् धलए् धिधि न्् ि ् जूट् उत्पादों् में् लगे्हु ए् या् धितबद्ध्व्य ध् त यों् के ् धलए् एक् मंि् ् ् ् ् ् ् ्`
+  line उपलब्ि्करािा;
+  line `( xvii )् जूट् और् जूट् उत्पादों् के् संििडि् और् धिकास् के्प्र योजि् के् धलए् कायडशालाएं,् सम्मेलि,्व्य ाखयाि, ्`
+  line `सेमीिार,्पुि श्् ि याड्पाठ्यक्रम्आयोधजत्करिा्और्अध्ययि्समूि्स्थाधपत्करिा;`
+  line `( xviii )् जूट् की् फसल् की् ् िा धलटी का् सुिार् और् सगिडता् अिधि् को् कम् करिे् के् धलए् जूट् के् बीज् पर्`
+  line अिुसंिाि्करिा;
+  line `( xix )्जूट्सेटर्के्सतत्मािि्संसािि्धिकास्के्धलए्उपायों्को्सधम्मधलत्करिा्और्उिके्धलए्आिश्यक्`
+  line धिधियों्की्व्यिस्था्करिा;
+  line `( xx )्जूट्सेटर्और्प्रौद्योधगकी्धिकास्का्आिुधिकीकरण;`
+  line `( xxi )्जूट्उद्योग्िालों्और्कमडकारों ् के्धितों्का्संरिण्करिे्के्धलए्उपाय्करिा्और्उिकी्आजीधिका ् के्`
+  line साििों्में्सुिार्करके्उिके्कलयाण्की्अधििृधद्ध्करिा;
+  line `( xxii )्जूट्उद्योग्में्लगे्हुए्कमडकारों्के्धलए्कायड्करिे्की्बेितर्पररधस्थधतयों्और्सुख - सुधििाओं्में ् सुिा र्`
+  line `सुधि धश्् ि त्करिा्और्उिकी्व्यिस्था् करिा;`
+  line `( xxiii )्िैकधलपक्आिार्पर्जूट्उगािे्िालों्और्जूट्धिधिमाडताओं्को्रधजस्रीकृत्करिा;`
+  line `( xxiv )्संकलि्और्प्रकाशि्के्धलए्जूट्और्जूट्उत्पादों्से्संबंधित्सांधखयकी्का्संग्रि्करिा;`
+  line `( xxv )्जूट्सेटर्के्संििडि्के्प्रयोजि्के्धलए्या्िारत्में्और्िारत्के्बािर्जूट्औ र्जूट्उत्पादों्के् सं ििडि्`
+  line `और् धिपणि् के् धलए् शेयर् पूंजी् में् अधिदाय् करिा् या् दकसी् अन्य् धिगधमत् धिकाय् के् साथ् कोई् ठिराि् करिा् (िािे्`
+  line `िागीदारी,्संयु ् त ् उद्यम्के्रूप्में्या्दकसी्अन्य्रीधत्में)्।`
+  line `( 3 )्बोर्ड्का्यि्कतडव्य्िोगा्दक्िि —`
+  line `(क)्क च्् िे ् जूट्और्जूट्उद्योग्के्धिका स्से्संबंधित्सिी्मामलों्पर्धजसके्अंतगडत्जूट्और्जूट्उत्पादों ् का्`
+  line आयात्और्धियाडत्िी्िै,्केन्रीय्सरकार्को्परामशड्दे;
+  line `(ख)् जूट् सेटर् के् संबंि् में् ऐसी् ररपोटें् तैयार् करे् और्प्रस् तुत् करे् जो् केन्रीय् सरकार् समय - समय् पर् ्््््् ्`
+  line अपेिा्करे्।
+  line `अध्याय् 4`
+  line `संपधि्औ र्संधिदा`
+  line `6. ् पररषद््और्सोसाइटी्का्बोर्ड्में्धिधित्िोिा — ( 1 )्धियत्ददि्से्िी,्पररषद््और्सोसाइटी्िारा् 3 ् के्अिीि्गरठत्`
+  line बोर्ड्को्अंतररत्और्उसमें्धिधित्िो्जाएंगी्।
+  line `( 2 )्पररषद््और्सोसाइटी्के्बारे्में,्जो्उपिारा्( 1 )्के्अिीि्बोर्ड्को्अंतररत्और्उसमें्धिधित्िो्गई्िैं,् यि्समझा्`
+  line `जाएगा्दक्उसके्अंतगडत्सिी्आधस्तयां,्अधिकार,्श ध् त यां,्प्राधिकार्और्धिशेषाधिकार्तथा्जंगम्और्स्थािर्पूणड्स्िाधमत्ि्या्`
+  line धिजी,्मूतड्या्अमूतड,्ितडमाि्या्समाधश्रत्दकसी्िी्प्रकार्की्और्किीं्िी्धस्थत्सिी्संपधियां्िैं,्धजिके्अंतगडत्िूधम,्ििि,्
+  line `मशीिरी, ् उपस्कर,्िकदी्अधतशेष,्पूंजी,्आरधिधतयां,्आरधित्धिधि,्धिधििाि,्अधििृधतयां,्पट्टे्और्बिी्ऋण्और्ऐसी्संपधि्`
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_7:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-7)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Page 7`)
-  (str content) (str `5
-से्उद्िूत्िोिे्िाले्सिी्अन्य्अधिकार्और्धित्जो्धियत्ददि्के्ठीक्पूिड,्यथाधस्थधत,्पररषद््या्सोसाइटी्के्स्िाधमत्ि्या्
-कब्जे्में्या्श ध् त ् में्थे,्िािे्िे ् िारत्में्िैं्या्िारत्के्बािर,्तत्संबंिी्सिी्लेखा्बधियां्और्दस्तािेज्िी्िैं्और्उिके्अंतगडत,्
-यथाधस्थधत,्सोसाइटी्या्पररषद््के्तत्समय्धिद्यमाि्दकसी्िी्प्रकार्के्सिी्उिार,्दाधयत्ि्और्बाध्यताएं्िी्िैं्।
-7. ् पररषद्् और् सोसाइटी् का् बोर्ड् में् धिधित् िोिे् का् सामान्य ् प्र िाि — ( 1 )् धियत् ददि् के् ठीक् पूिड् धिद्यमाि् और, ्
-यथाधस्थधत,्पररषद््या्सोसाइटी्को्प्रिाधित्करिे्िाली्सिी्संधिदाएं,्करार्और्काम्करिे्के्बारे्में्ठिराि, ् जिां्तक्उिका ्
-संबंि,्यथाधस्थधत,्पररषद््या्सोसाइटी्से्िै,्यथाधस्थधत,्पररषद््या्सोसाइटी्के्धिरुद्ध्प्रिाििीि्िो ् जाएंगे्या्प्रितड िीय्ि िीं्
-रिेंगे्और्उस्बोर्ड्के्धिरुद्ध्या्उसके्पि्में,्धजसमें्पररषद््और्सोसाइटी्इस्अधिधियम्के्आिार्पर्धिधित्िो्गई्िैं, ् पूणडतः् प्र
-िािी्और्प्रितडिीय्िोंगे,्तथा्इस्प्रकार्पूणडतः्और्प्रिािी्रू प्से्प्रितडिीय्िोंगे्मािो,्यथाधस्थधत,्पररषद् ् या ् सोसाइ टी्के्
-बजाय्बोर्ड्को्उसमें्िाधमत्दकया्गया्िो्या्िि्उसका्एक्पिकार्रिा्िो्।
-( 2 )् धियत् ददि् के् ठीक् पूिड,् पररषद्् या् सोसाइटी्द्व ारा् या् उसके् धिरुद्ध् लंधबत् या् धिद्यमाि् कोई् कायडिािी,् िाद् या्
-िादिेतुक,्उस्ददि्से्िी्उस्बोर्ड्के्द्वारा्या्उसके्धिरुद्ध्धजसको ् िि्इस्अधिधियम्के्आिार्पर्धिधित्िो्गया्िै,्उसी्प्र कार्
-जारी्रखा्जा्सकेगा्और्प्रिर्तडत्दकया्जा्सकेगा्जैसे्िि्पररषद््या्सोसाइटी्द्वारा्या्उसके् धिरुद्ध्तब्प्रिृि्दकया् जा ता,्ज ब्
-यि्अधिधियम्पाररत्ििीं्दकया्गया्िोता्और,्यथाधस्थधत,्पररषद््या्सोसाइटी्द्वारा्या्उसके्धिरुद्ध्प्रितडिीय्ििीं्रिे गा्।
-8. अिुज्ञ धप्् त यों,्आदद्का्बोर्ड्को्अिुदि्दकया्गया्समझा्जािा — धि यत्ददि्से,्तत्समय्प्रिृि्दकसी्धिधि्के्अिीि, ्
-यथाधस्थधत,् पररषद्् या् सोसाइटी ् के् दक्रयाकलापों् और् कारबार् के् संबंि् में् पररषद्् या् सोसाइटी् को् अिुदि् सिी् अिुज्ञ धप्् त यां,्
-अिुज्ञाप त्र,्कोटा्और्छूटों्के्बारे्में्यि्समझा्जाएगा्दक्िे्उस्बोर्ड्को्अिुदि्की्गई्िैं्धजसमें्पररषद््और्सोसाइ टी,्इस्
-अधिधियम्के्आिार्पर्धिधित्िो्गए्िैं्।
-9. ् कर् छूट् या् फायदे् का् धिरन्तर्प्र िािी् बिे् रििा — ( 1 )् जिां् आय - कर् अधिधियम,् 1961 ( 1961 ् का 43 )् के् अिीि,्
-पररषद््या्सोसाइटी्को्दकसी्कर्से,्या्उसके्संबंि्में्दकसी्धििाडरण्से्कोई्छूट्दी्गई्िै्या्दकसी्अिामेधलत्अिियण्या ्
-धिधििाि्मोक्या्अन्य्मोक्या्िाधि्के,्यथाधस्थधत,्मुजरा्या ् अग्रियि्के्रूप्में्कोई्फायदा्ददया्गया्िै्या्उपलब्ि्िै,् ि िां्
-ऐसी्छूट,्धििाडरण्या्फायदा्उस्बोर्ड्के्संबंि्में,्धजसमें्पररषद््और्सोसाइटी्इस्अधिधियम्के्आिार्पर्धिधित्िो्गए्िैं,् प्र
-िािी्बिे्रिेंगे्।
-( 2 )्जिां,्पररषद््या्सोसाइटी्द्वारा्दकया्गया्कोई्संदाय्आय - कर ् अधिधियम,् 1961 ् ( 1961 ् का 43 )्के्दकसी्उपबंि्के्
-अिीि् स्र ो त्पर्कर्की्कटौती्से्छूट्प्रा प्् त ् िै्ििां्कर्से्छूट्उसी्प्रकार्उपलब्ि्बिी्रिेगी्मािो्पररषद््या्सोसाइटी ् को्लागू्
-िोिे्िाले्उ ् त ् अधिधियम्के्उपबंि,्उस्बोर्ड्के्संबंि्में्प्रितडिशील्थे्धजसमें्पररषद््और्सोसा इटी्इस्अधिधियम्के् आ िार्
-पर,्धिधित्िो्गए्िैं्।
-( 3 )्िारा् 6 ् के्धिबंििों्के्अिुसार्पररषद््या्सोसाइटी्के्अंतरण्और्धिधित्िो्जािे्का्यि्अथड्ििीं्लगाया्जाएगा्
-दक्िे्पूंजी्अधिलाि्के्प्रयोजिों्के्धलए्आय - कर्अ धिधियम,् 1961 ( 1961 ् का 43 )्के्अथाांतगडत्अंतरण्िै्।
-10. प्र त् यािूधत्का्प्रिािी्िोिा — दकसी ् उिार्या्पट्टा्धिि्के्संबंि्में्पररषद््या्सोसाइटी्के्धलए्या्उसके्पि्में्दी्
-गई्कोई्प्रत्यािूधत,्उस्बोर्ड्के्संबंि्में्प्रिािी्बिी्रिेगी्धजसमें्पररषद््और्सोसाइटी्इस्अधिधियम्के्आिार्पर्धिधि त्िो्
-गई्िै्। ्
-11. पररषद्् और् सोसाइटी ् के् अधिकाररयों् और् अन्य् कमडिाररयों् के् संबंि् में् उपबंि — ( 1 ) ् (क)् पररषद्् का्प्रत् येक्
-अधिकारी्या्अन्य्कमडिारी,्जो्धियत्ददि्के्ठीक्पूिड्उसके्धियोजि्में्कायडरत्िै,्जिां्तक्ऐसा्अधिकारी्या्अन्य्कमड िारी्
-उस् पररषद्् के् संबंि् में,् धियोधजत् िै,् जो् इस् अधिधियम् के् आिार् प र् बोर्ड् में् धिधित् िो् गई् िै् धियत् ददि् से् िी,् बोर्ड् का, ्
-यथाधस्थधत,्अधिकारी्या्अन्य्कमडिारी्िो्जाएगा्।
-(ख)्सोसाइटी्का्प्रत्येक्अधिकारी्या्अन्य्कमडिारी,्जो्धियत्ददि्के्ठीक्पूिड्उसके्धियोजि्में्कायडरत्िै,्जिां्तक्
-ऐसा्अधिकारी्या्अन्य्कमडिारी्उस्सोसाइटी्के्सं बंि्में,्धियोधजत्िै,्जो्इस्अधिधियम्के्आिार्पर्बोर्ड्में्धिधित्िो्ग ई्िै्
-धियत्ददि्से्िी,्बोर्ड्का,्यथाधस्थधत,्अधिकारी्या्अन्य्कमडिारी्िो्जाएगा्।
-( 2 )्पररषद््या्सोसाइटी्का्प्रत्येक्अधिकारी्या्अन्य्कमडिारी,्जो्उपिारा्( 1 )्में्यथा्धिर्दड ष्‍ट् ट ् बोर्ड्का,्यथाधस्थ धत,्
-अधिकारी्या्कमडिारी्िो्जाता्िै,्उसी्अिधि्तक,्उसी्पाररश्रधमक्पर,्उन्िीं्धिबंििों्और्शतों्पर,्छुट्टी,्बीमा्अधिि र् षडता् स्
-कीम,्िधिष्‍टय्धिधि,्अन्य्धिधियों, ् सेिाधििृधि,्पेंशि,्उपदाि्और्अन्य्प्रसुधििाओं्के्बारे्में्उन्िीं्बाध्यताओं्औ र्अधिका रों्
-तथा्धिशेषाधि कारों्के्साथ्उसमें्अपिा्पद्िारण्या्सेिा्करेगा्जो्िि,्यथाधस्थधत,्पररषद््या्सोसाइटी्के्अिीि्उस्दशा्में ्
-िारण् करता,् यदद् िि् बोर्ड् में् धिधित् ििीं्हु ई् िोती् और् यदद,् ऐसा् अधिकारी् या् अन्य् कमडिारी् उस् अिधि् के् िीतर् बोर्ड् का्
-अधिकारी्या्अन्य्कमडिारी्ि्िोिे्का्धिकलप्लेता ् िै्तो्िि्बोर्ड्के,्यथाधस्थधत,्अधिकारी्या्अन्य्कमडिारी्के्रूप्में ् धियत्
-ददि्से्एक्िषड्की्अिधि्के्समा प्् त ् िोिे्तक्ऐसा्करता्रिेगा:
-परन्तु्यदद् बोर्ड ् इस्प्रकार्धियत्की्गई्अिधि्को्बढािा्समीिीि्समझता्िै्तो्िि्उसे्एक्िषड्की्अधिकतम्अिधि्
-तक्बढा्सकेगा्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 7)
+  kind page
+  sectionId pdf-page-7
+  sectionNo (7)
+  orderNo 7
+  title `Page 7`
+  content obj_root_law_translations_hi_sections_7_content
+  footnotes obj_root_law_translations_hi_sections_7_footnotes
+  sourcePage 7
+obj_root_law_translations_hi_sections_7_content:
+  string
+  line 5
+  line से्उद्िूत्िोिे्िाले्सिी्अन्य्अधिकार्और्धित्जो्धियत्ददि्के्ठीक्पूिड,्यथाधस्थधत,्पररषद््या्सोसाइटी्के्स्िाधमत्ि्या्
+  line `कब्जे्में्या्श ध् त ् में्थे,्िािे्िे ् िारत्में्िैं्या्िारत्के्बािर,्तत्संबंिी्सिी्लेखा्बधियां्और्दस्तािेज्िी्िैं्और्उिके्अंतगडत,्`
+  line यथाधस्थधत,्सोसाइटी्या्पररषद््के्तत्समय्धिद्यमाि्दकसी्िी्प्रकार्के्सिी्उिार,्दाधयत्ि्और्बाध्यताएं्िी्िैं्।
+  line `7. ् पररषद्् और् सोसाइटी् का् बोर्ड् में् धिधित् िोिे् का् सामान्य ् प्र िाि — ( 1 )् धियत् ददि् के् ठीक् पूिड् धिद्यमाि् और, ्`
+  line `यथाधस्थधत,्पररषद््या्सोसाइटी्को्प्रिाधित्करिे्िाली्सिी्संधिदाएं,्करार्और्काम्करिे्के्बारे्में्ठिराि, ् जिां्तक्उिका ्`
+  line `संबंि,्यथाधस्थधत,्पररषद््या्सोसाइटी्से्िै,्यथाधस्थधत,्पररषद््या्सोसाइटी्के्धिरुद्ध्प्रिाििीि्िो ् जाएंगे्या्प्रितड िीय्ि िीं्`
+  line `रिेंगे्और्उस्बोर्ड्के्धिरुद्ध्या्उसके्पि्में,्धजसमें्पररषद््और्सोसाइटी्इस्अधिधियम्के्आिार्पर्धिधित्िो्गई्िैं, ् पूणडतः् प्र`
+  line `िािी्और्प्रितडिीय्िोंगे,्तथा्इस्प्रकार्पूणडतः्और्प्रिािी्रू प्से्प्रितडिीय्िोंगे्मािो,्यथाधस्थधत,्पररषद् ् या ् सोसाइ टी्के्`
+  line बजाय्बोर्ड्को्उसमें्िाधमत्दकया्गया्िो्या्िि्उसका्एक्पिकार्रिा्िो्।
+  line `( 2 )् धियत् ददि् के् ठीक् पूिड,् पररषद्् या् सोसाइटी्द्व ारा् या् उसके् धिरुद्ध् लंधबत् या् धिद्यमाि् कोई् कायडिािी,् िाद् या्`
+  line `िादिेतुक,्उस्ददि्से्िी्उस्बोर्ड्के्द्वारा्या्उसके्धिरुद्ध्धजसको ् िि्इस्अधिधियम्के्आिार्पर्धिधित्िो्गया्िै,्उसी्प्र कार्`
+  line `जारी्रखा्जा्सकेगा्और्प्रिर्तडत्दकया्जा्सकेगा्जैसे्िि्पररषद््या्सोसाइटी्द्वारा्या्उसके् धिरुद्ध्तब्प्रिृि्दकया् जा ता,्ज ब्`
+  line `यि्अधिधियम्पाररत्ििीं्दकया्गया्िोता्और,्यथाधस्थधत,्पररषद््या्सोसाइटी्द्वारा्या्उसके्धिरुद्ध्प्रितडिीय्ििीं्रिे गा्।`
+  line `8. अिुज्ञ धप्् त यों,्आदद्का्बोर्ड्को्अिुदि्दकया्गया्समझा्जािा — धि यत्ददि्से,्तत्समय्प्रिृि्दकसी्धिधि्के्अिीि, ्`
+  line `यथाधस्थधत,् पररषद्् या् सोसाइटी ् के् दक्रयाकलापों् और् कारबार् के् संबंि् में् पररषद्् या् सोसाइटी् को् अिुदि् सिी् अिुज्ञ धप्् त यां,्`
+  line `अिुज्ञाप त्र,्कोटा्और्छूटों्के्बारे्में्यि्समझा्जाएगा्दक्िे्उस्बोर्ड्को्अिुदि्की्गई्िैं्धजसमें्पररषद््और्सोसाइ टी,्इस्`
+  line अधिधियम्के्आिार्पर्धिधित्िो्गए्िैं्।
+  line `9. ् कर् छूट् या् फायदे् का् धिरन्तर्प्र िािी् बिे् रििा — ( 1 )् जिां् आय - कर् अधिधियम,् 1961 ( 1961 ् का 43 )् के् अिीि,्`
+  line `पररषद््या्सोसाइटी्को्दकसी्कर्से,्या्उसके्संबंि्में्दकसी्धििाडरण्से्कोई्छूट्दी्गई्िै्या्दकसी्अिामेधलत्अिियण्या ्`
+  line `धिधििाि्मोक्या्अन्य्मोक्या्िाधि्के,्यथाधस्थधत,्मुजरा्या ् अग्रियि्के्रूप्में्कोई्फायदा्ददया्गया्िै्या्उपलब्ि्िै,् ि िां्`
+  line `ऐसी्छूट,्धििाडरण्या्फायदा्उस्बोर्ड्के्संबंि्में,्धजसमें्पररषद््और्सोसाइटी्इस्अधिधियम्के्आिार्पर्धिधित्िो्गए्िैं,् प्र`
+  line िािी्बिे्रिेंगे्।
+  line `( 2 )्जिां,्पररषद््या्सोसाइटी्द्वारा्दकया्गया्कोई्संदाय्आय - कर ् अधिधियम,् 1961 ् ( 1961 ् का 43 )्के्दकसी्उपबंि्के्`
+  line `अिीि् स्र ो त्पर्कर्की्कटौती्से्छूट्प्रा प्् त ् िै्ििां्कर्से्छूट्उसी्प्रकार्उपलब्ि्बिी्रिेगी्मािो्पररषद््या्सोसाइटी ् को्लागू्`
+  line `िोिे्िाले्उ ् त ् अधिधियम्के्उपबंि,्उस्बोर्ड्के्संबंि्में्प्रितडिशील्थे्धजसमें्पररषद््और्सोसा इटी्इस्अधिधियम्के् आ िार्`
+  line पर,्धिधित्िो्गए्िैं्।
+  line `( 3 )्िारा् 6 ् के्धिबंििों्के्अिुसार्पररषद््या्सोसाइटी्के्अंतरण्और्धिधित्िो्जािे्का्यि्अथड्ििीं्लगाया्जाएगा्`
+  line `दक्िे्पूंजी्अधिलाि्के्प्रयोजिों्के्धलए्आय - कर्अ धिधियम,् 1961 ( 1961 ् का 43 )्के्अथाांतगडत्अंतरण्िै्।`
+  line `10. प्र त् यािूधत्का्प्रिािी्िोिा — दकसी ् उिार्या्पट्टा्धिि्के्संबंि्में्पररषद््या्सोसाइटी्के्धलए्या्उसके्पि्में्दी्`
+  line `गई्कोई्प्रत्यािूधत,्उस्बोर्ड्के्संबंि्में्प्रिािी्बिी्रिेगी्धजसमें्पररषद््और्सोसाइटी्इस्अधिधियम्के्आिार्पर्धिधि त्िो्`
+  line `गई्िै्। ्`
+  line `11. पररषद्् और् सोसाइटी ् के् अधिकाररयों् और् अन्य् कमडिाररयों् के् संबंि् में् उपबंि — ( 1 ) ् (क)् पररषद्् का्प्रत् येक्`
+  line `अधिकारी्या्अन्य्कमडिारी,्जो्धियत्ददि्के्ठीक्पूिड्उसके्धियोजि्में्कायडरत्िै,्जिां्तक्ऐसा्अधिकारी्या्अन्य्कमड िारी्`
+  line `उस् पररषद्् के् संबंि् में,् धियोधजत् िै,् जो् इस् अधिधियम् के् आिार् प र् बोर्ड् में् धिधित् िो् गई् िै् धियत् ददि् से् िी,् बोर्ड् का, ्`
+  line यथाधस्थधत,्अधिकारी्या्अन्य्कमडिारी्िो्जाएगा्।
+  line `(ख)्सोसाइटी्का्प्रत्येक्अधिकारी्या्अन्य्कमडिारी,्जो्धियत्ददि्के्ठीक्पूिड्उसके्धियोजि्में्कायडरत्िै,्जिां्तक्`
+  line `ऐसा्अधिकारी्या्अन्य्कमडिारी्उस्सोसाइटी्के्सं बंि्में,्धियोधजत्िै,्जो्इस्अधिधियम्के्आिार्पर्बोर्ड्में्धिधित्िो्ग ई्िै्`
+  line धियत्ददि्से्िी,्बोर्ड्का,्यथाधस्थधत,्अधिकारी्या्अन्य्कमडिारी्िो्जाएगा्।
+  line `( 2 )्पररषद््या्सोसाइटी्का्प्रत्येक्अधिकारी्या्अन्य्कमडिारी,्जो्उपिारा्( 1 )्में्यथा्धिर्दड ष्‍ट् ट ् बोर्ड्का,्यथाधस्थ धत,्`
+  line `अधिकारी्या्कमडिारी्िो्जाता्िै,्उसी्अिधि्तक,्उसी्पाररश्रधमक्पर,्उन्िीं्धिबंििों्और्शतों्पर,्छुट्टी,्बीमा्अधिि र् षडता् स्`
+  line `कीम,्िधिष्‍टय्धिधि,्अन्य्धिधियों, ् सेिाधििृधि,्पेंशि,्उपदाि्और्अन्य्प्रसुधििाओं्के्बारे्में्उन्िीं्बाध्यताओं्औ र्अधिका रों्`
+  line `तथा्धिशेषाधि कारों्के्साथ्उसमें्अपिा्पद्िारण्या्सेिा्करेगा्जो्िि,्यथाधस्थधत,्पररषद््या्सोसाइटी्के्अिीि्उस्दशा्में ्`
+  line `िारण् करता,् यदद् िि् बोर्ड् में् धिधित् ििीं्हु ई् िोती् और् यदद,् ऐसा् अधिकारी् या् अन्य् कमडिारी् उस् अिधि् के् िीतर् बोर्ड् का्`
+  line `अधिकारी्या्अन्य्कमडिारी्ि्िोिे्का्धिकलप्लेता ् िै्तो्िि्बोर्ड्के,्यथाधस्थधत,्अधिकारी्या्अन्य्कमडिारी्के्रूप्में ् धियत्`
+  line `ददि्से्एक्िषड्की्अिधि्के्समा प्् त ् िोिे्तक्ऐसा्करता्रिेगा:`
+  line `परन्तु्यदद् बोर्ड ् इस्प्रकार्धियत्की्गई्अिधि्को्बढािा्समीिीि्समझता्िै्तो्िि्उसे्एक्िषड्की्अधिकतम्अिधि्`
+  line तक्बढा्सकेगा्।
+obj_root_law_translations_hi_sections_7_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_8:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-8)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Page 8`)
-  (str content) (str `6
-( 3 )्ज िां,्पररषद््या्सोसाइटी्का्कोई्अधिकारी्या्अन्य्कमडिारी,्उपिारा्( 2 )्के्अिीि्उस्बोर्ड्के्धियोजि्या्सेिा्
-में्ििीं्रििे्का्धिकलप्लेता्िै,्धजसमें्पररषद््और्सोसाइटी्धिधित्िो्गई्िैं,्ििां्ऐसे्अधिकारी्या्अन्य्कमडिारी्के ् बारे्में ् यि्
-समझा्जाएगा्दक्उसिे्अपिे्कार्र्से ्त् यागपत्र्दे्ददया्िै्।
-( 4 )्औद्योधगक्धििाद्अधिधियम,् 1947 ( 1947 ् का 14 ) ् या्तत्समय्प्रिृि्दकसी्अन्य्धिधि्में्दकसी्बात्के्िोते्हुए्िी,्
-पररषद््या्सोसाइटी्के्दकसी्अधिकारी्या्अन्य्कमडिारी्की्सेिाओं्का्बोर्ड्को्अन्तरण,्ऐसे्अधिकारी्या्अन्य्कमडिारी्को ् इस्
-अधिधि यम् या् तत्समय्प्र िृि् दकसी् अन्य् धिधि् के् अिीि् दकसी्प्र धतकर् का् िकदार् ििीं् बिाएगा् और् ऐसा् कोई् दािा् दकसी् न्
-यायालय,्अधिकरण्या्अन्य्प्राधिकरण्द्वारा्ग्रिण्ििीं्दकया्जाएगा्।
-( 5 )्ऐसे्अधिकारी्और्अन्य्कमडिारी,्जो्धियत्ददि्के्पूिड्पररषद््या्सोसाइटी्की्सेिा्से्धििृि ् िो्गए्िैं्और्जो्
-दकन्िीं्प्रसुधििाओं,्अधिकारों् या्धिशेषाधिकारों् के्िकदार्िैं,् उस्बोर्ड्से,् धजसमें्पररषद््या्सोसाइटी्धिधित्िो्गई् िै,् उन्िीं ् प्र
-सुधििाओं,्अधिकारों्या्धिशेषाधिकारों्को्प्रा प्् त ् करिे्के्िकदार्िोंगे्।
-( 6 )् अधिकाररयों् या् कमडिाररयों् के् कलयाण् के ् धलए् पररषद्् या् सोसाइटी् की् िधि ष्‍ट् य ् धिधि् और् सामूधिक् बीमा् तथा्
-अधििर्षडता्स्कीम्संबंिी्न्यास,्बोर्ड्में्अपिे्कृत्यों्का्धििडिि्िैसे्िी् करते्रिेंगे्जैसे्िे्पररषद््या्सोसाइटी् में ् दकया् क रते्थे्और्
-िधिष्‍टय्धिधि्या्सामूधिक्बीमा्तथा्अधििर्षडता्स्कीम्के्संबंि्में्दी् गई्कर - छू ट्बोर्ड्की्बाबत्लागू्बिी्रिेगी्।
-( 7 )्उपिारा्( 2 ) में्यथा्धिर्दड ष्‍ट् ट ् एक्िषड्की्अिधि्या्बढाई्गई्अिधि्की्समा धप्् त ् के्प श्् िा त्,्बोर्ड्को्अंतररत्और्
-उसमें्धियु ् त ् सिी्अधिकारी्और्अन्य्कमडिारी,्जो्उि्अधिकाररयों्या्अन्य्कमडिाररयों्से्धि न्् ि ् िैं,्जो्ऐसी ् अिधि्के ् िीतर्
-बोर्ड्के्अधिकारी्या्अन्य्कमडिारी्िोिे्का्धिकलप्ििीं्लेते्िैं,्उ ् त ् बोर्ड्के्अधिकाररयों्और्अन्य्कमडिाररयों् की ् सेिा्शतों ् के्
-बारे् में्बोर्ड् द्व ारा्बिाए्गए्धियमों्और्धिधियमों्द्वारा्शाधसत्िोंगे्।
-अध्याय् 5
-केन्रीय्सरकार्की्श ध् त यां
-12. के न् रीय् सरकार्द्व ारा् धिदेश — ( 1 )् बोर्ड् सुसंगत् पररधियम् के् अिीि् अपिे् कृत्यों् और् कतडव्यों् के् धििडिि् में,् िीधत्
-संबंिी्प्र श्् िों ् के्संबंि्में्ऐसे्धिदेशों्से्आबद्ध्िोगा,्जो्केन्रीय्सरकार्समय - स मय्पर्उसे्धलधखत्में्दे:
-परन्तु्बोर्ड्को,्कोई्धिदेश्ददए्जािे्से्पूिड ् अपिा्दृ धष्‍ट् ट कोण्व्य ् त ् करिे्का्याि त् श् य ् अिसर्ददया जाएगा्।
-( 2 )्इस्बारे्में्दक्कोई् प्रश्् ि ् िीधत्संबंिी्िै्या्ििीं,्केन्रीय्सरकार्का्धिधि श्् ि य्अंधतम्िोगा्।
-13. ् बोर्ड्का्अधिक्रमण — ( 1 )् यदद्दकसी्समय्केन्रीय्सरकार्की्यि्राय्िै्दक —
-(क)्गंिीर्आपात्के्कार ण,्बोर्ड्इस्अधिधियम्के्उपबंिों्द्वारा्या्उिके्अिीि्उसे्अधिरोधपत्कृत्यों्और्
-कतडव्यों्का्धििडिि्करिे्में्असमथड्िै; ् या
-(ख)्बोर्ड्िे्इस्अधिधियम्के्अिीि्केन्रीय्सरकार्द्वारा्जारी्दकए्गए्दकसी्धिदेश्का्पालि्करिे्में्या ्
-इस् अधिधियम् के् उपबंिों्द्व ारा् या् उिके् अिी ि,् उसे् अधिरोधपत् कृत्यों् और् कतडव्यों् के् धििडिि् में् बार - बार्व्य धतक्र म्
-दकया्िै्और्ऐसे्व्यधतक्रम्के्पररणामस्िरूप्बोर्ड्की्धििीय्धस्थधत्या्बोर्ड्के्प्रशासि्का्ह्रास्हुआ्िै; ् या
-(ग)्ऐसी्पररधस्थधतयां्धि द्य माि्िैं,्धजिमें्ऐसा्करिा्लोक धित्में्आिश्यक्िो्गया्िै,
-तो्केन्रीय्सरकार,्राज पत्र्में्अधिसूििा्द्वारा,्बोर्ड्को,्छि्मास्से्अिधिक्की्ऐसी्अिधि्के्धलए,्जो्अधिसूििा्में् धि धिर्दड ष्‍ट् ट ्
-की्जाए,्अधत धष्‍ट् ठ त्कर्सकेगी्।
-( 2 )्अधिसूििा्के्प्रकाशि्पर —
-( क ) बोर्ड्के्सिी्सदस्य,्अधिक्रमण्की्तारीख्से,्उस्रूप्में्अपिे्पद्रर ् त ् कर्दें गे;
-( ख ) ऐसी्सिी्श ध् त यों,्कृत्यों्और्कतडव्यों्का,्धजिका्सुसंगत्अधिधियम्के्उपबंिों्द्वारा्या्उिके् अ िीि् प्र
-योग्या्धििडिि्बोर्ड्द्वारा्या्उसकी्ओर्से्दकया्जा्सकता्िै,्जब्तक्दक्उपिारा्( 3 )्के्अिीि्बोर्ड्का्पुिगड ठि्
-ििीं्दकया्जाता,्प्रयोग्और्धििडिि्ऐसे्व्य ध् त ् या ्व्य ध् त यों्द्वारा्दकया्जाएगा,्जो्केन्रीय्सरकार् धि देश्दे; ् और
-( ग ) बोर्ड्के्स्िाधमत्िािीि्या्धियंत्रणािीि्सिी्संपधि,्जब्तक्बोर्ड्का्पुिगडठि्ििीं्दकया्जाता,्के न् री य्
-सरकार्में्धिधित्िो्जाएगी्।
-( 3 )्उपिारा्( 1 )्के्अिीि्जारी्की्गई्अधिसूििा्में्धिधिर्दड ष्‍ट् ट ् अधि क्र मण्की्अिधि्के्अिसाि्पर,्केन्रीय्सरका र्िई्
-धियु ध् त ् द्व ारा्बोर्ड्का्पुिगडठि्कर्सकेगी्और्ऐसी्दशा्में्ऐसा्कोई्व्य ध् त ् या्ऐसे्व्य ध् त,्धजन्िोंिे्उप िारा्( 2 )्के्खंर्् ( क)्के्
-अिीि्अपिे्पद्रर ् त ् कर्ददए्िैं,्धियु ध् त ् के्धलए्धिरर्िडत्ििीं्समझे्जाएंगे:
-परंतु ् केन्रीय्सरकार,्अधिक्रमण्की्अिधि्के्अिसाि्के्पूिड,्दकसी्समय,्इस्उपिारा्के्अिीि्कारडिाई्कर्सकेगी ्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 8)
+  kind page
+  sectionId pdf-page-8
+  sectionNo (8)
+  orderNo 8
+  title `Page 8`
+  content obj_root_law_translations_hi_sections_8_content
+  footnotes obj_root_law_translations_hi_sections_8_footnotes
+  sourcePage 8
+obj_root_law_translations_hi_sections_8_content:
+  string
+  line 6
+  line `( 3 )्ज िां,्पररषद््या्सोसाइटी्का्कोई्अधिकारी्या्अन्य्कमडिारी,्उपिारा्( 2 )्के्अिीि्उस्बोर्ड्के्धियोजि्या्सेिा्`
+  line `में्ििीं्रििे्का्धिकलप्लेता्िै,्धजसमें्पररषद््और्सोसाइटी्धिधित्िो्गई्िैं,्ििां्ऐसे्अधिकारी्या्अन्य्कमडिारी्के ् बारे्में ् यि्`
+  line `समझा्जाएगा्दक्उसिे्अपिे्कार्र्से ्त् यागपत्र्दे्ददया्िै्।`
+  line `( 4 )्औद्योधगक्धििाद्अधिधियम,् 1947 ( 1947 ् का 14 ) ् या्तत्समय्प्रिृि्दकसी्अन्य्धिधि्में्दकसी्बात्के्िोते्हुए्िी,्`
+  line `पररषद््या्सोसाइटी्के्दकसी्अधिकारी्या्अन्य्कमडिारी्की्सेिाओं्का्बोर्ड्को्अन्तरण,्ऐसे्अधिकारी्या्अन्य्कमडिारी्को ् इस्`
+  line `अधिधि यम् या् तत्समय्प्र िृि् दकसी् अन्य् धिधि् के् अिीि् दकसी्प्र धतकर् का् िकदार् ििीं् बिाएगा् और् ऐसा् कोई् दािा् दकसी् न्`
+  line यायालय,्अधिकरण्या्अन्य्प्राधिकरण्द्वारा्ग्रिण्ििीं्दकया्जाएगा्।
+  line `( 5 )्ऐसे्अधिकारी्और्अन्य्कमडिारी,्जो्धियत्ददि्के्पूिड्पररषद््या्सोसाइटी्की्सेिा्से्धििृि ् िो्गए्िैं्और्जो्`
+  line `दकन्िीं्प्रसुधििाओं,्अधिकारों् या्धिशेषाधिकारों् के्िकदार्िैं,् उस्बोर्ड्से,् धजसमें्पररषद््या्सोसाइटी्धिधित्िो्गई् िै,् उन्िीं ् प्र`
+  line `सुधििाओं,्अधिकारों्या्धिशेषाधिकारों्को्प्रा प्् त ् करिे्के्िकदार्िोंगे्।`
+  line `( 6 )् अधिकाररयों् या् कमडिाररयों् के् कलयाण् के ् धलए् पररषद्् या् सोसाइटी् की् िधि ष्‍ट् य ् धिधि् और् सामूधिक् बीमा् तथा्`
+  line `अधििर्षडता्स्कीम्संबंिी्न्यास,्बोर्ड्में्अपिे्कृत्यों्का्धििडिि्िैसे्िी् करते्रिेंगे्जैसे्िे्पररषद््या्सोसाइटी् में ् दकया् क रते्थे्और्`
+  line `िधिष्‍टय्धिधि्या्सामूधिक्बीमा्तथा्अधििर्षडता्स्कीम्के्संबंि्में्दी् गई्कर - छू ट्बोर्ड्की्बाबत्लागू्बिी्रिेगी्।`
+  line `( 7 )्उपिारा्( 2 ) में्यथा्धिर्दड ष्‍ट् ट ् एक्िषड्की्अिधि्या्बढाई्गई्अिधि्की्समा धप्् त ् के्प श्् िा त्,्बोर्ड्को्अंतररत्और्`
+  line `उसमें्धियु ् त ् सिी्अधिकारी्और्अन्य्कमडिारी,्जो्उि्अधिकाररयों्या्अन्य्कमडिाररयों्से्धि न्् ि ् िैं,्जो्ऐसी ् अिधि्के ् िीतर्`
+  line `बोर्ड्के्अधिकारी्या्अन्य्कमडिारी्िोिे्का्धिकलप्ििीं्लेते्िैं,्उ ् त ् बोर्ड्के्अधिकाररयों्और्अन्य्कमडिाररयों् की ् सेिा्शतों ् के्`
+  line `बारे् में्बोर्ड् द्व ारा्बिाए्गए्धियमों्और्धिधियमों्द्वारा्शाधसत्िोंगे्।`
+  line `अध्याय् 5`
+  line `केन्रीय्सरकार्की्श ध् त यां`
+  line `12. के न् रीय् सरकार्द्व ारा् धिदेश — ( 1 )् बोर्ड् सुसंगत् पररधियम् के् अिीि् अपिे् कृत्यों् और् कतडव्यों् के् धििडिि् में,् िीधत्`
+  line `संबंिी्प्र श्् िों ् के्संबंि्में्ऐसे्धिदेशों्से्आबद्ध्िोगा,्जो्केन्रीय्सरकार्समय - स मय्पर्उसे्धलधखत्में्दे:`
+  line `परन्तु्बोर्ड्को,्कोई्धिदेश्ददए्जािे्से्पूिड ् अपिा्दृ धष्‍ट् ट कोण्व्य ् त ् करिे्का्याि त् श् य ् अिसर्ददया जाएगा्।`
+  line `( 2 )्इस्बारे्में्दक्कोई् प्रश्् ि ् िीधत्संबंिी्िै्या्ििीं,्केन्रीय्सरकार्का्धिधि श्् ि य्अंधतम्िोगा्।`
+  line `13. ् बोर्ड्का्अधिक्रमण — ( 1 )् यदद्दकसी्समय्केन्रीय्सरकार्की्यि्राय्िै्दक —`
+  line `(क)्गंिीर्आपात्के्कार ण,्बोर्ड्इस्अधिधियम्के्उपबंिों्द्वारा्या्उिके्अिीि्उसे्अधिरोधपत्कृत्यों्और्`
+  line `कतडव्यों्का्धििडिि्करिे्में्असमथड्िै; ् या`
+  line `(ख)्बोर्ड्िे्इस्अधिधियम्के्अिीि्केन्रीय्सरकार्द्वारा्जारी्दकए्गए्दकसी्धिदेश्का्पालि्करिे्में्या ्`
+  line `इस् अधिधियम् के् उपबंिों्द्व ारा् या् उिके् अिी ि,् उसे् अधिरोधपत् कृत्यों् और् कतडव्यों् के् धििडिि् में् बार - बार्व्य धतक्र म्`
+  line `दकया्िै्और्ऐसे्व्यधतक्रम्के्पररणामस्िरूप्बोर्ड्की्धििीय्धस्थधत्या्बोर्ड्के्प्रशासि्का्ह्रास्हुआ्िै; ् या`
+  line `(ग)्ऐसी्पररधस्थधतयां्धि द्य माि्िैं,्धजिमें्ऐसा्करिा्लोक धित्में्आिश्यक्िो्गया्िै,`
+  line `तो्केन्रीय्सरकार,्राज पत्र्में्अधिसूििा्द्वारा,्बोर्ड्को,्छि्मास्से्अिधिक्की्ऐसी्अिधि्के्धलए,्जो्अधिसूििा्में् धि धिर्दड ष्‍ट् ट ्`
+  line `की्जाए,्अधत धष्‍ट् ठ त्कर्सकेगी्।`
+  line `( 2 )्अधिसूििा्के्प्रकाशि्पर —`
+  line `( क ) बोर्ड्के्सिी्सदस्य,्अधिक्रमण्की्तारीख्से,्उस्रूप्में्अपिे्पद्रर ् त ् कर्दें गे;`
+  line `( ख ) ऐसी्सिी्श ध् त यों,्कृत्यों्और्कतडव्यों्का,्धजिका्सुसंगत्अधिधियम्के्उपबंिों्द्वारा्या्उिके् अ िीि् प्र`
+  line `योग्या्धििडिि्बोर्ड्द्वारा्या्उसकी्ओर्से्दकया्जा्सकता्िै,्जब्तक्दक्उपिारा्( 3 )्के्अिीि्बोर्ड्का्पुिगड ठि्`
+  line `ििीं्दकया्जाता,्प्रयोग्और्धििडिि्ऐसे्व्य ध् त ् या ्व्य ध् त यों्द्वारा्दकया्जाएगा,्जो्केन्रीय्सरकार् धि देश्दे; ् और`
+  line `( ग ) बोर्ड्के्स्िाधमत्िािीि्या्धियंत्रणािीि्सिी्संपधि,्जब्तक्बोर्ड्का्पुिगडठि्ििीं्दकया्जाता,्के न् री य्`
+  line सरकार्में्धिधित्िो्जाएगी्।
+  line `( 3 )्उपिारा्( 1 )्के्अिीि्जारी्की्गई्अधिसूििा्में्धिधिर्दड ष्‍ट् ट ् अधि क्र मण्की्अिधि्के्अिसाि्पर,्केन्रीय्सरका र्िई्`
+  line `धियु ध् त ् द्व ारा्बोर्ड्का्पुिगडठि्कर्सकेगी्और्ऐसी्दशा्में्ऐसा्कोई्व्य ध् त ् या्ऐसे्व्य ध् त,्धजन्िोंिे्उप िारा्( 2 )्के्खंर्् ( क)्के्`
+  line `अिीि्अपिे्पद्रर ् त ् कर्ददए्िैं,्धियु ध् त ् के्धलए्धिरर्िडत्ििीं्समझे्जाएंगे:`
+  line `परंतु ् केन्रीय्सरकार,्अधिक्रमण्की्अिधि्के्अिसाि्के्पूिड,्दकसी्समय,्इस्उपिारा्के्अिीि्कारडिाई्कर्सकेगी ्।`
+obj_root_law_translations_hi_sections_8_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_9:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-9)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Page 9`)
-  (str content) (str `7
-( 4 )्केन्रीय्सरकार,्उपिारा्( 1 )्के्अिीि्अधिसूििा्जारी्कराएगी्और्इस्िारा्के्अिीि्की्गई्दकसी्कारडिाई्की्
-और्उि्पररधस्थधतयों्की्धजिके्कारण्ऐसी्कारडिाई्की्गई,्पूरी्ररपोटड,्यथाशीघ्र,्संसद््के्प्रत्येक्सदि्के्समि्रखी ् जाएगी्।
-अध्याय् 6
-धिि,्लेखा्और्लेखापरीिा
-14. ् केन्रीय्सरकार्द्वारा्अिुदाि्और्उिार — ( 1 )्केन्रीय्सरकार,्संसद््द्वारा्इस्धिधमि्धिधि्द्वारा्सम्यक््धिधियोग्
-दकए् जािे् के् प श्् िा त्,् बोर्ड् को,् अिु दािों् और् उिारों् के्रू प् में् उतिी् ििराधश् का् संदाय् कर् सकेगी,् धजतिी् िि् सरकार् ्् ् ्
-आिश्यक्समझे्।
-( 2 )्जूट्बोर्ड्धिधि्के्िाम्से्ज्ञात्िोिे्िाली्एक्धिधि्गरठत्की्जाएगी्और्उसमें् धिम्् ि धलधखत ् जमा्दकए्जाएंगे: —
-( क ) केन्रीय्सरकार्द्वारा्बोर्ड्को्ददए्गए्कोई्अिुदाि्और्उिार;
-( ख ) ऐसे्अन्य् स्र ो तों्से,्जो्केन्रीय्सरकार्द्वारा्धिधि धश्् ि त्दकए्जाएं,्बोर्ड्को्प्रा प्् त ् सिी्ििराधशयां्।
-( 3 )्धिधि्का्उपयोजि् धिम्् ि धलधखत ् के्धलए्दकया्जाएगा —
-( क ) बोर्ड्के्सदस्यों,्अधिकाररयों्और्अन्य्कमडिाररयों्के्िेति,्ििों्और्अन्य्पाररश्रधमक्की्पूर्तड;
-( ख ) अपिे्कृत्यों ् का्धििडिि्करिे्में्बोर्ड्के्व्ययों्की्पूर्तड; ् और
-( ग ) इस्अधिधियम्द्वारा्प्राधिकृत्उद्देश्यों्और्प्रयोजिों्से्संबंधित्व्ययों्की्पूर्तड्।
-15. बजट — बोर्ड,्ऐसे्प्ररूप्में्और्प्रत्येक्धििीय्िषड्के्दौराि,्ऐसे्समय्पर,्जो्धिधित्दकया्जाए,्आगामी्धििीय्
-िषड् के् धल ए् अपिा् बजट् तैयार् करेगा,् धजसमें् बोर्ड् की् प्र ा् क धलत ् प्र ा धप्् त यां् और्व्य य् दर्शडत् िोंगे् और् उसे् के न् रीय् सरकार् को ् ्््
-िेजेगा्।
-16. ् िार्षडक् ररपोटड — बोर्ड ् ऐसे्प्ररू प् में् और्प्रत् येक् धििीय् िषड,् ऐसे् समय् पर,् जो् धिधित् दकया् जाए,् अपिी् िार्षडक्
-ररपोटड्तैयार्करेगा,् धजसमें्पूिडिती्िषड्के्दौराि्उसके्दक्रयाकलापों्का्पूरा्धििरण्ददया्जाएगा्और्उसकी्एक्प्रधत ् केन्री य्
-सरकार्को्िेजेगा्।
-17. ् लेखा् और् लेखापरीिा — बोर्ड् के् लेखे् ऐसी् रीधत् में ् रखे् और् संपरीधित् दकए ् जाएंगे,् जो् िारत् के्््््््््््््््््
-धियंत्रक - मिालेखापरीिक् के् प रामशड् से् धिधित् की् जाए् और् बोर्ड,् ऐसी् तारीख् से् पूिड,् जो् धिधित् की् जाए,् अपिे ् लेखाओं् की्
-संपरीधित्प्रधत,्उस्पर्लेखापरीिक्की्ररपोटड्के्साथ,्केन्रीय्सरकार्को्देगा्।
-18. ् िार्षडक्और्लेखापरीिक्की्ररपोटड्का्संसद््के्समि्रखा्जािा — केन्रीय्सरकार,्िार्षडक् ररपोटड्और्लेखापरीिक्
-की्ररपोटड्को,्उिकी्प्रा धप्् त ् के्प श्् िा त्,्यथाशीघ्र,्संसद््के्प्रत्येक्सदि्के्समि्रखिाएगी्।
-अध्याय् 7 प्र
-कीणड
-19. सद्भािपूिडक्की्गई्कारडिाई्के्धलए्संरिण — इस्अधिधियम्या्उसके्अिीि्बिाए्गए्धियमों्या्धिधियमों्के्
-अिीि्सद्भािपूिडक्की ् गई्या्की्जािे्के्धलए्आशधयत्दकसी्बात्के्धलए्कोई्िी्िाद,्अधियोजि्या्अन्य्धिधिक्कायडिािी,्
-केन्रीय्सरकार्या्बोर्ड्या्बोर्ड्के्दकसी्सदस्य्या्केन्रीय्सरकार्या्बोर्ड्के्दकसी्अधिकारी्या्अन्य्कमडिारी्अथ िा्केन्री य्
-सरकार्या्बोर्ड्द्वारा्प्राधिकृत्दकसी्अन्य् व्य ध् त ् के्धिरुद्ध्ििीं्िोगी ्।
-20. ् बोर्ड्के्अधिकाररयों्और्कमडिाररयों्का्लोक्सेिक्िोिा — बोर्ड्के्सिी्अधिकाररयों्और्कमडिाररयों्के्बारे्में,्
-जब्िे्इस्अधिधियम्या्उसके्तद्धीि्बिाए्गए्दकसी्धियम्या्धिधियम्के्उपबंिों्के्अिुसरण्में्कोई्कायड्कर्रिे्िैं्या्उि का्
-का यड् करिा् तात्पर्यडत् िै,् यि् समझा् जाएगा् दक् िे् िारतीय् दंर्् संधिता ् ( 1860 का 45 ) ् की् िारा् 21 ् के् अथड् के् िीतर् लोक् ्््् ् ् ् ् ्
-सेिक्िैं्।्
-21. ् धियम्बिािे्की्श ध् त — ( 1 ) केन्रीय्सरकार,्इस्अधिधियम्के्प्रयोजिों्को्कायाडधन्ित्करिे्के्धलए्धियम,्राजपत्र्
-में्अधिसूििा्द्वा रा,्बिा्सकेगी्।
-( 2 )् धिधश ष्‍ट् ट तया् और् पूिडगामी् श ध् त ् की्व्य ापकता् पर्प्र धतकूल्प्र िाि्र् ाले् धबिा,् ऐसे् धियम् धिम्् ि धलधखत ् सिी् या्
-दकन्िीं्धिषयों्के्धलए्उपबंि्कर्सकेंगे,्अथाडत्: —
-( क ) िारा 3 ् की्उपिारा्( 5 )्के्अिीि्बोर्ड्के्सदस्यों्की्पदािधि्और्सेिा्की्अन्य्शतें;
-( ख ) िारा 3 ् की्उपिारा्( 7 )्के्अिीि्अध्यि्की्श ध् त यां्और्कतड व्य;`)
-  (str footnotes) (str )
-  (str sourcePage) (int 9)
+  kind page
+  sectionId pdf-page-9
+  sectionNo (9)
+  orderNo 9
+  title `Page 9`
+  content obj_root_law_translations_hi_sections_9_content
+  footnotes obj_root_law_translations_hi_sections_9_footnotes
+  sourcePage 9
+obj_root_law_translations_hi_sections_9_content:
+  string
+  line 7
+  line `( 4 )्केन्रीय्सरकार,्उपिारा्( 1 )्के्अिीि्अधिसूििा्जारी्कराएगी्और्इस्िारा्के्अिीि्की्गई्दकसी्कारडिाई्की्`
+  line `और्उि्पररधस्थधतयों्की्धजिके्कारण्ऐसी्कारडिाई्की्गई,्पूरी्ररपोटड,्यथाशीघ्र,्संसद््के्प्रत्येक्सदि्के्समि्रखी ् जाएगी्।`
+  line `अध्याय् 6`
+  line धिि,्लेखा्और्लेखापरीिा
+  line `14. ् केन्रीय्सरकार्द्वारा्अिुदाि्और्उिार — ( 1 )्केन्रीय्सरकार,्संसद््द्वारा्इस्धिधमि्धिधि्द्वारा्सम्यक््धिधियोग्`
+  line `दकए् जािे् के् प श्् िा त्,् बोर्ड् को,् अिु दािों् और् उिारों् के्रू प् में् उतिी् ििराधश् का् संदाय् कर् सकेगी,् धजतिी् िि् सरकार् ्् ् ्`
+  line आिश्यक्समझे्।
+  line `( 2 )्जूट्बोर्ड्धिधि्के्िाम्से्ज्ञात्िोिे्िाली्एक्धिधि्गरठत्की्जाएगी्और्उसमें् धिम्् ि धलधखत ् जमा्दकए्जाएंगे: —`
+  line `( क ) केन्रीय्सरकार्द्वारा्बोर्ड्को्ददए्गए्कोई्अिुदाि्और्उिार;`
+  line `( ख ) ऐसे्अन्य् स्र ो तों्से,्जो्केन्रीय्सरकार्द्वारा्धिधि धश्् ि त्दकए्जाएं,्बोर्ड्को्प्रा प्् त ् सिी्ििराधशयां्।`
+  line `( 3 )्धिधि्का्उपयोजि् धिम्् ि धलधखत ् के्धलए्दकया्जाएगा —`
+  line `( क ) बोर्ड्के्सदस्यों,्अधिकाररयों्और्अन्य्कमडिाररयों्के्िेति,्ििों्और्अन्य्पाररश्रधमक्की्पूर्तड;`
+  line `( ख ) अपिे्कृत्यों ् का्धििडिि्करिे्में्बोर्ड्के्व्ययों्की्पूर्तड; ् और`
+  line `( ग ) इस्अधिधियम्द्वारा्प्राधिकृत्उद्देश्यों्और्प्रयोजिों्से्संबंधित्व्ययों्की्पूर्तड्।`
+  line `15. बजट — बोर्ड,्ऐसे्प्ररूप्में्और्प्रत्येक्धििीय्िषड्के्दौराि,्ऐसे्समय्पर,्जो्धिधित्दकया्जाए,्आगामी्धििीय्`
+  line `िषड् के् धल ए् अपिा् बजट् तैयार् करेगा,् धजसमें् बोर्ड् की् प्र ा् क धलत ् प्र ा धप्् त यां् और्व्य य् दर्शडत् िोंगे् और् उसे् के न् रीय् सरकार् को ् ्््`
+  line िेजेगा्।
+  line `16. ् िार्षडक् ररपोटड — बोर्ड ् ऐसे्प्ररू प् में् और्प्रत् येक् धििीय् िषड,् ऐसे् समय् पर,् जो् धिधित् दकया् जाए,् अपिी् िार्षडक्`
+  line `ररपोटड्तैयार्करेगा,् धजसमें्पूिडिती्िषड्के्दौराि्उसके्दक्रयाकलापों्का्पूरा्धििरण्ददया्जाएगा्और्उसकी्एक्प्रधत ् केन्री य्`
+  line सरकार्को्िेजेगा्।
+  line `17. ् लेखा् और् लेखापरीिा — बोर्ड् के् लेखे् ऐसी् रीधत् में ् रखे् और् संपरीधित् दकए ् जाएंगे,् जो् िारत् के्््््््््््््््््`
+  line `धियंत्रक - मिालेखापरीिक् के् प रामशड् से् धिधित् की् जाए् और् बोर्ड,् ऐसी् तारीख् से् पूिड,् जो् धिधित् की् जाए,् अपिे ् लेखाओं् की्`
+  line संपरीधित्प्रधत,्उस्पर्लेखापरीिक्की्ररपोटड्के्साथ,्केन्रीय्सरकार्को्देगा्।
+  line `18. ् िार्षडक्और्लेखापरीिक्की्ररपोटड्का्संसद््के्समि्रखा्जािा — केन्रीय्सरकार,्िार्षडक् ररपोटड्और्लेखापरीिक्`
+  line `की्ररपोटड्को,्उिकी्प्रा धप्् त ् के्प श्् िा त्,्यथाशीघ्र,्संसद््के्प्रत्येक्सदि्के्समि्रखिाएगी्।`
+  line `अध्याय् 7 प्र`
+  line कीणड
+  line `19. सद्भािपूिडक्की्गई्कारडिाई्के्धलए्संरिण — इस्अधिधियम्या्उसके्अिीि्बिाए्गए्धियमों्या्धिधियमों्के्`
+  line `अिीि्सद्भािपूिडक्की ् गई्या्की्जािे्के्धलए्आशधयत्दकसी्बात्के्धलए्कोई्िी्िाद,्अधियोजि्या्अन्य्धिधिक्कायडिािी,्`
+  line `केन्रीय्सरकार्या्बोर्ड्या्बोर्ड्के्दकसी्सदस्य्या्केन्रीय्सरकार्या्बोर्ड्के्दकसी्अधिकारी्या्अन्य्कमडिारी्अथ िा्केन्री य्`
+  line `सरकार्या्बोर्ड्द्वारा्प्राधिकृत्दकसी्अन्य् व्य ध् त ् के्धिरुद्ध्ििीं्िोगी ्।`
+  line `20. ् बोर्ड्के्अधिकाररयों्और्कमडिाररयों्का्लोक्सेिक्िोिा — बोर्ड्के्सिी्अधिकाररयों्और्कमडिाररयों्के्बारे्में,्`
+  line `जब्िे्इस्अधिधियम्या्उसके्तद्धीि्बिाए्गए्दकसी्धियम्या्धिधियम्के्उपबंिों्के्अिुसरण्में्कोई्कायड्कर्रिे्िैं्या्उि का्`
+  line `का यड् करिा् तात्पर्यडत् िै,् यि् समझा् जाएगा् दक् िे् िारतीय् दंर्् संधिता ् ( 1860 का 45 ) ् की् िारा् 21 ् के् अथड् के् िीतर् लोक् ्््् ् ् ् ् ्`
+  line सेिक्िैं्।्
+  line `21. ् धियम्बिािे्की्श ध् त — ( 1 ) केन्रीय्सरकार,्इस्अधिधियम्के्प्रयोजिों्को्कायाडधन्ित्करिे्के्धलए्धियम,्राजपत्र्`
+  line `में्अधिसूििा्द्वा रा,्बिा्सकेगी्।`
+  line `( 2 )् धिधश ष्‍ट् ट तया् और् पूिडगामी् श ध् त ् की्व्य ापकता् पर्प्र धतकूल्प्र िाि्र् ाले् धबिा,् ऐसे् धियम् धिम्् ि धलधखत ् सिी् या्`
+  line `दकन्िीं्धिषयों्के्धलए्उपबंि्कर्सकेंगे,्अथाडत्: —`
+  line `( क ) िारा 3 ् की्उपिारा्( 5 )्के्अिीि्बोर्ड्के्सदस्यों्की्पदािधि्और्सेिा्की्अन्य्शतें;`
+  line `( ख ) िारा 3 ् की्उपिारा्( 7 )्के्अिीि्अध्यि्की्श ध् त यां्और्कतड व्य;`
+obj_root_law_translations_hi_sections_9_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_10:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-10)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Page 10`)
-  (str content) (str `8
-( ग ) िारा 3 ् की्उपिारा्( 8 )्के्अिीि्उपाध्यि्की्श ध् त यां्और्कतड व्य;
-( घ ) िि्प्ररूप्धजसमें्और्िि्समय्धजस्पर्बोर्ड,्िारा 15 ् के्अिीि्अपिा्बजट्तैयार्करेगा;
-( ङ ) िि्प्ररूप,्धजसमें्और्िि्समय्धजस्पर्बोर्ड,्िारा् 16 ् के्अ िीि्अपिी्िार्षडक्ररपोटड्तैयार्करेगा;
-( ि ) िि्रीधत,्धजसमें्बोर्ड्के्लेखे्रखे्जाएंगे्और्संपरीधित्दकए्जाएंगे्तथा्िि्तारीख,्धजसके्पूिड्िा रा् 17 ्
-के्अिीि्लेखाओं्की्संपरीधित्प्रधत्केन्रीय्सरकार्को्िेजी्जा्सकेगी;
-( छ ) कोई्अन्य्धिषय,्जो्धियमों्द्वारा्धिधित्दकया्जािा्िै ् या्धिधित्दकया्जाए्या्धजसके्बारे्में्उपबंि्
-दकया्जािा्िै्या्उपबंि्दकया्जाए्।
-22. ् धिधियम्बिािे्की्श ध् त — ( 1 )्बोर्ड,्केन्रीय्सरकार्के्पूिड्अिुमोदि्से,्सािारणतया्इस्अधिधियम्के्प्रयोजिों्
-को् कायाडधन्ित् करिे् के् धलए,् इस् अधिधियम् के् उपबंिों् और् धियमों् से् संगत,् धि धियम् राजपत्र् में् अधिसूििा्द्व ारा,् बिा् ््् ् ् ् ्
-सकेगा्।
-( 2 )्धिधश ष्‍ट् ट तया्और्पूिडगामी्श ध् त ् की्व्यापकता्पर्प्रधतकूल्प्रिाि्र्ाले्धबिा,्ऐसे्धिधियम् धिम्् ि धलधखत ् सिी्या्
-दकन्िीं्धिषयों्के्धलए्उपबंि्कर्सकेंगे,्अथाडत्: —
-( क ) िि्रीधत,्धजसमें्िारा् 3 ् की्उपिारा्( 9 )्के्अिीि् बोर्ड्के्कारबार्का्संिालि्दकया्जाएगा; ् और्
-( ख ) िारा् 4 ् के्अिीि्बोर्ड्के्सधिि्और्अन्य्अधिकाररयों्तथा्कमडिाररयों्की्सेिा्के्धिबंिि्और्शतें्।
-23. धियमों्और्धिधियमों्का्संसद््के्समि्रखा्जािा — इस्अधिधियम्के्अिीि्बिाया्गया्प्रत्येक्धियम्और्प्रत्येक्
-धिधियम,्बिाए्जा िे्के्प श्् िा त्,्यथाशीघ्र,्संसद््के्प्रत्येक्सदि्के्समि,्जब्िि्सत्र्में्िो,्कुल्तीस्ददि्की्अि धि्के्धलए् र खा्
-जाएगा्।्यि्अिधि्एक्सत्र्में्अथिा्दो्या्अधिक्आिुक्रधमक्सत्रों्में्पूरी्िो्सकेगी्।्यदद्उस्सत्र्के्या्पूिो ् त ् आिुक्रधमक ्
-सत्रों्के्ठीक्बाद्के्सत्र्के ् अिसाि्के्पूिड्दोिों्सदि,्उस्धियम्या्धिधियम्में्कोई्पररितडि्करिे्के्धलए् सिमत्िो्जा एं्तो्
-तत्प श्् िा त्् िि्ऐसे् पररिर्तडत्रू प्में् िी्प्र िािी् िोगा्।्यदद् उ ् त ् अिसाि् के्पूिड् दोिों् सदि् सिमत् िो् जाएं् दक् िि ् धियम् या्
-धिधियम् ििीं् बिाया् जािा् िाधिए् तो् तत्प श्् िा त्् िि् धि ष्‍टप्र िािी् िो् जाएगा्।् ककंतु् धियम् या् धिधियम् के् ऐसे् पररिर्तडत् या ्
-धिष्‍टप्रिािी ् िोिे्से्उसके्अिीि्पिले्की्गई्दकसी्बात्की्धिधिमान्यता्पर्प्रधतकूल्प्रिाि्ििीं्पडेगा्। ्
-24. करठिाइयों्को्दूर्करिे्की्श ध् त — ( 1 )् यदद्इस्अधिधियम्के्उपबंिों्को्प्रिािी्करिे्में्कोई्करठिा ई्उत्प न्् ि ्
-िोती्िै्तो्केन्रीय्सरकार,्राजपत्र्में्प्रकाधशत्आदेश्द्वारा,्ऐसे्उपबंि्कर्सकेगी्जो्इस्अधिधियम्के्उपबंिों्से्असं गत्ि्िों ्
-और्जो्करठिाई्को्दूर्करिे्के्धलए्आिश्यक्प्रतीत्िों:
-परंतु् इस् िारा् के् अिीि् ऐसा् कोई् आदेश,् इस् अधिधियम् के्प्र ारंि् से् दो् िषड् की् अ िधि् के् अिसाि् के् प श्् िा त्् ििीं् ््
-दकया्जाएगा्।
-( 2 )्उपिारा्( 1 )्के्अिीि्दकया्गया्प्रत्येक्आदेश,्उसके्दकए्जािे्के्प श्् िा त्,्यथाशीघ्र,्संसद््के्प्रत्येक् स दि्के्समि ्
-रखा्जाएगा्।
-25. ् 1983 ् के्अधिधियम्संखयांक 28 ् का्संशोिि — जूट्धिधिर्मडधत्उपकर्अधिधियम,् 1983 ् में, —
-( क) ् िारा् 3 ् में, —
-( i )्उपिारा्( 1 )्में् “ जूट्धिधिर्मडधत्धिकास्पररषद््अधिधियम,् 1983” ् शब्दों्और्अंकों्के्स्थाि्पर ्
-“ राष्‍ट् री य ् जूट्बोर्ड्अधिधियम,् 2008” शब्द्और्अंक्रखे्जाएंगे;
-( ii )्उपिारा्( 2 )्में,् “ और्िमक ” ् शब्दों्का्लोप्दकया्जाएगा;
-( iii ) उपिारा्( 4 )्में,् “ और्िमक ” ् श ब् दों्का्लोप्दकया्जाएगा;
-(ख)्िारा् 4 ् में,् “ (ऐसे्आगमों्में्से्ऐसे्संग्रिण्खिड्को्काटकर,्जो्ऐसे्आगमों्के्िार्प्रधतशत्से्अधिक ् ििीं्
-िोगा)्समय - समय्पर,्ऐसी् ि िराधशयां,्जो्िि्उधित्समझे,्जूट्धिधिर्मडधत्धिकास्पररषद््को्जूट्धिधिर्मडधत्धिकास्
-पररषद््अधिधियम,् 1983 ( 1983 ् का 27 )्के्प्रयोजिों्के्धलए्उपयोग्दकए्जािे्के्धलए्संदि्कर्सकेगी ” ् शब्दों्और्
-अंकों्के्स्थाि्पर् “ ऐसे्आगमों्में्से्(ऐसे्संग्रिण्खिड्को्काटकर,्जो्ऐसे्आगमों्के्िार्प्रधतशत्से्अधिक्ििीं ् िोगा)्
-समय - समय्पर,्ऐसी्ििरा धशयां,्जो्िि्उधित्समझे,् राष्‍ट् री य ् जूट्बोर्ड्को् राष्‍ट् री य ् जूट्बोर्ड्अधिधियम,् 200 8 ् ( 2009
-का् 12 ) के्प्रयोजिों्के्धलए्उपयोग्दकए्जािे्के्धलए्संदि्कर्सकेगी ” शब्द्और्अंक्रखे्जाएंगे्।
-26. ् धिरसि् और्व्य ािृ धि — ( 1 ) ् जूट् धिधिर्मडधत् धिकास् पररषद्् अधिधियम,् 1983 ( 1983 ् का 27 )् धियत् ददि् से् िी्
-धिरधसत्िो्जाएगा्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 10)
+  kind page
+  sectionId pdf-page-10
+  sectionNo (10)
+  orderNo 10
+  title `Page 10`
+  content obj_root_law_translations_hi_sections_10_content
+  footnotes obj_root_law_translations_hi_sections_10_footnotes
+  sourcePage 10
+obj_root_law_translations_hi_sections_10_content:
+  string
+  line 8
+  line `( ग ) िारा 3 ् की्उपिारा्( 8 )्के्अिीि्उपाध्यि्की्श ध् त यां्और्कतड व्य;`
+  line `( घ ) िि्प्ररूप्धजसमें्और्िि्समय्धजस्पर्बोर्ड,्िारा 15 ् के्अिीि्अपिा्बजट्तैयार्करेगा;`
+  line `( ङ ) िि्प्ररूप,्धजसमें्और्िि्समय्धजस्पर्बोर्ड,्िारा् 16 ् के्अ िीि्अपिी्िार्षडक्ररपोटड्तैयार्करेगा;`
+  line `( ि ) िि्रीधत,्धजसमें्बोर्ड्के्लेखे्रखे्जाएंगे्और्संपरीधित्दकए्जाएंगे्तथा्िि्तारीख,्धजसके्पूिड्िा रा् 17 ्`
+  line के्अिीि्लेखाओं्की्संपरीधित्प्रधत्केन्रीय्सरकार्को्िेजी्जा्सकेगी;
+  line `( छ ) कोई्अन्य्धिषय,्जो्धियमों्द्वारा्धिधित्दकया्जािा्िै ् या्धिधित्दकया्जाए्या्धजसके्बारे्में्उपबंि्`
+  line दकया्जािा्िै्या्उपबंि्दकया्जाए्।
+  line `22. ् धिधियम्बिािे्की्श ध् त — ( 1 )्बोर्ड,्केन्रीय्सरकार्के्पूिड्अिुमोदि्से,्सािारणतया्इस्अधिधियम्के्प्रयोजिों्`
+  line `को् कायाडधन्ित् करिे् के् धलए,् इस् अधिधियम् के् उपबंिों् और् धियमों् से् संगत,् धि धियम् राजपत्र् में् अधिसूििा्द्व ारा,् बिा् ््् ् ् ् ्`
+  line सकेगा्।
+  line `( 2 )्धिधश ष्‍ट् ट तया्और्पूिडगामी्श ध् त ् की्व्यापकता्पर्प्रधतकूल्प्रिाि्र्ाले्धबिा,्ऐसे्धिधियम् धिम्् ि धलधखत ् सिी्या्`
+  line `दकन्िीं्धिषयों्के्धलए्उपबंि्कर्सकेंगे,्अथाडत्: —`
+  line `( क ) िि्रीधत,्धजसमें्िारा् 3 ् की्उपिारा्( 9 )्के्अिीि् बोर्ड्के्कारबार्का्संिालि्दकया्जाएगा; ् और्`
+  line `( ख ) िारा् 4 ् के्अिीि्बोर्ड्के्सधिि्और्अन्य्अधिकाररयों्तथा्कमडिाररयों्की्सेिा्के्धिबंिि्और्शतें्।`
+  line `23. धियमों्और्धिधियमों्का्संसद््के्समि्रखा्जािा — इस्अधिधियम्के्अिीि्बिाया्गया्प्रत्येक्धियम्और्प्रत्येक्`
+  line `धिधियम,्बिाए्जा िे्के्प श्् िा त्,्यथाशीघ्र,्संसद््के्प्रत्येक्सदि्के्समि,्जब्िि्सत्र्में्िो,्कुल्तीस्ददि्की्अि धि्के्धलए् र खा्`
+  line `जाएगा्।्यि्अिधि्एक्सत्र्में्अथिा्दो्या्अधिक्आिुक्रधमक्सत्रों्में्पूरी्िो्सकेगी्।्यदद्उस्सत्र्के्या्पूिो ् त ् आिुक्रधमक ्`
+  line `सत्रों्के्ठीक्बाद्के्सत्र्के ् अिसाि्के्पूिड्दोिों्सदि,्उस्धियम्या्धिधियम्में्कोई्पररितडि्करिे्के्धलए् सिमत्िो्जा एं्तो्`
+  line `तत्प श्् िा त्् िि्ऐसे् पररिर्तडत्रू प्में् िी्प्र िािी् िोगा्।्यदद् उ ् त ् अिसाि् के्पूिड् दोिों् सदि् सिमत् िो् जाएं् दक् िि ् धियम् या्`
+  line `धिधियम् ििीं् बिाया् जािा् िाधिए् तो् तत्प श्् िा त्् िि् धि ष्‍टप्र िािी् िो् जाएगा्।् ककंतु् धियम् या् धिधियम् के् ऐसे् पररिर्तडत् या ्`
+  line `धिष्‍टप्रिािी ् िोिे्से्उसके्अिीि्पिले्की्गई्दकसी्बात्की्धिधिमान्यता्पर्प्रधतकूल्प्रिाि्ििीं्पडेगा्। ्`
+  line `24. करठिाइयों्को्दूर्करिे्की्श ध् त — ( 1 )् यदद्इस्अधिधियम्के्उपबंिों्को्प्रिािी्करिे्में्कोई्करठिा ई्उत्प न्् ि ्`
+  line `िोती्िै्तो्केन्रीय्सरकार,्राजपत्र्में्प्रकाधशत्आदेश्द्वारा,्ऐसे्उपबंि्कर्सकेगी्जो्इस्अधिधियम्के्उपबंिों्से्असं गत्ि्िों ्`
+  line `और्जो्करठिाई्को्दूर्करिे्के्धलए्आिश्यक्प्रतीत्िों:`
+  line `परंतु् इस् िारा् के् अिीि् ऐसा् कोई् आदेश,् इस् अधिधियम् के्प्र ारंि् से् दो् िषड् की् अ िधि् के् अिसाि् के् प श्् िा त्् ििीं् ््`
+  line दकया्जाएगा्।
+  line `( 2 )्उपिारा्( 1 )्के्अिीि्दकया्गया्प्रत्येक्आदेश,्उसके्दकए्जािे्के्प श्् िा त्,्यथाशीघ्र,्संसद््के्प्रत्येक् स दि्के्समि ्`
+  line रखा्जाएगा्।
+  line `25. ् 1983 ् के्अधिधियम्संखयांक 28 ् का्संशोिि — जूट्धिधिर्मडधत्उपकर्अधिधियम,् 1983 ् में, —`
+  line `( क) ् िारा् 3 ् में, —`
+  line `( i )्उपिारा्( 1 )्में् “ जूट्धिधिर्मडधत्धिकास्पररषद््अधिधियम,् 1983” ् शब्दों्और्अंकों्के्स्थाि्पर ्`
+  line `“ राष्‍ट् री य ् जूट्बोर्ड्अधिधियम,् 2008” शब्द्और्अंक्रखे्जाएंगे;`
+  line `( ii )्उपिारा्( 2 )्में,् “ और्िमक ” ् शब्दों्का्लोप्दकया्जाएगा;`
+  line `( iii ) उपिारा्( 4 )्में,् “ और्िमक ” ् श ब् दों्का्लोप्दकया्जाएगा;`
+  line `(ख)्िारा् 4 ् में,् “ (ऐसे्आगमों्में्से्ऐसे्संग्रिण्खिड्को्काटकर,्जो्ऐसे्आगमों्के्िार्प्रधतशत्से्अधिक ् ििीं्`
+  line `िोगा)्समय - समय्पर,्ऐसी् ि िराधशयां,्जो्िि्उधित्समझे,्जूट्धिधिर्मडधत्धिकास्पररषद््को्जूट्धिधिर्मडधत्धिकास्`
+  line `पररषद््अधिधियम,् 1983 ( 1983 ् का 27 )्के्प्रयोजिों्के्धलए्उपयोग्दकए्जािे्के्धलए्संदि्कर्सकेगी ” ् शब्दों्और्`
+  line `अंकों्के्स्थाि्पर् “ ऐसे्आगमों्में्से्(ऐसे्संग्रिण्खिड्को्काटकर,्जो्ऐसे्आगमों्के्िार्प्रधतशत्से्अधिक्ििीं ् िोगा)्`
+  line `समय - समय्पर,्ऐसी्ििरा धशयां,्जो्िि्उधित्समझे,् राष्‍ट् री य ् जूट्बोर्ड्को् राष्‍ट् री य ् जूट्बोर्ड्अधिधियम,् 200 8 ् ( 2009`
+  line `का् 12 ) के्प्रयोजिों्के्धलए्उपयोग्दकए्जािे्के्धलए्संदि्कर्सकेगी ” शब्द्और्अंक्रखे्जाएंगे्।`
+  line `26. ् धिरसि् और्व्य ािृ धि — ( 1 ) ् जूट् धिधिर्मडधत् धिकास् पररषद्् अधिधियम,् 1983 ( 1983 ् का 27 )् धियत् ददि् से् िी्`
+  line धिरधसत्िो्जाएगा्।
+obj_root_law_translations_hi_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_11:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-11)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Page 11`)
-  (str content) (str `9
-( 2 )्ऐसे ् धिरसि्के्िोते्हुए्िी,्इस्प्रकार्धिरधसत्अधिधियम्के्अिीि्की्गई्या्की्जािे्के्धलए्तात्पर्यडत्दकसी्बात्
-या्कारडिाई् के,् जिां्तक्िि्इस् अधिधियम्के्उपबंिों्से् असंगत्ििीं्िै,् बारे्में्यि्समझा्जाएगा्दक्िि्इस् अधिधियम्के्
-तत्स्थािी्उपबंिों्के्अिीि्की्गई्िै्।
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 11)
+  kind page
+  sectionId pdf-page-11
+  sectionNo (11)
+  orderNo 11
+  title `Page 11`
+  content obj_root_law_translations_hi_sections_11_content
+  footnotes obj_root_law_translations_hi_sections_11_footnotes
+  sourcePage 11
+obj_root_law_translations_hi_sections_11_content:
+  string
+  line 9
+  line `( 2 )्ऐसे ् धिरसि्के्िोते्हुए्िी,्इस्प्रकार्धिरधसत्अधिधियम्के्अिीि्की्गई्या्की्जािे्के्धलए्तात्पर्यडत्दकसी्बात्`
+  line `या्कारडिाई् के,् जिां्तक्िि्इस् अधिधियम्के्उपबंिों्से् असंगत्ििीं्िै,् बारे्में्यि्समझा्जाएगा्दक्िि्इस् अधिधियम्के्`
+  line तत्स्थािी्उपबंिों्के्अिीि्की्गई्िै्।
+  line ______
+obj_root_law_translations_hi_sections_11_footnotes:
+  string
+  line

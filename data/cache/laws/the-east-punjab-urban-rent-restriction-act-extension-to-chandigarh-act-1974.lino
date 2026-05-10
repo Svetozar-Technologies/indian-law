@@ -1,107 +1,119 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T10:22:41.063Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1610`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-09T10:22:41.063Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1610`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-east-punjab-urban-rent-restriction-act-extension-to-chandigarh-act-1974)
-  (str handle) (str 1610)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The East Punjab Urban Rent Restriction Act (Extension to Chandigarh) Act, 1974`)
-  (str actNumber) (str 54)
-  (str enactmentDate) (str 1974-12-20)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1610`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (undefined)
-  (str actYear) (str 1974)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `An Act to extend the East Punjab Urban Rent Restriction Act, 1949, to the Union territory of Chandigarh.`)
-  (str enforcementDate) (str 20-12-1974)
-  (str notification) (undefined)
+  slug the-east-punjab-urban-rent-restriction-act-extension-to-chandigarh-act-1974
+  handle (1610)
+  collectionHandle 123456789/1362
+  title `The East Punjab Urban Rent Restriction Act (Extension to Chandigarh) Act, 1974`
+  actNumber (54)
+  enactmentDate 1974-12-20
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1610`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle undefined
+  actYear (1974)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `An Act to extend the East Punjab Urban Rent Restriction Act, 1949, to the Union territory of Chandigarh.`
+  enforcementDate 20-12-1974
+  notification undefined
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_east_punjab_urban_rent_restriction_act_extension_to_chandigarh_act_1974
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1610`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1610`
 obj_root_law_sources_en_the_east_punjab_urban_rent_restriction_act_extension_to_chandigarh_act_1974:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1610/2/A1974-54.pdf`)
-  (str title) (str `The East Punjab Urban Rent Restriction Act (Extension to Chandigarh) Act, 1974`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1610/2/A1974-54.pdf`
+  title `The East Punjab Urban Rent Restriction Act (Extension to Chandigarh) Act, 1974`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
   obj_root_law_sections_4
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 40355)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title.`)
-  (str content) (str `This Act may be called the East Punjab Urban Rent Restriction Act (Extension to
-Chandigarh) Act, 1974.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_18_21_00004_197454_1517807320333&sectionId=40355&sectionno=1&orderno=1&orgactid=AC_CEN_18_21_00004_197454_1517807320333)
+  sectionId (40355)
+  sectionNo (1)
+  orderNo 1
+  title `Short title.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_18_21_00004_197454_1517807320333&sectionId=40355&sectionno=1&orderno=1&orgactid=AC_CEN_18_21_00004_197454_1517807320333
+obj_root_law_sections_1_content:
+  string
+  line `This Act may be called the East Punjab Urban Rent Restriction Act (Extension to`
+  line `Chandigarh) Act, 1974.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 40356)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definition.)
-  (str content) (str `In this Act, "the Act" means the East Punjab Urban Rent Restriction Act, 1949 (East
-Punjab Act III of 1949) as it extended to, and was in force in, certain areas in the pre-reorganisation State
-of Punjab (being areas which were administered by municipal committees, cantonment boards, town
-committees or notified area committees or areas notified as urban areas for the purposes of that Act)
-immediately before the 1st day of November, 1966.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_18_21_00004_197454_1517807320333&sectionId=40356&sectionno=2&orderno=2&orgactid=AC_CEN_18_21_00004_197454_1517807320333)
+  sectionId (40356)
+  sectionNo (2)
+  orderNo 2
+  title Definition.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_18_21_00004_197454_1517807320333&sectionId=40356&sectionno=2&orderno=2&orgactid=AC_CEN_18_21_00004_197454_1517807320333
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, "the Act" means the East Punjab Urban Rent Restriction Act, 1949 (East`
+  line `Punjab Act III of 1949) as it extended to, and was in force in, certain areas in the pre-reorganisation State`
+  line `of Punjab (being areas which were administered by municipal committees, cantonment boards, town`
+  line `committees or notified area committees or areas notified as urban areas for the purposes of that Act)`
+  line `immediately before the 1st day of November, 1966.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 40357)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Extension of East Punjab Act III of 1949 to Chandigarh.`)
-  (str content) (str `Notwithstanding anything contained
-in any judgment, decree or order of any court, the Act shall, subject to the modifications specified
-in the Schedule, be in force in, and be deemed to have been in force with effect from the 4th day of
-November, 1972 in, the Union territory of Chandigarh as if the provisions of the Act as so modified had
-been included in and formed part of this section and as if this section had been in force at all material
-times.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_18_21_00004_197454_1517807320333&sectionId=40357&sectionno=3&orderno=3&orgactid=AC_CEN_18_21_00004_197454_1517807320333)
+  sectionId (40357)
+  sectionNo (3)
+  orderNo 3
+  title `Extension of East Punjab Act III of 1949 to Chandigarh.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_18_21_00004_197454_1517807320333&sectionId=40357&sectionno=3&orderno=3&orgactid=AC_CEN_18_21_00004_197454_1517807320333
+obj_root_law_sections_3_content:
+  string
+  line `Notwithstanding anything contained`
+  line `in any judgment, decree or order of any court, the Act shall, subject to the modifications specified`
+  line `in the Schedule, be in force in, and be deemed to have been in force with effect from the 4th day of`
+  line `November, 1972 in, the Union territory of Chandigarh as if the provisions of the Act as so modified had`
+  line `been included in and formed part of this section and as if this section had been in force at all material`
+  line times.
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 40358)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Validation and saving.`)
-  (str content) (str `(1) Notwithstanding anything contained in any judgment, decree or order
-of any court, anything done or any action taken (including any notification or direction issued or rents
-fixed or permission granted or order made) or purported to have been done or taken under the Act shall be
-deemed to be as valid and effective as if the provisions of this Act had been in force at all material times
-when such thing was done or such action was taken.
-
-(2) Nothing in this Act shall render any person guilty of any offence for any contravention of the
-provisions of the Act which occurred before the commencement of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_18_21_00004_197454_1517807320333&sectionId=40358&sectionno=4&orderno=4&orgactid=AC_CEN_18_21_00004_197454_1517807320333)
+  sectionId (40358)
+  sectionNo (4)
+  orderNo 4
+  title `Validation and saving.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_18_21_00004_197454_1517807320333&sectionId=40358&sectionno=4&orderno=4&orgactid=AC_CEN_18_21_00004_197454_1517807320333
+obj_root_law_sections_4_content:
+  string
+  line `(1) Notwithstanding anything contained in any judgment, decree or order`
+  line `of any court, anything done or any action taken (including any notification or direction issued or rents`
+  line `fixed or permission granted or order made) or purported to have been done or taken under the Act shall be`
+  line `deemed to be as valid and effective as if the provisions of this Act had been in force at all material times`
+  line `when such thing was done or such action was taken.`
+  line
+  line `(2) Nothing in this Act shall render any person guilty of any offence for any contravention of the`
+  line `provisions of the Act which occurred before the commencement of this Act.`
+obj_root_law_sections_4_footnotes:
+  string
+  line

@@ -1,65 +1,55 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T09:47:06.464Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1669`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 11)
-  (str totalSections) (int 11)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T09:47:06.464Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1669`
+  completeFetch true
+  maxSections null
+  sectionCount 11
+  totalSections 11
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-lok-sahayak-sena-act-1956)
-  (str handle) (str 1669)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Lok Sahayak Sena Act, 1956`)
-  (str actNumber) (str 53)
-  (str enactmentDate) (str 1956-09-15)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1669`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `लोक सहायक सेना अधिनियम,1956`)
-  (str actYear) (str 1956)
-  (str ministry) (str `Ministry of Defence`)
-  (str department) (str `Department of Military Affairs`)
-  (str longTitle) (str `An Act to provide for the constitution of Lok Sahayak Sena for imparting military training to citizens of India.`)
-  (str enforcementDate) (str 15-09-1956)
-  (str fetchedAt) (str `2026-05-08T21:37:07.247Z`)
-  (str translations) obj_root_law_translations
+  slug the-lok-sahayak-sena-act-1956
+  handle (1669)
+  collectionHandle 123456789/1362
+  title `The Lok Sahayak Sena Act, 1956`
+  actNumber (53)
+  enactmentDate 1956-09-15
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1669`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `लोक सहायक सेना अधिनियम,1956`
+  actYear (1956)
+  ministry `Ministry of Defence`
+  department `Department of Military Affairs`
+  longTitle `An Act to provide for the constitution of Lok Sahayak Sena for imparting military training to citizens of India.`
+  enforcementDate 15-09-1956
+  fetchedAt `2026-05-08T21:37:07.247Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_lok_sahayak_sena_act_1956
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1669`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1669`
 obj_root_law_sources_en_the_lok_sahayak_sena_act_1956:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1669/3/a1956-53.pdf`)
-  (str title) (str `The Lok Sahayak Sena Act, 1956`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1669/3/a1956-53.pdf`
+  title `The Lok Sahayak Sena Act, 1956`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1956
 obj_root_law_sources_hi_1956:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1669/5/H1956-53.pdf`)
-  (str title) (str `लोक सहायक सेना अधिनियम,1956`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1669/5/H1956-53.pdf`
+  title `लोक सहायक सेना अधिनियम,1956`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -72,334 +62,398 @@ obj_root_law_sections:
   obj_root_law_sections_10
   obj_root_law_sections_11
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 47426)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the Lok Sahayak Sena Act, 1956.
-
-(2) It extends to the whole of India.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47426&sectionno=1&orderno=1&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47426)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47426&sectionno=1&orderno=1&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Lok Sahayak Sena Act, 1956.`
+  line
+  line `(2) It extends to the whole of India.`
+obj_root_law_sections_1_footnotes:
+  string
+  line
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 47427)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,--
-
-(a) "camp" means any place established under section 4 as a camp where any body of volunteers
-is for the time being undergoing training;
-
-(b) "Force" means the Lok Sahayak Sena constituted under this Act;
-
-(c) "prescribed" means prescribed by rules made under this Act;
-
-(d) "superior officer" means any officer, junior commissioned officer, warrant officer or
-non-commissioned officer of the regular Army or of the Territorial Army;
-
-(e) "volunteer" means a person enrolled in the Force under this Act;
-
-(f) all words and expressions used in this Act and not defined but defined in the Army
-Act, 1950 (46 of 1950), or in the Territorial Army Act, 1948 (56 of 1948), shall have the meanings
-respectively assigned to them in the said Acts.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47427&sectionno=2&orderno=2&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47427)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47427&sectionno=2&orderno=2&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,--`
+  line
+  line `(a) "camp" means any place established under section 4 as a camp where any body of volunteers`
+  line `is for the time being undergoing training;`
+  line
+  line `(b) "Force" means the Lok Sahayak Sena constituted under this Act;`
+  line
+  line `(c) "prescribed" means prescribed by rules made under this Act;`
+  line
+  line `(d) "superior officer" means any officer, junior commissioned officer, warrant officer or`
+  line `non-commissioned officer of the regular Army or of the Territorial Army;`
+  line
+  line `(e) "volunteer" means a person enrolled in the Force under this Act;`
+  line
+  line `(f) all words and expressions used in this Act and not defined but defined in the Army`
+  line `Act, 1950 (46 of 1950), or in the Territorial Army Act, 1948 (56 of 1948), shall have the meanings`
+  line `respectively assigned to them in the said Acts.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 47428)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Constitution of the Lok Sahayak Sena.`)
-  (str content) (str `There shall be raised and maintained by the Central
-Government a force to be designated the Lok Sahayak Sena by the enrolment of volunteers in the manner
-hereinafter provided.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47428&sectionno=3&orderno=3&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47428)
+  sectionNo (3)
+  orderNo 3
+  title `Constitution of the Lok Sahayak Sena.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47428&sectionno=3&orderno=3&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_3_content:
+  string
+  line `There shall be raised and maintained by the Central`
+  line `Government a force to be designated the Lok Sahayak Sena by the enrolment of volunteers in the manner`
+  line `hereinafter provided.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 47429)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Establishment of camps.`)
-  (str content) (str `The Central Government may establish such number of camps for the
-purposes of the Force as it thinks fit and may close down or re-establish any such camps.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47429&sectionno=4&orderno=4&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47429)
+  sectionNo (4)
+  orderNo 4
+  title `Establishment of camps.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47429&sectionno=4&orderno=4&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_4_content:
+  string
+  line `The Central Government may establish such number of camps for the`
+  line `purposes of the Force as it thinks fit and may close down or re-establish any such camps.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 47430)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str Enrolment.)
-  (str content) (str `Any citizen of India not below the age of eighteen years and not above the age of
-forty years may offer himself for enrolment as a volunteer and may, if he satisfies the prescribed
-conditions, be enrolled in the prescribed manner by the prescribed authority for such period and subject to
-such conditions as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47430&sectionno=5&orderno=5&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47430)
+  sectionNo (5)
+  orderNo 5
+  title Enrolment.
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47430&sectionno=5&orderno=5&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_5_content:
+  string
+  line `Any citizen of India not below the age of eighteen years and not above the age of`
+  line `forty years may offer himself for enrolment as a volunteer and may, if he satisfies the prescribed`
+  line `conditions, be enrolled in the prescribed manner by the prescribed authority for such period and subject to`
+  line `such conditions as may be prescribed.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 47431)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Duties of volunteers.`)
-  (str content) (str `No person shall, on the ground only of being a volunteer be liable for
-military service, but subject thereto a volunteer may be called upon to undergo such training as may be
-prescribed, and while undergoing such training shall perform such duties and discharge such obligations
-as the prescribed authority may, by general or special order, direct.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47431&sectionno=6&orderno=6&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47431)
+  sectionNo (6)
+  orderNo 6
+  title `Duties of volunteers.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47431&sectionno=6&orderno=6&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_6_content:
+  string
+  line `No person shall, on the ground only of being a volunteer be liable for`
+  line `military service, but subject thereto a volunteer may be called upon to undergo such training as may be`
+  line `prescribed, and while undergoing such training shall perform such duties and discharge such obligations`
+  line `as the prescribed authority may, by general or special order, direct.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 47432)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str Discharge.)
-  (str content) (str `Every volunteer shall be entitled to receive his discharge from the Force on the
-expiration of the period for which he was enrolled, but may, prior to the expiration of that period, be
-discharged from the Force by such authority and subject to such conditions as may be prescribed.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47432&sectionno=7&orderno=7&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47432)
+  sectionNo (7)
+  orderNo 7
+  title Discharge.
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47432&sectionno=7&orderno=7&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_7_content:
+  string
+  line `Every volunteer shall be entitled to receive his discharge from the Force on the`
+  line `expiration of the period for which he was enrolled, but may, prior to the expiration of that period, be`
+  line `discharged from the Force by such authority and subject to such conditions as may be prescribed.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 47433)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Offences and penalties.`)
-  (str content) (str `(1) If any volunteer commits any of the following offences, that is
-to say,--
-
-(i) without sufficient cause fails to attend at any place when duly required to do so; or
-
-(ii) while in camp on duty--
-
-(a) absents himself from the camp without leave;
-
-(b) uses criminal force or uses threatening or insubordinate language to a superior officer or
-assaults a superior officer;
-
-(c) disobeys any lawful command of a superior officer;
-
-(d) neglects to obey any standing, general or other orders by the officer commanding the
-camp;
-
-(e) uses criminal force to, or assaults, any volunteer or any person subject to the Army
-Act, 1950 (46 of 1950), or the Territorial Army Act, 1948 (56 of 1948);
-
-(f) knowingly does any act which is prejudicial to the maintenance of good order or military
-discipline in camp;
-
-he shall be punishable summarily by order of the prescribed authority with fine which may extend to fifty
-rupees or, in default, by being confined to barracks for a term which may extend to seven days.
-
-(2) Any fine imposed by order of the prescribed authority under sub-section (1), may on application
-made in this behalf by the prescribed authority to a magistrate having jurisdiction in the place where the
-volunteer resides or has a place of business, be recovered in accordance with the provisions of the Code
-of Criminal Procedure, 1898 (5 of 1898), as if it were a fine imposed by such magistrate.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47433&sectionno=8&orderno=8&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47433)
+  sectionNo (8)
+  orderNo 8
+  title `Offences and penalties.`
+  content obj_root_law_sections_8_content
+  footnotes obj_root_law_sections_8_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47433&sectionno=8&orderno=8&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_8_content:
+  string
+  line `(1) If any volunteer commits any of the following offences, that is`
+  line `to say,--`
+  line
+  line `(i) without sufficient cause fails to attend at any place when duly required to do so; or`
+  line
+  line `(ii) while in camp on duty--`
+  line
+  line `(a) absents himself from the camp without leave;`
+  line
+  line `(b) uses criminal force or uses threatening or insubordinate language to a superior officer or`
+  line `assaults a superior officer;`
+  line
+  line `(c) disobeys any lawful command of a superior officer;`
+  line
+  line `(d) neglects to obey any standing, general or other orders by the officer commanding the`
+  line camp;
+  line
+  line `(e) uses criminal force to, or assaults, any volunteer or any person subject to the Army`
+  line `Act, 1950 (46 of 1950), or the Territorial Army Act, 1948 (56 of 1948);`
+  line
+  line `(f) knowingly does any act which is prejudicial to the maintenance of good order or military`
+  line `discipline in camp;`
+  line
+  line `he shall be punishable summarily by order of the prescribed authority with fine which may extend to fifty`
+  line `rupees or, in default, by being confined to barracks for a term which may extend to seven days.`
+  line
+  line `(2) Any fine imposed by order of the prescribed authority under sub-section (1), may on application`
+  line `made in this behalf by the prescribed authority to a magistrate having jurisdiction in the place where the`
+  line `volunteer resides or has a place of business, be recovered in accordance with the provisions of the Code`
+  line `of Criminal Procedure, 1898 (5 of 1898), as if it were a fine imposed by such magistrate.`
+obj_root_law_sections_8_footnotes:
+  string
+  line
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 47434)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Liability for causing loss of, or damage to, Government property.`)
-  (str content) (str `If any volunteer wilfully or
-negligently causes loss of, or damage to, any property of the Government, the prescribed authority may,
-after giving him an opportunity of being heard and after making such inquiry into the matter as it thinks
-fit, make an order requiring him to make good the loss or damage within such time as may be specified in
-the order within such further time as may be allowed by the prescribed authority in this behalf, and where
-the amount thereof as determined by the prescribed authority is not paid within the time allowed, it shall,
-on application made by the prescribed authority to the Collector of the district in which the volunteer
-resides or has a place of business, be recovered from him in the same manner as an arrear of land
-revenue.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47434&sectionno=9&orderno=9&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47434)
+  sectionNo (9)
+  orderNo 9
+  title `Liability for causing loss of, or damage to, Government property.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47434&sectionno=9&orderno=9&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_9_content:
+  string
+  line `If any volunteer wilfully or`
+  line `negligently causes loss of, or damage to, any property of the Government, the prescribed authority may,`
+  line `after giving him an opportunity of being heard and after making such inquiry into the matter as it thinks`
+  line `fit, make an order requiring him to make good the loss or damage within such time as may be specified in`
+  line `the order within such further time as may be allowed by the prescribed authority in this behalf, and where`
+  line `the amount thereof as determined by the prescribed authority is not paid within the time allowed, it shall,`
+  line `on application made by the prescribed authority to the Collector of the district in which the volunteer`
+  line `resides or has a place of business, be recovered from him in the same manner as an arrear of land`
+  line revenue.
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 47435)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Presumption as to certain documents.`)
-  (str content) (str `Where a volunteer is required by or in pursuance of any
-rule made under this Act to attend at any place, a certificate purporting to be signed by the prescribed
-officer, stating that the volunteer so required to attend failed to do so in accordance with such requirement
-shall, without proof of the signature or appointment of such officer, be evidence of the matters stated
-therein.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47435&sectionno=10&orderno=10&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47435)
+  sectionNo (10)
+  orderNo 10
+  title `Presumption as to certain documents.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47435&sectionno=10&orderno=10&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_10_content:
+  string
+  line `Where a volunteer is required by or in pursuance of any`
+  line `rule made under this Act to attend at any place, a certificate purporting to be signed by the prescribed`
+  line `officer, stating that the volunteer so required to attend failed to do so in accordance with such requirement`
+  line `shall, without proof of the signature or appointment of such officer, be evidence of the matters stated`
+  line therein.
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 47436)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 11)
-  (str title) (str `Power to make rules.`)
-  (str content) (str `(1) The Central Government may, by notification in the Official Gazette,
-make rules to carry out the purposes of this Act.
-
-(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
-provide for all or any of the following matters, namely:--
-
-(a) the authorities by which, the manner in which, the period for which, and the conditions
-subject to which, any person may be enrolled as a volunteer;
-
-(b) the training, discipline, duties, and obligations which a volunteer has to undergo, observe,
-perform or discharge under this Act;
-
-(c) the authorities by which, and the conditions subject to which, a volunteer may be discharged;
-
-(d) the manner in which, and the conditions subject to which, a volunteer may be called out for
-training or duties;
-
-(e) the determination of authorities for the purposes of this Act;
-
-(f) the officers by whom certificates may be signed under section 10; and
-
-(g) any other matter which under this Act is to be or may be prescribed.
-
-^1[(3) Every rule made under this section shall be laid, as soon as may be after it is made, before each
-House of Parliament, while it is in session, for a total period of thirty days which may be comprised in
-one session or in two or more successive sessions, and if, before the expiry of the session immediately
-following the session or the successive sessions aforesaid, both Houses agree in making any modification
-in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only
-in such modified form or be of no effect, as the case may be; so, however, that any such modification or
-annulment shall be without prejudice to the validity of anything previously done under that rule.]`)
-  (str footnotes) (str `1. Subs. by Act 4 of 1986, s. 2 and the Schedule, for sub-section (3) (w.e.f. 15-5-1986).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47436&sectionno=11&orderno=11&orgactid=AC_CEN_28_38_00008_195653_1517807321824)
+  sectionId (47436)
+  sectionNo (11)
+  orderNo 11
+  title `Power to make rules.`
+  content obj_root_law_sections_11_content
+  footnotes `1. Subs. by Act 4 of 1986, s. 2 and the Schedule, for sub-section (3) (w.e.f. 15-5-1986).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_28_38_00008_195653_1517807321824&sectionId=47436&sectionno=11&orderno=11&orgactid=AC_CEN_28_38_00008_195653_1517807321824
+obj_root_law_sections_11_content:
+  string
+  line `(1) The Central Government may, by notification in the Official Gazette,`
+  line `make rules to carry out the purposes of this Act.`
+  line
+  line `(2) In particular, and without prejudice to the generality of the foregoing power, such rules may`
+  line `provide for all or any of the following matters, namely:--`
+  line
+  line `(a) the authorities by which, the manner in which, the period for which, and the conditions`
+  line `subject to which, any person may be enrolled as a volunteer;`
+  line
+  line `(b) the training, discipline, duties, and obligations which a volunteer has to undergo, observe,`
+  line `perform or discharge under this Act;`
+  line
+  line `(c) the authorities by which, and the conditions subject to which, a volunteer may be discharged;`
+  line
+  line `(d) the manner in which, and the conditions subject to which, a volunteer may be called out for`
+  line `training or duties;`
+  line
+  line `(e) the determination of authorities for the purposes of this Act;`
+  line
+  line `(f) the officers by whom certificates may be signed under section 10; and`
+  line
+  line `(g) any other matter which under this Act is to be or may be prescribed.`
+  line
+  line `^1[(3) Every rule made under this section shall be laid, as soon as may be after it is made, before each`
+  line `House of Parliament, while it is in session, for a total period of thirty days which may be comprised in`
+  line `one session or in two or more successive sessions, and if, before the expiry of the session immediately`
+  line `following the session or the successive sessions aforesaid, both Houses agree in making any modification`
+  line `in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only`
+  line `in such modified form or be of no effect, as the case may be; so, however, that any such modification or`
+  line `annulment shall be without prejudice to the validity of anything previously done under that rule.]`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `लोक सहायक सेना अधिनियम,1956`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1669/5/H1956-53.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T09:47:05.362Z`)
-  (str pageCount) (int 3)
-  (str sections) obj_root_law_translations_hi_sections
+  title `लोक सहायक सेना अधिनियम,1956`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1669/5/H1956-53.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T09:47:05.362Z`
+  pageCount 3
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `लोक सहायक सेना अधिधनयम, 1956
-( 1956 का अधि धनयम संखयां क 53 ) 1
-[15 धसतम्ब र, 1956 ]
-भारत के नागररकों को सैधनक प्र धिक्षण देने के धलए लोक सहायक
-सेना के गठन का उपबन् ि करने हेतु
-अधिधनयम
-भारत गणराज्य के सातवें वर्ष में संसद् द्व ारा धनम्न धलधित रू प में यह अधिधनयधम त हो: —
-1. संधक्षप्त नाम और धवस्ता र — ( 1 ) इस अधिधनयम का संधक्षप्त नाम लोक सहायक सेना अधिधनयम, 1956 है।
-( 2 ) इसका धवस्ता र सम्पू णष भारत पर है।
-2. पररभार्ाएं — इस अधिधनयम में, जब तक कक संदभष से अन्य था अपेधक्षत न हो, —
-(क) “ धिधवर ” से िारा 4 के अिीन धिधवर के रू प में स् था धपत ऐसा स् था न अधभप्रेत है जहां तत्स मय स् व यंसेवकों का
-कोई समूह प्र धिक्षण ले रहा है;
-(ि) “ बल ” से इस अधिधनयम के अिीन गरठत लोक सहायक सेना अधभप्रेत है;
-(ग) “ धवधहत ” से इस अधिधनयम के अिीन बनाए गए धनयमों द्व ारा धवधहत अधभप्रेत है;
-(घ) “ वररष्ठ आकिसर ” से धनयधमत सेना या प्र ादेधिक सेना का कोई आकिसर, जू धनयर कमीिंड आकिसर (कधनष्ठ
-आयुक्त आकिसर), वारण्ट आकिसर या नान - कमीिंड आकिसर (अनायुक्त आकिसर) अधभप्रेत है;
-( ङ ) “ स् व यंसेवक ” से इस अधिधनयम के अिीन बल में भती ककया गया व् य धक् त अधभप्रेत है;
-(च) ऐसे िब्दों और पदों के, जो इस अधिधनयम में प्र युक्त हैं और पररभाधर्त नहीं हैं ककन्तु सेना अधिधनयम, 1950
-( 1950 का 46 ) या प्र ादेधिक सेना अधिधनयम, 1948 ( 1948 का 56 ) में पररभाधर्त हैं, वे ही अथष होंगे जो उक्त अधिधनयमों में
-हैं।
-3. लोक सहायक सेना का गठन — कें द्र ीय सरकार, इसमें इसके पश्चा त् उपबंधित रीधत से स् व यंसेवकों की भती करके एक बल
-का, धजसका नाम लोक सहायक सेना होगा, गठन करेगी तथा उसे बनाए रिेगी।
-4. धिधवरों की स् था पना — केंद्रीय सरकार बल के प्र योजनाथष उतने धिधवर स् था धपत कर सकेगी धजतने वह उधचत समझे और
-ऐसे ककन्हीं धिधवरों को वह बंद कर सकेगी या पुन: स् था धपत कर सकेगी।
-5. भती — भारत का कोई नागररक जो अ ट् ठ रह वर्ष से नीचे और चालीस वर्ष से ऊपर की आयु का नहीं है, स् व यंसेवक के रू प
-में भती (अभ्या वेधित) होने के धलए अपने को प्रस् तु त कर सकेगा और यकद वह धवधह त ितें पूरी कर देता है तो धवधहत प्र ाधिकारी द्व ारा
-उसे ऐसी अवधि के धलए और ऐसी ितों पर, जो धवधहत की जाएं, धवधहत रीधत से भती ककया जा सकेगा।
-6. स् व यंसेवकों के कतषव्य — केवल स् व यंसेवक होने के आिार पर ही कोई व् य धक् त सैधनक सेवा करने के दाधयत्वा िीन नहीं होगा,
-ककंतु उसके अिीन रहते हु ए ककसी स् व यंसेवक से यह अपेक्षा की जा सकेगी कक वह ऐसा प्र धिक्षण ले जो धवधहत ककया जाए, और ऐसा प्र
-धिक्षण लेते समय वह ऐसे कतषव्यों का पालन और बाध्य ताओं का धनवषहन करेगा, धजन्हें धवधहत प्र ाधिकारी, सामान्य या धविेर् आदेि द्व
-ारा, धनकदष् ट करे।
-7. उन्मो चन — प्रत् ये क स् व यंसेवक उस अवधि की समाधप्त पर, धजसके धलए भती ककया गया था, बल से अपने को उन्मो धचत
-कराने का हकदार होग, ककन्तु उस अवधि के अवसान के पूवष उसे ऐसे प्र ाधिकारी द्व ारा और ऐसी ितों पर, जो धवधहत की जाएं, बल से
-उन्मो धचत ककया जा सकेगा।
-8. अपराि और िाधस्त यां — ( 1 ) यकद कोई स् व यंसेवक धनम्न धलधित अपरािों में से कोई अपराि करेगा, अथाषत्: —
-( i ) ककसी स् था न पर हाधजर होने की सम्य क् रू प से अपेक्षा की जाने पर धबना पयाषप्त कारण के गैरहाधजर
-रहेगा; अथवा
-( ii ) धि धवर में ड्यू टी पर रहते हु ए —
-(क) छुट्टी के धबना धिधवर से अनुपधस्थ त रहेगा;
-1 यह अधिधनयम पांधडचेरी में 1 - 10 - 1963 से प्र वृत्त हु आ। देधिए 1963 के धवधनयम सं ० 7 की िारा 8 और अनुसूची 1.`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `लोक सहायक सेना अधिधनयम, 1956`
+  line `( 1956 का अधि धनयम संखयां क 53 ) 1`
+  line `[15 धसतम्ब र, 1956 ]`
+  line `भारत के नागररकों को सैधनक प्र धिक्षण देने के धलए लोक सहायक`
+  line `सेना के गठन का उपबन् ि करने हेतु`
+  line अधिधनयम
+  line `भारत गणराज्य के सातवें वर्ष में संसद् द्व ारा धनम्न धलधित रू प में यह अधिधनयधम त हो: —`
+  line `1. संधक्षप्त नाम और धवस्ता र — ( 1 ) इस अधिधनयम का संधक्षप्त नाम लोक सहायक सेना अधिधनयम, 1956 है।`
+  line `( 2 ) इसका धवस्ता र सम्पू णष भारत पर है।`
+  line `2. पररभार्ाएं — इस अधिधनयम में, जब तक कक संदभष से अन्य था अपेधक्षत न हो, —`
+  line `(क) “ धिधवर ” से िारा 4 के अिीन धिधवर के रू प में स् था धपत ऐसा स् था न अधभप्रेत है जहां तत्स मय स् व यंसेवकों का`
+  line `कोई समूह प्र धिक्षण ले रहा है;`
+  line `(ि) “ बल ” से इस अधिधनयम के अिीन गरठत लोक सहायक सेना अधभप्रेत है;`
+  line `(ग) “ धवधहत ” से इस अधिधनयम के अिीन बनाए गए धनयमों द्व ारा धवधहत अधभप्रेत है;`
+  line `(घ) “ वररष्ठ आकिसर ” से धनयधमत सेना या प्र ादेधिक सेना का कोई आकिसर, जू धनयर कमीिंड आकिसर (कधनष्ठ`
+  line `आयुक्त आकिसर), वारण्ट आकिसर या नान - कमीिंड आकिसर (अनायुक्त आकिसर) अधभप्रेत है;`
+  line `( ङ ) “ स् व यंसेवक ” से इस अधिधनयम के अिीन बल में भती ककया गया व् य धक् त अधभप्रेत है;`
+  line `(च) ऐसे िब्दों और पदों के, जो इस अधिधनयम में प्र युक्त हैं और पररभाधर्त नहीं हैं ककन्तु सेना अधिधनयम, 1950`
+  line `( 1950 का 46 ) या प्र ादेधिक सेना अधिधनयम, 1948 ( 1948 का 56 ) में पररभाधर्त हैं, वे ही अथष होंगे जो उक्त अधिधनयमों में`
+  line हैं।
+  line `3. लोक सहायक सेना का गठन — कें द्र ीय सरकार, इसमें इसके पश्चा त् उपबंधित रीधत से स् व यंसेवकों की भती करके एक बल`
+  line `का, धजसका नाम लोक सहायक सेना होगा, गठन करेगी तथा उसे बनाए रिेगी।`
+  line `4. धिधवरों की स् था पना — केंद्रीय सरकार बल के प्र योजनाथष उतने धिधवर स् था धपत कर सकेगी धजतने वह उधचत समझे और`
+  line `ऐसे ककन्हीं धिधवरों को वह बंद कर सकेगी या पुन: स् था धपत कर सकेगी।`
+  line `5. भती — भारत का कोई नागररक जो अ ट् ठ रह वर्ष से नीचे और चालीस वर्ष से ऊपर की आयु का नहीं है, स् व यंसेवक के रू प`
+  line `में भती (अभ्या वेधित) होने के धलए अपने को प्रस् तु त कर सकेगा और यकद वह धवधह त ितें पूरी कर देता है तो धवधहत प्र ाधिकारी द्व ारा`
+  line `उसे ऐसी अवधि के धलए और ऐसी ितों पर, जो धवधहत की जाएं, धवधहत रीधत से भती ककया जा सकेगा।`
+  line `6. स् व यंसेवकों के कतषव्य — केवल स् व यंसेवक होने के आिार पर ही कोई व् य धक् त सैधनक सेवा करने के दाधयत्वा िीन नहीं होगा,`
+  line `ककंतु उसके अिीन रहते हु ए ककसी स् व यंसेवक से यह अपेक्षा की जा सकेगी कक वह ऐसा प्र धिक्षण ले जो धवधहत ककया जाए, और ऐसा प्र`
+  line `धिक्षण लेते समय वह ऐसे कतषव्यों का पालन और बाध्य ताओं का धनवषहन करेगा, धजन्हें धवधहत प्र ाधिकारी, सामान्य या धविेर् आदेि द्व`
+  line `ारा, धनकदष् ट करे।`
+  line `7. उन्मो चन — प्रत् ये क स् व यंसेवक उस अवधि की समाधप्त पर, धजसके धलए भती ककया गया था, बल से अपने को उन्मो धचत`
+  line `कराने का हकदार होग, ककन्तु उस अवधि के अवसान के पूवष उसे ऐसे प्र ाधिकारी द्व ारा और ऐसी ितों पर, जो धवधहत की जाएं, बल से`
+  line `उन्मो धचत ककया जा सकेगा।`
+  line `8. अपराि और िाधस्त यां — ( 1 ) यकद कोई स् व यंसेवक धनम्न धलधित अपरािों में से कोई अपराि करेगा, अथाषत्: —`
+  line `( i ) ककसी स् था न पर हाधजर होने की सम्य क् रू प से अपेक्षा की जाने पर धबना पयाषप्त कारण के गैरहाधजर`
+  line `रहेगा; अथवा`
+  line `( ii ) धि धवर में ड्यू टी पर रहते हु ए —`
+  line `(क) छुट्टी के धबना धिधवर से अनुपधस्थ त रहेगा;`
+  line `1 यह अधिधनयम पांधडचेरी में 1 - 10 - 1963 से प्र वृत्त हु आ। देधिए 1963 के धवधनयम सं ० 7 की िारा 8 और अनुसूची 1.`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-(ि) ककसी वररष्ठ आकिसर के प्र धत आपराधिक बल का प्र योग करेगा या िमकी भरी या अवज्ञापूणष भार्ा
-का प्र योग करेगा या ककसी वररष्ठ आकिसर पर हमला करेगा;
-(ग) ककसी वररष्ठ आकिसर के धवधिपूणष समादेि की अवज्ञा करेगा;
-(घ) धिधवर के कमान आकिसर द्व ारा कदए गए ककन्हीं स् था यी, सामान्य या अन्य आदेिों की उपेक्षा
-करेगा;
-( ङ ) ककसी स् व यंसेवक या व् य धक् त पर, जो सेना अधिधनयम, 1950 ( 1950 का 46 ) या प्र ादेधिक सेना
-अधिधनयम, 1948 ( 1948 का 56 ) के अिीन है, आपराधिक बल प्र योग करेगा या हमला करेगा;
-(च) जानते हु ए ऐसा कायष करेगा जो धिधवर में सुव्य वस्था और सैधनक अनुिासन बनाए रिने पर प्र
-धतकूल प्र भाव डालता है,
-तो वह धवधहत प्र ाधिकारी के आदेि से जुमाषने से, जो पचास रु पए तक का हो सकेगा, और जुमाषना न देने पर, ऐसी अवधि के धलए, जो
-सात कदन तक की हो सकेगी, बैररकों में परररुद्ध ककया जा कर, संधक्षप्त प्र किया से दण्ड नीय होगा।
-( 2 ) उपिारा ( 1 ) के अिीन धवधहत प्र ाधिकारी के आदेि से अधिरोधपत कोई जुमाषना ऐसे स् था न में, जहां स् व यंसेवक धनवास
-करता है या उसके कारबार का रठकाना है, अधिकाररता वाले मधजस्रे ट को, धवधहत प्र ाधिकारी द्व ारा इस धनधमत्त ककए गए आवेदन पर,
-दण्ड प्र किया संधहता, 1898 ( 1898 का 5 ) के उपबंिों के अनुसार इस प्र कार वसूल ककया जा सकेगा मानो वह जुमाषना उस मधज स् रे ट द्व ारा
-ही अधिरोधपत ककया गया हो।
-9. सरकारी संपधत्त की हाधन या नुकसान काररत करने के धलए दाधयत्व — यकद कोई स् व यंसेवक जानबूझकर या उपेक्षापूवषक
-सरकार की संपधत्त की हाधन करता है या सरकारी संपधत्त को नुकसान पहुंचाता है तो धवधहत प्र ाधिकारी, उसे सुनवाई का एक अवसर
-देने तथा मामले में ऐसी जांच करने के पश्चा त् जो वह उधचत समझता है, आदेि दे सकेगा धजसमें उससे यह अपेक्षा कर सकेगा कक वह
-ऐसे समय के भीतर जो आदेि में धवधनर्दषष्ट ककया गया हो या ऐसे अधतररक्त समय के भीतर, जो धवधहत प्र ाधिकारी द्व ारा इस धनधमत्त
-अनुज्ञा त ककया जाए, हाधन या नुकसान की पूर्तष करे, और जहां धवधहत प्र ाधिकारी द्व ारा अविाररत राधि अनुज्ञात समय के भीतर नहीं दे
-दी जाती वहां उस धजले के कलक्ट र को, धजसमें स् व यंसेवक धनवास करता है या धजसमें उसके कारबार का रठकाना है, धवधहत प्र ाधिकारी द्व
-ारा कदए गए आवे दन पर, वह राधि उससे उसी रीधत से वसूल की जाएगी धजस रीधत से भू - राजस्व की बकाया वसूल की जाती है।
-10. कधतपय दस्तो वजों के बारे में उपिारणा — जहां इस अधिधनयम द्व ारा या उसके अिीन बनाए गए ककसी धनयम के अनुसार
-ककसी स् व यंसेवक से यह अपेधक्षत है कक वह ककसी स् था न में हाधजर हो, वहां ऐसा प्र माणप त्र, धजसके बारे में यह तात्प र् यषत है कक धवधहत
-आकिसर ने उस पर यह कथन करते हु ए हस्ता क्ष र ककए हैं कक धजस स् व यंसेवक से इस प्र कार हाधजर होने की अपेक्षा की गई थी वह उस
-अपेक्षा के अनुसार हाधजर नहीं हु आ, ऐसे आकिसर के हस्ता क्ष र या उस की धनयुधक्त के सबूत के धबना, उसमें कधथत बातों का साक्ष्य
-होगा।
-11. धनयम बनाने की िधक्त — ( 1 ) केन् द्री य सरकार, इस अधिधनयम के प्र योजनों को कायाषधन्व त करने के धलए धनयम, राजपत्र
-में अधिसूचना द्व ारा, बना सकेगी।
-( 2 ) धवधिष्ट तया और पूवषगामी ि धक् त की व् या पकता पर प्र धतकूल प्र भाव डाले धबना, ऐसे धनयम धनम्न धलधित सभी या ककन्हीं
-बातों के बारे में उपबंि कर सकेंगे, अथाषत्: —
-(क) वे प्र ाधिकारी धजनके द्व ारा, वह रीधत, धजससे, वह अवधि, धजसके धलए और वे ितें, धजन पर ककसी व् य धक् त को स्
-व यंसेवक के रू प में भती ककया जा सकेगा;
-(ि) इस अधिधनयम के अिीन ककसी स् व यंसेवक द्व ारा धलया जाने वाला प्र धिक्षण, अनुपालन ककया जाने वाला
-अनुिासन, पालन ककए जाने वाले कतषव्य या धनवषहन की जाने वाली बाध्य ताएं;
-(ग) वे प्र ाधिकारी, धजनके द्व ारा और वे ितें, धजन पर ककसी स् व यंसेवक को उन्मो धचत ककया जा सकेगा;
-(घ) वह रीधत, धजससे और वे ितें, धजन पर ककसी स् व यंसेवक को प्र धिक्षण या कतषव्य पालन के धलए बुलाया जा
-सकेगा;
-( ङ ) इस अधिधनयम के प्र योजनों के धलए प्र ाधिकाररयों का अव िारण;
-(च) वे आकिसर, धजनके द्व ारा िारा 10 के अिीन प्र माणपत्र हस्ता क्ष ररत ककए जा सकेंगे; और
-(छ) कोई अन्य धवर्य जो इस अधिधनयम के अिीन धवधहत ककया जाना है या धवधहत ककया जा सकता है।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `(ि) ककसी वररष्ठ आकिसर के प्र धत आपराधिक बल का प्र योग करेगा या िमकी भरी या अवज्ञापूणष भार्ा`
+  line `का प्र योग करेगा या ककसी वररष्ठ आकिसर पर हमला करेगा;`
+  line `(ग) ककसी वररष्ठ आकिसर के धवधिपूणष समादेि की अवज्ञा करेगा;`
+  line `(घ) धिधवर के कमान आकिसर द्व ारा कदए गए ककन्हीं स् था यी, सामान्य या अन्य आदेिों की उपेक्षा`
+  line करेगा;
+  line `( ङ ) ककसी स् व यंसेवक या व् य धक् त पर, जो सेना अधिधनयम, 1950 ( 1950 का 46 ) या प्र ादेधिक सेना`
+  line `अधिधनयम, 1948 ( 1948 का 56 ) के अिीन है, आपराधिक बल प्र योग करेगा या हमला करेगा;`
+  line `(च) जानते हु ए ऐसा कायष करेगा जो धिधवर में सुव्य वस्था और सैधनक अनुिासन बनाए रिने पर प्र`
+  line `धतकूल प्र भाव डालता है,`
+  line `तो वह धवधहत प्र ाधिकारी के आदेि से जुमाषने से, जो पचास रु पए तक का हो सकेगा, और जुमाषना न देने पर, ऐसी अवधि के धलए, जो`
+  line `सात कदन तक की हो सकेगी, बैररकों में परररुद्ध ककया जा कर, संधक्षप्त प्र किया से दण्ड नीय होगा।`
+  line `( 2 ) उपिारा ( 1 ) के अिीन धवधहत प्र ाधिकारी के आदेि से अधिरोधपत कोई जुमाषना ऐसे स् था न में, जहां स् व यंसेवक धनवास`
+  line `करता है या उसके कारबार का रठकाना है, अधिकाररता वाले मधजस्रे ट को, धवधहत प्र ाधिकारी द्व ारा इस धनधमत्त ककए गए आवेदन पर,`
+  line `दण्ड प्र किया संधहता, 1898 ( 1898 का 5 ) के उपबंिों के अनुसार इस प्र कार वसूल ककया जा सकेगा मानो वह जुमाषना उस मधज स् रे ट द्व ारा`
+  line `ही अधिरोधपत ककया गया हो।`
+  line `9. सरकारी संपधत्त की हाधन या नुकसान काररत करने के धलए दाधयत्व — यकद कोई स् व यंसेवक जानबूझकर या उपेक्षापूवषक`
+  line `सरकार की संपधत्त की हाधन करता है या सरकारी संपधत्त को नुकसान पहुंचाता है तो धवधहत प्र ाधिकारी, उसे सुनवाई का एक अवसर`
+  line `देने तथा मामले में ऐसी जांच करने के पश्चा त् जो वह उधचत समझता है, आदेि दे सकेगा धजसमें उससे यह अपेक्षा कर सकेगा कक वह`
+  line `ऐसे समय के भीतर जो आदेि में धवधनर्दषष्ट ककया गया हो या ऐसे अधतररक्त समय के भीतर, जो धवधहत प्र ाधिकारी द्व ारा इस धनधमत्त`
+  line `अनुज्ञा त ककया जाए, हाधन या नुकसान की पूर्तष करे, और जहां धवधहत प्र ाधिकारी द्व ारा अविाररत राधि अनुज्ञात समय के भीतर नहीं दे`
+  line `दी जाती वहां उस धजले के कलक्ट र को, धजसमें स् व यंसेवक धनवास करता है या धजसमें उसके कारबार का रठकाना है, धवधहत प्र ाधिकारी द्व`
+  line `ारा कदए गए आवे दन पर, वह राधि उससे उसी रीधत से वसूल की जाएगी धजस रीधत से भू - राजस्व की बकाया वसूल की जाती है।`
+  line `10. कधतपय दस्तो वजों के बारे में उपिारणा — जहां इस अधिधनयम द्व ारा या उसके अिीन बनाए गए ककसी धनयम के अनुसार`
+  line `ककसी स् व यंसेवक से यह अपेधक्षत है कक वह ककसी स् था न में हाधजर हो, वहां ऐसा प्र माणप त्र, धजसके बारे में यह तात्प र् यषत है कक धवधहत`
+  line `आकिसर ने उस पर यह कथन करते हु ए हस्ता क्ष र ककए हैं कक धजस स् व यंसेवक से इस प्र कार हाधजर होने की अपेक्षा की गई थी वह उस`
+  line `अपेक्षा के अनुसार हाधजर नहीं हु आ, ऐसे आकिसर के हस्ता क्ष र या उस की धनयुधक्त के सबूत के धबना, उसमें कधथत बातों का साक्ष्य`
+  line होगा।
+  line `11. धनयम बनाने की िधक्त — ( 1 ) केन् द्री य सरकार, इस अधिधनयम के प्र योजनों को कायाषधन्व त करने के धलए धनयम, राजपत्र`
+  line `में अधिसूचना द्व ारा, बना सकेगी।`
+  line `( 2 ) धवधिष्ट तया और पूवषगामी ि धक् त की व् या पकता पर प्र धतकूल प्र भाव डाले धबना, ऐसे धनयम धनम्न धलधित सभी या ककन्हीं`
+  line `बातों के बारे में उपबंि कर सकेंगे, अथाषत्: —`
+  line `(क) वे प्र ाधिकारी धजनके द्व ारा, वह रीधत, धजससे, वह अवधि, धजसके धलए और वे ितें, धजन पर ककसी व् य धक् त को स्`
+  line `व यंसेवक के रू प में भती ककया जा सकेगा;`
+  line `(ि) इस अधिधनयम के अिीन ककसी स् व यंसेवक द्व ारा धलया जाने वाला प्र धिक्षण, अनुपालन ककया जाने वाला`
+  line `अनुिासन, पालन ककए जाने वाले कतषव्य या धनवषहन की जाने वाली बाध्य ताएं;`
+  line `(ग) वे प्र ाधिकारी, धजनके द्व ारा और वे ितें, धजन पर ककसी स् व यंसेवक को उन्मो धचत ककया जा सकेगा;`
+  line `(घ) वह रीधत, धजससे और वे ितें, धजन पर ककसी स् व यंसेवक को प्र धिक्षण या कतषव्य पालन के धलए बुलाया जा`
+  line सकेगा;
+  line `( ङ ) इस अधिधनयम के प्र योजनों के धलए प्र ाधिकाररयों का अव िारण;`
+  line `(च) वे आकिसर, धजनके द्व ारा िारा 10 के अिीन प्र माणपत्र हस्ता क्ष ररत ककए जा सकेंगे; और`
+  line `(छ) कोई अन्य धवर्य जो इस अधिधनयम के अिीन धवधहत ककया जाना है या धवधहत ककया जा सकता है।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-1 [ ( 3 ) इस िारा के अिीन बनाया गया प्रत् ये क धनयम, बनाए जाने के पश्चा त् यथािीघ्र, संसद् के प्रत् ये क सदन के समक्ष, जब
-वह सत्र में हो, कुल तीस कदन की अवधि के रिा जाएगा। यह अवधि एक सत्र में अथवा दो या अधिक आनुिधमक सत्रों में पूरी हो
-सकेगी। यकद उस सत्र के या पूवोक्त आनुिधमक सत्रों के ठीक बाद के सत्र के अवसान के पूवष दोनों सदन उस धनयम में कोई पररवतषन
-करने के धलए सहमत जो जाएं तो तत्प श् चा त् वह ऐसे पररवर्तषत रू प में ही प्र भावी होगा। यकद उक्त अवसान के पूवष दोनों सदन सहमत
-हो जाए कक वह धनयम नहीं बनाया जाना चाधहए तो तत्प श् चा त् वह धनष् प्र भाव हो जाएगा। ककंतु धनयम के ऐसे पररवर्तषत या धनष् प्र भाव
-होने से उसके अिीन पहले की गई कक सी बात की धवधिमान्य ता पर प्र धतकूल प्र भाव नहीं पडेगा। ]
-______
-1 1986 के अधिधनयम सं ० 4 की िारा 2 और अनुसूची द्व ारा ( 15 - 5 - 1986 से) उपिारा ( 3 ) के स् था न पर प्र धतस्था धपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `1 [ ( 3 ) इस िारा के अिीन बनाया गया प्रत् ये क धनयम, बनाए जाने के पश्चा त् यथािीघ्र, संसद् के प्रत् ये क सदन के समक्ष, जब`
+  line `वह सत्र में हो, कुल तीस कदन की अवधि के रिा जाएगा। यह अवधि एक सत्र में अथवा दो या अधिक आनुिधमक सत्रों में पूरी हो`
+  line `सकेगी। यकद उस सत्र के या पूवोक्त आनुिधमक सत्रों के ठीक बाद के सत्र के अवसान के पूवष दोनों सदन उस धनयम में कोई पररवतषन`
+  line `करने के धलए सहमत जो जाएं तो तत्प श् चा त् वह ऐसे पररवर्तषत रू प में ही प्र भावी होगा। यकद उक्त अवसान के पूवष दोनों सदन सहमत`
+  line `हो जाए कक वह धनयम नहीं बनाया जाना चाधहए तो तत्प श् चा त् वह धनष् प्र भाव हो जाएगा। ककंतु धनयम के ऐसे पररवर्तषत या धनष् प्र भाव`
+  line `होने से उसके अिीन पहले की गई कक सी बात की धवधिमान्य ता पर प्र धतकूल प्र भाव नहीं पडेगा। ]`
+  line ______
+  line `1 1986 के अधिधनयम सं ० 4 की िारा 2 और अनुसूची द्व ारा ( 15 - 5 - 1986 से) उपिारा ( 3 ) के स् था न पर प्र धतस्था धपत।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line

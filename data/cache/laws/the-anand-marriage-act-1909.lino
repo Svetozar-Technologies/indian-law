@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:21:55.812Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2347`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 6)
-  (str totalSections) (int 6)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:21:55.812Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2347`
+  completeFetch true
+  maxSections null
+  sectionCount 6
+  totalSections 6
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-anand-marriage-act-1909)
-  (str handle) (str 2347)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Anand Marriage Act, 1909`)
-  (str actNumber) (str 07)
-  (str enactmentDate) (str 1909-10-22)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2347`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `आनन्‍द विवाह अधिनियम,1909`)
-  (str actYear) (str 1909)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Legislative Department`)
-  (str longTitle) (str `An Act to remove doubts as to the validity of the marriage ceremony common among the Sikhs called Anand.`)
-  (str enforcementDate) (str 22-10-1909)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T10:33:22.224Z`)
-  (str translations) obj_root_law_translations
+  slug the-anand-marriage-act-1909
+  handle (2347)
+  collectionHandle 123456789/1362
+  title `The Anand Marriage Act, 1909`
+  actNumber (07)
+  enactmentDate 1909-10-22
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/2347`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `आनन्‍द विवाह अधिनियम,1909`
+  actYear (1909)
+  ministry `Ministry of Law and Justice`
+  department `Legislative Department`
+  longTitle `An Act to remove doubts as to the validity of the marriage ceremony common among the Sikhs called Anand.`
+  enforcementDate 22-10-1909
+  notification undefined
+  fetchedAt `2026-05-09T10:33:22.224Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_anand_marriage_act_1909
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/2347`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/2347`
 obj_root_law_sources_en_the_anand_marriage_act_1909:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2347/1/190907.pdf`)
-  (str title) (str `The Anand Marriage Act, 1909`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2347/1/190907.pdf`
+  title `The Anand Marriage Act, 1909`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1909
 obj_root_law_sources_hi_1909:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/2347/3/H1909-7.pdf`)
-  (str title) (str `आनन्‍द विवाह अधिनियम,1909`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/2347/3/H1909-7.pdf`
+  title `आनन्‍द विवाह अधिनियम,1909`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -68,158 +58,184 @@ obj_root_law_sections:
   obj_root_law_sections_5
   obj_root_law_sections_6
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 33947)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the Anand Marriage Act, 1909; and.
-
-(2) Its extends to the whole of India ^1***`)
-  (str footnotes) (str `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule
-(w.e.f. 31-10- 2019).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33947&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00053_190907_1523341015192)
+  sectionId (33947)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33947&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00053_190907_1523341015192
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Anand Marriage Act, 1909; and.`
+  line
+  line `(2) Its extends to the whole of India ^1***`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule`
+  line `(w.e.f. 31-10- 2019).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 33948)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Validity of Anand marriages.`)
-  (str content) (str `All marriages which may be or may have been duly
-solemnized according to the Sikh marriage ceremony called Anand ^1[(commonly known as Anand Karaj)] shall be, and shall be deemed to have been with effect from the date Of the solemnization
-or each respectively, good and valid in law.`)
-  (str footnotes) (str `1. Ins. by Act 29 of 2012, s. 2 (w.e.f. 1-11-2013).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33948&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00053_190907_1523341015192)
+  sectionId (33948)
+  sectionNo (2)
+  orderNo 2
+  title `Validity of Anand marriages.`
+  content obj_root_law_sections_2_content
+  footnotes `1. Ins. by Act 29 of 2012, s. 2 (w.e.f. 1-11-2013).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33948&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00053_190907_1523341015192
+obj_root_law_sections_2_content:
+  string
+  line `All marriages which may be or may have been duly`
+  line `solemnized according to the Sikh marriage ceremony called Anand ^1[(commonly known as Anand Karaj)] shall be, and shall be deemed to have been with effect from the date Of the solemnization`
+  line `or each respectively, good and valid in law.`
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 33949)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Exemption of certain marraiges from Act.`)
-  (str content) (str `Nothing in this Act shall apply to--
-
-(a) any marriage between persons not professing the Sikh religion, or
-
-(b) any marriage which has been judically declared to be null and void.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33949&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00053_190907_1523341015192)
+  sectionId (33949)
+  sectionNo (3)
+  orderNo 3
+  title `Exemption of certain marraiges from Act.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33949&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00053_190907_1523341015192
+obj_root_law_sections_3_content:
+  string
+  line `Nothing in this Act shall apply to--`
+  line
+  line `(a) any marriage between persons not professing the Sikh religion, or`
+  line
+  line `(b) any marriage which has been judically declared to be null and void.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 33950)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Saving of marriages solemnized according to other ceremonies.`)
-  (str content) (str `Nothing in this Act shall
-affect the validity of any marriage duly solemnized according to any other marriage ceremony customary among the Sikhs.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33950&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00053_190907_1523341015192)
+  sectionId (33950)
+  sectionNo (4)
+  orderNo 4
+  title `Saving of marriages solemnized according to other ceremonies.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33950&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00053_190907_1523341015192
+obj_root_law_sections_4_content:
+  string
+  line `Nothing in this Act shall`
+  line `affect the validity of any marriage duly solemnized according to any other marriage ceremony customary among the Sikhs.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 33951)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Non-validation of marriages within prohibited degrees.`)
-  (str content) (str `Nothing in this Act shall be deemed
-to validate any marriage between persons who are related to each other in any degree of consanguinity or
-effinity which would, according to the customary law of the Sikhs, render a marriage between them
-illegal.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33951&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00053_190907_1523341015192)
+  sectionId (33951)
+  sectionNo (5)
+  orderNo 5
+  title `Non-validation of marriages within prohibited degrees.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33951&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00053_190907_1523341015192
+obj_root_law_sections_5_content:
+  string
+  line `Nothing in this Act shall be deemed`
+  line `to validate any marriage between persons who are related to each other in any degree of consanguinity or`
+  line `effinity which would, according to the customary law of the Sikhs, render a marriage between them`
+  line illegal.
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 33952)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Registration of marriages.`)
-  (str content) (str `^1[6.Registration of marriages.--(1) For the purposes of facilitation of proof of marriage ceremony
-(commonly known as Anand Karaj) customary among the Sikhs, the State Government shall, without
-prejudice to anything contained in the Hindu Marriage Act, 1955 (25 of 1955) or any other law for the
-time being in force, make rules providing that the parties to any such marriage [whether solemnized
-before or after the commencement of the Anand Marriage (Amendment) Act, 2012], may have the
-particulars relating to their marriage entered, in such manner and subject to such conditions as may be
-provided in the said rules, in a Marriage Register kept by such officer of the State Government or of a
-local authority authorised by the State Government, by notification in the Official Gazette, in this behalf.
-
-(2) The Marriage Register shall, at all reasonable times, be open for inspection, and shall be
-admissible as evidence of the statements contained therein and certified extracts therefrom shall, on an
-application, be given by the Registrar to the parties to the marriage on payment of such fees as may be
-provided in the rules.
-
-(3) Notwithstanding anything contained in this section, the validity of any Anand Marriage
-solemnized shall in no way be affected by the omission to make an entry in the Marriage Register.
-
-(4) Every rule made by the State Government under this section shall be laid before the State
-Legislature, as soon as may be, after they are made.
-
-(5) The parties to the marriage, whose marriage has been registered under this Act, shall not be
-required to get their marriage registered under any other law for the time being in force (including State
-Act).]`)
-  (str footnotes) (str `1. Ins. by s. 3, ibid. (w.e.f. 1-11-2013).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33952&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00053_190907_1523341015192)
+  sectionId (33952)
+  sectionNo (6)
+  orderNo 6
+  title `Registration of marriages.`
+  content obj_root_law_sections_6_content
+  footnotes `1. Ins. by s. 3, ibid. (w.e.f. 1-11-2013).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00053_190907_1523341015192&sectionId=33952&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00053_190907_1523341015192
+obj_root_law_sections_6_content:
+  string
+  line `^1[6.Registration of marriages.--(1) For the purposes of facilitation of proof of marriage ceremony`
+  line `(commonly known as Anand Karaj) customary among the Sikhs, the State Government shall, without`
+  line `prejudice to anything contained in the Hindu Marriage Act, 1955 (25 of 1955) or any other law for the`
+  line `time being in force, make rules providing that the parties to any such marriage [whether solemnized`
+  line `before or after the commencement of the Anand Marriage (Amendment) Act, 2012], may have the`
+  line `particulars relating to their marriage entered, in such manner and subject to such conditions as may be`
+  line `provided in the said rules, in a Marriage Register kept by such officer of the State Government or of a`
+  line `local authority authorised by the State Government, by notification in the Official Gazette, in this behalf.`
+  line
+  line `(2) The Marriage Register shall, at all reasonable times, be open for inspection, and shall be`
+  line `admissible as evidence of the statements contained therein and certified extracts therefrom shall, on an`
+  line `application, be given by the Registrar to the parties to the marriage on payment of such fees as may be`
+  line `provided in the rules.`
+  line
+  line `(3) Notwithstanding anything contained in this section, the validity of any Anand Marriage`
+  line `solemnized shall in no way be affected by the omission to make an entry in the Marriage Register.`
+  line
+  line `(4) Every rule made by the State Government under this section shall be laid before the State`
+  line `Legislature, as soon as may be, after they are made.`
+  line
+  line `(5) The parties to the marriage, whose marriage has been registered under this Act, shall not be`
+  line `required to get their marriage registered under any other law for the time being in force (including State`
+  line `Act).]`
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `आनन्‍द विवाह अधिनियम,1909`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2347/3/H1909-7.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:21:54.710Z`)
-  (str pageCount) (int 1)
-  (str sections) obj_root_law_translations_hi_sections
+  title `आनन्‍द विवाह अधिनियम,1909`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/2347/3/H1909-7.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:21:54.710Z`
+  pageCount 1
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `आनन्द वििाहअविवनयम, 19 09
-( 19 09 काअविवनयमसंखयां क 7 ) 1
-[ 22 अक्तू बर, 19 09 ]
-वसखोंमेंप्रच वितआनन्द नामकवििाह - कमम
-कीविविमान्य ताकेबारेमेंशंकाओं
-कावनराकरणकरनेके
-अविवनयम
-वसखोंमेंप्रच वितआनन्द नामकवििाह - कममकीविविमान्य ताकेबारेमेंकक न् हीं शंकाओंकावनराकरणकरनासमीचीनहै;
-अत: एतद द्व ारा वनम्न विवखतरूपमेंयहअविवनयवमतककयाजाताहै: —
-1. संविप्त नाम औरविस्ता र — ( 1 )इसअविवनयमकासंविप्त नामआनन्द वििाहअविवनयम, 1909 है; औ र
-( 2 )इसकाविस्ता र 2 *** सम्पू णमभारतपरहै।
-2. आनन्द वििाहकीविविमान्य ता — सभीवििाह, जोआनन्द नामकवसखवििाह - कमम 3 [ वजसेसामान्य त:आनन्द कारजके रू
-पमेंमानाजाताहै ] केअनुसारसम्य क रूपसेअनुष्ठा वपतककएजाएंयाअनुष्ठा वपतककएगएहैं, प्रत् ये कअपनी - अपनीअनुष्ठा पनकी
-तारीखसेविविकीदृवष्ि मेंउवचतऔरविविमान्य होंगेतथाउवचतऔरविविमान्य समझेजाएंगे।
-3. अविवनयमसेकवतपयवििाहोंकोछूि — इसअविवनयमकीकोईभीबात —
-(क)वसखिममकोनमाननेिािेव्य वक्त योंकेबीचककसीवििाहको, या
-(ख)ककसीऐसेवििाहको, जो न् या वयकरूपसेअकृतऔरशू न् य घोवितककयागयाहै,
-िागूनहींहोगी।
-4. अन्य वििाह - कमोंकेअनुसारअनुष्ठा वपतवििाहोंकीव्या िृवि — इसअविवनयमकीकोईभीबात, वसखोंमेंरूकि ककसी
-अन्य वििाह - कममकेअनुसारसम्य क रूपसेअनुष्ठा वपतककसीवििाहकीविविमान्य तापरप्रवतकूिप्रभा िनहींडािेगी।
-5. प्र वतविद्धकोटियोंकेभीतरककएगएवििाहोंकाअविविमान्य करण — इसअविवनयमकीककसीभीबातकेबारेमेंयह
-नहींसमझाजाएगाककिहऐसेव्य वक्त योंकेबीचककसीवििाहकोविविमान्य करतीहै, जोरक्त - संबंियावििाह - संबंिकीककसी
-ऐसीकोटिमेंएकदू सरेकेनातेदारहैं, वजसेवसखोंकीरूकिजन्य विविकेअनुसारउनकेबीचवििाहअिैिहोजाएगा।
-4 [ 6. वििाहोंकारवजस्री करण — ( 1 )वसखोंकेबीचरूकिजन्य वििाह - कमम(वजसेसामान्य त:आनन्द कारज़केरूपमेंजाना
-जाताहै)केसबूतकोसुकरबनानेकेप्रयोजनोंकेविए, राज्य सरकार, वहन्दू वििाहअविवनयम, 1955 ( 1955 का 25 ) यातत्स मय प्र
-िृिककसीअन्य विविमेंअंतर्िमष्ि ककसीबातपरप्रवतकूिप्रभािडािेवबना, यहउपबंिकरतेहुएवनयमबनाएगीककककसीऐसे
-वििाहके [ चाहेआनन्द वििाह(संशोिन)अविवनयम, 2012 केप्रारंभकेपूिमयाउसकेपश्चा तअनुष्ठा वपतककयागयाहो ] पिकार
-अपनेवििाहसेसंबंवितविवशवष्ि योंको, ऐसीरीवतमेंऔरऐसीशतोंकेअध्य िीन, जोउक्त वनयमोंकेअिीनउपबंवितकीजाएं,
-राज्य सरकार केयाराज्य सरकार द्व ाराइसवनवमि, राजपत्रमेंअवि सूचनाद्वारा, प्र ाविकृतककसीस्था नीयप्राविकरणकेऐसे
-अविकारीद्वारारखेगएवििाहरवजस्ि रमेंप्रविष्ि करासकेंगे।
-( 2 )वििाहरवजस्ि र, सभीयुवक्त युक्त समयोंपर, वनरीिणकेविएखुिा होगाऔरउसमेंअंतर्िमष्ि कथनसाक्ष्य केरूपमें ग्र
-ाह्यहोंगे और उससेप्रमावणतउद्धरण, आिेदनककएजानेपर, रवजस्रा रद्वारावििाहकेपिकारोंको, ऐसीफीसकेसंदायपर, जो
-वनयमोंमेंउपबंवितकीजाए, कदएजाएंगे।
-( 3 )इसिाराकेअंतर्िमष्ि ककसीबातकेहोतेहुएभीअनुष्ठा वपतककसीआनन्द वििाहकीविविमान्य तावििाहरवजस्ि रमें
-कोईप्रविवष्ि नककएजानेसेककसीभीरूपमेंप्रभावितनहींहोगी।
-( 4 )राज्य सरकारद्वाराइसिाराकेअिीनबनायागयाप्रत्ये कवनयम, बनाएजानेकेपश्चा त, यथाशक्य शीघ्र, राज्य वििान -
-मंडिकेसमिरखाजाएगा।
-( 5 )वििाहकेऐसेपिकारोंसे, वजनका वििाहइसअविवनयम केअिीनरवजस्री कृ त ककयागयाहै, तत्स मयप्रिृिककसी
-अन्य विवि(वजसकेअंतगमतराज्य अविवनयमभीहै)केअिीनअपनावििाहरवजस्ि रकराने कीअपेिानहींकीजाएगी। ]
-______
-1 इसअविवनयमकाविस्ता र, 1963 केविवनयमसं ० 6 कीिारा 2 औरअनु सूची 1 द्व ारा( 1 - 7 - 1965 से), दादराऔरनागरहिेिीपरककयागया।
-2 2019 केअविवनयमसं ० 34 कीिारा 95 औरपांचिीअनुसूचीद्वारा (31 - 10 - 2019 से ) “ जम्मू - कश्मीर राज्य केवसिाय ” शब्दों कािोपककयागया।
-3 2012 केअविवनयमसं ० 29 कीिारा 2 द्व ाराअंत:स्था वपत।
-4 2012 केअविवनमयसं ० 29 कीिारा 3 द्व ाराअंत:स्था वपत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `आनन्द वििाहअविवनयम, 19 09`
+  line `( 19 09 काअविवनयमसंखयां क 7 ) 1`
+  line `[ 22 अक्तू बर, 19 09 ]`
+  line `वसखोंमेंप्रच वितआनन्द नामकवििाह - कमम`
+  line `कीविविमान्य ताकेबारेमेंशंकाओं`
+  line कावनराकरणकरनेके
+  line अविवनयम
+  line `वसखोंमेंप्रच वितआनन्द नामकवििाह - कममकीविविमान्य ताकेबारेमेंकक न् हीं शंकाओंकावनराकरणकरनासमीचीनहै;`
+  line `अत: एतद द्व ारा वनम्न विवखतरूपमेंयहअविवनयवमतककयाजाताहै: —`
+  line `1. संविप्त नाम औरविस्ता र — ( 1 )इसअविवनयमकासंविप्त नामआनन्द वििाहअविवनयम, 1909 है; औ र`
+  line `( 2 )इसकाविस्ता र 2 *** सम्पू णमभारतपरहै।`
+  line `2. आनन्द वििाहकीविविमान्य ता — सभीवििाह, जोआनन्द नामकवसखवििाह - कमम 3 [ वजसेसामान्य त:आनन्द कारजके रू`
+  line `पमेंमानाजाताहै ] केअनुसारसम्य क रूपसेअनुष्ठा वपतककएजाएंयाअनुष्ठा वपतककएगएहैं, प्रत् ये कअपनी - अपनीअनुष्ठा पनकी`
+  line `तारीखसेविविकीदृवष्ि मेंउवचतऔरविविमान्य होंगेतथाउवचतऔरविविमान्य समझेजाएंगे।`
+  line `3. अविवनयमसेकवतपयवििाहोंकोछूि — इसअविवनयमकीकोईभीबात —`
+  line `(क)वसखिममकोनमाननेिािेव्य वक्त योंकेबीचककसीवििाहको, या`
+  line `(ख)ककसीऐसेवििाहको, जो न् या वयकरूपसेअकृतऔरशू न् य घोवितककयागयाहै,`
+  line िागूनहींहोगी।
+  line `4. अन्य वििाह - कमोंकेअनुसारअनुष्ठा वपतवििाहोंकीव्या िृवि — इसअविवनयमकीकोईभीबात, वसखोंमेंरूकि ककसी`
+  line `अन्य वििाह - कममकेअनुसारसम्य क रूपसेअनुष्ठा वपतककसीवििाहकीविविमान्य तापरप्रवतकूिप्रभा िनहींडािेगी।`
+  line `5. प्र वतविद्धकोटियोंकेभीतरककएगएवििाहोंकाअविविमान्य करण — इसअविवनयमकीककसीभीबातकेबारेमेंयह`
+  line `नहींसमझाजाएगाककिहऐसेव्य वक्त योंकेबीचककसीवििाहकोविविमान्य करतीहै, जोरक्त - संबंियावििाह - संबंिकीककसी`
+  line `ऐसीकोटिमेंएकदू सरेकेनातेदारहैं, वजसेवसखोंकीरूकिजन्य विविकेअनुसारउनकेबीचवििाहअिैिहोजाएगा।`
+  line `4 [ 6. वििाहोंकारवजस्री करण — ( 1 )वसखोंकेबीचरूकिजन्य वििाह - कमम(वजसेसामान्य त:आनन्द कारज़केरूपमेंजाना`
+  line `जाताहै)केसबूतकोसुकरबनानेकेप्रयोजनोंकेविए, राज्य सरकार, वहन्दू वििाहअविवनयम, 1955 ( 1955 का 25 ) यातत्स मय प्र`
+  line `िृिककसीअन्य विविमेंअंतर्िमष्ि ककसीबातपरप्रवतकूिप्रभािडािेवबना, यहउपबंिकरतेहुएवनयमबनाएगीककककसीऐसे`
+  line `वििाहके [ चाहेआनन्द वििाह(संशोिन)अविवनयम, 2012 केप्रारंभकेपूिमयाउसकेपश्चा तअनुष्ठा वपतककयागयाहो ] पिकार`
+  line `अपनेवििाहसेसंबंवितविवशवष्ि योंको, ऐसीरीवतमेंऔरऐसीशतोंकेअध्य िीन, जोउक्त वनयमोंकेअिीनउपबंवितकीजाएं,`
+  line `राज्य सरकार केयाराज्य सरकार द्व ाराइसवनवमि, राजपत्रमेंअवि सूचनाद्वारा, प्र ाविकृतककसीस्था नीयप्राविकरणकेऐसे`
+  line `अविकारीद्वारारखेगएवििाहरवजस्ि रमेंप्रविष्ि करासकेंगे।`
+  line `( 2 )वििाहरवजस्ि र, सभीयुवक्त युक्त समयोंपर, वनरीिणकेविएखुिा होगाऔरउसमेंअंतर्िमष्ि कथनसाक्ष्य केरूपमें ग्र`
+  line `ाह्यहोंगे और उससेप्रमावणतउद्धरण, आिेदनककएजानेपर, रवजस्रा रद्वारावििाहकेपिकारोंको, ऐसीफीसकेसंदायपर, जो`
+  line `वनयमोंमेंउपबंवितकीजाए, कदएजाएंगे।`
+  line `( 3 )इसिाराकेअंतर्िमष्ि ककसीबातकेहोतेहुएभीअनुष्ठा वपतककसीआनन्द वििाहकीविविमान्य तावििाहरवजस्ि रमें`
+  line `कोईप्रविवष्ि नककएजानेसेककसीभीरूपमेंप्रभावितनहींहोगी।`
+  line `( 4 )राज्य सरकारद्वाराइसिाराकेअिीनबनायागयाप्रत्ये कवनयम, बनाएजानेकेपश्चा त, यथाशक्य शीघ्र, राज्य वििान -`
+  line मंडिकेसमिरखाजाएगा।
+  line `( 5 )वििाहकेऐसेपिकारोंसे, वजनका वििाहइसअविवनयम केअिीनरवजस्री कृ त ककयागयाहै, तत्स मयप्रिृिककसी`
+  line `अन्य विवि(वजसकेअंतगमतराज्य अविवनयमभीहै)केअिीनअपनावििाहरवजस्ि रकराने कीअपेिानहींकीजाएगी। ]`
+  line ______
+  line `1 इसअविवनयमकाविस्ता र, 1963 केविवनयमसं ० 6 कीिारा 2 औरअनु सूची 1 द्व ारा( 1 - 7 - 1965 से), दादराऔरनागरहिेिीपरककयागया।`
+  line `2 2019 केअविवनयमसं ० 34 कीिारा 95 औरपांचिीअनुसूचीद्वारा (31 - 10 - 2019 से ) “ जम्मू - कश्मीर राज्य केवसिाय ” शब्दों कािोपककयागया।`
+  line `3 2012 केअविवनयमसं ० 29 कीिारा 2 द्व ाराअंत:स्था वपत।`
+  line `4 2012 केअविवनमयसं ० 29 कीिारा 3 द्व ाराअंत:स्था वपत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line

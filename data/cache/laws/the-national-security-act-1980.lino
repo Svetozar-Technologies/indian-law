@@ -1,60 +1,51 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T12:48:07.487Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1758`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 20)
-  (str totalSections) (int 20)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T12:48:07.487Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1758`
+  completeFetch true
+  maxSections null
+  sectionCount 20
+  totalSections 20
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-national-security-act-1980)
-  (str handle) (str 1758)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The National Security Act, 1980`)
-  (str actNumber) (str 65)
-  (str enactmentDate) (str 1980-12-27)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1758`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `राष्‍ट्रीय सुरक्षा अधिनियम, 1980`)
-  (str actYear) (str 1980)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of Internal Security`)
-  (str longTitle) (str `An Act to provide for preventive detention in certain cases and for matters connected therewith.`)
-  (str enforcementDate) (str 27-12-1980)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-10T12:48:05.882Z`)
-  (str translations) obj_root_law_translations
+  slug the-national-security-act-1980
+  handle (1758)
+  collectionHandle 123456789/1362
+  title `The National Security Act, 1980`
+  actNumber (65)
+  enactmentDate 1980-12-27
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/1758`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `राष्‍ट्रीय सुरक्षा अधिनियम, 1980`
+  actYear (1980)
+  ministry `Ministry of Home Affairs`
+  department `Department of Internal Security`
+  longTitle `An Act to provide for preventive detention in certain cases and for matters connected therewith.`
+  enforcementDate 27-12-1980
+  notification undefined
+  fetchedAt `2026-05-10T12:48:05.882Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_national_security_act_1980
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/1758`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/1758`
 obj_root_law_sources_en_the_national_security_act_1980:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1758/1/198065.pdf`)
-  (str title) (str `The National Security Act, 1980`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1758/1/198065.pdf`
+  title `The National Security Act, 1980`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1980
 obj_root_law_sources_hi_1980:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/1758/3/H1980-65.pdf`)
-  (str title) (str `राष्‍ट्रीय सुरक्षा अधिनियम, 1980`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/1758/3/H1980-65.pdf`
+  title `राष्‍ट्रीय सुरक्षा अधिनियम, 1980`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -76,531 +67,619 @@ obj_root_law_sections:
   obj_root_law_sections_17
   obj_root_law_sections_18
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 21634)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Short title and extent.`)
-  (str content) (str `(1) This Act may be called the National Security Act, 1980.
-
-(2) It extends to the whole of India ^1***.`)
-  (str footnotes) (str `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule (w.e.f. 31-10-
-2019).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21634&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21634)
+  sectionNo (1)
+  orderNo 1
+  title `Short title and extent.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21634&sectionno=1&orderno=1&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the National Security Act, 1980.`
+  line
+  line `(2) It extends to the whole of India ^1***.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule (w.e.f. 31-10-`
+  line `2019).`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 21635)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str Definitions.)
-  (str content) (str `In this Act, unless the context otherwise requires,—
-
-(a) "appropriate Government" means, as respects a detention order made by the Central
-Government or a person detained under such order, the Central Government, and as respects a
-detention order made by a State Government or by an officer subordinate to a State Government or as
-respects a person detained under such order, the State Government;
-
-(b) "detention order" means an order made under section 3;
-
-(c) "foreigner" has the same meaning as in the Foreigners Act, 1946 (31 of 1946);
-
-(d) "person" includes a foreigner;
-
-(e) "State Government", in relation to a Union territory, means the administrator thereof.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21635&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21635)
+  sectionNo (2)
+  orderNo 2
+  title Definitions.
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21635&sectionno=2&orderno=2&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_2_content:
+  string
+  line `In this Act, unless the context otherwise requires,—`
+  line
+  line `(a) "appropriate Government" means, as respects a detention order made by the Central`
+  line `Government or a person detained under such order, the Central Government, and as respects a`
+  line `detention order made by a State Government or by an officer subordinate to a State Government or as`
+  line `respects a person detained under such order, the State Government;`
+  line
+  line `(b) "detention order" means an order made under section 3;`
+  line
+  line `(c) "foreigner" has the same meaning as in the Foreigners Act, 1946 (31 of 1946);`
+  line
+  line `(d) "person" includes a foreigner;`
+  line
+  line `(e) "State Government", in relation to a Union territory, means the administrator thereof.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 21636)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Power to make orders detaining certain persons.`)
-  (str content) (str `(1) The Central Government or the State
-Government may,—
-
-(a) if satisfied with respect to any person that with a view to preventing him from acting in any
-manner prejudicial to the defence of India, the relations of India with foreign powers, or the security
-of India, or
-
-(b) if satisfied with respect to any foreigner that with a view to regulating his continued presence
-in India or with a view to making arrangements for his expulsion from India,
-
-it is necessary so to do, make an order directing that such person be detained.
-
-(2) The Central Government or the State Government may, if satisfied with respect to any person that
-with a view to preventing him from acting in any manner prejudicial to the security of the State or from
-acting in any manner prejudicial to the maintenance of Public order or from acting in any manner
-prejudicial to the maintenance of supplies and services essential to the community it is necessary so to do,
-make an order directing that such person be detained.
-
-Explanation.—For the purposes of this sub-section, "acting in any manner prejudicial to the
-maintenance of supplies and services essential to the community" does not include "acting in any manner
-prejudicial to the maintenance of supplies of commodities essential to the community" as defined in the
-Explanation to sub-section (1) of section 3 of the Prevention of Blackmarketing and Maintenance of
-Supplies of Essential Commodities Act, 1980 (7 of 1980), and accordingly, no order of detention shall be
-made under this Act on any ground on which an order of detention may be made under that Act.
-
-(3) If, having regard to the circumstances prevailing or likely to prevail in any area within the local
-limits of the jurisdiction of a District Magistrate or a Commissioner of Police, the State Government is
-satisfied that it is necessary so to do, it may, by order in writing, direct, that during such period as may be
-specified in the order, such District Magistrate or Commissioner of Police may also, if satisfied as
-provided in sub-section (2), exercise the powers conferred by the said sub-section:
-
-Provided that the period specified in an order made by the State Government under this sub-section
-shall not, in the first instance, exceed three months, but the State Government may, if satisfied as aforesaid that it is necessary so to do, amend such order to extend such period from time to time by any
-period not exceeding three months at any one time.
-
-(4) When any order is made under this section by an officer mentioned in sub-section (3), he shall
-forthwith report the fact to the State Government to which he is subordinate together with the grounds on
-which the order has been made and such other particulars as, in his opinion, have a bearing on the matter,
-and no such order shall remain in force for more than twelve days after the making thereof unless, in the
-meantime, it has been approved by the State Government:
-
-Provided that where under section 8 the grounds of detention are communicated by the officer making
-the order after five days but not later than ^1
-[fifteen days] from the date of detention, this sub-section shall
-apply subject to the modification that, for the words "twelve days", the words
-^2
-"[twenty days]" shall be
-substituted.
-
-(5) When any order is made or approved by the State Government under this section, the State
-Government shall, within seven days, report the fact to the Central Government together with the grounds
-on which the order has been made and such other particulars as, in the opinion of the State Government,
-have a bearing on the necessity for the order.`)
-  (str footnotes) (str `1. Subs. by Act 24 of 1984, s. 3, for "ten days" (w.e.f. 5-4-1984).
-
-2. Subs. by s. 3, ibid., for "fifteen days" (w.e.f. 5-4-1984).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21636&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21636)
+  sectionNo (3)
+  orderNo 3
+  title `Power to make orders detaining certain persons.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21636&sectionno=3&orderno=3&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_3_content:
+  string
+  line `(1) The Central Government or the State`
+  line `Government may,—`
+  line
+  line `(a) if satisfied with respect to any person that with a view to preventing him from acting in any`
+  line `manner prejudicial to the defence of India, the relations of India with foreign powers, or the security`
+  line `of India, or`
+  line
+  line `(b) if satisfied with respect to any foreigner that with a view to regulating his continued presence`
+  line `in India or with a view to making arrangements for his expulsion from India,`
+  line
+  line `it is necessary so to do, make an order directing that such person be detained.`
+  line
+  line `(2) The Central Government or the State Government may, if satisfied with respect to any person that`
+  line `with a view to preventing him from acting in any manner prejudicial to the security of the State or from`
+  line `acting in any manner prejudicial to the maintenance of Public order or from acting in any manner`
+  line `prejudicial to the maintenance of supplies and services essential to the community it is necessary so to do,`
+  line `make an order directing that such person be detained.`
+  line
+  line `Explanation.—For the purposes of this sub-section, "acting in any manner prejudicial to the`
+  line `maintenance of supplies and services essential to the community" does not include "acting in any manner`
+  line `prejudicial to the maintenance of supplies of commodities essential to the community" as defined in the`
+  line `Explanation to sub-section (1) of section 3 of the Prevention of Blackmarketing and Maintenance of`
+  line `Supplies of Essential Commodities Act, 1980 (7 of 1980), and accordingly, no order of detention shall be`
+  line `made under this Act on any ground on which an order of detention may be made under that Act.`
+  line
+  line `(3) If, having regard to the circumstances prevailing or likely to prevail in any area within the local`
+  line `limits of the jurisdiction of a District Magistrate or a Commissioner of Police, the State Government is`
+  line `satisfied that it is necessary so to do, it may, by order in writing, direct, that during such period as may be`
+  line `specified in the order, such District Magistrate or Commissioner of Police may also, if satisfied as`
+  line `provided in sub-section (2), exercise the powers conferred by the said sub-section:`
+  line
+  line `Provided that the period specified in an order made by the State Government under this sub-section`
+  line `shall not, in the first instance, exceed three months, but the State Government may, if satisfied as aforesaid that it is necessary so to do, amend such order to extend such period from time to time by any`
+  line `period not exceeding three months at any one time.`
+  line
+  line `(4) When any order is made under this section by an officer mentioned in sub-section (3), he shall`
+  line `forthwith report the fact to the State Government to which he is subordinate together with the grounds on`
+  line `which the order has been made and such other particulars as, in his opinion, have a bearing on the matter,`
+  line `and no such order shall remain in force for more than twelve days after the making thereof unless, in the`
+  line `meantime, it has been approved by the State Government:`
+  line
+  line `Provided that where under section 8 the grounds of detention are communicated by the officer making`
+  line `the order after five days but not later than ^1`
+  line `[fifteen days] from the date of detention, this sub-section shall`
+  line `apply subject to the modification that, for the words "twelve days", the words`
+  line ^2
+  line `"[twenty days]" shall be`
+  line substituted.
+  line
+  line `(5) When any order is made or approved by the State Government under this section, the State`
+  line `Government shall, within seven days, report the fact to the Central Government together with the grounds`
+  line `on which the order has been made and such other particulars as, in the opinion of the State Government,`
+  line `have a bearing on the necessity for the order.`
+obj_root_law_sections_3_footnotes:
+  string
+  line `1. Subs. by Act 24 of 1984, s. 3, for "ten days" (w.e.f. 5-4-1984).`
+  line
+  line `2. Subs. by s. 3, ibid., for "fifteen days" (w.e.f. 5-4-1984).`
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 21637)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Execution of detention orders.`)
-  (str content) (str `A detention order may be executed at any place in India in the
-manner provided for the execution of warrants of arrest under the Code of Criminal Procedure, 1973
-(2 of 1974).`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21637&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21637)
+  sectionNo (4)
+  orderNo 4
+  title `Execution of detention orders.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21637&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_4_content:
+  string
+  line `A detention order may be executed at any place in India in the`
+  line `manner provided for the execution of warrants of arrest under the Code of Criminal Procedure, 1973`
+  line `(2 of 1974).`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 21638)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Power to regulate place and conditions of detention.`)
-  (str content) (str `Every person in respect of whom a
-detention order has been made shall be liable—
-
-(a) to be detained in such place and under such conditions, including conditions as to
-maintenance, discipline and punishment for breaches of discipline, as the appropriate Government
-may, by general or special order, specify; and
-
-(b) to be removed from one place of detention to another place of detention, whether within the
-same State or in another State, by order of the appropriate Government:
-
-Provided that no order shall be made by a State Government under clause (b) for the removal of a
-person from one State to another State except with the consent of the Government of that other State.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21638&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21638)
+  sectionNo (5)
+  orderNo 5
+  title `Power to regulate place and conditions of detention.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21638&sectionno=5&orderno=5&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_5_content:
+  string
+  line `Every person in respect of whom a`
+  line `detention order has been made shall be liable—`
+  line
+  line `(a) to be detained in such place and under such conditions, including conditions as to`
+  line `maintenance, discipline and punishment for breaches of discipline, as the appropriate Government`
+  line `may, by general or special order, specify; and`
+  line
+  line `(b) to be removed from one place of detention to another place of detention, whether within the`
+  line `same State or in another State, by order of the appropriate Government:`
+  line
+  line `Provided that no order shall be made by a State Government under clause (b) for the removal of a`
+  line `person from one State to another State except with the consent of the Government of that other State.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_5_a:
-  object
-  (str sectionId) (str 21639)
-  (str sectionNo) (str 5A)
-  (str orderNo) (int 6)
-  (str title) (str `Grounds of detention severable.`)
-  (str content) (str `^1[5A. Grounds of detention severable.—Where a person has been detained in pursuance of an order
-of detention whether made before or after the commencement of the National Security (Second
-Amendment) Act, 1984 (60 of 1984)] under section 3 which has been made on two or more grounds, such
-order of detention shall be deemed to have been made separately on each of such grounds and
-accordingly—
-
-(a) such order shall not be deemed to be invalid or inoperative merely because one or some of the
-grounds is or are—
-
-(i) vague,
-
-(ii) non-existent,
-
-(iii) not relevant,
-
-(iv) not connected or not proximately connected with such person, or
-
-(v) invalid for any other reason whatsoever,
-
-and it is not, therefore, possible to hold that the Government or officer making such order would have
-been satisfied as provided in section 3 with reference to the remaining ground or grounds and made
-the order of detention;
-
-(b) the Government or officer making the order of detention shall be deemed to have made the
-order of detention under the said section after being satisfied as provided in that section with
-reference to the remaining ground or grounds.]`)
-  (str footnotes) (str `1. Ins. by Act 60 of 1984, s. 2 (w.e.f. 21-6-1984).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21639&sectionno=5A&orderno=6&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21639)
+  sectionNo 5A
+  orderNo 6
+  title `Grounds of detention severable.`
+  content obj_root_law_sections_5_a_content
+  footnotes `1. Ins. by Act 60 of 1984, s. 2 (w.e.f. 21-6-1984).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21639&sectionno=5A&orderno=6&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_5_a_content:
+  string
+  line `^1[5A. Grounds of detention severable.—Where a person has been detained in pursuance of an order`
+  line `of detention whether made before or after the commencement of the National Security (Second`
+  line `Amendment) Act, 1984 (60 of 1984)] under section 3 which has been made on two or more grounds, such`
+  line `order of detention shall be deemed to have been made separately on each of such grounds and`
+  line accordingly—
+  line
+  line `(a) such order shall not be deemed to be invalid or inoperative merely because one or some of the`
+  line `grounds is or are—`
+  line
+  line `(i) vague,`
+  line
+  line `(ii) non-existent,`
+  line
+  line `(iii) not relevant,`
+  line
+  line `(iv) not connected or not proximately connected with such person, or`
+  line
+  line `(v) invalid for any other reason whatsoever,`
+  line
+  line `and it is not, therefore, possible to hold that the Government or officer making such order would have`
+  line `been satisfied as provided in section 3 with reference to the remaining ground or grounds and made`
+  line `the order of detention;`
+  line
+  line `(b) the Government or officer making the order of detention shall be deemed to have made the`
+  line `order of detention under the said section after being satisfied as provided in that section with`
+  line `reference to the remaining ground or grounds.]`
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 21640)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 7)
-  (str title) (str `Detention orders not to be invalid or inoperative on certain grounds.`)
-  (str content) (str `No detention order shall
-be invalid or inoperative merely by reason—
-
-(a) that the person to be detained thereunder is outside the limits of the territorial jurisdiction of
-the Government or officer making the order, or
-
-(b) that the place of detention of such person is outside the said limits.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21640&sectionno=6&orderno=7&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21640)
+  sectionNo (6)
+  orderNo 7
+  title `Detention orders not to be invalid or inoperative on certain grounds.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21640&sectionno=6&orderno=7&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_6_content:
+  string
+  line `No detention order shall`
+  line `be invalid or inoperative merely by reason—`
+  line
+  line `(a) that the person to be detained thereunder is outside the limits of the territorial jurisdiction of`
+  line `the Government or officer making the order, or`
+  line
+  line `(b) that the place of detention of such person is outside the said limits.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 21641)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 8)
-  (str title) (str `Powers in relation to absconding persons.`)
-  (str content) (str `(1) If the Central Government or the State
-Government or an officer mentioned in sub-section (3) of section 3, as the case may be, has reason to
-believe that a person in respect of whom a detention order has been made has absconded or is concealing
-himself so that the order cannot be executed, that Government or officer may—
-
-(a) make a report in writing of the fact to a Metropolitan Magistrate or a Judicial Magistrate of
-the first class having jurisdiction in the place where the said person ordinarily resides;
-
-(b) by order notified in the Official Gazette direct the said person to appear before such officer, at
-such place and within such period as may be specified in the order.
-
-(2) Upon the making of a report against any person under clause (a) of sub-section (1), the provisions
-of sections 82, 83, 84 and 85 of the Code of Criminal Procedure, 1973 (2 of 1974), shall apply in respect
-of such person and his property as if the detention order made against him were a warrant issued by the
-Magistrate.
-
-(3) If any person fails to comply with an order issued under clause (b) of sub-section (1), he shall,
-unless he proves that it was not possible for him to comply therewith and that he had, within the period
-specified in the order, informed the officer mentioned in the order of the reason which rendered
-compliance therewith impossible and of his whereabouts, be punishable with imprisonment for a term
-which may extend to one year, or with fine, or with both.
-
-(4) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), every
-offence under sub-section (3) shall be cognizable.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21641&sectionno=7&orderno=8&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21641)
+  sectionNo (7)
+  orderNo 8
+  title `Powers in relation to absconding persons.`
+  content obj_root_law_sections_7_content
+  footnotes obj_root_law_sections_7_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21641&sectionno=7&orderno=8&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_7_content:
+  string
+  line `(1) If the Central Government or the State`
+  line `Government or an officer mentioned in sub-section (3) of section 3, as the case may be, has reason to`
+  line `believe that a person in respect of whom a detention order has been made has absconded or is concealing`
+  line `himself so that the order cannot be executed, that Government or officer may—`
+  line
+  line `(a) make a report in writing of the fact to a Metropolitan Magistrate or a Judicial Magistrate of`
+  line `the first class having jurisdiction in the place where the said person ordinarily resides;`
+  line
+  line `(b) by order notified in the Official Gazette direct the said person to appear before such officer, at`
+  line `such place and within such period as may be specified in the order.`
+  line
+  line `(2) Upon the making of a report against any person under clause (a) of sub-section (1), the provisions`
+  line `of sections 82, 83, 84 and 85 of the Code of Criminal Procedure, 1973 (2 of 1974), shall apply in respect`
+  line `of such person and his property as if the detention order made against him were a warrant issued by the`
+  line Magistrate.
+  line
+  line `(3) If any person fails to comply with an order issued under clause (b) of sub-section (1), he shall,`
+  line `unless he proves that it was not possible for him to comply therewith and that he had, within the period`
+  line `specified in the order, informed the officer mentioned in the order of the reason which rendered`
+  line `compliance therewith impossible and of his whereabouts, be punishable with imprisonment for a term`
+  line `which may extend to one year, or with fine, or with both.`
+  line
+  line `(4) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974), every`
+  line `offence under sub-section (3) shall be cognizable.`
+obj_root_law_sections_7_footnotes:
+  string
+  line
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 21642)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 9)
-  (str title) (str `Grounds of order of detention to be disclosed to persons affected by the order.`)
-  (str content) (str `(1) When a
-person is detained in pursuance of a detention order, the authority making the order shall, as soon as may
-be, but ordinarily not later than five days and in exceptional circumstances and for reasons to be recorded
-in writing, not later than ^1
-[fifteen days] from the date of detention, communicate to him the grounds on
-which the order has been made and shall afford him the earliest opportunity of making a representation
-against the order to the appropriate Government.
-
-(2) Nothing in sub-section (1) shall require the authority to disclose facts which it considers to be
-against the public interest to disclose.`)
-  (str footnotes) (str `1.Subs. by Act 24 of 1984, s. 4, for "ten days" (w.e.f. 5-4-1984).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21642&sectionno=8&orderno=9&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21642)
+  sectionNo (8)
+  orderNo 9
+  title `Grounds of order of detention to be disclosed to persons affected by the order.`
+  content obj_root_law_sections_8_content
+  footnotes `1.Subs. by Act 24 of 1984, s. 4, for "ten days" (w.e.f. 5-4-1984).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21642&sectionno=8&orderno=9&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_8_content:
+  string
+  line `(1) When a`
+  line `person is detained in pursuance of a detention order, the authority making the order shall, as soon as may`
+  line `be, but ordinarily not later than five days and in exceptional circumstances and for reasons to be recorded`
+  line `in writing, not later than ^1`
+  line `[fifteen days] from the date of detention, communicate to him the grounds on`
+  line `which the order has been made and shall afford him the earliest opportunity of making a representation`
+  line `against the order to the appropriate Government.`
+  line
+  line `(2) Nothing in sub-section (1) shall require the authority to disclose facts which it considers to be`
+  line `against the public interest to disclose.`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 21643)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 10)
-  (str title) (str `Constitution of Advisory Boards.`)
-  (str content) (str `(1) The Central Government and each State Government
-shall, whenever necessary, constitute one or more Advisory Boards for the purposes of this Act.
-
-(2) Every such Board shall consist of three persons who are, or have been, or are qualified to be
-appointed as, Judges of a High Court, and such persons shall be appointed by the appropriate
-Government.
-
-(3) The appropriate Government shall appoint one of the members of the Advisory Board who is, or
-has been, a Judge of a High Court to be its Chairman, and in the case of a Union territory, the
-appointment to the Advisory Board of any person who is a Judge of the High Court of a State shall be
-with the previous approval of the State Government concerned.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21643&sectionno=9&orderno=10&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21643)
+  sectionNo (9)
+  orderNo 10
+  title `Constitution of Advisory Boards.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21643&sectionno=9&orderno=10&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_9_content:
+  string
+  line `(1) The Central Government and each State Government`
+  line `shall, whenever necessary, constitute one or more Advisory Boards for the purposes of this Act.`
+  line
+  line `(2) Every such Board shall consist of three persons who are, or have been, or are qualified to be`
+  line `appointed as, Judges of a High Court, and such persons shall be appointed by the appropriate`
+  line Government.
+  line
+  line `(3) The appropriate Government shall appoint one of the members of the Advisory Board who is, or`
+  line `has been, a Judge of a High Court to be its Chairman, and in the case of a Union territory, the`
+  line `appointment to the Advisory Board of any person who is a Judge of the High Court of a State shall be`
+  line `with the previous approval of the State Government concerned.`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 21644)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 11)
-  (str title) (str `Reference to Advisory Boards.`)
-  (str content) (str `Save as otherwise expressly provided in this Act, in every case
-where a detention order has been made under this Act, the appropriate Government shall, within three
-weeks from the date of detention of a person under the order, place before the Advisory Board constituted
-by it under section 9, the grounds on which the order has been made and the representation, if any, made
-by the person affected by the order, and in case where the order has been made by an officer mentioned in
-sub-section (3) of section 3, also the report by such officer under sub-section (4) of that section.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21644&sectionno=10&orderno=11&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21644)
+  sectionNo (10)
+  orderNo 11
+  title `Reference to Advisory Boards.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21644&sectionno=10&orderno=11&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_10_content:
+  string
+  line `Save as otherwise expressly provided in this Act, in every case`
+  line `where a detention order has been made under this Act, the appropriate Government shall, within three`
+  line `weeks from the date of detention of a person under the order, place before the Advisory Board constituted`
+  line `by it under section 9, the grounds on which the order has been made and the representation, if any, made`
+  line `by the person affected by the order, and in case where the order has been made by an officer mentioned in`
+  line `sub-section (3) of section 3, also the report by such officer under sub-section (4) of that section.`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_sections_11:
-  object
-  (str sectionId) (str 21645)
-  (str sectionNo) (str 11)
-  (str orderNo) (int 12)
-  (str title) (str `Procedure of Advisory Boards.`)
-  (str content) (str `(1) The Advisory Board shall, after considering the materials
-placed before it and, after calling for such further information as it may deem necessary from the
-appropriate Government or from any person called for the purpose through the appropriate Government
-or from the person concerned, and if, in any particular case, it considers it essential so to do or if the
-person concerned desires to be heard, after hearing him in person, submit its report to the appropriate
-Government within seven weeks from the date of detention of the person concerned.
-
-(2) The report of the Advisory Board shall specify in a separate part thereof the opinion of the
-Advisory Board as to whether or not there is sufficient cause for the detention of the person concerned.
-
-(3) When there is a difference of opinion among the members forming the Advisory Board, the
-opinion of the majority of such members shall be deemed to be the opinion of the Board.
-
-(4) Nothing in this section shall entitle any person against whom a detention order has been made to
-appear by any legal practitioner in any matter connected with the reference to the Advisory Board; and
-the proceedings of the Advisory Board and its report, excepting that part of the report in which the
-opinion of the Advisory Board is specified, shall be confidential.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21645&sectionno=11&orderno=12&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21645)
+  sectionNo (11)
+  orderNo 12
+  title `Procedure of Advisory Boards.`
+  content obj_root_law_sections_11_content
+  footnotes obj_root_law_sections_11_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21645&sectionno=11&orderno=12&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_11_content:
+  string
+  line `(1) The Advisory Board shall, after considering the materials`
+  line `placed before it and, after calling for such further information as it may deem necessary from the`
+  line `appropriate Government or from any person called for the purpose through the appropriate Government`
+  line `or from the person concerned, and if, in any particular case, it considers it essential so to do or if the`
+  line `person concerned desires to be heard, after hearing him in person, submit its report to the appropriate`
+  line `Government within seven weeks from the date of detention of the person concerned.`
+  line
+  line `(2) The report of the Advisory Board shall specify in a separate part thereof the opinion of the`
+  line `Advisory Board as to whether or not there is sufficient cause for the detention of the person concerned.`
+  line
+  line `(3) When there is a difference of opinion among the members forming the Advisory Board, the`
+  line `opinion of the majority of such members shall be deemed to be the opinion of the Board.`
+  line
+  line `(4) Nothing in this section shall entitle any person against whom a detention order has been made to`
+  line `appear by any legal practitioner in any matter connected with the reference to the Advisory Board; and`
+  line `the proceedings of the Advisory Board and its report, excepting that part of the report in which the`
+  line `opinion of the Advisory Board is specified, shall be confidential.`
+obj_root_law_sections_11_footnotes:
+  string
+  line
 obj_root_law_sections_12:
-  object
-  (str sectionId) (str 21646)
-  (str sectionNo) (str 12)
-  (str orderNo) (int 13)
-  (str title) (str `Action upon the report of the Advisory Board.`)
-  (str content) (str `(1) In any case where the Advisory Board has
-reported that there is, in its opinion, sufficient cause for the detention of a person, the appropriate
-Government may confirm the detention order and continue the detention of the person concerned for such
-period as it thinks fit.
-
-(2) In any case where the Advisory Board has reported that there is, in its opinion, no sufficient cause
-for the detention of a person, the appropriate Government shall revoke the detention order and cause the
-person concerned to be released forthwith.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21646&sectionno=12&orderno=13&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21646)
+  sectionNo (12)
+  orderNo 13
+  title `Action upon the report of the Advisory Board.`
+  content obj_root_law_sections_12_content
+  footnotes obj_root_law_sections_12_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21646&sectionno=12&orderno=13&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_12_content:
+  string
+  line `(1) In any case where the Advisory Board has`
+  line `reported that there is, in its opinion, sufficient cause for the detention of a person, the appropriate`
+  line `Government may confirm the detention order and continue the detention of the person concerned for such`
+  line `period as it thinks fit.`
+  line
+  line `(2) In any case where the Advisory Board has reported that there is, in its opinion, no sufficient cause`
+  line `for the detention of a person, the appropriate Government shall revoke the detention order and cause the`
+  line `person concerned to be released forthwith.`
+obj_root_law_sections_12_footnotes:
+  string
+  line
 obj_root_law_sections_13:
-  object
-  (str sectionId) (str 21647)
-  (str sectionNo) (str 13)
-  (str orderNo) (int 14)
-  (str title) (str `Maximum period of detention.`)
-  (str content) (str `The maximum period for which any person may be detained in
-pursuance of any detention order which has been confirmed under section 12 shall be twelve months from
-the date of detention:
-
-Provided that nothing contained in this section shall affect the power of the appropriate Government
-to revoke or modify the detention order at any earlier time.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21647&sectionno=13&orderno=14&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21647)
+  sectionNo (13)
+  orderNo 14
+  title `Maximum period of detention.`
+  content obj_root_law_sections_13_content
+  footnotes obj_root_law_sections_13_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21647&sectionno=13&orderno=14&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_13_content:
+  string
+  line `The maximum period for which any person may be detained in`
+  line `pursuance of any detention order which has been confirmed under section 12 shall be twelve months from`
+  line `the date of detention:`
+  line
+  line `Provided that nothing contained in this section shall affect the power of the appropriate Government`
+  line `to revoke or modify the detention order at any earlier time.`
+obj_root_law_sections_13_footnotes:
+  string
+  line
 obj_root_law_sections_14:
-  object
-  (str sectionId) (str 21648)
-  (str sectionNo) (str 14)
-  (str orderNo) (int 15)
-  (str title) (str `Revocation of detention orders.`)
-  (str content) (str `(1) Without prejudice to the provisions of section 21 of the
-General Clauses Act, 1897 (10 of 1897), a detention order may, at any time, be revoked or modified,—
-
-(a) notwithstanding that the order has been made by an officer mentioned in sub-section (3) of
-section 3, by the State Government to which that officer is subordinate or by the Central Government;
-
-(b) notwithstanding that the order has been made by a State Government, by the Central
-Government.
-
-^1
-[(2) The expiry or revocation of a detention order (hereafter in this sub-section referred to as the
-earlier detention order) shall not whether such earlier detention order has been made before or after the
-commencement of the National Security (Second Amendment) Act, 1984 (60 of 1984)] bar the making of
-another detention order (hereafter in this sub-section referred to as the subsequent detention order) under
-section 3 against the same person:
-
-Provided that in a case where no fresh facts have arisen after the expiry or revocation of the earlier
-detention order made against such person, the maximumperiod for which such person may be detained in
-pursuance of the subsequent detention order shall, in no case, extend beyond the expiry of a period of
-twelve months from the date of detention under the earlier detention order.`)
-  (str footnotes) (str `1. Subs. by Act 60 of 1984, s. 3, for sub-section (2) (w.e.f. 21-6-1984).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21648&sectionno=14&orderno=15&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21648)
+  sectionNo (14)
+  orderNo 15
+  title `Revocation of detention orders.`
+  content obj_root_law_sections_14_content
+  footnotes `1. Subs. by Act 60 of 1984, s. 3, for sub-section (2) (w.e.f. 21-6-1984).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21648&sectionno=14&orderno=15&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_14_content:
+  string
+  line `(1) Without prejudice to the provisions of section 21 of the`
+  line `General Clauses Act, 1897 (10 of 1897), a detention order may, at any time, be revoked or modified,—`
+  line
+  line `(a) notwithstanding that the order has been made by an officer mentioned in sub-section (3) of`
+  line `section 3, by the State Government to which that officer is subordinate or by the Central Government;`
+  line
+  line `(b) notwithstanding that the order has been made by a State Government, by the Central`
+  line Government.
+  line
+  line ^1
+  line `[(2) The expiry or revocation of a detention order (hereafter in this sub-section referred to as the`
+  line `earlier detention order) shall not whether such earlier detention order has been made before or after the`
+  line `commencement of the National Security (Second Amendment) Act, 1984 (60 of 1984)] bar the making of`
+  line `another detention order (hereafter in this sub-section referred to as the subsequent detention order) under`
+  line `section 3 against the same person:`
+  line
+  line `Provided that in a case where no fresh facts have arisen after the expiry or revocation of the earlier`
+  line `detention order made against such person, the maximumperiod for which such person may be detained in`
+  line `pursuance of the subsequent detention order shall, in no case, extend beyond the expiry of a period of`
+  line `twelve months from the date of detention under the earlier detention order.`
 obj_root_law_sections_14_a:
-  object
-  (str sectionId) (str 21649)
-  (str sectionNo) (str 14A)
-  (str orderNo) (int 16)
-  (str title) (str `Circumstances in which persons may be detained for periods longer than three months without obtaining the opinion of Advisory Boards.`)
-  (str content) (str `^1[14A. Circumstances in which persons may be detained for periods longer than three months without obtaining the opinion of Advisory Boards.—(1) Nothwithstanding anything contained in the
-foregoing provisions of this Act, or in any judgment, decree or order of any court or other authority, any
-person in respect of whom an order of detention has been made under this Act at any time before the^2
-[8th
-day of June, 1989] may be detained without obtaining the opinion of the Advisory Board for a period
-longer than three months, but not exceeding six months, from the date of his detention where such person
-had been detained with a view to preventing him, in any disturbed area—
-
-(i) from interfering with the efforts of Government in coping with the terrorist and disruptive
-activities; and
-
-(ii) from acting in any manner prejudicial to—
-
-(a) thedefence of India; or
-
-(b) the security of India; or
-
-(c) the security of the State; or
-
-(d) the maintenance of public order; or
-
-(e) the maintenance of supplies and services essential to the community.
-
-Explanation 1.—The provisions of the Explanation to sub-section (2) of section 3 shall apply for the
-purposes of this sub-section as they apply for the purposes of that sub-section.
-
-Explanation 2.—In this sub-section, "disturbed area" means any area which is for the time being
-declared by notification under section 3 of the Punjab Disturbed Areas Act, 1983 (32 of 1983), or under
-section 3 of the Chandigarh Disturbed Areas Act, 1983 (33 of 1983), to be a disturbed area.
-
-Explanation 3.—In this sub-section, "terrorist and disruptive activities" means "terrorist acts" and
-"disruptive activities" within the meaning of the Terrorist and Disruptive Activities (Prevention)
-Ordinance, 1987 (Ord. 2 of 1987).
-
-(2) In the case of any person to whom sub-section (1) applies, sections 3, 8 and 10 to 14 shall have
-effect subject to the following modifications, namely:—
-
-(a) in section 3,—
-
-(i) in sub-section (4), in the proviso,—
-
-(A) for the words "ten days", the words "fifteen days" shall be substituted;
-
-(B) for the words "fifteen days" the words "twenty days" shall be substituted;
-
-(ii) in sub-section (5), for the words "seven days", the words "fifteen days" shall be
-substituted;
-
-(b) in section 8, in sub-section (1), for the words "ten days", the words "fifteen days" shall be
-substituted;
-
-(c) in section 10, for the words "shall, within three weeks", the words "shall, within four months
-and two weeks" shall be substituted;
-
-(d) in section 11,—
-
-(i) in sub-section (1), for the words "seven weeks", the words "five months and three weeks"
-shall be substituted;
-
-(ii) in sub-section (2), for the words "detention of the person concerned", the words
-"continued detention of the person concerned" shall be substituted;
-
-(e) in section 12, for the words "for the detention", at both the places where they occur, the words
-"for the continued detention" shall be substituted;
-
-(f) in section 13, for the words "twelve months", the words "two years" shall be substituted:
-
-(g) in section 14, in the proviso to sub-section (2), for the words "twelve months" the words "two
-years" shall be substituted.`)
-  (str footnotes) (str `1. Ins. by Act 27 of 1987, s. 3 (w.e.f. 9-6-1987) earlier section 14A was inserted vide the National Security (Amendment) Act,
-1984 (24 of 1984), s. 5 and subsequently the said section was repealed by the National Security (Amendment) Act, 1987
-(27 of 1987), s. 4.
-
-2. Subs. by Act 43 of 1988, s. 2, for "8th day of June, 1988" (w.e.f. 26-5-1988)`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21649&sectionno=14A&orderno=16&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21649)
+  sectionNo 14A
+  orderNo 16
+  title `Circumstances in which persons may be detained for periods longer than three months without obtaining the opinion of Advisory Boards.`
+  content obj_root_law_sections_14_a_content
+  footnotes obj_root_law_sections_14_a_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21649&sectionno=14A&orderno=16&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_14_a_content:
+  string
+  line `^1[14A. Circumstances in which persons may be detained for periods longer than three months without obtaining the opinion of Advisory Boards.—(1) Nothwithstanding anything contained in the`
+  line `foregoing provisions of this Act, or in any judgment, decree or order of any court or other authority, any`
+  line `person in respect of whom an order of detention has been made under this Act at any time before the^2`
+  line [8th
+  line `day of June, 1989] may be detained without obtaining the opinion of the Advisory Board for a period`
+  line `longer than three months, but not exceeding six months, from the date of his detention where such person`
+  line `had been detained with a view to preventing him, in any disturbed area—`
+  line
+  line `(i) from interfering with the efforts of Government in coping with the terrorist and disruptive`
+  line `activities; and`
+  line
+  line `(ii) from acting in any manner prejudicial to—`
+  line
+  line `(a) thedefence of India; or`
+  line
+  line `(b) the security of India; or`
+  line
+  line `(c) the security of the State; or`
+  line
+  line `(d) the maintenance of public order; or`
+  line
+  line `(e) the maintenance of supplies and services essential to the community.`
+  line
+  line `Explanation 1.—The provisions of the Explanation to sub-section (2) of section 3 shall apply for the`
+  line `purposes of this sub-section as they apply for the purposes of that sub-section.`
+  line
+  line `Explanation 2.—In this sub-section, "disturbed area" means any area which is for the time being`
+  line `declared by notification under section 3 of the Punjab Disturbed Areas Act, 1983 (32 of 1983), or under`
+  line `section 3 of the Chandigarh Disturbed Areas Act, 1983 (33 of 1983), to be a disturbed area.`
+  line
+  line `Explanation 3.—In this sub-section, "terrorist and disruptive activities" means "terrorist acts" and`
+  line `"disruptive activities" within the meaning of the Terrorist and Disruptive Activities (Prevention)`
+  line `Ordinance, 1987 (Ord. 2 of 1987).`
+  line
+  line `(2) In the case of any person to whom sub-section (1) applies, sections 3, 8 and 10 to 14 shall have`
+  line `effect subject to the following modifications, namely:—`
+  line
+  line `(a) in section 3,—`
+  line
+  line `(i) in sub-section (4), in the proviso,—`
+  line
+  line `(A) for the words "ten days", the words "fifteen days" shall be substituted;`
+  line
+  line `(B) for the words "fifteen days" the words "twenty days" shall be substituted;`
+  line
+  line `(ii) in sub-section (5), for the words "seven days", the words "fifteen days" shall be`
+  line substituted;
+  line
+  line `(b) in section 8, in sub-section (1), for the words "ten days", the words "fifteen days" shall be`
+  line substituted;
+  line
+  line `(c) in section 10, for the words "shall, within three weeks", the words "shall, within four months`
+  line `and two weeks" shall be substituted;`
+  line
+  line `(d) in section 11,—`
+  line
+  line `(i) in sub-section (1), for the words "seven weeks", the words "five months and three weeks"`
+  line `shall be substituted;`
+  line
+  line `(ii) in sub-section (2), for the words "detention of the person concerned", the words`
+  line `"continued detention of the person concerned" shall be substituted;`
+  line
+  line `(e) in section 12, for the words "for the detention", at both the places where they occur, the words`
+  line `"for the continued detention" shall be substituted;`
+  line
+  line `(f) in section 13, for the words "twelve months", the words "two years" shall be substituted:`
+  line
+  line `(g) in section 14, in the proviso to sub-section (2), for the words "twelve months" the words "two`
+  line `years" shall be substituted.`
+obj_root_law_sections_14_a_footnotes:
+  string
+  line `1. Ins. by Act 27 of 1987, s. 3 (w.e.f. 9-6-1987) earlier section 14A was inserted vide the National Security (Amendment) Act,`
+  line `1984 (24 of 1984), s. 5 and subsequently the said section was repealed by the National Security (Amendment) Act, 1987`
+  line `(27 of 1987), s. 4.`
+  line
+  line `2. Subs. by Act 43 of 1988, s. 2, for "8th day of June, 1988" (w.e.f. 26-5-1988)`
 obj_root_law_sections_15:
-  object
-  (str sectionId) (str 21650)
-  (str sectionNo) (str 15)
-  (str orderNo) (int 17)
-  (str title) (str `Temporary release of persons detained.`)
-  (str content) (str `(1) The appropriate Government may, at any time,
-direct that any person detained in pursuance of a detention order may be released for any specified period
-either without conditions or upon such conditions specified in the direction as that person accepts, and
-may, at any time, cancel his release.
-
-(2) In directing the release of any person under sub-section (1), the appropriate Government may
-require him to enter into a bond with or without sureties for the due observance of the conditions specified
-in the direction.
-
-(3) Any person released under sub-section (1) shall surrender himself at the time and place, and to the
-authority, specified in the order directing his release or cancelling his release, as the case may be.
-
-(4) If any person fails without sufficient cause to surrender himself in the manner specified in
-sub-section (3), he shall be punishable with imprisonment for a term which may extend to two years, or
-with fine, or with both.
-
-(5) If any person released under sub-section (1) fails to fulfil any of the conditions imposed upon him
-under the said sub-section or in the bond entered into by him, the bond shall be declared to be forfeited
-and any person bound thereby shall be liable to pay the penalty thereof.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21650&sectionno=15&orderno=17&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21650)
+  sectionNo (15)
+  orderNo 17
+  title `Temporary release of persons detained.`
+  content obj_root_law_sections_15_content
+  footnotes obj_root_law_sections_15_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21650&sectionno=15&orderno=17&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_15_content:
+  string
+  line `(1) The appropriate Government may, at any time,`
+  line `direct that any person detained in pursuance of a detention order may be released for any specified period`
+  line `either without conditions or upon such conditions specified in the direction as that person accepts, and`
+  line `may, at any time, cancel his release.`
+  line
+  line `(2) In directing the release of any person under sub-section (1), the appropriate Government may`
+  line `require him to enter into a bond with or without sureties for the due observance of the conditions specified`
+  line `in the direction.`
+  line
+  line `(3) Any person released under sub-section (1) shall surrender himself at the time and place, and to the`
+  line `authority, specified in the order directing his release or cancelling his release, as the case may be.`
+  line
+  line `(4) If any person fails without sufficient cause to surrender himself in the manner specified in`
+  line `sub-section (3), he shall be punishable with imprisonment for a term which may extend to two years, or`
+  line `with fine, or with both.`
+  line
+  line `(5) If any person released under sub-section (1) fails to fulfil any of the conditions imposed upon him`
+  line `under the said sub-section or in the bond entered into by him, the bond shall be declared to be forfeited`
+  line `and any person bound thereby shall be liable to pay the penalty thereof.`
+obj_root_law_sections_15_footnotes:
+  string
+  line
 obj_root_law_sections_16:
-  object
-  (str sectionId) (str 21651)
-  (str sectionNo) (str 16)
-  (str orderNo) (int 18)
-  (str title) (str `Protection of action taken in good faith.`)
-  (str content) (str `No suit or other legal proceeding shall lie against the
-Central Government or a State Government, and no suit, prosecution or other legal proceeding shall lie
-against any person, for anything in good faith done or intended to be done in pursuance of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21651&sectionno=16&orderno=18&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21651)
+  sectionNo (16)
+  orderNo 18
+  title `Protection of action taken in good faith.`
+  content obj_root_law_sections_16_content
+  footnotes obj_root_law_sections_16_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21651&sectionno=16&orderno=18&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_16_content:
+  string
+  line `No suit or other legal proceeding shall lie against the`
+  line `Central Government or a State Government, and no suit, prosecution or other legal proceeding shall lie`
+  line `against any person, for anything in good faith done or intended to be done in pursuance of this Act.`
+obj_root_law_sections_16_footnotes:
+  string
+  line
 obj_root_law_sections_17:
-  object
-  (str sectionId) (str 21652)
-  (str sectionNo) (str 17)
-  (str orderNo) (int 19)
-  (str title) (str `Act not to have effect with respect to detentions under State laws.`)
-  (str content) (str `(1) Nothing in this Act
-shall apply or have any effect with respect to orders of detention, made under any State law, which are in
-force immediately before the commencement of the National Security Ordinance, 1980 (11 of 1980), and
-accordingly every person in respect of whom an order of detention made under any State law is in force
-immediately before such commencement, shall be governed with respect to such detention by the
-provisions of such State law or where the State law under which such order of detention is made is an
-Ordinance (hereinafter referred to as the State Ordinance) promulgated by the Governor of that State and
-the State Ordinance has been replaced—
-
-(i) before such commencement, by an enactment passed by the Legislature of that State, by such
-enactment; or
-
-(ii) after such commencement, by an enactment which is passed by the Legislature of that State
-and the application of which is confined to orders of detention made before such commencement
-under the State Ordinance, by such enactment,
-
-as if this Act had not been enacted.
-
-(2) Nothing in this section shall be deemed to bar the making under section 3, of a detention order
-against any person referred to in sub-section (1) after the detention order in force in respect of him as
-aforesaid immediately before the commencement of the National Security Ordinance, 1980 (11 of 1980),
-ceases to have effect for any reason whatsoever.
-
-Explanation.—For the purposes of this section, "State law" means any law providing for preventive
-detention on all or any of the grounds on which an order of detention may be made under sub-section (2)
-of section 3 and in force in any State immediately before the commencement of the said Ordinance.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21652&sectionno=17&orderno=19&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21652)
+  sectionNo (17)
+  orderNo 19
+  title `Act not to have effect with respect to detentions under State laws.`
+  content obj_root_law_sections_17_content
+  footnotes obj_root_law_sections_17_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21652&sectionno=17&orderno=19&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_17_content:
+  string
+  line `(1) Nothing in this Act`
+  line `shall apply or have any effect with respect to orders of detention, made under any State law, which are in`
+  line `force immediately before the commencement of the National Security Ordinance, 1980 (11 of 1980), and`
+  line `accordingly every person in respect of whom an order of detention made under any State law is in force`
+  line `immediately before such commencement, shall be governed with respect to such detention by the`
+  line `provisions of such State law or where the State law under which such order of detention is made is an`
+  line `Ordinance (hereinafter referred to as the State Ordinance) promulgated by the Governor of that State and`
+  line `the State Ordinance has been replaced—`
+  line
+  line `(i) before such commencement, by an enactment passed by the Legislature of that State, by such`
+  line `enactment; or`
+  line
+  line `(ii) after such commencement, by an enactment which is passed by the Legislature of that State`
+  line `and the application of which is confined to orders of detention made before such commencement`
+  line `under the State Ordinance, by such enactment,`
+  line
+  line `as if this Act had not been enacted.`
+  line
+  line `(2) Nothing in this section shall be deemed to bar the making under section 3, of a detention order`
+  line `against any person referred to in sub-section (1) after the detention order in force in respect of him as`
+  line `aforesaid immediately before the commencement of the National Security Ordinance, 1980 (11 of 1980),`
+  line `ceases to have effect for any reason whatsoever.`
+  line
+  line `Explanation.—For the purposes of this section, "State law" means any law providing for preventive`
+  line `detention on all or any of the grounds on which an order of detention may be made under sub-section (2)`
+  line `of section 3 and in force in any State immediately before the commencement of the said Ordinance.`
+obj_root_law_sections_17_footnotes:
+  string
+  line
 obj_root_law_sections_18:
-  object
-  (str sectionId) (str 21653)
-  (str sectionNo) (str 18)
-  (str orderNo) (int 20)
-  (str title) (str `Repeal and saving.`)
-  (str content) (str `(1) The National Security Ordinance, 1980 (11 of 1980), is hereby
-repealed.
-
-(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall be
-deemed to have been done or taken under the corresponding provisions of this Act, as if this Act had
-come into force on the 23rd day of September, 1980, and, in particular, any reference made under section
-10 of the said Ordinance and pending before any Advisory Board immediately before the date on which
-this Act receives the assent of the President may continue to be dealt with by that Board after that date as
-if such Board had been constituted under section 9 of this Act.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21653&sectionno=18&orderno=20&orgactid=AC_CEN_5_23_00019_198065_1517807325254)
+  sectionId (21653)
+  sectionNo (18)
+  orderNo 20
+  title `Repeal and saving.`
+  content obj_root_law_sections_18_content
+  footnotes obj_root_law_sections_18_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00019_198065_1517807325254&sectionId=21653&sectionno=18&orderno=20&orgactid=AC_CEN_5_23_00019_198065_1517807325254
+obj_root_law_sections_18_content:
+  string
+  line `(1) The National Security Ordinance, 1980 (11 of 1980), is hereby`
+  line repealed.
+  line
+  line `(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall be`
+  line `deemed to have been done or taken under the corresponding provisions of this Act, as if this Act had`
+  line `come into force on the 23rd day of September, 1980, and, in particular, any reference made under section`
+  line `10 of the said Ordinance and pending before any Advisory Board immediately before the date on which`
+  line `this Act receives the assent of the President may continue to be dealt with by that Board after that date as`
+  line `if such Board had been constituted under section 9 of this Act.`
+obj_root_law_sections_18_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `राष्‍ट्रीय सुरक्षा अधिनियम, 1980`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1758/3/H1980-65.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T12:48:06.385Z`)
-  (str pageCount) (int 6)
-  (str sections) obj_root_law_translations_hi_sections
+  title `राष्‍ट्रीय सुरक्षा अधिनियम, 1980`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/1758/3/H1980-65.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T12:48:06.385Z`
+  pageCount 6
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
   obj_root_law_translations_hi_sections_3
@@ -608,298 +687,328 @@ obj_root_law_translations_hi_sections:
   obj_root_law_translations_hi_sections_5
   obj_root_law_translations_hi_sections_6
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `राष्‍ट् री य्सुरक्षा्अधिधियम,् 1980
-(1980 का्अधिधियम्संख् यां क ् 65 )
-[27 ् दिसम्् ब र, 1980 ]
-कुछ्मामलों्में्धिवारक्धिरोि्का्और
-उससे्सम्् ब द्ध् धवषयों्का्उपबन्् ि
-करिे्के्धलए
-अधिधियम
-भारत ् गणराज्् य ् के्इकतीसवें्वषष्में्संसि््द्वारा्धिम्् ि धलधित्रूप्में्यह्अधिधियधमत्हो्: –– ्
-1. ् संधक्षप्् त ् िाम्और्धवस्् ता र –– (1) इस्अधिधियम्का्संधक्षप्् त ् िाम्राष्‍ट् री य्सुरक्षा्अधिधियम,् 1980 ् है्।्
-(2) ् इसका्धवस्् ता र 1 **** सम्् पू णष्भारत्पर्है्।्
-2. ् पररभाषाएं –– इस्अधिधियम्में,्जब्तक्दक्संिभष्से्अन्् य था्अपेधक्षत्ि्हो, ––
-( क ) केन्् री य्सरकार्द्वा रा्दकए्गए्धिरोि - आिेश् या् ऐसे्आिेश्के्अिीि्धिरुद्ध्व्् य ध् त ् के्संबंि्में,् “ समुधित्
-सरकार ” ् से्केन्् री य्सरकार्अधभप्रेत्है,्तथा्दकसी्राज्् य ् सरकार्द्वारा्या्दकसी्राज्् य ् सरकार्के्अिीिस्् थ ् दकसी्अधिकारी् द्व
-ारा्दकए्गए्धिरोि - आिेश्के्संबंि्में्या्ऐसे्आिेश्के्अिीि्धि रुद्ध्व्् य ध् त ् के्संबंि्में,्ऐसी्राज्् य ् सरकार्अधभप्रेत्है;्
-( ि ) “ धिरोि - आिेश ” ् से्िारा् 3 के्अिीि्दकया्गया्कोई्आिेश्अधभप्रेत्है;्
-( ग ) “ धविेशी ” ् का्वही्अथष्है्जो्धविेधशयों्धवषयक्अधिधियम, 1946 (1946 ् का 31) ् में्है;्
-( घ ) ् “ व्् य ध् त ” ् के्अन्् त गषत्कोई्धविेशी्भी ् है;््
-( ङ ) संघ्राज्् य क्षेत्र् के्संबंि्में् “ राज्् य ् सरकार ” ् से,्उसका्प्रशासक्अधभप्रेत्है्।
-3. ् कुछ्व्् य ध् त यों्को्धिरुद्ध्करिे्का्आिेश्करिे्की्शध् त –– (1) ् यदि्केन्् री य्सरकार्या्राज्् य ् सरकार्का, ––
-( क ) ् दकसी्व्् य ध् त ् के्सम्् ब न्् ि ् में्यह्समािाि्हो्जाता्है्दक ् उसे्भारत्की्सुरक्षा्पर,्भारत्के्धविेशी्सरकारों्
-से्सम्् ब िों्पर्या्भारत्की्सुरक्षा्पर्प्रधतकूल्प्रभाव्डालिे्वाली्रीधत्से्कायष्करिे्से्रोकिे्की्िृधष्‍ट् ि ् से्ऐसा्करिा्
-आवश्् य क्है,्अथवा्
-( ि ) ् दकसी्धविेशी्के्सम्् ब न्् ि ् में्यह्समािाि्हो्जाता्है्दक्भारत्में्उसके्उप धस्् थ त्बिे्रहिे्का्धवधियमि्
-करिे्की्िृधष्‍ट् ि ् से्या्उसे्भारत्से्बाहर्धिकालिे्का्इंतजाम्करिे्की्िृधष्‍ट् ि ् से्ऐसा्करिा्आवश्् य क्है, ्
-तो्वह्यह्धििेश्िेते्हुए, ् आिेश्कर्सकेगी्दक्उस्व्् य ध् त ् को्धिरुद्ध्कर्धलया्जाए्।् ्
-(2) ् यदि्केन्् री य्सरकार्या्दकसी्राज्् य ् सरकार्का ् दकसी्व्् य ध् त ् के्संबंि्में्यह्समािाि्हो्जाता्है्दक्उसे्राज्् य ् की्
-सुरक्षा्पर्प्रधतकूल्प्रभाव्डालिे्वाली्रीधत्से्कायष्करिे ् से ् या्लोक्व्् य वस्् था ् बिाए्रििे्पर्प्रधतकूल्प्रभाव्डालिे्वाली्रीधत्से्
-कायष्करिे्से्या्समुिाय्के्धलए्आवश्् य क्प्रिायों्और्सेवाओं्को्बिा ए्रििे्पर्प्रधतकूल्प्रभाव्डालिे्वाली्रीधत्से्कायष्करिे्से्
-धिवाररत् करिे् की् िृधष्‍ट् ि ् से् ऐसा् करिा् आवश्् य क् है् तो् वह् यह् धििेश् िेते्हु ए् आिेश् कर् सकेगी् दक् उस्व््य ध् त ् को् धिरुद्ध् कर् ््््््््््््््
-धलया्जाए्।् स््
-प ष्‍ट् िी करण –– इस्उपिारा्के्प्रयोजिों्के्धलए, “ समुिाय्के ् धलए्आवश्् य क्प्रिायों्और्सेवाओं्को्बिाए्रििे्पर्प्रधतकूल् प्र
-भाव् डालिे् वाली् रीधत् से् कायष् करिा ” ् पि ् के् अन्् त गषत् िोरबाजारी् धिवारण् और् आवश्् य क् वस्् तु ्प्र िाय् अधिधियम, ् 1980 ््््््््््््््््
-(1980 ् का 7) ् की्िारा 3 ् की्उपिारा् (1) ् के्स्् प ष्‍ट् िी करण्में्यथा्पररभाधषत,् “ समुिाय्के्धलए्आवश्् य क्वस्् तु ओं् का्प्रिाय्बिाए्
-रििे् पर्प्र धतकूल्प्र भाव् डालिे् वाली् दकसी् रीधत् से् कायष् करिा ” ् पि् िहीं् है् और् तद्िु सार् इस् अधिधियम् के् अिीि् कोई् भी् ्््््््््््््््््््
-धिरोि - आिेश्उस्आिार्पर्िहीं्दकया्जाएगा्धजस्पर्उस्अधिधियम्के्अिीि्कोई्धिरोि - आिेश्दकया ् जा्सकता्है्।्
-(3) यदि् दकसी् धजला् मधजस्् रे ि् या् दकसी् पुधलस् आयु् त ् की् अधिकाररता् की्स््था िीय् सीमाओं् के् भीतर् दकसी्क्षेत्र् में्
-धवद्यमाि्या्धवद्यमाि्हो्सकिे्वाली्पररधस्् थ धतयों्को्ध्् या ि्में्रिते्हुए,्राज्् य ् सरकार्का्यह्समािाि्हो्जाता्है्दक्ऐसा्करिा्
-आवश्् य क्है ् तो्वह्धलधित्आिेश्द्वारा्धििेश्िे्सकेगी्दक्ऐसी्अवधि्के्िौराि,्जो्ऐसे्आिेश्में्धवधिर्िषष्‍ट् ि ् की्जाए,्ऐसा्धजला्
-मधजस्् रे ि्या्पुधलस्आयु् त ् भी,्यदि्उसका्उपिारा् (2) ् में्उपबधन्् ि त्रूप्में्समािाि्हो्जाता्है्तो,्उ् त ् उपिारा्द्वारा्प्रित्त्
-शध् त यों्का्प्रयोग्कर ् सकेगा्:
-1 2019 के ् अधिधियम ् सं ० 34 की ् िारा 95 और ् पांिवी ् अिुसूिी ् द्व ारा (31 - 10 - 2019 से ) “ जम्मू - कश्मीर राज्य्के्धसवाय ” शब्् िों ् का ् लोप ् दकया ् गया।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `राष्‍ट् री य्सुरक्षा्अधिधियम,् 1980`
+  line `(1980 का्अधिधियम्संख् यां क ् 65 )`
+  line `[27 ् दिसम्् ब र, 1980 ]`
+  line कुछ्मामलों्में्धिवारक्धिरोि्का्और
+  line `उससे्सम्् ब द्ध् धवषयों्का्उपबन्् ि`
+  line करिे्के्धलए
+  line अधिधियम
+  line `भारत ् गणराज्् य ् के्इकतीसवें्वषष्में्संसि््द्वारा्धिम्् ि धलधित्रूप्में्यह्अधिधियधमत्हो्: –– ्`
+  line `1. ् संधक्षप्् त ् िाम्और्धवस्् ता र –– (1) इस्अधिधियम्का्संधक्षप्् त ् िाम्राष्‍ट् री य्सुरक्षा्अधिधियम,् 1980 ् है्।्`
+  line `(2) ् इसका्धवस्् ता र 1 **** सम्् पू णष्भारत्पर्है्।्`
+  line `2. ् पररभाषाएं –– इस्अधिधियम्में,्जब्तक्दक्संिभष्से्अन्् य था्अपेधक्षत्ि्हो, ––`
+  line `( क ) केन्् री य्सरकार्द्वा रा्दकए्गए्धिरोि - आिेश् या् ऐसे्आिेश्के्अिीि्धिरुद्ध्व्् य ध् त ् के्संबंि्में,् “ समुधित्`
+  line `सरकार ” ् से्केन्् री य्सरकार्अधभप्रेत्है,्तथा्दकसी्राज्् य ् सरकार्द्वारा्या्दकसी्राज्् य ् सरकार्के्अिीिस्् थ ् दकसी्अधिकारी् द्व`
+  line `ारा्दकए्गए्धिरोि - आिेश्के्संबंि्में्या्ऐसे्आिेश्के्अिीि्धि रुद्ध्व्् य ध् त ् के्संबंि्में,्ऐसी्राज्् य ् सरकार्अधभप्रेत्है;्`
+  line `( ि ) “ धिरोि - आिेश ” ् से्िारा् 3 के्अिीि्दकया्गया्कोई्आिेश्अधभप्रेत्है;्`
+  line `( ग ) “ धविेशी ” ् का्वही्अथष्है्जो्धविेधशयों्धवषयक्अधिधियम, 1946 (1946 ् का 31) ् में्है;्`
+  line `( घ ) ् “ व्् य ध् त ” ् के्अन्् त गषत्कोई्धविेशी्भी ् है;््`
+  line `( ङ ) संघ्राज्् य क्षेत्र् के्संबंि्में् “ राज्् य ् सरकार ” ् से,्उसका्प्रशासक्अधभप्रेत्है्।`
+  line `3. ् कुछ्व्् य ध् त यों्को्धिरुद्ध्करिे्का्आिेश्करिे्की्शध् त –– (1) ् यदि्केन्् री य्सरकार्या्राज्् य ् सरकार्का, ––`
+  line `( क ) ् दकसी्व्् य ध् त ् के्सम्् ब न्् ि ् में्यह्समािाि्हो्जाता्है्दक ् उसे्भारत्की्सुरक्षा्पर,्भारत्के्धविेशी्सरकारों्`
+  line `से्सम्् ब िों्पर्या्भारत्की्सुरक्षा्पर्प्रधतकूल्प्रभाव्डालिे्वाली्रीधत्से्कायष्करिे्से्रोकिे्की्िृधष्‍ट् ि ् से्ऐसा्करिा्`
+  line `आवश्् य क्है,्अथवा्`
+  line `( ि ) ् दकसी्धविेशी्के्सम्् ब न्् ि ् में्यह्समािाि्हो्जाता्है्दक्भारत्में्उसके्उप धस्् थ त्बिे्रहिे्का्धवधियमि्`
+  line `करिे्की्िृधष्‍ट् ि ् से्या्उसे्भारत्से्बाहर्धिकालिे्का्इंतजाम्करिे्की्िृधष्‍ट् ि ् से्ऐसा्करिा्आवश्् य क्है, ्`
+  line `तो्वह्यह्धििेश्िेते्हुए, ् आिेश्कर्सकेगी्दक्उस्व्् य ध् त ् को्धिरुद्ध्कर्धलया्जाए्।् ्`
+  line `(2) ् यदि्केन्् री य्सरकार्या्दकसी्राज्् य ् सरकार्का ् दकसी्व्् य ध् त ् के्संबंि्में्यह्समािाि्हो्जाता्है्दक्उसे्राज्् य ् की्`
+  line `सुरक्षा्पर्प्रधतकूल्प्रभाव्डालिे्वाली्रीधत्से्कायष्करिे ् से ् या्लोक्व्् य वस्् था ् बिाए्रििे्पर्प्रधतकूल्प्रभाव्डालिे्वाली्रीधत्से्`
+  line `कायष्करिे्से्या्समुिाय्के्धलए्आवश्् य क्प्रिायों्और्सेवाओं्को्बिा ए्रििे्पर्प्रधतकूल्प्रभाव्डालिे्वाली्रीधत्से्कायष्करिे्से्`
+  line `धिवाररत् करिे् की् िृधष्‍ट् ि ् से् ऐसा् करिा् आवश्् य क् है् तो् वह् यह् धििेश् िेते्हु ए् आिेश् कर् सकेगी् दक् उस्व््य ध् त ् को् धिरुद्ध् कर् ््््््््््््््`
+  line `धलया्जाए्।् स््`
+  line `प ष्‍ट् िी करण –– इस्उपिारा्के्प्रयोजिों्के्धलए, “ समुिाय्के ् धलए्आवश्् य क्प्रिायों्और्सेवाओं्को्बिाए्रििे्पर्प्रधतकूल् प्र`
+  line `भाव् डालिे् वाली् रीधत् से् कायष् करिा ” ् पि ् के् अन्् त गषत् िोरबाजारी् धिवारण् और् आवश्् य क् वस्् तु ्प्र िाय् अधिधियम, ् 1980 ््््््््््््््््`
+  line `(1980 ् का 7) ् की्िारा 3 ् की्उपिारा् (1) ् के्स्् प ष्‍ट् िी करण्में्यथा्पररभाधषत,् “ समुिाय्के्धलए्आवश्् य क्वस्् तु ओं् का्प्रिाय्बिाए्`
+  line `रििे् पर्प्र धतकूल्प्र भाव् डालिे् वाली् दकसी् रीधत् से् कायष् करिा ” ् पि् िहीं् है् और् तद्िु सार् इस् अधिधियम् के् अिीि् कोई् भी् ्््््््््््््््््््`
+  line `धिरोि - आिेश्उस्आिार्पर्िहीं्दकया्जाएगा्धजस्पर्उस्अधिधियम्के्अिीि्कोई्धिरोि - आिेश्दकया ् जा्सकता्है्।्`
+  line `(3) यदि् दकसी् धजला् मधजस्् रे ि् या् दकसी् पुधलस् आयु् त ् की् अधिकाररता् की्स््था िीय् सीमाओं् के् भीतर् दकसी्क्षेत्र् में्`
+  line `धवद्यमाि्या्धवद्यमाि्हो्सकिे्वाली्पररधस्् थ धतयों्को्ध्् या ि्में्रिते्हुए,्राज्् य ् सरकार्का्यह्समािाि्हो्जाता्है्दक्ऐसा्करिा्`
+  line `आवश्् य क्है ् तो्वह्धलधित्आिेश्द्वारा्धििेश्िे्सकेगी्दक्ऐसी्अवधि्के्िौराि,्जो्ऐसे्आिेश्में्धवधिर्िषष्‍ट् ि ् की्जाए,्ऐसा्धजला्`
+  line `मधजस्् रे ि्या्पुधलस्आयु् त ् भी,्यदि्उसका्उपिारा् (2) ् में्उपबधन्् ि त्रूप्में्समािाि्हो्जाता्है्तो,्उ् त ् उपिारा्द्वारा्प्रित्त्`
+  line `शध् त यों्का्प्रयोग्कर ् सकेगा्:`
+  line `1 2019 के ् अधिधियम ् सं ० 34 की ् िारा 95 और ् पांिवी ् अिुसूिी ् द्व ारा (31 - 10 - 2019 से ) “ जम्मू - कश्मीर राज्य्के्धसवाय ” शब्् िों ् का ् लोप ् दकया ् गया।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-परन्् तु ् इस् उपिारा् के्अिीि् राज्् य ् सरकार्द्व ारा् दकए् गए् दकसी् आिेश् में् धवधिर्िषष्‍ट् ि ् अवधि,्प्र थम्बार् में् तीि्मास्से्
-अधिक्की्िहीं्होगी,्दकन्् तु ् राज्् य ् सरकार,्यदि्उसका्पूवो् त ्रू प्में्यह्समािाि्हो्जाता्है ् दक्ऐसा्करिा्आवश्् य क्है्तो,्ऐसे्
-आिेश्को,्समय - समय्पर्संशोधित्करके्ऐसी्अवधि्को,्एक्बार्में्अधिक्से् अधिक् तीि्मास्तक्के्धलए,्बढा्सकेगी्।्
-(4) ् जब्इस्िारा्के्अिीि्कोई्आिेश्उपिारा (3) ् में्वर्णषत्दकसी्अधिकारी्द्वारा्दकया्जाता्है्तो्वह्उस्तथ्् य ् की्
-ररपोिष्उस्राज्् य ् सरकार्को्तुरन्् त ् भेजेगा्धजसके्वह्अिीिस्् थ ् है ् और्साथ्ही्वे्आिार,्धजि्पर्वह्आिेश्दकया्गया्है्और्ऐसी्
-अन्् य ् धवधशधष्‍ट् ि यां,्जो्उसकी्राय्में्मामले्से्संबंधित्हैं,्भी,्भेजेगा्और्ऐसा्कोई्आिेश,्उसके्दकए्जािे्की्तारीि्से,्बारह्दिि्
-से्अधिक्तभी्प्रवृत्त्रहेगा्जबदक्इस्बीि्राज्् य ् सरकार्िे्उसका्अिुमोिि्कर्दिया्है, ् अन्् य था्िहीं्:्
-परन्् तु ् जहां् धिरोि् के् आिार,् आिेश् करिे् वाले् अधिकारी्द्व ारा् धिरोि् की् तारीि् से् पांि् दिि् के् पश्् िा त्् दकन्् तु ्
-1 [ पंरह ् दिि ] ् के्भीतर,्िारा् 8 ् के्अिीि्संसूधित्दकए्जाते्हैं,्वहां्यह्उपिारा्इस्उपान्् त र्के्साथ्लागू्होगी्दक् “ बारह्दिि ” ्
-शब्् िों ् के्स्् था ि्पर्् 1 [ “ बीस ् दिि ” ] ् शब्् ि ् रिे्जाएंगे्।्
-(5) जब्इस्िारा्के्अिीि्कोई्आिेश्राज्् य ् सरकार्द्वारा्दकया् जाता्है्या्अिुमोदित्दकया्जाता्है ् तो्राज्् य ् सरकार्
-उस्तथ्् य ् की्ररपोिष, ् केन्् री य्सरकार्को,्सात्दिि्के्भीतर्भेजेगी्और्साथ्ही्वे्आिार,्धजि्पर्व ह्आिेश्दकया्गया्है्और्ऐसी्
-अन्् य ् धवधशधष्‍ट् ि यां,्जो्राज्् य ् सरकार्की्राय्में्उस्आिेश्की्आवश्् य कता्से्संबंधित्हैं,्भी्भेजेगी्।्
-4. ् धिरोि - आिेशों्का्धिष्‍ट् पा िि –– धिरोि - आिेश्का्धिष्‍ट् पा िि्भारत्में्दकसी्भी्स्् था ि्पर्उस्रीधत्से्दकया्जा्सकेगा्जो्
-िण्् ड ्प्र दिया ् संधहता, 1973 (1974 ् का 2) ् में्धगरफ्तारी्के्वारण्् िों ् के्धिष्‍ट् पा िि्के्धलए्उपबधन्् ि त्है्।्
-5. धिरोि् का्स्् था ि् तथा् िशाओं् का् धवधियमि् करिे् की् शध् त –– प्रत्् ये क्व््य ध् त,् धजसके् धवरुद्ध् धिरोि - आिेश््््््््््््््््््््््््््
-दकया्गया्है, ––
-( क ) ् ऐसे्स्् था ि्पर्और्ऐसी्िशाओं्में,्धजिके्अन्् त गषत्भरण - पोषण,्अिुशासि्तथा्अिुशासि्भंग्करिे्के्धलए्
-िण्् ड ् भी्है,्धिरुद्ध्दकया्जा्सकेगा्जो्समुधित्सरकार्सािारण्या्धवशेष्आिेश्द्वारा्धवधिर्िषष्‍ट् ि ् करे;्और््
-( ि ) ् धिरोि् के् एक्स््था ि् से् धिरोि् के् िूसरे्स््था ि् को,् िाहे् वह् उसी् राज्् य ् में् हो् या् िूसरे् राज्् य ् में,् समुधित्
-सरकार्के्आिेश्द्वारा्हिाया्जा्सकेगा्:्
-परन्् तु ् राज्् य ् सरकार्दकसी्व्् य ध् त ् को्एक्राज्् य ् से्िूसरे्राज्् य ् को्हिािे्का्िण्् ड ् ( ि ) ् के्अिीि्आिेश्उस्अन्् य ् राज्् य ् की्
-सरकार्की्सम्् म धत्के्धबिा्िहीं्करेगी्।्
-2 [ 5 क. धिरोि्के्आिारों्का्पृथक् ् दकया्जा िा –– जहां्कोई्व्् य ध् त ् िारा् 3 ् के्अिीि्ऐसे्धिरोि - आिेश्के [ िाहे्वह्राष्‍ट् री य्
-सुरक्षा् ( िूसरा्संशोिि ) ् अधिधियम, 1984 ् के्प्रारम्् भ ् के्पूवष्या्उसके्पश्् िा त््दकया्गया्हो ] ् अिुसरण्में,्जो्िो्या्अधिक्आिारों्
-पर्दकया्गया्है,्धिरुद्ध्दकया्गया्है्वहां्ऐसे्धिरोि - आिेश्के ् बारे्में्यह्समझा्जाएगा्दक्वह्ऐसे्आिारों्में्से्प्रत्् ये क्आिार्पर्
-अलग - अलग्दकया्गया्है्और्तद्िु सार्: –– ्
-( क ) ् ऐसे्आिेश्के्बारे्में्यह्िहीं्समझा्जाएगा ् दक्वह्केवल्इस्कारण्अ धवधिमान्् य ् या्अप्रवतषिीय्है्दक्ऐसे्
-आिारों्में्से्एक्या्कुछ्आिार्: ––
-(i) स्् प ष्‍ट् ि ् िहीं् हैं्;्
-(ii) धवद्यमाि्िहीं्हैं;्
-(iii) सुसंगत्िहीं्हैं;्
-(iv) उस्व्् य ध् त ् से्संबद्ध्िहीं्हैं्या्उससे्धिकित:्संबद्ध्िहीं्हैं;्या्
-(v) ् दकसी्भी ् अन्् य ् कारण्से्अधवधिमान्् य ् हैं, ्
-और्इस्कारण्यह्अधभधििाषररत्करिा्संभव्िहीं्है्दक्ऐसा्आिेश्करिे्वाली्सरकार्या्अधिकारी ् का्वैसा्समािाि्हो्गया्था्
-जैसा्दक्शेष्आिार्या्आिारों्के्प्रधत्िारा 3 ् में्उपबंधित्है्और्उसिे्धिरोि - आिेश्दकया्था;्
-( ि ) ् धिरोि - आिेश्करिे्वाली्सरकार् या ् अधिकारी्के्बारे्में्यह्समझा्जाएगा्दक्उसिे्उ् त ् िारा्के्अिीि्धिरोि्
-आिेश्अपिा्वैसा्समािाि्हो्जािे्के्पश्् िा त् ् दकया्था्जैसा्दक्शेष ् आिार्या्आिारों्के्प्रधत्उस्उपिारा्में्उपबंधित्है्। ]
-6. धिरोि - आिेशों् का् कुछ् आिारों् पर् अधवधिमान्् य ् या् अप्रवतषिशील् ि् होिा –– कोई् धिरोि - आिेश् केवल् इस् कारण्
-अधवधिमान्् य ् या्अप्रवतषिशील्िहीं्होगा्दक –– ्
-( क ) ् उसके्अिीि्धिरुद्ध्दकया्जािे्वाला्व्् य ध् त ् आिेश्करिे्वाली्सरकार्या्अधिकारी्की्क्षेत्रीय्अधिकाररता्
-की्सीमाओं्के्बाहर्है,्अथवा्
-1 1984 ् के्अधिधियम्सं ० 24 ् की्िा रा 3 ् द्व ारा (5 - 4 - 1984 से ) ् प्र धतस्् था धपत्।
-2 1984 ् के्अधिधियम्सं ० 60 ् की्िारा 2 ् द्व ारा ् (21 - 6 - 1984 से ) अन्् त:स्् था धपत्।्`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `परन्् तु ् इस् उपिारा् के्अिीि् राज्् य ् सरकार्द्व ारा् दकए् गए् दकसी् आिेश् में् धवधिर्िषष्‍ट् ि ् अवधि,्प्र थम्बार् में् तीि्मास्से्`
+  line `अधिक्की्िहीं्होगी,्दकन्् तु ् राज्् य ् सरकार,्यदि्उसका्पूवो् त ्रू प्में्यह्समािाि्हो्जाता्है ् दक्ऐसा्करिा्आवश्् य क्है्तो,्ऐसे्`
+  line `आिेश्को,्समय - समय्पर्संशोधित्करके्ऐसी्अवधि्को,्एक्बार्में्अधिक्से् अधिक् तीि्मास्तक्के्धलए,्बढा्सकेगी्।्`
+  line `(4) ् जब्इस्िारा्के्अिीि्कोई्आिेश्उपिारा (3) ् में्वर्णषत्दकसी्अधिकारी्द्वारा्दकया्जाता्है्तो्वह्उस्तथ्् य ् की्`
+  line `ररपोिष्उस्राज्् य ् सरकार्को्तुरन्् त ् भेजेगा्धजसके्वह्अिीिस्् थ ् है ् और्साथ्ही्वे्आिार,्धजि्पर्वह्आिेश्दकया्गया्है्और्ऐसी्`
+  line `अन्् य ् धवधशधष्‍ट् ि यां,्जो्उसकी्राय्में्मामले्से्संबंधित्हैं,्भी,्भेजेगा्और्ऐसा्कोई्आिेश,्उसके्दकए्जािे्की्तारीि्से,्बारह्दिि्`
+  line `से्अधिक्तभी्प्रवृत्त्रहेगा्जबदक्इस्बीि्राज्् य ् सरकार्िे्उसका्अिुमोिि्कर्दिया्है, ् अन्् य था्िहीं्:्`
+  line `परन्् तु ् जहां् धिरोि् के् आिार,् आिेश् करिे् वाले् अधिकारी्द्व ारा् धिरोि् की् तारीि् से् पांि् दिि् के् पश्् िा त्् दकन्् तु ्`
+  line `1 [ पंरह ् दिि ] ् के्भीतर,्िारा् 8 ् के्अिीि्संसूधित्दकए्जाते्हैं,्वहां्यह्उपिारा्इस्उपान्् त र्के्साथ्लागू्होगी्दक् “ बारह्दिि ” ्`
+  line `शब्् िों ् के्स्् था ि्पर्् 1 [ “ बीस ् दिि ” ] ् शब्् ि ् रिे्जाएंगे्।्`
+  line `(5) जब्इस्िारा्के्अिीि्कोई्आिेश्राज्् य ् सरकार्द्वारा्दकया् जाता्है्या्अिुमोदित्दकया्जाता्है ् तो्राज्् य ् सरकार्`
+  line `उस्तथ्् य ् की्ररपोिष, ् केन्् री य्सरकार्को,्सात्दिि्के्भीतर्भेजेगी्और्साथ्ही्वे्आिार,्धजि्पर्व ह्आिेश्दकया्गया्है्और्ऐसी्`
+  line `अन्् य ् धवधशधष्‍ट् ि यां,्जो्राज्् य ् सरकार्की्राय्में्उस्आिेश्की्आवश्् य कता्से्संबंधित्हैं,्भी्भेजेगी्।्`
+  line `4. ् धिरोि - आिेशों्का्धिष्‍ट् पा िि –– धिरोि - आिेश्का्धिष्‍ट् पा िि्भारत्में्दकसी्भी्स्् था ि्पर्उस्रीधत्से्दकया्जा्सकेगा्जो्`
+  line `िण्् ड ्प्र दिया ् संधहता, 1973 (1974 ् का 2) ् में्धगरफ्तारी्के्वारण्् िों ् के्धिष्‍ट् पा िि्के्धलए्उपबधन्् ि त्है्।्`
+  line `5. धिरोि् का्स्् था ि् तथा् िशाओं् का् धवधियमि् करिे् की् शध् त –– प्रत्् ये क्व््य ध् त,् धजसके् धवरुद्ध् धिरोि - आिेश््््््््््््््््््््््््््`
+  line `दकया्गया्है, ––`
+  line `( क ) ् ऐसे्स्् था ि्पर्और्ऐसी्िशाओं्में,्धजिके्अन्् त गषत्भरण - पोषण,्अिुशासि्तथा्अिुशासि्भंग्करिे्के्धलए्`
+  line `िण्् ड ् भी्है,्धिरुद्ध्दकया्जा्सकेगा्जो्समुधित्सरकार्सािारण्या्धवशेष्आिेश्द्वारा्धवधिर्िषष्‍ट् ि ् करे;्और््`
+  line `( ि ) ् धिरोि् के् एक्स््था ि् से् धिरोि् के् िूसरे्स््था ि् को,् िाहे् वह् उसी् राज्् य ् में् हो् या् िूसरे् राज्् य ् में,् समुधित्`
+  line `सरकार्के्आिेश्द्वारा्हिाया्जा्सकेगा्:्`
+  line `परन्् तु ् राज्् य ् सरकार्दकसी्व्् य ध् त ् को्एक्राज्् य ् से्िूसरे्राज्् य ् को्हिािे्का्िण्् ड ् ( ि ) ् के्अिीि्आिेश्उस्अन्् य ् राज्् य ् की्`
+  line `सरकार्की्सम्् म धत्के्धबिा्िहीं्करेगी्।्`
+  line `2 [ 5 क. धिरोि्के्आिारों्का्पृथक् ् दकया्जा िा –– जहां्कोई्व्् य ध् त ् िारा् 3 ् के्अिीि्ऐसे्धिरोि - आिेश्के [ िाहे्वह्राष्‍ट् री य्`
+  line `सुरक्षा् ( िूसरा्संशोिि ) ् अधिधियम, 1984 ् के्प्रारम्् भ ् के्पूवष्या्उसके्पश्् िा त््दकया्गया्हो ] ् अिुसरण्में,्जो्िो्या्अधिक्आिारों्`
+  line `पर्दकया्गया्है,्धिरुद्ध्दकया्गया्है्वहां्ऐसे्धिरोि - आिेश्के ् बारे्में्यह्समझा्जाएगा्दक्वह्ऐसे्आिारों्में्से्प्रत्् ये क्आिार्पर्`
+  line `अलग - अलग्दकया्गया्है्और्तद्िु सार्: –– ्`
+  line `( क ) ् ऐसे्आिेश्के्बारे्में्यह्िहीं्समझा्जाएगा ् दक्वह्केवल्इस्कारण्अ धवधिमान्् य ् या्अप्रवतषिीय्है्दक्ऐसे्`
+  line `आिारों्में्से्एक्या्कुछ्आिार्: ––`
+  line `(i) स्् प ष्‍ट् ि ् िहीं् हैं्;्`
+  line `(ii) धवद्यमाि्िहीं्हैं;्`
+  line `(iii) सुसंगत्िहीं्हैं;्`
+  line `(iv) उस्व्् य ध् त ् से्संबद्ध्िहीं्हैं्या्उससे्धिकित:्संबद्ध्िहीं्हैं;्या्`
+  line `(v) ् दकसी्भी ् अन्् य ् कारण्से्अधवधिमान्् य ् हैं, ्`
+  line `और्इस्कारण्यह्अधभधििाषररत्करिा्संभव्िहीं्है्दक्ऐसा्आिेश्करिे्वाली्सरकार्या्अधिकारी ् का्वैसा्समािाि्हो्गया्था्`
+  line `जैसा्दक्शेष्आिार्या्आिारों्के्प्रधत्िारा 3 ् में्उपबंधित्है्और्उसिे्धिरोि - आिेश्दकया्था;्`
+  line `( ि ) ् धिरोि - आिेश्करिे्वाली्सरकार् या ् अधिकारी्के्बारे्में्यह्समझा्जाएगा्दक्उसिे्उ् त ् िारा्के्अिीि्धिरोि्`
+  line `आिेश्अपिा्वैसा्समािाि्हो्जािे्के्पश्् िा त् ् दकया्था्जैसा्दक्शेष ् आिार्या्आिारों्के्प्रधत्उस्उपिारा्में्उपबंधित्है्। ]`
+  line `6. धिरोि - आिेशों् का् कुछ् आिारों् पर् अधवधिमान्् य ् या् अप्रवतषिशील् ि् होिा –– कोई् धिरोि - आिेश् केवल् इस् कारण्`
+  line `अधवधिमान्् य ् या्अप्रवतषिशील्िहीं्होगा्दक –– ्`
+  line `( क ) ् उसके्अिीि्धिरुद्ध्दकया्जािे्वाला्व्् य ध् त ् आिेश्करिे्वाली्सरकार्या्अधिकारी्की्क्षेत्रीय्अधिकाररता्`
+  line की्सीमाओं्के्बाहर्है,्अथवा्
+  line `1 1984 ् के्अधिधियम्सं ० 24 ् की्िा रा 3 ् द्व ारा (5 - 4 - 1984 से ) ् प्र धतस्् था धपत्।`
+  line `2 1984 ् के्अधिधियम्सं ० 60 ् की्िारा 2 ् द्व ारा ् (21 - 6 - 1984 से ) अन्् त:स्् था धपत्।्`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_3:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-3)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Page 3`)
-  (str content) (str `3
-( ि ) ् ऐसे्व्् य ध् त ् के्धिरोि्का्स्् था ि्उ् त ् सीमाओं्के्बाहर्है्।्
-7. फ रार् व्् य ध् त यों्के्संबंि्में्शध् त यां –– (1) ् यदि,्यथाधस्् थ धत,्केन्् री य्सरकार्या्राज्् य ् सरकार्या्िा रा 3 ् की्उपिारा
-(3) ् में्वर्णषत्अधिकारी्के्पास्यह्धवश्् वा स्करिे्का्कारण्है्दक्धजस्व्् य ध् त ् के्संबंि्में्धिरोि - आिेश्दकया्गया्है्वह्फरार्हो्
-गया्है्या्अपिे्को्धछपा्रहा्है्धजससे्उस्आिेश्का्धिष्‍ट् पा िि्िहीं्हो्सकता्तो्वह्सरकार्या्अधिकारी –– ्
-( क ) ् उस्तथ्् य ् की्धलधित ् ररपोिष्उस्महािगर्मधजस्् रे ि्या्प्रथम्वगष्न्् या धयक्मधजस्् रे ि्को्िेगा्जो्उस्स्् था ि्पर्
-अधिकाररता्रिता्है्जहां्उ् त ्व्् य ध् त ् मामूली्तौर्पर्धिवास्करता्है;्
-( ि ) ् राजपत्र् में् अधिसूधित् आिेश्द्व ारा् उ् त ्व्् य ध् त ् को् धििेश् िे् सकेगा् दक् वह् ऐसे् अधिकारी् के् समक्ष ् ऐसे् स््
-था ि्पर्और्ऐसी्अवधि्के्भीतर,्जो्आिेश्में्धवधिर्िषष्‍ट् ि ् की्जाए,्हाधजर्हो्।्
-(2) ् उपिारा (1) ् के्िण्् ड ( क ) ् के्अिीि्दकसी्व्् य ध् त ् के्धवरुद्ध्कोई्ररपोिष्कर्दिए्जािे्पर,्िण्् ड ्प्र दिया्संधहता, 1973
-(1974 का् 2) की्िारा् 82, 83, 84,्और 85 ् के्उपबन्् ि ् ऐसे्व्् य ध् त ् और्उसकी्सम्् प धत्त्के्सम्् ब न्् ि ् में्इस्प्रकार्लागू्होंगे्मािो्उसे्
-धिरुद्ध्करिे्का्आिेश,्मधजस्् रे ि्द्वारा्जारी्दकया्गया्वारण्् ि ् हो्।्
-(3) ् यदि्कोई्व्् य ध् त ् उपिारा (1) ् के्िण्् ड ( ि ) ् के्अिीि्जारी्दकए्गए्दकसी्आिेश्का्अिुपालि्करिे्में्असफल्रहता्
-है्तो, ् जब्तक्दक्वह्यह्साधबत्िहीं्कर्िेता्है्दक्उसका्अिुपालि्करिा्उसके्धलए्सम्् भ व्िहीं्था्और्उस िे्आिेश्में्वर्णषत्
-अधिकारी्को ् आिेश्में्धवधिर्िषष्‍ट् ि ् अवधि्के्भीतर्उस्कारण्की,्धजससे्उसका्अिुपालि्असम्् भ व ् था,्तथा्अपिे्पते - रिकािे्की्
-सूििा ् िे्िी्थी,्वह्कारावास्से,्धजसकी् अवधि्एक्वषष्तक्की्हो्सकेगी्या्जुमाषिे्से,्या्िोिों्से,्िण्् ड िीय्होगा्।्
-(4) ् िण्् ड ्प्र दिया् संधहता, 1973 (1974 ् का 2) ् में् दकसी् बात् के् होते्हु ए् भी,् उपिारा (3) ् के् अिीि्प्रत््ये क् अपराि्
-संज्ञेय्होगा्।्
-8. ् आिेश्से्प्रभाधवत्व्् य ध् त ् को्धिरोि - आिेश के्आिारों्का्प्रकि्दकया्जािा –– (1) जब्कोई्व्् य ध् त ् दकसी्धिरोि - आिेश्
-के्अिुसरण्में्धिरुद्ध्है्तब्आिेश्करिे्वाला्प्राधिकारी,्यथाश् य ् शीघ्र,्दकन्् तु ् धिरोि्की्तारीि्से्मामूली्तौर्पर्पांि्दिि्के्
-भीतर्तथा्असािारण्पररधस्् थ धतयों्में्और्ऐसे्कारणों्से,्जो्लेिब द्ध् दकए्जाएंगे,् 1 [ पन्् र ह्दिि ] ् के्भीतर,्उसे्वे्आिार्संसूधित्
-करेगा्धजि्पर्वह्आिेश्दकया्गया्है्और्उसे्समुधित्सरकार्से्उस्आिेश्के्धवरुद्ध्अभ्् या वेिि्करिे्का्शीघ्रतम्अवसर्िेगा्।्
-(2) ् उपिारा (1) ् की्कोई्बात्प्राधिकारी्से्यह्अपेक्षा्ि्करेगी्दक्वह्ऐसे्तथ्् य ्प्र क ि्करे्धजन्् हें ्प्र कि्करिा्वह्लोक्धहत्
-के्धवरुद्ध्समझता्है्।्
-9. ् सलाहकार् बोडों् का् गिि –– (1) ् जब् भी् आवश्् य कता् हो,् केंरीय् सरकार् और्प्रत््ये क् राज्् य ् सरकार् इस् अधिधियम् के् प्र
-योजिों्के्धलए्एक्या्अधिक्सलाहकार्बोडों्का्गिि्करेगी्।्
-(2) ऐसा्प्रत्् ये क्बोडष्ऐसे्ती ि्व्् य ध् त यों्से्धमलकर्गरित्होगा्जो्दकसी्उच्् ि ्न्् या यालय्के्न्् या यािीश्हैं्या्रह्िुके्हैं्या्
-धियु् त ् दकए्जािे्के्धलए्अर्हष त ् हैं्और्ऐसे्व्् य ध् त ् समुधित्सरकार्द्वारा्धियु् त ् दकए्जाएंगे्।््
-(3) समुधित्सरकार्सलाहकार्बोडष्के्सिस्् यों ् में्से्एक्ऐसे्सिस्् य ् को्उ् त ् बोडष्का्अध्् य क्ष् धियु् त ् करेगी्जो्दकसी्उच्् ि ् न््
-या यालय्का्न््या यािीश्है्या्रह्िुका्है्और्दकसी्संघ्राज्् य क्षेत्र् के्मामले्में्सलाहकार्बोडष्में्दकसी्व््य ध् त ् की्धियुध् त,्जो्
-दकसी्ऐसे्राज्् य ् के्उच्् ि ्न्् या या लय्का्न्् या यािीश्है,्सम्् ब धन्् ि त ् राज्् य ् सरकार्के्पूवष्अिुमोिि्से्की्जाएगी्।्
-10. सलाहकार्बोडों्को्धििेश –– इस्अधिधियम्में्अधभव्् य ् त ् रू प्से्जैसा्उपबंधित्है्उसके्धसवाय,्ऐसे्प्रत्् ये क्मामले्में,्
-धजसमें् इस् अधिधियम् के्अिीि्धिरोि् का् आिेश् दकया् गया् है,् उस् आिेश् के्अिीि् दकसी्व््य ध् त ् के्धिरोि् की् ता रीि् से् तीि्
-सप्् ता ह्के्भीतर्समुधित्सरकार,्िारा् 9 ् के्अिीि ् अपिे ् द्व ारा्गरित्सलाहकार्बोडष्के्समक्ष्वे् आिार,्धजि्पर्वह्आिेश्दकया्
-गया्है,्और्यदि्आिेश्से्प्रभाधवत्व्् य ध् त ् िे्कोई्अभ्् या वेिि्दकया्है्तो्वह्अभ्् या वेिि्और्जब्आिेश्िारा 3 ् की्उपिारा (3) ् में्
-धिर्िषष्‍ट् ि ् दकसी्अधिकारी्द्वारा्दकया्गया्है्तब्उस्अधिकारी ् द्व ारा ् उस्िारा्की्उपिारा (4) ् के्अिीि्िी्गई्ररपोिष्भी,्रिेगी्।्
-11. सलाहकार् बोडों् की्प्र दिया –– (1) ् सलाहकार् बोडष,् अपिे् समक्ष् रिी् गई् सामग्री् पर् धविार् करिे् के् पश्् िा त्् तथा्
-समुधित्सरकार्से्या्समुधित् सरकार् के ् माध्् य म्से्इस्प्रयोजिाथष्बुलाए्गए्दकसी्व्् य ध् त ् से्या्संबद्ध्व्् य ध् त ् से्ऐसी्अधतरर् त ्
-जािकारी्मांगिे्के्पश्् िा त््जो्वह्आवश्् य क्समझे्और्यदि्दकसी्धव धशष्‍ट् ि ् मामले्में्वह्ऐसा्करिा्आवश्् य क्समझता्है्अथवा्
-यदि्संबद्ध्व््य ध् त ् िाहता्है्दक् उसे्सुिा्जाए्तो्स््व यं् उसे्सुििे् के्पश्् िा त्,्समुधित्सरकार्को् अपिी्ररपोिष्संबद्ध्व््य ध् त ् के्
-धिरोि्की्तारीि्से्सात्सप्् ता ह्के्भीतर्िेगा्।्
-(2) सलाहकार्बोडष्की्ररपोिष्के ् एक्अलग्भाग्में्उसकी्यह्राय्धवधिर्िषष्‍ट् ि ् की्जाएगी्दक्संबद्ध्व्् य ध् त ् के्धिरोि्के्
-धलए्पयाषप्् त ् कारण्है्या्िहीं्।्
-(3) जब्सलाहकार्बोडष्के्सिस्् यों ् में्मतभेि्हो्तब्ऐसे्सिस्् यों ् की्बहुसंख् या ् की्राय्को्बोडष्की्राय्समझा्जाएगा्।्
-1 1984 ् के्अधिधियम्सं ० 24 ् की्िारा 4 ् द्व ारा (5 - 4 - 1984 से ) प्र धतस्् था धपत्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 3)
+  kind page
+  sectionId pdf-page-3
+  sectionNo (3)
+  orderNo 3
+  title `Page 3`
+  content obj_root_law_translations_hi_sections_3_content
+  footnotes obj_root_law_translations_hi_sections_3_footnotes
+  sourcePage 3
+obj_root_law_translations_hi_sections_3_content:
+  string
+  line 3
+  line `( ि ) ् ऐसे्व्् य ध् त ् के्धिरोि्का्स्् था ि्उ् त ् सीमाओं्के्बाहर्है्।्`
+  line `7. फ रार् व्् य ध् त यों्के्संबंि्में्शध् त यां –– (1) ् यदि,्यथाधस्् थ धत,्केन्् री य्सरकार्या्राज्् य ् सरकार्या्िा रा 3 ् की्उपिारा`
+  line `(3) ् में्वर्णषत्अधिकारी्के्पास्यह्धवश्् वा स्करिे्का्कारण्है्दक्धजस्व्् य ध् त ् के्संबंि्में्धिरोि - आिेश्दकया्गया्है्वह्फरार्हो्`
+  line `गया्है्या्अपिे्को्धछपा्रहा्है्धजससे्उस्आिेश्का्धिष्‍ट् पा िि्िहीं्हो्सकता्तो्वह्सरकार्या्अधिकारी –– ्`
+  line `( क ) ् उस्तथ्् य ् की्धलधित ् ररपोिष्उस्महािगर्मधजस्् रे ि्या्प्रथम्वगष्न्् या धयक्मधजस्् रे ि्को्िेगा्जो्उस्स्् था ि्पर्`
+  line `अधिकाररता्रिता्है्जहां्उ् त ्व्् य ध् त ् मामूली्तौर्पर्धिवास्करता्है;्`
+  line `( ि ) ् राजपत्र् में् अधिसूधित् आिेश्द्व ारा् उ् त ्व्् य ध् त ् को् धििेश् िे् सकेगा् दक् वह् ऐसे् अधिकारी् के् समक्ष ् ऐसे् स््`
+  line `था ि्पर्और्ऐसी्अवधि्के्भीतर,्जो्आिेश्में्धवधिर्िषष्‍ट् ि ् की्जाए,्हाधजर्हो्।्`
+  line `(2) ् उपिारा (1) ् के्िण्् ड ( क ) ् के्अिीि्दकसी्व्् य ध् त ् के्धवरुद्ध्कोई्ररपोिष्कर्दिए्जािे्पर,्िण्् ड ्प्र दिया्संधहता, 1973`
+  line `(1974 का् 2) की्िारा् 82, 83, 84,्और 85 ् के्उपबन्् ि ् ऐसे्व्् य ध् त ् और्उसकी्सम्् प धत्त्के्सम्् ब न्् ि ् में्इस्प्रकार्लागू्होंगे्मािो्उसे्`
+  line `धिरुद्ध्करिे्का्आिेश,्मधजस्् रे ि्द्वारा्जारी्दकया्गया्वारण्् ि ् हो्।्`
+  line `(3) ् यदि्कोई्व्् य ध् त ् उपिारा (1) ् के्िण्् ड ( ि ) ् के्अिीि्जारी्दकए्गए्दकसी्आिेश्का्अिुपालि्करिे्में्असफल्रहता्`
+  line `है्तो, ् जब्तक्दक्वह्यह्साधबत्िहीं्कर्िेता्है्दक्उसका्अिुपालि्करिा्उसके्धलए्सम्् भ व्िहीं्था्और्उस िे्आिेश्में्वर्णषत्`
+  line `अधिकारी्को ् आिेश्में्धवधिर्िषष्‍ट् ि ् अवधि्के्भीतर्उस्कारण्की,्धजससे्उसका्अिुपालि्असम्् भ व ् था,्तथा्अपिे्पते - रिकािे्की्`
+  line `सूििा ् िे्िी्थी,्वह्कारावास्से,्धजसकी् अवधि्एक्वषष्तक्की्हो्सकेगी्या्जुमाषिे्से,्या्िोिों्से,्िण्् ड िीय्होगा्।्`
+  line `(4) ् िण्् ड ्प्र दिया् संधहता, 1973 (1974 ् का 2) ् में् दकसी् बात् के् होते्हु ए् भी,् उपिारा (3) ् के् अिीि्प्रत््ये क् अपराि्`
+  line संज्ञेय्होगा्।्
+  line `8. ् आिेश्से्प्रभाधवत्व्् य ध् त ् को्धिरोि - आिेश के्आिारों्का्प्रकि्दकया्जािा –– (1) जब्कोई्व्् य ध् त ् दकसी्धिरोि - आिेश्`
+  line `के्अिुसरण्में्धिरुद्ध्है्तब्आिेश्करिे्वाला्प्राधिकारी,्यथाश् य ् शीघ्र,्दकन्् तु ् धिरोि्की्तारीि्से्मामूली्तौर्पर्पांि्दिि्के्`
+  line `भीतर्तथा्असािारण्पररधस्् थ धतयों्में्और्ऐसे्कारणों्से,्जो्लेिब द्ध् दकए्जाएंगे,् 1 [ पन्् र ह्दिि ] ् के्भीतर,्उसे्वे्आिार्संसूधित्`
+  line `करेगा्धजि्पर्वह्आिेश्दकया्गया्है्और्उसे्समुधित्सरकार्से्उस्आिेश्के्धवरुद्ध्अभ्् या वेिि्करिे्का्शीघ्रतम्अवसर्िेगा्।्`
+  line `(2) ् उपिारा (1) ् की्कोई्बात्प्राधिकारी्से्यह्अपेक्षा्ि्करेगी्दक्वह्ऐसे्तथ्् य ्प्र क ि्करे्धजन्् हें ्प्र कि्करिा्वह्लोक्धहत्`
+  line के्धवरुद्ध्समझता्है्।्
+  line `9. ् सलाहकार् बोडों् का् गिि –– (1) ् जब् भी् आवश्् य कता् हो,् केंरीय् सरकार् और्प्रत््ये क् राज्् य ् सरकार् इस् अधिधियम् के् प्र`
+  line योजिों्के्धलए्एक्या्अधिक्सलाहकार्बोडों्का्गिि्करेगी्।्
+  line `(2) ऐसा्प्रत्् ये क्बोडष्ऐसे्ती ि्व्् य ध् त यों्से्धमलकर्गरित्होगा्जो्दकसी्उच्् ि ्न्् या यालय्के्न्् या यािीश्हैं्या्रह्िुके्हैं्या्`
+  line `धियु् त ् दकए्जािे्के्धलए्अर्हष त ् हैं्और्ऐसे्व्् य ध् त ् समुधित्सरकार्द्वारा्धियु् त ् दकए्जाएंगे्।््`
+  line `(3) समुधित्सरकार्सलाहकार्बोडष्के्सिस्् यों ् में्से्एक्ऐसे्सिस्् य ् को्उ् त ् बोडष्का्अध्् य क्ष् धियु् त ् करेगी्जो्दकसी्उच्् ि ् न््`
+  line `या यालय्का्न््या यािीश्है्या्रह्िुका्है्और्दकसी्संघ्राज्् य क्षेत्र् के्मामले्में्सलाहकार्बोडष्में्दकसी्व््य ध् त ् की्धियुध् त,्जो्`
+  line `दकसी्ऐसे्राज्् य ् के्उच्् ि ्न्् या या लय्का्न्् या यािीश्है,्सम्् ब धन्् ि त ् राज्् य ् सरकार्के्पूवष्अिुमोिि्से्की्जाएगी्।्`
+  line `10. सलाहकार्बोडों्को्धििेश –– इस्अधिधियम्में्अधभव्् य ् त ् रू प्से्जैसा्उपबंधित्है्उसके्धसवाय,्ऐसे्प्रत्् ये क्मामले्में,्`
+  line `धजसमें् इस् अधिधियम् के्अिीि्धिरोि् का् आिेश् दकया् गया् है,् उस् आिेश् के्अिीि् दकसी्व््य ध् त ् के्धिरोि् की् ता रीि् से् तीि्`
+  line `सप्् ता ह्के्भीतर्समुधित्सरकार,्िारा् 9 ् के्अिीि ् अपिे ् द्व ारा्गरित्सलाहकार्बोडष्के्समक्ष्वे् आिार,्धजि्पर्वह्आिेश्दकया्`
+  line `गया्है,्और्यदि्आिेश्से्प्रभाधवत्व्् य ध् त ् िे्कोई्अभ्् या वेिि्दकया्है्तो्वह्अभ्् या वेिि्और्जब्आिेश्िारा 3 ् की्उपिारा (3) ् में्`
+  line `धिर्िषष्‍ट् ि ् दकसी्अधिकारी्द्वारा्दकया्गया्है्तब्उस्अधिकारी ् द्व ारा ् उस्िारा्की्उपिारा (4) ् के्अिीि्िी्गई्ररपोिष्भी,्रिेगी्।्`
+  line `11. सलाहकार् बोडों् की्प्र दिया –– (1) ् सलाहकार् बोडष,् अपिे् समक्ष् रिी् गई् सामग्री् पर् धविार् करिे् के् पश्् िा त्् तथा्`
+  line `समुधित्सरकार्से्या्समुधित् सरकार् के ् माध्् य म्से्इस्प्रयोजिाथष्बुलाए्गए्दकसी्व्् य ध् त ् से्या्संबद्ध्व्् य ध् त ् से्ऐसी्अधतरर् त ्`
+  line `जािकारी्मांगिे्के्पश्् िा त््जो्वह्आवश्् य क्समझे्और्यदि्दकसी्धव धशष्‍ट् ि ् मामले्में्वह्ऐसा्करिा्आवश्् य क्समझता्है्अथवा्`
+  line `यदि्संबद्ध्व््य ध् त ् िाहता्है्दक् उसे्सुिा्जाए्तो्स््व यं् उसे्सुििे् के्पश्् िा त्,्समुधित्सरकार्को् अपिी्ररपोिष्संबद्ध्व््य ध् त ् के्`
+  line `धिरोि्की्तारीि्से्सात्सप्् ता ह्के्भीतर्िेगा्।्`
+  line `(2) सलाहकार्बोडष्की्ररपोिष्के ् एक्अलग्भाग्में्उसकी्यह्राय्धवधिर्िषष्‍ट् ि ् की्जाएगी्दक्संबद्ध्व्् य ध् त ् के्धिरोि्के्`
+  line `धलए्पयाषप्् त ् कारण्है्या्िहीं्।्`
+  line `(3) जब्सलाहकार्बोडष्के्सिस्् यों ् में्मतभेि्हो्तब्ऐसे्सिस्् यों ् की्बहुसंख् या ् की्राय्को्बोडष्की्राय्समझा्जाएगा्।्`
+  line `1 1984 ् के्अधिधियम्सं ० 24 ् की्िारा 4 ् द्व ारा (5 - 4 - 1984 से ) प्र धतस्् था धपत्।`
+obj_root_law_translations_hi_sections_3_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_4:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-4)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Page 4`)
-  (str content) (str `4
-(4) इस्िारा्की्कोई्बात्उस्व्् य ध् त ् को,्धजसके्धवरुद्ध्धिरोि - आिेश्दकया्गया्है,्इस्बात्का्हकिार्ि्बिाएगी्दक्
-वह्सलाहकार्बोडष्को्धििेश्से्संबंधित्दकसी्मामले्में्धवधि - व्् य वसायी्द्वारा्हाधजर्हो्तथा्सलाहकार्बोडष्की्कायषवाही्और्
-उसकी्ररपोिष,्उसके्उस्भाग्के्धसवाय्धज स में्बोडष्की्राय्धवधि र् िषष्‍ट् ि ् हो,्गोपिीय्होगी्।्
-12. ् सलाहकार् बोडष् की् ररपोिष् पर् कारषवाई –– (1) ् दकसी्ऐसे् मामले्में,् धजसमें् सलाहकार् बोडष्िे् ररपोिष् िी् है्दक् दकसी् व््
-य ध् त ् के्धिरोि्के्धलए्उसकी्राय्में्पयाषप्् त ् कारण्है,्समुधित्सरकार्धिरोि - आिेश्को्पुष्‍ट् ि ् कर्सकेगी्तथा्संबद्ध्व्् य ध् त ् को्
-उतिी्अवधि - पयषन्् त ् धिरुद्ध्रि्सकेगी,्धजतिी्वह्िीक्समझे्।्
-(2) दकसी्ऐसे्मामले्में,्धजसमें्सलाहकार्बोडष्िे्ररपोिष्िी्है्दक्दकसी्व्् य ध् त ् के्धिरोि्के्धलए्उसकी्राय्में्पयाषप्् त ्
-कारण्िहीं्है,्समुधित्सरकार्धिरोि - आिेश्वापस्ले्लेगी्तथा्उस्व्् य ध् त ् को ् तुरन्् तु ् छुड़वा्िेगी्।्
-13. ् धिरोि्की्अधिकतम्अवधि –– िारा 12 ् के्अिीि्पुष्‍ट् ि ् दकए्गए्दकसी्धिरोि - आिेश्के्अिुसरण्में्दकसी्व्् य ध् त ् को्
-धजस्अधिकतम्अवधि - पयषन्् त ् धिरुद्ध्रिा्जा्सकेगा्वह्धिरोि्की्तारीि्से्बारह्मास्की्होगी्:्
-परन्् तु ् इस्िारा्की्कोई्बात्धिरोि - आिेश्को ् पहले्ही्दकसी्समय्वापस्लेिे्या्उपांतररत्करिे्की्समुधित्सरकार्की्
-शध् त ् पर्प्रभाव्िहीं्डालेगी्।्
-14. ् धिरोि - आिेश्वापस्लेिा –– (1) ् सािारण्िण्् ड ् अधिधियम, 1897 (1897 ् का 10) ् की्िारा 21 ् के्उपबन्् िों ् पर्प्रधतकूल् प्र
-भाव्डाले्धबिा,्दकसी्धिरोि - आिेश्को्दकसी्भी्समय, ––
-( क ) ् इस्बात्के्होते्हुए्भी्दक्आिेश,्िारा 3 ् की्उपिारा (3) ् में्वर्णषत्दकसी्अधिकारी्द्वारा्दकया्गया्है,्
-उस्राज्् य ् सरकार्द्वारा,्धजसके्वह्अधिकारी्अिीिस्् थ ् है्या्केन्् री य्सरकार्द्वारा्वापस्धलया्जा्सकेगा्या्उपांतररत्
-दकया्जा्सकेगा;्
-( ि ) ् इस्बात्के्होते्हुए्भी्दक ् आिेश्दकसी्राज्् य ् सरकार्द्वारा्दकया्गया्है,्केन्् री य्सरकार्द्वारा् वापस्धलया्
-जा्सकेगा्या्उपांतररत्दकया्जा्सकेगा्।्
-1 [ (2) ् दकसी्धिरोि - आिेश्के ( धजसे्इस्उपिारा्में्इसके्पश्् िा त््पूवषवती्धिरोि - आिेश्कहा्गया्है ) ् अवसाि्या् वापस्
-धलए्जािे्के्कारण [ िाहे्ऐसा्पूवष वती्धिरोि - आिेश्राष्‍ट् री य्सुरक्षा् ( िूसरा्संशोिि ) ् अधिधियम,् 1984 ् के्प्रारम्् भ ् के्पूवष्या्उसके्
-पश्् िा त््दकया्गया्हो ] उसी्व्् य ध् त ् के्धवरुद्ध्िारा् 3 ् के्अिीि्िूसरे्धिरोि - आिेश्का् ( धजसे्इस्उप िारा्में्इसके्पश्् िा त््पश्् िा त् वती ्
-धिरोि - आिेश्कहा्गया्है ) ् दकया्जा िा्वर्जषत्िहीं्होगा्:्
-परन्् तु ् यदि्ऐसे्व्् य ध् त ् के्धवरुद्ध्दकए्गए्पूवषवती्धिरोि - आिेश्के्अवसाि्या्वापस्धलए्जािे्के्पश्् िा त््कोई्िए्तथ्् य ्
-उत्् प न्् ि ् िहीं्हु ए् हैं् तो् ऐसी् अधिकतम् अवधि,् धजसके ् धलए् ऐसा्व््य ध् त ् पश्् िा त् वती ् धिरोि - आिेश् के्अिुसरण् में् धिरुद्ध ् दक या ् जा्
-सकेगा,्दकसी्भी्िशा्में,्पूवषवती्धिरोि - आिेश्के्अिीि्धिरोि्की्तारीि्से्बारह्मास्की्अवधि्के्अवसाि्के्परे्िहीं्बढाई्
-जाएगी्। ]
-2 [ 14 क. वे्पररधस्् थ धतयां्धजिमें्व्् य ध् त यों्को्सलाहकार्बोडों्की्राय्प्राप्् त ् दकए्धबिा,्तीि्मास्से्अधिक्अवधि ् के्धलए्
-धिेरोि् में्रिा्जा्सकेगा –– (1) इस्अधिधियम्के्पूवषगामी्उपबंिों्में,्या्दकसी्न्् या यालय ् या्अन्् य ्प्र ाधिकारी्के्दकसी्धिणषय,्धडिी्
-या्आिेश्में,्दकसी्बात्के्होते्हुए्भी,्उस्व््य ध् त ् को,्धजसके्संबंि्में् 3 [8 ् जूि, 1989] ् से्पहले्दकसी्समय्इस्अधिधियम्के्
-अिीि्कोई्धिरोि्आिेश ् दकया्गया्है,्सलाहकार्बोडष्की्राय्प्राप्् त ् दकए्धबिा,्उसके्धिरोि्की्तारीि्से्तीि्मास्से्अधिक्
-दकन्् तु ् छह्मास्से्अिधिक्की्अवधि्के्धलए्उस ् िशा्में्धिरोि्में्रिा्जा्सकेगा्जब्ऐसे्व्् य ध् त ् की्दकसी्धवक्षुब्् ि ्क्षेत्र् में, ––
-(i) आतंकवािी्और्धवध्् वं सक् दि याकलापों ् से्धिपििे्में्सरकार्के्प्रयासों्में्हस्् त क्षे प्करिे्से;्और्
-(ii) ( क ) ् भारत्की्रक्षा;्या्
-( ि ) ् भारत्की्सुरक्षा;्या्
-( ग ) ् राज्् य ् की्सुरक्षा;्या्
-( घ ) ् लोक्व्् य वस्् था ् बिाए्रििे;्या्
-( ङ ) समुिाय्के्धलए्आवश्् य क्प्रिायों्सेवाओं्को्बिाए्रििे,्
-पर्प्रधतकूल्प्रभाव्डा लिे्वाली्रीधत्से्कायष्करिे्से्धिवाररत्करिे्की्िृधष्‍ट् ि ् से्धिरुद्ध्दकया्गया्है्।् स््
-प ष्‍ट् िी करण ् 1 –– िारा् 3 की्उपिारा् (2) ् के्स्् प ष्‍ट् िी करण्के्उपबंि्इस्उपिारा्के्प्रयोजिों्के्धलए्उसी्प्रकार्लागू्होंगे्
-जैसे्वे्उस्उपिारा्के्प्रयोजिों्के्धलए्लागू्होते्हैं्।्
-1 1984 ् के्अधिधियम्सं ० 60 ् की्िारा 3 ् द्व ारा (21 - 6 - 1984 से ) प्र धतस्् था धपत्।
-2 1987 ् के्अधिधियम्सं ० 27 ् की्िारा 3 ् द्व ारा् (9 - 6 - 1987 से ) अंत:स्् था धपत्।्
-3 1988 के्अधिधियम्सं ० 43 की्िारा 2 द्व ारा (26 - 5 - 1988 से ) प्र धतस्् था धपत्।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 4)
+  kind page
+  sectionId pdf-page-4
+  sectionNo (4)
+  orderNo 4
+  title `Page 4`
+  content obj_root_law_translations_hi_sections_4_content
+  footnotes obj_root_law_translations_hi_sections_4_footnotes
+  sourcePage 4
+obj_root_law_translations_hi_sections_4_content:
+  string
+  line 4
+  line `(4) इस्िारा्की्कोई्बात्उस्व्् य ध् त ् को,्धजसके्धवरुद्ध्धिरोि - आिेश्दकया्गया्है,्इस्बात्का्हकिार्ि्बिाएगी्दक्`
+  line `वह्सलाहकार्बोडष्को्धििेश्से्संबंधित्दकसी्मामले्में्धवधि - व्् य वसायी्द्वारा्हाधजर्हो्तथा्सलाहकार्बोडष्की्कायषवाही्और्`
+  line `उसकी्ररपोिष,्उसके्उस्भाग्के्धसवाय्धज स में्बोडष्की्राय्धवधि र् िषष्‍ट् ि ् हो,्गोपिीय्होगी्।्`
+  line `12. ् सलाहकार् बोडष् की् ररपोिष् पर् कारषवाई –– (1) ् दकसी्ऐसे् मामले्में,् धजसमें् सलाहकार् बोडष्िे् ररपोिष् िी् है्दक् दकसी् व््`
+  line `य ध् त ् के्धिरोि्के्धलए्उसकी्राय्में्पयाषप्् त ् कारण्है,्समुधित्सरकार्धिरोि - आिेश्को्पुष्‍ट् ि ् कर्सकेगी्तथा्संबद्ध्व्् य ध् त ् को्`
+  line `उतिी्अवधि - पयषन्् त ् धिरुद्ध्रि्सकेगी,्धजतिी्वह्िीक्समझे्।्`
+  line `(2) दकसी्ऐसे्मामले्में,्धजसमें्सलाहकार्बोडष्िे्ररपोिष्िी्है्दक्दकसी्व्् य ध् त ् के्धिरोि्के्धलए्उसकी्राय्में्पयाषप्् त ्`
+  line `कारण्िहीं्है,्समुधित्सरकार्धिरोि - आिेश्वापस्ले्लेगी्तथा्उस्व्् य ध् त ् को ् तुरन्् तु ् छुड़वा्िेगी्।्`
+  line `13. ् धिरोि्की्अधिकतम्अवधि –– िारा 12 ् के्अिीि्पुष्‍ट् ि ् दकए्गए्दकसी्धिरोि - आिेश्के्अिुसरण्में्दकसी्व्् य ध् त ् को्`
+  line `धजस्अधिकतम्अवधि - पयषन्् त ् धिरुद्ध्रिा्जा्सकेगा्वह्धिरोि्की्तारीि्से्बारह्मास्की्होगी्:्`
+  line `परन्् तु ् इस्िारा्की्कोई्बात्धिरोि - आिेश्को ् पहले्ही्दकसी्समय्वापस्लेिे्या्उपांतररत्करिे्की्समुधित्सरकार्की्`
+  line `शध् त ् पर्प्रभाव्िहीं्डालेगी्।्`
+  line `14. ् धिरोि - आिेश्वापस्लेिा –– (1) ् सािारण्िण्् ड ् अधिधियम, 1897 (1897 ् का 10) ् की्िारा 21 ् के्उपबन्् िों ् पर्प्रधतकूल् प्र`
+  line `भाव्डाले्धबिा,्दकसी्धिरोि - आिेश्को्दकसी्भी्समय, ––`
+  line `( क ) ् इस्बात्के्होते्हुए्भी्दक्आिेश,्िारा 3 ् की्उपिारा (3) ् में्वर्णषत्दकसी्अधिकारी्द्वारा्दकया्गया्है,्`
+  line `उस्राज्् य ् सरकार्द्वारा,्धजसके्वह्अधिकारी्अिीिस्् थ ् है्या्केन्् री य्सरकार्द्वारा्वापस्धलया्जा्सकेगा्या्उपांतररत्`
+  line दकया्जा्सकेगा;्
+  line `( ि ) ् इस्बात्के्होते्हुए्भी्दक ् आिेश्दकसी्राज्् य ् सरकार्द्वारा्दकया्गया्है,्केन्् री य्सरकार्द्वारा् वापस्धलया्`
+  line जा्सकेगा्या्उपांतररत्दकया्जा्सकेगा्।्
+  line `1 [ (2) ् दकसी्धिरोि - आिेश्के ( धजसे्इस्उपिारा्में्इसके्पश्् िा त््पूवषवती्धिरोि - आिेश्कहा्गया्है ) ् अवसाि्या् वापस्`
+  line `धलए्जािे्के्कारण [ िाहे्ऐसा्पूवष वती्धिरोि - आिेश्राष्‍ट् री य्सुरक्षा् ( िूसरा्संशोिि ) ् अधिधियम,् 1984 ् के्प्रारम्् भ ् के्पूवष्या्उसके्`
+  line `पश्् िा त््दकया्गया्हो ] उसी्व्् य ध् त ् के्धवरुद्ध्िारा् 3 ् के्अिीि्िूसरे्धिरोि - आिेश्का् ( धजसे्इस्उप िारा्में्इसके्पश्् िा त््पश्् िा त् वती ्`
+  line `धिरोि - आिेश्कहा्गया्है ) ् दकया्जा िा्वर्जषत्िहीं्होगा्:्`
+  line `परन्् तु ् यदि्ऐसे्व्् य ध् त ् के्धवरुद्ध्दकए्गए्पूवषवती्धिरोि - आिेश्के्अवसाि्या्वापस्धलए्जािे्के्पश्् िा त््कोई्िए्तथ्् य ्`
+  line `उत्् प न्् ि ् िहीं्हु ए् हैं् तो् ऐसी् अधिकतम् अवधि,् धजसके ् धलए् ऐसा्व््य ध् त ् पश्् िा त् वती ् धिरोि - आिेश् के्अिुसरण् में् धिरुद्ध ् दक या ् जा्`
+  line `सकेगा,्दकसी्भी्िशा्में,्पूवषवती्धिरोि - आिेश्के्अिीि्धिरोि्की्तारीि्से्बारह्मास्की्अवधि्के्अवसाि्के्परे्िहीं्बढाई्`
+  line `जाएगी्। ]`
+  line `2 [ 14 क. वे्पररधस्् थ धतयां्धजिमें्व्् य ध् त यों्को्सलाहकार्बोडों्की्राय्प्राप्् त ् दकए्धबिा,्तीि्मास्से्अधिक्अवधि ् के्धलए्`
+  line `धिेरोि् में्रिा्जा्सकेगा –– (1) इस्अधिधियम्के्पूवषगामी्उपबंिों्में,्या्दकसी्न्् या यालय ् या्अन्् य ्प्र ाधिकारी्के्दकसी्धिणषय,्धडिी्`
+  line `या्आिेश्में,्दकसी्बात्के्होते्हुए्भी,्उस्व््य ध् त ् को,्धजसके्संबंि्में् 3 [8 ् जूि, 1989] ् से्पहले्दकसी्समय्इस्अधिधियम्के्`
+  line `अिीि्कोई्धिरोि्आिेश ् दकया्गया्है,्सलाहकार्बोडष्की्राय्प्राप्् त ् दकए्धबिा,्उसके्धिरोि्की्तारीि्से्तीि्मास्से्अधिक्`
+  line `दकन्् तु ् छह्मास्से्अिधिक्की्अवधि्के्धलए्उस ् िशा्में्धिरोि्में्रिा्जा्सकेगा्जब्ऐसे्व्् य ध् त ् की्दकसी्धवक्षुब्् ि ्क्षेत्र् में, ––`
+  line `(i) आतंकवािी्और्धवध्् वं सक् दि याकलापों ् से्धिपििे्में्सरकार्के्प्रयासों्में्हस्् त क्षे प्करिे्से;्और्`
+  line `(ii) ( क ) ् भारत्की्रक्षा;्या्`
+  line `( ि ) ् भारत्की्सुरक्षा;्या्`
+  line `( ग ) ् राज्् य ् की्सुरक्षा;्या्`
+  line `( घ ) ् लोक्व्् य वस्् था ् बिाए्रििे;्या्`
+  line `( ङ ) समुिाय्के्धलए्आवश्् य क्प्रिायों्सेवाओं्को्बिाए्रििे,्`
+  line `पर्प्रधतकूल्प्रभाव्डा लिे्वाली्रीधत्से्कायष्करिे्से्धिवाररत्करिे्की्िृधष्‍ट् ि ् से्धिरुद्ध्दकया्गया्है्।् स््`
+  line `प ष्‍ट् िी करण ् 1 –– िारा् 3 की्उपिारा् (2) ् के्स्् प ष्‍ट् िी करण्के्उपबंि्इस्उपिारा्के्प्रयोजिों्के्धलए्उसी्प्रकार्लागू्होंगे्`
+  line जैसे्वे्उस्उपिारा्के्प्रयोजिों्के्धलए्लागू्होते्हैं्।्
+  line `1 1984 ् के्अधिधियम्सं ० 60 ् की्िारा 3 ् द्व ारा (21 - 6 - 1984 से ) प्र धतस्् था धपत्।`
+  line `2 1987 ् के्अधिधियम्सं ० 27 ् की्िारा 3 ् द्व ारा् (9 - 6 - 1987 से ) अंत:स्् था धपत्।्`
+  line `3 1988 के्अधिधियम्सं ० 43 की्िारा 2 द्व ारा (26 - 5 - 1988 से ) प्र धतस्् था धपत्।`
+obj_root_law_translations_hi_sections_4_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_5:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-5)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Page 5`)
-  (str content) (str `5 स््
-प ष्‍ट् िी करण ् 2 –– इस् उपिारा् में, “ धवक्षुब्् ि ्क्षेत्र ” ् से् ऐसा्क्षेत्र् अधभप्रेत् है् जो् पंजाब् धवक्षुब्् ि ्क्षेत्र् अधिधियम, 1983 ््््््््््््््््
-(1983 ् का 32) ् की्िारा 3 ् के्अिीि्या्िंडीगढ्धवक्षुब्् ि ्क्षेत्र् अधिधियम, 1983 (1983 ् का 33) ् की्िारा् 3 ् के्अिीि,्अधिसूििा् द्व
-ारा, ् तत्् स मय्धवक्षुब्् ि ्क्षेत्र् घोधषत्दकया्जाता्है्।् स््
-प ष्‍ट् िी करण् 3 –– इस् उपिारा्् में,् “ आतंकवािी् और् धवध्् वं सक् दियाकलाप ” ् से् आतंकवािी् और् धवध्् वं सक् दियाकलाप्
-( धिवारण ) ् अध्् या िेश,् 1987 (1987 ् का 2) ् के्अथष्में “ आतंकवािी्कायष ” ् और “ धवध्् वं सक्दियाकलाप ” ् अधभप्रेत्हैं ्।्
-(2) ् ऐसे् दकसी्व््य ध् त ् की् िशा् में् धजसे् उपिारा (1) ् लागू् होती् है,् िारा 3,् िारा 8 ् और् िारा 10 ् से् िारा 14 तक,्
-धिम्् ि धलधित्उपान्् त रणों्के्अिीि्रहते्हुए,्प्रभावी्होंगी,्अथाषत््: ––
-( क ) ् िारा 3 में, ––
-(i) ् उपिारा (4) ् के्परंतुक्में, ––
-( अ ) “ िस्दिि ” ् शब्् िों ् के् स्् था ि्पर, ् “ पन्् र ह्दिि ” ् शब्् ि ् रिे्जाएंगे;्
-( आ ) “ पन्् र ह्दिि ” ् शब्् िों ् के्स्् था ि्पर, ् “ बीस्दिि ” ् शब्् ि ् रिे्जाएंगे;््
-(ii) ् उपिारा (5) ् में,् “ सात्दिि ” ् शब्् िों ् के्स्् था ि्पर, “ पन्् र ह्दिि ” ् शब्् ि ् रिे्जाएंगे;्
-( ि ) ् िारा 8 ् की्उपिारा (1) ् में,् “ िस्दिि ” ् शब्् िों ् के् स्् था ि्पर, ् “ पन्् र ह्दिि ” ् शब्् ि ् रिे्जाएंगे;्
-( ग ) ् िारा 10 में,् “ तीि् सप्् ता ह् के् भीतर ” ् शब्् िों ् के्स््था ि् पर, ् “ िार् मास् और् िो् सप्् ता ह् के् भीतर ” ् शब्् ि ् ््््््््््््््््््
-रिे्जाएंगे;्
-( घ ) िारा् 11 में, ––
-(i) ् उपिारा् (1) में,् “ सात् सप्् ता ह् के् भीतर ” ् शब्् िों ् के्स््था ि् पर, ् “ पांि् मास् और् तीि् सप्् ता ह ” ् ्््््््््््््््््््््
-शब्् ि ् रिे्जाएंगे;्
-(ii) ् उपिारा (2) ् में, “ संबद्ध्व््य ध् त ् के्धिरोि ” ् शब्् िों ् के्स्् था ि्पर, ् “ संबद्ध्व््य ध् त ् के्धिरंतर्धिरोि ” ्
-शब्् ि रिे्जाएंगे;्
-( ङ ) ् िारा 12 ् में,् “ धिरोि् के्धलए ” ् शब्् िों ् के्स््था ि् पर,् उि् िो्स््था िों् पर, ् जहां् वे् आते्हैं,् “ धिरंतर् धिरोि्के्
-धलए ” ् शब्् ि ् रिे्जाएंगे;्
-( ि ) ् िारा 13 ् में, “ बारह्मास ” ् शब्् िों ् के्स्् था ि्पर, ् “ िो्वषष ” ् शब्् ि ् रिे्जाएंगे;्
-( छ ) ् िारा 14 ् की्उपिारा (2) ् के्परंतुक में् “ बारह्मास ” ् शब्् िों ् के्स्् था ि्पर, ् “ िो्वषष ” ् शब्् ि ् रिे्जाएंगे। ]
-15. ् धिरुद्ध्व््य ध् त यों् का् अस्् था यी् तौर् पर् छोड़ा् जािा –– (1) ् समुधित् सरकार् दकसी् भी् समय् धििेश् िे् सकेगी् दक् ््््््््््््
-धिरोि - आिेश् के् अिुसरण् में् धिरुद्ध् कोई्व््य ध् त,् या् तो् धबिा् शतों् के् या् धििेश् में् धवधिर्िषष्‍ट् ि ् ऐसी् शतों् पर,् धज न्् हें ् वह्व््य ध् त ् स््
-वी कार्करे,्दकसी्धवधिर्िषष्‍ट् ि ् अवधि्के्धलए्छोड़्दिया्जाए्और्उसका्छोड़ा्जािा्वह्दकसी्भी्समय्रद्द्कर्सकेगी्।्
-(2) उपिारा् (1) ् के्अिीि्दकसी्व्् य ध् त ् के्छोड़े्जािे्का्धििेश्िेते्समय,्समुधित्सरकार्उससे्अपेक्षा्कर्सकेगी्दक्वह्
-धििेश्में्धवधि र् िषष्‍ट् ि ् शतों ् के्उधित्पालि्के्धलए्प्रधतभु ओं् सधहत्या्उिके्धबिा्बंिपत्र्धिष्‍ट् पा दित्करे्।्
-(3) उपिारा् (1) ् के्अिीि ् छोड़ा्गया्कोई्व्् य ध् त ् अपिे्को ् उस्समय्और्स्् था ि्पर्और्उस्प्राधिकारी्के्समक्ष्अभ्् य र् पषत्
-करेगा्जो,्यथाधस्् थ धत,्उसके्छोड़्जािे्का्धििेश्िेिे्वा ले्या्उसका्छोड़ा्जािा्रद्द्करिे्वाले्आिेश्में्धवधिर्िषष्‍ट् ि ् हो्।् ्
-(4) यदि्पयाषप्् त ् कारण्के्धबिा्कोई्व्् य ध् त ् उपिारा (3) ् में्धवधिर्िषष्‍ट् ि ् रीधत्से् अपिे्को ् अभ्् य र् पषत्करिे्में्असफल्रहेगा्
-तो्वह्कारावास्से,्धजसको्अवधि्िो्वषष्तक्की्हो्सकेगी,्या्जुमाषिे्से,्या्िोिों्से,्िण्् ड िीय्होगा्।्
-(5) ् यदि्उपिारा (1) ् के्अिीि्छोड़ा्गया्कोई्व्् य ध् त ् उस्पर्उ् त ् उपिारा्के्अिीि्अधिरोधपत्शतों्पर्उसके्द्वारा्
-धिष्‍ट् पा दित्बन्् ि पत्र्की्शतों्में्से्दकसी्को्पूरा्करिे्में्असफल्रहेगा्तो्उि्बन्् ि पत्र्का्समपह्त्दकया्जािा्घोधषत् कर्दिया्
-जाएगा्और्उसके्द्वारा्आबद्ध्व्् य ध् त ् उसमें् िी्गई ् शाधस्् त ् का्िेििार्होगा्।्
-16. ् सद्भावपूवषक्की्गई्कारषवाई्के्धलए्संरक्षण –– इस्अधिधियम्के्अिुसरण्में्सद्भावपूवषक्की्गई्या्की्जािे्के्धलए्
-आशधयत्दकसी्बात्के्बारे्में्कोई्वाि्या्अन्् य ् धवधिक्कायषवाही्के न्् री य्सरकार्या्दकसी्राज्् य ् सरकार् के ् धवरुद्ध्िहीं्होगी्और्ि्
-कोई्वाि,्अधभयोजि्या्अन्् य ् धवधिक्कायषवाही्दकसी्व्् य ध् त ् के्धवरुद्ध्होगी्।
-17. अधिधियम्का्राज्् य ् धवधियों्के्अिीि्धिरुद्ध्व्् य ध् त यों्के्संबंि्में्प्रभावी्ि्होिा –– (1) ् इस्अधिधियम्की्कोई्बात,्
-दकसी ् राज्् य ् धवधि्के्अिीि्दकए्गए्ऐसे्धिरोि - आिेशों्के्संबंि्में,्जो्राष्‍ट् री य्सुरक्षा्अध्् या िेश, 1980 ( 1980 ् का् 11 ) ् के्प्रारम्् भ ् के्
-िीक्पूवष्प्रवृत्त्हैं,्लागू्या्दकसी्प्रकार्प्रभावी्िहीं्होगी्और्तििुसार्ऐसा्प्रत््ये क्व्् य ध् त,्धजसके्संबंि्में्दकसी्राज्् य ् धवधि ् के्
-अिीि्दकया्गया्कोई्धिरोि - आिेश,्ऐसे्प्रारम्् भ ् के्िीक्पूवष्प्रवृत्त्है,्ऐसे्धिरोि्के्संबंि्में्ऐसी्राज्् य ् धवधि्के्उपबन्् िों ्द्व ारा्या्`)
-  (str footnotes) (str )
-  (str sourcePage) (int 5)
+  kind page
+  sectionId pdf-page-5
+  sectionNo (5)
+  orderNo 5
+  title `Page 5`
+  content obj_root_law_translations_hi_sections_5_content
+  footnotes obj_root_law_translations_hi_sections_5_footnotes
+  sourcePage 5
+obj_root_law_translations_hi_sections_5_content:
+  string
+  line `5 स््`
+  line `प ष्‍ट् िी करण ् 2 –– इस् उपिारा् में, “ धवक्षुब्् ि ्क्षेत्र ” ् से् ऐसा्क्षेत्र् अधभप्रेत् है् जो् पंजाब् धवक्षुब्् ि ्क्षेत्र् अधिधियम, 1983 ््््््््््््््््`
+  line `(1983 ् का 32) ् की्िारा 3 ् के्अिीि्या्िंडीगढ्धवक्षुब्् ि ्क्षेत्र् अधिधियम, 1983 (1983 ् का 33) ् की्िारा् 3 ् के्अिीि,्अधिसूििा् द्व`
+  line `ारा, ् तत्् स मय्धवक्षुब्् ि ्क्षेत्र् घोधषत्दकया्जाता्है्।् स््`
+  line `प ष्‍ट् िी करण् 3 –– इस् उपिारा्् में,् “ आतंकवािी् और् धवध्् वं सक् दियाकलाप ” ् से् आतंकवािी् और् धवध्् वं सक् दियाकलाप्`
+  line `( धिवारण ) ् अध्् या िेश,् 1987 (1987 ् का 2) ् के्अथष्में “ आतंकवािी्कायष ” ् और “ धवध्् वं सक्दियाकलाप ” ् अधभप्रेत्हैं ्।्`
+  line `(2) ् ऐसे् दकसी्व््य ध् त ् की् िशा् में् धजसे् उपिारा (1) ् लागू् होती् है,् िारा 3,् िारा 8 ् और् िारा 10 ् से् िारा 14 तक,्`
+  line `धिम्् ि धलधित्उपान्् त रणों्के्अिीि्रहते्हुए,्प्रभावी्होंगी,्अथाषत््: ––`
+  line `( क ) ् िारा 3 में, ––`
+  line `(i) ् उपिारा (4) ् के्परंतुक्में, ––`
+  line `( अ ) “ िस्दिि ” ् शब्् िों ् के् स्् था ि्पर, ् “ पन्् र ह्दिि ” ् शब्् ि ् रिे्जाएंगे;्`
+  line `( आ ) “ पन्् र ह्दिि ” ् शब्् िों ् के्स्् था ि्पर, ् “ बीस्दिि ” ् शब्् ि ् रिे्जाएंगे;््`
+  line `(ii) ् उपिारा (5) ् में,् “ सात्दिि ” ् शब्् िों ् के्स्् था ि्पर, “ पन्् र ह्दिि ” ् शब्् ि ् रिे्जाएंगे;्`
+  line `( ि ) ् िारा 8 ् की्उपिारा (1) ् में,् “ िस्दिि ” ् शब्् िों ् के् स्् था ि्पर, ् “ पन्् र ह्दिि ” ् शब्् ि ् रिे्जाएंगे;्`
+  line `( ग ) ् िारा 10 में,् “ तीि् सप्् ता ह् के् भीतर ” ् शब्् िों ् के्स््था ि् पर, ् “ िार् मास् और् िो् सप्् ता ह् के् भीतर ” ् शब्् ि ् ््््््््््््््््््`
+  line रिे्जाएंगे;्
+  line `( घ ) िारा् 11 में, ––`
+  line `(i) ् उपिारा् (1) में,् “ सात् सप्् ता ह् के् भीतर ” ् शब्् िों ् के्स््था ि् पर, ् “ पांि् मास् और् तीि् सप्् ता ह ” ् ्््््््््््््््््््््`
+  line `शब्् ि ् रिे्जाएंगे;्`
+  line `(ii) ् उपिारा (2) ् में, “ संबद्ध्व््य ध् त ् के्धिरोि ” ् शब्् िों ् के्स्् था ि्पर, ् “ संबद्ध्व््य ध् त ् के्धिरंतर्धिरोि ” ्`
+  line `शब्् ि रिे्जाएंगे;्`
+  line `( ङ ) ् िारा 12 ् में,् “ धिरोि् के्धलए ” ् शब्् िों ् के्स््था ि् पर,् उि् िो्स््था िों् पर, ् जहां् वे् आते्हैं,् “ धिरंतर् धिरोि्के्`
+  line `धलए ” ् शब्् ि ् रिे्जाएंगे;्`
+  line `( ि ) ् िारा 13 ् में, “ बारह्मास ” ् शब्् िों ् के्स्् था ि्पर, ् “ िो्वषष ” ् शब्् ि ् रिे्जाएंगे;्`
+  line `( छ ) ् िारा 14 ् की्उपिारा (2) ् के्परंतुक में् “ बारह्मास ” ् शब्् िों ् के्स्् था ि्पर, ् “ िो्वषष ” ् शब्् ि ् रिे्जाएंगे। ]`
+  line `15. ् धिरुद्ध्व््य ध् त यों् का् अस्् था यी् तौर् पर् छोड़ा् जािा –– (1) ् समुधित् सरकार् दकसी् भी् समय् धििेश् िे् सकेगी् दक् ््््््््््््`
+  line `धिरोि - आिेश् के् अिुसरण् में् धिरुद्ध् कोई्व््य ध् त,् या् तो् धबिा् शतों् के् या् धििेश् में् धवधिर्िषष्‍ट् ि ् ऐसी् शतों् पर,् धज न्् हें ् वह्व््य ध् त ् स््`
+  line `वी कार्करे,्दकसी्धवधिर्िषष्‍ट् ि ् अवधि्के्धलए्छोड़्दिया्जाए्और्उसका्छोड़ा्जािा्वह्दकसी्भी्समय्रद्द्कर्सकेगी्।्`
+  line `(2) उपिारा् (1) ् के्अिीि्दकसी्व्् य ध् त ् के्छोड़े्जािे्का्धििेश्िेते्समय,्समुधित्सरकार्उससे्अपेक्षा्कर्सकेगी्दक्वह्`
+  line `धििेश्में्धवधि र् िषष्‍ट् ि ् शतों ् के्उधित्पालि्के्धलए्प्रधतभु ओं् सधहत्या्उिके्धबिा्बंिपत्र्धिष्‍ट् पा दित्करे्।्`
+  line `(3) उपिारा् (1) ् के्अिीि ् छोड़ा्गया्कोई्व्् य ध् त ् अपिे्को ् उस्समय्और्स्् था ि्पर्और्उस्प्राधिकारी्के्समक्ष्अभ्् य र् पषत्`
+  line `करेगा्जो,्यथाधस्् थ धत,्उसके्छोड़्जािे्का्धििेश्िेिे्वा ले्या्उसका्छोड़ा्जािा्रद्द्करिे्वाले्आिेश्में्धवधिर्िषष्‍ट् ि ् हो्।् ्`
+  line `(4) यदि्पयाषप्् त ् कारण्के्धबिा्कोई्व्् य ध् त ् उपिारा (3) ् में्धवधिर्िषष्‍ट् ि ् रीधत्से् अपिे्को ् अभ्् य र् पषत्करिे्में्असफल्रहेगा्`
+  line `तो्वह्कारावास्से,्धजसको्अवधि्िो्वषष्तक्की्हो्सकेगी,्या्जुमाषिे्से,्या्िोिों्से,्िण्् ड िीय्होगा्।्`
+  line `(5) ् यदि्उपिारा (1) ् के्अिीि्छोड़ा्गया्कोई्व्् य ध् त ् उस्पर्उ् त ् उपिारा्के्अिीि्अधिरोधपत्शतों्पर्उसके्द्वारा्`
+  line `धिष्‍ट् पा दित्बन्् ि पत्र्की्शतों्में्से्दकसी्को्पूरा्करिे्में्असफल्रहेगा्तो्उि्बन्् ि पत्र्का्समपह्त्दकया्जािा्घोधषत् कर्दिया्`
+  line `जाएगा्और्उसके्द्वारा्आबद्ध्व्् य ध् त ् उसमें् िी्गई ् शाधस्् त ् का्िेििार्होगा्।्`
+  line `16. ् सद्भावपूवषक्की्गई्कारषवाई्के्धलए्संरक्षण –– इस्अधिधियम्के्अिुसरण्में्सद्भावपूवषक्की्गई्या्की्जािे्के्धलए्`
+  line `आशधयत्दकसी्बात्के्बारे्में्कोई्वाि्या्अन्् य ् धवधिक्कायषवाही्के न्् री य्सरकार्या्दकसी्राज्् य ् सरकार् के ् धवरुद्ध्िहीं्होगी्और्ि्`
+  line `कोई्वाि,्अधभयोजि्या्अन्् य ् धवधिक्कायषवाही्दकसी्व्् य ध् त ् के्धवरुद्ध्होगी्।`
+  line `17. अधिधियम्का्राज्् य ् धवधियों्के्अिीि्धिरुद्ध्व्् य ध् त यों्के्संबंि्में्प्रभावी्ि्होिा –– (1) ् इस्अधिधियम्की्कोई्बात,्`
+  line `दकसी ् राज्् य ् धवधि्के्अिीि्दकए्गए्ऐसे्धिरोि - आिेशों्के्संबंि्में,्जो्राष्‍ट् री य्सुरक्षा्अध्् या िेश, 1980 ( 1980 ् का् 11 ) ् के्प्रारम्् भ ् के्`
+  line `िीक्पूवष्प्रवृत्त्हैं,्लागू्या्दकसी्प्रकार्प्रभावी्िहीं्होगी्और्तििुसार्ऐसा्प्रत््ये क्व्् य ध् त,्धजसके्संबंि्में्दकसी्राज्् य ् धवधि ् के्`
+  line `अिीि्दकया्गया्कोई्धिरोि - आिेश,्ऐसे्प्रारम्् भ ् के्िीक्पूवष्प्रवृत्त्है,्ऐसे्धिरोि्के्संबंि्में्ऐसी्राज्् य ् धवधि्के्उपबन्् िों ्द्व ारा्या्`
+obj_root_law_translations_hi_sections_5_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_6:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-6)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Page 6`)
-  (str content) (str `6
-जहां ् धजस्राज्् य ् धवधि्के्अिीि्ऐसा्धिरोि - आिेश्दकया्गया्है,्वह्उस्राज्् य ् के्राज्् य पाल्द्वारा ् प्र ख् या धपत्कोई्अध्् या िेश्है ( धजसे्
-इसमें्इसके्पश्् िा त््राज्् य ् अध्् या िेश्कहा्गया्है ) और्ऐसे्राज्् य ् अध्् या िेश्का्स्् था ि, ––
-(i) ् ऐसे्प्र ारम्् भ ् के् पूवष,् उस् राज्् य ् के् धविाि - मण्् ड ल्द्व ारा ् पाररत् दकसी् अधिधियधमधत् िे् ले् धलया् है,् वहां् ्््््््््
-ऐसी्अधिधियधमधत्द्वारा,्या्
-(ii) ् ऐसे्प्र ारम्् भ ् के् पश्् िा त्,् उस् राज्् य ् के् धविाि - मण्् ड ल्द्व ारा् पाररत् दकसी् ऐसी् अधिधियधमधत् िे् ले् धलया् है्
-धजसका् लागू् होिा् ऐसे् राज्् य ् अध्् या िेश् के् अिीि् ऐसे्प्र ारम्् भ ् के् पूवष् दकए् गए् धिरोि - आिेशों् तक् सीधमत् है,् वहां् ऐसी्
-अधिधियधमधत्द्वारा,्
-उसी्प्रकार्शाधसत्होगा्मािो्यह्अधिधियम्अधिधियधम त्ही्ि्दकया्गया्हो्।्
-(2) ् इस्िारा्की्दकसी्बात्के्बारे्में्यह्िहीं्समझा्जाएगा्दक्वह्उपिारा (1) ् में्धिर्िषष्‍ट् ि ् दकसी्व्् य ध् त ् के्धवरुद्ध,्िारा्
-3 के्अिीि्दकसी्धिरोि - आिेश्के्दकए्जािे्का्उस्िशा्में्वजषि ् करती्है्जब्ऐसे्व््य ध् त ् के्संबंि्में्राष्‍ट् री य - सुरक्षा ् अध्् या िेश,्
-1980 (1980 ् का 11) ् के्प्रारम्् भ ् के्िीक्पूवष्यथापूवो् त ्प्र वृत्त्धिरोि - आिेश्दकसी्भी्कारणवश,्प्रवृत्त्िहीं्रह्जाता्है्।् स््
-प ष्‍ट् िी करण –– इस्िारा्के्प्रयोजिों्के्धलए, “ राज्् य ् धवधि ” ् से्कोई्ऐसी्धवधि्अधभप्रेत्है्जो,्उि्सभी्या्उिमें्से्दकसी्
-आिार्पर,्धजि्पर्िारा 3 की्उपिारा् (2) ् के्अिीि्कोई्धिरोि - आिेश्दकया्जा्सकता्है,्धिवारक्धिरोि्के्धलए्उपबन्् ि ् करती्
-है्और्जो्उ् त ् अध्् या िेश्के्प्रारम्् भ ् के्िीक्पूवष्दकसी्राज्् य ् में्प्रवृत्त्है्।्
-18. ् धिरसि्और्व्् या वृधत्त –– राष्‍ट् री य्सुरक्षा्अध्् या िेश, 1980 (1980 ् का 1 1) ् इसके्द्वारा्धिरधसत्दकया्जाता्है्।्
-(2) ऐ से् धिरसि् के् होते्हु ए् भी,् उ् त ् अ ध्् या िेश् के् अिीि् की् गई् कोई् बात् या् कारषवाई,् इस् अधिधियम् के् तत््स्् था िी्
-उपबन्् िों ् के्अिीि्इस्प्रकार्की्गई्समझी्जाएगी्मािो्यह्अधिधियम् 23 ् धसतम्् ब र, 1980 ् को्प्रवृत्त्हो्गया्हो्और्धवधशष्‍ट् ि त:्
-उ् त ् अध्् या िेश्की्िारा 10 ् के्अिीि्दकए्गए्दकसी्धििेश्में,्जो्उस्तारीि्से,्धजसको्इस्अधिधियम्को्राष्‍ट् र पधत्की्अिुमधत् प्र
-ाप्् त ् होती्है,्िीक्पूवष्दकसी्सलाहकार्बोडष्के्समक्ष्लधम्् ब त्है,्उस्तारीि्के्पश्् िा त््उस्बोडष्द्वारा्कारषवाई्इस्प्रकार्िालू्रिी्
-जा्सकेगी्मािो्ऐसा्बोडष्इस्अधिधियम्की्िारा 9 ् के्अिीि्गरित्दकया्गया्हो्।्
-______`)
-  (str footnotes) (str )
-  (str sourcePage) (int 6)
+  kind page
+  sectionId pdf-page-6
+  sectionNo (6)
+  orderNo 6
+  title `Page 6`
+  content obj_root_law_translations_hi_sections_6_content
+  footnotes obj_root_law_translations_hi_sections_6_footnotes
+  sourcePage 6
+obj_root_law_translations_hi_sections_6_content:
+  string
+  line 6
+  line `जहां ् धजस्राज्् य ् धवधि्के्अिीि्ऐसा्धिरोि - आिेश्दकया्गया्है,्वह्उस्राज्् य ् के्राज्् य पाल्द्वारा ् प्र ख् या धपत्कोई्अध्् या िेश्है ( धजसे्`
+  line `इसमें्इसके्पश्् िा त््राज्् य ् अध्् या िेश्कहा्गया्है ) और्ऐसे्राज्् य ् अध्् या िेश्का्स्् था ि, ––`
+  line `(i) ् ऐसे्प्र ारम्् भ ् के् पूवष,् उस् राज्् य ् के् धविाि - मण्् ड ल्द्व ारा ् पाररत् दकसी् अधिधियधमधत् िे् ले् धलया् है,् वहां् ्््््््््`
+  line ऐसी्अधिधियधमधत्द्वारा,्या्
+  line `(ii) ् ऐसे्प्र ारम्् भ ् के् पश्् िा त्,् उस् राज्् य ् के् धविाि - मण्् ड ल्द्व ारा् पाररत् दकसी् ऐसी् अधिधियधमधत् िे् ले् धलया् है्`
+  line `धजसका् लागू् होिा् ऐसे् राज्् य ् अध्् या िेश् के् अिीि् ऐसे्प्र ारम्् भ ् के् पूवष् दकए् गए् धिरोि - आिेशों् तक् सीधमत् है,् वहां् ऐसी्`
+  line अधिधियधमधत्द्वारा,्
+  line `उसी्प्रकार्शाधसत्होगा्मािो्यह्अधिधियम्अधिधियधम त्ही्ि्दकया्गया्हो्।्`
+  line `(2) ् इस्िारा्की्दकसी्बात्के्बारे्में्यह्िहीं्समझा्जाएगा्दक्वह्उपिारा (1) ् में्धिर्िषष्‍ट् ि ् दकसी्व्् य ध् त ् के्धवरुद्ध,्िारा्`
+  line `3 के्अिीि्दकसी्धिरोि - आिेश्के्दकए्जािे्का्उस्िशा्में्वजषि ् करती्है्जब्ऐसे्व््य ध् त ् के्संबंि्में्राष्‍ट् री य - सुरक्षा ् अध्् या िेश,्`
+  line `1980 (1980 ् का 11) ् के्प्रारम्् भ ् के्िीक्पूवष्यथापूवो् त ्प्र वृत्त्धिरोि - आिेश्दकसी्भी्कारणवश,्प्रवृत्त्िहीं्रह्जाता्है्।् स््`
+  line `प ष्‍ट् िी करण –– इस्िारा्के्प्रयोजिों्के्धलए, “ राज्् य ् धवधि ” ् से्कोई्ऐसी्धवधि्अधभप्रेत्है्जो,्उि्सभी्या्उिमें्से्दकसी्`
+  line `आिार्पर,्धजि्पर्िारा 3 की्उपिारा् (2) ् के्अिीि्कोई्धिरोि - आिेश्दकया्जा्सकता्है,्धिवारक्धिरोि्के्धलए्उपबन्् ि ् करती्`
+  line `है्और्जो्उ् त ् अध्् या िेश्के्प्रारम्् भ ् के्िीक्पूवष्दकसी्राज्् य ् में्प्रवृत्त्है्।्`
+  line `18. ् धिरसि्और्व्् या वृधत्त –– राष्‍ट् री य्सुरक्षा्अध्् या िेश, 1980 (1980 ् का 1 1) ् इसके्द्वारा्धिरधसत्दकया्जाता्है्।्`
+  line `(2) ऐ से् धिरसि् के् होते्हु ए् भी,् उ् त ् अ ध्् या िेश् के् अिीि् की् गई् कोई् बात् या् कारषवाई,् इस् अधिधियम् के् तत््स्् था िी्`
+  line `उपबन्् िों ् के्अिीि्इस्प्रकार्की्गई्समझी्जाएगी्मािो्यह्अधिधियम् 23 ् धसतम्् ब र, 1980 ् को्प्रवृत्त्हो्गया्हो्और्धवधशष्‍ट् ि त:्`
+  line `उ् त ् अध्् या िेश्की्िारा 10 ् के्अिीि्दकए्गए्दकसी्धििेश्में,्जो्उस्तारीि्से,्धजसको्इस्अधिधियम्को्राष्‍ट् र पधत्की्अिुमधत् प्र`
+  line `ाप्् त ् होती्है,्िीक्पूवष्दकसी्सलाहकार्बोडष्के्समक्ष्लधम्् ब त्है,्उस्तारीि्के्पश्् िा त््उस्बोडष्द्वारा्कारषवाई्इस्प्रकार्िालू्रिी्`
+  line `जा्सकेगी्मािो्ऐसा्बोडष्इस्अधिधियम्की्िारा 9 ् के्अिीि्गरित्दकया्गया्हो्।्`
+  line ______
+obj_root_law_translations_hi_sections_6_footnotes:
+  string
+  line

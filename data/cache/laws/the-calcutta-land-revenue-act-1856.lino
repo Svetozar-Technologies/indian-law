@@ -1,62 +1,59 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T19:51:32.582Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19028`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-08T19:51:32.582Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19028`
+  completeFetch true
+  maxSections null
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-calcutta-land-revenue-act-1856)
-  (str handle) (str 19028)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Calcutta Land-Revenue Act, 1856`)
-  (str actNumber) (str 18)
-  (str enactmentDate) (str 1856-08-23)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19028`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str actYear) (str 1856)
-  (str ministry) (str `Ministry of Home Affairs`)
-  (str department) (str `Department of States`)
-  (str longTitle) (str `AN ACT relating to the administration of the Public Revenues in the Town of Calcutta.`)
-  (str enforcementDate) (str 23-08-1856)
+  slug the-calcutta-land-revenue-act-1856
+  handle (19028)
+  collectionHandle 123456789/1362
+  title `The Calcutta Land-Revenue Act, 1856`
+  actNumber (18)
+  enactmentDate 1856-08-23
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/19028`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  actYear (1856)
+  ministry `Ministry of Home Affairs`
+  department `Department of States`
+  longTitle `AN ACT relating to the administration of the Public Revenues in the Town of Calcutta.`
+  enforcementDate 23-08-1856
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
+  en obj_root_law_sources_en
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_calcutta_land_revenue_act_1856
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/19028`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/19028`
 obj_root_law_sources_en_the_calcutta_land_revenue_act_1856:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/19028/1/A1856-18.pdf`)
-  (str title) (str `The Calcutta Land-Revenue Act, 1856`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/19028/1/A1856-18.pdf`
+  title `The Calcutta Land-Revenue Act, 1856`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sections:
-  array
   obj_root_law_sections_3
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 67576)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Collector may entrust any part of his duties to his Deputy.`)
-  (str content) (str `It shall be lawful for the Collector
-of Calcutta to employ any Deputy Collector subordinate to him, in the performance of any part of the duties
-of his office under the said Regulation, or under Act XI of 1849, or Act XXIII of 1850; and all Rules,
-Regulations, and Acts relating to the office of Deputy Collector, shall be of the same force within the Town
-of Calcutta as in other parts of the territories subject to the Presidency of Fort William in Bengal.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00076_1856-18_1659084451530&sectionId=67576&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00076_1856-18_1659084451530)
+  sectionId (67576)
+  sectionNo (3)
+  orderNo 3
+  title `Collector may entrust any part of his duties to his Deputy.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_5_00076_1856-18_1659084451530&sectionId=67576&sectionno=3&orderno=3&orgactid=AC_CEN_5_5_00076_1856-18_1659084451530
+obj_root_law_sections_3_content:
+  string
+  line `It shall be lawful for the Collector`
+  line `of Calcutta to employ any Deputy Collector subordinate to him, in the performance of any part of the duties`
+  line `of his office under the said Regulation, or under Act XI of 1849, or Act XXIII of 1850; and all Rules,`
+  line `Regulations, and Acts relating to the office of Deputy Collector, shall be of the same force within the Town`
+  line `of Calcutta as in other parts of the territories subject to the Presidency of Fort William in Bengal.`
+obj_root_law_sections_3_footnotes:
+  string
+  line

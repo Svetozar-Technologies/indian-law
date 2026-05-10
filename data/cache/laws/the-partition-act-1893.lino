@@ -1,66 +1,56 @@
 obj_root:
-  object
-  (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-10T11:23:08.923Z`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/5657`)
-  (str completeFetch) (bool true)
-  (str maxSections) (null)
-  (str sectionCount) (int 10)
-  (str totalSections) (int 10)
-  (str law) obj_root_law
+  cacheVersion 1
+  fetchedAt `2026-05-10T11:23:08.923Z`
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/5657`
+  completeFetch true
+  maxSections null
+  sectionCount 10
+  totalSections 10
+  law obj_root_law
 obj_root_law:
-  object
-  (str slug) (str the-partition-act-1893)
-  (str handle) (str 5657)
-  (str collectionHandle) (str 123456789/1362)
-  (str title) (str `The Partition Act, 1893`)
-  (str actNumber) (str 04)
-  (str enactmentDate) (str 1893-03-09)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/5657`)
-  (str sources) obj_root_law_sources
-  (str sections) obj_root_law_sections
-  (str hindiTitle) (str `विभाजन अधिनियम, 1893`)
-  (str actYear) (str 1893)
-  (str ministry) (str `Ministry of Law and Justice`)
-  (str department) (str `Legislative Department`)
-  (str longTitle) (str `An Act to amend the Law relating to Partition.`)
-  (str enforcementDate) (str 09-03-1893)
-  (str notification) (undefined)
-  (str fetchedAt) (str `2026-05-09T14:56:00.133Z`)
-  (str translations) obj_root_law_translations
+  slug the-partition-act-1893
+  handle (5657)
+  collectionHandle 123456789/1362
+  title `The Partition Act, 1893`
+  actNumber (04)
+  enactmentDate 1893-03-09
+  sourceUrl `https://www.indiacode.nic.in/handle/123456789/5657`
+  sources obj_root_law_sources
+  sections obj_root_law_sections
+  hindiTitle `विभाजन अधिनियम, 1893`
+  actYear (1893)
+  ministry `Ministry of Law and Justice`
+  department `Legislative Department`
+  longTitle `An Act to amend the Law relating to Partition.`
+  enforcementDate 09-03-1893
+  notification undefined
+  fetchedAt `2026-05-09T14:56:00.133Z`
+  translations obj_root_law_translations
 obj_root_law_sources:
-  object
-  (str en) obj_root_law_sources_en
-  (str hi) obj_root_law_sources_hi
+  en obj_root_law_sources_en
+  hi obj_root_law_sources_hi
 obj_root_law_sources_en:
-  array
   obj_root_law_sources_en_1
   obj_root_law_sources_en_the_partition_act_1893
   obj_root_law_sources_en_user_guide
 obj_root_law_sources_en_1:
-  object
-  (str kind) (str html)
-  (str url) (str `https://www.indiacode.nic.in/handle/123456789/5657`)
+  kind html
+  url `https://www.indiacode.nic.in/handle/123456789/5657`
 obj_root_law_sources_en_the_partition_act_1893:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/5657/1/189304.pdf`)
-  (str title) (str `The Partition Act, 1893`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/5657/1/189304.pdf`
+  title `The Partition Act, 1893`
 obj_root_law_sources_en_user_guide:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/help/userGuide.pdf`)
-  (str title) (str `User Guide`)
+  kind pdf
+  url `https://www.indiacode.nic.in/help/userGuide.pdf`
+  title `User Guide`
 obj_root_law_sources_hi:
-  array
   obj_root_law_sources_hi_1893
 obj_root_law_sources_hi_1893:
-  object
-  (str kind) (str pdf)
-  (str url) (str `https://www.indiacode.nic.in/bitstream/123456789/5657/3/H1893-4.pdf`)
-  (str title) (str `विभाजन अधिनियम, 1893`)
+  kind pdf
+  url `https://www.indiacode.nic.in/bitstream/123456789/5657/3/H1893-4.pdf`
+  title `विभाजन अधिनियम, 1893`
 obj_root_law_sections:
-  array
   obj_root_law_sections_1
   obj_root_law_sections_2
   obj_root_law_sections_3
@@ -72,267 +62,318 @@ obj_root_law_sections:
   obj_root_law_sections_9
   obj_root_law_sections_10
 obj_root_law_sections_1:
-  object
-  (str sectionId) (str 39000)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Title, extent and saving.`)
-  (str content) (str `(1) This Act may be called the Partition Act, 1893.
-
-(2) It extends to the whole of India ^1*** ^2***.
-
-^3*****
-
-(4) But nothing herein contained shall be deemed to affect any local law providing for the partition of immoveable property paying revenue to Government.`)
-  (str footnotes) (str `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule
-(w.e.f. 31-10-2019)..
-
-2. The word "and" rep. by Act 10 of 1914, s. 3 and the Second Schedule.
-
-3. Sub-section (3) rep. by s. 3 and the Second Schedule, ibid.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39000&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39000)
+  sectionNo (1)
+  orderNo 1
+  title `Title, extent and saving.`
+  content obj_root_law_sections_1_content
+  footnotes obj_root_law_sections_1_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39000&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_1_content:
+  string
+  line `(1) This Act may be called the Partition Act, 1893.`
+  line
+  line `(2) It extends to the whole of India ^1*** ^2***.`
+  line
+  line ^3*****
+  line
+  line `(4) But nothing herein contained shall be deemed to affect any local law providing for the partition of immoveable property paying revenue to Government.`
+obj_root_law_sections_1_footnotes:
+  string
+  line `1. The words "except the State of Jammu and Kashmir" omitted by Act 34 of 2019, s. 95 and the Fifth Schedule`
+  line `(w.e.f. 31-10-2019)..`
+  line
+  line `2. The word "and" rep. by Act 10 of 1914, s. 3 and the Second Schedule.`
+  line
+  line `3. Sub-section (3) rep. by s. 3 and the Second Schedule, ibid.`
 obj_root_law_sections_2:
-  object
-  (str sectionId) (str 39001)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Power to court to order sale instead of division in partition suits.`)
-  (str content) (str `Whenever in any suit for
-partition in which, if instituted prior to the commencement of this Act, a decree for partition might have
-been made, it appears to the court that, by reason of the nature of the properly to which the suit relates, or
-of the number of the shareholders therein, or of any other special circumstance, a division of the property
-cannot reasonably or conveniently be made, and that a sale of the property and distribution of the
-proceeds would be more beneficial for all the shareholders, the court may, if it thinks fit, on the request of
-any of such shareholders interested individually or collectively to the extent of one moiety or upwards,
-direct a sale of the property and a distribution of the proceeds.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39001&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39001)
+  sectionNo (2)
+  orderNo 2
+  title `Power to court to order sale instead of division in partition suits.`
+  content obj_root_law_sections_2_content
+  footnotes obj_root_law_sections_2_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39001&sectionno=2&orderno=2&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_2_content:
+  string
+  line `Whenever in any suit for`
+  line `partition in which, if instituted prior to the commencement of this Act, a decree for partition might have`
+  line `been made, it appears to the court that, by reason of the nature of the properly to which the suit relates, or`
+  line `of the number of the shareholders therein, or of any other special circumstance, a division of the property`
+  line `cannot reasonably or conveniently be made, and that a sale of the property and distribution of the`
+  line `proceeds would be more beneficial for all the shareholders, the court may, if it thinks fit, on the request of`
+  line `any of such shareholders interested individually or collectively to the extent of one moiety or upwards,`
+  line `direct a sale of the property and a distribution of the proceeds.`
+obj_root_law_sections_2_footnotes:
+  string
+  line
 obj_root_law_sections_3:
-  object
-  (str sectionId) (str 39002)
-  (str sectionNo) (str 3)
-  (str orderNo) (int 3)
-  (str title) (str `Procedure when sharer undertakes to buy.`)
-  (str content) (str `(1) If, in any case in which the court is requested
-under the last foregoing section to direct a sale, any other shareholder applies for leave to buy at a
-valuation the share or shares of the party or parties asking for a sale, the court shall order a valuation of
-the share or shares in such manner as it may think fit and offer to sell the same to such shareholder at the
-price so ascertained, and may give all necessary and proper directions in that behalf.
-
-(2) If two or more shareholders severally apply for leave to buy as provided in sub-section (1), the
-court shall order a sale of the share or shares to the shareholder who offers to pay the highest price above
-the valuation made by the court.
-
-(3) If no such shareholder is willing to buy such share or shares at the price so ascertained, the
-applicant or applicants shall be liable to pay all costs of or incident to the application or applications.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39002&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39002)
+  sectionNo (3)
+  orderNo 3
+  title `Procedure when sharer undertakes to buy.`
+  content obj_root_law_sections_3_content
+  footnotes obj_root_law_sections_3_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39002&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_3_content:
+  string
+  line `(1) If, in any case in which the court is requested`
+  line `under the last foregoing section to direct a sale, any other shareholder applies for leave to buy at a`
+  line `valuation the share or shares of the party or parties asking for a sale, the court shall order a valuation of`
+  line `the share or shares in such manner as it may think fit and offer to sell the same to such shareholder at the`
+  line `price so ascertained, and may give all necessary and proper directions in that behalf.`
+  line
+  line `(2) If two or more shareholders severally apply for leave to buy as provided in sub-section (1), the`
+  line `court shall order a sale of the share or shares to the shareholder who offers to pay the highest price above`
+  line `the valuation made by the court.`
+  line
+  line `(3) If no such shareholder is willing to buy such share or shares at the price so ascertained, the`
+  line `applicant or applicants shall be liable to pay all costs of or incident to the application or applications.`
+obj_root_law_sections_3_footnotes:
+  string
+  line
 obj_root_law_sections_4:
-  object
-  (str sectionId) (str 39003)
-  (str sectionNo) (str 4)
-  (str orderNo) (int 4)
-  (str title) (str `Partition suit by transferee of share in dwelling-house.`)
-  (str content) (str `(1) Where a share of a dwelling-house
-belonging to an undivided family has been transferred to a person who is not a member of such family
-and such transferee sues for partition, the court shall, if any member of the family being a shareholder
-shall undertake to buy the share of such transferee, make a valuation of such share in such manner as it
-thinks fit and direct the sale of such share to such shareholder, and may give all necessary and proper
-directions in that behalf.
-
-(2) If in any case described in sub-section (1) two or more members of the family being such
-shareholders severally undertake to buy such share, the court shall follow the procedure prescribed by
-sub-section (2) of the last foregoing section.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39003&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39003)
+  sectionNo (4)
+  orderNo 4
+  title `Partition suit by transferee of share in dwelling-house.`
+  content obj_root_law_sections_4_content
+  footnotes obj_root_law_sections_4_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39003&sectionno=4&orderno=4&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_4_content:
+  string
+  line `(1) Where a share of a dwelling-house`
+  line `belonging to an undivided family has been transferred to a person who is not a member of such family`
+  line `and such transferee sues for partition, the court shall, if any member of the family being a shareholder`
+  line `shall undertake to buy the share of such transferee, make a valuation of such share in such manner as it`
+  line `thinks fit and direct the sale of such share to such shareholder, and may give all necessary and proper`
+  line `directions in that behalf.`
+  line
+  line `(2) If in any case described in sub-section (1) two or more members of the family being such`
+  line `shareholders severally undertake to buy such share, the court shall follow the procedure prescribed by`
+  line `sub-section (2) of the last foregoing section.`
+obj_root_law_sections_4_footnotes:
+  string
+  line
 obj_root_law_sections_5:
-  object
-  (str sectionId) (str 39004)
-  (str sectionNo) (str 5)
-  (str orderNo) (int 5)
-  (str title) (str `Representation of parties under disability.`)
-  (str content) (str `In any suit for partition a request for sale may be
-made or an undertaking, or application for leave, to buy may be given or made on behalf of any party
-under disability by any person authorised to act on behalf of such party in such suit, but the court shall not
-be bound to comply with any such request, undertaking or application unless it is of opinion that the sale
-or purchase will be for the benefit of the party under such disability.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39004&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39004)
+  sectionNo (5)
+  orderNo 5
+  title `Representation of parties under disability.`
+  content obj_root_law_sections_5_content
+  footnotes obj_root_law_sections_5_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39004&sectionno=5&orderno=5&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_5_content:
+  string
+  line `In any suit for partition a request for sale may be`
+  line `made or an undertaking, or application for leave, to buy may be given or made on behalf of any party`
+  line `under disability by any person authorised to act on behalf of such party in such suit, but the court shall not`
+  line `be bound to comply with any such request, undertaking or application unless it is of opinion that the sale`
+  line `or purchase will be for the benefit of the party under such disability.`
+obj_root_law_sections_5_footnotes:
+  string
+  line
 obj_root_law_sections_6:
-  object
-  (str sectionId) (str 39005)
-  (str sectionNo) (str 6)
-  (str orderNo) (int 6)
-  (str title) (str `Reserved bidding and bidding by shareholders.`)
-  (str content) (str `(1) Every sale under section 2 shall be subject
-to a reserved bidding, and the amount of such bidding shall be fixed by the court in such manner as it may
-think fit and may be varied from time to time.
-
-(2) On any such sale any of the shareholders shall be at liberty to bid at the sale on such terms as to
-non-payment of deposit or as to setting off or accounting for the purchase-money or any part thereof
-instead of paying the same as to the court may seem reasonable.
-
-(3) If two or more persons, of whom one is a shareholder in the property, respectively advance the
-same sum at any bidding at such sale, such bidding shall be deemed to be the bidding of the shareholder.`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39005&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39005)
+  sectionNo (6)
+  orderNo 6
+  title `Reserved bidding and bidding by shareholders.`
+  content obj_root_law_sections_6_content
+  footnotes obj_root_law_sections_6_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39005&sectionno=6&orderno=6&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_6_content:
+  string
+  line `(1) Every sale under section 2 shall be subject`
+  line `to a reserved bidding, and the amount of such bidding shall be fixed by the court in such manner as it may`
+  line `think fit and may be varied from time to time.`
+  line
+  line `(2) On any such sale any of the shareholders shall be at liberty to bid at the sale on such terms as to`
+  line `non-payment of deposit or as to setting off or accounting for the purchase-money or any part thereof`
+  line `instead of paying the same as to the court may seem reasonable.`
+  line
+  line `(3) If two or more persons, of whom one is a shareholder in the property, respectively advance the`
+  line `same sum at any bidding at such sale, such bidding shall be deemed to be the bidding of the shareholder.`
+obj_root_law_sections_6_footnotes:
+  string
+  line
 obj_root_law_sections_7:
-  object
-  (str sectionId) (str 39006)
-  (str sectionNo) (str 7)
-  (str orderNo) (int 7)
-  (str title) (str `Procedure to be followed in case of sales.`)
-  (str content) (str `Save as hereinbefore provided, when any property is
-directed to be sold under this Act, the following procedure shall, as far as practicable, be adopted,
-namely:--
-
-(a) if the property be sold under a decree or order of the High Court of Calcutta, Madras or
-Bombay, in the exercise of its original jurisdiction, ^1*** the procedure of such court in its original
-civil jurisdiction for the sale of property by the Registrar;
-
-(b) if the property be sold under a decree or order of any other court, such procedure as the High
-Court may from time to time by rules prescribe in this behalf, and until such rules-art made the
-procedure prescribed in the Code of Civil Procedure in respect of sales in execution of decrees.`)
-  (str footnotes) (str `1 The words "or of the Court of the Recorder of Rangoon" omitted by the A.O. 1937.`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39006&sectionno=7&orderno=7&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39006)
+  sectionNo (7)
+  orderNo 7
+  title `Procedure to be followed in case of sales.`
+  content obj_root_law_sections_7_content
+  footnotes `1 The words "or of the Court of the Recorder of Rangoon" omitted by the A.O. 1937.`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39006&sectionno=7&orderno=7&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_7_content:
+  string
+  line `Save as hereinbefore provided, when any property is`
+  line `directed to be sold under this Act, the following procedure shall, as far as practicable, be adopted,`
+  line `namely:--`
+  line
+  line `(a) if the property be sold under a decree or order of the High Court of Calcutta, Madras or`
+  line `Bombay, in the exercise of its original jurisdiction, ^1*** the procedure of such court in its original`
+  line `civil jurisdiction for the sale of property by the Registrar;`
+  line
+  line `(b) if the property be sold under a decree or order of any other court, such procedure as the High`
+  line `Court may from time to time by rules prescribe in this behalf, and until such rules-art made the`
+  line `procedure prescribed in the Code of Civil Procedure in respect of sales in execution of decrees.`
 obj_root_law_sections_8:
-  object
-  (str sectionId) (str 39007)
-  (str sectionNo) (str 8)
-  (str orderNo) (int 8)
-  (str title) (str `Orders for sale to be deemed decrees.`)
-  (str content) (str `Any order for sale made by the court under section 2, 3
-or 4 shall be deemed to be a decree within the meaning of section 2 of the ^1Code of Civil Procedure (14 of
-1882).`)
-  (str footnotes) (str `1 . See now the Code of Civil Procedure, 1908 (Act 5 of 1908).`)
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39007&sectionno=8&orderno=8&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39007)
+  sectionNo (8)
+  orderNo 8
+  title `Orders for sale to be deemed decrees.`
+  content obj_root_law_sections_8_content
+  footnotes `1 . See now the Code of Civil Procedure, 1908 (Act 5 of 1908).`
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39007&sectionno=8&orderno=8&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_8_content:
+  string
+  line `Any order for sale made by the court under section 2, 3`
+  line `or 4 shall be deemed to be a decree within the meaning of section 2 of the ^1Code of Civil Procedure (14 of`
+  line `1882).`
 obj_root_law_sections_9:
-  object
-  (str sectionId) (str 39008)
-  (str sectionNo) (str 9)
-  (str orderNo) (int 9)
-  (str title) (str `Saving of power to order partly partition and partly sale.`)
-  (str content) (str `In any suit for partition the court
-may, if it shall think fit, make a decree for a partition of part of the property to which the suit relates and a
-sale of the remainder under this Act`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39008&sectionno=9&orderno=9&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39008)
+  sectionNo (9)
+  orderNo 9
+  title `Saving of power to order partly partition and partly sale.`
+  content obj_root_law_sections_9_content
+  footnotes obj_root_law_sections_9_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39008&sectionno=9&orderno=9&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_9_content:
+  string
+  line `In any suit for partition the court`
+  line `may, if it shall think fit, make a decree for a partition of part of the property to which the suit relates and a`
+  line `sale of the remainder under this Act`
+obj_root_law_sections_9_footnotes:
+  string
+  line
 obj_root_law_sections_10:
-  object
-  (str sectionId) (str 39009)
-  (str sectionNo) (str 10)
-  (str orderNo) (int 10)
-  (str title) (str `Application of Act to pending suits.`)
-  (str content) (str `This Act shall apply to suits instituted before the
-commencement thereof, in which no scheme for the partition of the partition has been finally approved by
-the court`)
-  (str footnotes) (str )
-  (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39009&sectionno=10&orderno=10&orgactid=AC_CEN_3_20_00070_189304_1547448130517)
+  sectionId (39009)
+  sectionNo (10)
+  orderNo 10
+  title `Application of Act to pending suits.`
+  content obj_root_law_sections_10_content
+  footnotes obj_root_law_sections_10_footnotes
+  query abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00070_189304_1547448130517&sectionId=39009&sectionno=10&orderno=10&orgactid=AC_CEN_3_20_00070_189304_1547448130517
+obj_root_law_sections_10_content:
+  string
+  line `This Act shall apply to suits instituted before the`
+  line `commencement thereof, in which no scheme for the partition of the partition has been finally approved by`
+  line `the court`
+obj_root_law_sections_10_footnotes:
+  string
+  line
 obj_root_law_translations:
-  object
-  (str hi) obj_root_law_translations_hi
+  hi obj_root_law_translations_hi
 obj_root_law_translations_hi:
-  object
-  (str title) (str `विभाजन अधिनियम, 1893`)
-  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/5657/3/H1893-4.pdf`)
-  (str sourceKind) (str pdf)
-  (str fetchedAt) (str `2026-05-10T11:23:07.823Z`)
-  (str pageCount) (int 2)
-  (str sections) obj_root_law_translations_hi_sections
+  title `विभाजन अधिनियम, 1893`
+  sourceUrl `https://www.indiacode.nic.in/bitstream/123456789/5657/3/H1893-4.pdf`
+  sourceKind pdf
+  fetchedAt `2026-05-10T11:23:07.823Z`
+  pageCount 2
+  sections obj_root_law_translations_hi_sections
 obj_root_law_translations_hi_sections:
-  array
   obj_root_law_translations_hi_sections_1
   obj_root_law_translations_hi_sections_2
 obj_root_law_translations_hi_sections_1:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-1)
-  (str sectionNo) (str 1)
-  (str orderNo) (int 1)
-  (str title) (str `Page 1`)
-  (str content) (str `विभाजन अविवनयम, 189 3
-(189 3 का अविवनयम संखयां क 4 ) 1
-[ 9 मार्च, 189 3 ]
-विभाजन से संबंवित विवि का
-संशोिन करने के विए
-अविवनयम
-विभाजन से संबंवित विवि का संशोिन करना समीर्ीन है; अत: एतद द्व ारा वनम्न विवित रू प में यह अविवनयवमत ककया
-जाता है: —
-1. संविप्त नाम, विस्ता र और व् या िृवि — (1) इस अविवनयम का संविप् त नाम विभाजन अविवनयम, 1893 है।
-(2) इसका विस्ता र 2 *** संपूर्च भारत पर है 3 ***।
-3 * * * * *
-(4) ककन्तु इसमें अंतर्िचष्ट ककसी भी बात के बारे में यह नहीं समझा जाएगा कक िह सरकार को राजस्ि का संदाय करने िािी स्
-था िर संपवि के विभाजन के विए उपबंि करने िािी ककसी स् था नीय विवि पर प्र भाि डािती है।
-2. विभाजन िादों में विभाजन के बदिे विक्रय का आदेश देने की न् या यािय की शवत — जब कभी विभाजन के ऐसे ककसी
-िाद में, वजसमें यकद िह िाद इस अविवनयम के पहिे संवस्थ त ककया गया होता तो विभाजन के विए वडक्री की जा सकती थी, न् या यािय
-को यह प्र तीत होता है कक वजस संपवि से िह संबंवित है उसकी प्र कृवत या उसके वहस्सा िारकों की संखया या ककसी अन्य विशेष
-पररवस्थ वत के कारर् उस संपवि का विभाजन युवत युत रू प से या सुवििापू िचक नहीं ककया जा सकता है और सभी वहस्सा िारकों के
-विए यह अविक फायदाप्रद होगा कक संपवि का विक्रय करके आगमों का वितरर् कर कदया जाए तो यकद न् या यािय ठीक समझे तो िह
-ऐसे ककन्हीं वहस्सा िारकों के अनुरोि पर जो उस सम्प वि में अिग - अिग या सामूवहक रू प से वहतबद्ध है, और वजनका उस सम्प वि में
-वहत आिा या उससे अविक है, उस संपवि के विक्रय और आगमों के वितरर् का वनदेश दे सकेगा।
-3. प्र कक्रया, जब वहस्से दार क्र य करने का िर्न देता है — (1) यकद ककसी ऐसे मामिे में, वजसमें, इससे ठीक पहिे की िारा के
-अिीन न् या यािय को विक्रय का वनदेश देने के विए अनुरोि ककया गया है, कोई अन्य वहस्सा िारक, विक्रय की मांग करने िािे पिकार
-या पिकारों के वहस्से या वहस्सों का आंके गए मूल्य पर क्र य करने की इजाजत के विए आिेदन करता है, तो न् या यािय ऐसी रीवत से उस
-वहस्से या उन वहस्सों के मूल्यां कन का आदेश देगा, जैसा िह ठीक समझे, और ऐसे वहस्सा िारक को इस प्र कार अवभवनव र् त कीमत पर
-उस वह स् से का विक्रय करने की प्रस् था पना करेगा और उस वनवमि सभी आिय क और उवर्त वनदेश दे सकेगा।
-(2) यकद दो या अविक वहस्सा िारक, उपिारा (1) में उपबंवित रीवत से क्र य करने की इजाजत के विए अिग - अिग आिेदन
-करते हैं, तो न् या यािय, उस वहस्से या उन वहस्सों का विक्रय उस वहस्सा िारक को करने का आदेश देगा, जो न् या यािय द्व ारा ककए गए
-मूल्यां कन से उच् र् तम कीमत देने की प्रस् था पना करता है।
-(3) यकद कोई वहस्सा िारक इस प्र कार अवभवनव र् त कीमत पर ऐसा वहस्सा या ऐसे वह स् सों का क्र य करने के विए रजामन्द
-नहीं है, तो आिेदक या आ िेदकों को उस आ िेदन या उन आिेदनों के सभी िर्े या उसके या उनके आनुषंवगक िर्े देने होंगे।
-4. वनिास - गृह में वहस्से के अंतररती द्व ारा विभाजन िाद — (1) जहां ककसी अविभत कु टुम्ब के ककसी वनिास - गृह का वहस्सा,
-ककसी ऐसे व् य वत को अंतररत ककया गया है, जो ऐसे कुटुम्ब का सदस्य नहीं है और ऐसा अंतररती विभाजन के विए िाद िाता है िहां
-यकद कुटुम्ब का कोई ऐसा सदस्य, जो वहस्सा िारक है, ऐसे अंतररती के वहस्से का क्र य करने का िर्नबंि करता है तो न् या यािय ऐसे
-वहस्से का मूल्यां कन ऐसी री वत से करेगा, जैसा िह ठीक समझे और ऐसे वहस्से का विक्रय ऐसे वहस्सा िारक को करने का वनदेश देगा और
-उस वनवमि सभी आिय क और उवर्त वनदेश दे सकेगा।
-(2) यकद उपिारा (1) में िर्र्चत ककसी मामिे में उस कुटुम्ब के दो या अविक सदस्य, जो ऐसे वहस्सा िारक हैं, ऐसे वहस्से का क्र
-य करने का िर्न अिग - अिग देते हैं, तो न् या यािय इसके ठीक पहिे की िारा की उपिारा (2) द्व ारा विवहत प्र कक्रया का अनुसरर्
-करेगा।
-1 यह अविवनयम वनम्न विवित पर विस् ता ररत ककया गया है: —
-(1) 1963 के विवनयम सं ० 6 की िारा 2 और अनुसूर्ी 1 द्व ारा (1 - 7 - 1965 से ) दादरा और नागर हिेिी पर।
-(2) 1968 के अविवनयम सं ० 26 की िारा 3 और अनुसूर्ी द्व ारा पांवडर्ेरी पर।
-(3) भारत का राजपत्र, असािारर्, भाग II, अनु भाग 3(ii) की अविसूर्ना सं ० 651 (अ), तारीि 24 - 8 - 1984 द्व ारा (1 - 9 - 1984 से ) वसवक म पर।
-2 2019 के अविवनयम सं ० 34 की िारा 95 और पांर्िी अनुसूर्ी द्व ारा (31 - 10 - 2019 से ) “ जम्मू - कमीर राज्य के वसिाय ” शब्दों का िोप ककया गया।
-3 1914 के अविवनयम सं ० 10 की िारा 3 और अनुसूर्ी 2 द्व ारा उपिारा (2) के अन्त में “ और ” शब्द और उपिारा (3) वनरवसत।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 1)
+  kind page
+  sectionId pdf-page-1
+  sectionNo (1)
+  orderNo 1
+  title `Page 1`
+  content obj_root_law_translations_hi_sections_1_content
+  footnotes obj_root_law_translations_hi_sections_1_footnotes
+  sourcePage 1
+obj_root_law_translations_hi_sections_1_content:
+  string
+  line `विभाजन अविवनयम, 189 3`
+  line `(189 3 का अविवनयम संखयां क 4 ) 1`
+  line `[ 9 मार्च, 189 3 ]`
+  line `विभाजन से संबंवित विवि का`
+  line `संशोिन करने के विए`
+  line अविवनयम
+  line `विभाजन से संबंवित विवि का संशोिन करना समीर्ीन है; अत: एतद द्व ारा वनम्न विवित रू प में यह अविवनयवमत ककया`
+  line `जाता है: —`
+  line `1. संविप्त नाम, विस्ता र और व् या िृवि — (1) इस अविवनयम का संविप् त नाम विभाजन अविवनयम, 1893 है।`
+  line `(2) इसका विस्ता र 2 *** संपूर्च भारत पर है 3 ***।`
+  line `3 * * * * *`
+  line `(4) ककन्तु इसमें अंतर्िचष्ट ककसी भी बात के बारे में यह नहीं समझा जाएगा कक िह सरकार को राजस्ि का संदाय करने िािी स्`
+  line `था िर संपवि के विभाजन के विए उपबंि करने िािी ककसी स् था नीय विवि पर प्र भाि डािती है।`
+  line `2. विभाजन िादों में विभाजन के बदिे विक्रय का आदेश देने की न् या यािय की शवत — जब कभी विभाजन के ऐसे ककसी`
+  line `िाद में, वजसमें यकद िह िाद इस अविवनयम के पहिे संवस्थ त ककया गया होता तो विभाजन के विए वडक्री की जा सकती थी, न् या यािय`
+  line `को यह प्र तीत होता है कक वजस संपवि से िह संबंवित है उसकी प्र कृवत या उसके वहस्सा िारकों की संखया या ककसी अन्य विशेष`
+  line `पररवस्थ वत के कारर् उस संपवि का विभाजन युवत युत रू प से या सुवििापू िचक नहीं ककया जा सकता है और सभी वहस्सा िारकों के`
+  line `विए यह अविक फायदाप्रद होगा कक संपवि का विक्रय करके आगमों का वितरर् कर कदया जाए तो यकद न् या यािय ठीक समझे तो िह`
+  line `ऐसे ककन्हीं वहस्सा िारकों के अनुरोि पर जो उस सम्प वि में अिग - अिग या सामूवहक रू प से वहतबद्ध है, और वजनका उस सम्प वि में`
+  line `वहत आिा या उससे अविक है, उस संपवि के विक्रय और आगमों के वितरर् का वनदेश दे सकेगा।`
+  line `3. प्र कक्रया, जब वहस्से दार क्र य करने का िर्न देता है — (1) यकद ककसी ऐसे मामिे में, वजसमें, इससे ठीक पहिे की िारा के`
+  line `अिीन न् या यािय को विक्रय का वनदेश देने के विए अनुरोि ककया गया है, कोई अन्य वहस्सा िारक, विक्रय की मांग करने िािे पिकार`
+  line `या पिकारों के वहस्से या वहस्सों का आंके गए मूल्य पर क्र य करने की इजाजत के विए आिेदन करता है, तो न् या यािय ऐसी रीवत से उस`
+  line `वहस्से या उन वहस्सों के मूल्यां कन का आदेश देगा, जैसा िह ठीक समझे, और ऐसे वहस्सा िारक को इस प्र कार अवभवनव र् त कीमत पर`
+  line `उस वह स् से का विक्रय करने की प्रस् था पना करेगा और उस वनवमि सभी आिय क और उवर्त वनदेश दे सकेगा।`
+  line `(2) यकद दो या अविक वहस्सा िारक, उपिारा (1) में उपबंवित रीवत से क्र य करने की इजाजत के विए अिग - अिग आिेदन`
+  line `करते हैं, तो न् या यािय, उस वहस्से या उन वहस्सों का विक्रय उस वहस्सा िारक को करने का आदेश देगा, जो न् या यािय द्व ारा ककए गए`
+  line `मूल्यां कन से उच् र् तम कीमत देने की प्रस् था पना करता है।`
+  line `(3) यकद कोई वहस्सा िारक इस प्र कार अवभवनव र् त कीमत पर ऐसा वहस्सा या ऐसे वह स् सों का क्र य करने के विए रजामन्द`
+  line `नहीं है, तो आिेदक या आ िेदकों को उस आ िेदन या उन आिेदनों के सभी िर्े या उसके या उनके आनुषंवगक िर्े देने होंगे।`
+  line `4. वनिास - गृह में वहस्से के अंतररती द्व ारा विभाजन िाद — (1) जहां ककसी अविभत कु टुम्ब के ककसी वनिास - गृह का वहस्सा,`
+  line `ककसी ऐसे व् य वत को अंतररत ककया गया है, जो ऐसे कुटुम्ब का सदस्य नहीं है और ऐसा अंतररती विभाजन के विए िाद िाता है िहां`
+  line `यकद कुटुम्ब का कोई ऐसा सदस्य, जो वहस्सा िारक है, ऐसे अंतररती के वहस्से का क्र य करने का िर्नबंि करता है तो न् या यािय ऐसे`
+  line `वहस्से का मूल्यां कन ऐसी री वत से करेगा, जैसा िह ठीक समझे और ऐसे वहस्से का विक्रय ऐसे वहस्सा िारक को करने का वनदेश देगा और`
+  line `उस वनवमि सभी आिय क और उवर्त वनदेश दे सकेगा।`
+  line `(2) यकद उपिारा (1) में िर्र्चत ककसी मामिे में उस कुटुम्ब के दो या अविक सदस्य, जो ऐसे वहस्सा िारक हैं, ऐसे वहस्से का क्र`
+  line `य करने का िर्न अिग - अिग देते हैं, तो न् या यािय इसके ठीक पहिे की िारा की उपिारा (2) द्व ारा विवहत प्र कक्रया का अनुसरर्`
+  line करेगा।
+  line `1 यह अविवनयम वनम्न विवित पर विस् ता ररत ककया गया है: —`
+  line `(1) 1963 के विवनयम सं ० 6 की िारा 2 और अनुसूर्ी 1 द्व ारा (1 - 7 - 1965 से ) दादरा और नागर हिेिी पर।`
+  line `(2) 1968 के अविवनयम सं ० 26 की िारा 3 और अनुसूर्ी द्व ारा पांवडर्ेरी पर।`
+  line `(3) भारत का राजपत्र, असािारर्, भाग II, अनु भाग 3(ii) की अविसूर्ना सं ० 651 (अ), तारीि 24 - 8 - 1984 द्व ारा (1 - 9 - 1984 से ) वसवक म पर।`
+  line `2 2019 के अविवनयम सं ० 34 की िारा 95 और पांर्िी अनुसूर्ी द्व ारा (31 - 10 - 2019 से ) “ जम्मू - कमीर राज्य के वसिाय ” शब्दों का िोप ककया गया।`
+  line `3 1914 के अविवनयम सं ० 10 की िारा 3 और अनुसूर्ी 2 द्व ारा उपिारा (2) के अन्त में “ और ” शब्द और उपिारा (3) वनरवसत।`
+obj_root_law_translations_hi_sections_1_footnotes:
+  string
+  line
 obj_root_law_translations_hi_sections_2:
-  object
-  (str kind) (str page)
-  (str sectionId) (str pdf-page-2)
-  (str sectionNo) (str 2)
-  (str orderNo) (int 2)
-  (str title) (str `Page 2`)
-  (str content) (str `2
-5. वन:शत पिकारों का प्र वतवनवित्ि — विभाजन के ककसी िाद में ककसी वन: शत पिकार की ओर से ऐसे िाद में ऐसे
-पिकार की ओर से कायच करने के विए प्र ाविकृत व् य वत विक्रय के विए अनु रोि कर सकेगा या क्र य करने का िर्न दे सकेगा या क्र य
-करने की इजाजत का आिेदन कर सकेगा, परन् तु न् या यािय ककसी ऐसे अनुरोि, िर्न या आिेदन का अनुपािन करने के विए तब तक
-आबद्ध नहीं होगा जब तक उसकी यह राय न हो कक विक्रय या क्र य ऐसे वन:श त पिकार के फायदे के विए होगा।
-6. आरवित बोिी और वहस्सा िारकों द्व ारा बोिी िगाना — (1) िारा 2 के अिीन प्रत् ये क विक्रय, आरवित बोिी रिकर ककया
-जा एगा और ऐसी बोिी की रकम, न् या यािय द्व ा रा ऐसी रीवत से वनयत की जाएगी, जैसा िह ठीक समझे, और समय - समय पर उसमें
-फेरफार ककए जा सकेंगे।
-(2) ऐसे विक्रय पर प्रत् ये क वहस्सा िारक को ऐसे वनबंिनों पर बोिी िगाने की छूट होगी जो न् या यािय को युवत युत प्र तीत
-हों। ये वनबंिन वनिेप न करने के बारे में या क्र य मूल्य के मुजरा करने के या वहसाब के बारे में हो सकेंगे।
-(3) यकद दो या अविक व् य वत, वजनमें से एक उस संपवि का वहस्सा िारक है, ऐसे विक्रय पर एक ही रकम की बोिी अिग -
-अिग िगाते हैं तो ऐसी बोिी के बारे में यह समझा जा एगा कक िह वहस्सा िारक की बोिी है।
-7. विक्रयों की दशा में अनुसररत की जाने िािी प्र कक्रया — इसमें इसके पूिच जैसा उपबंवित है उसके वसिाय, जब इस
-अविवनयम के अिीन ककसी संपवि का विक्रय करने का वनदेश कदया गया है, तब जहां तक हो सके वनम्न विवित प्र कक्रया अपनाई जाए गी,
-अथाचत: —
-(क) यकद किकिा, मद्रास या मुम्ब ई के उच् र् न् या यािय की अपनी आरंवभक अविकाररता के प्र योग में 1 *** दी गई
-ककसी वडक्री या आदेश के अिीन उस संपवि का विक्रय ककया जाता है तो अपनी आरवम्भ क वसविि अविकाररता में रवजस्रा र द्व
-ारा संपवि के विक्रय के विए ऐसे न् या यािय की प्र कक्रया;
-(ि) यकद ककसी अन्य न् या यािय की वडक्री या आदेश के अिीन उस संपवि का विक्रय ककया जाता है तो ऐसी प्र
-कक्रया, जैसी कक उच् र् न् या यािय समय - समय पर, वनयम द्व ारा इस वनवमि विवहत करे, और जब तक ऐसे वनयम नहीं बनाए
-जाते, तब तक वडकक्र यों के वनष्पा दन में विक्रयों की बाबत 2 कोड आफ वसविि प्र ोसीजर (1882 का 14) में विवहत प्र कक्रया।
-8. विक्रय के विए आदेशों का वडक्री समझा जाना — िारा 2, 3 या 4 के अिीन विक्रय के विए न् या यािय द्व ारा ककया गया कोई
-आदेश, 2 कोड आफ वसविि प्र ोसीजर (1882 का 14) की िा रा 2 के अथच में वडक्री समझा जाएगा।
-9. अंशत: विभाजन और अं शत: विक्रय का आदेश देने की शवत की व् या िृवि — विभाजन के ककसी िाद में यकद न् या यािय ठीक
-समझता है तो िह उस संपवि के, वजससे िह िाद संबंवित है, ककसी भाग के विभाजन के विए और शेष के विक्रय के विए इस
-अविवनयम के अिीन वडक्री कर सकेगा।
-10. िंवबत िादों को अविवनयम का िागू होना — यह अविवनयम उसके प्र ारम्भ के पूिच संवस्थ त ऐसे िादों को िागू होगा वजनमें न्
-या यािय द्व ारा संपवि के विभाजन के विए कोई भी योजना अंवतम रू प से अनुमोकदत नहीं की गई है।
-______
-1 भारत शासन (भारतीय विवि अनुकूिन) आदेश, 1937 द्व ारा “ या रंगून के ररकाडचर के न् या यािय की ” शब्दों का िोप ककया गया।
-2 देविए अब वसविि प्र कक्रया संवहता, 1908 (1908 का अविवनयम 5)।`)
-  (str footnotes) (str )
-  (str sourcePage) (int 2)
+  kind page
+  sectionId pdf-page-2
+  sectionNo (2)
+  orderNo 2
+  title `Page 2`
+  content obj_root_law_translations_hi_sections_2_content
+  footnotes obj_root_law_translations_hi_sections_2_footnotes
+  sourcePage 2
+obj_root_law_translations_hi_sections_2_content:
+  string
+  line 2
+  line `5. वन:शत पिकारों का प्र वतवनवित्ि — विभाजन के ककसी िाद में ककसी वन: शत पिकार की ओर से ऐसे िाद में ऐसे`
+  line `पिकार की ओर से कायच करने के विए प्र ाविकृत व् य वत विक्रय के विए अनु रोि कर सकेगा या क्र य करने का िर्न दे सकेगा या क्र य`
+  line `करने की इजाजत का आिेदन कर सकेगा, परन् तु न् या यािय ककसी ऐसे अनुरोि, िर्न या आिेदन का अनुपािन करने के विए तब तक`
+  line `आबद्ध नहीं होगा जब तक उसकी यह राय न हो कक विक्रय या क्र य ऐसे वन:श त पिकार के फायदे के विए होगा।`
+  line `6. आरवित बोिी और वहस्सा िारकों द्व ारा बोिी िगाना — (1) िारा 2 के अिीन प्रत् ये क विक्रय, आरवित बोिी रिकर ककया`
+  line `जा एगा और ऐसी बोिी की रकम, न् या यािय द्व ा रा ऐसी रीवत से वनयत की जाएगी, जैसा िह ठीक समझे, और समय - समय पर उसमें`
+  line `फेरफार ककए जा सकेंगे।`
+  line `(2) ऐसे विक्रय पर प्रत् ये क वहस्सा िारक को ऐसे वनबंिनों पर बोिी िगाने की छूट होगी जो न् या यािय को युवत युत प्र तीत`
+  line `हों। ये वनबंिन वनिेप न करने के बारे में या क्र य मूल्य के मुजरा करने के या वहसाब के बारे में हो सकेंगे।`
+  line `(3) यकद दो या अविक व् य वत, वजनमें से एक उस संपवि का वहस्सा िारक है, ऐसे विक्रय पर एक ही रकम की बोिी अिग -`
+  line `अिग िगाते हैं तो ऐसी बोिी के बारे में यह समझा जा एगा कक िह वहस्सा िारक की बोिी है।`
+  line `7. विक्रयों की दशा में अनुसररत की जाने िािी प्र कक्रया — इसमें इसके पूिच जैसा उपबंवित है उसके वसिाय, जब इस`
+  line `अविवनयम के अिीन ककसी संपवि का विक्रय करने का वनदेश कदया गया है, तब जहां तक हो सके वनम्न विवित प्र कक्रया अपनाई जाए गी,`
+  line `अथाचत: —`
+  line `(क) यकद किकिा, मद्रास या मुम्ब ई के उच् र् न् या यािय की अपनी आरंवभक अविकाररता के प्र योग में 1 *** दी गई`
+  line `ककसी वडक्री या आदेश के अिीन उस संपवि का विक्रय ककया जाता है तो अपनी आरवम्भ क वसविि अविकाररता में रवजस्रा र द्व`
+  line `ारा संपवि के विक्रय के विए ऐसे न् या यािय की प्र कक्रया;`
+  line `(ि) यकद ककसी अन्य न् या यािय की वडक्री या आदेश के अिीन उस संपवि का विक्रय ककया जाता है तो ऐसी प्र`
+  line `कक्रया, जैसी कक उच् र् न् या यािय समय - समय पर, वनयम द्व ारा इस वनवमि विवहत करे, और जब तक ऐसे वनयम नहीं बनाए`
+  line `जाते, तब तक वडकक्र यों के वनष्पा दन में विक्रयों की बाबत 2 कोड आफ वसविि प्र ोसीजर (1882 का 14) में विवहत प्र कक्रया।`
+  line `8. विक्रय के विए आदेशों का वडक्री समझा जाना — िारा 2, 3 या 4 के अिीन विक्रय के विए न् या यािय द्व ारा ककया गया कोई`
+  line `आदेश, 2 कोड आफ वसविि प्र ोसीजर (1882 का 14) की िा रा 2 के अथच में वडक्री समझा जाएगा।`
+  line `9. अंशत: विभाजन और अं शत: विक्रय का आदेश देने की शवत की व् या िृवि — विभाजन के ककसी िाद में यकद न् या यािय ठीक`
+  line `समझता है तो िह उस संपवि के, वजससे िह िाद संबंवित है, ककसी भाग के विभाजन के विए और शेष के विक्रय के विए इस`
+  line `अविवनयम के अिीन वडक्री कर सकेगा।`
+  line `10. िंवबत िादों को अविवनयम का िागू होना — यह अविवनयम उसके प्र ारम्भ के पूिच संवस्थ त ऐसे िादों को िागू होगा वजनमें न्`
+  line `या यािय द्व ारा संपवि के विभाजन के विए कोई भी योजना अंवतम रू प से अनुमोकदत नहीं की गई है।`
+  line ______
+  line `1 भारत शासन (भारतीय विवि अनुकूिन) आदेश, 1937 द्व ारा “ या रंगून के ररकाडचर के न् या यािय की ” शब्दों का िोप ककया गया।`
+  line `2 देविए अब वसविि प्र कक्रया संवहता, 1908 (1908 का अविवनयम 5)।`
+obj_root_law_translations_hi_sections_2_footnotes:
+  string
+  line
