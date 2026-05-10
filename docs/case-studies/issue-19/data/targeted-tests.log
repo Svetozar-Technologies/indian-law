@@ -1,0 +1,85 @@
+TAP version 13
+# Subtest: labels enabled language records as Markdown
+ok 1 - labels enabled language records as Markdown
+  ---
+  duration_ms: 1.418878
+  ...
+# Subtest: labels known official sources without Markdown as pending
+ok 2 - labels known official sources without Markdown as pending
+  ---
+  duration_ms: 0.204816
+  ...
+# Subtest: labels languages with no known source as unavailable
+ok 3 - labels languages with no known source as unavailable
+  ---
+  duration_ms: 0.242982
+  ...
+# Subtest: falls back to a known source language when requested text is not ready
+ok 4 - falls back to a known source language when requested text is not ready
+  ---
+  duration_ms: 0.687367
+  ...
+# Subtest: extracts India Code metadata, PDF sources, and section references
+ok 5 - extracts India Code metadata, PDF sources, and section references
+  ---
+  duration_ms: 7.853596
+  ...
+# Subtest: normalises section JSON HTML into plain text
+ok 6 - normalises section JSON HTML into plain text
+  ---
+  duration_ms: 0.537462
+  ...
+# Subtest: extracts only primary India Code law PDFs from law pages
+ok 7 - extracts only primary India Code law PDFs from law pages
+  ---
+  duration_ms: 0.900354
+  ...
+# Subtest: parses India Code search result rows
+ok 8 - parses India Code search result rows
+  ---
+  duration_ms: 1.050178
+  ...
+# Subtest: parses regional PDF source rows
+ok 9 - parses regional PDF source rows
+  ---
+  duration_ms: 0.781157
+  ...
+# Subtest: strips table and inline HTML without collapsing intended breaks
+ok 10 - strips table and inline HTML without collapsing intended breaks
+  ---
+  duration_ms: 0.102093
+  ...
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 11 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 5.318551
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 12 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 1.348413
+  ...
+# Subtest: refresh workflow uses one-hour checkpoint chunks by default
+ok 13 - refresh workflow uses one-hour checkpoint chunks by default
+  ---
+  duration_ms: 1.655302
+  ...
+# Subtest: refresh workflow uses plain sync commit message for one chunk
+ok 14 - refresh workflow uses plain sync commit message for one chunk
+  ---
+  duration_ms: 1.508743
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 15 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 0.534678
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 67.26373
