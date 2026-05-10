@@ -113,6 +113,16 @@ jobs:
             echo "Pushed checkpoint commit $(git rev-parse --short HEAD) to main."
           }
 
+          sync_commit_message() {
+            local chunk="$1"
+            local max_chunks="$2"
+            if [ "$max_chunks" -eq 1 ]; then
+              echo "Laws sync"
+            else
+              echo "Laws sync chunk $chunk of $max_chunks"
+            fi
+          }
+
           checkpoint_ms=$(( CHECKPOINT_MINUTES * 60 * 1000 ))
           echo "Computed checkpoint runtime budget: $checkpoint_ms ms."
           args=(
@@ -143,7 +153,7 @@ jobs:
             set -e
             echo "::endgroup::"
 
-            commit_generated "Refresh generated law pages (chunk $chunk)"
+            commit_generated "$(sync_commit_message "$chunk" "$MAX_CHUNKS")"
 
             if [ "$status" -eq 0 ]; then
               echo "Refresh completed."

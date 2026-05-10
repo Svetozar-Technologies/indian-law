@@ -61,6 +61,17 @@ test("refresh workflow uses one-hour checkpoint chunks by default", async () => 
   assert.match(workflow, /MAX_CHUNKS: \$\{\{ github\.event\.inputs\.max_chunks \|\| '1' \}\}/);
 });
 
+test("refresh workflow uses plain sync commit message for one chunk", async () => {
+  const workflow = await readFile(".github/workflows/refresh-laws.yml", "utf8");
+
+  assert.match(workflow, /sync_commit_message\(\)/);
+  assert.match(workflow, /if \[ "\$max_chunks" -eq 1 \]; then/);
+  assert.match(workflow, /echo "Laws sync"/);
+  assert.match(workflow, /echo "Laws sync chunk \$chunk of \$max_chunks"/);
+  assert.match(workflow, /commit_generated "\$\(sync_commit_message "\$chunk" "\$MAX_CHUNKS"\)"/);
+  assert.doesNotMatch(workflow, /Refresh generated law pages \(chunk \$chunk\)/);
+});
+
 test("CI workflow treats live-source partial output as a recoverable smoke result", async () => {
   const workflow = await readFile(".github/workflows/ci.yml", "utf8");
 

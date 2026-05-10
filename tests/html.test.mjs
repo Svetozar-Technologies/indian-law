@@ -40,6 +40,32 @@ test("normalises section JSON HTML into plain text", () => {
   });
 });
 
+test("extracts only primary India Code law PDFs from law pages", () => {
+  const html = `
+    <meta name="citation_pdf_url" content="/bitstream/123456789/2113/1/201320.pdf">
+    <a href="/bitstream/123456789/2113/1/201320.pdf">English PDF</a>
+    <a href="http://indiacode.nic.in/bitstream/123456789/2113/3/H2013-20.pdf">Hindi PDF</a>
+    <a href="/bitstream/123456789/2113/4/ViewFileUploaded?path=rule.pdf">Food Security Rules</a>
+    <a href="/help/userGuide.pdf">User guide</a>
+  `;
+  const metadata = extractIndiaCodeMetadata(html, "https://www.indiacode.nic.in/handle/123456789/2113");
+
+  assert.deepEqual(
+    metadata.sources.en.map((source) => source.url),
+    [
+      "https://www.indiacode.nic.in/handle/123456789/2113",
+      "https://www.indiacode.nic.in/bitstream/123456789/2113/1/201320.pdf"
+    ]
+  );
+  assert.deepEqual(metadata.sources.hi, [
+    {
+      kind: "pdf",
+      url: "https://www.indiacode.nic.in/bitstream/123456789/2113/3/H2013-20.pdf",
+      title: "Hindi PDF"
+    }
+  ]);
+});
+
 test("parses India Code search result rows", () => {
   const html = `<tr><td headers="t1" class="evenRowEvenCol">25-Dec-2023</td><td headers="t2"><em>45</em></td><td headers="t3">The <font><b>Bharatiya Nyaya Sanhita</b></font>, 2023</td><td headers="t4"><a href="/handle/123456789/20062?view_type=search&col=123456789/1362">View...</a></td></tr>`;
   const rows = parseActSearchRows(html);
