@@ -10,7 +10,7 @@ source: "https://www.indiacode.nic.in/handle/123456789/1607"
 
 Language: English
 Part 1 of 1
-Sections: 1 to 11A
+Sections: 1 to 41
 
 > Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
 
@@ -381,3 +381,525 @@ purpose other than the purpose for which the sanction of the Central Government 
 ### Footnotes
 
 1. Ins. by Act 40 of 1995, s. 2 (w.e.f. 8-9-1995).
+
+## Section 12 - Duty of persons in charge of management of sick textile undertakings to deliver all assets, etc.
+
+On the vesting of the management of a sick textile undertaking in the National Textile Corporation
+all persons in charge of the management of such sick textile undertaking immediately before such vesting
+shall be bound to deliver to the National Textile Corporation all assets, books of account, registers or
+other documents in their custody relating to the sick textile undertaking.
+
+## Section 13 - Accounts.
+
+The National Textile Corporation shall maintain the accounts of sick textile
+undertakings in accordance with the provisions of the Companies Act, 1956 (1 of 1956).
+
+## Section 14 - Employment of certain employees to continue.
+
+(1) Every person who is a workman within the
+meaning of the Industrial Disputes Act, 1947 (14 of 1947), and has been, immediately before the
+appointed day, employed in a sick textile undertaking shall become, on and from the appointed day, an
+employee of the National Textile Corporation, and shall hold office or service in the National Textile
+Corporation with the same rights and privileges as to pension, gratuity and other matters as would have
+been admissible to him if the rights in relation to such sick textile undertaking had not been transferred to,
+and vested in, the National Textile Corporation, and shall continue to do so unless and until his employment in the National Textile Corporation is duly terminated or until his remuneration, terms and
+conditions of employment are duly altered by the National Textile Corporation.
+
+(2) Every person who is not a workman within the meaning of the Industrial Disputes
+Act, 1947 (14 of 1947), and who has been, immediately before the appointed day, employed in a sick
+textile undertaking shall, in so far as such person is employed in connection with the sick textile
+undertaking which has vested in the National Textile Corporation, become, as from the appointed day, an
+employee of the National Textile Corporation and shall hold his office or service therein by the same
+tenure, at the same remuneration and upon the same terms and conditions and with the same rights and
+privileges as to pension and gratuity and other matters as he would have held the same under the sick
+textile undertaking if it had not vested in the National Textile Corporation and shall continue to do so
+unless and until his employment in the National Textile Corporation is duly terminated or until his
+remuneration, terms and conditions of employment are duly altered by the National Textile Corporation:
+
+Provided that in respect of any sick textile undertaking the management of which could not be taken
+over by the Central Government under the Sick Textile Undertakings (Taking Over of Management)
+Act, 1972 (72 of 1972), by reason of any decree, order or injunction of any court, any agent, director
+(including a managing or whole-time director, by whatever name called) or manager shall not become an
+employee of the National Textile Corporation.
+
+(3) Notwithstanding anything contained in the Industrial Disputes Act, 1947 (14 of 1947), or in any
+other law for the time being in force, the transfer of the services of any officer or other person employed
+in a sick textile undertaking to the National Textile Corporation shall not entitle such officer or other
+employee to any compensation under this Act or any other law for the time being in force and no such
+claim shall be entertained by any court, tribunal or other authority.
+
+(4) Where, under the terms of any contract of service or otherwise, any person whose services
+become terminated or whose services become transferred to the National Textile Corporation by reason of
+the provisions of this Act is entitled to any arrears of salary or wages or any payment for any leave not
+availed of or other payment, not being payment by way of gratuity or pension, such person may, except to
+the extent such liability has been taken over by the Central Government under section 5, enforce his claim
+against the owner of the sick textile undertaking but not against the Central Government or the National
+Textile Corporation.
+
+## Section 15 - Provident and other funds.
+
+(1) Where the owner of a sick textile undertaking has established a
+provident fund, superannuation, welfare or other fund for the benefit of the persons employed in such sick
+textile undertaking the monies relatable to the employees, whose services have become transferred by or
+under this Act to the National Textile Corporation shall, out of the monies standing, on the appointed day,
+to the credit of such provident fund, superannuation, welfare or other fund, stand transferred to, and shall
+vest in, the National Textile Corporation.
+
+(2) The monies which stand transferred, under sub-section (1), to the National Textile Corporation
+shall be dealt with by that Corporation in such manner as may be prescribed.
+
+## Section 16 - Transfer of employees to a Subsidiary Textile Corporation.
+
+Where any sick textile
+undertaking or any part thereof is transferred under this Act to a Subsidiary Textile Corporation, every
+person referred to in sub-section (1) and sub-section (2) of section 14 shall, on and from the date of such
+transfer, become an employee of the Subsidiary Textile Corporation, and the provisions of sections 14
+and 15 shall apply to such employee as they apply to an employee of the National Textile Corporation as
+if references in the said sections to the National Textile Corporation were references to the Subsidiary
+Textile Corporation.
+
+## Section 17 - Appointment of Commissioners of Payments.
+
+(1) For the purpose of disbursing the amounts
+payable to the owner of each sick textile undertaking, the Central Government shall, by notification in the
+Official Gazette,--
+
+(a) appoint such number of persons as it may think fit to be Commissioners of Payments; and
+
+(b) define the local limits within which the Commissioners of Payments shall exercise the powers
+conferred, and perform the duties imposed, on them by or under this Act.
+
+(2) The Central Government may appoint such other persons as it may think fit to assist the
+Commissioner and thereupon the Commissioner may authorise one or more of such persons also to
+exercise all or any of the powers exercisable by him under this Act, and different persons may be
+authorised to exercise different powers.
+
+(3) Any person authorised by the Commissioner to exercise any powers may exercise those powers in
+the same manner and with the same effect as if they have been conferred on that person directly by this
+Act and not by way of authorisation.
+
+(4) The salaries and allowances of the Commissioner and other persons appointed under this section
+shall be defrayed out of the Consolidated Fund of India.
+
+(5) References in this Act to the Commissioner shall, where more than one Commissioner has been
+appointed, be construed as references to the Commissioner in relation to the sick textile undertaking
+within the local limits of the jurisdiction specified under clause (b) of sub-section (1).
+
+## Section 18 - Payment by the Central Government to the Commissioner.
+
+(1) The Central Government
+shall, within thirty days from the specified date, pay in cash to the Commissioner, for payment to the
+owner of a sick textile undertaking, an amount equal to the amount specified against the sick textile
+undertaking in the First Schedule and shall also pay to the Commissioner such sums as may be due to the
+owner of a sick textile undertaking under sub-sections (1) and (2) of section 9.
+
+(2) In relation to the sick textile undertakings, the management of which was taken over by the
+Central Government under the Industries (Development and Regulation) Act, 1951 (5 of 1951), there
+shall be paid by the Central Government [in addition to the amount referred to in sub-section (1),] to the
+Commissioner, in cash, an amount calculated at the rate specified in section 6 of the Sick Textile
+Undertakings (Taking Over of Management) Act, 1972 (72 of 1972), for the period commencing on the
+date on which such management was taken over by the Central Government and ending on the appointed
+day.
+
+(3) In relation to the sick textile undertakings, the management of which was taken over by the
+Central Government under the Sick Textile Undertakings (Taking Over of Management)
+Act, 1972 (72 of 1972), there shall be paid by the Central Government [in addition to the amount referred
+to in sub-section (1),] to the Commissioner, in cash, such amount payable under section 6 of that Act as
+remains unpaid in relation to the period commencing on the date on which such management was taken
+over by the Central Government and ending on the appointed day.
+
+(4) A deposit account shall be opened by the Central Government, in favour of the Commissioner, in
+the Public Account of India, and every amount paid under this Act to the Commissioner shall be
+deposited by him to the credit of the said deposit account in the Public Account of India, and thereafter
+the said deposit account shall be operated by the Commissioner.
+
+(5) Separate records shall be maintained by the Commissioner in respect of each sick textile
+undertaking in relation to which payments have been made to him under this Act.
+
+(6) Interest accruing on the amounts standing to the credit of the deposit account referred to in
+sub-section (4) shall inure to the benefit of the owners of the sick textile undertakings.
+
+## Section 19 - Certain powers of the National Textile Corporation.
+
+(1) The National Textile Corporation
+shall be entitled to receive, up to the specified date, to the exclusion of all other persons, any money due
+to the sick textile undertaking, realised after the appointed day, notwithstanding that the realisations
+pertain to a period prior to the appointed day.
+
+(2) The National Textile Corporation may make a claim to the Commissioner with regard to every
+payment made by the Custodian after the appointed day but before the date on which the Ordinance was
+promulgated for discharging any liability of the owner of a sick textile undertaking in relation to any
+period prior to the appointed day, and every such claim shall have priority, in accordance with the
+priorities attaching under this Act, to the matter in relation to which such liability has been discharged by
+the Custodian.
+
+(3) Save as otherwise provided in this Act, the liabilities in relation to a sick textile undertaking in
+respect of any period prior to the appointed day which have not been discharged by the Custodian shall be
+the liabilities of the owner of that sick textile undertaking.
+
+## Section 20 - Claims to be made to the Commissioner.
+
+Every person having a claim against the owner of a
+sick textile undertaking shall prefer such claim before the Commissioner within thirty days from the
+specified date:
+
+Provided that if the Commissioner is satisfied that the claimant was prevented by sufficient cause
+from preferring the claim within the said period of thirty days, he may entertain the claim within a further
+period of thirty days but not thereafter.
+
+## Section 21 - Priority of claims.
+
+The claims arising out of the matters specified in the Second Schedule shall
+have priorities in accordance with the following principles, namely:--
+
+(a) category I will have precedence over all other categories, and category II will have precedence
+over category III and so on;
+
+(b) the claims specified in each of the categories except Category IV, shall rank equally and be
+paid in full, but if the amount is insufficient to meet such claims in full, they shall abate in equal
+proportions and be paid accordingly;
+
+(c) the liabilities specified in category IV shall be discharged, subject to the priorities specified in
+this section, in accordance with the terms of the secured loans and the priority, inter se, of such
+loans; and
+
+(d) the question of payment of a liability with regard to a matter specified in a lower category
+shall arise only if a surplus is left after meeting all the liabilities specified in the immediately higher
+category.
+
+## Section 22 - Examination of claims.
+
+(1) On receipt of the claims under section 20, the Commissioner shall
+arrange the claims in the order of priority specified in the Second Schedule and examine the same in
+accordance with the said order.
+
+(2) If on examination of the claims, the Commissioner is of the opinion that the amount paid to him
+under this Act is not sufficient to meet the liabilities specified by any lower category, he shall not be
+required to examine the liabilities in respect of such lower category.
+
+## Section 23 - Admission or rejection of claims.
+
+(1) After examining the claims with reference to the priority
+set out in the Second Schedule, the Commissioner shall fix a certain date on or before which every
+claimant shall file the proof of his claim or be excluded from the benefit of the disbursement made by the
+Commissioner.
+
+(2) Not less than fourteen days notice of the date so fixed shall be given by advertisement in one
+issue of the daily newspaper in the English language and one issue of the daily newspaper in the regional
+language as the Commissioner may consider suitable, and every such notice shall call upon the claimant
+to file the proof of his claim with the Commissioner within the time specified in the advertisement.
+
+(3) Every claimant who fails to file the proof of his claim within the time specified by the
+Commissioner shall be excluded from the disbursements made by the Commissioner.
+
+(4) The Commissioner shall, after such investigation as may, in his opinion, be necessary and after
+giving the sick textile undertaking an opportunity of refuting the claim and after giving the claimants a
+reasonable opportunity of being heard, in writing, admit or reject the claim in whole or in part.
+
+(5) The Commissioner shall have the power to regulate his own procedure in all matters arising out of
+the discharge of his functions including the place or places at which he will hold his sittings and shall, for
+the purpose of making any investigation under this Act, have the same powers as are vested in a civil
+court under the Code of Civil Procedure, 1908 (5 of 1908), while trying a suit, in respect of the following
+matters, namely:--
+
+(a) the summoning and enforcing the attendance of any witness and examining him on oath;
+
+(b) the discovery and production of any document or other material object producible as
+evidence;
+
+(c) the reception of evidence on affidavits;
+
+(d) the issuing of any commission for the examination of witnesses.
+
+(6) Any investigation before the Commissioner shall be deemed to be a judicial proceeding within the
+meaning of sections 193 and 228 of the Indian Penal Code (45 of 1860) and the Commissioner shall be
+deemed to be a civil court for the purposes of section 195 and Chapter XXVI of the Code of Criminal
+Procedure, 1973 (2 of 1974).
+
+(7) A claimant who is dissatisfied with the decision of the Commissioner may prefer an appeal
+against the decision to the principal civil court of original jurisdiction within the local limits of whose
+jurisdiction the sick textile undertaking is situated:
+
+Provided that where a person who is a Judge of a High Court is appointed to be the Commissioner,
+such appeal shall lie to the High Court for the State in which the sick textile undertaking is situated, and
+such appeal shall be heard and disposed of by not less than two Judges of that High Court.
+
+## Section 24 - Disbursement of money by the Commissioner to claimants.
+
+After admitting a claim under
+this Act, the amount due in respect of such claim shall be credited by the Commissioner to the relevant
+fund or be paid to the person or persons to whom such sums are due and on such credit or payment the
+liability of the owner in respect of such claim shall stand discharged.
+
+## Section 25 - Disbursement of amounts to the owners of sick textile undertakings.
+
+(1) If out of the monies
+paid to him in relation to a sick textile undertaking, there is a balance left after meeting the liabilities as
+specified in the Second Schedule, the Commissioner shall disburse such balance to the owner of such sick
+textile undertaking.
+
+(2) Before making any payment to the owner of any sick textile undertaking under sub-section (1), the
+Commissioner shall satisfy himself as to the right of such person to receive the whole or any part of such
+amount, and in the event of there being a doubt or dispute as to the right of the person to receive the
+whole or any part of the amount referred to in sections 8 and 9, the Commissioner shall refer the matter to
+the court and make the disbursement in accordance with the decision of the court.
+
+(3) For the removal of doubts, it is hereby declared that the entries in column (3) of the First Schedule
+shall not be deemed to be conclusive as to the right, title and interest of any person in relation to any sick
+textile undertaking specified in the corresponding entries in column (2) of the said Schedule and evidence
+shall be admissible to establish the right, title and interest of any person in relation to such sick textile
+undertaking.
+
+(4) Where any machinery, equipment or other property in a sick textile undertaking has vested in the
+National Textile Corporation, but such machinery, equipment or other property does not belong to the
+owner of such sick textile undertaking, the amount specified in column (4) of the First Schedule against
+such sick textile undertaking shall, on a reference made to it by the Commissioner, be apportioned by the
+court between the owner of such sick textile undertaking and the owner of such machinery, equipment or
+other property having due regard to the value of such machinery, equipment or other property on the
+appointed day.
+
+Explanation.--In this section, "court," in relation to a sick textile undertaking, means the principal
+civil court of original jurisdiction within the local limits of whose jurisdiction the sick textile undertaking
+is situated.
+
+## Section 26 - Undisbursed or unclaimed amounts to be deposited to the general revenue account.
+
+Any
+money paid to the Commissioner which remains undisbursed or unclaimed for a period of three years
+from the last day on which the disbursement was made, shall be transferred by the Commissioner to the
+general revenue account of the Central Government; but a claim to any money so transferred may be
+preferred to the Central Government by the person entitled to such payment and shall be dealt with as if
+such transfer had not been made, the order, if any, for payment of the claim being treated as an order for
+the refund of revenue.
+
+## Section 27 - Assumption of liability.
+
+(1) Where any liability of the owner of a sick textile undertaking
+arising out of any item specified in category I of the Second Schedule is not discharged fully by the
+Commissioner out of the amount paid to him under this Act, the Commissioner shall intimate in writing
+to the Central Government the extent of the liability which remains undischarged, and that liability shall
+be assumed by the Central Government.
+
+(2) The Central Government may, by order, direct the National Textile Corporation to take over any
+liability assumed by that Government under sub-section (1), and on receipt of such direction, it shall be
+the duty of, the National Textile Corporation to discharge such liability.
+
+## Section 28 - Management to continue to vest in the Custodian until alternative arrangements are made.
+
+Notwithstanding the vesting, under this Act, of a sick textile undertaking in the National Textile
+Corporation,--
+
+(a) the Custodian who has been managing the affairs of such undertaking before the date on
+which the Ordinance was promulgated shall, until alternative arrangements have been made by the
+National Textile Corporation, continue to manage the affairs of such undertaking as if the Custodian
+had been authorised by the National Textile Corporation to manage the affairs of such
+undertaking; and
+
+(b) the Custodian or any person authorised by him for this purpose shall, until alternative
+arrangements have been made by the National Textile Corporation, continue to be authorised to
+operate, in relation to the sick textile undertaking, any account of such undertaking in a bank as if
+such Custodian or the person authorised by the Custodian had been authorised by the National Textile
+Corporation to operate such account.
+
+## Section 29 - Act to override all other enactments.
+
+The provisions of this Act shall have effect
+notwithstanding anything inconsistent therewith contained in any other law for the time being in force or
+in any instrument having effect by virtue of any law other than this Act or in any decree or order of any
+court, tribunal or authority.
+
+## Section 30 - Contracts to cease to have effect unless ratified by National Textile Corporation.
+
+(1) Every
+contract entered into by the owner or occupier of any sick textile undertaking for any service, sale or
+supply and in force immediately before the appointed day shall, on and from the expiry of one hundred
+and eighty days from the date on which this Act receives the assent of the President, cease to have effect
+unless such contract is before the expiry of that period, ratified, in writing, by the National Textile
+Corporation and in ratifying such contract the National Textile Corporation may, with the previous
+approval of the Central Government, make such alterations or modifications therein as it may think fit:
+
+Provided that the National Textile Corporation shall not omit to ratify a contract, and shall not make
+any alteration or modification in a contract, unless it is satisfied that such contract is unduly onerous or
+has been entered into in bad faith or is detrimental to the interests of the sick textile undertaking.
+
+(2) The National Textile Corporation shall not omit to ratify a contract, and, shall not make any
+alteration or modification therein, except after giving to the parties to the contract a reasonable
+opportunity of being heard and except after recording in writing its reasons for refusal to ratify the
+contract or for making any alteration or modification therein.
+
+## Section 31 - Transfer of assets, etc., to be void in certain cases.
+
+(1) Except with the prior approval of the
+Central Government, no owner of a sick textile undertaking, specified in the Schedule to the Sick Textile
+Undertakings (Taking Over of Management) Act, 1972 (72 of 1972), the management of which could not
+be taken over by the Central Government by reason of any decree, order or injunction of any court or
+otherwise, shall, on and from the date of introduction of the Sick Textile Undertakings (Nationalisation)
+Bill, 1974, in the House of the People, transfer, by sale, mortgage or otherwise, any property or other
+assets forming part of the said sick textile undertaking and any such transfer without the previous
+approval of the Central Government shall be void and inoperative.
+
+(2) Any person who contravenes the provisions of sub-section (1) shall be punishable with
+imprisonment for a term which may extend to two years, or with fine which may extend to ten thousand
+rupees, or with both.
+
+## Section 32 - Penalties.
+
+Any person who,--
+
+(a) having in his possession, custody or control any property forming part of a sick textile
+undertaking wrongfully withholds such property from the Central Government or the National Textile
+Corporation, or any person authorised by that Government or Corporation, as the case may be, in this
+behalf, or
+
+(b) wrongfully obtains possession of, or retains, any property forming part of the sick textile
+undertaking or wilfully withholds or fails to furnish to the Central Government, the National Textile
+Corporation or any person specified by that Government, or Corporation, as the case may be, any
+document relating to such sick textile undertaking which may be in his possession, custody or control
+or fails to deliver to the National Textile Corporation or any person specified by that Corporation any
+assets, books of account, registers or other documents in his custody relating to the sick textile
+undertaking, or
+
+(c) wrongfully removes or destroys and property forming part of any sick textile undertaking or
+prefers any claim under this Act which he knows or has reasonable cause to believe to be false or
+grossly inaccurate,
+
+shall be punishable with imprisonment for a term which may extend to two years, or with fine which may
+extend to ten thousand rupees, or with both.
+
+## Section 33 - Offences by companies.
+
+(1) Where an offence under this Act has been committed by a
+company, every person who at the time the offence was committed was in charge of, and was responsible
+to, the company for the conduct of the business of the company as well as the company, shall be deemed
+to be guilty of the offence and shall be liable to be proceeded against and punished accordingly:
+
+Provided that nothing contained in this sub-section shall render any such person liable to any
+punishment, if he proves that the offence was committed without his knowledge or that he had exercised
+all due diligence to prevent the commission of such offence.
+
+(2) Notwithstanding anything contained in sub-section (1), where any offence under this Act has been
+committed by a company and it is proved that the offence has been committed with the consent or
+connivance of, or is attributable to any neglect on the part of, any director, manager, secretary or other
+officer of the company, such director, manager, secretary or other officer shall be deemed to be guilty of
+that offence and shall be liable to be proceeded against and punished accordingly.
+
+Explanation.-- For the purposes of this section,--
+
+(a) "company" means any body corporate and includes a firm or other association of
+individuals; and
+
+(b) "director", in relation to a firm, means a partner in the firm.
+
+## Section 34 - Protection of action taken in good faith.
+
+No suit, prosecution or other legal proceeding shall
+lie against the Central Government or any officer of that Government or the Custodian or the National
+Textile Corporation or any Subsidiary Textile Corporation or any officer or other person authorised by
+either of such Corporations for anything which is, in good faith done or intended to be done under this
+Act.
+
+## Section 35 - Textile companies not to be wound up by the court.
+
+No proceeding for the winding up of a
+textile company, the right, title and interest in relation to the sick textile undertaking owned by which
+have vested in the National Textile Corporation under this Act or for the appointment of a receiver in
+respect of the business of the sick textile undertaking shall lie or be proceeded with in any court except
+with the consent of the Central Government.
+
+## Section 36 - Delegation of powers.
+
+(1) The Central Government may, by notification, direct that all or any
+of the powers exercisable by it under this Act, other than the power under section 37, may also be
+exercised by any person or persons as may be specified in the notification.
+
+(2) Whenever any delegation of power is made under sub-section (1), the person to whom such power
+has been delegated shall act under the direction, control and supervision of the Central Government.
+
+## Section 37 - Power to make rules.
+
+(1) The Central Government may, by notification, make rules to carry
+out the provisions of this Act.
+
+(2) In particular, and without prejudice to the generality of the foregoing power, such rules may
+provide for all or any of the following matters, namely:--
+
+(a) the time within which the manner in which an intimation referred to in sub-section (4) of
+section 4 shall be given;
+
+(b) the manner in which monies in any provident or other fund referred to in section 15 shall be
+dealt with;
+
+(c) any other matter which is required to be, or may be, prescribed.
+
+(3) Every rule made by the Central Government under this Act shall be laid, as soon as may be after it
+is made, before each House of Parliament while it is in session for a total period of thirty days which may
+be comprised in one session or in two or more successive sessions, and if, before the expiry of the session
+immediately following the session or the successive sessions aforesaid, both Houses agree in making any
+modification in the rule or both Houses agree that the rule should not be made, the rule shall thereafter
+have effect only in such modified form or be of no effect, as the case may be; so, however, that any such
+modification or annulment shall be without prejudice to the validity of anything previously done under
+that rule.
+
+## Section 38 - Power to remove difficulties.
+
+If any difficulty arises in giving effect to the provisions of this
+Act, the Central Government may, by order not inconsistent with the provisions of this Act, remove the
+difficulty:
+
+Provided that no such order shall be made after the expiry of a period of two years from the date on
+which this Act receives the assent of the President.
+
+## Section 39 - Declaration as to the policy of the State.
+
+It is hereby declared that this Act is for giving effect
+to the policy of the State towards securing the principles specified in clause (b) of article 39 of the
+Constitution.
+
+Explanation.--In this section, "State" has the same meaning as in article 12 of the Constitution.
+
+## Section 40 - Repeal and savings.
+
+(1) The Sick Textile Undertakings (Nationalisation) Ordinance,
+1974 (Ord. 12 of 1974), as hereby repealed.
+
+(2) Notwithstanding such repeal, anything done or any action taken under the Ordinance so repealed
+shall be deemed to have been done or taken under the corresponding provisions of this Act.
+
+## Section 41 - Validation.
+
+^1[41. Validation.-- Notwithstanding anything contained in any judgment, decree or order of any
+court, tribunal or other authority,--
+
+(a) the provisions of this Act, as amended by the Textile Undertakings (Nationalisation) Laws
+(Amendment and Validation) Act, 2014 (36 of 2014), shall have and shall be deemed always to have
+effect for all purposes as if the provisions of this Act, as amended by the said Act, had been in force at
+all material times;
+
+(b) any lease-hold property divested from the National Textile Corporation to any person under
+the provisions of this Act, as it stood immediately before the commencement of the Textile
+Undertakings (Nationalisation) Laws (Amendment and Validation) Act, 2014 (36 of 2014), shall
+stand transferred to and vest or continue to vest, free from all encumbrances, in the National Textile
+Corporation in the same manner as it was vested in the National Textile Corporation before such
+divesting of that property under the provisions of this Act, as if the provisions of this Act as amended
+by the aforesaid Act, were in force at all material times;
+
+(c) no suit or other proceedings shall, without prejudice to the generality of the foregoing
+provisions, be maintained or continued in any court or tribunal or authority for the enforcement of any
+decree or order or direction given by such court or tribunal or authority, notwithstanding any
+undertaking filed by the National Textile Corporation in any court or tribunal or authority, directing
+divestment of such lease-hold property from the National Textile Corporation vested in it under
+section 3 of this Act, as it stood before the commencement of the Textile Undertakings
+(Nationalisation) Laws (Amendment and Validation) Act, 2014 (36 of 2014), and such lease-hold
+property shall continue to vest in the National Textile Corporation under section 3 of this Act, as
+amended by the aforesaid Act, as if the said section was in force at all material times;
+
+(d) any transfer of any property, vested in the National Textile Corporation, by virtue of any order
+of attachment, seizure or sale in execution of a decree of a civil court or orders of any tribunal or
+other authority in respect of lease-hold property vested in the National Textile Corporation which is
+contrary to the provisions of this Act, as amended by the Textile Undertakings (Nationalisation) Laws
+(Amendment and Validation) Act, 2014 (36 of 2014), shall be deemed to be null and void and
+notwithstanding such transfer, continue to vest in the National Textile Corporation under this Act.]
+
+### Footnotes
+
+1. Ins. by Act 36 of 2014, s. 4 (w.e.f. 17-12-2014).
