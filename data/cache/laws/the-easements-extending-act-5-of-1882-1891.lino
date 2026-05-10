@@ -1,7 +1,7 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T20:35:19.528Z`)
+  (str fetchedAt) (str `2026-05-10T11:30:55.992Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/2319`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
@@ -27,6 +27,7 @@ obj_root_law:
   (str enforcementDate) (str 06-03-1891)
   (str notification) (undefined)
   (str fetchedAt) (str `2026-05-09T20:35:19.528Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -73,3 +74,40 @@ by the Governor of Bombay in Council and the lieutenant-Governor of the ^1North-
 Chief Commissioner of Oudh.`)
   (str footnotes) (str `1. Now Uttar Pradesh.`)
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00048_189108_1523336153564&sectionId=43409&sectionno=1&orderno=1&orgactid=AC_CEN_3_20_00048_189108_1523336153564)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `सुखाचार (1882 के अधिनियम सं० 5 का विस्‍तार)`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/2319/3/H1891-8.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T11:30:54.890Z`)
+  (str pageCount) (int 1)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `सुखाचार (1882 के अधिधियम सं ० 5 का धिस्ता र )
+(189 1 का अधिधियम संखयां क 8 )
+[ 6 माचच, 189 1 ]
+भारतीय सुखाचार अधिधियम, 1882 का कधतपय
+उि क्षेत्रों में धिस्ता र करिे के धिए,
+धििमें िह प्र िृत्त िहीं है,
+अधिधियम
+यत: भारतीय सुखाचार अधिधियम, 1882 का उि कधतपय क्षेत्रों में धिस्ता र करिा समीचीि है धििमें िह प्र िृत्त िहीं है; अत:
+धिम्ि धिधखत रू प में यह अधिधियधमत ककया िाता है: —
+1. 1882 के अधिधियम 5 का मु म् ब ई और उत्तर - पधच मी प्र ान्तों और अिि में धिस्ता र — भारतीय सुखाचार अधिधियम, 1882
+(1882 का 5) का धिस्ता र, सपररषद् मुम्ब ई के राज्य पाि और 1 उत्तर - पधच मी प्र ान्तों के उपराज्य पाि और अिि के मुखय आयुक्त के
+अपिे - अपिे प्र शाधसत राज्य क्षेत्रों में ककया िाता है।
+______
+1 अब उत्तर प्र देश।`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)

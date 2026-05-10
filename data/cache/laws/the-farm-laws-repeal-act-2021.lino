@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T15:38:41.881Z`)
+  (str fetchedAt) (str `2026-05-10T11:24:04.241Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/16976`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 3)
+  (str totalSections) (int 3)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -24,6 +26,8 @@ obj_root_law:
   (str longTitle) (str `An Act to repeal the Farmers (Empowerment and Protection) Agreement on Price Assurance and Farm Services Act, 2020, the Farmers' Produce Trade and Commerce (Promotion and Facilitation) Act, 2020, the Essential Commodities (Amendment) Act, 2020 and to amend the Essential Commodities Act, 1955.`)
   (str enforcementDate) (str 30-11-2021)
   (str notification) (undefined)
+  (str fetchedAt) (str `2026-05-09T15:38:41.881Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -91,3 +95,48 @@ obj_root_law_sections_3:
 sub-section (1A) shall be omitted.`)
   (str footnotes) (str )
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_23_31_00012_202140_1638437177885&sectionId=59023&sectionno=3&orderno=3&orgactid=AC_CEN_23_31_00012_202140_1638437177885)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `कृषि विधि निरसन अधिनियम, 2021`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/16976/2/h202140.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T11:24:03.139Z`)
+  (str pageCount) (int 1)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `ST 1] T T TS STHIER 61
+=y fafy few stfafrm, 2021
+(2021 =1 sifufem demiw 40)
+[30 TR, 2021]
+U (TR ST TRET) FAG YA SR FH o W FR
+siffirm, 2020, FHaw ST AR iR T (Fad it
+Tl sifufam, 2020, stavasd awq (HET)
+srfyfram, 2020 =1 FREA qon sTavES
+g stfufrem, 1955 F1 HeeT
+w1 g
+sifafrm
+TRA TR < SEeRd o § Heg gr frefafe w1 # 76 st d—
+1. 3§ sfufarm 1 wfare m Hfa fafy free sifufem, 2021%1 e
+2. HF (FTRHT ST TRE) Fia ST o B Far w ww sl 2020%
+2020, FHTH I ATIR SR (07 (Hae iR wefnon) sifufm, 2020 qon sewas qg - sffem,@
+(Feier) srfufem, 2020 1 g o smr g 20,2020 %
+afufrm,@
+21 372020 %
+afufem 22
+e |
+3. STETF g AU, 1955 1 W 3 T STEW (19) T @M o s | 1955 % st
+H. 10 F1 WA |`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)

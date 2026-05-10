@@ -425,7 +425,7 @@ the Board and shall not be a member for any other purpose.
 
 ### Footnotes
 
-`````
+`````````````````
 
 ## Section 12 - Appointment of officers and other employees of the Board.
 

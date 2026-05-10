@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T09:54:40.950Z`)
+  (str fetchedAt) (str `2026-05-10T11:19:59.656Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1449`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 2)
+  (str totalSections) (int 2)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -24,6 +26,8 @@ obj_root_law:
   (str longTitle) (str `An Act to enlarge the appellate jurisdiction of the Supreme Court in regard to criminal matters.`)
   (str enforcementDate) (str 09-08-1970)
   (str notification) (undefined)
+  (str fetchedAt) (str `2026-05-09T09:54:40.950Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -91,3 +95,48 @@ has in such trial convicted the accused person and sentenced him to imprisonment
 imprisonment for a period of not less than ten years.`)
   (str footnotes) (str )
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00001_197028_1517807317180&sectionId=43698&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00001_197028_1517807317180)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `उच्‍चतम न्‍यायालय (दाण्‍डिक अपीली अधिकारिता विस्‍तारण) अधिनियम, 1970`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1449/2/hH1970-28.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T11:19:58.554Z`)
+  (str pageCount) (int 1)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `उच्च तमन्या यालय ( दाण्ि कअपीलीअण्िकारिता ण्
+िस्ता िण ) अण्िण्ियम, 1970
+(1970 काअण्िण्ियमसं खयां क 28 )
+[9 अगस्त, 1970]
+दाण्ि कमामलोंमेंउच्च तमन्या यालय
+कीअपीलीअण्िकारिताका ण्
+िस्ता िणकििेकेण्लए
+अण्िण्ियम
+भाितगणिाज्य केइक्की सिेंिर्षमेंसंसद्द्वा िाण्िम्ि ण् लण्ि त रू पमेंयहअण्िण्ियण्मतहो: —
+1. संण्िप्त िामऔिण्िस्ता ि — (1) इसअण्िण्ियमकासंण्िप्त िा म उच्च तमन्या यालय ( दाण्ि कअपीलीअण्िकारिता ण्
+िस्ता िण ) अण्िण्ियम, 1970 है।
+(2) इसकाण्िस्ता ि 1 * * * सम्पू णषभाितपिहै।
+2. दाण्ि कमामलोंमें उच्च तमन्या यालयकीण्िस्ता रितअपीलीअण्िकारिता — संण्ििािकेअिुच्छे द 134 केिि (1) द्व ािा
+उच्च तमन्या यालयकोप्रदत्तशण्क्त योंपिप्रण्तकूलप्रभाििालेण्ििा,भाितिाज्य िेत्रकेककसीउच्च न् या यालय कीककसीदा ण् ि क
+कायषिाहीमेंकदएहुएण्िणषय,अंण्तमआदेशयादिा देशकीउच्च तमन्या यालयमेंअपीलहोगीयकद —
+( क ) उसउच्च न् या यालयिेअपीलमेंककसीअण्भयुक्त व् य ण्क् त कीदोर्मुण्क्त केआदेशकोउलटकदयाहैतथाउसे
+आजीििकािािासयादसिर्षअथिाउससेअण्िककीअिण्िकेण्लए कािािासकादिा देशकदयाहै;
+( ि ) उसउच्च न् या यालयिेअपिेप्राण्िकािकेअिीिस्थ ककसीन्या यालयसेककसीमामलेकोण्िचािणकेण्लए
+अपिेपासमांगण्लयाहैऔिऐसेण्िचािणमेंअण्भयुक्त व् य ण्क् त कोण्सद्धदोर्ठहिायाहैऔिआजीििकािािास यादसिर्ष
+अथिाउससेअण्िक कीअिण्िकेण्लएकािािासकादिा देशकदयाहै।
+______
+1 1972 केअण्िण्ियमसं ० 37 द्व ािा “ जम्मू - कश्मी ििाज्य केण्सिाय ” शब्दों कालोपककयागया।`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)

@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T00:38:58.775Z`)
+  (str fetchedAt) (str `2026-05-10T11:18:00.243Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/15512`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 4)
+  (str totalSections) (int 4)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -23,6 +25,8 @@ obj_root_law:
   (str department) (str `Department of Jammu and Kashmir Affairs`)
   (str longTitle) (str `An Act to provide for the languages to be used for the official purposes of the Union territory of Jammu and Kashmir and for matters connected therewith or incidental thereto.`)
   (str enforcementDate) (str 29-09-2020)
+  (str fetchedAt) (str `2026-05-09T00:38:58.775Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -128,3 +132,42 @@ and languages in the Union territory.
 for the promotion and development of Gojri, Pahari and Punjabi languages.`)
   (str footnotes) (str )
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_34_00004_202023_1601447366243&sectionId=50405&sectionno=4&orderno=4&orgactid=AC_CEN_5_34_00004_202023_1601447366243)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `जम्मू-कश्मीर राजभाषा अधिनियम, 2020`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/15512/2/H2020-23.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T11:17:59.141Z`)
+  (str pageCount) (int 2)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+  obj_root_law_translations_hi_sections_2
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `] 343
+[ ]
+`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)
+obj_root_law_translations_hi_sections_2:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-2)
+  (str sectionNo) (str 2)
+  (str orderNo) (int 2)
+  (str title) (str `Page 2`)
+  (str content) (str `344 [ 
+
+`)
+  (str footnotes) (str )
+  (str sourcePage) (int 2)

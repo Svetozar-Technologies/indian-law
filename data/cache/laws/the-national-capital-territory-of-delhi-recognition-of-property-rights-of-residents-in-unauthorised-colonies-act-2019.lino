@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T15:22:27.069Z`)
+  (str fetchedAt) (str `2026-05-10T11:23:38.699Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/13080`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 3)
+  (str totalSections) (int 3)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -24,6 +26,8 @@ obj_root_law:
   (str longTitle) (str `An Act to provide special provisions for the National Capital Territory of Delhi for recognising the property rights of resident in unauthorised colonies by securing the rights of ownership or transfer or mortgage in favour of the residents of such colonies who are possessing properties on the basis of Power of Attorney, Agreement to Sale, Will, possession letter or any other documents including documents evidencing payment of consideration and for the matters connected therewith or incidental thereto.`)
   (str enforcementDate) (str 11-12-2019)
   (str notification) (undefined)
+  (str fetchedAt) (str `2026-05-09T15:22:27.069Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -131,3 +135,55 @@ prior to any transaction referred to in sub-section (4).
 any property rights under this Act.`)
   (str footnotes) (str )
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_20_00079_201945_1576820830514&sectionId=49749&sectionno=3&orderno=3&orgactid=AC_CEN_3_20_00079_201945_1576820830514)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `दिल्ली राष्ट्रीय राजधानी राज्यक्षेत्र (अप्राधिकृत कॉलोनी निवासी संपत्ति अधिकार मान्यता) अधिनियम, 2019`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/13080/2/H2019-45.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T11:23:37.598Z`)
+  (str pageCount) (int 3)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+  obj_root_law_translations_hi_sections_2
+  obj_root_law_translations_hi_sections_3
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `] 89
+[ ]`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)
+obj_root_law_translations_hi_sections_2:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-2)
+  (str sectionNo) (str 2)
+  (str orderNo) (int 2)
+  (str title) (str `Page 2`)
+  (str content) (str `90 [ —
+(ii)
+—
+—`)
+  (str footnotes) (str )
+  (str sourcePage) (int 2)
+obj_root_law_translations_hi_sections_3:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-3)
+  (str sectionNo) (str 3)
+  (str orderNo) (int 3)
+  (str title) (str `Page 3`)
+  (str content) (str `] 91
+(ii)
+——————`)
+  (str footnotes) (str )
+  (str sourcePage) (int 3)

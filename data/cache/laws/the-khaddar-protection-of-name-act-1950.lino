@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T10:40:46.429Z`)
+  (str fetchedAt) (str `2026-05-10T11:22:10.427Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1386`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 3)
+  (str totalSections) (int 3)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -24,6 +26,8 @@ obj_root_law:
   (str longTitle) (str `An Act to regulate the use of the words "Khaddar" and "Khadi" when applied as a trade description of woven materials.`)
   (str enforcementDate) (str 28-12-1950)
   (str notification) (undefined)
+  (str fetchedAt) (str `2026-05-09T10:40:46.429Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -94,3 +98,43 @@ obj_root_law_sections_3:
   (str content) (str `[Repealed].--Rep. by the Repealing and Amending Act, 1957 (36 of 1957) s. 2 and First Schedule.`)
   (str footnotes) (str )
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_20_25_00005_195078_1517807321750&sectionId=36322&sectionno=3&orderno=3&orgactid=AC_CEN_20_25_00005_195078_1517807321750)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `खद्दर (नाम संरक्षण) अधिनियम, 1950`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1386/2/H195078.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T11:22:09.325Z`)
+  (str pageCount) (int 1)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `खद्दर ( नाम संरक्षण ) अधिधनयम, 195 0
+) 195 0 का अधिधनयम संखयां क 7 8 (
+[2 8 दिसम्ब र, 195 0 ]
+“ खद्दर ” तथा “ खािी ” शब्ि जब बुनी हु ई सामग्री के पण्य धििरण
+के रू प में प्र युक्त दकए जाएं, तब उनके उपयोग
+का धिधनयमन करने के धिए
+अधिधनयम
+संसि् द्व ारा धनम्न धिधखत रू प में यह अधिधनयधमत हो: —
+1. संधक्षप्त नाम और धिस्ता र — (1) इस अधिधनयम का संधक्षप्त नाम खद्दर ( नाम संरक्षण ) अधिधनयम, 195 0 है।
+(2) इसका धिस्ता र जम् मू - कश्मी र राज्य के धसिाय * सम्पू णण भारत पर है।
+2. “ खद्दर ” तथा “ खािी ” शब्िों का पण्य धििरण के रू प में होना — “ खद्दर ” तथा “ खािी ” शब्ि, चाहे धहन्िी में, या दकसी
+भारतीय भाषा में, या अंग्रेजी में, जब दकसी बुनी हु ई सामग्री के बारे में प्र युक्त दकए जाएं, इंधियन मचणन्िा इज माक् सण ऐक्ट, 1889 (1889
+का 4) के अथण में पण्य धििरण के रू प में समझे जाएंगे। िे यह िर्शणत करेंगे दक ऐसी सामग्री भारत में हाथ से कती हु ई कपास के, रेशम
+के या ऊन के सूत से या दकसी िो के या सभी ऐसे सूतों के धमश्रण से, भारत में करघे पर बुना हु आ कपडा है।
+3. [ धनरसन। ] — धनरसन तथा संशोिन अधि धनयम, 1957 (1957 का 36) की िारा 2 तथा अनुसूची 1 द्व ारा धनरधसत।
+______
+* इस अधिधनयम को जम्मू - कश्मी र राज्य क्षेत्र और िद्दाख संघ राज्य क्षेत्र में अधिसूचना सं.आ.का. 3912( अ ), तारीख, 30 अक्टू बर, 2019 से िागू दकया गया।`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)

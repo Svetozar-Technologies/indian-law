@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-09T15:44:57.222Z`)
+  (str fetchedAt) (str `2026-05-10T11:24:23.226Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/19242`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 4)
+  (str totalSections) (int 4)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -24,6 +26,8 @@ obj_root_law:
   (str longTitle) (str `An Act to apply the Registration of Foreigners Act, 1939 and the Foreigners Act, 1946 to certain persons to whom they do not at present apply and further to amend the Foreigners Act, 1946.`)
   (str enforcementDate) (undefined)
   (str notification) (undefined)
+  (str fetchedAt) (str `2026-05-09T15:44:57.222Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -110,3 +114,51 @@ be deemed to have been done or taken under this Act, as if this Act and commence
 October, 1962.`)
   (str footnotes) (str )
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_5_23_00045_196242_1673602097671&sectionId=72575&sectionno=4&orderno=4&orgactid=AC_CEN_5_23_00045_196242_1673602097671)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `विदेशियों विषयक विधि (लागू होना और संशोधन) अधिनियम, 1962`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/19242/3/H1962-42.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T11:24:22.124Z`)
+  (str pageCount) (int 1)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `विदेवियों विषयक विवि (लागू होना और संिोिन)
+अविवनयम, 1962
+) 1962 का अविवनयम संखयां क 42 (
+[24 निम् ब र, 1962 ]
+विदेवियों का रविस्‍टरी करण अविवनयम, 1939 और विदेवियों विषयक
+अविवनयम, 1946 को कविपय व् य वि यों को विन् हें िे संप्रवि
+लागू नहीं होिे हैं, लागू करने िथा विदेवियों
+विषयक अविवनयम, 1946 का और
+संिोिन करने के वलए
+अविवनयम
+भारि गणराज्य के िेरहिें िषष में संसद् द्व ारा वनम्न वलविि रू प में यह अविवनयवमि हो: —
+1. संविप्ि नाम — यह अविवनयम विदेवियों विषयक विवि (लागू होना और संिोिन) अविवनयम, 1962 कहा िा सकिा है।
+2. 1939 के अविवनयम 16 का और 1946 के अविवनयम 31 का कविपय व् य वि यों को लागू होना — ित्स मय प्र िृत्त ककसी अन्य
+विवि में ककसी बाि के होिे हु ए भी, विदेवियों का रविस्‍टरी करण अविवनयम, 1939 और विदेवियों विषयक अविवनयम, 1946 और
+िद् िीन बनाए गए वनयमों और आदे िों के उपबंि ककसी ऐसे व् य वि को या के संबंि में, िो या विसके मािा या वपिा अथिा विसके
+वपिामह या वपिामही अथिा मािामह या मािामही में से कोई ककसी भी समय ककसी ऐसे देि का नागररक या प्र िा िो भारि के
+विरुद्ध युद्ध या बाह्य आक्रमण कर रहा है या िो भारि के विरुद्ध युद्ध या बाह्य आक्रमण करने िाले देि की सहायिा कर रहा है िैसे ही
+लागू होंगे िैसे िे उन अविवनयमों के प्र योिनों के वलए पररभावषि विदेवियों को या के संबंि में लागू होिे हैं।
+1 * * * * *
+4. वनरसन और व् या िृवत्त — (1) विदेवियों विषयक विवि (लागू होना और संिोिन) अध्या देि, 1962 (1962 का 5) एिद् द्व ारा
+वनरवसि ककया िािा है।
+(2) ऐसे वनरसन के होिे हु ए भी, उ ि अध्या देि के अिीन की गई कोई बाि या कायषिाही इस अविवनयम के अिीन की गई
+समझी िाएगी मानो यह अविवनयम 26 अिू बर, 1962 को प्र ारम्भ हो गया था।
+____ __
+1 1974 के अविवनयम सं ० 56 की िारा 2 और पहली अनुसूची द्व ारा िारा 3 वनरवसि।`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)
