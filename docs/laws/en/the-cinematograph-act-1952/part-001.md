@@ -41,7 +41,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/notificationindividualfile/&file=s.o._655_%28e%29_15.09.1997.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/notificationindividualfile/&file=S.O.+655+%28E%29+15.09.1997.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2170/2/H1952-37.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

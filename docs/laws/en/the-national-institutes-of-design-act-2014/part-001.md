@@ -24,7 +24,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00007_201418_1517807327924/ordinanceindividualfile/&file=Ordinance-Published-on-04.01.2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00007_201418_1517807327924/statuteindividualfile/&file=Statutes_published_on_17.01.2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2132/3/H2014-18.pdf
 
 ## Section 1 - Short title and commencement.
 

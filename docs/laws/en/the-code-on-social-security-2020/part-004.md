@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/16823
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/16823/1/aA2020-36.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/16823/2/hH2020-36_compressed.pdf
 
 ## Section 122 - Appointment of Inspector-cum-Facilitators and their powers.
 

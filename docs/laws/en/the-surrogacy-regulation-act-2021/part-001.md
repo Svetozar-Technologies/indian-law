@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00002_202147_1643711958603/rulesindividualfile/&file=the_surrogacy_amendment_rule%2C_2023.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00002_202147_1643711958603/regulationindividualfile/&file=surrogacy_regulations_2023.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/17046/2/h202147.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

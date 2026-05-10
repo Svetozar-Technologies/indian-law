@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2191
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2191/1/aA1908-05.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2191/2/hH190805.pdf
 
 ## Section 110 - [Omitted.].
 

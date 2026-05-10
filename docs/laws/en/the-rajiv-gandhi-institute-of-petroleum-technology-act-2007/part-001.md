@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00005_200754_1517807322639/notificationindividualfile/&file=RGIPTGAZETTE_0.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00005_200754_1517807322639/statuteindividualfile/&file=Rgipt+1st+Statutes_14may2013.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2062/3/H2007-54.pdf
 
 ## Section 1 - Short title and commencement.
 

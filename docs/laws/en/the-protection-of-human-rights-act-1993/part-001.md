@@ -25,7 +25,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_000010_199410_1517807322704/regulationindividualfile/&file=National+Human+Rights+Commission+%28Procedure%29+Amendment+Regulations+1996.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_000010_199410_1517807322704/regulationindividualfile/&file=National+Human+Righits+Commission+%28Procedure%29+Amendment+Regulationss1997.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/15709/2/H1994-10.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

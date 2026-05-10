@@ -29,7 +29,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=10GSR+18%28E%29+dated+08.01.2018.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/notificationindividualfile/&file=Notification+Taxation+Amendment+Act05.05.2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1563/3/H1947-24.pdf
 
 ## Section 1 - Short title and extent.
 

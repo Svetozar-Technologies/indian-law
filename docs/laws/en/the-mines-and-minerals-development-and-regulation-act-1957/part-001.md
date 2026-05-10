@@ -61,7 +61,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_15_16_00002_195767_1517807322197/notificationindividualfile/&file=rescission_of_mineral_%28mining_by_government_company%29_rules%2C_2015.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_15_16_00002_195767_1517807322197/notificationindividualfile/&file=rescission_of_minerals_%28transfer_of_mining_lease_granted_otherwise_than_through_auction_for_captive_purpose%29_rules%2C_2016.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1421/2/H195767H.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

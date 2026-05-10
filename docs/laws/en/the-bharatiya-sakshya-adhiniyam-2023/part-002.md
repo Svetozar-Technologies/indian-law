@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/20063
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/20063/1/aa202347.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/20063/2/hh202347.pdf
 
 ## Section 81 - Presumption as to Gazettes in electronic or digital record.
 

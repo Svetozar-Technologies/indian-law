@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00003_200530_1517807317795/notificationindividualfile/&file=credit_information_companies_act_rules_and_regulation_notification_dated_14.12.2006_.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00003_200530_1517807317795/notificationindividualfile/&file=credit_information_companies_%28amendment%29_regulations_dated_11.8.2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2057/1/H2005-30.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

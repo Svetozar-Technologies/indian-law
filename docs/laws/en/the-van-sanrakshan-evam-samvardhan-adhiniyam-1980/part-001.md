@@ -54,7 +54,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/orderindividualfile/&file=1_20190611134423178.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/orderindividualfile/&file=1.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1760/3/H1980-69.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

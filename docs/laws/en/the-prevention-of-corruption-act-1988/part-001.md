@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1558/1/A1988-49.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00001_198849_1517807318890/notificationindividualfile/&file=notification1.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1558/2/HH198849.pdf
 
 ## Section 1 - Short title and extent.
 

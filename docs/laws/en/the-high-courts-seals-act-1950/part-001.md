@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1475/1/A1950-07.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00004_195007_1517807318859/rulesindividualfile/&file=The+High+Courts+%28Seals%29+Act%2C+1950.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1475/2/H195007.pdf
 
 ## Section 1 - Short title.
 

@@ -153,7 +153,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00023_194023_1523353460112/notificationindividualfile/&file=14.2018_06_01_G_S_R_+521%28E%29_Form12B_Extended+validity+of+personal+import+licence.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00023_194023_1523353460112/notificationindividualfile/&file=15.S_O_+2237%28E%29_Notification+on+Central+Medical+Device+Testing+Laboratory+under+MDR+2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2409/3/H1940-23.pdf
 
 ## Section 27 - Penalty for manufacture, sale, etc., of drugs in contravention of this Chapter.
 

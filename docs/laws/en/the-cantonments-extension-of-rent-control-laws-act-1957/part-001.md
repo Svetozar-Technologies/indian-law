@@ -36,7 +36,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Rajasthan+%282%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Rajasthan.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1379/5/H1957-46.pdf
 
 ## Section 1 - Short title.
 

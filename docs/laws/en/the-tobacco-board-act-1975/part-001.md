@@ -24,7 +24,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00006_197504_1517807324189/notificationindividualfile/&file=amendment_of_tobacco_board_rules_1976.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00006_197504_1517807324189/notificationindividualfile/&file=amend_the_tobacco_board_recruitment_regulations_2013.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1739/3/H1975-4.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

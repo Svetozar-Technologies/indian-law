@@ -26,7 +26,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/notificationindividualfile/&file=ssb_so_2777%28e%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/hindinotificationsindividualfile/&file=so_2777%28e%29_27.10.2014.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2039/3/H2007-53.pdf
 
 ## Section 93 - Power of criminal court to require delivery of offender.
 

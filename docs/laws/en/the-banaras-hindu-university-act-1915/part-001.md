@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00037_191516_1523342355197/ordinanceindividualfile/&file=bhu_modified_ordinance_11-a.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00037_191516_1523342355197/statuteindividualfile/&file=BHU+60+Statutes.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2356/3/H1915-16.pdf
 
 ## Section 1 - Short title and commencement.
 

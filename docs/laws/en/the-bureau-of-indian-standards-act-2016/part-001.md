@@ -42,7 +42,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/orderindividualfile/&file=removal_of_difficulty_order.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/orderindividualfile/&file=bis_mandatory_hallmarking_order_15.01.2020.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2157/5/H2016-11.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

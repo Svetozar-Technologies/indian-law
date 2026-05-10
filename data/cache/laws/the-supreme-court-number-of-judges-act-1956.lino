@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T21:29:57.402Z`)
+  (str fetchedAt) (str `2026-05-10T09:46:42.261Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1676`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 2)
+  (str totalSections) (int 2)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -23,6 +25,8 @@ obj_root_law:
   (str department) (str `Department of Justice`)
   (str longTitle) (str `An Act to provide for an increase in the number of Judges of the Supreme Court, excluding the Chief Justice.`)
   (str enforcementDate) (str 16-09-1956)
+  (str fetchedAt) (str `2026-05-08T21:29:57.402Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -78,3 +82,40 @@ number of Judges of the Supreme Court, excluding the Chief Justice of India, sha
 ^1[thirty-three].`)
   (str footnotes) (str `1. Subs. by Act 37 of 2019, s. 2, for "thirty" (w.e.f. 09-08-2019).`)
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00012_195655_1517807322161&sectionId=43691&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00012_195655_1517807322161)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `उच्चतम न्यायालय (न्यायाधीश संख्या) अधिनियम, 1956`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1676/4/H1956-55.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T09:46:41.159Z`)
+  (str pageCount) (int 1)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `उच्च तमन्यायालय(न्यायाधी शसंख्या)
+अधधधियम, 1956
+( 1956 काअधधधियमसंख्यांक 55 )
+[16 धसतम्बर, 1956 ]
+मुख्यन्यायाधधपधतकोछो ड़ करउच्च तमन्यायालयकेन्यायाधीशों
+कीसंख्यामेंवृधिकेधलएउपबन्ध
+करिेकेधलए
+अधधधियम
+भारतगणराज्यकेसातवेंवर्षमेंसंसद् द्व ाराधिम्ि धलधितरूपमेंयहअधधधियधमतहो: —
+1. संधिप्त िाम — ( 1 ) इसअधधधियमकासंधिप्त िामउच्च तमन्यायालय(न्यायाधीशसंख्या)अधधधियम, 1956 है।
+2. मुख्यन्यायाधधपधतसेधभन्ि उच्च तमन्यायालयकेन्यायाधीशोंकीअधधकतमसंख्या — भारतकेमुख्यन्यायाधधपधतको
+छोड़ करउच्च तमन्यायालयकेन्यायाधीशोंकीअधधकतमसंख्या 1 [ तैंतीस ] होगी।
+______
+1 20 1 9 केअधधधियमसं ० 37 कीधारा 2 द्व ारा “ तीस ” शब्दों केस्थािपर प्र धत स् थाधपत।`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)

@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00040_202133_1629961891898/rulesindividualfile/&file=tribunal_amendment_rules_2023.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00040_202133_1629961891898/rulesindividualfile/&file=tribunal_rules_second_amendment.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/16901/2/h202133.pdf
 
 ## Section 1 - Short title and commencement
 

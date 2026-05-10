@@ -133,7 +133,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00003_195633_1517807321564/notificationindividualfile/&file=notification_isrwda_09_12_2020_section_5.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00003_195633_1517807321564/orderindividualfile/&file=isrwda_order_standing_committee_on_inter_state_issues_in_water_resources_1990.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1664/5/H1956-33.pdf
 
 ## Section 1 - Short title and extent.
 

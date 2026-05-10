@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2011/1/A2003-49.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00018_200349_1517807324830/rulesindividualfile/&file=Repatriation+of+Prisoners+Rule%2C+2004.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2011/3/H2003-49.pdf
 
 ## Section 1 - Short title and commencement.
 

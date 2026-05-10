@@ -48,7 +48,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=the_tribunals_reforms_act%2C_2021.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/orderindividualfile/&file=removal.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2077/3/H2007-55.pdf
 
 ## Section 1 - Short title and commencement.
 

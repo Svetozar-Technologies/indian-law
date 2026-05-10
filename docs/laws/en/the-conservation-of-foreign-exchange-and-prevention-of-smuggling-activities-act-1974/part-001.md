@@ -192,7 +192,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=reconstitution_of_advisory_board.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00013_197452_1517807319869/notificationindividualfile/&file=vijay_goel.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1618/4/H1974-52.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

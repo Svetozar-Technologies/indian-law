@@ -33,7 +33,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=1872.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=2976.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1927/2/hH1992-19.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

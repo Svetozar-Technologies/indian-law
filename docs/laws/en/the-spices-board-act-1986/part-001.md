@@ -35,7 +35,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/notificationindividualfile/&file=constitution_of_warangal_spice_development_agency.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/notificationindividualfile/&file=appointment_of_chairman%2C_spices_board.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1872/3/H1986-10.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

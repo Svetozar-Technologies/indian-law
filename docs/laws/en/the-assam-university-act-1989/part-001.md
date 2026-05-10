@@ -25,7 +25,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00002_198923_1517807320208/ordinanceindividualfile/&file=assam_unievrsity-ordinances_vol-ii.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00002_198923_1517807320208/ordinanceindividualfile/&file=assam_unievrsity-ordinances_vol-iii..pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1895/2/h198923.pdf
 
 ## Section 1 - Short title and commencement.
 

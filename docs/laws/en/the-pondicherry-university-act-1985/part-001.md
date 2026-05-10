@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00025_198553_1517807326790/ordinanceindividualfile/&file=8_ordinances_of_pondicherry_university.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00025_198553_1517807326790/ordinanceindividualfile/&file=Pondocherry+University+Academic+Ordinances.PDF
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1862/3/H1985-53.pdf
 
 ## Section 1 - Short title and commencement.
 

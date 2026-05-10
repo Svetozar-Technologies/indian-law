@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=aaifr_%28secretary%27s_powers_and_duties%29_rules%2C_1988.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=aaifr_%28conditions_of_service_of_the_secretary_and_other_officers_and_employees%29_rules%2C_1989.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1414/3/H2004-01.pdf
 
 ## Section 1 - Short title and commencement.
 

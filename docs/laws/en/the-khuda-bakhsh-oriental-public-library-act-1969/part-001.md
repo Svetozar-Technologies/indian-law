@@ -27,7 +27,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/regulationindividualfile/&file=kbopl_service_%28amendment%29_regulations%2C_2003.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/notificationindividualfile/&file=kbopl-rule_with_schedule_for_moc_website_%281%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1731/2/H_1969-43.pdf
 
 ## Section 1 - Short title and commencement.
 

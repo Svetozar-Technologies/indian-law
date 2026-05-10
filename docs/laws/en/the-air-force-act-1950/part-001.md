@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00018_195045_1517807325980/rulesindividualfile/&file=AFrules.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00018_195045_1517807325980/regulationindividualfile/&file=AFRegulations.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1819/2/h195045.pdf
 
 ## Section 1 - Short title and commencement.
 

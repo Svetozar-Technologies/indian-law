@@ -93,7 +93,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00007_197253_1517807324579/notificationindividualfile/&file=notification-_authorization-section_49m.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00007_197253_1517807324579/notificationindividualfile/&file=cites_ma-notification.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1726/2/hH1972-53.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

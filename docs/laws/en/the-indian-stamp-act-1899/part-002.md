@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00036_189902_1523339055436/notificationindividualfile/&file=E_358_2011_017_sw.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00036_189902_1523339055436/notificationindividualfile/&file=E_1279_2010_001_sw.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/15510/2/H1899-02.pdf
 
 ## Section 23A - Certain instruments connected with mortgages of marketable securities to be chargeable as agreements.
 

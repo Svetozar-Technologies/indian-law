@@ -54,7 +54,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=gazette_dated_02.12.2024.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/orderindividualfile/&file=Order_Designating+the+Addl.+DG_Nodal+Officer.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2081/2/H2009-7.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

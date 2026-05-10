@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00040_188804_1523273943369/rulesindividualfile/&file=irf_rules.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00040_188804_1523273943369/regulationindividualfile/&file=ra.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2314/3/H1888-4.pdf
 
 ## Section 1 - Title and commencement.
 

@@ -26,7 +26,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/regulationindividualfile/&file=2._export-import_bank_officers%E2%80%99_regulations%2C_2020.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/regulationindividualfile/&file=export-import_bank_of_india_general_regulations%2C_2020.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1782/3/H1981-28.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

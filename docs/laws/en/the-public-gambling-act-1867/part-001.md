@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2269
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2269/1/AAA1867____03.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2269/2/H1867-03.pdf
 
 ## Section 1 - Interpretation-clause.
 

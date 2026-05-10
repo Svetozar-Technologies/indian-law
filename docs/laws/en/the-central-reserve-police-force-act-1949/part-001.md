@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1608/1/A1949-66.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00006_194966_1517807319820/rulesindividualfile/&file=Central+Reserve+Police+Force+Rules+1955.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1608/3/H1949-66.pdf
 
 ## Section 1 - Short title and extent.
 

@@ -30,7 +30,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/notificationindividualfile/&file=corrigendum_1_%281%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/notificationindividualfile/&file=notification_bd_act%2C_2023.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2046/3/H2003-18.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -25,7 +25,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00005_197170_1517807319029/rulesindividualfile/&file=The+Contempt+of+Court+Act%2C+1971.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00005_197170_1517807319029/rulesindividualfile/&file=contempt_bombay_hc.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1514/2/hH1971-70.pdf
 
 ## Section 1 - Short title and extent.
 

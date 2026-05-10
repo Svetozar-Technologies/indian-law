@@ -38,7 +38,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=rte_-amedment%2C_2019.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=rte%28amd%29_act%2C2019_wef.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2086/2/H2009-35.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

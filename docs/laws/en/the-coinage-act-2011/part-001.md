@@ -119,7 +119,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00052_201111_1517807327275/rulesindividualfile/&file=shri_ram_chandra_ji.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00052_201111_1517807327275/rulesindividualfile/&file=srila_bhakti_siddhanta_saraswati_goswami_prabhupad.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2112/3/H2011-11.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

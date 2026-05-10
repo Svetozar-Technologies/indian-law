@@ -78,7 +78,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/regulationindividualfile/&file=RegulationUcc19072018.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_58_00002_199724_1517807323214/orderindividualfile/&file=.Main+order_09_Mar_1999.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1929/2/h199724.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

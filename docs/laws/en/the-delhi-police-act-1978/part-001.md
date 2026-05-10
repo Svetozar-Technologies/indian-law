@@ -28,7 +28,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/notificationindividualfile/&file=Notification+2+under+Delhi+Police+Act+1978.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/notificationindividualfile/&file=Notification++under+Delhi+Police+Act+1978.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1742/3/H1978-34.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

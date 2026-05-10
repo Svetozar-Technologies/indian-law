@@ -82,7 +82,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00002_198846_1517807317905/notificationindividualfile/&file=delegation_of_power%2C_shri_ravi_pratap_singh.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00002_198846_1517807317905/notificationindividualfile/&file=constitution_of_advisory_board%2C_13_march_2019.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1887/2/h198846.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -90,7 +90,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00014_199215_1517807319932/regulationindividualfile/&file=mutual_fund.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00014_199215_1517807319932/regulationindividualfile/&file=municipal_debt_securities_%281%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1890/2/H1992-15.pdf
 
 ## Section 15Q - Resignation and removal.
 

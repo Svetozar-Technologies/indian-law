@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00002_195649_1517807321201/rulesindividualfile/&file=river_board_act_rules_river_board_rules_1958.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00002_195649_1517807321201/rulesindividualfile/&file=river_board_act_rules_bansagar_control_board_1979.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1659/3/H1956-49.pdf
 
 ## Section 1 - Short title and commencement.
 

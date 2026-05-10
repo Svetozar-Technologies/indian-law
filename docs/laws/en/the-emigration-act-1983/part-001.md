@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00032_198331_1517807325857/rulesindividualfile/&file=The+Emigration+%28Amendment%29+Rules%2C+2017+%2812-12-2017%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00032_198331_1517807325857/rulesindividualfile/&file=The+Emigration+%28Amendment%29+Rules%2C+2017+%2814-12-2017%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1779/3/H1983-31.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00002_195824_1517807319310/rulesindividualfile/&file=AMASRFramingofHeritagRules2011.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00002_195824_1517807319310/rulesindividualfile/&file=NMAService_ofmembersRules2011.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/13053/4/H1958-24.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

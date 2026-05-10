@@ -43,7 +43,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/orderindividualfile/&file=removal+of+difficulty+order+V.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/orderindividualfile/&file=removal+of+difficulty+order+VI.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2122/3/h2014-1.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

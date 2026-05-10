@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00033_194841_1517807325277/rulesindividualfile/&file=The+Diplomatic+and+Consular+Officers+%28Fees%29+Amendment+Rules%2C+2007+%2828-03-2007%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00033_194841_1517807325277/rulesindividualfile/&file=The+Diplomatic+and+Consular+Officers+%28Fees%29+Amendment+Rules%2C+2017+%2816-08-2017%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1763/3/H1948-41.pdf
 
 ## Section 1 - Short title.
 

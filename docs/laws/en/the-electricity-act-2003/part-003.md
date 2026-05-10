@@ -117,7 +117,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00001_200336_1517807317930/notificationindividualfile/&file=in_exercise_of_the_powers_conferred_by_clause_j_of_sub_section_2_of_section.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00001_200336_1517807317930/notificationindividualfile/&file=jerc_%28electricity_supply_code%29_regulations_2018.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2058/5/H2003-36.pdf
 
 ## Section 105 - Annual report of State Commission.
 

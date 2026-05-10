@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00009_201314_1517807327213/notificationindividualfile/&file=Notification+09+Dec+2013.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00009_201314_1517807327213/notificationindividualfile/&file=amendment-on-posh-act.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2104/3/H2013-14.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00014_199201_1517807323250/rulesindividualfile/&file=Transaction+of+Business+of+the+Government+of+National+Capital+Territory+of+Delhi+Rules%2C+1993.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00014_199201_1517807323250/rulesindividualfile/&file=Transaction+of+Business+of+the+Govt+of+NCT+of+Delhi+Rules+1993.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1923/2/hH1992-01.pdf
 
 ## Section 1 - Short title and commencement.
 

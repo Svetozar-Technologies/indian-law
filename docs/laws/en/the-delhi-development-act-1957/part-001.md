@@ -30,7 +30,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_%28form_of_appeal%29_rules%2C_1986.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_%28disposal_of_developed_nazul%29_land%29_amendment_rules%2C_2009.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1391/5/H1957-61.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

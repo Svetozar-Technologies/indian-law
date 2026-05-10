@@ -31,7 +31,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/statuteindividualfile/&file=Comprehensive+Statutes+of+IIEST%2C+Shibpur.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/statuteindividualfile/&file=Statutes+of+NIT%2C+Andhra+Pradesh.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2083/3/H2007-29.pdf
 
 ## Section 1 - Short title and commencement.
 

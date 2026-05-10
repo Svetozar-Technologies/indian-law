@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00003_196128_1517807322681/rulesindividualfile/&file=the+Dowry+Prohibition+%28Maintenance+of+Lists+of+Presents+to+the.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00003_196128_1517807322681/notificationindividualfile/&file=20+Jun+1961.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1679/3/H1961-28.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

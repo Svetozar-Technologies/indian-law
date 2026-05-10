@@ -29,7 +29,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/statuteindividualfile/&file=Amendment+to+The+Nalanda+University+Statutes%2C+2012+%2803.03.2014%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/statuteindividualfile/&file=statute-4.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2109/3/H2010-39.pdf
 
 ## Section 1 - Short title and commencement.
 

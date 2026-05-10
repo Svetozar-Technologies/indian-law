@@ -25,7 +25,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00002_194837_1517807319480/notificationindividualfile/&file=Amendment+to+Notification+SO+517%28E%29+dated+25.2.2010.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00002_194837_1517807319480/notificationindividualfile/&file=published_notification_on_census_2021.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1519/3/H1948-37.pdf
 
 ## Section 1 - Short title and extent.
 

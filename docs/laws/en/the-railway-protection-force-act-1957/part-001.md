@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1450/5/a1957-23.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00001_195723_1517807317103/rulesindividualfile/&file=rpf_rules%2C_1987.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1450/3/H1957-23.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

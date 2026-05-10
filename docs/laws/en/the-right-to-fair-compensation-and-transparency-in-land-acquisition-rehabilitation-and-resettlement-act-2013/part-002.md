@@ -29,7 +29,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/ordinanceindividualfile/&file=rfctlarr_act_%28amendment%29_ordinance%2C3april_2015.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/ordinanceindividualfile/&file=rfctlarr_act_%28amendment%29_second_ordinance%2C_30may2015.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2121/2/H2013-30.pdf
 
 ## Section 38 - Power to take possession of land to be acquired.
 

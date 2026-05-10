@@ -24,7 +24,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00002_198933_1517807322896/notificationindividualfile/&file=the_scheduled_castes_and_the_scheduled_tribes_%28prevention_of_atrocities%29_act%2C_1989_notification_s.o.424%28e%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00002_198933_1517807322896/notificationindividualfile/&file=the-scheduled-castes-and-the-scheduled-tribes-prevention-of-atrocities-amendment-rules-2018_20180627-231-00430-00000.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1920/2/HH198933.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

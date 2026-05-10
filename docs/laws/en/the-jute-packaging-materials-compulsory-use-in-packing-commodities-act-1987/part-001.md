@@ -29,7 +29,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jpm_31032023.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jpm_order_extended_till_spet23.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1882/4/H1987-10.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

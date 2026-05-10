@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00032_200708_1517807327650/statuteindividualfile/&file=Statute+corr.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00032_200708_1517807327650/statuteindividualfile/&file=court.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2087/3/H2007-08.pdf
 
 ## Section 1 - Short title and commencement.
 

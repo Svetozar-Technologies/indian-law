@@ -30,7 +30,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/orderindividualfile/&file=modelcontractform.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/orderindividualfile/&file=ammendment-all_india_trade_test_for_apprentices.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1668/3/H1961-52.pdf
 
 ## Section 1 - Short title, extent, commencement and application.
 

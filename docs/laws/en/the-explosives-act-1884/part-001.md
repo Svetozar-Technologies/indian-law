@@ -41,7 +41,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/notificationindividualfile/&file=manufacture_Nitroglycerine_14December2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/orderindividualfile/&file=22%2836%29_order.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2301/3/H1888-4.pdf
 
 ## Section 1 - Short title
 

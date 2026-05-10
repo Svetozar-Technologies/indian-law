@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2264
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2264/1/AApolice1861___05.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2264/2/H1861-05.pdf
 
 ## Section 1 - Interpretation clause.
 

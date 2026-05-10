@@ -85,7 +85,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00005_200312_1517807324781/notificationindividualfile/&file=membercci_16072019.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00005_200312_1517807324781/notificationindividualfile/&file=gsr_1034_dated_11.03.2020.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2010/6/H2003-12.pdf
 
 ## Section 33 - Power to issue interim orders.
 

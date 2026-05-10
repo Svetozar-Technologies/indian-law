@@ -28,7 +28,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/rulesindividualfile/&file=Pension+housing+to+spouse+while+dying+while+holding+such+office.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/hindirulesindividualfile/&file=officers_pension_ot_spouse_of_speaker_died_while_serving.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2174/2/H1953-20.pdf
 
 ## Section 1 - Short title and commencement.
 

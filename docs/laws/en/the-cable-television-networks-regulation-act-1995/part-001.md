@@ -51,7 +51,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/notificationindividualfile/&file=S.O+681%28E%29+DATED+07.03.2016-ADM.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/notificationindividualfile/&file=so_1699_%28e%29_dated_07.05.2019-dd_arunprabha_as_mandatory_channel.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1928/3/H1995-7.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

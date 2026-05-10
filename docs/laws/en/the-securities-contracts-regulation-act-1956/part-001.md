@@ -24,7 +24,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00019_195642_1517807321094/regulationindividualfile/&file=1560918602764.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00019_195642_1517807321094/notificationindividualfile/&file=Notification_Commodities_SCRAct1956_0.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1644/2/hH1956-42.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

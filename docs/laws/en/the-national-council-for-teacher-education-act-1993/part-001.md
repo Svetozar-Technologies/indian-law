@@ -112,7 +112,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_67_00001_199373_1517807322617/notificationindividualfile/&file=16+compiled+list.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_67_00001_199373_1517807322617/notificationindividualfile/&file=notification21_nov_19.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1938/2/H1993-73.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

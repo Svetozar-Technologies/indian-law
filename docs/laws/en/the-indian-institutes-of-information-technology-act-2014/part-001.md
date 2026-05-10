@@ -29,7 +29,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/statuteindividualfile/&file=gwalior+statutes.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/statuteindividualfile/&file=233642.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2135/2/hh201430.pdf
 
 ## Section 1 - Short title and commencement.
 

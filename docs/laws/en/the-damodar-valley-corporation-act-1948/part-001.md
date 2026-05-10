@@ -25,7 +25,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00004_194814_1517807325824/regulationindividualfile/&file=Section+V.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00004_194814_1517807325824/notificationindividualfile/&file=dvc_notification_dated_19-08-2013.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1807/3/H1948-14.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

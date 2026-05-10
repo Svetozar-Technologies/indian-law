@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_192015_1523343659114/rulesindividualfile/&file=uniform_rules.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_192015_1523343659114/rulesindividualfile/&file=The+Gazzette+of+India07242018172651.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2368/3/H1920-15.pdf
 
 ## Section 1 - Short title.
 

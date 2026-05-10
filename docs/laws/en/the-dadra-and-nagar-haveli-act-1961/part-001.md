@@ -49,7 +49,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Registration+of+Tourist+Trade+Act%2C+1982+to+UT+DNH+Dt.+27.11.2001.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Societies+Registration+Act+1979+and+Societies+Registation+Act%2C+1998+to+DNH.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1640/4/H1961-35.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

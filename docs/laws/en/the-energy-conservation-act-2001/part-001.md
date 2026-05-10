@@ -118,7 +118,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00003_200152_1517807324452/orderindividualfile/&file=executive_order_m%26v_timeline_extension_2020.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00003_200152_1517807324452/orderindividualfile/&file=mea_extension_order_2022.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2003/3/H2001-52.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

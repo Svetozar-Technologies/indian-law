@@ -137,7 +137,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00006_200619_1517807324867/regulationindividualfile/&file=12.8-goi06062019.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00006_200619_1517807324867/notificationindividualfile/&file=Notification+english.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2012/3/H2006-19.pdf
 
 ## Section 1 - Short title, extent, commencement and application.
 

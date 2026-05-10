@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00003_198803_1517807326065/rulesindividualfile/&file=Sati+Rules.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00003_198803_1517807326065/notificationindividualfile/&file=E-0658-1988-0129-28834+21+Mar+1988.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1814/2/h198803.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

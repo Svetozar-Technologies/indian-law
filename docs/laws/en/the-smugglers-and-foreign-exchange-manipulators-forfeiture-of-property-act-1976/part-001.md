@@ -28,7 +28,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=gsr+138.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/notificationindividualfile/&file=E-1157-1977-0003-50924+%281%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1490/3/H1976-13.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

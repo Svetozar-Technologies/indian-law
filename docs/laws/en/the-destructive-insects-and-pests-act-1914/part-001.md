@@ -98,7 +98,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00008_191402_1523342057238/notificationindividualfile/&file=3646%28e%29_dt.14.10.2020.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00008_191402_1523342057238/notificationindividualfile/&file=4243%28e%29_dt.17.11.2020.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2354/3/H1914-2.pdf
 
 ## Section 1 - Short title and commencement.
 

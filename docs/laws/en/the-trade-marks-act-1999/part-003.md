@@ -24,7 +24,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00004_199947_1517807323972/rulesindividualfile/&file=Trademarks+rules+2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00004_199947_1517807323972/regulationindividualfile/&file=ocr8p-fmlte.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1993/3/h1999-47.pdf
 
 ## Section 139 - Power to require goods to show indication of origin.
 

@@ -657,7 +657,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00042_201712_1517807328102/orderindividualfile/&file=rod-10-2019-cgst-english.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00042_201712_1517807328102/orderindividualfile/&file=01-2020.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/15689/3/H2017-12.pdf
 
 ## Section 93 - Special provisions regarding liability to pay tax, interest or penalty in certain cases.
 

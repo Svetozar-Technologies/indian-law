@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00025_200647_1517807326902/regulationindividualfile/&file=Assam+Rifles+Regulation+2016.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00025_200647_1517807326902/notificationindividualfile/&file=Date+of+effect+of+the+Act.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2037/3/H2006-47.pdf
 
 ## Section 93 - Dissolution of an Assam Rifles Court.
 

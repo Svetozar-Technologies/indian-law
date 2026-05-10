@@ -26,7 +26,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/regulationindividualfile/&file=PensionGPF+Regulation.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/regulationindividualfile/&file=ConductDisciplineAppeal.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1550/3/H1963-41.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

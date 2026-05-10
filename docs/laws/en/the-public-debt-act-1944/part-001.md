@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00030_194418_1523354333018/rulesindividualfile/&file=public_debt_%28annuity_certificates%29_rules%2C_1954_.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00030_194418_1523354333018/rulesindividualfile/&file=public_debt_%28annuity_deposit_certificates%29_rules%2C_1966.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2405/3/H1944-18.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00004_199626_1517807323919/rulesindividualfile/&file=529_english_aci.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00004_199626_1517807323919/rulesindividualfile/&file=530_english_aci.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1978/2/HH1996-26.pdf
 
 ## Section 40 - Arbitration agreement not to be discharged by death of party thereto.
 

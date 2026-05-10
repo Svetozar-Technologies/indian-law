@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00047_202117_1619088293867/notificationindividualfile/&file=f._nabfid_income_tax_exemption_notification..pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00047_202117_1619088293867/orderindividualfile/&file=national_bank_for_financing_infrastructure_and_development_%28removal_of_difficulties%29_order%2C_2021.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/16802/2/h202117.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

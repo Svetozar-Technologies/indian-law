@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_470_english.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_469_english.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/11413/2/H2019-17.pdf
 
 ## Section 1 - Short title and commencement.
 

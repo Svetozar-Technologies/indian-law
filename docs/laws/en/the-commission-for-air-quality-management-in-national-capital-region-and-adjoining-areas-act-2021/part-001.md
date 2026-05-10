@@ -53,7 +53,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=19.10.2023.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=4.1.2024.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/16898/2/h202129.pdf
 
 ## Section 1 - Short title, application and commencement.
 

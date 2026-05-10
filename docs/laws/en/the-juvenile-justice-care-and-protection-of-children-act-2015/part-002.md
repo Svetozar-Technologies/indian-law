@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_000010_201602_1517807328168/regulationindividualfile/&file=Regulation_english.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_000010_201602_1517807328168/notificationindividualfile/&file=12+Jan+2016.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2148/2/HH2016-2.pdf
 
 ## Section 45 - Sponsorship.
 

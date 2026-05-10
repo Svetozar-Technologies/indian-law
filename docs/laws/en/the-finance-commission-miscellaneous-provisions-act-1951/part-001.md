@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00033_195133_1517807323203/rulesindividualfile/&file=finance_commission_miscallenous_searchable_act.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00033_195133_1517807323203/rulesindividualfile/&file=e_261_2011_021.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1941/2/hH1951-33.pdf
 
 ## Section 1 - Short title.
 

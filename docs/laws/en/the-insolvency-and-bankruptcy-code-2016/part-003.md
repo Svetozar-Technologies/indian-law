@@ -173,7 +173,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00055_201631_1517807328273/statuteindividualfile/&file=file_name_-_d.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00055_201631_1517807328273/statuteindividualfile/&file=file_name_-_e.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2154/2/H2016-31.pdf
 
 ## Section 54C - Application to initiate pre-packaged insolvency resolution process.
 

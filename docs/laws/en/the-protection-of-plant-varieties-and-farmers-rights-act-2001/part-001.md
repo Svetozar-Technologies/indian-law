@@ -51,7 +51,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_9_crop_species.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_dr._onkar_nath_singh_as_technical_member%2C_pvpat.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1909/3/H2001-53.pdf
 
 ## Section 1 - Short title, extend and commencement.
 

@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00008_200543_1517807325788/rulesindividualfile/&file=17-Oct-2006+Rules+Ext.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00008_200543_1517807325788/notificationindividualfile/&file=17-Oct-2006+Not.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2021/2/H2005-43.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

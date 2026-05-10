@@ -26,7 +26,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/notificationindividualfile/&file=Notification+dated+23.03.2005+under+the+Government+of+Union+Territories+Act%2C+1963.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/notificationindividualfile/&file=Notification+dated+19.04.2007+under+the+Government+of+Union+Territories+Act%2C+1963.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1546/3/H1963-20.pdf
 
 ## Section 51 - Provision in case of failure of constitutional machinery.
 

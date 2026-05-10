@@ -30,7 +30,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/notificationindividualfile/&file=531e.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/orderindividualfile/&file=order_salary.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1545/2/H1958-41.pdf
 
 ## Section 1 - Short title.
 

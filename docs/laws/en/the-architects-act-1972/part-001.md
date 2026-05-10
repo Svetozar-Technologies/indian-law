@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00017_197220_1517807324770/regulationindividualfile/&file=Minimum+Standards+of+Architectural+Education+Regulations+1983.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00017_197220_1517807324770/regulationindividualfile/&file=MSAER_2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1690/2/hH1972-20.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

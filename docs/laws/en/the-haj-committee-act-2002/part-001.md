@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00011_200235_1517807322907/rulesindividualfile/&file=Haj+Committee+Bye-Laws%2C+2005.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00011_200235_1517807322907/notificationindividualfile/&file=notification.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1912/3/H2002-35.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2280
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2280/1/A1869-04.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2280/2/H1869-04.pdf
 
 ## Section 1 - Short title.
 

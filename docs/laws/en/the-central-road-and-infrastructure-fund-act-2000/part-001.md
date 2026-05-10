@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00004_200054_1517807323465/rulesindividualfile/&file=CRF+Amendment+Rules%2C+2016.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00004_200054_1517807323465/rulesindividualfile/&file=CRF+Amendment+Rules%2C+2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1931/2/H2000-54.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

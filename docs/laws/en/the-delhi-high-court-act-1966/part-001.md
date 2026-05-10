@@ -29,7 +29,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/notificationindividualfile/&file=DHC+Act+1966+Notification+2.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/notificationindividualfile/&file=DHC+Act+1966+Notification+3.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1700/3/H1966-26.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_82_00001_201213_1517807327700/ordinanceindividualfile/&file=AcSIR_Ordinances_2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_82_00001_201213_1517807327700/statuteindividualfile/&file=AcSIR_Statutes_2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2110/3/H2012-13.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

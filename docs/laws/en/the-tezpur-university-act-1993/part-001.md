@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_67_00002_199345_1517807323599/ordinanceindividualfile/&file=Ordinance+32-106.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_67_00002_199345_1517807323599/statuteindividualfile/&file=Statute+43-53.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1968/3/H1993-45.pdf
 
 ## Section 1 - Short title and commencement.
 

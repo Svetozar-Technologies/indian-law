@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2350/1/A1910-10.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00014_191010_1523341315850/rulesindividualfile/&file=im_rules.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2350/3/H1910-10.pdf
 
 ## Section 1 - Short title and commencement.
 

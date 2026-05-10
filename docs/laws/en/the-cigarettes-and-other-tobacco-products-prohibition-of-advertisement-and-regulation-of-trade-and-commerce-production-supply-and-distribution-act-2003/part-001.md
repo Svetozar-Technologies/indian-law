@@ -73,7 +73,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00020_200334_1517807327289/notificationindividualfile/&file=9Enforcement_of_Packaging_and_Labelling_rule_2014-G_sw.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00020_200334_1517807327289/notificationindividualfile/&file=21enforcement_of_packageing_and_labeling_amendment_r_sw.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2053/5/H2003-34.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

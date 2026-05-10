@@ -25,7 +25,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00003_198739_1517807322718/regulationindividualfile/&file=nlsa_lokadalat_regu_2009.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00003_198739_1517807322718/regulationindividualfile/&file=free%26amp%3Bcompetent_legal_service_regu2010.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1925/3/H1987-39.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

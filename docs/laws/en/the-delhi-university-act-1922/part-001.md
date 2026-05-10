@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00039_192208_1523344160352/ordinanceindividualfile/&file=03_Ordinances+du.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00039_192208_1523344160352/statuteindividualfile/&file=02_Statutes+DU.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2374/3/H1922-8.pdf
 
 ## Section 1 - Short title and commencement.
 

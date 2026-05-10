@@ -58,7 +58,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=the_jammu_%26_kashmi_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2021.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=jammu_and_kashmir_street_vendors_protection_of_livelihood_and_regulation_of_street_vending_rules_2021.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2124/3/H2014-07.pdf
 
 ## Section 1 - Short title, extent, commencement and provisions.
 

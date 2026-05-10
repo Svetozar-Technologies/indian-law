@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/11008/1/A2019-10.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00043_201910_1562758090123/notificationindividualfile/&file=mhrd_notification_on_the_central_educational_institutions_%28reservation_in_teachers_cadre%29_act_2019_dated_12.07.2019.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/11008/2/H2019-10.pdf
 
 ## Section 1 - Short title and commencement
 

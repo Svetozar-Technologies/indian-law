@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00016_200521_1517807325143/rulesindividualfile/&file=WMD+Rules+2016.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00016_200521_1517807325143/regulationindividualfile/&file=the_foreign_trade_development_regulation_amendment_act_2010_august_19_2010.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2017/3/H2005-21.pdf
 
 ## Section 1 - Short title and commencement.
 

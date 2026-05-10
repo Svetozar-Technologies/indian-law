@@ -51,7 +51,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=sidbi_%28access_to_records%29_regulations%2C_2021.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/notificationindividualfile/&file=sidbi_%28appeal_to_central_government%29_rules%2C_2003.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1943/2/h198939.pdf
 
 ## Section 41 - Special provisions for enforcement of claims by Small Industries Bank.
 

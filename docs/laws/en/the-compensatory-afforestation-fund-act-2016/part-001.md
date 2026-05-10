@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00012_201638_1517807328204/notificationindividualfile/&file=nation_state_authority.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00012_201638_1517807328204/notificationindividualfile/&file=caf_national_fund.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2151/3/H2016-38.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

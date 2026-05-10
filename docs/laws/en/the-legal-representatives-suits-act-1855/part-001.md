@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2275
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2275/1/a1855-12.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2275/2/H1855-12.pdf
 
 ## Section 1 - Executors may sue and be sued in certain cases for wrongs committed in lifetime of deceased.
 

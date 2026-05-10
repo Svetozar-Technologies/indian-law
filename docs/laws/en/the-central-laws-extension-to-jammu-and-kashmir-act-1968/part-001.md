@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1555/1/A1968-25.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_34_00001_196825_1517807318681/notificationindividualfile/&file=Date+of+effect+of+the+Act.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1555/3/H1968-25.pdf
 
 ## Section 1 - Short title and commencement.
 

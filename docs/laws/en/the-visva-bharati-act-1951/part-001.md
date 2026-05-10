@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00005_195129_1517807321189/ordinanceindividualfile/&file=vb_new_phd_ordinance.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00005_195129_1517807321189/statuteindividualfile/&file=vb_statutes.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1652/4/H1951-29.pdf
 
 ## Section 1 - Short title and commencement.
 

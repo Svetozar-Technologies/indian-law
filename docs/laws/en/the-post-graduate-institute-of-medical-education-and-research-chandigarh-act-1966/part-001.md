@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00015_196651_1517807324310/regulationindividualfile/&file=25The_Post_Graduate_Institute_of_Medical_Education_a_sw.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00015_196651_1517807324310/notificationindividualfile/&file=PGIMER+Notification.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1684/3/H1966-51.pdf
 
 ## Section 1 - Short title and commencement.
 

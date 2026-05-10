@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1412/1/A1954-21.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00011_195421_1517807322330/rulesindividualfile/&file=The+Drugs+and+Magic+Remedies+Rules+.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1412/2/H1954-21.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_89_00001_187123_1523268761051/rulesindividualfile/&file=Amendment+on+Payment+of+Arrears+of+Pension.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_89_00001_187123_1523268761051/notificationindividualfile/&file=159054_4april.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2295/2/H1871-23.pdf
 
 ## Section 1 - Title and extent.
 

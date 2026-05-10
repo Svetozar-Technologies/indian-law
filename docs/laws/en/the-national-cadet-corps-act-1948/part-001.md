@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1719/1/A1948-31.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00014_194831_1517807324178/rulesindividualfile/&file=NCC+ACT+RULES.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1719/3/H1948-31.pdf
 
 ## Section 1 - Short title, extent and application.
 

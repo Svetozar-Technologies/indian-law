@@ -97,7 +97,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00001_196059_1517807317734/notificationindividualfile/&file=Reconstitution+of+AWBI.+dt.+03.03.2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00001_196059_1517807317734/notificationindividualfile/&file=Reconstitution+of+AWBI.+dt.+08.12.2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1547/3/H1960-59.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

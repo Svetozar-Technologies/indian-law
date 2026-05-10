@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/12030
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/12030/7/a2019-34.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/12030/2/H2019-34.pdf
 
 ## Section 87 - Special provision as to income-tax.
 

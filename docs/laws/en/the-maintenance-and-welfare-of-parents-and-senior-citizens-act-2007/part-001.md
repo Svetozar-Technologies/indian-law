@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2033/1/200756.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00007_200756_1517807326382/notificationindividualfile/&file=the_maintenance_and_welfare_of_parents_and_senior_citizens_act%2C_2007_notification_s.o._1436%28e%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2033/3/H2007-56.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

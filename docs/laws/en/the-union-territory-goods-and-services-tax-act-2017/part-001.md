@@ -179,7 +179,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00044_201714_1517807328128/orderindividualfile/&file=rod2_2019_ut.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00044_201714_1517807328128/orderindividualfile/&file=rod3_2019_ut.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2252/2/h201714.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

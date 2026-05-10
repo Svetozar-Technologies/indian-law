@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/15256
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/15256/1/eng201935.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/15256/2/hindi201935.pdf
 
 ## Section 50 - Review by State Commission in certain cases.
 

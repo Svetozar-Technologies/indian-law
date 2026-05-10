@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00028_200709_1517807327114/regulationindividualfile/&file=tu_regulations_for_doctor_of_philosophy--2014.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00028_200709_1517807327114/ordinanceindividualfile/&file=Tripura+Ordinances+15.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2094/3/H2007-09.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -71,7 +71,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00009_201019_1517807326004/notificationindividualfile/&file=notification-prakash_shrivastava.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00009_201019_1517807326004/orderindividualfile/&file=order123.PDF
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2025/3/H2010-19.pdf
 
 ## Section 1 - Short title and commencement.
 

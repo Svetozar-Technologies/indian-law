@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00005_196249_1517807318076/notificationindividualfile/&file=Extension+of+the+Tamil+Nadu+Debt+Relief+Act%2C+1976+to+Puducherry+Dt.+03.12.1976.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00005_196249_1517807318076/notificationindividualfile/&file=Extension+of+the+Tamil+Nadu+Relief+Undertakings+%28Special+Provisions%29+Act%2C+1969+to+Puducherry+Dt.+13.01.1984.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1471/5/H1962-49.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

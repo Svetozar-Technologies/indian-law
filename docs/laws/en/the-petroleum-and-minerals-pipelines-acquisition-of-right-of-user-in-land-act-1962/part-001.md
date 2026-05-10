@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00004_196250_1517807322318/rulesindividualfile/&file=Petroleum%26MineralPipelines%28AcquisitionofRightofUserinLand%29Rules%2C1963.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00004_196250_1517807322318/notificationindividualfile/&file=Petroleum%26MineralPipelines%28AcquisitionofRightofUserinLand%29Rules%2C1963.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1424/3/H1962-50.pdf
 
 ## Section 1 - Short title, extent and application.
 

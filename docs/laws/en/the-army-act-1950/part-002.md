@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1930/1/aA1950-46.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00012_195046_1517807323368/rulesindividualfile/&file=armyrules1954.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1930/2/H195046.pdf
 
 ## Section 90 - Deductions from pay and allowances of officers.
 

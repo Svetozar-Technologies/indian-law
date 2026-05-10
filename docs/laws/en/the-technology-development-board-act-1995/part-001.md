@@ -31,7 +31,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=g.s.r_668_%28e%29_tdb_act.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=g.s.r_370_%28e%29_tdb_act.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1901/3/H1995-44.pdf
 
 ## Section 1 - Short title and commencement.
 

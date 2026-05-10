@@ -81,7 +81,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00004_198114_1517807322114/orderindividualfile/&file=order_001.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00004_198114_1517807322114/statuteindividualfile/&file=air_amendment_act_1987.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1389/3/H1981-14.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

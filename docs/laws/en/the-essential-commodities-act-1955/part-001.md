@@ -93,7 +93,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00003_195510_1517807320439/orderindividualfile/&file=4079+ECRE-13.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00003_195510_1517807320439/orderindividualfile/&file=order_so_2414_13-6-18.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1579/2/H1955-10.pdf
 
 ## Section 1 - Short title and extent.
 

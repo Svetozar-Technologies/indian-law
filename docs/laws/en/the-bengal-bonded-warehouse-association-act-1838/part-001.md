@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19097
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19097/1/a1838-5.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/19097/2/H1838-05.pdf
 
 ## Section 1 - Incorporation.
 

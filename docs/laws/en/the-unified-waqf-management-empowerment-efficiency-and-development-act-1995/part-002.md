@@ -45,7 +45,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=196678.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=gasette_notification_dated_18.2.2020_of_amendments_in_wplrs_2014_.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1984/2/h199543.pdf
 
 ## Section 37 - Register of auqaf.
 

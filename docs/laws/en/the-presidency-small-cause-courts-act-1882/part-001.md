@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2371/1/a1882-15.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00025_188215_1523272578725/rulesindividualfile/&file=Rules+under+the+Presidency+Small+Cause+Courts+Act%2C+1882.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2371/2/H1882-15.pdf
 
 ## Section 1 - Short title.
 

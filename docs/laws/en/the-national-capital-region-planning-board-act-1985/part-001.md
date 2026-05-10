@@ -30,7 +30,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/regulationindividualfile/&file=4recruitment_regulations_of_ncr_planning_board-12_07_2018.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/regulationindividualfile/&file=5recruitment_rules_of_law_officer-13_03_2020.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1847/3/H1985-2.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00019_200752_1517807325078/ordinanceindividualfile/&file=IGNTU+Ordinances.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00019_200752_1517807325078/statuteindividualfile/&file=igntu_statues.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2016/3/H2007-52.pdf
 
 ## Section 1 - Short title and commencement.
 

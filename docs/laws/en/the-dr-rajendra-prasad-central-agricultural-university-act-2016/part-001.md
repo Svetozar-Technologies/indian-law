@@ -48,7 +48,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=249762-9-10.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/statuteindividualfile/&file=act_and_stat.....pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2150/3/H2016-32.pdf
 
 ## Section 1 - Short title and commencement.
 

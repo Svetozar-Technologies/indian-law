@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00013_199702_1517807323852/statuteindividualfile/&file=statute_manuu11072018162210.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00013_199702_1517807323852/statuteindividualfile/&file=gazette_publication_details_2006.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1975/3/H1997-2.pdf
 
 ## Section 1 - Short title and commencement.
 

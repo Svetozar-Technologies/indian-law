@@ -33,7 +33,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_employees_pension_fund_amendment_regulations_-_2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_general_%28amendment%29_regulations_2019_0.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1553/2/hH1955-23.pdf
 
 ## Section 36 - Integration and Development Fund.
 

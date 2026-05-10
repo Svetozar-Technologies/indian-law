@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00005_196126_1517807321037/regulationindividualfile/&file=SJM+-Board+Regulations+1972.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00005_196126_1517807321037/notificationindividualfile/&file=SJM-Notification-+Amednding+SJM+Regulations+1962.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1646/3/H1961-26.pdf
 
 ## Section 1 - Short title and commencement.
 

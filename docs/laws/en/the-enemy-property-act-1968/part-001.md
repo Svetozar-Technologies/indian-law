@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00006_196834_1517807319967/orderindividualfile/&file=notification_guidelines_of_disposal_of_enemy_property_order%2C_2019.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00006_196834_1517807319967/orderindividualfile/&file=gazette_searchable_pdf.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1582/3/H1968-34.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

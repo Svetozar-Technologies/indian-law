@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_0_00019_190815_1523340712881/rulesindividualfile/&file=mormugao_port_rules_1966.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_0_00019_190815_1523340712881/regulationindividualfile/&file=document.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2344/3/H1908-15.pdf
 
 ## Section 62 - Hoisting unlawful colours in port.
 

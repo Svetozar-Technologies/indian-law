@@ -32,7 +32,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/rulesindividualfile/&file=petroleum_amendment_rules_2024.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/hindirulesindividualfile/&file=petroleum_amendment_rules_2024.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2401/3/H1934-30.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

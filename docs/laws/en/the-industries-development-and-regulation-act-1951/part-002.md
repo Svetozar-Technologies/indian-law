@@ -34,7 +34,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO998%28E%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO2737%28E%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2118/2/hH1951-65.pdf
 
 ## Section 24 - Penalties.
 

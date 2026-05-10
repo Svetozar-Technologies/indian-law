@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1478/1/197324.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00002_197324_1517807318442/statuteindividualfile/&file=NEHU.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1478/3/H1973-24.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

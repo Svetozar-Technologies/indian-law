@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00006_195762_1517807321397/regulationindividualfile/&file=RegsNavyIV.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00006_195762_1517807321397/regulationindividualfile/&file=RegsNavyIII.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1400/3/H1957-62.pdf
 
 ## Section 1 - Short title and commencement.
 

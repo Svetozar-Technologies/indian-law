@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_201023_1517807327396/rulesindividualfile/&file=Clinical+Establishmets+%28Central+Government%29+Amendment+Rule+s2018.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_201023_1517807327396/notificationindividualfile/&file=27notification_of_clinical_establishment_act_coming__sw.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2048/2/H2010-23.pdf
 
 ## Section 1 - Short title, application and commencement.
 

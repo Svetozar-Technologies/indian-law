@@ -28,7 +28,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+AAI+LTC+Regulations+2003.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+AAI+Gratuity+Regulations+2003.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1979/3/h1994-55.pdf
 
 ## Section 1 - Short title, commencement and application.
 

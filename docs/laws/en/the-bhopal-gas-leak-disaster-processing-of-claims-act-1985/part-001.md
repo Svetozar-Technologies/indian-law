@@ -43,7 +43,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=18_September_2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=DBT_18_October_2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1855/3/H1985-21.pdf
 
 ## Section 1 - Short title and commencement.
 

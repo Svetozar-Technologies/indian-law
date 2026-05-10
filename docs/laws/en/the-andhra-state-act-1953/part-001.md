@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2176/1/A1953-30.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00060_195330_1517807328522/notificationindividualfile/&file=Constitution+of+Tungbhadra+Board.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2176/2/H1953-30.pdf
 
 ## Section 1 - Short title and commencement.
 

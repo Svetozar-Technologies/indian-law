@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T21:45:38.939Z`)
+  (str fetchedAt) (str `2026-05-10T09:47:33.806Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1858`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 4)
+  (str totalSections) (int 4)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -23,6 +25,8 @@ obj_root_law:
   (str department) (str `Department of Justice`)
   (str longTitle) (str `An Act for securing additional protection for Judges and others acting Judicially and for matters connected therewith.`)
   (str enforcementDate) (str 06-09-1985)
+  (str fetchedAt) (str `2026-05-08T21:45:38.939Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -117,3 +121,57 @@ obj_root_law_sections_4:
 of any other law for the time being in force providing for protection of Judges.`)
   (str footnotes) (str )
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00020_198559_1517807326718&sectionId=42414&sectionno=4&orderno=4&orgactid=AC_CEN_3_3_00020_198559_1517807326718)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `न्‍यायाधीश (संरक्षण) अधिनियम,1985`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1858/3/H1985-59.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T09:47:32.706Z`)
+  (str pageCount) (int 1)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `न्या याधीश(संरक्षण)अधधधियम, 1985
+( 1985 काअधधधियमसंखयां क 59 )
+[6 धसतम्ब र, 1985 ] न्
+या याधीशों औरन्या धयकत:काययकरतेहुए अन्य व्
+य धत योंकेधिएअधतररत संरक्षण
+सुधिधि तकरिेऔर उससे
+संबंधधतधिषयोंकेधिए
+अधधधियम
+भारतीयगणराज्य केछत्तीसिेंि षयमेंसंसद्द्वाराधिम्ि धिधितरूपमेंयहअधधधियधमतहो: ––
+1. संधक्षप्त िामऔरधिस्ता र –– ( 1 )इसअधधधियमकासंधक्षप्त िामन्या याधीश(संरक्षण)अधधधियम, 1985 है।
+( 2 )इसकाधिस्ता र 1 *** सम्पू णयभारतपरहै।
+2. पररभाषा –– इसअधधधियममें “ न् या याधीश ” सेि केििप्रत्ये कऐसाव्य धत अधभप्रेतहैजोपदरूपसेन्या याधीश
+अधभधहतहैककन्तु ऐसाप्रत्ये कव्य धत भीअधभप्रेतहै ––
+(क)जोककसीधिधधककाययिाहीमें, अधन्त मधिणयययाऐसाधिणयय, जोउसकेधिरुद्धअपीििहोिेपरअधन्त महो
+जाएयाऐसाधिणयय, जोककसी अन्य प्र ाधधकारीद्वारापुष्ट ककएजािेपरअंधतमहोजाए, देिेकेधिएधिधधद्वारासशत
+ककयागयाहै; या
+(ि)जोउसव्य धत - धिकायमेंसेएकहै, जोव्य धत - धिकायऐसाधिणयय, जोिंड(क)मेंधिर्दयष्ट है, देिेकेधिए
+धिधधद्वारासशत ककयागयाहै।
+3. न् या याधीशोंकेधिएअधतररत संरक्षण –– ( 1 ) तत्स मयप्रिृत्तककसीअन्य धिधधमेंककसीबातकेहोतेहुएभीऔर
+उपधारा( 2 )केउपबंधोंकेअधीिरहतेहुए, कोईन्या याियककसीऐसेव्य धत केधिरुद्ध, जोन्या याधीशहैयाथा, उसकेद्वारा उस
+समयजबिहअपिेपदीययान्या धयकक तय व् य याकृत्य केधिियहिमेंकाययकररहाहो याकाययकरिेकेधिएतात्प र् ययतहो, याउसके
+अिुक्रममेंककएगएककसीकायय, कीगईककसीबातयाबोिेगएककसीशब्द केधिएककसीधसधिियादाधड ककाययिाहीकोग्रहणिहीं
+करे गायाजारीिहींरिेगा।
+( 2 ) उपधारा( 1 )कीकोईबात, तत्स मयप्रिृत्तककसीधिधधकेअधीिकेन्री यसरकारयाराज्य सरकारयाभारतकेउच्ि तम न्
+या यािययाककसीउच्ि न् या यािययाककसीअन्य प्र ाधधकारीकीककसीऐसेव्य धत केधिरुद्ध, जोन्या याधीशहैयाथा, ऐसीकारयिाई
+(िाहेिहधसधिि, दाधड कयाधिभागीयकाययिाहीकेरूपमेंहोयाअन्य था)करिे की ााधत कोककसीभीरीधतसेधििर्जयतिहीं
+करेगीयाउसपरप्रभाििहीं ड़ा िेगी।
+4. व् या िृधत्त –– इसअधधधियमकेउपबन्ध, न् या याधीशोंकेसंरक्षणकेधिए, उपबंधकरिे िािीतत्स मयप्रिृत्तककसीअन्य
+धिधधकेउपबंधोंकेअधतररत होंगे, िककउिकेअल्पी करणमें।
+______
+1 2019 केअधधधियमसं ० 34 कीधारा 95 औरपांििीअिुसूिीद्वारा (31 - 10 - 2019 से ) “ जम्मू - कमीर राज्य केधसिाय ” शब्दों कािोपककयागया।`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)

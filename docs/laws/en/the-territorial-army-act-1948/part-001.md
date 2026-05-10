@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00001_194856_1517807318980/rulesindividualfile/&file=TA+Rules+1948.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00001_194856_1517807318980/regulationindividualfile/&file=TA+Regs+1948+%28RE+1976%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1497/3/H1948-56.pdf
 
 ## Section 1 - Short title, extent and application.
 

@@ -26,7 +26,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/orderindividualfile/&file=6+september+2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/ordinanceindividualfile/&file=184902.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2079/2/H2012-32.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

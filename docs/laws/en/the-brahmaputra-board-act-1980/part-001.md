@@ -26,7 +26,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_02_11_1993.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_18_12_2005.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1810/3/H1980-46.pdf
 
 ## Section 1 - Short title and commencement.
 

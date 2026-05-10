@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00006_198142_1517807326538/notificationindividualfile/&file=Notification+2009+of+MZA-2.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00006_198142_1517807326538/notificationindividualfile/&file=Notification+2013+of+MZA+-3.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1817/3/H1981-42.pdf
 
 ## Section 1 - Short title and commencement.
 

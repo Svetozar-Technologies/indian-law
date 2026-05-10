@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/15621/1/A2020-15.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_51_0_00004_202015_1602499849967/rulesindividualfile/&file=nch.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/15621/3/H2020-15.pdf
 
 ## Section 59 - Transitory provisions.
 

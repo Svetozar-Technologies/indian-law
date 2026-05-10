@@ -27,7 +27,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/notificationindividualfile/&file=mpeda_board_22march.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/notificationindividualfile/&file=dir_secy.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1665/2/hH1972-13.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

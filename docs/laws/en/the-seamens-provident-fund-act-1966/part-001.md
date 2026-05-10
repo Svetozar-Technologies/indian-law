@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1633/1/196604.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00013_196604_1517807320985/rulesindividualfile/&file=SPFO+-+Scheme.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1633/3/H1966-4.pdf
 
 ## Section 1 - Short title and application.
 

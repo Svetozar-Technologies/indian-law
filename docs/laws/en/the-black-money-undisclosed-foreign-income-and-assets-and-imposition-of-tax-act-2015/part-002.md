@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00045_201522_1517807328155/circularindividualfile/&file=940h-2k11cx.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00045_201522_1517807328155/circularindividualfile/&file=950h-2k11cx.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2147/2/H2015-22.pdf
 
 ## Section 69 - Exemption from wealth-tax in respect of assets specified in declaration.
 

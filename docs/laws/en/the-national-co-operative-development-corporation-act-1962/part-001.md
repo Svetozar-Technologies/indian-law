@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00001_196226_1517807317885/rulesindividualfile/&file=ncdc_rules_-original.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00001_196226_1517807317885/regulationindividualfile/&file=greneral_regulations--original.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1462/3/H1962-26.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

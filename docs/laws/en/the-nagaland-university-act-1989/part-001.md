@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1932/2/A1989-35.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00008_198935_1517807322669/statuteindividualfile/&file=Nagaland_University_sw.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1932/1/h198935.pdf
 
 ## Section 1 - Short title and commencement.
 

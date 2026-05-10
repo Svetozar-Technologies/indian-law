@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00002_194910_1517807317779/notificationindividualfile/&file=Banking+Ombudsman+Scheme+2006.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00002_194910_1517807317779/notificationindividualfile/&file=nomination_of_shri_mukesh_kumar_ja%2C_md_amp_ceo_obc_on_the_board_of_canara_hsbc_obc_life_insurance_company_ltd_as_director%2C_exempting_the_applicability.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1885/2/H194910.pdf
 
 ## Section 45R - Power to call for returns and information
 

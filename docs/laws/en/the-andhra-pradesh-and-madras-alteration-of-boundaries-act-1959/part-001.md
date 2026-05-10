@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1409
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1409/1/195956.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1409/3/H1959-56.pdf
 
 ## Section 1 - Short title and commencement.
 

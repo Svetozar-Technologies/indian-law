@@ -29,7 +29,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=so_5707_%28e%29_dated_13.11.2018-2018_hockey_men%27s_world_cup.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=s.o._44_%28e%29_dated_04.01.2019-khelo_india_youth_games-2019.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2076/3/H2007-11.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

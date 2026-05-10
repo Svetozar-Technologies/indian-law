@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1783/1/A1981-26.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00018_198126_1517807326176/rulesindividualfile/&file=Rules+of+High+Court+at+Bombay+%28Extension+of+Jurisdiction+to+Goa%2C+Daman+and+Diu%29+Act%2C+1981.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1783/3/H1981-26.pdf
 
 ## Section 1 - Short title and commencement.
 

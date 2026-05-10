@@ -26,7 +26,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/rulesindividualfile/&file=Notification+dated+30.12.2008.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/regulationindividualfile/&file=AERAACT.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2090/2/h2008-27.pdf
 
 ## Section 1 - Short title, commencement and application.
 

@@ -28,7 +28,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/notificationindividualfile/&file=traveling_allowance.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/orderindividualfile/&file=rev.pension.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1431/2/H1954-28.pdf
 
 ## Section 1 - Short title.
 

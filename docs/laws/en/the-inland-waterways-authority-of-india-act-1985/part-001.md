@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00036_198582_1517807326680/rulesindividualfile/&file=iwai_rules%2C_1986.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00036_198582_1517807326680/rulesindividualfile/&file=iwai_amendment.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1856/5/H1985-82.pdf
 
 ## Section 1 - Short title and commencement.
 

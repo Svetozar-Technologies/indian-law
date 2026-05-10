@@ -25,7 +25,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_199_1516_00001_202141_1641277357892/orderindividualfile/&file=ndsa.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_199_1516_00001_202141_1641277357892/orderindividualfile/&file=om-_sub-committee_for_regulations.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/17002/2/h202140.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

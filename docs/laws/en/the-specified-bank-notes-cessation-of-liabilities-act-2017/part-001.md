@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00054_201702_1517807327901/rulesindividualfile/&file=C+and+C+Rules+2.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00054_201702_1517807327901/orderindividualfile/&file=gazette_notification_so_4149%28e%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2244/4/H2017-2.pdf
 
 ## Section 1 - Short title and commencement.
 

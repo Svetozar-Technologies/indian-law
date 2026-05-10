@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2055/4/a2007-06.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00001_200706_1517807317592/notificationindividualfile/&file=Notification+30+Oct+2007.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2055/3/H2007-06.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

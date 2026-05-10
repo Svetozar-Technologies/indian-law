@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1896/1/A1950-12.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00002_195012_1517807320273/rulesindividualfile/&file=scan_18-04-19.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1896/2/h195012.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

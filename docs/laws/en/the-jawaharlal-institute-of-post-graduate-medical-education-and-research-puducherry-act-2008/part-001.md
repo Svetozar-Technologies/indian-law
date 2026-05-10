@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00019_200819_1517807327178/regulationindividualfile/&file=21Jawaharlal_Institute_of_Post_Graduate_Medical_Educ_sw.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00019_200819_1517807327178/regulationindividualfile/&file=22Jawaharlal_Institute_of_Post_Graduate_Medical_Educ_sw-1.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2089/3/H2008-19.pdf
 
 ## Section 1 - Short title and commencement.
 

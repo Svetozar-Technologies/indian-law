@@ -119,7 +119,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_187305_1523269408953/rulesindividualfile/&file=918.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_187305_1523269408953/rulesindividualfile/&file=219318.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2281/4/h1873-5.pdf
 
 ## Section 1 - Short title.
 

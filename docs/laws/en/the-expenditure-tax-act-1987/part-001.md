@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1892
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1892/1/a1987-35.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1892/3/H1987-35.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

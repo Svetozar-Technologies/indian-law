@@ -37,7 +37,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/ordinanceindividualfile/&file=IGNOU+Ordinance.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/statuteindividualfile/&file=IGNOU+ACT+.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1850/3/H1985-50.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -39,7 +39,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=compensation_cess03_2019_rate_eng.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notification_dated_24th_june%2C_2022.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2253/2/H201715.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

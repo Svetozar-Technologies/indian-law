@@ -58,7 +58,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=so_no_4683_dt_12_december_2020.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=229922_%281%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1737/3/H1978-33.pdf
 
 ## Section 1 - Short title, commencement and application.
 

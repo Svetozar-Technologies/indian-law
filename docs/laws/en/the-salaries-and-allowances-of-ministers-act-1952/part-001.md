@@ -26,7 +26,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/notificationindividualfile/&file=Ministers+%28Allowances%2CMedical+treatment+and+other+Privileges%29Amendment+Rules%2C1995%2C+G.S.R.+779%28E%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/notificationindividualfile/&file=Ministers%27+%28Allowances%2CMedical+treatment+and+other+Privileges%29+Amendment+Rules%2C+1998%2C+G.S.R.+786%28E%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2129/2/H1952-58.pdf
 
 ## Section 1 - Short title.
 

@@ -98,7 +98,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00002_195161_1517807321358/notificationindividualfile/&file=ifs-karnataka-cadre-and-pay-2019.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00002_195161_1517807321358/notificationindividualfile/&file=ias-himachal-pradesh-cadre-and-pay-2019.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1363/2/hH1951-61.pdf
 
 ## Section 1 - Short title.
 

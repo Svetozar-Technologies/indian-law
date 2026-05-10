@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00048_202031_1602487878914/notificationindividualfile/&file=notification-for_effective_date.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00048_202031_1602487878914/notificationindividualfile/&file=appointment_of_members_of_governing_body_for_rru.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/15619/2/H2020-31.pdf
 
 ## Section 1 - Short title and commencement.
 

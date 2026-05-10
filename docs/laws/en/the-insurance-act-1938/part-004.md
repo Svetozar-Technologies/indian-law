@@ -86,7 +86,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00044_193804_1523351752525/notificationindividualfile/&file=notification_4.7.2022_%282%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00044_193804_1523351752525/ordinanceindividualfile/&file=the_insurance_law_%28amendment%29_ordinance%2C_2014.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2304/5/HH1938-4.pdf
 
 ## Section 64M - Executive Committee of General Insurance Council may advise in controlling expenses.
 

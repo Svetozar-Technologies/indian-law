@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2070/1/200702.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_42_71_00001_200702_1517807323238/rulesindividualfile/&file=The+Scheduled+Tribes+and+Other+Traditional+Forest+Dwellers+%28Recognition+of+Forest+Rights%29+Rules%2C+2007.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2070/2/H2007-02.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

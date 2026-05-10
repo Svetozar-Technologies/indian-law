@@ -63,7 +63,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_78_00002_198204_1517807325916/notificationindividualfile/&file=12.+Amendment+of+GSR+442%28E%29+dated+21-6-2002.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_78_00002_198204_1517807325916/notificationindividualfile/&file=29.+Amendment+of+GSR+738%28E%29+dated+29-11-2007.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1780/3/H1982-4.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

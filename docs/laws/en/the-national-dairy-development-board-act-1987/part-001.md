@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00003_198737_1517807323001/regulationindividualfile/&file=NDDB+%28Enforcement+of+Claims%29+Regulations%2C+2000.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00003_198737_1517807323001/regulationindividualfile/&file=NDDB+%28Administration+of+Fund%2C+Accounts+and+Budget%29+Regulations%2C+1988.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1913/3/H1987-37.pdf
 
 ## Section 1 - Short title and commencement.
 

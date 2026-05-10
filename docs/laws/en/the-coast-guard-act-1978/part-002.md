@@ -39,7 +39,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_49.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_27.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1734/3/H1978-30.pdf
 
 ## Section 94 - Order for disposal of property regarding which offence is committed.
 

@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T21:00:53.181Z`)
+  (str fetchedAt) (str `2026-05-10T09:45:06.002Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1641`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 2)
+  (str totalSections) (int 2)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -22,6 +24,8 @@ obj_root_law:
   (str ministry) (str `Ministry of External Affairs`)
   (str longTitle) (str `An Act to enable effect to be given to certain provisions of the Charter of the United Nations.`)
   (str enforcementDate) (str 20-12-1947)
+  (str fetchedAt) (str `2026-05-08T21:00:53.181Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -82,3 +86,44 @@ and without prejudice to the generality of the foregoing power, provision may be
 punishment of persons offending against the order.`)
   (str footnotes) (str )
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_10_10_00007_194743_1517807321027&sectionId=31967&sectionno=2&orderno=2&orgactid=AC_CEN_10_10_00007_194743_1517807321027)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `संयुक्‍त राष्‍ट्र (सुरक्षा परिषद्) अधिनियम,1947`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1641/3/H1947-43.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T09:45:04.900Z`)
+  (str pageCount) (int 1)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `संयुक्त राष्‍टर (सुरक्षापररषद्)अधिधियम, 194 7
+) 194 7 काअधिधियमसं ० 43 ( 1
+[ 20 ददसंबर, 19 47]
+संयुक्त राष्‍टर केचार्टरकेकुछउपबन्िों कोप्रभावीकरिेके
+धिधमत्तसमर्टबिािेकेधिए
+अधिधियम
+संयुक्त राष्‍टर केचार्टरकेकुछउपबन्िों कोप्रभावीकर िेकेधिएसमर्टबिािासमीचीिहै;
+अत:इसकेद्वाराधिम्ि धिधितरूपमेंयहअधिधियधमतदकयाजाताहै: 
+1. संधक्षप्त िाम  इसअधिधियमकासंधक्षप्त िामसंयु क् त राष्‍टर (सुरक्षापररषद्)अधिधियम, 1947 है।
+2. संयुक्त राष्‍टर केचार्टरकेअिुच्छे द 41 केअ िीिकारटवाइयां  यददसंयुक्त राष्‍टर कीसुरक्षापररषद्, 1945 केजूिके
+छब्बी सवेंददिसािफ्ांधसस्को मेंहस्ता क्ष ररतसंयुक्त राष्‍टर केचार्टरकेअिुच्छे द 41 केअिीिकेन्री यसरकारसेयहअपेक्षाकरतीहैदक
+वहउसपररषद्केदकसीधवधिश्च यकोप्रभावी करिेकेधिएकोईकारटवाइयांकरे, धजिमेंसशस्र बिोंकाउपयोगअन्त वटधितिहींहै,
+तोकेन्री यसरकार, राजपरमेंप्रकाधशतआदेशद्वारा, ऐसेउपबन्ि (धजिमेंराज्य क्षे रातीतप्रवतटिवािेउपबन्ि भीहोसकेंगे)कर
+सकेगीजोउसेउिकारटवाइयोंकोप्रभावपूर्ट ढंगसेकरिेकेधिएसमर्टबिािेकेधिएआवश्य कयासमीचीिप्रतीतहोंतर्ा, पूवटगामी
+शधक्त कीव्या पकतापरप्रधतकूिप्रभावडािेधबिा, उसआदेशकेधवरुद्धकायटकरिेवािेव्य धक्त योंकोदंधडत करिेकेधिएउपबन्ि
+दकयाजासकेगा।
+______
+1 यहअधिधियम 1968 के अधिधियमसं ० 26 कीिारा 3 औरअिुसूचीद्वारापांधडचेरीसंघराज्य क्षे रपरधवस्ता ररतदकयागया।`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)

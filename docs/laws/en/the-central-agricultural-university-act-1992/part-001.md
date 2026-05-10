@@ -48,7 +48,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/hindistatutesindividualfile/&file=cau_imphal_statues_hindi.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/statuteindividualfile/&file=cau_imphal_status.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1898/2/hH1992-40.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_000010_199458_1517807323674/ordinanceindividualfile/&file=BBAU22Ordinances2.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_000010_199458_1517807323674/statuteindividualfile/&file=BBAU+Statutes.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1961/3/H1994-58.pdf
 
 ## Section 1 - Short title and commencement.
 

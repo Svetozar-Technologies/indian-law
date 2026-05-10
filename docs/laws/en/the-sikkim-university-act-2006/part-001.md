@@ -32,7 +32,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/ordinanceindividualfile/&file=SU+Ordinances.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/statuteindividualfile/&file=Sikkim+University+Statutes.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2049/3/H2007-10.pdf
 
 ## Section 1 - Short title and commencement.
 

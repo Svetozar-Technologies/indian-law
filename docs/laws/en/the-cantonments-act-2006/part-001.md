@@ -34,7 +34,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=239965.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/notificationindividualfile/&file=Notifications+notified+under+Cantonment+Act%2C+2006+new.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2066/3/H2006-41.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

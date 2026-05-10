@@ -32,7 +32,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/hindirulesindividualfile/&file=gsr-120_rrs_of_group_%27a%27_-_2010.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/notificationindividualfile/&file=crimnal_courts_and_security_guard_courts_%28adjustment_of.lurisdiction%29_rule_1987.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1853/3/H1986-47.pdf
 
 ## Section 1 - Short title and commencement.
 

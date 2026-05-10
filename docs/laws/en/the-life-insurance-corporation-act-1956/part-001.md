@@ -40,7 +40,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/notificationindividualfile/&file=the_life_insurance_corporation_general_regulations%2C_2021_-_as_on_22.7.2021.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/notificationindividualfile/&file=notification_under_section_50_of_the_life_insurance_corporation_act%2C_1956_-s.o._995%28e%29%2C_dated_3.3.2022.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1632/3/H1956-31.pdf
 
 ## Section 1 - Short title and commencement.
 

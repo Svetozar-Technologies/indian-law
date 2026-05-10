@@ -40,7 +40,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=re-constitution_cab.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=reconstitution_notification_dt._13.10.2022.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2155/3/H2016-49.pdf
 
 ## Section 70 - Meetings of State Advisory Board on disability.
 

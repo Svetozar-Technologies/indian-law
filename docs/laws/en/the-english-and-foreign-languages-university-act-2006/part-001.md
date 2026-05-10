@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00009_200707_1517807323610/regulationindividualfile/&file=EFLU+GAZETTE+ENGLISH-241-268.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00009_200707_1517807323610/ordinanceindividualfile/&file=EFLU+GAZETTE+ENGLISH-29-118.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2078/5/H2007-07.pdf
 
 ## Section 1 - Short title and commencement.
 

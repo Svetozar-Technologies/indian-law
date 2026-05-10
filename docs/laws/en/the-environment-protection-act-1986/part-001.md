@@ -1152,7 +1152,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00011_198629_1517807327582/orderindividualfile/&file=d_2172_1567407581549.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00011_198629_1517807327582/orderindividualfile/&file=d_2172_1567407586094.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1876/3/H1986-29.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

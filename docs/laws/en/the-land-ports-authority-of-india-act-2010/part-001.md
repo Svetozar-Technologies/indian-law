@@ -27,7 +27,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/circularindividualfile/&file=Revision+of+warehouse+tariff+and+weighment+charges+at+ICP+attari+dated+19.09.2013.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/notificationindividualfile/&file=No.+S.NO.+2097+%28E%29+dated+13.06.2016+regarding+Notification+of+10+Police+Stations.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2105/3/H2010-31.pdf
 
 ## Section 1 - Short title and commencement.
 

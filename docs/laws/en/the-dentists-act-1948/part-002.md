@@ -42,7 +42,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=10+Scheme+2006+DCI+Establishment+for+Opening+of+New+Dental+College+Regulations%2C+2006.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=08+MDS+Coruse+Regulations+2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1463/2/H1948-16.pdf
 
 ## Section 39 - Renewal fees.
 

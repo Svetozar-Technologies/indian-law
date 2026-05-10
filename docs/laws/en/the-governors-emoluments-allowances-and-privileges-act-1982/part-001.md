@@ -47,7 +47,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2018%7BG.S.R.+486%28E%29%7D.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2018%7BG.S.R.+546%28E%29%7D.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1838/2/H1982-43.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

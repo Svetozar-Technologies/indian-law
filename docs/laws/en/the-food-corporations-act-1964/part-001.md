@@ -42,7 +42,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.ep-03-2021-06_dt_22.03.2021.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.ep-03-2021-37_dt_15th_dec.%2C_2021.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1415/3/H1964-37.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

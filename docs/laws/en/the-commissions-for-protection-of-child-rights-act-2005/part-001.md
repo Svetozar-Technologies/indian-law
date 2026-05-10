@@ -40,7 +40,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/orderindividualfile/&file=11+july+2017+%282%29+-+both.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/orderindividualfile/&file=6+september+2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2056/3/H2006-4.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -41,7 +41,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=ROORKEE.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=IIT+Delhi+Statutes.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1705/3/H1961-59.pdf
 
 ## Section 1 - Short title and commencement.
 

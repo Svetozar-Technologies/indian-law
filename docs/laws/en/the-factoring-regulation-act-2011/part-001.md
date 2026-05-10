@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/regulationindividualfile/&file=registration_of_assignment_of_receivables_%28reserve_bank%29_regulations-2022.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/regulationindividualfile/&file=registration_of_factors_%28reserve_bank%29_regulations-2022.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2116/3/H2012-12.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

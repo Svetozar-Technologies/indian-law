@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/statuteindividualfile/&file=Ist+Statute+of+FDDI.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/statuteindividualfile/&file=FDDI-Statute-Corrigenda.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2255/3/H2017-20.pdf
 
 ## Section 1 - Short title and commencement.
 

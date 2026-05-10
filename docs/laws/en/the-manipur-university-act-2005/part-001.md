@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00026_200554_1517807326978/ordinanceindividualfile/&file=Manipur+University+Ordinances.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00026_200554_1517807326978/statuteindividualfile/&file=statutes_of_manipur_university.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2051/3/H2005-54.pdf
 
 ## Section 1 - Short title and commencement.
 

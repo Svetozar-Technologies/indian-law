@@ -26,7 +26,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/rulesindividualfile/&file=the_insurance_ombudsman_rules%2C_2017_-_last_amended_on_18.5.2021.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/regulationindividualfile/&file=irdai_staff_%28officers_and_other_employees%29_regulations%2C_2016.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1893/2/H1999-41H.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

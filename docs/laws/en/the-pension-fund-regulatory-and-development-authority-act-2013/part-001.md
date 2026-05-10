@@ -87,7 +87,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00007_201323_1517807327819/notificationindividualfile/&file=notification_dated_1st_feb_2013_pfrda_act2013.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00007_201323_1517807327819/notificationindividualfile/&file=notification_dated_31.01.2019.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2117/2/H2013-23.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

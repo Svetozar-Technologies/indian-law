@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2108/1/A2011-15.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00021_201115_1517807326989/notificationindividualfile/&file=Appointed+day+for+the+Act.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2108/3/H2011-15.pdf
 
 ## Section 1 - Short title and commencement.
 

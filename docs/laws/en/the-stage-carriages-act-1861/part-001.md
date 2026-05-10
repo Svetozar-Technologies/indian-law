@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2265
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2265/1/a1861-16.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2265/2/H1861-16.pdf
 
 ## Section 1 - Definition of stage-carriage.
 

@@ -34,7 +34,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=17.12.2019.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=680%28e%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2146/2/H2015-11.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00001_197663_1517807318578/rulesindividualfile/&file=Rule.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00001_197663_1517807318578/regulationindividualfile/&file=Regulation.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1479/4/H1976-63.pdf
 
 ## Section 1 - Short title and commencement.
 

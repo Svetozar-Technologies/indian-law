@@ -23,7 +23,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00036_195231_1517807328441/notificationindividualfile/&file=ocr_2.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00036_195231_1517807328441/notificationindividualfile/&file=ocr_1.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2167/2/hh195231.pdf
 
 ## Section 1 - Short title.
 

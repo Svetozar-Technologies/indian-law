@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00024_201710_1517807327874/rulesindividualfile/&file=SMHA+Rules.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00024_201710_1517807327874/notificationindividualfile/&file=MHA+2017+notification.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2249/3/H2017-10.pdf
 
 ## Section 65 - Registration of mental health establishment.
 

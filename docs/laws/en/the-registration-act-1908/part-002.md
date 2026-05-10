@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2190
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2190/2/H1908-16.pdf
 
 ## Section 46 - Saving of certain enactments and powers of Courts.
 

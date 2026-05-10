@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1526/1/A1963__19.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_39_00001_196319_1517807319151/rulesindividualfile/&file=OL+Rule+1976.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1526/5/HH1963-19.pdf
 
 ## Section 1 - Short title and commencement.
 

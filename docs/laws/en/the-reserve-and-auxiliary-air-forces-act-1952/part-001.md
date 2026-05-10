@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00021_195262_1517807328498/rulesindividualfile/&file=THE+RESERVE+%26+AUX+AIRFORCE+ACT+RULES+1953.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00021_195262_1517807328498/notificationindividualfile/&file=Notification+Under+The+Reserve+And+Auxilary++AirForce+Act+1952.PDF
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2161/2/H1952-62.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

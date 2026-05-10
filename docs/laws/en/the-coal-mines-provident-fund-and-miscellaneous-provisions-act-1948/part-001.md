@@ -33,7 +33,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=gadgete_notification_s.o.5039%28e%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=notification-1.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1841/5/H1948-46.pdf
 
 ## Section 1 - Short title and extent.
 

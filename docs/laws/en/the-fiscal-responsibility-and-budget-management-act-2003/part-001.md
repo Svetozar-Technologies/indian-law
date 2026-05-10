@@ -25,7 +25,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00031_200339_1517807322918/rulesindividualfile/&file=9_frbm+%282nd+Amendment%29+Rules+2015.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00031_200339_1517807322918/rulesindividualfile/&file=11_notification_frbm_rules_2004_%28amdendment%29%2C_2018_%2802_02_2018%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2064/3/H2003-39.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

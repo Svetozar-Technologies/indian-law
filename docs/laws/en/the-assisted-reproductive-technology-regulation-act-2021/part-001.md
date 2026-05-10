@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00001_202142_1643274805540/rulesindividualfile/&file=assisted_reproductive_technology_amendment_rules_2023.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00001_202142_1643274805540/regulationindividualfile/&file=art_regulations_2023.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/17031/2/h202142.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

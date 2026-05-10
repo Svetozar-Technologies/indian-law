@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2326
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2326/1/A1897_03.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2326/2/H1897-3.pdf
 
 ## Section 1 - Short title and extent.
 

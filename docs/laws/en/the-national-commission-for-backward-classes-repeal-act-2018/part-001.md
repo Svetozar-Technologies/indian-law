@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/4036/1/A2018-24.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00006_A2018-24_1542613153379/notificationindividualfile/&file=img_0001.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/4036/2/H2018-24.pdf
 
 ## Section 1 - Short title and commencement.
 

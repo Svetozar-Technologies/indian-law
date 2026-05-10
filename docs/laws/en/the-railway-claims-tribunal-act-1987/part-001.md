@@ -66,7 +66,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_21_e_the_railway_claims_tribunal_%28procedure%29_amendment_rules%2C_2020.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_1_1_00006_198754_1517807325410/rulesindividualfile/&file=gsr_553_dated_14092020.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1771/3/H1987-54.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

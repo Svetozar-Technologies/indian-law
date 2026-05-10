@@ -68,7 +68,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_46_77_00003_195345_1517807328323/notificationindividualfile/&file=1878_%28e%29_central_government_hereby_makes_the_following_further_amendments_in_the_notification_of_the_government_of_india_ministry_of_micro_small_and_medium_enterprises.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_46_77_00003_195345_1517807328323/notificationindividualfile/&file=3086%28e%29_in_exercise_of_the_powers_conferred_by_sub_section_3_of_section_4_of_the_coir_industry_act.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2179/2/H1953-45.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

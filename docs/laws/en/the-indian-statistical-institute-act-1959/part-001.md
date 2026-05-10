@@ -25,7 +25,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00001_195957_1517807322454/notificationindividualfile/&file=e-gazette_notification_of_8%28i%29_committee.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00001_195957_1517807322454/notificationindividualfile/&file=gazette_notification_regarding_amendment.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1425/3/H1959-57.pdf
 
 ## Section 1 - Short title and commencement.
 

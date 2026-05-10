@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00001_197269_1517807321014/notificationindividualfile/&file=domestic_liability_limits.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00001_197269_1517807321014/notificationindividualfile/&file=international_liability_limits.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1658/2/hH1972-69.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

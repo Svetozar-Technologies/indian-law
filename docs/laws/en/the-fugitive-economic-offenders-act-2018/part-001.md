@@ -24,7 +24,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00032_A2018-17_1542613466306/rulesindividualfile/&file=showrulefile-20-22.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00032_A2018-17_1542613466306/orderindividualfile/&file=feo_act_-_notifications.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/4035/2/H2018-17.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

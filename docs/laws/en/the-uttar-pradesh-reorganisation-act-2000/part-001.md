@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00044_200029_1517807324321/notificationindividualfile/&file=Appointed+Day+for+the+purpose+of+Act.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00044_200029_1517807324321/notificationindividualfile/&file=notification_issued_in_exercise_of_powers_conferred_under_part_vii%2C_viii_and_ix_of_the_up_reorganisation_act.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2000/2/H2000-29.pdf
 
 ## Section 1 - Short title.
 

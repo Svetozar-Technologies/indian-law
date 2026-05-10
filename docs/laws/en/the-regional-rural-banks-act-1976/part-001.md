@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00009_197621_1517807318838/rulesindividualfile/&file=Regional+Rural+Banks+%28Appointment+of+Officers+and+Employees%29+Rules%2C+2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00009_197621_1517807318838/rulesindividualfile/&file=Regional+Rural+Banks%28Appointment+of+Officers+and+Employees%29+Amendment+Rules%2C+2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1492/3/H1976-21.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

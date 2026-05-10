@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_000010_200628_1517807326274/ordinanceindividualfile/&file=third_ordinance_2018.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_000010_200628_1517807326274/statuteindividualfile/&file=nift_statutes_2020.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2031/3/H2006-28.pdf
 
 ## Section 1 - Short title and commencement.
 

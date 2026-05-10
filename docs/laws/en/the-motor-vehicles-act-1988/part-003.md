@@ -336,7 +336,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00009_198859_1517807326286/notificationindividualfile/&file=draft_gsr_299%28e%29_dated_18th_april%2C_2022_rules_for_accreditation_of_driver_training_center.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00009_198859_1517807326286/notificationindividualfile/&file=draft_gsr_340%28e%29_05_may_2022_-ease_of_doing_business_-_trade_certificate.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1798/2/Hh198859.pdf
 
 ## Section 68 - Transport Authorities.
 

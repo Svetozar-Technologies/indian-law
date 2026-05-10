@@ -35,7 +35,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO1197+List+of+Geographical+Coordinates+%2811.05.2009%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO2962E+%2820.11.2009%29+Amendment+to+SO1197+of+11.05.2009.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1484/4/H_1976-80.pdf
 
 ## Section 1 - Short title and commencement.
 

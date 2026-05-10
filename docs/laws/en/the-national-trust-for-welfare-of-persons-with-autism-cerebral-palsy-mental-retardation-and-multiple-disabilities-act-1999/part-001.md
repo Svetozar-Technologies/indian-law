@@ -36,7 +36,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=Sept+2016.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=June%2C+2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1951/2/H1999-44.pdf
 
 ## Section 1 - Short title and extent.
 

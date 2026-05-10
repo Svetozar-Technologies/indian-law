@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2043/1/A2007-41.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_000010_200741_1517807327557/rulesindividualfile/&file=crr_rules.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2043/3/H2007-41.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

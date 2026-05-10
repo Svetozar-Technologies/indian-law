@@ -28,7 +28,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/orderindividualfile/&file=sfadditionalinfo.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/statuteindividualfile/&file=statutes.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1914/2/h200239.pdf
 
 ## Section 48 - Nominee of Central Government or State Government on board.
 

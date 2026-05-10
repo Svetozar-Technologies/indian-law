@@ -49,7 +49,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=Notificn+Corrigendum_GSR629_23_June_2017+Nov+2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=lm_notifcn_gsr_474.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2102/2/hindilegal.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

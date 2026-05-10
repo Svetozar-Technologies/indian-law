@@ -22,7 +22,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00018_194748_1517807325628/regulationindividualfile/&file=INC+-+Amendment+Regulation+2018.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00018_194748_1517807325628/notificationindividualfile/&file=INC-+Notification.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1785/3/H1947-48.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

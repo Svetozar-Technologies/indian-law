@@ -27,7 +27,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/statuteindividualfile/&file=document%285%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/statuteindividualfile/&file=document%286%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2111/3/H2012-35.pdf
 
 ## Section 1 - Short title and commencement.
 

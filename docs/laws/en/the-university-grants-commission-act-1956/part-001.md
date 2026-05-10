@@ -81,7 +81,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00004_195603_1517807319834/notificationindividualfile/&file=specification_of_degrees_1st_amendment.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00004_195603_1517807319834/notificationindividualfile/&file=the_ugc_notification_regarding_specification_of_degrees_%282nd_amendment%29_2016.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1627/3/H1956-3.pdf
 
 ## Section 1 - Short title and commencement.
 

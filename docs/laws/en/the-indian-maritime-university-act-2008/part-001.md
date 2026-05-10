@@ -34,7 +34,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/ordinanceindividualfile/&file=Gazette_407_13Oct2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/statuteindividualfile/&file=IMU_Statutes_2008.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2093/3/H2008-22.pdf
 
 ## Section 1 - Short title and commencement.
 

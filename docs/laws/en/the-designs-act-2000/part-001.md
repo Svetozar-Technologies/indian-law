@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00003_200016_1517807322629/rulesindividualfile/&file=Amendment+Rule+2008.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00003_200016_1517807322629/rulesindividualfile/&file=Design+Amendment+Rules+2014.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1917/3/H2000-16.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

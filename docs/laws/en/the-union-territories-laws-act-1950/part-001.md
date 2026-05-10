@@ -100,7 +100,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00057_195030_1517807327422/notificationindividualfile/&file=Extension+of+the+Maharashtra+Control+Organised+Crime+Act%2C+1999+to+Delhi+Dt.+02.01.2002.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00057_195030_1517807327422/notificationindividualfile/&file=Corrigendum+regarding+extension+of+the+Maharashtra+Control+Organised+Crime+Act%2C+1999+to+Delhi+Dt.+04.02.2002.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1874/2/h195030.pdf
 
 ## Section 1 - Short title and commencement.
 

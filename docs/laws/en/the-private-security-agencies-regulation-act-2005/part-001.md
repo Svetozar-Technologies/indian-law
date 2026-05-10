@@ -31,7 +31,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=MHA+Advisory+dated+30.05.2018...Hindi.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=Clarification+regarding+License+No.+in+training+certificates-+dated+22.06.2018.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2024/3/H2005-29.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

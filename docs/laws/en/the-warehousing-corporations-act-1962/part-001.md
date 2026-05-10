@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00005_196258_1517807321370/regulationindividualfile/&file=CWC+%28General%29+Regulations%2C+1965_opt.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00005_196258_1517807321370/regulationindividualfile/&file=central_warehousing_corpn_%28staff%29_regulation%2C_1986_-_regulation_compressed.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1371/3/H1962-58.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

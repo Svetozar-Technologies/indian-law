@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2189
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2189/1/a1881-26.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2189/2/H1881-26.pdf
 
 ## Section 121 - Estoppel against denying capacity of payee to indorse.
 

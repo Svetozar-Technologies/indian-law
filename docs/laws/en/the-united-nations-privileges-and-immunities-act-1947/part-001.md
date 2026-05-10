@@ -53,7 +53,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=SO_2223_E_dated_27_June_2019_Multilateral_Investment_Guarantee_Agency.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=SO_4405_E_dated_5th_Dec_2019_Privileges_and_Immunities_to_the_Regional_Office_of_the_International_Committee_of_the_Red_Cross_in_India_and_its_officers.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1697/3/H1947-46.pdf
 
 ## Section 1 - Short title.
 

@@ -106,7 +106,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00023_197005_1517807321575/regulationindividualfile/&file=vijaya_bank_officers%27_service_regulation%2C_1982.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00023_197005_1517807321575/notificationindividualfile/&file=nationalisedbank_1.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1373/2/H197005.pdf
 
 ## Section 1 - Short title and commencement
 

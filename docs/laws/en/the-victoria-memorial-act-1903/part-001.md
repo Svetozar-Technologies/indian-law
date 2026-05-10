@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/rulesindividualfile/&file=vm_rules_26_march_1903.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/regulationindividualfile/&file=vmh_service_regulation.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2336/3/H1903-10.pdf
 
 ## Section 1 - Short title.
 

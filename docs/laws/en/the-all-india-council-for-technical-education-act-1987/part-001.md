@@ -89,7 +89,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00029_198752_1517807327237/regulationindividualfile/&file=All+India+Council+for+Technical+Education+%5BNational+Employability+Enhancement+Mission+%28NEEM%29%5D.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00029_198752_1517807327237/notificationindividualfile/&file=amendment_to_gsr_286_dated_03.01.91_management_board.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1880/3/H1987-52.pdf
 
 ## Section 1 - Short title and commencement.
 

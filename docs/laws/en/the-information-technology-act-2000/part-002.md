@@ -115,7 +115,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_45_76_00001_200021_1517807324077/notificationindividualfile/&file=declaring_certain_computer_resources_of_national_investigation_agency_and_its_associated_dependencies_as_protected_system_26th_february%2C_2024.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_45_76_00001_200021_1517807324077/notificationindividualfile/&file=declaring_certain_computer_resources_of_cersai_and_its_associated_dependencies_as_protected_system_6th_march%2C_2024.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1999/2/H2000-21.pdf
 
 ## Section 52A - [Omitted.].
 

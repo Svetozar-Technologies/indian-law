@@ -30,7 +30,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=7.+The+Bachelor+of+Pharmacy+%28Practice%29+Regulations%2C+2014.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=9.+The+Pharmacy+Practice+Regulations%2C+2015.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1364/2/H1948-08.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

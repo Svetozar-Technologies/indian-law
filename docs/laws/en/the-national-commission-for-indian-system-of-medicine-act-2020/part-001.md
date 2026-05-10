@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/15622/1/AA2020__14national.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_51_0_00003_202014_1602498622060/rulesindividualfile/&file=the_national_commission_for_indian.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/15622/2/H2020-14.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

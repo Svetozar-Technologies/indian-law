@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19035
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19035/1/A1863-23.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/19035/2/H1863-23.pdf
 
 ## Section 1 - Provision for inquiry into claims to land, or objections to sale of same.
 

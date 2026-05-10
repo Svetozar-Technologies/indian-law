@@ -58,7 +58,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=tea_waste_%28control%29_amendment_order_2019.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=tea_%28marketing%29_control_%28amendment%29_order_2020_%281%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2175/2/H1953-29.pdf
 
 ## Section 50 - Power of Board to make by-laws.
 

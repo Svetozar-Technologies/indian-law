@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19030
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19030/4/aa1850-25.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/19030/3/H1850-25.pdf
 
 ## Section 1 - Repeals.
 

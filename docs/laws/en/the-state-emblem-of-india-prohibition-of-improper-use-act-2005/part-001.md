@@ -21,7 +21,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00052_200550_1517807327011/rulesindividualfile/&file=State+Emblem+of+India%28Regulation+of+Use%29+Amendment+Rules+2010.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00052_200550_1517807327011/orderindividualfile/&file=Order+dated+14.07.2011+of+High+Court%2C+Calcutta.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2038/3/H2005-50.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

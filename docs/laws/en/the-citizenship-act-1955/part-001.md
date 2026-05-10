@@ -44,7 +44,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=grant_of_certificate_of_naturalisation.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=descendants_in_suriname.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1522/2/H1955-57.pdf
 
 ## Section 1 - Short title.
 

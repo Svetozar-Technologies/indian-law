@@ -29,7 +29,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=17._nhb_employees_pension_regulations_amendment_-_2013.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=13._nhb_officers_service_regulations_%28amendment%29_-2014.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1881/3/H1987-53.pdf
 
 ## Section 36D - Appointment of recovery officer.
 

@@ -47,7 +47,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/notificationindividualfile/&file=notification_so_698_e_dt_14-2-2023.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/hindinotificationsindividualfile/&file=wdra_act%2C_2007_-_gsr_311_%28e%29_dated_4th_june%2C_2024_0001.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2020/3/H2007-37.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

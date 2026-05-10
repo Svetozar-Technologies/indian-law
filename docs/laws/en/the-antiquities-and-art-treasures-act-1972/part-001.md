@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00009_197252_1517807324344/rulesindividualfile/&file=The+Antiquities+and+Art+Treasures+Rules+1973.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00009_197252_1517807324344/regulationindividualfile/&file=The+Antiquities+and+Art+Treasures+Rules+1973.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1693/2/hH1972-52.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

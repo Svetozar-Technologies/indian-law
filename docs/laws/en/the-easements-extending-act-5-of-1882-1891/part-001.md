@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2319
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2319/1/189108.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2319/3/H1891-8.pdf
 
 ## Section 1 - Extension of Act V, 1882, to Bombay and the North-Western Provinces and Oudh.
 

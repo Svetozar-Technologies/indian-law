@@ -1,10 +1,12 @@
 obj_root:
   object
   (str cacheVersion) (int 1)
-  (str fetchedAt) (str `2026-05-08T20:13:18.425Z`)
+  (str fetchedAt) (str `2026-05-10T09:43:37.614Z`)
   (str sourceUrl) (str `https://www.indiacode.nic.in/handle/123456789/1468`)
   (str completeFetch) (bool true)
   (str maxSections) (null)
+  (str sectionCount) (int 2)
+  (str totalSections) (int 2)
   (str law) obj_root_law
 obj_root_law:
   object
@@ -23,6 +25,8 @@ obj_root_law:
   (str department) (str `Department of Justice`)
   (str longTitle) (str `An Act to provide for the establishment of a permanent bench of the High Court at Patna at Ranchi.`)
   (str enforcementDate) (str 08-04-1976)
+  (str fetchedAt) (str `2026-05-08T20:13:18.425Z`)
+  (str translations) obj_root_law_translations
 obj_root_law_sources:
   object
   (str en) obj_root_law_sources_en
@@ -85,3 +89,44 @@ Provided that the Chief Justice of that High Court may, in his discretion, order
 of cases arising in any such district shall be heard at Patna.`)
   (str footnotes) (str )
   (str query) (str abv=CEN&statehandle=123456789/1362&actid=AC_CEN_3_3_00003_197657_1517807318022&sectionId=43700&sectionno=2&orderno=2&orgactid=AC_CEN_3_3_00003_197657_1517807318022)
+obj_root_law_translations:
+  object
+  (str hi) obj_root_law_translations_hi
+obj_root_law_translations_hi:
+  object
+  (str title) (str `पटना उच्‍च न्‍यायालय (रांची में स्‍थायी न्‍यायपीठ की स्‍थापना) अधिनियम, 1976`)
+  (str sourceUrl) (str `https://www.indiacode.nic.in/bitstream/123456789/1468/5/H1976-57.pdf`)
+  (str sourceKind) (str pdf)
+  (str fetchedAt) (str `2026-05-10T09:43:36.512Z`)
+  (str pageCount) (int 1)
+  (str sections) obj_root_law_translations_hi_sections
+obj_root_law_translations_hi_sections:
+  array
+  obj_root_law_translations_hi_sections_1
+obj_root_law_translations_hi_sections_1:
+  object
+  (str kind) (str page)
+  (str sectionId) (str pdf-page-1)
+  (str sectionNo) (str 1)
+  (str orderNo) (int 1)
+  (str title) (str `Page 1`)
+  (str content) (str `पटना उच्च न् या यालय ( राांची में स् था यी न् या यपीठ
+की स् था पना ) अधिधनयम, 1976
+(1976 का अधिधनयम सांखयाां क 57 )
+[ 8 अप्रैल, 1976 ]
+राांची में पटना उच्च न् या यालय के स् था यी न्
+या यपीठ की स् था पना का उपबन् ि
+करने के धलए
+अधिधनयम
+भारत ग णराज्य के सत्ताईसवें वर्ष में सांसद् द्व ारा धनम्न धलधित रू प में यह अधिधनयधमत हो: ––
+1. सांधिप्त नाम –– इस अधिधनयम का सांधिप् त नाम पटना उच्च न् या यालय ( राांची में स् था यी न् या यपीठ की स् था पना )
+अधिधनयम, 1976 है।
+2. राांची में पटना उच्च न् या यालय के स् था यी न् या यपीठ की स् था पना –– राांची में पटना उच्च न् या यालय के स् था यी न् या यपीठ की स्
+था पना की जाएगी और पटना उच्च न् या यालय के कम से कम तीन ऐसे न् या यािीश, धजन्हें उस उच्च न् या यालय का मुखय न् या याधिपधत
+समय - समय पर नामधनदेधशत करे, हजारीबाग, धगररडीह, िनबाद, राांची, पलामू और ससांहभूम धजलों में उद्भूत होने वाले मामलों के
+सम्ब न् ि में उस उच्च न् या यालय में तत्स मय धनधहत अधिकाररता और शधत का प्र योग करने के धलए राांची में बैठेंगे:
+परांतु उस उच्च न् या यालय का मुखय न् या या धिपधत स् व धववेकानुसार यह आदेश दे सकता है कक इनमें से ककसी धजले में उद्भूत
+होने वाले ककसी मामले या मामलों के वगष की सुनवाई पटना में होगी।
+_____`)
+  (str footnotes) (str )
+  (str sourcePage) (int 1)

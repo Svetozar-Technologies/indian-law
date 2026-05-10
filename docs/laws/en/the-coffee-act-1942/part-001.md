@@ -24,7 +24,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=5+Rule+C+and+R+rules+amndt-+coffee+-+8.11.2017.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=6+Rule+C+and+R+amndt+1.12.2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2412/2/H1942-07.pdf
 
 ## Section 1 - Short title, extent and duration.
 

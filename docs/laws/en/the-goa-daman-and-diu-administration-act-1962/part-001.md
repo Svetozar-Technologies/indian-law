@@ -37,7 +37,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Notification+Dt.+01.07.1998+regarding+extension+to+DD.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+West+Bengal+Prevention+of+Defacement+of+Property+Act%2C+1976+to+DD+Dt.+30.04.2013.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1369/4/H1962-01.pdf
 
 ## Section 1 - Short title and commencement.
 

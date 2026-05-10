@@ -175,7 +175,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00043_201713_1517807328116/notificationindividualfile/&file=notfctn-5-2020-igst-english.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00043_201713_1517807328116/notificationindividualfile/&file=notfctn-4-2020-igst-english.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2251/2/h201713.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

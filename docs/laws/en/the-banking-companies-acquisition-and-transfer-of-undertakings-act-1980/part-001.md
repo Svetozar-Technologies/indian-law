@@ -81,7 +81,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00045_198040_1517807325501/regulationindividualfile/&file=punjab_%26amp%3B_sind_bank_%28officers%27%29_service_%28amendment%29_regulations%2C_2018.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00045_198040_1517807325501/notificationindividualfile/&file=the_nationalised_bank_%28management_and_miscellaneous_provisions%29_scheme%2C_1980.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1792/2/hhH198040.pdf
 
 ## Section 1 - Short title and commence.
 

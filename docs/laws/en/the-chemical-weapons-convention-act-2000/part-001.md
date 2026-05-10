@@ -42,7 +42,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_35_55_00002_200034_1517807323290/notificationindividualfile/&file=Notification+S+O+745+%28E%29+12_2014.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_35_55_00002_200034_1517807323290/notificationindividualfile/&file=Notification+SO+2813+E+dated+14+october+2015.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1916/3/H2000-34.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

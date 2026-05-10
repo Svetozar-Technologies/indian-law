@@ -28,7 +28,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=President%27s+Pension%28Amendment%29+Rules%2C2009+%28G.S.R.+88%28E%29%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=president%E2%80%99s_pension_%28amendment%29_rules%2C_2018%28g.s.r._488%28e%29%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2107/2/hH1951-30.pdf
 
 ## Section 1 - Short title.
 

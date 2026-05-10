@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1508/1/A1952-60.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00004_195260_1517807319316/rulesindividualfile/&file=Commissions+of+Inquiry+%28Central%29+Rules%2C+1972.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1508/2/H1952-60.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

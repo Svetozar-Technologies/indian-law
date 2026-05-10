@@ -28,7 +28,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=the_prohibition_of_employment_as_manual_scavengers_and_their_rehabilitation_act%2C_2013_notification_s.o.1389%28e%29.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=the_prohibition_of_employment_as_manual_scavengers_and_their_rehabilitation_act%2C_2013_notification_s.o.888%28e%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2119/3/H2013-25.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

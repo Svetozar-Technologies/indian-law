@@ -31,7 +31,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=Delegation_of_Powers_Notification_sw+27.12.2016.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=section_20_and_21_sw_2017.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2006/3/H2002-54.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

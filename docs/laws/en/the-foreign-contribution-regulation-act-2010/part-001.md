@@ -38,7 +38,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=india_code.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=202636.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2098/2/H2010-42.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

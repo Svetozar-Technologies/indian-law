@@ -19,7 +19,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1992/1/aa200028.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00037_200028_1517807323263/notificationindividualfile/&file=Appointed+Day+for+the+purpose+of+Act.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1992/2/H2000-28.pdf
 
 ## Section 1 - Short title.
 

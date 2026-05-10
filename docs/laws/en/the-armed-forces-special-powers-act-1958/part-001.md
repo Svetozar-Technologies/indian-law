@@ -56,7 +56,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=arunachal_march_24.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=notification_for_disturbed_area_status_in_manipur-4.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1527/3/H1958-28.pdf
 
 ## Section 1 - Short title and extent.
 

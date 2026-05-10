@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00002_199948_1517807322766/rulesindividualfile/&file=GI+Rules.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00002_199948_1517807322766/rulesindividualfile/&file=GI+2013+%281%29.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1981/3/H1999-48.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

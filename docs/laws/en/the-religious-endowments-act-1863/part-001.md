@@ -18,7 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2266
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2266/1/A1863-20.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/2266/2/H1863-20.pdf
 
 ## Section 1 - [Repealed.].
 

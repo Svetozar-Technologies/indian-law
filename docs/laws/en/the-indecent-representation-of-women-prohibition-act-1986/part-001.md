@@ -20,7 +20,6 @@ Sources:
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00007_198660_1517807324297/rulesindividualfile/&file=the+Indecent+Representation+of+Women+%28Prohibition%29+Rules.pdf
 - pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00007_198660_1517807324297/notificationindividualfile/&file=E-0715-1987-0496-31417+25+Sep+1987+not.pdf
 - pdf: https://www.indiacode.nic.in/help/userGuide.pdf
-- pdf: https://www.indiacode.nic.in/bitstream/123456789/1768/3/H1986-60.pdf
 
 ## Section 1 - Short title, extent and commencement.
 
