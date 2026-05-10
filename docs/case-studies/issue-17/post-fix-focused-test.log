@@ -1,0 +1,45 @@
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts # SKIP test name does not match pattern
+  ---
+  duration_ms: 1.01396
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.127571
+  ...
+# Subtest: fetch site build converts cached Hindi PDF source into Markdown
+ok 3 - fetch site build converts cached Hindi PDF source into Markdown
+  ---
+  duration_ms: 757.312428
+  ...
+# Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+ok 4 - fetch site build resumes an incomplete cached law without redownloading cached sections # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.222732
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 5 - fetch site build writes completed law cache and progress as Lino # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.100499
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 6 - fetch site build writes partial output when the runtime budget is exhausted # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.10034
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 7 - fetch site build records per-law upstream failures as partial output # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.080971
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 6
+# todo 0
+# duration_ms 825.940196

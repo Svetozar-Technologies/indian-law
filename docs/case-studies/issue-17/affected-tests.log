@@ -1,0 +1,85 @@
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+  ---
+  duration_ms: 375.991365
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading
+  ---
+  duration_ms: 312.262982
+  ...
+# Subtest: fetch site build converts cached Hindi PDF source into Markdown
+ok 3 - fetch site build converts cached Hindi PDF source into Markdown
+  ---
+  duration_ms: 718.754185
+  ...
+# Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+ok 4 - fetch site build resumes an incomplete cached law without redownloading cached sections
+  ---
+  duration_ms: 379.308647
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 5 - fetch site build writes completed law cache and progress as Lino
+  ---
+  duration_ms: 379.589156
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 6 - fetch site build writes partial output when the runtime budget is exhausted
+  ---
+  duration_ms: 343.298969
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 7 - fetch site build records per-law upstream failures as partial output
+  ---
+  duration_ms: 2341.602107
+  ...
+# Subtest: renders a section with content and footnotes
+ok 8 - renders a section with content and footnotes
+  ---
+  duration_ms: 1.140995
+  ...
+# Subtest: splits only between sections and keeps each part under the requested line budget when possible
+ok 9 - splits only between sections and keeps each part under the requested line budget when possible
+  ---
+  duration_ms: 0.880367
+  ...
+# Subtest: renders Markdown part metadata and source links
+ok 10 - renders Markdown part metadata and source links
+  ---
+  duration_ms: 0.312984
+  ...
+# Subtest: renders localized PDF pages with language-specific title and sources
+ok 11 - renders localized PDF pages with language-specific title and sources
+  ---
+  duration_ms: 0.247717
+  ...
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 12 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 4.840759
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 13 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 1.064
+  ...
+# Subtest: refresh workflow uses one-hour checkpoint chunks by default
+ok 14 - refresh workflow uses one-hour checkpoint chunks by default
+  ---
+  duration_ms: 1.29928
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 15 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 1.647696
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4916.919885

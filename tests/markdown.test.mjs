@@ -55,3 +55,32 @@ test("renders Markdown part metadata and source links", () => {
   assert.match(markdown, /https:\/\/example\.test\/act/);
   assert.match(markdown, /## Section 1 - Start/);
 });
+
+test("renders localized PDF pages with language-specific title and sources", () => {
+  const markdown = renderMarkdownPart({
+    law: {
+      title: "Example Act",
+      sourceUrl: "https://example.test/english",
+      sources: {
+        en: [{ kind: "html", url: "https://example.test/english" }],
+        hi: [{ kind: "pdf", url: "https://example.test/hindi.pdf" }]
+      },
+      translations: {
+        hi: {
+          title: "उदाहरण अधिनियम"
+        }
+      }
+    },
+    language: { code: "hi", name: "Hindi" },
+    partIndex: 0,
+    partCount: 1,
+    sections: [{ kind: "page", sectionNo: "1", title: "Page 1", content: "भारतीय पाठ", footnotes: "" }]
+  });
+
+  assert.match(markdown, /title: "उदाहरण अधिनियम"/);
+  assert.match(markdown, /^# उदाहरण अधिनियम/m);
+  assert.match(markdown, /source: "https:\/\/example\.test\/hindi\.pdf"/);
+  assert.match(markdown, /Pages: 1 to 1/);
+  assert.match(markdown, /## Page 1/);
+  assert.doesNotMatch(markdown, /https:\/\/example\.test\/english/);
+});

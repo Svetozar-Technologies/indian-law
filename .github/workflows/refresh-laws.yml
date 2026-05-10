@@ -23,7 +23,7 @@ on:
       checkpoint_minutes:
         description: "Minutes to fetch before committing partial progress."
         required: false
-        default: "110"
+        default: "55"
       max_chunks:
         description: "Maximum checkpoint chunks to run in one workflow execution."
         required: false
@@ -42,7 +42,7 @@ jobs:
   refresh:
     name: Refresh Official Sources
     runs-on: ubuntu-latest
-    timeout-minutes: 130
+    timeout-minutes: 75
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -79,7 +79,7 @@ jobs:
       - name: Build Pages with resumable checkpoints
         env:
           MAX_SECTIONS: ${{ github.event.inputs.max_sections }}
-          CHECKPOINT_MINUTES: ${{ github.event.inputs.checkpoint_minutes || '110' }}
+          CHECKPOINT_MINUTES: ${{ github.event.inputs.checkpoint_minutes || '55' }}
           MAX_CHUNKS: ${{ github.event.inputs.max_chunks || '1' }}
         run: |
           set -euxo pipefail
