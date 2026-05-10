@@ -84,3 +84,32 @@ test("renders localized PDF pages with language-specific title and sources", () 
   assert.match(markdown, /## Page 1/);
   assert.doesNotMatch(markdown, /https:\/\/example\.test\/english/);
 });
+
+test("does not fall back to English titles for localized Markdown without a usable title", () => {
+  const markdown = renderMarkdownPart({
+    law: {
+      title: "The English Title Act, 2026",
+      actNumber: "7",
+      actYear: "2026",
+      sourceUrl: "https://example.test/english",
+      sources: {
+        en: [{ kind: "html", url: "https://example.test/english" }],
+        hi: [{ kind: "pdf", url: "https://example.test/hindi.pdf", title: "null" }]
+      },
+      translations: {
+        hi: {
+          title: "null"
+        }
+      }
+    },
+    language: { code: "hi", name: "Hindi" },
+    partIndex: 0,
+    partCount: 1,
+    sections: [{ kind: "page", sectionNo: "1", title: "Page 1", content: "भारतीय पाठ", footnotes: "" }]
+  });
+
+  assert.match(markdown, /title: "Act 7 of 2026"/);
+  assert.match(markdown, /^# Act 7 of 2026/m);
+  assert.doesNotMatch(markdown, /The English Title Act/);
+  assert.doesNotMatch(markdown, /^# null/m);
+});

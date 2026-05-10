@@ -1,12 +1,12 @@
 ---
-title: "null"
+title: "Act 09 of 1948"
 language: hi
 part: 1
 parts: 1
 line_limit: 1500
 source: "https://www.indiacode.nic.in/bitstream/123456789/1708/3/H1948-9.pdf"
 ---
-# null
+# Act 09 of 1948
 
 Language: Hindi
 Part 1 of 1

@@ -51,6 +51,11 @@ function cleanField(value = "") {
   return stripTagsToText(value).replace(/\s+/g, " ").trim();
 }
 
+function cleanSourceTitle(value = "") {
+  const text = cleanField(value);
+  return /^(null|undefined|n\/a|na|-|--)$/i.test(text) ? "" : text;
+}
+
 function attributeValue(attributes = "", name = "") {
   const quotedPattern = new RegExp(`\\b${name}\\s*=\\s*(["'])(.*?)\\1`, "i");
   const quoted = attributes.match(quotedPattern);
@@ -88,7 +93,7 @@ export function extractPdfSources(html = "", baseUrl = "https://www.indiacode.ni
     if (!/^\/bitstream\/123456789\//.test(parsedUrl.pathname) || !/\.pdf$/i.test(parsedUrl.pathname)) {
       return;
     }
-    const text = cleanField(title);
+    const text = cleanSourceTitle(title);
     const fileName = decodeURIComponent(parsedUrl.pathname.split("/").pop() ?? "");
     const language = /^H/i.test(fileName) || /hindi|[\u0900-\u097f]/i.test(text) ? "hi" : "en";
     sources[language] ??= [];

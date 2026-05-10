@@ -1,0 +1,15 @@
+3:ok 1 - extracts India Code metadata, PDF sources, and section references
+8:ok 2 - normalises section JSON HTML into plain text
+13:ok 3 - extracts only primary India Code law PDFs from law pages
+17:# Subtest: ignores placeholder PDF link titles from India Code
+18:ok 4 - ignores placeholder PDF link titles from India Code
+23:ok 5 - parses India Code search result rows
+28:ok 6 - parses regional PDF source rows
+33:ok 7 - strips table and inline HTML without collapsing intended breaks
+38:ok 8 - renders a section with content and footnotes
+43:ok 9 - splits only between sections and keeps each part under the requested line budget when possible
+48:ok 10 - renders Markdown part metadata and source links
+53:ok 11 - renders localized PDF pages with language-specific title and sources
+57:# Subtest: does not fall back to English titles for localized Markdown without a usable title
+58:ok 12 - does not fall back to English titles for localized Markdown without a usable title
+65:# pass 12

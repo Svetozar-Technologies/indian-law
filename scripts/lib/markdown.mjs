@@ -116,13 +116,14 @@ export function normaliseLaw(rawLaw) {
 
 function localizedLawTitle(law, languageCode) {
   if (languageCode === "en") {
-    return law.title;
+    return cleanTitle(law.title) || neutralLawLabel(law);
   }
   return (
-    law.translations?.[languageCode]?.title ||
-    law.localizedTitles?.[languageCode] ||
-    (languageCode === "hi" ? law.hindiTitle : "") ||
-    law.title
+    cleanTitle(law.translations?.[languageCode]?.title) ||
+    cleanTitle(law.localizedTitles?.[languageCode]) ||
+    (languageCode === "hi" ? cleanTitle(law.hindiTitle) : "") ||
+    cleanTitle(firstSourceTitle(law, languageCode)) ||
+    neutralLawLabel(law)
   );
 }
 
@@ -139,4 +140,28 @@ function sourcesForLanguage(law, languageCode) {
 
 function escapeYaml(value = "") {
   return String(value).replace(/\\/g, "\\\\").replace(/"/g, "\\\"");
+}
+
+function firstSourceTitle(law, languageCode) {
+  return (law.sources?.[languageCode] ?? []).find((source) => cleanTitle(source?.title))?.title ?? "";
+}
+
+function neutralLawLabel(law = {}) {
+  const actNumber = cleanTitle(law.actNumber);
+  const actYear = cleanTitle(law.actYear);
+  if (actNumber && actYear) {
+    return `Act ${actNumber} of ${actYear}`;
+  }
+  if (actYear) {
+    return `Act of ${actYear}`;
+  }
+  return cleanTitle(law.slug)?.replace(/-/g, " ") || "Untitled law";
+}
+
+function cleanTitle(value) {
+  const text = String(value ?? "").trim();
+  if (!text || /^(null|undefined|n\/a|na|-|--)$/i.test(text)) {
+    return "";
+  }
+  return text;
 }

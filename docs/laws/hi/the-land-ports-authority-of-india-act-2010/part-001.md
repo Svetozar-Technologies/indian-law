@@ -1,12 +1,12 @@
 ---
-title: "null"
+title: "Act 31 of 2010"
 language: hi
 part: 1
 parts: 1
 line_limit: 1500
 source: "https://www.indiacode.nic.in/bitstream/123456789/2105/3/H2010-31.pdf"
 ---
-# null
+# Act 31 of 2010
 
 Language: Hindi
 Part 1 of 1

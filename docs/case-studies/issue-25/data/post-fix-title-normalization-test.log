@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: extracts India Code metadata, PDF sources, and section references
+ok 1 - extracts India Code metadata, PDF sources, and section references
+  ---
+  duration_ms: 8.500012
+  ...
+# Subtest: normalises section JSON HTML into plain text
+ok 2 - normalises section JSON HTML into plain text
+  ---
+  duration_ms: 0.484434
+  ...
+# Subtest: extracts only primary India Code law PDFs from law pages
+ok 3 - extracts only primary India Code law PDFs from law pages
+  ---
+  duration_ms: 0.949707
+  ...
+# Subtest: ignores placeholder PDF link titles from India Code
+ok 4 - ignores placeholder PDF link titles from India Code
+  ---
+  duration_ms: 0.263814
+  ...
+# Subtest: parses India Code search result rows
+ok 5 - parses India Code search result rows
+  ---
+  duration_ms: 1.07172
+  ...
+# Subtest: parses regional PDF source rows
+ok 6 - parses regional PDF source rows
+  ---
+  duration_ms: 0.778001
+  ...
+# Subtest: strips table and inline HTML without collapsing intended breaks
+ok 7 - strips table and inline HTML without collapsing intended breaks
+  ---
+  duration_ms: 0.142272
+  ...
+# Subtest: renders a section with content and footnotes
+ok 8 - renders a section with content and footnotes
+  ---
+  duration_ms: 1.461613
+  ...
+# Subtest: splits only between sections and keeps each part under the requested line budget when possible
+ok 9 - splits only between sections and keeps each part under the requested line budget when possible
+  ---
+  duration_ms: 0.913133
+  ...
+# Subtest: renders Markdown part metadata and source links
+ok 10 - renders Markdown part metadata and source links
+  ---
+  duration_ms: 0.425555
+  ...
+# Subtest: renders localized PDF pages with language-specific title and sources
+ok 11 - renders localized PDF pages with language-specific title and sources
+  ---
+  duration_ms: 1.485489
+  ...
+# Subtest: does not fall back to English titles for localized Markdown without a usable title
+ok 12 - does not fall back to English titles for localized Markdown without a usable title
+  ---
+  duration_ms: 0.409902
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 71.903748

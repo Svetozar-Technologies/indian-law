@@ -2,6 +2,9 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  displayTitleForLanguage,
+  languageCoverageForCatalog,
+  lawsForLanguage,
   sourceStatusForLaw,
   statusClassForLanguage,
   textStatusForLanguage
@@ -54,4 +57,63 @@ test("does not fall back to another language when requested text is not ready", 
     code: "hi",
     record: law.languages.hi
   });
+});
+
+test("filters catalog rows to laws with selected-language text or sources", () => {
+  const catalog = {
+    laws: [
+      {
+        slug: "hindi-markdown-act",
+        languages: {
+          hi: { enabled: true, status: "markdown", sources: [] },
+          en: { enabled: true, status: "markdown", sources: [] }
+        }
+      },
+      {
+        slug: "hindi-source-only-act",
+        languages: {
+          hi: { enabled: false, status: "source-only", sources: [{ kind: "pdf", url: "https://example.test/hi.pdf" }] },
+          en: { enabled: true, status: "markdown", sources: [] }
+        }
+      },
+      {
+        slug: "english-only-act",
+        languages: {
+          hi: { enabled: false, status: "unavailable", sources: [] },
+          en: { enabled: true, status: "markdown", sources: [] }
+        }
+      }
+    ]
+  };
+
+  assert.deepEqual(lawsForLanguage(catalog, "hi").map((law) => law.slug), [
+    "hindi-markdown-act",
+    "hindi-source-only-act"
+  ]);
+  assert.deepEqual(languageCoverageForCatalog(catalog, "hi"), {
+    ready: 1,
+    total: 2
+  });
+});
+
+test("does not use default-language law titles for non-default language rows", () => {
+  const law = {
+    title: "The English Only Act, 2026",
+    actNumber: "7",
+    actYear: "2026",
+    localizedTitles: {},
+    languages: {
+      hi: {
+        enabled: false,
+        status: "source-only",
+        sources: [{ kind: "pdf", url: "https://example.test/hi.pdf", title: "null" }]
+      }
+    }
+  };
+
+  assert.equal(displayTitleForLanguage(law, "en", "en"), "The English Only Act, 2026");
+  assert.equal(displayTitleForLanguage(law, "hi", "en"), "Act 7 of 2026");
+
+  law.localizedTitles.hi = "हिन्दी अधिनियम, 2026";
+  assert.equal(displayTitleForLanguage(law, "hi", "en"), "हिन्दी अधिनियम, 2026");
 });

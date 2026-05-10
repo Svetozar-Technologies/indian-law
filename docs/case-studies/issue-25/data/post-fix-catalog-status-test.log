@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: labels enabled language records as Markdown
+ok 1 - labels enabled language records as Markdown
+  ---
+  duration_ms: 0.994826
+  ...
+# Subtest: labels known official sources without Markdown as pending
+ok 2 - labels known official sources without Markdown as pending
+  ---
+  duration_ms: 0.166287
+  ...
+# Subtest: labels languages with no known source as unavailable
+ok 3 - labels languages with no known source as unavailable
+  ---
+  duration_ms: 0.084967
+  ...
+# Subtest: does not fall back to another language when requested text is not ready
+ok 4 - does not fall back to another language when requested text is not ready
+  ---
+  duration_ms: 0.516792
+  ...
+# Subtest: filters catalog rows to laws with selected-language text or sources
+ok 5 - filters catalog rows to laws with selected-language text or sources
+  ---
+  duration_ms: 0.227601
+  ...
+# Subtest: does not use default-language law titles for non-default language rows
+ok 6 - does not use default-language law titles for non-default language rows
+  ---
+  duration_ms: 1.288414
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 60.468985

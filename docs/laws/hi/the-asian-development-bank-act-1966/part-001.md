@@ -1,12 +1,12 @@
 ---
-title: "null"
+title: "Act 18 of 1966"
 language: hi
 part: 1
 parts: 1
 line_limit: 1500
 source: "https://www.indiacode.nic.in/bitstream/123456789/1656/4/H1966-18.pdf"
 ---
-# null
+# Act 18 of 1966
 
 Language: Hindi
 Part 1 of 1

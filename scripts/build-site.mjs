@@ -421,15 +421,18 @@ async function hydratePdfTextFromSources(law, options) {
       } else {
         law.translations ??= {};
         law.translations[languageCode] = {
-          title: source.title || law.translations?.[languageCode]?.title || localizedTitleForLanguage(law, languageCode),
+          title:
+            cleanTitle(source.title) ||
+            cleanTitle(law.translations?.[languageCode]?.title) ||
+            localizedTitleForLanguage(law, languageCode),
           sourceUrl: source.url,
           sourceKind: source.kind ?? "pdf",
           fetchedAt: new Date().toISOString(),
           pageCount,
           sections
         };
-        if (languageCode === "hi" && source.title && !law.hindiTitle) {
-          law.hindiTitle = source.title;
+        if (languageCode === "hi" && cleanTitle(source.title) && !cleanTitle(law.hindiTitle)) {
+          law.hindiTitle = cleanTitle(source.title);
         }
       }
       changed = true;
@@ -461,7 +464,15 @@ function firstPdfSource(sources) {
 }
 
 function localizedTitleForLanguage(law, languageCode) {
-  return law.localizedTitles?.[languageCode] || (languageCode === "hi" ? law.hindiTitle : "") || law.title;
+  if (languageCode === "en") {
+    return cleanTitle(law.title) || neutralLawLabel(law);
+  }
+  return (
+    cleanTitle(law.localizedTitles?.[languageCode]) ||
+    (languageCode === "hi" ? cleanTitle(law.hindiTitle) : "") ||
+    cleanTitle(firstPdfSource(law.sources?.[languageCode] ?? [])?.title) ||
+    neutralLawLabel(law)
+  );
 }
 
 function sourceUrlForLaw(law) {
@@ -848,7 +859,7 @@ async function writeMarkdownParts({ outputDir, logger, languages, laws, defaultL
       department: law.department ?? "",
       longTitle: law.longTitle ?? "",
       sourceUrl: law.sourceUrl ?? "",
-      sources: law.sources ?? {},
+      sources: cleanSourcesByLanguage(law.sources ?? {}),
       languages: {}
     };
 
@@ -857,7 +868,7 @@ async function writeMarkdownParts({ outputDir, logger, languages, laws, defaultL
       const splitLimit = Math.max(1, maxLines - 60);
       const parts = lawSections.length ? splitSectionsIntoParts(lawSections, { maxLines: splitLimit }) : [];
       const languageParts = [];
-      const sources = law.sources?.[language.code] ?? [];
+      const sources = cleanSources(law.sources?.[language.code] ?? []);
       logger?.info(
         `Language decision for ${law.slug}/${language.code}: sections=${lawSections.length}, parts=${
           parts.length
@@ -967,14 +978,58 @@ function titlesLookRelated(sourceTitle = "", lawTitle = "") {
 function localizedTitles(law) {
   const titles = {};
   for (const [languageCode, translation] of Object.entries(law.translations ?? {})) {
-    if (translation.title) {
-      titles[languageCode] = translation.title;
+    const title = cleanTitle(translation.title);
+    if (title) {
+      titles[languageCode] = title;
     }
   }
-  if (law.hindiTitle) {
-    titles.hi = law.hindiTitle;
+  for (const [languageCode, sources] of Object.entries(law.sources ?? {})) {
+    if (languageCode === "en" || titles[languageCode]) {
+      continue;
+    }
+    const title = cleanTitle(sources.find((source) => cleanTitle(source?.title))?.title);
+    if (title) {
+      titles[languageCode] = title;
+    }
+  }
+  const hindiTitle = cleanTitle(law.hindiTitle);
+  if (hindiTitle) {
+    titles.hi = hindiTitle;
   }
   return titles;
+}
+
+function cleanSourcesByLanguage(sourcesByLanguage = {}) {
+  return Object.fromEntries(
+    Object.entries(sourcesByLanguage).map(([languageCode, sources]) => [languageCode, cleanSources(sources)])
+  );
+}
+
+function cleanSources(sources = []) {
+  return sources.map((source) => ({
+    ...source,
+    title: cleanTitle(source?.title)
+  }));
+}
+
+function neutralLawLabel(law = {}) {
+  const actNumber = cleanTitle(law.actNumber);
+  const actYear = cleanTitle(law.actYear);
+  if (actNumber && actYear) {
+    return `Act ${actNumber} of ${actYear}`;
+  }
+  if (actYear) {
+    return `Act of ${actYear}`;
+  }
+  return cleanTitle(law.slug)?.replace(/-/g, " ") || "Untitled law";
+}
+
+function cleanTitle(value) {
+  const text = String(value ?? "").trim();
+  if (!text || /^(null|undefined|n\/a|na|-|--)$/i.test(text)) {
+    return "";
+  }
+  return text;
 }
 
 async function fileHash(filePath) {
