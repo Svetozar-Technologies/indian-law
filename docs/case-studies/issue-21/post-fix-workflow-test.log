@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 1 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 5.954189
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 2 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 1.134154
+  ...
+# Subtest: refresh workflow uses one-hour checkpoint chunks by default
+ok 3 - refresh workflow uses one-hour checkpoint chunks by default
+  ---
+  duration_ms: 0.741417
+  ...
+# Subtest: refresh workflow uses plain sync commit message for one chunk
+ok 4 - refresh workflow uses plain sync commit message for one chunk
+  ---
+  duration_ms: 1.537365
+  ...
+# Subtest: refresh workflow advertises the canonical deployed site path
+ok 5 - refresh workflow advertises the canonical deployed site path
+  ---
+  duration_ms: 0.600427
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 6 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 0.532705
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 60.38985

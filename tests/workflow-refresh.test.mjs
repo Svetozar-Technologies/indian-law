@@ -72,6 +72,13 @@ test("refresh workflow uses plain sync commit message for one chunk", async () =
   assert.doesNotMatch(workflow, /Refresh generated law pages \(chunk \$chunk\)/);
 });
 
+test("refresh workflow advertises the canonical deployed site path", async () => {
+  const workflow = await readFile(".github/workflows/refresh-laws.yml", "utf8");
+
+  assert.match(workflow, /^\s+url: https:\/\/law\.satyavera\.in\/indian-law\/$/m);
+  assert.doesNotMatch(workflow, /url:\s*\$\{\{\s*steps\.deployment\.outputs\.page_url\s*\}\}/);
+});
+
 test("CI workflow treats live-source partial output as a recoverable smoke result", async () => {
   const workflow = await readFile(".github/workflows/ci.yml", "utf8");
 
