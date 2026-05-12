@@ -18,6 +18,7 @@ import {
 } from "./lib/markdown.mjs";
 import { extractPdfTextSectionsViaOcr } from "./lib/ocr.mjs";
 import { extractPdfTextSections } from "./lib/pdf.mjs";
+import { cleanSources, sourcesForCatalogLanguage } from "./lib/sources.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DEFAULT_MAX_LINES = 1500;
@@ -462,6 +463,7 @@ async function hydratePdfTextFromSources(law, options) {
           law.hindiTitle = cleanTitle(source.title);
         }
       }
+      clearSourceDownloadFailure(source);
       changed = true;
       logProgress(
         `${options.progressPrefix} Extracted ${sections.length}/${pageCount} page(s) of ${language.name} Markdown text for ${law.title}${
@@ -473,6 +475,8 @@ async function hydratePdfTextFromSources(law, options) {
         await sleep(options.delayMs);
       }
     } catch (error) {
+      markSourceDownloadFailure(source, error);
+      changed = true;
       options.logger?.warn(
         `${options.progressPrefix} Unable to extract ${language.name} PDF text for ${law.title} from ${source.url}: ${error.message}`
       );
@@ -531,12 +535,24 @@ function parseOcrLanguages(value) {
 
 function firstPdfSource(sources) {
   return sources.find((source) => {
-    if (!source?.url) {
+    if (!source?.url || source.downloadStatus === "failed") {
       return false;
     }
     const kind = String(source.kind ?? "").toLowerCase();
     return kind === "pdf" || /\.pdf(?:[?#].*)?$/i.test(source.url);
   });
+}
+
+function markSourceDownloadFailure(source, error) {
+  source.downloadStatus = "failed";
+  source.lastDownloadAttemptAt = new Date().toISOString();
+  source.lastDownloadError = error.message;
+}
+
+function clearSourceDownloadFailure(source) {
+  delete source.downloadStatus;
+  delete source.lastDownloadAttemptAt;
+  delete source.lastDownloadError;
 }
 
 function localizedTitleForLanguage(law, languageCode) {
@@ -944,12 +960,6 @@ async function writeMarkdownParts({ outputDir, logger, languages, laws, defaultL
       const splitLimit = Math.max(1, maxLines - 60);
       const parts = lawSections.length ? splitSectionsIntoParts(lawSections, { maxLines: splitLimit }) : [];
       const languageParts = [];
-      const sources = cleanSources(law.sources?.[language.code] ?? []);
-      logger?.info(
-        `Language decision for ${law.slug}/${language.code}: sections=${lawSections.length}, parts=${
-          parts.length
-        }, sources=${sources.length}, status=${parts.length > 0 ? "markdown" : sources.length > 0 ? "source-only" : "unavailable"}`
-      );
 
       if (parts.length > 0) {
         const lawDir = path.join(outputDir, "laws", language.code, law.slug);
@@ -962,7 +972,8 @@ async function writeMarkdownParts({ outputDir, logger, languages, laws, defaultL
             partIndex: index,
             partCount: parts.length,
             sections: parts[index],
-            maxLines
+            maxLines,
+            defaultLanguage
           });
           const fileName = `${lawPartFileName(index)}.md`;
           const markdownPath = path.join(lawDir, fileName);
@@ -981,6 +992,18 @@ async function writeMarkdownParts({ outputDir, logger, languages, laws, defaultL
           });
         }
       }
+
+      const sources = sourcesForCatalogLanguage(law, language.code, defaultLanguage, {
+        hasMarkdown: languageParts.length > 0,
+        hasLanguageEntry: lawSections.length > 0
+      });
+      logger?.info(
+        `Language decision for ${law.slug}/${language.code}: sections=${lawSections.length}, parts=${
+          languageParts.length
+        }, sources=${sources.length}, status=${
+          languageParts.length > 0 ? "markdown" : sources.length > 0 ? "source-only" : "unavailable"
+        }`
+      );
 
       lawEntry.languages[language.code] = {
         enabled: languageParts.length > 0,
@@ -1079,13 +1102,6 @@ function cleanSourcesByLanguage(sourcesByLanguage = {}) {
   return Object.fromEntries(
     Object.entries(sourcesByLanguage).map(([languageCode, sources]) => [languageCode, cleanSources(sources)])
   );
-}
-
-function cleanSources(sources = []) {
-  return sources.map((source) => ({
-    ...source,
-    title: cleanTitle(source?.title)
-  }));
 }
 
 function neutralLawLabel(law = {}) {

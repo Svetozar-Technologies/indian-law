@@ -1,4 +1,5 @@
 import { slugify } from "./html.mjs";
+import { primarySourceForLanguage, sourcesForCatalogLanguage } from "./sources.mjs";
 
 export function countLines(value = "") {
   if (!value) {
@@ -56,16 +57,25 @@ export function splitSectionsIntoParts(sections, options = {}) {
   return parts;
 }
 
-export function renderMarkdownPart({ law, language, partIndex, partCount, sections, maxLines = 1500 }) {
+export function renderMarkdownPart({ law, language, partIndex, partCount, sections, maxLines = 1500, defaultLanguage = "en" }) {
   const title = localizedLawTitle(law, language.code);
   const partNumber = partIndex + 1;
   const languageCode = language.code;
-  const sources = sourcesForLanguage(law, languageCode);
+  const sources = sourcesForCatalogLanguage(law, languageCode, defaultLanguage, {
+    hasMarkdown: sections.length > 0,
+    hasLanguageEntry: sections.length > 0 || (law.sources?.[languageCode] ?? []).length > 0
+  });
+  const primarySource =
+    primarySourceForLanguage(law, languageCode, defaultLanguage, {
+      hasMarkdown: sections.length > 0,
+      hasLanguageEntry: sections.length > 0 || (law.sources?.[languageCode] ?? []).length > 0
+    }) ||
+    law.sourceUrl ||
+    "";
   const sourceLinks = sources
     .filter((source) => source.url)
     .map((source) => `- ${source.kind}: ${source.url}`)
     .join("\n");
-  const primarySource = sources.find((source) => source.url)?.url ?? law.sourceUrl ?? "";
   const sectionBody = sections.map((section) => sectionMarkdown(section)).join("\n\n");
   const firstSection = sections[0]?.sectionNo ?? "";
   const lastSection = sections.at(-1)?.sectionNo ?? "";
@@ -127,17 +137,6 @@ function localizedLawTitle(law, languageCode) {
     cleanTitle(firstSourceTitle(law, languageCode)) ||
     neutralLawLabel(law)
   );
-}
-
-function sourcesForLanguage(law, languageCode) {
-  const sources = law.sources?.[languageCode] ?? [];
-  if (sources.length > 0) {
-    return sources;
-  }
-  if (languageCode === "en") {
-    return law.sources?.en ?? [];
-  }
-  return [];
 }
 
 function escapeYaml(value = "") {

@@ -166,9 +166,18 @@ function HomeView({ catalog, selectedLanguage }) {
                     <td>{law.actYear}</td>
                     <td>{law.actNumber}</td>
                     <td>
-                      <span className={`status ${statusClassForLanguage(languageRecord)}`}>
-                        {textStatusForLanguage(languageRecord, languageCode)}
-                      </span>
+                      {canOpen ? (
+                        <a
+                          className={`status ${statusClassForLanguage(languageRecord)}`}
+                          href={documentHash(languageCode, law.slug, languageRecord.parts[0]?.file)}
+                        >
+                          {textStatusForLanguage(languageRecord, languageCode)}
+                        </a>
+                      ) : (
+                        <span className={`status ${statusClassForLanguage(languageRecord)}`}>
+                          {textStatusForLanguage(languageRecord, languageCode)}
+                        </span>
+                      )}
                     </td>
                     <td><SourceLinks sources={sourcesForLanguage(law, languageCode)} /></td>
                   </tr>
