@@ -17,7 +17,6 @@ Pages: 31 to 41
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1935
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1935/1/A1992-35.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Page 31
 

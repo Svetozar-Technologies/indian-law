@@ -17,30 +17,6 @@ Sections: 193 to 324
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1410
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1410/1/a1957-66.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/rulesindividualfile/&file=Corrigendum+Dt.+Amendment+of+Recruitment+Rules+for+the+Post+of+Public+Health+Inspector%2C+Chief+Public+Health+Inspector+%26+Superintendent+%28Public+Health%29+for+3+Municipal+Corporation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/regulationindividualfile/&file=The+Recruitment+Regulation+for+the+Post+of+Teacher+%28Primary%29%2C+Municipal+Corporation+of+Delhi%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/regulationindividualfile/&file=Recruitment+Regulation+for+the+Post+of+Assistant+Public+Health+Inspector+in+North%2C+South+and+East+Delhi+Municipal+Corporation+%28Amendment%29%2C+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/regulationindividualfile/&file=Assistant+Director+of+Education+%28Physical%29+Recruitment+Regulations%2C+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Delegation+to+Chief+Commissioner+Delhi+under+DMC+ACT%2C+dt+28.09.1961.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Delegation+to+LG+Delhi+under+DMC+Act%2C+dt+19.08.1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Delegation+to+Administrator+of+Delhi+under+DMC+Act%2C+dt%2C+20.04.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Administrator+of+UT+of+Delhi+to+excercise+power+of+Central+Government.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Delegation+under+DMC+Act%2C+1957.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+dated+02.03.1994+under+DMC+Act%2C+1957.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+dated+03.07.2009+under+DMC+Act%2C+1957.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+01.10.2009+reg.+list+of+141+Heritage+Sites+incl.+Heritage+Building+and+Natural+Feature+Area+for+general+Information.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Delgation+to+GNCTD+under+DMC+Act%2C+dt+26.10.2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Amendment+to+Notification+dt+19.10.66%2C+Delegation+of+Powers+and+Rescending+Notification+dated+29.4.67.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+25.02.2010+reg.+list+of+767+Heritage+Sites+incl.+Heritage+Building+and+Natural+Feature+Area+for+general+Information.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+dated+13.01.2012+regarding+appointment+of+date+on+which+DMC+%28Amendment%29+Act%2C+2011+shall+came+into+force..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+dated+20.04.2012+under+the+DMC+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+dated+29.04.2012+regarding+appointment+of+Commissioners+in+three+MCDs.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+Dt.+17.06.2016+reg.+making+of+Unified+Building+Bye+Laws+for+Delhi..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+dated+20.04.2017+under+DMC+Act%2C+1957t.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+dated+16.05.2017+under+DMC+Act%2C+1957.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/notificationindividualfile/&file=Notification+Dt.+21.08.2017+reg.+amendment+in+the+Fourteenth+Schedule+in+respect+of+North+Delhi+Municipal+Corporation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00028_195766_1517807321857/orderindividualfile/&file=Order+dated+11.06.2013+regarding+the+unauthorized+colonies.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 193 - Power of Corporation to consolidate loans.
 

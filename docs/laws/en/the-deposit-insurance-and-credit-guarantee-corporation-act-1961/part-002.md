@@ -17,9 +17,6 @@ Sections: 42 to 51
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1655
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1655/5/a1961-47.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00020_196147_1517807321164/regulationindividualfile/&file=deposit_insurance_and_credit_guarantee_corporation_general_regulations-1961.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00020_196147_1517807321164/regulationindividualfile/&file=deposit_insurance_and_credit_guarantee_corporation_general_%28amendment%29_regulations%2C_2021.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 42 - Protection of action taken under this act.
 

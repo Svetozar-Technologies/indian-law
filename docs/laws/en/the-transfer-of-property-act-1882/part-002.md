@@ -17,7 +17,6 @@ Sections: 63 to 129
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2338
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 63 - Accession to mortgaged property.
 

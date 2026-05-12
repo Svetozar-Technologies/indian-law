@@ -17,14 +17,6 @@ Sections: 1 to 29
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1699
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1699/1/AAA1956___25.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00016_195625_1517807324129/rulesindividualfile/&file=AIIMS+Rules+1958.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00016_195625_1517807324129/regulationindividualfile/&file=AIIMS%28Amendment%29+Regulations+81.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00016_195625_1517807324129/regulationindividualfile/&file=17All_India_Institute_of_Medical_Science_Amendment_R_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00016_195625_1517807324129/regulationindividualfile/&file=20The_All_India_Institute_of_Medical_Science_Amendme_sw-2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00016_195625_1517807324129/regulationindividualfile/&file=15The_All_India_Institute_of_Medical_Science_Amendme_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00016_195625_1517807324129/regulationindividualfile/&file=16The_All_India_Institute_of_Medical_Science_Amendme_sw-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00016_195625_1517807324129/regulationindividualfile/&file=19The_All_India_Institute_of_Medical_Science_Amendme_sw-3.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,27 +17,6 @@ Sections: 1 to 39
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2086
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2086/5/a2009-35.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/rulesindividualfile/&file=RTE+rules%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/rulesindividualfile/&file=RTE+%28Amendment%29+Rules%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/rulesindividualfile/&file=MDMRules2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/rulesindividualfile/&file=rte_amendment_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/rulesindividualfile/&file=MDMAmdRules2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/rulesindividualfile/&file=rte_2nd_amendment%2C_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/rulesindividualfile/&file=rte_%28amendment%29_act_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/rulesindividualfile/&file=mdm-rules_19_amendment.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=Hiv.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=Minimum-Qualification-2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=RTE_TET.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=Minimum-Qualification-2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=Assam+relaxation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=rte_amendment-2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=NAC+compostion.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=28june2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=tripura_notificaiton.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=rte_-amedment%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00006_200935_1517807327595/notificationindividualfile/&file=rte%28amd%29_act%2C2019_wef.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

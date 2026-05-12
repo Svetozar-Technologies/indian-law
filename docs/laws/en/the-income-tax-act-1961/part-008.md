@@ -17,7 +17,6 @@ Pages: 212 to 242
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2435
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2435/1/a1961-43.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Page 212
 

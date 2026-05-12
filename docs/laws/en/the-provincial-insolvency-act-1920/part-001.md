@@ -17,7 +17,6 @@ Sections: 1 to 83
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19723
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19723/1/a1920-05.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

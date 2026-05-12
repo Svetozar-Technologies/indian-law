@@ -17,30 +17,6 @@ Sections: 1 to 18
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2301
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2301/1/A1884-04.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=ExplosivesRules_2008_0+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=65_e.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=amonium+nitrate+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=Ammonium+Nitrate+Amendment+rules+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=469_e.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=4_gsr_772%28e%29-11.12.2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=GCR_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=SMPV_RULES_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=2_gsr_189%28e%29-27.02.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=3_gsr231%28e%29-15.03.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=2_gsr_388_%28e%29-20.04.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=3_gsr_398_%28e%29_-_27.09.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=8_gsr_17%28e%29-09.01.2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=4_gsr_44%28e%29-23.01.2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/rulesindividualfile/&file=3_gsr_148_%28e%29-25.02.2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/notificationindividualfile/&file=GSR+625%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/notificationindividualfile/&file=gsr_59%28e%29_dated_21.1.2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/notificationindividualfile/&file=gsr_530%28e%29_dated_20.8.2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/notificationindividualfile/&file=gsr_88%28e%29_dated_13.02.2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/notificationindividualfile/&file=8+Notification_delegation_of_powers_to_JS-Expls.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/notificationindividualfile/&file=gsr_363%28e%29_dated_06.05.2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/notificationindividualfile/&file=manufacture_Nitroglycerine_14December2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00011_188404_1523272950845/orderindividualfile/&file=22%2836%29_order.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title
 

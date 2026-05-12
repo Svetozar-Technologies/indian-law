@@ -17,30 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1398
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1398/1/A1959_54.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=Arms+Rule+1962.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=Arms+Rules%2C+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=215106.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=216103.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/rulesindividualfile/&file=222331.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=GSR+904+CAPFs+Arms+Act.PDF
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=notification_1988_04_08_2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=1988%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=Arms+Rules+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=notification_firearms_replica16_02_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=Delegation+of+power.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=Exemption+in+licence+fees.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=amendment_in_fee_structure%2C_setting_up_of_multi_unit_facility%2C_lifetime_validity_of_licence_issued_in_form_vii_to_manufacturers_etc..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=notification_28112017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=delegation_of_powers_for_import_of_small_arms..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=g.s.r._644_%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=g.s.r._741%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=amendment_of_form_x_pertaining_to_export_of_firearms..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=delegation_of_powers_of_import_and_export_of_small_arms..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=supersession_of_notification_s.o_1636_%28e%29_dated_19.05.17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=216102.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=201579.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00014_195954_1517807322009/notificationindividualfile/&file=213491.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

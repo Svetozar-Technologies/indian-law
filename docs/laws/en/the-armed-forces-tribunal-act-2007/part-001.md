@@ -17,37 +17,6 @@ Sections: 1 to 43
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2077
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2077/1/A2007-55.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=aft_act_2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=investigation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=financial.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=aft_1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=showrulefile_1_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=salaries.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=exemption-upsc-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=pprules_1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=rrsc.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=group-b.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=group-a.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=rrsaccountscadre.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/rulesindividualfile/&file=amendment-2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=Appointed+day+AFT-Notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=aft-estt-day11.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=aft-jaipur11.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=aftlucknow_122.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=aftchandigarh_344.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=aft-kolkata_1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=aftkochi_3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=Guwahati-notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=mumbai-notification_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=aft_chennai.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=163120.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=jabalpur-notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=Srinagar-notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=jabalpur.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=srinagar.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/notificationindividualfile/&file=the_tribunals_reforms_act%2C_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00013_200755_1517807323574/orderindividualfile/&file=removal.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

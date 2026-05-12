@@ -17,10 +17,6 @@ Sections: 1 to 40
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2062
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2062/4/a2007-54.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00005_200754_1517807322639/rulesindividualfile/&file=RGIPTGAZETTE_0.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00005_200754_1517807322639/notificationindividualfile/&file=RGIPTGAZETTE_0.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00005_200754_1517807322639/statuteindividualfile/&file=Rgipt+1st+Statutes_14may2013.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

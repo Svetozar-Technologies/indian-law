@@ -17,11 +17,6 @@ Sections: 1 to 8
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1763
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1763/1/A1948-41.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00033_194841_1517807325277/rulesindividualfile/&file=Diplomatic+and+consular+officers+Fees+rules+1949_Eng_Hindi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00033_194841_1517807325277/rulesindividualfile/&file=The+Diplomatic+and+Consular+Officers+%28Fee%29+Amendment+Rules%2C+2001+20.12.2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00033_194841_1517807325277/rulesindividualfile/&file=The+Diplomatic+and+Consular+Officers+%28Fees%29+Amendment+Rules%2C+2007+%2828-03-2007%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00033_194841_1517807325277/rulesindividualfile/&file=The+Diplomatic+and+Consular+Officers+%28Fees%29+Amendment+Rules%2C+2017+%2816-08-2017%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

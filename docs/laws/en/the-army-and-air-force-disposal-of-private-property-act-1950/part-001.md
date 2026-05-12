@@ -17,8 +17,6 @@ Sections: 1 to 17
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2029
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2029/1/A1950-40.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00019_195040_1517807326187/rulesindividualfile/&file=The+Army+and+Air+Force+%28Disposal+of+Private+Property%29+Rules%2C+1953.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

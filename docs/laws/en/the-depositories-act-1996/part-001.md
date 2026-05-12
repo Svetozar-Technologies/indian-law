@@ -17,10 +17,6 @@ Sections: 1 to 31
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1955
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1955/1/A1996_22.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00013_199622_1517807323191/rulesindividualfile/&file=Depositories+%28Appeal+to+Central+Government%29+Rules%2C+1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00013_199622_1517807323191/rulesindividualfile/&file=Depositories+%28Appeal+To+Securities+Appellate+Tribunal%29+Rules%2C+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00013_199622_1517807323191/rulesindividualfile/&file=Depositories+%28Procedure+for+Holding+Inquiry+and+Imposing+Penalties+by+Adjudicating+Officer%29+Rules%2C+2005.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

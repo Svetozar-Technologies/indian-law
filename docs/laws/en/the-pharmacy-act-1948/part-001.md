@@ -17,19 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1364
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1364/1/A1948-08.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=3.+The+Education+Regulations%2C+1991.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=10.The+Education+%28Amendment%29+Regulations%2C+1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=2.+The+Pharmacy+Council+of+India+Regulation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=4.+The+Pharm.D.+Regulations+2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=13The_Pharmacy_Council_of_India_Regulations_Curbing__sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=12.The+Pharm+D+%28Amendment%29+Regulations%2C+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=11.+The+Education+%28Amendment%29+Regulations%2C+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=8.+The+Minimum+Qualification+for+Teachers+in+Pharmacy+Institutions+Regulations%2C+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=5.+The+Master+of+Pharmacy+%28M.Pharm%29+Course+Regulations+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=6.+The+Bachelor+of+Pharmacy+%28B.Pharm%29+Course+Regulations%2C+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=7.+The+Bachelor+of+Pharmacy+%28Practice%29+Regulations%2C+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00008_194808_1517807321458/regulationindividualfile/&file=9.+The+Pharmacy+Practice+Regulations%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,18 +17,6 @@ Sections: 1 to 44
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2109
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2109/1/201039.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/regulationindividualfile/&file=The+Nalanda+University+Financial+Regulations%2C+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/notificationindividualfile/&file=The+Nalanda+University+Notification+on+Priveleges+and+Immunities+for+the+Staff+and+their+family+Members.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/orderindividualfile/&file=Power+to+remove+difficulties+Order%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/orderindividualfile/&file=Nalanda+University+Order+-+2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/orderindividualfile/&file=The+Nalanda+University+%28Removal+of+Difficulties%29+Order%2C+2013+%2821.11.2013%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/orderindividualfile/&file=The+Nalanda+University+Order+-+4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/ordinanceindividualfile/&file=The+Nalanda+University+First+Ordinances%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/statuteindividualfile/&file=The+Nalanda+University+Statutes%2C+2012+%2831.03.2012%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/statuteindividualfile/&file=Amendment+to+The+Nalanda+University+Statutes%2C+2012+%2806.02.2014%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/statuteindividualfile/&file=Amendment+to+The+Nalanda+University+Statutes%2C+2012+%2803.03.2014%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00019_201039_1517807327409/statuteindividualfile/&file=statute-4.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,11 +17,6 @@ Sections: 1 to 35
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/11413
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/11413/1/A2019-17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_442_eng.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_464_english.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_470_english.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00012_A2019-17_1564468638143/rulesindividualfile/&file=ndiac_469_english.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

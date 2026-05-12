@@ -17,31 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1415
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1415/5/A1964-37.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/rulesindividualfile/&file=the_food_corporation_act_rules%2C_1965_-_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/regulationindividualfile/&file=the_food_corporation_regulation%2C_1965_as_on_19.05.2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/regulationindividualfile/&file=contributory_provident_fund_regulation_manual_on_provident_fund_account_-_regulation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/regulationindividualfile/&file=FCI+Staff+Regulations.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/regulationindividualfile/&file=fci_%28staff%29_regulations%2C_1971_amended_upto_31.03.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=Circulars+on+Benevolent+Fund+EFCSSS+and+Natural+Calamity+Fund.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=TA+DA+circular.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=Revision+of+Allowances+of+Cat.I+and+II.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=revision_of_pay_scale_and_allowances_of_cat._iii___iv.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=revision_of_daily_allowance_cat._ii_and_agm.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=revision_of_daily_allowance_of_cat.iii_and_iv.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=revision_of_allowance_dgm_and_above.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.ep-24-2012-25_-_dt_25.10.2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=transfer_policy_guidelines.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.ep-24-2015-18_dt_11_sept.%2C_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=Defined+Contributory+Pension+Scheme.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=post_retirement_scheme.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_ep-12-2016-23_introduction_of_prms_-_dt_30.12.2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.ep-24-2018-21_dt._24th_sept.%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.24-2018-23_dated_24.09.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.ep-13-2018-24_dt_18.10.18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.ep-13-2020-07_dt_28.01.20.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.ep-03-2021-06_dt_22.03.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00001_196437_1517807322282/circularindividualfile/&file=circular_no.ep-03-2021-37_dt_15th_dec.%2C_2021.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,9 +17,6 @@ Sections: 1 to 21
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2149
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2149/1/a2016-30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00011_201630_1517807328179/rulesindividualfile/&file=Anti+Hijacking+Rules%2C+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00011_201630_1517807328179/notificationindividualfile/&file=anti-hijacking_act_notification.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

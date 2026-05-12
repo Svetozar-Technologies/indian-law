@@ -17,18 +17,6 @@ Sections: 41 to 98
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1392
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1392/1/A1970-39.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/rulesindividualfile/&file=The-Patents-Rules-2003-Updated-till-23-June-2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/rulesindividualfile/&file=patent2006+searchable.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/rulesindividualfile/&file=The+Patents+%28Amendment%29+Rules%2C+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/rulesindividualfile/&file=Patents+Amendment+Rules+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/rulesindividualfile/&file=Patents+Amendment+Rules+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/rulesindividualfile/&file=PAtents+Amendment+Rules+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/rulesindividualfile/&file=Patents+Amendment+Rules+2017+n.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/rulesindividualfile/&file=patents_amendment_rules_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/rulesindividualfile/&file=corrigendum_in_respect_of_patents_amendment_rules_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/notificationindividualfile/&file=patents_%28amendment_%29rules_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00002_197039_1517807321764/notificationindividualfile/&file=patents_%282nd_amendment%29_rules%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 41 - Finality of orders of Controller and Central Government.
 

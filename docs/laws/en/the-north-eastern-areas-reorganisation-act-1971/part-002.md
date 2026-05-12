@@ -17,7 +17,6 @@ Sections: 61 to 88
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1534
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1534/1/A1971-81.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 61 - Provisions relating to All-India Services.
 

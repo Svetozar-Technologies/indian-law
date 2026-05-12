@@ -17,11 +17,6 @@ Sections: 121 to 126
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2249
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2249/1/A2017-10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00024_201710_1517807327874/rulesindividualfile/&file=CMHA+MHRB+Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00024_201710_1517807327874/rulesindividualfile/&file=Rights+Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00024_201710_1517807327874/rulesindividualfile/&file=SMHA+Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00024_201710_1517807327874/notificationindividualfile/&file=MHA+2017+notification.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 121 - Power of Central Government and State Governments to make rules
 

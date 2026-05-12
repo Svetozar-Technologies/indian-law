@@ -17,19 +17,6 @@ Sections: 1 to 65
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2046
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2046/4/a2003-18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/rulesindividualfile/&file=Biodiversity+Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/rulesindividualfile/&file=bd_rules_2024_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/rulesindividualfile/&file=bd_rule_original-2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/regulationindividualfile/&file=7++collaborative+guidelines.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/regulationindividualfile/&file=Gazette_Notification_of_ABS_Guidlines.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/regulationindividualfile/&file=Gazette_Notificaiton_on_exemption_of_crops_listed_in+the_Annex-I_of_the_ITPGRFA.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/regulationindividualfile/&file=abs_regulations_2025_%285%29-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/notificationindividualfile/&file=6++Sec+3-7+18+47.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/notificationindividualfile/&file=Notification_of_Normally_Tradeded_Commidities_dt_7_April_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/notificationindividualfile/&file=NTC_amendments_S.O.1352.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/notificationindividualfile/&file=corrigendum_1_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_000010_200318_1517807327125/notificationindividualfile/&file=notification_bd_act%2C_2023.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

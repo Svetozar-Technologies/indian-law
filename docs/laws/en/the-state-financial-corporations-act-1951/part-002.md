@@ -17,7 +17,6 @@ Sections: 32 to 49
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2018
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2018/1/aA1951-63.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 32 - Procedure of district judge in respect of applications under section 31.
 

@@ -17,10 +17,6 @@ Sections: 1 to 54
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1464
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1464/1/A1970-53.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00004_197053_1517807317961/notificationindividualfile/&file=Appointed+day+for+the+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00004_197053_1517807317961/orderindividualfile/&file=The+State+of+Himachal+Pradesh+%28Removal+of+Difficulties%29+order+No+1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00004_197053_1517807317961/orderindividualfile/&file=Status+of+deputationist+on+the+appointed+day.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

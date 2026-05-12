@@ -17,10 +17,6 @@ Sections: 1 to 48
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1917
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1917/1/200016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00003_200016_1517807322629/rulesindividualfile/&file=des_rule_0.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00003_200016_1517807322629/rulesindividualfile/&file=Amendment+Rule+2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00003_200016_1517807322629/rulesindividualfile/&file=Design+Amendment+Rules+2014.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

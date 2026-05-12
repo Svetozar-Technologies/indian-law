@@ -17,7 +17,6 @@ Sections: 1 to 80
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/20063
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/20063/1/aa202347.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, application and commencement.
 

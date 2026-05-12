@@ -17,20 +17,6 @@ Sections: 1 to 25
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2024
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2024/1/200529.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/rulesindividualfile/&file=Private+Security+Agencies+Central+Model+Rules%2C+2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/rulesindividualfile/&file=Corrigendum+to+Model+Rules+2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/rulesindividualfile/&file=the+Private+Security+Agencies+%28Private+Security+to+Cash+Transportation+Activities%29+Rules%2C+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/rulesindividualfile/&file=psa_central_model_rules%2C_2020_english.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/hindirulesindividualfile/&file=psa_central_model_rules%2C_2020_hindi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=Enforcement+of+PSAR+Act-Mandatory+training+to+guards-+dated+07.09.2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=Advisory+on+issue+of+PSARA+license+within+time+frame.+dated+28.06.2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=Clarification+dated+11.01.2018+regarding+training.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=MHA+Advisory+dated+11.05.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=MHA+Advisory+dated+11.05.2018.Hindi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=MHA+Advisory+dated+30.05.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=MHA+Advisory+dated+30.05.2018...Hindi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00022_200529_1517807325940/circularindividualfile/&file=Clarification+regarding+License+No.+in+training+certificates-+dated+22.06.2018.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

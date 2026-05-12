@@ -17,7 +17,6 @@ Sections: 161 to 164
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/16823
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/16823/1/aA2020-36.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 161 - Effect of laws and agreements inconsistent with this code.
 

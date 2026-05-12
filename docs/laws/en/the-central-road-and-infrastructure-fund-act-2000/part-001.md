@@ -17,10 +17,6 @@ Sections: 1 to 15
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1931
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1931/1/A2000-54.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00004_200054_1517807323465/rulesindividualfile/&file=CRF+rules%2C+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00004_200054_1517807323465/rulesindividualfile/&file=CRF+Amendment+Rules%2C+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00004_200054_1517807323465/rulesindividualfile/&file=CRF+Amendment+Rules%2C+2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

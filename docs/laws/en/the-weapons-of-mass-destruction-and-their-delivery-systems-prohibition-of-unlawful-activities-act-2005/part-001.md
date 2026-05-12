@@ -17,10 +17,6 @@ Sections: 1 to 27
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2017
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2017/1/a2005-21.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00016_200521_1517807325143/rulesindividualfile/&file=The+Weapons+of+Mass+Destruction+and+their+Delivery+Systems%2C+Appointment+of+Advisory+Committees+and+their+Powers+and+Duties+Rules%2C+2006+%28WMD+Rules+2006%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00016_200521_1517807325143/rulesindividualfile/&file=WMD+Rules+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00016_200521_1517807325143/regulationindividualfile/&file=the_foreign_trade_development_regulation_amendment_act_2010_august_19_2010.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

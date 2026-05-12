@@ -17,11 +17,6 @@ Sections: 1 to 20
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1471
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1471/3/A1962-49.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00005_196249_1517807318076/notificationindividualfile/&file=Extension+of+the+Criminal+Law+Amendment+Act%2C+1932+to+Puducherry+Dt.+07.02.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00005_196249_1517807318076/notificationindividualfile/&file=Extension+of+the+Public+Servants+%28Inquires%29+Act%2C+1850+to+Puducherry+Dt.+07.02.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00005_196249_1517807318076/notificationindividualfile/&file=Extension+of+the+Tamil+Nadu+Debt+Relief+Act%2C+1976+to+Puducherry+Dt.+03.12.1976.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00005_196249_1517807318076/notificationindividualfile/&file=Extension+of+the+Tamil+Nadu+Relief+Undertakings+%28Special+Provisions%29+Act%2C+1969+to+Puducherry+Dt.+13.01.1984.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

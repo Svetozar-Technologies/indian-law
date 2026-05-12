@@ -17,9 +17,6 @@ Sections: 1 to 5
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1995
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1995/1/A1999-05.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00004_199905_1517807323998/rulesindividualfile/&file=THE+LEADERS+AND+CHIEF+WHIPS+OF+RECOGNISED+PARTIES+Rule.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00004_199905_1517807323998/hindirulesindividualfile/&file=hindi_the_leaders_and_chief_whip_of_recognised_parties_and_groups_in_parliament_%28facilities%29_act%2C_1998_and_rules_made_thereunder_%28as_amended_up_to_december%2C_2000%29-7-8.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

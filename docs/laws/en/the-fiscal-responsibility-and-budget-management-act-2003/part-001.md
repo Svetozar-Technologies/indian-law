@@ -17,14 +17,6 @@ Sections: 1 to 13
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2064
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2064/1/a2003-39.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00031_200339_1517807322918/rulesindividualfile/&file=frbm_rules_2004_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00031_200339_1517807322918/rulesindividualfile/&file=3_frbm+%28Amend%29+Rules+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00031_200339_1517807322918/rulesindividualfile/&file=5_frbm+%28Amend%29+Rules+2012+published.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00031_200339_1517807322918/rulesindividualfile/&file=6_frbm_%28amend%29_rules_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00031_200339_1517807322918/rulesindividualfile/&file=8_frbm+%28Amend%29+Rules%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00031_200339_1517807322918/rulesindividualfile/&file=9_frbm+%282nd+Amendment%29+Rules+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00031_200339_1517807322918/rulesindividualfile/&file=11_notification_frbm_rules_2004_%28amdendment%29%2C_2018_%2802_02_2018%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

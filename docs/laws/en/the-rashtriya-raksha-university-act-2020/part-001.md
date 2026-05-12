@@ -17,11 +17,6 @@ Sections: 1 to 53
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/15619
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/15619/1/AAA2020____31.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00048_202031_1602487878914/rulesindividualfile/&file=the_rashtriya_raksha_university_rules%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00048_202031_1602487878914/notificationindividualfile/&file=appointment_of_vice_chancellor_for_rru.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00048_202031_1602487878914/notificationindividualfile/&file=notification-for_effective_date.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00048_202031_1602487878914/notificationindividualfile/&file=appointment_of_members_of_governing_body_for_rru.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

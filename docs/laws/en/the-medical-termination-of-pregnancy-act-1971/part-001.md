@@ -17,9 +17,6 @@ Sections: 1 to 8
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1593
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1593/1/197134.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00006_197134_1517807320428/rulesindividualfile/&file=MTP+Rules+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00006_197134_1517807320428/regulationindividualfile/&file=MTP+Regulations.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

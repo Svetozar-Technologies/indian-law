@@ -17,7 +17,6 @@ Sections: 180 to 231
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1972
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1972/1/199443.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 180 - Service of notice.
 

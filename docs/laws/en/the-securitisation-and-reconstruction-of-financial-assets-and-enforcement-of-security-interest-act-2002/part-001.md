@@ -17,20 +17,6 @@ Sections: 1 to 18B
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2006
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2006/1/A2002-54.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=security_interest_%28enforcement%29_rules%2C_2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=SARFAESI.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=Security+Interest+%28Enforcement%29+Amendment+Rules%2C+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=SARFAESI+%28Central+registry%29+Rules%2C2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=The+SARFAESI+%28Central+Registry%29+Amendment+Rules%2C+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/rulesindividualfile/&file=NOTIFICATION_DATED_22.1.2016_RELATED_TO_RULES_UNDE_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=notification_co-operative_banks_28_1_2003e_86_2011_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=removal_of_difficulties_order+6.4.2004_SARFAESI_E_360__sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=cersaiE_15.5.13_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=Enforcment_of_Sections_sw+1.9.2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=section_enforcement_2_sw_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=Delegation_of_Powers_Notification_sw+27.12.2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00037_200254_1517807324604/notificationindividualfile/&file=section_20_and_21_sw_2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

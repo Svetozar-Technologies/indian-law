@@ -17,15 +17,6 @@ Sections: 51 to 58
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1546
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1546/1/A1963-20.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/rulesindividualfile/&file=The+Rules+of+Business+of+the+Government+of+Pondicherry%2C+1963.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/rulesindividualfile/&file=Consolidated+Fund+of+the+Union+Territory+of+Pondicherry+Rules%2C+1963.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/rulesindividualfile/&file=Business+of+the+Government+of+Pondicherry+%28Allocation%29+Rules%2C+1963.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/rulesindividualfile/&file=Administrator%27s+Rule+for+the+Pondicherry+Legislative+Assembly.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/rulesindividualfile/&file=Business+of+the+GoBusiness+of+the+Government+of+Pondicherry+%28Allocation%29+Amendment+Rules%2C+1985.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/rulesindividualfile/&file=Members+of+Pondicherry+Legislative+Assembly+%28Disqualification+on+ground+of+Defection%29+Rules%2C+1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/notificationindividualfile/&file=Notification+dated+23.03.2005+under+the+Government+of+Union+Territories+Act%2C+1963.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00002_196320_1517807317637/notificationindividualfile/&file=Notification+dated+19.04.2007+under+the+Government+of+Union+Territories+Act%2C+1963.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 51 - Provision in case of failure of constitutional machinery.
 

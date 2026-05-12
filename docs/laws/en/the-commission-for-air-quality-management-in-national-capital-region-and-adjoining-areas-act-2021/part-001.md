@@ -17,42 +17,6 @@ Sections: 1 to 31
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/16898
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/16898/1/A2021-29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=notification_service_rules_of_chairperson%2C_ms_27_aug_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=notification_manner_of_taking_sample_14_oct_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=notification_amendment_service_rules_chairperson%2C_ms_26_oct_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=notification_annual_statement_04_may_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=caqm_rr_notification_11_jul_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=caqm_rr_notification_amendment_06_oct_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=manner_of_removal_21_feb_2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=cs%28ma%29_amendment_rules_notification_21_feb_2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=sitting_fee_rules_for_non_official_members_21_feb_2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=other_associated_members_rules_21_feb_2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/rulesindividualfile/&file=caqm_ec_rules_28_april_2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/regulationindividualfile/&file=notification_conduct_of_business_17_sept_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/regulationindividualfile/&file=notification_annual_report_12_may_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=05.11.2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=17.2.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=23.4.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=s.o._23_april_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=27.8.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=13.10.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=25.10.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=s.o._2_dec_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=4.5.2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=19.5.2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=11.7.2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=6.10.2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=s.o._29_dec_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=29.12.2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=21_feb_2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=21.feb.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=21.02.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=21.2.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=28.4.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=26.5.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=19.10.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_0_00011_202129_1629266138666/notificationindividualfile/&file=4.1.2024.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, application and commencement.
 

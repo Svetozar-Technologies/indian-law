@@ -17,7 +17,6 @@ Pages: 56 to 83
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2398
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2398/1/a1934-2.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Page 56
 

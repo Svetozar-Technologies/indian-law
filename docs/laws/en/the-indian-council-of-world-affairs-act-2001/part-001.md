@@ -17,11 +17,6 @@ Sections: 1 to 29
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1950
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1950/1/A2001-29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_000010_200129_1517807322884/rulesindividualfile/&file=ICWA+Rules%2C+2006+%2821.02.2006%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_000010_200129_1517807322884/regulationindividualfile/&file=ICWA+Regulations%2C+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_000010_200129_1517807322884/regulationindividualfile/&file=ICWA+Service+Regulations+Gazzette.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_000010_200129_1517807322884/regulationindividualfile/&file=RR+notification.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

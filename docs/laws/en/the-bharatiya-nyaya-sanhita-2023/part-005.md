@@ -17,7 +17,6 @@ Sections: 331 to 358
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/20062
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a202345.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 331 - Punishment for house-trespass or house-breaking.
 

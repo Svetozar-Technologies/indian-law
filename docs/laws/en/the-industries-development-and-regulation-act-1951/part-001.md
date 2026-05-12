@@ -17,23 +17,6 @@ Sections: 1 to 23
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2118
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2118/1/A1951-65.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/rulesindividualfile/&file=CACPR_1952.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/rulesindividualfile/&file=RLIU_1952.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/rulesindividualfile/&file=DCPR_1952.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/rulesindividualfile/&file=MPR_1979+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO477%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO649%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO655%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO1169%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=S.O.+1386+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO229%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=S.O.+2054.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=S.O.+3025.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO1843%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO2113%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO998%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00006_195165_1517807327166/notificationindividualfile/&file=SO2737%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

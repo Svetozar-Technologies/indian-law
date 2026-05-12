@@ -17,17 +17,6 @@ Sections: 1 to 39
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2119
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2119/1/201325.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/rulesindividualfile/&file=ms_rules_dated_12.12.13-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/hindirulesindividualfile/&file=ms_rules_dated_12.12.13-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=the_prohibition_of_employment_as_manual_scavengers_and_their_rehabilitation_act%2C_2013_gazettee_of_india%2C_extraordinary%2C_1955%2C_part_ii%2C_section_3%2C_page_971.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=the_prohibition_of_employment_as_manual_scavengers_and_their_rehabilitation_act%2C_2013_notification_s.o.2989%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=S.O.89%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=the_prohibition_of_employment_as_manual_scavengers_and_their_rehabilitation_act%2C_2013_notification_s.o.605%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=the_prohibition_of_employment_as_manual_scavengers_and_their_rehabilitation_act%2C_2013_notification_s.o.2008%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=the_prohibition_of_employment_as_manual_scavengers_and_their_rehabilitation_act%2C_2013_notification_s.o476%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=the_prohibition_of_employment_as_manual_scavengers_and_their_rehabilitation_act%2C_2013_notification_s.o.1389%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00008_201325_1517807327789/notificationindividualfile/&file=the_prohibition_of_employment_as_manual_scavengers_and_their_rehabilitation_act%2C_2013_notification_s.o.888%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

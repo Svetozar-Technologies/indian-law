@@ -17,37 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2150
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2150/1/A2016-32.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/regulationindividualfile/&file=regulations_%28pg%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/regulationindividualfile/&file=regulations_%28ug%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance_1-10-4-5.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance-1-to-10-gazette.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance_1-10-7.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance_1-10-8.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance_1-10-9.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance-1-to-10-gazette_%282%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance-1-to-10-gazette_%283%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance_1-10-31-49.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance_1-10-67-82.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=secon_amendment_no-81_dt.15.09.2017_0001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance_1-10-82.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance-16-to-24-gazette-2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance_1-10-3-4_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance-16-to-24-gazette-2018_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance-16-to-24-gazette-2018_%282%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance-16-to-24-gazette-2018_%283%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=ordinance-334-gazette-2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=rr_11_jan_0001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=second_amendment_gazzette_0001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=recruitment-rules-of-the-post-of-comptroller.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=249762-3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=249762-2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=249762-5.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=249762-4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=249762-6-7.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=249762-8.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/ordinanceindividualfile/&file=249762-9-10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00006_201632_1517807328191/statuteindividualfile/&file=act_and_stat.....pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

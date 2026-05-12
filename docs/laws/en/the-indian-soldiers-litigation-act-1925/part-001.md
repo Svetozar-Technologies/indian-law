@@ -17,8 +17,6 @@ Sections: 1 to 15
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2381
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2381/1/A1925-04.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00023_1925_1523345043370/rulesindividualfile/&file=The+Indian+Soldiers+%28Litigation%29+Rules+1938.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

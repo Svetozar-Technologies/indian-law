@@ -17,47 +17,6 @@ Sections: 1 to 45
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1737
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1737/1/197833.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=E_673_2012_012.pdf-+26.04.2001+alignment+Chennai.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=E_76_2011_036.pd+Rajasthan+14.01.2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=E_50_2012_125.pdf-Chennai+alignment+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=E_1082_2012_009.pdf+notitifation+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=E_375_2013_027.pdf-+Underground+metro0+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=E_1884_2013_004.pdf-+Kochi-2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Extension+of+Metro+Railway+Act+to+Lucknow.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=E_2191_2013_003.pdf+Alignment+of+Mumbai+Line-III-2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=157020.pdf-MML-I+alingment+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=159474.pdf-Ahmedabad+metropolitan+areas-2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=161036.pdf-Nagpur+MA-2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=161013.pdf+Phase-I+Hyderabad+aligment-2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Notification+of+Alignment+of+Hyderabad+Metro+Rail+Project.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=161320.pdf-Pune+MA+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Notificaton+of+Aligment+of+Nagpur+Metro.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=161321.pdf+Nagpur+aligment+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Extension+of+Merto+Railway+Act+to+Pune.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=162434.pdf-+Mumbai+MA+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Notification+of+Aligment+of+Navi+Mumbai+Metro+Line-1+Belapur+to+Pendar.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=162567.pdf-+NCR-2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Metro+Alignment+of+Noida-Greater+Noida+Metro+Line+in+respect+of+the+District+Gautam+Budh+Nagar.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Metro+Alignment+of+Kochi+Metro+Corridors+Phase-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Extension+of+Metro+Railways+%28CoW%29+Act+and+Metro+Railway+%28O_amp_M%29+Act+to+Kanpur+and+Varansi+Metropolitan+area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Notification+of+Alignment+of+for+Construction+_amp_+Maintenance+of+Mumbai+Metro+Line-2A+and+7.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Notification+of+Alignment+of+Rapid+Metro+Rail+Gurgaon+from+Sikandarpur+to+NH-8+and+Extension+Rapid+Metro+from+Sikandarpur+to+Sector-56.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Notification+of+Alignment+of+Metro+politan+area+of+Mumbai+Metro+Line-2B+and+Line-4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Vijayawada+notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Notification+of+Alignment+of+Chennai+Metro.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=Notification+of+Alignment+of+Pune+Metro.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=so_95_e_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=so_no_1718.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=2_notification_of_alteration_in_alignment_of_pune_metro_line_3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=3_notification_of_alignment_of_mumbai_metro_line_5.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=4_notification_of_alignment_of_delhi_metro_line_9%2C6%2C8%2C3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=1_notification_of_alteration_in_alignment_of_pune_metro_line_corridor_2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=notification_delhi_ghaziabad_meerut_rrts_corridor_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=1so_no_2819_dt_19_august_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=so_no_2818_dt_19_august_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=so_no_4683_dt_12_december_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00005_197833_1517807325089/notificationindividualfile/&file=229922_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, commencement and application.
 

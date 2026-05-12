@@ -17,7 +17,6 @@ Sections: 1 to 27
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1805
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1805/1/198658.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

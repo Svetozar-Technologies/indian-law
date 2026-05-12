@@ -17,10 +17,6 @@ Sections: 1 to 48
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2374
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2374/1/a1922-08.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00039_192208_1523344160352/regulationindividualfile/&file=04_REGULATIONS+DU.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00039_192208_1523344160352/ordinanceindividualfile/&file=03_Ordinances+du.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00039_192208_1523344160352/statuteindividualfile/&file=02_Statutes+DU.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

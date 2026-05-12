@@ -17,13 +17,6 @@ Sections: 1 to 34
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1937
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1937/1/199457.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00013_199457_1517807323443/rulesindividualfile/&file=3Advisory_Committee_Rules_1996_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00013_199457_1517807323443/rulesindividualfile/&file=Prohibition+of+Sex+selection+Rules+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00013_199457_1517807323443/rulesindividualfile/&file=sixmonthtrainingrules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00013_199457_1517807323443/rulesindividualfile/&file=Prohibition+of+Sex+Selection++Rules+1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00013_199457_1517807323443/rulesindividualfile/&file=2.PC-PNDT+RULES+-1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00013_199457_1517807323443/regulationindividualfile/&file=14Central_Supervisory_Board_Transaction_of_Business__sw.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,10 +17,6 @@ Sections: 1 to 48
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2094
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2094/1/200709.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00028_200709_1517807327114/regulationindividualfile/&file=tu_ph.d._regulations_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00028_200709_1517807327114/regulationindividualfile/&file=tu_regulations_for_doctor_of_philosophy--2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00028_200709_1517807327114/ordinanceindividualfile/&file=Tripura+Ordinances+15.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

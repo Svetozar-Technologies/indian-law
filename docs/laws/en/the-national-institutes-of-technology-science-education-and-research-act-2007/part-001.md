@@ -17,20 +17,6 @@ Sections: 1 to 37
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2083
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2083/1/AAA2007__29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/ordinanceindividualfile/&file=iiser_bhopal_ordinances-7-9.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/ordinanceindividualfile/&file=iiser_bhopal_ordinances-3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/ordinanceindividualfile/&file=iiser_bhopal_ordinances-4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/ordinanceindividualfile/&file=iiser_bhopal_ordinances-5.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/ordinanceindividualfile/&file=iiser_bhopal_ordinances-0.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/ordinanceindividualfile/&file=iiser_bhopal_ordinances-11.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/ordinanceindividualfile/&file=iiser_bhopal_ordinances-2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/ordinanceindividualfile/&file=iiser_bhopal_ordinances-10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/ordinanceindividualfile/&file=iiser_bhopal_ordinances-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/statuteindividualfile/&file=NITs+Statutes+Comprehensive.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/statuteindividualfile/&file=first_statutes_of_iisers.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/statuteindividualfile/&file=Comprehensive+Statutes+of+IIEST%2C+Shibpur.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00027_200729_1517807327079/statuteindividualfile/&file=Statutes+of+NIT%2C+Andhra+Pradesh.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

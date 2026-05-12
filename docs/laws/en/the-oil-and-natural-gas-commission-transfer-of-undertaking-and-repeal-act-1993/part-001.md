@@ -17,8 +17,6 @@ Sections: 1 to 12
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1902
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1902/1/A1993-65.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00001_199365_1517807320596/notificationindividualfile/&file=ONGC+Gazette+Notification+28.01.1994.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

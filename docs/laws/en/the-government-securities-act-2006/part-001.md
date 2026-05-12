@@ -17,8 +17,6 @@ Sections: 1 to 35
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2059
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2059/4/a2006-38.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00005_200638_1517807318273/regulationindividualfile/&file=gsr_2007.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, application and commencement.
 

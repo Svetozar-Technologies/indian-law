@@ -17,11 +17,6 @@ Sections: 1 to 32
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2089
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2089/5/A2008-19.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00019_200819_1517807327178/rulesindividualfile/&file=JIPMER-Acr-Rules-Regulations-Soft-Copy.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00019_200819_1517807327178/regulationindividualfile/&file=JIPMER-Acr-Rules-Regulations-Soft-Copy.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00019_200819_1517807327178/regulationindividualfile/&file=21Jawaharlal_Institute_of_Post_Graduate_Medical_Educ_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00019_200819_1517807327178/regulationindividualfile/&file=22Jawaharlal_Institute_of_Post_Graduate_Medical_Educ_sw-1.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

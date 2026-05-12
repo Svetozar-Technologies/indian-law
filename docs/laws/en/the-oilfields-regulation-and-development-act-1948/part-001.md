@@ -17,9 +17,6 @@ Sections: 1 to 14
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1397
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1397/3/A1948-53.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00003_194853_1517807321812/rulesindividualfile/&file=ORD+Rules+and+notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00003_194853_1517807321812/notificationindividualfile/&file=ORD+Rules+and+notification.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

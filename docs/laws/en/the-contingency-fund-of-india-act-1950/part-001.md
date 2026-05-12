@@ -17,8 +17,6 @@ Sections: 1 to 4
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1696
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1696/1/aA1950-49.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00038_195049_1517807324632/rulesindividualfile/&file=Contiingency+Fund+of+India+Rules.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

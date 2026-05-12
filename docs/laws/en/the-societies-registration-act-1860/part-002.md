@@ -17,7 +17,6 @@ Sections: 20 to 20
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2262
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2262/1/AA1860-21.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 20 - To what societies the Act shall apply.
 

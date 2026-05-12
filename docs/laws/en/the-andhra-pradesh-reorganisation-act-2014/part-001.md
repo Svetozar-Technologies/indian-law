@@ -17,7 +17,6 @@ Pages: 1 to 30
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2123
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2123/1/A2014-6E.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Page 1
 

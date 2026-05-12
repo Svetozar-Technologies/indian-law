@@ -17,7 +17,6 @@ Sections: 1 to 50
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19796
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19796/1/a2023-26.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

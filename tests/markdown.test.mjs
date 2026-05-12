@@ -82,7 +82,8 @@ test("renders localized PDF pages with language-specific title and sources", () 
   assert.match(markdown, /source: "https:\/\/example\.test\/hindi\.pdf"/);
   assert.match(markdown, /Pages: 1 to 1/);
   assert.match(markdown, /## Page 1/);
-  assert.doesNotMatch(markdown, /https:\/\/example\.test\/english/);
+  assert.match(markdown, /- html: https:\/\/example\.test\/english/);
+  assert.match(markdown, /- pdf: https:\/\/example\.test\/hindi\.pdf/);
 });
 
 test("does not fall back to English titles for localized Markdown without a usable title", () => {

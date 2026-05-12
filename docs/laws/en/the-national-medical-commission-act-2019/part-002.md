@@ -17,7 +17,6 @@ Sections: 57 to 61
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/11820
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/11820/1/A2019_30.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 57 - Power to make regulations.
 

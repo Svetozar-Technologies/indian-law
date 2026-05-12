@@ -17,9 +17,6 @@ Sections: 1 to 50
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2016
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2016/1/200752.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00019_200752_1517807325078/ordinanceindividualfile/&file=IGNTU+Ordinances.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00019_200752_1517807325078/statuteindividualfile/&file=igntu_statues.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

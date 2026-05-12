@@ -17,9 +17,6 @@ Sections: 1 to 43
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1961
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1961/1/199458.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_000010_199458_1517807323674/ordinanceindividualfile/&file=BBAU22Ordinances2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_000010_199458_1517807323674/statuteindividualfile/&file=BBAU+Statutes.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

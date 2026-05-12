@@ -17,17 +17,6 @@ Sections: 1 to 27
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1490
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1490/1/AA1976__13smugg.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=E-1123-1978-0229-49562.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=15th+November+1980.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=E-0827-1985-0571-35891.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=15th+july+1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=24th+November+1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=E-0395-1994-0026-15151.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=E-0188-1998-0342-6169.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=E-2506-2001-0502-113592.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/rulesindividualfile/&file=gsr+138.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00005_197613_1517807318406/notificationindividualfile/&file=E-1157-1977-0003-50924+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

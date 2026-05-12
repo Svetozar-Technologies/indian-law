@@ -17,24 +17,6 @@ Sections: 1 to 42
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1872
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1872/4/a1986-10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/rulesindividualfile/&file=1.+SpicesBoardAct1986andSpicesBoardRules1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/rulesindividualfile/&file=2.+Cardamom%28LicensingandMarketingRules1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/rulesindividualfile/&file=4.+SpicesBoard%28Meeting%29Rules1992.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/rulesindividualfile/&file=9.+Cardamom%28LicensingandMarketing%29AmendmentRules2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/rulesindividualfile/&file=Recuritment+of+the+Secretary+in+Spices+Board.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/rulesindividualfile/&file=Amendment+to+the+Spices+Board+Rules+and+Regualations.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/rulesindividualfile/&file=cardamom_%28licensing_and_marketing%29_amendent_rules%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/regulationindividualfile/&file=3.+SpicesBoard%28RegistrationofExporters%29Regulations1989.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/regulationindividualfile/&file=6.+SpicesBoard%28QualityMarking%29Regulations1992.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/regulationindividualfile/&file=5.+SpicesBoard-%28ClassificationControlandAppeal%29Regulations1992.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/regulationindividualfile/&file=7.+Spices+Board+%28Registration+of+Exporters%29+Amendment+Regulations+up+to+2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/regulationindividualfile/&file=8.+Spices-Board%28RegistrationofExporters%29Amendment-Regulations2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/regulationindividualfile/&file=10.+Gazette+Notification+of+Exporters+Registration2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/notificationindividualfile/&file=consitution_of_saffron_production_and_export_development_agency.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/notificationindividualfile/&file=constitution_of_spice_development_agency%28s%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/notificationindividualfile/&file=constitution_of_warangal_spice_development_agency.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00009_198610_1517807327250/notificationindividualfile/&file=appointment_of_chairman%2C_spices_board.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

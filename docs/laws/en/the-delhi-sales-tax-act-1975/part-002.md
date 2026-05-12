@@ -17,7 +17,6 @@ Sections: 42 to 75
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1637
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1637/1/197543.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 42 - Power of Commissioner and other authorities to take evidence on oath, etc.
 

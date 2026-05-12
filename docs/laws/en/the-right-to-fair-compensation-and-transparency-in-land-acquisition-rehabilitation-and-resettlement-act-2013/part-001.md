@@ -17,18 +17,6 @@ Sections: 1 to 37
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2121
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2121/1/A2013-30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/rulesindividualfile/&file=RFCTLARR+%28SIA+and+Consent%29+Rules+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/rulesindividualfile/&file=Rules+1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/notificationindividualfile/&file=Right+to+FC%26T+in+LAR%26RA+2013+Gazette+Notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/notificationindividualfile/&file=RFCTLARR+Act%2C+2013+-+Notification+on+9-Feb-2016-2-2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/notificationindividualfile/&file=RFCTLARR+Act%2C+2013+-+Notification+on+9-Feb-2016-1-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/notificationindividualfile/&file=10+5+1+Notification+under+Section+10+on+13-May-2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/notificationindividualfile/&file=10+5+2+-+Notification+under+Section+10+on+13-May-2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/orderindividualfile/&file=rfctlarr_removal_of_difficulties_order_2015_ocr.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/ordinanceindividualfile/&file=rfctlarr_act_%28amendment%29_ordinance%2C_31dec2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/ordinanceindividualfile/&file=rfctlarr_act_%28amendment%29_ordinance%2C3april_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_43_00003_201330_1517807327433/ordinanceindividualfile/&file=rfctlarr_act_%28amendment%29_second_ordinance%2C_30may2015.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

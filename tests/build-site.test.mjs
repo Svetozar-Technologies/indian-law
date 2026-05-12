@@ -241,6 +241,204 @@ test("fetch site build converts cached Hindi PDF source into Markdown", async ()
   }
 });
 
+test("site build publishes clean language source links without India Code help PDFs", async () => {
+  const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-source-links-"));
+  const output = path.join(workspace, "site");
+  const manifest = path.join(workspace, "manifest.json");
+  const languages = path.join(workspace, "languages.json");
+  const regionalSources = path.join(workspace, "regional-sources.json");
+  const sourceUrl = "https://www.indiacode.nic.in/handle/123456789/9999";
+  const englishPdfUrl = "https://www.indiacode.nic.in/bitstream/123456789/9999/1/A2026-1.pdf";
+  const hindiPdfUrl = "https://www.indiacode.nic.in/bitstream/123456789/9999/2/H2026-1.pdf";
+
+  try {
+    await writeFile(
+      languages,
+      `${JSON.stringify(
+        {
+          defaultLanguage: "en",
+          languages: [
+            { code: "en", name: "English", nativeName: "English" },
+            { code: "hi", name: "Hindi", nativeName: "हिन्दी" }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(
+      manifest,
+      `${JSON.stringify(
+        {
+          generatedFrom: [sourceUrl],
+          lastVerified: "2026-05-12",
+          laws: [
+            {
+              slug: "source-hygiene-act",
+              title: "Source Hygiene Act",
+              sourceUrl,
+              sources: {
+                en: [
+                  { kind: "html", url: sourceUrl },
+                  { kind: "pdf", url: englishPdfUrl, title: "Source Hygiene Act" },
+                  { kind: "pdf", url: "https://www.indiacode.nic.in/help/userGuide.pdf", title: "User Guide" }
+                ],
+                hi: [{ kind: "pdf", url: hindiPdfUrl, title: "स्रोत स्वच्छता अधिनियम" }]
+              },
+              sections: [{ sectionNo: "1", title: "Start", content: "English body.", footnotes: "" }],
+              translations: {
+                hi: {
+                  title: "स्रोत स्वच्छता अधिनियम",
+                  sections: [{ kind: "page", sectionNo: "1", title: "Page 1", content: "हिन्दी पाठ", footnotes: "" }]
+                }
+              }
+            }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-12", sources: [] })}\n`);
+
+    await execFileAsync("node", [
+      "scripts/build-site.mjs",
+      "--offline",
+      "--manifest",
+      manifest,
+      "--languages",
+      languages,
+      "--regional-sources",
+      regionalSources,
+      "--output",
+      output
+    ]);
+
+    const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
+    const englishSources = catalog.laws[0].languages.en.sources.map((source) => source.url);
+    const hindiSources = catalog.laws[0].languages.hi.sources.map((source) => source.url);
+    const hindiMarkdown = await readFile(path.join(output, "laws/hi/source-hygiene-act/part-001.md"), "utf8");
+
+    assert.deepEqual(englishSources, [sourceUrl, englishPdfUrl]);
+    assert.deepEqual(hindiSources, [sourceUrl, hindiPdfUrl]);
+    assert.doesNotMatch(hindiMarkdown, /userGuide\.pdf/);
+    assert.match(hindiMarkdown, new RegExp(sourceUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+    assert.match(hindiMarkdown, new RegExp(hindiPdfUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  } finally {
+    await rm(workspace, { recursive: true, force: true });
+  }
+});
+
+test("fetch site build hides a language PDF source after download failure", async () => {
+  const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-failed-pdf-"));
+  const output = path.join(workspace, "site");
+  const cacheDir = path.join(workspace, "cache");
+  const manifest = path.join(workspace, "manifest.json");
+  const languages = path.join(workspace, "languages.json");
+  const regionalSources = path.join(workspace, "regional-sources.json");
+  let pdfRequests = 0;
+  const server = http.createServer((request, response) => {
+    if (request.url === "/hindi.pdf") {
+      pdfRequests += 1;
+      response.writeHead(404, { "content-type": "text/html" });
+      response.end("<html><body><h3>The specified URL is inaccessible at this time.</h3></body></html>");
+      return;
+    }
+
+    response.writeHead(500, { "content-type": "text/plain" });
+    response.end("cached law page should not be requested");
+  });
+
+  try {
+    await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+    const { port } = server.address();
+    const sourceUrl = `http://127.0.0.1:${port}/law`;
+    const hindiPdfUrl = `http://127.0.0.1:${port}/hindi.pdf`;
+    await mkdir(cacheDir, { recursive: true });
+    await writeFile(
+      languages,
+      `${JSON.stringify(
+        {
+          defaultLanguage: "en",
+          languages: [
+            { code: "en", name: "English", nativeName: "English" },
+            { code: "hi", name: "Hindi", nativeName: "हिन्दी" }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(
+      manifest,
+      `${JSON.stringify(
+        {
+          generatedFrom: [sourceUrl],
+          lastVerified: "2026-05-12",
+          laws: [
+            {
+              slug: "failed-hindi-source-act",
+              title: "Failed Hindi Source Act",
+              sourceUrl,
+              sources: {
+                en: [{ kind: "html", url: sourceUrl }],
+                hi: [{ kind: "pdf", url: hindiPdfUrl, title: "Failed Hindi Source Act" }]
+              },
+              sections: []
+            }
+          ]
+        },
+        null,
+        2
+      )}\n`
+    );
+    await writeFile(regionalSources, `${JSON.stringify({ lastVerified: "2026-05-12", sources: [] })}\n`);
+    await writeDataFile(path.join(cacheDir, "failed-hindi-source-act.lino"), {
+      fetchedAt: "2099-01-01T00:00:00.000Z",
+      sourceUrl,
+      completeFetch: true,
+      law: {
+        slug: "failed-hindi-source-act",
+        title: "Failed Hindi Source Act",
+        sourceUrl,
+        sources: {
+          en: [{ kind: "html", url: sourceUrl }],
+          hi: [{ kind: "pdf", url: hindiPdfUrl, title: "Failed Hindi Source Act" }]
+        },
+        sections: [{ sectionNo: "1", title: "Start", content: "Cached English body.", footnotes: "" }]
+      }
+    });
+
+    await execFileAsync("node", [
+      "scripts/build-site.mjs",
+      "--fetch",
+      "--manifest",
+      manifest,
+      "--languages",
+      languages,
+      "--regional-sources",
+      regionalSources,
+      "--cache-dir",
+      cacheDir,
+      "--output",
+      output,
+      "--delay-ms",
+      "0"
+    ]);
+
+    const catalog = await readDataFile(path.join(output, "data/catalog.lino"));
+    const cache = await readDataFile(path.join(cacheDir, "failed-hindi-source-act.lino"));
+    assert.equal(pdfRequests, 3);
+    assert.equal(catalog.laws[0].languages.hi.status, "unavailable");
+    assert.deepEqual(catalog.laws[0].languages.hi.sources, []);
+    assert.equal(cache.law.sources.hi[0].downloadStatus, "failed");
+    assert.match(cache.law.sources.hi[0].lastDownloadError, /HTTP 404/);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+    await rm(workspace, { recursive: true, force: true });
+  }
+});
+
 test("fetch site build falls back to English PDF text when cached HTML sections are empty", async () => {
   const workspace = await mkdtemp(path.join(tmpdir(), "indian-law-english-pdf-"));
   const output = path.join(workspace, "site");

@@ -17,45 +17,6 @@ Sections: 1 to 7
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1527
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1527/1/a1958-28.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=afspa_manipur_old_notifications.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=afspa_assam_old_notifications.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=afspa_nagaland_old_notifications.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=afspa_meghalaya_old_notifications.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=afspa_arunachal_pradesh_old_notifications.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=afspa_tripura_old_notifications.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+the+entire+State+of+Assam+as+distrubed+areaa.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=Tirap%2C+Changlang+and+Longding+districts+of+Arunachal+Pradesh+%27disturbed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=whole+of+State+of+NAgaland+as+disturbed+area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+the+entire+State+of+Assam+disturbed+area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+Tirap%2C+Changlang+and+Longding+districts+of+Arunachal+Pradesh+bordering+Assam+as+%27disturbed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+Tirap%2C+Changlang+and+Longding+districts+of+Arunachal+Pradesh+%27disturbed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+whole+state+of+Nagaland+%27disturbed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=Tirap%2C+Changlang+and+Longding+districts+ofArunachal+Pradesh+as+disturbed+areaTirap%2C+Changlang+and+Longding+districts+ofArunachal+Pradesh+as+disturbed+area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+the+state+of+Assam+as+%27disturbed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+the+whole+state+of+Nagaland+as+%27disturbed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=Tirap%2C+Changlang+and+Longding+districts+of+Arunachal+Pradesh+and+in+the+area+falling+within+the+jurisdiction+of+sixteen+police+stationspolice+out+post+in+districts+of+Arunachal+Pradesh+as+disturbed+area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+the+entire+State+of+Assam+as+%E2%80%98disturbed+area%E2%80%99.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=whole+state+of+Nagaland+%27distrubed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=Tirap%2C+Changlang+and+Longding+districts+in+Arunachal+Pradesh+as+disturbed+areas.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=State+of+Meghalaya+bordering+with+State+of+Assam+as+disturbed+area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+the+areas+falling+within+20+kms+wide+belt+in+the+State+of+Meghalaya+bordering+with+Assam+as+disturbed+area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+the+Tirap%2C+Changlang+and+Longding+districts+as+%E2%80%98disturbed+area%E2%80%99.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+the+Tirap%2C+Changlang+and+Longding+declared+the+Tirap%2C+Changlang+and+Longding+districts+of+Arunachal+Pradesh+as+%27disturbed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declaring+whole+of+State+of+Nagaland+as+disturbed+area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=entire+State+of+Assam+as+%E2%80%98disturbed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=assam_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared_the_tirap%2Cchanglang_and_longding_districts_of_arunachal_pradesh_and_the_area_falling_within_the_jurisdiction_of_8_police_stations_in_the_districts_of_arunachal_pradesh_bordering_state_of_%27assam%27_as_disturbed_area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=declared+the+Tirap%2CChanglang+and+Longding+districts+of+Arunachal+Pradesh++bordering+State+of+Assam+as+%E2%80%98disturbed+area%27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=nagaland_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=manipur_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=arunachal_pradesh_01.04.2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=40_arunachal_march_01.04.24.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/hindinotificationsindividualfile/&file=40_arunachal_march_01.04.24.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=41_assam_notification_27.03.2024.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=32_nagaland_march_24.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=arunachal_march_24.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00003_195828_1517807319490/notificationindividualfile/&file=notification_for_disturbed_area_status_in_manipur-4.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

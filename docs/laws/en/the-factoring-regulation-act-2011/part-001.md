@@ -17,12 +17,6 @@ Sections: 1 to 35
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2116
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2116/4/a2012-12.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/rulesindividualfile/&file=registration_of_assignment_of_receivables_rules_2012_under_factoring_regulation_act_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/rulesindividualfile/&file=registration_of_assignment_of_receivables_%28amendment%29_rules-2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/rulesindividualfile/&file=registration_of_assignment_of_receivables_%28amendment%29_rules-2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/regulationindividualfile/&file=registration_of_assignment_of_receivables_%28reserve_bank%29_regulations-2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00006_201212_1517807327606/regulationindividualfile/&file=registration_of_factors_%28reserve_bank%29_regulations-2022.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,7 +17,6 @@ Sections: 3 to 3
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19028
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19028/1/A1856-18.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 3 - Collector may entrust any part of his duties to his Deputy.
 

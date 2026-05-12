@@ -17,12 +17,6 @@ Sections: 1 to 6
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1414
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1414/1/A2004-01.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=bifr_%28salaries_and_allowances_and_conditions_of_servie_of_chairman_and_other_members%29_rules%2C_1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=bifr_%28financial_and_administrative_powers%29_rules%2C_1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=bifr_%28secretary%27s_powers_and_duties%29_rules%2C_1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=aaifr_%28secretary%27s_powers_and_duties%29_rules%2C_1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00026_200401_1517807322103/rulesindividualfile/&file=aaifr_%28conditions_of_service_of_the_secretary_and_other_officers_and_employees%29_rules%2C_1989.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

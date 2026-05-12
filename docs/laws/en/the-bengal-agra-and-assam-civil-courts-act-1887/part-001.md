@@ -17,8 +17,6 @@ Sections: 1 to 40
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2313
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2313/1/a1887-12.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00027_188712_1523273842065/notificationindividualfile/&file=The+Bengal%2C+Agra_amp_Assam+Civil+Court+Act%2C+1887.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Title, extent and commencement.
 

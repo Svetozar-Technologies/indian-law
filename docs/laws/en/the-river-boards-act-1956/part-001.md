@@ -17,9 +17,6 @@ Sections: 1 to 29
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1659
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1659/1/195649.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00002_195649_1517807321201/rulesindividualfile/&file=river_board_act_rules_river_board_rules_1958.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00002_195649_1517807321201/rulesindividualfile/&file=river_board_act_rules_bansagar_control_board_1979.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

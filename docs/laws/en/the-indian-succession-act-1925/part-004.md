@@ -17,7 +17,6 @@ Sections: 292 to 392
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2385
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2385/1/192539.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 292 - Assignment of administration-bond
 

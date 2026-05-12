@@ -17,7 +17,6 @@ Sections: 1 to 3
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19038
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19038/1/A1854-16.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Sections III. and VII., Regulation XI. 1831, repealed
 

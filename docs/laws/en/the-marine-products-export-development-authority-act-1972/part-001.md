@@ -17,16 +17,6 @@ Sections: 1 to 34
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1665
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1665/1/aA1972-13.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/rulesindividualfile/&file=MPEDA+Rules+Chapter+I+to+VIII.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/regulationindividualfile/&file=MPEDA+Regulations+Chapter+I+to+V.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/notificationindividualfile/&file=1st+gazette.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/notificationindividualfile/&file=2nd+gazete.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/notificationindividualfile/&file=3rd+gazete.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/notificationindividualfile/&file=4th+gazete.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/notificationindividualfile/&file=5th+gazette.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/notificationindividualfile/&file=mpeda_board_22march.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00001_197213_1517807321605/notificationindividualfile/&file=dir_secy.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

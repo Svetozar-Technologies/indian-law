@@ -17,28 +17,6 @@ Sections: 1 to 93
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1734
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1734/1/197830.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/rulesindividualfile/&file=sro_33.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/rulesindividualfile/&file=Coast+Guard+%28General%29+Rules%2C+1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/rulesindividualfile/&file=Coast+Guard+%28Condition+of+Service%29+Rules%2C+1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/rulesindividualfile/&file=Coast+Guard+%28Seniority+and+Promotion%29+Rules%2C1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/rulesindividualfile/&file=Coast+Guard+%28Ceremonial%29+Rules%2C+1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_172.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro4%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_201.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_62.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_98.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_76.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_183.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_86.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_44.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_130.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_133.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_33.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_5.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_49.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00016_197830_1517807325203/notificationindividualfile/&file=sro_27.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

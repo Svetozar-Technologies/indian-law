@@ -17,17 +17,6 @@ Sections: 1 to 11
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2174
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2174/1/A1953-20.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/rulesindividualfile/&file=Advance+for+motor+car++to+Officers+of+Parliament+in+PDF.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/hindirulesindividualfile/&file=officers_moter_car_advance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/rulesindividualfile/&file=TA+DA+to+Officers+of+Parliament+Rulein+PDF.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/hindirulesindividualfile/&file=officers_travelling_and_daily_allowance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/rulesindividualfile/&file=Rent+for+Residence+retained+by+family+after+death+Rule+in+PDF.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/hindirulesindividualfile/&file=officers_rent_for_dependent.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/rulesindividualfile/&file=Medical+facility+Rules+in+PDF.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/hindirulesindividualfile/&file=officers_medical_facility.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/rulesindividualfile/&file=Pension+housing+to+spouse+while+dying+while+holding+such+office.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00007_195320_1517807328417/hindirulesindividualfile/&file=officers_pension_ot_spouse_of_speaker_died_while_serving.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

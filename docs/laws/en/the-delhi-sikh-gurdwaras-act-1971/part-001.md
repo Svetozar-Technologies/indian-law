@@ -17,13 +17,6 @@ Sections: 1 to 41
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1598
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1598/1/A1971-82.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00017_197182_1517807320223/rulesindividualfile/&file=Delhi+Sikh+Gurudawara+Rules%2C+1973.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00017_197182_1517807320223/rulesindividualfile/&file=Election+of+Members+Rules%2C+1974.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00017_197182_1517807320223/rulesindividualfile/&file=Co-option+of+Members+Rules%2C+1974.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00017_197182_1517807320223/rulesindividualfile/&file=Election+of+Pro-Tempore+Chairman%2C+President%2C+other+Member+of+the+Executive+Board+Rules%2C+1974.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00017_197182_1517807320223/notificationindividualfile/&file=Delegation+to+Administrator+Delhi%2C+under+Delhi+Sikh+Gurudwara+dt+03.05.1973.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00017_197182_1517807320223/notificationindividualfile/&file=Delegation+to+Administrator+Delhi%2C+under+Delhi+sikh+gurudwara+dt+15.10.1974.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

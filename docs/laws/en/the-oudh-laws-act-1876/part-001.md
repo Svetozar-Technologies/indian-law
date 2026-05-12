@@ -17,7 +17,6 @@ Sections: 5 to 45
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19217
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19217/1/A1876-18.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 5 - Muhammadan dower contracts how to be enforced.
 

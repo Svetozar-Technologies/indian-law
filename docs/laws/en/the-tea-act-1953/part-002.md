@@ -17,47 +17,6 @@ Sections: 50 to 51
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2175
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2175/1/aA195329.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=1+Tea+Rules%2C+1954.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=2+Tea+Amendment+Rules+19.1.1955.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=5Tea+Amendment+Rules+dt.+22.6.1956.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=4Tea+Amendment+Rules+dt.+20.6.1956.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=6Tea+Amendment+Rules+dt+16.5.1957.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=7Tea+Amendment+Rules+dt+21.1.1958.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=8Tea+Amendment+Rules+dt.20.3.59.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=9Tea+Amendment+Rules+dt+23.3.1961+and+25.3.1961.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=10Tea+Amendment+Rules+dt.24.6.77.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=11Tea+Amendment+Rules+dt.25.4.79.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=12Tea+Amendment+Rules+dt.4.12.86.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=13Tea+Amendment+Rules+dt.+2.3.87.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=14Tea+Amendment+Rules+dt.+30.5.91.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=15Tea+Amendment+Rules+dt.+16.12.92.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=16+Tea+Amendment+Rules+dt+20.2.2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/rulesindividualfile/&file=17Tea+Amendment+Rules+dt.+25.10.2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=1++June+20+1989.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=%281%29+Principal+Rules%2C+1996+dt+14.8.1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=%282%29+Amendment+Rules+dt.13.7.2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=2+July+23+2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=1+January+1+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=2+Feb+28+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=3+April+10+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=4+Feb+27+2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=5+20+Oct+2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=%281%29+Principal+Order+2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=6+July+15+2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=7+April+15+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=8+Oct+1+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=3+Oct+26+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=%282%29+Amendment+Order+dt+25.10.16.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=%283%29+Amendment+Rules+dt.25.10.2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=9+Oct+25+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=10Jan+3+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=tea_warehouses_%28licencing%29_amendment_order%2C_2018_dt.18.5.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=tea_%28marketing%29_control_amendment_order_2018_dt.4.6.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=tea_waste_%28control%29_amendment_order%2C_2018_dt.20.8.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=gazette_copy.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=tea_waste_%28control%29_amendment_order_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_195329_1517807328472/orderindividualfile/&file=tea_%28marketing%29_control_%28amendment%29_order_2020_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 50 - Power of Board to make by-laws.
 

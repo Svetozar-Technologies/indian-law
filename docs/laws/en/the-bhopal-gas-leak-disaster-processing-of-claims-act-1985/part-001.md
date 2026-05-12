@@ -17,32 +17,6 @@ Sections: 1 to 12
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1855
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1855/1/A1985-21.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/rulesindividualfile/&file=bhopal_gas_scheme_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=28_February_1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=30_March_1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=28_September_1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=18_December_1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=5_February_2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=19_July_2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=21_December_2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=22_November_2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=1_April_2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=6_October_2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=8_June_2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=5_May_2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=13_April_2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=24_July_2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=23_November_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=Bhopal_Notification_4th_December.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=13_December_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=12_March_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=6_July_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=17_October_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=DBT_6_March_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=DBT_9_August_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=18_September_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_198521_1517807326754/notificationindividualfile/&file=DBT_18_October_2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,9 +17,6 @@ Sections: 1 to 15
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1945
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1945/1/199364.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00003_199364_1517807322969/rulesindividualfile/&file=notification_dated_08.09.1998-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00003_199364_1517807322969/hindirulesindividualfile/&file=notification_dated_08.09.1998-1.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, application, commencement, duration and savings.
 

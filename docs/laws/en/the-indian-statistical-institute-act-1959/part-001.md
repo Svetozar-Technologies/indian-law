@@ -17,14 +17,6 @@ Sections: 1 to 12
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1425
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1425/1/A1959-57.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00001_195957_1517807322454/notificationindividualfile/&file=constitution_order.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00001_195957_1517807322454/notificationindividualfile/&file=gazette_notification_dated_20.02.2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00001_195957_1517807322454/notificationindividualfile/&file=gazette_notification_dated_05.08.2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00001_195957_1517807322454/notificationindividualfile/&file=amendment_2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00001_195957_1517807322454/notificationindividualfile/&file=amendment.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00001_195957_1517807322454/notificationindividualfile/&file=e-gazette_notification_of_8%28i%29_committee.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00001_195957_1517807322454/notificationindividualfile/&file=gazette_notification_regarding_amendment.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

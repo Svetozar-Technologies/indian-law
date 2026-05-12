@@ -17,15 +17,6 @@ Sections: 1 to 23
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1844
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1844/1/A1984__66.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00019_198466_1517807326692/rulesindividualfile/&file=The+Family+Courts+%28Tamil+Nadu%29+Rules%2C+1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00019_198466_1517807326692/rulesindividualfile/&file=family_courts_rules%2C_1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00019_198466_1517807326692/rulesindividualfile/&file=Family+Courts+%28GHC%29+Rules%2C+1989.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00019_198466_1517807326692/rulesindividualfile/&file=Assam+Family+Courts+Rules%2C+1990.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00019_198466_1517807326692/rulesindividualfile/&file=Family+Court+%28Procedure%29+Rules+1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00019_198466_1517807326692/rulesindividualfile/&file=Family+Courts+%28Patna+High+Court%29%2C+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00019_198466_1517807326692/rulesindividualfile/&file=The+Uttar+Pradesh+Family+Courts+Rules%2C+1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00019_198466_1517807326692/notificationindividualfile/&file=Bombay+Family+Court+Act%2C+1984.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

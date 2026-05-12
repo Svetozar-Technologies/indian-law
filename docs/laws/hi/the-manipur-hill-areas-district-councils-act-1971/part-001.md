@@ -15,6 +15,7 @@ Pages: 1 to 13
 > Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
 
 Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1600
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1600/2/hH_1971-76.pdf
 
 ## Page 1

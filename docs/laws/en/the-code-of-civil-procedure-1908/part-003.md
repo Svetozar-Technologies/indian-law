@@ -17,7 +17,6 @@ Sections: 110 to 158
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2191
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2191/1/aA1908-05.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 110 - [Omitted.].
 

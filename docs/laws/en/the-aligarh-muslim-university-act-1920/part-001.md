@@ -17,9 +17,6 @@ Sections: 1 to 41
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2372
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2372/1/A1920-40.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00038_192040_1523343938865/ordinanceindividualfile/&file=amu_ordinances.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00038_192040_1523343938865/statuteindividualfile/&file=AMU+Statutes.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

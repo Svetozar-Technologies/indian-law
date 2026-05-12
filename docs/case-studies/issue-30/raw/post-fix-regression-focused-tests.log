@@ -1,0 +1,95 @@
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.74935
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.074461
+  ...
+# Subtest: fetch site build converts cached Hindi PDF source into Markdown
+ok 3 - fetch site build converts cached Hindi PDF source into Markdown # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.078858
+  ...
+# Subtest: site build publishes clean language source links without India Code help PDFs
+ok 4 - site build publishes clean language source links without India Code help PDFs
+  ---
+  duration_ms: 316.066606
+  ...
+# Subtest: fetch site build hides a language PDF source after download failure
+ok 5 - fetch site build hides a language PDF source after download failure
+  ---
+  duration_ms: 2400.535966
+  ...
+# Subtest: fetch site build falls back to English PDF text when cached HTML sections are empty
+ok 6 - fetch site build falls back to English PDF text when cached HTML sections are empty # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.231516
+  ...
+# Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+ok 7 - fetch site build resumes an incomplete cached law without redownloading cached sections # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.171475
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 8 - fetch site build writes completed law cache and progress as Lino # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.07355
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 9 - fetch site build writes partial output when the runtime budget is exhausted # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.142793
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 10 - fetch site build records per-law upstream failures as partial output # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.126038
+  ...
+# Subtest: fetch site build runs OCR fallback when a Hindi PDF has no embedded text layer
+ok 11 - fetch site build runs OCR fallback when a Hindi PDF has no embedded text layer # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.101451
+  ...
+# Subtest: fetch site build leaves Hindi PDF as source-only when OCR is not enabled
+ok 12 - fetch site build leaves Hindi PDF as source-only when OCR is not enabled # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.065348
+  ...
+# Subtest: renders a section with content and footnotes
+ok 13 - renders a section with content and footnotes # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.775477
+  ...
+# Subtest: splits only between sections and keeps each part under the requested line budget when possible
+ok 14 - splits only between sections and keeps each part under the requested line budget when possible # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.088411
+  ...
+# Subtest: renders Markdown part metadata and source links
+ok 15 - renders Markdown part metadata and source links
+  ---
+  duration_ms: 0.679554
+  ...
+# Subtest: renders localized PDF pages with language-specific title and sources
+ok 16 - renders localized PDF pages with language-specific title and sources
+  ---
+  duration_ms: 0.42156
+  ...
+# Subtest: does not fall back to English titles for localized Markdown without a usable title
+ok 17 - does not fall back to English titles for localized Markdown without a usable title # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.096774
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 13
+# todo 0
+# duration_ms 2781.228116

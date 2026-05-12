@@ -17,8 +17,6 @@ Sections: 1 to 29
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1735
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1735/1/197522.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_000010_197522_1517807324473/regulationindividualfile/&file=serachable_pdf_rrrl.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

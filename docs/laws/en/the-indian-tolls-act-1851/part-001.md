@@ -17,7 +17,6 @@ Sections: 1 to 8
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2274
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2274/1/a1851-8.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - [Repealed.].
 

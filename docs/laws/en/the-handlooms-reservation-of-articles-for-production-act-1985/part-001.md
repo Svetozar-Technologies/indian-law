@@ -17,9 +17,6 @@ Sections: 1 to 19
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1864
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1864/2/A1985-22.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00013_198522_1517807326816/notificationindividualfile/&file=Gazette+Notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00013_198522_1517807326816/orderindividualfile/&file=order.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

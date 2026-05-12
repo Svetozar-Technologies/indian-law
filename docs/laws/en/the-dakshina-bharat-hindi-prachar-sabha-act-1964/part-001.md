@@ -16,7 +16,6 @@ Sections: 1 to 7
 
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1447
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

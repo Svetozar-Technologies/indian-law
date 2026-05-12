@@ -17,14 +17,6 @@ Sections: 1 to 24
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1514
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1514/1/A1971-70.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00005_197170_1517807319029/rulesindividualfile/&file=THE+RULES+TO+REGULATE+PROCEEDINGS+FOR+CONTEMPT+OF+THE+SUPREME+COURT%2C+1975.PDF
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00005_197170_1517807319029/rulesindividualfile/&file=Rules+to+Regulate+Proceedings+for+Contempt+of+Subordinate+Courts+and+of+the+High+Court.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00005_197170_1517807319029/rulesindividualfile/&file=Contempt+of+Courts+%28GHC%29+Rules%2C+1977+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00005_197170_1517807319029/rulesindividualfile/&file=Contempt+of+Courts+%28CAT%29+Rules%2C+1992.PDF
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00005_197170_1517807319029/rulesindividualfile/&file=Contempt+of+Courts+%28Patna+High+Court%29+Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00005_197170_1517807319029/rulesindividualfile/&file=The+Contempt+of+Court+Act%2C+1971.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00005_197170_1517807319029/rulesindividualfile/&file=contempt_bombay_hc.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

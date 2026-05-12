@@ -17,23 +17,6 @@ Sections: 141 to 230
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2066
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2066/4/A2006-41.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=e_4_2011_072.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=e_5_2012_187.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=goi_n9_vol__dt04112011_hi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=76-38-members-leavecantt-actc-de2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=the_transfer_of_property_in_cantonments_%28form_of_notice_and_manner_of_giving_such_notice%29_rules%2C_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=the_cantonments_%28execution_of_warrants_for_the_attachment_and_sale_of_immovable_property%29_rules%2C_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=the_cantonments_%28forms_and_manner_of_service_of_notice%29_rules%2C_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=the_cantonments_%28form_of_annual_inspection_report%29_rules%2C_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=the_cantonments_%28regulation_of_the_procudure_of_committee_of_arbitration%29_rules%2C_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=the_cantonment_property_rules%2C_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=the_cantonments_%5Bpayment_of_allowances_to_vice_-_president_and_elected_members%29%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=the_cantonment_board_account_rules%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=the_cantonment_board_employees_service_rules%2C_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=clar_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/rulesindividualfile/&file=239965.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00011_200641_1517807323015/notificationindividualfile/&file=Notifications+notified+under+Cantonment+Act%2C+2006+new.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 141 - Special provisions for collection of rubbish and solid waste management.
 

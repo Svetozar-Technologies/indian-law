@@ -17,11 +17,6 @@ Sections: 1 to 54
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/17046
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/17046/1/aaA2021-47.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00002_202147_1643711958603/rulesindividualfile/&file=surrogacy_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00002_202147_1643711958603/rulesindividualfile/&file=surrogacy_%28regulation%29_amendment_rules_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00002_202147_1643711958603/rulesindividualfile/&file=the_surrogacy_amendment_rule%2C_2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00002_202147_1643711958603/regulationindividualfile/&file=surrogacy_regulations_2023.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

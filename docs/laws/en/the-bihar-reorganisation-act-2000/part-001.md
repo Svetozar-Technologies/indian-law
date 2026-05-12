@@ -17,10 +17,6 @@ Sections: 1 to 90
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2001
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2001/1/200030.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00043_200030_1517807324285/notificationindividualfile/&file=Appointed+Day+for+the+purpose+of+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00043_200030_1517807324285/notificationindividualfile/&file=notification_issued_in_exercise_of_the_powers_conferred_under_part_vii%2C_viii_and_ix_of_the_bihar_reorganisation_act%2C_2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00043_200030_1517807324285/notificationindividualfile/&file=sunder_reservoir_project.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

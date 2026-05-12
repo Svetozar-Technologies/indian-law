@@ -17,8 +17,6 @@ Sections: 1 to 38
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2082
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2082/4/a2007-51.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00005_200751_1517807326929/regulationindividualfile/&file=the_payment_and_settlement_systems_regulations-2008.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

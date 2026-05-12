@@ -17,7 +17,6 @@ Sections: 167 to 291
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2385
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2385/1/192539.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 167 - Non-liability of executor to exonerate specific legatees.
 

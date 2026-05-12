@@ -17,15 +17,6 @@ Sections: 1 to 50
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2028
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2028/3/A2003-13.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00008_200313_1517807326137/rulesindividualfile/&file=6.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00008_200313_1517807326137/rulesindividualfile/&file=4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00008_200313_1517807326137/rulesindividualfile/&file=2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00008_200313_1517807326137/rulesindividualfile/&file=5.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00008_200313_1517807326137/rulesindividualfile/&file=3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00008_200313_1517807326137/rulesindividualfile/&file=1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00008_200313_1517807326137/rulesindividualfile/&file=g.s.r._658%28e%29_dt_16.09.2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_30_42_00008_200313_1517807326137/notificationindividualfile/&file=3292_3293_dt_16.09.2019.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

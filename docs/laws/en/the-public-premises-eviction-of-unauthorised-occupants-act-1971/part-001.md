@@ -17,11 +17,6 @@ Sections: 1 to 20
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1609
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1609/1/A1971-40.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00004_197140_1517807320037/rulesindividualfile/&file=Public+Premises%28Eviction+of+Unauthorized+occupants%29+Rules%2C+1971.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00004_197140_1517807320037/rulesindividualfile/&file=Public+Premises%28Eviction+of+Unauthorized+occupants%29+Amendment+Rules+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00004_197140_1517807320037/rulesindividualfile/&file=2_ppe_rules_notification_dated_26-9-19.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00004_197140_1517807320037/notificationindividualfile/&file=Resolution+published+in+Gazette+of+India+vide+Resolution+No.21013-1-2000-Pol.I+dated+30.5.2002.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

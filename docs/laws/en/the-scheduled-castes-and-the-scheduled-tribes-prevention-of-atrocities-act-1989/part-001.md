@@ -17,13 +17,6 @@ Sections: 1 to 23
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1920
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1920/1/aA1989-33.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00002_198933_1517807322896/notificationindividualfile/&file=the_scheduled_castes_and_the_scheduled_tribes_%28prevention_of_atrocities%29_act%2C_1989_notification_s.o.316%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00002_198933_1517807322896/notificationindividualfile/&file=the_scheduled_castes_and_the_scheduled_tribes_%28prevention_of_atrocities%29_act%2C_1989_notification_g.s.r._725%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00002_198933_1517807322896/notificationindividualfile/&file=the_scheduled_castes_and_the_scheduled_tribes_%28prevention_of_atrocities%29_act%2C_1989_notification_g.s.r_416%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00002_198933_1517807322896/notificationindividualfile/&file=the_scheduled_castes_and_the_scheduled_tribes_%28prevention_of_atrocities%29_act%2C_1989_notification_g.s.r_774%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00002_198933_1517807322896/notificationindividualfile/&file=the_scheduled_castes_and_the_scheduled_tribes_%28prevention_of_atrocities%29_act%2C_1989_notification_s.o.424%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00002_198933_1517807322896/notificationindividualfile/&file=the-scheduled-castes-and-the-scheduled-tribes-prevention-of-atrocities-amendment-rules-2018_20180627-231-00430-00000.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

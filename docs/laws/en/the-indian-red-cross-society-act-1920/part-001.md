@@ -17,10 +17,6 @@ Sections: 1 to 13
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2368
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2368/1/AAAA1920____15.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_192015_1523343659114/rulesindividualfile/&file=Red+Cross+Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_192015_1523343659114/rulesindividualfile/&file=uniform_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_192015_1523343659114/rulesindividualfile/&file=The+Gazzette+of+India07242018172651.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

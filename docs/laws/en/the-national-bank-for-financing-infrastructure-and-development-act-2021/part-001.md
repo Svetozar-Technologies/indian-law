@@ -17,12 +17,6 @@ Sections: 1 to 48
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/16802
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/16802/1/A2021-17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00047_202117_1619088293867/rulesindividualfile/&file=national_bank_for_financing_infrastructure_and_development_general_rules%2C_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00047_202117_1619088293867/rulesindividualfile/&file=national_bank_for_financing_infrastructure_and_development_general_%28amendment%29_rules%2C_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00047_202117_1619088293867/regulationindividualfile/&file=national_bank_for_financing_infrastructure_and_development_general_regulations%2C_2022..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00047_202117_1619088293867/notificationindividualfile/&file=f._nabfid_income_tax_exemption_notification..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00047_202117_1619088293867/orderindividualfile/&file=national_bank_for_financing_infrastructure_and_development_%28removal_of_difficulties%29_order%2C_2021.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

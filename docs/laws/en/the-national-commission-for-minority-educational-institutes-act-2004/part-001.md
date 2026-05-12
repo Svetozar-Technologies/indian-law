@@ -17,15 +17,6 @@ Sections: 1 to 26
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1897
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1897/1/A2005-2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00003_200502_1517807320310/rulesindividualfile/&file=2226d796-d8f2-48d0-b04f-494218aa0a7c.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00003_200502_1517807320310/rulesindividualfile/&file=0195104f-b574-4348-bb7e-232c379ef5d1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00003_200502_1517807320310/rulesindividualfile/&file=3b92da8d-87cb-4282-a279-5961e7698aff.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00003_200502_1517807320310/rulesindividualfile/&file=35474b33-c146-4050-af4d-ca45f1f9118e.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00003_200502_1517807320310/rulesindividualfile/&file=c444e992-ee52-465a-a4d8-7766493b4f7d.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00003_200502_1517807320310/rulesindividualfile/&file=accounting+rules+16abeebbc-9d7f-4b81-9264-a6bc1f622c11.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00003_200502_1517807320310/notificationindividualfile/&file=d18e524327-031d-4754-8abd-5eb90e4bbceb.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00003_200502_1517807320310/notificationindividualfile/&file=d2c9b868ce-edd8-4f77-bbb5-63f4492461db.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

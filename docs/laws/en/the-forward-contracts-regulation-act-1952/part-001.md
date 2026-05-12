@@ -17,8 +17,6 @@ Sections: 1 to 29B
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2163
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2163/1/A1952-74.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00011_195274_1517807328287/rulesindividualfile/&file=FCRRules1954.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,19 +17,6 @@ Sections: 1 to 38
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1668
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1668/1/AAa52__1961.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/rulesindividualfile/&file=cac_rules_1962.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/rulesindividualfile/&file=amendement_to_central_apprentceship_rules_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/rulesindividualfile/&file=apprenticeship_rules_1992%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/rulesindividualfile/&file=200151.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/rulesindividualfile/&file=central_apprenticeship_council.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/circularindividualfile/&file=final_guidelines_naps.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/circularindividualfile/&file=ammendment-all_india_trade_test_for_apprentices.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/notificationindividualfile/&file=gazette_notification_dt.25.9.2019-amendment_in_apprenticeship_rules%2C_1992.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/notificationindividualfile/&file=204885.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/orderindividualfile/&file=group_of_industry.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/orderindividualfile/&file=modelcontractform.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00016_196152_1517807321778/orderindividualfile/&file=ammendment-all_india_trade_test_for_apprentices.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, commencement and application.
 

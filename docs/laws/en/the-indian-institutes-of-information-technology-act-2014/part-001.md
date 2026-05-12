@@ -17,18 +17,6 @@ Sections: 1 to 50
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2135
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2135/1/A2014-30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/rulesindividualfile/&file=rule_4_Cfti.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/ordinanceindividualfile/&file=ordinance+gwalior-1-60.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/ordinanceindividualfile/&file=ordinance+kcp.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/ordinanceindividualfile/&file=ordinance+jbp.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/ordinanceindividualfile/&file=ordinance+allahabad.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/ordinanceindividualfile/&file=kurnool_ord.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/statuteindividualfile/&file=jabalpur+statutes.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/statuteindividualfile/&file=statutes+kancheepuram.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/statuteindividualfile/&file=allahabad+statutes.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/statuteindividualfile/&file=gwalior+statutes.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00035_201430_1517807328075/statuteindividualfile/&file=233642.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,11 +17,6 @@ Sections: 1 to 26
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1817
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1817/1/198142.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00006_198142_1517807326538/rulesindividualfile/&file=MZI+Rules+1982.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00006_198142_1517807326538/notificationindividualfile/&file=Notification+1982+of+MZA.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00006_198142_1517807326538/notificationindividualfile/&file=Notification+2009+of+MZA-2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00006_198142_1517807326538/notificationindividualfile/&file=Notification+2013+of+MZA+-3.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

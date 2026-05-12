@@ -17,12 +17,6 @@ Sections: 1 to 23
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2167
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2167/1/aA195231.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00036_195231_1517807328441/rulesindividualfile/&file=The_Presidential_and_Vice-Presidential_Elections_Rule+1974.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00036_195231_1517807328441/notificationindividualfile/&file=predident_notf.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00036_195231_1517807328441/notificationindividualfile/&file=vicw-predent_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00036_195231_1517807328441/notificationindividualfile/&file=ocr_2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00036_195231_1517807328441/notificationindividualfile/&file=ocr_1.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

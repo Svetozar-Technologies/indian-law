@@ -17,17 +17,6 @@ Sections: 1 to 6
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2107
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2107/1/A1951-30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/rulesindividualfile/&file=President_Pension_Rules%2C+1962.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=President%27s+Pension+%28Maintenance+of+Secretarial+Staff+and+Medical+Attendance%29+Rules%2C1962%28G.S.R.+1328%29.PDF
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=President%27s+Pension+%28Maintenance+of+Secretarial+Staff+and+Medical+Attendance%29Rules%2C1968%28G.S.R.+1846%29.PDF
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=President%27s+Pension+%28Amendment%29+Rules%2C1977%28G.S.R.+96%28E%29%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=The+President%27s+Pension+%28Amendment%29Act%2C1985%2877+of+1985%29%2CG.S.R+938%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=The+President%27s+Emoluments+and+Pension%28Amendment%29+Act%2C1990%2816+of+1990%29%2CG.S.R.+521%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=President%27s+Pension%28Amendment%29Rules%2C1990%28G.S.R.+676%28E%29%29.PDF
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=President%27s+Pension%28Amendment%29+Rules%2C2000%28G.S.R+661%28E%29%29.PDF
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=President%27s+Pension%28Amendment%29+Rules%2C2009+%28G.S.R.+88%28E%29%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00009_195130_1517807327831/notificationindividualfile/&file=president%E2%80%99s_pension_%28amendment%29_rules%2C_2018%28g.s.r._488%28e%29%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

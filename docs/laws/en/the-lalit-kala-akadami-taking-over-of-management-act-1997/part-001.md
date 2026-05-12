@@ -17,8 +17,6 @@ Sections: 1 to 16
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1894
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1894/1/A1997-17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00003_199717_1517807320153/statuteindividualfile/&file=Order-LKA+dated+31-5-199.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,19 +17,6 @@ Sections: 1 to 41
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1847
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1847/1/198502.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/rulesindividualfile/&file=national_capital_region_planning_board_regulations%2C_1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/rulesindividualfile/&file=6recruitment_rules_and_assessment_scheme_for_ncr_planning_board_staff%2C_17_06_1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/rulesindividualfile/&file=7ncrpb_%28amendment%29_rules%2C_2004-amendment_to_rule_33_of_ncrpb_rules_1985-18_march_2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/rulesindividualfile/&file=notification_gazetted_medical.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/rulesindividualfile/&file=5The+National+Capital+Region+Planning+Board+Recruitment+_+Promotion+Rules%2C2006%C2%A0.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/rulesindividualfile/&file=11recruitment_rules_for_post_of_chief_regional_planner_in_ncr_planning_board-27_07_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/regulationindividualfile/&file=4The+National+Capital+Region+Planning+Board+Regulations%2C1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/regulationindividualfile/&file=1amendment_in_ncrpb_notification_delegation_of_powers-14_dec_1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/regulationindividualfile/&file=2ncrpb_contributory_general_provident_fund_regulation-19_03_1990.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/regulationindividualfile/&file=3recruitment_regulations_of_crp%2Cjd%28t%29%2C_dd%28a%29-18_01_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/regulationindividualfile/&file=4recruitment_regulations_of_ncr_planning_board-12_07_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00024_198502_1517807326741/regulationindividualfile/&file=5recruitment_rules_of_law_officer-13_03_2020.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

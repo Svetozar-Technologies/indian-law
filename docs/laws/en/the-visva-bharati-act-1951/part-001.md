@@ -17,12 +17,6 @@ Sections: 1 to 45
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1652
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1652/3/A1951-29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00005_195129_1517807321189/ordinanceindividualfile/&file=vb_pg-ordinance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00005_195129_1517807321189/ordinanceindividualfile/&file=vb_ordinance-bscag.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00005_195129_1517807321189/ordinanceindividualfile/&file=vb_ordinance_general_rules_for_the_university_examinations.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00005_195129_1517807321189/ordinanceindividualfile/&file=vb_new_phd_ordinance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00005_195129_1517807321189/statuteindividualfile/&file=vb_statutes.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,12 +17,6 @@ Sections: 1 to 25
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1582
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1582/1/196834.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00006_196834_1517807319967/rulesindividualfile/&file=Enemy+Property+Rule%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00006_196834_1517807319967/rulesindividualfile/&file=Enemy+Property+%28Amendment%29+Rules%2C+2018%2C+Transfer+of+Proepry+%28Vested+as+Enemy+Proeprty+in+the+Custodian%29+Order%2C+2018+and+Guidelines+for+Disposal+of+Enemy+Proeprty+Order%2C+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00006_196834_1517807319967/orderindividualfile/&file=notification_sale_of_enemy_share_order%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00006_196834_1517807319967/orderindividualfile/&file=notification_guidelines_of_disposal_of_enemy_property_order%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00006_196834_1517807319967/orderindividualfile/&file=gazette_searchable_pdf.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

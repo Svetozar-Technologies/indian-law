@@ -17,7 +17,6 @@ Pages: 1 to 25
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2160
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2160/1/engaadhaar.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Page 1
 

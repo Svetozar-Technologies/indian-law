@@ -17,10 +17,6 @@ Sections: 1 to 21
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1745
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1745/1/AAA1979___05.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00005_197905_1517807325216/rulesindividualfile/&file=CDDB_RULES_1981_ACTS1979.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00005_197905_1517807325216/regulationindividualfile/&file=CDDB_regulations_1982_Acts1979.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00005_197905_1517807325216/regulationindividualfile/&file=p27-31+%28CDB+Service+Regulations%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

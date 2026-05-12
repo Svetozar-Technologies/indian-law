@@ -17,25 +17,6 @@ Sections: 1 to 4
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1379
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1379/3/A1957-46.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Delhi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+J+%26+K.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Assam.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Bihar.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Kerala.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Mysore.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+tamilnadu.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Gujarat.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+West+Bangal.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Madhya+Pradesh.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Maharasthra.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Andhra+Pradesh.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Punjab.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Haryana.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Himachal+Pradesh.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Uttar+Pradesh.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Rajasthan+%282%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00007_195746_1517807321552/notificationindividualfile/&file=Notifications+under+Section+3+of+the+Cantonments+Act%2C+1957+-+Rajasthan.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

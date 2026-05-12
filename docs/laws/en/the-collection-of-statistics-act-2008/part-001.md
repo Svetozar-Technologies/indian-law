@@ -17,43 +17,6 @@ Sections: 1 to 34
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2081
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2081/5/aa2009-07.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/rulesindividualfile/&file=Collection+of+Statistics+Rules+2011pdf.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/rulesindividualfile/&file=gazette_for_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/circularindividualfile/&file=Circular_Designating+Nodal+Officer.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2010-11_30092011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2011-12_13092012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2011-12_Part_modification_05112012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=Sixth+Economic+Census_2012-13_20122012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=Pilot+Survey+on+Services+Sector-2012_24012013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2012-13.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2013-14.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=Ministry+of+Commerce+and+Indutry_13.03.2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2014-15.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=Ministry+of+Commerce+and+Industry.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2014-15_partial+modification_02.12.2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2014-15_partial+modifcation_11.12.2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=Survey+of+Services+Sector.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=74th_round_gn_dt_14_oct_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2015-16.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=74th_round_gn_dt_19_dec_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=74th_round_gn_j%26k-109-110.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2015-16_partial+modification_13.01.2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2015-16_partial+modification_02.05.2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=74th_round_gn_dt_22_may_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=Effective+Date_CoS_Amendment_03102017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=ASI_2016-17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=Notification_designating+ADG+handling+statistical+coordination+in+CSO+as+Nodal+Officer_14092018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=annual_survey_of_industries_2017-18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=notification_chemical_and_fertilizers_281118.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=3_28_nov_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=asi_gn_2018-19.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=asi_gn_2019-20.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=4_16_mar_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=asi_gn_2020-21.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=5_03_dec_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/notificationindividualfile/&file=gazette_dated_02.12.2024.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_40_66_00002_200907_1517807325488/orderindividualfile/&file=Order_Designating+the+Addl.+DG_Nodal+Officer.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

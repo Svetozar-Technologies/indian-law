@@ -17,18 +17,6 @@ Sections: 1 to 21
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1700
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1700/1/196626.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/rulesindividualfile/&file=DHC+Act+1966+Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/rulesindividualfile/&file=DHC+Act+1966+Rules+3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/rulesindividualfile/&file=DHC+Act+1966+Rules+5.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/rulesindividualfile/&file=DHC+Act+1966+Rules+4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/rulesindividualfile/&file=DHC+Act+1966+Rules+6.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/rulesindividualfile/&file=DHC+Act+1966+Rules+7.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/rulesindividualfile/&file=DHC+Act+1966+Rules+8.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/rulesindividualfile/&file=16.10.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/notificationindividualfile/&file=DHC+Act+1966+Notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/notificationindividualfile/&file=DHC+Act+1966+Notification+2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00016_196626_1517807324274/notificationindividualfile/&file=DHC+Act+1966+Notification+3.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

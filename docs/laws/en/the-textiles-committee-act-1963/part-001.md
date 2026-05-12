@@ -17,15 +17,6 @@ Sections: 1 to 24
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1550
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1550/1/A1963__41.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/rulesindividualfile/&file=textile+committee+rules+1965.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/rulesindividualfile/&file=Rules+197503162018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/regulationindividualfile/&file=Medical+Benifits+Regulation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/regulationindividualfile/&file=Seniority+Regulation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/regulationindividualfile/&file=Recruitment_Reg_1968.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/regulationindividualfile/&file=ConditionsofServiceRegulation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/regulationindividualfile/&file=PensionGPF+Regulation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00001_196341_1517807318207/regulationindividualfile/&file=ConductDisciplineAppeal.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

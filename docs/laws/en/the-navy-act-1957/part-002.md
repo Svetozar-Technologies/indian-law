@@ -17,12 +17,6 @@ Sections: 81 to 155
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1400
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1400/1/AAA1957____62.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00006_195762_1517807321397/regulationindividualfile/&file=navy_pension_regulation%2C_1964.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00006_195762_1517807321397/regulationindividualfile/&file=RegsNavyI.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00006_195762_1517807321397/regulationindividualfile/&file=RegsNavyII.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00006_195762_1517807321397/regulationindividualfile/&file=RegsNavyIV.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00006_195762_1517807321397/regulationindividualfile/&file=RegsNavyIII.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 81 - Punishments.
 

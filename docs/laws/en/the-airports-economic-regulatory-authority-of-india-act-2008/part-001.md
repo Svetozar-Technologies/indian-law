@@ -17,15 +17,6 @@ Sections: 1 to 55
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2090
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2090/1/A2008-27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/rulesindividualfile/&file=Airports+Economic+Regulatory+Authority+of+India+%28Salaries%2C+Allowances+and+other+Conditions+of+Service+of+the+Chairperson+and+Members%29+Rules%2C+2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/rulesindividualfile/&file=Notification+dated+31.8.2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/rulesindividualfile/&file=Airports+Economic+Regulatory+Authority+of+India+%28Salaries%2C+Allowances+and+other+Conditions+of+Service+of+the+Chairperson+and+Members%29+Amendment+Rules%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/rulesindividualfile/&file=AERA+employees+service+rules%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/rulesindividualfile/&file=Airports+Economic+Regulatory+Authority+%28Secretary%29%2C+Recruitment+Rules%2C+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/rulesindividualfile/&file=Airport+Economic+Regulatory+Authority+%28Form+of+Annual+Statement+of+Accounts%2C+Budget+and+Annual+Report%29+Rules%2C+2016..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/rulesindividualfile/&file=Notification+dated+30.12.2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00009_200827_1517807327369/regulationindividualfile/&file=AERAACT.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, commencement and application.
 

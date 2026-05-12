@@ -17,12 +17,6 @@ Sections: 36AF to 45Q
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1885
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1885/1/aa1949-10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00002_194910_1517807317779/rulesindividualfile/&file=banking_regulation_%28companies%29_rules_1949.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00002_194910_1517807317779/rulesindividualfile/&file=banking_companies_%28period_of_preservation_of_records_rules%291985.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00002_194910_1517807317779/rulesindividualfile/&file=banking_companies_nomination_rules%2C_1985.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00002_194910_1517807317779/notificationindividualfile/&file=Banking+Ombudsman+Scheme+2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00002_194910_1517807317779/notificationindividualfile/&file=nomination_of_shri_mukesh_kumar_ja%2C_md_amp_ceo_obc_on_the_board_of_canara_hsbc_obc_life_insurance_company_ltd_as_director%2C_exempting_the_applicability.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 36AF - Power of the Central Government to make scheme.
 

@@ -17,7 +17,6 @@ Sections: 62 to 72
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1840
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1840/1/aA1988-45.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 62 - Offences by companies.
 

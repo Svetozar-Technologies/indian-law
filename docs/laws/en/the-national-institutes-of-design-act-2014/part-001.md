@@ -17,13 +17,6 @@ Sections: 1 to 41
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2132
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2132/1/A2014-18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00007_201418_1517807327924/rulesindividualfile/&file=Director_NID_Rule-2015-12-11-2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00007_201418_1517807327924/rulesindividualfile/&file=Form_ofAnnual_Statement_of_Accouts_Rule-2016-14-9-2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00007_201418_1517807327924/notificationindividualfile/&file=S.O.2393.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00007_201418_1517807327924/ordinanceindividualfile/&file=First+Ordinance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00007_201418_1517807327924/ordinanceindividualfile/&file=Ordinance-Published-on-04.01.2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_61_00007_201418_1517807327924/statuteindividualfile/&file=Statutes_published_on_17.01.2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,11 +17,6 @@ Sections: 1 to 32
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1492
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1492/1/197621.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00009_197621_1517807318838/rulesindividualfile/&file=rrb+appointments+and+promotions+of+officers+and+employees+rules+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00009_197621_1517807318838/rulesindividualfile/&file=RRB+Appointment+and+promotion+of+Officers+and+Employees+Amendment+Rules%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00009_197621_1517807318838/rulesindividualfile/&file=Regional+Rural+Banks+%28Appointment+of+Officers+and+Employees%29+Rules%2C+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00009_197621_1517807318838/rulesindividualfile/&file=Regional+Rural+Banks%28Appointment+of+Officers+and+Employees%29+Amendment+Rules%2C+2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

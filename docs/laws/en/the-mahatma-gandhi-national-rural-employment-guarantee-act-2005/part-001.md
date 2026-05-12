@@ -17,32 +17,6 @@ Sections: 1 to 34
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2014
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2014/5/a2005-42.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/rulesindividualfile/&file=the_mahatma_gandhi_national_rural_employment_guarantee_audit_of_schemes_rules%2C_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/rulesindividualfile/&file=india++code-2-23.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/circularindividualfile/&file=India+Code+08.05.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=4th+may+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=14th+Jan+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=2nd+April+2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=22nd+July+2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=6th+march+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=21st+November+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=30th+June+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=19th+Feb+2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=30th+July+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=30t+Sep+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=21st+October+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=1st+April+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=18th+June+2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=31st+Dec+2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=20th+june+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=24+sep+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=11th+november+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=3rd+Jan+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=23rd+july+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=23+June+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=27th+march+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00009_200542_1517807324969/notificationindividualfile/&file=gazette+notification+25th+march+2018.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

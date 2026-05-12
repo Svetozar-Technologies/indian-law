@@ -17,12 +17,6 @@ Sections: 1 to 38
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2110
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2110/1/a2012-13.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_82_00001_201213_1517807327700/notificationindividualfile/&file=the_acsir_act%2C_2011_%5B2nd_april%2C_2012%5D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_82_00001_201213_1517807327700/notificationindividualfile/&file=the_acsir_act%2C_2011_%5B26th_june%2C_2013%5D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_82_00001_201213_1517807327700/notificationindividualfile/&file=AcSIR_Notification_of_Headquarters_20Jul2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_82_00001_201213_1517807327700/ordinanceindividualfile/&file=AcSIR_Ordinances_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_82_00001_201213_1517807327700/statuteindividualfile/&file=AcSIR_Statutes_2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

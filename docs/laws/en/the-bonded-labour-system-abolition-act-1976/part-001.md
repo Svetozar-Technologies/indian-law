@@ -17,8 +17,6 @@ Sections: 1 to 27
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1491
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1491/1/197619.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00006_197619_1517807318694/rulesindividualfile/&file=the_bonded_labour_system_%28abolition%29_rules%2C_1976.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

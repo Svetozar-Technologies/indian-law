@@ -17,10 +17,6 @@ Sections: 1 to 16
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2295
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2295/1/A1871-23.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_89_00001_187123_1523268761051/rulesindividualfile/&file=Payment+of+Arrears+of+pension+1983.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_89_00001_187123_1523268761051/rulesindividualfile/&file=Amendment+on+Payment+of+Arrears+of+Pension.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_89_00001_187123_1523268761051/notificationindividualfile/&file=159054_4april.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Title and extent.
 

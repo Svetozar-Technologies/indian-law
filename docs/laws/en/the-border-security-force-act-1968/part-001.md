@@ -17,8 +17,6 @@ Sections: 1 to 96
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1561
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1561/1/a1968-47.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00003_196847_1517807319062/rulesindividualfile/&file=bsf_rules_final1.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

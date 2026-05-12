@@ -17,40 +17,6 @@ Sections: 1 to 40
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1943
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1943/1/A1989-39.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/rulesindividualfile/&file=2._sidbi_%28appeal_to_central_government%29_rules%2C_2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=5._sidbi_%28issue_and_management_of_bonds%29_regulations_1990.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=4._sidbi_%5Bemployees_provident_fund%5D_regulations%2C_1990.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=SIDBI+General+Regulation-2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=3._sidbi_%28general%29_regulations_2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=3a._corrigendum_to_sidbi_%28general%29_regulations_2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=6a._sidbi_employees_gratuity_and_superannuation_fund_regulations%2C_2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=7._sidbi_%28staff%29_regulations%2C_2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=5a._sidbi_issue_and_management_of_bonds_%28amendment%29_regulations%2C_2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=8._sidbi_%28payment_of_gratuity_to_employees%29_regulations%2C_2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=6._sidbi_employees_gratuity_and_superannuation_fund_%28amendment%29_regulations%2C_2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=9._sidbi_pension_regulations%2C_2002_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=8a._sidbi_%28payment_of_gratuity_to_employees%29_%5Bamendment%5D_regulations%2C_2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=4a._sidbi_%5Bemployees%27_provident_fund%5D_%28amendment%29_regulations%2C_2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=sidbi_%28issue_and_management_of_bonds_%29_amendment_regulations_2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=5b._sidbi_%28issue_and_management_of_bonds_%29_amendment_regulations_2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=8b._sidbi_payment_of_gratuity_to_employees_%28amendment%29_regulations%2C_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=3b._sidbi_general_%28amendment%29_regulations%2C_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=4b._sidbi_%28employees%27_provident_fund%29_%5Bamendment%5D_regulations%2C_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=7a._sidbi_staff_%5Bamendment%5D_regulations%2C_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=3c._sidbi_%28general%29_amendment_regulations%2C_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=10._sidbi_%28defined_contributory_new_pension%29_regulations%2C_2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=7b._sidbi_%28staff%29_%5Bamendment%5D_regulations%2C_2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=7c._sidbi_staff_%28amendment%29_regulations%2C_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=8c._sidbi_payment_of_gratuity_to_employees%29_%5Bamendment%5D_regulations%2C_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=7d._sidbi_staff_%28amendment%29_regulations_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=payment_of_gratuity_to_employees_%5Bamendment%5D_regulations%2C_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=7e._sidbi_%28staff%29_%5Bamendment%5D_regulations%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=7f._sidbi_%28staff%29_%5Bamendment%5D_regulations%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=10a._sidbi_%28defined_contributory_new_pension%29_%5Bamendment%5D_regulations%2C_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=sidbi_pension_%5Bamendment%5D_regulations%2C_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/regulationindividualfile/&file=sidbi_%28access_to_records%29_regulations%2C_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00035_198939_1517807323587/notificationindividualfile/&file=sidbi_%28appeal_to_central_government%29_rules%2C_2003.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

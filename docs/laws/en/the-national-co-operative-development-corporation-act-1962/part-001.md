@@ -17,9 +17,6 @@ Sections: 1 to 24
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1462
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1462/1/A1962__26.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00001_196226_1517807317885/rulesindividualfile/&file=ncdc_rules_-original.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_18_21_00001_196226_1517807317885/regulationindividualfile/&file=greneral_regulations--original.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

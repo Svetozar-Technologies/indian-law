@@ -17,7 +17,6 @@ Sections: 184 to 199
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1564
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1564/1/196043.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 184 - Power to make rules.
 

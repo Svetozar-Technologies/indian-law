@@ -17,11 +17,6 @@ Sections: 1 to 20
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2356
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2356/1/A1915-16.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00037_191516_1523342355197/ordinanceindividualfile/&file=bhu_phd_ordinance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00037_191516_1523342355197/ordinanceindividualfile/&file=bhu_ordinance_of_integrated_m.phil-ph.d_in_life_sciences_at_isls.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00037_191516_1523342355197/ordinanceindividualfile/&file=bhu_modified_ordinance_11-a.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00037_191516_1523342355197/statuteindividualfile/&file=BHU+60+Statutes.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,19 +17,6 @@ Sections: 1 to 25
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1545
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1545/1/A1958-41.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/rulesindividualfile/&file=supreme_court_rules_1959.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/rulesindividualfile/&file=sc_rules%28travelling%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/rulesindividualfile/&file=08.01.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/rulesindividualfile/&file=18.03.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/rulesindividualfile/&file=238277.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/rulesindividualfile/&file=26822.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/notificationindividualfile/&file=HIGH+COURT+AND+SUPREME+COURT+JUDGES+Gazette.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/notificationindividualfile/&file=Notification+19.3.18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/notificationindividualfile/&file=travelling_allowance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/notificationindividualfile/&file=traveling_allowance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/notificationindividualfile/&file=531e.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00002_195841_1517807317514/orderindividualfile/&file=order_salary.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

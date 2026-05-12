@@ -17,8 +17,6 @@ Sections: 1 to 8
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2162
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2162/1/A1951-41.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00034_195141_1517807328535/rulesindividualfile/&file=rajghat_samadhi_rules_1952.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

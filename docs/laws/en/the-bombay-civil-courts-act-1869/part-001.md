@@ -17,8 +17,6 @@ Sections: 1 to 43
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2291
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2291/1/a1869-14.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00022_186914_1523268305336/notificationindividualfile/&file=Bambay+Civil+Court%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title. Extent of Act.
 

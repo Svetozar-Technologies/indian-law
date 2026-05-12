@@ -17,10 +17,6 @@ Sections: 1 to 44
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1968
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1968/1/199345.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_67_00002_199345_1517807323599/regulationindividualfile/&file=Academic+Regulations.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_67_00002_199345_1517807323599/ordinanceindividualfile/&file=Ordinance+32-106.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_67_00002_199345_1517807323599/statuteindividualfile/&file=Statute+43-53.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

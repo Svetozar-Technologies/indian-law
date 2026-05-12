@@ -17,18 +17,6 @@ Sections: 1 to 10
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2076
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2076/1/A2007-11.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/rulesindividualfile/&file=g.s.r._687_%28e%29_dated_31.10.2007-sports_rules_2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=Notification+3.10.2007+under+SBS+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=Notification+19.10.2007under+SBS+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=s.o._281_%28e%29_dated_08.02.2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=Notification+4.7.12+under+SBS+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=Notification+23.8.12+under+SBS+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=Notification+22.10.16+under+SBS+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=Notification_dated_27.1.2017+Under+SBS+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=so_3060_%28e%29_dated_15.09.2017-fifa-amendment_in_so_302_%28e%29_dated_27.01.2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=so_5707_%28e%29_dated_13.11.2018-2018_hockey_men%27s_world_cup.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00007_200711_1517807323539/notificationindividualfile/&file=s.o._44_%28e%29_dated_04.01.2019-khelo_india_youth_games-2019.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

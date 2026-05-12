@@ -17,15 +17,6 @@ Sections: 1 to 41
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1782
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1782/1/198128.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/rulesindividualfile/&file=3._export-import_bank_of_india_service_rules%2C_1982.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/rulesindividualfile/&file=4._export-import_bank_of_india_gratuity_fund_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/regulationindividualfile/&file=Exim+Bank+Bond+Regulations.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/regulationindividualfile/&file=PF+Regulation-English.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/regulationindividualfile/&file=Service+Regulation+-+English.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/regulationindividualfile/&file=Pension+Regulations+-+English.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/regulationindividualfile/&file=2._export-import_bank_officers%E2%80%99_regulations%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00049_198128_1517807326088/regulationindividualfile/&file=export-import_bank_of_india_general_regulations%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

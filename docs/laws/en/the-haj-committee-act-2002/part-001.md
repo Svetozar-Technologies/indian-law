@@ -17,10 +17,6 @@ Sections: 1 to 52
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1912
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1912/1/A2002-35.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00011_200235_1517807322907/rulesindividualfile/&file=HajCommittee_Rules%2C+2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00011_200235_1517807322907/rulesindividualfile/&file=Haj+Committee+Bye-Laws%2C+2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00011_200235_1517807322907/notificationindividualfile/&file=notification.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

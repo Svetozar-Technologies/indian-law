@@ -17,13 +17,6 @@ Sections: 1 to 26
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/4035
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/4035/1/A2018-17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00032_A2018-17_1542613466306/rulesindividualfile/&file=showrulefile-10-19.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00032_A2018-17_1542613466306/rulesindividualfile/&file=showrulefile-1-4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00032_A2018-17_1542613466306/rulesindividualfile/&file=showrulefile-4-6.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00032_A2018-17_1542613466306/rulesindividualfile/&file=showrulefile-6-9.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00032_A2018-17_1542613466306/rulesindividualfile/&file=showrulefile-20-22.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00032_A2018-17_1542613466306/orderindividualfile/&file=feo_act_-_notifications.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,9 +17,6 @@ Sections: 1 to 18
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1424
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1424/1/a1962-50.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00004_196250_1517807322318/rulesindividualfile/&file=Petroleum%26MineralPipelines%28AcquisitionofRightofUserinLand%29Rules%2C1963.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_50_00004_196250_1517807322318/notificationindividualfile/&file=Petroleum%26MineralPipelines%28AcquisitionofRightofUserinLand%29Rules%2C1963.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and application.
 

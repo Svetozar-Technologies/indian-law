@@ -17,7 +17,6 @@ Sections: 1 to 3
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19228
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19228/1/a1887-19.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Administration of the estate of the late king of Oudh by the Governor General in Council.
 

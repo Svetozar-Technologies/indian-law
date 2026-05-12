@@ -17,8 +17,6 @@ Sections: 1 to 11
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/15618
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/15618/1/AA2020_30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00032_202030_1602065217441/notificationindividualfile/&file=netting_notification.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

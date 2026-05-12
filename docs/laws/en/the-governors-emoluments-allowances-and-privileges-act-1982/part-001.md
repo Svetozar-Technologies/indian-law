@@ -17,36 +17,6 @@ Sections: 1 to 15
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1838
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1838/5/A1982-43.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/rulesindividualfile/&file=Governors+%28Allowances+and+Privileges%29+Rules.1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/rulesindividualfile/&file=Governors+%28Allowances+and+Privileges%29+Amendment+Rules+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/rulesindividualfile/&file=Governors+%28Allowances+and+Privileges%29+Amendment+Rules%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28emoluments%2CAllowances+and+Privileges%29+Act%2C1982.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s+%28Allowances+and+Privileges%29+Amendment+Rules%2C1987+%7BG.S.R.+No.343%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C1992+%7BG.S.R.+No.+70%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C1990%7BG.S.R.+675%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C1992+%7BG.S.R.+No.+949%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29Second+Amendment+Rules%2C1993%7BG.S.R.+708%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28emoluments%2CAllowances+and+Privileges%29Amendment++Act%2C1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C1994%7BG.S.R.+475%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C1995%7BG.S.R.+538%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C1997%7BG.S.R.+326%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s+%28Allowances+and+Privileges%29+Amendment+Rules%2C1995%7BG.S.R.+166%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28emoluments%2CAllowances+and+Privileges%29+Amendment+Act%2C1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governors+%28Allowances+and+Privileges%29+Amendment+Rules%2C1987+%7BG.S.R.+No.832%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C1997%7BG.S.R.+326%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28+Allowances+and+Privileges%29Amendment+Rules%2C2002+%7BG.S.R.+No+781%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2006%7BG.S.R.+193%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2018%7BG.S.R.+506%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28emoluments%2CAllowances+and+Privileges%29+%2CAmendment+Act%2C2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2018%7BG.S.R.+87%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2011%7BG.S.R.+288%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2018%7BG.S.R.+517%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2018%7BG.S.R.+518%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2014%7BG.S.R.+788%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2015%7BG.S.R.+80%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2018%7BG.S.R.+486%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00008_198243_1517807326622/notificationindividualfile/&file=The+Governor%27s%28Allowances+and+Privileges%29+Amendment+Rules%2C2018%7BG.S.R.+546%28E%29%7D.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 
