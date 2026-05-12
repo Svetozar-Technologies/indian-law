@@ -17,23 +17,6 @@ Sections: 1 to 50
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2093
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2093/1/200822.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/notificationindividualfile/&file=notification_2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/notificationindividualfile/&file=notification_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/notificationindividualfile/&file=Gazette_407_13Oct2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/notificationindividualfile/&file=Gazette_183_05May2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/notificationindividualfile/&file=Gazette_304_03September2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/notificationindividualfile/&file=Gazette_298_20July2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/notificationindividualfile/&file=Gazette_441_02Dec2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/notificationindividualfile/&file=Gazette_305_03September2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/ordinanceindividualfile/&file=gazette_76_-_12.05.2009_-_admin.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/ordinanceindividualfile/&file=gazette_38_-01.02.2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/ordinanceindividualfile/&file=Gazette_305_03September2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/ordinanceindividualfile/&file=Gazette_298_20July2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/ordinanceindividualfile/&file=Gazette_441_02Dec2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/ordinanceindividualfile/&file=Gazette_183_05May2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/ordinanceindividualfile/&file=Gazette_407_13Oct2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00015_200822_1517807327775/statuteindividualfile/&file=IMU_Statutes_2008.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

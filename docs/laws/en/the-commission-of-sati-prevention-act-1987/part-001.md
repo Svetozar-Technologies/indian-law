@@ -17,9 +17,6 @@ Sections: 1 to 22
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1814
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1814/1/aA1988-03.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00003_198803_1517807326065/rulesindividualfile/&file=Sati+Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00003_198803_1517807326065/notificationindividualfile/&file=E-0658-1988-0129-28834+21+Mar+1988.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

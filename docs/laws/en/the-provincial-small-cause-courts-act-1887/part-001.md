@@ -17,7 +17,6 @@ Sections: 1 to 37
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2312
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2312/4/A1887-9.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Title, extent and commencement.
 

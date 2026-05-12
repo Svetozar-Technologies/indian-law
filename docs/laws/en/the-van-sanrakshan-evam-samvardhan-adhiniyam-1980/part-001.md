@@ -17,43 +17,6 @@ Sections: 1 to 5
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1760
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1760/4/a1980-69.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=caf_rules2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=caf%28ap%292018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=notificationiros.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=fcviolationgazette07062023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=fcrule2022notificationdated28062022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=gazettenotificationdated26062023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=assignmentofforestlandonlease2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=seismicsurvey2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=adhiniyamrules2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/rulesindividualfile/&file=vansanrakshanevamsamvardhanrules2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=8.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=5.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=21_05_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=6_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=22_05_2019_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=7.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=07_06_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=05_07_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=untitled.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=26_08_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=296_08_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=13_09_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/regulationindividualfile/&file=30_9_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/notificationindividualfile/&file=1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/notificationindividualfile/&file=3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/notificationindividualfile/&file=the_van_amendment_rules_2024_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/notificationindividualfile/&file=the_van_amendment_rules_2025.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/orderindividualfile/&file=4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/orderindividualfile/&file=1_20190611134423178.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00008_198069_1517807325332/orderindividualfile/&file=1.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

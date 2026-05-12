@@ -17,10 +17,6 @@ Sections: 1 to 6
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2336
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2336/1/A1903-10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/rulesindividualfile/&file=victorialmemorialact1903_21.03.2018_rule.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/rulesindividualfile/&file=vm_rules_26_march_1903.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_0_00012_190310_1523339874358/regulationindividualfile/&file=vmh_service_regulation.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

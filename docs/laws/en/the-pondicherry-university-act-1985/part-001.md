@@ -17,9 +17,6 @@ Sections: 1 to 44
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1862
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1862/1/198553.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00025_198553_1517807326790/ordinanceindividualfile/&file=8_ordinances_of_pondicherry_university.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00025_198553_1517807326790/ordinanceindividualfile/&file=Pondocherry+University+Academic+Ordinances.PDF
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

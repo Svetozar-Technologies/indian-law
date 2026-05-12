@@ -17,9 +17,6 @@ Sections: 1 to 24
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1479
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1479/2/A1976-63.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00001_197663_1517807318578/rulesindividualfile/&file=Rule.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00001_197663_1517807318578/regulationindividualfile/&file=Regulation.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

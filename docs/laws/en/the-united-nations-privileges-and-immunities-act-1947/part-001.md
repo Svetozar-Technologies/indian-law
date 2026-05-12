@@ -17,42 +17,6 @@ Sections: 1 to 4
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1697
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1697/1/A1947-46.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=gsr_818_commissioner_for_indus_waters_15_june_1962.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=gazettee_notification_%28aalco%29_02.06.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=gazette_notification_%28aardo%29_13.03.1968.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28AARDO%29+%2823.03.1971%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=gazette_notification_%28icrisat%29_28.10.1972.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28CYP%29+%2803.01.1978%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28League+of+Arab+States%29-27+June+1985+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28APTC%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28ICGEB%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28AALCO%29+%2814.02.1991%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28ADB%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28APCTT%29-09+January+1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=so_603%28e%29_international_maritime_satellite_organisation_%28inmarsat%29_30_june_1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28CEMCA%29-09+February+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28IFAD%29-09+February+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification-Mr+P.+C.+Rao%2C+ITLOS-20+April+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28CYP%29+%2827.10.2004%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28CDN%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28SAU%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette_Notification_CIMMYT_INT_BISA_12December2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28ICRISAT%29-30+March+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+on+UN+Officials.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28GEF%29-28+August+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=SO_2387_E_dated_4th_Oct_2012Sub_Regional_Office_for_South_and_South_West_Asof_UN_Economic_and_Social_Commission_for_Asia_and_the_Pacific.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28IFC%29-13+July+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28NDB%29-07+February+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28AIIB%29-17+February+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28AfDB%29-18+April+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28IRRI%29-03+October+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification-Dr+Neeru+Chadda%2C+ITLOS-27+December+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28ICRISAT-FLRP%29-05+February+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=Gazette+Notification+%28ISA%29-05+June+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=so_1092_e_establishment_of_european_bank_for_reconstruction_and_development.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=SO_2223_E_dated_27_June_2019_Multilateral_Investment_Guarantee_Agency.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00015_194746_1517807324722/notificationindividualfile/&file=SO_4405_E_dated_5th_Dec_2019_Privileges_and_Immunities_to_the_Regional_Office_of_the_International_Committee_of_the_Red_Cross_in_India_and_its_officers.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

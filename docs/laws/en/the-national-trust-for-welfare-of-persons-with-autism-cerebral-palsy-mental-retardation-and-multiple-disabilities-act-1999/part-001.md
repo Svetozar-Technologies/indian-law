@@ -17,25 +17,6 @@ Sections: 1 to 36
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1951
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1951/1/A1999_44.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/rulesindividualfile/&file=national_trust_rules_dated_26.07.2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/rulesindividualfile/&file=national_trust_rules_dated_24.12.2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/rulesindividualfile/&file=Feb%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/rulesindividualfile/&file=April%2C+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/regulationindividualfile/&file=Aug%2C+2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/regulationindividualfile/&file=Feb+2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/regulationindividualfile/&file=June%2C+2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/regulationindividualfile/&file=Dec%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/regulationindividualfile/&file=Oct%2C+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/regulationindividualfile/&file=july%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=Sept_2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=March%2C+2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=May%2C+2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=Jan%2C+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=July%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=Jan%2C+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=Sept+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00004_199944_1517807323315/notificationindividualfile/&file=June%2C+2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

@@ -17,13 +17,6 @@ Sections: 1 to 23GA
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1644
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1644/1/A1956-42.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00019_195642_1517807321094/rulesindividualfile/&file=Securities+Contracts+%28Regulations%29+Rules%2C+1957.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00019_195642_1517807321094/rulesindividualfile/&file=Securities+Contracts+%28Reference+to+the+Company+Law+Board%29+Rules%2C+1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00019_195642_1517807321094/rulesindividualfile/&file=Securities+Contracts+%28Regulations%29+%28Appeal+to+Securities+Appellate+Tribunal%29+Rules%2C+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00019_195642_1517807321094/rulesindividualfile/&file=Securities+Contracts+%28Regulations%29+%28Procedure+for+Holding+Inquiry+and+Imposing+Penalties+by+Adjudicating+Officer%29+Rules%2C+2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00019_195642_1517807321094/regulationindividualfile/&file=1560918602764.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00019_195642_1517807321094/notificationindividualfile/&file=Notification_Commodities_SCRAct1956_0.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

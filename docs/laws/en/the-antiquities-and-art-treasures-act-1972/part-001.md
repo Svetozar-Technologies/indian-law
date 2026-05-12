@@ -17,9 +17,6 @@ Sections: 1 to 33
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1693
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1693/1/A1972-52.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00009_197252_1517807324344/rulesindividualfile/&file=The+Antiquities+and+Art+Treasures+Rules+1973.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00009_197252_1517807324344/regulationindividualfile/&file=The+Antiquities+and+Art+Treasures+Rules+1973.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,11 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2153
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2153/1/201636.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_84_00001_201636_1517807328236/regulationindividualfile/&file=regulation1_rcb.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_84_00001_201636_1517807328236/regulationindividualfile/&file=regulations_2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_84_00001_201636_1517807328236/ordinanceindividualfile/&file=ordinance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_84_00001_201636_1517807328236/statuteindividualfile/&file=statutes_rcb.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

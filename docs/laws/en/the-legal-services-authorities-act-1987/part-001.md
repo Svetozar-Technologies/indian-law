@@ -17,14 +17,6 @@ Sections: 1 to 30
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1925
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1925/1/198739.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00003_198739_1517807322718/rulesindividualfile/&file=THE+NATIONAL+LEGAL+SERVICES+AUTHORITY+RULES.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00003_198739_1517807322718/rulesindividualfile/&file=Supreme+Court+Legal+Services+Committee+Rules+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00003_198739_1517807322718/rulesindividualfile/&file=Permanent+Lok+Adalat+%28Other+Terms+and+Conditions+of+Appointment+of+Chairman+and+Other+Persons+Rules%2C+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00003_198739_1517807322718/regulationindividualfile/&file=legal_service_clinics_regu_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00003_198739_1517807322718/regulationindividualfile/&file=legal_service_com.regu1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00003_198739_1517807322718/regulationindividualfile/&file=nlsa_lokadalat_regu_2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00003_198739_1517807322718/regulationindividualfile/&file=free%26amp%3Bcompetent_legal_service_regu2010.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

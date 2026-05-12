@@ -17,10 +17,6 @@ Sections: 1 to 13
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2244
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2244/3/A2017-02.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00054_201702_1517807327901/rulesindividualfile/&file=C+and+C+rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00054_201702_1517807327901/rulesindividualfile/&file=C+and+C+Rules+2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00054_201702_1517807327901/orderindividualfile/&file=gazette_notification_so_4149%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

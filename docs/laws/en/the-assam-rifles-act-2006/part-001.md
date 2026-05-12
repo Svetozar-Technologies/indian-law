@@ -17,10 +17,6 @@ Sections: 1 to 92
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2037
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2037/1/2006___47.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00025_200647_1517807326902/rulesindividualfile/&file=Assam+Rifles+Rules+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00025_200647_1517807326902/regulationindividualfile/&file=Assam+Rifles+Regulation+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00025_200647_1517807326902/notificationindividualfile/&file=Date+of+effect+of+the+Act.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

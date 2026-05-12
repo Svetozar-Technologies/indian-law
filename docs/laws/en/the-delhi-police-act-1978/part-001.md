@@ -17,17 +17,6 @@ Sections: 1 to 64
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1742
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1742/1/197834.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/rulesindividualfile/&file=Delhi+Police%28Punishment+and+Appeal%29%28Amendment%29+Rules+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/rulesindividualfile/&file=Delhi+Police+%28Promotion+and+Confirmation%29%28Amendment%29+Rules+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/rulesindividualfile/&file=Delhi+Police%28Appointment+and+Recruitment%29%28Amendment%29+Rules+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/notificationindividualfile/&file=Notification+no+670%28E%29+Dt.+1978.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/notificationindividualfile/&file=Notification+3+under+Delhi+Police+Act+1978.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/notificationindividualfile/&file=Notification+Dt.+31.10.2008+under+Delhi+Police+Act+1978.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/notificationindividualfile/&file=Notification+Dt.+09.09.2010+under+Delhi+Police+Act+1978.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/notificationindividualfile/&file=Notification+1+under+Delhi+Police+Act+1978.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/notificationindividualfile/&file=Notification+2+under+Delhi+Police+Act+1978.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00020_197834_1517807325264/notificationindividualfile/&file=Notification++under+Delhi+Police+Act+1978.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

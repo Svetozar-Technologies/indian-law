@@ -17,12 +17,6 @@ Sections: 1 to 7
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2165
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2165/1/A195220.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00005_195220_1517807328359/rulesindividualfile/&file=2_gsr_105%28e%29-18.02.1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00005_195220_1517807328359/rulesindividualfile/&file=gsr_109_e.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00005_195220_1517807328359/rulesindividualfile/&file=647_e.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00005_195220_1517807328359/rulesindividualfile/&file=5_gsr_1094%28e%29-08.11.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00005_195220_1517807328359/notificationindividualfile/&file=1_gsr_625_%28e%29-07.08.1983.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

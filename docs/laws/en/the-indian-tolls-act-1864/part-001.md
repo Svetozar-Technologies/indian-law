@@ -17,7 +17,6 @@ Sections: 1 to 4
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2267
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2267/1/a1864-15.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - [Omitted.].
 

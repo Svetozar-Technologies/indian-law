@@ -17,10 +17,6 @@ Sections: 1 to 10A
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2052
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2052/1/a1951-25.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00023_195125_1517807327154/notificationindividualfile/&file=Notification+under+Jalliawal+Bagh+Amendment+2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00023_195125_1517807327154/notificationindividualfile/&file=jalianwala_bagh_notification_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00023_195125_1517807327154/notificationindividualfile/&file=jallianwala_bagh_amendment_act%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

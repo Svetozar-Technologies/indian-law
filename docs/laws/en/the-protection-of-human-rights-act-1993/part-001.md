@@ -17,14 +17,6 @@ Sections: 1 to 43
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/15709
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/15709/1/A1994____10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_000010_199410_1517807322704/rulesindividualfile/&file=NHRC+Chairperson+and+Members+%28Salaries%2C+Allowances+and+other+Conditions+of+Service%29+Rules+1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_000010_199410_1517807322704/rulesindividualfile/&file=NHRC+Chairperson+and+Members+%28Salaries%2C+Allowances+and+other+Conditions+of+Service%29+Amendment+Rules+1999.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_000010_199410_1517807322704/rulesindividualfile/&file=NHRC+Chairperson+and+Members+%28Salaries%2C+Allowances+and+other+Conditions+of+Service%29+Amendment+Rules+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_000010_199410_1517807322704/rulesindividualfile/&file=NHRC+Chairperson+and+Members+%28Salaries%2C+Allowances+and+other+Conditions+of+Service%29+Amendment+Rules+2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_000010_199410_1517807322704/regulationindividualfile/&file=National+Human+Rights+Commission+%28Procedure%29+Regulations+1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_000010_199410_1517807322704/regulationindividualfile/&file=National+Human+Rights+Commission+%28Procedure%29+Amendment+Regulations+1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_000010_199410_1517807322704/regulationindividualfile/&file=National+Human+Righits+Commission+%28Procedure%29+Amendment+Regulationss1997.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

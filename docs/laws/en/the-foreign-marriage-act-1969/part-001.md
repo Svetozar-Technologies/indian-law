@@ -17,8 +17,6 @@ Sections: 1 to 30
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1720
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1720/1/aA1969-33.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_20_00029_196933_1517807324405/rulesindividualfile/&file=The+Foreing+Marriage+Rules%2C+1970.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

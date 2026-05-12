@@ -17,15 +17,6 @@ Sections: 1 to 28
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/13051
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/13051/1/a1957-20.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00006_195720_1517807322514/rulesindividualfile/&file=CBA+Rules+1957.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00006_195720_1517807322514/notificationindividualfile/&file=so_495_for_28_march_2019_ministry_of_coal.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00006_195720_1517807322514/notificationindividualfile/&file=so_496_for_28_march_2019_ministry_of_coal_for_bhubaneshwari_opencast_project_expansion.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00006_195720_1517807322514/notificationindividualfile/&file=s_o_373_for_10-3-19_to_16-3-19.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00006_195720_1517807322514/notificationindividualfile/&file=s_o_322_for_5-3-2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00006_195720_1517807322514/notificationindividualfile/&file=s_o_323_for_5-3-2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00006_195720_1517807322514/notificationindividualfile/&file=so_428_for_27-3-2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00006_195720_1517807322514/notificationindividualfile/&file=so_497_for_29_march_2019.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

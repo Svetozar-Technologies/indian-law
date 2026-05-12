@@ -17,8 +17,6 @@ Sections: 1 to 36
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1501
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1501/1/196824.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00007_196824_1517807318543/rulesindividualfile/&file=Bihar+and+Uttar+Pradesh+%28Inspection+of+Boundary+Pillar%29+Rules+1970.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

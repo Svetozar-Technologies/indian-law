@@ -17,9 +17,6 @@ Sections: 1 to 9
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1706
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1706/1/A1969-19.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00042_196919_1517807324103/notificationindividualfile/&file=Notification+dated+17.09.1969+regarding+appointment+of+date+of+the+act+in+Delhi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00042_196919_1517807324103/notificationindividualfile/&file=Notification+Dt.+29.01.1970+regarding+appointment+of+date+on+which+the+act+shall+came+into+force..pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

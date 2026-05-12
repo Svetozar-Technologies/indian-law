@@ -17,9 +17,6 @@ Sections: 1 to 68
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2147
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2147/5/a2015-22.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00045_201522_1517807328155/circularindividualfile/&file=940h-2k11cx.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00045_201522_1517807328155/circularindividualfile/&file=950h-2k11cx.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

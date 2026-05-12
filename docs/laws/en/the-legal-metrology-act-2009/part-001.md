@@ -17,38 +17,6 @@ Sections: 1 to 57
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2102
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2102/1/englegal.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/rulesindividualfile/&file=lm_numeration_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/rulesindividualfile/&file=lm_natl_standards_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/rulesindividualfile/&file=lm_general_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/rulesindividualfile/&file=iilm_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/rulesindividualfile/&file=lm_appl_of_models_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/rulesindividualfile/&file=lm_packaged_commodities_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/rulesindividualfile/&file=lm_gatc_rules_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=2-notif_lm_act_enforcement_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=1-numeration_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=5-national_standards_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=1-notif_rescindment_order_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=4-general_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=3-iilm_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=3-notif_lm_numeration_amendmt_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=6-approval_of_model_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=2-packgd_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=4-notif_corrigendum_to_genl_rules_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=5-lm_pckgd_comm_third_amnt_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=7-lm_pckgd_comm_secd_amndmt_rls_2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=6-lm_pckgd_comm_amndt_rls_2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=8-lm_pckgd_comm_amndmt_rls_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=9-lm_gatc_rls_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=Model+Approval+First+Notification+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=10-lm_packgd_comm_amndmt_rls_2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=11-_lm_pckgd_comm_amdmt_rls_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=12-_lm_gatc_amdmt_rls_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=2016+1st+amendment+PCR.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=Notification+Sept+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=Notifcn+PCR_Amendment_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=Notificn+Corrigendum_GSR629_23_June_2017+Nov+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712/notificationindividualfile/&file=lm_notifcn_gsr_474.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

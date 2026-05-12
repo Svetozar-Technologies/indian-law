@@ -17,13 +17,6 @@ Sections: 1 to 50
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2412
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2412/1/a1942-07.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=1+Rule+Coffee+Act+and+rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=3+Rules+C+and+R+basic+rule+20.3.2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=2+Rules+4.7.16-+Coffee+rules+Amendment.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=4+Rules+C+and+R+rules+amndtCoffee-+8.9.16.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=5+Rule+C+and+R+rules+amndt-+coffee+-+8.11.2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00012_194207_1523353762094/rulesindividualfile/&file=6+Rule+C+and+R+amndt+1.12.2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and duration.
 

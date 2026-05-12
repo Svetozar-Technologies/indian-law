@@ -17,22 +17,6 @@ Sections: 1 to 67
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1812
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1812/1/a1984-52.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/rulesindividualfile/&file=Rules+for+recognition+of+Veterinary+Qualification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/rulesindividualfile/&file=06-gatt.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=1_++VCI+%28Inspectors+%26+Visitors%29+Regulations%2C+1991.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=2_++VCI+%28General%29++Regulations%2C+1991.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=4_+VCI+%28General%29+%28Corrigendum%29++Regulations%2C+1992.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=5_+VCI+%28Fees+%26+Alloowances%29+Regulations%2C+1992+.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=code-cond-regulation-1992.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=president-wise-1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=regulation-amendant-2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=6_+VCI+Terms+and+conditions+of+Services+of+Officers+and+other+Employees%29+Regulations%2C+2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=3_++VCI+%28General%29+%28Amendment%29++Regulations%2C+2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=7_+VCI+%28General%29+%28Amendment%29+Regulations%2C+2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/regulationindividualfile/&file=Minimum+Standrads+of+Veterinary+Education.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/notificationindividualfile/&file=president-wise-1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00005_198452_1517807325559/notificationindividualfile/&file=Amendment+in+Indian+Veterinary+Council+Rules%2C+1985.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short titles, extent and commencement.
 

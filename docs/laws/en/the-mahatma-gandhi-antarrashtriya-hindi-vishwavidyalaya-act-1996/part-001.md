@@ -16,8 +16,6 @@ Sections: 1 to 44
 
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1987
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00012_199703_1517807323841/statuteindividualfile/&file=Statutes_sw.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

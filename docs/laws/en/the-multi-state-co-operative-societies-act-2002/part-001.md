@@ -17,17 +17,6 @@ Sections: 1 to 47
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1914
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1914/1/aA2002-39.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/rulesindividualfile/&file=MSCSRules2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/rulesindividualfile/&file=rule_19.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/rulesindividualfile/&file=notification12_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/rulesindividualfile/&file=gazette_rules_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/rulesindividualfile/&file=rule25_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/circularindividualfile/&file=sfpermissionbranchopening.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/notificationindividualfile/&file=sfnotification_openbranch.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/notificationindividualfile/&file=sfnotificationcrcs.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/orderindividualfile/&file=sfadditionalinfo.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00003_200239_1517807323108/statuteindividualfile/&file=statutes.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

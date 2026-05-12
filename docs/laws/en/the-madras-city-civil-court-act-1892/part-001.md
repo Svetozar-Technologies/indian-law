@@ -17,8 +17,6 @@ Sections: 1 to 18
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2323
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2323/1/A1892-7.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00029_189207_1523337170643/notificationindividualfile/&file=Vesting+with+the+Chennai+City+Civil+Court+to+receive%2C+try+and+dispose+of+all+suits+and+other+proceeding+of+civil+nature+within+the+city+of+chennai+upto+10+lakhs.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Title and commencement.
 

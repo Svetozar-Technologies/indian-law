@@ -17,36 +17,6 @@ Sections: 1 to 55
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2020
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2020/1/a2007-37.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=Appellate_authority_rules_2010-english_version.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=Warehousing+%28Development+and+Regulation%29+Registration+of+Accreditation+Agency+Rules%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=salaries%2C_allowances_and_other_terms_and_conditions_of_chairpersona_and_members_of_the_authority_rules%2C_2010_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=Annual_statements_of_accounts___records_Rules___2010_-_english+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=Notification+New+Delhi+the+8th+November%2C+2010+The+Gazette+of+India.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=Salaries%2C+allowances+and+other+terms+and+conditions+of+chairpersona+and+members+of+the+authority+%28amendment%29+rules%2C+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=wdra_appointment_of_chairperson_and_members_rules%2C_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=New+Registration+Rules%2C+2017+-+Notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=Registration+Rules+%28Amendment%29%2C+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=WD+Registration+of+Warehouses+%28Amendment%29+Rules%2C+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=2---warehousing_%28development_and_regulatory%29_authority%2C_appointment_of_chairperson_and_other_members_amendment_rules%2C_2020_-_dt_21.10.2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=1--warehousing_%28development_and_regulation%29_registration_of_warehouses_%28amendment%29_rules%2C_2020._-_dt_21.12.2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=4--warehousing_%28development_and_regulation%29_registration_of_warehouses_%28amendment%29_rules%2C_2021_-_dt._3.11.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=5--warehousing_%28development_and_regulation%29_registration_of_warehouses_%28amendment%29_rules%2C_2022_-_dt._5.4.2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=6---warehousing_%28development_and_regulation%29_registration_of_warehouses_%28second_amendment%29_rules%2C_2022_-_14.10.2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=7--warehousing_%28development_and_regulation%29_registration_of_warehouses_%28amendment%29_rules%2C_2023_-_dt.12.7.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=notification_so_676_e_dt_18-09-2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/rulesindividualfile/&file=notification_so_791_e_dt_20-10-2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/regulationindividualfile/&file=Warehousing+Development+and+Regulatory+Authority+%28Warehouse+Accreditation%29+Regulations%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/regulationindividualfile/&file=Warehousing+Development+and+Regulatory+Authority+%28Registration+of+Accreditation+Agency%29+Regulations%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/regulationindividualfile/&file=wdra_meetings_regulations%2C_2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/regulationindividualfile/&file=Warehousing+Development+and+Regulatory+Authority+%28Maintenance+of+Records+and+Accounts+of+Warehousing+Business%29+Regulations%2C+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/regulationindividualfile/&file=WDRA+Officers+and+employees+regulations%2C+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/regulationindividualfile/&file=eNWR+Regulations+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/regulationindividualfile/&file=WDRA%28Conditions+of+service%29+%28Amendment%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/regulationindividualfile/&file=1--warehousing_development_and_regulatory_authority_%28conditions_of_service_of_the_officers_and_other_employees%29_%28amendment%29_regulations%2C_2019-_dt.2.9.2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/regulationindividualfile/&file=2---warehousing_development_and_regulatory_authority_%28conditions_of_service_of_the_officers_and_other_employees%29_%28amendment%29_regulations%2C_2021_-_dt_5.11.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/notificationindividualfile/&file=notification_so_698_e_dt_14-2-2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_28_00009_200737_1517807325670/hindinotificationsindividualfile/&file=wdra_act%2C_2007_-_gsr_311_%28e%29_dated_4th_june%2C_2024_0001.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

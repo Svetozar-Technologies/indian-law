@@ -17,17 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1979
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1979/1/AAairpoert1994__55.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/rulesindividualfile/&file=AAI+Service+Condition+of++Chairman_Members.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/rulesindividualfile/&file=AAI%28Conditions+of+service+of+Chairman_member+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+AAI+Leave+Regulations+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+AAI+Employee+CDA+Regulations.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+AAI+Medical+Attendance+Regulations.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+Airport+Management+Regulations.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+AAI+TA+DA+Regulations+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+AAI+HBA+Regulations+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+AAI+LTC+Regulations+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_36_56_00003_199455_1517807323698/regulationindividualfile/&file=Regulation+AAI+Gratuity+Regulations+2003.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, commencement and application.
 

@@ -17,11 +17,6 @@ Sections: 37 to 79
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1367
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1367/5/a1957-14.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/rulesindividualfile/&file=copyrightrules1958.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/rulesindividualfile/&file=copyright+2013searchable.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/rulesindividualfile/&file=Copy-Right-Rules%28Amendment%29-2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00006_195714_1517807321712/notificationindividualfile/&file=the+International+Copyright+Order%2C+1999.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 37 - Broadcast reproduction right.
 

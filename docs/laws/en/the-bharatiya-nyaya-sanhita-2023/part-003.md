@@ -17,7 +17,6 @@ Sections: 140 to 248
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/20062
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/20062/1/a202345.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 140 - Kidnapping or abducting in order to murder or for ransom, etc.
 

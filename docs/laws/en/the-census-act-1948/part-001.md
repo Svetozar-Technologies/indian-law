@@ -17,14 +17,6 @@ Sections: 1 to 18
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1519
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1519/1/AAA1948___37.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00002_194837_1517807319480/rulesindividualfile/&file=census_rule_1990%28with_amendments%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00002_194837_1517807319480/notificationindividualfile/&file=Declaration+of+census+of+population+during+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00002_194837_1517807319480/notificationindividualfile/&file=Extension+of+provisions+of+Census+Act%2C+1948+for+conduct+of+pre-test+of+census+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00002_194837_1517807319480/notificationindividualfile/&file=%28a%29+Date+for+houselisting+operations+for+census+2011+%28b%29+List+of+questions+that+may+be+asked+by+Census+Officer+during+census+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00002_194837_1517807319480/notificationindividualfile/&file=Exercise+of+powers+of+Central+Government+by+Director%2C+Census+and+DM+under+section+7A+to+7F.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00002_194837_1517807319480/notificationindividualfile/&file=Amendment+to+Notification+SO+517%28E%29+dated+25.2.2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00002_194837_1517807319480/notificationindividualfile/&file=published_notification_on_census_2021.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

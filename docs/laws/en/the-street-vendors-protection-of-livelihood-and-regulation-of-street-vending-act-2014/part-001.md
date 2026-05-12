@@ -17,47 +17,6 @@ Sections: 1 to 39
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2124
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2124/1/a2014-07.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=26Delhi_Street_Vendors+_Rules%2C2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=punjab_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_%28maharashtra%29_rules%2C_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=odisha_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_%28maharashtra%29_rules%2C_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=25Lakshadweep_street_vender.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=24Chandigarh_street_vender.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=21Dadar_street_vender.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=22Daman_street_vender.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=23Andaman_street_vender.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=17Chattisgarh_Street_Vendors_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=20Tamil_Nadu_Street_Vendors_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=rajasthan_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_%28maharashtra%29_rules%2C_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=assam_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=jharkhand.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=manipur_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=karnataka_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=uttarakhand_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_%28maharashtra%29_rules%2C_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=tripura_maharashtra_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_%28maharashtra%29_rules%2C_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=13Maharashtra_Street_Vendors_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=8Goa_Tamil_Nadu_Street_Vendors.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=9Himachal_Pradesh_Street_Vendors.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=gujarat_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=puducherry_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=haryana.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=7.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=andhra_pradesh.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=madhyapradesh_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=uttar_pradesh.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=sikkim.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=the_meghalaya_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2017_for_urban_area_of_state.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=mizoram.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=delhi_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2014..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=union_territory_of_delhi_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=kerala_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=west_bengal_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=arunachal_pradesh_rules_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=nagaland_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=karnataka_rules_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=telangana_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rule%2C2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=the_jammu_%26_kashmi_street_vendors_%28protection_of_livelihood_and_regulation_of_street_vending%29_rules%2C_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_47_83_00001_201407_1517807327761/rulesindividualfile/&file=jammu_and_kashmir_street_vendors_protection_of_livelihood_and_regulation_of_street_vending_rules_2021.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, commencement and provisions.
 

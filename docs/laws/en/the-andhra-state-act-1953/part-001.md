@@ -17,8 +17,6 @@ Sections: 1 to 69
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2176
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2176/1/A1953-30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00060_195330_1517807328522/notificationindividualfile/&file=Constitution+of+Tungbhadra+Board.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,7 +17,6 @@ Pages: 1 to 8
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1498
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1498/3/A1960-64.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Page 1
 

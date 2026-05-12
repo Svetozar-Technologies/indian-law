@@ -17,8 +17,6 @@ Sections: 1 to 26
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1569
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1569/1/aA1971-56.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00004_197156_1517807318130/regulationindividualfile/&file=C%26AG+Rules+2007.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

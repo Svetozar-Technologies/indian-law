@@ -17,7 +17,6 @@ Sections: 1 to 8
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1940
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1940/3/A1993-36.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and application.
 

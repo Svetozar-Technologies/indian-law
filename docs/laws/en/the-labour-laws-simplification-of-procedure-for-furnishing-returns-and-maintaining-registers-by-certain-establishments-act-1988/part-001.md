@@ -17,9 +17,6 @@ Sections: 1 to 8
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1687
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1687/1/A1988-51.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00028_198851_1517807324521/notificationindividualfile/&file=the_labour_laws_%28exemption_from_funishing_returns_and_maintaining_reisters_by_certain_establishments%29_amendment_act%2C_2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00028_198851_1517807324521/notificationindividualfile/&file=the_labour_laws_%28exemption_from_funishing_returns_and_maintaining_reisters_by_certain_establishments%29_amendment_act%2C_2014_-_notification_-_31.12.2014.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

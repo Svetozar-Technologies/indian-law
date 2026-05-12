@@ -17,7 +17,6 @@ Pages: 1 to 1
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/18942
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/18942/1/a1848-20.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Page 1
 

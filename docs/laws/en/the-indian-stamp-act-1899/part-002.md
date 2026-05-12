@@ -17,11 +17,6 @@ Sections: 23A to 48
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/15510
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/15510/5/A1899-2%20.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00036_189902_1523339055436/rulesindividualfile/&file=stamp_act%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00036_189902_1523339055436/notificationindividualfile/&file=E_108_2011_027_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00036_189902_1523339055436/notificationindividualfile/&file=E_358_2011_017_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00036_189902_1523339055436/notificationindividualfile/&file=E_1279_2010_001_sw.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 23A - Certain instruments connected with mortgages of marketable securities to be chargeable as agreements.
 

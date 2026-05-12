@@ -17,29 +17,6 @@ Sections: 22 to 51
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1632
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1632/1/A1956-31.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=LIC+rules+1956.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_class_iii_%26_class_iv_employees_%28revision_of_terms_and_conditions_of_service%29_rules%2C_1985.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_class_i_officers_%28revision_of_terms_and_conditions_of_service%29_rules%2C_1985.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_managing_director_%28revision_of_certain_terms_and_conditions_of_services%29_rules%2C_1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_development_officer_%28revision_of_terms_and_conditions_of_service%29_rules%2C_1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_class_iii_and_class_iv_employees_%28payment_of_kit_allowance%29_rules%2C_1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_class_iii_employee_%28special_allowance_for_passing_examination%29_rules%2C_1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_%28special_area_allowance%29_rules%2C_1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_%28regulation_of_superannuation%29_rules%2C_1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_%28daily_allowance_and_hotel_charges_to_employees_on_tour%29_rules%2C_1989.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_class_iii_%26_class_iv_employees_promotion_rules%2C_1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_%28employee%29_pension_rules%2C_1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=chief_executive_md_gratuity.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_chief_executive_%28revision_of_certain_terms_and_conditions_of_service%29_rules%2C_1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india%2C_information_technology_specialist_group_%28selection%2C_terms_and_conditions_of_service_and_payment_of_allowance%29_rules%2C_2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_%28special_allowance_for_in-house_development_of_actuarial_capability%29_rules%2C_2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_class_i_officers_%28special_allowance_for_passing_examinations_of_insurance_institute_of_india%29_rules%2C_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=life_insurance_corporation_of_india_%28staff%29_rules%2C_1960.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/rulesindividualfile/&file=the_life_insurance_corporation_general_rules%2C_1956_-_last_amended_on_4.3.2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/regulationindividualfile/&file=life_insurance_corporation_of_india_shareholders_director_regulation%2C_2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/notificationindividualfile/&file=the_life_insurance_corporation_general_regulations%2C_2021_-_as_on_22.7.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00018_195631_1517807320796/notificationindividualfile/&file=notification_under_section_50_of_the_life_insurance_corporation_act%2C_1956_-s.o._995%28e%29%2C_dated_3.3.2022.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 22 - Zonal Managers.
 

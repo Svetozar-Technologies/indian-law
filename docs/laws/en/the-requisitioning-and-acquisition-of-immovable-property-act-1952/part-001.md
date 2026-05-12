@@ -17,9 +17,6 @@ Sections: 1 to 26
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2166
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2166/1/A1952-30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00032_195230_1517807328394/rulesindividualfile/&file=requisitioning_and_acquisition_of_immovable_property_rules_1953..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00032_195230_1517807328394/rulesindividualfile/&file=raip_1_gazette_notification_dated_20-2-2019.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and duration.
 

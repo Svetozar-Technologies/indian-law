@@ -17,11 +17,6 @@ Sections: 1 to 16
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/20064
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/20064/1/A2023-43.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_95_00003_2023-43_1718954617340/rulesindividualfile/&file=po_rules%2C_2024.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_95_00003_2023-43_1718954617340/hindirulesindividualfile/&file=po_rules%2C_2024.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_95_00003_2023-43_1718954617340/regulationindividualfile/&file=po_regulations_2024.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_37_95_00003_2023-43_1718954617340/hindiregulationsindividualfile/&file=po_regulations_2024.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

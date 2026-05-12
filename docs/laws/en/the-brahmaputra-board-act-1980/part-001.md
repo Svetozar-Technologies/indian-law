@@ -17,15 +17,6 @@ Sections: 1 to 30
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1810
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1810/1/198046.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/rulesindividualfile/&file=brahmputra_board_rules_1981.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/rulesindividualfile/&file=brahmputra_board_amendment_rules_1992.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/rulesindividualfile/&file=brahmputra_board_act_rules_1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/regulationindividualfile/&file=brahmputra_board_act_regulation_1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_24_10_1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_10_09_1992..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_02_11_1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_24_32_00004_198046_1517807326354/notificationindividualfile/&file=brahmputra_board_act_notification_18_12_2005.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

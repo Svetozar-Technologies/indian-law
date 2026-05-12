@@ -17,7 +17,6 @@ Pages: 32 to 61
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/3123
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/3123/1/a1957-27.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Page 32
 

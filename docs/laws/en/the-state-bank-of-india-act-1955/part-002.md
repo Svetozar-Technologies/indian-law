@@ -17,22 +17,6 @@ Sections: 36 to 57
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1553
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1553/1/A1955-23.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/rulesindividualfile/&file=sbi_officer_servcie_rules_1992.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/rulesindividualfile/&file=sbi_employees_pension_fund_regulations_2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_act%2C_1955_-_updated_as_on_july_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_act%2C_1955_-_updated_as_on_april_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=acquisition_order-_state_bank_of_saurashtra_-_2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_appointment_of_employee_directors_%28amendment%29_rules_2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=acquisition_of_state_bank_of_indore_order_-_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_general_%28amendment%29_regulations%2C_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_employees_pension_fund_regulations_-_2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_employees_provident_fund_regulations_-_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=acquisition_of_bharatiya_mahila_bank_order_-_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=acquisition_of_associate_banks_of_state_bank_of_india_order_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_general_%28amendment%29_regulations_-_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_employees_pension_fund_amendment_regulations_-_2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00007_195523_1517807318520/regulationindividualfile/&file=state_bank_of_india_general_%28amendment%29_regulations_2019_0.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 36 - Integration and Development Fund.
 

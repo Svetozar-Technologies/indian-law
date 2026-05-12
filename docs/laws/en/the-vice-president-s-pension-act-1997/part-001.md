@@ -17,13 +17,6 @@ Sections: 1 to 6
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1936
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1936/2/A1997-30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00015_199730_1517807323326/rulesindividualfile/&file=Vice-President%27s+Pension%2C+Housing+and+Other+Facilities+Rules%2C1999.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00015_199730_1517807323326/notificationindividualfile/&file=Vice-President%27s+Pension%2C+Housing+and+Other+Facilities+Rules%2C1999%28G.S.R.+228%28E%29%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00015_199730_1517807323326/notificationindividualfile/&file=Vice-President%27s+Pension%2C+Housing+and+Other+Facilities+%28Amendment%29+Rules%2C2000+G.S.R.+222%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00015_199730_1517807323326/notificationindividualfile/&file=The+Vice-President+Pension%28Amendment%29Act%2C2002%2823+of+2002%29%2CG.S.R.+705%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00015_199730_1517807323326/notificationindividualfile/&file=Vice-President%E2%80%99s+Pension%2CHousing+and+other+facilities%28Amendment%29+Rules%2C2009%28G.S.R.+89%28E%29%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00015_199730_1517807323326/notificationindividualfile/&file=Vice-President%27s+Pension%2C+Housing+and+Other+Facilities+%28Amendment%29+Rules%2C2018%28G.S.R.+487%28E%29%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

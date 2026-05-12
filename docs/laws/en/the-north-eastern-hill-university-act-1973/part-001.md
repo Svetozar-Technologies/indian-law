@@ -17,8 +17,6 @@ Sections: 1 to 42
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1478
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1478/1/197324.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_9_00002_197324_1517807318442/statuteindividualfile/&file=NEHU.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,33 +17,6 @@ Sections: 1 to 19
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1522
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1522/1/a1955-57.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/rulesindividualfile/&file=The+Citizenship+%28Registraiton+of+Citizens+and+Issue+of+National+Identity+Cards%29+Rules%2C+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/rulesindividualfile/&file=Citizenship+Rule-2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/rulesindividualfile/&file=Citizenship+%28Registration+of+Citizens+and+Issue+of+National+Identity+Cards%29+Amendment+Rules%2C+2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/rulesindividualfile/&file=Citizenship+%28Registration+of+Citizens+and+Issue+of+National+Identity+Cards%29+Amendmennt+Rules+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/rulesindividualfile/&file=citizenship%28amendment%29_rules_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/rulesindividualfile/&file=Citizenship+%28Amendment%29+Rules+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/rulesindividualfile/&file=Citizenship+Amendment+Rules+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/rulesindividualfile/&file=citizenship%28second%29_amendment_rules_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/circularindividualfile/&file=exception_of_manual_acceptance_pak-afghan_dt_17-11-14.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/circularindividualfile/&file=delegation_of_power_to_indian_mission_dt_17-06-2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/notificationindividualfile/&file=Rights+to+which+the+persons+registered+as+OCI+entitled+to.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/notificationindividualfile/&file=PIO+Card+holder+deemed+to+be+OCI+card+holder.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/notificationindividualfile/&file=14864+Bangladesh+Citi.+Notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/notificationindividualfile/&file=Delegation+of+power+to+7+States.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/notificationindividualfile/&file=Notification+dated+30+July+2018+under+Citizenship+%28Registration+of+Citizens+and+Issue+of+National+Identity+Cards%29+Rules%2C+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/notificationindividualfile/&file=the_citizenship_%28amendment%29_act_2019_enforcement_notification%28bilingual%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=order.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=Order+of+2013+w.r.t.+Citizenship+%28Registraiton+of+Citizens+and+issue+of+national+identity+Cards%29+Rules%2C+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=delegation_of_power_to_the_heads_of_indian_mission%2C1955.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=delegation_of_power_to_head_of_mission_in_mauritius.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=eligibility_of_persons_registered_as_oci_cardholder_for_appointment_as_teaching_faculty.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=quantum_of_fees_to_be_charged_for_conversion_of_oci_card_in_lieu_of_valid_pio_card.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=eligibility_for_appointment_as_teaching_faculty_in_indian_institute_of_science_and_new_aims_set_up_under_pmssy.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=Allocation+of+jurisdiction+for+issuance+of+OCI+card+in+respect+of+Gujarat+State+to+FRRO+Ahmedabad.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=grant_of_certificate_of_naturalisation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_40_00001_195557_1517807319455/orderindividualfile/&file=descendants_in_suriname.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

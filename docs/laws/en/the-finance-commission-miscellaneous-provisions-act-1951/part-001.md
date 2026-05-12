@@ -17,9 +17,6 @@ Sections: 1 to 8
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1941
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1941/1/195143.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00033_195133_1517807323203/rulesindividualfile/&file=finance_commission_miscallenous_searchable_act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00033_195133_1517807323203/rulesindividualfile/&file=e_261_2011_021.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

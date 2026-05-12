@@ -17,9 +17,6 @@ Sections: 1 to 31
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2065
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2065/1/aa2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00004_200522_1517807322955/rulesindividualfile/&file=RTIRules_2012_English_0.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00004_200522_1517807322955/rulesindividualfile/&file=rti_rules%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

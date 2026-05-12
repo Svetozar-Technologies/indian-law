@@ -17,15 +17,6 @@ Sections: 1 to 22
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1506
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1506/3/A1955-36.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00001_195536_1517807318826/rulesindividualfile/&file=Durgah+bye-Laws%2C+1958.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00001_195536_1517807318826/rulesindividualfile/&file=DKS+Service+Rules%2C+1977.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00001_195536_1517807318826/rulesindividualfile/&file=EPF+DKS+Ajmer.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00001_195536_1517807318826/rulesindividualfile/&file=DKS+Property+Lease+Rles%2C+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00001_195536_1517807318826/notificationindividualfile/&file=Constitution+of+Durgah+Committe.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00001_195536_1517807318826/notificationindividualfile/&file=Constitution+of+Durgah+Committe1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00001_195536_1517807318826/notificationindividualfile/&file=Constitution+of+DC+2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00001_195536_1517807318826/notificationindividualfile/&file=422019.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

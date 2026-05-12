@@ -17,7 +17,6 @@ Sections: 1 to 18
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2269
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2269/1/AAA1867____03.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Interpretation-clause.
 

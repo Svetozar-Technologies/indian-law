@@ -17,19 +17,6 @@ Sections: 1 to 44
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1391
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1391/3/A1957-61.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_%28election_of_representatives_of_delhi_municipal_corporation%29_rules_1958.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_rules_1958.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_%28procedure_for_reference_to_the_central_government%29_rules%2C_1960.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=23mas_zonal_devplan.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_%28miscellenous%29_rules_1959.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_%28better_charge_arbitration%29_rules%2C_1961.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_%28master_plan_and_zonal_development_plan%29_rules_1959.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_%28procedure_to_stop_development%29_rules%2C_1974.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_%28removal_of_objectionable_developments%29_rules%2C_1975.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_%28ceiling_of_development%29_rules%2C_1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_%28form_of_appeal%29_rules%2C_1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00009_195761_1517807321540/rulesindividualfile/&file=delhi_development_authority_%28disposal_of_developed_nazul%29_land%29_amendment_rules%2C_2009.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

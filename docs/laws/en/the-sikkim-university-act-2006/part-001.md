@@ -17,21 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2049
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2049/1/200710.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Reguation+1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+5.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+3.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+4.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+7.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+6.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+8.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+9.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+11.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/regulationindividualfile/&file=SU+Regulations+12.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/ordinanceindividualfile/&file=SU+Ordinances.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00030_200710_1517807327488/statuteindividualfile/&file=Sikkim+University+Statutes.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,16 +17,6 @@ Sections: 1 to 37
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2105
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2105/1/201031.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/rulesindividualfile/&file=Land+Ports+Authority+of+India+Rules+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India%28Transaction+of+Business%29+Regulations%2C2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India+%28Contracts%29+Regulations%2C2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India+%28Lost+Property%29+Regulations%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India+%28Fees+and+Other+Charges%29+Regulations%2C2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India%28Conditions+of+Service+of+Officers+and+other+Employees%29+Regulations%2C2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/regulationindividualfile/&file=Land+Ports+Authority+of+India+%28Officers+and+Other+Employees%29+Recruitment+Regulations%2C+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/circularindividualfile/&file=Revision+of+warehouse+tariff+and+weighment+charges+at+ICP+attari+dated+19.09.2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_80_00001_201031_1517807327519/notificationindividualfile/&file=No.+S.NO.+2097+%28E%29+dated+13.06.2016+regarding+Notification+of+10+Police+Stations.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

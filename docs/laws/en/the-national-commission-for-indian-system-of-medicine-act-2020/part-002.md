@@ -17,8 +17,6 @@ Sections: 55 to 59
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/15622
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/15622/1/AA2020__14national.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_51_0_00003_202014_1602498622060/rulesindividualfile/&file=the_national_commission_for_indian.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 55 - Power to make regulations.
 

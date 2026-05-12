@@ -17,8 +17,6 @@ Sections: 1 to 15
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1789
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1789/1/A1984-05.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00012_198405_1517807326040/notificationindividualfile/&file=seachable+AS+_notification_sw.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

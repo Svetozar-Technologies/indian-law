@@ -17,7 +17,6 @@ Sections: 1 to 2
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19042
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19042/1/a1859-05.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Ghatwals of Beerbhoom to have the same right of granting leases as is allowed to other proprietors of lands.
 

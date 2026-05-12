@@ -17,15 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2079
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2079/1/AA2012-32.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/rulesindividualfile/&file=POCSO+Rules%2C+2012+14-Nov-2012+%282%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/notificationindividualfile/&file=Notification++09-Nov-2012+%282%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/orderindividualfile/&file=26+march+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/orderindividualfile/&file=28+feb+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/orderindividualfile/&file=1+march+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/orderindividualfile/&file=11+july+2017+%282%29+-+both.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/orderindividualfile/&file=6+september+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00005_201232_1517807323686/ordinanceindividualfile/&file=184902.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

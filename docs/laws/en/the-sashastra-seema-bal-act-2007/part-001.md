@@ -17,15 +17,6 @@ Sections: 1 to 92
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2039
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2039/1/a2007-53.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/rulesindividualfile/&file=ssb_rule_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/notificationindividualfile/&file=Date+of+effect+of+the+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/notificationindividualfile/&file=gsr_80_ssb_crpc_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/notificationindividualfile/&file=powers_delegated_to_the_ssb_official_under_arms_act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/hindinotificationsindividualfile/&file=powers_delegated_to_the_ssb_official_under_arms_act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/notificationindividualfile/&file=so_1319_sbb_passport_act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/notificationindividualfile/&file=ssb_so_2777%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00022_200753_1517807327089/hindinotificationsindividualfile/&file=so_2777%28e%29_27.10.2014.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

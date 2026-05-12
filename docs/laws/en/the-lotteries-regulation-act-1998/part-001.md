@@ -17,11 +17,6 @@ Sections: 1 to 13
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1994
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1994/1/A1998-17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/rulesindividualfile/&file=Lotteries+%28Regulation%29+Rules%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/notificationindividualfile/&file=Notification+GSR+No.+278%28E%29+dated+01.04.2010+regarding+the+Lotteries+%28Regulation%29+Rules%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/notificationindividualfile/&file=Notification+GSR+No.+883%28E%29+dated+15.12.2011+for+banning+sale+of+Sikkim+State+Lottery+in+Kerala.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00017_199817_1517807323788/notificationindividualfile/&file=S.O.+No.+1641%28E%29+dated+12.06.2015+for+extending+the+ban+of+sale+of+Sikkim+State+Lottery+in+Kerala.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

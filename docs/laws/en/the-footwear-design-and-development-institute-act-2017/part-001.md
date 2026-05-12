@@ -17,12 +17,6 @@ Sections: 1 to 39
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2255
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2255/1/a2017-20.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/rulesindividualfile/&file=FDDI+-+RRs.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/notificationindividualfile/&file=Act+Enforcement.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/ordinanceindividualfile/&file=ordinance_fddi_21.06.19.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/statuteindividualfile/&file=Ist+Statute+of+FDDI.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00011_201720_1517807328050/statuteindividualfile/&file=FDDI-Statute-Corrigenda.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

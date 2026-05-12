@@ -17,37 +17,6 @@ Sections: 1 to 43
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1898
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1898/1/A1992-40.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/rulesindividualfile/&file=gazette_1995_0001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_ordinance1of1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_2of1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_3of1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_4of1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_5of1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_6of1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_7of1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_8of1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_1of1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_2of1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_3of1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_1of1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_2of1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_3of1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_1of1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_1of2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_2of2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_3of2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_1of2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_2of2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_3of2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_4of2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_6of2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_7of2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_2of2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/ordinanceindividualfile/&file=cau_imphal_ordinance_1of2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/statuteindividualfile/&file=cau_imphal_statues_hindi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/hindistatutesindividualfile/&file=cau_imphal_statues_hindi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_47_00001_199240_1517807320364/statuteindividualfile/&file=cau_imphal_status.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

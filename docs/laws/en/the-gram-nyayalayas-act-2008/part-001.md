@@ -17,8 +17,6 @@ Sections: 1 to 40
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2060
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2060/3/A2009-04.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00009_200904_1517807319778/rulesindividualfile/&file=The+UP+Gram+Nayayalaya+Procedure+and+Practice+Rules%2C+2009.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

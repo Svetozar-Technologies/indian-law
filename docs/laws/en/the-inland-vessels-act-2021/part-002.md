@@ -17,7 +17,6 @@ Sections: 74 to 114
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/17048
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/17048/1/aA2021-24.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 74 - Reporting of casualty, accident, wreck, etc.
 

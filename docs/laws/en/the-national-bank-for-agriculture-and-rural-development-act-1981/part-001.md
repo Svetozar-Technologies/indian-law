@@ -17,10 +17,6 @@ Sections: 1 to 49
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1670
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1670/5/A1981-61.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_57_00002_198161_1517807321872/regulationindividualfile/&file=NABARD+General+Regulations+1982.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_57_00002_198161_1517807321872/regulationindividualfile/&file=NABARD+%28Issue+and+management+of+Bonds%29+Regulations+1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_57_00002_198161_1517807321872/regulationindividualfile/&file=nabard_pension_regulations%2C_1993.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,16 +17,6 @@ Sections: 1 to 28
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1731
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1731/1/A1969-43.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/rulesindividualfile/&file=kbopl_rule_21_july_1970.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/regulationindividualfile/&file=kbopl_regulation_maintaince_1982_%283%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/regulationindividualfile/&file=kbopl_board_meetings_19_august_1984.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/regulationindividualfile/&file=kbopl_financial_powers_22_december_1984.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/regulationindividualfile/&file=kbopl_regualtion_maintenance_1985.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/regulationindividualfile/&file=kbopl_service_regulation_1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/regulationindividualfile/&file=kbopl_service_regulation_1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/regulationindividualfile/&file=kbopl_service_%28amendment%29_regulations%2C_2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00011_196943_1517807324568/notificationindividualfile/&file=kbopl-rule_with_schedule_for_moc_website_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

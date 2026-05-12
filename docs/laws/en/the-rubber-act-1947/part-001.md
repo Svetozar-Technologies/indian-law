@@ -17,18 +17,6 @@ Sections: 1 to 29
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1563
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1563/5/A1947-24.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=1SRO+1661%2C+1662+dated+1st+Aug+1955+Principal+Rubber+Rules+1955.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=2GSR+1000+dated+18.06.1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=7GSR+704%28E%29+dated+25.08.2010+clarific.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=3GSR+1756+dated+20.11.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=4GSR+716+dated+20.06.1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=5+GSR+897%28E%29+dated+12.12.2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=6Rubber+%28Amendment%29+Act%2C+2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=8GSR+668%28E%29+dated+04.07.2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=9GSR+1513%28E%29+dated13.12.2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/rulesindividualfile/&file=10GSR+18%28E%29+dated+08.01.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00003_194724_1517807319195/notificationindividualfile/&file=Notification+Taxation+Amendment+Act05.05.2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

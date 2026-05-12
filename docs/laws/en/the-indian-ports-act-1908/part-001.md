@@ -17,9 +17,6 @@ Sections: 1 to 61
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2344
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2344/1/A1908-15.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_0_00019_190815_1523340712881/rulesindividualfile/&file=mormugao_port_rules_1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_0_00019_190815_1523340712881/regulationindividualfile/&file=document.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Title and extent.
 

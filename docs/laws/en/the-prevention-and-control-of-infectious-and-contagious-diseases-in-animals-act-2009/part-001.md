@@ -17,8 +17,6 @@ Sections: 1 to 45
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2101
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2101/1/AAa2009__27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00007_200927_1517807327569/rulesindividualfile/&file=Rules+under+PCDA+Act.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

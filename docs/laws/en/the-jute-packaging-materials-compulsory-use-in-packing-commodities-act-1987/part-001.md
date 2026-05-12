@@ -17,18 +17,6 @@ Sections: 1 to 17
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1882
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1882/2/A1987-10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/rulesindividualfile/&file=gsr731e.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/notificationindividualfile/&file=jpm-resolution_regarding_formation_of_jab.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jute_packaging_materials_order_2007_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jute_packaging_materials_order.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jpma_powers_act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jute_and_jute_textiles_control_order_of_4th_feb_2016_%282%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=import_notification_23.5.2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jute_packaging_materials%2C_order%2C_30_nov_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jute_packaging_materials%2C_order_27_jan_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jpm_31032023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00014_198710_1517807326889/orderindividualfile/&file=jpm_order_extended_till_spet23.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,11 +17,6 @@ Sections: 1 to 45
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1690
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1690/1/A1972-20.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00017_197220_1517807324770/rulesindividualfile/&file=Council+of+Architecture+Rules+1973.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00017_197220_1517807324770/regulationindividualfile/&file=Council+of+Architecture+Regulations+1982.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00017_197220_1517807324770/regulationindividualfile/&file=Minimum+Standards+of+Architectural+Education+Regulations+1983.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00017_197220_1517807324770/regulationindividualfile/&file=MSAER_2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

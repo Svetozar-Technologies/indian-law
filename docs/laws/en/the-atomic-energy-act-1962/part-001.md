@@ -17,26 +17,6 @@ Sections: 1 to 32
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1413
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1413/1/A1962-33.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/rulesindividualfile/&file=atomic_enery_%28factories%29_rules_1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/rulesindividualfile/&file=ae%28wmmps%29_1984.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/rulesindividualfile/&file=atomicrules25032021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/rulesindividualfile/&file=ae%28sdrw%29rules_1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/rulesindividualfile/&file=rpr2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/rulesindividualfile/&file=ae_amend_2015_0116.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/rulesindividualfile/&file=notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/rulesindividualfile/&file=notification_of_ae%28ammendment%29_act_2015_dated_11.07.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/regulationindividualfile/&file=regulation1_searchable.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/regulationindividualfile/&file=regulation2_searchable.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/notificationindividualfile/&file=Notification+on+List+of+Prescribed+substances%2C+Prescribed+Equipment+and+Technology.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/notificationindividualfile/&file=Guidelines+for+Nucl.+Transfer+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/notificationindividualfile/&file=notif0705.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/notificationindividualfile/&file=order_-_15th_dec.2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/notificationindividualfile/&file=notification_-_2nd_feb.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/notificationindividualfile/&file=notification_2865_mumbai_26.10.2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/notificationindividualfile/&file=notification_s.o.984_23.03.2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/notificationindividualfile/&file=notification_s.o.1014_e_04..07.2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00001_196233_1517807321654/notificationindividualfile/&file=order_s.o.213_e_15.03.1995.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

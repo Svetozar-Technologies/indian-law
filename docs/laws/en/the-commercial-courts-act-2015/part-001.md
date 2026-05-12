@@ -17,12 +17,6 @@ Sections: 1 to 23
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2156
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2156/1/a2016-04.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00008_201604_1517807328347/rulesindividualfile/&file=statistical.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00008_201604_1517807328347/rulesindividualfile/&file=PIMS+RULES.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00008_201604_1517807328347/rulesindividualfile/&file=189806.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00008_201604_1517807328347/rulesindividualfile/&file=the_commercial_courts_%28statistical_data_and_pims%29_amendment_rules_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00008_201604_1517807328347/notificationindividualfile/&file=12+A.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

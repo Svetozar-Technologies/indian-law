@@ -17,22 +17,6 @@ Sections: 1 to 16
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1927
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1927/1/A1992-19.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=1058.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=2257.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=2739.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=217.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=219.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=547.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=567.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=582.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=227.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=1028.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=249.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=1484.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=1585.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=1872.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_41_69_00001_199219_1517807322944/notificationindividualfile/&file=2976.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

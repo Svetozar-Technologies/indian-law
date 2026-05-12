@@ -17,7 +17,6 @@ Sections: 1 to 24
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19035
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19035/1/A1863-23.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Provision for inquiry into claims to land, or objections to sale of same.
 

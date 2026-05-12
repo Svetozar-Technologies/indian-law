@@ -17,29 +17,6 @@ Sections: 1 to 37
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2056
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2056/1/200604.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/rulesindividualfile/&file=CPCR+Rules+2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/rulesindividualfile/&file=E_52_2012_124+08-Feb-2012+extract.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/rulesindividualfile/&file=E_317_2012_026+29-Jun-2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/rulesindividualfile/&file=NCPCR+%28Amendment%29+Rules%2C+2014+24+Mar+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/rulesindividualfile/&file=NCPCR+%28Second+Amendment%29+Rules%2C+2014+06-May-2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_164_2010_009+15-Feb-2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_232_2011_007+06-Mar-2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_372_2011_008+10-Apr-2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_1076_2011_003+06-Sep-2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_102_2010_008+23-Jan-2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_968_2012_008+18-May-2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_2387_2011_001+22-Nov-2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_1581_2012_006+11+Aug+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_1208_2012_008+29-Jun-2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=E_1424_2013_006+31-Jul-2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=28-May-2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=21+Sep+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/notificationindividualfile/&file=6+Nov+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/orderindividualfile/&file=26+march+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/orderindividualfile/&file=28+feb+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/orderindividualfile/&file=11+july+2017+%282%29+-+both.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_17_00001_200604_1517807317700/orderindividualfile/&file=6+september+2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

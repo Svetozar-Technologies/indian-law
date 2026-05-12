@@ -17,24 +17,6 @@ Sections: 1 to 16
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1484
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1484/2/A1976-80.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Coming+into+force+of+Sections+5+and+7+of+the+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Description+of+the+area+of+sea+of+limits+of+historic+waters+of+India+Jan+15%2C+1977.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO+925+E+Designated+places+under+Section+13.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+Maritime+Boundary+Agreement+between+India+and+other+States.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+Declaration+of+Exclusive+Economic+Zone+of+India+18+July%2C+1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+prohibition+of+entry+of+ships+of+23+July+1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Corrigendum+dated+19+Sept.%2C+1986.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Corrigendum+dated+4+August%2C+1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO+643+%28E%29+of+19.09.1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+prohibition+of+entry+to+India+any+ship+within+the+designated+area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Corrigendum+dated+16+June%2C+1999.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=Notification+regarding+extension+of+Oil+Fields+Regulation+and+Development+Act%2C+1948+%2816.06.1999%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=2002+Notification+on+The+Territorial+Waters%2C+Continental+Shelf%2C+Exclusive+Economic+Zone+and+Other+Maritime+Zones+Act%2C+1976.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO2168+Extension+of+application+of+provisions+%2822.12.2006%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO135E+Prohibition+of+any+ships+%2813.01.2009%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO1197+List+of+Geographical+Coordinates+%2811.05.2009%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00002_197680_1517807318455/notificationindividualfile/&file=SO2962E+%2820.11.2009%29+Amendment+to+SO1197+of+11.05.2009.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

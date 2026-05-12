@@ -17,13 +17,6 @@ Sections: 46 to 138
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1993
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1993/5/a1999-47.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00004_199947_1517807323972/rulesindividualfile/&file=Trade+Mark+Rules+2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00004_199947_1517807323972/rulesindividualfile/&file=The+Intellectual+Property+Appellate+Board+%28Procedure%29+Rules%2C+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00004_199947_1517807323972/rulesindividualfile/&file=tRADE+mARKS+RULES+2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00004_199947_1517807323972/rulesindividualfile/&file=TradeMark+Rules+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00004_199947_1517807323972/rulesindividualfile/&file=Trademarks+rules+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00004_199947_1517807323972/regulationindividualfile/&file=ocr8p-fmlte.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 46 - Proposed use of trade mark by company to be formed, etc.
 

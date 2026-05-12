@@ -18,13 +18,6 @@ Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2158
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2158/3/A2016-16.pdf
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2158/4/A2016-16.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00033_201616_1517807328405/rulesindividualfile/&file=2Daman_and_Diu_Agreement_for_Sale_Rules_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00033_201616_1517807328405/rulesindividualfile/&file=3Dadra_and_Nagar_Haveli_Agreement_for_Sale_Rules-2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00033_201616_1517807328405/rulesindividualfile/&file=4Chandigarh_Agreement_for_Sale_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00033_201616_1517807328405/rulesindividualfile/&file=1Lakshwadeep_Agreement_for_Sale_Rules_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00033_201616_1517807328405/rulesindividualfile/&file=5Andaman_and_Nicobar_Islands_Agreement_for_Sale_Rules_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00033_201616_1517807328405/rulesindividualfile/&file=Gztt.Notfn.+RERA+Act+Delhi+and+Rules+_amp_+Regulation+for+GNCTD+.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

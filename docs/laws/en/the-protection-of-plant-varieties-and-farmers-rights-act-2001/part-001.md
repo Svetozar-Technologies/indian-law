@@ -17,40 +17,6 @@ Sections: 1 to 61
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1909
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1909/1/A2001-53.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=rules_2003_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppvfr_amendment_rules_2008_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppvfr_amendment_relating_to_fixation_of_fees_rules_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppvfr_third_amendment_rule_2009_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppvfra_appellate_tribunal_rules_2010-min.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppv%26amp%3Bfr_%28amendment_in_rules_relating_to_onsite_dus_testing%29_rules%2C_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppv%26amp%3Bfr_reward_and_recognition_from_gene_fund_2012_sw-min.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppvfr_amendment_in_rules_relating_to_production_an_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppvfr_amendment_relating_to__annual_statement_rule_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=use_of_denomination_rules_2012_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppvfr_amendment_relating_to_costs_rules_2012_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppv%26amp%3Bfr_%28amendment_relating_to_application_form_for_registration_of_farmers_varieties%29_rules_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppvfr_%28amendment_in_rules%2C_regulations%29_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppv%26amp%3Bfr_%28amendment_relating_to_renewal_fee%29_rules_2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppv%26amp%3Bfr_%28community_awards_from_gene_fund%29_rules_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/rulesindividualfile/&file=ppvfr_second_amendment_rule_2009_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/regulationindividualfile/&file=regulation_2006_s.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/regulationindividualfile/&file=ppvfr_regulation_2009_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/regulationindividualfile/&file=ppv%26amp%3Bfr_%28amendment_relating_to_application_form_for_registration_of_new_extant_and_edv%29_rules_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_establishing_ppvfr_authority_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_annual_fee_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_relating_to_bodies_to_which_certificate_of_registration_has_to_be_endorsed.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_relating_to_jurisdiction_of_branch_of_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_documents_to_be_kept_in_branch_off_sw_searchable.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_relating_to_reduction_of_annual_fee_in_farmers_variety_rupees_ten_only.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_relating_to_appointment_of_non-official_members_of_ppv%26amp%3Bfr_authority.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_jurisdiction_of_branch_office_at_palampur%2C_pune_and_shivamogga.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_140_crop_species.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_cashew_and_arecanut.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_chironji%2C_tamarind_sweet_potato%2C_cassava_and_poplar.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_dr._k.v._prabhu_as_chairperson.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_9_crop_species.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_31_00002_200153_1517807322692/notificationindividualfile/&file=notification_of_dr._onkar_nath_singh_as_technical_member%2C_pvpat.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extend and commencement.
 

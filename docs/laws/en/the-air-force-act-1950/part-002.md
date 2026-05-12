@@ -17,9 +17,6 @@ Sections: 89 to 194
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1819
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1819/1/A1950-45.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00018_195045_1517807325980/rulesindividualfile/&file=AFrules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_28_38_00018_195045_1517807325980/regulationindividualfile/&file=AFRegulations.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 89 - Superior air force authority
 

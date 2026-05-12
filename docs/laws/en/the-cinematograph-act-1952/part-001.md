@@ -17,30 +17,6 @@ Sections: 1 to 18
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2170
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2170/1/A1952-37.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+Act%2C+1952+%2837+of+1952%29%2C+Part+I%26+II+come+into+force+in+J%26K.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+Certification+Rules+1983.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+%28Amendment%29+Rules%2C+1984.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+%28Second+Amendment%29+Rules%2C+1984.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+%2C%28Amendment%29+Rules%2C+1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+%28Third+Amendment%29+Rules%2C+1994+%26+Cinematograph+%28Certification%29+%28Second+Amendment%29+Rules%2C+1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+%28Amendment%29+Rules%2C+1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+%28Amendment%29+Rules+1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=gsr_370%28e%29_28.04.1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=gsr_705%28e%29_30.10.1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+Rules%2C+1983+Substitute+Rules+36+and+44.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+%282nd+Amendment%29+Rules%2C+1983.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+%28Third+Amendment%29+Rules%2C+1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+Amendment+Rules%2C+1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph.+%28Certification%29+%28Amendment%29+Rules%2C+1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph%28Certification%29+Second+Amendment+Rules+1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=Cinematograph+%28Certification%29+%28Third+Amendment%29+Rules%2C+1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=G.S.R.+77%28E%29+dated+21-01-2017+-+Enhancement+of+Fees+%282%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/rulesindividualfile/&file=GSR+357%28E%29+11.04.2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/notificationindividualfile/&file=s.o._836_%28e%29_06.12.1991.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/notificationindividualfile/&file=S.O.+836+%28E%29+06.12.1991.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/notificationindividualfile/&file=s.o._655_%28e%29_15.09.1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00011_195237_1517807328551/notificationindividualfile/&file=S.O.+655+%28E%29+15.09.1997.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

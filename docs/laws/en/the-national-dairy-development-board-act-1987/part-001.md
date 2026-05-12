@@ -17,11 +17,6 @@ Sections: 1 to 50
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1913
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1913/1/198737.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00003_198737_1517807323001/regulationindividualfile/&file=The+NDDB+Officers+CDA+%28Amendment%29.+Regulations%2C+2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00003_198737_1517807323001/regulationindividualfile/&file=The+NDDB+Workmen+Conduct%2C+Discipline+and+Appeal+Regulation1988.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00003_198737_1517807323001/regulationindividualfile/&file=NDDB+%28Enforcement+of+Claims%29+Regulations%2C+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00003_198737_1517807323001/regulationindividualfile/&file=NDDB+%28Administration+of+Fund%2C+Accounts+and+Budget%29+Regulations%2C+1988.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

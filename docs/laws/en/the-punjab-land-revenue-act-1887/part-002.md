@@ -17,7 +17,6 @@ Sections: 101 to 158
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19229
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19229/1/A1887-17.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 101 - Power of Revenue-officers to define boundaries.
 

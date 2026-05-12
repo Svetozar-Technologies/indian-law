@@ -17,26 +17,6 @@ Sections: 1 to 11
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1369
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1369/2/A1962-01.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Indian+Dock+Workers+%28Regulation+of+Employment%29+Act%2C+1948+to+DD+dt.+30.12.1964.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Indian+Dock+Labourers+Act%2C+1934+to+DD+dt.+30.12.1964.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Transfer+of+Prisoners+Act%2C+1950+to+DD+Dt.+20.03.1965.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Agricultural+Produce+%28Grading+and+Marketing%29+Act%2C+1937+to+DD+Dt.+08.05.1965.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Notification+1+done+under+Goa%2C+Daman+%26+Diu+%28Administration%29+Act%2C+1962.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Criminal+Law+Amendment+Act%2C+1932+and+Preventive+Detection+Act%2C+1950+to+DD+Dt.+02.06.1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Indian+Standards+Institution+%28Certification+Marks%29+Act%2C+1952+to+DD+Dt.+28.07.1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Criminal+Law+Amendment+Act%2C+1952+to+DD+Dt.+19.10.1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Madhya+Pradesh+Control+of+Music+and+Noises+Act%2C+Samvat+2008+to+DD+Dt.+25.10.1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+Public+Premises+%28Evication+of+Unauthorised+Occupants%29+Act%2C+1958+to+UT+of+Goa%2C+Daman+%26+DIu.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Indian+Carriage+by+Air+Act%2C+1934+%26+Requisitioning+and+Acquisition+of+Immovable+Property+Act%2C+to+DD+Dt.+15.03.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Forward+Contracts+%28Regulation%29+Act%2C+1952+to+DD+Dt.+24.06.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Maharashtra+Agricultural+Produce+Marketing+Regulation+Act%2C+1963+to+DD+Dt.+19.06.1968.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Criminal+law+Amendment+Ordinance%2C+1944+to+DD+Dt.+01.01.1973.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Agricultural+Produce+Cess+Act%2C+1940+to+DD+Dt.+21.06.1985.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+Gujarat+Prevention+of+Anti+Social+Activities+Act%2C+1985+to+DD+Dt.+25.09.1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Notification+Dt.+19.12.1996+regarding+extension+to+DD.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Notification+Dt.+01.07.1998+regarding+extension+to+DD.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00029_196201_1517807321884/notificationindividualfile/&file=Extension+of+the+West+Bengal+Prevention+of+Defacement+of+Property+Act%2C+1976+to+DD+Dt.+30.04.2013.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

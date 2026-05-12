@@ -17,23 +17,6 @@ Sections: 1 to 33
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2146
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2146/1/a2015-11.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/rulesindividualfile/&file=CMSP+Rules%2C2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/rulesindividualfile/&file=CMSP+Rules+Amendment+18.03.15.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/rulesindividualfile/&file=rule.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/rulesindividualfile/&file=gazette_notification_dated_29-05.2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=1.+3245E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=2.+428+E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=3.+871+E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=4.+877+E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=5.+2704E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=6.+2848+E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=GSR+848%28E%29+dtd+10.11.2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=7.+997E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=8.+2741+E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=9.+1271E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=17.12.2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_000010_201511_1517807328142/notificationindividualfile/&file=680%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

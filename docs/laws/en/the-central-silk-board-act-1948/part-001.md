@@ -17,10 +17,6 @@ Sections: 1 to 17
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1474
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1474/3/A1948-61.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00002_194861_1517807318751/rulesindividualfile/&file=CSB-GPF+-1966+rules+notified+on+31.12.1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00002_194861_1517807318751/rulesindividualfile/&file=CSB+Rules+1955+notified+23.03.1955.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00002_194861_1517807318751/regulationindividualfile/&file=CSB-Silkworm-Seed+Regulations+2010+notified+on+16.03.2010.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

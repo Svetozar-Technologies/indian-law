@@ -17,26 +17,6 @@ Sections: 1 to 40
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1850
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1850/1/198550.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=012_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=001_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/notificationindividualfile/&file=002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/ordinanceindividualfile/&file=IGNOU+Ordinance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00020_198550_1517807325539/statuteindividualfile/&file=IGNOU+ACT+.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

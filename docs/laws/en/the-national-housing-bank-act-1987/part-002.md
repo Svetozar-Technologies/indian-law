@@ -17,18 +17,6 @@ Sections: 36D to 57
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1881
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1881/4/A1987-53.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=5._nhb_%28issue_and_management_of_bonds%29_regulations%2C_1989.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=9._nhb_%28slum_improvement_and_low_cost_housing_fund%29_regulations%2C_1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=%28vii%29_national_housing_bank_employees_%28conduct%29_regulations%2C_1994..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=14._nhb_employee_regulations_%28discipline_and_appeals%29%2C1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=10.1_nhb_officers_service_regulations_1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=11._nhb_officers_service_regulation_%28amendment%29_-1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=8._national_housing_bank_%28recovery_of_dues_of_the_approved_institutions%29_general_regulations%2C_2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=16._national_housing_bank%28_employee_%29_pension_regulaton_2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=18._nhb_%28nomination%29_regulations%2C_2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=17._nhb_employees_pension_regulations_amendment_-_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00053_198753_1517807327356/regulationindividualfile/&file=13._nhb_officers_service_regulations_%28amendment%29_-2014.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 36D - Appointment of recovery officer.
 

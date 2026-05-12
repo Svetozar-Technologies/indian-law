@@ -17,11 +17,6 @@ Sections: 1 to 39
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1978
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1978/3/a1996-26.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00004_199626_1517807323919/rulesindividualfile/&file=527_english_aci_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00004_199626_1517807323919/rulesindividualfile/&file=528_english_aci.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00004_199626_1517807323919/rulesindividualfile/&file=529_english_aci.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_46_00004_199626_1517807323919/rulesindividualfile/&file=530_english_aci.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

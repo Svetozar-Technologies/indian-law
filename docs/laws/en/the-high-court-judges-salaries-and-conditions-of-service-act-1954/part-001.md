@@ -17,17 +17,6 @@ Sections: 1 to 25
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1431
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1431/1/A1954-28-E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/rulesindividualfile/&file=hc_furnishing.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/rulesindividualfile/&file=hc_travelling.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/rulesindividualfile/&file=08.01.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/rulesindividualfile/&file=238277.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/notificationindividualfile/&file=HIGH+COURT+AND+SUPREME+COURT+JUDGES+Gazette.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/notificationindividualfile/&file=Notification+19.3.18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/notificationindividualfile/&file=travelling_allowance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/notificationindividualfile/&file=gazette.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/notificationindividualfile/&file=traveling_allowance.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00013_195428_1517807322429/orderindividualfile/&file=rev.pension.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

@@ -17,15 +17,6 @@ Sections: 1 to 13
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2129
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2129/1/A1952-58.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/rulesindividualfile/&file=Ministers%E2%80%99+%28Allowances%2C+Medical+Treatment+and+other+Privileges%29+Rules%2C+1957.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/rulesindividualfile/&file=Ministers+Residences+Rules%2C+1962.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/notificationindividualfile/&file=Ministers%27+%28Allowances%2C+Medical+Treatment+and+other+Privileges%29Amendment+Rules%2C1959%2CG.S.R.+592%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/notificationindividualfile/&file=Ministers%27+%28Allowances%2C+Medical+Treatment+and+other+Privileges%29Amendment+Rules%2C1960%2CG.S.R.+1367%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/notificationindividualfile/&file=Ministers%27+%28Allowances%2C+Medical+Treatment+and+other+Privileges%29+Amendment+Rules%2C1972%2CG.S.R.+68%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/notificationindividualfile/&file=Ministers%27%28Allowances%2CMedical+Treatment+and+other+Privileges%29+Amendment+Rules%2C1986%2CG.S.R.+745%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/notificationindividualfile/&file=Ministers+%28Allowances%2CMedical+treatment+and+other+Privileges%29Amendment+Rules%2C1995%2C+G.S.R.+779%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00006_195258_1517807327976/notificationindividualfile/&file=Ministers%27+%28Allowances%2CMedical+treatment+and+other+Privileges%29+Amendment+Rules%2C+1998%2C+G.S.R.+786%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

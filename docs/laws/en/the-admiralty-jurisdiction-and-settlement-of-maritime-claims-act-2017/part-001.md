@@ -17,8 +17,6 @@ Sections: 1 to 18
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2256
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2256/5/A2017-22.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_7_7_00013_201722_1517807327069/rulesindividualfile/&file=admiralty_%28assessors%29_rules%2C_2018..pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, application and commencement.
 

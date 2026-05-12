@@ -17,11 +17,6 @@ Sections: 1 to 12
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1622
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1622/3/A1977-33.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00002_197733_1517807320974/rulesindividualfile/&file=allowances+medical+and+other+facility+to+LOP+in+PDF.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00002_197733_1517807320974/hindirulesindividualfile/&file=hindi_the_salary_and_allowances_of_leaders_of_opposition_in_parliament_act%2C_1977_and_rules_made_thereunder_%28as_amended_upto_18.12.2002%29-8-15.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00002_197733_1517807320974/rulesindividualfile/&file=Advance+for+Motor+Car+for+LOP+in+PDF.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_33_52_00002_197733_1517807320974/hindirulesindividualfile/&file=hindi_the_salary_and_allowances_of_leaders_of_opposition_in_parliament_act%2C_1977_and_rules_made_thereunder_%28as_amended_upto_18.12.2002%29-16-22.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

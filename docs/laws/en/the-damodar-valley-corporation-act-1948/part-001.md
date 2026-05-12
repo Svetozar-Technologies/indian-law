@@ -17,14 +17,6 @@ Sections: 1 to 60
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1807
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1807/1/194814.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00004_194814_1517807325824/rulesindividualfile/&file=dvc_rules_1948.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00004_194814_1517807325824/rulesindividualfile/&file=damodar_valley_corporation_%28salaries%2C_allowances_and_other_conditions_of_service_of_the_chairman%2C_members_and_member-secretary_of_the_corporation%29_rules%2C_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00004_194814_1517807325824/rulesindividualfile/&file=damodar_valley_corporation_%28salaries%2C_allowances_and_other_conditions_of_service_of_the_chairman%2C_members_and_member-secretary_of_the_corporation%29_%28amendment_%29_rules%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00004_194814_1517807325824/regulationindividualfile/&file=Section+III.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00004_194814_1517807325824/regulationindividualfile/&file=Section+IV.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00004_194814_1517807325824/regulationindividualfile/&file=Section+V.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_19_22_00004_194814_1517807325824/notificationindividualfile/&file=dvc_notification_dated_19-08-2013.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,7 +17,6 @@ Sections: 1 to 39
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/19097
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/19097/1/a1838-5.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Incorporation.
 

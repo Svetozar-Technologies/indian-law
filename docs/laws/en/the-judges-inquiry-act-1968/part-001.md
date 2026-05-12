@@ -17,8 +17,6 @@ Sections: 1 to 7
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1539
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1539/2/A1968-51.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00008_196851_1517807319594/rulesindividualfile/&file=judges_enquiry_notification.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and Commencement.
 

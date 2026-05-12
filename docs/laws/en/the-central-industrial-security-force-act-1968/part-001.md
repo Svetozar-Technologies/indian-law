@@ -17,8 +17,6 @@ Sections: 1 to 22
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1599
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1599/3/A1968-50.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00009_196850_1517807320389/rulesindividualfile/&file=cisf_rules_2001_updated_.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,11 +17,6 @@ Sections: 1 to 28
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1646
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1646/1/196126.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00005_196126_1517807321037/rulesindividualfile/&file=SJM+Rules+1961+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00005_196126_1517807321037/regulationindividualfile/&file=SJM+-+Regulations-1962.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00005_196126_1517807321037/regulationindividualfile/&file=SJM+-Board+Regulations+1972.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_27_37_00005_196126_1517807321037/notificationindividualfile/&file=SJM-Notification-+Amednding+SJM+Regulations+1962.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

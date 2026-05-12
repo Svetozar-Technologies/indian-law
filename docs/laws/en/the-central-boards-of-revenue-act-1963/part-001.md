@@ -17,8 +17,6 @@ Sections: 1 to 8
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1500
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1500/2/A1963-54.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00004_196354_1517807318186/rulesindividualfile/&file=RR+CBDT+CBEC+2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, and commencement.
 

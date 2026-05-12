@@ -17,9 +17,6 @@ Sections: 1 to 20
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1524
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1524/2/A1968-27.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00004_196827_1517807319412/rulesindividualfile/&file=Civil+Defence+Rules+1968.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_23_00004_196827_1517807319412/regulationindividualfile/&file=Civil+Defence+Regulations+1968.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

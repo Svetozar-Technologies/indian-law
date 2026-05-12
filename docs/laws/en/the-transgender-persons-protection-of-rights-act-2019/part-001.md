@@ -17,9 +17,6 @@ Sections: 1 to 23
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/13091
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/13091/1/a2019-40.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00007_201940_1579157374013/rulesindividualfile/&file=tg_rules%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_35_00007_201940_1579157374013/hindirulesindividualfile/&file=tg_rules%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

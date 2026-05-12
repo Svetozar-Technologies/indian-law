@@ -17,17 +17,6 @@ Sections: 1 to 27
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1744
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1744/1/A1978__37.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/rulesindividualfile/&file=The_Press_Council_Rules_1979+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/rulesindividualfile/&file=the_press_council_rules_1978%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/rulesindividualfile/&file=Notification_Sittting_fee_to_PCI_members+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/rulesindividualfile/&file=Notification_Levy_of_fees+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/rulesindividualfile/&file=Sitting_Fee_18Jan2017+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/rulesindividualfile/&file=224974.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/regulationindividualfile/&file=e_f.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/regulationindividualfile/&file=g_h.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/regulationindividualfile/&file=The_Press_Council_T_C_of_Service_of_the_Employees_Regulations_2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00008_197837_1517807325006/regulationindividualfile/&file=c_d-.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

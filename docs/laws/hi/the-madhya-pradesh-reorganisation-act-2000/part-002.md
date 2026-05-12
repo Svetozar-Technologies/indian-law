@@ -15,6 +15,7 @@ Pages: 34 to 41
 > Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
 
 Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/1992
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1992/2/H2000-28.pdf
 
 ## Page 34

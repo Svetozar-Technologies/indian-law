@@ -17,20 +17,6 @@ Sections: 1 to 23
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1901
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1901/1/A1995-44.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/rulesindividualfile/&file=tdb_rules_1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/regulationindividualfile/&file=tdb_regulations%2C_2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/regulationindividualfile/&file=tdb_amendment_regulations_2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=s.o_602_%28e%29-_tdb_act..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=Notification+TDB+24+08+1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=s.o._614_%28e%29_tdb_act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=Notification+TDB+23+10+1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=s.o._740_%28e%29_tdb_act..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=Notification+TDB+14+11+1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=g.s.r_523_%28e%29_tdb_act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=Notification+10+11+1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=g.s.r_668_%28e%29_tdb_act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_31_49_00001_199544_1517807320530/notificationindividualfile/&file=g.s.r_370_%28e%29_tdb_act.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,30 +17,6 @@ Sections: 1 to 39
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1705
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1705/1/196159.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=BOMBAY.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=ISM+Dhanbad_Statutes.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=HYDERABAD.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=INDORE.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=JAMMU.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=JODHPUR.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=MANDI.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=PALAKKAD.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=PATNA.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=ROPAR.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=TIRUPATI.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=GOA.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=BHU%2C+VARANASI.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=BHUBANESWAR.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=BHILAI.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=DHARWAD.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=GANDHINAGAR.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=KANPUR.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=KHARAGPUR.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=GUWAHATI.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=MADRAS.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=ROORKEE.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00018_196159_1517807324881/statuteindividualfile/&file=IIT+Delhi+Statutes.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

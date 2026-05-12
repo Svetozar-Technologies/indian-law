@@ -17,14 +17,6 @@ Sections: 1 to 56
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/17002
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/17002/1/aA2021-41.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_199_1516_00001_202141_1641277357892/rulesindividualfile/&file=ncds_%26_ndsa_%28_2_nos_rules%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_199_1516_00001_202141_1641277357892/notificationindividualfile/&file=dsa_commencement_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_199_1516_00001_202141_1641277357892/notificationindividualfile/&file=ndsa_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_199_1516_00001_202141_1641277357892/notificationindividualfile/&file=ncds_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_199_1516_00001_202141_1641277357892/orderindividualfile/&file=om_ncds.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_199_1516_00001_202141_1641277357892/orderindividualfile/&file=ndsa.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_199_1516_00001_202141_1641277357892/orderindividualfile/&file=om-_sub-committee_for_regulations.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

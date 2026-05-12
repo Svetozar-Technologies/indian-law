@@ -17,27 +17,6 @@ Sections: 1 to 54
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2098
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2098/1/a2010-42.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=Foreign+Contribution+%28Regulation%29+Rules+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=Foreign+Contribution+%28Regulation%29+Amendment+Rules+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=Foreign+Contribution%28Acceptance+or+Retention+of+Gifts+or+Presentation%29+Rules+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=Foreign+Contribution+%28Regulation%29+Amendment+Rules+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=fc_12032019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/rulesindividualfile/&file=foreign_contribution_%28regulation%29%28second_amendment%29_rules%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/circularindividualfile/&file=Guidelines+for+acceptance+of+foreign+hospitality+under+FCRA%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Date+of+effect+of+FCRA%2C+2010+and+FCRR%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Global+Development+Network+not+treated+as+foreign+source.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Exemption+of+Statutory+Bodies+from+operation+of+FCRA%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Compounding+of+offence+of+receipt+of+foreign+contribution+without+permission+or+registration+under+FCRA%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Sanctioning+Authority+and+Investigating+Authority+under+FCRA%2C2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=IUCN+not+treated+as+foreign+source.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Amount+of+Penalty+and+Competent+Authority+for+late+submission+of+Annual+Returns+under+FCRA%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=in_excersice_of_the_powers_conferred_by_section_50_of_the_foreign_contribution_%28regulation%29_act%2C_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Comounding+of+Offence+under+FCRA%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=Compounding+of+Offence+under+FCRA%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=5650%28E%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=india_code.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_24_00024_201042_1517807327802/notificationindividualfile/&file=202636.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

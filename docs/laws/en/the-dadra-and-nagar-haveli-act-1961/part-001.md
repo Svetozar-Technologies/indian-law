@@ -17,38 +17,6 @@ Sections: 1 to 14
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1640
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1640/2/A1961-35.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Essential+Commodities+Act%2C+1955+to+DNH+Dt.+29.12.1964.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Gujarat+Co-operative+Societies+Act%2C+1961+to+UT+of+DNH.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Weights+and+Measures+%28Enforcement%29+Act%2C+1958+to+DNH+Dt.+06.08.1965.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Home+Guards+Act%2C+1947+to+DNH+Dt.+10.02.1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Animal+Preservation+Acts+1954+to+UT+of+DNH.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Animal+Preservation+Act%2C+1954+to+UT+DNH+Dt.+12.12.1966.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+various+sections+of+Bombay+Police+Act%2C+1951+to+DNH+Dt.+20.04.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Medicinal+and+Toilet+Preparations+%28Excise+Duties%29+Act%2C+1955+to+DNH+Dt.+30.09.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Money-lenders+Act%2C+1946+to+DNH+Dt.+09.11.1967.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Opium+Act%2C+1857+to+DNH+Dt.+05.03.1968.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Motor+Vehicles+Tax+Act%2C+1958+to+DNH+Dt.+08.10.1968.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Police+%28Incitement+to+Disaffection%29+Act%2C+1922+to+DNH+Dt.+25.04.1978.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Maharashtra+Sale+of+Trees+by+Occupants+belonging+to+ST+%28Regulation%29+Act%2C+1969+to+DNH+Dt.+21.07.1978.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Land+Improvement+Schemes+Act%2C+1942+to+DNH+Dt.+22.11.1983.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Irrigation+Act%2C+1879+to+DNH+Dt.+22.11.1983.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Prevention+of+Fragmentation+and+Consolidation+of+Holdings+Act%2C+1947+Dt.+30.11.1983.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Town+and+Country+Planning+Act%2C+1974+to+UT+DNH+Dt.+30.10.1984.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Bombay+Prevention+of+Gambling+Act%2C+1887+to+DNH+Dt.+21.02.1985.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+West+Bengal+Prevention+of+Defacement+of+Property+Act%2C+1976+to+DNH+Dt.+03.09.1985.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Gujarat+Minor+Forest+Produce+Trade+nationalization+Act%2C+1979+to+DNH+Dt.+26.11.1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Madhya+Pradesh+Kolahal+Niyantaran+Adhiniyam%2C+1985+to+DNH+Dt.+20.09.1989.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Fire+Force+Act%2C+1986+to+UT+DNH+Dt.+01.11.1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Gujarat+Prevention+of+Anti+Social+Activities+Act%2C+1985+to+DNH+Dt.+04.04.1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+School+Education+Act%2C+1984+to+UT+DNH+Dt.+19.12.1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+the+Indian+Forest+%28Gujarat+Amendment%29+Act%2C+1983+to+DNH+Dt.+09.06.1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Public+Moneys+%28Recovery+of+Dues%29+Act%2C+1986+to+DNH+Dt.+21.08.1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Prevention+of+Trees+Act%2C+1984+to+UT+DNH+Dt.+21.04.1999.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Highways+Act%2C+1974+to+UT+DNH+Dt.+12.07.1999.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Shops+and+Establishment+Act%2C+1973+to+UT+DNH+Dt.+12.07.1999..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Registration+of+Tourist+Trade+Act%2C+1982+to+UT+DNH+Dt.+27.11.2001.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_5_5_00019_196135_1517807320493/notificationindividualfile/&file=Extension+of+Goa%2C+Daman+and+Diu+Societies+Registration+Act+1979+and+Societies+Registation+Act%2C+1998+to+DNH.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

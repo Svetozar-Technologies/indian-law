@@ -17,16 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2111
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2111/1/201235.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/rulesindividualfile/&file=document%282%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/orderindividualfile/&file=document%2810%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/ordinanceindividualfile/&file=document%287%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/ordinanceindividualfile/&file=document%288%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/ordinanceindividualfile/&file=document%289%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/statuteindividualfile/&file=document%283%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/statuteindividualfile/&file=document%284%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/statuteindividualfile/&file=document%285%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_34_53_00002_201235_1517807327912/statuteindividualfile/&file=document%286%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

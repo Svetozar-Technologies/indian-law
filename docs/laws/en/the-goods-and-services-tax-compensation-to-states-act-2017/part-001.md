@@ -17,28 +17,6 @@ Sections: 1 to 14
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2253
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2253/1/A2017-15.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/circularindividualfile/&file=compnsation-cess-circu1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=gst-compensation-cess-notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notfctn-1-compensation-cess-english.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=1.2017-GST+Compensation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=corrigndm-ntfctn-1-cmpnstn-cess-rate.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=corrigndm-ntfctn-2-cmpnstn-cess-rate.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=2.2017-Compensation+Cess.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notfctn-3-gst-tax-compensation-english.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notification04-compensation-cess-rate.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notification05-compensation-cess-rate.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notification06-compensation-cess-rate.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notification07-compensation-cess-rate.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=compensation_cess01_2018_rate_eng.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notification02-compensation-cess-rate-english.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notification02-compensation-cess-rate-english-corrigndm.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notfctn-1-compensation2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notfctn-1-compensation2019-english.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=compensation_cess01_2019_rate_engn.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=compensation_cess02_2019_rate_eng.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=compensation_cess03_2019_rate_eng.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00039_201715_1517807326965/notificationindividualfile/&file=notification_dated_24th_june%2C_2022.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

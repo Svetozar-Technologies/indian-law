@@ -17,7 +17,6 @@ Sections: 109 to 170
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1531
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1531/1/196033.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 109 - Interest of tenants.
 

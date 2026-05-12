@@ -17,9 +17,6 @@ Sections: 1 to 39
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1976
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1976/5/a1995-39.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00006_199539_1517807323431/rulesindividualfile/&file=Rules+1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_20_25_00006_199539_1517807323431/notificationindividualfile/&file=NOTIFICATION+1995.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

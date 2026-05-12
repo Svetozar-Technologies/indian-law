@@ -17,15 +17,6 @@ Sections: 1 to 32
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1893
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1893/1/A1999-41E.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/rulesindividualfile/&file=irda_%28salary_and_allowances_payable_to_and_other_terms_and_conditions_of_service_of_chairperson_and_other_members%29_rules%2C_2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/rulesindividualfile/&file=irda_%28salary_and_allowances_payable_to_and_other_terms_and_conditions_of_service_of_chairperson_and_othewr_members%29_amendment_rules%2C_2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/rulesindividualfile/&file=irda_salary_and_allowances_payable_to_and_other_terms_and_conditions_of_services_of_chairperson_and_other_members_amendment_rules%2C_2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/rulesindividualfile/&file=irda_%28regulation_and_insurance_business_in_sez%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/rulesindividualfile/&file=Ins.+Ombudsman+Rules%2C+2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/rulesindividualfile/&file=the_insurance_regulatory_and_development_authority_of_india_%28regulation_of_insurance_business_in_special_economic_zone%29_rules%2C_2015_-_as_amended_on_30.7.2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/rulesindividualfile/&file=the_insurance_ombudsman_rules%2C_2017_-_last_amended_on_18.5.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_45_00001_199941_1517807320115/regulationindividualfile/&file=irdai_staff_%28officers_and_other_employees%29_regulations%2C_2016.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

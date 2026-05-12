@@ -17,7 +17,6 @@ Sections: 81 to 170
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/20063
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/20063/1/aa202347.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 81 - Presumption as to Gazettes in electronic or digital record.
 

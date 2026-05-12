@@ -17,9 +17,6 @@ Sections: 1 to 45
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1779
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1779/1/198331.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00032_198331_1517807325857/rulesindividualfile/&file=The+Emigration+%28Amendment%29+Rules%2C+2017+%2812-12-2017%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_6_6_00032_198331_1517807325857/rulesindividualfile/&file=The+Emigration+%28Amendment%29+Rules%2C+2017+%2814-12-2017%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

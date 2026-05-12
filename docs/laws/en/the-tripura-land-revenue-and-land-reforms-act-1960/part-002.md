@@ -17,7 +17,6 @@ Sections: 112 to 183
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1564
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1564/1/196043.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 112 - Payment of rent.
 

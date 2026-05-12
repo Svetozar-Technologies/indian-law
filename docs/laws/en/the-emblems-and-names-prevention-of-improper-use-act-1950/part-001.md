@@ -17,8 +17,6 @@ Sections: 1 to 9
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1896
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1896/1/A1950-12.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00002_195012_1517807320273/rulesindividualfile/&file=scan_18-04-19.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

@@ -17,10 +17,6 @@ Sections: 1 to 56
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2048
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2048/3/a2010-23.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_201023_1517807327396/rulesindividualfile/&file=18The_Clinical_Establishment_Central_Government_Rule_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_201023_1517807327396/rulesindividualfile/&file=Clinical+Establishmets+%28Central+Government%29+Amendment+Rule+s2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00022_201023_1517807327396/notificationindividualfile/&file=27notification_of_clinical_establishment_act_coming__sw.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, application and commencement.
 

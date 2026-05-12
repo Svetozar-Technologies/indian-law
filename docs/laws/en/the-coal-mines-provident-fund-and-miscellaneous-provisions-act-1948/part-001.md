@@ -17,22 +17,6 @@ Sections: 1 to 12
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1841
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1841/3/A1948-46.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/regulationindividualfile/&file=coal_mines_provident_fund_staff_conditions_of_service_regulations_1964.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=CPMF+Scheme+1948.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=COAL+MINES+PENSION+SCHEME+1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=e_511_2010_003%282%29_updated%281%29-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=BoT+Notification+DTD+11.5.17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=BOT+NOTIFICATION+DTD+9.6.17.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=notification_of_coal_mine_pension%28amendment%29_scheme_dated_08-06-2018_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=constitution_of_board_of_trustees.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=corrigendum_to_constitution_to_board_of_trustees.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=gazette_cmpf_8th_june_2022%282%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=245164.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=notification_no_s.o._4067%28e%29..pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=gadgete_notification_s.o.5039%28e%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_8_8_00009_194846_1517807326587/notificationindividualfile/&file=notification-1.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

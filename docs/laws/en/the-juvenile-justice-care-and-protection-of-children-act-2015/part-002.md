@@ -17,10 +17,6 @@ Sections: 45 to 112
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2148
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2148/1/a2016-2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_000010_201602_1517807328168/rulesindividualfile/&file=english+model+rule.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_000010_201602_1517807328168/regulationindividualfile/&file=Regulation_english.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_000010_201602_1517807328168/notificationindividualfile/&file=12+Jan+2016.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 45 - Sponsorship.
 

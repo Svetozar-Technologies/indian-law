@@ -17,32 +17,6 @@ Sections: 1 to 63
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2122
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2122/1/201401.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=Search+Committee+rules%2C+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=Asset+Rules+Lokpal+14July_2014_Eng.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=Search+Committee+amended+rules+August+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=Asset+rules+amendment+September+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=asset+rules+second+amendment+December+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=asset+rules+270415.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=asset+rules+amendment+July+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=third+amendment+to+asset+rules+October+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=amendment+to+asset+rules+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=final+amendment+to+asset+rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=complaint_rules_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=lokpal_staff_car_driver_rr.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=lokpal_finance_and_account_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=lokpal_mts_rr.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/rulesindividualfile/&file=lokpal_court_master_rr-2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/notificationindividualfile/&file=Enforcement+of+Lokpal+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/notificationindividualfile/&file=Notification+of+competent+authority+under+section+14%281%29%28g%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/notificationindividualfile/&file=Notification+regarding+minimum+value+of+assets+under+section+14%281%29%28g%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/notificationindividualfile/&file=Notification+of+competent+authority+under+section+14%281%29%28h%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/orderindividualfile/&file=removal+of+difficulty+order+I.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/orderindividualfile/&file=removal+of+difficulty+order+II.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/orderindividualfile/&file=removal+of+difficulty+order+III.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/orderindividualfile/&file=removal+of+difficulty+order+IV.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/orderindividualfile/&file=removal+of+difficulty+order+V.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00014_201401_1517807327889/orderindividualfile/&file=removal+of+difficulty+order+VI.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

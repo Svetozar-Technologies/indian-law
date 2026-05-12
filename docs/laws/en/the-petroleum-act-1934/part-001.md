@@ -17,21 +17,6 @@ Sections: 1 to 32
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2401
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2401/1/A1934-30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/rulesindividualfile/&file=petroleum_rules%2C_2002_english.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/hindirulesindividualfile/&file=petroleum_rules%2C_2002_hindi_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/rulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2007_%281%29_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/hindirulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2007_%281%29_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/rulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2011_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/hindirulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2011_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/rulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/hindirulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/rulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/hindirulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/rulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2021_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/hindirulesindividualfile/&file=petroleum_%28amendment%29_rules%2C_2021_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/rulesindividualfile/&file=petroleum_amendment_rules_2024.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_32_0_000010_193430_1523351268465/hindirulesindividualfile/&file=petroleum_amendment_rules_2024.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

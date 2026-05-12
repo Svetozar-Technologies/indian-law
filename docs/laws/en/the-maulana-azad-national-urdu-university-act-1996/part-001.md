@@ -17,12 +17,6 @@ Sections: 1 to 43
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1975
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1975/1/199702.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00013_199702_1517807323852/ordinanceindividualfile/&file=2004_manuu_the_gazette_of_india_17.7.2004.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00013_199702_1517807323852/ordinanceindividualfile/&file=2006_manuu_the_gazette_of_india_2.12.2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00013_199702_1517807323852/ordinanceindividualfile/&file=Ordinance+MANUU11072018162543.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00013_199702_1517807323852/statuteindividualfile/&file=statute_manuu11072018162210.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00013_199702_1517807323852/statuteindividualfile/&file=gazette_publication_details_2006.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

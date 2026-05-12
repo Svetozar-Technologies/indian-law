@@ -17,7 +17,6 @@ Sections: 79 to 185
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1796
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1796/1/aA1950-42.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 79 - Procedure on application.
 

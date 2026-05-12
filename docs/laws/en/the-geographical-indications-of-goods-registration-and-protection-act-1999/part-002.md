@@ -17,9 +17,6 @@ Sections: 71 to 87
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1981
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1981/5/A1999-48.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00002_199948_1517807322766/rulesindividualfile/&file=GI+Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_60_00002_199948_1517807322766/rulesindividualfile/&file=GI+2013+%281%29.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 71 - Power to require goods to show indication of origin.
 

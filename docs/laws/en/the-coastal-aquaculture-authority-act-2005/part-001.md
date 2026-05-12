@@ -17,11 +17,6 @@ Sections: 1 to 28
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2068
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2068/8/a2005-24.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00004_200524_1517807323120/rulesindividualfile/&file=Rules-English+CAA.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00004_200524_1517807323120/regulationindividualfile/&file=CAA+Regulation.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00004_200524_1517807323120/notificationindividualfile/&file=CAA+Notification-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_23_62_00004_200524_1517807323120/notificationindividualfile/&file=CAA+Notification-2.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

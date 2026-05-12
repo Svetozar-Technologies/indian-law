@@ -17,8 +17,6 @@ Sections: 1 to 7
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1811
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1811/4/A1985-58.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_39_65_00003_198558_1517807326430/rulesindividualfile/&file=intelligence+Organisations+%28Restriction+of+Rights%29+Rules%2C+1998.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

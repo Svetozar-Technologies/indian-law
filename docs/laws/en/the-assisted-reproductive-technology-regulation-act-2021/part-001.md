@@ -17,11 +17,6 @@ Sections: 1 to 46
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/17031
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/17031/1/aA2021-42.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00001_202142_1643274805540/rulesindividualfile/&file=art_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00001_202142_1643274805540/rulesindividualfile/&file=art_%28regulation%29_amendment_rules_2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00001_202142_1643274805540/rulesindividualfile/&file=assisted_reproductive_technology_amendment_rules_2023.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_72_00001_202142_1643274805540/regulationindividualfile/&file=art_regulations_2023.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

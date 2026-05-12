@@ -15,6 +15,7 @@ Pages: 1 to 20
 > Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
 
 Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/2065
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2065/2/H2005.pdf
 
 ## Page 1

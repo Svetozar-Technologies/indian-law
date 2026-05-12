@@ -17,7 +17,6 @@ Sections: 66 to 130
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1680
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1680/1/a1956-37.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 66 - High Court for the areas added to Madras.
 

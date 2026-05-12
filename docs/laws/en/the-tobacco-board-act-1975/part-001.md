@@ -17,13 +17,6 @@ Sections: 1 to 33
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1739
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1739/1/197504.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00006_197504_1517807324189/rulesindividualfile/&file=3+Rules+tb_Rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00006_197504_1517807324189/rulesindividualfile/&file=4+Rules+tb_auction_rules_1984.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00006_197504_1517807324189/regulationindividualfile/&file=2+Regulations+tb_general_regulations_1984.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00006_197504_1517807324189/regulationindividualfile/&file=1+Regulations+tb_auction_regulations_1984.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00006_197504_1517807324189/notificationindividualfile/&file=amendment_of_tobacco_board_rules_1976.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_11_12_00006_197504_1517807324189/notificationindividualfile/&file=amend_the_tobacco_board_recruitment_regulations_2013.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

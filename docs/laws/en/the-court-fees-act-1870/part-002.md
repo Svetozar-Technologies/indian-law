@@ -17,11 +17,6 @@ Sections: 35 to 36
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2293
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2293/3/A1870-7.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00023_187007_1523268447465/rulesindividualfile/&file=Rules+Made+By+the+High+Court+Under+Sec+80.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00023_187007_1523268447465/notificationindividualfile/&file=Patna+High+Court+Fee+Act.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00023_187007_1523268447465/ordinanceindividualfile/&file=Ordinance+No.+XII+on+Bombay+Court-fees+Act%2C+1959.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_3_3_00023_187007_1523268447465/ordinanceindividualfile/&file=Ordinance+No.+XVI+on+Bombay+Court-fees+Act%2C+1959.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 35 - Power to reduce or remit fees.
 

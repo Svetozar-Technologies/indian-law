@@ -15,6 +15,7 @@ Pages: 1 to 74
 > Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
 
 Sources:
+- html: https://www.indiacode.nic.in/handle/123456789/22040
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/22040/2/H2020-35.pdf
 
 ## Page 1

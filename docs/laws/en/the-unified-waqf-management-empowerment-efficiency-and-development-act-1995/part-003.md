@@ -17,34 +17,6 @@ Sections: 76 to 113
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1984
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1984/1/1995-43.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/rulesindividualfile/&file=Central+Wakf+Council+Rules%2C+1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/rulesindividualfile/&file=Waqf+Properties+Lease+Rules%2C+2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/rulesindividualfile/&file=CWC%28amendment%29Rules_2014.PDF.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/rulesindividualfile/&file=CENTRAL-Amendment-Rule-2015.PDF.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/rulesindividualfile/&file=Waqf+Properties+%28Amendment%29+Lease+Rules%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/rulesindividualfile/&file=Model+Waqf+Rules%2C+2016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/rulesindividualfile/&file=wplrs2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=consititution_of_cwc_during_22.11.1975.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=consititution_of_cwc_during_17.10.1981.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=consititution_of_cwc_during_23.07.1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=consititution_of_cwc_during_30-04-1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=consititution_of_cwc_during_26.06.1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=consititution_of_cwc_during_02-05-2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=supersession_of_cwc_during_18.03.2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=The+Central+Government+hereby+establishes+a+Wakf+Board+for+the+Union+Territory+of+Chandigarh+and+appoints+the+following+persons+as+its+members%2C+with+effect+from+the+date+of+its+publication+in+the+Official+Gazette.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=Central+Government+hereby+re-constitutes+and+for+the+said+purpose+appoints+the+following+as+Chairperson+and+members+to+the+Central+Wakf+Council%2C+established+by+notification+of+the+Government+of+India+in+the+erstwhile+Ministry+of+Welfa.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=consititution_of_cwc_during_12-05-2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=consititution_of_cwc_during_24.10.2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=Re-constitution+of+AP+State+Waqf+Board.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=RECONSTITUTION+OF+CWC.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=DISSOLUTION+OF+CENTRAL+WAQF+COUNCIL.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=consititution_of_cwc_during_23-11_2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=CONSTITUTION+OF+BOARD+OF+ADJUDICATION.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=AMENDMENT+CONSTITUTION+OF+CENTRAL+WAQF+COUNCIL.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=member_of_cwc_during_6-07-2017.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=196678.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_44_74_00001_199543_1517807323904/notificationindividualfile/&file=gasette_notification_dated_18.2.2020_of_amendments_in_wplrs_2014_.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 76 - Mutawalli not to lend or borrow moneys without sanction.
 

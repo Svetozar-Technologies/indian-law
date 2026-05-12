@@ -17,31 +17,6 @@ Sections: 1 to 38
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1463
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1463/1/AAAA1948____16.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/rulesindividualfile/&file=2Dental+Council+of+India+Recruitment+Rules%2C2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=07+MDS+Course+Regulations%2C+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=9Dental-Council-Election-Regulations-1952_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=3DCI+Regulations+1956.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=5Dental_Hygienists_Course_Regulations_1972_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=7Dentists_Code_of_Ethics_Regulations_1976_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=03+BDS+Regulations+1978.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=06+MDS+Regulations+1983.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=04+BDS+Course+Regulations+1983.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=4DCI_Establishment_of_New_Dental_Colleges_Regulatio_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=6Opening_of_Higher_Courses_of_Study_Regulations_199_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=20+DCI+%28Miscellaneous%29+Regulations%2C+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=05+BDS+Course+Regulation%2C+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=1Continuing_Dental_Education_Regulations_2007_sw-1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=16+Dental+Operating+Room+Asstt.+%28Grant+of+Diploma%29+Course+Regulations%2C+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=2DCI+PG+Diploma+Course+Regulation+2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=14_Dental_Hygienists_Mechanics_Course_Regulation+2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=10DCI-Post-Graduate-Diploma-Course-Regulations-Dent_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=8DCI_Term_of_Office_of_Membership_of_DCI__Regulatio_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=24+DCI+Screening+Test+Regulation%2C+2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=11DCI_Regulations_on_Curbing_the_Menance_of_Ragging__sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=12DCI_Revised_Dentists_Code_of_Ethics_Regulations_20_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=10+Scheme+2006+DCI+Establishment+for+Opening+of+New+Dental+College+Regulations%2C+2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00002_194816_1517807317945/regulationindividualfile/&file=08+MDS+Coruse+Regulations+2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

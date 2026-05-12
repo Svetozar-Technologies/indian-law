@@ -17,40 +17,6 @@ Sections: 1 to 23
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1928
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1928/4/aa1995-07.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=G.S.R.+729+%28E%29+DATED+29.09.1994-PRINCIPAL+RULES.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Second+Amendment%29+Rules%2C1995.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C1996.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C1999.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Rescind+of+Cable+Telivision+Networks%28Amendment%29+Rules+1999.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C11-05-2006-535.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Second+Amendment%29+Rules%2C2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C02-08-2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C09-08-2006-527.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Fifth+Amendment%29+Rules%2C2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=The+Cable+Television+Networks+%28Amendment%29+Rules%2C+2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Second+Amendment%29+Rules%2C2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=GSR+774+%28E%29+DATED+03.12.2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=gsr_413_%28e%29_dated_29.05.2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Second+Amendment%29+Rules%2C2009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=Cable+Television+Networks+%28Amendment%29+Rules%2C2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=so_1521_%28e%29_dated_06.07.2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=GSR+216+%28E%29+DATED+21.03.2015-ANTI+TERROR.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=GSR+804+%28E%29+DATED+19.08.2017-DEPICTION+OF+ANIMAL.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/rulesindividualfile/&file=cable_television_network_rules_1994_recognized.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/regulationindividualfile/&file=36_of_2000_dated_01.09.2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/regulationindividualfile/&file=gsr_719_%28e%29_dated_13.09.2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/regulationindividualfile/&file=2_of_2003_dated_31.12.2002.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/regulationindividualfile/&file=25_of_2007_dated_28.05.2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/regulationindividualfile/&file=21_of_2011_dated_30.12.2011_w.e.f_25.10.2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/notificationindividualfile/&file=SO718%28_1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/notificationindividualfile/&file=S.O.+1881+DATED+06.11.2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/notificationindividualfile/&file=S.O+681%28E%29+DATED+07.03.2016-ADM.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_29_41_00006_199507_1517807323097/notificationindividualfile/&file=so_1699_%28e%29_dated_07.05.2019-dd_arunprabha_as_mandatory_channel.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

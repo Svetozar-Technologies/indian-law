@@ -17,40 +17,6 @@ Sections: 1 to 105
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2008
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2008/3/2002-60.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=fare_fixation_committee_%28procedure%29_rules%2C_2003.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=delhi_metro_railway_%28salary%2C_allowances%2C_other_terms_and_conditions_of_service_of_the_claims_commissioner%29_rules%2C_2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=bangalore_metro_railway_%28general%29_rules%2C_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=bangalore_metro_railway_%28procedure_for_claims%29_rules%2C_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=bangalore_metro_railway_%28procedure_for_investigation_of_misbehavior_or_incapacity_of_claims_commissioner%29_rules%2C_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=E_270_2012_027.pdf+Accident+rules%2C+Bangalore.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=metro_railways_general_rules_2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=156775.pdf-+Amendment+rules+carriage+of+passengers-2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=161543.pdf-Chennai+carriage+of+passenger+rules-2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=metro_railways_%28carriage_and_tickets%29_rules_2014.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=bangalore_metro_railway_%28notice_of_accidents_and_inquiries%29_rules%2C_2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=163900.pdf+General+rules%2C+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=Notification+of+uniform+rules+for+the+Claims+Commissioner+for+all+existing+and+upcoming+Metro+Rail+Corporation+.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=7_metro_railway_%28carriage_and_ticket%29_amendment_rules%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=6_metro_railway_%28carriage_and_ticket%29_amendment_rules%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/rulesindividualfile/&file=1gsr_no_769_dt_16_december_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=appointing_the_commissioner_of_railway_safety%2C_southern_circle%2C_bangalore_to_act_as_the_commissioner_of_metro_railway_safety_in_respect_of_bangalore_metropolitan_area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=E_597_2012_014.pdf-CSR+Bangalore+April%2C2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=appointing_the_commissioner_of_railway_safety%2C_southern_circle%2C_bangalore_to_act_as_the_commissioner_of_metro_railway_safety_in_respect_of_chennai_metropolitan_area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=extension_of_the_act_to_the_metropolitan_area_of_hyderabad.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=appointing_the_commissioner_of_railway_safety%2C_northern_circle%2C_delhi_to_act_as_the_commissioner_of_metro_railway_safety_in_respect_of_the_metro_rail_projects_in_ncr.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=CMRS+Hyderabad-2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=appointing_the_commissioner_of_railway_safety%2C_southern_circle%2C_secunderabad_to_act_as_the_commissioner_of_metro_railway_safety_in_respect_of_hyderabad_metropolitan_area.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=appointing_the_commissioner_of_railway_safety%2C_western_circle%2C_mumbai_to_act_as_the_commissioner_of_metro_railway_safety_in_respect_of_the_metro_rail_projects_in_jaipur.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=extension_of_the_act_to_the_metropolitan_area_of_kochi.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=assigning_of_additional_charge_of_the_post_of_claims_commissioner_to_shri_satish_chandra.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=extension_of_additional_charge_of_the_post_of_claims_commissioner_to_shri_satish_chandra.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=CMRS+for+Kochi+Metro.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=appoints_the_commissioner_of_railway_safety%2C_north_eastern_circle%2C_lucknow_as_the_commissioner_of_metro_railway_safety_in_respect_of_the_metro_railway_projects_in_lucknow.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=appointing_the_commissioner_of_railway_safety%2C_western_circle%2C_mumbai_to_act_as_the_commissioner_of_metro_railway_safety_in_respect_of_ahmedabad_metro_rail_project.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=so_no_1719.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=so_no_2818_dt_19_august_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_17_19_00020_200260_1517807324698/notificationindividualfile/&file=so_no_4683_dt_12_december_2020.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

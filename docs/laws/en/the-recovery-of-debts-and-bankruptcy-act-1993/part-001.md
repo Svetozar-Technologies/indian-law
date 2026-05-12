@@ -17,32 +17,6 @@ Sections: 1 to 35
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1775
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1775/1/AArecovery1993__51.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Tribunal+%28Procedure%29+Rules%2C+1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=debts_recovery_tribunals_%28salaries%2C_allowances_and_other_terms_and_conditions_of_service_of_the_presiding_officer%29_rules_1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=debts_recovery_appellate_tribunals_%28salaries%2C_allowances_and_other_terms_and_conditions_of_service_of_the_chairperson%29_rules%2C_1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Appellate+Tribunals%28+Salaries%2C+allowances+and+other+conditions+of+Service+of+the+officers+and+employees+Rules%29%2C+1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Tribunals+%28Salaries%2C+Allowances+and+other+conditions+of+service+of+the+Recovery+Officer+and+other+officer+and+employees%29+Rules%2C+1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Tribunals+%28Procedure%29+Amendment+Rules%2C+1994.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Tribunal+%28Procedure%29+Amendment+Rules%2C+1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Tribunal+%28Financial+and+Administrative+Power%29+Rules%2C+1997.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=debts_recovery_tribunal_%28procedure_for_the_appointment_of_presiding_officer_of_the_tribunal%29_rules%2C1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Appellate+Tribunals+%28Procedure+for+appointment+as+Chairperson+of+the+Appellate+Tribunal+Rules%29%2C+1998.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=debts_recovery_appellate_tribunal_recruitment_rules_for_group_c_%26_d_posts.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=debts_recovery_tribunals_recruitment_rules_for_group_c_%26_d_posts.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Tribunals+%28Procedure+for+appointment+as+PO+of+the+Tribunal+Amendment+Rules%29%2C+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Appellate+Tribunals+%28Procedure+for+appointment+as+Chairperson+of+the+Appellate+Tribunal+Amendment+Rules%29%2C+2000.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=debts_recovery_appellate_tribunal_recruitment_rules_for_group_a_%26_b_posts.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=debts_recovery_tribunals_recruitment_rules_for_group_a_%26_b_posts.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=debts_recovery_appellate_tribunal_%28procedure_for_the_appointment_of_chairperson_of_the_appellate_tribunal%29amendment_rules_%2C2005.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Tribunals+%28Salaries+allowances+and+other+terms+and+conditions+of+service+of+Presiding+Officer+Amendment+Rules%29%2C+2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=debts_recovery_tribunals_%28_procedure_for_investigation_of_misbehaviour_or_incapacity_of_presiding_officer_%29_rules%2C_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Tribunals+%28Procedure+for+Appointment+as+PO+of+the+Tribunal+Amendment+Rules%29%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Appellate+Tribunal+%28Procedure+for+appointment+as+Chairperson+of+the+Appellate+Tribunal+Amendment+Rules%29%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Debts+Recovery+Tribunals+%28Procedure+for+Investigation+of+Misbehavior+or+Incapacity+of+PO%29+Rules%2C+2012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/rulesindividualfile/&file=Making_of_rules_sw.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/notificationindividualfile/&file=Unified+Cadre.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_33_00045_199351_1524048948493/notificationindividualfile/&file=Notification_dated_06.09.2018_sw.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, commencement and application.
 

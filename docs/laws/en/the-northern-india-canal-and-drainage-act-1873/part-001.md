@@ -17,7 +17,6 @@ Sections: 1 to 75
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2282
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2282/1/a1873-08.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title.
 

@@ -17,10 +17,6 @@ Sections: 1 to 32
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2095
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2095/1/200908.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00018_200908_1517807327343/rulesindividualfile/&file=The+South+Asian+University+Rules%2C+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00018_200908_1517807327343/regulationindividualfile/&file=The+South+Asian+University+First+Regulations%2C+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_10_10_00018_200908_1517807327343/notificationindividualfile/&file=Notification+on+privileges+to+Faculty+Members%2C+officers+and+staff+of+The+South+Asian+University%2C+2009.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

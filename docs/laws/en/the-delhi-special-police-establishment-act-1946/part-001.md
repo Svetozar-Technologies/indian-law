@@ -17,9 +17,6 @@ Sections: 1 to 7
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2258
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2258/1/A1946-25.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_00012_1523948002193/notificationindividualfile/&file=dspe_act_amendment_2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_26_36_00012_00012_1523948002193/ordinanceindividualfile/&file=dspe_amendment_ordinance_2021.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and extent.
 

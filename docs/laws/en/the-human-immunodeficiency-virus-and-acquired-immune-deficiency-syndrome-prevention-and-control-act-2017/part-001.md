@@ -17,9 +17,6 @@ Sections: 1 to 50
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2254
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2254/1/a2017-16.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00021_201716_1517807327383/rulesindividualfile/&file=hiv_rules%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00021_201716_1517807327383/notificationindividualfile/&file=hiv_act_notification.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

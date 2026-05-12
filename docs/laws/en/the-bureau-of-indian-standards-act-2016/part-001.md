@@ -17,31 +17,6 @@ Sections: 1 to 43
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2157
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2157/3/A2016-11.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/rulesindividualfile/&file=bis_rules_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/rulesindividualfile/&file=bis_amendment_rules_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/rulesindividualfile/&file=bis_amendment_rules_2019_7-2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/rulesindividualfile/&file=bis_%28amendment%29_rules%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=conformity_assessment_regln_4-june_18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=advisory_committees_regln_7_june_18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=hallmarking_regln_14-june_18_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=powers_nd_duties_of_dg_regln_29-aug_18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=hallmarking_regln_amendment_9-oct_18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=conformity_assessment_regln_amendment_9-oct_18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=advisory_committee_regln_amendment_9-oct_18.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=recruitment_to_laboratory_technical_posts_regulations%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=bis_%28recruitment_to_scientific_cadre%29_regulations%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=bis_%28conformity_assessment%29_amendment_regulations%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=bis_%28advisory_committee_second_amendment%29_regulations_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=bis_%28recruitment_to_admin%2C_finance_and_other_posts%29_regulations%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/regulationindividualfile/&file=bis_%28terms_and_conditions_of_service_of_employees%29_regulations%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/notificationindividualfile/&file=act_enforcement_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/notificationindividualfile/&file=n-enforcement_of_1986_act_provisions.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/notificationindividualfile/&file=n-hallmarking_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/notificationindividualfile/&file=uts_notification_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/orderindividualfile/&file=compl_use_of_licence.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/orderindividualfile/&file=removal_of_difficulty_order.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00008_201611_1517807328370/orderindividualfile/&file=bis_mandatory_hallmarking_order_15.01.2020.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

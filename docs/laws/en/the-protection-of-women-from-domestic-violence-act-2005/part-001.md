@@ -17,9 +17,6 @@ Sections: 1 to 37
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2021
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2021/5/A2005-43.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00008_200543_1517807325788/rulesindividualfile/&file=17-Oct-2006+Rules+Ext.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00008_200543_1517807325788/notificationindividualfile/&file=17-Oct-2006+Not.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

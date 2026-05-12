@@ -17,11 +17,6 @@ Sections: 1 to 30
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2104
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2104/1/A2013-14.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00009_201314_1517807327213/rulesindividualfile/&file=--------Rules%2C2013+09+Dec+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00009_201314_1517807327213/rulesindividualfile/&file=companisaccountsrules_31072018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00009_201314_1517807327213/notificationindividualfile/&file=Notification+09+Dec+2013.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_13_14_00009_201314_1517807327213/notificationindividualfile/&file=amendment-on-posh-act.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

@@ -17,10 +17,6 @@ Sections: 1 to 49
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2084
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2084/5/A2010-38.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00002_201038_1517807327224/rulesindividualfile/&file=Civil+Liability+for+Nuclear+Damage+Rules%2C+2011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00002_201038_1517807327224/rulesindividualfile/&file=Nuclear+Liability+Fund+Rules%2C+2015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_38_63_00002_201038_1517807327224/notificationindividualfile/&file=Notification+on+entry+into+force+of+CLND+Act%2C+2010.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent, application and commencement.
 

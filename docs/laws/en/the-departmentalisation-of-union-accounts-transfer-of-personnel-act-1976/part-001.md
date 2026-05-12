@@ -17,8 +17,6 @@ Sections: 1 to 3
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1483
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1483/3/A1976-59.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_26_00001_197676_1517807318234/ordinanceindividualfile/&file=act.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

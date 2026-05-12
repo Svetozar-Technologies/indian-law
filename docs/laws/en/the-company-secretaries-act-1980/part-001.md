@@ -17,43 +17,6 @@ Sections: 1 to 40
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1754
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1754/1/a198056.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/rulesindividualfile/&file=the_company_secretaries_%28nomination_of_members_to_the_council%29_rules%2C_2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/rulesindividualfile/&file=the_company_secretaries_%28election_to_the_council%29_rules%2C_2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/rulesindividualfile/&file=the_company_secretaries_%28election_tribunal%29_rules%2C_2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/rulesindividualfile/&file=appellate_authority_%28allowances_payable_to_and_other_terms_and_conditions_of_service_of_chairperson_and_members_and_the_manner_of_meeting_expenditure_of_the_authority%29_rules%2C_2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/rulesindividualfile/&file=company_secretaries_procedures_of_meetings_of_quality_review_board%2C_and_terms_and_conditions_of_service_and_allowance_of_the_chairperson_and_members_of_the_board_rules%2C_2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/rulesindividualfile/&file=the_company_secretaries_%28procedure_of_investigations_of_professional_and_other_misconduct_and_conduct_of_cases%29_rules%2C_2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/regulationindividualfile/&file=the_company_secretaries_regulations%2C_1982.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/circularindividualfile/&file=members_of_professional_institutes_arrested_by_law_enforcement_agencies_1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/circularindividualfile/&file=1.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=08.08.2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=18.08.2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=05.09.2006+2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=05.09.2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=17.11.2006+2.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=17.11.2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=27.11.2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=28.02.2007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR22032007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR13072007.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR24072008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR20032009.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR25022011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR15032011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR17062011.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR30012012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR06022012.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR23042015%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR23042015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR24042015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR17082015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR03112015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR15122015.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR23032016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR23052016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR13122016.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_22_29_00006_198056_1517807325344/notificationindividualfile/&file=OCR11102017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

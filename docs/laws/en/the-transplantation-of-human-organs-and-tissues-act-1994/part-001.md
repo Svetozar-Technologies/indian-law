@@ -17,10 +17,6 @@ Sections: 1 to 25
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1962
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1962/1/199442.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00014_199442_1517807323753/rulesindividualfile/&file=THO-Rules-1995-%28Original-Rules%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00014_199442_1517807323753/rulesindividualfile/&file=4Transplantation+of+Human+Organs+%28Amendment%29+Rules%2C+2008.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_12_13_00014_199442_1517807323753/rulesindividualfile/&file=THOA-Rules-2014.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, application and commencement.
 

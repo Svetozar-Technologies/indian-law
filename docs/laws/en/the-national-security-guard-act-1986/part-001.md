@@ -17,21 +17,6 @@ Sections: 1 to 94
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/1853
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/1853/1/198647.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/rulesindividualfile/&file=national-security-guard-adjustment-of-jurisdiction-rule-1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/rulesindividualfile/&file=National+Security+Guard+Rules+1987.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/rulesindividualfile/&file=gsr_485_rrs_group_%27a%27_-_1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/hindirulesindividualfile/&file=gsr_485_rrs_group_%27a%27_-_1993.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/rulesindividualfile/&file=gsr-53_rrs_of_group_b_non-gazetted_posts.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/hindirulesindividualfile/&file=gsr-9_rrs_of_group_b_gazetted_posts.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/hindirulesindividualfile/&file=gsr-53_rrs_of_group_b_non-gazetted_posts.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/rulesindividualfile/&file=gsr-422_rrs_of_group_c_posts.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/hindirulesindividualfile/&file=gsr-422_rrs_of_group_c_posts.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/rulesindividualfile/&file=gsr-67_rrs_of_group_b_-_amendments.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/hindirulesindividualfile/&file=gsr-67_rrs_of_group_b_-_amendments.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/rulesindividualfile/&file=gsr-120_rrs_of_group_%27a%27_-_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/hindirulesindividualfile/&file=gsr-120_rrs_of_group_%27a%27_-_2010.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_2_00037_198647_1517807326729/notificationindividualfile/&file=crimnal_courts_and_security_guard_courts_%28adjustment_of.lurisdiction%29_rule_1987.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

@@ -17,29 +17,6 @@ Sections: 70 to 102
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2155
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2155/1/a2016-49.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/rulesindividualfile/&file=Rules_notified_15.06.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/rulesindividualfile/&file=Corrigendum.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/rulesindividualfile/&file=rpwd_%28amendment%29_rules%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/rulesindividualfile/&file=rpwd_%28amendment%29_rules%2C_2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/circularindividualfile/&file=DoPT+instructions_15Jan2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/circularindividualfile/&file=vikash_kumar_guidelines.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=25_april_2016_-_autism_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=RPwD+Act_enforcement.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=National+Fund_13.10.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=CAB_Notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=Guidelines+notification_04.01.2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=Advisory+Committee.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=exemption_armed_forces.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=rpwd_%28amendment%29_rules%2C_2019.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=amendment_guidelines__09.09.2020.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=notification_04.01.2021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=udid_notification.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=guidelines_blood_disorder_03082021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=notification_dated_18082021.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=amendment_09.06.2022.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=re-constitution_cab.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_25_54_00002_201649_1517807328299/notificationindividualfile/&file=reconstitution_notification_dt._13.10.2022.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 70 - Meetings of State Advisory Board on disability.
 

@@ -17,48 +17,6 @@ Sections: 1 to 48
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2245
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2245/1/A2017_23.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/rulesindividualfile/&file=206992_%281%29.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-1-65.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-126-136.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-102-126.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-65-102.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-136-175.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-193-207.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-175-193.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-395-431.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-308-395.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-289-308.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-431-501.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-208-231.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-204-206.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-206-208.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=213657-232-289.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=iiit_agartala.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=iiit_bhopal.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=iiit_bhagalpur.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=iiit_surat.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/ordinanceindividualfile/&file=raichur_ord.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-88-117.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-147-175.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-59-88.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-293-322.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-30-59.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-1-30.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-176-204.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-380-408.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-322-351.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-235-263.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-117-146.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-264-292.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-408-437.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-351-380.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=191586-205-234.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=statute_surat.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=statute_bhopal.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=statute_bhagalpur.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=statute_agartala.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00033_201723_1517807328002/statuteindividualfile/&file=statute_raichur.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

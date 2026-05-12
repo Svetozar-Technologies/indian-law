@@ -17,8 +17,6 @@ Sections: 1 to 39
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2248
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2248/1/AA2017-33.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_9_30_00040_201733_1528448470711/rulesindividualfile/&file=iim_rules%2C_2018.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title and commencement.
 

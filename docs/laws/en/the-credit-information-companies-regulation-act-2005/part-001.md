@@ -17,12 +17,6 @@ Sections: 1 to 37
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2057
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2057/2/A200530.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00003_200530_1517807317795/rulesindividualfile/&file=the_credit_information_companies_%28regulation%29_2005_-_rules.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00003_200530_1517807317795/regulationindividualfile/&file=the_credit_information_companies_%28regulation%29_2005_-_regulations.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00003_200530_1517807317795/notificationindividualfile/&file=credit_information_companies_%28regulation%29_act_notification_dated_14.12.2006.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00003_200530_1517807317795/notificationindividualfile/&file=credit_information_companies_act_rules_and_regulation_notification_dated_14.12.2006_.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_2_11_00003_200530_1517807317795/notificationindividualfile/&file=credit_information_companies_%28amendment%29_regulations_dated_11.8.2017.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 

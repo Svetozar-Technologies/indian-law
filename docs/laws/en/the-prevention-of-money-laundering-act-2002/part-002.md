@@ -17,7 +17,6 @@ Pages: 30 to 47
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2036
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2036/5/A2003-15.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Page 30
 

@@ -17,12 +17,6 @@ Sections: 1 to 33
 Sources:
 - html: https://www.indiacode.nic.in/handle/123456789/2151
 - pdf: https://www.indiacode.nic.in/bitstream/123456789/2151/1/A2016-38.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00012_201638_1517807328204/rulesindividualfile/&file=notification_of_caf_rules_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00012_201638_1517807328204/rulesindividualfile/&file=caf%28ap%29_rules_2018.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00012_201638_1517807328204/notificationindividualfile/&file=caf18._commencement.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00012_201638_1517807328204/notificationindividualfile/&file=nation_state_authority.pdf
-- pdf: https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_16_18_00012_201638_1517807328204/notificationindividualfile/&file=caf_national_fund.pdf
-- pdf: https://www.indiacode.nic.in/help/userGuide.pdf
 
 ## Section 1 - Short title, extent and commencement.
 
