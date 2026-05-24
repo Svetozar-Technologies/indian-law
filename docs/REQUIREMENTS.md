@@ -14,6 +14,8 @@ This project is an official-source law mirror and catalog viewer. These requirem
 - The catalog must include active Central Acts discovered from official sources and must be serialized as readable Links Notation.
 - Repository-owned `.lino` files must remain reviewable: indented object definitions, explicit string references for identifier-like values, and readable multiline strings.
 - Each law entry must include a stable slug, act metadata where available, default-language source metadata, and per-language status records.
+- Law category taxonomy and classification rules must be stored as repository-owned Links Notation, not JSON.
+- Each generated law entry must include exactly one stable main category from the catalog taxonomy. Laws must not be duplicated across multiple categories in the generated catalog.
 - The generated catalog must distinguish these language states:
   - `Markdown`: selected-language text was converted into generated Markdown parts.
   - `Pending`: an official selected-language source is known, but generated Markdown is not available yet.
@@ -36,6 +38,7 @@ This project is an official-source law mirror and catalog viewer. These requirem
 - Document routes must render selected-language Markdown only when that language record is enabled. Missing selected-language text must not route to another language's document.
 - Source-only laws may expose the official selected-language source link with `Pending` status.
 - Empty language views must render an empty table and zero-law metric rather than fallback rows.
+- Law list routes must arrange selected-language visible laws into collapsible category groups. Each visible law may appear in only one category group.
 
 ## Refresh and Cache Requirements
 

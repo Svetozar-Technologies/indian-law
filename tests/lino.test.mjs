@@ -11,6 +11,7 @@ const parser = new Parser({ maxInputSize: 128 * 1024 * 1024 });
 test("repository-owned seed metadata is stored as Links Notation", async () => {
   const paths = [
     "data/languages.lino",
+    "data/law-categories.lino",
     "data/laws.seed.lino",
     "data/regional-sources.seed.lino",
     "docs/data/catalog.lino",

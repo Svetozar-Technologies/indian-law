@@ -30,6 +30,32 @@ test("offline site build creates a React entry, Lino catalog, and markdown parts
     assert.match(pathAliasHome, /\.\.\/assets\/app\.js/);
     assert.match(bundle, /createRoot/);
     assert.equal(catalog.defaultLanguage, "en");
+    assert.deepEqual(
+      catalog.categories?.map((category) => category.id),
+      [
+        "criminal",
+        "civil",
+        "constitutional",
+        "property",
+        "family",
+        "labour",
+        "consumer",
+        "women",
+        "corporate",
+        "tax",
+        "environment",
+        "cyber",
+        "general"
+      ]
+    );
+    assert.ok(catalog.laws.every((law) => typeof law.category === "string"));
+    assert.equal(catalog.laws.find((law) => law.slug === "copyright-act-1957")?.category, "corporate");
+    assert.equal(catalog.laws.find((law) => law.slug === "bharatiya-nyaya-sanhita-2023")?.category, "criminal");
+    assert.equal(
+      catalog.laws.find((law) => law.slug === "bharatiya-nagarik-suraksha-sanhita-2023")?.category,
+      "criminal"
+    );
+    assert.equal(catalog.laws.find((law) => law.slug === "bharatiya-sakshya-adhiniyam-2023")?.category, "criminal");
     assert.equal(catalog.laws[0].languages.en.enabled, true);
     assert.equal(catalog.laws[0].languages.hi.enabled, false);
     assert.equal(catalog.laws[0].languages.hi.status, "source-only");

@@ -30,6 +30,25 @@ export function lawsForLanguage(catalog, languageCode) {
   return (catalog?.laws ?? []).filter((law) => hasLanguageCatalogEntry(law?.languages?.[languageCode]));
 }
 
+export function groupLawsByCategory(catalog, laws) {
+  const categories = normaliseCatalogCategories(catalog?.categories);
+  const categoriesById = new Map(categories.map((category) => [category.id, category]));
+  const fallbackCategory = categoriesById.get("general") ?? { id: "general", label: "General", description: "" };
+  const groups = new Map(categories.map((category) => [category.id, { category, laws: [] }]));
+
+  if (!groups.has(fallbackCategory.id)) {
+    groups.set(fallbackCategory.id, { category: fallbackCategory, laws: [] });
+  }
+
+  for (const law of laws ?? []) {
+    const categoryId = categoryIdForValue(law?.category);
+    const resolvedId = categoriesById.has(categoryId) ? categoryId : fallbackCategory.id;
+    groups.get(resolvedId).laws.push(law);
+  }
+
+  return [...groups.values()].filter((group) => group.laws.length > 0);
+}
+
 export function languageCoverageForCatalog(catalog, languageCode) {
   const laws = lawsForLanguage(catalog, languageCode);
   return {
@@ -73,4 +92,24 @@ function cleanDisplayTitle(value) {
     return "";
   }
   return text;
+}
+
+function normaliseCatalogCategories(categories) {
+  const normalised = (categories ?? [])
+    .map((category) => ({
+      id: categoryIdForValue(category?.id),
+      label: cleanDisplayTitle(category?.label),
+      description: cleanDisplayTitle(category?.description)
+    }))
+    .filter((category) => category.id);
+
+  return normalised.length > 0 ? normalised : [{ id: "general", label: "General", description: "" }];
+}
+
+function categoryIdForValue(value) {
+  return String(value ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }

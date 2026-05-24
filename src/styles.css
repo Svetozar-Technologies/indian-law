@@ -195,6 +195,54 @@ h3 {
   overflow-x: auto;
 }
 
+.category-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.category-group {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.category-group summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  min-height: 3.25rem;
+  padding: 0.75rem 1rem;
+}
+
+.category-group summary:hover {
+  background: var(--surface-2);
+}
+
+.category-name {
+  font-weight: 800;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.category-count {
+  color: var(--muted);
+  flex: 0 0 auto;
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.category-group .table-wrap {
+  border-top: 1px solid var(--line);
+}
+
+.category-group tr:last-child td {
+  border-bottom: 0;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -407,6 +455,17 @@ th {
 
   .table-wrap {
     overflow: visible;
+  }
+
+  .category-group summary {
+    align-items: flex-start;
+  }
+
+  .category-group tr {
+    border-left: 0;
+    border-radius: 0;
+    border-right: 0;
+    margin-bottom: 0;
   }
 
   table,

@@ -1,0 +1,198 @@
+obj_root:
+  defaultCategory general
+  categories obj_root_categories
+  priority obj_root_priority
+  explicit obj_root_explicit
+  ministries obj_root_ministries
+  keywords obj_root_keywords
+obj_root_categories:
+  obj_root_categories_criminal
+  obj_root_categories_civil
+  obj_root_categories_constitutional
+  obj_root_categories_property
+  obj_root_categories_family
+  obj_root_categories_labour
+  obj_root_categories_consumer
+  obj_root_categories_women
+  obj_root_categories_corporate
+  obj_root_categories_tax
+  obj_root_categories_environment
+  obj_root_categories_cyber
+  obj_root_categories_general
+obj_root_categories_criminal:
+  id criminal
+  label Criminal
+  description `Criminal law, offences, policing, investigation, evidence, prisons, and public safety.`
+obj_root_categories_civil:
+  id civil
+  label Civil
+  description `Civil procedure, courts, remedies, arbitration, limitation, and evidence outside criminal matters.`
+obj_root_categories_constitutional:
+  id constitutional
+  label Constitutional
+  description `Constitutional institutions, elections, citizenship, rights, public administration, and state structure.`
+obj_root_categories_property:
+  id property
+  label Property
+  description `Land, tenancy, acquisition, registration, housing, easements, and immovable property.`
+obj_root_categories_family:
+  id family
+  label Family
+  description `Marriage, divorce, succession, adoption, guardianship, maintenance, and personal law.`
+obj_root_categories_labour:
+  id labour
+  label Labour
+  description `Employment, wages, social security, industrial relations, occupational safety, and worker welfare.`
+obj_root_categories_consumer:
+  id consumer
+  label Consumer
+  description `Consumer protection, food and product standards, essential commodities, and regulated public markets.`
+obj_root_categories_women:
+  id women
+  label `Women and Children`
+  description `Women, children, domestic violence, sexual offences, child protection, and gender-specific safeguards.`
+obj_root_categories_corporate:
+  id corporate
+  label Corporate
+  description `Companies, finance, banking, securities, commerce, intellectual property, and regulated business.`
+obj_root_categories_tax:
+  id tax
+  label Tax
+  description `Direct taxes, indirect taxes, customs, excise, GST, public finance, and fiscal administration.`
+obj_root_categories_environment:
+  id environment
+  label Environment
+  description `Environment, forests, wildlife, pollution control, water, biodiversity, and natural resources.`
+obj_root_categories_cyber:
+  id cyber
+  label Cyber
+  description `Information technology, data protection, telecommunications, digital systems, and cyber regulation.`
+obj_root_categories_general:
+  id general
+  label General
+  description `General, administrative, institutional, educational, cultural, infrastructure, and uncategorized laws.`
+obj_root_priority:
+  criminal
+  constitutional
+  women
+  family
+  property
+  consumer
+  labour
+  corporate
+  tax
+  environment
+  cyber
+  civil
+  general
+obj_root_explicit:
+  obj_root_explicit_bns
+  obj_root_explicit_bnss
+  obj_root_explicit_bsa
+  obj_root_explicit_copyright
+obj_root_explicit_bns:
+  slug bharatiya-nyaya-sanhita-2023
+  category criminal
+obj_root_explicit_bnss:
+  slug bharatiya-nagarik-suraksha-sanhita-2023
+  category criminal
+obj_root_explicit_bsa:
+  slug bharatiya-sakshya-adhiniyam-2023
+  category criminal
+obj_root_explicit_copyright:
+  slug copyright-act-1957
+  category corporate
+obj_root_ministries:
+  obj_root_ministries_home
+  obj_root_ministries_law
+  obj_root_ministries_corporate
+  obj_root_ministries_finance
+  obj_root_ministries_consumer
+  obj_root_ministries_labour
+  obj_root_ministries_women
+  obj_root_ministries_environment
+  obj_root_ministries_electronics
+  obj_root_ministries_housing
+  obj_root_ministries_commerce
+obj_root_ministries_home:
+  name `Ministry of Home Affairs`
+  category criminal
+obj_root_ministries_law:
+  name `Ministry of Law and Justice`
+  category civil
+obj_root_ministries_corporate:
+  name `Ministry of Corporate Affairs`
+  category corporate
+obj_root_ministries_finance:
+  name `Ministry of Finance`
+  category tax
+obj_root_ministries_consumer:
+  name `Ministry of Consumer Affairs, Food and Public Distribution`
+  category consumer
+obj_root_ministries_labour:
+  name `Ministry of Labour and Employment`
+  category labour
+obj_root_ministries_women:
+  name `Ministry of Women and Child Development`
+  category women
+obj_root_ministries_environment:
+  name `Ministry of Environment, Forest and Climate Change`
+  category environment
+obj_root_ministries_electronics:
+  name `Ministry of Electronics and Information Technology`
+  category cyber
+obj_root_ministries_housing:
+  name `Ministry of Housing and Urban Affairs`
+  category property
+obj_root_ministries_commerce:
+  name `Ministry of Commerce and Industry`
+  category corporate
+obj_root_keywords:
+  obj_root_keywords_criminal
+  obj_root_keywords_constitutional
+  obj_root_keywords_women
+  obj_root_keywords_family
+  obj_root_keywords_property
+  obj_root_keywords_consumer
+  obj_root_keywords_labour
+  obj_root_keywords_corporate
+  obj_root_keywords_tax
+  obj_root_keywords_environment
+  obj_root_keywords_cyber
+  obj_root_keywords_civil
+obj_root_keywords_criminal:
+  pattern `penal|criminal|offence|offender|punishment|bail|arrest|prison|police|terror|narcotic|arms|weapon|explosive|unlawful|corruption|money laundering|sakshya|nyaya|suraksha`
+  category criminal
+obj_root_keywords_constitutional:
+  pattern `constitution|election|citizenship|official language|representation of the people|delimitation|scheduled caste|scheduled tribe|human rights|right to information|union territor|reorganisation|state of`
+  category constitutional
+obj_root_keywords_women:
+  pattern `women|woman|child|children|juvenile|domestic violence|dowry|sati|sexual harassment|sexual offences|pocso|pre-natal|maternity|surrogacy`
+  category women
+obj_root_keywords_family:
+  pattern `marriage|divorce|succession|adoption|guardian|guardianship|minor|maintenance|family court|muslim|hindu|christian|parsi|wakf|waqf`
+  category family
+obj_root_keywords_property:
+  pattern `property|land|tenancy|tenant|rent|estate|acquisition|registration|easement|apartment|lease|transfer of property|urban|municipal|real estate|rehabilitation and resettlement`
+  category property
+obj_root_keywords_consumer:
+  pattern `consumer|food safety|standards|essential commodities|weights and measures|bureau of indian standards|tobacco|drugs and cosmetics|clinical establishment|public liability`
+  category consumer
+obj_root_keywords_labour:
+  pattern `labour|labor|worker|wages|employment|employees|industrial relations|trade union|provident fund|social security|apprentices|dock workers|manual scavengers`
+  category labour
+obj_root_keywords_corporate:
+  pattern `compan|bank|banking|insurance|securities|contracts|partnership|competition|copyright|trade mark|trademark|patent|designs|geographical indications|commerce|industry|export|import|deposit|depositories|insolvency`
+  category corporate
+obj_root_keywords_tax:
+  pattern `tax|taxation|customs|excise|goods and services tax|gst|cess|tariff|black money|income-tax|finance commission|fiscal`
+  category tax
+obj_root_keywords_environment:
+  pattern `environment|forest|wild life|wildlife|pollution|water|air|biodiversity|biological diversity|afforestation|climate|river|dam|mines and minerals`
+  category environment
+obj_root_keywords_cyber:
+  pattern `information technology|digital|data protection|telecom|telecommunications|cyber|electronic|semiconductor`
+  category cyber
+obj_root_keywords_civil:
+  pattern `civil|court|tribunal|arbitration|conciliation|limitation|specific relief|evidence|notaries|oaths|advocates|legal services`
+  category civil

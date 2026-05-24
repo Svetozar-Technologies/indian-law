@@ -1,0 +1,11 @@
+{
+  "source": "Svetozar-Technologies/satyavera-app package.json",
+  "scripts": {
+    "ingest-laws": "tsx scripts/ingest-laws.ts",
+    "ingest-laws:dry": "tsx scripts/ingest-laws.ts --dry-run",
+    "ingest-laws:test": "tsx scripts/ingest-laws.ts --limit 5 --dry-run",
+    "seed-laws-pg": "tsx scripts/seed-laws-pg.ts",
+    "scrape-missing-laws": "tsx scripts/scrape-missing-laws.ts",
+    "fetch-critical-laws": "tsx scripts/fetch-critical-laws.ts"
+  }
+}

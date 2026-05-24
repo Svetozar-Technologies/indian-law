@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 
 import { extractIndiaCodeMetadata, extractIndiaCodeSections, parseSectionContentJson } from "./lib/html.mjs";
 import { fetchBuffer, fetchJson, fetchText, sleep } from "./lib/http.mjs";
+import { catalogCategories, categoryForLaw, normaliseCategoryConfig } from "./lib/categories.mjs";
 import { readDataFile, writeDataFile } from "./lib/lino.mjs";
 import { createLogger } from "./lib/logging.mjs";
 import {
@@ -33,6 +34,7 @@ async function main() {
   const manifestPath = path.resolve(ROOT, args.manifest ?? "data/laws.seed.lino");
   const languagePath = path.resolve(ROOT, args.languages ?? "data/languages.lino");
   const regionalPath = path.resolve(ROOT, args["regional-sources"] ?? "data/regional-sources.seed.lino");
+  const categoryPath = path.resolve(ROOT, args.categories ?? "data/law-categories.lino");
   const maxLines = Number(args["max-lines"] ?? DEFAULT_MAX_LINES);
   const delayMs = Number(args["delay-ms"] ?? 1100);
   const fetchLive = Boolean(args.fetch) && !Boolean(args.offline);
@@ -65,7 +67,10 @@ async function main() {
     `Inputs: manifest=${path.relative(ROOT, manifestPath)}, languages=${path.relative(
       ROOT,
       languagePath
-    )}, regionalSources=${path.relative(ROOT, regionalPath)}, output=${path.relative(ROOT, outputDir)}`
+    )}, regionalSources=${path.relative(ROOT, regionalPath)}, categories=${path.relative(
+      ROOT,
+      categoryPath
+    )}, output=${path.relative(ROOT, outputDir)}`
   );
   logger.info(
     `Options: maxLines=${maxLines}, delayMs=${delayMs}, maxLaws=${maxLaws ?? "all"}, maxSections=${
@@ -85,12 +90,14 @@ async function main() {
   const languageConfig = await readDataFile(languagePath);
   logger.info(`Reading regional sources from ${path.relative(ROOT, regionalPath)}`);
   const regionalSources = await readDataFile(regionalPath);
+  logger.info(`Reading law categories from ${path.relative(ROOT, categoryPath)}`);
+  const categoryConfig = normaliseCategoryConfig(await readDataFile(categoryPath));
   const languages = languageConfig.languages;
   const selectedLaws = manifest.laws.slice(0, maxLaws || manifest.laws.length);
   logger.info(
     `Loaded ${manifest.laws.length} manifest law(s), ${languages.length} language(s), ${
       regionalSources.sources?.length ?? 0
-    } regional source record(s)`
+    } regional source record(s), ${categoryConfig.categories.length} law categories`
   );
   logger.info(`Selected ${selectedLaws.length} law(s) for this run`);
 
@@ -175,6 +182,7 @@ async function main() {
     laws,
     maxLines,
     pathAlias,
+    categoryConfig,
     sourceMetadata: {
       generatedFrom: manifest.generatedFrom ?? [],
       lastVerified: manifest.lastVerified ?? regionalSources.lastVerified ?? "",
@@ -869,7 +877,17 @@ function formatDuration(milliseconds) {
   return `${minutes}m ${seconds}s`;
 }
 
-async function writeSite({ outputDir, logger, languages, defaultLanguage, laws, maxLines, pathAlias, sourceMetadata }) {
+async function writeSite({
+  outputDir,
+  logger,
+  languages,
+  defaultLanguage,
+  laws,
+  maxLines,
+  pathAlias,
+  categoryConfig,
+  sourceMetadata
+}) {
   logger?.info(`Writing site output to ${path.relative(ROOT, outputDir)}`);
   await mkdir(outputDir, { recursive: true });
   logger?.info("Removing generated laws/assets/data output from previous build");
@@ -886,7 +904,16 @@ async function writeSite({ outputDir, logger, languages, defaultLanguage, laws, 
   await mkdir(path.join(outputDir, "assets"), { recursive: true });
   await mkdir(path.join(outputDir, "data"), { recursive: true });
 
-  const catalog = await writeMarkdownParts({ outputDir, logger, languages, laws, defaultLanguage, maxLines, sourceMetadata });
+  const catalog = await writeMarkdownParts({
+    outputDir,
+    logger,
+    languages,
+    laws,
+    defaultLanguage,
+    maxLines,
+    categoryConfig,
+    sourceMetadata
+  });
   logger?.info(`Writing catalog with ${catalog.laws.length} law entries`);
   await writeDataFile(path.join(outputDir, "data", "catalog.lino"), catalog);
   logger?.info("Writing favicon");
@@ -921,12 +948,22 @@ async function writeSite({ outputDir, logger, languages, defaultLanguage, laws, 
   }
 }
 
-async function writeMarkdownParts({ outputDir, logger, languages, laws, defaultLanguage, maxLines, sourceMetadata }) {
+async function writeMarkdownParts({
+  outputDir,
+  logger,
+  languages,
+  laws,
+  defaultLanguage,
+  maxLines,
+  categoryConfig,
+  sourceMetadata
+}) {
   const catalog = {
     title: "Indian Law",
     defaultLanguage,
     maxLines,
     sourceMetadata,
+    categories: catalogCategories(categoryConfig),
     languages: languages.map((language) => ({
       code: language.code,
       name: language.name,
@@ -950,6 +987,7 @@ async function writeMarkdownParts({ outputDir, logger, languages, laws, defaultL
       ministry: law.ministry ?? "",
       department: law.department ?? "",
       longTitle: law.longTitle ?? "",
+      category: categoryForLaw(law, categoryConfig),
       sourceUrl: law.sourceUrl ?? "",
       sources: cleanSourcesByLanguage(law.sources ?? {}),
       languages: {}

@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 
 import {
   displayTitleForLanguage,
+  groupLawsByCategory,
   languageCoverageForCatalog,
   lawsForLanguage,
   statusClassForLanguage,
@@ -91,6 +92,7 @@ function HomeView({ catalog, selectedLanguage }) {
   const language = languageByCode(catalog, selectedLanguage) ?? languageByCode(catalog, catalog.defaultLanguage);
   const languageCode = language?.code ?? catalog.defaultLanguage;
   const visibleLaws = useMemo(() => lawsForLanguage(catalog, languageCode), [catalog, languageCode]);
+  const categoryGroups = useMemo(() => groupLawsByCategory(catalog, visibleLaws), [catalog, visibleLaws]);
   const { ready: readyCount, total: totalCount } = languageCoverageForCatalog(catalog, languageCode);
   const lawMetric = readyCount === totalCount ? String(totalCount) : `${readyCount}/${totalCount}`;
 
@@ -142,53 +144,83 @@ function HomeView({ catalog, selectedLanguage }) {
             Catalog source: Links Notation
           </a>
         </div>
-        <div className="table-wrap">
-          <table>
-            <thead>
-              <tr><th>Title</th><th>Year</th><th>Act</th><th>Text</th><th>Source</th></tr>
-            </thead>
-            <tbody>
-              {visibleLaws.map((law) => {
-                const languageRecord = law.languages[languageCode] ?? null;
-                const canOpen = Boolean(languageRecord?.enabled);
-                const title = displayTitleForLanguage(law, languageCode, catalog.defaultLanguage);
-                return (
-                  <tr key={law.slug}>
-                    <td>
-                      {canOpen ? (
-                        <a href={documentHash(languageCode, law.slug, languageRecord.parts[0]?.file)}>
-                          {title}
-                        </a>
-                      ) : (
-                        title
-                      )}
-                    </td>
-                    <td>{law.actYear}</td>
-                    <td>{law.actNumber}</td>
-                    <td>
-                      {canOpen ? (
-                        <a
-                          className={`status ${statusClassForLanguage(languageRecord)}`}
-                          href={documentHash(languageCode, law.slug, languageRecord.parts[0]?.file)}
-                        >
-                          {textStatusForLanguage(languageRecord, languageCode)}
-                        </a>
-                      ) : (
-                        <span className={`status ${statusClassForLanguage(languageRecord)}`}>
-                          {textStatusForLanguage(languageRecord, languageCode)}
-                        </span>
-                      )}
-                    </td>
-                    <td><SourceLinks sources={sourcesForLanguage(law, languageCode)} /></td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+        <div className="category-list">
+          {categoryGroups.length > 0 ? (
+            categoryGroups.map((group) => (
+              <details className="category-group" key={group.category.id} open>
+                <summary title={group.category.description || undefined}>
+                  <span className="category-name">{group.category.label}</span>
+                  <span className="category-count">{lawCountLabel(group.laws.length)}</span>
+                </summary>
+                <LawTable laws={group.laws} languageCode={languageCode} defaultLanguage={catalog.defaultLanguage} />
+              </details>
+            ))
+          ) : (
+            <LawTable laws={[]} languageCode={languageCode} defaultLanguage={catalog.defaultLanguage} />
+          )}
         </div>
       </section>
     </>
   );
+}
+
+function LawTable({ laws, languageCode, defaultLanguage }) {
+  return (
+    <div className="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Title</th><th>Year</th><th>Act</th><th>Text</th><th>Source</th></tr>
+        </thead>
+        <tbody>
+          {laws.map((law) => (
+            <LawRow law={law} languageCode={languageCode} defaultLanguage={defaultLanguage} key={law.slug} />
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function LawRow({ law, languageCode, defaultLanguage }) {
+  const languageRecord = law.languages?.[languageCode] ?? null;
+  const canOpen = Boolean(languageRecord?.enabled);
+  const firstPart = languageRecord?.parts?.[0]?.file;
+  const title = displayTitleForLanguage(law, languageCode, defaultLanguage);
+
+  return (
+    <tr>
+      <td>
+        {canOpen ? (
+          <a href={documentHash(languageCode, law.slug, firstPart)}>
+            {title}
+          </a>
+        ) : (
+          title
+        )}
+      </td>
+      <td>{law.actYear}</td>
+      <td>{law.actNumber}</td>
+      <td>
+        {canOpen ? (
+          <a
+            className={`status ${statusClassForLanguage(languageRecord)}`}
+            href={documentHash(languageCode, law.slug, firstPart)}
+          >
+            {textStatusForLanguage(languageRecord, languageCode)}
+          </a>
+        ) : (
+          <span className={`status ${statusClassForLanguage(languageRecord)}`}>
+            {textStatusForLanguage(languageRecord, languageCode)}
+          </span>
+        )}
+      </td>
+      <td><SourceLinks sources={sourcesForLanguage(law, languageCode)} /></td>
+    </tr>
+  );
+}
+
+function lawCountLabel(count) {
+  return `${count} ${count === 1 ? "law" : "laws"}`;
 }
 
 function DocumentView({ catalog, resolved }) {
