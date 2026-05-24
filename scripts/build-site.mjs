@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 
 import { extractIndiaCodeMetadata, extractIndiaCodeSections, parseSectionContentJson } from "./lib/html.mjs";
 import { fetchBuffer, fetchJson, fetchText, sleep } from "./lib/http.mjs";
-import { catalogCategories, categoryForLaw, normaliseCategoryConfig } from "./lib/categories.mjs";
+import { catalogCategories, catalogCategoryTree, classifyLaw, normaliseCategoryConfig } from "./lib/categories.mjs";
 import { readDataFile, writeDataFile } from "./lib/lino.mjs";
 import { createLogger } from "./lib/logging.mjs";
 import {
@@ -964,6 +964,7 @@ async function writeMarkdownParts({
     maxLines,
     sourceMetadata,
     categories: catalogCategories(categoryConfig),
+    categoryTree: catalogCategoryTree(categoryConfig),
     languages: languages.map((language) => ({
       code: language.code,
       name: language.name,
@@ -977,6 +978,7 @@ async function writeMarkdownParts({
 
   for (const law of laws) {
     logger?.info(`Cataloging law ${law.slug}: ${law.title}`);
+    const classification = classifyLaw(law, categoryConfig);
     const lawEntry = {
       slug: law.slug,
       title: law.title,
@@ -987,7 +989,8 @@ async function writeMarkdownParts({
       ministry: law.ministry ?? "",
       department: law.department ?? "",
       longTitle: law.longTitle ?? "",
-      category: categoryForLaw(law, categoryConfig),
+      category: classification.category,
+      categoryTags: classification.tags,
       sourceUrl: law.sourceUrl ?? "",
       sources: cleanSourcesByLanguage(law.sources ?? {}),
       languages: {}

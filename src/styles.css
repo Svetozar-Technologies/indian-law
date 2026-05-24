@@ -262,6 +262,33 @@ th {
   font-size: 0.85rem;
 }
 
+.law-title-cell {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.law-tags {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.law-tag {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  display: inline-flex;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 100%;
+  padding: 0.18rem 0.5rem;
+  white-space: normal;
+}
+
 .status {
   display: inline-flex;
   align-items: center;

@@ -1,5 +1,12 @@
 {
-  "source": "Svetozar-Technologies/satyavera-app package.json",
+  "source": "Svetozar-Technologies/satyavera-app",
+  "filesReviewed": [
+    "package.json",
+    "scripts/law-categories.ts",
+    "scripts/ingest-laws.ts",
+    "scripts/export-laws.ts",
+    "data/laws/_index.json"
+  ],
   "scripts": {
     "ingest-laws": "tsx scripts/ingest-laws.ts",
     "ingest-laws:dry": "tsx scripts/ingest-laws.ts --dry-run",
@@ -7,5 +14,22 @@
     "seed-laws-pg": "tsx scripts/seed-laws-pg.ts",
     "scrape-missing-laws": "tsx scripts/scrape-missing-laws.ts",
     "fetch-critical-laws": "tsx scripts/fetch-critical-laws.ts"
-  }
+  },
+  "findings": [
+    "law-categories.ts uses explicit slug, ministry, and title-keyword rules to assign each law one or more categories.",
+    "export-laws.ts derives a primary category from the multi-category set and writes category-wise JSON under data/laws/.",
+    "ingest-laws.ts stores both the full category set and the derived primary category when ingesting law metadata.",
+    "data/laws/_index.json summarizes 846 laws and 35685 sections across the related app category buckets."
+  ],
+  "adoptedHere": [
+    "explicit slug overrides for important laws",
+    "ministry and keyword fallback classification",
+    "one primary category for list grouping",
+    "secondary category tags for reviewable multi-taxonomy matches"
+  ],
+  "notAdoptedHere": [
+    "repository-owned JSON law data",
+    "duplicating one law into multiple main category groups",
+    "using related-app data as legal text source of truth"
+  ]
 }

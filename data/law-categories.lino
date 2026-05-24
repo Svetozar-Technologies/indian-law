@@ -23,54 +23,305 @@ obj_root_categories_criminal:
   id criminal
   label Criminal
   description `Criminal law, offences, policing, investigation, evidence, prisons, and public safety.`
+  children obj_root_categories_criminal_children
+obj_root_categories_criminal_children:
+  obj_root_categories_criminal_offences
+  obj_root_categories_criminal_procedure
+  obj_root_categories_evidence_and_forensics
+  obj_root_categories_public_safety
+obj_root_categories_criminal_offences:
+  id criminal-offences
+  label `Criminal offences`
+  description `Offence definitions, punishments, special penal laws, narcotics, arms, terrorism, and economic offences.`
+obj_root_categories_criminal_procedure:
+  id criminal-procedure
+  label `Criminal procedure`
+  description `Criminal courts, arrest, bail, prisons, police powers, investigation, prosecution, and corrections.`
+obj_root_categories_evidence_and_forensics:
+  id evidence-and-forensics
+  label `Evidence and forensics`
+  description `Evidence rules, forensic processes, identification, witnesses, and proof in criminal proceedings.`
+obj_root_categories_public_safety:
+  id public-safety
+  label `Public safety`
+  description `Public order, emergency powers, explosives, security, protected areas, and safety administration.`
 obj_root_categories_civil:
   id civil
   label Civil
-  description `Civil procedure, courts, remedies, arbitration, limitation, and evidence outside criminal matters.`
+  description `Civil procedure, courts, remedies, arbitration, limitation, legal profession, and non-criminal evidence.`
+  children obj_root_categories_civil_children
+obj_root_categories_civil_children:
+  obj_root_categories_courts_and_tribunals
+  obj_root_categories_dispute_resolution
+  obj_root_categories_legal_profession
+obj_root_categories_courts_and_tribunals:
+  id courts-and-tribunals
+  label `Courts and tribunals`
+  description `Civil courts, tribunal procedure, judicial administration, limitation, and procedural law.`
+obj_root_categories_dispute_resolution:
+  id dispute-resolution
+  label `Dispute resolution`
+  description `Arbitration, conciliation, mediation, specific relief, contracts, and civil remedies.`
+obj_root_categories_legal_profession:
+  id legal-profession
+  label `Legal profession`
+  description `Advocates, notaries, legal services, court officers, oaths, and legal aid institutions.`
 obj_root_categories_constitutional:
   id constitutional
   label Constitutional
   description `Constitutional institutions, elections, citizenship, rights, public administration, and state structure.`
+  children obj_root_categories_constitutional_children
+obj_root_categories_constitutional_children:
+  obj_root_categories_elections_and_citizenship
+  obj_root_categories_state_structure
+  obj_root_categories_public_administration
+  obj_root_categories_rights_and_information
+obj_root_categories_elections_and_citizenship:
+  id elections-and-citizenship
+  label `Elections and citizenship`
+  description `Elections, constituencies, citizenship, representation, and voter administration.`
+obj_root_categories_state_structure:
+  id state-structure
+  label `State structure`
+  description `Union territories, state reorganisation, official language, constitutional bodies, and federal structure.`
+obj_root_categories_public_administration:
+  id public-administration
+  label `Public administration`
+  description `Government institutions, administrative powers, public service, records, and statutory authorities.`
+obj_root_categories_rights_and_information:
+  id rights-and-information
+  label `Rights and information`
+  description `Human rights, information access, transparency, public accountability, and civil liberties.`
 obj_root_categories_property:
   id property
   label Property
   description `Land, tenancy, acquisition, registration, housing, easements, and immovable property.`
+  children obj_root_categories_property_children
+obj_root_categories_property_children:
+  obj_root_categories_land_and_acquisition
+  obj_root_categories_tenancy_and_housing
+  obj_root_categories_registration_and_transfer
+  obj_root_categories_infrastructure_property
+obj_root_categories_land_and_acquisition:
+  id land-and-acquisition
+  label `Land and acquisition`
+  description `Land records, acquisition, estates, rehabilitation, resettlement, mines, and immovable-property administration.`
+obj_root_categories_tenancy_and_housing:
+  id tenancy-and-housing
+  label `Tenancy and housing`
+  description `Tenancy, rent, apartments, real estate, housing, leasehold interests, and urban property.`
+obj_root_categories_registration_and_transfer:
+  id registration-and-transfer
+  label `Registration and transfer`
+  description `Registration, transfer of property, easements, stamps tied to property transfer, and conveyancing.`
+obj_root_categories_infrastructure_property:
+  id infrastructure-property
+  label `Infrastructure property`
+  description `Property-linked public works, highways, ports, municipal assets, and infrastructure land use.`
 obj_root_categories_family:
   id family
   label Family
   description `Marriage, divorce, succession, adoption, guardianship, maintenance, and personal law.`
+  children obj_root_categories_family_children
+obj_root_categories_family_children:
+  obj_root_categories_marriage_and_divorce
+  obj_root_categories_succession_and_personal_law
+  obj_root_categories_guardianship_and_maintenance
+obj_root_categories_marriage_and_divorce:
+  id marriage-and-divorce
+  label `Marriage and divorce`
+  description `Marriage, divorce, special marriage, family courts, matrimonial rights, and related procedure.`
+obj_root_categories_succession_and_personal_law:
+  id succession-and-personal-law
+  label `Succession and personal law`
+  description `Succession, inheritance, religious personal law, trusts, wakf, and personal-law institutions.`
+obj_root_categories_guardianship_and_maintenance:
+  id guardianship-and-maintenance
+  label `Guardianship and maintenance`
+  description `Adoption, guardianship, maintenance, minors, dependants, and family welfare obligations.`
 obj_root_categories_labour:
   id labour
   label Labour
   description `Employment, wages, social security, industrial relations, occupational safety, and worker welfare.`
+  children obj_root_categories_labour_children
+obj_root_categories_labour_children:
+  obj_root_categories_employment_and_wages
+  obj_root_categories_industrial_relations
+  obj_root_categories_worker_welfare
+obj_root_categories_employment_and_wages:
+  id employment-and-wages
+  label `Employment and wages`
+  description `Employment conditions, wages, shops and establishments, apprentices, contracts of service, and benefits.`
+obj_root_categories_industrial_relations:
+  id industrial-relations
+  label `Industrial relations`
+  description `Trade unions, industrial disputes, standing orders, collective bargaining, and workplace adjudication.`
+obj_root_categories_worker_welfare:
+  id worker-welfare
+  label `Worker welfare`
+  description `Social security, provident fund, employee insurance, occupational safety, dock work, and welfare boards.`
 obj_root_categories_consumer:
   id consumer
   label Consumer
   description `Consumer protection, food and product standards, essential commodities, and regulated public markets.`
+  children obj_root_categories_consumer_children
+obj_root_categories_consumer_children:
+  obj_root_categories_food_and_standards
+  obj_root_categories_essential_commodities
+  obj_root_categories_product_and_market_regulation
+obj_root_categories_food_and_standards:
+  id food-and-standards
+  label `Food and standards`
+  description `Food safety, standards, weights and measures, certification, and regulated quality marks.`
+obj_root_categories_essential_commodities:
+  id essential-commodities
+  label `Essential commodities`
+  description `Essential commodities, public distribution, tobacco, drugs and cosmetics, and commodity controls.`
+obj_root_categories_product_and_market_regulation:
+  id product-and-market-regulation
+  label `Product and market regulation`
+  description `Consumer protection, product liability, market conduct, standards enforcement, and public-facing commerce.`
 obj_root_categories_women:
   id women
   label `Women and Children`
   description `Women, children, domestic violence, sexual offences, child protection, and gender-specific safeguards.`
+  children obj_root_categories_women_children
+obj_root_categories_women_children:
+  obj_root_categories_women_safeguards
+  obj_root_categories_child_protection
+  obj_root_categories_gender_and_family_welfare
+obj_root_categories_women_safeguards:
+  id women-safeguards
+  label `Women safeguards`
+  description `Women-specific protection, domestic violence, dowry, sati, workplace harassment, and gender safeguards.`
+obj_root_categories_child_protection:
+  id child-protection
+  label `Child protection`
+  description `Children, juveniles, child labour, sexual offences against children, adoption safeguards, and care institutions.`
+obj_root_categories_gender_and_family_welfare:
+  id gender-and-family-welfare
+  label `Gender and family welfare`
+  description `Maternity, pregnancy, surrogacy, family welfare, reproductive health, and gender-linked welfare schemes.`
 obj_root_categories_corporate:
   id corporate
   label Corporate
   description `Companies, finance, banking, securities, commerce, intellectual property, and regulated business.`
+  children obj_root_categories_corporate_children
+obj_root_categories_corporate_children:
+  obj_root_categories_corporate_governance
+  obj_root_categories_banking_and_finance
+  obj_root_categories_intellectual_property
+  obj_root_categories_commerce_and_industry
+obj_root_categories_corporate_governance:
+  id corporate-governance
+  label `Corporate governance`
+  description `Companies, partnerships, limited liability partnerships, insolvency, competition, contracts, and business entities.`
+obj_root_categories_banking_and_finance:
+  id banking-and-finance
+  label `Banking and finance`
+  description `Banking, insurance, securities, deposits, depositories, financial markets, and regulated finance.`
+obj_root_categories_intellectual_property:
+  id intellectual-property
+  label `Intellectual property`
+  description `Copyright, patents, trade marks, designs, geographical indications, and other intellectual-property rights.`
+obj_root_categories_commerce_and_industry:
+  id commerce-and-industry
+  label `Commerce and industry`
+  description `Commerce, industry, imports, exports, special economic zones, factories, and market infrastructure.`
 obj_root_categories_tax:
   id tax
   label Tax
   description `Direct taxes, indirect taxes, customs, excise, GST, public finance, and fiscal administration.`
+  children obj_root_categories_tax_children
+obj_root_categories_tax_children:
+  obj_root_categories_direct_tax
+  obj_root_categories_indirect_tax
+  obj_root_categories_customs_and_excise
+  obj_root_categories_public_finance
+obj_root_categories_direct_tax:
+  id direct-tax
+  label `Direct tax`
+  description `Income tax, wealth tax, black money, direct-tax procedure, and direct fiscal obligations.`
+obj_root_categories_indirect_tax:
+  id indirect-tax
+  label `Indirect tax`
+  description `Goods and services tax, service tax, indirect levies, cess, and related administration.`
+obj_root_categories_customs_and_excise:
+  id customs-and-excise
+  label `Customs and excise`
+  description `Customs, tariffs, excise, import and export duties, and border fiscal administration.`
+obj_root_categories_public_finance:
+  id public-finance
+  label `Public finance`
+  description `Public finance, fiscal commissions, appropriation, consolidated funds, and financial administration.`
 obj_root_categories_environment:
   id environment
   label Environment
   description `Environment, forests, wildlife, pollution control, water, biodiversity, and natural resources.`
+  children obj_root_categories_environment_children
+obj_root_categories_environment_children:
+  obj_root_categories_pollution_control
+  obj_root_categories_forest_and_wildlife
+  obj_root_categories_natural_resources
+obj_root_categories_pollution_control:
+  id pollution-control
+  label `Pollution control`
+  description `Water, air, environmental protection, hazardous substances, liability, and pollution-control boards.`
+obj_root_categories_forest_and_wildlife:
+  id forest-and-wildlife
+  label `Forest and wildlife`
+  description `Forests, wildlife, biodiversity, biological diversity, afforestation, protected areas, and animal habitats.`
+obj_root_categories_natural_resources:
+  id natural-resources
+  label `Natural resources`
+  description `Mines, minerals, rivers, dams, water resources, climate, energy resources, and resource administration.`
 obj_root_categories_cyber:
   id cyber
   label Cyber
   description `Information technology, data protection, telecommunications, digital systems, and cyber regulation.`
+  children obj_root_categories_cyber_children
+obj_root_categories_cyber_children:
+  obj_root_categories_data_protection
+  obj_root_categories_telecom
+  obj_root_categories_digital_systems
+obj_root_categories_data_protection:
+  id data-protection
+  label `Data protection`
+  description `Digital personal data, privacy, cyber incidents, electronic records, and data governance.`
+obj_root_categories_telecom:
+  id telecom
+  label Telecom
+  description `Telecommunications, wireless, telegraph, broadcasting carriage, spectrum, and communication networks.`
+obj_root_categories_digital_systems:
+  id digital-systems
+  label `Digital systems`
+  description `Information technology, electronic governance, digital services, semiconductors, and digital infrastructure.`
 obj_root_categories_general:
   id general
   label General
   description `General, administrative, institutional, educational, cultural, infrastructure, and uncategorized laws.`
+  children obj_root_categories_general_children
+obj_root_categories_general_children:
+  obj_root_categories_education_and_culture
+  obj_root_categories_health_and_welfare
+  obj_root_categories_transport_and_infrastructure
+  obj_root_categories_institutions_and_miscellaneous
+obj_root_categories_education_and_culture:
+  id education-and-culture
+  label `Education and culture`
+  description `Education, universities, cultural bodies, heritage, languages, arts, and research institutions.`
+obj_root_categories_health_and_welfare:
+  id health-and-welfare
+  label `Health and welfare`
+  description `Health services, medical institutions, welfare schemes, disability, public health, and social assistance.`
+obj_root_categories_transport_and_infrastructure:
+  id transport-and-infrastructure
+  label `Transport and infrastructure`
+  description `Roads, highways, railways, ports, airports, shipping, motor vehicles, and infrastructure authorities.`
+obj_root_categories_institutions_and_miscellaneous:
+  id institutions-and-miscellaneous
+  label `Institutions and miscellaneous`
+  description `Statutory bodies, awards, charities, administrative institutions, residual laws, and miscellaneous governance.`
 obj_root_priority:
   criminal
   constitutional
@@ -93,15 +344,27 @@ obj_root_explicit:
 obj_root_explicit_bns:
   slug bharatiya-nyaya-sanhita-2023
   category criminal
+  tags obj_root_explicit_bns_tags
+obj_root_explicit_bns_tags:
+  criminal-offences
 obj_root_explicit_bnss:
   slug bharatiya-nagarik-suraksha-sanhita-2023
   category criminal
+  tags obj_root_explicit_bnss_tags
+obj_root_explicit_bnss_tags:
+  criminal-procedure
 obj_root_explicit_bsa:
   slug bharatiya-sakshya-adhiniyam-2023
   category criminal
+  tags obj_root_explicit_bsa_tags
+obj_root_explicit_bsa_tags:
+  evidence-and-forensics
 obj_root_explicit_copyright:
   slug copyright-act-1957
   category corporate
+  tags obj_root_explicit_copyright_tags
+obj_root_explicit_copyright_tags:
+  intellectual-property
 obj_root_ministries:
   obj_root_ministries_home
   obj_root_ministries_law
@@ -148,51 +411,183 @@ obj_root_ministries_commerce:
   name `Ministry of Commerce and Industry`
   category corporate
 obj_root_keywords:
-  obj_root_keywords_criminal
-  obj_root_keywords_constitutional
-  obj_root_keywords_women
-  obj_root_keywords_family
-  obj_root_keywords_property
-  obj_root_keywords_consumer
-  obj_root_keywords_labour
-  obj_root_keywords_corporate
-  obj_root_keywords_tax
-  obj_root_keywords_environment
-  obj_root_keywords_cyber
-  obj_root_keywords_civil
-obj_root_keywords_criminal:
-  pattern `penal|criminal|offence|offender|punishment|bail|arrest|prison|police|terror|narcotic|arms|weapon|explosive|unlawful|corruption|money laundering|sakshya|nyaya|suraksha`
-  category criminal
-obj_root_keywords_constitutional:
-  pattern `constitution|election|citizenship|official language|representation of the people|delimitation|scheduled caste|scheduled tribe|human rights|right to information|union territor|reorganisation|state of`
-  category constitutional
-obj_root_keywords_women:
-  pattern `women|woman|child|children|juvenile|domestic violence|dowry|sati|sexual harassment|sexual offences|pocso|pre-natal|maternity|surrogacy`
-  category women
-obj_root_keywords_family:
-  pattern `marriage|divorce|succession|adoption|guardian|guardianship|minor|maintenance|family court|muslim|hindu|christian|parsi|wakf|waqf`
-  category family
-obj_root_keywords_property:
-  pattern `property|land|tenancy|tenant|rent|estate|acquisition|registration|easement|apartment|lease|transfer of property|urban|municipal|real estate|rehabilitation and resettlement`
-  category property
-obj_root_keywords_consumer:
-  pattern `consumer|food safety|standards|essential commodities|weights and measures|bureau of indian standards|tobacco|drugs and cosmetics|clinical establishment|public liability`
-  category consumer
-obj_root_keywords_labour:
-  pattern `labour|labor|worker|wages|employment|employees|industrial relations|trade union|provident fund|social security|apprentices|dock workers|manual scavengers`
-  category labour
-obj_root_keywords_corporate:
-  pattern `compan|bank|banking|insurance|securities|contracts|partnership|competition|copyright|trade mark|trademark|patent|designs|geographical indications|commerce|industry|export|import|deposit|depositories|insolvency`
-  category corporate
-obj_root_keywords_tax:
-  pattern `tax|taxation|customs|excise|goods and services tax|gst|cess|tariff|black money|income-tax|finance commission|fiscal`
-  category tax
-obj_root_keywords_environment:
-  pattern `environment|forest|wild life|wildlife|pollution|water|air|biodiversity|biological diversity|afforestation|climate|river|dam|mines and minerals`
-  category environment
-obj_root_keywords_cyber:
-  pattern `information technology|digital|data protection|telecom|telecommunications|cyber|electronic|semiconductor`
-  category cyber
-obj_root_keywords_civil:
-  pattern `civil|court|tribunal|arbitration|conciliation|limitation|specific relief|evidence|notaries|oaths|advocates|legal services`
-  category civil
+  obj_root_keywords_criminal_offences
+  obj_root_keywords_criminal_procedure
+  obj_root_keywords_evidence_and_forensics
+  obj_root_keywords_public_safety
+  obj_root_keywords_courts_and_tribunals
+  obj_root_keywords_dispute_resolution
+  obj_root_keywords_legal_profession
+  obj_root_keywords_elections_and_citizenship
+  obj_root_keywords_state_structure
+  obj_root_keywords_public_administration
+  obj_root_keywords_rights_and_information
+  obj_root_keywords_land_and_acquisition
+  obj_root_keywords_tenancy_and_housing
+  obj_root_keywords_registration_and_transfer
+  obj_root_keywords_infrastructure_property
+  obj_root_keywords_marriage_and_divorce
+  obj_root_keywords_succession_and_personal_law
+  obj_root_keywords_guardianship_and_maintenance
+  obj_root_keywords_employment_and_wages
+  obj_root_keywords_industrial_relations
+  obj_root_keywords_worker_welfare
+  obj_root_keywords_food_and_standards
+  obj_root_keywords_essential_commodities
+  obj_root_keywords_product_and_market_regulation
+  obj_root_keywords_women_safeguards
+  obj_root_keywords_child_protection
+  obj_root_keywords_gender_and_family_welfare
+  obj_root_keywords_corporate_governance
+  obj_root_keywords_banking_and_finance
+  obj_root_keywords_intellectual_property
+  obj_root_keywords_commerce_and_industry
+  obj_root_keywords_direct_tax
+  obj_root_keywords_indirect_tax
+  obj_root_keywords_customs_and_excise
+  obj_root_keywords_public_finance
+  obj_root_keywords_pollution_control
+  obj_root_keywords_forest_and_wildlife
+  obj_root_keywords_natural_resources
+  obj_root_keywords_data_protection
+  obj_root_keywords_telecom
+  obj_root_keywords_digital_systems
+  obj_root_keywords_education_and_culture
+  obj_root_keywords_health_and_welfare
+  obj_root_keywords_transport_and_infrastructure
+  obj_root_keywords_institutions_and_miscellaneous
+obj_root_keywords_criminal_offences:
+  pattern `penal|criminal|offence|offender|punishment|narcotic|arms|weapon|terror|unlawful|corruption|money laundering|smuggling|gambling|prevention of crime|atrocit`
+  category criminal-offences
+obj_root_keywords_criminal_procedure:
+  pattern `bail|arrest|prison|police|prosecution|criminal procedure|nagarik suraksha|suraksha sanhita|jail|probation|extradition`
+  category criminal-procedure
+obj_root_keywords_evidence_and_forensics:
+  pattern `evidence|sakshya|forensic|witness|identification of prisoners|dna|proof`
+  category evidence-and-forensics
+obj_root_keywords_public_safety:
+  pattern `explosive|public order|national security|security guard|civil defence|emergency|disaster|enemy property|protected area`
+  category public-safety
+obj_root_keywords_courts_and_tribunals:
+  pattern `civil procedure|court|tribunal|limitation|suits valuation|commercial courts|judicial|administrative tribunal`
+  category courts-and-tribunals
+obj_root_keywords_dispute_resolution:
+  pattern `arbitration|conciliation|mediation|specific relief|contract|relief|settlement|dispute`
+  category dispute-resolution
+obj_root_keywords_legal_profession:
+  pattern `advocates|notaries|legal services|oaths|court fees|legal metrology|bar council`
+  category legal-profession
+obj_root_keywords_elections_and_citizenship:
+  pattern `election|citizenship|representation of the people|delimitation|electoral|parliamentary constituency|foreigners`
+  category elections-and-citizenship
+obj_root_keywords_state_structure:
+  pattern `constitution of india|constitutional|official language|union territor|reorganisation|state of|governor|high court|scheduled caste|scheduled tribe`
+  category state-structure
+obj_root_keywords_public_administration:
+  pattern `public servant|administrative tribunal|administrative reforms|public records|ombudsman|lokpal|lokayukta|central vigilance|official secrets|comptroller|auditor general|census|public service commission`
+  category public-administration
+obj_root_keywords_rights_and_information:
+  pattern `human rights|right to information|protection of civil rights|rights of persons|transparency|information commission`
+  category rights-and-information
+obj_root_keywords_land_and_acquisition:
+  pattern `land|estate|acquisition|rehabilitation and resettlement|mines and minerals|coal bearing areas|evacuee property`
+  category land-and-acquisition
+obj_root_keywords_tenancy_and_housing:
+  pattern `tenancy|tenant|rent|apartment|lease|real estate|housing|urban development|slum`
+  category tenancy-and-housing
+obj_root_keywords_registration_and_transfer:
+  pattern `registration|transfer of property|easement|stamp|conveyance|partition|property documents`
+  category registration-and-transfer
+obj_root_keywords_infrastructure_property:
+  pattern `municipal|national highways|highway|port trust|metro railway|airport|railway property|public premises`
+  category infrastructure-property
+obj_root_keywords_marriage_and_divorce:
+  pattern `marriage|divorce|family court|matrimonial|special marriage|hindu marriage|christian marriage|parsi marriage`
+  category marriage-and-divorce
+obj_root_keywords_succession_and_personal_law:
+  pattern `succession|inheritance|hindu succession|muslim|christian|parsi|wakf|waqf|trusts|religious endowments`
+  category succession-and-personal-law
+obj_root_keywords_guardianship_and_maintenance:
+  pattern `adoption|guardian|guardianship|minor|dependants|hindu adoptions|parents and senior citizens|family maintenance`
+  category guardianship-and-maintenance
+obj_root_keywords_employment_and_wages:
+  pattern `employment|wages|minimum wages|payment of wages|apprentices|shops|employees|contract labour|working journalist`
+  category employment-and-wages
+obj_root_keywords_industrial_relations:
+  pattern `industrial disputes|industrial relations|trade union|standing orders|collective bargaining|labour court`
+  category industrial-relations
+obj_root_keywords_worker_welfare:
+  pattern `provident fund|social security|employee.*insurance|occupational safety|dock workers|manual scavengers|worker welfare|maternity benefit`
+  category worker-welfare
+obj_root_keywords_food_and_standards:
+  pattern `food safety|standards|bureau of indian standards|weights and measures|legal metrology|quality control`
+  category food-and-standards
+obj_root_keywords_essential_commodities:
+  pattern `essential commodities|public distribution|tobacco|drugs and cosmetics|pharmacy|fertiliser|fertilizer`
+  category essential-commodities
+obj_root_keywords_product_and_market_regulation:
+  pattern `consumer|product liability|market regulation|competition|clinical establishment|public liability|sales promotion`
+  category product-and-market-regulation
+obj_root_keywords_women_safeguards:
+  pattern `women|woman|domestic violence|dowry|sati|sexual harassment|indecent representation|gender`
+  category women-safeguards
+obj_root_keywords_child_protection:
+  pattern `child|children|juvenile|pocso|sexual offences|child labour|infant|young persons`
+  category child-protection
+obj_root_keywords_gender_and_family_welfare:
+  pattern `maternity|surrogacy|pre-natal|pregnancy|family welfare|reproductive|medical termination`
+  category gender-and-family-welfare
+obj_root_keywords_corporate_governance:
+  pattern `compan|limited liability partnership|partnership|insolvency|bankruptcy|contract|sale of goods|societies registration`
+  category corporate-governance
+obj_root_keywords_banking_and_finance:
+  pattern `bank|banking|insurance|securities|deposit|depositories|finance|financial assets|reserve bank|foreign exchange|chit funds`
+  category banking-and-finance
+obj_root_keywords_intellectual_property:
+  pattern `copyright|trade mark|trademark|patent|designs|geographical indications|intellectual property|semiconductor integrated circuits layout`
+  category intellectual-property
+obj_root_keywords_commerce_and_industry:
+  pattern `commerce|industry|export|import|special economic zone|tea|coffee|rubber|spices|jute|factories|industries`
+  category commerce-and-industry
+obj_root_keywords_direct_tax:
+  pattern `income-tax|income tax|wealth-tax|black money|direct tax|taxation laws`
+  category direct-tax
+obj_root_keywords_indirect_tax:
+  pattern `goods and services tax|gst|service tax|cess|indirect tax|central sales tax`
+  category indirect-tax
+obj_root_keywords_customs_and_excise:
+  pattern `customs|excise|tariff|import duties|export duties|central excise`
+  category customs-and-excise
+obj_root_keywords_public_finance:
+  pattern `finance commission|fiscal|appropriation|contingency fund|consolidated fund|public debt|audit`
+  category public-finance
+obj_root_keywords_pollution_control:
+  pattern `pollution|environment protection|water.*prevention|air.*prevention|hazardous|environment tribunal|public liability insurance`
+  category pollution-control
+obj_root_keywords_forest_and_wildlife:
+  pattern `forest|wild life|wildlife|biodiversity|biological diversity|afforestation|protected plant|protected animal`
+  category forest-and-wildlife
+obj_root_keywords_natural_resources:
+  pattern `natural resources|river|dam|water resources|climate|mines and minerals|energy conservation|petroleum|coal`
+  category natural-resources
+obj_root_keywords_data_protection:
+  pattern `data protection|digital personal data|privacy|cyber security|electronic records|certifying authority`
+  category data-protection
+obj_root_keywords_telecom:
+  pattern `telecom|telecommunications|telegraph|wireless|broadcast|spectrum|postal`
+  category telecom
+obj_root_keywords_digital_systems:
+  pattern `information technology|digital|electronic governance|semiconductor|digital systems|electronic signature`
+  category digital-systems
+obj_root_keywords_education_and_culture:
+  pattern `education|university|universities|institute|institution of national importance|culture|heritage|ancient monuments|libraries|language`
+  category education-and-culture
+obj_root_keywords_health_and_welfare:
+  pattern `health|medical|mental healthcare|disabilit|welfare|persons with disabilities|clinical|epidemic|public health|dentists|nursing`
+  category health-and-welfare
+obj_root_keywords_transport_and_infrastructure:
+  pattern `motor vehicles|railway|railways|shipping|ports|aircraft|airport|metro|inland waterways|road transport|carriage`
+  category transport-and-infrastructure
+obj_root_keywords_institutions_and_miscellaneous:
+  pattern `actuaries|charitable|charities|academy|council|board|authority|trust|foundation|award|miscellaneous|general clauses`
+  category institutions-and-miscellaneous

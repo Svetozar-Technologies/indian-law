@@ -4,6 +4,7 @@ import { createRoot } from "react-dom/client";
 import {
   displayTitleForLanguage,
   groupLawsByCategory,
+  lawCategoryTags,
   languageCoverageForCatalog,
   lawsForLanguage,
   statusClassForLanguage,
@@ -152,11 +153,16 @@ function HomeView({ catalog, selectedLanguage }) {
                   <span className="category-name">{group.category.label}</span>
                   <span className="category-count">{lawCountLabel(group.laws.length)}</span>
                 </summary>
-                <LawTable laws={group.laws} languageCode={languageCode} defaultLanguage={catalog.defaultLanguage} />
+                <LawTable
+                  catalog={catalog}
+                  laws={group.laws}
+                  languageCode={languageCode}
+                  defaultLanguage={catalog.defaultLanguage}
+                />
               </details>
             ))
           ) : (
-            <LawTable laws={[]} languageCode={languageCode} defaultLanguage={catalog.defaultLanguage} />
+            <LawTable catalog={catalog} laws={[]} languageCode={languageCode} defaultLanguage={catalog.defaultLanguage} />
           )}
         </div>
       </section>
@@ -164,7 +170,7 @@ function HomeView({ catalog, selectedLanguage }) {
   );
 }
 
-function LawTable({ laws, languageCode, defaultLanguage }) {
+function LawTable({ catalog, laws, languageCode, defaultLanguage }) {
   return (
     <div className="table-wrap">
       <table>
@@ -173,7 +179,7 @@ function LawTable({ laws, languageCode, defaultLanguage }) {
         </thead>
         <tbody>
           {laws.map((law) => (
-            <LawRow law={law} languageCode={languageCode} defaultLanguage={defaultLanguage} key={law.slug} />
+            <LawRow catalog={catalog} law={law} languageCode={languageCode} defaultLanguage={defaultLanguage} key={law.slug} />
           ))}
         </tbody>
       </table>
@@ -181,22 +187,34 @@ function LawTable({ laws, languageCode, defaultLanguage }) {
   );
 }
 
-function LawRow({ law, languageCode, defaultLanguage }) {
+function LawRow({ catalog, law, languageCode, defaultLanguage }) {
   const languageRecord = law.languages?.[languageCode] ?? null;
   const canOpen = Boolean(languageRecord?.enabled);
   const firstPart = languageRecord?.parts?.[0]?.file;
   const title = displayTitleForLanguage(law, languageCode, defaultLanguage);
+  const tags = lawCategoryTags(catalog, law);
 
   return (
     <tr>
       <td>
-        {canOpen ? (
-          <a href={documentHash(languageCode, law.slug, firstPart)}>
-            {title}
-          </a>
-        ) : (
-          title
-        )}
+        <div className="law-title-cell">
+          {canOpen ? (
+            <a href={documentHash(languageCode, law.slug, firstPart)}>
+              {title}
+            </a>
+          ) : (
+            <span>{title}</span>
+          )}
+          {tags.length > 0 ? (
+            <div className="law-tags" aria-label="Additional taxonomy tags">
+              {tags.map((tag) => (
+                <span className="law-tag" key={tag.id} title={tag.description || undefined}>
+                  {tag.label}
+                </span>
+              ))}
+            </div>
+          ) : null}
+        </div>
       </td>
       <td>{law.actYear}</td>
       <td>{law.actNumber}</td>

@@ -33,8 +33,9 @@ export function lawsForLanguage(catalog, languageCode) {
 export function groupLawsByCategory(catalog, laws) {
   const categories = normaliseCatalogCategories(catalog?.categories);
   const categoriesById = new Map(categories.map((category) => [category.id, category]));
-  const fallbackCategory = categoriesById.get("general") ?? { id: "general", label: "General", description: "" };
-  const groups = new Map(categories.map((category) => [category.id, { category, laws: [] }]));
+  const topLevelCategories = categories.filter((category) => !category.parent);
+  const fallbackCategory = categoriesById.get("general") ?? topLevelCategories[0] ?? { id: "general", label: "General", description: "" };
+  const groups = new Map(topLevelCategories.map((category) => [category.id, { category, laws: [] }]));
 
   if (!groups.has(fallbackCategory.id)) {
     groups.set(fallbackCategory.id, { category: fallbackCategory, laws: [] });
@@ -42,11 +43,30 @@ export function groupLawsByCategory(catalog, laws) {
 
   for (const law of laws ?? []) {
     const categoryId = categoryIdForValue(law?.category);
-    const resolvedId = categoriesById.has(categoryId) ? categoryId : fallbackCategory.id;
+    const resolvedId = rootCategoryId(categoryId, categoriesById) || fallbackCategory.id;
     groups.get(resolvedId).laws.push(law);
   }
 
   return [...groups.values()].filter((group) => group.laws.length > 0);
+}
+
+export function lawCategoryTags(catalog, law) {
+  const categories = normaliseCatalogCategories(catalog?.categories);
+  const categoriesById = new Map(categories.map((category) => [category.id, category]));
+  const mainCategoryId = rootCategoryId(categoryIdForValue(law?.category), categoriesById);
+  const seen = new Set();
+
+  return (law?.categoryTags ?? [])
+    .map((value) => categoryIdForValue(value))
+    .filter((id) => id && id !== mainCategoryId && categoriesById.has(id))
+    .filter((id) => {
+      if (seen.has(id)) {
+        return false;
+      }
+      seen.add(id);
+      return true;
+    })
+    .map((id) => categoriesById.get(id));
 }
 
 export function languageCoverageForCatalog(catalog, languageCode) {
@@ -96,14 +116,36 @@ function cleanDisplayTitle(value) {
 
 function normaliseCatalogCategories(categories) {
   const normalised = (categories ?? [])
-    .map((category) => ({
-      id: categoryIdForValue(category?.id),
-      label: cleanDisplayTitle(category?.label),
-      description: cleanDisplayTitle(category?.description)
-    }))
+    .map((category) => {
+      const id = categoryIdForValue(category?.id);
+      const parent = categoryIdForValue(category?.parent ?? category?.parentId);
+      const path = Array.isArray(category?.path) ? category.path.map(categoryIdForValue).filter(Boolean) : [];
+      return {
+        id,
+        label: cleanDisplayTitle(category?.label),
+        description: cleanDisplayTitle(category?.description),
+        parent,
+        depth: Number.isFinite(Number(category?.depth)) ? Number(category.depth) : parent ? 1 : 0,
+        path: path.length > 0 ? path : parent ? [parent, id] : [id]
+      };
+    })
     .filter((category) => category.id);
 
   return normalised.length > 0 ? normalised : [{ id: "general", label: "General", description: "" }];
+}
+
+function rootCategoryId(id, categoriesById) {
+  let category = categoriesById.get(id);
+  if (!category) {
+    return "";
+  }
+
+  const visited = new Set();
+  while (category.parent && categoriesById.has(category.parent) && !visited.has(category.parent)) {
+    visited.add(category.id);
+    category = categoriesById.get(category.parent);
+  }
+  return category.id;
 }
 
 function categoryIdForValue(value) {

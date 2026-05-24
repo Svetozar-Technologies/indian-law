@@ -16,6 +16,8 @@ This project is an official-source law mirror and catalog viewer. These requirem
 - Each law entry must include a stable slug, act metadata where available, default-language source metadata, and per-language status records.
 - Law category taxonomy and classification rules must be stored as repository-owned Links Notation, not JSON.
 - Each generated law entry must include exactly one stable main category from the catalog taxonomy. Laws must not be duplicated across multiple categories in the generated catalog.
+- The category taxonomy may be recursive. The top-level taxonomy nodes are the main collapsible groups, and child or cross-branch taxonomy matches may be exposed as `categoryTags` badges without duplicating the law row.
+- Committed Pages artifacts and screenshots must use the real generated catalog when the repository already contains one; seed fixtures are acceptable only for isolated tests and must be labelled as such.
 - The generated catalog must distinguish these language states:
   - `Markdown`: selected-language text was converted into generated Markdown parts.
   - `Pending`: an official selected-language source is known, but generated Markdown is not available yet.
