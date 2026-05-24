@@ -1,0 +1,115 @@
+TAP version 13
+# Subtest: labels enabled language records as Markdown
+ok 1 - labels enabled language records as Markdown
+  ---
+  duration_ms: 1.036739
+  ...
+# Subtest: labels known official sources without Markdown as pending
+ok 2 - labels known official sources without Markdown as pending
+  ---
+  duration_ms: 0.127962
+  ...
+# Subtest: labels languages with no known source as unavailable
+ok 3 - labels languages with no known source as unavailable
+  ---
+  duration_ms: 0.102844
+  ...
+# Subtest: does not fall back to another language when requested text is not ready
+ok 4 - does not fall back to another language when requested text is not ready
+  ---
+  duration_ms: 0.563542
+  ...
+# Subtest: filters catalog rows to laws with selected-language text or sources
+ok 5 - filters catalog rows to laws with selected-language text or sources
+  ---
+  duration_ms: 0.296673
+  ...
+# Subtest: groups laws by their single catalog category
+ok 6 - groups laws by their single catalog category
+  ---
+  duration_ms: 0.855158
+  ...
+# Subtest: does not use default-language law titles for non-default language rows
+ok 7 - does not use default-language law titles for non-default language rows
+  ---
+  duration_ms: 0.449752
+  ...
+# Subtest: normalizes the recursive law category taxonomy
+ok 8 - normalizes the recursive law category taxonomy
+  ---
+  duration_ms: 34.187791
+  ...
+# Subtest: classifies laws into one main category and secondary tags
+ok 9 - classifies laws into one main category and secondary tags
+  ---
+  duration_ms: 28.381814
+  ...
+# Subtest: declared categories keep main-category precedence while preserving keyword tags
+ok 10 - declared categories keep main-category precedence while preserving keyword tags
+  ---
+  duration_ms: 25.988006
+  ...
+# Subtest: Central Act discovery falls back to seed laws when the live listing is unavailable
+ok 11 - Central Act discovery falls back to seed laws when the live listing is unavailable
+  ---
+  duration_ms: 145.502559
+  ...
+# Subtest: Central Act discovery preserves a fuller existing manifest when the live listing is unavailable
+ok 12 - Central Act discovery preserves a fuller existing manifest when the live listing is unavailable
+  ---
+  duration_ms: 89.787909
+  ...
+# Subtest: Central Act discovery preserves a fuller existing manifest when live discovery is partial
+ok 13 - Central Act discovery preserves a fuller existing manifest when live discovery is partial
+  ---
+  duration_ms: 95.475409
+  ...
+# Subtest: committed Pages catalog classifies the real generated law corpus
+ok 14 - committed Pages catalog classifies the real generated law corpus
+  ---
+  duration_ms: 1078.74339
+  ...
+# Subtest: committed Pages assets contain the category-group UI
+ok 15 - committed Pages assets contain the category-group UI
+  ---
+  duration_ms: 2.13375
+  ...
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 16 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 6.678
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 17 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 1.503968
+  ...
+# Subtest: refresh workflow uses one-hour checkpoint chunks by default
+ok 18 - refresh workflow uses one-hour checkpoint chunks by default
+  ---
+  duration_ms: 1.391589
+  ...
+# Subtest: refresh workflow uses plain sync commit message for one chunk
+ok 19 - refresh workflow uses plain sync commit message for one chunk
+  ---
+  duration_ms: 2.372105
+  ...
+# Subtest: refresh workflow advertises the canonical deployed site path
+ok 20 - refresh workflow advertises the canonical deployed site path
+  ---
+  duration_ms: 0.781378
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 21 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 0.668219
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1167.372017
