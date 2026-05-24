@@ -1,0 +1,32 @@
+TAP version 13
+# Subtest: committed Pages catalog classifies the real generated law corpus
+not ok 1 - committed Pages catalog classifies the real generated law corpus
+  ---
+  duration_ms: 30.385507
+  location: '/tmp/gh-issue-solver-1779631590853/tests/generated-pages.test.mjs:7:1'
+  failureType: 'testCodeFailure'
+  error: 'docs/data/catalog.lino should contain the real generated corpus'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///tmp/gh-issue-solver-1779631590853/tests/generated-pages.test.mjs:12:10)
+    async Test.run (node:internal/test_runner/test:797:9)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: committed Pages assets contain the category-group UI
+ok 2 - committed Pages assets contain the category-group UI
+  ---
+  duration_ms: 4.355081
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 1
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 101.483119

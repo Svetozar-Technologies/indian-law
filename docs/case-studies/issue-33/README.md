@@ -3,7 +3,8 @@
 Date: 2026-05-24
 
 Issue: https://github.com/Svetozar-Technologies/indian-law/issues/33
-Pull request: https://github.com/Svetozar-Technologies/indian-law/pull/34
+Category pull request: https://github.com/Svetozar-Technologies/indian-law/pull/34
+Regression follow-up pull request: https://github.com/Svetozar-Technologies/indian-law/pull/35
 
 ## Objective
 
@@ -16,6 +17,8 @@ Issue 33 asks for a case study of law-download and law-category ideas from `Svet
 - Research notes, evidence, and verification artifacts are preserved under this directory.
 
 PR feedback on 2026-05-24 clarified that screenshots and validation must use the real generated catalog already committed under `docs/`, not only the four-law seed fixture.
+
+Additional issue feedback on 2026-05-24 identified commit `f8f521da668fb32a4fd3729e7633c5d7779b3884` as destructive: the refresh committed a four-law seed fallback manifest, removed the generated Markdown corpus, and reduced the committed Pages catalog from the real 846-law corpus to a partial output.
 
 ## Repository Findings
 
@@ -53,6 +56,16 @@ Ideas not adopted:
 - `src/app.jsx` renders collapsible main category groups and secondary taxonomy badges on law rows.
 - `src/styles.css` and `docs/assets/site.css` include badge styling; `docs/assets/app.js` and shell hashes were rebuilt.
 
+## Follow-up Regression Fix
+
+PR 35 restores the last known-good generated Pages corpus from the PR 34 merge commit and adds a source-discovery guard:
+
+- `docs/data/catalog.lino` is restored to 846 laws, 58 taxonomy nodes, and 13 collapsible main groups.
+- `docs/laws/` is restored to 1,918 generated Markdown part files.
+- `data/laws.discovered.lino`, `data/regional-sources.discovered.lino`, and `data/cache/refresh-status.lino` are restored to the complete 2026-05-18 discovery state.
+- `scripts/discover-laws.mjs` now preserves a fuller existing discovered manifest as `stale-fallback` data when live discovery fails, errors before completing, or returns no rows, instead of overwriting it with a smaller result.
+- `tests/discover-laws.test.mjs` covers the stale-fallback preservation path, while `tests/generated-pages.test.mjs` continues to assert that committed Pages data contains the real generated corpus.
+
 Real catalog main-category counts:
 
 - criminal: 240
@@ -77,6 +90,14 @@ Real catalog main-category counts:
 - `satyavera-laws-index-summary.json`: related-app law and section counts.
 - `satyavera-law-scripts-summary.json`: summarized related-app category and ingest/export findings.
 - `pre-fix-real-pages-tests.log`: reproducing failure showing the committed Pages catalog had no real categories and stale assets.
+- `pre-fix-f8-regression-tests.log`: reproducing failure after `f8f521d`, showing the committed Pages catalog no longer contained the real generated corpus.
+- `discover-laws-stale-fallback-test.log`: focused pass for the new discovery preservation test.
+- `post-restore-generated-pages-test.log`: focused pass after restoring the real generated catalog and Markdown corpus.
+- `followup-focused-tests.log`: PR 35 focused regression suite pass.
+- `followup-full-test.log`: PR 35 full project test pass.
+- `followup-offline-build.log`: PR 35 deterministic offline build pass.
+- `npm-ci-followup.log`: dependency installation log for the PR 35 follow-up verification.
+- `pr-35-before-final.json`: PR 35 metadata snapshot before finalizing this follow-up.
 - `post-fix-real-pages-tests.log`: focused real Pages catalog regression pass.
 - `real-catalog-category-summary.lino`: 846-law category and tag summary.
 - `post-fix-focused-tests.log`: focused regression suite pass.
@@ -117,3 +138,15 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory docs
 ```
 
 Playwright loaded `http://127.0.0.1:4173/`, confirmed the 846-law metric, confirmed 13 collapsible main groups, verified the first group can collapse, and captured the desktop and mobile screenshots listed above.
+
+Follow-up verification for PR 35:
+
+```sh
+node --test tests/discover-laws.test.mjs
+node --test tests/generated-pages.test.mjs
+node --test tests/discover-laws.test.mjs tests/generated-pages.test.mjs tests/categories.test.mjs tests/catalog-status.test.mjs tests/workflow-refresh.test.mjs
+npm test
+npm run build:offline -- --output /tmp/indian-law-issue-33-followup-site
+```
+
+The restored committed catalog contains 846 laws, 58 taxonomy nodes, 13 top-level collapsible groups, and 1,918 generated Markdown part files under `docs/laws/`.
