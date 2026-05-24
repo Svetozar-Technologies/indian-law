@@ -3,6 +3,8 @@ import test from "node:test";
 
 import {
   displayTitleForLanguage,
+  groupLawsByCategory,
+  lawCategoryTags,
   languageCoverageForCatalog,
   lawsForLanguage,
   sourceStatusForLaw,
@@ -94,6 +96,51 @@ test("filters catalog rows to laws with selected-language text or sources", () =
     ready: 1,
     total: 2
   });
+});
+
+test("groups laws by their single catalog category", () => {
+  const catalog = {
+    categories: [
+      { id: "criminal", label: "Criminal" },
+      { id: "criminal-offences", label: "Criminal offences", parent: "criminal" },
+      { id: "corporate", label: "Corporate" },
+      { id: "intellectual-property", label: "Intellectual property", parent: "corporate" },
+      { id: "general", label: "General" }
+    ]
+  };
+  const laws = [
+    { slug: "bharatiya-nyaya-sanhita-2023", category: "criminal-offences" },
+    { slug: "copyright-act-1957", category: "corporate" },
+    { slug: "uncategorized-act" },
+    { slug: "unknown-category-act", category: "not-in-taxonomy" }
+  ];
+
+  assert.deepEqual(
+    groupLawsByCategory(catalog, laws).map((group) => ({
+      id: group.category.id,
+      label: group.category.label,
+      slugs: group.laws.map((law) => law.slug)
+    })),
+    [
+      { id: "criminal", label: "Criminal", slugs: ["bharatiya-nyaya-sanhita-2023"] },
+      { id: "corporate", label: "Corporate", slugs: ["copyright-act-1957"] },
+      { id: "general", label: "General", slugs: ["uncategorized-act", "unknown-category-act"] }
+    ]
+  );
+
+  assert.deepEqual(
+    lawCategoryTags(catalog, { category: "corporate", categoryTags: ["corporate", "intellectual-property"] }),
+    [
+      {
+        id: "intellectual-property",
+        label: "Intellectual property",
+        description: "",
+        parent: "corporate",
+        depth: 1,
+        path: ["corporate", "intellectual-property"]
+      }
+    ]
+  );
 });
 
 test("does not use default-language law titles for non-default language rows", () => {

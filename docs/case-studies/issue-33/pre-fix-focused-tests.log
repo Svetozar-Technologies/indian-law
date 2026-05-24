@@ -1,0 +1,133 @@
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+not ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+  ---
+  duration_ms: 551.878134
+  location: '/tmp/gh-issue-solver-1779618155618/tests/build-site.test.mjs:14:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+
+    + undefined
+    - [
+    -   'criminal',
+    -   'civil',
+    -   'constitutional',
+    -   'property',
+    -   'family',
+    -   'labour',
+    -   'consumer',
+    -   'women',
+    -   'corporate',
+    -   'tax',
+    -   'environment',
+    -   'cyber',
+    -   'general'
+    - ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'criminal'
+    1: 'civil'
+    2: 'constitutional'
+    3: 'property'
+    4: 'family'
+    5: 'labour'
+    6: 'consumer'
+    7: 'women'
+    8: 'corporate'
+    9: 'tax'
+    10: 'environment'
+    11: 'cyber'
+    12: 'general'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///tmp/gh-issue-solver-1779618155618/tests/build-site.test.mjs:33:12)
+    async Test.run (node:internal/test_runner/test:797:9)
+    async Test.processPendingSubtests (node:internal/test_runner/test:526:7)
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading
+  ---
+  duration_ms: 328.046332
+  ...
+# Subtest: fetch site build converts cached Hindi PDF source into Markdown
+ok 3 - fetch site build converts cached Hindi PDF source into Markdown
+  ---
+  duration_ms: 718.087473
+  ...
+# Subtest: site build publishes clean language source links without India Code help PDFs
+ok 4 - site build publishes clean language source links without India Code help PDFs
+  ---
+  duration_ms: 344.61781
+  ...
+# Subtest: fetch site build hides a language PDF source after download failure
+ok 5 - fetch site build hides a language PDF source after download failure
+  ---
+  duration_ms: 2359.436941
+  ...
+# Subtest: fetch site build falls back to English PDF text when cached HTML sections are empty
+ok 6 - fetch site build falls back to English PDF text when cached HTML sections are empty
+  ---
+  duration_ms: 796.702239
+  ...
+# Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+ok 7 - fetch site build resumes an incomplete cached law without redownloading cached sections
+  ---
+  duration_ms: 389.319089
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 8 - fetch site build writes completed law cache and progress as Lino
+  ---
+  duration_ms: 326.047262
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 9 - fetch site build writes partial output when the runtime budget is exhausted
+  ---
+  duration_ms: 322.834792
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 10 - fetch site build records per-law upstream failures as partial output
+  ---
+  duration_ms: 2361.974135
+  ...
+# Subtest: fetch site build runs OCR fallback when a Hindi PDF has no embedded text layer
+ok 11 - fetch site build runs OCR fallback when a Hindi PDF has no embedded text layer
+  ---
+  duration_ms: 1063.45115
+  ...
+# Subtest: fetch site build leaves Hindi PDF as source-only when OCR is not enabled
+ok 12 - fetch site build leaves Hindi PDF as source-only when OCR is not enabled
+  ---
+  duration_ms: 444.414575
+  ...
+# file:///tmp/gh-issue-solver-1779618155618/tests/catalog-status.test.mjs:6
+#   groupLawsByCategory,
+#   ^^^^^^^^^^^^^^^^^^^
+# SyntaxError: The requested module '../src/catalog-status.mjs' does not provide an export named 'groupLawsByCategory'
+#     at ModuleJob._instantiate (node:internal/modules/esm/module_job:213:21)
+#     at async ModuleJob.run (node:internal/modules/esm/module_job:320:5)
+#     at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+#     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+# Node.js v20.20.2
+# Subtest: /tmp/gh-issue-solver-1779618155618/tests/catalog-status.test.mjs
+not ok 2 - /tmp/gh-issue-solver-1779618155618/tests/catalog-status.test.mjs
+  ---
+  duration_ms: 34.632333
+  location: '/tmp/gh-issue-solver-1779618155618/tests/catalog-status.test.mjs:1:1'
+  failureType: 'testCodeFailure'
+  exitCode: 1
+  signal: ~
+  error: 'test failed'
+  code: 'ERR_TEST_FAILURE'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 11
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 10069.944944

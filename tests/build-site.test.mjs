@@ -30,6 +30,40 @@ test("offline site build creates a React entry, Lino catalog, and markdown parts
     assert.match(pathAliasHome, /\.\.\/assets\/app\.js/);
     assert.match(bundle, /createRoot/);
     assert.equal(catalog.defaultLanguage, "en");
+    assert.deepEqual(
+      catalog.categoryTree?.map((category) => category.id),
+      [
+        "criminal",
+        "civil",
+        "constitutional",
+        "property",
+        "family",
+        "labour",
+        "consumer",
+        "women",
+        "corporate",
+        "tax",
+        "environment",
+        "cyber",
+        "general"
+      ]
+    );
+    assert.ok(catalog.categories.some((category) => category.id === "intellectual-property" && category.parent === "corporate"));
+    assert.ok(catalog.laws.every((law) => typeof law.category === "string"));
+    assert.ok(catalog.laws.every((law) => Array.isArray(law.categoryTags)));
+    assert.equal(catalog.laws.find((law) => law.slug === "copyright-act-1957")?.category, "corporate");
+    assert.ok(catalog.laws.find((law) => law.slug === "copyright-act-1957")?.categoryTags.includes("intellectual-property"));
+    assert.equal(catalog.laws.find((law) => law.slug === "bharatiya-nyaya-sanhita-2023")?.category, "criminal");
+    assert.ok(catalog.laws.find((law) => law.slug === "bharatiya-nyaya-sanhita-2023")?.categoryTags.includes("criminal-offences"));
+    assert.equal(
+      catalog.laws.find((law) => law.slug === "bharatiya-nagarik-suraksha-sanhita-2023")?.category,
+      "criminal"
+    );
+    assert.ok(
+      catalog.laws.find((law) => law.slug === "bharatiya-nagarik-suraksha-sanhita-2023")?.categoryTags.includes("criminal-procedure")
+    );
+    assert.equal(catalog.laws.find((law) => law.slug === "bharatiya-sakshya-adhiniyam-2023")?.category, "criminal");
+    assert.ok(catalog.laws.find((law) => law.slug === "bharatiya-sakshya-adhiniyam-2023")?.categoryTags.includes("evidence-and-forensics"));
     assert.equal(catalog.laws[0].languages.en.enabled, true);
     assert.equal(catalog.laws[0].languages.hi.enabled, false);
     assert.equal(catalog.laws[0].languages.hi.status, "source-only");
