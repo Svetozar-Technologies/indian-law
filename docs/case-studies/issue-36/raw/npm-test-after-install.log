@@ -1,0 +1,289 @@
+
+> indian-law@0.1.0 test
+> node --test --test-timeout=30000 tests/*.test.mjs
+
+TAP version 13
+# Subtest: offline site build creates a React entry, Lino catalog, and markdown parts
+ok 1 - offline site build creates a React entry, Lino catalog, and markdown parts
+  ---
+  duration_ms: 787.381331
+  ...
+# Subtest: fetch site build reuses fresh cached law data instead of redownloading
+ok 2 - fetch site build reuses fresh cached law data instead of redownloading
+  ---
+  duration_ms: 491.815855
+  ...
+# Subtest: fetch site build converts cached Hindi PDF source into Markdown
+ok 3 - fetch site build converts cached Hindi PDF source into Markdown
+  ---
+  duration_ms: 973.712372
+  ...
+# Subtest: site build publishes clean language source links without India Code help PDFs
+ok 4 - site build publishes clean language source links without India Code help PDFs
+  ---
+  duration_ms: 448.84892
+  ...
+# Subtest: fetch site build hides a language PDF source after download failure
+ok 5 - fetch site build hides a language PDF source after download failure
+  ---
+  duration_ms: 2675.868268
+  ...
+# Subtest: fetch site build falls back to English PDF text when cached HTML sections are empty
+ok 6 - fetch site build falls back to English PDF text when cached HTML sections are empty
+  ---
+  duration_ms: 1028.401742
+  ...
+# Subtest: fetch site build resumes an incomplete cached law without redownloading cached sections
+ok 7 - fetch site build resumes an incomplete cached law without redownloading cached sections
+  ---
+  duration_ms: 544.150474
+  ...
+# Subtest: fetch site build writes completed law cache and progress as Lino
+ok 8 - fetch site build writes completed law cache and progress as Lino
+  ---
+  duration_ms: 551.36201
+  ...
+# Subtest: fetch site build writes partial output when the runtime budget is exhausted
+ok 9 - fetch site build writes partial output when the runtime budget is exhausted
+  ---
+  duration_ms: 508.234198
+  ...
+# Subtest: fetch site build records per-law upstream failures as partial output
+ok 10 - fetch site build records per-law upstream failures as partial output
+  ---
+  duration_ms: 2524.688772
+  ...
+# Subtest: fetch site build runs OCR fallback when a Hindi PDF has no embedded text layer
+ok 11 - fetch site build runs OCR fallback when a Hindi PDF has no embedded text layer
+  ---
+  duration_ms: 1158.621381
+  ...
+# Subtest: fetch site build leaves Hindi PDF as source-only when OCR is not enabled
+ok 12 - fetch site build leaves Hindi PDF as source-only when OCR is not enabled
+  ---
+  duration_ms: 520.188808
+  ...
+# Subtest: labels enabled language records as Markdown
+ok 13 - labels enabled language records as Markdown
+  ---
+  duration_ms: 1.030158
+  ...
+# Subtest: labels known official sources without Markdown as pending
+ok 14 - labels known official sources without Markdown as pending
+  ---
+  duration_ms: 0.177555
+  ...
+# Subtest: labels languages with no known source as unavailable
+ok 15 - labels languages with no known source as unavailable
+  ---
+  duration_ms: 0.119449
+  ...
+# Subtest: does not fall back to another language when requested text is not ready
+ok 16 - does not fall back to another language when requested text is not ready
+  ---
+  duration_ms: 0.648748
+  ...
+# Subtest: filters catalog rows to laws with selected-language text or sources
+ok 17 - filters catalog rows to laws with selected-language text or sources
+  ---
+  duration_ms: 0.309723
+  ...
+# Subtest: groups laws by their single catalog category
+ok 18 - groups laws by their single catalog category
+  ---
+  duration_ms: 0.800034
+  ...
+# Subtest: does not use default-language law titles for non-default language rows
+ok 19 - does not use default-language law titles for non-default language rows
+  ---
+  duration_ms: 0.300469
+  ...
+# Subtest: normalizes the recursive law category taxonomy
+ok 20 - normalizes the recursive law category taxonomy
+  ---
+  duration_ms: 45.582637
+  ...
+# Subtest: classifies laws into one main category and secondary tags
+ok 21 - classifies laws into one main category and secondary tags
+  ---
+  duration_ms: 63.766678
+  ...
+# Subtest: declared categories keep main-category precedence while preserving keyword tags
+ok 22 - declared categories keep main-category precedence while preserving keyword tags
+  ---
+  duration_ms: 26.015833
+  ...
+# Subtest: Central Act discovery falls back to seed laws when the live listing is unavailable
+ok 23 - Central Act discovery falls back to seed laws when the live listing is unavailable
+  ---
+  duration_ms: 208.891185
+  ...
+# Subtest: Central Act discovery preserves a fuller existing manifest when the live listing is unavailable
+ok 24 - Central Act discovery preserves a fuller existing manifest when the live listing is unavailable
+  ---
+  duration_ms: 166.975643
+  ...
+# Subtest: Central Act discovery preserves a fuller existing manifest when live discovery is partial
+ok 25 - Central Act discovery preserves a fuller existing manifest when live discovery is partial
+  ---
+  duration_ms: 241.468244
+  ...
+# Subtest: committed Pages catalog classifies the real generated law corpus
+ok 26 - committed Pages catalog classifies the real generated law corpus
+  ---
+  duration_ms: 1758.231023
+  ...
+# Subtest: committed Pages assets contain the category-group UI
+ok 27 - committed Pages assets contain the category-group UI
+  ---
+  duration_ms: 5.739891
+  ...
+# Subtest: extracts India Code metadata, PDF sources, and section references
+ok 28 - extracts India Code metadata, PDF sources, and section references
+  ---
+  duration_ms: 12.173496
+  ...
+# Subtest: normalises section JSON HTML into plain text
+ok 29 - normalises section JSON HTML into plain text
+  ---
+  duration_ms: 0.4624
+  ...
+# Subtest: extracts only primary India Code law PDFs from law pages
+ok 30 - extracts only primary India Code law PDFs from law pages
+  ---
+  duration_ms: 0.773916
+  ...
+# Subtest: ignores placeholder PDF link titles from India Code
+ok 31 - ignores placeholder PDF link titles from India Code
+  ---
+  duration_ms: 0.28811
+  ...
+# Subtest: parses India Code search result rows
+ok 32 - parses India Code search result rows
+  ---
+  duration_ms: 1.086683
+  ...
+# Subtest: parses regional PDF source rows
+ok 33 - parses regional PDF source rows
+  ---
+  duration_ms: 0.777741
+  ...
+# Subtest: strips table and inline HTML without collapsing intended breaks
+ok 34 - strips table and inline HTML without collapsing intended breaks
+  ---
+  duration_ms: 0.115913
+  ...
+# Subtest: repository-owned seed metadata is stored as Links Notation
+ok 35 - repository-owned seed metadata is stored as Links Notation
+  ---
+  duration_ms: 1837.488883
+  ...
+# Subtest: Lino codec stores strings unencoded and preserves numeric-looking identifiers
+ok 36 - Lino codec stores strings unencoded and preserves numeric-looking identifiers
+  ---
+  duration_ms: 2.396278
+  ...
+# Subtest: Lino codec keeps multilingual and multiline strings readable
+ok 37 - Lino codec keeps multilingual and multiline strings readable
+  ---
+  duration_ms: 0.838812
+  ...
+# Subtest: Lino codec preserves empty string definitions before later definitions
+ok 38 - Lino codec preserves empty string definitions before later definitions
+  ---
+  duration_ms: 0.73647
+  ...
+# Subtest: Lino writer uses indented definitions for nested data
+ok 39 - Lino writer uses indented definitions for nested data
+  ---
+  duration_ms: 0.775839
+  ...
+# Subtest: Lino reader still accepts previous typed object notation
+ok 40 - Lino reader still accepts previous typed object notation
+  ---
+  duration_ms: 0.397112
+  ...
+# Subtest: owned data directories do not store JSON metadata
+ok 41 - owned data directories do not store JSON metadata
+  ---
+  duration_ms: 8.904645
+  ...
+# Subtest: renders a section with content and footnotes
+ok 42 - renders a section with content and footnotes
+  ---
+  duration_ms: 6.876747
+  ...
+# Subtest: splits only between sections and keeps each part under the requested line budget when possible
+ok 43 - splits only between sections and keeps each part under the requested line budget when possible
+  ---
+  duration_ms: 1.198669
+  ...
+# Subtest: renders Markdown part metadata and source links
+ok 44 - renders Markdown part metadata and source links
+  ---
+  duration_ms: 10.553917
+  ...
+# Subtest: renders localized PDF pages with language-specific title and sources
+ok 45 - renders localized PDF pages with language-specific title and sources
+  ---
+  duration_ms: 0.670671
+  ...
+# Subtest: does not fall back to English titles for localized Markdown without a usable title
+ok 46 - does not fall back to English titles for localized Markdown without a usable title
+  ---
+  duration_ms: 0.456552
+  ...
+# Subtest: regional source discovery logs page decisions by default
+ok 47 - regional source discovery logs page decisions by default
+  ---
+  duration_ms: 162.019294
+  ...
+# Subtest: source smoke download logs source choices by default
+ok 48 - source smoke download logs source choices by default
+  ---
+  duration_ms: 81.347205
+  ...
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 49 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 9.579202
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 50 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 2.158863
+  ...
+# Subtest: refresh workflow uses one-hour checkpoint chunks by default
+ok 51 - refresh workflow uses one-hour checkpoint chunks by default
+  ---
+  duration_ms: 1.305769
+  ...
+# Subtest: refresh workflow uses plain sync commit message for one chunk
+ok 52 - refresh workflow uses plain sync commit message for one chunk
+  ---
+  duration_ms: 1.853297
+  ...
+# Subtest: refresh workflow advertises the default GitHub Pages project URL
+ok 53 - refresh workflow advertises the default GitHub Pages project URL
+  ---
+  duration_ms: 0.77738
+  ...
+# Subtest: refresh workflow clears stale GitHub Pages custom domain settings
+ok 54 - refresh workflow clears stale GitHub Pages custom domain settings
+  ---
+  duration_ms: 0.665554
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 55 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 0.758163
+  ...
+1..55
+# tests 55
+# suites 0
+# pass 55
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12289.885669

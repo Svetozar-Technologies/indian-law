@@ -72,11 +72,23 @@ test("refresh workflow uses plain sync commit message for one chunk", async () =
   assert.doesNotMatch(workflow, /Refresh generated law pages \(chunk \$chunk\)/);
 });
 
-test("refresh workflow advertises the canonical deployed site path", async () => {
+test("refresh workflow advertises the default GitHub Pages project URL", async () => {
   const workflow = await readFile(".github/workflows/refresh-laws.yml", "utf8");
 
-  assert.match(workflow, /^\s+url: https:\/\/law\.satyavera\.in\/indian-law\/$/m);
+  assert.match(workflow, /^\s+url: https:\/\/svetozar-technologies\.github\.io\/indian-law\/$/m);
+  assert.doesNotMatch(workflow, /url:\s*https:\/\/law\.satyavera\.in/);
   assert.doesNotMatch(workflow, /url:\s*\$\{\{\s*steps\.deployment\.outputs\.page_url\s*\}\}/);
+});
+
+test("refresh workflow clears stale GitHub Pages custom domain settings", async () => {
+  const workflow = await readFile(".github/workflows/refresh-laws.yml", "utf8");
+
+  assert.match(workflow, /name: Clear GitHub Pages custom domain/);
+  assert.match(workflow, /GH_TOKEN: \$\{\{ github\.token \}\}/);
+  assert.match(workflow, /gh api "repos\/\$\{\{ github\.repository \}\}\/pages" --jq '\.cname \/\/ ""'/);
+  assert.match(workflow, /--field cname=null/);
+  assert.match(workflow, /--field build_type=workflow/);
+  assert.match(workflow, /default github\.io project URL remains reachable/);
 });
 
 test("CI workflow treats live-source partial output as a recoverable smoke result", async () => {
