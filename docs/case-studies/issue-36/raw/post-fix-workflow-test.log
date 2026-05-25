@@ -1,0 +1,45 @@
+TAP version 13
+# Subtest: refresh workflow force-adds ignored discovered manifests before checkpoint commits
+ok 1 - refresh workflow force-adds ignored discovered manifests before checkpoint commits
+  ---
+  duration_ms: 6.941694
+  ...
+# Subtest: refresh workflow prints checkpoint staging diagnostics
+ok 2 - refresh workflow prints checkpoint staging diagnostics
+  ---
+  duration_ms: 1.723803
+  ...
+# Subtest: refresh workflow uses one-hour checkpoint chunks by default
+ok 3 - refresh workflow uses one-hour checkpoint chunks by default
+  ---
+  duration_ms: 1.268163
+  ...
+# Subtest: refresh workflow uses plain sync commit message for one chunk
+ok 4 - refresh workflow uses plain sync commit message for one chunk
+  ---
+  duration_ms: 2.011633
+  ...
+# Subtest: refresh workflow advertises the default GitHub Pages project URL
+ok 5 - refresh workflow advertises the default GitHub Pages project URL
+  ---
+  duration_ms: 0.806305
+  ...
+# Subtest: refresh workflow clears stale GitHub Pages custom domain settings
+ok 6 - refresh workflow clears stale GitHub Pages custom domain settings
+  ---
+  duration_ms: 0.773615
+  ...
+# Subtest: CI workflow treats live-source partial output as a recoverable smoke result
+ok 7 - CI workflow treats live-source partial output as a recoverable smoke result
+  ---
+  duration_ms: 0.815508
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 75.29408

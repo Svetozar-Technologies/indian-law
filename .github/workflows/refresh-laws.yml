@@ -45,7 +45,7 @@ jobs:
     timeout-minutes: 75
     environment:
       name: github-pages
-      url: https://law.satyavera.in/indian-law/
+      url: https://svetozar-technologies.github.io/indian-law/
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -173,6 +173,26 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
+
+      - name: Clear GitHub Pages custom domain
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          current_cname="$(gh api "repos/${{ github.repository }}/pages" --jq '.cname // ""')"
+          if [ -z "$current_cname" ]; then
+            echo "No GitHub Pages custom domain is configured."
+            exit 0
+          fi
+
+          echo "::notice::Removing GitHub Pages custom domain $current_cname so the default github.io project URL remains reachable."
+          gh api \
+            --method PUT \
+            "repos/${{ github.repository }}/pages" \
+            --field cname=null \
+            --field build_type=workflow \
+            --silent
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v5
