@@ -2,14 +2,14 @@
 title: "The Electricity Act, 2003"
 language: en
 part: 2
-parts: 4
+parts: 3
 line_limit: 1500
 source: "https://www.indiacode.nic.in/handle/123456789/2058"
 ---
 # The Electricity Act, 2003
 
 Language: English
-Part 2 of 4
+Part 2 of 3
 Sections: 47 to 104
 
 > Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
