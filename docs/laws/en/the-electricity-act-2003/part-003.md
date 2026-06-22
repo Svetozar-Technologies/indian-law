@@ -2,15 +2,15 @@
 title: "The Electricity Act, 2003"
 language: en
 part: 3
-parts: 3
+parts: 4
 line_limit: 1500
 source: "https://www.indiacode.nic.in/handle/123456789/2058"
 ---
 # The Electricity Act, 2003
 
 Language: English
-Part 3 of 3
-Sections: 105 to 132
+Part 3 of 4
+Sections: 105 to 165
 
 > Editorial note: This page is generated from official public source data with source links, section anchors, and processing metadata added by this repository.
 
@@ -664,3 +664,776 @@ who have been affected by the aforesaid sale or transfer;
 
 (b) payment of debt or other liabilities of the transferor as may be required by the existing loan
 covenants.
+
+## Section 133 - Provisions relating to officers and employees.
+
+(1) The State Government may, by a transfer
+scheme, provide for the transfer of the officers and employees to the transferee on the vesting of
+properties, rights and liabilities in such transferee as provided under section 131.
+
+(2) Upon such transfer under the transfer scheme, the personnel shall hold office or service under the
+transferee on such terms and conditions as may be determined in accordance with the transfer scheme:
+
+Provided that such terms and conditions on the transfer shall not in any way be less favourable than
+those which would have been applicable to them if there had been no such transfer under the transfer
+scheme:
+
+Provided further that the transfer can be provisional for a stipulated period.
+
+Explanation.--For the purposes of this section and the transfer scheme, the expression "officers and
+employees" shall mean all officers and employees who on the date specified in the scheme are the officers
+and employees of the Board or transferor, as the case may be.
+
+## Section 134 - Payment of compensation or damages on transfer.
+
+Notwithstanding anything contained in
+the Industrial Disputes Act, 1947 (14 of 1947) or any other law for the time being in force and except for
+the provisions made in this Act, the transfer of the employment of the officers and employees referred to
+in sub-section (1) of section 133 shall not entitle such officers and employees to any compensation or
+damages under this Act, or any other Central or State law, save as provided in the transfer scheme.
+
+## Section 135 - Theft of Electricity.
+
+^26
+[(1) Whoever, dishonestly,--
+
+(a) taps, makes or causes to be made any connection with overhead, underground or under water
+lines or cables, or service wires, or service facilities of a licensee or supplier, as the case may be; or
+
+(b) tampers a meter, installs or uses a tampered meter, current reversing transformer, loop
+connection or any other device or method which interferes with accurate or proper registration,
+calibration or metering of electric current or otherwise results in a manner whereby electricity is
+stolen or wasted; or
+
+(c) damages or destroys an electric meter, apparatus, equipment, or wire or causes or allows any
+of them to be so damaged or destroyed as to interfere with the proper or accurate metering of
+electricity; or
+
+(d) uses electricity through a tampered meter; or
+
+(e) uses electricity for the purpose other than for which the usage of electricity was authorised,
+
+so as to abstract or consume or use electricity shall be punishable with imprisonment for a term which
+may extend to three years or with fine or with both:
+
+Provided that in a case where the load abstracted, consumed, or used or attempted abstraction or
+attempted consumption or attempted use--
+
+(i) does not exceed 10 kilowatt, the fine imposed on first conviction shall not be less than
+three times the financial gain on account of such theft of electricity and in the event of second or
+subsequent conviction the fine imposed shall not be less than six times the financial gain on
+account of such theft of electricity;
+
+(ii) exceeds 10 kilowatt, the fine imposed on first conviction shall not be less than three times
+the financial gain on account of such theft of electricity and in the event of second or subsequent
+conviction, the sentence shall be imprisonment for a term not less than six months, but which may
+extend to five years and with fine not less than six times the financial gain on account of such
+theft of electricity:
+
+Provided further that in the event of second and subsequent conviction of a person where the load
+abstracted, consumed, or used or attempted abstraction or attempted consumption or attempted use
+exceeds 10 kilowatt, such person shall also be debarred from getting any supply of electricity for a
+period which shall not be less than three months but may extend to two years and shall also be
+debarred from getting supply of electricity for that period from any other source or generating station:
+
+Provided also that if it is proved that any artificial means or means not authorised by the Board or
+licensee or supplier, as the case may be, exist for the abstraction, consumption or use of electricity by
+the consumer, it shall be presumed, until the contrary is proved, that any abstraction, consumption or
+use of electricity has been dishonestly caused by such consumer.
+
+(1A) Without prejudice to the provisions of this Act, the licensee or supplier, as the case may be,
+may, upon detection of such theft of electricity, immediately disconnect the supply of electricity:
+
+Provided that only such officer of the licensee or supplier, as authorised for the purpose by the
+Appropriate Commission or any other officer of the licensee or supplier, as the case may be, of the
+rank higher than the rank so authorised shall disconnect the supply line of electricity:
+
+Provided further that such officer of the licensee or supplier, as the case may be, shall lodge a
+complaint in writing relating to the commission of such offence in police station having jurisdiction
+within twenty-four hours from the time of such disconnection:
+
+Provided also that the licensee or supplier, as the case may be, on deposit or payment of the
+assessed amount or electricity charges in accordance with the provisions of this Act, shall, without
+prejudice to the obligation to lodge the complaint as referred to in the second proviso to this clause,
+restore the supply line of electricity within forty-eight hours of such deposit or payment.]
+
+(2) ^2
+[Any officer of the licensee or supplier as the case may be, authorised] in this behalf by the State
+Government may--
+
+(a) enter, inspect, break open and search any place or premises in which he has reason to believe that
+electricity ^3
+[has been or is being], used unauthorisedly;
+
+(b) search, seize and remove all such devices, instruments, wires and any other facilitator or
+article which 1
+has been, or is being, used for unauthorised use of electricity;
+
+(c) examine or seize any books of account or documents which in his opinion shall be useful for
+or relevant to, any proceedings in respect of the offence under sub-section (1) and allow the person
+from whose custody such books of account or documents are seized to make copies thereof or take
+extracts therefrom in his presence.
+
+(3) The occupant of the place of search or any person on his behalf shall remain present during the
+search and a list of all things seized in the course of such search shall be prepared and delivered to such
+occupant or person who shall sign the list:
+
+Provided that no inspection, search and seizure of any domestic places or domestic premises shall be
+carried out between sunset and sunrise except in the presence of an adult male member occupying such
+premises.
+
+(4) The provisions of the Code of Criminal Procedure, 1973 (2 of 1974), relating to search and seizure
+shall apply, as far as may be, to searches and seizure under this Act.
+
+### Footnotes
+
+1. Subs. by Act 26 of 2007, s. 13, for sub-section (1) (w.e.f. 15-6-2007).
+
+2. Subs. by Act 26 of 2007, s. 13, for "Any officer authorised" (w.e.f. 15-6-2007).
+
+3. Subs. by Act 57 of 2003, s. 5, for "has been, is being, or is likely to be," (w.e.f. 27-1-2004).
+
+## Section 136 - Theft of electric lines and materials.
+
+(1) Whoever, dishonestly--
+
+(a) cuts or removes or takes way or transfers any electric line, material or meter from a tower,
+pole, any other installation or place of installation or any other place, or site where it may be
+rightfully or lawfully stored, deposited, kept, stocked, situated or located including during
+transportation, without the consent of the licensee or the owner, as the case may be, whether or not
+the act is done for profit or gain; or
+
+(b) stores, possesses or otherwise keeps in his premises, custody or control, any electric line,
+material or meter without the consent of the owner, whether or not the act is committed for profit or
+gain; or
+
+(c) loads, carries, or moves from one place to another any electric line, material or meter without
+the consent of its owner, whether or not the act is done for profit or gain,
+
+is said to have committed an offence of theft of electric lines and materials, and shall be punishable with
+imprisonment for a term which may extend to three years or with fine or with both.
+
+(2) If a person, having been convicted of an offence punishable under sub-section (1) is again guilty
+of an offence punishable under that sub-section, he shall be punishable for the second or subsequent
+offence for a term of imprisonment which shall not be less than six months but which may extend to five
+years and shall also be liable to fine which shall not be less than ten thousand rupees.
+
+## Section 137 - Punishment for receiving stolen property.
+
+Whoever, dishonestly receives any stolen electric
+line or material knowing or having reasons to believe the same to be stolen property, shall be punishable
+with imprisonment of either description for a term which may extend to three years or with fine or with
+both.
+
+## Section 138 - Interference with meters or works of licensee.
+
+(1) Whoever,--
+
+(a) unauthorisedly connects any meter, indicator or apparatus with any electric line through which
+electricity is supplied by a licensee or disconnects the same from any such electric line; or
+
+(b) unauthorisedly reconnects any meter, indicator or apparatus with any electric line or other
+works being the property of a licensee when the said electric line or other works has or have been cut
+or disconnected; or
+
+(c) lays or causes to be laid, or connects up any works for the purpose of communicating with any
+other works belonging to a licensee; or.
+
+(d) maliciously injures any meter, indicator, or apparatus belonging to a licensee or wilfully or
+fraudulently alters the index of any such meter, indicator or apparatus or prevents any such meter,
+indicator or apparatus from duly registering,
+
+shall be punishable with imprisonment for a term which may extend to three years, or with fine which
+may extend to ten thousand rupees, or with both, and, in the case of a continuing offence, with a daily fine
+which may extend to five hundred rupees; and if it is proved that any means exist for making such
+connection as is referred to in clause (a) or such re-connection as is referred to in clause (b), or such
+communication as is referred to in clause (c), for causing such alteration or prevention as is referred to in
+clause (d), and that the meter, indicator or apparatus is under the custody or control of the consumer,
+whether it is his property or not, it shall be presumed, until the contrary is proved, that such connection,
+reconnection, communication, alteration, prevention or improper use, as the case may be, has been
+knowingly and wilfully caused by such consumer.
+
+## Section 139 - Negligently breaking or damaging works.
+
+^1
+[139. Negligently breaking or damaging works.--Whoever, negligently breaks, injures, throws
+down or damages any material connected with the supply of electricity, shall be punishable with fine
+which may extend to ten thousand rupees.]
+
+### Footnotes
+
+1. Subs. by Act 57 of 2003, s. 6, for sections 139 and 140 (w.e.f. 27-4-2004).
+
+## Section 140 - Penalty for intentionally injuring works.
+
+^1[Whoever, with intent to cut off the supply of
+electricity, cuts or injures, or attempts to cut or injure, any electric supply line or works, shall be
+punishable with fine which may extend to ten thousand rupees.]
+
+### Footnotes
+
+1. Subs. by Act 57 of 2003, s. 6, for sections 139 and 140 (w.e.f. 27-1-2004).
+
+## Section 141 - Extinguishing public lamps.
+
+Whoever, maliciously extinguishes any public lamp shall be
+punishable with fine which may extend to two thousand rupees.
+
+## Section 142 - Punishment for non-compliance of directions by Appropriate Commission.
+
+In case any
+complaint is filed before the Appropriate Commission by any person or if that Commission is satisfied
+that any person has contravened any of the provisions of this Act or the rules or regulations made
+thereunder, or any direction issued by the Commission, the Appropriate Commission may after giving
+such person an opportunity of being heard in the matter, by order in writing, direct that, without prejudice
+to any other penalty to which he may be liable under this Act, such person shall pay, by way of penalty,
+which shall not exceed one lakh rupees for each contravention and in case of a continuing failure with an
+additional penalty which may extend to six thousand rupees for every day during which the failure
+continues after contravention of the first such direction.
+
+## Section 143 - Power to adjudicate.
+
+(1) For the purpose of adjudging under this Act, the Appropriate
+Commission shall appoint any of its Members to be an adjudicating officer for holding an inquiry in such
+manner as may be prescribed by the Appropriate Government, after giving any person concerned a
+reasonable opportunity of being heard for the purpose of imposing any penalty.
+
+(2) While holding an inquiry, the adjudicating officer shall have power to summon and enforce the
+attendance of any person acquainted with the facts and circumstances of the case to give evidence or
+produce any document which in the opinion of the adjudicating officer, may be useful for or relevant to
+the subject-matter of the inquiry, and if, on such inquiry, he is satisfied that the person has failed to
+comply with the provisions of section 29 or section 33 or section 43, he may impose such penalty as he
+thinks fit in accordance with the provisions of any of those sections.
+
+## Section 144 - Factors to be taken into account by adjudicating officer.
+
+While adjudicating the quantum of
+penalty under section 29 or section 33 or section 43, the adjudicating officer shall have due regard to the
+following factors, namely:--
+
+(a) the amount of disproportionate gain or unfair advantage, wherever quantifiable, made as a
+result of the default;
+
+(b) the repetitive nature of the default.
+
+## Section 145 - Civil courts not to have jurisdiction.
+
+No civil court shall have jurisdiction to entertain any suit
+or proceeding in respect of any matter which an assessing officer referred to in section 126 or an appellate
+authority referred to in section 127 or the adjudicating officer appointed under this Act is empowered by
+or under this Act to determine and no injunction shall be granted by any court or other authority in respect
+of any action taken or to be taken in pursuance of any power conferred by or under this Act.
+
+## Section 146 - Punishment for non-compliance of orders or directions.
+
+Whoever, fails to comply with any
+order or direction given under this Act, within such time as may be specified in the said order or direction
+or contravenes or attempts or abets the contravention of any of the provisions of this Act or any rules or
+regulations made thereunder, shall be punishable with imprisonment for a term which may extend to three
+months or with fine which may extend to one lakh rupees, or with both in respect of each offence and in
+the case of a continuing failure, with an additional fine which may extend to five thousand rupees for
+every day during which the failure continues after conviction of the first such offence:
+
+^1
+[Provided that nothing contained in this section shall apply to the orders, instructions or directions
+issued under section 121.]
+
+### Footnotes
+
+1. Ins. by Act 57 of 2003, s. 7 (w.e.f. 27-1-2004).
+
+## Section 147 - Penalties not to affect other liabilities.
+
+The penalties imposed under this Act shall be in
+addition to, and not in derogation of, any liability in respect of payment of compensation or, in the case of
+a licensee, the revocation of his licence which the offender may have incurred.
+
+## Section 148 - Penalty where works belong to Government.
+
+The provisions of this Act shall, so far as they
+are applicable, be deemed to apply also when the acts made punishable thereunder are committed in the
+case of electricity supplied by or of works belonging to the Appropriate Government.
+
+## Section 149 - Offences by companies.
+
+(1) Where an offence under this Act has been committed by a
+company, every person who at the time the offence was committed was in charge of and was responsible
+to the company for the conduct of the business of the company, as well as the company shall be deemed
+to be guilty of having committed the offence and shall be liable to be proceeded against and punished
+accordingly:
+
+Provided that nothing contained in this sub-section shall render any such person liable to any
+punishment if he proves that the offence was committed without his knowledge or that he had exercised
+all due diligence to prevent the commission of such offence.
+
+(2) Notwithstanding anything contained in sub-section (1), where an offence under this Act has been
+committed by a company and it is proved that the offence has been committed with the consent or
+connivance of or is attributable to any neglect on the part of any director, manager, secretary or other
+officer of the company, such director, manager, secretary or other officer shall also be deemed to be guilty
+of having committed such offence and shall be liable to be proceeded against and punished accordingly.
+
+Explanation.--For the purposes of this section,--
+
+(a) "company" means a body corporate and includes a firm or other association of individuals;
+and
+
+(b) "director", in relation to a firm, means a partner in the firm.
+
+## Section 150 - Abetment.
+
+(1) Whoever abets an offence punishable under this Act, shall, notwithstanding
+anything contained in the Indian Penal Code (45 of 1860), be punished with the punishment provided for
+the offence.
+
+(2) Without prejudice to any penalty or fine which may be imposed or prosecution proceeding which
+may be initiated under this Act or any other law for the time being in force, if any officer or other
+employee of the Board or the licensee enters into or acquiesces in any agreement to do, abstains from
+doing, permits, conceals or connives at any act or thing whereby any theft of electricity is committed, he
+shall be punishable with imprisonment for a term which may extend to three years, or with fine, or with
+both.
+
+^1
+[(3) Notwithstanding anything contained in sub-section (1) of section 135, sub-section (1) of section
+136, section 137 and section 138, the licence or certificate of competency or permit or such other
+authorisation issued under the rules made or deemed to have been made under this Act to any person who
+acting as an electrical contractor, supervisor or worker abets the commission of an offence punishable
+under sub-section (1) of section 135, sub-section (1) of section 136, section 137, or section 138, on his
+conviction for such abetment, may also be cancelled by the licensing authority:
+
+Provided that no order of such cancellation shall be made without giving such person an opportunity
+of being heard.
+
+Explanation.--For the purposes of this sub-section, "licencing authority" means the officer who for the
+time being in force is issuing or renewing such licence or certificate of competency or permit or such
+other authorisation.]
+
+### Footnotes
+
+1. Ins. by Act 26 of 2007, s. 14 (w.e.f. 15-6-2007).
+
+## Section 151 - Cognizance of offences.
+
+No court shall take cognizance of an offence punishable under this Act
+except upon a complaint in writing made by the Appropriate Government or Appropriate Commission or
+any of their officer authorised by them or a Chief Electrical Inspector or an Electrical Inspector or
+licensee or the generating company, as the case may be, for this purpose.
+
+^1[Provided that the court may also take cognizance of an offence punishable under this Act upon a
+report of a police officer filed under section 173 of the Code of Criminal Procedure, 1973 (2 of 1974):
+
+Provided further that a special court constituted under section 153 shall be competent to take
+cognizance of an offence without the accused being committed to it for trial.]
+
+STATE AMENDMENT
+
+Karnataka
+
+Substitution of section 151.--For section 151 of the Electricity Act, 2003 (Central Act 36 of 2003),
+the following shall be substituted, namely:--
+
+"151. Institution of prosecution.--No prosecution, shall be instituted against may person for any
+offence under this Act or any rule, regulation, licence or order made or issued there under, except at the
+instance of the State Government or a licencee or a generating company under the Act or an officer
+authorised in this behalf by the State Government or a licencee or a generating company or by any person
+affected by the act alleged to constitute the offence."
+
+[Vide Karnataka Act 12 of 2006, s. 2]
+
+Maharashtra
+
+Substitution of section 151 of Act 36 of 2003.---For section 151 of the Electricity Act, 2003 (36 of 2003), in
+its application to the State of Maharashtra (hereinafter referred to as "the principal Act"), the following section shall
+be substituted, namely:--
+
+"151. Cognizance of offences.--No court shall take cognizance of an offence punishable under this Act
+except,--
+
+(a) upon a complaint in writing made by Appropriate Government or Appropriate Commission or any of
+their officer authorised by them or a Chief Electrical Inspector or an Electrical Inspector or a licensee or the
+generating company, as the case may be, for this purpose; or
+
+(b) upon a police report of facts which constitute an offence:
+
+Provided that, such police report is based on the First Information Report filed a person who is authorised to file
+a complaint under clause (a).
+
+[Vide Maharashtra Act 36 of 2005, s. 2]
+
+### Footnotes
+
+1. Ins. by s.15, ibid. (w.e.f. 15-6-2007).
+
+## Section 151A - Power of police to investigate.
+
+^1
+[151A. Power of police to investigate.--For the purposes of investigation of an offence punishable
+under this Act, the police officer shall have all the powers as provided in Chapter XII of the Code of
+Criminal Procedure, 1973 (2 of 1974).]
+
+### Footnotes
+
+1. Ins. by s.16, ibid. (w.e.f. 15-6-2007).
+
+## Section 151B - Certain offences to be cognizable and non-bailable.
+
+^1[151B. Certain offences to be cognizable and non-bailable.--Notwithstanding anything contained in
+the Code of Criminal Procedure, 1973 (2 of 1974), an offence punishable under sections 135 to 140 or
+section 150 shall be cognizable and non-bailable.]
+
+### Footnotes
+
+1. Ins. by s.16, ibid. (w.e.f. 15-6-2007).
+
+## Section 152 - Compounding of offences.
+
+(1) Notwithstanding anything contained in the Code of Criminal
+Procedure, 1973 (2 of 1974), the Appropriate Government or any officer authorised by it in this behalf
+may accept from any consumer or person who committed or who is reasonably suspected of having
+committed an offence of theft of electricity punishable under this Act, a sum of money by way ofcompounding of the offence as specified in the Table below:
+
+TABLE
+
+Nature of Service Rate at which the sum of money for compounding to be collected per
+Kilowatt (KW)/Horse Power (HP) or part thereof for Low Tension
+(LT) supply and per Kilo Volt Ampere (KVA) of contracted demand
+for High Tension (HT)
+
+(1) (2)
+1. Industrial Service twenty thousand rupees;
+
+2. Commercial Service ten thousand rupees;
+
+3. Agricultural Service two thousand rupees;
+
+4. Other Services four thousand rupees:
+
+Provided that the Appropriate Government may, by notification in the Official Gazette, amend the
+rates specified in the Table above.
+
+(2) On payment of the sum of money in accordance with sub-section (1), any person in custody in
+connection with that offence shall be set at liberty and no proceedings shall be instituted or continued
+against such consumer or person in any criminal court.
+
+(3) The acceptance of the sum of money for compounding an offence in accordance with
+sub-section (1) by the Appropriate Government or an officer empowered in this behalf shall be deemed to
+amount to an acquittal within the meaning of section 300 of the Code of Criminal Procedure, 1973 (2 of
+1974).
+
+(4) The compounding of an offence under sub-section (1) shall be allowed only once for any person
+or consumer.
+
+## Section 153 - Constitution of Special Courts.
+
+(1) The State Government may, for the purposes of providing
+speedy trial of offences referred to in ^1[sections 135 to 140 and section 150], by notification in the
+Official Gazette, constitute as many Special Courts as may be necessary for such area or areas, as may be
+specified in the notification.
+
+(2) A Special Court shall consist of a single Judge who shall be appointed by the State Government
+with the concurrence of the High Court.
+
+(3) A person shall not be qualified for appointment as a Judge of a Special Court unless he was,
+immediately before such appointment, an Additional District and Sessions Judge.
+
+(4) Where the office of the Judge of a Special Court is vacant, or such Judge is absent from the
+ordinary place of sitting of such Special Court, or he is incapacitated by illness or otherwise for the
+performance of his duties, any urgent business in the Special Court shall be disposed of--
+
+(a) by a Judge, if any, exercising jurisdiction in the Special Court;
+
+(b) where there is no such other Judge available, in accordance with the direction of District and
+Sessions Judge having jurisdiction over the ordinary place of sitting of Special Court, as notified
+under sub-section (1).
+
+STATE AMENDMENTS
+
+Maharashtra.--
+
+Amendment of section 153 of Act (36 of 2003).--In section 153 of the principal Act, after sub-section (4), the
+following sub-section shall be added, namely:--
+
+"(5) Where no Special Court for any area or areas has been constituted under sub-section (1), one or more
+Additional District and Sessions Judges, as may be designated by the High Court, for such area or areas, from time
+to time, shall exercise the powers of the Special Court under this Act and any Judge so designated shall be deemed
+to be a special Court for the purposes of this Act."
+
+[Vide Maharashtra Act 36 of 2005, s. 3]
+
+### Footnotes
+
+1. Subs. by Act 26 of 2007, s. 17, for "sections 135 to 139" (w.e.f. 15-6-2007).
+
+## Section 154 - Procedure and power of Special Court.
+
+(1) Notwithstanding anything contained in the Code
+of Criminal Procedure, 1973 (2 of 1974), every offence punishable under ^1
+[sections 135 to 140 and
+section 150] shall be triable only by the Special Court within whose jurisdiction such offence has been
+committed.
+
+(2) Where it appears to any court in the course of any inquiry or trial that an offence punishable under
+^1[sections 135 to 140 and section 150] in respect of any offence that the case is one which is triable by a
+Special Court constituted under this Act for the area in which such case has arisen, it shall transfer such
+case to such Special Court, and thereupon such case shall be tried and disposed of by such Special Court
+in accordance with the provisions of this Act:
+
+Provided that it shall be lawful for such Special Court to act on the evidence, if any, recorded by any
+court in the case of presence of the accused before the transfer of the case to any Special Court:
+
+Provided further that if such Special Court is of opinion that further examination, cross-examination
+and re-examination of any of the witnesses whose evidence has already been recorded, is required in the
+interest of justice, it may re-summon any such witness and after such further examination, crossexamination
+or re-examination, if any, as it may permit, the witness shall be discharged.
+
+(3) The Special Court may, notwithstanding anything contained in sub-section (1) of section 260 or
+section 262 of the Code of Criminal Procedure, 1973 (2 of 1974), try the offence referred to in ^1[sections
+135 to 140 and section 150] in a summary way in accordance with the procedure prescribed in the said
+Code and the provisions of sections 263 to 265 of the said Code shall, so far as may be, apply to such
+trial:
+
+Provided that where in the course of a summary trial under this subsection, it appears to the Special
+Court that the nature of the case is such that it is undesirable to try such case in summary way, the Special
+Court shall recall any witness who may have been examined and proceed to re-hear the case in the
+manner provided by the provisions of the said Code for the trial of such offence:
+
+Provided further that in the case of any conviction in a summary trial under this section, it shall be
+lawful for a Special Court to pass a sentence of imprisonment for a term not exceeding five years.
+
+(4) A Special Court may, with a view to obtaining the evidence of any person supposed to have been
+directly or indirectly concerned in or privy to, any offence tender pardon to such person on condition of
+his making a full and true disclosure of the circumstances within his knowledge relating to the offence
+and to every other person concerned whether as principal or abettor in the commission thereof, and any
+pardon so tendered shall, for the purposes of section 308 of the Code of Criminal Procedure, 1973
+(2 of 1974), be deemed to have been tendered under section 307 thereof.
+
+(5) The ^2[Special Court shall] determine the civil liability against a consumer or a person in terms of
+money for theft of energy which shall not be less than an amount equivalent to two times of the tariff rate
+applicable for a period of twelve months preceding the date of detection of theft of energy or the exact
+period of theft if determined whichever is less and the amount of civil liability so determined shall be
+recovered as if it were a decree of civil court.
+
+(6) In case the civil liability so determined finally by the Special Court is less than the amount
+deposited by the consumer or the person, the excess amount so deposited by the consumer or the person,
+to the Board or licensee or the concerned person, as the case may be, shall be refunded by the Board or licensee or the concerned person, as the case may be, within a fortnight from the date of communication
+of the order of the Special Court together with interest at the prevailing Reserve Bank of India prime
+lending rate for the period from the date of such deposit till the date of payment.
+
+Explanation.--For the purposes of this section, "civil liability" means loss or damage incurred by the
+Board or licensee or the concerned person, as the case may be, due to the commission of an offence
+referred to in ^3[sections 135 to 140 and section 150.]
+
+STATE AMENDMENT
+
+Maharashtra.--
+
+Amendment of section 154 of Act 36 of 2003.--In section 154 of the principal Act, for sub-section (1),
+the following sub-section shall be substituted, namely:--
+
+"(1) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2 of 1974),--
+
+(a) every Special Court may take cognizance of an offence without the accused being committed to it
+for trial; and
+
+(b) every offence punishable under sections 135 to 139 shall be triable only by the Special Court
+within whose jurisdiction such offence has been committed."
+
+[Vide Maharashtra Act 36 of 2005, s. 4]
+
+### Footnotes
+
+1. Subs. by Act 26 of 2007, s. 18 for "sections 135 to 139" (w.e.f. 15-6-2007).
+
+2. Subs. by s. 18, ibid., for "Special Court may" (w.e.f. 15-6-2007).
+
+3. Subs. by Act 26 of 2007, s.18, for "sections 135 to 139" (w.e.f. 15-6-2007).
+
+## Section 155 - Special Court to have powers of Court of Session.
+
+Save as otherwise provided in this Act, the
+Code of Criminal Procedure, 1973 (2 of 1974), in so far as they are not inconsistent with the provisions of
+this Act, shall apply to the proceedings before the Special Court and for the purpose of the provisions of
+the said enactments, the Special Court shall be deemed to be a Court of Session and shall have all powers
+of a Court of Session and the person conducting a prosecution before the Special Court shall be deemed to
+be a Public Prosecutor.
+
+## Section 156 - Appeal and revision.
+
+The High Court may exercise, so far as may be applicable, all the powers
+conferred by Chapters XXIX and XXX of the Code of Criminal Procedure, 1973 (2 of 1974), as if the
+Special Court within the local limits of the jurisdiction of the High Court is a District Court, or as the case
+may be, the Court of Session, trying cases within the local limits of jurisdiction of the High Court.
+
+## Section 157 - Review.
+
+The Special Court may, on a petition or otherwise and in order to prevent miscarriage
+of justice, review its judgment or order passed under section 154, but no such review petition shall be
+entertained except on the ground that it was such order passed under a mistake of fact, ignorance of any
+material fact or any error apparent on the face of the record:
+
+Provided that the Special Court shall not allow any review petition and set aside its previous order or
+judgment without hearing the parties affected.
+
+Explanation.--For the purposes of this Part, "Special Courts" means the Special Courts constituted
+under sub-section (1) of section 153.
+
+## Section 158 - Arbitration.
+
+Where any matter is, by or under this Act, directed to be determined by arbitration,
+the matter shall, unless it is otherwise expressly provided in the licence of a licensee, be determined by
+such person or persons as the Appropriate Commission may nominate in that behalf on the application of
+either party; but in all other respects the arbitration shall be subject to the provisions of the Arbitration
+and Conciliation Act, 1996 (26 of 1996).
+
+## Section 159 - Protection of railways, highways, airports and canals, docks, wharfs and piers.
+
+No person
+shall, in the generation, transmission, distribution, supply or use of electricity, in any way injure any
+railway, highway, airports, tramway, canal or water-way or any dock, wharf or pier vested in or
+controlled by a local authority, or obstruct or interfere with the traffic on any railway, airway, tramway,
+canal or water-way.
+
+## Section 160 - Protection of telegraphic, telephonic and electric signalling lines.
+
+(1) Every person
+generating, transmitting, distributing, supplying or using electricity (hereinafter in this section referred to
+as the "operator") shall take all reasonable precautions in constructing, laying down and placing his
+electric lines, electrical plant and other works and in working his system, so as not injuriously to affect,
+whether by induction or otherwise, the working of any wire or line used for the purpose of telegraphic,
+telephone or electric signalling communication, or the currents in such wire or line.
+
+(2) Where any difference or dispute arises between the operator, and the telegraph authority as to
+whether the operator has constructed, laid down or placed his electric lines, electrical plant or other
+works, or worked his system, in contravention of sub-section (1), or as to whether the working of any
+wire, line or current is or is not injuriously affected thereby, the matter shall be referred to the Central
+Government and the Central Government, unless it is of opinion that the wire or line has been placed in
+unreasonable proximity to the electric lines, electrical plant or works of the operator after the construction
+of such lines, plant or works, may direct the operator to make such alterations in, or additions to, his
+system as may be necessary in order to comply with the provisions of this section, and the operator shall
+make such alterations or additions accordingly:
+
+Provided that nothing in this sub-section shall apply to the repair, renewal or amendment of any
+electric line or electrical plant so long as the course of the electric line or electrical plant and the amount
+and nature of the electricity transmitted thereby are not altered.
+
+(3) Where the operator makes default in complying with the requirements of this section, he shall
+make full compensation for any loss or damage incurred by reason thereof, and, where any difference or
+dispute arises as to the amount of such compensation, the matter shall be determined by arbitration.
+
+Explanation.--For the purposes of this section, a telegraph line shall be deemed to be injuriously
+affected if telegraphic, telephonic or electric signalling communication by means of such line is, whether
+through induction or otherwise, prejudicially interfered with by an electric line, electrical plant or other
+work or by any use made thereof.
+
+## Section 161 - Notice of accidents and injuries.
+
+(1) If any accident occurs in connection with the generation,
+transmission, distribution, supply or use of electricity in or in connection with, any part of the electric
+lines or electrical plant of any person and the accident results or is likely to have resulted in loss of human
+or animal life or in any injury to a human being or an animal, such person shall give notice of the
+occurrence and of any such loss or injury actually caused by the accident, in such form and within such
+time as may be prescribed, to the Electrical Inspector or such other person as aforesaid and to such other
+authorities as the Appropriate Government may by general or special order, direct.
+
+(2) The Appropriate Government may, if it thinks fit, require any Electrical Inspector, or any other
+person appointed by it in this behalf, to inquire and report--
+
+(a) as to the cause of any accident affecting the safety of the public, which may have been
+occasioned by or in connection with, the generation, transmission, distribution, supply or use of
+electricity, or
+
+(b) as to the manner in, and extent to, which the provisions of this Act or rules and regulations
+made thereunder or of any licence, so far as those provisions affect the safety of any person, have
+been complied with.
+
+(3) Every Electrical Inspector or other person holding an inquiry under sub-section (2) shall have all
+the powers of a civil court under the Code of Civil Procedure, 1908 (5 of 1908) for the purpose of
+enforcing the attendance of witnesses and compelling the production of documents and material objects,
+and every person required by an Electrical Inspector be legally bound to do so within the meaning of
+section 176 of the Indian Penal Code (45 of 1860).
+
+## Section 162 - Appointment of Chief Electrical Inspector and Electrical Inspector.
+
+(1) The Appropriate
+Government may, by notification, appoint duly qualified persons to be Chief Electrical Inspector or
+Electrical Inspectors and every such Inspector so appointed shall exercise the powers and perform the
+functions of a Chief Electrical Inspector or an Electrical Inspector under this Act and exercise such other
+powers and perform such other functions as may be prescribed within such areas or in respect of such
+class of works and electric installations and subject to such restrictions as the Appropriate Government
+may direct.
+
+(2) In the absence of express provision to the contrary in this Act, or any rule made thereunder, an
+appeal shall lie from the decision of a Chief Electrical Inspector or an Electrical Inspector to the
+Appropriate Government or if the Appropriate Government, by general or special order so directs, to an
+Appropriate Commission.
+
+STATE AMENDMENT
+
+Karnataka
+
+Amendment of section 162.--In section 162 of the Principal Act, after sub-section (2), the
+following shall be inserted, namely:--
+
+"(3) where no provision is made by Central Government or the Authority in respect of powers
+and functions and qualifications of Chief Electrical Inspector and Electrical Inspectors, the State
+Government may by rules prescribe the same".
+
+[Vide Karnataka Act 39 of 2014, s. 3]
+
+## Section 163 - Power for licensee to enter premises and to remove fittings or other apparatus of licensee.
+
+(1) A licensee or any person duly authorised by a licence may, at any reasonable time, and on informing
+the occupier of his intention, enter any premises to which electricity is, or has been, supplied by him, of
+any premises or land, under, over, along, across, in or upon which the electric supply-lines or other works
+have been lawfully placed by him for the purpose of--
+
+(a) inspecting, testing, repairing or altering the electric supply-lines, meters, fittings, works and
+apparatus for the supply of electricity belonging to the licensee; or
+
+(b) ascertaining the amount of electricity supplied or the electrical quantity contained in the
+supply; or
+
+(c) removing where a supply of electricity is no longer required, or where the licensee is
+authorised to take away and cut off such supply, any electric supply-lines, meters, fittings, works or
+apparatus belonging to the licensee.
+
+(2) A licensee or any person authorised as aforesaid may also, in pursuance of a special order in this
+behalf made by an Executive Magistrate and after giving not less than twenty-four hours notice in writing
+to the occupier,--
+
+(a) enter any premises or land referred to in sub-section (1) for any of the purposes mentioned
+therein;
+
+(b) enter any premises to which electricity is to be supplied by him, for the purpose of examining
+and testing the electric wires fittings, works and apparatus for the use of electricity belonging to the
+consumer.
+
+(3) Where a consumer refuses to allow a licensee or any person authorised as aforesaid to enter his
+premises or land in pursuance of the provisions of sub-section (1) or, sub-section (2), when such licensee
+or person has so entered, refuses to allow him to perform any act which he is authorised by those
+sub-sections to perform, or fails to give reasonable facilities for such entry or performance, the licensee
+may, after the expiry of twenty-four hours from the service of a notice in writing on the consumer, cut off
+the supply to the consumer for so long as such refusal or failure continues, but for no longer.
+
+## Section 164 - Exercise of powers of Telegraph Authority in certain cases.
+
+The Appropriate Government
+may, by order in writing, for the placing of electric lines or electrical plant for the transmission of
+electricity or for the purpose of telephonic or telegraphic communications necessary for the proper coordination
+of works, confer upon any public officer, licensee or any other person engaged in the business
+of supplying electricity under this Act, subject to such conditions and restrictions, if any, as the
+Appropriate Government may think fit to impose and to the provisions of the Indian Telegraph Act, 1885
+(13 of 1885), any of the powers which the telegraph authority possesses under that Act with respect to the
+placing of telegraph lines and posts for the purposes of a telegraph established or maintained, by the
+Government or to be so established or maintained.
+
+## Section 165 - Amendment of sections 40 and 41 of Act 1 of 1894.
+
+(1) In section 40, sub-section (1) of clause
+(b) and section 41, sub-section (5) of the Land Acquisition Act, 1894, the term "work" shall be deemed to
+include electricity supplied or to be supplied by means of the work to be constructed.
+
+(2) The Appropriate Government may, on recommendation of the Appropriate Commission in this
+behalf, if it thinks fit, on the application of any person, not being a company desirous of obtaining any
+land for its purposes, direct that he may acquire such land under the provisions of the Land Acquisition
+Act, 1894 (1 of 1894) in the same manner and on the same conditions as it might be acquired if the person
+were a company.
